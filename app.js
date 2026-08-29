@@ -32932,6 +32932,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pen\u00e9lope Cruz \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1974. Oscar-pr\u00e4mierte Schauspielerin, jahrzehntelange Zusammenarbeit mit Almod\u00f3var. Handwerk statt Rampenlicht, Verwandlungskunst als Beruf \u2013 der Waschb\u00e4r, der in jeder Rolle verschwindet und doch niemals verloren geht. Tierentsprechung: Waschb\u00e4r.",
     land:"Spanien", tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-johnny-cash", name:"Johnny Cash", added:"2026-08-29", subtyp:"SE3w4",
+    heading:"Johnny Cash – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · 1932–2003. US-amerikanischer Sänger und Songwriter, ›Man in Black‹, Folsom-Prison-Konzert 1968, jahrzehntelange Sucht und Comeback mit ›American Recordings‹. Vom Tod des Bruders Jack gezeichnet, baute er über fünf Jahrzehnte eine der stabilsten Karrieren der Country-Musik auf. Tierentsprechung: Waschbär.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-david-l-rathmer", name:"David L. Rathmer", added:"2026-07-20", subtyp:"SE3w4",
     heading:"David L. Rathmer \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w4 \u00b7 geb. 2003 in M\u00fcnster. Enneagramm-Profiler, Gr\u00fcnder der Ennea Scholars Academy, j\u00fcngster Wirtschaftssenator des Europ\u00e4ischen Wirtschaftssenats. Mitentwickler des Heilungskompass. Der Waschb\u00e4r, der das Enneagramm ins digitale Zeitalter \u00fcberf\u00fchrt. Tierentsprechung: Waschb\u00e4r.",
@@ -44834,7 +44838,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
@@ -44844,7 +44848,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
         beschreibung: "Statt auf vorhandene Ressourcen oder Startvorteile zu warten, entsteht aus begrenzten Mitteln, oft aus purer Findigkeit, ein tragfähiges, manchmal jahrzehntelang funktionierendes System.",
-        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt; Changpeng Zhao, der Binance nicht über öffentlichen Auftritt, sondern über technische Infrastruktur zur größten Kryptobörse der Welt aufbaute – ein radikal eigener Weg außerhalb bestehender Regelwerke, still errichtet statt inszeniert."
+        beleg: "Osho, der ›aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb‹ und später eine ganze Stadt mit eigenem Flughafen aufbaute; Madame Tussaud, die aus einem Handwerk ›ein Weltunternehmen‹ machte, das ›fast zweihundert Jahre nach ihrem Tod in Dutzenden Städten‹ weiterbesteht; Sadhguru: ›Der Waschbär macht aus dem Wenigen viel – leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze Wüste bepflanzt.‹; Dr. Annika von Mutius, die statt auf lautes Marketing über Jahre auf die technische Substanz eines KI-Matching-Systems setzte, bevor Empion mit Konzernen wie Procter & Gamble zusammenarbeitete – Aufmerksamkeit, die der Substanz folgte, nicht umgekehrt; Changpeng Zhao, der Binance nicht über öffentlichen Auftritt, sondern über technische Infrastruktur zur größten Kryptobörse der Welt aufbaute – ein radikal eigener Weg außerhalb bestehender Regelwerke, still errichtet statt inszeniert; Johnny Cash, der aus den Baumwollfeldern der Siedlungskolonie Dyess kommend über fünf Jahrzehnte eine der stabilsten Karrieren der Country-Musik aufbaute – trotz jahrzehntelanger Sucht und mehrerer Karriereeinbrüche eine Struktur, die auch schwerste Rückschläge überstand."
       },
       {
         titel: "Jahrelange, disziplinierte Übung im Verborgenen, bevor sich Meisterschaft zeigt",
@@ -72004,6 +72008,72 @@ function brynKenneyPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function johnnyCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johnny-cash-portrait.jpg" alt="Johnny Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Cash</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Sänger und Songwriter, 1932–2003 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
+          <p class="vb-intro">1944 starb sein älterer Bruder Jack im Alter von vierzehn Jahren, eine Woche nach einem schweren Unfall an einer Kreissäge in der Schulwerkstatt. Jack war der erklärte Lieblingssohn des Vaters Ray Cash gewesen, und Ray ließ seinen überlebenden Sohn jahrzehntelang spüren, wer aus seiner Sicht hätte sterben sollen. Johnny trug diese Schuld sein Leben lang mit sich – und begann früh, sich etwas aufzubauen, das niemand ihm mehr streitig machen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Baumeister der eigenen Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Wert entsteht nicht durch öffentliche Selbstinszenierung, sondern durch das funktionierende Ergebnis. Cash suchte nie die Anziehungskraft der sexuellen Drei oder die permanente Bühnenpräsenz der sozialen Drei – seine Energie floss in etwas Dauerhaftes: über fünf Jahrzehnte Tourneen, Hunderte von Alben, eine der längsten und stabilsten Karrieren der amerikanischen Musikgeschichte, aufgebaut trotz jahrzehntelanger Sucht, mehrerer Karriereeinbrüche und tiefer familiärer Krisen.</p>
+          <p class="vb-intro">Diese SE3-Logik zeigte sich auch strategisch: Sein legendäres Konzert im Folsom State Prison 1968 war keine spontane Geste, sondern eine sorgfältig geplante Karriereentscheidung, nachdem seine Verkaufszahlen eingebrochen waren – ein kalkulierter Neuanfang, der zugleich zu einem seiner künstlerisch bedeutendsten Werke wurde. Wo andere Musiker ihrer Zeit nachließen oder sich neu erfanden, um im Rampenlicht zu bleiben, baute Cash systematisch an einer Karrierestruktur, die auch Rückschläge überstehen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Mann in Schwarz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Funktionalität übersteigt: den Hunger nach Tiefe, nach dem, was unter der glänzenden Oberfläche der Country-Musik liegt. 1971 erklärte Cash in seinem Song „Man in Black", warum er stets schwarz gekleidet auftrat – als stellvertretende Trauer für die Armen, die Gefangenen, die Kranken, die alten Menschen, die im Vietnamkrieg Gefallenen. Kein Marketing-Gag, sondern eine bewusst gewählte, düster-authentische Bühnenfigur, die Solidarität mit den Übersehenen zur eigenen Identität machte.</p>
+          <p class="vb-intro">Dieselbe Vierertiefe durchzieht sein Songwriting: Lieder über Mord, Schuld, Gefängnis und Verzweiflung – „Folsom Prison Blues" mit der Zeile „I shot a man in Reno just to watch him die" schrieb er, ohne selbst je einen Menschen getötet zu haben, aus reiner Vorstellungskraft für das Dunkelste im Menschen. Diese Fähigkeit, sich in Schuld und Abgrund einzufühlen, dürfte auch aus der eigenen, nie vollständig verarbeiteten Schuld am Tod seines Bruders gespeist gewesen sein – die Vier, die die eigene Wunde in Kunst übersetzt, statt sie zu verbergen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Folsom Prison, 1968</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 13. Januar 1968 spielte Cash vor Insassen des Folsom State Prison in Kalifornien – ein Konzert, das er seit Jahren angeregt hatte, gegen den Widerstand seines eigenen Labels. Das Publikum aus verurteilten Straftätern reagierte mit einer Begeisterung, die Cashs eigene, jahrelange Nähe zu Sucht, Gesetzeskonflikten und persönlichem Absturz spiegelte – er selbst war zuvor mehrfach wegen Drogenbesitzes verhaftet worden, ohne je eine Haftstrafe abzusitzen.</p>
+          <p class="vb-intro">Das daraus entstandene Live-Album „At Folsom Prison" wurde zu einem der kommerziell erfolgreichsten und kulturell bedeutendsten Werke seiner Karriere – der Moment, in dem strategischer Karriereaufbau (SE3) und echte, tief empfundene Verbundenheit mit den Ausgestoßenen der Gesellschaft (w4) untrennbar zusammenfielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus echter innerer Tiefe eine dauerhafte, tragfähige Struktur zu bauen</strong>, statt Tiefe entweder zu verbergen oder sie flüchtig zur Schau zu stellen. Cash verband eine der beständigsten Karrieren der Musikgeschichte mit Songs, die bis heute als schonungslos ehrlich gelten – ein seltenes Gleichgewicht zwischen Struktur und Substanz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei Cash zeigte sich das in der über Jahre aufrechterhaltenen öffentlichen Fassade des kontrollierten „Man in Black", während er in den 1960er Jahren heimlich amphetamin- und barbituratabhängig war, bis zum körperlichen Zusammenbruch. Erst 1967/68 gelang mit Hilfe von June Carter und ihrer Familie der Ausstieg – eine Krise, die zeigt, wie viel Kraft es die SE3 kostet, ein funktionierendes Bild aufrechtzuerhalten, während im Inneren längst alles zu zerbrechen droht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin – auch ohne das Bild, das ich pflege.</em> Für die SE3w4 bedeutet das, Tiefe nicht länger nur als Songmaterial zu nutzen, sondern die eigene Verletzlichkeit ungeschminkt zuzulassen.</p>
+          <p class="vb-intro">Genau das geschah in seinen letzten Lebensjahren: Ab 1994 nahm Cash gemeinsam mit Produzent Rick Rubin die Reihe „American Recordings" auf – meist nur seine Stimme und eine akustische Gitarre, ohne die gewohnte Studio-Inszenierung. Seine 2002 veröffentlichte Coverversion von „Hurt" (Nine Inch Nails), aufgenommen kurz vor seinem Tod, zeigt einen sichtlich gezeichneten, gealterten Mann, der keine Rolle mehr spielt. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, sich selbst ganz ohne Fassade zu zeigen – vier Monate nach dem Tod seiner Frau June starb Johnny Cash am 12. September 2003.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);
@@ -137228,6 +137298,7 @@ function render() {
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
+      "beruehmte-johnny-cash": johnnyCashPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
