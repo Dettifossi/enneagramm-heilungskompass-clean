@@ -4800,6 +4800,7 @@ function render() {
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
+      "beruehmte-fritz-wepper": fritzWepperPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,

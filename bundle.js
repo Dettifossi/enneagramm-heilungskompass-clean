@@ -32936,6 +32936,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edita Gruberová – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · 1946–2021. Slowakische Koloratursopranistin, ›Königin der Koloratur‹, über 45 Jahre an der Wiener Staatsoper. Floh 1971 aus der Tschechoslowakei nach Wien, sang noch mit 72 Jahren anspruchsvollste Partien – für ihr Fach eine außergewöhnliche Karrierelänge. Tierentsprechung: Waschbär.",
     land:"Slowakei/Österreich", tags:["Musik"], gender:"f"},
+  { route:"beruehmte-fritz-wepper", name:"Fritz Wepper", added:"2026-08-29", subtyp:"SE1w9",
+    heading:"Fritz Wepper – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · 1941–2024. Deutscher Schauspieler, 24 Jahre als Harry Klein an der Seite von Horst Tappert in ›Derrick‹, danach fast 20 Jahre als Bürgermeister Wöller in ›Um Himmels Willen‹. Über 45 Jahre verlässliche, unaufgeregte Präsenz im deutschen Fernsehen, ohne je die Hauptrolle zu beanspruchen. Tierentsprechung: Adler.",
+    land:"Deutschland", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · 1923–2008. Deutscher Schauspieler, 24 Jahre und 281 Folgen lang Oberinspektor Derrick, der meistverkauften deutschen Fernsehserie aller Zeiten. Über zwei Jahrzehnte enge Zusammenarbeit mit Fritz Wepper. Verschwieg zeitlebens seine Mitgliedschaft in der Waffen-SS, die erst 2013 posthum bekannt wurde. Tierentsprechung: Waschbär.",
@@ -45038,7 +45042,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini", "Fritz Wepper"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
@@ -45053,7 +45057,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
         beschreibung: "Der Erfolg stellt sich häufig nicht früh oder plötzlich ein, sondern erst nach vielen Jahren stiller, oft unbeachteter Übung und wiederholten Scheiterns – getragen von einer Disziplin, die sich durch Misserfolg nicht entmutigen lässt.",
-        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung."
+        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung; Fritz Wepper, der über fast 45 Jahre hinweg nur zwei tragende Rollen im deutschen Fernsehen ausfüllte – 24 Jahre als Harry Klein in ›Derrick‹, fast 20 weitere Jahre als Bürgermeister Wöller in ›Um Himmels Willen‹ – kein ständiger Rollenwechsel, sondern beständige Verlässlichkeit über ein ganzes Berufsleben."
       },
       {
         titel: "Untadelige bürgerliche Fassade, hinter der sich – in der Schattenform – die dunkelste Tat verbirgt",
@@ -46903,6 +46907,66 @@ function giannaNanniniPortraitPage() {
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function fritzWepperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fritz-wepper-portrait.jpg" alt="Fritz Wepper" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Wepper</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1941–2024 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist kein hektischer Jäger. Er kreist ruhig, ausdauernd, über weite Strecken hinweg – und genau dieses lange, geduldige Kreisen beschreibt Fritz Weppers über sechs Jahrzehnte währende Schauspielkarriere treffender als jeder spektakuläre Durchbruch. Wepper wurde 1941 in München geboren; sein Vater Friedrich galt seit 1944 im Russlandfeldzug als vermisst und kehrte nie aus dem Krieg zurück. Schon mit neun Jahren stand er für den Bayerischen Rundfunk vor dem Mikrofon, wurde in den 1950er Jahren durch Auftritte in zahlreichen Kinderfilmen zum Kinderstar – eine öffentliche Laufbahn, die begann, bevor er den Verlust seines Vaters überhaupt verarbeiten konnte.</p>
+          <p class="vb-intro">Aus dieser frühen Prägung erwuchs eine Karriere von seltener Kontinuität, nicht eine des schnellen Ruhms. Der Adler, der als Kind bereits zu fliegen begann, aber sein ganzes Leben lang lieber kreiste, statt sich in den Sturzflug zu stürzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Verlässlichkeit über Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihr Vollkommenheitsstreben nach innen: auf die eigene Disziplin, das eigene Handwerk, die eigene Verlässlichkeit. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis, gepaart mit einem fast unerschütterlichen Arbeitsethos. Wepper lieferte diese Verlässlichkeit über ein halbes Jahrhundert: 24 Jahre lang, von 1974 bis 1998, spielte er als Harry Klein den Assistenten an der Seite von <a href="#beruehmte-horst-tappert">Horst Tappert (SE3w2)</a> in ›Derrick‹, danach fast zwei weitere Jahrzehnte, von 2002 bis 2021, den Bürgermeister Wöller in ›Um Himmels Willen‹ – 260 Folgen, eine der langlebigsten deutschen Fernsehserien überhaupt.</p>
+          <p class="vb-intro">Zwei Rollen, fast 45 Jahre am Stück, ohne größere Unterbrechung: Diese Kontinuität ist kein Zufall, sondern die stille Logik der SE1 – wer einmal Vertrauen aufgebaut hat, verteidigt es durch beständige, wiederholte Zuverlässigkeit, nicht durch ständige Neuerfindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die zweite Rolle als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt der selbsterhaltenden Eins Ruhe und Gleichmut statt Getriebenheit. Die SE1w9 muss niemanden von etwas überzeugen und sucht selten das Rampenlicht. Bemerkenswert an Weppers Karriere ist, dass er in beiden seiner prägendsten Rollen bewusst die zweite Geige spielte: Harry Klein war der Assistent, nicht der ermittelnde Oberinspektor; der Bürgermeister Wöller war Nebenfigur neben den Ordensschwestern im Zentrum der Serie. Kein Drang, die Hauptrolle zu beanspruchen, sondern die stille Bereitschaft, eine tragende, aber nie im Vordergrund stehende Funktion über Jahrzehnte auszufüllen.</p>
+          <p class="vb-intro">Auch abseits der Bühne trat Wepper selten mit Kontroversen oder Skandalen in Erscheinung – eine öffentliche Zurückhaltung, die zu seiner beständigen, unaufgeregten Bildschirmpräsenz passte. Der Neunerflügel trägt Frieden nach innen, statt Aufmerksamkeit nach außen zu suchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist offensichtlich: außergewöhnliche Verlässlichkeit über Jahrzehnte, zwei der langlebigsten Fernsehserien Deutschlands getragen, ohne dass die Qualität je nachließ. Millionen Zuschauer verbanden mit Wepper über Generationen hinweg dasselbe Gefühl von Vertrautheit und Verlässlichkeit.</p>
+          <p class="vb-intro">Der Schatten liegt tiefer verborgen als bei reaktiveren Subtypen. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 durch den Neunerflügel gedämpft, fast betäubt. Der frühe Verlust des Vaters im Krieg, über den er kaum öffentlich sprach, und der Tod seines jüngeren Bruders, des Schauspielers Elmar Wepper, nur wenige Monate vor seinem eigenen Tod 2024, deuten auf eine stille, selten offen verarbeitete Trauer hin – typisch für einen Subtyp, der eigene Bedürfnisse eher hinter der nächsten Aufgabe verschwinden lässt, als sie direkt zu benennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der stillen Pflicht zur echten Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – bei der SE1w9 von der erzwungenen, arbeitsbedingten Ruhe zur echten, selbstgewählten Ruhe. Wepper verkörperte diesen Weg auf seine eigene, unspektakuläre Art: ein Leben lang dieselbe verlässliche Präsenz, ohne den Drang, sich neu zu erfinden oder in den Vordergrund zu drängen.</p>
+          <p class="vb-intro">Der Adler, der als Kind zu fliegen begann und sein ganzes Leben lang in ruhigen, weiten Kreisen blieb, statt sich je in einen spektakulären Sturzflug zu stürzen – das ist das bleibende Bild dieses Subtyps: Beständigkeit, die keinen Applaus braucht, um wertvoll zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2) – Derrick-Partner"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
       ])}
     </div>
   `);
@@ -72881,7 +72945,7 @@ function horstTappertPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Ein Vierteljahrhundert kollegiale Verbundenheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. An Tapperts Seite spielte über all die 24 Jahre Fritz Wepper den Assistenten Harry Klein – trotz eines Altersunterschieds von achtzehn Jahren fanden die beiden schnell einen gemeinsamen Rhythmus, beruflich wie persönlich. Wepper selbst beschrieb ihr Verhältnis später als ›ein Vierteljahrhundert kollegiale Harmonie in der gemeinsamen Fernseharbeit‹.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. An Tapperts Seite spielte über all die 24 Jahre <a href="#beruehmte-fritz-wepper">Fritz Wepper (SE1w9)</a> den Assistenten Harry Klein – trotz eines Altersunterschieds von achtzehn Jahren fanden die beiden schnell einen gemeinsamen Rhythmus, beruflich wie persönlich. Wepper selbst beschrieb ihr Verhältnis später als ›ein Vierteljahrhundert kollegiale Harmonie in der gemeinsamen Fernseharbeit‹.</p>
           <p class="vb-intro">Diese über Jahrzehnte getragene, tragfähige Arbeitsbeziehung ist typische SE3w2-Energie: keine spektakuläre, kurzlebige Chemie, sondern eine still gewachsene, verlässliche Verbindung, die dem Format über Jahrzehnte hinweg Stabilität gab – zwei Menschen, die einander über ein ganzes Berufsleben hinweg trugen, ohne dass es viel Aufhebens darum gab.</p>
         </blockquote>
 
@@ -72910,9 +72974,9 @@ function horstTappertPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – Derrick-Partner"},
         {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
       ])}
     </div>
   `);
@@ -137432,6 +137496,7 @@ function render() {
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
+      "beruehmte-fritz-wepper": fritzWepperPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,

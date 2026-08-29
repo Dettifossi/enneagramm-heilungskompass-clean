@@ -1932,7 +1932,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini", "Fritz Wepper"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
@@ -1947,7 +1947,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
         beschreibung: "Der Erfolg stellt sich häufig nicht früh oder plötzlich ein, sondern erst nach vielen Jahren stiller, oft unbeachteter Übung und wiederholten Scheiterns – getragen von einer Disziplin, die sich durch Misserfolg nicht entmutigen lässt.",
-        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung."
+        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung; Fritz Wepper, der über fast 45 Jahre hinweg nur zwei tragende Rollen im deutschen Fernsehen ausfüllte – 24 Jahre als Harry Klein in ›Derrick‹, fast 20 weitere Jahre als Bürgermeister Wöller in ›Um Himmels Willen‹ – kein ständiger Rollenwechsel, sondern beständige Verlässlichkeit über ein ganzes Berufsleben."
       },
       {
         titel: "Untadelige bürgerliche Fassade, hinter der sich – in der Schattenform – die dunkelste Tat verbirgt",
@@ -3797,6 +3797,66 @@ function giannaNanniniPortraitPage() {
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function fritzWepperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fritz-wepper-portrait.jpg" alt="Fritz Wepper" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Wepper</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1941–2024 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist kein hektischer Jäger. Er kreist ruhig, ausdauernd, über weite Strecken hinweg – und genau dieses lange, geduldige Kreisen beschreibt Fritz Weppers über sechs Jahrzehnte währende Schauspielkarriere treffender als jeder spektakuläre Durchbruch. Wepper wurde 1941 in München geboren; sein Vater Friedrich galt seit 1944 im Russlandfeldzug als vermisst und kehrte nie aus dem Krieg zurück. Schon mit neun Jahren stand er für den Bayerischen Rundfunk vor dem Mikrofon, wurde in den 1950er Jahren durch Auftritte in zahlreichen Kinderfilmen zum Kinderstar – eine öffentliche Laufbahn, die begann, bevor er den Verlust seines Vaters überhaupt verarbeiten konnte.</p>
+          <p class="vb-intro">Aus dieser frühen Prägung erwuchs eine Karriere von seltener Kontinuität, nicht eine des schnellen Ruhms. Der Adler, der als Kind bereits zu fliegen begann, aber sein ganzes Leben lang lieber kreiste, statt sich in den Sturzflug zu stürzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Verlässlichkeit über Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihr Vollkommenheitsstreben nach innen: auf die eigene Disziplin, das eigene Handwerk, die eigene Verlässlichkeit. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis, gepaart mit einem fast unerschütterlichen Arbeitsethos. Wepper lieferte diese Verlässlichkeit über ein halbes Jahrhundert: 24 Jahre lang, von 1974 bis 1998, spielte er als Harry Klein den Assistenten an der Seite von <a href="#beruehmte-horst-tappert">Horst Tappert (SE3w2)</a> in ›Derrick‹, danach fast zwei weitere Jahrzehnte, von 2002 bis 2021, den Bürgermeister Wöller in ›Um Himmels Willen‹ – 260 Folgen, eine der langlebigsten deutschen Fernsehserien überhaupt.</p>
+          <p class="vb-intro">Zwei Rollen, fast 45 Jahre am Stück, ohne größere Unterbrechung: Diese Kontinuität ist kein Zufall, sondern die stille Logik der SE1 – wer einmal Vertrauen aufgebaut hat, verteidigt es durch beständige, wiederholte Zuverlässigkeit, nicht durch ständige Neuerfindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die zweite Rolle als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt der selbsterhaltenden Eins Ruhe und Gleichmut statt Getriebenheit. Die SE1w9 muss niemanden von etwas überzeugen und sucht selten das Rampenlicht. Bemerkenswert an Weppers Karriere ist, dass er in beiden seiner prägendsten Rollen bewusst die zweite Geige spielte: Harry Klein war der Assistent, nicht der ermittelnde Oberinspektor; der Bürgermeister Wöller war Nebenfigur neben den Ordensschwestern im Zentrum der Serie. Kein Drang, die Hauptrolle zu beanspruchen, sondern die stille Bereitschaft, eine tragende, aber nie im Vordergrund stehende Funktion über Jahrzehnte auszufüllen.</p>
+          <p class="vb-intro">Auch abseits der Bühne trat Wepper selten mit Kontroversen oder Skandalen in Erscheinung – eine öffentliche Zurückhaltung, die zu seiner beständigen, unaufgeregten Bildschirmpräsenz passte. Der Neunerflügel trägt Frieden nach innen, statt Aufmerksamkeit nach außen zu suchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist offensichtlich: außergewöhnliche Verlässlichkeit über Jahrzehnte, zwei der langlebigsten Fernsehserien Deutschlands getragen, ohne dass die Qualität je nachließ. Millionen Zuschauer verbanden mit Wepper über Generationen hinweg dasselbe Gefühl von Vertrautheit und Verlässlichkeit.</p>
+          <p class="vb-intro">Der Schatten liegt tiefer verborgen als bei reaktiveren Subtypen. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 durch den Neunerflügel gedämpft, fast betäubt. Der frühe Verlust des Vaters im Krieg, über den er kaum öffentlich sprach, und der Tod seines jüngeren Bruders, des Schauspielers Elmar Wepper, nur wenige Monate vor seinem eigenen Tod 2024, deuten auf eine stille, selten offen verarbeitete Trauer hin – typisch für einen Subtyp, der eigene Bedürfnisse eher hinter der nächsten Aufgabe verschwinden lässt, als sie direkt zu benennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der stillen Pflicht zur echten Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – bei der SE1w9 von der erzwungenen, arbeitsbedingten Ruhe zur echten, selbstgewählten Ruhe. Wepper verkörperte diesen Weg auf seine eigene, unspektakuläre Art: ein Leben lang dieselbe verlässliche Präsenz, ohne den Drang, sich neu zu erfinden oder in den Vordergrund zu drängen.</p>
+          <p class="vb-intro">Der Adler, der als Kind zu fliegen begann und sein ganzes Leben lang in ruhigen, weiten Kreisen blieb, statt sich je in einen spektakulären Sturzflug zu stürzen – das ist das bleibende Bild dieses Subtyps: Beständigkeit, die keinen Applaus braucht, um wertvoll zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2) – Derrick-Partner"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
       ])}
     </div>
   `);
@@ -7349,64 +7409,6 @@ function francisBaconPortraitPage() {
         {route:"krankheitsportraets-francis-bacon", label:"Krankheitsportr\u00e4t: Francis Bacon (SE7w8)"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function hazelBruggerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hazel-brugger-portrait.jpg" alt="Hazel Brugger" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hazel Brugger</p>
-        <p class="krim-portrait-typ">SO7w8 &middot; Sozialer Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Comedian, Kabarettistin &amp; Autorin, geb. 1993 &ndash; Tierentsprechung: Biber</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Biber</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 &ndash; und Hazel Brugger ist ein Biber, der auf der B\u00fchne baut. Der Biber erschafft etwas, wo vorher nichts war: Er staut Wasser auf, ver\u00e4ndert Landschaften, macht aus Stille Bewegung. Hazel Brugger betritt die B\u00fchne &ndash; und danach ist der Raum ein anderer. Nicht weil sie laut w\u00e4re. Sondern weil ihre Gedanken D\u00e4mme bauen, die das Wasser der Realit\u00e4t aufstauen und in eine andere Richtung lenken.</p>
-          <p class="vb-intro">Biber sind Einzelg\u00e4nger, die trotzdem f\u00fcr andere bauen. Sie konstruieren ihr Habitat nicht f\u00fcr die Galerie, sondern weil sie gar nicht anders k\u00f6nnen &ndash; und was entsteht, n\u00fctzt dem ganzen \u00d6kosystem. Hazel Brugger schreibt B\u00fccher, steht auf der B\u00fchne, moderiert, bloggt, podcastet, slamt. Der Biber hat immer ein neues Projekt. Und alle, die zuschauen, profitieren davon.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Sieben: Humor als Weltgestaltung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Subtyp der Sieben, der am st\u00e4rksten nach au\u00dfen wirkt &ndash; der, bei dem die Freude nicht nur pers\u00f6nlich bleibt, sondern zum gesellschaftlichen Projekt wird. Naranjo beschrieb diesen Subtyp als <em>Sacrifice</em>: Die SO7 gibt ihre eigene Energie in den Dienst einer gr\u00f6\u00dferen Idee &ndash; und findet darin ihre eigentliche Freude.</p>
-          <p class="vb-intro">F\u00fcr Hazel Brugger ist Humor kein Unterhaltungsformat. Es ist eine Erkenntnisform. Sie nimmt Alltagsbeobachtungen &ndash; \u00fcber Beziehungen, K\u00f6rper, Gesellschaft, Sprache &ndash; und dehnt sie so lange, bis die Absurdit\u00e4t, die immer schon darin steckte, sichtbar wird. Das ist die SO7 bei der Arbeit: Wirklichkeit so arrangieren, dass andere sie pl\u00f6tzlich anders sehen k\u00f6nnen. Der Biber baut keinen Damm f\u00fcr sich. Er baut ihn, damit sich das Wasser sammeln kann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Sch\u00e4rfe hinter dem Lachen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der sozialen Sieben eine Qualit\u00e4t, die nicht jeder Sieben zur Verf\u00fcgung steht: Schlagkraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann die Sieben ausweichen, verharmlosen, das Unangenehme in Humor aufl\u00f6sen, bevor es wirklich landet. Der Achterfl\u00fcgel h\u00e4lt dagegen. Er sagt: Nein, das darf auch treffen. Humor muss nicht immer kuschelig sein.</p>
-          <p class="vb-intro">Hazel Brugger ist nicht nur witzig &ndash; sie ist pr\u00e4zise. Ihre Pointen haben Z\u00e4hne. Sie seziert gesellschaftliche Selbstverst\u00e4ndlichkeiten mit einer Direktheit, die den Achterfl\u00fcgel verr\u00e4t: Kein Thema ist zu hei\u00df, keine Beobachtung zu unbequem, um auf der B\u00fchne ausgesprochen zu werden. Der Biber mit Achterfl\u00fcgel f\u00e4llt den Baum nicht z\u00f6gerlich. Er f\u00e4llt ihn genau dort, wo er gebraucht wird &ndash; und wundert sich nicht, wenn die Ersch\u00fctterung zu sp\u00fcren ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei oder auch Ma\u00dflosigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> oder auch <strong>Ma\u00dflosigkeit</strong>: der unstillbare Hunger nach Erfahrung, Ausdruck, Bedeutung. In der sozialen Sieben richtet sich dieser Hunger nicht auf Genuss im privaten Sinne, sondern auf Wirkung. Mehr Formate, mehr Perspektiven, mehr Themen, mehr Reichweite. Hazel Brugger steht nicht nur auf einer B\u00fchne. Sie schreibt, bloggt, podcastet, moderiert, slamt, ver\u00f6ffentlicht. Der Biber ruht nicht, solange es noch etwas zu bauen gibt.</p>
-          <p class="vb-intro">Das ist kein Getriebensein im neur\u00f6tischen Sinne &ndash; das ist die Sieben, die in der F\u00fclle des Ausdrucks ihre Heimat findet. Nicht Angst treibt den Biber. Es ist die Freude am n\u00e4chsten Damm, der noch nicht fertig ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: ein Lachen, das denkt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Hazel Brugger ihrem Publikum gibt, ist seltener als es klingt: ein Lachen, das denkt. Nicht Unterhaltung als Bet\u00e4ubung, sondern Humor als Erkenntnisweg. Man geht aus ihren Shows raus und sieht die Welt etwas schr\u00e4ger &ndash; und weil man sie schr\u00e4ger sieht, sieht man sie klarer. Das ist die Gabe der SO7w8: Freude, die sch\u00e4rft, statt zu bet\u00e4uben.</p>
-          <p class="vb-intro">Der Biber ver\u00e4ndert, was er ber\u00fchrt. Hazel Brugger ver\u00e4ndert, wie man denkt &ndash; mit Tempo, Tiefe und dem Achterfl\u00fcgel, der sicherstellt, dass die Pointe auch landet, wenn sie wehtut. Das ist die soziale Sieben mit Achterfl\u00fcgel. Das ist der Biber auf der B\u00fchne.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
-        {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
       ])}
     </div>
   `);

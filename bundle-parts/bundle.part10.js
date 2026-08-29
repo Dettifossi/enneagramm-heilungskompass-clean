@@ -1,3 +1,68 @@
+function madameTussaudPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-madame-tussaud-portrait.jpg" alt="Madame Tussaud" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madame Tussaud</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">1761&ndash;1850 &ndash; Wachsbildnerin, Museumsgr\u00fcnderin &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r, der ein Weltunternehmen aus Wachs baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das keine B\u00fchne braucht, um zu \u00fcberleben, sondern findige H\u00e4nde, ein wachsames Auge und die F\u00e4higkeit, aus jeder Umgebung, so feindlich sie auch sein mag, ein funktionierendes Auskommen zu bauen. Kaum eine Biografie zeigt dieses Muster so klar wie die von Marie Tussaud. Als Kind einer verarmten Familie in Stra\u00dfburg geboren, wuchs sie im Haushalt ihres Onkels, des Wachsbildners Philippe Curtius, auf und lernte von ihm ein Handwerk, das ihr fortan als einzige verl\u00e4ssliche Existenzgrundlage diente &ndash; durch eine Revolution, zwei L\u00e4nder und \u00fcber sechzig Jahre hinweg.</p>
+          <p class="vb-intro">Was als Kunstfertigkeit begann, wurde bei ihr zu einem Weltunternehmen: Die Marke \u201eMadame Tussauds" existiert heute, fast zweihundert Jahre nach ihrem Tod, in Dutzenden St\u00e4dten rund um den Globus. Kein Zufall, sondern das Ergebnis einer Frau, die praktisches K\u00f6nnen systematisch in dauerhafte Sicherheit verwandelte &ndash; der Waschb\u00e4r, der aus einem Handwerk ein Verm\u00e4chtnis macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: \u00dcberleben durch praktische Leistung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in \u00f6ffentlicher Bewunderung, sondern in der stillen Gewissheit, gebraucht zu werden und die eigene Existenz mit den eigenen H\u00e4nden sichern zu k\u00f6nnen. Wo die soziale Drei die B\u00fchne sucht, sucht die SE3 die Funktion &ndash; das, was tr\u00e4gt, auch wenn niemand applaudiert.</p>
+          <p class="vb-intro">Nirgendwo zeigt sich das dramatischer als w\u00e4hrend der Franz\u00f6sischen Revolution. Tussaud, die zuvor als Kunstlehrerin am Hof Ludwigs XVI. gearbeitet hatte, geriet unter Terrorherrschaft selbst in Verdacht und Gefangenschaft &ndash; ihr wurde, wie es die \u00dcberlieferung will, sogar der Kopf f\u00fcr die Guillotine geschoren, ehe eine F\u00fcrsprache sie rettete. Um zu \u00fcberleben, tat sie das einzig Pragmatische: Sie stellte ihr Handwerk in den Dienst der neuen Machthaber und fertigte Totenmasken der Hingerichteten an &ndash; teils von K\u00f6pfen, die sie selbst aus den Leichenbergen unter der Guillotine bergen musste, darunter, wie sie sp\u00e4ter schrieb, das Antlitz Ludwigs XVI. und Marie Antoinettes. Keine Loyalit\u00e4t war best\u00e4ndig genug, um Sicherheit zu bieten &ndash; nur die eigene, unentbehrliche Fertigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Das Kabinett des Schreckens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe, die reines Handwerk \u00fcbersteigt &ndash; ein Gesp\u00fcr f\u00fcr das Dramatische, das Abgr\u00fcndige, das, was unter der glatten Oberfl\u00e4che liegt. Bei Tussaud zeigt sich das in der ber\u00fchmten <em>Chamber of Horrors</em>, dem separaten Kabinett, in dem sie Totenmasken von Hingerichteten und Nachbildungen ber\u00fcchtigter Verbrecher versammelte &ndash; ein Raum, der nicht nur unterhielt, sondern die Besucher mit dem Abgrund menschlicher Gewalt konfrontierte.</p>
+          <p class="vb-intro">Diese Faszination f\u00fcr das Extreme war kein blo\u00dfes gesch\u00e4ftliches Kalk\u00fcl, auch wenn sie sich als solches gl\u00e4nzend bew\u00e4hrte. Sie war Ausdruck eines Blicks, der das Gew\u00f6hnliche nicht gen\u00fcgend fand: Tussaud modellierte nicht einfach \u00c4hnlichkeit, sie suchte den Moment, in dem ein Gesicht Charakter, Schicksal, Abgrund offenbart. Ihre sp\u00e4ten, sorgf\u00e4ltig komponierten Memoiren, in denen sie ihr eigenes Leben zwischen Hofdame und Revolutions\u00fcberlebender inszenierte, zeigen dieselbe Handschrift: die SE3 mit ausgepr\u00e4gtem Viererfl\u00fcgel, die ihre eigene Geschichte als einzigartig, unwiederholbar erz\u00e4hlt haben will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Terrorjahre: Als der Waschb\u00e4r im Kerker sa\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Monate ihrer Gefangenschaft w\u00e4hrend der Terrorherrschaft, in derselben Zelle wie die sp\u00e4tere Kaiserin Jos\u00e9phine de Beauharnais, sind das typologische Zentrum ihres Lebens. F\u00fcr die selbsterhaltende Drei, deren Sicherheit auf eigener Kontrolle und eigenem K\u00f6nnen beruht, ist v\u00f6llige Machtlosigkeit &ndash; das Ausgeliefertsein an eine willk\u00fcrliche Guillotine &ndash; die tiefste denkbare Bedrohung. Der Waschb\u00e4r, der eingesperrt keinen Ausweg findet, verliert f\u00fcr einen Moment genau das, was ihn definiert: die F\u00e4higkeit, sich selbst zu retten.</p>
+          <p class="vb-intro">Ihre Rettung, und der Preis daf\u00fcr, offenbaren den Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; ein Aufgeben der eigenen Position zugunsten dessen, was die Umst\u00e4nde gerade verlangen. Tussaud, freigelassen, weil man ihr handwerkliches K\u00f6nnen brauchte, fertigte fortan im Auftrag der Revolution\u00e4re genau jene Totenmasken der Guillotine-Opfer an, die sie zuvor selbst um ihr Leben hatten f\u00fcrchten lassen. Keine Trauer wurde \u00f6ffentlich gezeigt, keine Emp\u00f6rung ge\u00e4u\u00dfert &ndash; nur die stille, funktionale Anpassung an das, was \u00dcberleben in diesem Moment erforderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Ruhige, z\u00e4he Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tussauds Wirkung war nie die einer Rampenfigur. 1802 verlie\u00df sie Frankreich mit ihrer Wachsfigurensammlung Richtung England und tourte \u00fcber 33 Jahre durch Gro\u00dfbritannien und Irland &ndash; von Stadt zu Stadt, mit schweren Kisten, oft unter widrigsten Reisebedingungen, getrennt von ihrem in Frankreich zur\u00fcckgebliebenen Ehemann, allein mit ihren beiden S\u00f6hnen. Erst 1835, im Alter von vierundsiebzig Jahren, lie\u00df sie sich endg\u00fcltig in der Baker Street in London nieder und gr\u00fcndete das erste dauerhafte Museum.</p>
+          <p class="vb-intro">Diese jahrzehntelange, nie spektakul\u00e4re, aber nie erlahmende Beharrlichkeit ist reine SE3-Energie: kein Durchbruch \u00fcber Nacht, sondern eine lange Kette praktischer Entscheidungen, jede einzelne auf Sicherung des Fortbestands ausgerichtet. Sie \u00fcberzeugte durch die Qualit\u00e4t ihrer Arbeit, nicht durch pers\u00f6nliche Selbstdarstellung &ndash; ein Museum, das ihren Namen auch heute noch tr\u00e4gt, obwohl kaum jemand ihr Gesicht kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit \u00fcberdauert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Madame Tussaud der Welt hinterlie\u00df, l\u00e4sst sich nicht auf ein Kuriosit\u00e4tenkabinett reduzieren. Sie schuf eine der best\u00e4ndigsten Institutionen der Popul\u00e4rkultur &ndash; ein Museum, das bis auf den heutigen Tag in London und Dutzenden weiteren St\u00e4dten Millionen Besucher j\u00e4hrlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Franz\u00f6sischen Revolution z\u00e4hlen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
+          <p class="vb-intro">Das ist die SE3w4 in ihrer eindr\u00fccklichsten Gestalt: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-osho", label:"Portr\u00e4t: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function oshoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -360,7 +425,7 @@ function horstTappertPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Ein Vierteljahrhundert kollegiale Verbundenheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. An Tapperts Seite spielte über all die 24 Jahre Fritz Wepper den Assistenten Harry Klein – trotz eines Altersunterschieds von achtzehn Jahren fanden die beiden schnell einen gemeinsamen Rhythmus, beruflich wie persönlich. Wepper selbst beschrieb ihr Verhältnis später als ›ein Vierteljahrhundert kollegiale Harmonie in der gemeinsamen Fernseharbeit‹.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und zum kollegialen Miteinander. An Tapperts Seite spielte über all die 24 Jahre <a href="#beruehmte-fritz-wepper">Fritz Wepper (SE1w9)</a> den Assistenten Harry Klein – trotz eines Altersunterschieds von achtzehn Jahren fanden die beiden schnell einen gemeinsamen Rhythmus, beruflich wie persönlich. Wepper selbst beschrieb ihr Verhältnis später als ›ein Vierteljahrhundert kollegiale Harmonie in der gemeinsamen Fernseharbeit‹.</p>
           <p class="vb-intro">Diese über Jahrzehnte getragene, tragfähige Arbeitsbeziehung ist typische SE3w2-Energie: keine spektakuläre, kurzlebige Chemie, sondern eine still gewachsene, verlässliche Verbindung, die dem Format über Jahrzehnte hinweg Stabilität gab – zwei Menschen, die einander über ein ganzes Berufsleben hinweg trugen, ohne dass es viel Aufhebens darum gab.</p>
         </blockquote>
 
@@ -389,9 +454,9 @@ function horstTappertPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – Derrick-Partner"},
         {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
       ])}
     </div>
   `);
@@ -10942,184 +11007,6 @@ function franzLisztKrankheitsportraetPage() {
         {route:"krankheitsportraets-leonard-bernstein", label:"Krankheitsporträt: Leonard Bernstein (SX7w6) – letztes Konzert gegen ärztlichen Rat"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
-      ])}
-    </div>
-  `);
-}
-
-function francisBaconKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Francis Bacon</p>
-        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel · 1561–1626</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gorilla</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Francis Bacon</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk, seinen
-        politischen Aufstieg und Fall. Hier geht es ausschließlich um ein Kapitel, das dort nur
-        gestreift wird: eine über Jahrzehnte chronische Gesundheit voller Gicht, Nierensteinen
-        und Verdauungsbeschwerden – und einen Tod, der sich wie die letzte, tödliche Konsequenz
-        seines eigenen Forscherdrangs liest.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Bacon</strong> ist der <strong>selbsterhaltenden Sieben mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp die "versteckte Acht": eine Sieben, die ihre
-        Neugier und Genussfähigkeit mit der Durchsetzungskraft und Direktheit der Acht
-        verbindet, ohne diese offen zur Schau zu stellen. Genau diese Kombination aus
-        unstillbarem Forscherdrang und der Weigerung, vor körperlichen Grenzen
-        zurückzuschrecken, prägte auch seinen Umgang mit der eigenen Gesundheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Eine fragile Konstitution von Jugend an:</strong>
-        Zeitgenössische Berichte beschreiben Bacon bereits als jungen Mann als kränklich und
-        anfällig – eine körperliche Zerbrechlichkeit, die in auffälligem Kontrast zu seinem
-        unermüdlichen intellektuellen und politischen Tatendrang stand.</p>
-        <p class="vb-intro"><strong>b) Wiederkehrende Gichtanfälle seit dem mittleren Lebensalter:</strong>
-        Ab seinen Vierzigern litt Bacon zunehmend an schmerzhaften Gichtschüben, die ihn
-        zeitweise ans Bett fesselten – eine Erkrankung, die damals eng mit übermäßigem Genuss
-        von Fleisch und Wein in Verbindung gebracht wurde, dem Lebensstil eines Mannes, der am
-        Hof und in der Politik nie zurückhaltend auftrat.</p>
-        <p class="vb-intro"><strong>c) Nierensteine als ständiger Begleiter:</strong>
-        Parallel zur Gicht dokumentieren Bacons eigene Aufzeichnungen wiederkehrende, quälende
-        Nierenstein-Koliken, die ihn über Jahre begleiteten und seine juristische wie
-        wissenschaftliche Arbeit immer wieder unterbrachen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Krankheit als Randnotiz im überfüllten Terminkalender:</strong>
-        Trotz der wiederkehrenden Beschwerden finden sich in Bacons Briefen kaum Klagen über
-        die eigene Gesundheit – Krankheit wurde knapp erwähnt und dann zur nächsten Aufgabe
-        übergegangen, nie zum zentralen Thema gemacht.</p>
-        <p class="vb-intro"><strong>b) Ein Mann, der seine eigene Medizin praktizierte:</strong>
-        Bacon experimentierte selbst mit Ernährung, Heilkräutern und Lebensweisen, um seine
-        Beschwerden zu lindern – seine "Sylva Sylvarum", eine posthum veröffentlichte Sammlung
-        naturkundlicher Beobachtungen, enthält zahlreiche Notizen zu Gesundheit, Langlebigkeit
-        und Körperpflege, die vermutlich auch aus eigener Betroffenheit entstanden.</p>
-        <p class="vb-intro"><strong>c) Finanzielle Sorgen als zusätzliche Last:</strong>
-        Zeit seines Lebens verschuldet trotz hoher Ämter und beträchtlicher Einkünfte, lebte
-        Bacon in einem chronischen Spannungsfeld zwischen Repräsentationszwang und
-        finanzieller Unsicherheit – ein Dauerstress, der seine körperliche Verfassung
-        vermutlich zusätzlich belastete.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der Sturz von 1621 als zusätzliche Belastung:</strong>
-        Die Anklage wegen Bestechlichkeit, die Amtsenthebung und die kurze Haft im Tower
-        trafen einen bereits gesundheitlich angeschlagenen Mann in seinen Sechzigern –
-        Zeitgenossen berichteten von einem sichtbaren körperlichen Verfall in den Monaten nach
-        dem politischen Fall.</p>
-        <p class="vb-intro"><strong>b) Rückzug aufs Land, nicht Rückzug von der Arbeit:</strong>
-        Nach dem Verlust seiner Ämter zog sich Bacon auf sein Landgut Gorhambury zurück – doch
-        statt sich zu schonen, arbeitete er in den folgenden fünf Jahren so intensiv wie kaum
-        zuvor an seinen wissenschaftlichen Werken, oft bis in die frühen Morgenstunden.</p>
-        <p class="vb-intro"><strong>c) Die letzte Kutschfahrt im Winter 1626:</strong>
-        Auf dem Weg nach Highgate bei London kam Bacon im eisigen Winterwetter die Idee, ob
-        Kälte den Verwesungsprozess verzögern könnte – ein Gedanke, dem er sofort, ohne
-        Rücksicht auf die Witterung, experimentell nachging.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Das Hühnchen-Experiment:</strong>
-        Bacon hielt die Kutsche an, kaufte ein Hühnchen von einer Bäuerin und stopfte es
-        eigenhändig mit Schnee aus, um zu testen, ob Kälte Fäulnis verhindern könne – ein
-        früher, ernsthafter Versuch zur Lebensmittelkonservierung, Jahrhunderte vor der
-        modernen Kühltechnik.</p>
-        <p class="vb-intro"><strong>b) Zu krank für die Heimreise:</strong>
-        Bei dem Experiment zog sich Bacon eine schwere Erkältung zu, die sich rasch
-        verschlimmerte. Er war zu geschwächt, um zu seinem eigenen Haus zurückzukehren, und
-        wurde stattdessen ins nahegelegene Haus von Lord Arundel gebracht.</p>
-        <p class="vb-intro"><strong>c) Tod innerhalb weniger Tage:</strong>
-        Am 9. April 1626 starb Francis Bacon in Arundels Haus an einer Bronchitis oder
-        Lungenentzündung, die aus der Erkältung entstanden war – nur wenige Tage nach dem
-        Experiment, das seinen Tod auslöste.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Achterflügel, der auch die eigene Schwäche ignorierte:</strong>
-        Dieselbe Durchsetzungskraft, die Bacon durch politische Ämter und wissenschaftliche
-        Großprojekte trug, ließ ihn auch über die eigenen körperlichen Warnsignale
-        hinweggehen – Gicht, Nierensteine und ein bereits geschwächter Zustand hielten ihn
-        nicht davon ab, sich im Winter einem spontanen Experiment auszusetzen.</p>
-        <p class="vb-intro"><strong>b) Neugier ohne eingebaute Notbremse:</strong>
-        Die selbsterhaltende Sieben sucht Sicherheit normalerweise durch Vorsicht und
-        praktische Vorsorge – bei Bacon wich diese Vorsicht in seinem letzten Lebensjahrzehnt
-        zunehmend der reinen Entdeckerlust, die keine Rücksicht mehr auf die eigene
-        Verfassung nahm.</p>
-        <p class="vb-intro"><strong>c) Arbeit als einziges verbliebenes Terrain:</strong>
-        Nach dem Verlust seiner politischen Macht verlagerte sich die ganze Energie der SE7w8
-        auf das letzte Feld, das ihm blieb – die eigene Forschung –, mit einer Intensität, die
-        keine Grenze mehr zu kennen schien.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Leben in chronischem Schmerz, kaum thematisiert:</strong>
-        Jahrzehntelange Gicht und Nierensteine begleiteten Bacon durch seine gesamte
-        politische und wissenschaftliche Karriere, ohne dass er ihnen in seinen Schriften
-        nennenswerten Raum gab – Krankheit war für ihn ein Hindernis, das man umging, nicht
-        ein Thema, das man auslebte.</p>
-        <p class="vb-intro"><strong>b) Ein Tod, der zum Sinnbild des ganzen Lebens wurde:</strong>
-        Kaum ein anderes Krankheitsporträt dieses Kompasses zeigt eine derart wörtliche
-        Übereinstimmung zwischen Lebensmuster und Todesursache: Bacon starb nicht trotz,
-        sondern wegen seines unstillbaren Forscherdrangs – die gleiche Eigenschaft, die sein
-        gesamtes Werk trug, wurde ihm im entscheidenden Moment zum Verhängnis.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Erkältung?</strong>
-        Für eine selbsterhaltende Sieben mit Achterflügel, deren Sicherheit traditionell aus
-        praktischer Vorsorge und körperlicher Robustheit gespeist wird, liegt eine Deutung
-        nahe: Ausgerechnet eine banale, vermeidbare Erkältung – kein dramatisches Leiden,
-        sondern eine Nachlässigkeit im Angesicht der eigenen Neugier – wurde zur tödlichen
-        Konsequenz einer Lebenshaltung, die praktische Vorsicht der Entdeckerfreude
-        systematisch unterordnete. Diese Deutung wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
-        derartigen Unfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Bacons Fall zeigen lässt, ist ein Muster,
-        das bei ungebremster Neugier in der Praxis immer wieder auffällt – eine von vielen
-        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Bacon kannte sein eigenes Muster nicht – die selbsterhaltende Sieben mit Achterflügel verfolgt jede neue Idee bis zur letzten Konsequenz, ohne die eigene körperliche Verletzlichkeit mitzudenken, und genau das führte dazu, dass ausgerechnet ein spontanes Experiment in Winterkälte ihm den Tod brachte. Wer den eigenen Wissensdrang nicht als Muster erkennt, unterschätzt, wie leicht Neugier zur eigenen Gefährdung werden kann.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Bacons</strong> letzten Lebensjahren lässt sich die selbsterhaltende Sieben
-        mit Achterflügel in ihrer konsequentesten Form ablesen: eine über Jahrzehnte
-        chronische, kaum beklagte körperliche Bürde, die der unstillbaren Entdeckerfreude nie
-        wirklich Einhalt gebot – bis ein einziges spontanes Experiment im eisigen Winter zum
-        letzten wurde. Der Gorilla, der bis zum letzten Atemzug nach der nächsten Entdeckung
-        griff – und im Sterben noch ein Experiment machte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se7", label:"Subtyp-Profil SE7"},
       ])}
     </div>
   `);

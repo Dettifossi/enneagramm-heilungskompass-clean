@@ -1,3 +1,68 @@
+function igaSwiatekPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Iga \u015awi\u0105tek – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Iga \u015awi\u0105tek</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 2001 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Iga \u015awi\u0105tek beim Spielen beobachtet, versteht warum. Das Faultier wirkt, als schliefe es halb. Es bewegt sich nicht, wenn es sich nicht bewegen muss. Doch dieser Eindruck t\xe4uscht: Das Faultier ist perfekt an seine Umgebung angepasst. Jede Bewegung sitzt. Kein Energieaufwand ohne Notwendigkeit. Und wenn es zuschnappt &ndash; dann mit einer Pr\xe4zision, die verbl\xfcffend ist.</p>
+          <p class="vb-intro">Die polnische Tennisspielerin Iga \u015awi\u0105tek, 2001 in Warschau, Polen geboren, ist die dominanteste Tennisspielerin ihrer Generation. Sie gewann Roland Garros 2020, 2022, 2023 und 2024 &ndash; viermal das h\xe4rteste Sandplatz-Turnier der Welt. Dazu die US Open 2022. Sie war \xfcber 150 Wochen lang die Nummer eins der Weltrangliste. Und wer ihr dabei zusieht, fragt sich: Wie macht sie das so m\xfchelos?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Im Fluss verschwinden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp, den er <em>Vereinigung</em> nannte: die Suche nach vollst\xe4ndiger Verschmelzung mit dem Anderen &ndash; dem Partner, dem Spiel, dem Moment. Die SX9 verliert sich nicht. Sie findet sich &ndash; in einem Zustand vollst\xe4ndiger Pr\xe4senz, in dem Subjekt und Objekt eins werden. Was Sportpsychologen &ldquo;Flow&rdquo; nennen, ist f\xfcr die SX9 kein Ausnahmezustand. Es ist ihr Zuhause.</p>
+          <p class="vb-intro">\u015awi\u0105tek beschreibt ihr ideales Spiel genau so: kein Denken, kein Planen, kein innerer Kommentar. Einfach da sein und spielen. Der Ball kommt &ndash; sie antwortet. Nicht sie entscheidet, was sie tut. Die Situation entscheidet, und ihr K\xf6rper folgt. In diesen Momenten, sagt sie, f\xfchlt sich Tennis nicht wie Arbeit an. Es f\xfchlt sich an wie Atemholen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Der innere Richter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der sexuellen Neun etwas, das einer SX9 mit schwach ausgeprägtem Einserflügel fehlt: einen präzisen inneren Standard, eine Bereitschaft zur Selbstkritik, die F\xe4higkeit, die eigene Leistung k\xfchl zu beurteilen. Die <strong>SX9w1</strong> sucht nicht nur Versenkung &ndash; sie sucht eine Versenkung, die exzellent ist. Der Flow allein gen\xfcgt ihr nicht. Er muss auch stimmen.</p>
+          <p class="vb-intro">\u015awi\u0105tek arbeitet mit der Sportpsychologin Daria Abramowicz &ndash; eine ungew\xf6hnlich offene Entscheidung in einer Sportart, in der psychologische Unterst\xfctzung h\xe4ufig tabuisiert wird. Ihr Fehlerumgang ist auff\xe4llig: Sie reagiert nicht mit Wut oder Verzweiflung, sondern mit stiller Konzentration. Ein Fehler ist eine Information. Er sagt ihr, wo die Ausrichtung verrutscht ist. Der Einserfl\xfcgel macht aus der Neun keine Perfektionistin im neurotischen Sinn &ndash; aber eine Spielerin, die genau wei\xdf, wenn sie nicht bei sich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Die Dominanz der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">\u015awi\u0105teks Spiel besitzt eine Qualit\xe4t, die Kommentatoren immer wieder beschreiben, ohne sie ganz erkl\xe4ren zu k\xf6nnen: Sie wirkt nie gehetzt. Ihre Schl\xe4ge sind nicht h\xe4rter als die anderer Spielerinnen in ihrer \xc4ra &ndash; aber sie kommen genau dann, wenn der Druck maximal ist, und sie kommen mit einer Konsequenz, die M\xe4tchwinner ersch\xf6pft. \u015awi\u0105tek gewinnt nicht durch \xdcberrumpeln. Sie gewinnt, indem sie so lange vollst\xe4ndig pr\xe4sent bleibt, bis die Gegnerin aufgibt, es ihr gleichzutun.</p>
+          <p class="vb-intro">Ihr Vater Tomasz \u015awi\u0105tek war Ruderer bei den Olympischen Spielen 1988 in Seoul &ndash; ein Athlet, der Ausdauer und Rhythmus \xfcber explosive Kraft stellte. Die Familienpr\xe4gung ist sp\xfcrbar. \u015awi\u0105tek ist keine Spielerin der spektakul\xe4ren Einzelaktion. Sie ist eine Spielerin des anhaltenden Flusses. Nicht der gro\xdfe Moment &ndash; sondern das gro\xdfe Kontinuum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Wenn der Flow rei\u00dft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 ist ihre <strong>au\xdfergew\xf6hnliche Konzentrationskraft</strong>. \u015awi\u0105tek kann ganze Turniere in einem Zustand vollst\xe4ndiger Pr\xe4senz spielen, der bei anderen Spielerinnen nach wenigen S\xe4tzen nachl\xe4sst. Auf Sand ist sie praktisch unbesiegbar, wenn dieser Zustand anh\xe4lt. Der Einserfl\xfcgel sorgt daf\xfcr, dass sie aus Fehlern lernt, ohne sich in ihnen zu verlieren.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich im Flow &ndash; und wenn der Flow abrei\u00dft, bricht manchmal alles auf einmal zusammen. \u015awi\u0105tek verlor 2022 das French-Open-Viertelfinale gegen Iga Besidze in einem Satz, der aussah wie eine andere Spielerin. 2024 scheiterte sie im Wimbledon-Achtelfinale an Yulia Putintseva unter auff\xe4lligen Umst\xe4nden. In diesen Momenten zeigt sich, was passiert, wenn die SX9w1 aus ihrem Zentrum ger\xe4t: keine Wut, kein Kampf &ndash; eine Art stilles Verschwinden. Als w\xe4re die Verbindung einfach weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das fliegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Iga \u015awi\u0105tek ist 23 Jahre alt. Sie hat vier Grand-Slam-Titel gewonnen und ist die unangefochtene Nummer eins einer \xc4ra, in der das Frauentennis so ausgeglichen ist wie selten zuvor. Was sie von anderen trennt, ist nicht Muskelkraft oder Taktik. Es ist die F\xe4higkeit, vollst\xe4ndig im Moment zu sein &ndash; Satz f\xfcr Satz, Punkt f\xfcr Punkt, so lang wie n\xf6tig.</p>
+          <p class="vb-intro">Das Faultier sieht aus, als w\xfcrde es schlafen. Aber es befindet sich in einer Form der Pr\xe4senz, die Menschen selten erreichen. \u015awi\u0105tek spielt Tennis wie das Faultier h\xe4ngt: m\xfchelos, ruhig, vollkommen im Gleichgewicht mit dem, was ist. Und manchmal, wenn der Wind stimmt und der Ball genauso kommt wie er kommen soll, entsteht etwas, das wie Schwerelosigkeit aussieht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band\u00a01")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function steffiGrafPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7070,135 +7135,6 @@ function leonardCohenPortraitPage() {
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function wilsonGonzalezOchsenknechtPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-wilson-gonzalez-ochsenknecht-portrait.jpg" alt="Wilson Gonzalez Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Wilson Gonzalez Ochsenknecht</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1990 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier fest im engsten Familienverbund aufbaut und von dort aus in die Welt hinauswächst. Wilson Gonzalez Ochsenknecht trägt dieses Muster bereits im Namen: benannt nach der Soul-Legende Wilson Pickett, mit dem augenzwinkernden Zusatz Gonzalez als Verweis auf die Zeichentrickfigur Speedy Gonzales &ndash; ein Name, der von Anfang an von der Vorliebe und dem Humor seiner Eltern erzählt.</p>
-          <p class="vb-intro">Der deutsche Schauspieler Wilson Gonzalez Ochsenknecht wurde am 18. März 1990 in München geboren, als ältester Sohn von Uwe und Natascha Ochsenknecht. Gemeinsam mit seinem zwei Jahre jüngeren Bruder Jimi Blue und der später geborenen Schwester Cheyenne wuchs er in einer Familie auf, in der Schauspiel und öffentliche Sichtbarkeit von Anfang an zum Alltag gehörten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der erste Schritt gemeinsam mit dem Vater</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Wilson Gonzalez Ochsenknecht war dieser Kreis von Beginn an die eigene Familie: Mit zehn Jahren stand er erstmals gemeinsam mit seinem Vater Uwe und seinem Bruder Jimi Blue in Doris Dörries <em>Erleuchtung garantiert</em> vor der Kamera &ndash; der erste berufliche Schritt geschah nicht allein, sondern buchstäblich Seite an Seite mit den engsten Bezugspersonen.</p>
-          <p class="vb-intro">Bekannt wurde er wenig später mit der Kinderfilmreihe <em>Die Wilden Kerle</em>, in der er gemeinsam mit Jimi Blue eine ganze Generation deutscher Kinogänger prägte. Dieses Prinzip setzt sich bis heute fort: Seit gut einem Jahr ist er selbst Vater, und nach eigener Aussage werden Drehs und Projekte inzwischen immer zuerst mit Blick auf seine Tochter geplant &ndash; „alles andere wird erst mal hintangestellt". Die engste familiäre Basis bleibt der Ausgangspunkt für jede berufliche Entscheidung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zum Mehrfach-Künstler</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg in mehreren Feldern aufzubauen. Zwischen 2006 und 2007 besuchte Wilson Gonzalez Ochsenknecht die California Art Academy in Los Angeles und sammelte dort neben dem Schauspiel auch erste Erfahrungen im Musikgeschäft; im Mai 2008 erschien mit <em>Cookie</em> sein erstes Album im Alternative-Pop-Rock-Genre.</p>
-          <p class="vb-intro">Seither hat er sich über die reine Schauspielrolle hinaus zum Mehrfach-Künstler entwickelt: als Musiker, als Entwickler eigener Serienformate und 2025 mit der Hauptrolle in der ZDF-Sitcom <em>Späti</em> auch wieder verstärkt vor der Kamera. Der Dreierflügel fragt immer wieder: Wie baue ich aus dem, was ich kann, mehrere sichtbare Standbeine, statt mich auf eines zu beschränken?</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer kindlichen Karriere, die eng mit der eigenen Familie verwoben war, eine eigenständige, vielseitige künstlerische Identität zu entwickeln, ohne die familiäre Basis dabei zu verlieren. Wilson Gonzalez Ochsenknecht sagt selbst, dass durch die gemeinsame Reality-Doku <em>Diese Ochsenknechts</em> „ein positiveres Bild" der Familie entstanden sei &ndash; ein aktiver Beitrag zur eigenen Familienerzählung, statt sie anderen zu überlassen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Notwendigkeit werden, mehrere Rollen gleichzeitig auszufüllen &ndash; Schauspieler, Musiker, Serienentwickler, Vater &ndash;, statt sich auf eine zu konzentrieren. Dass er inzwischen bewusst Prioritäten setzt und Projekte der eigenen Tochter unterordnet, zeigt eine reife Form dieses Musters: Fürsorge, die sich selbst begrenzt, statt sich zu verzetteln.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Eine Karriere, die mit der Familie beginnt und mit ihr weiterwächst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wilson Gonzalez Ochsenknechts Weg lässt sich als durchgehende Linie lesen: der erste Filmauftritt gemeinsam mit Vater und Bruder, der Durchbruch mit <em>Die Wilden Kerle</em> an der Seite von Jimi Blue, die Rückkehr zur eigenen Familiengeschichte in der Reality-Doku, und heute die eigene Vaterschaft als neuer Fixpunkt aller beruflichen Entscheidungen.</p>
-          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Wilson Gonzalez Ochsenknechts Karriere vom Kinderstar zum Mehrfach-Künstler und Vater zeigt genau dieses Muster: Erfolg, der nie losgelöst von der Familie gedacht wird, sondern immer in Beziehung zu ihr.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Brüder-Parallele: Zwei Wege durch dieselbe Fixierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro"><strong>Derselbe erste Schritt, zur selben Zeit:</strong> Bei den meisten Geschwistern mit ähnlichen Berufswegen liegt zwischen den jeweils ersten Erfolgen ein zeitlicher Abstand oder ein eigener, getrennter Weg zur Öffentlichkeit. Bei Wilson Gonzalez und seinem zwei Jahre jüngeren Bruder Jimi Blue Ochsenknecht (SE2w3) nicht: Beide standen im Jahr 2000 gemeinsam, vor derselben Kamera, mit demselben Vater zum ersten Mal in einem Film. Die eigene berufliche Identität entstand bei beiden nicht neben der Familie, sondern buchstäblich aus ihr heraus, am selben Ort, im selben Moment &ndash; ein Muster, das für die selbsterhaltende Zwei charakteristisch ist: Sicherheit und erste Sichtbarkeit werden nicht allein erobert, sondern im engsten Kreis gemeinsam betreten.</p>
-          <p class="vb-intro"><strong>Zwei Standbeine, fast im gleichen Rhythmus:</strong> Auch der Dreierflügel zeigt sich bei beiden Brüdern in fast identischem Timing: Jimi Blue veröffentlichte 2007 sein Album <em>Mission Blue</em>, Wilson Gonzalez folgte 2008 mit <em>Cookie</em> &ndash; beide bauten sich, kaum ein Jahr auseinander, neben der Schauspielkarriere eine zweite, öffentlich sichtbare Bühne als Musiker auf, statt sich auf ein einziges Feld festzulegen. Wie sich dieses gemeinsame Grundmuster auch in Krisenphasen und in der gemeinsamen Familienbühne der Reality-Doku <em>Diese Ochsenknechts</em> fortsetzt, zeigt das Porträt von Jimi Blue Ochsenknecht (SE2w3).</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
-        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
-        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Schwester"},
-      ])}
-    </div>
-  `);
-}
-
-function nataschaOchsenknechtPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-natascha-ochsenknecht-portrait.jpg" alt="Natascha Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Natascha Ochsenknecht</p>
-        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Deutsches Model, TV-Persönlichkeit &amp; Unternehmerin, geb. 1964 &ndash; Tierentsprechung: Löwe</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Löwe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Tier, das nicht als Einzelkämpfer lebt, sondern seine Kraft in den Dienst des Rudels stellt. Kaum ein Bild passt so gut zu Natascha Ochsenknecht: Über Jahrzehnte stand sie im Zentrum einer weitverzweigten, öffentlich sichtbaren Familie &ndash; nicht als stille Randfigur, sondern als deren erkennbares Oberhaupt.</p>
-          <p class="vb-intro">Das deutsche Model Natascha Ochsenknecht, geboren am 17. August 1964 in Düsseldorf, wuchs im niedersächsischen Liedingen auf, wo ihr Vater in der Baubranche erfolgreich war. Bereits mit vierzehn Jahren begann sie, von ihrer Mutter darin bestärkt, als Model zu arbeiten; mit einundzwanzig zog sie nach München, um die Karriere hauptberuflich zu verfolgen &ndash; ein früher, selbstbestimmter Aufbruch aus dem behüteten Elternhaus.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Acht: Solidarität als Familienoberhaupt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist der Subtyp, den Naranjo <em>Solidarität</em> nannte. Die SO8 setzt ihre Kraft in den Dienst der Gruppe &ndash; der Familie, der Gemeinschaft. Sie kann äußerlich zugänglicher wirken als die anderen Achter-Subtypen, doch wer ihr Rudel angreift, bekommt die volle Kraft der Acht zu spüren. Durch ihre Ehe mit dem Schauspieler Uwe Ochsenknecht (1993&ndash;2012) und die gemeinsamen drei Kinder Wilson Gonzalez, Jimi Blue und Cheyenne Savannah wurde Natascha zur öffentlich wahrgenommenen Mittelpunktfigur einer der bekanntesten deutschen Familien.</p>
-          <p class="vb-intro">Auch nach der Scheidung blieb sie diese verbindende Kraft: Mit der Reality-Doku <em>Diese Ochsenknechts</em>, die seit 2022 in mittlerweile vier Staffeln den Alltag von ihr und ihren erwachsenen Kindern begleitet, hält sie die Familie als sichtbare Einheit zusammen &ndash; auch dann, wenn innerhalb der Familie, etwa zwischen Uwe und Tochter Cheyenne, offene Konflikte bestehen. Die SO8 gibt die Zugehörigkeit zum Rudel nicht auf, selbst wenn es innerhalb des Rudels kriselt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerflügel: Lebendigkeit statt Rückzug</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht Wärme, Optimismus und Beweglichkeit. Statt sich nach einer belastenden Lebensphase zurückzuziehen, übersetzte Natascha Ochsenknecht ihre Erfahrungen konsequent in neue, sichtbare Projekte: 2012 veröffentlichte sie ihre erste Autobiografie <em>Augen zu und durch</em>, die es auf die Spiegel-Bestsellerliste schaffte &ndash; ein öffentliches, unverblümtes Verarbeiten der eigenen Geschichte statt eines stillen Rückzugs.</p>
-          <p class="vb-intro">Auch unternehmerisch blieb sie aktiv: eigene Mode- und Kosmetiklinien, verschiedene mediale Auftritte als TV-Persönlichkeit und Autorin. Die SO8w7 bleibt selten lange in der Defensive &ndash; sie sucht aktiv das nächste Feld, in dem sie sichtbar und wirksam sein kann, statt sich von Rückschlägen dauerhaft bremsen zu lassen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sozialen Acht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO8w7 ist die Fähigkeit, auch nach persönlichen Brüchen &ndash; einer gescheiterten Ehe, einer öffentlich ausgetragenen Familiengeschichte &ndash; die eigene Familie als sichtbare, funktionierende Einheit zusammenzuhalten und dabei selbst lebendig und gestaltend zu bleiben, statt zu resignieren. Dass sie schon als Jugendliche von der Existenz einer Halbschwester erfuhr, zeigt zudem früh, wie sehr Familie für sie ein komplexes, nie ganz einfaches, aber zentrales Thema war.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Lust</strong> &ndash; im Sinne von Übermaß und dem Drang, die eigene Kraft und Kontrolle auszuleben. Bei der SO8w7 kann das zur Tendenz werden, das Familienleben auch dann öffentlich und dominant zu gestalten, wenn Zurückhaltung angebrachter wäre. Die anhaltenden öffentlichen Auseinandersetzungen innerhalb der Familie Ochsenknecht zeigen, wie schwer es für eine so stark bindende, sichtbare Kraft sein kann, private Konflikte auch einmal privat zu belassen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Eine Familie als sichtbares Rudel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Natascha Ochsenknechts Weg vom jungen Model aus Niedersachsen zur zentralen Figur einer der bekanntesten deutschen Familien zeigt eine durchgehende Konstante: die Familie nicht nur zu leben, sondern sie aktiv sichtbar und zusammengehalten zu halten &ndash; ob in der Ehe, nach der Scheidung, in Büchern oder vor der Kamera einer Reality-Serie.</p>
-          <p class="vb-intro">Der Löwe verlässt sein Rudel nicht, wenn es schwierig wird &ndash; er bleibt und verteidigt es, notfalls mit aller Kraft. Natascha Ochsenknechts Rolle als verbindendes Zentrum ihrer Familie, über alle Trennungen und öffentlichen Konflikte hinweg, zeigt genau dieses Muster: Solidarität, die nicht endet, wenn es unbequem wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
-        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – ehemaliger Ehemann"},
-        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
-        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
-        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
       ])}
     </div>
   `);

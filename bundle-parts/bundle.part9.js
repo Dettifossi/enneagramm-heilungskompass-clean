@@ -1,3 +1,132 @@
+function wilsonGonzalezOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wilson-gonzalez-ochsenknecht-portrait.jpg" alt="Wilson Gonzalez Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wilson Gonzalez Ochsenknecht</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1990 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier fest im engsten Familienverbund aufbaut und von dort aus in die Welt hinauswächst. Wilson Gonzalez Ochsenknecht trägt dieses Muster bereits im Namen: benannt nach der Soul-Legende Wilson Pickett, mit dem augenzwinkernden Zusatz Gonzalez als Verweis auf die Zeichentrickfigur Speedy Gonzales &ndash; ein Name, der von Anfang an von der Vorliebe und dem Humor seiner Eltern erzählt.</p>
+          <p class="vb-intro">Der deutsche Schauspieler Wilson Gonzalez Ochsenknecht wurde am 18. März 1990 in München geboren, als ältester Sohn von Uwe und Natascha Ochsenknecht. Gemeinsam mit seinem zwei Jahre jüngeren Bruder Jimi Blue und der später geborenen Schwester Cheyenne wuchs er in einer Familie auf, in der Schauspiel und öffentliche Sichtbarkeit von Anfang an zum Alltag gehörten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der erste Schritt gemeinsam mit dem Vater</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis und den engsten Kreis, bevor sie sich nach außen wendet. Bei Wilson Gonzalez Ochsenknecht war dieser Kreis von Beginn an die eigene Familie: Mit zehn Jahren stand er erstmals gemeinsam mit seinem Vater Uwe und seinem Bruder Jimi Blue in Doris Dörries <em>Erleuchtung garantiert</em> vor der Kamera &ndash; der erste berufliche Schritt geschah nicht allein, sondern buchstäblich Seite an Seite mit den engsten Bezugspersonen.</p>
+          <p class="vb-intro">Bekannt wurde er wenig später mit der Kinderfilmreihe <em>Die Wilden Kerle</em>, in der er gemeinsam mit Jimi Blue eine ganze Generation deutscher Kinogänger prägte. Dieses Prinzip setzt sich bis heute fort: Seit gut einem Jahr ist er selbst Vater, und nach eigener Aussage werden Drehs und Projekte inzwischen immer zuerst mit Blick auf seine Tochter geplant &ndash; „alles andere wird erst mal hintangestellt". Die engste familiäre Basis bleibt der Ausgangspunkt für jede berufliche Entscheidung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zum Mehrfach-Künstler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg in mehreren Feldern aufzubauen. Zwischen 2006 und 2007 besuchte Wilson Gonzalez Ochsenknecht die California Art Academy in Los Angeles und sammelte dort neben dem Schauspiel auch erste Erfahrungen im Musikgeschäft; im Mai 2008 erschien mit <em>Cookie</em> sein erstes Album im Alternative-Pop-Rock-Genre.</p>
+          <p class="vb-intro">Seither hat er sich über die reine Schauspielrolle hinaus zum Mehrfach-Künstler entwickelt: als Musiker, als Entwickler eigener Serienformate und 2025 mit der Hauptrolle in der ZDF-Sitcom <em>Späti</em> auch wieder verstärkt vor der Kamera. Der Dreierflügel fragt immer wieder: Wie baue ich aus dem, was ich kann, mehrere sichtbare Standbeine, statt mich auf eines zu beschränken?</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer kindlichen Karriere, die eng mit der eigenen Familie verwoben war, eine eigenständige, vielseitige künstlerische Identität zu entwickeln, ohne die familiäre Basis dabei zu verlieren. Wilson Gonzalez Ochsenknecht sagt selbst, dass durch die gemeinsame Reality-Doku <em>Diese Ochsenknechts</em> „ein positiveres Bild" der Familie entstanden sei &ndash; ein aktiver Beitrag zur eigenen Familienerzählung, statt sie anderen zu überlassen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Einsatz unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Notwendigkeit werden, mehrere Rollen gleichzeitig auszufüllen &ndash; Schauspieler, Musiker, Serienentwickler, Vater &ndash;, statt sich auf eine zu konzentrieren. Dass er inzwischen bewusst Prioritäten setzt und Projekte der eigenen Tochter unterordnet, zeigt eine reife Form dieses Musters: Fürsorge, die sich selbst begrenzt, statt sich zu verzetteln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Karriere, die mit der Familie beginnt und mit ihr weiterwächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wilson Gonzalez Ochsenknechts Weg lässt sich als durchgehende Linie lesen: der erste Filmauftritt gemeinsam mit Vater und Bruder, der Durchbruch mit <em>Die Wilden Kerle</em> an der Seite von Jimi Blue, die Rückkehr zur eigenen Familiengeschichte in der Reality-Doku, und heute die eigene Vaterschaft als neuer Fixpunkt aller beruflichen Entscheidungen.</p>
+          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Wilson Gonzalez Ochsenknechts Karriere vom Kinderstar zum Mehrfach-Künstler und Vater zeigt genau dieses Muster: Erfolg, der nie losgelöst von der Familie gedacht wird, sondern immer in Beziehung zu ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Brüder-Parallele: Zwei Wege durch dieselbe Fixierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Derselbe erste Schritt, zur selben Zeit:</strong> Bei den meisten Geschwistern mit ähnlichen Berufswegen liegt zwischen den jeweils ersten Erfolgen ein zeitlicher Abstand oder ein eigener, getrennter Weg zur Öffentlichkeit. Bei Wilson Gonzalez und seinem zwei Jahre jüngeren Bruder Jimi Blue Ochsenknecht (SE2w3) nicht: Beide standen im Jahr 2000 gemeinsam, vor derselben Kamera, mit demselben Vater zum ersten Mal in einem Film. Die eigene berufliche Identität entstand bei beiden nicht neben der Familie, sondern buchstäblich aus ihr heraus, am selben Ort, im selben Moment &ndash; ein Muster, das für die selbsterhaltende Zwei charakteristisch ist: Sicherheit und erste Sichtbarkeit werden nicht allein erobert, sondern im engsten Kreis gemeinsam betreten.</p>
+          <p class="vb-intro"><strong>Zwei Standbeine, fast im gleichen Rhythmus:</strong> Auch der Dreierflügel zeigt sich bei beiden Brüdern in fast identischem Timing: Jimi Blue veröffentlichte 2007 sein Album <em>Mission Blue</em>, Wilson Gonzalez folgte 2008 mit <em>Cookie</em> &ndash; beide bauten sich, kaum ein Jahr auseinander, neben der Schauspielkarriere eine zweite, öffentlich sichtbare Bühne als Musiker auf, statt sich auf ein einziges Feld festzulegen. Wie sich dieses gemeinsame Grundmuster auch in Krisenphasen und in der gemeinsamen Familienbühne der Reality-Doku <em>Diese Ochsenknechts</em> fortsetzt, zeigt das Porträt von Jimi Blue Ochsenknecht (SE2w3).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Schwester"},
+      ])}
+    </div>
+  `);
+}
+
+function nataschaOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-natascha-ochsenknecht-portrait.jpg" alt="Natascha Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natascha Ochsenknecht</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsches Model, TV-Persönlichkeit &amp; Unternehmerin, geb. 1964 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 &ndash; ein Tier, das nicht als Einzelkämpfer lebt, sondern seine Kraft in den Dienst des Rudels stellt. Kaum ein Bild passt so gut zu Natascha Ochsenknecht: Über Jahrzehnte stand sie im Zentrum einer weitverzweigten, öffentlich sichtbaren Familie &ndash; nicht als stille Randfigur, sondern als deren erkennbares Oberhaupt.</p>
+          <p class="vb-intro">Das deutsche Model Natascha Ochsenknecht, geboren am 17. August 1964 in Düsseldorf, wuchs im niedersächsischen Liedingen auf, wo ihr Vater in der Baubranche erfolgreich war. Bereits mit vierzehn Jahren begann sie, von ihrer Mutter darin bestärkt, als Model zu arbeiten; mit einundzwanzig zog sie nach München, um die Karriere hauptberuflich zu verfolgen &ndash; ein früher, selbstbestimmter Aufbruch aus dem behüteten Elternhaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität als Familienoberhaupt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist der Subtyp, den Naranjo <em>Solidarität</em> nannte. Die SO8 setzt ihre Kraft in den Dienst der Gruppe &ndash; der Familie, der Gemeinschaft. Sie kann äußerlich zugänglicher wirken als die anderen Achter-Subtypen, doch wer ihr Rudel angreift, bekommt die volle Kraft der Acht zu spüren. Durch ihre Ehe mit dem Schauspieler Uwe Ochsenknecht (1993&ndash;2012) und die gemeinsamen drei Kinder Wilson Gonzalez, Jimi Blue und Cheyenne Savannah wurde Natascha zur öffentlich wahrgenommenen Mittelpunktfigur einer der bekanntesten deutschen Familien.</p>
+          <p class="vb-intro">Auch nach der Scheidung blieb sie diese verbindende Kraft: Mit der Reality-Doku <em>Diese Ochsenknechts</em>, die seit 2022 in mittlerweile vier Staffeln den Alltag von ihr und ihren erwachsenen Kindern begleitet, hält sie die Familie als sichtbare Einheit zusammen &ndash; auch dann, wenn innerhalb der Familie, etwa zwischen Uwe und Tochter Cheyenne, offene Konflikte bestehen. Die SO8 gibt die Zugehörigkeit zum Rudel nicht auf, selbst wenn es innerhalb des Rudels kriselt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Lebendigkeit statt Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht Wärme, Optimismus und Beweglichkeit. Statt sich nach einer belastenden Lebensphase zurückzuziehen, übersetzte Natascha Ochsenknecht ihre Erfahrungen konsequent in neue, sichtbare Projekte: 2012 veröffentlichte sie ihre erste Autobiografie <em>Augen zu und durch</em>, die es auf die Spiegel-Bestsellerliste schaffte &ndash; ein öffentliches, unverblümtes Verarbeiten der eigenen Geschichte statt eines stillen Rückzugs.</p>
+          <p class="vb-intro">Auch unternehmerisch blieb sie aktiv: eigene Mode- und Kosmetiklinien, verschiedene mediale Auftritte als TV-Persönlichkeit und Autorin. Die SO8w7 bleibt selten lange in der Defensive &ndash; sie sucht aktiv das nächste Feld, in dem sie sichtbar und wirksam sein kann, statt sich von Rückschlägen dauerhaft bremsen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 ist die Fähigkeit, auch nach persönlichen Brüchen &ndash; einer gescheiterten Ehe, einer öffentlich ausgetragenen Familiengeschichte &ndash; die eigene Familie als sichtbare, funktionierende Einheit zusammenzuhalten und dabei selbst lebendig und gestaltend zu bleiben, statt zu resignieren. Dass sie schon als Jugendliche von der Existenz einer Halbschwester erfuhr, zeigt zudem früh, wie sehr Familie für sie ein komplexes, nie ganz einfaches, aber zentrales Thema war.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Lust</strong> &ndash; im Sinne von Übermaß und dem Drang, die eigene Kraft und Kontrolle auszuleben. Bei der SO8w7 kann das zur Tendenz werden, das Familienleben auch dann öffentlich und dominant zu gestalten, wenn Zurückhaltung angebrachter wäre. Die anhaltenden öffentlichen Auseinandersetzungen innerhalb der Familie Ochsenknecht zeigen, wie schwer es für eine so stark bindende, sichtbare Kraft sein kann, private Konflikte auch einmal privat zu belassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Familie als sichtbares Rudel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natascha Ochsenknechts Weg vom jungen Model aus Niedersachsen zur zentralen Figur einer der bekanntesten deutschen Familien zeigt eine durchgehende Konstante: die Familie nicht nur zu leben, sondern sie aktiv sichtbar und zusammengehalten zu halten &ndash; ob in der Ehe, nach der Scheidung, in Büchern oder vor der Kamera einer Reality-Serie.</p>
+          <p class="vb-intro">Der Löwe verlässt sein Rudel nicht, wenn es schwierig wird &ndash; er bleibt und verteidigt es, notfalls mit aller Kraft. Natascha Ochsenknechts Rolle als verbindendes Zentrum ihrer Familie, über alle Trennungen und öffentlichen Konflikte hinweg, zeigt genau dieses Muster: Solidarität, die nicht endet, wenn es unbequem wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – ehemaliger Ehemann"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function heidiKlumPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7199,71 +7328,6 @@ function davidLRathmerPortraitPage() {
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"bibel-salome", label:"Bibel-Portr\u00e4t: Salome (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function madameTussaudPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-madame-tussaud-portrait.jpg" alt="Madame Tussaud" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Madame Tussaud</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">1761&ndash;1850 &ndash; Wachsbildnerin, Museumsgr\u00fcnderin &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r, der ein Weltunternehmen aus Wachs baute</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das keine B\u00fchne braucht, um zu \u00fcberleben, sondern findige H\u00e4nde, ein wachsames Auge und die F\u00e4higkeit, aus jeder Umgebung, so feindlich sie auch sein mag, ein funktionierendes Auskommen zu bauen. Kaum eine Biografie zeigt dieses Muster so klar wie die von Marie Tussaud. Als Kind einer verarmten Familie in Stra\u00dfburg geboren, wuchs sie im Haushalt ihres Onkels, des Wachsbildners Philippe Curtius, auf und lernte von ihm ein Handwerk, das ihr fortan als einzige verl\u00e4ssliche Existenzgrundlage diente &ndash; durch eine Revolution, zwei L\u00e4nder und \u00fcber sechzig Jahre hinweg.</p>
-          <p class="vb-intro">Was als Kunstfertigkeit begann, wurde bei ihr zu einem Weltunternehmen: Die Marke \u201eMadame Tussauds" existiert heute, fast zweihundert Jahre nach ihrem Tod, in Dutzenden St\u00e4dten rund um den Globus. Kein Zufall, sondern das Ergebnis einer Frau, die praktisches K\u00f6nnen systematisch in dauerhafte Sicherheit verwandelte &ndash; der Waschb\u00e4r, der aus einem Handwerk ein Verm\u00e4chtnis macht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SE3: \u00dcberleben durch praktische Leistung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in \u00f6ffentlicher Bewunderung, sondern in der stillen Gewissheit, gebraucht zu werden und die eigene Existenz mit den eigenen H\u00e4nden sichern zu k\u00f6nnen. Wo die soziale Drei die B\u00fchne sucht, sucht die SE3 die Funktion &ndash; das, was tr\u00e4gt, auch wenn niemand applaudiert.</p>
-          <p class="vb-intro">Nirgendwo zeigt sich das dramatischer als w\u00e4hrend der Franz\u00f6sischen Revolution. Tussaud, die zuvor als Kunstlehrerin am Hof Ludwigs XVI. gearbeitet hatte, geriet unter Terrorherrschaft selbst in Verdacht und Gefangenschaft &ndash; ihr wurde, wie es die \u00dcberlieferung will, sogar der Kopf f\u00fcr die Guillotine geschoren, ehe eine F\u00fcrsprache sie rettete. Um zu \u00fcberleben, tat sie das einzig Pragmatische: Sie stellte ihr Handwerk in den Dienst der neuen Machthaber und fertigte Totenmasken der Hingerichteten an &ndash; teils von K\u00f6pfen, die sie selbst aus den Leichenbergen unter der Guillotine bergen musste, darunter, wie sie sp\u00e4ter schrieb, das Antlitz Ludwigs XVI. und Marie Antoinettes. Keine Loyalit\u00e4t war best\u00e4ndig genug, um Sicherheit zu bieten &ndash; nur die eigene, unentbehrliche Fertigkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Das Kabinett des Schreckens</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe, die reines Handwerk \u00fcbersteigt &ndash; ein Gesp\u00fcr f\u00fcr das Dramatische, das Abgr\u00fcndige, das, was unter der glatten Oberfl\u00e4che liegt. Bei Tussaud zeigt sich das in der ber\u00fchmten <em>Chamber of Horrors</em>, dem separaten Kabinett, in dem sie Totenmasken von Hingerichteten und Nachbildungen ber\u00fcchtigter Verbrecher versammelte &ndash; ein Raum, der nicht nur unterhielt, sondern die Besucher mit dem Abgrund menschlicher Gewalt konfrontierte.</p>
-          <p class="vb-intro">Diese Faszination f\u00fcr das Extreme war kein blo\u00dfes gesch\u00e4ftliches Kalk\u00fcl, auch wenn sie sich als solches gl\u00e4nzend bew\u00e4hrte. Sie war Ausdruck eines Blicks, der das Gew\u00f6hnliche nicht gen\u00fcgend fand: Tussaud modellierte nicht einfach \u00c4hnlichkeit, sie suchte den Moment, in dem ein Gesicht Charakter, Schicksal, Abgrund offenbart. Ihre sp\u00e4ten, sorgf\u00e4ltig komponierten Memoiren, in denen sie ihr eigenes Leben zwischen Hofdame und Revolutions\u00fcberlebender inszenierte, zeigen dieselbe Handschrift: die SE3 mit ausgepr\u00e4gtem Viererfl\u00fcgel, die ihre eigene Geschichte als einzigartig, unwiederholbar erz\u00e4hlt haben will.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Terrorjahre: Als der Waschb\u00e4r im Kerker sa\u00df</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Monate ihrer Gefangenschaft w\u00e4hrend der Terrorherrschaft, in derselben Zelle wie die sp\u00e4tere Kaiserin Jos\u00e9phine de Beauharnais, sind das typologische Zentrum ihres Lebens. F\u00fcr die selbsterhaltende Drei, deren Sicherheit auf eigener Kontrolle und eigenem K\u00f6nnen beruht, ist v\u00f6llige Machtlosigkeit &ndash; das Ausgeliefertsein an eine willk\u00fcrliche Guillotine &ndash; die tiefste denkbare Bedrohung. Der Waschb\u00e4r, der eingesperrt keinen Ausweg findet, verliert f\u00fcr einen Moment genau das, was ihn definiert: die F\u00e4higkeit, sich selbst zu retten.</p>
-          <p class="vb-intro">Ihre Rettung, und der Preis daf\u00fcr, offenbaren den Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; ein Aufgeben der eigenen Position zugunsten dessen, was die Umst\u00e4nde gerade verlangen. Tussaud, freigelassen, weil man ihr handwerkliches K\u00f6nnen brauchte, fertigte fortan im Auftrag der Revolution\u00e4re genau jene Totenmasken der Guillotine-Opfer an, die sie zuvor selbst um ihr Leben hatten f\u00fcrchten lassen. Keine Trauer wurde \u00f6ffentlich gezeigt, keine Emp\u00f6rung ge\u00e4u\u00dfert &ndash; nur die stille, funktionale Anpassung an das, was \u00dcberleben in diesem Moment erforderte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Ruhige, z\u00e4he Beharrlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Tussauds Wirkung war nie die einer Rampenfigur. 1802 verlie\u00df sie Frankreich mit ihrer Wachsfigurensammlung Richtung England und tourte \u00fcber 33 Jahre durch Gro\u00dfbritannien und Irland &ndash; von Stadt zu Stadt, mit schweren Kisten, oft unter widrigsten Reisebedingungen, getrennt von ihrem in Frankreich zur\u00fcckgebliebenen Ehemann, allein mit ihren beiden S\u00f6hnen. Erst 1835, im Alter von vierundsiebzig Jahren, lie\u00df sie sich endg\u00fcltig in der Baker Street in London nieder und gr\u00fcndete das erste dauerhafte Museum.</p>
-          <p class="vb-intro">Diese jahrzehntelange, nie spektakul\u00e4re, aber nie erlahmende Beharrlichkeit ist reine SE3-Energie: kein Durchbruch \u00fcber Nacht, sondern eine lange Kette praktischer Entscheidungen, jede einzelne auf Sicherung des Fortbestands ausgerichtet. Sie \u00fcberzeugte durch die Qualit\u00e4t ihrer Arbeit, nicht durch pers\u00f6nliche Selbstdarstellung &ndash; ein Museum, das ihren Namen auch heute noch tr\u00e4gt, obwohl kaum jemand ihr Gesicht kennt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Ein Handwerk, das die Zeit \u00fcberdauert</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Madame Tussaud der Welt hinterlie\u00df, l\u00e4sst sich nicht auf ein Kuriosit\u00e4tenkabinett reduzieren. Sie schuf eine der best\u00e4ndigsten Institutionen der Popul\u00e4rkultur &ndash; ein Museum, das bis auf den heutigen Tag in London und Dutzenden weiteren St\u00e4dten Millionen Besucher j\u00e4hrlich anzieht, und eine Wachsbildnerkunst, die zugleich historisches Dokument war: Ihre Totenmasken der Franz\u00f6sischen Revolution z\u00e4hlen heute zu den wenigen unmittelbaren physischen Zeugnissen jener Epoche.</p>
-          <p class="vb-intro">Das ist die SE3w4 in ihrer eindr\u00fccklichsten Gestalt: eine Frau, deren Bed\u00fcrfnis nach materieller Sicherheit sich mit einem untr\u00fcglichen Gesp\u00fcr f\u00fcr das verband, was Menschen wirklich fasziniert &ndash; Sch\u00f6nheit und Schrecken, Macht und Untergang, in Wachs gegossen und der Nachwelt \u00fcberlassen. Der Waschb\u00e4r mit dem Viererfl\u00fcgel \u00fcberlebt nicht nur &ndash; er hinterl\u00e4sst ein Werk, das seine eigene Lebenszeit weit \u00fcberdauert.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-osho", label:"Portr\u00e4t: Osho (SE3w4)"},
-        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);

@@ -1,3 +1,181 @@
+function francisBaconKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel · 1561–1626</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francis Bacon</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk, seinen
+        politischen Aufstieg und Fall. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine über Jahrzehnte chronische Gesundheit voller Gicht, Nierensteinen
+        und Verdauungsbeschwerden – und einen Tod, der sich wie die letzte, tödliche Konsequenz
+        seines eigenen Forscherdrangs liest.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bacon</strong> ist der <strong>selbsterhaltenden Sieben mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp die "versteckte Acht": eine Sieben, die ihre
+        Neugier und Genussfähigkeit mit der Durchsetzungskraft und Direktheit der Acht
+        verbindet, ohne diese offen zur Schau zu stellen. Genau diese Kombination aus
+        unstillbarem Forscherdrang und der Weigerung, vor körperlichen Grenzen
+        zurückzuschrecken, prägte auch seinen Umgang mit der eigenen Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine fragile Konstitution von Jugend an:</strong>
+        Zeitgenössische Berichte beschreiben Bacon bereits als jungen Mann als kränklich und
+        anfällig – eine körperliche Zerbrechlichkeit, die in auffälligem Kontrast zu seinem
+        unermüdlichen intellektuellen und politischen Tatendrang stand.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrende Gichtanfälle seit dem mittleren Lebensalter:</strong>
+        Ab seinen Vierzigern litt Bacon zunehmend an schmerzhaften Gichtschüben, die ihn
+        zeitweise ans Bett fesselten – eine Erkrankung, die damals eng mit übermäßigem Genuss
+        von Fleisch und Wein in Verbindung gebracht wurde, dem Lebensstil eines Mannes, der am
+        Hof und in der Politik nie zurückhaltend auftrat.</p>
+        <p class="vb-intro"><strong>c) Nierensteine als ständiger Begleiter:</strong>
+        Parallel zur Gicht dokumentieren Bacons eigene Aufzeichnungen wiederkehrende, quälende
+        Nierenstein-Koliken, die ihn über Jahre begleiteten und seine juristische wie
+        wissenschaftliche Arbeit immer wieder unterbrachen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Krankheit als Randnotiz im überfüllten Terminkalender:</strong>
+        Trotz der wiederkehrenden Beschwerden finden sich in Bacons Briefen kaum Klagen über
+        die eigene Gesundheit – Krankheit wurde knapp erwähnt und dann zur nächsten Aufgabe
+        übergegangen, nie zum zentralen Thema gemacht.</p>
+        <p class="vb-intro"><strong>b) Ein Mann, der seine eigene Medizin praktizierte:</strong>
+        Bacon experimentierte selbst mit Ernährung, Heilkräutern und Lebensweisen, um seine
+        Beschwerden zu lindern – seine "Sylva Sylvarum", eine posthum veröffentlichte Sammlung
+        naturkundlicher Beobachtungen, enthält zahlreiche Notizen zu Gesundheit, Langlebigkeit
+        und Körperpflege, die vermutlich auch aus eigener Betroffenheit entstanden.</p>
+        <p class="vb-intro"><strong>c) Finanzielle Sorgen als zusätzliche Last:</strong>
+        Zeit seines Lebens verschuldet trotz hoher Ämter und beträchtlicher Einkünfte, lebte
+        Bacon in einem chronischen Spannungsfeld zwischen Repräsentationszwang und
+        finanzieller Unsicherheit – ein Dauerstress, der seine körperliche Verfassung
+        vermutlich zusätzlich belastete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Sturz von 1621 als zusätzliche Belastung:</strong>
+        Die Anklage wegen Bestechlichkeit, die Amtsenthebung und die kurze Haft im Tower
+        trafen einen bereits gesundheitlich angeschlagenen Mann in seinen Sechzigern –
+        Zeitgenossen berichteten von einem sichtbaren körperlichen Verfall in den Monaten nach
+        dem politischen Fall.</p>
+        <p class="vb-intro"><strong>b) Rückzug aufs Land, nicht Rückzug von der Arbeit:</strong>
+        Nach dem Verlust seiner Ämter zog sich Bacon auf sein Landgut Gorhambury zurück – doch
+        statt sich zu schonen, arbeitete er in den folgenden fünf Jahren so intensiv wie kaum
+        zuvor an seinen wissenschaftlichen Werken, oft bis in die frühen Morgenstunden.</p>
+        <p class="vb-intro"><strong>c) Die letzte Kutschfahrt im Winter 1626:</strong>
+        Auf dem Weg nach Highgate bei London kam Bacon im eisigen Winterwetter die Idee, ob
+        Kälte den Verwesungsprozess verzögern könnte – ein Gedanke, dem er sofort, ohne
+        Rücksicht auf die Witterung, experimentell nachging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Das Hühnchen-Experiment:</strong>
+        Bacon hielt die Kutsche an, kaufte ein Hühnchen von einer Bäuerin und stopfte es
+        eigenhändig mit Schnee aus, um zu testen, ob Kälte Fäulnis verhindern könne – ein
+        früher, ernsthafter Versuch zur Lebensmittelkonservierung, Jahrhunderte vor der
+        modernen Kühltechnik.</p>
+        <p class="vb-intro"><strong>b) Zu krank für die Heimreise:</strong>
+        Bei dem Experiment zog sich Bacon eine schwere Erkältung zu, die sich rasch
+        verschlimmerte. Er war zu geschwächt, um zu seinem eigenen Haus zurückzukehren, und
+        wurde stattdessen ins nahegelegene Haus von Lord Arundel gebracht.</p>
+        <p class="vb-intro"><strong>c) Tod innerhalb weniger Tage:</strong>
+        Am 9. April 1626 starb Francis Bacon in Arundels Haus an einer Bronchitis oder
+        Lungenentzündung, die aus der Erkältung entstanden war – nur wenige Tage nach dem
+        Experiment, das seinen Tod auslöste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der auch die eigene Schwäche ignorierte:</strong>
+        Dieselbe Durchsetzungskraft, die Bacon durch politische Ämter und wissenschaftliche
+        Großprojekte trug, ließ ihn auch über die eigenen körperlichen Warnsignale
+        hinweggehen – Gicht, Nierensteine und ein bereits geschwächter Zustand hielten ihn
+        nicht davon ab, sich im Winter einem spontanen Experiment auszusetzen.</p>
+        <p class="vb-intro"><strong>b) Neugier ohne eingebaute Notbremse:</strong>
+        Die selbsterhaltende Sieben sucht Sicherheit normalerweise durch Vorsicht und
+        praktische Vorsorge – bei Bacon wich diese Vorsicht in seinem letzten Lebensjahrzehnt
+        zunehmend der reinen Entdeckerlust, die keine Rücksicht mehr auf die eigene
+        Verfassung nahm.</p>
+        <p class="vb-intro"><strong>c) Arbeit als einziges verbliebenes Terrain:</strong>
+        Nach dem Verlust seiner politischen Macht verlagerte sich die ganze Energie der SE7w8
+        auf das letzte Feld, das ihm blieb – die eigene Forschung –, mit einer Intensität, die
+        keine Grenze mehr zu kennen schien.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben in chronischem Schmerz, kaum thematisiert:</strong>
+        Jahrzehntelange Gicht und Nierensteine begleiteten Bacon durch seine gesamte
+        politische und wissenschaftliche Karriere, ohne dass er ihnen in seinen Schriften
+        nennenswerten Raum gab – Krankheit war für ihn ein Hindernis, das man umging, nicht
+        ein Thema, das man auslebte.</p>
+        <p class="vb-intro"><strong>b) Ein Tod, der zum Sinnbild des ganzen Lebens wurde:</strong>
+        Kaum ein anderes Krankheitsporträt dieses Kompasses zeigt eine derart wörtliche
+        Übereinstimmung zwischen Lebensmuster und Todesursache: Bacon starb nicht trotz,
+        sondern wegen seines unstillbaren Forscherdrangs – die gleiche Eigenschaft, die sein
+        gesamtes Werk trug, wurde ihm im entscheidenden Moment zum Verhängnis.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Erkältung?</strong>
+        Für eine selbsterhaltende Sieben mit Achterflügel, deren Sicherheit traditionell aus
+        praktischer Vorsorge und körperlicher Robustheit gespeist wird, liegt eine Deutung
+        nahe: Ausgerechnet eine banale, vermeidbare Erkältung – kein dramatisches Leiden,
+        sondern eine Nachlässigkeit im Angesicht der eigenen Neugier – wurde zur tödlichen
+        Konsequenz einer Lebenshaltung, die praktische Vorsicht der Entdeckerfreude
+        systematisch unterordnete. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
+        derartigen Unfällen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bacons Fall zeigen lässt, ist ein Muster,
+        das bei ungebremster Neugier in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bacon kannte sein eigenes Muster nicht – die selbsterhaltende Sieben mit Achterflügel verfolgt jede neue Idee bis zur letzten Konsequenz, ohne die eigene körperliche Verletzlichkeit mitzudenken, und genau das führte dazu, dass ausgerechnet ein spontanes Experiment in Winterkälte ihm den Tod brachte. Wer den eigenen Wissensdrang nicht als Muster erkennt, unterschätzt, wie leicht Neugier zur eigenen Gefährdung werden kann.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Bacons</strong> letzten Lebensjahren lässt sich die selbsterhaltende Sieben
+        mit Achterflügel in ihrer konsequentesten Form ablesen: eine über Jahrzehnte
+        chronische, kaum beklagte körperliche Bürde, die der unstillbaren Entdeckerfreude nie
+        wirklich Einhalt gebot – bis ein einziges spontanes Experiment im eisigen Winter zum
+        letzten wurde. Der Gorilla, der bis zum letzten Atemzug nach der nächsten Entdeckung
+        griff – und im Sterben noch ein Experiment machte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se7", label:"Subtyp-Profil SE7"},
+      ])}
+    </div>
+  `);
+}
+
 function karlMarxKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12656,87 +12834,6 @@ function andreasPage() {
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SE4w5)"},
         {route:"bibel-judas-iskariot", label:"Bibel-Porträt: Judas Iskariot (SX3w4)"},
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function thomasPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Thomas</p>
-        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Sehnsucht nach Wahrheit – Tierentsprechung: Gürteltier</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wenn ich nicht die Male der Nägel sehe, werde ich nicht glauben.« (Joh 20,25)</p>
-
-        <h2 class="vb-section">1. Das Gürteltier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es zieht sich in eine schützende Schale zurück, wenn die Welt zu roh wird, und öffnet sich nur dort, wo es sich wirklich sicher fühlt. Thomas war nicht da, als Jesus kam. Nicht weil er nicht glaubte, sondern weil er anders glaubte. Die anderen hatten ihn gefunden, den Auferstandenen, den Lichtvollen, den Lebenden nach dem Tod. Aber Thomas war draußen gewesen, allein, im Gehen, im Denken, im Ringen.</p>
-          <p class="vb-intro">Die soziale Vier glaubt nicht leicht, aber wenn sie glaubt, dann mit allem, was sie ist. Er kam zurück, sah die Gesichter, die veränderte Atmosphäre, und fühlte sich ausgeschlossen. Nicht aus Bosheit, aber: Sie haben erlebt, was mir fehlt. Und das traf ihn tiefer, als er es zeigen konnte. Denn die soziale Vier leidet nicht am Alleinsein – sie leidet daran, nicht dabei gewesen zu sein, wo das Eigentliche geschah.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Vier: Nicht dabei gewesen zu sein, wo das Eigentliche geschah</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als sie sagten: »Wir haben den Herrn gesehen!«, antwortete Thomas: »Wenn ich nicht seine Wunden sehe und meine Finger hineinlege, werde ich nicht glauben.« Es klang trotzig. Aber in Wahrheit war es ein Hilfeschrei: Bitte, lasst mich es fühlen. Nicht hören, nicht wiederholen, sondern selbst durchleben. Denn soziale Vierer glauben nicht, was andere bezeugen – sie glauben, was sie in sich selbst spüren.</p>
-          <p class="vb-intro">Acht Tage lang schwieg Thomas, hörte sich die anderen an, wie ihre Stimmen zitterten vor Freude, vor Staunen, vor etwas, das er nicht hatte: Erfahrung. Und in ihm loderte etwas auf, nicht Neid, sondern Entbehrung. Warum war ich nicht da? Soziale Vierer leben von Verbindung. Doch ihre tiefste Angst ist, dass diese Verbindung nicht für sie bestimmt ist – dass sie sehen, aber nicht gesehen werden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in die eigene Schale</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, grüblerische Qualität – sie zieht sich zurück statt sich mitzuteilen, prüft innerlich, statt vorschnell zu glauben, und braucht direktes eigenes Erleben, bevor sie einer Erzählung vertraut. Er war geblieben, hatte sich nicht zurückgezogen, war nicht gegangen. Denn trotz allem war da etwas in ihm, das hoffte, dass Wahrheit ihn finden würde.</p>
-          <p class="vb-intro">Und dann kam Jesus, nicht mit Posaunen, nicht mit Tadel, einfach so, mitten im Raum, mitten im Moment. Und bevor jemand sprechen konnte, wandte sich Jesus direkt an Thomas: »Streck deinen Finger aus, sieh meine Hände. Streck deine Hand aus, leg sie in meine Seite. Sei nicht ungläubig, sondern gläubig.« Jesus wusste, nicht vom Hörensagen, nicht durch Erzählung, was Thomas gesagt hatte, als er nicht da war. Genau dieses stille, prüfende Zurückhalten, das nur dann weicht, wenn wirkliche, direkte Erkenntnis möglich wird, trägt die Handschrift des Fünferflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Gesehenwerden in der Tiefe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Thomas stieg nicht gleich auf. Er prüfte nichts. Er tastete nicht. Denn in dem Moment, in dem Jesus ihn wirklich ansah, war alle Trennung überwunden. Und Thomas sagte nur: »Mein Herr und mein Gott!« Nicht aus Beweis, nicht aus Pflicht, sondern aus dem Innersten seines Seins, das endlich gespiegelt wurde. Soziale Vierer brauchen keine Bühne, aber sie sehnen sich danach, dass ihr Innerstes erkannt wird, auch wenn sie es verborgen halten.</p>
-          <p class="vb-intro">Thomas hatte Jesus nicht festgehalten. Doch jetzt wurde er gehalten, von einem Blick, der mehr sagte als Worte. Und Jesus, dessen Liebe nie bloß bestätigt, sondern verwandelt, sagte: »Selig sind, die nicht sehen und doch glauben.« Nicht als Tadel, sondern als Einladung, dass Thomas nicht nur fühlen darf, sondern lernen kann, zu vertrauen, auch wenn die Tiefe einmal still bleibt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die innere Wandlung: Meine Tiefe braucht Weite</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Thomas blieb, auch nach der Auferstehung, auch nach Pfingsten, auch nach dem Aufbruch der anderen. Doch in ihm hatte sich etwas verändert, nicht laut, nicht sichtbar, aber grundlegend. Die soziale Vier ringt mit dem Gefühl: Ich bin nicht gemeint. Doch wenn sie erkennt, dass sie zutiefst gesehen wird, entsteht eine stille, tiefe Kraft. Und Thomas hatte gespürt: Ich wurde erkannt, nicht in meinem Glanz, sondern in meinem Ringen.</p>
-          <p class="vb-intro">Er war nicht der Prediger wie Petrus, nicht der Mystiker wie Johannes, nicht der Organisator wie Jakobus. Aber er war bereit, zu gehen, wohin ihn niemand sonst schickte. Denn das Herz der SO4 ruft nicht nach Ruhm, es ruft nach Sinn, nach Einmaligkeit und nach einer Geschichte, die nur sie selbst schreiben kann. Und so brach Thomas auf, nicht gen Westen, wo die Straßen bekannter waren, sondern gen Osten, nach Syrien, nach Parthien, bis nach Indien, sagt die Überlieferung. Nicht aus Trotz, sondern weil er spürte: Meine Tiefe braucht Weite.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Innere Stimmigkeit statt Applaus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dort heilte er Kranke, sprach zu Fremden, gründete Gemeinschaften, die ihn nicht kannten, aber seine Echtheit fühlten. Und manchmal, nachts, wenn er allein war, legte er seine Hand an sein Herz und erinnerte sich an jenen einen Blick Jesu. Nicht, weil er zweifelte, sondern weil er spürte: Das war der Anfang. Am Ende starb er als Märtyrer, in einem fremden Land, fern der Heimat, aber mitten in seinem Ruf. Nicht gefeiert, nicht umringt, aber vollendet.</p>
-          <p class="vb-intro">Denn die soziale Vier endet nicht in Applaus, sondern in innerer Stimmigkeit. Und Thomas hatte sie gefunden. Das ist das Geschenk der SO4w5: eine Wahrhaftigkeit, die sich nicht mit gehörten Wahrheiten begnügt, sondern selbst durchlebt sein will – ein Gürteltier, das seine Schale erst öffnet, wenn wirkliche Begegnung möglich wird, und das dann ganz und ohne Vorbehalt glaubt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Bis ich ihn sehe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Thomas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0" title="Bis ich ihn sehe – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
-        {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
-        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
       ])}
     </div>
   `);

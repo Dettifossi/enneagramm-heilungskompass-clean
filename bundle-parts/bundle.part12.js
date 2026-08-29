@@ -1,3 +1,84 @@
+function thomasPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Sehnsucht nach Wahrheit – Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wenn ich nicht die Male der Nägel sehe, werde ich nicht glauben.« (Joh 20,25)</p>
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es zieht sich in eine schützende Schale zurück, wenn die Welt zu roh wird, und öffnet sich nur dort, wo es sich wirklich sicher fühlt. Thomas war nicht da, als Jesus kam. Nicht weil er nicht glaubte, sondern weil er anders glaubte. Die anderen hatten ihn gefunden, den Auferstandenen, den Lichtvollen, den Lebenden nach dem Tod. Aber Thomas war draußen gewesen, allein, im Gehen, im Denken, im Ringen.</p>
+          <p class="vb-intro">Die soziale Vier glaubt nicht leicht, aber wenn sie glaubt, dann mit allem, was sie ist. Er kam zurück, sah die Gesichter, die veränderte Atmosphäre, und fühlte sich ausgeschlossen. Nicht aus Bosheit, aber: Sie haben erlebt, was mir fehlt. Und das traf ihn tiefer, als er es zeigen konnte. Denn die soziale Vier leidet nicht am Alleinsein – sie leidet daran, nicht dabei gewesen zu sein, wo das Eigentliche geschah.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Nicht dabei gewesen zu sein, wo das Eigentliche geschah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als sie sagten: »Wir haben den Herrn gesehen!«, antwortete Thomas: »Wenn ich nicht seine Wunden sehe und meine Finger hineinlege, werde ich nicht glauben.« Es klang trotzig. Aber in Wahrheit war es ein Hilfeschrei: Bitte, lasst mich es fühlen. Nicht hören, nicht wiederholen, sondern selbst durchleben. Denn soziale Vierer glauben nicht, was andere bezeugen – sie glauben, was sie in sich selbst spüren.</p>
+          <p class="vb-intro">Acht Tage lang schwieg Thomas, hörte sich die anderen an, wie ihre Stimmen zitterten vor Freude, vor Staunen, vor etwas, das er nicht hatte: Erfahrung. Und in ihm loderte etwas auf, nicht Neid, sondern Entbehrung. Warum war ich nicht da? Soziale Vierer leben von Verbindung. Doch ihre tiefste Angst ist, dass diese Verbindung nicht für sie bestimmt ist – dass sie sehen, aber nicht gesehen werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in die eigene Schale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, grüblerische Qualität – sie zieht sich zurück statt sich mitzuteilen, prüft innerlich, statt vorschnell zu glauben, und braucht direktes eigenes Erleben, bevor sie einer Erzählung vertraut. Er war geblieben, hatte sich nicht zurückgezogen, war nicht gegangen. Denn trotz allem war da etwas in ihm, das hoffte, dass Wahrheit ihn finden würde.</p>
+          <p class="vb-intro">Und dann kam Jesus, nicht mit Posaunen, nicht mit Tadel, einfach so, mitten im Raum, mitten im Moment. Und bevor jemand sprechen konnte, wandte sich Jesus direkt an Thomas: »Streck deinen Finger aus, sieh meine Hände. Streck deine Hand aus, leg sie in meine Seite. Sei nicht ungläubig, sondern gläubig.« Jesus wusste, nicht vom Hörensagen, nicht durch Erzählung, was Thomas gesagt hatte, als er nicht da war. Genau dieses stille, prüfende Zurückhalten, das nur dann weicht, wenn wirkliche, direkte Erkenntnis möglich wird, trägt die Handschrift des Fünferflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Gesehenwerden in der Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas stieg nicht gleich auf. Er prüfte nichts. Er tastete nicht. Denn in dem Moment, in dem Jesus ihn wirklich ansah, war alle Trennung überwunden. Und Thomas sagte nur: »Mein Herr und mein Gott!« Nicht aus Beweis, nicht aus Pflicht, sondern aus dem Innersten seines Seins, das endlich gespiegelt wurde. Soziale Vierer brauchen keine Bühne, aber sie sehnen sich danach, dass ihr Innerstes erkannt wird, auch wenn sie es verborgen halten.</p>
+          <p class="vb-intro">Thomas hatte Jesus nicht festgehalten. Doch jetzt wurde er gehalten, von einem Blick, der mehr sagte als Worte. Und Jesus, dessen Liebe nie bloß bestätigt, sondern verwandelt, sagte: »Selig sind, die nicht sehen und doch glauben.« Nicht als Tadel, sondern als Einladung, dass Thomas nicht nur fühlen darf, sondern lernen kann, zu vertrauen, auch wenn die Tiefe einmal still bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die innere Wandlung: Meine Tiefe braucht Weite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas blieb, auch nach der Auferstehung, auch nach Pfingsten, auch nach dem Aufbruch der anderen. Doch in ihm hatte sich etwas verändert, nicht laut, nicht sichtbar, aber grundlegend. Die soziale Vier ringt mit dem Gefühl: Ich bin nicht gemeint. Doch wenn sie erkennt, dass sie zutiefst gesehen wird, entsteht eine stille, tiefe Kraft. Und Thomas hatte gespürt: Ich wurde erkannt, nicht in meinem Glanz, sondern in meinem Ringen.</p>
+          <p class="vb-intro">Er war nicht der Prediger wie Petrus, nicht der Mystiker wie Johannes, nicht der Organisator wie Jakobus. Aber er war bereit, zu gehen, wohin ihn niemand sonst schickte. Denn das Herz der SO4 ruft nicht nach Ruhm, es ruft nach Sinn, nach Einmaligkeit und nach einer Geschichte, die nur sie selbst schreiben kann. Und so brach Thomas auf, nicht gen Westen, wo die Straßen bekannter waren, sondern gen Osten, nach Syrien, nach Parthien, bis nach Indien, sagt die Überlieferung. Nicht aus Trotz, sondern weil er spürte: Meine Tiefe braucht Weite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Innere Stimmigkeit statt Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dort heilte er Kranke, sprach zu Fremden, gründete Gemeinschaften, die ihn nicht kannten, aber seine Echtheit fühlten. Und manchmal, nachts, wenn er allein war, legte er seine Hand an sein Herz und erinnerte sich an jenen einen Blick Jesu. Nicht, weil er zweifelte, sondern weil er spürte: Das war der Anfang. Am Ende starb er als Märtyrer, in einem fremden Land, fern der Heimat, aber mitten in seinem Ruf. Nicht gefeiert, nicht umringt, aber vollendet.</p>
+          <p class="vb-intro">Denn die soziale Vier endet nicht in Applaus, sondern in innerer Stimmigkeit. Und Thomas hatte sie gefunden. Das ist das Geschenk der SO4w5: eine Wahrhaftigkeit, die sich nicht mit gehörten Wahrheiten begnügt, sondern selbst durchlebt sein will – ein Gürteltier, das seine Schale erst öffnet, wenn wirkliche Begegnung möglich wird, und das dann ganz und ohne Vorbehalt glaubt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Bis ich ihn sehe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Thomas ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0" title="Bis ich ihn sehe – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+        {route:"bibel-andreas", label:"Bibel-Porträt: Andreas (SE4w5)"},
+        {route:"bibel-judas-thaddaeus", label:"Bibel-Porträt: Judas Thaddäus (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function judasThaddaeusPage() {
   return shell(`
     <div class="page-container">

@@ -439,6 +439,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gianna Nannini – Self-Preservation Type 1",
     teaser:"SE1w9 · b. 1954. Italian rock singer, \"America,\" \"Bello e impossibile,\" classically trained at the conservatory. Became a mother alone at 56, moved to London in 2017 to marry her partner. Over fifty years of continuous career. Animal correspondence: Eagle.",
     land:"Italy", tags:["Music"], gender:"f"},
+{ route:"beruehmte-fritz-wepper", name:"Fritz Wepper", added:"2026-08-29", subtyp:"SE1w9",
+    heading:"Fritz Wepper – Self-Preservation Type 1",
+    teaser:"SE1w9 · 1941–2024. German actor, 24 years as Harry Klein at the side of Horst Tappert in \"Derrick,\" followed by nearly 20 years as Mayor Wöller in \"Um Himmels Willen.\" Over 45 years of reliable, unassuming presence in German television, never claiming the lead role. Animal correspondence: Eagle.",
+    land:"Germany", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Self-Preservation Type 1",
     teaser:"SP1w9 · 1907–2002. Swedish author, Pippi Longstocking, Karlsson on the Roof, The Brothers Lionheart. Discipline as daily ritual, a quiet late-life fight for animal welfare (the 'Lex Lindgren'). Animal correspondence: Eagle.",
@@ -31096,6 +31100,66 @@ function astridLindgrenPortraitPage() {
   `);
 }
 
+function fritzWepperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fritz-wepper-portrait.jpg" alt="Fritz Wepper" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Wepper</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1941&ndash;2024 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is not a frantic hunter. It circles calmly, patiently, across great distances – and this long, patient circling describes Fritz Wepper's six-decade acting career more accurately than any spectacular breakthrough. Wepper was born in 1941 in Munich; his father Friedrich was reported missing during the Russian campaign in 1944 and never returned from the war. At just nine, Wepper was already on air for Bavarian Radio, and appearances in numerous children's films made him a child star in the 1950s – a public career that began before he could even process the loss of his father.</p>
+          <p class="vb-intro">Out of this early imprint grew a career of rare continuity rather than swift fame. The eagle that began to fly as a child but spent its whole life preferring to circle rather than throw itself into a spectacular dive.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Reliability Across Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> directs its striving for perfection inward: toward its own discipline, its own craft, its own reliability. Naranjo called this subtype <em>Worry</em> – a constant concern paired with an almost unshakeable work ethic. Wepper delivered this reliability across half a century: for 24 years, from 1974 to 1998, he played the assistant Harry Klein at the side of <a href="#beruehmte-horst-tappert">Horst Tappert (SP3w2)</a> in "Derrick," followed by nearly two more decades, from 2002 to 2021, as Mayor Wöller in "Um Himmels Willen" – 260 episodes, one of the longest-running German television series of all time.</p>
+          <p class="vb-intro">Two roles, nearly 45 years back to back, without any major break: this continuity is no accident but the quiet logic of the SP1 – once trust has been built, it is defended through steady, repeated reliability, not through constant reinvention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: The Supporting Role as a Life Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Self-Preservation One calm and equanimity rather than drivenness. The SP1w9 does not need to convince anyone of anything and rarely seeks the spotlight. What stands out in Wepper's career is that in both of his most defining roles he deliberately played second fiddle: Harry Klein was the assistant, not the investigating chief inspector; Mayor Wöller was a supporting figure alongside the nuns at the center of the series. No drive to claim the lead role, but a quiet willingness to fill a load-bearing yet never front-and-center function for decades.</p>
+          <p class="vb-intro">Away from the screen, too, Wepper rarely made headlines through controversy or scandal – a public reticence that matched his steady, unassuming on-screen presence. The Nine-wing carries peace inward, rather than seeking attention outward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 is obvious: extraordinary reliability across decades, carrying two of Germany's longest-running television series without the quality ever slipping. Across generations, millions of viewers associated Wepper with the same feeling of familiarity and dependability.</p>
+          <p class="vb-intro">The shadow lies more deeply hidden than in more reactive subtypes. The One's fatal flaw is <strong>anger</strong> – in the SP1w9 muffled, almost numbed, by the Nine-wing. The early loss of his father in the war, which he rarely spoke of publicly, and the death of his younger brother, actor Elmar Wepper, only a few months before his own death in 2024, point to a quiet grief rarely processed openly – typical of a subtype that lets its own needs disappear behind the next task rather than naming them directly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Quiet Duty to Genuine Rest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – for the SP1w9, from forced, work-driven rest to genuine, freely chosen rest. Wepper embodied this path in his own, unspectacular way: a lifetime of the same reliable presence, without the drive to reinvent himself or push into the foreground.</p>
+          <p class="vb-intro">The eagle that began to fly as a child and spent its whole life in calm, wide circles, never throwing itself into a spectacular dive – that is the lasting image of this subtype: a steadiness that needs no applause to be worthwhile.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2) – Derrick partner"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function kenFollettPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -44353,7 +44417,7 @@ function horstTappertPortraitPage() {
 
         <h2 class="vb-section">3. The Two-wing: A Quarter-Century of Collegial Bond</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection and collegial closeness. At Tappert's side for all 24 years, Fritz Wepper played the assistant Harry Klein – despite an eighteen-year age gap, the two quickly found a shared rhythm, both professionally and personally. Wepper himself later described their relationship as "a quarter-century of collegial harmony working together on television."</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse toward connection and collegial closeness. At Tappert's side for all 24 years, <a href="#beruehmte-fritz-wepper">Fritz Wepper (SP1w9)</a> played the assistant Harry Klein – despite an eighteen-year age gap, the two quickly found a shared rhythm, both professionally and personally. Wepper himself later described their relationship as "a quarter-century of collegial harmony working together on television."</p>
           <p class="vb-intro">This decades-long, load-bearing working relationship is typical SP3w2 energy: not a spectacular, short-lived chemistry, but a quietly grown, reliable bond that gave the format stability across decades – two people who carried each other through an entire professional life, without much fuss being made about it.</p>
         </blockquote>
 
@@ -44382,9 +44446,9 @@ function horstTappertPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – Derrick partner"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
-        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
       ])}
     </div>
   `);
@@ -46687,7 +46751,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -46702,7 +46766,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with "America" in 1979 to her current live performances – not a single success, but steady, decades-long continuation."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with "America" in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in "Derrick," nearly 20 more years as Mayor Wöller in "Um Himmels Willen" – not constant reinvention, but steady reliability across an entire professional life."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -101530,6 +101594,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
+      "beruehmte-fritz-wepper": fritzWepperPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,
