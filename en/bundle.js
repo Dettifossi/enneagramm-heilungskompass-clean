@@ -999,6 +999,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sterling North – Self-Preservation Type 3",
     teaser:"SE3w4 · 1906–1974. Writer and literary editor. Made the raccoon world-famous with his book »Rascal« (1963, Newbery Honor, adapted by Disney) – and stayed connected to the real animal for the rest of his life.",
     land:"USA", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-johnny-cash", name:"Johnny Cash", added:"2026-08-29", subtyp:"SE3w4",
+    heading:"Johnny Cash – Self-Preservation Type 3",
+    teaser:"SE3w4 · 1932–2003. American singer and songwriter, \"Man in Black,\" the 1968 Folsom Prison concert, decades of addiction and a comeback with \"American Recordings.\" Marked by his brother Jack's death, he built one of the most stable careers in country music over five decades. Animal correspondence: Raccoon.",
+    land:"USA", tags:["Music"], gender:"m"},
 { route:"beruehmte-david-l-rathmer", name:"David L. Rathmer", added:"2026-07-20", subtyp:"SE3w4",
     heading:"David L. Rathmer – Self-Preservation Type 3",
     teaser:"SE3w4 · born 2003 in Münster. Enneagram profiler, founder of the Ennea Scholars Academy, youngest economics senator of the European Economic Senate. Co-developer of the Healing Compass. The raccoon that brings the Enneagram into the digital age. Animal correspondence: Raccoon.",
@@ -18586,6 +18590,72 @@ function dakotaJohnsonPortraitPage() {
           {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function johnnyCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-johnny-cash-portrait.jpg" alt="Johnny Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Cash</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American singer and songwriter, 1932&ndash;2003 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that builds something functioning out of scarce resources through resourceful cleverness rather than strength or display. J. R. Cash was born in 1932 in Kingsland, Arkansas, the son of poor cotton tenant farmers; at age three the family moved to the government resettlement colony of Dyess, where he worked the fields daily until he was fifteen. This scarcity produced no self-pity, but an early-trained sense for what one can actually accomplish with one's own hands.</p>
+          <p class="vb-intro">In 1944, his older brother Jack died at fourteen, a week after a severe accident on a circular saw in the school workshop. Jack had been their father Ray Cash's declared favorite son, and Ray let his surviving son feel, for decades, who he believed should have died instead. Johnny carried this guilt his whole life – and began early to build something for himself that no one could take away.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Builder of His Own Career</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is considered the counter-type of the Three: worth arises not from public self-presentation but from a functioning result. Cash never sought the magnetism of the Sexual Three or the constant stage presence of the Social Three – his energy flowed into something lasting: five decades of touring, hundreds of albums, one of the longest and most stable careers in American music history, built despite decades of addiction, several career collapses, and deep family crises.</p>
+          <p class="vb-intro">This SP3 logic also showed strategically: his legendary 1968 concert at Folsom State Prison was not a spontaneous gesture but a carefully planned career decision after his sales had collapsed – a calculated fresh start that also became one of his most artistically significant works. Where other musicians of his era faded or reinvented themselves just to stay in the spotlight, Cash systematically built a career structure that could survive setbacks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: The Man in Black</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Three a dimension that exceeds pure functionality: a hunger for depth, for what lies beneath country music's polished surface. In 1971, Cash explained in his song "Man in Black" why he always performed dressed in black – as vicarious mourning for the poor, the imprisoned, the sick, the elderly, the fallen of the Vietnam War. Not a marketing gimmick, but a deliberately chosen, darkly authentic stage persona that made solidarity with the overlooked part of his own identity.</p>
+          <p class="vb-intro">The same Four-depth runs through his songwriting: songs about murder, guilt, prison, and despair – "Folsom Prison Blues," with the line "I shot a man in Reno just to watch him die," which he wrote without ever having killed anyone, purely out of imaginative empathy for the darkest side of human nature. This capacity to inhabit guilt and the abyss was likely also fed by his own, never fully resolved guilt over his brother's death – the Four that translates its own wound into art instead of hiding it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Folsom Prison, 1968</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On January 13, 1968, Cash performed for inmates at Folsom State Prison in California – a concert he had pushed for over years, against resistance from his own label. The audience of convicted offenders responded with an enthusiasm that mirrored Cash's own years-long closeness to addiction, legal trouble, and personal collapse – he himself had been arrested multiple times for drug possession, without ever serving a prison sentence.</p>
+          <p class="vb-intro">The resulting live album "At Folsom Prison" became one of the most commercially successful and culturally significant works of his career – the moment when strategic career-building (SP3) and genuine, deeply felt kinship with society's outcasts (w4) became inseparable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 lies in the ability to <strong>build a lasting, load-bearing structure out of genuine inner depth</strong>, rather than either hiding depth or displaying it fleetingly. Cash combined one of the most enduring careers in music history with songs still regarded as unflinchingly honest – a rare balance of structure and substance.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in Cash this showed in the public facade of the controlled "Man in Black," maintained for years while he was secretly addicted to amphetamines and barbiturates throughout the 1960s, up to the point of physical collapse. Only in 1967/68, with help from June Carter and her family, did he manage to get clean – a crisis that shows how much strength it costs the SP3 to maintain a functioning image while everything inside has long threatened to break apart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Image to Vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the question <em>What have I built?</em> to the realization <em>I am – even without the image I maintain.</em> For the SP3w4, this means no longer using depth merely as material for songs, but allowing one's own vulnerability to show unadorned.</p>
+          <p class="vb-intro">That is exactly what happened in his final years: starting in 1994, Cash recorded the "American Recordings" series with producer Rick Rubin – usually just his voice and an acoustic guitar, without the usual studio staging. His 2002 cover of Nine Inch Nails' "Hurt," recorded shortly before his death, shows a visibly marked, aged man no longer playing a role. The raccoon that spent a lifetime building systems ended with the gesture of showing himself entirely without facade – Johnny Cash died on September 12, 2003, four months after the death of his wife June.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
+        {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+      ])}
     </div>
   `);
 }
@@ -45940,7 +46010,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -45950,7 +46020,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Building a working system out of little or from nothing",
         beschreibung: "Instead of waiting for existing resources or head starts, a viable, sometimes decades-functioning system emerges from limited means, often out of sheer resourcefulness.",
-        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around."
+        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around; Johnny Cash, who came from the cotton fields of the Dyess resettlement colony and built one of the most stable careers in country music over five decades – a structure that survived even the worst setbacks despite decades of addiction and several career collapses."
       },
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
@@ -101231,6 +101301,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-laurence-frank": laurenceFrankPortraitPage,
       "beruehmte-carl-rogers": carlRogersPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
+      "beruehmte-johnny-cash": johnnyCashPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,

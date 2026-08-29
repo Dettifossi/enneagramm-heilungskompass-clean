@@ -1,3 +1,161 @@
+function samariterinAmJakobsbrunnenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="Die Samariterin am Jakobsbrunnen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Die Samariterin am Jakobsbrunnen</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Die Begeisterte, die ruft – Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Kommt, seht einen Menschen, der mir alles gesagt hat, was ich getan habe – ob er wohl der Christus ist?« (Joh 4,29)</p>
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – er baut, verbindet, teilt seine Entdeckungen mit der ganzen Gemeinschaft und ruht nie lange, bevor er das nächste Projekt beginnt. Die Sonne stand hoch, kein Mensch war unterwegs, nur eine Frau mit einem Krug, am Brunnen außerhalb der Stadt. Nicht morgens, nicht abends, zur heißesten Stunde kam sie. Vielleicht, weil sie niemanden treffen wollte. Vielleicht, weil sie mehr suchte als nur Wasser.</p>
+          <p class="vb-intro">Jesus saß dort, müde, staubig, schweigend. Und dann sprach er: »Gib mir zu trinken.« Ein Satz, ein Blick, ein Riss durch das Gewohnte. Sie war überrascht, nicht nur, weil er ein Mann war, nicht nur, weil er ein Jude war, sondern weil er sie ansprach, und weil er Durst zeigte. Sie fragte, er antwortete, sie fragte weiter, und er antwortete tiefer, nicht mit Verurteilung, nicht mit Belehrung, sondern mit einem Angebot.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Wahrheit durch Begeisterung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">»Wer von diesem Wasser trinkt, wird wieder dürsten. Wer aber von dem Wasser trinkt, das ich ihm geben werde, in dem wird es eine Quelle des Lebens.« Etwas in ihr wurde wach, nicht erschrocken, nicht schuldbewusst, sondern neugierig. Die soziale Sieben erkennt Wahrheit durch Begeisterung, durch Begegnung, durch das Feuer, das Hoffnung macht. Und dann: ein Satz, der alles wendete: »Du hast recht, fünf Männer hast du gehabt, und der, den du jetzt hast, ist nicht dein Mann.« Keine Anklage, keine Bloßstellung, nur ein Spiegel.</p>
+          <p class="vb-intro">Sie weicht aus, redet von Religion, vom richtigen Ort für den Gottesdienst, von Propheten, von Zukunft. Aber sie bleibt im Gespräch. Die SO7 mag keine Tiefe, die weh tut, aber sie liebt Tiefe, die verbindet. Und Jesus sagte: »Ich bin's, der mit dir spricht.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Begeisterung, die einlädt statt provoziert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine verbindende, loyale Qualität – Begeisterung wird nicht zur Provokation oder zum Auftritt, sondern zur Einladung, die andere in eine gemeinsame Gemeinschaft hineinzieht. Etwas brach auf. Sie ließ den Krug stehen, lief, rief, nicht leise, nicht zaghaft, sondern mit Begeisterung: »Kommt und seht!« Sie lief, nicht mehr bedacht, nicht mehr zurückhaltend.</p>
+          <p class="vb-intro">Die Frau, die sonst zur heißen Stunde kam, sprach nun in aller Öffentlichkeit: »Kommt mit! Seht ihn euch an! Er hat mir alles gesagt, alles, was ich je getan habe!« Es war kein Schuldbekenntnis, kein Flehen, es war ein Ruf, einer, der mehr meinte als Worte: Ich wurde gesehen, ohne beschämt zu werden. Genau dieses Rufen, das andere einlädt und zusammenbringt, statt sie zu spalten oder zu provozieren, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Stadt bewegt sich: Das Wasser wird lebendig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Menschen blieben stehen, schauten sich an. Wirklich sie? Die Frau, die sich sonst zwischen den Blicken hindurchbewegte, sprach jetzt aus dem Zentrum heraus. Und sie spürten: Da war kein Wahnsinn, keine Hysterie, nur ein Licht, das aus ihr kam, ohne dass sie es selbst erklären konnte. In der Mitte ihres Leibes brannte etwas, eine Quelle, die nichts mit dem Brunnen zu tun hatte, und doch alles mit ihm. Sie war nicht klüger geworden, aber lebendiger.</p>
+          <p class="vb-intro">Die Stadt hörte ihr zu, nicht weil sie wichtig war, sondern weil sie wahrhaftig war. Und weil sie von etwas sprach, das alle kannten und keiner je in Worte fassen konnte: den Wunsch, gesehen zu werden, und nicht davon zu rennen. Jesus blieb zwei Tage. Die Menschen kamen, Fragen, Blicke, Neugier, Zögern. Und während sie ihm zuhörten, begannen viele zu glauben, nicht wegen ihrer Worte, sondern wegen der Resonanz, die sie in ihnen erzeugt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Angekommen bei sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Ende sagten sie zu ihr: »Jetzt glauben wir nicht mehr nur wegen deiner Rede, sondern weil wir ihn selbst gehört haben, und wissen: Er ist wirklich der Retter der Welt.« Die Frau aber saß still, an einem Brunnen, der kein Wasser mehr brauchte. Sie lächelte, nicht aus Stolz, sondern aus der Heilung. Sie war angekommen, nicht bei Jesus, nicht in der Stadt, sondern bei sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Von der Vermeidung zum Ruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das ist das Geschenk der SO7w6: eine Begeisterung, die nicht mehr vor der eigenen Geschichte davonlaufen muss, sondern sie zur Brücke macht, über die andere zur eigenen Wahrheit finden können – ein Biber, der nicht mehr allein zur heißesten Stunde kommt, um niemandem zu begegnen, sondern der aus dem Zentrum der Gemeinschaft heraus ruft: Kommt und seht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Am Jakobsbrunnen – Sie sah Ihn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zur Samariterin am Jakobsbrunnen ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0" title="Am Jakobsbrunnen – Sie sah Ihn – Die Samariterin" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
+        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
+        {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesDerGeliebtePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="Johannes, der geliebte Jünger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes, der geliebte Jünger</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Blick ins Licht, das nicht vergeht – Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Der Jünger, den Jesus liebte, lag an seiner Brust.« (Joh 13,23)</p>
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – hochsensibel für Beziehung, aufmerksam für feinste Regungen, ganz auf die eine intensive Verbindung ausgerichtet, die mehr verspricht als das Gewöhnliche. Er sprach nicht viel. Aber wenn er sprach, spürte man: Er hatte gesehen. Johannes war jünger als die anderen, nicht naiv, sondern hellhörig, nicht ungestüm, sondern empfindsam mit einem inneren Leuchten. Er war nicht laut wie Petrus, nicht tief verwundet wie Thomas. Er war da, mit offenen Augen und einem Herzen, das auf Lichtresonanz eingestellt war.</p>
+          <p class="vb-intro">Die SX7 sucht das Höhere im Nahen, die Ewigkeit im Moment. Sie will sich verlieren, um mehr zu empfangen. Jesus spürte das. Vielleicht war das der Grund, warum Johannes immer wieder nah war, nicht als Liebling, sondern als Sehender. Am Abend, als Jesus vom Verrat sprach, lag Johannes an seiner Brust, nicht aus Bedürftigkeit, sondern weil seine Seele wissen wollte, was nicht gesagt werden konnte. Er fragte nicht direkt: »Wer ist es, der dich verraten wird?« Er fragte leise, durch die Nähe, durch das Atmen, durch Dasein im Vertrauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Die Schwingung der Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus antwortete ihm nicht mit Worten. Er tauchte ein Brotstück und reichte es. Ein Zeichen. Und Johannes verstand, nicht alles, aber genug, um zu bleiben. Er suchte keinen Beweis, keine Versicherung, nur die Schwingung der Wahrheit. Die sexuelle Sieben liebt die Welt, aber sie ist nie ganz von hier. Sie trägt einen Ruf in sich, der nicht aufhört zu leuchten. Als die anderen später flohen, stand Johannes noch da, nicht weil er stärker war, sondern weil er verbundener war als seine Angst.</p>
+          <p class="vb-intro">Er stand da, nicht wie ein Held, nicht wie ein Sprecher, einfach nur stehend. Die anderen waren geflohen, Angst, Entsetzen, Ohnmacht. Aber Johannes blieb. Eine sexuelle Sieben verlässt selten den Ort, wo ihr Herz sich gebunden hat, nicht weil sie stark ist, sondern weil sie tief gebunden ist, in einem Ideal, in einer Hoffnung, in einer Wahrheit, die größer ist als ihr persönliches Ich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue als leiser innerer Kompass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sexuellen Sieben eine loyale, verbindliche Qualität – die Sehnsucht nach dem Höheren äußert sich nicht in ungestümem Drang, sondern in stiller, verlässlicher Treue, die auch in der dunkelsten Stunde nicht weicht. Die Sonne brannte, der Staub hing still, ein Körper hing am Kreuz, und das Licht schien ausgelöscht. Aber Johannes sah, und sein Blick war nicht leer, er war gefüllt, mit Fragen, mit Liebe, mit Schmerz, aber auch mit einer Art strahlender Gewissheit.</p>
+          <p class="vb-intro">Unter dem Kreuz: Maria, die Mutter, einige Frauen, und Johannes, der Jüngste, der an der Brust Jesu gelegen hatte. Jesus sprach: »Frau, siehe, dein Sohn. Siehe, deine Mutter.« Kein Theologe hätte diesen Moment erklären können. Aber Johannes verstand: Er hatte einen Auftrag, nicht aus Pflicht, sondern aus Herzensverbindung. Er nahm Maria zu sich, nicht als Vormund, sondern als jemand, der den Wert von Nähe erkannte, weil er selbst in ihr geheilt worden war. Genau diese stille, verlässliche Treue, die bleibt, wo andere fliehen, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Paradoxon der Nähe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SX7 kennt das Paradoxon: In der größten Nähe kann das eigene Licht manchmal erst wirklich leuchten. Und in der tiefsten Dunkelheit wird sichtbar, was Bestand hat. Johannes blickte zum Kreuz, die Sonne wurde schwächer, die Schatten länger. Aber in seinem Inneren brannte eine Flamme, nicht laut, nicht grell, aber bleibend. Er würde schreiben, erzählen, Zeuge sein, nicht für sich, sondern für das, was er gesehen hatte: Licht, das in die Dunkelheit kam, und nicht erloschen ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Evangelium des Lichts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Kreuz kam das Schweigen. Die Auferstehung war geschehen, manche sprachen davon, andere schwiegen. Johannes aber blieb wach. Petrus war fort, Jakobus tot, die anderen zerstreut. Und er schrieb. Die sexuelle Sieben, wenn sie reift, verliert nicht ihre Sehnsucht, sie vertieft sie, sie wandelt das Feuer der Verbindung in ein brennendes Wort. Johannes sammelte, nicht die Geschichten, nicht die Daten, sondern das Wesen. Er wusste: Das Sichtbare war nicht das Ganze. »Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott.«</p>
+          <p class="vb-intro">Er begann nicht mit Maria, nicht mit Bethlehem, nicht mit Sternen. Er begann mit Licht. Sein Evangelium war kein Protokoll, es war das Bekenntnis eines Geliebten, nicht aus Schwärmerei, sondern aus Erkenntnis. Er hatte geliebt, und er war geliebt worden, und das hatte ihn bewahrt, getragen, und jetzt ließ es ihn leuchten. Die sexuelle Sieben sucht das Ideal, nicht um ihm zu entkommen, sondern um sich in ihm selbst zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Zeuge des Lichts, das nicht vergeht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johannes schrieb: »Wir haben seine Herrlichkeit gesehen, eine Herrlichkeit voller Gnade und Wahrheit.« Und während andere sich an Geschichten hielten, war Johannes der, der das Unsichtbare mit Worten einhüllte, damit es spürbar wurde. Er war alt geworden, manche nannten ihn den Seher, andere den Mystiker. Er selbst aber fühlte sich nur als Zeuge: »Was wir gesehen haben, was wir gehört haben, das verkünden wir euch, damit auch ihr Gemeinschaft habt.« Das ist das Geschenk der SX7w6: eine Sehnsucht, die reift, statt zu verglühen, ein Schimpanse, der lernt, dass die tiefste Verbindung nicht im Besitz des anderen liegt, sondern im treuen Zeugnis dessen, was Liebe wirklich vermag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Johannes, der Geliebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Johannes ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0" title="Johannes, der Geliebte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
+        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function derHauptmannUnterDemKreuzPage() {
   return shell(`
     <div class="page-container">
@@ -11673,205 +11831,6 @@ function jackUnterweegerPortraitPage() {
         {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Sektenf\u00fchrer"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"}
-      ])}
-    </div>
-  `);
-}
-
-function jimJonesPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Jim Jones \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jim-jones-portrait.jpg" alt="Jim Jones \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jim Jones</p>
-        <p class="krim-portrait-typ">SO2w3 \u00b7 Sozialer Typ 2 mit Dreierfl\u00fcgel</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Jim Jones</strong> (1931\u20131978) gr\u00fcndete die <em>Peoples Temple</em>-Bewegung und baute \u00fcber Jahrzehnte
-        eine der einflussreichsten Gemeinschaften der amerikanischen B\u00fcrgerrechtsbewegung auf.
-        Er errichtete Krankenh\u00e4user, Obdachlosenunterk\u00fcnfte und Suppenk\u00fcchen. Er k\u00e4mpfte gegen Rassismus
-        in einer Zeit, in der das noch gef\u00e4hrlich war. Zehntausende folgten ihm \u2013 nicht aus Angst,
-        sondern aus echter \u00dcberzeugung. Und dann, am 18. November 1978 in Jonestown, Guyana,
-        starben \u00fcber 900 seiner Anh\u00e4nger \u2013 die meisten durch vergifteten Traubensaft, den sie auf
-        seinen Befehl hin tranken. Jim Jones selbst starb an einer Schusswunde am Kopf \u2013
-        ob durch eigene Hand oder durch jemand anderen, ist bis heute nicht zweifelsfrei gekl\u00e4rt.
-        Das Enneagramm erkl\u00e4rt, wie beides zusammengeh\u00f6rt: die G\u00fcte und die Vernichtung.
-      </p>
-
-      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jim Jones</strong> wird dem <strong>Sozialen Typ 2 mit Dreierfl\u00fcgel</strong> im Enneagramm zugeordnet.
-        Die soziale Zwei lebt f\u00fcr die Gruppe \u2013 Helfen, F\u00fchren, Gebrauchtwerden sind ihr Sauerstoff.
-        Der Dreierfl\u00fcgel verleiht ihr Ehrgeiz, Inszenierungskraft und ein untr\u00fcgliches Gesp\u00fcr
-        f\u00fcr Wirkung auf andere. Der Stresspunkt der Zwei liegt bei der <strong>Acht</strong>:
-        Wenn der Hunger nach Anerkennung nicht mehr gestillt werden kann, kippt die Zwei
-        in Achter-Energie \u2013 herrisch, kontrollierend, zerst\u00f6rerisch.
-        Jones durchlief diese Bewegung vor den Augen der Welt \u2013 und niemand erkannte sie rechtzeitig.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Golden Retriever</h3>
-        <p class="vb-intro">
-        Der <strong>Golden Retriever</strong> ist die Tierentsprechung der sozialen Zwei \u2013 und kein Tier
-        trifft das fr\u00fche Jim Jones-Bild pr\u00e4ziser. Der Golden Retriever apportiert unerm\u00fcdlich,
-        stellt sich in den Dienst, liest Gesichtsausdr\u00fccke mit einer fast \u00fcbernat\u00fcrlichen Genauigkeit
-        und schl\u00e4ft am liebsten in K\u00f6rperkontakt mit seinem Menschen. Er gibt, bis er leer ist \u2013
-        und er leidet leise, wenn niemand kommt. Jones war in seinen besten Jahren genau das:
-        ein Mensch, der sp\u00fcrte, was andere brauchten, bevor sie es selbst wussten.
-        Er war da \u2013 f\u00fcr Schwarze, f\u00fcr Arme, f\u00fcr Ausgesto\u00dfene \u2013 in einer Zeit, in der kaum jemand es war.
-        Das war keine Strategie. Das war echter Hunger nach Verbindung. Aber ein Golden Retriever,
-        dem nie jemand zur\u00fcckgibt, was er gibt, wird irgendwann gef\u00e4hrlich ruhig.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der Aufbau: Helfen als Identit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Der Gemeinschaftsstifter:</strong>
-        Jones gr\u00fcndete die Peoples Temple zun\u00e4chst als interraciale Kirchengemeinde in Indianapolis \u2013
-        zu einer Zeit, in der Schwarze und Wei\u00dfe nicht gemeinsam in Gottesdiensten sa\u00dfen.
-        Er baute Krankenh\u00e4user, Pflegeheime, Drogenentzugsprogramme, Suppenk\u00fcchen.
-        Er k\u00e4mpfte f\u00fcr B\u00fcrgerrechte, als das politische Karrieren kostete.
-        Tausende Menschen fanden bei ihm Heimat, W\u00fcrde, Gemeinschaft. Das war real.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\u00fcgel als B\u00fchnenregisseur:</strong>
-        Der Dreierfl\u00fcgel der Zwei bringt Effizienz, Ehrgeiz und Selbstinszenierung.
-        Jones war kein stiller Helfer. Er war ein Performer: charismatische Predigten,
-        inszenierte Heilungswunder (Helfer legten heimlich Tierknochen unter die Kleidung der Gl\u00e4ubigen,
-        die Jones dann \u00f6ffentlich als Tumore \u201eherausholte"), politische Netzwerke bis in die h\u00f6chsten
-        Kreise Kaliforniens. B\u00fcrgermeister, Gouverneure und Senatoren empfingen ihn.
-        Er wusste, wie er wirkte \u2013 und er nutzte es mit der Pr\u00e4zision eines Regisseurs.</p>
-        <p class="vb-intro"><strong>c) Der soziale Hunger:</strong>
-        Die soziale Zwei braucht Anerkennung von der Gruppe mehr als Luft.
-        Jones brauchte nicht Geld, nicht Sex, nicht Ruhm im gew\u00f6hnlichen Sinn.
-        Er brauchte, dass die Menschen ihn liebten. Dass sie ohne ihn nicht leben konnten.
-        Dass er unersetzlich war. Solange diese \u00dcberzeugung getragen wurde, war er ein Segen.
-        Als sie zu wanken begann, wurde er gef\u00e4hrlich.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Riss: Wenn Geben zur Herrschaft wird</h3>
-        <p class="vb-intro"><strong>a) Abh\u00e4ngigkeit statt Verbindung:</strong>
-        Im Lauf der Jahre verwandelte Jones das Geben in ein Machtinstrument.
-        Er verlangte, dass Mitglieder ihm pers\u00f6nliche Briefe schreiben \u2013 Beichten, Geheimnisse,
-        Fantasien \u2013, die er als Seelsorge tarnte, und las sie dann \u00f6ffentlich vor, wenn jemand
-        seinen Gehorsam verweigerte. Er trennte Familien bewusst, indem er Kinder
-        in andere Haushalte schickte und Paare auseinanderriss.
-        Er kontrollierte Finanzen: Mitglieder \u00fcbergaben ihren gesamten Besitz der Gemeinschaft.
-        Er \u00fcberwachte Schlafzeiten, Ern\u00e4hrung und Sexualit\u00e4t.
-        Der Golden Retriever, der nicht loslassen kann, wird zur Leine.</p>
-        <p class="vb-intro"><strong>b) Der Stolz der Zwei:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013 das tiefe, oft unbewusste Gef\u00fchl,
-        dass man gebraucht wird, dass man wei\u00df, was andere brauchen, dass man der Einzige ist,
-        der wirklich hilft. Jones steigerte diesen Stolz ins Megalomane:
-        Er bezeichnete sich als Reinkarnation Jesu und Buddhas, als einzigen Menschen,
-        der die Wahrheit kannte. Er lie\u00df sich bei Predigten als \u201eVater" anreden.
-        Wer zweifelte, verriet nicht ihn \u2013 sondern die Gemeinschaft.
-        Diese Verschiebung \u2013 vom Helfer zum Unantastbaren \u2013 ist das Kernmuster der desintegrierten Zwei.</p>
-        <p class="vb-intro"><strong>c) Paranoia als Schutz:</strong>
-        In den 1970er Jahren wuchsen die Berichte \u00fcber Misshandlungen in der Peoples Temple.
-        Ehemalige Mitglieder sprachen mit Journalisten. Jones reagierte mit Paranoia:
-        Die Welt da drau\u00dfen wolle ihn vernichten, seine Kinder stehlen, seine Gemeinschaft zerst\u00f6ren.
-        Er probe\u00fcbte den Massensuizid erstmals 1977 im s\u00fcdamerikanischen Urwald:
-        In sogenannten \u201eWei\u00dfen N\u00e4chten" weckte er die Gemeinschaft mitten in der Nacht,
-        lie\u00df vergifteten Saft austeilen \u2013 und erkl\u00e4rte hinterher, es sei eine \u00dcbung gewesen.
-        Die Menschen weinten vor Erleichterung. Jones zog die Kontrolle daraus.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der 18. November 1978: Das Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Der Ausl\u00f6ser:</strong>
-        US-Kongressabgeordneter Leo Ryan reiste im November 1978 nach Jonestown, um
-        Berichten \u00fcber Freiheitsberaubung nachzugehen. Er sprach mit Mitgliedern \u2013
-        und mehrere wollten mit ihm fliehen. Auf dem nahegelegenen Flughafen Port Kaituma
-        lie\u00dfen Jones' bewaffnete W\u00e4chter das Flugzeug anhalten und er\u00f6ffneten das Feuer.
-        Leo Ryan und vier weitere Menschen wurden erschossen.
-        Das war keine Notwehr. Das war der Moment, in dem Jones erkannte:
-        Die Welt wird jetzt kommen. Das Bild ist zerst\u00f6rt. Es gibt keinen Weg zur\u00fcck.</p>
-        <p class="vb-intro"><strong>b) Der Befehl:</strong>
-        Zur\u00fcck in Jonestown befahl Jones, den \u201erevolution\u00e4ren Tod" einzuleiten.
-        Gro\u00dfbeh\u00e4lter wurden mit Traubensaft, Zyankali und Beruhigungsmitteln gef\u00fcllt.
-        Krankenschwestern zogen mit Spritzen durch die Menge und verabreichten das Gift
-        S\u00e4uglingen und Kleinkindern direkt in den Mund.
-        Erwachsene tranken \u2013 manche freiwillig, manche unter Zwang durch Bewaffnete.
-        Tonbandaufnahmen dokumentieren Jones' Stimme w\u00e4hrend der Szene:
-        ruhig, pastoral, fast sanft: \u201eWeine nicht. Das ist ein freudiges Erlebnis."
-        912 Menschen starben. 276 davon waren Kinder.</p>
-        <p class="vb-intro"><strong>c) Jones' Tod:</strong>
-        Jim Jones selbst starb durch eine Schusswunde an der Schl\u00e4fe.
-        Ob er sich selbst erschoss oder ob jemand ihn t\u00f6tete, ist nach wie vor nicht abschlie\u00dfend gekl\u00e4rt.
-        Keine Waffe wurde neben ihm gefunden, die zweifelsfrei zugeordnet werden konnte.
-        Was bleibt: der Mann, der jahrelang die Entscheidungshoheit \u00fcber Leben und Tod
-        ausge\u00fcbt hatte, starb am Ende seines eigenen Projekts \u2013 genau dort,
-        wo Achter-Energie in ihrer dunkelsten Form endet: in der totalen Vernichtung,
-        auch der eigenen Person.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Achter-Stresspunkt: Zerst\u00f6rung als letzte Kontrolle</h3>
-        <p class="vb-intro"><strong>a) Was der Stresspunkt bedeutet:</strong>
-        Die Zwei bewegt sich im Stress in Richtung <strong>Acht</strong>.
-        Achter-Energie ist keine Schw\u00e4che \u2013 sie ist rohe Macht, Konfrontation, der Wille,
-        zu beherrschen statt zu dienen. Bei der gesunden Acht ist das Schutz und St\u00e4rke.
-        Bei der desintegrierten Zwei, die in die Acht kippt, wird es zu Tyrannei.
-        Jones gab die Rolle des Helfers auf und wurde zum Herrscher.</p>
-        <p class="vb-intro"><strong>b) Die Logik der Vernichtung:</strong>
-        Was Jones am Ende befohlte, war aus seiner inneren Logik heraus konsequent:
-        Wenn die Gemeinschaft zerst\u00f6rt wird \u2013 dann besser durch ihn als durch die Feinde.
-        Wenn die Liebe endet \u2013 dann soll es keine geben, die ohne ihn weiterleben.
-        Das ist Achter-Energie in ihrer dunkelsten Form: Ich vernichte, was ich liebe,
-        bevor es von mir getrennt werden kann.
-        Es ist kein Akt des Hasses auf die Gemeinschaft. Es ist der letzte Akt eines Mannes,
-        der sein Unersetzlichkeit bis in den Tod behalten wollte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Jim Jones ist kein R\u00e4tsel, wenn man das Enneagramm kennt. Die Peoples Temple war kein Betrug.
-        Jones war nicht von Anfang an ein Manipulator, der eine Maske trug.
-        Er war ein Mensch, dessen echter Hunger nach Verbindung und Anerkennung
-        weder von innen noch von au\u00dfen je wirklich gestillt wurde.
-        Die soziale Zwei, die gibt und gibt und nicht lernt zu empfangen,
-        baut Systeme, die sie brauchen \u2013 bis das Brauchen zur Knechtschaft wird.
-        Der Dreierfl\u00fcgel sorgte f\u00fcr die Inszenierung, die Zehntausende mitnahm.
-        Der Achter-Stresspunkt sorgte f\u00fcr die Vernichtung.
-        Was Jones am Ende t\u00f6tete \u2013 seine Anh\u00e4nger und m\u00f6glicherweise sich selbst \u2013
-        war nicht Bosheit. Es war der kollabierende Versuch, unersetzlich zu bleiben,
-        wenn niemand mehr glaubt.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
-        <p class="vb-intro">
-        <strong>Subtyp:</strong> SO2w3 \u2013 Soziale Zwei mit Dreierfl\u00fcgel.<br>
-        <strong>Leidenschaft:</strong> Stolz \u2013 das unbewusste Wissen, unersetzlich zu sein und zu geben, was andere nicht k\u00f6nnen.<br>
-        <strong>Stresspunkt:</strong> Acht \u2013 Herrschaft, Zerst\u00f6rung, wenn die Liebe kippt.<br>
-        <strong>Tierentsprechung:</strong> Golden Retriever \u2013 unerm\u00fcdlicher Dienst, emotionale Feinf\u00fchligkeit, existenzielle Abh\u00e4ngigkeit von Gegenseitigkeit.<br>
-        <strong>Lehrwert:</strong> Jones zeigt, wie echtes Helfen und zerst\u00f6rerische Kontrolle aus derselben Quelle flie\u00dfen k\u00f6nnen \u2013
-        und warum das Enneagramm nicht fragt, ob jemand gut oder b\u00f6se war,
-        sondern welche Struktur sein Leben antrieb.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdr\u00fcckt \u2013 und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jim Jones ist verantwortlich f\u00fcr den Massentod in Jonestown 1978, bei dem \u00fcber 900 Menschen starben. Er starb durch Suizid vor einer juristischen Aufarbeitung. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-john-wayne-gacy", label:"Kriminalpsychologie: John Wayne Gacy (SE2w3)"},
-        {route:"kriminalpsychologie-rudolf-pleil", label:"Kriminalpsychologie: Rudolf Pleil (SE2w3)"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
       ])}
     </div>
   `);

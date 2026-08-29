@@ -1,3 +1,185 @@
+function leonardBernsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Bernstein</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1918–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonard Bernstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-leonard-bernstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Dirigent, Komponist
+        und Pädagoge und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
+        dort nur angedeutet wird: ein jahrzehntelanger, nahezu grenzenloser Raubbau am eigenen
+        Körper, der 1990 in einer fortgeschrittenen Lungenerkrankung und einem abrupten Tod
+        gipfelte – wenige Tage, nachdem er sich öffentlich vom Dirigieren zurückgezogen hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bernstein</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
+        Verschmelzung mit einer Idee, einem Moment oder einer Begeisterung, mit einer Intensität,
+        die keine halben Bindungen kennt. Der Sechserflügel bringt eine bindungsorientierte,
+        fast missionarische Fürsorge hinzu. Genau diese Maßlosigkeit – die Leidenschaft der
+        Sieben – wurde ihm am Ende körperlich zum Verhängnis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Kettenrauchen von Jugend an:</strong>
+        Bernstein rauchte über Jahrzehnte hinweg bis zu vier Packungen Zigaretten täglich –
+        eine Gewohnheit, die er trotz seines öffentlichen Status als Gesundheitswarnung nie
+        ernsthaft infrage stellte.</p>
+        <p class="vb-intro"><strong>b) Exzessiver Alkoholkonsum als ständiger Begleiter:</strong>
+        Zeitgenossen berichteten übereinstimmend von einem hohen, über Jahrzehnte
+        durchgehaltenen Alkoholkonsum, der neben dem Rauchen zum festen Bestandteil seines
+        Alltags gehörte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Atemprobleme ab den 1970er-Jahren:</strong>
+        Schon Jahre vor der eigentlichen Diagnose bemerkten Weggefährten eine spürbar
+        nachlassende körperliche Belastbarkeit bei Konzerten und Proben – ein Warnzeichen, das
+        im Trubel seines Arbeitspensums unterging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unvermindertes Arbeitspensum trotz Diagnose:</strong>
+        Als bei ihm ein fortschreitendes Lungenemphysem diagnostiziert wurde, änderte Bernstein
+        seinen Lebensstil kaum – er dirigierte weiterhin international, komponierte und
+        unterrichtete am Tanglewood Music Center.</p>
+        <p class="vb-intro"><strong>b) Fortgesetztes Rauchen trotz ärztlicher Warnungen:</strong>
+        Auch nach der Diagnose gab Bernstein das Rauchen nicht auf – ein Verhalten, das sein
+        Umfeld wiederholt, aber vergeblich zu ändern versuchte.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Erschöpfung bei öffentlichen Auftritten:</strong>
+        In den letzten Lebensjahren fiel Kollegen und Publikum eine wachsende körperliche
+        Erschöpfung auf, die Bernstein konsequent überspielte, statt sie ernst zu nehmen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Hustenanfall beim letzten Konzert:</strong>
+        Am 19. August 1990 dirigierte Bernstein in Tanglewood das Boston Symphony Orchestra in
+        Beethovens 7. Sinfonie – gegen den ausdrücklichen Rat seiner Ärzte. Mitten im letzten
+        Satz musste er wegen eines schweren Hustenanfalls abbrechen; sein Assistent Carl
+        St.Clair übernahm, um das Konzert zu Ende zu bringen.</p>
+        <p class="vb-intro"><strong>b) Rücktritt vom Dirigieren am 9. Oktober 1990:</strong>
+        Sieben Wochen nach diesem Zusammenbruch gab Bernstein öffentlich seinen endgültigen
+        Rückzug vom Dirigieren bekannt.</p>
+        <p class="vb-intro"><strong>c) Tod am 14. Oktober 1990:</strong>
+        Nur fünf Tage nach der Rücktrittsankündigung starb Leonard Bernstein in seiner New
+        Yorker Wohnung an Herzversagen infolge seiner fortgeschrittenen Lungenerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Abschied, der kaum Zeit zum Abschied ließ:</strong>
+        Die knappe Zeitspanne von nur fünf Tagen zwischen Rücktritt und Tod bedeutete, dass die
+        Öffentlichkeit den Ernst seines Zustands erst rückblickend wirklich begriff.</p>
+        <p class="vb-intro"><strong>b) Nachrufe voller Bewunderung, wenig Thematisierung der Krankheit:</strong>
+        Die Würdigungen nach seinem Tod konzentrierten sich fast ausschließlich auf sein
+        musikalisches Erbe – die schweren letzten Monate blieben ein Randthema.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Konzert, das zum Symbol wurde:</strong>
+        Dass er trotz ärztlichen Rats auftrat und mitten im Konzert aufgeben musste, wurde in
+        der Rückschau immer wieder als Sinnbild seiner lebenslangen Kompromisslosigkeit
+        erzählt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht innehalten konnte:</strong>
+        Seine gesamte Karriere war von der Unfähigkeit geprägt, ein Projekt, eine Rolle oder
+        eine Bühne aufzugeben – genau dieses Muster setzte sich bis in seine letzten Wochen
+        fort, als es längst um die eigene Gesundheit ging.</p>
+        <p class="vb-intro"><strong>b) Ärztlicher Rat gegen den eigenen Antrieb:</strong>
+        Die dringende Warnung seiner Ärzte vor dem Konzert am 19. August 1990 ignorierte er –
+        absagen hätte für ihn einer Kapitulation vor der eigenen Sterblichkeit gleichgekommen,
+        die er nicht bereit war zu akzeptieren.</p>
+        <p class="vb-intro"><strong>c) Kein geordneter Rückzug, sondern ein abruptes Ende:</strong>
+        Statt eines ruhigen, geplanten Ausklangs endete sein Leben in einem plötzlichen
+        Zusammenbruch mitten in der Aktivität – der Schimpanse, der bis zur letzten Sekunde am
+        Pult stand.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Drei Jahrzehnte Raubbau am eigenen Körper:</strong>
+        Von der Jugend bis zum Tod – vier Packungen Zigaretten täglich, exzessiver
+        Alkoholkonsum, kaum Schlaf und ein Arbeitspensum, das mehrere parallele Karrieren
+        umfasste. Die Leidenschaft der Sieben, die <strong>Völlerei</strong>, kannte bei
+        Bernstein keine Bremse.</p>
+        <p class="vb-intro"><strong>b) Ein Herz, das buchstäblich keine Pause kannte:</strong>
+        Sein Tod durch Herzversagen, ausgelöst durch die fortgeschrittene Lungenerkrankung, war
+        die körperliche Konsequenz eines Lebens, das die eigenen Belastungsgrenzen nie ernst
+        genommen hatte.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
+        Als die Ärzte ihm eindringlich vom Konzert am 19. August 1990 abrieten, verweigerte er
+        nicht aus spielerischer Siebener-Leichtigkeit, sondern aus einer fast starren,
+        pflichtbewussten Weigerung, das Programm zu ändern. Wer über Jahrzehnte in
+        chronischem Raubbau am eigenen Körper lebt, bewegt sich zunehmend entlang seiner
+        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Genau
+        dieses rigide „Ich ziehe es durch, komme was wolle" in seinen letzten Lebenswochen
+        wirkt weniger nach der freien Wahlfreiheit der gesunden Sieben als nach der starren
+        Pflichterfüllung ihres Stresspunkts – bei unverändertem Kerntyp SX7w6.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
+        Für eine sexuelle Sieben, deren gesamte Lebendigkeit sich im Atem und in der
+        körperlichen Ekstase am Dirigentenpult ausdrückte – er sprang, warf sich buchstäblich
+        in die Musik hinein –, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das ihm die
+        körperliche Intensität ermöglichte, mit der er ganze Orchester mitriss, wurde zum
+        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bernsteins Fall zeigen lässt, ist ein
+        Muster im Umfeld einer Krankheit, das bei einer ausgeprägten sexuellen Sieben immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bernstein lebte zu einer Zeit, als das Enneagramm als modernes Persönlichkeitsmodell in
+        Kalifornien gerade erst entstand – nichts deutet darauf hin, dass er sein eigenes
+        Muster je bewusst kannte. Er lebte die Maßlosigkeit der Sieben völlig ungebremst aus:
+        Rauchen, Trinken, ein Arbeitspensum ohne Grenzen wurden nicht als wiederkehrendes
+        Muster erkannt, sondern einfach als Hindernisse behandelt, die es zu überspielen galt.
+        Wer die eigene Rastlosigkeit nicht als Muster kennt, kann rechtzeitig auch nicht
+        gegensteuern, wenn der eigene Körper längst deutliche Warnsignale sendet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Bernsteins</strong> sexuelle Sieben mit
+        Sechserflügel noch einmal ablesen: eine Maßlosigkeit, die keine Grenze kannte, bis der
+        eigene Körper die Grenze setzte, und ein letztes Konzert, bei dem er buchstäblich bis
+        zum letzten Atemzug am Pult stand. Der Schimpanse, der eine ganze Karriere lang jeden
+        Saal mit seiner Intensität mitriss – und dessen eigener Körper am Ende der Einzige war,
+        der sich diesem Sog widersetzte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
+        {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
 function dollyPartonKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12122,164 +12304,6 @@ function lazarusPage() {
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
         {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
         {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function samariterinAmJakobsbrunnenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="Die Samariterin am Jakobsbrunnen – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Die Samariterin am Jakobsbrunnen</p>
-        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Begeisterte, die ruft – Tierentsprechung: Biber</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Kommt, seht einen Menschen, der mir alles gesagt hat, was ich getan habe – ob er wohl der Christus ist?« (Joh 4,29)</p>
-
-        <h2 class="vb-section">1. Der Biber</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – er baut, verbindet, teilt seine Entdeckungen mit der ganzen Gemeinschaft und ruht nie lange, bevor er das nächste Projekt beginnt. Die Sonne stand hoch, kein Mensch war unterwegs, nur eine Frau mit einem Krug, am Brunnen außerhalb der Stadt. Nicht morgens, nicht abends, zur heißesten Stunde kam sie. Vielleicht, weil sie niemanden treffen wollte. Vielleicht, weil sie mehr suchte als nur Wasser.</p>
-          <p class="vb-intro">Jesus saß dort, müde, staubig, schweigend. Und dann sprach er: »Gib mir zu trinken.« Ein Satz, ein Blick, ein Riss durch das Gewohnte. Sie war überrascht, nicht nur, weil er ein Mann war, nicht nur, weil er ein Jude war, sondern weil er sie ansprach, und weil er Durst zeigte. Sie fragte, er antwortete, sie fragte weiter, und er antwortete tiefer, nicht mit Verurteilung, nicht mit Belehrung, sondern mit einem Angebot.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Sieben: Wahrheit durch Begeisterung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">»Wer von diesem Wasser trinkt, wird wieder dürsten. Wer aber von dem Wasser trinkt, das ich ihm geben werde, in dem wird es eine Quelle des Lebens.« Etwas in ihr wurde wach, nicht erschrocken, nicht schuldbewusst, sondern neugierig. Die soziale Sieben erkennt Wahrheit durch Begeisterung, durch Begegnung, durch das Feuer, das Hoffnung macht. Und dann: ein Satz, der alles wendete: »Du hast recht, fünf Männer hast du gehabt, und der, den du jetzt hast, ist nicht dein Mann.« Keine Anklage, keine Bloßstellung, nur ein Spiegel.</p>
-          <p class="vb-intro">Sie weicht aus, redet von Religion, vom richtigen Ort für den Gottesdienst, von Propheten, von Zukunft. Aber sie bleibt im Gespräch. Die SO7 mag keine Tiefe, die weh tut, aber sie liebt Tiefe, die verbindet. Und Jesus sagte: »Ich bin's, der mit dir spricht.«</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Begeisterung, die einlädt statt provoziert</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine verbindende, loyale Qualität – Begeisterung wird nicht zur Provokation oder zum Auftritt, sondern zur Einladung, die andere in eine gemeinsame Gemeinschaft hineinzieht. Etwas brach auf. Sie ließ den Krug stehen, lief, rief, nicht leise, nicht zaghaft, sondern mit Begeisterung: »Kommt und seht!« Sie lief, nicht mehr bedacht, nicht mehr zurückhaltend.</p>
-          <p class="vb-intro">Die Frau, die sonst zur heißen Stunde kam, sprach nun in aller Öffentlichkeit: »Kommt mit! Seht ihn euch an! Er hat mir alles gesagt, alles, was ich je getan habe!« Es war kein Schuldbekenntnis, kein Flehen, es war ein Ruf, einer, der mehr meinte als Worte: Ich wurde gesehen, ohne beschämt zu werden. Genau dieses Rufen, das andere einlädt und zusammenbringt, statt sie zu spalten oder zu provozieren, trägt die Handschrift des Sechserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Stadt bewegt sich: Das Wasser wird lebendig</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Menschen blieben stehen, schauten sich an. Wirklich sie? Die Frau, die sich sonst zwischen den Blicken hindurchbewegte, sprach jetzt aus dem Zentrum heraus. Und sie spürten: Da war kein Wahnsinn, keine Hysterie, nur ein Licht, das aus ihr kam, ohne dass sie es selbst erklären konnte. In der Mitte ihres Leibes brannte etwas, eine Quelle, die nichts mit dem Brunnen zu tun hatte, und doch alles mit ihm. Sie war nicht klüger geworden, aber lebendiger.</p>
-          <p class="vb-intro">Die Stadt hörte ihr zu, nicht weil sie wichtig war, sondern weil sie wahrhaftig war. Und weil sie von etwas sprach, das alle kannten und keiner je in Worte fassen konnte: den Wunsch, gesehen zu werden, und nicht davon zu rennen. Jesus blieb zwei Tage. Die Menschen kamen, Fragen, Blicke, Neugier, Zögern. Und während sie ihm zuhörten, begannen viele zu glauben, nicht wegen ihrer Worte, sondern wegen der Resonanz, die sie in ihnen erzeugt hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Angekommen bei sich selbst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am Ende sagten sie zu ihr: »Jetzt glauben wir nicht mehr nur wegen deiner Rede, sondern weil wir ihn selbst gehört haben, und wissen: Er ist wirklich der Retter der Welt.« Die Frau aber saß still, an einem Brunnen, der kein Wasser mehr brauchte. Sie lächelte, nicht aus Stolz, sondern aus der Heilung. Sie war angekommen, nicht bei Jesus, nicht in der Stadt, sondern bei sich.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Von der Vermeidung zum Ruf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das ist das Geschenk der SO7w6: eine Begeisterung, die nicht mehr vor der eigenen Geschichte davonlaufen muss, sondern sie zur Brücke macht, über die andere zur eigenen Wahrheit finden können – ein Biber, der nicht mehr allein zur heißesten Stunde kommt, um niemandem zu begegnen, sondern der aus dem Zentrum der Gemeinschaft heraus ruft: Kommt und seht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Am Jakobsbrunnen – Sie sah Ihn</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zur Samariterin am Jakobsbrunnen ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0" title="Am Jakobsbrunnen – Sie sah Ihn – Die Samariterin" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
-        {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
-        {route:"bibel-johannes-der-geliebte", label:"Bibel-Porträt: Johannes, der geliebte Jünger (SX7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function johannesDerGeliebtePage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="Johannes, der geliebte Jünger – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johannes, der geliebte Jünger</p>
-        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Der Blick ins Licht, das nicht vergeht – Tierentsprechung: Schimpanse</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Der Jünger, den Jesus liebte, lag an seiner Brust.« (Joh 13,23)</p>
-
-        <h2 class="vb-section">1. Der Schimpanse</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – hochsensibel für Beziehung, aufmerksam für feinste Regungen, ganz auf die eine intensive Verbindung ausgerichtet, die mehr verspricht als das Gewöhnliche. Er sprach nicht viel. Aber wenn er sprach, spürte man: Er hatte gesehen. Johannes war jünger als die anderen, nicht naiv, sondern hellhörig, nicht ungestüm, sondern empfindsam mit einem inneren Leuchten. Er war nicht laut wie Petrus, nicht tief verwundet wie Thomas. Er war da, mit offenen Augen und einem Herzen, das auf Lichtresonanz eingestellt war.</p>
-          <p class="vb-intro">Die SX7 sucht das Höhere im Nahen, die Ewigkeit im Moment. Sie will sich verlieren, um mehr zu empfangen. Jesus spürte das. Vielleicht war das der Grund, warum Johannes immer wieder nah war, nicht als Liebling, sondern als Sehender. Am Abend, als Jesus vom Verrat sprach, lag Johannes an seiner Brust, nicht aus Bedürftigkeit, sondern weil seine Seele wissen wollte, was nicht gesagt werden konnte. Er fragte nicht direkt: »Wer ist es, der dich verraten wird?« Er fragte leise, durch die Nähe, durch das Atmen, durch Dasein im Vertrauen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sieben: Die Schwingung der Wahrheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jesus antwortete ihm nicht mit Worten. Er tauchte ein Brotstück und reichte es. Ein Zeichen. Und Johannes verstand, nicht alles, aber genug, um zu bleiben. Er suchte keinen Beweis, keine Versicherung, nur die Schwingung der Wahrheit. Die sexuelle Sieben liebt die Welt, aber sie ist nie ganz von hier. Sie trägt einen Ruf in sich, der nicht aufhört zu leuchten. Als die anderen später flohen, stand Johannes noch da, nicht weil er stärker war, sondern weil er verbundener war als seine Angst.</p>
-          <p class="vb-intro">Er stand da, nicht wie ein Held, nicht wie ein Sprecher, einfach nur stehend. Die anderen waren geflohen, Angst, Entsetzen, Ohnmacht. Aber Johannes blieb. Eine sexuelle Sieben verlässt selten den Ort, wo ihr Herz sich gebunden hat, nicht weil sie stark ist, sondern weil sie tief gebunden ist, in einem Ideal, in einer Hoffnung, in einer Wahrheit, die größer ist als ihr persönliches Ich.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Treue als leiser innerer Kompass</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sexuellen Sieben eine loyale, verbindliche Qualität – die Sehnsucht nach dem Höheren äußert sich nicht in ungestümem Drang, sondern in stiller, verlässlicher Treue, die auch in der dunkelsten Stunde nicht weicht. Die Sonne brannte, der Staub hing still, ein Körper hing am Kreuz, und das Licht schien ausgelöscht. Aber Johannes sah, und sein Blick war nicht leer, er war gefüllt, mit Fragen, mit Liebe, mit Schmerz, aber auch mit einer Art strahlender Gewissheit.</p>
-          <p class="vb-intro">Unter dem Kreuz: Maria, die Mutter, einige Frauen, und Johannes, der Jüngste, der an der Brust Jesu gelegen hatte. Jesus sprach: »Frau, siehe, dein Sohn. Siehe, deine Mutter.« Kein Theologe hätte diesen Moment erklären können. Aber Johannes verstand: Er hatte einen Auftrag, nicht aus Pflicht, sondern aus Herzensverbindung. Er nahm Maria zu sich, nicht als Vormund, sondern als jemand, der den Wert von Nähe erkannte, weil er selbst in ihr geheilt worden war. Genau diese stille, verlässliche Treue, die bleibt, wo andere fliehen, trägt die Handschrift des Sechserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Paradoxon der Nähe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die SX7 kennt das Paradoxon: In der größten Nähe kann das eigene Licht manchmal erst wirklich leuchten. Und in der tiefsten Dunkelheit wird sichtbar, was Bestand hat. Johannes blickte zum Kreuz, die Sonne wurde schwächer, die Schatten länger. Aber in seinem Inneren brannte eine Flamme, nicht laut, nicht grell, aber bleibend. Er würde schreiben, erzählen, Zeuge sein, nicht für sich, sondern für das, was er gesehen hatte: Licht, das in die Dunkelheit kam, und nicht erloschen ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Evangelium des Lichts</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach dem Kreuz kam das Schweigen. Die Auferstehung war geschehen, manche sprachen davon, andere schwiegen. Johannes aber blieb wach. Petrus war fort, Jakobus tot, die anderen zerstreut. Und er schrieb. Die sexuelle Sieben, wenn sie reift, verliert nicht ihre Sehnsucht, sie vertieft sie, sie wandelt das Feuer der Verbindung in ein brennendes Wort. Johannes sammelte, nicht die Geschichten, nicht die Daten, sondern das Wesen. Er wusste: Das Sichtbare war nicht das Ganze. »Im Anfang war das Wort, und das Wort war bei Gott, und das Wort war Gott.«</p>
-          <p class="vb-intro">Er begann nicht mit Maria, nicht mit Bethlehem, nicht mit Sternen. Er begann mit Licht. Sein Evangelium war kein Protokoll, es war das Bekenntnis eines Geliebten, nicht aus Schwärmerei, sondern aus Erkenntnis. Er hatte geliebt, und er war geliebt worden, und das hatte ihn bewahrt, getragen, und jetzt ließ es ihn leuchten. Die sexuelle Sieben sucht das Ideal, nicht um ihm zu entkommen, sondern um sich in ihm selbst zu verlieren.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Ein Zeuge des Lichts, das nicht vergeht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Johannes schrieb: »Wir haben seine Herrlichkeit gesehen, eine Herrlichkeit voller Gnade und Wahrheit.« Und während andere sich an Geschichten hielten, war Johannes der, der das Unsichtbare mit Worten einhüllte, damit es spürbar wurde. Er war alt geworden, manche nannten ihn den Seher, andere den Mystiker. Er selbst aber fühlte sich nur als Zeuge: »Was wir gesehen haben, was wir gehört haben, das verkünden wir euch, damit auch ihr Gemeinschaft habt.« Das ist das Geschenk der SX7w6: eine Sehnsucht, die reift, statt zu verglühen, ein Schimpanse, der lernt, dass die tiefste Verbindung nicht im Besitz des anderen liegt, sondern im treuen Zeugnis dessen, was Liebe wirklich vermag.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Johannes, der Geliebte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Johannes ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0" title="Johannes, der Geliebte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
-        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
-        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
-        {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
     </div>
   `);

@@ -1,3 +1,202 @@
+function jimJonesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jim Jones \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/jim-jones-portrait.jpg" alt="Jim Jones \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jim Jones</p>
+        <p class="krim-portrait-typ">SO2w3 \u00b7 Sozialer Typ 2 mit Dreierfl\u00fcgel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jim Jones</strong> (1931\u20131978) gr\u00fcndete die <em>Peoples Temple</em>-Bewegung und baute \u00fcber Jahrzehnte
+        eine der einflussreichsten Gemeinschaften der amerikanischen B\u00fcrgerrechtsbewegung auf.
+        Er errichtete Krankenh\u00e4user, Obdachlosenunterk\u00fcnfte und Suppenk\u00fcchen. Er k\u00e4mpfte gegen Rassismus
+        in einer Zeit, in der das noch gef\u00e4hrlich war. Zehntausende folgten ihm \u2013 nicht aus Angst,
+        sondern aus echter \u00dcberzeugung. Und dann, am 18. November 1978 in Jonestown, Guyana,
+        starben \u00fcber 900 seiner Anh\u00e4nger \u2013 die meisten durch vergifteten Traubensaft, den sie auf
+        seinen Befehl hin tranken. Jim Jones selbst starb an einer Schusswunde am Kopf \u2013
+        ob durch eigene Hand oder durch jemand anderen, ist bis heute nicht zweifelsfrei gekl\u00e4rt.
+        Das Enneagramm erkl\u00e4rt, wie beides zusammengeh\u00f6rt: die G\u00fcte und die Vernichtung.
+      </p>
+
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jim Jones</strong> wird dem <strong>Sozialen Typ 2 mit Dreierfl\u00fcgel</strong> im Enneagramm zugeordnet.
+        Die soziale Zwei lebt f\u00fcr die Gruppe \u2013 Helfen, F\u00fchren, Gebrauchtwerden sind ihr Sauerstoff.
+        Der Dreierfl\u00fcgel verleiht ihr Ehrgeiz, Inszenierungskraft und ein untr\u00fcgliches Gesp\u00fcr
+        f\u00fcr Wirkung auf andere. Der Stresspunkt der Zwei liegt bei der <strong>Acht</strong>:
+        Wenn der Hunger nach Anerkennung nicht mehr gestillt werden kann, kippt die Zwei
+        in Achter-Energie \u2013 herrisch, kontrollierend, zerst\u00f6rerisch.
+        Jones durchlief diese Bewegung vor den Augen der Welt \u2013 und niemand erkannte sie rechtzeitig.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Golden Retriever</h3>
+        <p class="vb-intro">
+        Der <strong>Golden Retriever</strong> ist die Tierentsprechung der sozialen Zwei \u2013 und kein Tier
+        trifft das fr\u00fche Jim Jones-Bild pr\u00e4ziser. Der Golden Retriever apportiert unerm\u00fcdlich,
+        stellt sich in den Dienst, liest Gesichtsausdr\u00fccke mit einer fast \u00fcbernat\u00fcrlichen Genauigkeit
+        und schl\u00e4ft am liebsten in K\u00f6rperkontakt mit seinem Menschen. Er gibt, bis er leer ist \u2013
+        und er leidet leise, wenn niemand kommt. Jones war in seinen besten Jahren genau das:
+        ein Mensch, der sp\u00fcrte, was andere brauchten, bevor sie es selbst wussten.
+        Er war da \u2013 f\u00fcr Schwarze, f\u00fcr Arme, f\u00fcr Ausgesto\u00dfene \u2013 in einer Zeit, in der kaum jemand es war.
+        Das war keine Strategie. Das war echter Hunger nach Verbindung. Aber ein Golden Retriever,
+        dem nie jemand zur\u00fcckgibt, was er gibt, wird irgendwann gef\u00e4hrlich ruhig.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der Aufbau: Helfen als Identit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Der Gemeinschaftsstifter:</strong>
+        Jones gr\u00fcndete die Peoples Temple zun\u00e4chst als interraciale Kirchengemeinde in Indianapolis \u2013
+        zu einer Zeit, in der Schwarze und Wei\u00dfe nicht gemeinsam in Gottesdiensten sa\u00dfen.
+        Er baute Krankenh\u00e4user, Pflegeheime, Drogenentzugsprogramme, Suppenk\u00fcchen.
+        Er k\u00e4mpfte f\u00fcr B\u00fcrgerrechte, als das politische Karrieren kostete.
+        Tausende Menschen fanden bei ihm Heimat, W\u00fcrde, Gemeinschaft. Das war real.</p>
+        <p class="vb-intro"><strong>b) Der Dreierfl\u00fcgel als B\u00fchnenregisseur:</strong>
+        Der Dreierfl\u00fcgel der Zwei bringt Effizienz, Ehrgeiz und Selbstinszenierung.
+        Jones war kein stiller Helfer. Er war ein Performer: charismatische Predigten,
+        inszenierte Heilungswunder (Helfer legten heimlich Tierknochen unter die Kleidung der Gl\u00e4ubigen,
+        die Jones dann \u00f6ffentlich als Tumore \u201eherausholte"), politische Netzwerke bis in die h\u00f6chsten
+        Kreise Kaliforniens. B\u00fcrgermeister, Gouverneure und Senatoren empfingen ihn.
+        Er wusste, wie er wirkte \u2013 und er nutzte es mit der Pr\u00e4zision eines Regisseurs.</p>
+        <p class="vb-intro"><strong>c) Der soziale Hunger:</strong>
+        Die soziale Zwei braucht Anerkennung von der Gruppe mehr als Luft.
+        Jones brauchte nicht Geld, nicht Sex, nicht Ruhm im gew\u00f6hnlichen Sinn.
+        Er brauchte, dass die Menschen ihn liebten. Dass sie ohne ihn nicht leben konnten.
+        Dass er unersetzlich war. Solange diese \u00dcberzeugung getragen wurde, war er ein Segen.
+        Als sie zu wanken begann, wurde er gef\u00e4hrlich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Riss: Wenn Geben zur Herrschaft wird</h3>
+        <p class="vb-intro"><strong>a) Abh\u00e4ngigkeit statt Verbindung:</strong>
+        Im Lauf der Jahre verwandelte Jones das Geben in ein Machtinstrument.
+        Er verlangte, dass Mitglieder ihm pers\u00f6nliche Briefe schreiben \u2013 Beichten, Geheimnisse,
+        Fantasien \u2013, die er als Seelsorge tarnte, und las sie dann \u00f6ffentlich vor, wenn jemand
+        seinen Gehorsam verweigerte. Er trennte Familien bewusst, indem er Kinder
+        in andere Haushalte schickte und Paare auseinanderriss.
+        Er kontrollierte Finanzen: Mitglieder \u00fcbergaben ihren gesamten Besitz der Gemeinschaft.
+        Er \u00fcberwachte Schlafzeiten, Ern\u00e4hrung und Sexualit\u00e4t.
+        Der Golden Retriever, der nicht loslassen kann, wird zur Leine.</p>
+        <p class="vb-intro"><strong>b) Der Stolz der Zwei:</strong>
+        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013 das tiefe, oft unbewusste Gef\u00fchl,
+        dass man gebraucht wird, dass man wei\u00df, was andere brauchen, dass man der Einzige ist,
+        der wirklich hilft. Jones steigerte diesen Stolz ins Megalomane:
+        Er bezeichnete sich als Reinkarnation Jesu und Buddhas, als einzigen Menschen,
+        der die Wahrheit kannte. Er lie\u00df sich bei Predigten als \u201eVater" anreden.
+        Wer zweifelte, verriet nicht ihn \u2013 sondern die Gemeinschaft.
+        Diese Verschiebung \u2013 vom Helfer zum Unantastbaren \u2013 ist das Kernmuster der desintegrierten Zwei.</p>
+        <p class="vb-intro"><strong>c) Paranoia als Schutz:</strong>
+        In den 1970er Jahren wuchsen die Berichte \u00fcber Misshandlungen in der Peoples Temple.
+        Ehemalige Mitglieder sprachen mit Journalisten. Jones reagierte mit Paranoia:
+        Die Welt da drau\u00dfen wolle ihn vernichten, seine Kinder stehlen, seine Gemeinschaft zerst\u00f6ren.
+        Er probe\u00fcbte den Massensuizid erstmals 1977 im s\u00fcdamerikanischen Urwald:
+        In sogenannten \u201eWei\u00dfen N\u00e4chten" weckte er die Gemeinschaft mitten in der Nacht,
+        lie\u00df vergifteten Saft austeilen \u2013 und erkl\u00e4rte hinterher, es sei eine \u00dcbung gewesen.
+        Die Menschen weinten vor Erleichterung. Jones zog die Kontrolle daraus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der 18. November 1978: Das Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Der Ausl\u00f6ser:</strong>
+        US-Kongressabgeordneter Leo Ryan reiste im November 1978 nach Jonestown, um
+        Berichten \u00fcber Freiheitsberaubung nachzugehen. Er sprach mit Mitgliedern \u2013
+        und mehrere wollten mit ihm fliehen. Auf dem nahegelegenen Flughafen Port Kaituma
+        lie\u00dfen Jones' bewaffnete W\u00e4chter das Flugzeug anhalten und er\u00f6ffneten das Feuer.
+        Leo Ryan und vier weitere Menschen wurden erschossen.
+        Das war keine Notwehr. Das war der Moment, in dem Jones erkannte:
+        Die Welt wird jetzt kommen. Das Bild ist zerst\u00f6rt. Es gibt keinen Weg zur\u00fcck.</p>
+        <p class="vb-intro"><strong>b) Der Befehl:</strong>
+        Zur\u00fcck in Jonestown befahl Jones, den \u201erevolution\u00e4ren Tod" einzuleiten.
+        Gro\u00dfbeh\u00e4lter wurden mit Traubensaft, Zyankali und Beruhigungsmitteln gef\u00fcllt.
+        Krankenschwestern zogen mit Spritzen durch die Menge und verabreichten das Gift
+        S\u00e4uglingen und Kleinkindern direkt in den Mund.
+        Erwachsene tranken \u2013 manche freiwillig, manche unter Zwang durch Bewaffnete.
+        Tonbandaufnahmen dokumentieren Jones' Stimme w\u00e4hrend der Szene:
+        ruhig, pastoral, fast sanft: \u201eWeine nicht. Das ist ein freudiges Erlebnis."
+        912 Menschen starben. 276 davon waren Kinder.</p>
+        <p class="vb-intro"><strong>c) Jones' Tod:</strong>
+        Jim Jones selbst starb durch eine Schusswunde an der Schl\u00e4fe.
+        Ob er sich selbst erschoss oder ob jemand ihn t\u00f6tete, ist nach wie vor nicht abschlie\u00dfend gekl\u00e4rt.
+        Keine Waffe wurde neben ihm gefunden, die zweifelsfrei zugeordnet werden konnte.
+        Was bleibt: der Mann, der jahrelang die Entscheidungshoheit \u00fcber Leben und Tod
+        ausge\u00fcbt hatte, starb am Ende seines eigenen Projekts \u2013 genau dort,
+        wo Achter-Energie in ihrer dunkelsten Form endet: in der totalen Vernichtung,
+        auch der eigenen Person.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Achter-Stresspunkt: Zerst\u00f6rung als letzte Kontrolle</h3>
+        <p class="vb-intro"><strong>a) Was der Stresspunkt bedeutet:</strong>
+        Die Zwei bewegt sich im Stress in Richtung <strong>Acht</strong>.
+        Achter-Energie ist keine Schw\u00e4che \u2013 sie ist rohe Macht, Konfrontation, der Wille,
+        zu beherrschen statt zu dienen. Bei der gesunden Acht ist das Schutz und St\u00e4rke.
+        Bei der desintegrierten Zwei, die in die Acht kippt, wird es zu Tyrannei.
+        Jones gab die Rolle des Helfers auf und wurde zum Herrscher.</p>
+        <p class="vb-intro"><strong>b) Die Logik der Vernichtung:</strong>
+        Was Jones am Ende befohlte, war aus seiner inneren Logik heraus konsequent:
+        Wenn die Gemeinschaft zerst\u00f6rt wird \u2013 dann besser durch ihn als durch die Feinde.
+        Wenn die Liebe endet \u2013 dann soll es keine geben, die ohne ihn weiterleben.
+        Das ist Achter-Energie in ihrer dunkelsten Form: Ich vernichte, was ich liebe,
+        bevor es von mir getrennt werden kann.
+        Es ist kein Akt des Hasses auf die Gemeinschaft. Es ist der letzte Akt eines Mannes,
+        der sein Unersetzlichkeit bis in den Tod behalten wollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Jim Jones ist kein R\u00e4tsel, wenn man das Enneagramm kennt. Die Peoples Temple war kein Betrug.
+        Jones war nicht von Anfang an ein Manipulator, der eine Maske trug.
+        Er war ein Mensch, dessen echter Hunger nach Verbindung und Anerkennung
+        weder von innen noch von au\u00dfen je wirklich gestillt wurde.
+        Die soziale Zwei, die gibt und gibt und nicht lernt zu empfangen,
+        baut Systeme, die sie brauchen \u2013 bis das Brauchen zur Knechtschaft wird.
+        Der Dreierfl\u00fcgel sorgte f\u00fcr die Inszenierung, die Zehntausende mitnahm.
+        Der Achter-Stresspunkt sorgte f\u00fcr die Vernichtung.
+        Was Jones am Ende t\u00f6tete \u2013 seine Anh\u00e4nger und m\u00f6glicherweise sich selbst \u2013
+        war nicht Bosheit. Es war der kollabierende Versuch, unersetzlich zu bleiben,
+        wenn niemand mehr glaubt.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SO2w3 \u2013 Soziale Zwei mit Dreierfl\u00fcgel.<br>
+        <strong>Leidenschaft:</strong> Stolz \u2013 das unbewusste Wissen, unersetzlich zu sein und zu geben, was andere nicht k\u00f6nnen.<br>
+        <strong>Stresspunkt:</strong> Acht \u2013 Herrschaft, Zerst\u00f6rung, wenn die Liebe kippt.<br>
+        <strong>Tierentsprechung:</strong> Golden Retriever \u2013 unerm\u00fcdlicher Dienst, emotionale Feinf\u00fchligkeit, existenzielle Abh\u00e4ngigkeit von Gegenseitigkeit.<br>
+        <strong>Lehrwert:</strong> Jones zeigt, wie echtes Helfen und zerst\u00f6rerische Kontrolle aus derselben Quelle flie\u00dfen k\u00f6nnen \u2013
+        und warum das Enneagramm nicht fragt, ob jemand gut oder b\u00f6se war,
+        sondern welche Struktur sein Leben antrieb.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdr\u00fcckt \u2013 und warum Helfen zur Herrschaft werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jim Jones ist verantwortlich f\u00fcr den Massentod in Jonestown 1978, bei dem \u00fcber 900 Menschen starben. Er starb durch Suizid vor einer juristischen Aufarbeitung. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Kriminalpsychologie: John Wayne Gacy (SE2w3)"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Kriminalpsychologie: Rudolf Pleil (SE2w3)"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function cedricMaakePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8156,61 +8355,6 @@ function luxusuhrend9TypenPage() {
       ${relatedLinks([
         {route:"luxusautos-der-9-typen", label:"Luxusautos der 9 Typen"},
         {route:"brillenmodelle-der-9-typen", label:"Brillenmodelle der 9 Typen"},
-        {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
-      ])}
-    </div>
-  `);
-}
-
-function luxusautosDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Luxusautos der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Neun Luxusautos \u2013 jedes ein Meisterwerk der Ingenieurskunst und des Designs, jedes ein Ausdruck eines unverwechselbaren Charakters. Welches Enneagrammprinzip steckt hinter diesen Ikonen der Automobilwelt?</p>
-      <img src="./assets/luxusautos-der-9-typen.jpg" alt="Luxusautos der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Koenigsegg Jesko Absolut: Vollkommene Perfektion</h3>
-        <p class="vb-intro">Der Koenigsegg Jesko Absolut aus dem schwedischen Angelholm ist das konsequenteste Streben nach Perfektion, das die Automobilwelt kennt: \u00dcber 1.600 PS, eine theoretische H\u00f6chstgeschwindigkeit von 330 mph (531 km/h) \u2013 der schnellste legale Stra\u00dfenwagen, der je gebaut wurde. Jedes Detail ist auf aerodynamische Effizienz optimiert, nichts ist dem Zufall \u00fcberlassen. Christian von Koenigsegg gr\u00fcndete seine Firma 1994 mit der \u00dcberzeugung, dass das perfekte Auto m\u00f6glich ist \u2013 und baute es dann tats\u00e4chlich. Nur 125 Exemplare wurden gefertigt, jedes handgebaut, jedes ein Manifest der Pr\u00e4zision. Das Prinzip des Enneagrammtyps 1: Nicht das Schnellste um jeden Preis \u2013 sondern das Richtigste. Der Drang, etwas so vollkommen wie m\u00f6glich zu machen, auch wenn niemand au\u00dfer dem Erbauer selbst den Unterschied bemerkt. Und vielleicht bezeichnend: Keine prominenten Besitzer des Jesko Absolut sind \u00f6ffentlich bekannt \u2013 die 125 K\u00e4ufer sind bewusst anonym gehalten. Auch das passt zum Prinzip des Typs 1: Vollkommenheit braucht kein Publikum.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Rolls-Royce Phantom: F\u00fcrsorglicher Luxus</h3>
-        <p class="vb-intro">Der Rolls-Royce Phantom ist seit \u00fcber einem Jahrhundert das Symbol f\u00fcr Luxus, der nicht protzt \u2013 sondern umh\u00fcllt. Kein anderes Auto der Welt bietet seinen Insassen ein vergleichbares Gef\u00fchl von Stille, W\u00e4rme und Geborgenheit. Die Karosserie ist schallisoliert wie ein Konzerthaussaal. Die Deckenverkleidung kann mit echten Sternenhimmeln aus Glasfasern bestellt werden. Was den Phantom auszeichnet, ist nicht Geschwindigkeit, sondern das Versprechen: Du bist der Wichtigste. Rolls-Royce hat den Phantom nie als \u201eAuto" vermarktet \u2013 sondern als \u201emagischen Teppich". Das Prinzip des Enneagrammtyps 2: Luxus als F\u00fcrsorge. Das Sch\u00f6nste ist nicht das Schnellste oder das Lauteste \u2013 sondern das, was den anderen das Gef\u00fchl gibt, vollkommen aufgehoben zu sein.</p>
-        <p class="vb-intro">Dass ausgerechnet der Rolls-Royce Phantom besonders h\u00e4ufig von Enneagrammtyp-2-Pers\u00f6nlichkeiten gew\u00e4hlt wird, ist kein Einzelfall. Lewis Hamilton \u2013 Formel-1-Weltmeister und vom Enneagramm her ein sozialer Typ Zwei mit starkem Dreierfl\u00fcgel \u2013 f\u00e4hrt einen Phantom. Jay-Z, den man als sexuellen Typ Zwei mit ausgepr\u00e4gtem Dreierfl\u00fcgel beschreiben kann, ebenso. Und Oprah Winfrey, eine Selbsterhaltungs-Zwei mit starkem Dreierfl\u00fcgel, geh\u00f6rt ebenfalls zu den bekannten Phantom-Fans. Was diese drei auf den ersten Blick so unterschiedlichen Menschen verbindet: Sie alle verbinden W\u00e4rme und Zugewandtheit mit einem Sinn f\u00fcr Stil und Ausstrahlung \u2013 genau das, was der Phantom verk\u00f6rpert. Das Auto als Spiegel des Typs.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Bugatti Chiron Super Sport 300+: Der schnellste der Welt</h3>
-        <p class="vb-intro">Der Bugatti Chiron Super Sport 300+ ist das erste Serienfahrzeug der Welt, das die 300-mph-Grenze durchbrochen hat \u2013 mit \u00fcber 490 km/h, gemessen 2019 auf der Teststrecke Ehra-Lessien, der schnellste Bugatti aller Zeiten. Nur 30 Exemplare wurden gebaut, jedes zu einem Nettost\u00fcckpreis von 3,5 Millionen Euro. Er hat 1.600 PS, einen W16-Motor mit vier Turboladern, beschleunigt von 0 auf 200 km/h in 5,8 Sekunden und von 0 auf 300 km/h in 12,1 Sekunden. Bugatti \u2013 gegr\u00fcndet 1909 von Ettore Bugatti in Molsheim, Elsass \u2013 versteht sich als Kunsthandwerk, das sich als Automobil verkleidet hat. Der Chiron ist kein Transport, er ist ein Statement: Ich bin das Beste.</p>
-        <p class="vb-intro">Einer der bekanntesten Besitzer dieses Fahrzeugs ist Cristiano Ronaldo \u2013 der wohl ber\u00fchmteste Fu\u00dfballspieler der Welt und vom Enneagramm her ein sozialer Typ Drei, der absolute Machertyp. Ronaldo testete bereits 2017 in Madrid als Erster einen Bugatti Chiron, noch bevor die regul\u00e4re Auslieferung an Kunden begann \u2013 eine Geschichte, die perfekt zum Drei-Prinzip passt: nicht warten, bis die Welt einen kennt, sondern immer einen Schritt voraus sein. Dass er sp\u00e4ter einen der 30 Super Sport 300+ erwarb, verwundert nicht: Wer das Beste sein will, f\u00e4hrt das Schnellste. Das Prinzip des Enneagrammtyps 3: Spitzenleistung ist keine Frage des Ego \u2013 sondern des Antriebs. Der Chiron zeigt, was m\u00f6glich ist, wenn alle Ressourcen auf ein einziges Ziel ausgerichtet werden: der Erste zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Pagani Huayra: Kunst auf vier R\u00e4dern</h3>
-        <p class="vb-intro">Der Pagani Huayra ist vielleicht das einzigartigste Auto der Welt \u2013 nicht wegen seiner Leistung (700+ PS), sondern wegen seiner Seele. Horacio Pagani, Sohn eines argentinischen B\u00e4ckers, lie\u00df sich von Leonardo da Vinci und der italienischen Renaissance inspirieren und baut Autos, die er als \u201eGem\u00e4lde mit einem Motor" beschreibt. Jedes Huayra ist ein Einzelst\u00fcck in Details: Hand gravierte Schrauben aus Titan, Innenr\u00e4ume aus Leder und Carbon nach Ma\u00df des Besitzers gefertigt. Der Name stammt von Huayra-tata, dem Windgott der Inka. Das Prinzip des Enneagrammtyps 4: Sch\u00f6nheit ist keine Dekoration \u2013 sie ist der Zweck. Wer in einem Pagani sitzt, sp\u00fcrt nicht Geschwindigkeit zuerst, sondern Einzigartigkeit.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Tesla Roadster: Wissen als Antrieb</h3>
-        <p class="vb-intro">Der Tesla Roadster (2. Generation) ist die konsequenteste Verk\u00f6rperung einer Idee: Was ist m\u00f6glich, wenn man das Auto vom Wissen her neu denkt \u2013 ohne Verbrennungsmotor, ohne alte Annahmen? Elon Musk und das Tesla-Ingenieursteam bauten nicht das schnellste Benzin-Auto, sondern bewiesen, dass Elektrizit\u00e4t schneller, effizienter und intelligenter sein kann: 0\u2013100 in unter 1,9 Sekunden, \u00fcber 1.000 km Reichweite. Der Roadster ist ein wissenschaftliches Statement. Das Prinzip des Enneagrammtyps 5: Innovation entsteht nicht durch Tradition, sondern durch die Bereitschaft, das bestehende Wissen radikal zu hinterfragen \u2013 und die Erkenntnis konsequent umzusetzen, auch wenn alle anderen zweifeln.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Mercedes-Benz S-Klasse: Verl\u00e4sslichkeit als Versprechen</h3>
-        <p class="vb-intro">Die Mercedes-Benz S-Klasse ist seit Jahrzehnten die Referenz f\u00fcr das sicherste, zuverl\u00e4ssigste und am besten durchdachte Fahrzeug der Welt. Kaum ein Auto hat mehr Sicherheits-Innovationen in die Serie gebracht: Airbag, ABS, ESP, Pre-Safe-Systeme \u2013 vieles wurde zuerst in der S-Klasse erprobt. Sie ist das Auto der Staatschefs, der Diplomatenpanzer, der Langstreckenreisenden. Nicht weil sie auff\u00e4llt \u2013 sondern weil sie niemals versagt. Mercedes-Benz tr\u00e4gt den Slogan \u201eDas Beste oder nichts" \u2013 gemeint ist nicht Prestige, sondern Verl\u00e4sslichkeit. Das Prinzip des Enneagrammtyps 6: Sicherheit ist kein Luxus \u2013 sie ist die Grundlage f\u00fcr alles andere. Wer sich auf sein Fahrzeug verlassen kann, kann sich auf seinen Weg konzentrieren.</p>
-        <p class="vb-intro">Ein bekannter S-Klasse-Fan war Michael Schumacher \u2013 siebenmaliger Formel-1-Weltmeister und vom Enneagramm her ein sexueller Typ Sechs. Das mag beim ersten Hinsehen \u00fcberraschen: ein Mann, der f\u00fcr Risikobereitschaft und Dominanz auf der Rennstrecke stand \u2013 und privat die verl\u00e4sslichste, solideste Limousine der Welt bevorzugte. Doch genau das ist das Muster des sexuellen Typ Sechs: au\u00dfen St\u00e4rke und Mut, innen das tiefe Bed\u00fcrfnis nach Sicherheit, Stabilit\u00e4t und Kontrolle. Die S-Klasse ist sein privater Ruhepol \u2013 das Gegenst\u00fcck zur Rennstrecke.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Lamborghini Aventador SVJ: Pure Lebensfreude</h3>
-        <p class="vb-intro">Der Lamborghini Aventador SVJ ist kein Auto \u2013 er ist eine Erfahrung. Grellgr\u00fcn, ohrenbet\u00e4ubend laut, mit Fl\u00fcgelt\u00fcren, die sich nach oben \u00f6ffnen wie die Arme einer Person, die jubelt. Ferruccio Lamborghini gr\u00fcndete die Marke 1963 aus einer Mischung aus Trotz und Begeisterung \u2013 urspr\u00fcnglich Traktorbauer, kaufte er einen Ferrari und schrieb Enzo Ferrari mit Verbesserungsvorschl\u00e4gen an. Als Ferrari nicht reagierte, baute er sein eigenes Auto. Der Aventador SVJ h\u00e4lt den N\u00fcrburgring-Rundenrekord f\u00fcr Serienfahrzeuge. Das Prinzip des Enneagrammtyps 7: Das Leben ist zu kurz f\u00fcr langweilige Autos. Der Aventador feiert die Freude am Fahren, am Erleben, am Grenzen-Sprengen \u2013 und l\u00e4dt alle ein, dabei zuzusehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Ferrari SF90 Stradale: Ungeb\u00e4ndigte Kraft</h3>
-        <p class="vb-intro">Der Ferrari SF90 Stradale ist Ferraris erstes Plug-in-Hybridfahrzeug \u2013 und zugleich das leistungsst\u00e4rkste Serienfahrzeug in der Geschichte der Marke: 1.000 PS, kombiniert aus einem V8-Verbrennungsmotor und drei Elektromotoren. Der Name SF90 verweist auf das 90-j\u00e4hrige Jubil\u00e4um der Scuderia Ferrari. Was den SF90 auszeichnet, ist nicht nur Leistung, sondern Dominanz: Er will nicht nur schnell sein \u2013 er will das Feld beherrschen. Enzo Ferrari sagte einmal: \u201eIch habe keine Zeit f\u00fcr Kompromisse." Das Prinzip des Enneagrammtyps 8: Kraft ist kein Selbstzweck \u2013 sie ist der Ausdruck des Willens, die eigenen Bedingungen zu setzen und sie durchzusetzen, ohne um Erlaubnis zu fragen.</p>
-        <p class="vb-intro">Kein Zufall, dass diese Marke von einem typischen Typ Acht gegr\u00fcndet wurde: Enzo Ferrari \u2013 in Enneagramm-Kreisen als Typ Acht anerkannt, nach Einsch\u00e4tzung von Detlef Rathmer als sexueller Typ Acht mit Siebenerfl\u00fcgel (SX8w7) \u2013 war ein Mann, der keine Kompromisse kannte und keine Autorit\u00e4t \u00fcber sich akzeptierte. Er verkaufte Stra\u00dfenautos nur, um Rennen zu finanzieren \u2013 und warf Fahrer hinaus, die er als zu schwach betrachtete. Sein ber\u00fchmtes Zitat: \u201eIch habe keine Zeit f\u00fcr Kompromisse." Die sexuelle Acht investiert ihre ganze Intensit\u00e4t in die Beziehung zu dem, was sie leidenschaftlich liebt \u2013 f\u00fcr Enzo Ferrari war das der Rennsport. Der SF90 Stradale ist das lebendigste Erbe dieses Charakters.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Bentley Continental GT: Harmonie und Weite</h3>
-        <p class="vb-intro">Der Bentley Continental GT ist das luxuri\u00f6seste Reiseauto der Welt \u2013 kein Sportwagen, kein Protzer, sondern ein Grand Tourer: ein Auto, das daf\u00fcr gebaut wurde, lange Strecken in vollkommener Ruhe und Eleganz zur\u00fcckzulegen. Bentley, gegr\u00fcndet 1919 von W.O. Bentley in London, stand von Anfang f\u00fcr \u201ethe best car in the world" \u2013 nicht durch Extremleistung, sondern durch das nahtlose Zusammenspiel aller Elemente. Der Continental GT verf\u00fcgt \u00fcber 630 PS, macht damit aber kaum Aufhebens. Er ist leise, weit, behaglich \u2013 das Ziel ist nicht Tempo, sondern Ankommen. Das Prinzip des Enneagrammtyps 9: Harmonie entsteht, wenn alles an seinem Platz ist und nichts gegeneinander arbeitet. Und die sch\u00f6nste Reise ist die, auf der man vergisst, dass man f\u00e4hrt.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"berge-der-9-typen", label:"Berge der 9 Typen"},
-        {route:"luxusuhren-der-9-typen", label:"Luxusuhren der 9 Typen"},
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
       ])}
     </div>

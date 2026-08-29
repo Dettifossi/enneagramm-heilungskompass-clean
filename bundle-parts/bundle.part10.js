@@ -1,3 +1,70 @@
+function monikaGruberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-monika-gruber-portrait.jpg" alt="Monika Gruber" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Monika Gruber</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserfl\u00fcgel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Kabarettistin, Schauspielerin, geb. 1970 &ndash; Bayerns sch\u00e4rfste Verf\u00fchrerin zur Wahrheit &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das tausend Menschen gleichzeitig anschaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und kein Tier beschreibt Monika Gruber treffender. Das Kamel ist z\u00e4h, ausdauernd, eigensinnig. Es duldet keine schlechte Behandlung &ndash; aber wer ihm mit Respekt begegnet, findet einen der treuesten Gef\u00e4hrten der Tierwelt. Das Kamel speichert: Energie, Wasser, Geduld &ndash; und wenn es schlie\u00dflich trinkt, trinkt es auf einmal bis zu 150 Liter. Diese \u00fcberschie\u00dfende Energie ist das Prinzip der sexuellen Zwei: Was sie f\u00fchlt, f\u00fchlt sie vollst\u00e4ndig. Was sie gibt, gibt sie ganz.</p>
+          <p class="vb-intro">Monika Gruber, geboren 1970 in Wasserburg am Inn, ist Bayerns bekannteste Kabarettistin &ndash; und eine der erfolgreichsten B\u00fchnenk\u00fcnstlerinnen des deutschsprachigen Raums. Ihre Programme f\u00fcllen Hallen mit tausenden Menschen. Und trotzdem &ndash; oder genau deshalb &ndash; hat man beim Zuschauen das Gef\u00fchl: Sie spricht mit mir. Nur mit mir. Das ist das Geheimnis der sexuellen Zwei auf der B\u00fchne: Sie schafft Intimit\u00e4t im Gro\u00dfen. Sie macht aus einem Publikum eine einzige pers\u00f6nliche Begegnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verf\u00fchrung als Form von Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verf\u00fchrung</strong> &ndash; und das klingt nach Manipulation, ist aber das Gegenteil: Es ist die F\u00e4higkeit, den anderen so anzusprechen, dass er sich wirklich gesehen und wirklich gemeint f\u00fchlt. Die sexuelle Zwei verf\u00fchrt nicht, um zu nehmen. Sie verf\u00fchrt, um Verbindung herzustellen. Die tiefste Sehnsucht der SX2 ist nicht Macht &ndash; sie ist Kontakt. Echter, unmittelbarer, ungefilterter Kontakt.</p>
+          <p class="vb-intro">Monika Grubers B\u00fchnensprache ist ein Meisterkurs in genau dieser Qualit\u00e4t. Sie spricht Bayerisch &ndash; nicht als folkloristisches Accessoire, sondern als Sprache der Intimit\u00e4t, der Direktheit, der Zugeh\u00f6rigkeit. Sie erz\u00e4hlt vom Alltag, von der Familie, vom Supermarkt, von der Politik &ndash; und das Publikum erkennt sich wieder. Die SX2 wei\u00df instinktiv: Wenn ich dich zum Lachen bringe, bist du bei mir. Wenn du bei mir bist, kannst du h\u00f6ren, was ich dir eigentlich sagen will.</p>
+          <p class="vb-intro">Was sie sagen will, ist oft unbequem. Monika Gruber ist keine harmlose Unterhalterin. Sie hat sich in den letzten Jahren als eine der sch\u00e4rfsten Kritikerinnen politischer Korrektheit, Identit\u00e4tspolitik und des gesellschaftlichen Mainstreams positioniert. Woke-Kultur, Gender-Sprache, Corona-Ma\u00dfnahmen &ndash; sie benennt, was sie f\u00fcr falsch h\u00e4lt, ohne zu z\u00f6gern. Die Verf\u00fchrung ist der Kanal. Die Wahrheit ist das Ziel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Haltung als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> verleiht der leidenschaftlichen Verf\u00fchrungskraft der SX2 eine feste moralische Achse. Die Eins lebt nach Prinzipien, die nicht verhandelbar sind: Ehrlichkeit, Gerechtigkeit, R\u00fcckgrat. Bei Monika Gruber verbindet sich das mit dem bayerischen Ethos einer Frau, die wei\u00df, wo sie herkommt &ndash; und die es f\u00fcr eine Pflicht h\u00e4lt, das auch zu sagen.</p>
+          <p class="vb-intro">Der Einserfl\u00fcgel ist der Grund, warum Monika Gruber nicht einfach Witze macht. Sie hat eine Haltung. Sie hat Meinungen, die sie vertritt, auch wenn sie daf\u00fcr Gegenwind bekommt. Sie ist nicht bequem. Das Kamel, das schlechte Behandlung nicht duldet, tritt zur\u00fcck &ndash; und Monika Gruber tritt verbal zur\u00fcck, wenn sie das Gef\u00fchl hat, dass etwas falsch l\u00e4uft. Das Lachen ist dabei kein Weichsp\u00fcler &ndash; es ist ein T\u00fcr\u00f6ffner. Humor als trojanisches Pferd der Wahrheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Bayerische W\u00e4rme mit scharfen Z\u00e4hnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Monika Gruber live erlebt, begegnet einem Widerspruch, der sich sofort aufl\u00f6st: Sie ist gleichzeitig ungemein warm und ungemein scharf. Sie hat die N\u00e4he des Kamels &ndash; loyal, zuverl\u00e4ssig, zugewandt &ndash; und die Z\u00e4hne des Kamels, das sture, das eigenwillige, das sich-nicht-unterordnende. Kein Widerspruch. Beides geh\u00f6rt zur SX2w1: Die W\u00e4rme ist echt. Die Sch\u00e4rfe ist echt. Beide kommen aus derselben Quelle: dem Wunsch, dass die Dinge in Ordnung sind.</p>
+          <p class="vb-intro">Ihr Publikum liebt sie nicht trotz ihrer Direktheit, sondern wegen ihr. Menschen, die das Gef\u00fchl haben, dass in der \u00f6ffentlichen Debatte vieles nicht ausgesprochen werden darf, finden bei Monika Gruber eine Stimme &ndash; und das Sicherheitsgef\u00fchl, das entsteht, wenn jemand ausspricht, was man selbst denkt. Die SX2 erschafft diesen Schutzraum des gemeinsamen Lachens. Und der Einserfl\u00fcgel sorgt daf\u00fcr, dass in diesem Raum nicht nur gelacht, sondern auch nachgedacht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Vollpr\u00e4senz, keine Halbheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Energie der SX2w1 ist nicht subtil. Sie ist da &ndash; vollst\u00e4ndig, unmittelbar, nicht wegzudiskutieren. Monika Gruber auf der B\u00fchne ist ein Vollkontakterlebnis: Sie ist vollst\u00e4ndig pr\u00e4sent, vollst\u00e4ndig engagiert, vollst\u00e4ndig sie selbst. Das Kamel gibt, wenn es gibt, alles &ndash; und Monika Grubers Auftritte sind keine kalibrierten Darbietungen, sondern echte, lebendige Begegnungen mit einer Frau, die gerade jetzt, mit diesem Publikum, wirklich da sein will.</p>
+          <p class="vb-intro">Der Einserfl\u00fcgel bringt dabei Disziplin und Vorbereitung: Ihre Programme sind handwerklich pr\u00e4zise, ihre Pointen sitzen. Aber die Energie darunter ist ungez\u00e4hmt &ndash; die leidenschaftliche Verbindungssehnsucht der sexuellen Zwei, die an jedem Abend aufs Neue befriedigt wird. Das Kamel hat gespeichert. Jetzt darf es trinken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Humor als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Monika Gruber ihrem Publikum gibt, ist schwer zu benennen, aber sofort zu sp\u00fcren: ein Gef\u00fchl von Heimat. Nicht im sentimentalen Sinn &ndash; sondern im Sinne von: Hier darf ich ich selbst sein. Hier werde ich verstanden. Hier darf gelacht werden, auch \u00fcber das, wor\u00fcber man sonst nicht lachen darf. Das ist das Geschenk der SX2w1 auf ihrer h\u00f6chsten Stufe: ein Raum, in dem Verbindung und Wahrheit nicht im Widerspruch stehen, sondern dasselbe sind.</p>
+          <p class="vb-intro">Monika Gruber macht keine Witze \u00fcber das Leben &ndash; sie macht das Leben zum Witz, und damit ertr\u00e4glich, klarer, ehrlicher. Das Kamel, das tausend Meilen W\u00fcste kennt, wei\u00df: Es kommt auf die Ausdauer an. Und auf die F\u00e4higkeit, das Wasser zu finden, wenn man es am meisten braucht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
+        {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
+        {route:"bibel-maria-magdalena", label:"Bibel-Portr\u00e4t: Maria Magdalena (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function pamelaReifPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11538,188 +11605,6 @@ function peterFalkKrankheitsportraetPage() {
         {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
-      ])}
-    </div>
-  `);
-}
-
-function leonardBernsteinKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-leonard-bernstein-portrait.jpg" alt="Leonard Bernstein" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Leonard Bernstein</p>
-        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1918–1990</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Schimpanse</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Leonard Bernstein</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-leonard-bernstein">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Dirigent, Komponist
-        und Pädagoge und seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das
-        dort nur angedeutet wird: ein jahrzehntelanger, nahezu grenzenloser Raubbau am eigenen
-        Körper, der 1990 in einer fortgeschrittenen Lungenerkrankung und einem abrupten Tod
-        gipfelte – wenige Tage, nachdem er sich öffentlich vom Dirigieren zurückgezogen hatte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Bernstein</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Suggestibilität</em>: die vollständige
-        Verschmelzung mit einer Idee, einem Moment oder einer Begeisterung, mit einer Intensität,
-        die keine halben Bindungen kennt. Der Sechserflügel bringt eine bindungsorientierte,
-        fast missionarische Fürsorge hinzu. Genau diese Maßlosigkeit – die Leidenschaft der
-        Sieben – wurde ihm am Ende körperlich zum Verhängnis.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Kettenrauchen von Jugend an:</strong>
-        Bernstein rauchte über Jahrzehnte hinweg bis zu vier Packungen Zigaretten täglich –
-        eine Gewohnheit, die er trotz seines öffentlichen Status als Gesundheitswarnung nie
-        ernsthaft infrage stellte.</p>
-        <p class="vb-intro"><strong>b) Exzessiver Alkoholkonsum als ständiger Begleiter:</strong>
-        Zeitgenossen berichteten übereinstimmend von einem hohen, über Jahrzehnte
-        durchgehaltenen Alkoholkonsum, der neben dem Rauchen zum festen Bestandteil seines
-        Alltags gehörte.</p>
-        <p class="vb-intro"><strong>c) Zunehmende Atemprobleme ab den 1970er-Jahren:</strong>
-        Schon Jahre vor der eigentlichen Diagnose bemerkten Weggefährten eine spürbar
-        nachlassende körperliche Belastbarkeit bei Konzerten und Proben – ein Warnzeichen, das
-        im Trubel seines Arbeitspensums unterging.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unvermindertes Arbeitspensum trotz Diagnose:</strong>
-        Als bei ihm ein fortschreitendes Lungenemphysem diagnostiziert wurde, änderte Bernstein
-        seinen Lebensstil kaum – er dirigierte weiterhin international, komponierte und
-        unterrichtete am Tanglewood Music Center.</p>
-        <p class="vb-intro"><strong>b) Fortgesetztes Rauchen trotz ärztlicher Warnungen:</strong>
-        Auch nach der Diagnose gab Bernstein das Rauchen nicht auf – ein Verhalten, das sein
-        Umfeld wiederholt, aber vergeblich zu ändern versuchte.</p>
-        <p class="vb-intro"><strong>c) Zunehmende Erschöpfung bei öffentlichen Auftritten:</strong>
-        In den letzten Lebensjahren fiel Kollegen und Publikum eine wachsende körperliche
-        Erschöpfung auf, die Bernstein konsequent überspielte, statt sie ernst zu nehmen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der Hustenanfall beim letzten Konzert:</strong>
-        Am 19. August 1990 dirigierte Bernstein in Tanglewood das Boston Symphony Orchestra in
-        Beethovens 7. Sinfonie – gegen den ausdrücklichen Rat seiner Ärzte. Mitten im letzten
-        Satz musste er wegen eines schweren Hustenanfalls abbrechen; sein Assistent Carl
-        St.Clair übernahm, um das Konzert zu Ende zu bringen.</p>
-        <p class="vb-intro"><strong>b) Rücktritt vom Dirigieren am 9. Oktober 1990:</strong>
-        Sieben Wochen nach diesem Zusammenbruch gab Bernstein öffentlich seinen endgültigen
-        Rückzug vom Dirigieren bekannt.</p>
-        <p class="vb-intro"><strong>c) Tod am 14. Oktober 1990:</strong>
-        Nur fünf Tage nach der Rücktrittsankündigung starb Leonard Bernstein in seiner New
-        Yorker Wohnung an Herzversagen infolge seiner fortgeschrittenen Lungenerkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Abschied, der kaum Zeit zum Abschied ließ:</strong>
-        Die knappe Zeitspanne von nur fünf Tagen zwischen Rücktritt und Tod bedeutete, dass die
-        Öffentlichkeit den Ernst seines Zustands erst rückblickend wirklich begriff.</p>
-        <p class="vb-intro"><strong>b) Nachrufe voller Bewunderung, wenig Thematisierung der Krankheit:</strong>
-        Die Würdigungen nach seinem Tod konzentrierten sich fast ausschließlich auf sein
-        musikalisches Erbe – die schweren letzten Monate blieben ein Randthema.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Konzert, das zum Symbol wurde:</strong>
-        Dass er trotz ärztlichen Rats auftrat und mitten im Konzert aufgeben musste, wurde in
-        der Rückschau immer wieder als Sinnbild seiner lebenslangen Kompromisslosigkeit
-        erzählt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht innehalten konnte:</strong>
-        Seine gesamte Karriere war von der Unfähigkeit geprägt, ein Projekt, eine Rolle oder
-        eine Bühne aufzugeben – genau dieses Muster setzte sich bis in seine letzten Wochen
-        fort, als es längst um die eigene Gesundheit ging.</p>
-        <p class="vb-intro"><strong>b) Ärztlicher Rat gegen den eigenen Antrieb:</strong>
-        Die dringende Warnung seiner Ärzte vor dem Konzert am 19. August 1990 ignorierte er –
-        absagen hätte für ihn einer Kapitulation vor der eigenen Sterblichkeit gleichgekommen,
-        die er nicht bereit war zu akzeptieren.</p>
-        <p class="vb-intro"><strong>c) Kein geordneter Rückzug, sondern ein abruptes Ende:</strong>
-        Statt eines ruhigen, geplanten Ausklangs endete sein Leben in einem plötzlichen
-        Zusammenbruch mitten in der Aktivität – der Schimpanse, der bis zur letzten Sekunde am
-        Pult stand.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Drei Jahrzehnte Raubbau am eigenen Körper:</strong>
-        Von der Jugend bis zum Tod – vier Packungen Zigaretten täglich, exzessiver
-        Alkoholkonsum, kaum Schlaf und ein Arbeitspensum, das mehrere parallele Karrieren
-        umfasste. Die Leidenschaft der Sieben, die <strong>Völlerei</strong>, kannte bei
-        Bernstein keine Bremse.</p>
-        <p class="vb-intro"><strong>b) Ein Herz, das buchstäblich keine Pause kannte:</strong>
-        Sein Tod durch Herzversagen, ausgelöst durch die fortgeschrittene Lungenerkrankung, war
-        die körperliche Konsequenz eines Lebens, das die eigenen Belastungsgrenzen nie ernst
-        genommen hatte.</p>
-        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
-        Als die Ärzte ihm eindringlich vom Konzert am 19. August 1990 abrieten, verweigerte er
-        nicht aus spielerischer Siebener-Leichtigkeit, sondern aus einer fast starren,
-        pflichtbewussten Weigerung, das Programm zu ändern. Wer über Jahrzehnte in
-        chronischem Raubbau am eigenen Körper lebt, bewegt sich zunehmend entlang seiner
-        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Genau
-        dieses rigide „Ich ziehe es durch, komme was wolle" in seinen letzten Lebenswochen
-        wirkt weniger nach der freien Wahlfreiheit der gesunden Sieben als nach der starren
-        Pflichterfüllung ihres Stresspunkts – bei unverändertem Kerntyp SX7w6.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
-        Für eine sexuelle Sieben, deren gesamte Lebendigkeit sich im Atem und in der
-        körperlichen Ekstase am Dirigentenpult ausdrückte – er sprang, warf sich buchstäblich
-        in die Musik hinein –, liegt eine Deutung nahe: Ausgerechnet jenes Organ, das ihm die
-        körperliche Intensität ermöglichte, mit der er ganze Orchester mitriss, wurde zum
-        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
-        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sieben zwangsläufig zu
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Bernsteins Fall zeigen lässt, ist ein
-        Muster im Umfeld einer Krankheit, das bei einer ausgeprägten sexuellen Sieben immer
-        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Bernstein lebte zu einer Zeit, als das Enneagramm als modernes Persönlichkeitsmodell in
-        Kalifornien gerade erst entstand – nichts deutet darauf hin, dass er sein eigenes
-        Muster je bewusst kannte. Er lebte die Maßlosigkeit der Sieben völlig ungebremst aus:
-        Rauchen, Trinken, ein Arbeitspensum ohne Grenzen wurden nicht als wiederkehrendes
-        Muster erkannt, sondern einfach als Hindernisse behandelt, die es zu überspielen galt.
-        Wer die eigene Rastlosigkeit nicht als Muster kennt, kann rechtzeitig auch nicht
-        gegensteuern, wenn der eigene Körper längst deutliche Warnsignale sendet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Bernsteins</strong> sexuelle Sieben mit
-        Sechserflügel noch einmal ablesen: eine Maßlosigkeit, die keine Grenze kannte, bis der
-        eigene Körper die Grenze setzte, und ein letztes Konzert, bei dem er buchstäblich bis
-        zum letzten Atemzug am Pult stand. Der Schimpanse, der eine ganze Karriere lang jeden
-        Saal mit seiner Intensität mitriss – und dessen eigener Körper am Ende der Einzige war,
-        der sich diesem Sog widersetzte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6) – Lebenswerk"},
-        {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
-        {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
       ])}
     </div>
   `);

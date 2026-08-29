@@ -6694,6 +6694,72 @@ function brynKenneyPortraitPage() {
   `);
 }
 
+function johnnyCashPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johnny-cash-portrait.jpg" alt="Johnny Cash" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johnny Cash</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Sänger und Songwriter, 1932–2003 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus kargen Verhältnissen mit findiger Cleverness etwas Funktionierendes baut, statt auf Kraft oder Auftreten zu setzen. J. R. Cash wurde 1932 in Kingsland, Arkansas, als Sohn armer Baumwollpächter geboren; mit drei Jahren zog die Familie in die staatliche Siedlungskolonie Dyess, wo er bis zu seinem fünfzehnten Lebensjahr täglich auf den Feldern arbeitete. Aus dieser Kargheit erwuchs kein Selbstmitleid, sondern ein früh geschultes Gespür dafür, was man mit den eigenen Händen tatsächlich zustande bringt.</p>
+          <p class="vb-intro">1944 starb sein älterer Bruder Jack im Alter von vierzehn Jahren, eine Woche nach einem schweren Unfall an einer Kreissäge in der Schulwerkstatt. Jack war der erklärte Lieblingssohn des Vaters Ray Cash gewesen, und Ray ließ seinen überlebenden Sohn jahrzehntelang spüren, wer aus seiner Sicht hätte sterben sollen. Johnny trug diese Schuld sein Leben lang mit sich – und begann früh, sich etwas aufzubauen, das niemand ihm mehr streitig machen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Baumeister der eigenen Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Wert entsteht nicht durch öffentliche Selbstinszenierung, sondern durch das funktionierende Ergebnis. Cash suchte nie die Anziehungskraft der sexuellen Drei oder die permanente Bühnenpräsenz der sozialen Drei – seine Energie floss in etwas Dauerhaftes: über fünf Jahrzehnte Tourneen, Hunderte von Alben, eine der längsten und stabilsten Karrieren der amerikanischen Musikgeschichte, aufgebaut trotz jahrzehntelanger Sucht, mehrerer Karriereeinbrüche und tiefer familiärer Krisen.</p>
+          <p class="vb-intro">Diese SE3-Logik zeigte sich auch strategisch: Sein legendäres Konzert im Folsom State Prison 1968 war keine spontane Geste, sondern eine sorgfältig geplante Karriereentscheidung, nachdem seine Verkaufszahlen eingebrochen waren – ein kalkulierter Neuanfang, der zugleich zu einem seiner künstlerisch bedeutendsten Werke wurde. Wo andere Musiker ihrer Zeit nachließen oder sich neu erfanden, um im Rampenlicht zu bleiben, baute Cash systematisch an einer Karrierestruktur, die auch Rückschläge überstehen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Mann in Schwarz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Funktionalität übersteigt: den Hunger nach Tiefe, nach dem, was unter der glänzenden Oberfläche der Country-Musik liegt. 1971 erklärte Cash in seinem Song „Man in Black", warum er stets schwarz gekleidet auftrat – als stellvertretende Trauer für die Armen, die Gefangenen, die Kranken, die alten Menschen, die im Vietnamkrieg Gefallenen. Kein Marketing-Gag, sondern eine bewusst gewählte, düster-authentische Bühnenfigur, die Solidarität mit den Übersehenen zur eigenen Identität machte.</p>
+          <p class="vb-intro">Dieselbe Vierertiefe durchzieht sein Songwriting: Lieder über Mord, Schuld, Gefängnis und Verzweiflung – „Folsom Prison Blues" mit der Zeile „I shot a man in Reno just to watch him die" schrieb er, ohne selbst je einen Menschen getötet zu haben, aus reiner Vorstellungskraft für das Dunkelste im Menschen. Diese Fähigkeit, sich in Schuld und Abgrund einzufühlen, dürfte auch aus der eigenen, nie vollständig verarbeiteten Schuld am Tod seines Bruders gespeist gewesen sein – die Vier, die die eigene Wunde in Kunst übersetzt, statt sie zu verbergen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Folsom Prison, 1968</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 13. Januar 1968 spielte Cash vor Insassen des Folsom State Prison in Kalifornien – ein Konzert, das er seit Jahren angeregt hatte, gegen den Widerstand seines eigenen Labels. Das Publikum aus verurteilten Straftätern reagierte mit einer Begeisterung, die Cashs eigene, jahrelange Nähe zu Sucht, Gesetzeskonflikten und persönlichem Absturz spiegelte – er selbst war zuvor mehrfach wegen Drogenbesitzes verhaftet worden, ohne je eine Haftstrafe abzusitzen.</p>
+          <p class="vb-intro">Das daraus entstandene Live-Album „At Folsom Prison" wurde zu einem der kommerziell erfolgreichsten und kulturell bedeutendsten Werke seiner Karriere – der Moment, in dem strategischer Karriereaufbau (SE3) und echte, tief empfundene Verbundenheit mit den Ausgestoßenen der Gesellschaft (w4) untrennbar zusammenfielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus echter innerer Tiefe eine dauerhafte, tragfähige Struktur zu bauen</strong>, statt Tiefe entweder zu verbergen oder sie flüchtig zur Schau zu stellen. Cash verband eine der beständigsten Karrieren der Musikgeschichte mit Songs, die bis heute als schonungslos ehrlich gelten – ein seltenes Gleichgewicht zwischen Struktur und Substanz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei Cash zeigte sich das in der über Jahre aufrechterhaltenen öffentlichen Fassade des kontrollierten „Man in Black", während er in den 1960er Jahren heimlich amphetamin- und barbituratabhängig war, bis zum körperlichen Zusammenbruch. Erst 1967/68 gelang mit Hilfe von June Carter und ihrer Familie der Ausstieg – eine Krise, die zeigt, wie viel Kraft es die SE3 kostet, ein funktionierendes Bild aufrechtzuerhalten, während im Inneren längst alles zu zerbrechen droht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin – auch ohne das Bild, das ich pflege.</em> Für die SE3w4 bedeutet das, Tiefe nicht länger nur als Songmaterial zu nutzen, sondern die eigene Verletzlichkeit ungeschminkt zuzulassen.</p>
+          <p class="vb-intro">Genau das geschah in seinen letzten Lebensjahren: Ab 1994 nahm Cash gemeinsam mit Produzent Rick Rubin die Reihe „American Recordings" auf – meist nur seine Stimme und eine akustische Gitarre, ohne die gewohnte Studio-Inszenierung. Seine 2002 veröffentlichte Coverversion von „Hurt" (Nine Inch Nails), aufgenommen kurz vor seinem Tod, zeigt einen sichtlich gezeichneten, gealterten Mann, der keine Rolle mehr spielt. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, sich selbst ganz ohne Fassade zu zeigen – vier Monate nach dem Tod seiner Frau June starb Johnny Cash am 12. September 2003.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function davidLRathmerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7224,73 +7290,6 @@ function penelopeCruzPortraitPage() {
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
-      ])}
-    </div>
-  `);
-}
-
-function monikaGruberPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-monika-gruber-portrait.jpg" alt="Monika Gruber" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Monika Gruber</p>
-        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserfl\u00fcgel &middot; Herztyp</p>
-        <p class="krim-portrait-subtitle">Kabarettistin, Schauspielerin, geb. 1970 &ndash; Bayerns sch\u00e4rfste Verf\u00fchrerin zur Wahrheit &ndash; Tierentsprechung: Kamel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Kamel, das tausend Menschen gleichzeitig anschaut</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und kein Tier beschreibt Monika Gruber treffender. Das Kamel ist z\u00e4h, ausdauernd, eigensinnig. Es duldet keine schlechte Behandlung &ndash; aber wer ihm mit Respekt begegnet, findet einen der treuesten Gef\u00e4hrten der Tierwelt. Das Kamel speichert: Energie, Wasser, Geduld &ndash; und wenn es schlie\u00dflich trinkt, trinkt es auf einmal bis zu 150 Liter. Diese \u00fcberschie\u00dfende Energie ist das Prinzip der sexuellen Zwei: Was sie f\u00fchlt, f\u00fchlt sie vollst\u00e4ndig. Was sie gibt, gibt sie ganz.</p>
-          <p class="vb-intro">Monika Gruber, geboren 1970 in Wasserburg am Inn, ist Bayerns bekannteste Kabarettistin &ndash; und eine der erfolgreichsten B\u00fchnenk\u00fcnstlerinnen des deutschsprachigen Raums. Ihre Programme f\u00fcllen Hallen mit tausenden Menschen. Und trotzdem &ndash; oder genau deshalb &ndash; hat man beim Zuschauen das Gef\u00fchl: Sie spricht mit mir. Nur mit mir. Das ist das Geheimnis der sexuellen Zwei auf der B\u00fchne: Sie schafft Intimit\u00e4t im Gro\u00dfen. Sie macht aus einem Publikum eine einzige pers\u00f6nliche Begegnung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SX2: Verf\u00fchrung als Form von Wahrheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verf\u00fchrung</strong> &ndash; und das klingt nach Manipulation, ist aber das Gegenteil: Es ist die F\u00e4higkeit, den anderen so anzusprechen, dass er sich wirklich gesehen und wirklich gemeint f\u00fchlt. Die sexuelle Zwei verf\u00fchrt nicht, um zu nehmen. Sie verf\u00fchrt, um Verbindung herzustellen. Die tiefste Sehnsucht der SX2 ist nicht Macht &ndash; sie ist Kontakt. Echter, unmittelbarer, ungefilterter Kontakt.</p>
-          <p class="vb-intro">Monika Grubers B\u00fchnensprache ist ein Meisterkurs in genau dieser Qualit\u00e4t. Sie spricht Bayerisch &ndash; nicht als folkloristisches Accessoire, sondern als Sprache der Intimit\u00e4t, der Direktheit, der Zugeh\u00f6rigkeit. Sie erz\u00e4hlt vom Alltag, von der Familie, vom Supermarkt, von der Politik &ndash; und das Publikum erkennt sich wieder. Die SX2 wei\u00df instinktiv: Wenn ich dich zum Lachen bringe, bist du bei mir. Wenn du bei mir bist, kannst du h\u00f6ren, was ich dir eigentlich sagen will.</p>
-          <p class="vb-intro">Was sie sagen will, ist oft unbequem. Monika Gruber ist keine harmlose Unterhalterin. Sie hat sich in den letzten Jahren als eine der sch\u00e4rfsten Kritikerinnen politischer Korrektheit, Identit\u00e4tspolitik und des gesellschaftlichen Mainstreams positioniert. Woke-Kultur, Gender-Sprache, Corona-Ma\u00dfnahmen &ndash; sie benennt, was sie f\u00fcr falsch h\u00e4lt, ohne zu z\u00f6gern. Die Verf\u00fchrung ist der Kanal. Die Wahrheit ist das Ziel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Haltung als zweite Natur</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> verleiht der leidenschaftlichen Verf\u00fchrungskraft der SX2 eine feste moralische Achse. Die Eins lebt nach Prinzipien, die nicht verhandelbar sind: Ehrlichkeit, Gerechtigkeit, R\u00fcckgrat. Bei Monika Gruber verbindet sich das mit dem bayerischen Ethos einer Frau, die wei\u00df, wo sie herkommt &ndash; und die es f\u00fcr eine Pflicht h\u00e4lt, das auch zu sagen.</p>
-          <p class="vb-intro">Der Einserfl\u00fcgel ist der Grund, warum Monika Gruber nicht einfach Witze macht. Sie hat eine Haltung. Sie hat Meinungen, die sie vertritt, auch wenn sie daf\u00fcr Gegenwind bekommt. Sie ist nicht bequem. Das Kamel, das schlechte Behandlung nicht duldet, tritt zur\u00fcck &ndash; und Monika Gruber tritt verbal zur\u00fcck, wenn sie das Gef\u00fchl hat, dass etwas falsch l\u00e4uft. Das Lachen ist dabei kein Weichsp\u00fcler &ndash; es ist ein T\u00fcr\u00f6ffner. Humor als trojanisches Pferd der Wahrheit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Gesamtwirkung: Bayerische W\u00e4rme mit scharfen Z\u00e4hnen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Wer Monika Gruber live erlebt, begegnet einem Widerspruch, der sich sofort aufl\u00f6st: Sie ist gleichzeitig ungemein warm und ungemein scharf. Sie hat die N\u00e4he des Kamels &ndash; loyal, zuverl\u00e4ssig, zugewandt &ndash; und die Z\u00e4hne des Kamels, das sture, das eigenwillige, das sich-nicht-unterordnende. Kein Widerspruch. Beides geh\u00f6rt zur SX2w1: Die W\u00e4rme ist echt. Die Sch\u00e4rfe ist echt. Beide kommen aus derselben Quelle: dem Wunsch, dass die Dinge in Ordnung sind.</p>
-          <p class="vb-intro">Ihr Publikum liebt sie nicht trotz ihrer Direktheit, sondern wegen ihr. Menschen, die das Gef\u00fchl haben, dass in der \u00f6ffentlichen Debatte vieles nicht ausgesprochen werden darf, finden bei Monika Gruber eine Stimme &ndash; und das Sicherheitsgef\u00fchl, das entsteht, wenn jemand ausspricht, was man selbst denkt. Die SX2 erschafft diesen Schutzraum des gemeinsamen Lachens. Und der Einserfl\u00fcgel sorgt daf\u00fcr, dass in diesem Raum nicht nur gelacht, sondern auch nachgedacht wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Vollpr\u00e4senz, keine Halbheiten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Energie der SX2w1 ist nicht subtil. Sie ist da &ndash; vollst\u00e4ndig, unmittelbar, nicht wegzudiskutieren. Monika Gruber auf der B\u00fchne ist ein Vollkontakterlebnis: Sie ist vollst\u00e4ndig pr\u00e4sent, vollst\u00e4ndig engagiert, vollst\u00e4ndig sie selbst. Das Kamel gibt, wenn es gibt, alles &ndash; und Monika Grubers Auftritte sind keine kalibrierten Darbietungen, sondern echte, lebendige Begegnungen mit einer Frau, die gerade jetzt, mit diesem Publikum, wirklich da sein will.</p>
-          <p class="vb-intro">Der Einserfl\u00fcgel bringt dabei Disziplin und Vorbereitung: Ihre Programme sind handwerklich pr\u00e4zise, ihre Pointen sitzen. Aber die Energie darunter ist ungez\u00e4hmt &ndash; die leidenschaftliche Verbindungssehnsucht der sexuellen Zwei, die an jedem Abend aufs Neue befriedigt wird. Das Kamel hat gespeichert. Jetzt darf es trinken.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Humor als Heimat</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Monika Gruber ihrem Publikum gibt, ist schwer zu benennen, aber sofort zu sp\u00fcren: ein Gef\u00fchl von Heimat. Nicht im sentimentalen Sinn &ndash; sondern im Sinne von: Hier darf ich ich selbst sein. Hier werde ich verstanden. Hier darf gelacht werden, auch \u00fcber das, wor\u00fcber man sonst nicht lachen darf. Das ist das Geschenk der SX2w1 auf ihrer h\u00f6chsten Stufe: ein Raum, in dem Verbindung und Wahrheit nicht im Widerspruch stehen, sondern dasselbe sind.</p>
-          <p class="vb-intro">Monika Gruber macht keine Witze \u00fcber das Leben &ndash; sie macht das Leben zum Witz, und damit ertr\u00e4glich, klarer, ehrlicher. Das Kamel, das tausend Meilen W\u00fcste kennt, wei\u00df: Es kommt auf die Ausdauer an. Und auf die F\u00e4higkeit, das Wasser zu finden, wenn man es am meisten braucht.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
-        {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
-        {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
-        {route:"bibel-maria-magdalena", label:"Bibel-Portr\u00e4t: Maria Magdalena (SX2w1)"},
       ])}
     </div>
   `);

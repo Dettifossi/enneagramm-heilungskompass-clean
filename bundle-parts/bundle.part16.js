@@ -5170,6 +5170,7 @@ function render() {
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
+      "beruehmte-johnny-cash": johnnyCashPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
