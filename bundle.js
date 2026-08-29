@@ -33752,6 +33752,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adele Neuhauser \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 geb. 1959 in Athen. \u00d6sterreichische Schauspielerin, Bibi Fellner im Tatort, mehrfache \u00d6sterreichischer Filmpreis-Tr\u00e4gerin. Begann als T\u00e4nzerin. Das Krokodil, das tanzt \u2013 pr\u00e4sent bis auf den Grund.",
     land:"Griechenland", tags:["Schauspiel"], gender:"f"},
+  { route:"beruehmte-paul-gauguin", name:"Paul Gauguin", added:"2026-08-29", subtyp:"SX8w7",
+    heading:"Paul Gauguin – Sexueller Typ 8",
+    teaser:"SX8w7 · 1848–1903. Französischer Maler. Verließ mit 36 Beruf, Frau und fünf Kinder für die Kunst, Konflikt mit Van Gogh in Arles 1888, rastlose Aufbrüche über Panama, Martinique bis Tahiti und die Marquesas, offener Widerstand gegen Kolonialverwaltung bis zum Tod. Tierentsprechung: Krokodil.",
+    land:"Frankreich", tags:["Kunst"], gender:"m"},
   { route:"beruehmte-pablo-picasso", name:"Pablo Picasso", added:"2026-08-16", subtyp:"SX8w7",
     heading:"Pablo Picasso \u2013 Sexueller Typ 8",
     teaser:"SX8w7 \u00b7 1881\u20131973. Spanischer Maler und Bildhauer, Mitbegr\u00fcnder des Kubismus, \u203aGuernica\u2039. Das Krokodil, das mit 13 Jahren den eigenen Vater in der Malerei \u00fcbertraf \u2013 und danach nie wieder aufh\u00f6rte zu erobern. Tierentsprechung: Krokodil.",
@@ -44390,7 +44394,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Krokodil",
     kernthema: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff (Naranjo: Besitz/Besitzergreifung)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saulus auf dem Weg nach Damaskus"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes von Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saulus auf dem Weg nach Damaskus", "Paul Gauguin"],
     fingerabdruecke: [
       {
         titel: "Geduldiges Warten, dann vollständiger, blitzschneller Zugriff",
@@ -44405,7 +44409,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unermüdlicher, über ein ganzes Leben nie erlöschender Antrieb",
         beschreibung: "Der eigene Hunger nach Ausdruck, Erfahrung oder Wirkung lässt über Jahrzehnte nicht nach – ohne Rückzug, ohne Schaffenspause, ohne dass die Intensität mit dem Alter spürbar abnimmt.",
-        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹; Prof. Grahame Webb, der vor der Spezialisierung auf Krokodile bereits an Kängurus, Haien, Meeresschildkröten, Affen, Thunfischen und Walen forschte und danach zusätzlich Forschungsstation, Krokodilfarm, Schule und Roman aufbaute – nie ein einziges Revier, immer ein wachsendes Imperium.; Saulus auf dem Weg nach Damaskus (Bibel-Porträt), dessen Eifer gegen die Nazarener sich nach der Bekehrung nicht abschwächte, sondern mit derselben Wucht auf ein neues Ziel richtete: ›Er war wie ein Brand in einer trockenen Landschaft: schnell, unaufhaltsam … alles verzehrend‹ – der Antrieb selbst blieb, nur seine Richtung kehrte sich um."
+        beleg: "Pablo Picasso, der 91 Jahre lang ›unermüdlich, unersättlich, unbeirrbar von jeder Erwartung, die nicht seine eigene war‹ arbeitete und über 20.000 Werke hinterließ: ›Das Krokodil frisst, solange es Hunger hat. Und Picassos Hunger … erlosch nie‹; Gerhard Schröder, dessen ›ganze Instinktausrichtung‹ bereits als Jusochef am Kanzleramtszaun sichtbar wurde: ›Ich will da rein.‹; Prof. Grahame Webb, der vor der Spezialisierung auf Krokodile bereits an Kängurus, Haien, Meeresschildkröten, Affen, Thunfischen und Walen forschte und danach zusätzlich Forschungsstation, Krokodilfarm, Schule und Roman aufbaute – nie ein einziges Revier, immer ein wachsendes Imperium.; Saulus auf dem Weg nach Damaskus (Bibel-Porträt), dessen Eifer gegen die Nazarener sich nach der Bekehrung nicht abschwächte, sondern mit derselben Wucht auf ein neues Ziel richtete: ›Er war wie ein Brand in einer trockenen Landschaft: schnell, unaufhaltsam … alles verzehrend‹ – der Antrieb selbst blieb, nur seine Richtung kehrte sich um; Paul Gauguin, der Börse, Familie, Bretagne, Panama, Martinique und Arles nacheinander verließ, sobald der Reiz erloschen war, bis in die Marquesas, wo er noch todkrank und im offenen Konflikt mit der Kolonialverwaltung ein eigenes Satireblatt gegen die Behörden veröffentlichte – derselbe Appetit auf das nächste Territorium, ungebremst bis zum letzten Atemzug."
       },
       {
         titel: "Wenn Besitzergreifung sich in ein Netzwerk der Kontrolle über Menschen verwandelt (Schattenform)",
@@ -55471,6 +55475,89 @@ function tELawrencePortraitPage() {
   `);
 }
 
+function paulGauguinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-paul-gauguin-portrait.jpg" alt="Paul Gauguin – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Gauguin</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Maler, 1848–1903 – Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 – es wartet nicht ab, ob ihm ein Territorium zusteht, es nimmt es. Paul Gauguin lebte genau danach: Er verließ mit sechsunddreißig Jahren ohne Umschweife einen sicheren bürgerlichen Beruf, seine Frau und fünf Kinder, um sich vollständig der Malerei zu widmen – kein zögerlicher Übergang, sondern ein einziger, entschlossener Schnitt. In der etablierten Enneagramm-Literatur wird Gauguin meist als Vier geführt, als der romantisch leidende, unverstandene Künstler. Sein tatsächliches Verhalten – die kompromisslose Eroberung neuer Territorien, die kühle Grenzsetzung gegenüber Nähe, der offene Widerstand gegen jede Autorität bis zum Tod – zeichnet jedoch das Bild einer sexuellen Acht mit Siebenerflügel.</p>
+          <p class="vb-intro">Was das Krokodil ergreift, hält es fest. Was es nicht mehr will, lässt es fallen, ohne zurückzublicken. Gauguins Leben – vom Pariser Börsenparkett über die bretonische Provinz, Panama, Arles, bis in die Südsee – liest sich wie eine Kette solcher Ergreifungen und solcher abrupten Abbrüche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Peru: eine frühe Fremdheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paul Gauguin wurde 1848 in Paris geboren, in eine politisch bewegte Familie: Seine Großmutter mütterlicherseits, Flora Tristan, war eine bekannte frühsozialistische Schriftstellerin und Frauenrechtlerin. Wegen der politischen Unruhen nach dem Staatsstreich Napoleons III. floh die Familie 1849 nach Peru, zur Verwandtschaft der Mutter; der Vater starb während der Überfahrt. Gauguin verbrachte die ersten sieben Lebensjahre in Lima, in einem wohlhabenden, von Dienstpersonal geprägten Haushalt, bevor die Familie 1855 nach Frankreich zurückkehrte.</p>
+          <p class="vb-intro">Diese frühe Erfahrung einer fremden, exotisch erlebten Welt – und ihr abrupter Verlust bei der Rückkehr ins bürgerliche Frankreich – hinterließ bei Gauguin eine lebenslange Rastlosigkeit, die sich nie mit einem einzigen Ort zufriedengab. Mit siebzehn heuerte er bei der Handelsmarine an, bereiste Südamerika und das Mittelmeer, diente später in der französischen Marine – erste Ausschläge eines Musters, das sich sein ganzes Leben lang wiederholen sollte: aufbrechen, sobald ein Ort seinen Reiz verloren hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Börse, die zu eng war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seiner Marinezeit wurde Gauguin 1871 Börsenmakler in Paris, heiratete 1873 die Dänin Mette Gad und lebte über ein Jahrzehnt lang ein finanziell komfortables bürgerliches Leben mit fünf gemeinsamen Kindern. Nebenbei begann er zu malen, sammelte impressionistische Werke, lernte Camille Pissarro kennen und stellte ab 1879 mit den Impressionisten aus. Der Börsencrash von 1882 traf ihn hart – doch statt sich in der Finanzwelt neu zu behaupten, nutzte Gauguin die Krise als Anlass für einen radikalen Schnitt: 1884/85 gab er den Beruf vollständig auf.</p>
+          <p class="vb-intro">Er schickte Mette mit den Kindern zu ihrer Familie nach Kopenhagen und widmete sich fortan ganz der Malerei – ohne verlässliches Einkommen, ohne gesicherte Zukunft. Für die sexuelle Acht ist das kein Verzweiflungsakt, sondern eine souveräne Grenzziehung: Das bürgerliche Leben war ein Territorium, das seinen Appetit nicht mehr befriedigte, also verließ er es, ohne lange zu verhandeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die sexuelle Acht: Besitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> ist nach Naranjo der Subtyp, den er <em>Besitz</em> nannte – auf Englisch <em>Possession</em>. Sie will keine distanzierte Verbindung, sondern vollständige Verschmelzung, mit einem Menschen, einem Ort, einer Idee. Was sie berührt, will sie ganz. Gauguin lebte das in seiner Malerei ebenso wie in seinen Beziehungen: Er beanspruchte für sich eine völlig neue, von ihm selbst gesetzte künstlerische Sprache – flächige Farben, symbolische Bildsprache, bewusster Bruch mit der impressionistischen Wiedergabe der sichtbaren Welt – und beanspruchte diese Autorität, ohne um Anerkennung zu bitten.</p>
+          <p class="vb-intro">Auch in seinen Beziehungen zeigte sich dieses Muster ungeschönt: Auf Tahiti und später den Marquesas ging Gauguin mehrere Verbindungen mit sehr jungen einheimischen Frauen ein, darunter die vierzehnjährige Teha'amana, die er in „Noa Noa" später literarisch verklärte. Er infizierte sich mit Syphilis und gab die Krankheit nachweislich an mehrere Partnerinnen weiter – ein Verhalten, das die Schattenseite der SX8-Besitzergreifung in aller Härte zeigt: Nähe wird genommen, nicht ausgehandelt, Konsequenzen für andere werden dabei kaum mitgedacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Siebenerflügel: rastlose Eroberung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sexuellen Acht Appetit und Neugier auf das nächste Territorium, sobald das vorherige erobert ist. Kaum ein Künstlerleben zeigt diese Rastlosigkeit so deutlich wie Gauguins endlose Kette von Aufbrüchen: die bretonische Künstlerkolonie Pont-Aven, 1887 ein selbst gewählter, entbehrungsreicher Arbeitseinsatz beim Bau des Panamakanals, um die Überfahrt zu finanzieren, anschließend Martinique, 1888 Arles, 1891 die erste Reise nach Tahiti, 1893 eine kurze, finanziell gescheiterte Rückkehr nach Frankreich, 1895 die endgültige Abreise in die Südsee, zuletzt die Marquesas-Insel Hiva Oa.</p>
+          <p class="vb-intro">Eine sexuelle Acht mit Neunerflügel hätte sich vermutlich irgendwo eingerichtet und dort verwurzelt. Gauguin tat das Gegenteil: Kaum hatte ein Ort seinen Reiz verloren oder seine Erwartungen enttäuscht, brach er auf – nicht aus Verzweiflung, sondern aus demselben Appetit auf das nächste, noch unberührtere Territorium, der ihn schon als jungen Matrosen angetrieben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Arles: Van Gogh und die Grenze der Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 1888 folgte Gauguin, nach monatelangem Drängen, der Einladung Vincent van Goghs (SE4w5) nach Arles, wo dieser von einer gemeinsamen Künstlerkolonie im „Gelben Haus" träumte. Van Gogh, dessen selbsterhaltende Vier ihr tiefstes Gefühlsleben in stiller, intensiver Nähe zu verarbeiten suchte, erlebte die neun gemeinsamen Wochen als leidenschaftliche, oft nächtelange Debatten über Kunst. Gauguin dagegen empfand genau diese Intensität zunehmend als Bedrängnis – zeitgenössische Berichte beschreiben ihn in dieser Zeit als reserviert, distanziert, zunehmend gereizt.</p>
+          <p class="vb-intro">Das ist der entscheidende Unterschied zwischen den beiden Subtypen: Eine Vier hätte auf die Nähe mit eigenem Leid oder Rückzug in die eigene Innenwelt reagiert. Die Acht reagiert mit Grenzsetzung – kühl, kontrolliert, ohne sich von der emotionalen Intensität des Gegenübers mitreißen zu lassen. Am Abend des 23. Dezember 1888 eskalierte die Spannung; Gauguin verließ Arles unmittelbar danach, während Van Gogh sich in derselben Nacht einen Teil seines Ohrs abschnitt. Gauguin selbst distanzierte sich zeitlebens auffällig sachlich von dem Ereignis – ein weiteres Indiz für eine Acht, die auch in einer dramatischen Krise die eigene Kontrolle nicht verliert, während sie gleichzeitig die Kontrolle über die Situation längst verlassen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Tahiti und die Marquesas: der letzte Widerstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In seinen letzten Lebensjahren auf den Marquesas-Inseln geriet Gauguin in offenen, öffentlichen Konflikt mit der Kolonialverwaltung und der katholischen Kirche – er verteidigte die einheimische Bevölkerung gegen als ungerecht empfundene Steuern und Vorschriften, veröffentlichte ein eigenes, bewusst provokantes Satireblatt namens „Le Sourire" und geriet dafür wiederholt in juristische Auseinandersetzungen, zuletzt drohte ihm eine Gefängnisstrafe. Selbst gesundheitlich schwer angeschlagen, gab er diesen Widerstand nicht auf.</p>
+          <p class="vb-intro">Das ist ebenfalls typisch SX8: Die Acht weicht der Konfrontation mit Autorität nicht aus, selbst wenn sie sie objektiv nicht mehr gewinnen kann. Nicht das leise, in sich gekehrte Leiden einer Vier, sondern der offene, bis zuletzt geführte Kampf gegen eine als illegitim empfundene Macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist ihre kompromisslose Erneuerungskraft: Gauguin brach mit der impressionistischen Wiedergabe der sichtbaren Welt und öffnete der Malerei den Weg zum Symbolismus und zur Moderne – ein Bruch, der spätere Künstler wie Matisse und die Fauvisten direkt beeinflusste. Seine Bereitschaft, ein gesichertes bürgerliches Leben vollständig aufzugeben, um dieser eigenen künstlerischen Vision zu folgen, zeugt von genau der Kompromisslosigkeit, die die sexuelle Acht auszeichnet.</p>
+          <p class="vb-intro">Der Schatten ist derselbe Zug, ohne Rücksicht auf die, die zurückblieben: eine verlassene Familie, minderjährige Partnerinnen in kolonialer Abhängigkeit, eine Krankheit, die er wissentlich weitergab. Die reife SX8w7 lernt, Besitzergreifung durch echte Verbundenheit zu ersetzen. Bei Gauguin, soweit die Quellen zeigen, blieb dieser Schritt weitgehend aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Tod und Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paul Gauguin starb 1903, geschwächt von Syphilis und weiteren gesundheitlichen Leiden, allein in seiner Hütte auf Hiva Oa – bis zuletzt im offenen Konflikt mit der Kolonialverwaltung, unbeugsam bis zum Tod. Kein versöhnlicher Rückzug, kein stilles Einlenken: Das Krokodil verteidigte sein Territorium bis zum letzten Atemzug.</p>
+          <p class="vb-intro">Was bleibt, ist ein Werk, das die Kunstgeschichte grundlegend veränderte – und eine Biografie, die zeigt, wozu dieselbe Kraft fähig ist: zu einer der folgenreichsten künstlerischen Neuerungen der Moderne und zu rücksichtsloser Erschöpfung derer, die ihm zu nahe kamen, allen voran Vincent van Gogh. Die sexuelle Acht mit Siebenerflügel kennt keine halben Sachen – weder im Aufbrechen noch im Ergreifen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – der Konflikt in Arles"},
+          {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
+          {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7)"},
+          {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function miguelDeUnamunoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -55598,6 +55685,7 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
+        {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – der Konflikt in Arles"},
       ])}
     </div>
   `);
@@ -136490,6 +136578,7 @@ function render() {
     "beruehmte-karl-marx": karlMarxPortraitPage,
     "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
     "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
+    "beruehmte-paul-gauguin": paulGauguinPortraitPage,
     "beruehmte-donald-trump": donaldTrumpPortraitPage,
           "beruehmte-diogenes": diogenesPortraitPage,
           "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
