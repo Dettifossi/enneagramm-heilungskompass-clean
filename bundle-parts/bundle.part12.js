@@ -1,3 +1,88 @@
+function derMannVonGerasaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="Der Mann von Gerasa – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Der Mann von Gerasa</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Das Ich in der Zersplitterung – Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wie heißt du?« Er antwortete: »Legion – denn wir sind viele.« (Mk 5,9)</p>
+
+        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
+          <strong>Hinweis:</strong> Dieses Kapitel deutet die biblische Erzählung vom Besessenen von Gerasa literarisch-typologisch als Bild extremer innerer Zersplitterung nach Subtyp – nicht als klinische Diagnose. Die Erzählung erwähnt Selbstverletzung (»zerschnitt sich mit Steinen«); dies wird hier nicht ausgeschmückt, sondern nur im historischen Kontext benannt. Wer selbst betroffen ist: Die Telefonseelsorge ist unter 0800 111 0 111 kostenlos und rund um die Uhr erreichbar.
+        </div>
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf – er rollt sich bei Bedrohung vollständig ein, schützt sein empfindsames Inneres mit Stacheln nach außen, und öffnet sich nur, wenn absolute Sicherheit gewiss ist. Er lebte zwischen den Gräbern, dort, wo niemand wohnen will, dort, wo man vergisst, dort, wo nichts mehr heilt, aber auch nichts mehr stört. Er war nicht mehr »jemand«. Er war viele – ein Zersplittern von Stimme, Wille, Gesicht. Sein Name? Vergessen, verloren. »Legion«, sagte er, als Jesus ihn fragte, »denn wir sind viele.«</p>
+          <p class="vb-intro">Die SX5 ringt mit Identität in der Intensität. Sie spürt so viel, dass sie sich schützt, indem sie sich zurückzieht, oft bis zur Unkenntlichkeit. Sie lässt niemanden nahe, weil sie spürt: Nähe könnte mich zerstören. Aber sie will gleichzeitig genau das: gesehen werden, ganz, durchdrungen, erkannt trotz aller Masken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Zurückgezogen, um sich zu halten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was ihn zerriss, kam nicht von außen. Es war in ihm. Und dann kam Jesus, trat nicht laut auf, rief nicht nach Aufmerksamkeit, kam einfach an das Ufer, und das genügte. Denn der Gerasener spürte ihn, noch bevor er ihn sah. Er rannte, nicht aus Zorn, nicht aus Wut, sondern aus etwas Tieferem: einer verzweifelten Hoffnung, dass jemand stark genug sein könnte, ihn ganz zu halten.</p>
+          <p class="vb-intro">Jesus trat ihm entgegen, nicht mit Wucht, nicht mit Drohung, sondern mit einer stillen Präsenz, die stärker war als jedes Seil, jede Kette, jede Flucht. Der Mann warf sich vor ihn, zitternd, aber nicht aus Hass, sondern aus Überforderung. Denn die SX5 hat oft Angst vor Nähe, weil sie weiß, wie tief sie fallen könnte, wenn sie sich je wirklich zeigt. Er brüllte: »Was habe ich mit dir zu schaffen, Jesus, Sohn des höchsten Gottes? Quäle mich nicht!« Es war kein Widerstand, es war ein Hilferuf in der Sprache der Abwehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Sehnsucht nach dem einen wahren Ich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Fünf eine existenzielle, identitätssuchende Tiefe – die Zersplitterung ist nicht nur Schutzmechanismus, sondern eine tiefe, fast dramatische Frage nach dem, wer man eigentlich ist, jenseits aller Masken. Die SX5 schreit oft nach Grenze, weil sie sich selbst nicht mehr halten kann. Sie wünscht sich Erlösung, aber in einem Tempo, das sie nicht vernichtet. Jesus antwortete nicht mit einer Formel, nicht mit Gewalt. Er fragte: »Wie heißt du?«</p>
+          <p class="vb-intro">Es war eine Einladung, eine Brücke, ein Akt der Würdigung. Und das Fragment in diesem Mann, das sich noch erinnern konnte, antwortete: »Legion.« Doch dieser Name war nicht wahr, er war ein Schild, ein System der Abwehr. Jesus wusste: Dieser Mensch braucht nicht nur Reinigung, er braucht Wieder-Zusammenführung. Genau dieses existenzielle Ringen um das eine, wahre Selbst hinter der Zersplitterung, das sich nicht mit bloßer Distanz begnügt, trägt die Handschrift des Viererflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das erste Ich: Der Blick, der endlich bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als der Staub sich legte, war Stille, zum ersten Mal seit Jahren. Keine Stimmen, keine innere Schlacht, nur Atem, nur Haut, nur Erde, nur Jetzt. Man brachte ihm Kleidung, nicht als Geste der Anständigkeit, sondern als Akt der Wiederaufnahme ins Leben. Die SX5 kennt das Gefühl, ein Geist ohne Hülle zu sein. Sie weiß, wie es ist, sich in Fragmenten zu verlieren, und wie tief das Verlangen ist, endlich gehalten zu werden, nicht durch Argumente, sondern durch Anwesenheit.</p>
+          <p class="vb-intro">Er setzte sich zu Jesu Füßen, nicht unterwürfig, nicht verzweifelt, sondern still, und sah ihn an. Nicht mit Misstrauen, nicht mit Gier, nicht mit Flucht, sondern mit Blick. Zum ersten Mal blickte er, ohne zu prüfen, ohne zu fliehen, ohne sich zu verbergen. Es war kein intensiver Ausdruck, keine dramatische Geste, sondern einfach: Gegenwärtigkeit. Der Gerasener sprach nur wenig, aber jeder Atemzug sagte: Ich bin. Ich bin wieder da.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Wunsch, zu bleiben: Die Einladung, zu gehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er wollte bei ihm bleiben, bei dem, der ihn wieder zusammengesetzt hatte, nicht aus Abhängigkeit, nicht aus Angst, sondern aus einer tiefen Wahrheit: Du hast mich gesehen, ganz, nicht wer ich sein sollte, nicht was mich zerstörte, sondern mich. Die SX5 bindet sich nicht leicht, doch wenn sie sich bindet, dann absolut. Und so bat er: »Lass mich mit dir gehen.« Doch Jesus sagte Nein, nicht aus Ablehnung, sondern aus Liebe zur Eigenständigkeit: »Geh heim zu deinen Leuten und berichte ihnen, was der Herr dir Gutes getan hat.«</p>
+          <p class="vb-intro">Jesus wollte keine Nachahmung, keine Anhaftung, keine Flucht in eine neue Abhängigkeit. Er wollte, dass dieser Mann nicht nur heil, sondern frei wurde. Es war ein Schmerz, ein Riss, wieder einmal – aber diesmal war der Riss nicht zerstörend, sondern Reifung. Die SX5 lernt nur langsam, dass sie bestehen kann, auch außerhalb der Tiefe, dass sie geben darf, was sie selbst durchlebt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein stiller Zeuge des Unaussprechlichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Er kehrte zurück, nicht triumphierend, nicht predigend, sondern einfach als Mensch, dessen Augen nicht mehr flackerten, dessen Stimme nicht mehr zersplittert war. Er betrat die Dörfer, in denen man ihn einst fürchtete. Und wenn man ihn fragte, antwortete er nicht mit Argumenten, sondern mit Blick: »Ich war zersplittert. Jetzt bin ich eins. Ich war viele. Jetzt bin ich ich.«</p>
+          <p class="vb-intro">Er blieb kein Prediger, wurde kein Jünger im engeren Kreis, aber ein stiller Zeuge für alle, die selbst mit den Stimmen kämpfen, mit der Scham, mit dem Rückzug, mit der Angst, sich zu zeigen. Das ist das Geschenk der SX5w4: eine Tiefe, die gelernt hat, mitten unter den Menschen zu sein, ohne sich zu verlieren – ein Igel, der weiß, dass er sich nicht mehr einrollen muss, um ganz zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Legion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zum Mann von Gerasa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0" title="Legion – Der Mann von Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
+        {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
+        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function zachaeusPage() {
   return shell(`
     <div class="page-container">
@@ -11377,189 +11462,3 @@ function tedKaczynskiPortraitPage() {
     </div>
   `);
 }
-function haroldShipmanPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Harold Shipman \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Harold Shipman</p>
-        <p class="krim-portrait-typ">SO5w6 \u00b7 Sozialer Typ 5 mit Sechserfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDoctor Death" \u2013 Hyde, England 1975\u20131998</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Harold Frederick Shipman</strong>, geboren 1946 in Nottingham, war \u00fcber zwei Jahrzehnte
-        Hausarzt in der englischen Kleinstadt Hyde \u2013 gesch\u00e4tzt, vertrauensw\u00fcrdig, von Patienten geliebt.
-        Hinter dieser Fassade t\u00f6tete er mindestens <strong>218 Patienten</strong>, fast ausschlie\u00dflich
-        \u00e4ltere Frauen, durch Diamorphin-\u00dcberdosen. Die Dunkelziffer wird auf bis zu 250 gesch\u00e4tzt.
-        Shipman ist der t\u00f6dlichste verurteilte Serienm\u00f6rder der britischen Geschichte.
-        Er wurde 2000 wegen 15 Morden verurteilt und erh\u00e4ngte sich 2004 in seiner Gef\u00e4ngniszelle.
-        Was ihn so lange unentdeckt lie\u00df: Er war Arzt. Er hatte das Wissen, die Substanzen,
-        die institutionelle Autorit\u00e4t \u2013 und er nutzte sie mit einer K\u00e4lte, die selbst
-        erfahrene Ermittler sprachlos machte. Das Enneagramm macht sichtbar, was dahinter arbeitete.
-      </p>
-
-      <div class="vb-section" style="background:rgba(0,60,100,0.06);border-left:3px solid #003c64;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Harold Shipman</strong> wird dem <strong>Sozialen Typ 5 mit Sechserfl\u00fcgel</strong> zugeordnet.
-        Die soziale F\u00fcnf sucht Zugeh\u00f6rigkeit \u00fcber Wissen \u2013 sie sammelt Kompetenz als Eintrittskarte
-        in Systeme, in denen sie gebraucht wird, ohne sich wirklich anzun\u00e4hern.
-        Der Sechserfl\u00fcgel verleiht ihr Pflichtbewusstsein, ein Gesp\u00fcr f\u00fcr Strukturen und Regeln \u2013
-        und eine tiefe, oft verdeckte Angst vor dem Kontrollverlust.
-        Der Stresspunkt liegt bei der <strong>Sieben</strong>: impulsives Ausweichen,
-        verdecktes Genusserleben, das nach au\u00dfen hin nie sichtbar wird.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Oktopus</h3>
-        <p class="vb-intro">
-        Der <strong>Oktopus</strong> ist die Tierentsprechung der sozialen F\u00fcnf.
-        Er ist das intelligenteste Weichtier der Welt \u2013 hochanpassungsf\u00e4hig, f\u00e4hig zur Tarnung,
-        in der Lage, Probleme zu l\u00f6sen, die weit \u00fcber das Erwartbare hinausgehen.
-        Er operiert allein. Er zieht sich in H\u00f6hlen zur\u00fcck. Er kommuniziert \u00fcber Farbwechsel,
-        die nur der versteht, der genau hinschaut.
-        Shipman war ein Oktopus in einem wei\u00dfen Kittel.
-        Er beherrschte das System Medizin vollst\u00e4ndig: die Sprache, die Rituale, die Hierarchien.
-        Er wusste, wie Vertrauen funktioniert \u2013 und er wusste, wie man es ausnutzt,
-        ohne dass jemand die Tentakel sieht.
-        Der Oktopus tritt nicht in den Vordergrund. Er wartet. Er beobachtet. Er handelt.
-        Und er ist verschwunden, bevor jemand begreift, was gerade passiert ist.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\u00fcnf: Wissen als Herrschaft</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen F\u00fcnf:</strong>
-        Die soziale F\u00fcnf ist der Normaltyp unter den F\u00fcnfern \u2013 sie sucht Anschluss,
-        aber auf ihre eigene Weise: \u00fcber Wissen, Kompetenz und institutionelle Einbindung.
-        Sie will dazugeh\u00f6ren, aber nicht verschmelzen. Sie will gebraucht werden, aber nicht abh\u00e4ngig sein.
-        Sie h\u00e4lt Distanz durch Expertise.
-        F\u00fcr Shipman war die Medizin das perfekte System: ein Feld, in dem Wissen buchst\u00e4blich
-        Leben und Tod bedeutet. Wer das Wissen besitzt, besitzt die Macht.
-        Wer die Macht besitzt, braucht keine emotionale N\u00e4he.</p>
-        <p class="vb-intro"><strong>b) Der Sechserfl\u00fcgel: Ordnung, Struktur, Pflichtbewusstsein:</strong>
-        Der Sechserfl\u00fcgel der sozialen F\u00fcnf verst\u00e4rkt das Bed\u00fcrfnis nach Struktur und Zuverl\u00e4ssigkeit.
-        Shipman war bekannt f\u00fcr seine P\u00fcnktlichkeit, seine gr\u00fcndliche Dokumentation,
-        sein aufger\u00e4umtes Praxismanagement. Er machte Hausbesuche, die andere \u00c4rzte l\u00e4ngst
-        aufgegeben hatten. Er rief Patienten zur\u00fcck. Er erinnerte sich an Details.
-        Diese Eigenschaften machten ihn unantastbar \u2013 sie waren die Tarnung des Oktopus.
-        Hinter dem Pflichtbewusstsein lag keine F\u00fcrsorge, sondern Kontrolle.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Geiz als Wissensmonopol:</strong>
-        Die Leidenschaft der F\u00fcnf ist der <strong>Geiz</strong> \u2013 nicht prim\u00e4r auf Geld gerichtet,
-        sondern auf Energie, Raum, Information.
-        Die soziale F\u00fcnf geizes mit dem, was andere nicht wissen d\u00fcrfen.
-        Shipman wusste als einziger, was er tat. Und er sorgte daf\u00fcr, dass es so blieb.
-        Er f\u00e4lschte Krankenakten, stellte gef\u00e4lschte Todesurkunden aus, lie\u00df Leichen ein\u00e4schern,
-        bevor eine Untersuchung stattfinden konnte. Der Geiz des Oktopus ist informationeller Geiz:
-        alles festhalten, nichts herausgeben, das Wissen als einzige W\u00e4hrung h\u00fcten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 218 Morde in zwei Jahrzehnten</h3>
-        <p class="vb-intro"><strong>a) Der Beginn (1975):</strong>
-        Shipmans erste nachweisliche T\u00f6tung geht auf das Jahr 1975 zur\u00fcck \u2013
-        kurz nach seiner Niederlassung als Arzt in Todmorden, Yorkshire.
-        Zu diesem Zeitpunkt war er bereits wegen Meperidin-Missbrauchs aufgefallen:
-        Er hatte sich als Arzt Schmerzmittel auf eigenen Namen verschrieben und war
-        kurzzeitig in eine Entzugsklinik eingewiesen worden.
-        Dieses Wissen \u00fcber die Pharmakologie starker Opioide trug er als Werkzeug
-        durch seine gesamte Laufbahn. Er wechselte zu Diamorphin \u2013 medizinisches Heroin,
-        das bei korrekter Dosierung lebensrettend, bei \u00dcberdosis t\u00f6dlich und
-        im K\u00f6rper nach dem Tod schwer nachweisbar ist.</p>
-        <p class="vb-intro"><strong>b) Hyde, 1977\u20131998 \u2013 der Alltag des T\u00f6tens:</strong>
-        In seiner Praxis in Hyde, Greater Manchester, entwickelte Shipman ein stabiles Muster.
-        Er besuchte Patientinnen \u2013 fast ausschlie\u00dflich \u00e4ltere Frauen, meist allein lebend \u2013
-        zu Hause. Er injizierte eine t\u00f6dliche Dosis Diamorphin. Er wartete, bis die Patientin
-        tot war. Dann rief er die Angeh\u00f6rigen an und teilte ihr Ableben mit,
-        oft mit dem Kommentar, er habe sich verabschiedet, kurz bevor es geschah.
-        Er tr\u00f6stete. Er wirkte best\u00fcrzt. Er stellte die Todesurkunde aus.
-        Die meisten Familien dankten ihm f\u00fcr seine F\u00fcrsorge.
-        \u00dcber 23 Jahre beging er im Schnitt mehr als neun Morde pro Jahr \u2013
-        in einem normalen Arztleben, mit normalen Patienten, in einer normalen englischen Kleinstadt.</p>
-        <p class="vb-intro"><strong>c) Der Fehler: Das Testament (1998):</strong>
-        Shipmans Ende kam nicht durch polizeiliche Ermittlungen, sondern durch einen Fehler,
-        der nicht aus dem T\u00f6tungsschema, sondern aus einem anderen Antrieb heraus entstand.
-        Seine letzte Patientin, Kathleen Grundy (81), eine wohlhabende fr\u00fchere B\u00fcrgermeisterin,
-        wurde tot aufgefunden. Ihr Testament \u2013 in Shipmans Praxis gefunden und von seiner Schreibmaschine
-        stammend \u2013 enthielt eine seltsame Klausel: Die gesamte Erbschaft ging an Dr. Shipman.
-        Ihre Tochter, Angela Woodruff, selbst Anw\u00e4ltin, sch\u00f6pfte sofort Verdacht.
-        Sie informierte die Polizei. Der K\u00f6rper ihrer Mutter wurde exhumiert \u2013
-        und Diamorphin in t\u00f6dlicher Konzentration gefunden. Das Wissensmonopol war gebrochen.</p>
-        <p class="vb-intro"><strong>d) Der Prozess und die Shipman-Untersuchung:</strong>
-        Shipman wurde im Januar 2000 in 15 F\u00e4llen schuldig gesprochen.
-        Die anschlie\u00dfende \u00f6ffentliche Untersuchung unter Dame Janet Smith
-        dauerte vier Jahre und ergab <strong>mindestens 218 best\u00e4tigte T\u00f6tungen</strong>.
-        Die Gesamtzahl k\u00f6nnte bei 250 liegen. Es gab keine Hinweise auf sexuelle Motive,
-        auf finanzielle Bereicherung im Gro\u00dfen, auf ein Beziehungsmuster zu den Opfern.
-        Shipman machte keine Aussage. Er zeigte keine Reue. Er erkl\u00e4rte nichts.
-        Der Oktopus gab nichts heraus.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Siebener-Stress: Das verdeckte Genusserleben</h3>
-        <p class="vb-intro">
-        Die F\u00fcnf bewegt sich im Stress in Richtung <strong>Sieben</strong> \u2013
-        weg von Tiefe und Sammlung, hin zu fl\u00fcchtigem Erleben, innerem Genuss,
-        dem Ausweichen vor dem, was schmerzt.
-        Psychologen und Ermittler, die Shipmans Aussagen und Verhalten analysierten,
-        beschrieben eine subtile Freude an der \u00dcberlegenheit: das Wissen, was keiner wei\u00df;
-        das K\u00f6nnen, was keiner kann; die Stille nach der Tat, in der er der Einzige war,
-        der verstand, was gerade passiert war.
-        Diese Siebener-Energie ist bei Shipman nie laut, nie exhibitionistisch.
-        Sie ist still, privat, fast introvertiert.
-        Aber sie ist der Treibstoff, der hinter dem Oktopus-Muster liegt:
-        nicht Machtdemonstration nach au\u00dfen \u2013 sondern die innerste Freude
-        an der absoluten Kontrolle \u00fcber das Wissen selbst.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Harold Shipman zeigt, was passiert, wenn die soziale F\u00fcnf keinen Zugang mehr
-        zu ihrer eigentlichen Sehnsucht findet: echter Zugeh\u00f6rigkeit, echter Resonanz,
-        dem Erleben, mit dem eigenen Wissen wirklich etwas beizutragen.
-        Stattdessen wurde Wissen zur Waffe. Kompetenz zur Kontrolle. Vertrauen zum Instrument.
-        Was Shipman von anderen F\u00fcnfern unterscheidet, ist das Ausma\u00df der institutionellen Einbettung:
-        Er operierte nicht im Verborgenen. Er operierte mitten in der Gesellschaft \u2013
-        mit Billigung, Vertrauen und Dankbarkeit.
-        Der Sechserfl\u00fcgel machte ihn glaubw\u00fcrdig. Der Oktopus machte ihn unsichtbar.
-        Und die soziale F\u00fcnf brauchte keine Dramatik, keine Eskalation, kein Chaos.
-        Nur Ordnung. Routine. Die t\u00e4gliche Kontrolle \u00fcber das Unbegreifliche.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
-        <p class="vb-intro">
-        <strong>Subtyp:</strong> SO5w6 \u2013 Soziale F\u00fcnf mit Sechserfl\u00fcgel.<br>
-        <strong>Leidenschaft:</strong> Geiz \u2013 das Festhalten von Wissen, Energie und Kontrolle als einzige W\u00e4hrung.<br>
-        <strong>Stresspunkt:</strong> Sieben \u2013 verdecktes Genusserleben, die stille innere Freude an der \u00dcberlegenheit.<br>
-        <strong>Tierentsprechung:</strong> Oktopus \u2013 h\u00f6chste Intelligenz, perfekte Tarnung, solit\u00e4res Operieren.<br>
-        <strong>Opfer:</strong> Mindestens 218 \u2013 ausschlie\u00dflich eigene Patienten, fast immer \u00e4ltere Frauen, durch Diamorphin-\u00dcberdosierung.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\u00fcnf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausf\u00fchrlich portr\u00e4tiert \u2013 Geiz, R\u00fcckzug und der Heilungsweg \u00fcber echte Gro\u00dfz\u00fcgigkeit.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Harold Shipman wurde 2000 in 15 F\u00e4llen des Mordes schuldig gesprochen \u2013 sp\u00e4tere Untersuchungen gehen von mindestens 218 Opfern aus. Er starb 2004 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll (SE5w6)"},
-        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
-        {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE2w1) \u2013 Krankenpfleger, Serienm\u00f6rder"},
-      ])}
-    </div>
-  `);
-}
-

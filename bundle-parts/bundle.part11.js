@@ -1,3 +1,178 @@
+function davidHumeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1711–1776</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Hume</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-david-hume">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk und seine
+        Gelassenheit im Zweifel. Hier geht es ausschließlich um ein Kapitel, das dort nur
+        gestreift wird: eine chronische Darmerkrankung, die ihn in seinen letzten Lebensjahren
+        zunehmend schwächte – und die er mit derselben bemerkenswerten Ruhe verarbeitete, mit
+        der er zeitlebens philosophiert hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hume</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht
+        nach innerem Frieden und Komfort. Der Achterflügel gibt dieser Gelassenheit eine
+        unerschütterliche Standfestigkeit, die auch dem eigenen Tod ohne Ausweichen
+        gegenübertreten kann. Genau diese Verbindung aus Ruhe und innerer Festigkeit prägte,
+        wie Hume seine letzte, tödliche Krankheit verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Verdauungsbeschwerden ab 1772:</strong>
+        Etwa vier Jahre vor seinem Tod bemerkte Hume erste anhaltende Verdauungsstörungen und
+        Durchfälle, die er zunächst als vorübergehend abtat und mit gewohnter Gelassenheit
+        hinnahm.</p>
+        <p class="vb-intro"><strong>b) Stetiger Gewichtsverlust:</strong>
+        In den folgenden Jahren magerte Hume, der zeitlebens für seine Vorliebe an gutem Essen
+        und geselligen Diners bekannt war, zunehmend ab – ein auffälliger Kontrast zu seinem
+        früheren, oft als rundlich beschriebenen Erscheinungsbild.</p>
+        <p class="vb-intro"><strong>c) Eine Reise nach Bath zur Kur:</strong>
+        1775 reiste Hume ins englische Bath, um die dortigen Heilquellen zur Linderung seiner
+        Beschwerden zu nutzen – ein damals übliches, aber letztlich wirkungsloses Mittel gegen
+        seine fortschreitende Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine bis heute nicht abschließend geklärte Diagnose:</strong>
+        Medizinhistoriker vermuten heute überwiegend ein Darmkarzinom oder eine schwere
+        chronisch-entzündliche Darmerkrankung als Ursache von Humes Symptomen – eine
+        eindeutige, moderne Diagnose ist aus den historischen Quellen nicht mehr zu
+        rekonstruieren.</p>
+        <p class="vb-intro"><strong>b) Kontinuierliches Fortschreiten über gut vier Jahre:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses gab es bei Hume keine
+        dramatischen Wendepunkte oder Krisen – seine Erkrankung entwickelte sich stetig und
+        gleichmäßig fortschreitend, ohne größere Rückschläge oder Erholungsphasen.</p>
+        <p class="vb-intro"><strong>c) Ungebrochene geistige Klarheit bis zuletzt:</strong>
+        Trotz des körperlichen Verfalls blieb Humes intellektuelle Schärfe nach übereinstimmenden
+        Zeugenberichten bis in seine letzten Lebenswochen vollständig erhalten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) "Mein eigenes Leben" – die letzte, nüchterne Bilanz:</strong>
+        Im April 1776, wenige Monate vor seinem Tod, verfasste Hume die kurze Autobiografie "My
+        Own Life" – eine erstaunlich sachliche, fast heitere Rückschau auf sein Leben, in der er
+        seine nahende Sterblichkeit nüchtern und ohne jede Dramatik erwähnte.</p>
+        <p class="vb-intro"><strong>b) Der Besuch James Boswells im Juli 1776:</strong>
+        Der Schriftsteller James Boswell suchte den sterbenden Hume auf, um herauszufinden, ob
+        der berühmte Skeptiker angesichts des Todes nicht doch Angst zeige oder zu religiösem
+        Glauben zurückfinde.</p>
+        <p class="vb-intro"><strong>c) Eine Gelassenheit, die Boswell zutiefst erschütterte:</strong>
+        Hume erklärte ruhig, er sehe keinen Grund zur Sorge und rechne mit einer vollständigen
+        Auflösung nach dem Tod – eine Haltung, die Boswell, selbst tief religiös, in seinen
+        eigenen Tagebüchern als beunruhigend und zugleich bewundernswert beschrieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Gesellige Abende bis kurz vor dem Ende:</strong>
+        Selbst in den letzten Wochen empfing Hume weiterhin Freunde zu Gesprächen und kleinen
+        Diners in seinem Haus in Edinburgh – der gesellige Lebensstil, der ihn sein ganzes Leben
+        ausgezeichnet hatte, wich der Krankheit nicht kampflos.</p>
+        <p class="vb-intro"><strong>b) Regelung der eigenen Nachlassangelegenheiten:</strong>
+        Hume ordnete seine Papiere und literarischen Angelegenheiten, darunter die postume
+        Veröffentlichung der "Dialoge über natürliche Religion", mit derselben nüchternen
+        Sorgfalt, mit der er sein gesamtes Werk organisiert hatte.</p>
+        <p class="vb-intro"><strong>c) Tod am 25. August 1776 in Edinburgh:</strong>
+        David Hume starb in seinem Haus in Edinburgh, im Kreis vertrauter Menschen, im Alter von
+        65 Jahren – ohne die theatralische Inszenierung, die manche Zeitgenossen von einem so
+        berühmten "gottlosen" Philosophen vielleicht erwartet hätten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
+        Dieselbe Bereitschaft, eine Position bis zum radikalen Ende zu denken, die Humes
+        gesamtes philosophisches Werk prägte, zeigte sich auch im Angesicht des Todes – er
+        verweigerte sich jeder tröstenden Illusion, ohne dabei bitter oder verzweifelt zu wirken.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich nicht vom nahenden Ende trüben ließ:</strong>
+        Die selbsterhaltende Neun sucht Frieden im Vertrauten – Hume fand diesen Frieden bis
+        zuletzt in Gesprächen, Büchern und der Gesellschaft von Freunden, auch als sein Körper
+        ihn zunehmend im Stich ließ.</p>
+        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur Gleichmut:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses findet sich bei Hume
+        weder ein verzweifelter Kampf gegen die Krankheit noch ein resignierter Rückzug –
+        stattdessen eine fast meditative Gelassenheit, die seine gesamte Philosophie bereits
+        vorweggenommen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur letzten philosophischen Prüfung wurde:</strong>
+        Hume hatte sein ganzes Leben lang für einen skeptischen, illusionslosen Blick auf
+        Kausalität, Selbst und Gottesbeweise argumentiert – seine eigene, tödliche Erkrankung
+        wurde zur unausweichlichen Gelegenheit, diese Haltung nicht nur zu vertreten, sondern
+        tatsächlich zu leben.</p>
+        <p class="vb-intro"><strong>b) Kein Wendepunkt, keine Umkehr:</strong>
+        Anders als so manche Sterbebett-Bekehrung, die die Nachwelt sich von einem berühmten
+        Skeptiker erhofft hätte, blieb Hume bis zum letzten Atemzug seiner philosophischen
+        Grundhaltung treu – die Krankheit veränderte seine Überzeugungen nicht, sie bestätigte
+        sie.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis darin besteht,
+        inneren Frieden und Verdauung im wörtlichsten Sinn zu bewahren – die Fähigkeit, alles
+        Aufgenommene ruhig zu verarbeiten, ohne sich aus der Fassung bringen zu lassen –, liegt
+        eine Deutung nahe: Ausgerechnet das Organ, das für Aufnahme, Verarbeitung und
+        Gleichgewicht steht, wurde bei Hume selbst zum Schauplatz eines langsamen, aber
+        unaufhaltsamen Verfalls. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Darmerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Humes Fall zeigen lässt, ist ein Muster, das bei
+        tiefem, philosophisch begründetem Gleichmut in der Praxis immer wieder auffällt – eine
+        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hume kannte sein eigenes Muster nicht – und doch zeigte sich die selbsterhaltende Neun mit Achterflügel gerade in der eigenen Krankheit von ihrer reifsten Seite: statt Bedrohung auszuweichen oder sie zu dramatisieren, verarbeitete er den eigenen Verfall mit derselben gelassenen Klarheit, mit der er sein ganzes Leben Philosophie betrieben hatte. Nicht jedes unbewusst gelebte Muster verschärft das Leiden – manchmal trägt es auch durch, ohne dass der Betroffene je wusste, warum.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Humes</strong> Sterben lässt sich die selbsterhaltende Neun mit
+        Achterflügel in ihrer reifsten Form ablesen: eine über vier Jahre fortschreitende,
+        tödliche Erkrankung, die weder Kampf noch Verzweiflung, sondern eine seltene,
+        philosophisch fundierte Gelassenheit hervorbrachte. Der Elefant, der die Welt so
+        verließ, wie er sie durchquert hatte – ungerührt, neugierig, ohne die Bequemlichkeit
+        einer Illusion zu brauchen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
 function johannesBrahmsKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12461,91 +12636,6 @@ function gamalielPage() {
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"bibel-nikodemus", label:"Bibel-Porträt: Nikodemus (SE5w6)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function derMannVonGerasaPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="Der Mann von Gerasa – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Der Mann von Gerasa</p>
-        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Das Ich in der Zersplitterung – Tierentsprechung: Igel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Wie heißt du?« Er antwortete: »Legion – denn wir sind viele.« (Mk 5,9)</p>
-
-        <div class="vb-hinweis-box" style="background:rgba(139,94,60,0.08);border:1px solid rgba(139,94,60,0.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.5rem;font-size:0.92rem;line-height:1.6;">
-          <strong>Hinweis:</strong> Dieses Kapitel deutet die biblische Erzählung vom Besessenen von Gerasa literarisch-typologisch als Bild extremer innerer Zersplitterung nach Subtyp – nicht als klinische Diagnose. Die Erzählung erwähnt Selbstverletzung (»zerschnitt sich mit Steinen«); dies wird hier nicht ausgeschmückt, sondern nur im historischen Kontext benannt. Wer selbst betroffen ist: Die Telefonseelsorge ist unter 0800 111 0 111 kostenlos und rund um die Uhr erreichbar.
-        </div>
-
-        <h2 class="vb-section">1. Der Igel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf – er rollt sich bei Bedrohung vollständig ein, schützt sein empfindsames Inneres mit Stacheln nach außen, und öffnet sich nur, wenn absolute Sicherheit gewiss ist. Er lebte zwischen den Gräbern, dort, wo niemand wohnen will, dort, wo man vergisst, dort, wo nichts mehr heilt, aber auch nichts mehr stört. Er war nicht mehr »jemand«. Er war viele – ein Zersplittern von Stimme, Wille, Gesicht. Sein Name? Vergessen, verloren. »Legion«, sagte er, als Jesus ihn fragte, »denn wir sind viele.«</p>
-          <p class="vb-intro">Die SX5 ringt mit Identität in der Intensität. Sie spürt so viel, dass sie sich schützt, indem sie sich zurückzieht, oft bis zur Unkenntlichkeit. Sie lässt niemanden nahe, weil sie spürt: Nähe könnte mich zerstören. Aber sie will gleichzeitig genau das: gesehen werden, ganz, durchdrungen, erkannt trotz aller Masken.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Fünf: Zurückgezogen, um sich zu halten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was ihn zerriss, kam nicht von außen. Es war in ihm. Und dann kam Jesus, trat nicht laut auf, rief nicht nach Aufmerksamkeit, kam einfach an das Ufer, und das genügte. Denn der Gerasener spürte ihn, noch bevor er ihn sah. Er rannte, nicht aus Zorn, nicht aus Wut, sondern aus etwas Tieferem: einer verzweifelten Hoffnung, dass jemand stark genug sein könnte, ihn ganz zu halten.</p>
-          <p class="vb-intro">Jesus trat ihm entgegen, nicht mit Wucht, nicht mit Drohung, sondern mit einer stillen Präsenz, die stärker war als jedes Seil, jede Kette, jede Flucht. Der Mann warf sich vor ihn, zitternd, aber nicht aus Hass, sondern aus Überforderung. Denn die SX5 hat oft Angst vor Nähe, weil sie weiß, wie tief sie fallen könnte, wenn sie sich je wirklich zeigt. Er brüllte: »Was habe ich mit dir zu schaffen, Jesus, Sohn des höchsten Gottes? Quäle mich nicht!« Es war kein Widerstand, es war ein Hilferuf in der Sprache der Abwehr.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die Sehnsucht nach dem einen wahren Ich</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Fünf eine existenzielle, identitätssuchende Tiefe – die Zersplitterung ist nicht nur Schutzmechanismus, sondern eine tiefe, fast dramatische Frage nach dem, wer man eigentlich ist, jenseits aller Masken. Die SX5 schreit oft nach Grenze, weil sie sich selbst nicht mehr halten kann. Sie wünscht sich Erlösung, aber in einem Tempo, das sie nicht vernichtet. Jesus antwortete nicht mit einer Formel, nicht mit Gewalt. Er fragte: »Wie heißt du?«</p>
-          <p class="vb-intro">Es war eine Einladung, eine Brücke, ein Akt der Würdigung. Und das Fragment in diesem Mann, das sich noch erinnern konnte, antwortete: »Legion.« Doch dieser Name war nicht wahr, er war ein Schild, ein System der Abwehr. Jesus wusste: Dieser Mensch braucht nicht nur Reinigung, er braucht Wieder-Zusammenführung. Genau dieses existenzielle Ringen um das eine, wahre Selbst hinter der Zersplitterung, das sich nicht mit bloßer Distanz begnügt, trägt die Handschrift des Viererflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das erste Ich: Der Blick, der endlich bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als der Staub sich legte, war Stille, zum ersten Mal seit Jahren. Keine Stimmen, keine innere Schlacht, nur Atem, nur Haut, nur Erde, nur Jetzt. Man brachte ihm Kleidung, nicht als Geste der Anständigkeit, sondern als Akt der Wiederaufnahme ins Leben. Die SX5 kennt das Gefühl, ein Geist ohne Hülle zu sein. Sie weiß, wie es ist, sich in Fragmenten zu verlieren, und wie tief das Verlangen ist, endlich gehalten zu werden, nicht durch Argumente, sondern durch Anwesenheit.</p>
-          <p class="vb-intro">Er setzte sich zu Jesu Füßen, nicht unterwürfig, nicht verzweifelt, sondern still, und sah ihn an. Nicht mit Misstrauen, nicht mit Gier, nicht mit Flucht, sondern mit Blick. Zum ersten Mal blickte er, ohne zu prüfen, ohne zu fliehen, ohne sich zu verbergen. Es war kein intensiver Ausdruck, keine dramatische Geste, sondern einfach: Gegenwärtigkeit. Der Gerasener sprach nur wenig, aber jeder Atemzug sagte: Ich bin. Ich bin wieder da.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Wunsch, zu bleiben: Die Einladung, zu gehen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Er wollte bei ihm bleiben, bei dem, der ihn wieder zusammengesetzt hatte, nicht aus Abhängigkeit, nicht aus Angst, sondern aus einer tiefen Wahrheit: Du hast mich gesehen, ganz, nicht wer ich sein sollte, nicht was mich zerstörte, sondern mich. Die SX5 bindet sich nicht leicht, doch wenn sie sich bindet, dann absolut. Und so bat er: »Lass mich mit dir gehen.« Doch Jesus sagte Nein, nicht aus Ablehnung, sondern aus Liebe zur Eigenständigkeit: »Geh heim zu deinen Leuten und berichte ihnen, was der Herr dir Gutes getan hat.«</p>
-          <p class="vb-intro">Jesus wollte keine Nachahmung, keine Anhaftung, keine Flucht in eine neue Abhängigkeit. Er wollte, dass dieser Mann nicht nur heil, sondern frei wurde. Es war ein Schmerz, ein Riss, wieder einmal – aber diesmal war der Riss nicht zerstörend, sondern Reifung. Die SX5 lernt nur langsam, dass sie bestehen kann, auch außerhalb der Tiefe, dass sie geben darf, was sie selbst durchlebt hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Ein stiller Zeuge des Unaussprechlichen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Er kehrte zurück, nicht triumphierend, nicht predigend, sondern einfach als Mensch, dessen Augen nicht mehr flackerten, dessen Stimme nicht mehr zersplittert war. Er betrat die Dörfer, in denen man ihn einst fürchtete. Und wenn man ihn fragte, antwortete er nicht mit Argumenten, sondern mit Blick: »Ich war zersplittert. Jetzt bin ich eins. Ich war viele. Jetzt bin ich ich.«</p>
-          <p class="vb-intro">Er blieb kein Prediger, wurde kein Jünger im engeren Kreis, aber ein stiller Zeuge für alle, die selbst mit den Stimmen kämpfen, mit der Scham, mit dem Rückzug, mit der Angst, sich zu zeigen. Das ist das Geschenk der SX5w4: eine Tiefe, die gelernt hat, mitten unter den Menschen zu sein, ohne sich zu verlieren – ein Igel, der weiß, dass er sich nicht mehr einrollen muss, um ganz zu bleiben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Legion</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zum Mann von Gerasa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0" title="Legion – Der Mann von Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
-        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
-        {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
-        {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
       ])}
     </div>
   `);

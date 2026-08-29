@@ -1,3 +1,74 @@
+function oshoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Mystiker &amp; Kommune-Gr\u00fcnder, 1931&ndash;1990 &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das seine Umgebung mit wachen Pfoten abtastet, jede Ritze auf Nutzen pr\u00fcft und aus begrenzten Mitteln funktionierende Systeme baut. Kein lautes Tier, aber ein au\u00dferordentlich findiges: Es \u00fcberlebt nicht durch Kraft, sondern durch Cleverness und die F\u00e4higkeit, sich jeder Umgebung anzuverwandeln.</p>
+          <p class="vb-intro">Der indische Osho, geboren als Chandra Mohan Jain, baute innerhalb weniger Jahre aus einem staubigen Grundst\u00fcck in Poona einen internationalen Kommune-Betrieb auf &ndash; und wenig sp\u00e4ter, in der W\u00fcste von Oregon, binnen vier Jahren eine funktionierende Stadt mit eigenem Flughafen, Krankenhaus, Kl\u00e4ranlage und Bustransportsystem f\u00fcr Zehntausende Besucher. Der Waschb\u00e4r, der aus nacktem Land ein funktionierendes System macht &ndash; mit einer Effizienz, die selbst Kritiker verbl\u00fcffte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Guru als Systembauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in der \u00f6ffentlichen Selbstinszenierung, sondern im funktionierenden Ergebnis. Wo die soziale Drei die B\u00fchne braucht und die sexuelle Drei die Anziehung, richtet die SE3 ihre Energie auf das, was tr\u00e4gt &ndash; auf Struktur, Sicherheit, ein System, das auch ohne st\u00e4ndige Aufmerksamkeit l\u00e4uft.</p>
+          <p class="vb-intro">Bei Osho zeigt sich das gerade nicht in Bescheidenheit, sondern in einer anderen SE3-Spielart: dem obsessiven Aufbau von Infrastruktur. \u00dcber 600 B\u00fccher, transkribiert aus t\u00e4glichen Vortr\u00e4gen, ein weltweites Netz an Meditationszentren, ein straff organisierter innerer Kreis engster Mitarbeiterinnen, der den gesamten operativen Betrieb f\u00fchrte, w\u00e4hrend Osho selbst sprach, schwieg oder sich zur\u00fcckzog. Die SE3-Logik: Nicht der Guru muss \u00fcberall pr\u00e4sent sein &ndash; das System muss funktionieren, auch wenn er es nicht ist.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet sich auf Kontrolle \u00fcber die materiellen Grundlagen der eigenen Existenz. Oshos ber\u00fchmte Sammlung von schlie\u00dflich 93 Rolls-Royce-Limousinen wirkt auf den ersten Blick wie das Gegenteil von Bescheidenheit &ndash; und ist doch, aus SE3-Perspektive gelesen, auch ein Sicherheitssystem: ein Statussymbol, das Spendenbereitschaft, mediale Aufmerksamkeit und die materielle Basis der Kommune absicherte. Funktion, verkleidet als Verschwendung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe, Provokation, Individualit\u00e4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Effizienz \u00fcbersteigt: den Hunger nach Authentizit\u00e4t, nach dem, was unter der Oberfl\u00e4che liegt, nach der eigenen, unverwechselbaren Stimme. Die Vier verweigert sich der Konvention nicht aus Trotz, sondern weil das Konventionelle ihr nie tief genug ist.</p>
+          <p class="vb-intro">Oshos gesamtes Denken kreist um genau dieses Thema: radikale Individualit\u00e4t. \u201eIch lehre nicht, ich helfe euch, ihr selbst zu werden", wiederholte er in unz\u00e4hligen Varianten. Seine Vortr\u00e4ge verwoben Sufi-Poesie, Zen-Anekdoten, Nietzsche, Freud und Tantra zu einer eigenwilligen, oft schockierenden Synthese &ndash; besonders seine offene Thematisierung von Sexualit\u00e4t als spirituellem Weg, die ihm den Beinamen \u201eSex-Guru" der westlichen Presse einbrachte. Kein anderer spiritueller Lehrer seiner Zeit provozierte so bewusst die b\u00fcrgerliche Moral &ndash; die Vier, die den Tabubruch als Weg zur Tiefe versteht.</p>
+          <p class="vb-intro">Auch seine \u00e4sthetische Inszenierung trug diese Handschrift: die aufwendigen Roben, der sorgsam kuratierte Blick, die minutenlangen Schweigepausen vor jedem Vortrag. Kein Zufall, sondern die Vier, die wei\u00df, dass Form und Tiefe zusammengeh\u00f6ren &ndash; dass die Art, wie etwas erscheint, bereits Teil dessen ist, was es bedeutet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rajneeshpuram: Die Utopie als Bauprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1981 verlegte Osho seine Kommune auf eine 26 Quadratkilometer gro\u00dfe Ranch in Oregon. Was folgte, war eines der ambitioniertesten Kommune-Bauprojekte des 20. Jahrhunderts: Innerhalb weniger Jahre entstand Rajneeshpuram &ndash; mit eigener Landwirtschaft, eigener Polizei, eigenem Rundfunksender und Platz f\u00fcr \u00fcber 7.000 Bewohner. Die SE3w4-Vision unverfälscht: eine ideale Gesellschaft, gebaut nicht als Theorie, sondern als funktionierender Ort.</p>
+          <p class="vb-intro">Der Konflikt mit der lokalen Bev\u00f6lkerung eskalierte zu einer der gr\u00f6\u00dften Bioterror-Attacken in der Geschichte der USA: 1984 vergifteten F\u00fchrungsmitglieder der Kommune Salatbars in umliegenden Restaurants mit Salmonellen, um die lokale Wahl zu beeinflussen &ndash; \u00fcber 750 Menschen erkrankten. 1985 wurde Osho selbst wegen Einwanderungsbetrugs verhaftet und aus den USA ausgewiesen. Die Utopie, die als perfekt funktionierendes System gedacht war, brach an genau dem zusammen, was sie ausblendete: der Frage, wie viel Kontrolle ein System vertr\u00e4gt, bevor es sich selbst zerst\u00f6rt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre F\u00e4higkeit, Vision in funktionierende Realit\u00e4t zu \u00fcbersetzen. Was bei anderen spirituellen Lehrern bei der Idee bleibt, wurde bei Osho zu Infrastruktur: Zentren, Verlagen, einer eigenen Sprache aus \u00fcber 600 B\u00fcchern, die bis heute in Dutzenden L\u00e4ndern gelesen werden. Millionen Menschen fanden \u00fcber seine pragmatisch aufbereiteten Meditationstechniken &ndash; etwa die \u201eDynamische Meditation" &ndash; einen Zugang zu innerer Erfahrung, den abstraktere Lehren ihnen verwehrt h\u00e4tten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber bei Osho durch den Viererfl\u00fcgel versch\u00e4rft: die Behauptung radikaler Bindungslosigkeit bei gleichzeitigem Aufbau eines der straffsten hierarchischen Systeme seiner Zeit. \u201eIch besitze nichts" bei gleichzeitiger Sammlung von 93 Rolls-Royce &ndash; ein Widerspruch, den Kritiker als Heuchelei lasen, den Anh\u00e4nger als bewusste Provokation gegen materialistisches Denken verteidigten. Die Wahrheit liegt vermutlich dazwischen: Die SE3 braucht die materielle Absicherung, die Vier braucht die Geste, die alles infrage stellt &ndash; beides zugleich ist schwer zu halten, ohne dass eines das andere t\u00e4uscht.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel bringt sein eigenes Schattenmuster: die Inszenierung von Einzigartigkeit kann zur Isolation f\u00fchren, die selbst dem engsten Kreis den Zugang zum realen Menschen hinter der Rolle verwehrt. Oshos letzte Lebensjahre, gepr\u00e4gt von gesundheitlichem Verfall und dem Zerfall der Kommune, blieben nach au\u00dfen von derselben unersch\u00fctterlichen Inszenierung begleitet, mit der alles begonnen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom System zur Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne das System, das ich errichtet habe.</em> F\u00fcr die SE3w4 bedeutet das, den Wert nicht l\u00e4nger an die Kontrolle \u00fcber eine funktionierende Struktur zu binden &ndash; und die Tiefe nicht l\u00e4nger als etwas zu behandeln, das inszeniert werden muss, um sichtbar zu sein.</p>
+          <p class="vb-intro">In seinen letzten Lebensjahren, nach dem Zusammenbruch von Rajneeshpuram, verlegte Osho den Schwerpunkt zunehmend auf reine Stille &ndash; \u201eNur Zuh\u00f6ren" nannte er es, Vortr\u00e4ge ohne feste Lehre, oft nur Musik und Schweigen. Ob dies echte Reifung war oder eine letzte Neuerfindung, bleibt umstritten. Der Waschb\u00e4r, der lebenslang Systeme baute, endete mit der Geste, alle Systeme loszulassen &ndash; und genau darin liegt die eigentliche Heilungsfrage seines Weges: ob das Loslassen selbst noch einmal eine Maske war, oder das erste Mal keine.</p>
+        </blockquote>
+
+        <p class="vb-intro">Die chronischen Beschwerden seit den fr\u00fchen 1970ern, die zw\u00f6lft\u00e4gige Haft 1985 und die bis heute umstrittene Kontroverse um seinen Tod 1990 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-osho">Krankheitsportr\u00e4t zu Osho</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-osho", label:"Krankheitsportr\u00e4t: Osho (SE3w4)"},
+        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portr\u00e4t: Kathrin Bauerfeind (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function wolodymyrSelenskyjPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11193,181 +11264,6 @@ function jamesLevineKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
-      ])}
-    </div>
-  `);
-}
-
-function davidHumeKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">David Hume</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1711–1776</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Elefant</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>David Hume</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-david-hume">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein philosophisches Lebenswerk und seine
-        Gelassenheit im Zweifel. Hier geht es ausschließlich um ein Kapitel, das dort nur
-        gestreift wird: eine chronische Darmerkrankung, die ihn in seinen letzten Lebensjahren
-        zunehmend schwächte – und die er mit derselben bemerkenswerten Ruhe verarbeitete, mit
-        der er zeitlebens philosophiert hatte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Hume</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: die Sehnsucht
-        nach innerem Frieden und Komfort. Der Achterflügel gibt dieser Gelassenheit eine
-        unerschütterliche Standfestigkeit, die auch dem eigenen Tod ohne Ausweichen
-        gegenübertreten kann. Genau diese Verbindung aus Ruhe und innerer Festigkeit prägte,
-        wie Hume seine letzte, tödliche Krankheit verarbeitete.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste Verdauungsbeschwerden ab 1772:</strong>
-        Etwa vier Jahre vor seinem Tod bemerkte Hume erste anhaltende Verdauungsstörungen und
-        Durchfälle, die er zunächst als vorübergehend abtat und mit gewohnter Gelassenheit
-        hinnahm.</p>
-        <p class="vb-intro"><strong>b) Stetiger Gewichtsverlust:</strong>
-        In den folgenden Jahren magerte Hume, der zeitlebens für seine Vorliebe an gutem Essen
-        und geselligen Diners bekannt war, zunehmend ab – ein auffälliger Kontrast zu seinem
-        früheren, oft als rundlich beschriebenen Erscheinungsbild.</p>
-        <p class="vb-intro"><strong>c) Eine Reise nach Bath zur Kur:</strong>
-        1775 reiste Hume ins englische Bath, um die dortigen Heilquellen zur Linderung seiner
-        Beschwerden zu nutzen – ein damals übliches, aber letztlich wirkungsloses Mittel gegen
-        seine fortschreitende Erkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine bis heute nicht abschließend geklärte Diagnose:</strong>
-        Medizinhistoriker vermuten heute überwiegend ein Darmkarzinom oder eine schwere
-        chronisch-entzündliche Darmerkrankung als Ursache von Humes Symptomen – eine
-        eindeutige, moderne Diagnose ist aus den historischen Quellen nicht mehr zu
-        rekonstruieren.</p>
-        <p class="vb-intro"><strong>b) Kontinuierliches Fortschreiten über gut vier Jahre:</strong>
-        Anders als bei manch anderem Krankheitsporträt dieses Kompasses gab es bei Hume keine
-        dramatischen Wendepunkte oder Krisen – seine Erkrankung entwickelte sich stetig und
-        gleichmäßig fortschreitend, ohne größere Rückschläge oder Erholungsphasen.</p>
-        <p class="vb-intro"><strong>c) Ungebrochene geistige Klarheit bis zuletzt:</strong>
-        Trotz des körperlichen Verfalls blieb Humes intellektuelle Schärfe nach übereinstimmenden
-        Zeugenberichten bis in seine letzten Lebenswochen vollständig erhalten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) "Mein eigenes Leben" – die letzte, nüchterne Bilanz:</strong>
-        Im April 1776, wenige Monate vor seinem Tod, verfasste Hume die kurze Autobiografie "My
-        Own Life" – eine erstaunlich sachliche, fast heitere Rückschau auf sein Leben, in der er
-        seine nahende Sterblichkeit nüchtern und ohne jede Dramatik erwähnte.</p>
-        <p class="vb-intro"><strong>b) Der Besuch James Boswells im Juli 1776:</strong>
-        Der Schriftsteller James Boswell suchte den sterbenden Hume auf, um herauszufinden, ob
-        der berühmte Skeptiker angesichts des Todes nicht doch Angst zeige oder zu religiösem
-        Glauben zurückfinde.</p>
-        <p class="vb-intro"><strong>c) Eine Gelassenheit, die Boswell zutiefst erschütterte:</strong>
-        Hume erklärte ruhig, er sehe keinen Grund zur Sorge und rechne mit einer vollständigen
-        Auflösung nach dem Tod – eine Haltung, die Boswell, selbst tief religiös, in seinen
-        eigenen Tagebüchern als beunruhigend und zugleich bewundernswert beschrieb.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Gesellige Abende bis kurz vor dem Ende:</strong>
-        Selbst in den letzten Wochen empfing Hume weiterhin Freunde zu Gesprächen und kleinen
-        Diners in seinem Haus in Edinburgh – der gesellige Lebensstil, der ihn sein ganzes Leben
-        ausgezeichnet hatte, wich der Krankheit nicht kampflos.</p>
-        <p class="vb-intro"><strong>b) Regelung der eigenen Nachlassangelegenheiten:</strong>
-        Hume ordnete seine Papiere und literarischen Angelegenheiten, darunter die postume
-        Veröffentlichung der "Dialoge über natürliche Religion", mit derselben nüchternen
-        Sorgfalt, mit der er sein gesamtes Werk organisiert hatte.</p>
-        <p class="vb-intro"><strong>c) Tod am 25. August 1776 in Edinburgh:</strong>
-        David Hume starb in seinem Haus in Edinburgh, im Kreis vertrauter Menschen, im Alter von
-        65 Jahren – ohne die theatralische Inszenierung, die manche Zeitgenossen von einem so
-        berühmten "gottlosen" Philosophen vielleicht erwartet hätten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
-        Dieselbe Bereitschaft, eine Position bis zum radikalen Ende zu denken, die Humes
-        gesamtes philosophisches Werk prägte, zeigte sich auch im Angesicht des Todes – er
-        verweigerte sich jeder tröstenden Illusion, ohne dabei bitter oder verzweifelt zu wirken.</p>
-        <p class="vb-intro"><strong>b) Appetit, der sich nicht vom nahenden Ende trüben ließ:</strong>
-        Die selbsterhaltende Neun sucht Frieden im Vertrauten – Hume fand diesen Frieden bis
-        zuletzt in Gesprächen, Büchern und der Gesellschaft von Freunden, auch als sein Körper
-        ihn zunehmend im Stich ließ.</p>
-        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur Gleichmut:</strong>
-        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses findet sich bei Hume
-        weder ein verzweifelter Kampf gegen die Krankheit noch ein resignierter Rückzug –
-        stattdessen eine fast meditative Gelassenheit, die seine gesamte Philosophie bereits
-        vorweggenommen hatte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit, die zur letzten philosophischen Prüfung wurde:</strong>
-        Hume hatte sein ganzes Leben lang für einen skeptischen, illusionslosen Blick auf
-        Kausalität, Selbst und Gottesbeweise argumentiert – seine eigene, tödliche Erkrankung
-        wurde zur unausweichlichen Gelegenheit, diese Haltung nicht nur zu vertreten, sondern
-        tatsächlich zu leben.</p>
-        <p class="vb-intro"><strong>b) Kein Wendepunkt, keine Umkehr:</strong>
-        Anders als so manche Sterbebett-Bekehrung, die die Nachwelt sich von einem berühmten
-        Skeptiker erhofft hätte, blieb Hume bis zum letzten Atemzug seiner philosophischen
-        Grundhaltung treu – die Krankheit veränderte seine Überzeugungen nicht, sie bestätigte
-        sie.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm?</strong>
-        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis darin besteht,
-        inneren Frieden und Verdauung im wörtlichsten Sinn zu bewahren – die Fähigkeit, alles
-        Aufgenommene ruhig zu verarbeiten, ohne sich aus der Fassung bringen zu lassen –, liegt
-        eine Deutung nahe: Ausgerechnet das Organ, das für Aufnahme, Verarbeitung und
-        Gleichgewicht steht, wurde bei Hume selbst zum Schauplatz eines langsamen, aber
-        unaufhaltsamen Verfalls. Diese Deutung wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
-        Darmerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Humes Fall zeigen lässt, ist ein Muster, das bei
-        tiefem, philosophisch begründetem Gleichmut in der Praxis immer wieder auffällt – eine
-        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Hume kannte sein eigenes Muster nicht – und doch zeigte sich die selbsterhaltende Neun mit Achterflügel gerade in der eigenen Krankheit von ihrer reifsten Seite: statt Bedrohung auszuweichen oder sie zu dramatisieren, verarbeitete er den eigenen Verfall mit derselben gelassenen Klarheit, mit der er sein ganzes Leben Philosophie betrieben hatte. Nicht jedes unbewusst gelebte Muster verschärft das Leiden – manchmal trägt es auch durch, ohne dass der Betroffene je wusste, warum.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Humes</strong> Sterben lässt sich die selbsterhaltende Neun mit
-        Achterflügel in ihrer reifsten Form ablesen: eine über vier Jahre fortschreitende,
-        tödliche Erkrankung, die weder Kampf noch Verzweiflung, sondern eine seltene,
-        philosophisch fundierte Gelassenheit hervorbrachte. Der Elefant, der die Welt so
-        verließ, wie er sie durchquert hatte – ungerührt, neugierig, ohne die Bequemlichkeit
-        einer Illusion zu brauchen.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8) – Lebenswerk"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
-        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}

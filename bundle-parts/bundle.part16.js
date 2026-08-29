@@ -5168,6 +5168,7 @@ function render() {
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-clueso": cluesoPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,

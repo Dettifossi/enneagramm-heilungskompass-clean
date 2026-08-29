@@ -32896,6 +32896,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweigh\u00f6fer \u2013 Sexueller Typ 2",
     teaser:"SX2w1 \u00b7 geb. 1981. Schauspieler, Regisseur, Produzent. N\u00e4he statt Distanz \u2013 ob als Darsteller oder als Regisseur tr\u00e4gt er sein Ensemble wie das Kamel seinen Weg. Tierentsprechung: Kamel.",
     land:"Deutschland", tags:["Schauspiel"] , gender:"m"},
+  { route:"beruehmte-clueso", name:"Clueso", added:"2026-08-29", subtyp:"SX2w1",
+    heading:"Clueso – Sexueller Typ 2",
+    teaser:"SX2w1 · geb. 1980. Deutscher Sänger, Songwriter und Maler aus Erfurt, bekannt für ehrliche, tief persönliche Liebeslieder. Baute sein erstes Studio in der eigenen Speisekammer, brach 2016 radikal mit Band und Kollektiv, um seine künstlerische Freiheit zurückzugewinnen. Tierentsprechung: Kamel.",
+    land:"Deutschland", tags:["Musik"], gender:"m"},
   { route:"beruehmte-milow", name:"Milow", added:"2026-07-30", subtyp:"SX2w1",
     heading:"Milow \u2013 Sexueller Typ 2",
     teaser:"SX2w1 \u00b7 geb. 1982. S\u00e4nger, Songwriter. Ayo Technology, Little in the Middle. Leise, ehrliche N\u00e4he statt lauter Inszenierung \u2013 das Kamel, das seine Last mit Sorgfalt tr\u00e4gt. Tierentsprechung: Kamel.",
@@ -44882,7 +44886,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Kamel",
     kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
     fingerabdruecke: [
       {
         titel: "Intimität im Großen – aus vielen wird ein Einzelner",
@@ -44892,7 +44896,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt und gibt sich vollständig, ohne sich aufzudrängen",
         beschreibung: "Hingabe zeigt sich nicht als lautes Werben, sondern als beständiges, geduldiges Mittragen – im Dienst einer Verbindung, eines Weges, eines Partners, ohne dabei viel zurückzuverlangen.",
-        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war."
+        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war; Clueso, dessen musikalischer Stil erst durch die über Jahre gewachsene, enge Freundschaft mit DJ Malik und Steer M bei gemeinsamen Jam-Sessions in Jena wirklich Form annahm – kein Solo-Aufstieg, sondern ein Weg, der sich im engen Kontakt mit denen entwickelte, die ihn begleiteten."
       },
       {
         titel: "Speichert Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben",
@@ -71185,7 +71189,72 @@ function milowPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
-        {route:"beruehmte-monika-gruber", label:"Portr\u00e4t: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function cluesoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-clueso-portrait.jpg" alt="Clueso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clueso</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Songwriter &amp; Maler, geb. 1980 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Thomas Hübner, besser bekannt als Clueso, wurde 1980 in Erfurt geboren und entdeckte, inspiriert vom Kultfilm ›Beat Street‹, der Ende der 1980er auch in DDR-Kinos lief, früh seine Leidenschaft für HipHop.</p>
+          <p class="vb-intro">Ab 1995 sang er in verschiedenen Erfurter Musikprojekten und verfeinerte sein Können gemeinsam mit DJ Malik und Steer M bei Jam-Sessions im Jenaer Club Kassablanca – eine enge, über Jahre gewachsene Freundschaft, aus der sich sein musikalischer Stil erst richtig entwickelte. Das ist die Geste des Kamels: Es geht nicht allein voran, sondern im engen, verlässlichen Kontakt mit denen, die den Weg mit ihm teilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Nähe als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei – sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht.</p>
+          <p class="vb-intro">Bei Clueso zeigt sich das in seinem Ruf als ›Poet der deutschen Musiklandschaft‹: Seine Liebeslieder gehen unmittelbar ins Private, ohne den Umweg über große Gesten. Statt in einem professionellen Studio nahm er seinen Song ›Tanzen‹ in einem selbst gebauten Mini-Studio in der eigenen Speisekammer auf – aus Gründen des Schallschutzes, aber auch, weil ihm die unmittelbare, private Nähe zu seiner Musik wichtiger war als professionelle Distanz. Die SX2, die ihre innerste Frage in Klang übersetzt: <em>Kann ich wirklich berühren? Kann ich wirklich berührt werden?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ehrlichkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine innere Achse, die bei schwach ausgeprägtem Einserflügel nicht von selbst da ist: das Bewusstsein für Qualität, für das Richtige, für die Verantwortung gegenüber dem, was man tut. Eine SX2 mit schwächerem Einserflügel könnte sich in der reinen Intensität der Verbindung verlieren. Der Einserflügel sagt: <em>Es reicht nicht, Nähe zu wollen. Es kommt darauf an, wie sorgfältig man mit ihr umgeht.</em></p>
+          <p class="vb-intro">Bei Clueso zeigt sich dieser Flügel nicht nur in seinem musikalischen Handwerk, sondern auch in seiner zweiten künstlerischen Disziplin: der Malerei, die er über Jahre parallel zur Musik betreibt und mit derselben Ernsthaftigkeit verfolgt. Auch sein Künstlername – angelehnt an Inspektor Clouseau aus ›Der rosarote Panther‹ – trägt einen selbstironischen, aber genauen Blick auf die eigene Person. Der Anspruch, jede Zeile eines Textes ehrlich zu meinen statt bloß gefällig klingen zu lassen, ist die typische Einser-Haltung innerhalb der SX2: lieber wahrhaftig als bequem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch für die künstlerische Ehrlichkeit, 2016</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für sein siebtes Album ›Neuanfang‹ (2016) zog Clueso radikale Konsequenzen aus fünfzehn Jahren angesammelter Verpflichtungen: Er trennte sich von seiner Band, verließ das von ihm mitgegründete Künstlernetzwerk Zughafen und zog sogar aus seiner Wohngemeinschaft aus. Seine eigene Begründung: ›Ich musste erkennen, dass all die Verpflichtungen und Versprechen gegenüber meinem Umfeld meine künstlerische Freiheit einschränkten.‹</p>
+          <p class="vb-intro">Diese Entscheidung trägt die charakteristische SX2w1-Handschrift: kein leiser Rückzug, sondern ein klarer, prinzipiengeleiteter Schnitt, sobald erkannt war, dass die eigene Ehrlichkeit gegenüber der Kunst durch zu viele Bindungen kompromittiert wurde. Das Album selbst verhandelte offen die Zweifel, Ängste und Abhängigkeiten, die sich seit seinem ersten Album aufgebaut hatten – ein bewusst ungeschönter, teils zum HipHop-Ursprung zurückkehrender Sound als klanggewordene Konsequenz dieses Bruchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w1 ist ihre Fähigkeit, echte, unverstellte Nähe herzustellen – in der Musik wie im persönlichen Kontakt. Cluesos größte Songs funktionieren nicht durch Effekt, sondern durch Verletzlichkeit: eine Stimme, eine ehrliche Zeile, ein Gefühl, das nicht geglättet wird. Das machte ihn zu einer der prägenden Stimmen der deutschen Popmusik, ohne dass er sich dafür dem üblichen Glamour anpassen musste.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, gebraucht und geliebt werden zu müssen, verbunden mit der Schwierigkeit, die eigenen Bedürfnisse offen zu benennen. Bei der SX2w1 zeigt sich das als die stille Sorge, nicht genug zu geben, gepaart mit dem Anspruch, es perfekt zu machen. Cluesos eigene, öffentlich gemachte Offenheit über eine frühere offene Beziehung zeigt, wie sehr er auch unkonventionelle Formen von Nähe ehrlich und ohne Beschönigung ansprechen kann, statt sie zu verschweigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nähe ohne Kompromiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Clueso der deutschen Musiklandschaft gegeben hat, ist eine beständige Gegenrede zur oberflächlichen Selbstinszenierung des Pop-Betriebs: Nähe entsteht nicht durch Reichweite, sondern durch Ehrlichkeit – auch wenn das bedeutet, gewachsene Bindungen radikal zu kappen, sobald sie der eigenen künstlerischen Wahrhaftigkeit im Weg stehen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die bequemste, sondern die ehrlichste Verbindung sucht. Es trägt seine Last mit Sorgfalt, Schritt für Schritt, und ist bereit, den Weg neu zu wählen, sobald der alte nicht mehr zur eigenen Wahrheit passt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-milow", label:"Porträt: Milow (SX2w1)"},
+        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
       ])}
     </div>
   `);
@@ -137518,6 +137587,7 @@ function render() {
       "beruehmte-monika-gruber": monikaGruberPortraitPage,
       "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-clueso": cluesoPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-pamela-reif": pamelaReifPortraitPage,
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,

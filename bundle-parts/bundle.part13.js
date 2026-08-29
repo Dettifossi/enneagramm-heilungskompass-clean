@@ -1,3 +1,189 @@
+function haroldShipmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Harold Shipman \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Harold Shipman</p>
+        <p class="krim-portrait-typ">SO5w6 \u00b7 Sozialer Typ 5 mit Sechserfl\u00fcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDoctor Death" \u2013 Hyde, England 1975\u20131998</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Harold Frederick Shipman</strong>, geboren 1946 in Nottingham, war \u00fcber zwei Jahrzehnte
+        Hausarzt in der englischen Kleinstadt Hyde \u2013 gesch\u00e4tzt, vertrauensw\u00fcrdig, von Patienten geliebt.
+        Hinter dieser Fassade t\u00f6tete er mindestens <strong>218 Patienten</strong>, fast ausschlie\u00dflich
+        \u00e4ltere Frauen, durch Diamorphin-\u00dcberdosen. Die Dunkelziffer wird auf bis zu 250 gesch\u00e4tzt.
+        Shipman ist der t\u00f6dlichste verurteilte Serienm\u00f6rder der britischen Geschichte.
+        Er wurde 2000 wegen 15 Morden verurteilt und erh\u00e4ngte sich 2004 in seiner Gef\u00e4ngniszelle.
+        Was ihn so lange unentdeckt lie\u00df: Er war Arzt. Er hatte das Wissen, die Substanzen,
+        die institutionelle Autorit\u00e4t \u2013 und er nutzte sie mit einer K\u00e4lte, die selbst
+        erfahrene Ermittler sprachlos machte. Das Enneagramm macht sichtbar, was dahinter arbeitete.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,60,100,0.06);border-left:3px solid #003c64;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Harold Shipman</strong> wird dem <strong>Sozialen Typ 5 mit Sechserfl\u00fcgel</strong> zugeordnet.
+        Die soziale F\u00fcnf sucht Zugeh\u00f6rigkeit \u00fcber Wissen \u2013 sie sammelt Kompetenz als Eintrittskarte
+        in Systeme, in denen sie gebraucht wird, ohne sich wirklich anzun\u00e4hern.
+        Der Sechserfl\u00fcgel verleiht ihr Pflichtbewusstsein, ein Gesp\u00fcr f\u00fcr Strukturen und Regeln \u2013
+        und eine tiefe, oft verdeckte Angst vor dem Kontrollverlust.
+        Der Stresspunkt liegt bei der <strong>Sieben</strong>: impulsives Ausweichen,
+        verdecktes Genusserleben, das nach au\u00dfen hin nie sichtbar wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Oktopus</h3>
+        <p class="vb-intro">
+        Der <strong>Oktopus</strong> ist die Tierentsprechung der sozialen F\u00fcnf.
+        Er ist das intelligenteste Weichtier der Welt \u2013 hochanpassungsf\u00e4hig, f\u00e4hig zur Tarnung,
+        in der Lage, Probleme zu l\u00f6sen, die weit \u00fcber das Erwartbare hinausgehen.
+        Er operiert allein. Er zieht sich in H\u00f6hlen zur\u00fcck. Er kommuniziert \u00fcber Farbwechsel,
+        die nur der versteht, der genau hinschaut.
+        Shipman war ein Oktopus in einem wei\u00dfen Kittel.
+        Er beherrschte das System Medizin vollst\u00e4ndig: die Sprache, die Rituale, die Hierarchien.
+        Er wusste, wie Vertrauen funktioniert \u2013 und er wusste, wie man es ausnutzt,
+        ohne dass jemand die Tentakel sieht.
+        Der Oktopus tritt nicht in den Vordergrund. Er wartet. Er beobachtet. Er handelt.
+        Und er ist verschwunden, bevor jemand begreift, was gerade passiert ist.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale F\u00fcnf: Wissen als Herrschaft</h3>
+        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen F\u00fcnf:</strong>
+        Die soziale F\u00fcnf ist der Normaltyp unter den F\u00fcnfern \u2013 sie sucht Anschluss,
+        aber auf ihre eigene Weise: \u00fcber Wissen, Kompetenz und institutionelle Einbindung.
+        Sie will dazugeh\u00f6ren, aber nicht verschmelzen. Sie will gebraucht werden, aber nicht abh\u00e4ngig sein.
+        Sie h\u00e4lt Distanz durch Expertise.
+        F\u00fcr Shipman war die Medizin das perfekte System: ein Feld, in dem Wissen buchst\u00e4blich
+        Leben und Tod bedeutet. Wer das Wissen besitzt, besitzt die Macht.
+        Wer die Macht besitzt, braucht keine emotionale N\u00e4he.</p>
+        <p class="vb-intro"><strong>b) Der Sechserfl\u00fcgel: Ordnung, Struktur, Pflichtbewusstsein:</strong>
+        Der Sechserfl\u00fcgel der sozialen F\u00fcnf verst\u00e4rkt das Bed\u00fcrfnis nach Struktur und Zuverl\u00e4ssigkeit.
+        Shipman war bekannt f\u00fcr seine P\u00fcnktlichkeit, seine gr\u00fcndliche Dokumentation,
+        sein aufger\u00e4umtes Praxismanagement. Er machte Hausbesuche, die andere \u00c4rzte l\u00e4ngst
+        aufgegeben hatten. Er rief Patienten zur\u00fcck. Er erinnerte sich an Details.
+        Diese Eigenschaften machten ihn unantastbar \u2013 sie waren die Tarnung des Oktopus.
+        Hinter dem Pflichtbewusstsein lag keine F\u00fcrsorge, sondern Kontrolle.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Geiz als Wissensmonopol:</strong>
+        Die Leidenschaft der F\u00fcnf ist der <strong>Geiz</strong> \u2013 nicht prim\u00e4r auf Geld gerichtet,
+        sondern auf Energie, Raum, Information.
+        Die soziale F\u00fcnf geizes mit dem, was andere nicht wissen d\u00fcrfen.
+        Shipman wusste als einziger, was er tat. Und er sorgte daf\u00fcr, dass es so blieb.
+        Er f\u00e4lschte Krankenakten, stellte gef\u00e4lschte Todesurkunden aus, lie\u00df Leichen ein\u00e4schern,
+        bevor eine Untersuchung stattfinden konnte. Der Geiz des Oktopus ist informationeller Geiz:
+        alles festhalten, nichts herausgeben, das Wissen als einzige W\u00e4hrung h\u00fcten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 218 Morde in zwei Jahrzehnten</h3>
+        <p class="vb-intro"><strong>a) Der Beginn (1975):</strong>
+        Shipmans erste nachweisliche T\u00f6tung geht auf das Jahr 1975 zur\u00fcck \u2013
+        kurz nach seiner Niederlassung als Arzt in Todmorden, Yorkshire.
+        Zu diesem Zeitpunkt war er bereits wegen Meperidin-Missbrauchs aufgefallen:
+        Er hatte sich als Arzt Schmerzmittel auf eigenen Namen verschrieben und war
+        kurzzeitig in eine Entzugsklinik eingewiesen worden.
+        Dieses Wissen \u00fcber die Pharmakologie starker Opioide trug er als Werkzeug
+        durch seine gesamte Laufbahn. Er wechselte zu Diamorphin \u2013 medizinisches Heroin,
+        das bei korrekter Dosierung lebensrettend, bei \u00dcberdosis t\u00f6dlich und
+        im K\u00f6rper nach dem Tod schwer nachweisbar ist.</p>
+        <p class="vb-intro"><strong>b) Hyde, 1977\u20131998 \u2013 der Alltag des T\u00f6tens:</strong>
+        In seiner Praxis in Hyde, Greater Manchester, entwickelte Shipman ein stabiles Muster.
+        Er besuchte Patientinnen \u2013 fast ausschlie\u00dflich \u00e4ltere Frauen, meist allein lebend \u2013
+        zu Hause. Er injizierte eine t\u00f6dliche Dosis Diamorphin. Er wartete, bis die Patientin
+        tot war. Dann rief er die Angeh\u00f6rigen an und teilte ihr Ableben mit,
+        oft mit dem Kommentar, er habe sich verabschiedet, kurz bevor es geschah.
+        Er tr\u00f6stete. Er wirkte best\u00fcrzt. Er stellte die Todesurkunde aus.
+        Die meisten Familien dankten ihm f\u00fcr seine F\u00fcrsorge.
+        \u00dcber 23 Jahre beging er im Schnitt mehr als neun Morde pro Jahr \u2013
+        in einem normalen Arztleben, mit normalen Patienten, in einer normalen englischen Kleinstadt.</p>
+        <p class="vb-intro"><strong>c) Der Fehler: Das Testament (1998):</strong>
+        Shipmans Ende kam nicht durch polizeiliche Ermittlungen, sondern durch einen Fehler,
+        der nicht aus dem T\u00f6tungsschema, sondern aus einem anderen Antrieb heraus entstand.
+        Seine letzte Patientin, Kathleen Grundy (81), eine wohlhabende fr\u00fchere B\u00fcrgermeisterin,
+        wurde tot aufgefunden. Ihr Testament \u2013 in Shipmans Praxis gefunden und von seiner Schreibmaschine
+        stammend \u2013 enthielt eine seltsame Klausel: Die gesamte Erbschaft ging an Dr. Shipman.
+        Ihre Tochter, Angela Woodruff, selbst Anw\u00e4ltin, sch\u00f6pfte sofort Verdacht.
+        Sie informierte die Polizei. Der K\u00f6rper ihrer Mutter wurde exhumiert \u2013
+        und Diamorphin in t\u00f6dlicher Konzentration gefunden. Das Wissensmonopol war gebrochen.</p>
+        <p class="vb-intro"><strong>d) Der Prozess und die Shipman-Untersuchung:</strong>
+        Shipman wurde im Januar 2000 in 15 F\u00e4llen schuldig gesprochen.
+        Die anschlie\u00dfende \u00f6ffentliche Untersuchung unter Dame Janet Smith
+        dauerte vier Jahre und ergab <strong>mindestens 218 best\u00e4tigte T\u00f6tungen</strong>.
+        Die Gesamtzahl k\u00f6nnte bei 250 liegen. Es gab keine Hinweise auf sexuelle Motive,
+        auf finanzielle Bereicherung im Gro\u00dfen, auf ein Beziehungsmuster zu den Opfern.
+        Shipman machte keine Aussage. Er zeigte keine Reue. Er erkl\u00e4rte nichts.
+        Der Oktopus gab nichts heraus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Siebener-Stress: Das verdeckte Genusserleben</h3>
+        <p class="vb-intro">
+        Die F\u00fcnf bewegt sich im Stress in Richtung <strong>Sieben</strong> \u2013
+        weg von Tiefe und Sammlung, hin zu fl\u00fcchtigem Erleben, innerem Genuss,
+        dem Ausweichen vor dem, was schmerzt.
+        Psychologen und Ermittler, die Shipmans Aussagen und Verhalten analysierten,
+        beschrieben eine subtile Freude an der \u00dcberlegenheit: das Wissen, was keiner wei\u00df;
+        das K\u00f6nnen, was keiner kann; die Stille nach der Tat, in der er der Einzige war,
+        der verstand, was gerade passiert war.
+        Diese Siebener-Energie ist bei Shipman nie laut, nie exhibitionistisch.
+        Sie ist still, privat, fast introvertiert.
+        Aber sie ist der Treibstoff, der hinter dem Oktopus-Muster liegt:
+        nicht Machtdemonstration nach au\u00dfen \u2013 sondern die innerste Freude
+        an der absoluten Kontrolle \u00fcber das Wissen selbst.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Harold Shipman zeigt, was passiert, wenn die soziale F\u00fcnf keinen Zugang mehr
+        zu ihrer eigentlichen Sehnsucht findet: echter Zugeh\u00f6rigkeit, echter Resonanz,
+        dem Erleben, mit dem eigenen Wissen wirklich etwas beizutragen.
+        Stattdessen wurde Wissen zur Waffe. Kompetenz zur Kontrolle. Vertrauen zum Instrument.
+        Was Shipman von anderen F\u00fcnfern unterscheidet, ist das Ausma\u00df der institutionellen Einbettung:
+        Er operierte nicht im Verborgenen. Er operierte mitten in der Gesellschaft \u2013
+        mit Billigung, Vertrauen und Dankbarkeit.
+        Der Sechserfl\u00fcgel machte ihn glaubw\u00fcrdig. Der Oktopus machte ihn unsichtbar.
+        Und die soziale F\u00fcnf brauchte keine Dramatik, keine Eskalation, kein Chaos.
+        Nur Ordnung. Routine. Die t\u00e4gliche Kontrolle \u00fcber das Unbegreifliche.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SO5w6 \u2013 Soziale F\u00fcnf mit Sechserfl\u00fcgel.<br>
+        <strong>Leidenschaft:</strong> Geiz \u2013 das Festhalten von Wissen, Energie und Kontrolle als einzige W\u00e4hrung.<br>
+        <strong>Stresspunkt:</strong> Sieben \u2013 verdecktes Genusserleben, die stille innere Freude an der \u00dcberlegenheit.<br>
+        <strong>Tierentsprechung:</strong> Oktopus \u2013 h\u00f6chste Intelligenz, perfekte Tarnung, solit\u00e4res Operieren.<br>
+        <strong>Opfer:</strong> Mindestens 218 \u2013 ausschlie\u00dflich eigene Patienten, fast immer \u00e4ltere Frauen, durch Diamorphin-\u00dcberdosierung.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale F\u00fcnf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausf\u00fchrlich portr\u00e4tiert \u2013 Geiz, R\u00fcckzug und der Heilungsweg \u00fcber echte Gro\u00dfz\u00fcgigkeit.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Harold Shipman wurde 2000 in 15 F\u00e4llen des Mordes schuldig gesprochen \u2013 sp\u00e4tere Untersuchungen gehen von mindestens 218 Opfern aus. Er starb 2004 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll (SE5w6)"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
+        {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels H\u00f6gel (SE2w1) \u2013 Krankenpfleger, Serienm\u00f6rder"},
+      ])}
+    </div>
+  `);
+}
+
 function rudolfPleilPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8688,108 +8874,6 @@ function fischartenDer9TypenPage() {
         {route:"schildkroetenarten-der-9-typen", label:"Schildkr\u00f6tenarten der 9 Typen"},
         {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
         {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function walartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Walarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Wale sind die gr\u00f6\u00dften und r\u00e4tselhaftesten Lebewesen der Erde \u2013 sie tauchen tiefer als wir messen konnten, singen Lieder, die tausende Kilometer weit reichen, und leben in Gemeinschaften, die uns an menschliche Kulturen erinnern. Neun Walarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/walarten-der-9-typen.jpg" alt="Walarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Blauwal: Der Ma\u00dfstab aller Dinge</h3>
-        <p class="vb-intro">Der Blauwal ist das gr\u00f6\u00dfte Tier, das jemals auf der Erde gelebt hat: bis zu 33 Meter lang, bis zu 190 Tonnen schwer \u2013 schwerer als der gr\u00f6\u00dfte Dinosaurier, schwerer als 30 Elefanten. Sein Herz ist so gro\u00df wie ein Kleinwagen, seine Aorta weit genug, dass ein Mensch hindurchkriechen k\u00f6nnte. Und trotz dieser unvorstellbaren Gr\u00f6\u00dfe bewegt er sich mit einer Pr\u00e4zision, die Forscher auch heute noch fasziniert: Er f\u00e4hrt auf exakt denselben Routen zwischen seinen Sommer- und Wintergr\u00fcnden, Jahr f\u00fcr Jahr, ohne Abweichung. Alles an ihm ist auf das Maximum ausgelegt \u2013 aber dieses Maximum ist kein Exzess, sondern der Ausdruck einer inneren Ordnung, die keine Kompromisse kennt. Das Prinzip des Enneagrammtyps 1: Der Blauwal ist nicht deshalb der Ma\u00dfstab, weil er der gr\u00f6\u00dfte ist \u2013 er ist der gr\u00f6\u00dfte, weil er niemals aufgeh\u00f6rt hat, seinem Prinzip vollst\u00e4ndig treu zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Buckelwal: Der S\u00e4nger des Meeres</h3>
-        <p class="vb-intro">Der Buckelwal singt. Nicht irgendwie \u2013 sondern mit einer Pr\u00e4zision und Komplexit\u00e4t, die Musikwissenschaftler bis auf den heutigen Tag fasziniert. Seine Gesangsst\u00fccke dauern bis zu 20 Stunden, sind vollst\u00e4ndig strukturiert wie Kompositionen, mit Themen, Wiederholungen und \u00dcberg\u00e4ngen. Was besonders ber\u00fchrt: Buckelwale s\u00e4ubern einander, reisen als Paare \u00fcber tausende Kilometer, und die M\u00fctter begleiten ihre Jungtiere mit einer Zugewandtheit, die selbst erfahrene Meeresbiologen bewegt. Noch erstaunlicher: Buckelwale wurden mehrfach dabei beobachtet, wie sie andere Walarten \u2013 sogar Robben \u2013 vor Orcaangriffen in Schutz nahmen, ohne eigenen Vorteil, ohne Anlass. Sie helfen einfach. Das Prinzip des Enneagrammtyps 2: Der Buckelwal fragt nicht, ob es sich lohnt. Er singt, weil Verbindung sein Wesen ist \u2013 und er hilft, weil er nicht anders kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Finnwal: Der ewige Hochleister</h3>
-        <p class="vb-intro">Der Finnwal ist der zweitschnellste Wal der Welt \u2013 und einer der gr\u00f6\u00dften: bis zu 27 Meter lang, 80 Tonnen schwer, und trotzdem mit einer Spitzengeschwindigkeit von \u00fcber 45 Kilometern pro Stunde. Er wurde von Walfangkapit\u00e4nen \u201eder Windhund des Meeres\u201c genannt: Er war so schnell, dass ihn die historischen Segelschiffe schlicht nicht einholen konnten. Der Finnwal pausiert nie lange \u2013 er ist st\u00e4ndig in Bewegung, zieht von Polarmeeren zu Tropenregionen und zur\u00fcck, legt dabei Zehntausende von Kilometern zur\u00fcck. Er friert nicht, er h\u00e4lt an, er wartet nicht. Er ist das, was er tut. Das Prinzip des Enneagrammtyps 3: Der Finnwal ist nicht deshalb erfolgreich, weil er sich anstrengt \u2013 sondern weil Leistung f\u00fcr ihn kein Mittel ist, sondern der nat\u00fcrlichste Ausdruck seines Wesens.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Narwal: Das Einhorn des Meeres</h3>
-        <p class="vb-intro">Der Narwal ist das r\u00e4tselhafteste Tier des Arktischen Ozeans: Er tr\u00e4gt einen bis zu drei Meter langen, spiralf\u00f6rmigen Sto\u00dfzahn \u2013 tats\u00e4chlich ein nach vorne gewachsener Eckzahn \u2013 und kein Mensch wei\u00df bis heute mit Sicherheit, wozu er genau dient. Er ist kein Kampfinstrument, kein Jagdwerkzeug, kein einfaches Signalmittel. Er ist einzigartig. Der Narwal lebt in kleinen, tief gebundenen Gruppen, taucht bis auf 1.500 Meter Tiefe und meidet Menschen mit au\u00dfergew\u00f6hnlicher Scheuheit. Er wurde von Inuit-Kulturen jahrhundertelang als magisches Wesen verehrt, und sein Horn gelangte als \u201eEinhornhorn\u201c in europ\u00e4ische Apotheken \u2013 als Universalheilmittel, dessen Wert den von Gold \u00fcberstieg. Das Prinzip des Enneagrammtyps 4: Manche Sch\u00f6nheit entzieht sich der Erkl\u00e4rung. Der Narwal existiert nicht, um verstanden zu werden. Er existiert, weil er er selbst ist \u2013 und das in einer Weise, die die Welt nicht vergisst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Pottwal: Der Denker der Tiefsee</h3>
-        <p class="vb-intro">Der Pottwal hat das gr\u00f6\u00dfte Gehirn, das je auf der Erde existiert hat: bis zu 7,8 Kilogramm, sechsmal schwerer als das menschliche. Er taucht allein bis auf 3.000 Meter Tiefe \u2013 in vollst\u00e4ndiger Dunkelheit, bei einem Druck, der Stahl verformen w\u00fcrde \u2013 und bleibt dort bis zu zwei Stunden. Kein anderes Tier ist l\u00e4nger allein in gr\u00f6\u00dferer Tiefe unterwegs. Was er dort sucht: Riesenkalmaren, die kaum ein anderes Tier je zu Gesicht bekommt. Pottwale kommunizieren \u00fcber ein komplexes Klickmuster \u2013 Coda genannt \u2013 das Forscher seit Jahren als m\u00f6gliche Sprache untersuchen. 2024 begannen Wissenschaftler mit einem KI-Projekt, diesen Code zu entschl\u00fcsseln. Das Prinzip des Enneagrammtyps 5: Das Wertvollste liegt in der Tiefe. Der Pottwal taucht dorthin, wo kein anderer kommt \u2013 und bringt zur\u00fcck, was kein anderer hat.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Grauwal: Der H\u00fcter der Gemeinschaft</h3>
-        <p class="vb-intro">Der Grauwal unternimmt eine der l\u00e4ngsten Wanderungen aller S\u00e4ugetiere: bis zu 20.000 Kilometer pro Jahr zwischen den Lagunen Baja Californias und den Arktismeeren \u2013 hin und zur\u00fcck, ruhig und beh\u00e4rrlich, Jahr f\u00fcr Jahr, auf denselben Routen, die seine Vorfahren seit Jahrtausenden gegangen sind. Er weicht Konflikten aus, meidet Auseinandersetzungen, und die Jungtiere werden in flachen Lagunengew\u00e4ssern geboren, weit weg von offenen Meeren und Gefahren. Grauwal-Mutter-Kind-Paare sind f\u00fcr ihre besondere Innigkeit bekannt \u2013 das Jungtier bleibt monatelang eng an der Mutter, und beide kommunizieren leise und best\u00e4ndig. Das Prinzip des Enneagrammtyps 6: Der Grauwal findet Sicherheit nicht durch St\u00e4rke, sondern durch Treue \u2013 zur Gemeinschaft, zum bew\u00e4hrten Weg, zur Verbindung, auf die Verlass ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Delfin: Die Freude am Leben</h3>
-        <p class="vb-intro">Der Delfin ist das verspielste Meerestier der Welt \u2013 und eines der intelligentesten. Delfine surfen in Bugwellen von Schiffen, springen ohne Grund aus dem Wasser, spielen miteinander, erfinden neue Spiele und geben sie weiter. Sie sind die einzigen Tiere au\u00dfer dem Menschen, bei denen Forscher echtes \u201eZweckfreies Spiel\u201c im Erwachsenenalter beobachten \u2013 Freude um der Freude willen. Delfine k\u00f6nnen sich in Spiegeln erkennen, lernen schnell neue F\u00e4higkeiten, und ihre sozialen Netzwerke sind so komplex, dass Forscher eigene Analysemethoden entwickeln mussten, um sie zu verstehen. Sie sind auch die einzigen Tiere, die Menschen in Not aus dem Wasser halten \u2013 vermutlich weil sie k\u00f6nnen, weil sie wollen. Das Prinzip des Enneagrammtyps 7: Der Delfin braucht keine Begr\u00fcndung f\u00fcr seine Freude. Das Leben ist das Spiel \u2013 und er spielt es mit ganzer Hingabe.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Schwertwal: Kraft mit System</h3>
-        <p class="vb-intro">Der Schwertwal \u2013 Orca \u2013 ist das effektivste Raubtier des Meeres: Er jagt Haie, Rochen, Delfine, Wale, die bis zu zehnmal so gro\u00df sind wie er, und macht das mit einer strategischen Pr\u00e4zision, die selbst milit\u00e4rische Planer beeindruckt. Orcas haben Jagdtaktiken, die von Generation zu Generation weitergegeben werden \u2013 regionale \u201eKulturen\u201c, die sich voneinander unterscheiden wie Unternehmenskulturen. Sie arbeiten in Teams mit klar verteilten Rollen: Einige treiben die Beute, andere st\u00fcrmen an, wieder andere sichern den R\u00fcckweg. Orcas k\u00f6nnen ihre Stimme so pr\u00e4zise steuern, dass sie Echolokation als Waffe einsetzen \u2013 sie bet\u00e4uben Beutetiere mit gezielten Schallwellen. Das Prinzip des Enneagrammtyps 8: Macht ist kein Exzess \u2013 sie ist ein Werkzeug. Der Orca setzt sie ein, wenn es n\u00f6tig ist, mit vollem K\u00f6rpereinsatz und ohne Z\u00f6gern. Und nicht eine Sekunde fr\u00fcher.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Brydewal: Stille Gr\u00f6\u00dfe</h3>
-        <p class="vb-intro">Der Brydewal \u2013 auch Bryde-Wal genannt, nach dem norwegischen Konsul Johan Bryde \u2013 ist einer der am wenigsten bekannten Gro\u00dfwale: kein Rekordhalter, kein spektakul\u00e4rer J\u00e4ger, kein Sieger in einem der gro\u00dfen Vergleiche. Er ist der Wal, der einfach lebt. Er bewohnt tropische und subtropische Meere, folgt keinem strikten Wandermuster und bewegt sich ohne den Zwang zur Bewegung \u2013 er ist da, wo die Nahrung ist, wo es warm ist, wo es gut ist. Brydeale sind Einzelg\u00e4nger oder leben in kleinen, lockeren Gruppen. Sie sind weder laut noch aggressiv, weder auff\u00e4llig noch rekordverd\u00e4chtig. Sie sind einfach ganz. Das Prinzip des Enneagrammtyps 9: Der Brydewal braucht keine Kategorie, in der er der Beste ist. Er braucht nur den Frieden, in dem er sich selbst geh\u00f6rt \u2013 und in diesem Frieden ist er vollst\u00e4ndig.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"fischarten-der-9-typen", label:"Fischarten der 9 Typen"},
-        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-        {route:"baumarten", label:"Baumarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function insektenartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Insektenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Insekten sind die erfolgreichsten Lebewesen der Erde \u2013 sie existieren seit 400 Millionen Jahren, stellen \u00fcber 80 Prozent aller Tierarten und haben nahezu jeden Lebensraum besiedelt. Und jede Art folgt dabei einem unverwechselbaren Prinzip. Neun Insekten, neun Enneagrammtypen.</p>
-      <img src="./assets/insektenarten-der-9-typen.jpg" alt="Insektenarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Ameise: Ordnung als Lebensform</h3>
-        <p class="vb-intro">Die Ameise ist das disziplinierteste Lebewesen der Erde. Ein Ameisenvolk funktioniert ohne Hierarchie von oben \u2013 jede Ameise wei\u00df, was zu tun ist, und tut es. Keine Faulheit, kein Ausweichen, keine Improvisation. Ameisen bauen Strukturen, die in Relation zu ihrer K\u00f6rpergr\u00f6\u00dfe die Pyramiden von Gizeh \u00fcbertreffen. Sie legen Wege an, optimieren Transportrouten und organisieren Vorr\u00e4te mit einer Effizienz, die Logistikexperten nach wie vor studieren. Erstaunlich: Ameisen f\u00fchren keine sinnlosen Kriege \u2013 sie greifen nur an, wenn die Kolonie bedroht ist, und ziehen sich geordnet zur\u00fcck, wenn der Kampf verloren ist. Das Prinzip des Enneagrammtyps 1: Ordnung ist keine Einschr\u00e4nkung \u2013 sie ist die Voraussetzung, dass das Ganze funktioniert. Die Ameise lebt nicht f\u00fcr sich. Sie lebt f\u00fcr das Richtige.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Biene: Hingabe an die Gemeinschaft</h3>
-        <p class="vb-intro">Die Biene ist das selbstloseste Insekt der Welt. Eine Arbeitsbiene fliegt in ihrem kurzen Leben von sechs Wochen bis zu 800 Kilometer, besucht dabei Hunderttausende von Bl\u00fcten \u2013 und produziert am Ende ihres Lebens genau einen Teel\u00f6ffel Honig. Nicht f\u00fcr sich. F\u00fcr den Stock. Bienen kommunizieren durch den Schw\u00e4nzeltanz, eine der komplexesten Tiersprachen, die wir kennen \u2013 um anderen zu zeigen, wo die besten Bl\u00fcten sind. Das Prinzip des Enneagrammtyps 2: Die Biene fragt nicht, was sie bekommt. Sie fragt, was gebraucht wird \u2013 und bringt es. Ohne die Biene keine Best\u00e4ubung, keine Fr\u00fcchte, keine Ernte. Sie h\u00e4lt das \u00d6kosystem zusammen, ohne es zu wissen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Feldgrille: Aufmerksamkeit durch Leistung</h3>
-        <p class="vb-intro">Die Feldgrille ist das lauteste Insekt in Relation zu seiner K\u00f6rpergr\u00f6\u00dfe: Das Zirpen des M\u00e4nnchens erreicht bis zu 100 Dezibel \u2013 lauter als ein Presslufthammer in drei Metern Entfernung. Und das mit einem K\u00f6rper von kaum zwei Zentimetern. Ihr Zirpen ist kein L\u00e4rm \u2013 es ist Performance: pr\u00e4zise Frequenzen, die auf die H\u00f6rorgane der Weibchen abgestimmt sind. Jede Grille hat einen eigenen Rhythmus, ein eigenes Muster. Grillen zirpen schneller, wenn es w\u00e4rmer ist \u2013 eine so verl\u00e4ssliche Korrelation, dass man aus der Zirpfrequenz die Lufttemperatur berechnen kann. Das Prinzip des Enneagrammtyps 3: Leistung ist h\u00f6rbar. Die Grille macht nicht auf sich aufmerksam, weil sie auff\u00e4llig ist \u2013 sondern weil ihre Leistung es ist. Der Erfolg tr\u00e4gt sich selbst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Schmetterling: Verwandlung als Identit\u00e4t</h3>
-        <p class="vb-intro">Der Schmetterling ist das einzige Lebewesen, das sich vollst\u00e4ndig neu erfindet: Als Raupe kriecht er, als Puppe l\u00f6st er sich buchst\u00e4blich auf \u2013 sein K\u00f6rper verfl\u00fcssigt sich im Inneren der Puppenh\u00fclle \u2013, und als Schmetterling entsteht etwas vollkommen Neues. Diese Metamorphose ist kein Wachstum, sondern eine Transformation der Identit\u00e4t. Schmetterlinge kommunizieren \u00fcber Farben und Muster, die f\u00fcr das menschliche Auge sichtbar sind \u2013 aber auch \u00fcber ultraviolettes Licht, das nur Insekten wahrnehmen k\u00f6nnen. Es gibt eine innere Schicht der Sch\u00f6nheit, die nicht f\u00fcr andere gedacht ist. Das Prinzip des Enneagrammtyps 4: Wer wirklich er selbst werden will, muss bereit sein, sich vollst\u00e4ndig aufzul\u00f6sen. Der Schmetterling zeigt: Verwandlung ist kein Verlust \u2013 sie ist die tiefste Form von Ausdruck.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Gottesanbeterin: Stille Beobachtung, t\u00f6dliche Pr\u00e4zision</h3>
-        <p class="vb-intro">Die Gottesanbeterin ist der philosophischste J\u00e4ger der Insektenwelt: Sie bewegt sich kaum, wartet geduldig, beobachtet alles \u2013 und schl\u00e4gt dann mit einer Pr\u00e4zision zu, die das Auge kaum verfolgen kann. Ihr Zugriff dauert 50 bis 70 Millisekunden \u2013 schneller als ein menschliches Auge blinzeln kann. Sie ist das einzige Insekt, das seinen Kopf drehen kann und damit ein dreidimensionales Sichtfeld hat. Gottesanbeterinnen haben ein einzigartiges Stirnocellus-Auge, das Entfernungen mit h\u00f6chster Genauigkeit misst. Das Weibchen frisst das M\u00e4nnchen nach der Paarung \u2013 es nimmt, was es braucht, und beh\u00e4lt dabei vollst\u00e4ndige Kontrolle. Das Prinzip des Enneagrammtyps 5: Wer alles beobachtet, bevor er handelt, braucht nur einen einzigen Schlag.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Termite: Sicherheit durch Gemeinschaft</h3>
-        <p class="vb-intro">Termiten bauen die erstaunlichsten Strukturen des Tierreichs: Termitenh\u00fcgel in Afrika k\u00f6nnen bis zu neun Meter hoch werden \u2013 das entspricht, in Relation zur K\u00f6rpergr\u00f6\u00dfe, einem menschlichen Bauwerk von \u00fcber einem Kilometer H\u00f6he. Diese Bauten sind klimatisiert: Ein inneres Ventilationssystem h\u00e4lt die Temperatur konstant auf 30 Grad, unabh\u00e4ngig von der Au\u00dfentemperatur. Jede Termite hat eine klar definierte Rolle \u2013 Arbeiter, Soldat, K\u00f6nigin \u2013, und keine weicht davon ab. Das \u00dcberleben des Einzelnen ist untrennbar mit dem \u00dcberleben des Volkes verbunden. Das Prinzip des Enneagrammtyps 6: Sicherheit entsteht nicht durch Einzelleistung, sondern durch das Vertrauen, dass jeder seine Rolle erf\u00fcllt. Der Termitenh\u00fcgel h\u00e4lt, weil alle bauen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Libelle: Meisterin der Freiheit</h3>
-        <p class="vb-intro">Die Libelle ist das agilste fliegende Insekt der Welt: Sie kann in alle sechs Richtungen fliegen \u2013 vorw\u00e4rts, r\u00fcckw\u00e4rts, seitw\u00e4rts, schwebend \u2013 und dabei ihre vier Fl\u00fcgel vollkommen unabh\u00e4ngig voneinander steuern. Ihre Jagdstrategie ist spektakul\u00e4r: Sie berechnet im Flug, wo sich ihre Beute befinden wird, und fliegt dorthin \u2013 nicht dorthin, wo sie ist. Mit einer Trefferquote von \u00fcber 95 Prozent ist sie der erfolgreichste J\u00e4ger im Tierreich. Libellen haben 360-Grad-Sicht durch ihre riesigen Facettenaugen. Sie sehen die Welt buchst\u00e4blich von allen Seiten gleichzeitig. Das Prinzip des Enneagrammtyps 7: Freiheit bedeutet nicht Planlosigkeit \u2013 sondern die F\u00e4higkeit, in jedem Moment in jede Richtung aufzubrechen. Die Libelle wei\u00df schon, wo die Beute sein wird.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Hornisse: Kraft ohne Entschuldigung</h3>
-        <p class="vb-intro">Die Hornisse ist das m\u00e4chtigste Insekt Europas: Ihre Mandibeln k\u00f6nnen Holz zerkauen, ihr Stich ist mehrfach schmerzhafter als der einer Biene \u2013 und sie greift an, wenn sie ihr Territorium bedroht sieht, ohne zu z\u00f6gern. Was kaum bekannt ist: Hornissen sind hochgradig intelligent. Sie bauen kunstvoll konstruierte Papiernester aus zerkauten Holzfasern, regulieren die Temperatur im Nest aktiv und kommunizieren \u00fcber Pheromone mit einer Pr\u00e4zision, die Forscher erst in den letzten Jahren entschl\u00fcsseln konnten. Hornissen t\u00f6ten keine Bienen grundlos \u2013 sie jagen nur, wenn sie Nahrung brauchen. Das Prinzip des Enneagrammtyps 8: Kraft ist kein Problem \u2013 sie ist eine Ressource. Die Hornisse setzt sie ein, wenn es n\u00f6tig ist. Und nicht eine Sekunde fr\u00fcher.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Marienk\u00e4fer: Stille Harmonie</h3>
-        <p class="vb-intro">Der Marienk\u00e4fer ist das beliebteste Insekt der Welt \u2013 in nahezu allen Kulturen gilt er als Gl\u00fcckssymbol, als Bote des Friedens, als Zeichen, dass alles gut wird. Er ist weder laut noch aggressiv, weder der Gr\u00f6\u00dfte noch der Schnellste. Er frisst Blattl\u00e4use und h\u00e4lt damit das \u00d6kosystem im Gleichgewicht \u2013 unsichtbar, still, ohne Aufsehen. Seinen leuchtend roten R\u00fccken mit den schwarzen Punkten tr\u00e4gt er als einzige Warnung: Ich schmecke schlecht. Das reicht. Marienk\u00e4fer \u00fcberwintern in Gruppen von Tausenden, dicht zusammengedr\u00e4ngt, in vollkommener Stille \u2013 eine der ruhigsten Versammlungen der Natur. Das Prinzip des Enneagrammtyps 9: Der harmonischste Beitrag ist oft der, den niemand bemerkt \u2013 bis er fehlt. Der Marienk\u00e4fer h\u00e4lt die Welt im Gleichgewicht, einfach dadurch, dass er da ist.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"walarten-der-9-typen", label:"Walarten der 9 Typen"},
-        {route:"flugzeugmodelle-der-9-typen", label:"Flugzeugmodelle der 9 Typen"},
-        {route:"baumarten", label:"Baumarten der 9 Typen"},
       ])}
     </div>
   `);

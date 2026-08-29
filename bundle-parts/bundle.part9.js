@@ -5953,7 +5953,72 @@ function milowPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
-        {route:"beruehmte-monika-gruber", label:"Portr\u00e4t: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function cluesoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-clueso-portrait.jpg" alt="Clueso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clueso</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Songwriter &amp; Maler, geb. 1980 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Thomas Hübner, besser bekannt als Clueso, wurde 1980 in Erfurt geboren und entdeckte, inspiriert vom Kultfilm ›Beat Street‹, der Ende der 1980er auch in DDR-Kinos lief, früh seine Leidenschaft für HipHop.</p>
+          <p class="vb-intro">Ab 1995 sang er in verschiedenen Erfurter Musikprojekten und verfeinerte sein Können gemeinsam mit DJ Malik und Steer M bei Jam-Sessions im Jenaer Club Kassablanca – eine enge, über Jahre gewachsene Freundschaft, aus der sich sein musikalischer Stil erst richtig entwickelte. Das ist die Geste des Kamels: Es geht nicht allein voran, sondern im engen, verlässlichen Kontakt mit denen, die den Weg mit ihm teilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Nähe als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei – sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht.</p>
+          <p class="vb-intro">Bei Clueso zeigt sich das in seinem Ruf als ›Poet der deutschen Musiklandschaft‹: Seine Liebeslieder gehen unmittelbar ins Private, ohne den Umweg über große Gesten. Statt in einem professionellen Studio nahm er seinen Song ›Tanzen‹ in einem selbst gebauten Mini-Studio in der eigenen Speisekammer auf – aus Gründen des Schallschutzes, aber auch, weil ihm die unmittelbare, private Nähe zu seiner Musik wichtiger war als professionelle Distanz. Die SX2, die ihre innerste Frage in Klang übersetzt: <em>Kann ich wirklich berühren? Kann ich wirklich berührt werden?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ehrlichkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine innere Achse, die bei schwach ausgeprägtem Einserflügel nicht von selbst da ist: das Bewusstsein für Qualität, für das Richtige, für die Verantwortung gegenüber dem, was man tut. Eine SX2 mit schwächerem Einserflügel könnte sich in der reinen Intensität der Verbindung verlieren. Der Einserflügel sagt: <em>Es reicht nicht, Nähe zu wollen. Es kommt darauf an, wie sorgfältig man mit ihr umgeht.</em></p>
+          <p class="vb-intro">Bei Clueso zeigt sich dieser Flügel nicht nur in seinem musikalischen Handwerk, sondern auch in seiner zweiten künstlerischen Disziplin: der Malerei, die er über Jahre parallel zur Musik betreibt und mit derselben Ernsthaftigkeit verfolgt. Auch sein Künstlername – angelehnt an Inspektor Clouseau aus ›Der rosarote Panther‹ – trägt einen selbstironischen, aber genauen Blick auf die eigene Person. Der Anspruch, jede Zeile eines Textes ehrlich zu meinen statt bloß gefällig klingen zu lassen, ist die typische Einser-Haltung innerhalb der SX2: lieber wahrhaftig als bequem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch für die künstlerische Ehrlichkeit, 2016</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für sein siebtes Album ›Neuanfang‹ (2016) zog Clueso radikale Konsequenzen aus fünfzehn Jahren angesammelter Verpflichtungen: Er trennte sich von seiner Band, verließ das von ihm mitgegründete Künstlernetzwerk Zughafen und zog sogar aus seiner Wohngemeinschaft aus. Seine eigene Begründung: ›Ich musste erkennen, dass all die Verpflichtungen und Versprechen gegenüber meinem Umfeld meine künstlerische Freiheit einschränkten.‹</p>
+          <p class="vb-intro">Diese Entscheidung trägt die charakteristische SX2w1-Handschrift: kein leiser Rückzug, sondern ein klarer, prinzipiengeleiteter Schnitt, sobald erkannt war, dass die eigene Ehrlichkeit gegenüber der Kunst durch zu viele Bindungen kompromittiert wurde. Das Album selbst verhandelte offen die Zweifel, Ängste und Abhängigkeiten, die sich seit seinem ersten Album aufgebaut hatten – ein bewusst ungeschönter, teils zum HipHop-Ursprung zurückkehrender Sound als klanggewordene Konsequenz dieses Bruchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w1 ist ihre Fähigkeit, echte, unverstellte Nähe herzustellen – in der Musik wie im persönlichen Kontakt. Cluesos größte Songs funktionieren nicht durch Effekt, sondern durch Verletzlichkeit: eine Stimme, eine ehrliche Zeile, ein Gefühl, das nicht geglättet wird. Das machte ihn zu einer der prägenden Stimmen der deutschen Popmusik, ohne dass er sich dafür dem üblichen Glamour anpassen musste.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, gebraucht und geliebt werden zu müssen, verbunden mit der Schwierigkeit, die eigenen Bedürfnisse offen zu benennen. Bei der SX2w1 zeigt sich das als die stille Sorge, nicht genug zu geben, gepaart mit dem Anspruch, es perfekt zu machen. Cluesos eigene, öffentlich gemachte Offenheit über eine frühere offene Beziehung zeigt, wie sehr er auch unkonventionelle Formen von Nähe ehrlich und ohne Beschönigung ansprechen kann, statt sie zu verschweigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nähe ohne Kompromiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Clueso der deutschen Musiklandschaft gegeben hat, ist eine beständige Gegenrede zur oberflächlichen Selbstinszenierung des Pop-Betriebs: Nähe entsteht nicht durch Reichweite, sondern durch Ehrlichkeit – auch wenn das bedeutet, gewachsene Bindungen radikal zu kappen, sobald sie der eigenen künstlerischen Wahrhaftigkeit im Weg stehen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die bequemste, sondern die ehrlichste Verbindung sucht. Es trägt seine Last mit Sorgfalt, Schritt für Schritt, und ist bereit, den Weg neu zu wählen, sobald der alte nicht mehr zur eigenen Wahrheit passt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-milow", label:"Porträt: Milow (SX2w1)"},
+        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
       ])}
     </div>
   `);
@@ -7198,77 +7263,6 @@ function madameTussaudPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-osho", label:"Portr\u00e4t: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function oshoPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Osho</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Mystiker &amp; Kommune-Gr\u00fcnder, 1931&ndash;1990 &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das seine Umgebung mit wachen Pfoten abtastet, jede Ritze auf Nutzen pr\u00fcft und aus begrenzten Mitteln funktionierende Systeme baut. Kein lautes Tier, aber ein au\u00dferordentlich findiges: Es \u00fcberlebt nicht durch Kraft, sondern durch Cleverness und die F\u00e4higkeit, sich jeder Umgebung anzuverwandeln.</p>
-          <p class="vb-intro">Der indische Osho, geboren als Chandra Mohan Jain, baute innerhalb weniger Jahre aus einem staubigen Grundst\u00fcck in Poona einen internationalen Kommune-Betrieb auf &ndash; und wenig sp\u00e4ter, in der W\u00fcste von Oregon, binnen vier Jahren eine funktionierende Stadt mit eigenem Flughafen, Krankenhaus, Kl\u00e4ranlage und Bustransportsystem f\u00fcr Zehntausende Besucher. Der Waschb\u00e4r, der aus nacktem Land ein funktionierendes System macht &ndash; mit einer Effizienz, die selbst Kritiker verbl\u00fcffte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Guru als Systembauer</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in der \u00f6ffentlichen Selbstinszenierung, sondern im funktionierenden Ergebnis. Wo die soziale Drei die B\u00fchne braucht und die sexuelle Drei die Anziehung, richtet die SE3 ihre Energie auf das, was tr\u00e4gt &ndash; auf Struktur, Sicherheit, ein System, das auch ohne st\u00e4ndige Aufmerksamkeit l\u00e4uft.</p>
-          <p class="vb-intro">Bei Osho zeigt sich das gerade nicht in Bescheidenheit, sondern in einer anderen SE3-Spielart: dem obsessiven Aufbau von Infrastruktur. \u00dcber 600 B\u00fccher, transkribiert aus t\u00e4glichen Vortr\u00e4gen, ein weltweites Netz an Meditationszentren, ein straff organisierter innerer Kreis engster Mitarbeiterinnen, der den gesamten operativen Betrieb f\u00fchrte, w\u00e4hrend Osho selbst sprach, schwieg oder sich zur\u00fcckzog. Die SE3-Logik: Nicht der Guru muss \u00fcberall pr\u00e4sent sein &ndash; das System muss funktionieren, auch wenn er es nicht ist.</p>
-          <p class="vb-intro">Der selbsterhaltende Instinkt richtet sich auf Kontrolle \u00fcber die materiellen Grundlagen der eigenen Existenz. Oshos ber\u00fchmte Sammlung von schlie\u00dflich 93 Rolls-Royce-Limousinen wirkt auf den ersten Blick wie das Gegenteil von Bescheidenheit &ndash; und ist doch, aus SE3-Perspektive gelesen, auch ein Sicherheitssystem: ein Statussymbol, das Spendenbereitschaft, mediale Aufmerksamkeit und die materielle Basis der Kommune absicherte. Funktion, verkleidet als Verschwendung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe, Provokation, Individualit\u00e4t</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Effizienz \u00fcbersteigt: den Hunger nach Authentizit\u00e4t, nach dem, was unter der Oberfl\u00e4che liegt, nach der eigenen, unverwechselbaren Stimme. Die Vier verweigert sich der Konvention nicht aus Trotz, sondern weil das Konventionelle ihr nie tief genug ist.</p>
-          <p class="vb-intro">Oshos gesamtes Denken kreist um genau dieses Thema: radikale Individualit\u00e4t. \u201eIch lehre nicht, ich helfe euch, ihr selbst zu werden", wiederholte er in unz\u00e4hligen Varianten. Seine Vortr\u00e4ge verwoben Sufi-Poesie, Zen-Anekdoten, Nietzsche, Freud und Tantra zu einer eigenwilligen, oft schockierenden Synthese &ndash; besonders seine offene Thematisierung von Sexualit\u00e4t als spirituellem Weg, die ihm den Beinamen \u201eSex-Guru" der westlichen Presse einbrachte. Kein anderer spiritueller Lehrer seiner Zeit provozierte so bewusst die b\u00fcrgerliche Moral &ndash; die Vier, die den Tabubruch als Weg zur Tiefe versteht.</p>
-          <p class="vb-intro">Auch seine \u00e4sthetische Inszenierung trug diese Handschrift: die aufwendigen Roben, der sorgsam kuratierte Blick, die minutenlangen Schweigepausen vor jedem Vortrag. Kein Zufall, sondern die Vier, die wei\u00df, dass Form und Tiefe zusammengeh\u00f6ren &ndash; dass die Art, wie etwas erscheint, bereits Teil dessen ist, was es bedeutet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Rajneeshpuram: Die Utopie als Bauprojekt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1981 verlegte Osho seine Kommune auf eine 26 Quadratkilometer gro\u00dfe Ranch in Oregon. Was folgte, war eines der ambitioniertesten Kommune-Bauprojekte des 20. Jahrhunderts: Innerhalb weniger Jahre entstand Rajneeshpuram &ndash; mit eigener Landwirtschaft, eigener Polizei, eigenem Rundfunksender und Platz f\u00fcr \u00fcber 7.000 Bewohner. Die SE3w4-Vision unverfälscht: eine ideale Gesellschaft, gebaut nicht als Theorie, sondern als funktionierender Ort.</p>
-          <p class="vb-intro">Der Konflikt mit der lokalen Bev\u00f6lkerung eskalierte zu einer der gr\u00f6\u00dften Bioterror-Attacken in der Geschichte der USA: 1984 vergifteten F\u00fchrungsmitglieder der Kommune Salatbars in umliegenden Restaurants mit Salmonellen, um die lokale Wahl zu beeinflussen &ndash; \u00fcber 750 Menschen erkrankten. 1985 wurde Osho selbst wegen Einwanderungsbetrugs verhaftet und aus den USA ausgewiesen. Die Utopie, die als perfekt funktionierendes System gedacht war, brach an genau dem zusammen, was sie ausblendete: der Frage, wie viel Kontrolle ein System vertr\u00e4gt, bevor es sich selbst zerst\u00f6rt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3 ist ihre F\u00e4higkeit, Vision in funktionierende Realit\u00e4t zu \u00fcbersetzen. Was bei anderen spirituellen Lehrern bei der Idee bleibt, wurde bei Osho zu Infrastruktur: Zentren, Verlagen, einer eigenen Sprache aus \u00fcber 600 B\u00fcchern, die bis heute in Dutzenden L\u00e4ndern gelesen werden. Millionen Menschen fanden \u00fcber seine pragmatisch aufbereiteten Meditationstechniken &ndash; etwa die \u201eDynamische Meditation" &ndash; einen Zugang zu innerer Erfahrung, den abstraktere Lehren ihnen verwehrt h\u00e4tten.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber bei Osho durch den Viererfl\u00fcgel versch\u00e4rft: die Behauptung radikaler Bindungslosigkeit bei gleichzeitigem Aufbau eines der straffsten hierarchischen Systeme seiner Zeit. \u201eIch besitze nichts" bei gleichzeitiger Sammlung von 93 Rolls-Royce &ndash; ein Widerspruch, den Kritiker als Heuchelei lasen, den Anh\u00e4nger als bewusste Provokation gegen materialistisches Denken verteidigten. Die Wahrheit liegt vermutlich dazwischen: Die SE3 braucht die materielle Absicherung, die Vier braucht die Geste, die alles infrage stellt &ndash; beides zugleich ist schwer zu halten, ohne dass eines das andere t\u00e4uscht.</p>
-          <p class="vb-intro">Der Viererfl\u00fcgel bringt sein eigenes Schattenmuster: die Inszenierung von Einzigartigkeit kann zur Isolation f\u00fchren, die selbst dem engsten Kreis den Zugang zum realen Menschen hinter der Rolle verwehrt. Oshos letzte Lebensjahre, gepr\u00e4gt von gesundheitlichem Verfall und dem Zerfall der Kommune, blieben nach au\u00dfen von derselben unersch\u00fctterlichen Inszenierung begleitet, mit der alles begonnen hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Vom System zur Stille</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne das System, das ich errichtet habe.</em> F\u00fcr die SE3w4 bedeutet das, den Wert nicht l\u00e4nger an die Kontrolle \u00fcber eine funktionierende Struktur zu binden &ndash; und die Tiefe nicht l\u00e4nger als etwas zu behandeln, das inszeniert werden muss, um sichtbar zu sein.</p>
-          <p class="vb-intro">In seinen letzten Lebensjahren, nach dem Zusammenbruch von Rajneeshpuram, verlegte Osho den Schwerpunkt zunehmend auf reine Stille &ndash; \u201eNur Zuh\u00f6ren" nannte er es, Vortr\u00e4ge ohne feste Lehre, oft nur Musik und Schweigen. Ob dies echte Reifung war oder eine letzte Neuerfindung, bleibt umstritten. Der Waschb\u00e4r, der lebenslang Systeme baute, endete mit der Geste, alle Systeme loszulassen &ndash; und genau darin liegt die eigentliche Heilungsfrage seines Weges: ob das Loslassen selbst noch einmal eine Maske war, oder das erste Mal keine.</p>
-        </blockquote>
-
-        <p class="vb-intro">Die chronischen Beschwerden seit den fr\u00fchen 1970ern, die zw\u00f6lft\u00e4gige Haft 1985 und die bis heute umstrittene Kontroverse um seinen Tod 1990 werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-osho">Krankheitsportr\u00e4t zu Osho</a> gedeutet.</p>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"krankheitsportraets-osho", label:"Krankheitsportr\u00e4t: Osho (SE3w4)"},
-        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portr\u00e4t: Kathrin Bauerfeind (SE3w4)"},
       ])}
     </div>
   `);

@@ -1697,7 +1697,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Kamel",
     kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
     fingerabdruecke: [
       {
         titel: "Intimität im Großen – aus vielen wird ein Einzelner",
@@ -1707,7 +1707,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt und gibt sich vollständig, ohne sich aufzudrängen",
         beschreibung: "Hingabe zeigt sich nicht als lautes Werben, sondern als beständiges, geduldiges Mittragen – im Dienst einer Verbindung, eines Weges, eines Partners, ohne dabei viel zurückzuverlangen.",
-        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war."
+        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war; Clueso, dessen musikalischer Stil erst durch die über Jahre gewachsene, enge Freundschaft mit DJ Malik und Steer M bei gemeinsamen Jam-Sessions in Jena wirklich Form annahm – kein Solo-Aufstieg, sondern ein Weg, der sich im engen Kontakt mit denen entwickelte, die ihn begleiteten."
       },
       {
         titel: "Speichert Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben",

@@ -919,6 +919,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Matthias Schweighöfer – Sexual Type 2",
     teaser:"SX2w1 · born 1981. Actor, director, producer. Closeness instead of distance – whether as performer or director, he carries his ensemble like the camel carries its path. Animal correspondence: Camel.",
     land:"Germany", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-clueso", name:"Clueso", added:"2026-08-29", subtyp:"SX2w1",
+    heading:"Clueso – Sexual Type 2",
+    teaser:"SX2w1 · b. 1980. German singer, songwriter, and painter from Erfurt, known for honest, deeply personal love songs. Built his first studio in his own pantry, broke radically with his band and collective in 2016 to reclaim his artistic freedom. Animal correspondence: Camel.",
+    land:"Germany", tags:["Music"], gender:"m"},
 { route:"beruehmte-milow", name:"Milow", added:"2026-07-30", subtyp:"SX2w1",
     heading:"Milow – Sexual Type 2",
     teaser:"SX2w1 · born 1982. Singer, songwriter. Ayo Technology, Little in the Middle. Quiet, honest closeness instead of loud performance – the camel that carries its load with care. Animal correspondence: Camel.",
@@ -43083,6 +43087,70 @@ function matthiasSchweighoeferPortraitPage() {
 }
 
 
+function cluesoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-clueso-portrait.jpg" alt="Clueso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clueso</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexual Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; painter, b. 1980 &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the sexual Two – a creature that carries without imposing itself. It crosses long distances, quietly, patiently, staying in steady contact with what it accompanies. Thomas Hübner, better known as Clueso, was born in 1980 in Erfurt and, inspired by the cult film "Beat Street," which also played in East German cinemas in the late 1980s, discovered his passion for hip-hop early on.</p>
+          <p class="vb-intro">From 1995 he sang in various Erfurt music projects, refining his skills together with DJ Malik and Steer M at jam sessions in the Jena club Kassablanca – a close friendship that grew over years and out of which his musical style truly developed. That is the gesture of the camel: it does not go ahead alone, but stays in close, reliable contact with those who share the path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: Closeness as a Life Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Two (SX2)</strong> does not channel the energy of the Two into the large group like the social Two, nor into securing its own existence like the self-preservation Two, but into the direct, personal space between two people. Naranjo called this subtype <em>Aggressivity/Seduction</em> – an active, forward-moving approach toward the other, rather than waiting for connection to arise on its own.</p>
+          <p class="vb-intro">In Clueso this shows in his reputation as the "poet of the German music landscape": his love songs go directly into the private, without the detour of grand gestures. Rather than a professional studio, he recorded his song "Tanzen" in a self-built mini-studio in his own pantry – for soundproofing reasons, but also because the immediate, private closeness to his music mattered to him more than professional distance. The SX2 translating its innermost question into sound: <em>Can I truly touch someone? Can I truly be touched?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: Honesty as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Two an inner axis a Two with a weaker One-wing does not have on its own: the awareness of quality, of what is right, of responsibility toward what one does. An SX2 with a more muted One-wing could lose itself in the pure intensity of connection. The One-wing says: <em>It is not enough to want closeness. What matters is how carefully you handle it.</em></p>
+          <p class="vb-intro">In Clueso this wing shows not only in his musical craft but in a second artistic discipline he has pursued for years alongside music with the same seriousness: painting. Even his stage name – a nod to Inspector Clouseau from "The Pink Panther" – carries a self-ironic but precise view of himself. The demand that every line of a lyric be honestly meant rather than merely sound pleasant is the typical One stance within the SX2: better truthful than convenient.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Break for Artistic Honesty, 2016</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For his seventh album, "Neuanfang" (2016), Clueso drew radical consequences from fifteen years of accumulated obligations: he separated from his band, left the artist network Zughafen that he had co-founded, and even moved out of his shared apartment. His own explanation: "I had to realize that all the obligations and promises to my surroundings restricted my artistic freedom."</p>
+          <p class="vb-intro">This decision carries the characteristic SX2w1 signature: not a quiet withdrawal, but a clear, principle-driven cut once it became clear that his own honesty toward his art was being compromised by too many attachments. The album itself openly addressed the doubts, fears, and dependencies that had built up since his first album – a deliberately unpolished sound, partly returning to his hip-hop roots, as the sonic consequence of this break.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w1 lies in its ability to create real, unadorned closeness – in music as in personal contact. Clueso's greatest songs do not work through effect but through vulnerability: a voice, an honest line, a feeling that is never smoothed over. That made him one of the defining voices of German pop music without having to adapt to the usual glamour.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the deep conviction of needing to be needed and loved, combined with the difficulty of openly naming one's own needs. In the SX2w1 this shows as the quiet worry of not giving enough, paired with the demand of doing it perfectly. Clueso's own public openness about a past open relationship shows how honestly and without embellishment he can address even unconventional forms of closeness, rather than keeping them hidden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Closeness Without Compromise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Clueso has given the German music landscape is a persistent counterpoint to the surface self-promotion of the pop industry: closeness does not come from reach, but from honesty – even if that means radically cutting ties that have grown over years once they stand in the way of one's own artistic truthfulness.</p>
+          <p class="vb-intro">That is the gift of the SX2w1: a camel that does not seek the most comfortable connection, but the most honest one. It carries its load with care, step by step, and is willing to choose a new path the moment the old one no longer fits its own truth.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-milow", label:"Portrait: Milow (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function milowPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -43145,6 +43213,7 @@ function milowPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Portrait: Clueso (SX2w1)"},
       ])}
     </div>
   `);
@@ -46264,7 +46333,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -46274,7 +46343,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -101452,6 +101521,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-omar-sy": omarSyPortraitPage,
       "beruehmte-bernard-faye": bernardFayePortraitPage,
       "beruehmte-matthias-schweighoefer": matthiasSchweighoeferPortraitPage,
+      "beruehmte-clueso": cluesoPortraitPage,
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-anastasiia-metelkina": anastasiiaMetelkinaPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
