@@ -56012,7 +56012,7 @@ function virginiaWoolfPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Wunde, die zur Form wird</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Woolfs schwere depressive Episoden begleiteten ihr gesamtes Erwachsenenleben, doch zwischen den Krisen arbeitete sie mit einer fast stockbroker-haften Regelmäßigkeit: Jeden Vormittag, von etwa halb zehn bis ein Uhr, schrieb sie allein in einem umgebauten Gartenhäuschen in Monk's House, stehend an einem eigens dafür gebauten hohen Pult.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Woolfs schwere depressive Episoden begleiteten ihr gesamtes Erwachsenenleben, doch zwischen den Krisen arbeitete sie mit einer fast geschäftsmännisch anmutenden Verlässlichkeit: Jeden Vormittag, von etwa halb zehn bis ein Uhr, schrieb sie allein in einem umgebauten Gartenhäuschen in Monk's House, stehend an einem eigens dafür gebauten hohen Pult.</p>
           <p class="vb-intro">Erst 1928, in ihrem Essay „A Room of One's Own", machte sie diese Wunde öffentlich zum Thema – die Forderung nach einem eigenen Zimmer und finanzieller Unabhängigkeit als Voraussetzung weiblichen Schreibens war zugleich die nüchterne Bilanz ihrer eigenen, jahrzehntelang stillschweigend ertragenen Bildungsbenachteiligung.</p>
         </blockquote>
 
@@ -56037,7 +56037,7 @@ function virginiaWoolfPortraitPage() {
         <h2 class="vb-section">6. Die Taube im Gartenhäuschen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Virginia Woolf gilt heute als eine der einflussreichsten Schriftstellerinnen des zwanzigsten Jahrhunderts – nicht weil sie ihr Leiden lauter zur Schau stellte als andere, sondern weil sie es in Jahrzehnten stiller, methodischer Arbeit in eine radikal neue literarische Form übersetzte, die bis heute Generationen von Autorinnen und Autoren prägt.</p>
-          <p class="vb-intro">Die Taube, die als Kind früh Mutter und Vater verlor und sich autodidaktisch eine eigene Bildung aneignete, die am Vormittag mit stockbroker-hafter Regelmäßigkeit an ihrem Pult stand und deren letzter Akt noch einmal von derselben stillen Klarheit getragen war, mit der sie ihr ganzes Leben lang geschrieben hatte – das ist das bleibende Bild dieses Subtyps: eine Tiefe, die sich nicht verbirgt, sondern beharrlich in Form gebracht wird.</p>
+          <p class="vb-intro">Die Taube, die als Kind früh Mutter und Vater verlor und sich autodidaktisch eine eigene Bildung aneignete, die am Vormittag mit uhrwerkgleicher Verlässlichkeit an ihrem Pult stand und deren letzter Akt noch einmal von derselben stillen Klarheit getragen war, mit der sie ihr ganzes Leben lang geschrieben hatte – das ist das bleibende Bild dieses Subtyps: eine Tiefe, die sich nicht verbirgt, sondern beharrlich in Form gebracht wird.</p>
         </blockquote>
 
       </div>
