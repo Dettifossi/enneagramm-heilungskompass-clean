@@ -21924,7 +21924,7 @@ function udoLindenbergPortraitPage() {
         <h2 class="vb-section">3. The Nine Wing: Persistence Behind the Fire</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Nine wing (w9) adds a peculiar endurance to the intensity of the sexual One – a persistence that arises not from indifference, but from the ability to stay with something for a long time, even when no one else is paying attention anymore. Lindenberg has lived for decades in the same suite at the Hotel Atlantic in Hamburg – a constant that seems almost absurd in an artist's life full of change, and yet shows exactly the Nine-wing gravity that holds the One's fire in place.</p>
-          <p class="vb-intro">This persistence also carried him through the quiet years, when his star seemed to be fading, until the comeback album "Stark wie zwei" (2008) and the ballad "Cello" introduced him to an entirely new generation. No coincidence, but the fruit of decades of holding out without compromising his own form. As a painter of his "Likörelle" – watercolors mixed with alcohol – the same patient, almost meditative constancy shows itself alongside the loud fire of the stage.</p>
+          <p class="vb-intro">This persistence also carried him through the quiet years, when his star seemed to be fading, until the comeback album "Stark wie zwei" (2008) and, in 2011, the ballad "Cello," re-recorded together with <a href="#beruehmte-clueso">Clueso (SX2w1)</a>, introduced him to an entirely new generation. No coincidence, but the fruit of decades of holding out without compromising his own form. As a painter of his "Likörelle" – watercolors mixed with alcohol – the same patient, almost meditative constancy shows itself alongside the loud fire of the stage.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Passion: Wrath as Moral Judgment</h2>
@@ -21953,7 +21953,7 @@ function udoLindenbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
-        {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"beruehmte-clueso", label:"Portrait: Clueso (SX2w1) – recorded \"Cello\" with him"},
       ])}
     </div>
   `);
@@ -43112,6 +43112,7 @@ function cluesoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Two (SX2)</strong> does not channel the energy of the Two into the large group like the social Two, nor into securing its own existence like the self-preservation Two, but into the direct, personal space between two people. Naranjo called this subtype <em>Aggressivity/Seduction</em> – an active, forward-moving approach toward the other, rather than waiting for connection to arise on its own.</p>
           <p class="vb-intro">In Clueso this shows in his reputation as the "poet of the German music landscape": his love songs go directly into the private, without the detour of grand gestures. Rather than a professional studio, he recorded his song "Tanzen" in a self-built mini-studio in his own pantry – for soundproofing reasons, but also because the immediate, private closeness to his music mattered to him more than professional distance. The SX2 translating its innermost question into sound: <em>Can I truly touch someone? Can I truly be touched?</em></p>
+          <p class="vb-intro">This same capacity for immediate connection showed in 2011, when <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> invited him to record a joint version of his classic "Cello," a song Clueso had known since childhood from his parents' record collection. The duet appeared on Lindenberg's live album "MTV Unplugged – Live aus dem Hotel Atlantic" and became one of the biggest hits of both careers – two generations of German pop music, connected through a single, personally meaningful song.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-wing: Honesty as Craft</h2>
@@ -43146,6 +43147,7 @@ function cluesoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-milow", label:"Portrait: Milow (SX2w1)"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9)"},
       ])}
     </div>
   `);

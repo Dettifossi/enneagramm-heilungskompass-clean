@@ -2675,7 +2675,7 @@ function udoLindenbergPortraitPage() {
         <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Beharrlichkeit hinter dem Feuer</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> f\u00fcgt der Intensit\u00e4t der sexuellen Eins eine eigent\u00fcmliche Ausdauer hinzu \u2013 ein Beharren, das nicht aus Gleichg\u00fcltigkeit entsteht, sondern aus der F\u00e4higkeit, lange bei einer Sache zu bleiben, auch wenn sie gerade niemanden mehr interessiert. Lindenberg lebt seit Jahrzehnten in derselben Suite im Hotel Atlantic in Hamburg \u2013 eine Konstante, die in einem K\u00fcnstlerleben voller Wandel fast schon absurd wirkt und doch genau die Neuner-Schwerkraft zeigt, die das Feuer der Eins an seinem Ort h\u00e4lt.</p>
-          <p class="vb-intro">Diese Beharrlichkeit trug ihn auch durch die stillen Jahre, in denen sein Stern zu sinken schien, bis das Comeback-Album "Stark wie zwei" (2008) und die Ballade "Cello" ihn einer ganzen neuen Generation vorstellten. Kein Zufall, sondern die Frucht jahrzehntelangen Durchhaltens ohne Kompromiss an der eigenen Form. Auch als Maler seiner "Lik\u00f6relle" \u2013 Aquarelle, denen er Alkohol beimischt \u2013 zeigt sich dieselbe geduldige, fast meditative Konstanz neben dem lauten B\u00fchnenfeuer.</p>
+          <p class="vb-intro">Diese Beharrlichkeit trug ihn auch durch die stillen Jahre, in denen sein Stern zu sinken schien, bis das Comeback-Album "Stark wie zwei" (2008) und 2011 die gemeinsam mit <a href="#beruehmte-clueso">Clueso (SX2w1)</a> neu eingespielte Ballade "Cello" ihn einer ganzen neuen Generation vorstellten. Kein Zufall, sondern die Frucht jahrzehntelangen Durchhaltens ohne Kompromiss an der eigenen Form. Auch als Maler seiner "Lik\u00f6relle" \u2013 Aquarelle, denen er Alkohol beimischt \u2013 zeigt sich dieselbe geduldige, fast meditative Konstanz neben dem lauten B\u00fchnenfeuer.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Zorn als moralisches Urteil</h2>
@@ -2704,7 +2704,7 @@ function udoLindenbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Portr\u00e4t: Klaus Kinski (SX1w9)"},
-        {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
+        {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1) \u2013 gemeinsam mit ihm der Song \u203aCello\u2039"},
       ])}
     </div>
   `);
@@ -5984,6 +5984,7 @@ function cluesoPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei – sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht.</p>
           <p class="vb-intro">Bei Clueso zeigt sich das in seinem Ruf als ›Poet der deutschen Musiklandschaft‹: Seine Liebeslieder gehen unmittelbar ins Private, ohne den Umweg über große Gesten. Statt in einem professionellen Studio nahm er seinen Song ›Tanzen‹ in einem selbst gebauten Mini-Studio in der eigenen Speisekammer auf – aus Gründen des Schallschutzes, aber auch, weil ihm die unmittelbare, private Nähe zu seiner Musik wichtiger war als professionelle Distanz. Die SX2, die ihre innerste Frage in Klang übersetzt: <em>Kann ich wirklich berühren? Kann ich wirklich berührt werden?</em></p>
+          <p class="vb-intro">Dieselbe Fähigkeit zur unmittelbaren Verbindung zeigte sich 2011, als <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> ihn zu einer gemeinsamen Version seines Klassikers ›Cello‹ einlud, den Clueso seit seiner Kindheit aus der Plattensammlung seiner Eltern kannte. Das Duett erschien auf Lindenbergs Live-Album ›MTV Unplugged – Live aus dem Hotel Atlantic‹ und wurde zu einem der größten Hits beider Karrieren – zwei Generationen deutscher Popmusik, verbunden über ein einziges, persönlich bedeutsames Lied.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Ehrlichkeit als Handwerk</h2>
@@ -6018,7 +6019,7 @@ function cluesoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-milow", label:"Porträt: Milow (SX2w1)"},
-        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
       ])}
     </div>
   `);
