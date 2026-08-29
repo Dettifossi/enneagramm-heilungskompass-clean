@@ -1,3 +1,63 @@
+function borisBeckerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Becker</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Tennisprofi, geb. 1967 &ndash; Dreifacher Wimbledon-Sieger, Olympiasieger &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, st\u00fcrmischsten Form. Der Schimpanse braucht Intensit\u00e4t: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Unbekannter &ndash; und verlie\u00df ihn als j\u00fcngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
+          <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Der deutsche Tennisspieler Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalk\u00fcl, kein Z\u00f6gern &ndash; nur der Moment, der alles ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t als Identit\u00e4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht den vollst\u00e4ndigen Rausch &ndash; die ultimative Erfahrung, die totale Verschmelzung mit dem, was das Leben zu bieten hat. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die F\u00e4higkeit, sich selbst und andere in den Strudel eines Erlebnisses hineinzurei\u00dfen. Die SX7 ist ansteckend, magnetisch, unwiderstehlich.</p>
+          <p class="vb-intro">Boris Becker hat ein Jahrzehnt lang Menschen in diese Qualit\u00e4t hineingezogen. Nicht nur als Spieler, sondern als Pers\u00f6nlichkeit: lauter als andere, offener als andere, strahlender als andere. Das ist kein Stilmittel. Das ist die SX7 in ihrer nat\u00fcrlichen Verfassung. Sie braucht keine B\u00fchne, um zu leuchten &ndash; sie bringt die B\u00fchne mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Der K\u00e4mpfer im Schimpansen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der sexuellen Sieben etwas Entscheidendes: H\u00e4rte. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann die Sieben ausweichen, verhandeln, charmieren. Der Achterfl\u00fcgel k\u00e4mpft. Er gibt nicht nach. Er bei\u00dft sich durch. Boris Becker hat Matches gewonnen, die er normalerweise verloren h\u00e4tte &ndash; weil er sich geweigert hat, diese Realit\u00e4t anzuerkennen. Das ist der Achterfl\u00fcgel der sexuellen Sieben: die Weigerung, das Spiel zu verlieren, bevor der letzte Punkt gespielt ist.</p>
+          <p class="vb-intro">Dieser Fl\u00fcgel war auf dem Platz sein gr\u00f6\u00dftes Geschenk. Er gab Becker etwas, das Siebener mit schwach ausgeprägtem Achterflügel selten besitzen: Standhaftigkeit unter Druck. W\u00e4hrend andere Spieler in schwierigen Momenten taktierten oder zur\u00fcckwichen, eskalierte Becker. Er erh\u00f6hte das Risiko, wenn er eigentlich h\u00e4tte konservativ spielen sollen. Er servierte Asse, wenn seine Gegner auf Sicherheit spielten. Diese F\u00e4higkeit, im entscheidenden Moment nicht kleiner zu werden, sondern gr\u00f6\u00dfer &ndash; das ist der Achterfl\u00fcgel in seiner unverfälschtesten Gestalt.</p>
+          <p class="vb-intro">Au\u00dferhalb des Platzes wurde dieser Fl\u00fcgel zur Falle. Der Achterfl\u00fcgel der Sieben glaubt, dass Regeln f\u00fcr andere gelten. Dass Konsequenzen aufgehoben werden, wenn man nur entschlossen genug ist. Im Tennis funktioniert das: Willenskraft kann einen Matchball abwenden. Im Leben und vor Gericht nicht. Diese \u00dcberzeugung hat Becker durch seine ganze Karriere getragen &ndash; und sie hat ihn in der Krise vollst\u00e4ndig im Stich gelassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> oder auch <strong>Ma\u00dflosigkeit</strong>: der unstillbare Hunger nach mehr. Bei der sexuellen Sieben richtet sich dieser Hunger auf Erlebnisse, Intensit\u00e4t, den n\u00e4chsten H\u00f6hepunkt. Becker hat nicht gespart. Er hat gelebt &ndash; gro\u00df, laut, verschwenderisch. H\u00e4user, Partys, Aff\u00e4ren, Investments, Auftritte. Die Sieben vertraut darauf, dass es immer weitergeht, weil es immer weitergegangen ist.</p>
+          <p class="vb-intro">Wenn diese Ma\u00dflosigkeit auf unbegrenzte Mittel trifft, ist sie ein Fest. Wenn die Mittel enden und die Ma\u00dflosigkeit bleibt, entsteht eine Katastrophe. Becker hat jahrelang so gelebt, als h\u00e4tten die goldenen Jahre nie geendet. Das Enneagramm sieht darin keine Charakterschw\u00e4che &ndash; sondern das Muster einer Sieben, die gelernt hat, dass Intensit\u00e4t das Schmerzmittel schlechthin ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Der Mann, der den Moment mitrei\u00dft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Boris Becker dem deutschen Sport &ndash; und einer ganzen Generation &ndash; gegeben hat, ist nicht messbar in Titeln allein. Er hat Menschen mitgenommen. Er hat aus einem Samstagabend in Wimbledon einen nationalen Augenblick gemacht. Das ist das Geschenk der SX7w8: Enthusiasmus, der sich \u00fcbertr\u00e4gt; Freude, die ansteckt; ein Ja zum Leben, das andere aufweckt.</p>
+          <p class="vb-intro">Der Schimpanse mit Achterfl\u00fcgel ist, in seiner gesunden Auspr\u00e4gung, der Mensch, der sagt: das ist m\u00f6glich, und ich beweise es dir jetzt, hier, in diesem Moment. Das ist Boris Becker am 7. Juli 1985. Der Rest seines Lebens ist die Frage, ob er lernen kann, wer er ist, wenn dieser Moment vorbei ist &ndash; und wie er sein kann, ohne ihn zur\u00fcckzuholen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
+        {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+      ])}
+    </div>
+  `);
+}
+
 function franzLisztPortraitPage() {
   return shell(`
     <div class="page-container">

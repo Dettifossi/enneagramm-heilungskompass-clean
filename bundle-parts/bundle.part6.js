@@ -2641,6 +2641,54 @@ function kaesesortenPage() {
   `);
 }
 
+// Auf Modulebene (statt nur innerhalb von beruehmtePersoenlichkeitenPage()
+// als lokale Closure), damit bpApply() beim Filtern die passenden Karten
+// selbst neu bauen kann, statt - wie früher - alle 395 Karten auf einmal
+// ins DOM zu rendern und nur per CSS auszublenden. Letzteres hat auf dem
+// iPhone bei "Berühmte Persönlichkeiten" (mit Abstand die größte Rubrik,
+// ~4x mehr Einträge als Krankheitsporträts/Kriminalfälle) zu Safaris
+// "Es ist wiederholt ein Problem aufgetreten"-Speicherabsturz geführt.
+const BP_KAT_COLORS = {
+  "Musik":"#7c3aed","Schauspiel":"#b45309","Wissenschaft":"#0369a1",
+  "Sport":"#15803d","Politik":"#c0392b","Kunst":"#be185d",
+  "Literatur":"#92400e","Wirtschaft":"#2563c7","Astronaut":"#0e7490","Medien":"#0f766e","Sonstiges":"#6b7280"
+};
+function bpCardHTML(p) {
+  const inst = (p.subtyp||"").substring(0,2).toUpperCase();
+  const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
+  const kats = (p.tags||[]).join(",");
+  const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
+  const tierImg = tierKey ? 'https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/'+tierKey+'.jpg' : '';
+  return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-bp-gender="'+(p.gender||'')+'" data-bp-land="'+(p.land||'')+'" data-route="'+p.route+'"'
+    +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
+    +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
+    +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
+    +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
+    +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
+    +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
+    +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
+    +(p.tags||[]).map(function(t){
+      const col = BP_KAT_COLORS[t]||"var(--copper)";
+      return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+t+'</span>';
+    }).join("")
+    +'</div>'
+    +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Porträt &rarr;</span></div>'
+    +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
+    +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:'+tierAvatarTop(tierKey)+';left:'+tierAvatarLeft(tierKey)+';width:140%;height:140%;object-fit:cover;" /></div>' : '')
+    +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
+    +'</div>'
+    +'</div></div>';
+}
+// Baut eine flache Kartenliste (keine Abschnitts-Überschriften) für eine
+// bereits gefilterte Teilmenge - genutzt von bpApply() beim Filtern.
+function bpCardsFlatHTML(list) {
+  if (!list.length) {
+    return '<p style="color:var(--muted);font-style:italic;padding:2rem 0;">Keine Treffer für diese Filterkombination.</p>';
+  }
+  return list.map(bpCardHTML).join("");
+}
+const BP_PAGE_SIZE = 60;
+
 function beruehmtePersoenlichkeitenPage() {
   const allKats = ["Musik","Schauspiel","Wissenschaft","Sport","Politik","Kunst","Literatur","Wirtschaft","Astronaut","Medien","Sonstiges"];
   const katLabel = {
@@ -2697,33 +2745,6 @@ function beruehmtePersoenlichkeitenPage() {
       +'</div>';
   }
 
-  const card = p => {
-    const inst = (p.subtyp||"").substring(0,2).toUpperCase();
-    const typ  = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
-    const kats = (p.tags||[]).join(",");
-    const tierKey = (p.subtyp||'').substring(0,3).toLowerCase();
-    const tierImg = tierKey ? 'https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/'+tierKey+'.jpg' : '';
-    return '<div class="kf-card" data-bp-inst="'+inst+'" data-bp-typ="'+typ+'" data-bp-kats="'+kats+'" data-bp-gender="'+(p.gender||'')+'" data-bp-land="'+(p.land||'')+'" data-route="'+p.route+'"'
-      +' style="cursor:pointer;max-width:100%;background:var(--ivory);border:1.5px solid var(--border);"'
-      +' onmouseover="this.style.borderColor=\'var(--gold)\';this.style.boxShadow=\'0 2px 12px rgba(0,0,0,.1)\'"'
-      +' onmouseout="this.style.borderColor=\'var(--border)\';this.style.boxShadow=\'none\'">'
-      +'<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:1rem;">'
-      +'<div style="flex:1;min-width:0;"><h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.4rem;color:var(--ink);">'+p.heading+(p.added&&new Date()-new Date(p.added)<30*864e5?' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>':'')+'</h3>'
-      +'<p class="vb-intro" style="margin:0 0 0.8rem;font-size:0.92rem;">'+p.teaser+'</p>'
-      +'<div style="display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.6rem;">'
-      +(p.tags||[]).map(function(t){
-        const col = katColors[t]||"var(--copper)";
-        return '<span class="kf-tag" style="background:'+col+'18;color:'+col+';border:1px solid '+col+'40;padding:0.15rem 0.55rem;border-radius:4px;font-size:0.78rem;font-weight:600;">'+t+'</span>';
-      }).join("")
-      +'</div>'
-      +'<span style="font-size:0.82rem;color:var(--copper);font-weight:600;">Zum Portr\xe4t &rarr;</span></div>'
-      +'<div style="display:flex;flex-direction:column;align-items:center;gap:0.4rem;flex-shrink:0;">'
-      +(tierImg ? '<div style="position:relative;width:48px;height:48px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);"><img src="'+tierImg+'" alt="'+tierKey.toUpperCase()+'" loading="lazy" style="position:absolute;top:'+tierAvatarTop(tierKey)+';left:'+tierAvatarLeft(tierKey)+';width:140%;height:140%;object-fit:cover;" /></div>' : '')
-      +'<span style="font-size:1.4rem;color:var(--gold);">&#9655;</span>'
-      +'</div>'
-      +'</div></div>';
-  };
-
   const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p+n));
   const registerBox = BERUEHMT_PORTRAITS.length === 0 ? "" :
     '<div id="bp-register" style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">'
@@ -2741,25 +2762,16 @@ function beruehmtePersoenlichkeitenPage() {
     }).join("")
     +'</div></div>';
 
+  // Rendert nicht mehr alle 395 Karten auf einmal (siehe Kommentar bei
+  // BP_KAT_COLORS oben) - nur die erste Seite, plus ein "Mehr laden"-Button,
+  // der bpRenderMore() aufruft und schrittweise weitere Batches anh\u00e4ngt.
   function buildList() {
     if (BERUEHMT_PORTRAITS.length === 0) {
       return '<p style="color:var(--muted);font-style:italic;padding:2rem 0;">Die ersten Portr\xe4ts werden in K\xfcrze hinzugef\xfcgt.</p>';
     }
-    let lastCode = null, out = '';
-    BERUEHMT_PORTRAITS.forEach(function(p) {
-      const code = (p.subtyp||'').substring(0,3).toUpperCase();
-      if (code && code !== lastCode) {
-        if (lastCode !== null) {
-          out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'bp-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">\u2191 zum Register</a></div>';
-        }
-        const n = parseInt(code.slice(-1));
-        const col = TYPE_COLORS[n]||"var(--copper)";
-        out += '<div id="bp-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code+'</div>';
-        lastCode = code;
-      }
-      out += card(p);
-    });
-    return out;
+    window.bpRenderedCount = 0;
+    window.bpLastSectionCode = null;
+    return bpBuildNextBatch();
   }
 
   return shell(
@@ -2773,6 +2785,7 @@ function beruehmtePersoenlichkeitenPage() {
     +registerBox
     +'<div id="bp-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
     +buildList()
+    +'<div id="bp-loadmore-wrap">'+bpLoadMoreButtonHTML()+'</div>'
     +'</div>'
     +relatedLinks([
       {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
@@ -2782,6 +2795,52 @@ function beruehmtePersoenlichkeitenPage() {
     +'</div>'
   );
 }
+
+// Baut den nächsten Batch (BP_PAGE_SIZE Karten) der unabhängig vom Filter
+// standardmäßig chronologisch/nach Subtyp sortierten Gesamtliste, inklusive
+// fortlaufender Abschnitts-Überschriften (auch über Batch-Grenzen hinweg,
+// dank window.bpLastSectionCode als Zustand zwischen den Aufrufen).
+function bpBuildNextBatch() {
+  const start = window.bpRenderedCount || 0;
+  const end = Math.min(start + BP_PAGE_SIZE, BERUEHMT_PORTRAITS.length);
+  let out = '';
+  for (let i = start; i < end; i++) {
+    const p = BERUEHMT_PORTRAITS[i];
+    const code = (p.subtyp||'').substring(0,3).toUpperCase();
+    if (code && code !== window.bpLastSectionCode) {
+      if (window.bpLastSectionCode !== null) {
+        out += '<div class="kf-section-back"><a href="#" onclick="event.preventDefault();document.getElementById(\'bp-register\').scrollIntoView({behavior:\'smooth\'});" style="font-size:0.8rem;color:var(--copper);font-weight:600;text-decoration:none;padding:0.3rem 0.8rem;border:1px solid var(--border);border-radius:6px;background:var(--ivory);">↑ zum Register</a></div>';
+      }
+      const n = parseInt(code.slice(-1));
+      const col = TYPE_COLORS[n]||"var(--copper)";
+      out += '<div id="bp-'+code.toLowerCase()+'" class="kf-section-head" style="font-size:0.75rem;font-weight:700;letter-spacing:0.1em;color:'+col+';text-transform:uppercase;padding:0.5rem 0 0.2rem;margin-top:0.5rem;border-bottom:1.5px solid '+col+'20;">'+code+'</div>';
+      window.bpLastSectionCode = code;
+    }
+    out += bpCardHTML(p);
+  }
+  window.bpRenderedCount = end;
+  return out;
+}
+function bpLoadMoreButtonHTML() {
+  const remaining = BERUEHMT_PORTRAITS.length - (window.bpRenderedCount || 0);
+  if (remaining <= 0) return '';
+  return '<button class="kf-btn" style="width:100%;padding:0.8rem;margin-top:0.5rem;background:var(--gold);color:var(--anthracite,#2c2c2c);border-color:var(--gold-dark,#A8872D);font-weight:700;" onclick="bpRenderMore()">Weitere Portr\xe4ts laden ('+remaining+' \xfcbrig)</button>';
+}
+window.bpRenderMore = function() {
+  const wrap = document.getElementById('bp-loadmore-wrap');
+  if (!wrap) return;
+  const batchHtml = bpBuildNextBatch();
+  wrap.insertAdjacentHTML('beforebegin', batchHtml);
+  wrap.innerHTML = bpLoadMoreButtonHTML();
+  // Neu hinzugekommene Karten brauchen ihren Klick-Handler (siehe die
+  // generische [data-route]-Delegation weiter unten im Code).
+  document.querySelectorAll('#bp-list .kf-card[data-route]:not([data-bp-wired])').forEach(function(el) {
+    el.setAttribute('data-bp-wired', '1');
+    el.addEventListener('click', function() {
+      if (el.dataset.locked) { go('freischalt/' + el.dataset.locked); } else { go(el.dataset.route); }
+    });
+  });
+};
 
 window.bpState = { inst:"ALL", typ:0, kat:"ALL", gender:"ALL", land:"ALL" };
 window.bpSet = function(dim, val) {
@@ -2794,33 +2853,73 @@ window.bpSetLand = function(val) {
   bpApply();
 };
 window.bpRandom = function() {
-  var cards = Array.prototype.slice.call(document.querySelectorAll("#bp-list .kf-card[data-route]")).filter(function(c){ return c.style.display !== "none"; });
-  if (!cards.length) return;
-  var pick = cards[Math.floor(Math.random() * cards.length)];
-  var route = pick.getAttribute("data-route");
-  if (route) go(route);
+  // Wählt direkt aus BERUEHMT_PORTRAITS statt aus dem DOM, da bei
+  // ungefiltertem Zustand ohnehin nur die erste Seite gerendert ist
+  // (siehe bpBuildNextBatch) - so bleibt "Zufälliges Porträt" über die
+  // ganze Liste hinweg wirklich zufällig.
+  const s = window.bpState;
+  const matches = BERUEHMT_PORTRAITS.filter(function(p) {
+    const inst = (p.subtyp||"").substring(0,2).toUpperCase();
+    const typ = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
+    const kats = p.tags||[];
+    return (s.inst==="ALL" || inst===s.inst)
+      && (s.typ===0 || typ===s.typ)
+      && (s.kat==="ALL" || kats.indexOf(s.kat)>=0)
+      && (s.gender==="ALL" || p.gender===s.gender)
+      && (s.land==="ALL" || p.land===s.land);
+  });
+  if (!matches.length) return;
+  const pick = matches[Math.floor(Math.random() * matches.length)];
+  if (pick.route) go(pick.route);
 };
+// Baut #bp-list bei jeder Filteränderung komplett neu, statt (wie früher)
+// alle 395 Karten dauerhaft im DOM zu halten und nur per CSS aus-/
+// einzublenden - das war die eigentliche Ursache des Speicherabsturzes bei
+// "Berühmte Persönlichkeiten" (mit Abstand die größte Rubrik). Ungefiltert
+// wird weiterhin paginiert (siehe bpBuildNextBatch/bpRenderMore); bei jedem
+// aktiven Filter ist die Trefferliste ohnehin klein genug für eine flache
+// Einmal-Darstellung ohne Pagination.
 window.bpApply = function() {
   const s = window.bpState;
-  const cards = document.querySelectorAll(".kf-card[data-bp-inst]");
-  let vis = 0;
-  cards.forEach(function(c){
-    const ok = (s.inst==="ALL" || c.dataset.bpInst===s.inst)
-      && (s.typ===0 || parseInt(c.dataset.bpTyp)===s.typ)
-      && (s.kat==="ALL" || (c.dataset.bpKats||"").split(",").indexOf(s.kat)>=0)
-      && (s.gender==="ALL" || c.dataset.bpGender===s.gender)
-      && (s.land==="ALL" || c.dataset.bpLand===s.land);
-    c.style.display = ok ? "" : "none";
-    if(ok) vis++;
+  const filtered = s.inst!=="ALL" || s.typ!==0 || s.kat!=="ALL" || s.gender!=="ALL" || s.land!=="ALL";
+  const list = document.getElementById("bp-list");
+  const reg = document.getElementById("bp-register");
+  let vis;
+
+  if (filtered) {
+    const matches = BERUEHMT_PORTRAITS.filter(function(p) {
+      const inst = (p.subtyp||"").substring(0,2).toUpperCase();
+      const typ = parseInt((p.subtyp||"").replace(/[^0-9]/g,"")[0]||"0");
+      const kats = p.tags||[];
+      return (s.inst==="ALL" || inst===s.inst)
+        && (s.typ===0 || typ===s.typ)
+        && (s.kat==="ALL" || kats.indexOf(s.kat)>=0)
+        && (s.gender==="ALL" || p.gender===s.gender)
+        && (s.land==="ALL" || p.land===s.land);
+    });
+    vis = matches.length;
+    if (list) list.innerHTML = bpCardsFlatHTML(matches);
+    if (reg) reg.style.display = "none";
+  } else {
+    window.bpRenderedCount = 0;
+    window.bpLastSectionCode = null;
+    const batchHtml = bpBuildNextBatch();
+    vis = window.bpRenderedCount;
+    if (list) {
+      list.innerHTML = batchHtml + '<div id="bp-loadmore-wrap">' + bpLoadMoreButtonHTML() + '</div>';
+    }
+    if (reg) reg.style.display = "";
+  }
+
+  document.querySelectorAll('#bp-list .kf-card[data-route]').forEach(function(el) {
+    el.setAttribute('data-bp-wired', '1');
+    el.addEventListener('click', function() {
+      if (el.dataset.locked) { go('freischalt/' + el.dataset.locked); } else { go(el.dataset.route); }
+    });
   });
+
   const cnt = document.getElementById("bp-count-num");
   if(cnt) cnt.textContent = vis;
-  const filtered = s.inst!=="ALL" || s.typ!==0 || s.kat!=="ALL" || s.gender!=="ALL" || s.land!=="ALL";
-  const reg = document.getElementById("bp-register");
-  if(reg) reg.style.display = filtered ? "none" : "";
-  document.querySelectorAll(".kf-section-head[id^=bp-],.kf-section-back").forEach(function(el){
-    el.style.display = filtered ? "none" : "";
-  });
   document.querySelectorAll(".kf-btn[data-bp-inst]").forEach(function(b){
     b.classList.toggle("kf-btn--active", b.dataset.bpInst===s.inst||(s.inst==="ALL"&&b.dataset.bpInst==="ALL"));
   });
@@ -7295,66 +7394,6 @@ function inaMuellerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function borisBeckerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Boris Becker</p>
-        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Tennisprofi, geb. 1967 &ndash; Dreifacher Wimbledon-Sieger, Olympiasieger &ndash; Tierentsprechung: Schimpanse</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Schimpanse</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Boris Becker ist ein Schimpanse in seiner reinsten, st\u00fcrmischsten Form. Der Schimpanse braucht Intensit\u00e4t: Wettkampf, Kontakt, Triumph. Er lebt im Jetzt, geht volles Risiko und liebt das Spiel mehr als den Plan. 1985, mit 17 Jahren, betrat Boris Becker den Centre Court in Wimbledon als Unbekannter &ndash; und verlie\u00df ihn als j\u00fcngsten Wimbledon-Sieger aller Zeiten. Der Schimpanse hatte zugeschlagen. Und die Welt schaute zu.</p>
-          <p class="vb-intro">Was den Schimpansen ausmacht, ist nicht seine Kraft allein &ndash; es ist seine Unmittelbarkeit. Der deutsche Tennisspieler Boris Becker war nie ein taktischer Spieler. Er war ein explosiver. Sein Aufschlag war Donner, sein Netzangriff war Risiko, sein Spiel war Spektakel. Das ist der Schimpanse in voller Entfaltung: kein Kalk\u00fcl, kein Z\u00f6gern &ndash; nur der Moment, der alles ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t als Identit\u00e4t</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht den vollst\u00e4ndigen Rausch &ndash; die ultimative Erfahrung, die totale Verschmelzung mit dem, was das Leben zu bieten hat. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die F\u00e4higkeit, sich selbst und andere in den Strudel eines Erlebnisses hineinzurei\u00dfen. Die SX7 ist ansteckend, magnetisch, unwiderstehlich.</p>
-          <p class="vb-intro">Boris Becker hat ein Jahrzehnt lang Menschen in diese Qualit\u00e4t hineingezogen. Nicht nur als Spieler, sondern als Pers\u00f6nlichkeit: lauter als andere, offener als andere, strahlender als andere. Das ist kein Stilmittel. Das ist die SX7 in ihrer nat\u00fcrlichen Verfassung. Sie braucht keine B\u00fchne, um zu leuchten &ndash; sie bringt die B\u00fchne mit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Der K\u00e4mpfer im Schimpansen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der sexuellen Sieben etwas Entscheidendes: H\u00e4rte. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann die Sieben ausweichen, verhandeln, charmieren. Der Achterfl\u00fcgel k\u00e4mpft. Er gibt nicht nach. Er bei\u00dft sich durch. Boris Becker hat Matches gewonnen, die er normalerweise verloren h\u00e4tte &ndash; weil er sich geweigert hat, diese Realit\u00e4t anzuerkennen. Das ist der Achterfl\u00fcgel der sexuellen Sieben: die Weigerung, das Spiel zu verlieren, bevor der letzte Punkt gespielt ist.</p>
-          <p class="vb-intro">Dieser Fl\u00fcgel war auf dem Platz sein gr\u00f6\u00dftes Geschenk. Er gab Becker etwas, das Siebener mit schwach ausgeprägtem Achterflügel selten besitzen: Standhaftigkeit unter Druck. W\u00e4hrend andere Spieler in schwierigen Momenten taktierten oder zur\u00fcckwichen, eskalierte Becker. Er erh\u00f6hte das Risiko, wenn er eigentlich h\u00e4tte konservativ spielen sollen. Er servierte Asse, wenn seine Gegner auf Sicherheit spielten. Diese F\u00e4higkeit, im entscheidenden Moment nicht kleiner zu werden, sondern gr\u00f6\u00dfer &ndash; das ist der Achterfl\u00fcgel in seiner unverfälschtesten Gestalt.</p>
-          <p class="vb-intro">Au\u00dferhalb des Platzes wurde dieser Fl\u00fcgel zur Falle. Der Achterfl\u00fcgel der Sieben glaubt, dass Regeln f\u00fcr andere gelten. Dass Konsequenzen aufgehoben werden, wenn man nur entschlossen genug ist. Im Tennis funktioniert das: Willenskraft kann einen Matchball abwenden. Im Leben und vor Gericht nicht. Diese \u00dcberzeugung hat Becker durch seine ganze Karriere getragen &ndash; und sie hat ihn in der Krise vollst\u00e4ndig im Stich gelassen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Lebensform</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> oder auch <strong>Ma\u00dflosigkeit</strong>: der unstillbare Hunger nach mehr. Bei der sexuellen Sieben richtet sich dieser Hunger auf Erlebnisse, Intensit\u00e4t, den n\u00e4chsten H\u00f6hepunkt. Becker hat nicht gespart. Er hat gelebt &ndash; gro\u00df, laut, verschwenderisch. H\u00e4user, Partys, Aff\u00e4ren, Investments, Auftritte. Die Sieben vertraut darauf, dass es immer weitergeht, weil es immer weitergegangen ist.</p>
-          <p class="vb-intro">Wenn diese Ma\u00dflosigkeit auf unbegrenzte Mittel trifft, ist sie ein Fest. Wenn die Mittel enden und die Ma\u00dflosigkeit bleibt, entsteht eine Katastrophe. Becker hat jahrelang so gelebt, als h\u00e4tten die goldenen Jahre nie geendet. Das Enneagramm sieht darin keine Charakterschw\u00e4che &ndash; sondern das Muster einer Sieben, die gelernt hat, dass Intensit\u00e4t das Schmerzmittel schlechthin ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Der Mann, der den Moment mitrei\u00dft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Boris Becker dem deutschen Sport &ndash; und einer ganzen Generation &ndash; gegeben hat, ist nicht messbar in Titeln allein. Er hat Menschen mitgenommen. Er hat aus einem Samstagabend in Wimbledon einen nationalen Augenblick gemacht. Das ist das Geschenk der SX7w8: Enthusiasmus, der sich \u00fcbertr\u00e4gt; Freude, die ansteckt; ein Ja zum Leben, das andere aufweckt.</p>
-          <p class="vb-intro">Der Schimpanse mit Achterfl\u00fcgel ist, in seiner gesunden Auspr\u00e4gung, der Mensch, der sagt: das ist m\u00f6glich, und ich beweise es dir jetzt, hier, in diesem Moment. Das ist Boris Becker am 7. Juli 1985. Der Rest seines Lebens ist die Frage, ob er lernen kann, wer er ist, wenn dieser Moment vorbei ist &ndash; und wie er sein kann, ohne ihn zur\u00fcckzuholen.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"astrologie-boris-becker", label:"Astrologie-Analyse: Boris Becker (SX7w8)"},
-        {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
-        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
       ])}
     </div>
   `);
