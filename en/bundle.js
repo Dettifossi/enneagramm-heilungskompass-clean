@@ -18636,7 +18636,7 @@ function johnnyCashPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP3w4 lies in the ability to <strong>build a lasting, load-bearing structure out of genuine inner depth</strong>, rather than either hiding depth or displaying it fleetingly. Cash combined one of the most enduring careers in music history with songs still regarded as unflinchingly honest – a rare balance of structure and substance.</p>
-          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in Cash this showed in the public facade of the controlled "Man in Black," maintained for years while he was secretly addicted to amphetamines and barbiturates throughout the 1960s, up to the point of physical collapse. Only in 1967/68, with help from June Carter and her family, did he manage to get clean – a crisis that shows how much strength it costs the SP3 to maintain a functioning image while everything inside has long threatened to break apart.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – in Cash this showed in the public facade of the controlled "Man in Black," maintained for years while he was secretly addicted to amphetamines and barbiturates throughout the 1960s, up to the point of physical collapse. Only in 1967/68, with help from June Carter (SP4w3) and her family, did he manage to get clean – a crisis that shows how much strength it costs the SP3 to maintain a functioning image while everything inside has long threatened to break apart.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Image to Vulnerability</h2>
