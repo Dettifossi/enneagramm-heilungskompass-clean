@@ -1,3 +1,195 @@
+function johannesBrahmsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1833–1897</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Brahms</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-johannes-brahms">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine jahrzehntelange
+        Treue zur Familie Schumann. Diese Seite vertieft ein Kapitel, das dort nur angedeutet
+        wird: eine Leberkrankung, an der bereits sein Vater gestorben war, und die Brahms selbst
+        nur elf Monate nach dem Tod seiner engsten Freundin Clara Schumann dahinraffte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Brahms</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Appetit</em>: Frieden im Vertrauten, in der
+        immer gleichen Gewohnheit. Der Achterflügel gibt dieser Gelassenheit eine unerschütterliche
+        Standfestigkeit. Genau dieses Muster – Beharren im Gewohnten, bis eine äußere
+        Erschütterung es aufbricht – lässt sich bis in seinen Krankheitsverlauf
+        nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Die erschöpfende Reise zu Clara Schumanns Beerdigung:</strong>
+        Als Clara Schumann im Mai 1896 starb, verpasste der bereits selbst gesundheitlich
+        angeschlagene Brahms auf der überstürzten Reise nach Bonn mehrere Zuganschlüsse und
+        musste Teile der Strecke im falschen Zug zurücklegen – er traf erschöpft und zu spät
+        zur Beisetzung ein.</p>
+        <p class="vb-intro"><strong>b) Sichtbare Gelbfärbung kurz danach:</strong>
+        Noch im selben Sommer bemerkten Freunde eine ungewohnte Gelbfärbung seiner Haut und eine
+        zunehmende Erschöpfung, die Brahms zunächst herunterspielte.</p>
+        <p class="vb-intro"><strong>c) Eine Diagnose, die an den eigenen Vater erinnerte:</strong>
+        Ende 1896 oder Anfang 1897 wurde bei Brahms eine schwere Lebererkrankung
+        festgestellt – dieselbe Krankheit, an der bereits sein Vater Johann Jakob Brahms
+        gestorben war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Kein Rückzug von öffentlichen Verpflichtungen:</strong>
+        Trotz der Diagnose zog sich Brahms nicht aus dem öffentlichen Leben zurück, sondern
+        nahm weiterhin an Konzerten teil, solange es seine Kräfte zuließen.</p>
+        <p class="vb-intro"><strong>b) Zunehmender, kaum thematisierter Verfall:</strong>
+        Sein engster Kreis bemerkte den fortschreitenden Gewichtsverlust und die wachsende
+        Erschöpfung – Brahms selbst sprach kaum darüber, ganz in der Art der selbsterhaltenden
+        Neun, die Beschwerlichkeiten eher aussitzt als bespricht.</p>
+        <p class="vb-intro"><strong>c) Festhalten an den vertrauten Ritualen, solange es ging:</strong>
+        Auch in den letzten Monaten hielt Brahms an seinem gewohnten Rhythmus – Stammlokale,
+        Zigarre, feste Tagesabläufe – fest, so lange es seine schwindende Kraft eben zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der letzte öffentliche Auftritt am 7. März 1897:</strong>
+        Brahms besuchte in Wien eine Aufführung seiner 4. Sinfonie, sichtbar geschwächt und
+        kaum noch in der Lage, die Treppen zu seiner Loge zu steigen. Das Publikum bereitete
+        ihm eine lang anhaltende, tief bewegte Ovation nach jedem Satz – viele im Saal weinten,
+        weil allen klar war, dass sie ihn zum letzten Mal sahen.</p>
+        <p class="vb-intro"><strong>b) Bemerkenswerte Fassung angesichts des nahen Todes:</strong>
+        Freunde und Weggefährten berichteten übereinstimmend von einer stillen Gelassenheit,
+        mit der Brahms sein eigenes Sterben in den letzten Wochen hinnahm.</p>
+        <p class="vb-intro"><strong>c) Tod am 3. April 1897 in Wien:</strong>
+        Johannes Brahms starb im Alter von 63 Jahren – nur elf Monate nach Clara Schumann, deren
+        Verlust seinen eigenen körperlichen Verfall mit beschleunigt haben dürfte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: David Hume</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch <a href="javascript:void(0)" data-route="beruehmte-david-hume">David Hume</a>
+        (SE9w8) begegnete seiner tödlichen Krankheit – in seinem Fall einer chronischen
+        Darmerkrankung – mit bemerkenswerter Gelassenheit statt Kampf oder Verzweiflung. Sein
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">eigenes
+        Krankheitsporträt</a> zeigt dieselbe elefantenhafte Ruhe wie bei Brahms: Der
+        Achterflügel gibt der selbsterhaltenden Neun eine Standfestigkeit, die auch dem eigenen
+        Tod ohne Ausweichen begegnen kann – kein dramatischer Kampf, sondern ein stilles
+        Weitertragen des Gewohnten bis zuletzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der einem anderen Tod unmittelbar folgte:</strong>
+        Dass Brahms nur elf Monate nach Clara Schumann starb, wurde von Zeitgenossen und
+        Nachwelt gleichermaßen als kaum zufällige Fügung gedeutet – vierzig Jahre Treue endeten
+        beinahe gleichzeitig auf beiden Seiten.</p>
+        <p class="vb-intro"><strong>b) Eine Ovation, die zum Abschied wurde:</strong>
+        Die Ovation nach seiner 4. Sinfonie im März 1897 gilt bis heute als einer der
+        bewegendsten Momente der Konzertgeschichte – ein Publikum, das seinem sterbenden
+        Komponisten noch einmal seine Anerkennung entgegenbrachte.</p>
+        <p class="vb-intro"><strong>c) Ein stilles Ende ohne Dramatik:</strong>
+        Anders als mancher Künstlertod, der sich zur Legende auflädt, blieb Brahms' Sterben
+        bemerkenswert unspektakulär – passend zu einem Mann, der zeitlebens das Vertraute dem
+        Auffälligen vorzog.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Elefant, der eine Erschütterung nicht mehr abschütteln konnte:</strong>
+        Die selbsterhaltende Neun findet ihre Stabilität im Vertrauten – Clara Schumanns Tod
+        entzog Brahms genau diesen letzten, über vierzig Jahre gewachsenen Fixpunkt, und der
+        Körper folgte kurz darauf.</p>
+        <p class="vb-intro"><strong>b) Beharren im Gewohnten bis zur Erschöpfung:</strong>
+        Statt sich nach der Diagnose zu schonen, hielt Brahms an seinen gewohnten
+        Verpflichtungen fest – dieselbe Trägheit, die ihn 21 Jahre an einer Sinfonie feilen
+        ließ, ließ ihn auch angesichts des eigenen Todes nicht von seinen Ritualen abweichen.</p>
+        <p class="vb-intro"><strong>c) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
+        Dieselbe unerschütterliche Standfestigkeit, mit der Brahms einst im „Streit der
+        Romantiker" seine Position hielt, zeigte sich noch einmal in der stillen, unbeirrten
+        Art, mit der er dem eigenen Tod entgegensah.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die im Vertrauten der Familie wurzelte:</strong>
+        Dass Brahms an derselben Leberkrankheit starb wie sein Vater, passt auf eine bittere
+        Weise zum Kernthema der selbsterhaltenden Neun: Selbst im Krankheitsverlauf zeigte sich
+        etwas zutiefst Familiäres, Wiederkehrendes, statt eines völlig neuen, fremden
+        Schicksals.</p>
+        <p class="vb-intro"><strong>b) Der Bruch im Vertrauten als Auslöser:</strong>
+        Die selbsterhaltende Neun lebt vom verlässlichen Ritual – Clara Schumanns Tod und die
+        chaotische, erschöpfende Reise zu ihrer Beerdigung waren genau jene Störung des
+        Gewohnten, die Brahms' bis dahin verborgene Krankheit sichtbar werden ließ.</p>
+        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur stilles Weitertragen:</strong>
+        Wie bei David Hume findet sich auch bei Brahms kein verzweifelter Kampf gegen die
+        Krankheit und kein dramatischer Rückzug, sondern ein Weitertragen der gewohnten Rituale
+        bis an die Grenze der eigenen Kraft.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis in der ruhigen
+        Verarbeitung und Bewahrung des Vertrauten liegt, liegt eine Deutung nahe: Ausgerechnet
+        jenes Organ, das im Körper für Verarbeitung, Entgiftung und das ruhige Funktionieren im
+        Hintergrund zuständig ist, wurde bei Brahms – wie schon bei seinem Vater – zum
+        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Brahms' Fall zeigen lässt, ist ein Muster
+        im Umgang mit einer tödlichen Diagnose, das bei einer ausgeprägten selbsterhaltenden
+        Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Brahms kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Achterflügel
+        findet Sicherheit im Vertrauten und trägt Belastungen lange schweigend mit, statt sie
+        anzusprechen oder sich zu schonen. Genau das tat er, als er trotz sichtbarer
+        Erschöpfung an seinen Verpflichtungen festhielt, statt die eigene Erkrankung ernst zu
+        nehmen. Wer die eigene Neigung, Beschwerden auszusitzen statt sie zu benennen, nicht
+        als Muster kennt, verpasst den Moment, in dem rechtzeitige Schonung noch etwas hätte
+        bewirken können.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Brahms'</strong> selbsterhaltende Neun mit
+        Achterflügel noch einmal ablesen: eine Krankheit, die im Vertrauten der eigenen Familie
+        wurzelte, ein Zusammenbruch des Gewohnten, der erst durch den Verlust der engsten
+        Freundin sichtbar wurde, und ein stilles, unspektakuläres Ende, das dem gelebten Leben
+        aufs Wort entsprach. Der Elefant, der vierzig Jahre lang nichts vergaß – und der die
+        Welt nur elf Monate nach der Frau verließ, der seine Treue am längsten gegolten hatte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
 function elizabethBarrettBrowningKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12354,87 +12546,6 @@ function derMannVonGerasaPage() {
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
         {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function zachaeusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-zachaeus-portrait.jpg" alt="Zachäus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Zachäus</p>
-        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Suche nach Sicherheit und der Mut zur Offenheit – Tierentsprechung: Kaninchen</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se6.jpg" alt="Tierentsprechung: Kaninchen" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE6")};left:${tierAvatarLeft("SE6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Zachäus, steig eilends herab; denn ich muss heute in deinem Haus einkehren.« (Lk 19,5)</p>
-
-        <h2 class="vb-section">1. Das Kaninchen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs – wachsam, schnell im Rückzug, immer bereit, sich in Sicherheit zu bringen, bevor eine Gefahr sich überhaupt bestätigt hat. Zachäus kletterte, nicht weil er kindlich war, nicht weil er sportlich war, sondern weil er nicht gesehen werden wollte und doch sehen musste. Er war klein, nicht nur am Körper. Auch innerlich war er oft gekrümmt von der Last der Kontrolle. Denn Kontrolle bedeutete für ihn: Überleben.</p>
-          <p class="vb-intro">Die selbsterhaltende Sechs lebt in der Spannung zwischen Bedürfnis nach Ordnung und tief sitzendem Grundmisstrauen. Vertrauen muss erarbeitet, bewiesen, getestet werden. Zachäus war Zöllner, einer, der mit den Römern handelte, einer, dem keiner traute, und der keinem traute. Der Baum war sein sicherer Ort, hoch genug, um den Überblick zu behalten, nah genug, um den Mann zu sehen, von dem alle sprachen. Er wagte sich nach oben, weil er dort nicht angesprochen werden konnte. Dachte er.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Kontrolle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Doch dann blieb Jesus stehen, sah nicht auf die Straße, nicht auf die Menge, sondern direkt nach oben, direkt zu ihm. »Zachäus…« Und in diesem Wort lag kein Vorwurf, keine Verachtung, kein Spott, sondern ein Anruf, ein Vertrauen, bevor irgendetwas geklärt war. Zachäus stockte, sein sicherer Abstand kippte plötzlich in Verletzlichkeit. Aber Jesus forderte nicht viel, nur eines: »Steig herab. Ich will bei dir einkehren.«</p>
-          <p class="vb-intro">Zachäus stieg nicht einfach vom Baum, er löste sich – von seiner Tarnung, von seinem Panzer, von der Gewohnheit, alles unter Kontrolle zu haben. Die Menschenmenge murmelte, einige lachten hämisch, andere blickten verwundert. »Er kehrt bei einem Sünder ein…« Zachäus hörte die Stimmen und merkte zugleich, dass sie nicht mehr das Letzte zu sagen hatten. Jesus sah ihn nicht an wie ein Aktenzeichen, nicht wie einen Verräter, nicht wie einen Risikofaktor, sondern wie einen Menschen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins Beobachten und Berechnen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine analytische, distanzierte Qualität – Sicherheit entsteht durch Rückzug, Berechnung und Kontrolle über den eigenen Raum, nicht durch soziale Wärme oder lautes Handeln. Zuhause angekommen, öffnete Zachäus nervös die Tür. Noch nie hatte jemand wie er jemanden wie ihn besucht, nicht als Zeichen der Gnade. Er hatte nichts vorbereitet, keine Polster gerichtet, kein Brot gebacken, keine Antworten zurechtgelegt.</p>
-          <p class="vb-intro">Aber Jesus trat ein, als wäre dieses Haus genau richtig. Er setzte sich und schwieg, ein Schweigen, das nicht bedrückte, sondern einlud. Zachäus ging unruhig durch den Raum, bot Früchte an, Wasser, ein Kissen. Jesus nahm nichts, nur seinen Blick ließ er ruhen, auf Zachäus. Genau diese ruhig kalkulierende, beobachtende Distanz, die erst weicht, wenn absolute Sicherheit erfahren wird, trägt die Handschrift des Fünferflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Zwischen Reue und Widerstand</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zachäus begann zu reden, zuerst in Formeln: »Ich habe meine Pflicht getan.« »Ich habe nur genommen, was verlangt wurde.« Dann in Rechtfertigungen: »Es ist nicht leicht, für die Römer zu arbeiten.« »Man braucht Rücklagen in dieser Zeit.« Doch seine Stimme brach. Er hatte jahrelang Ordnung gesucht und stattdessen sich selbst verloren. Er hatte Loyalität gespielt, aber nie echte Zugehörigkeit gespürt. Er hatte sich zurückgezogen ins Funktionieren.</p>
-          <p class="vb-intro">In diesem Moment flüsterte er, nicht an Jesus, sondern ins eigene Schweigen hinein: »Ich will etwas zurückgeben. Ich will anders handeln.« Nicht aus Zwang, nicht um gut dazustehen, sondern weil er zum ersten Mal das Gefühl hatte, dass er gesehen wurde, bevor er funktionierte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der stille Durchbruch</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jesus antwortete nicht mit Worten. Er nickte, ein stilles, warmes Nicken, wie eine Zustimmung zu einem inneren Wandel, den kein Auge sehen konnte. Und Zachäus spürte plötzlich etwas: eine Leere, die nicht schmerzte, sondern Raum gab, für das Neue, für einen anderen Weg. Er würde auf Widerstände stoßen, sich selbst immer wieder prüfen, Zweifel empfinden, und absichern wollen. Aber er hatte gesehen, dass es eine andere Art zu leben gab, ohne ständiges inneres Misstrauen.</p>
-          <p class="vb-intro">Am Abend ging Jesus weiter. Zachäus begleitete ihn bis zur Schwelle. Es war kein dramatischer Abschied, kein »Danke«, kein »Ich werde dir folgen«. Nur ein Blick, ein Blick, der sagte: »Ich habe dich gemeint. Und ich traue dir zu, dass du lebst.«</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Anders geben, anders schauen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zachäus schloss die Tür. Aber innerlich war nichts mehr geschlossen. Er sah sich um: die Möbel waren noch dieselben, die Münzen lagen noch auf dem Tisch. Doch sein Verhältnis dazu war neu. Er würde fortan anders geben, anders sprechen, anders schauen. Denn jemand hatte ihm nicht nur die Hand gereicht, sondern das Vertrauen geschenkt, nicht mehr fliehen zu müssen.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE6w5: eine Sicherheit, die nicht mehr aus Kontrolle über jedes Detail gespeist wird, sondern aus dem einmal erfahrenen Vertrauen, gesehen zu sein, bevor man funktioniert – ein Kaninchen, das gelernt hat, dass nicht jeder offene Raum eine Gefahr ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Ich kehr' bei dir ein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Zachäus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/z7BZ4KXOAsg?rel=0" title="Ich kehr' bei dir ein – Zachäus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
-        {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
-        {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
       ])}
     </div>
   `);

@@ -32408,6 +32408,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Wittgenstein – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1889–1951. Philosoph, Verfasser des Tractatus logico-philosophicus und der Philosophischen Untersuchungen. Verschenkte sein gesamtes Vermögen, lebte asketisch, arbeitete zeitweise als Dorfschullehrer und Klostergärtner. Tierentsprechung: Adler.",
     land:"Österreich/Vereinigtes Königreich", tags:["Philosophie","Wissenschaft"], gender:"m"},
+  { route:"beruehmte-gianna-nannini", name:"Gianna Nannini", added:"2026-08-29", subtyp:"SE1w9",
+    heading:"Gianna Nannini – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1954. Italienische Rocksängerin, ›America‹, ›Bello e impossibile‹, klassisch am Konservatorium ausgebildet. Mit 56 Jahren allein Mutter geworden, 2017 nach London gezogen, um ihre Partnerin heiraten zu können. Über fünfzig Jahre kontinuierliche Karriere. Tierentsprechung: Adler.",
+    land:"Italien", tags:["Musik"], gender:"f"},
   { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1907–2002. Schwedische Schriftstellerin, Pippi Langstrumpf, Karlsson vom Dach, Die Brüder Löwenherz. Disziplin als tägliches Ritual, stiller Tierschutz-Kampf im hohen Alter (›Lex Lindgren‹). Tierentsprechung: Adler.",
@@ -45018,7 +45022,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
@@ -45033,7 +45037,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
         beschreibung: "Der Erfolg stellt sich häufig nicht früh oder plötzlich ein, sondern erst nach vielen Jahren stiller, oft unbeachteter Übung und wiederholten Scheiterns – getragen von einer Disziplin, die sich durch Misserfolg nicht entmutigen lässt.",
-        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet."
+        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung."
       },
       {
         titel: "Untadelige bürgerliche Fassade, hinter der sich – in der Schattenform – die dunkelste Tat verbirgt",
@@ -46805,6 +46809,84 @@ function astridLindgrenPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – Makuladegeneration"},
+      ])}
+    </div>
+  `);
+}
+
+function giannaNanniniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gianna-nannini-portrait.jpg" alt="Gianna Nannini – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gianna Nannini</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Italienische Rocksängerin, geb. 1954 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – er kreist hoch über dem Geschehen, sieht mit ungewöhnlicher Klarheit, was unten geschieht, und greift nur ein, wenn es wirklich zählt. Gianna Nannini wurde 1954 in Siena geboren, als Tochter eines wohlhabenden Industriellen und Konditoreiunternehmers und Schwester des späteren Formel-1-Fahrers Alessandro Nannini. In dieser konservativen, traditionsbewussten Unternehmerfamilie galt sie früh als das kreative Gegenstück – erwartet wurde eine Nachfolge im Familienbetrieb, gewollt hatte sie etwas ganz anderes.</p>
+          <p class="vb-intro">Statt sich offen gegen die Familie aufzulehnen, wählte die junge Gianna den disziplinierten Weg: Sie durchlief ihre gesamte Jugend hindurch eine klassische Ausbildung am Konservatorium von Lucca, wurde als Pianistin geschult und studierte später Komposition bei Bruno Bettinelli. Der Adler, der sich seine Flugbahn nicht erkämpft, sondern sie sich präzise erarbeitet, bevor er abhebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Disziplin unter der Rockfassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf die eigene Arbeitsdisziplin, die eigene Genauigkeit, die unbestechliche Verlässlichkeit gegenüber sich selbst. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis. Hinter Nanninis öffentlichem Image als raue, ungezähmte Rockröhre steht eine handwerklich außergewöhnlich gründliche Ausbildung: neben der klassischen Konservatoriumsausbildung nahm sie eigens Gesangsunterricht in London, um ihre Stimme technisch zu fundieren, statt sich allein auf natürliches Talent zu verlassen.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich diese innere Strenge, als Nannini 1994, bereits als international gefeierter Rockstar in ihren Vierzigern, an der Universität Siena einen Abschluss in Philosophie erwarb – neben einer durchgehenden Karriere, nicht als Ersatz dafür. Kein Statussymbol, sondern der SE1-typische innere Anspruch, eine begonnene Sache mit derselben Ernsthaftigkeit zu Ende zu bringen, mit der sie ihre Musik betreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rebellion ohne Kampfansage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die im Rockgeschäft selten überlebt: die Fähigkeit, den eigenen Weg zu gehen, ohne dafür lautstark Konflikte zu suchen. Mit neunzehn Jahren verließ Nannini Siena in Richtung Mailand, um dort in Bars und kleinen Clubs aufzutreten – kein spektakulärer Bruch mit der Familie, sondern ein stiller, konsequenter Weggang, der ihr eigenes Leben ermöglichte, ohne die Familie öffentlich zu attackieren.</p>
+          <p class="vb-intro">Dieselbe undramatische Beharrlichkeit trägt ihre über fünfzig Jahre andauernde Karriere: 1976 das erste, kommerziell noch unauffällige Album, 1979 der internationale Durchbruch mit ›America‹ vom Album ›California‹, 1986 der europaweite Hit ›Bello e impossibile‹ – kein einmaliger Ausbruch, sondern eine über Jahrzehnte gleichbleibend disziplinierte Weiterentwicklung. Auch ihr politisches Engagement für Umweltschutz, Frauenrechte und die Rechte von Geflüchteten trägt diese Handschrift: konsequent, aber ohne die konfrontative Schärfe, mit der andere Künstler ihrer Generation auftraten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. ›America‹ und der internationale Durchbruch, 1979</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit ihrem dritten Album ›California‹ und der Single ›America‹ gelang Nannini 1979 der internationale Durchbruch – ein energiegeladener, textlich gewagter Song, der den Nerv der Zeit traf und sie über Italien hinaus bekannt machte. Der Erfolg kam nicht plötzlich: Vor diesem Durchbruch lagen bereits Jahre disziplinierter Bühnenarbeit in Mailänder Clubs und zwei vorangegangene, kommerziell wenig erfolgreiche Alben, die sie nicht aufgab.</p>
+          <p class="vb-intro">Es folgte ein Werk von seltener Kontinuität: ›Fotoromanza‹ (1984), ›I maschi‹ (1987), ›Meravigliosa creatura‹ (1995) und ›Sei nell'anima‹ (2006) – Hits, die über Jahrzehnte hinweg entstanden, nicht als einmalige Erfolgswelle, sondern als das Ergebnis einer beständig weitergeführten, handwerklich fundierten Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Mutter mit sechsundfünfzig: Eine Entscheidung ohne Rechtfertigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im August 2010, im Alter von sechsundfünfzig Jahren, gab Nannini ihre Schwangerschaft öffentlich bekannt – auf dem Cover der ›Vanity Fair‹, in einem T-Shirt mit der Aufschrift ›God is a Woman‹. Der Name des Vaters wurde nie genannt, das Kind war durch eine künstliche Befruchtung entstanden. Am 26. November 2010 kam ihre Tochter Penelope Jane Charlotte in Mailand zur Welt.</p>
+          <p class="vb-intro">Auffällig war nicht nur die Entscheidung selbst, sondern die Art, wie Nannini sie kommunizierte: klar, selbstbewusst, ohne sich für ihre Wahl zu rechtfertigen oder öffentliche Debatten über die Konventionalität ihres Vorgehens zu suchen. Die SE1w9-typische Haltung, eine als richtig erkannte Entscheidung ruhig, aber unverrückbar umzusetzen – kein Kampf gegen die Konvention, sondern ihr einfaches Übergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der stille Umzug für die Gleichstellung, 2017</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2017 zog Nannini mit ihrer Tochter und ihrer Partnerin Carla nach London – nicht aus beruflichen Gründen, sondern weil eine gleichgeschlechtliche Ehe in Italien zu diesem Zeitpunkt rechtlich nicht möglich war (nur eingetragene Lebenspartnerschaften). Statt öffentlich für eine Gesetzesänderung zu kämpfen, wählte sie den pragmatischen, disziplinierten Weg: ein Ortswechsel, der das gewünschte Ergebnis unmittelbar ermöglichte.</p>
+          <p class="vb-intro">Auch hier zeigt sich die charakteristische SE1w9-Lösung: kein lauter öffentlicher Protest, sondern eine klare, folgerichtige Handlung, die das Prinzip – rechtliche Gleichstellung für die eigene Familie – ohne Umweg über gesellschaftliche Auseinandersetzung durchsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist die Fähigkeit, <strong>eigene Prinzipien konsequent zu leben, ohne sie anderen aufzuzwingen</strong> – Nannini hat weder ihre Familie öffentlich attackiert noch für ihre unkonventionellen Lebensentscheidungen um gesellschaftliche Zustimmung geworben. Sie hat sie einfach gelebt, mit derselben Disziplin, mit der sie ihre Musik betreibt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Zurückhaltung, mit der die SE1w9 auch tiefe persönliche Themen behandelt: Über die Beziehung zum Vater ihrer Tochter, über die genauen Umstände ihrer Familiengeschichte sprach Nannini öffentlich kaum – private Angelegenheiten bleiben privat, auch wenn öffentliches Interesse besteht. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der bei der SE1 meist nach innen gerichtet ist – als beständiger, selbst auferlegter Anspruch, jede Entscheidung mit voller Konsequenz zu tragen, ohne sich zu rechtfertigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Heilungsweg: Von der stillen Disziplin zur gelebten Freiheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Habe ich alles richtig gemacht?</em> zur Erkenntnis <em>Ich darf mein Leben nach meinen eigenen Maßstäben gestalten.</em> Bei Nannini zeigt sich dieser Weg in der Entwicklung von der jungen Konservatoriumsschülerin, die ihre Rebellion in disziplinierte Ausbildung übersetzte, bis zur Frau, die mit sechsundfünfzig Jahren, ohne sich zu rechtfertigen, ihr eigenes Familienmodell lebte.</p>
+          <p class="vb-intro">Über fünfzig Jahre nach ihrem ersten Album steht Nannini weiterhin auf der Bühne – konsequent, diszipliniert, ohne sich je an ein Image zu binden, das nicht mehr zu ihr passt. Der Adler, der nie laut werben musste, um weit zu tragen, und der bis heute genau dort fliegt, wohin er selbst entschieden hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
       ])}
     </div>
   `);
@@ -137066,6 +137148,7 @@ function render() {
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,

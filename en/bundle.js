@@ -435,6 +435,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Wittgenstein – Self-Preservation Type 1",
     teaser:"SE1w9 · 1889–1951. Philosopher, author of the Tractatus Logico-Philosophicus and the Philosophical Investigations. Gave away his entire fortune, lived ascetically, worked at times as a village schoolteacher and monastery gardener. Animal correspondence: Eagle.",
     land:"Austria/United Kingdom", tags:["Philosophy","Science"], gender:"m"},
+{ route:"beruehmte-gianna-nannini", name:"Gianna Nannini", added:"2026-08-29", subtyp:"SE1w9",
+    heading:"Gianna Nannini – Self-Preservation Type 1",
+    teaser:"SE1w9 · b. 1954. Italian rock singer, \"America,\" \"Bello e impossibile,\" classically trained at the conservatory. Became a mother alone at 56, moved to London in 2017 to marry her partner. Over fifty years of continuous career. Animal correspondence: Eagle.",
+    land:"Italy", tags:["Music"], gender:"f"},
 { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Self-Preservation Type 1",
     teaser:"SP1w9 · 1907–2002. Swedish author, Pippi Longstocking, Karlsson on the Roof, The Brothers Lionheart. Discipline as daily ritual, a quiet late-life fight for animal welfare (the 'Lex Lindgren'). Animal correspondence: Eagle.",
@@ -30921,6 +30925,84 @@ function magnusCarlsenPortraitPage() {
   `);
 }
 
+function giannaNanniniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gianna-nannini-portrait.jpg" alt="Gianna Nannini – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gianna Nannini</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Italian rock singer, b. 1954 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One – it circles high above events, sees with unusual clarity what happens below, and intervenes only when it truly matters. Gianna Nannini was born in 1954 in Siena, the daughter of a wealthy industrialist and confectionery entrepreneur and sister of the future Formula 1 driver Alessandro Nannini. In this conservative, tradition-bound business family, she was early on seen as the creative counterpoint – expected to follow in the family business, she wanted something entirely different.</p>
+          <p class="vb-intro">Rather than openly rebelling against her family, the young Gianna chose the disciplined path: throughout her adolescence she underwent classical training at the Lucca Conservatory, was trained as a pianist, and later studied composition with Bruno Bettinelli. The eagle that does not fight for its flight path but works it out precisely before taking off.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Discipline Beneath the Rock Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SP1)</strong> does not direct its perfectionism at correcting the world but turns it inward: onto its own work discipline, its own precision, its own uncompromising reliability toward itself. Naranjo called this subtype <em>Worry</em>. Behind Nannini's public image as a raw, untamed rock voice lies an unusually thorough craft training: alongside her classical conservatory education, she took vocal lessons specifically in London to ground her voice technically, rather than relying solely on natural talent.</p>
+          <p class="vb-intro">This inner rigor showed most clearly when Nannini, already an internationally celebrated rock star in her forties, earned a degree in philosophy from the University of Siena in 1994 – alongside an ongoing career, not as a substitute for it. Not a status symbol, but the typically SP1 inner demand to finish what one has started with the same seriousness one brings to one's music.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: Rebellion Without a Fight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> adds a quality to the SP1 energy that rarely survives in the rock business: the ability to follow one's own path without loudly seeking conflict. At nineteen, Nannini left Siena for Milan to perform in bars and small clubs – not a spectacular break with her family, but a quiet, consistent departure that made her own life possible without publicly attacking her family.</p>
+          <p class="vb-intro">The same undramatic persistence carries her career, now spanning more than fifty years: 1976 brought her first, still commercially unremarkable album, 1979 her international breakthrough with "America" from the album "California," 1986 the pan-European hit "Bello e impossibile" – not a single outburst, but a decades-long, consistently disciplined development. Her political engagement for environmental protection, women's rights, and refugee rights carries the same signature: consistent, but without the confrontational edge with which other artists of her generation performed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "America" and the International Breakthrough, 1979</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With her third album "California" and the single "America," Nannini achieved her international breakthrough in 1979 – an energetic, lyrically bold song that captured the spirit of the era and made her known beyond Italy. The success did not come suddenly: years of disciplined stage work in Milan clubs and two previous, commercially modest albums preceded this breakthrough, and she never abandoned the path.</p>
+          <p class="vb-intro">A body of work of rare continuity followed: "Fotoromanza" (1984), "I maschi" (1987), "Meravigliosa creatura" (1995), and "Sei nell'anima" (2006) – hits produced across decades, not a single wave of success but the result of a steadily continued, craft-grounded career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A Mother at Fifty-Six: A Decision Without Justification</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In August 2010, at the age of fifty-six, Nannini publicly announced her pregnancy – on the cover of "Vanity Fair," wearing a T-shirt reading "God is a Woman." The father's name was never disclosed; the child had been conceived through artificial insemination. On November 26, 2010, her daughter Penelope Jane Charlotte was born in Milan.</p>
+          <p class="vb-intro">What stood out was not only the decision itself, but the manner in which Nannini communicated it: clear, self-assured, without justifying her choice or seeking public debate over how unconventional it was. The characteristically SP1w9 stance of calmly, but immovably, carrying out a decision recognized as right – not a fight against convention, but simply bypassing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Quiet Move for Equality, 2017</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2017, Nannini moved with her daughter and her partner Carla to London – not for professional reasons, but because same-sex marriage was not legally possible in Italy at the time (only registered civil unions were). Rather than publicly fighting for a change in the law, she chose the pragmatic, disciplined route: a change of location that made the desired outcome immediately possible.</p>
+          <p class="vb-intro">Here, too, the characteristic SP1w9 solution shows itself: not a loud public protest, but a clear, consistent action that enforces the underlying principle – legal equality for her own family – without the detour of public confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 lies in the ability to <strong>consistently live one's own principles without imposing them on others</strong> – Nannini has neither publicly attacked her family nor campaigned for social approval of her unconventional life choices. She has simply lived them, with the same discipline she brings to her music.</p>
+          <p class="vb-intro">The shadow shows in the reticence with which the SP1w9 handles even deep personal matters: about her relationship with her daughter's father, about the exact circumstances of her family history, Nannini has spoken publicly very little – private matters stay private, even amid public interest. The One's fatal flaw is <strong>anger</strong>, which in the SP1 is usually directed inward – as a constant, self-imposed demand to carry every decision through with full consequence, without justifying it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. The Healing Path: From Quiet Discipline to Lived Freedom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Have I done everything right?</em> to the realization <em>I am allowed to shape my life by my own standards.</em> In Nannini, this path shows in her development from the young conservatory student who translated her rebellion into disciplined training, to the woman who, at fifty-six, without justifying herself, lived her own model of family.</p>
+          <p class="vb-intro">More than fifty years after her first album, Nannini still performs on stage – consistent, disciplined, never tied to an image that no longer fits her. The eagle that never needed to advertise loudly in order to fly far, and that to this day flies exactly where it has decided to go.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function astridLindgrenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -46322,7 +46404,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -46337,7 +46419,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with "America" in 1979 to her current live performances – not a single success, but steady, decades-long continuation."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -101163,6 +101245,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
+      "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,

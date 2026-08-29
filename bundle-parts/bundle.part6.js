@@ -1837,7 +1837,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
@@ -1852,7 +1852,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
         beschreibung: "Der Erfolg stellt sich häufig nicht früh oder plötzlich ein, sondern erst nach vielen Jahren stiller, oft unbeachteter Übung und wiederholten Scheiterns – getragen von einer Disziplin, die sich durch Misserfolg nicht entmutigen lässt.",
-        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet."
+        beleg: "Udo Jürgens nahm ›über zehn Jahre lang an Talentwettbewerben teil‹, bevor sich sein Durchbruch einstellte, und gewann erst nach mehreren gescheiterten Anläufen den Eurovision Song Contest; Ken Follett hielt ›über sechzig Jahre‹ hinweg dieselbe schriftstellerische Konstanz durch, auch im hohen Alter; Konrad Adenauer begann seine ›eigentliche historische Rolle‹ erst mit 73 Jahren; Christoph Waltz' fünfzigjähriges Warten auf die passende Rolle; Queen Elizabeth II., die siebzig Jahre lang ihr stilles Ja zum Thron jeden einzelnen Tag erneuerte; Dr. Peter Sharpe, der seit fast dreißig Jahren die Wiederansiedlung des Weißkopfseeadlers leitet – derselben Vogelart, die dieser Kompass als Tierentsprechung der SE1 verwendet; Gianna Nannini, deren Karriere seit ihrem ersten, kommerziell noch unauffälligen Album 1976 über fünfzig Jahre lang mit gleichbleibender Disziplin weitergeführt wird, vom internationalen Durchbruch mit ›America‹ 1979 bis zu ihren aktuellen Bühnenauftritten – kein einmaliger Erfolg, sondern beständige, jahrzehntelange Fortführung."
       },
       {
         titel: "Untadelige bürgerliche Fassade, hinter der sich – in der Schattenform – die dunkelste Tat verbirgt",
@@ -3624,6 +3624,84 @@ function astridLindgrenPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – Makuladegeneration"},
+      ])}
+    </div>
+  `);
+}
+
+function giannaNanniniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gianna-nannini-portrait.jpg" alt="Gianna Nannini – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gianna Nannini</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Italienische Rocksängerin, geb. 1954 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – er kreist hoch über dem Geschehen, sieht mit ungewöhnlicher Klarheit, was unten geschieht, und greift nur ein, wenn es wirklich zählt. Gianna Nannini wurde 1954 in Siena geboren, als Tochter eines wohlhabenden Industriellen und Konditoreiunternehmers und Schwester des späteren Formel-1-Fahrers Alessandro Nannini. In dieser konservativen, traditionsbewussten Unternehmerfamilie galt sie früh als das kreative Gegenstück – erwartet wurde eine Nachfolge im Familienbetrieb, gewollt hatte sie etwas ganz anderes.</p>
+          <p class="vb-intro">Statt sich offen gegen die Familie aufzulehnen, wählte die junge Gianna den disziplinierten Weg: Sie durchlief ihre gesamte Jugend hindurch eine klassische Ausbildung am Konservatorium von Lucca, wurde als Pianistin geschult und studierte später Komposition bei Bruno Bettinelli. Der Adler, der sich seine Flugbahn nicht erkämpft, sondern sie sich präzise erarbeitet, bevor er abhebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Disziplin unter der Rockfassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur der Welt, sondern nach innen: auf die eigene Arbeitsdisziplin, die eigene Genauigkeit, die unbestechliche Verlässlichkeit gegenüber sich selbst. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis. Hinter Nanninis öffentlichem Image als raue, ungezähmte Rockröhre steht eine handwerklich außergewöhnlich gründliche Ausbildung: neben der klassischen Konservatoriumsausbildung nahm sie eigens Gesangsunterricht in London, um ihre Stimme technisch zu fundieren, statt sich allein auf natürliches Talent zu verlassen.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich diese innere Strenge, als Nannini 1994, bereits als international gefeierter Rockstar in ihren Vierzigern, an der Universität Siena einen Abschluss in Philosophie erwarb – neben einer durchgehenden Karriere, nicht als Ersatz dafür. Kein Statussymbol, sondern der SE1-typische innere Anspruch, eine begonnene Sache mit derselben Ernsthaftigkeit zu Ende zu bringen, mit der sie ihre Musik betreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rebellion ohne Kampfansage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> fügt der SE1er-Energie eine Qualität hinzu, die im Rockgeschäft selten überlebt: die Fähigkeit, den eigenen Weg zu gehen, ohne dafür lautstark Konflikte zu suchen. Mit neunzehn Jahren verließ Nannini Siena in Richtung Mailand, um dort in Bars und kleinen Clubs aufzutreten – kein spektakulärer Bruch mit der Familie, sondern ein stiller, konsequenter Weggang, der ihr eigenes Leben ermöglichte, ohne die Familie öffentlich zu attackieren.</p>
+          <p class="vb-intro">Dieselbe undramatische Beharrlichkeit trägt ihre über fünfzig Jahre andauernde Karriere: 1976 das erste, kommerziell noch unauffällige Album, 1979 der internationale Durchbruch mit ›America‹ vom Album ›California‹, 1986 der europaweite Hit ›Bello e impossibile‹ – kein einmaliger Ausbruch, sondern eine über Jahrzehnte gleichbleibend disziplinierte Weiterentwicklung. Auch ihr politisches Engagement für Umweltschutz, Frauenrechte und die Rechte von Geflüchteten trägt diese Handschrift: konsequent, aber ohne die konfrontative Schärfe, mit der andere Künstler ihrer Generation auftraten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. ›America‹ und der internationale Durchbruch, 1979</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit ihrem dritten Album ›California‹ und der Single ›America‹ gelang Nannini 1979 der internationale Durchbruch – ein energiegeladener, textlich gewagter Song, der den Nerv der Zeit traf und sie über Italien hinaus bekannt machte. Der Erfolg kam nicht plötzlich: Vor diesem Durchbruch lagen bereits Jahre disziplinierter Bühnenarbeit in Mailänder Clubs und zwei vorangegangene, kommerziell wenig erfolgreiche Alben, die sie nicht aufgab.</p>
+          <p class="vb-intro">Es folgte ein Werk von seltener Kontinuität: ›Fotoromanza‹ (1984), ›I maschi‹ (1987), ›Meravigliosa creatura‹ (1995) und ›Sei nell'anima‹ (2006) – Hits, die über Jahrzehnte hinweg entstanden, nicht als einmalige Erfolgswelle, sondern als das Ergebnis einer beständig weitergeführten, handwerklich fundierten Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Mutter mit sechsundfünfzig: Eine Entscheidung ohne Rechtfertigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im August 2010, im Alter von sechsundfünfzig Jahren, gab Nannini ihre Schwangerschaft öffentlich bekannt – auf dem Cover der ›Vanity Fair‹, in einem T-Shirt mit der Aufschrift ›God is a Woman‹. Der Name des Vaters wurde nie genannt, das Kind war durch eine künstliche Befruchtung entstanden. Am 26. November 2010 kam ihre Tochter Penelope Jane Charlotte in Mailand zur Welt.</p>
+          <p class="vb-intro">Auffällig war nicht nur die Entscheidung selbst, sondern die Art, wie Nannini sie kommunizierte: klar, selbstbewusst, ohne sich für ihre Wahl zu rechtfertigen oder öffentliche Debatten über die Konventionalität ihres Vorgehens zu suchen. Die SE1w9-typische Haltung, eine als richtig erkannte Entscheidung ruhig, aber unverrückbar umzusetzen – kein Kampf gegen die Konvention, sondern ihr einfaches Übergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der stille Umzug für die Gleichstellung, 2017</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2017 zog Nannini mit ihrer Tochter und ihrer Partnerin Carla nach London – nicht aus beruflichen Gründen, sondern weil eine gleichgeschlechtliche Ehe in Italien zu diesem Zeitpunkt rechtlich nicht möglich war (nur eingetragene Lebenspartnerschaften). Statt öffentlich für eine Gesetzesänderung zu kämpfen, wählte sie den pragmatischen, disziplinierten Weg: ein Ortswechsel, der das gewünschte Ergebnis unmittelbar ermöglichte.</p>
+          <p class="vb-intro">Auch hier zeigt sich die charakteristische SE1w9-Lösung: kein lauter öffentlicher Protest, sondern eine klare, folgerichtige Handlung, die das Prinzip – rechtliche Gleichstellung für die eigene Familie – ohne Umweg über gesellschaftliche Auseinandersetzung durchsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist die Fähigkeit, <strong>eigene Prinzipien konsequent zu leben, ohne sie anderen aufzuzwingen</strong> – Nannini hat weder ihre Familie öffentlich attackiert noch für ihre unkonventionellen Lebensentscheidungen um gesellschaftliche Zustimmung geworben. Sie hat sie einfach gelebt, mit derselben Disziplin, mit der sie ihre Musik betreibt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Zurückhaltung, mit der die SE1w9 auch tiefe persönliche Themen behandelt: Über die Beziehung zum Vater ihrer Tochter, über die genauen Umstände ihrer Familiengeschichte sprach Nannini öffentlich kaum – private Angelegenheiten bleiben privat, auch wenn öffentliches Interesse besteht. Das Schicksalsmuster der Eins ist der <strong>Zorn</strong>, der bei der SE1 meist nach innen gerichtet ist – als beständiger, selbst auferlegter Anspruch, jede Entscheidung mit voller Konsequenz zu tragen, ohne sich zu rechtfertigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Der Heilungsweg: Von der stillen Disziplin zur gelebten Freiheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Habe ich alles richtig gemacht?</em> zur Erkenntnis <em>Ich darf mein Leben nach meinen eigenen Maßstäben gestalten.</em> Bei Nannini zeigt sich dieser Weg in der Entwicklung von der jungen Konservatoriumsschülerin, die ihre Rebellion in disziplinierte Ausbildung übersetzte, bis zur Frau, die mit sechsundfünfzig Jahren, ohne sich zu rechtfertigen, ihr eigenes Familienmodell lebte.</p>
+          <p class="vb-intro">Über fünfzig Jahre nach ihrem ersten Album steht Nannini weiterhin auf der Bühne – konsequent, diszipliniert, ohne sich je an ein Image zu binden, das nicht mehr zu ihr passt. Der Adler, der nie laut werben musste, um weit zu tragen, und der bis heute genau dort fliegt, wohin er selbst entschieden hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
       ])}
     </div>
   `);
@@ -7297,128 +7375,6 @@ function drewBarrymorePortraitPage() {
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
         {route:"krankheitsportraets-drew-barrymore", label:"Krankheitsportr\u00e4t: Drew Barrymore (SO7w8) \u2013 Kindheitssucht"},
-      ])}
-    </div>
-  `);
-}
-
-function mileyCyrusPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Miley Cyrus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Miley Cyrus</p>
-        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">S\u00e4ngerin, Songwriterin &amp; Schauspielerin, geb. 1992 in Franklin, Tennessee &ndash; Tierentsprechung: Schimpanse</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Schimpanse</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; lebendig, kontaktsuchend, st\u00e4ndig in Bewegung. Er lernt nicht aus der Distanz, sondern durch direkte Ber\u00fchrung mit dem, was ihn umgibt. Er verwandelt sich, wenn sich sein Umfeld ver\u00e4ndert &ndash; und tut das ohne falsche Scheu, oft mitten vor den Augen aller.</p>
-          <p class="vb-intro">Die US-amerikanische S\u00e4ngerin Miley Cyrus, geboren 1992 in Franklin, Tennessee, als Tochter des Country-S\u00e4ngers Billy Ray Cyrus, ist ein Schimpanse, der \u00f6ffentlich aufgewachsen ist &ndash; vom Disney-Kinderstar zur eigenst\u00e4ndigen K\u00fcnstlerin, vom braven M\u00e4dchen mit blonder Per\u00fccke zur schockierend selbstbewussten Popk\u00fcnstlerin, und weiter zur reflektierten, souver\u00e4nen S\u00e4ngerin, die heute mit \u201eFlowers" ganze Generationen ber\u00fchrt. Jede dieser H\u00e4utungen war laut, sichtbar &ndash; und ehrlich.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sieben: Verwandlung als Lebensform</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensit\u00e4t im unmittelbaren Erleben, nicht im geplanten Fortschritt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Bereitschaft, sich einem Moment, einer Idee, einer Beziehung vollst\u00e4ndig hinzugeben &ndash; und sich dabei selbst neu zu erfinden. Wo andere Menschen an einer Identit\u00e4t festhalten, probiert die SX7 mehrere aus, weil das Neue selbst der Reiz ist.</p>
-          <p class="vb-intro">Kaum eine Popkarriere zeigt das deutlicher als die von Miley Cyrus: Hannah Montana, die zerbrochene \u201eWrecking Ball"-Version ihrer selbst, die knallbunte, hedonistische \u201eBangerz"-\u00c4ra, die introspektive Americana-Phase von \u201eYounger Now", und schlie\u00dflich die geerdete Reife von \u201eEndless Summer Vacation". Jede Phase war real, keine davon eine Rolle. Genau das ist die sexuelle Sieben: Sie spielt nicht Verwandlung &ndash; sie lebt sie.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t als roter Faden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der sexuellen Sieben etwas, das ihr zunächst zu widersprechen scheint: das Bed\u00fcrfnis nach Bindung, nach einem verl\u00e4sslichen Kern, an dem sich alle Verwandlungen festmachen lassen. Wo eine SX7 mit schwächerem Sechserflügel sich treiben lassen könnte, sucht die SX7w6 nach Menschen und Werten, denen sie treu bleiben kann &ndash; auch mitten im permanenten Wandel.</p>
-          <p class="vb-intro">Bei Miley Cyrus zeigt sich das in der engen, lebenslangen Bindung an ihre Familie, insbesondere an ihre Patin Dolly Parton, sowie in ihrem offenen Eintreten f\u00fcr die LGBTQ+-Community \u00fcber all die Jahre hinweg &ndash; eine Loyalit\u00e4t, die sich nie ge\u00e4ndert hat, w\u00e4hrend sich fast alles andere um sie herum ver\u00e4ndert hat. Der Sechserfl\u00fcgel ist der Damm, den der Schimpanse braucht, damit die Verwandlung nicht zur Aufl\u00f6sung wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Vom Kinderstar zur eigenen Stimme</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mit elf Jahren wurde Cyrus als \u201eHannah Montana" zum globalen Disney-Ph\u00e4nomen &ndash; eine Doppelrolle, die buchst\u00e4blich zwei Identit\u00e4ten verlangte: das brave Schulm\u00e4dchen Miley und den strahlenden Popstar Hannah. F\u00fcr eine sexuelle Sieben, deren tiefstes Bed\u00fcrfnis echte, ungefilterte Pr\u00e4senz ist, wurde diese erzwungene Aufspaltung zunehmend unertr\u00e4glich.</p>
-          <p class="vb-intro">2013, mit dem Album \u201eBangerz" und dem Auftritt bei den MTV Video Music Awards, brach sie mit dieser Rolle radikal und \u00f6ffentlich &ndash; ein Bruch, der viel Kritik erntete, aber auch der Moment war, in dem der Schimpanse endlich selbst entscheiden durfte, wer er sein wollte. In den Jahren danach folgte kein weiterer Skandal, sondern eine stetige k\u00fcnstlerische Reifung: von der Provokation zur eigenen, unverwechselbaren Stimme.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX7w6 ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; von der st\u00e4ndigen Suche nach dem n\u00e4chsten Reiz zur F\u00e4higkeit, im eigenen Leben tats\u00e4chlich anzukommen. F\u00fcr die SX7w6 bedeutet das, die eigene Wandlungsf\u00e4higkeit nicht mehr als Flucht vor Bindung zu nutzen, sondern als Ausdruck echter, gereifter Selbstliebe.</p>
-          <p class="vb-intro">\u201eFlowers" (2023), der Song, in dem Cyrus singt, sie k\u00f6nne sich selbst Blumen kaufen, sich selbst an die Hand nehmen und sich selbst besser lieben, als es je ein anderer k\u00f6nnte, ist genau dieser Heilungsschritt in drei Minuten Popmusik. Der Schimpanse, der jahrelang Bindung au\u00dferhalb von sich selbst gesucht hat, findet den verl\u00e4sslichen Kern schlie\u00dflich dort, wo der Sechserfl\u00fcgel ihn die ganze Zeit vermutet hatte: bei sich selbst.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
-        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function inaMuellerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-ina-mueller-portrait.jpg" alt="Ina M\u00fcller" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ina M\u00fcller</p>
-        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">S\u00e4ngerin, Kabarettistin &amp; Moderatorin, geb. 1965 &ndash; Tierentsprechung: Schimpanse</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Schimpanse</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Ina M\u00fcller ist ein Schimpanse durch und durch. Der Schimpanse braucht den Kontakt: direkt, lebendig, unverf\u00e4lscht. Er lernt nicht aus B\u00fcchern, sondern durch Begegnung. Er ist neugierig, energiegeladen, manchmal laut, manchmal zart &ndash; aber immer pr\u00e4sent. Und wenn er lacht, lacht der ganze Wald mit.</p>
-          <p class="vb-intro">Die deutsche Moderatorin Ina M\u00fcller hat mit <em>Inas Nacht</em> ein Format geschaffen, das in der deutschen Fernsehlandschaft einzigartig ist: keine Couch, kein Schreibtisch, keine Distanz. Eine Bar, ein Klavier, ein Gast, ein Gespr\u00e4ch &ndash; und eine Gastgeberin, die wirklich zuh\u00f6rt. Der Schimpanse sitzt nicht gegen\u00fcber. Er sitzt daneben. Und das macht den Unterschied.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t im Moment</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensit\u00e4t &ndash; nicht im gro\u00dfen Spektakel, sondern im echten Kontakt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die F\u00e4higkeit, sich vollst\u00e4ndig auf das einzulassen, was gerade passiert, und andere dabei mitzurei\u00dfen. Die SX7 ist ansteckend. Ihre Begeisterung \u00fcbertr\u00e4gt sich nicht durch \u00dcberzeugung, sondern durch Pr\u00e4senz.</p>
-          <p class="vb-intro">Ina M\u00fcller ist auf der B\u00fchne kein Konzept &ndash; sie ist ein Erlebnis. Ob sie singt, spielt, moderiert oder einfach redet: Man hat das Gef\u00fchl, dass sie genau jetzt genau hier sein will. Das ist die SX7 in ihrer unverfälschtesten Gestalt: nicht Planung, sondern Begegnung. Nicht Karriere, sondern Kontakt. Der Schimpanse will nicht beeindrucken. Er will ber\u00fchren.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Direktheit ohne Umwege</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der sexuellen Sieben etwas, das man bei ihr sofort sp\u00fcrt: Unerschrockenheit. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel weicht die Sieben eher aus, wenn es unangenehm wird. Der Achterfl\u00fcgel h\u00e4lt stand. Er sagt, was er denkt. Er scheut keine Konfrontation &ndash; nicht aus Aggression, sondern aus dem tiefen Vertrauen, dass Wahrheit mehr verbindet als H\u00f6flichkeit.</p>
-          <p class="vb-intro">Ina M\u00fcller stellt unbequeme Fragen &ndash; und macht es so, dass der Gast sich nicht bedr\u00e4ngt f\u00fchlt, sondern gesehen. Das ist das Kunstwerk des Achterfl\u00fcgels in der Sieben: Direktheit, die nicht verletzt, weil sie aus echter Neugier kommt. Der Schimpanse mit Achterfl\u00fcgel greift nach dem anderen nicht um zu rei\u00dfen, sondern um zu halten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei oder auch Ma\u00dflosigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> oder auch <strong>Ma\u00dflosigkeit</strong>: der Hunger nach dem vollen Erleben, nach dem n\u00e4chsten Lachen, dem n\u00e4chsten Lied, dem n\u00e4chsten echten Gespr\u00e4ch. Bei der sexuellen Sieben richtet sich dieser Hunger auf Menschen &ndash; auf die F\u00fclle des Kontakts, auf die Tiefe des Augenblicks. Ina M\u00fcller singt, spielt, moderiert, tourt, schreibt &ndash; und hat dabei immer das Gef\u00fchl ausgedr\u00fcckt, dass sie nicht genug bekommen kann vom Leben.</p>
-          <p class="vb-intro">Das ist kein \u00dcberma\u00df im negativen Sinne. Es ist die SX7w8, die die Welt ganz nehmen will &ndash; und sie ganz gibt. Der Schimpanse greift nach allem, was lebt. Nicht aus Gier. Aus Liebe zum Leben selbst.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: N\u00e4he als Kunst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Ina M\u00fcller dem deutschen Fernsehen &ndash; und der Musik &ndash; gegeben hat, ist eine Qualit\u00e4t, die sich nicht produzieren l\u00e4sst: echte N\u00e4he. <em>Inas Nacht</em> ist kein Format, das man kopieren kann. Es lebt von ihr. Von ihrer Bereitschaft, sich wirklich einzulassen. Von ihrem Mut, auch in der Stille zu bleiben, wenn ein Gast etwas Schweres sagt. Von ihrem Lachen, das nicht gespielt ist.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX7w8: Intensit\u00e4t, die tr\u00e4gt. Ein Schimpanse, der nicht nur spielt &ndash; sondern f\u00fchlt. Ina M\u00fcller hat nie eine Maske gebraucht. Ihr Gesicht ist ihr Programm. Und das ist das Seltenste, was es im Showgesch\u00e4ft gibt.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
-        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);

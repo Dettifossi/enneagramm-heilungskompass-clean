@@ -1,3 +1,126 @@
+function heidiKlumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heidi-klum-portrait.jpg" alt="Heidi Klum – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heidi Klum</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Model, Moderatorin &amp; Unternehmerin, geb. 1973 in Bergisch Gladbach &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz, die sich am liebsten in voller Pracht zeigt. Kaum jemand hat dieses Bild so wörtlich genommen wie Heidi Klum: Auf ihrer legendären Halloween-Party 2023 in New York erschien sie selbst als überlebensgroßer Pfau &ndash; in engem, dunkelblauem Samtanzug, mit Schnabel, aufwendigem Federkleid und kunstvollem Kopfschmuck, für dessen Aufbau zehn Artisten des Cirque du Soleil nötig waren. Ihr damaliger Ehemann Tom Kaulitz trat an ihrer Seite als riesiges Pfauenei auf.</p>
+          <p class="vb-intro">Das deutsche Model Heidi Klum wurde am 1. Juni 1973 in Bergisch Gladbach geboren. 1992 gewann die Achtzehnjährige den Model-92-Wettbewerb gegen 25.000 Mitbewerberinnen und damit einen Vertrag mit einer New Yorker Modelagentur &ndash; der Beginn eines Weges, der sie binnen weniger Jahre auf die Titelseiten von Vogue, Elle und der berühmten Sports-Illustrated-Badeausgabe 1998 führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als gestaltete Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperliche Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Klums langjährige Rolle als eines der bekanntesten Gesichter von Victoria's Secret &ndash; als erstes deutsches Model überhaupt zum „Angel" ernannt &ndash; machte genau diese körperliche Präsenz zum Zentrum ihrer frühen Karriere.</p>
+          <p class="vb-intro">Doch Klum blieb nicht bei der reinen Modelkarriere stehen. Als Jurorin bei <em>America's Got Talent</em>, als Gastgeberin von <em>Germany's Next Topmodel</em> seit 2006 und als Moderatorin von <em>Project Runway</em>, für das sie gemeinsam mit Tim Gunn 2013 einen Emmy gewann, übersetzte sie die eigene Anziehungskraft in dauerhafte mediale Präsenz. Die SX3 zieht an &ndash; und Klum verstand früh, dass diese Anziehung sich in ganz unterschiedliche Formate übertragen lässt, ohne ihre Kraft zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Inszenierung als Kunstform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine Tiefe und ästhetische Individualität, die über reinen Magnetismus hinausgeht: das Bedürfnis, die eigene Wirkung nicht nur zu zeigen, sondern künstlerisch zu gestalten und emotional aufzuladen. Genau darin liegt die Erklärung für Klums seit über zwei Jahrzehnten zelebrierte Halloween-Partys in New York, bei denen sie sich Jahr für Jahr in aufwendigste, oft mehrstündige Verwandlungen begibt &ndash; vom Pfau über einen Wurm bis zu E.T.</p>
+          <p class="vb-intro">Klum selbst, im Rheinland geboren, beschreibt Halloween als ihre persönliche Version des Karnevals: Statt Pappnase und Perücke greift sie auf Spezialeffekte, professionelle Maskenbauer und wochenlange Vorbereitung zurück. Der Viererflügel fragt immer wieder: Wie mache ich aus reiner Sichtbarkeit ein einzigartiges, unverwechselbares Kunstwerk? Bei Klum ist die Antwort jedes Jahr eine neue, aufwendig durchdachte Verwandlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer über Jahrzehnte gepflegten öffentlichen Präsenz heraus ein diverses, künstlerisch anspruchsvolles Lebenswerk zu bauen &ndash; vom Model über die TV-Moderatorin bis zur Unternehmerin mit eigenen Modelinien, Schmuck- und Duftkollektionen. Mit einem geschätzten Vermögen von rund 160 Millionen Dollar zählt Klum zu den kommerziell erfolgreichsten Personen, die aus dem Modelgeschäft hervorgegangen sind.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch ist. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer wieder neu und noch eindrucksvoller zu inszenieren, statt einfach präsent zu sein. Klums permanent im Rampenlicht stehendes Privatleben &ndash; von der Ehe mit Seal bis zur späteren Beziehung mit Tom Kaulitz &ndash; zeigt, wie eng bei der SX3 öffentliche Bühne und persönliches Leben ineinander verwoben sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine über Jahrzehnte gepflegte Verwandlungskunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heidi Klums Karriere lässt sich als fortlaufende Serie von Verwandlungen lesen: vom Nachwuchsmodel aus Bergisch Gladbach zum internationalen Supermodel, von der Laufstegikone zur Fernsehmoderatorin und Jurorin, von der Angestellten großer Modehäuser zur eigenen Marke. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit nicht nur zu erregen, sondern sie in Form zu gießen.</p>
+          <p class="vb-intro">Der Pfau zeigt sein Federkleid nicht aus Notwendigkeit, sondern weil genau darin seine Natur liegt. Heidi Klums Weg vom Model-92-Wettbewerb zur international bekannten Entertainerin und ihre alljährliche Verwandlung in immer neue, aufwendig gestaltete Figuren &ndash; vom Pfau bis zur Medusa &ndash; zeigen genau dieses Muster: Sichtbarkeit, die sich selbst immer wieder neu erfindet, ohne je zu verblassen.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Über die Jahre reicht die Liste dieser Verwandlungen von einer detailgetreuen Jessica Rabbit (2015) über eine mit Prothetik, Metallplatten und heraushängenden Eingeweiden bestückte Alien-Kreatur (2019) und einen überlebensgroßen, glänzenden Wurm (2022) bis zu E. T. (2024), bei dem ihr Gesicht vollständig im Hals der Figur verschwand, und Medusa (2025). Bemerkenswert ist dabei weniger die schiere Menge als die Präzision: Bei der SX3w4 trifft die reine Schaulust der sexuellen Drei auf die künstlerische Tiefe des Viererflügels &ndash; hinter der Oberfläche, die auf den ersten Blick wie reine Eitelkeit wirken könnte, steckt echtes handwerkliches Können und eine spürbare Ernsthaftigkeit in der Umsetzung. Genau diese Kombination aus Selbstdarstellung und echter gestalterischer Tiefe macht Klums Verwandlungen zu mehr als bloßem Kostümwechsel &ndash; sie werden zu eigenständigen, glaubwürdigen Kunstwerken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Ehemann"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Schwager"},
+      ])}
+    </div>
+  `);
+}
+
+function billKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bill-kaulitz-portrait.jpg" alt="Bill Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bill Kaulitz</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Musiker, Model &amp; Designer, geb. 1989 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und verhält sich wie die größte. Er fürchtet nichts, bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Kaum jemand hat diesen Kontrast so konsequent zur eigenen Bühnenfigur gemacht wie Bill Kaulitz: schmal, oft in auffälligstem Make-up und schrillster Garderobe, und dabei nie um eine provokante Aussage verlegen.</p>
+          <p class="vb-intro">Der deutsche Musiker Bill Kaulitz wurde am 1. September 1989 in Leipzig geboren, zehn Minuten nach seinem eineiigen Zwillingsbruder Tom (SE2w3). Als die beiden sechs waren, trennten sich die Eltern; mit sieben kam die Scheidung. In Loitsche bei Magdeburg, wo die Familie danach aufwuchs, war der junge Bill mit ungewöhnlichem Aussehen und ungewöhnlicher Stimme alles andere als unauffällig &ndash; ein früher Ausgangspunkt für ein Leben, das nie leise verlaufen sollte. Auch Tom wird in diesem Kompass in einem eigenen Porträt behandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em> &ndash; die brennende Überzeugung, dass andere haben, was einem selbst verweigert wurde, verbunden mit dem Impuls, sich zu messen, zu übertreffen, aufzufallen. Bill Kaulitz' Stimme war schon als Kind ungewöhnlich hoch und durchdringend &ndash; ein Merkmal, das ihn von Gleichaltrigen unterschied, statt ihn anzugleichen, und das er nie zu verstecken versuchte.</p>
+          <p class="vb-intro">Mit Tokio Hotel und dem Debütalbum <em>Schrei</em> (2005) sowie der Single <em>Durch den Monsun</em>, die es binnen eines Monats auf Platz eins der deutschen Charts schaffte, verwandelte Bill genau diese Andersartigkeit in ein öffentliches Statement statt in ein Versteck. Die SX4 weiß: Halbherzig ist keine Option &ndash; und Bill Kaulitz hat dieses Prinzip über zwei Jahrzehnte konsequent gelebt, von der schwarz-weißen Frontmann-Ästhetik der frühen Bandjahre bis zu den immer wieder neu erfundenen, glitzernden Looks seiner späteren öffentlichen Auftritte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Frontmann zur Mode-Ikone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln, statt in der eigenen Intensität zu versinken. Karl Lagerfeld engagierte Bill Kaulitz bereits vor mehr als zehn Jahren für eine mehrteilige Fotostrecke in der deutschen <em>Vogue</em>, 2010 modelte er für das Label Dsquared2, 2019 gründete er mit „Magdeburg &ndash; Los Angeles" seine eigene Modemarke &ndash; benannt nach genau den beiden Orten, zwischen denen sein Leben sich seither aufspannt.</p>
+          <p class="vb-intro">Auch abseits der Musik zeigt sich dieser Antrieb: 2021 moderierte er die ProSieben-Show <em>Perfect Shot</em>, 2023 gewann er das Finale von Joko Winterscheidts <em>Wer stiehlt mir die Show?</em>. Der Dreierflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild, das niemand übersehen kann? Bei Bill Kaulitz ist die Antwort seit über zwanzig Jahren dieselbe &ndash; nur die Bühne wechselt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, das eigene Anderssein nicht zu verbergen, sondern es so konsequent auszustellen, dass daraus Identität und Wirkung zugleich entstehen. Bill Kaulitz lebt offen queer und äußert sich in Interviews, im gemeinsamen Podcast mit seinem Bruder und in der Öffentlichkeit unverstellt zu seiner Identität &ndash; eine Sichtbarkeit, die für viele junge queere Fans in Deutschland zur Orientierungsfigur wurde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SX4w3 kann dieser Neid zum ständigen Bedürfnis werden, sich sichtbar von anderen abzuheben, statt Ruhe in der eigenen Einzigartigkeit zu finden. Kaulitz' immer wieder neu erfundenes Erscheinungsbild &ndash; von der schwarzen Frontmann-Uniform der Anfangsjahre bis zu den glitzernden, oft androgynen Looks späterer Jahre &ndash; zeigt diese rastlose Suche ebenso wie seine kreative Stärke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Intensität als roter Faden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bill Kaulitz' Karriere lässt sich als eine einzige, fortlaufende Übersetzung innerer Intensität in äußere Form lesen: die durchdringende Stimme, die schon als Kind auffiel, wurde zur Frontmann-Präsenz von Tokio Hotel; das provokante Erscheinungsbild wurde zur eigenen Modemarke; die Offenheit zur eigenen Identität wurde zur öffentlichen Stimme für queere Sichtbarkeit. Gemeinsam mit seinem Zwillingsbruder Tom betreibt er seit 2021 den mit dem Deutschen Podcast Award ausgezeichneten Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em> &ndash; dieselbe enge familiäre Bindung, die auch Toms eigenes Porträt prägt, bleibt bis heute die Konstante hinter aller öffentlichen Verwandlung.</p>
+          <p class="vb-intro">Der Chihuahua ist kein Tier der Masse. Er ist ein Tier der Intensität &ndash; klein, laut, unübersehbar, und darunter empfindlich und bindungsintensiv. Bill Kaulitz' Weg vom auffälligen Kind aus Loitsche zur international sichtbaren Mode- und Musikfigur zeigt genau dieses Muster: Wer sich nicht verstecken kann, findet irgendwann heraus, wie man das Auffallen selbst zur Kunst macht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Zwillingsbruder"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Schwägerin"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function dollyPartonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7150,133 +7273,4 @@ function oshoPortraitPage() {
     </div>
   `);
 }
-
-function wolodymyrSelenskyjPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-wolodymyr-selenskyj-portrait.jpg" alt="Wolodymyr Selenskyj" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel &middot; Kontratyp der Drei</p>
-        <p class="krim-portrait-subtitle">Komiker, Schauspieler, Staatspr\u00e4sident, geb. 1978 &ndash; Der Waschb\u00e4r, der den Helden spielt &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r: Nachtaktiv, geschickt, unsichtbar</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist kein Tier, das man sofort erkennt. Er kommt in der Nacht. Er \u00f6ffnet Schl\u00f6sser, durchw\u00fchlt Vorr\u00e4te, hinterl\u00e4sst Spuren &ndash; aber er ist l\u00e4ngst weg, wenn man ihn sucht. Er wirkt harmlos, fast niedlich. Sein Gesicht tr\u00e4gt von Natur aus eine Maske. Und er ist klug genug, genau das zu wissen.</p>
-          <p class="vb-intro">Der ukrainische Politiker Wolodymyr Selenskyj, geboren 1978 in Krywyj Rih, begann seine Karriere als Comedian und Schauspieler. Er spielte in der Fernsehserie <em>Diener des Volkes</em> einen Lehrer, der zuf\u00e4llig Pr\u00e4sident wird &ndash; und wurde dann tats\u00e4chlich Pr\u00e4sident der Ukraine. Was wie ein M\u00e4rchen klingt, ist im Enneagramm eine Warnung: Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr wei\u00df, wo die Rolle endet und er anf\u00e4ngt. Das ist die Falle der selbsterhaltenden Drei &ndash; und bei Selenskyj ist sie auf der Weltb\u00fchne aufgegangen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SE3: Der Kontratyp der Drei \u2013 der Held, der keiner ist</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der <strong>Kontratyp der Drei</strong> &ndash; der Subtyp, der am wenigsten wie eine Drei wirkt. W\u00e4hrend die soziale und die sexuelle Drei offen nach Bewunderung suchen, verbirgt die selbsterhaltende Drei ihre Inszenierung hinter einem Image der Bescheidenheit, der Bodenst\u00e4ndigkeit, des einfachen Menschen. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Die SE3 will nicht strahlen &ndash; sie will sich sicher f\u00fchlen. Und die sicherste Position ist die, in der niemand merkt, dass man inszeniert.</p>
-          <p class="vb-intro">Selenskyj versteht dieses Prinzip instinktiv. Er tr\u00e4gt Khaki statt Anzug. Er postet Videos aus dem Bunker, nicht aus dem Palast. Er spricht Ukrainisch, obwohl Russisch seine Muttersprache ist. Jede dieser Gesten ist ein meisterhaft gesetzter Pinselstrich &ndash; das Bild des unbeugsamen Volks-Pr\u00e4sidenten, der bei seinem Volk bleibt. Der Waschb\u00e4r mit der Maske l\u00e4chelt. Die Inszenierung sitzt.</p>
-          <p class="vb-intro">Was das Bild nicht zeigt: W\u00e4hrend der Krieg tobt und westliche Hilfsgelder in Milliardenh\u00f6he in die Ukraine flie\u00dfen, dokumentieren investigative Journalisten, internationale Beobachter und die ukrainische Antikorruptionsbeh\u00f6rde NABU systematische Korruption im unmittelbaren Umfeld des Pr\u00e4sidenten &ndash; in Milit\u00e4rbeschaffung, R\u00fcstungsdeals, humanit\u00e4rer Hilfe. Der Waschb\u00e4r ist nachtaktiv. Er durchw\u00fchlt die Vorr\u00e4te, wenn niemand hinschaut.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Hilfe als W\u00e4hrung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der SE3 eine wichtige strategische Qualit\u00e4t: die F\u00e4higkeit, Bed\u00fcrftigkeit zu kommunizieren. Die Zwei gibt &ndash; und braucht im Gegenzug. Sie macht sich unentbehrlich. Bei Selenskyj zeigt sich dieser Fl\u00fcgel in seinen unerm\u00fcdlichen Appellen an die westliche Welt: der einsame Held, das mutige Volk, die existenzielle Bedrohung. Diese Appelle sind emotional pr\u00e4zise kalkuliert &ndash; sie aktivieren den Zwei-Impuls der Empf\u00e4nger: <em>Wir m\u00fcssen helfen. Er braucht uns.</em></p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel macht Selenskyj zur tragischen Figur, zum Empf\u00e4nger weltweiter Sympathie &ndash; und gleichzeitig zum effektivsten Fundraiser der modernen Geopolitik. Hunderte Milliarden Dollar westlicher Milit\u00e4r- und Finanzhilfe hat die Ukraine seit 2022 erhalten. Die SE3w2 ist gut darin, Ressourcen zu sichern. Das ist ihr Grundprinzip: Sicherheit durch Ressourcen &ndash; und Ressourcen durch Beziehungen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das unbewusste Muster: Die Rolle wird zur Person</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Gef\u00e4hrlichste an der selbsterhaltenden Drei ist nicht die L\u00fcge &ndash; es ist die Selbstt\u00e4uschung. Die SE3 beginnt irgendwann wirklich zu glauben, was sie darstellt. Der Schauspieler, der lange genug den Helden spielt, f\u00fchlt sich irgendwann als Held. Das Bewusstsein daf\u00fcr, dass man inszeniert, schwindet. Was bleibt, ist das Bild &ndash; und ein Mensch, der das Bild f\u00fcr sein Inneres h\u00e4lt.</p>
-          <p class="vb-intro">Bei Selenskyj zeigt sich das in einer Reihe von Entscheidungen, die schwer mit dem Bild des demokratischen Volkshelden vereinbar sind: die Aussetzung von Wahlen, das Verbot von Oppositionsparteien, die Inhaftierung politischer Kritiker, die Einschr\u00e4nkung von Medienfreiheit. Ein Mensch, der wirklich f\u00fcr Freiheit k\u00e4mpft, schr\u00e4nkt Freiheit nicht ein &ndash; es sei denn, er hat aufgeh\u00f6rt, den Unterschied zu sehen. Das ist keine b\u00f6swillige Strategie. Das ist das tiefe Schlafmuster der SE3: <em>Was ich tue, ist richtig &ndash; weil ich es bin, der es tut.</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Der Waschb\u00e4r in der Welt\u00f6ffentlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Selenskyjs energetische Wirkung ist bemerkenswert pr\u00e4zise: Er ist warm, aber nicht \u00fcberw\u00e4ltigend. Entschlossen, aber nicht aggressiv. Verletzlich genug, um Mitleid zu erzeugen &ndash; stark genug, um Bewunderung zu verdienen. Das ist keine Fügung. Das ist die SE3w2 in ihrer vollen Kompetenz: ein Mensch, der intuitiv wei\u00df, welche Energie er aussenden muss, um das gew\u00fcnschte Ergebnis zu erzielen.</p>
-          <p class="vb-intro">Der Waschb\u00e4r ist kein b\u00f6sartiges Tier. Er sucht nicht Zerst\u00f6rung &ndash; er sucht Nahrung, Sicherheit, \u00dcberleben. Und er ist dabei au\u00dferordentlich erfolgreich. Das Problem ist nicht seine Intelligenz &ndash; das Problem ist, was er hinterl\u00e4sst: einen durchw\u00fchlten Vorrat, ein ersch\u00f6pftes Land, ein westliches B\u00fcndnis, das sich fragt, wo die Milliarden hingeflossen sind. Der Waschb\u00e4r hat l\u00e4ngst das n\u00e4chste Dach gefunden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Schatten-Geschenk: Was m\u00f6glich w\u00e4re</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Es w\u00e4re unvollst\u00e4ndig, bei der Kritik stehen zu bleiben. Die selbsterhaltende Drei tr\u00e4gt ein echtes Geschenk in sich &ndash; wenn sie erwacht. Die SE3 kann anpassen, vermitteln, Br\u00fccken bauen. Sie kann aus einer hoffnungslosen Situation das Beste machen, weil sie instinktiv versteht, was gebraucht wird. Ein bewusster SE3w2 k\u00f6nnte ein au\u00dfergew\u00f6hnlicher Staatsmann sein &ndash; nicht trotz seiner F\u00e4higkeit zur Inszenierung, sondern wegen ihr: wenn die Inszenierung dem Wohl des Volkes dient statt der eigenen Ressourcensicherung.</p>
-          <p class="vb-intro">Der Waschb\u00e4r, der erwacht, muss nicht aufh\u00f6ren, klug zu sein. Er muss aufh\u00f6ren, nachts vorbeizukommen, um alle Ressourcen zu pl\u00fcndern. Er muss lernen, im Licht zu handeln &ndash; sichtbar, rechenschaftspflichtig, ehrlich. Ob Selenskyj diesen Schritt je geht, bleibt offen. Die SE3w2 auf ihrer h\u00f6chsten Ausdrucksstufe braucht keinen Schutz durch T\u00e4uschung mehr. Sie vertraut darauf, dass das Echte genug ist.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalfall: Pablo Escobar (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function sadhguruPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Sadhguru</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Yogi, Guru &amp; Bestsellerautor, geb. 1957 &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und es ist ein Tier, das auf Anhieb unscheinbar wirkt. Kein L\u00f6we, der br\u00fcllt. Kein Pfau, der gl\u00e4nzt. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske &ndash; nicht aus T\u00e4uschungsabsicht, sondern weil Anpassungsf\u00e4higkeit und stille Geschicklichkeit sein Wesen sind. Er findet, was er braucht. Er nutzt, was da ist. Er \u00fcbersieht nichts.</p>
-          <p class="vb-intro">Sadhguru (b\u00fcrgerlicher Name: Jaggi Vasudev) k\u00f6nnte man f\u00fcr einen einfachen Mann halten: Motorradfahrer, Yogalehrer, barfu\u00df auf der B\u00fchne. Kein Thronsaal, kein Ornat, keine g\u00f6ttliche Entr\u00fcckung. Und doch hat dieser Mann die Isha Foundation aufgebaut &ndash; eine der gr\u00f6\u00dften yogischen Institutionen weltweit, mit \u00fcber neun Millionen Freiwilligen. Der Waschb\u00e4r macht aus dem Wenigen viel &ndash; leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze W\u00fcste bepflanzt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Stille Leistung statt Rampenlicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der sogenannte Kontratyp der Drei: Claudio Naranjo beschreibt ihn als denjenigen, der am wenigsten wie eine Drei aussieht. W\u00e4hrend die soziale Drei auf B\u00fchnen strahlt und die sexuelle Drei durch Charisma bezaubert, richtet die SE3 ihre Energie auf etwas Bodenst\u00e4ndigeres: auf Kompetenz, Sicherheit, Aufbau. Kein Glanz um seiner selbst willen &ndash; nur Effizienz im Dienst eines Ziels.</p>
-          <p class="vb-intro">Bei Sadhguru zeigt sich das in der enormen Produktivit\u00e4t ohne Eitelkeit &ndash; oder zumindest ohne sichtbare Eitelkeit. Er schreibt B\u00fccher (<em>Inner Engineering</em> stand auf der New-York-Times-Bestsellerliste), h\u00e4lt Vortr\u00e4ge auf dem Weltwirtschaftsforum in Davos, leitet \u00f6kologische Gro\u00dfprojekte wie &bdquo;Save Soil&ldquo; und &bdquo;Project GreenHands&ldquo;, ber\u00e4t Regierungen, reist t\u00e4glich durch die Welt &ndash; und tritt dabei auf wie jemand, der gerade vom Feld kommt. Die SE3 investiert in Wirksamkeit, nicht in Image. Das Image entsteht als Nebenprodukt.</p>
-          <p class="vb-intro">Der selbsterhaltende Instinkt gibt der Drei eine Richtung: nicht nach oben, nicht ins Licht, sondern in die Tiefe des Aufbaus. Strukturen, Institutionen, Systeme &ndash; das sind die Gef\u00e4\u00dfe, in die die SE3 ihre Energie gie\u00dft. Sadhgurus Werk ist weniger ein spiritueller Auftritt als ein Lebensunternehmen. Das ist Waschb\u00e4r-Energie in ihrer produktivsten Form.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Geben als Antrieb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der selbsterhaltenden Drei eine wichtige Dimension: den echten Impuls zur Verbindung, zur Unterst\u00fctzung, zum Geben. Eine SE3 mit schwach ausgeprägtem Zweierflügel könnte sich in Aufbau und Effizienz erschöpfen – immer funktional, immer produktiv, aber ohne das Feuer der persönlichen Zugewandtheit. Ein stark ausgeprägter Zweierflügel entzündet dieses Feuer. Er sagt: <em>Es geht nicht nur darum, etwas zu leisten. Es geht darum, dass Menschen davon ber\u00fchrt werden.</em></p>
-          <p class="vb-intro">Bei Sadhguru ist der Zweierfl\u00fcgel in seiner Unterrichtsweise un\u00fcbersehbar. Er ist kein k\u00fchler Systemdenker &ndash; er ist ein Lehrer, der Menschen anschaut, ihre Fragen ernst nimmt, mit ihnen lacht. Seine Vortr\u00e4ge sind gespickt mit Humor, mit Geschichten, mit dem direkten Kontakt zum Publikum. Die SE3w2 will nicht nur bauen &ndash; sie will, dass es die Menschen weiterbringt. Das Geben ist kein Mittel, es ist Teil des Antriebs.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel erkl\u00e4rt auch Sadhgurus F\u00e4higkeit zur Massenmobilisierung: Neun Millionen Freiwillige folgen nicht einer Effizienzmaschine &ndash; sie folgen jemandem, der ihnen das Gef\u00fchl gibt, gesehen und gebraucht zu werden. Das ist die Zwei, die die Drei tr\u00e4gt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3 ist ihre F\u00e4higkeit, spirituelle Vision in greifbare Wirklichkeit zu verwandeln. Viele Mystiker hinterlassen Worte. Sadhguru hinterl\u00e4sst Institutionen, B\u00e4ume, Gesetze, B\u00fccher, Podcasts, ein Yoga-Zentrum in Tennessee und ein Lehrprogramm, das in 300 St\u00e4dten l\u00e4uft. Das ist die SE3 als Kraft der Manifestation: Ideen bekommen K\u00f6rper.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; nicht notwendigerweise bewusste L\u00fcge, sondern das tiefe Bed\u00fcrfnis, als kompetent, wertvoll und wirkungsvoll zu erscheinen. Bei der SE3 \u00e4u\u00dfert sich das subtil: Die Maske der Bescheidenheit kann selbst zu einer Form der Inszenierung werden. &bdquo;Ich brauche kein Rampenlicht&ldquo; kann &ndash; wenn man genau hinschaut &ndash; eine sehr wirkungsvolle B\u00fchne sein. Kritiker Sadhgurus haben genau dieses Spannungsfeld benannt: zwischen aufrichtigem Dienst und meisterhaft inszenierter Einfachheit.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel bringt sein eigenes Schattenmuster: das Bed\u00fcrfnis, gebraucht zu werden, kann sich mit der SE3-Effizienz verbinden zu einer Dynamik, in der &bdquo;helfen&ldquo; und &bdquo;kontrollieren&ldquo; kaum zu unterscheiden sind. Wer das System ist, durch das alle flie\u00dfen, hat Macht &ndash; auch wenn er Dienst sagt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: Vom Wirken zum Sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> F\u00fcr die SE3 bedeutet das einen besonders paradoxen Schritt: die eigene Kompetenz loszulassen als Grundlage des Selbstwerts. Nicht mehr zu wissen, was zu tun ist &ndash; und trotzdem zu vertrauen, dass man gut ist.</p>
-          <p class="vb-intro">Sadhguru lehrt genau das &ndash; und das ist vielleicht das Interessanteste an ihm: Er unterrichtet das, was seine eigene tiefste Aufgabe ist. <em>Inner Engineering</em> ist kein Buch \u00fcber \u00e4u\u00dfere Effizienz. Es ist ein Buch dar\u00fcber, wie man aufh\u00f6rt, das Innenleben als Projekt zu behandeln. Der Waschb\u00e4r, der gelernt hat, die Maske auch vor sich selbst abzunehmen, findet darunter nicht Leere &ndash; sondern Stille. Und aus dieser Stille heraus entsteht ein Wirken, das nicht mehr beweisen muss.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
-        {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
-      ])}
-    </div>
-  `);
-}
-
 

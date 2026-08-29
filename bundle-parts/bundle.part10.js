@@ -1,3 +1,132 @@
+function wolodymyrSelenskyjPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolodymyr-selenskyj-portrait.jpg" alt="Wolodymyr Selenskyj" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolodymyr Selenskyj</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-subtitle">Komiker, Schauspieler, Staatspr\u00e4sident, geb. 1978 &ndash; Der Waschb\u00e4r, der den Helden spielt &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r: Nachtaktiv, geschickt, unsichtbar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist kein Tier, das man sofort erkennt. Er kommt in der Nacht. Er \u00f6ffnet Schl\u00f6sser, durchw\u00fchlt Vorr\u00e4te, hinterl\u00e4sst Spuren &ndash; aber er ist l\u00e4ngst weg, wenn man ihn sucht. Er wirkt harmlos, fast niedlich. Sein Gesicht tr\u00e4gt von Natur aus eine Maske. Und er ist klug genug, genau das zu wissen.</p>
+          <p class="vb-intro">Der ukrainische Politiker Wolodymyr Selenskyj, geboren 1978 in Krywyj Rih, begann seine Karriere als Comedian und Schauspieler. Er spielte in der Fernsehserie <em>Diener des Volkes</em> einen Lehrer, der zuf\u00e4llig Pr\u00e4sident wird &ndash; und wurde dann tats\u00e4chlich Pr\u00e4sident der Ukraine. Was wie ein M\u00e4rchen klingt, ist im Enneagramm eine Warnung: Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr wei\u00df, wo die Rolle endet und er anf\u00e4ngt. Das ist die Falle der selbsterhaltenden Drei &ndash; und bei Selenskyj ist sie auf der Weltb\u00fchne aufgegangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SE3: Der Kontratyp der Drei \u2013 der Held, der keiner ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der <strong>Kontratyp der Drei</strong> &ndash; der Subtyp, der am wenigsten wie eine Drei wirkt. W\u00e4hrend die soziale und die sexuelle Drei offen nach Bewunderung suchen, verbirgt die selbsterhaltende Drei ihre Inszenierung hinter einem Image der Bescheidenheit, der Bodenst\u00e4ndigkeit, des einfachen Menschen. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Die SE3 will nicht strahlen &ndash; sie will sich sicher f\u00fchlen. Und die sicherste Position ist die, in der niemand merkt, dass man inszeniert.</p>
+          <p class="vb-intro">Selenskyj versteht dieses Prinzip instinktiv. Er tr\u00e4gt Khaki statt Anzug. Er postet Videos aus dem Bunker, nicht aus dem Palast. Er spricht Ukrainisch, obwohl Russisch seine Muttersprache ist. Jede dieser Gesten ist ein meisterhaft gesetzter Pinselstrich &ndash; das Bild des unbeugsamen Volks-Pr\u00e4sidenten, der bei seinem Volk bleibt. Der Waschb\u00e4r mit der Maske l\u00e4chelt. Die Inszenierung sitzt.</p>
+          <p class="vb-intro">Was das Bild nicht zeigt: W\u00e4hrend der Krieg tobt und westliche Hilfsgelder in Milliardenh\u00f6he in die Ukraine flie\u00dfen, dokumentieren investigative Journalisten, internationale Beobachter und die ukrainische Antikorruptionsbeh\u00f6rde NABU systematische Korruption im unmittelbaren Umfeld des Pr\u00e4sidenten &ndash; in Milit\u00e4rbeschaffung, R\u00fcstungsdeals, humanit\u00e4rer Hilfe. Der Waschb\u00e4r ist nachtaktiv. Er durchw\u00fchlt die Vorr\u00e4te, wenn niemand hinschaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Hilfe als W\u00e4hrung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der SE3 eine wichtige strategische Qualit\u00e4t: die F\u00e4higkeit, Bed\u00fcrftigkeit zu kommunizieren. Die Zwei gibt &ndash; und braucht im Gegenzug. Sie macht sich unentbehrlich. Bei Selenskyj zeigt sich dieser Fl\u00fcgel in seinen unerm\u00fcdlichen Appellen an die westliche Welt: der einsame Held, das mutige Volk, die existenzielle Bedrohung. Diese Appelle sind emotional pr\u00e4zise kalkuliert &ndash; sie aktivieren den Zwei-Impuls der Empf\u00e4nger: <em>Wir m\u00fcssen helfen. Er braucht uns.</em></p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel macht Selenskyj zur tragischen Figur, zum Empf\u00e4nger weltweiter Sympathie &ndash; und gleichzeitig zum effektivsten Fundraiser der modernen Geopolitik. Hunderte Milliarden Dollar westlicher Milit\u00e4r- und Finanzhilfe hat die Ukraine seit 2022 erhalten. Die SE3w2 ist gut darin, Ressourcen zu sichern. Das ist ihr Grundprinzip: Sicherheit durch Ressourcen &ndash; und Ressourcen durch Beziehungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das unbewusste Muster: Die Rolle wird zur Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Gef\u00e4hrlichste an der selbsterhaltenden Drei ist nicht die L\u00fcge &ndash; es ist die Selbstt\u00e4uschung. Die SE3 beginnt irgendwann wirklich zu glauben, was sie darstellt. Der Schauspieler, der lange genug den Helden spielt, f\u00fchlt sich irgendwann als Held. Das Bewusstsein daf\u00fcr, dass man inszeniert, schwindet. Was bleibt, ist das Bild &ndash; und ein Mensch, der das Bild f\u00fcr sein Inneres h\u00e4lt.</p>
+          <p class="vb-intro">Bei Selenskyj zeigt sich das in einer Reihe von Entscheidungen, die schwer mit dem Bild des demokratischen Volkshelden vereinbar sind: die Aussetzung von Wahlen, das Verbot von Oppositionsparteien, die Inhaftierung politischer Kritiker, die Einschr\u00e4nkung von Medienfreiheit. Ein Mensch, der wirklich f\u00fcr Freiheit k\u00e4mpft, schr\u00e4nkt Freiheit nicht ein &ndash; es sei denn, er hat aufgeh\u00f6rt, den Unterschied zu sehen. Das ist keine b\u00f6swillige Strategie. Das ist das tiefe Schlafmuster der SE3: <em>Was ich tue, ist richtig &ndash; weil ich es bin, der es tut.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Der Waschb\u00e4r in der Welt\u00f6ffentlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Selenskyjs energetische Wirkung ist bemerkenswert pr\u00e4zise: Er ist warm, aber nicht \u00fcberw\u00e4ltigend. Entschlossen, aber nicht aggressiv. Verletzlich genug, um Mitleid zu erzeugen &ndash; stark genug, um Bewunderung zu verdienen. Das ist keine Fügung. Das ist die SE3w2 in ihrer vollen Kompetenz: ein Mensch, der intuitiv wei\u00df, welche Energie er aussenden muss, um das gew\u00fcnschte Ergebnis zu erzielen.</p>
+          <p class="vb-intro">Der Waschb\u00e4r ist kein b\u00f6sartiges Tier. Er sucht nicht Zerst\u00f6rung &ndash; er sucht Nahrung, Sicherheit, \u00dcberleben. Und er ist dabei au\u00dferordentlich erfolgreich. Das Problem ist nicht seine Intelligenz &ndash; das Problem ist, was er hinterl\u00e4sst: einen durchw\u00fchlten Vorrat, ein ersch\u00f6pftes Land, ein westliches B\u00fcndnis, das sich fragt, wo die Milliarden hingeflossen sind. Der Waschb\u00e4r hat l\u00e4ngst das n\u00e4chste Dach gefunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Schatten-Geschenk: Was m\u00f6glich w\u00e4re</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es w\u00e4re unvollst\u00e4ndig, bei der Kritik stehen zu bleiben. Die selbsterhaltende Drei tr\u00e4gt ein echtes Geschenk in sich &ndash; wenn sie erwacht. Die SE3 kann anpassen, vermitteln, Br\u00fccken bauen. Sie kann aus einer hoffnungslosen Situation das Beste machen, weil sie instinktiv versteht, was gebraucht wird. Ein bewusster SE3w2 k\u00f6nnte ein au\u00dfergew\u00f6hnlicher Staatsmann sein &ndash; nicht trotz seiner F\u00e4higkeit zur Inszenierung, sondern wegen ihr: wenn die Inszenierung dem Wohl des Volkes dient statt der eigenen Ressourcensicherung.</p>
+          <p class="vb-intro">Der Waschb\u00e4r, der erwacht, muss nicht aufh\u00f6ren, klug zu sein. Er muss aufh\u00f6ren, nachts vorbeizukommen, um alle Ressourcen zu pl\u00fcndern. Er muss lernen, im Licht zu handeln &ndash; sichtbar, rechenschaftspflichtig, ehrlich. Ob Selenskyj diesen Schritt je geht, bleibt offen. Die SE3w2 auf ihrer h\u00f6chsten Ausdrucksstufe braucht keinen Schutz durch T\u00e4uschung mehr. Sie vertraut darauf, dass das Echte genug ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se3", label:"SE3 &ndash; Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalfall: Pablo Escobar (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function sadhguruPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sadhguru</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Yogi, Guru &amp; Bestsellerautor, geb. 1957 &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und es ist ein Tier, das auf Anhieb unscheinbar wirkt. Kein L\u00f6we, der br\u00fcllt. Kein Pfau, der gl\u00e4nzt. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske &ndash; nicht aus T\u00e4uschungsabsicht, sondern weil Anpassungsf\u00e4higkeit und stille Geschicklichkeit sein Wesen sind. Er findet, was er braucht. Er nutzt, was da ist. Er \u00fcbersieht nichts.</p>
+          <p class="vb-intro">Sadhguru (b\u00fcrgerlicher Name: Jaggi Vasudev) k\u00f6nnte man f\u00fcr einen einfachen Mann halten: Motorradfahrer, Yogalehrer, barfu\u00df auf der B\u00fchne. Kein Thronsaal, kein Ornat, keine g\u00f6ttliche Entr\u00fcckung. Und doch hat dieser Mann die Isha Foundation aufgebaut &ndash; eine der gr\u00f6\u00dften yogischen Institutionen weltweit, mit \u00fcber neun Millionen Freiwilligen. Der Waschb\u00e4r macht aus dem Wenigen viel &ndash; leise, effizient, ohne Aufhebens. Und dann schaut man hin, und er hat die ganze W\u00fcste bepflanzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Stille Leistung statt Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der sogenannte Kontratyp der Drei: Claudio Naranjo beschreibt ihn als denjenigen, der am wenigsten wie eine Drei aussieht. W\u00e4hrend die soziale Drei auf B\u00fchnen strahlt und die sexuelle Drei durch Charisma bezaubert, richtet die SE3 ihre Energie auf etwas Bodenst\u00e4ndigeres: auf Kompetenz, Sicherheit, Aufbau. Kein Glanz um seiner selbst willen &ndash; nur Effizienz im Dienst eines Ziels.</p>
+          <p class="vb-intro">Bei Sadhguru zeigt sich das in der enormen Produktivit\u00e4t ohne Eitelkeit &ndash; oder zumindest ohne sichtbare Eitelkeit. Er schreibt B\u00fccher (<em>Inner Engineering</em> stand auf der New-York-Times-Bestsellerliste), h\u00e4lt Vortr\u00e4ge auf dem Weltwirtschaftsforum in Davos, leitet \u00f6kologische Gro\u00dfprojekte wie &bdquo;Save Soil&ldquo; und &bdquo;Project GreenHands&ldquo;, ber\u00e4t Regierungen, reist t\u00e4glich durch die Welt &ndash; und tritt dabei auf wie jemand, der gerade vom Feld kommt. Die SE3 investiert in Wirksamkeit, nicht in Image. Das Image entsteht als Nebenprodukt.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt gibt der Drei eine Richtung: nicht nach oben, nicht ins Licht, sondern in die Tiefe des Aufbaus. Strukturen, Institutionen, Systeme &ndash; das sind die Gef\u00e4\u00dfe, in die die SE3 ihre Energie gie\u00dft. Sadhgurus Werk ist weniger ein spiritueller Auftritt als ein Lebensunternehmen. Das ist Waschb\u00e4r-Energie in ihrer produktivsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Geben als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht der selbsterhaltenden Drei eine wichtige Dimension: den echten Impuls zur Verbindung, zur Unterst\u00fctzung, zum Geben. Eine SE3 mit schwach ausgeprägtem Zweierflügel könnte sich in Aufbau und Effizienz erschöpfen – immer funktional, immer produktiv, aber ohne das Feuer der persönlichen Zugewandtheit. Ein stark ausgeprägter Zweierflügel entzündet dieses Feuer. Er sagt: <em>Es geht nicht nur darum, etwas zu leisten. Es geht darum, dass Menschen davon ber\u00fchrt werden.</em></p>
+          <p class="vb-intro">Bei Sadhguru ist der Zweierfl\u00fcgel in seiner Unterrichtsweise un\u00fcbersehbar. Er ist kein k\u00fchler Systemdenker &ndash; er ist ein Lehrer, der Menschen anschaut, ihre Fragen ernst nimmt, mit ihnen lacht. Seine Vortr\u00e4ge sind gespickt mit Humor, mit Geschichten, mit dem direkten Kontakt zum Publikum. Die SE3w2 will nicht nur bauen &ndash; sie will, dass es die Menschen weiterbringt. Das Geben ist kein Mittel, es ist Teil des Antriebs.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel erkl\u00e4rt auch Sadhgurus F\u00e4higkeit zur Massenmobilisierung: Neun Millionen Freiwillige folgen nicht einer Effizienzmaschine &ndash; sie folgen jemandem, der ihnen das Gef\u00fchl gibt, gesehen und gebraucht zu werden. Das ist die Zwei, die die Drei tr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre F\u00e4higkeit, spirituelle Vision in greifbare Wirklichkeit zu verwandeln. Viele Mystiker hinterlassen Worte. Sadhguru hinterl\u00e4sst Institutionen, B\u00e4ume, Gesetze, B\u00fccher, Podcasts, ein Yoga-Zentrum in Tennessee und ein Lehrprogramm, das in 300 St\u00e4dten l\u00e4uft. Das ist die SE3 als Kraft der Manifestation: Ideen bekommen K\u00f6rper.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; nicht notwendigerweise bewusste L\u00fcge, sondern das tiefe Bed\u00fcrfnis, als kompetent, wertvoll und wirkungsvoll zu erscheinen. Bei der SE3 \u00e4u\u00dfert sich das subtil: Die Maske der Bescheidenheit kann selbst zu einer Form der Inszenierung werden. &bdquo;Ich brauche kein Rampenlicht&ldquo; kann &ndash; wenn man genau hinschaut &ndash; eine sehr wirkungsvolle B\u00fchne sein. Kritiker Sadhgurus haben genau dieses Spannungsfeld benannt: zwischen aufrichtigem Dienst und meisterhaft inszenierter Einfachheit.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel bringt sein eigenes Schattenmuster: das Bed\u00fcrfnis, gebraucht zu werden, kann sich mit der SE3-Effizienz verbinden zu einer Dynamik, in der &bdquo;helfen&ldquo; und &bdquo;kontrollieren&ldquo; kaum zu unterscheiden sind. Wer das System ist, durch das alle flie\u00dfen, hat Macht &ndash; auch wenn er Dienst sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Wirken zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> F\u00fcr die SE3 bedeutet das einen besonders paradoxen Schritt: die eigene Kompetenz loszulassen als Grundlage des Selbstwerts. Nicht mehr zu wissen, was zu tun ist &ndash; und trotzdem zu vertrauen, dass man gut ist.</p>
+          <p class="vb-intro">Sadhguru lehrt genau das &ndash; und das ist vielleicht das Interessanteste an ihm: Er unterrichtet das, was seine eigene tiefste Aufgabe ist. <em>Inner Engineering</em> ist kein Buch \u00fcber \u00e4u\u00dfere Effizienz. Es ist ein Buch dar\u00fcber, wie man aufh\u00f6rt, das Innenleben als Projekt zu behandeln. Der Waschb\u00e4r, der gelernt hat, die Maske auch vor sich selbst abzunehmen, findet darunter nicht Leere &ndash; sondern Stille. Und aus dieser Stille heraus entsteht ein Wirken, das nicht mehr beweisen muss.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
+        {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
+      ])}
+    </div>
+  `);
+}
+
+
 function josephHaydnPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11239,198 +11368,6 @@ function davidHumeKrankheitsportraetPage() {
         {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
         {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
-      ])}
-    </div>
-  `);
-}
-
-function johannesBrahmsKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johannes Brahms</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1833–1897</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Elefant</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Johannes Brahms</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-johannes-brahms">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine jahrzehntelange
-        Treue zur Familie Schumann. Diese Seite vertieft ein Kapitel, das dort nur angedeutet
-        wird: eine Leberkrankung, an der bereits sein Vater gestorben war, und die Brahms selbst
-        nur elf Monate nach dem Tod seiner engsten Freundin Clara Schumann dahinraffte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Brahms</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Appetit</em>: Frieden im Vertrauten, in der
-        immer gleichen Gewohnheit. Der Achterflügel gibt dieser Gelassenheit eine unerschütterliche
-        Standfestigkeit. Genau dieses Muster – Beharren im Gewohnten, bis eine äußere
-        Erschütterung es aufbricht – lässt sich bis in seinen Krankheitsverlauf
-        nachverfolgen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Die erschöpfende Reise zu Clara Schumanns Beerdigung:</strong>
-        Als Clara Schumann im Mai 1896 starb, verpasste der bereits selbst gesundheitlich
-        angeschlagene Brahms auf der überstürzten Reise nach Bonn mehrere Zuganschlüsse und
-        musste Teile der Strecke im falschen Zug zurücklegen – er traf erschöpft und zu spät
-        zur Beisetzung ein.</p>
-        <p class="vb-intro"><strong>b) Sichtbare Gelbfärbung kurz danach:</strong>
-        Noch im selben Sommer bemerkten Freunde eine ungewohnte Gelbfärbung seiner Haut und eine
-        zunehmende Erschöpfung, die Brahms zunächst herunterspielte.</p>
-        <p class="vb-intro"><strong>c) Eine Diagnose, die an den eigenen Vater erinnerte:</strong>
-        Ende 1896 oder Anfang 1897 wurde bei Brahms eine schwere Lebererkrankung
-        festgestellt – dieselbe Krankheit, an der bereits sein Vater Johann Jakob Brahms
-        gestorben war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Kein Rückzug von öffentlichen Verpflichtungen:</strong>
-        Trotz der Diagnose zog sich Brahms nicht aus dem öffentlichen Leben zurück, sondern
-        nahm weiterhin an Konzerten teil, solange es seine Kräfte zuließen.</p>
-        <p class="vb-intro"><strong>b) Zunehmender, kaum thematisierter Verfall:</strong>
-        Sein engster Kreis bemerkte den fortschreitenden Gewichtsverlust und die wachsende
-        Erschöpfung – Brahms selbst sprach kaum darüber, ganz in der Art der selbsterhaltenden
-        Neun, die Beschwerlichkeiten eher aussitzt als bespricht.</p>
-        <p class="vb-intro"><strong>c) Festhalten an den vertrauten Ritualen, solange es ging:</strong>
-        Auch in den letzten Monaten hielt Brahms an seinem gewohnten Rhythmus – Stammlokale,
-        Zigarre, feste Tagesabläufe – fest, so lange es seine schwindende Kraft eben zuließ.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der letzte öffentliche Auftritt am 7. März 1897:</strong>
-        Brahms besuchte in Wien eine Aufführung seiner 4. Sinfonie, sichtbar geschwächt und
-        kaum noch in der Lage, die Treppen zu seiner Loge zu steigen. Das Publikum bereitete
-        ihm eine lang anhaltende, tief bewegte Ovation nach jedem Satz – viele im Saal weinten,
-        weil allen klar war, dass sie ihn zum letzten Mal sahen.</p>
-        <p class="vb-intro"><strong>b) Bemerkenswerte Fassung angesichts des nahen Todes:</strong>
-        Freunde und Weggefährten berichteten übereinstimmend von einer stillen Gelassenheit,
-        mit der Brahms sein eigenes Sterben in den letzten Wochen hinnahm.</p>
-        <p class="vb-intro"><strong>c) Tod am 3. April 1897 in Wien:</strong>
-        Johannes Brahms starb im Alter von 63 Jahren – nur elf Monate nach Clara Schumann, deren
-        Verlust seinen eigenen körperlichen Verfall mit beschleunigt haben dürfte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: David Hume</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch <a href="javascript:void(0)" data-route="beruehmte-david-hume">David Hume</a>
-        (SE9w8) begegnete seiner tödlichen Krankheit – in seinem Fall einer chronischen
-        Darmerkrankung – mit bemerkenswerter Gelassenheit statt Kampf oder Verzweiflung. Sein
-        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">eigenes
-        Krankheitsporträt</a> zeigt dieselbe elefantenhafte Ruhe wie bei Brahms: Der
-        Achterflügel gibt der selbsterhaltenden Neun eine Standfestigkeit, die auch dem eigenen
-        Tod ohne Ausweichen begegnen kann – kein dramatischer Kampf, sondern ein stilles
-        Weitertragen des Gewohnten bis zuletzt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Tod, der einem anderen Tod unmittelbar folgte:</strong>
-        Dass Brahms nur elf Monate nach Clara Schumann starb, wurde von Zeitgenossen und
-        Nachwelt gleichermaßen als kaum zufällige Fügung gedeutet – vierzig Jahre Treue endeten
-        beinahe gleichzeitig auf beiden Seiten.</p>
-        <p class="vb-intro"><strong>b) Eine Ovation, die zum Abschied wurde:</strong>
-        Die Ovation nach seiner 4. Sinfonie im März 1897 gilt bis heute als einer der
-        bewegendsten Momente der Konzertgeschichte – ein Publikum, das seinem sterbenden
-        Komponisten noch einmal seine Anerkennung entgegenbrachte.</p>
-        <p class="vb-intro"><strong>c) Ein stilles Ende ohne Dramatik:</strong>
-        Anders als mancher Künstlertod, der sich zur Legende auflädt, blieb Brahms' Sterben
-        bemerkenswert unspektakulär – passend zu einem Mann, der zeitlebens das Vertraute dem
-        Auffälligen vorzog.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Elefant, der eine Erschütterung nicht mehr abschütteln konnte:</strong>
-        Die selbsterhaltende Neun findet ihre Stabilität im Vertrauten – Clara Schumanns Tod
-        entzog Brahms genau diesen letzten, über vierzig Jahre gewachsenen Fixpunkt, und der
-        Körper folgte kurz darauf.</p>
-        <p class="vb-intro"><strong>b) Beharren im Gewohnten bis zur Erschöpfung:</strong>
-        Statt sich nach der Diagnose zu schonen, hielt Brahms an seinen gewohnten
-        Verpflichtungen fest – dieselbe Trägheit, die ihn 21 Jahre an einer Sinfonie feilen
-        ließ, ließ ihn auch angesichts des eigenen Todes nicht von seinen Ritualen abweichen.</p>
-        <p class="vb-intro"><strong>c) Der Achterflügel, der auch im Sterben nicht auswich:</strong>
-        Dieselbe unerschütterliche Standfestigkeit, mit der Brahms einst im „Streit der
-        Romantiker" seine Position hielt, zeigte sich noch einmal in der stillen, unbeirrten
-        Art, mit der er dem eigenen Tod entgegensah.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit, die im Vertrauten der Familie wurzelte:</strong>
-        Dass Brahms an derselben Leberkrankheit starb wie sein Vater, passt auf eine bittere
-        Weise zum Kernthema der selbsterhaltenden Neun: Selbst im Krankheitsverlauf zeigte sich
-        etwas zutiefst Familiäres, Wiederkehrendes, statt eines völlig neuen, fremden
-        Schicksals.</p>
-        <p class="vb-intro"><strong>b) Der Bruch im Vertrauten als Auslöser:</strong>
-        Die selbsterhaltende Neun lebt vom verlässlichen Ritual – Clara Schumanns Tod und die
-        chaotische, erschöpfende Reise zu ihrer Beerdigung waren genau jene Störung des
-        Gewohnten, die Brahms' bis dahin verborgene Krankheit sichtbar werden ließ.</p>
-        <p class="vb-intro"><strong>c) Keine Flucht, kein Kampf – nur stilles Weitertragen:</strong>
-        Wie bei David Hume findet sich auch bei Brahms kein verzweifelter Kampf gegen die
-        Krankheit und kein dramatischer Rückzug, sondern ein Weitertragen der gewohnten Rituale
-        bis an die Grenze der eigenen Kraft.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
-        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis in der ruhigen
-        Verarbeitung und Bewahrung des Vertrauten liegt, liegt eine Deutung nahe: Ausgerechnet
-        jenes Organ, das im Körper für Verarbeitung, Entgiftung und das ruhige Funktionieren im
-        Hintergrund zuständig ist, wurde bei Brahms – wie schon bei seinem Vater – zum
-        Schauplatz des Verfalls. Diese Deutung ist eine plausible Interpretation, kein belegter
-        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
-        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Brahms' Fall zeigen lässt, ist ein Muster
-        im Umgang mit einer tödlichen Diagnose, das bei einer ausgeprägten selbsterhaltenden
-        Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Brahms kannte sein eigenes Muster nicht – die selbsterhaltende Neun mit Achterflügel
-        findet Sicherheit im Vertrauten und trägt Belastungen lange schweigend mit, statt sie
-        anzusprechen oder sich zu schonen. Genau das tat er, als er trotz sichtbarer
-        Erschöpfung an seinen Verpflichtungen festhielt, statt die eigene Erkrankung ernst zu
-        nehmen. Wer die eigene Neigung, Beschwerden auszusitzen statt sie zu benennen, nicht
-        als Muster kennt, verpasst den Moment, in dem rechtzeitige Schonung noch etwas hätte
-        bewirken können.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Brahms'</strong> selbsterhaltende Neun mit
-        Achterflügel noch einmal ablesen: eine Krankheit, die im Vertrauten der eigenen Familie
-        wurzelte, ein Zusammenbruch des Gewohnten, der erst durch den Verlust der engsten
-        Freundin sichtbar wurde, und ein stilles, unspektakuläres Ende, das dem gelebten Leben
-        aufs Wort entsprach. Der Elefant, der vierzig Jahre lang nichts vergaß – und der die
-        Welt nur elf Monate nach der Frau verließ, der seine Treue am längsten gegolten hatte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – Lebenswerk"},
-        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
-        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}

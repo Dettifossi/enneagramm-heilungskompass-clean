@@ -1,3 +1,132 @@
+function julianAssangePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Julian Assange – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julian Assange</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Gr\u00fcnder von WikiLeaks, geb. 1971 in Townsville, Australien &ndash; Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\u00fcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
+          <p class="vb-intro">Der australische Aktivist Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Aufgehen in einer gr\u00f6\u00dferen Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit zu einer Gemeinschaft oder einer Idee, die gr\u00f6\u00dfer ist als das eigene Ich. Die SO9 verschmilzt mit einer Sache so vollst\u00e4ndig, dass die eigene Person zur\u00fccktritt &ndash; nicht aus Schw\u00e4che, sondern weil sie ihre Identit\u00e4t in dieser Zugeh\u00f6rigkeit findet.</p>
+          <p class="vb-intro">Assange verschmolz mit der Idee radikaler Transparenz auf eine Weise, die sein gesamtes weiteres Leben bestimmte. WikiLeaks war f\u00fcr ihn keine berufliche Station, sondern eine Gemeinschaft der Informierten, der er sich vollst\u00e4ndig verschrieb &ndash; die Ver\u00f6ffentlichung der Afghanistan- und Irak-Kriegsprotokolle 2010, das \u201eCollateral Murder"-Video, Hunderttausende diplomatische Depeschen. Die SO9 kennt keine halben Bindungen: Wenn sie sich einer Sache verschreibt, dann ganz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzipientreue als Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sozialen Neun eine Qualit\u00e4t, die \u00fcber blo\u00dfe Zugeh\u00f6rigkeit hinausgeht: einen unbeirrbaren moralischen Kompass, der keine Kompromisse bei den eigenen Prinzipien duldet. Die <strong>SO9w1</strong> handelt nicht aus Trotz, sondern aus der tiefen \u00dcberzeugung, das Richtige zu tun &ndash; auch wenn es sie alles kostet.</p>
+          <p class="vb-intro">Assange hielt an seinem Prinzip der radikalen Transparenz fest, selbst als es ihn in v\u00f6llige Isolation trieb: sieben Jahre Zuflucht in der ecuadorianischen Botschaft in London (2012&ndash;2019), gefolgt von weiteren f\u00fcnf Jahren in britischer Hochsicherheitshaft, bis er sich 2024 in einem Deal mit US-Beh\u00f6rden schuldig bekannte und freikam. Der Einserfl\u00fcgel gab ihm die Sturheit, an seiner Mission festzuhalten, selbst als die pers\u00f6nlichen Kosten ins Unermessliche stiegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: WikiLeaks und die Politik der Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">WikiLeaks ver\u00f6ffentlichte unter Assange einige der folgenreichsten Enth\u00fcllungen der j\u00fcngeren Geschichte: die \u201eAfghan War Diary" und \u201eIraq War Logs" 2010, die die Realit\u00e4t dieser Kriege weit deutlicher zeigten als offizielle Verlautbarungen; Hunderttausende Depeschen des US-Au\u00dfenministeriums; interne Dokumente von Banken, Konzernen und Geheimdiensten. Die Plattform machte investigativen Journalismus auf eine Weise m\u00f6glich, die zuvor technisch undenkbar war.</p>
+          <p class="vb-intro">Dieselbe Radikalit\u00e4t, die WikiLeaks zu einem globalen Ph\u00e4nomen machte, brachte Assange auch in erbitterten Konflikt mit m\u00e4chtigen Regierungen, allen voran den USA, die ihn wegen Spionage anklagten. Er wurde zur Symbolfigur eines Streits, der noch heute andauert: Wo endet investigativer Journalismus, und wo beginnt eine Gef\u00e4hrdung von Menschenleben und nationaler Sicherheit?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>F\u00e4higkeit, sich einer Idee so vollst\u00e4ndig hinzugeben, dass sie bereit ist, alles daf\u00fcr zu opfern</strong>. Assange machte Verbrechen und Vertuschungen sichtbar, die sonst im Verborgenen geblieben w\u00e4ren, und st\u00e4rkte damit weltweit die Debatte \u00fcber Regierungstransparenz und Pressefreiheit.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die auch erhebliche Kollateralsch\u00e4den in Kauf nahm: Kritiker warfen ihm vor, bei einigen Ver\u00f6ffentlichungen zu wenig auf den Schutz von Informanten und gef\u00e4hrdeten Personen geachtet zu haben. Zudem wurde er in Schweden zeitweise wegen Vorw\u00fcrfen sexueller \u00dcbergriffe strafrechtlich verfolgt &ndash; Verfahren, die sp\u00e4ter eingestellt wurden, aber seinen Ruf nachhaltig pr\u00e4gten. Die soziale Neun, die vollst\u00e4ndig in einer Mission aufgeht, kann dabei die individuellen Menschen aus dem Blick verlieren, die von ihrem Handeln betroffen sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\u00fcffel, der die Wahrheit \u00fcber sich selbst stellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter, bewusster Pr\u00e4senz &ndash; von der Selbstaufl\u00f6sung in einer Sache zu einer Identit\u00e4t, die auch au\u00dferhalb dieser Sache tragf\u00e4hig ist. Assanges jahrelange Isolation, physisch wie psychisch, zeigt die dunkle Seite dieses Aufgehens in der Mission: Ein Selbst, das sich vollst\u00e4ndig einer Idee unterordnet, kann zerbrechen, wenn diese Idee zum Gef\u00e4ngnis wird.</p>
+          <p class="vb-intro">2024 kehrte Assange nach Australien zur\u00fcck, nach \u00fcber einem Jahrzehnt in Botschaftsasyl und Haft. Das ist die SO9w1 in ihrer ganzen Ambivalenz: der B\u00fcffel, der sich r\u00fcckhaltlos f\u00fcr eine Idee einsetzte, die gr\u00f6\u00dfer war als er selbst &ndash; und der am Ende einen Preis daf\u00fcr zahlte, den kaum jemand freiwillig zahlen w\u00fcrde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
+        {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
+        {route:"krankheitsportraets-julian-assange", label:"Krankheitsportr\u00e4t: Julian Assange (SO9w1) \u2013 Isolation und Gesundheitsfolgen"},
+      ])}
+    </div>
+  `);
+}
+
+function alanMcelligottPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Dr. Alan McElligott – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Alan McElligott</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Verhaltensforscher an der City University of Hong Kong &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der die Herde des Büffels erforschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun &ndash; in diesem Kompass verkörpert durch den afrikanischen Büffel, kein Bison aus den Weiten Nordamerikas: ein Herdentier, das seinen Wert nicht durch Alleingang, sondern durch verlässliche Zugehörigkeit zur Gruppe findet. Dr. Alan McElligott, Verhaltensforscher an der City University of Hong Kong, erforscht den nahen asiatischen Verwandten dieses Tiers, den Wasserbüffel &ndash; genetisch und im Sozialverhalten dem afrikanischen Büffel deutlich näher als der amerikanische Bison beiden. Ein zentraler Teil seiner Forschung widmet sich genau diesem Herdentier &ndash; und machte ihn zu einer international anerkannten Stimme im Verständnis seines Sozialverhaltens.</p>
+          <p class="vb-intro">Gemeinsam mit seinem Forschungsteam untersuchte er verwilderte, frei lebende Wasserbüffelpopulationen und wies nach, was lange als unwahrscheinlich galt: Diese Tiere pflegen komplexe soziale Freundschaften, eigene Persönlichkeitsprofile und bevorzugte Bindungen innerhalb der Herde &ndash; keineswegs nur ›stumpfe‹ oder rein zweckgerichtete Wesen, wie oft fälschlich angenommen wurde. Der Büffel, der beweist, dass der Büffel mehr ist als sein Klischee.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit zur Herde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet ihre Identität nicht als Einzelperson, sondern in der Verschmelzung mit einer Gruppe, einem Team, einer gemeinsamen Sache. McElligotts gesamte Forschungslaufbahn trägt diese Handschrift: Der gebürtige Ire, der Zoologie in Cork und Dublin studierte, baute statt einer Karriere des Alleingangs über Stationen in Zürich, Nottingham, London und schließlich Hongkong immer wieder neue, kollaborative Forschungsteams auf &ndash; sein eigener Hinweis an potenzielle Doktorandinnen und Postdocs, sich jederzeit bei ihm zu melden, zeigt eine einladende, auf Zusammenarbeit ausgelegte Grundhaltung statt akademischer Territorialität.</p>
+          <p class="vb-intro">Auch sein Blick auf die Wasserbüffel selbst ist ein sozialer: Es geht ihm nicht um das einzelne, isolierte Tier, sondern um das Beziehungsgeflecht der ganzen Herde &ndash; wer mit wem Zeit verbringt, welche Persönlichkeiten sich anziehen, wie Zusammenhalt entsteht und bewahrt wird. Ein Forscher, der die soziale Struktur einer Gruppe untersucht, weil ihn genau das seit jeher am meisten interessiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue statt lauter Selbstdarstellung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun eine klare, methodische Prinzipientreue &ndash; erkennbar an McElligotts nüchternem, sachlichem Kommunikationsstil: kurze, konkrete Bewerbungsanforderungen statt bürokratischer Hürden, ein direktes ›Get in touch!‹ statt langer Vorreden. Auch bei seiner Forschung zur öffentlichen Wahrnehmung der Hongkonger Wasserbüffel bleibt er auffallend ausgewogen: Er benennt sowohl die Sorgen der Anwohner als auch den kulturellen Wert der Tiere, ohne eine Seite zu dramatisieren.</p>
+          <p class="vb-intro">Das unterscheidet den Einserflügel deutlich vom konfrontativeren Achterflügel: Statt eine Position mit Nachdruck durchzusetzen, sucht McElligott den ausgewogenen, methodisch abgesicherten Standpunkt &ndash; belegt durch Daten, nicht durch Überzeugungskraft allein. ›Vertrautheit mit Wildtieren im ländlichen Raum führt häufig zu positiveren Wahrnehmungen‹, sagt er über seine Forschung zu den Hongkonger Büffeln &ndash; eine typisch nüchterne, un-dramatische Einser-Beobachtung, kein lautes Plädoyer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist die Fähigkeit, <strong>das unauffällige Sozialleben einer unterschätzten Tierart sichtbar zu machen</strong> &ndash; McElligotts Arbeit veränderte grundlegend, wie Wissenschaft und Öffentlichkeit über Wasserbüffel denken: nicht als stumpfe Nutztiere, sondern als soziale Wesen mit eigenen Bindungen und Persönlichkeiten.</p>
+          <p class="vb-intro">Der Schatten der sozialen Neun mit Einserflügel zeigt sich dort, wo die eigene Position hinter der Gruppe, dem Team oder der ausgewogenen Datenlage zurücktritt &ndash; eine Zurückhaltung, die Objektivität sichert, aber auch bedeuten kann, dass die eigene Stimme in einer kontroversen Debatte leiser bleibt, als sie sein könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Büffel, der der Herde ihre Tiefe zurückgab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Alan McElligott der Welt gibt, ist der wissenschaftliche Beweis, dass ein Tier, das lange als teilnahmslos und stumpf galt, in Wahrheit ein reiches soziales Innenleben besitzt &ndash; Freundschaften, Persönlichkeit, Zugehörigkeit. Genau das ist die Substanz, die die soziale Neun in jedem Kontext sucht.</p>
+          <p class="vb-intro">Kaum ein Lebenslauf spiegelt sein eigenes Prinzip so unmittelbar wider: ein Mann, dessen archetypisches Tier der Büffel ist, der genau diesem Tier seine Forscherlaufbahn widmete &ndash; und dabei entdeckte, dass die Herde, die er erforschte, demselben Prinzip von Zugehörigkeit und stiller Verbundenheit folgt, das auch sein eigenes Wesen trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-julian-assange", label:"Porträt: Julian Assange (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Porträt: Sandra Hüller (SO9w1)"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
+      ])}
+      ${animalResearcherMatchBlock("beruehmte-alan-mcelligott")}
+    </div>
+  `);
+}
+
 function carlRogersPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7010,129 +7139,6 @@ function nataschaOchsenknechtPortraitPage() {
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function heidiKlumPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-heidi-klum-portrait.jpg" alt="Heidi Klum – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Heidi Klum</p>
-        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Model, Moderatorin &amp; Unternehmerin, geb. 1973 in Bergisch Gladbach &ndash; Tierentsprechung: Pfau</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Pfau</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz, die sich am liebsten in voller Pracht zeigt. Kaum jemand hat dieses Bild so wörtlich genommen wie Heidi Klum: Auf ihrer legendären Halloween-Party 2023 in New York erschien sie selbst als überlebensgroßer Pfau &ndash; in engem, dunkelblauem Samtanzug, mit Schnabel, aufwendigem Federkleid und kunstvollem Kopfschmuck, für dessen Aufbau zehn Artisten des Cirque du Soleil nötig waren. Ihr damaliger Ehemann Tom Kaulitz trat an ihrer Seite als riesiges Pfauenei auf.</p>
-          <p class="vb-intro">Das deutsche Model Heidi Klum wurde am 1. Juni 1973 in Bergisch Gladbach geboren. 1992 gewann die Achtzehnjährige den Model-92-Wettbewerb gegen 25.000 Mitbewerberinnen und damit einen Vertrag mit einer New Yorker Modelagentur &ndash; der Beginn eines Weges, der sie binnen weniger Jahre auf die Titelseiten von Vogue, Elle und der berühmten Sports-Illustrated-Badeausgabe 1998 führte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als gestaltete Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht abstrakten Erfolg vor einer breiten Öffentlichkeit wie die soziale Drei, sondern unmittelbare, körperliche Präsenz. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form. Klums langjährige Rolle als eines der bekanntesten Gesichter von Victoria's Secret &ndash; als erstes deutsches Model überhaupt zum „Angel" ernannt &ndash; machte genau diese körperliche Präsenz zum Zentrum ihrer frühen Karriere.</p>
-          <p class="vb-intro">Doch Klum blieb nicht bei der reinen Modelkarriere stehen. Als Jurorin bei <em>America's Got Talent</em>, als Gastgeberin von <em>Germany's Next Topmodel</em> seit 2006 und als Moderatorin von <em>Project Runway</em>, für das sie gemeinsam mit Tim Gunn 2013 einen Emmy gewann, übersetzte sie die eigene Anziehungskraft in dauerhafte mediale Präsenz. Die SX3 zieht an &ndash; und Klum verstand früh, dass diese Anziehung sich in ganz unterschiedliche Formate übertragen lässt, ohne ihre Kraft zu verlieren.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Inszenierung als Kunstform</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine Tiefe und ästhetische Individualität, die über reinen Magnetismus hinausgeht: das Bedürfnis, die eigene Wirkung nicht nur zu zeigen, sondern künstlerisch zu gestalten und emotional aufzuladen. Genau darin liegt die Erklärung für Klums seit über zwei Jahrzehnten zelebrierte Halloween-Partys in New York, bei denen sie sich Jahr für Jahr in aufwendigste, oft mehrstündige Verwandlungen begibt &ndash; vom Pfau über einen Wurm bis zu E.T.</p>
-          <p class="vb-intro">Klum selbst, im Rheinland geboren, beschreibt Halloween als ihre persönliche Version des Karnevals: Statt Pappnase und Perücke greift sie auf Spezialeffekte, professionelle Maskenbauer und wochenlange Vorbereitung zurück. Der Viererflügel fragt immer wieder: Wie mache ich aus reiner Sichtbarkeit ein einzigartiges, unverwechselbares Kunstwerk? Bei Klum ist die Antwort jedes Jahr eine neue, aufwendig durchdachte Verwandlung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, aus einer über Jahrzehnte gepflegten öffentlichen Präsenz heraus ein diverses, künstlerisch anspruchsvolles Lebenswerk zu bauen &ndash; vom Model über die TV-Moderatorin bis zur Unternehmerin mit eigenen Modelinien, Schmuck- und Duftkollektionen. Mit einem geschätzten Vermögen von rund 160 Millionen Dollar zählt Klum zu den kommerziell erfolgreichsten Personen, die aus dem Modelgeschäft hervorgegangen sind.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch ist. Bei der SX3w4 kann das zur ständigen Notwendigkeit werden, sich immer wieder neu und noch eindrucksvoller zu inszenieren, statt einfach präsent zu sein. Klums permanent im Rampenlicht stehendes Privatleben &ndash; von der Ehe mit Seal bis zur späteren Beziehung mit Tom Kaulitz &ndash; zeigt, wie eng bei der SX3 öffentliche Bühne und persönliches Leben ineinander verwoben sind.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Eine über Jahrzehnte gepflegte Verwandlungskunst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Heidi Klums Karriere lässt sich als fortlaufende Serie von Verwandlungen lesen: vom Nachwuchsmodel aus Bergisch Gladbach zum internationalen Supermodel, von der Laufstegikone zur Fernsehmoderatorin und Jurorin, von der Angestellten großer Modehäuser zur eigenen Marke. Jede Station bleibt an dieselbe Grundfähigkeit gebunden &ndash; Aufmerksamkeit nicht nur zu erregen, sondern sie in Form zu gießen.</p>
-          <p class="vb-intro">Der Pfau zeigt sein Federkleid nicht aus Notwendigkeit, sondern weil genau darin seine Natur liegt. Heidi Klums Weg vom Model-92-Wettbewerb zur international bekannten Entertainerin und ihre alljährliche Verwandlung in immer neue, aufwendig gestaltete Figuren &ndash; vom Pfau bis zur Medusa &ndash; zeigen genau dieses Muster: Sichtbarkeit, die sich selbst immer wieder neu erfindet, ohne je zu verblassen.</p>
-          <p class="vb-intro" style="margin-top:1rem;">Über die Jahre reicht die Liste dieser Verwandlungen von einer detailgetreuen Jessica Rabbit (2015) über eine mit Prothetik, Metallplatten und heraushängenden Eingeweiden bestückte Alien-Kreatur (2019) und einen überlebensgroßen, glänzenden Wurm (2022) bis zu E. T. (2024), bei dem ihr Gesicht vollständig im Hals der Figur verschwand, und Medusa (2025). Bemerkenswert ist dabei weniger die schiere Menge als die Präzision: Bei der SX3w4 trifft die reine Schaulust der sexuellen Drei auf die künstlerische Tiefe des Viererflügels &ndash; hinter der Oberfläche, die auf den ersten Blick wie reine Eitelkeit wirken könnte, steckt echtes handwerkliches Können und eine spürbare Ernsthaftigkeit in der Umsetzung. Genau diese Kombination aus Selbstdarstellung und echter gestalterischer Tiefe macht Klums Verwandlungen zu mehr als bloßem Kostümwechsel &ndash; sie werden zu eigenständigen, glaubwürdigen Kunstwerken.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
-        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
-        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
-        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Ehemann"},
-        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Schwager"},
-      ])}
-    </div>
-  `);
-}
-
-function billKaulitzPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-bill-kaulitz-portrait.jpg" alt="Bill Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Bill Kaulitz</p>
-        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Musiker, Model &amp; Designer, geb. 1989 &ndash; Tierentsprechung: Chihuahua</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Chihuahua</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und verhält sich wie die größte. Er fürchtet nichts, bellt, wenn nötig, und zeigt keine Scheu vor dem, was größer ist als er. Kaum jemand hat diesen Kontrast so konsequent zur eigenen Bühnenfigur gemacht wie Bill Kaulitz: schmal, oft in auffälligstem Make-up und schrillster Garderobe, und dabei nie um eine provokante Aussage verlegen.</p>
-          <p class="vb-intro">Der deutsche Musiker Bill Kaulitz wurde am 1. September 1989 in Leipzig geboren, zehn Minuten nach seinem eineiigen Zwillingsbruder Tom (SE2w3). Als die beiden sechs waren, trennten sich die Eltern; mit sieben kam die Scheidung. In Loitsche bei Magdeburg, wo die Familie danach aufwuchs, war der junge Bill mit ungewöhnlichem Aussehen und ungewöhnlicher Stimme alles andere als unauffällig &ndash; ein früher Ausgangspunkt für ein Leben, das nie leise verlaufen sollte. Auch Tom wird in diesem Kompass in einem eigenen Porträt behandelt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em> &ndash; die brennende Überzeugung, dass andere haben, was einem selbst verweigert wurde, verbunden mit dem Impuls, sich zu messen, zu übertreffen, aufzufallen. Bill Kaulitz' Stimme war schon als Kind ungewöhnlich hoch und durchdringend &ndash; ein Merkmal, das ihn von Gleichaltrigen unterschied, statt ihn anzugleichen, und das er nie zu verstecken versuchte.</p>
-          <p class="vb-intro">Mit Tokio Hotel und dem Debütalbum <em>Schrei</em> (2005) sowie der Single <em>Durch den Monsun</em>, die es binnen eines Monats auf Platz eins der deutschen Charts schaffte, verwandelte Bill genau diese Andersartigkeit in ein öffentliches Statement statt in ein Versteck. Die SX4 weiß: Halbherzig ist keine Option &ndash; und Bill Kaulitz hat dieses Prinzip über zwei Jahrzehnte konsequent gelebt, von der schwarz-weißen Frontmann-Ästhetik der frühen Bandjahre bis zu den immer wieder neu erfundenen, glitzernden Looks seiner späteren öffentlichen Auftritte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Frontmann zur Mode-Ikone</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln, statt in der eigenen Intensität zu versinken. Karl Lagerfeld engagierte Bill Kaulitz bereits vor mehr als zehn Jahren für eine mehrteilige Fotostrecke in der deutschen <em>Vogue</em>, 2010 modelte er für das Label Dsquared2, 2019 gründete er mit „Magdeburg &ndash; Los Angeles" seine eigene Modemarke &ndash; benannt nach genau den beiden Orten, zwischen denen sein Leben sich seither aufspannt.</p>
-          <p class="vb-intro">Auch abseits der Musik zeigt sich dieser Antrieb: 2021 moderierte er die ProSieben-Show <em>Perfect Shot</em>, 2023 gewann er das Finale von Joko Winterscheidts <em>Wer stiehlt mir die Show?</em>. Der Dreierflügel fragt immer wieder: Wie mache ich aus dem, was mich innerlich bewegt, ein Bild, das niemand übersehen kann? Bei Bill Kaulitz ist die Antwort seit über zwanzig Jahren dieselbe &ndash; nur die Bühne wechselt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, das eigene Anderssein nicht zu verbergen, sondern es so konsequent auszustellen, dass daraus Identität und Wirkung zugleich entstehen. Bill Kaulitz lebt offen queer und äußert sich in Interviews, im gemeinsamen Podcast mit seinem Bruder und in der Öffentlichkeit unverstellt zu seiner Identität &ndash; eine Sichtbarkeit, die für viele junge queere Fans in Deutschland zur Orientierungsfigur wurde.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SX4w3 kann dieser Neid zum ständigen Bedürfnis werden, sich sichtbar von anderen abzuheben, statt Ruhe in der eigenen Einzigartigkeit zu finden. Kaulitz' immer wieder neu erfundenes Erscheinungsbild &ndash; von der schwarzen Frontmann-Uniform der Anfangsjahre bis zu den glitzernden, oft androgynen Looks späterer Jahre &ndash; zeigt diese rastlose Suche ebenso wie seine kreative Stärke.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Intensität als roter Faden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bill Kaulitz' Karriere lässt sich als eine einzige, fortlaufende Übersetzung innerer Intensität in äußere Form lesen: die durchdringende Stimme, die schon als Kind auffiel, wurde zur Frontmann-Präsenz von Tokio Hotel; das provokante Erscheinungsbild wurde zur eigenen Modemarke; die Offenheit zur eigenen Identität wurde zur öffentlichen Stimme für queere Sichtbarkeit. Gemeinsam mit seinem Zwillingsbruder Tom betreibt er seit 2021 den mit dem Deutschen Podcast Award ausgezeichneten Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em> &ndash; dieselbe enge familiäre Bindung, die auch Toms eigenes Porträt prägt, bleibt bis heute die Konstante hinter aller öffentlichen Verwandlung.</p>
-          <p class="vb-intro">Der Chihuahua ist kein Tier der Masse. Er ist ein Tier der Intensität &ndash; klein, laut, unübersehbar, und darunter empfindlich und bindungsintensiv. Bill Kaulitz' Weg vom auffälligen Kind aus Loitsche zur international sichtbaren Mode- und Musikfigur zeigt genau dieses Muster: Wer sich nicht verstecken kann, findet irgendwann heraus, wie man das Auffallen selbst zur Kunst macht.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
-        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Zwillingsbruder"},
-        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Schwägerin"},
-        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
-        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
       ])}
     </div>
   `);

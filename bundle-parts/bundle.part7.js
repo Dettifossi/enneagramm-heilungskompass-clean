@@ -1,3 +1,125 @@
+function mileyCyrusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-miley-cyrus-portrait.jpg" alt="Miley Cyrus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Miley Cyrus</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">S\u00e4ngerin, Songwriterin &amp; Schauspielerin, geb. 1992 in Franklin, Tennessee &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; lebendig, kontaktsuchend, st\u00e4ndig in Bewegung. Er lernt nicht aus der Distanz, sondern durch direkte Ber\u00fchrung mit dem, was ihn umgibt. Er verwandelt sich, wenn sich sein Umfeld ver\u00e4ndert &ndash; und tut das ohne falsche Scheu, oft mitten vor den Augen aller.</p>
+          <p class="vb-intro">Die US-amerikanische S\u00e4ngerin Miley Cyrus, geboren 1992 in Franklin, Tennessee, als Tochter des Country-S\u00e4ngers Billy Ray Cyrus, ist ein Schimpanse, der \u00f6ffentlich aufgewachsen ist &ndash; vom Disney-Kinderstar zur eigenst\u00e4ndigen K\u00fcnstlerin, vom braven M\u00e4dchen mit blonder Per\u00fccke zur schockierend selbstbewussten Popk\u00fcnstlerin, und weiter zur reflektierten, souver\u00e4nen S\u00e4ngerin, die heute mit \u201eFlowers" ganze Generationen ber\u00fchrt. Jede dieser H\u00e4utungen war laut, sichtbar &ndash; und ehrlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Verwandlung als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensit\u00e4t im unmittelbaren Erleben, nicht im geplanten Fortschritt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die Bereitschaft, sich einem Moment, einer Idee, einer Beziehung vollst\u00e4ndig hinzugeben &ndash; und sich dabei selbst neu zu erfinden. Wo andere Menschen an einer Identit\u00e4t festhalten, probiert die SX7 mehrere aus, weil das Neue selbst der Reiz ist.</p>
+          <p class="vb-intro">Kaum eine Popkarriere zeigt das deutlicher als die von Miley Cyrus: Hannah Montana, die zerbrochene \u201eWrecking Ball"-Version ihrer selbst, die knallbunte, hedonistische \u201eBangerz"-\u00c4ra, die introspektive Americana-Phase von \u201eYounger Now", und schlie\u00dflich die geerdete Reife von \u201eEndless Summer Vacation". Jede Phase war real, keine davon eine Rolle. Genau das ist die sexuelle Sieben: Sie spielt nicht Verwandlung &ndash; sie lebt sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t als roter Faden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der sexuellen Sieben etwas, das ihr zunächst zu widersprechen scheint: das Bed\u00fcrfnis nach Bindung, nach einem verl\u00e4sslichen Kern, an dem sich alle Verwandlungen festmachen lassen. Wo eine SX7 mit schwächerem Sechserflügel sich treiben lassen könnte, sucht die SX7w6 nach Menschen und Werten, denen sie treu bleiben kann &ndash; auch mitten im permanenten Wandel.</p>
+          <p class="vb-intro">Bei Miley Cyrus zeigt sich das in der engen, lebenslangen Bindung an ihre Familie, insbesondere an ihre Patin Dolly Parton, sowie in ihrem offenen Eintreten f\u00fcr die LGBTQ+-Community \u00fcber all die Jahre hinweg &ndash; eine Loyalit\u00e4t, die sich nie ge\u00e4ndert hat, w\u00e4hrend sich fast alles andere um sie herum ver\u00e4ndert hat. Der Sechserfl\u00fcgel ist der Damm, den der Schimpanse braucht, damit die Verwandlung nicht zur Aufl\u00f6sung wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Kinderstar zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit elf Jahren wurde Cyrus als \u201eHannah Montana" zum globalen Disney-Ph\u00e4nomen &ndash; eine Doppelrolle, die buchst\u00e4blich zwei Identit\u00e4ten verlangte: das brave Schulm\u00e4dchen Miley und den strahlenden Popstar Hannah. F\u00fcr eine sexuelle Sieben, deren tiefstes Bed\u00fcrfnis echte, ungefilterte Pr\u00e4senz ist, wurde diese erzwungene Aufspaltung zunehmend unertr\u00e4glich.</p>
+          <p class="vb-intro">2013, mit dem Album \u201eBangerz" und dem Auftritt bei den MTV Video Music Awards, brach sie mit dieser Rolle radikal und \u00f6ffentlich &ndash; ein Bruch, der viel Kritik erntete, aber auch der Moment war, in dem der Schimpanse endlich selbst entscheiden durfte, wer er sein wollte. In den Jahren danach folgte kein weiterer Skandal, sondern eine stetige k\u00fcnstlerische Reifung: von der Provokation zur eigenen, unverwechselbaren Stimme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 ist ihre F\u00e4higkeit, sich immer wieder neu zu erfinden, ohne sich selbst zu verlieren &ndash; jede Phase von Miley Cyrus wirkt im R\u00fcckblick wie eine ehrliche Station auf einem Weg, nicht wie eine Verleugnung der vorherigen. Diese Kontinuit\u00e4t trotz Wandel ist die Frucht des Sechserfl\u00fcgels: Der Kern bleibt derselbe, auch wenn die Oberfl\u00e4che sich radikal ver\u00e4ndert.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in Phasen exzessiven Verhaltens, \u00f6ffentlich ausgetragener Beziehungskrisen &ndash; darunter die wechselvolle, mehrfach unterbrochene und schlie\u00dflich gescheiterte Beziehung zu Liam Hemsworth (SO1w2) &ndash; und einem Bed\u00fcrfnis nach Aufmerksamkeit, das zeitweise wichtiger schien als die eigene Stabilit\u00e4t. Die sexuelle Sieben kann in der Flucht vor Leere so viel Intensit\u00e4t suchen, dass die Suche selbst zur Falle wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Flowers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Zerstreuung zur N\u00fcchternheit &ndash; von der st\u00e4ndigen Suche nach dem n\u00e4chsten Reiz zur F\u00e4higkeit, im eigenen Leben tats\u00e4chlich anzukommen. F\u00fcr die SX7w6 bedeutet das, die eigene Wandlungsf\u00e4higkeit nicht mehr als Flucht vor Bindung zu nutzen, sondern als Ausdruck echter, gereifter Selbstliebe.</p>
+          <p class="vb-intro">\u201eFlowers" (2023), der Song, in dem Cyrus singt, sie k\u00f6nne sich selbst Blumen kaufen, sich selbst an die Hand nehmen und sich selbst besser lieben, als es je ein anderer k\u00f6nnte, ist genau dieser Heilungsschritt in drei Minuten Popmusik. Der Schimpanse, der jahrelang Bindung au\u00dferhalb von sich selbst gesucht hat, findet den verl\u00e4sslichen Kern schlie\u00dflich dort, wo der Sechserfl\u00fcgel ihn die ganze Zeit vermutet hatte: bei sich selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function inaMuellerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ina-mueller-portrait.jpg" alt="Ina M\u00fcller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ina M\u00fcller</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">S\u00e4ngerin, Kabarettistin &amp; Moderatorin, geb. 1965 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 &ndash; und Ina M\u00fcller ist ein Schimpanse durch und durch. Der Schimpanse braucht den Kontakt: direkt, lebendig, unverf\u00e4lscht. Er lernt nicht aus B\u00fcchern, sondern durch Begegnung. Er ist neugierig, energiegeladen, manchmal laut, manchmal zart &ndash; aber immer pr\u00e4sent. Und wenn er lacht, lacht der ganze Wald mit.</p>
+          <p class="vb-intro">Die deutsche Moderatorin Ina M\u00fcller hat mit <em>Inas Nacht</em> ein Format geschaffen, das in der deutschen Fernsehlandschaft einzigartig ist: keine Couch, kein Schreibtisch, keine Distanz. Eine Bar, ein Klavier, ein Gast, ein Gespr\u00e4ch &ndash; und eine Gastgeberin, die wirklich zuh\u00f6rt. Der Schimpanse sitzt nicht gegen\u00fcber. Er sitzt daneben. Und das macht den Unterschied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensit\u00e4t im Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht Intensit\u00e4t &ndash; nicht im gro\u00dfen Spektakel, sondern im echten Kontakt. Naranjo nannte diesen Subtyp <em>Suggestibility</em>: die F\u00e4higkeit, sich vollst\u00e4ndig auf das einzulassen, was gerade passiert, und andere dabei mitzurei\u00dfen. Die SX7 ist ansteckend. Ihre Begeisterung \u00fcbertr\u00e4gt sich nicht durch \u00dcberzeugung, sondern durch Pr\u00e4senz.</p>
+          <p class="vb-intro">Ina M\u00fcller ist auf der B\u00fchne kein Konzept &ndash; sie ist ein Erlebnis. Ob sie singt, spielt, moderiert oder einfach redet: Man hat das Gef\u00fchl, dass sie genau jetzt genau hier sein will. Das ist die SX7 in ihrer unverfälschtesten Gestalt: nicht Planung, sondern Begegnung. Nicht Karriere, sondern Kontakt. Der Schimpanse will nicht beeindrucken. Er will ber\u00fchren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Direktheit ohne Umwege</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der sexuellen Sieben etwas, das man bei ihr sofort sp\u00fcrt: Unerschrockenheit. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel weicht die Sieben eher aus, wenn es unangenehm wird. Der Achterfl\u00fcgel h\u00e4lt stand. Er sagt, was er denkt. Er scheut keine Konfrontation &ndash; nicht aus Aggression, sondern aus dem tiefen Vertrauen, dass Wahrheit mehr verbindet als H\u00f6flichkeit.</p>
+          <p class="vb-intro">Ina M\u00fcller stellt unbequeme Fragen &ndash; und macht es so, dass der Gast sich nicht bedr\u00e4ngt f\u00fchlt, sondern gesehen. Das ist das Kunstwerk des Achterfl\u00fcgels in der Sieben: Direktheit, die nicht verletzt, weil sie aus echter Neugier kommt. Der Schimpanse mit Achterfl\u00fcgel greift nach dem anderen nicht um zu rei\u00dfen, sondern um zu halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei oder auch Ma\u00dflosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> oder auch <strong>Ma\u00dflosigkeit</strong>: der Hunger nach dem vollen Erleben, nach dem n\u00e4chsten Lachen, dem n\u00e4chsten Lied, dem n\u00e4chsten echten Gespr\u00e4ch. Bei der sexuellen Sieben richtet sich dieser Hunger auf Menschen &ndash; auf die F\u00fclle des Kontakts, auf die Tiefe des Augenblicks. Ina M\u00fcller singt, spielt, moderiert, tourt, schreibt &ndash; und hat dabei immer das Gef\u00fchl ausgedr\u00fcckt, dass sie nicht genug bekommen kann vom Leben.</p>
+          <p class="vb-intro">Das ist kein \u00dcberma\u00df im negativen Sinne. Es ist die SX7w8, die die Welt ganz nehmen will &ndash; und sie ganz gibt. Der Schimpanse greift nach allem, was lebt. Nicht aus Gier. Aus Liebe zum Leben selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: N\u00e4he als Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ina M\u00fcller dem deutschen Fernsehen &ndash; und der Musik &ndash; gegeben hat, ist eine Qualit\u00e4t, die sich nicht produzieren l\u00e4sst: echte N\u00e4he. <em>Inas Nacht</em> ist kein Format, das man kopieren kann. Es lebt von ihr. Von ihrer Bereitschaft, sich wirklich einzulassen. Von ihrem Mut, auch in der Stille zu bleiben, wenn ein Gast etwas Schweres sagt. Von ihrem Lachen, das nicht gespielt ist.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX7w8: Intensit\u00e4t, die tr\u00e4gt. Ein Schimpanse, der nicht nur spielt &ndash; sondern f\u00fchlt. Ina M\u00fcller hat nie eine Maske gebraucht. Ihr Gesicht ist ihr Programm. Und das ist das Seltenste, was es im Showgesch\u00e4ft gibt.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function borisBeckerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7391,135 +7513,6 @@ function steffiGrafPortraitPage() {
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
       ])}
-    </div>
-  `);
-}
-
-function julianAssangePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-julian-assange-portrait.jpg" alt="Julian Assange – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Julian Assange</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Gr\u00fcnder von WikiLeaks, geb. 1971 in Townsville, Australien &ndash; Tierentsprechung: B\u00fcffel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der B\u00fcffel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\u00fcffel</strong> ist das Tier des sozialen Typs 9 &ndash; ein Tier, das sich nicht durch Alleingang, sondern durch das Angebundensein in eine gr\u00f6\u00dfere Sache definiert. Er senkt den Kopf und geht hindurch durch das, was ihm im Weg steht, ohne sich um Ansehen oder Applaus zu k\u00fcmmern. Er k\u00e4mpft nicht f\u00fcr sich selbst &ndash; er k\u00e4mpft f\u00fcr etwas, das gr\u00f6\u00dfer ist als das eigene \u00dcberleben.</p>
-          <p class="vb-intro">Der australische Aktivist Julian Assange, 1971 in Townsville, Australien, geboren, ist dieser B\u00fcffel: kein Redner, der Menschenmengen mitrei\u00dft, sondern ein Programmierer und Aktivist, der glaubte, dass die Wahrheit selbst das m\u00e4chtigste Werkzeug sei. Mit der Gr\u00fcndung von WikiLeaks 2006 begann er, eine Plattform zu bauen, die geheime Dokumente von Regierungen und Konzernen der Welt\u00f6ffentlichkeit zug\u00e4nglich machen sollte &ndash; ohne R\u00fccksicht darauf, wer dabei blo\u00dfgestellt wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Neun: Aufgehen in einer gr\u00f6\u00dferen Sache</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Partizipation</em>: Frieden durch Zugeh\u00f6rigkeit zu einer Gemeinschaft oder einer Idee, die gr\u00f6\u00dfer ist als das eigene Ich. Die SO9 verschmilzt mit einer Sache so vollst\u00e4ndig, dass die eigene Person zur\u00fccktritt &ndash; nicht aus Schw\u00e4che, sondern weil sie ihre Identit\u00e4t in dieser Zugeh\u00f6rigkeit findet.</p>
-          <p class="vb-intro">Assange verschmolz mit der Idee radikaler Transparenz auf eine Weise, die sein gesamtes weiteres Leben bestimmte. WikiLeaks war f\u00fcr ihn keine berufliche Station, sondern eine Gemeinschaft der Informierten, der er sich vollst\u00e4ndig verschrieb &ndash; die Ver\u00f6ffentlichung der Afghanistan- und Irak-Kriegsprotokolle 2010, das \u201eCollateral Murder"-Video, Hunderttausende diplomatische Depeschen. Die SO9 kennt keine halben Bindungen: Wenn sie sich einer Sache verschreibt, dann ganz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Prinzipientreue als Mission</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel</strong> verleiht der sozialen Neun eine Qualit\u00e4t, die \u00fcber blo\u00dfe Zugeh\u00f6rigkeit hinausgeht: einen unbeirrbaren moralischen Kompass, der keine Kompromisse bei den eigenen Prinzipien duldet. Die <strong>SO9w1</strong> handelt nicht aus Trotz, sondern aus der tiefen \u00dcberzeugung, das Richtige zu tun &ndash; auch wenn es sie alles kostet.</p>
-          <p class="vb-intro">Assange hielt an seinem Prinzip der radikalen Transparenz fest, selbst als es ihn in v\u00f6llige Isolation trieb: sieben Jahre Zuflucht in der ecuadorianischen Botschaft in London (2012&ndash;2019), gefolgt von weiteren f\u00fcnf Jahren in britischer Hochsicherheitshaft, bis er sich 2024 in einem Deal mit US-Beh\u00f6rden schuldig bekannte und freikam. Der Einserfl\u00fcgel gab ihm die Sturheit, an seiner Mission festzuhalten, selbst als die pers\u00f6nlichen Kosten ins Unermessliche stiegen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: WikiLeaks und die Politik der Offenlegung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">WikiLeaks ver\u00f6ffentlichte unter Assange einige der folgenreichsten Enth\u00fcllungen der j\u00fcngeren Geschichte: die \u201eAfghan War Diary" und \u201eIraq War Logs" 2010, die die Realit\u00e4t dieser Kriege weit deutlicher zeigten als offizielle Verlautbarungen; Hunderttausende Depeschen des US-Au\u00dfenministeriums; interne Dokumente von Banken, Konzernen und Geheimdiensten. Die Plattform machte investigativen Journalismus auf eine Weise m\u00f6glich, die zuvor technisch undenkbar war.</p>
-          <p class="vb-intro">Dieselbe Radikalit\u00e4t, die WikiLeaks zu einem globalen Ph\u00e4nomen machte, brachte Assange auch in erbitterten Konflikt mit m\u00e4chtigen Regierungen, allen voran den USA, die ihn wegen Spionage anklagten. Er wurde zur Symbolfigur eines Streits, der noch heute andauert: Wo endet investigativer Journalismus, und wo beginnt eine Gef\u00e4hrdung von Menschenleben und nationaler Sicherheit?</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>F\u00e4higkeit, sich einer Idee so vollst\u00e4ndig hinzugeben, dass sie bereit ist, alles daf\u00fcr zu opfern</strong>. Assange machte Verbrechen und Vertuschungen sichtbar, die sonst im Verborgenen geblieben w\u00e4ren, und st\u00e4rkte damit weltweit die Debatte \u00fcber Regierungstransparenz und Pressefreiheit.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in einer Kompromisslosigkeit, die auch erhebliche Kollateralsch\u00e4den in Kauf nahm: Kritiker warfen ihm vor, bei einigen Ver\u00f6ffentlichungen zu wenig auf den Schutz von Informanten und gef\u00e4hrdeten Personen geachtet zu haben. Zudem wurde er in Schweden zeitweise wegen Vorw\u00fcrfen sexueller \u00dcbergriffe strafrechtlich verfolgt &ndash; Verfahren, die sp\u00e4ter eingestellt wurden, aber seinen Ruf nachhaltig pr\u00e4gten. Die soziale Neun, die vollst\u00e4ndig in einer Mission aufgeht, kann dabei die individuellen Menschen aus dem Blick verlieren, die von ihrem Handeln betroffen sind.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der B\u00fcffel, der die Wahrheit \u00fcber sich selbst stellte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter, bewusster Pr\u00e4senz &ndash; von der Selbstaufl\u00f6sung in einer Sache zu einer Identit\u00e4t, die auch au\u00dferhalb dieser Sache tragf\u00e4hig ist. Assanges jahrelange Isolation, physisch wie psychisch, zeigt die dunkle Seite dieses Aufgehens in der Mission: Ein Selbst, das sich vollst\u00e4ndig einer Idee unterordnet, kann zerbrechen, wenn diese Idee zum Gef\u00e4ngnis wird.</p>
-          <p class="vb-intro">2024 kehrte Assange nach Australien zur\u00fcck, nach \u00fcber einem Jahrzehnt in Botschaftsasyl und Haft. Das ist die SO9w1 in ihrer ganzen Ambivalenz: der B\u00fcffel, der sich r\u00fcckhaltlos f\u00fcr eine Idee einsetzte, die gr\u00f6\u00dfer war als er selbst &ndash; und der am Ende einen Preis daf\u00fcr zahlte, den kaum jemand freiwillig zahlen w\u00fcrde.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
-        {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
-        {route:"krankheitsportraets-julian-assange", label:"Krankheitsportr\u00e4t: Julian Assange (SO9w1) \u2013 Isolation und Gesundheitsfolgen"},
-      ])}
-    </div>
-  `);
-}
-
-function alanMcelligottPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-alan-mcelligott-portrait.jpg" alt="Dr. Alan McElligott – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Alan McElligott</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Verhaltensforscher an der City University of Hong Kong &ndash; Tierentsprechung: Büffel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Büffel, der die Herde des Büffels erforschte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun &ndash; in diesem Kompass verkörpert durch den afrikanischen Büffel, kein Bison aus den Weiten Nordamerikas: ein Herdentier, das seinen Wert nicht durch Alleingang, sondern durch verlässliche Zugehörigkeit zur Gruppe findet. Dr. Alan McElligott, Verhaltensforscher an der City University of Hong Kong, erforscht den nahen asiatischen Verwandten dieses Tiers, den Wasserbüffel &ndash; genetisch und im Sozialverhalten dem afrikanischen Büffel deutlich näher als der amerikanische Bison beiden. Ein zentraler Teil seiner Forschung widmet sich genau diesem Herdentier &ndash; und machte ihn zu einer international anerkannten Stimme im Verständnis seines Sozialverhaltens.</p>
-          <p class="vb-intro">Gemeinsam mit seinem Forschungsteam untersuchte er verwilderte, frei lebende Wasserbüffelpopulationen und wies nach, was lange als unwahrscheinlich galt: Diese Tiere pflegen komplexe soziale Freundschaften, eigene Persönlichkeitsprofile und bevorzugte Bindungen innerhalb der Herde &ndash; keineswegs nur ›stumpfe‹ oder rein zweckgerichtete Wesen, wie oft fälschlich angenommen wurde. Der Büffel, der beweist, dass der Büffel mehr ist als sein Klischee.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit zur Herde</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet ihre Identität nicht als Einzelperson, sondern in der Verschmelzung mit einer Gruppe, einem Team, einer gemeinsamen Sache. McElligotts gesamte Forschungslaufbahn trägt diese Handschrift: Der gebürtige Ire, der Zoologie in Cork und Dublin studierte, baute statt einer Karriere des Alleingangs über Stationen in Zürich, Nottingham, London und schließlich Hongkong immer wieder neue, kollaborative Forschungsteams auf &ndash; sein eigener Hinweis an potenzielle Doktorandinnen und Postdocs, sich jederzeit bei ihm zu melden, zeigt eine einladende, auf Zusammenarbeit ausgelegte Grundhaltung statt akademischer Territorialität.</p>
-          <p class="vb-intro">Auch sein Blick auf die Wasserbüffel selbst ist ein sozialer: Es geht ihm nicht um das einzelne, isolierte Tier, sondern um das Beziehungsgeflecht der ganzen Herde &ndash; wer mit wem Zeit verbringt, welche Persönlichkeiten sich anziehen, wie Zusammenhalt entsteht und bewahrt wird. Ein Forscher, der die soziale Struktur einer Gruppe untersucht, weil ihn genau das seit jeher am meisten interessiert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Prinzipientreue statt lauter Selbstdarstellung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun eine klare, methodische Prinzipientreue &ndash; erkennbar an McElligotts nüchternem, sachlichem Kommunikationsstil: kurze, konkrete Bewerbungsanforderungen statt bürokratischer Hürden, ein direktes ›Get in touch!‹ statt langer Vorreden. Auch bei seiner Forschung zur öffentlichen Wahrnehmung der Hongkonger Wasserbüffel bleibt er auffallend ausgewogen: Er benennt sowohl die Sorgen der Anwohner als auch den kulturellen Wert der Tiere, ohne eine Seite zu dramatisieren.</p>
-          <p class="vb-intro">Das unterscheidet den Einserflügel deutlich vom konfrontativeren Achterflügel: Statt eine Position mit Nachdruck durchzusetzen, sucht McElligott den ausgewogenen, methodisch abgesicherten Standpunkt &ndash; belegt durch Daten, nicht durch Überzeugungskraft allein. ›Vertrautheit mit Wildtieren im ländlichen Raum führt häufig zu positiveren Wahrnehmungen‹, sagt er über seine Forschung zu den Hongkonger Büffeln &ndash; eine typisch nüchterne, un-dramatische Einser-Beobachtung, kein lautes Plädoyer.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w1 ist die Fähigkeit, <strong>das unauffällige Sozialleben einer unterschätzten Tierart sichtbar zu machen</strong> &ndash; McElligotts Arbeit veränderte grundlegend, wie Wissenschaft und Öffentlichkeit über Wasserbüffel denken: nicht als stumpfe Nutztiere, sondern als soziale Wesen mit eigenen Bindungen und Persönlichkeiten.</p>
-          <p class="vb-intro">Der Schatten der sozialen Neun mit Einserflügel zeigt sich dort, wo die eigene Position hinter der Gruppe, dem Team oder der ausgewogenen Datenlage zurücktritt &ndash; eine Zurückhaltung, die Objektivität sichert, aber auch bedeuten kann, dass die eigene Stimme in einer kontroversen Debatte leiser bleibt, als sie sein könnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Büffel, der der Herde ihre Tiefe zurückgab</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Alan McElligott der Welt gibt, ist der wissenschaftliche Beweis, dass ein Tier, das lange als teilnahmslos und stumpf galt, in Wahrheit ein reiches soziales Innenleben besitzt &ndash; Freundschaften, Persönlichkeit, Zugehörigkeit. Genau das ist die Substanz, die die soziale Neun in jedem Kontext sucht.</p>
-          <p class="vb-intro">Kaum ein Lebenslauf spiegelt sein eigenes Prinzip so unmittelbar wider: ein Mann, dessen archetypisches Tier der Büffel ist, der genau diesem Tier seine Forscherlaufbahn widmete &ndash; und dabei entdeckte, dass die Herde, die er erforschte, demselben Prinzip von Zugehörigkeit und stiller Verbundenheit folgt, das auch sein eigenes Wesen trägt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
-      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
-        {route:"beruehmte-julian-assange", label:"Porträt: Julian Assange (SO9w1)"},
-        {route:"beruehmte-sandra-hueller", label:"Porträt: Sandra Hüller (SO9w1)"},
-        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung: weitere Beispiele"},
-      ])}
-      ${animalResearcherMatchBlock("beruehmte-alan-mcelligott")}
     </div>
   `);
 }
