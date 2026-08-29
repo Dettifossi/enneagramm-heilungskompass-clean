@@ -1,3 +1,83 @@
+function lazarusPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lazarus</p>
+        <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Der Freund des Lebens – Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Unser Freund Lazarus schläft; aber ich gehe hin, ihn aufzuwecken.« (Joh 11,11)</p>
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben – ruhig, gastfreundlich, präsent durch Wärme statt durch Lautstärke, ein Wesen, in dessen Nähe man sich sicher und wohl fühlt. Lazarus war kein Mann vieler Worte. Wenn seine Schwestern diskutierten, lächelte er still. Wenn Gäste kamen, deckte er den Tisch und ließ die anderen reden. Er war präsent, nicht durch Lautstärke, sondern durch Wärme, ein Mensch, bei dem man sich wohlfühlte.</p>
+          <p class="vb-intro">Sein Haus in Bethanien war ein offenes Haus, nicht verschwenderisch, aber gastlich, ein Haus, in dem gegessen, gelacht und geschwiegen werden konnte, ein Ort, an dem auch Jesus sich zurückzog. Lazarus war kein Schüler, kein Lehrer, kein Prediger, aber er war ein Freund, und Freundschaft war für ihn Lebenskunst. Die selbsterhaltende Sieben sucht kein Abenteuer im Außen, sondern die intensive, stille Fülle im Innen. Sie liebt das Leben, aber mit Bedacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Maßvolle Freude statt Exzess</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus war kein Asket. Er kannte den Wein, das Brot, den Duft von Öl, aber nie in Exzess, nie in Hast. Er lebte in maßvoller Freude, nicht um zu fliehen, sondern um zu bleiben. Er konnte zuhören, ohne sich zu verlieren. Er konnte da sein, ohne sich aufzudrängen. Er war kein Aufbruch, sondern ein Ankommen. Und dann wurde er krank. Still, wie er lebte, so wurde er schwächer. Er klagte nicht, wollte die anderen nicht belasten. Doch Marta und Maria schickten nach Jesus, denn sie wussten: Du liebst ihn. Doch Jesus kam nicht sofort. Und Lazarus starb.</p>
+          <p class="vb-intro">Vier Tage lag er im Fels, gebettet in Tücher, umgeben von Myrrhe, umhüllt von Schweigen. Nicht der Tod war das Schreckliche, sondern die Unterbrechung, dieser gewohnte Strom von milder Lebendigkeit, von Brot, Öl, Licht und Zärtlichkeit, war zum Stillstand gekommen. Und dann kam Jesus. Spät. Zu spät? Marta lief ihm entgegen: »Herr, wärst du hier gewesen, mein Bruder wäre nicht gestorben.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyale Wärme statt intensiven Antriebs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Sieben eine treue, verbindliche Qualität – Fülle entsteht nicht durch treibende Intensität, sondern durch verlässliche, warme Nähe zu den Menschen, die man liebt, ein Zuhause, in dem andere sich sicher fühlen können. Jesus hörte zu, er weinte, nicht nur um Lazarus, sondern um alle, die sich im Schatten verloren glaubten. Dann ging er zum Grab: »Nehmt den Stein weg.« Marta zögerte: »Herr, er riecht schon…« Jesus blickte sie an: »Habe ich dir nicht gesagt: Wenn du glaubst, wirst du die Herrlichkeit Gottes sehen?«</p>
+          <p class="vb-intro">Dann rief er mit lauter Stimme: »Lazarus, komm heraus!« Und Lazarus kam, langsam, gebunden, lebendig. Die SE7 glaubt lange, man könne Schmerz vermeiden. Aber in der Tiefe geschieht Verwandlung erst dann, wenn man durch den Schmerz hindurch wieder ans Licht tritt. Genau diese stille, treue Verlässlichkeit, die sich nicht durch das eigene Leiden von der Gemeinschaft entfernt, sondern gerade dadurch tiefer verwurzelt, trägt die Handschrift des Sechserflügels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die letzte Mahlzeit: Das Lächeln der Auferstandenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus trat nicht zurück ins alte Leben. Er trat in ein neues Leben, mit dem Geschmack von Erde und Ewigkeit auf der Zunge. Er sprach nicht viel danach, aber seine Gegenwart sprach. Denn wer den Tod gesehen hat und trotzdem wieder bei Tisch sitzt, mit Brot in der Hand und dem Licht im Gesicht, der lebt anders, tiefer, sanfter, echter. Der Hof war erfüllt vom Duft gebratenen Lamms, ein Fest war bereitet, kein Triumph, sondern ein stilles Mahl der Dankbarkeit. Lazarus saß bei Tisch, zwischen Freunden.</p>
+          <p class="vb-intro">Er sprach nicht viel, doch wenn seine Augen einen trafen, dann geschah etwas: eine Ruhe übertrug sich, als hätte man eben erst gelernt, was Leben eigentlich ist. Die, die ihn kannten, sagten: »Er hört anders zu.« Denn wer durch das Dunkel geht, hört die Töne feiner, schmeckt das Brot tiefer, liebt mit weniger Angst. Die SE7 wird reif nicht durch Rückzug, sondern durch Anwesenheit mit offenem Herzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Ein Ort, an dem Leben tiefer ging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lazarus lächelte öfter, nicht aus Leichtigkeit, sondern aus Annahme. Er wusste jetzt, dass das Leben nicht perfekt sein musste, nur wahrhaftig, und dass der Geschmack von Datteln süßer ist, wenn man den Tod schon gekostet hat. Später, als alles vorbei war, als Jesus gekreuzigt war und der Aufbruch der ersten Gemeinschaft begann, da blieb Lazarus in Bethanien. Ein Haus, ein Garten, ein Tisch, ein Ort, an dem Menschen sich erinnerten: Hier hat Jesus gewohnt, hier hat Lazarus gegessen, hier war Leben, das tiefer ging.</p>
+          <p class="vb-intro">Er wurde nicht Apostel, nicht Lehrer. Aber wenn jemand fragte: »Und du, was hast du erlebt?« Dann sagte Lazarus: »Ich war tot. Und nun bin ich hier. Lass uns essen.«</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Fülle ohne Flucht vor dem Schmerz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: eine Freude, die nicht mehr vor dem Schmerz fliehen muss, um echt zu sein, sondern die gerade durch das Erlebte an Wärme gewinnt – ein Gorilla, dessen ruhige Gegenwart nach dem Durchleben der Dunkelheit noch tiefer trägt, weil er weiß, dass das Wesentliche nicht laut ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Komm heraus, Lazarus!</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Lazarus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0" title="Komm heraus, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function samariterinAmJakobsbrunnenPage() {
   return shell(`
     <div class="page-container">
@@ -11623,214 +11703,6 @@ function rudolfPleilPortraitPage() {
         {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function jackUnterweegerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Jack Unterweger \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jack-unterweger-portrait.jpg" alt="Jack Unterweger \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jack Unterweger</p>
-        <p class="krim-portrait-typ">SO2w1 \u00b7 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Dichter und der Tod" \u2013 \u00d6sterreich 1974 & 1990\u20131991</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Johann \u201eJack" Unterweger</strong>, geboren am 16. August 1950 in Judenburg,
-        Steiermark, gestorben am 29. Juni 1994 in Graz,
-        war ein \u00f6sterreichischer Serienm\u00f6rder, Schriftsteller und Journalist \u2013
-        und einer der bemerkenswertesten F\u00e4lle in der Geschichte der europ\u00e4ischen Kriminologie.
-        Er ermordete 1974 eine junge Frau, wurde zu lebenslanger Haft verurteilt
-        und entwickelte sich im Gef\u00e4ngnis zu einem gefeierten Literaten.
-        Seine Autobiografie <em>Fegefeuer \u2013 oder die Reise ins Zuchthaus</em>
-        wurde ein Bestseller; \u00f6sterreichische Intellektuelle,
-        darunter Elfriede Jelinek, setzten sich f\u00fcr seine Freilassung ein.
-        1990 vorzeitig entlassen, mordete er unmittelbar weiter \u2013
-        insgesamt neun Frauen in \u00d6sterreich, m\u00f6glicherweise drei weitere in Los Angeles.
-        1994 wurde er in Graz erneut zu lebenslanger Haft verurteilt.
-        In der Nacht nach dem Urteil erh\u00e4ngte er sich in seiner Gef\u00e4ngniszelle.
-        Das Enneagramm macht sichtbar, wie ein Mensch, der die Gesellschaft
-        von seiner G\u00fcte \u00fcberzeugte, sie dabei systematisch belog.
-      </p>
-
-      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jack Unterweger</strong> wird dem <strong>Sozialen Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
-        Die soziale Zwei ist auf gesellschaftliche Anerkennung ausgerichtet \u2013
-        sie will nicht nur einzelnen Menschen helfen, sondern wichtig sein:
-        als Stimme, als Pers\u00f6nlichkeit, als Wohlt\u00e4ter der \u00d6ffentlichkeit.
-        Der Einserfl\u00fcgel verleiht ihr moralische \u00dcberzeugungskraft und Selbstgerechtigkeit \u2013
-        die tiefe \u00dcberzeugung, tats\u00e4chlich gut zu sein.
-        Unterwegers Fall ist die reinste Verk\u00f6rperung dieser Dynamik:
-        ein Mann, der die Gesellschaft von seiner G\u00fcte \u00fcberzeugte
-        und dabei nie aufgeh\u00f6rt hatte zu t\u00f6ten.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>:
-        Kontrollverlust, Brutalit\u00e4t, das Ende der Fassade.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Golden Retriever</h3>
-        <p class="vb-intro">
-        Der <strong>Golden Retriever</strong> ist die Tierentsprechung der sozialen Zwei.
-        Er ist das Tier, das jeder liebt: freundlich, zugewandt, stets bereit zu helfen,
-        immer mit einem offenen Herzen. Er will gefallen \u2013 und er gelingt darin meisterhaft.
-        Er ist sozial ausgerichtet, braucht Best\u00e4tigung, lebt von der W\u00e4rme der Gemeinschaft.
-        Jack Unterweger war der perfekte Golden Retriever:
-        charmant, redegewandt, scheinbar gel\u00e4utert, von Intellektuellen geliebt.
-        Er weckte in Menschen den Wunsch, ihm zu helfen, ihn zu f\u00f6rdern, an ihn zu glauben.
-        Und dieser Wunsch kostete neun Frauen das Leben.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei: Wichtigkeit als Lebensinhalt</h3>
-        <p class="vb-intro"><strong>a) Das Grundmuster der sozialen Zwei:</strong>
-        Die soziale Zwei wird in der Enneagramm-Tradition als <em>\u201eAmbition"</em> beschrieben.
-        Sie will nicht nur hilfreich sein \u2013 sie will bedeutsam sein.
-        Sie sucht keine stille Anerkennung, sondern \u00f6ffentliche Sichtbarkeit:
-        als Wohlt\u00e4ter, als Mentor, als Stimme der Guten.
-        Die Hilfe, die sie gibt, ist oft echt \u2013 aber sie hat immer einen sozialen Preis:
-        Aufmerksamkeit, Bewunderung, Einfluss.
-        Unterweger spielte diese Rolle mit virtuoser Pr\u00e4zision.
-        Im Gef\u00e4ngnis schrieb er, las er, lernte er \u2013 und schuf ein Bild von sich,
-        das er der Gesellschaft spiegelte: der gel\u00e4uterte K\u00fcnstler,
-        der lebende Beweis, dass Rehabilitation m\u00f6glich ist.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Die moralische Fassade:</strong>
-        Der Einserfl\u00fcgel verleiht der sozialen Zwei eine moralische \u00dcberzeugungskraft,
-        die gef\u00e4hrlich ist \u2013 weil sie echt wirkt.
-        Der SO2w1er glaubt selbst daran, gut zu sein.
-        Er hat ein inneres Regelwerk, das seine Handlungen rechtfertigt.
-        Unterweger pr\u00e4sentierte sich als Opfer seiner Herkunft,
-        das durch Literatur und Selbstreflexion zur Reife gefunden hatte.
-        Dieser Einserfl\u00fcgel gab ihm Glaubw\u00fcrdigkeit \u2013
-        die \u00dcberzeugung klang nicht gespielt, weil er sie internalisiert hatte.
-        Dahinter lag das Muster der Zwei: Stolz \u2013 die Unf\u00e4higkeit,
-        die eigene Bed\u00fcrftigkeit und Dunkelheit zu sehen.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
-        das unbewusste Festhalten an der eigenen G\u00fcte,
-        das Nicht-wahrhaben-Wollen des eigenen Schattens.
-        Der Stolz der sozialen Zwei zeigt sich als kollektiver Anspruch:
-        Ich bin gut f\u00fcr die Gesellschaft. Ich bin es, der z\u00e4hlt.
-        Unterweger konnte nicht zulassen, dass sein Bild besch\u00e4digt wurde.
-        Als die Ermittlungen begannen, legte er die Rolle des Verleumdetenauf:
-        Er sei Opfer einer Medienkampagne, eines vorurteilsbelasteten Systems.
-        Bis zuletzt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Herkunft und erster Mord (1974):</strong>
-        Jack Unterweger wurde als uneheliches Kind einer \u00f6sterreichischen Prostituierten
-        und eines amerikanischen Soldaten geboren.
-        Seinen Vater hat er nie kennengelernt.
-        Er wuchs in \u00e4rmsten Verh\u00e4ltnissen auf, gr\u00f6\u00dftenteils beim Gro\u00dfvater m\u00fctterlicherseits,
-        in einer Welt ohne Stabilit\u00e4t, ohne Bildung, ohne Perspektive.
-        Er wurde fr\u00fch straff\u00e4llig \u2013 Diebstahl, Einbr\u00fcche, kleinere Delikte.
-        Am 11. Dezember 1974 ermordete er die 18-j\u00e4hrige
-        <strong>Margaret Sch\u00e4fer</strong> in Salzburg:
-        Er w\u00fcrgte sie mit ihrem eigenen BH \u2013 eine Methode, die er auch bei sp\u00e4teren Taten
-        verwendete. Er wurde 1976 zu lebenslanger Haft verurteilt.</p>
-        <p class="vb-intro"><strong>b) Die Gef\u00e4ngnisjahre und die literarische Verwandlung:</strong>
-        Im Gef\u00e4ngnis begann Unterweger zu schreiben.
-        Er verfasste Gedichte, Theaterst\u00fccke, Kurzgeschichten \u2013
-        und schlie\u00dflich seine Autobiografie <em>Fegefeuer oder die Reise ins Zuchthaus</em>,
-        die 1983 im Jugend &amp; Volk Verlag erschien und ein au\u00dfergew\u00f6hnliches Echo fand.
-        \u00d6sterreichische Intellektuelle \u2013 darunter Elfriede Jelinek, Heinrich B\u00f6ll
-        und zahlreiche Journalisten \u2013 erkannten in ihm das Paradebeispiel
-        einer gelungenen Resozialisierung.
-        Sie setzten sich f\u00fcr seine Begnadigung ein.
-        Nach 15 Jahren Haft wurde Unterweger am 23. Mai 1990 vorzeitig entlassen.
-        Was folgte, war das Ende der Illusion.</p>
-        <p class="vb-intro"><strong>c) Die Morde nach der Entlassung (1990\u20131991):</strong>
-        Innerhalb weniger Monate nach seiner Freilassung begann Unterweger erneut zu t\u00f6ten.
-        Seine Opfer waren ausnahmslos Prostituierte \u2013
-        Frauen, die er in Wien, Graz und anderen \u00f6sterreichischen St\u00e4dten ansprach.
-        Er w\u00fcrgte sie mit ihrem eigenen BH, dem unverwechselbaren Merkmal seiner Methode.
-        Zwischen 1990 und 1991 wurden ihm neun Morde in \u00d6sterreich zugeordnet:
-        <strong>Brunhilde Masser</strong> (26), <strong>Heidemarie Hammerer</strong> (31),
-        <strong>Elfriede Schrempf</strong> (35), <strong>Regina Prem</strong> (39),
-        <strong>Silvia Zagler</strong> (23), <strong>Sabine Moitzi</strong> (25),
-        <strong>Karin Eroglu</strong> (25), <strong>Dragica Rajic</strong> (34),
-        <strong>Marica Horvat</strong> (35).
-        Parallel dazu arbeitete Unterweger als Journalist und TV-Moderator,
-        berichtete f\u00fcr den ORF \u00fcber Prostituierte und das Rotlichtmilieu \u2013
-        und f\u00fchrte dabei die Polizei an die Fundorte seiner Opfer.</p>
-        <p class="vb-intro"><strong>d) Los Angeles (1991):</strong>
-        Im Fr\u00fchjahr 1991 reiste Unterweger auf Einladung des Los Angeles Police Department
-        nach Kalifornien \u2013 als akkreditierter Journalist, der \u00fcber amerikanische Strafverfolgung
-        berichten sollte. W\u00e4hrend seines Aufenthalts wurden drei Prostituierte in LA ermordet,
-        alle auf dieselbe Weise: gew\u00fcrgt mit ihrem eigenen BH.
-        Unterweger wurde auch f\u00fcr diese Morde verd\u00e4chtig,
-        konnte jedoch nur in \u00d6sterreich angeklagt werden.</p>
-        <p class="vb-intro"><strong>e) Verhaftung, Flucht und Ende:</strong>
-        Als die \u00f6sterreichische Polizei 1992 \u00f6ffentlich nach Unterweger fahndete,
-        floh er zun\u00e4chst nach Kanada und dann in die USA.
-        Im Februar 1992 wurde er in Miami Beach verhaftet \u2013
-        in Begleitung seiner 18-j\u00e4hrigen Freundin Bianca Mrak.
-        Er wurde ausgeliefert und stand im April 1994 vor Gericht in Graz.
-        Am 28. Juni 1994 wurde er in erster Instanz wegen neun Mordes schuldig gesprochen
-        und zu lebenslanger Haft verurteilt.
-        In der Nacht nach dem Urteil erh\u00e4ngte er sich in seiner Gef\u00e4ngniszelle
-        mit dem Kordel seines Trainingsanzugs.
-        Er war 43 Jahre alt.
-        Der Golden Retriever, der aufgeh\u00f6rt hatte zu spielen,
-        w\u00e4hlte den einzigen Ausweg, der die Fassade nicht vollst\u00e4ndig einrei\u00dfen lie\u00df.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Der Fall Jack Unterweger ist das psychologische Lehrst\u00fcck
-        des Sozialen Typs 2 in seiner dunkelsten Auspr\u00e4gung.
-        Die Gesellschaft wollte glauben, dass er sich ge\u00e4ndert hatte \u2013
-        und die soziale Zwei lieferte ihr genau diesen Glauben.
-        Sie projizierte auf ihn, was sie sehen wollte:
-        G\u00fcte, Wandel, Hoffnung.
-        Er reflektierte es zur\u00fcck \u2013 und t\u00f6tete weiter.
-        Der Stolz der Zwei verhinderte jede echte Auseinandersetzung mit dem Schatten.
-        Der Einserfl\u00fcgel sch\u00fctzte die \u00dcberzeugung, gut zu sein.
-        Und die soziale Ausrichtung machte aus einem Serienm\u00f6rder
-        eine \u00f6ffentliche Symbolfigur der Rehabilitation.
-        Was diesen Fall von fast allen anderen in dieser Sammlung unterscheidet:
-        Unterweger h\u00e4tte beinahe gewonnen.
-        Nicht durch Flucht, sondern durch \u00dcberzeugungskraft.
-        </p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
-        <div style="font-size:0.88rem;line-height:1.8;">
-          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Johann \u201eJack" Unterweger</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. August 1950, Judenburg, Steiermark</p>
-          <p style="margin:0 0 0.3rem;"><strong>Gestorben:</strong> 29. Juni 1994, Graz (Suizid in der Gef\u00e4ngniszelle)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SO2w1 \u2013 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
-          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Golden Retriever</p>
-          <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> mind. 10 Morde (1 in 1974, 9 nach Entlassung 1990\u20131991), m\u00f6glicherweise 3 weitere in Los Angeles</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
-          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
-        </div>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w1 im systemischen Vergleich \u2013 Ambition, gesellschaftliche Bedeutung und ihr Schatten.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jack Unterweger wurde 1994 in neun F\u00e4llen des Mordes schuldig gesprochen und nahm sich noch in derselben Nacht das Leben. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Sektenf\u00fchrer"},
-        {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"}
       ])}
     </div>
   `);

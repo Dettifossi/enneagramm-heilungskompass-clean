@@ -1,3 +1,211 @@
+function jackUnterweegerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jack Unterweger \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/jack-unterweger-portrait.jpg" alt="Jack Unterweger \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Unterweger</p>
+        <p class="krim-portrait-typ">SO2w1 \u00b7 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Dichter und der Tod" \u2013 \u00d6sterreich 1974 & 1990\u20131991</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johann \u201eJack" Unterweger</strong>, geboren am 16. August 1950 in Judenburg,
+        Steiermark, gestorben am 29. Juni 1994 in Graz,
+        war ein \u00f6sterreichischer Serienm\u00f6rder, Schriftsteller und Journalist \u2013
+        und einer der bemerkenswertesten F\u00e4lle in der Geschichte der europ\u00e4ischen Kriminologie.
+        Er ermordete 1974 eine junge Frau, wurde zu lebenslanger Haft verurteilt
+        und entwickelte sich im Gef\u00e4ngnis zu einem gefeierten Literaten.
+        Seine Autobiografie <em>Fegefeuer \u2013 oder die Reise ins Zuchthaus</em>
+        wurde ein Bestseller; \u00f6sterreichische Intellektuelle,
+        darunter Elfriede Jelinek, setzten sich f\u00fcr seine Freilassung ein.
+        1990 vorzeitig entlassen, mordete er unmittelbar weiter \u2013
+        insgesamt neun Frauen in \u00d6sterreich, m\u00f6glicherweise drei weitere in Los Angeles.
+        1994 wurde er in Graz erneut zu lebenslanger Haft verurteilt.
+        In der Nacht nach dem Urteil erh\u00e4ngte er sich in seiner Gef\u00e4ngniszelle.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der die Gesellschaft
+        von seiner G\u00fcte \u00fcberzeugte, sie dabei systematisch belog.
+      </p>
+
+      <div class="vb-section" style="background:rgba(0,80,60,0.06);border-left:3px solid #00503c;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jack Unterweger</strong> wird dem <strong>Sozialen Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
+        Die soziale Zwei ist auf gesellschaftliche Anerkennung ausgerichtet \u2013
+        sie will nicht nur einzelnen Menschen helfen, sondern wichtig sein:
+        als Stimme, als Pers\u00f6nlichkeit, als Wohlt\u00e4ter der \u00d6ffentlichkeit.
+        Der Einserfl\u00fcgel verleiht ihr moralische \u00dcberzeugungskraft und Selbstgerechtigkeit \u2013
+        die tiefe \u00dcberzeugung, tats\u00e4chlich gut zu sein.
+        Unterwegers Fall ist die reinste Verk\u00f6rperung dieser Dynamik:
+        ein Mann, der die Gesellschaft von seiner G\u00fcte \u00fcberzeugte
+        und dabei nie aufgeh\u00f6rt hatte zu t\u00f6ten.
+        Der Stresspunkt liegt bei der <strong>Acht</strong>:
+        Kontrollverlust, Brutalit\u00e4t, das Ende der Fassade.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Golden Retriever</h3>
+        <p class="vb-intro">
+        Der <strong>Golden Retriever</strong> ist die Tierentsprechung der sozialen Zwei.
+        Er ist das Tier, das jeder liebt: freundlich, zugewandt, stets bereit zu helfen,
+        immer mit einem offenen Herzen. Er will gefallen \u2013 und er gelingt darin meisterhaft.
+        Er ist sozial ausgerichtet, braucht Best\u00e4tigung, lebt von der W\u00e4rme der Gemeinschaft.
+        Jack Unterweger war der perfekte Golden Retriever:
+        charmant, redegewandt, scheinbar gel\u00e4utert, von Intellektuellen geliebt.
+        Er weckte in Menschen den Wunsch, ihm zu helfen, ihn zu f\u00f6rdern, an ihn zu glauben.
+        Und dieser Wunsch kostete neun Frauen das Leben.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Zwei: Wichtigkeit als Lebensinhalt</h3>
+        <p class="vb-intro"><strong>a) Das Grundmuster der sozialen Zwei:</strong>
+        Die soziale Zwei wird in der Enneagramm-Tradition als <em>\u201eAmbition"</em> beschrieben.
+        Sie will nicht nur hilfreich sein \u2013 sie will bedeutsam sein.
+        Sie sucht keine stille Anerkennung, sondern \u00f6ffentliche Sichtbarkeit:
+        als Wohlt\u00e4ter, als Mentor, als Stimme der Guten.
+        Die Hilfe, die sie gibt, ist oft echt \u2013 aber sie hat immer einen sozialen Preis:
+        Aufmerksamkeit, Bewunderung, Einfluss.
+        Unterweger spielte diese Rolle mit virtuoser Pr\u00e4zision.
+        Im Gef\u00e4ngnis schrieb er, las er, lernte er \u2013 und schuf ein Bild von sich,
+        das er der Gesellschaft spiegelte: der gel\u00e4uterte K\u00fcnstler,
+        der lebende Beweis, dass Rehabilitation m\u00f6glich ist.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Die moralische Fassade:</strong>
+        Der Einserfl\u00fcgel verleiht der sozialen Zwei eine moralische \u00dcberzeugungskraft,
+        die gef\u00e4hrlich ist \u2013 weil sie echt wirkt.
+        Der SO2w1er glaubt selbst daran, gut zu sein.
+        Er hat ein inneres Regelwerk, das seine Handlungen rechtfertigt.
+        Unterweger pr\u00e4sentierte sich als Opfer seiner Herkunft,
+        das durch Literatur und Selbstreflexion zur Reife gefunden hatte.
+        Dieser Einserfl\u00fcgel gab ihm Glaubw\u00fcrdigkeit \u2013
+        die \u00dcberzeugung klang nicht gespielt, weil er sie internalisiert hatte.
+        Dahinter lag das Muster der Zwei: Stolz \u2013 die Unf\u00e4higkeit,
+        die eigene Bed\u00fcrftigkeit und Dunkelheit zu sehen.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
+        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
+        das unbewusste Festhalten an der eigenen G\u00fcte,
+        das Nicht-wahrhaben-Wollen des eigenen Schattens.
+        Der Stolz der sozialen Zwei zeigt sich als kollektiver Anspruch:
+        Ich bin gut f\u00fcr die Gesellschaft. Ich bin es, der z\u00e4hlt.
+        Unterweger konnte nicht zulassen, dass sein Bild besch\u00e4digt wurde.
+        Als die Ermittlungen begannen, legte er die Rolle des Verleumdetenauf:
+        Er sei Opfer einer Medienkampagne, eines vorurteilsbelasteten Systems.
+        Bis zuletzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Herkunft und erster Mord (1974):</strong>
+        Jack Unterweger wurde als uneheliches Kind einer \u00f6sterreichischen Prostituierten
+        und eines amerikanischen Soldaten geboren.
+        Seinen Vater hat er nie kennengelernt.
+        Er wuchs in \u00e4rmsten Verh\u00e4ltnissen auf, gr\u00f6\u00dftenteils beim Gro\u00dfvater m\u00fctterlicherseits,
+        in einer Welt ohne Stabilit\u00e4t, ohne Bildung, ohne Perspektive.
+        Er wurde fr\u00fch straff\u00e4llig \u2013 Diebstahl, Einbr\u00fcche, kleinere Delikte.
+        Am 11. Dezember 1974 ermordete er die 18-j\u00e4hrige
+        <strong>Margaret Sch\u00e4fer</strong> in Salzburg:
+        Er w\u00fcrgte sie mit ihrem eigenen BH \u2013 eine Methode, die er auch bei sp\u00e4teren Taten
+        verwendete. Er wurde 1976 zu lebenslanger Haft verurteilt.</p>
+        <p class="vb-intro"><strong>b) Die Gef\u00e4ngnisjahre und die literarische Verwandlung:</strong>
+        Im Gef\u00e4ngnis begann Unterweger zu schreiben.
+        Er verfasste Gedichte, Theaterst\u00fccke, Kurzgeschichten \u2013
+        und schlie\u00dflich seine Autobiografie <em>Fegefeuer oder die Reise ins Zuchthaus</em>,
+        die 1983 im Jugend &amp; Volk Verlag erschien und ein au\u00dfergew\u00f6hnliches Echo fand.
+        \u00d6sterreichische Intellektuelle \u2013 darunter Elfriede Jelinek, Heinrich B\u00f6ll
+        und zahlreiche Journalisten \u2013 erkannten in ihm das Paradebeispiel
+        einer gelungenen Resozialisierung.
+        Sie setzten sich f\u00fcr seine Begnadigung ein.
+        Nach 15 Jahren Haft wurde Unterweger am 23. Mai 1990 vorzeitig entlassen.
+        Was folgte, war das Ende der Illusion.</p>
+        <p class="vb-intro"><strong>c) Die Morde nach der Entlassung (1990\u20131991):</strong>
+        Innerhalb weniger Monate nach seiner Freilassung begann Unterweger erneut zu t\u00f6ten.
+        Seine Opfer waren ausnahmslos Prostituierte \u2013
+        Frauen, die er in Wien, Graz und anderen \u00f6sterreichischen St\u00e4dten ansprach.
+        Er w\u00fcrgte sie mit ihrem eigenen BH, dem unverwechselbaren Merkmal seiner Methode.
+        Zwischen 1990 und 1991 wurden ihm neun Morde in \u00d6sterreich zugeordnet:
+        <strong>Brunhilde Masser</strong> (26), <strong>Heidemarie Hammerer</strong> (31),
+        <strong>Elfriede Schrempf</strong> (35), <strong>Regina Prem</strong> (39),
+        <strong>Silvia Zagler</strong> (23), <strong>Sabine Moitzi</strong> (25),
+        <strong>Karin Eroglu</strong> (25), <strong>Dragica Rajic</strong> (34),
+        <strong>Marica Horvat</strong> (35).
+        Parallel dazu arbeitete Unterweger als Journalist und TV-Moderator,
+        berichtete f\u00fcr den ORF \u00fcber Prostituierte und das Rotlichtmilieu \u2013
+        und f\u00fchrte dabei die Polizei an die Fundorte seiner Opfer.</p>
+        <p class="vb-intro"><strong>d) Los Angeles (1991):</strong>
+        Im Fr\u00fchjahr 1991 reiste Unterweger auf Einladung des Los Angeles Police Department
+        nach Kalifornien \u2013 als akkreditierter Journalist, der \u00fcber amerikanische Strafverfolgung
+        berichten sollte. W\u00e4hrend seines Aufenthalts wurden drei Prostituierte in LA ermordet,
+        alle auf dieselbe Weise: gew\u00fcrgt mit ihrem eigenen BH.
+        Unterweger wurde auch f\u00fcr diese Morde verd\u00e4chtig,
+        konnte jedoch nur in \u00d6sterreich angeklagt werden.</p>
+        <p class="vb-intro"><strong>e) Verhaftung, Flucht und Ende:</strong>
+        Als die \u00f6sterreichische Polizei 1992 \u00f6ffentlich nach Unterweger fahndete,
+        floh er zun\u00e4chst nach Kanada und dann in die USA.
+        Im Februar 1992 wurde er in Miami Beach verhaftet \u2013
+        in Begleitung seiner 18-j\u00e4hrigen Freundin Bianca Mrak.
+        Er wurde ausgeliefert und stand im April 1994 vor Gericht in Graz.
+        Am 28. Juni 1994 wurde er in erster Instanz wegen neun Mordes schuldig gesprochen
+        und zu lebenslanger Haft verurteilt.
+        In der Nacht nach dem Urteil erh\u00e4ngte er sich in seiner Gef\u00e4ngniszelle
+        mit dem Kordel seines Trainingsanzugs.
+        Er war 43 Jahre alt.
+        Der Golden Retriever, der aufgeh\u00f6rt hatte zu spielen,
+        w\u00e4hlte den einzigen Ausweg, der die Fassade nicht vollst\u00e4ndig einrei\u00dfen lie\u00df.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Der Fall Jack Unterweger ist das psychologische Lehrst\u00fcck
+        des Sozialen Typs 2 in seiner dunkelsten Auspr\u00e4gung.
+        Die Gesellschaft wollte glauben, dass er sich ge\u00e4ndert hatte \u2013
+        und die soziale Zwei lieferte ihr genau diesen Glauben.
+        Sie projizierte auf ihn, was sie sehen wollte:
+        G\u00fcte, Wandel, Hoffnung.
+        Er reflektierte es zur\u00fcck \u2013 und t\u00f6tete weiter.
+        Der Stolz der Zwei verhinderte jede echte Auseinandersetzung mit dem Schatten.
+        Der Einserfl\u00fcgel sch\u00fctzte die \u00dcberzeugung, gut zu sein.
+        Und die soziale Ausrichtung machte aus einem Serienm\u00f6rder
+        eine \u00f6ffentliche Symbolfigur der Rehabilitation.
+        Was diesen Fall von fast allen anderen in dieser Sammlung unterscheidet:
+        Unterweger h\u00e4tte beinahe gewonnen.
+        Nicht durch Flucht, sondern durch \u00dcberzeugungskraft.
+        </p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
+        <div style="font-size:0.88rem;line-height:1.8;">
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Johann \u201eJack" Unterweger</p>
+          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 16. August 1950, Judenburg, Steiermark</p>
+          <p style="margin:0 0 0.3rem;"><strong>Gestorben:</strong> 29. Juni 1994, Graz (Suizid in der Gef\u00e4ngniszelle)</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SO2w1 \u2013 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Golden Retriever</p>
+          <p style="margin:0 0 0.3rem;"><strong>Opfer:</strong> mind. 10 Morde (1 in 1974, 9 nach Entlassung 1990\u20131991), m\u00f6glicherweise 3 weitere in Los Angeles</p>
+          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
+          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
+        </div>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SO2w1 im systemischen Vergleich \u2013 Ambition, gesellschaftliche Bedeutung und ihr Schatten.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jack Unterweger wurde 1994 in neun F\u00e4llen des Mordes schuldig gesprochen und nahm sich noch in derselben Nacht das Leben. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jim-jones", label:"Kriminalpsychologie: Jim Jones (SO2w3) \u2013 Sektenf\u00fchrer"},
+        {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"}
+      ])}
+    </div>
+  `);
+}
+
 function jimJonesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -8247,114 +8455,6 @@ function flugzeugmodelleDer9TypenPage() {
       ${relatedLinks([
         {route:"brillenmodelle-der-9-typen", label:"Brillenmodelle der 9 Typen"},
         {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-        {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
-      ])}
-    </div>
-  `);
-}
-
-function brillenmodelleDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Brillenmodelle der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Eine Brille ist mehr als ein Sehhilfsmittel \u2013 sie ist das erste, was andere von uns wahrnehmen. Welches Brillenmodell passt zu welchem Enneagrammprinzip? Detlef Rathmer hat sich selbst als Modell zur Verf\u00fcgung gestellt und alle neun Modelle aufgesetzt.</p>
-      <img src="./assets/brillenmodelle-der-9-typen.jpg" alt="Brillenmodelle der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Ray-Ban Clubmaster: Klassisch und zeitlos</h3>
-        <p class="vb-intro">Die Ray-Ban Clubmaster ist eine der ikonischsten Brillen der Welt \u2013 und das seit 1965. Ihr Markenzeichen ist die Kombination aus Browline-Fassung oben und rahmenlosem Unterteil: eine klare Linie, nichts \u00dcberfl\u00fcssiges, sofort erkennbar. Die Clubmaster tr\u00e4gt eine Geschichte in sich: Sie war die Brille der Intellektuellen, der Architekten, der Lehrer \u2013 Menschen, die Wert auf Form und Haltung legen. Sie wirkt ordentlich, ohne steif zu sein. Pr\u00e4zise, ohne kalt zu wirken. Das Prinzip des Enneagrammtyps 1: Die sch\u00f6nste Brille ist die, die genau das tut, was eine Brille tun soll \u2013 und dabei keine Aufmerksamkeit auf sich zieht. Die Clubmaster ist kein Accessoire. Sie ist eine Haltung.</p>
-        <p class="vb-intro">Malcolm X \u2013 B\u00fcrgerrechtler, Redner und einer der eindringlichsten moralischen Stimmen des 20. Jahrhunderts \u2013 trug die Clubmaster zu einer Zeit, als Brillen noch kein Modeaccessoire waren, sondern ein Zeichen von Ernsthaftigkeit und Haltung. Aus Sicht von Detlef Rathmer war Malcolm X ein sozialer Typ Eins mit Neunerfl\u00fcgel (SO1w9): ein Mensch mit unbedingtem moralischen Kompass, der sein Leben dem Kampf f\u00fcr das Richtige widmete \u2013 unerbittlich in seiner \u00dcberzeugung, aber mit einer Tiefe und W\u00fcrde, die \u00fcber blo\u00dfe Emp\u00f6rung hinausging. Der Neunerfl\u00fcgel gab ihm jene ruhige, fast priesterliche Pr\u00e4senz, die seine Reden so wirkungsvoll machte: Er schrie nicht \u2013 er stellte fest. Er wurde 1965 ermordet, mit 39 Jahren, mitten in einer Zeit des Wandels, den er mitangesto\u00dfen hatte. Die Clubmaster passte zu ihm wie keine andere Brille: klar, prinzipientreu, ohne Kompromiss.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Cat-Eye: Warm und einladend</h3>
-        <p class="vb-intro">Die Cat-Eye-Brille entstand in den 1950er-Jahren und wurde schnell zum Symbol f\u00fcr W\u00e4rme, Charme und Zugewandtheit. Ihre nach oben geschwungenen Ecken geben dem Gesicht einen freundlichen, einladenden Ausdruck \u2013 als w\u00fcrde die Brille selbst l\u00e4cheln. Sie ist weiblich konnotiert, ohne ausschlie\u00dfend zu sein, und steht f\u00fcr das Bed\u00fcrfnis, gemocht zu werden und andere zu erfreuen. Interessant: Die Cat-Eye erlebt seit Jahren eine Renaissance \u2013 gerade weil sie in einer Welt der k\u00fchlen Minimalismus-\u00c4sthetik W\u00e4rme ausstrahlt. Das Prinzip des Enneagrammtyps 2: Eine Brille, die das Gesicht \u00f6ffnet, statt es zu rahmen. Die Cat-Eye macht den Tr\u00e4ger zug\u00e4nglicher \u2013 und das ist ihr eigentlicher Zweck.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Oakley: Leistung und Dynamik</h3>
-        <p class="vb-intro">Oakley wurde 1975 in S\u00fcdkalifornien gegr\u00fcndet \u2013 urspr\u00fcnglich f\u00fcr BMX-Fahrer und Motocross-Piloten, die Schutz und Performance brauchten. Heute ist Oakley die Brille der Weltklasseathleten: Ski-Rennl\u00e4ufer, Triathleten, Tour-de-France-Sieger tragen Oakley. Sie ist aerodynamisch, kratzfest, mit Technologien entwickelt, die urspr\u00fcnglich f\u00fcr die Raumfahrt entworfen wurden. Eine Oakley signalisiert: Ich bin bereit. Ich bin fokussiert. Ich bin auf Leistung ausgerichtet. Das Prinzip des Enneagrammtyps 3: Die Brille als Ausr\u00fcstung, nicht als Ornament. Oakley macht keine halben Sachen \u2013 und ihre Tr\u00e4ger auch nicht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 John Lennon Round Glasses: Unverwechselbarer Ausdruck</h3>
-        <p class="vb-intro">Die runden Brillen, die John Lennon ab Mitte der 1960er-Jahre trug, wurden zu einem der st\u00e4rksten visuellen Symbole der Popkultur. Lennon w\u00e4hlte sie nicht wegen der Mode \u2013 er w\u00e4hlte sie, weil sie zu ihm passten: unkonventionell, sanft, ein bisschen verspielt, tief. Die John-Lennon-Brille ist nicht laut. Sie ist eigen. Sie wird von Menschen getragen, die nicht der Masse folgen wollen, die eine innere Welt haben, die gr\u00f6\u00dfer ist als die \u00e4u\u00dfere. In den 1990ern wurde sie wieder popul\u00e4r durch Alternativ-K\u00fcnstler, Dichter, Musiker. Das Prinzip des Enneagrammtyps 4: Die Brille als Selbstausdruck. Nicht: Was ist modern? Sondern: Was bin ich? Die runde Brille sagt: Ich sehe die Welt anders.</p>
-        <p class="vb-intro">John Lennon selbst ist aus Sicht von Detlef Rathmer ein Prachtexemplar eines sozialen Typ Vier mit F\u00fcnferfl\u00fcgel (SO4w5) \u2013 vielleicht die reinste Verk\u00f6rperung dieses Subtyps in der Popgeschichte. Der soziale Vierer k\u00e4mpft nicht nur um seine eigene Identit\u00e4t, sondern tr\u00e4gt seinen Schmerz und seine Einzigartigkeit in die Welt hinaus \u2013 als k\u00fcnstlerischen und gesellschaftlichen Auftrag. Lennon schrieb keine pers\u00f6nlichen Lieder nur f\u00fcr sich: er schrieb \u201eImagine" f\u00fcr die Menschheit, \u201eWorking Class Hero" f\u00fcr die Unterdr\u00fcckten, \u201eWoman" als Liebeserkl\u00e4rung mit universalem Anspruch. Der F\u00fcnferfl\u00fcgel gab ihm die Tiefe und Distanz des Beobachters \u2013 er analysierte die Welt, bevor er sie besang. Und seine runde Brille war das sichtbare Zeichen dieser inneren Haltung: Ich geh\u00f6re nicht dazu. Ich sehe euch \u2013 aber von einem anderen Platz aus.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Aviator: Analytischer Weitblick</h3>
-        <p class="vb-intro">Die Aviator-Brille wurde 1936 von Bausch & Lomb f\u00fcr US-Milit\u00e4rpiloten entwickelt \u2013 mit einem einzigen Ziel: maximales Sichtfeld, minimale Ablenkung. Die tropfenf\u00f6rmigen Gl\u00e4ser decken das gesamte Gesichtsfeld ab und geben dem Tr\u00e4ger das Gef\u00fchl, alles im Blick zu haben. Tom Cruise machte sie 1986 in \u201eTop Gun" popul\u00e4r \u2013 aber ihre eigentliche Herkunft ist analytisch, nicht glamour\u00f6s. Sie ist die Brille des Beobachters: pr\u00e4zise, funktional, auf \u00dcberblick ausgerichtet. Das Prinzip des Enneagrammtyps 5: Eine Brille, die urspr\u00fcnglich daf\u00fcr gebaut wurde, in gro\u00dfen H\u00f6hen alles zu sehen. Der Aviator ist kein Statement \u2013 er ist ein Werkzeug des Weitblicks.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Wayfarer: Verl\u00e4sslich und bew\u00e4hrt</h3>
-        <p class="vb-intro">Die Ray-Ban Wayfarer wurde 1952 eingef\u00fchrt und ist die meistverkaufte Sonnenbrille der Geschichte. Sie \u00fcberlebte Modetrends, Jahrzehnte des Wandels, den Aufstieg und Fall unz\u00e4hliger Konkurrenten \u2013 und sie ist noch immer da, unver\u00e4ndert in ihren Grundproportionen. Die Wayfarer ist die Brille des Vertrauens: Jeder kennt sie, jeder hat schon eine getragen oder jemanden gekannt, der sie trug. Sie ist nicht die aufregendste Wahl \u2013 sie ist die sicherste. Und das ist ihr Vorteil. Das Prinzip des Enneagrammtyps 6: Die beste Brille ist die, die seit 70 Jahren nicht entt\u00e4uscht hat. Verl\u00e4sslichkeit ist keine Tugend der Langweiligen \u2013 sie ist die h\u00f6chste Form von Treue.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Bunte Retro-Brille: Freude und Lebendigkeit</h3>
-        <p class="vb-intro">Die bunte Retro-Brille ist das genaue Gegenteil von Understatement: Sie kommt in Orange, T\u00fcrkis, Lila, Schildpatt-Gemisch \u2013 und sie will gesehen werden. Sie greift Designs der 1960er und 70er Jahre auf und tr\u00e4gt sie mit Begeisterung in die Gegenwart. Wer eine bunte Retro-Brille tr\u00e4gt, hat eine Entscheidung getroffen: Ich mache das Leben zum Erlebnis. Auch das Sehen soll Freude machen. Elton John baute seine gesamte B\u00fchnenidentit\u00e4t um seine Brillensammlung \u2013 Hunderte von Modellen, jedes ein Fest. Das Prinzip des Enneagrammtyps 7: Eine Brille darf feiern. Das Leben hat genug graue Momente \u2013 die Brille muss es nicht auch sein.</p>
-        <p class="vb-intro">Das bekannteste Gesicht hinter der bunten Brille ist ohne Zweifel Elton John \u2013 Musiker, Weltstar und Besitzer einer der au\u00dfergew\u00f6hnlichsten Brillensammlungen der Geschichte: \u00fcber 250.000 Brillen, darunter herzf\u00f6rmige, mit Glitzersteinen besetzte, leuchtende und gefl\u00fcgelte Modelle. F\u00fcr Elton John ist die Brille nie ein Accessoire gewesen \u2013 sie ist B\u00fchne, Kost\u00fcm und Identit\u00e4t in einem. Er hat sich selbst einmal so beschrieben: \u201eIch bin der Mann mit den verr\u00fcckten Brillen." Vom Enneagramm her ist Elton John nach Einsch\u00e4tzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Sechserfl\u00fcgel (SE7w6): der Familienmensch unter den Siebenern, der seine Lebensfreude nicht nur auf der B\u00fchne auslebt, sondern tief verankert in Zugeh\u00f6rigkeit, Loyalit\u00e4t und dem Bed\u00fcrfnis nach einem sicheren Nest. Der Sechserfl\u00fcgel gibt ihm W\u00e4rme und Treue \u2013 er ist seit Jahrzehnten mit seinem Partner David Furnish verheiratet, engagiert sich f\u00fcr AIDS-Forschung und adoptierte zwei S\u00f6hne. Elton Johns Brillen sagen: Das Leben ist ein Fest \u2013 und ich lade alle ein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Shield: Dominanz und Schutz</h3>
-        <p class="vb-intro">Die Shield-Brille \u2013 mit einem einzigen, durchgehenden Glas statt zweier getrennter Gl\u00e4ser \u2013 ist die Brille der Dominanz. Sie verdeckt mehr, gibt weniger preis, wirkt wie eine R\u00fcstung vor dem Gesicht. Urspr\u00fcnglich f\u00fcr Extremsport und milit\u00e4rische Anwendungen entwickelt, wurde sie zum bevorzugten Accessoire von Rappern, Motorradrennfahrern und Bodyguards. Eine Shield-Brille sagt: Ich beobachte \u2013 und Du wei\u00dft nicht genau, wie. Das Ungleichgewicht zwischen dem, was der Tr\u00e4ger sieht, und dem, was andere sehen, ist gewollt. Das Prinzip des Enneagrammtyps 8: Die Brille als Territorium. Wer eine Shield tr\u00e4gt, kontrolliert, was von sich nach au\u00dfen dringt \u2013 und beh\u00e4lt dabei den vollen \u00dcberblick.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Panto: Runde Harmonie</h3>
-        <p class="vb-intro">Die Panto-Brille \u2013 eine leicht abgeflachte, ovale Form, weich und ausgewogen \u2013 ist die harmonischste aller Brillenformen. Ihre Rundung schlie\u00dft keine Ecken ein, setzt keine Kanten. Sie passt zu fast jedem Gesicht, fast jedem Stil, fast jedem Anlass. Die Panto hat keine Feinde. Sie ist die Brille der Vermittler: nicht zu auff\u00e4llig, nicht zu zur\u00fcckhaltend, einfach angenehm pr\u00e4sent. In der klassischen Brillenmacherei gilt die Panto als die Form, die der nat\u00fcrlichen Augenform am n\u00e4chsten kommt. Das Prinzip des Enneagrammtyps 9: Die sch\u00f6nste Form ist die, die nirgends aneckt. Die Panto sagt nicht \u201eSchau mich an" \u2013 sie sagt \u201eIch bin da, wenn Du mich brauchst."</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"luxusuhren-der-9-typen", label:"Luxusuhren der 9 Typen"},
-        {route:"flugzeugmodelle-der-9-typen", label:"Flugzeugmodelle der 9 Typen"},
-        {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
-      ])}
-    </div>
-  `);
-}
-
-function luxusuhrend9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Luxusuhren der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Neun Uhren \u2013 jede ein Meisterwerk der Uhrmacherkunst, jede Ausdruck eines unverwechselbaren Charakters. Welches Enneagrammprinzip steckt hinter diesen Ikonen am Handgelenk?</p>
-      <img src="./assets/luxusuhren-der-9-typen.jpg" alt="Luxusuhren der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 \u2013 Patek Philippe Calatrava: Zeitlose Vollkommenheit</h3>
-        <p class="vb-intro">Die Patek Philippe Calatrava ist die reinste Ausdrucksform dessen, was eine Uhr sein kann: kein \u00fcberfl\u00fcssiges Detail, kein Dekor um des Dekors willen \u2013 nur das vollkommene Zusammenspiel von Form und Funktion. Seit 1932 nahezu unver\u00e4ndert in ihrer Grundform, verk\u00f6rpert sie das Ideal der schlichter Perfektion. Patek Philippe \u2013 1839 in Genf gegr\u00fcndet \u2013 ist das Haus, das den ber\u00fchmten Satz gepr\u00e4gt hat: \u201eMan besitzt eine Patek Philippe nie wirklich. Man bewahrt sie nur f\u00fcr die n\u00e4chste Generation." Das Prinzip des Enneagrammtyps 1: Qualit\u00e4t braucht keine Aufmerksamkeit \u2013 sie spricht f\u00fcr sich, \u00fcber Generationen hinweg. Die Calatrava ist nicht die lauteste Uhr im Raum. Sie ist die richtigste.</p>
-        <p class="vb-intro">Eine der bekanntesten Tr\u00e4gerinnen der Patek Philippe war Queen Elizabeth II. \u2013 die vielleicht disziplinierteste und pflichtbewussteste Monarchin des 20. Jahrhunderts. Vom Enneagramm her nach Einsch\u00e4tzung von Detlef Rathmer eine Selbsterhaltungs-Eins mit Neunerfl\u00fcgel (SE1w9): eine Frau, die ihr ganzes Leben der Pflicht widmete, ohne je aus der Rolle zu fallen \u2013 ruhig, best\u00e4ndig, unersch\u00fctterlich. Dass sie eine Patek trug, passt ins Bild. Diese Uhr ist wie sie: zeitlos, korrekt und ohne Bed\u00fcrfnis nach Anerkennung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 \u2013 Cartier Tank: Eleganz als Geschenk</h3>
-        <p class="vb-intro">Die Cartier Tank wurde 1917 von Louis Cartier entworfen \u2013 inspiriert von der Vogelperspektive auf einen Panzer des Ersten Weltkriegs. Seither ist sie das eleganteste Geschenk der Uhrmacherkunst: keine Uhr, die man sich selbst kauft, sondern eine, die man gibt. Princess Diana trug sie. Andy Warhol trug sie. Jackie Kennedy trug sie. Coco Chanel trug sie. Die Tank steht f\u00fcr einen Luxus, der nicht prahlt \u2013 sondern zugewandt ist, verbindet, verschenkt wird. Das Prinzip des Enneagrammtyps 2: Das Sch\u00f6nste am Besitz ist das Geben. Die eleganteste Uhr der Welt wurde entworfen, um am Handgelenk eines anderen zu strahlen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 \u2013 Rolex Submariner: Erfolg als Symbol</h3>
-        <p class="vb-intro">Die Rolex Submariner ist die bekannteste Luxusuhr der Welt \u2013 und das kommt nicht von ungefähr. Entwickelt 1953 als professionelle Taucheruhr, wurde sie schnell zur Ikone des Erfolgs: James Bond trug sie, Yachtbesitzer trugen sie, CEOs trugen sie. Sie ist wasserdicht bis 300 Meter, pr\u00e4zise, robust \u2013 und erkennbar. Das ist das Entscheidende: Jeder wei\u00df, was eine Submariner ist. Rolex verkauft keine Uhren, Rolex verkauft Anerkennung. Das Prinzip des Enneagrammtyps 3: Der Erfolg muss sichtbar sein. Die Submariner ist das universelle Signal: Ich habe es geschafft \u2013 ohne ein einziges Wort zu sagen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 \u2013 Hublot Big Bang: Kunst am Handgelenk</h3>
-        <p class="vb-intro">Die Hublot Big Bang ist die Uhr, die alle Regeln der Uhrmacherkunst gebrochen und damit eine neue Sprache erfunden hat: Kautschuk und Gold, Carbon und Titan, Saphir und Keramik \u2013 Materialien, die niemand zuvor kombiniert hatte. Jean-Claude Biver, der Hublot zu seiner heutigen Bedeutung gebracht hat, beschreibt die Big Bang als \u201eFusion" \u2013 die Begegnung des Unerwarteten. Sie ist unverwechselbar, polarisiert und wird geliebt oder abgelehnt \u2013 selten ignoriert. Das Prinzip des Enneagrammtyps 4: Einzigartigkeit ist kein Stilmittel \u2013 sie ist das Ziel. Die Big Bang tr\u00e4gt man nicht, weil alle sie kennen, sondern weil sie niemand anderem geh\u00f6rt als einem selbst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 \u2013 Jaeger-LeCoultre Reverso: Mechanische Intelligenz</h3>
-        <p class="vb-intro">Die Jaeger-LeCoultre Reverso \u2013 1931 f\u00fcr Polospieler entworfen, die ihr Zifferblatt vor St\u00fcrzen sch\u00fctzen wollten \u2013 ist die genialste mechanische L\u00f6sung in der Geschichte der Uhrmacherkunst: Das Geh\u00e4use dreht sich einfach um. Was als pragmatische Idee begann, wurde zur Hommage an mechanisches Denken. Die Reverso hat bis zu vier Komplikationen auf engstem Raum. Jaeger-LeCoultre \u2013 das \u201eUhrmacherhaus der Uhrmacher" \u2013 hat mehr patentierte Komplikationen entwickelt als jedes andere Haus. Das Prinzip des Enneagrammtyps 5: Die sch\u00f6nste L\u00f6sung ist die eleganteste. Nicht mehr Mechanik als n\u00f6tig \u2013 aber jedes Zahnrad genau dort, wo es hingeh\u00f6rt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 \u2013 Omega Seamaster: Verl\u00e4sslichkeit als Versprechen</h3>
-        <p class="vb-intro">Die Omega Seamaster ist seit 1948 das Symbol f\u00fcr Zuverl\u00e4ssigkeit unter extremen Bedingungen: Tiefseetaucher vertrauen ihr, Polarforscher vertrauen ihr, die britische Royal Navy vertraute ihr. James Bond \u2013 in den Filmen ein harter, verl\u00e4sslicher Agent \u2013 tr\u00e4gt seit 1995 eine Seamaster. Omega wurde 1848 in La Chaux-de-Fonds gegr\u00fcndet und lieferte Uhren an NASA-Astronauten, darunter Buzz Aldrin beim Mondspaziergang 1969. Die Seamaster funktioniert, wo andere Uhren versagen. Das Prinzip des Enneagrammtyps 6: Eine Uhr, die nie versagt, ist mehr wert als eine, die blendend aussieht. Verl\u00e4sslichkeit ist kein Kompromiss \u2013 sie ist das h\u00f6chste Versprechen.</p>
-        <p class="vb-intro">Eine bemerkenswerte Verbindung: Michael Schumacher \u2013 siebenmaliger Formel-1-Weltmeister und vom Enneagramm her ein sexueller Typ Sechs \u2013 war jahrelang Omega-Markenbotschafter, bevor er sp\u00e4ter auch Gesicht der Mercedes-Benz S-Klasse wurde. Beide Marken stehen f\u00fcr dasselbe Prinzip: nicht das Lauteste, sondern das Verl\u00e4sslichste. Dass ein sexueller Typ Sechs ausgerechnet diese beiden Marken verk\u00f6rperte, erz\u00e4hlt viel dar\u00fcber, was diesen Subtyp antreibt: St\u00e4rke nach au\u00dfen, tiefer Sicherheitsbedarf nach innen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 \u2013 Audemars Piguet Royal Oak Offshore: Freiheit und Abenteuer</h3>
-        <p class="vb-intro">Die Audemars Piguet Royal Oak Offshore ist die lauteste, extrovertierteste Uhr der Luxusklasse \u2013 gro\u00df, auff\u00e4llig, in Farben und Materialien, die andere H\u00e4user nie gewagt h\u00e4tten. Sie wurde 1993 als \u201eThe Beast" eingef\u00fchrt \u2013 das Tier, das die ohnehin schon revolution\u00e4re Royal Oak \u00fcbertrifft. Jay-Z, LeBron James, Serena Williams, Arnold Schwarzenegger \u2013 die Offshore ist die Uhr der Menschen, die ihre Freude am Leben zeigen wollen. Audemars Piguet \u2013 1875 im Vall\u00e9e de Joux gegr\u00fcndet \u2013 ist das \u00e4lteste noch familiengef\u00fchrte Uhrenhaus der Welt. Das Prinzip des Enneagrammtyps 7: Die Welt ist zu vielf\u00e4ltig, um eine langweilige Uhr zu tragen. Die Offshore feiert das Leben \u2013 laut, bunt, un\u00fcbersehbar.</p>
-        <p class="vb-intro">Dass ausgerechnet mehrere bekannte Siebener-Typen die Royal Oak Offshore tragen, ist kein Einzelfall. LeBron James \u2013 einer der gr\u00f6\u00dften Basketballspieler aller Zeiten \u2013 ist nach Einsch\u00e4tzung von Detlef Rathmer eine Selbsterhaltungs-Sieben mit Achterfl\u00fcgel (SE7w8): der Unternehmer unter den Siebenern, der seine Energie in Expansion und Aufbau investiert. Serena Williams \u2013 23-fache Grand-Slam-Siegerin \u2013 ist eine sexuelle Sieben mit Achterfl\u00fcgel (SX7w8): intensiv, leidenschaftlich, mit dem Achter-Feuer darunter. Und Kevin Hart, einer der erfolgreichsten Comedians der Welt, ebenfalls eine sexuelle Sieben mit Achterfl\u00fcgel (SX7w8): unb\u00e4ndige Energie, Charisma, der Drang, jeden Raum zu f\u00fcllen. Drei Siebener \u2013 drei verschiedene Subtypen, aber dieselbe Uhr. Das Enneagramm zeigt sich auch am Handgelenk.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 \u2013 Panerai Luminor: Milit\u00e4rische Kraft</h3>
-        <p class="vb-intro">Die Panerai Luminor hat eine ungew\u00f6hnliche Geschichte: Urspr\u00fcnglich geheime Ausr\u00fcstung der italienischen Marine-Kampfschwimmer im Zweiten Weltkrieg, wurde sie Jahrzehnte lang nicht an die \u00d6ffentlichkeit verkauft. Erst 1993, nach dem Ende des Milit\u00e4rvertrags, kamen die ersten Panerai in den freien Handel. Das Geh\u00e4use misst 44\u201347mm \u2013 ungew\u00f6hnlich gro\u00df, un\u00fcbersehbar dominant. Sylvester Stallone entdeckte sie am Set von \u201eDaylight" 1996 und lie\u00df eigene Serien f\u00fcr sich fertigen \u2013 ein Mann, der f\u00fcr St\u00e4rke und Durchsetzungsverm\u00f6gen steht. Das Prinzip des Enneagrammtyps 8: Eine Uhr, die urspr\u00fcnglich f\u00fcr Kampftaucher entwickelt wurde, braucht keine Zierlichkeit. Kraft ist kein Stil \u2013 sie ist eine Haltung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 \u2013 Vacheron Constantin Patrimony: Stille Harmonie</h3>
-        <p class="vb-intro">Die Vacheron Constantin Patrimony ist die \u00e4lteste kontinuierlich produzierende Uhrenmanufaktur der Welt \u2013 seit 1755, ohne eine einzige Jahresunterbrechung. Die Patrimony ist ihre ruhigste, harmonischste Linie: ein schlichtes Zifferblatt, ein schlankes Geh\u00e4use, keine Komplikation um der Komplikation willen. Sie f\u00e4llt nicht auf. Sie ist einfach da \u2013 gleichm\u00e4\u00dfig, best\u00e4ndig, vollkommen ausgewogen. Vacheron Constantin tr\u00e4gt das Motto \u201eFaire mieux si possible, ce qui est toujours possible" \u2013 \u201eEs besser machen, wenn m\u00f6glich \u2013 was immer m\u00f6glich ist." Das Prinzip des Enneagrammtyps 9: Die tiefste Ruhe braucht kein Ornament. Eine Uhr, die seit 270 Jahren existiert, hat bewiesen, dass Best\u00e4ndigkeit die st\u00e4rkste Form von Sch\u00f6nheit ist.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"luxusautos-der-9-typen", label:"Luxusautos der 9 Typen"},
-        {route:"brillenmodelle-der-9-typen", label:"Brillenmodelle der 9 Typen"},
         {route:"epochen-weltgeschichte", label:"Epochen der Weltgeschichte"},
       ])}
     </div>

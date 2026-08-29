@@ -1,3 +1,184 @@
+function peterFalkKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Falk</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel · 1927–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Peter Falk</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-peter-falk">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Columbo-Darsteller und
+        seine Typstruktur im Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nicht zur
+        Sprache kommt: eine Alzheimer-Diagnose 2007, die seine letzten Lebensjahre prägte, und
+        ein öffentlich ausgetragener Sorgerechtsstreit um seine Pflege, der dem Grundmuster
+        seines gesamten Lebens diametral entgegenstand.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Falk</strong> ist dem <strong>sozialen Typ 9 mit Einserflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Teilnahme</em>: die Fähigkeit, sich in
+        jede Gruppe einzufügen und dort Frieden zu finden, ohne die eigene Identität zu
+        verlieren. Der Einserflügel bringt einen stillen, unerschütterlichen inneren Kompass
+        hinzu. Genau dieses Bedürfnis nach Harmonie und Zugehörigkeit geriet in seinen letzten
+        Lebensjahren in einen bitteren Konflikt, den er selbst nicht mehr moderieren konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Anzeichen kognitiven Abbaus ab Mitte der 2000er-Jahre:</strong>
+        Nach Angaben aus seinem Umfeld zeigte Falk bereits einige Jahre vor der offiziellen
+        Diagnose erste Anzeichen von Gedächtnisproblemen, die zunächst als altersbedingte
+        Vergesslichkeit gedeutet wurden.</p>
+        <p class="vb-intro"><strong>b) Diagnose im Jahr 2007:</strong>
+        2007 wurde bei Falk offiziell eine fortschreitende Demenz diagnostiziert, die
+        später in gerichtlichen Dokumenten als Alzheimer-Erkrankung bestätigt wurde.</p>
+        <p class="vb-intro"><strong>c) Rückzug aus der Öffentlichkeit:</strong>
+        Mit fortschreitender Erkrankung zog sich Falk zunehmend aus öffentlichen Auftritten
+        zurück – ein stiller Abschied ohne große Ankündigung, passend zu einem Mann, der nie
+        das Rampenlicht gesucht hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein gerichtlich bestellter Vormund:</strong>
+        2008 beantragte seine Ehefrau Shera Falk gerichtlich die Vormundschaft über seine
+        Angelegenheiten – ein Schritt, der angesichts der fortschreitenden Erkrankung als
+        notwendig erachtet wurde.</p>
+        <p class="vb-intro"><strong>b) Ein öffentlicher Streit um Besuchsrechte:</strong>
+        In der Folge entbrannte ein gerichtlicher Streit zwischen Shera Falk und Catherine
+        Falk, seiner Tochter aus erster Ehe, um deren Zugang zu ihrem erkrankten Vater – ein
+        Konflikt, der in der Presse ausführlich verfolgt wurde.</p>
+        <p class="vb-intro"><strong>c) Ein Leben, das zunehmend fremdbestimmt wurde:</strong>
+        Wo Falk zeitlebens selbst entschieden hatte, mit wem er Zeit verbrachte, lag diese
+        Entscheidung in seinen letzten Jahren zunehmend bei anderen – eine Umkehrung, die dem
+        Kern seiner Persönlichkeit widersprach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortschreitender Verlust der Erinnerung an die eigene Karriere:</strong>
+        Berichten aus seinem nahen Umfeld zufolge erkannte Falk in den letzten Jahren seine
+        eigene berühmteste Rolle streckenweise nicht mehr wieder – ein besonders
+        schmerzhaftes Detail bei einem Mann, dessen halbes Leben mit dieser einen Figur
+        verbunden war.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die häusliche Pflege:</strong>
+        Die letzten Lebensjahre verbrachte Falk weitgehend zurückgezogen in seinem Haus in
+        Beverly Hills, umsorgt von seiner Frau und einem kleinen, festen Kreis an
+        Pflegepersonal.</p>
+        <p class="vb-intro"><strong>c) Tod am 23. Juni 2011:</strong>
+        Peter Falk starb im Alter von 83 Jahren in seinem Haus in Beverly Hills an den Folgen
+        seiner Alzheimer-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentlicher Streit über einen Mann, der nie stritt:</strong>
+        Der Sorgerechtskonflikt um Falks letzte Lebensjahre wurde in den Medien breit
+        diskutiert – ein auffälliger Kontrast zu dem Bild des zugewandten, nie
+        konfliktsuchenden Mannes, das er zeitlebens verkörpert hatte.</p>
+        <p class="vb-intro"><strong>b) Ein Nachruf, der die Krankheit kaum erwähnte:</strong>
+        In den öffentlichen Würdigungen nach seinem Tod stand fast ausschließlich sein
+        Lebenswerk als Columbo im Vordergrund – die Alzheimer-Jahre blieben ein eher
+        stilles, nachträglich bekannt gewordenes Kapitel.</p>
+        <p class="vb-intro"><strong>c) Ein Bild, das trotz allem bestehen blieb:</strong>
+        Trotz der Krankheit und des Familienstreits blieb das öffentliche Bild Peter Falks
+        weitgehend unverändert: der bodenständige, neugierige, nie überhebliche Mann, der er
+        zeitlebens gewesen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Büffel, der die Kontrolle über sein eigenes Umfeld verlor:</strong>
+        Wo Falk sein ganzes Leben lang die Fähigkeit besaß, sich selbst in jede Umgebung
+        einzufügen und dort Frieden zu stiften, konnte er in seinen letzten Jahren nicht mehr
+        vermitteln, als genau dieser Frieden um ihn herum zerbrach.</p>
+        <p class="vb-intro"><strong>b) Ein Konflikt, den die Krankheit selbst erst ermöglichte:</strong>
+        Der Sorgerechtsstreit entstand nicht trotz, sondern wegen der Erkrankung – erst der
+        Verlust seiner eigenen Entscheidungsfähigkeit öffnete den Raum für einen Konflikt,
+        den er zu Lebzeiten nie zugelassen hätte.</p>
+        <p class="vb-intro"><strong>c) Stille bis zuletzt:</strong>
+        Trotz des öffentlichen Streits um ihn drang aus dem Zentrum des Geschehens selbst
+        kaum etwas nach außen – Falk blieb, wie er es zeitlebens gewesen war, die ruhige
+        Mitte, um die sich anderes bewegte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vier Jahre zwischen Diagnose und Tod:</strong>
+        Von der Diagnose 2007 bis zu seinem Tod 2011 lebte Falk vier Jahre mit einer
+        Krankheit, die genau jene Fähigkeit angriff, die sein ganzes Leben und seine
+        berühmteste Rolle geprägt hatte: aufmerksame, wache Präsenz.</p>
+        <p class="vb-intro"><strong>b) Ein Sorgerechtsstreit als Gegenbild zum eigenen Lebensmuster:</strong>
+        Falks gesamtes Leben war von der Fähigkeit geprägt, Konflikte zu entschärfen, statt
+        sie zu befeuern. Der öffentliche Streit um seine Pflege in den letzten Lebensjahren
+        war das genaue Gegenteil – ein Konflikt, der ohne seine aktive Vermittlung
+        eskalierte.</p>
+        <p class="vb-intro"><strong>c) Ein Gedächtnis, das die eigene Lebensleistung mit sich nahm:</strong>
+        Für einen Mann, dessen Columbo-Figur von geduldiger, präziser Beobachtungsgabe lebte,
+        liegt in einer Krankheit, die genau diese Fähigkeiten zuerst angreift, eine besonders
+        bittere Zuspitzung.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gedächtnis?</strong>
+        Für eine soziale Neun mit Einserflügel, deren gesamte Identität auf der Fähigkeit
+        beruhte, jede Situation aufmerksam zu erfassen und einzuordnen, liegt eine Deutung
+        nahe: Ausgerechnet jenes Organ, das ihm ermöglichte, sich in jede Umgebung
+        einzufühlen und dabei doch klar zu urteilen, wurde zum Schauplatz des Verfalls – und
+        hinterließ ein Umfeld, das ohne seine vermittelnde Präsenz in offenen Streit verfiel.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Alzheimer führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Falks Fall zeigen lässt, ist ein Muster im Umfeld einer Krankheit, das bei
+        einer ausgeprägten sozialen Neun immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Falk kannte sein eigenes Muster nicht – die soziale Neun findet ihren Frieden darin,
+        sich in jede Umgebung einzufügen und dort still zu vermitteln, ohne je selbst im
+        Zentrum eines Konflikts zu stehen. Gerade weil er diese vermittelnde Rolle nie
+        bewusst als eigenes Muster erkannte, sondern einfach lebte, konnte er sie in dem
+        Moment nicht mehr schützen, in dem die Krankheit ihm genau diese Fähigkeit nahm. Wer
+        das eigene Bedürfnis nach Harmonie nicht als Muster kennt, kann es auch nicht aktiv
+        absichern, wenn die Umstände es am dringendsten brauchen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Falks</strong> soziale Neun mit
+        Einserflügel noch einmal ablesen: eine Krankheit, die genau jene aufmerksame,
+        vermittelnde Präsenz zerstörte, die sein ganzes Leben und seine berühmteste Rolle
+        trug, und ein Familienstreit, der ausbrach, sobald diese Präsenz nicht mehr da war,
+        um ihn zu verhindern. Der Büffel, der sich sein Leben lang in jede Herde einfügte –
+        und dessen eigene Herde erst zerstritten war, als er selbst nicht mehr vermitteln
+        konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
+      ])}
+    </div>
+  `);
+}
+
 function leonardBernsteinKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12224,86 +12405,6 @@ function petrusPage() {
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
         {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
         {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function lazarusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lazarus</p>
-        <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Der Freund des Lebens – Tierentsprechung: Gorilla</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Unser Freund Lazarus schläft; aber ich gehe hin, ihn aufzuwecken.« (Joh 11,11)</p>
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben – ruhig, gastfreundlich, präsent durch Wärme statt durch Lautstärke, ein Wesen, in dessen Nähe man sich sicher und wohl fühlt. Lazarus war kein Mann vieler Worte. Wenn seine Schwestern diskutierten, lächelte er still. Wenn Gäste kamen, deckte er den Tisch und ließ die anderen reden. Er war präsent, nicht durch Lautstärke, sondern durch Wärme, ein Mensch, bei dem man sich wohlfühlte.</p>
-          <p class="vb-intro">Sein Haus in Bethanien war ein offenes Haus, nicht verschwenderisch, aber gastlich, ein Haus, in dem gegessen, gelacht und geschwiegen werden konnte, ein Ort, an dem auch Jesus sich zurückzog. Lazarus war kein Schüler, kein Lehrer, kein Prediger, aber er war ein Freund, und Freundschaft war für ihn Lebenskunst. Die selbsterhaltende Sieben sucht kein Abenteuer im Außen, sondern die intensive, stille Fülle im Innen. Sie liebt das Leben, aber mit Bedacht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Maßvolle Freude statt Exzess</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Lazarus war kein Asket. Er kannte den Wein, das Brot, den Duft von Öl, aber nie in Exzess, nie in Hast. Er lebte in maßvoller Freude, nicht um zu fliehen, sondern um zu bleiben. Er konnte zuhören, ohne sich zu verlieren. Er konnte da sein, ohne sich aufzudrängen. Er war kein Aufbruch, sondern ein Ankommen. Und dann wurde er krank. Still, wie er lebte, so wurde er schwächer. Er klagte nicht, wollte die anderen nicht belasten. Doch Marta und Maria schickten nach Jesus, denn sie wussten: Du liebst ihn. Doch Jesus kam nicht sofort. Und Lazarus starb.</p>
-          <p class="vb-intro">Vier Tage lag er im Fels, gebettet in Tücher, umgeben von Myrrhe, umhüllt von Schweigen. Nicht der Tod war das Schreckliche, sondern die Unterbrechung, dieser gewohnte Strom von milder Lebendigkeit, von Brot, Öl, Licht und Zärtlichkeit, war zum Stillstand gekommen. Und dann kam Jesus. Spät. Zu spät? Marta lief ihm entgegen: »Herr, wärst du hier gewesen, mein Bruder wäre nicht gestorben.«</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Loyale Wärme statt intensiven Antriebs</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Sieben eine treue, verbindliche Qualität – Fülle entsteht nicht durch treibende Intensität, sondern durch verlässliche, warme Nähe zu den Menschen, die man liebt, ein Zuhause, in dem andere sich sicher fühlen können. Jesus hörte zu, er weinte, nicht nur um Lazarus, sondern um alle, die sich im Schatten verloren glaubten. Dann ging er zum Grab: »Nehmt den Stein weg.« Marta zögerte: »Herr, er riecht schon…« Jesus blickte sie an: »Habe ich dir nicht gesagt: Wenn du glaubst, wirst du die Herrlichkeit Gottes sehen?«</p>
-          <p class="vb-intro">Dann rief er mit lauter Stimme: »Lazarus, komm heraus!« Und Lazarus kam, langsam, gebunden, lebendig. Die SE7 glaubt lange, man könne Schmerz vermeiden. Aber in der Tiefe geschieht Verwandlung erst dann, wenn man durch den Schmerz hindurch wieder ans Licht tritt. Genau diese stille, treue Verlässlichkeit, die sich nicht durch das eigene Leiden von der Gemeinschaft entfernt, sondern gerade dadurch tiefer verwurzelt, trägt die Handschrift des Sechserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die letzte Mahlzeit: Das Lächeln der Auferstandenen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Lazarus trat nicht zurück ins alte Leben. Er trat in ein neues Leben, mit dem Geschmack von Erde und Ewigkeit auf der Zunge. Er sprach nicht viel danach, aber seine Gegenwart sprach. Denn wer den Tod gesehen hat und trotzdem wieder bei Tisch sitzt, mit Brot in der Hand und dem Licht im Gesicht, der lebt anders, tiefer, sanfter, echter. Der Hof war erfüllt vom Duft gebratenen Lamms, ein Fest war bereitet, kein Triumph, sondern ein stilles Mahl der Dankbarkeit. Lazarus saß bei Tisch, zwischen Freunden.</p>
-          <p class="vb-intro">Er sprach nicht viel, doch wenn seine Augen einen trafen, dann geschah etwas: eine Ruhe übertrug sich, als hätte man eben erst gelernt, was Leben eigentlich ist. Die, die ihn kannten, sagten: »Er hört anders zu.« Denn wer durch das Dunkel geht, hört die Töne feiner, schmeckt das Brot tiefer, liebt mit weniger Angst. Die SE7 wird reif nicht durch Rückzug, sondern durch Anwesenheit mit offenem Herzen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Ein Ort, an dem Leben tiefer ging</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Lazarus lächelte öfter, nicht aus Leichtigkeit, sondern aus Annahme. Er wusste jetzt, dass das Leben nicht perfekt sein musste, nur wahrhaftig, und dass der Geschmack von Datteln süßer ist, wenn man den Tod schon gekostet hat. Später, als alles vorbei war, als Jesus gekreuzigt war und der Aufbruch der ersten Gemeinschaft begann, da blieb Lazarus in Bethanien. Ein Haus, ein Garten, ein Tisch, ein Ort, an dem Menschen sich erinnerten: Hier hat Jesus gewohnt, hier hat Lazarus gegessen, hier war Leben, das tiefer ging.</p>
-          <p class="vb-intro">Er wurde nicht Apostel, nicht Lehrer. Aber wenn jemand fragte: »Und du, was hast du erlebt?« Dann sagte Lazarus: »Ich war tot. Und nun bin ich hier. Lass uns essen.«</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Fülle ohne Flucht vor dem Schmerz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das ist das Geschenk der SE7w6: eine Freude, die nicht mehr vor dem Schmerz fliehen muss, um echt zu sein, sondern die gerade durch das Erlebte an Wärme gewinnt – ein Gorilla, dessen ruhige Gegenwart nach dem Durchleben der Dunkelheit noch tiefer trägt, weil er weiß, dass das Wesentliche nicht laut ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Komm heraus, Lazarus!</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Lazarus ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0" title="Komm heraus, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
-        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
-        {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
       ])}
     </div>
   `);

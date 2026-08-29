@@ -1,3 +1,69 @@
+function dakotaJohnsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dakota-johnson-portrait.jpg" alt="Dakota Johnson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dakota Johnson</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1989 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; und wer Dakota Johnson in einem Interview beobachtet, dem erschlie\u00dft sich das Bild sofort. Das Faultier h\xe4ngt. Es blinzelt. Es wirkt, als interessiere es sich f\xfcr nichts und niemanden. Und doch ist es vollkommen pr\xe4sent &ndash; mit Krallen, die man erst sieht, wenn man zu nahe kommt.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Dakota Johnson, 1989 in Austin, Texas geboren, ist Enkelin von Tippi Hedren, Tochter von Melanie Griffith und Don Johnson &ndash; Hollywoodblut in der dritten Generation. Sie h\xe4tte die Dynastie bequem fortschreiben k\xf6nnen. Stattdessen w\xe4hlte sie etwas, das schwerer zu beschreiben ist: eine Art Anwesenheit, die sich nicht aufdr\u00e4ngt. Eine Intensit\xe4t, die sich versteckt. Ein L\xe4cheln, das halb Einladung und halb Grenze ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschwinden im Anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die tiefste Sehnsucht nach Verschmelzung mit dem Geliebten, dem Werk, dem Moment. Die SX9 ist nicht auf der Suche nach Zugeh\xf6rigkeit (das w\xe4re die soziale Neun), sondern nach Aufl\xf6sung &ndash; dem Zustand, in dem die Grenze zwischen Ich und dem Anderen verschwindet. Sie findet sich nicht im Kollektiv, sondern in der intensiven Eins-zu-Eins-Beziehung.</p>
+          <p class="vb-intro">Es passt ins Bild, dass Dakota Johnsons bekannteste Rolle &ndash; Anastasia Steele in der <em>Fifty Shades</em>-Trilogie (2015&ndash;2018) &ndash; genau dieses Thema tr\xe4gt: eine junge Frau, die sich in ein intensives Gegen\xfcber vertieft und dabei entdeckt, wer sie wirklich ist. Die Rolle machte Johnson weltber\xfchmt. Sie sprach ungern dar\xfcber. F\xfcr die SX9 ist das, was sie wirklich tief ber\xfchrt, schwer in Worte zu fassen &ndash; und damit f\xfcr die \xd6ffentlichkeit kaum zug\xe4nglich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Die Krallen des Faultiers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sexuellen Neun etwas, das bei einer SX9 mit schwach ausgeprägtem Achterflügel unter der Oberfläche bleibt: eine Bereitschaft zur Konfrontation, eine Direktheit, die im richtigen Moment unerwartet scharf wird. Die <strong>SX9w8</strong> wirkt weich &ndash; bis sie nicht mehr weich wirkt.</p>
+          <p class="vb-intro">2016 wurde Johnsons Auftritt in der <em>Ellen DeGeneres Show</em> zum viralen Moment. Als Ellen erw\xe4hnte, sie sei nat\xfcrlich bei Dakotas letztem Geburtstag dabei gewesen, antwortete Johnson v\xf6llig unbewegt: &bdquo;Du warst nicht eingeladen.&rdquo; Keine Entschuldigung. Kein Zur\xfcckrudern. Nur die Tatsache. Das Publikum lachte verwirrt, Ellen f\xfclte die Stille, und Dakota sa\u00df da, als sei nichts passiert. Das ist der Achterfl\xfcgel: nicht aggressiv, nicht dramatisch &ndash; einfach unerschrocken in dem, was wahr ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Intensit\xe4t ohne Gl\xe4nzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnsons Filmografie zeigt ein Muster: Sie bevorzugt Rollen, die nach innen f\xfchren. In <em>Suspiria</em> (2018) spielt sie eine T\xe4nzerin, die sich vollst\xe4ndig in eine Hexengemeinschaft einl\xe4sst &ndash; Verschmelzung als Thema, als Genre, als Leistung. In <em>Die verlorene Tochter</em> (<em>The Lost Daughter</em>, 2021) verk\xf6rpert sie eine junge Mutter, die leicht und undurchsichtig zugleich ist, mit einer emotionalen Tiefe, die man eher sp\xfcrt als sieht. In <em>Cha Cha Real Smooth</em> (2022) gibt sie einer \xfcberforderten Frau eine Stille, die schwerer wiegt als jeder Monolog.</p>
+          <p class="vb-intro">Als <em>Madame Web</em> (2024) zum kritischen und kommerziellen Misserfolg wurde, blieb Johnsons Haltung bezeichnend: keine Verteidigung, keine \xd6ffentlichkeitskampagne, kein sichtbarer Schmerz. Wer sie in sp\xe4teren Interviews darauf ansprach, erhielt Antworten, die h\xf6flich, pr\xe4zise und vollkommen unaufgeregt waren. Die SX9w8 verschwendet keine Energie in das, was nicht zu \xe4ndern ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Erbe und die eigene Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 ist ihre <strong>F\xe4higkeit zur vollst\xe4ndigen Pr\xe4senz</strong>. Johnson bringt in jede Szene eine innere Dichte, die sich dem \xfcblichen Hollywoodgl\xe4nzen verweigert. Sie spielt keine Figuren &ndash; sie wird zu diesen Figuren. Der Achterfl\xfcgel verleiht ihr dabei eine Erdung, die einer Neun mit schwach ausgepr\xe4gtem Achterfl\xfcgel manchmal fehlt: eine Weigerung, sich aufzul\xf6sen, eine Grenze, die auch in der tiefsten Verschmelzung sichtbar bleibt.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich im Anderen &ndash; und wenn das Andere das Erbe dreier Schauspieler-Generationen ist, ist die Frage nach der eigenen Stimme besonders komplex. Johnson hat \xf6ffentlich \xfcber den Druck gesprochen, in einer Branche aufzuwachsen, die ihre Familie seit Jahrzehnten kennt. Depression und Angst waren Themen ihrer fr\xfchen Karriere. Die SX9 findet sich im Anderen &ndash; und muss lernen, auch dann bei sich zu bleiben, wenn das Andere sehr laut ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das bei\u00dft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dakota Johnson ist keine Frau, die um Aufmerksamkeit k\xe4mpft. Sie ist auch keine Frau, die Aufmerksamkeit meidet. Sie existiert in einem Mittelzustand, der f\xfcr die SX9w8 charakteristisch ist: vollst\xe4ndig pr\xe4sent, selektiv zug\xe4nglich, mit einem Humor, der trocken genug ist, um Ungebetene fernzuhalten. Wer wirklich mit ihr in Kontakt kommt, sagt, er habe das Gef\xfchl, einer vollst\xe4ndigen Aufmerksamkeit zu begegnen. Wer nur die Oberfl\xe4che streift, sieht das Faultier h\xe4ngen.</p>
+          <p class="vb-intro">Das Faultier besitzt die st\xe4rksten Krallen aller S\xe4ugetiere im Verh\xe4ltnis zur K\xf6rpergr\xf6\xdfe. Es klettert durch Baumkronen, die kein anderes Tier erreicht. Und es f\xe4llt nicht. Nicht weil es sich festh\xe4lt &ndash; sondern weil seine Sehnen so gebaut sind, dass es h\xe4ngt, ohne Kraft aufwenden zu m\xfcssen. Das ist die SX9w8 in ihrer besten Form: m\xfchelos im richtigen Element, mit einer verborgenen St\xe4rke, die man erst bemerkt, wenn man versucht, sie von dort zu entfernen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga \u015awi\u0105tek (SX9w1)"},
+          {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function heikeMakatschPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7063,130 +7129,6 @@ function dollyPartonPortraitPage() {
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-marlene-zuk", label:"Portrait: Marlene Zuk (SX3w4)"},
         {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function tomKaulitzPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-tom-kaulitz-portrait.jpg" alt="Tom Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Tom Kaulitz</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Musiker &amp; Produzent, geb. 1989 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein besetzt, sondern im engsten, vertrautesten Verbund aufbaut und verteidigt. Bei Tom Kaulitz ist dieser Verbund von Geburt an gegeben: Er kam nur zehn Minuten vor seinem eineiigen Zwillingsbruder Bill zur Welt und teilte mit ihm von klein auf jedes Terrain, das er sich je erschloss.</p>
-          <p class="vb-intro">Der deutsche Musiker Tom Kaulitz wurde am 1. September 1989 in Leipzig geboren. Als er sieben war, ließen sich seine Eltern scheiden; wenig später kam mit Gordon Trumper, dem neuen Partner der Mutter und selbst Gitarrist der Band Fatun, ein prägender musikalischer Einfluss in die Familie. Mit sieben Jahren begann Tom, Gitarre zu spielen und eigene Musik zu schreiben &ndash; die Basis, aus der später alles Weitere wuchs, entstand mitten in einer familiären Umbruchphase.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Eine Band als verlängerte Familie</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Tom Kaulitz war diese Basis von Anfang an sein Zwillingsbruder: Gemeinsam gründeten die beiden mit zehn Jahren ihre erste Band, „Devilish", die 2001 in Tokio Hotel umbenannt wurde &ndash; benannt nach der japanischen Stadt, in der sie sich auf Tour besonders wohlfühlten.</p>
-          <p class="vb-intro">Bis heute lebt diese enge Bindung fort: Seit 2021 betreiben Tom und Bill gemeinsam den Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em>, in dem sie über private Anekdoten und ihren Alltag plaudern &ndash; mit über hundert Millionen Streams eines der erfolgreichsten deutschsprachigen Podcast-Formate. Die Fürsorge für die engste Bindung wird so nicht nur beruflich, sondern auch öffentlich immer wieder neu bestätigt und ausgebaut.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Gitarristen zum Produzenten hinter der Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Als Leadgitarrist von Tokio Hotel wurde Tom Kaulitz Teil einer der erfolgreichsten deutschen Bands der 2000er-Jahre, mit Millionen verkaufter Tonträger weltweit. Doch er blieb nicht bei der reinen Bühnenrolle stehen: Über die Jahre entwickelte er sich zusätzlich zum Songwriter, Toningenieur und Produzenten, der auch hinter den Kulissen an mehreren Projekten mitwirkte.</p>
-          <p class="vb-intro">2019 heiratete er das Model Heidi Klum, nachdem sie sich seit 2018 ein Paar waren &ndash; eine mediale Sichtbarkeit, die weit über die Musikszene hinausreichte. Statt sich davon überrollen zu lassen, baute Kaulitz seine öffentliche Präsenz gezielt aus: mit dem gemeinsamen Podcast, mit Auftritten an der Seite seiner Frau und mit einer klar erkennbaren, konsequent gepflegten öffentlichen Rolle.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer engen, familiären Basis heraus mehrere tragfähige Rollen gleichzeitig aufzubauen, ohne die ursprüngliche Bindung zu verlieren. Tom Kaulitz ist heute nicht nur Musiker und Produzent, sondern auch Stiefvater der vier Kinder, die Heidi Klum aus ihrer vorherigen Ehe mit in die Beziehung brachte &ndash; eine zusätzliche familiäre Verantwortung, die er offenbar bereitwillig übernahm, statt sie zu meiden.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Verschmelzung der eigenen Identität mit den engsten Bindungen werden &ndash; ob mit dem Zwillingsbruder oder mit der Ehepartnerin &ndash;, statt sich als eigenständige Figur unabhängig davon zu etablieren. Dass Kaulitz beruflich weiterhin fest mit Bill verbunden bleibt, obwohl beide längst eigene, unterschiedliche öffentliche Rollen ausfüllen könnten, zeigt diese Seite ebenso wie seine Stärke.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Ein Revier, das mit den engsten Bindungen wächst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Tom Kaulitz' Karriere lässt sich kaum erzählen, ohne die Menschen zu nennen, die sie von Anfang an mitgetragen haben: der Zwillingsbruder als musikalischer Partner seit Kindertagen, der Stiefvater als früher musikalischer Mentor, die Ehefrau als neue, weltweit sichtbare Bühne. Nichts davon wirkt wie ein Zufall, sondern wie die konsequente Fortsetzung eines Musters, das mit sieben Jahren an der Gitarre begann.</p>
-          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Von der ersten gemeinsamen Bandgründung mit zehn Jahren bis zum heutigen Podcast mit seinem Zwillingsbruder hat Tom Kaulitz genau dieses Muster gelebt: Erfolg, der nie allein erobert, sondern immer mit den engsten Menschen geteilt wird.</p>
-          <p class="vb-intro" style="margin-top:1rem;">Am 5. Dezember 2026 setzten Tom und Bill Kaulitz dieses Muster auf einer neuen Bühne fort: Gemeinsam moderierten sie live aus Halle (Saale) eine einmalige Sonderausgabe der Kultshow <em>Wetten, dass..?</em> für das ZDF &ndash; ein weiterer sichtbarer Erfolg, den die Zwillinge wie gewohnt zu zweit angingen. Beide Brüder machten dabei früh deutlich, dass es sich um ein einmaliges Ereignis handelt und keine dauerhafte Nachfolge in fester Moderatorenrolle: Sie wollen sich weiterhin auf ihre Band und ihre eigenen Projekte konzentrieren, statt sich langfristig an ein neues Format zu binden &ndash; auch das ein Ausdruck der SE2w3-typischen Balance zwischen sichtbarem Auftritt und dem Festhalten an der eigenen, vertrauten Basis.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
-        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Zwillingsbruder"},
-        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Ehefrau"},
-      ])}
-    </div>
-  `);
-}
-
-function stormReidPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-storm-reid-portrait.jpg" alt="Storm Reid – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Storm Reid</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin &amp; Produzentin, geb. 2003 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein, sondern im Verbund mit seiner nächsten Umgebung aufbaut und verteidigt. Bei Storm Reid war dieser Verbund von Beginn an die eigene Familie: Als sie neun Jahre alt war, zog die gesamte Familie von Atlanta nach Los Angeles um &ndash; nicht sie allein zog aus, sondern das ganze Gewässer verlagerte sich mit ihr.</p>
-          <p class="vb-intro">Die US-amerikanische Schauspielerin Storm Reid wurde am 1. Juli 2003 in Atlanta, Georgia, geboren, als jüngstes von vier Geschwistern. Ihr Vater Rodney arbeitet als Personal Trainer, ihre Mutter Robyn als Stylistin und Kostümbildnerin in der Filmbranche &ndash; die berufliche Nähe zum Filmgeschäft war also bereits im engsten Familienkreis vorhanden, lange bevor Storm selbst vor der Kamera stand. Ihre erste Rolle in einem Werbespot hatte sie bereits mit drei Jahren.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Karriere als gemeinsames Familienprojekt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Storm Reid zeigt sich das darin, dass ihre Karriere von Anfang an kein Alleingang war, sondern ein Projekt, das die ganze Familie mittrug &ndash; der Umzug nach Los Angeles war eine gemeinsame Entscheidung, um ihrem Talent überhaupt eine Bühne zu geben.</p>
-          <p class="vb-intro">Am deutlichsten wird dieses Prinzip 2013: Gemeinsam mit ihrer Mutter Robyn gründete Storm Reid die eigene Produktionsfirma A Seed & Wings Productions &ndash; ein Unternehmen, das sie nicht allein, sondern buchstäblich als Mutter-Tochter-Projekt aufbaute. Fürsorge und berufliche Basis verschmelzen hier: Die engste Bindung wird selbst zur unternehmerischen Grundlage.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarer Erfolg neben dem Studium</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Bereits 2013 spielte die Zehnjährige in <em>12 Years a Slave</em> mit, 2018 folgte die Hauptrolle in Disneys <em>A Wrinkle in Time</em>, 2019 die wiederkehrende Rolle der Gia in HBOs <em>Euphoria</em>. 2023 gewann sie für ihren Gastauftritt in <em>The Last of Us</em> einen Primetime Emmy Award &ndash; und das alles, während sie parallel als Vollzeitstudentin an der University of Southern California Filmkunst studierte und im Studentenwohnheim lebte.</p>
-          <p class="vb-intro">Diese Doppelbelastung aus Studium und Filmset ist typisch für den Dreierflügel: Sichtbarer Erfolg wird nicht auf Kosten der eigenen Substanz erkauft, sondern parallel zu einer soliden, langfristig angelegten Grundlage aufgebaut. Storm Reid verteidigte ihre Entscheidung, trotz laufender Karriere ein reguläres Studium abzuschließen, öffentlich gegen Kritiker, die das für überflüssig hielten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, Erfolg als etwas zu begreifen, das man gemeinsam mit den engsten Menschen aufbaut, statt es allein zu erobern &ndash; und dabei trotz wachsender öffentlicher Sichtbarkeit die eigene Bildung und familiäre Basis nicht preiszugeben. Storm Reids Engagement für Bildungschancen junger schwarzer Mädchen in der Kunst und ihr offener Einsatz für psychische Gesundheit zeigen, wie sich diese Fürsorge auch über den engsten Kreis hinaus ausdehnt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, mehrere Rollen gleichzeitig auszufüllen &ndash; Schauspielerin, Studentin, Unternehmerin &ndash;, statt sich auf eine davon zu beschränken. Reids dichter Terminplan zwischen Filmsets, Vorlesungen und der eigenen Produktionsfirma zeigt, wie eng diese Bereiche ineinandergreifen müssen, damit keiner davon zu kurz kommt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Ein Revier, das mit der Familie mitwächst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Storm Reids Filmografie reicht von historischen Dramen über Fantasy-Blockbuster bis zu preisgekrönten Serienauftritten &ndash; ein Spektrum, das breiter ist als bei den meisten Kinderdarstellerinnen, die früh auf ein Genre festgelegt werden. A Seed & Wings Productions, das gemeinsame Unternehmen mit ihrer Mutter, widmet sich explizit multikulturellen Erzählungen, die unterhalten, bilden und stärken sollen &ndash; ein Anliegen, das über die eigene Schauspielkarriere hinausreicht.</p>
-          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Storm Reids Weg vom Werbespot-Baby zur Emmy-Preisträgerin und Produzentin zeigt genau dieses Muster: Jeder Erfolgsschritt bleibt mit der Familie verbunden, die von Anfang an mit umzog, mitgründete und mitträgt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
-        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
       ])}
     </div>
   `);

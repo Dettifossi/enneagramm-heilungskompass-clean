@@ -1611,7 +1611,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -1631,7 +1631,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
         beschreibung: "Dieselbe Tiefe und Empfindsamkeit, die sonst zu großer schöpferischer Kraft führt, kann in Extremfällen zu radikaler Identitätsabwehr, zur völligen Erschöpfung oder – in der destruktivsten Form – zu einem psychotischen Bruch mit der eigenen inneren Stimme werden.",
-        beleg: "Nicolas Cage, der sich mit einem neuen Namen ›mit aller Kraft gegen die Auflösung der eigenen Identität in einer übermächtigen Familientradition‹ wehrte; Clemens G. Arvay, der sich 2022 das Leben nahm – ›die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren‹; David Berkowitz, der seine Taten einer externen, dämonischen Stimme zuschrieb. Wichtig: Arvay und Berkowitz stehen für sehr unterschiedliche, seltene Extremformen – Verzweiflung und Gewaltverbrechen dürfen hier nicht gleichgesetzt werden, keines von beiden ist die typische Ausprägung der SE4 in diesem Kompass."
+        beleg: "Nicolas Cage, der sich mit einem neuen Namen ›mit aller Kraft gegen die Auflösung der eigenen Identität in einer übermächtigen Familientradition‹ wehrte; Clemens G. Arvay, der sich 2022 das Leben nahm – ›die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren‹; David Berkowitz, der seine Taten einer externen, dämonischen Stimme zuschrieb; Virginia Woolf, die nach jahrzehntelangen wiederkehrenden depressiven Episoden 1941 zwei klar formulierte Abschiedsbriefe schrieb und sich in der Ouse ertränkte – ein letzter Akt, der noch einmal von derselben stillen, durchdachten Klarheit getragen war, mit der sie ihr ganzes Leben lang geschrieben hatte. Wichtig: Arvay, Berkowitz und Woolf stehen für sehr unterschiedliche, seltene Extremformen – Verzweiflung und Gewaltverbrechen dürfen hier nicht gleichgesetzt werden, keines von ihnen ist die typische Ausprägung der SE4 in diesem Kompass."
       }
     ]
   },

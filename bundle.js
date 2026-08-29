@@ -33116,6 +33116,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Göransson – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · geb. 1984. Schwedischer Filmkomponist und Produzent, zwei Oscars (›Black Panther‹, ›Oppenheimer‹). Monatelange Recherchereisen und wissenschaftliche Vertiefung für jede Partitur, langjähriger Weggefährte Donald Glovers und Ryan Cooglers, stets im Hintergrund statt im Rampenlicht. Tierentsprechung: Taube.",
     land:"Schweden", tags:["Musik","Film"], gender:"m"},
+  { route:"beruehmte-virginia-woolf", name:"Virginia Woolf", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Virginia Woolf – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · 1882–1941. Britische Schriftstellerin, Mitbegründerin der Bloomsbury Group, erfand mit dem Bewusstseinsstrom eine eigene literarische Form. Autodidaktisch gebildet, lebenslang von schweren depressiven Episoden gezeichnet, gründete mit ihrem Mann Leonard den Hogarth Press. Tierentsprechung: Taube.",
+    land:"Großbritannien", tags:["Literatur"], gender:"f"},
   { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1864–1936. Spanischer Philosoph und Schriftsteller, Rektor der Universität Salamanca. Lebenslanges Ringen mit der eigenen Sterblichkeit in ›Del sentimiento trágico de la vida‹, Erfinder der ›nivola‹. Berühmte Konfrontation mit General Millán-Astray 1936, Amtsenthebung und Hausarrest bis zu seinem Tod. Tierentsprechung: Taube.",
@@ -44784,7 +44788,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -44804,7 +44808,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wenn die innere Last überwältigt – von radikaler Selbstbehauptung bis zur Selbstauflösung (Schattenform)",
         beschreibung: "Dieselbe Tiefe und Empfindsamkeit, die sonst zu großer schöpferischer Kraft führt, kann in Extremfällen zu radikaler Identitätsabwehr, zur völligen Erschöpfung oder – in der destruktivsten Form – zu einem psychotischen Bruch mit der eigenen inneren Stimme werden.",
-        beleg: "Nicolas Cage, der sich mit einem neuen Namen ›mit aller Kraft gegen die Auflösung der eigenen Identität in einer übermächtigen Familientradition‹ wehrte; Clemens G. Arvay, der sich 2022 das Leben nahm – ›die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren‹; David Berkowitz, der seine Taten einer externen, dämonischen Stimme zuschrieb. Wichtig: Arvay und Berkowitz stehen für sehr unterschiedliche, seltene Extremformen – Verzweiflung und Gewaltverbrechen dürfen hier nicht gleichgesetzt werden, keines von beiden ist die typische Ausprägung der SE4 in diesem Kompass."
+        beleg: "Nicolas Cage, der sich mit einem neuen Namen ›mit aller Kraft gegen die Auflösung der eigenen Identität in einer übermächtigen Familientradition‹ wehrte; Clemens G. Arvay, der sich 2022 das Leben nahm – ›die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren‹; David Berkowitz, der seine Taten einer externen, dämonischen Stimme zuschrieb; Virginia Woolf, die nach jahrzehntelangen wiederkehrenden depressiven Episoden 1941 zwei klar formulierte Abschiedsbriefe schrieb und sich in der Ouse ertränkte – ein letzter Akt, der noch einmal von derselben stillen, durchdachten Klarheit getragen war, mit der sie ihr ganzes Leben lang geschrieben hatte. Wichtig: Arvay, Berkowitz und Woolf stehen für sehr unterschiedliche, seltene Extremformen – Verzweiflung und Gewaltverbrechen dürfen hier nicht gleichgesetzt werden, keines von ihnen ist die typische Ausprägung der SE4 in diesem Kompass."
       }
     ]
   },
@@ -55981,6 +55985,72 @@ function paulGauguinPortraitPage() {
           {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function virginiaWoolfPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-virginia-woolf-portrait.jpg" alt="Virginia Woolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Virginia Woolf</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Britische Schriftstellerin, 1882–1941 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Virginia Woolf wurde 1882 in London als Tochter des Literaturkritikers Leslie Stephen geboren. Während ihre Brüder nach Cambridge geschickt wurden, blieb ihr der Zugang zur formalen Universitätsbildung verwehrt – sie bildete sich stattdessen autodidaktisch in der umfangreichen Bibliothek ihres Vaters, eine Ungleichbehandlung, die sie zeitlebens nicht vergaß und später literarisch verarbeitete.</p>
+          <p class="vb-intro">Mit dreizehn Jahren starb ihre Mutter Julia, was die erste schwere psychische Krise ihres Lebens auslöste; mit zweiundzwanzig folgte der Tod des Vaters und ein zweiter Zusammenbruch. Aus dieser frühen, wiederholten Erfahrung von Verlust erwuchs ein lebenslanges Muster: Woolf verarbeitete ihre tiefsten Erschütterungen nicht in lautem Klagen, sondern in stiller, oft jahrelang aufgeschobener schriftstellerischer Verdichtung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Die Wunde, die zur Form wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht öffentlich vor sich her, sondern erträgt es stoisch – sie sagt sich: Ich leide besser, stiller, tiefer als andere, und genau darin liegt meine Würde. Woolfs schwere depressive Episoden begleiteten ihr gesamtes Erwachsenenleben, doch zwischen den Krisen arbeitete sie mit einer fast stockbroker-haften Regelmäßigkeit: Jeden Vormittag, von etwa halb zehn bis ein Uhr, schrieb sie allein in einem umgebauten Gartenhäuschen in Monk's House, stehend an einem eigens dafür gebauten hohen Pult.</p>
+          <p class="vb-intro">Erst 1928, in ihrem Essay „A Room of One's Own", machte sie diese Wunde öffentlich zum Thema – die Forderung nach einem eigenen Zimmer und finanzieller Unabhängigkeit als Voraussetzung weiblichen Schreibens war zugleich die nüchterne Bilanz ihrer eigenen, jahrzehntelang stillschweigend ertragenen Bildungsbenachteiligung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der Bewusstseinsstrom als eigenes System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Schmerz – das Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu architektonisches Formprinzip gefasst. Woolf entwickelte mit Romanen wie „Mrs Dalloway" (1925) und „To the Lighthouse" (1927) eine eigene erzählerische Technik, den Bewusstseinsstrom, der die Zeitstruktur des Erzählens komplett neu ordnete – nicht als spontanes Experiment, sondern als über Jahre durchdachtes literarisches System.</p>
+          <p class="vb-intro">Dieselbe Systemliebe zeigte sich 1917, als sie gemeinsam mit ihrem Mann Leonard den Hogarth Press gründete – zunächst auf einer Handdruckpresse im eigenen Esszimmer. Aus diesem winzigen Anfang wurde ein Verlag, der T. S. Eliot, Katherine Mansfield und Sigmund Freuds englische Erstausgaben veröffentlichte: die Fünf, die sich nicht auf fremde Strukturen verlässt, sondern ihr eigenes, vollständig kontrolliertes Produktionssystem aufbaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der 28. März 1941</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach einer erneuten, sich rapide verschlechternden depressiven Episode während der deutschen Luftangriffe auf Großbritannien schrieb Woolf zwei Abschiedsbriefe – einen an ihren Mann Leonard, einen an ihre Schwester Vanessa Bell –, in denen sie mit klarer, fast sachlicher Sprache erklärte, dass sie spüre, wie sich ihre Krankheit erneut ihrer bemächtige und sie diesmal nicht mehr genesen werde. Am 28. März 1941 füllte sie ihre Manteltaschen mit Steinen und ging in den Fluss Ouse nahe ihrem Zuhause in Sussex.</p>
+          <p class="vb-intro">Selbst dieser letzte Akt trug die Handschrift der SE4w5: kein impulsiver Ausbruch, sondern eine durchdachte, in klarer Prosa vorbereitete Entscheidung – die Taube, die ihr Leiden bis zuletzt in eine bewusst gewählte, präzise Form brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>die eigene existenzielle Wunde in ein durchdachtes, formal völlig neues literarisches System</strong> zu verwandeln – Woolfs Bewusstseinsstrom-Technik gilt bis heute als einer der wichtigsten Beiträge zur Literatur des zwanzigsten Jahrhunderts, weil sie ihre eigene fragmentierte innere Erfahrung so konsequent durchdachte, dass daraus eine neue erzählerische Sprache wurde.</p>
+          <p class="vb-intro">Der Schatten ihres Lebens waren die wiederkehrenden, oft monatelangen depressiven Episoden, die zeitweise jede schriftstellerische Arbeit unmöglich machten – verstärkt, wie sie selbst in Briefen andeutete, durch sexuelle Übergriffe ihrer beiden Halbbrüder in der Kindheit, ein Trauma, das sie erst spät und nur fragmentarisch literarisch verarbeitete. Am Ende siegte die Krankheit über die selbst auferlegte Disziplin, mit der sie ihr gesamtes Erwachsenenleben gegen sie angeschrieben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube im Gartenhäuschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Virginia Woolf gilt heute als eine der einflussreichsten Schriftstellerinnen des zwanzigsten Jahrhunderts – nicht weil sie ihr Leiden lauter zur Schau stellte als andere, sondern weil sie es in Jahrzehnten stiller, methodischer Arbeit in eine radikal neue literarische Form übersetzte, die bis heute Generationen von Autorinnen und Autoren prägt.</p>
+          <p class="vb-intro">Die Taube, die als Kind früh Mutter und Vater verlor und sich autodidaktisch eine eigene Bildung aneignete, die am Vormittag mit stockbroker-hafter Regelmäßigkeit an ihrem Pult stand und deren letzter Akt noch einmal von derselben stillen Klarheit getragen war, mit der sie ihr ganzes Leben lang geschrieben hatte – das ist das bleibende Bild dieses Subtyps: eine Tiefe, die sich nicht verbirgt, sondern beharrlich in Form gebracht wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+      ])}
     </div>
   `);
 }
@@ -137028,6 +137098,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-charlotte-wells": charlotteWellsPortraitPage,

@@ -1123,6 +1123,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ludwig Göransson – Self-Preservation Type 4",
     teaser:"SE4w5 · b. 1984. Swedish film composer and producer, two Oscars (\"Black Panther,\" \"Oppenheimer\"). Months-long research trips and scientific immersion for every score, longtime collaborator of Donald Glover and Ryan Coogler, always in the background rather than the spotlight. Animal correspondence: Dove.",
     land:"Sweden", tags:["Music","Film"], gender:"m"},
+{ route:"beruehmte-virginia-woolf", name:"Virginia Woolf", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Virginia Woolf – Self-Preservation Type 4",
+    teaser:"SE4w5 · 1882–1941. British writer, co-founder of the Bloomsbury Group, invented the stream-of-consciousness technique as a literary form of her own. Self-taught, marked throughout her life by severe depressive episodes, founded the Hogarth Press with her husband Leonard. Animal correspondence: Dove.",
+    land:"United Kingdom", tags:["Literature"], gender:"f"},
 { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Self-Preservation Type 4",
     teaser:"SE4w5 · 1864–1936. Spanish philosopher and writer, rector of the University of Salamanca. Lifelong struggle with his own mortality in \"Tragic Sense of Life,\" inventor of the \"nivola.\" Famous confrontation with General Millán-Astray in 1936, removal from office and house arrest until his death. Animal correspondence: Dove.",
@@ -23374,6 +23378,72 @@ function ludwigGoeranssonPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function virginiaWoolfPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-virginia-woolf-portrait.jpg" alt="Virginia Woolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Virginia Woolf</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">British writer, 1882&ndash;1941 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence. Virginia Woolf was born in 1882 in London, the daughter of literary critic Leslie Stephen. While her brothers were sent to Cambridge, she was denied access to formal university education – instead teaching herself in her father's extensive library, an inequity she never forgot and later processed in her writing.</p>
+          <p class="vb-intro">At thirteen, her mother Julia died, triggering the first severe psychological crisis of her life; at twenty-two came her father's death and a second breakdown. Out of this early, repeated experience of loss grew a lifelong pattern: Woolf processed her deepest shocks not through loud complaint, but through quiet, often years-delayed literary distillation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: The Wound That Becomes Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> does not carry its suffering outward but endures it stoically – telling itself: I suffer better, more quietly, more deeply than others, and that is exactly where my dignity lies. Woolf's severe depressive episodes accompanied her entire adult life, yet between crises she worked with almost stockbroker-like regularity: every morning, from about half past nine to one, she wrote alone in a converted garden shed at Monk's House, standing at a custom-built tall desk.</p>
+          <p class="vb-intro">Only in 1928, in her essay "A Room of One's Own," did she make this wound a public subject – the demand for a room of one's own and financial independence as a precondition for women's writing was also the sober summary of her own, decades-long, silently endured educational disadvantage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Stream of Consciousness as Its Own System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance from its own pain – feeling is not only lived through but cast into a deliberate, almost architectural formal principle. With novels like "Mrs Dalloway" (1925) and "To the Lighthouse" (1927), Woolf developed a narrative technique of her own, the stream of consciousness, which completely reorganized the temporal structure of storytelling – not a spontaneous experiment, but a literary system thought through over years.</p>
+          <p class="vb-intro">The same love of systems showed in 1917, when she and her husband Leonard founded the Hogarth Press – initially on a hand printing press in their own dining room. From this tiny beginning grew a publishing house that released works by T. S. Eliot, Katherine Mansfield, and the first English editions of Sigmund Freud: the Five that does not rely on someone else's structures, but builds its own, fully controlled system of production.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. March 28, 1941</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After another, rapidly worsening depressive episode during the German air raids on Britain, Woolf wrote two farewell letters – one to her husband Leonard, one to her sister Vanessa Bell – explaining, in clear, almost matter-of-fact language, that she felt her illness taking hold of her again and that this time she would not recover. On March 28, 1941, she filled her coat pockets with stones and walked into the River Ouse near her home in Sussex.</p>
+          <p class="vb-intro">Even this final act bore the signature of the SP4w5: not an impulsive outburst, but a deliberate decision, prepared in clear prose – the dove that, to the very end, gave her suffering a consciously chosen, precise form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 lies in the ability to <strong>turn one's own existential wound into a deliberate, formally entirely new literary system</strong> – Woolf's stream-of-consciousness technique still stands today as one of the most important contributions to twentieth-century literature, because she thought through her own fragmented inner experience so consistently that it became a new narrative language.</p>
+          <p class="vb-intro">The shadow of her life lay in the recurring, often months-long depressive episodes that at times made any writing impossible – compounded, as she herself hinted in letters, by sexual abuse from her two half-brothers in childhood, a trauma she processed in her writing only late and only in fragments. In the end, the illness overcame the self-imposed discipline with which she had written against it her entire adult life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove in the Garden Shed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Virginia Woolf is regarded today as one of the most influential writers of the twentieth century – not because she displayed her suffering more loudly than others, but because she translated it, in decades of quiet, methodical work, into a radically new literary form that continues to shape generations of writers.</p>
+          <p class="vb-intro">The dove that, as a child, lost both mother and father early and taught herself an education of her own; that stood at her desk every morning with stockbroker-like regularity; and whose final act was carried once more by the same quiet clarity with which she had written her entire life – that is the lasting image of this subtype: a depth that does not hide, but is persistently given form.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
       ])}
     </div>
   `);
@@ -45956,7 +46026,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -45976,7 +46046,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
         beschreibung: "The same depth and sensitivity that otherwise leads to great creative power can, in extreme cases, become radical identity defense, complete exhaustion, or – in its most destructive form – a psychotic break with one's own inner voice.",
-        beleg: "Nicolas Cage, who with a new name 'resisted with all his strength the dissolution of his own identity within an overpowering family tradition'; Clemens G. Arvay, who took his own life in 2022 – 'the dove that shows others the way sometimes lost its own'; David Berkowitz, who attributed his acts to an external, demonic voice. Important: Arvay and Berkowitz represent very different, rare extreme forms – despair and violent crime must not be equated here; neither is the typical expression of SE4 in this compass."
+        beleg: "Nicolas Cage, who with a new name 'resisted with all his strength the dissolution of his own identity within an overpowering family tradition'; Clemens G. Arvay, who took his own life in 2022 – 'the dove that shows others the way sometimes lost its own'; David Berkowitz, who attributed his acts to an external, demonic voice; Virginia Woolf, who after decades of recurring depressive episodes wrote two clearly worded farewell letters in 1941 and drowned herself in the River Ouse – a final act still carried by the same quiet, deliberate clarity with which she had written her entire life. Important: Arvay, Berkowitz, and Woolf represent very different, rare extreme forms – despair and violent crime must not be equated here; none of them is the typical expression of SE4 in this compass."
       }
     ]
   },
@@ -101069,6 +101139,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-charlotte-wells": charlotteWellsPortraitPage,

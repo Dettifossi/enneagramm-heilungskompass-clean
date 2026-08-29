@@ -4900,6 +4900,7 @@ function render() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-charlotte-wells": charlotteWellsPortraitPage,

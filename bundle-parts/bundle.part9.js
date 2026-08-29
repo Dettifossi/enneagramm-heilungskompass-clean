@@ -1,3 +1,127 @@
+function tomKaulitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tom-kaulitz-portrait.jpg" alt="Tom Kaulitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Kaulitz</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Musiker &amp; Produzent, geb. 1989 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein besetzt, sondern im engsten, vertrautesten Verbund aufbaut und verteidigt. Bei Tom Kaulitz ist dieser Verbund von Geburt an gegeben: Er kam nur zehn Minuten vor seinem eineiigen Zwillingsbruder Bill zur Welt und teilte mit ihm von klein auf jedes Terrain, das er sich je erschloss.</p>
+          <p class="vb-intro">Der deutsche Musiker Tom Kaulitz wurde am 1. September 1989 in Leipzig geboren. Als er sieben war, ließen sich seine Eltern scheiden; wenig später kam mit Gordon Trumper, dem neuen Partner der Mutter und selbst Gitarrist der Band Fatun, ein prägender musikalischer Einfluss in die Familie. Mit sieben Jahren begann Tom, Gitarre zu spielen und eigene Musik zu schreiben &ndash; die Basis, aus der später alles Weitere wuchs, entstand mitten in einer familiären Umbruchphase.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Eine Band als verlängerte Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Tom Kaulitz war diese Basis von Anfang an sein Zwillingsbruder: Gemeinsam gründeten die beiden mit zehn Jahren ihre erste Band, „Devilish", die 2001 in Tokio Hotel umbenannt wurde &ndash; benannt nach der japanischen Stadt, in der sie sich auf Tour besonders wohlfühlten.</p>
+          <p class="vb-intro">Bis heute lebt diese enge Bindung fort: Seit 2021 betreiben Tom und Bill gemeinsam den Podcast <em>Kaulitz Hills &ndash; Senf aus Hollywood</em>, in dem sie über private Anekdoten und ihren Alltag plaudern &ndash; mit über hundert Millionen Streams eines der erfolgreichsten deutschsprachigen Podcast-Formate. Die Fürsorge für die engste Bindung wird so nicht nur beruflich, sondern auch öffentlich immer wieder neu bestätigt und ausgebaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Gitarristen zum Produzenten hinter der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Als Leadgitarrist von Tokio Hotel wurde Tom Kaulitz Teil einer der erfolgreichsten deutschen Bands der 2000er-Jahre, mit Millionen verkaufter Tonträger weltweit. Doch er blieb nicht bei der reinen Bühnenrolle stehen: Über die Jahre entwickelte er sich zusätzlich zum Songwriter, Toningenieur und Produzenten, der auch hinter den Kulissen an mehreren Projekten mitwirkte.</p>
+          <p class="vb-intro">2019 heiratete er das Model Heidi Klum, nachdem sie sich seit 2018 ein Paar waren &ndash; eine mediale Sichtbarkeit, die weit über die Musikszene hinausreichte. Statt sich davon überrollen zu lassen, baute Kaulitz seine öffentliche Präsenz gezielt aus: mit dem gemeinsamen Podcast, mit Auftritten an der Seite seiner Frau und mit einer klar erkennbaren, konsequent gepflegten öffentlichen Rolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer engen, familiären Basis heraus mehrere tragfähige Rollen gleichzeitig aufzubauen, ohne die ursprüngliche Bindung zu verlieren. Tom Kaulitz ist heute nicht nur Musiker und Produzent, sondern auch Stiefvater der vier Kinder, die Heidi Klum aus ihrer vorherigen Ehe mit in die Beziehung brachte &ndash; eine zusätzliche familiäre Verantwortung, die er offenbar bereitwillig übernahm, statt sie zu meiden.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Verschmelzung der eigenen Identität mit den engsten Bindungen werden &ndash; ob mit dem Zwillingsbruder oder mit der Ehepartnerin &ndash;, statt sich als eigenständige Figur unabhängig davon zu etablieren. Dass Kaulitz beruflich weiterhin fest mit Bill verbunden bleibt, obwohl beide längst eigene, unterschiedliche öffentliche Rollen ausfüllen könnten, zeigt diese Seite ebenso wie seine Stärke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Ein Revier, das mit den engsten Bindungen wächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Kaulitz' Karriere lässt sich kaum erzählen, ohne die Menschen zu nennen, die sie von Anfang an mitgetragen haben: der Zwillingsbruder als musikalischer Partner seit Kindertagen, der Stiefvater als früher musikalischer Mentor, die Ehefrau als neue, weltweit sichtbare Bühne. Nichts davon wirkt wie ein Zufall, sondern wie die konsequente Fortsetzung eines Musters, das mit sieben Jahren an der Gitarre begann.</p>
+          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Von der ersten gemeinsamen Bandgründung mit zehn Jahren bis zum heutigen Podcast mit seinem Zwillingsbruder hat Tom Kaulitz genau dieses Muster gelebt: Erfolg, der nie allein erobert, sondern immer mit den engsten Menschen geteilt wird.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Am 5. Dezember 2026 setzten Tom und Bill Kaulitz dieses Muster auf einer neuen Bühne fort: Gemeinsam moderierten sie live aus Halle (Saale) eine einmalige Sonderausgabe der Kultshow <em>Wetten, dass..?</em> für das ZDF &ndash; ein weiterer sichtbarer Erfolg, den die Zwillinge wie gewohnt zu zweit angingen. Beide Brüder machten dabei früh deutlich, dass es sich um ein einmaliges Ereignis handelt und keine dauerhafte Nachfolge in fester Moderatorenrolle: Sie wollen sich weiterhin auf ihre Band und ihre eigenen Projekte konzentrieren, statt sich langfristig an ein neues Format zu binden &ndash; auch das ein Ausdruck der SE2w3-typischen Balance zwischen sichtbarem Auftritt und dem Festhalten an der eigenen, vertrauten Basis.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-storm-reid", label:"Portrait: Storm Reid (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Zwillingsbruder"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – Ehefrau"},
+      ])}
+    </div>
+  `);
+}
+
+function stormReidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-storm-reid-portrait.jpg" alt="Storm Reid – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Storm Reid</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin &amp; Produzentin, geb. 2003 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sein Revier nicht allein, sondern im Verbund mit seiner nächsten Umgebung aufbaut und verteidigt. Bei Storm Reid war dieser Verbund von Beginn an die eigene Familie: Als sie neun Jahre alt war, zog die gesamte Familie von Atlanta nach Los Angeles um &ndash; nicht sie allein zog aus, sondern das ganze Gewässer verlagerte sich mit ihr.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Storm Reid wurde am 1. Juli 2003 in Atlanta, Georgia, geboren, als jüngstes von vier Geschwistern. Ihr Vater Rodney arbeitet als Personal Trainer, ihre Mutter Robyn als Stylistin und Kostümbildnerin in der Filmbranche &ndash; die berufliche Nähe zum Filmgeschäft war also bereits im engsten Familienkreis vorhanden, lange bevor Storm selbst vor der Kamera stand. Ihre erste Rolle in einem Werbespot hatte sie bereits mit drei Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Karriere als gemeinsames Familienprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge richtet sich zuerst auf die eigene, konkrete Basis, bevor sie sich nach außen wendet. Bei Storm Reid zeigt sich das darin, dass ihre Karriere von Anfang an kein Alleingang war, sondern ein Projekt, das die ganze Familie mittrug &ndash; der Umzug nach Los Angeles war eine gemeinsame Entscheidung, um ihrem Talent überhaupt eine Bühne zu geben.</p>
+          <p class="vb-intro">Am deutlichsten wird dieses Prinzip 2013: Gemeinsam mit ihrer Mutter Robyn gründete Storm Reid die eigene Produktionsfirma A Seed & Wings Productions &ndash; ein Unternehmen, das sie nicht allein, sondern buchstäblich als Mutter-Tochter-Projekt aufbaute. Fürsorge und berufliche Basis verschmelzen hier: Die engste Bindung wird selbst zur unternehmerischen Grundlage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarer Erfolg neben dem Studium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg aufzubauen. Bereits 2013 spielte die Zehnjährige in <em>12 Years a Slave</em> mit, 2018 folgte die Hauptrolle in Disneys <em>A Wrinkle in Time</em>, 2019 die wiederkehrende Rolle der Gia in HBOs <em>Euphoria</em>. 2023 gewann sie für ihren Gastauftritt in <em>The Last of Us</em> einen Primetime Emmy Award &ndash; und das alles, während sie parallel als Vollzeitstudentin an der University of Southern California Filmkunst studierte und im Studentenwohnheim lebte.</p>
+          <p class="vb-intro">Diese Doppelbelastung aus Studium und Filmset ist typisch für den Dreierflügel: Sichtbarer Erfolg wird nicht auf Kosten der eigenen Substanz erkauft, sondern parallel zu einer soliden, langfristig angelegten Grundlage aufgebaut. Storm Reid verteidigte ihre Entscheidung, trotz laufender Karriere ein reguläres Studium abzuschließen, öffentlich gegen Kritiker, die das für überflüssig hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, Erfolg als etwas zu begreifen, das man gemeinsam mit den engsten Menschen aufbaut, statt es allein zu erobern &ndash; und dabei trotz wachsender öffentlicher Sichtbarkeit die eigene Bildung und familiäre Basis nicht preiszugeben. Storm Reids Engagement für Bildungschancen junger schwarzer Mädchen in der Kunst und ihr offener Einsatz für psychische Gesundheit zeigen, wie sich diese Fürsorge auch über den engsten Kreis hinaus ausdehnt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und den eigenen Aufbau unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Notwendigkeit werden, mehrere Rollen gleichzeitig auszufüllen &ndash; Schauspielerin, Studentin, Unternehmerin &ndash;, statt sich auf eine davon zu beschränken. Reids dichter Terminplan zwischen Filmsets, Vorlesungen und der eigenen Produktionsfirma zeigt, wie eng diese Bereiche ineinandergreifen müssen, damit keiner davon zu kurz kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Ein Revier, das mit der Familie mitwächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Storm Reids Filmografie reicht von historischen Dramen über Fantasy-Blockbuster bis zu preisgekrönten Serienauftritten &ndash; ein Spektrum, das breiter ist als bei den meisten Kinderdarstellerinnen, die früh auf ein Genre festgelegt werden. A Seed & Wings Productions, das gemeinsame Unternehmen mit ihrer Mutter, widmet sich explizit multikulturellen Erzählungen, die unterhalten, bilden und stärken sollen &ndash; ein Anliegen, das über die eigene Schauspielkarriere hinausreicht.</p>
+          <p class="vb-intro">Das Flusspferd baut sein Revier nicht allein, sondern gemeinsam mit dem eigenen Rudel aus, und lässt dieses Rudel dabei mitwachsen. Storm Reids Weg vom Werbespot-Baby zur Emmy-Preisträgerin und Produzentin zeigt genau dieses Muster: Jeder Erfolgsschritt bleibt mit der Familie verbunden, die von Anfang an mit umzog, mitgründete und mitträgt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-mr-t", label:"Portrait: Mr. T (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function quentinTarantinoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7156,140 +7280,6 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
-      ])}
-    </div>
-  `);
-}
-
-function langLangPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-lang-lang-portrait.jpg" alt="Lang Lang" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lang Lang</p>
-        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Pianist, geb. 1982 – Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das mit unermüdlichem Fleiß im Verborgenen arbeitet, bevor es sich zeigt, und das erst durch jahrelanges, geduldiges Üben zu jener Geschicklichkeit findet, die andere für angeboren halten. Lang Lang, geboren 1982 in Shenyang im Nordosten Chinas, begann bereits mit zwei Jahren Klavier zu spielen, nachdem ihn eine Szene aus dem Zeichentrickfilm "Tom und Jerry" zutiefst berührt hatte: In der Folge "The Cat Concerto" (1946) spielt Kater Tom am Flügel Franz Liszts virtuose Ungarische Rhapsodie Nr. 2 – ein rasantes, dicht aneinandergereihtes Notengewitter, dessen mitreißender Rhythmus den kleinen Lang Lang so faszinierte, dass er selbst Klavier lernen wollte. Genau dieser Reiz an Präzision, Tempo und dichter, effizienter Notenfolge ist bezeichnend für die selbsterhaltende Drei: Rhythmus als Ausdruck von Können, das sich messen und beweisen lässt.</p>
-          <p class="vb-intro">Sein Vater Lang Guoren gab seine eigene Stelle bei der Polizei auf, um sich vollständig der musikalischen Ausbildung seines Sohnes zu widmen, und zog mit dem neunjährigen Lang Lang nach Peking, während die Mutter in Shenyang zurückblieb, um Geld zu verdienen. Die Trainingsjahre waren von extremer Disziplin und Härte geprägt – Stunden täglichen Übens, hohe Erwartungen, wenig Raum für eine gewöhnliche Kindheit. Der Waschbär lernte früh: Können entsteht nicht durch Talent allein, sondern durch endlose, oft schmerzhafte Wiederholung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbare Meisterschaft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht.</p>
-          <p class="vb-intro">1999, im Alter von siebzehn Jahren, erhielt Lang Lang seinen Durchbruch als kurzfristiger Einspringer beim Ravinia Festival in Chicago, wo er mit dem Chicago Symphony Orchestra Tschaikowskys erstes Klavierkonzert spielte – ein Auftritt, der ihn über Nacht bekannt machte. Doch dieser scheinbare Zufallserfolg war das Ergebnis von vierzehn Jahren täglicher, disziplinierter Vorbereitung. Die SE3 investiert unsichtbar, jahrelang, bevor der sichtbare Moment kommt – und ist dann bereit, wenn die Gelegenheit sich bietet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierflügel: Musik als Verbindung zur Welt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls zur Verbindung und Fürsorge. Lang Langs Bühnenpräsenz ist geprägt von überschwänglicher, körperlicher Ausdruckskraft – er lächelt während des Spielens, blickt ins Publikum, lässt seine Emotionen sichtbar werden, statt sich hinter kühler Virtuosität zu verschanzen. Kritiker nannten diesen Stil mitunter zu theatralisch, doch für Millionen neuer Klassikhörer wurde genau diese Zugänglichkeit zur Eintrittstür in eine Musikwelt, die ihnen zuvor fremd geblieben war.</p>
-          <p class="vb-intro">2008 gründete er die Lang Lang International Music Foundation, die Musikunterricht für Kinder aus einkommensschwachen Verhältnissen weltweit fördert, und wirkte maßgeblich am sogenannten "Lang-Lang-Effekt" mit: In China begannen nach seinem Erfolg schätzungsweise Millionen zusätzlicher Kinder, Klavier zu lernen. Der Waschbär mit dem Zweierflügel baut nicht nur die eigene Meisterschaft auf – er öffnet Türen für andere, damit sie denselben Weg finden können.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit im Dienst der Zugänglichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als lautes Geltungsbedürfnis, sondern als das feine Bedürfnis, durch nachweisbare Leistung als unentbehrlich zu gelten. Bei Lang Lang zeigt sich das in seiner Bereitschaft, klassische Musik bewusst zu populärer Kultur zu öffnen: Kollaborationen mit Popstars wie Pharrell Williams und Metallica, ein Auftritt bei der Eröffnungsfeier der Olympischen Spiele 2008 in Peking vor einem Milliardenpublikum, Werbekampagnen für internationale Marken.</p>
-          <p class="vb-intro">Diese Grenzüberschreitungen brachten ihm Kritik aus konservativeren Kreisen der klassischen Musikwelt ein, die seinen Stil als zu kommerziell empfanden. Doch für die SE3w2 ist Reichweite kein Widerspruch zu Substanz, sondern deren logische Konsequenz: Wer wirklich etwas zu geben hat, will es möglichst vielen Menschen zugänglich machen, nicht nur einem exklusiven Kreis von Kennern.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Verletzung und die Rückkehr</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">2017 zwang eine schwere Sehnenentzündung im linken Arm, verursacht durch Jahrzehnte intensiven Übens und öffentlicher Auftritte, Lang Lang zu einer über einjährigen Spielpause – eine existenzielle Bedrohung für einen Musiker, dessen gesamte Identität auf nachweisbarer, körperlicher Meisterschaft beruhte. Statt zu verzweifeln, nutzte er die Zeit, um sich verstärkt der Musikvermittlung und dem Unterrichten zu widmen, und kehrte 2018 mit neuer Reife an die Bühne zurück.</p>
-          <p class="vb-intro">2019 heiratete er die deutsche Pianistin Gina Alice Redlinger (SE2w3), mit der er seither auch gemeinsam auftritt und unterrichtet. Der Waschbär, dessen Sicherheit einst allein auf der eigenen Spielfähigkeit ruhte, fand in der Krise eine neue, tragfähigere Grundlage: nicht nur zu können, sondern das eigene Können weiterzugeben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der eine Generation für das Klavier begeisterte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Lang Lang gilt heute als einer der einflussreichsten klassischen Musiker seiner Generation – nicht nur wegen seiner technischen Virtuosität, sondern weil er es wie kaum ein anderer schaffte, klassische Musik aus dem Konzertsaal-Elfenbeinturm zu holen und einem globalen, jungen Publikum zugänglich zu machen.</p>
-          <p class="vb-intro">Vom disziplinierten Übungskind in Shenyang zum Weltstar, der vor Milliardenpublikum spielt und gleichzeitig Kindern in einkommensschwachen Regionen den Zugang zur Musik ermöglicht: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Meisterschaft, die sich nicht selbst genügt, sondern zur Brücke für andere wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
-        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function penelopeCruzPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-penelope-cruz-portrait.jpg" alt="Pen\u00e9lope Cruz" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Pen\u00e9lope Cruz</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1974 &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit. Er tr\u00e4gt eine nat\u00fcrliche Maske, ver\u00e4ndert sich mit seiner Umgebung, findet in jeder Nische einen Weg &ndash; leise, funktional, ohne Aufhebens um sich selbst zu machen.</p>
-          <p class="vb-intro">Die spanische Schauspielerin Pen\u00e9lope Cruz deb\u00fctierte mit f\u00fcnfzehn Jahren im spanischen Fernsehen, drehte mit siebzehn ihren ersten Kinofilm und ist seither, \u00fcber mehr als drei Jahrzehnte hinweg, pr\u00e4sent geblieben &ndash; als einzige spanische Schauspielerin mit einem Oscar, in Hollywood-Gro\u00dfproduktionen ebenso wie im spanischen Autorenkino. Und doch ist ihr \u00f6ffentliches Bild bemerkenswert unspektakul\u00e4r: kein Dauerskandal, keine inszenierte Selbstdarstellung, sondern ein Werk, das f\u00fcr sich spricht. Der Waschb\u00e4r, der sich in jede Rolle, jede Sprache, jedes Filmset einf\u00fcgt &ndash; und dabei doch niemals verschwindet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Handwerk statt Rampenlicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie zeigt am wenigsten von dem, was man landl\u00e4ufig mit dem Bild der Drei verbindet. Statt Selbstinszenierung sucht sie Sicherheit \u00fcber nachweisbare Kompetenz &ndash; \u00fcber das, was tats\u00e4chlich geleistet wird, nicht \u00fcber das, was behauptet wird. Naranjo beschreibt diesen Subtyp als denjenigen, der Arbeit selbst zum Statussymbol macht: Nicht Glanz z\u00e4hlt, sondern das solide Fundament, das man sich erarbeitet hat.</p>
-          <p class="vb-intro">Cruz' Karriere tr\u00e4gt diese Handschrift deutlich. Sie lie\u00df sich in klassischem Ballett und dramatischer Kunst ausbilden, bevor sie \u00fcberhaupt vor die Kamera trat &ndash; jahrelanges Training als Fundament, nicht als Fu\u00dfnote. Sie drehte in vier Sprachen, arbeitete mit Regisseuren wie Almod\u00f3var, Bigas Luna, Fernando Trueba, Woody Allen und Michael Mann, wechselte zwischen unabh\u00e4ngigem Kino und Milliarden-Franchises &ndash; und blieb dabei bemerkenswert konsequent bei der Sache: dem Handwerk. Kein \u00f6ffentliches Ringen um Deutungshoheit \u00fcber die eigene Person, sondern eine stille Verl\u00e4sslichkeit, Film f\u00fcr Film.</p>
-          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Drei auf das Konkrete: auf die eigene Familie, auf finanzielle und berufliche Stabilit\u00e4t, auf ein Leben, das tr\u00e4gt. Cruz ist bekannt daf\u00fcr, das Privatleben mit Javier Bardem und ihren beiden Kindern konsequent aus der \u00d6ffentlichkeit herauszuhalten &ndash; keine Homestory, keine inszenierte Familienidylle. Der Waschb\u00e4r baut sein Nest dort, wo niemand hinsieht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Loyalit\u00e4t und W\u00e4rme</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gibt der selbsterhaltenden Drei eine W\u00e4rme, die eine SE3 mit schw\u00e4cherem Zweierfl\u00fcgel selten in dieser Deutlichkeit zeigt. Wo eine Drei mit schwach ausgepr\u00e4gtem Zweierfl\u00fcgel sich in Funktionalit\u00e4t ersch\u00f6pfen k\u00f6nnte, bringt der Zweierfl\u00fcgel den Wunsch nach echter Verbindung, nach Zugeh\u00f6rigkeit zu Menschen, denen man vertraut &ndash; und die Bereitschaft, sich f\u00fcr sie einzusetzen.</p>
-          <p class="vb-intro">Diese Loyalit\u00e4t zeigt sich am deutlichsten in Cruz' Zusammenarbeit mit Pedro Almod\u00f3var: \u00dcber sechs Spielfilme hinweg, beginnend mit <em>Fessle mich!</em> 1990 (in einer Nebenrolle) bis zu <em>Parallele M\u00fctter</em>, f\u00fcr den sie ihre zweite Oscar-Nominierung erhielt, hat sie sich immer wieder demselben Regisseur anvertraut &ndash; nicht aus Kalk\u00fcl, sondern aus einer \u00fcber Jahrzehnte gewachsenen, fast famili\u00e4ren Bindung. Almod\u00f3var selbst beschreibt sie als eine, die sich vollst\u00e4ndig gibt, sobald Vertrauen besteht.</p>
-          <p class="vb-intro">Auch ihr humanit\u00e4res Engagement tr\u00e4gt diese Handschrift: langj\u00e4hrige Unterst\u00fctzung f\u00fcr UNHCR, f\u00fcr Bildungsprojekte in Indien und Uganda, f\u00fcr Hilfsprogramme in Krisenregionen &ndash; meist ohne gro\u00dfe mediale Inszenierung. Die SE3w2 will nicht nur funktionieren. Sie will, dass die Menschen, f\u00fcr die sie sich einsetzt, tats\u00e4chlich etwas davon haben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Verwandlungsk\u00fcnstlerin: Masken als Handwerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Waschb\u00e4r tr\u00e4gt eine Maske &ndash; und genau das ist Cruz' auff\u00e4lligstes schauspielerisches Merkmal: die F\u00e4higkeit, in jeder Rolle vollst\u00e4ndig zu verschwinden. Die versoffene Nachbarin in <em>Volver</em>, die eifers\u00fcchtige K\u00fcnstlerin in <em>Vicky Cristina Barcelona</em>, die verzweifelte Mutter in <em>Madres Paralelas</em>, die glamour\u00f6se S\u00e4ngerin in <em>Nine</em> &ndash; kaum eine Rolle gleicht der anderen, und doch bleibt jede glaubw\u00fcrdig bis in die kleinste Geste.</p>
-          <p class="vb-intro">Das ist keine Zurschaustellung von Vielseitigkeit als Selbstzweck, sondern die SE3-Logik in ihrer klarsten Ausprägung: Kompetenz beweist sich durch das Ergebnis, nicht durch die Ank\u00fcndigung. Cruz spricht selten \u00f6ffentlich \u00fcber ihre Vorbereitungsmethoden oder ihr &bdquo;Verfahren&ldquo; &ndash; sie liefert stattdessen das fertige Werk und l\u00e4sst es f\u00fcr sich sprechen. Der Waschb\u00e4r, der die Maske nicht tr\u00e4gt, um zu t\u00e4uschen, sondern weil sie das Werkzeug ist, mit dem er arbeitet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3 ist ihre F\u00e4higkeit, Talent in dauerhafte, \u00fcberpr\u00fcfbare Substanz zu verwandeln. \u00dcber drei Jahrzehnte, mehr als sechzig Filme, ein Oscar, zwei weitere Nominierungen, ein Stern auf dem Walk of Fame &ndash; eine Karriere, die nicht auf einem einzigen H\u00f6hepunkt beruht, sondern auf best\u00e4ndiger, wiederholter Leistung. Das ist die Drei als Aufbaukraft: nicht der eine gro\u00dfe Wurf, sondern die verl\u00e4ssliche Konstante.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber nicht abwesend: das Bed\u00fcrfnis, durch reine Funktionalit\u00e4t unangreifbar zu erscheinen. Der beharrliche R\u00fcckzug aus dem Privaten kann selbst zur Maske werden &ndash; eine Form der Kontrolle \u00fcber das eigene Bild, die genauso viel Inszenierung erfordert wie das Gegenteil. &bdquo;Ich rede nicht \u00fcber mich&ldquo; ist am Ende auch eine Aussage \u00fcber sich selbst.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel bringt sein eigenes Schattenmuster mit: die Sorge, ohne den Dienst an anderen &ndash; an Regisseuren, an Kollegen, an den eigenen Kindern &ndash; nicht genug zu sein. Funktionieren und Geben verschmelzen dann zu einer Identit\u00e4t, die kaum noch Raum f\u00fcr ein Ich l\u00e4sst, das einfach nur da ist, ohne zu leisten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Vom Funktionieren zum Sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; unabh\u00e4ngig davon, was ich vorweisen kann.</em> F\u00fcr die SE3 bedeutet das, den eigenen Wert nicht l\u00e4nger an das n\u00e4chste Projekt, die n\u00e4chste bewiesene Kompetenz zu kn\u00fcpfen.</p>
-          <p class="vb-intro">Cruz hat in Interviews wiederholt betont, dass sie mit den Jahren gelernt habe, Rollen auszuw\u00e4hlen, die ihr wirklich etwas bedeuten, statt jeder Gelegenheit nachzujagen &ndash; ein leiser, aber deutlicher Schritt vom Zwang zum Funktionieren hin zu bewusster Auswahl. Der Waschb\u00e4r, der irgendwann nicht mehr jede Nische f\u00fcllen muss, um sich seines Wertes sicher zu sein &ndash; sondern w\u00e4hlt, wo er wirklich hingeh\u00f6rt, und darin ruht.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
       ])}
     </div>
   `);
