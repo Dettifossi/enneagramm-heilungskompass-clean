@@ -33104,6 +33104,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
     land:"Serbien/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
+  { route:"beruehmte-ludwig-goeransson", name:"Ludwig Göransson", added:"2026-08-29", subtyp:"SE4w5",
+    heading:"Ludwig Göransson – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · geb. 1984. Schwedischer Filmkomponist und Produzent, zwei Oscars (›Black Panther‹, ›Oppenheimer‹). Monatelange Recherchereisen und wissenschaftliche Vertiefung für jede Partitur, langjähriger Weggefährte Donald Glovers und Ryan Cooglers, stets im Hintergrund statt im Rampenlicht. Tierentsprechung: Taube.",
+    land:"Schweden", tags:["Musik","Film"], gender:"m"},
   { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1864–1936. Spanischer Philosoph und Schriftsteller, Rektor der Universität Salamanca. Lebenslanges Ringen mit der eigenen Sterblichkeit in ›Del sentimiento trágico de la vida‹, Erfinder der ›nivola‹. Berühmte Konfrontation mit General Millán-Astray 1936, Amtsenthebung und Hausarrest bis zu seinem Tod. Tierentsprechung: Taube.",
@@ -44745,12 +44749,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
         beschreibung: "Anders als bei den lauteren Vierer-Subtypen zeigt sich der innere Schmerz oder die innere Tiefe kaum nach außen. Die Verarbeitung geschieht in stiller, oft jahrzehntelanger Beharrlichkeit – ohne Applaus für das eigene Ringen zu suchen.",
-        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach; Andreas, der Erstberufene der Jünger, der ›den Zwölf immer dabei, aber selten im Mittelpunkt‹ war und sein größtes Erlebnis nie herausstellte: ›Ich war der Erste, der ihn erkannt hat. Und das reicht.‹"
+        beleg: "Sam Altman und Leo Tolstoi werden fast wortgleich beschrieben: ›Sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit. Sie sucht keinen Applaus für ihr inneres Ringen‹; Paul McCartney, über dessen ›tiefstes Inneres man erstaunlich wenig weiß‹, obwohl er über sechzig Jahre öffentlich wirkte; Clemens G. Arvay, dessen Werk ›kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt‹ war; Derek Goodwin, dessen Standardwerke über Tauben, Krähen und Prachtfinken Generationen von Ornithologen prägten, während er selbst als ›stiller Experte im Hintergrund‹ so unsichtbar blieb, dass sich von ihm kaum ein Foto findet; Ludwig Göransson, dessen Filmmusik zu ›Black Panther‹ und ›Oppenheimer‹ zwei Oscars und globale kulturelle Wirkung einbrachte, während sein eigener Name den meisten Zuschauern unbekannt bleibt – Bedeutung ohne Sichtbarkeit; Adele, die im Alltag als humorvoll und bodenständig beschrieben wird, während der Schmerz, aus dem ihre größten Songs entstehen, im Privaten verarbeitet wird, bevor er auf die Bühne kommt – ›man klagt nicht öffentlich, man schreibt ein Album‹; Lady Diana, die ihre über Jahre andauernde Bulimie so vollständig hinter der makellosen öffentlichen Fassade verbarg, dass selbst ihr nächstes Umfeld lange nichts Genaues davon wusste, und erst 1995 selbst öffentlich darüber sprach; Andreas, der Erstberufene der Jünger, der ›den Zwölf immer dabei, aber selten im Mittelpunkt‹ war und sein größtes Erlebnis nie herausstellte: ›Ich war der Erste, der ihn erkannt hat. Und das reicht.‹"
       },
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
@@ -55470,6 +55474,72 @@ function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function ludwigGoeranssonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-goeransson-portrait.jpg" alt="Ludwig Göransson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Göransson</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schwedischer Filmkomponist und Produzent, geb. 1984 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrelanger Beharrlichkeit. Ludwig Göransson wurde 1984 im schwedischen Linköping geboren, Sohn eines Musiklehrers, und begann früh, Schlagzeug zu spielen und Musik systematisch zu studieren. Anders als viele Popstars seiner Generation trat er nie selbst ins Rampenlicht – seine Karriere spielt sich fast vollständig hinter den Kulissen ab, als Komponist und Produzent, dessen Name den meisten Kinobesuchern unbekannt bleibt, obwohl seine Musik Millionen Menschen weltweit berührt.</p>
+          <p class="vb-intro">Göransson zog Ende der 2000er-Jahre in die USA, um an der University of Southern California Filmmusik zu studieren – dort lernte er den Studenten Donald Glover kennen, der später als Childish Gambino Weltruhm erlangen sollte. Aus dieser frühen Begegnung wurde eine der prägendsten kreativen Partnerschaften der letzten fünfzehn Jahre, doch typisch für die selbsterhaltende Vier blieb Göransson dabei stets der Mann im Hintergrund, nie der Mann auf der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Wirkung ohne Sichtbarkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr inneres Ringen nicht öffentlich vor sich her, sondern verarbeitet es still, oft jahrelang, bevor sie es zeigt – und selbst dann steht meist die Arbeit im Vordergrund, nicht die eigene Person. Göransson hat als Komponist zwei Oscars gewonnen – für „Black Panther" (2019) und „Oppenheimer" (2024) –, zwei völlig unterschiedliche Werke, für einen afrofuturistischen Superheldenfilm und ein historisches Biopic über die Entwicklung der Atombombe. Trotz dieses außergewöhnlichen Erfolgs bleibt er einer breiten Öffentlichkeit weitgehend unbekannt – kein Name, der Schlagzeilen macht, sondern einer, der in den Titeln steht.</p>
+          <p class="vb-intro">Auch als Produzent arbeitete Göransson maßgeblich an Alben von Rihanna, Justin Timberlake und Kendrick Lamar mit, immer im Hintergrund, immer dienend an der Vision eines anderen Künstlers, nie als eigenständige öffentliche Figur auftretend. Diese konsequente Zurückhaltung bei gleichzeitig enormer kreativer Wirkung ist ein Kernmuster der selbsterhaltenden Vier: Bedeutung entsteht nicht durch Sichtbarkeit, sondern durch die stille Qualität der eigenen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Leben als Systemfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz zu ihrem eigenen Ausdruck – das Gefühl wird nicht nur eingefangen, sondern in ein durchdachtes, oft geradezu wissenschaftliches Vorgehen übersetzt. Für die Filmmusik zu „Black Panther" reiste Göransson eigens nach Senegal und Südafrika, um traditionelle Musikinstrumente und -traditionen vor Ort zu studieren, arbeitete mit lokalen Musikern zusammen und integrierte diese Klänge methodisch in seine Partitur, statt sie oberflächlich zu imitieren.</p>
+          <p class="vb-intro">Für „Oppenheimer" (2023) verbrachte er rund neun Monate mit der Komposition von über drei Stunden Musik, beschäftigte sich intensiv mit Kernphysik und der Biografie des Titelhelden, um eine Filmmusik zu schreiben, die – nach eigener Aussage – wie der ruhelose, von „stiller Einsamkeit" geprägte Geist Oppenheimers klingen sollte. Eine bewusste kompositorische Entscheidung zeigt diese Systemliebe besonders deutlich: Der gesamte Score verzichtet vollständig auf Schlagzeug und Percussion – eine radikale, durchdachte Einschränkung, die dem Werk seine unverwechselbare, fast schwebende Klangwelt verleiht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwei Oscars, zwei völlig verschiedene Welten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen der westafrikanisch grundierten, rhythmisch treibenden Musik zu „Black Panther" und der von Streichern getragenen, fast klaustrophobischen Klangwelt zu „Oppenheimer" liegen Welten – kaum ein anderer Komponist seiner Generation bewegt sich mit derselben methodischen Tiefe zwischen so unterschiedlichen musikalischen Sprachen. Für Göransson ist jedes neue Projekt offenbar eine eigene, in sich geschlossene Systemfrage: Welche Klangwelt braucht genau diese Geschichte, dieser Charakter, dieser historische Moment – und wie lässt sie sich mit größtmöglicher Genauigkeit erschließen, statt auf Bewährtes zurückzugreifen?</p>
+          <p class="vb-intro">Diese Haltung zeigte sich schon in seiner Zusammenarbeit mit Regisseur Ryan Coogler, die 2013 mit dem kleinen, persönlichen Drama „Fruitvale Station" begann und sich über „Creed" (2015) bis zu den beiden „Black Panther"-Filmen fortsetzte – eine über ein Jahrzehnt gewachsene künstlerische Partnerschaft, die auf genau demselben stillen, beharrlichen Vertrauen beruht, das die selbsterhaltende Vier in ihren engsten kreativen Bindungen entwickelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>durch akribische, oft monatelange Recherche eine emotionale Wahrheit in Klang zu übersetzen</strong>, die ein Millionenpublikum erreicht, ohne dass der Urheber selbst je im Mittelpunkt stehen müsste. Göranssons Musik prägt heute einige der größten kulturellen Momente des Kinos der letzten zehn Jahre – „Black Panther" wurde zu einem globalen kulturellen Ereignis, „Oppenheimer" zu einem der erfolgreichsten seriösen Dramen der Kinogeschichte –, und dennoch bleibt der Mann dahinter für die meisten Zuschauer namenlos.</p>
+          <p class="vb-intro">Der Schatten dieser Konstellation liegt genau in dieser Unsichtbarkeit: Wer sich nie selbst in den Vordergrund stellt, läuft Gefahr, dass die eigene Leistung unterschätzt oder übersehen wird – ein Risiko, das die selbsterhaltende Vier bewusst in Kauf nimmt, weil ihr die Qualität der Arbeit wichtiger ist als die eigene Anerkennung dafür.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im Hintergrund die großen Klänge schuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwig Göransson gehört zu den einflussreichsten Filmkomponisten seiner Generation – nicht weil er die lauteste Stimme im Raum ist, sondern weil er sich jedem neuen Projekt mit derselben stillen, methodischen Hingabe nähert, mit der andere Vertreter dieses Subtyps eine Lebensfrage durchdenken.</p>
+          <p class="vb-intro">Die Taube, die als Sohn eines Musiklehrers das Handwerk von Grund auf lernte und sich nie selbst in den Vordergrund drängte, und die dennoch mit ihrer Musik einige der prägendsten Filmmomente des Jahrzehnts mitgeschaffen hat – das ist das bleibende Bild dieses Subtyps: stille, durchdachte Meisterschaft, die keine Bühne für sich selbst braucht, um zu wirken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
       ])}
     </div>
   `);
@@ -136534,6 +136604,7 @@ function render() {
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
+      "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-derek-goodwin": derekGoodwinPortraitPage,
       "beruehmte-mariella-superina": mariellaSuperinaPortraitPage,
       "beruehmte-lauren-gardner": laurenGardnerPortraitPage,
