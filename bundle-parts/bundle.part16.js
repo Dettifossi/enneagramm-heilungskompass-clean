@@ -4726,6 +4726,7 @@ function render() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "musterradar": musterradarPage,
+    "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,

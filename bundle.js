@@ -15869,6 +15869,7 @@ const uiText = {
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
+      { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -24270,6 +24271,8 @@ const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 400+ Fallporträts" },
+  { term: "Musterradar",               route: "musterradar",            description: "Porträts nach Flügel oder Instinktvariante gefiltert – quer über alle 27 Subtypen hinweg" },
+  { term: "Enneagramm-Rad",            route: "enneagramm-rad",         description: "Interaktives Enneagramm-Symbol: Stress-, Wachstums- und Flügellinien aller 9 Typen zum Anklicken" },
   { term: "Tierforscher-Übereinstimmung", route: "tierforscher-uebereinstimmung", description: "Übersicht: Tierforscher und andere Personen, deren Lebensthema ihrer eigenen Tierentsprechung entspricht" },
 
   { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },
@@ -25624,6 +25627,8 @@ const registerEntriesEN = [
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 400+ case portraits" },
+  { term: "Pattern Radar", route: "musterradar", description: "Portraits filtered by wing or instinctual variant – across all 27 subtypes at once" },
+  { term: "Enneagram Wheel", route: "enneagramm-rad", description: "Interactive Enneagram symbol: stress, growth, and wing lines for all 9 types, click to explore" },
   { term: "Animal-Researcher Correspondence", route: "tierforscher-uebereinstimmung", description: "Overview: animal researchers and others whose life theme matches their own animal correspondence" },
   { term: "Weather and Nature Phenomena of the 9 Types", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypal weather and nature phenomenon equivalents for each Enneagram type" },
   { term: "Architecture & Interior Design of the 9 Types", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypal architectural styles and interior designs for each Enneagram type" },
@@ -45290,6 +45295,7 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
@@ -45448,6 +45454,117 @@ function lebensmusterkompassDetailPage(codeRaw) {
   `);
 }
 
+const RAD_STRESS = {1:4, 2:8, 3:9, 4:2, 5:7, 6:3, 7:1, 8:5, 9:6};
+const RAD_GROWTH = {1:7, 2:4, 3:6, 4:1, 5:8, 6:9, 7:5, 8:2, 9:3};
+const RAD_WINGS = {1:[9,2], 2:[1,3], 3:[2,4], 4:[3,5], 5:[4,6], 6:[5,7], 7:[6,8], 8:[7,9], 9:[8,1]};
+const RAD_POS = {1:[302.8,77.4], 2:[357.6,172.2], 3:[338.6,280], 4:[254.7,350.4], 5:[145.3,350.4], 6:[61.4,280], 7:[42.4,172.2], 8:[97.2,77.4], 9:[200,40]};
+function radLineId(a, b) { return "rad-line-" + Math.min(a,b) + "-" + Math.max(a,b); }
+function radInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Fahre mit der Maus über einen Punkt, um seine Stress- und Wachstumsrichtung sowie seine Flügel zu sehen &ndash; oder tippe direkt auf einen Punkt, um zum Typ zu gelangen.</p>`;
+  }
+  const col = typeColor(n);
+  const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
+  const wings = RAD_WINGS[n];
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
+    <div style="display:grid;gap:0.35rem;font-size:0.82rem;">
+      <div><span style="font-weight:700;color:#a00802;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}</div>
+      <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}</div>
+      <div><span style="font-weight:700;color:var(--copper);">Flügel:</span> Typ ${wings[0]} &amp; Typ ${wings[1]}</div>
+    </div>
+    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Zum Typ ${n} im Kompass &rarr;</button>
+  `;
+}
+function radFocus(n) {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.15"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  const a = RAD_STRESS[n], b = RAD_GROWTH[n];
+  [a, b].forEach(t => {
+    const el = document.getElementById(radLineId(n, t));
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3.5"; }
+    const pt = document.querySelector('.rad-point[data-typ="' + t + '"]');
+    if (pt) pt.style.opacity = "0.9";
+  });
+  RAD_WINGS[n].forEach(w => {
+    const pt = document.querySelector('.rad-point[data-typ="' + w + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(n);
+}
+function radBlur() {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.55"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(0);
+}
+window.radFocus = radFocus;
+window.radBlur = radBlur;
+
+function enneagrammRadPage() {
+  const lines = Object.entries(RAD_STRESS).map(([a, b]) => {
+    a = parseInt(a, 10);
+    const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+    return `<line id="${radLineId(a, b)}" class="rad-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--muted)" stroke-width="2" opacity="0.55" />`;
+  }).join("");
+
+  const points = [1,2,3,4,5,6,7,8,9].map(n => {
+    const [x, y] = RAD_POS[n];
+    const col = typeColor(n);
+    const leftPct = (x / 400 * 100).toFixed(2);
+    const topPct = (y / 400 * 100).toFixed(2);
+    return `
+      <button class="rad-point" data-typ="${n}" data-route="type/${n}"
+        onmouseenter="radFocus(${n})" onmouseleave="radBlur()" onfocus="radFocus(${n})" onblur="radBlur()"
+        style="position:absolute;left:${leftPct}%;top:${topPct}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);transition:opacity .15s;"
+        title="Typ ${n} &ndash; ${TYPNAMEN[n]}"
+      >${n}</button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Rad</p>
+        <h1 class="section-title">Enneagramm-Rad</h1>
+        <p class="psycho-intro">Das klassische Enneagramm-Symbol als interaktive Karte: Der Sechsstern (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) und das Dreieck (3&ndash;9&ndash;6) zeigen, wie die 9 Typen über Stress- und Wachstumslinien miteinander verbunden sind &ndash; und die Kreisbahn selbst zeigt die Flügel-Nachbarschaften. Fahre über einen Punkt, um seine Verbindungen zu sehen, oder tippe direkt darauf, um zum Typ zu gelangen.</p>
+
+        <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
+          <div style="position:relative;width:100%;aspect-ratio:1;">
+            <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+              <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+              ${lines}
+            </svg>
+            ${points}
+          </div>
+          <div id="rad-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">
+            ${radInfoHtml(0)}
+          </div>
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Stress-Richtung</strong> (auch Desintegration genannt): Unter Druck oder in Krisen zeigt ein Typ verstärkt Verhaltensweisen des Typs am anderen Ende seiner Stresslinie &ndash; meist die problematischeren Seiten davon. <strong>Wachstums-Richtung</strong> (Integration): In Sicherheit und mit wachsendem Bewusstsein kann ein Typ die gesunden Qualitäten des Typs am Ende seiner Wachstumslinie integrieren. Die <strong>Flügel</strong> sind die beiden auf dem Kreis direkt benachbarten Typen &ndash; sie färben den Grundtyp ein, ohne ihn zu verändern.</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"typentest-motivational", label:"Zum Typentest"},
+          {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function musterradarPage() {
   const MUSTERRADAR_INSTINCT_COLORS = { SE: "#2f8a4e", SO: "#1f6fd4", SX: "#c21a4d" };
   const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
@@ -45510,6 +45627,7 @@ function musterradarPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
           {route:"enneagramm-instinkt", label:"Schaubild: Enneagramm und Instinkt"},
@@ -137897,6 +138015,7 @@ function render() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "musterradar": musterradarPage,
+    "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,

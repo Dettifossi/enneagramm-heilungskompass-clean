@@ -1,3 +1,175 @@
+function annikaVonMutiusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-annika-von-mutius-portrait.jpg" alt="Dr. Annika von Mutius – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Annika von Mutius</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Unternehmerin, Gründerin von Empion &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft.</p>
+          <p class="vb-intro">Die deutsche Unternehmerin Dr. Annika von Mutius wuchs in Koblenz auf, in einer Familie, die ein Unternehmen zur Drahtverarbeitung führte &ndash; ein solider, handwerklich geprägter Familienbetrieb, kein Umfeld, das nach großer Bühne verlangte. Sie promovierte in Mathematik an der WHU in Vallendar, empfand die akademische Laufbahn dann aber als zu abstrakt und ging stattdessen für vier Jahre als Head of Product zu Multiply Labs ins Silicon Valley &ndash; ein Umweg über reine Praxis, bevor sie den eigenen Weg fand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Im Dezember 2021 gründete von Mutius gemeinsam mit Larissa Leitner das HR-Tech-Start-up Empion &ndash; eine Plattform, die per Künstlicher Intelligenz Bewerbende und Unternehmen nicht nur nach Qualifikation, sondern nach Werten, Skills und Persönlichkeitsmerkmalen zusammenbringt. Statt auf lautes Marketing zu setzen, baute das Team über Jahre an der eigentlichen technischen Substanz des Matchings &ndash; mit dem Ergebnis, dass Empion heute mit Konzernen wie Procter &amp; Gamble und den Volksbanken arbeitet, neun Millionen US-Dollar an Finanzierung einsammelte und den Wettbewerber Zalvus übernahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg zwischen Familienunternehmen und Start-up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Von Mutius beschreibt ihre eigene Position selbst als ein Leben &bdquo;zwischen den Stühlen&ldquo; &ndash; zwischen dem soliden, handwerklich geprägten Familienunternehmen ihrer Eltern und der volatilen, oft überinszenierten Start-up-Welt, der sie sich mit Empion verschrieben hat, ohne in ihr aufzugehen.</p>
+          <p class="vb-intro">Bezeichnend ist ihr eigener Rückblick auf das Gründerinnendasein: Sie stellte öffentlich fest, dass mit dem Wachstum eines Start-ups der persönliche Erfolg an Bedeutung verliert &ndash; eine für die reine SE3w2 untypische Beobachtung, die zeigt, wie sehr der Viererflügel die eigene Rolle immer wieder an einer tieferen, persönlichen Bedeutungsfrage misst, statt sich allein an Wachstumszahlen zu orientieren. 2024 wurde sie zusätzlich in den Vorstand des KI-Bundesverbands gewählt &ndash; eine öffentliche Rolle, die sie dennoch mit derselben nüchternen, unaufgeregten Handwerklichkeit ausfüllt wie ihre unternehmerische Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Von Mutius baute mit Empion ein Produkt, dessen Kern &ndash; die algorithmische Passung von Werten statt bloßer Qualifikation &ndash; tatsächlich funktionieren musste, bevor es überhaupt vermarktbar wurde. Ihre Auszeichnungen, darunter Forbes &bdquo;30 Under 30 Europe&ldquo; und das Handelsblatt-Ranking &bdquo;Menschen des Jahres&ldquo;, folgten der Substanz, nicht umgekehrt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder vorgezeichneten Erwartung &ndash; ob Familienunternehmen oder reine Start-up-Logik &ndash; abzugrenzen und einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr am nächsten Finanzierungsmeilenstein hängt, sondern an der Wahrhaftigkeit des eigenen Weges.</p>
+          <p class="vb-intro">Von Mutius' eigene Beobachtung, dass persönlicher Erfolg beim Wachsen eines Unternehmens an Bedeutung verliert, liest sich wie ein früher Schritt genau auf diesem Weg &ndash; ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als etwas, das über die eigene Person hinausweist: ein Unternehmen, das anderen Menschen zu einem passenderen Arbeitsplatz verhilft, statt nur die eigene Gründerinnen-Geschichte zu erzählen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function changpengZhaoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-changpeng-zhao-portrait.jpg" alt="Changpeng Zhao – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Changpeng Zhao</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Kanadisch-chinesischer Unternehmer, Gründer von Binance &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das im Dunkeln am geschicktesten ist: unauffällig, anpassungsfähig, überall zuhause, wo es gerade gebraucht wird. Erst wenn man genau hinschaut, wird sichtbar, wie viel Kontrolle in dieser scheinbaren Bescheidenheit steckt.</p>
+          <p class="vb-intro">Der kanadisch-chinesische Unternehmer Changpeng Zhao, meist nur als &bdquo;CZ&ldquo; bekannt, wurde 1977 in der chinesischen Provinz Jiangsu geboren und wanderte als Teenager mit seiner Familie nach Kanada aus, wo er in Vancouver aufwuchs und Informatik an der McGill University studierte. Vor der eigenen Firmengründung arbeitete er handwerklich-technisch im Hintergrund von Finanzsystemen &ndash; bei Bloomberg Tradebook, bei der Handelssoftware-Firma Fusion Systems und schließlich als Chief Technology Officer bei OKCoin, einer der damals größten Krypto-Börsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Infrastruktur statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">2013 wurde Zhao auf Bitcoin aufmerksam und verkaufte seine Wohnung in Shanghai, um sich vollständig dem Thema zu widmen. 2017 gründete er Binance &ndash; innerhalb weniger Jahre wurde die Plattform zur größten Kryptowährungsbörse der Welt, mit Spot-Handel, Terminmärkten, Staking-Diensten und dem eigenen BNB-Ökosystem. Der Aufstieg gelang nicht durch spektakuläre öffentliche Auftritte, sondern durch technische Infrastruktur, die zuverlässig funktionierte, während andere Börsen an Skalierung und Stabilität scheiterten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene, unangepasste Weg in einer neuen Branche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Zhao baute Binance bewusst außerhalb der etablierten Finanzwelt auf, ohne festen Firmensitz, mit einer dezentral über die ganze Welt verteilten Belegschaft &ndash; ein radikal eigener organisatorischer Weg, der sich keiner klassischen Unternehmensstruktur unterordnete.</p>
+          <p class="vb-intro">Diese Eigenständigkeit war zugleich sein größter kommerzieller Vorteil und sein größtes regulatorisches Risiko: Binance operierte über Jahre in einem selbst geschaffenen Graubereich zwischen den Regulierungssystemen verschiedener Länder &ndash; ein Weg, der zwar Wachstum ermöglichte, den aber kein etabliertes Finanzunternehmen so gegangen wäre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der eigenen Regellosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im November 2023 bekannte sich Zhao im Rahmen einer Einigung mit US-Behörden schuldig, kein wirksames Programm gegen Geldwäsche unterhalten zu haben &ndash; ein Verstoß gegen den Bank Secrecy Act. Binance zahlte eine Strafe von 4,32 Milliarden US-Dollar, Zhao persönlich 50 Millionen Dollar Bußgeld und weitere 50 Millionen an die US-Terminbörsenaufsicht. Er trat als CEO zurück und durfte laut Vergleich keine Führungsrolle bei Binance mehr ausüben. Im April 2024 wurde er zu vier Monaten Haft verurteilt &ndash; deutlich weniger als die von der Staatsanwaltschaft geforderten 36 Monate.</p>
+          <p class="vb-intro">Anders als bei reinen Betrugsfällen ging es hier nicht um veruntreute Kundengelder, sondern um ein systematisches Versäumnis bei der Regelkonformität eines im Kern funktionierenden Geschäfts &ndash; die Kehrseite des unangepassten w4-Wegs: Wer sich bewusst außerhalb bestehender Systeme bewegt, trägt am Ende auch deren Konsequenzen, wenn diese Systeme ihn schließlich einholen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem technischem Handwerk echte Einzigartigkeit zu schöpfen. Zhao baute eine Infrastruktur, die Millionen Menschen weltweit tatsächlich nutzten &ndash; nicht durch Hype, sondern weil das Produkt funktionierte, während zahlreiche Wettbewerber an Sicherheitslücken und Ausfällen scheiterten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unangreifbar zu gelten, während die eigentliche Substanz nach außen kaum erklärt wird. Der Schatten des Viererflügels zeigte sich hier sehr konkret: Der bewusste Verzicht auf Anpassung an bestehende Regelwerke, der Binance groß gemacht hatte, wurde am Ende zur strafrechtlichen Konsequenz &ndash; ein Muster, das zeigt, wie schmal der Grat zwischen eigenständigem Weg und Regelbruch sein kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function brynKenneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bryn-kenney-portrait.jpg" alt="Bryn Kenney – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryn Kenney</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Profi-Pokerspieler &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier mit ruhigen Pfoten und wachen Augen, das am Pokertisch niemand fürchtet, bis es zu spät ist. Es blufft nicht durch Lautstärke, sondern durch die schiere Präzision seiner Bewegungen: Während andere Tiere um Aufmerksamkeit buhlen, sammelt der Waschbär in aller Stille genau die Informationen, die am Ende den Unterschied machen.</p>
+          <p class="vb-intro">Der US-amerikanische Profi-Pokerspieler Bryn Kenney wurde 1986 in Long Beach, New York, geboren und spielte als Jugendlicher wettkampfmäßig das Strategiekartenspiel Magic: The Gathering &ndash; ein analytisches, tief taktisches Spiel, das seine spätere Herangehensweise an Poker entscheidend prägte. Mit sechzehn begann er, online Poker zu spielen, lange bevor ihn irgendjemand kannte, und erkannte früh, dass er damit sein Geld verdienen konnte. Seinen ersten größeren Live-Gewinn erzielte er 2007 &ndash; Jahre stiller, weitgehend unbeachteter Übung, bevor die Öffentlichkeit von ihm erfuhr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Eine Woche vor seiner Prüfung zum Immobilienmakler starb seine Großmutter &ndash; ein Wendepunkt, der Kenney klarmachte, dass es für ihn keinen Grund mehr gab, diesen konventionellen Weg weiterzuverfolgen. Er entschied sich für Poker als Profession, nicht aus Rebellion, sondern weil er dort bereits nachweislich etwas konnte. Über Jahrzehnte baute er seine Fähigkeiten in unzähligen Turnieren aus, bis er 2019 beim Triton Million for Charity mit einem zweiten Platz den bis heute größten Einzelgewinn der Pokergeschichte einstrich: über 20,5 Millionen US-Dollar. Seit 2026 führt er die All-Time-Money-List mit rund 90,76 Millionen Dollar Turniergewinnen an &ndash; vor Justin Bonomo und dem langjährigen Spitzenreiter Daniel Negreanu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der einsame Wolf am Tisch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Kenney beschreibt sich selbst unumwunden als Außenseiter der Szene: &bdquo;Ich bin wie der einsame Wolf in dieser Pokerwelt&ldquo;, sagte er einmal &ndash; eine Selbstbeschreibung, die zeigt, wie sehr er sich als eigenständige, nicht ins übliche Schema passende Figur begreift, selbst innerhalb einer Szene, in der er sportlich an der absoluten Spitze steht.</p>
+          <p class="vb-intro">Sein extravaganter persönlicher Stil &ndash; teure Uhren, auffällige Ketten, unverblümte Ansagen am Tisch &ndash; wirkt auf den ersten Blick wie reine Selbstdarstellung, ist bei genauerem Hinsehen aber eher Ausdruck eines völlig eigenen Maßstabs als der Wunsch, einer Gruppe zu gefallen. Kenney selbst formuliert eine fast schon philosophische Grundhaltung dazu: &bdquo;Meine ganze Lebenserfahrung ist, dass es keinen Traum gab, der zu groß war &ndash; jeder Traum, den ich hatte, wurde Wirklichkeit.&ldquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Können echte Einzigartigkeit zu schöpfen. Kenneys jahrelange, im Verborgenen erarbeitete Spielstärke führte am Ende zum größten je ausgezahlten Turniergewinn der Pokergeschichte &ndash; kein Zufallstreffer, sondern das Ergebnis von tausenden Stunden Analyse, die niemand von außen sah.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während die eigene Substanz zugleich hinter einer Fassade aus Understatement oder, wie bei Kenney, hinter demonstrativer Extravaganz verborgen bleibt. Der Schatten des Viererflügels zeigt sich in der Isolation, die das Selbstbild des &bdquo;einsamen Wolfs&ldquo; mit sich bringt: &bdquo;Niemand ist perfekt&ldquo;, räumte Kenney selbst einmal ein &ndash; ein knapper Satz, der andeutet, wie viel Kritik und Reibung ein derart kompromissloser Eigenweg auch nach außen erzeugt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function johnnyCashPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10537,368 +10709,6 @@ function ladyDianaKrankheitsportraetPage() {
         {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
-      ])}
-    </div>
-  `);
-}
-
-function freddieMercuryKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Freddie Mercury" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Freddie Mercury</p>
-        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1946–1991</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Chihuahua</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Freddie Mercury</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-freddie-mercury">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine fast
-        fünf Jahre lang streng geheim gehaltene AIDS-Erkrankung, die er erst einen Tag vor
-        seinem Tod 1991 selbst öffentlich bestätigte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Mercury</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
-        zugeordnet. Die SX4 verwandelt persönlichen Schmerz und Sehnsucht in Intensität, die
-        andere unmittelbar berührt – auf der Bühne kompromisslos sichtbar. Der Dreierflügel
-        bringt die Fähigkeit, dieses Innenleben in beeindruckende öffentliche Wirkung zu
-        gießen. Genau diese Spannung zwischen radikaler Selbstoffenbarung auf der Bühne und
-        einer ebenso radikal kontrollierten Privatsphäre prägt auch Mercurys
-        Krankheitsgeschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Gerüchte, die er nie bestätigte:</strong>
-        Ab Mitte der 1980er-Jahre kursierten in der Presse zunehmend Gerüchte über Mercurys
-        Gesundheitszustand – er selbst äußerte sich dazu öffentlich nicht, weder bestätigend
-        noch dementierend.</p>
-        <p class="vb-intro"><strong>b) Eine Diagnose, die Privatsache blieb:</strong>
-        Laut den Erinnerungen seines Partners Jim Hutton wurde Mercury im Frühjahr 1987 mit
-        HIV diagnostiziert – eine Information, die er über Jahre auch engsten Vertrauten nur
-        stückweise mitteilte.</p>
-        <p class="vb-intro"><strong>c) Eine Bühnenpräsenz, die keinen Verfall zeigte:</strong>
-        Bis zu seinem letzten öffentlichen Auftritt blieb die Diskrepanz zwischen der
-        strahlenden Kunstfigur und dem zunehmend geschwächten Körper dahinter für die
-        Öffentlichkeit kaum sichtbar.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine klare Ansage an die Band:</strong>
-        Laut Roger Taylor rief Mercury die Band zu einem Treffen zusammen und sagte
-        sinngemäß, sie würden wohl ahnen, was mit ihm los sei – aber es solle "nicht bekannt
-        werden" und "keinen Unterschied machen"; er wolle einfach weiterarbeiten, "bis ich
-        verdammt noch mal umfalle" (›until I fucking well drop‹), und bat um ihre
-        Unterstützung dabei.</p>
-        <p class="vb-intro"><strong>b) Weiterarbeiten trotz sichtbarer Schwäche:</strong>
-        Bei den Aufnahmen zu "The Show Must Go On" konnte Mercury laut Brian May kaum noch
-        stehen, bestand aber darauf zu singen: "He could hardly stand, but he said 'I'll
-        fucking do it, darling!'" (›Er konnte kaum stehen, sagte aber: Ich mach das
-        verdammt noch mal, Liebling!‹)</p>
-        <p class="vb-intro"><strong>c) Ein Album, dessen Veröffentlichung sich verzögerte:</strong>
-        "Innuendo", aufgenommen zwischen März 1989 und November 1990, verschob sich wegen
-        seines Gesundheitszustands vom ursprünglich geplanten Termin Ende 1990 auf Februar
-        1991.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Ein letztes Video in bewusstem Schwarz-Weiß:</strong>
-        Für das am 30. Mai 1991 gedrehte Video zu "These Are the Days of Our Lives" wurde
-        bewusst Schwarz-Weiß gewählt, um seinen sichtbaren körperlichen Verfall zu kaschieren
-        – später aufgetauchtes Farbmaterial zeigte, wie geschwächt er tatsächlich war.</p>
-        <p class="vb-intro"><strong>b) "I still love you" – letzte Worte auf Kamera:</strong>
-        Mercury bewegte sich im Video kaum noch und trug die emotionale Wirkung fast
-        ausschließlich über Mimik; sein geflüstertes "I still love you" am Ende gilt als
-        seine letzten Worte vor laufender Kamera.</p>
-        <p class="vb-intro"><strong>c) Eine Presseerklärung einen Tag vor dem Tod:</strong>
-        Am 23. November 1991 bestätigte Mercury in einer kurzen Erklärung selbst: "I wish to
-        confirm that I have been tested HIV-positive and have AIDS" (›Ich möchte bestätigen,
-        dass bei mir HIV positiv getestet wurde und dass ich AIDS habe‹) – nach Jahren
-        strikter Geheimhaltung erklärte er, die Zeit sei nun gekommen, dass Freunde und Fans
-        weltweit die Wahrheit erfahren sollten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Tod am 24. November 1991:</strong>
-        Mercury starb einen Tag nach seiner Presseerklärung an einer Bronchopneumonie als
-        Folge von AIDS, in seinem Haus in London.</p>
-        <p class="vb-intro"><strong>b) Sein Partner Jim Hutton an seiner Seite:</strong>
-        Jim Hutton, seit sechs Jahren Mercurys Lebenspartner, war in seinen letzten Stunden
-        bei ihm. Wenige Tage zuvor soll Mercury zu ihm gesagt haben: "I never realized you
-        were as strong as you are" (›Ich habe nie gemerkt, wie stark du eigentlich bist‹).</p>
-        <p class="vb-intro"><strong>c) Ein Konzert, das zum globalen Ereignis wurde:</strong>
-        Das Freddie Mercury Tribute Concert am 20. April 1992 in Wembley war innerhalb von
-        vier Stunden ausverkauft und erreichte laut Schätzungen bis zu einer Milliarde
-        Zuschauer weltweit – die Erlöse begründeten den bis heute aktiven Mercury Phoenix
-        Trust.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Vollständige Kontrolle über die eigene Erzählung:</strong>
-        Genau die SX4w3-Fähigkeit, das eigene Bild bewusst zu gestalten, ermöglichte es
-        Mercury, die Deutungshoheit über seine Krankheit bis zuletzt selbst zu behalten –
-        statt sie der Presse zu überlassen.</p>
-        <p class="vb-intro"><strong>b) Intensität statt Rückzug:</strong>
-        Anders als ein offener Zusammenbruch zeigte sich Mercurys Reaktion auf die Krankheit
-        als gesteigerte kreative Intensität – er nutzte die verbleibende Zeit, um so viel
-        Musik wie möglich fertigzustellen, statt sich zurückzuziehen.</p>
-        <p class="vb-intro"><strong>c) Der Chihuahua, der bis zuletzt nicht aufhörte zu bellen:</strong>
-        Bis zum letzten möglichen Moment blieb die schöpferische Energie ungebrochen –
-        selbst als der Körper längst nicht mehr mithalten konnte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Identität, die schon immer neu erschaffen wurde:</strong>
-        Mercury, geboren als Farrokh Bulsara in Sansibar, hatte sich zeitlebens neu erfunden
-        – auch gegenüber seinen Eltern verschwieg er sowohl seine Homosexualität als auch
-        später seine Erkrankung vollständig.</p>
-        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Krankheit:</strong>
-        Von den ersten Gerüchten Mitte der 1980er über die Diagnose 1987 bis zur
-        Presseerklärung 1991 zieht sich eine durchgehende, aber öffentlich fast vollständig
-        kontrollierte Linie – nichts wurde ihm entrissen, alles wurde von ihm selbst
-        freigegeben.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Jahr zwischen Verfall und Schaffenskraft:</strong>
-        Gerade 1990/91 – körperlich sichtbar geschwächt – entstanden einige der
-        eindringlichsten Aufnahmen seiner Karriere, darunter "The Show Must Go On" und "These
-        Are the Days of Our Lives".</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet das Immunsystem?</strong>
-        Für eine sexuelle Vier mit Dreierflügel, deren Identität sich über schonungslose
-        Selbstoffenbarung auf der Bühne bei gleichzeitiger strikter Kontrolle der eigenen
-        Privatsphäre definierte, liegt eine Deutung nahe: Ausgerechnet jenes System, das
-        zwischen dem eigenen Selbst und der Außenwelt unterscheidet und schützt, wurde zum
-        Ort des Zusammenbruchs – während die öffentliche Kontrolle über das eigene Bild bis
-        zuletzt aufrechterhalten wurde. Diese Deutung ist eine plausible Interpretation,
-        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
-        dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu AIDS oder anderen
-        Immunerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Mercurys Fall zeigen lässt, ist ein
-        Muster, das bei dem Bedürfnis, radikale Selbstoffenbarung und strikte
-        Privatsphäre-Kontrolle gleichzeitig zu leben, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Mercury kannte sein eigenes Muster nicht – die sexuelle Vier mit Dreierflügel verbirgt die eigene Verletzlichkeit hinter makelloser Bühnenleistung, und genau das ließ ihn seine Diagnose fast fünf Jahre lang geheim halten, während er bis zur völligen Erschöpfung weiterarbeitete. Wer das eigene Verbergungsmuster nicht kennt, hält die Fassade aufrecht, bis buchstäblich keine Kraft mehr bleibt, sie zu halten.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        In <strong>Mercurys</strong> Geschichte offenbart sich die sexuelle Vier mit
-        Dreierflügel noch einmal mit voller Wucht: eine Krankheit, über Jahre mit
-        eiserner Selbstkontrolle verborgen, ein Körper, der zusehends versagte, während die
-        Schaffenskraft bis zuletzt ungebrochen blieb, und ein letztes öffentliches Wort, das
-        er sich selbst aussuchte, statt es sich nehmen zu lassen. Der Chihuahua, der bis zum
-        letzten Atemzug seine eigene Erzählung bestimmte – und dessen Vermächtnis, der
-        Mercury Phoenix Trust, bis heute weiterwirkt.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3) – Lebenswerk"},
-        {route:"krankheitsportraets-billie-eilish", label:"Krankheitsporträt: Billie Eilish (SX4w3) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
-      ])}
-    </div>
-  `);
-}
-
-function albertEinsteinKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Albert Einstein" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Albert Einstein</p>
-        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1879–1955</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Oktopus</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Albert Einstein</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-albert-einstein">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
-        über sechseinhalb Jahre bekanntes, nur notdürftig stabilisiertes
-        Bauchaortenaneurysma und die bewusste Entscheidung, es 1955 nicht mehr operieren zu
-        lassen.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Einstein</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
-        zugeordnet. Die SO5 sucht Sicherheit über Wissen und intellektuelle Autorität
-        innerhalb einer Gemeinschaft von Gleichgesinnten, nicht über emotionale Nähe. Der
-        Viererflügel bringt eine melancholische, existenzielle Tiefe hinzu – eine Nähe zu den
-        großen Fragen von Sinn, Endlichkeit und Bedeutung. Genau diese Kombination aus
-        distanzierter Rationalität und existenzieller Tiefe prägt auch Einsteins Umgang mit
-        seiner eigenen Sterblichkeit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein Zufallsfund bei einer Untersuchung:</strong>
-        Im Dezember 1948 suchte Einstein wegen wiederkehrender Bauchschmerzen den
-        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation (ein
-        chirurgischer Eingriff zur Ursachenklärung, ohne dass vorab feststand, was er finden
-        würde) ein großes Bauchaortenaneurysma entdeckte (eine krankhafte Aussackung der
-        Hauptschlagader, die jederzeit reißen kann).</p>
-        <p class="vb-intro"><strong>b) Eine Notlösung statt Heilung:</strong>
-        Da Aortentransplantate damals noch nicht existierten, umwickelte Nissen das
-        Aneurysma mit Cellophan – eine Fremdkörperreaktion sollte die Aortenwand fibrotisch
-        verdicken und so vorübergehend stabilisieren. Eine echte Heilung war das nicht.</p>
-        <p class="vb-intro"><strong>c) Ein Wissen, das den Alltag kaum veränderte:</strong>
-        In den folgenden Jahren arbeitete Einstein nach außen sichtbar unvermindert weiter –
-        über einen bewussten Umgang mit dem Risiko im Alltag ist wenig überliefert, was zur
-        SO5-typischen Trennung von Wissen und emotionaler Verarbeitung passt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Sechseinhalb Jahre mit einer bekannten Zeitbombe:</strong>
-        Von der Diagnose im Dezember 1948 bis zu seinem Tod im April 1955 lebte Einstein mit
-        einem Aneurysma, das jederzeit reißen konnte – palliativ stabilisiert, aber nie
-        kurativ behandelt.</p>
-        <p class="vb-intro"><strong>b) Ein akuter Zusammenbruch im April 1955:</strong>
-        Am 12. April 1955 erlitt Einstein erneut Bauchschmerzen; Dr. Frank Glenn, Chefchirurg
-        am New York Hospital, diagnostizierte ein undichtes Aneurysma und empfahl eine
-        Resektion – eine damals neue, riskante Operationstechnik.</p>
-        <p class="vb-intro"><strong>c) Eine bewusste Ablehnung der Operation:</strong>
-        Einstein lehnte den Eingriff ab. So ist überliefert: "I want to go when I want. It is
-        tasteless to prolong life artificially. I have done my share, it is time to go. I
-        will do it elegantly." (›Ich will gehen, wenn ich will. Es ist geschmacklos, das
-        Leben künstlich zu verlängern. Ich habe meinen Teil getan, es ist Zeit zu gehen. Ich
-        werde es mit Würde tun.‹)</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Eine unvollendete Rede neben dem Krankenbett:</strong>
-        Im Princeton Hospital hatte Einstein einen unfertigen Entwurf einer Fernsehansprache
-        zum siebten Jahrestag des Staates Israel bei sich – Arbeit, die er bis zuletzt nicht
-        aufgab.</p>
-        <p class="vb-intro"><strong>b) Gleichungen bis zur letzten Nacht:</strong>
-        Nach seinem Tod fand das Pflegepersonal neun Seiten handschriftlicher Notizen mit
-        Gleichungen zur einheitlichen Feldtheorie, mit Bleistift auf gelbem Papier
-        geschrieben – seine letzte, nie abgeschlossene wissenschaftliche Suche.</p>
-        <p class="vb-intro"><strong>c) Kein Abschied, keine große Geste:</strong>
-        Einstein bereitete sich auf seinen Tod nicht mit Reden an Angehörige vor, sondern
-        arbeitete weiter, als sei nichts anders als sonst – für die SO5 typisch: Rückzug in
-        die Sache statt in die Emotion.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Tod am 18. April 1955:</strong>
-        Einstein starb im Princeton Hospital an einer inneren Blutung durch die Ruptur des
-        Aneurysmas, im Alter von 76 Jahren.</p>
-        <p class="vb-intro"><strong>b) Eine Entscheidung, die bis heute diskutiert wird:</strong>
-        Die Ablehnung der Operation gilt bis heute als eines der bekanntesten Beispiele für
-        eine bewusste, selbstbestimmte Haltung zum eigenen Lebensende in der
-        Wissenschaftsgeschichte.</p>
-        <p class="vb-intro"><strong>c) Ein Nachleben, das er nicht kontrollieren konnte:</strong>
-        Der Pathologe Thomas Harvey entnahm bei der Autopsie ohne Erlaubnis der Familie
-        Einsteins Gehirn, in der Hoffnung, spätere Forschung könne daraus seine Intelligenz
-        erklären – eine Kontroverse, die bis heute nachwirkt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Kontrolle durch Wissen statt durch Handeln:</strong>
-        Die SO5-typische Strategie, Sicherheit über Verstehen statt über Eingreifen zu
-        gewinnen, zeigte sich bis zuletzt: Einstein analysierte seine Lage nüchtern und traf
-        eine informierte Entscheidung, statt sich dem medizinischen System auszuliefern.</p>
-        <p class="vb-intro"><strong>b) Rückzug in die Arbeit statt in die Angst:</strong>
-        Statt sich mit der Endlichkeit emotional auseinanderzusetzen, vertiefte er sich bis
-        zum letzten bewussten Moment in Gleichungen und Texte – die vertraute Zuflucht in
-        die Sache.</p>
-        <p class="vb-intro"><strong>c) Der Oktopus, der die Tinte selbst wählte:</strong>
-        Wo andere sich dem Zufall oder dem medizinischen Eingriff überlassen hätten, behielt
-        Einstein bis zuletzt die Deutungshoheit über den eigenen Tod – eine letzte Form von
-        Autonomie.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Leben der distanzierten Beobachtung:</strong>
-        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, selbst die
-        größten menschlichen Umbrüche – zwei Weltkriege, Emigration, öffentlicher Ruhm – mit
-        bemerkenswerter innerer Distanz zu betrachten.</p>
-        <p class="vb-intro"><strong>b) Eine über Jahre bekannte, aber nie verdrängte Bedrohung:</strong>
-        Von der Diagnose 1948 bis zum Tod 1955 zieht sich eine durchgehende Linie aus Wissen
-        um die eigene Sterblichkeit, die weder verheimlicht noch dramatisiert wurde – sie
-        wurde schlicht zur Kenntnis genommen.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Jahr wie jedes andere:</strong>
-        Bis zum akuten Zusammenbruch im April 1955 unterschied sich sein Alltag nach außen
-        kaum von den Jahren zuvor – Arbeit, Korrespondenz, Forschung, ohne sichtbare
-        Dramatisierung der eigenen Lage.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Aorta?</strong>
-        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über rationale Distanz und
-        intellektuelle Kontrolle entsteht, liegt eine Deutung nahe: Ausgerechnet jenes Gefäß,
-        das den gesamten Organismus mit Leben versorgt und dessen Versagen keine Warnung
-        gibt, wurde zum Ort einer Bedrohung, die sich der Kontrolle entzog – während Einstein
-        genau darauf mit der einzigen ihm verbliebenen Form von Kontrolle reagierte: der
-        bewussten Entscheidung, sie nicht zu bekämpfen. Diese Deutung ist eine plausible
-        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Gefäßerkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Einsteins Fall zeigen lässt, ist ein Muster, das bei dem
-        Bedürfnis, existenzielle Bedrohung über rationale Distanz statt über emotionale
-        Bewältigung zu verarbeiten, in der Praxis immer wieder auffällt – eine von vielen
-        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Einstein kannte sein eigenes Muster nicht – die soziale Fünf mit Viererflügel bestimmt lieber selbst über die eigenen Bedingungen, als sich fremder Kontrolle zu unterwerfen, und genau das zeigte sich in seiner bewussten Ablehnung einer erneuten Operation. Wer die eigene Autonomiebedürftigkeit nicht als Muster erkennt, verwechselt sie leicht mit reiner Vernunft, obwohl auch die eigene Fixierung mitentscheidet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Einsteins</strong> letzten Jahren lässt sich die soziale Fünf mit
-        Viererflügel noch einmal in aller Klarheit ablesen: eine über Jahre bekannte, nie
-        verdrängte Bedrohung, eine nüchterne, informierte Entscheidung gegen den Eingriff, und
-        eine Arbeit an den großen Fragen des Universums, die bis zur letzten Nacht nicht
-        endete. Der Oktopus, der die Tinte selbst wählte – und der noch im Sterben nach der
-        einen Formel suchte, die alles erklären würde.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
-        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
     </div>
   `);

@@ -1,3 +1,190 @@
+function leslieVanHoutenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Leslie Van Houten \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/leslie-van-houten-portrait.jpg" alt="Leslie Van Houten \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leslie Van Houten</p>
+        <p class="krim-portrait-typ">SO9w1 \u00b7 Sozialer Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-sub">Mitglied der Manson Family &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der B\xfcffel</h3>
+        <p class="vb-intro">Der <strong>B\xfcffel</strong> ist die Tierentsprechung der sozialen Neun &ndash; und er beschreibt Leslie Van Houtens innere Natur auf eine Weise, die erst im R\xfcckblick auf ihr ganzes Leben deutlich wird. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe nicht als Kulisse, sondern als Lebensraum. Er bewegt sich ruhig, zuverl\xe4ssig, fast lautlos &ndash; aber immer mit der Herde. Wenn er sich in eine Richtung bewegt, macht er es vollst\xe4ndig. Genau so bewegte sich Leslie Van Houten durch ihr Leben: als Teil einer Gemeinschaft, in deren Richtung sie sich vollst\xe4ndig \xfcberantwortet hatte &ndash; erst der Manson Family, sp\xe4ter dem Gef\xe4ngnisleben, zuletzt dem Dienst an anderen Menschen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Neun: Teilhabe als Identit\xe4t</h3>
+        <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> wird in der Enneagramm-Tradition als der Subtyp der <em>Teilhabe</em> beschrieben (Naranjo: Participation). Die SO9 sucht nicht die intensive Zweierbeziehung &ndash; sie sucht <em>Zugeh\xf6rigkeit zu einer Gemeinschaft</em>. Ihr Selbst tritt nicht in einer Einzelperson auf, sondern in der Gruppe: Was die Gruppe denkt, f\xfchlt, glaubt, wird ihr eigenes Denken, F\xfchlen, Glauben.</p>
+        <p class="vb-intro"><strong>Leslie Van Houten</strong>, geboren am 23. August 1949 in Altadena, Kalifornien, wuchs in einer beh\xfcteten Mittelstandsfamilie auf. Mit 14 erlebte sie die Scheidung ihrer Eltern als tiefen Einschnitt &ndash; die Gemeinschaft, in der sie verwurzelt war, zerbrach. Im Alter von 17 wurde sie gegen ihren Willen abgetrieben; das Trauma lie\xdf sie ohne sozialen Halt zur\xfcck. Als sie 1968 auf die Manson Family traf, fand sie nicht einen Menschen &ndash; sie fand eine <em>Gemeinschaft</em>: ein Leben auf einer Ranch, gemeinsame Mahlzeiten, gemeinsame Rituale, ein Wir-Gef\xfchl, das sie seit der Elternscheidung vermisst hatte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Pflicht und die innere Ordnung</h3>
+        <p class="vb-intro">Der <strong>Einserfl\xfcgel (w1)</strong> verleiht der sozialen Neun etwas Entscheidendes: eine tiefe Sehnsucht danach, in dem System, in dem sie lebt, alles <em>richtig</em> zu machen. Nicht aus Ehrgeiz, sondern aus einem moralischen Antrieb, der leise, aber konstant wirkt.</p>
+        <p class="vb-intro">Als Leslie in die Manson Family eintauchte, empfand sie Mansons Weltsicht nicht als chaotisch, sondern als eine <em>h\xf6here, richtige Ordnung</em>. Einmal in einem System verankert, wollte sie darin korrekt handeln. Das Gef\xe4ngnis sp\xe4ter wurde dieselbe Struktur: Leslie wurde zur musterhaftesten Insassin &ndash; h\xf6flich, flei\u00dfig, regelkonform. Jahrzehntelang kein einziger schwerwiegender Regelversto\xdf. Der Einserfl\u00fcgel lie\xdf sie in jedem System, in dem sie lebte, das Richtige tun &ndash; nach den Regeln dieses Systems.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die LaBianca-Morde &ndash; 9./10. August 1969</h3>
+        <p class="vb-intro">In der Nacht vom 9. auf den 10. August 1969 fuhr Manson mit einer Gruppe zur Villa von Leno und Rosemary LaBianca in Los Feliz. Manson betrat das Haus, fesselte das Ehepaar und \xfcberlie\xdf dann Tex Watson, Patricia Krenwinkel und Leslie Van Houten die Tat.</p>
+        <p class="vb-intro">Leslie Van Houten stach nach eigener Aussage mehrfach auf die bereits sterbende Rosemary LaBianca ein. Warum? Weil ihr gesagt wurde, sie m\xfcsse &bdquo;ihren Teil beitragen&ldquo; &ndash; zur Gruppe, zur gemeinsamen Sache. Das ist das pr\xe4ziseste Bild der ungesunden SO9w1: Es gab keine eigene Entscheidung, keine eigene Grenze. Die Tat war <em>Pflicht innerhalb der Gemeinschaft</em>, der sie sich vollst\xe4ndig \xfcberantwortet hatte. Der Einserfl\xfcgel verwandelte diese Gef\xfchllosigkeit in Pflichtgef\xfchl.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. 53 Jahre Haft: Gemeinschaft als Heilung</h3>
+        <p class="vb-intro">Leslie Van Houten wurde 1971 zum Tod verurteilt. Als Kalifornien die Todesstrafe 1972 aussetzte, wurde das Urteil in lebensl\xe4ngliche Haft umgewandelt. Sie sa\xdf \xfcber f\xfcnf Jahrzehnte im Gef\xe4ngnis &ndash; und was dort geschah, ist aus Enneagramm-Sicht bemerkenswert.</p>
+        <p class="vb-intro">Sie holte einen Bachelor- und einen Masterabschluss in Geisteswissenschaften nach. Sie leitete die <em>Victim Offenders Education Group</em>, eine Gruppe, in der T\xe4ter und Opfer miteinander arbeiten. Sie leitete das <em>Actor's Gang Prison Project</em>, ein Theatertherapieprogramm. Sie war Vorsitzende des <em>Inmate Advisory Council</em> &ndash; gew\xe4hlte Vertreterin der Mitinsassinnen. Sie war Tutorin f\xfcr andere Gef\xe4ngene.</p>
+        <p class="vb-intro">Das ist kein zuf\xe4lliges Muster. Das ist <em>SO9 in ihrer gesunden Form</em>: Dienst an der Gemeinschaft, stilles Beitragen, Verantwortung f\xfcr die Gruppe \xfcbernehmen &ndash; ohne Selbstdarstellung, ohne Drama. Gutachter beschrieben sie als &bdquo;kind, thoughtful and compassionate&ldquo;. Im Jahr 2023 wurde sie nach 53 Jahren auf Bew\xe4hrung entlassen. Sie war 73 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Naranjos SO9 &ndash; &bdquo;Teilhabe / Participation&ldquo;:</strong> Claudio Naranjo beschreibt die SO9 als den Subtyp, der die eigene Identit\xe4t in der Zugeh\xf6rigkeit zu einer Gemeinschaft aufl\xf6st. Die SO9 fragt nicht &bdquo;Wer bin ich?&ldquo;, sondern &bdquo;Wohin geh\xf6re ich?&ldquo;. Als Leslie die Manson Family fand, gab es f\xfcr sie keine h\xf6here Frage mehr. Die Gruppe hatte eine Antwort &ndash; und sie \xfcbernahm diese Antwort vollst\xe4ndig.</p>
+        <p class="vb-intro"><strong>b) Der Unterschied zu den anderen Family-Mitgliedern:</strong> Patricia Krenwinkel zeigt eher SO4-Muster (Scham, Selbstbestrafung). Tex Watson war funktional t\xe4ter-orientiert. Susan Atkins hatte etwas Exhibitionistisches (eher SX3). Leslie Van Houten steht allein: stille Gefolgschaft, totale Hingabe an die Gruppe, kein Drama, keine Sonderrolle. Das ist die unsichtbare Gef\xe4hrlichkeit der SO9 &ndash; nicht Bosheit, sondern Selbstvergessenheit in einer toxischen Gemeinschaft.</p>
+        <p class="vb-intro"><strong>c) Das Gef\xe4ngnis als Spiegel der Pers\xf6nlichkeit:</strong> Was Leslie Van Houten im Gef\xe4ngnis tat, ist die direkte Fortsetzung desselben Musters &ndash; diesmal in gesunder Form. Die SO9 braucht eine Gemeinschaft, um sich zu entfalten. Im Gef\xe4ngnis fand sie diese Gemeinschaft: die Mitinsassinnen, die Gruppen, die Institutionen. Und sie diente ihr &ndash; leise, verl\xe4sslich, jahrzehntelang. Das ist kein Widerspruch zum Portr\xe4t der T\xe4terin. Es ist seine Vollendung.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Leslie Louise Van Houten</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO9w1 &ndash; Soziale Neun mit Einserfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Tr\xe4gheit (als Selbstvergessenheit in der Gruppe)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> B\xfcffel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> geb. 23. August 1949</span>
+          <span style="display:block;"><strong>Verurteilung:</strong> Mord, lebensl\xe4nglich; 2023 nach 53 Jahren entlassen</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie sich Tr\xe4gheit bei SE9, SO9 und SX9 unterschiedlich ausdr\xfcckt \u2013 und was Teilhabe als Lebensmuster bedeutet.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE9, SO9, SX9 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Tr\xe4gheit als Grundmotiv der Neun: Wie der psychische Schlaf entsteht und wie Erwachen aussieht.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Leslie Van Houten wurde wegen Beteiligung an den LaBianca-Morden verurteilt und 2023 nach \u00fcber 50 Jahren entlassen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
+          {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
+          {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function nickLeesonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Nick Leeson \u2013 Kriminalpsychologie")}
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/nick-leeson-portrait.jpg" alt="Nick Leeson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nick Leeson</p>
+        <p class="krim-portrait-typ">SO9w8 \u00b7 Sozialer Typ 9 mit Achterfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Rogue Trader \u00b7 Barings Bank, Singapur 1992\u20131995 \u00b7 Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; und kein Bild trifft Nick Leeson genauer. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe, er lebt f\xfcr die Gruppe, er definiert sich \xfcber die Zugeh\xf6rigkeit zur Herde. Er ist geduldig, ausdauernd, anpassungsf\xe4hig. Er zieht nicht die Aufmerksamkeit auf sich. Er l\xe4sst sich einspannen &ndash; und tr\xe4gt die Last, ohne zu klagen. Aber wenn er gedr\xe4ngt wird, wenn kein Ausweg bleibt, dann st\xfcrmt er. Nicht aus Bosheit. Aus reiner, akkumulierter Energie.</p>
+          <p class="vb-intro">Nick Leeson war ein B\xfcffel. Er wollte nichts weiter, als dazugeh\xf6ren: zur Bank, zum Team, zur Institution Barings. Er trug die Last der verborgenen Verluste schweigend &ndash; Jahre lang. Er stampfte nicht warnend auf. Er brach erst dann zusammen, als die Last physisch untragbar geworden war. Und er riss die \xe4lteste Merchant Bank Englands mit sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist in der Enneagramm-Tradition der Subtyp der <em>Teilhabe</em> (Naranjo: Participation). Die SO9 findet ihre Identit\xe4t nicht in sich selbst, sondern in der Zugeh\xf6rigkeit zu einer Gemeinschaft. Was die Gruppe erwartet, was die Institution ben\xf6tigt, was die Kollegen gutgei\xdften &ndash; das wird ihr eigenes Handeln. Die SO9 l\xf6st sich in das gr\xf6\xdfere System auf. Das ist keine Schw\xe4che, das ist ihre Struktur.</p>
+          <p class="vb-intro"><strong>Ein wichtiger Hinweis:</strong> Die soziale Neun gilt in der Enneagramm-Tradition als <em>Kontratyp</em> der Neun &ndash; der Subtyp, der am wenigsten nach dem typischen Bild einer Neun aussieht. W\xe4hrend man Tr\xe4gheit gern mit Passivit\xe4t oder Langsamkeit gleichsetzt, kann die soziale Neun erstaunlich umtriebig, flexi\xadgel und gesch\xe4ftig sein. Sie ist aktiv &ndash; aber diese Aktivit\xe4t dient nicht dem eigenen Wachstum, sondern der Zugeh\xf6rigkeit. Sie tut viel, damit die Gemeinschaft sie braucht. Das erinnert an den Bienenstock: immer in Bewegung, immer im Dienst, nie f\xfcr sich selbst. So war auch Leesons getriebenes Handeln in Singapur kein Widerspruch zur Neun &ndash; es war Zugeh\xf6rigkeit in Aktion.</p>
+          <p class="vb-intro">Nick Leeson kam aus einfachen Verh\xe4ltnissen aus Watford und hatte keine akademische Ausbildung. Barings Bank war f\xfcr ihn nicht nur ein Arbeitgeber &ndash; es war eine Welt, in die er sich endlich zugeh\xf6rig f\xfchlte. Er wurde respektiert. Er galt als Macher. Als die Verluste begannen, war sein erster Impuls kein pers\xf6nlicher Vorteil &ndash; es war: <em>die Bank nicht entt\xe4uschen</em>, die Erwartungen der Institution erf\xfcllen, nicht aus der Rolle fallen. Die SO9 kann kein Nein sagen, wenn das Nein ihre Zugeh\xf6rigkeit bedroht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel als Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sozialen Neun eine zus\xe4tzliche Schicht: Durchsetzungswillen, Sturheit, die F\xe4higkeit, unter Druck weiterzumachen. Wo eine SO9 mit schwächerem Achterflügel vielleicht früher aufgegeben hätte, gibt ein stark ausgeprägter Achterflügel Leeson die Energie, das Spiel immer weiterzutreiben. Er ist nicht aggressiv im Sinne von konfrontativ &ndash; aber er gibt nicht auf. Er verdoppelt. Er verdreifacht. Er setzt nach, wenn eine Position gegen ihn l\xe4uft, weil Aufgeben f\xfcr ihn keine Option ist.</p>
+          <p class="vb-intro">Das Konto 88888 wuchs nicht, weil Leeson gierig war. Es wuchs, weil der Achterfl\xfcgel ihm die Ausdauer gab, weiterzumachen &ndash; und die SO9 ihm die Motivation lieferte: <em>das System nicht im Stich lassen</em>. Eine verh\xe4ngnisvoll stimmige Kombination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Tr\xe4gheit als Selbstvergessenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> &ndash; und sie ist leicht misszuverstehen. Sie bedeutet nicht Faulheit. Sie bedeutet eine tiefe <em>Narkotisierung des eigenen Selbst</em>: Die Neun weicht der eigenen inneren Wahrheit aus, sie bet\xe4ubt sich gegen\xfcber dem, was wirklich geschieht, sie sieht weg, wenn der Blick unangenehm w\xe4re.</p>
+          <p class="vb-intro">Nick Leeson hat in Interviews sp\xe4ter erkl\xe4rt, dass er selbst nie wirklich realisiert habe, was er tat. Das klingt wie eine Schutzbehauptung &ndash; aber es ist ein exaktes Bild der Neun. Er war nicht im Modus des ber\xfcchtigten Betr\xfcgers, der im Bewusstsein seiner Schuld handelt. Er war in einem Zustand des <em>funktionalen Wegsehens</em>: weitermachen, weitermachen, weitermachen &ndash; irgendwie wird es sich kl\xe4ren. Dieser Impuls, Probleme nicht anzuschauen, bis sie nicht mehr zu \xfcbersehen sind, ist das Kernsymptom der ungesunden Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Konto 88888: Das Versteck der Tr\xe4gheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1992 er\xf6ffnet Leeson in Singapur ein internes Fehlerkonto &ndash; die Nummer 88888, in der chinesischen Kultur eine Gl\xfccksahl. Urspr\xfcnglich gedacht f\xfcr kleinere administrative Fehler. Bald wird es zum Versteck f\xfcr seine eigenen Handelsverluste. Leeson \xfcberweist Verluste auf dieses Konto und zeigt der Londoner Zentrale nur die Gewinne. Er lebte in zwei Welten: der offiziellen Welt, in der er ein Stern war, und der verborgenen Welt des Kontos, das wuchs und wuchs.</p>
+          <p class="vb-intro">Das ist die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdbeben als Wendepunkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 17. Januar 1995 ersch\xfctterte das Erdbeben von Kobe Japan und die Finanzm\xe4rkte. Leeson hatte massiv auf eine Stabilisierung des Nikkei gesetzt. Der Nikkei st\xfcrzte ab. Seine Verluste explodierten auf ein Niveau, das kein weiteres Verstecken erlaubte. In wenigen Wochen wuchsen die Verluste auf 827 Millionen Pfund &ndash; mehr als doppelt so viel wie das verf\xfcgbare Kapital der Bank.</p>
+          <p class="vb-intro">Am 23. Februar 1995 hinterlie\xdf Leeson in seinem B\xfcro einen Zettel: <em>&bdquo;I'm sorry.&ldquo;</em> Dann floh er nach Malaysia, weiter nach Brunei, schlie\xdflich nach Frankfurt. Drei Tage sp\xe4ter wurde Barings Bank &ndash; 1762 gegr\xfcndet, \xe4lteste Merchant Bank Englands, Bankier der K\xf6nigsfamilie &ndash; f\xfcr insolvent erkl\xe4rt. Der B\xfcffel hatte die Herde nicht verlassen wollen &ndash; und riss sie mit sich in den Abgrund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verhaftung und Changi: Das erzwungene Innehalten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leeson wurde in Frankfurt verhaftet, nach Singapur ausgeliefert und zu sechseinhalb Jahren Gef\xe4ngnis verurteilt. Das Changi-Gef\xe4ngnis ist bekannt f\xfcr seine Strenge. F\xfcr Leeson, der sich immer \xfcber Zugeh\xf6rigkeit definiert hatte, war die totale Isolation eine eigene Strafe.</p>
+          <p class="vb-intro">Im Gef\xe4ngnis erkrankte er an Dickdarmkrebs. Er wurde nach vier Jahren entlassen &ndash; krank, aber am Leben. Er schrieb seine Memoiren: <em>Rogue Trader</em> (1996), sp\xe4ter verfilmt mit Ewan McGregor in der Hauptrolle. Das Buch liest sich weniger wie die Beichte eines Betr\xfcgers als wie die Schilderung eines Mannes, der nie wirklich verstand, was mit ihm geschah. Ein typisches Neuner-Dokument: aufrichtige Verwirrung \xfcber die eigene Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Danach: Die Neun in ihrer zweiten Chance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seiner Entlassung 1999 wurde Leeson nicht zum R\xfcckzugs-Eremiten &ndash; er suchte wieder Zugeh\xf6rigkeit. Er heiratete erneut. Er wurde \xf6ffentlicher Redner zum Thema Risikomanagement und Unternehmenskultur. Er wurde Gesch\xe4ftsf\xfchrer des irischen Fu\xdfballclubs Galway United FC. Kein Luxusleben, keine Selbstisolation &ndash; neue Gemeinschaften, neue Zugeh\xf6rigkeiten.</p>
+          <p class="vb-intro">Das ist die gesunde Seite der SO9: die F\xe4higkeit, nach dem Zusammenbruch wieder Teil von etwas zu werden. Nicht durch Selbst\xfcberh\xf6hung, nicht durch Drama &ndash; sondern durch stilles, beharrliches Eingliedern in eine neue Struktur. Der B\xfcffel, der nach dem Sturm wieder in die Herde tritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Tiefenpsychologische Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) Naranjos SO9 &ndash; Teilhabe als Identit\xe4tsstrategie:</strong> Claudio Naranjo beschreibt die SO9 als den Subtyp, der die eigene Identit\xe4t in der Gemeinschaft aufl\xf6st. Leesons gesamtes Handeln war auf Zugeh\xf6rigkeit ausgerichtet &ndash; zu Barings, zum Team in Singapur, zum Bild des erfolgreichen Traders. Als dieses Bild in Gefahr geriet, konnte er es nicht aufgeben, ohne sich selbst aufzugeben.</p>
+          <p class="vb-intro"><strong>b) Der Unterschied zu anderen Finanzskandalen:</strong> Bernard Madoff (wahrscheinlich SO3) betrieb seinen Betrug kalt, bewusst, jahrzehntelang. Jordan Belfort (SX3) lebte seinen Exzess \xf6ffentlich und schamlos. Nick Leeson passt in kein dieser Bilder. Er war kein Narzisst. Er wollte keine Aufmerksamkeit. Er wollte nicht auffallen. Er wollte nur nicht scheitern &ndash; und verlor dabei alles. Das ist das Pr\xe4ziseste der ungesunden SO9: nicht b\xf6ser Wille, sondern Selbstaufl\xf6sung im falschen System.</p>
+          <p class="vb-intro"><strong>c) Der Achterfl\xfcgel als Verst\xe4rker:</strong> Ohne den Achterfl\xfcgel h\xe4tte die Neun vielleicht fr\xfcher aufgegeben oder Hilfe gesucht. Der Achterfl\xfcgel gab Leeson die Sturheit, weiterzumachen, die Verluste immer weiter zu verdoppeln, nie klein beizugeben. Er verwandelte die passive Tr\xe4gheit der Neun in eine aktive, beharrliche Katastrophe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">10. Was bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nick Leeson ist heute noch am Leben. Er h\xe4lt Vortr\xe4ge \xfcber Unternehmenskultur, \xdcberwachungsversagen und pers\xf6nliche Verantwortung. Er ist kein gebrochener Mann. Er ist ein Mann, der seine Geschichte versteht &ndash; und sie anderen verf\xfcgbar macht.</p>
+          <p class="vb-intro">Was sein Fall bleibt: das klarste dokumentierte Beispiel daf\xfcr, wie die Leidenschaft der Neun &ndash; Tr\xe4gheit als Selbstvergessenheit, als Nicht-Hinschauen, als Aufrechterhaltung des Gruppenbildes um jeden Preis &ndash; nicht nur ein pers\xf6nliches Schicksal, sondern eine Institution zerst\xf6ren kann. Der B\xfcffel, der schweigend tr\xe4gt &ndash; bis er bricht.</p>
+        </blockquote>
+
+        <div class="krim-portrait-footer">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Nick Leeson, geb. 25. Februar 1967, Watford, England</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO9w8 &ndash; Soziale Neun mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Tr\xe4gheit (Selbstvergessenheit, Nicht-Hinschauen)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> B\xfcffel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Zusammenbruch von Barings Bank 1995, Verlust von 827 Mio. Pfund</span>
+        </div>
+
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SE9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO9w8 im Profil: Zugeh\xf6rigkeit als Identit\xe4t, Sturheit als Schutzschicht &ndash; und was passiert, wenn das System versagt.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die Neun als Friedensstifter und Harmoniesucher &ndash; und wie Tr\xe4gheit als Selbstvergessenheit zum blinden Fleck wird.", "Wer du wirklich bist, Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Nick Leeson wurde 1995 in Singapur wegen Betrugs und F\u00e4lschung zu 6\u00bd Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1)"},
+          {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
+          {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypen im \xdcberblick"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function wolfgangBeltracchiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9398,108 +9585,6 @@ function baerenarteDer9TypenPage() {
         {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
         {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function milchkuhartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Milchkuharten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Kuh ist seit \u00fcber 10.000 Jahren die engste tierische Gef\u00e4hrtin des Menschen \u2013 sie hat Kulturen ern\u00e4hrt, Religionen gepr\u00e4gt und Landschaften geformt. Jede Rasse hat dabei ein unverwechselbares Wesen entwickelt: eine eigene Leistung, eine eigene Haltung, ein eigenes Prinzip. Neun Milchkuhrassen, neun Enneagrammprinzipien.</p>
-      <img src="./assets/milchkuharten-der-9-typen.jpg" alt="Milchkuharten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Deutsche Holstein-Schwarzbunt: Der Ma\u00dfstab der Milchwirtschaft</h3>
-        <p class="vb-intro">Die Deutsche Holstein-Schwarzbunt ist die leistungsst\u00e4rkste Milchkuhrasse der Welt \u2013 und das mit einer Konsequenz, die ihresgleichen sucht. Spitzentiere geben \u00fcber 14.000 Liter Milch pro Jahr \u2013 das Mehrfache einer durchschnittlichen Kuh, erreicht durch jahrzehntelange, pr\u00e4zise Zucht auf einen einzigen Standard: maximale Milchleistung bei optimaler Eutergesundheit. Ihr schwarz-wei\u00dfes Fellmuster ist dabei so charakteristisch, dass sie weltweit als das Bild der Kuh schlechthin gilt \u2013 kein anderes Tier steht so sehr f\u00fcr seine Funktion wie die Holstein. Sie ist keine Fleischrasse, keine Doppelnutzungsrasse \u2013 sie ist vollst\u00e4ndig auf ihre Aufgabe ausgerichtet. Ihre Haltung verlangt Pr\u00e4zision: exakte F\u00fctterungspl\u00e4ne, regelm\u00e4\u00dfige Tierarztbesuche, saubere Laufst\u00e4lle mit definierten Routinen. Sie gibt ihr Maximum, wenn alles stimmt \u2013 und zeigt sofort, wenn etwas nicht stimmt. Das Prinzip des Enneagrammtyps 1: Die Holstein hat keinen Plan B. Sie gibt alles f\u00fcr das, was sie tut \u2013 nach einem Standard, der keine Ausnahmen kennt. Und sie ist deshalb unerreicht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Jersey: Die F\u00fcrsorge pur</h3>
-        <p class="vb-intro">Die Jersey-Kuh ist die freundlichste Milchrasse der Welt: klein, sanftm\u00fctig, mit gro\u00dfen dunklen Augen, die selbst Menschen ber\u00fchren, die sonst keine besondere Zuneigung zu K\u00fchen haben. Jerseys sind bekannt daf\u00fcr, dass sie Kontakt zu Menschen suchen, sich streicheln lassen und auf ihren Namen reagieren. Sie geben weniger Milch als die Holstein \u2013 aber ihre Milch ist die reichhaltigste aller Rassen: \u00fcber 5 Prozent Fett, cremig, goldgelb durch hohen Carotingehalt, ideal f\u00fcr Butter, Sahne und K\u00e4se. Ihre Milch n\u00e4hrt nicht nur \u2013 sie verw\u00f6hnt. Die Jersey ist die Rasse, die auf kleinen Familienbauernh\u00f6fen gro\u00df wurde \u2013 n\u00e4he zum Menschen, nicht in Industrieherden. Sie braucht Zuneigung und gibt sie zur\u00fcck. Landwirte beschreiben sie als die Kuh, die man wirklich kennenlernen kann. Das Prinzip des Enneagrammtyps 2: Die Jersey gibt nicht das meiste \u2013 sie gibt das Beste. Und sie macht es aus einer N\u00e4he heraus, die jede Beziehung ver\u00e4ndert, die man mit ihr eingeht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Deutsches Fleckvieh: Leistung in jeder Hinsicht</h3>
-        <p class="vb-intro">Das Deutsche Fleckvieh ist die vielseitigste Hochleistungsrasse Deutschlands \u2013 und das macht es einzigartig: Es liefert sowohl herausragende Milchmengen als auch erstklassige Fleischqualit\u00e4t. W\u00e4hrend andere Rassen sich auf eine Aufgabe spezialisieren, beherrscht das Fleckvieh beide \u2013 und beide auf h\u00f6chstem Niveau. Mit \u00fcber 40 Prozent Marktanteil ist es die meistgehaltene Rasse in Deutschland, \u00f6sterreich und Teilen S\u00fcdeuropas. Sein robuster K\u00f6rperbau, die zuverl\u00e4ssige Fruchtbarkeit und die Langlebigkeit machen es zur wirtschaftlich erfolgreichsten Rasse in vielen Betrieben. Fl\u00e4ckvieh-K\u00fche zeigen eine bemerkenswerte Anpassungsf\u00e4higkeit: Sie gedeihen im Alpenvorland ebenso wie in der norddeutschen Tiefebene, in intensiver Stallhaltung wie auf der Weide. Das Prinzip des Enneagrammtyps 3: Das Fleckvieh stellt sich nicht die Frage, ob Milch oder Fleisch. Es liefert beides \u2013 \u00fcberzeugend, verl\u00e4sslich, \u00fcberall. Erfolg ist f\u00fcr es kein Ziel. Es ist sein nat\u00fcrlicher Zustand.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Deutsches Schwarzbuntes Niederungsrind: Das Original hinter dem Schatten</h3>
-        <p class="vb-intro">Das Deutsche Schwarzbunte Niederungsrind ist die Ursprungsrasse, aus der durch jahrzehntelange Einkreuzung mit amerikanisch-kanadischen Holstein-Friesian-Linien die heutige Hochleistungs-Holstein entstand \u2013 und dabei fast verschwand. Heute gilt es als gef\u00e4hrdete Rasse: Es gibt nur noch wenige tausend reinrassige Tiere in Deutschland. Das Schwarzbunte Niederungsrind ist robuster als seine Nachfahren, langlebiger, mit einer Milchzusammensetzung, die f\u00fcr handwerkliche K\u00e4seproduktion besonders gesch\u00e4tzt wird. Wer diese Kuh kennt, sch\u00e4tzt das Original \u2013 das Unverstellte, das Echte hinter dem, was die Massenproduktion daraus gemacht hat. Sie ist kein Hochleistungstier. Sie ist ein Tier mit Geschichte, mit Tiefe, mit einem Charakter, der dem Einheitsbild widerspricht. Das Prinzip des Enneagrammtyps 4: Das Schwarzbunte Niederungsrind wurde vom Fortschritt \u00fcberholt \u2013 und ist gerade deshalb unersetzlich. Was es tr\u00e4gt, kann keine Zucht reproduzieren: die Eigenheit des Originals.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Angler / Deutsches Rotvieh: Die Stille Kennerin</h3>
-        <p class="vb-intro">Das Angler-Rind \u2013 auch Deutsches Rotvieh genannt \u2013 ist eine der \u00e4ltesten deutschen Milchrassen und eine der am wenigsten bekannten. Tiefrot, mittelschwer, gen\u00fcgsam. Sie braucht keine besonderen Bedingungen, keine aufwendige F\u00fctterung, keine intensive Betreuung \u2013 sie nutzt, was da ist, und gibt daf\u00fcr eine Milch, die in der handwerklichen Milchwirtschaft als besonders wertvoll gilt: hoher Proteingehalt, ausgezeichnete K\u00e4seeignung, Aroma, das aus extensiver Weidehaltung entsteht. Sie ist nicht laut, nicht auff\u00e4llig, nicht rekordbrechend \u2013 sie akkumuliert ihr Wissen \u00fcber Generationen still in sich. Das Angler-Rind ist eine Rasse f\u00fcr Menschen, die genauer hinschauen. Wer sie kennt, sch\u00e4tzt, was kein Hochglanzprospekt zeigt: die Qualit\u00e4t, die aus Zur\u00fckhaltung entsteht. Das Prinzip des Enneagrammtyps 5: Das Rotvieh beeindruckt nicht durch Masse. Es \u00fcberzeugt durch das, was in der Tiefe steckt \u2013 und das erschlie\u00dft sich nur denen, die wirklich nachfragen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Deutsches Braunvieh: Verl\u00e4sslichkeit \u00fcber Generationen</h3>
-        <p class="vb-intro">Das Deutsche Braunvieh ist die verl\u00e4sslichste Milchrasse der Alpenregion: robust, langlebig, treu zu ihrer Herde und zu den Weiden, auf denen sie aufwuchs. Braunvieh-K\u00fche sind f\u00fcr ihre Langlebigkeit bekannt \u2013 viele Tiere werden \u00fcber zehn Jahre gemolken, deutlich l\u00e4nger als Hochleistungsrassen. Sie sind trittsicher auf Steilh\u00e4ngen, kletterfest auf Almen, anpassungsf\u00e4hig an die extremen Bedingungen des Gebirges. Ihre Milch hat einen hohen Kaseingehalt, der sie zur besten K\u00e4semilch \u00fcberhaupt macht \u2013 Allg\u00e4uer Emmentaler, Bergk\u00e4se, viele alpine Spezialit\u00e4ten basieren auf Braunvieh-Milch. Diese Kuh hat ihren Platz in der Landschaft \u2013 und sie verl\u00e4sst ihn nicht. Sie gibt Jahr f\u00fcr Jahr, zuverl\u00e4ssig, ohne Kapriolen. Das Prinzip des Enneagrammtyps 6: Das Braunvieh ist die Kuh, auf die die Alm baut. Nicht weil sie die h\u00f6chste Leistung bringt \u2013 sondern weil sie immer da ist, wenn man sie braucht. Jahrein, jahraus, ohne Ausnahme.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Deutsche Rotbunte: Die Lebensfreude auf vier Beinen</h3>
-        <p class="vb-intro">Die Deutsche Rotbunte ist eine der farbenfrohesten Milchrassen Deutschlands \u2013 ihr charakteristisches rot-wei\u00dfes Fell f\u00e4llt auf jeder Weide auf, und ihr Temperament entspricht dieser Auff\u00e4lligkeit: Sie ist aktiv, neugierig, erkundungsfreudig. Rotbunte-K\u00fche sind bekannt daf\u00fcr, dass sie Weidehaltung bevorzugen, Bewegung brauchen und in engen Stallsystemen schneller Stress entwickeln als ruhigere Rassen. Sie sind Doppelnutzungstiere \u2013 sowohl f\u00fcr Milch als auch f\u00fcr Fleisch geeignet \u2013 und damit flexibel einsetzbar. Ihre Milchmenge ist solide, ihre Anpassungsf\u00e4higkeit hoch, ihr Spieltrieb als Kalb auff\u00e4llig. Rotbunte-K\u00e4lber sind die lebhaftesten auf jeder Weide \u2013 sie laufen am weitesten, erkunden am neugierigsten, und bringen am ehesten auch \u00e4ltere K\u00fcheaus der Ruhe. Das Prinzip des Enneagrammtyps 7: Die Rotbunte zeigt, was Lebensfreude als Produktionsprinzip bedeutet. Sie gibt am meisten, wenn sie sich am freiesten f\u00fchlt \u2013 auf gro\u00dfen Weiden, mit viel Raum und dem n\u00e4chsten Horizont in Sicht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Limousin: St\u00e4rke, die man sp\u00fcrt</h3>
-        <p class="vb-intro">Das Limousin ist keine klassische Milchrasse \u2013 es ist eine Fleischrasse der Extraklasse, urspr\u00fcnglich aus dem Limousin-Hochland Frankreichs, wo raues Klima und karge Weiden eine Rasse formten, die \u00fcberlebt, weil sie st\u00e4rker ist als ihre Umgebung. Limousin-Rinder sind von einer imposanten Muskulatur, einem goldbraunen Fell und einer Pr\u00e4senz, die auf jedem Hof sofort auff\u00e4llt. Sie sind bekannt f\u00fcr ihre Dominanz in der Herde: Sie setzen sich durch, beanspruchen die besten Weidestellen und sind bei Menschen, die sie nicht kennen, bisweilen einsch\u00fcchternd. Aber in guter Haltung, mit Respekt und klarer F\u00fchrung, sind sie gutm\u00fctig, produktiv und langlebig. Ihr Fleisch gilt als das hochwertigste in Europa \u2013 feinfaserig, marmoriert, von einer Qualit\u00e4t, die Spitzenk\u00f6che bevorzugen. Das Prinzip des Enneagrammtyps 8: Das Limousin fragt nicht um Erlaubnis. Es besetzt den Platz, der ihm geb\u00fchrt \u2013 und wer mit ihm umgehen kann, erntet das Beste, das es gibt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Hinterw\u00e4lder: Friede im kleinsten Format</h3>
-        <p class="vb-intro">Das Hinterw\u00e4lder Rind ist die kleinste Rinderrasse Mitteleuropas \u2013 und eine der sch\u00f6nsten: wei\u00df mit goldbraunen Abzeichen, hornlos oder mit zierlichen H\u00f6rnern, mit einem Ausdruck von vollkommener Ruhe im Gesicht. Es stammt aus dem S\u00fcdschwarzwald, wo es seit Jahrhunderten auf steilen, schmalen Weiden lebt, die f\u00fcr gr\u00f6\u00dfere Rassen unzug\u00e4nglich sind. Das Hinterw\u00e4lder braucht wenig: wenig Futter, wenig Raum, wenig Aufwand. Es gedeiht dort, wo andere scheitern. Es ist eine der gen\u00fcgsamsten Rassen \u00fcberhaupt \u2013 und gleichzeitig eine der langlebigsten. Hinterw\u00e4lder-K\u00fchewerden \u00fcber 15 Jahre alt und geben dabei zuverl\u00e4ssig eine bescheidene, aber aromatisch wertvolle Milch. In der Herde sind sie friedfertig, rangniedriger als gr\u00f6\u00dfere Rassen, aber stressresistent und ausgeglichen. Das Prinzip des Enneagrammtyps 9: Das Hinterw\u00e4lder braucht keine gro\u00dfe B\u00fchne. Es braucht seinen Hang, sein Gras, seine Gemeinschaft \u2013 und darin ist es vollkommen. Was es gibt, gibt es vollst\u00e4ndig. Ohne Drama, ohne Anspruch, ohne Ende.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-        {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function vogelartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Vogelarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">V\u00f6gel sind die einzigen Lebewesen, die den Himmel wirklich zu Hause nennen \u2013 in \u00fcber 10.000 Arten, auf jedem Kontinent, in jedem Klima. Jede Art hat dabei ein unverwechselbares Wesen entwickelt: einen Blick, eine Haltung, eine Art sich in der Welt zu bewegen. Neun Vogelarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/vogelarten-der-9-typen.jpg" alt="Vogelarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Adler: Der Blick, der nichts \u00fcbersieht</h3>
-        <p class="vb-intro">Der Adler sieht viermal sch\u00e4rfer als der Mensch. Aus einer H\u00f6he von 300 Metern erkennt er eine Maus im Gras \u2013 er sieht nicht nur mehr, er sieht pr\u00e4ziser, klarer, ohne Verzerrung. Sein Auge hat zwei Foveas \u2013 zwei Brennpunkte statt einem \u2013 und kann Farben im ultravioletten Bereich wahrnehmen, die f\u00fcr den Menschen unsichtbar sind. Er kreist, er wartet, er scannt die Welt mit einer Konzentration, die keine Zerstreuung zul\u00e4sst \u2013 und wenn der Moment kommt, geht er in einem Sturzflug von bis zu 300 km/h in die Tiefe. Kein Z\u00f6gern, kein Umweg, kein zweiter Versuch n\u00f6tig. Der Adler baut sein Nest \u2013 Horst genannt \u2013 \u00fcber Jahrzehnte aus, tr\u00e4gt Jahr f\u00fcr Jahr neues Material hinzu, bis er Tonnen wiegen kann. Er verbessert, was er hat \u2013 jedes Jahr ein bisschen vollkommener. Das Prinzip des Enneagrammtyps 1: Der Adler beurteilt die Welt nicht \u2013 er sieht sie, wie sie ist. Und er handelt dann mit einer Pr\u00e4zision, die keine Entschuldigung braucht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Wellensittich: Verbindung als Lebensform</h3>
-        <p class="vb-intro">Der Wellensittich ist der sozialste Vogel, den es gibt \u2013 er lebt in freier Wildbahn in Schw\u00e4rmen von Tausenden, kommuniziert unabl\u00e4ssig, pflegt Partnerschaften, die lebenslang halten, und trauert erkennbar, wenn sein Gef\u00e4hrte stirbt. Er lernt die Stimme seines Partners und imitiert sie \u2013 nicht um sich anzupassen, sondern um zu zeigen: Ich h\u00f6re dich. Ich bin bei dir. Wellensittiche trinken nicht allein: Sie warten aufeinander. Wellensittiche schlafen nicht allein: Sie dr\u00e4ngen sich zusammen, Schulter an Schulter. Was viele nicht wissen: Wellensittiche k\u00f6nnen sprechen \u2013 nicht imitieren, sondern kontextuell kommunizieren. Der Weltrekord liegt bei \u00fcber 1.700 Worten, die ein Wellensittich verstanden und situationsgerecht eingesetzt hat. Das Prinzip des Enneagrammtyps 2: Der Wellensittich existiert nicht f\u00fcr sich. Er existiert in Bezug auf andere \u2013 und in dieser Bezogenheit findet er seine vollst\u00e4ndige Ausdr\u00fccklichkeit.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Goldfasan: Der gro\u00dfe Auftritt</h3>
-        <p class="vb-intro">Der Goldfasan ist einer der prachtvollsten V\u00f6gel der Welt: Das M\u00e4nnchen tr\u00e4gt ein Federkleid aus Gold, Scharlachrot, Tiefblau und Smaragdgr\u00fcn \u2013 so aufwendig, dass Naturforscher des 18. Jahrhunderts glaubten, er k\u00f6nne nicht real sein. Aber er ist real \u2013 und er wei\u00df es. In der Balzzeit entfaltet er seine Federn, l\u00e4uft das Weibchen in Kreisen ab und zeigt dabei jede Feder in ihrer besten Position. Er ist nicht zuf\u00e4llig so bunt \u2013 die Pracht ist das Ergebnis von Hunderttausenden von Jahren sexueller Selektion: Nur wer beeindruckt, \u00fcbertr\u00e4gt seine Gene. Das Weibchen dagegen ist unscheinbar braun \u2013 sie w\u00e4hlt den Besten, und der Goldfasan-Hahn hat sich zum Besten gemacht, den es gibt. Das Prinzip des Enneagrammtyps 3: Der Goldfasan zeigt, dass Auftritt keine Oberfl\u00e4chlichkeit ist \u2013 er ist das Ergebnis von Perfektion. Wer so strahlt, hat etwas zu strahlen. Und er wei\u00df genau, wann er es tut.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Schwan: Sch\u00f6nheit und Tiefe</h3>
-        <p class="vb-intro">Der Schwan ist der eleganteste Vogel Europas \u2013 und einer der intensivsten. Er bildet lebenslange Partnerschaften; wenn sein Partner stirbt, trauert er sichtbar, verliert Gewicht, zieht sich zur\u00fcck, und manche Schw\u00e4ne sterben kurz nach ihrem Gef\u00e4hrten. Diese Tiefe der Bindung ist im Tierreich selten \u2013 sie erinnert an eine Form von Liebe, die \u00fcber Instinkt hinausgeht. Der Schwan ist dabei kein friedlicher Vogel: Er verteidigt sein Nest und seine Familie mit einer Entschlossenheit, die gro\u00dfe Hunde in die Flucht schl\u00e4gt. Unter der makellosen wei\u00dfen Oberfl\u00e4che liegt eine Intensit\u00e4t, die \u00fcberrascht. Was man \u00fcber seinen Gesang nicht wuss: Der Schwan singt tats\u00e4chlich \u2013 das sogenannte \u201eSchwanengesanglied\u201c, ein leises, fast klage\u00e4hnliches Rufen, das er kurz vor dem Tod ausst\u00f6\u00dft. Die Redensart \u201eSchwanengesang\u201c kommt daher. Das Prinzip des Enneagrammtyps 4: Der Schwan lebt die ganze Bandbreite \u2013 von der makellosen Oberfl\u00e4che bis zur Tiefe, die andere nicht ahnen. Er ist nicht, was er aussieht. Er ist viel mehr.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Eule: Das Wissen der Nacht</h3>
-        <p class="vb-intro">Die Eule ist der Beobachter unter den V\u00f6geln: Sie dreht ihren Kopf um 270 Grad, sieht in nahezu v\u00f6lliger Dunkelheit und h\u00f6rt so pr\u00e4zise, dass sie Beute unter einer Schneedecke orten kann \u2013 nur durch Ger\u00e4usch. Ihre Augen k\u00f6nnen nicht rollen \u2013 sie bewegen den gesamten Kopf statt der Augen. Das gibt ihr einen Blick, der wirkt, als w\u00fcrde sie alles gleichzeitig verarbeiten. Eulen jagen in der Stille: Ihre Federn haben eine samtartige Struktur, die jeden Luftwiderstand d\u00e4mpft \u2013 ihr Flug ist nahezu lautlos. Die Beute h\u00f6rt sie nicht kommen. Eulen sind Einzelg\u00e4nger mit festen Revieren, die sie jahrelang halten. Sie sind in fast jeder Kultur der Welt das Symbol f\u00fcr Weisheit \u2013 nicht wegen ihrer Klugheit, sondern wegen ihrer Stille. Wer so beobachtet, ohne gesehen zu werden, muss viel wissen. Das Prinzip des Enneagrammtyps 5: Die Eule sammelt ihr Wissen in der Dunkelheit, die andere f\u00fcrchten \u2013 und handelt dann mit einer Pr\u00e4zision, die nur m\u00f6glich ist, wenn man wirklich gesehen hat.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Storch: Der R\u00fcckkehrende</h3>
-        <p class="vb-intro">Der Storch kehrt jeden Fr\u00fchjahr zur\u00fcck \u2013 zum selben Nest, zu derselben Wiese, oft zum selben Partner. Forscher haben Storchenpaare \u00fcber 20 Jahre lang am selben Nest dokumentiert: Sie \u00fcberwinterten getrennt in Afrika, jeder auf seinem eigenen Weg \u2013 und trafen sich im April wieder am gemeinsamen Horst, als h\u00e4tten sie sich nie getrennt. Diese Treue zur\u00fc Gemeinschaft, zum vertrauten Ort, zum eingespielten Partner ist das Markenzeichen des Storches. Er migriert in Gruppen \u2013 Tausende von St\u00f6rchen ziehen gemeinsam, nutzen Thermik, helfen sich gegenseitig, fliegen gemeinsam Strecken, die keiner allein so gut \u00fcberst\u00e4nde. Der Storch gilt in vielen Kulturen als Gl\u00fccksbringer \u2013 weil er wiederkommt. Weil auf ihn Verlass ist. Das Prinzip des Enneagrammtyps 6: Der Storch ist nicht da, weil er muss. Er ist da, weil er immer da war \u2013 und weil die, die auf ihn z\u00e4hlen, wissen, dass er kommt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Kolibri: Das Leben in vollen Z\u00fcgen</h3>
-        <p class="vb-intro">Der Kolibri ist das intensivste Lebewesen der Welt: Sein Herz schl\u00e4gt bis zu 1.260 Mal pro Minute. Er fliegt vorw\u00e4rts, r\u00fcckw\u00e4rts, seitw\u00e4rts, schwebend \u2013 der einzige Vogel, der das kann. Er besucht bis zu 2.000 Bl\u00fcten pro Tag, schwebend, saugend, weiterflie\u00dfend \u2013 nie l\u00e4nger als einen Augenblick, aber vollst\u00e4ndig pr\u00e4sent in jedem. Um seinen Energieverbrauch zu decken, frisst er t\u00e4glich das Doppelte seines K\u00f6rpergewichts in Nektar. In der Nacht senkt er seinen Stoffwechsel auf ein Minimum \u2013 eine Art Tagschlafzustand \u2013 um den n\u00e4chsten Tag \u00fcberhaupt \u00fcberstehen zu k\u00f6nnen. Sein Leben ist ein einziger, intensiver Puls zwischen Ersch\u00f6pfung und Aufbruch. Das Prinzip des Enneagrammtyps 7: Der Kolibri kann nicht langsam. Er kann nur ganz. Jede Bl\u00fcte ist ein neues Versprechen \u2013 und er h\u00e4lt es, f\u00fcr genau den Moment, den er braucht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Falke: Macht aus der H\u00f6he</h3>
-        <p class="vb-intro">Der Wanderfalke ist das schnellste Tier der Welt: Im Sturzflug erreicht er \u00fcber 380 km/h \u2013 schneller als ein Formel-1-Rennwagen auf der Geraden. Er jagt andere V\u00f6gel im Flug, trifft sie mit einer einzigen gezielten Klaue und dreht danach um, bevor die Beute zu Boden f\u00e4llt. Kein anderes Tier kombiniert Geschwindigkeit, Pr\u00e4zision und Dominanz so vollst\u00e4ndig in einem einzigen Moment. Der Falke beansprucht sein Revier \u2013 in St\u00e4dten nistet er auf Kircht\u00fcrmen und Hochh\u00e4usern, von wo aus er das gesamte Stadtgebiet \u00fcberblickt. Andere Greifv\u00f6gel meiden seinen Luftraum. Was die meisten Menschen nicht wissen: Falken wurden vom Menschen seit Jahrtausenden als Jagdpartner gehalten \u2013 nicht weil sie zutraulich sind, sondern weil ihre Kraft, wenn sie sich freiwillig einbringt, unbezahlbar ist. Das Prinzip des Enneagrammtyps 8: Der Falke gibt seine Macht nicht her. Aber wenn er sie einsetzt, ist das Ergebnis unausweichlich \u2013 und jeder, der es sieht, wei\u00df, was er erlebt hat.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Flamingo: Harmonie in Rosa</h3>
-        <p class="vb-intro">Der Flamingo lebt in den unwirtlichsten Gew\u00e4ssern der Welt \u2013 hochalkalischen Salzseen in Afrika und Lateinamerika, wo kaum ein anderes Tier \u00fcberlebt \u2013 und f\u00fchlt sich dort vollkommen zu Hause. Seine rosa Farbe hat eine klare Ursache: Sie kommt aus dem Carotin der Algen und Krebschen, die er filtert \u2013 er wird buchst\u00e4blich das, wovon er sich n\u00e4hrt. Flamingos stehen tausende Stunden auf einem Bein \u2013 nicht aus Anstrengung, sondern weil es f\u00fcr sie entspannter ist als auf beiden zu stehen: Das K\u00f6rpersystem rastet auf einem Bein ein und ben\u00f6tigt keine Muskelkraft. Er findet den leichtesten Weg \u2013 und steht dabei wie eine Skulptur. In Gruppen von Hunderttausenden bewegen sich Flamingos synchron, fliegen synchron, machen synchron die Schritte ihres Balztanzes \u2013 als w\u00e4ren sie ein einziger Organismus. Das Prinzip des Enneagrammtyps 9: Der Flamingo braucht kein Chaos, um zu strahlen. Er findet seinen Platz in der Gemeinschaft \u2013 und in dieser Harmonie wird er zu dem, was er ist: unvergeslich.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
-        {route:"froscharten-der-9-typen", label:"Froscharten der 9 Typen"},
-        {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
       ])}
     </div>
   `);

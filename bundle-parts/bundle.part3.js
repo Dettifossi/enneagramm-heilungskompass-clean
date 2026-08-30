@@ -1324,6 +1324,8 @@ const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 400+ Fallporträts" },
+  { term: "Musterradar",               route: "musterradar",            description: "Porträts nach Flügel oder Instinktvariante gefiltert – quer über alle 27 Subtypen hinweg" },
+  { term: "Enneagramm-Rad",            route: "enneagramm-rad",         description: "Interaktives Enneagramm-Symbol: Stress-, Wachstums- und Flügellinien aller 9 Typen zum Anklicken" },
   { term: "Tierforscher-Übereinstimmung", route: "tierforscher-uebereinstimmung", description: "Übersicht: Tierforscher und andere Personen, deren Lebensthema ihrer eigenen Tierentsprechung entspricht" },
 
   { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },

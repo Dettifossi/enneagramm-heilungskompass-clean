@@ -2163,6 +2163,7 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
@@ -2321,6 +2322,117 @@ function lebensmusterkompassDetailPage(codeRaw) {
   `);
 }
 
+const RAD_STRESS = {1:4, 2:8, 3:9, 4:2, 5:7, 6:3, 7:1, 8:5, 9:6};
+const RAD_GROWTH = {1:7, 2:4, 3:6, 4:1, 5:8, 6:9, 7:5, 8:2, 9:3};
+const RAD_WINGS = {1:[9,2], 2:[1,3], 3:[2,4], 4:[3,5], 5:[4,6], 6:[5,7], 7:[6,8], 8:[7,9], 9:[8,1]};
+const RAD_POS = {1:[302.8,77.4], 2:[357.6,172.2], 3:[338.6,280], 4:[254.7,350.4], 5:[145.3,350.4], 6:[61.4,280], 7:[42.4,172.2], 8:[97.2,77.4], 9:[200,40]};
+function radLineId(a, b) { return "rad-line-" + Math.min(a,b) + "-" + Math.max(a,b); }
+function radInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Fahre mit der Maus über einen Punkt, um seine Stress- und Wachstumsrichtung sowie seine Flügel zu sehen &ndash; oder tippe direkt auf einen Punkt, um zum Typ zu gelangen.</p>`;
+  }
+  const col = typeColor(n);
+  const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
+  const wings = RAD_WINGS[n];
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
+    <div style="display:grid;gap:0.35rem;font-size:0.82rem;">
+      <div><span style="font-weight:700;color:#a00802;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}</div>
+      <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}</div>
+      <div><span style="font-weight:700;color:var(--copper);">Flügel:</span> Typ ${wings[0]} &amp; Typ ${wings[1]}</div>
+    </div>
+    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Zum Typ ${n} im Kompass &rarr;</button>
+  `;
+}
+function radFocus(n) {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.15"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  const a = RAD_STRESS[n], b = RAD_GROWTH[n];
+  [a, b].forEach(t => {
+    const el = document.getElementById(radLineId(n, t));
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3.5"; }
+    const pt = document.querySelector('.rad-point[data-typ="' + t + '"]');
+    if (pt) pt.style.opacity = "0.9";
+  });
+  RAD_WINGS[n].forEach(w => {
+    const pt = document.querySelector('.rad-point[data-typ="' + w + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(n);
+}
+function radBlur() {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.55"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(0);
+}
+window.radFocus = radFocus;
+window.radBlur = radBlur;
+
+function enneagrammRadPage() {
+  const lines = Object.entries(RAD_STRESS).map(([a, b]) => {
+    a = parseInt(a, 10);
+    const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+    return `<line id="${radLineId(a, b)}" class="rad-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--muted)" stroke-width="2" opacity="0.55" />`;
+  }).join("");
+
+  const points = [1,2,3,4,5,6,7,8,9].map(n => {
+    const [x, y] = RAD_POS[n];
+    const col = typeColor(n);
+    const leftPct = (x / 400 * 100).toFixed(2);
+    const topPct = (y / 400 * 100).toFixed(2);
+    return `
+      <button class="rad-point" data-typ="${n}" data-route="type/${n}"
+        onmouseenter="radFocus(${n})" onmouseleave="radBlur()" onfocus="radFocus(${n})" onblur="radBlur()"
+        style="position:absolute;left:${leftPct}%;top:${topPct}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);transition:opacity .15s;"
+        title="Typ ${n} &ndash; ${TYPNAMEN[n]}"
+      >${n}</button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Rad</p>
+        <h1 class="section-title">Enneagramm-Rad</h1>
+        <p class="psycho-intro">Das klassische Enneagramm-Symbol als interaktive Karte: Der Sechsstern (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) und das Dreieck (3&ndash;9&ndash;6) zeigen, wie die 9 Typen über Stress- und Wachstumslinien miteinander verbunden sind &ndash; und die Kreisbahn selbst zeigt die Flügel-Nachbarschaften. Fahre über einen Punkt, um seine Verbindungen zu sehen, oder tippe direkt darauf, um zum Typ zu gelangen.</p>
+
+        <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
+          <div style="position:relative;width:100%;aspect-ratio:1;">
+            <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+              <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+              ${lines}
+            </svg>
+            ${points}
+          </div>
+          <div id="rad-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">
+            ${radInfoHtml(0)}
+          </div>
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Stress-Richtung</strong> (auch Desintegration genannt): Unter Druck oder in Krisen zeigt ein Typ verstärkt Verhaltensweisen des Typs am anderen Ende seiner Stresslinie &ndash; meist die problematischeren Seiten davon. <strong>Wachstums-Richtung</strong> (Integration): In Sicherheit und mit wachsendem Bewusstsein kann ein Typ die gesunden Qualitäten des Typs am Ende seiner Wachstumslinie integrieren. Die <strong>Flügel</strong> sind die beiden auf dem Kreis direkt benachbarten Typen &ndash; sie färben den Grundtyp ein, ohne ihn zu verändern.</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"typentest-motivational", label:"Zum Typentest"},
+          {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function musterradarPage() {
   const MUSTERRADAR_INSTINCT_COLORS = { SE: "#2f8a4e", SO: "#1f6fd4", SX: "#c21a4d" };
   const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
@@ -2383,6 +2495,7 @@ function musterradarPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
           {route:"enneagramm-instinkt", label:"Schaubild: Enneagramm und Instinkt"},
@@ -7430,126 +7543,6 @@ function jasminPaoliniPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function moritzBleibtreuPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Moritz Bleibtreu – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Moritz Bleibtreu</p>
-        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1971 in München – Tierentsprechung: Gorilla</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 – und er überrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist mächtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, schützt sein Rudel. Er sucht keine Konfrontation – aber weicht ihr auch nicht aus, wenn es darauf ankommt.</p>
-          <p class="vb-intro">Der deutsche Schauspieler Moritz Bleibtreu, 1971 in München geboren, Sohn des Schauspielers Hans-Peter Bleibtreu, ist seit über drei Jahrzehnten eines der beweglichsten Gesichter des deutschen Films. Kaum ein Kollege seiner Generation hat ein derart dichtes, ungewöhnlich vielseitiges Werk vorzuweisen – von der Komödie bis zum psychologischen Thriller, von der historischen Rolle bis zur internationalen Großproduktion.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Handwerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der Wärme des Schaffens selbst – im Prozess, in der Zusammenarbeit, im Handwerk. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativität und Geborgenheit zusammenkommen. Interessanterweise bezeichnete Naranjo in seinen Seminaren die selbsterhaltende Sieben gelegentlich auch als die <em>versteckte Acht</em>: Von allen drei Siebener-Varianten kann sich die SE7 im Ernstfall am kompromisslosesten durchsetzen. Fühlt sie ihre Freiheit oder Unabhängigkeit bedroht, kann aus dem freundlichen, familienorientierten Wesen abrupt eine Härte werden, die kaum noch Rücksicht kennt – der Gorilla, der sich friedlich durch den Wald bewegt, aber zum unerbittlichen Verteidiger wird, sobald sein Revier angetastet wird.</p>
-          <p class="vb-intro">Bleibtreus internationaler Durchbruch gelang 1998 mit <em>Lola rennt</em> von Tom Tykwer, an der Seite von Franka Potente (SE2w1) – ein Film, der das deutsche Kino jener Jahre neu definierte. Statt diesen Erfolg in eine einzige Rollenformel zu übersetzen, wechselte er seither ständig das Terrain: Komödie (<em>Soul Kitchen</em>, 2009), Psychothriller (<em>Das Experiment</em>, 2001), historisches Drama (<em>Der Baader Meinhof Komplex</em>, 2008), internationales Kino (<em>München</em>, 2005, Regie: Steven Spielberg; <em>Speed Racer</em>, 2008). Die SE7 sucht nicht die eine große Rolle – sie sucht die nächste Erfahrung.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Kraft, die trägt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verfügung steht: Durchsetzungskraft und die Fähigkeit, auch in die dunkelsten, konfrontativsten Rollen vollständig einzutauchen, ohne sich vor der eigenen Intensität zurückzuziehen.</p>
-          <p class="vb-intro">2008 verkörperte Bleibtreu in <em>Der Baader Meinhof Komplex</em> den RAF-Terroristen Andreas Baader – eine Rolle von schonungsloser Härte, die international Anerkennung fand und ihm eine Nominierung für den Europäischen Filmpreis einbrachte. Es ist eine Darstellung ohne jede Distanzierung: kein Kommentar, keine Milderung, volle Konfrontation mit einer zutiefst verstörenden historischen Figur. Das ist der Achterflügel: die Bereitschaft, sich der schwersten Energie eines Stoffes auszusetzen, statt ihr auszuweichen.</p>
-          <p class="vb-intro">Bemerkenswert dabei: Andreas Baader war ebenfalls eine selbsterhaltende Sieben mit starkem Achterflügel (SE7w8) – Statussymbole und schnelle Autos als Ausdruck des Freiheitsdrangs, Geldbeschaffung durch Raub statt durch ein geordnetes System, ein Leben konsequent nach den eigenen Regeln, ohne Rücksicht auf Konsequenzen. Regie führte Uli Edel, Drehbuch und Produktion verantwortete Bernd Eichinger nach der Vorlage von Stefan Aust. Ob die Besetzung bewusst auf diese Typähnlichkeit zielte, ist nicht überliefert – enneagrammatisch war sie jedenfalls ein Glücksgriff: Ein SE7w8 spielt hier einen SE7w8, und genau diese Deckungsgleichheit dürfte zur Glaubwürdigkeit beigetragen haben, mit der Bleibtreu die Rolle bis in ihre unbequemsten Facetten trug.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Schöpfungsdrang</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> – der unstillbare Hunger nach Erfahrung, nach dem nächsten Projekt, nach neuen Facetten des eigenen Könnens. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf Fülle: mehr Rollen, mehr Genres, mehr Handwerk.</p>
-          <p class="vb-intro">Bleibtreus Filmografie umfasst weit über hundert Produktionen – Kino, Fernsehen, internationale Koproduktionen. In Interviews ist er bekannt für sein schnelles, sprunghaftes, oft komisches Erzähltempo – Gedanken, die sich überschlagen, Themenwechsel mitten im Satz. Das ist kein Mangel an Fokus. Es ist der Gorilla in seinem Element: ein Geist, der ständig in Bewegung bleibt, weil Stillstand sich für die SE7 wie Verlust anfühlt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Vielseitigkeit ohne Verwässerung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Moritz Bleibtreu dem deutschen Film gegeben hat, ist der Beweis, dass Vielseitigkeit keine Verwässerung sein muss. Wer zwischen Manni in <em>Lola rennt</em>, dem gequälten Versuchsteilnehmer in <em>Das Experiment</em> und dem RAF-Anführer Baader wechseln kann, ohne dabei an Glaubwürdigkeit zu verlieren, hat verstanden, dass echte Wandlungsfähigkeit kein Widerspruch zur Tiefe ist – sondern ihre Voraussetzung.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude am Handwerk, gepaart mit der Kraft, auch dorthin zu gehen, wo es unbequem wird. Der Gorilla, der sein Rudel – das Ensemble, das Publikum, das Genre – nie verlässt, aber auch nie stehen bleibt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1) – Partnerin in ›Lola rennt‹"},
-        {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
-        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
-        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function hansZimmerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Hans Zimmer – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hans Zimmer</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Filmkomponist, Arrangeur &amp; Musikproduzent, geb. 1957 &ndash; Tierentsprechung: Gorilla</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
-          <p class="vb-intro">Der deutsche Komponist Hans Zimmer hat in Santa Monica ein Studio aufgebaut, das man Remote Control Productions nennt &ndash; und das von innen eher einer Musikerfamilie \u00e4hnelt als einer Produktionsfirma. Zimmer hat dort Dutzende Komponisten ausgebildet, gef\u00f6rdert, begleitet: Junkie XL, Lorne Balfe, Harry Gregson-Williams, Rupert Gregson-Williams, Ramin Djawadi und viele andere. Der Gorilla baut kein Territorium. Er baut ein Rudel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Sch\u00f6pfung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der W\u00e4rme des Schaffens selbst &ndash; im Prozess, in der Zusammenarbeit, im Akt des Erschaffens. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativit\u00e4t und Geborgenheit zusammenkommen.</p>
-          <p class="vb-intro">Zimmer brach mit sechzehn die Schule ab. Er hatte nie eine formale Musikausbildung &ndash; und lie\u00df sich davon nie aufhalten. Statt Noten zu studieren, experimentierte er: mit Synthesizern, mit Orchesterkl\u00e4ngen, mit allem, was Klang erzeugt. Seine Freude am Entdecken ist bis in die Gegenwart sp\u00fcrbar. Kein Score klingt wie der vorherige. Jeder Film ist ein neues Abenteuer.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft, die tr\u00e4gt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verf\u00fcgung steht: Durchsetzungskraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann sich die Sieben in M\u00f6glichkeiten verlieren, kann ausweichen, kann umlenken, wenn etwas schwer wird. Der Achterfl\u00fcgel h\u00e4lt dagegen &ndash; er bringt Entschlossenheit, Direktheit, die Bereitschaft, Konflikte auszuhalten.</p>
-          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Das ist der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Sch\u00f6pfungsdrang</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, nach dem n\u00e4chsten Projekt, nach dem Gef\u00fchl, etwas Neues zu erschaffen. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf F\u00fclle: mehr Klang, mehr Tiefe, mehr Verbindung zwischen Musik und Bild.</p>
-          <p class="vb-intro">Zimmer hat Musik f\u00fcr \u00fcber 150 Filme geschrieben. Er schl\u00e4ft wenig. Er arbeitet in Phasen, die Mitarbeiter als intensiv beschreiben &ndash; und die er selbst als seine nat\u00fcrliche Betriebstemperatur bezeichnet. Es ist nicht Getriebensein. Es ist der Gorilla in seinem Element: Sch\u00f6pfen als Lebensform, Klang als Sprache, die nie zu Ende gesagt ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Das ist die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
       ])}
     </div>
   `);

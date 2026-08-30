@@ -1,3 +1,365 @@
+function freddieMercuryKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-freddie-mercury-portrait.jpg" alt="Freddie Mercury" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Freddie Mercury</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1946–1991</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Freddie Mercury</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-freddie-mercury">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine fast
+        fünf Jahre lang streng geheim gehaltene AIDS-Erkrankung, die er erst einen Tag vor
+        seinem Tod 1991 selbst öffentlich bestätigte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mercury</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SX4 verwandelt persönlichen Schmerz und Sehnsucht in Intensität, die
+        andere unmittelbar berührt – auf der Bühne kompromisslos sichtbar. Der Dreierflügel
+        bringt die Fähigkeit, dieses Innenleben in beeindruckende öffentliche Wirkung zu
+        gießen. Genau diese Spannung zwischen radikaler Selbstoffenbarung auf der Bühne und
+        einer ebenso radikal kontrollierten Privatsphäre prägt auch Mercurys
+        Krankheitsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Gerüchte, die er nie bestätigte:</strong>
+        Ab Mitte der 1980er-Jahre kursierten in der Presse zunehmend Gerüchte über Mercurys
+        Gesundheitszustand – er selbst äußerte sich dazu öffentlich nicht, weder bestätigend
+        noch dementierend.</p>
+        <p class="vb-intro"><strong>b) Eine Diagnose, die Privatsache blieb:</strong>
+        Laut den Erinnerungen seines Partners Jim Hutton wurde Mercury im Frühjahr 1987 mit
+        HIV diagnostiziert – eine Information, die er über Jahre auch engsten Vertrauten nur
+        stückweise mitteilte.</p>
+        <p class="vb-intro"><strong>c) Eine Bühnenpräsenz, die keinen Verfall zeigte:</strong>
+        Bis zu seinem letzten öffentlichen Auftritt blieb die Diskrepanz zwischen der
+        strahlenden Kunstfigur und dem zunehmend geschwächten Körper dahinter für die
+        Öffentlichkeit kaum sichtbar.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine klare Ansage an die Band:</strong>
+        Laut Roger Taylor rief Mercury die Band zu einem Treffen zusammen und sagte
+        sinngemäß, sie würden wohl ahnen, was mit ihm los sei – aber es solle "nicht bekannt
+        werden" und "keinen Unterschied machen"; er wolle einfach weiterarbeiten, "bis ich
+        verdammt noch mal umfalle" (›until I fucking well drop‹), und bat um ihre
+        Unterstützung dabei.</p>
+        <p class="vb-intro"><strong>b) Weiterarbeiten trotz sichtbarer Schwäche:</strong>
+        Bei den Aufnahmen zu "The Show Must Go On" konnte Mercury laut Brian May kaum noch
+        stehen, bestand aber darauf zu singen: "He could hardly stand, but he said 'I'll
+        fucking do it, darling!'" (›Er konnte kaum stehen, sagte aber: Ich mach das
+        verdammt noch mal, Liebling!‹)</p>
+        <p class="vb-intro"><strong>c) Ein Album, dessen Veröffentlichung sich verzögerte:</strong>
+        "Innuendo", aufgenommen zwischen März 1989 und November 1990, verschob sich wegen
+        seines Gesundheitszustands vom ursprünglich geplanten Termin Ende 1990 auf Februar
+        1991.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein letztes Video in bewusstem Schwarz-Weiß:</strong>
+        Für das am 30. Mai 1991 gedrehte Video zu "These Are the Days of Our Lives" wurde
+        bewusst Schwarz-Weiß gewählt, um seinen sichtbaren körperlichen Verfall zu kaschieren
+        – später aufgetauchtes Farbmaterial zeigte, wie geschwächt er tatsächlich war.</p>
+        <p class="vb-intro"><strong>b) "I still love you" – letzte Worte auf Kamera:</strong>
+        Mercury bewegte sich im Video kaum noch und trug die emotionale Wirkung fast
+        ausschließlich über Mimik; sein geflüstertes "I still love you" am Ende gilt als
+        seine letzten Worte vor laufender Kamera.</p>
+        <p class="vb-intro"><strong>c) Eine Presseerklärung einen Tag vor dem Tod:</strong>
+        Am 23. November 1991 bestätigte Mercury in einer kurzen Erklärung selbst: "I wish to
+        confirm that I have been tested HIV-positive and have AIDS" (›Ich möchte bestätigen,
+        dass bei mir HIV positiv getestet wurde und dass ich AIDS habe‹) – nach Jahren
+        strikter Geheimhaltung erklärte er, die Zeit sei nun gekommen, dass Freunde und Fans
+        weltweit die Wahrheit erfahren sollten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 24. November 1991:</strong>
+        Mercury starb einen Tag nach seiner Presseerklärung an einer Bronchopneumonie als
+        Folge von AIDS, in seinem Haus in London.</p>
+        <p class="vb-intro"><strong>b) Sein Partner Jim Hutton an seiner Seite:</strong>
+        Jim Hutton, seit sechs Jahren Mercurys Lebenspartner, war in seinen letzten Stunden
+        bei ihm. Wenige Tage zuvor soll Mercury zu ihm gesagt haben: "I never realized you
+        were as strong as you are" (›Ich habe nie gemerkt, wie stark du eigentlich bist‹).</p>
+        <p class="vb-intro"><strong>c) Ein Konzert, das zum globalen Ereignis wurde:</strong>
+        Das Freddie Mercury Tribute Concert am 20. April 1992 in Wembley war innerhalb von
+        vier Stunden ausverkauft und erreichte laut Schätzungen bis zu einer Milliarde
+        Zuschauer weltweit – die Erlöse begründeten den bis heute aktiven Mercury Phoenix
+        Trust.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Vollständige Kontrolle über die eigene Erzählung:</strong>
+        Genau die SX4w3-Fähigkeit, das eigene Bild bewusst zu gestalten, ermöglichte es
+        Mercury, die Deutungshoheit über seine Krankheit bis zuletzt selbst zu behalten –
+        statt sie der Presse zu überlassen.</p>
+        <p class="vb-intro"><strong>b) Intensität statt Rückzug:</strong>
+        Anders als ein offener Zusammenbruch zeigte sich Mercurys Reaktion auf die Krankheit
+        als gesteigerte kreative Intensität – er nutzte die verbleibende Zeit, um so viel
+        Musik wie möglich fertigzustellen, statt sich zurückzuziehen.</p>
+        <p class="vb-intro"><strong>c) Der Chihuahua, der bis zuletzt nicht aufhörte zu bellen:</strong>
+        Bis zum letzten möglichen Moment blieb die schöpferische Energie ungebrochen –
+        selbst als der Körper längst nicht mehr mithalten konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Identität, die schon immer neu erschaffen wurde:</strong>
+        Mercury, geboren als Farrokh Bulsara in Sansibar, hatte sich zeitlebens neu erfunden
+        – auch gegenüber seinen Eltern verschwieg er sowohl seine Homosexualität als auch
+        später seine Erkrankung vollständig.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Krankheit:</strong>
+        Von den ersten Gerüchten Mitte der 1980er über die Diagnose 1987 bis zur
+        Presseerklärung 1991 zieht sich eine durchgehende, aber öffentlich fast vollständig
+        kontrollierte Linie – nichts wurde ihm entrissen, alles wurde von ihm selbst
+        freigegeben.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr zwischen Verfall und Schaffenskraft:</strong>
+        Gerade 1990/91 – körperlich sichtbar geschwächt – entstanden einige der
+        eindringlichsten Aufnahmen seiner Karriere, darunter "The Show Must Go On" und "These
+        Are the Days of Our Lives".</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Immunsystem?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren Identität sich über schonungslose
+        Selbstoffenbarung auf der Bühne bei gleichzeitiger strikter Kontrolle der eigenen
+        Privatsphäre definierte, liegt eine Deutung nahe: Ausgerechnet jenes System, das
+        zwischen dem eigenen Selbst und der Außenwelt unterscheidet und schützt, wurde zum
+        Ort des Zusammenbruchs – während die öffentliche Kontrolle über das eigene Bild bis
+        zuletzt aufrechterhalten wurde. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu AIDS oder anderen
+        Immunerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Mercurys Fall zeigen lässt, ist ein
+        Muster, das bei dem Bedürfnis, radikale Selbstoffenbarung und strikte
+        Privatsphäre-Kontrolle gleichzeitig zu leben, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Mercury kannte sein eigenes Muster nicht – die sexuelle Vier mit Dreierflügel verbirgt die eigene Verletzlichkeit hinter makelloser Bühnenleistung, und genau das ließ ihn seine Diagnose fast fünf Jahre lang geheim halten, während er bis zur völligen Erschöpfung weiterarbeitete. Wer das eigene Verbergungsmuster nicht kennt, hält die Fassade aufrecht, bis buchstäblich keine Kraft mehr bleibt, sie zu halten.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Mercurys</strong> Geschichte offenbart sich die sexuelle Vier mit
+        Dreierflügel noch einmal mit voller Wucht: eine Krankheit, über Jahre mit
+        eiserner Selbstkontrolle verborgen, ein Körper, der zusehends versagte, während die
+        Schaffenskraft bis zuletzt ungebrochen blieb, und ein letztes öffentliches Wort, das
+        er sich selbst aussuchte, statt es sich nehmen zu lassen. Der Chihuahua, der bis zum
+        letzten Atemzug seine eigene Erzählung bestimmte – und dessen Vermächtnis, der
+        Mercury Phoenix Trust, bis heute weiterwirkt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-billie-eilish", label:"Krankheitsporträt: Billie Eilish (SX4w3) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function albertEinsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Albert Einstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1879–1955</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Albert Einstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-albert-einstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
+        über sechseinhalb Jahre bekanntes, nur notdürftig stabilisiertes
+        Bauchaortenaneurysma und die bewusste Entscheidung, es 1955 nicht mehr operieren zu
+        lassen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Einstein</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen und intellektuelle Autorität
+        innerhalb einer Gemeinschaft von Gleichgesinnten, nicht über emotionale Nähe. Der
+        Viererflügel bringt eine melancholische, existenzielle Tiefe hinzu – eine Nähe zu den
+        großen Fragen von Sinn, Endlichkeit und Bedeutung. Genau diese Kombination aus
+        distanzierter Rationalität und existenzieller Tiefe prägt auch Einsteins Umgang mit
+        seiner eigenen Sterblichkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Zufallsfund bei einer Untersuchung:</strong>
+        Im Dezember 1948 suchte Einstein wegen wiederkehrender Bauchschmerzen den
+        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation (ein
+        chirurgischer Eingriff zur Ursachenklärung, ohne dass vorab feststand, was er finden
+        würde) ein großes Bauchaortenaneurysma entdeckte (eine krankhafte Aussackung der
+        Hauptschlagader, die jederzeit reißen kann).</p>
+        <p class="vb-intro"><strong>b) Eine Notlösung statt Heilung:</strong>
+        Da Aortentransplantate damals noch nicht existierten, umwickelte Nissen das
+        Aneurysma mit Cellophan – eine Fremdkörperreaktion sollte die Aortenwand fibrotisch
+        verdicken und so vorübergehend stabilisieren. Eine echte Heilung war das nicht.</p>
+        <p class="vb-intro"><strong>c) Ein Wissen, das den Alltag kaum veränderte:</strong>
+        In den folgenden Jahren arbeitete Einstein nach außen sichtbar unvermindert weiter –
+        über einen bewussten Umgang mit dem Risiko im Alltag ist wenig überliefert, was zur
+        SO5-typischen Trennung von Wissen und emotionaler Verarbeitung passt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Sechseinhalb Jahre mit einer bekannten Zeitbombe:</strong>
+        Von der Diagnose im Dezember 1948 bis zu seinem Tod im April 1955 lebte Einstein mit
+        einem Aneurysma, das jederzeit reißen konnte – palliativ stabilisiert, aber nie
+        kurativ behandelt.</p>
+        <p class="vb-intro"><strong>b) Ein akuter Zusammenbruch im April 1955:</strong>
+        Am 12. April 1955 erlitt Einstein erneut Bauchschmerzen; Dr. Frank Glenn, Chefchirurg
+        am New York Hospital, diagnostizierte ein undichtes Aneurysma und empfahl eine
+        Resektion – eine damals neue, riskante Operationstechnik.</p>
+        <p class="vb-intro"><strong>c) Eine bewusste Ablehnung der Operation:</strong>
+        Einstein lehnte den Eingriff ab. So ist überliefert: "I want to go when I want. It is
+        tasteless to prolong life artificially. I have done my share, it is time to go. I
+        will do it elegantly." (›Ich will gehen, wenn ich will. Es ist geschmacklos, das
+        Leben künstlich zu verlängern. Ich habe meinen Teil getan, es ist Zeit zu gehen. Ich
+        werde es mit Würde tun.‹)</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine unvollendete Rede neben dem Krankenbett:</strong>
+        Im Princeton Hospital hatte Einstein einen unfertigen Entwurf einer Fernsehansprache
+        zum siebten Jahrestag des Staates Israel bei sich – Arbeit, die er bis zuletzt nicht
+        aufgab.</p>
+        <p class="vb-intro"><strong>b) Gleichungen bis zur letzten Nacht:</strong>
+        Nach seinem Tod fand das Pflegepersonal neun Seiten handschriftlicher Notizen mit
+        Gleichungen zur einheitlichen Feldtheorie, mit Bleistift auf gelbem Papier
+        geschrieben – seine letzte, nie abgeschlossene wissenschaftliche Suche.</p>
+        <p class="vb-intro"><strong>c) Kein Abschied, keine große Geste:</strong>
+        Einstein bereitete sich auf seinen Tod nicht mit Reden an Angehörige vor, sondern
+        arbeitete weiter, als sei nichts anders als sonst – für die SO5 typisch: Rückzug in
+        die Sache statt in die Emotion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 18. April 1955:</strong>
+        Einstein starb im Princeton Hospital an einer inneren Blutung durch die Ruptur des
+        Aneurysmas, im Alter von 76 Jahren.</p>
+        <p class="vb-intro"><strong>b) Eine Entscheidung, die bis heute diskutiert wird:</strong>
+        Die Ablehnung der Operation gilt bis heute als eines der bekanntesten Beispiele für
+        eine bewusste, selbstbestimmte Haltung zum eigenen Lebensende in der
+        Wissenschaftsgeschichte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachleben, das er nicht kontrollieren konnte:</strong>
+        Der Pathologe Thomas Harvey entnahm bei der Autopsie ohne Erlaubnis der Familie
+        Einsteins Gehirn, in der Hoffnung, spätere Forschung könne daraus seine Intelligenz
+        erklären – eine Kontroverse, die bis heute nachwirkt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle durch Wissen statt durch Handeln:</strong>
+        Die SO5-typische Strategie, Sicherheit über Verstehen statt über Eingreifen zu
+        gewinnen, zeigte sich bis zuletzt: Einstein analysierte seine Lage nüchtern und traf
+        eine informierte Entscheidung, statt sich dem medizinischen System auszuliefern.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die Arbeit statt in die Angst:</strong>
+        Statt sich mit der Endlichkeit emotional auseinanderzusetzen, vertiefte er sich bis
+        zum letzten bewussten Moment in Gleichungen und Texte – die vertraute Zuflucht in
+        die Sache.</p>
+        <p class="vb-intro"><strong>c) Der Oktopus, der die Tinte selbst wählte:</strong>
+        Wo andere sich dem Zufall oder dem medizinischen Eingriff überlassen hätten, behielt
+        Einstein bis zuletzt die Deutungshoheit über den eigenen Tod – eine letzte Form von
+        Autonomie.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben der distanzierten Beobachtung:</strong>
+        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, selbst die
+        größten menschlichen Umbrüche – zwei Weltkriege, Emigration, öffentlicher Ruhm – mit
+        bemerkenswerter innerer Distanz zu betrachten.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre bekannte, aber nie verdrängte Bedrohung:</strong>
+        Von der Diagnose 1948 bis zum Tod 1955 zieht sich eine durchgehende Linie aus Wissen
+        um die eigene Sterblichkeit, die weder verheimlicht noch dramatisiert wurde – sie
+        wurde schlicht zur Kenntnis genommen.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr wie jedes andere:</strong>
+        Bis zum akuten Zusammenbruch im April 1955 unterschied sich sein Alltag nach außen
+        kaum von den Jahren zuvor – Arbeit, Korrespondenz, Forschung, ohne sichtbare
+        Dramatisierung der eigenen Lage.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Aorta?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über rationale Distanz und
+        intellektuelle Kontrolle entsteht, liegt eine Deutung nahe: Ausgerechnet jenes Gefäß,
+        das den gesamten Organismus mit Leben versorgt und dessen Versagen keine Warnung
+        gibt, wurde zum Ort einer Bedrohung, die sich der Kontrolle entzog – während Einstein
+        genau darauf mit der einzigen ihm verbliebenen Form von Kontrolle reagierte: der
+        bewussten Entscheidung, sie nicht zu bekämpfen. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Gefäßerkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Einsteins Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, existenzielle Bedrohung über rationale Distanz statt über emotionale
+        Bewältigung zu verarbeiten, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Einstein kannte sein eigenes Muster nicht – die soziale Fünf mit Viererflügel bestimmt lieber selbst über die eigenen Bedingungen, als sich fremder Kontrolle zu unterwerfen, und genau das zeigte sich in seiner bewussten Ablehnung einer erneuten Operation. Wer die eigene Autonomiebedürftigkeit nicht als Muster erkennt, verwechselt sie leicht mit reiner Vernunft, obwohl auch die eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Einsteins</strong> letzten Jahren lässt sich die soziale Fünf mit
+        Viererflügel noch einmal in aller Klarheit ablesen: eine über Jahre bekannte, nie
+        verdrängte Bedrohung, eine nüchterne, informierte Entscheidung gegen den Eingriff, und
+        eine Arbeit an den großen Fragen des Universums, die bis zur letzten Nacht nicht
+        endete. Der Oktopus, der die Tinte selbst wählte – und der noch im Sterben nach der
+        einen Formel suchte, die alles erklären würde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
 function robertSchumannKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12719,249 +13081,6 @@ function martaPage() {
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
         {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
         {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function jesusPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-jesus-portrait.jpg" alt="Jesus – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jesus</p>
-        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Bei der Speisung der Fünftausend – Tierentsprechung: Golden Retriever</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Gebt ihr ihnen zu essen.« (Lk 9,13)</p>
-
-        <h2 class="vb-section">1. Der Golden Retriever</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – ein Tier, das nicht wartet, bis man es ruft, sondern von sich aus auf die Menschen zugeht, das jedes Gesicht in einer Menge einzeln wahrnimmt und sich selbst dabei zurückstellt. Der Tag war heiß, Staub lag auf der Straße, und Jesus war müde – nicht körperlich, sondern auf jene Weise, wie man müde wird, wenn viele Augen auf einem ruhen und jedes davon fragt: <em>Siehst du mich?</em> Und er sah sie. Alle. Nicht als Masse, nicht als Schar, sondern als Einzelne: der Junge mit dem eingefallenen Blick, die Frau mit der leeren Hand, der Alte mit dem vorsichtigen Schritt.</p>
-          <p class="vb-intro">Er kannte ihren Hunger – nicht nur nach Brot, sondern nach Bedeutung. Und das war seine Gabe: nicht zu predigen, sondern zu geben, bevor jemand die Hand hob. Als die Jünger nervös wurden – »Die Menge wird unruhig, es sind zu viele, sie haben nichts zu essen« –, antwortete er: »Gebt ihr ihnen zu essen.« Die Worte waren weich, aber sie schnitten: nicht als Forderung, sondern als Spiegel. Schaut nicht auf die Menge. Schaut auf eure Fähigkeit zu geben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Zwei: Prinzip statt Berechnung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet ihre Fürsorge nicht auf eine einzelne Beziehung, sondern auf die ganze Gemeinschaft – Naranjo nannte diesen Subtyp ›Ambition‹: das Bedürfnis, für viele unentbehrlich zu sein, nicht nur für einen. »Wir haben nichts«, sagten die Jünger, »nur fünf Brote und zwei Fische – von einem Jungen.« Jesus nahm das Brot nicht als Gabe, sondern als Antwort. Denn dort, wo jemand teilt, beginnt das Wunder. Er sah nicht auf das Wenige. Er sah auf die Bereitschaft.</p>
-          <p class="vb-intro">Er nahm die Brote, dankte, brach – und während er brach, entstand Überfluss. Nicht plötzlich, nicht wie ein Zauber, sondern wie ein inneres Gesetz, das sich entfaltet, wenn jemand gibt, ohne zu rechnen. Es gab kein Gedränge, keine Angst, zu kurz zu kommen. Denn jeder sah: Wenn ich empfange, empfängt auch der andere. Es war nicht nur eine Speisung. Es war eine Heilung – der Hunger war nicht nur körperlich, er war ein Hunger nach Wert, nach Gesehenwerden, nach <em>Wir gehören dazu</em>.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Geben nach einem inneren Gesetz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine klare, fast ethische Struktur: Geben geschieht nicht aus Impuls, sondern folgt einem inneren Prinzip. Nicht Besitz, sondern Hingabe. Nicht Vorrat, sondern Vertrauen. Die Jünger verteilten Körbe, reichten Hände, führten Kinder zu freien Plätzen – sie taten, was er gesagt hatte, aber verstanden es noch nicht ganz. Denn was sie sahen, war das Wunder. Was sie nicht sahen, war das Prinzip dahinter.</p>
-          <p class="vb-intro">Jesus hatte sie nicht belehrt. Er hatte sie in Bewegung gebracht – nicht durch Theorie, sondern durch ein Mahl. Als sie am Ende die Reste sammelten, zwölf Körbe voll, standen sie still, nicht aus Staunen, sondern aus Demut: Sie hatten gelernt, dass das, was bleibt, nicht das ist, was man zurückhält, sondern das, was man verteilt. Genau diese Disziplin – Geben als Prinzip, nicht als Ausnahme – trägt die Handschrift des Einserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Nähe ohne Bedürftigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Nacht kam langsam, die Menschen waren satt, lachten, sangen leise. Jesus aber zog sich zurück – nicht weil er müde war, sondern weil er wusste: <em>Geben darf nicht zur Abhängigkeit werden.</em> Er stieg auf den Hügel hinter dem Feld, allein. Er betete nicht laut, er bat nicht. Er war. Denn wer gibt, weil er liebt, braucht keine Antwort.</p>
-          <p class="vb-intro">Seine Nähe war radikal, aber nie fordernd. Er hielt niemanden fest, band niemanden an sich. Er schenkte – und ging. Und gerade darin lag seine Tiefe: Er war ganz da und ließ doch los. So lebte er die soziale Zwei in höchster Bewusstheit – nicht als Bedürftiger, sondern als Quelle, nicht als Retter, sondern als Dienender, der durch das Geben selbst frei bleibt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die unsichtbare Saat der Verbundenheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am nächsten Morgen war der Platz leer. Die Menschen waren gegangen, zurück in ihre Städte, Dörfer, Höfe. Aber etwas war anders. Sie trugen nichts Greifbares mit sich – kein Segenswort, kein Andenken, kein sichtbares Zeichen. Und doch: Sie trugen etwas, das sie nicht benennen konnten. Eine Weite im Brustkorb. Ein Wissen, das nicht vom Kopf kam.</p>
-          <p class="vb-intro">Sie hatten erlebt, dass Nähe nicht etwas ist, das man sich verdienen muss, sondern etwas, das man teilen kann. Sie hatten erfahren, dass Würde nicht von Rang kommt, sondern von der Art, wie man einander ansieht. Jesus sprach nie viel darüber. Er sagte später nur: »Ich bin das Brot des Lebens.« Und wer ihn verstanden hatte, wusste, dass er nicht vom Magen sprach, sondern vom Herz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Quelle sein, ohne sich zu erschöpfen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was diese Erzählung von der sozialen Zwei zeigt, ist ihre reifste, gesündeste Form: Geben, das nicht aus Mangel schöpft, sondern aus Fülle, und das sich nicht durch die Reaktion der anderen bestätigen lassen muss. Die meisten SO2 ringen mit der Frage, ob genug Anerkennung für all die Mühe zurückkommt. Jesus verschenkte sich – und zog sich dann zurück, bevor aus Fürsorge Bindung, aus Geben Erwartung wurde.</p>
-          <p class="vb-intro">Das ist das Geschenk der SO2w1: eine Großzügigkeit, die einem inneren Gesetz folgt statt der Buchhaltung von Geben und Nehmen – ein Golden Retriever, der jedem Gesicht in der Menge begegnet, als sei es das einzige, und der genau deshalb niemanden binden muss, um geliebt zu werden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Brot aus seinen Händen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu diesem Kapitel ist ein eigener Song entstanden, der diese seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/3NwdYJLeKN0?rel=0" title="Brot aus seinen Händen" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
-        {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
-        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
-        {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function mariaMagdalenaPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Maria Magdalena – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Maria Magdalena</p>
-        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Erste Zeugin der Auferstehung – Tierentsprechung: Kamel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie hat viel geliebt.« (vgl. Lk 7,47)</p>
-
-        <h2 class="vb-section">1. Das Kamel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ausdauernd bis zur Erschöpfung, fähig, tagelang ohne sichtbare Versorgung weiterzugehen, solange es einem einzigen Ziel folgt. Maria hatte viele Namen gehabt. Manche flüsterten sie, andere spuckten sie aus, einige schwiegen, wenn sie erschien. Aber keiner davon war wirklich ihrer. Ihre Nähe war intensiv, zu viel für manche, zu direkt. Sie sah nicht über Menschen hinweg – sie sah durch sie hindurch.</p>
-          <p class="vb-intro">Sie wollte nicht Besitz, nicht Macht, sondern Verschmelzung. Sie konnte nicht am Rand stehen, nicht zuschauen, nicht halb lieben. Wenn sie sich jemandem zuwandte, dann ganz, mit Haut, Herz, Augen und Seele. Und wenn sie weggestoßen wurde – was oft geschah –, dann brannte ihr Inneres nicht vor Zorn, sondern vor Verlustangst. Die Menschen nannten sie labil, unstet, unklar. Aber sie war klar – in ihrem Hunger nach jemandem, der ihre Tiefe hielt, ohne sie zu benutzen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Zwei: Verschmelzung statt Halbheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> sucht nicht die breite Anerkennung einer Gemeinschaft, sondern die vollständige Verschmelzung mit einer einzigen Person. Es war kein lauter Moment, kein Ruf, kein Wunder – nur ein Blick. Jesus sah sie nicht wie die anderen Männer, nicht mit Hunger, nicht mit Urteil, sondern mit Erkenntnis. Er sah in sie hinein, an jenen Punkt, den sie selbst nie ganz benennen konnte: wo die Sehnsucht wohnte, geliebt zu werden ohne Zweck.</p>
-          <p class="vb-intro">In seiner Gegenwart verstummte die ständige Anspannung, die Jagd nach Verbindung, das Fragen: <em>Bin ich genug?</em> Nicht, weil er sie beantwortete, sondern weil er sie überflüssig machte. Sie sah in Jesus nicht den Lehrer, nicht den Rabbi, nicht den Wundertäter. Sie sah den Einen, der ihre Tiefe nicht fürchtete und nicht benutzte. Und sie blieb – nicht weil sie musste, sondern weil sie endlich sein durfte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Treue als Prinzip statt Inszenierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine Note von Prinzipientreue, die ihre Intensität nicht zur Schau stellt, sondern in unverrückbarer Verbindlichkeit lebt. Maria blieb bei ihm, nicht als Schülerin unter vielen, sondern wie jemand, der nicht nur folgen wollte, sondern verschmelzen. Doch Jesus ließ sich nicht greifen – er war bei allen, und doch nie ganz bei einem allein.</p>
-          <p class="vb-intro">»Ich will bei dir sein«, sagte sie. Und er erwiderte nur: »Dann bleib – ohne dich zu verlieren.« Das war für sie das Schwerste, denn ihr Herz wollte sich verschenken, ganz. Aber er zeigte ihr: Liebe ist nicht Auflösung, sondern Klarheit im Verbundensein. Genau diese Fähigkeit, trotz brennender Sehnsucht an einem Prinzip festzuhalten, statt sich zu verlieren oder ihre Nähe theatralisch einzufordern, trägt die Handschrift des Einserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Treue über den Tod hinaus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Den Tag der Verhaftung hatte sie gespürt, bevor er geschah – nicht durch Worte oder Zeichen, sondern in ihrem Körper, wie eine plötzliche Leere im Raum, wo sonst sein Licht war. Als sie ihn führten, mit Stricken, mit Spott, war sie da. Nicht laut, nicht weinend, sondern mit Blicken, die mehr sprachen als jede Verteidigung. Sie stand unter dem Kreuz – nicht weil es Hoffnung gab, sondern weil es Liebe war. Nicht romantisch, nicht heroisch, sondern roh, unverhandelbar, wach: <em>Ich bleibe. Auch wenn du gehst.</em></p>
-          <p class="vb-intro">Als er starb, starb etwas in ihr mit – aber nicht ihre Liebe. Wo andere flohen, blieb sie. Wo andere sagten <em>Es ist vorbei</em>, dachte sie: <em>Er ist noch nicht fertig.</em> Sie half, den Leichnam zu salben. Sie weinte nicht wie eine Witwe, sondern wie eine Verbundene, die wusste: Dieser Tod beendet nichts. Er verändert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das leere Grab und die Auferstehung der Liebe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Morgen war grau, der Stein war weg, das Grab war leer. Maria stand da – nicht mit Hoffnung, sondern mit Verzweiflung. Denn was macht eine SX2, wenn selbst der Körper nicht mehr da ist, wenn sie nicht mehr salben, nicht mehr dienen, nicht mehr in Nähe trauern darf? Da trat er zu ihr, nicht als Lichtgestalt, nicht als Sieger, sondern als Mensch. Sie erkannte ihn nicht, nicht sofort – denn Liebe, wenn sie tief verwundet ist, erwartet nur Verlust.</p>
-          <p class="vb-intro">Dann sagte er nur: »Maria.« Ihren Namen, nicht als Information, sondern als Anrufung. Und sie wusste: Er lebt. Und ich – ich werde nicht zurückgelassen. Sie wollte ihn umarmen, festhalten, nie wieder loslassen. Doch er sagte: »Rühr mich nicht an – denn ich bin noch nicht zum Vater aufgefahren.« Nicht weil er sie abwies, sondern weil er sie lehrte: Liebe heißt nicht Besitz. Liebe heißt Zeugenschaft.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Verkünden statt binden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">So wurde Maria Magdalena die erste Zeugin – nicht, weil sie etwas verstanden hatte, sondern weil sie viel geliebt hatte. Und weil sie bereit war, ihn loszulassen, um ihn in der Welt weiterzutragen. Nicht in Umarmung, sondern in ihrer Stimme, in ihrem Blick, in ihrem unverrückbaren Glauben: Er lebt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX2w1: eine Intensität, die sich nicht in Besitzergreifung erschöpft, sondern zur Botschaft wird – ein Kamel, das seine ganze Kraft einem einzigen Ziel widmet und, sobald das Ziel erreicht scheint, gerade darin frei wird, weiterzutragen, was es getragen hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Sie sah ihn brechen – nicht das Brot allein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Maria Magdalena ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0" title="Sie sah ihn brechen – nicht das Brot allein – Maria Magdalena" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
-        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
-        {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
-        {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function salomePage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-salome-portrait.jpg" alt="Salome – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Salome</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Architektin des Eindrucks – Tierentsprechung: Waschbär</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Ihre Hände waren immer in Bewegung – aber ihr Herz war still geworden.«</p>
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – geschickt, wachsam, ein Meister der stillen Anpassung, der sich nie in den Vordergrund drängt und doch dafür sorgt, dass alles um ihn herum geordnet und versorgt ist. Salome hatte früh gelernt, was wirkt. Nicht was wahr ist, nicht was tief ist – sondern was ankommt. Sie war klug, ja. Aber vor allem: geschickt.</p>
-          <p class="vb-intro">In ihrem Haus war alles geordnet, die Krüge glänzten, das Brot lag exakt geschnitten auf dem Tuch. Denn wenn alles gut aussieht, ist es auch ein wenig gut – das war der Gedanke, der ihr Sicherheit gab. Sie hatte ihr wahres Selbst mit einer Art Panzer überzogen, nicht aus Kälte, sondern aus Notwendigkeit. Tief in ihr wohnte eine Stimme, die flüsterte: Wenn du nichts leistest, bist du nichts.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Wirkung als Überlebensstrategie</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht Sicherheit nicht durch öffentlichen Glanz, sondern durch stille, makellose Kompetenz im eigenen Umfeld. Salome war nicht eingeladen gewesen zur Hochzeit in Kana – zumindest nicht offiziell. Aber sie war da, wie so oft: still, dezent, an der Seite. Ihr Blick erfasste die Szenerie wie ein erfahrener Gastgeber: die Menge, die Temperatur des Raumes, den Vorrat an Wein. Sie war nicht neugierig – sie war wach. Denn wer wach ist, hat Kontrolle.</p>
-          <p class="vb-intro">Als die Weinkrüge leer waren, war das in ihrer Welt ein Desaster – ein Makel, öffentlich. Doch Jesus sagte nur leise Worte zu den Dienenden, und Wasser wurde zu Wein. Ohne Auftritt, ohne Ankündigung, kein Lob, keine Geste der Selbstbestätigung. Salome konnte nicht wegblicken – nicht wegen des Wunders, sondern wegen seiner Stille, seines Mangels an Eitelkeit. Wer ist dieser Mann, der wirken kann, ohne zu wirken?</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die verborgene Unruhe hinter der Fassade</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine leise, kaum sichtbare Tiefe – eine Empfindsamkeit für das eigene Ungenügen, die unter der makellosen Oberfläche wach bleibt und sich irgendwann nicht mehr verdrängen lässt. Nach dem Fest ging Salome langsam nach Hause, und doch schien jeder Schritt schwerer zu wiegen als sonst. Sie hatte Jesus kein Wort gesagt. Denn was hätte sie sagen sollen – »Gut gemacht«? Sie wusste: Solche Worte hätten ihn nicht erreicht, denn er hatte nichts getan, um zu gefallen. Und das war es, was sie tief traf.</p>
-          <p class="vb-intro">Sie war es gewohnt, gewürdigt zu werden, hatte gelernt, dass Anerkennung das Maß aller Dinge ist. Doch dieser Mann war wirksam ohne Aufwand, präsent ohne Geltung. Wer bin ich, wenn ich nicht mehr funktioniere? Wenn keiner sieht, was ich tue? Genau dieses leise, unbestechliche Fragen nach dem eigenen Wert jenseits der Leistung – nicht als lauter Zusammenbruch, sondern als stiller innerer Sturm – trägt die Handschrift des Viererflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Angst, gesehen zu werden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Es war in Kapernaum, am Rand eines Marktes. Jesus saß auf einem flachen Stein, nicht erhöht, nicht hervorgehoben, aber in einem Kreis von Menschen, die in seiner Gegenwart atmeten, als sei endlich genug Luft da. Salome trat näher – nicht aus Mut, sondern aus etwas, das sie nicht kannte: Sehnsucht, nicht nach Anerkennung, sondern nach Erkanntwerden. Er sah sie. Nicht mit Überraschung, nicht mit Besitz, nicht mit Lob. Er sah – und das genügte.</p>
-          <p class="vb-intro">In seinem Blick lag ein Satz, den sie spürte, ohne dass er gesprochen wurde: Du brauchst dich nicht mehr beweisen. Ein Satz wie eine Klinge, wie eine Befreiung – und zugleich ein Entsetzen. Denn wer war sie, wenn sie nicht mehr geben, leisten, glänzen konnte? Er sprach leise, aber es klang in ihr wie Donner: »Was nützt es dem Menschen, wenn er die ganze Welt gewinnt, aber dabei seine Seele verliert?« Sie fühlte sich gemeint – nicht beschämt, sondern gesehen, jenseits der Maske.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das neue Maß: Wirksamkeit ohne Maske</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sie änderte sich nicht plötzlich, nicht in ihren Gewohnheiten, nicht in ihrer Kleidung. Aber das Motiv hinter allem begann sich zu lösen – nicht sofort, aber stetig. Sie hörte auf, etwas zu sein, um jemand zu sein. Sie begann, Dinge zu tun, nicht um Eindruck zu machen, sondern weil sie gebraucht wurden. Der Unterschied war kaum sichtbar, aber spürbar: Ihr Lächeln wurde weicher, nicht strategisch, echt.</p>
-          <p class="vb-intro">Eines Tages, als sie Jesus wieder sah, trat sie zu ihm, setzte sich einfach hin und sagte leise: »Ich bin müde vom Machen.« Er schwieg, nickte kaum merklich und sagte: »Dann ruh dich aus – in dem, was du bist.« Für Salome war das der Wendepunkt. Nicht das Ende ihres Tuns, aber der Beginn ihres wirklichen Seins. Kein Glanz mehr ohne Grund, keine Masken mehr aus Angst, keine Wirkung ohne Wurzeln.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Führen ohne Applaus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als sie später andere führte – jüngere Frauen, unsichere Männer, Kinder –, tat sie es nicht mehr, um Applaus zu bekommen, sondern weil sie wusste, dass das wahre Wirken dort beginnt, wo man nichts mehr darstellt, sondern einfach da ist.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE3w4: eine Kompetenz, die sich nicht mehr aus der Angst speist, ohne Leistung wertlos zu sein, sondern aus der stillen Gewissheit, gesehen zu sein, auch wenn niemand zuschaut – ein Waschbär, der nicht mehr jeden Winkel kontrollieren muss, um sich sicher zu fühlen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Mehr als nur die Beste</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Salome ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0" title="Mehr als nur die Beste – Salome bei Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
-        {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
-        {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
       ])}
     </div>
   `);

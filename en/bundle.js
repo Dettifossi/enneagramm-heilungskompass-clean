@@ -2911,6 +2911,7 @@ text.nav = [
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
+    { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -47246,11 +47247,123 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Pattern Radar (wings & instincts across all types)"},
+          {route:"enneagramm-rad", label:"Enneagram Wheel (interactive symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"kriminalpsychologie", label:"Criminal psychology"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
           {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence"},
           {route:"enneagramm-instinkt", label:"Chart: Enneagram and Instinct"},
+          {route:"knowledge", label:"Knowledge base"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+const RAD_STRESS = {1:4, 2:8, 3:9, 4:2, 5:7, 6:3, 7:1, 8:5, 9:6};
+const RAD_GROWTH = {1:7, 2:4, 3:6, 4:1, 5:8, 6:9, 7:5, 8:2, 9:3};
+const RAD_WINGS = {1:[9,2], 2:[1,3], 3:[2,4], 4:[3,5], 5:[4,6], 6:[5,7], 7:[6,8], 8:[7,9], 9:[8,1]};
+const RAD_POS = {1:[302.8,77.4], 2:[357.6,172.2], 3:[338.6,280], 4:[254.7,350.4], 5:[145.3,350.4], 6:[61.4,280], 7:[42.4,172.2], 8:[97.2,77.4], 9:[200,40]};
+function radLineId(a, b) { return "rad-line-" + Math.min(a,b) + "-" + Math.max(a,b); }
+function radInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Hover over a point to see its stress and growth direction and its wings &ndash; or tap a point directly to go to that type.</p>`;
+  }
+  const col = typeColor(n);
+  const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
+  const wings = RAD_WINGS[n];
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
+    <div style="display:grid;gap:0.35rem;font-size:0.82rem;">
+      <div><span style="font-weight:700;color:#a00802;">Stress direction:</span> Type ${stressTo} &ndash; ${TYPNAMEN[stressTo]}</div>
+      <div><span style="font-weight:700;color:#1fa688;">Growth direction:</span> Type ${growthTo} &ndash; ${TYPNAMEN[growthTo]}</div>
+      <div><span style="font-weight:700;color:var(--copper);">Wings:</span> Type ${wings[0]} &amp; Type ${wings[1]}</div>
+    </div>
+    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Go to Type ${n} in the compass &rarr;</button>
+  `;
+}
+function radFocus(n) {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.15"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  const a = RAD_STRESS[n], b = RAD_GROWTH[n];
+  [a, b].forEach(t => {
+    const el = document.getElementById(radLineId(n, t));
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3.5"; }
+    const pt = document.querySelector('.rad-point[data-typ="' + t + '"]');
+    if (pt) pt.style.opacity = "0.9";
+  });
+  RAD_WINGS[n].forEach(w => {
+    const pt = document.querySelector('.rad-point[data-typ="' + w + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(n);
+}
+function radBlur() {
+  document.querySelectorAll(".rad-line").forEach(l => { l.style.opacity = "0.55"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".rad-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("rad-info");
+  if (info) info.innerHTML = radInfoHtml(0);
+}
+window.radFocus = radFocus;
+window.radBlur = radBlur;
+
+function enneagrammRadPage() {
+  const lines = Object.entries(RAD_STRESS).map(([a, b]) => {
+    a = parseInt(a, 10);
+    const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+    return `<line id="${radLineId(a, b)}" class="rad-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--muted)" stroke-width="2" opacity="0.55" />`;
+  }).join("");
+
+  const points = [1,2,3,4,5,6,7,8,9].map(n => {
+    const [x, y] = RAD_POS[n];
+    const col = typeColor(n);
+    const leftPct = (x / 400 * 100).toFixed(2);
+    const topPct = (y / 400 * 100).toFixed(2);
+    return `
+      <button class="rad-point" data-typ="${n}" data-route="type/${n}"
+        onmouseenter="radFocus(${n})" onmouseleave="radBlur()" onfocus="radFocus(${n})" onblur="radBlur()"
+        style="position:absolute;left:${leftPct}%;top:${topPct}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);transition:opacity .15s;"
+        title="Type ${n} &ndash; ${TYPNAMEN[n]}"
+      >${n}</button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram Wheel</p>
+        <h1 class="section-title">Enneagram Wheel</h1>
+        <p class="psycho-intro">The classic Enneagram symbol as an interactive map: the hexad (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) and the triangle (3&ndash;9&ndash;6) show how the 9 types connect through stress and growth lines &ndash; and the circle itself shows the wing neighborhoods. Hover over a point to see its connections, or tap it directly to go to that type.</p>
+
+        <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
+          <div style="position:relative;width:100%;aspect-ratio:1;">
+            <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+              <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+              ${lines}
+            </svg>
+            ${points}
+          </div>
+          <div id="rad-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">
+            ${radInfoHtml(0)}
+          </div>
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Stress direction</strong> (also called disintegration): under pressure or in a crisis, a type shows more behaviors of the type at the other end of its stress line &ndash; usually its more problematic sides. <strong>Growth direction</strong> (integration): in safety and with growing awareness, a type can integrate the healthy qualities of the type at the end of its growth line. The <strong>wings</strong> are the two types directly neighboring on the circle &ndash; they color the base type without changing it.</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"musterradar", label:"Pattern Radar (wings & instincts across all types)"},
+          {route:"typentest-motivational", label:"Take the type test"},
           {route:"knowledge", label:"Knowledge base"},
         ])}
       </div>
@@ -47320,6 +47433,7 @@ function musterradarPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"enneagramm-rad", label:"Enneagram Wheel (interactive symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
           {route:"enneagramm-instinkt", label:"Chart: Enneagram and Instinct"},
@@ -101997,6 +102111,7 @@ function subtypeSchaubilderPage() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "musterradar": musterradarPage,
+    "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,

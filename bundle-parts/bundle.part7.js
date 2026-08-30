@@ -1,3 +1,123 @@
+function moritzBleibtreuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-moritz-bleibtreu-portrait.jpg" alt="Moritz Bleibtreu – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Moritz Bleibtreu</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1971 in München – Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 – und er überrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist mächtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, schützt sein Rudel. Er sucht keine Konfrontation – aber weicht ihr auch nicht aus, wenn es darauf ankommt.</p>
+          <p class="vb-intro">Der deutsche Schauspieler Moritz Bleibtreu, 1971 in München geboren, Sohn des Schauspielers Hans-Peter Bleibtreu, ist seit über drei Jahrzehnten eines der beweglichsten Gesichter des deutschen Films. Kaum ein Kollege seiner Generation hat ein derart dichtes, ungewöhnlich vielseitiges Werk vorzuweisen – von der Komödie bis zum psychologischen Thriller, von der historischen Rolle bis zur internationalen Großproduktion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der Wärme des Schaffens selbst – im Prozess, in der Zusammenarbeit, im Handwerk. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativität und Geborgenheit zusammenkommen. Interessanterweise bezeichnete Naranjo in seinen Seminaren die selbsterhaltende Sieben gelegentlich auch als die <em>versteckte Acht</em>: Von allen drei Siebener-Varianten kann sich die SE7 im Ernstfall am kompromisslosesten durchsetzen. Fühlt sie ihre Freiheit oder Unabhängigkeit bedroht, kann aus dem freundlichen, familienorientierten Wesen abrupt eine Härte werden, die kaum noch Rücksicht kennt – der Gorilla, der sich friedlich durch den Wald bewegt, aber zum unerbittlichen Verteidiger wird, sobald sein Revier angetastet wird.</p>
+          <p class="vb-intro">Bleibtreus internationaler Durchbruch gelang 1998 mit <em>Lola rennt</em> von Tom Tykwer, an der Seite von Franka Potente (SE2w1) – ein Film, der das deutsche Kino jener Jahre neu definierte. Statt diesen Erfolg in eine einzige Rollenformel zu übersetzen, wechselte er seither ständig das Terrain: Komödie (<em>Soul Kitchen</em>, 2009), Psychothriller (<em>Das Experiment</em>, 2001), historisches Drama (<em>Der Baader Meinhof Komplex</em>, 2008), internationales Kino (<em>München</em>, 2005, Regie: Steven Spielberg; <em>Speed Racer</em>, 2008). Die SE7 sucht nicht die eine große Rolle – sie sucht die nächste Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kraft, die trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verfügung steht: Durchsetzungskraft und die Fähigkeit, auch in die dunkelsten, konfrontativsten Rollen vollständig einzutauchen, ohne sich vor der eigenen Intensität zurückzuziehen.</p>
+          <p class="vb-intro">2008 verkörperte Bleibtreu in <em>Der Baader Meinhof Komplex</em> den RAF-Terroristen Andreas Baader – eine Rolle von schonungsloser Härte, die international Anerkennung fand und ihm eine Nominierung für den Europäischen Filmpreis einbrachte. Es ist eine Darstellung ohne jede Distanzierung: kein Kommentar, keine Milderung, volle Konfrontation mit einer zutiefst verstörenden historischen Figur. Das ist der Achterflügel: die Bereitschaft, sich der schwersten Energie eines Stoffes auszusetzen, statt ihr auszuweichen.</p>
+          <p class="vb-intro">Bemerkenswert dabei: Andreas Baader war ebenfalls eine selbsterhaltende Sieben mit starkem Achterflügel (SE7w8) – Statussymbole und schnelle Autos als Ausdruck des Freiheitsdrangs, Geldbeschaffung durch Raub statt durch ein geordnetes System, ein Leben konsequent nach den eigenen Regeln, ohne Rücksicht auf Konsequenzen. Regie führte Uli Edel, Drehbuch und Produktion verantwortete Bernd Eichinger nach der Vorlage von Stefan Aust. Ob die Besetzung bewusst auf diese Typähnlichkeit zielte, ist nicht überliefert – enneagrammatisch war sie jedenfalls ein Glücksgriff: Ein SE7w8 spielt hier einen SE7w8, und genau diese Deckungsgleichheit dürfte zur Glaubwürdigkeit beigetragen haben, mit der Bleibtreu die Rolle bis in ihre unbequemsten Facetten trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Schöpfungsdrang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> – der unstillbare Hunger nach Erfahrung, nach dem nächsten Projekt, nach neuen Facetten des eigenen Könnens. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf Fülle: mehr Rollen, mehr Genres, mehr Handwerk.</p>
+          <p class="vb-intro">Bleibtreus Filmografie umfasst weit über hundert Produktionen – Kino, Fernsehen, internationale Koproduktionen. In Interviews ist er bekannt für sein schnelles, sprunghaftes, oft komisches Erzähltempo – Gedanken, die sich überschlagen, Themenwechsel mitten im Satz. Das ist kein Mangel an Fokus. Es ist der Gorilla in seinem Element: ein Geist, der ständig in Bewegung bleibt, weil Stillstand sich für die SE7 wie Verlust anfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Vielseitigkeit ohne Verwässerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Moritz Bleibtreu dem deutschen Film gegeben hat, ist der Beweis, dass Vielseitigkeit keine Verwässerung sein muss. Wer zwischen Manni in <em>Lola rennt</em>, dem gequälten Versuchsteilnehmer in <em>Das Experiment</em> und dem RAF-Anführer Baader wechseln kann, ohne dabei an Glaubwürdigkeit zu verlieren, hat verstanden, dass echte Wandlungsfähigkeit kein Widerspruch zur Tiefe ist – sondern ihre Voraussetzung.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude am Handwerk, gepaart mit der Kraft, auch dorthin zu gehen, wo es unbequem wird. Der Gorilla, der sein Rudel – das Ensemble, das Publikum, das Genre – nie verlässt, aber auch nie stehen bleibt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1) – Partnerin in ›Lola rennt‹"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function hansZimmerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Hans Zimmer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Zimmer</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Filmkomponist, Arrangeur &amp; Musikproduzent, geb. 1957 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
+          <p class="vb-intro">Der deutsche Komponist Hans Zimmer hat in Santa Monica ein Studio aufgebaut, das man Remote Control Productions nennt &ndash; und das von innen eher einer Musikerfamilie \u00e4hnelt als einer Produktionsfirma. Zimmer hat dort Dutzende Komponisten ausgebildet, gef\u00f6rdert, begleitet: Junkie XL, Lorne Balfe, Harry Gregson-Williams, Rupert Gregson-Williams, Ramin Djawadi und viele andere. Der Gorilla baut kein Territorium. Er baut ein Rudel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Sch\u00f6pfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der W\u00e4rme des Schaffens selbst &ndash; im Prozess, in der Zusammenarbeit, im Akt des Erschaffens. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativit\u00e4t und Geborgenheit zusammenkommen.</p>
+          <p class="vb-intro">Zimmer brach mit sechzehn die Schule ab. Er hatte nie eine formale Musikausbildung &ndash; und lie\u00df sich davon nie aufhalten. Statt Noten zu studieren, experimentierte er: mit Synthesizern, mit Orchesterkl\u00e4ngen, mit allem, was Klang erzeugt. Seine Freude am Entdecken ist bis in die Gegenwart sp\u00fcrbar. Kein Score klingt wie der vorherige. Jeder Film ist ein neues Abenteuer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft, die tr\u00e4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verf\u00fcgung steht: Durchsetzungskraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann sich die Sieben in M\u00f6glichkeiten verlieren, kann ausweichen, kann umlenken, wenn etwas schwer wird. Der Achterfl\u00fcgel h\u00e4lt dagegen &ndash; er bringt Entschlossenheit, Direktheit, die Bereitschaft, Konflikte auszuhalten.</p>
+          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Das ist der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Sch\u00f6pfungsdrang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, nach dem n\u00e4chsten Projekt, nach dem Gef\u00fchl, etwas Neues zu erschaffen. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf F\u00fclle: mehr Klang, mehr Tiefe, mehr Verbindung zwischen Musik und Bild.</p>
+          <p class="vb-intro">Zimmer hat Musik f\u00fcr \u00fcber 150 Filme geschrieben. Er schl\u00e4ft wenig. Er arbeitet in Phasen, die Mitarbeiter als intensiv beschreiben &ndash; und die er selbst als seine nat\u00fcrliche Betriebstemperatur bezeichnet. Es ist nicht Getriebensein. Es ist der Gorilla in seinem Element: Sch\u00f6pfen als Lebensform, Klang als Sprache, die nie zu Ende gesagt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Das ist die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function francisBaconPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7382,138 +7502,4 @@ function kevinCostnerPortraitPage() {
   `);
 }
 
-
-function peterFalkPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Peter Falk</p>
-        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, 1927–2011 – weltberühmt als TV-Ermittler »Columbo« – Tierentsprechung: Büffel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Büffel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kaum ein Schauspieler verkörperte dieses Bild so treffend wie Peter Falk, und kaum eine Rolle machte es so sichtbar wie seine berühmteste: der Detective Columbo, im zerknitterten Trenchcoat, mit halb gerauchter Zigarre und einem alten Peugeot, der ständig kaputtzugehen scheint.</p>
-          <p class="vb-intro">Von 1968 bis 2003 spielte der US-amerikanische Schauspieler Peter Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte auf Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Teilnahme</em>: die Fähigkeit, sich in jede Gruppe, jedes Milieu, jede soziale Schicht einzufügen und darin Frieden zu finden, ohne die eigene Identität zu verlieren. Als Columbo führten Falks Fälle ihn durch Villen, Studios, Anwaltskanzleien, Weingüter und Wissenschaftslabore – und in jedem einzelnen dieser Räume behandelte er jeden Menschen mit derselben Aufmerksamkeit: den Butler, den Chauffeur, die Haushälterin genauso wie den millionenschweren Verdächtigen selbst.</p>
-          <p class="vb-intro">Das war keine Masche, sondern der Kern der SO9, den Falk seiner Figur einschrieb: Er fragt den Weinkellner nach dem Jahrgang, den Regisseur nach der Kameraführung, die Sekretärin nach ihrem Arbeitsalltag – mit echtem Interesse, nicht als Verhörtaktik. Genau diese Fähigkeit, sich in jede Gesellschaftsschicht einzupassen, ohne sich selbst zu verbiegen oder anzubiedern, ist die eigentliche Superkraft der Figur: Columbo wird nirgends als Bedrohung wahrgenommen, weil er wirklich überall ein Stück dazugehört.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Der stille Richter</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun etwas, das bei schwach ausgeprägtem Einserflügel oft fehlt: einen unerschütterlichen inneren Kompass für Richtig und Falsch. Columbos Fälle richten sich fast ausnahmslos gegen wohlhabende, mächtige, gesellschaftlich unantastbar wirkende Täter – Ärzte, Regisseure, Wissenschaftler, Winzer –, die überzeugt sind, ihr Status stelle sie über das Gesetz.</p>
-          <p class="vb-intro">Columbo lässt sich davon nie beeindrucken. Er zeigt keinen Zorn, keine Herablassung – aber auch keinen Millimeter Nachgiebigkeit. „Nur noch eine Kleinigkeit …" ist der höflichste Satz der Fernsehgeschichte und zugleich einer der unerbittlichsten: Die Eins in ihm lässt so lange nicht locker, bis die Wahrheit ausgesprochen ist. Gerechtigkeit ist für ihn kein Akt der Rache, sondern eine stille, fast unpersönliche Notwendigkeit, ganz gleich, wie sympathisch oder brillant der Täter ihm gegenübersitzt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Methode: Harmlosigkeit als Werkzeug</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Format der Serie war für seine Zeit revolutionär: Der Zuschauer sieht den Mord bereits in den ersten Minuten – die eigentliche Spannung liegt nicht im „Wer war es", sondern im „Wie wird er überführt". Diese Konstruktion funktioniert nur, weil Columbos Methode selbst zum Schauspiel wird: Er tritt scheinbar zerstreut, vergesslich, fast tollpatschig auf, lässt Verdächtige sich in Sicherheit wiegen – und genau in diesem falschen Gefühl von Überlegenheit verstricken sie sich in die kleinen Widersprüche, die er längst bemerkt hat.</p>
-          <p class="vb-intro">Die soziale Neun mit Einserflügel konfrontiert nicht direkt – sie lässt die Wahrheit sich selbst enthüllen, während sie geduldig im Raum bleibt. Kein einziges Mal in der gesamten Serie zieht Columbo eine Waffe. Seine Überlegenheit ist rein psychologisch, rein geduldig – und gerade deshalb so schwer zu durchschauen. Falk selbst sagte einmal, er habe die Figur nie als „schlau spielend", sondern als tatsächlich so wahrnehmend angelegt – die Tarnung war für ihn keine Taktik, sondern echte Neugier auf Menschen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Mensch hinter Columbo</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Peter Falk verlor im Alter von drei Jahren durch einen Tumor sein rechtes Auge und trug zeitlebens ein Glasauge – ein Umstand, mit dem er offen und humorvoll umging und den er in Rollen gelegentlich sogar bewusst einsetzte. Vor seiner Schauspielkarriere hatte er einen Masterabschluss in Public Administration erworben und als Effizienzprüfer für die Haushaltsbehörde des US-Bundesstaats Connecticut gearbeitet – ein Werdegang, der die methodische, detailversessene Gründlichkeit seiner späteren Paraderolle fast prophetisch vorwegnimmt.</p>
-          <p class="vb-intro">Abseits von Columbo pflegte Falk eine enge Freundschaft mit dem Independent-Regisseur John Cassavetes und wirkte in dessen kompromisslosen, unkommerziellen Filmen wie „A Woman Under the Influence" mit – derselbe Mann, der als Columbo Millionenpublikum unterhielt, suchte abseits davon bewusst das kleine, ehrliche, unglamouröse Projekt. Für seine Rolle erhielt er vier Emmys – doch die eigentliche Anerkennung bestand darin, dass Generationen von Zuschauern eine Figur liebten, deren Stärke gerade darin lag, nie stark wirken zu wollen. Wer Falk abseits der Kameras erlebte, beschrieb ihn ganz ähnlich: bodenständig, neugierig auf jeden Menschen im Raum, ohne Starallüren – der Büffel blieb derselbe, ob vor oder hinter der Kamera.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Büffel, der niemanden übersah</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Columbo bleibt nach wie vor eine der einflussreichsten Ermittlerfiguren der Fernsehgeschichte – nicht wegen spektakulärer Action, sondern wegen einer radikal anderen Vorstellung von Stärke: Aufmerksamkeit statt Aggression, Geduld statt Druck, Respekt für jeden Menschen im Raum statt Hierarchiedenken. Genau darin liegt das bleibende Bild der sozialen Neun mit Einserflügel: Sie muss niemanden kleinmachen, um am Ende recht zu behalten.</p>
-          <p class="vb-intro">Der Büffel, der sich in jede Herde einfügt und dabei nie vergisst, wofür er steht – das war Peter Falks Columbo. Und den biografischen Spuren nach zu urteilen, war es folgerichtig, dass gerade er diese Figur zum Leben erweckte: Die Rolle war ihm nicht übergestülpt, sie war ihm auf den Leib geschrieben.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-        {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
-        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
-        {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
-        {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
-        {route:"bibel-barabbas", label:"Bibel-Porträt: Barabbas (SO9w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function dietmarBaerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-dietmar-baer-portrait.jpg" alt="Dietmar Bär" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dietmar Bär</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, geb. 1961 – seit 1997 »Kommissar Ballauf« im Kölner Tatort – Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun – massig, gemütlich, an sein eigenes Terrain und seine Herde gebunden, und dabei überraschend bestimmt, sobald es wirklich darauf ankommt. Kein anderes Tier verkörpert so treffend das Bild eines Mannes, der seit 1997 als Kommissar Max Ballauf im Kölner „Tatort" ermittelt: bodenständig, ohne Starallüren, mit einer Vorliebe fürs Deftige, Direkte – und mit einem Ruhepunkt, der sich nicht so leicht aus der Bahn werfen lässt.</p>
-          <p class="vb-intro">Dietmar Bär, 1961 in Köln geboren, ist seit fast drei Jahrzehnten mit derselben Rolle verbunden – eine der längsten Ermittler-Konstanten im deutschen Fernsehen überhaupt. Der Elefant zieht nicht um. Er bleibt an seinem Wasserloch, in seiner Herde, in seiner Stadt – und genau diese Beständigkeit, nicht spektakuläre Wandlungsfähigkeit, ist die eigentliche Stärke, die Bär öffentlich verkörpert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Komfort als Fundament</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> richtet die neunertypische Suche nach Frieden nicht primär auf die Gruppe (wie die soziale Neun) oder auf die eine Verschmelzung (wie die sexuelle Neun), sondern auf das eigene, unmittelbare Wohlbefinden: Essen, Gewohnheiten, das vertraute Zuhause, ein Leben ohne unnötige Reibung. Bär spricht in Interviews auffällig oft und mit sichtlichem Vergnügen übers Kochen und Essen, über Köln als seinen festen Lebensmittelpunkt, über die Bedeutung von Ritualen und Vertrautem im Alltag.</p>
-          <p class="vb-intro">Das ist kein Zufall, sondern der Kern der SE9: Sicherheit entsteht nicht durch soziale Anerkennung oder eine einzelne intensive Bindung, sondern durch die Pflege des eigenen, unmittelbaren Komforts. Genau diese Bodenständigkeit überträgt sich fast eins zu eins auf Ballauf – einen Ermittler, der nie den großen Auftritt sucht, sondern lieber im vertrauten Kölner Milieu bleibt, in dem er sich auskennt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Deutlichkeit ohne Drohgebärde</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der selbsterhaltenden Neun etwas, das einer SE9 mit schwach ausgeprägtem Achterflügel oft fehlt: eine direkte, unverblümte Art, klare Kante, wenn es nötig ist. In Interviews wirkt Bär nicht diplomatisch-zurückhaltend, sondern warmherzig, aber auch bestimmt und offen – er sagt, was er denkt, ohne dabei aggressiv oder konfrontativ zu wirken.</p>
-          <p class="vb-intro">Das unterscheidet die SE9w8 von der reinen, ungeflügelten Neun: Die Bequemlichkeit bleibt das Fundament, aber sie wird nicht zur Konfliktvermeidung um jeden Preis. Sein langjähriges Engagement als UNICEF-Botschafter zeigt dieselbe Mischung – kein lautstarker Aktivismus, sondern beständiges, verlässliches Eintreten für eine Sache, verbunden mit einer klaren, unmissverständlichen Haltung, wenn es um Kinderrechte geht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Rolle: Ballauf als verlängerter Arm der eigenen Bodenständigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Max Ballauf ist im Kölner „Tatort" der emotionalere, direktere der beiden Ermittler – einer, der auch mal laut wird, der seine Meinung unumwunden sagt, der sich mit seinem Kollegen Schenk auf eine Weise reibt und versteht, die über die Jahrzehnte fast familiär wirkt. Diese Konstellation funktioniert im Fernsehen nur deshalb so glaubwürdig, weil sie nicht nur gespielt, sondern von zwei Schauspielern getragen wird, die sich seit Jahrzehnten tatsächlich verbunden sind.</p>
-          <p class="vb-intro">Bär selbst hat wiederholt betont, dass ihm die reale Freundschaft mit seinem Schauspielkollegen wichtiger sei als jede einzelne Folge – eine Aussage, die genau ins SE9-Muster passt: Beständigkeit, Vertrautheit und die Pflege eines eingespielten, verlässlichen Umfelds wiegen schwerer als kurzfristige Anerkennung oder ein einzelner großer Erfolg.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Mensch hinter Ballauf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Abseits der Kamera engagiert sich Bär seit vielen Jahren als Botschafter für UNICEF Deutschland und setzt sich öffentlich für Kinderrechte ein – ein Engagement, das er nicht mit großer Geste, sondern mit stetiger Präsenz über Jahre hinweg pflegt. Er wird in Porträts und Interviews regelmäßig als humorvoll, gesellig und ausgesprochen genussorientiert beschrieben – jemand, der die kleinen, sinnlichen Freuden des Alltags bewusst zelebriert, statt sie als selbstverständlich hinzunehmen.</p>
-          <p class="vb-intro">Auffällig ist zudem, wie konsequent Bär trotz jahrzehntelanger Prominenz eine private, weitgehend unaufgeregte Öffentlichkeitsrolle gepflegt hat – kaum Skandale, kaum Homestorys, kaum das Bedürfnis, sich über die eigentliche Arbeit hinaus zu inszenieren. Das ist die stille Konsequenz der selbsterhaltenden Neun: Der eigene Komfort und die eigene Ruhe sind ihr wichtiger als zusätzliche Sichtbarkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Elefant, der bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fast drei Jahrzehnte in derselben Rolle, in derselben Stadt, an der Seite desselben Kollegen – das ist im schnelllebigen Fernsehgeschäft eine seltene Konstante, und sie speist sich aus genau der Eigenschaft, die den Elefanten auszeichnet: Beständigkeit ist keine Einschränkung, sondern eine Kraftquelle. Der Achterflügel sorgt dafür, dass diese Beständigkeit nie zur Passivität wird, sondern von einer klaren, direkten Haltung getragen bleibt.</p>
-          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Klaus J. Behrendt</a> (SE6w5), der im Kölner „Tatort" den ruhigeren, vorsichtigeren Kommissar Schenk verkörpert. Beide sind Selbsterhaltungs-Typen, beide meiden auf ihre eigene Art das Rampenlicht – Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr zu dieser Verbindung im <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Porträt zu Klaus J. Behrendt</a>.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5) – sein Tatort-Partner Schenk"},
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
 

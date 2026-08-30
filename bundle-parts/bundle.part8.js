@@ -1,3 +1,137 @@
+function peterFalkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-peter-falk-portrait.jpg" alt="Peter Falk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Falk</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1927–2011 – weltberühmt als TV-Ermittler »Columbo« – Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nie durch Angriffslust auffällt, sondern durch sein bloßes, unaufgeregtes Dasein Wirkung entfaltet. Er bewegt sich langsam, wirkt schwerfällig, fast harmlos – und ist doch das Tier, dem auf der Prärie am wenigsten jemand freiwillig im Weg steht. Kaum ein Schauspieler verkörperte dieses Bild so treffend wie Peter Falk, und kaum eine Rolle machte es so sichtbar wie seine berühmteste: der Detective Columbo, im zerknitterten Trenchcoat, mit halb gerauchter Zigarre und einem alten Peugeot, der ständig kaputtzugehen scheint.</p>
+          <p class="vb-intro">Von 1968 bis 2003 spielte der US-amerikanische Schauspieler Peter Falk diesen Mann in insgesamt 69 Folgen – einen Ermittler, der nie brüllt, nie droht, nie mit gezogener Waffe auftritt. Sein einziges Werkzeug ist Geduld. Der Büffel wirkt, als könnte man ihn beiseiteschieben. Man irrt sich jedes Mal – und diese Rolle passte auf Falk so genau, dass viele bis heute glauben, er habe darin kaum gespielt, sondern einfach sich selbst gezeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Gleich unter Ungleichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> nannte Naranjo <em>Teilnahme</em>: die Fähigkeit, sich in jede Gruppe, jedes Milieu, jede soziale Schicht einzufügen und darin Frieden zu finden, ohne die eigene Identität zu verlieren. Als Columbo führten Falks Fälle ihn durch Villen, Studios, Anwaltskanzleien, Weingüter und Wissenschaftslabore – und in jedem einzelnen dieser Räume behandelte er jeden Menschen mit derselben Aufmerksamkeit: den Butler, den Chauffeur, die Haushälterin genauso wie den millionenschweren Verdächtigen selbst.</p>
+          <p class="vb-intro">Das war keine Masche, sondern der Kern der SO9, den Falk seiner Figur einschrieb: Er fragt den Weinkellner nach dem Jahrgang, den Regisseur nach der Kameraführung, die Sekretärin nach ihrem Arbeitsalltag – mit echtem Interesse, nicht als Verhörtaktik. Genau diese Fähigkeit, sich in jede Gesellschaftsschicht einzupassen, ohne sich selbst zu verbiegen oder anzubiedern, ist die eigentliche Superkraft der Figur: Columbo wird nirgends als Bedrohung wahrgenommen, weil er wirklich überall ein Stück dazugehört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Der stille Richter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Neun etwas, das bei schwach ausgeprägtem Einserflügel oft fehlt: einen unerschütterlichen inneren Kompass für Richtig und Falsch. Columbos Fälle richten sich fast ausnahmslos gegen wohlhabende, mächtige, gesellschaftlich unantastbar wirkende Täter – Ärzte, Regisseure, Wissenschaftler, Winzer –, die überzeugt sind, ihr Status stelle sie über das Gesetz.</p>
+          <p class="vb-intro">Columbo lässt sich davon nie beeindrucken. Er zeigt keinen Zorn, keine Herablassung – aber auch keinen Millimeter Nachgiebigkeit. „Nur noch eine Kleinigkeit …" ist der höflichste Satz der Fernsehgeschichte und zugleich einer der unerbittlichsten: Die Eins in ihm lässt so lange nicht locker, bis die Wahrheit ausgesprochen ist. Gerechtigkeit ist für ihn kein Akt der Rache, sondern eine stille, fast unpersönliche Notwendigkeit, ganz gleich, wie sympathisch oder brillant der Täter ihm gegenübersitzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Methode: Harmlosigkeit als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Format der Serie war für seine Zeit revolutionär: Der Zuschauer sieht den Mord bereits in den ersten Minuten – die eigentliche Spannung liegt nicht im „Wer war es", sondern im „Wie wird er überführt". Diese Konstruktion funktioniert nur, weil Columbos Methode selbst zum Schauspiel wird: Er tritt scheinbar zerstreut, vergesslich, fast tollpatschig auf, lässt Verdächtige sich in Sicherheit wiegen – und genau in diesem falschen Gefühl von Überlegenheit verstricken sie sich in die kleinen Widersprüche, die er längst bemerkt hat.</p>
+          <p class="vb-intro">Die soziale Neun mit Einserflügel konfrontiert nicht direkt – sie lässt die Wahrheit sich selbst enthüllen, während sie geduldig im Raum bleibt. Kein einziges Mal in der gesamten Serie zieht Columbo eine Waffe. Seine Überlegenheit ist rein psychologisch, rein geduldig – und gerade deshalb so schwer zu durchschauen. Falk selbst sagte einmal, er habe die Figur nie als „schlau spielend", sondern als tatsächlich so wahrnehmend angelegt – die Tarnung war für ihn keine Taktik, sondern echte Neugier auf Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter Columbo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Falk verlor im Alter von drei Jahren durch einen Tumor sein rechtes Auge und trug zeitlebens ein Glasauge – ein Umstand, mit dem er offen und humorvoll umging und den er in Rollen gelegentlich sogar bewusst einsetzte. Vor seiner Schauspielkarriere hatte er einen Masterabschluss in Public Administration erworben und als Effizienzprüfer für die Haushaltsbehörde des US-Bundesstaats Connecticut gearbeitet – ein Werdegang, der die methodische, detailversessene Gründlichkeit seiner späteren Paraderolle fast prophetisch vorwegnimmt.</p>
+          <p class="vb-intro">Abseits von Columbo pflegte Falk eine enge Freundschaft mit dem Independent-Regisseur John Cassavetes und wirkte in dessen kompromisslosen, unkommerziellen Filmen wie „A Woman Under the Influence" mit – derselbe Mann, der als Columbo Millionenpublikum unterhielt, suchte abseits davon bewusst das kleine, ehrliche, unglamouröse Projekt. Für seine Rolle erhielt er vier Emmys – doch die eigentliche Anerkennung bestand darin, dass Generationen von Zuschauern eine Figur liebten, deren Stärke gerade darin lag, nie stark wirken zu wollen. Wer Falk abseits der Kameras erlebte, beschrieb ihn ganz ähnlich: bodenständig, neugierig auf jeden Menschen im Raum, ohne Starallüren – der Büffel blieb derselbe, ob vor oder hinter der Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Büffel, der niemanden übersah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Columbo bleibt nach wie vor eine der einflussreichsten Ermittlerfiguren der Fernsehgeschichte – nicht wegen spektakulärer Action, sondern wegen einer radikal anderen Vorstellung von Stärke: Aufmerksamkeit statt Aggression, Geduld statt Druck, Respekt für jeden Menschen im Raum statt Hierarchiedenken. Genau darin liegt das bleibende Bild der sozialen Neun mit Einserflügel: Sie muss niemanden kleinmachen, um am Ende recht zu behalten.</p>
+          <p class="vb-intro">Der Büffel, der sich in jede Herde einfügt und dabei nie vergisst, wofür er steht – das war Peter Falks Columbo. Und den biografischen Spuren nach zu urteilen, war es folgerichtig, dass gerade er diese Figur zum Leben erweckte: Die Rolle war ihm nicht übergestülpt, sie war ihm auf den Leib geschrieben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
+        {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
+        {route:"bibel-barabbas", label:"Bibel-Porträt: Barabbas (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function dietmarBaerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-dietmar-baer-portrait.jpg" alt="Dietmar Bär" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dietmar Bär</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1961 – seit 1997 »Kommissar Ballauf« im Kölner Tatort – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun – massig, gemütlich, an sein eigenes Terrain und seine Herde gebunden, und dabei überraschend bestimmt, sobald es wirklich darauf ankommt. Kein anderes Tier verkörpert so treffend das Bild eines Mannes, der seit 1997 als Kommissar Max Ballauf im Kölner „Tatort" ermittelt: bodenständig, ohne Starallüren, mit einer Vorliebe fürs Deftige, Direkte – und mit einem Ruhepunkt, der sich nicht so leicht aus der Bahn werfen lässt.</p>
+          <p class="vb-intro">Dietmar Bär, 1961 in Köln geboren, ist seit fast drei Jahrzehnten mit derselben Rolle verbunden – eine der längsten Ermittler-Konstanten im deutschen Fernsehen überhaupt. Der Elefant zieht nicht um. Er bleibt an seinem Wasserloch, in seiner Herde, in seiner Stadt – und genau diese Beständigkeit, nicht spektakuläre Wandlungsfähigkeit, ist die eigentliche Stärke, die Bär öffentlich verkörpert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Komfort als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> richtet die neunertypische Suche nach Frieden nicht primär auf die Gruppe (wie die soziale Neun) oder auf die eine Verschmelzung (wie die sexuelle Neun), sondern auf das eigene, unmittelbare Wohlbefinden: Essen, Gewohnheiten, das vertraute Zuhause, ein Leben ohne unnötige Reibung. Bär spricht in Interviews auffällig oft und mit sichtlichem Vergnügen übers Kochen und Essen, über Köln als seinen festen Lebensmittelpunkt, über die Bedeutung von Ritualen und Vertrautem im Alltag.</p>
+          <p class="vb-intro">Das ist kein Zufall, sondern der Kern der SE9: Sicherheit entsteht nicht durch soziale Anerkennung oder eine einzelne intensive Bindung, sondern durch die Pflege des eigenen, unmittelbaren Komforts. Genau diese Bodenständigkeit überträgt sich fast eins zu eins auf Ballauf – einen Ermittler, der nie den großen Auftritt sucht, sondern lieber im vertrauten Kölner Milieu bleibt, in dem er sich auskennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Deutlichkeit ohne Drohgebärde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der selbsterhaltenden Neun etwas, das einer SE9 mit schwach ausgeprägtem Achterflügel oft fehlt: eine direkte, unverblümte Art, klare Kante, wenn es nötig ist. In Interviews wirkt Bär nicht diplomatisch-zurückhaltend, sondern warmherzig, aber auch bestimmt und offen – er sagt, was er denkt, ohne dabei aggressiv oder konfrontativ zu wirken.</p>
+          <p class="vb-intro">Das unterscheidet die SE9w8 von der reinen, ungeflügelten Neun: Die Bequemlichkeit bleibt das Fundament, aber sie wird nicht zur Konfliktvermeidung um jeden Preis. Sein langjähriges Engagement als UNICEF-Botschafter zeigt dieselbe Mischung – kein lautstarker Aktivismus, sondern beständiges, verlässliches Eintreten für eine Sache, verbunden mit einer klaren, unmissverständlichen Haltung, wenn es um Kinderrechte geht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Ballauf als verlängerter Arm der eigenen Bodenständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Max Ballauf ist im Kölner „Tatort" der emotionalere, direktere der beiden Ermittler – einer, der auch mal laut wird, der seine Meinung unumwunden sagt, der sich mit seinem Kollegen Schenk auf eine Weise reibt und versteht, die über die Jahrzehnte fast familiär wirkt. Diese Konstellation funktioniert im Fernsehen nur deshalb so glaubwürdig, weil sie nicht nur gespielt, sondern von zwei Schauspielern getragen wird, die sich seit Jahrzehnten tatsächlich verbunden sind.</p>
+          <p class="vb-intro">Bär selbst hat wiederholt betont, dass ihm die reale Freundschaft mit seinem Schauspielkollegen wichtiger sei als jede einzelne Folge – eine Aussage, die genau ins SE9-Muster passt: Beständigkeit, Vertrautheit und die Pflege eines eingespielten, verlässlichen Umfelds wiegen schwerer als kurzfristige Anerkennung oder ein einzelner großer Erfolg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter Ballauf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abseits der Kamera engagiert sich Bär seit vielen Jahren als Botschafter für UNICEF Deutschland und setzt sich öffentlich für Kinderrechte ein – ein Engagement, das er nicht mit großer Geste, sondern mit stetiger Präsenz über Jahre hinweg pflegt. Er wird in Porträts und Interviews regelmäßig als humorvoll, gesellig und ausgesprochen genussorientiert beschrieben – jemand, der die kleinen, sinnlichen Freuden des Alltags bewusst zelebriert, statt sie als selbstverständlich hinzunehmen.</p>
+          <p class="vb-intro">Auffällig ist zudem, wie konsequent Bär trotz jahrzehntelanger Prominenz eine private, weitgehend unaufgeregte Öffentlichkeitsrolle gepflegt hat – kaum Skandale, kaum Homestorys, kaum das Bedürfnis, sich über die eigentliche Arbeit hinaus zu inszenieren. Das ist die stille Konsequenz der selbsterhaltenden Neun: Der eigene Komfort und die eigene Ruhe sind ihr wichtiger als zusätzliche Sichtbarkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Elefant, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast drei Jahrzehnte in derselben Rolle, in derselben Stadt, an der Seite desselben Kollegen – das ist im schnelllebigen Fernsehgeschäft eine seltene Konstante, und sie speist sich aus genau der Eigenschaft, die den Elefanten auszeichnet: Beständigkeit ist keine Einschränkung, sondern eine Kraftquelle. Der Achterflügel sorgt dafür, dass diese Beständigkeit nie zur Passivität wird, sondern von einer klaren, direkten Haltung getragen bleibt.</p>
+          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Klaus J. Behrendt</a> (SE6w5), der im Kölner „Tatort" den ruhigeren, vorsichtigeren Kommissar Schenk verkörpert. Beide sind Selbsterhaltungs-Typen, beide meiden auf ihre eigene Art das Rampenlicht – Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr zu dieser Verbindung im <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Porträt zu Klaus J. Behrendt</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5) – sein Tatort-Partner Schenk"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function klausJBehrendtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7016,190 +7150,6 @@ function haraldGloeocklerPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function harnaamKaurPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-harnaam-kaur-portrait.jpg" alt="Harnaam Kaur – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Harnaam Kaur</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Britische Sikh-Aktivistin &amp; Model, geb. 1990 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, dessen Erscheinung von außen sofort auffällt und das dennoch fest in seinem eigenen Körper, seinem eigenen Element ruht. Es verteidigt nicht nur sein Revier, sondern vor allem seine physische Integrität &ndash; mit einer Selbstverständlichkeit, die keine Erklärung braucht.</p>
-          <p class="vb-intro">Die britische Aktivistin und Model Harnaam Kaur, geboren am 29. November 1990 in Slough in einer traditionellen Punjabi-Sikh-Familie, wuchs mit einer sehr konkreten, körperlichen Herausforderung auf: Bereits mit elf Jahren begann bei ihr, ausgelöst durch das polyzystische Ovarialsyndrom (PCOS), verstärkter Bartwuchs im Gesicht, mit zwölf folgte die Diagnose. Als Teenager erlebte sie erbittertes Mobbing und versuchte zunächst alles, um den Bart loszuwerden &ndash; Wachsen, Zupfen, Rasieren, Fäden. Erst mit sechzehn traf sie eine Entscheidung, die ihr ganzes weiteres Leben prägen sollte: Sie hörte auf, die Haare aus ihrem Gesicht zu entfernen, und ließ den Bart einfach wachsen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Der eigene Körper als erste Fürsorge</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen, sehr konkreten körperlichen und existenziellen Sicherheit &ndash; nicht bei der abstrakten Botschaft nach außen. Bei Harnaam Kaur zeigt sich dieses Prinzip in seiner reinsten Form: Ihre Entscheidung, den Bart zu behalten, war zunächst keine öffentliche Geste, sondern eine sehr persönliche, körperliche Selbstannahme, verknüpft mit ihrer Taufe als Sikh mit sechzehn Jahren &ndash; einem Glauben, in dem das Abschneiden von Körperhaar (Kesh) verboten ist.</p>
-          <p class="vb-intro">Bezeichnend ist, dass sogar ihre eigene Familie sie zunächst von diesem Schritt abbringen wollte, aus Sorge, sie könne mit Bart keine „normale" Ehe oder Arbeit finden. Mit siebzehn gab sie einmal dem Druck der erweiterten Familie nach und rasierte sich &ndash; und beschrieb danach, sie habe sich „nicht wie sie selbst" gefühlt. Diese eine Erfahrung markiert den Wendepunkt: Von da an entschied sie sich endgültig, für sich selbst zu leben statt für die Erwartungen anderer &ndash; die SE2-Fürsorge richtete sich zuerst auf die eigene körperliche und spirituelle Integrität, bevor daraus später eine öffentliche Botschaft wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Von der persönlichen Entscheidung zur öffentlichen Ikone</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer persönlichen Wahrheit ein sichtbares, wirksames Bild zu machen. 2014 begann Harnaam Kaur, öffentlich über ihre Geschichte zu sprechen &ndash; ein Schritt, der binnen weniger Jahre zu einer der sichtbarsten Body-Positivity-Ikonen ihrer Generation führte.</p>
-          <p class="vb-intro">2016 lief sie als erste Frau mit Bart über den Laufsteg der London Fashion Week und wurde im selben Jahr mit einem Guinness-Weltrekord als jüngste Frau mit Vollbart geehrt. Sie erschien auf den Titelseiten von Vogue Japan, Teen Vogue und Cosmopolitan India, hielt einen viel beachteten TEDx-Vortrag mit dem Titel „Empowerment Through Confidence" und wurde zur gefragten Rednerin zu PCOS, mentaler Gesundheit und Körperbild. Der Dreierflügel übersetzt die zutiefst persönliche Entscheidung, den eigenen Körper anzunehmen, in ein Bild, das Millionen Menschen erreicht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus der radikalen Annahme der eigenen körperlichen Realität eine Kraft zu machen, die anderen Mut gibt &ndash; ohne die eigene, sehr persönliche Grundlage dabei zu verlieren. Harnaam Kaurs Botschaft wirkt gerade deshalb glaubwürdig, weil sie zuerst für sich selbst galt, lange bevor sie zur öffentlichen Kampagne wurde.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und das eigene Stehen zur eigenen Wahrheit unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur Last werden, wenn die einmal öffentlich gewordene Identität keinen Rückzugsraum mehr lässt: Wer zum Symbol wird, trägt fortan die Erwartungen aller, die sich in diesem Symbol wiedererkennen wollen &ndash; ein Gewicht, das Kaur in Interviews über ihre eigenen Kämpfe mit mentaler Gesundheit selbst offen angesprochen hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Sichtbarkeit als Heilung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Harnaam Kaurs Wirkung reicht weit über Modewelt und Schlagzeilen hinaus: Ihre Geschichte spricht besonders südasiatische Communities an, in denen Körperbehaarung bei Frauen traditionell streng kontrolliert und stigmatisiert wird. Indem sie ihre Geschichte offen erzählt, ermutigt sie andere Betroffene von PCOS, Unterstützung zu suchen, die eigene mentale Gesundheit ernst zu nehmen und die eigene Identität ohne Scham anzunehmen.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein Revier nicht, um zu gefallen &ndash; es bleibt dort, wo es hingehört, mit einer Präsenz, die niemand übersehen kann. Harnaam Kaurs Weg vom gemobbten Teenager zur international sichtbaren Aktivistin zeigt, wie aus der Weigerung, sich selbst zu verstecken, eine Kraft wird, die weit über die eigene Geschichte hinausträgt.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-        </blockquote>
-
-      </div>
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function cheyenneOchsenknechtPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-cheyenne-ochsenknecht-portrait.jpg" alt="Cheyenne Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Cheyenne Ochsenknecht</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Deutsches Model &amp; Landwirtin, geb. 2000 &ndash; Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das lieber ein funktionierendes System baut als ein Schaufenster. Es zeigt nicht, was es kann, sondern lässt das Ergebnis für sich sprechen, während im Verborgenen längst die eigentliche Arbeit läuft. Kaum jemand aus der eigenen, medial äußerst sichtbaren Familie verkörpert diese Wende so konsequent wie Cheyenne Ochsenknecht.</p>
-          <p class="vb-intro">Die deutsche Model und Landwirtin Cheyenne Savannah Ochsenknecht wurde am 13. Januar 2000 in München geboren, als Tochter von Uwe und Natascha Ochsenknecht und jüngere Schwester von Wilson Gonzalez und Jimi Blue Ochsenknecht (beide SE2w3). Bereits mit fünf Jahren stand sie für <em>Die Wilden Kerle 2</em> vor der Kamera, mit sechzehn debütierte sie als Model bei der Berlin Fashion Week für das Label Riani, 2016 zierte sie das Cover der <em>Grazia</em>.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Inszenierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em> Mit fünfzehn stand Cheyenne erstmals auf einem Magazincover, ein halbes Jahr später zog sie allein nach Paris &ndash; ein früher, unabhängiger Aufbruch, der zunächst ganz auf Sichtbarkeit ausgerichtet war.</p>
-          <p class="vb-intro">Der Bruch kam mit dem Umzug in die Steiermark: 2019 lernte sie den Landwirt und gelernten Fleischsommelier Nino Sifkovits bei einem Double-Date in Berlin kennen, zog ein Jahr später zu ihm nach Dobl und heiratete 2022. Seither führen beide gemeinsam den Chianinahof mit über sechzig Chianina-Rindern, sechzig Mastschweinen und rund siebzig Schafen &ndash; Direktvermarktung von Fleisch statt medialer Selbstdarstellung. „Wir sind echte Bauern", stellte sie in einem Interview klar &ndash; eine explizite Abgrenzung vom früheren It-Girl-Image, die genau das SE3-Prinzip auf den Punkt bringt: Wert wird nicht mehr behauptet, sondern durch konkrete Arbeit bewiesen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die eigene, unverwechselbare Note im Pragmatischen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Auffällig ist bereits die Wahl der Rinderrasse: Chianina-Rinder sind keine austauschbare Massenware, sondern eine seltene, sehr spezifische italienische Rasse &ndash; eine ästhetische, individuelle Entscheidung selbst innerhalb eines betont pragmatischen Feldes.</p>
-          <p class="vb-intro">Auch der bewusste Rückzug aus dem grellen Modelbusiness in ein sehr zurückgezogenes, ländliches Familienleben mit inzwischen zwei Kindern trägt diese Handschrift: nicht Rückzug aus Erschöpfung, sondern die aktive Suche nach einem Leben, das sich innerlich wahr und einzigartig anfühlt, statt nur nach außen zu funktionieren. Parallel absolviert sie eine Ausbildung zur Landwirtschaftstechnikerin &ndash; formalisierte, nachweisbare Kompetenz statt bloßem Landleben-Image.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Eine Parallele im eigenen Kompass: Substanz, die der Sichtbarkeit vorausgeht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Cheyennes Weg reiht sich auffällig in ein Muster ein, das sich bei anderen SE3w4-Porträts dieses Kompasses bereits zeigt. Dr. Annika von Mutius, Gründerin des HR-Tech-Start-ups Empion, setzte über Jahre bewusst „auf die technische Substanz … statt auf lautes Marketing" &ndash; mit dem Ergebnis, dass die Aufmerksamkeit am Ende der Substanz folgte, nicht umgekehrt. Auch Kathrin Bauerfeind wird in diesem Kompass so beschrieben: „Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium."</p>
-          <p class="vb-intro">Cheyenne Ochsenknecht zeigt exakt diese Bewegung, nur unter umgekehrten Vorzeichen: Sie kam nicht aus der Unauffälligkeit und blieb dort, sondern verließ eine bereits erreichte, mediale Sichtbarkeit bewusst, um sich stattdessen ein eigenes, konkretes Territorium aufzubauen &ndash; den eigenen Hof, das eigene Handwerk, die eigene Rinderrasse. Wo von Mutius und Bauerfeind nie in die Inszenierung eintraten, ist Cheyennes Fingerabdruck der einer bewussten Umkehr: erst Sichtbarkeit, dann der aktive Wechsel zu Substanz &ndash; ein weiterer, eigenständiger Weg, auf dem dieselbe Waschbär-Energie zum selben Ziel führt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, ein bereits erreichtes, öffentlich sichtbares Leben ohne Bitterkeit hinter sich zu lassen und stattdessen etwas völlig eigenes, handfestes aufzubauen &ndash; mit zweiundzwanzig verheiratet, mit vierundzwanzig bereits zweifache Mutter und Mitbetreiberin eines eigenen landwirtschaftlichen Betriebs. Das ist kein Ausweichen, sondern eine sehr konkrete, sehr junge Form von Eigenständigkeit.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> &ndash; die Überzeugung, dass das eigene Image mit dem eigenen Wert identisch ist. Bei der SE3w4 zeigt sich das eher umgekehrt als bei der SO3 oder SX3: die Gefahr liegt darin, das neue, „echte" Landleben-Bild ebenso zur Fassade werden zu lassen wie zuvor das Model-Image &ndash; eine neue Form der Selbstinszenierung unter dem Deckmantel der Bodenständigkeit. Die anhaltende, öffentlich bekannte Entfremdung zwischen Vater Uwe Ochsenknecht und Cheyenne zeigt zudem, dass auch dieser bewusst gewählte, ruhigere Weg die familiären Brüche der Ochsenknechts nicht automatisch heilt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – Vater"},
-        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
-        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
-        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
-      ])}
-    </div>
-  `);
-}
-
-function leonardCohenPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Leonard Cohen</p>
-        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Kanadischer Musiker, Dichter &amp; Schriftsteller, 1934&ndash;2016 &ndash; Tierentsprechung: Gürteltier</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Gürteltier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Kaum ein Künstler verkörpert diese Doppelnatur so präzise wie Leonard Cohen: eine tiefe, rauchige Stimme, ein makelloser Anzug, eine fast mönchische Contenance &ndash; und darunter, über Jahrzehnte hinweg in Liedern offengelegt, eine Verletzlichkeit, die selten so offen ausgestellt wurde.</p>
-          <p class="vb-intro">Der kanadische Musiker Leonard Cohen wurde am 21. September 1934 in Montreal geboren, im wohlhabenden Stadtteil Westmount, in eine angesehene jüdische Familie mit tiefen Wurzeln in der örtlichen Gemeinde. Als er neun Jahre alt war, starb sein Vater, ein Textilhändler &ndash; ein früher Verlust, der Cohen zeitlebens begleitete. Seine Mutter Masha, eine aus Russland geflohene Immigrantin, trug selbst eine tiefe, fast literarische Melancholie in sich, die den jungen Leonard prägte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Vier: Scham und die Suche nach Bedeutung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt den Schmerz der Vier in die soziale Dimension. Naranjo nannte diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht gut genug zu sein für die Welt, in der man lebt &ndash; verbunden mit dem brennenden Wunsch, dazuzugehören, bedeutsam zu sein, etwas zu hinterlassen, das bleibt. Cohen war schon als Kind schüchtern und neigte zu Depressionen; sein erstes Gedichtband, <em>Let Us Compare Mythologies</em>, veröffentlichte er bereits 1956 &ndash; die Umwandlung des eigenen inneren Schmerzes in öffentlich geteilte Sprache begann früh und blieb sein Lebensthema.</p>
-          <p class="vb-intro">Themen wie Glaube und Sterblichkeit, Isolation, Verrat und Erlösung, Sehnsucht und Verlust ziehen sich durch sein gesamtes Werk. Die SO4 vergleicht sich unablässig mit anderen und sucht in der Resonanz der Gemeinschaft eine Bestätigung, die eigentlich nur von innen kommen kann &ndash; Cohens Lieder wurden für Millionen zu einer Sprache für genau dieses Gefühl von Bruchstückhaftigkeit und Sehnsucht, obwohl sie aus einer sehr persönlichen, oft schambesetzten Quelle stammten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Rückzug, Wissen und sechs Jahre im Zen-Kloster</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der sozialen Vier eine zusätzliche Distanz zur eigenen Emotionalität &ndash; ein Bedürfnis nach Rückzug, Reflexion und intellektueller Durchdringung des eigenen Schmerzes, statt sich ihm ungefiltert auszusetzen. Mitte der 1990er-Jahre, überwältigt von einem tiefen Gefühl der Hoffnungslosigkeit nach der Tour zu seinem Album <em>The Future</em>, zog sich Cohen fast vollständig aus der Öffentlichkeit zurück und lebte sechs Jahre lang als Zen-Mönch im Kloster auf dem Mount Baldy bei Los Angeles, unter dem Namen Jikan &ndash; von seinem Lehrer Roshi selbst übersetzt als „gewöhnliche Stille" oder „die Stille zwischen zwei Gedanken".</p>
-          <p class="vb-intro">1999 verließ er das Kloster wieder, mit der ernüchternden Erkenntnis, wie er später sagte: „Ich hatte das Gefühl, es half nichts. Es ging eigentlich nicht auf das Problem ein &ndash; die Bedrängnis, die den Hintergrund all meiner Aktivitäten, Gefühle und Gedanken bildet." Der Fünferflügel sucht Antworten im Rückzug und im Studium &ndash; doch bei der SO4w5 bleibt am Ende die Erkenntnis, dass reines Wissen die soziale Wunde allein nicht heilt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sozialen Vier</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, das Persönlichste in etwas zu verwandeln, das Millionen als ihr eigenes empfinden. 2005 wurde bekannt, dass Cohens langjährige Managerin Kelley Lynch über Jahre mehr als fünf Millionen Dollar von seinen Konten veruntreut hatte, darunter seine gesamte Altersvorsorge. Statt daran zu zerbrechen, kehrte der damals 73-Jährige noch einmal auf die Bühne zurück &ndash; eine Welttournee, die ihn über 387 Konzerte vor mehr als zwei Millionen Menschen führte und zum kommerziell erfolgreichsten Abschnitt seiner gesamten Karriere wurde.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SO4w5 kann sich dieser Neid in eine dauerhafte innere Distanz zur eigenen Öffentlichkeit verwandeln &ndash; das Gefühl, nie ganz dazuzugehören, selbst auf dem Höhepunkt des Ruhms. Cohens jahrelanger Rückzug ins Kloster und seine notorische Selbstironie über die eigene Melancholie zeigen, wie eng bei der SO4w5 Anerkennung und innere Unruhe nebeneinander bestehen können.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Eine Stimme für die Bruchstellen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kein Song zeigt Cohens Werk klarer als <em>Hallelujah</em>: Er brauchte nach eigener Aussage sechs bis sieben Jahre, um den Text fertigzustellen &ndash; aus Verlegenheit gab er Bob Dylan gegenüber später an, es seien nur zwei gewesen. Ein Lied über Glaube, Zweifel, Begehren und Scheitern, das erst Jahrzehnte nach der Veröffentlichung zu einem der meistgecoverten Songs der Musikgeschichte wurde &ndash; genau jenes verzögerte, aber universelle Erkennen, das die SO4 sich insgeheim ihr ganzes Leben lang wünscht.</p>
-          <p class="vb-intro">Das Gürteltier zieht sich in seinen Panzer zurück, wenn es verletzlich ist, und tritt hervor, wenn es gebraucht wird. Leonard Cohens Weg vom schüchternen, depressiven Jungen aus Montreal über sechs Jahre klösterlicher Stille bis zur triumphalen Welttournee im hohen Alter zeigt genau dieses Muster: ein Leben, das zwischen Rückzug und Bühne pendelte, und aus genau diesem Pendeln eine der eindringlichsten Stimmen des 20. Jahrhunderts machte.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
-        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
-        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
-        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
       ])}
     </div>
   `);
