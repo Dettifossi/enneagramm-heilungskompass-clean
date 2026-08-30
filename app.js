@@ -45448,32 +45448,35 @@ function lebensmusterkompassDetailPage(codeRaw) {
 }
 
 function musterradarPage() {
+  const MUSTERRADAR_INSTINCT_COLORS = { SE: "#2f8a4e", SO: "#1f6fd4", SX: "#c21a4d" };
   const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
     const count = musterradarMatches("wing", parseInt(w, 10)).length;
+    const col = typeColor(w);
     return `
       <button
         data-route="musterradar/w${w}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
+        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:linear-gradient(160deg, ${col}22, ${col}0d);border:2px solid ${col};border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
         title="${MUSTERRADAR_WING_THEMES[w].name}"
       >
-        <span style="font-size:1.3rem;font-weight:700;color:var(--copper);">w${w}</span>
+        <span style="font-size:1.3rem;font-weight:700;color:${col};">w${w}</span>
         <span style="font-size:.72rem;color:var(--muted);text-align:center;line-height:1.2;">${MUSTERRADAR_WING_THEMES[w].name}</span>
-        <span style="font-size:.68rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+        <span style="font-size:.68rem;color:${col};font-weight:600;">${count} Porträts</span>
       </button>
     `;
   }).join("");
 
   const instinctTiles = Object.keys(MUSTERRADAR_INSTINCT_THEMES).map(inst => {
     const count = musterradarMatches("instinct", inst).length;
+    const col = MUSTERRADAR_INSTINCT_COLORS[inst];
     return `
       <button
         data-route="musterradar/${inst.toLowerCase()}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:linear-gradient(160deg, ${col}22, ${col}0d);border:2px solid ${col};border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
         title="${MUSTERRADAR_INSTINCT_THEMES[inst].name}"
       >
-        <span style="font-size:1.5rem;font-weight:700;color:var(--copper);">${inst}</span>
+        <span style="font-size:1.5rem;font-weight:700;color:${col};">${inst}</span>
         <span style="font-size:.78rem;color:var(--muted);text-align:center;line-height:1.25;">${MUSTERRADAR_INSTINCT_THEMES[inst].name}</span>
-        <span style="font-size:.7rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+        <span style="font-size:.7rem;color:${col};font-weight:600;">${count} Porträts</span>
       </button>
     `;
   }).join("");
@@ -45484,6 +45487,7 @@ function musterradarPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Musterradar</p>
         <h1 class="section-title">Musterradar</h1>
+        <img src="assets/musterradar-hero.jpg?v=1" alt="Musterradar – Fl\xfcgel und Instinktvarianten im Querschnitt" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Der <a href="javascript:void(0)" data-route="lebensmusterkompass">Lebensmusterkompass</a> filtert innerhalb eines einzelnen Subtyps über alle Porträt-Rubriken hinweg. Das Musterradar dreht die Perspektive um: Es filtert <strong>quer über alle 27 Subtypen hinweg</strong> – nach Flügel oder nach Instinktvariante – und zeigt, wie sich derselbe Flügel oder derselbe Instinkt bei ganz unterschiedlichen Grundtypen wiederholt zeigt.</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
