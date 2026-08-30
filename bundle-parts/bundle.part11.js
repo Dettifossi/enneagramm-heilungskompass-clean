@@ -1,3 +1,193 @@
+function juliusCaesarKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-julius-caesar-portrait.jpg" alt="Julius Caesar" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julius Caesar</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 100–44 v. Chr.</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Julius Caesar</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-julius-caesar">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Diese Seite beleuchtet ein Kapitel, das dort nicht zur Sprache kommt: eine
+        wiederkehrende, von antiken Quellen mehrfach bezeugte Krankheit – vermutlich Epilepsie –,
+        die Caesar zeitlebens verbarg und die möglicherweise sogar seine Ermordung mit
+        begünstigte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Caesar</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SO2 investiert, wie Naranjo beschreibt, nicht in Rücklagen, sondern in
+        Beziehung, Bewunderung und Unentbehrlichkeit im großen Maßstab. Der Dreierflügel bringt
+        die Weigerung hinzu, sich von Schwäche – auch der eigenen körperlichen – aufhalten zu
+        lassen, und die Fähigkeit, jedes Bild von sich selbst aktiv zu gestalten. Genau dieses
+        Muster lässt sich bis in Caesars Umgang mit der eigenen, verborgenen Krankheit
+        nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Antike Quellen, die übereinstimmend berichten:</strong>
+        Sowohl Plutarch als auch Sueton berichten unabhängig voneinander, Caesar habe an der
+        „Fallsucht" (morbus comitialis) gelitten – dem antiken Begriff für das, was heute als
+        Epilepsie gedeutet wird.</p>
+        <p class="vb-intro"><strong>b) Ein Anfall mitten im Feldzug:</strong>
+        Plutarch beschreibt einen Anfall während der Schlacht von Thapsus 46 v. Chr., bei dem
+        Caesar von seinen Männern vom Schlachtfeld getragen werden musste, während die
+        Auseinandersetzung weiterging.</p>
+        <p class="vb-intro"><strong>c) Ein zweiter belegter Vorfall in Corduba:</strong>
+        Ein weiterer Anfall soll sich 45 v. Chr. in Corduba (heute Córdoba, Spanien) während
+        einer öffentlichen Ansprache ereignet haben – ein Zeitpunkt, an dem Zurückhaltung für
+        einen Feldherrn vor seinen eigenen Truppen kaum denkbar erschien.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unklarer Beginn der Erkrankung:</strong>
+        Ob die Anfälle Caesar bereits in jungen Jahren begleiteten oder sich erst in seinen
+        letzten Lebensjahren entwickelten, lässt sich aus den erhaltenen Quellen nicht sicher
+        rekonstruieren – die moderne Forschung diskutiert beide Möglichkeiten.</p>
+        <p class="vb-intro"><strong>b) Eine bis heute offene medizinhistorische Debatte:</strong>
+        Moderne Mediziner und Historiker diskutieren neben Epilepsie auch alternative
+        Erklärungen, darunter wiederholte kleine Schlaganfälle (transitorische ischämische
+        Attacken) infolge jahrzehntelanger Feldzugsstrapazen. Eine eindeutige retrospektive
+        Diagnose ist über zweitausend Jahre später nicht mehr möglich.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Bestätigung durch Caesar selbst:</strong>
+        In keiner erhaltenen eigenen Schrift, auch nicht in den ausführlichen
+        <em>Commentarii</em>, erwähnt Caesar die eigene Krankheit auch nur andeutungsweise –
+        ein auffälliges Schweigen bei einem Mann, der sonst jedes Detail seines Wirkens
+        sorgfältig dokumentieren ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzte Feldzüge trotz der Anfälle:</strong>
+        Weder der Vorfall bei Thapsus noch jener in Corduba hielten Caesar davon ab, seine
+        Feldzüge unmittelbar fortzusetzen – beide Male kehrte er binnen kurzer Zeit ins
+        Kommando zurück, als sei nichts geschehen.</p>
+        <p class="vb-intro"><strong>b) Reduzierte Leibwache in den letzten Monaten:</strong>
+        Zeitgenössische Überlieferungen berichten, Caesar habe seine persönliche Wachmannschaft
+        in den Wochen vor seiner Ermordung bewusst verringert – ein Verhalten, das manche
+        Historiker mit einem abnehmenden Vertrauen in die eigene körperliche Unverwundbarkeit
+        in Verbindung bringen, andere schlicht mit politischem Kalkül.</p>
+        <p class="vb-intro"><strong>c) Die Ermordung am 15. März 44 v. Chr.:</strong>
+        Caesar wurde im Senat von einer Gruppe von Verschwörern mit 23 Dolchstichen getötet –
+        ein gewaltsames Ende, das mit der Krankheit selbst nicht direkt in Verbindung steht,
+        dessen Vorgeschichte aber von den Fragen nach Caesars Verwundbarkeit und
+        Unverwundbarkeit durchzogen ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die zur literarischen Ikone wurde:</strong>
+        Shakespeares Drama <em>Julius Caesar</em> (um 1599) dramatisiert einen öffentlichen
+        Anfall auf dem Forum – eine Szene, die Caesars „Fallsucht" bis heute im kollektiven
+        Bewusstsein verankert, unabhängig von der genauen historischen Faktenlage.</p>
+        <p class="vb-intro"><strong>b) Eine mögliche Rolle im Kalkül der Verschwörer:</strong>
+        Manche Historiker spekulieren, dass wahrgenommene Anzeichen körperlicher Schwäche –
+        neben Caesars zunehmender Machtfülle – das Zeitfenster für das Attentat mit
+        beeinflusst haben könnten. Belastbar beweisen lässt sich das nicht.</p>
+        <p class="vb-intro"><strong>c) Der Kontrast zwischen öffentlichem Bild und privater Realität:</strong>
+        Kaum ein anderer antiker Herrscher hat sein öffentliches Bild so bewusst gestaltet wie
+        Caesar – und kaum einer hat eine eigene körperliche Schwäche so konsequent aus diesem
+        Bild herausgehalten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Golden Retriever, der keine Schwäche zeigen durfte:</strong>
+        Für einen Mann, dessen gesamte Wirkung auf Unentbehrlichkeit und Bewunderung beruhte,
+        wäre ein öffentlich anerkanntes Krankheitsbild eine Bedrohung des eigenen Kerns gewesen
+        – nicht nur der körperlichen, sondern der emotionalen Sicherheit.</p>
+        <p class="vb-intro"><strong>b) Rückkehr ins Kommando als Selbstbeweis:</strong>
+        Die beiden belegten Vorfälle bei Thapsus und Corduba folgten demselben Muster: Anfall,
+        kurze Unterbrechung, sofortige Rückkehr zur vollen Handlungsfähigkeit – eine
+        demonstrative Bestätigung der eigenen Unverwundbarkeit, gerade weil das Gegenteil
+        gezeigt worden war.</p>
+        <p class="vb-intro"><strong>c) Vertrauen in die eigene Unentbehrlichkeit bis zuletzt:</strong>
+        Dieselbe Haltung, die Caesar dazu brachte, seine Leibwache zu reduzieren, weil „man ihm
+        doch nichts tun werde, er habe doch für alle gesorgt", zeigt sich bereits im Umgang mit
+        der eigenen Krankheit: Verwundbarkeit wurde nicht zugelassen, sondern überspielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Schweigen, das über zweitausend Jahre trägt:</strong>
+        Dass ausgerechnet ein Mann, der seine eigene Geschichte in der dritten Person
+        niederschrieb, um jedes Detail seines Wirkens zu kontrollieren, seine eigene Krankheit
+        nie erwähnte, zeigt, wie tief die Verbergung reichte.</p>
+        <p class="vb-intro"><strong>b) Zwei belegte Vorfälle, ein wiederkehrendes Verhalten:</strong>
+        Sowohl bei Thapsus als auch in Corduba reagierte Caesar auf denselben Weise: keine
+        Unterbrechung der Mission, keine öffentliche Anerkennung der eigenen Grenzen, sofortige
+        Rückkehr zur vollen Kontrolle.</p>
+        <p class="vb-intro"><strong>c) Konfrontation durch Verbergung statt durch Rückzug:</strong>
+        Anders als Ludwig van Beethoven (SX6w5), der seine Krankheit offen bekämpfte, oder
+        Franz Schubert (SE6w5), der sich zurückzog, wählte Caesar – ganz wie später sein
+        SO2w3-Pendant Napoleon Bonaparte – den dritten Weg: die eigene Krankheit so vollständig
+        zu verbergen, dass sie im öffentlichen Bild schlicht nicht existierte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Zusammenbruch der Kontrolle?</strong>
+        Für eine soziale Zwei mit Dreierflügel, deren gesamte Identität an der bewussten
+        Gestaltung des eigenen Bildes hing, liegt eine Deutung nahe: Ausgerechnet eine
+        Krankheit, die den Körper für Momente der eigenen Kontrolle entzieht und ihn
+        öffentlich verwundbar macht, wurde zur größten denkbaren Bedrohung – und musste deshalb
+        um jeden Preis aus dem eigenen Narrativ herausgehalten werden. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Epilepsie oder
+        ähnlichen Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Caesars Fall zeigen lässt, ist ein Muster
+        im Umgang mit der eigenen Krankheit, das bei einer ausgeprägten sozialen Zwei mit
+        Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Caesar kannte sein eigenes Muster nicht – die soziale Zwei mit Dreierflügel kann keine
+        Schwäche zulassen, die das selbst geschaffene Bild der Unentbehrlichkeit gefährdet, und
+        genau das ließ ihn eine wiederkehrende Krankheit über Jahre verschweigen, statt sie
+        auch nur einmal öffentlich einzuräumen. Wer das eigene Bedürfnis nach einem
+        makellosen, unverwundbaren Bild nicht als Muster erkennt, verbirgt am Ende genau die
+        Verwundbarkeit, die die eigene Sicherheit am nötigsten gebraucht hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Dreierflügel bestätigt sich bei <strong>Caesar</strong> noch
+        einmal im Umgang mit der eigenen Krankheit: eine wiederkehrende, von mehreren antiken
+        Quellen bezeugte Erkrankung, die er nie öffentlich anerkannte, zwei belegte Anfälle
+        mitten im Kommando, aus dem er sich jeweils sofort zurückmeldete, und eine reduzierte
+        Leibwache in den letzten Wochen, die zeigt, wie sehr das Vertrauen in die eigene
+        Unverwundbarkeit bis zuletzt trug. Der Golden Retriever, der lieber schutzlos blieb,
+        als auch nur einen Moment lang verwundbar zu wirken.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali – Parkinson"},
+        {route:"krankheitsportraets-napoleon-bonaparte", label:"Krankheitsporträt: Napoleon Bonaparte (SO2w3) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-alexander-der-grosse", label:"Krankheitsporträt: Alexander der Große (SO2w3) – derselbe Dreierflügel-Reflex"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
 function claudeDebussyKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12993,184 +13183,6 @@ function ashtonKutcherKrankheitsportraetPage() {
         {route:"beruehmte-ashton-kutcher", label:"Porträt: Ashton Kutcher (SO2w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
-      ])}
-    </div>
-  `);
-}
-
-function robertDeNiroKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Robert De Niro" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Robert De Niro</p>
-        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · geb. 1943</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Adler</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Robert De Niro</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-robert-de-niro">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: eine 2003 diagnostizierte Prostatakrebs-
-        Erkrankung, die er weitgehend privat behandeln ließ und nur knapp öffentlich
-        kommentierte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>De Niro</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
-        zugeordnet. Die SE1 richtet ihren Anspruch an Genauigkeit nach innen, auf die eigene
-        Vorbereitung und Integrität; der Neunerflügel bringt eine Zurückhaltung hinzu, die
-        sich nicht öffentlich zeigen muss, um zu wirken. Genau diese Kombination – präzise,
-        entschlossene medizinische Behandlung bei gleichzeitiger, fast vollständiger
-        öffentlicher Zurückhaltung – bestimmte den Umgang mit der eigenen Krebsdiagnose.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Diagnose im Jahr 2003:</strong>
-        Bei De Niro wurde 2003 im Rahmen einer Routineuntersuchung Prostatakrebs
-        diagnostiziert – ein früher Diagnosezeitpunkt, der eine erfolgreiche Behandlung
-        deutlich begünstigte.</p>
-        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Ankündigung:</strong>
-        Anders als viele andere Prominente mit vergleichbaren Diagnosen gab De Niro keine
-        ausführliche öffentliche Erklärung ab, sondern ließ die Nachricht knapp über
-        Medienberichte bekannt werden.</p>
-        <p class="vb-intro"><strong>c) Zügige Einleitung der Behandlung:</strong>
-        Nach der Diagnose begann De Niro nach übereinstimmenden Berichten zügig mit der
-        Behandlung, ohne den Prozess öffentlich zu begleiten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Erfolgreiche Behandlung ohne dauerhafte öffentliche Sichtbarkeit:</strong>
-        Die Behandlung verlief nach allen vorliegenden Berichten erfolgreich, ohne dass De
-        Niro den Krankheitsverlauf zu einem fortlaufenden öffentlichen Thema machte.</p>
-        <p class="vb-intro"><strong>b) Wenige, sehr knappe spätere Erwähnungen:</strong>
-        In seltenen späteren Interviews erwähnte De Niro die Erkrankung nur knapp, meist im
-        Zusammenhang mit Appellen an andere Männer, sich regelmäßig untersuchen zu lassen.</p>
-        <p class="vb-intro"><strong>c) Kein Rückzug aus der Schauspielarbeit:</strong>
-        Anders als bei manchen Kollegen führte die Diagnose zu keiner erkennbaren Unterbrechung
-        seiner Filmarbeit – De Niro blieb während und nach der Behandlung kontinuierlich
-        aktiv.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Gelegentliche öffentliche Nutzung zur Sensibilisierung:</strong>
-        In den Jahren nach seiner Genesung nutzte De Niro vereinzelte öffentliche Anlässe, um
-        auf die Bedeutung früher Prostatakrebs-Vorsorgeuntersuchungen hinzuweisen.</p>
-        <p class="vb-intro"><strong>b) Keine Krankheitsgeschichte als Teil seines öffentlichen Bildes:</strong>
-        Im Unterschied zu Schauspielern, die ihre Krankengeschichte zu einem wiederkehrenden
-        Thema in Interviews machten, blieb De Niros Erkrankung ein Randaspekt seiner
-        öffentlichen Biografie.</p>
-        <p class="vb-intro"><strong>c) Fortgesetzte hohe berufliche Produktivität:</strong>
-        In den zwei Jahrzehnten nach der Diagnose drehte De Niro Dutzende weiterer Filme,
-        darunter mehrere mit Martin Scorsese, ohne dass die frühere Erkrankung öffentlich
-        thematisiert wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Diskrete Aufmerksamkeit statt öffentlicher Kampagne:</strong>
-        De Niros knappe, seltene Erwähnungen der eigenen Erkrankung erzeugten dennoch
-        punktuelle mediale Aufmerksamkeit für das Thema Prostatakrebs-Vorsorge, ohne dass er
-        selbst zur zentralen öffentlichen Stimme des Themas wurde.</p>
-        <p class="vb-intro"><strong>b) Keine dramatisierte Genesungserzählung:</strong>
-        Anders als bei manch anderer Krebserkrankung Prominenter existiert keine ausführliche,
-        emotional aufgeladene öffentliche Erzählung von De Niros Genesungsprozess.</p>
-        <p class="vb-intro"><strong>c) Ein öffentliches Bild, das von der Erkrankung unberührt blieb:</strong>
-        De Niros öffentliches Image blieb von der Krebserkrankung praktisch unberührt – es
-        dominierten weiterhin seine Filmrollen und sein handwerklicher Ruf.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Präzise Behandlung ohne öffentliche Inszenierung:</strong>
-        Die SE1-typische Genauigkeit im Umgang mit der eigenen Sache zeigte sich auch bei der
-        Krebsbehandlung: konsequent, zügig eingeleitet, ohne dass der Prozess selbst zum
-        Gegenstand öffentlicher Aufmerksamkeit wurde.</p>
-        <p class="vb-intro"><strong>b) Der Neunerflügel und der Rückzug, sobald die Aufgabe erledigt ist:</strong>
-        Dieselbe Zurückhaltung, die De Niro nach jedem Filmdreh in die Stille zurückkehren
-        lässt, zeigte sich im Umgang mit der eigenen Krankheit: Sobald die Behandlung
-        abgeschlossen war, verschwand das Thema fast vollständig aus seiner öffentlichen
-        Präsenz.</p>
-        <p class="vb-intro"><strong>c) Vorsorge als sachliche Botschaft, nicht als persönliches Bekenntnis:</strong>
-        Wenn De Niro die Erkrankung überhaupt erwähnte, geschah dies in Form einer sachlichen
-        Empfehlung an andere Männer, nicht als ausführliche persönliche Erzählung – Wahrhaftigkeit
-        im Handwerk der Botschaft, ohne unnötige Selbstdarstellung.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Meister der Vorbereitung, der die eigene Krankheit ebenso methodisch behandelte:</strong>
-        De Niros gesamtes Werk beruht auf akribischer, nahezu wissenschaftlicher Vorbereitung
-        – dieselbe Methodik übertrug sich auf den Umgang mit der eigenen Krebsdiagnose: zügig
-        erkannt, konsequent behandelt, ohne unnötige öffentliche Dramatisierung.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Parallelen zeigen sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
-        Adenauer</a> und
-        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
-        Lindgren</a> (beide ebenfalls SE1w9): Alle drei begegneten gesundheitlichen
-        Einschränkungen mit diszipliniertem, praktischem Handeln statt öffentlicher
-        Aufmerksamkeit. Bei allen SE1w9ern zeigt sich dasselbe Muster: Die Krankheit wird
-        gelöst wie eine Aufgabe – gründlich, aber ohne Bühne.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet die Prostata, ein stilles, selten thematisiertes Organ?</strong>
-        Für einen selbsterhaltenden Typ 1 mit Neunerflügel, dessen gesamtes Werk auf
-        methodischer Vorbereitung und zugleich auf öffentlicher Zurückhaltung beruht, liegt
-        eine Deutung nahe: Ausgerechnet ein Organ, über das gesellschaftlich selten offen
-        gesprochen wird, wurde zum Ort seiner eigenen, ebenso zurückhaltend behandelten
-        Erkrankung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
-        Prostatakrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an De Niros Fall zeigen lässt, ist ein
-        Muster im Umgang mit einer erfolgreich behandelten Erkrankung, das bei einem
-        ausgeprägten selbsterhaltenden Typ 1 mit Neunerflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        De Niro kennt sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
-        Typ 1 mit Neunerflügel hält reflexhaft an der eigenen, stillen Selbstständigkeit fest,
-        statt gesundheitliche Themen offen zu teilen, und lebt genau dieses Muster bis heute
-        weitgehend unverändert aus. Wer die eigene Neigung, auch ernste Angelegenheiten
-        methodisch und ohne öffentliche Aussprache zu erledigen, nicht als Muster erkennt,
-        riskiert, dass wichtige gesundheitliche Botschaften an andere unausgesprochen
-        bleiben.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Robert De
-        Niro</strong> vieles am Umgang mit der eigenen Prostatakrebs-Erkrankung: ein Mann,
-        dessen gesamtes Handwerk auf präziser, stiller Vorbereitung beruht, behandelte auch
-        die eigene Krankheit als eine Aufgabe, die gelöst und dann verlassen werden musste –
-        der Adler, der über seinem Revier kreiste, zuschlug, wenn es nötig war, und danach
-        wieder in die Stille zurückkehrte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
-        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
-        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
-        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);

@@ -1,3 +1,134 @@
+function cristianoRonaldoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cristiano-ronaldo-portrait.jpg" alt="Cristiano Ronaldo – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cristiano Ronaldo</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Fu\u00dfballspieler, geb. 1985 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und es ist das schnellste Tier der Erde. Nicht das st\u00e4rkste, nicht das gr\u00f6\u00dfte. Das schnellste. Was den Gepard auszeichnet, ist nicht rohe Kraft, sondern Pr\u00e4zision: jede Bewegung optimiert, jede Energie auf das Ziel gerichtet, keine Verschwendung, keine Ablenkung. Der Gepard jagt nicht mit Geduld wie der L\u00f6we &ndash; er jagt mit Tempo, mit Technik, mit dem absoluten Willen, der Erste zu sein.</p>
+          <p class="vb-intro">Cristiano Ronaldo ist der Gepard unverfälscht. F\u00fcnf Weltfu\u00dfballer-Titel, f\u00fcnf Champions-League-Siege, \u00fcber 900 Karrieretore &ndash; Zahlen, die nicht aus Talent allein entstehen, sondern aus einem Antrieb, der sich jedem bekannt ist, der ihn je beobachtet hat: Er will der Beste sein. Nicht einer der Besten. Der Beste. Der Gepard schl\u00e4ft nicht auf seinen Lorbeeren. Er trainiert, w\u00e4hrend andere feiern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg als Botschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verst\u00e4rkungstyp der Drei &ndash; derjenige Subtyp, bei dem Eitelkeit und Leistungsdrang am sichtbarsten werden. W\u00e4hrend die selbsterhaltende Drei Leistung nach innen richtet und lieber im Hintergrund arbeitet, braucht die soziale Drei die B\u00fchne. Nicht aus Selbstgef\u00e4lligkeit, sondern weil Anerkennung &ndash; \u00f6ffentliche, kollektive, messbare Anerkennung &ndash; der tiefste Treibstoff ist. Die SO3 fragt: <em>Sehen mich alle? Wei\u00df die Welt, was ich geleistet habe?</em></p>
+          <p class="vb-intro">Bei Cristiano Ronaldo ist diese Energie in jedem Jubel sichtbar. Das ber\u00fchmte &bdquo;Siuuu&ldquo;, der gereckte Arm, der Blick ins Stadion &ndash; das hat einen klaren Grund. Das ist die SO3, die den Moment der Anerkennung vollst\u00e4ndig auskosten will. Kein Tor ohne Feier. Keine Leistung ohne Best\u00e4tigung. Nicht weil er eitel w\u00e4re im leeren Sinn &ndash; sondern weil die \u00f6ffentliche Anerkennung f\u00fcr die soziale Drei so wesentlich ist wie Wasser f\u00fcr das Pflanzenwachstum.</p>
+          <p class="vb-intro">Die SO3 misst sich an anderen &ndash; und braucht Ma\u00dfst\u00e4be, um sich zu orientieren. Ronaldos jahrzehntelanger Wettbewerb mit Lionel Messi ist das vielleicht reinste Beispiel daf\u00fcr in der Sportgeschichte: Zwei M\u00e4nner, die sich gegenseitig zu H\u00f6chstleistungen antreiben, weil keiner der Zweite sein will. F\u00fcr die SO3 ist Konkurrenz kein Stress &ndash; sie ist Treibstoff.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Der Star, der auch Bruder ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> bringt der sozialen Drei eine entscheidende menschliche Dimension: den echten Impuls zur Verbindung, zur F\u00fcrsorge, zur Loyalit\u00e4t. Eine SO3 mit schwach ausgeprägtem Zweierflügel könnte kalt wirken – ein Erfolgsautomat, der alles dem Ergebnis unterordnet. Ein stark ausgeprägter Zweierflügel wärmt dieses Bild von innen: Hier ist jemand, dem andere wirklich wichtig sind.</p>
+          <p class="vb-intro">Ronaldos Beziehung zu seiner Familie ist daf\u00fcr das deutlichste Zeichen. Er hat seine Mutter aus der Armut geholt, seinen Sohn Cristiano Jr. offen in sein Leben integriert, spricht in Interviews regelm\u00e4\u00dfig \u00fcber seine Herkunft aus Madeira, \u00fcber die schwierigen Jahre der Kindheit, \u00fcber den fr\u00fch verstorbenen Vater. Die SO3 allein w\u00fcrde diese Geschichten vielleicht strategisch einsetzen. Der Zweierfl\u00fcgel macht sie echt: Das sind keine PR-Momente &ndash; das ist ein Mensch, der wei\u00df, wo er herkommt, und der diejenigen, die ihn geliebt haben, nicht vergisst.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel erkl\u00e4rt auch Ronaldos Verh\u00e4ltnis zu seinen Mannschaften. Er ist kein einsamer Wolf &ndash; er will, dass alle mitgewinnen. Er jubelt mit seinen Mitspielern, tr\u00e4gt Trikots mit ihren Namen, lobt \u00f6ffentlich. Das Gepard-Tempo bleibt &ndash; aber der Zweierfl\u00fcgel sorgt daf\u00fcr, dass der Zieleinlauf gemeinsam gefeiert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihr Antrieb zur Exzellenz. Cristiano Ronaldo hat den Fu\u00dfball mitdefiniert, was es bedeutet, sich professionell auf Sport einzulassen: sein Ern\u00e4hrungsregime, sein Schlafrhythmus, sein Training nach dem Training. Er hat eine Generation von Spielern inspiriert, die verstanden haben: Talent reicht nicht. Wille entscheidet. Das ist die SO3 in ihrer heilsamsten Form &ndash; als Vorbild f\u00fcr das, was m\u00f6glich ist, wenn man sich vollst\u00e4ndig einem Ziel widmet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; das tiefe Bed\u00fcrfnis, als erfolgreich wahrgenommen zu werden, auch wenn die innere Realit\u00e4t anders aussieht. Bei der SO3 \u00e4u\u00dfert sich das als Schwierigkeit, Niederlagen wirklich anzunehmen. Ronaldo hat in Momenten der Kritik oder des sportlichen Misserfolgs gelegentlich Reaktionen gezeigt, die mehr \u00fcber das Innenleben der Drei verraten als \u00fcber die Situation selbst: Wut, R\u00fcckzug, das Bed\u00fcrfnis nach Rechtfertigung. Der Gepard, der verliert, leidet.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel bringt die Gefahr, die eigene Gro\u00dfz\u00fcgigkeit als Teil des eigenen Bildes zu nutzen &ndash; unbewusst, aber wirksam. Die Grenze zwischen echtem Geben und dem Bed\u00fcrfnis, als gebend gesehen zu werden, ist f\u00fcr die SO3w2 eine lebenslange Frage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Siegen zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Siege.</em> F\u00fcr die SO3 bedeutet das einen besonders schweren Schritt: loszulassen, dass die Anzahl der Troph\u00e4en etwas \u00fcber den eigenen Wert aussagt. Der Gepard, der aufgeh\u00f6rt hat zu rennen, muss lernen: Ich bin auch dann, wenn kein Stadion jubelt.</p>
+          <p class="vb-intro">Cristiano Ronaldo n\u00e4hert sich dem Ende einer beispiellosen Karriere &ndash; und die Frage, wer er ist, wenn der Fu\u00dfball endet, ist vielleicht die tiefste, die er je beantworten muss. Der Zweierfl\u00fcgel gibt ihm dabei einen Vorsprung: Die Liebe zu seiner Familie, zu seinen Kindern, zu den Menschen, die ihn nicht wegen seiner Tore lieben, ist ein Fundament, das bleibt. Darauf kann eine Identit\u00e4t gebaut werden, die gr\u00f6\u00dfer ist als jede Bestenliste.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function pharrellWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-pharrell-williams-portrait.jpg" alt="Pharrell Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pharrell Williams</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Musikproduzent, Musiker &amp; Modedesigner, geb. 1973 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut nicht f\u00fcr Kraft, sondern f\u00fcr Tempo und Pr\u00e4zision. Der Gepard jagt nicht in einem einzigen Revier: Er passt sich an, wechselt die Richtung mit atemberaubender Wendigkeit, sobald sich das Ziel bewegt. Genau diese Anpassungsgeschwindigkeit macht ihn zum schnellsten, nicht zum st\u00e4rksten J\u00e4ger der Savanne.</p>
+          <p class="vb-intro">Pharrell Williams verk\u00f6rpert dieses Tempo \u00fcber Jahrzehnte und \u00fcber Genregrenzen hinweg: Als eine H\u00e4lfte der Neptunes pr\u00e4gte er mit Chad Hugo den Sound der 2000er-Jahre &ndash; von Jay-Z \u00fcber Britney Spears bis Nelly &ndash;, gr\u00fcndete mit N.E.R.D. eine eigene Band, produzierte, schrieb, sang, rappte, und wechselte parallel ins Modegesch\u00e4ft, wo er heute Kreativdirektor f\u00fcr Herrenmode bei Louis Vuitton ist. Kein anderer K\u00fcnstler seiner Generation ist so vielen Spuren gleichzeitig nachgejagt &ndash; und auf fast jeder gewonnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg \u00fcber mehrere B\u00fchnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verst\u00e4rkungstyp der Drei: Anerkennung ist f\u00fcr sie kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Sieht die Welt, was ich erreicht habe?</em> &ndash; und sucht dabei bevorzugt mehrere B\u00fchnen zugleich, um sicherzustellen, dass diese Sichtbarkeit nicht von einem einzigen Feld abh\u00e4ngt.</p>
+          <p class="vb-intro">Bei Pharrell zeigt sich das in einer geradezu systematischen Diversifikation der eigenen Reichweite. \u00dcber 400 Nummer-eins- und Top-Ten-Produktionen, ein Oscar-nominierter Welthit mit \u201eHappy", zwei Solo-Alben, Mode-Labels wie Billionaire Boys Club und ICECREAM, schlie\u00dflich die Kreativleitung bei einem der prestigetr\u00e4chtigsten Modeh\u00e4user der Welt. Jede neue B\u00fchne best\u00e4tigt aufs Neue: Dieser Mann ist relevant &ndash; nicht nur in der Musik, sondern \u00fcberall, wo Kultur entsteht.</p>
+          <p class="vb-intro">Charakteristisch f\u00fcr die SO3 ist auch das Gesp\u00fcr daf\u00fcr, was gerade kollektiv gebraucht wird. \u201eHappy" (2013) wurde nicht zuf\u00e4llig zur meistverkauften Single des Jahres &ndash; Pharrell traf einen Nerv seiner Zeit, ein universelles Bed\u00fcrfnis nach Leichtigkeit, und positionierte sich als dessen Stimme. Die soziale Drei liest die B\u00fchne, bevor sie sie betritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Erfolg als Teamsport</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gibt der sozialen Drei eine kollaborative W\u00e4rme, die reine Selbstinszenierung \u00fcbersteigt. Wo eine SO3 mit schwächerem Zweierflügel den eigenen Namen ins Zentrum stellen könnte, sucht die SO3w2 den Erfolg gemeinsam mit anderen &ndash; und f\u00fchlt sich durch das F\u00f6rdern fremder Karrieren selbst best\u00e4tigt.</p>
+          <p class="vb-intro">Pharrells gesamte Karriere ist ohne diesen Zweierfl\u00fcgel kaum denkbar: Die Neptunes waren nie ein Soloprojekt, sondern eine \u00fcber zwanzig Jahre gewachsene Partnerschaft mit Chad Hugo. Als Produzent hat er unz\u00e4hlige Karrieren mitgepr\u00e4gt oder \u00fcberhaupt erst erm\u00f6glicht &ndash; von fr\u00fchen Beats f\u00fcr Kelis und Snoop Dogg bis zur Wiederentdeckung von Daft Punk mit \u201eGet Lucky". Er tritt selten als alleiniger Star auf, sondern immer als jemand, der andere ins Rampenlicht mitnimmt.</p>
+          <p class="vb-intro">Auch sein soziales Engagement tr\u00e4gt diese Handschrift: Mit der Stiftung \u201eFrom One Hand to AnOTHER" und der Yellow-Schule in seiner Heimatstadt Virginia Beach investiert er gezielt in benachteiligte Kinder &ndash; Bildung, Kunst, Selbstwert. Die SO3w2 will nicht nur bewundert werden. Sie will, dass andere durch die eigene Plattform tats\u00e4chlich wachsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Beat zum Laufsteg: Neuerfindung als Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gepard wechselt die Richtung, sobald sich das Ziel bewegt &ndash; und Pharrells Karriere liest sich wie eine Kette solcher Richtungswechsel. Vom Hip-Hop-Produzenten der fr\u00fchen 2000er \u00fcber den Rockstar mit N.E.R.D., den Popkomponisten hinter \u201eBlurred Lines" und \u201eHappy", bis zum Streetwear-Pionier mit Billionaire Boys Club und schlie\u00dflich zum Kreativdirektor bei Louis Vuitton, ernannt 2023 &ndash; eine Position, die traditionell f\u00fcr Modeinsider reserviert schien.</p>
+          <p class="vb-intro">Diese Neuerfindungen sind keine Zuf\u00e4lle, sondern die SO3-Logik in Reinform: Sichtbarkeit \u00fcber mehrere Felder hinweg sichert Relevanz gegen den Verfall einer einzelnen Trendwelle ab. Wo ein Musikproduzent altmodisch werden kann, bleibt ein kultureller Tastemaker unangreifbar. Pharrell hat fr\u00fch verstanden, dass sein eigentliches Produkt nicht der einzelne Song oder die einzelne Kollektion ist &ndash; sondern ein Geschmacksurteil, das \u00fcber L\u00e4ndergrenzen hinweg tr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre F\u00e4higkeit, Trends nicht nur zu erkennen, sondern zu setzen &ndash; und dabei ganze Branchen mitzupr\u00e4gen. Pharrells Einfluss auf Pop, Hip-Hop und Streetwear-Mode ist so umfassend, dass er kaum noch auf eine einzelne Rolle zu reduzieren ist: Produzent, S\u00e4nger, Designer, Philanthrop &ndash; jede Facette verst\u00e4rkt die anderen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SO3 sichtbar als die permanente Notwendigkeit, relevant zu bleiben, aktuell zu wirken, niemals aus der Zeit zu fallen. Pharrells vielbesprochenes, jahrzehntelang kaum gealtertes Erscheinungsbild wurde von der \u00d6ffentlichkeit fast schon als Running Gag behandelt &ndash; und trifft doch einen wunden Punkt der SO3: die Angst, mit dem \u00c4lterwerden an kultureller Sichtbarkeit zu verlieren.</p>
+          <p class="vb-intro">Der Zweierfl\u00fcgel bringt sein eigenes Schattenmuster: Das Bed\u00fcrfnis, gebraucht und gesch\u00e4tzt zu werden, kann sich mit dem SO3-Drang nach Anerkennung zu einer Dynamik verbinden, in der Gro\u00dfz\u00fcgigkeit auch strategisch lesbar wird &ndash; als Investition in das eigene Netzwerk, nicht nur als reine F\u00fcrsorge. Wo genau Geben endet und Imagepflege beginnt, bleibt f\u00fcr die SO3w2 eine offene Frage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Relevanz zur Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Bin ich noch relevant?</em> zur Erkenntnis <em>Ich bin &ndash; unabh\u00e4ngig von der n\u00e4chsten Trendwelle.</em> F\u00fcr die SO3 bedeutet das, den eigenen Wert nicht mehr an die Frage zu kn\u00fcpfen, ob die Welt gerade hinschaut.</p>
+          <p class="vb-intro">Pharrells zunehmender Fokus auf Bildung und F\u00f6rderung junger Talente &ndash; die Yellow-Schule, sein Engagement f\u00fcr unterversorgte Communities in Virginia Beach &ndash; deutet einen Weg an, der \u00fcber die eigene Sichtbarkeit hinausweist: Erfolg nicht mehr als Beweis der eigenen Bedeutung, sondern als etwas, das man weitergibt, damit es gr\u00f6\u00dfer wird als man selbst. Der Gepard, der irgendwann nicht mehr rennen muss, um zu beweisen, dass er der Schnellste ist &ndash; sondern anderen beibringt, wie man l\u00e4uft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function ludwigXIVPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10122,196 +10253,6 @@ function napoleonBonaparteKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
-      ])}
-    </div>
-  `);
-}
-
-function juliusCaesarKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-julius-caesar-portrait.jpg" alt="Julius Caesar" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Julius Caesar</p>
-        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 100–44 v. Chr.</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Golden Retriever</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Julius Caesar</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-julius-caesar">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Diese Seite beleuchtet ein Kapitel, das dort nicht zur Sprache kommt: eine
-        wiederkehrende, von antiken Quellen mehrfach bezeugte Krankheit – vermutlich Epilepsie –,
-        die Caesar zeitlebens verbarg und die möglicherweise sogar seine Ermordung mit
-        begünstigte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Caesar</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Die SO2 investiert, wie Naranjo beschreibt, nicht in Rücklagen, sondern in
-        Beziehung, Bewunderung und Unentbehrlichkeit im großen Maßstab. Der Dreierflügel bringt
-        die Weigerung hinzu, sich von Schwäche – auch der eigenen körperlichen – aufhalten zu
-        lassen, und die Fähigkeit, jedes Bild von sich selbst aktiv zu gestalten. Genau dieses
-        Muster lässt sich bis in Caesars Umgang mit der eigenen, verborgenen Krankheit
-        nachverfolgen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Antike Quellen, die übereinstimmend berichten:</strong>
-        Sowohl Plutarch als auch Sueton berichten unabhängig voneinander, Caesar habe an der
-        „Fallsucht" (morbus comitialis) gelitten – dem antiken Begriff für das, was heute als
-        Epilepsie gedeutet wird.</p>
-        <p class="vb-intro"><strong>b) Ein Anfall mitten im Feldzug:</strong>
-        Plutarch beschreibt einen Anfall während der Schlacht von Thapsus 46 v. Chr., bei dem
-        Caesar von seinen Männern vom Schlachtfeld getragen werden musste, während die
-        Auseinandersetzung weiterging.</p>
-        <p class="vb-intro"><strong>c) Ein zweiter belegter Vorfall in Corduba:</strong>
-        Ein weiterer Anfall soll sich 45 v. Chr. in Corduba (heute Córdoba, Spanien) während
-        einer öffentlichen Ansprache ereignet haben – ein Zeitpunkt, an dem Zurückhaltung für
-        einen Feldherrn vor seinen eigenen Truppen kaum denkbar erschien.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unklarer Beginn der Erkrankung:</strong>
-        Ob die Anfälle Caesar bereits in jungen Jahren begleiteten oder sich erst in seinen
-        letzten Lebensjahren entwickelten, lässt sich aus den erhaltenen Quellen nicht sicher
-        rekonstruieren – die moderne Forschung diskutiert beide Möglichkeiten.</p>
-        <p class="vb-intro"><strong>b) Eine bis heute offene medizinhistorische Debatte:</strong>
-        Moderne Mediziner und Historiker diskutieren neben Epilepsie auch alternative
-        Erklärungen, darunter wiederholte kleine Schlaganfälle (transitorische ischämische
-        Attacken) infolge jahrzehntelanger Feldzugsstrapazen. Eine eindeutige retrospektive
-        Diagnose ist über zweitausend Jahre später nicht mehr möglich.</p>
-        <p class="vb-intro"><strong>c) Keine öffentliche Bestätigung durch Caesar selbst:</strong>
-        In keiner erhaltenen eigenen Schrift, auch nicht in den ausführlichen
-        <em>Commentarii</em>, erwähnt Caesar die eigene Krankheit auch nur andeutungsweise –
-        ein auffälliges Schweigen bei einem Mann, der sonst jedes Detail seines Wirkens
-        sorgfältig dokumentieren ließ.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fortgesetzte Feldzüge trotz der Anfälle:</strong>
-        Weder der Vorfall bei Thapsus noch jener in Corduba hielten Caesar davon ab, seine
-        Feldzüge unmittelbar fortzusetzen – beide Male kehrte er binnen kurzer Zeit ins
-        Kommando zurück, als sei nichts geschehen.</p>
-        <p class="vb-intro"><strong>b) Reduzierte Leibwache in den letzten Monaten:</strong>
-        Zeitgenössische Überlieferungen berichten, Caesar habe seine persönliche Wachmannschaft
-        in den Wochen vor seiner Ermordung bewusst verringert – ein Verhalten, das manche
-        Historiker mit einem abnehmenden Vertrauen in die eigene körperliche Unverwundbarkeit
-        in Verbindung bringen, andere schlicht mit politischem Kalkül.</p>
-        <p class="vb-intro"><strong>c) Die Ermordung am 15. März 44 v. Chr.:</strong>
-        Caesar wurde im Senat von einer Gruppe von Verschwörern mit 23 Dolchstichen getötet –
-        ein gewaltsames Ende, das mit der Krankheit selbst nicht direkt in Verbindung steht,
-        dessen Vorgeschichte aber von den Fragen nach Caesars Verwundbarkeit und
-        Unverwundbarkeit durchzogen ist.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit, die zur literarischen Ikone wurde:</strong>
-        Shakespeares Drama <em>Julius Caesar</em> (um 1599) dramatisiert einen öffentlichen
-        Anfall auf dem Forum – eine Szene, die Caesars „Fallsucht" bis heute im kollektiven
-        Bewusstsein verankert, unabhängig von der genauen historischen Faktenlage.</p>
-        <p class="vb-intro"><strong>b) Eine mögliche Rolle im Kalkül der Verschwörer:</strong>
-        Manche Historiker spekulieren, dass wahrgenommene Anzeichen körperlicher Schwäche –
-        neben Caesars zunehmender Machtfülle – das Zeitfenster für das Attentat mit
-        beeinflusst haben könnten. Belastbar beweisen lässt sich das nicht.</p>
-        <p class="vb-intro"><strong>c) Der Kontrast zwischen öffentlichem Bild und privater Realität:</strong>
-        Kaum ein anderer antiker Herrscher hat sein öffentliches Bild so bewusst gestaltet wie
-        Caesar – und kaum einer hat eine eigene körperliche Schwäche so konsequent aus diesem
-        Bild herausgehalten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Golden Retriever, der keine Schwäche zeigen durfte:</strong>
-        Für einen Mann, dessen gesamte Wirkung auf Unentbehrlichkeit und Bewunderung beruhte,
-        wäre ein öffentlich anerkanntes Krankheitsbild eine Bedrohung des eigenen Kerns gewesen
-        – nicht nur der körperlichen, sondern der emotionalen Sicherheit.</p>
-        <p class="vb-intro"><strong>b) Rückkehr ins Kommando als Selbstbeweis:</strong>
-        Die beiden belegten Vorfälle bei Thapsus und Corduba folgten demselben Muster: Anfall,
-        kurze Unterbrechung, sofortige Rückkehr zur vollen Handlungsfähigkeit – eine
-        demonstrative Bestätigung der eigenen Unverwundbarkeit, gerade weil das Gegenteil
-        gezeigt worden war.</p>
-        <p class="vb-intro"><strong>c) Vertrauen in die eigene Unentbehrlichkeit bis zuletzt:</strong>
-        Dieselbe Haltung, die Caesar dazu brachte, seine Leibwache zu reduzieren, weil „man ihm
-        doch nichts tun werde, er habe doch für alle gesorgt", zeigt sich bereits im Umgang mit
-        der eigenen Krankheit: Verwundbarkeit wurde nicht zugelassen, sondern überspielt.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Schweigen, das über zweitausend Jahre trägt:</strong>
-        Dass ausgerechnet ein Mann, der seine eigene Geschichte in der dritten Person
-        niederschrieb, um jedes Detail seines Wirkens zu kontrollieren, seine eigene Krankheit
-        nie erwähnte, zeigt, wie tief die Verbergung reichte.</p>
-        <p class="vb-intro"><strong>b) Zwei belegte Vorfälle, ein wiederkehrendes Verhalten:</strong>
-        Sowohl bei Thapsus als auch in Corduba reagierte Caesar auf denselben Weise: keine
-        Unterbrechung der Mission, keine öffentliche Anerkennung der eigenen Grenzen, sofortige
-        Rückkehr zur vollen Kontrolle.</p>
-        <p class="vb-intro"><strong>c) Konfrontation durch Verbergung statt durch Rückzug:</strong>
-        Anders als Ludwig van Beethoven (SX6w5), der seine Krankheit offen bekämpfte, oder
-        Franz Schubert (SE6w5), der sich zurückzog, wählte Caesar – ganz wie später sein
-        SO2w3-Pendant Napoleon Bonaparte – den dritten Weg: die eigene Krankheit so vollständig
-        zu verbergen, dass sie im öffentlichen Bild schlicht nicht existierte.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Zusammenbruch der Kontrolle?</strong>
-        Für eine soziale Zwei mit Dreierflügel, deren gesamte Identität an der bewussten
-        Gestaltung des eigenen Bildes hing, liegt eine Deutung nahe: Ausgerechnet eine
-        Krankheit, die den Körper für Momente der eigenen Kontrolle entzieht und ihn
-        öffentlich verwundbar macht, wurde zur größten denkbaren Bedrohung – und musste deshalb
-        um jeden Preis aus dem eigenen Narrativ herausgehalten werden. Diese Deutung ist eine
-        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Epilepsie oder
-        ähnlichen Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Caesars Fall zeigen lässt, ist ein Muster
-        im Umgang mit der eigenen Krankheit, das bei einer ausgeprägten sozialen Zwei mit
-        Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Caesar kannte sein eigenes Muster nicht – die soziale Zwei mit Dreierflügel kann keine
-        Schwäche zulassen, die das selbst geschaffene Bild der Unentbehrlichkeit gefährdet, und
-        genau das ließ ihn eine wiederkehrende Krankheit über Jahre verschweigen, statt sie
-        auch nur einmal öffentlich einzuräumen. Wer das eigene Bedürfnis nach einem
-        makellosen, unverwundbaren Bild nicht als Muster erkennt, verbirgt am Ende genau die
-        Verwundbarkeit, die die eigene Sicherheit am nötigsten gebraucht hätte.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 2 mit Dreierflügel bestätigt sich bei <strong>Caesar</strong> noch
-        einmal im Umgang mit der eigenen Krankheit: eine wiederkehrende, von mehreren antiken
-        Quellen bezeugte Erkrankung, die er nie öffentlich anerkannte, zwei belegte Anfälle
-        mitten im Kommando, aus dem er sich jeweils sofort zurückmeldete, und eine reduzierte
-        Leibwache in den letzten Wochen, die zeigt, wie sehr das Vertrauen in die eigene
-        Unverwundbarkeit bis zuletzt trug. Der Golden Retriever, der lieber schutzlos blieb,
-        als auch nur einen Moment lang verwundbar zu wirken.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3) – Lebenswerk"},
-        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali – Parkinson"},
-        {route:"krankheitsportraets-napoleon-bonaparte", label:"Krankheitsporträt: Napoleon Bonaparte (SO2w3) – dieselbe Verbergungsstrategie"},
-        {route:"krankheitsportraets-alexander-der-grosse", label:"Krankheitsporträt: Alexander der Große (SO2w3) – derselbe Dreierflügel-Reflex"},
-        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}

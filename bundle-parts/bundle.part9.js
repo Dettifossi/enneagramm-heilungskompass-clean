@@ -1,3 +1,130 @@
+function mariacarlaBosconoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mariacarla-boscono-portrait.jpg" alt="Mariacarla Boscono – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mariacarla Boscono</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Italienisches Model, geb. 1980 in Rom &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen wahre Kraft sich erst zeigt, wenn eine enge, verlässliche Verbindung entstanden ist. Mariacarla Boscono, 1980 in Rom geboren, wurde bereits mit 15 Jahren beim Festivalbar 1995 entdeckt und unterschrieb bei Piero Piazzi von Ricardo Gay in Mailand – ein früher Start, der jedoch erst durch eine einzige, jahrzehntelange Verbindung zu ihrer eigentlichen Bedeutung fand.</p>
+          <p class="vb-intro">2005 setzte sie einen Weltrekord: Innerhalb von zwei Wochen lief sie auf mehr als 70 Laufstegen in Mailand, New York und Paris – eine enorme körperliche und terminliche Leistung, die zeigt, wie sehr Boscono bereit war, sich in ihrem gewählten Metier vollständig zu verausgaben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch eine einzige, tiefe kreative Bindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Nähe entsteht zuerst in einer einzigen, sehr engen Verbindung, bevor sie sich nach außen ausweitet. Ab 2005 begann Boscono eine Zusammenarbeit mit Designer und bestem Freund Riccardo Tisci, die dabei half, die ästhetische Identität von Givenchy mitzuprägen, bis Tisci das Haus 2017 verließ.</p>
+          <p class="vb-intro">Diese Partnerschaft ging weit über eine gewöhnliche Muse-Designer-Beziehung hinaus – Boscono wurde über mehr als ein Jahrzehnt zur festen, verlässlichen kreativen Bezugsperson für Tisci, sowohl bei Givenchy als auch später bei Burberry. Fürsorge, ausgedrückt durch jahrelange, treue kreative Präsenz an der Seite eines einzigen engen Vertrauten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die sichtbarste Muse der internationalen Modewelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer engen, verlässlichen Basis heraus doch größtmögliche öffentliche Sichtbarkeit zu suchen. Boscono erschien in Kampagnen für Chanel, La Perla, Dior, Saint Laurent und Prada und zierte Cover von Vogue Italia, LOVE Magazine, Vogue China, Glamour Italy und Harper's Bazaar Spain.</p>
+          <p class="vb-intro">Ihr Weltrekord von über 70 Laufstegauftritten in zwei Wochen ist die konkreteste Verkörperung dieses Antriebs: maximale, öffentlich messbare Präsenz, erreicht durch dieselbe Frau, die zugleich ihre engste kreative Bindung über mehr als ein Jahrzehnt hinweg unverändert pflegte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, eine einzige, tiefe kreative Partnerschaft – mit Riccardo Tisci – über mehr als ein Jahrzehnt zu tragen und gleichzeitig zu einer der international sichtbarsten Musen der Modewelt zu werden, ohne diese enge Bindung dafür aufzugeben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den kreativen Erfolg eines anderen unentbehrlich zu sein. Bei der SE2w3 kann sich das mit einer Identität verbinden, die eng an eine einzige zentrale Beziehung gebunden bleibt – eine Stärke, solange diese Beziehung Bestand hat, aber auch eine Verwundbarkeit, sollte sie einmal enden, wie sich 2017 mit Tiscis Weggang von Givenchy zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Von Festivalbar 1995 zur Muse zweier Modehäuser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von der Entdeckung mit 15 Jahren über den Weltrekord von 2005 bis zur mehr als zehnjährigen Zusammenarbeit mit Riccardo Tisci bei Givenchy und Burberry zieht sich ein roter Faden durch Bosconos Werk: außergewöhnliche öffentliche Sichtbarkeit, getragen von einer einzigen, tiefen und dauerhaften kreativen Bindung.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es verteidigt seine engste Verbindung, während es sein Revier nach außen erweitert. Mariacarla Bosconos Weg von Rom zur internationalen Muse zweier großer Modehäuser ist dieser Antrieb in Reinform: Weltruhm, der aus der Treue zu einer einzigen, engen kreativen Partnerschaft erwuchs.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function jackBlackPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jack-black-portrait.jpg" alt="Jack Black" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jack Black</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Musiker, geb. 1969 &ndash; School of Rock, Tenacious D &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das man untersch\u00e4tzt, bis man seine wahre Kraft zu sp\u00fcren bekommt. Es wirkt plump, laut, tollpatschig &ndash; und ist zugleich eines der gef\u00e4hrlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint. Genau diese Doppelnatur, Clownerie an der Oberfl\u00e4che, unb\u00e4ndige Energie darunter, ist Jack Blacks Markenzeichen.</p>
+          <p class="vb-intro">Kaum ein US-amerikanischer Schauspieler wirft sich mit solcher k\u00f6rperlichen R\u00fcckhaltlosigkeit in eine Rolle wie Jack Black. Die ausladende Mimik, die theatralischen Gesten, die Lautst\u00e4rke, mit der er einen Raum f\u00fcllt &ndash; das trägt eine klare Handschrift – die Energie des Flusspferds unverfälscht: erst scheinbar harmlos komisch, dann pl\u00f6tzlich mit einer Wucht da, der sich niemand entziehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: F\u00fcrsorge mit vollem K\u00f6rpereinsatz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei am unmittelbarsten auf das eigene \u00dcberleben und das ihres engsten Umfelds. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; keine Egozentrik, sondern die \u00dcberzeugung, dass man selbst zuerst stabil, versorgt und lebendig sein muss, um f\u00fcr andere da sein zu k\u00f6nnen. Die SE2 ist die konkreteste, k\u00f6rperlichste der drei Zweier-Varianten &ndash; sie gibt nicht abstrakt, sie gibt mit vollem Einsatz.</p>
+          <p class="vb-intro">Bei Jack Black zeigt sich das in seiner Art, F\u00fcrsorge und Unterhaltung untrennbar zu verschmelzen. In <em>School of Rock</em> spielt er einen gescheiterten Musiker, der eine Klasse verklemmter Kinder durch Rockmusik zum Leben erweckt &ndash; nicht durch Belehrung, sondern durch reine, ansteckende Energie. Die Figur Dewey Finn ist im Kern eine SE2: Er gibt alles, was er hat, damit andere aufbl\u00fchen, und tut das nicht leise, sondern mit gr\u00f6\u00dftm\u00f6glicher Lautst\u00e4rke.</p>
+          <p class="vb-intro">Auch privat tr\u00e4gt Jack Black diese Qualit\u00e4t: Er gilt als einer der zug\u00e4nglichsten, f\u00fcrsorglichsten Stars Hollywoods im Umgang mit jungen Fans, mit seinem Bandkollegen Kyle Gass, mit seiner Familie. Die SE2 sorgt nicht aus der Distanz &ndash; sie sorgt, indem sie sich mitten hineinwirft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Handwerk und Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der selbsterhaltenden Zwei etwas, das ihrem Feuer eine Richtung gibt: einen inneren Ma\u00dfstab f\u00fcr Qualit\u00e4t und Ernsthaftigkeit. Wo eine Zwei mit schw\u00e4cherem Einserfl\u00fcgel sich in reiner Zuneigung ersch\u00f6pfen k\u00f6nnte, verlangt die Eins Handwerk, Disziplin, einen Standard, an dem gemessen wird.</p>
+          <p class="vb-intro">Bei Jack Black zeigt sich das am deutlichsten in seiner Musik. Mit Tenacious D betreibt er nicht blo\u00df eine Comedy-Band &ndash; er nimmt die Musik selbst ernst: technisch anspruchsvolle Gitarrenarbeit, sorgf\u00e4ltig komponierte Songs, eine tiefe, unironische Liebe zum Rock als Kunstform, verpackt in absurden Humor. Der Einserfl\u00fcgel verlangt, dass der Scherz auf echtem K\u00f6nnen ruht &ndash; sonst ist er nur L\u00e4rm.</p>
+          <p class="vb-intro">Auch seine Art, Filmprojekte auszuw\u00e4hlen, tr\u00e4gt diese Handschrift: Jack Black hat immer wieder betont, dass er Rollen ablehnt, die er f\u00fcr unehrlich oder qualitativ schwach h\u00e4lt. Die Eins im Hintergrund sagt: Nicht jede Gelegenheit f\u00fcr Applaus ist es wert, ergriffen zu werden. Es muss stimmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist ihre F\u00e4higkeit, Freude als Geschenk zu geben, ohne sie kleinzureden. Jack Blacks Karriere, von den Anf\u00e4ngen im Independent-Kino \u00fcber <em>School of Rock</em> bis zu Welterfolgen wie den <em>Kung Fu Panda</em>-Filmen und dem <em>Minecraft</em>-Film, folgt einer klaren Linie: Er will, dass Menschen sich lebendig f\u00fchlen, wenn sie ihn sehen. Das ist kein Nebeneffekt seines Talents &ndash; es ist der Kern seines Antriebs.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die \u00dcberzeugung, durch das eigene Geben unentbehrlich zu sein. Bei der SE2w1 zeigt sich das als die stille Gewissheit: <em>Ich wei\u00df, wie man Freude macht, und das kann mir niemand nehmen.</em> Diese Gewissheit tr\u00e4gt, aber sie kann auch ersch\u00f6pfen &ndash; wer sich fortlaufend \u00fcber Energie und Unterhaltung definiert, riskiert, die eigenen ruhigeren, verletzlicheren Anteile zu \u00fcbergehen.</p>
+          <p class="vb-intro">Jack Black hat in Interviews offen \u00fcber Selbstzweifel, \u00c4ngste und die Herausforderungen des \u00c4lterwerdens in einer auf Jugend fixierten Branche gesprochen &ndash; ein Flusspferd, das auch einmal zugibt, dass das Wasser nicht immer tr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Musik als zweites Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Jack Black neben der Schauspielerei eine ernsthafte Musikkarriere mit Tenacious D verfolgt, ist typisch f\u00fcr die SE2: Sie braucht mehrere Territorien, in denen sie ihre Kraft investieren kann. Die B\u00fchne mit der Gitarre ist ein Ort, an dem er nicht spielt, dass er lebendig ist &ndash; er ist es. Grammy-Nominierungen, ausverkaufte Tourneen, ein eigener Film (<em>Tenacious D in The Pick of Destiny</em>) &ndash; das Flusspferd verteidigt dieses zweite Revier mit derselben Hingabe wie das erste.</p>
+          <p class="vb-intro">Diese Doppelrolle, Filmstar und Rockmusiker, ist kein Widerspruch, sondern zwei Ausdrucksformen derselben Energie: vollst\u00e4ndige, k\u00f6rperliche, laute Hingabe an das, was gerade gebraucht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Freude ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jack Black der Popkultur gegeben hat, ist eine seltene Erlaubnis: sich vollst\u00e4ndig, unironisch und ohne falsche Coolness der Freude hinzugeben. In einer Unterhaltungsindustrie, die oft auf Distanz und Ironie setzt, wirft er sich ungebremst hinein &ndash; und macht damit anderen Mut, es ihm gleichzutun.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE2w1: ein Flusspferd, das sein Territorium nicht mit Aggression verteidigt, sondern mit ansteckender Lebendigkeit f\u00fcllt. Wer Jack Black auf der B\u00fchne oder auf der Leinwand erlebt, sp\u00fcrt: Hier gibt jemand alles, was er hat &ndash; und genau darin liegt seine Kraft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function uliHoenessPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7199,135 +7326,4 @@ function seanConneryPortraitPage() {
     </div>
   `);
 }
-
-function cristianoRonaldoPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-cristiano-ronaldo-portrait.jpg" alt="Cristiano Ronaldo – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Cristiano Ronaldo</p>
-        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Fu\u00dfballspieler, geb. 1985 &ndash; Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und es ist das schnellste Tier der Erde. Nicht das st\u00e4rkste, nicht das gr\u00f6\u00dfte. Das schnellste. Was den Gepard auszeichnet, ist nicht rohe Kraft, sondern Pr\u00e4zision: jede Bewegung optimiert, jede Energie auf das Ziel gerichtet, keine Verschwendung, keine Ablenkung. Der Gepard jagt nicht mit Geduld wie der L\u00f6we &ndash; er jagt mit Tempo, mit Technik, mit dem absoluten Willen, der Erste zu sein.</p>
-          <p class="vb-intro">Cristiano Ronaldo ist der Gepard unverfälscht. F\u00fcnf Weltfu\u00dfballer-Titel, f\u00fcnf Champions-League-Siege, \u00fcber 900 Karrieretore &ndash; Zahlen, die nicht aus Talent allein entstehen, sondern aus einem Antrieb, der sich jedem bekannt ist, der ihn je beobachtet hat: Er will der Beste sein. Nicht einer der Besten. Der Beste. Der Gepard schl\u00e4ft nicht auf seinen Lorbeeren. Er trainiert, w\u00e4hrend andere feiern.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Drei: Erfolg als Botschaft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verst\u00e4rkungstyp der Drei &ndash; derjenige Subtyp, bei dem Eitelkeit und Leistungsdrang am sichtbarsten werden. W\u00e4hrend die selbsterhaltende Drei Leistung nach innen richtet und lieber im Hintergrund arbeitet, braucht die soziale Drei die B\u00fchne. Nicht aus Selbstgef\u00e4lligkeit, sondern weil Anerkennung &ndash; \u00f6ffentliche, kollektive, messbare Anerkennung &ndash; der tiefste Treibstoff ist. Die SO3 fragt: <em>Sehen mich alle? Wei\u00df die Welt, was ich geleistet habe?</em></p>
-          <p class="vb-intro">Bei Cristiano Ronaldo ist diese Energie in jedem Jubel sichtbar. Das ber\u00fchmte &bdquo;Siuuu&ldquo;, der gereckte Arm, der Blick ins Stadion &ndash; das hat einen klaren Grund. Das ist die SO3, die den Moment der Anerkennung vollst\u00e4ndig auskosten will. Kein Tor ohne Feier. Keine Leistung ohne Best\u00e4tigung. Nicht weil er eitel w\u00e4re im leeren Sinn &ndash; sondern weil die \u00f6ffentliche Anerkennung f\u00fcr die soziale Drei so wesentlich ist wie Wasser f\u00fcr das Pflanzenwachstum.</p>
-          <p class="vb-intro">Die SO3 misst sich an anderen &ndash; und braucht Ma\u00dfst\u00e4be, um sich zu orientieren. Ronaldos jahrzehntelanger Wettbewerb mit Lionel Messi ist das vielleicht reinste Beispiel daf\u00fcr in der Sportgeschichte: Zwei M\u00e4nner, die sich gegenseitig zu H\u00f6chstleistungen antreiben, weil keiner der Zweite sein will. F\u00fcr die SO3 ist Konkurrenz kein Stress &ndash; sie ist Treibstoff.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Der Star, der auch Bruder ist</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> bringt der sozialen Drei eine entscheidende menschliche Dimension: den echten Impuls zur Verbindung, zur F\u00fcrsorge, zur Loyalit\u00e4t. Eine SO3 mit schwach ausgeprägtem Zweierflügel könnte kalt wirken – ein Erfolgsautomat, der alles dem Ergebnis unterordnet. Ein stark ausgeprägter Zweierflügel wärmt dieses Bild von innen: Hier ist jemand, dem andere wirklich wichtig sind.</p>
-          <p class="vb-intro">Ronaldos Beziehung zu seiner Familie ist daf\u00fcr das deutlichste Zeichen. Er hat seine Mutter aus der Armut geholt, seinen Sohn Cristiano Jr. offen in sein Leben integriert, spricht in Interviews regelm\u00e4\u00dfig \u00fcber seine Herkunft aus Madeira, \u00fcber die schwierigen Jahre der Kindheit, \u00fcber den fr\u00fch verstorbenen Vater. Die SO3 allein w\u00fcrde diese Geschichten vielleicht strategisch einsetzen. Der Zweierfl\u00fcgel macht sie echt: Das sind keine PR-Momente &ndash; das ist ein Mensch, der wei\u00df, wo er herkommt, und der diejenigen, die ihn geliebt haben, nicht vergisst.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel erkl\u00e4rt auch Ronaldos Verh\u00e4ltnis zu seinen Mannschaften. Er ist kein einsamer Wolf &ndash; er will, dass alle mitgewinnen. Er jubelt mit seinen Mitspielern, tr\u00e4gt Trikots mit ihren Namen, lobt \u00f6ffentlich. Das Gepard-Tempo bleibt &ndash; aber der Zweierfl\u00fcgel sorgt daf\u00fcr, dass der Zieleinlauf gemeinsam gefeiert wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3 ist ihr Antrieb zur Exzellenz. Cristiano Ronaldo hat den Fu\u00dfball mitdefiniert, was es bedeutet, sich professionell auf Sport einzulassen: sein Ern\u00e4hrungsregime, sein Schlafrhythmus, sein Training nach dem Training. Er hat eine Generation von Spielern inspiriert, die verstanden haben: Talent reicht nicht. Wille entscheidet. Das ist die SO3 in ihrer heilsamsten Form &ndash; als Vorbild f\u00fcr das, was m\u00f6glich ist, wenn man sich vollst\u00e4ndig einem Ziel widmet.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; das tiefe Bed\u00fcrfnis, als erfolgreich wahrgenommen zu werden, auch wenn die innere Realit\u00e4t anders aussieht. Bei der SO3 \u00e4u\u00dfert sich das als Schwierigkeit, Niederlagen wirklich anzunehmen. Ronaldo hat in Momenten der Kritik oder des sportlichen Misserfolgs gelegentlich Reaktionen gezeigt, die mehr \u00fcber das Innenleben der Drei verraten als \u00fcber die Situation selbst: Wut, R\u00fcckzug, das Bed\u00fcrfnis nach Rechtfertigung. Der Gepard, der verliert, leidet.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel bringt die Gefahr, die eigene Gro\u00dfz\u00fcgigkeit als Teil des eigenen Bildes zu nutzen &ndash; unbewusst, aber wirksam. Die Grenze zwischen echtem Geben und dem Bed\u00fcrfnis, als gebend gesehen zu werden, ist f\u00fcr die SO3w2 eine lebenslange Frage.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: Vom Siegen zum Sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Siege.</em> F\u00fcr die SO3 bedeutet das einen besonders schweren Schritt: loszulassen, dass die Anzahl der Troph\u00e4en etwas \u00fcber den eigenen Wert aussagt. Der Gepard, der aufgeh\u00f6rt hat zu rennen, muss lernen: Ich bin auch dann, wenn kein Stadion jubelt.</p>
-          <p class="vb-intro">Cristiano Ronaldo n\u00e4hert sich dem Ende einer beispiellosen Karriere &ndash; und die Frage, wer er ist, wenn der Fu\u00dfball endet, ist vielleicht die tiefste, die er je beantworten muss. Der Zweierfl\u00fcgel gibt ihm dabei einen Vorsprung: Die Liebe zu seiner Familie, zu seinen Kindern, zu den Menschen, die ihn nicht wegen seiner Tore lieben, ist ein Fundament, das bleibt. Darauf kann eine Identit\u00e4t gebaut werden, die gr\u00f6\u00dfer ist als jede Bestenliste.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
-      ])}
-    </div>
-  `);
-}
-
-
-function pharrellWilliamsPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-pharrell-williams-portrait.jpg" alt="Pharrell Williams" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Pharrell Williams</p>
-        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Musikproduzent, Musiker &amp; Modedesigner, geb. 1973 &ndash; Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut nicht f\u00fcr Kraft, sondern f\u00fcr Tempo und Pr\u00e4zision. Der Gepard jagt nicht in einem einzigen Revier: Er passt sich an, wechselt die Richtung mit atemberaubender Wendigkeit, sobald sich das Ziel bewegt. Genau diese Anpassungsgeschwindigkeit macht ihn zum schnellsten, nicht zum st\u00e4rksten J\u00e4ger der Savanne.</p>
-          <p class="vb-intro">Pharrell Williams verk\u00f6rpert dieses Tempo \u00fcber Jahrzehnte und \u00fcber Genregrenzen hinweg: Als eine H\u00e4lfte der Neptunes pr\u00e4gte er mit Chad Hugo den Sound der 2000er-Jahre &ndash; von Jay-Z \u00fcber Britney Spears bis Nelly &ndash;, gr\u00fcndete mit N.E.R.D. eine eigene Band, produzierte, schrieb, sang, rappte, und wechselte parallel ins Modegesch\u00e4ft, wo er heute Kreativdirektor f\u00fcr Herrenmode bei Louis Vuitton ist. Kein anderer K\u00fcnstler seiner Generation ist so vielen Spuren gleichzeitig nachgejagt &ndash; und auf fast jeder gewonnen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Drei: Erfolg \u00fcber mehrere B\u00fchnen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verst\u00e4rkungstyp der Drei: Anerkennung ist f\u00fcr sie kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Sieht die Welt, was ich erreicht habe?</em> &ndash; und sucht dabei bevorzugt mehrere B\u00fchnen zugleich, um sicherzustellen, dass diese Sichtbarkeit nicht von einem einzigen Feld abh\u00e4ngt.</p>
-          <p class="vb-intro">Bei Pharrell zeigt sich das in einer geradezu systematischen Diversifikation der eigenen Reichweite. \u00dcber 400 Nummer-eins- und Top-Ten-Produktionen, ein Oscar-nominierter Welthit mit \u201eHappy", zwei Solo-Alben, Mode-Labels wie Billionaire Boys Club und ICECREAM, schlie\u00dflich die Kreativleitung bei einem der prestigetr\u00e4chtigsten Modeh\u00e4user der Welt. Jede neue B\u00fchne best\u00e4tigt aufs Neue: Dieser Mann ist relevant &ndash; nicht nur in der Musik, sondern \u00fcberall, wo Kultur entsteht.</p>
-          <p class="vb-intro">Charakteristisch f\u00fcr die SO3 ist auch das Gesp\u00fcr daf\u00fcr, was gerade kollektiv gebraucht wird. \u201eHappy" (2013) wurde nicht zuf\u00e4llig zur meistverkauften Single des Jahres &ndash; Pharrell traf einen Nerv seiner Zeit, ein universelles Bed\u00fcrfnis nach Leichtigkeit, und positionierte sich als dessen Stimme. Die soziale Drei liest die B\u00fchne, bevor sie sie betritt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Erfolg als Teamsport</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> gibt der sozialen Drei eine kollaborative W\u00e4rme, die reine Selbstinszenierung \u00fcbersteigt. Wo eine SO3 mit schwächerem Zweierflügel den eigenen Namen ins Zentrum stellen könnte, sucht die SO3w2 den Erfolg gemeinsam mit anderen &ndash; und f\u00fchlt sich durch das F\u00f6rdern fremder Karrieren selbst best\u00e4tigt.</p>
-          <p class="vb-intro">Pharrells gesamte Karriere ist ohne diesen Zweierfl\u00fcgel kaum denkbar: Die Neptunes waren nie ein Soloprojekt, sondern eine \u00fcber zwanzig Jahre gewachsene Partnerschaft mit Chad Hugo. Als Produzent hat er unz\u00e4hlige Karrieren mitgepr\u00e4gt oder \u00fcberhaupt erst erm\u00f6glicht &ndash; von fr\u00fchen Beats f\u00fcr Kelis und Snoop Dogg bis zur Wiederentdeckung von Daft Punk mit \u201eGet Lucky". Er tritt selten als alleiniger Star auf, sondern immer als jemand, der andere ins Rampenlicht mitnimmt.</p>
-          <p class="vb-intro">Auch sein soziales Engagement tr\u00e4gt diese Handschrift: Mit der Stiftung \u201eFrom One Hand to AnOTHER" und der Yellow-Schule in seiner Heimatstadt Virginia Beach investiert er gezielt in benachteiligte Kinder &ndash; Bildung, Kunst, Selbstwert. Die SO3w2 will nicht nur bewundert werden. Sie will, dass andere durch die eigene Plattform tats\u00e4chlich wachsen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Vom Beat zum Laufsteg: Neuerfindung als Prinzip</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Gepard wechselt die Richtung, sobald sich das Ziel bewegt &ndash; und Pharrells Karriere liest sich wie eine Kette solcher Richtungswechsel. Vom Hip-Hop-Produzenten der fr\u00fchen 2000er \u00fcber den Rockstar mit N.E.R.D., den Popkomponisten hinter \u201eBlurred Lines" und \u201eHappy", bis zum Streetwear-Pionier mit Billionaire Boys Club und schlie\u00dflich zum Kreativdirektor bei Louis Vuitton, ernannt 2023 &ndash; eine Position, die traditionell f\u00fcr Modeinsider reserviert schien.</p>
-          <p class="vb-intro">Diese Neuerfindungen sind keine Zuf\u00e4lle, sondern die SO3-Logik in Reinform: Sichtbarkeit \u00fcber mehrere Felder hinweg sichert Relevanz gegen den Verfall einer einzelnen Trendwelle ab. Wo ein Musikproduzent altmodisch werden kann, bleibt ein kultureller Tastemaker unangreifbar. Pharrell hat fr\u00fch verstanden, dass sein eigentliches Produkt nicht der einzelne Song oder die einzelne Kollektion ist &ndash; sondern ein Geschmacksurteil, das \u00fcber L\u00e4ndergrenzen hinweg tr\u00e4gt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3 ist ihre F\u00e4higkeit, Trends nicht nur zu erkennen, sondern zu setzen &ndash; und dabei ganze Branchen mitzupr\u00e4gen. Pharrells Einfluss auf Pop, Hip-Hop und Streetwear-Mode ist so umfassend, dass er kaum noch auf eine einzelne Rolle zu reduzieren ist: Produzent, S\u00e4nger, Designer, Philanthrop &ndash; jede Facette verst\u00e4rkt die anderen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SO3 sichtbar als die permanente Notwendigkeit, relevant zu bleiben, aktuell zu wirken, niemals aus der Zeit zu fallen. Pharrells vielbesprochenes, jahrzehntelang kaum gealtertes Erscheinungsbild wurde von der \u00d6ffentlichkeit fast schon als Running Gag behandelt &ndash; und trifft doch einen wunden Punkt der SO3: die Angst, mit dem \u00c4lterwerden an kultureller Sichtbarkeit zu verlieren.</p>
-          <p class="vb-intro">Der Zweierfl\u00fcgel bringt sein eigenes Schattenmuster: Das Bed\u00fcrfnis, gebraucht und gesch\u00e4tzt zu werden, kann sich mit dem SO3-Drang nach Anerkennung zu einer Dynamik verbinden, in der Gro\u00dfz\u00fcgigkeit auch strategisch lesbar wird &ndash; als Investition in das eigene Netzwerk, nicht nur als reine F\u00fcrsorge. Wo genau Geben endet und Imagepflege beginnt, bleibt f\u00fcr die SO3w2 eine offene Frage.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Von der Relevanz zur Ruhe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Bin ich noch relevant?</em> zur Erkenntnis <em>Ich bin &ndash; unabh\u00e4ngig von der n\u00e4chsten Trendwelle.</em> F\u00fcr die SO3 bedeutet das, den eigenen Wert nicht mehr an die Frage zu kn\u00fcpfen, ob die Welt gerade hinschaut.</p>
-          <p class="vb-intro">Pharrells zunehmender Fokus auf Bildung und F\u00f6rderung junger Talente &ndash; die Yellow-Schule, sein Engagement f\u00fcr unterversorgte Communities in Virginia Beach &ndash; deutet einen Weg an, der \u00fcber die eigene Sichtbarkeit hinausweist: Erfolg nicht mehr als Beweis der eigenen Bedeutung, sondern als etwas, das man weitergibt, damit es gr\u00f6\u00dfer wird als man selbst. Der Gepard, der irgendwann nicht mehr rennen muss, um zu beweisen, dass er der Schnellste ist &ndash; sondern anderen beibringt, wie man l\u00e4uft.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
-        {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
-      ])}
-    </div>
-  `);
-}
-
 

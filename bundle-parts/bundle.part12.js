@@ -1,3 +1,181 @@
+function robertDeNiroKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-de-niro-portrait.jpg" alt="Robert De Niro" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert De Niro</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · geb. 1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Robert De Niro</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-robert-de-niro">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine 2003 diagnostizierte Prostatakrebs-
+        Erkrankung, die er weitgehend privat behandeln ließ und nur knapp öffentlich
+        kommentierte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>De Niro</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Anspruch an Genauigkeit nach innen, auf die eigene
+        Vorbereitung und Integrität; der Neunerflügel bringt eine Zurückhaltung hinzu, die
+        sich nicht öffentlich zeigen muss, um zu wirken. Genau diese Kombination – präzise,
+        entschlossene medizinische Behandlung bei gleichzeitiger, fast vollständiger
+        öffentlicher Zurückhaltung – bestimmte den Umgang mit der eigenen Krebsdiagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose im Jahr 2003:</strong>
+        Bei De Niro wurde 2003 im Rahmen einer Routineuntersuchung Prostatakrebs
+        diagnostiziert – ein früher Diagnosezeitpunkt, der eine erfolgreiche Behandlung
+        deutlich begünstigte.</p>
+        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Ankündigung:</strong>
+        Anders als viele andere Prominente mit vergleichbaren Diagnosen gab De Niro keine
+        ausführliche öffentliche Erklärung ab, sondern ließ die Nachricht knapp über
+        Medienberichte bekannt werden.</p>
+        <p class="vb-intro"><strong>c) Zügige Einleitung der Behandlung:</strong>
+        Nach der Diagnose begann De Niro nach übereinstimmenden Berichten zügig mit der
+        Behandlung, ohne den Prozess öffentlich zu begleiten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erfolgreiche Behandlung ohne dauerhafte öffentliche Sichtbarkeit:</strong>
+        Die Behandlung verlief nach allen vorliegenden Berichten erfolgreich, ohne dass De
+        Niro den Krankheitsverlauf zu einem fortlaufenden öffentlichen Thema machte.</p>
+        <p class="vb-intro"><strong>b) Wenige, sehr knappe spätere Erwähnungen:</strong>
+        In seltenen späteren Interviews erwähnte De Niro die Erkrankung nur knapp, meist im
+        Zusammenhang mit Appellen an andere Männer, sich regelmäßig untersuchen zu lassen.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug aus der Schauspielarbeit:</strong>
+        Anders als bei manchen Kollegen führte die Diagnose zu keiner erkennbaren Unterbrechung
+        seiner Filmarbeit – De Niro blieb während und nach der Behandlung kontinuierlich
+        aktiv.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gelegentliche öffentliche Nutzung zur Sensibilisierung:</strong>
+        In den Jahren nach seiner Genesung nutzte De Niro vereinzelte öffentliche Anlässe, um
+        auf die Bedeutung früher Prostatakrebs-Vorsorgeuntersuchungen hinzuweisen.</p>
+        <p class="vb-intro"><strong>b) Keine Krankheitsgeschichte als Teil seines öffentlichen Bildes:</strong>
+        Im Unterschied zu Schauspielern, die ihre Krankengeschichte zu einem wiederkehrenden
+        Thema in Interviews machten, blieb De Niros Erkrankung ein Randaspekt seiner
+        öffentlichen Biografie.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte hohe berufliche Produktivität:</strong>
+        In den zwei Jahrzehnten nach der Diagnose drehte De Niro Dutzende weiterer Filme,
+        darunter mehrere mit Martin Scorsese, ohne dass die frühere Erkrankung öffentlich
+        thematisiert wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Diskrete Aufmerksamkeit statt öffentlicher Kampagne:</strong>
+        De Niros knappe, seltene Erwähnungen der eigenen Erkrankung erzeugten dennoch
+        punktuelle mediale Aufmerksamkeit für das Thema Prostatakrebs-Vorsorge, ohne dass er
+        selbst zur zentralen öffentlichen Stimme des Themas wurde.</p>
+        <p class="vb-intro"><strong>b) Keine dramatisierte Genesungserzählung:</strong>
+        Anders als bei manch anderer Krebserkrankung Prominenter existiert keine ausführliche,
+        emotional aufgeladene öffentliche Erzählung von De Niros Genesungsprozess.</p>
+        <p class="vb-intro"><strong>c) Ein öffentliches Bild, das von der Erkrankung unberührt blieb:</strong>
+        De Niros öffentliches Image blieb von der Krebserkrankung praktisch unberührt – es
+        dominierten weiterhin seine Filmrollen und sein handwerklicher Ruf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Präzise Behandlung ohne öffentliche Inszenierung:</strong>
+        Die SE1-typische Genauigkeit im Umgang mit der eigenen Sache zeigte sich auch bei der
+        Krebsbehandlung: konsequent, zügig eingeleitet, ohne dass der Prozess selbst zum
+        Gegenstand öffentlicher Aufmerksamkeit wurde.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und der Rückzug, sobald die Aufgabe erledigt ist:</strong>
+        Dieselbe Zurückhaltung, die De Niro nach jedem Filmdreh in die Stille zurückkehren
+        lässt, zeigte sich im Umgang mit der eigenen Krankheit: Sobald die Behandlung
+        abgeschlossen war, verschwand das Thema fast vollständig aus seiner öffentlichen
+        Präsenz.</p>
+        <p class="vb-intro"><strong>c) Vorsorge als sachliche Botschaft, nicht als persönliches Bekenntnis:</strong>
+        Wenn De Niro die Erkrankung überhaupt erwähnte, geschah dies in Form einer sachlichen
+        Empfehlung an andere Männer, nicht als ausführliche persönliche Erzählung – Wahrhaftigkeit
+        im Handwerk der Botschaft, ohne unnötige Selbstdarstellung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Meister der Vorbereitung, der die eigene Krankheit ebenso methodisch behandelte:</strong>
+        De Niros gesamtes Werk beruht auf akribischer, nahezu wissenschaftlicher Vorbereitung
+        – dieselbe Methodik übertrug sich auf den Umgang mit der eigenen Krebsdiagnose: zügig
+        erkannt, konsequent behandelt, ohne unnötige öffentliche Dramatisierung.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Parallelen zeigen sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer</a> und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
+        Lindgren</a> (beide ebenfalls SE1w9): Alle drei begegneten gesundheitlichen
+        Einschränkungen mit diszipliniertem, praktischem Handeln statt öffentlicher
+        Aufmerksamkeit. Bei allen SE1w9ern zeigt sich dasselbe Muster: Die Krankheit wird
+        gelöst wie eine Aufgabe – gründlich, aber ohne Bühne.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Prostata, ein stilles, selten thematisiertes Organ?</strong>
+        Für einen selbsterhaltenden Typ 1 mit Neunerflügel, dessen gesamtes Werk auf
+        methodischer Vorbereitung und zugleich auf öffentlicher Zurückhaltung beruht, liegt
+        eine Deutung nahe: Ausgerechnet ein Organ, über das gesellschaftlich selten offen
+        gesprochen wird, wurde zum Ort seiner eigenen, ebenso zurückhaltend behandelten
+        Erkrankung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Prostatakrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an De Niros Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer erfolgreich behandelten Erkrankung, das bei einem
+        ausgeprägten selbsterhaltenden Typ 1 mit Neunerflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        De Niro kennt sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
+        Typ 1 mit Neunerflügel hält reflexhaft an der eigenen, stillen Selbstständigkeit fest,
+        statt gesundheitliche Themen offen zu teilen, und lebt genau dieses Muster bis heute
+        weitgehend unverändert aus. Wer die eigene Neigung, auch ernste Angelegenheiten
+        methodisch und ohne öffentliche Aussprache zu erledigen, nicht als Muster erkennt,
+        riskiert, dass wichtige gesundheitliche Botschaften an andere unausgesprochen
+        bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Robert De
+        Niro</strong> vieles am Umgang mit der eigenen Prostatakrebs-Erkrankung: ein Mann,
+        dessen gesamtes Handwerk auf präziser, stiller Vorbereitung beruht, behandelte auch
+        die eigene Krankheit als eine Aufgabe, die gelöst und dann verlassen werden musste –
+        der Adler, der über seinem Revier kreiste, zuschlug, wenn es nötig war, und danach
+        wieder in die Stille zurückkehrte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function elonMuskKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11051,109 +11229,3 @@ function andrewCunananPortraitPage() {
     </div>
   `);
 }
-function ojSimpsonPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("O.J. Simpson \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/oj-simpson-portrait.jpg" alt="O. J. Simpson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">O.J. Simpson</p>
-        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der Mordprozess des Jahrhunderts &ndash; Tierentsprechung: Gepard</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er tr\xe4gt O.J. Simpsons Geschichte in jeder Faser. Der Gepard ist das schnellste Landtier der Welt: vollk\xf6rperlicher Einsatz, absolute Pr\xe4senz, der gro\xdfe Moment &ndash; und dann die Ersch\u00f6pfung, das Abseits, der Zusammenbruch. Was der Gepard nicht ist: ein Ausdauertier. Er brilliert, solange er im Rampenlicht steht. In der Stille wird er unsichtbar. O.J. Simpson hat während seines ganzen Lebens gebrillt. Als das Rampenlicht erlosch, konnte er nicht einfach gehen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Das Selbst als \xf6ffentliches Gut</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> baut seine Identit\xe4t nicht um das, was er innerlich f\xfchlt, sondern um das, was andere in ihm sehen. Er ist Pr\xe4sentierender, Repr\xe4sentant, lebender Beweis f\xfcr Erfolg. Claudio Naranjo nannte diesen Subtyp den &bdquo;Prestigetr\xe4ger&ldquo;: jemanden, der nicht nur erfolgreich sein will, sondern in den Kreisen gesehen werden will, in denen Erfolg z\xe4hlt.</p>
-        <p class="vb-intro">Orenthal James Simpson, geboren am 9. Juli 1947 in San Francisco, wurde als Kind armer Verh\xe4ltnisse in den Projekth\xe4usern von Potrero Hill gro\xdf &ndash; und arbeitete sich durch sportliche Exzellenz in eine Welt hinein, die f\xfcr ihn nicht vorgesehen war. Heisman Trophy 1968, NFL-Star bei den Buffalo Bills, 2003 Rushing Yards in der Saison 1973 (ein Rekord, der Jahrzehnte Bestand hatte), NFL Hall of Fame 1985. Dann: Werbeikone f\xfcr Hertz, Schauspieler in den Naked-Gun-Filmen, Stammgast in den wei\xdfen Country Clubs Miamis und Brentwoods.</p>
-        <p class="vb-intro">Simpson war einer der ersten schwarzen Promis, der &ndash; nach eigenem Bekunden &ndash; &bdquo;die Rassenfrage \xfcberwunden&ldquo; hatte. Er wurde in wei\xdfen Elitekreisen aufgenommen, umworben, gefeiert. Er sah das als Auszeichnung. Das war es auch &ndash; und es war zugleich sein gr\xf6\xdfter Selbstbetrug. Sein Selbstbild war nicht intern verankert, sondern vollst\xe4ndig an das Spiegelbild delegiert, das ihm die Welt zur\xfcckwarf.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Tiefe, Tragik, dunkle Selbstinszenierung</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht dem sozialen Drei eine emotionale Tiefe und Neigung zur Dramatisierung, die dem Drei-Grundmuster sonst fehlt. Die Vier liebt die Tragik &ndash; die einzigartige, unverstanden leidende Seele. In Simpson findet das seine deutlichste Auspr\xe4gung in einem einzelnen Dokument: dem Brief, den er am 17. Juni 1994 schrieb, bevor sein Freund Al Cowlings ihn in einem wei\xdfen Bronco quer durch Los Angeles fuhr, verfolgt von Dutzenden Polizeifahrzeugen und live im Fernsehen beobachtet von 95 Millionen Menschen.</p>
-        <p class="vb-intro">Dieser Brief war keine Gerichtsaussage, kein Gest\xe4ndnis. Er war Literatur &ndash; ein Abschiedsbrief voller Liebeserkl\xe4rungen, Unschuldsbeteuerungen, dramatischer Selbstdarstellung. &bdquo;Ich liebte Nicole. Sie war mein Leben.&ldquo; Der Viererfl\u00fcgel spricht: Ich bin der Tragische, der Unverstanden, der in seiner Not gro\xdfartiger ist als alle anderen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Aufstieg, Ehe, Kontrollverlust</h3>
-        <p class="vb-intro">Simpson heiratete 1985 Nicole Brown, eine damals 18-j\xe4hrige Kellnerin, die er kennengelernt hatte, als er noch mit seiner ersten Frau verheiratet war. Er war 29. Die Altersasymmetrie und die Machtasymmetrie waren von Anfang an angelegt. Nicole war jung, sch\xf6n, strahlend &ndash; und passte perfekt in das Bild, das Simpson von sich entwerfen wollte: erfolgreicher Mann, sch\xf6ne Frau, makelloses Leben.</p>
-        <p class="vb-intro">Was hinter den Kulissen geschah, ist durch Polizeiprotokolle, Nicoles eigene Aufzeichnungen und die Aussagen von Freundinnen dokumentiert: O.J. Simpson \xfcbte \xfcber Jahre k\xf6rperliche Gewalt gegen Nicole aus. Im Januar 1989 wurde er nach einem Vorfall an ihrem Haus festgenommen. Er bekannte sich schuldig, zahlte eine Geldstrafe, leistete Sozialstunden. Keine Gef\xe4ngnisstrafe, keine ernsthaften Konsequenzen. Der Gepard lie\xdf sich nicht anhalten.</p>
-        <p class="vb-intro">Nicole reichte 1992 die Scheidung ein. F\xfcr Simpson war das keine rechtliche Transaktion &ndash; es war ein Angriff auf sein \xf6ffentliches Selbstbild, auf den Kontrollanspruch, der zum Dreier-Muster geh\xf6rt. Nicole lebte weiter, baute ihr eigenes Leben auf, hatte Freunde, Verehrer, Unabh\xe4ngigkeit. Das war unertr\xe4glich.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: 12. Juni 1994</h3>
-        <p class="vb-intro">In der Nacht vom 12. auf den 13. Juni 1994 werden <strong>Nicole Brown Simpson</strong> (35) und <strong>Ron Goldman</strong> (25) vor Nicoles Wohnhaus in der Bundy Drive in Brentwood, Los Angeles, mit einem Messer get\xf6tet. Beide werden mit mehreren tiefen Stichwunden aufgefunden. Nicoles Sohn und ihre Tochter schlafen derweil im Obergeschoss.</p>
-        <p class="vb-intro">Ron Goldman war Nicoles Freund, kein romantischer Partner im Sinne einer laufenden Liebesbeziehung &ndash; er arbeitete als Kellner im Restaurant Mezzaluna, das Nicole regelm\xe4\xdfig besuchte, und brachte an jenem Abend eine Sonnenbrille zur\xfcck, die sie dort vergessen hatte. Er war 25, charmant, ein guter Mensch, der zur falschen Zeit am falschen Ort war.</p>
-        <p class="vb-intro">Die Beweislage gegen O.J. Simpson war aus staatsanwaltschaftlicher Sicht erdr\xfcckend: Blutspuren an seinem Wei\xdfen Bronco, Blut auf dem Gehweg seines Anwesens, ein einzelner Handschuh &ndash; passend zu einem Handschuh, der am Tatort gefunden wurde &ndash; hinter seinem Geb\xe4ude. Ein langer Schnitt an seiner linken Hand, den er nicht erkl\xe4ren konnte. Keine Best\xe4tigung f\xfcr seinen Aufenthaltsort zur Tatzeit.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Die Bronco-Jagd und der Prozess des Jahrhunderts</h3>
-        <p class="vb-intro"><strong>17. Juni 1994:</strong> Simpson erscheint nicht zum vereinbarten Zeitpunkt f\xfcr seine Festnahme. Sein Anwalt verliest einen Brief am Mikrofon. Dann: eine Verfolgungsfahrt auf dem Los Angeles Freeway System, Simpson auf dem R\xfcksitz des wei\xdfen Ford Bronco seines Freundes Al Cowlings, bewaffnet, angeblich mit einer Waffe an der Schl\xe4fe, 95 Millionen Zuschauer live im Fernsehen. Die Autokolonne f\xe4hrt &ndash; langsam, fast feierlich &ndash; zu Simpsons Anwesen in Brentwood. Dort ergibt er sich. Keine Schusswaffe, keine Verletzung. Theater.</p>
-        <p class="vb-intro">Was folgte, war der meistbeachtete Strafprozess der amerikanischen Geschichte. Sein Verteidigungsteam &ndash; das sogenannte &bdquo;Dream Team&ldquo; mit Johnnie Cochran, Robert Shapiro und F. Lee Bailey &ndash; verwandelte den Prozess in eine Verhandlung \xfcber rassistische Vorurteile der LAPD, \xfcber Polizeikorruption, \xfcber Amerika. Johnnie Cochran: &bdquo;If it doesn&rsquo;t fit, you must acquit.&ldquo; Der Handschuh, den Simpson im Gerichtssaal mit sichtbarer M\xfche versuchte anzuziehen, wurde zum Symbol einer Strategie, die auf Inszenierung setzte statt auf Fakten.</p>
-        <p class="vb-intro"><strong>3. Oktober 1995:</strong> Nach neun Monaten Verhandlung und weniger als vier Stunden Beratung spricht die Jury O.J. Simpson frei. Sch\xf6pferischer Triumph f\xfcr sein Team, Schock f\xfcr die Anklage, gespaltene Reaktion im Land. Schwarze Amerikaner feierten mehrheitlich &ndash; als Sieg gegen eine als rassistisch erlebte Justiz. Wei\xdfe Amerikaner reagierten mehrheitlich mit Unverst\xe4ndnis. Der Freispruch war ein kulturelles Ereignis, das \xfcber den Fall hinaus bedeutsam blieb.</p>
-        <p class="vb-intro"><strong>1997:</strong> Der Zivilprozess, eingeleitet von den Familien der Opfer, urteilt anders. Simpson wird zivilrechtlich f\xfcr schuldig befunden und zu 33,5 Millionen Dollar Schadensersatz verurteilt. Bis zu seinem Tod 2024 zahlte er davon nur rund 130.000 Dollar – durch Zinsen war die Summe zuletzt auf rund 58 Millionen Dollar angewachsen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Das Sp\xe4twerk: Las Vegas und &bdquo;If I Did It&ldquo;</h3>
-        <p class="vb-intro">Was Simpson nach dem Freispruch tut, ist psychologisch aufschlussreich. Er zieht nach Florida (wo weitreichende Gl\xe4ubigerschutzgesetze die Vollstreckung zivilrechtlicher Urteile erheblich erschweren), spielt Golf, lebt von seiner NFL-Rente, die im Zivilverfahren nicht pf\u00e4ndbar ist. Er gibt Interviews, tritt auf, inszeniert sich als Opfer einer Hexenjagd. Der Gepard sonnt sich &ndash; und wird langsam ungeduldig.</p>
-        <p class="vb-intro"><strong>2006:</strong> Der Verlag Judith Regan Books k\xfcndigt ein Buch an: &bdquo;If I Did It&ldquo; &ndash; eine hypothetische Schilderung der Morde in Simpsons eigenen Worten. Das Buch wird nach \xf6ffentlichem Aufschrei zun\xe4chst zur\xfcckgezogen, erscheint aber 2007 durch einen rechtlichen Kunstgriff der Familie Goldman unter dem Titel &bdquo;If I Did It: Confessions of a Killer&ldquo;. Es ist ein Dokument des SO3w4: der Drang, der Autor der eigenen Geschichte zu bleiben, selbst wenn diese Geschichte ein Mordgest\xe4ndnis ist.</p>
-        <p class="vb-intro"><strong>September 2007, Las Vegas:</strong> Simpson f\xfchrt eine Gruppe Bewaffneter in ein Hotelzimmer, um Sporterinnerungsst\xfccke zur\xfcckzuholen, die er als sein Eigentum betrachtet. Er wird festgenommen, 2008 wegen schweren Raubdiebstahls und Entf\xfchrung in 12 Anklagepunkten verurteilt und zu bis zu 33 Jahren Gef\xe4ngnis verurteilt &ndash; f\xfcr viele Beobachter war das Urteil indirekt die versp\xe4tete Strafe f\xfcr 1994. 2017 wird er auf Bew\xe4hrung entlassen. Am 10. April 2024 stirbt O.J. Simpson in Las Vegas an Prostatakrebs. Er war 76 Jahre alt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Image-Management als Lebensinhalt:</strong> Der soziale Drei lebt davon, dass das Bild stimmt. Simpson hatte Jahrzehnte investiert in den Aufbau eines Selbstbilds: der freundliche, zug\u00e4ngliche, humorvolle Champ, der die Rassenkluft \u00fcberbr\u00fcckt. Jede Ersch\u00fctterung dieses Bildes &ndash; Nicoles Unabh\xe4ngigkeit, die Scheidung, die Berichte \xfcber h\xe4usliche Gewalt &ndash; war ein Angriff auf das Fundament, auf dem er stand.</p>
-        <p class="vb-intro"><strong>b) Der Prozess als B\u00fchne:</strong> Ein SO3 im Krisenmodus greift auf das zur\xfcck, was er am besten kann: Performen. Simpsons Verteidigung war ein Meisterwerk der Inszenierung &ndash; und Simpson war ihr \u00fcberzeugendster Darsteller. Der Moment, als er den Handschuh anzieht und sein Gesicht verzieht, ist pures SO3-Kino: das Spiel um das Bild in dem Moment, in dem alles auf dem Spiel steht.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel als dunkler Untertext:</strong> &bdquo;If I Did It&ldquo; ist ein w4-Artefakt. Keine gesunde Drei schreibt dieses Buch. Die Drei w\xfcrde einfach weitermachen, neu aufbauen, das Kapitel schlie\xdfen. Der Viererfl\u00fcgel muss die Geschichte besitzen, muss der tragische Held sein, muss das Leid in eine narrative Form bringen, die ihn zum Zentrum macht &ndash; selbst wenn das Zentrum ein Gest\xe4ndnis ist.</p>
-        <p class="vb-intro"><strong>d) H\u00e4usliche Gewalt als Kontrollmuster:</strong> F\xfcr den SO3 ist Kontrolle nicht optional. Nicole Brown Simpson loszulassen war im Erleben Simpsons kein rechtlicher Vorgang &ndash; es war eine Bedrohung seiner gesamten Konstruktion. Das ist kein Psycho-Klischee: Es ist ein bekanntes Muster bei Typ 3 (und besonders SO3), wenn die Person des Selbstbilds auszusteigen droht.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Fazit: Der Gepard im Wei\xdfen Bronco</h3>
-        <p class="vb-intro">O.J. Simpsons Fall ist einer der psychologisch reichhaltigsten dieser Sammlung &ndash; weil er so viele Schichten hat. Er ist ein Fall \xfcber Sport, Ruhm, h\xe4usliche Gewalt, Rassismus in der Justiz, Medienspektakel und &ndash; enneagrammatisch &ndash; \xfcber einen Menschen, dessen gesamte Existenz auf dem \xf6ffentlichen Bild aufgebaut war. Als dieses Bild zu kippen drohte, wurde es mit allem verteidigt, was er hatte.</p>
-        <p class="vb-intro">Der Gepard l\xe4uft nicht, weil er Freude am Laufen hat. Er l\xe4uft, weil Stillstand f\xfcr ihn gleichbedeutend ist mit dem Ende. O.J. Simpson hat das ganze Leben nicht stillgehalten. Die Bronco-Fahrt war das sichtbarste Symbol daf\xfcr: kein Fluchtversuch, kein echter Plan &ndash; nur ein wei\xdfer Wagen auf einem Freeway, live im Fernsehen, von 95 Millionen Menschen gesehen. Selbst das Ende sollte B\u00fchne sein.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Orenthal James Simpson</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (des Selbst und der \xd6ffentlichkeit)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 9. Juli 1947 &ndash; 10. April 2024</span>
-          <span style="display:block;"><strong>Tatvorwurf:</strong> Doppelmord an Nicole Brown Simpson und Ron Goldman (12. Juni 1994); strafrechtlich freigesprochen 1995; zivilrechtlich schuldig 1997; 2008 wegen bewaffneten Raubes in Las Vegas verurteilt</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt \u2013 und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. O.J. Simpson wurde 1995 im Strafprozess freigesprochen, 1997 jedoch im Zivilverfahren f\u00fcr den Tod seiner Ex-Frau und Ron Goldman haftbar gemacht. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4)"},
-          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
-          {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
-          {route:"krankheitsportraets-oj-simpson", label:"Krankheitsporträt: O.J. Simpson (SO3w4) – Prostatakrebs"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-

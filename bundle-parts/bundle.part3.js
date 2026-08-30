@@ -1537,6 +1537,7 @@ const registerEntries = [
   { term: "Voltaire",                      route: "beruehmte-voltaire",                    description: "Portrait: SX4w3 · Sexueller Typ 4 · Schriftsteller, Philosoph der Aufklärung, Fall Calas" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 · Sexueller Typ 4 · Queen-Frontsänger, Bühnenmagier" },
   { term: "Frédéric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 · Sexueller Typ 5 · Komponist, romantische Klaviermusik" },
+  { term: "Jean-Jacques Rousseau",    route: "beruehmte-jean-jacques-rousseau",      description: "Portrait: SX5w4 · Sexueller Typ 5 · Philosoph, Schriftsteller" },
   { term: "Friedrich Nietzsche",      route: "beruehmte-friedrich-nietzsche",        description: "Portrait: SX5w4 · Sexueller Typ 5 · Philosoph, Also sprach Zarathustra" },
   { term: "Greta Garbo",               route: "beruehmte-greta-garbo",                 description: "Portrait: SX5w4 · Sexueller Typ 5 · Schauspielerin, Hollywood-Ikone, radikaler Rückzug" },
   { term: "David Bowie",                   route: "beruehmte-david-bowie",                 description: "Portrait: SO1w2 · Sozialer Typ 1 · Musiker, kulturelle Grenzgängerfigur" },

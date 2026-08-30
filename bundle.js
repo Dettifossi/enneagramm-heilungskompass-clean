@@ -24484,6 +24484,7 @@ const registerEntries = [
   { term: "Voltaire",                      route: "beruehmte-voltaire",                    description: "Portrait: SX4w3 · Sexueller Typ 4 · Schriftsteller, Philosoph der Aufklärung, Fall Calas" },
   { term: "Freddie Mercury",               route: "beruehmte-freddie-mercury",             description: "Portrait: SX4w3 · Sexueller Typ 4 · Queen-Frontsänger, Bühnenmagier" },
   { term: "Frédéric Chopin",          route: "beruehmte-frederic-chopin",            description: "Portrait: SX5w4 · Sexueller Typ 5 · Komponist, romantische Klaviermusik" },
+  { term: "Jean-Jacques Rousseau",    route: "beruehmte-jean-jacques-rousseau",      description: "Portrait: SX5w4 · Sexueller Typ 5 · Philosoph, Schriftsteller" },
   { term: "Friedrich Nietzsche",      route: "beruehmte-friedrich-nietzsche",        description: "Portrait: SX5w4 · Sexueller Typ 5 · Philosoph, Also sprach Zarathustra" },
   { term: "Greta Garbo",               route: "beruehmte-greta-garbo",                 description: "Portrait: SX5w4 · Sexueller Typ 5 · Schauspielerin, Hollywood-Ikone, radikaler Rückzug" },
   { term: "David Bowie",                   route: "beruehmte-david-bowie",                 description: "Portrait: SO1w2 · Sozialer Typ 1 · Musiker, kulturelle Grenzgängerfigur" },
@@ -33448,6 +33449,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fr\xe9d\xe9ric Chopin \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \xb7 1810\u20131849. Komponist, Pianist. Nocturnes, \xc9tuden, Mazurken, Balladen. Der Igel, der fast nie auftrat \u2013 und dessen Musik zweihundert Jahre sp\xe4ter noch in jedem Konzertsaal klingt.",
     land:"Russland", tags:["Musik","Geschichte"], gender:"m"},
+  { route:"beruehmte-jean-jacques-rousseau", name:"Jean-Jacques Rousseau", added:"2026-08-30", subtyp:"SX5w4",
+    heading:"Jean-Jacques Rousseau \u2013 Sexueller Typ 5",
+    teaser:"SX5w4 \u00b7 1712\u20131778. Philosoph, Schriftsteller. \u203aDer Gesellschaftsvertrag\u2039, \u203aBekenntnisse\u2039 \u2013 die radikalste literarische Selbstoffenlegung ihrer Zeit. Der Igel, der sich einmal ganz \u00f6ffnete, w\u00e4hrend er die eigenen f\u00fcnf Kinder ins Findelhaus gab.",
+    land:"Schweiz/Frankreich", tags:["Philosophie","Literatur"], gender:"m"},
   { route:"beruehmte-taylor-swift", name:"Taylor Swift", subtyp:"SX5w4",
     heading:"Taylor Swift \u2013 Sexueller Typ 5",
     teaser:"SX5w4 \u00b7 geb. 1989. S\u00e4ngerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt \u2013 und dessen Stacheln aus Worten bestehen.",
@@ -61714,6 +61719,73 @@ function fredericChopinPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Portr\xe4t: Jean-Jacques Rousseau (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanJacquesRousseauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jean-jacques-rousseau-portrait.jpg" alt="Jean-Jacques Rousseau" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Jacques Rousseau</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Schriftsteller, Komponist, 1712–1778 – Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der sich der Welt in einem einzigen Buch ganz öffnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf: von Natur aus scheu, mit eingezogenen Stacheln der Welt gegenüber – und doch fähig zu einer radikalen, fast unerträglichen Offenheit, sobald er sich einem Gegenüber, einer Idee oder, in einem einzigartigen Fall der Literaturgeschichte, einem ganzen Lesepublikum zumutet. Wo die selbsterhaltende Fünf sich verschanzt und die soziale Fünf ihr Wissen kontrolliert weitergibt, sucht die sexuelle Fünf die totale, ungeschützte Selbstoffenbarung.</p>
+          <p class="vb-intro">Jean-Jacques Rousseau, geboren 1712 in Genf als Sohn eines Uhrmachers, verlor seine Mutter wenige Tage nach der Geburt und wuchs in einer von früher Einsamkeit geprägten Kindheit auf – mit zehn Jahren von seinem Vater verlassen, danach bei Verwandten und Lehrmeistern herumgereicht, ein Leben lang ruhelos zwischen Städten, Gönnern und Liebesbeziehungen wandernd, ohne je wirklich sesshaft zu werden. Aus dieser frühen Erfahrung des Alleingelassenseins entstand kein Rückzug, sondern das Gegenteil: ein unstillbares Bedürfnis, sich am Ende seines Lebens der ganzen Welt so schonungslos zu zeigen, wie es vor ihm niemand gewagt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als radikale Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt das Gegenprinzip der sexuellen Fünf als <em>Vertrauen</em> – die für einen typischerweise distanzierten Typ paradoxe Fähigkeit, sich einem Gegenüber oder einer Sache radikal zu öffnen, während man allen anderen gegenüber verschlossen bleibt. Bei den meisten SX5 bleibt dieses Vertrauen auf eine einzige enge Beziehung beschränkt. Rousseau erweiterte es auf etwas Beispielloses: ein ganzes Buch, geschrieben mit dem erklärten Ziel, sich selbst so vollständig offenzulegen, wie es „noch kein Mensch gewagt hat und wie es nach mir keiner unternehmen wird".</p>
+          <p class="vb-intro">Seine <em>Bekenntnisse</em> (postum veröffentlicht 1782) beginnen mit dem für die Vier-Verwandtschaft der SX5 charakteristischen Satz: „Ich bin nicht gemacht wie irgendeiner, den ich gesehen habe; ich wage zu glauben, dass ich nicht gemacht bin wie irgendeiner, der existiert." Das Buch berichtet freimütig von Diebstählen, sexuellen Verirrungen, Selbstbefriedigung, Exhibitionismus und Scham – ein Ausmaß an Selbstoffenlegung, das seine Zeitgenossen schockierte und das erst posthum in voller Länge veröffentlicht wurde. Das ist der Igel, der sich einmal ganz öffnet: nicht in kleinen Schritten, sondern in einer einzigen, kompromisslosen Geste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Einzigartigkeit als Programm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Viererflügel verstärkt bei der Fünf die introspektive, gefühlsbetonte Seite – im Unterschied zur strukturierteren, sicherheitsorientierten Fünf mit Sechserflügel sucht die Fünf mit Viererflügel nicht das geprüfte Fundament, sondern die emotionale Wahrheit über sich selbst, und die Behauptung der eigenen, unvergleichlichen Individualität.</p>
+          <p class="vb-intro">Kein Denker der Aufklärung stellte die eigene Einzigartigkeit so explizit ins Zentrum seines Werks wie Rousseau. Während seine Zeitgenossen (Voltaire, Diderot, die Enzyklopädisten) die Vernunft über das Gefühl stellten, kehrte Rousseau dieses Verhältnis um: Das eigene, unverwechselbare Empfinden wurde bei ihm zur höchsten Erkenntnisquelle. Diese Haltung trug ihn in erbitterte, oft persönlich verletzende Fehden mit nahezu allen führenden Denkern seiner Zeit – mit Voltaire, mit David Hume, mit seinem einstigen engen Freund Diderot. Rousseau erlebte diese Brüche zunehmend als Verfolgung, zog sich in den letzten Lebensjahren in wachsende Isolation und Misstrauen zurück – eine Entwicklung, die viele Biografen als beginnende Verfolgungsangst deuten, aber auch als die logische Zuspitzung eines Menschen, der seine radikale Andersartigkeit gegen eine ganze intellektuelle Elite verteidigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Gesellschaftsvertrag und das Kind, das er nicht behielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rousseaus politische Philosophie – allen voran <em>Der Gesellschaftsvertrag</em> (1762) mit seiner Idee vom „allgemeinen Willen" – prägte die Französische Revolution und das moderne Verständnis von Volkssouveränität nachhaltig. Auch hier zeigt sich die charakteristische Fünfer-Bewegung: der Rückzug von der unmittelbaren sozialen Wirklichkeit in ein durchdachtes, in sich geschlossenes Gedankensystem, das dann mit beispielloser Wirkung in die Welt zurückwirkte.</p>
+          <p class="vb-intro">Der dunkelste Widerspruch seines Lebens liegt in seinem Umgang mit den eigenen fünf Kindern, die er mit seiner Lebensgefährtin Thérèse Levasseur hatte: Alle fünf gab er unmittelbar nach der Geburt in ein Findelhaus, ohne sie je wiederzusehen – während er gleichzeitig mit <em>Émile oder Über die Erziehung</em> (1762) eines der einflussreichsten pädagogischen Werke der Geistesgeschichte verfasste. Diese Kluft zwischen dem öffentlich verkündeten Ideal und dem privat gelebten Versagen ist selbst Teil seines <em>Bekenntnisse</em>-Projekts: Er verschwieg sie nicht, sondern legte auch diese Schuld schonungslos offen – als hätte das Aussprechen der Wahrheit für ihn schwerer gewogen als die Tat selbst ungeschehen zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht schuf die SX5w4 in Rousseau eine der folgenreichsten Selbstoffenbarungen der Literaturgeschichte – ein Werk, das die Autobiografie als literarische Form revolutionierte, indem es zeigte, dass radikale emotionale Ehrlichkeit selbst über gesellschaftliche Konventionen hinweg trägt. Seine Idee, dass das eigene, unverfälschte Gefühl eine eigenständige Wahrheit besitzt, wurde zur Grundlage der gesamten Romantik.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: eine wachsende Selbstisolation, tiefes Misstrauen gegenüber ehemals engen Freunden, eine Neigung, jede Kritik als Verschwörung zu deuten. Und, am schwersten wiegend, die Bereitschaft, die eigenen Kinder wegzugeben, während er öffentlich über die ideale Erziehung schrieb – ein Muster, in dem die radikale Selbstbezogenheit der sexuellen Fünf mit Viererflügel unbarmherzig sichtbar wird: die eigene innere Wahrheit wog schwerer als die konkrete Verantwortung für andere Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom einsamen Wanderer zur geteilten Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht das, was ich bin, überhaupt aus, um mich zu zeigen?</em> zur Erkenntnis <em>Die eigene Wahrheit wird nicht kleiner, wenn ich Verantwortung für ihre Folgen übernehme.</em> Für die SX5w4 bedeutet das, radikale Ehrlichkeit über sich selbst nicht als Ersatz für gelebte Fürsorge zu nutzen, sondern als deren Ergänzung – die eigene Einzigartigkeit zu zeigen, ohne die Menschen zu verlieren, die davon unmittelbar betroffen sind.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Rousseaus letzte Lebensjahre waren von zunehmender Paranoia, körperlichen Beschwerden und schließlich einem plötzlichen Tod 1778 geprägt, vermutlich durch eine Hirnblutung – Ursachen, die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine wachsende Verfolgungsangst mit seinem Grundmuster radikaler Selbstoffenlegung und anschließender Verwundbarkeit verwoben war. Rousseau kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Leidenschaft nach schonungsloser innerer Wahrheit ungebremst aus, ohne die Sprache, um zu erkennen, dass dieselbe Offenheit, die sein Werk unsterblich machte, ihn zugleich zunehmend isolierte – nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-taylor-swift", label:"Porträt: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
       ])}
     </div>
   `);
@@ -139164,6 +139236,7 @@ function render() {
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
+      "beruehmte-jean-jacques-rousseau": jeanJacquesRousseauPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,

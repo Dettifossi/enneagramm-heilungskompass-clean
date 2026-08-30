@@ -1,3 +1,93 @@
+function enneagrammEmotionalitaetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagramm und Emotionalit\u00e4t", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
+      <p class="psycho-intro">Emotionalit\u00e4t ist im Enneagramm bewusst wertfrei zu verstehen. Sie ist weder gut noch schlecht \u2014 sie ist Energie, die eine Richtung sucht. Im bewussten Zustand kann Emotionalit\u00e4t eine besondere Qualit\u00e4t sein: ein Segen f\u00fcr andere und f\u00fcr sich selbst, eine Quelle von W\u00e4rme, Tiefe und lebendiger Verbindung. In unbewussten Phasen des Lebens jedoch kann dieselbe Emotionalit\u00e4t genauso zum Fluch werden \u2014 f\u00fcr die Mitmenschen und pl\u00f6tzlich auch f\u00fcr die betroffene Person selbst. Es ist dieselbe Kraft, die tr\u00e4gt oder \u00fcberflutet, verbindet oder verstrickt \u2014 je nachdem, wie viel Bewusstheit ihr zur Seite steht.</p>
+      <img src="./assets/enneagramm-emotionalitaet.jpg" alt="Enneagramm und Emotionalit\u00e4t \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
+        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene emotionale Grundf\u00e4rbung \u2014 eine Art, wie Gef\u00fchl entsteht, sich zeigt, gestaut oder ausgedr\u00fcckt wird. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zur Gabe oder zur Last wird. Im bewussten Zustand wird Emotionalit\u00e4t zu einem Instrument der Wahrnehmung: Sie macht empf\u00e4nglich f\u00fcr die Not und die Freude anderer, sie verleiht Ausdruck Tiefe, sie schafft echte N\u00e4he. Im unbewussten Zustand dagegen l\u00e4uft dieselbe Emotionalit\u00e4t ungefiltert \u2014 sie \u00fcberschwemmt, manipuliert, verwirrt oder erstarrt, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
+        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Emotionalit\u00e4t bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn sie unbewusst das Steuer \u00fcbernimmt. Es ist derselbe Rohstoff, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('emo-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="emo-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2014 Die Emotionalit\u00e4t der Richtigkeit</h3>
+        <p class="vb-intro">Beim Typ 1 zeigt sich Emotionalit\u00e4t selten roh, sondern meist gefiltert durch das innere Gericht: Bevor ein Gef\u00fchl gezeigt wird, wird gepr\u00fcft, ob es angemessen ist. Bewusst gelebt wird daraus eine warme, verl\u00e4ssliche Anteilnahme \u2014 ein Gef\u00fchl, das genau dort ansetzt, wo es wirklich gebraucht wird, ohne \u00dcbertreibung, aber mit echtem Ernst.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich eine stille, f\u00fcrsorgliche Sorgfalt im Allt\u00e4glichen \u2014 Gef\u00fchl, das sich in Ordnung und Verl\u00e4sslichkeit ausdr\u00fcckt. Unbewusst kann daraus permanente innere Anspannung werden, ein st\u00e4ndiges \u00c4rgergef\u00fchl \u00fcber das, was nicht stimmt, das sich in Reizbarkeit oder stillem Groll entl\u00e4dt.</p>
+        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst wird Emotionalit\u00e4t zu engagiertem Verantwortungsgef\u00fchl f\u00fcr das Ganze \u2014 ein Mitgef\u00fchl, das sich f\u00fcr gerechte Verh\u00e4ltnisse einsetzt. Unbewusst kippt es in moralische Emp\u00f6rung, in ein Gef\u00fchl der eigenen Rechtschaffenheit, das andere klein macht.</p>
+        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst entsteht eine leidenschaftliche, fast missionarische Intensit\u00e4t im Gef\u00fchl f\u00fcr den anderen \u2014 Emotionalit\u00e4t als Antrieb, die Welt f\u00fcr den Partner besser zu machen. Unbewusst wird daraus Kontrolle im Gewand der F\u00fcrsorge, ein Gef\u00fchl, das dem anderen die eigene Sicht der Dinge aufdr\u00e4ngt.</p>
+
+        <h3 id="emo-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2014 Die Emotionalit\u00e4t der Zuwendung</h3>
+        <p class="vb-intro">Beim Typ 2 ist Emotionalit\u00e4t von Anfang an nach au\u00dfen gerichtet: auf das Gef\u00fchl des anderen, auf dessen Bed\u00fcrfnis, auf die Beziehung. Bewusst gelebt wird daraus echte Empathie \u2014 ein Gef\u00fchl, das tr\u00e4gt, ohne zu vereinnahmen. Unbewusst wird dasselbe Gef\u00fchl zum Mittel, gebraucht zu werden.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich eine liebevolle, fast kindliche W\u00e4rme im engen Kreis \u2014 ein Gef\u00fchl, das Geborgenheit schafft. Unbewusst wird daraus Anh\u00e4nglichkeit und ein stilles Fordern von Aufmerksamkeit, das sich hinter Charme verbirgt.</p>
+        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht ein gro\u00dfz\u00fcgiges, gemeinschaftsstiftendes Mitgef\u00fchl, das viele einschlie\u00dft. Unbewusst kippt es in ein Gef\u00fchl von Unentbehrlichkeit \u2014 die Emotionalit\u00e4t wird zum Beweis der eigenen Wichtigkeit f\u00fcr die Gruppe.</p>
+        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich eine tiefe, hingebungsvolle Intensit\u00e4t in der N\u00e4he zu einem einzelnen Menschen \u2014 verf\u00fchrerische W\u00e4rme, die wirklich beim anderen ist. Unbewusst wird daraus emotionale Vereinnahmung, ein Gef\u00fchl, das den anderen besitzen will, um sich selbst gesehen zu f\u00fchlen.</p>
+
+        <h3 id="emo-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2014 Die Emotionalit\u00e4t der Leistung</h3>
+        <p class="vb-intro">Beim Typ 3 wird Gef\u00fchl h\u00e4ufig zuerst reguliert, dann erst zugelassen \u2014 es darf nicht im Weg stehen. Bewusst gelebt wird daraus eine ansteckende, motivierende emotionale Energie, die andere mitrei\u00dft. Unbewusst wird Gef\u00fchl zur Nebensache, verdr\u00e4ngt zugunsten von Funktion und Erfolg.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich ruhige, sachliche W\u00e4rme, die sich in Zuverl\u00e4ssigkeit und stiller F\u00fcrsorge ausdr\u00fcckt. Unbewusst wird Gef\u00fchl komplett dem Funktionieren untergeordnet \u2014 Ersch\u00f6pfung und innere Leere, die nach au\u00dfen nicht sichtbar werden d\u00fcrfen.</p>
+        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht begeisternde, teamstiftende Energie \u2014 ein Gef\u00fchl, das andere f\u00fcr ein gemeinsames Ziel entflammt. Unbewusst wird Emotionalit\u00e4t zur Inszenierung, zum Mittel, bewundert zu werden, ohne dass echte Verletzlichkeit gezeigt wird.</p>
+        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich intensive, anziehende Leidenschaft, echte Begeisterungsf\u00e4higkeit f\u00fcr den Partner und das gemeinsame Projekt. Unbewusst wird daraus ein Gef\u00fchl, das vor allem beeindrucken will \u2014 N\u00e4he, die an Erfolg und Attraktivit\u00e4t gekn\u00fcpft bleibt.</p>
+
+        <h3 id="emo-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2014 Die Emotionalit\u00e4t der Tiefe</h3>
+        <p class="vb-intro">Beim Typ 4 ist Emotionalit\u00e4t die eigentliche Muttersprache \u2014 hier wird das Gef\u00fchl direkter erlebt und ausgedr\u00fcckt als bei jedem anderen Typ. Bewusst gelebt wird daraus eine seltene F\u00e4higkeit, Gef\u00fchl in Sch\u00f6nheit, Kunst und echte Begegnung zu verwandeln. Unbewusst wird dieselbe Intensit\u00e4t zur Falle, aus der kein Weg herauszuf\u00fchren scheint.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich stille, standhafte emotionale Tiefe, die auch schwere Gef\u00fchle tr\u00e4gt, ohne daran zu zerbrechen. Unbewusst wird daraus z\u00e4her, stiller Leidensdruck \u2014 ein Gef\u00fchl von Entbehrung, das sich kaum mitteilt und innerlich zehrt.</p>
+        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht eine F\u00e4higkeit, das eigene Leid in etwas zu verwandeln, das anderen Trost und Verst\u00e4ndnis schenkt. Unbewusst kippt es in das Gef\u00fchl, mit dem eigenen Schmerz besonders und unverstanden zu sein \u2014 Scham, die sich zur\u00fcckzieht oder anklagt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich vulkanische, unmittelbare emotionale Ehrlichkeit, die echte, ungesch\u00f6nte N\u00e4he erm\u00f6glicht. Unbewusst wird daraus dramatische Auf- und Abw\u00e4rtsbewegung, ein Gef\u00fchl, das N\u00e4he sucht, indem es Konflikt und Intensit\u00e4t provoziert.</p>
+
+        <h3 id="emo-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2014 Die Emotionalit\u00e4t des R\u00fcckzugs</h3>
+        <p class="vb-intro">Beim Typ 5 wird Gef\u00fchl zun\u00e4chst nicht ausgedr\u00fcckt, sondern beobachtet \u2014 oft aus sicherer innerer Distanz. Bewusst gelebt wird daraus eine seltene emotionale Klarheit: Gef\u00fchl, das nicht \u00fcberschwemmt, sondern pr\u00e4zise erkannt und dann bewusst geteilt wird. Unbewusst wird dieselbe Distanz zur Mauer.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich eine ruhige, in sich gefestigte Gen\u00fcgsamkeit, die anderen Sicherheit vermittelt. Unbewusst wird daraus emotionale Abschottung \u2014 R\u00fcckzug in ein kleines, kontrolliertes Refugium, aus dem Gef\u00fchl kaum noch nach au\u00dfen dringt.</p>
+        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht ein sachliches, aber echtes Interesse am inneren Leben anderer \u2014 Gef\u00fchl, das \u00fcber Verstehen ausgedr\u00fcckt wird. Unbewusst kippt es in \u00fcberlegene Distanz, ein Gef\u00fchl, das sich hinter Wissen und Beobachtung versteckt, statt sich zu zeigen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich \u00fcberraschend intensive, fast schw\u00e4rmerische Hingabe an einen einzelnen Menschen oder ein Thema. Unbewusst wird daraus verzehrende innere Vertiefung, die sich \u00e4u\u00dferlich kaum zeigt und den anderen im Ungewissen l\u00e4sst.</p>
+
+        <h3 id="emo-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2014 Die Emotionalit\u00e4t der Wachsamkeit</h3>
+        <p class="vb-intro">Beim Typ 6 ist Gef\u00fchl eng mit Sicherheit verkn\u00fcpft \u2014 es entsteht als Antwort auf wahrgenommene Bedrohung oder Verbindung. Bewusst gelebt wird daraus loyale, verl\u00e4ssliche W\u00e4rme und ein feines Gesp\u00fcr f\u00fcr die Gef\u00fchle anderer. Unbewusst wird dieselbe Sensibilit\u00e4t zur Quelle st\u00e4ndiger innerer Unruhe.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich warme, famili\u00e4re Verbundenheit, die Sicherheit im engen Kreis schafft. Unbewusst wird daraus \u00e4ngstliche Anh\u00e4nglichkeit \u2014 ein Gef\u00fchl, das sich an Vertraute klammert, aus Furcht vor dem Alleinsein.</p>
+        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht Loyalit\u00e4t und emotionales Engagement f\u00fcr die Gruppe, echtes Pflichtgef\u00fchl. Unbewusst kippt es in Misstrauen und die Suche nach klaren Autorit\u00e4ten, an denen sich das eigene Gef\u00fchl festmachen kann.</p>
+        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutige, kraftvolle emotionale Intensit\u00e4t, die N\u00e4he direkt und ungesch\u00fctzt sucht. Unbewusst wird daraus impulsive Heftigkeit \u2014 ein Gef\u00fchl, das die eigene Angst durch Angriff statt durch R\u00fcckzug beantwortet.</p>
+
+        <h3 id="emo-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2014 Die Emotionalit\u00e4t der Begeisterung</h3>
+        <p class="vb-intro">Beim Typ 7 sucht Gef\u00fchl instinktiv die leichte, angenehme Seite \u2014 schwere Emotionen werden schnell umgedeutet oder \u00fcberspielt. Bewusst gelebt wird daraus ansteckende Lebensfreude, die auch andere aus schweren Momenten holt. Unbewusst wird dieselbe Leichtigkeit zur Flucht.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktische, erdende Fr\u00f6hlichkeit, die Sicherheit mit Genuss verbindet. Unbewusst wird daraus rastlose Ablenkung \u2014 ein Gef\u00fchl, das st\u00e4ndig nach dem n\u00e4chsten angenehmen Reiz sucht, um Unruhe nicht sp\u00fcren zu m\u00fcssen.</p>
+        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht gro\u00dfz\u00fcgige, idealistische Begeisterung, die andere f\u00fcr eine gute Sache mitrei\u00dft. Unbewusst kippt es in Selbstaufopferung mit verstecktem Groll \u2014 Gef\u00fchl, das gibt, aber innerlich z\u00e4hlt, was es zur\u00fcckbekommt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich intensive, verzaubernde Begeisterungsf\u00e4higkeit, die andere mit ihrer Vision ansteckt. Unbewusst wird daraus impulsive Idealisierung \u2014 ein Gef\u00fchl, das sich schnell verliebt, um ebenso schnell zu entt\u00e4uschen und weiterzuziehen.</p>
+
+        <h3 id="emo-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2014 Die Emotionalit\u00e4t der Kraft</h3>
+        <p class="vb-intro">Beim Typ 8 wird Gef\u00fchl selten als solches benannt \u2014 es zeigt sich h\u00e4ufig als Handlung, als Energie, als Pr\u00e4senz. Bewusst gelebt wird daraus starke, besch\u00fctzende Zuwendung, die anderen Sicherheit gibt. Unbewusst wird dieselbe Kraft zur Wucht, die \u00fcberrollt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robuste, unkomplizierte F\u00fcrsorge \u2014 Gef\u00fchl, das sich in Handeln und Versorgen ausdr\u00fcckt. Unbewusst wird daraus Dickfelligkeit, ein \u00dcberspielen eigener Verletzlichkeit durch immer mehr Kontrolle.</p>
+        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht loyale, aufopfernde Kraft im Dienst einer Gruppe oder Sache, ein Gef\u00fchl von Verantwortung, das tr\u00e4gt. Unbewusst kippt es in autorit\u00e4res Dominanzverhalten \u2014 Emotionalit\u00e4t, die keine Gegenmeinung duldet.</p>
+        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich intensive, hingebungsvolle Leidenschaft, die den Partner ganz und kompromisslos liebt. Unbewusst wird daraus besitzergreifende Heftigkeit \u2014 ein Gef\u00fchl, das N\u00e4he mit Kontrolle verwechselt.</p>
+
+        <h3 id="emo-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2014 Die Emotionalit\u00e4t der Harmonie</h3>
+        <p class="vb-intro">Beim Typ 9 wird eigenes Gef\u00fchl h\u00e4ufig zuerst zur\u00fcckgestellt, um Frieden zu wahren \u2014 die eigene Emotionalit\u00e4t tritt hinter die der anderen zur\u00fcck. Bewusst gelebt wird daraus eine seltene, umfassende F\u00e4higkeit zum Mitgef\u00fchl, die viele Perspektiven zugleich halten kann. Unbewusst wird dieselbe F\u00e4higkeit zum Verschwinden im Gef\u00fchl anderer.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich stille, tragende Gelassenheit, die Geborgenheit ausstrahlt, ohne viel Aufhebens zu machen. Unbewusst wird daraus emotionale Bet\u00e4ubung \u2014 ein R\u00fcckzug in Gewohnheit und Ablenkung, um das eigene Gef\u00fchl gar nicht erst sp\u00fcren zu m\u00fcssen.</p>
+        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht eine warme, verbindende Pr\u00e4senz, die Gruppen zusammenh\u00e4lt, ohne sich in den Vordergrund zu dr\u00e4ngen. Unbewusst kippt es in Selbstverleugnung \u2014 ein Gef\u00fchl, das sich f\u00fcr alle einsetzt, nur f\u00fcr sich selbst nicht.</p>
+        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensive, verschmelzende Hingabe an einen geliebten Menschen \u2014 Gef\u00fchl, das sich ganz auf den anderen einl\u00e4sst. Unbewusst wird daraus Selbstaufgabe, ein Verlust der eigenen Identit\u00e4t im Gef\u00fchl und in den Vorlieben des Partners.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-unserer-beziehungen", "Wie die 9 Typen N\u00e4he, Bindung und Gef\u00fchl in Beziehungen erleben \u2014 und was jeder Typ braucht, um emotional wirklich anzukommen.", "Die Sprache unserer Beziehungen")}
+        ${bookTip("sprache-der-sexualit\u00e4t", "Emotionalit\u00e4t und Instinkt im Zusammenspiel \u2014 wie sich Gef\u00fchl und Begehren bei den 9 Typen und ihren Subtypen verbinden.", "Die Sprache unserer Sexualit\u00e4t")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
+      </div>
+      ${relatedLinks([
+        {route:"basisemotionen", label:"Basisemotionen der 9 Typen"},
+        {route:"zornverhalten", label:"Zornverhalten der 9 Typen"},
+        {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+      ])}
+    </div>
+  `);
+}
+
 function enneagrammInstinktPage() {
   return shell(`
     <div class="page-container">

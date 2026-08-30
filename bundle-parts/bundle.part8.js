@@ -3428,6 +3428,73 @@ function fredericChopinPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Portr\xe4t: Jean-Jacques Rousseau (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanJacquesRousseauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jean-jacques-rousseau-portrait.jpg" alt="Jean-Jacques Rousseau" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Jacques Rousseau</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Schriftsteller, Komponist, 1712–1778 – Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der sich der Welt in einem einzigen Buch ganz öffnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf: von Natur aus scheu, mit eingezogenen Stacheln der Welt gegenüber – und doch fähig zu einer radikalen, fast unerträglichen Offenheit, sobald er sich einem Gegenüber, einer Idee oder, in einem einzigartigen Fall der Literaturgeschichte, einem ganzen Lesepublikum zumutet. Wo die selbsterhaltende Fünf sich verschanzt und die soziale Fünf ihr Wissen kontrolliert weitergibt, sucht die sexuelle Fünf die totale, ungeschützte Selbstoffenbarung.</p>
+          <p class="vb-intro">Jean-Jacques Rousseau, geboren 1712 in Genf als Sohn eines Uhrmachers, verlor seine Mutter wenige Tage nach der Geburt und wuchs in einer von früher Einsamkeit geprägten Kindheit auf – mit zehn Jahren von seinem Vater verlassen, danach bei Verwandten und Lehrmeistern herumgereicht, ein Leben lang ruhelos zwischen Städten, Gönnern und Liebesbeziehungen wandernd, ohne je wirklich sesshaft zu werden. Aus dieser frühen Erfahrung des Alleingelassenseins entstand kein Rückzug, sondern das Gegenteil: ein unstillbares Bedürfnis, sich am Ende seines Lebens der ganzen Welt so schonungslos zu zeigen, wie es vor ihm niemand gewagt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als radikale Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt das Gegenprinzip der sexuellen Fünf als <em>Vertrauen</em> – die für einen typischerweise distanzierten Typ paradoxe Fähigkeit, sich einem Gegenüber oder einer Sache radikal zu öffnen, während man allen anderen gegenüber verschlossen bleibt. Bei den meisten SX5 bleibt dieses Vertrauen auf eine einzige enge Beziehung beschränkt. Rousseau erweiterte es auf etwas Beispielloses: ein ganzes Buch, geschrieben mit dem erklärten Ziel, sich selbst so vollständig offenzulegen, wie es „noch kein Mensch gewagt hat und wie es nach mir keiner unternehmen wird".</p>
+          <p class="vb-intro">Seine <em>Bekenntnisse</em> (postum veröffentlicht 1782) beginnen mit dem für die Vier-Verwandtschaft der SX5 charakteristischen Satz: „Ich bin nicht gemacht wie irgendeiner, den ich gesehen habe; ich wage zu glauben, dass ich nicht gemacht bin wie irgendeiner, der existiert." Das Buch berichtet freimütig von Diebstählen, sexuellen Verirrungen, Selbstbefriedigung, Exhibitionismus und Scham – ein Ausmaß an Selbstoffenlegung, das seine Zeitgenossen schockierte und das erst posthum in voller Länge veröffentlicht wurde. Das ist der Igel, der sich einmal ganz öffnet: nicht in kleinen Schritten, sondern in einer einzigen, kompromisslosen Geste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Einzigartigkeit als Programm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Viererflügel verstärkt bei der Fünf die introspektive, gefühlsbetonte Seite – im Unterschied zur strukturierteren, sicherheitsorientierten Fünf mit Sechserflügel sucht die Fünf mit Viererflügel nicht das geprüfte Fundament, sondern die emotionale Wahrheit über sich selbst, und die Behauptung der eigenen, unvergleichlichen Individualität.</p>
+          <p class="vb-intro">Kein Denker der Aufklärung stellte die eigene Einzigartigkeit so explizit ins Zentrum seines Werks wie Rousseau. Während seine Zeitgenossen (Voltaire, Diderot, die Enzyklopädisten) die Vernunft über das Gefühl stellten, kehrte Rousseau dieses Verhältnis um: Das eigene, unverwechselbare Empfinden wurde bei ihm zur höchsten Erkenntnisquelle. Diese Haltung trug ihn in erbitterte, oft persönlich verletzende Fehden mit nahezu allen führenden Denkern seiner Zeit – mit Voltaire, mit David Hume, mit seinem einstigen engen Freund Diderot. Rousseau erlebte diese Brüche zunehmend als Verfolgung, zog sich in den letzten Lebensjahren in wachsende Isolation und Misstrauen zurück – eine Entwicklung, die viele Biografen als beginnende Verfolgungsangst deuten, aber auch als die logische Zuspitzung eines Menschen, der seine radikale Andersartigkeit gegen eine ganze intellektuelle Elite verteidigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Gesellschaftsvertrag und das Kind, das er nicht behielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rousseaus politische Philosophie – allen voran <em>Der Gesellschaftsvertrag</em> (1762) mit seiner Idee vom „allgemeinen Willen" – prägte die Französische Revolution und das moderne Verständnis von Volkssouveränität nachhaltig. Auch hier zeigt sich die charakteristische Fünfer-Bewegung: der Rückzug von der unmittelbaren sozialen Wirklichkeit in ein durchdachtes, in sich geschlossenes Gedankensystem, das dann mit beispielloser Wirkung in die Welt zurückwirkte.</p>
+          <p class="vb-intro">Der dunkelste Widerspruch seines Lebens liegt in seinem Umgang mit den eigenen fünf Kindern, die er mit seiner Lebensgefährtin Thérèse Levasseur hatte: Alle fünf gab er unmittelbar nach der Geburt in ein Findelhaus, ohne sie je wiederzusehen – während er gleichzeitig mit <em>Émile oder Über die Erziehung</em> (1762) eines der einflussreichsten pädagogischen Werke der Geistesgeschichte verfasste. Diese Kluft zwischen dem öffentlich verkündeten Ideal und dem privat gelebten Versagen ist selbst Teil seines <em>Bekenntnisse</em>-Projekts: Er verschwieg sie nicht, sondern legte auch diese Schuld schonungslos offen – als hätte das Aussprechen der Wahrheit für ihn schwerer gewogen als die Tat selbst ungeschehen zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht schuf die SX5w4 in Rousseau eine der folgenreichsten Selbstoffenbarungen der Literaturgeschichte – ein Werk, das die Autobiografie als literarische Form revolutionierte, indem es zeigte, dass radikale emotionale Ehrlichkeit selbst über gesellschaftliche Konventionen hinweg trägt. Seine Idee, dass das eigene, unverfälschte Gefühl eine eigenständige Wahrheit besitzt, wurde zur Grundlage der gesamten Romantik.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: eine wachsende Selbstisolation, tiefes Misstrauen gegenüber ehemals engen Freunden, eine Neigung, jede Kritik als Verschwörung zu deuten. Und, am schwersten wiegend, die Bereitschaft, die eigenen Kinder wegzugeben, während er öffentlich über die ideale Erziehung schrieb – ein Muster, in dem die radikale Selbstbezogenheit der sexuellen Fünf mit Viererflügel unbarmherzig sichtbar wird: die eigene innere Wahrheit wog schwerer als die konkrete Verantwortung für andere Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom einsamen Wanderer zur geteilten Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht das, was ich bin, überhaupt aus, um mich zu zeigen?</em> zur Erkenntnis <em>Die eigene Wahrheit wird nicht kleiner, wenn ich Verantwortung für ihre Folgen übernehme.</em> Für die SX5w4 bedeutet das, radikale Ehrlichkeit über sich selbst nicht als Ersatz für gelebte Fürsorge zu nutzen, sondern als deren Ergänzung – die eigene Einzigartigkeit zu zeigen, ohne die Menschen zu verlieren, die davon unmittelbar betroffen sind.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Rousseaus letzte Lebensjahre waren von zunehmender Paranoia, körperlichen Beschwerden und schließlich einem plötzlichen Tod 1778 geprägt, vermutlich durch eine Hirnblutung – Ursachen, die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine wachsende Verfolgungsangst mit seinem Grundmuster radikaler Selbstoffenlegung und anschließender Verwundbarkeit verwoben war. Rousseau kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Leidenschaft nach schonungsloser innerer Wahrheit ungebremst aus, ohne die Sprache, um zu erkennen, dass dieselbe Offenheit, die sein Werk unsterblich machte, ihn zugleich zunehmend isolierte – nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-taylor-swift", label:"Porträt: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
       ])}
     </div>
   `);
@@ -7085,130 +7152,3 @@ function madelineStuartPortraitPage() {
     </div>
   `);
 }
-function mariacarlaBosconoPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-mariacarla-boscono-portrait.jpg" alt="Mariacarla Boscono – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Mariacarla Boscono</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Italienisches Model, geb. 1980 in Rom &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen wahre Kraft sich erst zeigt, wenn eine enge, verlässliche Verbindung entstanden ist. Mariacarla Boscono, 1980 in Rom geboren, wurde bereits mit 15 Jahren beim Festivalbar 1995 entdeckt und unterschrieb bei Piero Piazzi von Ricardo Gay in Mailand – ein früher Start, der jedoch erst durch eine einzige, jahrzehntelange Verbindung zu ihrer eigentlichen Bedeutung fand.</p>
-          <p class="vb-intro">2005 setzte sie einen Weltrekord: Innerhalb von zwei Wochen lief sie auf mehr als 70 Laufstegen in Mailand, New York und Paris – eine enorme körperliche und terminliche Leistung, die zeigt, wie sehr Boscono bereit war, sich in ihrem gewählten Metier vollständig zu verausgaben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch eine einzige, tiefe kreative Bindung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Nähe entsteht zuerst in einer einzigen, sehr engen Verbindung, bevor sie sich nach außen ausweitet. Ab 2005 begann Boscono eine Zusammenarbeit mit Designer und bestem Freund Riccardo Tisci, die dabei half, die ästhetische Identität von Givenchy mitzuprägen, bis Tisci das Haus 2017 verließ.</p>
-          <p class="vb-intro">Diese Partnerschaft ging weit über eine gewöhnliche Muse-Designer-Beziehung hinaus – Boscono wurde über mehr als ein Jahrzehnt zur festen, verlässlichen kreativen Bezugsperson für Tisci, sowohl bei Givenchy als auch später bei Burberry. Fürsorge, ausgedrückt durch jahrelange, treue kreative Präsenz an der Seite eines einzigen engen Vertrauten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Die sichtbarste Muse der internationalen Modewelt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer engen, verlässlichen Basis heraus doch größtmögliche öffentliche Sichtbarkeit zu suchen. Boscono erschien in Kampagnen für Chanel, La Perla, Dior, Saint Laurent und Prada und zierte Cover von Vogue Italia, LOVE Magazine, Vogue China, Glamour Italy und Harper's Bazaar Spain.</p>
-          <p class="vb-intro">Ihr Weltrekord von über 70 Laufstegauftritten in zwei Wochen ist die konkreteste Verkörperung dieses Antriebs: maximale, öffentlich messbare Präsenz, erreicht durch dieselbe Frau, die zugleich ihre engste kreative Bindung über mehr als ein Jahrzehnt hinweg unverändert pflegte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, eine einzige, tiefe kreative Partnerschaft – mit Riccardo Tisci – über mehr als ein Jahrzehnt zu tragen und gleichzeitig zu einer der international sichtbarsten Musen der Modewelt zu werden, ohne diese enge Bindung dafür aufzugeben.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den kreativen Erfolg eines anderen unentbehrlich zu sein. Bei der SE2w3 kann sich das mit einer Identität verbinden, die eng an eine einzige zentrale Beziehung gebunden bleibt – eine Stärke, solange diese Beziehung Bestand hat, aber auch eine Verwundbarkeit, sollte sie einmal enden, wie sich 2017 mit Tiscis Weggang von Givenchy zeigte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Von Festivalbar 1995 zur Muse zweier Modehäuser</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Von der Entdeckung mit 15 Jahren über den Weltrekord von 2005 bis zur mehr als zehnjährigen Zusammenarbeit mit Riccardo Tisci bei Givenchy und Burberry zieht sich ein roter Faden durch Bosconos Werk: außergewöhnliche öffentliche Sichtbarkeit, getragen von einer einzigen, tiefen und dauerhaften kreativen Bindung.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es verteidigt seine engste Verbindung, während es sein Revier nach außen erweitert. Mariacarla Bosconos Weg von Rom zur internationalen Muse zweier großer Modehäuser ist dieser Antrieb in Reinform: Weltruhm, der aus der Treue zu einer einzigen, engen kreativen Partnerschaft erwuchs.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function jackBlackPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-jack-black-portrait.jpg" alt="Jack Black" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jack Black</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schauspieler &amp; Musiker, geb. 1969 &ndash; School of Rock, Tenacious D &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das man untersch\u00e4tzt, bis man seine wahre Kraft zu sp\u00fcren bekommt. Es wirkt plump, laut, tollpatschig &ndash; und ist zugleich eines der gef\u00e4hrlichsten Tiere Afrikas, sobald sein Territorium bedroht scheint. Genau diese Doppelnatur, Clownerie an der Oberfl\u00e4che, unb\u00e4ndige Energie darunter, ist Jack Blacks Markenzeichen.</p>
-          <p class="vb-intro">Kaum ein US-amerikanischer Schauspieler wirft sich mit solcher k\u00f6rperlichen R\u00fcckhaltlosigkeit in eine Rolle wie Jack Black. Die ausladende Mimik, die theatralischen Gesten, die Lautst\u00e4rke, mit der er einen Raum f\u00fcllt &ndash; das trägt eine klare Handschrift – die Energie des Flusspferds unverfälscht: erst scheinbar harmlos komisch, dann pl\u00f6tzlich mit einer Wucht da, der sich niemand entziehen kann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: F\u00fcrsorge mit vollem K\u00f6rpereinsatz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei am unmittelbarsten auf das eigene \u00dcberleben und das ihres engsten Umfelds. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; keine Egozentrik, sondern die \u00dcberzeugung, dass man selbst zuerst stabil, versorgt und lebendig sein muss, um f\u00fcr andere da sein zu k\u00f6nnen. Die SE2 ist die konkreteste, k\u00f6rperlichste der drei Zweier-Varianten &ndash; sie gibt nicht abstrakt, sie gibt mit vollem Einsatz.</p>
-          <p class="vb-intro">Bei Jack Black zeigt sich das in seiner Art, F\u00fcrsorge und Unterhaltung untrennbar zu verschmelzen. In <em>School of Rock</em> spielt er einen gescheiterten Musiker, der eine Klasse verklemmter Kinder durch Rockmusik zum Leben erweckt &ndash; nicht durch Belehrung, sondern durch reine, ansteckende Energie. Die Figur Dewey Finn ist im Kern eine SE2: Er gibt alles, was er hat, damit andere aufbl\u00fchen, und tut das nicht leise, sondern mit gr\u00f6\u00dftm\u00f6glicher Lautst\u00e4rke.</p>
-          <p class="vb-intro">Auch privat tr\u00e4gt Jack Black diese Qualit\u00e4t: Er gilt als einer der zug\u00e4nglichsten, f\u00fcrsorglichsten Stars Hollywoods im Umgang mit jungen Fans, mit seinem Bandkollegen Kyle Gass, mit seiner Familie. Die SE2 sorgt nicht aus der Distanz &ndash; sie sorgt, indem sie sich mitten hineinwirft.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Handwerk und Haltung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der selbsterhaltenden Zwei etwas, das ihrem Feuer eine Richtung gibt: einen inneren Ma\u00dfstab f\u00fcr Qualit\u00e4t und Ernsthaftigkeit. Wo eine Zwei mit schw\u00e4cherem Einserfl\u00fcgel sich in reiner Zuneigung ersch\u00f6pfen k\u00f6nnte, verlangt die Eins Handwerk, Disziplin, einen Standard, an dem gemessen wird.</p>
-          <p class="vb-intro">Bei Jack Black zeigt sich das am deutlichsten in seiner Musik. Mit Tenacious D betreibt er nicht blo\u00df eine Comedy-Band &ndash; er nimmt die Musik selbst ernst: technisch anspruchsvolle Gitarrenarbeit, sorgf\u00e4ltig komponierte Songs, eine tiefe, unironische Liebe zum Rock als Kunstform, verpackt in absurden Humor. Der Einserfl\u00fcgel verlangt, dass der Scherz auf echtem K\u00f6nnen ruht &ndash; sonst ist er nur L\u00e4rm.</p>
-          <p class="vb-intro">Auch seine Art, Filmprojekte auszuw\u00e4hlen, tr\u00e4gt diese Handschrift: Jack Black hat immer wieder betont, dass er Rollen ablehnt, die er f\u00fcr unehrlich oder qualitativ schwach h\u00e4lt. Die Eins im Hintergrund sagt: Nicht jede Gelegenheit f\u00fcr Applaus ist es wert, ergriffen zu werden. Es muss stimmen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w1 ist ihre F\u00e4higkeit, Freude als Geschenk zu geben, ohne sie kleinzureden. Jack Blacks Karriere, von den Anf\u00e4ngen im Independent-Kino \u00fcber <em>School of Rock</em> bis zu Welterfolgen wie den <em>Kung Fu Panda</em>-Filmen und dem <em>Minecraft</em>-Film, folgt einer klaren Linie: Er will, dass Menschen sich lebendig f\u00fchlen, wenn sie ihn sehen. Das ist kein Nebeneffekt seines Talents &ndash; es ist der Kern seines Antriebs.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die \u00dcberzeugung, durch das eigene Geben unentbehrlich zu sein. Bei der SE2w1 zeigt sich das als die stille Gewissheit: <em>Ich wei\u00df, wie man Freude macht, und das kann mir niemand nehmen.</em> Diese Gewissheit tr\u00e4gt, aber sie kann auch ersch\u00f6pfen &ndash; wer sich fortlaufend \u00fcber Energie und Unterhaltung definiert, riskiert, die eigenen ruhigeren, verletzlicheren Anteile zu \u00fcbergehen.</p>
-          <p class="vb-intro">Jack Black hat in Interviews offen \u00fcber Selbstzweifel, \u00c4ngste und die Herausforderungen des \u00c4lterwerdens in einer auf Jugend fixierten Branche gesprochen &ndash; ein Flusspferd, das auch einmal zugibt, dass das Wasser nicht immer tr\u00e4gt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Musik als zweites Territorium</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dass Jack Black neben der Schauspielerei eine ernsthafte Musikkarriere mit Tenacious D verfolgt, ist typisch f\u00fcr die SE2: Sie braucht mehrere Territorien, in denen sie ihre Kraft investieren kann. Die B\u00fchne mit der Gitarre ist ein Ort, an dem er nicht spielt, dass er lebendig ist &ndash; er ist es. Grammy-Nominierungen, ausverkaufte Tourneen, ein eigener Film (<em>Tenacious D in The Pick of Destiny</em>) &ndash; das Flusspferd verteidigt dieses zweite Revier mit derselben Hingabe wie das erste.</p>
-          <p class="vb-intro">Diese Doppelrolle, Filmstar und Rockmusiker, ist kein Widerspruch, sondern zwei Ausdrucksformen derselben Energie: vollst\u00e4ndige, k\u00f6rperliche, laute Hingabe an das, was gerade gebraucht wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Freude ohne Vorbehalt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Jack Black der Popkultur gegeben hat, ist eine seltene Erlaubnis: sich vollst\u00e4ndig, unironisch und ohne falsche Coolness der Freude hinzugeben. In einer Unterhaltungsindustrie, die oft auf Distanz und Ironie setzt, wirft er sich ungebremst hinein &ndash; und macht damit anderen Mut, es ihm gleichzutun.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE2w1: ein Flusspferd, das sein Territorium nicht mit Aggression verteidigt, sondern mit ansteckender Lebendigkeit f\u00fcllt. Wer Jack Black auf der B\u00fchne oder auf der Leinwand erlebt, sp\u00fcrt: Hier gibt jemand alles, was er hat &ndash; und genau darin liegt seine Kraft.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
-      ])}
-    </div>
-  `);
-}
-

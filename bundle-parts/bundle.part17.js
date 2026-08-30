@@ -5055,6 +5055,7 @@ function render() {
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
+      "beruehmte-jean-jacques-rousseau": jeanJacquesRousseauPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-friedrich-nietzsche": friedrichNietzschePortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
