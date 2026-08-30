@@ -1,3 +1,81 @@
+function christiaanBarnardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Dr. Christiaan Barnard – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Christiaan Barnard</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Südafrikanischer Herzchirurg, 1922–2001 – Erste Herztransplantation der Welt – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für den einen entscheidenden Sprint, der über Erfolg oder Misserfolg der Jagd entscheidet. Christiaan Barnard wagte am 3. Dezember 1967 genau diesen Sprint: Am Groote-Schuur-Krankenhaus in Kapstadt verpflanzte er als erster Mensch überhaupt ein menschliches Herz von einer verstorbenen Spenderin, Denise Darvall, in den Körper des schwer herzkranken Patienten Louis Washkansky.</p>
+          <p class="vb-intro">Der südafrikanische Chirurg Christiaan Barnard, geboren 1922 in Beaufort West als Sohn eines armen niederländisch-reformierten Missionars, arbeitete sich über ein Medizinstudium in Kapstadt und eine Spezialisierung in den USA bei dem renommierten Chirurgen Owen Wangensteen bis an die Weltspitze der Herzchirurgie vor. Der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut – und Barnard nutzte genau dieses Tempo, um eine Operation zu wagen, vor der viele etablierte Chirurgen seiner Zeit noch zurückschreckten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Ruhm über Nacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist für sie kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Sieht die Welt, was ich erreicht habe?</em> Kaum ein medizinischer Durchbruch der Geschichte beantwortete diese Frage so unmittelbar wie Barnards Operation: Innerhalb weniger Stunden stand sein Name auf den Titelseiten der Weltpresse.</p>
+          <p class="vb-intro">Barnard nahm diesen plötzlichen Weltruhm nicht zurückhaltend an, sondern mit sichtlicher Begeisterung. Er wurde zum gefragten Talkshow-Gast, reiste um die Welt, ließ sich mit Staatsoberhäuptern und Filmstars fotografieren und genoss die Rolle des charismatischen Pioniers in vollen Zügen. Die soziale Drei sucht die Bühne, sobald sie sich bietet – und Barnard bekam mit einem Schlag die größte Bühne, die die Medizin des 20. Jahrhunderts zu vergeben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Charme und Beziehungen als Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht allein durch Leistung, sondern durch persönliche Anziehungskraft und Nähe zu anderen gesucht. Barnard pflegte enge Freundschaften mit internationalen Filmstars wie Sophia Loren und Gina Lollobrigida, bewegte sich mühelos im Jetset seiner Zeit und war dreifach verheiratet – jeweils mit deutlich jüngeren Frauen, seine zweite Ehefrau war erst neunzehn, als sie heirateten.</p>
+          <p class="vb-intro">Diese Beziehungen waren für Barnard nicht nur privates Vergnügen, sondern Teil seiner öffentlichen Bühne: Der charmante, weltgewandte Chirurg, der ebenso selbstverständlich im Operationssaal wie auf dem roten Teppich auftrat. Die SO3w2 sucht Bestätigung nicht in Isolation, sondern im direkten, persönlichen Kontakt mit Menschen, die selbst im Rampenlicht stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis des ersten Sprungs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der gefeierte Durchbruch hatte eine bittere Kehrseite: Patient Louis Washkansky starb bereits 18 Tage nach der Operation an einer Lungenentzündung, ausgelöst durch die notwendige Unterdrückung seines Immunsystems – eine Komplikation, die erst Jahrzehnte später, mit der Entwicklung wirksamerer Immunsuppressiva, beherrschbar wurde. Auch mehrere folgende Transplantationspatienten überlebten nur kurze Zeit, was Barnard in Fachkreisen zeitweise scharfe Kritik einbrachte, er habe die Operation verfrüht gewagt.</p>
+          <p class="vb-intro">Barnard hielt an seinem Weg fest und trug entscheidend dazu bei, die Herztransplantation als etablierte, seriöse Therapieform zu legitimieren, statt sie als riskantes Experiment abzutun. Die soziale Drei mit Zweierflügel besitzt die Fähigkeit, aus Rückschlägen keine Rückzugsgründe, sondern Ansporn zu ziehen – solange die eigene Bedeutung im großen Ganzen dadurch nicht infrage gestellt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich in Barnards Fähigkeit, eine ganze medizinische Disziplin ins öffentliche Bewusstsein zu heben und ihr damit die gesellschaftliche und finanzielle Unterstützung zu sichern, die sie für ihre Weiterentwicklung brauchte. Ohne seinen Mut zum ersten Schritt – und sein Talent, diesen Schritt der Welt sichtbar zu machen – hätte sich die Herztransplantation vermutlich deutlich langsamer etabliert.</p>
+          <p class="vb-intro">Der Schatten zeigte sich, als eine schwere rheumatoide Arthritis in seinen Händen ihn in den 1980er-Jahren zwang, das Operieren aufzugeben – für einen Chirurgen, dessen Identität eng mit seinen eigenen Händen verknüpft war, ein tiefer Einschnitt. Statt sich zurückzuziehen, blieb Barnard weiter in der Öffentlichkeit präsent, unter anderem als umstrittener Werbeträger für eine Anti-Aging-Hautcreme – ein später Ausdruck derselben Sehnsucht nach Sichtbarkeit, die ihn schon 1967 getragen hatte, nun aber ohne die medizinische Substanz seiner besten Jahre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Sprung, der eine Disziplin begründete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christiaan Barnard starb 2001 in Paphos, Zypern, an einem Asthmaanfall. Sein Bruder Marius Barnard, der an der historischen Operation von 1967 als Assistent beteiligt war, blieb Zeit seines Lebens im Schatten dieses einen Abends stehen, der die Herzchirurgie für immer veränderte.</p>
+          <p class="vb-intro">Der Gepard, der den einen entscheidenden Sprung wagte, als andere noch zögerten, hinterließ eine Disziplin, die heute jährlich Zehntausenden Menschen das Leben rettet. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: der Mut zum ersten, öffentlich sichtbaren Schritt – verbunden mit dem tiefen menschlichen Bedürfnis, dabei nicht allein, sondern gesehen und gefeiert zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
+        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
+        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
+          <span class="book-tip__icon">☕</span>
+          <div class="book-tip__text">
+            <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
+            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Barnard selbst – bei Redbubble bestellen.</span>
+          </div>
+          <span class="book-tip__arrow">→</span>
+        </a>
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
+        {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – Rheumatoide Arthritis in den Händen"},
+      ])}
+    </div>
+  `);
+}
+
 function kathrinBauerfeindPortraitPage() {
   return shell(`
     <div class="page-container">

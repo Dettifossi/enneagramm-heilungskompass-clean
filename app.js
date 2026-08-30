@@ -24423,6 +24423,7 @@ const registerEntries = [
   { term: "Bud Spencer",                   route: "beruehmte-bud-spencer",                 description: "Portrait: SO8w9 · Sozialer Typ 8 · Schauspieler, Kult-Duett" },
   { term: "Christian Rätsch",           route: "beruehmte-christian-raetsch",           description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Ethnobotaniker" },
   { term: "Xu Bing",                    route: "beruehmte-xu-bing",                     description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Konzeptkünstler, Kalligraf" },
+  { term: "Blaise Pascal",              route: "beruehmte-blaise-pascal",                description: "Portrait: SX5w6 · Sexueller Typ 5 · Mathematiker, Physiker, Philosoph" },
   { term: "Franz Kafka",                route: "beruehmte-franz-kafka",                 description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Schriftsteller" },
   { term: "Christoph Waltz",               route: "beruehmte-christoph-waltz",             description: "Portrait: SE1w2 · Selbsterhaltender Typ 1 · Oscar-Schauspieler" },
   { term: "Anthony Hopkins",               route: "beruehmte-anthony-hopkins",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Schauspieler" },
@@ -33338,6 +33339,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Xu Bing \u2013 Selbsterhaltender Typ 5",
     teaser:"SE5w4 \u00b7 geb. 1955. Konzeptk\u00fcnstler, Kalligraf. Vier Jahre f\u00fcr viertausend erfundene Schriftzeichen: \u2039Book from the Sky\u203a. Die Eule, die die Sprache selbst zur Burg macht.",
     land:"China", tags:["Kunst"], gender:"m"},
+  { route:"beruehmte-blaise-pascal", name:"Blaise Pascal", added:"2026-08-30", subtyp:"SX5w6",
+    heading:"Blaise Pascal \u2013 Sexueller Typ 5",
+    teaser:"SX5w6 \u00b7 1623\u20131662. Mathematiker, Physiker, Philosoph. Rechenmaschine mit 19, mystische \u203aNacht des Feuers\u2039 1654, die Pascalsche Wette. Der Igel, der sich einmal ganz \u00f6ffnete \u2013 und danach nie mehr derselbe war.",
+    land:"Frankreich", tags:["Wissenschaft","Philosophie"], gender:"m"},
   { route:"beruehmte-franz-kafka", name:"Franz Kafka", added:"2026-08-15", subtyp:"SE5w4",
     heading:"Franz Kafka – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1883–1924. Schriftsteller. Der Prozess, Das Schloss, Die Verwandlung. Die Eule, die nachts an ihren Albträumen schrieb und ihr Werk am liebsten verbrannt hätte. Tierentsprechung: Eule.",
@@ -49860,6 +49865,71 @@ function xuBingPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\xe4t: Christian R\xe4tsch (SE5w4)"},
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function blaisePascalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-blaise-pascal-portrait.jpg" alt="Blaise Pascal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Blaise Pascal</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Mathematiker, Physiker, Philosoph, 1623&ndash;1662 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der sich einmal ganz öffnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf: scheu, zurückhaltend, mit eingezogenen Stacheln der Welt gegenüber &ndash; und doch fähig zu einer Intensität, die alle anderen Fünfer-Subtypen übertrifft, sobald er sich einem einzigen Wesen oder einer einzigen Idee wirklich öffnet. Anders als die selbsterhaltende Fünf, die sich in ihrem Rückzugsraum verschanzt, oder die soziale Fünf, die ihr Wissen der Öffentlichkeit zur Verfügung stellt, sucht der Igel die radikale, fast unerträgliche Nähe zu dem Einen, dem er vertraut.</p>
+          <p class="vb-intro">Blaise Pascal, geboren 1623 in Clermont-Ferrand, war genau dieser Igel: ein kränkliches, hochbegabtes Kind, das sich schon früh aus dem gewöhnlichen Umgang zurückzog, weil sein Vater ihm jede körperliche Anstrengung untersagte &ndash; und das seine ganze Energie stattdessen in eine einzige, alles verzehrende Konzentration lenkte. Mit elf Jahren schrieb er eine eigene Abhandlung über Schallwellen, mit sechzehn einen Aufsatz über Kegelschnitte, der selbst Descartes verblüffte. Was von außen wie Genialität aussah, war aus der Nähe betrachtet ein Junge, der sich in eine einzige Sache so tief vergrub, dass die übrige Welt verblasste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen statt Vermeidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo die selbsterhaltende Fünf ihre knappen Ressourcen hortet und die soziale Fünf ihr Wissen zur Schau stellt, kehrt die sexuelle Fünf die typische Fünfer-Bewegung um: Statt sich vor der Welt zu schützen, sucht sie das eine Gegenüber, dem sie sich ganz zumuten kann. Naranjo nennt dieses Gegenprinzip <em>Vertrauen</em> &ndash; die paradoxe Fähigkeit eines ansonsten distanzierten Typs, sich in einer einzigen Beziehung oder Idee radikal zu exponieren, während er allen anderen gegenüber verschlossen bleibt.</p>
+          <p class="vb-intro">Bei Pascal zeigte sich das doppelt: einmal wissenschaftlich, in seiner fast besessenen Hingabe an einzelne Probleme &ndash; den Druck von Flüssigkeiten, die Wahrscheinlichkeitsrechnung, die erste mechanische Rechenmaschine der Welt, die er mit neunzehn Jahren baute, um seinem Vater die mühsame Steuerberechnung zu erleichtern. Und einmal religiös, in der berühmten „Nacht des Feuers" vom 23. November 1654: einem plötzlichen, überwältigenden mystischen Erlebnis, das er auf einem Zettel festhielt, den er zeitlebens in sein Wams eingenäht trug &ndash; gefunden erst nach seinem Tod. „Feuer. Gott Abrahams, Gott Isaaks, Gott Jakobs, nicht der Philosophen und Gelehrten. Gewissheit, Gewissheit, Gefühl, Freude, Friede." Kein kühles Argument, sondern die totale, kompromisslose Hingabe des Igels, der sich einmal ganz öffnet &ndash; und danach nie mehr derselbe ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Die Suche nach dem tragfähigen Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Sechserflügel bringt der Fünf ein Element, das die reine Fünf allein nicht hätte: das Bedürfnis nach einem verlässlichen, geprüften Fundament, gegen das sich jeder Gedanke absichern lässt. Wo eine Fünf mit stärkerem Viererflügel introspektiv-melancholisch bleibt, sucht die Fünf mit Sechserflügel die Systematik, die Wachsamkeit gegenüber dem eigenen Zweifel, die geordnete Struktur, in der sich Erkenntnis absichern lässt, bevor sie ausgesprochen wird.</p>
+          <p class="vb-intro">Genau diese Handschrift trägt Pascals berühmteste Wette: das <em>Pari pascalien</em>, die Pascalsche Wette. Sie ist kein religiöses Bekenntnis, sondern eine kühle, geradezu buchhalterische Risikoabwägung &ndash; man solle an Gott glauben, weil der mögliche Gewinn (ewige Glückseligkeit) den möglichen Verlust (ein endliches Leben in Demut) bei Weitem übersteige, selbst wenn die Existenz Gottes ungewiss bleibe. Das ist der Sechserflügel bei der Arbeit: Selbst die tiefste existenzielle Frage wird in ein Sicherheitskalkül übersetzt, in dem der Zweifel nicht verdrängt, sondern strukturell eingepreist wird. Auch seine posthum veröffentlichten <em>Pensées</em> lesen sich so &ndash; als eine Sammlung einzelner, in sich abgesicherter Denkfragmente, die den Zweifel nicht überwinden, sondern ihm eine Struktur geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der denkende Schilfhalm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Satz fasst die Fünfer-Position so präzise wie Pascals berühmtestes Bild: „Der Mensch ist nur ein Schilfrohr, das schwächste in der Natur, aber er ist ein denkendes Schilfrohr." Der Mensch ist körperlich unbedeutend, der Fünf-typischen Erfahrung von Verletzlichkeit und begrenzter Energie ausgeliefert &ndash; und doch, gerade durch das Denken, dem gesamten Universum, das ihn zerdrücken könnte, überlegen. Das ist die Kernkompensation der Fünf: die Erschöpfbarkeit des Körpers durch die Unerschöpflichkeit des Geistes auszugleichen.</p>
+          <p class="vb-intro">Pascals Gesundheit war zeitlebens fragil &ndash; chronische Kopfschmerzen, Verdauungsprobleme, vermutlich eine Kombination aus Tuberkulose und einer neurologischen Erkrankung, die ihn zunehmend schwächte. Er starb 1662 mit nur 39 Jahren, nachdem er in seinen letzten Lebensjahren zunehmend asketisch lebte: er verzichtete auf Gewürze im Essen, band sich einen Gürtel mit Stacheln um die Hüfte, den er sich in Momente der Eitelkeit noch fester zuzog. Das ist die Schattenseite des Igels mit Sechserflügel unter chronischem Stress &ndash; die Sicherheitssuche kippt in selbstauferlegte Strenge, die Rückzugstendenz der Fünf wird zur physischen Selbstkasteiung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht ist die SX5w6 fähig zu einer Intensität der Hingabe, die anderen Fünfer-Subtypen fehlt &ndash; eine Konzentration, die nicht bei der reinen Beobachtung stehen bleibt, sondern sich einem Gegenstand, einer Idee oder einem Glauben ganz überlässt, ohne die intellektuelle Schärfe zu verlieren. Pascals Werk lebt von genau dieser Kombination: mathematische Präzision, gepaart mit einer religiösen Erfahrung, die er nicht relativierte, sondern mit derselben Konsequenz verfolgte wie zuvor seine physikalischen Experimente.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: die Enge, mit der sich der Igel an das eine Fundament klammert, sobald der Sechserflügel die Kontrolle übernimmt. Pascals zunehmender Rückzug aus der wissenschaftlichen Welt nach seiner religiösen Erfahrung, sein Bruch mit früheren Weggefährten, seine wachsende Strenge gegen sich selbst &ndash; all das sind Anzeichen einer Fünf, die ihre Sicherheit nicht mehr im offenen Denken, sondern in der immer engeren Verteidigung eines einmal gefundenen Fundaments sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Schilfrohr zur tragenden Wurzel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug verstanden, um sicher zu sein?</em> zur Erkenntnis <em>Verstehen entsteht nicht durch Rückzug, sondern durch Hingabe an das, was ich nicht vollständig kontrollieren kann.</em> Für die SX5w6 bedeutet das, das eine gefundene Fundament nicht zur Festung gegen jeden weiteren Zweifel zu machen, sondern es als das zu nehmen, was es für den jungen Pascal einmal war: ein Ausgangspunkt für offenes Denken, nicht sein Endpunkt.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; er lebte seine Leidenschaft nach Sicherheit durch geprüftes Wissen ungebremst aus, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
       ])}
     </div>
   `);
@@ -138800,6 +138870,7 @@ function render() {
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
+      "beruehmte-blaise-pascal": blaisePascalPortraitPage,
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,

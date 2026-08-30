@@ -1,3 +1,120 @@
+function uweOchsenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-uwe-ochsenknecht-portrait.jpg" alt="Uwe Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uwe Ochsenknecht</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1956 in Biblis &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr direkt entgegenstellt. Statt Sicherheit im Vertrauten zu suchen, sucht er sie in der Konfrontation selbst. Bereits als Elfjähriger zeigte Uwe Ochsenknecht dieses Muster in aller Deutlichkeit: Er riss von zu Hause aus und verbrachte ein Jahr in Spanien &ndash; keine Flucht aus Angst, sondern ein Sprung mitten hinein in die Unsicherheit, der ihn nach eigener Aussage entscheidend prägte.</p>
+          <p class="vb-intro">Der deutsche Schauspieler Uwe Adam Ochsenknecht, geboren 1956 in Biblis in Südhessen, wuchs in Mannheim auf, besuchte das Ludwig-Frank-Gymnasium und begann seine Bühnenlaufbahn zunächst als Komparse am Nationaltheater. Nach seiner Ausbildung an der Westfälischen Schauspielschule Bochum (1974&ndash;1977) folgten Engagements in Wuppertal, München und Hamburg &ndash; ein Werdegang, der von Anfang an eher rastlos als geradlinig verlief.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Rückzug (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie begegnet der eigenen Angst nicht mit Vorsicht und Rückzug, sondern mit Stärke, Direktheit und einer Präsenz, die Konflikte nicht scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt sich Konflikten zu entziehen, sucht die SX6 sie geradezu &ndash; weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
+          <p class="vb-intro">Diese Konfrontationsbereitschaft zieht sich durch Ochsenknechts persönliches Leben: Seine fast zwei Jahrzehnte währende Ehe mit Natascha Ochsenknecht &ndash; geschlossen 1993, getrennt 2009, geschieden 2012 &ndash; endete nicht in stiller Distanz, sondern in öffentlich ausgetragener Schärfe. Auch das Verhältnis zu Tochter Cheyenne ist über Jahre von offenen, öffentlich ausgesprochenen Vorwürfen geprägt, statt von vorsichtigem Schweigen. Für die SX6 ist genau das typisch: Nähe wird mit hoher Intensität gelebt &ndash; und wenn sie zerbricht, dann ebenso intensiv und unverblümt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Rastlose Vielseitigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die bei schwächer ausgeprägtem Siebenerflügel fehlen würde: Appetit auf das Neue, die Lust, sich immer wieder in unbekanntes künstlerisches Terrain zu wagen, statt sich in einer bewährten Rolle einzurichten. Ochsenknechts Filmografie umfasst über 175 Film- und Fernsehproduktionen quer durch alle Genres &ndash; vom Kriminalfilm über die Komödie bis zum ernsten Drama.</p>
+          <p class="vb-intro">Seinen ersten großen Durchbruch feierte er 1981 als Bootsmann Lamprecht in Wolfgang Petersens Kultfilm <em>Das Boot</em>, den eigentlichen internationalen Erfolg brachte ihm 1985 die Hauptrolle in Doris Dörries Komödie <em>Männer</em>, für die er mit dem Bundesfilmpreis in Gold ausgezeichnet wurde. Doch Ochsenknecht blieb nicht bei der Komödie: Er stand ab den frühen 1990er-Jahren auch als Musiker auf der Bühne, als Sänger der Band „The Screen" mit mehreren veröffentlichten Alben, und wechselte 2010 mit <em>Hairspray</em> und 2012 mit Peter Maffays <em>Tabaluga</em> zusätzlich ins Musical-Fach. Der Siebenerflügel lässt ihn nie lange auf demselben Terrain verweilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, sich über Jahrzehnte hinweg immer wieder neu zu erfinden, ohne sich vor dem Risiko des Scheiterns in einem fremden Metier zu scheuen &ndash; vom Filmschauspieler zum Musical-Darsteller, vom Kinostar zum Bandsänger. Diese Wandlungsfähigkeit trug maßgeblich dazu bei, dass Ochsenknecht über mehr als vier Jahrzehnte hinweg im deutschen Showgeschäft präsent blieb.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der Nähe und Konflikt gleichermaßen intensiv gelebt werden: Was als Direktheit und Klarheit beginnt, kann in engen persönlichen Beziehungen auch in offene, öffentlich ausgetragene Brüche münden, die sich nur schwer wieder kitten lassen. Die anhaltende Entfremdung von Tochter Cheyenne und die schroffe öffentliche Aufarbeitung der gescheiterten Ehe mit Natascha zeigen, wie hoch der Preis dieser Intensität im engsten Kreis sein kann &ndash; der Wolf, der sich nie zurückzieht, verliert manchmal genau dort an Boden, wo eine leisere Annäherung mehr bewirkt hätte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
+        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
+        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function katjaRiemannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Katja Riemann – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katja Riemann</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Musikerin, geb. 1963 in Bad Kreuznach – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Es prüft, hält Blickkontakt, zeigt Zähne, wenn es sein muss. Kaum eine deutsche Schauspielerin verkörpert diese Direktheit so konsequent wie Katja Riemann: bekannt nicht nur für ihre Rollen, sondern für Interviews, in denen sie kein Blatt vor den Mund nimmt.</p>
+          <p class="vb-intro">Die deutsche Schauspielerin Katja Riemann, geboren 1963 in Bad Kreuznach, ausgebildet an der Folkwang-Schauspielschule Essen, wurde 1994 mit <em>Der bewegte Mann</em> an der Seite von Til Schweiger (SO4w3) über Nacht zum Star des deutschen Kinos. Doch anders als viele, die auf ihren ersten großen Erfolg eine ähnliche Rolle folgen lassen, wechselte sie seither konsequent zwischen Komödie, Musikfilm und historischem Drama – mit einer Risikobereitschaft, die selten geworden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Diplomatie (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke, Direktheit und einer Präsenz, die keinen Widerspruch scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt Konflikten auszuweichen, sucht die SX6 sie geradezu – weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
+          <p class="vb-intro">Riemann ist seit Jahrzehnten bekannt für genau diese Haltung: In Interviews äußert sie sich unverblümt zu politischen und gesellschaftlichen Themen – zu Krieg, zu Fluchtursachen, zu sozialer Ungleichheit –, oft in einer Schärfe, die ihr öffentlichen Widerspruch und Kritik einbrachte. Sie weicht dem nicht aus. Wer sie öffentlich angreift, bekommt eine Antwort, keine Rückzugsgeste. Genau das macht die sexuelle Sechs aus: Position beziehen, auch wenn es unbequem wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit als Appetit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die bei kaum entwickeltem Siebenerflügel fehlen würde: Appetit auf das Neue, Spielfreude, die Lust, sich immer wieder in unbekanntes Terrain zu wagen. Wo eine Sechs mit schwächerem Siebenerflügel sich in einer bewährten Rolle sicher fühlen könnte, sucht die SX6w7 das nächste Risiko – nicht aus Unruhe, sondern aus echter Neugier.</p>
+          <p class="vb-intro">Riemanns Filmografie zeigt genau diese Breite: die Screwball-Komödie <em>Der bewegte Mann</em> (1994), das musikalische Drama <em>Bandits</em> (1997), in dem sie als Teil einer fiktiven Frauenband selbst Schlagzeug spielte und sang, das ernste Historiendrama <em>Nirgendwo in Afrika</em> (2001, Oscar für den besten fremdsprachigen Film) und <em>Rosenstraße</em> (2003) über den Protest deutscher Frauen gegen die Deportation ihrer jüdischen Ehemänner. Kein Genre, in dem sie sich dauerhaft eingerichtet hätte. Der Siebenerflügel treibt sie immer weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Musik: Ein zweites Standbein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Riemann für <em>Bandits</em> ihre eigenen Gesangs- und Instrumentalparts einspielte, war keine einmalige Fingerübung: Sie veröffentlichte später eigene Musikprojekte und trat auch abseits des Films als Sängerin auf. Für eine etablierte Schauspielerin ihres Kalibers ist das ein ungewöhnlicher Schritt – verbunden mit dem Risiko, in einem fremden Metier bewertet zu werden, in dem sie keinen etablierten Ruf zu verlieren hatte, aber auch keinen zu gewinnen brauchte.</p>
+          <p class="vb-intro">Für die SX6w7 ist das typisch: Sicherheit entsteht nicht durch das Festhalten am Bewährten, sondern durch die wiederholte Erfahrung, dass man auch im Ungewissen bestehen kann. Jedes neue Terrain, das erfolgreich betreten wird, bestätigt diese innere Gewissheit von Neuem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihr Mut, öffentlich Position zu beziehen, wo andere lieber schweigen, und dabei künstlerisch beweglich zu bleiben, statt sich auf ein einmal gefundenes Erfolgsrezept zu verlassen. Riemann hat sich über drei Jahrzehnte hinweg als eine der wandlungsfähigsten deutschen Schauspielerinnen etabliert – ausgezeichnet unter anderem mehrfach mit dem Bambi, dem Bayerischen Filmpreis und der Goldenen Kamera.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der sie ihre Positionen vertritt: Was als Mut zur klaren Haltung beginnt, kann in der öffentlichen Debatte auch als Konfrontationslust wahrgenommen werden, die wenig Raum für Zwischentöne lässt. Für die sexuelle Sechs ist das der Preis der eigenen Stärke – wer sich nie zurückzieht, eckt zwangsläufig auch dort an, wo ein Rückzug klüger gewesen wäre.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3) – Partner in ›Der bewegte Mann‹"},
+        {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function michaelSchumacherPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7368,131 +7485,6 @@ function adamSmithPortraitPage() {
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) \u2013 sein enger Freund"},
-      ])}
-    </div>
-  `);
-}
-
-function xanthippePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-xanthippe-portrait.jpg" alt="Xanthippe" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Xanthippe</p>
-        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle">Frau des Sokrates, ca. 5. Jahrhundert v. Chr. – Tierentsprechung: Gans</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Gans, aus der man einen Schimpfnamen machte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht. Kein Name aus der Antike ist so vollständig zum Schimpfwort geworden wie der der Xanthippe: Im Deutschen bezeichnet "eine Xanthippe" auch heute noch eine streitsüchtige, herrschsüchtige Ehefrau. Über die historische Xanthippe selbst ist erstaunlich wenig gesichert – fast alles, was über sie überliefert ist, stammt aus der Feder von Männern, die über die Frau des berühmtesten Philosophen ihrer Zeit schrieben, nicht von ihr selbst.</p>
-          <p class="vb-intro">Sie war Sokrates' Ehefrau, deutlich jünger als er, und gebar ihm der Überlieferung nach drei Söhne – Lamprokles, Sophroniskos und Menexenos. Die Ehe fiel in eine Zeit, in der Sokrates bereits seinen Ruf als Straßenphilosoph begründet hatte: ein Mann, der seine Tage mit unbezahlten Gesprächen auf dem Marktplatz verbrachte, während zuhause eine Familie versorgt werden musste. Genau in dieser Konstellation liegt der Kern dessen, was die Nachwelt als "Xanthippes Zorn" karikierte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Eins: Empörung über eine unfaire Ordnung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Gerechtigkeit nicht im Abstrakten, sondern im ganz konkreten Zusammenleben – sie besteht darauf, dass Pflichten fair verteilt und Verantwortung ernst genommen wird. Was die antiken Quellen als "Zanksucht" abtun, lässt sich ebenso als berechtigte Empörung einer Frau lesen, die den Haushalt und drei Kinder weitgehend allein tragen musste, während ihr Mann sein Vermögen und seine Zeit unentgeltlich der Philosophie widmete und öffentliche Ämter oder bezahlte Arbeit konsequent mied.</p>
-          <p class="vb-intro">Xenophon berichtet in seinen "Memorabilien", Sokrates habe die Beschwerden seiner Frau mit dem Vergleich abgetan, wer mit einer schwierigen Frau leben lerne, könne danach mit jedem Menschen umgehen – wie ein Reiter, der sich absichtlich ein wildes Pferd aussucht, um das Reiten wirklich zu meistern. Diese Anekdote sagt mehr über Sokrates' Rechtfertigungsbedürfnis als über Xanthippes Charakter: Wo eine soziale Eins auf gerechter Lastenteilung besteht, wird sie von der bequemeren Gegenseite gern zur launischen Störung des Friedens erklärt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Neunerflügel: Jahrzehntelange Geduld, gelegentlicher Ausbruch</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die Schärfe, die ohne diesen Flügel deutlicher hervorträte, zu einer Haltung, die über lange Strecken erträgt und ausgleicht – bis die aufgestaute Spannung sich in einem einzelnen, dann aber deutlich sichtbaren Ausbruch entlädt. Genau dieses Muster zeigt die berühmteste, wenn auch erst Jahrhunderte später von Diogenes Laertios überlieferte Anekdote: Nachdem Xanthippe Sokrates lautstark zur Rede gestellt haben soll, habe sie ihm einen Eimer Wasser über den Kopf geschüttet. Sokrates habe daraufhin trocken bemerkt: "Nach solchem Donner musste ja Regen folgen."</p>
-          <p class="vb-intro">Diese Geschichte wird traditionell als Beleg für Xanthippes angebliche Unbeherrschtheit erzählt – sie lässt sich aber ebenso als Bild jahrelanger, still ertragener Belastung lesen, die sich irgendwann Bahn brechen musste. Die SO1w9 hält lange an Ordnung und Pflichterfüllung fest, bevor sie explodiert; der Ausbruch selbst ist dann kein Charakterfehler, sondern das Ventil einer Geduld, die an ihre Grenze gestoßen ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Reaktion auf reale Not</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SO1w9 meist unterdrückt, geduldig zurückgehalten, bis er sich in einzelnen Momenten Bahn bricht. Die materielle Lage der Familie war der Überlieferung nach angespannt: Sokrates besaß offenbar kein nennenswertes Vermögen und nahm für seine Lehrtätigkeit anders als die Sophisten seiner Zeit grundsätzlich kein Geld. Wer unter diesen Umständen drei Kinder großzog, hatte guten Grund für Sorge und Verärgerung, keine bloße "schlechte Laune".</p>
-          <p class="vb-intro">Die Verzerrung ihres Bildes begann schon zu Lebzeiten: In der Komödie "Die Wolken" des Aristophanes und in zahlreichen späteren anekdotischen Überlieferungen wird Xanthippe zur reinen Randfigur, deren einzige Funktion darin besteht, die Gelassenheit des Philosophen durch Kontrast zu erhöhen. Ein Mann, der die athenische Gesellschaft mit unbequemen Fragen provozierte, wurde zum Helden stilisiert – die Frau, die die praktischen Folgen dieser Unbequemlichkeit täglich trug, zur Karikatur.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Tod des Sokrates: Trauer statt Karikatur</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ausgerechnet die Quelle, die Xanthippe am differenziertesten zeigt, ist Platons Dialog "Phaidon", der Sokrates' letzten Tag im Gefängnis schildert. Xanthippe ist dort anwesend, hält das jüngste der drei Kinder im Arm und bricht beim Anblick des zum Tode verurteilten Ehemanns in lautes Klagen aus. Sokrates bittet Kriton, sie nach Hause bringen zu lassen, damit das philosophische Gespräch mit seinen Schülern ungestört fortgesetzt werden kann.</p>
-          <p class="vb-intro">Diese kurze Szene widerspricht dem Zerrbild der gefühllosen Streitsüchtigen fundamental: Hier zeigt sich eine Frau, die um ihren Mann tief trauert, deren Schmerz so unmittelbar und ungefiltert ist, dass er selbst in einem philosophischen Text, der eigentlich die stoische Gelassenheit des Sokrates feiern will, seinen Platz findet. Die soziale Eins mit Neunerflügel hält lange die Ordnung aufrecht – aber wenn der Verlust real wird, bricht die zurückgehaltene Emotion ungeschminkt hervor.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Vom Schimpfnamen zur Neubewertung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Über Xanthippes weiteres Leben nach Sokrates' Hinrichtung 399 v. Chr. ist nichts überliefert. Was blieb, war ausschließlich das Bild, das männliche Autoren von ihr zeichneten – ein Bild, das über Jahrhunderte zum Sprichwort für die "zanksüchtige Ehefrau" gerinnen sollte, während der Mann, dessen Lebensentwurf ihre Existenz erheblich erschwerte, als Märtyrer der Wahrheit verehrt wurde.</p>
-          <p class="vb-intro">Feministische Forschung hat dieses Bild in den vergangenen Jahrzehnten zu Recht infrage gestellt: Was als Streitsucht überliefert wurde, lässt sich ebenso als das lesen, was es aus der Perspektive einer sozialen Eins mit Neunerflügel tatsächlich war – die geduldige, jahrzehntelange Sorge um eine Familie unter schwierigen Bedingungen, unterbrochen von berechtigten Ausbrüchen des Zorns, und am Ende eine Trauer, die tiefer war, als die antiken Quellen ihr zugestehen wollten. Die Gans, die ein Schimpfwort wurde, wartet bis auf den heutigen Tag auf ihre gerechtere Geschichte.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
-        {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7) – ihr Ehemann"},
-        {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5)"},
-        {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9)"},
-      ])}
-    </div>
-  `);
-}
-
-function hansDietrichGenscherPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Au\u00dfenminister &amp; Vizekanzler 1974&ndash;1992, 1927&ndash;2016 &ndash; Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; und Hans-Dietrich Genscher war dieser Elefant. Das Tier mit dem l\u00e4ngsten Ged\u00e4chtnis der Natur, das Tier, das nie aufh\u00f6rt zu lernen, das Tier, das sich an jeden Weg, jede Wasserstelle, jeden Verb\u00fcndeten und jeden Verrat erinnert. Und das dabei ruhig bleibt. Immer ruhig. Auch wenn es l\u00e4ngst wei\u00df, was gespielt wird.</p>
-          <p class="vb-intro">18 Jahre au\u00dfenpolitisches Gewicht, 23 Jahre als bestimmende Kraft der deutschen Diplomatie: Genscher war der l\u00e4ngstdienende Au\u00dfenminister der Bundesrepublik. Wer in diesen Jahrzehnten mit Deutschland verhandeln wollte, verhandelte mit ihm &ndash; in Bonn, Genf, New York, Moskau. Der Elefant beh\u00e4lt seine Ruhe. Er beh\u00e4lt den \u00dcberblick. Und er bewegt sich langsam &ndash; aber er h\u00f6rt nie auf, sich vorw\u00e4rts zu bewegen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden durch Beharrlichkeit, durch das Einleben in das, was ist, durch die F\u00e4higkeit, im Bestehenden Sicherheit zu finden &ndash; ohne gro\u00dfe Gerichtsrede, ohne Showdown. Die SE9 arbeitet durch Kontinuit\u00e4t. Ihr Instrument ist die Ausdauer &ndash; nicht der Coup.</p>
-          <p class="vb-intro">Genschers politische Karriere ist das Musterbeispiel dieser Kontinuit\u00e4t: 1969 Innenminister, 1974 Au\u00dfenminister und Vizekanzler, 1992 R\u00fccktritt &ndash; nach 23 Jahren im Amt. Dazwischen: die Begleitung der Ostvertr\u00e4ge, die KSZE-Schlussakte von Helsinki, der Doppelbeschluss, die Abr\u00fcstungsverhandlungen, die Vereinigung. Keine Karriere der gro\u00dfen Br\u00fcche, sondern eine Karriere der geduldigen Akkumulation &ndash; Jahr f\u00fcr Jahr, Verhandlung f\u00fcr Verhandlung, Schritt f\u00fcr Schritt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Die Kraft hinter der Stille</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der selbsterhaltenden Neun eine besondere Qualit\u00e4t: Durchsetzungskraft, Willenst\u00e4rke und eine ruhige, aber unverkennbare Entschlossenheit, die sich nicht wegdr\u00e4ngen l\u00e4sst. Die <strong>SE9w8</strong> ist keine passive Neun. Sie ist geduldig &ndash; aber sie ist nicht schwach. Wenn der Moment kommt, handelt sie. Und dann handelt sie entschlossen.</p>
-          <p class="vb-intro">Genscher hat diesen Fl\u00fcgel in Prag gezeigt. Am 30. September 1989 trat er auf den Balkon der deutschen Botschaft in Prag und erkl\u00e4rte den dort gestrandeten DDR-B\u00fcrgern, dass ihre Ausreise genehmigt sei. Er konnte den Satz nicht zu Ende sprechen &ndash; der Jubel \u00fcbert\u00f6nte ihn. Es war ein Moment, der Geschichte gemacht hat &ndash; und er war m\u00f6glich, weil Genscher monatelang hinter den Kulissen verhandelt hatte, unaufgeregt, beharrlich, mit der Kraft der Neun und der Entschlossenheit der Acht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Tr\u00e4gheit als Beharren</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun hei\u00dft <strong>Tr\u00e4gheit</strong> &ndash; das Beharren im Vertrauten, das Meiden des offenen Konflikts, die Tendenz, Positionen zu umrunden statt zu konfrontieren. F\u00fcr Genscher war das zugleich seine gr\u00f6\u00dfte St\u00e4rke: Er konnte beide Seiten des Eisernen Vorhangs gespr\u00e4chsbereit halten, weil er keine Seite zum Feind erkl\u00e4rte. Er konnte mit Moskau reden und mit Washington. Er konnte Br\u00fccken bauen, weil er nie Br\u00fccken abbrach.</p>
-          <p class="vb-intro">Die Kehrseite war der Vorwurf, zu lange zu bleiben, zu lange das Spiel mitzuspielen, zu lange Kompromisse zu suchen, wo Klarheit n\u00f6tig gewesen w\u00e4re. Genscherismus wurde zum Begriff &ndash; mal Lob, mal Kritik. Aber er hat \u00fcberlebt. Die meisten seiner Kritiker nicht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Der Br\u00fcckenmensch</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Hans-Dietrich Genscher der deutschen Politik gegeben hat, ist die Erkenntnis, dass Diplomatie keine Schw\u00e4che ist, sondern die h\u00f6chste Form der St\u00e4rke. Er hat bewiesen, dass man ohne Krieg Grenzen verschieben kann &ndash; wenn man geduldig genug ist, klug genug und bereit ist, jeden Schritt mehrfach zu gehen. Die deutsche Einheit ist nicht durch Konfrontation entstanden. Sie ist durch jahrzehntelange Vertrauensarbeit entstanden &ndash; an der Genscher entscheidenden Anteil hatte.</p>
-          <p class="vb-intro">Das Geschenk der SE9w8 ist dieser Br\u00fckenmensch: jemand, der die Seiten kennt, der zwischen ihnen steht, der nicht die lauteste Stimme ist &ndash; aber die, auf die man h\u00f6rt, wenn es darauf ankommt. Der Elefant vergisst nichts. Und er l\u00e4uft nie davon.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
-        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsportr\u00e4t: Hans-Dietrich Genscher (SE9w8) \u2013 Herzleiden"},
       ])}
     </div>
   `);

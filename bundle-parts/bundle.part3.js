@@ -1476,6 +1476,7 @@ const registerEntries = [
   { term: "Bud Spencer",                   route: "beruehmte-bud-spencer",                 description: "Portrait: SO8w9 · Sozialer Typ 8 · Schauspieler, Kult-Duett" },
   { term: "Christian Rätsch",           route: "beruehmte-christian-raetsch",           description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Ethnobotaniker" },
   { term: "Xu Bing",                    route: "beruehmte-xu-bing",                     description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Konzeptkünstler, Kalligraf" },
+  { term: "Blaise Pascal",              route: "beruehmte-blaise-pascal",                description: "Portrait: SX5w6 · Sexueller Typ 5 · Mathematiker, Physiker, Philosoph" },
   { term: "Franz Kafka",                route: "beruehmte-franz-kafka",                 description: "Portrait: SE5w4 · Selbsterhaltender Typ 5 · Schriftsteller" },
   { term: "Christoph Waltz",               route: "beruehmte-christoph-waltz",             description: "Portrait: SE1w2 · Selbsterhaltender Typ 1 · Oscar-Schauspieler" },
   { term: "Anthony Hopkins",               route: "beruehmte-anthony-hopkins",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Schauspieler" },

@@ -6740,6 +6740,71 @@ function xuBingPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\xe4t: Christian R\xe4tsch (SE5w4)"},
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function blaisePascalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-blaise-pascal-portrait.jpg" alt="Blaise Pascal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Blaise Pascal</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Mathematiker, Physiker, Philosoph, 1623&ndash;1662 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der sich einmal ganz öffnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf: scheu, zurückhaltend, mit eingezogenen Stacheln der Welt gegenüber &ndash; und doch fähig zu einer Intensität, die alle anderen Fünfer-Subtypen übertrifft, sobald er sich einem einzigen Wesen oder einer einzigen Idee wirklich öffnet. Anders als die selbsterhaltende Fünf, die sich in ihrem Rückzugsraum verschanzt, oder die soziale Fünf, die ihr Wissen der Öffentlichkeit zur Verfügung stellt, sucht der Igel die radikale, fast unerträgliche Nähe zu dem Einen, dem er vertraut.</p>
+          <p class="vb-intro">Blaise Pascal, geboren 1623 in Clermont-Ferrand, war genau dieser Igel: ein kränkliches, hochbegabtes Kind, das sich schon früh aus dem gewöhnlichen Umgang zurückzog, weil sein Vater ihm jede körperliche Anstrengung untersagte &ndash; und das seine ganze Energie stattdessen in eine einzige, alles verzehrende Konzentration lenkte. Mit elf Jahren schrieb er eine eigene Abhandlung über Schallwellen, mit sechzehn einen Aufsatz über Kegelschnitte, der selbst Descartes verblüffte. Was von außen wie Genialität aussah, war aus der Nähe betrachtet ein Junge, der sich in eine einzige Sache so tief vergrub, dass die übrige Welt verblasste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen statt Vermeidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo die selbsterhaltende Fünf ihre knappen Ressourcen hortet und die soziale Fünf ihr Wissen zur Schau stellt, kehrt die sexuelle Fünf die typische Fünfer-Bewegung um: Statt sich vor der Welt zu schützen, sucht sie das eine Gegenüber, dem sie sich ganz zumuten kann. Naranjo nennt dieses Gegenprinzip <em>Vertrauen</em> &ndash; die paradoxe Fähigkeit eines ansonsten distanzierten Typs, sich in einer einzigen Beziehung oder Idee radikal zu exponieren, während er allen anderen gegenüber verschlossen bleibt.</p>
+          <p class="vb-intro">Bei Pascal zeigte sich das doppelt: einmal wissenschaftlich, in seiner fast besessenen Hingabe an einzelne Probleme &ndash; den Druck von Flüssigkeiten, die Wahrscheinlichkeitsrechnung, die erste mechanische Rechenmaschine der Welt, die er mit neunzehn Jahren baute, um seinem Vater die mühsame Steuerberechnung zu erleichtern. Und einmal religiös, in der berühmten „Nacht des Feuers" vom 23. November 1654: einem plötzlichen, überwältigenden mystischen Erlebnis, das er auf einem Zettel festhielt, den er zeitlebens in sein Wams eingenäht trug &ndash; gefunden erst nach seinem Tod. „Feuer. Gott Abrahams, Gott Isaaks, Gott Jakobs, nicht der Philosophen und Gelehrten. Gewissheit, Gewissheit, Gefühl, Freude, Friede." Kein kühles Argument, sondern die totale, kompromisslose Hingabe des Igels, der sich einmal ganz öffnet &ndash; und danach nie mehr derselbe ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Die Suche nach dem tragfähigen Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Sechserflügel bringt der Fünf ein Element, das die reine Fünf allein nicht hätte: das Bedürfnis nach einem verlässlichen, geprüften Fundament, gegen das sich jeder Gedanke absichern lässt. Wo eine Fünf mit stärkerem Viererflügel introspektiv-melancholisch bleibt, sucht die Fünf mit Sechserflügel die Systematik, die Wachsamkeit gegenüber dem eigenen Zweifel, die geordnete Struktur, in der sich Erkenntnis absichern lässt, bevor sie ausgesprochen wird.</p>
+          <p class="vb-intro">Genau diese Handschrift trägt Pascals berühmteste Wette: das <em>Pari pascalien</em>, die Pascalsche Wette. Sie ist kein religiöses Bekenntnis, sondern eine kühle, geradezu buchhalterische Risikoabwägung &ndash; man solle an Gott glauben, weil der mögliche Gewinn (ewige Glückseligkeit) den möglichen Verlust (ein endliches Leben in Demut) bei Weitem übersteige, selbst wenn die Existenz Gottes ungewiss bleibe. Das ist der Sechserflügel bei der Arbeit: Selbst die tiefste existenzielle Frage wird in ein Sicherheitskalkül übersetzt, in dem der Zweifel nicht verdrängt, sondern strukturell eingepreist wird. Auch seine posthum veröffentlichten <em>Pensées</em> lesen sich so &ndash; als eine Sammlung einzelner, in sich abgesicherter Denkfragmente, die den Zweifel nicht überwinden, sondern ihm eine Struktur geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der denkende Schilfhalm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Satz fasst die Fünfer-Position so präzise wie Pascals berühmtestes Bild: „Der Mensch ist nur ein Schilfrohr, das schwächste in der Natur, aber er ist ein denkendes Schilfrohr." Der Mensch ist körperlich unbedeutend, der Fünf-typischen Erfahrung von Verletzlichkeit und begrenzter Energie ausgeliefert &ndash; und doch, gerade durch das Denken, dem gesamten Universum, das ihn zerdrücken könnte, überlegen. Das ist die Kernkompensation der Fünf: die Erschöpfbarkeit des Körpers durch die Unerschöpflichkeit des Geistes auszugleichen.</p>
+          <p class="vb-intro">Pascals Gesundheit war zeitlebens fragil &ndash; chronische Kopfschmerzen, Verdauungsprobleme, vermutlich eine Kombination aus Tuberkulose und einer neurologischen Erkrankung, die ihn zunehmend schwächte. Er starb 1662 mit nur 39 Jahren, nachdem er in seinen letzten Lebensjahren zunehmend asketisch lebte: er verzichtete auf Gewürze im Essen, band sich einen Gürtel mit Stacheln um die Hüfte, den er sich in Momente der Eitelkeit noch fester zuzog. Das ist die Schattenseite des Igels mit Sechserflügel unter chronischem Stress &ndash; die Sicherheitssuche kippt in selbstauferlegte Strenge, die Rückzugstendenz der Fünf wird zur physischen Selbstkasteiung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht ist die SX5w6 fähig zu einer Intensität der Hingabe, die anderen Fünfer-Subtypen fehlt &ndash; eine Konzentration, die nicht bei der reinen Beobachtung stehen bleibt, sondern sich einem Gegenstand, einer Idee oder einem Glauben ganz überlässt, ohne die intellektuelle Schärfe zu verlieren. Pascals Werk lebt von genau dieser Kombination: mathematische Präzision, gepaart mit einer religiösen Erfahrung, die er nicht relativierte, sondern mit derselben Konsequenz verfolgte wie zuvor seine physikalischen Experimente.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: die Enge, mit der sich der Igel an das eine Fundament klammert, sobald der Sechserflügel die Kontrolle übernimmt. Pascals zunehmender Rückzug aus der wissenschaftlichen Welt nach seiner religiösen Erfahrung, sein Bruch mit früheren Weggefährten, seine wachsende Strenge gegen sich selbst &ndash; all das sind Anzeichen einer Fünf, die ihre Sicherheit nicht mehr im offenen Denken, sondern in der immer engeren Verteidigung eines einmal gefundenen Fundaments sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Schilfrohr zur tragenden Wurzel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug verstanden, um sicher zu sein?</em> zur Erkenntnis <em>Verstehen entsteht nicht durch Rückzug, sondern durch Hingabe an das, was ich nicht vollständig kontrollieren kann.</em> Für die SX5w6 bedeutet das, das eine gefundene Fundament nicht zur Festung gegen jeden weiteren Zweifel zu machen, sondern es als das zu nehmen, was es für den jungen Pascal einmal war: ein Ausgangspunkt für offenes Denken, nicht sein Endpunkt.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; er lebte seine Leidenschaft nach Sicherheit durch geprüftes Wissen ungebremst aus, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
       ])}
     </div>
   `);
@@ -7591,123 +7656,6 @@ function byronKatiePortraitPage() {
         {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
         {route:"krankheitsportraets-byron-katie", label:"Krankheitsporträt: Byron Katie (SX6w7) – zehn Jahre Depression und Agoraphobie"},
-      ])}
-    </div>
-  `);
-}
-
-function uweOchsenknechtPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-uwe-ochsenknecht-portrait.jpg" alt="Uwe Ochsenknecht – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Uwe Ochsenknecht</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Schauspieler &amp; Musiker, geb. 1956 in Biblis &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr direkt entgegenstellt. Statt Sicherheit im Vertrauten zu suchen, sucht er sie in der Konfrontation selbst. Bereits als Elfjähriger zeigte Uwe Ochsenknecht dieses Muster in aller Deutlichkeit: Er riss von zu Hause aus und verbrachte ein Jahr in Spanien &ndash; keine Flucht aus Angst, sondern ein Sprung mitten hinein in die Unsicherheit, der ihn nach eigener Aussage entscheidend prägte.</p>
-          <p class="vb-intro">Der deutsche Schauspieler Uwe Adam Ochsenknecht, geboren 1956 in Biblis in Südhessen, wuchs in Mannheim auf, besuchte das Ludwig-Frank-Gymnasium und begann seine Bühnenlaufbahn zunächst als Komparse am Nationaltheater. Nach seiner Ausbildung an der Westfälischen Schauspielschule Bochum (1974&ndash;1977) folgten Engagements in Wuppertal, München und Hamburg &ndash; ein Werdegang, der von Anfang an eher rastlos als geradlinig verlief.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Rückzug (Kontratyp)</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie begegnet der eigenen Angst nicht mit Vorsicht und Rückzug, sondern mit Stärke, Direktheit und einer Präsenz, die Konflikte nicht scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt sich Konflikten zu entziehen, sucht die SX6 sie geradezu &ndash; weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
-          <p class="vb-intro">Diese Konfrontationsbereitschaft zieht sich durch Ochsenknechts persönliches Leben: Seine fast zwei Jahrzehnte währende Ehe mit Natascha Ochsenknecht &ndash; geschlossen 1993, getrennt 2009, geschieden 2012 &ndash; endete nicht in stiller Distanz, sondern in öffentlich ausgetragener Schärfe. Auch das Verhältnis zu Tochter Cheyenne ist über Jahre von offenen, öffentlich ausgesprochenen Vorwürfen geprägt, statt von vorsichtigem Schweigen. Für die SX6 ist genau das typisch: Nähe wird mit hoher Intensität gelebt &ndash; und wenn sie zerbricht, dann ebenso intensiv und unverblümt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerflügel: Rastlose Vielseitigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die bei schwächer ausgeprägtem Siebenerflügel fehlen würde: Appetit auf das Neue, die Lust, sich immer wieder in unbekanntes künstlerisches Terrain zu wagen, statt sich in einer bewährten Rolle einzurichten. Ochsenknechts Filmografie umfasst über 175 Film- und Fernsehproduktionen quer durch alle Genres &ndash; vom Kriminalfilm über die Komödie bis zum ernsten Drama.</p>
-          <p class="vb-intro">Seinen ersten großen Durchbruch feierte er 1981 als Bootsmann Lamprecht in Wolfgang Petersens Kultfilm <em>Das Boot</em>, den eigentlichen internationalen Erfolg brachte ihm 1985 die Hauptrolle in Doris Dörries Komödie <em>Männer</em>, für die er mit dem Bundesfilmpreis in Gold ausgezeichnet wurde. Doch Ochsenknecht blieb nicht bei der Komödie: Er stand ab den frühen 1990er-Jahren auch als Musiker auf der Bühne, als Sänger der Band „The Screen" mit mehreren veröffentlichten Alben, und wechselte 2010 mit <em>Hairspray</em> und 2012 mit Peter Maffays <em>Tabaluga</em> zusätzlich ins Musical-Fach. Der Siebenerflügel lässt ihn nie lange auf demselben Terrain verweilen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, sich über Jahrzehnte hinweg immer wieder neu zu erfinden, ohne sich vor dem Risiko des Scheiterns in einem fremden Metier zu scheuen &ndash; vom Filmschauspieler zum Musical-Darsteller, vom Kinostar zum Bandsänger. Diese Wandlungsfähigkeit trug maßgeblich dazu bei, dass Ochsenknecht über mehr als vier Jahrzehnte hinweg im deutschen Showgeschäft präsent blieb.</p>
-          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der Nähe und Konflikt gleichermaßen intensiv gelebt werden: Was als Direktheit und Klarheit beginnt, kann in engen persönlichen Beziehungen auch in offene, öffentlich ausgetragene Brüche münden, die sich nur schwer wieder kitten lassen. Die anhaltende Entfremdung von Tochter Cheyenne und die schroffe öffentliche Aufarbeitung der gescheiterten Ehe mit Natascha zeigen, wie hoch der Preis dieser Intensität im engsten Kreis sein kann &ndash; der Wolf, der sich nie zurückzieht, verliert manchmal genau dort an Boden, wo eine leisere Annäherung mehr bewirkt hätte.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Sohn"},
-        {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Sohn"},
-        {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
-        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
-        {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function katjaRiemannPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-katja-riemann-portrait.jpg" alt="Katja Riemann – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Katja Riemann</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin &amp; Musikerin, geb. 1963 in Bad Kreuznach – Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Es prüft, hält Blickkontakt, zeigt Zähne, wenn es sein muss. Kaum eine deutsche Schauspielerin verkörpert diese Direktheit so konsequent wie Katja Riemann: bekannt nicht nur für ihre Rollen, sondern für Interviews, in denen sie kein Blatt vor den Mund nimmt.</p>
-          <p class="vb-intro">Die deutsche Schauspielerin Katja Riemann, geboren 1963 in Bad Kreuznach, ausgebildet an der Folkwang-Schauspielschule Essen, wurde 1994 mit <em>Der bewegte Mann</em> an der Seite von Til Schweiger (SO4w3) über Nacht zum Star des deutschen Kinos. Doch anders als viele, die auf ihren ersten großen Erfolg eine ähnliche Rolle folgen lassen, wechselte sie seither konsequent zwischen Komödie, Musikfilm und historischem Drama – mit einer Risikobereitschaft, die selten geworden ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Klartext statt Diplomatie (Kontratyp)</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke, Direktheit und einer Präsenz, die keinen Widerspruch scheut. Naranjo nannte diesen Subtyp <em>Strength</em>. Statt Konflikten auszuweichen, sucht die SX6 sie geradezu – weil Klarheit ihr mehr Sicherheit gibt als diplomatisches Schweigen.</p>
-          <p class="vb-intro">Riemann ist seit Jahrzehnten bekannt für genau diese Haltung: In Interviews äußert sie sich unverblümt zu politischen und gesellschaftlichen Themen – zu Krieg, zu Fluchtursachen, zu sozialer Ungleichheit –, oft in einer Schärfe, die ihr öffentlichen Widerspruch und Kritik einbrachte. Sie weicht dem nicht aus. Wer sie öffentlich angreift, bekommt eine Antwort, keine Rückzugsgeste. Genau das macht die sexuelle Sechs aus: Position beziehen, auch wenn es unbequem wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit als Appetit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die bei kaum entwickeltem Siebenerflügel fehlen würde: Appetit auf das Neue, Spielfreude, die Lust, sich immer wieder in unbekanntes Terrain zu wagen. Wo eine Sechs mit schwächerem Siebenerflügel sich in einer bewährten Rolle sicher fühlen könnte, sucht die SX6w7 das nächste Risiko – nicht aus Unruhe, sondern aus echter Neugier.</p>
-          <p class="vb-intro">Riemanns Filmografie zeigt genau diese Breite: die Screwball-Komödie <em>Der bewegte Mann</em> (1994), das musikalische Drama <em>Bandits</em> (1997), in dem sie als Teil einer fiktiven Frauenband selbst Schlagzeug spielte und sang, das ernste Historiendrama <em>Nirgendwo in Afrika</em> (2001, Oscar für den besten fremdsprachigen Film) und <em>Rosenstraße</em> (2003) über den Protest deutscher Frauen gegen die Deportation ihrer jüdischen Ehemänner. Kein Genre, in dem sie sich dauerhaft eingerichtet hätte. Der Siebenerflügel treibt sie immer weiter.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Musik: Ein zweites Standbein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dass Riemann für <em>Bandits</em> ihre eigenen Gesangs- und Instrumentalparts einspielte, war keine einmalige Fingerübung: Sie veröffentlichte später eigene Musikprojekte und trat auch abseits des Films als Sängerin auf. Für eine etablierte Schauspielerin ihres Kalibers ist das ein ungewöhnlicher Schritt – verbunden mit dem Risiko, in einem fremden Metier bewertet zu werden, in dem sie keinen etablierten Ruf zu verlieren hatte, aber auch keinen zu gewinnen brauchte.</p>
-          <p class="vb-intro">Für die SX6w7 ist das typisch: Sicherheit entsteht nicht durch das Festhalten am Bewährten, sondern durch die wiederholte Erfahrung, dass man auch im Ungewissen bestehen kann. Jedes neue Terrain, das erfolgreich betreten wird, bestätigt diese innere Gewissheit von Neuem.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihr Mut, öffentlich Position zu beziehen, wo andere lieber schweigen, und dabei künstlerisch beweglich zu bleiben, statt sich auf ein einmal gefundenes Erfolgsrezept zu verlassen. Riemann hat sich über drei Jahrzehnte hinweg als eine der wandlungsfähigsten deutschen Schauspielerinnen etabliert – ausgezeichnet unter anderem mehrfach mit dem Bambi, dem Bayerischen Filmpreis und der Goldenen Kamera.</p>
-          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der sie ihre Positionen vertritt: Was als Mut zur klaren Haltung beginnt, kann in der öffentlichen Debatte auch als Konfrontationslust wahrgenommen werden, die wenig Raum für Zwischentöne lässt. Für die sexuelle Sechs ist das der Preis der eigenen Stärke – wer sich nie zurückzieht, eckt zwangsläufig auch dort an, wo ein Rückzug klüger gewesen wäre.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3) – Partner in ›Der bewegte Mann‹"},
-        {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
-        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
       ])}
     </div>
   `);

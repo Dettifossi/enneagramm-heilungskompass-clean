@@ -1,3 +1,76 @@
+function wolfgangAmadeusMozartPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wolfgang-amadeus-mozart-portrait.jpg" alt="Wolfgang Amadeus Mozart" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Amadeus Mozart</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Komponist, 1756–1791 – Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – ein Wesen, das nach außen verspielt und gutmütig wirkt, sich aber mit ungeahnter Wucht behauptet, sobald sein Revier oder seine Nächsten bedroht sind. Wolfgang Amadeus Mozart passte selten in das Bild des überirdisch schwebenden Genies, das die Nachwelt aus ihm gemacht hat – er war ein Mensch von enormer Direktheit, körperlicher Lebensfreude und einem sehr konkreten Gespür dafür, was er zum Überleben brauchte.</p>
+          <p class="vb-intro">Der österreichische Komponist Wolfgang Amadeus Mozart, geboren 1756 in Salzburg, wurde von seinem Vater Leopold, selbst Komponist und ehrgeiziger Manager seines Sohnes, ab dem sechsten Lebensjahr durch die Höfe Europas gereicht – Paris, London, Den Haag, Italien. Ein Kind, das lernen musste, sich selbst und seine Familie durch die eigene Begabung abzusichern, bevor es überhaupt eine Kindheit außerhalb der Bühne kannte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse kennt und benennt, die sich um das Überleben der eigenen Person und derer sorgt, die ihr am nächsten stehen – konkret, direkt, ohne große Umwege. Mozarts Briefe sind voll davon: Er kümmerte sich intensiv um seine Frau Constanze, um Freunde in Not, um Schüler, denen er unentgeltlich Unterricht gab, obwohl er selbst oft in finanzieller Bedrängnis steckte.</p>
+          <p class="vb-intro">Gleichzeitig war Mozart einer der ungeniertesten Briefeschreiber der Musikgeschichte: Die sogenannten "Bäsle-Briefe" an seine Cousine Maria Anna Thekla strotzen vor derbem, fäkalem Humor – eine Direktheit, die nichts mit höfischer Etikette zu tun hatte, sondern mit dem unmittelbaren, körperlichen Lebensgefühl der SE2. Fürsorge und Ausgelassenheit lagen bei ihm nah beieinander, beides Ausdruck derselben erdverbundenen Präsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Beweis auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach sichtbarem, messbarem Erfolg – die Bühne, den Applaus, den Beweis der eigenen Unentbehrlichkeit. Mozart brach 1781 öffentlichkeitswirksam mit dem Salzburger Fürsterzbischof, um sich in Wien als freischaffender Künstler zu behaupten – ein Wagnis, das nur jemand einging, der seinem eigenen Marktwert vertraute.</p>
+          <p class="vb-intro">In Wien organisierte er eigene Subskriptionskonzerte, komponierte am laufenden Band Klavierkonzerte für den eigenen Auftritt als Solist, und suchte Zeit seines Lebens nach einer möglichst prestigeträchtigen Hofanstellung. Der Dreierflügel der SE2 fragt nicht nur "Wie sichere ich das Überleben?", sondern auch "Wie beweise ich, dass ich der Beste bin?" – und Mozart bewies es, Werk für Werk, oft in schwindelerregendem Tempo. Die Ouvertüre zu "Don Giovanni" soll er in der Nacht vor der Uraufführung geschrieben haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Genie und Existenzangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf das eigene Können und dessen sichtbaren Ertrag. Mozart wusste um seinen Wert und äußerte ihn selbstbewusst, manchmal zum Verdruss seiner Zeitgenossen. Doch dieser Stolz stand in ständiger Spannung zu einer sehr realen finanziellen Unsicherheit: Trotz beachtlicher Einnahmen lebte er oft über seine Verhältnisse, verschickte in seinen letzten Lebensjahren wiederholt Bittbriefe um Kredite an seinen Logenbruder Michael Puchberg.</p>
+          <p class="vb-intro">Das ist die Kehrseite der SE2w3: Wenn der eigene Wert am sichtbaren Erfolg hängt, wird jede Durststrecke zur existenziellen Bedrohung. Mozart kompensierte das nicht mit Rückzug, sondern mit noch mehr Arbeit, noch mehr Kompositionen, noch mehr Auftritten – das Flusspferd, das sein Revier notfalls durch schiere Ausdauer verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bach, Beethoven und Schubert: Begegnungen über die Zeit hinweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anfang der 1780er Jahre entdeckte Mozart in der Wiener Bibliothek des Barons Gottfried van Swieten die Fugenkunst Johann Sebastian Bachs (SX1w9) – eine Begegnung, die sein Spätwerk grundlegend veränderte. Er arrangierte Bach-Fugen für Streichtrio, und die kontrapunktische Strenge, die er dabei studierte, mündete in Werke wie das Finale der "Jupitersinfonie" oder die c-Moll-Messe. Die Inbrunst der sexuellen Eins traf hier auf die Bühnenpräsenz der selbsterhaltenden Zwei – und beide fanden in der reinen Form der Fuge einen gemeinsamen Nenner.</p>
+          <p class="vb-intro">Der Überlieferung nach soll der junge Ludwig van Beethoven (SX6w5) 1787 in Wien vor Mozart vorgespielt haben; ob Mozarts oft zitierter Ausspruch, dieser Junge werde "der Welt noch zu reden geben", historisch verbürgt ist, bleibt umstritten – die Begegnung selbst gilt als plausibel. Beethovens 3. Klavierkonzert in c-Moll folgt jedenfalls unverkennbar dem Vorbild von Mozarts Klavierkonzert Nr. 24 in derselben Tonart, ein stiller Dialog zwischen Wolf und Flusspferd über die Zeit der Wiener Klassik hinweg. Franz Schubert (SE6w5), 1797 geboren, konnte Mozart nie persönlich begegnen – er kam sechs Jahre nach dessen Tod zur Welt. Doch seine Tagebücher zeugen von einer fast religiösen Verehrung für Mozarts Musik, die er als tröstenden Lichtblick in dunklen Zeiten beschrieb. Das Kaninchen fand im verstorbenen Flusspferd einen Trost, den die eigene Gegenwart ihm oft verweigerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Requiem und die Fülle eines kurzen Lebens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mozart starb 1791 mit nur 35 Jahren, wahrscheinlich an den Folgen einer rheumatischen Fiebererkrankung, und wurde in einem Wiener Schachtgrab beigesetzt – damals übliche Praxis, keine Folge von Armut, wie der Mythos später behauptete. Sein letztes Werk, das Requiem, blieb unvollendet und wurde nach seinem Tod von seinem Schüler Franz Xaver Süßmayr abgeschlossen – in Auftrag gegeben von einem anonymen Grafen, der es unter eigenem Namen aufführen wollte. Selbst im Tod blieb Mozarts Werk Gegenstand fremder Inszenierung.</p>
+          <p class="vb-intro">In nur 35 Lebensjahren hinterließ er über 600 Werke – eine Fülle, die die Ausdauer und den Ehrgeiz der SE2w3 in ihrer reinsten, unermüdlichsten Form zeigt. Das Flusspferd mit Dreierflügel: fürsorglich bis zur eigenen Erschöpfung, stolz auf das Geschaffene, und unaufhörlich getrieben von der Frage, ob das nächste Werk den eigenen Wert erneut beweisen würde. Die Antwort der Nachwelt kam, wie so oft bei diesem Subtyp, erst nach seinem Tod – dafür umso lauter.</p>
+        </blockquote>
+
+        <p class="vb-intro">Die seit der Kindheit immer wiederkehrende Kette fieberhafter Erkrankungen und Mozarts plötzlicher Tod 1791 werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-wolfgang-amadeus-mozart">Krankheitsporträt zu Mozart</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Krankheitsporträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – dessen Fugenkunst er studierte"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – der ihm möglicherweise vorspielte"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – der ihn zeitlebens verehrte"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – enger Freund und bewunderter Kollege"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+        {route:"beruehmte-nero", label:"Porträt: Nero (SE2w3) – Kaiser und Bühnenkünstler"},
+      ])}
+    </div>
+  `);
+}
+
 function neroPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7254,84 +7327,6 @@ function ludwigXIVPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
-      ])}
-    </div>
-  `);
-}
-
-function christiaanBarnardPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-christiaan-barnard-portrait.jpg" alt="Dr. Christiaan Barnard – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Christiaan Barnard</p>
-        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Südafrikanischer Herzchirurg, 1922–2001 – Erste Herztransplantation der Welt – Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für den einen entscheidenden Sprint, der über Erfolg oder Misserfolg der Jagd entscheidet. Christiaan Barnard wagte am 3. Dezember 1967 genau diesen Sprint: Am Groote-Schuur-Krankenhaus in Kapstadt verpflanzte er als erster Mensch überhaupt ein menschliches Herz von einer verstorbenen Spenderin, Denise Darvall, in den Körper des schwer herzkranken Patienten Louis Washkansky.</p>
-          <p class="vb-intro">Der südafrikanische Chirurg Christiaan Barnard, geboren 1922 in Beaufort West als Sohn eines armen niederländisch-reformierten Missionars, arbeitete sich über ein Medizinstudium in Kapstadt und eine Spezialisierung in den USA bei dem renommierten Chirurgen Owen Wangensteen bis an die Weltspitze der Herzchirurgie vor. Der Gepard jagt nicht aus Kraft, sondern aus Tempo und Wagemut – und Barnard nutzte genau dieses Tempo, um eine Operation zu wagen, vor der viele etablierte Chirurgen seiner Zeit noch zurückschreckten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Drei: Ruhm über Nacht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist für sie kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Sieht die Welt, was ich erreicht habe?</em> Kaum ein medizinischer Durchbruch der Geschichte beantwortete diese Frage so unmittelbar wie Barnards Operation: Innerhalb weniger Stunden stand sein Name auf den Titelseiten der Weltpresse.</p>
-          <p class="vb-intro">Barnard nahm diesen plötzlichen Weltruhm nicht zurückhaltend an, sondern mit sichtlicher Begeisterung. Er wurde zum gefragten Talkshow-Gast, reiste um die Welt, ließ sich mit Staatsoberhäuptern und Filmstars fotografieren und genoss die Rolle des charismatischen Pioniers in vollen Zügen. Die soziale Drei sucht die Bühne, sobald sie sich bietet – und Barnard bekam mit einem Schlag die größte Bühne, die die Medizin des 20. Jahrhunderts zu vergeben hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierflügel: Charme und Beziehungen als Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht allein durch Leistung, sondern durch persönliche Anziehungskraft und Nähe zu anderen gesucht. Barnard pflegte enge Freundschaften mit internationalen Filmstars wie Sophia Loren und Gina Lollobrigida, bewegte sich mühelos im Jetset seiner Zeit und war dreifach verheiratet – jeweils mit deutlich jüngeren Frauen, seine zweite Ehefrau war erst neunzehn, als sie heirateten.</p>
-          <p class="vb-intro">Diese Beziehungen waren für Barnard nicht nur privates Vergnügen, sondern Teil seiner öffentlichen Bühne: Der charmante, weltgewandte Chirurg, der ebenso selbstverständlich im Operationssaal wie auf dem roten Teppich auftrat. Die SO3w2 sucht Bestätigung nicht in Isolation, sondern im direkten, persönlichen Kontakt mit Menschen, die selbst im Rampenlicht stehen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Preis des ersten Sprungs</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der gefeierte Durchbruch hatte eine bittere Kehrseite: Patient Louis Washkansky starb bereits 18 Tage nach der Operation an einer Lungenentzündung, ausgelöst durch die notwendige Unterdrückung seines Immunsystems – eine Komplikation, die erst Jahrzehnte später, mit der Entwicklung wirksamerer Immunsuppressiva, beherrschbar wurde. Auch mehrere folgende Transplantationspatienten überlebten nur kurze Zeit, was Barnard in Fachkreisen zeitweise scharfe Kritik einbrachte, er habe die Operation verfrüht gewagt.</p>
-          <p class="vb-intro">Barnard hielt an seinem Weg fest und trug entscheidend dazu bei, die Herztransplantation als etablierte, seriöse Therapieform zu legitimieren, statt sie als riskantes Experiment abzutun. Die soziale Drei mit Zweierflügel besitzt die Fähigkeit, aus Rückschlägen keine Rückzugsgründe, sondern Ansporn zu ziehen – solange die eigene Bedeutung im großen Ganzen dadurch nicht infrage gestellt wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3w2 zeigt sich in Barnards Fähigkeit, eine ganze medizinische Disziplin ins öffentliche Bewusstsein zu heben und ihr damit die gesellschaftliche und finanzielle Unterstützung zu sichern, die sie für ihre Weiterentwicklung brauchte. Ohne seinen Mut zum ersten Schritt – und sein Talent, diesen Schritt der Welt sichtbar zu machen – hätte sich die Herztransplantation vermutlich deutlich langsamer etabliert.</p>
-          <p class="vb-intro">Der Schatten zeigte sich, als eine schwere rheumatoide Arthritis in seinen Händen ihn in den 1980er-Jahren zwang, das Operieren aufzugeben – für einen Chirurgen, dessen Identität eng mit seinen eigenen Händen verknüpft war, ein tiefer Einschnitt. Statt sich zurückzuziehen, blieb Barnard weiter in der Öffentlichkeit präsent, unter anderem als umstrittener Werbeträger für eine Anti-Aging-Hautcreme – ein später Ausdruck derselben Sehnsucht nach Sichtbarkeit, die ihn schon 1967 getragen hatte, nun aber ohne die medizinische Substanz seiner besten Jahre.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Sprung, der eine Disziplin begründete</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Christiaan Barnard starb 2001 in Paphos, Zypern, an einem Asthmaanfall. Sein Bruder Marius Barnard, der an der historischen Operation von 1967 als Assistent beteiligt war, blieb Zeit seines Lebens im Schatten dieses einen Abends stehen, der die Herzchirurgie für immer veränderte.</p>
-          <p class="vb-intro">Der Gepard, der den einen entscheidenden Sprung wagte, als andere noch zögerten, hinterließ eine Disziplin, die heute jährlich Zehntausenden Menschen das Leben rettet. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: der Mut zum ersten, öffentlich sichtbaren Schritt – verbunden mit dem tiefen menschlichen Bedürfnis, dabei nicht allein, sondern gesehen und gefeiert zu sein.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      <div class="vb-section" style="max-width:100%;margin-top:1rem;">
-        <h3 style="font-size:0.95rem;font-weight:700;margin:0 0 .6rem;color:var(--muted);">Fanartikel</h3>
-        <a class="book-tip" href="https://www.redbubble.com/de/i/tasse/Ber%C3%BChmte-%C3%84rzte-Therapeuten-Psychologen-Enneagramm-von-DetlefRathmer/41318557/7yqg" target="_blank" rel="noopener sponsored">
-          <span class="book-tip__icon">☕</span>
-          <div class="book-tip__text">
-            <strong>Tasse »Berühmte Ärzte, Therapeuten, Psychologen«</strong>
-            <span>Neun bedeutende Heiler des Enneagramms auf einer Tasse vereint – darunter Barnard selbst – bei Redbubble bestellen.</span>
-          </div>
-          <span class="book-tip__arrow">→</span>
-        </a>
-      </div>
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
-        {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
-        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
-        {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – Rheumatoide Arthritis in den Händen"},
       ])}
     </div>
   `);
