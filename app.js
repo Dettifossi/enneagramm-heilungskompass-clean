@@ -24656,6 +24656,7 @@ const registerEntries = [
   { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 · Sozialer Typ 4 · Sänger, Tänzer, King of Pop, Gürteltier" },
   { term: "Hans Christian Andersen",       route: "beruehmte-hans-christian-andersen",     description: "Portrait: SO4w3 · Sozialer Typ 4 · Schriftsteller, Märchendichter" },
   { term: "Reinhold Würth",                route: "beruehmte-reinhold-wuerth",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Unternehmer, Würth-Gruppe" },
+  { term: "Heather Thomas",                route: "beruehmte-heather-thomas",              description: "Portrait: SX6w7 · Sexuelle Sechs · Schauspielerin, Drehbuchautorin" },
   { term: "Cat Stevens",                   route: "beruehmte-cat-stevens",                 description: "Portrait: SO4w3 · Sozialer Typ 4 · Musiker, auch bekannt als Yusuf Islam" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 · Sozialer Typ 4 · YouTuber, Gen-Z-Identität" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 · Sexueller Typ 5 · Popstar, Songwriterin, Transformation" },
@@ -32972,6 +32973,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eva Mendes – Sexuelle Sechs mit Siebenerflügel",
     teaser:"SX6w7 · geb. 1974. Schauspielerin und Unternehmerin. Vom ängstlichen Kind einer kubanischen Einwandererfamilie zum international gefeierten Sexsymbol (Calvin-Klein-Kampagnen) und zur vielseitigen Unternehmerin mit eigenen Mode-, Skincare- und Wohnaccessoire-Linien. Zog sich bewusst aus dem Rampenlicht zurück, um Familie und Privatsphäre mit Ehemann Ryan Gosling zu schützen. Tierentsprechung: Wolf.",
     land:"USA", tags:["Schauspiel","Business"], gender:"f"},
+  { route:"beruehmte-heather-thomas", name:"Heather Thomas", added:"2026-08-30", subtyp:"SX6w7",
+    heading:"Heather Thomas – Sexuelle Sechs mit Siebenerflügel",
+    teaser:"SX6w7 · geb. 1957. Schauspielerin, Drehbuchautorin. Wurde als Jody Banks in ›Ein Colt für alle Fälle‹ zum Pin-up-Idol der frühen 1980er, sprach später offen über eine jahrelange Essstörung und die Folgen kosmetischer Eingriffe, und wurde eine der ersten prominenten politischen Blogger der Huffington Post. Tierentsprechung: Wolf.",
+    land:"USA", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
     heading:"Andre Agassi – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1970. US-amerikanischer Tennisspieler, 8-facher Grand-Slam-Sieger. Vom Vater zum Tennisprofi gedrillt, wurde er mit der ›Image is Everything‹-Kampagne zum Rebellen-Image, das er später in seiner Autobiografie ›Open‹ als Lüge entlarvte. Nach einem Absturz außerhalb der Top 100 und einer verheimlichten Crystal-Meth-Episode kämpfte er sich zurück zur Nummer 1. Gründer der Andre Agassi Foundation for Education. Seit 2001 mit Steffi Graf (SO9w1) verheiratet. Tierentsprechung: Waschbär.",
@@ -74143,6 +74148,72 @@ function evaMendesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function heatherThomasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heather-thomas-portrait.jpg" alt="Heather Thomas" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heather Thomas</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Drehbuchautorin, geb. 1957 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der zum Idol wurde, bevor er seine eigene Stimme fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs: wachsam, misstrauisch, aber fähig, diese Wachsamkeit in eine herausfordernde, mutige Präsenz umzuwandeln, die Stärke und Schönheit zugleich ausstrahlt. Heather Thomas verkörperte genau dieses Bild, als sie Anfang der 1980er-Jahre als Jody Banks in der Actionserie <em>Ein Colt für alle Fälle</em> (The Fall Guy) an der Seite von Lee Majors zum landesweiten Pin-up-Idol wurde – ein Bild von Stärke und Schönheit, das Millionen Poster zierte, während dahinter eine deutlich unsicherere, wachsamere Person stand.</p>
+          <p class="vb-intro">Heather Thomas, geboren 1957 in Greenwich, Connecticut, kam aus einer Familie mit unsteten Verhältnissen und wechselte in ihrer Jugend häufig den Wohnort – eine frühe Erfahrung von Unsicherheit, die dem wachsamen Grundthema der Sechs eine reale biografische Grundlage gab, lange bevor Hollywood daraus ein Bild vermeintlicher makelloser Sorglosigkeit machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke und Schönheit als Antwort auf Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt die sexuelle Sechs über das Begriffspaar <em>Stärke und Schönheit</em> – eine Möglichkeit, die zugrundeliegende Angst nicht durch Vorsicht (wie die selbsterhaltende Sechs) oder durch Gruppenzugehörigkeit (wie die soziale Sechs) zu bewältigen, sondern durch eine herausfordernde, oft ausgesprochen attraktive Präsenz, die Unsicherheit in Anziehungskraft verwandelt. Thomas' Karriere begann genau hier: als physisch makelloses Pin-up, dessen Bildsprache Stärke und Schönheit untrennbar miteinander verband, lange bevor die Person dahinter öffentlich zu Wort kam.</p>
+          <p class="vb-intro">Bemerkenswert ist, wie offen Thomas später über die Kehrseite dieser Rolle sprach: eine über Jahre verdeckte Essstörung während der Dreharbeiten zu <em>The Fall Guy</em>, ausgelöst durch den enormen Druck, ein makelloses Körperbild aufrechtzuerhalten. Das ist die verletzliche Innenseite der SX6-Angst hinter der demonstrierten äußeren Stärke – die Sechs, die durch ihre Schönheit Sicherheit zu gewinnen versucht, während die eigentliche Unsicherheit im Verborgenen bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vom Pin-up zur pointierten Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Siebenerflügel bringt der Sechs Beweglichkeit, Vielseitigkeit und den Wunsch, sich nicht auf eine einzige Rolle festlegen zu lassen. Genau das zeigt sich in Thomas' späterer Laufbahn: Nach dem Ende von <em>The Fall Guy</em> wandte sie sich erfolgreich dem Schreiben zu, verfasste Drehbücher für Film und Fernsehen und wurde eine der ersten prominenten politischen Blogger auf der Huffington Post – eine deutliche, energiegeladene Neuerfindung, die dem reinen Sechser-Muster allein fremd wäre.</p>
+          <p class="vb-intro">Als politische Kommentatorin entwickelte Thomas eine scharfe, oft konfrontative Stimme, die sich unverblümt gegen Autoritäten und politische Fehlentwicklungen richtete – ein wachsames Hinterfragen von Macht, das sich mit dem Siebenerflügel in pointierte, wortgewandte Beiträge verwandelte, statt in stille Sorge zu verharren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben zwischen Fassade und Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas ist seit 1990 mit dem einflussreichen Entertainment-Anwalt Skip Brittenham verheiratet – eine seit Jahrzehnten stabile, öffentlich kaum inszenierte Beziehung, die im deutlichen Kontrast zu ihrem einstigen Image als unnahbares Sexsymbol steht. Diese Verlässlichkeit im engsten Kreis passt zum Sicherheitsbedürfnis, das jeder Sechser-Subtyp im Kern teilt, auch wenn die SX6 es anders auslebt als die selbsterhaltende oder soziale Sechs.</p>
+          <p class="vb-intro">Besonders bemerkenswert ist Thomas' spätere Offenheit über die gesundheitlichen Folgen kosmetischer Eingriffe, die sie in den 1990er-Jahren vornehmen ließ, um dem Druck des Showgeschäfts zu genügen – ein öffentliches Eingeständnis, das viele Prominente ihrer Generation vermieden. Diese Offenlegung ist typisch für die SX6: die anfängliche Fassade der makellosen Stärke wird irgendwann selbst infrage gestellt und offen benannt, statt für immer aufrechterhalten zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Thomas die Fähigkeit, aus einer anfangs rein äußerlich definierten Rolle heraus eine eigenständige, kritische Stimme zu entwickeln – vom Pin-up zur Drehbuchautorin und politischen Kommentatorin ist ein Weg, der Mut zur Neuerfindung verlangt, getragen vom beweglichen Siebenerflügel.</p>
+          <p class="vb-intro">Im Schatten steht die jahrelang verdeckte Essstörung und der spätere Bedarf an kosmetischer Korrektur – ein Muster, in dem die SX6 ihre Angst vor Unzulänglichkeit so lange durch äußere Perfektion zu kompensieren versucht, bis der Preis dafür zu hoch wird und offen ausgesprochen werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Fassade zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich sicher, wenn ich stark und makellos wirke?</em> zur Erkenntnis <em>Sicherheit entsteht nicht durch die perfekte Fassade, sondern durch die ehrliche Stimme dahinter.</em> Für die SX6w7 bedeutet das, die anfängliche Rolle als Objekt der Bewunderung hinter sich zu lassen und stattdessen die eigene, kritische Perspektive einzubringen – genau der Weg, den Thomas vom Pin-up-Idol zur Drehbuchautorin und politischen Stimme gegangen ist.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Thomas' Essstörung und ihre späteren gesundheitlichen Belastungen durch kosmetische Eingriffe lassen sich nicht monokausal auf ihren Subtyp zurückführen – solche Erfahrungen sind in der Unterhaltungsbranche verbreitet, unabhängig vom Enneagramm-Typ. Bemerkenswert bleibt dennoch, wie genau sich das SX6-Muster – Sicherheit durch demonstrierte Stärke und Schönheit zu suchen, bis die Fassade selbst zur Belastung wird – in ihrer Biografie nachzeichnen lässt. Thomas kannte ihr eigenes Enneagramm-Muster zur Zeit ihrer größten Popularität nicht bewusst; sie lebte die Leidenschaft, Sicherheit durch äußere Perfektion zu erlangen, ungebremst aus, bis der Körper selbst die Grenze setzte – nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster, bevor sie später den Mut fand, offen darüber zu sprechen.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
       ])}
     </div>
@@ -139356,6 +139427,7 @@ function render() {
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-eva-mendes": evaMendesPortraitPage,
+      "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

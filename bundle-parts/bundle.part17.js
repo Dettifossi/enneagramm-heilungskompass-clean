@@ -4887,6 +4887,7 @@ function render() {
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-eva-mendes": evaMendesPortraitPage,
+      "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

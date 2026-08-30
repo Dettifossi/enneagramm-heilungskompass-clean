@@ -750,6 +750,7 @@ export const registerEntries = [
   { term: "Gangaji",                       route: "beruehmte-gangaji",                     description: "Portrait: SX4w3 · Sexuelle Vier · spirituelle Lehrerin, Schülerin von Papaji" },
   { term: "Ryan Gosling",                  route: "beruehmte-ryan-gosling",                description: "Portrait: SX2w3 · Sexuelle Zwei · Schauspieler, dreifach oscarnominiert" },
   { term: "Eva Mendes",                    route: "beruehmte-eva-mendes",                  description: "Portrait: SX6w7 · Sexuelle Sechs · Schauspielerin und Unternehmerin" },
+  { term: "Heather Thomas",                route: "beruehmte-heather-thomas",              description: "Portrait: SX6w7 · Sexuelle Sechs · Schauspielerin, Drehbuchautorin" },
   { term: "Andre Agassi",                  route: "beruehmte-andre-agassi",                description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Tennisspieler, 8-facher Grand-Slam-Sieger" },
   { term: "Bastian Pastewka",              route: "beruehmte-bastian-pastewka",            description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspieler, Komiker, Synchronsprecher" },
   { term: "Horst Tappert",                 route: "beruehmte-horst-tappert",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspieler, Oberinspektor Derrick" },

@@ -1,3 +1,189 @@
+function konradAdenauerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Konrad Adenauer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Konrad Adenauer</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1876–1967</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Konrad Adenauer</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort weitgehend außen vor bleibt:
+        ein schwerer Autounfall 1917, der sein Gesicht lebenslang veränderte, gefolgt von
+        Verfolgung und Haft unter den Nationalsozialisten sowie den gesundheitlichen
+        Einbrüchen seines letzten Lebensjahres.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Adenauer</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet den Vollkommenheitsanspruch der Eins auf das eigene,
+        unmittelbare Überleben und Funktionieren – Ordnung, Kontrolle und moralische
+        Korrektheit als Schutz vor Chaos und Verletzlichkeit. Der Neunerflügel bringt eine
+        ruhige, unerschütterlich wirkende Präsenz hinzu, hinter der sich Anspannung oft lange
+        verbirgt – ein Muster, das sich bis in Adenauers äußerlich stets kontrollierte Haltung
+        nach einem im wörtlichen Sinne zertrümmerten Gesicht nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Kontrolle über das eigene Erscheinungsbild als Lebensprinzip:</strong>
+        Nach dem Unfall, der sein Gesicht dauerhaft veränderte, arbeitete Adenauer sein
+        gesamtes weiteres Leben an einer öffentlichen Erscheinung von unerschütterlicher
+        Ruhe und Autorität – das genaue Gegenteil der erlittenen Verwundbarkeit.</p>
+        <p class="vb-intro"><strong>b) Wachsamkeit als Grundhaltung:</strong>
+        Ob nach dem Unfall, während der Verfolgung durch die Nationalsozialisten oder im hohen
+        Amt – Adenauers Blick galt stets der Frage, welche Gefahr als Nächstes drohen könnte,
+        und wie ihr durch Vorsicht und Struktur zu begegnen sei.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Fassung trotz privater Erschütterung:</strong>
+        Selbst in den Monaten der Gestapo-Verfolgung 1944 hielt Adenauer nach eigener
+        Aussage seine Haltung gegenüber den Verhörenden als "scharf, aber korrekt" –
+        eine kontrollierte Contenance, die auch unter existenziellem Druck nicht zusammenbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein schwerer Autounfall 1917:</strong>
+        Der Dienstwagen des damals 41-jährigen Kölner Beigeordneten Adenauer kollidierte mit
+        einer Straßenbahn. Jochbein und Nasenbein brachen, der Unterkiefer wurde zertrümmert
+        und ausgerenkt, mehrere Zähne gingen verloren, die Sehkraft war beeinträchtigt, dazu
+        kamen tiefe Kopfwunden.</p>
+        <p class="vb-intro"><strong>b) Monatelange Rekonstruktion:</strong>
+        Es folgten ein monatelanger Krankenhausaufenthalt und mehrere rekonstruktive
+        Operationen am Gesicht. Die markanten, eingefallenen Gesichtszüge, für die Adenauer
+        später bekannt wurde, sind zu einem erheblichen Teil direkte Unfallfolge – keine
+        gewöhnliche Alterserscheinung.</p>
+        <p class="vb-intro"><strong>c) Verfolgung ab 1933:</strong>
+        Nach der Machtübernahme der Nationalsozialisten wurde Adenauer als Kölner
+        Oberbürgermeister abgesetzt und aus Köln verwiesen; er fand zeitweise Zuflucht in der
+        Abtei Maria Laach. Im Juni 1934, im Umfeld des sogenannten Röhm-Putsches, folgte eine
+        zweitägige Gestapo-Haft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Flucht und erneute Verhaftung 1944:</strong>
+        Wegen einer perniziösen Anämie zunächst als haftuntauglich eingestuft und ins
+        Krankenhaus verlegt, gelang Adenauer im September 1944 mit einem gefälschten
+        Transportschein die Flucht. Er tauchte in einer Pension bei Hachenburg unter, wurde
+        jedoch wieder aufgegriffen.</p>
+        <p class="vb-intro"><strong>b) Zwei Monate Gestapo-Gefängnis Brauweiler:</strong>
+        Von Ende September bis Ende November 1944 saß Adenauer im Gestapo-Gefängnis
+        Brauweiler ein. Seine Zelle lag direkt über dem Verhörraum – nachts hörte er die
+        Misshandlung anderer Gefangener und verbrachte, wie er selbst beschrieb,
+        schweißgebadete Nächte unter psychischer Belastung.</p>
+        <p class="vb-intro"><strong>c) Das Trauma der eigenen Familie:</strong>
+        Seine Frau Auguste, unter Verhör zur Preisgabe seines Fluchtortes gezwungen, versuchte
+        aus Schuldgefühlen sich das Leben zu nehmen. Sie wurde rechtzeitig gerettet, starb
+        jedoch 1948 an den Spätfolgen – ein Leid, das die gesamte Familie Adenauer
+        lebenslang begleitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Bemerkenswerte Vitalität trotz allem:</strong>
+        Trotz Unfall, Verfolgung und Haft amtierte Adenauer von 1949 bis 1963 als
+        Bundeskanzler – bis ins Alter von 87 Jahren galt er als außergewöhnlich
+        arbeitsfähig und vital.</p>
+        <p class="vb-intro"><strong>b) Zwei Herzinfarkte im Frühjahr 1967:</strong>
+        Am 29. März 1967 erlitt der 91-Jährige einen ersten Herzinfarkt, über Ostern folgte
+        ein zweiter. Sein Körper, der jahrzehntelang bemerkenswert stabil funktioniert hatte,
+        begann in den letzten Lebenswochen rasch nachzulassen.</p>
+        <p class="vb-intro"><strong>c) Tod nach kurzer letzter Erkrankung:</strong>
+        Auf die Herzinfarkte folgte eine grippale Bronchitis, die sich zu einer Lungenentzündung
+        entwickelte. Konrad Adenauer starb am 19. April 1967 im Alter von 91 Jahren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Wiederaufbau als Lebensmuster:</strong>
+        So wie sein Gesicht nach 1917 chirurgisch wiederhergestellt wurde, baute Adenauer nach
+        1945 buchstäblich einen zerstörten Staat wieder auf – ein Muster von Rekonstruktion
+        nach Zerstörung, das sich durch sein gesamtes Leben zieht.</p>
+        <p class="vb-intro"><strong>b) Kontrolle als Energiequelle unter Druck:</strong>
+        Die Fähigkeit, unter existenzieller Bedrohung – Unfall, Verfolgung, Haft – äußerlich
+        gefasst zu bleiben, war keine Abwesenheit von Angst, sondern eine trainierte,
+        disziplinierte Kanalisierung der eigenen Anspannung in kontrolliertes Handeln.</p>
+        <p class="vb-intro"><strong>c) Der Adler, der bis zuletzt im Amt blieb:</strong>
+        Die Energie der SE1w9 richtete sich bis ins hohe Alter auf dieselbe Grundhaltung:
+        Ordnung schaffen, Verantwortung tragen, nicht aufgeben, solange die Aufgabe nicht
+        erfüllt ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Verletzung, kein fortschreitendes Leiden:</strong>
+        Anders als bei den meisten anderen Krankheitsporträts dieses Kompasses steht bei
+        Adenauer am Anfang keine schleichende Erkrankung, sondern ein einmaliges, plötzliches
+        Trauma – der Autounfall von 1917 –, dessen körperliche und wohl auch psychische
+        Folgen ihn jedoch lebenslang begleiteten.</p>
+        <p class="vb-intro"><strong>b) Eine zweite Erschütterung, zwei Jahrzehnte später:</strong>
+        Wo der Unfall 1917 den Körper traf, trafen Verfolgung und Haft 1933/34 und 1944 die
+        Existenz und die Familie – zwei sehr unterschiedliche, aber strukturell verwandte
+        Erfahrungen von plötzlichem Kontrollverlust, denen Adenauer beide Male mit äußerer
+        Fassung begegnete.</p>
+        <p class="vb-intro"><strong>c) Ein Körper, der bis zum Schluss funktionierte:</strong>
+        Erst mit 91 Jahren, im Frühjahr 1967, versagte der Körper endgültig – nach
+        Jahrzehnten, in denen er trotz früher Verletzung bemerkenswert stabil geblieben war.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gesicht?</strong>
+        Bei einer selbsterhaltenden Eins, deren gesamtes Lebensprinzip auf Kontrolle,
+        Korrektheit und makelloser äußerer Haltung beruht, liegt eine Deutung nahe: Der
+        Unfall traf ausgerechnet jenen Körperteil, über den Autorität, moralische Integrität
+        und öffentliches Auftreten am unmittelbarsten vermittelt werden – das Gesicht. Statt
+        sich zurückzuziehen, verwandelte Adenauer die sichtbaren Narben in das Gegenteil von
+        Schwäche: ein Gesicht, das zu einem der bekanntesten und autoritätsstiftendsten
+        Erscheinungsbilder der deutschen Nachkriegsgeschichte wurde. Diese Deutung ist eine
+        plausible Interpretation, kein historisch belegter Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Unfällen
+        oder Verletzungen führt – <strong>jeder Mensch kann jede Krankheit oder Verletzung
+        erleiden, unabhängig vom Subtyp.</strong> Was sich an Adenauers Fall zeigen lässt, ist
+        ein Muster, das bei dem Bedürfnis, gerade nach erlittener Verwundbarkeit äußere
+        Kontrolle und Ordnung wiederherzustellen, in der Praxis immer wieder auffällt – eine
+        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Adenauer kannte sein eigenes Muster nicht – die selbsterhaltende Eins mit Neunerflügel verwandelt Verletzung reflexhaft in kontrollierte äußere Ordnung, und genau das tat er, als er die Narben seines Unfalls zum Ausdruck disziplinierter Autorität formte, statt sich die dahinterliegende Erschütterung einzugestehen. Wer das eigene Kontrollmuster nicht kennt, hält die Fassade so lange aufrecht, dass selbst nahestehende Menschen die tatsächliche Belastung kaum erahnen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Eins mit Neunerflügel prägt <strong>Adenauers</strong> Leben bis in
+        die eigene Verletzungs- und Verfolgungsgeschichte hinein: ein 1917 zertrümmertes
+        Gesicht, das er zum Ausdruck kontrollierter Autorität umformte, zwei Jahrzehnte
+        später Verfolgung und Haft, denen er mit derselben äußeren Fassung begegnete, und ein
+        Körper, der bis zum 91. Lebensjahr bemerkenswert stabil blieb. Der Adler, der nach
+        jedem Sturz wieder aufstieg – nicht unversehrt, aber ungebrochen in seiner
+        Entschlossenheit, Ordnung wiederherzustellen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function johannSebastianBachKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13031,184 +13217,6 @@ function hansDietrichGenscherKrankheitsportraetPage() {
         {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
-      ])}
-    </div>
-  `);
-}
-
-function astridLindgrenKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Astrid Lindgren" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Astrid Lindgren</p>
-        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1907–2002</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Adler</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Astrid Lindgren</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-astrid-lindgren">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: eine fortschreitende Makuladegeneration im
-        hohen Alter, die sie zwang, ihre jahrzehntelange Arbeitsroutine des Schreibens
-        vollständig aufzugeben.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Lindgren</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
-        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Arbeitsdisziplin;
-        der Neunerflügel gibt ihr die Fähigkeit, sich anzupassen und selbst tiefgreifende
-        Verluste ohne öffentliches Aufsehen zu verarbeiten. Genau diese Kombination – der
-        Verlust des zentralen Arbeitswerkzeugs, verbunden mit der stillen Anpassung an neue
-        Arbeitsweisen statt öffentlicher Klage – bestimmte den Umgang mit der eigenen
-        Erblindung im Alter.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Nachlassende Sehkraft im hohen Alter:</strong>
-        Nach übereinstimmenden biografischen Quellen begann Lindgrens Sehkraft in ihren
-        letzten Lebensjahrzehnten spürbar nachzulassen – ein schleichender Prozess, der ihre
-        über Jahrzehnte etablierte Arbeitsroutine zunehmend erschwerte.</p>
-        <p class="vb-intro"><strong>b) Diagnose einer altersbedingten Makuladegeneration:</strong>
-        Bei Lindgren wurde eine fortschreitende Makuladegeneration diagnostiziert, eine
-        Augenerkrankung, die das scharfe Sehen im Zentrum des Gesichtsfelds zunehmend
-        beeinträchtigt.</p>
-        <p class="vb-intro"><strong>c) Zunehmende Schwierigkeiten beim Schreiben und Lesen:</strong>
-        Die Erkrankung machte es ihr im Lauf der Jahre immer schwerer, ihre gewohnte
-        Arbeitsweise – handschriftliche Stenografie am Morgen, anschließendes Abtippen –
-        fortzusetzen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Nahezu vollständige Erblindung in den letzten Lebensjahren:</strong>
-        In ihren letzten Lebensjahren war Lindgren nach übereinstimmenden Berichten praktisch
-        blind – eine Einschränkung, die sie öffentlich kaum thematisierte.</p>
-        <p class="vb-intro"><strong>b) Umstellung auf Diktate statt Schreiben:</strong>
-        Um weiterhin schreiben zu können, stellte Lindgren ihre Arbeitsweise auf Diktate um –
-        sie sprach Texte, die von ihrer langjährigen Sekretärin niedergeschrieben wurden,
-        statt sie selbst zu Papier zu bringen.</p>
-        <p class="vb-intro"><strong>c) Kein öffentlicher Rückzug wegen der Erkrankung:</strong>
-        Trotz der Sehbehinderung setzte Lindgren ihr öffentliches Engagement, insbesondere
-        für den Tierschutz, bis in ihre letzten Lebensjahre fort.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fortgesetztes Tierschutz-Engagement trotz Erblindung:</strong>
-        Ihr entscheidendes öffentliches Engagement für die „Lex Lindgren" 1988 fand statt, als
-        ihre Sehkraft bereits erheblich eingeschränkt war – ein Beweis dafür, dass die
-        Erkrankung ihre Wirksamkeit nicht einschränkte.</p>
-        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Thematisierung:</strong>
-        Anders als bei manchen prominenten Persönlichkeiten mit vergleichbaren Erkrankungen
-        machte Lindgren ihre Erblindung nie zu einem öffentlichen Anliegen oder einer
-        Kampagne – sie blieb ein privater Umstand, der ihr Wirken praktisch, aber nicht
-        öffentlich prägte.</p>
-        <p class="vb-intro"><strong>c) Tod im Alter von 94 Jahren:</strong>
-        Lindgren starb 2002 in Stockholm, nach Jahren, in denen sie trotz nahezu vollständiger
-        Erblindung ihre öffentliche Wirksamkeit aufrechterhalten hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Nationale Trauer bei ihrem Tod:</strong>
-        Ihr Begräbnis wurde live im schwedischen Fernsehen übertragen – ein Ausdruck der
-        immensen nationalen Bedeutung, die weit über ihre gesundheitlichen Einschränkungen
-        hinausreichte.</p>
-        <p class="vb-intro"><strong>b) Kein öffentliches Bild einer kranken alten Frau:</strong>
-        Das öffentliche Bild Lindgrens blieb bis zu ihrem Tod von Wirksamkeit und moralischer
-        Autorität geprägt, nicht von der eigenen körperlichen Einschränkung.</p>
-        <p class="vb-intro"><strong>c) Nachträgliche biografische Würdigung der Anpassungsleistung:</strong>
-        Erst spätere Biografien würdigten ausführlicher, welche Anpassungsleistung es
-        bedeutete, im hohen Alter eine völlig neue Arbeitsweise zu erlernen, ohne dabei an
-        Wirksamkeit einzubüßen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Disziplin, die sich an neue Umstände anpasste:</strong>
-        Die SE1-typische Arbeitsdisziplin zeigte sich auch im Umgang mit der Erblindung:
-        Lindgren gab das Schreiben nicht auf, sondern fand eine neue, ebenso diszipliniert
-        durchgehaltene Methode – das Diktat.</p>
-        <p class="vb-intro"><strong>b) Der Neunerflügel und die stille Anpassung statt öffentlicher Klage:</strong>
-        Dieselbe Zurückhaltung, mit der Lindgren zeitlebens ihr Privatleben vor der
-        Öffentlichkeit schützte, zeigte sich im Umgang mit der Erblindung als bewusste
-        Entscheidung, die eigene Einschränkung nicht zum öffentlichen Thema zu machen.</p>
-        <p class="vb-intro"><strong>c) Wirksamkeit trotz Einschränkung als Fortsetzung des eigenen Musters:</strong>
-        Dass sie ihr wichtigstes politisches Engagement – den Tierschutz – gerade in den
-        Jahren fortsetzte, als ihre Sehkraft am stärksten eingeschränkt war, passt zur
-        SE1w9-Überzeugung, dass die eigene Aufgabe wichtiger ist als die eigene Bequemlichkeit
-        oder Sichtbarkeit der eigenen Grenzen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Autorin genauer Beobachtung, die die Fähigkeit zu sehen verlor:</strong>
-        Lindgrens gesamtes Werk beruhte auf genauer Beobachtung – der kindlichen Welt, der
-        gesellschaftlichen Ungerechtigkeit, der eigenen Manuskripte als Lektorin. Ausgerechnet
-        das Sehvermögen, das diese Genauigkeit ermöglichte, versagte ihr im Alter.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
-        Adenauer (SE1w9)</a>: Auch Adenauer blieb trotz erheblicher körperlicher
-        Beeinträchtigung bis ins hohe Alter bemerkenswert wirksam, ohne die eigene
-        gesundheitliche Belastung zum öffentlichen Thema zu machen. Bei beiden SE1w9ern zeigt
-        sich dasselbe Muster: eine körperliche Einschränkung wird durch Disziplin und stille
-        Anpassung kompensiert, statt sie öffentlich zu verhandeln.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet die Augen, das Werkzeug der genauen Beobachtung?</strong>
-        Für eine selbsterhaltende Eins mit Neunerflügel, deren gesamtes Werk auf präziser
-        Beobachtung und disziplinierter Genauigkeit beruhte, liegt eine Deutung nahe:
-        Ausgerechnet jenes Organ, das die Grundlage ihrer Arbeitsweise war, wurde zum Ort des
-        körperlichen Verlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
-        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
-        Makuladegeneration führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Lindgrens Fall zeigen lässt, ist ein
-        Muster im Umgang mit einer altersbedingten körperlichen Einschränkung, das bei einer
-        ausgeprägten selbsterhaltenden Eins mit Neunerflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Lindgren kannte ihr eigenes Muster nicht als Enneagramm-Struktur – die
-        selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
-        stillen Anpassung fest, statt körperliche Verluste offen zu benennen, und lebte genau
-        dieses Muster bis zu ihrem Tod unverändert aus. Wer die eigene Neigung, körperliche
-        Einschränkungen ohne öffentliche Aussprache zu kompensieren, nicht als Muster
-        erkennt, riskiert, dass die eigene Belastung unsichtbar bleibt, auch wenn Unterstützung
-        möglich wäre.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Astrid
-        Lindgren</strong> vieles am Umgang mit der eigenen Erblindung: eine Frau, deren
-        gesamtes Werk auf genauer Beobachtung beruhte, fand eine neue, ebenso diszipliniert
-        durchgehaltene Form, weiterzuwirken, als ihr das Sehvermögen selbst versagte – der
-        Adler, der auch ohne den vollen Blick weiterhin wusste, wohin er fliegen musste.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
-        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
-        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);

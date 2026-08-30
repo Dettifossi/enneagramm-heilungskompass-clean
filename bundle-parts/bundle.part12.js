@@ -1,3 +1,181 @@
+function astridLindgrenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-astrid-lindgren-portrait.jpg" alt="Astrid Lindgren" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Astrid Lindgren</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1907–2002</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Astrid Lindgren</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-astrid-lindgren">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine fortschreitende Makuladegeneration im
+        hohen Alter, die sie zwang, ihre jahrzehntelange Arbeitsroutine des Schreibens
+        vollständig aufzugeben.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lindgren</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Arbeitsdisziplin;
+        der Neunerflügel gibt ihr die Fähigkeit, sich anzupassen und selbst tiefgreifende
+        Verluste ohne öffentliches Aufsehen zu verarbeiten. Genau diese Kombination – der
+        Verlust des zentralen Arbeitswerkzeugs, verbunden mit der stillen Anpassung an neue
+        Arbeitsweisen statt öffentlicher Klage – bestimmte den Umgang mit der eigenen
+        Erblindung im Alter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Nachlassende Sehkraft im hohen Alter:</strong>
+        Nach übereinstimmenden biografischen Quellen begann Lindgrens Sehkraft in ihren
+        letzten Lebensjahrzehnten spürbar nachzulassen – ein schleichender Prozess, der ihre
+        über Jahrzehnte etablierte Arbeitsroutine zunehmend erschwerte.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer altersbedingten Makuladegeneration:</strong>
+        Bei Lindgren wurde eine fortschreitende Makuladegeneration diagnostiziert, eine
+        Augenerkrankung, die das scharfe Sehen im Zentrum des Gesichtsfelds zunehmend
+        beeinträchtigt.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Schwierigkeiten beim Schreiben und Lesen:</strong>
+        Die Erkrankung machte es ihr im Lauf der Jahre immer schwerer, ihre gewohnte
+        Arbeitsweise – handschriftliche Stenografie am Morgen, anschließendes Abtippen –
+        fortzusetzen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Nahezu vollständige Erblindung in den letzten Lebensjahren:</strong>
+        In ihren letzten Lebensjahren war Lindgren nach übereinstimmenden Berichten praktisch
+        blind – eine Einschränkung, die sie öffentlich kaum thematisierte.</p>
+        <p class="vb-intro"><strong>b) Umstellung auf Diktate statt Schreiben:</strong>
+        Um weiterhin schreiben zu können, stellte Lindgren ihre Arbeitsweise auf Diktate um –
+        sie sprach Texte, die von ihrer langjährigen Sekretärin niedergeschrieben wurden,
+        statt sie selbst zu Papier zu bringen.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Rückzug wegen der Erkrankung:</strong>
+        Trotz der Sehbehinderung setzte Lindgren ihr öffentliches Engagement, insbesondere
+        für den Tierschutz, bis in ihre letzten Lebensjahre fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortgesetztes Tierschutz-Engagement trotz Erblindung:</strong>
+        Ihr entscheidendes öffentliches Engagement für die „Lex Lindgren" 1988 fand statt, als
+        ihre Sehkraft bereits erheblich eingeschränkt war – ein Beweis dafür, dass die
+        Erkrankung ihre Wirksamkeit nicht einschränkte.</p>
+        <p class="vb-intro"><strong>b) Keine ausführliche öffentliche Thematisierung:</strong>
+        Anders als bei manchen prominenten Persönlichkeiten mit vergleichbaren Erkrankungen
+        machte Lindgren ihre Erblindung nie zu einem öffentlichen Anliegen oder einer
+        Kampagne – sie blieb ein privater Umstand, der ihr Wirken praktisch, aber nicht
+        öffentlich prägte.</p>
+        <p class="vb-intro"><strong>c) Tod im Alter von 94 Jahren:</strong>
+        Lindgren starb 2002 in Stockholm, nach Jahren, in denen sie trotz nahezu vollständiger
+        Erblindung ihre öffentliche Wirksamkeit aufrechterhalten hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Nationale Trauer bei ihrem Tod:</strong>
+        Ihr Begräbnis wurde live im schwedischen Fernsehen übertragen – ein Ausdruck der
+        immensen nationalen Bedeutung, die weit über ihre gesundheitlichen Einschränkungen
+        hinausreichte.</p>
+        <p class="vb-intro"><strong>b) Kein öffentliches Bild einer kranken alten Frau:</strong>
+        Das öffentliche Bild Lindgrens blieb bis zu ihrem Tod von Wirksamkeit und moralischer
+        Autorität geprägt, nicht von der eigenen körperlichen Einschränkung.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche biografische Würdigung der Anpassungsleistung:</strong>
+        Erst spätere Biografien würdigten ausführlicher, welche Anpassungsleistung es
+        bedeutete, im hohen Alter eine völlig neue Arbeitsweise zu erlernen, ohne dabei an
+        Wirksamkeit einzubüßen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Disziplin, die sich an neue Umstände anpasste:</strong>
+        Die SE1-typische Arbeitsdisziplin zeigte sich auch im Umgang mit der Erblindung:
+        Lindgren gab das Schreiben nicht auf, sondern fand eine neue, ebenso diszipliniert
+        durchgehaltene Methode – das Diktat.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und die stille Anpassung statt öffentlicher Klage:</strong>
+        Dieselbe Zurückhaltung, mit der Lindgren zeitlebens ihr Privatleben vor der
+        Öffentlichkeit schützte, zeigte sich im Umgang mit der Erblindung als bewusste
+        Entscheidung, die eigene Einschränkung nicht zum öffentlichen Thema zu machen.</p>
+        <p class="vb-intro"><strong>c) Wirksamkeit trotz Einschränkung als Fortsetzung des eigenen Musters:</strong>
+        Dass sie ihr wichtigstes politisches Engagement – den Tierschutz – gerade in den
+        Jahren fortsetzte, als ihre Sehkraft am stärksten eingeschränkt war, passt zur
+        SE1w9-Überzeugung, dass die eigene Aufgabe wichtiger ist als die eigene Bequemlichkeit
+        oder Sichtbarkeit der eigenen Grenzen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Autorin genauer Beobachtung, die die Fähigkeit zu sehen verlor:</strong>
+        Lindgrens gesamtes Werk beruhte auf genauer Beobachtung – der kindlichen Welt, der
+        gesellschaftlichen Ungerechtigkeit, der eigenen Manuskripte als Lektorin. Ausgerechnet
+        das Sehvermögen, das diese Genauigkeit ermöglichte, versagte ihr im Alter.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-konrad-adenauer">Konrad
+        Adenauer (SE1w9)</a>: Auch Adenauer blieb trotz erheblicher körperlicher
+        Beeinträchtigung bis ins hohe Alter bemerkenswert wirksam, ohne die eigene
+        gesundheitliche Belastung zum öffentlichen Thema zu machen. Bei beiden SE1w9ern zeigt
+        sich dasselbe Muster: eine körperliche Einschränkung wird durch Disziplin und stille
+        Anpassung kompensiert, statt sie öffentlich zu verhandeln.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Augen, das Werkzeug der genauen Beobachtung?</strong>
+        Für eine selbsterhaltende Eins mit Neunerflügel, deren gesamtes Werk auf präziser
+        Beobachtung und disziplinierter Genauigkeit beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das die Grundlage ihrer Arbeitsweise war, wurde zum Ort des
+        körperlichen Verlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
+        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Makuladegeneration führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Lindgrens Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer altersbedingten körperlichen Einschränkung, das bei einer
+        ausgeprägten selbsterhaltenden Eins mit Neunerflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Lindgren kannte ihr eigenes Muster nicht als Enneagramm-Struktur – die
+        selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
+        stillen Anpassung fest, statt körperliche Verluste offen zu benennen, und lebte genau
+        dieses Muster bis zu ihrem Tod unverändert aus. Wer die eigene Neigung, körperliche
+        Einschränkungen ohne öffentliche Aussprache zu kompensieren, nicht als Muster
+        erkennt, riskiert, dass die eigene Belastung unsichtbar bleibt, auch wenn Unterstützung
+        möglich wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Astrid
+        Lindgren</strong> vieles am Umgang mit der eigenen Erblindung: eine Frau, deren
+        gesamtes Werk auf genauer Beobachtung beruhte, fand eine neue, ebenso diszipliniert
+        durchgehaltene Form, weiterzuwirken, als ihr das Sehvermögen selbst versagte – der
+        Adler, der auch ohne den vollen Blick weiterhin wusste, wohin er fliegen musste.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function seanConneryKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11251,219 +11429,6 @@ function sebastianGreenwoodPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
-      ])}
-    </div>
-  `);
-}
-
-function pedroAlonsoLopezPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Pedro Alonso L\u00f3pez \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/pedro-alonso-lopez-portrait.jpg" alt="Pedro Alonso L\u00f3pez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Pedro Alonso L\u00f3pez</p>
-        <p class="krim-portrait-typ">SO3w2 \u00b7 Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDas Monster der Anden" \u2013 Kolumbien, Peru, Ecuador 1969\u20131980</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Pedro Alonso L\u00f3pez</strong>, geboren 1948 in Tolima, Kolumbien,
-        ist einer der prolifiksten Serienm\u00f6rder der Geschichte.
-        Er gestand nach seiner Verhaftung 1980 die T\u00f6tung von
-        mindestens <strong>350 jungen M\u00e4dchen</strong> in Kolumbien, Peru und Ecuador.
-        Die peruanische Polizei, der er zun\u00e4chst \u00fcbergeben wurde, lie\u00df ihn frei \u2013
-        f\u00fcr unzurechnungsf\u00e4hig erkl\u00e4rt. In Ecuador verurteilte man ihn schlie\u00dflich
-        zu 16 Jahren Haft, dem damaligen Maximum. Er wurde 1998 entlassen.
-        Sein Verbleib ist bis in die Gegenwart unklar.
-        Was L\u00f3pez so schwer greifbar macht: Er war kein Phantom. Er war sichtbar \u2013
-        charmant, zugewandt, vertrauenserweckend. Ein Fremder, der Kindern half.
-        Das Enneagramm macht sichtbar, was hinter dieser Fassade arbeitete.
-      </p>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid #b47800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Pedro Alonso L\u00f3pez</strong> wird dem <strong>Sozialen Typ 3 mit Zweierfl\u00fcgel</strong> zugeordnet.
-        Die soziale Drei ist der Verst\u00e4rkungstyp unter den Dreiertypen \u2013
-        sie koppelt ihren Selbstwert vollst\u00e4ndig an sozialen Status, Ansehen und Leistungsnachweis.
-        Der Zweierfl\u00fcgel verleiht ihr W\u00e4rme, Zugewandtheit und die F\u00e4higkeit,
-        emotionale N\u00e4he herzustellen \u2013 als Werkzeug der Ann\u00e4herung.
-        Der Stresspunkt liegt bei der <strong>Neun</strong>:
-        Bet\u00e4ubung, Dissoziation, das Verschwinden hinter einer leeren Routine.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
-        <p class="vb-intro">
-        Der <strong>Gepard</strong> ist die Tierentsprechung der sozialen Drei.
-        Er ist das schnellste Landtier der Welt \u2013 nicht durch Kraft, sondern durch
-        Pr\u00e4zision, Timing und die F\u00e4higkeit, ein Ziel in k\u00fcrzester Zeit einzuholen.
-        Der Gepard w\u00e4hlt sein Opfer sorgf\u00e4ltig. Er wartet. Er n\u00e4hert sich ohne Alarm.
-        Dann schl\u00e4gt er mit einer Geschwindigkeit zu, gegen die kein Entkommen m\u00f6glich ist.
-        L\u00f3pez arbeitete mit derselben Logik. Er w\u00e4hlte Kinder aus armen Verh\u00e4ltnissen \u2013
-        h\u00e4ufig auf M\u00e4rkten, an Busbahnh\u00f6fen, in D\u00f6rfern ohne Telefon.
-        Er sprach mit ihnen. Er schenkte ihnen etwas. Er schuf Vertrauen.
-        Der Gepard zeigt keine Z\u00e4hne, bevor er zuschl\u00e4gt.
-        L\u00f3pez zeigte sie nie.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Drei: Erfolg als einzige W\u00e4hrung</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen Drei:</strong>
-        Die soziale Drei ist der Verst\u00e4rkungstyp unter den Dreiertypen, weil sie das,
-        was die Drei antreibt \u2013 Erfolg, Anerkennung, Selbstoptimierung \u2013
-        in den sozialen Raum projiziert. Sie will nicht nur pers\u00f6nlich erfolgreich sein:
-        Sie will, dass ihr Erfolg gesehen wird, anerkannt wird, z\u00e4hlt.
-        Im Gesunden ist das antreibend und produktiv.
-        Im Ungesunden \u2013 und bei L\u00f3pez in der \u00e4u\u00dfersten Pathologie \u2013
-        wurde aus diesem Muster etwas Ungeheuerliches:
-        Die Opfer waren sein Erfolgsz\u00e4hler. Nicht Qualit\u00e4t, sondern Quantit\u00e4t als Ma\u00dfstab.
-        Nicht Ansehen in der Gesellschaft, sondern eine innere Buchf\u00fchrung,
-        die er in Verh\u00f6ren mit erschreckender Sachlichkeit beschrieb.</p>
-        <p class="vb-intro"><strong>b) Der Zweierfl\u00fcgel: W\u00e4rme als Werkzeug:</strong>
-        Der Zweierfl\u00fcgel der sozialen Drei verleiht ihr emotionale Zug\u00e4nglichkeit.
-        Die Zwei will gebraucht werden, will helfen, will gemocht werden \u2013
-        und die Drei nutzt diese Qualit\u00e4ten instrumentell.
-        L\u00f3pez war bekannt daf\u00fcr, wie er auf Kinder wirkte:
-        Er war freundlich, geduldig, scheinbar f\u00fcrsorglich.
-        Er verstand intuitiv, was ein Kind brauchte \u2013
-        ein L\u00e4cheln, eine Kleinigkeit, ein Gef\u00fchl von Sicherheit \u2013
-        und gab es ihnen pr\u00e4zise, bis das Vertrauen vollst\u00e4ndig war.
-        Der Zweierfl\u00fcgel der sozialen Drei ist der gef\u00e4hrlichste Charme des Enneagramms:
-        Er f\u00fchlt sich echt an \u2013 weil er echt wirkt.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Eitelkeit als Akkumulation:</strong>
-        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> \u2013
-        das Festhalten an einem Selbstbild, das gl\u00e4nzen muss, das z\u00e4hlen muss,
-        das nach Ma\u00dfst\u00e4ben bemessen wird.
-        F\u00fcr L\u00f3pez war der Ma\u00dfstab eine innere, nie nach au\u00dfen kommunizierte Skala.
-        Er beschrieb in Verh\u00f6ren, wie er abends die Zahl seiner Opfer rekapitulierte.
-        Wie er ein Gebiet wechselte, wenn er das Gef\u00fchl hatte,
-        dort \u201egenug" getan zu haben.
-        Eitelkeit als moralisch entleerter Leistungsnachweis:
-        das Grausamste, was aus dem Drei-Muster werden kann.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 350 Opfer in drei L\u00e4ndern</h3>
-        <p class="vb-intro"><strong>a) Die fr\u00fchen Jahre und das erste Gef\u00e4ngnis (1969\u20131978):</strong>
-        L\u00f3pez wurde 1948 als eines von 13 Kindern einer Prostituierten in Tolima geboren.
-        Mit acht Jahren wurde er von zu Hause geworfen, lebte auf der Stra\u00dfe,
-        wurde als Kind von einem Mann missbraucht, dem er vertraut hatte.
-        Mit 18 Jahren wurde er wegen Autodiebstahls verurteilt.
-        Im Gef\u00e4ngnis wurde er mehrfach vergewaltigt.
-        Er t\u00f6tete drei Mitgefangene, die ihm gegen\u00fcber gewaltt\u00e4tig geworden waren \u2013
-        und sa\u00df f\u00fcr diese Taten nur wenige zus\u00e4tzliche Monate.
-        Nach seiner Entlassung begann er zu t\u00f6ten.
-        Er sagte sp\u00e4ter in Verh\u00f6ren, das Gef\u00e4ngniserlebnis sei der Wendepunkt gewesen:
-        Er habe entschieden, dass er nie wieder Opfer sein w\u00fcrde.</p>
-        <p class="vb-intro"><strong>b) Die Methode \u2013 der Gepard in Aktion:</strong>
-        L\u00f3pez operierte auf M\u00e4rkten, an Busbahnh\u00f6fen, in armen Stadtvierteln \u2013
-        \u00fcberall dort, wo Kinder unbeaufsichtigt waren und Fremde nicht auffielen.
-        Er sprach bevorzugt M\u00e4dchen zwischen 8 und 12 Jahren an.
-        Er beobachtete sie zuerst \u2013 wer war allein, wer wirkte schutzbed\u00fcrftig,
-        wer w\u00fcrde auf einen freundlichen Fremden reagieren.
-        Dann trat er in Kontakt: ruhig, langsam, niemals aufdringlich.
-        Er schenkte ihnen etwas zu essen, versprach etwas, erz\u00e4hlte eine Geschichte.
-        Er f\u00fchrte sie aus dem Sichtbereich der anderen heraus \u2013
-        immer schrittweise, immer mit ihrer Zustimmung.
-        Er erw\u00fcrgte seine Opfer und vergrub sie anschlie\u00dfend.
-        Er wechselte regelm\u00e4\u00dfig zwischen Kolumbien, Peru und Ecuador \u2013
-        nicht aus Angst, sondern nach einem internen Rotationsplan,
-        der sicherstellte, dass kein Gebiet zu schnell auffiel.</p>
-        <p class="vb-intro"><strong>c) Peru: Fast enttarnt, dann freigegeben:</strong>
-        In Peru wurden L\u00f3pez 1978 von einem indigenen Stamm der Ayacucho-Region
-        beim Versuch der Entf\u00fchrung gestellt. Der Stamm h\u00e4tte ihn get\u00f6tet \u2013
-        eine amerikanische Missionarin \u00fcberredete sie, ihn stattdessen
-        an die peruanischen Beh\u00f6rden zu \u00fcbergeben.
-        Die Beh\u00f6rden lie\u00dfen ihn frei \u2013 nach eigener Aussage wegen Unzurechnungsf\u00e4higkeit.
-        Er setzte sofort seine Taten fort.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (1980):</strong>
-        Im April 1980 \u00fcberlebte ein zw\u00f6lfj\u00e4hriges M\u00e4dchen in Ecuador einen Entf\u00fchrungsversuch.
-        Ein Marktverk\u00e4ufer griff ein. L\u00f3pez wurde gestellt.
-        Bei seiner Verhaftung gestand er der ecuadorianischen Polizei
-        die T\u00f6tung von mehr als 110 M\u00e4dchen allein in Ecuador.
-        Er f\u00fchrte die Beh\u00f6rden zu 53 Gr\u00e4bern.
-        Im Verh\u00f6r erweiterte er seinen Gest\u00e4ndnis auf Peru und Kolumbien \u2013
-        die Gesamtzahl, die er nannte, lag bei \u00fcber 350.
-        Er sprach ruhig, sachlich, fast distanziert.
-        Er beschrieb bevorzugte Tagezeiten und bevorzugte Gesichter.
-        Die Ermittler beschrieben ihn als vollkommen affektlos.</p>
-        <p class="vb-intro"><strong>e) Verurteilung, Entlassung, Verschwinden:</strong>
-        Ecuador verurteilte L\u00f3pez 1980 zu 16 Jahren Haft \u2013 dem gesetzlichen Maximum.
-        1994 wurde er in eine psychiatrische Einrichtung verlegt.
-        1998 wurde er f\u00fcr zurechnungsf\u00e4hig erkl\u00e4rt und entlassen.
-        Kolumbien nahm ihn kurz in Haft wegen der dortigen Morde \u2013 und lie\u00df ihn
-        im Jahr 2002 ebenfalls frei. Seitdem ist sein Aufenthaltsort unbekannt.
-        Interpol hat einen weltweiten Haftbefehl ausgestellt.
-        Der Gepard ist verschwunden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Neuner-Stress: Bet\u00e4ubung als Grundzustand</h3>
-        <p class="vb-intro">
-        Die Drei bewegt sich im Stress in Richtung <strong>Neun</strong> \u2013
-        Bet\u00e4ubung, Dissoziation, das Verschwinden hinter einer leeren Routine.
-        Die Neuner-Energie der desintegrierten Drei ist kein Zusammenbruch.
-        Sie ist Gleichg\u00fcltigkeit. Mechanik. Das Abarbeiten eines inneren Programms,
-        das nicht mehr hinterfragt wird.
-        L\u00f3pez beschrieb seinen Alltag des T\u00f6tens mit einer Monotonie,
-        die Ermittler mehr erschreckte als die Zahlen selbst.
-        Er schlief gut. Er a\u00df gut. Er hatte keine Albtr\u00e4ume.
-        Was wie Psychopathie klingt, l\u00e4sst sich im Enneagramm
-        auch als tiefste Neuner-Desintegration der Drei lesen:
-        ein Selbst, das vollst\u00e4ndig aufgeh\u00f6rt hat zu f\u00fchlen,
-        weil das F\u00fchlen nie gelernt wurde \u2013
-        und weil die soziale Drei im Extremen die Emotion der Leistung
-        vollst\u00e4ndig geopfert hat.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Pedro Alonso L\u00f3pez zeigt, was aus der sozialen Drei wird,
-        wenn fr\u00fche Traumatisierung, totale Isolation und das vollst\u00e4ndige Fehlen
-        einer sicheren Bindungserfahrung zusammenkommen:
-        Das Grundmuster \u2013 Erfolg durch soziale Anerkennung, Wert durch Leistung \u2013
-        dreht sich ins Leere. Es gibt keinen Spiegel mehr, der zur\u00fcckwirft.
-        Nur die innere Buchf\u00fchrung.
-        Der Gepard jagt nicht aus Hunger. Er jagt, weil Jagen das Einzige ist,
-        wof\u00fcr er sich z\u00e4hlt. Die soziale Drei ohne Zugang zu echter Verbindung
-        ist ein Hochleistungssystem, das ins Nichts beschleunigt.
-        L\u00f3pez ist das extremste Beispiel dieser Dynamik in der kriminologischen Geschichte.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
-        <p class="vb-intro">
-        <strong>Subtyp:</strong> SO3w2 \u2013 Soziale Drei mit Zweierfl\u00fcgel.<br>
-        <strong>Leidenschaft:</strong> Eitelkeit \u2013 Selbstwert durch Akkumulation, Leistung ohne Inhalt, Erfolg als Selbstzweck.<br>
-        <strong>Stresspunkt:</strong> Neun \u2013 Bet\u00e4ubung, Dissoziation, das affektlose Abarbeiten einer inneren Routine.<br>
-        <strong>Tierentsprechung:</strong> Gepard \u2013 pr\u00e4zise, schnell, vertrauenserweckend bis zur letzten Sekunde.<br>
-        <strong>Opfer:</strong> Mindestens 350 \u2013 fast ausschlie\u00dflich M\u00e4dchen zwischen 8 und 12 Jahren, auf drei L\u00e4nder verteilt.<br>
-        <strong>Status:</strong> Seit 2002 verschwunden; weltweiter Interpol-Haftbefehl aktiv.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\u00fchrlich portr\u00e4tiert \u2013 Eitelkeit, Selbstbild und der Heilungsweg \u00fcber echte Authentizit\u00e4t.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Pedro Alonso L\u00f3pez wurde 1980 in Ecuador verurteilt, 1994 aus psychiatrischen Gr\u00fcnden entlassen und gilt seitdem als verschollen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
-        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SX4w3)"},
       ])}
     </div>
   `);

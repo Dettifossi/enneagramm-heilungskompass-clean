@@ -1,3 +1,216 @@
+function pedroAlonsoLopezPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Pedro Alonso L\u00f3pez \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/pedro-alonso-lopez-portrait.jpg" alt="Pedro Alonso L\u00f3pez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pedro Alonso L\u00f3pez</p>
+        <p class="krim-portrait-typ">SO3w2 \u00b7 Sozialer Typ 3 mit Zweierfl\u00fcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDas Monster der Anden" \u2013 Kolumbien, Peru, Ecuador 1969\u20131980</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Pedro Alonso L\u00f3pez</strong>, geboren 1948 in Tolima, Kolumbien,
+        ist einer der prolifiksten Serienm\u00f6rder der Geschichte.
+        Er gestand nach seiner Verhaftung 1980 die T\u00f6tung von
+        mindestens <strong>350 jungen M\u00e4dchen</strong> in Kolumbien, Peru und Ecuador.
+        Die peruanische Polizei, der er zun\u00e4chst \u00fcbergeben wurde, lie\u00df ihn frei \u2013
+        f\u00fcr unzurechnungsf\u00e4hig erkl\u00e4rt. In Ecuador verurteilte man ihn schlie\u00dflich
+        zu 16 Jahren Haft, dem damaligen Maximum. Er wurde 1998 entlassen.
+        Sein Verbleib ist bis in die Gegenwart unklar.
+        Was L\u00f3pez so schwer greifbar macht: Er war kein Phantom. Er war sichtbar \u2013
+        charmant, zugewandt, vertrauenserweckend. Ein Fremder, der Kindern half.
+        Das Enneagramm macht sichtbar, was hinter dieser Fassade arbeitete.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid #b47800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Pedro Alonso L\u00f3pez</strong> wird dem <strong>Sozialen Typ 3 mit Zweierfl\u00fcgel</strong> zugeordnet.
+        Die soziale Drei ist der Verst\u00e4rkungstyp unter den Dreiertypen \u2013
+        sie koppelt ihren Selbstwert vollst\u00e4ndig an sozialen Status, Ansehen und Leistungsnachweis.
+        Der Zweierfl\u00fcgel verleiht ihr W\u00e4rme, Zugewandtheit und die F\u00e4higkeit,
+        emotionale N\u00e4he herzustellen \u2013 als Werkzeug der Ann\u00e4herung.
+        Der Stresspunkt liegt bei der <strong>Neun</strong>:
+        Bet\u00e4ubung, Dissoziation, das Verschwinden hinter einer leeren Routine.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro">
+        Der <strong>Gepard</strong> ist die Tierentsprechung der sozialen Drei.
+        Er ist das schnellste Landtier der Welt \u2013 nicht durch Kraft, sondern durch
+        Pr\u00e4zision, Timing und die F\u00e4higkeit, ein Ziel in k\u00fcrzester Zeit einzuholen.
+        Der Gepard w\u00e4hlt sein Opfer sorgf\u00e4ltig. Er wartet. Er n\u00e4hert sich ohne Alarm.
+        Dann schl\u00e4gt er mit einer Geschwindigkeit zu, gegen die kein Entkommen m\u00f6glich ist.
+        L\u00f3pez arbeitete mit derselben Logik. Er w\u00e4hlte Kinder aus armen Verh\u00e4ltnissen \u2013
+        h\u00e4ufig auf M\u00e4rkten, an Busbahnh\u00f6fen, in D\u00f6rfern ohne Telefon.
+        Er sprach mit ihnen. Er schenkte ihnen etwas. Er schuf Vertrauen.
+        Der Gepard zeigt keine Z\u00e4hne, bevor er zuschl\u00e4gt.
+        L\u00f3pez zeigte sie nie.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Drei: Erfolg als einzige W\u00e4hrung</h3>
+        <p class="vb-intro"><strong>a) Das Grundprinzip der sozialen Drei:</strong>
+        Die soziale Drei ist der Verst\u00e4rkungstyp unter den Dreiertypen, weil sie das,
+        was die Drei antreibt \u2013 Erfolg, Anerkennung, Selbstoptimierung \u2013
+        in den sozialen Raum projiziert. Sie will nicht nur pers\u00f6nlich erfolgreich sein:
+        Sie will, dass ihr Erfolg gesehen wird, anerkannt wird, z\u00e4hlt.
+        Im Gesunden ist das antreibend und produktiv.
+        Im Ungesunden \u2013 und bei L\u00f3pez in der \u00e4u\u00dfersten Pathologie \u2013
+        wurde aus diesem Muster etwas Ungeheuerliches:
+        Die Opfer waren sein Erfolgsz\u00e4hler. Nicht Qualit\u00e4t, sondern Quantit\u00e4t als Ma\u00dfstab.
+        Nicht Ansehen in der Gesellschaft, sondern eine innere Buchf\u00fchrung,
+        die er in Verh\u00f6ren mit erschreckender Sachlichkeit beschrieb.</p>
+        <p class="vb-intro"><strong>b) Der Zweierfl\u00fcgel: W\u00e4rme als Werkzeug:</strong>
+        Der Zweierfl\u00fcgel der sozialen Drei verleiht ihr emotionale Zug\u00e4nglichkeit.
+        Die Zwei will gebraucht werden, will helfen, will gemocht werden \u2013
+        und die Drei nutzt diese Qualit\u00e4ten instrumentell.
+        L\u00f3pez war bekannt daf\u00fcr, wie er auf Kinder wirkte:
+        Er war freundlich, geduldig, scheinbar f\u00fcrsorglich.
+        Er verstand intuitiv, was ein Kind brauchte \u2013
+        ein L\u00e4cheln, eine Kleinigkeit, ein Gef\u00fchl von Sicherheit \u2013
+        und gab es ihnen pr\u00e4zise, bis das Vertrauen vollst\u00e4ndig war.
+        Der Zweierfl\u00fcgel der sozialen Drei ist der gef\u00e4hrlichste Charme des Enneagramms:
+        Er f\u00fchlt sich echt an \u2013 weil er echt wirkt.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Eitelkeit als Akkumulation:</strong>
+        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> \u2013
+        das Festhalten an einem Selbstbild, das gl\u00e4nzen muss, das z\u00e4hlen muss,
+        das nach Ma\u00dfst\u00e4ben bemessen wird.
+        F\u00fcr L\u00f3pez war der Ma\u00dfstab eine innere, nie nach au\u00dfen kommunizierte Skala.
+        Er beschrieb in Verh\u00f6ren, wie er abends die Zahl seiner Opfer rekapitulierte.
+        Wie er ein Gebiet wechselte, wenn er das Gef\u00fchl hatte,
+        dort \u201egenug" getan zu haben.
+        Eitelkeit als moralisch entleerter Leistungsnachweis:
+        das Grausamste, was aus dem Drei-Muster werden kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 350 Opfer in drei L\u00e4ndern</h3>
+        <p class="vb-intro"><strong>a) Die fr\u00fchen Jahre und das erste Gef\u00e4ngnis (1969\u20131978):</strong>
+        L\u00f3pez wurde 1948 als eines von 13 Kindern einer Prostituierten in Tolima geboren.
+        Mit acht Jahren wurde er von zu Hause geworfen, lebte auf der Stra\u00dfe,
+        wurde als Kind von einem Mann missbraucht, dem er vertraut hatte.
+        Mit 18 Jahren wurde er wegen Autodiebstahls verurteilt.
+        Im Gef\u00e4ngnis wurde er mehrfach vergewaltigt.
+        Er t\u00f6tete drei Mitgefangene, die ihm gegen\u00fcber gewaltt\u00e4tig geworden waren \u2013
+        und sa\u00df f\u00fcr diese Taten nur wenige zus\u00e4tzliche Monate.
+        Nach seiner Entlassung begann er zu t\u00f6ten.
+        Er sagte sp\u00e4ter in Verh\u00f6ren, das Gef\u00e4ngniserlebnis sei der Wendepunkt gewesen:
+        Er habe entschieden, dass er nie wieder Opfer sein w\u00fcrde.</p>
+        <p class="vb-intro"><strong>b) Die Methode \u2013 der Gepard in Aktion:</strong>
+        L\u00f3pez operierte auf M\u00e4rkten, an Busbahnh\u00f6fen, in armen Stadtvierteln \u2013
+        \u00fcberall dort, wo Kinder unbeaufsichtigt waren und Fremde nicht auffielen.
+        Er sprach bevorzugt M\u00e4dchen zwischen 8 und 12 Jahren an.
+        Er beobachtete sie zuerst \u2013 wer war allein, wer wirkte schutzbed\u00fcrftig,
+        wer w\u00fcrde auf einen freundlichen Fremden reagieren.
+        Dann trat er in Kontakt: ruhig, langsam, niemals aufdringlich.
+        Er schenkte ihnen etwas zu essen, versprach etwas, erz\u00e4hlte eine Geschichte.
+        Er f\u00fchrte sie aus dem Sichtbereich der anderen heraus \u2013
+        immer schrittweise, immer mit ihrer Zustimmung.
+        Er erw\u00fcrgte seine Opfer und vergrub sie anschlie\u00dfend.
+        Er wechselte regelm\u00e4\u00dfig zwischen Kolumbien, Peru und Ecuador \u2013
+        nicht aus Angst, sondern nach einem internen Rotationsplan,
+        der sicherstellte, dass kein Gebiet zu schnell auffiel.</p>
+        <p class="vb-intro"><strong>c) Peru: Fast enttarnt, dann freigegeben:</strong>
+        In Peru wurden L\u00f3pez 1978 von einem indigenen Stamm der Ayacucho-Region
+        beim Versuch der Entf\u00fchrung gestellt. Der Stamm h\u00e4tte ihn get\u00f6tet \u2013
+        eine amerikanische Missionarin \u00fcberredete sie, ihn stattdessen
+        an die peruanischen Beh\u00f6rden zu \u00fcbergeben.
+        Die Beh\u00f6rden lie\u00dfen ihn frei \u2013 nach eigener Aussage wegen Unzurechnungsf\u00e4higkeit.
+        Er setzte sofort seine Taten fort.</p>
+        <p class="vb-intro"><strong>d) Die Verhaftung (1980):</strong>
+        Im April 1980 \u00fcberlebte ein zw\u00f6lfj\u00e4hriges M\u00e4dchen in Ecuador einen Entf\u00fchrungsversuch.
+        Ein Marktverk\u00e4ufer griff ein. L\u00f3pez wurde gestellt.
+        Bei seiner Verhaftung gestand er der ecuadorianischen Polizei
+        die T\u00f6tung von mehr als 110 M\u00e4dchen allein in Ecuador.
+        Er f\u00fchrte die Beh\u00f6rden zu 53 Gr\u00e4bern.
+        Im Verh\u00f6r erweiterte er seinen Gest\u00e4ndnis auf Peru und Kolumbien \u2013
+        die Gesamtzahl, die er nannte, lag bei \u00fcber 350.
+        Er sprach ruhig, sachlich, fast distanziert.
+        Er beschrieb bevorzugte Tagezeiten und bevorzugte Gesichter.
+        Die Ermittler beschrieben ihn als vollkommen affektlos.</p>
+        <p class="vb-intro"><strong>e) Verurteilung, Entlassung, Verschwinden:</strong>
+        Ecuador verurteilte L\u00f3pez 1980 zu 16 Jahren Haft \u2013 dem gesetzlichen Maximum.
+        1994 wurde er in eine psychiatrische Einrichtung verlegt.
+        1998 wurde er f\u00fcr zurechnungsf\u00e4hig erkl\u00e4rt und entlassen.
+        Kolumbien nahm ihn kurz in Haft wegen der dortigen Morde \u2013 und lie\u00df ihn
+        im Jahr 2002 ebenfalls frei. Seitdem ist sein Aufenthaltsort unbekannt.
+        Interpol hat einen weltweiten Haftbefehl ausgestellt.
+        Der Gepard ist verschwunden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Neuner-Stress: Bet\u00e4ubung als Grundzustand</h3>
+        <p class="vb-intro">
+        Die Drei bewegt sich im Stress in Richtung <strong>Neun</strong> \u2013
+        Bet\u00e4ubung, Dissoziation, das Verschwinden hinter einer leeren Routine.
+        Die Neuner-Energie der desintegrierten Drei ist kein Zusammenbruch.
+        Sie ist Gleichg\u00fcltigkeit. Mechanik. Das Abarbeiten eines inneren Programms,
+        das nicht mehr hinterfragt wird.
+        L\u00f3pez beschrieb seinen Alltag des T\u00f6tens mit einer Monotonie,
+        die Ermittler mehr erschreckte als die Zahlen selbst.
+        Er schlief gut. Er a\u00df gut. Er hatte keine Albtr\u00e4ume.
+        Was wie Psychopathie klingt, l\u00e4sst sich im Enneagramm
+        auch als tiefste Neuner-Desintegration der Drei lesen:
+        ein Selbst, das vollst\u00e4ndig aufgeh\u00f6rt hat zu f\u00fchlen,
+        weil das F\u00fchlen nie gelernt wurde \u2013
+        und weil die soziale Drei im Extremen die Emotion der Leistung
+        vollst\u00e4ndig geopfert hat.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Pedro Alonso L\u00f3pez zeigt, was aus der sozialen Drei wird,
+        wenn fr\u00fche Traumatisierung, totale Isolation und das vollst\u00e4ndige Fehlen
+        einer sicheren Bindungserfahrung zusammenkommen:
+        Das Grundmuster \u2013 Erfolg durch soziale Anerkennung, Wert durch Leistung \u2013
+        dreht sich ins Leere. Es gibt keinen Spiegel mehr, der zur\u00fcckwirft.
+        Nur die innere Buchf\u00fchrung.
+        Der Gepard jagt nicht aus Hunger. Er jagt, weil Jagen das Einzige ist,
+        wof\u00fcr er sich z\u00e4hlt. Die soziale Drei ohne Zugang zu echter Verbindung
+        ist ein Hochleistungssystem, das ins Nichts beschleunigt.
+        L\u00f3pez ist das extremste Beispiel dieser Dynamik in der kriminologischen Geschichte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SO3w2 \u2013 Soziale Drei mit Zweierfl\u00fcgel.<br>
+        <strong>Leidenschaft:</strong> Eitelkeit \u2013 Selbstwert durch Akkumulation, Leistung ohne Inhalt, Erfolg als Selbstzweck.<br>
+        <strong>Stresspunkt:</strong> Neun \u2013 Bet\u00e4ubung, Dissoziation, das affektlose Abarbeiten einer inneren Routine.<br>
+        <strong>Tierentsprechung:</strong> Gepard \u2013 pr\u00e4zise, schnell, vertrauenserweckend bis zur letzten Sekunde.<br>
+        <strong>Opfer:</strong> Mindestens 350 \u2013 fast ausschlie\u00dflich M\u00e4dchen zwischen 8 und 12 Jahren, auf drei L\u00e4nder verteilt.<br>
+        <strong>Status:</strong> Seit 2002 verschwunden; weltweiter Interpol-Haftbefehl aktiv.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\u00fchrlich portr\u00e4tiert \u2013 Eitelkeit, Selbstbild und der Heilungsweg \u00fcber echte Authentizit\u00e4t.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Pedro Alonso L\u00f3pez wurde 1980 in Ecuador verurteilt, 1994 aus psychiatrischen Gr\u00fcnden entlassen und gilt seitdem als verschollen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
+        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function andrewCunananPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10143,57 +10356,6 @@ function blumenartenDer9TypenPage() {
         {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
         {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function kampfkunstartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Kampfkunstarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Als Kampfkunstarten bezeichnet man Stile, die Fertigkeiten und Techniken der ernsthaften k\u00f6rperlichen Auseinandersetzung mit einem Gegner unterrichten. Jede der hier aufgef\u00fchrten Kampfk\u00fcnste besitzt in ihrem Kern prim\u00e4r eines der Enneagramm-Muster, welches genau der innersten Philosophie der jeweiligen Kampfkunst entspricht.</p>
-      <img src="./assets/kampfkunstarten-der-9-typen.jpg" alt="Kampfkunstarten der 9 Enneagrammtypen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Karate: Pr\u00e4zision und unbestechliche Form</h3>
-        <p class="vb-intro">Karate ist die Kampfkunst der exakten Linie. Jede Technik hat eine einzige richtige Ausf\u00fchrung \u2014 der Winkel der Faust, die Stellung des Fu\u00dfes, der Zeitpunkt des Ausatmens beim Schlag sind bis ins Detail festgelegt und werden \u00fcber Jahre in den Kata, den festen Bewegungsformen, immer wieder wiederholt, bis keine Abweichung mehr m\u00f6glich ist. Es gibt kein \u201eungef\u00e4hr richtig" \u2014 nur richtig oder falsch. Genau das entspricht der inneren Welt des Typs 1: dem Streben nach dem einen korrekten Weg, der Disziplin, die eigene Ausf\u00fchrung so lange zu verfeinern, bis sie dem inneren Ideal entspricht. Der Karateka \u00fcbt nicht, um zu gewinnen, sondern um die Form zu vervollkommnen \u2014 der Sieg \u00fcber den Gegner ist nur die logische Folge der perfektionierten Technik. Die Leidenschaft des Zorns zeigt sich hier als kontrollierte, kanalisierte Kraft: Jeder Schlag ist Ausdruck von Ordnung, nicht von Wut.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Ringen: K\u00f6rperlicher Kontakt und f\u00fcrsorgliche Kontrolle</h3>
-        <p class="vb-intro">Ringen ist die \u00e4lteste aller Kampfk\u00fcnste \u2014 und die intimste. Anders als bei distanzierten Schlagk\u00fcnsten gibt es hier keinen Abstand: Man h\u00e4lt den Gegner, sp\u00fcrt sein Gewicht, seinen Atem, seine n\u00e4chste Bewegung, bevor sie geschieht. Der Ringer gewinnt nicht durch Verletzen, sondern durch Kontrolle \u00fcber den K\u00f6rper des anderen \u2014 durch Umklammern, F\u00fchren, Zu-Boden-Bringen, ohne zu schlagen. Das entspricht der Beziehungsdynamik des Typs 2: der Wunsch nach engem, direktem Kontakt, das Bed\u00fcrfnis, den anderen so gut zu \u201elesen", dass man seine n\u00e4chste Bewegung schon sp\u00fcrt, bevor er selbst sie kennt. Ringen ist F\u00fcrsorge und Dominanz zugleich \u2014 man h\u00e4lt den anderen fest, angeblich um ihn zu bezwingen, tats\u00e4chlich aber, um in Verbindung zu bleiben. Die Leidenschaft des Stolzes zeigt sich als das Bed\u00fcrfnis, im Griff unentbehrlich zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Kung Fu: Virtuosit\u00e4t und beeindruckende Wirkung</h3>
-        <p class="vb-intro">Kung Fu (genauer: Wushu) ist die Kampfkunst der tausend Stile und der sichtbaren Meisterschaft. Es gibt kaum eine andere Kampfkunst mit so vielf\u00e4ltigen, akrobatischen und visuell beeindruckenden Bewegungsformen \u2014 vom Tigerstil \u00fcber den Kranich- bis zum Affenstil. Kung-Fu-Meister werden seit Jahrhunderten in Legenden, Filmen und Shaolin-Vorf\u00fchrungen zu Ikonen: Bruce Lee machte Kung Fu weltber\u00fchmt, weil es Kraft, Eleganz und Show in einer einzigen Bewegungssprache vereint. Genau das entspricht dem Typ 3: dem Wunsch, durch sichtbare Exzellenz zu beeindrucken, die eigene F\u00e4higkeit so zu perfektionieren, dass sie Bewunderung erzeugt. Kung Fu ist niemals nur funktional \u2014 es ist immer auch Darbietung, ein Bild von K\u00f6nnen, das Wirkung erzielen will. Die Leidenschaft der Eitelkeit zeigt sich als Identifikation mit der makellosen, bestaunten Ausf\u00fchrung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Judo: Der eigene Weg durch die Kraft des anderen</h3>
-        <p class="vb-intro">Judo bedeutet w\u00f6rtlich \u201eder sanfte Weg" \u2014 sein Gr\u00fcnder Jigoro Kano entwickelte es aus dem Grundsatz, dass man nicht gegen die Kraft des Gegners k\u00e4mpft, sondern sie aufnimmt, umlenkt und f\u00fcr den eigenen Wurf nutzbar macht. Ein kleinerer, leichterer Judoka kann einen viel st\u00e4rkeren Gegner besiegen, wenn er dessen Bewegung und Energie versteht und sie in eine neue, eigene Richtung lenkt. Das ist die zutiefst individualistische Logik des Typs 4: nicht die direkte Konfrontation zu suchen, sondern aus dem, was von au\u00dfen kommt \u2014 auch aus Schmerz, auch aus fremder Kraft \u2014 etwas ganz Eigenes, Unverwechselbares zu formen. Jeder Wurf im Judo ist eine kleine Transformation: fremde Energie wird zur eigenen Bewegung. Die Leidenschaft des Neids zeigt sich als das tiefe Gef\u00fchl, den eigenen, unverwechselbaren Weg erst im Umgang mit dem finden zu m\u00fcssen, was einem fehlt oder entgegensteht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Taekwondo: Distanz, Reichweite und technische Klarheit</h3>
-        <p class="vb-intro">Taekwondo ist die Kampfkunst der Distanz. Anders als Ringen oder Judo sucht sie explizit den Abstand zum Gegner \u2014 ihre charakteristischen, weit ausholenden Beintechniken erlauben es, einen Angriff zu setzen, ohne in direkten K\u00f6rperkontakt zu geraten. Taekwondo ist zugleich eine der am klarsten systematisierten Kampfk\u00fcnste: ein durchdachtes G\u00fcrtelsystem, exakt katalogisierte Techniken, ein hoher Anteil an theoretischem und analytischem Verst\u00e4ndnis der Bewegungsmechanik. Das entspricht der Welt des Typs 5: dem Bed\u00fcrfnis nach Abstand als Schutz, der Vorliebe f\u00fcr klare, durchdachte Systeme, der Sicherheit, die aus genauer Analyse statt aus k\u00f6rperlicher N\u00e4he entsteht. Der Taekwondoin trifft aus der Distanz \u2014 pr\u00e4zise, kalkuliert, ohne sich in ein Handgemenge zu begeben. Die Leidenschaft des Geizes zeigt sich als sparsamer Einsatz von N\u00e4he: Kontakt nur im genau kalkulierten Moment.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Faustkampf: Wachsamkeit, Deckung und gepr\u00fcftes Vertrauen</h3>
-        <p class="vb-intro">Der klassische Faustkampf \u2014 der Vorl\u00e4ufer des modernen Boxens, in vielen Kulturen als reine waffenlose Auseinandersetzung von Faust gegen Faust \u00fcberliefert \u2014 lebt von einem einzigen Grundprinzip: der st\u00e4ndigen Wachsamkeit. Wer die Deckung auch nur f\u00fcr einen Moment senkt, wird getroffen. Der Faustk\u00e4mpfer beobachtet unabl\u00e4ssig die kleinsten Signale im Gesicht und in der Schulterhaltung des Gegners, um dessen n\u00e4chsten Schlag vorherzuahnen. Das entspricht der Grundhaltung des Typs 6: der permanenten inneren Wachsamkeit, dem Scannen der Umgebung nach Gefahr, dem Bed\u00fcrfnis, erst zu pr\u00fcfen, bevor man sich \u00f6ffnet. Faustkampf ist keine Kunst der gro\u00dfen Gesten, sondern der kleinen, st\u00e4ndigen Korrekturen \u2014 Schritt f\u00fcr Schritt, Deckung f\u00fcr Deckung, im Zweifel lieber einmal zu viel gepr\u00fcft als einmal zu wenig. Die Leidenschaft der Angst zeigt sich als nie ganz abschaltende innere Alarmbereitschaft.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Kickboxen: Tempo, Vielfalt und explosive Energie</h3>
-        <p class="vb-intro">Kickboxen verbindet Faustst\u00f6\u00dfe und Fu\u00dftritte zu einem schnellen, abwechslungsreichen, kombinationsreichen Kampfstil, der st\u00e4ndig neue Optionen er\u00f6ffnet \u2014 Kombinationen aus Boxen, Karate, Taekwondo und Muay Thai flie\u00dfen hier zusammen. Es ist eine der energiereichsten, tempointensivsten Kampfsportarten \u00fcberhaupt: hohe Schlagfrequenz, wechselnde Distanzen, st\u00e4ndige Bewegung. Kein Moment gleicht dem anderen, kein Kampf verl\u00e4uft nach festem Schema. Das entspricht der Lebendigkeit des Typs 7: dem Bed\u00fcrfnis nach Abwechslung, Tempo und einer F\u00fclle an M\u00f6glichkeiten, der Abneigung gegen starre, eint\u00f6nige Wiederholung. Der Kickboxer sucht nicht die eine perfekte Technik, sondern die gr\u00f6\u00dftm\u00f6gliche Bandbreite an Optionen \u2014 F\u00e4uste, F\u00fc\u00dfe, Knie, Kombinationen ohne Ende. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Hunger nach immer neuen Reizen und Bewegungsm\u00f6glichkeiten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Boxen: Direkte Kraft und kompromisslose Konfrontation</h3>
-        <p class="vb-intro">Boxen ist die reinste, direkteste Form der k\u00f6rperlichen Konfrontation, die es im Kampfsport gibt \u2014 keine Tritte, keine W\u00fcrfe, keine Ausweichman\u00f6ver in andere Techniken, nur die Faust, die geradlinig auf den Gegner trifft. Zwei Menschen stehen sich gegen\u00fcber, ohne Ablenkung, ohne Umweg, und messen ihre Kraft in ihrer klarsten Ausprägung. Boxen verlangt, den Schmerz auszuhalten und zur\u00fcckzuschlagen, den eigenen Willen \u00fcber die Ersch\u00f6pfung zu stellen. Das entspricht der Grundhaltung des Typs 8: der Vorliebe f\u00fcr die direkte, unverstellte Auseinandersetzung, dem Misstrauen gegen\u00fcber Umwegen und Taktiken, die die eigentliche Kraftfrage verschleiern. Der Boxer verhandelt nicht \u2014 er tritt an, steht durch und schl\u00e4gt zur\u00fcck. Die Leidenschaft der Gier (\u00dcberma\u00df) zeigt sich als der Drang, die eigene Kraft bis an die Grenze und dar\u00fcber hinaus zu sp\u00fcren und zu beweisen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Aikido: Harmonie statt Konfrontation</h3>
-        <p class="vb-intro">Aikido ist die einzige gro\u00dfe Kampfkunst, die keinen eigenen Angriff kennt \u2014 ihr Begr\u00fcnder Morihei Ueshiba entwickelte sie ausdr\u00fccklich als \u201eWeg der Harmonisierung der Energie". Der Aikidoka greift nicht an, er l\u00f6st die Angriffsenergie des Gegners auf, indem er sich mit ihr verbindet, sie umlenkt und in einen kreisf\u00f6rmigen, harmlosen Wurf \u00fcberf\u00fchrt \u2014 ohne Kraft gegen Kraft zu setzen. Am Ende der Technik steht im Idealfall kein besiegter Gegner, sondern eine wiederhergestellte Ordnung, in der niemand ernsthaft verletzt wurde. Das entspricht der tiefsten Sehnsucht des Typs 9: Konflikt nicht durch Konfrontation, sondern durch Harmonisierung aufzul\u00f6sen, die Energie des Gegen\u00fcbers nicht zu brechen, sondern in etwas Friedliches zu wandeln. Aikido ist Kampfkunst als Vers\u00f6hnung \u2014 St\u00e4rke, die sich nicht durchsetzt, sondern integriert. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass am Ende jeder Bewegung wieder Ruhe und Einklang stehen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
-        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
       ])}
     </div>
   `);

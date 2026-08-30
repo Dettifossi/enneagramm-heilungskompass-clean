@@ -1709,6 +1709,7 @@ const registerEntries = [
   { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 · Sozialer Typ 4 · Sänger, Tänzer, King of Pop, Gürteltier" },
   { term: "Hans Christian Andersen",       route: "beruehmte-hans-christian-andersen",     description: "Portrait: SO4w3 · Sozialer Typ 4 · Schriftsteller, Märchendichter" },
   { term: "Reinhold Würth",                route: "beruehmte-reinhold-wuerth",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Unternehmer, Würth-Gruppe" },
+  { term: "Heather Thomas",                route: "beruehmte-heather-thomas",              description: "Portrait: SX6w7 · Sexuelle Sechs · Schauspielerin, Drehbuchautorin" },
   { term: "Cat Stevens",                   route: "beruehmte-cat-stevens",                 description: "Portrait: SO4w3 · Sozialer Typ 4 · Musiker, auch bekannt als Yusuf Islam" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 · Sozialer Typ 4 · YouTuber, Gen-Z-Identität" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 · Sexueller Typ 5 · Popstar, Songwriterin, Transformation" },

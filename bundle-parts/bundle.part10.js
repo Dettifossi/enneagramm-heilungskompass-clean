@@ -1358,6 +1358,72 @@ function evaMendesPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function heatherThomasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heather-thomas-portrait.jpg" alt="Heather Thomas" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heather Thomas</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, Drehbuchautorin, geb. 1957 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der zum Idol wurde, bevor er seine eigene Stimme fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs: wachsam, misstrauisch, aber fähig, diese Wachsamkeit in eine herausfordernde, mutige Präsenz umzuwandeln, die Stärke und Schönheit zugleich ausstrahlt. Heather Thomas verkörperte genau dieses Bild, als sie Anfang der 1980er-Jahre als Jody Banks in der Actionserie <em>Ein Colt für alle Fälle</em> (The Fall Guy) an der Seite von Lee Majors zum landesweiten Pin-up-Idol wurde – ein Bild von Stärke und Schönheit, das Millionen Poster zierte, während dahinter eine deutlich unsicherere, wachsamere Person stand.</p>
+          <p class="vb-intro">Heather Thomas, geboren 1957 in Greenwich, Connecticut, kam aus einer Familie mit unsteten Verhältnissen und wechselte in ihrer Jugend häufig den Wohnort – eine frühe Erfahrung von Unsicherheit, die dem wachsamen Grundthema der Sechs eine reale biografische Grundlage gab, lange bevor Hollywood daraus ein Bild vermeintlicher makelloser Sorglosigkeit machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke und Schönheit als Antwort auf Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt die sexuelle Sechs über das Begriffspaar <em>Stärke und Schönheit</em> – eine Möglichkeit, die zugrundeliegende Angst nicht durch Vorsicht (wie die selbsterhaltende Sechs) oder durch Gruppenzugehörigkeit (wie die soziale Sechs) zu bewältigen, sondern durch eine herausfordernde, oft ausgesprochen attraktive Präsenz, die Unsicherheit in Anziehungskraft verwandelt. Thomas' Karriere begann genau hier: als physisch makelloses Pin-up, dessen Bildsprache Stärke und Schönheit untrennbar miteinander verband, lange bevor die Person dahinter öffentlich zu Wort kam.</p>
+          <p class="vb-intro">Bemerkenswert ist, wie offen Thomas später über die Kehrseite dieser Rolle sprach: eine über Jahre verdeckte Essstörung während der Dreharbeiten zu <em>The Fall Guy</em>, ausgelöst durch den enormen Druck, ein makelloses Körperbild aufrechtzuerhalten. Das ist die verletzliche Innenseite der SX6-Angst hinter der demonstrierten äußeren Stärke – die Sechs, die durch ihre Schönheit Sicherheit zu gewinnen versucht, während die eigentliche Unsicherheit im Verborgenen bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vom Pin-up zur pointierten Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Siebenerflügel bringt der Sechs Beweglichkeit, Vielseitigkeit und den Wunsch, sich nicht auf eine einzige Rolle festlegen zu lassen. Genau das zeigt sich in Thomas' späterer Laufbahn: Nach dem Ende von <em>The Fall Guy</em> wandte sie sich erfolgreich dem Schreiben zu, verfasste Drehbücher für Film und Fernsehen und wurde eine der ersten prominenten politischen Blogger auf der Huffington Post – eine deutliche, energiegeladene Neuerfindung, die dem reinen Sechser-Muster allein fremd wäre.</p>
+          <p class="vb-intro">Als politische Kommentatorin entwickelte Thomas eine scharfe, oft konfrontative Stimme, die sich unverblümt gegen Autoritäten und politische Fehlentwicklungen richtete – ein wachsames Hinterfragen von Macht, das sich mit dem Siebenerflügel in pointierte, wortgewandte Beiträge verwandelte, statt in stille Sorge zu verharren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben zwischen Fassade und Offenlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas ist seit 1990 mit dem einflussreichen Entertainment-Anwalt Skip Brittenham verheiratet – eine seit Jahrzehnten stabile, öffentlich kaum inszenierte Beziehung, die im deutlichen Kontrast zu ihrem einstigen Image als unnahbares Sexsymbol steht. Diese Verlässlichkeit im engsten Kreis passt zum Sicherheitsbedürfnis, das jeder Sechser-Subtyp im Kern teilt, auch wenn die SX6 es anders auslebt als die selbsterhaltende oder soziale Sechs.</p>
+          <p class="vb-intro">Besonders bemerkenswert ist Thomas' spätere Offenheit über die gesundheitlichen Folgen kosmetischer Eingriffe, die sie in den 1990er-Jahren vornehmen ließ, um dem Druck des Showgeschäfts zu genügen – ein öffentliches Eingeständnis, das viele Prominente ihrer Generation vermieden. Diese Offenlegung ist typisch für die SX6: die anfängliche Fassade der makellosen Stärke wird irgendwann selbst infrage gestellt und offen benannt, statt für immer aufrechterhalten zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Thomas die Fähigkeit, aus einer anfangs rein äußerlich definierten Rolle heraus eine eigenständige, kritische Stimme zu entwickeln – vom Pin-up zur Drehbuchautorin und politischen Kommentatorin ist ein Weg, der Mut zur Neuerfindung verlangt, getragen vom beweglichen Siebenerflügel.</p>
+          <p class="vb-intro">Im Schatten steht die jahrelang verdeckte Essstörung und der spätere Bedarf an kosmetischer Korrektur – ein Muster, in dem die SX6 ihre Angst vor Unzulänglichkeit so lange durch äußere Perfektion zu kompensieren versucht, bis der Preis dafür zu hoch wird und offen ausgesprochen werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Fassade zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich sicher, wenn ich stark und makellos wirke?</em> zur Erkenntnis <em>Sicherheit entsteht nicht durch die perfekte Fassade, sondern durch die ehrliche Stimme dahinter.</em> Für die SX6w7 bedeutet das, die anfängliche Rolle als Objekt der Bewunderung hinter sich zu lassen und stattdessen die eigene, kritische Perspektive einzubringen – genau der Weg, den Thomas vom Pin-up-Idol zur Drehbuchautorin und politischen Stimme gegangen ist.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Thomas' Essstörung und ihre späteren gesundheitlichen Belastungen durch kosmetische Eingriffe lassen sich nicht monokausal auf ihren Subtyp zurückführen – solche Erfahrungen sind in der Unterhaltungsbranche verbreitet, unabhängig vom Enneagramm-Typ. Bemerkenswert bleibt dennoch, wie genau sich das SX6-Muster – Sicherheit durch demonstrierte Stärke und Schönheit zu suchen, bis die Fassade selbst zur Belastung wird – in ihrer Biografie nachzeichnen lässt. Thomas kannte ihr eigenes Enneagramm-Muster zur Zeit ihrer größten Popularität nicht bewusst; sie lebte die Leidenschaft, Sicherheit durch äußere Perfektion zu erlangen, ungebremst aus, bis der Körper selbst die Grenze setzte – nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster, bevor sie später den Mut fand, offen darüber zu sprechen.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -9984,192 +10050,6 @@ function fredericChopinKrankheitsportraetPage() {
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
-      ])}
-    </div>
-  `);
-}
-
-function konradAdenauerKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-konrad-adenauer-portrait.jpg" alt="Konrad Adenauer" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Konrad Adenauer</p>
-        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1876–1967</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Adler</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Konrad Adenauer</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-konrad-adenauer">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort weitgehend außen vor bleibt:
-        ein schwerer Autounfall 1917, der sein Gesicht lebenslang veränderte, gefolgt von
-        Verfolgung und Haft unter den Nationalsozialisten sowie den gesundheitlichen
-        Einbrüchen seines letzten Lebensjahres.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Adenauer</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
-        zugeordnet. Die SE1 richtet den Vollkommenheitsanspruch der Eins auf das eigene,
-        unmittelbare Überleben und Funktionieren – Ordnung, Kontrolle und moralische
-        Korrektheit als Schutz vor Chaos und Verletzlichkeit. Der Neunerflügel bringt eine
-        ruhige, unerschütterlich wirkende Präsenz hinzu, hinter der sich Anspannung oft lange
-        verbirgt – ein Muster, das sich bis in Adenauers äußerlich stets kontrollierte Haltung
-        nach einem im wörtlichen Sinne zertrümmerten Gesicht nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Kontrolle über das eigene Erscheinungsbild als Lebensprinzip:</strong>
-        Nach dem Unfall, der sein Gesicht dauerhaft veränderte, arbeitete Adenauer sein
-        gesamtes weiteres Leben an einer öffentlichen Erscheinung von unerschütterlicher
-        Ruhe und Autorität – das genaue Gegenteil der erlittenen Verwundbarkeit.</p>
-        <p class="vb-intro"><strong>b) Wachsamkeit als Grundhaltung:</strong>
-        Ob nach dem Unfall, während der Verfolgung durch die Nationalsozialisten oder im hohen
-        Amt – Adenauers Blick galt stets der Frage, welche Gefahr als Nächstes drohen könnte,
-        und wie ihr durch Vorsicht und Struktur zu begegnen sei.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Fassung trotz privater Erschütterung:</strong>
-        Selbst in den Monaten der Gestapo-Verfolgung 1944 hielt Adenauer nach eigener
-        Aussage seine Haltung gegenüber den Verhörenden als "scharf, aber korrekt" –
-        eine kontrollierte Contenance, die auch unter existenziellem Druck nicht zusammenbrach.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Ein schwerer Autounfall 1917:</strong>
-        Der Dienstwagen des damals 41-jährigen Kölner Beigeordneten Adenauer kollidierte mit
-        einer Straßenbahn. Jochbein und Nasenbein brachen, der Unterkiefer wurde zertrümmert
-        und ausgerenkt, mehrere Zähne gingen verloren, die Sehkraft war beeinträchtigt, dazu
-        kamen tiefe Kopfwunden.</p>
-        <p class="vb-intro"><strong>b) Monatelange Rekonstruktion:</strong>
-        Es folgten ein monatelanger Krankenhausaufenthalt und mehrere rekonstruktive
-        Operationen am Gesicht. Die markanten, eingefallenen Gesichtszüge, für die Adenauer
-        später bekannt wurde, sind zu einem erheblichen Teil direkte Unfallfolge – keine
-        gewöhnliche Alterserscheinung.</p>
-        <p class="vb-intro"><strong>c) Verfolgung ab 1933:</strong>
-        Nach der Machtübernahme der Nationalsozialisten wurde Adenauer als Kölner
-        Oberbürgermeister abgesetzt und aus Köln verwiesen; er fand zeitweise Zuflucht in der
-        Abtei Maria Laach. Im Juni 1934, im Umfeld des sogenannten Röhm-Putsches, folgte eine
-        zweitägige Gestapo-Haft.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Flucht und erneute Verhaftung 1944:</strong>
-        Wegen einer perniziösen Anämie zunächst als haftuntauglich eingestuft und ins
-        Krankenhaus verlegt, gelang Adenauer im September 1944 mit einem gefälschten
-        Transportschein die Flucht. Er tauchte in einer Pension bei Hachenburg unter, wurde
-        jedoch wieder aufgegriffen.</p>
-        <p class="vb-intro"><strong>b) Zwei Monate Gestapo-Gefängnis Brauweiler:</strong>
-        Von Ende September bis Ende November 1944 saß Adenauer im Gestapo-Gefängnis
-        Brauweiler ein. Seine Zelle lag direkt über dem Verhörraum – nachts hörte er die
-        Misshandlung anderer Gefangener und verbrachte, wie er selbst beschrieb,
-        schweißgebadete Nächte unter psychischer Belastung.</p>
-        <p class="vb-intro"><strong>c) Das Trauma der eigenen Familie:</strong>
-        Seine Frau Auguste, unter Verhör zur Preisgabe seines Fluchtortes gezwungen, versuchte
-        aus Schuldgefühlen sich das Leben zu nehmen. Sie wurde rechtzeitig gerettet, starb
-        jedoch 1948 an den Spätfolgen – ein Leid, das die gesamte Familie Adenauer
-        lebenslang begleitete.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Bemerkenswerte Vitalität trotz allem:</strong>
-        Trotz Unfall, Verfolgung und Haft amtierte Adenauer von 1949 bis 1963 als
-        Bundeskanzler – bis ins Alter von 87 Jahren galt er als außergewöhnlich
-        arbeitsfähig und vital.</p>
-        <p class="vb-intro"><strong>b) Zwei Herzinfarkte im Frühjahr 1967:</strong>
-        Am 29. März 1967 erlitt der 91-Jährige einen ersten Herzinfarkt, über Ostern folgte
-        ein zweiter. Sein Körper, der jahrzehntelang bemerkenswert stabil funktioniert hatte,
-        begann in den letzten Lebenswochen rasch nachzulassen.</p>
-        <p class="vb-intro"><strong>c) Tod nach kurzer letzter Erkrankung:</strong>
-        Auf die Herzinfarkte folgte eine grippale Bronchitis, die sich zu einer Lungenentzündung
-        entwickelte. Konrad Adenauer starb am 19. April 1967 im Alter von 91 Jahren.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Wiederaufbau als Lebensmuster:</strong>
-        So wie sein Gesicht nach 1917 chirurgisch wiederhergestellt wurde, baute Adenauer nach
-        1945 buchstäblich einen zerstörten Staat wieder auf – ein Muster von Rekonstruktion
-        nach Zerstörung, das sich durch sein gesamtes Leben zieht.</p>
-        <p class="vb-intro"><strong>b) Kontrolle als Energiequelle unter Druck:</strong>
-        Die Fähigkeit, unter existenzieller Bedrohung – Unfall, Verfolgung, Haft – äußerlich
-        gefasst zu bleiben, war keine Abwesenheit von Angst, sondern eine trainierte,
-        disziplinierte Kanalisierung der eigenen Anspannung in kontrolliertes Handeln.</p>
-        <p class="vb-intro"><strong>c) Der Adler, der bis zuletzt im Amt blieb:</strong>
-        Die Energie der SE1w9 richtete sich bis ins hohe Alter auf dieselbe Grundhaltung:
-        Ordnung schaffen, Verantwortung tragen, nicht aufgeben, solange die Aufgabe nicht
-        erfüllt ist.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Verletzung, kein fortschreitendes Leiden:</strong>
-        Anders als bei den meisten anderen Krankheitsporträts dieses Kompasses steht bei
-        Adenauer am Anfang keine schleichende Erkrankung, sondern ein einmaliges, plötzliches
-        Trauma – der Autounfall von 1917 –, dessen körperliche und wohl auch psychische
-        Folgen ihn jedoch lebenslang begleiteten.</p>
-        <p class="vb-intro"><strong>b) Eine zweite Erschütterung, zwei Jahrzehnte später:</strong>
-        Wo der Unfall 1917 den Körper traf, trafen Verfolgung und Haft 1933/34 und 1944 die
-        Existenz und die Familie – zwei sehr unterschiedliche, aber strukturell verwandte
-        Erfahrungen von plötzlichem Kontrollverlust, denen Adenauer beide Male mit äußerer
-        Fassung begegnete.</p>
-        <p class="vb-intro"><strong>c) Ein Körper, der bis zum Schluss funktionierte:</strong>
-        Erst mit 91 Jahren, im Frühjahr 1967, versagte der Körper endgültig – nach
-        Jahrzehnten, in denen er trotz früher Verletzung bemerkenswert stabil geblieben war.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gesicht?</strong>
-        Bei einer selbsterhaltenden Eins, deren gesamtes Lebensprinzip auf Kontrolle,
-        Korrektheit und makelloser äußerer Haltung beruht, liegt eine Deutung nahe: Der
-        Unfall traf ausgerechnet jenen Körperteil, über den Autorität, moralische Integrität
-        und öffentliches Auftreten am unmittelbarsten vermittelt werden – das Gesicht. Statt
-        sich zurückzuziehen, verwandelte Adenauer die sichtbaren Narben in das Gegenteil von
-        Schwäche: ein Gesicht, das zu einem der bekanntesten und autoritätsstiftendsten
-        Erscheinungsbilder der deutschen Nachkriegsgeschichte wurde. Diese Deutung ist eine
-        plausible Interpretation, kein historisch belegter Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Unfällen
-        oder Verletzungen führt – <strong>jeder Mensch kann jede Krankheit oder Verletzung
-        erleiden, unabhängig vom Subtyp.</strong> Was sich an Adenauers Fall zeigen lässt, ist
-        ein Muster, das bei dem Bedürfnis, gerade nach erlittener Verwundbarkeit äußere
-        Kontrolle und Ordnung wiederherzustellen, in der Praxis immer wieder auffällt – eine
-        von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Adenauer kannte sein eigenes Muster nicht – die selbsterhaltende Eins mit Neunerflügel verwandelt Verletzung reflexhaft in kontrollierte äußere Ordnung, und genau das tat er, als er die Narben seines Unfalls zum Ausdruck disziplinierter Autorität formte, statt sich die dahinterliegende Erschütterung einzugestehen. Wer das eigene Kontrollmuster nicht kennt, hält die Fassade so lange aufrecht, dass selbst nahestehende Menschen die tatsächliche Belastung kaum erahnen.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Die selbsterhaltende Eins mit Neunerflügel prägt <strong>Adenauers</strong> Leben bis in
-        die eigene Verletzungs- und Verfolgungsgeschichte hinein: ein 1917 zertrümmertes
-        Gesicht, das er zum Ausdruck kontrollierter Autorität umformte, zwei Jahrzehnte
-        später Verfolgung und Haft, denen er mit derselben äußeren Fassung begegnete, und ein
-        Körper, der bis zum 91. Lebensjahr bemerkenswert stabil blieb. Der Adler, der nach
-        jedem Sturz wieder aufstieg – nicht unversehrt, aber ungebrochen in seiner
-        Entschlossenheit, Ordnung wiederherzustellen.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
-        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
-        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
