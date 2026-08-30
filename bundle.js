@@ -32960,6 +32960,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexuelle Zwei mit Dreierflügel",
     teaser:"SX2w3 · geb. 1980. Kanadischer Schauspieler. Vom gemobbten Einzelgänger und Mickey-Mouse-Club-Kinderstar zum dreifach oscarnominierten Charakterdarsteller (›Half Nelson‹, ›La La Land‹, ›Barbie‹). Bekannt für seine bewusst private, familienzentrierte Beziehung mit Eva Mendes und eine vierjährige Karrierepause zugunsten seiner Töchter. Tierentsprechung: Kamel.",
     land:"Kanada", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
+    heading:"Andre Agassi – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1970. US-amerikanischer Tennisspieler, 8-facher Grand-Slam-Sieger. Vom Vater zum Tennisprofi gedrillt, wurde er mit der ›Image is Everything‹-Kampagne zum Rebellen-Image, das er später in seiner Autobiografie ›Open‹ als Lüge entlarvte. Nach einem Absturz außerhalb der Top 100 und einer verheimlichten Crystal-Meth-Episode kämpfte er sich zurück zur Nummer 1. Gründer der Andre Agassi Foundation for Education. Seit 2001 mit Steffi Graf (SO9w1) verheiratet. Tierentsprechung: Waschbär.",
+    land:"USA", tags:["Sport"], gender:"m"},
   { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
@@ -45255,12 +45259,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Können statt Glänzen – die natürliche Maske, die aus Wenigem ein funktionierendes System baut (Naranjo: der Kontratyp der Drei)",
-    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Wolodymyr Selenskyj", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unscheinbare Fassade statt Rampenlicht – Können statt Glänzen (Naranjo: Kontratyp)",
         beschreibung: "Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne. Naranjo nannte ihn den ›Kontratyp‹ der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts – während die Energie darunter dieselbe bleibt.",
-        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹ Salome, die in Kana ›still, dezent, an der Seite‹ blieb, während ihr Blick jedes Detail erfasste – bis Jesus, ohne jede Inszenierung, genau die Wirkung erzielte, die sie selbst nie ohne Aufwand erreicht hatte: ›Wer ist dieser Mann, der wirken kann, ohne zu wirken?‹ Horst Tappert, der über 24 Jahre und 281 Folgen dieselbe Rolle spielte, ohne sich neu erfinden zu müssen – kein spektakulärer Senkrechtstart, sondern eine spät begonnene, dafür umso beständiger getragene Karriere, deren Substanz sich erst über Jahrzehnte voll entfaltete."
+        beleg: "Kathrin Bauerfeind: ›Kein lauter Auftritt, kein Glanz, keine Bühne … Der Waschbär wühlt nicht im Rampenlicht – er schafft sich sein eigenes Territorium‹; Tony Shalhoub und Judit Polgár werden fast wortgleich beschrieben: ›Ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen‹; Joseph Haydn: ›kein Wunderkind wie Mozart, kein zorniger Titan wie Beethoven‹, sondern drei Jahrzehnte loyaler Dienst. Sterling North, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, während sein eigenes Buch ›Rascal‹ im Stillen zum Welterfolg wurde: ›Der Mann am Schreibtisch mit der Schreibmaschine wirkt nicht wie eine öffentliche Figur, sondern wie ein stiller, arbeitsamer Handwerker der Sprache.‹ Als Warnung dient Wolodymyr Selenskyj: ›Ein Schauspieler, der eine Rolle spielt, bis er selbst nicht mehr weiß, wo die Rolle endet und er anfängt – das ist die Falle der selbsterhaltenden Drei.‹ Salome, die in Kana ›still, dezent, an der Seite‹ blieb, während ihr Blick jedes Detail erfasste – bis Jesus, ohne jede Inszenierung, genau die Wirkung erzielte, die sie selbst nie ohne Aufwand erreicht hatte: ›Wer ist dieser Mann, der wirken kann, ohne zu wirken?‹ Horst Tappert, der über 24 Jahre und 281 Folgen dieselbe Rolle spielte, ohne sich neu erfinden zu müssen – kein spektakulärer Senkrechtstart, sondern eine spät begonnene, dafür umso beständiger getragene Karriere, deren Substanz sich erst über Jahrzehnte voll entfaltete; Andre Agassi, dessen ›Image is Everything‹-Werbekampagne der frühen 1990er ihn zum schrillen Rebellen-Aushängeschild machte, während er dieses Image in seiner Autobiografie ›Open‹ später als Lüge entlarvte, die er innerlich verachtete – die eigentliche Substanz zeigte sich erst im nüchternen, überprüfbaren Comeback zur Nummer 1 der Weltrangliste nach dem Absturz aus den Top 100."
       },
       {
         titel: "Aus wenig oder aus dem Nichts ein funktionierendes System bauen",
@@ -58823,7 +58827,7 @@ function steffiGrafPortraitPage() {
 
         <h2 class="vb-section">5. Das Geschenk: Die Stille der Meisterschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
+          <p class="vb-intro">Seit 2001 ist Steffi Graf mit dem US-amerikanischen Tennisspieler <a href="#beruehmte-andre-agassi">Andre Agassi (SE3w2)</a> verheiratet \u2013 ein bewusst zur\u00fcckgezogenes, unaufgeregtes Paarleben, das seinen fr\u00fcheren, lautstark inszenierten \u203aImage is Everything\u2039-Ruf konterkariert. Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
           <p class="vb-intro">Das Geschenk der SO9w1 ist diese stille Integrit\u00e4t: die F\u00e4higkeit, pr\u00e4sent zu sein, ohne sich in den Vordergrund zu dr\u00e4ngen &ndash; und dabei dennoch unverkennbar zu sein. Steffi Graf braucht keine Geste, um erkannt zu werden. Der B\u00fcffel auch nicht. Er ist einfach da &ndash; und alle wissen, wer er ist.</p>
         </blockquote>
 
@@ -58833,6 +58837,7 @@ function steffiGrafPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"beruehmte-andre-agassi", label:"Portr\u00e4t: Andre Agassi (SE3w2) \u2013 ihr Ehemann"},
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
@@ -73638,6 +73643,71 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function andreAgassiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-andre-agassi-portrait.jpg" alt="Andre Agassi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andre Agassi</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Tennisspieler, 8-facher Grand-Slam-Sieger, geb. 1970 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das seine Fertigkeiten in geschickter, oft verborgener Arbeit erwirbt, lange bevor irgendjemand zusieht. Andre Agassi wurde 1970 in Las Vegas geboren und hatte bei dieser Arbeit nie eine Wahl: Sein Vater Mike Agassi ließ ihn ab dem siebten Lebensjahr täglich rund 2.500 Bälle gegen eine eigens umgebaute Ballmaschine schlagen, die er ›den Drachen‹ nannte, das Netz eigens erhöht, um härtere Bedingungen zu erzwingen. Schule wurde zugunsten von Extra-Training zurückgestellt.</p>
+          <p class="vb-intro">In seiner Autobiografie ›Open‹ (2009) beginnt Agassi mit einem der berühmtesten Sätze der Sportliteratur: ›Ich spiele Tennis für meinen Lebensunterhalt, obwohl ich Tennis hasse, es mit einer dunklen und geheimen Leidenschaft hasse, und das schon immer.‹ Kein Kind, das seinen eigenen Weg wählte – ein Waschbär, der ein fremdes System am Laufen halten musste, lange bevor er selbst wusste, ob er das überhaupt wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit statt Glanz hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Genau diese Spannung durchzieht Agassis gesamte Karriere: In den frühen 1990er-Jahren machte ihn die Canon-Werbekampagne ›Image is Everything‹ mit auffälliger Frisur und schriller Kleidung zum rebellischen Aushängeschild des Tennissports.</p>
+          <p class="vb-intro">Doch genau dieses Image beschreibt Agassi in ›Open‹ rückblickend als Lüge, die er innerlich verachtete – eine aufgesetzte Fassade, unter der sich tiefe Selbstzweifel und das Gefühl verbargen, ein Hochstapler zu sein. Die eigentliche SE3-Substanz zeigte sich erst später: 1997 fiel er aus den Top 100 der Weltrangliste, nachdem er zeitweise Crystal Meth konsumiert und dies dem Tennisverband gegenüber zunächst als versehentliche Einnahme ausgegeben hatte – ein Detail, das er erst 2009 in seinem Buch öffentlich einräumte. Aus diesem Tiefpunkt kämpfte er sich durch reine, überprüfbare Arbeit zurück zur Nummer 1 der Weltrangliste – kein Comeback des Images, sondern eines der nachweisbaren Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Bildung statt Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls, sich für andere einzusetzen, auch über den eigenen Erfolg hinaus. Agassi gründete die Andre Agassi Foundation for Education und eröffnete 2001 die Agassi Preparatory Academy, eine Charter School in Las Vegas – finanziert mit deutlich mehr Geld, als er je an Preisgeldern gewonnen hatte: über 185 Millionen Dollar für Bildungsprojekte, gegenüber rund 31 Millionen Dollar Turniereinnahmen.</p>
+          <p class="vb-intro">Er selbst beschrieb diesen Schritt so: ›Ich wusste mit achtzehn Jahren, dass ich nicht nur dafür brennen kann, ein Tennismatch zu gewinnen … Kindern durch Bildung eine Chance zu geben, wurde meine eigentliche Leidenschaft.‹ Der Zweierflügel übersetzt sportlichen Erfolg in konkrete, messbare Fürsorge für andere – eine Sicherheit, die nicht mehr nur die eigene Karriere, sondern die Zukunft fremder Kinder trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Geständnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1997, auf dem Tiefpunkt seiner Karriere, bestand Agassi einen Drogentest auf Crystal Meth positiv. Statt die Wahrheit zu sagen, schrieb er dem Tennisverband einen Brief, in dem er behauptete, er habe versehentlich aus dem Glas eines Assistenten getrunken, der die Droge konsumiert habe – eine Lüge, die geglaubt wurde und ihm eine Sperre ersparte. Erst zwölf Jahre später, in ›Open‹, gestand er den tatsächlichen Konsum öffentlich ein.</p>
+          <p class="vb-intro">Dieses Geständnis zeigt die typische SE3-Dynamik in ihrer schwierigsten Form: Die Fassade hielt so lange, wie sie musste, um die eigene Sicherheit nicht gänzlich zu verlieren – doch die endgültige, öffentliche Wahrheit kam erst, als Agassi seine sportliche Karriere längst durch tatsächliche, überprüfbare Leistung wieder aufgebaut hatte und nichts mehr zu verlieren war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>aus einer erzwungenen, gehassten Fassade tatsächlich verifizierbare Substanz zu formen</strong> – Agassis Weg vom aufgezwungenen Kinder-Drill über die Image-Lüge der frühen Jahre bis zum Comeback an die Weltspitze zeigt, wie viel Kraft es kostet, echte Kompetenz unter einer öffentlichen Maske zu bewahren, die man selbst nie wollte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Erfolge zu bestätigen, statt sich selbst genügen zu lassen. Agassis jahrelange Lüge über den Drogentest zeigt, wie weit die SE3 gehen kann, um die eigene Fassade der Kompetenz und Sicherheit nicht einstürzen zu lassen – bis die spätere, freiwillige Offenlegung in ›Open‹ genau diese Fassade endgültig hinter sich ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der die eigene Maske entlarvte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andre Agassi gehört zu den prägendsten Figuren der Tennisgeschichte – nicht wegen einer makellosen Karriere, sondern wegen eines Weges, der von erzwungenem Kinderdrill über eine öffentlich gelebte Lüge bis zu einer der ehrlichsten Sportlerautobiografien überhaupt führte. Seit 2001 ist er mit der Tennisspielerin <a href="#beruehmte-steffi-graf">Steffi Graf (SO9w1)</a> verheiratet – eine bewusst private, unaufgeregte Verbindung, die den lautesten Gegensatz zu seinem früheren ›Image is Everything‹-Image bildet.</p>
+          <p class="vb-intro">Vom gedrillten Kind über den Rebellen mit geliehenem Image bis zum Gründer einer Bildungsstiftung, die mehr Geld einwarb als seine gesamte Tenniskarriere: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich zunächst hinter einer fremden Maske verstecken musste, bevor sie sich selbst, öffentlich und vollständig, die Wahrheit erlaubte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – seine Frau"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
       ])}
     </div>
   `);
@@ -138634,6 +138704,7 @@ function render() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

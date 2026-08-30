@@ -502,7 +502,7 @@ function steffiGrafPortraitPage() {
 
         <h2 class="vb-section">5. Das Geschenk: Die Stille der Meisterschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
+          <p class="vb-intro">Seit 2001 ist Steffi Graf mit dem US-amerikanischen Tennisspieler <a href="#beruehmte-andre-agassi">Andre Agassi (SE3w2)</a> verheiratet \u2013 ein bewusst zur\u00fcckgezogenes, unaufgeregtes Paarleben, das seinen fr\u00fcheren, lautstark inszenierten \u203aImage is Everything\u2039-Ruf konterkariert. Was Steffi Graf hinterlassen hat, ist mehr als eine Rekordliste. Es ist ein Bild von Meisterschaft, das ohne L\u00e4rm auskommt. Sie hat gezeigt, dass man der Gr\u00f6\u00dfte sein kann &ndash; und dabei bescheiden bleiben. Dass man gewinnen kann, ohne den anderen zu erniedrigen. Dass Sport eine innere Haltung ist und nicht nur eine \u00e4u\u00dfere Leistung.</p>
           <p class="vb-intro">Das Geschenk der SO9w1 ist diese stille Integrit\u00e4t: die F\u00e4higkeit, pr\u00e4sent zu sein, ohne sich in den Vordergrund zu dr\u00e4ngen &ndash; und dabei dennoch unverkennbar zu sein. Steffi Graf braucht keine Geste, um erkannt zu werden. Der B\u00fcffel auch nicht. Er ist einfach da &ndash; und alle wissen, wer er ist.</p>
         </blockquote>
 
@@ -512,6 +512,7 @@ function steffiGrafPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"beruehmte-andre-agassi", label:"Portr\u00e4t: Andre Agassi (SE3w2) \u2013 ihr Ehemann"},
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},

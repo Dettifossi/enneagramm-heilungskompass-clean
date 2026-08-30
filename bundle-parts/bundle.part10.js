@@ -820,6 +820,71 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function andreAgassiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-andre-agassi-portrait.jpg" alt="Andre Agassi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andre Agassi</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Tennisspieler, 8-facher Grand-Slam-Sieger, geb. 1970 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das seine Fertigkeiten in geschickter, oft verborgener Arbeit erwirbt, lange bevor irgendjemand zusieht. Andre Agassi wurde 1970 in Las Vegas geboren und hatte bei dieser Arbeit nie eine Wahl: Sein Vater Mike Agassi ließ ihn ab dem siebten Lebensjahr täglich rund 2.500 Bälle gegen eine eigens umgebaute Ballmaschine schlagen, die er ›den Drachen‹ nannte, das Netz eigens erhöht, um härtere Bedingungen zu erzwingen. Schule wurde zugunsten von Extra-Training zurückgestellt.</p>
+          <p class="vb-intro">In seiner Autobiografie ›Open‹ (2009) beginnt Agassi mit einem der berühmtesten Sätze der Sportliteratur: ›Ich spiele Tennis für meinen Lebensunterhalt, obwohl ich Tennis hasse, es mit einer dunklen und geheimen Leidenschaft hasse, und das schon immer.‹ Kein Kind, das seinen eigenen Weg wählte – ein Waschbär, der ein fremdes System am Laufen halten musste, lange bevor er selbst wusste, ob er das überhaupt wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit statt Glanz hinter der Maske</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch öffentliches Image, sondern durch nachweisbare, überprüfbare Kompetenz sucht. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man tatsächlich liefert, was man verspricht. Genau diese Spannung durchzieht Agassis gesamte Karriere: In den frühen 1990er-Jahren machte ihn die Canon-Werbekampagne ›Image is Everything‹ mit auffälliger Frisur und schriller Kleidung zum rebellischen Aushängeschild des Tennissports.</p>
+          <p class="vb-intro">Doch genau dieses Image beschreibt Agassi in ›Open‹ rückblickend als Lüge, die er innerlich verachtete – eine aufgesetzte Fassade, unter der sich tiefe Selbstzweifel und das Gefühl verbargen, ein Hochstapler zu sein. Die eigentliche SE3-Substanz zeigte sich erst später: 1997 fiel er aus den Top 100 der Weltrangliste, nachdem er zeitweise Crystal Meth konsumiert und dies dem Tennisverband gegenüber zunächst als versehentliche Einnahme ausgegeben hatte – ein Detail, das er erst 2009 in seinem Buch öffentlich einräumte. Aus diesem Tiefpunkt kämpfte er sich durch reine, überprüfbare Arbeit zurück zur Nummer 1 der Weltrangliste – kein Comeback des Images, sondern eines der nachweisbaren Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Bildung statt Applaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls, sich für andere einzusetzen, auch über den eigenen Erfolg hinaus. Agassi gründete die Andre Agassi Foundation for Education und eröffnete 2001 die Agassi Preparatory Academy, eine Charter School in Las Vegas – finanziert mit deutlich mehr Geld, als er je an Preisgeldern gewonnen hatte: über 185 Millionen Dollar für Bildungsprojekte, gegenüber rund 31 Millionen Dollar Turniereinnahmen.</p>
+          <p class="vb-intro">Er selbst beschrieb diesen Schritt so: ›Ich wusste mit achtzehn Jahren, dass ich nicht nur dafür brennen kann, ein Tennismatch zu gewinnen … Kindern durch Bildung eine Chance zu geben, wurde meine eigentliche Leidenschaft.‹ Der Zweierflügel übersetzt sportlichen Erfolg in konkrete, messbare Fürsorge für andere – eine Sicherheit, die nicht mehr nur die eigene Karriere, sondern die Zukunft fremder Kinder trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Geständnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1997, auf dem Tiefpunkt seiner Karriere, bestand Agassi einen Drogentest auf Crystal Meth positiv. Statt die Wahrheit zu sagen, schrieb er dem Tennisverband einen Brief, in dem er behauptete, er habe versehentlich aus dem Glas eines Assistenten getrunken, der die Droge konsumiert habe – eine Lüge, die geglaubt wurde und ihm eine Sperre ersparte. Erst zwölf Jahre später, in ›Open‹, gestand er den tatsächlichen Konsum öffentlich ein.</p>
+          <p class="vb-intro">Dieses Geständnis zeigt die typische SE3-Dynamik in ihrer schwierigsten Form: Die Fassade hielt so lange, wie sie musste, um die eigene Sicherheit nicht gänzlich zu verlieren – doch die endgültige, öffentliche Wahrheit kam erst, als Agassi seine sportliche Karriere längst durch tatsächliche, überprüfbare Leistung wieder aufgebaut hatte und nichts mehr zu verlieren war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>aus einer erzwungenen, gehassten Fassade tatsächlich verifizierbare Substanz zu formen</strong> – Agassis Weg vom aufgezwungenen Kinder-Drill über die Image-Lüge der frühen Jahre bis zum Comeback an die Weltspitze zeigt, wie viel Kraft es kostet, echte Kompetenz unter einer öffentlichen Maske zu bewahren, die man selbst nie wollte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch vorhanden: das Bedürfnis, den eigenen Wert durch immer neue, überprüfbare Erfolge zu bestätigen, statt sich selbst genügen zu lassen. Agassis jahrelange Lüge über den Drogentest zeigt, wie weit die SE3 gehen kann, um die eigene Fassade der Kompetenz und Sicherheit nicht einstürzen zu lassen – bis die spätere, freiwillige Offenlegung in ›Open‹ genau diese Fassade endgültig hinter sich ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der die eigene Maske entlarvte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andre Agassi gehört zu den prägendsten Figuren der Tennisgeschichte – nicht wegen einer makellosen Karriere, sondern wegen eines Weges, der von erzwungenem Kinderdrill über eine öffentlich gelebte Lüge bis zu einer der ehrlichsten Sportlerautobiografien überhaupt führte. Seit 2001 ist er mit der Tennisspielerin <a href="#beruehmte-steffi-graf">Steffi Graf (SO9w1)</a> verheiratet – eine bewusst private, unaufgeregte Verbindung, die den lautesten Gegensatz zu seinem früheren ›Image is Everything‹-Image bildet.</p>
+          <p class="vb-intro">Vom gedrillten Kind über den Rebellen mit geliehenem Image bis zum Gründer einer Bildungsstiftung, die mehr Geld einwarb als seine gesamte Tenniskarriere: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer reifsten Form – Substanz, die sich zunächst hinter einer fremden Maske verstecken musste, bevor sie sich selbst, öffentlich und vollständig, die Wahrheit erlaubte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – seine Frau"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
+      ])}
+    </div>
+  `);
+}
+
 function ryanGoslingPortraitPage() {
   return shell(`
     <div class="page-container">

@@ -979,6 +979,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexual Two",
     teaser:"SX2w3 · b. 1980. Canadian actor. From bullied loner and Mickey Mouse Club child star to three-time Oscar-nominated character actor (\"Half Nelson,\" \"La La Land,\" \"Barbie\"). Known for his deliberately private, family-centered relationship with Eva Mendes and a four-year career break for his daughters. Animal correspondence: Camel.",
     land:"Canada", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
+    heading:"Andre Agassi – Self-Preservation Type 3",
+    teaser:"SE3w2 · b. 1970. American tennis player, 8-time Grand Slam champion. Drilled into tennis by his father, he became the rebel face of the \"Image is Everything\" campaign, which he later exposed as a lie in his autobiography \"Open.\" After a slump outside the top 100 and a concealed crystal meth episode, he fought his way back to No. 1. Founder of the Andre Agassi Foundation for Education. Married to Steffi Graf (SO9w1) since 2001. Animal correspondence: Raccoon.",
+    land:"USA", tags:["Sport"], gender:"m"},
 { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
@@ -38291,6 +38295,7 @@ function steffiGrafPortraitPage() {
 
         <h2 class="vb-section">5. The Gift: The Silence of Mastery</h2>
         <blockquote class="vb-blockquote">
+          <p class="vb-intro">Since 2001, Steffi Graf has been married to American tennis player <a href="#beruehmte-andre-agassi">Andre Agassi (SP3w2)</a> – a deliberately private, low-key partnership that stands in sharp contrast to his once loudly staged "Image is Everything" reputation.</p>
           <p class="vb-intro">What Steffi Graf left behind is more than a list of records. It is an image of mastery that needs no noise. She showed that you can be the greatest &ndash; and remain humble. That you can win without humiliating the other. That sport is an inner attitude and not merely an outward performance.</p>
           <p class="vb-intro">The gift of the SO9w1 is this quiet integrity: the ability to be present without pushing to the foreground &ndash; and yet to be unmistakable. Steffi Graf needs no gesture to be recognised. Neither does the buffalo. It is simply there &ndash; and everyone knows who it is.</p>
         </blockquote>
@@ -38301,6 +38306,7 @@ function steffiGrafPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2) – her husband"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
@@ -44759,6 +44765,71 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function andreAgassiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-andre-agassi-portrait.jpg" alt="Andre Agassi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andre Agassi</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Tennis player, 8-time Grand Slam champion, b. 1970 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that acquires its skills through deft, often hidden work, long before anyone is watching. Andre Agassi was born in 1970 in Las Vegas and never had a choice in that work: from age seven, his father Mike Agassi had him hit roughly 2,500 balls a day against a specially modified ball machine he called "the dragon," with the net raised to force harsher conditions. School took a back seat to extra training.</p>
+          <p class="vb-intro">In his 2009 autobiography "Open," Agassi opens with one of the most famous lines in sports literature: "I play tennis for a living even though I hate tennis, hate it with a dark and secret passion, and always have." Not a child who chose his own path – a raccoon who had to keep someone else's system running, long before he himself knew whether he even wanted to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Instead of Shine Behind the Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through public image but through demonstrable, verifiable competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for actually delivering what one promises. This exact tension runs through Agassi's entire career: in the early 1990s, the Canon "Image is Everything" campaign, with his flashy hair and loud outfits, made him the sport's rebellious poster boy.</p>
+          <p class="vb-intro">Yet in "Open," Agassi later describes that very image as a lie he privately despised – a put-on facade beneath which lay deep self-doubt and the feeling of being a fraud. The real SP3 substance showed itself only later: in 1997 he fell out of the top 100, after using crystal meth for a period and initially telling the tennis authorities it had been accidental – a detail he only admitted publicly in 2009, in his book. From that low point he fought his way back to world No. 1 through sheer, verifiable work – not a comeback of image, but one of demonstrable performance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Education Over Applause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse to commit to others, beyond their own success. Agassi founded the Andre Agassi Foundation for Education and, in 2001, opened the Agassi Preparatory Academy, a charter school in Las Vegas – funded with far more money than he ever won in prize money: over $185 million for education projects, against roughly $31 million in tournament earnings.</p>
+          <p class="vb-intro">He himself put it this way: "I knew at eighteen years old that I can't be inspired just for the sake of winning a tennis match... Giving opportunity to children through education became my passion." The Two-wing translates athletic success into concrete, measurable care for others – a security that now carries not just his own career, but the future of other people's children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Confession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1997, at the lowest point of his career, Agassi tested positive for crystal meth. Rather than tell the truth, he wrote a letter to the tennis authorities claiming he had accidentally drunk from an assistant's spiked glass – a lie that was believed and spared him a suspension. Only twelve years later, in "Open," did he publicly admit what had actually happened.</p>
+          <p class="vb-intro">This confession shows the typical SP3 dynamic at its most difficult: the facade held for as long as it needed to, to keep his own security from collapsing entirely – but the final, public truth came only once Agassi had long since rebuilt his sporting career through real, verifiable achievement, with nothing left to lose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 is the ability to <strong>shape genuinely verifiable substance out of a forced, hated facade</strong> – Agassi's path from an imposed childhood drill through the image-lie of his early years to a comeback at the top of the world shows how much strength it takes to preserve real competence beneath a public mask one never wanted in the first place.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but present nonetheless: the need to keep confirming one's own worth through ever-new, verifiable achievements, rather than simply being enough. Agassi's years-long lie about the failed drug test shows how far the SP3 can go to keep the facade of competence and security from collapsing – until the later, voluntary disclosure in "Open" finally left that facade behind for good.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Exposed Its Own Mask</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Andre Agassi is among the most defining figures in tennis history – not because of a flawless career, but because of a path that led from a forced childhood drill through a publicly lived lie to one of the most honest sports memoirs ever written. Since 2001 he has been married to tennis player <a href="#beruehmte-steffi-graf">Steffi Graf (SO9w1)</a> – a deliberately private, low-key bond that stands in the starkest contrast to his earlier "Image is Everything" persona.</p>
+          <p class="vb-intro">From a drilled child, through a rebel wearing a borrowed image, to the founder of an education foundation that raised more money than his entire tennis career: this is the Self-Preservation Three with a Two-wing at its most mature – substance that first had to hide behind someone else's mask before it could finally allow itself the truth, publicly and completely.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – his wife"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
+      ])}
+    </div>
+  `);
+}
+
 function ryanGoslingPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47340,17 +47411,17 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Dr. Annika von Mutius", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades."
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100."
       },
       {
         titel: "Building a working system out of little or from nothing",
         beschreibung: "Instead of waiting for existing resources or head starts, a viable, sometimes decades-functioning system emerges from limited means, often out of sheer resourcefulness.",
-        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around; Johnny Cash, who came from the cotton fields of the Dyess resettlement colony and built one of the most stable careers in country music over five decades – a structure that survived even the worst setbacks despite decades of addiction and several career collapses; Michael Dell, who at nineteen built a company out of a dorm room with roughly $1,000 in startup capital, generating six million dollars in revenue in its first full year of business – no lucky break, but consistent operational discipline from the very start."
+        beleg: "Osho, who built 'from a dusty plot in Pune an international commune operation' and later an entire city with its own airport; Madame Tussaud, who turned a craft into 'a global company' that 'still exists in dozens of cities almost two hundred years after her death'; Sadhguru: 'The raccoon makes much from little – quietly, efficiently, without fuss. And then you look, and it has planted the entire desert.'; Dr. Annika von Mutius, who spent years building the technical substance of an AI matching system instead of relying on loud marketing, before Empion began working with corporations like Procter & Gamble – attention that followed the substance, not the other way around; Johnny Cash, who came from the cotton fields of the Dyess resettlement colony and built one of the most stable careers in country music over five decades – a structure that survived even the worst setbacks despite decades of addiction and several career collapses; Michael Dell, who at nineteen built a company out of a dorm room with roughly $1,000 in startup capital, generating six million dollars in revenue in its first full year of business – no lucky break, but consistent operational discipline from the very start; Sterling North, who worked for decades as a literary editor in the background of major newspapers while quietly building, book by book, one of the best-loved animal memoirs of American literature; Changpeng Zhao, who built Binance into the world's largest crypto exchange not through public showmanship, but through technical infrastructure – a radically independent path built quietly outside existing rulebooks, rather than staged for an audience."
       },
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
@@ -102908,6 +102979,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
