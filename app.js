@@ -48153,7 +48153,7 @@ function hansChristianAndersenPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Gürteltier, das sich niemals ganz gehörig fühlte</h2>
+        <h2 class="vb-section">1. Das Gürteltier, das sich niemals ganz zugehörig fühlte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und zugleich preisgegeben zugleich, und bewegt sich durch die Welt mit dem beständigen Gefühl, anders gepanzert zu sein als alle anderen. Wo die selbsterhaltende Vier sich zurückzieht und die sexuelle Vier ihre Intensität in engen Beziehungen auslebt, sucht die soziale Vier die Gruppe &ndash; nicht obwohl, sondern gerade weil sie sich in ihr fremd fühlt.</p>
           <p class="vb-intro">Hans Christian Andersen, geboren 1805 als Sohn eines Schuhmachers und einer Wäscherin in Odense, war dieses Gürteltier von Kindheit an. Arm, hässlich in den Augen seiner Umgebung genannt, mit einer hohen, oft belächelten Stimme und einer Empfindsamkeit, die in seiner ärmlichen Welt als Schwäche galt &ndash; er wuchs als jemand auf, der nirgendwo wirklich hingehörte, und der genau deshalb sein Leben lang nichts sehnlicher wollte, als dazuzugehören.</p>
