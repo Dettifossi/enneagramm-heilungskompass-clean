@@ -2128,7 +2128,7 @@ function lebensmusterkompassPage() {
     return `
       <button
         data-route="lebensmusterkompass/${s.code.toLowerCase()}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
         ${hasData ? "" : "disabled"}
         title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
       >
@@ -2167,6 +2167,7 @@ function lebensmusterkompassPage() {
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
           {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung"},
+          {route:"enneagramm-instinkt", label:"Schaubild: Enneagramm und Instinkt"},
           {route:"knowledge", label:"Wissensbasis"},
         ])}
       </div>
@@ -2384,6 +2385,7 @@ function musterradarPage() {
           {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"enneagramm-instinkt", label:"Schaubild: Enneagramm und Instinkt"},
           {route:"knowledge", label:"Wissensbasis"},
         ])}
       </div>

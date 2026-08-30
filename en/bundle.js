@@ -47211,7 +47211,7 @@ function lebensmusterkompassPage() {
     return `
       <button
         data-route="lebensmusterkompass/${s.code.toLowerCase()}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
         ${hasData ? "" : "disabled"}
         title="${s.tier} (${s.code})${hasData ? "" : " – in progress"}"
       >
@@ -47250,6 +47250,7 @@ function lebensmusterkompassPage() {
           {route:"kriminalpsychologie", label:"Criminal psychology"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
           {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence"},
+          {route:"enneagramm-instinkt", label:"Chart: Enneagram and Instinct"},
           {route:"knowledge", label:"Knowledge base"},
         ])}
       </div>
@@ -47321,6 +47322,7 @@ function musterradarPage() {
           {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+          {route:"enneagramm-instinkt", label:"Chart: Enneagram and Instinct"},
           {route:"knowledge", label:"Knowledge base"},
         ])}
       </div>
