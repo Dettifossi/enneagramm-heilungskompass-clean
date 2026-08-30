@@ -1,3 +1,93 @@
+function enneagrammInstinktPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Enneagramm und Instinkt", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
+      <p class="psycho-intro">Instinkt ist im Enneagramm die unmittelbare, k\u00f6rperliche Antriebskraft \u2014 die Energie, die handelt, bevor der Verstand fertig gedacht hat. Auch sie ist an sich wertfrei: weder gut noch schlecht, sondern reine Lebenskraft, die Richtung sucht. Bewusst gelebt wird Instinkt zu gesunder Pr\u00e4senz, zu Tatkraft, die im richtigen Moment zupackt, und zu einem verl\u00e4sslichen Gesp\u00fcr f\u00fcr das, was jetzt gebraucht wird. Unbewusst wird dieselbe Energie zu Impulsivit\u00e4t, zu Reaktion ohne Innehalten \u2014 der K\u00f6rper handelt, bevor die Person selbst begreift, warum.</p>
+      <img src="./assets/enneagramm-instinkt.jpg" alt="Enneagramm und Instinkt \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
+        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene instinktive Grundf\u00e4rbung \u2014 eine Art, wie K\u00f6rperenergie entsteht, sich staut oder in Handlung entl\u00e4dt. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zur verl\u00e4sslichen inneren Kompassnadel wird oder zum blinden Reflex. Im bewussten Zustand wird Instinkt zu einem Instrument der Wahrnehmung: Er macht handlungsf\u00e4hig, verankert im K\u00f6rper, verleiht Pr\u00e4senz und ein feines Gesp\u00fcr f\u00fcr den richtigen Moment. Im unbewussten Zustand dagegen l\u00e4uft dieselbe instinktive Kraft ungefiltert \u2014 sie \u00fcberrollt, verh\u00e4rtet, erstarrt oder verausgabt sich, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
+        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Instinkt bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn er unbewusst das Steuer \u00fcbernimmt. Es ist dieselbe K\u00f6rperenergie, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
+      </div>
+
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
+        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 id="ins-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2014 Der Instinkt der Richtigkeit</h3>
+        <p class="vb-intro">Beim Typ 1 ist Instinkt eng an inneren Widerstand gekoppelt: Der K\u00f6rper spannt sich an, wo etwas nicht stimmt, noch bevor der Verstand es benennt. Bewusst gelebt wird daraus pr\u00e4zise, zupackende Tatkraft, die im richtigen Moment korrigiert, ohne zu \u00fcberkorrigieren.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich ein wacher, k\u00f6rperlich verankerter Sinn f\u00fcr Ordnung im eigenen Umfeld \u2014 Instinkt, der pragmatisch anpackt. Unbewusst wird daraus chronische muskul\u00e4re Anspannung, ein K\u00f6rper, der st\u00e4ndig im Anschlag steht.</p>
+        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst entsteht entschlossene, auf das Ganze gerichtete Handlungskraft, die Missst\u00e4nde unmittelbar angeht. Unbewusst kippt es in reflexhafte Belehrung, einen K\u00f6rper, der sich aufrichtet, um andere zurechtzuweisen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst zeigt sich intensive, fast feurige Energie, die den Partner mitrei\u00dft und gemeinsam ver\u00e4ndert. Unbewusst wird daraus impulsive Ungeduld \u2014 ein K\u00f6rper, der dr\u00e4ngt, bevor der andere bereit ist.</p>
+
+        <h3 id="ins-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2014 Der Instinkt der Zuwendung</h3>
+        <p class="vb-intro">Beim Typ 2 flie\u00dft instinktive Energie sofort nach au\u00dfen, in Richtung des anderen \u2014 der K\u00f6rper bewegt sich, bevor der Kopf entscheidet, zu helfen. Bewusst gelebt wird daraus warme, verl\u00e4ssliche Pr\u00e4senz, die sp\u00fcrt, wo sie gebraucht wird.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich verspielte, k\u00f6rpernahe Zuneigung im engen Kreis \u2014 Instinkt, der N\u00e4he unmittelbar sucht und schenkt. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der st\u00e4ndig etwas f\u00fcr andere tun muss, um sich zu beruhigen.</p>
+        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht tatkr\u00e4ftige, gemeinschaftsstiftende Energie, die viele gleichzeitig im Blick beh\u00e4lt. Unbewusst kippt es in \u00fcberzogenen Aktivismus \u2014 ein K\u00f6rper, der sich verausgabt, um unentbehrlich zu bleiben.</p>
+        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich anziehende, hingebungsvolle K\u00f6rperpr\u00e4senz, ganz auf den einen Menschen gerichtet. Unbewusst wird daraus instinktives Werben um Aufmerksamkeit, das keine Pause kennt.</p>
+
+        <h3 id="ins-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2014 Der Instinkt der Leistung</h3>
+        <p class="vb-intro">Beim Typ 3 ist Instinkt eng mit Tempo und Effizienz verbunden \u2014 der K\u00f6rper geht in Bewegung, sobald ein Ziel erkennbar ist. Bewusst gelebt wird daraus m\u00fchelose, ansteckende Tatkraft, die andere ins Handeln bringt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich unerm\u00fcdliche, bodenst\u00e4ndige Schaffenskraft, die Sicherheit durch stetiges Tun schafft. Unbewusst wird daraus Getriebenheit \u2014 ein K\u00f6rper, der nicht abschalten kann, weil Stillstand sich wie Gefahr anf\u00fchlt.</p>
+        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht dynamische, teamf\u00fchrende Energie, die ein gemeinsames Vorhaben voranbringt. Unbewusst kippt es in ruheloses Statusstreben \u2014 ein K\u00f6rper in permanenter Selbstoptimierung.</p>
+        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich magnetische, selbstsichere K\u00f6rperpr\u00e4senz, die anzieht, ohne zu inszenieren. Unbewusst wird daraus rastlose Selbstdarstellung, die Energie in Wirkung statt in echte N\u00e4he steckt.</p>
+
+        <h3 id="ins-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2014 Der Instinkt der Intensit\u00e4t</h3>
+        <p class="vb-intro">Beim Typ 4 sucht Instinkt das Besondere, das intensiv Erlebte \u2014 der K\u00f6rper reagiert stark auf Sch\u00f6nheit und Schmerz gleicherma\u00dfen. Bewusst gelebt wird daraus tiefe, verk\u00f6rperte Ausdruckskraft, die Erfahrung in Gestalt verwandelt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich z\u00e4he, standhafte K\u00f6rperkraft, die auch schwere Phasen durchtr\u00e4gt. Unbewusst wird daraus stille Ersch\u00f6pfung, ein K\u00f6rper, der Entbehrung stumm aush\u00e4lt, statt sie auszudr\u00fccken.</p>
+        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht die F\u00e4higkeit, eigene Intensit\u00e4t in Ausdruck zu verwandeln, der andere ber\u00fchrt. Unbewusst kippt es in demonstrative Zur\u00fcckgezogenheit, einen K\u00f6rper, der sich sichtbar aus dem Get\u00fcmmel entfernt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich vulkanische, unmittelbare K\u00f6rperenergie, die echte Intensit\u00e4t in Beziehung bringt. Unbewusst wird daraus dramatische Eskalation, ein K\u00f6rper, der N\u00e4he \u00fcber Zuspitzung sucht.</p>
+
+        <h3 id="ins-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2014 Der Instinkt des R\u00fcckzugs</h3>
+        <p class="vb-intro">Beim Typ 5 wird instinktive Energie zuerst zur\u00fcckgehalten, gespart, beobachtet \u2014 der K\u00f6rper h\u00e4lt sich zur\u00fcck, bevor er handelt. Bewusst gelebt wird daraus ruhige, \u00f6konomische Kraft, die genau dann da ist, wenn sie gebraucht wird.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich stille Gen\u00fcgsamkeit, ein K\u00f6rper, der mit wenig auskommt und dabei ganz bei sich bleibt. Unbewusst wird daraus fast vollst\u00e4ndiger R\u00fcckzug aus dem eigenen K\u00f6rper, ein Leben vorwiegend im Kopf.</p>
+        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht sachliche, beobachtende Pr\u00e4senz, die sich punktuell und gezielt einbringt. Unbewusst kippt es in distanzierte Passivit\u00e4t, einen K\u00f6rper, der lieber analysiert als handelt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich \u00fcberraschend intensive Hingabe an einen Menschen oder ein Thema, sobald Vertrauen besteht. Unbewusst wird daraus verzehrende innere Vertiefung, die sich k\u00f6rperlich kaum mehr zeigt.</p>
+
+        <h3 id="ins-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2014 Der Instinkt der Wachsamkeit</h3>
+        <p class="vb-intro">Beim Typ 6 ist der K\u00f6rper st\u00e4ndig auf Signale von Gefahr oder Sicherheit geeicht \u2014 Instinkt zeigt sich als feine Alarmbereitschaft. Bewusst gelebt wird daraus schnelle, treffsichere Reaktionsf\u00e4higkeit, die sch\u00fctzt, ohne zu l\u00e4hmen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich vorsorgende, bodenst\u00e4ndige Wachsamkeit, die Sicherheit im Alltag herstellt. Unbewusst wird daraus nerv\u00f6se Anspannung, ein K\u00f6rper, der st\u00e4ndig auf das n\u00e4chste Problem vorbereitet ist.</p>
+        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht loyale, verl\u00e4ssliche Pr\u00e4senz im Dienst der Gruppe. Unbewusst kippt es in misstrauische \u00dcberwachsamkeit, einen K\u00f6rper, der Autorit\u00e4ten pr\u00fcfend im Blick beh\u00e4lt.</p>
+        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutige, direkte K\u00f6rperkraft, die Angst in Konfrontation statt R\u00fcckzug verwandelt. Unbewusst wird daraus impulsive Angriffsbereitschaft, ein K\u00f6rper, der zuschl\u00e4gt, bevor er gepr\u00fcft hat.</p>
+
+        <h3 id="ins-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2014 Der Instinkt der Bewegung</h3>
+        <p class="vb-intro">Beim Typ 7 will der K\u00f6rper in Bewegung bleiben, neue Reize aufnehmen, nichts verpassen \u2014 Instinkt zeigt sich als best\u00e4ndiger Drang nach vorn. Bewusst gelebt wird daraus lebendige, ansteckende Energie, die Schwung in jede Situation bringt.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktische, genussfreudige K\u00f6rperlichkeit, die Sicherheit mit Erlebnis verbindet. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der Ablenkung braucht, um Unruhe nicht zu sp\u00fcren.</p>
+        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht gro\u00dfz\u00fcgige, mitrei\u00dfende Energie im Dienst einer guten Sache. Unbewusst kippt es in Selbst\u00fcberforderung, einen K\u00f6rper, der immer weiter gibt, bis die Reserven leer sind.</p>
+        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich intensive, faszinierende Pr\u00e4senz, die andere spontan mitrei\u00dft. Unbewusst wird daraus impulsive Reizsuche, ein K\u00f6rper, der von einer Begeisterung zur n\u00e4chsten springt.</p>
+
+        <h3 id="ins-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2014 Der Instinkt der Kraft</h3>
+        <p class="vb-intro">Beim Typ 8 ist der K\u00f6rper selbst die Botschaft: kraftvoll, pr\u00e4sent, unmittelbar. Bewusst gelebt wird daraus besch\u00fctzende St\u00e4rke, die Raum h\u00e4lt, ohne ihn anderen zu nehmen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robuste, unersch\u00fctterliche Pr\u00e4senz, die f\u00fcr sich und andere Sicherheit schafft. Unbewusst wird daraus kompromisslose H\u00e4rte, ein K\u00f6rper, der Verletzlichkeit gar nicht erst zul\u00e4sst.</p>
+        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht kraftvolle, loyale F\u00fchrungsenergie im Dienst einer Gruppe. Unbewusst kippt es in dominantes Kontrollverhalten, einen K\u00f6rper, der Raum beansprucht, statt ihn zu teilen.</p>
+        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich hingebungsvolle, unmittelbare Leidenschaft, die den Partner ganz umfasst. Unbewusst wird daraus besitzergreifende Wucht, ein K\u00f6rper, der N\u00e4he mit \u00dcbernahme verwechselt.</p>
+
+        <h3 id="ins-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2014 Der Instinkt der Ruhe</h3>
+        <p class="vb-intro">Beim Typ 9 zieht sich instinktive Energie oft zur\u00fcck, um Frieden zu wahren \u2014 der K\u00f6rper d\u00e4mpft sich selbst, bevor Konflikt entstehen kann. Bewusst gelebt wird daraus tragende, geerdete Pr\u00e4senz, die Sicherheit ausstrahlt, ohne sich aufzudr\u00e4ngen.</p>
+        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich gem\u00fctliche, k\u00f6rperlich verankerte Gelassenheit, die Geborgenheit schafft. Unbewusst wird daraus Tr\u00e4gheit \u2014 ein K\u00f6rper, der sich in Gewohnheit und Bequemlichkeit bet\u00e4ubt.</p>
+        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht verbindende, ausgleichende Energie, die Gruppen zusammenh\u00e4lt. Unbewusst kippt es in Selbstverleugnung, einen K\u00f6rper, der sich f\u00fcr alle einsetzt und dabei die eigene Energie vergisst.</p>
+        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensive, verschmelzende K\u00f6rperpr\u00e4senz, ganz auf den geliebten Menschen ausgerichtet. Unbewusst wird daraus energetisches Verschmelzen bis zur Selbstaufgabe, ein K\u00f6rper, der die eigenen Grenzen im anderen verliert.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("sprache-der-sexualit\u00e4t", "Instinkt und Emotionalit\u00e4t im Zusammenspiel \u2014 wie Begehren und K\u00f6rperenergie sich bei den 9 Typen und ihren Subtypen verbinden.", "Die Sprache unserer Sexualit\u00e4t")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      ${relatedLinks([
+        {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
+        {route:"enneagramm-intellekt", label:"Enneagramm und Intellekt"},
+        {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+      ])}
+    </div>
+  `);
+}
+
 function enneagrammIntellektPage() {
   return shell(`
     <div class="page-container">
@@ -6147,266 +6237,6 @@ function differenzierungPage() {
         {route:"lookalike-typen", label:"Lookalike-Typen"},
         {route:"verwechslungen", label:"Verwechslungen"},
         {route:"enneagramm-profiling", label:"Enneagramm-Profiling"},
-      ])}
-    </section>
-  `);
-}
-
-function krisenkompassPage() {
-  const typeColors = {"1":"#8b6f47","2":"#7a2d90","3":"#c8860a","4":"#5b4fa0","5":"#2e7d6e","6":"#4a6fa5","7":"#b5870a","8":"#8b2014","9":"#5a7a3a"};
-  const typeNames = {"1":"Der Reformer","2":"Der Helfer","3":"Der Dynamiker","4":"Der Individualist","5":"Der Beobachter","6":"Der Loyale","7":"Der Enthusiast","8":"Der Herausforderer","9":"Der Friedensstifter"};
-
-  const KRISEN = {
-    1: [
-      { id:"wut", label:"Wut & innere Anspannung", emoji:"\ud83d\udd25", schritte:[
-        "Stopp-Moment setzen: Verlassen Sie den Raum oder die Situation f\u00fcr 5 Minuten. Ihr K\u00f6rper braucht zuerst Abstand vom Ausl\u00f6ser.",
-        "K\u00f6rper-Anker: Legen Sie beide H\u00e4nde flach auf den Bauch. Atmen Sie 4 Sekunden ein, 6 Sekunden aus. Wiederholen Sie das dreimal. Der Zorn geh\u00f6rt zum Typ 1 \u2014 er darf sein, er muss Sie nur nicht steuern.",
-        "Milde-Frage: Fragen Sie sich: &bdquo;Was w\u00fcrde ich einem guten Freund in dieser Situation raten?&ldquo; Geben Sie sich dieselbe Antwort."
-      ]},
-      { id:"perfektionismus", label:"L\u00e4hmender Perfektionismus", emoji:"\u2699\ufe0f", schritte:[
-        "Sofort-Entscheidung: W\u00e4hlen Sie bewusst die zweitbeste L\u00f6sung. Nicht die perfekte \u2014 die gute genug. F\u00fchren Sie sie jetzt durch.",
-        "Inner Critic Timeout: Schreiben Sie die kritische innere Stimme auf einen Zettel. Legen Sie den Zettel zur Seite. Buchst\u00e4blich.",
-        "Fertig-Ank\u00fcndigung: Sagen Sie laut (oder innerlich): &bdquo;Das ist gut genug. Ich bin fertig.&ldquo; Dreimal. Ohne Erg\u00e4nzung."
-      ]},
-      { id:"fehler", label:"Fehler & Scham", emoji:"\ud83d\ude14", schritte:[
-        "Fehler benennen \u2014 einmal, sachlich: Was ist passiert? Keine Bewertung, nur Beschreibung in einem Satz.",
-        "Verh\u00e4ltnism\u00e4\u00dfigkeit pr\u00fcfen: Wie wichtig ist dieser Fehler in einem Jahr? In zehn Jahren? Ordnen Sie ihn ein.",
-        "Wiedergutmachungs-Schritt: Was ist der eine konkrete n\u00e4chste Schritt? Nur einer. F\u00fchren Sie ihn durch und betrachten Sie die Sache als abgeschlossen."
-      ]},
-    ],
-    2: [
-      { id:"erschoepfung", label:"Ersch\u00f6pfung durch Geben", emoji:"\ud83e\udec0", schritte:[
-        "Sofort-Stopp: Sagen Sie zu der n\u00e4chsten Bitte Nein \u2014 ohne Erkl\u00e4rung. Nur &bdquo;Heute geht das nicht.&ldquo; Das ist kein Versagen, das ist Selbstschutz.",
-        "Eigene Bed\u00fcrfnisse fragen: Setzen Sie sich hin und fragen: Was brauche ich gerade? Nicht was andere brauchen \u2014 was ich brauche. Schreiben Sie es auf.",
-        "Eine Sache tun: Erf\u00fcllen Sie sich eine dieser eigenen Bed\u00fcrfnisse jetzt. Nur eine. Ohne schlechtes Gewissen."
-      ]},
-      { id:"abweisung", label:"Abweisung & Kr\u00e4nkung", emoji:"\ud83d\udc94", schritte:[
-        "Gef\u00fchl anerkennen: Der Schmerz ist real. Sagen Sie sich: &bdquo;Ich bin verletzt. Das darf ich sein.&ldquo; Kein sofortiges Helfen, kein Ablenken.",
-        "Herkunft pr\u00fcfen: Ist die Abweisung pers\u00f6nlich gemeint \u2014 oder ist der andere gerade in seiner eigenen Not? H\u00e4ufig ist es Letzteres.",
-        "Selbst-Zuwendung: Tun Sie etwas, das sich gut anf\u00fchlt \u2014 nur f\u00fcr Sie. Ein Tee, ein Spaziergang, Musik. Kein Helfen in den n\u00e4chsten zwei Stunden."
-      ]},
-      { id:"manipulation", label:"Gef\u00fchl, ausgenutzt zu werden", emoji:"\ud83d\ude24", schritte:[
-        "Innere Bilanz: Geben Sie in dieser Beziehung mehr als Sie empfangen? Antworten Sie ehrlich \u2014 ohne den anderen zu sch\u00fctzen.",
-        "Grenze formulieren: Was ist das Mindeste, das Sie sich w\u00fcnschen w\u00fcrden? Formulieren Sie es als klaren Satz \u2014 noch ohne ihn auszusprechen.",
-        "Gespr\u00e4ch planen: W\u00e4hlen Sie einen ruhigen Moment und sprechen Sie die Bitte aus. Nicht als Vorwurf, sondern als ehrliches Bed\u00fcrfnis."
-      ]},
-    ],
-    3: [
-      { id:"versagen", label:"Versagensangst & Druck", emoji:"\ud83c\udfaf", schritte:[
-        "Druck externalisieren: Schreiben Sie alle offenen Aufgaben auf. Sortieren Sie nach Wichtigkeit. Streichen Sie alles, was heute nicht entschieden werden muss.",
-        "Einen Schritt gehen: W\u00e4hlen Sie die wichtigste Aufgabe. Beginnen Sie sie \u2014 nicht zu Ende bringen, nur beginnen. Der Anfang bricht den L\u00e4hmungszustand.",
-        "Wert-Erinnerung: Sie sind nicht Ihr Ergebnis. Fragen Sie sich: Wer sch\u00e4tzt mich unabh\u00e4ngig von meinem Erfolg? Denken Sie an eine konkrete Person."
-      ]},
-      { id:"maske", label:"Ersch\u00f6pfung der Fassade", emoji:"\ud83c\udfad", schritte:[
-        "Maske ablegen \u2014 privat: Gehen Sie in einen Raum, in dem Sie allein sind. Erlauben Sie sich, nichts zu leisten. F\u00fcnf Minuten lang. Kein Handy.",
-        "Echtheitsfrage: Was f\u00fchlen Sie gerade wirklich \u2014 hinter der funktionierenden Oberfl\u00e4che? Benennen Sie es, auch wenn es unbequem ist.",
-        "Echten Kontakt suchen: Schreiben Sie einer Person, der Sie sich wirklich zeigen k\u00f6nnen, eine ehrliche Nachricht. Nicht professionell \u2014 menschlich."
-      ]},
-      { id:"entscheidung", label:"Entscheidungsl\u00e4hmung", emoji:"\u26a1", schritte:[
-        "Zwei-Minuten-Entscheidung: Stellen Sie sich einen Timer auf zwei Minuten. In dieser Zeit entscheiden Sie \u2014 keine weitere Recherche, kein weiteres Abw\u00e4gen.",
-        "Bauch-Test: Welche Option f\u00fchlt sich im K\u00f6rper leichter an? Nicht richtig \u2014 leichter. Das ist oft der verl\u00e4sslichste Kompass.",
-        "Revidierbarkeit pr\u00fcfen: Ist diese Entscheidung r\u00fcckg\u00e4ngig zu machen? Wenn ja, entscheiden Sie sofort \u2014 Perfektionismus kostet mehr als ein korrigierbarer Fehler."
-      ]},
-    ],
-    4: [
-      { id:"melancholie", label:"Tiefe Melancholie & Leere", emoji:"\ud83c\udf0a", schritte:[
-        "In die Welle \u2014 nicht gegen sie: Setzen Sie sich mit dem Gef\u00fchl. Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie die Traurigkeit vollst\u00e4ndig \u2014 dann ist die Zeit um.",
-        "K\u00f6rper-Anker: Gehen Sie nach drau\u00dfen. Zehn Minuten Bewegung. Der K\u00f6rper holt die Seele oft aus der Spirale, wenn der Kopf es nicht schafft.",
-        "Erschaffung: Tun Sie etwas Kreatives \u2014 schreiben, zeichnen, Musik h\u00f6ren. Nicht um sich abzulenken, sondern um der Emotion einen Ausdruck zu geben."
-      ]},
-      { id:"neid", label:"Neid & das Gef\u00fchl, zu wenig zu sein", emoji:"\ud83d\udc9c", schritte:[
-        "Neid benennen: &bdquo;Ich bin neidisch auf X, weil Y.&ldquo; Ehrlich, ohne Scham. Neid zeigt, was Sie sich w\u00fcnschen \u2014 das ist wertvolle Information.",
-        "Einzigartigkeit erinnern: Was kann oder f\u00fchlt nur ich? Was hat noch niemand sonst getan, gedacht, ausgedr\u00fcckt in Ihrer Art? Schreiben Sie drei Dinge.",
-        "Einen Sch\u00f6nheits-Moment: Suchen Sie heute bewusst etwas Sch\u00f6nes in Ihrer eigenen Gegenwart \u2014 nicht im Leben anderer. Ein Moment, der nur Ihrer ist."
-      ]},
-      { id:"abgelehnt", label:"Ablehnung & unverstanden sein", emoji:"\ud83e\uded9", schritte:[
-        "Gef\u00fchl validieren: Es tut weh, nicht gesehen zu werden. Das ist real und verst\u00e4ndlich. Sie m\u00fcssen das nicht sofort wegdenken.",
-        "\u00dcbertragung pr\u00fcfen: Wie stark erinnert diese Situation an fr\u00fchere Verletzungen? Reagieren Sie auf jetzt \u2014 oder auf damals?",
-        "Selbst-Zeugnis: Schreiben Sie auf, was in Ihnen steckt, das der andere vielleicht nicht sieht. Werden Sie Ihr eigener wohlwollender Zeuge."
-      ]},
-    ],
-    5: [
-      { id:"ueberforderung", label:"Soziale \u00dcberforderung", emoji:"\ud83e\udde0", schritte:[
-        "Sofort-R\u00fcckzug: Entschuldigen Sie sich h\u00f6flich und verlassen Sie die Situation. Das ist kein Versagen \u2014 es ist Selbstregulation. Gehen Sie in Ihren R\u00fcckzugsraum.",
-        "Energie-Reset: Sitzen Sie allein, ohne Input. Kein Handy, keine Musik, kein Podcast. F\u00fcnfzehn Minuten Stille. Der Akku l\u00e4dt nur im Schweigen.",
-        "Dosierter Wiedereinstieg: Wenn Sie wieder bereit sind, w\u00e4hlen Sie bewusst ein einziges Gespr\u00e4ch oder eine Aufgabe. Keine Vollbelastung nach der Pause."
-      ]},
-      { id:"leere", label:"Innere Leere & Isolation", emoji:"\ud83c\udfd4\ufe0f", schritte:[
-        "K\u00f6rper besuchen: Stehen Sie auf und bewegen Sie sich \u2014 ein kurzer Spaziergang, Dehnen, kaltes Wasser ins Gesicht. Der Kopf kann Sie festhalten; der K\u00f6rper holt Sie zur\u00fcck.",
-        "Minimalkontakt: Schreiben Sie einer Person, die Sie sch\u00e4tzen, eine kurze Nachricht. Kein langer Austausch \u2014 nur ein kleines Signal der Verbindung.",
-        "Wissens-Ankerpunkt: Besch\u00e4ftigen Sie sich mit einem Thema, das Sie wirklich interessiert. Nicht als Ablenkung \u2014 als Erinnerung, dass Sie lebendig und neugierig sind."
-      ]},
-      { id:"kontrollverlust", label:"Kontrollverlust & Angst", emoji:"\ud83c\udf00", schritte:[
-        "Fakten sammeln: Was ist tats\u00e4chlich passiert \u2014 ohne Interpretation? Schreiben Sie nur die belegbaren Fakten auf. Das sortiert den Kopf.",
-        "Einflussbereich kl\u00e4ren: Was davon k\u00f6nnen Sie beeinflussen \u2014 und was nicht? Streichen Sie, was au\u00dferhalb Ihres Einflussbereichs liegt. Konzentrieren Sie sich nur auf den Rest.",
-        "Einen Schritt planen: Was ist der kleinste m\u00f6gliche Schritt, den Sie jetzt gehen k\u00f6nnen? F\u00fchren Sie ihn durch. Handlung l\u00f6st Kontrollverlust besser als Nachdenken."
-      ]},
-    ],
-    6: [
-      { id:"angst", label:"Akute Angst & Katastrophendenken", emoji:"\ud83c\udf2a\ufe0f", schritte:[
-        "Atemnotbremse: Atmen Sie vier Sekunden ein, halten Sie vier Sekunden an, atmen Sie acht Sekunden aus. Das aktiviert den Parasympathikus \u2014 physiologisch, nicht metaphorisch.",
-        "Wahrscheinlichkeitscheck: Schreiben Sie das Worst-Case-Szenario auf. Dann fragen Sie: Wie wahrscheinlich ist das wirklich, auf einer Skala von 1 bis 10? Und: Was w\u00fcrde ich tun, wenn es eintr\u00e4te?",
-        "Verb\u00fcndeten-Kontakt: Rufen Sie jetzt eine Person an, der Sie vertrauen. Nicht um das Problem zu l\u00f6sen \u2014 um sich geh\u00f6rt zu f\u00fchlen. Das reicht."
-      ]},
-      { id:"misstrauen", label:"Misstrauen & Verrat", emoji:"\ud83d\udee1\ufe0f", schritte:[
-        "Trennung: Was ist Tatsache \u2014 und was ist Interpretation? Schreiben Sie die Tatsachen auf eine Seite, die Interpretationen auf die andere.",
-        "Geschichte pr\u00fcfen: Hat diese Person bisher Grund zum Misstrauen gegeben? Oder projizieren Sie eine alte Erfahrung auf jetzt?",
-        "Einen Schritt wagen: Vertrauen entsteht durch kleine Tests. Was ist die kleinste Offenheit, die Sie riskieren k\u00f6nnten? Versuchen Sie es bewusst."
-      ]},
-      { id:"zweifel", label:"L\u00e4hmender Selbstzweifel", emoji:"\ud83d\udd0d", schritte:[
-        "Zweifel benennen: Schreiben Sie den konkreten Zweifel auf. H\u00e4ufig verliert er an Macht, sobald er sichtbar ist.",
-        "Kompetenz-Anker: Erinnern Sie sich an drei Situationen, in denen Sie trotz Zweifel richtig entschieden oder gehandelt haben. Sie haben Ressourcen \u2014 auch wenn der Zweifel das verdeckt.",
-        "Entscheidung auf Zeit: Treffen Sie jetzt eine Entscheidung \u2014 nur f\u00fcr heute. Mit dem Recht, sie morgen zu \u00fcberpr\u00fcfen. Das bricht die L\u00e4hmung, ohne Endg\u00fcltigkeit zu erzwingen."
-      ]},
-    ],
-    7: [
-      { id:"langeweile", label:"Innere Leere & Langeweile", emoji:"\u2728", schritte:[
-        "Pause aushalten: Bleiben Sie drei Minuten mit der Leere. Kein Griff zum Handy, kein neuer Plan. Was passiert wirklich, wenn Sie nicht sofort f\u00fcllen?",
-        "Tiefe statt Breite: W\u00e4hlen Sie eine einzige Sache aus Ihrem Leben \u2014 eine Beziehung, ein Projekt, eine Idee. Gehen Sie damit tiefer, statt zu wechseln.",
-        "K\u00f6rper-Frage: Was f\u00fchlt der K\u00f6rper gerade \u2014 unter der Unruhe? Angst? Traurigkeit? Benennen Sie es. Die Leere ist oft ein Gef\u00fchl, das noch keinen Namen hat."
-      ]},
-      { id:"schmerz", label:"Schmerz & Trauer vermeiden", emoji:"\ud83c\udf27\ufe0f", schritte:[
-        "Dem Schmerz erlauben: Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie sich, das Schwere wirklich zu f\u00fchlen \u2014 ohne Ausweg, ohne Plan. Zehn Minuten.",
-        "Trauer als Signal: Wof\u00fcr trauern Sie? Was hat das f\u00fcr eine Bedeutung? Trauer zeigt, was Ihnen wichtig war. Das ist nicht schwach \u2014 das ist tief.",
-        "Bleiben statt fliehen: W\u00e4hlen Sie heute eine Situation, in der Sie normalerweise ausweichen w\u00fcrden. Bleiben Sie darin. Sie sind st\u00e4rker als die Unruhe."
-      ]},
-      { id:"verpflichtung", label:"Verpflichtungsangst & Flucht", emoji:"\ud83c\udfaa", schritte:[
-        "Was ich wirklich will: Hinter der Flucht steckt oft eine echte Sehnsucht. Was wollen Sie wirklich \u2014 wenn kein Ausweg m\u00f6glich w\u00e4re?",
-        "Kosten der Freiheit: Was verlieren Sie durch st\u00e4ndige Optionalit\u00e4t? Tiefe? Verl\u00e4sslichkeit? Vertrauen? Machen Sie sich das bewusst, ohne sich zu verurteilen.",
-        "Kleines Commitment: W\u00e4hlen Sie eine Verpflichtung \u2014 klein, konkret, \u00fcberschaubar. Halten Sie sie. Das ist \u00dcbung, keine Selbstbestrafung."
-      ]},
-    ],
-    8: [
-      { id:"kontrollverlust", label:"Kontrollverlust & Ohnmacht", emoji:"\u26a1", schritte:[
-        "K\u00f6rper entladen: Gehen Sie raus und bewegen Sie sich kr\u00e4ftig \u2014 laufen, Treppen steigen, Liegest\u00fctze. Der K\u00f6rper des Typs 8 braucht ein Ventil f\u00fcr aufgestaute Energie.",
-        "Einfluss kl\u00e4ren: Was liegt in Ihrer Hand \u2014 und was nicht? Wenden Sie sich ausschlie\u00dflich dem zu, was Sie tats\u00e4chlich ver\u00e4ndern k\u00f6nnen. Lassen Sie den Rest los.",
-        "St\u00e4rke durch Stille: St\u00e4rke hei\u00dft nicht immer handeln. Sitzen Sie f\u00fcnf Minuten still und entscheiden Sie bewusst, was Sie als N\u00e4chstes tun. Das ist Kontrolle."
-      ]},
-      { id:"verrat", label:"Verrat & Vertrauensbruch", emoji:"\ud83d\udde1\ufe0f", schritte:[
-        "Wut herauslassen \u2014 sicher: Schreiben Sie alles auf, was Sie f\u00fchlen \u2014 unzensiert, f\u00fcr niemanden au\u00dfer sich. Dann verbrennen oder zerrei\u00dfen Sie den Zettel.",
-        "Verletzlichkeit anerkennen: Hinter dem Verrat steckt ein Schmerz. Der Schmerz kommt, weil Sie vertraut haben. Das ist keine Schw\u00e4che \u2014 das ist Menschlichkeit.",
-        "N\u00e4chsten Schritt w\u00e4hlen: Was ist das Kl\u00fcgste, das Sie jetzt tun k\u00f6nnen \u2014 nicht das H\u00e4rteste? Handeln aus Klarheit ist wirksamer als Handeln aus Zorn."
-      ]},
-      { id:"schwaeche", label:"Eigene Schw\u00e4che & Verletzlichkeit", emoji:"\ud83e\udec0", schritte:[
-        "Allein sein erlauben: Suchen Sie Einsamkeit \u2014 nicht um zu gr\u00fcbeln, sondern um ohne Publikum zu sein. Typ 8 ist in Einsamkeit oft zug\u00e4nglicher f\u00fcr sich selbst.",
-        "Verletzlichkeit benennen: Was schmerzt Sie wirklich \u2014 hinter der St\u00e4rke? Sagen Sie es laut, auch wenn niemand zuh\u00f6rt. Die Worte machen es real.",
-        "Einen Menschen w\u00e4hlen: Gibt es eine Person, der Sie sich zeigen k\u00f6nnen \u2014 ohne Maske? Suchen Sie diese eine Person auf. Das reicht."
-      ]},
-    ],
-    9: [
-      { id:"vermeidung", label:"Selbstvergessenheit & innere Taubheit", emoji:"\ud83c\udf3f", schritte:[
-        "Eigene Anwesenheit: Fragen Sie sich jetzt: Was f\u00fchle ich? Was will ich? Was denke ich \u2014 nicht was andere wollen? Schreiben Sie es auf, ohne zu zensieren.",
-        "K\u00f6rper aktivieren: Stehen Sie auf. Bewegen Sie sich f\u00fcr zehn Minuten. Der Typ 9 verliert sich oft im Kopf anderer \u2014 der K\u00f6rper holt Sie zu sich zur\u00fcck.",
-        "Eine Meinung \u00e4u\u00dfern: Sagen Sie heute in einer Situation, was Sie wirklich denken \u2014 auch wenn es unbequem ist. Nur einmal. Das ist \u00dcbung, kein Ultimatum."
-      ]},
-      { id:"konflikt", label:"Unvermeidlicher Konflikt", emoji:"\ud83c\udf0a", schritte:[
-        "Abstand-Kurzpause: Gehen Sie in eine ruhige Ecke f\u00fcr f\u00fcnf Minuten. Nicht um auszuweichen \u2014 um sich zu sammeln, bevor Sie reagieren.",
-        "Position finden: Was ist Ihr eigener Standpunkt in dieser Sache \u2014 unabh\u00e4ngig davon, was Harmonie erfordern w\u00fcrde? Benennen Sie ihn f\u00fcr sich.",
-        "Sanft aber klar: Sprechen Sie Ihre Position aus \u2014 in ruhigem Ton, aber ohne sie wegzur\u00e4umen. &bdquo;Ich sehe das anders: ...&ldquo; Zweimal \u00fcben, dann sagen."
-      ]},
-      { id:"blockade", label:"Innere Blockade & Tr\u00e4gheit", emoji:"\ud83d\udc22", schritte:[
-        "Zwei-Minuten-Regel: W\u00e4hlen Sie eine einzige Aufgabe, die Sie vermeiden. Beginnen Sie sie f\u00fcr genau zwei Minuten. Nur das. Nicht fertig werden \u2014 anfangen.",
-        "Motivation von innen: Was w\u00fcrden Sie gern f\u00fcr sich selbst erreichen \u2014 nicht f\u00fcr andere, nicht f\u00fcr den Frieden? Was w\u00e4re Ihnen wichtig, wenn es niemanden sonst g\u00e4be?",
-        "Kleiner sichtbarer Schritt: Tun Sie eine konkrete, sichtbare Sache \u2014 etwas, das einen Unterschied macht. Keine gro\u00dfe Vision, ein echter kleiner Schritt heute."
-      ]},
-    ],
-  };
-
-  const col = krisenState.typNr ? typeColors[krisenState.typNr] : "var(--copper)";
-
-  // Schritt 3: Protokoll anzeigen
-  if (krisenState.typNr && krisenState.krisenId) {
-    const krise = KRISEN[krisenState.typNr].find(k => k.id === krisenState.krisenId);
-    return shell(`
-      ${pageHeader("krisenkompass")}
-      <section class="narrow">
-        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">\u2190 Neue Situation</button>
-        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr} &middot; ${krise.emoji}</p>
-        <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${krise.label}</h1>
-        <p style="font-size:.88rem;color:var(--muted);margin-bottom:1.8rem;">Drei konkrete Schritte f&uuml;r <strong style="color:${col};">${typeNames[krisenState.typNr]}</strong> in dieser Situation.</p>
-
-        ${krise.schritte.map((s, i) => `
-        <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.2rem;padding:1rem 1.2rem;background:color-mix(in srgb, ${col} 5%, var(--paper));border-radius:10px;border-left:4px solid ${col};">
-          <div style="min-width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:700;flex-shrink:0;">${i+1}</div>
-          <p style="font-size:.92rem;line-height:1.7;color:var(--ink);margin:0;">${s}</p>
-        </div>`).join("")}
-
-        <div style="background:color-mix(in srgb, ${col} 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-top:1.5rem;font-size:.85rem;line-height:1.7;color:var(--ink);">
-          <strong style="color:${col};">Wichtig:</strong> Diese Schritte ersetzen keine professionelle Begleitung. Sie sind ein erster Impuls, um aus der akuten Starre herauszukommen.
-        </div>
-
-        <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
-          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .75rem;">Andere Situationen f&uuml;r Typ ${krisenState.typNr}</p>
-          <div style="display:flex;flex-direction:column;gap:.5rem;">
-            ${KRISEN[krisenState.typNr].filter(k => k.id !== krisenState.krisenId).map(k => `
-            <button data-krisen-id="${k.id}" style="text-align:left;padding:.7rem 1rem;border:1px solid var(--line);border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--ink);cursor:pointer;">
-              ${k.emoji} ${k.label}
-            </button>`).join("")}
-          </div>
-        </div>
-        ${relatedLinks([
-          {route:"situationskompass", label:"Situationskompass"},
-          {route:"practice", label:"Werkzeuge"},
-          {route:"beziehungen", label:"Beziehungskompass"},
-        ])}
-      </section>
-    `);
-  }
-
-  // Schritt 2: Krisensituation w\u00e4hlen
-  if (krisenState.typNr) {
-    return shell(`
-      ${pageHeader("krisenkompass")}
-      <section class="narrow">
-        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">\u2190 Typ wechseln</button>
-        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr}</p>
-        <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${typeNames[krisenState.typNr]}</h1>
-        <p style="font-size:.95rem;color:var(--muted);margin-bottom:1.8rem;">Was beschreibt Ihre aktuelle Situation am besten?</p>
-        <div style="display:flex;flex-direction:column;gap:.75rem;">
-          ${KRISEN[krisenState.typNr].map(k => `
-          <button data-krisen-id="${k.id}" style="
-            text-align:left;padding:1rem 1.2rem;
-            border:2px solid var(--line);border-radius:12px;
-            background:var(--paper);cursor:pointer;
-            transition:border-color .15s, background .15s;">
-            <span style="font-size:1.1rem;margin-right:.6rem;">${k.emoji}</span>
-            <span style="font-size:.95rem;font-weight:600;color:var(--ink);">${k.label}</span>
-          </button>`).join("")}
-        </div>
-      </section>
-    `);
-  }
-
-  // Schritt 1: Typ w\u00e4hlen
-  return shell(`
-    ${pageHeader("krisenkompass")}
-    <section class="narrow">
-      <p class="eyebrow">Praxis &middot; Krisenkompass</p>
-      <h1>Krisenkompass</h1>
-      <p class="lead-small">Sie stecken gerade in einer schwierigen Situation? W&auml;hlen Sie Ihren Enneagrammtyp &mdash; und erhalten Sie sofort drei konkrete Schritte, die genau zu Ihrem Muster passen.</p>
-
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1.8rem;">
-        ${Object.entries(typeNames).map(([nr, name]) => {
-          const c = typeColors[nr];
-          return `
-          <button data-krisen-typ="${nr}" style="
-            padding:1rem .75rem;border-radius:12px;
-            background:color-mix(in srgb, ${c} 7%, var(--paper));
-            border:2px solid color-mix(in srgb, ${c} 25%, var(--line));
-            cursor:pointer;text-align:center;transition:border-color .15s;">
-            <span style="display:block;font-size:1.4rem;font-weight:800;color:${c};line-height:1;">${nr}</span>
-            <span style="display:block;font-size:.65rem;color:var(--ink);margin-top:.35rem;line-height:1.3;">${name}</span>
-          </button>`;
-        }).join("")}
-      </div>
-
-      <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
-        Der Krisenkompass zeigt keine Diagnosen und ersetzt keine Therapie. Er gibt typspezifische Impulse f&uuml;r den ersten Schritt aus einer akuten Starre heraus.
-      </div>
-      ${relatedLinks([
-        {route:"situationskompass", label:"Situationskompass"},
-        {route:"practice", label:"Werkzeuge"},
-        {route:"beziehungen", label:"Beziehungskompass"},
       ])}
     </section>
   `);

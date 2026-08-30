@@ -414,6 +414,7 @@ function johnnyCashPortraitPage() {
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
       ])}
     </div>
   `);
@@ -1541,6 +1542,75 @@ function penelopeCruzPortraitPage() {
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function norahJonesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-norah-jones-portrait.jpg" alt="Norah Jones" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Norah Jones</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin &amp; Songwriterin, geb. 1979 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit, und das sich mit Leichtigkeit verwandelt, wenn die Umgebung es verlangt. Norah Jones wuchs nach der Trennung ihrer Eltern 1986 bei ihrer Mutter in Grapevine, Texas auf, weitgehend getrennt von ihrem berühmten Vater, dem Sitar-Virtuosen Ravi Shankar. Mit sechzehn Jahren nahm sie – mit Zustimmung ihrer Eltern – den Namen Norah Jones an, statt unter ihrem eigentlichen Nachnamen aufzutreten.</p>
+          <p class="vb-intro">Diese frühe Entscheidung ist bereits reine SE3-Logik: Statt vom Glanz eines berühmten Namens zu profitieren, wählte sie den unauffälligeren Weg – ihre eigene Kompetenz sollte für sich sprechen, nicht die Herkunft. Der Waschbär, der sich lieber eine eigene, unscheinbare Nische baut, als im Schatten eines bereits etablierten Reviers zu leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Erfolg, der nicht überwältigen darf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie zeigt am wenigsten von dem, was man landläufig mit dem Bild der Drei verbindet. Statt Selbstinszenierung sucht sie Sicherheit über nachweisbare Kompetenz und ein solides, unspektakuläres Fundament. Als ihr Debütalbum ›Come Away with Me‹ (2002) über 27 Millionen Mal verkauft und mit acht Grammys ausgezeichnet wurde, äußerte Jones offen ihre Sorge, dass dieser plötzliche Ruhm sie „verschlingen" könnte – gerade weil die Medien bereits stark auf ihren berühmten Vater fixiert waren und sie fürchtete, in dieser Aufmerksamkeit als eigenständige Person unterzugehen.</p>
+          <p class="vb-intro">„Der Ruhm kam zu schnell. Es fühlte sich verrückt an", sagte sie rückblickend über diese Zeit. Statt den Erfolg auszukosten und zu vergrößern, wie es eine sozial oder sexuell orientierte Drei vielleicht getan hätte, reagierte sie mit Rückzug und bewusster Verlangsamung – die SE3 sichert sich ab, statt sich der Bühne weiter auszusetzen.</p>
+          <p class="vb-intro">Auch ihr Privatleben hält sie bis heute konsequent aus der Öffentlichkeit heraus: Sie lebt mit einem Musiker-Partner und ihren beiden Söhnen, ohne deren Namen, ihren Beziehungsstatus oder ihren Wohnort öffentlich zu machen. Der Waschbär baut sein Nest dort, wo niemand hinsieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Viele Masken, eine Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine künstlerische Tiefe, die über reine Funktionalität hinausgeht: das Bedürfnis, sich nicht nur kompetent, sondern auch individuell und emotional ehrlich auszudrücken – notfalls unter einem anderen Namen, wenn der eigene zu groß und zu belastet geworden ist. Genau das tat Jones 2008 mit dem Nebenprojekt El Madmo: Unter dem Bühnennamen „Maddie", mit grellem Glam-Make-up, Perücke und Kostüm, spielte sie Gitarre und sang in einem kleinen, theatralischen Trio – unerkannt, befreit von den Erwartungen, die der Name „Norah Jones" mittlerweile trug.</p>
+          <p class="vb-intro">Diese Lust an der Verwandlung zieht sich durch ihre gesamte Karriere: die Alt-Country-Band The Little Willies, das feministisch-lässige Trio Puss n Boots, ein Everly-Brothers-Tribut mit Billie Joe Armstrong – kaum ein anderes Nebenprojekt-Portfolio zeigt so deutlich, wie der Viererflügel der SE3 hilft, unter wechselnden Masken immer wieder zur eigenen künstlerischen Wahrheit zurückzufinden, statt sich in einer einzigen, kommerziell bewährten Formel zu erschöpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Verwandlungskünstlerin: Genre als Werkzeug, nicht als Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Waschbär trägt eine natürliche Maske – und genau das beschreibt Jones' musikalischen Weg treffend: Statt den einmal gefundenen Jazz-Pop-Sound von ›Come Away with Me‹ endlos zu wiederholen, bewegte sie sich in den folgenden Jahrzehnten durch Country, Folk, Blues und Americana, arbeitete mit Musikern wie Willie Nelson, Dolly Parton und den Foo Fighters zusammen und veröffentlichte 2020 mit ›Pick Me Up Off the Floor‹ ein deutlich introspektiveres, düstereres Album.</p>
+          <p class="vb-intro">Das ist keine Zurschaustellung von Vielseitigkeit als Selbstzweck, sondern die SE3-Logik in ihrer klarsten Ausprägung: Kompetenz beweist sich durch das fertige Werk, nicht durch die Ankündigung eines neuen Images. Jones spricht selten ausführlich über ihre kreativen Beweggründe – sie liefert stattdessen das Album und lässt es für sich sprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, außergewöhnlichen frühen Erfolg nicht zur Bühne für Selbstinszenierung zu machen, sondern zum Ausgangspunkt für eine lange, künstlerisch vielseitige Karriere – neun Grammy Awards, über 50 Millionen verkaufte Alben und ein musikalisches Werk, das sich konsequent weiterentwickelt hat, statt sich auf dem ersten großen Erfolg auszuruhen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber nicht abwesend: das Bedürfnis, durch reine Zurückhaltung und Bescheidenheit unangreifbar zu erscheinen. Der beharrliche Rückzug aus dem Rampenlicht kann selbst zur eigenen Art von Kontrolle über das öffentliche Bild werden – „Ich rede nicht über mich" ist am Ende auch eine bewusst gewählte Aussage über sich selbst.</p>
+          <p class="vb-intro">Der Viererflügel bringt sein eigenes Schattenmuster mit: die Sorge, ohne ständige künstlerische Neuerfindung – ohne das nächste Nebenprojekt, die nächste Maske – in der eigenen musikalischen Identität zu erstarren oder auf einen einzigen frühen Erfolg reduziert zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Verstecken zum bewussten Zeigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – unabhängig davon, was ich vorweisen kann.</em> Für die SE3w4 bedeutet das, den eigenen Wert nicht länger über neue Verkleidungen oder das nächste Genre-Experiment absichern zu müssen.</p>
+          <p class="vb-intro">Jones' spätere, introspektivere Alben wie ›Pick Me Up Off the Floor‹ zeigen einen leisen, aber deutlichen Schritt in diese Richtung: mehr direkte emotionale Offenheit, weniger Versteckspiel hinter Genre-Wechseln. Der Waschbär, der irgendwann nicht mehr jede Nische füllen und jede Maske tragen muss, um sich seines Wertes sicher zu sein – sondern der eigenen Stimme trauen kann, auch ohne Verkleidung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
       ])}
     </div>
   `);
@@ -10276,183 +10346,6 @@ function claudeDebussyKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Auftreten"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
-      ])}
-    </div>
-  `);
-}
-
-function johnWayneKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-john-wayne-portrait.jpg" alt="John Wayne" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">John Wayne</p>
-        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel · 1907–1979</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Krokodil</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>John Wayne</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-john-wayne">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Diese Seite vertieft ein Kapitel, das dort nicht zur Sprache kommt: eine
-        Lungenkrebs-Erkrankung 1964, die Wayne öffentlich zum Kampf erklärte, und eine zweite,
-        tödliche Krebsdiagnose 1979.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wayne</strong> ist der <strong>sexuellen Acht mit Siebenerflügel</strong>
-        zugeordnet. Die SX8 lebt ihre Intensität ungefiltert und körperlich aus – sie sucht
-        nicht die diplomatische Mitte, sondern den vollen, unmittelbaren Ausdruck von Kraft und
-        Willen. Der Siebenerflügel bringt zusätzlichen Schwung und die Weigerung hinzu,
-        innezuhalten – ein Muster, das sich bis in Waynes öffentlich inszenierten Kampf gegen
-        die eigene Krankheit nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Jahrzehntelanges starkes Rauchen:</strong>
-        Wayne rauchte über Jahrzehnte hinweg bis zu sechs Packungen Zigaretten pro Tag – ein
-        Konsum, der sein Krebsrisiko drastisch erhöhte, den er aber lange nicht als Bedrohung
-        behandelte.</p>
-        <p class="vb-intro"><strong>b) Diagnose im September 1964:</strong>
-        1964 wurde bei Wayne Lungenkrebs diagnostiziert. Sein linker Lungenflügel sowie zwei
-        Rippen mussten in einer aufwendigen Operation entfernt werden.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Erklärung des Kampfes:</strong>
-        Statt die Diagnose zu verbergen, ging Wayne 1965 mit ihr an die Öffentlichkeit und
-        bezeichnete seinen Kampf gegen die Krankheit als „The Big C" – Krebs sollte, wie jeder
-        andere Gegner in seinen Filmen, direkt benannt und bekämpft werden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Rückkehr vor die Kamera trotz eines Lungenflügels:</strong>
-        Bereits wenige Monate nach der schweren Operation kehrte Wayne zu Dreharbeiten zurück –
-        mit deutlich eingeschränkter Lungenkapazität, aber ohne öffentlich sichtbare
-        Einschränkung seiner Rollenwahl.</p>
-        <p class="vb-intro"><strong>b) Eine Symbolfigur für Krebsaufklärung:</strong>
-        Waynes offener Umgang mit seiner Diagnose machte ihn zu einem der bekanntesten
-        öffentlichen Gesichter im Kampf gegen Krebs in den USA der 1960er- und 1970er-Jahre –
-        er engagierte sich aktiv für Aufklärungsarbeit.</p>
-        <p class="vb-intro"><strong>c) Fortgesetzte körperliche Schwerstarbeit im Film:</strong>
-        Auch nach der Operation drehte Wayne weiter körperlich fordernde Western- und
-        Actionrollen, oft mit sichtbarer Anstrengung, aber ohne die Rollenauswahl grundlegend
-        zu ändern.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fünfzehn Jahre nach der ersten Diagnose:</strong>
-        Nach der Lungenkrebs-Operation 1964 lebte Wayne fünfzehn weitere Jahre, in denen er
-        seine Filmkarriere fortsetzte, darunter seinen einzigen Oscar-gewinnenden Auftritt in
-        „True Grit" (1969).</p>
-        <p class="vb-intro"><strong>b) Eine zweite Krebsdiagnose im Januar 1979:</strong>
-        Im Januar 1979 wurde bei Wayne Magenkrebs diagnostiziert. Bei der folgenden Operation
-        wurde sein gesamter Magen entfernt.</p>
-        <p class="vb-intro"><strong>c) Tod am 11. Juni 1979:</strong>
-        Wayne starb im Alter von 72 Jahren im UCLA Medical Center an den Folgen der
-        Magenkrebs-Erkrankung – knapp fünf Monate nach der zweiten Diagnose.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein öffentlicher Kampf, der zum Vorbild wurde:</strong>
-        Waynes Offenheit über seine erste Krebserkrankung ermutigte viele andere Betroffene,
-        ihre eigene Diagnose nicht länger zu verschweigen – ein seltener Fall, in dem
-        Offenheit statt Verbergung das prägende Muster war.</p>
-        <p class="vb-intro"><strong>b) Zwei Krebsarten, ein Lebensstil:</strong>
-        Sowohl der Lungen- als auch der spätere Magenkrebs stehen im Zusammenhang mit
-        Waynes jahrzehntelangem, intensivem Tabakkonsum – ein Risiko, das er trotz der ersten
-        Diagnose nie grundlegend änderte.</p>
-        <p class="vb-intro"><strong>c) Eine Karriere, die bis zuletzt weiterging:</strong>
-        Wayne drehte seinen letzten Film, „The Shootist" – bezeichnenderweise über einen
-        todkranken Revolverhelden –, erst 1976, drei Jahre vor seinem Tod.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Krebs als benannter Gegner:</strong>
-        Wo andere Prominente ihre Erkrankung verbargen, benannte Wayne seinen Krebs explizit
-        als Feind, den es zu besiegen galt – die sexuelle Acht, die Bedrohung nicht meidet,
-        sondern direkt konfrontiert, auch wenn der Gegner der eigene Körper ist.</p>
-        <p class="vb-intro"><strong>b) Der Siebenerflügel als Antrieb zur schnellen Rückkehr:</strong>
-        Die rasche Rückkehr vor die Kamera nach der Lungenoperation zeigt den Siebenerflügel in
-        Reinform: Stillstand war für Wayne keine Option, selbst mit nur noch einem
-        Lungenflügel.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Stärke als Fortsetzung der Leinwandfigur:</strong>
-        Der Kampf gegen „The Big C" wurde von der Öffentlichkeit fast wie eine Fortsetzung
-        seiner Filmrollen wahrgenommen – der Duke, der auch der eigenen Sterblichkeit die
-        Stirn bot.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Fünfzehn Jahre zwischen erster Diagnose und Tod:</strong>
-        Von der Lungenkrebs-Diagnose 1964 bis zu seinem Tod 1979 lebte Wayne fünfzehn Jahre mit
-        dem Wissen um die eigene Sterblichkeit – ohne sein öffentliches Leben oder seine
-        Rollenwahl grundlegend zu verändern.</p>
-        <p class="vb-intro"><strong>b) Konfrontation statt Verbergung als durchgehendes Muster:</strong>
-        Anders als Karl Lagerfeld (SO3w4) oder Michael Jackson (SO4w3), die ihre Krankheit
-        hinter einer makellosen Fassade verbargen, machte Wayne seine Diagnose öffentlich und
-        stilisierte sie zu einem weiteren Kampf, den es zu gewinnen galt – die sexuelle Acht,
-        die Bedrohung nicht versteckt, sondern benennt.</p>
-        <p class="vb-intro"><strong>c) Zwei verschiedene Organe, derselbe Lebensstil:</strong>
-        Dass sowohl Lunge als auch Magen betroffen waren, verweist auf denselben
-        zugrundeliegenden Risikofaktor – ein Lebensstil, der auf Intensität statt auf
-        Mäßigung ausgerichtet war, auch nach der ersten Warnung.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet zwei aufeinanderfolgende Krebserkrankungen?</strong>
-        Für eine sexuelle Acht mit Siebenerflügel, deren gesamtes Selbstverständnis auf
-        ungebremster Intensität und Tempo beruht, liegt eine Deutung nahe: Der Körper, der
-        jahrzehntelang ohne Mäßigung beansprucht wurde, meldete sich gleich zweimal – und
-        Wayne begegnete beiden Malen mit derselben direkten Konfrontation, nie mit Rückzug
-        oder Mäßigung. Diese Deutung ist eine plausible Interpretation, kein belegter
-        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Acht zwangsläufig zu Krebserkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Waynes Erkrankungen sind zudem eng mit einem klassischen Risikofaktor verbunden
-        (jahrzehntelanges starkes Rauchen), nicht rein psychosomatisch zu erklären. Was sich an
-        seinem Fall zeigen lässt, ist ein Muster im öffentlichen Umgang mit eigener Krankheit,
-        das bei einer ausgeprägten sexuellen Acht mit Siebenerflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Wayne kannte sein eigenes Muster nicht – die sexuelle Acht mit Siebenerflügel begegnet
-        Bedrohung mit direkter Konfrontation und ungebremstem Tempo, und genau das ließ ihn
-        trotz der ersten Krebsdiagnose seinen intensiven Lebensstil im Kern unverändert
-        fortsetzen, statt grundlegend gegenzusteuern. Wer das eigene Muster, jede Bedrohung
-        körperlich niederzuringen statt sie zum Anlass für Mäßigung zu nehmen, nicht kennt,
-        riskiert, dass derselbe Gegner ein zweites Mal zurückkehrt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Waynes</strong> sexuelle Acht mit
-        Siebenerflügel noch einmal ablesen: eine öffentlich ausgetragene erste Krebsschlacht
-        1964, fünfzehn weitere Lebensjahre in unverändertem Tempo, und eine zweite,
-        tödliche Diagnose 1979, die er mit derselben direkten Haltung annahm wie die erste.
-        Das Krokodil, das „The Big C" wie jeden anderen Gegner beim Namen nannte – und das am
-        Ende zweimal antreten musste, um denselben Kampf zu führen.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-john-wayne", label:"Porträt: John Wayne (SX8w7) – Lebenswerk"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
       ])}
     </div>
   `);

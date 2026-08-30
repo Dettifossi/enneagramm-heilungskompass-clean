@@ -1,3 +1,360 @@
+function wadeWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Wade Wilson \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/wade-wilson-portrait.jpg" alt="Wade Wilson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wade Wilson</p>
+        <p class="krim-portrait-typ">SO3w4 \u00b7 Sozialer Typ 3 mit Viererfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienm\u00f6rder, Florida \u00b7 Tierentsprechung: Gepard</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Wade Wilson</strong>, geboren am 26. August 1996 in Florida,
+        wurde im Oktober 2024 nach einem der meistbeachteten Strafprozesse
+        des Jahres in den USA zum Tode verurteilt. Am 5. Oktober 2019
+        t\u00f6tete er in Cape Coral zwei Frauen in derselben Nacht:
+        Kristine Melton (35) und Diane Ruiz (43). Er hatte beide
+        an jenem Abend kennengelernt. Die Morde wurden als kaltbl\u00fctig
+        und zielgerichtet beschrieben; Wilson zeigte keinerlei Anzeichen
+        von Panik oder Reue. Was den Fall dar\u00fcber hinaus in die Schlagzeilen
+        brachte, war Wilsons Verhalten w\u00e4hrend des gesamten Gerichtsverfahrens:
+        Er lachte, grimassierte, schien die Aufmerksamkeit sichtlich
+        zu genie\u00dfen \u2013 und wirkte zu keinem Zeitpunkt wie jemand,
+        der sich in einer existenziell bedrohlichen Situation befindet.
+        Das Gericht sprach ihn in beiden F\u00e4llen schuldig.
+        Das Todesurteil wurde im Oktober 2024 verk\u00fcndet.
+        Wilson wurde 28 Jahre alt, als das Urteil fiel.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wade Wilson</strong> wird dem <strong>Sozialen Typ 3 mit Viererfl\u00fcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> \u2013
+        nicht im flachen Sinne von Egoismus, sondern als tiefes strukturelles Bed\u00fcrfnis,
+        durch Leistung, Bild und Wirkung auf andere zu existieren.
+        Der Soziale Subtyp (SO3) ist der Verst\u00e4rkungstyp der Drei: Er verst\u00e4rkt
+        die Kernleidenschaft der Eitelkeit am deutlichsten \u2013 er richtet
+        sie auf Status innerhalb einer Gruppe, auf Ansehen, Bewunderung
+        und die Frage, wie man auf der sozialen B\u00fchne wahrgenommen wird.
+        Der Viererfl\u00fcgel verleiht dieser Orientierung Intensit\u00e4t und eine
+        Sehnsucht nach Einzigartigkeit: Nicht nur erfolgreich sein,
+        sondern unverwechselbar, besonders, anders als alle anderen.
+        Bei Wilson entfaltete sich diese Konstellation in extremster Form:
+        Der Gerichtssaal wurde zur B\u00fchne, das Verfahren zum Auftritt,
+        die eigene Verurteilung zum Beweis seiner Besonderheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Kalkuliert und b\u00fchnengewandt:</strong>
+        <strong>Wilsons</strong> Blick im Gerichtssaal war kein Blick
+        der Angst oder Scham \u2013 er war der Blick
+        eines Performers, der sein Publikum kennt.
+        Er schaute in Kameras, beobachtete Zuschauerreaktionen,
+        spielte mit Mimik und Timing.
+        Das SO3w4-Muster unverfälscht: Die soziale Drei liest
+        R\u00e4ume blitzschnell und wei\u00df intuitiv,
+        wie sie wirkt. Wilson nutzte diese F\u00e4higkeit,
+        um aus einem Mordprozess eine One-Man-Show zu machen.</p>
+        <p class="vb-intro"><strong>b) Ohne Angst vor dem Urteil der Anderen:</strong>
+        Wo die meisten Angeklagten im Bewusstsein der
+        gesellschaftlichen Verurteilung zusammenbrechen,
+        schien <strong>Wilson</strong> durch sie gest\u00e4rkt.
+        Das ist das paradoxe Muster des SO3w4 in der Desintegration:
+        Wenn positives Ansehen unerreichbar wird,
+        wird negatives Ansehen zur Alternative.
+        Ber\u00fcchtigt zu sein ist besser als unsichtbar zu sein.
+        Aufmerksamkeit um jeden Preis ist besser als keine.</p>
+        <p class="vb-intro"><strong>c) Intensiv und unberechenbar:</strong>
+        Der Viererfl\u00fcgel verleiht dem Blick der Drei
+        eine emotionale Tiefe, die schwer einzuordnen ist.
+        <strong>Wilson</strong> wirkte nicht kalt im klinischen Sinne \u2013
+        er wirkte pr\u00e4sent, engagiert, seltsam lebendig.
+        Diese Qualit\u00e4t irritierte Beobachter mehr
+        als Gleichg\u00fcltigkeit es getan h\u00e4tte:
+        Jemand, der offensichtlich etwas f\u00fchlt,
+        aber nicht das, was man erwartet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Gerichtssaal als B\u00fchne:</strong>
+        <strong>Wilsons</strong> Verhalten w\u00e4hrend des Prozesses
+        war in seiner Konsequenz ungew\u00f6hnlich:
+        Er lachte, machte Grimassen, schien die Aufmerksamkeit
+        der Medien und des Publikums zu suchen.
+        Das ist das SO3-Muster: Die soziale Drei braucht
+        ein Publikum, eine B\u00fchne, Resonanz.
+        Dass der Kontext ein Mordprozess war,
+        \u00e4nderte an dieser Grundstruktur offenbar nichts \u2013
+        der B\u00fchneninstinkt \u00fcberlagerte die Situation.</p>
+        <p class="vb-intro"><strong>b) Einzigartigkeit als Identit\u00e4tskern:</strong>
+        Der Viererfl\u00fcgel der Drei tr\u00e4gt eine tiefe Sehnsucht
+        nach Unverwechselbarkeit: nicht nur gut sein,
+        sondern anders sein, tiefer, intensiver,
+        jenseits der Kategorie der Gew\u00f6hnlichen.
+        <strong>Wilson</strong> schien sich im Prozess tats\u00e4chlich
+        als etwas Besonderes zu erleben \u2013
+        nicht als Verbrecher im moralischen Sinne,
+        sondern als jemanden, der durch sein Handeln
+        aus der Masse herausgetreten ist.</p>
+        <p class="vb-intro"><strong>c) K\u00e4lte als Performanz:</strong>
+        Die emotionale Distanz, die <strong>Wilson</strong>
+        gegen\u00fcber seinen Opfern zeigte,
+        war keine psychopathische Leere \u2013
+        sie war Ausdruck einer Drei, die gelernt hat,
+        Gef\u00fchle im Dienst des Auftritts zu steuern.
+        Die Drei trennt konsequent zwischen Innen und Au\u00dfen.
+        F\u00fcr den SO3w4 wird diese Trennung zur Waffe:
+        Wer kontrolliert, was er zeigt,
+        bestimmt, wie er wahrgenommen wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Blitzschnelle Situationsanalyse:</strong>
+        Die Drei \u2013 besonders in der sozialen Variante \u2013
+        liest soziale R\u00e4ume au\u00dfergew\u00f6hnlich schnell.
+        <strong>Wilson</strong> zeigte diese F\u00e4higkeit nicht nur im
+        Gerichtssaal: Die Taten selbst, zwei Morde
+        in einer einzigen Nacht mit zwei verschiedenen
+        Personen, zeugen von einer Handlungsgeschwindigkeit
+        und situativen Anpassungsf\u00e4higkeit,
+        die f\u00fcr einen 23-J\u00e4hrigen ungew\u00f6hnlich ist.</p>
+        <p class="vb-intro"><strong>b) Anpassung ohne innere Bindung:</strong>
+        Die Drei passt sich an \u2013 nicht aus Schw\u00e4che,
+        sondern weil Anpassung ihr strategisches Instrument ist.
+        <strong>Wilson</strong> konnte in einer einzigen Nacht
+        mit zwei verschiedenen Frauen Kontakt aufnehmen,
+        Vertrauen erzeugen und dann t\u00f6ten.
+        Das setzt eine F\u00e4higkeit voraus,
+        Rollen zu \u00fcbernehmen und zu verlassen,
+        ohne daran emotional zu h\u00e4ngen \u2013
+        das klassische Dreier-Muster in seiner dunkelsten Form.</p>
+        <p class="vb-intro"><strong>c) Der Viererfl\u00fcgel als dramatisches Gewissen:</strong>
+        Wo eine Drei mit schwach ausgepr\u00e4gtem Viererfl\u00fcgel pragmatisch und n\u00fcchtern bleibt,
+        bringt der Viererfl\u00fcgel eine dramatische Innenwelt mit.
+        Der SO3w4er ist kein blo\u00dfer Opportunist \u2013
+        er hat ein inneres Narrativ \u00fcber sich selbst,
+        das mit Bedeutung, Tiefe und Intensit\u00e4t aufgeladen ist.
+        <strong>Wilsons</strong> Gerichtsverhalten l\u00e4sst vermuten,
+        dass er sich selbst als Protagonisten einer
+        bedeutsamen Geschichte erlebte \u2013
+        nicht als T\u00e4ter, der zur Verantwortung gezogen wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Faszination statt Abscheu:</strong>
+        Viele Beobachter des Prozesses berichteten,
+        dass <strong>Wilsons</strong> Verhalten sie trotz allem
+        in den Bann zog \u2013 nicht aus Sympathie,
+        sondern aus Unverst\u00e4ndnis.
+        Das ist die Wirkung des SO3w4 auf ein Publikum:
+        Er ist nicht leicht einzuordnen,
+        nicht leicht wegzuschauen, nicht leicht zu vergessen.
+        Die Drei ist ein Performer; der Viererfl\u00fcgel sorgt daf\u00fcr,
+        dass der Auftritt nicht glatt ist, sondern st\u00f6rend sch\u00f6n.</p>
+        <p class="vb-intro"><strong>b) Mediale Pr\u00e4senz als Triumph:</strong>
+        <strong>Wilson</strong> wurde durch den Prozess international bekannt.
+        F\u00fcr den SO3 ist Bekanntheit W\u00e4hrung \u2013
+        unabh\u00e4ngig von ihrer moralischen Qualit\u00e4t.
+        Das Urteil brachte ihm mehr Aufmerksamkeit
+        als jede andere Handlung seines bisherigen Lebens.
+        In der verdrehten Logik des desintegrierten SO3
+        k\u00f6nnte das als Erfolg erscheinen.</p>
+        <p class="vb-intro"><strong>c) Todesurteil als letzter Auftritt:</strong>
+        Die Verk\u00fcndung des Todesurteils
+        schien <strong>Wilson</strong> nicht zu ersch\u00fcttern.
+        Das ist das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
+        Selbst das eigene Ende wird zum Inhalt
+        des Narrativs \u00fcber sich selbst \u2013
+        als letzte Best\u00e4tigung, dass man
+        etwas Ungew\u00f6hnliches war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Elektrisierende Gegenwart:</strong>
+        <strong>Wilsons</strong> Energie im Gerichtssaal
+        wurde von Journalisten und Zuschauern
+        \u00fcbereinstimmend als beunruhigend lebendig beschrieben.
+        Nicht aggressiv, nicht eingesch\u00fcchtert \u2013
+        sondern wach, reaktionsschnell, scheinbar am\u00fcsiert.
+        Der SO3w4er bringt eine elektrisierende Qualit\u00e4t mit,
+        die Aufmerksamkeit auf sich zieht,
+        ohne aktiv darum zu werben.</p>
+        <p class="vb-intro"><strong>b) Keine sichtbare Ersch\u00f6pfung:</strong>
+        Ein Mordprozess dauert Wochen.
+        Die meisten Angeklagten wirken im Laufe der Zeit
+        zunehmend ersch\u00f6pft und abgenutzt.
+        <strong>Wilson</strong> schien im Gegenteil zu wachsen \u2013
+        als w\u00fcrde die Aufmerksamkeit ihm Energie geben.
+        Das ist die Drei, die ihren Energiehaushalt
+        \u00fcber Au\u00dfenwirkung reguliert:
+        Resonanz ist Nahrung; B\u00fchne ist Erholung.</p>
+        <p class="vb-intro"><strong>c) Leerstelle hinter dem Auftritt:</strong>
+        Wer genau hinsah, bemerkte hinter der B\u00fchnenpr\u00e4senz
+        eine eigenartige Hohlheit \u2013 nicht Leere im Sinne von Gef\u00fchllosigkeit,
+        sondern das Fehlen eines inneren Kerns,
+        der unabh\u00e4ngig vom Publikum existiert.
+        Das ist das tiefste Muster der Drei:
+        Sie wei\u00df oft selbst nicht,
+        wer sie ist, wenn niemand zuschaut.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro"><strong>a) Gebaut f\u00fcr maximale Wirkung:</strong>
+        Der Gepard ist das schnellste Landtier der Welt \u2013
+        und gleichzeitig eines der elegantesten.
+        Sein K\u00f6rper ist vollst\u00e4ndig auf Leistung ausgerichtet:
+        Schlankheit, Wendigkeit, explosiver Antritt.
+        <strong>Wilson</strong> besa\u00df dieselbe Qualit\u00e4t
+        der optimierten Wirkung: jung, gewandt, scheinbar m\u00fchelos
+        pr\u00e4sent. Die SO3-Energie ist Energie der
+        sichtbaren Exzellenz \u2013 der Gepard verk\u00f6rpert sie
+        in ihrer reinsten tierischen Form.</p>
+        <p class="vb-intro"><strong>b) Der Angriff aus dem Nichts:</strong>
+        Der Gepard pirscht sich nicht langsam an \u2013
+        er wartet auf den richtigen Moment
+        und explodiert dann in Bewegung.
+        Zwischen Stille und Vollgeschwindigkeit
+        liegen Sekunden.
+        <strong>Wilsons</strong> Taten hatten dieselbe Struktur:
+        normaler Abend, sozialer Kontakt, Vertrauen \u2013
+        und dann, unvermittelt, die Tat.
+        Die Drei handelt, wenn der Moment stimmt.
+        Z\u00f6gern ist nicht ihr Muster.</p>
+        <p class="vb-intro"><strong>c) Sch\u00f6nheit, die nicht sch\u00fctzt:</strong>
+        Der Gepard ist trotz seiner \u00fcberlegenen Geschwindigkeit
+        kein Apex-Raubtier: Er verliert Beute an L\u00f6wen,
+        Hy\u00e4nen, sogar Geier. Seine St\u00e4rke ist situativ,
+        nicht absolut. Auch <strong>Wilson</strong> war in der
+        Au\u00dfenwirkung \u00fcberlegen \u2013 im Gerichtssaal, vor Kameras,
+        in kurzen sozialen Begegnungen.
+        Aber das System, das gr\u00f6\u00dfer ist als der Einzelne \u2013
+        Justiz, Gesellschaft, Zeit \u2013
+        holte ihn dennoch ein.
+        Der Gepard gewinnt den Sprint;
+        das Leben ist ein Ausdauerrennen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Wade Wilson</strong> verk\u00f6rpert den Sozialen Typ 3 mit Viererfl\u00fcgel
+        in einer Auspr\u00e4gung, die das Muster der Drei
+        bis an seine \u00e4u\u00dferste Grenze f\u00fchrt.
+        Die soziale Drei braucht ein Publikum,
+        um sich selbst zu erleben \u2013 und Wilson fand es,
+        wo niemand erwartet h\u00e4tte, dass jemand danach sucht:
+        im Gerichtssaal, im Angesicht des Todesurteils.
+        Der Viererfl\u00fcgel sorgte daf\u00fcr, dass die Geschichte
+        mit dramatischer Bedeutung aufgeladen war \u2013
+        nicht als Trag\u00f6die im empathischen Sinn,
+        sondern als intensiver Beweis der eigenen Einzigartigkeit.
+        Wilson ist kein Beweis f\u00fcr die B\u00f6swilligkeit der Drei.
+        Er ist ein Extremfall dessen, was entsteht,
+        wenn das Bed\u00fcrfnis nach Gesehen-werden
+        jeden anderen inneren Kompass \u00fcberw\u00e4ltigt \u2013
+        wenn das Publikum wichtiger wird als das Leben anderer
+        und schlie\u00dflich als das eigene.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SO3 \u2013 der Verst\u00e4rkungstyp:</strong>
+        Claudio Naranjo beschrieb die soziale Drei
+        als den Verst\u00e4rkungstyp \u2013 den Subtyp,
+        der die Leidenschaft der Eitelkeit am reinsten
+        und deutlichsten verk\u00f6rpert.
+        Der SO3er pr\u00e4sentiert sich selbst als bedeutsame Figur
+        innerhalb eines sozialen Rahmens \u2013 Gruppenstatus
+        und soziale Anerkennung sind seine Kernw\u00e4hrung.
+        <strong>Wilson</strong> passt in dieses Bild:
+        Der Gerichtssaal war sein sozialer Rahmen,
+        das Urteil sein Status-Marker.</p>
+        <p class="vb-intro"><strong>b) Der Viererfl\u00fcgel und die Sehnsucht nach Tiefe:</strong>
+        Der Viererfl\u00fcgel verleiht der Drei eine innere Dramatik,
+        die sie von der reinen Leistungsorientierung
+        der SE3 unterscheidet. Der SO3w4er will nicht nur
+        bewundert werden \u2013 er will f\u00fcr einzigartig gehalten werden.
+        Diese Sehnsucht nach Unverwechselbarkeit
+        kann, wenn keine konstruktive Form gefunden wird,
+        in destruktive Selbstinszenierung umschlagen.</p>
+        <p class="vb-intro"><strong>c) Desintegration in die Neun:</strong>
+        Der Stresspunkt der Drei ist die Neun:
+        R\u00fcckzug, Bet\u00e4ubung, Handlungslosigkeit.
+        <strong>Wilson</strong> zeigte in der Tatnacht das Gegenteil \u2013
+        explosives Handeln, keine Hemmung, kein Innehalten.
+        Das deutet auf eine Drei, die nicht in die Neun
+        desintegriert, sondern in die entgegengesetzte Richtung
+        \u00fcberl\u00e4uft: in \u00fcbersteuerte Handlungsbereitschaft,
+        die jeden Impuls sofort umsetzt.</p>
+        <p class="vb-intro"><strong>d) Vergleich mit Luka Magnotta (SX3):</strong>
+        Magnotta inszenierte sich digital \u2013 \u00fcber Jahrzehnte,
+        mit aufwendig konstruierten Online-Identit\u00e4ten.
+        <strong>Wilson</strong> brauchte keine Vorbereitungszeit:
+        Er fand seine B\u00fchne im Echtzeit-Gerichtssaal.
+        Das ist der Unterschied zwischen SX3 und SO3:
+        Die sexuelle Drei baut eine intensive, private
+        Spiegelwelt; die soziale Drei braucht ein Publikum
+        im Raum \u2013 live, unmittelbar, reaktionsf\u00e4hig.</p>
+        <p class="vb-intro"><strong>e) Moralische Entkopplung als Dreier-Muster:</strong>
+        Die Drei trennt konsequent zwischen dem,
+        was sie nach au\u00dfen zeigt, und dem, was sie innen f\u00fchlt.
+        Diese Entkopplung ist in gesunden Auspr\u00e4gungen
+        Grundlage professioneller Exzellenz.
+        In der Desintegration wird sie zur moralischen Blindstelle:
+        Die Frage, ob eine Handlung richtig ist,
+        wird ersetzt durch die Frage, ob sie wirkt.
+        <strong>Wilson</strong> schien diese Verschiebung vollzogen zu haben \u2013
+        mit Konsequenzen, die f\u00fcr zwei Frauen t\u00f6dlich waren.</p>
+        <p class="vb-intro"><strong>f) Das Todesurteil und die Drei:</strong>
+        F\u00fcr einen Typ 3 ist das Ende der \u00f6ffentlichen B\u00fchne
+        vielleicht bedrohlicher als das biologische Ende.
+        Das Todesurteil nahm <strong>Wilson</strong> nicht die Aufmerksamkeit \u2013
+        es steigerte sie. Erst nach Vollstreckung
+        verliert die Drei den Resonanzraum, der ihr Selbstgef\u00fchl tr\u00e4gt.
+        Ob Wilson das wei\u00df oder ahnt, wissen wir nicht.
+        Was wir wissen: Bis zum letzten sichtbaren Moment
+        blieb er auf der B\u00fchne.</p>
+      </div>
+
+      <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
+        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Pers\u00f6nlichkeitsanalyse Wade Wilson (SO3)</p>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+          <iframe width="100%" height="100%" style="border:none;display:block;"
+            src="https://www.youtube.com/embed/XS7g6LzrUxk?rel=0"
+            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SE3 und SX3 \u2013 Verst\u00e4rkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SE3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\u00fchrlich portr\u00e4tiert \u2013 Eitelkeit, Maske und der Heilungsweg \u00fcber echte Authentizit\u00e4t.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Wade Wilson wurde 2024 in Florida wegen zweier Morde zum Tode verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3)"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function vincenzoPeruggiaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9808,96 +10165,6 @@ function enneagrammEmotionalitaetPage() {
       ${relatedLinks([
         {route:"basisemotionen", label:"Basisemotionen der 9 Typen"},
         {route:"zornverhalten", label:"Zornverhalten der 9 Typen"},
-        {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
-      ])}
-    </div>
-  `);
-}
-
-function enneagrammInstinktPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Enneagramm und Instinkt", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
-      <p class="psycho-intro">Instinkt ist im Enneagramm die unmittelbare, k\u00f6rperliche Antriebskraft \u2014 die Energie, die handelt, bevor der Verstand fertig gedacht hat. Auch sie ist an sich wertfrei: weder gut noch schlecht, sondern reine Lebenskraft, die Richtung sucht. Bewusst gelebt wird Instinkt zu gesunder Pr\u00e4senz, zu Tatkraft, die im richtigen Moment zupackt, und zu einem verl\u00e4sslichen Gesp\u00fcr f\u00fcr das, was jetzt gebraucht wird. Unbewusst wird dieselbe Energie zu Impulsivit\u00e4t, zu Reaktion ohne Innehalten \u2014 der K\u00f6rper handelt, bevor die Person selbst begreift, warum.</p>
-      <img src="./assets/enneagramm-instinkt.jpg" alt="Enneagramm und Instinkt \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-
-      <div class="vb-section" style="max-width:100%;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
-        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene instinktive Grundf\u00e4rbung \u2014 eine Art, wie K\u00f6rperenergie entsteht, sich staut oder in Handlung entl\u00e4dt. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zur verl\u00e4sslichen inneren Kompassnadel wird oder zum blinden Reflex. Im bewussten Zustand wird Instinkt zu einem Instrument der Wahrnehmung: Er macht handlungsf\u00e4hig, verankert im K\u00f6rper, verleiht Pr\u00e4senz und ein feines Gesp\u00fcr f\u00fcr den richtigen Moment. Im unbewussten Zustand dagegen l\u00e4uft dieselbe instinktive Kraft ungefiltert \u2014 sie \u00fcberrollt, verh\u00e4rtet, erstarrt oder verausgabt sich, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
-        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Instinkt bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn er unbewusst das Steuer \u00fcbernimmt. Es ist dieselbe K\u00f6rperenergie, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
-      </div>
-
-      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
-        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 id="ins-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2014 Der Instinkt der Richtigkeit</h3>
-        <p class="vb-intro">Beim Typ 1 ist Instinkt eng an inneren Widerstand gekoppelt: Der K\u00f6rper spannt sich an, wo etwas nicht stimmt, noch bevor der Verstand es benennt. Bewusst gelebt wird daraus pr\u00e4zise, zupackende Tatkraft, die im richtigen Moment korrigiert, ohne zu \u00fcberkorrigieren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich ein wacher, k\u00f6rperlich verankerter Sinn f\u00fcr Ordnung im eigenen Umfeld \u2014 Instinkt, der pragmatisch anpackt. Unbewusst wird daraus chronische muskul\u00e4re Anspannung, ein K\u00f6rper, der st\u00e4ndig im Anschlag steht.</p>
-        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst entsteht entschlossene, auf das Ganze gerichtete Handlungskraft, die Missst\u00e4nde unmittelbar angeht. Unbewusst kippt es in reflexhafte Belehrung, einen K\u00f6rper, der sich aufrichtet, um andere zurechtzuweisen.</p>
-        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst zeigt sich intensive, fast feurige Energie, die den Partner mitrei\u00dft und gemeinsam ver\u00e4ndert. Unbewusst wird daraus impulsive Ungeduld \u2014 ein K\u00f6rper, der dr\u00e4ngt, bevor der andere bereit ist.</p>
-
-        <h3 id="ins-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2014 Der Instinkt der Zuwendung</h3>
-        <p class="vb-intro">Beim Typ 2 flie\u00dft instinktive Energie sofort nach au\u00dfen, in Richtung des anderen \u2014 der K\u00f6rper bewegt sich, bevor der Kopf entscheidet, zu helfen. Bewusst gelebt wird daraus warme, verl\u00e4ssliche Pr\u00e4senz, die sp\u00fcrt, wo sie gebraucht wird.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich verspielte, k\u00f6rpernahe Zuneigung im engen Kreis \u2014 Instinkt, der N\u00e4he unmittelbar sucht und schenkt. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der st\u00e4ndig etwas f\u00fcr andere tun muss, um sich zu beruhigen.</p>
-        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht tatkr\u00e4ftige, gemeinschaftsstiftende Energie, die viele gleichzeitig im Blick beh\u00e4lt. Unbewusst kippt es in \u00fcberzogenen Aktivismus \u2014 ein K\u00f6rper, der sich verausgabt, um unentbehrlich zu bleiben.</p>
-        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich anziehende, hingebungsvolle K\u00f6rperpr\u00e4senz, ganz auf den einen Menschen gerichtet. Unbewusst wird daraus instinktives Werben um Aufmerksamkeit, das keine Pause kennt.</p>
-
-        <h3 id="ins-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2014 Der Instinkt der Leistung</h3>
-        <p class="vb-intro">Beim Typ 3 ist Instinkt eng mit Tempo und Effizienz verbunden \u2014 der K\u00f6rper geht in Bewegung, sobald ein Ziel erkennbar ist. Bewusst gelebt wird daraus m\u00fchelose, ansteckende Tatkraft, die andere ins Handeln bringt.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich unerm\u00fcdliche, bodenst\u00e4ndige Schaffenskraft, die Sicherheit durch stetiges Tun schafft. Unbewusst wird daraus Getriebenheit \u2014 ein K\u00f6rper, der nicht abschalten kann, weil Stillstand sich wie Gefahr anf\u00fchlt.</p>
-        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht dynamische, teamf\u00fchrende Energie, die ein gemeinsames Vorhaben voranbringt. Unbewusst kippt es in ruheloses Statusstreben \u2014 ein K\u00f6rper in permanenter Selbstoptimierung.</p>
-        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich magnetische, selbstsichere K\u00f6rperpr\u00e4senz, die anzieht, ohne zu inszenieren. Unbewusst wird daraus rastlose Selbstdarstellung, die Energie in Wirkung statt in echte N\u00e4he steckt.</p>
-
-        <h3 id="ins-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2014 Der Instinkt der Intensit\u00e4t</h3>
-        <p class="vb-intro">Beim Typ 4 sucht Instinkt das Besondere, das intensiv Erlebte \u2014 der K\u00f6rper reagiert stark auf Sch\u00f6nheit und Schmerz gleicherma\u00dfen. Bewusst gelebt wird daraus tiefe, verk\u00f6rperte Ausdruckskraft, die Erfahrung in Gestalt verwandelt.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich z\u00e4he, standhafte K\u00f6rperkraft, die auch schwere Phasen durchtr\u00e4gt. Unbewusst wird daraus stille Ersch\u00f6pfung, ein K\u00f6rper, der Entbehrung stumm aush\u00e4lt, statt sie auszudr\u00fccken.</p>
-        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht die F\u00e4higkeit, eigene Intensit\u00e4t in Ausdruck zu verwandeln, der andere ber\u00fchrt. Unbewusst kippt es in demonstrative Zur\u00fcckgezogenheit, einen K\u00f6rper, der sich sichtbar aus dem Get\u00fcmmel entfernt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich vulkanische, unmittelbare K\u00f6rperenergie, die echte Intensit\u00e4t in Beziehung bringt. Unbewusst wird daraus dramatische Eskalation, ein K\u00f6rper, der N\u00e4he \u00fcber Zuspitzung sucht.</p>
-
-        <h3 id="ins-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2014 Der Instinkt des R\u00fcckzugs</h3>
-        <p class="vb-intro">Beim Typ 5 wird instinktive Energie zuerst zur\u00fcckgehalten, gespart, beobachtet \u2014 der K\u00f6rper h\u00e4lt sich zur\u00fcck, bevor er handelt. Bewusst gelebt wird daraus ruhige, \u00f6konomische Kraft, die genau dann da ist, wenn sie gebraucht wird.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich stille Gen\u00fcgsamkeit, ein K\u00f6rper, der mit wenig auskommt und dabei ganz bei sich bleibt. Unbewusst wird daraus fast vollst\u00e4ndiger R\u00fcckzug aus dem eigenen K\u00f6rper, ein Leben vorwiegend im Kopf.</p>
-        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht sachliche, beobachtende Pr\u00e4senz, die sich punktuell und gezielt einbringt. Unbewusst kippt es in distanzierte Passivit\u00e4t, einen K\u00f6rper, der lieber analysiert als handelt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich \u00fcberraschend intensive Hingabe an einen Menschen oder ein Thema, sobald Vertrauen besteht. Unbewusst wird daraus verzehrende innere Vertiefung, die sich k\u00f6rperlich kaum mehr zeigt.</p>
-
-        <h3 id="ins-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2014 Der Instinkt der Wachsamkeit</h3>
-        <p class="vb-intro">Beim Typ 6 ist der K\u00f6rper st\u00e4ndig auf Signale von Gefahr oder Sicherheit geeicht \u2014 Instinkt zeigt sich als feine Alarmbereitschaft. Bewusst gelebt wird daraus schnelle, treffsichere Reaktionsf\u00e4higkeit, die sch\u00fctzt, ohne zu l\u00e4hmen.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich vorsorgende, bodenst\u00e4ndige Wachsamkeit, die Sicherheit im Alltag herstellt. Unbewusst wird daraus nerv\u00f6se Anspannung, ein K\u00f6rper, der st\u00e4ndig auf das n\u00e4chste Problem vorbereitet ist.</p>
-        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht loyale, verl\u00e4ssliche Pr\u00e4senz im Dienst der Gruppe. Unbewusst kippt es in misstrauische \u00dcberwachsamkeit, einen K\u00f6rper, der Autorit\u00e4ten pr\u00fcfend im Blick beh\u00e4lt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutige, direkte K\u00f6rperkraft, die Angst in Konfrontation statt R\u00fcckzug verwandelt. Unbewusst wird daraus impulsive Angriffsbereitschaft, ein K\u00f6rper, der zuschl\u00e4gt, bevor er gepr\u00fcft hat.</p>
-
-        <h3 id="ins-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2014 Der Instinkt der Bewegung</h3>
-        <p class="vb-intro">Beim Typ 7 will der K\u00f6rper in Bewegung bleiben, neue Reize aufnehmen, nichts verpassen \u2014 Instinkt zeigt sich als best\u00e4ndiger Drang nach vorn. Bewusst gelebt wird daraus lebendige, ansteckende Energie, die Schwung in jede Situation bringt.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktische, genussfreudige K\u00f6rperlichkeit, die Sicherheit mit Erlebnis verbindet. Unbewusst wird daraus rastlose Betriebsamkeit, ein K\u00f6rper, der Ablenkung braucht, um Unruhe nicht zu sp\u00fcren.</p>
-        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht gro\u00dfz\u00fcgige, mitrei\u00dfende Energie im Dienst einer guten Sache. Unbewusst kippt es in Selbst\u00fcberforderung, einen K\u00f6rper, der immer weiter gibt, bis die Reserven leer sind.</p>
-        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich intensive, faszinierende Pr\u00e4senz, die andere spontan mitrei\u00dft. Unbewusst wird daraus impulsive Reizsuche, ein K\u00f6rper, der von einer Begeisterung zur n\u00e4chsten springt.</p>
-
-        <h3 id="ins-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2014 Der Instinkt der Kraft</h3>
-        <p class="vb-intro">Beim Typ 8 ist der K\u00f6rper selbst die Botschaft: kraftvoll, pr\u00e4sent, unmittelbar. Bewusst gelebt wird daraus besch\u00fctzende St\u00e4rke, die Raum h\u00e4lt, ohne ihn anderen zu nehmen.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robuste, unersch\u00fctterliche Pr\u00e4senz, die f\u00fcr sich und andere Sicherheit schafft. Unbewusst wird daraus kompromisslose H\u00e4rte, ein K\u00f6rper, der Verletzlichkeit gar nicht erst zul\u00e4sst.</p>
-        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht kraftvolle, loyale F\u00fchrungsenergie im Dienst einer Gruppe. Unbewusst kippt es in dominantes Kontrollverhalten, einen K\u00f6rper, der Raum beansprucht, statt ihn zu teilen.</p>
-        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich hingebungsvolle, unmittelbare Leidenschaft, die den Partner ganz umfasst. Unbewusst wird daraus besitzergreifende Wucht, ein K\u00f6rper, der N\u00e4he mit \u00dcbernahme verwechselt.</p>
-
-        <h3 id="ins-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2014 Der Instinkt der Ruhe</h3>
-        <p class="vb-intro">Beim Typ 9 zieht sich instinktive Energie oft zur\u00fcck, um Frieden zu wahren \u2014 der K\u00f6rper d\u00e4mpft sich selbst, bevor Konflikt entstehen kann. Bewusst gelebt wird daraus tragende, geerdete Pr\u00e4senz, die Sicherheit ausstrahlt, ohne sich aufzudr\u00e4ngen.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich gem\u00fctliche, k\u00f6rperlich verankerte Gelassenheit, die Geborgenheit schafft. Unbewusst wird daraus Tr\u00e4gheit \u2014 ein K\u00f6rper, der sich in Gewohnheit und Bequemlichkeit bet\u00e4ubt.</p>
-        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht verbindende, ausgleichende Energie, die Gruppen zusammenh\u00e4lt. Unbewusst kippt es in Selbstverleugnung, einen K\u00f6rper, der sich f\u00fcr alle einsetzt und dabei die eigene Energie vergisst.</p>
-        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensive, verschmelzende K\u00f6rperpr\u00e4senz, ganz auf den geliebten Menschen ausgerichtet. Unbewusst wird daraus energetisches Verschmelzen bis zur Selbstaufgabe, ein K\u00f6rper, der die eigenen Grenzen im anderen verliert.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("sprache-der-sexualit\u00e4t", "Instinkt und Emotionalit\u00e4t im Zusammenspiel \u2014 wie Begehren und K\u00f6rperenergie sich bei den 9 Typen und ihren Subtypen verbinden.", "Die Sprache unserer Sexualit\u00e4t")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      ${relatedLinks([
-        {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
-        {route:"enneagramm-intellekt", label:"Enneagramm und Intellekt"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
       ])}
     </div>

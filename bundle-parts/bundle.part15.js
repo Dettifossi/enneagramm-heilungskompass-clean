@@ -1,3 +1,263 @@
+function krisenkompassPage() {
+  const typeColors = {"1":"#8b6f47","2":"#7a2d90","3":"#c8860a","4":"#5b4fa0","5":"#2e7d6e","6":"#4a6fa5","7":"#b5870a","8":"#8b2014","9":"#5a7a3a"};
+  const typeNames = {"1":"Der Reformer","2":"Der Helfer","3":"Der Dynamiker","4":"Der Individualist","5":"Der Beobachter","6":"Der Loyale","7":"Der Enthusiast","8":"Der Herausforderer","9":"Der Friedensstifter"};
+
+  const KRISEN = {
+    1: [
+      { id:"wut", label:"Wut & innere Anspannung", emoji:"\ud83d\udd25", schritte:[
+        "Stopp-Moment setzen: Verlassen Sie den Raum oder die Situation f\u00fcr 5 Minuten. Ihr K\u00f6rper braucht zuerst Abstand vom Ausl\u00f6ser.",
+        "K\u00f6rper-Anker: Legen Sie beide H\u00e4nde flach auf den Bauch. Atmen Sie 4 Sekunden ein, 6 Sekunden aus. Wiederholen Sie das dreimal. Der Zorn geh\u00f6rt zum Typ 1 \u2014 er darf sein, er muss Sie nur nicht steuern.",
+        "Milde-Frage: Fragen Sie sich: &bdquo;Was w\u00fcrde ich einem guten Freund in dieser Situation raten?&ldquo; Geben Sie sich dieselbe Antwort."
+      ]},
+      { id:"perfektionismus", label:"L\u00e4hmender Perfektionismus", emoji:"\u2699\ufe0f", schritte:[
+        "Sofort-Entscheidung: W\u00e4hlen Sie bewusst die zweitbeste L\u00f6sung. Nicht die perfekte \u2014 die gute genug. F\u00fchren Sie sie jetzt durch.",
+        "Inner Critic Timeout: Schreiben Sie die kritische innere Stimme auf einen Zettel. Legen Sie den Zettel zur Seite. Buchst\u00e4blich.",
+        "Fertig-Ank\u00fcndigung: Sagen Sie laut (oder innerlich): &bdquo;Das ist gut genug. Ich bin fertig.&ldquo; Dreimal. Ohne Erg\u00e4nzung."
+      ]},
+      { id:"fehler", label:"Fehler & Scham", emoji:"\ud83d\ude14", schritte:[
+        "Fehler benennen \u2014 einmal, sachlich: Was ist passiert? Keine Bewertung, nur Beschreibung in einem Satz.",
+        "Verh\u00e4ltnism\u00e4\u00dfigkeit pr\u00fcfen: Wie wichtig ist dieser Fehler in einem Jahr? In zehn Jahren? Ordnen Sie ihn ein.",
+        "Wiedergutmachungs-Schritt: Was ist der eine konkrete n\u00e4chste Schritt? Nur einer. F\u00fchren Sie ihn durch und betrachten Sie die Sache als abgeschlossen."
+      ]},
+    ],
+    2: [
+      { id:"erschoepfung", label:"Ersch\u00f6pfung durch Geben", emoji:"\ud83e\udec0", schritte:[
+        "Sofort-Stopp: Sagen Sie zu der n\u00e4chsten Bitte Nein \u2014 ohne Erkl\u00e4rung. Nur &bdquo;Heute geht das nicht.&ldquo; Das ist kein Versagen, das ist Selbstschutz.",
+        "Eigene Bed\u00fcrfnisse fragen: Setzen Sie sich hin und fragen: Was brauche ich gerade? Nicht was andere brauchen \u2014 was ich brauche. Schreiben Sie es auf.",
+        "Eine Sache tun: Erf\u00fcllen Sie sich eine dieser eigenen Bed\u00fcrfnisse jetzt. Nur eine. Ohne schlechtes Gewissen."
+      ]},
+      { id:"abweisung", label:"Abweisung & Kr\u00e4nkung", emoji:"\ud83d\udc94", schritte:[
+        "Gef\u00fchl anerkennen: Der Schmerz ist real. Sagen Sie sich: &bdquo;Ich bin verletzt. Das darf ich sein.&ldquo; Kein sofortiges Helfen, kein Ablenken.",
+        "Herkunft pr\u00fcfen: Ist die Abweisung pers\u00f6nlich gemeint \u2014 oder ist der andere gerade in seiner eigenen Not? H\u00e4ufig ist es Letzteres.",
+        "Selbst-Zuwendung: Tun Sie etwas, das sich gut anf\u00fchlt \u2014 nur f\u00fcr Sie. Ein Tee, ein Spaziergang, Musik. Kein Helfen in den n\u00e4chsten zwei Stunden."
+      ]},
+      { id:"manipulation", label:"Gef\u00fchl, ausgenutzt zu werden", emoji:"\ud83d\ude24", schritte:[
+        "Innere Bilanz: Geben Sie in dieser Beziehung mehr als Sie empfangen? Antworten Sie ehrlich \u2014 ohne den anderen zu sch\u00fctzen.",
+        "Grenze formulieren: Was ist das Mindeste, das Sie sich w\u00fcnschen w\u00fcrden? Formulieren Sie es als klaren Satz \u2014 noch ohne ihn auszusprechen.",
+        "Gespr\u00e4ch planen: W\u00e4hlen Sie einen ruhigen Moment und sprechen Sie die Bitte aus. Nicht als Vorwurf, sondern als ehrliches Bed\u00fcrfnis."
+      ]},
+    ],
+    3: [
+      { id:"versagen", label:"Versagensangst & Druck", emoji:"\ud83c\udfaf", schritte:[
+        "Druck externalisieren: Schreiben Sie alle offenen Aufgaben auf. Sortieren Sie nach Wichtigkeit. Streichen Sie alles, was heute nicht entschieden werden muss.",
+        "Einen Schritt gehen: W\u00e4hlen Sie die wichtigste Aufgabe. Beginnen Sie sie \u2014 nicht zu Ende bringen, nur beginnen. Der Anfang bricht den L\u00e4hmungszustand.",
+        "Wert-Erinnerung: Sie sind nicht Ihr Ergebnis. Fragen Sie sich: Wer sch\u00e4tzt mich unabh\u00e4ngig von meinem Erfolg? Denken Sie an eine konkrete Person."
+      ]},
+      { id:"maske", label:"Ersch\u00f6pfung der Fassade", emoji:"\ud83c\udfad", schritte:[
+        "Maske ablegen \u2014 privat: Gehen Sie in einen Raum, in dem Sie allein sind. Erlauben Sie sich, nichts zu leisten. F\u00fcnf Minuten lang. Kein Handy.",
+        "Echtheitsfrage: Was f\u00fchlen Sie gerade wirklich \u2014 hinter der funktionierenden Oberfl\u00e4che? Benennen Sie es, auch wenn es unbequem ist.",
+        "Echten Kontakt suchen: Schreiben Sie einer Person, der Sie sich wirklich zeigen k\u00f6nnen, eine ehrliche Nachricht. Nicht professionell \u2014 menschlich."
+      ]},
+      { id:"entscheidung", label:"Entscheidungsl\u00e4hmung", emoji:"\u26a1", schritte:[
+        "Zwei-Minuten-Entscheidung: Stellen Sie sich einen Timer auf zwei Minuten. In dieser Zeit entscheiden Sie \u2014 keine weitere Recherche, kein weiteres Abw\u00e4gen.",
+        "Bauch-Test: Welche Option f\u00fchlt sich im K\u00f6rper leichter an? Nicht richtig \u2014 leichter. Das ist oft der verl\u00e4sslichste Kompass.",
+        "Revidierbarkeit pr\u00fcfen: Ist diese Entscheidung r\u00fcckg\u00e4ngig zu machen? Wenn ja, entscheiden Sie sofort \u2014 Perfektionismus kostet mehr als ein korrigierbarer Fehler."
+      ]},
+    ],
+    4: [
+      { id:"melancholie", label:"Tiefe Melancholie & Leere", emoji:"\ud83c\udf0a", schritte:[
+        "In die Welle \u2014 nicht gegen sie: Setzen Sie sich mit dem Gef\u00fchl. Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie die Traurigkeit vollst\u00e4ndig \u2014 dann ist die Zeit um.",
+        "K\u00f6rper-Anker: Gehen Sie nach drau\u00dfen. Zehn Minuten Bewegung. Der K\u00f6rper holt die Seele oft aus der Spirale, wenn der Kopf es nicht schafft.",
+        "Erschaffung: Tun Sie etwas Kreatives \u2014 schreiben, zeichnen, Musik h\u00f6ren. Nicht um sich abzulenken, sondern um der Emotion einen Ausdruck zu geben."
+      ]},
+      { id:"neid", label:"Neid & das Gef\u00fchl, zu wenig zu sein", emoji:"\ud83d\udc9c", schritte:[
+        "Neid benennen: &bdquo;Ich bin neidisch auf X, weil Y.&ldquo; Ehrlich, ohne Scham. Neid zeigt, was Sie sich w\u00fcnschen \u2014 das ist wertvolle Information.",
+        "Einzigartigkeit erinnern: Was kann oder f\u00fchlt nur ich? Was hat noch niemand sonst getan, gedacht, ausgedr\u00fcckt in Ihrer Art? Schreiben Sie drei Dinge.",
+        "Einen Sch\u00f6nheits-Moment: Suchen Sie heute bewusst etwas Sch\u00f6nes in Ihrer eigenen Gegenwart \u2014 nicht im Leben anderer. Ein Moment, der nur Ihrer ist."
+      ]},
+      { id:"abgelehnt", label:"Ablehnung & unverstanden sein", emoji:"\ud83e\uded9", schritte:[
+        "Gef\u00fchl validieren: Es tut weh, nicht gesehen zu werden. Das ist real und verst\u00e4ndlich. Sie m\u00fcssen das nicht sofort wegdenken.",
+        "\u00dcbertragung pr\u00fcfen: Wie stark erinnert diese Situation an fr\u00fchere Verletzungen? Reagieren Sie auf jetzt \u2014 oder auf damals?",
+        "Selbst-Zeugnis: Schreiben Sie auf, was in Ihnen steckt, das der andere vielleicht nicht sieht. Werden Sie Ihr eigener wohlwollender Zeuge."
+      ]},
+    ],
+    5: [
+      { id:"ueberforderung", label:"Soziale \u00dcberforderung", emoji:"\ud83e\udde0", schritte:[
+        "Sofort-R\u00fcckzug: Entschuldigen Sie sich h\u00f6flich und verlassen Sie die Situation. Das ist kein Versagen \u2014 es ist Selbstregulation. Gehen Sie in Ihren R\u00fcckzugsraum.",
+        "Energie-Reset: Sitzen Sie allein, ohne Input. Kein Handy, keine Musik, kein Podcast. F\u00fcnfzehn Minuten Stille. Der Akku l\u00e4dt nur im Schweigen.",
+        "Dosierter Wiedereinstieg: Wenn Sie wieder bereit sind, w\u00e4hlen Sie bewusst ein einziges Gespr\u00e4ch oder eine Aufgabe. Keine Vollbelastung nach der Pause."
+      ]},
+      { id:"leere", label:"Innere Leere & Isolation", emoji:"\ud83c\udfd4\ufe0f", schritte:[
+        "K\u00f6rper besuchen: Stehen Sie auf und bewegen Sie sich \u2014 ein kurzer Spaziergang, Dehnen, kaltes Wasser ins Gesicht. Der Kopf kann Sie festhalten; der K\u00f6rper holt Sie zur\u00fcck.",
+        "Minimalkontakt: Schreiben Sie einer Person, die Sie sch\u00e4tzen, eine kurze Nachricht. Kein langer Austausch \u2014 nur ein kleines Signal der Verbindung.",
+        "Wissens-Ankerpunkt: Besch\u00e4ftigen Sie sich mit einem Thema, das Sie wirklich interessiert. Nicht als Ablenkung \u2014 als Erinnerung, dass Sie lebendig und neugierig sind."
+      ]},
+      { id:"kontrollverlust", label:"Kontrollverlust & Angst", emoji:"\ud83c\udf00", schritte:[
+        "Fakten sammeln: Was ist tats\u00e4chlich passiert \u2014 ohne Interpretation? Schreiben Sie nur die belegbaren Fakten auf. Das sortiert den Kopf.",
+        "Einflussbereich kl\u00e4ren: Was davon k\u00f6nnen Sie beeinflussen \u2014 und was nicht? Streichen Sie, was au\u00dferhalb Ihres Einflussbereichs liegt. Konzentrieren Sie sich nur auf den Rest.",
+        "Einen Schritt planen: Was ist der kleinste m\u00f6gliche Schritt, den Sie jetzt gehen k\u00f6nnen? F\u00fchren Sie ihn durch. Handlung l\u00f6st Kontrollverlust besser als Nachdenken."
+      ]},
+    ],
+    6: [
+      { id:"angst", label:"Akute Angst & Katastrophendenken", emoji:"\ud83c\udf2a\ufe0f", schritte:[
+        "Atemnotbremse: Atmen Sie vier Sekunden ein, halten Sie vier Sekunden an, atmen Sie acht Sekunden aus. Das aktiviert den Parasympathikus \u2014 physiologisch, nicht metaphorisch.",
+        "Wahrscheinlichkeitscheck: Schreiben Sie das Worst-Case-Szenario auf. Dann fragen Sie: Wie wahrscheinlich ist das wirklich, auf einer Skala von 1 bis 10? Und: Was w\u00fcrde ich tun, wenn es eintr\u00e4te?",
+        "Verb\u00fcndeten-Kontakt: Rufen Sie jetzt eine Person an, der Sie vertrauen. Nicht um das Problem zu l\u00f6sen \u2014 um sich geh\u00f6rt zu f\u00fchlen. Das reicht."
+      ]},
+      { id:"misstrauen", label:"Misstrauen & Verrat", emoji:"\ud83d\udee1\ufe0f", schritte:[
+        "Trennung: Was ist Tatsache \u2014 und was ist Interpretation? Schreiben Sie die Tatsachen auf eine Seite, die Interpretationen auf die andere.",
+        "Geschichte pr\u00fcfen: Hat diese Person bisher Grund zum Misstrauen gegeben? Oder projizieren Sie eine alte Erfahrung auf jetzt?",
+        "Einen Schritt wagen: Vertrauen entsteht durch kleine Tests. Was ist die kleinste Offenheit, die Sie riskieren k\u00f6nnten? Versuchen Sie es bewusst."
+      ]},
+      { id:"zweifel", label:"L\u00e4hmender Selbstzweifel", emoji:"\ud83d\udd0d", schritte:[
+        "Zweifel benennen: Schreiben Sie den konkreten Zweifel auf. H\u00e4ufig verliert er an Macht, sobald er sichtbar ist.",
+        "Kompetenz-Anker: Erinnern Sie sich an drei Situationen, in denen Sie trotz Zweifel richtig entschieden oder gehandelt haben. Sie haben Ressourcen \u2014 auch wenn der Zweifel das verdeckt.",
+        "Entscheidung auf Zeit: Treffen Sie jetzt eine Entscheidung \u2014 nur f\u00fcr heute. Mit dem Recht, sie morgen zu \u00fcberpr\u00fcfen. Das bricht die L\u00e4hmung, ohne Endg\u00fcltigkeit zu erzwingen."
+      ]},
+    ],
+    7: [
+      { id:"langeweile", label:"Innere Leere & Langeweile", emoji:"\u2728", schritte:[
+        "Pause aushalten: Bleiben Sie drei Minuten mit der Leere. Kein Griff zum Handy, kein neuer Plan. Was passiert wirklich, wenn Sie nicht sofort f\u00fcllen?",
+        "Tiefe statt Breite: W\u00e4hlen Sie eine einzige Sache aus Ihrem Leben \u2014 eine Beziehung, ein Projekt, eine Idee. Gehen Sie damit tiefer, statt zu wechseln.",
+        "K\u00f6rper-Frage: Was f\u00fchlt der K\u00f6rper gerade \u2014 unter der Unruhe? Angst? Traurigkeit? Benennen Sie es. Die Leere ist oft ein Gef\u00fchl, das noch keinen Namen hat."
+      ]},
+      { id:"schmerz", label:"Schmerz & Trauer vermeiden", emoji:"\ud83c\udf27\ufe0f", schritte:[
+        "Dem Schmerz erlauben: Stellen Sie einen Timer auf zehn Minuten. Erlauben Sie sich, das Schwere wirklich zu f\u00fchlen \u2014 ohne Ausweg, ohne Plan. Zehn Minuten.",
+        "Trauer als Signal: Wof\u00fcr trauern Sie? Was hat das f\u00fcr eine Bedeutung? Trauer zeigt, was Ihnen wichtig war. Das ist nicht schwach \u2014 das ist tief.",
+        "Bleiben statt fliehen: W\u00e4hlen Sie heute eine Situation, in der Sie normalerweise ausweichen w\u00fcrden. Bleiben Sie darin. Sie sind st\u00e4rker als die Unruhe."
+      ]},
+      { id:"verpflichtung", label:"Verpflichtungsangst & Flucht", emoji:"\ud83c\udfaa", schritte:[
+        "Was ich wirklich will: Hinter der Flucht steckt oft eine echte Sehnsucht. Was wollen Sie wirklich \u2014 wenn kein Ausweg m\u00f6glich w\u00e4re?",
+        "Kosten der Freiheit: Was verlieren Sie durch st\u00e4ndige Optionalit\u00e4t? Tiefe? Verl\u00e4sslichkeit? Vertrauen? Machen Sie sich das bewusst, ohne sich zu verurteilen.",
+        "Kleines Commitment: W\u00e4hlen Sie eine Verpflichtung \u2014 klein, konkret, \u00fcberschaubar. Halten Sie sie. Das ist \u00dcbung, keine Selbstbestrafung."
+      ]},
+    ],
+    8: [
+      { id:"kontrollverlust", label:"Kontrollverlust & Ohnmacht", emoji:"\u26a1", schritte:[
+        "K\u00f6rper entladen: Gehen Sie raus und bewegen Sie sich kr\u00e4ftig \u2014 laufen, Treppen steigen, Liegest\u00fctze. Der K\u00f6rper des Typs 8 braucht ein Ventil f\u00fcr aufgestaute Energie.",
+        "Einfluss kl\u00e4ren: Was liegt in Ihrer Hand \u2014 und was nicht? Wenden Sie sich ausschlie\u00dflich dem zu, was Sie tats\u00e4chlich ver\u00e4ndern k\u00f6nnen. Lassen Sie den Rest los.",
+        "St\u00e4rke durch Stille: St\u00e4rke hei\u00dft nicht immer handeln. Sitzen Sie f\u00fcnf Minuten still und entscheiden Sie bewusst, was Sie als N\u00e4chstes tun. Das ist Kontrolle."
+      ]},
+      { id:"verrat", label:"Verrat & Vertrauensbruch", emoji:"\ud83d\udde1\ufe0f", schritte:[
+        "Wut herauslassen \u2014 sicher: Schreiben Sie alles auf, was Sie f\u00fchlen \u2014 unzensiert, f\u00fcr niemanden au\u00dfer sich. Dann verbrennen oder zerrei\u00dfen Sie den Zettel.",
+        "Verletzlichkeit anerkennen: Hinter dem Verrat steckt ein Schmerz. Der Schmerz kommt, weil Sie vertraut haben. Das ist keine Schw\u00e4che \u2014 das ist Menschlichkeit.",
+        "N\u00e4chsten Schritt w\u00e4hlen: Was ist das Kl\u00fcgste, das Sie jetzt tun k\u00f6nnen \u2014 nicht das H\u00e4rteste? Handeln aus Klarheit ist wirksamer als Handeln aus Zorn."
+      ]},
+      { id:"schwaeche", label:"Eigene Schw\u00e4che & Verletzlichkeit", emoji:"\ud83e\udec0", schritte:[
+        "Allein sein erlauben: Suchen Sie Einsamkeit \u2014 nicht um zu gr\u00fcbeln, sondern um ohne Publikum zu sein. Typ 8 ist in Einsamkeit oft zug\u00e4nglicher f\u00fcr sich selbst.",
+        "Verletzlichkeit benennen: Was schmerzt Sie wirklich \u2014 hinter der St\u00e4rke? Sagen Sie es laut, auch wenn niemand zuh\u00f6rt. Die Worte machen es real.",
+        "Einen Menschen w\u00e4hlen: Gibt es eine Person, der Sie sich zeigen k\u00f6nnen \u2014 ohne Maske? Suchen Sie diese eine Person auf. Das reicht."
+      ]},
+    ],
+    9: [
+      { id:"vermeidung", label:"Selbstvergessenheit & innere Taubheit", emoji:"\ud83c\udf3f", schritte:[
+        "Eigene Anwesenheit: Fragen Sie sich jetzt: Was f\u00fchle ich? Was will ich? Was denke ich \u2014 nicht was andere wollen? Schreiben Sie es auf, ohne zu zensieren.",
+        "K\u00f6rper aktivieren: Stehen Sie auf. Bewegen Sie sich f\u00fcr zehn Minuten. Der Typ 9 verliert sich oft im Kopf anderer \u2014 der K\u00f6rper holt Sie zu sich zur\u00fcck.",
+        "Eine Meinung \u00e4u\u00dfern: Sagen Sie heute in einer Situation, was Sie wirklich denken \u2014 auch wenn es unbequem ist. Nur einmal. Das ist \u00dcbung, kein Ultimatum."
+      ]},
+      { id:"konflikt", label:"Unvermeidlicher Konflikt", emoji:"\ud83c\udf0a", schritte:[
+        "Abstand-Kurzpause: Gehen Sie in eine ruhige Ecke f\u00fcr f\u00fcnf Minuten. Nicht um auszuweichen \u2014 um sich zu sammeln, bevor Sie reagieren.",
+        "Position finden: Was ist Ihr eigener Standpunkt in dieser Sache \u2014 unabh\u00e4ngig davon, was Harmonie erfordern w\u00fcrde? Benennen Sie ihn f\u00fcr sich.",
+        "Sanft aber klar: Sprechen Sie Ihre Position aus \u2014 in ruhigem Ton, aber ohne sie wegzur\u00e4umen. &bdquo;Ich sehe das anders: ...&ldquo; Zweimal \u00fcben, dann sagen."
+      ]},
+      { id:"blockade", label:"Innere Blockade & Tr\u00e4gheit", emoji:"\ud83d\udc22", schritte:[
+        "Zwei-Minuten-Regel: W\u00e4hlen Sie eine einzige Aufgabe, die Sie vermeiden. Beginnen Sie sie f\u00fcr genau zwei Minuten. Nur das. Nicht fertig werden \u2014 anfangen.",
+        "Motivation von innen: Was w\u00fcrden Sie gern f\u00fcr sich selbst erreichen \u2014 nicht f\u00fcr andere, nicht f\u00fcr den Frieden? Was w\u00e4re Ihnen wichtig, wenn es niemanden sonst g\u00e4be?",
+        "Kleiner sichtbarer Schritt: Tun Sie eine konkrete, sichtbare Sache \u2014 etwas, das einen Unterschied macht. Keine gro\u00dfe Vision, ein echter kleiner Schritt heute."
+      ]},
+    ],
+  };
+
+  const col = krisenState.typNr ? typeColors[krisenState.typNr] : "var(--copper)";
+
+  // Schritt 3: Protokoll anzeigen
+  if (krisenState.typNr && krisenState.krisenId) {
+    const krise = KRISEN[krisenState.typNr].find(k => k.id === krisenState.krisenId);
+    return shell(`
+      ${pageHeader("krisenkompass")}
+      <section class="narrow">
+        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">\u2190 Neue Situation</button>
+        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr} &middot; ${krise.emoji}</p>
+        <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${krise.label}</h1>
+        <p style="font-size:.88rem;color:var(--muted);margin-bottom:1.8rem;">Drei konkrete Schritte f&uuml;r <strong style="color:${col};">${typeNames[krisenState.typNr]}</strong> in dieser Situation.</p>
+
+        ${krise.schritte.map((s, i) => `
+        <div style="display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.2rem;padding:1rem 1.2rem;background:color-mix(in srgb, ${col} 5%, var(--paper));border-radius:10px;border-left:4px solid ${col};">
+          <div style="min-width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;display:flex;align-items:center;justify-content:center;font-size:.9rem;font-weight:700;flex-shrink:0;">${i+1}</div>
+          <p style="font-size:.92rem;line-height:1.7;color:var(--ink);margin:0;">${s}</p>
+        </div>`).join("")}
+
+        <div style="background:color-mix(in srgb, ${col} 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;margin-top:1.5rem;font-size:.85rem;line-height:1.7;color:var(--ink);">
+          <strong style="color:${col};">Wichtig:</strong> Diese Schritte ersetzen keine professionelle Begleitung. Sie sind ein erster Impuls, um aus der akuten Starre herauszukommen.
+        </div>
+
+        <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
+          <p style="font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin:0 0 .75rem;">Andere Situationen f&uuml;r Typ ${krisenState.typNr}</p>
+          <div style="display:flex;flex-direction:column;gap:.5rem;">
+            ${KRISEN[krisenState.typNr].filter(k => k.id !== krisenState.krisenId).map(k => `
+            <button data-krisen-id="${k.id}" style="text-align:left;padding:.7rem 1rem;border:1px solid var(--line);border-radius:8px;background:var(--paper);font-size:.88rem;color:var(--ink);cursor:pointer;">
+              ${k.emoji} ${k.label}
+            </button>`).join("")}
+          </div>
+        </div>
+        ${relatedLinks([
+          {route:"situationskompass", label:"Situationskompass"},
+          {route:"practice", label:"Werkzeuge"},
+          {route:"beziehungen", label:"Beziehungskompass"},
+        ])}
+      </section>
+    `);
+  }
+
+  // Schritt 2: Krisensituation w\u00e4hlen
+  if (krisenState.typNr) {
+    return shell(`
+      ${pageHeader("krisenkompass")}
+      <section class="narrow">
+        <button class="ghost-link" data-krisen-reset style="font-size:.85rem;margin-bottom:1.5rem;">\u2190 Typ wechseln</button>
+        <p class="eyebrow">Krisenkompass &middot; Typ ${krisenState.typNr}</p>
+        <h1 style="font-size:1.5rem;line-height:1.3;margin-bottom:.4rem;">${typeNames[krisenState.typNr]}</h1>
+        <p style="font-size:.95rem;color:var(--muted);margin-bottom:1.8rem;">Was beschreibt Ihre aktuelle Situation am besten?</p>
+        <div style="display:flex;flex-direction:column;gap:.75rem;">
+          ${KRISEN[krisenState.typNr].map(k => `
+          <button data-krisen-id="${k.id}" style="
+            text-align:left;padding:1rem 1.2rem;
+            border:2px solid var(--line);border-radius:12px;
+            background:var(--paper);cursor:pointer;
+            transition:border-color .15s, background .15s;">
+            <span style="font-size:1.1rem;margin-right:.6rem;">${k.emoji}</span>
+            <span style="font-size:.95rem;font-weight:600;color:var(--ink);">${k.label}</span>
+          </button>`).join("")}
+        </div>
+      </section>
+    `);
+  }
+
+  // Schritt 1: Typ w\u00e4hlen
+  return shell(`
+    ${pageHeader("krisenkompass")}
+    <section class="narrow">
+      <p class="eyebrow">Praxis &middot; Krisenkompass</p>
+      <h1>Krisenkompass</h1>
+      <p class="lead-small">Sie stecken gerade in einer schwierigen Situation? W&auml;hlen Sie Ihren Enneagrammtyp &mdash; und erhalten Sie sofort drei konkrete Schritte, die genau zu Ihrem Muster passen.</p>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1.8rem;">
+        ${Object.entries(typeNames).map(([nr, name]) => {
+          const c = typeColors[nr];
+          return `
+          <button data-krisen-typ="${nr}" style="
+            padding:1rem .75rem;border-radius:12px;
+            background:color-mix(in srgb, ${c} 7%, var(--paper));
+            border:2px solid color-mix(in srgb, ${c} 25%, var(--line));
+            cursor:pointer;text-align:center;transition:border-color .15s;">
+            <span style="display:block;font-size:1.4rem;font-weight:800;color:${c};line-height:1;">${nr}</span>
+            <span style="display:block;font-size:.65rem;color:var(--ink);margin-top:.35rem;line-height:1.3;">${name}</span>
+          </button>`;
+        }).join("")}
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 5%, var(--paper));border-radius:10px;border:1px solid var(--line);font-size:.85rem;line-height:1.7;color:var(--muted);">
+        Der Krisenkompass zeigt keine Diagnosen und ersetzt keine Therapie. Er gibt typspezifische Impulse f&uuml;r den ersten Schritt aus einer akuten Starre heraus.
+      </div>
+      ${relatedLinks([
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+        {route:"beziehungen", label:"Beziehungskompass"},
+      ])}
+    </section>
+  `);
+}
+
 function kommunikationsguidePage() {
   const SUBTYPES = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
   const profCode = getProfile().toUpperCase();

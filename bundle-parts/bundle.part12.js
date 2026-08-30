@@ -1,3 +1,223 @@
+function edGeinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ed Gein – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/kriminalpsychologie-ed-gein-portrait.jpg" alt="Ed Gein – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ed Gein</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Der Schlächter von Plainfield" · USA, 1954–1957 · Tierentsprechung: Faultier</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Ed Gein</strong> (1906–1984) wurde auf seiner abgelegenen Farm in Plainfield,
+        Wisconsin, 1957 verhaftet, nachdem die Ladenbesitzerin <strong>Bernice Worden</strong>
+        spurlos verschwunden war. Was die Ermittler auf seinem Hof fanden, gehört bis heute zu
+        den verstörendsten Funden der amerikanischen Kriminalgeschichte: Möbel, Masken und
+        Kleidungsstücke aus menschlicher Haut, angefertigt aus den Überresten von mindestens
+        15 verschiedenen Frauen – gestohlen aus frischen Gräbern lokaler Friedhöfe. Nachweislich
+        getötet hat Gein zwei Frauen, Mary Hogan (1954) und Bernice Worden (1957); für den
+        Mord an Hogan kam es nie zu einem eigenen Verfahren, weil Gein zu diesem Zeitpunkt
+        bereits wegen Unzurechnungsfähigkeit in psychiatrischer Verwahrung war. Sein Fall
+        inspirierte spätere Kinofiguren wie Norman Bates ("Psycho"), Leatherface ("The Texas
+        Chain Saw Massacre") und Buffalo Bill ("Das Schweigen der Lämmer"). Das Enneagramm
+        macht sichtbar, wie ausgerechnet der stillste, unauffälligste aller neun Typen zu
+        einer derart extremen Verschmelzungs-Wahnvorstellung finden konnte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ed Gein</strong> wird dem <strong>Sexuellen Typ 9 mit Einserflügel (SX9w1)</strong>
+        zugeordnet. Die sexuelle Neun sucht die tiefste Form der Verschmelzung (Merging) –
+        nicht Nähe im gewöhnlichen Sinn, sondern das vollständige Aufgehen der eigenen Identität
+        in einem anderen Menschen. Der Einserflügel bringt eine akribische, fast handwerkliche
+        Präzision hinzu. Als Geins extrem dominante Mutter Augusta 1945 starb, verlor er seinen
+        einzigen Orientierungspunkt – und begann Jahre später den wahnhaften Versuch, sie
+        physisch neu zu verkörpern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der gläserne, periphere Blick:</strong>
+        Gerichtsreporter, die den Prozess verfolgten, beschrieben Geins Blick als "gläsern",
+        "weich" und "ständig ins Leere gerichtet". Er fixierte Menschen selten direkt – ein
+        klassisches Zeichen der Neuner-Trance, des Rückzugs in die innere Peripherie.</p>
+        <p class="vb-intro"><strong>b) Das sanfte, verlegene Lächeln:</strong>
+        Während Verhören und Fotoaufnahmen trug Gein oft ein leichtes Schmunzeln – kein
+        böswilliges Grinsen, sondern das naive, deeskalierende Lächeln eines Menschen, der
+        gefallen möchte und die Schwere der Situation gar nicht greifen kann.</p>
+        <p class="vb-intro"><strong>c) Kindliche Stimme, reflexhafte Unterwerfung:</strong>
+        Die Ermittler berichteten von einer sehr hohen, leisen, monotonen Stimme. Gein versuchte
+        durchgehend, den Polizisten zu gefallen und ihnen keine Unannehmlichkeiten zu bereiten –
+        die submissive Anpassungsbereitschaft der Neun, selbst im Angesicht der eigenen Taten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unscheinbar bis zur Unsichtbarkeit:</strong>
+        In Plainfield galt Gein jahrelang als der verlässliche, aber "seltsame" Handlanger und
+        Babysitter – sanftmütig, leise, scheu. Nachbarn beschrieben ihn als geistig oft
+        abwesend, ohne eigene Meinung oder Präsenz. Naranjos Bild der Neun als "Fliege an der
+        Wand" trifft Geins Auftreten fast wörtlich.</p>
+        <p class="vb-intro"><strong>b) Anpassung ohne Aufbegehren:</strong>
+        Seine Mutter Augusta war eine fanatisch-religiöse, männerverachtende Frau, die
+        Sexualität für die Quelle allen Übels hielt und aus Ed ein "reines Werkzeug" formen
+        wollte. Ein Kind mit starker Neuner-Veranlagung begehrt bei einer derart dominanten
+        Bezugsperson nicht offen auf – es passt sich vollständig an und lässt sich formen.</p>
+        <p class="vb-intro"><strong>c) Der Zusammenbruch nach dem Verlust des Verschmelzungsobjekts:</strong>
+        Solange Augusta lebte, war sie Geins externe Identität. Als sie 1945 starb, brach das
+        Konstrukt zusammen – die verschmelzungsbedürftige Neun hatte kein Objekt mehr, mit dem
+        sie verschmelzen konnte, was schließlich in den Versuch mündete, sich die Mutter im
+        wörtlichen Sinn wieder überzustreifen.</p>
+        <p class="vb-intro"><strong>d) Handwerkliche Präzision – der Einserflügel:</strong>
+        Gein hortete die Leichenteile nicht schlicht, sondern verarbeitete, vernähte und
+        ordnete sie strukturiert zu Haushaltsgegenständen. Diese akribische, fast
+        handwerkliche Systematik – so grotesk ihr Ergebnis auch war – trägt die Handschrift
+        des Einserflügels.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Grabschändungen über mehrere Jahre:</strong>
+        Nach dem Tod der Mutter begann Gein, in Lokalzeitungen gezielt nach Todesanzeigen
+        älterer, angesehener Frauen aus der Umgebung zu suchen. In neun nachgewiesenen Fällen
+        öffnete er frische Gräber und entwendete die Leichen, um sie auf seiner Farm zu
+        verarbeiten.</p>
+        <p class="vb-intro"><strong>b) Mary Hogan, 1954:</strong>
+        Die 51-jährige Barbesitzerin verschwand spurlos aus ihrer Bar. Gein gestand später,
+        sie erschossen zu haben – zu einem eigenen Prozess kam es nie, da er zum Zeitpunkt des
+        Geständnisses bereits als unzurechnungsfähig eingestuft war.</p>
+        <p class="vb-intro"><strong>c) Bernice Worden, 1957:</strong>
+        Der Mord an der 58-jährigen Ladenbesitzerin verlief typisch für die dissoziierte Neun:
+        kein Kampf, kein Wutausbruch. Gein schlich sich in ihren Eisenwarenladen, schoss, als
+        sie ihm den Rücken zudrehte, und transportierte die Leiche unmittelbar auf seinen Hof –
+        pragmatisch, leise, wie im Trancezustand.</p>
+        <p class="vb-intro"><strong>d) Verhaftung und Befund:</strong>
+        Bei der Festnahme im November 1957 beschrieben Sheriff Art Schley und die
+        Ermittlungsbeamten Gein als bemerkenswert ruhig, fast höflich, ohne jeden Widerstand.
+        Der Gerichtspsychiater Dr. Edward Kelleher diagnostizierte eine schwere chronische
+        Schizophrenie und hob hervor, dass Gein während der Befragungen zu den makabren Funden
+        weder Scham noch Reue noch Ekel zeigte, sondern emotional völlig eingeebnet blieb
+        (blunted affect).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Neun in der Trance</h3>
+        <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – keine
+        körperliche, sondern eine psychische Trägheit: die Betäubung des eigenen Bewusstseins
+        gegenüber der Realität. Extrem ungesunde Neuner narkotisieren sich selbst so
+        vollständig, dass die eigene Agenda und Identität kaum noch spürbar sind. Bei Gein
+        führte das zu einer vollständigen Dissoziation: Die Taten lösten kein
+        Unrechtsbewusstsein aus, weil er psychisch in einer eigenen, abgespaltenen Traumwelt
+        lebte, in der das Töten lediglich ein Mittel zum Zweck war – ein handwerklicher
+        Notwendigkeitsschritt auf dem Weg zur ersehnten Verschmelzung, nicht ein Akt aus Hass
+        oder Machtgelüst.</p>
+        <p class="vb-intro">Genau diese Trägheit erklärt auch, warum Neuner-Täter im
+        Enneagramm eine absolute Ausnahmeerscheinung sind: Der Neun fehlt der typische
+        Täter-Antrieb aus Wut, Paranoia oder Geltungssucht. Nur das Zusammentreffen einer
+        extrem dominanten, formenden Bezugsperson, deren plötzlichem Verlust und einer bereits
+        bestehenden schweren Psychose konnte diese seltene, tragische Dynamik hervorbringen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Die Opfer als Mutter-Stellvertreter</h3>
+        <p class="vb-intro">Sowohl die beiden getöteten Frauen als auch die Frauen, deren
+        Gräber Gein öffnete, wiesen auffällige Parallelen zu seiner Mutter auf: Sie waren
+        durchweg im mittleren bis höheren Alter – genau in dem Alter, in dem Augusta stand,
+        als die Bindung zu ihr am intensivsten war – und galten als resolute, eigenständige
+        Persönlichkeiten. Mary Hogan führte als alleinstehende Frau eine Bar, Bernice Worden
+        leitete selbstständig den örtlichen Eisenwarenladen. Dieser dominante, bestimmende
+        Charakter entsprach exakt dem Wesen Augustas, die die Familie mit eiserner Hand
+        regiert hatte.</p>
+        <p class="vb-intro">Gein suchte nicht nach zufälligen Opfern zur Befriedigung von
+        Sadismus. Er suchte nach Stellvertretern für seine Mutter – der Versuch, sich Frauen
+        einzuverleiben, die energetisch und von der Persönlichkeit her wie Augusta waren, um
+        die verlorene Symbiose wiederherzustellen. Nicht Hass trieb ihn an, sondern die
+        wahnhafte Sehnsucht nach Aneignung ihres Wesens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Tier: Das Faultier</h3>
+        <p class="vb-intro">Das Faultier ist das Tier der sexuellen Neun – ein Tier, das sich
+        so selten und langsam bewegt, dass Algen auf seinem Fell wachsen, und das dennoch über
+        eine bemerkenswerte innere Welt verfügt. Nach außen bewegungslos, unauffällig, harmlos.
+        Im Inneren: ein Nervensystem, das ganz eigenen, kaum sichtbaren Rhythmen folgt.</p>
+        <p class="vb-intro">Für Gein: Der Nachbar, der niemandem auffiel, der sich in kein
+        Täterprofil einfügte, weil er schlicht keine bedrohliche Ausstrahlung besaß. Genau
+        diese Unscheinbarkeit – die eigentliche Stärke des Faultiers, sich der Aufmerksamkeit
+        von Raubtieren zu entziehen – wurde bei Gein zum Schutzschild, hinter dem sich
+        jahrelang unentdeckt eine völlig andere Wirklichkeit verbarg.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Abgrenzung: Ed Gein (SX9) vs. Jeffrey Dahmer (SX5)</h3>
+        <p class="vb-intro">Beide Fälle werden in der Kriminalpsychologie oft nebeneinander
+        genannt, folgen aber einer grundverschiedenen inneren Logik. <strong>Jeffrey
+        Dahmer (SX5)</strong> handelte aus dem Motiv des Besitzens und Konservierens: Er wollte
+        seine Opfer in einen Zustand absoluter Passivität versetzen, um Kontrolle zu behalten
+        und Trennungsangst zu vermeiden – eine distanzierte, analytische Aneignung.</p>
+        <p class="vb-intro"><strong>Ed Gein (SX9)</strong> wollte sein Gegenüber nicht
+        kontrollieren, sondern in dessen Identität eingehen. Das Motiv war nicht Besitz,
+        sondern die Auflösung des eigenen Ichs in der Person der Mutter – Verschmelzung statt
+        Kontrolle, Auflösung statt Aneignung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Parallele im selben Subtyp: Wolfgang Beltracchi (SX9w1)</h3>
+        <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="kriminalpsychologie-wolfgang-beltracchi">Wolfgang Beltracchi</a>,
+        der als Kunstfälscher rund 300 Werke berühmter Meister täuschend echt reproduzierte,
+        ist in diesem Kompass als SX9w1 typisiert – und sein Motiv trägt denselben Kern wie
+        Geins: nicht Gier oder Machtstreben, sondern eine tiefe, fast liebevolle Verschmelzung.
+        Wo Beltracchi mit dem Geist toter Maler verschmolz, versuchte Gein, mit dem Körper
+        seiner toten Mutter zu verschmelzen. Derselbe Grundmechanismus der sexuellen Neun –
+        die vollständige Auflösung der eigenen Identität in einer anderen – zeigt sich hier in
+        zwei denkbar extremen Ausprägungen: bei Beltracchi kanalisiert in ein bewundertes
+        Kunsthandwerk, bei Gein entgleist in eine tödliche Psychose.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">8. Zusammenfassung</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Ed Gein zeigt das absolute Extrem der sexuellen Neun mit Einserflügel: Wenn die Suche
+        nach Verschmelzung pathologisch wird und das Verschmelzungsobjekt zerbricht, kann die
+        Psyche versuchen, diese Verschmelzung mit physischer Gewalt und wahnhaften Mitteln zu
+        erzwingen. Nach außen der unscheinbarste, sanftmütigste Mann von Plainfield – nach
+        innen eine vollständig abgespaltene Realität, in der das Töten kein Akt des Hasses war,
+        sondern der verzweifelte, kranke Versuch, eine verlorene Symbiose wiederherzustellen.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Der Fall zeigt, dass auch der vermeintlich sanfteste Typ des Enneagramms unter
+        maximaler Psychopathologie und absolutem Realitätsverlust in bizarr-destruktive
+        Verhaltensmuster abgleiten kann – eine seltene, tragische Ausnahmeerscheinung, keine
+        typische Ausprägung der sexuellen Neun.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Die
+        rechtskräftig festgestellten Taten Geins sind zu verurteilen – das Enneagramm erklärt,
+        es rechtfertigt nicht.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – Kunstfälscher"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
+      </div>
+    </div>
+  `);
+}
+
 function johnHinckleyJrPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10767,363 +10987,6 @@ function ojSimpsonPortraitPage() {
           {route:"krankheitsportraets-oj-simpson", label:"Krankheitsporträt: O.J. Simpson (SO3w4) – Prostatakrebs"},
         ])}
       </div>
-    </div>
-  `);
-}
-
-function wadeWilsonPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Wade Wilson \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/wade-wilson-portrait.jpg" alt="Wade Wilson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Wade Wilson</p>
-        <p class="krim-portrait-typ">SO3w4 \u00b7 Sozialer Typ 3 mit Viererfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienm\u00f6rder, Florida \u00b7 Tierentsprechung: Gepard</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Wade Wilson</strong>, geboren am 26. August 1996 in Florida,
-        wurde im Oktober 2024 nach einem der meistbeachteten Strafprozesse
-        des Jahres in den USA zum Tode verurteilt. Am 5. Oktober 2019
-        t\u00f6tete er in Cape Coral zwei Frauen in derselben Nacht:
-        Kristine Melton (35) und Diane Ruiz (43). Er hatte beide
-        an jenem Abend kennengelernt. Die Morde wurden als kaltbl\u00fctig
-        und zielgerichtet beschrieben; Wilson zeigte keinerlei Anzeichen
-        von Panik oder Reue. Was den Fall dar\u00fcber hinaus in die Schlagzeilen
-        brachte, war Wilsons Verhalten w\u00e4hrend des gesamten Gerichtsverfahrens:
-        Er lachte, grimassierte, schien die Aufmerksamkeit sichtlich
-        zu genie\u00dfen \u2013 und wirkte zu keinem Zeitpunkt wie jemand,
-        der sich in einer existenziell bedrohlichen Situation befindet.
-        Das Gericht sprach ihn in beiden F\u00e4llen schuldig.
-        Das Todesurteil wurde im Oktober 2024 verk\u00fcndet.
-        Wilson wurde 28 Jahre alt, als das Urteil fiel.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wade Wilson</strong> wird dem <strong>Sozialen Typ 3 mit Viererfl\u00fcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> \u2013
-        nicht im flachen Sinne von Egoismus, sondern als tiefes strukturelles Bed\u00fcrfnis,
-        durch Leistung, Bild und Wirkung auf andere zu existieren.
-        Der Soziale Subtyp (SO3) ist der Verst\u00e4rkungstyp der Drei: Er verst\u00e4rkt
-        die Kernleidenschaft der Eitelkeit am deutlichsten \u2013 er richtet
-        sie auf Status innerhalb einer Gruppe, auf Ansehen, Bewunderung
-        und die Frage, wie man auf der sozialen B\u00fchne wahrgenommen wird.
-        Der Viererfl\u00fcgel verleiht dieser Orientierung Intensit\u00e4t und eine
-        Sehnsucht nach Einzigartigkeit: Nicht nur erfolgreich sein,
-        sondern unverwechselbar, besonders, anders als alle anderen.
-        Bei Wilson entfaltete sich diese Konstellation in extremster Form:
-        Der Gerichtssaal wurde zur B\u00fchne, das Verfahren zum Auftritt,
-        die eigene Verurteilung zum Beweis seiner Besonderheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Kalkuliert und b\u00fchnengewandt:</strong>
-        <strong>Wilsons</strong> Blick im Gerichtssaal war kein Blick
-        der Angst oder Scham \u2013 er war der Blick
-        eines Performers, der sein Publikum kennt.
-        Er schaute in Kameras, beobachtete Zuschauerreaktionen,
-        spielte mit Mimik und Timing.
-        Das SO3w4-Muster unverfälscht: Die soziale Drei liest
-        R\u00e4ume blitzschnell und wei\u00df intuitiv,
-        wie sie wirkt. Wilson nutzte diese F\u00e4higkeit,
-        um aus einem Mordprozess eine One-Man-Show zu machen.</p>
-        <p class="vb-intro"><strong>b) Ohne Angst vor dem Urteil der Anderen:</strong>
-        Wo die meisten Angeklagten im Bewusstsein der
-        gesellschaftlichen Verurteilung zusammenbrechen,
-        schien <strong>Wilson</strong> durch sie gest\u00e4rkt.
-        Das ist das paradoxe Muster des SO3w4 in der Desintegration:
-        Wenn positives Ansehen unerreichbar wird,
-        wird negatives Ansehen zur Alternative.
-        Ber\u00fcchtigt zu sein ist besser als unsichtbar zu sein.
-        Aufmerksamkeit um jeden Preis ist besser als keine.</p>
-        <p class="vb-intro"><strong>c) Intensiv und unberechenbar:</strong>
-        Der Viererfl\u00fcgel verleiht dem Blick der Drei
-        eine emotionale Tiefe, die schwer einzuordnen ist.
-        <strong>Wilson</strong> wirkte nicht kalt im klinischen Sinne \u2013
-        er wirkte pr\u00e4sent, engagiert, seltsam lebendig.
-        Diese Qualit\u00e4t irritierte Beobachter mehr
-        als Gleichg\u00fcltigkeit es getan h\u00e4tte:
-        Jemand, der offensichtlich etwas f\u00fchlt,
-        aber nicht das, was man erwartet.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Gerichtssaal als B\u00fchne:</strong>
-        <strong>Wilsons</strong> Verhalten w\u00e4hrend des Prozesses
-        war in seiner Konsequenz ungew\u00f6hnlich:
-        Er lachte, machte Grimassen, schien die Aufmerksamkeit
-        der Medien und des Publikums zu suchen.
-        Das ist das SO3-Muster: Die soziale Drei braucht
-        ein Publikum, eine B\u00fchne, Resonanz.
-        Dass der Kontext ein Mordprozess war,
-        \u00e4nderte an dieser Grundstruktur offenbar nichts \u2013
-        der B\u00fchneninstinkt \u00fcberlagerte die Situation.</p>
-        <p class="vb-intro"><strong>b) Einzigartigkeit als Identit\u00e4tskern:</strong>
-        Der Viererfl\u00fcgel der Drei tr\u00e4gt eine tiefe Sehnsucht
-        nach Unverwechselbarkeit: nicht nur gut sein,
-        sondern anders sein, tiefer, intensiver,
-        jenseits der Kategorie der Gew\u00f6hnlichen.
-        <strong>Wilson</strong> schien sich im Prozess tats\u00e4chlich
-        als etwas Besonderes zu erleben \u2013
-        nicht als Verbrecher im moralischen Sinne,
-        sondern als jemanden, der durch sein Handeln
-        aus der Masse herausgetreten ist.</p>
-        <p class="vb-intro"><strong>c) K\u00e4lte als Performanz:</strong>
-        Die emotionale Distanz, die <strong>Wilson</strong>
-        gegen\u00fcber seinen Opfern zeigte,
-        war keine psychopathische Leere \u2013
-        sie war Ausdruck einer Drei, die gelernt hat,
-        Gef\u00fchle im Dienst des Auftritts zu steuern.
-        Die Drei trennt konsequent zwischen Innen und Au\u00dfen.
-        F\u00fcr den SO3w4 wird diese Trennung zur Waffe:
-        Wer kontrolliert, was er zeigt,
-        bestimmt, wie er wahrgenommen wird.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Blitzschnelle Situationsanalyse:</strong>
-        Die Drei \u2013 besonders in der sozialen Variante \u2013
-        liest soziale R\u00e4ume au\u00dfergew\u00f6hnlich schnell.
-        <strong>Wilson</strong> zeigte diese F\u00e4higkeit nicht nur im
-        Gerichtssaal: Die Taten selbst, zwei Morde
-        in einer einzigen Nacht mit zwei verschiedenen
-        Personen, zeugen von einer Handlungsgeschwindigkeit
-        und situativen Anpassungsf\u00e4higkeit,
-        die f\u00fcr einen 23-J\u00e4hrigen ungew\u00f6hnlich ist.</p>
-        <p class="vb-intro"><strong>b) Anpassung ohne innere Bindung:</strong>
-        Die Drei passt sich an \u2013 nicht aus Schw\u00e4che,
-        sondern weil Anpassung ihr strategisches Instrument ist.
-        <strong>Wilson</strong> konnte in einer einzigen Nacht
-        mit zwei verschiedenen Frauen Kontakt aufnehmen,
-        Vertrauen erzeugen und dann t\u00f6ten.
-        Das setzt eine F\u00e4higkeit voraus,
-        Rollen zu \u00fcbernehmen und zu verlassen,
-        ohne daran emotional zu h\u00e4ngen \u2013
-        das klassische Dreier-Muster in seiner dunkelsten Form.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\u00fcgel als dramatisches Gewissen:</strong>
-        Wo eine Drei mit schwach ausgepr\u00e4gtem Viererfl\u00fcgel pragmatisch und n\u00fcchtern bleibt,
-        bringt der Viererfl\u00fcgel eine dramatische Innenwelt mit.
-        Der SO3w4er ist kein blo\u00dfer Opportunist \u2013
-        er hat ein inneres Narrativ \u00fcber sich selbst,
-        das mit Bedeutung, Tiefe und Intensit\u00e4t aufgeladen ist.
-        <strong>Wilsons</strong> Gerichtsverhalten l\u00e4sst vermuten,
-        dass er sich selbst als Protagonisten einer
-        bedeutsamen Geschichte erlebte \u2013
-        nicht als T\u00e4ter, der zur Verantwortung gezogen wird.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Faszination statt Abscheu:</strong>
-        Viele Beobachter des Prozesses berichteten,
-        dass <strong>Wilsons</strong> Verhalten sie trotz allem
-        in den Bann zog \u2013 nicht aus Sympathie,
-        sondern aus Unverst\u00e4ndnis.
-        Das ist die Wirkung des SO3w4 auf ein Publikum:
-        Er ist nicht leicht einzuordnen,
-        nicht leicht wegzuschauen, nicht leicht zu vergessen.
-        Die Drei ist ein Performer; der Viererfl\u00fcgel sorgt daf\u00fcr,
-        dass der Auftritt nicht glatt ist, sondern st\u00f6rend sch\u00f6n.</p>
-        <p class="vb-intro"><strong>b) Mediale Pr\u00e4senz als Triumph:</strong>
-        <strong>Wilson</strong> wurde durch den Prozess international bekannt.
-        F\u00fcr den SO3 ist Bekanntheit W\u00e4hrung \u2013
-        unabh\u00e4ngig von ihrer moralischen Qualit\u00e4t.
-        Das Urteil brachte ihm mehr Aufmerksamkeit
-        als jede andere Handlung seines bisherigen Lebens.
-        In der verdrehten Logik des desintegrierten SO3
-        k\u00f6nnte das als Erfolg erscheinen.</p>
-        <p class="vb-intro"><strong>c) Todesurteil als letzter Auftritt:</strong>
-        Die Verk\u00fcndung des Todesurteils
-        schien <strong>Wilson</strong> nicht zu ersch\u00fcttern.
-        Das ist das SO3w4-Muster in seiner extremsten Auspr\u00e4gung:
-        Selbst das eigene Ende wird zum Inhalt
-        des Narrativs \u00fcber sich selbst \u2013
-        als letzte Best\u00e4tigung, dass man
-        etwas Ungew\u00f6hnliches war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Elektrisierende Gegenwart:</strong>
-        <strong>Wilsons</strong> Energie im Gerichtssaal
-        wurde von Journalisten und Zuschauern
-        \u00fcbereinstimmend als beunruhigend lebendig beschrieben.
-        Nicht aggressiv, nicht eingesch\u00fcchtert \u2013
-        sondern wach, reaktionsschnell, scheinbar am\u00fcsiert.
-        Der SO3w4er bringt eine elektrisierende Qualit\u00e4t mit,
-        die Aufmerksamkeit auf sich zieht,
-        ohne aktiv darum zu werben.</p>
-        <p class="vb-intro"><strong>b) Keine sichtbare Ersch\u00f6pfung:</strong>
-        Ein Mordprozess dauert Wochen.
-        Die meisten Angeklagten wirken im Laufe der Zeit
-        zunehmend ersch\u00f6pft und abgenutzt.
-        <strong>Wilson</strong> schien im Gegenteil zu wachsen \u2013
-        als w\u00fcrde die Aufmerksamkeit ihm Energie geben.
-        Das ist die Drei, die ihren Energiehaushalt
-        \u00fcber Au\u00dfenwirkung reguliert:
-        Resonanz ist Nahrung; B\u00fchne ist Erholung.</p>
-        <p class="vb-intro"><strong>c) Leerstelle hinter dem Auftritt:</strong>
-        Wer genau hinsah, bemerkte hinter der B\u00fchnenpr\u00e4senz
-        eine eigenartige Hohlheit \u2013 nicht Leere im Sinne von Gef\u00fchllosigkeit,
-        sondern das Fehlen eines inneren Kerns,
-        der unabh\u00e4ngig vom Publikum existiert.
-        Das ist das tiefste Muster der Drei:
-        Sie wei\u00df oft selbst nicht,
-        wer sie ist, wenn niemand zuschaut.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Der Gepard</h3>
-        <p class="vb-intro"><strong>a) Gebaut f\u00fcr maximale Wirkung:</strong>
-        Der Gepard ist das schnellste Landtier der Welt \u2013
-        und gleichzeitig eines der elegantesten.
-        Sein K\u00f6rper ist vollst\u00e4ndig auf Leistung ausgerichtet:
-        Schlankheit, Wendigkeit, explosiver Antritt.
-        <strong>Wilson</strong> besa\u00df dieselbe Qualit\u00e4t
-        der optimierten Wirkung: jung, gewandt, scheinbar m\u00fchelos
-        pr\u00e4sent. Die SO3-Energie ist Energie der
-        sichtbaren Exzellenz \u2013 der Gepard verk\u00f6rpert sie
-        in ihrer reinsten tierischen Form.</p>
-        <p class="vb-intro"><strong>b) Der Angriff aus dem Nichts:</strong>
-        Der Gepard pirscht sich nicht langsam an \u2013
-        er wartet auf den richtigen Moment
-        und explodiert dann in Bewegung.
-        Zwischen Stille und Vollgeschwindigkeit
-        liegen Sekunden.
-        <strong>Wilsons</strong> Taten hatten dieselbe Struktur:
-        normaler Abend, sozialer Kontakt, Vertrauen \u2013
-        und dann, unvermittelt, die Tat.
-        Die Drei handelt, wenn der Moment stimmt.
-        Z\u00f6gern ist nicht ihr Muster.</p>
-        <p class="vb-intro"><strong>c) Sch\u00f6nheit, die nicht sch\u00fctzt:</strong>
-        Der Gepard ist trotz seiner \u00fcberlegenen Geschwindigkeit
-        kein Apex-Raubtier: Er verliert Beute an L\u00f6wen,
-        Hy\u00e4nen, sogar Geier. Seine St\u00e4rke ist situativ,
-        nicht absolut. Auch <strong>Wilson</strong> war in der
-        Au\u00dfenwirkung \u00fcberlegen \u2013 im Gerichtssaal, vor Kameras,
-        in kurzen sozialen Begegnungen.
-        Aber das System, das gr\u00f6\u00dfer ist als der Einzelne \u2013
-        Justiz, Gesellschaft, Zeit \u2013
-        holte ihn dennoch ein.
-        Der Gepard gewinnt den Sprint;
-        das Leben ist ein Ausdauerrennen.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Wade Wilson</strong> verk\u00f6rpert den Sozialen Typ 3 mit Viererfl\u00fcgel
-        in einer Auspr\u00e4gung, die das Muster der Drei
-        bis an seine \u00e4u\u00dferste Grenze f\u00fchrt.
-        Die soziale Drei braucht ein Publikum,
-        um sich selbst zu erleben \u2013 und Wilson fand es,
-        wo niemand erwartet h\u00e4tte, dass jemand danach sucht:
-        im Gerichtssaal, im Angesicht des Todesurteils.
-        Der Viererfl\u00fcgel sorgte daf\u00fcr, dass die Geschichte
-        mit dramatischer Bedeutung aufgeladen war \u2013
-        nicht als Trag\u00f6die im empathischen Sinn,
-        sondern als intensiver Beweis der eigenen Einzigartigkeit.
-        Wilson ist kein Beweis f\u00fcr die B\u00f6swilligkeit der Drei.
-        Er ist ein Extremfall dessen, was entsteht,
-        wenn das Bed\u00fcrfnis nach Gesehen-werden
-        jeden anderen inneren Kompass \u00fcberw\u00e4ltigt \u2013
-        wenn das Publikum wichtiger wird als das Leben anderer
-        und schlie\u00dflich als das eigene.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO3 \u2013 der Verst\u00e4rkungstyp:</strong>
-        Claudio Naranjo beschrieb die soziale Drei
-        als den Verst\u00e4rkungstyp \u2013 den Subtyp,
-        der die Leidenschaft der Eitelkeit am reinsten
-        und deutlichsten verk\u00f6rpert.
-        Der SO3er pr\u00e4sentiert sich selbst als bedeutsame Figur
-        innerhalb eines sozialen Rahmens \u2013 Gruppenstatus
-        und soziale Anerkennung sind seine Kernw\u00e4hrung.
-        <strong>Wilson</strong> passt in dieses Bild:
-        Der Gerichtssaal war sein sozialer Rahmen,
-        das Urteil sein Status-Marker.</p>
-        <p class="vb-intro"><strong>b) Der Viererfl\u00fcgel und die Sehnsucht nach Tiefe:</strong>
-        Der Viererfl\u00fcgel verleiht der Drei eine innere Dramatik,
-        die sie von der reinen Leistungsorientierung
-        der SE3 unterscheidet. Der SO3w4er will nicht nur
-        bewundert werden \u2013 er will f\u00fcr einzigartig gehalten werden.
-        Diese Sehnsucht nach Unverwechselbarkeit
-        kann, wenn keine konstruktive Form gefunden wird,
-        in destruktive Selbstinszenierung umschlagen.</p>
-        <p class="vb-intro"><strong>c) Desintegration in die Neun:</strong>
-        Der Stresspunkt der Drei ist die Neun:
-        R\u00fcckzug, Bet\u00e4ubung, Handlungslosigkeit.
-        <strong>Wilson</strong> zeigte in der Tatnacht das Gegenteil \u2013
-        explosives Handeln, keine Hemmung, kein Innehalten.
-        Das deutet auf eine Drei, die nicht in die Neun
-        desintegriert, sondern in die entgegengesetzte Richtung
-        \u00fcberl\u00e4uft: in \u00fcbersteuerte Handlungsbereitschaft,
-        die jeden Impuls sofort umsetzt.</p>
-        <p class="vb-intro"><strong>d) Vergleich mit Luka Magnotta (SX3):</strong>
-        Magnotta inszenierte sich digital \u2013 \u00fcber Jahrzehnte,
-        mit aufwendig konstruierten Online-Identit\u00e4ten.
-        <strong>Wilson</strong> brauchte keine Vorbereitungszeit:
-        Er fand seine B\u00fchne im Echtzeit-Gerichtssaal.
-        Das ist der Unterschied zwischen SX3 und SO3:
-        Die sexuelle Drei baut eine intensive, private
-        Spiegelwelt; die soziale Drei braucht ein Publikum
-        im Raum \u2013 live, unmittelbar, reaktionsf\u00e4hig.</p>
-        <p class="vb-intro"><strong>e) Moralische Entkopplung als Dreier-Muster:</strong>
-        Die Drei trennt konsequent zwischen dem,
-        was sie nach au\u00dfen zeigt, und dem, was sie innen f\u00fchlt.
-        Diese Entkopplung ist in gesunden Auspr\u00e4gungen
-        Grundlage professioneller Exzellenz.
-        In der Desintegration wird sie zur moralischen Blindstelle:
-        Die Frage, ob eine Handlung richtig ist,
-        wird ersetzt durch die Frage, ob sie wirkt.
-        <strong>Wilson</strong> schien diese Verschiebung vollzogen zu haben \u2013
-        mit Konsequenzen, die f\u00fcr zwei Frauen t\u00f6dlich waren.</p>
-        <p class="vb-intro"><strong>f) Das Todesurteil und die Drei:</strong>
-        F\u00fcr einen Typ 3 ist das Ende der \u00f6ffentlichen B\u00fchne
-        vielleicht bedrohlicher als das biologische Ende.
-        Das Todesurteil nahm <strong>Wilson</strong> nicht die Aufmerksamkeit \u2013
-        es steigerte sie. Erst nach Vollstreckung
-        verliert die Drei den Resonanzraum, der ihr Selbstgef\u00fchl tr\u00e4gt.
-        Ob Wilson das wei\u00df oder ahnt, wissen wir nicht.
-        Was wir wissen: Bis zum letzten sichtbaren Moment
-        blieb er auf der B\u00fchne.</p>
-      </div>
-
-      <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
-        <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Pers\u00f6nlichkeitsanalyse Wade Wilson (SO3)</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/XS7g6LzrUxk?rel=0"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SO3 im Vergleich mit SE3 und SX3 \u2013 Verst\u00e4rkungstyp-Dynamik und Statusmuster der sozialen Drei.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO3, SE3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\u00fchrlich portr\u00e4tiert \u2013 Eitelkeit, Maske und der Heilungsweg \u00fcber echte Authentizit\u00e4t.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Wade Wilson wurde 2024 in Florida wegen zweier Morde zum Tode verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3)"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
-        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
-      ])}
     </div>
   `);
 }

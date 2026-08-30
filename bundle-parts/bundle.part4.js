@@ -322,6 +322,7 @@ const registerEntriesEN = [
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Musician, songwriter, ex-Beatle" },
   { term: "Leo Tolstoy", route: "beruehmte-leo-tolstoi", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Writer, War and Peace" },
   { term: "Penélope Cruz", route: "beruehmte-penelope-cruz", description: "Portrait: SE3w2 · Self-Preservation Type 3 · Actress, art of transformation" },
+  { term: "Norah Jones", route: "beruehmte-norah-jones", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Singer, songwriter" },
   { term: "Peter Lustig", route: "beruehmte-peter-lustig", description: "Portrait: SE5w6 · Self-Preservation Type 5 · TV children's personality, crafting & nature" },
   { term: "Pharrell Williams", route: "beruehmte-pharrell-williams", description: "Portrait: SO3w2 · Social Type 3 · Music producer, musician, fashion designer" },
   { term: "Frida Kahlo", route: "beruehmte-frida-kahlo", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Painter, self-portraits" },

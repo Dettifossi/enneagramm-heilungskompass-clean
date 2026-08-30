@@ -5193,6 +5193,7 @@ function render() {
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
+      "beruehmte-norah-jones": norahJonesPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,

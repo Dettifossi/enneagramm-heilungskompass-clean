@@ -24614,6 +24614,7 @@ const registerEntries = [
   { term: "Paul McCartney",                route: "beruehmte-paul-mccartney",              description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Musiker, Songwriter, Ex-Beatle" },
   { term: "Leo Tolstoi",                    route: "beruehmte-leo-tolstoi",                 description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Schriftsteller, Krieg und Frieden" },
   { term: "Penélope Cruz",                 route: "beruehmte-penelope-cruz",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspielerin, Verwandlungskunst" },
+  { term: "Norah Jones",                   route: "beruehmte-norah-jones",                 description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Sängerin, Songwriterin" },
   { term: "Peter Lustig",                  route: "beruehmte-peter-lustig",                description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · TV-Kinderfigur, Basteln & Natur" },
   { term: "Pharrell Williams",             route: "beruehmte-pharrell-williams",           description: "Portrait: SO3w2 · Sozialer Typ 3 · Musikproduzent, Musiker, Modedesigner" },
   { term: "Frida Kahlo",                   route: "beruehmte-frida-kahlo",                 description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Malerin, Selbstporträts" },
@@ -25106,6 +25107,7 @@ const registerEntriesEN = [
   { term: "Paul McCartney", route: "beruehmte-paul-mccartney", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Musician, songwriter, ex-Beatle" },
   { term: "Leo Tolstoy", route: "beruehmte-leo-tolstoi", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Writer, War and Peace" },
   { term: "Penélope Cruz", route: "beruehmte-penelope-cruz", description: "Portrait: SE3w2 · Self-Preservation Type 3 · Actress, art of transformation" },
+  { term: "Norah Jones", route: "beruehmte-norah-jones", description: "Portrait: SE3w4 · Self-Preservation Type 3 · Singer, songwriter" },
   { term: "Peter Lustig", route: "beruehmte-peter-lustig", description: "Portrait: SE5w6 · Self-Preservation Type 5 · TV children's personality, crafting & nature" },
   { term: "Pharrell Williams", route: "beruehmte-pharrell-williams", description: "Portrait: SO3w2 · Social Type 3 · Music producer, musician, fashion designer" },
   { term: "Frida Kahlo", route: "beruehmte-frida-kahlo", description: "Portrait: SE2w3 · Self-Preservation Type 2 · Painter, self-portraits" },
@@ -32996,6 +32998,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Pen\u00e9lope Cruz \u2013 Selbsterhaltender Typ 3",
     teaser:"SE3w2 \u00b7 geb. 1974. Oscar-pr\u00e4mierte Schauspielerin, jahrzehntelange Zusammenarbeit mit Almod\u00f3var. Handwerk statt Rampenlicht, Verwandlungskunst als Beruf \u2013 der Waschb\u00e4r, der in jeder Rolle verschwindet und doch niemals verloren geht. Tierentsprechung: Waschb\u00e4r.",
     land:"Spanien", tags:["Schauspiel"] , gender:"f"},
+  { route:"beruehmte-norah-jones", name:"Norah Jones", added:"2026-08-30", subtyp:"SE3w4",
+    heading:"Norah Jones – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · geb. 1979. Sängerin und Songwriterin, Tochter von Ravi Shankar. ›Come Away with Me‹ (2002), über 27 Millionen verkaufte Alben, acht Grammys – und bewusster Rückzug aus dem Rampenlicht statt Ausbau des Ruhms. Trat 2008 unter dem Pseudonym ›Maddie‹ im Nebenprojekt El Madmo inkognito auf. Tierentsprechung: Waschbär.",
+    land:"USA", tags:["Musik"], gender:"f"},
   { route:"beruehmte-johnny-cash", name:"Johnny Cash", added:"2026-08-29", subtyp:"SE3w4",
     heading:"Johnny Cash – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · 1932–2003. US-amerikanischer Sänger und Songwriter, ›Man in Black‹, Folsom-Prison-Konzert 1968, jahrzehntelange Sucht und Comeback mit ›American Recordings‹. Vom Tod des Bruders Jack gezeichnet, baute er über fünf Jahrzehnte eine der stabilsten Karrieren der Country-Musik auf. Tierentsprechung: Waschbär.",
@@ -73246,6 +73252,7 @@ function johnnyCashPortraitPage() {
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
       ])}
     </div>
   `);
@@ -74373,6 +74380,75 @@ function penelopeCruzPortraitPage() {
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function norahJonesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-norah-jones-portrait.jpg" alt="Norah Jones" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Norah Jones</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin &amp; Songwriterin, geb. 1979 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit, und das sich mit Leichtigkeit verwandelt, wenn die Umgebung es verlangt. Norah Jones wuchs nach der Trennung ihrer Eltern 1986 bei ihrer Mutter in Grapevine, Texas auf, weitgehend getrennt von ihrem berühmten Vater, dem Sitar-Virtuosen Ravi Shankar. Mit sechzehn Jahren nahm sie – mit Zustimmung ihrer Eltern – den Namen Norah Jones an, statt unter ihrem eigentlichen Nachnamen aufzutreten.</p>
+          <p class="vb-intro">Diese frühe Entscheidung ist bereits reine SE3-Logik: Statt vom Glanz eines berühmten Namens zu profitieren, wählte sie den unauffälligeren Weg – ihre eigene Kompetenz sollte für sich sprechen, nicht die Herkunft. Der Waschbär, der sich lieber eine eigene, unscheinbare Nische baut, als im Schatten eines bereits etablierten Reviers zu leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Erfolg, der nicht überwältigen darf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie zeigt am wenigsten von dem, was man landläufig mit dem Bild der Drei verbindet. Statt Selbstinszenierung sucht sie Sicherheit über nachweisbare Kompetenz und ein solides, unspektakuläres Fundament. Als ihr Debütalbum ›Come Away with Me‹ (2002) über 27 Millionen Mal verkauft und mit acht Grammys ausgezeichnet wurde, äußerte Jones offen ihre Sorge, dass dieser plötzliche Ruhm sie „verschlingen" könnte – gerade weil die Medien bereits stark auf ihren berühmten Vater fixiert waren und sie fürchtete, in dieser Aufmerksamkeit als eigenständige Person unterzugehen.</p>
+          <p class="vb-intro">„Der Ruhm kam zu schnell. Es fühlte sich verrückt an", sagte sie rückblickend über diese Zeit. Statt den Erfolg auszukosten und zu vergrößern, wie es eine sozial oder sexuell orientierte Drei vielleicht getan hätte, reagierte sie mit Rückzug und bewusster Verlangsamung – die SE3 sichert sich ab, statt sich der Bühne weiter auszusetzen.</p>
+          <p class="vb-intro">Auch ihr Privatleben hält sie bis heute konsequent aus der Öffentlichkeit heraus: Sie lebt mit einem Musiker-Partner und ihren beiden Söhnen, ohne deren Namen, ihren Beziehungsstatus oder ihren Wohnort öffentlich zu machen. Der Waschbär baut sein Nest dort, wo niemand hinsieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Viele Masken, eine Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine künstlerische Tiefe, die über reine Funktionalität hinausgeht: das Bedürfnis, sich nicht nur kompetent, sondern auch individuell und emotional ehrlich auszudrücken – notfalls unter einem anderen Namen, wenn der eigene zu groß und zu belastet geworden ist. Genau das tat Jones 2008 mit dem Nebenprojekt El Madmo: Unter dem Bühnennamen „Maddie", mit grellem Glam-Make-up, Perücke und Kostüm, spielte sie Gitarre und sang in einem kleinen, theatralischen Trio – unerkannt, befreit von den Erwartungen, die der Name „Norah Jones" mittlerweile trug.</p>
+          <p class="vb-intro">Diese Lust an der Verwandlung zieht sich durch ihre gesamte Karriere: die Alt-Country-Band The Little Willies, das feministisch-lässige Trio Puss n Boots, ein Everly-Brothers-Tribut mit Billie Joe Armstrong – kaum ein anderes Nebenprojekt-Portfolio zeigt so deutlich, wie der Viererflügel der SE3 hilft, unter wechselnden Masken immer wieder zur eigenen künstlerischen Wahrheit zurückzufinden, statt sich in einer einzigen, kommerziell bewährten Formel zu erschöpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Verwandlungskünstlerin: Genre als Werkzeug, nicht als Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Waschbär trägt eine natürliche Maske – und genau das beschreibt Jones' musikalischen Weg treffend: Statt den einmal gefundenen Jazz-Pop-Sound von ›Come Away with Me‹ endlos zu wiederholen, bewegte sie sich in den folgenden Jahrzehnten durch Country, Folk, Blues und Americana, arbeitete mit Musikern wie Willie Nelson, Dolly Parton und den Foo Fighters zusammen und veröffentlichte 2020 mit ›Pick Me Up Off the Floor‹ ein deutlich introspektiveres, düstereres Album.</p>
+          <p class="vb-intro">Das ist keine Zurschaustellung von Vielseitigkeit als Selbstzweck, sondern die SE3-Logik in ihrer klarsten Ausprägung: Kompetenz beweist sich durch das fertige Werk, nicht durch die Ankündigung eines neuen Images. Jones spricht selten ausführlich über ihre kreativen Beweggründe – sie liefert stattdessen das Album und lässt es für sich sprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, außergewöhnlichen frühen Erfolg nicht zur Bühne für Selbstinszenierung zu machen, sondern zum Ausgangspunkt für eine lange, künstlerisch vielseitige Karriere – neun Grammy Awards, über 50 Millionen verkaufte Alben und ein musikalisches Werk, das sich konsequent weiterentwickelt hat, statt sich auf dem ersten großen Erfolg auszuruhen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber nicht abwesend: das Bedürfnis, durch reine Zurückhaltung und Bescheidenheit unangreifbar zu erscheinen. Der beharrliche Rückzug aus dem Rampenlicht kann selbst zur eigenen Art von Kontrolle über das öffentliche Bild werden – „Ich rede nicht über mich" ist am Ende auch eine bewusst gewählte Aussage über sich selbst.</p>
+          <p class="vb-intro">Der Viererflügel bringt sein eigenes Schattenmuster mit: die Sorge, ohne ständige künstlerische Neuerfindung – ohne das nächste Nebenprojekt, die nächste Maske – in der eigenen musikalischen Identität zu erstarren oder auf einen einzigen frühen Erfolg reduziert zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Verstecken zum bewussten Zeigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – unabhängig davon, was ich vorweisen kann.</em> Für die SE3w4 bedeutet das, den eigenen Wert nicht länger über neue Verkleidungen oder das nächste Genre-Experiment absichern zu müssen.</p>
+          <p class="vb-intro">Jones' spätere, introspektivere Alben wie ›Pick Me Up Off the Floor‹ zeigen einen leisen, aber deutlichen Schritt in diese Richtung: mehr direkte emotionale Offenheit, weniger Versteckspiel hinter Genre-Wechseln. Der Waschbär, der irgendwann nicht mehr jede Nische füllen und jede Maske tragen muss, um sich seines Wertes sicher zu sein – sondern der eigenen Stimme trauen kann, auch ohne Verkleidung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
       ])}
     </div>
   `);
@@ -139085,6 +139161,7 @@ function render() {
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
+      "beruehmte-norah-jones": norahJonesPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,

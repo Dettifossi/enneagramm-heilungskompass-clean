@@ -1011,6 +1011,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Penélope Cruz – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1974. Oscar-winning actress, decades-long collaboration with Almodóvar. Craft over spotlight, transformation as a profession – the raccoon that vanishes into every role and never gets lost. Animal correspondence: Raccoon.",
     land:"Spain", tags:["Schauspiel"] , gender:"f"},
+{ route:"beruehmte-norah-jones", name:"Norah Jones", added:"2026-08-30", subtyp:"SE3w4",
+    heading:"Norah Jones – Self-Preservation Type 3",
+    teaser:"SP3w4 · born 1979. Singer and songwriter, daughter of Ravi Shankar. \"Come Away with Me\" (2002), over 27 million albums sold, eight Grammys – and a deliberate retreat from the spotlight instead of building on the fame. Performed incognito under the alias \"Maddie\" in the side project El Madmo in 2008. Animal correspondence: Raccoon.",
+    land:"USA", tags:["Musik"], gender:"f"},
 { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
@@ -19013,6 +19017,7 @@ function johnnyCashPortraitPage() {
         {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
       ])}
     </div>
   `);
@@ -45488,6 +45493,75 @@ function penelopeCruzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function norahJonesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-norah-jones-portrait.jpg" alt="Norah Jones" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Norah Jones</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Singer &amp; songwriter, b. 1979 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that impresses not through display but through skill, and that transforms with ease whenever its surroundings demand it. After her parents separated in 1986, Norah Jones grew up with her mother in Grapevine, Texas, largely apart from her famous father, sitar virtuoso Ravi Shankar. At sixteen, with her parents' consent, she adopted the name Norah Jones instead of performing under her actual surname.</p>
+          <p class="vb-intro">This early decision is pure SP3 logic: rather than benefiting from the glow of a famous name, she chose the less conspicuous path – her own competence was meant to speak for itself, not her origin. The raccoon that would rather build its own unassuming niche than live in the shadow of an already established territory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Success That Must Not Overwhelm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is considered the counter-type of the Three: it shows the least of what is commonly associated with the image of the Three. Instead of self-promotion, it seeks security through demonstrable competence and a solid, unspectacular foundation. When her debut album <em>Come Away with Me</em> (2002) sold more than 27 million copies and won eight Grammys, Jones openly expressed her fear that this sudden fame might "swallow her up" – especially since the media had already fixated heavily on her famous father, and she worried she might get lost in that attention as a person in her own right.</p>
+          <p class="vb-intro">"Fame happened too fast. It felt insane," she said in retrospect about that period. Rather than savoring and expanding her success as a socially or sexually oriented Three might have, she responded with withdrawal and deliberate slowing down – the SP3 secures itself instead of exposing itself further to the stage.</p>
+          <p class="vb-intro">To this day, she also keeps her private life consistently out of the public eye: she lives with a musician partner and their two sons without making their names, her relationship status, or her city of residence public. The raccoon builds its den where no one is looking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Many Masks, One Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Three an artistic depth that goes beyond pure functionality: the need to express herself not only competently but also individually and emotionally honestly – under a different name if necessary, once her own has become too large and too laden with expectation. That is exactly what Jones did in 2008 with the side project El Madmo: under the stage name "Maddie," in garish glam makeup, a wig, and costume, she played guitar and sang in a small, theatrical trio – unrecognized, freed from the expectations the name "Norah Jones" had by then accumulated.</p>
+          <p class="vb-intro">This delight in transformation runs through her entire career: the alt-country band The Little Willies, the loose, feminist trio Puss n Boots, an Everly Brothers tribute with Billie Joe Armstrong – few other side-project portfolios show as clearly how the Four-wing helps the SP3 find her way back to her own artistic truth beneath ever-changing masks, rather than exhausting herself in a single, commercially proven formula.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Shape-Shifter: Genre as a Tool, Not a Brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The raccoon wears a natural mask – and that describes Jones's musical path aptly: rather than endlessly repeating the jazz-pop sound she found on <em>Come Away with Me</em>, she moved through country, folk, blues, and Americana in the decades that followed, worked with musicians like Willie Nelson, Dolly Parton, and Foo Fighters, and released the markedly more introspective, darker album <em>Pick Me Up Off the Floor</em> in 2020.</p>
+          <p class="vb-intro">This is not versatility on display for its own sake, but SP3 logic in its clearest form: competence proves itself through the finished work, not through the announcement of a new image. Jones rarely speaks at length about her creative motivations – instead, she delivers the album and lets it speak for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 is the ability to turn extraordinary early success not into a stage for self-promotion, but into the starting point for a long, artistically versatile career – nine Grammy Awards, more than 50 million albums sold, and a body of work that has consistently evolved rather than resting on its first great success.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deceit</strong> – subtler in the SP3 than in the other Three subtypes, but not absent: the need to appear unassailable through sheer restraint and modesty. Persistent withdrawal from the spotlight can itself become its own form of control over one's public image – "I don't talk about myself" is, in the end, also a deliberately chosen statement about oneself.</p>
+          <p class="vb-intro">The Four-wing brings its own shadow pattern: the worry of stagnating within one's own musical identity – or being reduced to a single early success – without constant artistic reinvention, without the next side project, the next mask.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Hiding to Deliberate Showing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am – regardless of what I can show for it.</em> For the SP3w4, this means no longer needing to secure her own worth through new disguises or the next genre experiment.</p>
+          <p class="vb-intro">Jones's later, more introspective albums like <em>Pick Me Up Off the Floor</em> show a quiet but clear step in this direction: more direct emotional openness, less hiding behind genre shifts. The raccoon that, at some point, no longer needs to fill every niche or wear every mask to be sure of its worth – but can trust its own voice, even without a costume.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
       ])}
     </div>
   `);
@@ -103003,6 +103077,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
+      "beruehmte-norah-jones": norahJonesPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
