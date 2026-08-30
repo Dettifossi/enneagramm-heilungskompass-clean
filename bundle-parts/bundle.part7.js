@@ -6650,7 +6650,6 @@ function gustavMahlerPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
-        {route:"beruehmte-reinhard-mey", label:"Portr\xe4t: Reinhard Mey (SO4w5)"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5)"},
       ])}
     </div>
@@ -6667,45 +6666,45 @@ function reinhardMeyPortraitPage() {
           <img src="./assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 – Tierentsprechung: Gürteltier</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 – Tierentsprechung: Kaninchen</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Gürteltier mit der Gitarre</h2>
+        <h2 class="vb-section">1. Der Chronist mit der Gitarre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – es verbirgt sein Anderssein nicht, sondern trägt es sichtbar vor Publikum, in eine Gruppe, die es zugleich anzieht und von der es sich unterscheidet. Kaum ein deutscher Liedermacher verkörpert dieses Bild so beständig wie Reinhard Mey: seit über fünf Jahrzehnten auf der Bühne, allein mit Gitarre, mit Texten, die durchweg persönlich, melancholisch und scharfsinnig sind – und die genau dadurch ein ganzes Land berührten, ohne je laut oder plakativ zu werden.</p>
-          <p class="vb-intro">Reinhard Mey, 1942 in Berlin geboren, gehört seit den späten 1960er-Jahren zu den prägendsten Vertretern der deutschen Liedermacher-Szene. Das Gürteltier sucht nicht die Anpassung an den Mainstream, sondern die eigene, unverwechselbare Stimme – und genau diese Eigenständigkeit trug Mey über Jahrzehnte konsequent durch, ohne sich musikalischen Trends anzupassen.</p>
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs: freundlich, warm, wachsam – ein prüfender „Scanner-Blick", der die eigene, unmittelbare Umgebung genau beobachtet, um zu wissen, was sicher ist und was nicht. Kaum ein deutscher Liedermacher verkörpert diese genaue, warmherzige Beobachtungsgabe so beständig wie Reinhard Mey: seit über fünf Jahrzehnten auf der Bühne, allein mit Gitarre, mit Texten, die sich selbst als das eines Chronisten verstehen – jemand, der genau hinschaut, den Menschen aufs Maul schaut und das Gesehene in Sprache übersetzt.</p>
+          <p class="vb-intro">Reinhard Mey, 1942 in Berlin geboren, gehört seit den späten 1960er-Jahren zu den prägendsten Vertretern der deutschen Liedermacher-Szene. Er selbst hat wiederholt betont, sich eher als Beobachter und Reporter des Alltäglichen zu verstehen denn als Selbstdarsteller – eine Haltung, die weniger von emotionaler Selbstinszenierung lebt als von genauer, kopfgesteuerter Wahrnehmung dessen, was um ihn herum geschieht.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Vier: Das eigene Erleben vor Publikum</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im eigenen, überschaubaren Kreis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht paradoxerweise die Gruppe, um dort die eigene Einzigartigkeit sichtbar zu machen – sie will ihr besonderes, oft melancholisches Erleben nicht im Verborgenen halten, sondern es vor Publikum in eine Form bringen, die andere berührt. Meys Texte sind fast durchgehend autobiografisch, persönlich, individuell erzählt – seine Sprache verwendet, wie Kritiker anmerken, nur die notwendigen Worte zur Beschreibung, wodurch eine eigene, unverwechselbare musikalische Erzählform entsteht.</p>
-          <p class="vb-intro">Seit den 1990er-Jahren bezieht Mey zunehmend gesellschaftlich-politisch Stellung – gegen Krieg, staatliche Willkür, Umweltzerstörung, für mehr Menschlichkeit. Doch seine Texte sind, wie Beobachter betonen, „nie platt oder aufwieglerisch, sondern reflektierend, humanistisch und zutiefst empathisch". Das ist die soziale Vier in ihrer reifsten Form: gesellschaftliches Engagement, das nicht aus Parolen, sondern aus dem eigenen, durchdachten Erleben gespeist wird.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in der großen Institution oder Gruppe – das wäre die soziale Sechs –, sondern im unmittelbaren, selbst kontrollierbaren Umfeld: im eigenen Zuhause, in der eigenen Familie, in Fähigkeiten, die man selbst beherrscht. Meys über Jahrzehnte konsequent geschütztes Privatleben, seine Zurückhaltung gegenüber Medienrummel und sein Bedürfnis, die eigene, unmittelbare Lebenswelt sorgfältig zu ordnen, passen genau in dieses Muster.</p>
+          <p class="vb-intro">Besonders deutlich zeigt sich das in seiner langjährigen Leidenschaft als Privatpilot: Fliegen verlangt exaktes Prozedurwissen, Checklisten, die genaue Kontrolle jedes Details, um Sicherheit selbst herzustellen, statt sich auf andere zu verlassen. „Über den Wolken" ist im Kern ein Lied über genau diese selbstverantwortete Freiheit durch Beherrschung – nicht Leichtsinn, sondern die genaue, selbst erarbeitete Kontrolle über ein Risiko.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Fünferflügel: Zurückgezogen trotz Bühnenpräsenz</h2>
+        <h2 class="vb-section">3. Der Fünferflügel: Der beobachtende Kopfmensch</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zusätzliche Distanz, eine intellektuelle Zurückhaltung, die dem reinen SO4-Muster oft fehlt. Trotz über fünf Jahrzehnten Bühnenpräsenz gilt Mey als ausgesprochen privater Mensch, der sein persönliches Leben konsequent aus der Öffentlichkeit heraushält und in Interviews wiederholt betont hat, kein Freund von Medienrummel zu sein – seine Sache sei die Musik, nicht die Schlagzeile.</p>
-          <p class="vb-intro">Diese Kombination – öffentlich wirksame, gesellschaftlich reflektierende Kunst bei gleichzeitig zurückhaltender, distanzierter Privatperson – ist genau das Muster der SO4w5: Die Bühne wird für den künstlerischen Ausdruck genutzt, doch das Private bleibt bewusst geschützt. Der Fünferflügel filtert, was nach außen dringt, selbst wenn die Vier selbst durchaus sichtbar wird.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verstärkt bei der Sechs die analytische, zurückgezogene Beobachtungsgabe – statt der geselligen Unruhe eines Siebenerflügels sucht die SE6w5 die genaue, durchdachte Verarbeitung dessen, was sie wahrnimmt. Meys Selbstverständnis als Chronist, seine oft nüchtern-präzise, „nur die notwendigen Worte" verwendende Sprache, seine Ernsthaftigkeit auch in den heiter gemeinten frühen Liedern – all das spricht für den kopflastigen, beobachtenden Fünferflügel, nicht für einen geselligen, ablenkenden Siebenerflügel.</p>
+          <p class="vb-intro">Seit den 1990er-Jahren bezieht Mey zunehmend gesellschaftlich-politisch Stellung – gegen Krieg, staatliche Willkür, Umweltzerstörung. Diese Themen sind sechser-typisch: Sorge um Sicherheit, Misstrauen gegenüber unkontrollierter Macht, ein wachsames Hinterfragen von Autorität – kein reines Ausleben individueller Einzigartigkeit, sondern eine besorgte, verantwortungsbewusste Wachsamkeit gegenüber dem, was der Gemeinschaft schaden könnte.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Ein Leben, das die eigene Musik prägte</h2>
+        <h2 class="vb-section">4. Ein Leben in sorgfältig gehütetem Rahmen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Meys Musik blieb über Jahrzehnte eng mit seinem persönlichen Leben verwoben – von den frühen, oft heiter-ironischen Liedern über Alltag und Familie bis zu den späteren, deutlich gereifteren, gesellschaftskritischeren Texten. Diese Entwicklung selbst ist typisch für die soziale Vier: Das eigene Erleben verändert sich, und die Kunst verändert sich mit ihm, statt sich auf eine einmal gefundene Formel zu verlassen.</p>
-          <p class="vb-intro">2009 erlitt sein Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Dieser tiefe persönliche Verlust, öffentlich bekannt, aber nie zur Bühnen-Inszenierung gemacht, zeigt die Grenze der SO4w5: Manches Leid wird nicht ausgestellt, sondern in aller gebotenen Zurückhaltung getragen – der Fünferflügel behält die Kontrolle darüber, was geteilt wird und was privat bleibt.</p>
+          <p class="vb-intro">Meys Musik blieb über Jahrzehnte eng mit seinem persönlichen Leben verwoben – von den frühen, oft heiter-ironischen Liedern über Alltag und Familie bis zu den späteren, ernsteren, gesellschaftskritischeren Texten. Konstant blieb dabei die warme, aber nie überschwängliche Grundhaltung: Nähe und Zugewandtheit, ohne je ins Dramatische zu kippen – die freundliche Wärme des Kaninchens, nicht die intensive, oft leidende Selbstdarstellung eines anderen Subtyps.</p>
+          <p class="vb-intro">2009 erlitt sein Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Dieser tiefe persönliche Verlust, öffentlich bekannt, aber nie zur Bühnen-Inszenierung gemacht, zeigt die Grundhaltung der SE6w5: Das eigene, engste Umfeld wird geschützt, auch im Leid – nicht ausgestellt, sondern in aller gebotenen Zurückhaltung getragen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in Meys Fähigkeit, persönliches, oft melancholisches Erleben in eine Sprache zu übersetzen, die Millionen Menschen über Generationen hinweg berührte – ohne dabei je plakativ oder effekthascherisch zu werden. Seine musikalische Eigenständigkeit, verbunden mit zunehmender gesellschaftlicher Reflexion, machte ihn zu einer der konstantesten Stimmen der deutschen Liedermacher-Tradition.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Distanz, die der Fünferflügel mit sich bringt: Wer sein Privatleben so konsequent schützt, riskiert, dass die eigene Andersartigkeit – das Kernthema der Vier – nie ganz mit anderen geteilt wird, sondern in der eigenen, sorgfältig kontrollierten Innenwelt verbleibt.</p>
+          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Meys Fähigkeit, genaue Beobachtung mit warmer Zugewandtheit zu verbinden – ein Chronist, der nie kalt-analytisch wirkt, sondern seine wache Aufmerksamkeit stets mit echter Anteilnahme verbindet. Seine musikalische Beständigkeit, verbunden mit wachsender gesellschaftlicher Wachsamkeit, machte ihn zu einer der verlässlichsten Stimmen der deutschen Liedermacher-Tradition.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Vorsicht, die der Fünferflügel mit sich bringt: Wer die Welt vor allem beobachtet und kontrolliert, statt sich ihr ungeschützt auszusetzen, riskiert, dass echte Nähe stets einen sorgfältig kontrollierten Rahmen behält – warm, aber selten wirklich ungeschützt.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Vermächtnis: Das Gürteltier, das leise blieb</h2>
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das genau hinsah</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Über fünf Jahrzehnte auf der Bühne, treu der eigenen, unverwechselbaren Stimme, ohne sich musikalischen Trends oder medialer Selbstinszenierung anzupassen – das ist das bleibende Bild der sozialen Vier mit Fünferflügel: Sichtbarkeit, die sich der Kunst verdankt, nicht der Person dahinter.</p>
-          <p class="vb-intro">Meys Zeitgenosse im selben Subtyp ist <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Gustav Mahler</a> (SO4w5) – auch bei ihm verband sich öffentliche künstlerische Präsenz mit einem tief individuellen, oft von Verlust geprägten Erleben, das er in monumentale Werke übersetzte. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-gustav-mahler">Porträt zu Gustav Mahler</a>.</p>
+          <p class="vb-intro">Über fünf Jahrzehnte auf der Bühne, treu der eigenen Beobachtungsgabe, ohne sich musikalischen Trends oder medialer Selbstinszenierung anzupassen – das ist das bleibende Bild der selbsterhaltenden Sechs mit Fünferflügel: Sichtbarkeit, die sich der genauen Beobachtung verdankt, nicht der dramatischen Selbstdarstellung.</p>
+          <p class="vb-intro">Ein interessanter Vergleich im selben Feld der deutschsprachigen Liedkunst ist <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SE6w5) – auch bei ihm verband sich eine zurückgezogene, häusliche Lebensweise mit einer außergewöhnlichen Fähigkeit, feinste Beobachtungen und Stimmungen in Liedform zu fassen. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Porträt zu Franz Schubert</a>.</p>
         </blockquote>
 
       </div>
@@ -6714,10 +6713,10 @@ function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
-        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
-        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
-        {route:"beruehmte-edgar-allan-poe", label:"Porträt: Edgar Allan Poe (SO4w5)"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-neil-armstrong", label:"Porträt: Neil Armstrong (SE6w5)"},
       ])}
     </div>
   `);

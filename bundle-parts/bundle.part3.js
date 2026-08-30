@@ -1598,7 +1598,7 @@ const registerEntries = [
   { term: "Jasmin Paolini",                route: "beruehmte-jasmin-paolini",              description: "Portrait: SE7w6 · Selbsterhaltender Typ 7 · Tennisprofi, Wimbledon-Finalistin" },
   { term: "John Lennon",                   route: "beruehmte-john-lennon",                 description: "Portrait: SO4w5 · Sozialer Typ 4 · Beatle, Friedensaktivist" },
   { term: "Gustav Mahler",                 route: "beruehmte-gustav-mahler",               description: "Portrait: SO4w5 · Sozialer Typ 4 · Komponist, Dirigent der Wiener Hofoper" },
-  { term: "Reinhard Mey",                  route: "beruehmte-reinhard-mey",                description: "Portrait: SO4w5 · Sozialer Typ 4 · Liedermacher" },
+  { term: "Reinhard Mey",                  route: "beruehmte-reinhard-mey",                description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Liedermacher" },
   { term: "Marcel Proust",                 route: "beruehmte-marcel-proust",               description: "Portrait: SO4w5 · Sozialer Typ 4 · Schriftsteller, Auf der Suche nach der verlorenen Zeit" },
   { term: "Edgar Allan Poe",               route: "beruehmte-edgar-allan-poe",             description: "Portrait: SO4w5 · Sozialer Typ 4 · Schriftsteller, Erfinder der Detektivgeschichte" },
   { term: "Konrad Lorenz",                 route: "beruehmte-konrad-lorenz",               description: "Portrait: SO1w9 · Sozialer Typ 1 · Zoologe, Begründer der Ethologie, Nobelpreisträger" },
