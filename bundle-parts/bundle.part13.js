@@ -1,3 +1,328 @@
+function vincenzoPeruggiaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Vincenzo Peruggia \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/vincenzo-peruggia-portrait.jpg" alt="Vincenzo Peruggia \u2013 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincenzo Peruggia</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Der Dieb der Mona Lisa &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Vincenzo Peruggia</strong>, geboren am 8. Oktober 1881 im norditalienischen Dumenza,
+        war Anstreicher und Glaser &ndash; ein einfacher Handwerker, der im fr\xfchen 20. Jahrhundert
+        als Gastarbeiter nach Paris kam. Am 21. August 1911 beging er das damals meistdiskutierte
+        Verbrechen der Welt: Er stahl die Mona Lisa aus dem Louvre. Das Bild blieb \xfcber zwei Jahre
+        in seiner Pariser Mansardenwohnung versteckt. Als er es im Dezember 1913 einem Florentiner
+        Kunsth\xe4ndler zum Kauf anbot &ndash; unter dem Deckmantel des Patriotismus &ndash;,
+        wurde er verhaftet. Der Prozess machte ihn weltweit bekannt. In Italien wurde er von Teilen
+        der \xd6ffentlichkeit als Held gefeiert. Er war 32 Jahre alt.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Vincenzo Peruggia</strong> wird dem <strong>Sozialen Typ 3 mit Viererfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> &ndash; nicht als
+        Oberfl\xe4chlichkeit, sondern als strukturelles Bed\xfcrfnis, durch Bild, Wirkung und Leistung
+        zu existieren. Der Soziale Subtyp (SO3) richtet diese Energie auf die Gruppe: Er will als
+        bewundernswert, als heldenhaft, als bedeutend gelten &ndash; in den Augen anderer.
+        Der Viererfl\xfcgel verleiht dieser Orientierung eine romantisch-\xe4sthetische Tiefe:
+        Nicht nur Anerkennung, sondern Einzigartigkeit. Nicht nur Erfolg, sondern ein Mythos.
+        </p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Vincenzo Peruggia mit einer stillen, fast untersch\xe4tzten Genauigkeit. Der Gepard ist nicht der st\xe4rkste J\xe4ger, aber der pr\xe4ziseste. Er wartet. Er beobachtet. Er schl\xe4gt im richtigen Moment zu &ndash; und dann ist er weg, bevor jemand begriffen hat, was geschehen ist. Peruggia arbeitete 1908 und 1909 selbst im Louvre &ndash; als Handwerker, der die Glasschutzrahmen f\xfcr die wichtigsten Gem\xe4lde anfertigte. Er kannte die G\xe4nge, die Sicherheitsl\xfccken, die Tagesabl\xe4ufe. Er wusste, dass die Mona Lisa am fr\xfchen Morgen des 21. August 1911 unbewacht war. Er wartete einen Feiertag ab, verbarg sich \xfcber Nacht im Museum und entnahm das Bild in Ruhe aus dem Rahmen. Kein Gewalt. Kein L\xe4rm. Kein Chaos. Nur ein pr\xe4ziser Schlag &ndash; und dann zwei Jahre Stille.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Held in den Augen der Gruppe</h3>
+        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> lebt f\xfcr die Frage: <em>Wie wirke ich auf meine Gruppe?</em> Nicht auf irgendeine Gruppe &ndash; auf <em>die</em> Gruppe, deren Urteil z\xe4hlt. F\xfcr Peruggia war das die italienische Gemeinschaft. Als Immigrant in Paris lebte er am Rand der Gesellschaft: gering bezahlt, wenig angesehen, einer unter Tausenden. Sein Selbstbild als Italiener war jedoch gepr\xe4gt von nationalem Stolz &ndash; und von dem, was er als Unrecht empfand: dass die Mona Lisa, Leonardos Meisterwerk, in einem franz\xf6sischen Museum hing, w\xe4hrend Italien &ndash; das Land ihrer Entstehung &ndash; sie nicht besa\xdf.</p>
+        <p class="vb-intro">Sein erkl\xe4rtes Motiv: Wiedergutmachung. Napoleon hatte Italiens Kunstsch\xe4tze geraubt; er, Vincenzo Peruggia, wollte das korrigieren. Was er dabei \xfcbersah oder ignorierte: Die Mona Lisa war nie geraubt worden. Leonardo da Vinci selbst hatte sie nach Frankreich mitgenommen; K\xf6nig Franz I. hatte sie k\xe4uflich erworben. Peruggias Erz\xe4hlung war historisch falsch &ndash; aber psychologisch aufschlussreich. Der SO-Dreier kleidet pers\xf6nliche Ambitionen in gesellschaftlich respektable Gew\xe4nder. Er braucht eine Geschichte, in der er der Held ist.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: \xc4sthetik, Einzigartigkeit, romantische Projektion</h3>
+        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt in Peruggias Geschichte eine Dimension, die ihn von einem simplen Gelegenheitsdieb unterscheidet. Die Vier tr\xe4gt Sch\xf6nheitssinn, Tiefe und eine intensive Beziehung zum Besonderen in sich &ndash; und Peruggia hatte eine echte Beziehung zur Mona Lisa. Berichten zufolge betrachtete er das Bild regelm\xe4\xdfig, w\xe4hrend es in seiner Wohnung stand. Er soll Sch\xf6nheit darin gesehen haben, nicht nur Marktwert. Er hielt das Bild zwei Jahre &ndash; eine Zeitspanne, die f\xfcr einen profitorientierten Dieb keinen Sinn ergibt, f\xfcr jemanden, dem das Objekt selbst etwas bedeutet, aber schon.</p>
+        <p class="vb-intro">Der Viererfl\xfcgel f\xfcgt dem SO3-Muster die Sehnsucht nach Einzigartigkeit hinzu: nicht nur ber\xfchmt zu sein, sondern <em>unverwechselbar</em>. Der Mann, der die Mona Lisa gestohlen hat &ndash; nicht irgendein Bild, das ber\xfchmteste Bild der Welt. Die Wahl des Objektes ist kein Nebendetail. Sie ist Signatur.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Handwerker, Immigrant, nationaler Tr\xe4umer</h3>
+        <p class="vb-intro">Vincenzo Peruggia w\xe4chst in \xe4rmlichen Verh\xe4ltnissen im norditalienischen Varese auf. Um 1908 kommt er nach Paris, wo er als Anstreicher und Glaser Arbeit findet &ndash; unter anderem, vor\xfcbergehend, im Louvre selbst. Dort hilft er dabei, Schutzverglasungen f\xfcr Gem\xe4lde anzufertigen. Er lernt das Museum von innen kennen: die Korridore, die Servicer\xe4ume, den Rhythmus der Wachmannschaften.</p>
+        <p class="vb-intro">\xdcber sein Privatleben in Paris ist wenig bekannt. Er lebte in einer Mansardenwohnung, hatte wenig soziale Einbindung, galt als ruhig und unauff\xe4llig. Was in ihm vorging, l\xe4sst sich nur indirekt erschlie\xdfen &ndash; aus dem, was er tat, und aus dem, was er sp\xe4ter dar\xfcber sagte. Er hat das, was er plante, \xfcber l\xe4ngere Zeit vorbereitet &ndash; ein Zeichen f\xfcr planvolle Handlung, nicht impulsiven Affekt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Der Morgen des 21. August 1911</h3>
+        <p class="vb-intro"><strong>Montag, 21. August 1911, Paris:</strong> Der Louvre ist an diesem Augusttag wegen Routinearbeiten geschlossen. Peruggia hat sich am Vorabend im Museum verborgen. In den fr\xfchen Morgenstunden, w\xe4hrend das Geb\xe4ude noch ruhig ist, betritt er den Salon Carr\xe9. Er nimmt die Mona Lisa &ndash; damals noch ohne Schutzglas ausgestellt &ndash; von der Wand. Er tr\xe4gt sie in einen Nebengang, l\xf6st sie aus dem Rahmen und versteckt sie unter seinem Handwerkermantel. Dann verl\xe4sst er das Museum durch einen Seitenausgang. Der gesamte Vorgang dauert Minuten.</p>
+        <p class="vb-intro">Das Verschwinden des Bildes wird erst am n\xe4chsten Morgen bemerkt &ndash; zun\xe4chst h\xe4lt ein W\xe4chter den leeren Haken f\xfcr einen Fotografen-Platz. Es vergehen Stunden, bis die Tragweite des Verlustes begriffen wird. Die Nachricht ersch\xfcttert die Welt. Der Louvre bleibt eine Woche geschlossen. Pablo Picasso und sein Freund Guillaume Apollinaire werden zun\xe4chst verd\xe4chtigt. \xdcber zwei Jahre bleibt die Spur kalt.</p>
+        <p class="vb-intro"><strong>Dezember 1913, Florenz:</strong> Peruggia schreibt dem Kunsth\xe4ndler Alfredo Geri und bietet an, die Mona Lisa &ndash; er nennt sie in dem Brief &bdquo;La Gioconda&ldquo; &ndash; gegen eine Belohnung nach Italien zur\xfcckzubringen. Er pr\xe4sentiert sich als Patriot, nicht als Dieb. Geri alarmiert die Beh\xf6rden. Bei der \xdcbergabe wird Peruggia verhaftet. Das Bild befindet sich in einem mit rotem Samt ausgekleideten Holzkoffer in seiner Wohnung &ndash; zusammen mit einem Portr\xe4t von K\xf6nig Viktor Emanuel II.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Der Prozess und der Held</h3>
+        <p class="vb-intro">Der Prozess in Florenz entwickelt sich f\xfcr Peruggia zur unerwarteten B\xfchne. Teile der italienischen Presse und \xd6ffentlichkeit sehen in ihm tats\xe4chlich einen Patrioten. Zeitungen bezeichnen ihn als Helden. Briefe und Blumen erreichen ihn in der Untersuchungshaft. Das ist genau das, was der SO3w4 tief in sich ersehnt: bewundert zu werden, als besonders zu gelten, als jemand, der etwas getan hat, das andere nicht gewagt h\xe4tten.</p>
+        <p class="vb-intro">Das Gericht urteilt milder als erwartet: ein Jahr und f\xfcnfzehn Tage Haft, sp\xe4ter auf knapp acht Monate reduziert. Peruggia kommt als freier Mann frei. Er kehrt nach Frankreich zur\xfcck, heiratet, er\xf6ffnet einen kleinen Malerhandel. Er stirbt am 8. Oktober 1925 &ndash; ausgerechnet an seinem Geburtstag &ndash; in Saint-Maur-des-Foss\xe9s bei Paris. Er wird 44 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Die Inszenierung als Heldengeschichte:</strong> Der SO-Dreier braucht eine Erz\xe4hlung, in der er bewundert wird &ndash; und Peruggia hat eine geliefert, die historisch falsch, aber psychologisch perfekt ist. Den Diebstahl als R\xfcckgabe zu rahmen, sich selbst als Retter der italienischen Kultur zu inszenieren &ndash; das ist klassische Dreierenergie: pers\xf6nliche Motivation in gesellschaftlich respektable Form gie\xdfen, bis man selbst nicht mehr sicher ist, was stimmt.</p>
+        <p class="vb-intro"><strong>b) Zwei Jahre Stille:</strong> Was ein rein profitorientierter T\xe4ter nie getan h\xe4tte. Peruggia hielt die Mona Lisa zwei Jahre bei sich, ohne sie zu verkaufen. Das deutet auf eine Beziehung zum Objekt &ndash; Viererfl\xfcgel-Energie: Sch\xf6nheit, Einzigartigkeit, emotionale Bindung. Das Bild war nicht nur Ware. Es war Teil seiner Identit\xe4t geworden.</p>
+        <p class="vb-intro"><strong>c) Die Wahl des Objektes:</strong> Nicht irgendein Gem\xe4lde. Das ber\xfchmteste Bild der Welt. Ein SO3w4 im Mangel sucht nicht kleinen Erfolg &ndash; er sucht den Mythos. Den Akt, der ihn unverwechselbar macht. Den Moment, in dem sein Name in einem Atemzug mit Leonardo da Vinci f\xe4llt.</p>
+        <p class="vb-intro"><strong>d) Der Unterschied zu SE-Dreier und SX-Dreier:</strong> Ein selbsterhaltender Dreier h\xe4tte das Bild sofort verkauft und sich abgesetzt. Ein sexueller Dreier h\xe4tte das Bild vielleicht als Verf\xfchrungsmittel eingesetzt. Der soziale Dreier wartet auf den Moment der \xf6ffentlichen Anerkennung &ndash; und sucht ihn durch eine Geschichte, die ihn zum Helden macht. Genau das tat Peruggia.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Das ber\xfchmteste Kunstverbrechen der Geschichte</h3>
+        <p class="vb-intro">Vincenzo Peruggia ist in vielerlei Hinsicht ein ungew\xf6hnlicher Fall f\xfcr diese Sammlung &ndash; kein M\xf6rder, kein Serienstraft\xe4ter, sondern ein Mann, der einmal in seinem Leben etwas Au\xdfergew\xf6hnliches tat und daf\xfcr weltweit bekannt wurde. Was ihn hineinzieht in die Logik des SO3w4, ist gerade das: die Wahl des Objektes, die Rahmung als Heldentat, die Unf\xe4higkeit, das Bild loszulassen, und der Wunsch nach \xf6ffentlicher W\xfcrdigung statt nach Profit.</p>
+        <p class="vb-intro">Der Gepard schl\xe4gt einmal zu &ndash; und dieser eine Schlag definiert sein Leben. Peruggia war danach nicht mehr der namenlose Glaser aus Dumenza. Er war der Mann, der die Mona Lisa gestohlen hatte. Das ist Dreierenergie in Reinform: Identit\xe4t durch Tat, Existenz durch Wirkung. Ob das ausreichte, um ihn gl\xfccklich zu machen, wissen wir nicht. Er starb still, in einer kleinen Stadt bei Paris, mit 44 Jahren &ndash; und hinterlie\xdf eine Geschichte, die die Welt bis auf den heutigen Tag kennt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Vincenzo Peruggia</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit (als Heldeninszenierung, als Identit\xe4tskonstruktion)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 8. Oktober 1881 &ndash; 8. Oktober 1925</span>
+          <span style="display:block;"><strong>Tat:</strong> Diebstahl der Mona Lisa aus dem Louvre, 21. August 1911 &ndash; Verhaftung Dezember 1913</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("hinter-der-leidenschaft", "Hinter der Eitelkeit die tiefere Wunde: Was den Drei antreibt, wenn das Bild wichtiger wird als das Sein.", "Hinter der Leidenschaft &ndash; die neun Wunden")}
+        <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+          <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+            <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Vincenzo Peruggia wurde 1914 zu einer Haftstrafe verurteilt, die er verb\xfc\xdfte. Die Mona Lisa kehrte unversehrt in den Louvre zur\xfcck. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+          </p>
+        </div>
+        ${relatedLinks([
+          {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4)"},
+          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
+          {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
+function davidBerkowitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("David Berkowitz \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/david-berkowitz-portrait.jpg" alt="David Berkowitz \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Berkowitz</p>
+        <p class="krim-portrait-typ">SE4w3 \u00b7 Selbsterhaltender Typ 4 mit Dreierfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienm\u00f6rder, \u201eSon of Sam" \u00b7 Tierentsprechung: Taube</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>David Berkowitz</strong> (geb. 1953, Bronx) ging als \u201eSon of Sam\u201c in die
+        amerikanische Kriminalgeschichte ein. Zwischen 1976 und 1977 erschoss er
+        sechs Menschen in New York und verletzte sieben weitere \u2013 meist junge
+        Frauen mit langen, dunklen Haaren, die er w\u00e4hrend der Nacht in geparkten
+        Autos oder auf Parkb\u00e4nken angriff. <strong>Berkowitz</strong> behauptete, ein
+        D\u00e4mon habe durch den Hund seines Nachbarn zu ihm gesprochen und ihm
+        den Auftrag zu t\u00f6ten gegeben. 1977 verhaftet, wurde er zu 365 Jahren
+        Gef\u00e4ngnis verurteilt. Im Gef\u00e4ngnis konvertierte er zum christlichen
+        Glauben und nennt sich seitdem \u201eSon of Hope\u201c. Diese Analyse fragt:
+        Wie formt die selbsterhaltende Vier mit Dreierfl\u00fcgel einen Menschen,
+        der seine tiefste Einsamkeit in Gewalt verwandelt?
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
+                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
+          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 4 &middot;
+          <strong>Typ mit Fl\u00fcgel:</strong> SE4w3 &middot;
+          <em>Leidenschaft:</em> Neid &middot;
+          <em>Tieranalogie:</em> Taube
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Unscheinbar und zur\u00fcckgezogen:</strong>
+        <strong>Berkowitz</strong> fiel in seiner Umgebung nicht auf. Nachbarn beschrieben
+        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Das ist die selbsterhaltende
+        Vier: Sie tr\u00e4gt ihr inneres Leben nach innen, nicht nach au\u00dfen. Was
+        brennt, bleibt verborgen.</p>
+        <p class="vb-intro"><strong>b) Suchend und sehnend:</strong>
+        Wer <strong>Berkowitz</strong> in Briefen und Aufzeichnungen begegnet, trifft auf
+        einen Menschen, der intensiv nach Zugeh\u00f6rigkeit suchte. Der Blick der
+        Vier ist immer auf das gerichtet, was fehlt \u2013 auf den Mangel, nicht
+        auf das Vorhandene.</p>
+        <p class="vb-intro"><strong>c) Dramatisch in der Innenwelt, still au\u00dfen:</strong>
+        Der Dreierfl\u00fcgel verleiht der Vier einen Zug zur Selbstdarstellung, den
+        <strong>Berkowitz</strong> in seinen Bekennerschreiben auslebte: Er schrieb
+        theatralisch, suchte Aufmerksamkeit, wollte verstanden werden. Die Bombe
+        im Inneren suchte eine B\u00fchne.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
+        <p class="vb-intro"><strong>a) Was mir fehlt:</strong>
+        Die selbsterhaltende Vier richtet ihren Blick auf den Mangel. <strong>Berkowitz</strong>
+        war adoptiert, wuchs ohne sichere Zugeh\u00f6rigkeit auf, f\u00fchlte sich
+        fundamental anders als alle anderen. Dieser Mangel wurde zum
+        organisierenden Zentrum seines Erlebens.</p>
+        <p class="vb-intro"><strong>b) Warum haben andere, was mir fehlt?</strong>
+        Neid ist die Leidenschaft der Vier \u2013 kein oberfl\u00e4chlicher Neid auf
+        Besitz, sondern ein tiefer, existenzieller Schmerz dar\u00fcber, dass
+        andere scheinbar m\u00fchelos bekommen, wor\u00fcber <strong>Berkowitz</strong>
+        nicht verf\u00fcgte: Zugeh\u00f6rigkeit, Liebe, Bedeutung.</p>
+        <p class="vb-intro"><strong>c) Wie erreiche ich Bedeutung?</strong>
+        Der Dreierfl\u00fcgel lenkt die Aufmerksamkeit auf Wirkung und Resonanz.
+        <strong>Berkowitz</strong> wollte nicht nur t\u00f6ten \u2013 er wollte gef\u00fcrchtet werden,
+        gesehen werden, eine Spur hinterlassen. Die Bekennerbriefe waren
+        Inszenierungen eines Menschen, der Bedeutung durch Schrecken suchte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Neid</h3>
+        <p class="vb-intro"><strong>a) Neid als existenzieller Schmerz:</strong>
+        Der Neid der Vier ist kein Wunsch, dem anderen wegzunehmen, was er hat.
+        Es ist der Schmerz \u00fcber die eigene Unvollst\u00e4ndigkeit. <strong>Berkowitz</strong>
+        sah in seinen Opfern Menschen, die hatten, was ihm fehlte: Verbindung,
+        N\u00e4he, Lebenslust. Sein Angriff war ein Ausdruck dieses Schmerzes.</p>
+        <p class="vb-intro"><strong>b) Neid als Antrieb der Gewalt:</strong>
+        Die Zielauswahl von <strong>Berkowitz</strong> war symptomatisch: junge Frauen in
+        Begleitung, Liebespaare, Menschen in inniger N\u00e4he. Er griff an, was er
+        nicht erreichen konnte. Das ist der Neid der Vier in seiner dunkelsten
+        Auspr\u00e4gung: Zerst\u00f6rung des Begehrten.</p>
+        <p class="vb-intro"><strong>c) Selbstneid \u2013 die verborgene Dimension:</strong>
+        <strong>Berkowitz</strong> beneidete auch sich selbst \u2013 das Selbst, das er h\u00e4tte
+        sein k\u00f6nnen. Seine Briefe zeigen einen Menschen, der wei\u00df, dass
+        etwas in ihm zerbrochen ist \u2013 und der daf\u00fcr andere bestraft. Das ist
+        die tiefste Tragik der nicht geheilten Vier.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
+        <p class="vb-intro"><strong>a) R\u00fcckzug und Isolation:</strong>
+        <strong>Berkowitz</strong> lebte allein, arbeitete als Brieftr\u00e4ger, hatte kaum
+        soziale Kontakte. Die selbsterhaltende Vier zieht sich zur\u00fcck, weil
+        die Au\u00dfenwelt den inneren Schmerz nicht lindern kann. Einsamkeit
+        wurde zur Normalit\u00e4t, die die Sehnsucht weiter n\u00e4hrte.</p>
+        <p class="vb-intro"><strong>b) Ritualisierung der Gewalt:</strong>
+        Die Angriffe von <strong>Berkowitz</strong> waren rituell strukturiert: gleiche
+        Waffe, \u00e4hnliche Opferprofile, n\u00e4chtliche Umgebung. Die Vier tendiert
+        zur Inszenierung des eigenen Erlebens. Der M\u00f6rder schuf sich eine
+        eigene dunkle Liturgie.</p>
+        <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
+        <strong>Berkowitz</strong> hinterlie\u00df Briefe an die Polizei und die Presse \u2013
+        literarisch, theatralisch, selbstmitleidig. Das ist der SE4w3:
+        die innere Welt muss nach au\u00dfen, sie muss eine Form finden.
+        Der Dreierfl\u00fcgel drang auf Sichtbarkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
+        <p class="vb-intro"><strong>a) Die Wunde der Verlassenheit:</strong>
+        <strong>Berkowitz</strong> wurde kurz nach der Geburt zur Adoption freigegeben.
+        F\u00fcr die Vier ist das die Urwunde pur: Ich bin nicht erw\u00fcnscht,
+        ich bin nicht genug, ich wurde weggegeben. Diese Wunde formte alles
+        Sp\u00e4tere.</p>
+        <p class="vb-intro"><strong>b) Schutz durch Bedeutsamkeit:</strong>
+        Die Schutzstrategie der SE4 ist das Beharren auf der eigenen
+        Einzigartigkeit. <strong>Berkowitz</strong> konnte nicht geliebt sein \u2013 aber er
+        konnte gef\u00fcrchtet sein. Furcht ist eine Form von Bedeutung, und
+        Bedeutung ist ein Schutz vor dem Nichtsein.</p>
+        <p class="vb-intro"><strong>c) Der D\u00e4mon als Projektion:</strong>
+        Die Erkl\u00e4rung, ein D\u00e4mon habe ihm durch einen Hund befohlen zu t\u00f6ten,
+        ist psychologisch aufschlussreich: <strong>Berkowitz</strong> projizierte seinen
+        inneren Antrieb nach au\u00dfen. Die Vier externalisiert den Schmerz \u2013
+        er kommt von drau\u00dfen, nicht von innen. Das ist Schutzstrategie,
+        keine Psychose allein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
+        <p class="vb-intro"><strong>a) SE4: die unerschrockene Vier:</strong>
+        Die selbsterhaltende Vier zeigt ihren Schmerz nicht \u2013 sie ertr\u00e4gt ihn.
+        Naranjo nannte diesen Subtyp \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
+        zu gro\u00dfem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
+        jahrelang allein \u2013 nach au\u00dfen ruhig, innen zerst\u00f6rerisch.</p>
+        <p class="vb-intro"><strong>b) Dreierfl\u00fcgel als Inszenierungsdrang:</strong>
+        Die w3-Energie trieb <strong>Berkowitz</strong> zur Kommunikation: Briefe, Zeichnungen,
+        sp\u00e4ter Interviews. Er wollte nicht nur t\u00f6ten \u2013 er wollte verstanden
+        werden. Der Dreierfl\u00fcgel macht aus dem stillen Schmerz der Vier
+        ein \u00f6ffentliches Narrativ.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Hitler (SX4):</strong>
+        Beide sind Typ 4 \u2013 aber die Subtypen unterscheiden sich grundlegend.
+        <strong>Hitler</strong> (SX4) externalisierte den Neid in politische Vernichtung,
+        <strong>Berkowitz</strong> (SE4) richtete ihn auf individuelle, k\u00f6rperliche
+        N\u00e4he. Die sexuelle Vier sucht Verschmelzung und Rivalit\u00e4t, die
+        selbsterhaltende Vier sucht Sicherheit \u2013 und bestraft ihre Abwesenheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Taube</h3>
+        <p class="vb-intro"><strong>a) Die Taube als Symbol des Friedens \u2013 und des Verlustes:</strong>
+        Die Taube gilt als Symbol des Friedens, der Unschuld, der Hoffnung.
+        <strong>Berkowitz</strong> wuchs mit diesen Sehnsuchtsbildern auf \u2013 nach Frieden,
+        Zugeh\u00f6rigkeit, Geborgenheit. Das Tier und der Mensch teilen die
+        Sehnsucht nach dem, was sie nie ganz erreichen.</p>
+        <p class="vb-intro"><strong>b) Unscheinbar und allgegenw\u00e4rtig:</strong>
+        Tauben fallen in der Stadt nicht auf. Sie sind \u00fcberall, werden aber
+        kaum gesehen. <strong>Berkowitz</strong> lebte genauso: mitten unter Menschen,
+        vollst\u00e4ndig unsichtbar. Die Gef\u00e4hrlichkeit lag in der Unauff\u00e4lligkeit.</p>
+        <p class="vb-intro"><strong>c) Heimkehrendes Tier \u2013 und verlorene Heimat:</strong>
+        Brieftauben finden immer den Weg zur\u00fcck. <strong>Berkowitz</strong> hingegen fand
+        keine Heimat, zu der er zur\u00fckkehren konnte. Die Taube als Gegenbild:
+        das, wonach er suchte, war nie da. Die Sehnsucht nach Heimat
+        ohne eine Heimat ist das Kernthema der nicht geheilten Vier.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 4</h3>
+        <p class="vb-intro"><strong>a) Vom Mangel zur Pr\u00e4senz:</strong>
+        Der Heilungsweg der Vier f\u00fchrt \u00fcber die Entdeckung, dass das Leben
+        im Jetzt vollst\u00e4ndig ist \u2013 auch ohne das, was fehlt. <strong>Berkowitz</strong>
+        beschreibt seine Konversion als genau diesen Moment: zum ersten Mal
+        das Gef\u00fchl, angenommen zu sein, ohne etwas leisten zu m\u00fcssen.</p>
+        <p class="vb-intro"><strong>b) Neid verwandeln in Mitgef\u00fchl:</strong>
+        Die Tugend der Vier ist Gleichmut \u2013 die F\u00e4higkeit, das eigene Erleben
+        zu halten, ohne es zu dramatisieren oder zu externalisieren. <strong>Berkowitz</strong>
+        entwickelte im Gef\u00e4ngnis nach eigener Aussage erstmals echtes Mitgef\u00fchl
+        f\u00fcr seine Opfer. Ob das vollst\u00e4ndige Heilung ist, bleibt offen.</p>
+        <p class="vb-intro"><strong>c) Heimat im Inneren:</strong>
+        Die tiefste Heilung der Vier ist die Entdeckung, dass Zugeh\u00f6rigkeit
+        nicht von au\u00dfen kommen kann. <strong>Berkowitz</strong> fand sie \u2013 nach allem \u2013
+        in einem inneren Glauben. Ob das ausreicht, zu vergeben: das ist
+        eine Frage, die jeder Leser f\u00fcr sich beantworten muss.</p>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE4 \u2013 die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Pr\u00e4senz.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 \u2013 alle Vierer-Subtypen im \u00dcberblick.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausf\u00fchrlich portr\u00e4tiert \u2013 Neid, Sehnsucht und der Heilungsweg \u00fcber echten Gleichmut.", "Wer du wirklich bist \u2013 Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. David Berkowitz bekannte sich 1977 in sechs F\u00e4llen des Mordes schuldig und wurde zu sechsmal 25 Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
+        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
+        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+      ])}
+    </div>
+  `);
+}
+
 function johnMcAfeePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9574,198 +9899,6 @@ function enneagrammInstinktPage() {
         {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
         {route:"enneagramm-intellekt", label:"Enneagramm und Intellekt"},
         {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
-      ])}
-    </div>
-  `);
-}
-
-function enneagrammIntellektPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Enneagramm und Intellekt", "Schaubilder \u00b7 Emotionen & Bewusstsein")}
-      <p class="psycho-intro">Intellekt ist im Enneagramm die F\u00e4higkeit, innezuhalten, zu ordnen und zu verstehen, bevor gehandelt oder gef\u00fchlt wird. Auch er ist an sich wertfrei: weder gut noch schlecht, sondern geistige Klarheit, die eine Richtung sucht. Bewusst gelebt wird Intellekt zu echter Einsicht, zu \u00dcberblick, der Zusammenh\u00e4nge erkennt, ohne sich in ihnen zu verlieren. Unbewusst wird dieselbe F\u00e4higkeit zu Gr\u00fcbeln, zu Distanz, zu einem Kopf, der denkt, statt zu leben \u2014 Verstand, der sich zwischen die Person und die Welt schiebt.</p>
-      <img src="./assets/enneagramm-intellekt.jpg" alt="Enneagramm und Intellekt \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-
-      <div class="vb-section" style="max-width:100%;">
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Zwei Gesichter derselben Kraft</h2>
-        <p class="vb-intro">Jeder der neun Typen tr\u00e4gt eine eigene intellektuelle Grundf\u00e4rbung \u2014 eine Art, wie Verstand eingesetzt wird, um die Welt zu ordnen. Diese F\u00e4rbung ist an sich neutral. Erst der Grad an Bewusstheit entscheidet, ob sie zu klarer Einsicht wird oder zur Flucht vor dem eigenen Erleben. Im bewussten Zustand wird Intellekt zu einem Instrument der Wahrnehmung: Er schafft \u00dcberblick, erkennt Muster, verbindet Gef\u00fchl und Handlung mit Verst\u00e4ndnis. Im unbewussten Zustand dagegen l\u00e4uft derselbe Verstand ungefiltert \u2014 er gr\u00fcbelt, rechtfertigt, distanziert oder erstarrt in Analyse, ohne dass die Person es zun\u00e4chst selbst bemerkt.</p>
-        <p class="vb-intro">Das Schaubild zeigt f\u00fcr jeden Typ diese doppelte M\u00f6glichkeit: die Qualit\u00e4t, die entsteht, wenn Intellekt bewusst gelebt wird \u2014 und die Verzerrung, die entsteht, wenn er unbewusst das Steuer \u00fcbernimmt. Es ist dieselbe geistige Kraft, nur mit unterschiedlichem Grad an innerer Beobachtung.</p>
-      </div>
-
-      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
-        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('int-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 id="int-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2014 Der Intellekt der Unterscheidung</h3>
-        <p class="vb-intro">Beim Typ 1 ist Verstand darauf trainiert, richtig von falsch zu trennen \u2014 ein inneres Regelwerk pr\u00fcft jede Situation. Bewusst gelebt wird daraus klare, differenzierte Urteilskraft, die Nuancen erkennt, statt nur schwarz-wei\u00df zu sehen.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE1):</strong> Bewusst zeigt sich praktisches, l\u00f6sungsorientiertes Denken, das Ordnung im Alltag herstellt. Unbewusst wird daraus ein innerer Kritiker, der jedes Detail auf Fehler abklopft.</p>
-        <p class="vb-intro"><strong>Sozial (SO1):</strong> Bewusst entsteht systemisches Denken, das gerechte Strukturen f\u00fcr alle im Blick hat. Unbewusst kippt es in rechthaberische Prinzipienreiterei, einen Verstand, der andere an der eigenen Norm misst.</p>
-        <p class="vb-intro"><strong>Sexuell (SX1):</strong> Bewusst zeigt sich engagiertes, \u00fcberzeugendes Denken, das andere f\u00fcr eine bessere Sache gewinnt. Unbewusst wird daraus missionarischer Eifer, ein Verstand, der keine andere Sichtweise mehr zul\u00e4sst.</p>
-
-        <h3 id="int-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2014 Der Intellekt der Beziehung</h3>
-        <p class="vb-intro">Beim Typ 2 denkt der Verstand vor allem in Beziehungen \u2014 wer braucht was, wer f\u00fchlt sich wie. Bewusst gelebt wird daraus feines soziales Gesp\u00fcr, das Bed\u00fcrfnisse erkennt, ohne sich selbst zu verlieren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE2):</strong> Bewusst zeigt sich warmes, alltagsnahes Verst\u00e4ndnis f\u00fcr die Menschen im engen Kreis. Unbewusst wird daraus st\u00e4ndiges Mitdenken f\u00fcr andere, das die eigenen Gedanken kaum noch Raum l\u00e4sst.</p>
-        <p class="vb-intro"><strong>Sozial (SO2):</strong> Bewusst entsteht strategisches Denken f\u00fcr das Wohl vieler, ein \u00dcberblick \u00fcber soziale Netzwerke. Unbewusst kippt es in berechnendes Taktieren, wer wem wie viel schuldet.</p>
-        <p class="vb-intro"><strong>Sexuell (SX2):</strong> Bewusst zeigt sich intuitives Gesp\u00fcr f\u00fcr den einen Menschen, ein Verstand, der ganz auf ihn eingestimmt ist. Unbewusst wird daraus gr\u00fcbelndes Kreisen um die Frage, ob man geliebt genug ist.</p>
-
-        <h3 id="int-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2014 Der Intellekt der Wirksamkeit</h3>
-        <p class="vb-intro">Beim Typ 3 ist Denken zielgerichtet und effizient \u2014 der Verstand plant den k\u00fcrzesten Weg zum Erfolg. Bewusst gelebt wird daraus klare, pragmatische Strategie, die andere mitnimmt statt nur zu funktionieren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE3):</strong> Bewusst zeigt sich bodenst\u00e4ndiges, effizientes Organisationstalent, das Sicherheit durch kluges Handeln schafft. Unbewusst wird daraus st\u00e4ndiges Optimierungsdenken, das nie zur Ruhe kommt.</p>
-        <p class="vb-intro"><strong>Sozial (SO3):</strong> Bewusst entsteht strategisches Denken, das ein Team klug zu einem gemeinsamen Ziel f\u00fchrt. Unbewusst kippt es in Image-Kalk\u00fcl, einen Verstand, der jede Wirkung genau berechnet.</p>
-        <p class="vb-intro"><strong>Sexuell (SX3):</strong> Bewusst zeigt sich anziehendes, selbstbewusstes Denken, das den Partner durch echte Substanz \u00fcberzeugt. Unbewusst wird daraus permanente Selbstinszenierung im Kopf, bevor \u00fcberhaupt gehandelt wird.</p>
-
-        <h3 id="int-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2014 Der Intellekt der Bedeutung</h3>
-        <p class="vb-intro">Beim Typ 4 sucht Verstand nicht Effizienz, sondern Bedeutung \u2014 was macht dieses Erleben einzigartig? Bewusst gelebt wird daraus tiefes, symbolisches Verst\u00e4ndnis, das Erfahrung in Sinn verwandelt.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE4):</strong> Bewusst zeigt sich stilles, standhaftes Nachdenken, das auch Schweres in Worte fassen kann. Unbewusst wird daraus z\u00e4hes Gr\u00fcbeln \u00fcber das eigene Ungen\u00fcgen.</p>
-        <p class="vb-intro"><strong>Sozial (SO4):</strong> Bewusst entsteht die F\u00e4higkeit, eigenes Erleben in Worte zu fassen, die andere tr\u00f6sten. Unbewusst kippt es in st\u00e4ndigen Vergleich, einen Verstand, der die eigene Andersartigkeit immer wieder neu belegt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX4):</strong> Bewusst zeigt sich unmittelbares, ehrliches Denken, das N\u00e4he durch Klarheit schafft. Unbewusst wird daraus dramatisierendes Kopfkino, das jede Beziehung auf Zuspitzung pr\u00fcft.</p>
-
-        <h3 id="int-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2014 Der Intellekt des Verstehens</h3>
-        <p class="vb-intro">Beim Typ 5 ist Denken das ureigene Zuhause \u2014 hier wird Verstand am direktesten und am liebsten eingesetzt. Bewusst gelebt wird daraus seltene Klarheit, ein \u00dcberblick, der komplexe Zusammenh\u00e4nge einfach macht.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE5):</strong> Bewusst zeigt sich konzentriertes, unabh\u00e4ngiges Fachwissen, das mit wenig Aufwand viel erreicht. Unbewusst wird daraus fast vollst\u00e4ndiger R\u00fcckzug ins Denken, weit weg vom eigenen K\u00f6rper und Gef\u00fchl.</p>
-        <p class="vb-intro"><strong>Sozial (SO5):</strong> Bewusst entsteht Expertentum, das Wissen bereitwillig mit anderen teilt. Unbewusst kippt es in \u00fcberlegene Distanz, einen Verstand, der sich hinter Fachwissen verschanzt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX5):</strong> Bewusst zeigt sich intensive, vertiefte Besch\u00e4ftigung mit einem Menschen oder Thema. Unbewusst wird daraus geheimes, abgeschottetes Denken, das kaum geteilt wird.</p>
-
-        <h3 id="int-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2014 Der Intellekt der Absicherung</h3>
-        <p class="vb-intro">Beim Typ 6 denkt der Verstand in Szenarien \u2014 was k\u00f6nnte schiefgehen, wie l\u00e4sst sich vorsorgen? Bewusst gelebt wird daraus kluge, realistische Weitsicht, die Risiken einsch\u00e4tzt, ohne sich in ihnen zu verlieren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE6):</strong> Bewusst zeigt sich sorgf\u00e4ltiges, vorausschauendes Planen im Alltag, das Sicherheit schafft. Unbewusst wird daraus zerm\u00fcrbendes Durchdenken jedes Worst-Case-Szenarios.</p>
-        <p class="vb-intro"><strong>Sozial (SO6):</strong> Bewusst entsteht loyales, systemisches Denken, das Verl\u00e4sslichkeit f\u00fcr die Gruppe schafft. Unbewusst kippt es in Misstrauen gegen\u00fcber Autorit\u00e4ten, einen Verstand, der st\u00e4ndig nach Beweisen sucht.</p>
-        <p class="vb-intro"><strong>Sexuell (SX6):</strong> Bewusst zeigt sich mutiges, direktes Denken, das Unsicherheit in Handlung statt Gr\u00fcbeln verwandelt. Unbewusst wird daraus impulsives Schwarz-Wei\u00df-Denken, das keine Zwischent\u00f6ne mehr zul\u00e4sst.</p>
-
-        <h3 id="int-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2014 Der Intellekt der M\u00f6glichkeiten</h3>
-        <p class="vb-intro">Beim Typ 7 springt der Verstand von Idee zu Idee, verkn\u00fcpft, assoziiert, sieht \u00fcberall Optionen. Bewusst gelebt wird daraus sprudelnde, kreative Klarheit, die Perspektiven er\u00f6ffnet, statt zu verwirren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE7):</strong> Bewusst zeigt sich praktisches, l\u00f6sungsfreudiges Denken, das Genuss und Sicherheit klug verbindet. Unbewusst wird daraus sprunghafte Rastlosigkeit, ein Verstand, der bei keinem Gedanken lange bleibt.</p>
-        <p class="vb-intro"><strong>Sozial (SO7):</strong> Bewusst entsteht idealistisches, verbindendes Denken, das andere f\u00fcr eine Vision begeistert. Unbewusst kippt es in Selbst\u00fcberforderung durch zu viele parallele Pl\u00e4ne.</p>
-        <p class="vb-intro"><strong>Sexuell (SX7):</strong> Bewusst zeigt sich faszinierendes, vision\u00e4res Denken, das andere ansteckt. Unbewusst wird daraus impulsive Idealisierung, ein Verstand, der schnell begeistert und ebenso schnell weiterzieht.</p>
-
-        <h3 id="int-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2014 Der Intellekt der Klarheit</h3>
-        <p class="vb-intro">Beim Typ 8 ist Denken direkt und unumwunden \u2014 der Verstand geht sofort zur Sache, ohne Umwege. Bewusst gelebt wird daraus strategische Klarheit, die komplexe Lagen schnell auf den Punkt bringt.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE8):</strong> Bewusst zeigt sich robustes, bodenst\u00e4ndiges Urteilsverm\u00f6gen, das f\u00fcr sich und andere Sicherheit organisiert. Unbewusst wird daraus kompromissloses Schwarz-Wei\u00df-Denken, das keine Graut\u00f6ne duldet.</p>
-        <p class="vb-intro"><strong>Sozial (SO8):</strong> Bewusst entsteht weitsichtiges strategisches Denken im Dienst einer Gruppe oder Sache. Unbewusst kippt es in autorit\u00e4re Rechthaberei, einen Verstand, der keine Gegenrede ertr\u00e4gt.</p>
-        <p class="vb-intro"><strong>Sexuell (SX8):</strong> Bewusst zeigt sich leidenschaftliches, entschlossenes Denken, ganz auf den Partner und das gemeinsame Vorhaben gerichtet. Unbewusst wird daraus besitzergreifendes Kontrolldenken.</p>
-
-        <h3 id="int-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2014 Der Intellekt der Vermittlung</h3>
-        <p class="vb-intro">Beim Typ 9 sucht Verstand instinktiv nach der verbindenden Perspektive \u2014 er kann viele Sichtweisen zugleich verstehen. Bewusst gelebt wird daraus weise, ausgleichende Klarheit, die vermittelt, ohne sich selbst zu verlieren.</p>
-        <p class="vb-intro"><strong>Selbsterhaltend (SE9):</strong> Bewusst zeigt sich ruhiges, praktisches Denken, das den Alltag geschmeidig ordnet. Unbewusst wird daraus gedankliche Tr\u00e4gheit, ein Verstand, der sich lieber ablenkt als entscheidet.</p>
-        <p class="vb-intro"><strong>Sozial (SO9):</strong> Bewusst entsteht verbindendes Denken, das unterschiedliche Standpunkte zusammenf\u00fchrt. Unbewusst kippt es in Selbstverleugnung, einen Verstand, der die eigene Meinung hintanstellt, um Konflikt zu vermeiden.</p>
-        <p class="vb-intro"><strong>Sexuell (SX9):</strong> Bewusst zeigt sich intensives, einf\u00fchlsames Verstehen des geliebten Menschen. Unbewusst wird daraus Verschmelzung im Denken, ein Verstand, der die eigene Sicht ganz im anderen aufl\u00f6st.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die 27 Subtypen im Detail \u2014 Normal-, Verst\u00e4rkungs- und Kontratyp jedes Enneagrammtyps ausf\u00fchrlich erl\u00e4utert.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-      </div>
-      ${relatedLinks([
-        {route:"enneagramm-emotionalitaet", label:"Enneagramm und Emotionalit\u00e4t"},
-        {route:"enneagramm-instinkt", label:"Enneagramm und Instinkt"},
-        {route:"drei-zentren", label:"Die drei Zentren"},
-      ])}
-    </div>
-  `);
-}
-
-function baguaZonenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Bagua-Zonen der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Bagua-Zonen im Feng Shui teilen ein Haus, eine Wohnung oder auch einen einzelnen Raum in neun Lebensbereiche ein \u2014 und diese neun Bereiche entsprechen erstaunlich genau den neun Enneagramm-Mustern. Wenn man einen der neun Bereiche gezielt verbessern m\u00f6chte, kann man die jeweilige Zone bewusst mit Feng-Shui-Ma\u00dfnahmen aufwerten \u2014 und dabei zugleich verstehen, welches innere Prinzip dahintersteht.</p>
-      <img src="./assets/bagua-zonen-der-9-typen.jpg" alt="Bagua-Zonen der 9 Enneagrammtypen im Feng Shui \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Ruhm: Integrit\u00e4t, die sichtbar wird</h3>
-        <p class="vb-intro">Die Bagua-Zone \u201eRuhm" steht im Feng Shui f\u00fcr Ansehen, Reputation und die Art, wie man in der Welt wahrgenommen wird \u2014 nicht als lauter Erfolg, sondern als der gute Ruf, der aus rechtem Handeln erw\u00e4chst. Genau das ist die Logik des Typs 1: Er strebt nicht nach Ruhm um seiner selbst willen, sondern danach, als integer, korrekt und vertrauensw\u00fcrdig zu gelten. Sein Ansehen soll die Frucht seiner inneren Ordnung sein, nicht das Ziel seines Handelns. Im Feng Shui wird diese Zone traditionell mit Feuer, mit Licht und mit Symbolen der eigenen Werte gest\u00e4rkt \u2014 passend zu einem Typ, dessen Ruf untrennbar mit seinem inneren moralischen Kompass verbunden ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Partnerschaft: Beziehung als Lebensmittelpunkt</h3>
-        <p class="vb-intro">Die Zone \u201ePartnerschaft" steht f\u00fcr Liebe, N\u00e4he und die Qualit\u00e4t aller engen Beziehungen \u2014 und das ist exakt das Zentrum, um das sich das Leben des Typs 2 dreht. Kein anderer Typ richtet seine Aufmerksamkeit so best\u00e4ndig auf das Wohl des anderen, auf das Gelingen von Verbindung, auf das feine Gesp\u00fcr daf\u00fcr, was der Partner oder Freund gerade braucht. Im Feng Shui wird diese Zone durch Paarsymbole, durch W\u00e4rme und durch bewusst geschaffene N\u00e4he aktiviert \u2014 ein Prinzip, das der Typ 2 ohnehin lebt: Er schafft N\u00e4he, noch bevor jemand danach fragt, weil Beziehung f\u00fcr ihn keine Erg\u00e4nzung des Lebens ist, sondern dessen Grundlage.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Karriere: Der sichtbare Weg nach vorn</h3>
-        <p class="vb-intro">Die Zone \u201eKarriere" liegt im Feng Shui traditionell im Eingangsbereich \u2014 dort, wo der Lebensweg beginnt und wo Bewegung, Fluss und Fortschritt entstehen. Das trifft die Grundmotivation des Typs 3 punktgenau: Er ist der Typ, der vorankommen will, der Ziele setzt und erreicht, der seinen Wert \u00fcber sichtbare Leistung und Fortschritt definiert. Wo andere z\u00f6gern, bewegt sich der Typ 3 bereits weiter \u2014 Stillstand ist f\u00fcr ihn das gr\u00f6\u00dfte Unbehagen. Im Feng Shui wird diese Zone durch flie\u00dfendes Wasser, durch Klarheit und offene Wege gest\u00e4rkt \u2014 Sinnbilder f\u00fcr einen Menschen, dessen Energie st\u00e4ndig nach vorne dr\u00e4ngt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Hilfreiche Freunde: Verb\u00fcndete f\u00fcr den eigenen Weg</h3>
-        <p class="vb-intro">Die Zone \u201eHilfreiche Freunde" steht f\u00fcr Mentoren, Wegbegleiter und jene seltenen Menschen, die einen wirklich verstehen und unterst\u00fctzen \u2014 nicht die gro\u00dfe Menge, sondern die wenigen, echten Verbindungen. Genau das sucht der Typ 4: nicht oberfl\u00e4chliche Kontakte, sondern tiefe, authentische Begegnungen mit Menschen, die seine Einzigartigkeit sehen, ohne sie zu verbiegen. Er braucht keine Masse an Unterst\u00fctzung, sondern die eine Seelenverwandtschaft, die ihn in seinem So-Sein best\u00e4tigt. Im Feng Shui wird diese Zone durch Symbole der Unterst\u00fctzung von au\u00dfen aktiviert \u2014 passend zu einem Typ, der oft allein seinen Weg geht, aber zutiefst dankbar ist f\u00fcr jene wenigen, die ihn dabei wirklich begleiten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Wissen: Der R\u00fcckzugsort des Verstehens</h3>
-        <p class="vb-intro">Die Zone \u201eWissen" steht f\u00fcr Selbstkultivierung, Studium und stille innere Einkehr \u2014 der Raum, in dem man sich zur\u00fcckzieht, um zu verstehen. Kaum ein Typ verk\u00f6rpert dieses Prinzip so klar wie der Typ 5: Er zieht sich zur\u00fcck, um Wissen zu sammeln, Zusammenh\u00e4nge zu durchdringen und eine innere Landkarte der Welt zu bauen, bevor er sich ihr wieder zuwendet. Im Feng Shui wird diese Zone traditionell ruhig, ungest\u00f6rt und reduziert gestaltet \u2014 ein Ort f\u00fcr B\u00fccher, f\u00fcr Stille, f\u00fcr konzentriertes Denken. F\u00fcr den Typ 5 ist genau das keine Beliebigkeit, sondern Notwendigkeit: Nur im gesch\u00fctzten R\u00fcckzug kann er die Klarheit gewinnen, die er sp\u00e4ter wieder mit anderen teilt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Familie: Der sichere Kreis</h3>
-        <p class="vb-intro">Die Zone \u201eFamilie" steht f\u00fcr Zugeh\u00f6rigkeit, Verwurzelung und das tragende soziale Netz, das Halt gibt \u2014 und genau dieser Halt ist das, wonach der Typ 6 sich am meisten sehnt. Sicherheit entsteht f\u00fcr ihn nicht durch Alleingang, sondern durch verl\u00e4ssliche Bindung an eine Gruppe, eine Familie, ein System, dem er vertrauen kann und dem er selbst treu zur Seite steht. Im Feng Shui wird diese Zone durch Familienfotos, durch Symbole der Herkunft und durch stabile, geerdete Materialien gest\u00e4rkt \u2014 ein Prinzip, das der Typ 6 instinktiv versteht: Wurzeln sind kein R\u00fcckschritt, sondern die Basis, von der aus \u00fcberhaupt erst Vertrauen wachsen kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Kinder: Kreativit\u00e4t, Spiel und Zukunftsfreude</h3>
-        <p class="vb-intro">Die Zone \u201eKinder" steht im Feng Shui f\u00fcr Kreativit\u00e4t, Spielfreude und neue Projekte \u2014 f\u00fcr alles, was aus reiner Lebensfreude entsteht und in die Zukunft weist. Das ist die ureigene Welt des Typs 7: Er lebt aus einer kindlichen Begeisterungsf\u00e4higkeit heraus, liebt es, Neues zu erschaffen, Ideen sprie\u00dfen zu lassen und das Leben als Abenteuer statt als Pflicht zu erleben. Im Feng Shui wird diese Zone durch Farben, durch Symbole der Fruchtbarkeit und durch Raum f\u00fcr spontanen Ausdruck aktiviert \u2014 ganz im Sinne eines Typs, der sich nie ganz von seiner spielerischen, neugierigen inneren Kindheit verabschiedet.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Reichtum: Ressourcen als Fundament der Freiheit</h3>
-        <p class="vb-intro">Die Zone \u201eReichtum" steht f\u00fcr materiellen Wohlstand, Ressourcen und die F\u00fclle, aus der heraus man handlungsf\u00e4hig bleibt \u2014 und genau das ist f\u00fcr den Typ 8 von zentraler Bedeutung. Es geht ihm dabei selten um Besitz als Selbstzweck, sondern um Unabh\u00e4ngigkeit: Wer \u00fcber eigene Ressourcen verf\u00fcgt, muss sich niemandem unterordnen und kann andere sch\u00fctzen, die auf ihn angewiesen sind. Im Feng Shui wird diese Zone durch Symbole des Wachstums, durch bewusst gepflegte F\u00fclle und durch stabile, kraftvolle Elemente gest\u00e4rkt \u2014 passend zu einem Typ, f\u00fcr den St\u00e4rke immer auch bedeutet, Verantwortung f\u00fcr das eigene Territorium und die eigenen Leute zu \u00fcbernehmen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Tai-Chi (Gesundheit): Die stille Mitte von allem</h3>
-        <p class="vb-intro">Die Zone \u201eTai-Chi" liegt im Zentrum des Bagua \u2014 sie steht f\u00fcr Gesundheit, Balance und jenen ruhenden Mittelpunkt, von dem aus alle anderen acht Lebensbereiche zusammengehalten werden. Kein Zufall, dass ausgerechnet der Typ 9 diesem Zentrum entspricht: Er ist der Vermittler, der Ausgleichende, derjenige, der von Natur aus das gro\u00dfe Ganze im Blick beh\u00e4lt und andere zueinanderf\u00fchrt, statt sich in einem einzelnen Lebensbereich zu verlieren. Im Feng Shui bleibt diese zentrale Zone bewusst frei, ruhig und ungest\u00f6rt \u2014 ein Bild, das die tiefste Sehnsucht des Typs 9 spiegelt: innerer Frieden als tragender Grund, aus dem heraus alles andere seinen Platz findet.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"kampfkunstarten-der-9-typen", label:"Kampfkunstarten der 9 Typen"},
-        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function hunderassenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Hunderassen der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Hunderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die symbolischen Eigenschaften und Charakteristika dieser unterschiedlichen Hunde mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Jede Rasse tr\u00e4gt ein unverwechselbares Wesen in sich \u2014 vom pr\u00e4zisen Border Collie bis zum sanftm\u00fctigen Berner Sennenhund.</p>
-      <img src="./assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Border Collie: Intelligenz und hohe Standards</h3>
-        <p class="vb-intro">Der Border Collie ist bekannt daf\u00fcr, dass er hart arbeitet, gut trainierbar ist und hohe Standards in seiner Arbeit setzt \u2014 \u00e4hnlich dem Typ 1, der nach Perfektion und Ordnung strebt. Er gilt als intelligentester Hund der Welt: In Studien lernte ein Border Collie \u00fcber tausend W\u00f6rter und unterschied Objekte nach ihrer Form. Sein Blick \u2014 der ber\u00fchmte \u201eEye" \u2014 ist ein hypnotisches Fixieren des Schafes, das es in Bewegungslosigkeit einfrieren l\u00e4sst. Kein anderer Hund hat diese Technik entwickelt. F\u00fcr den Border Collie gibt es nur eine Art, eine Aufgabe zu erledigen: die richtige. Die Leidenschaft des Zorns zeigt sich als innere Unruhe, wenn Dinge nicht so laufen, wie sie laufen sollten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Golden Retriever: F\u00fcrsorge aus tiefstem Herzen</h3>
-        <p class="vb-intro">Der Golden Retriever ist ein au\u00dferordentlich freundlicher, liebevoller und stets bereiter Begleiter, der seinem Besitzer zu gefallen und ihn zu unterst\u00fctzen wei\u00df \u2014 genau das, was zur f\u00fcrsorgerischen Natur des Typs 2 passt. Golden Retriever wurden als Therapiehunde, Blindenhunde und Rettungshunde eingesetzt \u2014 nicht wegen ihrer Kraft, sondern wegen ihrer unbedingten Zugewandtheit. Sie sp\u00fcren Schmerz und Trauer bei Menschen und reagieren mit K\u00f6rperkontakt und N\u00e4he. Ihr Stolz liegt nicht im Erfolg, sondern im Geliebtwerden f\u00fcrs Dasein. Die Leidenschaft des Stolzes zeigt sich als tiefer Wunsch, unentbehrlich zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Dobermann: Leistung, Wachsamkeit, Erfolg</h3>
-        <p class="vb-intro">Doberm\u00e4nner sind athletische, intelligente und arbeitsfreudige Hunde, die oft in anspruchsvollen Rollen wie Wach- oder Diensthunden erfolgreich sind. Leistungsf\u00e4higkeit und Ehrgeiz spiegeln den Erfolg und das Streben von Typ 3 wider. Der Dobermann wurde von einem Steuereintreiber gez\u00fcchtet, der einen Hund wollte, der Respekt einfl\u00f6\u00dft und gleichzeitig intelligent genug ist, Situationen zu lesen. Das Ergebnis: ein Hund, der perfekt f\u00fcr die Rolle dressiert werden kann, die man von ihm erwartet. Sein Erscheinungsbild ist kalibriert \u2014 kein \u00fcberfl\u00fcssiges Fell, kein \u00fcberfl\u00fcssiger Charakter. Die Leidenschaft der Eitelkeit zeigt sich als totale Identifikation mit der Rolle.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Basset Hound: Tiefe, Einzigartigkeit, Ausdruck</h3>
-        <p class="vb-intro">Basset Hounds blicken oft melancholisch und machen manchmal einen nachdenklichen oder traurigen Eindruck \u2014 was insgesamt gut zu den Eigenschaften von Typ 4 passt. Sie besitzen einen unverwechselbaren K\u00f6rperbau: kurze Beine, l\u00e4nglicher K\u00f6rper, h\u00e4ngende Ohren, die den Geruchssinn verst\u00e4rken, indem sie Duftmolek\u00fcle vom Boden aufwirbeln. Kein anderer Hund sieht so aus wie ein Basset \u2014 und kein anderer Hund tr\u00e4gt sein Wesen so offen im Gesicht. Sein Blick ist eine ganze Psychologie. Die Leidenschaft des Neids zeigt sich als Sehnsucht nach Verbindung bei gleichzeitigem Gef\u00fchl des Andersseins.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Shiba Inu: Unabh\u00e4ngigkeit und innere Welt</h3>
-        <p class="vb-intro">Der Shiba Inu ist bekannt f\u00fcr seine Unabh\u00e4ngigkeit und Beobachtungsgabe. Seine ruhige und analytische Natur passt gut zu Typ 5, der oft zur\u00fcckgezogen und wissbegierig ist. Der Shiba Inu ist ein jahrtausendealter japanischer Jagdhund \u2014 einer der wenigen Hunde, die sich durch Domestizierung kaum ver\u00e4ndert haben. Er ist katzenhaft: putzt sich selbst, entscheidet selbst, w\u00e4hlt seine N\u00e4he sorgf\u00e4ltig. Er zeigt keine Zuneigung auf Befehl. Sein Vertrauen muss verdient werden, und wenn es einmal da ist, ist es tief und still. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie, Zeit und Zuneigung \u2014 nichts davon wird verschwendet.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Shetland Sheepdog: Loyalit\u00e4t und Wachsamkeit</h3>
-        <p class="vb-intro">Die Shetland Sheepdogs sind \u00e4u\u00dferst loyal und wachsam, immer bereit, ihre Familie zu sch\u00fctzen. Dies spiegelt die Zuverl\u00e4ssigkeit und Treue des Typs 6 wider. Shelties wurden auf den sturmgepeitschten Shetlandinseln gez\u00fcchtet \u2014 eine raue Umgebung, die Hunde hervorgebracht hat, die lieber zweimal schauen als einmal handeln. Sie bellen bei Unbekanntem, pr\u00fcfen Situationen, beobachten Muster. Aber innerhalb ihrer Gruppe sind sie von einer Zuverl\u00e4ssigkeit, die kaum zu \u00fcbertreffen ist: sie folgen ihrer Familie wie ein Schatten. Die Leidenschaft der Angst zeigt sich als Hypervigilanz \u2014 ein inneres Fr\u00fchwarnsystem, das nie ganz abschaltet.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Dalmatiner: Energie, Verspieltheit, Neugier</h3>
-        <p class="vb-intro">Dalmatiner sind lebhafte und neugierige Hunde, die gern spielen und neue Abenteuer erleben. Ihre fr\u00f6hliche und abenteuerliche Art passt gut zu Typ 7. Der Dalmatiner ist unm\u00f6glich zu \u00fcbersehen \u2014 sein gepunktetes Fell ist eine visuelle Einladung. Er wurde als Kutschenhund gez\u00fcchtet, der stundenlang neben Pferden laufen konnte ohne zu erm\u00fcden: ein Hund f\u00fcr Bewegung, Tempo, die n\u00e4chste Station. Im Zirkus war er Stammgast; in der Feuerwehr wurde er Maskottchen. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Hunger nach Erlebnis, Kontakt und dem n\u00e4chsten Abenteuer.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Rottweiler: St\u00e4rke und Schutzinstinkt</h3>
-        <p class="vb-intro">Rottweiler sind starke, selbstbewusste Hunde mit einem ausgepr\u00e4gten Schutzinstinkt, der gut zur durchsetzungsf\u00e4higen und sch\u00fctzenden Natur von Typ 8 passt. Der Rottweiler stammt von r\u00f6mischen Drover-Hunden ab, die Viehherden \u00fcber die Alpen trieben. In Rottweil wurden sie sp\u00e4ter als Metzgerhunde eingesetzt \u2014 sie zogen Karren und trugen das Geld ihres Herrn in Beuteln um den Hals, weil niemand es wagte, einen Rottweiler zu berauben. Der Rottweiler ist kein Aggressor \u2014 er ist ein Besch\u00fctzer. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kontrolle und Sicherheit f\u00fcr die, die ihm anvertraut sind.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Berner Sennenhund: Sanftmut und Ausgeglichenheit</h3>
-        <p class="vb-intro">Berner Sennenhunde sind bekannt f\u00fcr ihre sanfte und ausgeglichene Art. Sie sind freundlich und friedlich, was gut zur harmoniesuchenden und vermittelnden Natur von Typ 9 passt. Der Berner Sennenhund wurde in den Schweizer Alpen als Allrounder gez\u00fcchtet \u2014 er h\u00fctete Vieh, zog Karren und war Begleithund. Sein Wesen ist das eines Vermittlers: er streitet nicht, er dr\u00e4ngt nicht, er nimmt sich nicht mehr Raum als n\u00f6tig. In einer Gruppe von Hunden ist er derjenige, der Konflikte durch blo\u00dfes Dasein aufl\u00f6st. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist \u2014 gro\u00df, warm, ruhig, zusammen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
-        {route:"pferdearten-der-9-typen", label:"Pferdearten der 9 Typen"},
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
       ])}
     </div>
   `);

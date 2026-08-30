@@ -32960,6 +32960,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexuelle Zwei mit Dreierflügel",
     teaser:"SX2w3 · geb. 1980. Kanadischer Schauspieler. Vom gemobbten Einzelgänger und Mickey-Mouse-Club-Kinderstar zum dreifach oscarnominierten Charakterdarsteller (›Half Nelson‹, ›La La Land‹, ›Barbie‹). Bekannt für seine bewusst private, familienzentrierte Beziehung mit Eva Mendes und eine vierjährige Karrierepause zugunsten seiner Töchter. Tierentsprechung: Kamel.",
     land:"Kanada", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-eva-mendes", name:"Eva Mendes", added:"2026-08-30", subtyp:"SX6w7",
+    heading:"Eva Mendes – Sexuelle Sechs mit Siebenerflügel",
+    teaser:"SX6w7 · geb. 1974. Schauspielerin und Unternehmerin. Vom ängstlichen Kind einer kubanischen Einwandererfamilie zum international gefeierten Sexsymbol (Calvin-Klein-Kampagnen) und zur vielseitigen Unternehmerin mit eigenen Mode-, Skincare- und Wohnaccessoire-Linien. Zog sich bewusst aus dem Rampenlicht zurück, um Familie und Privatsphäre mit Ehemann Ryan Gosling zu schützen. Tierentsprechung: Wolf.",
+    land:"USA", tags:["Schauspiel","Business"], gender:"f"},
   { route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
     heading:"Andre Agassi – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1970. US-amerikanischer Tennisspieler, 8-facher Grand-Slam-Sieger. Vom Vater zum Tennisprofi gedrillt, wurde er mit der ›Image is Everything‹-Kampagne zum Rebellen-Image, das er später in seiner Autobiografie ›Open‹ als Lüge entlarvte. Nach einem Absturz außerhalb der Top 100 und einer verheimlichten Crystal-Meth-Episode kämpfte er sich zurück zur Nummer 1. Gründer der Andre Agassi Foundation for Education. Seit 2001 mit Steffi Graf (SO9w1) verheiratet. Tierentsprechung: Waschbär.",
@@ -73772,6 +73776,73 @@ function ryanGoslingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – Ehefrau"},
+      ])}
+    </div>
+  `);
+}
+
+function evaMendesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eva-mendes-portrait.jpg" alt="Eva Mendes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eva Mendes</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexuelle Sechs mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Unternehmerin, geb. 1974 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs – ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr entgegenstellt, und das seine tiefste Sicherheit nicht in Distanz, sondern in der engen Bindung an sein Rudel findet. Eva Mendes wuchs als jüngstes von fünf Kindern kubanischer Einwanderer in einem lauten, emotional intensiven Haushalt in Los Angeles auf. Sie beschrieb sich selbst später als „ein sehr ängstliches Kind" – aufgewachsen inmitten großer Gefühle, die sie früh lernte zu lesen und einzuordnen.</p>
+          <p class="vb-intro">Genau aus dieser frühen Wachsamkeit gegenüber emotionaler Unberechenbarkeit entstand später etwas, das nach außen wie das Gegenteil von Angst wirkte: ein selbstbewusstes, unerschrockenes öffentliches Auftreten. Der Wolf, der die eigene Angst nicht durch Rückzug, sondern durch Konfrontation überwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst, die zu Stärke wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der Kontratyp der Sechs – der Subtyp, in dem die Leidenschaft der Angst am wenigsten sichtbar ist, weil sie systematisch ins Gegenteil verkehrt wird. Naranjo nannte diesen Subtyp <em>Stärke/Schönheit</em>: Statt sich vor der Bedrohung zu verstecken, wird ihr mit einer betont selbstbewussten, oft provokanten Präsenz begegnet. <em>Wenn ich stark und schön genug auftrete, kann mir die Angst nichts anhaben.</em></p>
+          <p class="vb-intro">Genau dieses Prinzip prägte Mendes' frühe Karriere: Die Calvin-Klein-Kampagnen der 2000er-Jahre und ihr Image als eines der gefragtesten Sexsymbole Hollywoods waren keine bloße Vermarktungsstrategie, sondern die öffentliche Form eines inneren Musters – Unsicherheit wird durch demonstrative Stärke und Schönheit überschrieben, statt durch Rückzug bewältigt.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sie mit tatsächlicher Bedrohung umgeht: Sieht sie Fotografen, sagt sie selbst, gehe „meine Mauer hoch". Über ihre Beziehung zu Ryan Gosling wollte sie einmal in einem Interview gar nicht erst sprechen: „Ich schalte einfach ab." Die SX6 schützt das Wichtigste nicht durch Nähe zur Öffentlichkeit, sondern durch eine klar gezogene, energisch verteidigte Grenze.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielfalt statt Stillstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine zusätzliche Beweglichkeit: das Bedürfnis, sich nicht auf ein einziges Feld festzulegen, sondern mehrere Interessen und Projekte parallel zu verfolgen. Statt sich ausschließlich auf die Schauspielkarriere zu konzentrieren, baute Mendes über die Jahre ein Portfolio aus eigenen Modelinien, einer Skincare-Marke, Wohnaccessoires und einem eigenen Kochbuch auf.</p>
+          <p class="vb-intro">2015 sagte sie in einem Variety-Interview über ihren Rückzug aus der Schauspielerei: „Ich habe es leid, um die guten Rollen zu kämpfen." Statt weiter auf ein enges, unsicheres Feld angewiesen zu sein, schuf sie sich mehrere eigene, kontrollierbare Standbeine – die Sechs sichert sich ab, der Siebenerflügel sorgt dafür, dass diese Absicherung vielfältig und lebendig bleibt statt einseitig und starr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rückzug für die Familie: Sicherheit als oberstes Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2011 lernte Mendes am Set von ›The Place Beyond the Pines‹ den Schauspieler Ryan Gosling (<a href="javascript:void(0)" data-route="beruehmte-ryan-gosling">SX2w3</a>) kennen. Aus der Beziehung gingen zwei Töchter hervor, geboren 2014 und 2016. Mendes erklärte offen, sie werde keine Fotos ihrer Kinder veröffentlichen, bis diese alt genug seien, um selbst zuzustimmen – eine bewusste, konsequent durchgehaltene Entscheidung zum Schutz der Familie.</p>
+          <p class="vb-intro">Diese Haltung ist reine SX6-Logik: Sicherheit entsteht nicht durch öffentliche Bestätigung, sondern durch aktive Kontrolle darüber, wer Zugang zum eigenen inneren Kreis erhält. Wo die soziale oder selbsterhaltende Sechs eher nach äußerer Rückversicherung sucht, verteidigt die sexuelle Sechs ihr Rudel mit Entschlossenheit – notfalls auch gegen den Erwartungsdruck einer ganzen Medienöffentlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, <strong>aus innerer Unsicherheit heraus eine Präsenz zu formen, die andere als Stärke wahrnehmen</strong> – Mendes verwandelte eine als Kind erlebte Ängstlichkeit in eine Karriere, ein Unternehmertum und eine Familienstruktur, die sie selbst kontrolliert und schützt, statt sich fremdbestimmen zu lassen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> – bei der sexuellen Sechs oft überdeckt durch demonstratives Selbstbewusstsein, das die eigentliche Unsicherheit darunter kaum erahnen lässt. Mendes selbst hat diese Kehrseite öffentlich benannt: In den sozialen Medien fragte sie ihre Follower offen, wie sie selbst mit starken Emotionen umgehen – ein seltener Moment, in dem die Mauer kurz sichtbar wurde, bevor sie sich wieder schloss. Zur Beruhigung dieser inneren Unruhe setzt sie bewusst auf transzendentale Meditation, die ihr, wie sie selbst sagt, ein Gefühl von Balance und innerer Ruhe gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Wolf, der sein Rudel selbst wählt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eva Mendes' Weg vom ängstlichen Kind einer kubanischen Einwandererfamilie zum international gefeierten Sexsymbol und zur vielseitigen Unternehmerin zeigt die sexuelle Sechs mit Siebenerflügel in ihrer reifsten Form: Angst wird nicht verdrängt, sondern in Stärke, Vielfalt und eine bewusst geschützte Familienwelt übersetzt.</p>
+          <p class="vb-intro">Der Wolf zieht sich nicht aus der Welt zurück – er entscheidet nur sehr genau, wen er in sein Rudel lässt. Zusammen mit Ryan Gosling (SX2w3) hat Mendes eine der bemerkenswertesten privat gehaltenen Partnerschaften Hollywoods aufgebaut: zwei sexuell orientierte Subtypen, die ihre größte Intensität nicht der Öffentlichkeit, sondern einander und ihren Kindern widmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -138704,6 +138775,7 @@ function render() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

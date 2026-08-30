@@ -979,6 +979,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexual Two",
     teaser:"SX2w3 · b. 1980. Canadian actor. From bullied loner and Mickey Mouse Club child star to three-time Oscar-nominated character actor (\"Half Nelson,\" \"La La Land,\" \"Barbie\"). Known for his deliberately private, family-centered relationship with Eva Mendes and a four-year career break for his daughters. Animal correspondence: Camel.",
     land:"Canada", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-eva-mendes", name:"Eva Mendes", added:"2026-08-30", subtyp:"SX6w7",
+    heading:"Eva Mendes – Sexual Six",
+    teaser:"SX6w7 · b. 1974. Actress and entrepreneur. From an anxious child of a Cuban immigrant family to an internationally celebrated sex symbol (Calvin Klein campaigns) and versatile entrepreneur with her own fashion, skincare, and home décor lines. Deliberately stepped back from the spotlight to protect family and privacy with husband Ryan Gosling. Animal correspondence: Wolf.",
+    land:"USA", tags:["Schauspiel","Business"], gender:"f"},
 { route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
     heading:"Andre Agassi – Self-Preservation Type 3",
     teaser:"SE3w2 · b. 1970. American tennis player, 8-time Grand Slam champion. Drilled into tennis by his father, he became the rebel face of the \"Image is Everything\" campaign, which he later exposed as a lie in his autobiography \"Open.\" After a slump outside the top 100 and a concealed crystal meth episode, he fought his way back to No. 1. Founder of the Andre Agassi Foundation for Education. Married to Steffi Graf (SO9w1) since 2001. Animal correspondence: Raccoon.",
@@ -44889,6 +44893,73 @@ function ryanGoslingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"lebensmusterkompass/sx2", label:"Life Pattern Compass: SX2 – The Camel"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – wife"},
+      ])}
+    </div>
+  `);
+}
+
+function evaMendesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-eva-mendes-portrait.jpg" alt="Eva Mendes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eva Mendes</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Six with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; entrepreneur, b. 1974 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – an animal that does not shy away from threat but confronts it head-on, and that finds its deepest safety not in distance, but in close bonding with its pack. Eva Mendes grew up as the youngest of five children of Cuban immigrants in a loud, emotionally intense household in Los Angeles. She later described herself as "a very anxious kid" – raised amid big emotions she learned early to read and manage.</p>
+          <p class="vb-intro">Out of this early vigilance toward emotional unpredictability grew something that later looked like the exact opposite of fear: a confident, fearless public presence. The wolf that overcomes its own fear not through retreat, but through confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Fear Turned into Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> is, according to Naranjo, the counter-type of the Six – the subtype in which the passion of fear is least visible, because it is systematically inverted. Naranjo called this subtype <em>Strength/Beauty</em>: instead of hiding from threat, one meets it with a deliberately confident, often provocative presence. <em>If I present myself as strong and beautiful enough, fear cannot touch me.</em></p>
+          <p class="vb-intro">This exact principle shaped Mendes's early career: the Calvin Klein campaigns of the 2000s and her status as one of Hollywood's most sought-after sex symbols were not merely a marketing strategy, but the public form of an inner pattern – insecurity overwritten by demonstrative strength and beauty, rather than resolved through withdrawal.</p>
+          <p class="vb-intro">Telling is how she handles actual threat: when she sees photographers, she says herself, "my wall goes up." Asked about her relationship with Ryan Gosling in one interview, she refused to engage at all: "I'm shutting down." The SX6 protects what matters most not through closeness to the public, but through a clearly drawn, fiercely defended boundary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Variety Instead of Standing Still</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Sexual Six an additional mobility: the need not to commit to a single field, but to pursue several interests and projects at once. Rather than focusing exclusively on acting, Mendes built a portfolio over the years that included her own fashion lines, a skincare brand, home décor, and a cookbook.</p>
+          <p class="vb-intro">In a 2015 Variety interview, she explained her step back from acting: "I got tired fighting for the good roles." Rather than remaining dependent on one narrow, uncertain field, she created several of her own, controllable pillars – the Six secures herself, and the Seven-wing ensures that this security stays varied and alive rather than narrow and rigid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Stepping Back for Family: Safety as the Highest Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2011, Mendes met actor Ryan Gosling (<a href="javascript:void(0)" data-route="beruehmte-ryan-gosling">SX2w3</a>) on the set of <em>The Place Beyond the Pines</em>. The relationship produced two daughters, born in 2014 and 2016. Mendes has stated openly that she will not post photos of her children until they are old enough to consent themselves – a deliberate, consistently upheld decision to protect her family.</p>
+          <p class="vb-intro">This stance is pure SX6 logic: safety comes not from public validation, but from actively controlling who gets access to one's inner circle. Where the social or self-preservation Six tends to seek external reassurance, the sexual Six defends her pack with resolve – if necessary, even against the expectations of an entire media public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 is the ability to <strong>shape, out of inner insecurity, a presence that others perceive as strength</strong> – Mendes turned a childhood anxiety into a career, an entrepreneurial portfolio, and a family structure that she herself controls and protects, rather than letting others determine it for her.</p>
+          <p class="vb-intro">The fate pattern of the Six is <strong>fear</strong> – in the Sexual Six often overlaid by a demonstrative confidence that gives little hint of the actual insecurity underneath. Mendes has named this other side herself: on social media, she once openly asked her followers how they cope with strong emotions – a rare moment in which the wall briefly showed itself before closing again. To calm this inner unrest, she deliberately practices transcendental meditation, which she says gives her a sense of balance and inner peace.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Wolf That Chooses Its Own Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eva Mendes's path from an anxious child of a Cuban immigrant family to an internationally celebrated sex symbol and versatile entrepreneur shows the Sexual Six with a Seven-wing in its most mature form: fear is not suppressed, but translated into strength, variety, and a deliberately protected family world.</p>
+          <p class="vb-intro">The wolf does not withdraw from the world – it simply decides very carefully whom it lets into its pack. Together with Ryan Gosling (SX2w3), Mendes has built one of Hollywood's most notably private partnerships: two sexually oriented subtypes who devote their greatest intensity not to the public, but to each other and their children.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3) – husband"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -102979,6 +103050,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

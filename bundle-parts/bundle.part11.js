@@ -1,3 +1,173 @@
+function elvisPresleyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elvis-presley-portrait.jpg" alt="Elvis Presley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elvis Presley</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel · 1935–1977</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kamel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elvis Presley</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elvis-presley">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier rückt ein Kapitel in den Vordergrund, das dort kaum berührt wird: ein
+        über ein Jahrzehnt eskalierender körperlicher Verfall durch Medikamentenabhängigkeit,
+        der 1977 mit nur 42 Jahren zu seinem Tod führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Elvis</strong> ist dem <strong>sexuellen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SX2 richtet die Fürsorge und Verführungskraft der Zwei ganz auf die
+        eine, exklusive Verbindung – auf das Publikum als kollektiven Liebespartner, dem
+        vollständige Hingabe gilt. Der Dreierflügel bringt den unbedingten Willen zum
+        sichtbaren Erfolg hinzu, verbunden mit der Weigerung, dem Publikum je ein Nachlassen
+        der eigenen Strahlkraft zuzumuten. Genau dieses Muster trieb Elvis noch auf die Bühne,
+        als sein Körper längst zusammenbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Das Publikum vor dem eigenen Körper:</strong>
+        Elvis' Blick galt bis zuletzt der Frage, was sein Publikum von ihm erwartete – nicht
+        der Frage, was sein Körper noch leisten konnte.</p>
+        <p class="vb-intro"><strong>b) Verfall, der auf der Bühne unübersehbar wurde:</strong>
+        Seine frühere Begleiterin Linda Thompson beschrieb seinen Anblick im CBS-Special
+        "Elvis in Concert" später als erschreckend – ein Mann, der binnen weniger Monate
+        kaum wiederzuerkennen war.</p>
+        <p class="vb-intro"><strong>c) Auftreten trotz sichtbarer Erschöpfung:</strong>
+        Von der ersten Konzertnacht dieser letzten Tournee in Omaha im Juni 1977 konnte kaum
+        Bildmaterial verwendet werden – die Aufführung galt als zu schwach, um sie zu zeigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Wendepunkt im Jahr 1967:</strong>
+        Sein Leibarzt George Nichopoulos, genannt "Dr. Nick", begann Elvis 1967 wegen
+        Schmerzen zu behandeln – aus heutiger Sicht der Beginn einer sich über ein Jahrzehnt
+        steigernden Medikamentenabhängigkeit.</p>
+        <p class="vb-intro"><strong>b) Fast 19.000 verschriebene Dosen:</strong>
+        In den letzten 31 Monaten vor seinem Tod erhielt Elvis Berichten zufolge rund 19.000
+        Dosen verschreibungspflichtiger Medikamente – Sedativa, Amphetamine, Tranquilizer und
+        Opioide.</p>
+        <p class="vb-intro"><strong>c) Beschleunigung nach der Scheidung 1973:</strong>
+        Nach der Trennung von Priscilla Presley im Oktober 1973 verschärften sich Gewichtszunahme
+        und Medikamentenkonsum deutlich – ein Einschnitt, den mehrere Quellen als
+        Beschleuniger seines Verfalls benennen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein stark vergrößerter Dickdarm:</strong>
+        Die Autopsie ergab ein sogenanntes Megakolon – mit fünf bis sechs Zoll Durchmesser
+        und acht bis neun Fuß Länge weit über dem Normalmaß, gefüllt mit teils Monate altem
+        Stuhl.</p>
+        <p class="vb-intro"><strong>b) Ein deutlich vergrößertes Herz:</strong>
+        Die Autopsie stellte zudem ein Herz fest, das etwa doppelt so groß war wie normal –
+        ein Befund, der auf jahrelange kardiologische Überlastung hindeutet.</p>
+        <p class="vb-intro"><strong>c) Vier Krankenhausaufenthalte in fünf Jahren:</strong>
+        In seinen letzten fünf Lebensjahren wurde Elvis mehrfach wegen Bluthochdruck und
+        Darmkomplikationen stationär behandelt – ohne dass dies seinen Tourplan dauerhaft
+        veränderte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Toxikologie mit vierzehn Substanzen:</strong>
+        Im Blut wurden nach seinem Tod vierzehn verschiedene Medikamente nachgewiesen, die
+        Codein-Konzentration lag rund zehnmal über dem therapeutischen Bereich.</p>
+        <p class="vb-intro"><strong>b) Eine bis heute umstrittene offizielle Todesursache:</strong>
+        Die Autopsie nannte eine Herzrhythmusstörung auf Basis einer bluthochdruckbedingten
+        Herzerkrankung als Todesursache – viele Fachleute sehen dagegen das Zusammenwirken
+        mehrerer Medikamente als zentralen Faktor, eine bis heute nicht einheitlich geklärte
+        Kontroverse.</p>
+        <p class="vb-intro"><strong>c) Ein Arzt, der später seine Approbation verlor:</strong>
+        "Dr. Nick" wurde 1980 wegen Überverschreibung angeklagt, aber freigesprochen; 1993
+        wurde ihm die ärztliche Zulassung schließlich entzogen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Bühnenpräsenz als letzte Konstante:</strong>
+        Selbst als Gesundheit und Körper offensichtlich zusammenbrachen, blieb der Auftritt
+        vor Publikum die eine Sache, die Elvis nicht aufgab – die Dreierflügel-Energie der
+        SX2 in ihrer kompromisslosesten Form.</p>
+        <p class="vb-intro"><strong>b) Medikamente als Mittel, die Bühne zu erreichen:</strong>
+        Die verschriebenen Substanzen dienten offenbar zunehmend nicht der Genesung, sondern
+        der bloßen Funktionsfähigkeit für den nächsten Auftritt – ein Kreislauf, der sich
+        selbst verstärkte.</p>
+        <p class="vb-intro"><strong>c) Das Kamel, das seine letzte Reserve für das Publikum aufbrauchte:</strong>
+        Die Hingabe an die eine große Beziehung – an das Publikum als Ganzes – wurde bis zum
+        Schluss aufrechterhalten, selbst als der Körper längst keine Reserven mehr besaß.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Jahrzehnt schleichender Eskalation:</strong>
+        Von den ersten Verschreibungen 1967 bis zu seinem Tod 1977 zieht sich eine
+        durchgehende, sich stetig verschärfende Linie durch Elvis' letztes Lebensjahrzehnt.</p>
+        <p class="vb-intro"><strong>b) Auftreten statt Rückzug, bis zum Ende:</strong>
+        Anders als bei Krankheitsporträts, in denen sich Betroffene zumindest zeitweise aus
+        der Öffentlichkeit zurückzogen, tourte Elvis nahezu ununterbrochen weiter – ein
+        Verhalten, das eher in Richtung des Stresspunkts der SX2, der Acht, verweist:
+        trotziges Weitermachen trotz eindeutiger Warnsignale, statt Kontrolle abzugeben.</p>
+        <p class="vb-intro"><strong>c) Sichtbarer Verfall, öffentlich kaum benannt:</strong>
+        Der körperliche Zustand war für sein Umfeld unübersehbar, wurde aber lange nicht
+        offen thematisiert – eine kollektive Verleugnung, die zum Fortbestehen des Musters
+        beitrug.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Darm?</strong>
+        Für eine sexuelle Zwei mit Dreierflügel, deren gesamte Identität an der einen
+        großen, hingebungsvollen Verbindung zum Publikum hing, liegt eine Deutung nahe: Das
+        Herz, Organ der Zuwendung und Hingabe, und der Darm, Organ der Verarbeitung dessen,
+        was von außen aufgenommen wird, versagten gemeinsam – als hätte ein Leben, das
+        ausschließlich auf das Geben an andere ausgerichtet war, irgendwann nichts mehr für
+        sich selbst übrig gehabt, um zu verarbeiten oder zu verkraften. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu
+        Medikamentenabhängigkeit oder Herz-Kreislauf-Erkrankungen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Elvis' Fall zeigen lässt, ist ein Muster, das bei der kompromisslosen
+        Priorisierung der Bühnenpräsenz über die eigenen körperlichen Warnsignale hinweg in
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Presley kannte sein eigenes Muster nicht – die sexuelle Zwei mit Dreierflügel lebt für die unmittelbare Verbindung mit dem Publikum, und genau dieser Antrieb hielt ihn auf Tournee, während sein Körper sichtbar zusammenbrach. Wer das eigene Bedürfnis nach Verbindung nicht als Muster erkennt, tauscht die eigene Gesundheit gegen den nächsten Applaus.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Elvis'</strong> sexueller Typ 2 mit Dreierflügel fand seine letzte,
+        konsequenteste Ausprägung in der eigenen Erkrankung: eine über ein Jahrzehnt eskalierende
+        Medikamentenabhängigkeit, ein Körper, der auf der Bühne bis zuletzt für ein
+        Publikum funktionieren musste, und ein Tod 1977, dessen genaue Ursache bis heute
+        diskutiert wird. Das Kamel, das seine letzte Kraft für die eine große Verbindung
+        aufbrauchte, die es nie aufzugeben bereit war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
+      ])}
+    </div>
+  `);
+}
+
 function oshoKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13033,268 +13203,6 @@ function edGeinPortraitPage() {
       <div style="margin-top:1.5rem;max-width:100%;">
         <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
       </div>
-    </div>
-  `);
-}
-
-function johnHinckleyJrPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("John Hinckley Jr. – Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">John Hinckley Jr.</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Attentat auf Präsident Ronald Reagan · USA, 30. März 1981 · Tierentsprechung: Elefant</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>John Hinckley Jr.</strong> (geb. 1955) feuerte am 30. März 1981 vor dem
-        Hilton Hotel in Washington D.C. innerhalb von drei Sekunden sechs Schüsse auf
-        US-Präsident Ronald Reagan ab. Ein Schuss prallte von der gepanzerten Limousine ab und
-        traf Reagan in die Brust, nur knapp am Herzen vorbei; Pressesprecher James Brady wurde
-        schwer im Kopf verletzt und blieb dauerhaft behindert. Hinckleys Motiv hatte nichts mit
-        Politik zu tun: Er wollte die damals 18-jährige Schauspielerin <strong>Jodie
-        Foster</strong> beeindrucken, die er seit dem Film "Taxi Driver" wahnhaft fixiert
-        verfolgte. 1982 wurde er wegen Unzurechnungsfähigkeit freigesprochen und
-        psychiatrisch untergebracht; erst im Juni 2022, über 40 Jahre später, wurde er
-        vollständig und ohne Auflagen entlassen. Das Enneagramm macht sichtbar, wie ein
-        jahrelang unauffälliger, passiver Rückzug in eine schützende Isolation binnen weniger
-        Sekunden in einen der folgenreichsten politischen Gewaltausbrüche der jüngeren
-        US-Geschichte kippen konnte.
-      </p>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>John Hinckley Jr.</strong> wird dem <strong>Selbsterhaltenden Typ 9 mit
-        Achterflügel (SE9w8)</strong> zugeordnet. Der selbsterhaltende Subtyp der Neun heißt
-        "Appetit": Die innere Leere wird nicht über Beziehung oder Gruppe reguliert, sondern
-        über körperlichen Komfort, Rückzug und Betäubung – bei Hinckley über Jahre in Form von
-        Motelzimmern, Fernsehen und Fast Food. Der Achterflügel bringt eine zweite Ebene hinzu:
-        angestaute Wut, die sich nicht in offenem Konflikt entlädt, sondern sich über lange
-        Zeit im Bauchzentrum aufstaut, bis sie in einem einzigen, unkontrollierten Ausbruch
-        eruptiert – dem klassischen "Vulkan-Effekt" der 9w8. Der Inhalt seines Wahns – die
-        Verschmelzungsfantasie mit Jodie Foster – trägt zwar sexuelle Fixierungsmerkmale, sein
-        tatsächlicher Lebensstil war jedoch durchgehend selbsterhaltungsdominiert: kein Streben
-        nach echtem Kontakt, sondern vollständiger körperlicher Rückzug in eine Höhle.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
-        <p class="vb-intro"><strong>a) Emotional distanziert, fast apathisch:</strong>
-        Bei seiner Festnahme wirkte Hinckley weder hasserfüllt noch politisch fanatisch,
-        sondern eigenartig abwesend – ein Verhalten, das die Ermittler zunächst vor Rätsel
-        stellte. Die klassische Neuner-Trance: präsent im Raum, aber innerlich woanders.</p>
-        <p class="vb-intro"><strong>b) Kaum Widerstand, keine Dramatik:</strong>
-        Er wurde vor Ort ohne nennenswerten körperlichen Widerstand überwältigt. Kein
-        Fluchtversuch, kein Kampf – nach der Eruption fiel er sofort zurück in die gewohnte
-        Passivität.</p>
-        <p class="vb-intro"><strong>c) Unauffällig bis zur Unsichtbarkeit:</strong>
-        Sein Umfeld beschrieb ihn über Jahre als zurückgezogenen, unselbstständigen
-        Einzelgänger, finanziell von den Eltern abhängig, praktisch unsichtbar – kein
-        Konfliktpotenzial, keine Präsenz.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Jahre in physischer Passivität:</strong>
-        Hinckley verbrachte lange Phasen isoliert in Motelzimmern, ernährte sich von Fast
-        Food und verlor sich stundenlang vor dem Fernseher – das klassische
-        Appetit-Substitutionsmuster der selbsterhaltenden Neun: Betäubung des inneren
-        Konflikts durch körperlichen Komfort statt durch Beziehung oder Gruppe.</p>
-        <p class="vb-intro"><strong>b) Kein eigenes Lebensziel:</strong>
-        Er hatte keine eigene berufliche oder soziale Ausrichtung entwickelt. Seine Identität
-        organisierte sich zunehmend um die gedankliche Fixierung auf Jodie Foster – nicht als
-        reale Beziehung, sondern als Ersatz für ein fehlendes eigenes Zentrum.</p>
-        <p class="vb-intro"><strong>c) Der Umzug nach New Haven:</strong>
-        Um in der Nähe der Yale University zu sein, wo Foster studierte, zog Hinckley nach
-        New Haven. Er hinterließ ihr Briefe und Gedichte unter der Tür und rief sie mehrfach
-        an, obwohl sie ihn stets abwies – reale Ablehnung, die im Wahnkonstrukt keine
-        Wirkung zeigte.</p>
-        <p class="vb-intro"><strong>d) Aufgestaute Wut im Bauchzentrum – der Achterflügel:</strong>
-        Als der direkte Weg zu Foster endgültig verschlossen blieb, verlagerte sich die über
-        Jahre unterdrückte Frustration nicht in offenen Protest, sondern staute sich weiter
-        auf – bis sie sich in einer einzigen, plötzlichen Gewalttat entlud.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
-        <p class="vb-intro"><strong>a) Sechs Schüsse in drei Sekunden:</strong>
-        Am 30. März 1981 zog Hinckley vor dem Hilton Hotel einen Röhm-RG-14-Revolver (.22 lr)
-        und feuerte in drei Sekunden sechs Schüsse ab. Er traf Pressesprecher James Brady
-        schwer in den Kopf, verletzte einen Polizeibeamten und einen Secret-Service-Agenten; der
-        letzte Schuss prallte von der gepanzerten Limousine ab und traf Reagan in die Brust,
-        knapp am Herzen vorbei.</p>
-        <p class="vb-intro"><strong>b) Der Abschiedsbrief an Jodie Foster:</strong>
-        Kurz vor der Tat schrieb Hinckley an Foster: "Jodie, ich würde den Versuch, Reagan zu
-        töten, sofort aufgeben, wenn ich nur dein Herz gewinnen und den Rest meines Lebens mit
-        dir verbringen könnte […] Indem ich Reagan überfalle, bitte ich dich, mir diese eine
-        Chance zu geben, deine Liebe und deinen Respekt zu gewinnen." Das Attentat war in
-        seiner eigenen Logik kein politischer Akt, sondern ein romantischer Beweis.</p>
-        <p class="vb-intro"><strong>c) Prozess und Freispruch:</strong>
-        1982 wurde Hinckley wegen Unzurechnungsfähigkeit (not guilty by reason of insanity)
-        freigesprochen und in das St. Elizabeths Hospital eingewiesen – eine Entscheidung, die
-        in den USA bis heute kontrovers diskutiert wird und zu strengeren
-        Unzurechnungsfähigkeits-Regelungen in mehreren Bundesstaaten führte.</p>
-        <p class="vb-intro"><strong>d) Über 40 Jahre bis zur vollständigen Entlassung:</strong>
-        2016 wurde er unter strengen Auflagen ins Haus seiner Mutter in Virginia entlassen. Im
-        September 2021 stellte ein Bundesrichter fest, dass keine Gefahr mehr von ihm ausgehe;
-        am 15. Juni 2022 traten alle verbliebenen gerichtlichen Auflagen endgültig außer
-        Kraft.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Vulkan-Effekt der Neun</h3>
-        <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – die
-        fortlaufende Unterdrückung von Wut und Konflikt, um den inneren Frieden
-        aufrechtzuerhalten. Bei der selbsterhaltenden Neun geschieht das durch körperliche
-        Betäubung und Rückzug: Solange der Komfort stimmt, bleibt die Oberfläche ruhig. Der
-        Achterflügel verändert jedoch, was passiert, wenn der Druck einen kritischen Punkt
-        überschreitet: Statt sich in Resignation aufzulösen, kann die aufgestaute Energie
-        schlagartig und roh entladen werden – der "Vulkanausbruch" der 9w8.</p>
-        <p class="vb-intro">Genau dieses Muster zeigt sich bei Hinckley: Jahrelange, fast
-        unsichtbare Passivität, unterbrochen von einem einzigen, binnen Sekunden ablaufenden
-        Gewaltakt – und danach sofortige Rückkehr in die gewohnte Ruhe. Wie bei Ed Gein zeigte
-        sich weder Reue noch Stolz. Hinckley verstand nicht, warum die Welt seine Tat als
-        abscheulich ansah, da er sie in seiner eigenen Logik rein als Mittel zur Verschmelzung
-        begriff, nicht als Gewalt gegen andere.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Elefant: Schwer, geduldig, unaufhaltsam im Ausbruch</h3>
-        <p class="vb-intro">Der Elefant ist das Tier der selbsterhaltenden Neun – groß,
-        gemütlich, scheinbar bewegungsunwillig. Ein Tier, das man leicht als harmlos
-        unterschätzt, weil es die meiste Zeit einfach nur da steht und frisst.</p>
-        <p class="vb-intro">Für Hinckley: der schwere, träge, körperlich fast vernachlässigte
-        Phänotyp, der jahrelang in Motelzimmern verharrte, ohne dass jemand in ihm eine Gefahr
-        vermutete. Doch ein Elefant, der einmal in Bewegung gerät, ist kaum mehr zu stoppen –
-        genau das zeigte sich am 30. März 1981 in wenigen Sekunden, bevor die massive Präsenz
-        wieder in reglose Ruhe zurücksank.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Bezug: Jodie Foster (SX5w6)</h3>
-        <p class="vb-intro">Das Objekt von Hinckleys Wahn, <a href="javascript:void(0)" data-route="beruehmte-jodie-foster">Jodie Foster</a>,
-        ist in diesem Kompass als sexuelle Fünf mit Sechserflügel (SX5w6) porträtiert – ein
-        Subtyp, der Intimität durch intellektuelle und emotionale Tiefe in ausgewählten,
-        wenigen Verbindungen sucht, verbunden mit ausgeprägter Wachsamkeit gegenüber
-        Grenzüberschreitungen. Foster selbst reagierte auf Hinckleys jahrelange Verfolgung
-        genau mit dieser Wachsamkeit: konsequente Zurückweisung, keine Reaktion, die den Wahn
-        hätte nähren können. Die beiden Subtypen zeigen hier einen scharfen Kontrast: die
-        SX5w6, die Nähe eng und bewusst begrenzt, gegen die SE9w8, die sich eine Nähe imaginierte,
-        die real nie bestand.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Zusammenfassung</h3>
-        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        John Hinckley Jr. zeigt eine seltene, aber lehrreiche Extremform der selbsterhaltenden
-        Neun mit Achterflügel: jahrelange, fast unsichtbare Passivität und körperlicher
-        Rückzug, unterbrochen von einer einzigen, binnen Sekunden ablaufenden Gewalteruption,
-        deren eigentliches Motiv nicht Politik oder Hass war, sondern eine wahnhafte
-        Verschmelzungsfantasie mit einer Frau, die ihn nie gekannt hatte.</p>
-        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
-        Der Fall zeigt, wie der "Vulkan-Effekt" des Bauchzentrums – lange unterdrückte Wut,
-        die sich unter dem Achterflügel schlagartig entlädt – aus dem unauffälligsten
-        Menschen im Raum binnen Sekunden eine historische Gefahr machen kann. Eine seltene,
-        folgenschwere Ausnahmeerscheinung, keine typische Ausprägung der selbsterhaltenden
-        Neun.</p>
-      </div>
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
-        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Hinckleys
-        Tat verletzte mehrere Menschen schwer und ist zu verurteilen – das Enneagramm erklärt,
-        es rechtfertigt nicht.
-        </p>
-      </div>
-
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Objekt der Fixierung"},
-        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – ebenfalls Neun, andere Instinktvariante"},
-        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
-        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
-      ])}
-      <div style="margin-top:1.5rem;max-width:100%;">
-        <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
-      </div>
-    </div>
-  `);
-}
-
-function enneagrammBibelPage() {
-  const items = BIBEL_PORTRAITS;
-  const cards = items.map(p => {
-    const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
-    const farbe = typeColor(typ);
-    const subtypCode = (p.subtyp || "").substring(0, 3).toUpperCase();
-    const tierKey = subtypCode.toLowerCase();
-    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
-    return `
-      <button class="tool-card--link kh-card" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
-        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
-          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
-          <div style="flex:1;min-width:0;">
-            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
-              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
-              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
-            </div>
-            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
-          </div>
-        </div>
-      </button>
-    `;
-  }).join("");
-
-  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
-  const registerBox = `
-    <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
-      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Die 27 Subtypen – vollständig</p>
-      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
-        ${allCodes.map(code => {
-          const n = parseInt(code.slice(-1));
-          const col = TYPE_COLORS[n] || "var(--copper)";
-          const tierKey = code.toLowerCase();
-          const match = items.find(p => (p.subtyp || "").toUpperCase().startsWith(code));
-          const has = !!match;
-          return has
-            ? `<a href="javascript:void(0)" data-route="${match.route}"
-                style="display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem .25rem .3rem;border-radius:6px;border:1.5px solid ${col};font-size:0.8rem;font-weight:700;color:${col};background:var(--bg);text-decoration:none;opacity:0.95;">
-                <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${col};">
-                  <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-                </span>${code}</a>`
-            : `<span style="display:inline-flex;align-items:center;padding:.25rem .6rem;border-radius:6px;border:1.5px dashed ${col};font-size:0.8rem;font-weight:700;color:${col};opacity:0.35;">${code}</span>`;
-        }).join("")}
-      </div>
-    </div>
-  `;
-
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagramm im Spiegel des Neuen Testaments</h1>
-      <p class="psycho-intro">27 Figuren aus dem Umfeld Jesu – eine für jeden der 27 Subtypen –, literarisch und psychologisch gedeutet nach ihrem Enneagramm-Muster. Die Texte stammen aus <em>»27 Gesichter der Seele«</em> von Detlef Rathmer und werden hier Kapitel für Kapitel in gekürzter Fassung für den Kompass aufbereitet, jeweils mit einem eigens komponierten Song zur Figur. Die vollständigen Kapitel – mit der ganzen erzählerischen Tiefe und allen Songtexten – finden sich im E-Book, unten bei den Buchtipps verlinkt.</p>
-      <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
-        <strong>Wichtiger Hinweis zur Einordnung:</strong> Anders als bei den Rubriken »Berühmte Persönlichkeiten« oder »Krankheitsporträts« handelt es sich hier nicht um historisch lückenlos dokumentierte Biografien. Die neutestamentlichen Figuren sind literarisch-typologisch gedeutet – auf Basis der überlieferten Erzählungen, mit den Mitteln der freien, aber am Text orientierten Nacherzählung. Manche der Figuren sind historisch umstritten oder unsicher belegt. Die Illustrationen sind KI-generierte, bewusst fiktive Darstellungen – niemand weiß, wie diese Menschen tatsächlich aussahen.
-      </p>
-      ${registerBox}
-      <div style="max-width:640px;margin-top:1rem;">
-        ${cards}
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
-        {route:"krankheitsportraets", label:"Krankheitsporträts"},
-        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
-      ])}
     </div>
   `);
 }

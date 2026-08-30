@@ -1,3 +1,265 @@
+function johnHinckleyJrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("John Hinckley Jr. – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Hinckley Jr.</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Attentat auf Präsident Ronald Reagan · USA, 30. März 1981 · Tierentsprechung: Elefant</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>John Hinckley Jr.</strong> (geb. 1955) feuerte am 30. März 1981 vor dem
+        Hilton Hotel in Washington D.C. innerhalb von drei Sekunden sechs Schüsse auf
+        US-Präsident Ronald Reagan ab. Ein Schuss prallte von der gepanzerten Limousine ab und
+        traf Reagan in die Brust, nur knapp am Herzen vorbei; Pressesprecher James Brady wurde
+        schwer im Kopf verletzt und blieb dauerhaft behindert. Hinckleys Motiv hatte nichts mit
+        Politik zu tun: Er wollte die damals 18-jährige Schauspielerin <strong>Jodie
+        Foster</strong> beeindrucken, die er seit dem Film "Taxi Driver" wahnhaft fixiert
+        verfolgte. 1982 wurde er wegen Unzurechnungsfähigkeit freigesprochen und
+        psychiatrisch untergebracht; erst im Juni 2022, über 40 Jahre später, wurde er
+        vollständig und ohne Auflagen entlassen. Das Enneagramm macht sichtbar, wie ein
+        jahrelang unauffälliger, passiver Rückzug in eine schützende Isolation binnen weniger
+        Sekunden in einen der folgenreichsten politischen Gewaltausbrüche der jüngeren
+        US-Geschichte kippen konnte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>John Hinckley Jr.</strong> wird dem <strong>Selbsterhaltenden Typ 9 mit
+        Achterflügel (SE9w8)</strong> zugeordnet. Der selbsterhaltende Subtyp der Neun heißt
+        "Appetit": Die innere Leere wird nicht über Beziehung oder Gruppe reguliert, sondern
+        über körperlichen Komfort, Rückzug und Betäubung – bei Hinckley über Jahre in Form von
+        Motelzimmern, Fernsehen und Fast Food. Der Achterflügel bringt eine zweite Ebene hinzu:
+        angestaute Wut, die sich nicht in offenem Konflikt entlädt, sondern sich über lange
+        Zeit im Bauchzentrum aufstaut, bis sie in einem einzigen, unkontrollierten Ausbruch
+        eruptiert – dem klassischen "Vulkan-Effekt" der 9w8. Der Inhalt seines Wahns – die
+        Verschmelzungsfantasie mit Jodie Foster – trägt zwar sexuelle Fixierungsmerkmale, sein
+        tatsächlicher Lebensstil war jedoch durchgehend selbsterhaltungsdominiert: kein Streben
+        nach echtem Kontakt, sondern vollständiger körperlicher Rückzug in eine Höhle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) Emotional distanziert, fast apathisch:</strong>
+        Bei seiner Festnahme wirkte Hinckley weder hasserfüllt noch politisch fanatisch,
+        sondern eigenartig abwesend – ein Verhalten, das die Ermittler zunächst vor Rätsel
+        stellte. Die klassische Neuner-Trance: präsent im Raum, aber innerlich woanders.</p>
+        <p class="vb-intro"><strong>b) Kaum Widerstand, keine Dramatik:</strong>
+        Er wurde vor Ort ohne nennenswerten körperlichen Widerstand überwältigt. Kein
+        Fluchtversuch, kein Kampf – nach der Eruption fiel er sofort zurück in die gewohnte
+        Passivität.</p>
+        <p class="vb-intro"><strong>c) Unauffällig bis zur Unsichtbarkeit:</strong>
+        Sein Umfeld beschrieb ihn über Jahre als zurückgezogenen, unselbstständigen
+        Einzelgänger, finanziell von den Eltern abhängig, praktisch unsichtbar – kein
+        Konfliktpotenzial, keine Präsenz.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahre in physischer Passivität:</strong>
+        Hinckley verbrachte lange Phasen isoliert in Motelzimmern, ernährte sich von Fast
+        Food und verlor sich stundenlang vor dem Fernseher – das klassische
+        Appetit-Substitutionsmuster der selbsterhaltenden Neun: Betäubung des inneren
+        Konflikts durch körperlichen Komfort statt durch Beziehung oder Gruppe.</p>
+        <p class="vb-intro"><strong>b) Kein eigenes Lebensziel:</strong>
+        Er hatte keine eigene berufliche oder soziale Ausrichtung entwickelt. Seine Identität
+        organisierte sich zunehmend um die gedankliche Fixierung auf Jodie Foster – nicht als
+        reale Beziehung, sondern als Ersatz für ein fehlendes eigenes Zentrum.</p>
+        <p class="vb-intro"><strong>c) Der Umzug nach New Haven:</strong>
+        Um in der Nähe der Yale University zu sein, wo Foster studierte, zog Hinckley nach
+        New Haven. Er hinterließ ihr Briefe und Gedichte unter der Tür und rief sie mehrfach
+        an, obwohl sie ihn stets abwies – reale Ablehnung, die im Wahnkonstrukt keine
+        Wirkung zeigte.</p>
+        <p class="vb-intro"><strong>d) Aufgestaute Wut im Bauchzentrum – der Achterflügel:</strong>
+        Als der direkte Weg zu Foster endgültig verschlossen blieb, verlagerte sich die über
+        Jahre unterdrückte Frustration nicht in offenen Protest, sondern staute sich weiter
+        auf – bis sie sich in einer einzigen, plötzlichen Gewalttat entlud.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Sechs Schüsse in drei Sekunden:</strong>
+        Am 30. März 1981 zog Hinckley vor dem Hilton Hotel einen Röhm-RG-14-Revolver (.22 lr)
+        und feuerte in drei Sekunden sechs Schüsse ab. Er traf Pressesprecher James Brady
+        schwer in den Kopf, verletzte einen Polizeibeamten und einen Secret-Service-Agenten; der
+        letzte Schuss prallte von der gepanzerten Limousine ab und traf Reagan in die Brust,
+        knapp am Herzen vorbei.</p>
+        <p class="vb-intro"><strong>b) Der Abschiedsbrief an Jodie Foster:</strong>
+        Kurz vor der Tat schrieb Hinckley an Foster: "Jodie, ich würde den Versuch, Reagan zu
+        töten, sofort aufgeben, wenn ich nur dein Herz gewinnen und den Rest meines Lebens mit
+        dir verbringen könnte […] Indem ich Reagan überfalle, bitte ich dich, mir diese eine
+        Chance zu geben, deine Liebe und deinen Respekt zu gewinnen." Das Attentat war in
+        seiner eigenen Logik kein politischer Akt, sondern ein romantischer Beweis.</p>
+        <p class="vb-intro"><strong>c) Prozess und Freispruch:</strong>
+        1982 wurde Hinckley wegen Unzurechnungsfähigkeit (not guilty by reason of insanity)
+        freigesprochen und in das St. Elizabeths Hospital eingewiesen – eine Entscheidung, die
+        in den USA bis heute kontrovers diskutiert wird und zu strengeren
+        Unzurechnungsfähigkeits-Regelungen in mehreren Bundesstaaten führte.</p>
+        <p class="vb-intro"><strong>d) Über 40 Jahre bis zur vollständigen Entlassung:</strong>
+        2016 wurde er unter strengen Auflagen ins Haus seiner Mutter in Virginia entlassen. Im
+        September 2021 stellte ein Bundesrichter fest, dass keine Gefahr mehr von ihm ausgehe;
+        am 15. Juni 2022 traten alle verbliebenen gerichtlichen Auflagen endgültig außer
+        Kraft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Vulkan-Effekt der Neun</h3>
+        <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – die
+        fortlaufende Unterdrückung von Wut und Konflikt, um den inneren Frieden
+        aufrechtzuerhalten. Bei der selbsterhaltenden Neun geschieht das durch körperliche
+        Betäubung und Rückzug: Solange der Komfort stimmt, bleibt die Oberfläche ruhig. Der
+        Achterflügel verändert jedoch, was passiert, wenn der Druck einen kritischen Punkt
+        überschreitet: Statt sich in Resignation aufzulösen, kann die aufgestaute Energie
+        schlagartig und roh entladen werden – der "Vulkanausbruch" der 9w8.</p>
+        <p class="vb-intro">Genau dieses Muster zeigt sich bei Hinckley: Jahrelange, fast
+        unsichtbare Passivität, unterbrochen von einem einzigen, binnen Sekunden ablaufenden
+        Gewaltakt – und danach sofortige Rückkehr in die gewohnte Ruhe. Wie bei Ed Gein zeigte
+        sich weder Reue noch Stolz. Hinckley verstand nicht, warum die Welt seine Tat als
+        abscheulich ansah, da er sie in seiner eigenen Logik rein als Mittel zur Verschmelzung
+        begriff, nicht als Gewalt gegen andere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Elefant: Schwer, geduldig, unaufhaltsam im Ausbruch</h3>
+        <p class="vb-intro">Der Elefant ist das Tier der selbsterhaltenden Neun – groß,
+        gemütlich, scheinbar bewegungsunwillig. Ein Tier, das man leicht als harmlos
+        unterschätzt, weil es die meiste Zeit einfach nur da steht und frisst.</p>
+        <p class="vb-intro">Für Hinckley: der schwere, träge, körperlich fast vernachlässigte
+        Phänotyp, der jahrelang in Motelzimmern verharrte, ohne dass jemand in ihm eine Gefahr
+        vermutete. Doch ein Elefant, der einmal in Bewegung gerät, ist kaum mehr zu stoppen –
+        genau das zeigte sich am 30. März 1981 in wenigen Sekunden, bevor die massive Präsenz
+        wieder in reglose Ruhe zurücksank.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Bezug: Jodie Foster (SX5w6)</h3>
+        <p class="vb-intro">Das Objekt von Hinckleys Wahn, <a href="javascript:void(0)" data-route="beruehmte-jodie-foster">Jodie Foster</a>,
+        ist in diesem Kompass als sexuelle Fünf mit Sechserflügel (SX5w6) porträtiert – ein
+        Subtyp, der Intimität durch intellektuelle und emotionale Tiefe in ausgewählten,
+        wenigen Verbindungen sucht, verbunden mit ausgeprägter Wachsamkeit gegenüber
+        Grenzüberschreitungen. Foster selbst reagierte auf Hinckleys jahrelange Verfolgung
+        genau mit dieser Wachsamkeit: konsequente Zurückweisung, keine Reaktion, die den Wahn
+        hätte nähren können. Die beiden Subtypen zeigen hier einen scharfen Kontrast: die
+        SX5w6, die Nähe eng und bewusst begrenzt, gegen die SE9w8, die sich eine Nähe imaginierte,
+        die real nie bestand.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Zusammenfassung</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        John Hinckley Jr. zeigt eine seltene, aber lehrreiche Extremform der selbsterhaltenden
+        Neun mit Achterflügel: jahrelange, fast unsichtbare Passivität und körperlicher
+        Rückzug, unterbrochen von einer einzigen, binnen Sekunden ablaufenden Gewalteruption,
+        deren eigentliches Motiv nicht Politik oder Hass war, sondern eine wahnhafte
+        Verschmelzungsfantasie mit einer Frau, die ihn nie gekannt hatte.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Der Fall zeigt, wie der "Vulkan-Effekt" des Bauchzentrums – lange unterdrückte Wut,
+        die sich unter dem Achterflügel schlagartig entlädt – aus dem unauffälligsten
+        Menschen im Raum binnen Sekunden eine historische Gefahr machen kann. Eine seltene,
+        folgenschwere Ausnahmeerscheinung, keine typische Ausprägung der selbsterhaltenden
+        Neun.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Hinckleys
+        Tat verletzte mehrere Menschen schwer und ist zu verurteilen – das Enneagramm erklärt,
+        es rechtfertigt nicht.
+        </p>
+      </div>
+
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Objekt der Fixierung"},
+        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – ebenfalls Neun, andere Instinktvariante"},
+        {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
+      </div>
+    </div>
+  `);
+}
+
+function enneagrammBibelPage() {
+  const items = BIBEL_PORTRAITS;
+  const cards = items.map(p => {
+    const typ = parseInt((p.subtyp || "").replace(/[^0-9]/g, "")[0] || "0");
+    const farbe = typeColor(typ);
+    const subtypCode = (p.subtyp || "").substring(0, 3).toUpperCase();
+    const tierKey = subtypCode.toLowerCase();
+    const tierImg = tierKey ? `https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg` : "";
+    return `
+      <button class="tool-card--link kh-card" data-route="${p.route}" style="display:block;width:100%;text-align:left;background:var(--ivory);border:1.5px solid var(--border);border-left:4px solid ${farbe};border-radius:12px;padding:1.1rem 1.3rem;margin-bottom:0.9rem;cursor:pointer;">
+        <div style="display:flex;gap:0.9rem;align-items:flex-start;">
+          ${tierImg ? `<span style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px ${farbe};margin-top:0.15rem;"><img src="${tierImg}" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(tierKey)};left:${tierAvatarLeft(tierKey)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" /></span>` : ""}
+          <div style="flex:1;min-width:0;">
+            <div style="display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.4rem;">
+              <h3 style="margin:0;font-size:1.1rem;color:var(--ink);">${p.name}</h3>
+              <span style="font-size:0.78rem;font-weight:700;color:${farbe};">${p.subtyp}</span>
+            </div>
+            <p style="margin:0;font-size:0.9rem;color:var(--muted);">${p.teaser}</p>
+          </div>
+        </div>
+      </button>
+    `;
+  }).join("");
+
+  const allCodes = [1,2,3,4,5,6,7,8,9].flatMap(n => ["SE","SO","SX"].map(p => p + n));
+  const registerBox = `
+    <div style="background:var(--ivory);border:1.5px solid var(--border);border-radius:12px;padding:1rem 1.2rem;margin-bottom:1rem;">
+      <p style="font-size:0.78rem;font-weight:700;letter-spacing:0.08em;color:var(--muted);margin:0 0 0.7rem;text-transform:uppercase;">Die 27 Subtypen – vollständig</p>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem 0.3rem;">
+        ${allCodes.map(code => {
+          const n = parseInt(code.slice(-1));
+          const col = TYPE_COLORS[n] || "var(--copper)";
+          const tierKey = code.toLowerCase();
+          const match = items.find(p => (p.subtyp || "").toUpperCase().startsWith(code));
+          const has = !!match;
+          return has
+            ? `<a href="javascript:void(0)" data-route="${match.route}"
+                style="display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .6rem .25rem .3rem;border-radius:6px;border:1.5px solid ${col};font-size:0.8rem;font-weight:700;color:${col};background:var(--bg);text-decoration:none;opacity:0.95;">
+                <span style="position:relative;width:18px;height:18px;border-radius:50%;overflow:hidden;flex-shrink:0;display:inline-block;box-shadow:0 0 0 1.5px ${col};">
+                  <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${tierKey}.jpg" alt="" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+                </span>${code}</a>`
+            : `<span style="display:inline-flex;align-items:center;padding:.25rem .6rem;border-radius:6px;border:1.5px dashed ${col};font-size:0.8rem;font-weight:700;color:${col};opacity:0.35;">${code}</span>`;
+        }).join("")}
+      </div>
+    </div>
+  `;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Enneagramm im Spiegel des Neuen Testaments</h1>
+      <p class="psycho-intro">27 Figuren aus dem Umfeld Jesu – eine für jeden der 27 Subtypen –, literarisch und psychologisch gedeutet nach ihrem Enneagramm-Muster. Die Texte stammen aus <em>»27 Gesichter der Seele«</em> von Detlef Rathmer und werden hier Kapitel für Kapitel in gekürzter Fassung für den Kompass aufbereitet, jeweils mit einem eigens komponierten Song zur Figur. Die vollständigen Kapitel – mit der ganzen erzählerischen Tiefe und allen Songtexten – finden sich im E-Book, unten bei den Buchtipps verlinkt.</p>
+      <p class="psycho-intro" style="font-size:0.88rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:0.8rem 1rem;border-radius:8px;">
+        <strong>Wichtiger Hinweis zur Einordnung:</strong> Anders als bei den Rubriken »Berühmte Persönlichkeiten« oder »Krankheitsporträts« handelt es sich hier nicht um historisch lückenlos dokumentierte Biografien. Die neutestamentlichen Figuren sind literarisch-typologisch gedeutet – auf Basis der überlieferten Erzählungen, mit den Mitteln der freien, aber am Text orientierten Nacherzählung. Manche der Figuren sind historisch umstritten oder unsicher belegt. Die Illustrationen sind KI-generierte, bewusst fiktive Darstellungen – niemand weiß, wie diese Menschen tatsächlich aussahen.
+      </p>
+      ${registerBox}
+      <div style="max-width:640px;margin-top:1rem;">
+        ${cards}
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
+        {route:"krankheitsportraets", label:"Krankheitsporträts"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
+      ])}
+    </div>
+  `);
+}
+
 function josefVonArimathaeaPage() {
   return shell(`
     <div class="page-container">
@@ -10861,331 +11123,6 @@ function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
-      ])}
-    </div>
-  `);
-}
-
-function vincenzoPeruggiaPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Vincenzo Peruggia \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/vincenzo-peruggia-portrait.jpg" alt="Vincenzo Peruggia \u2013 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Vincenzo Peruggia</p>
-        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Der Dieb der Mona Lisa &ndash; Tierentsprechung: Gepard</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Vincenzo Peruggia</strong>, geboren am 8. Oktober 1881 im norditalienischen Dumenza,
-        war Anstreicher und Glaser &ndash; ein einfacher Handwerker, der im fr\xfchen 20. Jahrhundert
-        als Gastarbeiter nach Paris kam. Am 21. August 1911 beging er das damals meistdiskutierte
-        Verbrechen der Welt: Er stahl die Mona Lisa aus dem Louvre. Das Bild blieb \xfcber zwei Jahre
-        in seiner Pariser Mansardenwohnung versteckt. Als er es im Dezember 1913 einem Florentiner
-        Kunsth\xe4ndler zum Kauf anbot &ndash; unter dem Deckmantel des Patriotismus &ndash;,
-        wurde er verhaftet. Der Prozess machte ihn weltweit bekannt. In Italien wurde er von Teilen
-        der \xd6ffentlichkeit als Held gefeiert. Er war 32 Jahre alt.
-      </p>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Vincenzo Peruggia</strong> wird dem <strong>Sozialen Typ 3 mit Viererfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Drei ist <em>Eitelkeit</em> &ndash; nicht als
-        Oberfl\xe4chlichkeit, sondern als strukturelles Bed\xfcrfnis, durch Bild, Wirkung und Leistung
-        zu existieren. Der Soziale Subtyp (SO3) richtet diese Energie auf die Gruppe: Er will als
-        bewundernswert, als heldenhaft, als bedeutend gelten &ndash; in den Augen anderer.
-        Der Viererfl\xfcgel verleiht dieser Orientierung eine romantisch-\xe4sthetische Tiefe:
-        Nicht nur Anerkennung, sondern Einzigartigkeit. Nicht nur Erfolg, sondern ein Mythos.
-        </p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Vincenzo Peruggia mit einer stillen, fast untersch\xe4tzten Genauigkeit. Der Gepard ist nicht der st\xe4rkste J\xe4ger, aber der pr\xe4ziseste. Er wartet. Er beobachtet. Er schl\xe4gt im richtigen Moment zu &ndash; und dann ist er weg, bevor jemand begriffen hat, was geschehen ist. Peruggia arbeitete 1908 und 1909 selbst im Louvre &ndash; als Handwerker, der die Glasschutzrahmen f\xfcr die wichtigsten Gem\xe4lde anfertigte. Er kannte die G\xe4nge, die Sicherheitsl\xfccken, die Tagesabl\xe4ufe. Er wusste, dass die Mona Lisa am fr\xfchen Morgen des 21. August 1911 unbewacht war. Er wartete einen Feiertag ab, verbarg sich \xfcber Nacht im Museum und entnahm das Bild in Ruhe aus dem Rahmen. Kein Gewalt. Kein L\xe4rm. Kein Chaos. Nur ein pr\xe4ziser Schlag &ndash; und dann zwei Jahre Stille.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Held in den Augen der Gruppe</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> lebt f\xfcr die Frage: <em>Wie wirke ich auf meine Gruppe?</em> Nicht auf irgendeine Gruppe &ndash; auf <em>die</em> Gruppe, deren Urteil z\xe4hlt. F\xfcr Peruggia war das die italienische Gemeinschaft. Als Immigrant in Paris lebte er am Rand der Gesellschaft: gering bezahlt, wenig angesehen, einer unter Tausenden. Sein Selbstbild als Italiener war jedoch gepr\xe4gt von nationalem Stolz &ndash; und von dem, was er als Unrecht empfand: dass die Mona Lisa, Leonardos Meisterwerk, in einem franz\xf6sischen Museum hing, w\xe4hrend Italien &ndash; das Land ihrer Entstehung &ndash; sie nicht besa\xdf.</p>
-        <p class="vb-intro">Sein erkl\xe4rtes Motiv: Wiedergutmachung. Napoleon hatte Italiens Kunstsch\xe4tze geraubt; er, Vincenzo Peruggia, wollte das korrigieren. Was er dabei \xfcbersah oder ignorierte: Die Mona Lisa war nie geraubt worden. Leonardo da Vinci selbst hatte sie nach Frankreich mitgenommen; K\xf6nig Franz I. hatte sie k\xe4uflich erworben. Peruggias Erz\xe4hlung war historisch falsch &ndash; aber psychologisch aufschlussreich. Der SO-Dreier kleidet pers\xf6nliche Ambitionen in gesellschaftlich respektable Gew\xe4nder. Er braucht eine Geschichte, in der er der Held ist.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: \xc4sthetik, Einzigartigkeit, romantische Projektion</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt in Peruggias Geschichte eine Dimension, die ihn von einem simplen Gelegenheitsdieb unterscheidet. Die Vier tr\xe4gt Sch\xf6nheitssinn, Tiefe und eine intensive Beziehung zum Besonderen in sich &ndash; und Peruggia hatte eine echte Beziehung zur Mona Lisa. Berichten zufolge betrachtete er das Bild regelm\xe4\xdfig, w\xe4hrend es in seiner Wohnung stand. Er soll Sch\xf6nheit darin gesehen haben, nicht nur Marktwert. Er hielt das Bild zwei Jahre &ndash; eine Zeitspanne, die f\xfcr einen profitorientierten Dieb keinen Sinn ergibt, f\xfcr jemanden, dem das Objekt selbst etwas bedeutet, aber schon.</p>
-        <p class="vb-intro">Der Viererfl\xfcgel f\xfcgt dem SO3-Muster die Sehnsucht nach Einzigartigkeit hinzu: nicht nur ber\xfchmt zu sein, sondern <em>unverwechselbar</em>. Der Mann, der die Mona Lisa gestohlen hat &ndash; nicht irgendein Bild, das ber\xfchmteste Bild der Welt. Die Wahl des Objektes ist kein Nebendetail. Sie ist Signatur.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Handwerker, Immigrant, nationaler Tr\xe4umer</h3>
-        <p class="vb-intro">Vincenzo Peruggia w\xe4chst in \xe4rmlichen Verh\xe4ltnissen im norditalienischen Varese auf. Um 1908 kommt er nach Paris, wo er als Anstreicher und Glaser Arbeit findet &ndash; unter anderem, vor\xfcbergehend, im Louvre selbst. Dort hilft er dabei, Schutzverglasungen f\xfcr Gem\xe4lde anzufertigen. Er lernt das Museum von innen kennen: die Korridore, die Servicer\xe4ume, den Rhythmus der Wachmannschaften.</p>
-        <p class="vb-intro">\xdcber sein Privatleben in Paris ist wenig bekannt. Er lebte in einer Mansardenwohnung, hatte wenig soziale Einbindung, galt als ruhig und unauff\xe4llig. Was in ihm vorging, l\xe4sst sich nur indirekt erschlie\xdfen &ndash; aus dem, was er tat, und aus dem, was er sp\xe4ter dar\xfcber sagte. Er hat das, was er plante, \xfcber l\xe4ngere Zeit vorbereitet &ndash; ein Zeichen f\xfcr planvolle Handlung, nicht impulsiven Affekt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Der Morgen des 21. August 1911</h3>
-        <p class="vb-intro"><strong>Montag, 21. August 1911, Paris:</strong> Der Louvre ist an diesem Augusttag wegen Routinearbeiten geschlossen. Peruggia hat sich am Vorabend im Museum verborgen. In den fr\xfchen Morgenstunden, w\xe4hrend das Geb\xe4ude noch ruhig ist, betritt er den Salon Carr\xe9. Er nimmt die Mona Lisa &ndash; damals noch ohne Schutzglas ausgestellt &ndash; von der Wand. Er tr\xe4gt sie in einen Nebengang, l\xf6st sie aus dem Rahmen und versteckt sie unter seinem Handwerkermantel. Dann verl\xe4sst er das Museum durch einen Seitenausgang. Der gesamte Vorgang dauert Minuten.</p>
-        <p class="vb-intro">Das Verschwinden des Bildes wird erst am n\xe4chsten Morgen bemerkt &ndash; zun\xe4chst h\xe4lt ein W\xe4chter den leeren Haken f\xfcr einen Fotografen-Platz. Es vergehen Stunden, bis die Tragweite des Verlustes begriffen wird. Die Nachricht ersch\xfcttert die Welt. Der Louvre bleibt eine Woche geschlossen. Pablo Picasso und sein Freund Guillaume Apollinaire werden zun\xe4chst verd\xe4chtigt. \xdcber zwei Jahre bleibt die Spur kalt.</p>
-        <p class="vb-intro"><strong>Dezember 1913, Florenz:</strong> Peruggia schreibt dem Kunsth\xe4ndler Alfredo Geri und bietet an, die Mona Lisa &ndash; er nennt sie in dem Brief &bdquo;La Gioconda&ldquo; &ndash; gegen eine Belohnung nach Italien zur\xfcckzubringen. Er pr\xe4sentiert sich als Patriot, nicht als Dieb. Geri alarmiert die Beh\xf6rden. Bei der \xdcbergabe wird Peruggia verhaftet. Das Bild befindet sich in einem mit rotem Samt ausgekleideten Holzkoffer in seiner Wohnung &ndash; zusammen mit einem Portr\xe4t von K\xf6nig Viktor Emanuel II.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Der Prozess und der Held</h3>
-        <p class="vb-intro">Der Prozess in Florenz entwickelt sich f\xfcr Peruggia zur unerwarteten B\xfchne. Teile der italienischen Presse und \xd6ffentlichkeit sehen in ihm tats\xe4chlich einen Patrioten. Zeitungen bezeichnen ihn als Helden. Briefe und Blumen erreichen ihn in der Untersuchungshaft. Das ist genau das, was der SO3w4 tief in sich ersehnt: bewundert zu werden, als besonders zu gelten, als jemand, der etwas getan hat, das andere nicht gewagt h\xe4tten.</p>
-        <p class="vb-intro">Das Gericht urteilt milder als erwartet: ein Jahr und f\xfcnfzehn Tage Haft, sp\xe4ter auf knapp acht Monate reduziert. Peruggia kommt als freier Mann frei. Er kehrt nach Frankreich zur\xfcck, heiratet, er\xf6ffnet einen kleinen Malerhandel. Er stirbt am 8. Oktober 1925 &ndash; ausgerechnet an seinem Geburtstag &ndash; in Saint-Maur-des-Foss\xe9s bei Paris. Er wird 44 Jahre alt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Die Inszenierung als Heldengeschichte:</strong> Der SO-Dreier braucht eine Erz\xe4hlung, in der er bewundert wird &ndash; und Peruggia hat eine geliefert, die historisch falsch, aber psychologisch perfekt ist. Den Diebstahl als R\xfcckgabe zu rahmen, sich selbst als Retter der italienischen Kultur zu inszenieren &ndash; das ist klassische Dreierenergie: pers\xf6nliche Motivation in gesellschaftlich respektable Form gie\xdfen, bis man selbst nicht mehr sicher ist, was stimmt.</p>
-        <p class="vb-intro"><strong>b) Zwei Jahre Stille:</strong> Was ein rein profitorientierter T\xe4ter nie getan h\xe4tte. Peruggia hielt die Mona Lisa zwei Jahre bei sich, ohne sie zu verkaufen. Das deutet auf eine Beziehung zum Objekt &ndash; Viererfl\xfcgel-Energie: Sch\xf6nheit, Einzigartigkeit, emotionale Bindung. Das Bild war nicht nur Ware. Es war Teil seiner Identit\xe4t geworden.</p>
-        <p class="vb-intro"><strong>c) Die Wahl des Objektes:</strong> Nicht irgendein Gem\xe4lde. Das ber\xfchmteste Bild der Welt. Ein SO3w4 im Mangel sucht nicht kleinen Erfolg &ndash; er sucht den Mythos. Den Akt, der ihn unverwechselbar macht. Den Moment, in dem sein Name in einem Atemzug mit Leonardo da Vinci f\xe4llt.</p>
-        <p class="vb-intro"><strong>d) Der Unterschied zu SE-Dreier und SX-Dreier:</strong> Ein selbsterhaltender Dreier h\xe4tte das Bild sofort verkauft und sich abgesetzt. Ein sexueller Dreier h\xe4tte das Bild vielleicht als Verf\xfchrungsmittel eingesetzt. Der soziale Dreier wartet auf den Moment der \xf6ffentlichen Anerkennung &ndash; und sucht ihn durch eine Geschichte, die ihn zum Helden macht. Genau das tat Peruggia.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Das ber\xfchmteste Kunstverbrechen der Geschichte</h3>
-        <p class="vb-intro">Vincenzo Peruggia ist in vielerlei Hinsicht ein ungew\xf6hnlicher Fall f\xfcr diese Sammlung &ndash; kein M\xf6rder, kein Serienstraft\xe4ter, sondern ein Mann, der einmal in seinem Leben etwas Au\xdfergew\xf6hnliches tat und daf\xfcr weltweit bekannt wurde. Was ihn hineinzieht in die Logik des SO3w4, ist gerade das: die Wahl des Objektes, die Rahmung als Heldentat, die Unf\xe4higkeit, das Bild loszulassen, und der Wunsch nach \xf6ffentlicher W\xfcrdigung statt nach Profit.</p>
-        <p class="vb-intro">Der Gepard schl\xe4gt einmal zu &ndash; und dieser eine Schlag definiert sein Leben. Peruggia war danach nicht mehr der namenlose Glaser aus Dumenza. Er war der Mann, der die Mona Lisa gestohlen hatte. Das ist Dreierenergie in Reinform: Identit\xe4t durch Tat, Existenz durch Wirkung. Ob das ausreichte, um ihn gl\xfccklich zu machen, wissen wir nicht. Er starb still, in einer kleinen Stadt bei Paris, mit 44 Jahren &ndash; und hinterlie\xdf eine Geschichte, die die Welt bis auf den heutigen Tag kennt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Vincenzo Peruggia</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit (als Heldeninszenierung, als Identit\xe4tskonstruktion)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 8. Oktober 1881 &ndash; 8. Oktober 1925</span>
-          <span style="display:block;"><strong>Tat:</strong> Diebstahl der Mona Lisa aus dem Louvre, 21. August 1911 &ndash; Verhaftung Dezember 1913</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 &ndash; drei grundverschiedene Gesichter derselben Leidenschaft.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("hinter-der-leidenschaft", "Hinter der Eitelkeit die tiefere Wunde: Was den Drei antreibt, wenn das Bild wichtiger wird als das Sein.", "Hinter der Leidenschaft &ndash; die neun Wunden")}
-        <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-          <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-            <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Vincenzo Peruggia wurde 1914 zu einer Haftstrafe verurteilt, die er verb\xfc\xdfte. Die Mona Lisa kehrte unversehrt in den Louvre zur\xfcck. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
-          </p>
-        </div>
-        ${relatedLinks([
-          {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4)"},
-          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
-          {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
-
-function davidBerkowitzPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("David Berkowitz \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/david-berkowitz-portrait.jpg" alt="David Berkowitz \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">David Berkowitz</p>
-        <p class="krim-portrait-typ">SE4w3 \u00b7 Selbsterhaltender Typ 4 mit Dreierfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Serienm\u00f6rder, \u201eSon of Sam" \u00b7 Tierentsprechung: Taube</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>David Berkowitz</strong> (geb. 1953, Bronx) ging als \u201eSon of Sam\u201c in die
-        amerikanische Kriminalgeschichte ein. Zwischen 1976 und 1977 erschoss er
-        sechs Menschen in New York und verletzte sieben weitere \u2013 meist junge
-        Frauen mit langen, dunklen Haaren, die er w\u00e4hrend der Nacht in geparkten
-        Autos oder auf Parkb\u00e4nken angriff. <strong>Berkowitz</strong> behauptete, ein
-        D\u00e4mon habe durch den Hund seines Nachbarn zu ihm gesprochen und ihm
-        den Auftrag zu t\u00f6ten gegeben. 1977 verhaftet, wurde er zu 365 Jahren
-        Gef\u00e4ngnis verurteilt. Im Gef\u00e4ngnis konvertierte er zum christlichen
-        Glauben und nennt sich seitdem \u201eSon of Hope\u201c. Diese Analyse fragt:
-        Wie formt die selbsterhaltende Vier mit Dreierfl\u00fcgel einen Menschen,
-        der seine tiefste Einsamkeit in Gewalt verwandelt?
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
-                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
-        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 4 &middot;
-          <strong>Typ mit Fl\u00fcgel:</strong> SE4w3 &middot;
-          <em>Leidenschaft:</em> Neid &middot;
-          <em>Tieranalogie:</em> Taube
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Unscheinbar und zur\u00fcckgezogen:</strong>
-        <strong>Berkowitz</strong> fiel in seiner Umgebung nicht auf. Nachbarn beschrieben
-        ihn als ruhig, unauff\u00e4llig, fast unsichtbar. Das ist die selbsterhaltende
-        Vier: Sie tr\u00e4gt ihr inneres Leben nach innen, nicht nach au\u00dfen. Was
-        brennt, bleibt verborgen.</p>
-        <p class="vb-intro"><strong>b) Suchend und sehnend:</strong>
-        Wer <strong>Berkowitz</strong> in Briefen und Aufzeichnungen begegnet, trifft auf
-        einen Menschen, der intensiv nach Zugeh\u00f6rigkeit suchte. Der Blick der
-        Vier ist immer auf das gerichtet, was fehlt \u2013 auf den Mangel, nicht
-        auf das Vorhandene.</p>
-        <p class="vb-intro"><strong>c) Dramatisch in der Innenwelt, still au\u00dfen:</strong>
-        Der Dreierfl\u00fcgel verleiht der Vier einen Zug zur Selbstdarstellung, den
-        <strong>Berkowitz</strong> in seinen Bekennerschreiben auslebte: Er schrieb
-        theatralisch, suchte Aufmerksamkeit, wollte verstanden werden. Die Bombe
-        im Inneren suchte eine B\u00fchne.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Was mir fehlt:</strong>
-        Die selbsterhaltende Vier richtet ihren Blick auf den Mangel. <strong>Berkowitz</strong>
-        war adoptiert, wuchs ohne sichere Zugeh\u00f6rigkeit auf, f\u00fchlte sich
-        fundamental anders als alle anderen. Dieser Mangel wurde zum
-        organisierenden Zentrum seines Erlebens.</p>
-        <p class="vb-intro"><strong>b) Warum haben andere, was mir fehlt?</strong>
-        Neid ist die Leidenschaft der Vier \u2013 kein oberfl\u00e4chlicher Neid auf
-        Besitz, sondern ein tiefer, existenzieller Schmerz dar\u00fcber, dass
-        andere scheinbar m\u00fchelos bekommen, wor\u00fcber <strong>Berkowitz</strong>
-        nicht verf\u00fcgte: Zugeh\u00f6rigkeit, Liebe, Bedeutung.</p>
-        <p class="vb-intro"><strong>c) Wie erreiche ich Bedeutung?</strong>
-        Der Dreierfl\u00fcgel lenkt die Aufmerksamkeit auf Wirkung und Resonanz.
-        <strong>Berkowitz</strong> wollte nicht nur t\u00f6ten \u2013 er wollte gef\u00fcrchtet werden,
-        gesehen werden, eine Spur hinterlassen. Die Bekennerbriefe waren
-        Inszenierungen eines Menschen, der Bedeutung durch Schrecken suchte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Neid</h3>
-        <p class="vb-intro"><strong>a) Neid als existenzieller Schmerz:</strong>
-        Der Neid der Vier ist kein Wunsch, dem anderen wegzunehmen, was er hat.
-        Es ist der Schmerz \u00fcber die eigene Unvollst\u00e4ndigkeit. <strong>Berkowitz</strong>
-        sah in seinen Opfern Menschen, die hatten, was ihm fehlte: Verbindung,
-        N\u00e4he, Lebenslust. Sein Angriff war ein Ausdruck dieses Schmerzes.</p>
-        <p class="vb-intro"><strong>b) Neid als Antrieb der Gewalt:</strong>
-        Die Zielauswahl von <strong>Berkowitz</strong> war symptomatisch: junge Frauen in
-        Begleitung, Liebespaare, Menschen in inniger N\u00e4he. Er griff an, was er
-        nicht erreichen konnte. Das ist der Neid der Vier in seiner dunkelsten
-        Auspr\u00e4gung: Zerst\u00f6rung des Begehrten.</p>
-        <p class="vb-intro"><strong>c) Selbstneid \u2013 die verborgene Dimension:</strong>
-        <strong>Berkowitz</strong> beneidete auch sich selbst \u2013 das Selbst, das er h\u00e4tte
-        sein k\u00f6nnen. Seine Briefe zeigen einen Menschen, der wei\u00df, dass
-        etwas in ihm zerbrochen ist \u2013 und der daf\u00fcr andere bestraft. Das ist
-        die tiefste Tragik der nicht geheilten Vier.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) R\u00fcckzug und Isolation:</strong>
-        <strong>Berkowitz</strong> lebte allein, arbeitete als Brieftr\u00e4ger, hatte kaum
-        soziale Kontakte. Die selbsterhaltende Vier zieht sich zur\u00fcck, weil
-        die Au\u00dfenwelt den inneren Schmerz nicht lindern kann. Einsamkeit
-        wurde zur Normalit\u00e4t, die die Sehnsucht weiter n\u00e4hrte.</p>
-        <p class="vb-intro"><strong>b) Ritualisierung der Gewalt:</strong>
-        Die Angriffe von <strong>Berkowitz</strong> waren rituell strukturiert: gleiche
-        Waffe, \u00e4hnliche Opferprofile, n\u00e4chtliche Umgebung. Die Vier tendiert
-        zur Inszenierung des eigenen Erlebens. Der M\u00f6rder schuf sich eine
-        eigene dunkle Liturgie.</p>
-        <p class="vb-intro"><strong>c) Schreiben als Selbstausdruck:</strong>
-        <strong>Berkowitz</strong> hinterlie\u00df Briefe an die Polizei und die Presse \u2013
-        literarisch, theatralisch, selbstmitleidig. Das ist der SE4w3:
-        die innere Welt muss nach au\u00dfen, sie muss eine Form finden.
-        Der Dreierfl\u00fcgel drang auf Sichtbarkeit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde der Verlassenheit:</strong>
-        <strong>Berkowitz</strong> wurde kurz nach der Geburt zur Adoption freigegeben.
-        F\u00fcr die Vier ist das die Urwunde pur: Ich bin nicht erw\u00fcnscht,
-        ich bin nicht genug, ich wurde weggegeben. Diese Wunde formte alles
-        Sp\u00e4tere.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Bedeutsamkeit:</strong>
-        Die Schutzstrategie der SE4 ist das Beharren auf der eigenen
-        Einzigartigkeit. <strong>Berkowitz</strong> konnte nicht geliebt sein \u2013 aber er
-        konnte gef\u00fcrchtet sein. Furcht ist eine Form von Bedeutung, und
-        Bedeutung ist ein Schutz vor dem Nichtsein.</p>
-        <p class="vb-intro"><strong>c) Der D\u00e4mon als Projektion:</strong>
-        Die Erkl\u00e4rung, ein D\u00e4mon habe ihm durch einen Hund befohlen zu t\u00f6ten,
-        ist psychologisch aufschlussreich: <strong>Berkowitz</strong> projizierte seinen
-        inneren Antrieb nach au\u00dfen. Die Vier externalisiert den Schmerz \u2013
-        er kommt von drau\u00dfen, nicht von innen. Das ist Schutzstrategie,
-        keine Psychose allein.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE4: die unerschrockene Vier:</strong>
-        Die selbsterhaltende Vier zeigt ihren Schmerz nicht \u2013 sie ertr\u00e4gt ihn.
-        Naranjo nannte diesen Subtyp \u201edauntless\u201c: furchtlos, ausdauernd, f\u00e4hig
-        zu gro\u00dfem Leiden ohne Klage. <strong>Berkowitz</strong> trug sein inneres Inferno
-        jahrelang allein \u2013 nach au\u00dfen ruhig, innen zerst\u00f6rerisch.</p>
-        <p class="vb-intro"><strong>b) Dreierfl\u00fcgel als Inszenierungsdrang:</strong>
-        Die w3-Energie trieb <strong>Berkowitz</strong> zur Kommunikation: Briefe, Zeichnungen,
-        sp\u00e4ter Interviews. Er wollte nicht nur t\u00f6ten \u2013 er wollte verstanden
-        werden. Der Dreierfl\u00fcgel macht aus dem stillen Schmerz der Vier
-        ein \u00f6ffentliches Narrativ.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Hitler (SX4):</strong>
-        Beide sind Typ 4 \u2013 aber die Subtypen unterscheiden sich grundlegend.
-        <strong>Hitler</strong> (SX4) externalisierte den Neid in politische Vernichtung,
-        <strong>Berkowitz</strong> (SE4) richtete ihn auf individuelle, k\u00f6rperliche
-        N\u00e4he. Die sexuelle Vier sucht Verschmelzung und Rivalit\u00e4t, die
-        selbsterhaltende Vier sucht Sicherheit \u2013 und bestraft ihre Abwesenheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Taube</h3>
-        <p class="vb-intro"><strong>a) Die Taube als Symbol des Friedens \u2013 und des Verlustes:</strong>
-        Die Taube gilt als Symbol des Friedens, der Unschuld, der Hoffnung.
-        <strong>Berkowitz</strong> wuchs mit diesen Sehnsuchtsbildern auf \u2013 nach Frieden,
-        Zugeh\u00f6rigkeit, Geborgenheit. Das Tier und der Mensch teilen die
-        Sehnsucht nach dem, was sie nie ganz erreichen.</p>
-        <p class="vb-intro"><strong>b) Unscheinbar und allgegenw\u00e4rtig:</strong>
-        Tauben fallen in der Stadt nicht auf. Sie sind \u00fcberall, werden aber
-        kaum gesehen. <strong>Berkowitz</strong> lebte genauso: mitten unter Menschen,
-        vollst\u00e4ndig unsichtbar. Die Gef\u00e4hrlichkeit lag in der Unauff\u00e4lligkeit.</p>
-        <p class="vb-intro"><strong>c) Heimkehrendes Tier \u2013 und verlorene Heimat:</strong>
-        Brieftauben finden immer den Weg zur\u00fcck. <strong>Berkowitz</strong> hingegen fand
-        keine Heimat, zu der er zur\u00fckkehren konnte. Die Taube als Gegenbild:
-        das, wonach er suchte, war nie da. Die Sehnsucht nach Heimat
-        ohne eine Heimat ist das Kernthema der nicht geheilten Vier.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 4</h3>
-        <p class="vb-intro"><strong>a) Vom Mangel zur Pr\u00e4senz:</strong>
-        Der Heilungsweg der Vier f\u00fchrt \u00fcber die Entdeckung, dass das Leben
-        im Jetzt vollst\u00e4ndig ist \u2013 auch ohne das, was fehlt. <strong>Berkowitz</strong>
-        beschreibt seine Konversion als genau diesen Moment: zum ersten Mal
-        das Gef\u00fchl, angenommen zu sein, ohne etwas leisten zu m\u00fcssen.</p>
-        <p class="vb-intro"><strong>b) Neid verwandeln in Mitgef\u00fchl:</strong>
-        Die Tugend der Vier ist Gleichmut \u2013 die F\u00e4higkeit, das eigene Erleben
-        zu halten, ohne es zu dramatisieren oder zu externalisieren. <strong>Berkowitz</strong>
-        entwickelte im Gef\u00e4ngnis nach eigener Aussage erstmals echtes Mitgef\u00fchl
-        f\u00fcr seine Opfer. Ob das vollst\u00e4ndige Heilung ist, bleibt offen.</p>
-        <p class="vb-intro"><strong>c) Heimat im Inneren:</strong>
-        Die tiefste Heilung der Vier ist die Entdeckung, dass Zugeh\u00f6rigkeit
-        nicht von au\u00dfen kommen kann. <strong>Berkowitz</strong> fand sie \u2013 nach allem \u2013
-        in einem inneren Glauben. Ob das ausreicht, zu vergeben: das ist
-        eine Frage, die jeder Leser f\u00fcr sich beantworten muss.</p>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE4 \u2013 die unerschrockene Vier: Neid, Einsamkeit und der Weg vom Mangel zur Pr\u00e4senz.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 \u2013 alle Vierer-Subtypen im \u00dcberblick.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausf\u00fchrlich portr\u00e4tiert \u2013 Neid, Sehnsucht und der Heilungsweg \u00fcber echten Gleichmut.", "Wer du wirklich bist \u2013 Band 1")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. David Berkowitz bekannte sich 1977 in sechs F\u00e4llen des Mordes schuldig und wurde zu sechsmal 25 Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler"},
-        {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
-        {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
       ])}
     </div>
   `);

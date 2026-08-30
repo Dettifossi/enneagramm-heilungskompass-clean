@@ -944,6 +944,73 @@ function ryanGoslingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – Ehefrau"},
+      ])}
+    </div>
+  `);
+}
+
+function evaMendesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eva-mendes-portrait.jpg" alt="Eva Mendes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eva Mendes</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexuelle Sechs mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Unternehmerin, geb. 1974 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs – ein Tier, das der Bedrohung nicht ausweicht, sondern sich ihr entgegenstellt, und das seine tiefste Sicherheit nicht in Distanz, sondern in der engen Bindung an sein Rudel findet. Eva Mendes wuchs als jüngstes von fünf Kindern kubanischer Einwanderer in einem lauten, emotional intensiven Haushalt in Los Angeles auf. Sie beschrieb sich selbst später als „ein sehr ängstliches Kind" – aufgewachsen inmitten großer Gefühle, die sie früh lernte zu lesen und einzuordnen.</p>
+          <p class="vb-intro">Genau aus dieser frühen Wachsamkeit gegenüber emotionaler Unberechenbarkeit entstand später etwas, das nach außen wie das Gegenteil von Angst wirkte: ein selbstbewusstes, unerschrockenes öffentliches Auftreten. Der Wolf, der die eigene Angst nicht durch Rückzug, sondern durch Konfrontation überwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst, die zu Stärke wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der Kontratyp der Sechs – der Subtyp, in dem die Leidenschaft der Angst am wenigsten sichtbar ist, weil sie systematisch ins Gegenteil verkehrt wird. Naranjo nannte diesen Subtyp <em>Stärke/Schönheit</em>: Statt sich vor der Bedrohung zu verstecken, wird ihr mit einer betont selbstbewussten, oft provokanten Präsenz begegnet. <em>Wenn ich stark und schön genug auftrete, kann mir die Angst nichts anhaben.</em></p>
+          <p class="vb-intro">Genau dieses Prinzip prägte Mendes' frühe Karriere: Die Calvin-Klein-Kampagnen der 2000er-Jahre und ihr Image als eines der gefragtesten Sexsymbole Hollywoods waren keine bloße Vermarktungsstrategie, sondern die öffentliche Form eines inneren Musters – Unsicherheit wird durch demonstrative Stärke und Schönheit überschrieben, statt durch Rückzug bewältigt.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sie mit tatsächlicher Bedrohung umgeht: Sieht sie Fotografen, sagt sie selbst, gehe „meine Mauer hoch". Über ihre Beziehung zu Ryan Gosling wollte sie einmal in einem Interview gar nicht erst sprechen: „Ich schalte einfach ab." Die SX6 schützt das Wichtigste nicht durch Nähe zur Öffentlichkeit, sondern durch eine klar gezogene, energisch verteidigte Grenze.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielfalt statt Stillstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine zusätzliche Beweglichkeit: das Bedürfnis, sich nicht auf ein einziges Feld festzulegen, sondern mehrere Interessen und Projekte parallel zu verfolgen. Statt sich ausschließlich auf die Schauspielkarriere zu konzentrieren, baute Mendes über die Jahre ein Portfolio aus eigenen Modelinien, einer Skincare-Marke, Wohnaccessoires und einem eigenen Kochbuch auf.</p>
+          <p class="vb-intro">2015 sagte sie in einem Variety-Interview über ihren Rückzug aus der Schauspielerei: „Ich habe es leid, um die guten Rollen zu kämpfen." Statt weiter auf ein enges, unsicheres Feld angewiesen zu sein, schuf sie sich mehrere eigene, kontrollierbare Standbeine – die Sechs sichert sich ab, der Siebenerflügel sorgt dafür, dass diese Absicherung vielfältig und lebendig bleibt statt einseitig und starr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rückzug für die Familie: Sicherheit als oberstes Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2011 lernte Mendes am Set von ›The Place Beyond the Pines‹ den Schauspieler Ryan Gosling (<a href="javascript:void(0)" data-route="beruehmte-ryan-gosling">SX2w3</a>) kennen. Aus der Beziehung gingen zwei Töchter hervor, geboren 2014 und 2016. Mendes erklärte offen, sie werde keine Fotos ihrer Kinder veröffentlichen, bis diese alt genug seien, um selbst zuzustimmen – eine bewusste, konsequent durchgehaltene Entscheidung zum Schutz der Familie.</p>
+          <p class="vb-intro">Diese Haltung ist reine SX6-Logik: Sicherheit entsteht nicht durch öffentliche Bestätigung, sondern durch aktive Kontrolle darüber, wer Zugang zum eigenen inneren Kreis erhält. Wo die soziale oder selbsterhaltende Sechs eher nach äußerer Rückversicherung sucht, verteidigt die sexuelle Sechs ihr Rudel mit Entschlossenheit – notfalls auch gegen den Erwartungsdruck einer ganzen Medienöffentlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, <strong>aus innerer Unsicherheit heraus eine Präsenz zu formen, die andere als Stärke wahrnehmen</strong> – Mendes verwandelte eine als Kind erlebte Ängstlichkeit in eine Karriere, ein Unternehmertum und eine Familienstruktur, die sie selbst kontrolliert und schützt, statt sich fremdbestimmen zu lassen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> – bei der sexuellen Sechs oft überdeckt durch demonstratives Selbstbewusstsein, das die eigentliche Unsicherheit darunter kaum erahnen lässt. Mendes selbst hat diese Kehrseite öffentlich benannt: In den sozialen Medien fragte sie ihre Follower offen, wie sie selbst mit starken Emotionen umgehen – ein seltener Moment, in dem die Mauer kurz sichtbar wurde, bevor sie sich wieder schloss. Zur Beruhigung dieser inneren Unruhe setzt sie bewusst auf transzendentale Meditation, die ihr, wie sie selbst sagt, ein Gefühl von Balance und innerer Ruhe gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Wolf, der sein Rudel selbst wählt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eva Mendes' Weg vom ängstlichen Kind einer kubanischen Einwandererfamilie zum international gefeierten Sexsymbol und zur vielseitigen Unternehmerin zeigt die sexuelle Sechs mit Siebenerflügel in ihrer reifsten Form: Angst wird nicht verdrängt, sondern in Stärke, Vielfalt und eine bewusst geschützte Familienwelt übersetzt.</p>
+          <p class="vb-intro">Der Wolf zieht sich nicht aus der Welt zurück – er entscheidet nur sehr genau, wen er in sein Rudel lässt. Zusammen mit Ryan Gosling (SX2w3) hat Mendes eine der bemerkenswertesten privat gehaltenen Partnerschaften Hollywoods aufgebaut: zwei sexuell orientierte Subtypen, die ihre größte Intensität nicht der Öffentlichkeit, sondern einander und ihren Kindern widmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
       ])}
     </div>
   `);
@@ -10385,176 +10452,6 @@ function johnWayneKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
-      ])}
-    </div>
-  `);
-}
-
-function elvisPresleyKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-elvis-presley-portrait.jpg" alt="Elvis Presley" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Elvis Presley</p>
-        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel · 1935–1977</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Kamel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Elvis Presley</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-elvis-presley">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier rückt ein Kapitel in den Vordergrund, das dort kaum berührt wird: ein
-        über ein Jahrzehnt eskalierender körperlicher Verfall durch Medikamentenabhängigkeit,
-        der 1977 mit nur 42 Jahren zu seinem Tod führte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Elvis</strong> ist dem <strong>sexuellen Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Die SX2 richtet die Fürsorge und Verführungskraft der Zwei ganz auf die
-        eine, exklusive Verbindung – auf das Publikum als kollektiven Liebespartner, dem
-        vollständige Hingabe gilt. Der Dreierflügel bringt den unbedingten Willen zum
-        sichtbaren Erfolg hinzu, verbunden mit der Weigerung, dem Publikum je ein Nachlassen
-        der eigenen Strahlkraft zuzumuten. Genau dieses Muster trieb Elvis noch auf die Bühne,
-        als sein Körper längst zusammenbrach.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Das Publikum vor dem eigenen Körper:</strong>
-        Elvis' Blick galt bis zuletzt der Frage, was sein Publikum von ihm erwartete – nicht
-        der Frage, was sein Körper noch leisten konnte.</p>
-        <p class="vb-intro"><strong>b) Verfall, der auf der Bühne unübersehbar wurde:</strong>
-        Seine frühere Begleiterin Linda Thompson beschrieb seinen Anblick im CBS-Special
-        "Elvis in Concert" später als erschreckend – ein Mann, der binnen weniger Monate
-        kaum wiederzuerkennen war.</p>
-        <p class="vb-intro"><strong>c) Auftreten trotz sichtbarer Erschöpfung:</strong>
-        Von der ersten Konzertnacht dieser letzten Tournee in Omaha im Juni 1977 konnte kaum
-        Bildmaterial verwendet werden – die Aufführung galt als zu schwach, um sie zu zeigen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Ein Wendepunkt im Jahr 1967:</strong>
-        Sein Leibarzt George Nichopoulos, genannt "Dr. Nick", begann Elvis 1967 wegen
-        Schmerzen zu behandeln – aus heutiger Sicht der Beginn einer sich über ein Jahrzehnt
-        steigernden Medikamentenabhängigkeit.</p>
-        <p class="vb-intro"><strong>b) Fast 19.000 verschriebene Dosen:</strong>
-        In den letzten 31 Monaten vor seinem Tod erhielt Elvis Berichten zufolge rund 19.000
-        Dosen verschreibungspflichtiger Medikamente – Sedativa, Amphetamine, Tranquilizer und
-        Opioide.</p>
-        <p class="vb-intro"><strong>c) Beschleunigung nach der Scheidung 1973:</strong>
-        Nach der Trennung von Priscilla Presley im Oktober 1973 verschärften sich Gewichtszunahme
-        und Medikamentenkonsum deutlich – ein Einschnitt, den mehrere Quellen als
-        Beschleuniger seines Verfalls benennen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Ein stark vergrößerter Dickdarm:</strong>
-        Die Autopsie ergab ein sogenanntes Megakolon – mit fünf bis sechs Zoll Durchmesser
-        und acht bis neun Fuß Länge weit über dem Normalmaß, gefüllt mit teils Monate altem
-        Stuhl.</p>
-        <p class="vb-intro"><strong>b) Ein deutlich vergrößertes Herz:</strong>
-        Die Autopsie stellte zudem ein Herz fest, das etwa doppelt so groß war wie normal –
-        ein Befund, der auf jahrelange kardiologische Überlastung hindeutet.</p>
-        <p class="vb-intro"><strong>c) Vier Krankenhausaufenthalte in fünf Jahren:</strong>
-        In seinen letzten fünf Lebensjahren wurde Elvis mehrfach wegen Bluthochdruck und
-        Darmkomplikationen stationär behandelt – ohne dass dies seinen Tourplan dauerhaft
-        veränderte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Toxikologie mit vierzehn Substanzen:</strong>
-        Im Blut wurden nach seinem Tod vierzehn verschiedene Medikamente nachgewiesen, die
-        Codein-Konzentration lag rund zehnmal über dem therapeutischen Bereich.</p>
-        <p class="vb-intro"><strong>b) Eine bis heute umstrittene offizielle Todesursache:</strong>
-        Die Autopsie nannte eine Herzrhythmusstörung auf Basis einer bluthochdruckbedingten
-        Herzerkrankung als Todesursache – viele Fachleute sehen dagegen das Zusammenwirken
-        mehrerer Medikamente als zentralen Faktor, eine bis heute nicht einheitlich geklärte
-        Kontroverse.</p>
-        <p class="vb-intro"><strong>c) Ein Arzt, der später seine Approbation verlor:</strong>
-        "Dr. Nick" wurde 1980 wegen Überverschreibung angeklagt, aber freigesprochen; 1993
-        wurde ihm die ärztliche Zulassung schließlich entzogen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Bühnenpräsenz als letzte Konstante:</strong>
-        Selbst als Gesundheit und Körper offensichtlich zusammenbrachen, blieb der Auftritt
-        vor Publikum die eine Sache, die Elvis nicht aufgab – die Dreierflügel-Energie der
-        SX2 in ihrer kompromisslosesten Form.</p>
-        <p class="vb-intro"><strong>b) Medikamente als Mittel, die Bühne zu erreichen:</strong>
-        Die verschriebenen Substanzen dienten offenbar zunehmend nicht der Genesung, sondern
-        der bloßen Funktionsfähigkeit für den nächsten Auftritt – ein Kreislauf, der sich
-        selbst verstärkte.</p>
-        <p class="vb-intro"><strong>c) Das Kamel, das seine letzte Reserve für das Publikum aufbrauchte:</strong>
-        Die Hingabe an die eine große Beziehung – an das Publikum als Ganzes – wurde bis zum
-        Schluss aufrechterhalten, selbst als der Körper längst keine Reserven mehr besaß.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Jahrzehnt schleichender Eskalation:</strong>
-        Von den ersten Verschreibungen 1967 bis zu seinem Tod 1977 zieht sich eine
-        durchgehende, sich stetig verschärfende Linie durch Elvis' letztes Lebensjahrzehnt.</p>
-        <p class="vb-intro"><strong>b) Auftreten statt Rückzug, bis zum Ende:</strong>
-        Anders als bei Krankheitsporträts, in denen sich Betroffene zumindest zeitweise aus
-        der Öffentlichkeit zurückzogen, tourte Elvis nahezu ununterbrochen weiter – ein
-        Verhalten, das eher in Richtung des Stresspunkts der SX2, der Acht, verweist:
-        trotziges Weitermachen trotz eindeutiger Warnsignale, statt Kontrolle abzugeben.</p>
-        <p class="vb-intro"><strong>c) Sichtbarer Verfall, öffentlich kaum benannt:</strong>
-        Der körperliche Zustand war für sein Umfeld unübersehbar, wurde aber lange nicht
-        offen thematisiert – eine kollektive Verleugnung, die zum Fortbestehen des Musters
-        beitrug.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet Herz und Darm?</strong>
-        Für eine sexuelle Zwei mit Dreierflügel, deren gesamte Identität an der einen
-        großen, hingebungsvollen Verbindung zum Publikum hing, liegt eine Deutung nahe: Das
-        Herz, Organ der Zuwendung und Hingabe, und der Darm, Organ der Verarbeitung dessen,
-        was von außen aufgenommen wird, versagten gemeinsam – als hätte ein Leben, das
-        ausschließlich auf das Geben an andere ausgerichtet war, irgendwann nichts mehr für
-        sich selbst übrig gehabt, um zu verarbeiten oder zu verkraften. Diese Deutung ist
-        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu
-        Medikamentenabhängigkeit oder Herz-Kreislauf-Erkrankungen führt –
-        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
-        sich an Elvis' Fall zeigen lässt, ist ein Muster, das bei der kompromisslosen
-        Priorisierung der Bühnenpräsenz über die eigenen körperlichen Warnsignale hinweg in
-        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Presley kannte sein eigenes Muster nicht – die sexuelle Zwei mit Dreierflügel lebt für die unmittelbare Verbindung mit dem Publikum, und genau dieser Antrieb hielt ihn auf Tournee, während sein Körper sichtbar zusammenbrach. Wer das eigene Bedürfnis nach Verbindung nicht als Muster erkennt, tauscht die eigene Gesundheit gegen den nächsten Applaus.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Elvis'</strong> sexueller Typ 2 mit Dreierflügel fand seine letzte,
-        konsequenteste Ausprägung in der eigenen Erkrankung: eine über ein Jahrzehnt eskalierende
-        Medikamentenabhängigkeit, ein Körper, der auf der Bühne bis zuletzt für ein
-        Publikum funktionieren musste, und ein Tod 1977, dessen genaue Ursache bis heute
-        diskutiert wird. Das Kamel, das seine letzte Kraft für die eine große Verbindung
-        aufbrauchte, die es nie aufzugeben bereit war.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
       ])}
     </div>
   `);
