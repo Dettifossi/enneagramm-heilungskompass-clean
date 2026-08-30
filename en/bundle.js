@@ -37391,7 +37391,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">1. The Crocodile</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Crocodile</strong> is the animal of Sexual Type 8 &ndash; a creature that does not survive through adaptation, but through unshakeable presence. It lies motionless beneath the surface of the water, patient, primordial, and when it strikes, there is no going back. But the crocodile can also do something else: grow so still that one forgets anything lurks beneath the surface at all &ndash; until the decisive moment arrives.</p>
-          <p class="vb-intro">Eli Jaxon-Bear, born in 1947 as Elliot J. Zeldow in Brooklyn, New York, was in his younger years a fierce political activist of the American civil rights movement &ndash; in 1965 he took part in the civil rights marches in Montgomery, Alabama, and later became a community organiser in Chicago and Detroit. In 1990 he travelled to India and met H. W. L. Poonja, known as Papaji, a disciple of the great sage Ramana Maharshi &ndash; the final teacher on a lifelong search that had already taken him through a Zen monastery in Japan and a Sufi circle in Marrakesh. What followed was no gentle conversion. It was the complete surrender of a crocodile that recognised its own biting was the last fixation it had to let go of.</p>
+          <p class="vb-intro">Eli Jaxon-Bear, born in 1947 as Elliot J. Zeldow in Brooklyn, New York, was in his younger years a fierce political activist of the American civil rights movement &ndash; in 1965 he took part in the civil rights marches in Montgomery, Alabama, and later became a community organiser in Chicago and Detroit. In 1990 he travelled to India together with his wife of one year, <a href="#beruehmte-gangaji">Gangaji (SX4w3)</a>, and met H. W. L. Poonja, known as Papaji, a disciple of the great sage Ramana Maharshi &ndash; the final teacher on a lifelong search that had already taken him through a Zen monastery in Japan and a Sufi circle in Marrakesh. What followed was no gentle conversion. It was the complete surrender of a crocodile that recognised its own biting was the last fixation it had to let go of.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Eight: Possession as the Search for Truth</h2>
@@ -37409,7 +37409,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. The Work: From Fixation to Freedom</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear is one of the few spiritual teachers who directly connect the Enneagram of personality fixations with non-dual awakening. His major work, <em>From Fixation to Freedom: The Enneagram of Liberation</em>, describes the nine fixations not as a mere personality model, but as nine different ways the ego experiences itself as real &ndash; and as nine ways to see through that illusion.</p>
-          <p class="vb-intro">He founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. He lives in Ashland, Oregon, with his wife Gangaji (SX4w3), herself a well-known spiritual teacher &ndash; the two married in 1989 in a cave at the Haleakala Crater on Maui. Jaxon-Bear's teaching is not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
+          <p class="vb-intro">He founded the Leela Foundation and has led retreats and satsangs worldwide for decades, confronting people directly with the question of who they truly are beyond their personality fixation. He lives in Ashland, Oregon, with his wife <a href="#beruehmte-gangaji">Gangaji (SX4w3)</a>, herself a well-known spiritual teacher &ndash; the two married in 1989 in a cave at the Haleakala Crater on Maui, a year before they traveled to India together and met Papaji there. Jaxon-Bear's teaching is not gentle coaching, but a direct, often uncomfortable invitation to recognise one's own fixation as a fixation &ndash; and let it go.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
@@ -37431,6 +37431,7 @@ function eliJaxonBearPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-gangaji", label:"Portrait: Gangaji (SX4w3) – his wife"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
       ])}
@@ -44772,12 +44773,12 @@ function gangajiPortraitPage() {
         <h2 class="vb-section">1. The Chihuahua</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four – an animal that looks unassuming by origin and outward appearance, yet carries an inner life of almost unmanageable intensity. Gangaji was born Merle Antoinette Roberson in Mississippi in 1942 and first worked as a teacher in Memphis, then as a political activist, and later as an acupuncturist – a life that outwardly moved through several respectable, conventional paths, none of which ever settled the restlessness underneath.</p>
-          <p class="vb-intro">In 1972 she moved to California, later divorced her first husband, and entered a second marriage with Eli Jaxon-Bear, with whom she ran a Tibetan Buddhist dharma center. None of these stations were a wrong turn – each was another form in which the same underlying longing for something more real sought expression, before she traveled to India in 1990.</p>
+          <p class="vb-intro">In 1972 she moved to California, later divorced her first husband, and entered a second marriage with the Sexual Eight <a href="#beruehmte-eli-jaxon-bear">Eli Jaxon-Bear (SX8w9)</a>, with whom she ran a Tibetan Buddhist dharma center. The two formally married in 1989 in a cave at the Haleakala Crater on Maui – a bond that continues to this day. None of these stations were a wrong turn – each was another form in which the same underlying longing for something more real sought expression, before she traveled to India together with him in 1990.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Four: Rivalistic Envy as Longing Without Half-Measures</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Sexual Four (SX4)</strong> is the countertype of the Four – Naranjo called this subtype <em>Rivalistic Envy</em>: an intensity out of all proportion to outward appearance or starting conditions. No half-feeling, no moderated presence – whatever is felt is felt fully. In India, Gangaji met H. W. L. Poonja, known as Papaji, a student of Ramana Maharshi, who gave her the name Gangaji in that encounter and made her a teacher.</p>
+          <p class="vb-intro">The <strong>Sexual Four (SX4)</strong> is the countertype of the Four – Naranjo called this subtype <em>Rivalistic Envy</em>: an intensity out of all proportion to outward appearance or starting conditions. No half-feeling, no moderated presence – whatever is felt is felt fully. In India, Gangaji and Jaxon-Bear together met H. W. L. Poonja, known as Papaji, a student of Ramana Maharshi, who gave her the name Gangaji in that encounter and made her a teacher.</p>
           <p class="vb-intro">From the Mississippi teacher who had passed through several conventional careers and two marriages, one of the best-known Western voices of the neo-Advaita movement emerged within just a few years. Her language remained throughout one of longing and burning: "If you are longing for peace or freedom, make yourself a target so that it finds you. The best way to make yourself a target is to be still" – rivalistic envy not as rivalry with others, but as a longing that tolerates no half-measure.</p>
         </blockquote>
 
@@ -44811,6 +44812,7 @@ function gangajiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-eli-jaxon-bear", label:"Portrait: Eli Jaxon-Bear (SX8w9) – her husband"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – The Chihuahua"},
       ])}

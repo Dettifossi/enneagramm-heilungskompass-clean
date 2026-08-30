@@ -54914,7 +54914,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">1. Das Krokodil</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier des sexuellen Typs 8 &ndash; ein Wesen, das nicht durch Anpassung \u00fcberlebt, sondern durch unersch\u00fctterliche Pr\u00e4senz. Es liegt reglos unter der Wasseroberfl\u00e4che, geduldig, urt\u00fcmlich, und wenn es zuschnappt, gibt es kein Zur\u00fcck. Doch das Krokodil kann auch etwas anderes: still werden, so still, dass man vergisst, dass unter der Oberfl\u00e4che \u00fcberhaupt etwas lauert &ndash; bis der entscheidende Moment kommt.</p>
-          <p class="vb-intro">Der US-amerikanische Eli Jaxon-Bear, geboren 1947 als Elliot J. Zeldow in Brooklyn, New York, war in jungen Jahren ein gl\u00fchender politischer Aktivist der amerikanischen B\u00fcrgerrechtsbewegung &ndash; 1965 nahm er an den B\u00fcrgerrechtsm\u00e4rschen in Montgomery, Alabama, teil, wurde sp\u00e4ter Gemeindeorganisator in Chicago und Detroit. 1990 reiste er nach Indien und traf dort H. W. L. Poonja, genannt Papaji, einen Sch\u00fcler des gro\u00dfen Weisen Ramana Maharshi &ndash; den letzten Lehrer auf einer lebenslangen Suche, die ihn zuvor bereits in ein Zen-Kloster in Japan und einen Sufi-Zirkel in Marrakesch gef\u00fchrt hatte. Was folgte, war keine sanfte Bekehrung. Es war die vollst\u00e4ndige Kapitulation eines Krokodils, das erkannte, dass sein eigenes Bei\u00dfen die letzte Fixierung war, die es loslassen musste.</p>
+          <p class="vb-intro">Der US-amerikanische Eli Jaxon-Bear, geboren 1947 als Elliot J. Zeldow in Brooklyn, New York, war in jungen Jahren ein gl\u00fchender politischer Aktivist der amerikanischen B\u00fcrgerrechtsbewegung &ndash; 1965 nahm er an den B\u00fcrgerrechtsm\u00e4rschen in Montgomery, Alabama, teil, wurde sp\u00e4ter Gemeindeorganisator in Chicago und Detroit. 1990 reiste er gemeinsam mit seiner ein Jahr zuvor angetrauten Frau <a href="#beruehmte-gangaji">Gangaji (SX4w3)</a> nach Indien und traf dort H. W. L. Poonja, genannt Papaji, einen Sch\u00fcler des gro\u00dfen Weisen Ramana Maharshi &ndash; den letzten Lehrer auf einer lebenslangen Suche, die ihn zuvor bereits in ein Zen-Kloster in Japan und einen Sufi-Zirkel in Marrakesch gef\u00fchrt hatte. Was folgte, war keine sanfte Bekehrung. Es war die vollst\u00e4ndige Kapitulation eines Krokodils, das erkannte, dass sein eigenes Bei\u00dfen die letzte Fixierung war, die es loslassen musste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Acht: Besitzergreifung als Wahrheitssuche</h2>
@@ -54932,7 +54932,7 @@ function eliJaxonBearPortraitPage() {
         <h2 class="vb-section">4. Das Werk: Vom Fixiertsein zur Freiheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jaxon-Bear ist einer der wenigen spirituellen Lehrer, die das Enneagramm der Pers\u00f6nlichkeitsfixierungen direkt mit dem nicht-dualen Erwachen verbinden. Sein Hauptwerk <em>From Fixation to Freedom: The Enneagram of Liberation</em> beschreibt die neun Fixierungen nicht als blo\u00dfes Pers\u00f6nlichkeitsmodell, sondern als neun verschiedene Wege, wie das Ego sich selbst als real erlebt &ndash; und als neun Wege, diese Illusion zu durchschauen.</p>
-          <p class="vb-intro">Er gr\u00fcndete die Leela Foundation und h\u00e4lt seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Pers\u00f6nlichkeitsfixierung wirklich sind. Er lebt in Ashland, Oregon, gemeinsam mit seiner Frau Gangaji (SX4w3), ebenfalls einer bekannten spirituellen Lehrerin &ndash; 1989 heirateten die beiden in einer H\u00f6hle am Haleakala-Krater auf Maui. Jaxon-Bears Lehre ist kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
+          <p class="vb-intro">Er gr\u00fcndete die Leela Foundation und h\u00e4lt seit Jahrzehnten Retreats und Satsangs weltweit, in denen er Menschen direkt mit der Frage konfrontiert, wer sie jenseits ihrer Pers\u00f6nlichkeitsfixierung wirklich sind. Er lebt in Ashland, Oregon, gemeinsam mit seiner Frau <a href="#beruehmte-gangaji">Gangaji (SX4w3)</a>, ebenfalls einer bekannten spirituellen Lehrerin &ndash; 1989 heirateten die beiden in einer H\u00f6hle am Haleakala-Krater auf Maui, ein Jahr bevor sie gemeinsam nach Indien reisten und dort auf Papaji trafen. Jaxon-Bears Lehre ist kein sanftes Coaching, sondern die direkte, oft unbequeme Einladung, die eigene Fixierung als Fixierung zu erkennen &ndash; und loszulassen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
@@ -54954,6 +54954,7 @@ function eliJaxonBearPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"beruehmte-gangaji", label:"Portr\u00e4t: Gangaji (SX4w3) \u2013 seine Frau"},
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-genesis-p-orridge", label:"Portr\u00e4t: Genesis P-Orridge (SX8w9)"},
       ])}
@@ -73656,12 +73657,12 @@ function gangajiPortraitPage() {
         <h2 class="vb-section">1. Der Chihuahua</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
-          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit Eli Jaxon-Bear ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 nach Indien reiste.</p>
+          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit dem sexuellen Achter <a href="#beruehmte-eli-jaxon-bear">Eli Jaxon-Bear (SX8w9)</a> ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. 1989 heirateten die beiden formell in einer Höhle am Haleakala-Krater auf Maui – eine Verbindung, die bis heute anhält. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 gemeinsam mit ihm nach Indien reiste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Konkurrenzneid als Sehnsucht ohne Halbheiten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien traf Gangaji auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien trafen Gangaji und Jaxon-Bear gemeinsam auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
           <p class="vb-intro">Aus der Mississippi-Lehrerin, die durch mehrere bürgerliche Berufe und zwei Ehen gegangen war, wurde binnen weniger Jahre eine der bekanntesten westlichen Stimmen der Neo-Advaita-Bewegung. Ihre Sprache blieb dabei durchgehend eine der Sehnsucht und des Brennens: ›Wenn Sie sich nach Frieden oder Freiheit sehnen, machen Sie sich selbst zum Ziel, damit es Sie findet. Der beste Weg, sich zum Ziel zu machen, ist, still zu werden‹ – Konkurrenzneid nicht als Rivalität mit anderen, sondern als eine Sehnsucht, die keine Halbheit erträgt.</p>
         </blockquote>
 
@@ -73695,6 +73696,7 @@ function gangajiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-eli-jaxon-bear", label:"Porträt: Eli Jaxon-Bear (SX8w9) – ihr Ehemann"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Der Chihuahua"},
       ])}

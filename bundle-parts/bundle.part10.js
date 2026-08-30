@@ -838,12 +838,12 @@ function gangajiPortraitPage() {
         <h2 class="vb-section">1. Der Chihuahua</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
-          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit Eli Jaxon-Bear ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 nach Indien reiste.</p>
+          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit dem sexuellen Achter <a href="#beruehmte-eli-jaxon-bear">Eli Jaxon-Bear (SX8w9)</a> ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. 1989 heirateten die beiden formell in einer Höhle am Haleakala-Krater auf Maui – eine Verbindung, die bis heute anhält. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 gemeinsam mit ihm nach Indien reiste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Konkurrenzneid als Sehnsucht ohne Halbheiten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien traf Gangaji auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien trafen Gangaji und Jaxon-Bear gemeinsam auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
           <p class="vb-intro">Aus der Mississippi-Lehrerin, die durch mehrere bürgerliche Berufe und zwei Ehen gegangen war, wurde binnen weniger Jahre eine der bekanntesten westlichen Stimmen der Neo-Advaita-Bewegung. Ihre Sprache blieb dabei durchgehend eine der Sehnsucht und des Brennens: ›Wenn Sie sich nach Frieden oder Freiheit sehnen, machen Sie sich selbst zum Ziel, damit es Sie findet. Der beste Weg, sich zum Ziel zu machen, ist, still zu werden‹ – Konkurrenzneid nicht als Rivalität mit anderen, sondern als eine Sehnsucht, die keine Halbheit erträgt.</p>
         </blockquote>
 
@@ -877,6 +877,7 @@ function gangajiPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-eli-jaxon-bear", label:"Porträt: Eli Jaxon-Bear (SX8w9) – ihr Ehemann"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Der Chihuahua"},
       ])}
