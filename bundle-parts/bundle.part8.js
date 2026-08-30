@@ -1,69 +1,3 @@
-function dietmarBaerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-dietmar-baer-portrait.jpg" alt="Dietmar Bär" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dietmar Bär</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, geb. 1961 – seit 1997 »Kommissar Ballauf« im Kölner Tatort – Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun – massig, gemütlich, an sein eigenes Terrain und seine Herde gebunden, und dabei überraschend bestimmt, sobald es wirklich darauf ankommt. Kein anderes Tier verkörpert so treffend das Bild eines Mannes, der seit 1997 als Kommissar Max Ballauf im Kölner „Tatort" ermittelt: bodenständig, ohne Starallüren, mit einer Vorliebe fürs Deftige, Direkte – und mit einem Ruhepunkt, der sich nicht so leicht aus der Bahn werfen lässt.</p>
-          <p class="vb-intro">Dietmar Bär, 1961 in Köln geboren, ist seit fast drei Jahrzehnten mit derselben Rolle verbunden – eine der längsten Ermittler-Konstanten im deutschen Fernsehen überhaupt. Der Elefant zieht nicht um. Er bleibt an seinem Wasserloch, in seiner Herde, in seiner Stadt – und genau diese Beständigkeit, nicht spektakuläre Wandlungsfähigkeit, ist die eigentliche Stärke, die Bär öffentlich verkörpert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Komfort als Fundament</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> richtet die neunertypische Suche nach Frieden nicht primär auf die Gruppe (wie die soziale Neun) oder auf die eine Verschmelzung (wie die sexuelle Neun), sondern auf das eigene, unmittelbare Wohlbefinden: Essen, Gewohnheiten, das vertraute Zuhause, ein Leben ohne unnötige Reibung. Bär spricht in Interviews auffällig oft und mit sichtlichem Vergnügen übers Kochen und Essen, über Köln als seinen festen Lebensmittelpunkt, über die Bedeutung von Ritualen und Vertrautem im Alltag.</p>
-          <p class="vb-intro">Das ist kein Zufall, sondern der Kern der SE9: Sicherheit entsteht nicht durch soziale Anerkennung oder eine einzelne intensive Bindung, sondern durch die Pflege des eigenen, unmittelbaren Komforts. Genau diese Bodenständigkeit überträgt sich fast eins zu eins auf Ballauf – einen Ermittler, der nie den großen Auftritt sucht, sondern lieber im vertrauten Kölner Milieu bleibt, in dem er sich auskennt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Deutlichkeit ohne Drohgebärde</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der selbsterhaltenden Neun etwas, das einer SE9 mit schwach ausgeprägtem Achterflügel oft fehlt: eine direkte, unverblümte Art, klare Kante, wenn es nötig ist. In Interviews wirkt Bär nicht diplomatisch-zurückhaltend, sondern warmherzig, aber auch bestimmt und offen – er sagt, was er denkt, ohne dabei aggressiv oder konfrontativ zu wirken.</p>
-          <p class="vb-intro">Das unterscheidet die SE9w8 von der reinen, ungeflügelten Neun: Die Bequemlichkeit bleibt das Fundament, aber sie wird nicht zur Konfliktvermeidung um jeden Preis. Sein langjähriges Engagement als UNICEF-Botschafter zeigt dieselbe Mischung – kein lautstarker Aktivismus, sondern beständiges, verlässliches Eintreten für eine Sache, verbunden mit einer klaren, unmissverständlichen Haltung, wenn es um Kinderrechte geht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Rolle: Ballauf als verlängerter Arm der eigenen Bodenständigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Max Ballauf ist im Kölner „Tatort" der emotionalere, direktere der beiden Ermittler – einer, der auch mal laut wird, der seine Meinung unumwunden sagt, der sich mit seinem Kollegen Schenk auf eine Weise reibt und versteht, die über die Jahrzehnte fast familiär wirkt. Diese Konstellation funktioniert im Fernsehen nur deshalb so glaubwürdig, weil sie nicht nur gespielt, sondern von zwei Schauspielern getragen wird, die sich seit Jahrzehnten tatsächlich verbunden sind.</p>
-          <p class="vb-intro">Bär selbst hat wiederholt betont, dass ihm die reale Freundschaft mit seinem Schauspielkollegen wichtiger sei als jede einzelne Folge – eine Aussage, die genau ins SE9-Muster passt: Beständigkeit, Vertrautheit und die Pflege eines eingespielten, verlässlichen Umfelds wiegen schwerer als kurzfristige Anerkennung oder ein einzelner großer Erfolg.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Mensch hinter Ballauf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Abseits der Kamera engagiert sich Bär seit vielen Jahren als Botschafter für UNICEF Deutschland und setzt sich öffentlich für Kinderrechte ein – ein Engagement, das er nicht mit großer Geste, sondern mit stetiger Präsenz über Jahre hinweg pflegt. Er wird in Porträts und Interviews regelmäßig als humorvoll, gesellig und ausgesprochen genussorientiert beschrieben – jemand, der die kleinen, sinnlichen Freuden des Alltags bewusst zelebriert, statt sie als selbstverständlich hinzunehmen.</p>
-          <p class="vb-intro">Auffällig ist zudem, wie konsequent Bär trotz jahrzehntelanger Prominenz eine private, weitgehend unaufgeregte Öffentlichkeitsrolle gepflegt hat – kaum Skandale, kaum Homestorys, kaum das Bedürfnis, sich über die eigentliche Arbeit hinaus zu inszenieren. Das ist die stille Konsequenz der selbsterhaltenden Neun: Der eigene Komfort und die eigene Ruhe sind ihr wichtiger als zusätzliche Sichtbarkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Elefant, der bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fast drei Jahrzehnte in derselben Rolle, in derselben Stadt, an der Seite desselben Kollegen – das ist im schnelllebigen Fernsehgeschäft eine seltene Konstante, und sie speist sich aus genau der Eigenschaft, die den Elefanten auszeichnet: Beständigkeit ist keine Einschränkung, sondern eine Kraftquelle. Der Achterflügel sorgt dafür, dass diese Beständigkeit nie zur Passivität wird, sondern von einer klaren, direkten Haltung getragen bleibt.</p>
-          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Klaus J. Behrendt</a> (SE6w5), der im Kölner „Tatort" den ruhigeren, vorsichtigeren Kommissar Schenk verkörpert. Beide sind Selbsterhaltungs-Typen, beide meiden auf ihre eigene Art das Rampenlicht – Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr zu dieser Verbindung im <a href="javascript:void(0)" data-route="beruehmte-klaus-j-behrendt">Porträt zu Klaus J. Behrendt</a>.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5) – sein Tatort-Partner Schenk"},
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
-
 function klausJBehrendtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7205,6 +7139,67 @@ function cheyenneOchsenknechtPortraitPage() {
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SE2w3) – Bruder"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardCohenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Cohen</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Kanadischer Musiker, Dichter &amp; Schriftsteller, 1934&ndash;2016 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Kaum ein Künstler verkörpert diese Doppelnatur so präzise wie Leonard Cohen: eine tiefe, rauchige Stimme, ein makelloser Anzug, eine fast mönchische Contenance &ndash; und darunter, über Jahrzehnte hinweg in Liedern offengelegt, eine Verletzlichkeit, die selten so offen ausgestellt wurde.</p>
+          <p class="vb-intro">Der kanadische Musiker Leonard Cohen wurde am 21. September 1934 in Montreal geboren, im wohlhabenden Stadtteil Westmount, in eine angesehene jüdische Familie mit tiefen Wurzeln in der örtlichen Gemeinde. Als er neun Jahre alt war, starb sein Vater, ein Textilhändler &ndash; ein früher Verlust, der Cohen zeitlebens begleitete. Seine Mutter Masha, eine aus Russland geflohene Immigrantin, trug selbst eine tiefe, fast literarische Melancholie in sich, die den jungen Leonard prägte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham und die Suche nach Bedeutung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt den Schmerz der Vier in die soziale Dimension. Naranjo nannte diesen Subtyp <em>Scham</em>: das tiefe Gefühl, nicht gut genug zu sein für die Welt, in der man lebt &ndash; verbunden mit dem brennenden Wunsch, dazuzugehören, bedeutsam zu sein, etwas zu hinterlassen, das bleibt. Cohen war schon als Kind schüchtern und neigte zu Depressionen; sein erstes Gedichtband, <em>Let Us Compare Mythologies</em>, veröffentlichte er bereits 1956 &ndash; die Umwandlung des eigenen inneren Schmerzes in öffentlich geteilte Sprache begann früh und blieb sein Lebensthema.</p>
+          <p class="vb-intro">Themen wie Glaube und Sterblichkeit, Isolation, Verrat und Erlösung, Sehnsucht und Verlust ziehen sich durch sein gesamtes Werk. Die SO4 vergleicht sich unablässig mit anderen und sucht in der Resonanz der Gemeinschaft eine Bestätigung, die eigentlich nur von innen kommen kann &ndash; Cohens Lieder wurden für Millionen zu einer Sprache für genau dieses Gefühl von Bruchstückhaftigkeit und Sehnsucht, obwohl sie aus einer sehr persönlichen, oft schambesetzten Quelle stammten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug, Wissen und sechs Jahre im Zen-Kloster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der sozialen Vier eine zusätzliche Distanz zur eigenen Emotionalität &ndash; ein Bedürfnis nach Rückzug, Reflexion und intellektueller Durchdringung des eigenen Schmerzes, statt sich ihm ungefiltert auszusetzen. Mitte der 1990er-Jahre, überwältigt von einem tiefen Gefühl der Hoffnungslosigkeit nach der Tour zu seinem Album <em>The Future</em>, zog sich Cohen fast vollständig aus der Öffentlichkeit zurück und lebte sechs Jahre lang als Zen-Mönch im Kloster auf dem Mount Baldy bei Los Angeles, unter dem Namen Jikan &ndash; von seinem Lehrer Roshi selbst übersetzt als „gewöhnliche Stille" oder „die Stille zwischen zwei Gedanken".</p>
+          <p class="vb-intro">1999 verließ er das Kloster wieder, mit der ernüchternden Erkenntnis, wie er später sagte: „Ich hatte das Gefühl, es half nichts. Es ging eigentlich nicht auf das Problem ein &ndash; die Bedrängnis, die den Hintergrund all meiner Aktivitäten, Gefühle und Gedanken bildet." Der Fünferflügel sucht Antworten im Rückzug und im Studium &ndash; doch bei der SO4w5 bleibt am Ende die Erkenntnis, dass reines Wissen die soziale Wunde allein nicht heilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die Fähigkeit, das Persönlichste in etwas zu verwandeln, das Millionen als ihr eigenes empfinden. 2005 wurde bekannt, dass Cohens langjährige Managerin Kelley Lynch über Jahre mehr als fünf Millionen Dollar von seinen Konten veruntreut hatte, darunter seine gesamte Altersvorsorge. Statt daran zu zerbrechen, kehrte der damals 73-Jährige noch einmal auf die Bühne zurück &ndash; eine Welttournee, die ihn über 387 Konzerte vor mehr als zwei Millionen Menschen führte und zum kommerziell erfolgreichsten Abschnitt seiner gesamten Karriere wurde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das Gefühl, dass anderen etwas Wesentliches gegeben wurde, das einem selbst fehlt. Bei der SO4w5 kann sich dieser Neid in eine dauerhafte innere Distanz zur eigenen Öffentlichkeit verwandeln &ndash; das Gefühl, nie ganz dazuzugehören, selbst auf dem Höhepunkt des Ruhms. Cohens jahrelanger Rückzug ins Kloster und seine notorische Selbstironie über die eigene Melancholie zeigen, wie eng bei der SO4w5 Anerkennung und innere Unruhe nebeneinander bestehen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Eine Stimme für die Bruchstellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Song zeigt Cohens Werk klarer als <em>Hallelujah</em>: Er brauchte nach eigener Aussage sechs bis sieben Jahre, um den Text fertigzustellen &ndash; aus Verlegenheit gab er Bob Dylan gegenüber später an, es seien nur zwei gewesen. Ein Lied über Glaube, Zweifel, Begehren und Scheitern, das erst Jahrzehnte nach der Veröffentlichung zu einem der meistgecoverten Songs der Musikgeschichte wurde &ndash; genau jenes verzögerte, aber universelle Erkennen, das die SO4 sich insgeheim ihr ganzes Leben lang wünscht.</p>
+          <p class="vb-intro">Das Gürteltier zieht sich in seinen Panzer zurück, wenn es verletzlich ist, und tritt hervor, wenn es gebraucht wird. Leonard Cohens Weg vom schüchternen, depressiven Jungen aus Montreal über sechs Jahre klösterlicher Stille bis zur triumphalen Welttournee im hohen Alter zeigt genau dieses Muster: ein Leben, das zwischen Rückzug und Bühne pendelte, und aus genau diesem Pendeln eine der eindringlichsten Stimmen des 20. Jahrhunderts machte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
       ])}
     </div>
   `);

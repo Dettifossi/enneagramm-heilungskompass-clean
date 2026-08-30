@@ -808,11 +808,11 @@ function edelsteinePage() {
       <p class="psycho-intro">Jedem Enneagrammtyp ist ein Edelstein zugeordnet, dessen Eigenschaften mit den seelischen Themen, Mustern und Entwicklungsimpulsen des Typs resonieren. Tippe auf einen Typ, um das Schaubild gro\u00df zu sehen.</p>
       <div class="psycho-grid">
         ${EDELSTEINE.map(e => `
-          <button class="psycho-card" data-route="edelsteine/${e.typ}">
-            <span class="psycho-card__nr">${e.typ}</span>
+          <button class="psycho-card" data-route="edelsteine/${e.typ}" style="border-color:${typeColor(e.typ)};background:linear-gradient(160deg, ${typeColor(e.typ)}18, ${typeColor(e.typ)}08);">
+            <span class="psycho-card__nr" style="color:${typeColor(e.typ)};">${e.typ}</span>
             <span class="psycho-card__name">${e.name}</span>
             <span style="font-size:.68rem;color:var(--muted);letter-spacing:.03em;margin-top:.1rem;">${e.crystal}</span>
-            <span class="psycho-card__arrow">\u2192</span>
+            <span class="psycho-card__arrow" style="color:${typeColor(e.typ)};">\u2192</span>
           </button>
         `).join("")}
       </div>
@@ -932,31 +932,31 @@ function teeEnneagrammPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Melissentee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:#5f5f5f;">Typ 1 &ndash; Melissentee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> mild, entkrampfend, ausgleichend, nervlich beruhigend. <strong>F\u00f6rdert:</strong> Gelassenheit, innere Weichheit, Entspannung, freundliche Selbstregulation. <strong>Passt zu Typ 1, weil:</strong> die Strenge weicher werden darf, ohne dass Klarheit verloren geht. <strong>Leitidee:</strong> Weniger innere Verkrampfung, mehr milde Ordnung.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Rosenbl\u00fctentee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 &ndash; Rosenbl\u00fctentee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> herz\u00f6ffnend, harmonisierend, verfeinernd, emotional w\u00e4rmend. <strong>F\u00f6rdert:</strong> Selbstwert, Herzensw\u00e4rme, Empf\u00e4nglichkeit, liebevolle Pr\u00e4senz. <strong>Passt zu Typ 2, weil:</strong> Zuwendung nicht nur nach au\u00dfen flie\u00dfen muss, sondern auch nach innen. <strong>Leitidee:</strong> Geben und Empfangen kommen in ein besseres Gleichgewicht.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Rosmarintee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#1fa688;">Typ 3 &ndash; Rosmarintee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> anregend, kl\u00e4rend, sammelnd, aufrichtend. <strong>F\u00f6rdert:</strong> Pr\u00e4senz, Fokus, Wachheit, innere Ausrichtung. <strong>Passt zu Typ 3, weil:</strong> Aktivit\u00e4t und Zielkraft in echte innere Sammlung zur\u00fcckgef\u00fchrt werden. <strong>Leitidee:</strong> Weniger Fassade, mehr Substanz und Richtung.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Weidenr\u00f6schentee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#3cbf1f;">Typ 4 &ndash; Weidenr\u00f6schentee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> fein, regulierend, bes\u00e4nftigend, zur\u00fccknehmend, seelisch differenziert. <strong>F\u00f6rdert:</strong> Sammlung, innere Beruhigung, Abgrenzung, stille Zentrierung. <strong>Passt zu Typ 4, weil:</strong> emotionale Tiefe da sein darf, ohne sich im Eigengef\u00fchl zu verlieren. <strong>Leitidee:</strong> Tiefe mit Ma\u00df, Gef\u00fchl mit stiller Form.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Haferkrauttee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#124fcc;">Typ 5 &ndash; Haferkrauttee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> n\u00e4hrend, aufbauend, nervenst\u00e4rkend, schlicht stabilisierend. <strong>F\u00f6rdert:</strong> Substanz, Regeneration, Verk\u00f6rperung, ruhige Belastbarkeit. <strong>Passt zu Typ 5, weil:</strong> der R\u00fcckzug nicht noch mehr Vergeistigung braucht, sondern Nahrung und Boden. <strong>Leitidee:</strong> Mehr Kraft, Dichte und Anbindung an den Leib.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Kamillenbl\u00fctentee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 &ndash; Kamillenbl\u00fctentee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> beruhigend, entkrampfend, haltgebend, vertraut. <strong>F\u00f6rdert:</strong> Sicherheit, Loslassen, nervliche Beruhigung, Vertrauen. <strong>Passt zu Typ 6, weil:</strong> innere Alarmbereitschaft und Gr\u00fcbelspannung bes\u00e4nftigt werden. <strong>Leitidee:</strong> Weniger Dauervigilanz, mehr innere Geborgenheit.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Pfefferminztee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 &ndash; Pfefferminztee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> frisch, beweglich, kl\u00e4rend, belebend. <strong>F\u00f6rdert:</strong> geistige Frische, Leichtigkeit, freie Bewegung, Aufhellung. <strong>Passt zu Typ 7, weil:</strong> der helle, mobile, luftige Charakter des Typs direkt gespiegelt wird. <strong>Leitidee:</strong> Lebensfreude und Beweglichkeit in klarer Form.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Ingwertee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#a00802;">Typ 8 &ndash; Ingwertee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> w\u00e4rmend, aktivierend, durchdringend, vitalisierend. <strong>F\u00f6rdert:</strong> Kraft, Entschiedenheit, W\u00e4rme, Durchsetzung, Pr\u00e4senz. <strong>Passt zu Typ 8, weil:</strong> Intensit\u00e4t und Lebenskraft eine klare, unmittelbare Entsprechung finden. <strong>Leitidee:</strong> Kraft mit W\u00e4rme und Direktheit.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Fencheltee</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#cc6e00;">Typ 9 &ndash; Fencheltee</h3>
         <p class="vb-intro"><strong>Pflanzenqualit\u00e4t:</strong> mild, harmonisierend, rund, freundlich ausgleichend. <strong>F\u00f6rdert:</strong> Zentrierung, Bek\u00f6mmlichkeit, innere Ruhe, sanfte Pr\u00e4senz. <strong>Passt zu Typ 9, weil:</strong> er nicht \u00fcberfordert, aber dennoch leise in Bewegung bringt. <strong>Leitidee:</strong> Sanft aus der Tr\u00e4gheit in mehr Pr\u00e4senz.</p>
       </div>
 
@@ -997,11 +997,11 @@ function psychogrammePage() {
       <p class="psycho-intro">Jedes Psychogramm zeigt den vollst\u00e4ndigen tiefenpsychologischen Kreislauf eines Typs: vom H\u00f6heren Selbst \u00fcber das untergr\u00fcndige Mangelgef\u00fchl bis zum fiktiven Selbstbild und Schatten \u2014 und den Weg zur\u00fcck zur Integration.</p>
       <div class="psycho-grid">
         ${PSYCHOGRAMM_TYPEN.map(t => `
-          <button class="psycho-card" data-route="psychogramme/${t.typ}">
-            <span class="psycho-card__nr">${t.typ}</span>
+          <button class="psycho-card" data-route="psychogramme/${t.typ}" style="border-color:${typeColor(t.typ)};background:linear-gradient(160deg, ${typeColor(t.typ)}18, ${typeColor(t.typ)}08);">
+            <span class="psycho-card__nr" style="color:${typeColor(t.typ)};">${t.typ}</span>
             <span class="psycho-card__name">${t.name}</span>
             <span class="psycho-card__kern">${t.kern}</span>
-            <span class="psycho-card__arrow">\u2192</span>
+            <span class="psycho-card__arrow" style="color:${typeColor(t.typ)};">\u2192</span>
           </button>
         `).join("")}
       </div>

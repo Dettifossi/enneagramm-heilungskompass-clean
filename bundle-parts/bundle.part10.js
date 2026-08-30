@@ -1,56 +1,3 @@
-function brynKenneyPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-bryn-kenney-portrait.jpg" alt="Bryn Kenney – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Bryn Kenney</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanischer Profi-Pokerspieler &ndash; Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier mit ruhigen Pfoten und wachen Augen, das am Pokertisch niemand fürchtet, bis es zu spät ist. Es blufft nicht durch Lautstärke, sondern durch die schiere Präzision seiner Bewegungen: Während andere Tiere um Aufmerksamkeit buhlen, sammelt der Waschbär in aller Stille genau die Informationen, die am Ende den Unterschied machen.</p>
-          <p class="vb-intro">Der US-amerikanische Profi-Pokerspieler Bryn Kenney wurde 1986 in Long Beach, New York, geboren und spielte als Jugendlicher wettkampfmäßig das Strategiekartenspiel Magic: The Gathering &ndash; ein analytisches, tief taktisches Spiel, das seine spätere Herangehensweise an Poker entscheidend prägte. Mit sechzehn begann er, online Poker zu spielen, lange bevor ihn irgendjemand kannte, und erkannte früh, dass er damit sein Geld verdienen konnte. Seinen ersten größeren Live-Gewinn erzielte er 2007 &ndash; Jahre stiller, weitgehend unbeachteter Übung, bevor die Öffentlichkeit von ihm erfuhr.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
-          <p class="vb-intro">Eine Woche vor seiner Prüfung zum Immobilienmakler starb seine Großmutter &ndash; ein Wendepunkt, der Kenney klarmachte, dass es für ihn keinen Grund mehr gab, diesen konventionellen Weg weiterzuverfolgen. Er entschied sich für Poker als Profession, nicht aus Rebellion, sondern weil er dort bereits nachweislich etwas konnte. Über Jahrzehnte baute er seine Fähigkeiten in unzähligen Turnieren aus, bis er 2019 beim Triton Million for Charity mit einem zweiten Platz den bis heute größten Einzelgewinn der Pokergeschichte einstrich: über 20,5 Millionen US-Dollar. Seit 2026 führt er die All-Time-Money-List mit rund 90,76 Millionen Dollar Turniergewinnen an &ndash; vor Justin Bonomo und dem langjährigen Spitzenreiter Daniel Negreanu.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Der einsame Wolf am Tisch</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg &ndash; jenseits dessen, was von mir erwartet wird?</em> Kenney beschreibt sich selbst unumwunden als Außenseiter der Szene: &bdquo;Ich bin wie der einsame Wolf in dieser Pokerwelt&ldquo;, sagte er einmal &ndash; eine Selbstbeschreibung, die zeigt, wie sehr er sich als eigenständige, nicht ins übliche Schema passende Figur begreift, selbst innerhalb einer Szene, in der er sportlich an der absoluten Spitze steht.</p>
-          <p class="vb-intro">Sein extravaganter persönlicher Stil &ndash; teure Uhren, auffällige Ketten, unverblümte Ansagen am Tisch &ndash; wirkt auf den ersten Blick wie reine Selbstdarstellung, ist bei genauerem Hinsehen aber eher Ausdruck eines völlig eigenen Maßstabs als der Wunsch, einer Gruppe zu gefallen. Kenney selbst formuliert eine fast schon philosophische Grundhaltung dazu: &bdquo;Meine ganze Lebenserfahrung ist, dass es keinen Traum gab, der zu groß war &ndash; jeder Traum, den ich hatte, wurde Wirklichkeit.&ldquo;</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Können echte Einzigartigkeit zu schöpfen. Kenneys jahrelange, im Verborgenen erarbeitete Spielstärke führte am Ende zum größten je ausgezahlten Turniergewinn der Pokergeschichte &ndash; kein Zufallstreffer, sondern das Ergebnis von tausenden Stunden Analyse, die niemand von außen sah.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während die eigene Substanz zugleich hinter einer Fassade aus Understatement oder, wie bei Kenney, hinter demonstrativer Extravaganz verborgen bleibt. Der Schatten des Viererflügels zeigt sich in der Isolation, die das Selbstbild des &bdquo;einsamen Wolfs&ldquo; mit sich bringt: &bdquo;Niemand ist perfekt&ldquo;, räumte Kenney selbst einmal ein &ndash; ein knapper Satz, der andeutet, wie viel Kritik und Reibung ein derart kompromissloser Eigenweg auch nach außen erzeugt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-annika-von-mutius", label:"Porträt: Dr. Annika von Mutius (SE3w4)"},
-        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
 function johnnyCashPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10772,6 +10719,186 @@ function freddieMercuryKrankheitsportraetPage() {
         {route:"krankheitsportraets-billie-eilish", label:"Krankheitsporträt: Billie Eilish (SX4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function albertEinsteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Albert Einstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1879–1955</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Albert Einstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-albert-einstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
+        über sechseinhalb Jahre bekanntes, nur notdürftig stabilisiertes
+        Bauchaortenaneurysma und die bewusste Entscheidung, es 1955 nicht mehr operieren zu
+        lassen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Einstein</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen und intellektuelle Autorität
+        innerhalb einer Gemeinschaft von Gleichgesinnten, nicht über emotionale Nähe. Der
+        Viererflügel bringt eine melancholische, existenzielle Tiefe hinzu – eine Nähe zu den
+        großen Fragen von Sinn, Endlichkeit und Bedeutung. Genau diese Kombination aus
+        distanzierter Rationalität und existenzieller Tiefe prägt auch Einsteins Umgang mit
+        seiner eigenen Sterblichkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Zufallsfund bei einer Untersuchung:</strong>
+        Im Dezember 1948 suchte Einstein wegen wiederkehrender Bauchschmerzen den
+        Thoraxchirurgen Dr. Rudolph Nissen auf, der bei einer explorativen Operation (ein
+        chirurgischer Eingriff zur Ursachenklärung, ohne dass vorab feststand, was er finden
+        würde) ein großes Bauchaortenaneurysma entdeckte (eine krankhafte Aussackung der
+        Hauptschlagader, die jederzeit reißen kann).</p>
+        <p class="vb-intro"><strong>b) Eine Notlösung statt Heilung:</strong>
+        Da Aortentransplantate damals noch nicht existierten, umwickelte Nissen das
+        Aneurysma mit Cellophan – eine Fremdkörperreaktion sollte die Aortenwand fibrotisch
+        verdicken und so vorübergehend stabilisieren. Eine echte Heilung war das nicht.</p>
+        <p class="vb-intro"><strong>c) Ein Wissen, das den Alltag kaum veränderte:</strong>
+        In den folgenden Jahren arbeitete Einstein nach außen sichtbar unvermindert weiter –
+        über einen bewussten Umgang mit dem Risiko im Alltag ist wenig überliefert, was zur
+        SO5-typischen Trennung von Wissen und emotionaler Verarbeitung passt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Sechseinhalb Jahre mit einer bekannten Zeitbombe:</strong>
+        Von der Diagnose im Dezember 1948 bis zu seinem Tod im April 1955 lebte Einstein mit
+        einem Aneurysma, das jederzeit reißen konnte – palliativ stabilisiert, aber nie
+        kurativ behandelt.</p>
+        <p class="vb-intro"><strong>b) Ein akuter Zusammenbruch im April 1955:</strong>
+        Am 12. April 1955 erlitt Einstein erneut Bauchschmerzen; Dr. Frank Glenn, Chefchirurg
+        am New York Hospital, diagnostizierte ein undichtes Aneurysma und empfahl eine
+        Resektion – eine damals neue, riskante Operationstechnik.</p>
+        <p class="vb-intro"><strong>c) Eine bewusste Ablehnung der Operation:</strong>
+        Einstein lehnte den Eingriff ab. So ist überliefert: "I want to go when I want. It is
+        tasteless to prolong life artificially. I have done my share, it is time to go. I
+        will do it elegantly." (›Ich will gehen, wenn ich will. Es ist geschmacklos, das
+        Leben künstlich zu verlängern. Ich habe meinen Teil getan, es ist Zeit zu gehen. Ich
+        werde es mit Würde tun.‹)</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine unvollendete Rede neben dem Krankenbett:</strong>
+        Im Princeton Hospital hatte Einstein einen unfertigen Entwurf einer Fernsehansprache
+        zum siebten Jahrestag des Staates Israel bei sich – Arbeit, die er bis zuletzt nicht
+        aufgab.</p>
+        <p class="vb-intro"><strong>b) Gleichungen bis zur letzten Nacht:</strong>
+        Nach seinem Tod fand das Pflegepersonal neun Seiten handschriftlicher Notizen mit
+        Gleichungen zur einheitlichen Feldtheorie, mit Bleistift auf gelbem Papier
+        geschrieben – seine letzte, nie abgeschlossene wissenschaftliche Suche.</p>
+        <p class="vb-intro"><strong>c) Kein Abschied, keine große Geste:</strong>
+        Einstein bereitete sich auf seinen Tod nicht mit Reden an Angehörige vor, sondern
+        arbeitete weiter, als sei nichts anders als sonst – für die SO5 typisch: Rückzug in
+        die Sache statt in die Emotion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 18. April 1955:</strong>
+        Einstein starb im Princeton Hospital an einer inneren Blutung durch die Ruptur des
+        Aneurysmas, im Alter von 76 Jahren.</p>
+        <p class="vb-intro"><strong>b) Eine Entscheidung, die bis heute diskutiert wird:</strong>
+        Die Ablehnung der Operation gilt bis heute als eines der bekanntesten Beispiele für
+        eine bewusste, selbstbestimmte Haltung zum eigenen Lebensende in der
+        Wissenschaftsgeschichte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachleben, das er nicht kontrollieren konnte:</strong>
+        Der Pathologe Thomas Harvey entnahm bei der Autopsie ohne Erlaubnis der Familie
+        Einsteins Gehirn, in der Hoffnung, spätere Forschung könne daraus seine Intelligenz
+        erklären – eine Kontroverse, die bis heute nachwirkt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle durch Wissen statt durch Handeln:</strong>
+        Die SO5-typische Strategie, Sicherheit über Verstehen statt über Eingreifen zu
+        gewinnen, zeigte sich bis zuletzt: Einstein analysierte seine Lage nüchtern und traf
+        eine informierte Entscheidung, statt sich dem medizinischen System auszuliefern.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die Arbeit statt in die Angst:</strong>
+        Statt sich mit der Endlichkeit emotional auseinanderzusetzen, vertiefte er sich bis
+        zum letzten bewussten Moment in Gleichungen und Texte – die vertraute Zuflucht in
+        die Sache.</p>
+        <p class="vb-intro"><strong>c) Der Oktopus, der die Tinte selbst wählte:</strong>
+        Wo andere sich dem Zufall oder dem medizinischen Eingriff überlassen hätten, behielt
+        Einstein bis zuletzt die Deutungshoheit über den eigenen Tod – eine letzte Form von
+        Autonomie.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben der distanzierten Beobachtung:</strong>
+        Schon lange vor der Diagnose war Einstein für seine Fähigkeit bekannt, selbst die
+        größten menschlichen Umbrüche – zwei Weltkriege, Emigration, öffentlicher Ruhm – mit
+        bemerkenswerter innerer Distanz zu betrachten.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre bekannte, aber nie verdrängte Bedrohung:</strong>
+        Von der Diagnose 1948 bis zum Tod 1955 zieht sich eine durchgehende Linie aus Wissen
+        um die eigene Sterblichkeit, die weder verheimlicht noch dramatisiert wurde – sie
+        wurde schlicht zur Kenntnis genommen.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr wie jedes andere:</strong>
+        Bis zum akuten Zusammenbruch im April 1955 unterschied sich sein Alltag nach außen
+        kaum von den Jahren zuvor – Arbeit, Korrespondenz, Forschung, ohne sichtbare
+        Dramatisierung der eigenen Lage.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Aorta?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über rationale Distanz und
+        intellektuelle Kontrolle entsteht, liegt eine Deutung nahe: Ausgerechnet jenes Gefäß,
+        das den gesamten Organismus mit Leben versorgt und dessen Versagen keine Warnung
+        gibt, wurde zum Ort einer Bedrohung, die sich der Kontrolle entzog – während Einstein
+        genau darauf mit der einzigen ihm verbliebenen Form von Kontrolle reagierte: der
+        bewussten Entscheidung, sie nicht zu bekämpfen. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Gefäßerkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Einsteins Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, existenzielle Bedrohung über rationale Distanz statt über emotionale
+        Bewältigung zu verarbeiten, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Einstein kannte sein eigenes Muster nicht – die soziale Fünf mit Viererflügel bestimmt lieber selbst über die eigenen Bedingungen, als sich fremder Kontrolle zu unterwerfen, und genau das zeigte sich in seiner bewussten Ablehnung einer erneuten Operation. Wer die eigene Autonomiebedürftigkeit nicht als Muster erkennt, verwechselt sie leicht mit reiner Vernunft, obwohl auch die eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Einsteins</strong> letzten Jahren lässt sich die soziale Fünf mit
+        Viererflügel noch einmal in aller Klarheit ablesen: eine über Jahre bekannte, nie
+        verdrängte Bedrohung, eine nüchterne, informierte Entscheidung gegen den Eingriff, und
+        eine Arbeit an den großen Fragen des Universums, die bis zur letzten Nacht nicht
+        endete. Der Oktopus, der die Tinte selbst wählte – und der noch im Sterben nach der
+        einen Formel suchte, die alles erklären würde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
     </div>
   `);

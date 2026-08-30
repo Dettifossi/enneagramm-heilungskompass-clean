@@ -10060,31 +10060,31 @@ function kindheitsperspektivenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Jeder der drei Enneagramm-Zentren tr\u00e4gt eine eigene kindliche Grundemotion in sich: Die Bauchtriade (Typ 8, 9, 1) reagiert mit Zorn, Wut und Groll auf die Welt. Die Herztriade (Typ 2, 3, 4) tr\u00e4gt Traurigkeit, Kummer um einen Verlust und emotionalen Schmerz in sich. Die Kopftriade (Typ 5, 6, 7) lebt in Angst, Furcht und Unsicherheit. Aus diesen fr\u00fchen Grundgef\u00fchlen heraus entwickelte jeder Typ eine ganz eigene, oft unbewusste \u00dcberzeugung dar\u00fcber, wie die Welt ist \u2014 ein subjektiver Kindheitseindruck, der bis auf den heutigen Tag nachwirkt.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Zorn / Perfektion</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#5f5f5f;">Typ 1 &ndash; Zorn / Perfektion</h3>
         <p class="vb-intro">\u201eDie Welt bestraft schlechte Einstellungen und alles Spontane.\u201c Der junge Typ 1 erlebt seine Umwelt als streng bewertend \u2014 Fehler werden sanktioniert, Spontaneit\u00e4t wirkt gef\u00e4hrlich. Daraus entsteht die Leidenschaft des Zorns und die Motivation, durch Perfektion Sicherheit und Anerkennung zu gewinnen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Stolz / Liebe</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 &ndash; Stolz / Liebe</h3>
         <p class="vb-intro">\u201eDie anderen \u00fcbersehen mich. Ich werde zu wenig geliebt.\u201c Der junge Typ 2 f\u00fchlt sich in seinem Bed\u00fcrftig-Sein nicht ausreichend gesehen und entwickelt daraufhin die Leidenschaft des Stolzes: Liebe wird fortan aktiv erarbeitet, indem man sich f\u00fcr andere unentbehrlich macht.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Eitelkeit / Erfolg</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#1fa688;">Typ 3 &ndash; Eitelkeit / Erfolg</h3>
         <p class="vb-intro">\u201eDie anderen lieben mich nur, weil ich etwas Bestimmtes tue.\u201c Zuwendung erscheint dem jungen Typ 3 an Leistung gekoppelt \u2014 nicht das Sein, sondern das Tun wird belohnt. Daraus entsteht die Leidenschaft der Eitelkeit und die Motivation, Erfolg als Liebesbeweis zu erbringen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Neid / Individualit\u00e4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#3cbf1f;">Typ 4 &ndash; Neid / Individualit\u00e4t</h3>
         <p class="vb-intro">\u201eMan hat mich verlassen, allein gelassen.\u201c Ein fr\u00fcher Verlust oder ein Gef\u00fchl des Getrennt-Seins pr\u00e4gt den jungen Typ 4. Daraus w\u00e4chst die Leidenschaft des Neids \u2014 die schmerzliche Sehnsucht nach dem, was andere zu haben scheinen \u2014 und die Motivation, die eigene Individualit\u00e4t als Ausgleich zu behaupten.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Geiz / Wissen</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#124fcc;">Typ 5 &ndash; Geiz / Wissen</h3>
         <p class="vb-intro">\u201eDie Welt ist erdr\u00fcckend, \u00e4u\u00dfere Einfl\u00fcsse \u00fcberw\u00e4ltigen mich regelm\u00e4\u00dfig.\u201c Der junge Typ 5 erlebt die Anforderungen der Welt als \u00fcbergriffig und ersch\u00f6pfend. Er zieht sich zur\u00fcck, hortet seine Energie \u2014 die Leidenschaft des Geizes \u2014 und sucht in Wissen einen sicheren, kontrollierbaren Ersatzraum.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Angst / Sicherheit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 &ndash; Angst / Sicherheit</h3>
         <p class="vb-intro">\u201eIch bin verraten worden. Die Welt ist b\u00f6se und unzuverl\u00e4ssig.\u201c Ein fr\u00fcher Vertrauensbruch pr\u00e4gt den jungen Typ 6 nachhaltig. Daraus entsteht die Leidenschaft der Angst und ein lebenslanges Streben nach Sicherheit \u2014 durch Wachsamkeit, durch verl\u00e4ssliche Bindungen oder durch aktive Konfrontation der Gefahr.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; V\u00f6llerei / Spa\u00df</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 &ndash; V\u00f6llerei / Spa\u00df</h3>
         <p class="vb-intro">\u201eIch leide unter den Grenzen dieser Welt, die mich einengt.\u201c Der junge Typ 7 erlebt Begrenzung als Schmerz und flieht in Vielfalt, Optionen und Vergn\u00fcgen. Daraus entsteht die Leidenschaft der V\u00f6llerei \u2014 der unstillbare Hunger nach immer neuen, angenehmen Erfahrungen als Gegenmittel gegen Enge und Schmerz.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Wollust / Macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#a00802;">Typ 8 &ndash; Wollust / Macht</h3>
         <p class="vb-intro">\u201eDie Welt ist hart und ungerecht; als ich schwach war, hat man mich missbraucht.\u201c Eine fr\u00fche Erfahrung von Ohnmacht pr\u00e4gt den jungen Typ 8 tief. Er schw\u00f6rt sich, nie wieder verletzlich zu erscheinen \u2014 daraus entsteht die Leidenschaft der Wollust (\u00dcberma\u00df, Intensit\u00e4t) und das Streben nach Macht und Kontrolle.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Tr\u00e4gheit / Harmonie</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#cc6e00;">Typ 9 &ndash; Tr\u00e4gheit / Harmonie</h3>
         <p class="vb-intro">\u201eDie anderen lehnen mich ab, wenn ich meine eigene Meinung \u00e4u\u00dfere.\u201c Der junge Typ 9 lernt fr\u00fch, dass die eigene Position Konflikt und Ablehnung bedeuten kann. Er l\u00f6st sich lieber selbst auf, um Harmonie zu erhalten \u2014 daraus entsteht die Leidenschaft der Tr\u00e4gheit gegen\u00fcber dem eigenen Willen.</p>
 
         <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eIn jedem Kind tr\u00e4umt Gott den Traum der Liebe.\u201c (Unbekannt)</p>
@@ -10115,31 +10115,31 @@ function kerneberzeugungPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Jede Kern\u00fcberzeugung ist ein Satz, den der jeweilige Typ nie laut ausspricht \u2014 und der doch, meist unbewusst, sein gesamtes Denken, F\u00fchlen und Handeln steuert. Sie ist die innere Logik hinter der Leidenschaft und der Motivation jedes Typs.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Der Perfektionist</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#5f5f5f;">Typ 1 &ndash; Der Perfektionist</h3>
         <p class="vb-intro">\u201eIch habe sicher einige M\u00e4ngel, aber ich tue alles, um Fehler/Irrt\u00fcmer zu vermeiden.\u201c Fehler sind f\u00fcr den Typ 1 kein neutraler Teil des Lebens, sondern eine Bedrohung der eigenen Integrit\u00e4t \u2014 deshalb die st\u00e4ndige innere Kontrolle und der Anspruch, es richtig zu machen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Der Altruist</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 &ndash; Der Altruist</h3>
         <p class="vb-intro">\u201eWozu lohnt es sich \u00fcberhaupt zu leben, wenn man nicht f\u00fcr andere Menschen da sein kann?\u201c Der eigene Wert ist f\u00fcr den Typ 2 untrennbar an das Gebrauchtwerden gebunden \u2014 F\u00fcrsorge ist hier nicht nur Handlung, sondern Existenzberechtigung.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Der Erfolgreiche</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#1fa688;">Typ 3 &ndash; Der Erfolgreiche</h3>
         <p class="vb-intro">\u201eSpa\u00df an der Arbeit ist der Weg zum Erfolg.\u201c Der Typ 3 verschmilzt mit seiner Leistung so vollst\u00e4ndig, dass Arbeit selbst zur Quelle von Freude und Identit\u00e4t wird \u2014 Stillstand f\u00fchlt sich dagegen wie Bedeutungslosigkeit an.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Der Romantiker</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#3cbf1f;">Typ 4 &ndash; Der Romantiker</h3>
         <p class="vb-intro">\u201eJeder Schmerz ist besser als der des Herzens.\u201c F\u00fcr den Typ 4 ist emotionale Taubheit schlimmer als Leid \u2014 lieber f\u00fchlt er die Tiefe des Schmerzes vollst\u00e4ndig, als in oberfl\u00e4chlicher Gef\u00fchllosigkeit zu verharren.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Der Beobachter</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#124fcc;">Typ 5 &ndash; Der Beobachter</h3>
         <p class="vb-intro">\u201eNur durch blo\u00dfes Zuschauen kann man eine Menge lernen.\u201c Der Typ 5 zieht sich in die Beobachterposition zur\u00fcck, weil er glaubt, dass Distanz Klarheit schafft \u2014 Verstehen geht dem Handeln immer voraus.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Der Loyale</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 &ndash; Der Loyale</h3>
         <p class="vb-intro">\u201eOhne Zweifel keine Sicherheit.\u201c F\u00fcr den Typ 6 ist Misstrauen kein Makel, sondern ein Schutzmechanismus \u2014 nur wer alles hinterfragt, kann sicher sein, nicht get\u00e4uscht zu werden.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Der Epikureer</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 &ndash; Der Epikureer</h3>
         <p class="vb-intro">\u201eMan lebt schlie\u00dflich nur einmal \u2013 machen wir das Beste daraus!\u201c Der Typ 7 begegnet der Endlichkeit des Lebens mit einem entschlossenen Ja zur F\u00fclle \u2014 jede Erfahrung, jede M\u00f6glichkeit soll ausgekostet werden, bevor die Zeit verrinnt.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Der Boss</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#a00802;">Typ 8 &ndash; Der Boss</h3>
         <p class="vb-intro">\u201eEin Recht, das man hat, erbettelt man sich nicht. Man k\u00e4mpft darum.\u201c F\u00fcr den Typ 8 ist Passivit\u00e4t gleichbedeutend mit Schw\u00e4che \u2014 wer etwas will, muss es sich mit Kraft und Entschlossenheit nehmen, statt darauf zu hoffen, dass es einem gegeben wird.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Der Vermittler</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#cc6e00;">Typ 9 &ndash; Der Vermittler</h3>
         <p class="vb-intro">\u201eGott hat dem Menschen die Zeit gegeben, aber von Eile hat er nichts gesagt.\u201c Der Typ 9 lehnt inneren wie \u00e4u\u00dferen Druck instinktiv ab \u2014 echte Dinge, glaubt er, brauchen ihre Zeit und lassen sich nicht erzwingen.</p>
 
         <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eDie \u00dcberzeugung ist das Gewissen des Geistes.\u201c (Nikolas Chamfort, 1741&ndash;1794)</p>
@@ -10475,31 +10475,31 @@ function spirituelleUebungenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Jeder Typ befindet sich auf einer \u201eewigen Suche\u201c nach genau der Qualit\u00e4t, die seiner Leidenschaft entgegensteht \u2014 und die spirituelle \u00dcbung besteht jeweils darin, diese Qualit\u00e4t nicht mehr im Au\u00dfen zu suchen, sondern im Inneren als bereits vorhanden wahrzunehmen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 1 &ndash; Die ewige Suche nach Perfektion</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#5f5f5f;">Typ 1 &ndash; Die ewige Suche nach Perfektion</h3>
         <p class="vb-intro">\u00dcbung: Nach innen gehen und die eigene innere Vollkommenheit wahrnehmen \u2014 nicht die Welt verbessern, sondern erkennen, dass das Vollkommene bereits im gegenw\u00e4rtigen Augenblick da ist.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 &ndash; Die ewige Suche nach Liebe</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 &ndash; Die ewige Suche nach Liebe</h3>
         <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und die eigene innere Liebensw\u00fcrdigkeit wahrnehmen \u2014 sp\u00fcren, dass man geliebt werden darf, ohne sich diese Liebe zuvor durch Geben verdienen zu m\u00fcssen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 &ndash; Die ewige Suche nach Erfolg</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#1fa688;">Typ 3 &ndash; Die ewige Suche nach Erfolg</h3>
         <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und den eigenen inneren Wert wahrnehmen \u2014 erkennen, dass der eigene Wert nicht erst durch Leistung entsteht, sondern immer schon da ist.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 &ndash; Die ewige Suche nach Individualit\u00e4t</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#3cbf1f;">Typ 4 &ndash; Die ewige Suche nach Individualit\u00e4t</h3>
         <p class="vb-intro">\u00dcbung: Nach innen f\u00fchlen und den eigenen inneren Ursprung wahrnehmen \u2014 die eigene Einzigartigkeit nicht l\u00e4nger als etwas Fehlendes suchen, sondern als l\u00e4ngst vorhandenen Wesenskern erkennen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 &ndash; Die ewige Suche nach Wissen</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#124fcc;">Typ 5 &ndash; Die ewige Suche nach Wissen</h3>
         <p class="vb-intro">\u00dcbung: Nach innen forschen und die eigene innere Verbundenheit mit allem wahrnehmen \u2014 erkennen, dass wahres Verstehen nicht durch Anh\u00e4ufung von Wissen entsteht, sondern durch das Erleben der eigenen Zugeh\u00f6rigkeit zum Ganzen.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 &ndash; Die ewige Suche nach Sicherheit</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 &ndash; Die ewige Suche nach Sicherheit</h3>
         <p class="vb-intro">\u00dcbung: Nach innen forschen und das eigene innere Urvertrauen wahrnehmen \u2014 sp\u00fcren, dass echte Sicherheit nicht von au\u00dfen kommt, sondern ein innerer, bereits vorhandener Grund ist.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 &ndash; Die ewige Suche nach Spa\u00df</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 &ndash; Die ewige Suche nach Spa\u00df</h3>
         <p class="vb-intro">\u00dcbung: Nach innen forschen und die eigene innere Lebensfreude wahrnehmen \u2014 erkennen, dass Freude keine Ansammlung \u00e4u\u00dferer Erlebnisse braucht, sondern bereits im gegenw\u00e4rtigen Moment innewohnt.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 &ndash; Die ewige Suche nach Macht</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#a00802;">Typ 8 &ndash; Die ewige Suche nach Macht</h3>
         <p class="vb-intro">\u00dcbung: Nach innen gehen und die eigene innere St\u00e4rke wahrnehmen \u2014 verstehen, dass wahre Kraft nicht durch Kontrolle \u00fcber andere entsteht, sondern aus der Verbindung mit der eigenen inneren Festigkeit.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 &ndash; Die ewige Suche nach Harmonie</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#cc6e00;">Typ 9 &ndash; Die ewige Suche nach Harmonie</h3>
         <p class="vb-intro">\u00dcbung: Nach innen gehen und den eigenen inneren Frieden wahrnehmen \u2014 erkennen, dass Harmonie nicht erst durch Anpassung an andere entstehen muss, sondern der eigene, bereits vorhandene Urgrund ist.</p>
 
         <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">\u201eWahrhafte Selbsterkenntnis ist das Ahnen Gottes.\u201c (\u00d6stliche Weisheit)</p>

@@ -108,34 +108,34 @@ function ber\u00fchmteKomponistenPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:var(--ink);">Typ 1 SX &ndash; Johann Sebastian Bach (1685&ndash;1750)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.6rem;color:#5f5f5f;">Typ 1 SX &ndash; Johann Sebastian Bach (1685&ndash;1750)</h3>
         <p class="vb-intro">Musik ist Ausdruck g\u00f6ttlicher, v\u00e4terlicher Liebe. Bachs kunstvoll durchkomponierte Fugen und Kantaten spiegeln die Sehnsucht des Typ 1 nach vollkommener, gottgewollter Ordnung wider \u2014 jede Stimme f\u00fcgt sich in ein gr\u00f6\u00dferes, gerechtes Ganzes.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 2 SE &ndash; Wolfgang Amadeus Mozart (1756&ndash;1791)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#7a2fa8;">Typ 2 SE &ndash; Wolfgang Amadeus Mozart (1756&ndash;1791)</h3>
         <p class="vb-intro">Musik ist Ausdruck menschlicher, m\u00fctterlich-unterst\u00fctzender Liebe. Mozarts Melodien wirken warm, zugewandt und unmittelbar ber\u00fchrend \u2014 Musik, die dem H\u00f6rer entgegenkommt und ihn umsorgt, statt ihn auf Distanz zu halten.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 3 SE &ndash; Joseph Haydn (1732&ndash;1809)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#1fa688;">Typ 3 SE &ndash; Joseph Haydn (1732&ndash;1809)</h3>
         <p class="vb-intro">Musik ist Ausdruck formal-perfekter, sch\u00f6pferisch-tatkr\u00e4ftiger Liebe. Haydn, der \u201eVater der Sinfonie\u201c, entwickelte unerm\u00fcdlich neue Formen und perfektionierte sie bis zur Meisterschaft \u2014 Schaffenskraft und makellose Struktur als Ausdruck seines Typs.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 4 SX &ndash; Claude Debussy (1862&ndash;1918)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#3cbf1f;">Typ 4 SX &ndash; Claude Debussy (1862&ndash;1918)</h3>
         <p class="vb-intro">Musik ist Ausdruck unerf\u00fcllter, romantisch-verzehrender Liebe. Debussys impressionistische Klangfarben schweben zwischen Sehnsucht und Aufl\u00f6sung \u2014 nie ganz greifbar, immer auf der Suche nach etwas, das sich der vollst\u00e4ndigen Erf\u00fcllung entzieht.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 5 SX &ndash; Fr\u00e9d\u00e9ric Chopin (1810&ndash;1849)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#124fcc;">Typ 5 SX &ndash; Fr\u00e9d\u00e9ric Chopin (1810&ndash;1849)</h3>
         <p class="vb-intro">Musik ist Ausdruck introvertierter, geistig-platonischer Liebe. Chopins Klavierwerke sind intim, zur\u00fcckgenommen und von gro\u00dfer innerer Tiefe \u2014 Musik f\u00fcr den einzelnen H\u00f6rer im stillen Raum, nicht f\u00fcr die gro\u00dfe B\u00fchne.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 SE (phobisch) &ndash; Franz Schubert (1797&ndash;1828)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 SE (phobisch) &ndash; Franz Schubert (1797&ndash;1828)</h3>
         <p class="vb-intro">Musik ist Ausdruck \u00e4ngstlicher, freundschaftlich-treuer Liebe. Schuberts Lieder kreisen oft um Geborgenheit, Wanderschaft und die Suche nach einem sicheren Zuhause \u2014 die stille, treue Sehnsucht des phobischen Typ 6.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 6 SX (kontraphobisch) &ndash; Ludwig van Beethoven (1770&ndash;1827)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#8a5222;">Typ 6 SX (kontraphobisch) &ndash; Ludwig van Beethoven (1770&ndash;1827)</h3>
         <p class="vb-intro">Musik ist Ausdruck angstabwehrender, heroischer Liebe. Beethoven begegnete seiner eigenen Angst \u2014 auch der Angst vor der Taubheit \u2014 mit trotziger, k\u00e4mpferischer Gr\u00f6\u00dfe. Seine Sinfonien sind Triumphe des Willens \u00fcber das Schicksal \u2014 die kontraphobische Spielart des Typ 6.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 7 SX &ndash; Robert Schumann (1810&ndash;1856)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#d4a800;">Typ 7 SX &ndash; Robert Schumann (1810&ndash;1856)</h3>
         <p class="vb-intro">Musik ist Ausdruck fr\u00f6hlicher, spielerisch-humorvoller Liebe. Schumanns Charakterst\u00fccke sind voller Fantasie, rascher Stimmungswechsel und verspielter Ideen \u2014 Musik, die sich nie lange bei einer einzigen Farbe aufh\u00e4lt.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 8 SX &ndash; Giacomo Puccini (1858&ndash;1924)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#a00802;">Typ 8 SX &ndash; Giacomo Puccini (1858&ndash;1924)</h3>
         <p class="vb-intro">Musik ist Ausdruck kraftvoller, k\u00e4mpferisch-streitender Liebe. Puccinis Opern leben von dramatischer Wucht, intensiven Gef\u00fchlsausbr\u00fcchen und schicksalhaften Konflikten \u2014 Liebe, die mit voller Kraft gelebt und verteidigt wird.</p>
 
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:var(--ink);">Typ 9 SE &ndash; Johannes Brahms (1833&ndash;1897)</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.5rem 0 0.6rem;color:#cc6e00;">Typ 9 SE &ndash; Johannes Brahms (1833&ndash;1897)</h3>
         <p class="vb-intro">Musik ist Ausdruck egofreier, selbstloser, geschwisterlich-akzeptierender Liebe. Brahms' Werke verbinden klassische Form mit warmer, in sich ruhender Tiefe \u2014 Musik ohne Geltungsdrang, getragen von stiller, umfassender W\u00e4rme.</p>
       </div>
 
@@ -287,15 +287,15 @@ function weihnachtsgeschenkePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> Perfektion / Korrektur \u2014 der Blick f\u00fcr das, was besser werden kann.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> Geben / Helfen \u2014 bedingungslose Zuwendung zu anderen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> Leistung / Erfolg \u2014 die Kraft, Dinge tats\u00e4chlich zu bewegen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> Inspiration / Differenzierung \u2014 Tiefe und Ausdruckskraft, die ber\u00fchrt.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> Beobachtung / Wissen \u2014 Klarheit durch genaues Hinsehen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der Loyale Skeptiker:</span> Vertrauen / Fragen stellen \u2014 Wachsamkeit, die Gemeinschaften sch\u00fctzt.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> Vorstellungsverm\u00f6gen / Anregung \u2014 Leichtigkeit, die andere mitrei\u00dft.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> Wahrheit / Besch\u00fctzen \u2014 Kraft im Dienst der Schw\u00e4cheren.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> Harmonie / Vereinigung \u2014 die stille F\u00e4higkeit, Gegens\u00e4tze zu vers\u00f6hnen.</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 &ndash; Der Perfektionist:</span> Perfektion / Korrektur \u2014 der Blick f\u00fcr das, was besser werden kann.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 &ndash; Der Helfer:</span> Geben / Helfen \u2014 bedingungslose Zuwendung zu anderen.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 &ndash; Der Dynamiker:</span> Leistung / Erfolg \u2014 die Kraft, Dinge tats\u00e4chlich zu bewegen.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 &ndash; Der Individualist:</span> Inspiration / Differenzierung \u2014 Tiefe und Ausdruckskraft, die ber\u00fchrt.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 &ndash; Der Denker:</span> Beobachtung / Wissen \u2014 Klarheit durch genaues Hinsehen.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 &ndash; Der Loyale Skeptiker:</span> Vertrauen / Fragen stellen \u2014 Wachsamkeit, die Gemeinschaften sch\u00fctzt.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 &ndash; Der Optimist:</span> Vorstellungsverm\u00f6gen / Anregung \u2014 Leichtigkeit, die andere mitrei\u00dft.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 &ndash; Der Herausforderer:</span> Wahrheit / Besch\u00fctzen \u2014 Kraft im Dienst der Schw\u00e4cheren.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 &ndash; Der Friedliche:</span> Harmonie / Vereinigung \u2014 die stille F\u00e4higkeit, Gegens\u00e4tze zu vers\u00f6hnen.</div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eWas du bist, ist Gottes Geschenk an dich. Was du aus dir machst, ist dein Geschenk an Gott.\u201c (Deutsches Sprichwort)</p>
       </div>
@@ -310,15 +310,15 @@ function weihnachtsgeschenkePage() {
         </div>
         <div class="vb-section" style="max-width:100%;margin-top:1.2rem;">
           <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-            <div><span style="font-weight:700;color:var(--copper);">Typ 1:</span> Setze doch mal die Maske des untadeligen, gewissenhaften Perfektionisten ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 2:</span> Setze doch mal die Maske des liebevollen, gro\u00dfz\u00fcgigen Helfers ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 3:</span> Setze doch mal die Maske des kompetenten, effizienten Erfolgsmenschen ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 4:</span> Setze doch mal die Maske des authentischen, tiefgr\u00fcndigen Individualisten ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 5:</span> Setze doch mal die Maske des objektiven, wissenden Beobachters ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 6:</span> Setze doch mal die Maske des vorsichtigen, stets wachsamen Zweiflers ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 7:</span> Setze doch mal die Maske des unbek\u00fcmmerten, fr\u00f6hlichen Optimisten ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 8:</span> Setze doch mal die Maske des stets starken, unabh\u00e4ngigen Besch\u00fctzers ab!</div>
-            <div><span style="font-weight:700;color:var(--copper);">Typ 9:</span> Setze doch mal die Maske des ruhigen, gelassenen Vermittlers ab!</div>
+            <div><span style="font-weight:700;color:#5f5f5f;">Typ 1:</span> Setze doch mal die Maske des untadeligen, gewissenhaften Perfektionisten ab!</div>
+            <div><span style="font-weight:700;color:#7a2fa8;">Typ 2:</span> Setze doch mal die Maske des liebevollen, gro\u00dfz\u00fcgigen Helfers ab!</div>
+            <div><span style="font-weight:700;color:#1fa688;">Typ 3:</span> Setze doch mal die Maske des kompetenten, effizienten Erfolgsmenschen ab!</div>
+            <div><span style="font-weight:700;color:#3cbf1f;">Typ 4:</span> Setze doch mal die Maske des authentischen, tiefgr\u00fcndigen Individualisten ab!</div>
+            <div><span style="font-weight:700;color:#124fcc;">Typ 5:</span> Setze doch mal die Maske des objektiven, wissenden Beobachters ab!</div>
+            <div><span style="font-weight:700;color:#8a5222;">Typ 6:</span> Setze doch mal die Maske des vorsichtigen, stets wachsamen Zweiflers ab!</div>
+            <div><span style="font-weight:700;color:#d4a800;">Typ 7:</span> Setze doch mal die Maske des unbek\u00fcmmerten, fr\u00f6hlichen Optimisten ab!</div>
+            <div><span style="font-weight:700;color:#a00802;">Typ 8:</span> Setze doch mal die Maske des stets starken, unabh\u00e4ngigen Besch\u00fctzers ab!</div>
+            <div><span style="font-weight:700;color:#cc6e00;">Typ 9:</span> Setze doch mal die Maske des ruhigen, gelassenen Vermittlers ab!</div>
           </div>
         </div>
       </div>
@@ -624,15 +624,15 @@ function dreiZentrenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Jeder Typ geh\u00f6rt einem der drei Zentren an \u2014 Bauch (8, 9, 1), Herz (2, 3, 4) oder Kopf (5, 6, 7) \u2014 und nutzt dessen Intelligenz entweder im ungesunden \u00dcberma\u00df/Mangel (&minus;) oder in ihrer reifen, hilfreichen Form (+).</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1:</span> &minus; Reaktionskontrolle (starre Selbstunterdr\u00fcckung) &nbsp;/&nbsp; + Gutes Bauchgef\u00fchl (verl\u00e4ssliche innere Orientierung)</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2:</span> &minus; Emotionale Manipulation &nbsp;/&nbsp; + Empathie</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3:</span> &minus; Unechtes Rollenspiel &nbsp;/&nbsp; + Authentische Beziehung</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4:</span> &minus; Hypersensibilit\u00e4t &nbsp;/&nbsp; + Mitgef\u00fchl</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5:</span> &minus; Hyperanalyse (Denken ohne Ende) &nbsp;/&nbsp; + Objektive Analyse</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6:</span> &minus; Projektion (\u00c4ngste nach au\u00dfen tragen) &nbsp;/&nbsp; + Bewusste Einsicht</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7:</span> &minus; Ma\u00dflose Planung &nbsp;/&nbsp; + Produktive Planung</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8:</span> &minus; \u00dcberm\u00e4\u00dfige Handlung &nbsp;/&nbsp; + Ma\u00dfvolle Handlung</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9:</span> &minus; Passivit\u00e4t &nbsp;/&nbsp; + Standhaftigkeit</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1:</span> &minus; Reaktionskontrolle (starre Selbstunterdr\u00fcckung) &nbsp;/&nbsp; + Gutes Bauchgef\u00fchl (verl\u00e4ssliche innere Orientierung)</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2:</span> &minus; Emotionale Manipulation &nbsp;/&nbsp; + Empathie</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3:</span> &minus; Unechtes Rollenspiel &nbsp;/&nbsp; + Authentische Beziehung</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4:</span> &minus; Hypersensibilit\u00e4t &nbsp;/&nbsp; + Mitgef\u00fchl</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5:</span> &minus; Hyperanalyse (Denken ohne Ende) &nbsp;/&nbsp; + Objektive Analyse</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6:</span> &minus; Projektion (\u00c4ngste nach au\u00dfen tragen) &nbsp;/&nbsp; + Bewusste Einsicht</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7:</span> &minus; Ma\u00dflose Planung &nbsp;/&nbsp; + Produktive Planung</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8:</span> &minus; \u00dcberm\u00e4\u00dfige Handlung &nbsp;/&nbsp; + Ma\u00dfvolle Handlung</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9:</span> &minus; Passivit\u00e4t &nbsp;/&nbsp; + Standhaftigkeit</div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eGenie ist Intelligenz der Begeisterung.\u201c (Edward Bach, 1886&ndash;1936)</p>
       </div>
@@ -694,15 +694,15 @@ function energetischeBewegungPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Die Bauchtriade (8, 9, 1) reagiert auf Trennung mit <strong>Angriff</strong> \u2014 gegen die anderen an. Die Herztriade (2, 3, 4) reagiert mit <strong>T\u00e4uschung</strong> \u2014 durch ein Image, das sich zu den anderen hin bewegt. Die Kopftriade (5, 6, 7) reagiert mit <strong>Flucht</strong> \u2014 Angst, die von den anderen weg treibt. Innerhalb jeder Triade wird die Zentrumsenergie entweder extern ausagiert, gehalten/ausgesessen oder internalisiert.</p>
         <div style="display:grid;gap:.6rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Bauch, internalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Recht haben wollen &nbsp;/&nbsp; + ethisch und vorurteilsfrei unterst\u00fctzen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Herz, externalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur geliebt werden wollen &nbsp;/&nbsp; + begeistert und selbstlos geben/helfen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Herz, gehalten/ausgesessen)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur bewundert werden wollen &nbsp;/&nbsp; + liebensw\u00fcrdig und gef\u00fchlvoll agieren.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Herz, internalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur sich selbst verstehen wollen &nbsp;/&nbsp; + mitrei\u00dfend und originell sein.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Kopf, internalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur die Welt verstehen wollen &nbsp;/&nbsp; + klar denken, f\u00fchlen und handeln.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Kopf, gehalten/ausgesessen)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer autorit\u00e4tsgl\u00e4ubig und wachsam sein wollen &nbsp;/&nbsp; + mutig und loyal (mit)streiten, entspannen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Kopf, externalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur Spa\u00df haben wollen &nbsp;/&nbsp; + positiv pragmatisch handeln.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Bauch, externalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer der St\u00e4rkste sein wollen &nbsp;/&nbsp; + fair k\u00e4mpfen und besch\u00fctzen.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Bauch, gehalten/ausgesessen)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Harmonie halten wollen &nbsp;/&nbsp; + freundlich, aber bestimmt handeln.</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Bauch, internalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Recht haben wollen &nbsp;/&nbsp; + ethisch und vorurteilsfrei unterst\u00fctzen.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Herz, externalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur geliebt werden wollen &nbsp;/&nbsp; + begeistert und selbstlos geben/helfen.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 (Herz, gehalten/ausgesessen)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur bewundert werden wollen &nbsp;/&nbsp; + liebensw\u00fcrdig und gef\u00fchlvoll agieren.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 (Herz, internalisiert)</span> &ndash; Thema Beziehung/Kontakt: &minus; immer nur sich selbst verstehen wollen &nbsp;/&nbsp; + mitrei\u00dfend und originell sein.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 (Kopf, internalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur die Welt verstehen wollen &nbsp;/&nbsp; + klar denken, f\u00fchlen und handeln.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 (Kopf, gehalten/ausgesessen)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer autorit\u00e4tsgl\u00e4ubig und wachsam sein wollen &nbsp;/&nbsp; + mutig und loyal (mit)streiten, entspannen.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 (Kopf, externalisiert)</span> &ndash; Thema Sicherheit/Orientierung: &minus; immer nur Spa\u00df haben wollen &nbsp;/&nbsp; + positiv pragmatisch handeln.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 (Bauch, externalisiert)</span> &ndash; Thema Autonomie/Raum: &minus; immer der St\u00e4rkste sein wollen &nbsp;/&nbsp; + fair k\u00e4mpfen und besch\u00fctzen.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 (Bauch, gehalten/ausgesessen)</span> &ndash; Thema Autonomie/Raum: &minus; immer nur Harmonie halten wollen &nbsp;/&nbsp; + freundlich, aber bestimmt handeln.</div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eAnerkennung ist der Sauerstoff f\u00fcr menschliche Beziehungen.\u201c (Deutsches Sprichwort)</p>
       </div>
@@ -733,15 +733,15 @@ function lookalikeTypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Fl\u00fcgel- oder Verbindungslinie im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden \u2014 weil sie sich in bestimmten Verhaltensmerkmalen \u00e4hneln, obwohl ihre inneren Motivationen v\u00f6llig verschieden sind.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) \u2014 alle wirken nach au\u00dfen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gr\u00fcnden.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggr\u00fcnden.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) \u2014 alle wirken tatkr\u00e4ftig und zielorientiert.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle k\u00f6nnen nach innen gerichtet und stimmungsvoll wirken.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) \u2014 alle wirken zur\u00fcckhaltend und sachlich-distanziert.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) \u2014 alle k\u00f6nnen wachsam, kritisch oder konfrontativ auftreten.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) \u2014 alle wirken freundlich, leicht und angenehm im Umgang.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) \u2014 alle k\u00f6nnen intensiv, direkt oder konfrontativ wirken.</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) \u2014 alle k\u00f6nnen sanft, zugewandt oder vertr\u00e4umt wirken.</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) \u2014 alle wirken nach au\u00dfen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gr\u00fcnden.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggr\u00fcnden.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) \u2014 alle wirken tatkr\u00e4ftig und zielorientiert.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle k\u00f6nnen nach innen gerichtet und stimmungsvoll wirken.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) \u2014 alle wirken zur\u00fcckhaltend und sachlich-distanziert.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) \u2014 alle k\u00f6nnen wachsam, kritisch oder konfrontativ auftreten.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) \u2014 alle wirken freundlich, leicht und angenehm im Umgang.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) \u2014 alle k\u00f6nnen intensiv, direkt oder konfrontativ wirken.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) \u2014 alle k\u00f6nnen sanft, zugewandt oder vertr\u00e4umt wirken.</div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eDenn eine \u00c4hnlichkeit der Charaktere ist das st\u00e4rkste Band der Freundschaft.\u201c (Plinius der J\u00fcngere, um 61 &ndash; um 113 n. Chr., r\u00f6mischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
       </div>
@@ -770,15 +770,15 @@ function befreiendeFragenPage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass die Dinge bereits perfekt sind, ohne dein Zutun?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass ein h\u00f6herer Wille sich um deine Bed\u00fcrfnisse k\u00fcmmert?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du hoffen k\u00f6nntest, dass die wichtigen Dinge des Lebens auch ohne dein Handeln f\u00fcr dich getan werden?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du auch geliebt und gesehen wirst, wenn du deine Urspr\u00fcnglichkeit lebst?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du schon alles Wissen besitzt, was du ben\u00f6tigst?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der loyale Skeptiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du dir, anderen Menschen und der Welt vertrauen kannst?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du gl\u00fccklich wirst, auch wenn du dich festlegst?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du trotz \u00e4u\u00dferer St\u00e4rke innerlich manchmal schwach bist?</div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du bedingungslos geliebt und als wichtig angenommen bist?</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 &ndash; Der Perfektionist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass die Dinge bereits perfekt sind, ohne dein Zutun?</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 &ndash; Der Helfer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass ein h\u00f6herer Wille sich um deine Bed\u00fcrfnisse k\u00fcmmert?</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 &ndash; Der Dynamiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du hoffen k\u00f6nntest, dass die wichtigen Dinge des Lebens auch ohne dein Handeln f\u00fcr dich getan werden?</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 &ndash; Der Individualist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du auch geliebt und gesehen wirst, wenn du deine Urspr\u00fcnglichkeit lebst?</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 &ndash; Der Denker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du schon alles Wissen besitzt, was du ben\u00f6tigst?</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 &ndash; Der loyale Skeptiker:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du dir, anderen Menschen und der Welt vertrauen kannst?</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 &ndash; Der Optimist:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du gl\u00fccklich wirst, auch wenn du dich festlegst?</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 &ndash; Der Herausforderer:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du trotz \u00e4u\u00dferer St\u00e4rke innerlich manchmal schwach bist?</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 &ndash; Der Friedliche:</span> Wie w\u00fcrde dein Leben aussehen, wenn du erkennen w\u00fcrdest, dass du bedingungslos geliebt und als wichtig angenommen bist?</div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eKlug fragen k\u00f6nnen, ist die halbe Weisheit.\u201c (Sir Francis Bacon, englischer Philosoph, Jurist und Staatsmann, 1561&ndash;1626)</p>
       </div>
@@ -838,15 +838,15 @@ function fuehrungsstilePage() {
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <div style="display:grid;gap:1rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:var(--copper);">Typ 1 &ndash; Der Perfektionist:</span> F\u00fchrungsstil durch Standards, Beispiele, Normen, Regeln.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: kanalisiert Unmut in maßvolle, prinzipientreue Klarheit statt in Rechthaberei.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 2 &ndash; Der Helfer:</span> F\u00fchrungsstil durch Motivation, Unterst\u00fctzung, Hilfe.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bleibt gro\u00dfz\u00fcgig, ohne stille Erwartungshaltung an Dankbarkeit zu kn\u00fcpfen.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 3 &ndash; Der Dynamiker:</span> F\u00fchrungsstil durch Ziele, Pl\u00e4ne, Ergebnisse.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: l\u00e4sst die Fassade fallen und f\u00fchrt durch echte statt nur inszenierte Ergebnisse.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 4 &ndash; Der Individualist:</span> F\u00fchrungsstil durch Visionen, emotionale Verbindungen.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: verwandelt Stimmungsschwankungen in sch\u00f6pferische Tiefe statt in R\u00fcckzug.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 5 &ndash; Der Denker:</span> F\u00fchrungsstil durch Erforschung, Beobachtung, Analyse.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: teilt Wissen aktiv, statt sich hinter dem letzten fehlenden Detail zu verschanzen.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 6 &ndash; Der loyale Skeptiker:</span> F\u00fchrungsstil durch kreative Probleml\u00f6sung, Logik, Rationalit\u00e4t.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: wandelt Zweifel in wache, verl\u00e4ssliche Entschlossenheit statt in L\u00e4hmung.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 7 &ndash; Der Optimist:</span> F\u00fchrungsstil durch neue Ideen, Innovation.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bleibt bei einer Sache, statt vor Unbequemem in die n\u00e4chste Idee zu fl\u00fcchten.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 8 &ndash; Der Herausforderer:</span> F\u00fchrungsstil durch Strategien, gro\u00dfe Aktionen.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: setzt Kontrolle gezielt ein, statt reflexhaft zu dominieren.</span></div>
-          <div><span style="font-weight:700;color:var(--copper);">Typ 9 &ndash; Der Friedliche:</span> F\u00fchrungsstil durch Konsens, \u00dcbereinstimmung, Einigkeit.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bezieht aktiv Position, statt Konflikte durch R\u00fcckzug zu vermeiden.</span></div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 &ndash; Der Perfektionist:</span> F\u00fchrungsstil durch Standards, Beispiele, Normen, Regeln.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: kanalisiert Unmut in maßvolle, prinzipientreue Klarheit statt in Rechthaberei.</span></div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 &ndash; Der Helfer:</span> F\u00fchrungsstil durch Motivation, Unterst\u00fctzung, Hilfe.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bleibt gro\u00dfz\u00fcgig, ohne stille Erwartungshaltung an Dankbarkeit zu kn\u00fcpfen.</span></div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 &ndash; Der Dynamiker:</span> F\u00fchrungsstil durch Ziele, Pl\u00e4ne, Ergebnisse.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: l\u00e4sst die Fassade fallen und f\u00fchrt durch echte statt nur inszenierte Ergebnisse.</span></div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 &ndash; Der Individualist:</span> F\u00fchrungsstil durch Visionen, emotionale Verbindungen.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: verwandelt Stimmungsschwankungen in sch\u00f6pferische Tiefe statt in R\u00fcckzug.</span></div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 &ndash; Der Denker:</span> F\u00fchrungsstil durch Erforschung, Beobachtung, Analyse.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: teilt Wissen aktiv, statt sich hinter dem letzten fehlenden Detail zu verschanzen.</span></div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 &ndash; Der loyale Skeptiker:</span> F\u00fchrungsstil durch kreative Probleml\u00f6sung, Logik, Rationalit\u00e4t.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: wandelt Zweifel in wache, verl\u00e4ssliche Entschlossenheit statt in L\u00e4hmung.</span></div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 &ndash; Der Optimist:</span> F\u00fchrungsstil durch neue Ideen, Innovation.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bleibt bei einer Sache, statt vor Unbequemem in die n\u00e4chste Idee zu fl\u00fcchten.</span></div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 &ndash; Der Herausforderer:</span> F\u00fchrungsstil durch Strategien, gro\u00dfe Aktionen.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: setzt Kontrolle gezielt ein, statt reflexhaft zu dominieren.</span></div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 &ndash; Der Friedliche:</span> F\u00fchrungsstil durch Konsens, \u00dcbereinstimmung, Einigkeit.<br><span style="color:var(--muted);font-size:.85rem;">St\u00e4rke unter Druck: bezieht aktiv Position, statt Konflikte durch R\u00fcckzug zu vermeiden.</span></div>
         </div>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eAus Demut erw\u00e4chst verantwortliche F\u00fchrung.\u201c (Laotse, vermutlich 6. Jhd. vor Chr.)</p>
         <p class="vb-intro" style="margin-top:1.2rem;">Wie jeder Typ unter Verantwortung, Konflikt und Zeitdruck wirklich reagiert \u2013 und wie daraus reife, tragf\u00e4hige F\u00fchrung wird \u2013 vertieft David L. Rathmer im Bereich <a href="javascript:void(0)" data-route="david-rathmer-fuehrung-mit-fundament">F\u00fchrung mit Fundament</a>.</p>
@@ -2687,31 +2687,31 @@ function obstsortPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 &ndash; Der Apfel: Perfektion als Prinzip</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 &ndash; Der Apfel: Perfektion als Prinzip</h2>
         <p class="vb-intro">Der Apfel ist die kulturgeschichtlich bedeutsamste Frucht \xfcberhaupt &ndash; Symbol f\xfcr Erkenntnis, Vollkommenheit und moralische Ordnung. In der abendl\xe4ndischen Tradition steht er f\xfcr das Streben nach dem Guten ebenso wie f\xfcr die Versuchung, es zu verfehlen. Seine gleichm\xe4\xdfige, symmetrische Form, die glatte Schale und klare Farbigkeit verk\xf6rpern ein Ideal \xe4sthetischer Perfektion. Kein Zufall, dass der Satz "An apple a day keeps the doctor away" auf Disziplin und Vorsorge verweist &ndash; beides urtyp 1-Qualit\xe4ten. Der Apfel muss makellos sein, sonst gilt er als verdorben. Genau so erlebt der Typ 1 sich selbst.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 &ndash; Die Erdbeere: S\xfc\xdfe als Gabe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 &ndash; Die Erdbeere: S\xfc\xdfe als Gabe</h2>
         <p class="vb-intro">Die Erdbeere gibt sich hin &ndash; sie ist weich, duftend, s\xfc\xdf und leuchtet in einem warmen Rot, das unweigerlich an Herzlichkeit und Zuneigung erinnert. Sie w\xe4chst bodennah, zugewandt, sucht das Licht und \xf6ffnet sich vollst\xe4ndig. Niemand isst eine Erdbeere ohne ein L\xe4cheln. Sie macht anderen eine Freude, ohne etwas zu verlangen &ndash; und vergeht schnell, wenn sie nicht gesehen wird. Die Erdbeere n\xe4hrt, w\xe4rmt und ber\xfchrt: das Prinzip des Typs 2 in seiner reinsten pflanzlichen Form.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 &ndash; Die Traube: Erfolg in der Gemeinschaft</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 &ndash; Die Traube: Erfolg in der Gemeinschaft</h2>
         <p class="vb-intro">Trauben wachsen nie einzeln &ndash; sie entstehen im Verbund, in gro\xdfen, pr\xe4chtigen Clustern, die F\xfclle und \xdcberfluss signalisieren. Sie sind die Frucht des Weins, der Gesellschaft, des Ansehens und der Feier. In der Antike waren Trauben Symbol f\xfcr Wohlstand, Fruchtbarkeit und weltlichen Erfolg. Die Weinrebe braucht Pflege, F\xfchrung, den richtigen Boden &ndash; und bringt dann eine Ernte, die andere begeistert und bewundert. Typ 3 in seiner archetypischen Qualit\xe4t: produktiv, ansehnlich, gesellschaftlich wirksam.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 &ndash; Die Feige: Tiefe hinter der Oberfl\xe4che</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 &ndash; Die Feige: Tiefe hinter der Oberfl\xe4che</h2>
         <p class="vb-intro">Die Feige ist exotisch, geheimnisvoll und paradox: au\xdfen unscheinbar, innen von bet\xf6render Sch\xf6nheit &ndash; ein tiefes Purpur, durchzogen von zarten Strukturen. Sie reift langsam, verlangt Geduld und wird selten verstanden. In vielen Kulturen steht sie f\xfcr Weisheit, Verg\xe4nglichkeit und spirituelle Tiefe. Die Feige ist keine Frucht f\xfcr die Masse &ndash; sie wird von denen gesch\xe4tzt, die bereit sind, genauer hinzuschauen. Das ist das Lebensgef\xfchl des Typs 4: Ich bin nicht beim ersten Hinsehen zu verstehen &ndash; aber wer mich wirklich sieht, entdeckt etwas Unvergleichliches.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 &ndash; Die Blaubeere: Konzentrierte Essenz</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 &ndash; Die Blaubeere: Konzentrierte Essenz</h2>
         <p class="vb-intro">Die Blaubeere ist klein, unscheinbar und zur\xfcckhaltend &ndash; aber in ihr steckt eine au\xdfergew\xf6hnliche Konzentration an N\xe4hrstoffen, Antioxidantien und Wirkstoffen. Sie w\xe4chst in der Stille abgelegener W\xe4lder, weit vom Trubel entfernt. Man muss sie suchen, man muss wissen, wo sie zu finden ist. Wer sie findet, erkennt ihren verborgenen Reichtum. Die Blaubeere teilt sich nicht auf &ndash; sie ist kompakt, autark, in sich geschlossen. Ein treffendes Bild f\xfcr den Typ 5: klein nach au\xdfen, unermesslich reich nach innen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 &ndash; Die Banane: Verl\xe4sslichkeit als Tugend</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 &ndash; Die Banane: Verl\xe4sslichkeit als Tugend</h2>
         <p class="vb-intro">Die Banane ist das Grundnahrungsmittel unter den Fr\xfcchten &ndash; weltweit verbreitet, kultur\xfcbergreifend vertraut, n\xe4hrend und zuverl\xe4ssig. Sie kommt stets in ihrer sch\xfctzenden gelben H\xfclle, gut portioniert, gut handhabbar. Sie liefert schnelle Energie in Momenten der Ersch\xf6pfung und ist in ihrer Struktur fest und berechenbar. Kein anderes Obst vermittelt so sehr das Gef\xfchl von Verl\xe4sslichkeit und Sicherheit. Die Banane ist immer da &ndash; und genau das ist das tiefste Bed\xfcrfnis und zugleich die gr\xf6\xdfte Gabe des Typs 6.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 &ndash; Die Ananas: Exotik und Lebensfreude</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 &ndash; Die Ananas: Exotik und Lebensfreude</h2>
         <p class="vb-intro">Die Ananas ist ein Fest f\xfcr die Sinne &ndash; exotisch, farbenfroh, s\xfc\xdf-s\xe4uerlich, \xfcberraschend und unkonventionell in ihrer \xe4u\xdferen Form. Sie kommt aus der Ferne, bringt das Versprechen von Abenteuer und Sommerlichkeit mit sich und verbreitet sofortige Hochstimmung. Sie ist tropisch, frei, ungebunden &ndash; und ihre stachelige Au\xdfenhulle sch\xfctzt einen zarten, leuchtenden Kern. Genau wie der Typ 7: nach au\xdfen ein Fest, nach innen empfindsamer als er zeigt, und immer auf der Suche nach dem n\xe4chsten Genuss.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 &ndash; Der Granatapfel: Macht und F\xfclle</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 &ndash; Der Granatapfel: Macht und F\xfclle</h2>
         <p class="vb-intro">Der Granatapfel ist eine der \xe4ltesten und mythisch aufgeladensten Fr\xfcchte der Menschheitsgeschichte &ndash; in vielen Kulturen Symbol f\xfcr Macht, Fruchtbarkeit, Tod und Wiedergeburt zugleich. Seine harte, widerstandsf\xe4hige Schale sch\xfctzt einen Kern von \xfcberw\xe4ltigender F\xfclle: Hunderte leuchtend roter Kerne, prall und kraftvoll. Man muss Kraft aufwenden, um an ihn heranzukommen &ndash; aber wer es tut, wird reich belohnt. Der Granatapfel gibt sich nicht preis, er muss erobert werden. Das ist das Prinzip des Typs 8: robust nach au\xdfen, von erstaunlicher innerer F\xfclle &ndash; f\xfcr jene, die den Mut haben, n\xe4herzukommen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 &ndash; Der Pfirsich: Sanftheit und Frieden</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 &ndash; Der Pfirsich: Sanftheit und Frieden</h2>
         <p class="vb-intro">Der Pfirsich ist die friedlichste aller Fr\xfcchte &ndash; weich, warm, samtig, in zarten Farben von Creme \xfcber Gold bis Ros\xe9. Er ist rund und vollst\xe4ndig in sich, ohne Ecken und Kanten. Sein Duft ist still und tief, sein Geschmack harmonisch ohne Extreme. In der chinesischen Tradition gilt der Pfirsich als Symbol f\xfcr Unsterblichkeit, Frieden und kosmische Harmonie. Er dr\xe4ngt sich nicht auf &ndash; er ist einfach da, still und n\xe4hrend. Das Prinzip des Typs 9 in seiner sch\xf6nsten Verdichtung: Friede, der aus sich selbst heraus entsteht.</p>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
@@ -2741,31 +2741,31 @@ function gemuesesortenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 &ndash; Die Karotte: Klarheit als Prinzip</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 &ndash; Die Karotte: Klarheit als Prinzip</h2>
         <p class="vb-intro">Die Karotte w\xe4chst gerade, klar strukturiert, immer in dieselbe Richtung &ndash; nach unten in die Tiefe. Sie duldet keine Kurven, wenn der Boden stimmt. Ihre leuchtend orange Farbe ist unverwechselbar, ihr Inneres dicht und n\xe4hrstoffreich. Die Karotte steht seit Jahrhunderten f\xfcr Gesundheit, Verantwortungsbewusstsein und Verl\u00e4sslichkeit &ndash; Gem\xfcse der Vernunft. Sie muss sauber sein, ordentlich gewaschen, unbesch\xe4digt. Eine gebogene Karotte wirkt fast wie ein Fehler in der Natur. Genau so erlebt der Typ 1 die Welt: Gerade, klar und richtig &ndash; oder es stimmt etwas nicht.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 &ndash; Der K\xfcrbis: W\xe4rme als Gabe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 &ndash; Der K\xfcrbis: W\xe4rme als Gabe</h2>
         <p class="vb-intro">Der K\xfcrbis ist das n\xe4hrendste, w\xe4rmste Gem\xfcse &ndash; er f\xfcllt Suppen, tr\xf6stet in dunklen Jahreszeiten, gibt sich vollst\xe4ndig hin. Sein Inneres ist reich, goldfarben, weich. Er verlangt viel Pflege beim Wachsen &ndash; aber er gibt viel mehr zur\xfcck als er aufnimmt. In vielen Kulturen steht der K\xfcrbis f\xfcr Gro\xdfz\xfcgigkeit, Gastfreundschaft und M\xfctterlichkeit. Er ist rund, einladend, tr\xe4gt alles in sich. Das Prinzip des Typs 2: aus der eigenen F\xfclle heraus n\xe4hren &ndash; und dabei manchmal vergessen, die eigene Leere zu sp\xfcren.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 &ndash; Die Paprika: Wirkung durch Pr\xe4senz</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 &ndash; Die Paprika: Wirkung durch Pr\xe4senz</h2>
         <p class="vb-intro">Die Paprika springt ins Auge, noch bevor man sich entschieden hat, was man will &ndash; leuchtend rot, orange, gelb, gr\xfcn: Sie ist das Gem\xfcse der Wirkung. Farbenfroh, attraktiv, unverkennbar. Roh, gegrillt, gef\xfcllt oder als Sauce &ndash; sie \xfcberzeugt in jeder Rolle und macht dabei stets eine gute Figur. Die Paprika ist nicht die stille Zutat im Hintergrund &ndash; sie ist die Hauptdarstellerin, die jeden Teller aufwertet und in jeder K\xfcche der Welt zu Hause ist. Typ 3 in seiner archetypischen Qualit\xe4t: pr\xe4sent, wirkungsbewusst, anpassungsf\xe4hig &ndash; und immer da, wo etwas entsteht, das andere beeindruckt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 &ndash; Die Aubergine: Tiefe hinter der Farbe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 &ndash; Die Aubergine: Tiefe hinter der Farbe</h2>
         <p class="vb-intro">Die Aubergine ist das einzigartigste Gem\xfcse &ndash; ein tiefes, sattes Violett, das keine andere Pflanze in dieser Form tr\xe4gt. Sie ist unverwechselbar, fast k\xfcnstlerisch in ihrer Erscheinung. Ihr Inneres ist komplex: Im rohen Zustand bitter, braucht sie Transformation, um ihre wahre Tiefe zu entfalten. Sie ist kein schnelles Gem\xfcse &ndash; sie verlangt Geduld, Fingerspitzengef\xfchl und Verst\xe4ndnis. Wer ihr das gibt, wird mit einer Vielschichtigkeit belohnt, die andere Gem\xfcse nicht kennen. Das Lebensgef\xfchl des Typs 4: Ich bin nicht f\xfcr jeden zug\xe4nglich &ndash; aber f\xfcr jene, die mich verstehen, bin ich unvergleichlich.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 &ndash; Der Knoblauch: Tiefe Wirkung im Verborgenen</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 &ndash; Der Knoblauch: Tiefe Wirkung im Verborgenen</h2>
         <p class="vb-intro">Der Knoblauch w\xe4chst unter der Erde, unsichtbar, in sich geschlossen und dabei von beinahe \xfcberw\xe4ltigender innerer Komplexit\xe4t. Eine einzelne Zehe &ndash; klein, unscheinbar &ndash; entfaltet eine Wirkung, die ein ganzes Gericht ver\xe4ndert. Knoblauch hat heilende Kr\xe4fte, schon seit Jahrtausenden bekannt, oft untersch\xe4tzt. Er gibt sich nicht preis; man muss ihn erst aufschlie\xdfen, dann tritt seine ganze Kraft hervor. In der Stille wirkt er am st\xe4rksten. Das ist das Prinzip des Typs 5: kompakt, autark, tief &ndash; wer ihn untersch\u00e4tzt, hat seine Kraft noch nicht erlebt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 &ndash; Die Kartoffel: Verl\xe4sslichkeit als Fundament</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 &ndash; Die Kartoffel: Verl\xe4sslichkeit als Fundament</h2>
         <p class="vb-intro">Die Kartoffel ist das Fundament der europ\xe4ischen K\xfcche &ndash; sie ern\xe4hrt seit Jahrhunderten ganze Kontinente. Sie w\xe4chst unter der Erde, bodenst\xe4ndig und solide, ohne Aufsehen. Sie ist keine Delikatesse, sie ist Grundlage. Sie ist vielseitig einsetzbar, extrem zuverl\xe4ssig und l\xe4sst sich gut lagern. Wenn alle anderen Gem\xfcse knapp sind, ist noch Kartoffel da. In vielen Kulturen steht sie f\xfcr Sicherheit, Heimat und das Gef\xfchl, versorgt zu sein. Das tiefste Bed\xfcerfnis und gr\xf6\xdfte Gabe des Typs 6: Das Fundament sein, auf das andere z\xe4hlen k\xf6nnen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 &ndash; Die Tomate: Lebensfreude ohne Grenzen</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 &ndash; Die Tomate: Lebensfreude ohne Grenzen</h2>
         <p class="vb-intro">Die Tomate ist eigentlich eine Frucht &ndash; doch sie nennt sich Gem\xfcse, weil ihr Kategorien herzlich egal sind. Sie ist die freudigste, sonnigste Erscheinung im Gem\xfcsegarten: rot, gelb, orange, gr\xfcn, rund, l\xe4nglich, klein, riesengro\u00df &ndash; sie existiert in einer \xfcberw\xe4ltigenden Vielfalt und bringt in jede K\xfcche Farbe und Leben. Sie ist \xfcberall zu Hause, liebt das Licht, reift in der W\xe4rme und schmeckt am besten, wenn sie so richtig in ihrem Element ist. Frisch vom Strauch, getrocknet in der Sonne, als Sauce, roh im Salat &ndash; sie findet immer einen Weg, zu begeistern. Das Prinzip des Typs 7: offen f\xfcr alles, \xfcberall willkommen &ndash; und am lebendigsten dort, wo die Sonne scheint.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 &ndash; Der Chili: Kraft ohne Kompromisse</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 &ndash; Der Chili: Kraft ohne Kompromisse</h2>
         <p class="vb-intro">Der Chili macht keine halben Sachen &ndash; er ist intensiv, direkt und hinterl\xe4sst einen bleibenden Eindruck. Schon kleine Mengen ver\xe4ndern alles. Er ist nicht f\xfcr jeden, er fordert etwas heraus &ndash; und wer ihm begegnet, wei\xdf es sofort. In vielen Kulturen der Welt gilt der Chili als Symbol f\xfcr Lebendigkeit, Mut und ungez\xe4hmte Energie. Er ist nicht b\xf6se &ndash; er ist kraftvoll. Wer ihn kennt, wei\xdf, wie man mit ihm umgeht; wer ihn missachtet, lernt es schnell. Das Prinzip des Typs 8: direkt, kompromisslos, lebendig &ndash; und von einer Kraft, die andere noch lange sp\xfcren.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 &ndash; Der Brokkoli: Harmonie als Natur</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 &ndash; Der Brokkoli: Harmonie als Natur</h2>
         <p class="vb-intro">Der Brokkoli w\xe4chst in R\xf6schen &ndash; viele kleine Teile, die zusammen ein harmonisches Ganzes ergeben. Er ist friedlich, ausgewogen, in sich stimmig. Kein R\xf6schen dr\xe4ngt sich vor, keines bleibt zur\xfcck &ndash; gemeinsam bilden sie eine runde, vollst\xe4ndige Form. Der Brokkoli steht f\xfcr Gesundheit ohne Aufsehen, N\xe4hrwert ohne Geltungsbed\xfcrfnis. Er f\xfcgt sich ein: in Suppen, Salate, Aufl\xe4ufe &ndash; ohne den Hauptdarsteller zu spielen, aber ohne sein Wesen zu verlieren. Das Prinzip des Typs 9: Harmonie nicht als Kompromiss, sondern als nat\xfcrlichen Zustand &ndash; die stille Mitte, die alles zusammenh\xe4lt.</p>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
@@ -2795,31 +2795,31 @@ function weinsortenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 &ndash; Chardonnay: Perfektion als Prinzip</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 &ndash; Chardonnay: Perfektion als Prinzip</h2>
         <p class="vb-intro">Der Chardonnay ist die edelste, anspruchsvollste Wei\xdfweinsorte der Welt &ndash; im Burgund ist er der Ma\xdfstab, an dem alle anderen gemessen werden. Er verlangt vom Winzer h\xf6chste Sorgfalt: im Weinberg, beim Ausbau, bei der Lese. Jede Ungenauigkeit zeigt sich sofort im Glas. Im besten Ausdruck ist er von makelloser Klarheit und zeitloser Eleganz &ndash; weil alles stimmt und nichts \xfcberfl\xfcssig ist. Er duldet keine Schlamperei. Das Prinzip des Typs 1: Wenn die Grundlage rein ist und jeder Schritt stimmt, entsteht etwas Unverf\xe4lschtes.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 &ndash; Riesling: W\xe4rme und Tiefe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 &ndash; Riesling: W\xe4rme und Tiefe</h2>
         <p class="vb-intro">Der Riesling gibt sich vollst\xe4ndig &ndash; er dr\xfcckt seinen Ursprung, sein Terroir, seine ganze innere F\xfclle unverh\xfcllt aus. Sein Duft ist einladend, warm, fr\xfcchtreich: Pfirsich, Aprikose, Honig &ndash; eine fast sinnliche Gro\xdfz\xfcgigkeit. Er n\xe4hrt, er \xf6ffnet sich, er macht kein Geheimnis aus dem, was er tr\xe4gt. Gleichzeitig besitzt er eine Tiefe, die viele untersch\u00e4tzen. Der Riesling gibt, ohne zu fordern &ndash; aber wer wirklich hinschaut, entdeckt, wie viel er in sich birgt. Das Prinzip des Typs 2: Sich geben aus innerer F\xfclle heraus &ndash; und dabei tiefer sein, als man vermuten w\xfcrde.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 &ndash; Cabernet Sauvignon: Erfolg als Ma\xdfstab</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 &ndash; Cabernet Sauvignon: Erfolg als Ma\xdfstab</h2>
         <p class="vb-intro">Der Cabernet Sauvignon ist der erfolgreichste Rotwein der Welt &ndash; in Bordeaux, in Napa Valley, in Chile, in Australien: \xfcberall dort, wo er w\xe4chst, setzt er Ma\xdfst\xe4be. Er ist kraftvoll, strukturiert, prestige\xf6s. Er wird von Kennern gesch\xe4tzt und von der Masse begehrt &ndash; eine seltene Kombination. Er passt sich an, ohne sein Wesen zu verlieren: in jedem Klima bringt er das Beste aus sich heraus und bleibt dabei stets unverkennbar. Der Cabernet Sauvignon muss keine Aufmerksamkeit erzwingen &ndash; sie kommt von selbst. Das Prinzip des Typs 3: Die Besten ihrer Klasse werden nicht bejubelt, weil sie es verlangen, sondern weil ihre Leistung f\xfcr sich spricht.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 &ndash; Pinot Noir: Tiefe hinter der Zartheit</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 &ndash; Pinot Noir: Tiefe hinter der Zartheit</h2>
         <p class="vb-intro">Der Pinot Noir ist das r\xe4tselhafteste aller Gew\xe4chse &ndash; empfindlich, anspruchsvoll, schwer zu kultivieren, und doch von einer Sch\xf6nheit, die keine andere Rebsorte erreicht. Er braucht genau die richtigen Bedingungen, um sich zu \xf6ffnen. Im besten Ausdruck entfaltet er ein Bouquet von unglaublicher Tiefe: Kirschen, Erde, Rosen, Leder, Veilchen &ndash; Schicht um Schicht. Kein anderer Wein ist so komplex, so nuanciert, so f\xe4hig, eine Geschichte zu erz\xe4hlen. Und kaum ein anderer Wein ist so selten wirklich vollkommen. Das Lebensgef\xfchl des Typs 4: Nur wer bereit ist, wirklich hinzuschauen, entdeckt etwas Unvergleichliches.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 &ndash; Sauvignon Blanc: Pr\xe4zision im Verborgenen</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 &ndash; Sauvignon Blanc: Pr\xe4zision im Verborgenen</h2>
         <p class="vb-intro">Der Sauvignon Blanc ist der analytischste aller Weine &ndash; seine Aromen sind messerscharf und pr\xe4zise: Stachelbeere, Zitrusgras, Minze, Kiesel. Er macht keine Andeutungen, er ist exakt. Er strotzt nicht vor Volumen oder Opulenz, aber seine Klarheit ist bestechend. In Sancerre oder Marlborough tritt er als konzentrierte Essenz auf: wenig Aufhebens, viel Substanz. Er ist kein Schmeichler &ndash; er ist klar, direkt und in seinem Element vollst\xe4ndig autark. Das Prinzip des Typs 5: Was nach au\xdfen zur\xfcckhaltend wirkt, birgt innen eine Sch\xe4rfe des Geistes, die andere \xfcberrascht.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 &ndash; Merlot: Verl\xe4sslichkeit als Fundament</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 &ndash; Merlot: Verl\xe4sslichkeit als Fundament</h2>
         <p class="vb-intro">Der Merlot ist der verl\xe4sslichste aller Rotweine &ndash; sanft, zug\xe4nglich, niemals aggressiv. Er hat keine Ecken und Kanten, er \xfcberfordert niemanden. Er ist da, wenn man ihn braucht, er passt zu fast allem und entt\xe4uscht selten. Kein Wein l\xe4dt so m\xfchelos zum Miteinander ein. In Pomerol, im besten Ausdruck, zeigt er eine Tiefe und Verl\u00e4sslichkeit, die verbl\xfcfft. Der Merlot ist kein Selbstdarsteller &ndash; er ist das Fundament, auf das man sich verlassen kann. Das Prinzip des Typs 6: Wer immer da ist, wer niemals im Stich l\xe4sst, wird mehr gesch\xe4tzt, als er selbst oft wei\xdf.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 &ndash; Primitivo: Lebensfreude pur</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 &ndash; Primitivo: Lebensfreude pur</h2>
         <p class="vb-intro">Der Primitivo aus Apulien ist der freudigste aller Weine &ndash; s\xfc\xdf, \xfcppig, voller s\xfcdlicher W\xe4rme und Lebendigkeit. Er kommt aus dem Sonnenlicht, schmeckt nach reifen Kirschen, dunklen Beeren und einem Hauch von Gew\xfcrz, und er verbreitet sofort gute Laune. Er ist unbeschwert, er ist einladend, er macht keine gro\xdfen Umst\xe4nde. Kein anderer Wein verk\xf6rpert so sehr das Gef\xfchl von Sommer, Geselligkeit und dem Genuss des Augenblicks. Der Primitivo lebt im Hier und Jetzt &ndash; und nimmt alle mit. Das Prinzip des Typs 7: Freude ist kein Luxus, sondern eine Lebenshaltung.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 &ndash; Syrah / Shiraz: Kraft ohne Kompromisse</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 &ndash; Syrah / Shiraz: Kraft ohne Kompromisse</h2>
         <p class="vb-intro">Der Syrah &ndash; in Australien als Shiraz bekannt &ndash; macht keine halben Sachen. Er ist tief, dunkel, pfeffrig, kraftvoll und hinterl\xe4sst einen Eindruck, den man nicht so schnell vergisst. Er beansprucht Raum im Glas wie am Tisch. Er ist nicht f\xfcr jeden, er fordert etwas heraus &ndash; aber wer ihm begegnet, wei\xdf es sofort. In der Rh\u00f4ne ist er monumental, in Barossa \xfcberw\xe4ltigend. Der Syrah gibt sich nicht preis, er tritt ein. Das Prinzip des Typs 8: Wer diese Energie kennt und respektiert, erlebt eine Kraft und Vitalit\xe4t, die weit \xfcber das Glas hinaus noch wirkt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 &ndash; Ros\xe9: Stille Harmonie</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 &ndash; Ros\xe9: Stille Harmonie</h2>
         <p class="vb-intro">Der Ros\xe9 ist der Vermittler unter den Weinen &ndash; er steht zwischen Rot und Wei\xdf, f\xfcgt beides zusammen und schafft dabei etwas Eigenes, Leichtes, Harmonisches. Er dr\xe4ngt sich nicht auf, er \xfcberw\u00e4ltigt nicht, er eckt nirgends an. Er ist der Wein f\xfcr alle &ndash; immer passend, immer willkommen, niemals schwierig. In der Provence ist er von stiller Eleganz: zart, ausgewogen, ein Wein des Friedens. Man bemerkt ihn nicht sofort &ndash; aber wenn er fehlt, fehlt etwas. Das Prinzip des Typs 9: Diese Harmonie hat System – sie ist die sch\xf6nste Form von Pr\xe4senz &ndash; die stille Mitte, die alles zusammenh\xe4lt.</p>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
@@ -2849,31 +2849,31 @@ function brotsortenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 &ndash; Das Vollkornbrot: Substanz ohne Kompromisse</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 &ndash; Das Vollkornbrot: Substanz ohne Kompromisse</h2>
         <p class="vb-intro">Das Vollkornbrot ist das konsequenteste aller Brote &ndash; kein Wei\xdfmehl, kein Zucker, keine Abk\xfcrzungen. Es wird aus dem ganzen Korn gebacken, n\xe4hrstoffreich, best\xe4ndig, ohne unn\xf6tigen Schnickschnack. Sein Geschmack ist erdig, kr\xe4ftig, unverbl\u00fcmt &ndash; es versteckt nichts. Das Vollkornbrot tut, was es verspricht: es n\xe4hrt wirklich, es h\xe4lt wirklich satt, es ist wirklich gesund. Kein anderes Brot steht so sehr f\xfcr Wahrhaftigkeit und Konsequenz. Das Prinzip des Typs 1: Was stimmt, stimmt vollst\xe4ndig &ndash; und was nicht stimmt, sollte es auch nicht behaupten.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 &ndash; Die Brioche: S\xfc\xdfe als Gabe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 &ndash; Die Brioche: S\xfc\xdfe als Gabe</h2>
         <p class="vb-intro">Die Brioche ist das herzlichste aller Brote &ndash; weich, butterreich, leicht s\xfc\xdf, von einer einladenden W\xe4rme, die sofort Geborgenheit ausstrahlt. Sie ist kein Alltagsbrot; sie ist ein Geschenk. In Frankreich reicht man sie zu besonderen Anl\xe4ssen, zur Feier, zur Freude. Die Brioche gibt sich vollst\xe4ndig hin &ndash; jede Zutat, jeder Handgriff dient dem Wohlgef\xfchl der anderen. Sie schmeckt nach Zuwendung. Wer sie b\xe4ckt, sagt damit: Ich habe Zeit f\xfcr dich investiert. Das Prinzip des Typs 2: Sich geben aus Freude am Geben &ndash; und dabei ein Werk schaffen, das andere ber\xfchrt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 &ndash; Die Ciabatta: Leistung durch Leichtigkeit</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 &ndash; Die Ciabatta: Leistung durch Leichtigkeit</h2>
         <p class="vb-intro">Die Ciabatta ist das eleganteste aller Brote &ndash; luftig, knusprig, von einer offenen Krume, die Leichtigkeit suggeriert, w\xe4hrend sie gleichzeitig \xfcberzeugend Substanz zeigt. Sie ist vielseitig: als Sandwich, zum Dippen, zur Vorspeise &ndash; sie spielt jede Rolle m\xfchelos und macht dabei stets eine gute Figur. In Italien ist sie das Brot des modernen Erfolgs &ndash; jung, zeitgem\xe4\xdf, weltweit bekannt. Die Ciabatta muss sich nicht erkl\xe4ren. Sie wirkt. Das Prinzip des Typs 3: Leistung soll leicht aussehen &ndash; auch wenn dahinter Meisterschaft steckt.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 &ndash; Das Sauerteigbrot: Tiefe durch Transformation</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 &ndash; Das Sauerteigbrot: Tiefe durch Transformation</h2>
         <p class="vb-intro">Das Sauerteigbrot ist das einzigartigste aller Brote &ndash; kein Exemplar gleicht dem anderen, jeder Laib tr\xe4gt die Handschrift seiner Entstehung. Es wird nicht durch industrielle Hefe angetrieben, sondern durch einen lebendigen, wilden Starter, der Jahrzehnte alt sein kann. Die S\xe4ure gibt ihm Charakter, Tiefe und eine unverwechselbare Note. Es braucht Zeit, Geduld und ein feines Gef\xfchl &ndash; wer es eilig hat, bekommt ein anderes Brot. Im Inneren ist es von komplexer Sch\xf6nheit: Blasen, Schichten, Aromen \xfcber Aromen. Das Lebensgef\xfchl des Typs 4: Ich bin das Ergebnis meiner eigenen Geschichte &ndash; und das ist unwiederholbar.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 &ndash; Der Pumpernickel: Konzentrierte Essenz</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 &ndash; Der Pumpernickel: Konzentrierte Essenz</h2>
         <p class="vb-intro">Der Pumpernickel ist das dichteste, konzentrierteste aller Brote &ndash; kompakt, dunkel, von fast schon mineralischer Intensit\xe4t. Er zeigt nach au\xdfen wenig: keine gold\u00adbraune Kruste, keine luftige Krume, kein schnelles Versprechen. Aber in ihm steckt eine Tiefe von N\xe4hrstoffen und Geschmack, die andere Brote nicht ann\xe4hernd erreichen. Er wird langsam gebacken, oft \xfcber viele Stunden, bei niedriger Temperatur &ndash; stille Prozesse, die das Beste hervorbringen. Er ist nicht f\xfcr jeden Gaumen, aber f\xfcr jene, die ihn verstehen, gibt es kaum \xc4quivalentes. Das Prinzip des Typs 5: Wer nach innen schaut, findet mehr als die Oberfl\xe4che verspricht.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 &ndash; Das Roggenbrot: Verl\xe4sslichkeit als Tugend</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 &ndash; Das Roggenbrot: Verl\xe4sslichkeit als Tugend</h2>
         <p class="vb-intro">Das Roggenbrot ist das verl\xe4sslichste aller Brote &ndash; seit Jahrhunderten Grundnahrungsmittel in Mittel- und Nordeuropa, bepr\xfcft von Generationen, nie aus der Mode. Es h\xe4lt lange frisch, n\xe4hrt nachhaltig, schmeckt jeden Tag. Kein Brot ist so bodenst\xe4ndig, so treu, so wenig auf Aufmerksamkeit aus. Das Roggenbrot verspricht nichts, was es nicht h\xe4lt &ndash; und es h\xe4lt, was es verspricht. In Krisenzeiten war es oft das einzige Brot, das blieb. Das tiefste Prinzip des Typs 6: Bestand haben, wenn andere verschwinden &ndash; und dabei nie das Vertrauen der Menschen entt\xe4uschen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 &ndash; Die Focaccia: Lebensfreude mit Kr\xe4utern</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 &ndash; Die Focaccia: Lebensfreude mit Kr\xe4utern</h2>
         <p class="vb-intro">Die Focaccia ist das freudigste aller Brote &ndash; flach, gro\xdfz\xfcgig belegt, duftend nach Oliven\u00f6l, Rosmarin, Meersalz, Tomaten, Oliven, was immer gerade Lust macht. Sie l\xe4dt ein, sie teilt sich, sie verbreitet mediterrane Lebensfreude. Kein Brot ist so unkompliziert gesellig: Man rei\xdft sie einfach ab, gibt weiter, genie\xdft den Moment. Die Focaccia ist nicht f\xfcr sp\xe4ter &ndash; sie ist f\xfcrs Jetzt. Sie kombiniert spielend Geschmack und Leichtigkeit und macht dabei keine gro\xdfen Umst\xe4nde. Das Prinzip des Typs 7: Das Leben ist eine Einladung &ndash; und das Beste daran ist, sie anzunehmen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 &ndash; Das Baguette: Direktheit als Stil</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 &ndash; Das Baguette: Direktheit als Stil</h2>
         <p class="vb-intro">Das Baguette macht keine halben Sachen &ndash; au\xdfen hart und knusprig, innen luftig und kr\xe4ftig, ohne jede Entschuldigung. Es ist eines der bekanntesten Brote der Welt, und es wei\xdf das. Es beansprucht Raum: L\xe4nge, Pr\xe4senz, eine Kruste, die laut knackt, wenn man sie bricht. Es passt sich nicht an &ndash; alle anderen passen sich ihm an. In Frankreich ist es nicht einfach ein Brot, es ist ein Lebensbekenntnis. Man tr\xe4gt es offen unter dem Arm, unversteckt, unvermummt. Das Prinzip des Typs 8: Pr\xe4senz braucht keine Erkl\xe4rung &ndash; sie ist einfach da.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 &ndash; Das Wei\xdfbrot: Stille Harmonie</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 &ndash; Das Wei\xdfbrot: Stille Harmonie</h2>
         <p class="vb-intro">Das Wei\xdfbrot ist das friedlichste aller Brote &ndash; weich, mild, ohne Ecken und Kanten, in sich vollkommen ruhig. Es \xfcberw\xe4ltigt nicht, es dr\xe4ngt sich nicht auf, es stellt keine Anforderungen. Es passt zu jedem Belag, zu jedem Anlass, zu jedem Menschen. Morgens als Toast, mittags als Sandwich, abends als Beilage &ndash; es f\xfcgt sich ein, ohne sich zu verlieren. Sein Geheimnis liegt in der Stille: Es ist da, es n\xe4hrt, es verbindet &ndash; und man bemerkt erst, wie wichtig es war, wenn es fehlt. Das Prinzip des Typs 9: Nicht das Lauteste ist das Wichtigste, sondern das, in dem sich alle wiederfinden k\xf6nnen.</p>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
@@ -2903,31 +2903,31 @@ function kaesesortenPage() {
       />
       <div class="vb-section" style="max-width:100%;">
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 &ndash; Parmesan: Perfektion durch Reife</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 &ndash; Parmesan: Perfektion durch Reife</h2>
         <p class="vb-intro">Der Parmesan ist der konsequenteste aller K\xe4se &ndash; hart, kristallin, von einer W\xfcrze, die aus langer Reife entsteht. Ein echter Parmigiano Reggiano braucht mindestens zw\xf6lf Monate, oft zwei Jahre oder mehr. Kein Abk\xfcrzung, kein Kompromiss. Er duldet keine Nachahmung: Der Name ist gesch\xfctzt, die Herstellung streng geregelt, die Qualit\xe4t pr\xfcfbar. Im Anschnitt zeigt er Struktur und Tiefe &ndash; K\xf6rnchen, die von innen gl\xe4nzen. Das Prinzip des Typs 1: Wahre Qualit\xe4t entsteht nicht durch Eile, sondern durch Konsequenz, Zeit und die Weigerung, Fehler durchgehen zu lassen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 &ndash; Brie: W\xe4rme als Einladung</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 &ndash; Brie: W\xe4rme als Einladung</h2>
         <p class="vb-intro">Der Brie ist der herzlichste aller K\xe4se &ndash; weich, cremig, von einem mild-w\xfcrzigen Schimmelmantel umh\xfcllt, der sofort Geborgenheit ausstrahlt. Er \xf6ffnet sich bei Zimmertemperatur vollst\xe4ndig, gibt sich hin, wird weich und einladend. Der Brie macht kein Aufheben &ndash; er ist einfach da, warm und gro\xdfz\xfcgig. Er passt zu allem und zu jedem, st\xf6rt nie, bereichert immer. In Frankreich ist er das Symbol f\xfcr Gastfreundschaft und das entspannte Miteinander. Das Prinzip des Typs 2: Sich \xf6ffnen, sich hingeben, den anderen willkommen hei\xdfen &ndash; und darin die eigene Erf\xfcllung finden.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 &ndash; Cheddar: Erfolg durch Anpassung</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 &ndash; Cheddar: Erfolg durch Anpassung</h2>
         <p class="vb-intro">Der Cheddar ist der erfolgreichste K\xe4se der Welt &ndash; in Supermarktketten, auf Burgern, in gehobenen K\xfcchen, in jedem Klima und jeder Kultur ist er zu Hause. Er ist anpassungsf\xe4hig: mild oder reif, jung oder gereift, orange oder wei\xdf. Er \xfcberzeugt in jeder Rolle, ohne sich zu verbiegen. Seine Beliebtheit hat einen klaren Grund: das Ergebnis echter Qualit\xe4t, die sich stets dem Kontext anpasst. Er muss sich nicht erkl\xe4ren &ndash; er ist einfach \xfcberall, und das aus gutem Grund. Das Prinzip des Typs 3: Erfolg ist kein Gl\xfcck, sondern die F\xe4higkeit, in jedem Umfeld das Beste aus sich herauszuholen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 &ndash; Roquefort: Tiefe durch Verwandlung</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 &ndash; Roquefort: Tiefe durch Verwandlung</h2>
         <p class="vb-intro">Der Roquefort ist der eindringlichste aller K\xe4se &ndash; intensiv, komplex, mit einem Schimmel durchzogen, der ihn unverwechselbar und f\xfcr viele zun\xe4chst unbehagend macht. Er ist kein K\xe4se f\xfcr jeden. Wer ihn versteht, erlebt eine Tiefe und Vielschichtigkeit, die andere K\xe4se nicht ann\xe4hernd erreichen. In H\xf6hlen der Aveyron reift er in Dunkelheit und Stille &ndash; Transformation als Voraussetzung f\xfcr seinen einzigartigen Charakter. Das Lebensgef\xfchl des Typs 4: Ich bin das Ergebnis meiner tiefsten Erfahrungen &ndash; und genau das macht mich unvergleichlich.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 &ndash; Gruy\xe8re: Konzentrierte Tiefe</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 &ndash; Gruy\xe8re: Konzentrierte Tiefe</h2>
         <p class="vb-intro">Der Gruy\xe8re ist der pr\xe4ziseste aller K\xe4se &ndash; fest, dicht, mit einem nuancierten Geschmack, der sich erst bei genauem Hinschmecken v\xf6llig erschlie\xdft. Er ist kein Schauk\xe4se, kein Aufschneider. Er zeigt wenig nach au\xdfen, aber sein Inneres ist von bemerkenswerter Komplexit\xe4t: N\xfcsse, Karamell, ein Hauch Gew\xfcrz &ndash; Schicht um Schicht. Er reift langsam, in Stille, in kontrollierten Kellern. Wer ihn fl\xfcchtig isst, bemerkt ihn kaum. Wer inneh\u00e4lt und wirklich kostet, ist \xfcberrascht. Das Prinzip des Typs 5: Die gr\xf6\xdfte Tiefe zeigt sich nicht sofort &ndash; sie erschlie\xdft sich nur denen, die bereit sind, wirklich hinzuschauen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 &ndash; Gouda: Verl\xe4sslichkeit als Fundament</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 &ndash; Gouda: Verl\xe4sslichkeit als Fundament</h2>
         <p class="vb-intro">Der Gouda ist der zuverl\xe4ssigste aller K\xe4se &ndash; mild, berechenbar, stets gut, niemals entt\xe4uschend. Er ist seit Jahrhunderten in den Niederlanden ein Grundnahrungsmittel und weltweit bekannt. Man wei\xdf, was man bekommt, und man bekommt, was man erwartet. Als junger K\xe4se ist er sanft und zug\xe4nglich, als gereifter K\xe4se entwickelt er \xfcberraschende Tiefe &ndash; aber er \xfcberrumpelt nie. Er ist f\xfcr jeden Anlass geeignet, morgens auf dem Brot, abends auf der K\xe4seplatte. Das Prinzip des Typs 6: Wer immer da ist, wer niemals entt\xe4uscht, wird mehr gesch\xe4tzt als jene, die gl\xe4nzen und versagen.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 &ndash; Camembert: Lebensfreude mit Charakter</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 &ndash; Camembert: Lebensfreude mit Charakter</h2>
         <p class="vb-intro">Der Camembert ist der lebendigste aller K\xe4se &ndash; aromatisch, ausdrucksstark, von einer wei\xdfen Schimmelrinde, die einen cremigen, fast ekstatisch duftenden Kern verbirgt. Bei Zimmertemperatur erreicht er sein volles Potenzial: Er flie\xdft, er duftet, er f\xfcllt den Raum. Der Camembert l\xe4dt ein, er macht Stimmung, er ist das Leben auf einer K\xe4seplatte. Aus der Normandie stammend, geh\xf6rt er zur franz\xf6sischen Lebensfreude wie kein anderer. Er will geteilt, genossen und gefeiert werden. Das Prinzip des Typs 7: Das Sch\xf6ne am Leben ist, es mit anderen zu erleben &ndash; und dabei vollst\xe4ndig pr\xe4sent zu sein.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 &ndash; Pecorino: Kraft ohne Umschweife</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 &ndash; Pecorino: Kraft ohne Umschweife</h2>
         <p class="vb-intro">Der Pecorino ist der kraftvollste aller K\xe4se &ndash; aus Schafsmilch hergestellt, intensiv, salzig, von einer Direktheit, die keine Fragen offen l\xe4sst. Er beansprucht Raum im Mund wie auf dem Teller. Er ist kein K\xe4se, den man \xfcbersieht oder \xfcbergehen kann. Schon ein St\xfcck ver\xe4ndert das ganze Gericht. In S\xfcditalien und Sardinien ist er seit Jahrtausenden Teil einer Kultur, die Kraft, Direktheit und Lebendigkeit sch\xe4tzt. Kein Schnickschnack, kein Versteckspiel. Das Prinzip des Typs 8: Wer Pr\xe4senz hat, braucht sie nicht zu erkl\xe4ren &ndash; man sp\xfcrt sie sofort.</p>
 
-        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 &ndash; Mozzarella: Stille Harmonie</h2>
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 &ndash; Mozzarella: Stille Harmonie</h2>
         <p class="vb-intro">Der Mozzarella ist der friedlichste aller K\xe4se &ndash; wei\xdf, weich, mild, in sich vollkommen ruhig. Er \xfcberw\xe4ltigt nicht, er dr\xe4ngt sich nicht auf, er fordert nichts. Er passt zu fast allem: zur Tomate, zum Salat, zur Pizza, zur Vorspeise. Er f\xfcgt sich ein, ohne sein Wesen zu verlieren. Frisch aus der Molke gegessen ist er von einer stillen Sch\xf6nheit: feucht, zart, leicht &ndash; eine Einladung zur Stille. Kein K\xe4se verbindet so m\xfchelos wie er. Das Prinzip des Typs 9: Harmonie ist keine Schw\u00e4che, sondern die tiefste Form von Pr\xe4senz &ndash; die stille Mitte, in der alle zur Ruhe kommen.</p>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "\xdcbersichten, Schaubilder und Typbeschreibungen &ndash; der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist &ndash; Band 1")}
@@ -7492,6 +7492,64 @@ function moritzBleibtreuPortraitPage() {
         {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function hansZimmerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Hans Zimmer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Zimmer</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Filmkomponist, Arrangeur &amp; Musikproduzent, geb. 1957 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
+          <p class="vb-intro">Der deutsche Komponist Hans Zimmer hat in Santa Monica ein Studio aufgebaut, das man Remote Control Productions nennt &ndash; und das von innen eher einer Musikerfamilie \u00e4hnelt als einer Produktionsfirma. Zimmer hat dort Dutzende Komponisten ausgebildet, gef\u00f6rdert, begleitet: Junkie XL, Lorne Balfe, Harry Gregson-Williams, Rupert Gregson-Williams, Ramin Djawadi und viele andere. Der Gorilla baut kein Territorium. Er baut ein Rudel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Sch\u00f6pfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der W\u00e4rme des Schaffens selbst &ndash; im Prozess, in der Zusammenarbeit, im Akt des Erschaffens. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativit\u00e4t und Geborgenheit zusammenkommen.</p>
+          <p class="vb-intro">Zimmer brach mit sechzehn die Schule ab. Er hatte nie eine formale Musikausbildung &ndash; und lie\u00df sich davon nie aufhalten. Statt Noten zu studieren, experimentierte er: mit Synthesizern, mit Orchesterkl\u00e4ngen, mit allem, was Klang erzeugt. Seine Freude am Entdecken ist bis in die Gegenwart sp\u00fcrbar. Kein Score klingt wie der vorherige. Jeder Film ist ein neues Abenteuer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft, die tr\u00e4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verf\u00fcgung steht: Durchsetzungskraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann sich die Sieben in M\u00f6glichkeiten verlieren, kann ausweichen, kann umlenken, wenn etwas schwer wird. Der Achterfl\u00fcgel h\u00e4lt dagegen &ndash; er bringt Entschlossenheit, Direktheit, die Bereitschaft, Konflikte auszuhalten.</p>
+          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Das ist der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Sch\u00f6pfungsdrang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, nach dem n\u00e4chsten Projekt, nach dem Gef\u00fchl, etwas Neues zu erschaffen. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf F\u00fclle: mehr Klang, mehr Tiefe, mehr Verbindung zwischen Musik und Bild.</p>
+          <p class="vb-intro">Zimmer hat Musik f\u00fcr \u00fcber 150 Filme geschrieben. Er schl\u00e4ft wenig. Er arbeitet in Phasen, die Mitarbeiter als intensiv beschreiben &ndash; und die er selbst als seine nat\u00fcrliche Betriebstemperatur bezeichnet. Es ist nicht Getriebensein. Es ist der Gorilla in seinem Element: Sch\u00f6pfen als Lebensform, Klang als Sprache, die nie zu Ende gesagt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Das ist die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
       ])}
     </div>
   `);

@@ -1,165 +1,3 @@
-function mariaMagdalenaPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Maria Magdalena – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Maria Magdalena</p>
-        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Erste Zeugin der Auferstehung – Tierentsprechung: Kamel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie hat viel geliebt.« (vgl. Lk 7,47)</p>
-
-        <h2 class="vb-section">1. Das Kamel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ausdauernd bis zur Erschöpfung, fähig, tagelang ohne sichtbare Versorgung weiterzugehen, solange es einem einzigen Ziel folgt. Maria hatte viele Namen gehabt. Manche flüsterten sie, andere spuckten sie aus, einige schwiegen, wenn sie erschien. Aber keiner davon war wirklich ihrer. Ihre Nähe war intensiv, zu viel für manche, zu direkt. Sie sah nicht über Menschen hinweg – sie sah durch sie hindurch.</p>
-          <p class="vb-intro">Sie wollte nicht Besitz, nicht Macht, sondern Verschmelzung. Sie konnte nicht am Rand stehen, nicht zuschauen, nicht halb lieben. Wenn sie sich jemandem zuwandte, dann ganz, mit Haut, Herz, Augen und Seele. Und wenn sie weggestoßen wurde – was oft geschah –, dann brannte ihr Inneres nicht vor Zorn, sondern vor Verlustangst. Die Menschen nannten sie labil, unstet, unklar. Aber sie war klar – in ihrem Hunger nach jemandem, der ihre Tiefe hielt, ohne sie zu benutzen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Zwei: Verschmelzung statt Halbheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> sucht nicht die breite Anerkennung einer Gemeinschaft, sondern die vollständige Verschmelzung mit einer einzigen Person. Es war kein lauter Moment, kein Ruf, kein Wunder – nur ein Blick. Jesus sah sie nicht wie die anderen Männer, nicht mit Hunger, nicht mit Urteil, sondern mit Erkenntnis. Er sah in sie hinein, an jenen Punkt, den sie selbst nie ganz benennen konnte: wo die Sehnsucht wohnte, geliebt zu werden ohne Zweck.</p>
-          <p class="vb-intro">In seiner Gegenwart verstummte die ständige Anspannung, die Jagd nach Verbindung, das Fragen: <em>Bin ich genug?</em> Nicht, weil er sie beantwortete, sondern weil er sie überflüssig machte. Sie sah in Jesus nicht den Lehrer, nicht den Rabbi, nicht den Wundertäter. Sie sah den Einen, der ihre Tiefe nicht fürchtete und nicht benutzte. Und sie blieb – nicht weil sie musste, sondern weil sie endlich sein durfte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Treue als Prinzip statt Inszenierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine Note von Prinzipientreue, die ihre Intensität nicht zur Schau stellt, sondern in unverrückbarer Verbindlichkeit lebt. Maria blieb bei ihm, nicht als Schülerin unter vielen, sondern wie jemand, der nicht nur folgen wollte, sondern verschmelzen. Doch Jesus ließ sich nicht greifen – er war bei allen, und doch nie ganz bei einem allein.</p>
-          <p class="vb-intro">»Ich will bei dir sein«, sagte sie. Und er erwiderte nur: »Dann bleib – ohne dich zu verlieren.« Das war für sie das Schwerste, denn ihr Herz wollte sich verschenken, ganz. Aber er zeigte ihr: Liebe ist nicht Auflösung, sondern Klarheit im Verbundensein. Genau diese Fähigkeit, trotz brennender Sehnsucht an einem Prinzip festzuhalten, statt sich zu verlieren oder ihre Nähe theatralisch einzufordern, trägt die Handschrift des Einserflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Treue über den Tod hinaus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Den Tag der Verhaftung hatte sie gespürt, bevor er geschah – nicht durch Worte oder Zeichen, sondern in ihrem Körper, wie eine plötzliche Leere im Raum, wo sonst sein Licht war. Als sie ihn führten, mit Stricken, mit Spott, war sie da. Nicht laut, nicht weinend, sondern mit Blicken, die mehr sprachen als jede Verteidigung. Sie stand unter dem Kreuz – nicht weil es Hoffnung gab, sondern weil es Liebe war. Nicht romantisch, nicht heroisch, sondern roh, unverhandelbar, wach: <em>Ich bleibe. Auch wenn du gehst.</em></p>
-          <p class="vb-intro">Als er starb, starb etwas in ihr mit – aber nicht ihre Liebe. Wo andere flohen, blieb sie. Wo andere sagten <em>Es ist vorbei</em>, dachte sie: <em>Er ist noch nicht fertig.</em> Sie half, den Leichnam zu salben. Sie weinte nicht wie eine Witwe, sondern wie eine Verbundene, die wusste: Dieser Tod beendet nichts. Er verändert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das leere Grab und die Auferstehung der Liebe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Morgen war grau, der Stein war weg, das Grab war leer. Maria stand da – nicht mit Hoffnung, sondern mit Verzweiflung. Denn was macht eine SX2, wenn selbst der Körper nicht mehr da ist, wenn sie nicht mehr salben, nicht mehr dienen, nicht mehr in Nähe trauern darf? Da trat er zu ihr, nicht als Lichtgestalt, nicht als Sieger, sondern als Mensch. Sie erkannte ihn nicht, nicht sofort – denn Liebe, wenn sie tief verwundet ist, erwartet nur Verlust.</p>
-          <p class="vb-intro">Dann sagte er nur: »Maria.« Ihren Namen, nicht als Information, sondern als Anrufung. Und sie wusste: Er lebt. Und ich – ich werde nicht zurückgelassen. Sie wollte ihn umarmen, festhalten, nie wieder loslassen. Doch er sagte: »Rühr mich nicht an – denn ich bin noch nicht zum Vater aufgefahren.« Nicht weil er sie abwies, sondern weil er sie lehrte: Liebe heißt nicht Besitz. Liebe heißt Zeugenschaft.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Verkünden statt binden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">So wurde Maria Magdalena die erste Zeugin – nicht, weil sie etwas verstanden hatte, sondern weil sie viel geliebt hatte. Und weil sie bereit war, ihn loszulassen, um ihn in der Welt weiterzutragen. Nicht in Umarmung, sondern in ihrer Stimme, in ihrem Blick, in ihrem unverrückbaren Glauben: Er lebt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX2w1: eine Intensität, die sich nicht in Besitzergreifung erschöpft, sondern zur Botschaft wird – ein Kamel, das seine ganze Kraft einem einzigen Ziel widmet und, sobald das Ziel erreicht scheint, gerade darin frei wird, weiterzutragen, was es getragen hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Sie sah ihn brechen – nicht das Brot allein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Maria Magdalena ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0" title="Sie sah ihn brechen – nicht das Brot allein – Maria Magdalena" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
-        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
-        {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
-        {route:"bibel-salome", label:"Bibel-Porträt: Salome (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function salomePage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-salome-portrait.jpg" alt="Salome – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Salome</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Die Architektin des Eindrucks – Tierentsprechung: Waschbär</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Ihre Hände waren immer in Bewegung – aber ihr Herz war still geworden.«</p>
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – geschickt, wachsam, ein Meister der stillen Anpassung, der sich nie in den Vordergrund drängt und doch dafür sorgt, dass alles um ihn herum geordnet und versorgt ist. Salome hatte früh gelernt, was wirkt. Nicht was wahr ist, nicht was tief ist – sondern was ankommt. Sie war klug, ja. Aber vor allem: geschickt.</p>
-          <p class="vb-intro">In ihrem Haus war alles geordnet, die Krüge glänzten, das Brot lag exakt geschnitten auf dem Tuch. Denn wenn alles gut aussieht, ist es auch ein wenig gut – das war der Gedanke, der ihr Sicherheit gab. Sie hatte ihr wahres Selbst mit einer Art Panzer überzogen, nicht aus Kälte, sondern aus Notwendigkeit. Tief in ihr wohnte eine Stimme, die flüsterte: Wenn du nichts leistest, bist du nichts.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Wirkung als Überlebensstrategie</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht Sicherheit nicht durch öffentlichen Glanz, sondern durch stille, makellose Kompetenz im eigenen Umfeld. Salome war nicht eingeladen gewesen zur Hochzeit in Kana – zumindest nicht offiziell. Aber sie war da, wie so oft: still, dezent, an der Seite. Ihr Blick erfasste die Szenerie wie ein erfahrener Gastgeber: die Menge, die Temperatur des Raumes, den Vorrat an Wein. Sie war nicht neugierig – sie war wach. Denn wer wach ist, hat Kontrolle.</p>
-          <p class="vb-intro">Als die Weinkrüge leer waren, war das in ihrer Welt ein Desaster – ein Makel, öffentlich. Doch Jesus sagte nur leise Worte zu den Dienenden, und Wasser wurde zu Wein. Ohne Auftritt, ohne Ankündigung, kein Lob, keine Geste der Selbstbestätigung. Salome konnte nicht wegblicken – nicht wegen des Wunders, sondern wegen seiner Stille, seines Mangels an Eitelkeit. Wer ist dieser Mann, der wirken kann, ohne zu wirken?</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die verborgene Unruhe hinter der Fassade</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine leise, kaum sichtbare Tiefe – eine Empfindsamkeit für das eigene Ungenügen, die unter der makellosen Oberfläche wach bleibt und sich irgendwann nicht mehr verdrängen lässt. Nach dem Fest ging Salome langsam nach Hause, und doch schien jeder Schritt schwerer zu wiegen als sonst. Sie hatte Jesus kein Wort gesagt. Denn was hätte sie sagen sollen – »Gut gemacht«? Sie wusste: Solche Worte hätten ihn nicht erreicht, denn er hatte nichts getan, um zu gefallen. Und das war es, was sie tief traf.</p>
-          <p class="vb-intro">Sie war es gewohnt, gewürdigt zu werden, hatte gelernt, dass Anerkennung das Maß aller Dinge ist. Doch dieser Mann war wirksam ohne Aufwand, präsent ohne Geltung. Wer bin ich, wenn ich nicht mehr funktioniere? Wenn keiner sieht, was ich tue? Genau dieses leise, unbestechliche Fragen nach dem eigenen Wert jenseits der Leistung – nicht als lauter Zusammenbruch, sondern als stiller innerer Sturm – trägt die Handschrift des Viererflügels.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Angst, gesehen zu werden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Es war in Kapernaum, am Rand eines Marktes. Jesus saß auf einem flachen Stein, nicht erhöht, nicht hervorgehoben, aber in einem Kreis von Menschen, die in seiner Gegenwart atmeten, als sei endlich genug Luft da. Salome trat näher – nicht aus Mut, sondern aus etwas, das sie nicht kannte: Sehnsucht, nicht nach Anerkennung, sondern nach Erkanntwerden. Er sah sie. Nicht mit Überraschung, nicht mit Besitz, nicht mit Lob. Er sah – und das genügte.</p>
-          <p class="vb-intro">In seinem Blick lag ein Satz, den sie spürte, ohne dass er gesprochen wurde: Du brauchst dich nicht mehr beweisen. Ein Satz wie eine Klinge, wie eine Befreiung – und zugleich ein Entsetzen. Denn wer war sie, wenn sie nicht mehr geben, leisten, glänzen konnte? Er sprach leise, aber es klang in ihr wie Donner: »Was nützt es dem Menschen, wenn er die ganze Welt gewinnt, aber dabei seine Seele verliert?« Sie fühlte sich gemeint – nicht beschämt, sondern gesehen, jenseits der Maske.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das neue Maß: Wirksamkeit ohne Maske</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sie änderte sich nicht plötzlich, nicht in ihren Gewohnheiten, nicht in ihrer Kleidung. Aber das Motiv hinter allem begann sich zu lösen – nicht sofort, aber stetig. Sie hörte auf, etwas zu sein, um jemand zu sein. Sie begann, Dinge zu tun, nicht um Eindruck zu machen, sondern weil sie gebraucht wurden. Der Unterschied war kaum sichtbar, aber spürbar: Ihr Lächeln wurde weicher, nicht strategisch, echt.</p>
-          <p class="vb-intro">Eines Tages, als sie Jesus wieder sah, trat sie zu ihm, setzte sich einfach hin und sagte leise: »Ich bin müde vom Machen.« Er schwieg, nickte kaum merklich und sagte: »Dann ruh dich aus – in dem, was du bist.« Für Salome war das der Wendepunkt. Nicht das Ende ihres Tuns, aber der Beginn ihres wirklichen Seins. Kein Glanz mehr ohne Grund, keine Masken mehr aus Angst, keine Wirkung ohne Wurzeln.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Führen ohne Applaus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als sie später andere führte – jüngere Frauen, unsichere Männer, Kinder –, tat sie es nicht mehr, um Applaus zu bekommen, sondern weil sie wusste, dass das wahre Wirken dort beginnt, wo man nichts mehr darstellt, sondern einfach da ist.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE3w4: eine Kompetenz, die sich nicht mehr aus der Angst speist, ohne Leistung wertlos zu sein, sondern aus der stillen Gewissheit, gesehen zu sein, auch wenn niemand zuschaut – ein Waschbär, der nicht mehr jeden Winkel kontrollieren muss, um sich sicher zu fühlen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Mehr als nur die Beste</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Salome ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0" title="Mehr als nur die Beste – Salome bei Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
-        {route:"bibel-maria-magdalena", label:"Bibel-Porträt: Maria Magdalena (SX2w1)"},
-        {route:"bibel-pontius-pilatus", label:"Bibel-Porträt: Pontius Pilatus (SO3w4)"},
-      ])}
-    </div>
-  `);
-}
-
 function pontiusPilatusPage() {
   return shell(`
     <div class="page-container">
@@ -11208,4 +11046,109 @@ function leslieVanHoutenPortraitPage() {
   `);
 }
 
+
+function nickLeesonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Nick Leeson \u2013 Kriminalpsychologie")}
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/nick-leeson-portrait.jpg" alt="Nick Leeson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nick Leeson</p>
+        <p class="krim-portrait-typ">SO9w8 \u00b7 Sozialer Typ 9 mit Achterfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Rogue Trader \u00b7 Barings Bank, Singapur 1992\u20131995 \u00b7 Tierentsprechung: B\u00fcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun &ndash; und kein Bild trifft Nick Leeson genauer. Der B\xfcffel ist ein Herdentier. Er braucht die Gruppe, er lebt f\xfcr die Gruppe, er definiert sich \xfcber die Zugeh\xf6rigkeit zur Herde. Er ist geduldig, ausdauernd, anpassungsf\xe4hig. Er zieht nicht die Aufmerksamkeit auf sich. Er l\xe4sst sich einspannen &ndash; und tr\xe4gt die Last, ohne zu klagen. Aber wenn er gedr\xe4ngt wird, wenn kein Ausweg bleibt, dann st\xfcrmt er. Nicht aus Bosheit. Aus reiner, akkumulierter Energie.</p>
+          <p class="vb-intro">Nick Leeson war ein B\xfcffel. Er wollte nichts weiter, als dazugeh\xf6ren: zur Bank, zum Team, zur Institution Barings. Er trug die Last der verborgenen Verluste schweigend &ndash; Jahre lang. Er stampfte nicht warnend auf. Er brach erst dann zusammen, als die Last physisch untragbar geworden war. Und er riss die \xe4lteste Merchant Bank Englands mit sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist in der Enneagramm-Tradition der Subtyp der <em>Teilhabe</em> (Naranjo: Participation). Die SO9 findet ihre Identit\xe4t nicht in sich selbst, sondern in der Zugeh\xf6rigkeit zu einer Gemeinschaft. Was die Gruppe erwartet, was die Institution ben\xf6tigt, was die Kollegen gutgei\xdften &ndash; das wird ihr eigenes Handeln. Die SO9 l\xf6st sich in das gr\xf6\xdfere System auf. Das ist keine Schw\xe4che, das ist ihre Struktur.</p>
+          <p class="vb-intro"><strong>Ein wichtiger Hinweis:</strong> Die soziale Neun gilt in der Enneagramm-Tradition als <em>Kontratyp</em> der Neun &ndash; der Subtyp, der am wenigsten nach dem typischen Bild einer Neun aussieht. W\xe4hrend man Tr\xe4gheit gern mit Passivit\xe4t oder Langsamkeit gleichsetzt, kann die soziale Neun erstaunlich umtriebig, flexi\xadgel und gesch\xe4ftig sein. Sie ist aktiv &ndash; aber diese Aktivit\xe4t dient nicht dem eigenen Wachstum, sondern der Zugeh\xf6rigkeit. Sie tut viel, damit die Gemeinschaft sie braucht. Das erinnert an den Bienenstock: immer in Bewegung, immer im Dienst, nie f\xfcr sich selbst. So war auch Leesons getriebenes Handeln in Singapur kein Widerspruch zur Neun &ndash; es war Zugeh\xf6rigkeit in Aktion.</p>
+          <p class="vb-intro">Nick Leeson kam aus einfachen Verh\xe4ltnissen aus Watford und hatte keine akademische Ausbildung. Barings Bank war f\xfcr ihn nicht nur ein Arbeitgeber &ndash; es war eine Welt, in die er sich endlich zugeh\xf6rig f\xfchlte. Er wurde respektiert. Er galt als Macher. Als die Verluste begannen, war sein erster Impuls kein pers\xf6nlicher Vorteil &ndash; es war: <em>die Bank nicht entt\xe4uschen</em>, die Erwartungen der Institution erf\xfcllen, nicht aus der Rolle fallen. Die SO9 kann kein Nein sagen, wenn das Nein ihre Zugeh\xf6rigkeit bedroht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel als Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\xfcgel</strong> verleiht der sozialen Neun eine zus\xe4tzliche Schicht: Durchsetzungswillen, Sturheit, die F\xe4higkeit, unter Druck weiterzumachen. Wo eine SO9 mit schwächerem Achterflügel vielleicht früher aufgegeben hätte, gibt ein stark ausgeprägter Achterflügel Leeson die Energie, das Spiel immer weiterzutreiben. Er ist nicht aggressiv im Sinne von konfrontativ &ndash; aber er gibt nicht auf. Er verdoppelt. Er verdreifacht. Er setzt nach, wenn eine Position gegen ihn l\xe4uft, weil Aufgeben f\xfcr ihn keine Option ist.</p>
+          <p class="vb-intro">Das Konto 88888 wuchs nicht, weil Leeson gierig war. Es wuchs, weil der Achterfl\xfcgel ihm die Ausdauer gab, weiterzumachen &ndash; und die SO9 ihm die Motivation lieferte: <em>das System nicht im Stich lassen</em>. Eine verh\xe4ngnisvoll stimmige Kombination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Tr\xe4gheit als Selbstvergessenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun hei\xdft <strong>Tr\xe4gheit</strong> &ndash; und sie ist leicht misszuverstehen. Sie bedeutet nicht Faulheit. Sie bedeutet eine tiefe <em>Narkotisierung des eigenen Selbst</em>: Die Neun weicht der eigenen inneren Wahrheit aus, sie bet\xe4ubt sich gegen\xfcber dem, was wirklich geschieht, sie sieht weg, wenn der Blick unangenehm w\xe4re.</p>
+          <p class="vb-intro">Nick Leeson hat in Interviews sp\xe4ter erkl\xe4rt, dass er selbst nie wirklich realisiert habe, was er tat. Das klingt wie eine Schutzbehauptung &ndash; aber es ist ein exaktes Bild der Neun. Er war nicht im Modus des ber\xfcchtigten Betr\xfcgers, der im Bewusstsein seiner Schuld handelt. Er war in einem Zustand des <em>funktionalen Wegsehens</em>: weitermachen, weitermachen, weitermachen &ndash; irgendwie wird es sich kl\xe4ren. Dieser Impuls, Probleme nicht anzuschauen, bis sie nicht mehr zu \xfcbersehen sind, ist das Kernsymptom der ungesunden Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Konto 88888: Das Versteck der Tr\xe4gheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1992 er\xf6ffnet Leeson in Singapur ein internes Fehlerkonto &ndash; die Nummer 88888, in der chinesischen Kultur eine Gl\xfccksahl. Urspr\xfcnglich gedacht f\xfcr kleinere administrative Fehler. Bald wird es zum Versteck f\xfcr seine eigenen Handelsverluste. Leeson \xfcberweist Verluste auf dieses Konto und zeigt der Londoner Zentrale nur die Gewinne. Er lebte in zwei Welten: der offiziellen Welt, in der er ein Stern war, und der verborgenen Welt des Kontos, das wuchs und wuchs.</p>
+          <p class="vb-intro">Das ist die SO9-Mechanik auf der institutionellen Ebene: <em>das Bild aufrechterhalten, das die Gemeinschaft braucht</em>. Die Bank brauchte Gewinne. Er lieferte Gewinne. Was hinter der Fassade lag, durfte die Gemeinschaft nicht sehen &ndash; denn dann w\xe4re er nicht mehr einer von ihnen. Das Konto 88888 war nicht der Plan eines Betr\xfcgers. Es war das Versteck eines Mannes, der um jeden Preis dazugeh\xf6ren wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdbeben als Wendepunkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 17. Januar 1995 ersch\xfctterte das Erdbeben von Kobe Japan und die Finanzm\xe4rkte. Leeson hatte massiv auf eine Stabilisierung des Nikkei gesetzt. Der Nikkei st\xfcrzte ab. Seine Verluste explodierten auf ein Niveau, das kein weiteres Verstecken erlaubte. In wenigen Wochen wuchsen die Verluste auf 827 Millionen Pfund &ndash; mehr als doppelt so viel wie das verf\xfcgbare Kapital der Bank.</p>
+          <p class="vb-intro">Am 23. Februar 1995 hinterlie\xdf Leeson in seinem B\xfcro einen Zettel: <em>&bdquo;I'm sorry.&ldquo;</em> Dann floh er nach Malaysia, weiter nach Brunei, schlie\xdflich nach Frankfurt. Drei Tage sp\xe4ter wurde Barings Bank &ndash; 1762 gegr\xfcndet, \xe4lteste Merchant Bank Englands, Bankier der K\xf6nigsfamilie &ndash; f\xfcr insolvent erkl\xe4rt. Der B\xfcffel hatte die Herde nicht verlassen wollen &ndash; und riss sie mit sich in den Abgrund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verhaftung und Changi: Das erzwungene Innehalten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Leeson wurde in Frankfurt verhaftet, nach Singapur ausgeliefert und zu sechseinhalb Jahren Gef\xe4ngnis verurteilt. Das Changi-Gef\xe4ngnis ist bekannt f\xfcr seine Strenge. F\xfcr Leeson, der sich immer \xfcber Zugeh\xf6rigkeit definiert hatte, war die totale Isolation eine eigene Strafe.</p>
+          <p class="vb-intro">Im Gef\xe4ngnis erkrankte er an Dickdarmkrebs. Er wurde nach vier Jahren entlassen &ndash; krank, aber am Leben. Er schrieb seine Memoiren: <em>Rogue Trader</em> (1996), sp\xe4ter verfilmt mit Ewan McGregor in der Hauptrolle. Das Buch liest sich weniger wie die Beichte eines Betr\xfcgers als wie die Schilderung eines Mannes, der nie wirklich verstand, was mit ihm geschah. Ein typisches Neuner-Dokument: aufrichtige Verwirrung \xfcber die eigene Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Danach: Die Neun in ihrer zweiten Chance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seiner Entlassung 1999 wurde Leeson nicht zum R\xfcckzugs-Eremiten &ndash; er suchte wieder Zugeh\xf6rigkeit. Er heiratete erneut. Er wurde \xf6ffentlicher Redner zum Thema Risikomanagement und Unternehmenskultur. Er wurde Gesch\xe4ftsf\xfchrer des irischen Fu\xdfballclubs Galway United FC. Kein Luxusleben, keine Selbstisolation &ndash; neue Gemeinschaften, neue Zugeh\xf6rigkeiten.</p>
+          <p class="vb-intro">Das ist die gesunde Seite der SO9: die F\xe4higkeit, nach dem Zusammenbruch wieder Teil von etwas zu werden. Nicht durch Selbst\xfcberh\xf6hung, nicht durch Drama &ndash; sondern durch stilles, beharrliches Eingliedern in eine neue Struktur. Der B\xfcffel, der nach dem Sturm wieder in die Herde tritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Tiefenpsychologische Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) Naranjos SO9 &ndash; Teilhabe als Identit\xe4tsstrategie:</strong> Claudio Naranjo beschreibt die SO9 als den Subtyp, der die eigene Identit\xe4t in der Gemeinschaft aufl\xf6st. Leesons gesamtes Handeln war auf Zugeh\xf6rigkeit ausgerichtet &ndash; zu Barings, zum Team in Singapur, zum Bild des erfolgreichen Traders. Als dieses Bild in Gefahr geriet, konnte er es nicht aufgeben, ohne sich selbst aufzugeben.</p>
+          <p class="vb-intro"><strong>b) Der Unterschied zu anderen Finanzskandalen:</strong> Bernard Madoff (wahrscheinlich SO3) betrieb seinen Betrug kalt, bewusst, jahrzehntelang. Jordan Belfort (SX3) lebte seinen Exzess \xf6ffentlich und schamlos. Nick Leeson passt in kein dieser Bilder. Er war kein Narzisst. Er wollte keine Aufmerksamkeit. Er wollte nicht auffallen. Er wollte nur nicht scheitern &ndash; und verlor dabei alles. Das ist das Pr\xe4ziseste der ungesunden SO9: nicht b\xf6ser Wille, sondern Selbstaufl\xf6sung im falschen System.</p>
+          <p class="vb-intro"><strong>c) Der Achterfl\xfcgel als Verst\xe4rker:</strong> Ohne den Achterfl\xfcgel h\xe4tte die Neun vielleicht fr\xfcher aufgegeben oder Hilfe gesucht. Der Achterfl\xfcgel gab Leeson die Sturheit, weiterzumachen, die Verluste immer weiter zu verdoppeln, nie klein beizugeben. Er verwandelte die passive Tr\xe4gheit der Neun in eine aktive, beharrliche Katastrophe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">10. Was bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nick Leeson ist heute noch am Leben. Er h\xe4lt Vortr\xe4ge \xfcber Unternehmenskultur, \xdcberwachungsversagen und pers\xf6nliche Verantwortung. Er ist kein gebrochener Mann. Er ist ein Mann, der seine Geschichte versteht &ndash; und sie anderen verf\xfcgbar macht.</p>
+          <p class="vb-intro">Was sein Fall bleibt: das klarste dokumentierte Beispiel daf\xfcr, wie die Leidenschaft der Neun &ndash; Tr\xe4gheit als Selbstvergessenheit, als Nicht-Hinschauen, als Aufrechterhaltung des Gruppenbildes um jeden Preis &ndash; nicht nur ein pers\xf6nliches Schicksal, sondern eine Institution zerst\xf6ren kann. Der B\xfcffel, der schweigend tr\xe4gt &ndash; bis er bricht.</p>
+        </blockquote>
+
+        <div class="krim-portrait-footer">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Nick Leeson, geb. 25. Februar 1967, Watford, England</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO9w8 &ndash; Soziale Neun mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Tr\xe4gheit (Selbstvergessenheit, Nicht-Hinschauen)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> B\xfcffel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Zusammenbruch von Barings Bank 1995, Verlust von 827 Mio. Pfund</span>
+        </div>
+
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Neun im Vergleich: Wie Tr\xe4gheit bei SE9, SO9 und SX9 unterschiedlich wirkt &ndash; und warum Teilhabe als Lebensmuster zur Falle werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO9w8 im Profil: Zugeh\xf6rigkeit als Identit\xe4t, Sturheit als Schutzschicht &ndash; und was passiert, wenn das System versagt.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die Neun als Friedensstifter und Harmoniesucher &ndash; und wie Tr\xe4gheit als Selbstvergessenheit zum blinden Fleck wird.", "Wer du wirklich bist, Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Nick Leeson wurde 1995 in Singapur wegen Betrugs und F\u00e4lschung zu 6\u00bd Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-leslie-van-houten", label:"Kriminalpsychologie: Leslie Van Houten (SO9w1)"},
+          {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1)"},
+          {route:"subtypen-schaubilder", label:"Schaubild: Die 27 Subtypen im \xdcberblick"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
