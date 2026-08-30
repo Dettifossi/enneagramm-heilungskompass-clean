@@ -47370,7 +47370,7 @@ function enneagrammRadPage() {
         <h1 class="section-title">Enneagram Wheel</h1>
         <p class="psycho-intro">The classic Enneagram symbol as an interactive map: the hexad (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) and the triangle (3&ndash;9&ndash;6) show how the 9 types connect through stress and growth lines &ndash; and the circle itself shows the wing neighborhoods. Hover over a point (or tap it) to see its connections.</p>
 
-        <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
+        <div class="rad-layout">
           <div style="position:relative;width:100%;aspect-ratio:1;">
             <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
               <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />

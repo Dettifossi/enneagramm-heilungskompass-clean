@@ -2432,7 +2432,7 @@ function enneagrammRadPage() {
         <h1 class="section-title">Enneagramm-Rad</h1>
         <p class="psycho-intro">Das klassische Enneagramm-Symbol als interaktive Karte: Der Sechsstern (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) und das Dreieck (3&ndash;9&ndash;6) zeigen, wie die 9 Typen über Stress- und Wachstumslinien miteinander verbunden sind &ndash; und die Kreisbahn selbst zeigt die Flügel-Nachbarschaften. Fahre über einen Punkt (oder tippe darauf), um seine Verbindungen zu sehen.</p>
 
-        <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
+        <div class="rad-layout">
           <div style="position:relative;width:100%;aspect-ratio:1;">
             <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
               <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
