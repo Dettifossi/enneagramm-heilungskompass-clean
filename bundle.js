@@ -116561,7 +116561,7 @@ function grimmsMaerchenDer9TypenPage() {
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:0 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
         <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('grimm-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('grimm-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -116650,7 +116650,7 @@ function enneagrammEmotionalitaetPage() {
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
         <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('emo-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('emo-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -116740,7 +116740,7 @@ function enneagrammInstinktPage() {
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
         <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('ins-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -116830,7 +116830,7 @@ function enneagrammIntellektPage() {
 
       <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:1rem 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
         <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('int-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:var(--cream);color:var(--copper);text-decoration:none;border:1px solid var(--line);">Typ ${n}</a>`).join("")}
+        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('int-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
       </div>
 
       <div class="vb-section" style="max-width:100%;">
