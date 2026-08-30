@@ -32956,6 +32956,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gangaji – Sexuelle Vier mit Dreierflügel",
     teaser:"SX4w3 · geb. 1942. US-amerikanische spirituelle Lehrerin. Lehrerin, Aktivistin und Akupunkteurin, bevor sie 1990 in Indien H. W. L. Poonja (Papaji) begegnete, der ihr den Namen Gangaji gab. Gründerin der Gangaji Foundation, Autorin von ›You Are That!‹ und ›The Diamond in Your Pocket‹, bekannt für ihre Sprache der Sehnsucht und Intensität. Tierentsprechung: Chihuahua.",
     land:"USA", tags:["Sonstiges"], gender:"w"},
+  { route:"beruehmte-ryan-gosling", name:"Ryan Gosling", added:"2026-08-30", subtyp:"SX2w3",
+    heading:"Ryan Gosling – Sexuelle Zwei mit Dreierflügel",
+    teaser:"SX2w3 · geb. 1980. Kanadischer Schauspieler. Vom gemobbten Einzelgänger und Mickey-Mouse-Club-Kinderstar zum dreifach oscarnominierten Charakterdarsteller (›Half Nelson‹, ›La La Land‹, ›Barbie‹). Bekannt für seine bewusst private, familienzentrierte Beziehung mit Eva Mendes und eine vierjährige Karrierepause zugunsten seiner Töchter. Tierentsprechung: Kamel.",
+    land:"Kanada", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
@@ -45283,7 +45287,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Kamel",
     kernthema: "Ein ganzes Publikum in eine einzige, persönliche Begegnung verwandeln",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Maria Magdalena", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimität im Großen – aus vielen wird ein Einzelner",
@@ -45293,7 +45297,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt und gibt sich vollständig, ohne sich aufzudrängen",
         beschreibung: "Hingabe zeigt sich nicht als lautes Werben, sondern als beständiges, geduldiges Mittragen – im Dienst einer Verbindung, eines Weges, eines Partners, ohne dabei viel zurückzuverlangen.",
-        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war; Clueso, dessen musikalischer Stil erst durch die über Jahre gewachsene, enge Freundschaft mit DJ Malik und Steer M bei gemeinsamen Jam-Sessions in Jena wirklich Form annahm – kein Solo-Aufstieg, sondern ein Weg, der sich im engen Kontakt mit denen entwickelte, die ihn begleiteten."
+        beleg: "Matthias Schweighöfer, der als Regisseur ›seine Crew mitnimmt, als wäre jedes Set eine Gemeinschaft‹: ›Das Kamel zieht nicht einfach durch die Wüste. Es sorgt dafür, dass alle ankommen‹; Milow, der einen harten Song ›sanft weitertrug, bis er ankam‹; Anastasiia Metelkina, deren Paarlauf-Karriere buchstäblich auf gegenseitigem Tragen beruht: ›Zwei Körper müssen sich gegenseitig tragen … ein einziger Vertrauensbruch bedeutet den Sturz‹; Maria Magdalena, die unter dem Kreuz blieb, als andere flohen – ›Ich bleibe. Auch wenn du gehst‹ – und die half, den Leichnam zu salben, nicht aus Pflicht, sondern weil Nähe für sie nie an Bedingungen geknüpft war; Clueso, dessen musikalischer Stil erst durch die über Jahre gewachsene, enge Freundschaft mit DJ Malik und Steer M bei gemeinsamen Jam-Sessions in Jena wirklich Form annahm – kein Solo-Aufstieg, sondern ein Weg, der sich im engen Kontakt mit denen entwickelte, die ihn begleiteten; Ryan Gosling, der zwischen 2018 und 2022 vier Jahre lang seine Filmkarriere pausierte, um Zeit mit seinen Töchtern zu verbringen: ›Das Kamel trägt am meisten dann, wenn niemand zuschaut‹ – Hingabe, die sich nicht durch öffentliche Gesten beweist, sondern durch beständiges, geduldiges Dasein im Hintergrund."
       },
       {
         titel: "Speichert Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben",
@@ -73634,6 +73638,70 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function ryanGoslingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ryan-gosling-portrait.jpg" alt="Ryan Gosling" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ryan Gosling</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexuelle Zwei mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1980 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet. Ryan Gosling wurde 1980 in London, Ontario, geboren und war als Kind lange Zeit Außenseiter: gemobbt, ohne feste Freundschaften bis weit ins Teenageralter, zeitweise wegen eines Zwischenfalls in der ersten Klasse suspendiert. Seine Mutter entschied sich daraufhin für Homeschooling und förderte gezielt seine Leidenschaft fürs Schauspielern.</p>
+          <p class="vb-intro">Mit zwölf Jahren wurde er Mitglied im ›All New Mickey Mouse Club‹, gemeinsam mit späteren Weltstars wie Britney Spears und Justin Timberlake – ein früher Kinderstar-Status, der ihm noch nicht das erlaubte, was er später zu seinem eigentlichen Talent machen sollte: die leise, persönliche Verbindung zu einem Gegenüber, statt der lauten Bühnenpräsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verführung als persönliche Begegnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht. Genau diese Qualität wurde zu Goslings schauspielerischem Markenzeichen: In Filmen wie ›The Notebook‹ (2004), ›Blue Valentine‹ (2010) und ›Drive‹ (2011) erzeugt er eine Intensität, die das Kinopublikum nicht als Masse, sondern als Zeugen einer einzigen, sehr persönlichen Verbindung erleben lässt.</p>
+          <p class="vb-intro">Diese Fähigkeit, aus einer Filmrolle eine unmittelbare, elektrisierende Begegnung zu machen, statt bloß eine Figur zu spielen, ist kein Zufall, sondern die sexuelle Zwei in ihrer künstlerischen Form: Verführung nicht als Masche, sondern als natürliche Frequenz, die auch durch eine Kinoleinwand hindurch trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zum dreifach oscarnominierten Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus emotionaler Tiefe überprüfbaren, sichtbaren Erfolg zu formen. Nach dem Kinderstar-Image beim Mickey Mouse Club vollzog Gosling einen bewusst gesteuerten Imagewandel: Mit ›Half Nelson‹ (2006) kam die erste Oscar-Nominierung, mit ›La La Land‹ (2016) die zweite, mit der Rolle des Ken in ›Barbie‹ (2023) die dritte – ein über fast zwei Jahrzehnte gezielt ausgebauter Weg vom Teenie-Image zum ernstgenommenen Charakterdarsteller.</p>
+          <p class="vb-intro">Der Dreierflügel liefert dabei die Disziplin und die strategische Rollenwahl, die sexuelle Zwei darunter liefert die emotionale Substanz, die aus reiner Karriereplanung tatsächlich anerkannte schauspielerische Leistung macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die vierjährige Pause für die Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2011 lernte Gosling am Set von ›The Place Beyond the Pines‹ die Schauspielerin Eva Mendes kennen. Aus der Beziehung gingen zwei Töchter hervor, geboren 2014 und 2016. Zwischen 2018 und 2022 zog sich Gosling nahezu vollständig aus Hollywood zurück – vier Jahre, in denen er, wie er selbst in einem GQ-Interview sagte, so viel Zeit wie möglich mit seinen Kindern verbringen wollte.</p>
+          <p class="vb-intro">Die Beziehung selbst wird von beiden bewusst aus der Öffentlichkeit herausgehalten: Mendes erklärte, sie teile absichtlich nichts über ihn als Vater, um die Familie zu schützen, und sei lieber zu Hause bei ihrem Partner als irgendwo sonst auf der Welt. Diese Episode zeigt die typische SX2-Haltung: Hingabe, die sich nicht durch öffentliche Gesten beweist, sondern durch beständiges, geduldiges Tragen im Hintergrund – ohne sich dabei aufzudrängen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>totale emotionale Hingabe mit sichtbarer, anerkannter Leistung</strong> zu verbinden – Goslings Weg vom Mobbingopfer über den Kinderstar zum dreifach oscarnominierten Schauspieler zeigt, wie viel Wirkung entsteht, wenn Verletzlichkeit nicht versteckt, sondern in Rollen und Beziehungen investiert wird.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei besonders eng verknüpft mit der Frage, ob man für den einen wichtigen Menschen unentbehrlich genug ist. Genau dieses Thema griff Gosling in seiner bislang meistbeachteten Rolle selbst auf: Als Ken in ›Barbie‹ verkörperte er eine Figur, deren gesamte Identität sich auf ein einziges Merkmal reduziert und die ständige Zurückweisung erfährt – der Songtext von ›I'm Just Ken‹ bewegt sich von Selbstzweifel bis zur Zeile ›I'm just Ken, and I'm enough‹. Eine Rolle, die die Kernfrage der Zwei – bin ich auch ohne meinen Nutzen für andere genug? – auf die Bühne bringt, ohne dass damit über Goslings eigenes Innenleben etwas behauptet werden soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kamel, das trägt, ohne sich aufzudrängen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ryan Gosling gehört zu den anerkanntesten Charakterdarstellern seiner Generation – nicht wegen einer einzelnen spektakulären Rolle, sondern wegen eines über Jahrzehnte konsequent verfolgten Wegs vom belächelten Kinderstar zum dreifach oscarnominierten Schauspieler, der dieselbe Intensität in seine Rollen wie in sein Privatleben trägt.</p>
+          <p class="vb-intro">Vom gemobbten Einzelgänger über den Mickey-Mouse-Club bis zur vierjährigen Karrierepause für seine Töchter: Das ist die sexuelle Zwei mit Dreierflügel in ihrer reifsten Form – eine Hingabe, die trägt, ohne sich aufzudrängen, und eine Leistung, die sichtbar wird, ohne die eigentliche Verbindung dahinter zu verraten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
       ])}
     </div>
   `);
@@ -138565,6 +138633,7 @@ function render() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
+      "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
