@@ -45502,8 +45502,8 @@ function radInfoHtml(n) {
     </div>
     <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
     <div style="display:grid;gap:0.5rem;font-size:0.82rem;">
-      <div><span style="font-weight:700;color:#a00802;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">Unter Druck: ${RAD_STRESS_DESC[n]}</span></div>
-      <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">In Reife: ${RAD_GROWTH_DESC[n]}</span></div>
+      <div><span style="font-weight:700;color:#e0201b;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">Unter Druck: ${RAD_STRESS_DESC[n]}</span></div>
+      <div><span style="font-weight:700;color:#1e5631;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">In Reife: ${RAD_GROWTH_DESC[n]}</span></div>
       <div><span style="font-weight:700;color:var(--copper);">Flügel:</span> Typ ${wings[0]} (${kwLine(wings[0])}) &amp; Typ ${wings[1]} (${kwLine(wings[1])})</div>
     </div>
     <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Zum Typ ${n} im Kompass &rarr;</button>
