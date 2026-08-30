@@ -1,3 +1,177 @@
+function oshoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1931–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Osho</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-osho">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        Kette chronischer Beschwerden, eine zwölftägige Haft in den USA 1985 und eine bis
+        heute ungeklärte Kontroverse um seinen Tod 1990.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Osho</strong> ist der <strong>selbsterhaltenden Drei mit Viererflügel</strong>
+        zugeordnet. Die SE3 richtet den Erfolgsanspruch der Drei auf das eigene, konkrete
+        Funktionieren und die materielle Absicherung des eigenen Umfelds. Der Viererflügel
+        bringt eine ausgeprägte Neigung zur Dramatisierung und Bedeutungsaufladung des
+        eigenen Erlebens hinzu – ein Muster, das sich deutlich in der Art zeigt, wie Osho sein
+        eigenes Leiden öffentlich einordnete und deutete, statt es zu verschweigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Das eigene Leiden als öffentliche Erzählung:</strong>
+        Anders als Betroffene, die ihre Erkrankung verschweigen, machte Osho seinen
+        körperlichen Verfall selbst zum Thema seiner Diskurse – eine für die SE3w4 typische
+        Verbindung aus Funktionsanspruch und dramatischer Sinnzuschreibung.</p>
+        <p class="vb-intro"><strong>b) Funktionieren trotz chronischer Beschwerden:</strong>
+        Über Jahre hinweg hielt Osho trotz Diabetes, Asthma und starker Rückenschmerzen ein
+        intensives Vortrags- und Reisepensum aufrecht. Als er 1981 seinen indischen Ashram
+        verließ und in die USA übersiedelte, wo bald darauf die Kommune Rajneeshpuram in
+        Oregon entstand, wurde die Hoffnung auf bessere medizinische Versorgung explizit als
+        einer der Gründe für diesen Schritt genannt.</p>
+        <p class="vb-intro"><strong>c) Rückzug erst, als kein Funktionieren mehr möglich war:</strong>
+        Erst ab 1988 verengten sich seine Diskurse zunehmend, im April 1989 hielt er seinen
+        letzten öffentlichen Vortrag – ein später, fast widerstrebender Rückzug aus der
+        aktiven Rolle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Chronische Beschwerden seit den frühen 1970er-Jahren:</strong>
+        Während seiner Zeit in Bombay entwickelten sich bei Osho Diabetes, Asthma und diverse
+        Allergien, verstärkt durch das feuchte Klima – dazu kamen chronische
+        Rückenschmerzen, Erschöpfung und Schlaflosigkeit.</p>
+        <p class="vb-intro"><strong>b) Verhaftung im Oktober 1985:</strong>
+        Im Zuge der Auflösung seiner Kommune Rajneeshpuram in Oregon wurde Osho am 28.
+        Oktober 1985 in North Carolina festgenommen und über rund zwölf Tage durch mehrere
+        Gefängnisse transportiert, bevor er gegen eine Kaution von 500.000 Dollar
+        freikam und aus den USA ausgewiesen wurde.</p>
+        <p class="vb-intro"><strong>c) Neue Symptome nach der Rückkehr nach Indien:</strong>
+        Nach seiner Rückkehr Ende 1985 berichtete Osho über Appetitlosigkeit, Übelkeit und
+        ein Gefühl der Erschöpfung, das er selbst und sein engstes Umfeld nicht mehr auf die
+        früheren chronischen Beschwerden zurückführten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Vergiftungsthese:</strong>
+        Oshos persönliche Ärzte und sein Umfeld vermuteten öffentlich eine
+        Thallium-Vergiftung während der Haft, möglicherweise über eine bestrahlte Matratze.
+        Unabhängige toxikologische Beweise dafür wurden nie vorgelegt; ein US-Anwalt
+        bezeichnete die Behauptung als reine Fiktion.</p>
+        <p class="vb-intro"><strong>b) Ein kontinuierlicher Verfall ohne unabhängig dokumentierte Diagnose:</strong>
+        Zwischen 1987 und 1990 verschlechterte sich Oshos Gesundheitszustand nach
+        übereinstimmenden Berichten seines Umfelds kontinuierlich – belastbare, unabhängige
+        Arztberichte aus dieser Zeit sind öffentlich nicht zugänglich.</p>
+        <p class="vb-intro"><strong>c) Rückzug auf das reine Zusammensein:</strong>
+        Nach seinem letzten Diskurs im April 1989 saß Osho nur noch schweigend mit seinen
+        Anhängern zusammen, ohne weitere Vorträge zu halten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 19. Januar 1990:</strong>
+        Osho starb im Ashram in Pune, Indien, im Alter von 58 Jahren. Die Ärzte nannten
+        Herzversagen als Todesursache.</p>
+        <p class="vb-intro"><strong>b) Eine Todeserklärung, die die Vergiftungsthese aufgriff:</strong>
+        Der Ashram selbst rahmte den Tod in seiner offiziellen Erklärung als Spätfolge der
+        vermuteten Vergiftung – eine Deutung, die bis heute nicht unabhängig bestätigt ist.</p>
+        <p class="vb-intro"><strong>c) Spätere, ebenfalls ungeklärte Gegenvorwürfe:</strong>
+        Jahre später äußerten unter anderem der Journalist Abhay Vaidya und ein beteiligter
+        Arzt den Verdacht, Osho sei in seinen letzten Stunden vom Kontakt zu unabhängigen
+        Ärzten abgeschirmt worden – auch diese Vorwürfe blieben ohne forensische Klärung, es
+        ist zudem nicht dokumentiert, ob überhaupt eine Autopsie stattfand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die eigene Krankheitsgeschichte als letztes großes Narrativ:</strong>
+        Statt sein Leiden zu verbergen, verwandelte Osho es in eine öffentliche Erzählung von
+        Verfolgung und Widerstand – eine für die SE3w4 charakteristische Verschmelzung von
+        Selbstdarstellung und persönlichem Drama.</p>
+        <p class="vb-intro"><strong>b) Funktionsfähigkeit bis zur letzten möglichen Grenze:</strong>
+        Auch mit fortschreitendem Verfall hielt Osho so lange wie irgend möglich an seiner
+        Rolle als Sprecher fest, bevor er sie erst 1989 endgültig aufgab.</p>
+        <p class="vb-intro"><strong>c) Der Waschbär, der sein Revier bis zuletzt selbst gestaltete:</strong>
+        Selbst die Deutung des eigenen körperlichen Verfalls blieb bis zum Tod Teil seines
+        eigenen Narrativs – kein passives Erleiden, sondern eine aktiv mitgeprägte Erzählung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine chronische Vorgeschichte seit den frühen 1970ern:</strong>
+        Diabetes, Asthma und Rückenschmerzen begleiteten Osho fast zwei Jahrzehnte, bevor sie
+        1985 durch die Haft eine dramatische neue Wendung erhielten.</p>
+        <p class="vb-intro"><strong>b) Ein Wendepunkt, dessen Ursache bis heute umstritten ist:</strong>
+        Ob die Verschlechterung nach 1985 tatsächlich auf eine Vergiftung während der Haft
+        zurückgeht oder eine Fortsetzung der bereits jahrzehntelangen chronischen Beschwerden
+        war, lässt sich anhand der öffentlich zugänglichen Quellen nicht abschließend klären.</p>
+        <p class="vb-intro"><strong>c) Ein Tod mit drei konkurrierenden Deutungen:</strong>
+        Die offizielle Diagnose Herzversagen, die Vergiftungsdeutung des Ashrams und die
+        späteren Vorwürfe der Isolation in den letzten Stunden stehen bis heute unversöhnt
+        nebeneinander – keine davon ist forensisch bestätigt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Krankheitsgeschichte voller Deutungen?</strong>
+        Für eine selbsterhaltende Drei mit Viererflügel, deren gesamtes Wirken auf der
+        eigenen, bedeutungsvoll erzählten Geschichte beruhte, liegt eine Deutung nahe: Selbst
+        der eigene körperliche Verfall wurde zu einem Text, der interpretiert, gedeutet und
+        weitererzählt werden musste – eine Krankheit, die sich nie auf einen einzigen,
+        nüchternen medizinischen Befund reduzieren ließ, sondern bis zuletzt Teil der großen
+        Erzählung von Verfolgung und Bedeutung blieb. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        chronischen Erkrankungen oder umstrittenen Todesumständen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Oshos Fall zeigen lässt, ist ein Muster, das bei der Verschmelzung von
+        persönlichem Leiden und öffentlicher Selbstdeutung in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+Osho kannte das Enneagramm als Lehrsystem sehr genau und griff es in eigenen Vorträgen wiederholt auf – seine bekannte Kernaussage dazu lautete sinngemäß, das Enneagramm zeige die neun Krankheiten des Ego, doch die einzige Heilung dafür sei Meditation. Genau diese Haltung – die eigene Kategorie theoretisch zu kennen, die Landkarte für sich selbst aber für überwunden zu halten, weil man ›am Ziel‹ sei – kann die eigentliche Selbsterkenntnis eher erschweren als erleichtern, gerade bei jemandem mit ausgeprägtem Kultstatus. Ob Osho sein eigenes Muster in der Tiefe tatsächlich erkannte oder es eher nur ahnte, lässt sich nicht abschließend sagen; seine wiederkehrenden, nie ganz aufgeklärten körperlichen Beschwerden legen eher nahe, dass Wissen über ein System nicht automatisch mit echter Selbsterkenntnis gleichzusetzen ist – vor allem dann nicht, wenn das eigene spirituelle Ego mitspielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Was <strong>Osho</strong> als selbsterhaltende Drei mit Viererflügel prägte, kehrt in
+        seiner eigenen Krankengeschichte noch einmal wieder: chronische Beschwerden über Jahrzehnte, eine
+        dramatische Zäsur durch Haft und behauptete Vergiftung, und ein Tod 1990, dessen
+        Ursache bis heute zwischen drei konkurrierenden Erzählungen schwankt. Der Waschbär,
+        der selbst im eigenen Verfall die Deutungshoheit über die eigene Geschichte nicht
+        aus der Hand gab.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsporträt: Bernie Madoff (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
 function marilynMonroeKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13120,81 +13294,6 @@ function enneagrammBibelPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"},
         {route:"krankheitsportraets", label:"Krankheitsporträts"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass"},
-      ])}
-    </div>
-  `);
-}
-
-function josefVonArimathaeaPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Josef von Arimathäa – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Josef von Arimathäa</p>
-        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Ratsherr aus Arimathäa – Tierentsprechung: Adler</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Dein Vater, der ins Verborgene sieht, wird es dir vergelten.« (Mt 6,6)</p>
-
-        <h2 class="vb-section">1. Der Adler</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Einzelgänger, der nicht durch Auftritt auffällt, sondern durch Genauigkeit. Josef von Arimathäa liebte den Morgen – nicht den, an dem alles erblühte, sondern den unscheinbaren, in Grautönen, der noch keine Entscheidung forderte. Er war wach, bevor der Tag Licht zeigte. Immer. Die erste Handlung: Wasser schöpfen aus der Schale, nicht hastig, nicht zögerlich – ein kleines Ritual, das niemand sah, aber alles in Ordnung brachte.</p>
-          <p class="vb-intro">Er war ein Mann der leisen Schritte, den man nicht durch Auftritt, sondern durch Genauigkeit erinnerte. Er lebte allein – nicht aus Einsamkeit, sondern aus Klugheit. Gesellschaft brachte Unruhe, Lärm, Versäumnisse: ein Gast, der den Krug nie wieder an den Ort zurückstellte, wo er vorher gestanden hatte. Für Josef war Ordnung kein Zwang, sondern Respekt – eine stille Verneigung vor dem Leben, der Unterschied zwischen Unachtsamkeit und Würde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Eins: Würde als stiller Maßstab</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man dem eigenen Maßstab wirklich gerecht wird. Josef war kein Mann, der andere korrigierte. Er ordnete nicht die Welt, sondern sich selbst, Tag für Tag, Schritt für Schritt – jede Schriftrolle sorgfältig gebündelt, jede Markierung nicht für andere gesetzt, sondern für ihn selbst.</p>
-          <p class="vb-intro">Diese innere Strenge zeigte sich, als die Nachricht von Jesu Tod ihn erreichte. Ein Gekreuzigter galt nach dem Gesetz als unrein, verflucht – und ausgerechnet zur neunten Stunde, kurz vor dem Rüsttag, an dem ein Jude nichts Unreines mehr anfassen durfte. Josef spürte, wie das Gesetz in dieser Stunde klein wurde – nicht falsch, aber zu eng für das, was jetzt Wahrheit war. Kein lauter Bruch mit der Tradition, sondern die stille, unerbittliche Gewissheit einer Eins, die weiß, wann der eigene innere Maßstab höher steht als die äußere Regel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Neunerflügel: Zurückhaltung, die im entscheidenden Moment weicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins eine Sehnsucht nach Frieden, Rückzug und Konfliktvermeidung. Josef war kein politischer Mensch. Er kannte die Mechanismen der Macht, ihre Sprache, ihre Maske – und hatte gelernt, mit Vorsicht zu sprechen, wenn es um Rom ging. Ein Mann, der sich nicht in die Debatten um Jesus verwickeln ließ, der kein Wunder öffentlich bezeugte, sondern einmal, nur einmal, zuhörte – nicht wegen eines Satzes, sondern wegen einer Pause, in der plötzlich alles still wurde, weil der Sprechende wusste, was er sagte.</p>
-          <p class="vb-intro">Doch als es darauf ankam, trat genau dieser zurückhaltende Mann vor Pilatus – ohne Taktik, ohne Rückendeckung des Hohen Rats, der sich bereits zurückgezogen hatte. »Ich bitte nicht um seine Botschaft. Ich bitte um seinen Körper.« Das ist die stille Kraft der SE1w9: Sie sucht den Streit nicht, aber wenn eine Sache das eigene, unverhandelbare Gewissen berührt, verlässt sie ihre Zurückhaltung – einmalig, entschlossen, ohne Umwege.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Tat: Vor Pilatus und das eigene Grab</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Josef ging zu Pilatus, ohne zu essen, ohne einen Knecht, ohne ein Wort zu viel. Pilatus gab nach: »Nehmt ihn. Aber sorgt dafür, dass es schnell geschieht.« Josef trug das mitgebrachte Leinentuch – das bestbewahrte, das er sich einst für besondere Anlässe oder, in stillen Gedanken, für sich selbst aufgehoben hatte – zusammen mit einem Gefäß Myrrhe zum Hügel Golgatha. Er reinigte das Gesicht, salbte Stirn und Hände, wickelte den Körper sorgfältig ein: Du bist gesehen. Du wirst nicht im Vergessen enden.</p>
-          <p class="vb-intro">Das Grab, in das er Jesus bettete, war ein Felsengrab, das Josef einst für sich selbst hatte ausheben lassen – ruhig, lichtgeschützt, von Kräutern umgeben. Ein Platz der Würde, der an diesem Tag seinem Namen gerecht wurde. Er trat zurück, die Hände gefaltet, nicht im Gebet, sondern in Dankbarkeit – nicht für das Geschehene, sondern dafür, dass er nicht gezögert hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Nachhall: Das innere Gesetz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">In der Nacht danach konnte Josef nicht schlafen – nicht aus Zweifel, sondern weil sein Innerstes weiterdachte. Er hatte getan, was kein anderer getan hatte, und empfand doch keinen Stolz. Er war kein Mystiker, kein Prophet. Er glaubte an das, was sichtbar ist – aber er spürte, dass sich hier etwas Unsichtbares ereignet hatte, jenseits von Gesetz, Ritus und Rollen.</p>
-          <p class="vb-intro">In dieser Nacht spürte er vielleicht zum ersten Mal: Nicht alles muss verstanden werden. Manches muss nur getan werden – im Stillen, im Verborgenen, im Vertrauen darauf, dass das Richtige seinen eigenen Klang hat. Das ist das Geschenk der SE1w9: eine Würde, die keine Bühne braucht, um wahr zu sein.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Lied: In stiller Hand</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Josef von Arimathäa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In stiller Hand – Josef von Arimathäa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die Grundlage dieser Rubrik als vollständiger psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
-        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
-        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
       ])}
     </div>
   `);

@@ -4883,6 +4883,7 @@ function render() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
+      "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

@@ -975,6 +975,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gangaji – Sexual Four",
     teaser:"SX4w3 · b. 1942. American spiritual teacher. Teacher, activist, and acupuncturist before meeting H. W. L. Poonja (Papaji) in India in 1990, who gave her the name Gangaji. Founder of the Gangaji Foundation, author of \"You Are That!\" and \"The Diamond in Your Pocket,\" known for her language of longing and intensity. Animal correspondence: Chihuahua.",
     land:"USA", tags:["Sonstiges"], gender:"f"},
+{ route:"beruehmte-ryan-gosling", name:"Ryan Gosling", added:"2026-08-30", subtyp:"SX2w3",
+    heading:"Ryan Gosling – Sexual Two",
+    teaser:"SX2w3 · b. 1980. Canadian actor. From bullied loner and Mickey Mouse Club child star to three-time Oscar-nominated character actor (\"Half Nelson,\" \"La La Land,\" \"Barbie\"). Known for his deliberately private, family-centered relationship with Eva Mendes and a four-year career break for his daughters. Animal correspondence: Camel.",
+    land:"Canada", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
@@ -44755,6 +44759,70 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function ryanGoslingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ryan-gosling-portrait.jpg" alt="Ryan Gosling" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ryan Gosling</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Two with Three-wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1980 &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two – an animal that can carry a great deal without putting it on display, and that offers closeness rather than demanding it. Ryan Gosling was born in 1980 in London, Ontario, and spent much of his childhood as an outsider: bullied, without steady friendships well into his teens, and at one point suspended over an incident in first grade. His mother responded by homeschooling him and deliberately nurturing his passion for acting.</p>
+          <p class="vb-intro">At twelve he joined "The All-New Mickey Mouse Club" alongside future superstars Britney Spears and Justin Timberlake – an early child-star status that did not yet allow for what would later become his real talent: the quiet, personal connection to another person, rather than loud stage presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: Seduction as Personal Encounter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Two (SX2)</strong> directs the Two's energy not toward the large group, as the Social Two does, but toward the direct, personal space between two people. Naranjo called this subtype <em>Aggression/Seduction</em> – an active, forward-moving approach toward the other, rather than waiting for connection to arise on its own. This exact quality became Gosling's acting signature: in films such as "The Notebook" (2004), "Blue Valentine" (2010), and "Drive" (2011), he creates an intensity that lets the audience experience itself not as a mass, but as witness to one single, deeply personal connection.</p>
+          <p class="vb-intro">This ability to turn a film role into an immediate, electrifying encounter rather than merely playing a character is no accident, but the Sexual Two in its artistic form: seduction not as a technique, but as a natural frequency that carries even through a movie screen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Child Star to Three-Time Oscar Nominee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape emotional depth into verifiable, visible success. After his child-star image with the Mickey Mouse Club, Gosling underwent a deliberately managed reinvention: "Half Nelson" (2006) brought his first Oscar nomination, "La La Land" (2016) his second, and his role as Ken in "Barbie" (2023) his third – a path built with intent over nearly two decades, from teen idol to serious character actor.</p>
+          <p class="vb-intro">The Three-wing supplies the discipline and strategic choice of roles; the Sexual Two underneath supplies the emotional substance that turns pure career planning into genuinely recognized acting achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four-Year Break for Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2011, Gosling met actress Eva Mendes on the set of "The Place Beyond the Pines." The relationship produced two daughters, born in 2014 and 2016. Between 2018 and 2022, Gosling withdrew from Hollywood almost entirely – four years during which, as he said himself in a GQ interview, he wanted to spend as much time as possible with his children.</p>
+          <p class="vb-intro">The relationship itself is deliberately kept out of the public eye by both: Mendes has said she intentionally shares nothing about him as a father, in order to protect their family, and that she would rather be at home with her partner than anywhere else in the world. This episode shows the typical SX2 stance: devotion that proves itself not through public gestures, but through steady, patient carrying in the background – without ever imposing itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>combine total emotional devotion with visible, recognized achievement</strong> – Gosling's path from bullying victim through child star to three-time Oscar-nominated actor shows how much impact vulnerability can have once it is invested in roles and relationships rather than hidden away.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – in the Sexual Two, especially bound up with the question of whether one is indispensable enough to the one person who matters most. Gosling took up exactly this theme in his most acclaimed role to date: as Ken in "Barbie," he embodied a character whose entire identity is reduced to a single trait and who experiences constant rejection – the lyrics of "I'm Just Ken" move from self-doubt to the line "I'm just Ken, and I'm enough." A role that brings the Two's core question – am I enough even without my usefulness to others? – onto the stage, without this claiming to reveal anything about Gosling's own inner life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Camel That Carries Without Imposing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ryan Gosling is among the most respected character actors of his generation – not because of a single spectacular role, but because of a path pursued consistently over decades, from underestimated child star to three-time Oscar nominee, who carries the same intensity into his roles as into his private life.</p>
+          <p class="vb-intro">From bullied loner, through the Mickey Mouse Club, to a four-year career break for his daughters: this is the Sexual Two with a Three-wing in its most mature form – a devotion that carries without imposing, and an achievement that becomes visible without betraying the actual connection behind it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"lebensmusterkompass/sx2", label:"Life Pattern Compass: SX2 – The Camel"},
+      ])}
+    </div>
+  `);
+}
+
 function gangajiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47304,7 +47372,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -47314,7 +47382,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -102839,6 +102907,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
+      "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

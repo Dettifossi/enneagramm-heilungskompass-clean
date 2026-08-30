@@ -1,3 +1,78 @@
+function josefVonArimathaeaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Josef von Arimathäa – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Josef von Arimathäa</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Ratsherr aus Arimathäa – Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Dein Vater, der ins Verborgene sieht, wird es dir vergelten.« (Mt 6,6)</p>
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Einzelgänger, der nicht durch Auftritt auffällt, sondern durch Genauigkeit. Josef von Arimathäa liebte den Morgen – nicht den, an dem alles erblühte, sondern den unscheinbaren, in Grautönen, der noch keine Entscheidung forderte. Er war wach, bevor der Tag Licht zeigte. Immer. Die erste Handlung: Wasser schöpfen aus der Schale, nicht hastig, nicht zögerlich – ein kleines Ritual, das niemand sah, aber alles in Ordnung brachte.</p>
+          <p class="vb-intro">Er war ein Mann der leisen Schritte, den man nicht durch Auftritt, sondern durch Genauigkeit erinnerte. Er lebte allein – nicht aus Einsamkeit, sondern aus Klugheit. Gesellschaft brachte Unruhe, Lärm, Versäumnisse: ein Gast, der den Krug nie wieder an den Ort zurückstellte, wo er vorher gestanden hatte. Für Josef war Ordnung kein Zwang, sondern Respekt – eine stille Verneigung vor dem Leben, der Unterschied zwischen Unachtsamkeit und Würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Würde als stiller Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man dem eigenen Maßstab wirklich gerecht wird. Josef war kein Mann, der andere korrigierte. Er ordnete nicht die Welt, sondern sich selbst, Tag für Tag, Schritt für Schritt – jede Schriftrolle sorgfältig gebündelt, jede Markierung nicht für andere gesetzt, sondern für ihn selbst.</p>
+          <p class="vb-intro">Diese innere Strenge zeigte sich, als die Nachricht von Jesu Tod ihn erreichte. Ein Gekreuzigter galt nach dem Gesetz als unrein, verflucht – und ausgerechnet zur neunten Stunde, kurz vor dem Rüsttag, an dem ein Jude nichts Unreines mehr anfassen durfte. Josef spürte, wie das Gesetz in dieser Stunde klein wurde – nicht falsch, aber zu eng für das, was jetzt Wahrheit war. Kein lauter Bruch mit der Tradition, sondern die stille, unerbittliche Gewissheit einer Eins, die weiß, wann der eigene innere Maßstab höher steht als die äußere Regel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Zurückhaltung, die im entscheidenden Moment weicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins eine Sehnsucht nach Frieden, Rückzug und Konfliktvermeidung. Josef war kein politischer Mensch. Er kannte die Mechanismen der Macht, ihre Sprache, ihre Maske – und hatte gelernt, mit Vorsicht zu sprechen, wenn es um Rom ging. Ein Mann, der sich nicht in die Debatten um Jesus verwickeln ließ, der kein Wunder öffentlich bezeugte, sondern einmal, nur einmal, zuhörte – nicht wegen eines Satzes, sondern wegen einer Pause, in der plötzlich alles still wurde, weil der Sprechende wusste, was er sagte.</p>
+          <p class="vb-intro">Doch als es darauf ankam, trat genau dieser zurückhaltende Mann vor Pilatus – ohne Taktik, ohne Rückendeckung des Hohen Rats, der sich bereits zurückgezogen hatte. »Ich bitte nicht um seine Botschaft. Ich bitte um seinen Körper.« Das ist die stille Kraft der SE1w9: Sie sucht den Streit nicht, aber wenn eine Sache das eigene, unverhandelbare Gewissen berührt, verlässt sie ihre Zurückhaltung – einmalig, entschlossen, ohne Umwege.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Tat: Vor Pilatus und das eigene Grab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Josef ging zu Pilatus, ohne zu essen, ohne einen Knecht, ohne ein Wort zu viel. Pilatus gab nach: »Nehmt ihn. Aber sorgt dafür, dass es schnell geschieht.« Josef trug das mitgebrachte Leinentuch – das bestbewahrte, das er sich einst für besondere Anlässe oder, in stillen Gedanken, für sich selbst aufgehoben hatte – zusammen mit einem Gefäß Myrrhe zum Hügel Golgatha. Er reinigte das Gesicht, salbte Stirn und Hände, wickelte den Körper sorgfältig ein: Du bist gesehen. Du wirst nicht im Vergessen enden.</p>
+          <p class="vb-intro">Das Grab, in das er Jesus bettete, war ein Felsengrab, das Josef einst für sich selbst hatte ausheben lassen – ruhig, lichtgeschützt, von Kräutern umgeben. Ein Platz der Würde, der an diesem Tag seinem Namen gerecht wurde. Er trat zurück, die Hände gefaltet, nicht im Gebet, sondern in Dankbarkeit – nicht für das Geschehene, sondern dafür, dass er nicht gezögert hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Nachhall: Das innere Gesetz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Nacht danach konnte Josef nicht schlafen – nicht aus Zweifel, sondern weil sein Innerstes weiterdachte. Er hatte getan, was kein anderer getan hatte, und empfand doch keinen Stolz. Er war kein Mystiker, kein Prophet. Er glaubte an das, was sichtbar ist – aber er spürte, dass sich hier etwas Unsichtbares ereignet hatte, jenseits von Gesetz, Ritus und Rollen.</p>
+          <p class="vb-intro">In dieser Nacht spürte er vielleicht zum ersten Mal: Nicht alles muss verstanden werden. Manches muss nur getan werden – im Stillen, im Verborgenen, im Vertrauen darauf, dass das Richtige seinen eigenen Klang hat. Das ist das Geschenk der SE1w9: eine Würde, die keine Bühne braucht, um wahr zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Lied: In stiller Hand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Josef von Arimathäa ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In stiller Hand – Josef von Arimathäa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die Grundlage dieser Rubrik als vollständiger psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function rubenSchriftgelehrterPage() {
   return shell(`
     <div class="page-container">

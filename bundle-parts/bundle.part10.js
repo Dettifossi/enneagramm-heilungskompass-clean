@@ -820,6 +820,70 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function ryanGoslingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ryan-gosling-portrait.jpg" alt="Ryan Gosling" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ryan Gosling</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexuelle Zwei mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1980 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet. Ryan Gosling wurde 1980 in London, Ontario, geboren und war als Kind lange Zeit Außenseiter: gemobbt, ohne feste Freundschaften bis weit ins Teenageralter, zeitweise wegen eines Zwischenfalls in der ersten Klasse suspendiert. Seine Mutter entschied sich daraufhin für Homeschooling und förderte gezielt seine Leidenschaft fürs Schauspielern.</p>
+          <p class="vb-intro">Mit zwölf Jahren wurde er Mitglied im ›All New Mickey Mouse Club‹, gemeinsam mit späteren Weltstars wie Britney Spears und Justin Timberlake – ein früher Kinderstar-Status, der ihm noch nicht das erlaubte, was er später zu seinem eigentlichen Talent machen sollte: die leise, persönliche Verbindung zu einem Gegenüber, statt der lauten Bühnenpräsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verführung als persönliche Begegnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht. Genau diese Qualität wurde zu Goslings schauspielerischem Markenzeichen: In Filmen wie ›The Notebook‹ (2004), ›Blue Valentine‹ (2010) und ›Drive‹ (2011) erzeugt er eine Intensität, die das Kinopublikum nicht als Masse, sondern als Zeugen einer einzigen, sehr persönlichen Verbindung erleben lässt.</p>
+          <p class="vb-intro">Diese Fähigkeit, aus einer Filmrolle eine unmittelbare, elektrisierende Begegnung zu machen, statt bloß eine Figur zu spielen, ist kein Zufall, sondern die sexuelle Zwei in ihrer künstlerischen Form: Verführung nicht als Masche, sondern als natürliche Frequenz, die auch durch eine Kinoleinwand hindurch trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zum dreifach oscarnominierten Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus emotionaler Tiefe überprüfbaren, sichtbaren Erfolg zu formen. Nach dem Kinderstar-Image beim Mickey Mouse Club vollzog Gosling einen bewusst gesteuerten Imagewandel: Mit ›Half Nelson‹ (2006) kam die erste Oscar-Nominierung, mit ›La La Land‹ (2016) die zweite, mit der Rolle des Ken in ›Barbie‹ (2023) die dritte – ein über fast zwei Jahrzehnte gezielt ausgebauter Weg vom Teenie-Image zum ernstgenommenen Charakterdarsteller.</p>
+          <p class="vb-intro">Der Dreierflügel liefert dabei die Disziplin und die strategische Rollenwahl, die sexuelle Zwei darunter liefert die emotionale Substanz, die aus reiner Karriereplanung tatsächlich anerkannte schauspielerische Leistung macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die vierjährige Pause für die Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2011 lernte Gosling am Set von ›The Place Beyond the Pines‹ die Schauspielerin Eva Mendes kennen. Aus der Beziehung gingen zwei Töchter hervor, geboren 2014 und 2016. Zwischen 2018 und 2022 zog sich Gosling nahezu vollständig aus Hollywood zurück – vier Jahre, in denen er, wie er selbst in einem GQ-Interview sagte, so viel Zeit wie möglich mit seinen Kindern verbringen wollte.</p>
+          <p class="vb-intro">Die Beziehung selbst wird von beiden bewusst aus der Öffentlichkeit herausgehalten: Mendes erklärte, sie teile absichtlich nichts über ihn als Vater, um die Familie zu schützen, und sei lieber zu Hause bei ihrem Partner als irgendwo sonst auf der Welt. Diese Episode zeigt die typische SX2-Haltung: Hingabe, die sich nicht durch öffentliche Gesten beweist, sondern durch beständiges, geduldiges Tragen im Hintergrund – ohne sich dabei aufzudrängen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>totale emotionale Hingabe mit sichtbarer, anerkannter Leistung</strong> zu verbinden – Goslings Weg vom Mobbingopfer über den Kinderstar zum dreifach oscarnominierten Schauspieler zeigt, wie viel Wirkung entsteht, wenn Verletzlichkeit nicht versteckt, sondern in Rollen und Beziehungen investiert wird.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei besonders eng verknüpft mit der Frage, ob man für den einen wichtigen Menschen unentbehrlich genug ist. Genau dieses Thema griff Gosling in seiner bislang meistbeachteten Rolle selbst auf: Als Ken in ›Barbie‹ verkörperte er eine Figur, deren gesamte Identität sich auf ein einziges Merkmal reduziert und die ständige Zurückweisung erfährt – der Songtext von ›I'm Just Ken‹ bewegt sich von Selbstzweifel bis zur Zeile ›I'm just Ken, and I'm enough‹. Eine Rolle, die die Kernfrage der Zwei – bin ich auch ohne meinen Nutzen für andere genug? – auf die Bühne bringt, ohne dass damit über Goslings eigenes Innenleben etwas behauptet werden soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kamel, das trägt, ohne sich aufzudrängen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ryan Gosling gehört zu den anerkanntesten Charakterdarstellern seiner Generation – nicht wegen einer einzelnen spektakulären Rolle, sondern wegen eines über Jahrzehnte konsequent verfolgten Wegs vom belächelten Kinderstar zum dreifach oscarnominierten Schauspieler, der dieselbe Intensität in seine Rollen wie in sein Privatleben trägt.</p>
+          <p class="vb-intro">Vom gemobbten Einzelgänger über den Mickey-Mouse-Club bis zur vierjährigen Karrierepause für seine Töchter: Das ist die sexuelle Zwei mit Dreierflügel in ihrer reifsten Form – eine Hingabe, die trägt, ohne sich aufzudrängen, und eine Leistung, die sichtbar wird, ohne die eigentliche Verbindung dahinter zu verraten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
+      ])}
+    </div>
+  `);
+}
+
 function gangajiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10426,180 +10490,6 @@ function elvisPresleyKrankheitsportraetPage() {
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
-      ])}
-    </div>
-  `);
-}
-
-function oshoKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Osho</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1931–1990</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Waschbär</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Osho</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-osho">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
-        Kette chronischer Beschwerden, eine zwölftägige Haft in den USA 1985 und eine bis
-        heute ungeklärte Kontroverse um seinen Tod 1990.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Osho</strong> ist der <strong>selbsterhaltenden Drei mit Viererflügel</strong>
-        zugeordnet. Die SE3 richtet den Erfolgsanspruch der Drei auf das eigene, konkrete
-        Funktionieren und die materielle Absicherung des eigenen Umfelds. Der Viererflügel
-        bringt eine ausgeprägte Neigung zur Dramatisierung und Bedeutungsaufladung des
-        eigenen Erlebens hinzu – ein Muster, das sich deutlich in der Art zeigt, wie Osho sein
-        eigenes Leiden öffentlich einordnete und deutete, statt es zu verschweigen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Das eigene Leiden als öffentliche Erzählung:</strong>
-        Anders als Betroffene, die ihre Erkrankung verschweigen, machte Osho seinen
-        körperlichen Verfall selbst zum Thema seiner Diskurse – eine für die SE3w4 typische
-        Verbindung aus Funktionsanspruch und dramatischer Sinnzuschreibung.</p>
-        <p class="vb-intro"><strong>b) Funktionieren trotz chronischer Beschwerden:</strong>
-        Über Jahre hinweg hielt Osho trotz Diabetes, Asthma und starker Rückenschmerzen ein
-        intensives Vortrags- und Reisepensum aufrecht. Als er 1981 seinen indischen Ashram
-        verließ und in die USA übersiedelte, wo bald darauf die Kommune Rajneeshpuram in
-        Oregon entstand, wurde die Hoffnung auf bessere medizinische Versorgung explizit als
-        einer der Gründe für diesen Schritt genannt.</p>
-        <p class="vb-intro"><strong>c) Rückzug erst, als kein Funktionieren mehr möglich war:</strong>
-        Erst ab 1988 verengten sich seine Diskurse zunehmend, im April 1989 hielt er seinen
-        letzten öffentlichen Vortrag – ein später, fast widerstrebender Rückzug aus der
-        aktiven Rolle.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Chronische Beschwerden seit den frühen 1970er-Jahren:</strong>
-        Während seiner Zeit in Bombay entwickelten sich bei Osho Diabetes, Asthma und diverse
-        Allergien, verstärkt durch das feuchte Klima – dazu kamen chronische
-        Rückenschmerzen, Erschöpfung und Schlaflosigkeit.</p>
-        <p class="vb-intro"><strong>b) Verhaftung im Oktober 1985:</strong>
-        Im Zuge der Auflösung seiner Kommune Rajneeshpuram in Oregon wurde Osho am 28.
-        Oktober 1985 in North Carolina festgenommen und über rund zwölf Tage durch mehrere
-        Gefängnisse transportiert, bevor er gegen eine Kaution von 500.000 Dollar
-        freikam und aus den USA ausgewiesen wurde.</p>
-        <p class="vb-intro"><strong>c) Neue Symptome nach der Rückkehr nach Indien:</strong>
-        Nach seiner Rückkehr Ende 1985 berichtete Osho über Appetitlosigkeit, Übelkeit und
-        ein Gefühl der Erschöpfung, das er selbst und sein engstes Umfeld nicht mehr auf die
-        früheren chronischen Beschwerden zurückführten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Die Vergiftungsthese:</strong>
-        Oshos persönliche Ärzte und sein Umfeld vermuteten öffentlich eine
-        Thallium-Vergiftung während der Haft, möglicherweise über eine bestrahlte Matratze.
-        Unabhängige toxikologische Beweise dafür wurden nie vorgelegt; ein US-Anwalt
-        bezeichnete die Behauptung als reine Fiktion.</p>
-        <p class="vb-intro"><strong>b) Ein kontinuierlicher Verfall ohne unabhängig dokumentierte Diagnose:</strong>
-        Zwischen 1987 und 1990 verschlechterte sich Oshos Gesundheitszustand nach
-        übereinstimmenden Berichten seines Umfelds kontinuierlich – belastbare, unabhängige
-        Arztberichte aus dieser Zeit sind öffentlich nicht zugänglich.</p>
-        <p class="vb-intro"><strong>c) Rückzug auf das reine Zusammensein:</strong>
-        Nach seinem letzten Diskurs im April 1989 saß Osho nur noch schweigend mit seinen
-        Anhängern zusammen, ohne weitere Vorträge zu halten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Tod am 19. Januar 1990:</strong>
-        Osho starb im Ashram in Pune, Indien, im Alter von 58 Jahren. Die Ärzte nannten
-        Herzversagen als Todesursache.</p>
-        <p class="vb-intro"><strong>b) Eine Todeserklärung, die die Vergiftungsthese aufgriff:</strong>
-        Der Ashram selbst rahmte den Tod in seiner offiziellen Erklärung als Spätfolge der
-        vermuteten Vergiftung – eine Deutung, die bis heute nicht unabhängig bestätigt ist.</p>
-        <p class="vb-intro"><strong>c) Spätere, ebenfalls ungeklärte Gegenvorwürfe:</strong>
-        Jahre später äußerten unter anderem der Journalist Abhay Vaidya und ein beteiligter
-        Arzt den Verdacht, Osho sei in seinen letzten Stunden vom Kontakt zu unabhängigen
-        Ärzten abgeschirmt worden – auch diese Vorwürfe blieben ohne forensische Klärung, es
-        ist zudem nicht dokumentiert, ob überhaupt eine Autopsie stattfand.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die eigene Krankheitsgeschichte als letztes großes Narrativ:</strong>
-        Statt sein Leiden zu verbergen, verwandelte Osho es in eine öffentliche Erzählung von
-        Verfolgung und Widerstand – eine für die SE3w4 charakteristische Verschmelzung von
-        Selbstdarstellung und persönlichem Drama.</p>
-        <p class="vb-intro"><strong>b) Funktionsfähigkeit bis zur letzten möglichen Grenze:</strong>
-        Auch mit fortschreitendem Verfall hielt Osho so lange wie irgend möglich an seiner
-        Rolle als Sprecher fest, bevor er sie erst 1989 endgültig aufgab.</p>
-        <p class="vb-intro"><strong>c) Der Waschbär, der sein Revier bis zuletzt selbst gestaltete:</strong>
-        Selbst die Deutung des eigenen körperlichen Verfalls blieb bis zum Tod Teil seines
-        eigenen Narrativs – kein passives Erleiden, sondern eine aktiv mitgeprägte Erzählung.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine chronische Vorgeschichte seit den frühen 1970ern:</strong>
-        Diabetes, Asthma und Rückenschmerzen begleiteten Osho fast zwei Jahrzehnte, bevor sie
-        1985 durch die Haft eine dramatische neue Wendung erhielten.</p>
-        <p class="vb-intro"><strong>b) Ein Wendepunkt, dessen Ursache bis heute umstritten ist:</strong>
-        Ob die Verschlechterung nach 1985 tatsächlich auf eine Vergiftung während der Haft
-        zurückgeht oder eine Fortsetzung der bereits jahrzehntelangen chronischen Beschwerden
-        war, lässt sich anhand der öffentlich zugänglichen Quellen nicht abschließend klären.</p>
-        <p class="vb-intro"><strong>c) Ein Tod mit drei konkurrierenden Deutungen:</strong>
-        Die offizielle Diagnose Herzversagen, die Vergiftungsdeutung des Ashrams und die
-        späteren Vorwürfe der Isolation in den letzten Stunden stehen bis heute unversöhnt
-        nebeneinander – keine davon ist forensisch bestätigt.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Krankheitsgeschichte voller Deutungen?</strong>
-        Für eine selbsterhaltende Drei mit Viererflügel, deren gesamtes Wirken auf der
-        eigenen, bedeutungsvoll erzählten Geschichte beruhte, liegt eine Deutung nahe: Selbst
-        der eigene körperliche Verfall wurde zu einem Text, der interpretiert, gedeutet und
-        weitererzählt werden musste – eine Krankheit, die sich nie auf einen einzigen,
-        nüchternen medizinischen Befund reduzieren ließ, sondern bis zuletzt Teil der großen
-        Erzählung von Verfolgung und Bedeutung blieb. Diese Deutung ist eine plausible
-        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
-        chronischen Erkrankungen oder umstrittenen Todesumständen führt –
-        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
-        sich an Oshos Fall zeigen lässt, ist ein Muster, das bei der Verschmelzung von
-        persönlichem Leiden und öffentlicher Selbstdeutung in der Praxis immer wieder
-        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-Osho kannte das Enneagramm als Lehrsystem sehr genau und griff es in eigenen Vorträgen wiederholt auf – seine bekannte Kernaussage dazu lautete sinngemäß, das Enneagramm zeige die neun Krankheiten des Ego, doch die einzige Heilung dafür sei Meditation. Genau diese Haltung – die eigene Kategorie theoretisch zu kennen, die Landkarte für sich selbst aber für überwunden zu halten, weil man ›am Ziel‹ sei – kann die eigentliche Selbsterkenntnis eher erschweren als erleichtern, gerade bei jemandem mit ausgeprägtem Kultstatus. Ob Osho sein eigenes Muster in der Tiefe tatsächlich erkannte oder es eher nur ahnte, lässt sich nicht abschließend sagen; seine wiederkehrenden, nie ganz aufgeklärten körperlichen Beschwerden legen eher nahe, dass Wissen über ein System nicht automatisch mit echter Selbsterkenntnis gleichzusetzen ist – vor allem dann nicht, wenn das eigene spirituelle Ego mitspielt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Was <strong>Osho</strong> als selbsterhaltende Drei mit Viererflügel prägte, kehrt in
-        seiner eigenen Krankengeschichte noch einmal wieder: chronische Beschwerden über Jahrzehnte, eine
-        dramatische Zäsur durch Haft und behauptete Vergiftung, und ein Tod 1990, dessen
-        Ursache bis heute zwischen drei konkurrierenden Erzählungen schwankt. Der Waschbär,
-        der selbst im eigenen Verfall die Deutungshoheit über die eigene Geschichte nicht
-        aus der Hand gab.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4) – Lebenswerk"},
-        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsporträt: Bernie Madoff (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
     </div>
   `);
