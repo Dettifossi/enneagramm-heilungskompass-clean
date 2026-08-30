@@ -12019,7 +12019,7 @@ const GRUNDTYPEN = [
   { num: 1, name: "The Perfectionist",   label: "The Order-Oriented",      leidenschaft: "Anger",    tier: "Eagle",    thema: "Right & Wrong · Integrity & Order",     codes: ["se1","so1","sx1"] },
   { num: 2, name: "The Helper",          label: "The Relationship-Oriented",    leidenschaft: "Pride",   tier: "Cat",    thema: "Love & Recognition · Giving & Receiving", codes: ["se2","so2","sx2"] },
   { num: 3, name: "The Achiever",         label: "The Success-Oriented",       leidenschaft: "Vanity / Deceit",    tier: "Peacock",     thema: "Success & Worth · Achievement & Recognition",       codes: ["se3","so3","sx3"] },
-  { num: 4, name: "The Individualist",   label: "The Identity-Oriented",    leidenschaft: "Envy",    tier: "Horse",    thema: "Authenticity & Depth · Loss & Longing",        codes: ["se4","so4","sx4"] },
+  { num: 4, name: "The Individualist",   label: "The Identity-Oriented",    leidenschaft: "Envy",    tier: "Swan",    thema: "Authenticity & Depth · Loss & Longing",        codes: ["se4","so4","sx4"] },
   { num: 5, name: "The Observer",         label: "The Knowledge-Oriented",       leidenschaft: "Avarice",    tier: "Owl",     thema: "Knowledge & Understanding · Withdrawal & Resources",     codes: ["se5","so5","sx5"] },
   { num: 6, name: "The Loyalist",         label: "The Security-Oriented",   leidenschaft: "Fear",   tier: "Hare",     thema: "Security & Trust · Danger & Loyalty",   codes: ["se6","so6","sx6"] },
   { num: 7, name: "The Enthusiast",      label: "The Possibility-Oriented",  leidenschaft: "Gluttony", tier: "Monkey", thema: "Joy & Abundance · Options & Avoidance",      codes: ["se7","so7","sx7"] },
