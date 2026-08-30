@@ -1139,6 +1139,7 @@ const registerEntries = [
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
+  { term: "Hans Christian Andersen Krankheitsporträt", route: "krankheitsportraets-hans-christian-andersen", description: "Portrait: SO4w3 · Sozialer Typ 4 · Hypochondrie, vernachlässigte Zahnprobleme, vermutete Leberkrebserkrankung" },
   { term: "Romy Schneider Krankheitsporträt", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Sozialer Typ 4 · Nierenoperation, Alkohol- und Tablettenkonsum, ungeklärter Tod 1982" },
   { term: "Konrad Adenauer Krankheitsporträt", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Gesichtsverletzung durch Autounfall, Verfolgung und Haft" },
   { term: "Marilyn Monroe Krankheitsporträt", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose, Schlafmittelabhängigkeit, umstrittene Todesumstände" },

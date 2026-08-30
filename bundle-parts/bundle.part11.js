@@ -1,3 +1,364 @@
+function johannSebastianBachKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Sebastian Bach</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · 1685–1750</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johann Sebastian Bach</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier wird ausführlich ein Kapitel beleuchtet, das dort nur eine Randnotiz bleibt:
+        eine über Jahre fortschreitende Erblindung, zwei missglückte Augenoperationen und Bachs
+        Tod wenige Monate danach im Jahr 1750.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bach</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SX1 richtet den Vollkommenheitsanspruch der Eins nicht auf die ganze
+        Welt, sondern mit kompromissloser Intensität auf den engsten Kreis – auf eine einzige
+        Sache, eine einzige Berufung, für die keine Mühe zu groß ist. Der Neunerflügel bringt
+        eine ruhige, undramatische Beharrlichkeit hinzu: Bach klagte selten, er arbeitete
+        weiter – ein Muster, das sich bis in seine letzten, fast erblindeten Lebensmonate
+        nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Die Augen als Werkzeug der Hingabe, nicht der Schonung:</strong>
+        Schon als Junge kopierte Bach der Überlieferung nach heimlich verbotene Notenblätter
+        bei Mondlicht – eine frühe Bereitschaft, die eigene Sehkraft für die Musik aufs Spiel
+        zu setzen, lange bevor sie tatsächlich in Gefahr geriet.</p>
+        <p class="vb-intro"><strong>b) Nachlassende Sicht als hingenommene Realität, nicht als Alarmsignal:</strong>
+        Die zunehmend zittrige, schwer lesbare Handschrift seiner letzten Notenmanuskripte
+        dokumentiert eine über Jahre fortschreitende Sehschwäche, die Bach offenbar arbeitend
+        durchstand, statt sich frühzeitig zurückzuziehen.</p>
+        <p class="vb-intro"><strong>c) Konzentration auf das eine Werk trotz schwindender Sicht:</strong>
+        Noch in den späten 1740er-Jahren arbeitete Bach an großen, hochkomplexen Kompositionen
+        wie der h-Moll-Messe – eine Konzentration auf das Wesentliche, die für die sexuelle
+        Eins mit Neunerflügel typisch ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine schleichende Verschlechterung ohne klare Diagnose:</strong>
+        Zeitgenössische Quellen dokumentieren keinen genauen Beginn der Augenerkrankung –
+        rückblickend wird sie als grauer Star gedeutet, zeitgenössisch aber nie eindeutig
+        diagnostiziert.</p>
+        <p class="vb-intro"><strong>b) Zwei Operationen im März 1750:</strong>
+        Bach unterzog sich zwei Eingriffen durch den reisenden, selbsternannten "Chevalier"
+        John Taylor, einen britischen Augenoperateur von zweifelhaftem Ruf. Die angewandte
+        Methode, das sogenannte "Couching", verlagerte die getrübte Linse, statt sie zu
+        entfernen – ein bereits damals veraltetes, riskantes Verfahren.</p>
+        <p class="vb-intro"><strong>c) Vollständige Erblindung nach der zweiten Operation:</strong>
+        Nach etwa einer Woche musste erneut operiert werden, da sich der Star zurückbildete.
+        Diese zweite Operation führte zur vollständigen Erblindung Bachs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Derselbe Operateur, dasselbe Schicksal bei Händel:</strong>
+        Kurz nach Bach operierte John Taylor auch Georg Friedrich Händel – mit ebenfalls
+        verheerendem Ausgang. Zwei der bedeutendsten Komponisten des Barock wurden durch
+        denselben zweifelhaften "Wunderheiler" erblindet zurückgelassen.</p>
+        <p class="vb-intro"><strong>b) Vier Monate zwischen Erblindung und Tod:</strong>
+        Am 28. Juli 1750, rund vier Monate nach den Operationen, starb Bach nach einem
+        Schlaganfall, dem laut dem 1754 veröffentlichten Nekrolog ein "hitziges Fieber"
+        vorausging – vermutlich eine fieberhafte Infektion.</p>
+        <p class="vb-intro"><strong>c) Die Kausalität bleibt Deutung, nicht gesicherter Fakt:</strong>
+        Ob die Operationen selbst den tödlichen Verlauf auslösten, ist eine in der Forschung
+        verbreitete, plausible, aber nicht abschließend bewiesene Verbindung – eine
+        moderne Autopsie im heutigen Sinne existiert nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine populäre Legende, die der Forschung nicht standhält:</strong>
+        Die romantische Erzählung, Bach sei mitten in der Komposition der letzten Fuge der
+        "Kunst der Fuge" gestorben, ist heute widerlegt – das Autograph der letzten,
+        unvollendeten Fuge stammt bereits aus den Jahren 1748/49, also von vor der
+        Erblindung.</p>
+        <p class="vb-intro"><strong>b) Die h-Moll-Messe als plausibleres letztes großes Werk:</strong>
+        Der Bach-Forscher Christoph Wolff argumentiert, dass eher die h-Moll-Messe als
+        Bachs eigentliches letztes vollendetes Hauptwerk gelten sollte – ein Werk, das er
+        offenbar noch mit erheblicher Sehkraft-Einschränkung zu Ende brachte.</p>
+        <p class="vb-intro"><strong>c) Eine bis heute diskutierte Rückdiagnose:</strong>
+        Manche Forscher vermuten einen fortgeschrittenen Diabetes als Ursache sowohl der
+        Sehverschlechterung als auch der schlechten Wundheilung nach der Operation – eine
+        moderne Vermutung, keine gesicherte historische Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Arbeit als Konstante trotz nachlassender Sicht:</strong>
+        Bach ließ sich von der fortschreitenden Sehschwäche offenbar nicht von seiner
+        kompositorischen Arbeit abbringen – ein Ausdruck der Intensität, mit der die
+        sexuelle Eins sich der einen, alles überragenden Sache widmet.</p>
+        <p class="vb-intro"><strong>b) Neunerflügel-Gelassenheit im Angesicht des Risikos:</strong>
+        Die Entscheidung, sich einem riskanten, damals bereits umstrittenen Eingriff zu
+        unterziehen, statt mit der Erblindung zu leben, zeigt eine ruhige, fast fatalistische
+        Risikobereitschaft – kein dramatischer Kampf, sondern ein stiller Versuch,
+        das Problem zu lösen und weiterzuarbeiten.</p>
+        <p class="vb-intro"><strong>c) Die Schwarze Mamba, die bis zum letzten Biss präzise blieb:</strong>
+        Selbst in den letzten Lebensmonaten, fast vollständig erblindet, blieb Bachs
+        kompositorisches Denken offenbar ungebrochen scharf – eine Präzision, die keine
+        Behinderung zu trüben vermochte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Risiko, das schon in der Kindheit begann:</strong>
+        Der Überlieferung nach kopierte der junge Bach verbotene Notenblätter heimlich bei
+        Mondlicht – ein früher, selbst gewählter Raubbau an den eigenen Augen im Dienst der
+        Musik, Jahrzehnte bevor die tatsächliche Erblindung eintrat.</p>
+        <p class="vb-intro"><strong>b) Jahre schleichenden Verlusts, ohne öffentliches Klagen:</strong>
+        Die zunehmend unleserliche Handschrift seiner letzten Manuskripte ist der einzige
+        erhaltene Hinweis auf eine Verschlechterung, die Bach offenbar nie in den Mittelpunkt
+        seiner eigenen Aufzeichnungen stellte.</p>
+        <p class="vb-intro"><strong>c) Zwei Operationen, ein Verlust, vier Monate bis zum Tod:</strong>
+        Die zeitliche Nähe zwischen der vollständigen Erblindung im März 1750 und Bachs Tod
+        am 28. Juli 1750 ist historisch gut belegt, auch wenn die genaue kausale Kette
+        Gegenstand fortlaufender Deutung bleibt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Augen?</strong>
+        Für eine sexuelle Eins, deren gesamte Hingabe sich mit kompromissloser Intensität auf
+        die eine Sache richtet, der sie sich verschrieben hat, liegt eine Deutung nahe: Die
+        Augen waren für Bach zeitlebens das Organ, mit dem er sich seiner Berufung
+        unterwarf – im Kerzenlicht kopierend als Kind, über Notenblätter gebeugt als
+        Komponist. Dass ausgerechnet dieses Organ am Ende versagte, nachdem er es ein Leben
+        lang ohne Rücksicht auf sich selbst beansprucht hatte, liest sich als konsequenter
+        Abschluss eines Musters, das schon in der Kindheit angelegt war. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
+        Augenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Bachs Fall zeigen lässt, ist ein Muster,
+        das bei der kompromisslosen Hingabe an eine einzige Berufung, ohne Rücksicht auf die
+        eigenen körperlichen Grenzen, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bach kannte sein eigenes Muster nicht – die sexuelle Eins mit Neunerflügel sucht die eine, vollkommene Lösung, und genau dieser Drang nach Perfektion ließ ihn sich zweimal einer riskanten Operation durch denselben zweifelhaften Okulisten unterziehen, statt beim ersten Fehlschlag innezuhalten. Wer das eigene Streben nach der perfekten Lösung nicht als Muster erkennt, wiederholt denselben Fehler, in der Hoffnung, dieses Mal werde es anders.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Bachs</strong> sexueller Typ 1 mit Neunerflügel wird an seiner eigenen
+        Erkrankung noch einmal sichtbar: ein Organ, das er als Kind schon riskierte und
+        als Erwachsener bis zur vollständigen Erblindung beanspruchte, zwei riskante
+        Operationen, denen er sich ruhig und ohne öffentliches Aufsehen unterzog, und ein Tod
+        vier Monate später, dessen genaue Ursache bis heute Gegenstand der Forschung ist.
+        Die Schwarze Mamba, die selbst im Dunkeln noch komponierte – präzise bis zuletzt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
+
+function napoleonBonaparteKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Napoleon Bonaparte</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 1769–1821</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Napoleon Bonaparte</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier steht ein Kapitel im Zentrum, das dort nur eine Fußnote ist:
+        über Jahrzehnte wiederkehrende Magenbeschwerden, ihre dramatische Zuspitzung im Exil
+        auf St. Helena und Napoleons Tod 1821 an einem Magenkarzinom – derselben Krankheit,
+        an der wahrscheinlich auch sein Vater starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Napoleon</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SO2 richtet die Fürsorge der Zwei nicht auf eine einzelne Beziehung,
+        sondern auf ein ganzes Kollektiv – Napoleon investierte, wie Naranjo es beschreibt,
+        nicht in Rücklagen, sondern in Beziehung und Loyalität im großen Maßstab. Der
+        Dreierflügel bringt unbedingten Ehrgeiz und die Weigerung hinzu, sich von Schwäche –
+        auch der eigenen körperlichen – aufhalten zu lassen. Genau dieses Muster lässt sich
+        bis in seine letzten, von Schmerzen gezeichneten Lebensjahre nachverfolgen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der eigene Körper als Nebensache neben der Mission:</strong>
+        Napoleons Blick galt zeitlebens dem großen Ganzen – dem Feldzug, dem Reich, der
+        eigenen historischen Rolle. Körperliche Beschwerden wurden konsequent nachrangig
+        behandelt, solange sie die Handlungsfähigkeit nicht vollständig lähmten.</p>
+        <p class="vb-intro"><strong>b) Funktionieren trotz Schmerz als Führungsanspruch:</strong>
+        Berichten zufolge saß Napoleon am Morgen der Schlacht von Waterloo, am 18. Juni 1815,
+        trotz akuter Beschwerden bereits um acht Uhr angezogen und beritten im Sattel – ein
+        Führungsanspruch, der keine sichtbare Schwäche duldete.</p>
+        <p class="vb-intro"><strong>c) Körperlicher Verfall im Exil als letzte, unausweichliche Realität:</strong>
+        Erst auf St. Helena, fern jeder Bühne, wich diese Haltung zunehmend einem Körper, der
+        sich der reinen Willenskraft nicht länger fügte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende Magenbeschwerden über Jahre:</strong>
+        Schon vor seinem Exil sind bei Napoleon gelegentliche Magen- und
+        Verdauungsbeschwerden dokumentiert – der genaue Beginn lässt sich in den erhaltenen
+        Quellen nicht präzise datieren, doch das Muster zog sich durch weite Teile seines
+        Erwachsenenlebens.</p>
+        <p class="vb-intro"><strong>b) Eine historisch umstrittene Episode bei Waterloo:</strong>
+        Sein Bruder Jérôme berichtete später, Napoleon habe an diesem Tag unter akut
+        entzündeten Hämorrhoiden und Blasenbeschwerden gelitten. Die These, dies habe seine
+        taktischen Entscheidungen und damit die Niederlage beeinflusst, ist in der
+        Geschichtsschreibung populär, aber umstritten und nicht abschließend belegt.</p>
+        <p class="vb-intro"><strong>c) Zunehmendes Gewicht in den späteren Jahren:</strong>
+        Rekonstruktionen anhand erhaltener Kleidungsstücke zeigen eine deutliche
+        Gewichtszunahme von rund 67 auf etwa 90 Kilogramm zwischen 1808 und 1820 – ein
+        Kontrollverlust über den eigenen Körper, der seiner sonstigen Disziplin
+        entgegenstand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verschlechterung ab 1818:</strong>
+        Im Exil auf St. Helena verstärkten sich ab 1818 Übelkeit, Magenschmerzen und
+        Harnprobleme. Ab September 1820 folgten häufigere Attacken mit Erbrechen, Fieber und
+        Appetitlosigkeit; im Dezember 1820 konnte Napoleon kaum noch gehen.</p>
+        <p class="vb-intro"><strong>b) Rapider Verfall in den letzten Lebensmonaten:</strong>
+        Zwischen Oktober 1820 und Februar 1821 verschlechterte sich sein Zustand dramatisch:
+        anhaltende Bauchschmerzen, Erbrechen, eine ausgeprägte Abneigung gegen Fleisch,
+        Schluckbeschwerden, Nachtschweiß und fortschreitende Schwäche. Im letzten Lebensjahr
+        verlor er etwa elf Kilogramm.</p>
+        <p class="vb-intro"><strong>c) Tod am 5. Mai 1821:</strong>
+        Napoleon starb im Alter von 51 Jahren auf St. Helena. Die Autopsie ergab ein
+        infiltrativ-ulzeratives Magenkarzinom mit einer arrosiven Blutung als wahrscheinlicher
+        unmittelbarer Todesursache – ein heute in der medizinhistorischen Forschung breit
+        akzeptierter Befund.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine widerlegte Verschwörungstheorie:</strong>
+        Die lange populäre Theorie, Napoleon sei mit Arsen vergiftet worden, gilt heute durch
+        mehrere unabhängige moderne Gewebeanalysen als weitgehend widerlegt – erhöhte
+        Arsenwerte werden eher auf zeittypische Umweltbelastungen zurückgeführt, nicht auf
+        gezielte Vergiftung.</p>
+        <p class="vb-intro"><strong>b) Ein wissenschaftlicher Konsens, der die Legende überdauert hat:</strong>
+        Anders als die Vergiftungstheorie ist die Diagnose Magenkrebs autopsiebasiert und
+        gilt in der Fachwelt als solide belegt – eine nüchterne, aber weniger dramatische
+        Erklärung als die jahrzehntelang kursierende Mordthese.</p>
+        <p class="vb-intro"><strong>c) Die Waterloo-These als Sinnbild seines gesamten Krankheitsverlaufs:</strong>
+        Ob körperliche Beschwerden tatsächlich die Schlacht beeinflussten oder nicht – die
+        Erzählung selbst zeigt exemplarisch, wie sehr Napoleons Körper und sein historisches
+        Handeln in der öffentlichen Wahrnehmung untrennbar miteinander verwoben wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren bis zur Grenze des Erträglichen:</strong>
+        Die Bereitschaft, trotz akuter Schmerzen im Sattel zu sitzen und eine Schlacht zu
+        führen, zeigt die Dreierflügel-Energie der SO2 in Reinform: Leistung wird erbracht,
+        bis der Körper buchstäblich nicht mehr kann.</p>
+        <p class="vb-intro"><strong>b) Der Verlust der Bühne als eigentlicher Wendepunkt:</strong>
+        Erst als mit dem Exil auch das Publikum, für das Napoleon lebte, verschwand, begann
+        der körperliche Verfall sich ungebremst zu zeigen – als hätte die Energie der
+        sozialen Zwei zuvor den Körper mitgetragen.</p>
+        <p class="vb-intro"><strong>c) Der Golden Retriever, der bis zuletzt für ein Ganzes kämpfte:</strong>
+        Selbst im Angesicht des eigenen körperlichen Verfalls diktierte Napoleon auf St.
+        Helena seine Memoiren – ein letzter Versuch, weiter für ein Publikum, eine
+        Nachwelt, zu wirken.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein über Jahrzehnte wiederkehrendes Muster:</strong>
+        Von gelegentlichen Magenbeschwerden in den Feldzugsjahren bis zum tödlichen Karzinom
+        auf St. Helena zieht sich eine erkennbare, wenn auch lange nicht ernst genommene
+        Linie durch Napoleons Erwachsenenleben.</p>
+        <p class="vb-intro"><strong>b) Eine auffällige familiäre Parallele:</strong>
+        Napoleons Vater Carlo Buonaparte starb 1785 nach Jahren zunehmender Schwäche
+        ebenfalls an Magenkrebs. Napoleon selbst äußerte auf St. Helena die Furcht, das
+        gleiche Schicksal wie sein Vater zu teilen – eine Furcht, die sich bewahrheitete.</p>
+        <p class="vb-intro"><strong>c) Der Körper als letzter Ort, der sich nicht kommandieren ließ:</strong>
+        Ein Mann, der ganze Armeen und halb Europa befehligte, konnte den eigenen Magen
+        nicht befehligen – ein Kontrast, der Napoleons letzte Lebensjahre auf St. Helena
+        prägte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Magen?</strong>
+        Für eine soziale Zwei mit Dreierflügel, deren gesamte Identität an sichtbarer
+        Leistung und der Fürsorge für ein großes Kollektiv hing, liegt eine Deutung nahe: Der
+        Magen ist das Organ, das buchstäblich verdauen muss, was von außen kommt – bei
+        Napoleon jahrzehntelang ein Übermaß an Verantwortung, Druck und ungebremstem Ehrgeiz,
+        ohne dass je Raum für Verdauung im übertragenen Sinn blieb. Dass ausgerechnet dieses
+        Organ am Ende versagte, in einem Exil, das ihm zum ersten Mal in seinem Leben nichts
+        mehr zu verdauen ließ als die eigene Vergangenheit, liest sich als konsequenter
+        Abschluss dieses Musters. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu
+        Magenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Napoleons Fall zeigen lässt, ist ein
+        Muster, das bei der kompromisslosen Priorisierung von Leistung und Fürsorge für ein
+        großes Ganzes über die eigenen körperlichen Signale hinweg in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Napoleon kannte sein eigenes Muster nicht – die soziale Zwei mit Dreierflügel verdrängt die eigene Verwundbarkeit zugunsten der nächsten großen Aufgabe, und genau das ließ ihn jahrzehntelange Magenbeschwerden ignorieren, selbst als sie sein strategisches Urteilsvermögen bei Waterloo beeinträchtigt haben könnten. Wer das eigene Verdrängungsmuster nicht kennt, riskiert am Ende genau das, wofür er alles andere geopfert hat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Dreierflügel bestätigt sich bei <strong>Napoleon</strong> noch
+        einmal in der eigenen Erkrankung: über Jahrzehnte hingenommene Magenbeschwerden,
+        eine umstrittene, aber sinnbildliche Episode bei Waterloo, und ein Tod 1821, der
+        exakt das familiäre Muster seines Vaters wiederholte. Der Golden Retriever, der
+        ganze Armeen mobilisierte, bis der eigene Körper die letzte, unüberwindbare
+        Front wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
 function juliusCaesarKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12848,341 +13209,6 @@ function astridLindgrenKrankheitsportraetPage() {
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
-      ])}
-    </div>
-  `);
-}
-
-function seanConneryKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Sean Connery</p>
-        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1930–2020</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gepard</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Sean Connery</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-sean-connery">Porträt berühmter
-        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
-        das dort nicht behandelt wird: eine Demenzerkrankung in seinen letzten Lebensjahren,
-        die er und seine Familie weitgehend vor der Öffentlichkeit verborgen hielten.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Connery</strong> ist dem <strong>sozialen Typ 3 mit Viererflügel</strong>
-        zugeordnet. Die SO3 lebt von einem makellosen öffentlichen Image; der Viererflügel
-        verlangt zugleich strikte Kontrolle darüber, was von der eigenen Person überhaupt
-        preisgegeben wird. Genau diese Kombination – die Notwendigkeit, das eigene Bild
-        makellos zu halten, verbunden mit einer lebenslangen Zurückhaltung gegenüber jeder
-        Form von Selbstenthüllung – bestimmte, wie mit der eigenen Demenzerkrankung
-        umgegangen wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Rückzug aus der Öffentlichkeit ab Mitte der 2000er:</strong>
-        Connerys freiwilliger Rückzug aus dem Schauspielberuf und der Öffentlichkeit fiel
-        zeitlich mit dem Beginn gesundheitlicher Veränderungen zusammen, die zu diesem
-        Zeitpunkt öffentlich nicht bekannt waren.</p>
-        <p class="vb-intro"><strong>b) Ein zunehmend zurückgezogenes Leben auf den Bahamas:</strong>
-        In seinen letzten Lebensjahren lebte Connery weitgehend abgeschieden auf den Bahamas,
-        mit nur noch sehr seltenen öffentlichen Auftritten.</p>
-        <p class="vb-intro"><strong>c) Keine öffentliche Krankheitsdiagnose zu Lebzeiten:</strong>
-        Zu Lebzeiten machte Connery keine gesundheitliche Diagnose öffentlich – Spekulationen
-        über seinen Gesundheitszustand blieben unbestätigt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Bestätigung der Demenzerkrankung erst nach dem Tod:</strong>
-        Erst nach Connerys Tod im Oktober 2020 bestätigte sein Sohn Jason öffentlich, dass
-        sein Vater in den letzten Lebensjahren an Demenz gelitten hatte.</p>
-        <p class="vb-intro"><strong>b) Ein über Jahre verborgen gehaltener Verlauf:</strong>
-        Nach Angaben seines Sohnes hatte die Erkrankung bereits mehrere Jahre vor Connerys Tod
-        begonnen – ein Zeitraum, in dem in der Öffentlichkeit nichts davon bekannt war.</p>
-        <p class="vb-intro"><strong>c) Betreuung im engsten Familienkreis:</strong>
-        Connery wurde in seinen letzten Lebensjahren im privaten Rahmen von seiner Familie
-        betreut, ohne dass Details davon nach außen drangen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tod am 31. Oktober 2020 auf den Bahamas:</strong>
-        Sean Connery starb im Alter von 90 Jahren in seinem Haus auf den Bahamas, im Schlaf,
-        umgeben von seiner Familie.</p>
-        <p class="vb-intro"><strong>b) Nachträgliche öffentliche Einordnung durch die Familie:</strong>
-        Die Bestätigung der Demenzdiagnose durch seinen Sohn erfolgte bewusst erst nach dem
-        Tod, als Teil der öffentlichen Würdigung seines Lebens, nicht während der eigentlichen
-        Krankheitsphase.</p>
-        <p class="vb-intro"><strong>c) Weltweite Trauer um eine Ikone:</strong>
-        Sein Tod löste internationale Nachrufe aus, die vor allem sein filmisches Lebenswerk
-        würdigten – die Demenzerkrankung wurde darin nur am Rande erwähnt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein öffentliches Bild, das bis zuletzt intakt blieb:</strong>
-        Da die Erkrankung erst posthum bekannt wurde, blieb das öffentliche Bild Connerys zu
-        Lebzeiten von der eigentlichen gesundheitlichen Realität seiner letzten Jahre
-        unberührt.</p>
-        <p class="vb-intro"><strong>b) Überraschung in der öffentlichen Reaktion:</strong>
-        Viele Fans und Medien reagierten überrascht auf die nachträgliche Bestätigung, da
-        Connerys öffentlich zuletzt gezeigtes Bild keinerlei Hinweise auf die Erkrankung
-        enthalten hatte.</p>
-        <p class="vb-intro"><strong>c) Würdigung der familiären Diskretion:</strong>
-        In Nachrufen wurde teils ausdrücklich die Zurückhaltung der Familie gewürdigt, die
-        Connerys letzte Lebensjahre vor öffentlicher Neugier geschützt hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Kontrolle über das eigene Bild bis zuletzt:</strong>
-        Die SO3-typische Notwendigkeit, das eigene öffentliche Image makellos zu halten,
-        setzte sich auch im Umgang mit der Demenzerkrankung fort: Ein Zustand, der die
-        vollständige Kontrolle über sich selbst untergräbt, wurde konsequent von der
-        Öffentlichkeit ferngehalten.</p>
-        <p class="vb-intro"><strong>b) Der Viererflügel und das Misstrauen gegenüber Nähe:</strong>
-        Dieselbe Zurückhaltung, mit der Connery zeitlebens sein Privatleben schützte, zeigte
-        sich im Umgang mit der eigenen Krankheit als konsequente Entscheidung, selbst engen
-        Weggefährten und der Öffentlichkeit diesen Teil seines Lebens nicht zugänglich zu
-        machen.</p>
-        <p class="vb-intro"><strong>c) Der Sohn als Vermittler der posthumen Wahrheit:</strong>
-        Dass die Bestätigung erst nach dem Tod durch den Sohn erfolgte, passt zum SO3w4-Muster:
-        Erst wenn das eigene Bild nicht mehr durch die Offenlegung gefährdet werden kann,
-        wird die volle Wahrheit zugänglich gemacht.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Meister der kontrollierten Selbstdarstellung, konfrontiert mit dem Verlust jeder Kontrolle:</strong>
-        Connerys gesamtes Berufsleben beruhte auf der präzisen Kontrolle darüber, was von ihm
-        gezeigt wurde – ausgerechnet eine Erkrankung, die genau diese Kontrolle über den
-        eigenen Geist unmöglich macht, traf ihn in seinen letzten Lebensjahren.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Karl
-        Lagerfeld (SO3w4)</a>: Auch Lagerfeld verbarg eine schwere Diagnose fast bis zuletzt
-        vor der Öffentlichkeit, um das eigene, sorgfältig kontrollierte Image nicht zu
-        gefährden. Bei beiden SO3w4ern zeigt sich dasselbe Muster: Die eigene Erkrankung wird
-        so lange wie möglich vollständig unter Kontrolle der eigenen Selbstdarstellung
-        gehalten, statt sie öffentlich zu verhandeln.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet das Gedächtnis, der Speicher der eigenen Rollen?</strong>
-        Für einen sozialen Typ 3 mit Viererflügel, dessen gesamtes Berufsleben aus dem
-        präzisen Einstudieren und Verkörpern von Rollen bestand, liegt eine Deutung nahe:
-        Ausgerechnet jene kognitive Fähigkeit, die sein gesamtes Lebenswerk trug – das
-        Gedächtnis –, wurde zum Ort des Verfalls. Diese Deutung ist eine plausible
-        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Demenz führt –
-        <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong>
-        Was sich an Connerys Fall zeigen lässt, ist ein Muster im Umgang mit einer das
-        Selbstbild bedrohenden Diagnose, das bei einem ausgeprägten sozialen Typ 3 mit
-        Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Connery kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 3
-        mit Viererflügel hält reflexhaft an der Kontrolle über das eigene öffentliche Bild
-        fest, auch dann, wenn eine Erkrankung eine offene Aussprache dringend nahelegen
-        würde, und lebte genau dieses Muster bis zum Tod unverändert aus. Wer die eigene
-        Neigung, das eigene Bild um jeden Preis makellos zu halten, nicht als Muster
-        erkennt, riskiert, dass die eigene Realität erst posthum ans Licht kommt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 3 mit Viererflügel erklärt bei <strong>Sean Connery</strong> vieles
-        am Umgang mit der eigenen Demenzerkrankung: ein Mann, dessen gesamtes Lebenswerk auf
-        makelloser Selbstkontrolle beruhte, hielt auch den Verlust dieser Kontrolle bis zum
-        Tod vollständig privat – der Gepard, der sich am Ende in die Stille seiner eigenen,
-        nie ganz preisgegebenen Welt zurückzog, bevor die Wahrheit überhaupt ans Licht
-        kommen konnte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
-      ])}
-    </div>
-  `);
-}
-
-function ashtonKutcherKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-ashton-kutcher-portrait.jpg" alt="Ashton Kutcher" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ashton Kutcher</p>
-        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · geb. 1978</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Golden Retriever</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Ashton Kutcher</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-ashton-kutcher">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: eine seltene Autoimmunerkrankung, an der
-        Kutcher zeitweise Seh-, Hör- und Gehfähigkeit verlor, bevor er sie 2023 öffentlich
-        machte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Kutcher</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Die SO2 setzt ihre Reichweite gezielt für eine größere Sache ein; der
-        Dreierflügel bringt den Antrieb, aus jeder Erfahrung – auch der eigenen Krankheit –
-        einen sichtbaren, wirksamen Beitrag zu machen. Genau diese Kombination – zunächst
-        vollständige Geheimhaltung, dann eine gezielte, öffentlich wirksame Offenlegung –
-        bestimmte den Umgang mit der eigenen Autoimmunerkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Plötzlich einsetzende Symptome:</strong>
-        Nach eigener Schilderung begannen die Symptome abrupt, mit einem raschen Verlust an
-        Gleichgewicht, Sehkraft und Hörvermögen, ohne erkennbare Vorwarnung.</p>
-        <p class="vb-intro"><strong>b) Diagnose einer seltenen Form der Vaskulitis:</strong>
-        Ärzte diagnostizierten bei Kutcher eine seltene autoimmune Gefäßentzündung, die
-        mehrere Sinnesorgane und die Bewegungsfähigkeit gleichzeitig beeinträchtigte.</p>
-        <p class="vb-intro"><strong>c) Monatelanger, intensiver Rehabilitationsprozess:</strong>
-        Nach eigener Aussage musste er anschließend erneut gehen, sehen und hören lernen –
-        ein Prozess, der sich über Monate erstreckte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Zwei Jahre vollständige Geheimhaltung:</strong>
-        Kutcher hielt die Diagnose und die Erkrankung rund zwei Jahre lang vollständig
-        privat, bevor er sich öffentlich dazu äußerte.</p>
-        <p class="vb-intro"><strong>b) Öffentliche Offenlegung 2023 in einem Podcast-Interview:</strong>
-        Erst in einem ausführlichen Interview machte Kutcher die Erkrankung und ihren Verlauf
-        detailliert öffentlich – ein bewusst gewählter Rahmen statt einer spontanen
-        Enthüllung.</p>
-        <p class="vb-intro"><strong>c) Sichtbare, aber nicht vollständig zurückgebildete Folgen:</strong>
-        Kutcher beschrieb, dass einige Beeinträchtigungen, insbesondere im Gleichgewichtssinn,
-        auch nach der akuten Krankheitsphase bestehen blieben.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Betonung von Dankbarkeit statt Klage:</strong>
-        In seiner öffentlichen Schilderung stellte Kutcher wiederholt die eigene Dankbarkeit
-        für das Überleben und die Genesung in den Vordergrund, statt die Erkrankung als
-        Opfergeschichte zu erzählen.</p>
-        <p class="vb-intro"><strong>b) Positive mediale Resonanz:</strong>
-        Die Offenlegung löste breite mediale Aufmerksamkeit und überwiegend positive
-        Reaktionen aus, die Kutchers Offenheit und seinen Umgang mit der Krankheit
-        würdigten.</p>
-        <p class="vb-intro"><strong>c) Fortsetzung öffentlicher Aktivität nach der Offenlegung:</strong>
-        Nach dem Interview setzte Kutcher seine schauspielerische und unternehmerische
-        Tätigkeit unverändert fort, ohne dass die Krankheit zu einem dauerhaften öffentlichen
-        Thema wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für eine seltene Erkrankung:</strong>
-        Kutchers Offenheit trug international dazu bei, die Aufmerksamkeit für seltene
-        Autoimmunerkrankungen zu erhöhen, über die zuvor kaum öffentlich gesprochen wurde.</p>
-        <p class="vb-intro"><strong>b) Verzögerte statt sofortige Offenlegung:</strong>
-        Der zweijährige Abstand zwischen Erkrankung und öffentlicher Offenlegung zeigt, wie
-        lange die Krise zunächst ausschließlich privat verarbeitet wurde.</p>
-        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Genesung:</strong>
-        Kutcher betonte in seiner Schilderung explizit, dass nicht alle Beeinträchtigungen
-        vollständig verschwunden seien – eine differenzierte Darstellung statt einer
-        glatten Heilungsgeschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Privater Kampf, bevor er öffentlich wird:</strong>
-        Die SO2-typische Ausrichtung auf öffentliche Wirksamkeit setzte erst ein, nachdem die
-        eigentliche Krise privat durchlebt und überstanden war – die Krankheit selbst blieb
-        zunächst außerhalb der öffentlichen Rolle.</p>
-        <p class="vb-intro"><strong>b) Der Dreierflügel und die kontrollierte, wirksame Offenlegung:</strong>
-        Dieselbe Fähigkeit, aus Sichtbarkeit konkrete Wirkung zu erzeugen, die Kutchers
-        Engagement gegen Kinderhandel prägt, zeigte sich auch hier: Die Offenlegung erfolgte
-        in einem sorgfältig gewählten Format, das maximale, aber kontrollierte öffentliche
-        Wirkung erzielte.</p>
-        <p class="vb-intro"><strong>c) Dankbarkeit als öffentliche Botschaft:</strong>
-        Dass Kutcher die Erkrankung als Anlass für Dankbarkeit statt für Klage darstellte,
-        passt zur SO2-Neigung, auch die eigene Verwundbarkeit in eine positive, für andere
-        nützliche Botschaft zu verwandeln.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Mann öffentlicher Reichweite, der zwei Jahre lang unsichtbar kämpfte:</strong>
-        Kutchers gesamtes öffentliches Wirken beruht auf der gezielten Nutzung von
-        Sichtbarkeit für einen größeren Zweck – ausgerechnet die eigene existenzielle Krise
-        verbrachte er zunächst vollständig außerhalb jeder Öffentlichkeit, bevor er sie zu
-        einem bewusst gewählten Zeitpunkt in eine Botschaft verwandelte.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet Sehen, Hören und Gehen, die Grundlagen der Wahrnehmung selbst?</strong>
-        Für einen sozialen Typ 2 mit Dreierflügel, dessen gesamtes Wirken auf der Fähigkeit
-        beruht, gesellschaftliche Missstände wahrzunehmen und sichtbar zu machen, liegt eine
-        Deutung nahe: Ausgerechnet jene Sinne, die überhaupt erst Wahrnehmung und öffentliches
-        Handeln ermöglichen, versagten ihm zeitweise vollständig. Diese Deutung ist eine
-        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Autoimmun­erkrankungen
-        führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom
-        Subtyp.</strong> Was sich an Kutchers Fall zeigen lässt, ist ein Muster im Umgang mit
-        einer überwundenen existenziellen Krise, das bei einem ausgeprägten sozialen Typ 2
-        mit Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Kutcher kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
-        mit Dreierflügel hält reflexhaft an der Kontrolle über den Zeitpunkt und die Form der
-        eigenen Sichtbarkeit fest, auch in existenziellen Krisen, und lebt genau dieses Muster
-        bis heute weitgehend unverändert aus. Wer die eigene Neigung, private Krisen erst
-        nach vollständiger Verarbeitung öffentlich zu machen, nicht als Muster erkennt,
-        riskiert, dass Unterstützung von außen erst kommt, wenn die schwierigste Phase bereits
-        vorüber ist.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 2 mit Dreierflügel erklärt bei <strong>Ashton Kutcher</strong> vieles
-        am Umgang mit der eigenen Autoimmunerkrankung: ein Mann, dessen gesamtes öffentliches
-        Wirken auf sichtbarer Wirksamkeit beruht, kämpfte die eigene existenzielle Krise erst
-        vollständig privat aus, bevor er sie in eine Botschaft der Dankbarkeit verwandelte –
-        der Golden Retriever, der seine tiefste Verwundbarkeit erst dann zeigte, als er sie
-        selbst in etwas Nützliches für andere umwandeln konnte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-ashton-kutcher", label:"Porträt: Ashton Kutcher (SO2w3)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);

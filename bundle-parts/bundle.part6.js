@@ -5059,6 +5059,8 @@ function hansChristianAndersenPortraitPage() {
           <p class="vb-intro">Einordnung ohne Determinismus: Andersens Gesundheit litt zeitlebens unter psychosomatischen Beschwerden &ndash; Zahnprobleme, Verdauungsstörungen, ausgeprägte Hypochondrie &ndash; die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine ständige Sorge um Krankheit und Ablehnung mit seinem Grundmuster verwoben war. Andersen kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Sehnsucht nach Zugehörigkeit ungebremst und ohne die Sprache, sie als wiederkehrendes Muster zu erkennen, statt sie immer wieder aufs Neue als individuelles Schicksal zu erleiden &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
         </blockquote>
 
+        <p class="vb-intro">Die lebenslange Hypochondrie, die vernachlässigten Zahnprobleme und die vermutete Leberkrebserkrankung, an der Andersen 1875 starb, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-hans-christian-andersen">Krankheitsporträt zu Andersen</a> gedeutet.</p>
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -5066,6 +5068,7 @@ function hansChristianAndersenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}

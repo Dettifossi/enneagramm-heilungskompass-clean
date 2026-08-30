@@ -1,3 +1,98 @@
+function andrewCunananPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Andrew Cunanan \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/andrew-cunanan-portrait.jpg" alt="Andrew Cunanan \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andrew Cunanan</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-sub">Der M\xf6rder von Gianni Versace &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Andrew Cunanan mit einer fast unheimlichen Pr\xe4zision. Der Gepard ist das schnellste Landtier der Welt, aber kein Ausdauertier: Er ist auf den perfekten Moment des Angriffs ausgelegt, auf Geschwindigkeit und Treffsicherheit, nicht auf langen Atem. Er lebt von seiner \xe4u\xdferen Eleganz, seiner Anpassungsf\xe4higkeit an das Terrain, seiner F\xe4higkeit, sich genau in jene Position zu bringen, von der aus er am wirkungsvollsten zuschlagen kann. Wenn die Jagd scheitert, gibt es keinen Plan B &ndash; der Gepard bricht ab und setzt sich in Sicherheit. Andrew Cunanan hatte keinen Plan B. Als seine Welt kollabierte, jagte er weiter &ndash; bis er nichts mehr hatte als die gr\xf6\xdfte Schlagzeile, die er sich vorstellen konnte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Prestige als Lebensinhalt</h3>
+        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> ist unter den Dreier-Subtypen derjenige, dessen Lebensmittelpunkt die Gruppe ist &ndash; nicht irgendeine Gruppe, sondern die <em>richtige</em>. Die Elite. Die Kreise, in denen man gesehen werden muss, um jemand zu sein. Claudio Naranjo nannte diesen Subtyp den &bdquo;Pr\xe4sentierenden&ldquo;: jemanden, der seine Energie darauf verwendet, sich als erfolgreich, wertvoll und zugeh\xf6rig zu inszenieren &ndash; nicht aus Freude an der Welt, sondern weil die Alternative unertr\xe4glich w\xe4re.</p>
+        <p class="vb-intro">Andrew Cunanan wurde am 31. August 1969 in National City bei San Diego geboren, Sohn eines philippinisch-amerikanischen Vaters und einer italoamerikanischen Mutter. Sein Vater Modesto Cunanan gab sich als wohlhabenden Gesch\xe4ftsmann aus, war in Wirklichkeit aber ein gescheiterter Anlageberater, der 1988 vor einer Betr\xfcgerei-Klage in die Philippinen floh &ndash; und die Familie in Armut zur\xfccklie\xdf. Andrew hatte bis dahin auf einer Eliteschule in La Jolla gelernt, war in gl\xe4nzenden sozialen Kreisen verkehrt, hatte sich an das Gefallen der Wohlhabenden gew\xf6hnt. Dieser Bruch hat ihn gepr\xe4gt &ndash; aber nicht in Richtung von Demut oder Neubeginn. Er hat ihn in Richtung von Verdopplung getrieben: noch \xfcberzeugender l\xfcgen, noch sch\xf6ner erscheinen, noch tiefer in die Kreise eindringen, die ihn best\xe4tigten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Neid, Dramatik, dunkle Unterstr\xf6mung</h3>
+        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht dem sozialen Drei eine Tiefe, die dessen eigentlich nach vorne gerichteter Energie widerspricht. Die Vier tr\xe4gt Neid, Einsamkeit und ein Gef\xfchl von grunds\xe4tzlicher Unzul\xe4nglichkeit mit sich &ndash; Dinge, die der Drei eigentlich perfekt kaschieren kann, die aber im Hintergrund wirken. Cunanan war kein simpler Aufschneider. Er war charmant, witzig, belesen, unterhaltsam &ndash; und gleichzeitig von einer unterschwelligen Bitterkeit durchzogen gegen\xfcber denjenigen, die hatten, was er nur mimte. Das Reichtum, das er vorgab zu besitzen. Die Beziehungen, die er inszenierte. Den Status, den er borgte.</p>
+        <p class="vb-intro">Dieser Neid &ndash; Kernleidenschaft der Vier &ndash; blieb lange im Verborgenen, d\xe4mpft durch Charme und Wit und die Bereitschaft, unterhaltsam zu sein. Bis er es nicht mehr d\xe4mpfte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Fassade, F\xf6rderung, Absturz</h3>
+        <p class="vb-intro">Nach dem Verschwinden seines Vaters entwickelte Cunanan ein Doppelleben, das er \xfcber fast ein Jahrzehnt aufrechterh\xe4lt. In der schwulen High-Society San Diegos und San Franciscos war er bekannt &ndash; als Geschichtenerz\u00e4hler, als Unterhalter, als jemand, der immer im richtigen Restaurant sa\xdf und die richtigen Namen kannte. Er lebte teils als bezahlter Begleiter \xe4lterer wohlhabender M\xe4nner, teils von der Freigebigkeit von Bekannten. Seine Geschichten \xfcber sein Leben waren ausnahmslos L\xfcgen: der reiche philippinische Vater, die internationalen Connections, das Erbe. Alle wussten, dass er aufschnitt. Keiner scherte sich, weil er unterhaltsam war.</p>
+        <p class="vb-intro">1996/1997 bricht diese Welt auseinander. Sein Hauptf\xf6rderer zieht sich zur\xfcck. Jeffrey Trail, ein enger Freund und fr\xfcherer Geliebter, distanziert sich. David Madson, ebenfalls ein Ex-Partner, den Cunanan noch immer begehrt, ist dabei, sein Leben ohne ihn aufzubauen. Cunanan verliert seinen sozialen Ort &ndash; und ohne diesen Ort existiert er im eigenen Erleben nicht mehr. Im Fr\xfchjahr 1997 f\xe4hrt er nach Minneapolis zu Trail und Madson. Was genau dann geschah, ist nicht vollst\xe4ndig rekonstruierbar. Was feststeht: er kehrt nicht zur\xfcck.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Die Mordserie 1997</h3>
+        <p class="vb-intro"><strong>25. April 1997, Minneapolis, Minnesota:</strong> Andrew Cunanan erschl\xe4gt Jeffrey Trail (27) in der Wohnung von David Madson mit einem Hammer. Trail war ein fr\xfcherer Freund und Geliebter, dessen Distanzierung Cunanan als pers\xf6nliche Zur\xfcckweisung empfunden hatte. David Madson ist anwesend oder kehrt zur\xfcck; er bleibt zun\xe4chst mit Cunanan, aus bislang ungekl\xe4rten Gr\xfcnden.</p>
+        <p class="vb-intro"><strong>27.&ndash;29. April 1997, Rush Lake, Minnesota:</strong> David Madson (33), Architekt, Cunanans fr\xfcherer Partner, wird erschossen in der N\xe4he des Rush Lake aufgefunden. Cunanan hat ihn in den Tagen nach Trails Tod bei sich gehalten. Die genauen Umst\xe4nde &ndash; ob Madson freiwillig blieb, ob er fliehen wollte &ndash; sind nicht gesichert.</p>
+        <p class="vb-intro"><strong>3.&ndash;4. Mai 1997, Chicago, Illinois:</strong> Lee Miglin (72), angesehener Immobilienentwickler, wird in seiner Garage ermordet aufgefunden. Er wurde gefesselt, gefoltert und mit mehreren Wunden get\xf6tet. Cunanan hatte Miglin nach aktuellem Kenntnisstand nicht pers\xf6nlich gekannt &ndash; er hatte sein Fahrzeug gestohlen und offenbar zuf\xe4llig ein Opfer ausgew\xe4hlt. Mit Miglins Cadillac fl\xfcchtet er weiter Richtung Osten.</p>
+        <p class="vb-intro"><strong>9. Mai 1997, Pennsville, New Jersey:</strong> William Reese (45), Hausmeister eines nationalen Friedhofs, wird in seinem B\xfcro erschossen. Cunanan stiehlt seinen Pickup-Truck. Mit diesem Fahrzeug reist er nach Florida.</p>
+        <p class="vb-intro"><strong>15. Juli 1997, Miami Beach, Florida:</strong> Gianni Versace (50), einer der bekanntesten Modesch\u00f6pfer der Welt, kehrt morgens gegen 8:45 Uhr von einem Kiosk-Besuch zu\xfcck zu seiner Villa an der Ocean Drive. Andrew Cunanan erschie\xdft ihn auf den Eingangsstufen mit zwei Sch\xfcssen in den Kopf. Versace stirbt kurz darauf im Krankenhaus. Cunanan fl\xfcchtet &ndash; und wird zur meistgesuchten Person der USA.</p>
+        <p class="vb-intro"><strong>23. Juli 1997:</strong> Andrew Cunanan wird in einem Hausboot in Miami Beach tot aufgefunden. Er hat sich mit einer Schusswunde am Kopf selbst get\xf6tet, bevor die Polizei ihn greifen konnte. Er war 27 Jahre alt. Die genauen Motive f\xfcr die Mordserie &ndash; insbesondere f\xfcr die Wahl Versaces als letztes Opfer &ndash; sind auch heute noch nicht abschlie\xdfend gekl\xe4rt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Versace und die B\u00fchne</h3>
+        <p class="vb-intro">Die Wahl von Gianni Versace als letztem Opfer ist psychologisch aufschlussreich. Versace war alles, was Cunanan vorgab zu sein: reich, weltber\xfchmt, in den richtigen Kreisen gefeiert, ein Mensch, dessen Bild die Welt kannte. Ob Cunanan ihn pers\xf6nlich kannte, ist umstritten &ndash; es gibt Hinweise auf fl\xfcchtige Begegnungen in Clubs, aber keine belegte Beziehung. Was Cunanan w\xe4hlte, war kein pers\xf6nlicher Feind. Es war ein Symbol.</p>
+        <p class="vb-intro">Ein SO3w4 im Absturz sucht keine Stille. Er sucht eine B\u00fchne &ndash; auch wenn es die letzte ist. Den t\xf6dlichsten Schuss auf den gl\xe4nzendsten Menschen, den er kannte: das war Cunanans finale Inszenierung. Er hat damit genau das erreicht, was er sein ganzes Leben angestrebt hatte &ndash; weltweit \xfcber ihn zu reden. Auf die falsche Weise, aber unausweichlich.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Der SO3er im Kollaps:</strong> Der gesunde soziale Drei ist ein Vorbild, Br\xfcckenbauer, jemand der echten Wert f\xfcr seine Gemeinschaft schafft. Der ungesunde SO3 hat seine Identit\xe4t vollst\xe4ndig an das Bild delegiert, das andere von ihm haben &ndash; und ist damit maximal gef\xe4hrdet, wenn dieses Bild zusammenbricht. Cunanan hatte keine innere Substanz entwickelt, die den Verlust seines sozialen Ortes h\xe4tte abpuffern k\xf6nnen. Als der Ort weg war, war er weg.</p>
+        <p class="vb-intro"><strong>b) L\xfcge als Identit\xe4tskonstruktion:</strong> Der Unterschied zu einem Typ-4-Profil liegt hier: Eine Vier l\xfcgt selten \xfcber das, was sie <em>ist</em>. Sie kann \xfcber das, was sie f\xfchlt, dramatisieren &ndash; aber ihr Innenleben ist ihr echt. Cunanan hat \xfcber alles gel\xf6gen: Herkunft, Reichtum, Verbindungen. Das ist Drei-Energie: das Selbst als zu optimierende Darstellung.</p>
+        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel als Kippmoment:</strong> Ohne den Viererfl\u00fcgel h\xe4tte Cunanan vielleicht einfach eine neue Fassade aufgebaut, eine neue Stadt, neue Geschichten. Der Viererfl\u00fcgel macht den Neid zu tief, den emotionalen Einbruch zu drastisch. Er kann den Schmerz nicht einfach umleiten &ndash; er muss ihn irgendwohin, und das irgendwohin war die Mordserie.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Der Gepard ohne Jagdgebiet</h3>
+        <p class="vb-intro">Andrew Cunanan ist einer der r\xe4tselhaftesten F\xe4lle dieser Sammlung &ndash; nicht wegen der Taten selbst, sondern wegen der Frage, wozu sie dienen sollten. Es gibt keine einheitliche Erkl\xe4rung f\xfcr die Mordserie. Was das Enneagramm sichtbar macht, ist die <em>Struktur</em> hinter dem Chaos: Ein Mensch, dessen gesamtes Selbstgef\xfchl auf der Anerkennung anderer beruhte, verliert diese Anerkennung &ndash; und hat keine innere Ressource, auf die er zur\xfcckgreifen k\xf6nnte.</p>
+        <p class="vb-intro">Der Gepard ist pr\xe4zise, schnell, elegant &ndash; aber er ben\xf6tigt Raum zum Laufen. Cunanan hatte keinen Raum mehr. Was folgte, war kein Plan, keine Ideologie, keine Botschaft. Es war ein freier Fall &ndash; \xe4sthetisch inszeniert bis zur letzten Sekunde, aber innerlich schon lange leer.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Andrew Phillip Cunanan</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als Selbstbild, nicht nur als Mittel)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 31. August 1969 &ndash; 23. Juli 1997</span>
+          <span style="display:block;"><strong>Tatfolgen:</strong> 5 Tote; Mordserie April&ndash;Juli 1997, USA</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt \u2013 und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Andrew Cunanan t\u00f6tete sich selbst, bevor er festgenommen werden konnte. F\u00fcnf Morde, darunter der an Gianni Versace, sind ihm zuzurechnen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
+          {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
+          {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey (SE2w3)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 function ojSimpsonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10099,89 +10194,6 @@ function kampfkunstartenDer9TypenPage() {
         {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
         {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function grimmsMaerchenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Grimms M\u00e4rchen der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Kaum eine Erz\u00e4hlform tr\u00e4gt archetypisches Wissen so unmittelbar weiter wie das M\u00e4rchen. In wenigen, klaren Bildern erz\u00e4hlen die Grimm'schen M\u00e4rchen von genau jenen inneren K\u00e4mpfen, Sehns\u00fcchten und Erl\u00f6sungswegen, die auch das Enneagramm beschreibt \u2014 Neid, Stolz, Tr\u00e4gheit, Gier, Angst, nicht als abstrakte Begriffe, sondern als Hexen, W\u00f6lfe, verzauberte Prinzen und tapfere Schneiderlein. Genau deshalb sind M\u00e4rchen f\u00fcr Kinder so wichtig: Sie lassen die Grundprinzipien dieser Welt fr\u00fch und auf einer Ebene erfahrbar werden, die kein Sachbuch erreicht \u2014 auch wenn sie manchmal unbequem, ja grausam sind. Denn sie erz\u00e4hlen von der Wirklichkeit, nicht von einer besch\u00f6nigten Version davon. Das Vorlesen von M\u00e4rchen ist heute seltener geworden, als es sein sollte \u2014 dabei br\u00e4uchten gerade Kinder diese fr\u00fchen, archetypischen Landkarten der Seele.</p>
-      <img src="./assets/grimms-maerchen-der-9-typen.jpg" alt="Grimms M\u00e4rchen und Enneagramm-Strukturen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-
-      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin:0 0 2rem;padding:1rem;background:var(--paper);border-radius:10px;border:1px solid var(--line);">
-        <span style="font-size:0.8rem;font-weight:700;color:var(--gray-mid);width:100%;text-align:center;margin-bottom:0.3rem;">Schnellzugriff \u2014 direkt zum Typ</span>
-        ${[1,2,3,4,5,6,7,8,9].map(n => `<a href="javascript:void(0)" onclick="document.getElementById('grimm-typ-${n}').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;font-weight:700;padding:0.3rem 0.7rem;border-radius:6px;background:linear-gradient(160deg, ${typeColor(n)}22, ${typeColor(n)}0d);color:${typeColor(n)};text-decoration:none;border:1px solid ${typeColor(n)};">Typ ${n}</a>`).join("")}
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 id="grimm-typ-1" style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Der Froschk\u00f6nig \u00b7 K\u00f6nig Drosselbart \u00b7 Der Eisenofen</h3>
-        <p class="vb-intro">Alle drei M\u00e4rchen erz\u00e4hlen von Verwandlung durch Prinzipientreue \u2014 davon, dass Erl\u00f6sung nicht durch Gef\u00fchl, sondern durch das Einhalten des rechten Weges geschieht. Genau das ist die innerste Logik des Typs 1.</p>
-        <p class="vb-intro"><strong>Der Froschk\u00f6nig:</strong> Die Prinzessin verspricht dem Frosch aus Not, ihn als Gef\u00e4hrten zu akzeptieren \u2014 und muss dieses Versprechen sp\u00e4ter gegen ihren Ekel halten. Erst als sie ihr Wort tats\u00e4chlich einl\u00f6st, nicht weil sie will, sondern weil es richtig ist, l\u00f6st sich der Zauber. Ein Urbild des Typ-1-Prinzips: Nicht das Gef\u00fchl entscheidet, sondern die Verpflichtung, die man eingegangen ist.</p>
-        <p class="vb-intro"><strong>K\u00f6nig Drosselbart:</strong> Eine hochm\u00fctige Prinzessin, die jeden Bewerber verspottet, wird durch eine harte Lektion in Demut gef\u00fchrt \u2014 verkleidet als Bettler muss sie ihren eigenen Hochmut am eigenen Leib erfahren, bevor sie zur wahren, ungek\u00fcnstelten Integrit\u00e4t finden kann. Die L\u00e4uterung falschen Stolzes zu echter Rechtschaffenheit ist ein zentrales Typ-1-Motiv.</p>
-        <p class="vb-intro"><strong>Der Eisenofen:</strong> Ein verzauberter Prinz kann nur erl\u00f6st werden, wenn eine treue Gef\u00e4hrtin eine Reihe schwieriger, genau einzuhaltender Aufgaben erf\u00fcllt \u2014 und selbst als sie gegen eine einzige Regel verst\u00f6\u00dft, muss sie den Fehler durch beharrliches, korrektes Handeln wiedergutmachen. Erl\u00f6sung als Belohnung f\u00fcr Beharrlichkeit trotz R\u00fcckschl\u00e4gen.</p>
-
-        <h3 id="grimm-typ-2" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Rotk\u00e4ppchen \u00b7 Rapunzel \u00b7 Der s\u00fc\u00dfe Brei</h3>
-        <p class="vb-intro">Diese drei M\u00e4rchen kreisen um F\u00fcrsorge, N\u00e4he und Nahrung \u2014 und um deren Schattenseite: Geben, Binden und N\u00e4hren, das aus dem Gleichgewicht ger\u00e4t. Ein Kernthema des Typs 2.</p>
-        <p class="vb-intro"><strong>Rotk\u00e4ppchen:</strong> Ein M\u00e4dchen bringt liebevoll Essen zur kranken Gro\u00dfmutter \u2014 und wird durch ihre eigene Gutgl\u00e4ubigkeit und Grenzenlosigkeit zur Beute des Wolfs. Ein Bild daf\u00fcr, wie das reine Bed\u00fcrfnis zu geben und zu versorgen blind machen kann f\u00fcr Gefahr und f\u00fcr die eigenen Grenzen.</p>
-        <p class="vb-intro"><strong>Rapunzel:</strong> Eine Zauberin sperrt ein M\u00e4dchen aus vermeintlicher F\u00fcrsorge in einen Turm und l\u00e4sst niemanden an sie heran \u2014 die Schattenseite der Typ-2-Energie in Reinform: Liebe, die zu Besitz und Kontrolle wird, F\u00fcrsorge, die den anderen einsperrt statt ihn wachsen zu lassen.</p>
-        <p class="vb-intro"><strong>Der s\u00fc\u00dfe Brei:</strong> Ein magischer Topf, der auf Zuruf endlos Brei kocht, ger\u00e4t au\u00dfer Kontrolle und \u00fcberflutet das ganze Dorf. Ein treffendes Bild f\u00fcr ungebremstes Geben und N\u00e4hren, das \u2014 einmal in Gang gesetzt \u2014 sich selbst nicht mehr zu stoppen wei\u00df.</p>
-
-        <h3 id="grimm-typ-3" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Marienkind \u00b7 Doktor Allwissend \u00b7 Der Meisterdieb</h3>
-        <p class="vb-intro">In allen drei Geschichten geht es um Image, T\u00e4uschung und die Frage, was einen wirklichen Wert schafft \u2014 Leistung, Schein oder Wahrheit. Der zentrale Konflikt des Typs 3.</p>
-        <p class="vb-intro"><strong>Marienkind:</strong> Ein M\u00e4dchen \u00f6ffnet aus Neugier eine verbotene T\u00fcr, leugnet die Tat jedoch beharrlich, um ihr Bild der Unschuld zu wahren \u2014 und verliert daf\u00fcr ihre Stimme. Erst das ehrliche Bekenntnis, das Ablegen der Fassade, bringt die Erl\u00f6sung. Image gegen Wahrheit \u2014 ein Kernthema von Typ 3.</p>
-        <p class="vb-intro"><strong>Doktor Allwissend:</strong> Ein einfacher Bauer gibt sich durch geschickte Inszenierung als allwissender Gelehrter aus \u2014 und hat tats\u00e4chlich Erfolg, allein durch die \u00fcberzeugende Darstellung, nicht durch echtes Wissen. Ein M\u00e4rchen \u00fcber die Kraft (und Gefahr) der reinen Selbstdarstellung.</p>
-        <p class="vb-intro"><strong>Der Meisterdieb:</strong> Ein gewiefter Held beweist seine F\u00e4higkeiten durch spektakul\u00e4re, \u00f6ffentlich bestaunte Kunstst\u00fccke \u2014 sein Wert bemisst sich an der Wirkung vor Publikum, nicht an stiller Tugend. Leistung als B\u00fchne, auf der man gl\u00e4nzen muss.</p>
-
-        <h3 id="grimm-typ-4" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Schneewittchen \u00b7 Vom Fischer und seiner Frau \u00b7 Jorinde und Joringel</h3>
-        <p class="vb-intro">Drei Geschichten \u00fcber Einzigartigkeit, unstillbare Sehnsucht und den Schmerz des Verlusts \u2014 Grundmelodien des Typs 4.</p>
-        <p class="vb-intro"><strong>Schneewittchen:</strong> Die Stiefmutter kann die einzigartige Sch\u00f6nheit der Tochter nicht ertragen und verfolgt sie bis zum vermeintlichen Tod. Ein M\u00e4rchen \u00fcber Neid auf das Besondere im anderen, \u00fcber Isolation, Verlust der eigenen Mitte \u2014 und die Wiedererweckung durch echte, unverstellte Liebe.</p>
-        <p class="vb-intro"><strong>Vom Fischer und seiner Frau:</strong> Eine Frau w\u00fcnscht sich immer mehr \u2014 vom H\u00e4uschen zum Palast, vom K\u00f6nig zum Papst, zuletzt will sie sein wie Gott selbst \u2014 und verliert am Ende alles. Der endlose Hunger nach dem, was fehlt, als Kern der Erz\u00e4hlung.</p>
-        <p class="vb-intro"><strong>Jorinde und Joringel:</strong> Zwei Liebende werden durch eine Verzauberung brutal getrennt, die Sehnsucht nach der verlorenen Verbindung zieht sich \u00fcber Jahre \u2014 bis Beharrlichkeit und ein magisches Zeichen die Wiedervereinigung erm\u00f6glichen. Sehnsucht, Verlust und das Festhalten an dem, was einmal ganz war.</p>
-
-        <h3 id="grimm-typ-5" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 H\u00e4nsel und Gretel \u00b7 Das tapfere Schneiderlein \u00b7 Rumpelstilzchen</h3>
-        <p class="vb-intro">Drei Geschichten, in denen Verstand, Wissen und List \u00fcber rohe Kraft siegen \u2014 die \u00dcberlebensstrategie des Typs 5.</p>
-        <p class="vb-intro"><strong>H\u00e4nsel und Gretel:</strong> Im Wald ausgesetzte Kinder \u00fcberleben nicht durch Kraft, sondern durch Scharfsinn \u2014 Brotkrumen als Orientierungssystem, eine kluge List, um der Hexe zu entkommen. \u00dcberleben durch Denken, nicht durch k\u00f6rperliche St\u00e4rke.</p>
-        <p class="vb-intro"><strong>Das tapfere Schneiderlein:</strong> Ein kleiner, k\u00f6rperlich unterlegener Schneider besiegt Riesen und Einh\u00f6rner allein durch Cleverness, Sprache und geschickte T\u00e4uschung. Der Intellekt als \u00fcberlegene Waffe gegen\u00fcber roher Gewalt \u2014 ein Urbild des Typ-5-Prinzips.</p>
-        <p class="vb-intro"><strong>Rumpelstilzchen:</strong> Das Wissen um den geheimen Namen des M\u00e4nnchens wird zur einzigen Rettung der K\u00f6nigin \u2014 Wissen als Schl\u00fcssel zur Macht, als das eine entscheidende Detail, das \u00fcber Sieg oder Niederlage entscheidet.</p>
-
-        <h3 id="grimm-typ-6" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Phobisch: Der Wolf und die sieben Gei\u00dflein \u00b7 Kontraphobisch: M\u00e4rchen von einem, der auszog, das F\u00fcrchten zu lernen</h3>
-        <p class="vb-intro">Der Typ 6 zeigt sich im Enneagramm in zwei gegens\u00e4tzlichen Auspr\u00e4gungen \u2014 der phobischen (vorsichtig-wachsamen) und der kontraphobischen (der Angst aktiv entgegentretenden) Variante. Beide finden sich hier exemplarisch.</p>
-        <p class="vb-intro"><strong>Der Wolf und die sieben Gei\u00dflein (phobisch):</strong> Die Gei\u00dfenmutter warnt eindringlich vor dem Wolf, der sich als sie selbst tarnt \u2014 die Gei\u00dflein m\u00fcssen lernen, jedes Zeichen genau zu pr\u00fcfen, bevor sie vertrauen. Wachsamkeit und Misstrauen als \u00dcberlebensstrategie, Sicherheit durch st\u00e4ndige Pr\u00fcfung.</p>
-        <p class="vb-intro"><strong>M\u00e4rchen von einem, der auszog, das F\u00fcrchten zu lernen (kontraphobisch):</strong> Ein junger Mann, der buchst\u00e4blich keine Angst empfinden kann, sucht sie aktiv \u2014 er stellt sich Geistern, Toten und Ungeheuern, um endlich das Gruseln zu lernen. Die Angst nicht zu vermeiden, sondern ihr direkt entgegenzugehen, um sie zu bezwingen \u2014 die kontraphobische Spielart des Typs 6.</p>
-
-        <h3 id="grimm-typ-7" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Hans im Gl\u00fcck \u00b7 Bruder Lustig \u00b7 Der Spielhansel</h3>
-        <p class="vb-intro">Drei Figuren, die dem Ernst des Lebens mit Leichtigkeit, Witz und best\u00e4ndiger Umdeutung begegnen \u2014 die Grundhaltung des Typs 7.</p>
-        <p class="vb-intro"><strong>Hans im Gl\u00fcck:</strong> Hans tauscht seinen Lohn immer wieder gegen etwas scheinbar Geringeres \u2014 bis er am Ende mit leeren H\u00e4nden dasteht und sich trotzdem als der gl\u00fccklichste Mensch der Welt f\u00fchlt. Die Kunst, jeden Verlust positiv umzudeuten und sich nie von der eigenen guten Laune abbringen zu lassen.</p>
-        <p class="vb-intro"><strong>Bruder Lustig:</strong> Ein schlitzohriger, ewig hungriger und ewig fr\u00f6hlicher Ex-Soldat schwindelt sich mit Witz, Chuzpe und einer geh\u00f6rigen Portion Regelbruch durchs Leben \u2014 sogar mit dem Teufel und dem Heiligen Petrus handelt er noch. Lebensfreude, die sich von keiner Autorit\u00e4t einschr\u00e4nken l\u00e4sst.</p>
-        <p class="vb-intro"><strong>Der Spielhansel:</strong> Eine Gestalt, die das Leben als Spiel begreift, immer in Bewegung, immer auf der Suche nach der n\u00e4chsten Unterhaltung \u2014 ein Sinnbild f\u00fcr die Rastlosigkeit und den Facettenreichtum, mit dem Typ 7 der Langeweile entkommt.</p>
-
-        <h3 id="grimm-typ-8" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Der starke Hans \u00b7 Der junge Riese \u00b7 Lieb und Leid teilen</h3>
-        <p class="vb-intro">Drei Geschichten \u00fcber rohe Kraft, Schutzinstinkt und die Frage, wie sich Macht mit Loyalit\u00e4t verbindet \u2014 zentrale Themen des Typs 8.</p>
-        <p class="vb-intro"><strong>Der starke Hans:</strong> Ein Junge mit \u00fcbermenschlicher Kraft bezwingt R\u00e4uber und ein Ungeheuer, um Schw\u00e4chere zu befreien und zu besch\u00fctzen. Kraft, die sich nicht in Zerst\u00f6rung ersch\u00f6pft, sondern sich in den Dienst der Schwachen stellt \u2014 der positive Kern von Typ 8.</p>
-        <p class="vb-intro"><strong>Der junge Riese:</strong> Ein k\u00f6rperlich \u00fcberm\u00e4chtiger junger Mann wehrt sich gegen die Ausbeutung durch seinen Vater und sp\u00e4ter durch andere, die seine Kraft f\u00fcr ihre Zwecke missbrauchen wollen. Das Thema Gerechtigkeit und Selbstbehauptung durch St\u00e4rke gegen Unterdr\u00fcckung.</p>
-        <p class="vb-intro"><strong>Lieb und Leid teilen:</strong> Ein starker Mann verspricht seiner Braut, mit ihr sowohl Freude als auch Leid zu teilen \u2014 und wird buchst\u00e4blich auf diese Zusage gepr\u00fcft. Loyalit\u00e4t und Besch\u00fctzerprinzip, die auch die eigene Verwundbarkeit nicht verleugnen.</p>
-
-        <h3 id="grimm-typ-9" style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Das blaue Licht \u00b7 Der faule Heinz \u00b7 Die 12 faulen Knechte</h3>
-        <p class="vb-intro">Drei Geschichten \u00fcber R\u00fcckzug, Tr\u00e4gheit und die untersch\u00e4tzte, oft \u00fcbersehene innere Kraft \u2014 das Spannungsfeld des Typs 9.</p>
-        <p class="vb-intro"><strong>Das blaue Licht:</strong> Ein treuer Soldat wird nach Jahren des Dienstes achtlos fortgeschickt und \u00fcbersehen \u2014 bis er eine magische, verborgene Kraft entdeckt, die ihm endlich zu seinem Recht verhilft. Ein Bild f\u00fcr die stille, oft \u00fcbergangene Kraft, die im R\u00fcckzug schlummert und erst geweckt werden muss.</p>
-        <p class="vb-intro"><strong>Der faule Heinz:</strong> Eine Figur, die sich mit bemerkenswertem Erfindungsreichtum jeder Anstrengung entzieht und lieber noch mehr Aufwand betreibt, um Arbeit zu vermeiden, als die Arbeit selbst zu tun. Tr\u00e4gheit als zentrales Motiv, der Widerstand gegen jede Form von Aktivit\u00e4t, die den inneren Frieden st\u00f6ren k\u00f6nnte.</p>
-        <p class="vb-intro"><strong>Die 12 faulen Knechte:</strong> Eine ganze Gruppe von Knechten, die sich gegenseitig in ihrer Arbeitsvermeidung best\u00e4tigt und mit immer neuen Ausreden dem Handeln entgeht. Kollektive Tr\u00e4gheit und Konfliktvermeidung durch beharrliches Nicht-Tun.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"bagua-zonen-der-9-typen", label:"Bagua-Zonen der 9 Typen"},
-        {route:"kampfkunstarten-der-9-typen", label:"Kampfkunstarten der 9 Typen"},
-        {route:"limericks", label:"Die 9 Enneagramm-Limericks"},
       ])}
     </div>
   `);

@@ -9519,9 +9519,217 @@ function michaelJacksonKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – Lebenswerk"},
         {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function hansChristianAndersenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1805–1875</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans Christian Andersen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hans-christian-andersen">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, seine Herkunft und seine
+        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift
+        wird: der lebenslangen Hypochondrie, den quälenden Zahnproblemen und der Krebserkrankung,
+        an der Andersen 1875 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Andersen</strong> ist dem <strong>sozialen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SO4 trägt ihre Scham über das eigene Anderssein in die Gruppe hinein und
+        sucht dort unablässig Bestätigung; der Dreierflügel verstärkt dieses Bedürfnis zu aktivem
+        Streben nach öffentlicher Anerkennung. Bei Andersen zeigte sich das in einer bemerkenswerten
+        Diskrepanz: eine tief empfundene, oft übertriebene Sorge um den eigenen Körper, die er nach
+        außen kaum zeigte, solange ein Publikum ihn brauchte – und die erst hervortrat, sobald keine
+        Bühne mehr in Sicht war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine lebenslange Hypochondrie, gut dokumentiert in Briefen und Tagebüchern:</strong>
+        Andersen führte über Jahrzehnte detaillierte Tagebücher, in denen kleinste körperliche
+        Beschwerden – ein Ziehen im Bauch, ein leichtes Fieber, eine Erkältung – mit auffälliger
+        Ausführlichkeit und Sorge festgehalten wurden. Zeitgenossen und spätere Biografen sind sich
+        einig, dass diese Selbstbeobachtung weit über das übliche Maß hinausging.</p>
+        <p class="vb-intro"><strong>b) Die berühmte Angst, lebendig begraben zu werden:</strong>
+        Andersen trug zeitlebens einen Zettel bei sich mit der Bitte, man möge ihm nach dem
+        vermeintlichen Tod die Pulsadern öffnen, um sicherzugehen, dass er wirklich gestorben sei –
+        eine der bestbezeugten Einzelheiten seiner Hypochondrie, die er selbst wiederholt
+        gegenüber Freunden erwähnte.</p>
+        <p class="vb-intro"><strong>c) Quälende Zahnprobleme von früh an:</strong>
+        Schon in mittleren Jahren litt Andersen unter starken, wiederkehrenden Zahnschmerzen und
+        einem fortschreitenden Zahnverlust, den er in Briefen mehrfach als große Qual beschrieb –
+        ein Leiden, das ihn zeitlebens begleitete und das er trotz seiner sonstigen Gesundheitssorge
+        lange kaum professionell behandeln ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein folgenschwerer Sturz im Jahr 1872:</strong>
+        Im Frühjahr 1872 stürzte Andersen aus dem Bett und verletzte sich schwer – ein Ereignis, das
+        Biografen übereinstimmend als Wendepunkt seiner letzten Lebensjahre beschreiben. Von diesem
+        Sturz erholte er sich nie wieder vollständig.</p>
+        <p class="vb-intro"><strong>b) Fortschreitende Erschöpfung und Gewichtsverlust:</strong>
+        In den folgenden drei Jahren verschlechterte sich sein Gesundheitszustand stetig – wachsende
+        Erschöpfung, Appetitlosigkeit und ein deutlicher körperlicher Verfall, den enge Freunde in
+        Briefen dokumentierten.</p>
+        <p class="vb-intro"><strong>c) Die Diagnose:</strong>
+        Andersens Ärzte gingen von einer Krebserkrankung der Leber aus – eine Einschätzung, die auf
+        den beobachteten Symptomen beruhte, ohne die diagnostischen Möglichkeiten, die heutige
+        Medizin zur Verfügung hätte. Die genaue Art der Erkrankung lässt sich aus heutiger Sicht
+        nicht mehr mit letzter Sicherheit rekonstruieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Pflege im Haus befreundeter Familien:</strong>
+        In seinen letzten Lebensjahren wurde Andersen von der befreundeten Kaufmannsfamilie Melchior
+        gepflegt, zunächst in Kopenhagen, später in deren Landhaus Rolighed – ein Zeichen dafür, wie
+        sehr der kinderlose, unverheiratete Andersen am Ende seines Lebens auf die Zugehörigkeit zu
+        einer ihn tragenden Gemeinschaft angewiesen war, die er sich selbst nie in Form einer
+        eigenen Familie hatte schaffen können.</p>
+        <p class="vb-intro"><strong>b) Weiterhin öffentliche Präsenz trotz Schwäche:</strong>
+        Auch nach dem Sturz 1872 nahm Andersen, solange es seine Kräfte zuließen, weiterhin an
+        gesellschaftlichen Anlässen teil und pflegte seinen Briefwechsel mit Prominenten und
+        Bewunderern – das Bedürfnis nach sichtbarer Zugehörigkeit ließ sich selbst durch
+        fortschreitende Krankheit kaum dämpfen.</p>
+        <p class="vb-intro"><strong>c) Ein langsames, öffentlich begleitetes Sterben:</strong>
+        Andersens letzte Lebensmonate wurden in der dänischen Öffentlichkeit aufmerksam verfolgt;
+        Zeitungen berichteten regelmäßig über seinen Gesundheitszustand – für die soziale Vier mit
+        Dreierflügel, die zeitlebens nach öffentlicher Anteilnahme gesucht hatte, eine Situation, in
+        der ihm genau das zuteilwurde, wonach er sich sein Leben lang gesehnt hatte, wenn auch
+        unter den bittersten Umständen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Tod am 4. August 1875:</strong>
+        Hans Christian Andersen starb am 4. August 1875 im Alter von 70 Jahren in Rolighed, dem
+        Landhaus der Familie Melchior bei Kopenhagen, umgeben von den Menschen, die ihm in seinen
+        letzten Jahren am nächsten standen.</p>
+        <p class="vb-intro"><strong>b) Ein Staatsbegräbnis als letzte öffentliche Bestätigung:</strong>
+        Andersens Beerdigung wurde zu einem Ereignis nationaler Trauer, an dem auch der dänische
+        König und die königliche Familie teilnahmen – die späte, endgültige Bestätigung der
+        gesellschaftlichen Zugehörigkeit, um die sich der soziale Vierer mit Dreierflügel sein
+        ganzes Leben lang bemüht hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachruhm, der die eigene Unsicherheit weit überdauerte:</strong>
+        Innerhalb weniger Jahrzehnte nach seinem Tod wurde Andersen zum meistübersetzten dänischen
+        Schriftsteller aller Zeiten – ein Ausmaß an weltweiter Anerkennung, das die zeitlebens
+        nagende Sorge, nicht wirklich dazuzugehören, im Rückblick als tragische Fehleinschätzung
+        erscheinen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Hypochondrie als umgelenkte Zugehörigkeitssorge:</strong>
+        Die für Andersen so charakteristische Sorge um den eigenen Körper lässt sich als eine nach
+        innen gerichtete Variante seiner eigentlichen Grundangst lesen: nicht wirklich gesehen,
+        nicht wirklich gebraucht, nicht wirklich zugehörig zu sein. Die minutiöse Beobachtung
+        kleinster körperlicher Signale gab dieser diffusen Sorge ein konkretes, kontrollierbares
+        Objekt.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Motor der Weiterarbeit trotz Schwäche:</strong>
+        Derselbe Dreierflügel, der Andersen zeitlebens antrieb, öffentlich sichtbar zu bleiben, ließ
+        ihn auch nach dem Sturz 1872 nicht kampflos aufgeben – noch in geschwächtem Zustand suchte
+        er weiterhin Kontakt zu Bewunderern und Förderern, als könne öffentliche Zuwendung die
+        fortschreitende Krankheit aufhalten.</p>
+        <p class="vb-intro"><strong>c) Die Zahnschmerzen als verdrängtes, weil unglamouröses Leiden:</strong>
+        Auffällig ist der Kontrast zwischen Andersens ausführlicher Sorge um dramatischere,
+        erzählbare Beschwerden und seinem jahrzehntelangen Hinnehmen der Zahnschmerzen – ein Leiden
+        ohne öffentliche Bühne, das ihm vermutlich zu profan erschien, um es in seine sorgfältig
+        gepflegte Selbstdarstellung als sensibler, leidender Künstler einzubauen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Michael Jackson (SO4w3):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a>,
+        ebenfalls SO4w3, zeigt sich bei Andersen das für diesen Subtyp typische Muster: die
+        sorgfältig gepflegte öffentliche Rolle – bei Jackson der makellose King of Pop, bei Andersen
+        der sensible, weltweit gefeierte Märchendichter – wird bis zuletzt aufrechterhalten, während
+        das eigentliche körperliche Leiden im Hintergrund verläuft. Bei Jackson war es die über
+        Jahrzehnte verheimlichte Schmerzmittelabhängigkeit, bei Andersen die stumm ausgehaltenen
+        Zahnschmerzen neben der ausführlich dokumentierten, aber letztlich hilflosen Sorge um alles
+        andere – zwei Varianten derselben SO4w3-Grundbewegung: das Bild nach außen wahren, das
+        eigene Innere zurückstellen.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte gewachsene Sorge, kein plötzlicher Einbruch:</strong>
+        Von den frühesten dokumentierten Tagebucheinträgen über kleinste Beschwerden bis zum
+        tatsächlichen Krankheitsverlauf nach 1872 zieht sich eine durchgehende Linie: Andersens
+        Körper war ihm sein Leben lang ein Objekt intensiver, oft übertriebener Aufmerksamkeit –
+        bevor die reale Erkrankung sie schließlich einholte.</p>
+        <p class="vb-intro"><strong>c) Zwei Leiden, ein gemeinsamer blinder Fleck:</strong>
+        Die ausführlich dokumentierte Hypochondrie und die kaum erwähnten, tatsächlich behandlungsbedürftigen
+        Zahnprobleme lassen sich als zwei Seiten derselben Schieflage lesen: Aufmerksamkeit floss
+        dorthin, wo sie erzählbar und damit sozial verwertbar war – nicht notwendig dorthin, wo der
+        Körper sie am dringendsten gebraucht hätte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
+        Für eine soziale Vier, deren Grundthema die Frage ist, ob sie in der Gemeinschaft wirklich
+        ihren Platz hat, liegt eine Deutung nahe: Die Leber gilt in vielen psychosomatischen
+        Traditionen als das Organ der verarbeiteten, oft auch der zurückgehaltenen Emotion – bei
+        einem Menschen, der zeitlebens mehr fühlte, als er in einer für seine Zeit akzeptablen Form
+        zeigen konnte, und der bis zuletzt kontrollierte, was von seinem Inneren nach außen drang,
+        ist das ein naheliegendes Bild. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im
+        <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Psychosomatik-Register
+        zu Leberkrebs</a> dieses Kompasses ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier mit Dreierflügel zwangsläufig zu
+        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Andersens Fall zeigen lässt, ist ein Muster, das bei der
+        Neigung, erzählbares Leiden ausführlich zu dokumentieren und unglamouröses Leiden zu
+        übergehen, in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen,
+        kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Andersen kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten in dieser Form noch gar nicht. Die Sehnsucht nach Zugehörigkeit, die ihn ein Leben
+        lang antrieb, öffentlich sichtbar und geliebt zu sein, kannte für ihn keinen eingebauten
+        Warnmechanismus, der zwischen erzählbarem und tatsächlich dringlichem Leiden unterschieden
+        hätte; im Gegenteil, jedes körperliche Signal wurde in derselben Logik verarbeitet, mit der
+        er auch soziale Signale verarbeitete: als etwas, das entweder zur eigenen Geschichte passte
+        oder eben nicht. Wer das eigene Muster nicht kennt, kann es auch nicht rechtzeitig
+        unterbrechen – bei Andersen bedeutete das ein Leben, das an ausführlich dokumentierter Sorge
+        um kleine Beschwerden reich war und an tatsächlicher Fürsorge für den eigenen, real
+        leidenden Körper arm blieb, bis die Krankheit, die ihn schließlich das Leben kostete, keine
+        Ausflucht mehr zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Andersens</strong> Krankengeschichte zeigt sich die soziale Vier mit Dreierflügel
+        von ihrer widersprüchlichsten Seite: eine lebenslange, minutiös dokumentierte Sorge um den
+        eigenen Körper – und ein tatsächliches Leiden, das sich erst zeigte, als keine Bühne mehr
+        half. Das Gürteltier, das sich sein Leben lang nach Zugehörigkeit sehnte, erhielt sie am
+        Ende in Form eines Staatsbegräbnisses – am 4. August 1875, im Alter von 70 Jahren, an den
+        Folgen einer vermuteten Krebserkrankung der Leber.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3) – dieselbe Verbergungsstrategie"},
+        {route:"psychosomatik/leberkrebs", label:"Psychosomatik-Register: Leberkrebs"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
@@ -9894,367 +10102,6 @@ function konradAdenauerKrankheitsportraetPage() {
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
-      ])}
-    </div>
-  `);
-}
-
-function johannSebastianBachKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-johann-sebastian-bach-portrait.jpg" alt="Johann Sebastian Bach" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johann Sebastian Bach</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · 1685–1750</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Schwarze Mamba</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Johann Sebastian Bach</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-johann-sebastian-bach">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier wird ausführlich ein Kapitel beleuchtet, das dort nur eine Randnotiz bleibt:
-        eine über Jahre fortschreitende Erblindung, zwei missglückte Augenoperationen und Bachs
-        Tod wenige Monate danach im Jahr 1750.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Bach</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
-        zugeordnet. Die SX1 richtet den Vollkommenheitsanspruch der Eins nicht auf die ganze
-        Welt, sondern mit kompromissloser Intensität auf den engsten Kreis – auf eine einzige
-        Sache, eine einzige Berufung, für die keine Mühe zu groß ist. Der Neunerflügel bringt
-        eine ruhige, undramatische Beharrlichkeit hinzu: Bach klagte selten, er arbeitete
-        weiter – ein Muster, das sich bis in seine letzten, fast erblindeten Lebensmonate
-        nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Die Augen als Werkzeug der Hingabe, nicht der Schonung:</strong>
-        Schon als Junge kopierte Bach der Überlieferung nach heimlich verbotene Notenblätter
-        bei Mondlicht – eine frühe Bereitschaft, die eigene Sehkraft für die Musik aufs Spiel
-        zu setzen, lange bevor sie tatsächlich in Gefahr geriet.</p>
-        <p class="vb-intro"><strong>b) Nachlassende Sicht als hingenommene Realität, nicht als Alarmsignal:</strong>
-        Die zunehmend zittrige, schwer lesbare Handschrift seiner letzten Notenmanuskripte
-        dokumentiert eine über Jahre fortschreitende Sehschwäche, die Bach offenbar arbeitend
-        durchstand, statt sich frühzeitig zurückzuziehen.</p>
-        <p class="vb-intro"><strong>c) Konzentration auf das eine Werk trotz schwindender Sicht:</strong>
-        Noch in den späten 1740er-Jahren arbeitete Bach an großen, hochkomplexen Kompositionen
-        wie der h-Moll-Messe – eine Konzentration auf das Wesentliche, die für die sexuelle
-        Eins mit Neunerflügel typisch ist.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine schleichende Verschlechterung ohne klare Diagnose:</strong>
-        Zeitgenössische Quellen dokumentieren keinen genauen Beginn der Augenerkrankung –
-        rückblickend wird sie als grauer Star gedeutet, zeitgenössisch aber nie eindeutig
-        diagnostiziert.</p>
-        <p class="vb-intro"><strong>b) Zwei Operationen im März 1750:</strong>
-        Bach unterzog sich zwei Eingriffen durch den reisenden, selbsternannten "Chevalier"
-        John Taylor, einen britischen Augenoperateur von zweifelhaftem Ruf. Die angewandte
-        Methode, das sogenannte "Couching", verlagerte die getrübte Linse, statt sie zu
-        entfernen – ein bereits damals veraltetes, riskantes Verfahren.</p>
-        <p class="vb-intro"><strong>c) Vollständige Erblindung nach der zweiten Operation:</strong>
-        Nach etwa einer Woche musste erneut operiert werden, da sich der Star zurückbildete.
-        Diese zweite Operation führte zur vollständigen Erblindung Bachs.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Derselbe Operateur, dasselbe Schicksal bei Händel:</strong>
-        Kurz nach Bach operierte John Taylor auch Georg Friedrich Händel – mit ebenfalls
-        verheerendem Ausgang. Zwei der bedeutendsten Komponisten des Barock wurden durch
-        denselben zweifelhaften "Wunderheiler" erblindet zurückgelassen.</p>
-        <p class="vb-intro"><strong>b) Vier Monate zwischen Erblindung und Tod:</strong>
-        Am 28. Juli 1750, rund vier Monate nach den Operationen, starb Bach nach einem
-        Schlaganfall, dem laut dem 1754 veröffentlichten Nekrolog ein "hitziges Fieber"
-        vorausging – vermutlich eine fieberhafte Infektion.</p>
-        <p class="vb-intro"><strong>c) Die Kausalität bleibt Deutung, nicht gesicherter Fakt:</strong>
-        Ob die Operationen selbst den tödlichen Verlauf auslösten, ist eine in der Forschung
-        verbreitete, plausible, aber nicht abschließend bewiesene Verbindung – eine
-        moderne Autopsie im heutigen Sinne existiert nicht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Eine populäre Legende, die der Forschung nicht standhält:</strong>
-        Die romantische Erzählung, Bach sei mitten in der Komposition der letzten Fuge der
-        "Kunst der Fuge" gestorben, ist heute widerlegt – das Autograph der letzten,
-        unvollendeten Fuge stammt bereits aus den Jahren 1748/49, also von vor der
-        Erblindung.</p>
-        <p class="vb-intro"><strong>b) Die h-Moll-Messe als plausibleres letztes großes Werk:</strong>
-        Der Bach-Forscher Christoph Wolff argumentiert, dass eher die h-Moll-Messe als
-        Bachs eigentliches letztes vollendetes Hauptwerk gelten sollte – ein Werk, das er
-        offenbar noch mit erheblicher Sehkraft-Einschränkung zu Ende brachte.</p>
-        <p class="vb-intro"><strong>c) Eine bis heute diskutierte Rückdiagnose:</strong>
-        Manche Forscher vermuten einen fortgeschrittenen Diabetes als Ursache sowohl der
-        Sehverschlechterung als auch der schlechten Wundheilung nach der Operation – eine
-        moderne Vermutung, keine gesicherte historische Diagnose.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Arbeit als Konstante trotz nachlassender Sicht:</strong>
-        Bach ließ sich von der fortschreitenden Sehschwäche offenbar nicht von seiner
-        kompositorischen Arbeit abbringen – ein Ausdruck der Intensität, mit der die
-        sexuelle Eins sich der einen, alles überragenden Sache widmet.</p>
-        <p class="vb-intro"><strong>b) Neunerflügel-Gelassenheit im Angesicht des Risikos:</strong>
-        Die Entscheidung, sich einem riskanten, damals bereits umstrittenen Eingriff zu
-        unterziehen, statt mit der Erblindung zu leben, zeigt eine ruhige, fast fatalistische
-        Risikobereitschaft – kein dramatischer Kampf, sondern ein stiller Versuch,
-        das Problem zu lösen und weiterzuarbeiten.</p>
-        <p class="vb-intro"><strong>c) Die Schwarze Mamba, die bis zum letzten Biss präzise blieb:</strong>
-        Selbst in den letzten Lebensmonaten, fast vollständig erblindet, blieb Bachs
-        kompositorisches Denken offenbar ungebrochen scharf – eine Präzision, die keine
-        Behinderung zu trüben vermochte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Risiko, das schon in der Kindheit begann:</strong>
-        Der Überlieferung nach kopierte der junge Bach verbotene Notenblätter heimlich bei
-        Mondlicht – ein früher, selbst gewählter Raubbau an den eigenen Augen im Dienst der
-        Musik, Jahrzehnte bevor die tatsächliche Erblindung eintrat.</p>
-        <p class="vb-intro"><strong>b) Jahre schleichenden Verlusts, ohne öffentliches Klagen:</strong>
-        Die zunehmend unleserliche Handschrift seiner letzten Manuskripte ist der einzige
-        erhaltene Hinweis auf eine Verschlechterung, die Bach offenbar nie in den Mittelpunkt
-        seiner eigenen Aufzeichnungen stellte.</p>
-        <p class="vb-intro"><strong>c) Zwei Operationen, ein Verlust, vier Monate bis zum Tod:</strong>
-        Die zeitliche Nähe zwischen der vollständigen Erblindung im März 1750 und Bachs Tod
-        am 28. Juli 1750 ist historisch gut belegt, auch wenn die genaue kausale Kette
-        Gegenstand fortlaufender Deutung bleibt.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Augen?</strong>
-        Für eine sexuelle Eins, deren gesamte Hingabe sich mit kompromissloser Intensität auf
-        die eine Sache richtet, der sie sich verschrieben hat, liegt eine Deutung nahe: Die
-        Augen waren für Bach zeitlebens das Organ, mit dem er sich seiner Berufung
-        unterwarf – im Kerzenlicht kopierend als Kind, über Notenblätter gebeugt als
-        Komponist. Dass ausgerechnet dieses Organ am Ende versagte, nachdem er es ein Leben
-        lang ohne Rücksicht auf sich selbst beansprucht hatte, liest sich als konsequenter
-        Abschluss eines Musters, das schon in der Kindheit angelegt war. Diese Deutung ist
-        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
-        Augenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Bachs Fall zeigen lässt, ist ein Muster,
-        das bei der kompromisslosen Hingabe an eine einzige Berufung, ohne Rücksicht auf die
-        eigenen körperlichen Grenzen, in der Praxis immer wieder auffällt – eine von vielen
-        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Bach kannte sein eigenes Muster nicht – die sexuelle Eins mit Neunerflügel sucht die eine, vollkommene Lösung, und genau dieser Drang nach Perfektion ließ ihn sich zweimal einer riskanten Operation durch denselben zweifelhaften Okulisten unterziehen, statt beim ersten Fehlschlag innezuhalten. Wer das eigene Streben nach der perfekten Lösung nicht als Muster erkennt, wiederholt denselben Fehler, in der Hoffnung, dieses Mal werde es anders.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Bachs</strong> sexueller Typ 1 mit Neunerflügel wird an seiner eigenen
-        Erkrankung noch einmal sichtbar: ein Organ, das er als Kind schon riskierte und
-        als Erwachsener bis zur vollständigen Erblindung beanspruchte, zwei riskante
-        Operationen, denen er sich ruhig und ohne öffentliches Aufsehen unterzog, und ein Tod
-        vier Monate später, dessen genaue Ursache bis heute Gegenstand der Forschung ist.
-        Die Schwarze Mamba, die selbst im Dunkeln noch komponierte – präzise bis zuletzt.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
-      ])}
-    </div>
-  `);
-}
-
-function napoleonBonaparteKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-napoleon-bonaparte-portrait.jpg" alt="Napoleon Bonaparte" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Napoleon Bonaparte</p>
-        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 1769–1821</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Golden Retriever</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Napoleon Bonaparte</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-napoleon-bonaparte">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier steht ein Kapitel im Zentrum, das dort nur eine Fußnote ist:
-        über Jahrzehnte wiederkehrende Magenbeschwerden, ihre dramatische Zuspitzung im Exil
-        auf St. Helena und Napoleons Tod 1821 an einem Magenkarzinom – derselben Krankheit,
-        an der wahrscheinlich auch sein Vater starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Napoleon</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
-        zugeordnet. Die SO2 richtet die Fürsorge der Zwei nicht auf eine einzelne Beziehung,
-        sondern auf ein ganzes Kollektiv – Napoleon investierte, wie Naranjo es beschreibt,
-        nicht in Rücklagen, sondern in Beziehung und Loyalität im großen Maßstab. Der
-        Dreierflügel bringt unbedingten Ehrgeiz und die Weigerung hinzu, sich von Schwäche –
-        auch der eigenen körperlichen – aufhalten zu lassen. Genau dieses Muster lässt sich
-        bis in seine letzten, von Schmerzen gezeichneten Lebensjahre nachverfolgen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Der eigene Körper als Nebensache neben der Mission:</strong>
-        Napoleons Blick galt zeitlebens dem großen Ganzen – dem Feldzug, dem Reich, der
-        eigenen historischen Rolle. Körperliche Beschwerden wurden konsequent nachrangig
-        behandelt, solange sie die Handlungsfähigkeit nicht vollständig lähmten.</p>
-        <p class="vb-intro"><strong>b) Funktionieren trotz Schmerz als Führungsanspruch:</strong>
-        Berichten zufolge saß Napoleon am Morgen der Schlacht von Waterloo, am 18. Juni 1815,
-        trotz akuter Beschwerden bereits um acht Uhr angezogen und beritten im Sattel – ein
-        Führungsanspruch, der keine sichtbare Schwäche duldete.</p>
-        <p class="vb-intro"><strong>c) Körperlicher Verfall im Exil als letzte, unausweichliche Realität:</strong>
-        Erst auf St. Helena, fern jeder Bühne, wich diese Haltung zunehmend einem Körper, der
-        sich der reinen Willenskraft nicht länger fügte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Wiederkehrende Magenbeschwerden über Jahre:</strong>
-        Schon vor seinem Exil sind bei Napoleon gelegentliche Magen- und
-        Verdauungsbeschwerden dokumentiert – der genaue Beginn lässt sich in den erhaltenen
-        Quellen nicht präzise datieren, doch das Muster zog sich durch weite Teile seines
-        Erwachsenenlebens.</p>
-        <p class="vb-intro"><strong>b) Eine historisch umstrittene Episode bei Waterloo:</strong>
-        Sein Bruder Jérôme berichtete später, Napoleon habe an diesem Tag unter akut
-        entzündeten Hämorrhoiden und Blasenbeschwerden gelitten. Die These, dies habe seine
-        taktischen Entscheidungen und damit die Niederlage beeinflusst, ist in der
-        Geschichtsschreibung populär, aber umstritten und nicht abschließend belegt.</p>
-        <p class="vb-intro"><strong>c) Zunehmendes Gewicht in den späteren Jahren:</strong>
-        Rekonstruktionen anhand erhaltener Kleidungsstücke zeigen eine deutliche
-        Gewichtszunahme von rund 67 auf etwa 90 Kilogramm zwischen 1808 und 1820 – ein
-        Kontrollverlust über den eigenen Körper, der seiner sonstigen Disziplin
-        entgegenstand.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Verschlechterung ab 1818:</strong>
-        Im Exil auf St. Helena verstärkten sich ab 1818 Übelkeit, Magenschmerzen und
-        Harnprobleme. Ab September 1820 folgten häufigere Attacken mit Erbrechen, Fieber und
-        Appetitlosigkeit; im Dezember 1820 konnte Napoleon kaum noch gehen.</p>
-        <p class="vb-intro"><strong>b) Rapider Verfall in den letzten Lebensmonaten:</strong>
-        Zwischen Oktober 1820 und Februar 1821 verschlechterte sich sein Zustand dramatisch:
-        anhaltende Bauchschmerzen, Erbrechen, eine ausgeprägte Abneigung gegen Fleisch,
-        Schluckbeschwerden, Nachtschweiß und fortschreitende Schwäche. Im letzten Lebensjahr
-        verlor er etwa elf Kilogramm.</p>
-        <p class="vb-intro"><strong>c) Tod am 5. Mai 1821:</strong>
-        Napoleon starb im Alter von 51 Jahren auf St. Helena. Die Autopsie ergab ein
-        infiltrativ-ulzeratives Magenkarzinom mit einer arrosiven Blutung als wahrscheinlicher
-        unmittelbarer Todesursache – ein heute in der medizinhistorischen Forschung breit
-        akzeptierter Befund.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Eine widerlegte Verschwörungstheorie:</strong>
-        Die lange populäre Theorie, Napoleon sei mit Arsen vergiftet worden, gilt heute durch
-        mehrere unabhängige moderne Gewebeanalysen als weitgehend widerlegt – erhöhte
-        Arsenwerte werden eher auf zeittypische Umweltbelastungen zurückgeführt, nicht auf
-        gezielte Vergiftung.</p>
-        <p class="vb-intro"><strong>b) Ein wissenschaftlicher Konsens, der die Legende überdauert hat:</strong>
-        Anders als die Vergiftungstheorie ist die Diagnose Magenkrebs autopsiebasiert und
-        gilt in der Fachwelt als solide belegt – eine nüchterne, aber weniger dramatische
-        Erklärung als die jahrzehntelang kursierende Mordthese.</p>
-        <p class="vb-intro"><strong>c) Die Waterloo-These als Sinnbild seines gesamten Krankheitsverlaufs:</strong>
-        Ob körperliche Beschwerden tatsächlich die Schlacht beeinflussten oder nicht – die
-        Erzählung selbst zeigt exemplarisch, wie sehr Napoleons Körper und sein historisches
-        Handeln in der öffentlichen Wahrnehmung untrennbar miteinander verwoben wurden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Funktionieren bis zur Grenze des Erträglichen:</strong>
-        Die Bereitschaft, trotz akuter Schmerzen im Sattel zu sitzen und eine Schlacht zu
-        führen, zeigt die Dreierflügel-Energie der SO2 in Reinform: Leistung wird erbracht,
-        bis der Körper buchstäblich nicht mehr kann.</p>
-        <p class="vb-intro"><strong>b) Der Verlust der Bühne als eigentlicher Wendepunkt:</strong>
-        Erst als mit dem Exil auch das Publikum, für das Napoleon lebte, verschwand, begann
-        der körperliche Verfall sich ungebremst zu zeigen – als hätte die Energie der
-        sozialen Zwei zuvor den Körper mitgetragen.</p>
-        <p class="vb-intro"><strong>c) Der Golden Retriever, der bis zuletzt für ein Ganzes kämpfte:</strong>
-        Selbst im Angesicht des eigenen körperlichen Verfalls diktierte Napoleon auf St.
-        Helena seine Memoiren – ein letzter Versuch, weiter für ein Publikum, eine
-        Nachwelt, zu wirken.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein über Jahrzehnte wiederkehrendes Muster:</strong>
-        Von gelegentlichen Magenbeschwerden in den Feldzugsjahren bis zum tödlichen Karzinom
-        auf St. Helena zieht sich eine erkennbare, wenn auch lange nicht ernst genommene
-        Linie durch Napoleons Erwachsenenleben.</p>
-        <p class="vb-intro"><strong>b) Eine auffällige familiäre Parallele:</strong>
-        Napoleons Vater Carlo Buonaparte starb 1785 nach Jahren zunehmender Schwäche
-        ebenfalls an Magenkrebs. Napoleon selbst äußerte auf St. Helena die Furcht, das
-        gleiche Schicksal wie sein Vater zu teilen – eine Furcht, die sich bewahrheitete.</p>
-        <p class="vb-intro"><strong>c) Der Körper als letzter Ort, der sich nicht kommandieren ließ:</strong>
-        Ein Mann, der ganze Armeen und halb Europa befehligte, konnte den eigenen Magen
-        nicht befehligen – ein Kontrast, der Napoleons letzte Lebensjahre auf St. Helena
-        prägte.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet der Magen?</strong>
-        Für eine soziale Zwei mit Dreierflügel, deren gesamte Identität an sichtbarer
-        Leistung und der Fürsorge für ein großes Kollektiv hing, liegt eine Deutung nahe: Der
-        Magen ist das Organ, das buchstäblich verdauen muss, was von außen kommt – bei
-        Napoleon jahrzehntelang ein Übermaß an Verantwortung, Druck und ungebremstem Ehrgeiz,
-        ohne dass je Raum für Verdauung im übertragenen Sinn blieb. Dass ausgerechnet dieses
-        Organ am Ende versagte, in einem Exil, das ihm zum ersten Mal in seinem Leben nichts
-        mehr zu verdauen ließ als die eigene Vergangenheit, liest sich als konsequenter
-        Abschluss dieses Musters. Diese Deutung ist eine plausible Interpretation, kein
-        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu
-        Magenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Napoleons Fall zeigen lässt, ist ein
-        Muster, das bei der kompromisslosen Priorisierung von Leistung und Fürsorge für ein
-        großes Ganzes über die eigenen körperlichen Signale hinweg in der Praxis immer wieder
-        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
-        Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Napoleon kannte sein eigenes Muster nicht – die soziale Zwei mit Dreierflügel verdrängt die eigene Verwundbarkeit zugunsten der nächsten großen Aufgabe, und genau das ließ ihn jahrzehntelange Magenbeschwerden ignorieren, selbst als sie sein strategisches Urteilsvermögen bei Waterloo beeinträchtigt haben könnten. Wer das eigene Verdrängungsmuster nicht kennt, riskiert am Ende genau das, wofür er alles andere geopfert hat.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 2 mit Dreierflügel bestätigt sich bei <strong>Napoleon</strong> noch
-        einmal in der eigenen Erkrankung: über Jahrzehnte hingenommene Magenbeschwerden,
-        eine umstrittene, aber sinnbildliche Episode bei Waterloo, und ein Tod 1821, der
-        exakt das familiäre Muster seines Vaters wiederholte. Der Golden Retriever, der
-        ganze Armeen mobilisierte, bis der eigene Körper die letzte, unüberwindbare
-        Front wurde.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);

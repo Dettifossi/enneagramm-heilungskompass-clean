@@ -24086,6 +24086,7 @@ const registerEntries = [
   { term: "Friedrich Schiller Krankheitsporträt", route: "krankheitsportraets-friedrich-schiller", description: "Portrait: SX6w5 · Sexueller Typ 6 · Lungentuberkulose, vierzehn Jahre Arbeit gegen den eigenen Verfall" },
   { term: "Ludwig van Beethoven Krankheitsporträt", route: "krankheitsportraets-ludwig-van-beethoven", description: "Portrait: SX6w5 · Sexueller Typ 6 · Fortschreitende Taubheit und Leberzirrhose" },
   { term: "Michael Jackson Krankheitsporträt", route: "krankheitsportraets-michael-jackson", description: "Portrait: SO4w3 · Sozialer Typ 4 · Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit" },
+  { term: "Hans Christian Andersen Krankheitsporträt", route: "krankheitsportraets-hans-christian-andersen", description: "Portrait: SO4w3 · Sozialer Typ 4 · Hypochondrie, vernachlässigte Zahnprobleme, vermutete Leberkrebserkrankung" },
   { term: "Romy Schneider Krankheitsporträt", route: "krankheitsportraets-romy-schneider", description: "Portrait: SO4w3 · Sozialer Typ 4 · Nierenoperation, Alkohol- und Tablettenkonsum, ungeklärter Tod 1982" },
   { term: "Konrad Adenauer Krankheitsporträt", route: "krankheitsportraets-konrad-adenauer", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Gesichtsverletzung durch Autounfall, Verfolgung und Haft" },
   { term: "Marilyn Monroe Krankheitsporträt", route: "krankheitsportraets-marilyn-monroe", description: "Portrait: SX3w4 · Sexueller Typ 3 · Endometriose, Schlafmittelabhängigkeit, umstrittene Todesumstände" },
@@ -32327,6 +32328,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-martin-luther", name:"Martin Luther", subtyp:"SX1w2", heading:"Martin Luther – Sexueller Typ 1", krankheit:"Herz-Kreislauf-Leiden und wiederkehrende schwere Depressionen (Anfechtungen)", teaser:"SX1w2 – Reformator, 1483–1546. Dekade 1535–1545 geprägt von zunehmenden Herz-Kreislauf-Problemen, Nierensteinen und Schwindelanfällen, verschränkt mit schweren depressiven Episoden. Starb am 18. Februar 1546 in Eisleben, vermutlich an Herzversagen oder Schlaganfall." , land:"Deutschland", gender:"m", jahre:"1483–1546"},
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexueller Typ 6", krankheit:"Fortschreitende Taubheit und Leberzirrhose", teaser:"SX6w5 – Komponist, 1770–1827. Ab ca. 1798 fortschreitender Hörverlust, parallel dazu chronische Bauchleiden und ein Verdacht auf Bleivergiftung. Ab 1821 Gelbsucht, ab Dezember 1826 vier schmerzhafte Bauchpunktionen gegen Wassereinlagerungen. Starb 1827 an den Folgen einer Leberzirrhose – die Obduktion zeigte eine massiv vernarbte Leber und geschädigte Nieren." , land:"Deutschland", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Sozialer Typ 4", krankheit:"Jahrzehntelange Schmerz- und Schlafmittelabhängigkeit, verschwiegene Vitiligo", teaser:"SO4w3 – Sänger, Tänzer und Komponist, 1958–2009. Opioid-Behandlung nach schwerer Kopfhautverbrennung 1984, ab den 1990er-Jahren zunehmend schwere, therapieresistente Schlaflosigkeit. Erhielt zuletzt Propofol als häusliches Schlafmittel – ein Einsatz weit außerhalb jeder medizinischen Norm. Starb 2009 an akutem Herzstillstand durch eine Propofol-Überdosis, wenige Wochen vor der geplanten Comeback-Tour." , land:"USA", gender:"m", jahre:"1958–2009"},
+  { route:"krankheitsportraets-hans-christian-andersen", name:"Hans Christian Andersen", subtyp:"SO4w3", heading:"Hans Christian Andersen – Sozialer Typ 4", krankheit:"Lebenslange Hypochondrie, vernachlässigte Zahnprobleme, vermutete Leberkrebserkrankung", teaser:"SO4w3 – Schriftsteller, Märchendichter, 1805–1875. Minutiös dokumentierte Sorge um kleinste Beschwerden bei gleichzeitig jahrzehntelang stumm ertragenen Zahnschmerzen. Nach einem Sturz 1872 zunehmender Verfall, Pflege bei der befreundeten Familie Melchior. Starb 1875 an einer vermuteten Krebserkrankung der Leber, mit Staatsbegräbnis in Anwesenheit der dänischen Königsfamilie." , land:"Dänemark", gender:"m", jahre:"1805–1875"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Sozialer Typ 3", krankheit:"Krebserkrankung (Todesursache offiziell nie bestätigt; laut Assistent Prostatakrebs, diagnostiziert 2015)", teaser:"SO3w4 – Modedesigner und Chanel-Kreativdirektor, 1933–2019. Hielt eine Krebsdiagnose nach übereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim und fehlte erst vier Wochen vor seinem Tod erstmals seit 35 Jahren bei einer Chanel-Show." , land:"Deutschland/Frankreich", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexueller Typ 7", krankheit:"Psychische Erkrankung (retrospektiv diskutiert: bipolare Störung, schizoaffektive Erkrankung oder neurologische Spätfolge einer Syphilis-Infektion)", teaser:"SX7w8 – Komponist und Musikkritiker, 1810–1856. Sprang 1854 in einem Anfall völliger Verzweiflung in den Rhein, bat danach selbst um Einweisung in eine Heilanstalt bei Bonn und starb dort 1856, weitgehend isoliert von seiner Frau Clara bis kurz vor seinem Tod." , land:"Deutschland", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Selbsterhaltender Typ 7", krankheit:"Chronische Gicht und Nierensteine, tödliche Bronchitis/Lungenentzündung nach einem selbst durchgeführten Kälte-Experiment", teaser:"SE7w8 – Philosoph, Staatsmann und Begründer des modernen Empirismus, 1561–1626. Litt jahrzehntelang an Gicht und Nierensteinen, starb 1626 an einer Erkältung, die er sich zuzog, als er im Winter ein Hühnchen mit Schnee ausstopfte, um Kälte als Konservierungsmethode zu testen." , land:"Großbritannien", gender:"m", jahre:"1561–1626"},
@@ -48194,6 +48196,8 @@ function hansChristianAndersenPortraitPage() {
           <p class="vb-intro">Einordnung ohne Determinismus: Andersens Gesundheit litt zeitlebens unter psychosomatischen Beschwerden &ndash; Zahnprobleme, Verdauungsstörungen, ausgeprägte Hypochondrie &ndash; die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine ständige Sorge um Krankheit und Ablehnung mit seinem Grundmuster verwoben war. Andersen kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Sehnsucht nach Zugehörigkeit ungebremst und ohne die Sprache, sie als wiederkehrendes Muster zu erkennen, statt sie immer wieder aufs Neue als individuelles Schicksal zu erleiden &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
         </blockquote>
 
+        <p class="vb-intro">Die lebenslange Hypochondrie, die vernachlässigten Zahnprobleme und die vermutete Leberkrebserkrankung, an der Andersen 1875 starb, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-hans-christian-andersen">Krankheitsporträt zu Andersen</a> gedeutet.</p>
+
       </div>
             ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -48201,6 +48205,7 @@ function hansChristianAndersenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}
@@ -82293,9 +82298,217 @@ function michaelJacksonKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – Lebenswerk"},
         {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function hansChristianAndersenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1805–1875</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans Christian Andersen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hans-christian-andersen">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, seine Herkunft und seine
+        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift
+        wird: der lebenslangen Hypochondrie, den quälenden Zahnproblemen und der Krebserkrankung,
+        an der Andersen 1875 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Andersen</strong> ist dem <strong>sozialen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SO4 trägt ihre Scham über das eigene Anderssein in die Gruppe hinein und
+        sucht dort unablässig Bestätigung; der Dreierflügel verstärkt dieses Bedürfnis zu aktivem
+        Streben nach öffentlicher Anerkennung. Bei Andersen zeigte sich das in einer bemerkenswerten
+        Diskrepanz: eine tief empfundene, oft übertriebene Sorge um den eigenen Körper, die er nach
+        außen kaum zeigte, solange ein Publikum ihn brauchte – und die erst hervortrat, sobald keine
+        Bühne mehr in Sicht war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine lebenslange Hypochondrie, gut dokumentiert in Briefen und Tagebüchern:</strong>
+        Andersen führte über Jahrzehnte detaillierte Tagebücher, in denen kleinste körperliche
+        Beschwerden – ein Ziehen im Bauch, ein leichtes Fieber, eine Erkältung – mit auffälliger
+        Ausführlichkeit und Sorge festgehalten wurden. Zeitgenossen und spätere Biografen sind sich
+        einig, dass diese Selbstbeobachtung weit über das übliche Maß hinausging.</p>
+        <p class="vb-intro"><strong>b) Die berühmte Angst, lebendig begraben zu werden:</strong>
+        Andersen trug zeitlebens einen Zettel bei sich mit der Bitte, man möge ihm nach dem
+        vermeintlichen Tod die Pulsadern öffnen, um sicherzugehen, dass er wirklich gestorben sei –
+        eine der bestbezeugten Einzelheiten seiner Hypochondrie, die er selbst wiederholt
+        gegenüber Freunden erwähnte.</p>
+        <p class="vb-intro"><strong>c) Quälende Zahnprobleme von früh an:</strong>
+        Schon in mittleren Jahren litt Andersen unter starken, wiederkehrenden Zahnschmerzen und
+        einem fortschreitenden Zahnverlust, den er in Briefen mehrfach als große Qual beschrieb –
+        ein Leiden, das ihn zeitlebens begleitete und das er trotz seiner sonstigen Gesundheitssorge
+        lange kaum professionell behandeln ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein folgenschwerer Sturz im Jahr 1872:</strong>
+        Im Frühjahr 1872 stürzte Andersen aus dem Bett und verletzte sich schwer – ein Ereignis, das
+        Biografen übereinstimmend als Wendepunkt seiner letzten Lebensjahre beschreiben. Von diesem
+        Sturz erholte er sich nie wieder vollständig.</p>
+        <p class="vb-intro"><strong>b) Fortschreitende Erschöpfung und Gewichtsverlust:</strong>
+        In den folgenden drei Jahren verschlechterte sich sein Gesundheitszustand stetig – wachsende
+        Erschöpfung, Appetitlosigkeit und ein deutlicher körperlicher Verfall, den enge Freunde in
+        Briefen dokumentierten.</p>
+        <p class="vb-intro"><strong>c) Die Diagnose:</strong>
+        Andersens Ärzte gingen von einer Krebserkrankung der Leber aus – eine Einschätzung, die auf
+        den beobachteten Symptomen beruhte, ohne die diagnostischen Möglichkeiten, die heutige
+        Medizin zur Verfügung hätte. Die genaue Art der Erkrankung lässt sich aus heutiger Sicht
+        nicht mehr mit letzter Sicherheit rekonstruieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Pflege im Haus befreundeter Familien:</strong>
+        In seinen letzten Lebensjahren wurde Andersen von der befreundeten Kaufmannsfamilie Melchior
+        gepflegt, zunächst in Kopenhagen, später in deren Landhaus Rolighed – ein Zeichen dafür, wie
+        sehr der kinderlose, unverheiratete Andersen am Ende seines Lebens auf die Zugehörigkeit zu
+        einer ihn tragenden Gemeinschaft angewiesen war, die er sich selbst nie in Form einer
+        eigenen Familie hatte schaffen können.</p>
+        <p class="vb-intro"><strong>b) Weiterhin öffentliche Präsenz trotz Schwäche:</strong>
+        Auch nach dem Sturz 1872 nahm Andersen, solange es seine Kräfte zuließen, weiterhin an
+        gesellschaftlichen Anlässen teil und pflegte seinen Briefwechsel mit Prominenten und
+        Bewunderern – das Bedürfnis nach sichtbarer Zugehörigkeit ließ sich selbst durch
+        fortschreitende Krankheit kaum dämpfen.</p>
+        <p class="vb-intro"><strong>c) Ein langsames, öffentlich begleitetes Sterben:</strong>
+        Andersens letzte Lebensmonate wurden in der dänischen Öffentlichkeit aufmerksam verfolgt;
+        Zeitungen berichteten regelmäßig über seinen Gesundheitszustand – für die soziale Vier mit
+        Dreierflügel, die zeitlebens nach öffentlicher Anteilnahme gesucht hatte, eine Situation, in
+        der ihm genau das zuteilwurde, wonach er sich sein Leben lang gesehnt hatte, wenn auch
+        unter den bittersten Umständen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Tod am 4. August 1875:</strong>
+        Hans Christian Andersen starb am 4. August 1875 im Alter von 70 Jahren in Rolighed, dem
+        Landhaus der Familie Melchior bei Kopenhagen, umgeben von den Menschen, die ihm in seinen
+        letzten Jahren am nächsten standen.</p>
+        <p class="vb-intro"><strong>b) Ein Staatsbegräbnis als letzte öffentliche Bestätigung:</strong>
+        Andersens Beerdigung wurde zu einem Ereignis nationaler Trauer, an dem auch der dänische
+        König und die königliche Familie teilnahmen – die späte, endgültige Bestätigung der
+        gesellschaftlichen Zugehörigkeit, um die sich der soziale Vierer mit Dreierflügel sein
+        ganzes Leben lang bemüht hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachruhm, der die eigene Unsicherheit weit überdauerte:</strong>
+        Innerhalb weniger Jahrzehnte nach seinem Tod wurde Andersen zum meistübersetzten dänischen
+        Schriftsteller aller Zeiten – ein Ausmaß an weltweiter Anerkennung, das die zeitlebens
+        nagende Sorge, nicht wirklich dazuzugehören, im Rückblick als tragische Fehleinschätzung
+        erscheinen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Hypochondrie als umgelenkte Zugehörigkeitssorge:</strong>
+        Die für Andersen so charakteristische Sorge um den eigenen Körper lässt sich als eine nach
+        innen gerichtete Variante seiner eigentlichen Grundangst lesen: nicht wirklich gesehen,
+        nicht wirklich gebraucht, nicht wirklich zugehörig zu sein. Die minutiöse Beobachtung
+        kleinster körperlicher Signale gab dieser diffusen Sorge ein konkretes, kontrollierbares
+        Objekt.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Motor der Weiterarbeit trotz Schwäche:</strong>
+        Derselbe Dreierflügel, der Andersen zeitlebens antrieb, öffentlich sichtbar zu bleiben, ließ
+        ihn auch nach dem Sturz 1872 nicht kampflos aufgeben – noch in geschwächtem Zustand suchte
+        er weiterhin Kontakt zu Bewunderern und Förderern, als könne öffentliche Zuwendung die
+        fortschreitende Krankheit aufhalten.</p>
+        <p class="vb-intro"><strong>c) Die Zahnschmerzen als verdrängtes, weil unglamouröses Leiden:</strong>
+        Auffällig ist der Kontrast zwischen Andersens ausführlicher Sorge um dramatischere,
+        erzählbare Beschwerden und seinem jahrzehntelangen Hinnehmen der Zahnschmerzen – ein Leiden
+        ohne öffentliche Bühne, das ihm vermutlich zu profan erschien, um es in seine sorgfältig
+        gepflegte Selbstdarstellung als sensibler, leidender Künstler einzubauen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Michael Jackson (SO4w3):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a>,
+        ebenfalls SO4w3, zeigt sich bei Andersen das für diesen Subtyp typische Muster: die
+        sorgfältig gepflegte öffentliche Rolle – bei Jackson der makellose King of Pop, bei Andersen
+        der sensible, weltweit gefeierte Märchendichter – wird bis zuletzt aufrechterhalten, während
+        das eigentliche körperliche Leiden im Hintergrund verläuft. Bei Jackson war es die über
+        Jahrzehnte verheimlichte Schmerzmittelabhängigkeit, bei Andersen die stumm ausgehaltenen
+        Zahnschmerzen neben der ausführlich dokumentierten, aber letztlich hilflosen Sorge um alles
+        andere – zwei Varianten derselben SO4w3-Grundbewegung: das Bild nach außen wahren, das
+        eigene Innere zurückstellen.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte gewachsene Sorge, kein plötzlicher Einbruch:</strong>
+        Von den frühesten dokumentierten Tagebucheinträgen über kleinste Beschwerden bis zum
+        tatsächlichen Krankheitsverlauf nach 1872 zieht sich eine durchgehende Linie: Andersens
+        Körper war ihm sein Leben lang ein Objekt intensiver, oft übertriebener Aufmerksamkeit –
+        bevor die reale Erkrankung sie schließlich einholte.</p>
+        <p class="vb-intro"><strong>c) Zwei Leiden, ein gemeinsamer blinder Fleck:</strong>
+        Die ausführlich dokumentierte Hypochondrie und die kaum erwähnten, tatsächlich behandlungsbedürftigen
+        Zahnprobleme lassen sich als zwei Seiten derselben Schieflage lesen: Aufmerksamkeit floss
+        dorthin, wo sie erzählbar und damit sozial verwertbar war – nicht notwendig dorthin, wo der
+        Körper sie am dringendsten gebraucht hätte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
+        Für eine soziale Vier, deren Grundthema die Frage ist, ob sie in der Gemeinschaft wirklich
+        ihren Platz hat, liegt eine Deutung nahe: Die Leber gilt in vielen psychosomatischen
+        Traditionen als das Organ der verarbeiteten, oft auch der zurückgehaltenen Emotion – bei
+        einem Menschen, der zeitlebens mehr fühlte, als er in einer für seine Zeit akzeptablen Form
+        zeigen konnte, und der bis zuletzt kontrollierte, was von seinem Inneren nach außen drang,
+        ist das ein naheliegendes Bild. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im
+        <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Psychosomatik-Register
+        zu Leberkrebs</a> dieses Kompasses ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier mit Dreierflügel zwangsläufig zu
+        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Andersens Fall zeigen lässt, ist ein Muster, das bei der
+        Neigung, erzählbares Leiden ausführlich zu dokumentieren und unglamouröses Leiden zu
+        übergehen, in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen,
+        kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Andersen kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten in dieser Form noch gar nicht. Die Sehnsucht nach Zugehörigkeit, die ihn ein Leben
+        lang antrieb, öffentlich sichtbar und geliebt zu sein, kannte für ihn keinen eingebauten
+        Warnmechanismus, der zwischen erzählbarem und tatsächlich dringlichem Leiden unterschieden
+        hätte; im Gegenteil, jedes körperliche Signal wurde in derselben Logik verarbeitet, mit der
+        er auch soziale Signale verarbeitete: als etwas, das entweder zur eigenen Geschichte passte
+        oder eben nicht. Wer das eigene Muster nicht kennt, kann es auch nicht rechtzeitig
+        unterbrechen – bei Andersen bedeutete das ein Leben, das an ausführlich dokumentierter Sorge
+        um kleine Beschwerden reich war und an tatsächlicher Fürsorge für den eigenen, real
+        leidenden Körper arm blieb, bis die Krankheit, die ihn schließlich das Leben kostete, keine
+        Ausflucht mehr zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Andersens</strong> Krankengeschichte zeigt sich die soziale Vier mit Dreierflügel
+        von ihrer widersprüchlichsten Seite: eine lebenslange, minutiös dokumentierte Sorge um den
+        eigenen Körper – und ein tatsächliches Leiden, das sich erst zeigte, als keine Bühne mehr
+        half. Das Gürteltier, das sich sein Leben lang nach Zugehörigkeit sehnte, erhielt sie am
+        Ende in Form eines Staatsbegräbnisses – am 4. August 1875, im Alter von 70 Jahren, an den
+        Folgen einer vermuteten Krebserkrankung der Leber.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3) – dieselbe Verbergungsstrategie"},
+        {route:"psychosomatik/leberkrebs", label:"Psychosomatik-Register: Leberkrebs"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
@@ -139464,6 +139677,7 @@ function render() {
       "krankheitsportraets-ludwig-wittgenstein": ludwigWittgensteinKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
+      "krankheitsportraets-hans-christian-andersen": hansChristianAndersenKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,

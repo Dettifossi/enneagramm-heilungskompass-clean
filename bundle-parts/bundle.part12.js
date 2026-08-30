@@ -1,3 +1,338 @@
+function seanConneryKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Connery</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1930–2020</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sean Connery</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-sean-connery">Porträt berühmter
+        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
+        das dort nicht behandelt wird: eine Demenzerkrankung in seinen letzten Lebensjahren,
+        die er und seine Familie weitgehend vor der Öffentlichkeit verborgen hielten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Connery</strong> ist dem <strong>sozialen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die SO3 lebt von einem makellosen öffentlichen Image; der Viererflügel
+        verlangt zugleich strikte Kontrolle darüber, was von der eigenen Person überhaupt
+        preisgegeben wird. Genau diese Kombination – die Notwendigkeit, das eigene Bild
+        makellos zu halten, verbunden mit einer lebenslangen Zurückhaltung gegenüber jeder
+        Form von Selbstenthüllung – bestimmte, wie mit der eigenen Demenzerkrankung
+        umgegangen wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Rückzug aus der Öffentlichkeit ab Mitte der 2000er:</strong>
+        Connerys freiwilliger Rückzug aus dem Schauspielberuf und der Öffentlichkeit fiel
+        zeitlich mit dem Beginn gesundheitlicher Veränderungen zusammen, die zu diesem
+        Zeitpunkt öffentlich nicht bekannt waren.</p>
+        <p class="vb-intro"><strong>b) Ein zunehmend zurückgezogenes Leben auf den Bahamas:</strong>
+        In seinen letzten Lebensjahren lebte Connery weitgehend abgeschieden auf den Bahamas,
+        mit nur noch sehr seltenen öffentlichen Auftritten.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Krankheitsdiagnose zu Lebzeiten:</strong>
+        Zu Lebzeiten machte Connery keine gesundheitliche Diagnose öffentlich – Spekulationen
+        über seinen Gesundheitszustand blieben unbestätigt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Bestätigung der Demenzerkrankung erst nach dem Tod:</strong>
+        Erst nach Connerys Tod im Oktober 2020 bestätigte sein Sohn Jason öffentlich, dass
+        sein Vater in den letzten Lebensjahren an Demenz gelitten hatte.</p>
+        <p class="vb-intro"><strong>b) Ein über Jahre verborgen gehaltener Verlauf:</strong>
+        Nach Angaben seines Sohnes hatte die Erkrankung bereits mehrere Jahre vor Connerys Tod
+        begonnen – ein Zeitraum, in dem in der Öffentlichkeit nichts davon bekannt war.</p>
+        <p class="vb-intro"><strong>c) Betreuung im engsten Familienkreis:</strong>
+        Connery wurde in seinen letzten Lebensjahren im privaten Rahmen von seiner Familie
+        betreut, ohne dass Details davon nach außen drangen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 31. Oktober 2020 auf den Bahamas:</strong>
+        Sean Connery starb im Alter von 90 Jahren in seinem Haus auf den Bahamas, im Schlaf,
+        umgeben von seiner Familie.</p>
+        <p class="vb-intro"><strong>b) Nachträgliche öffentliche Einordnung durch die Familie:</strong>
+        Die Bestätigung der Demenzdiagnose durch seinen Sohn erfolgte bewusst erst nach dem
+        Tod, als Teil der öffentlichen Würdigung seines Lebens, nicht während der eigentlichen
+        Krankheitsphase.</p>
+        <p class="vb-intro"><strong>c) Weltweite Trauer um eine Ikone:</strong>
+        Sein Tod löste internationale Nachrufe aus, die vor allem sein filmisches Lebenswerk
+        würdigten – die Demenzerkrankung wurde darin nur am Rande erwähnt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentliches Bild, das bis zuletzt intakt blieb:</strong>
+        Da die Erkrankung erst posthum bekannt wurde, blieb das öffentliche Bild Connerys zu
+        Lebzeiten von der eigentlichen gesundheitlichen Realität seiner letzten Jahre
+        unberührt.</p>
+        <p class="vb-intro"><strong>b) Überraschung in der öffentlichen Reaktion:</strong>
+        Viele Fans und Medien reagierten überrascht auf die nachträgliche Bestätigung, da
+        Connerys öffentlich zuletzt gezeigtes Bild keinerlei Hinweise auf die Erkrankung
+        enthalten hatte.</p>
+        <p class="vb-intro"><strong>c) Würdigung der familiären Diskretion:</strong>
+        In Nachrufen wurde teils ausdrücklich die Zurückhaltung der Familie gewürdigt, die
+        Connerys letzte Lebensjahre vor öffentlicher Neugier geschützt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle über das eigene Bild bis zuletzt:</strong>
+        Die SO3-typische Notwendigkeit, das eigene öffentliche Image makellos zu halten,
+        setzte sich auch im Umgang mit der Demenzerkrankung fort: Ein Zustand, der die
+        vollständige Kontrolle über sich selbst untergräbt, wurde konsequent von der
+        Öffentlichkeit ferngehalten.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel und das Misstrauen gegenüber Nähe:</strong>
+        Dieselbe Zurückhaltung, mit der Connery zeitlebens sein Privatleben schützte, zeigte
+        sich im Umgang mit der eigenen Krankheit als konsequente Entscheidung, selbst engen
+        Weggefährten und der Öffentlichkeit diesen Teil seines Lebens nicht zugänglich zu
+        machen.</p>
+        <p class="vb-intro"><strong>c) Der Sohn als Vermittler der posthumen Wahrheit:</strong>
+        Dass die Bestätigung erst nach dem Tod durch den Sohn erfolgte, passt zum SO3w4-Muster:
+        Erst wenn das eigene Bild nicht mehr durch die Offenlegung gefährdet werden kann,
+        wird die volle Wahrheit zugänglich gemacht.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Meister der kontrollierten Selbstdarstellung, konfrontiert mit dem Verlust jeder Kontrolle:</strong>
+        Connerys gesamtes Berufsleben beruhte auf der präzisen Kontrolle darüber, was von ihm
+        gezeigt wurde – ausgerechnet eine Erkrankung, die genau diese Kontrolle über den
+        eigenen Geist unmöglich macht, traf ihn in seinen letzten Lebensjahren.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Karl
+        Lagerfeld (SO3w4)</a>: Auch Lagerfeld verbarg eine schwere Diagnose fast bis zuletzt
+        vor der Öffentlichkeit, um das eigene, sorgfältig kontrollierte Image nicht zu
+        gefährden. Bei beiden SO3w4ern zeigt sich dasselbe Muster: Die eigene Erkrankung wird
+        so lange wie möglich vollständig unter Kontrolle der eigenen Selbstdarstellung
+        gehalten, statt sie öffentlich zu verhandeln.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Gedächtnis, der Speicher der eigenen Rollen?</strong>
+        Für einen sozialen Typ 3 mit Viererflügel, dessen gesamtes Berufsleben aus dem
+        präzisen Einstudieren und Verkörpern von Rollen bestand, liegt eine Deutung nahe:
+        Ausgerechnet jene kognitive Fähigkeit, die sein gesamtes Lebenswerk trug – das
+        Gedächtnis –, wurde zum Ort des Verfalls. Diese Deutung ist eine plausible
+        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Demenz führt –
+        <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong>
+        Was sich an Connerys Fall zeigen lässt, ist ein Muster im Umgang mit einer das
+        Selbstbild bedrohenden Diagnose, das bei einem ausgeprägten sozialen Typ 3 mit
+        Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Connery kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 3
+        mit Viererflügel hält reflexhaft an der Kontrolle über das eigene öffentliche Bild
+        fest, auch dann, wenn eine Erkrankung eine offene Aussprache dringend nahelegen
+        würde, und lebte genau dieses Muster bis zum Tod unverändert aus. Wer die eigene
+        Neigung, das eigene Bild um jeden Preis makellos zu halten, nicht als Muster
+        erkennt, riskiert, dass die eigene Realität erst posthum ans Licht kommt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 3 mit Viererflügel erklärt bei <strong>Sean Connery</strong> vieles
+        am Umgang mit der eigenen Demenzerkrankung: ein Mann, dessen gesamtes Lebenswerk auf
+        makelloser Selbstkontrolle beruhte, hielt auch den Verlust dieser Kontrolle bis zum
+        Tod vollständig privat – der Gepard, der sich am Ende in die Stille seiner eigenen,
+        nie ganz preisgegebenen Welt zurückzog, bevor die Wahrheit überhaupt ans Licht
+        kommen konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function ashtonKutcherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ashton-kutcher-portrait.jpg" alt="Ashton Kutcher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ashton Kutcher</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · geb. 1978</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ashton Kutcher</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ashton-kutcher">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine seltene Autoimmunerkrankung, an der
+        Kutcher zeitweise Seh-, Hör- und Gehfähigkeit verlor, bevor er sie 2023 öffentlich
+        machte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kutcher</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SO2 setzt ihre Reichweite gezielt für eine größere Sache ein; der
+        Dreierflügel bringt den Antrieb, aus jeder Erfahrung – auch der eigenen Krankheit –
+        einen sichtbaren, wirksamen Beitrag zu machen. Genau diese Kombination – zunächst
+        vollständige Geheimhaltung, dann eine gezielte, öffentlich wirksame Offenlegung –
+        bestimmte den Umgang mit der eigenen Autoimmunerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Plötzlich einsetzende Symptome:</strong>
+        Nach eigener Schilderung begannen die Symptome abrupt, mit einem raschen Verlust an
+        Gleichgewicht, Sehkraft und Hörvermögen, ohne erkennbare Vorwarnung.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer seltenen Form der Vaskulitis:</strong>
+        Ärzte diagnostizierten bei Kutcher eine seltene autoimmune Gefäßentzündung, die
+        mehrere Sinnesorgane und die Bewegungsfähigkeit gleichzeitig beeinträchtigte.</p>
+        <p class="vb-intro"><strong>c) Monatelanger, intensiver Rehabilitationsprozess:</strong>
+        Nach eigener Aussage musste er anschließend erneut gehen, sehen und hören lernen –
+        ein Prozess, der sich über Monate erstreckte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zwei Jahre vollständige Geheimhaltung:</strong>
+        Kutcher hielt die Diagnose und die Erkrankung rund zwei Jahre lang vollständig
+        privat, bevor er sich öffentlich dazu äußerte.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Offenlegung 2023 in einem Podcast-Interview:</strong>
+        Erst in einem ausführlichen Interview machte Kutcher die Erkrankung und ihren Verlauf
+        detailliert öffentlich – ein bewusst gewählter Rahmen statt einer spontanen
+        Enthüllung.</p>
+        <p class="vb-intro"><strong>c) Sichtbare, aber nicht vollständig zurückgebildete Folgen:</strong>
+        Kutcher beschrieb, dass einige Beeinträchtigungen, insbesondere im Gleichgewichtssinn,
+        auch nach der akuten Krankheitsphase bestehen blieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Betonung von Dankbarkeit statt Klage:</strong>
+        In seiner öffentlichen Schilderung stellte Kutcher wiederholt die eigene Dankbarkeit
+        für das Überleben und die Genesung in den Vordergrund, statt die Erkrankung als
+        Opfergeschichte zu erzählen.</p>
+        <p class="vb-intro"><strong>b) Positive mediale Resonanz:</strong>
+        Die Offenlegung löste breite mediale Aufmerksamkeit und überwiegend positive
+        Reaktionen aus, die Kutchers Offenheit und seinen Umgang mit der Krankheit
+        würdigten.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung öffentlicher Aktivität nach der Offenlegung:</strong>
+        Nach dem Interview setzte Kutcher seine schauspielerische und unternehmerische
+        Tätigkeit unverändert fort, ohne dass die Krankheit zu einem dauerhaften öffentlichen
+        Thema wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für eine seltene Erkrankung:</strong>
+        Kutchers Offenheit trug international dazu bei, die Aufmerksamkeit für seltene
+        Autoimmunerkrankungen zu erhöhen, über die zuvor kaum öffentlich gesprochen wurde.</p>
+        <p class="vb-intro"><strong>b) Verzögerte statt sofortige Offenlegung:</strong>
+        Der zweijährige Abstand zwischen Erkrankung und öffentlicher Offenlegung zeigt, wie
+        lange die Krise zunächst ausschließlich privat verarbeitet wurde.</p>
+        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Genesung:</strong>
+        Kutcher betonte in seiner Schilderung explizit, dass nicht alle Beeinträchtigungen
+        vollständig verschwunden seien – eine differenzierte Darstellung statt einer
+        glatten Heilungsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Privater Kampf, bevor er öffentlich wird:</strong>
+        Die SO2-typische Ausrichtung auf öffentliche Wirksamkeit setzte erst ein, nachdem die
+        eigentliche Krise privat durchlebt und überstanden war – die Krankheit selbst blieb
+        zunächst außerhalb der öffentlichen Rolle.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die kontrollierte, wirksame Offenlegung:</strong>
+        Dieselbe Fähigkeit, aus Sichtbarkeit konkrete Wirkung zu erzeugen, die Kutchers
+        Engagement gegen Kinderhandel prägt, zeigte sich auch hier: Die Offenlegung erfolgte
+        in einem sorgfältig gewählten Format, das maximale, aber kontrollierte öffentliche
+        Wirkung erzielte.</p>
+        <p class="vb-intro"><strong>c) Dankbarkeit als öffentliche Botschaft:</strong>
+        Dass Kutcher die Erkrankung als Anlass für Dankbarkeit statt für Klage darstellte,
+        passt zur SO2-Neigung, auch die eigene Verwundbarkeit in eine positive, für andere
+        nützliche Botschaft zu verwandeln.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann öffentlicher Reichweite, der zwei Jahre lang unsichtbar kämpfte:</strong>
+        Kutchers gesamtes öffentliches Wirken beruht auf der gezielten Nutzung von
+        Sichtbarkeit für einen größeren Zweck – ausgerechnet die eigene existenzielle Krise
+        verbrachte er zunächst vollständig außerhalb jeder Öffentlichkeit, bevor er sie zu
+        einem bewusst gewählten Zeitpunkt in eine Botschaft verwandelte.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet Sehen, Hören und Gehen, die Grundlagen der Wahrnehmung selbst?</strong>
+        Für einen sozialen Typ 2 mit Dreierflügel, dessen gesamtes Wirken auf der Fähigkeit
+        beruht, gesellschaftliche Missstände wahrzunehmen und sichtbar zu machen, liegt eine
+        Deutung nahe: Ausgerechnet jene Sinne, die überhaupt erst Wahrnehmung und öffentliches
+        Handeln ermöglichen, versagten ihm zeitweise vollständig. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu Autoimmun­erkrankungen
+        führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom
+        Subtyp.</strong> Was sich an Kutchers Fall zeigen lässt, ist ein Muster im Umgang mit
+        einer überwundenen existenziellen Krise, das bei einem ausgeprägten sozialen Typ 2
+        mit Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Kutcher kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
+        mit Dreierflügel hält reflexhaft an der Kontrolle über den Zeitpunkt und die Form der
+        eigenen Sichtbarkeit fest, auch in existenziellen Krisen, und lebt genau dieses Muster
+        bis heute weitgehend unverändert aus. Wer die eigene Neigung, private Krisen erst
+        nach vollständiger Verarbeitung öffentlich zu machen, nicht als Muster erkennt,
+        riskiert, dass Unterstützung von außen erst kommt, wenn die schwierigste Phase bereits
+        vorüber ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Dreierflügel erklärt bei <strong>Ashton Kutcher</strong> vieles
+        am Umgang mit der eigenen Autoimmunerkrankung: ein Mann, dessen gesamtes öffentliches
+        Wirken auf sichtbarer Wirksamkeit beruht, kämpfte die eigene existenzielle Krise erst
+        vollständig privat aus, bevor er sie in eine Botschaft der Dankbarkeit verwandelte –
+        der Golden Retriever, der seine tiefste Verwundbarkeit erst dann zeigte, als er sie
+        selbst in etwas Nützliches für andere umwandeln konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ashton-kutcher", label:"Porträt: Ashton Kutcher (SO2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
 function robertDeNiroKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11134,98 +11469,3 @@ function pedroAlonsoLopezPortraitPage() {
   `);
 }
 
-function andrewCunananPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Andrew Cunanan \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/andrew-cunanan-portrait.jpg" alt="Andrew Cunanan \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Andrew Cunanan</p>
-        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der M\xf6rder von Gianni Versace &ndash; Tierentsprechung: Gepard</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Gepard</h3>
-        <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; und er passt auf Andrew Cunanan mit einer fast unheimlichen Pr\xe4zision. Der Gepard ist das schnellste Landtier der Welt, aber kein Ausdauertier: Er ist auf den perfekten Moment des Angriffs ausgelegt, auf Geschwindigkeit und Treffsicherheit, nicht auf langen Atem. Er lebt von seiner \xe4u\xdferen Eleganz, seiner Anpassungsf\xe4higkeit an das Terrain, seiner F\xe4higkeit, sich genau in jene Position zu bringen, von der aus er am wirkungsvollsten zuschlagen kann. Wenn die Jagd scheitert, gibt es keinen Plan B &ndash; der Gepard bricht ab und setzt sich in Sicherheit. Andrew Cunanan hatte keinen Plan B. Als seine Welt kollabierte, jagte er weiter &ndash; bis er nichts mehr hatte als die gr\xf6\xdfte Schlagzeile, die er sich vorstellen konnte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der soziale Drei: Prestige als Lebensinhalt</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 3 (SO3)</strong> ist unter den Dreier-Subtypen derjenige, dessen Lebensmittelpunkt die Gruppe ist &ndash; nicht irgendeine Gruppe, sondern die <em>richtige</em>. Die Elite. Die Kreise, in denen man gesehen werden muss, um jemand zu sein. Claudio Naranjo nannte diesen Subtyp den &bdquo;Pr\xe4sentierenden&ldquo;: jemanden, der seine Energie darauf verwendet, sich als erfolgreich, wertvoll und zugeh\xf6rig zu inszenieren &ndash; nicht aus Freude an der Welt, sondern weil die Alternative unertr\xe4glich w\xe4re.</p>
-        <p class="vb-intro">Andrew Cunanan wurde am 31. August 1969 in National City bei San Diego geboren, Sohn eines philippinisch-amerikanischen Vaters und einer italoamerikanischen Mutter. Sein Vater Modesto Cunanan gab sich als wohlhabenden Gesch\xe4ftsmann aus, war in Wirklichkeit aber ein gescheiterter Anlageberater, der 1988 vor einer Betr\xfcgerei-Klage in die Philippinen floh &ndash; und die Familie in Armut zur\xfccklie\xdf. Andrew hatte bis dahin auf einer Eliteschule in La Jolla gelernt, war in gl\xe4nzenden sozialen Kreisen verkehrt, hatte sich an das Gefallen der Wohlhabenden gew\xf6hnt. Dieser Bruch hat ihn gepr\xe4gt &ndash; aber nicht in Richtung von Demut oder Neubeginn. Er hat ihn in Richtung von Verdopplung getrieben: noch \xfcberzeugender l\xfcgen, noch sch\xf6ner erscheinen, noch tiefer in die Kreise eindringen, die ihn best\xe4tigten.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Neid, Dramatik, dunkle Unterstr\xf6mung</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht dem sozialen Drei eine Tiefe, die dessen eigentlich nach vorne gerichteter Energie widerspricht. Die Vier tr\xe4gt Neid, Einsamkeit und ein Gef\xfchl von grunds\xe4tzlicher Unzul\xe4nglichkeit mit sich &ndash; Dinge, die der Drei eigentlich perfekt kaschieren kann, die aber im Hintergrund wirken. Cunanan war kein simpler Aufschneider. Er war charmant, witzig, belesen, unterhaltsam &ndash; und gleichzeitig von einer unterschwelligen Bitterkeit durchzogen gegen\xfcber denjenigen, die hatten, was er nur mimte. Das Reichtum, das er vorgab zu besitzen. Die Beziehungen, die er inszenierte. Den Status, den er borgte.</p>
-        <p class="vb-intro">Dieser Neid &ndash; Kernleidenschaft der Vier &ndash; blieb lange im Verborgenen, d\xe4mpft durch Charme und Wit und die Bereitschaft, unterhaltsam zu sein. Bis er es nicht mehr d\xe4mpfte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Fassade, F\xf6rderung, Absturz</h3>
-        <p class="vb-intro">Nach dem Verschwinden seines Vaters entwickelte Cunanan ein Doppelleben, das er \xfcber fast ein Jahrzehnt aufrechterh\xe4lt. In der schwulen High-Society San Diegos und San Franciscos war er bekannt &ndash; als Geschichtenerz\u00e4hler, als Unterhalter, als jemand, der immer im richtigen Restaurant sa\xdf und die richtigen Namen kannte. Er lebte teils als bezahlter Begleiter \xe4lterer wohlhabender M\xe4nner, teils von der Freigebigkeit von Bekannten. Seine Geschichten \xfcber sein Leben waren ausnahmslos L\xfcgen: der reiche philippinische Vater, die internationalen Connections, das Erbe. Alle wussten, dass er aufschnitt. Keiner scherte sich, weil er unterhaltsam war.</p>
-        <p class="vb-intro">1996/1997 bricht diese Welt auseinander. Sein Hauptf\xf6rderer zieht sich zur\xfcck. Jeffrey Trail, ein enger Freund und fr\xfcherer Geliebter, distanziert sich. David Madson, ebenfalls ein Ex-Partner, den Cunanan noch immer begehrt, ist dabei, sein Leben ohne ihn aufzubauen. Cunanan verliert seinen sozialen Ort &ndash; und ohne diesen Ort existiert er im eigenen Erleben nicht mehr. Im Fr\xfchjahr 1997 f\xe4hrt er nach Minneapolis zu Trail und Madson. Was genau dann geschah, ist nicht vollst\xe4ndig rekonstruierbar. Was feststeht: er kehrt nicht zur\xfcck.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Tatgeschehen: Die Mordserie 1997</h3>
-        <p class="vb-intro"><strong>25. April 1997, Minneapolis, Minnesota:</strong> Andrew Cunanan erschl\xe4gt Jeffrey Trail (27) in der Wohnung von David Madson mit einem Hammer. Trail war ein fr\xfcherer Freund und Geliebter, dessen Distanzierung Cunanan als pers\xf6nliche Zur\xfcckweisung empfunden hatte. David Madson ist anwesend oder kehrt zur\xfcck; er bleibt zun\xe4chst mit Cunanan, aus bislang ungekl\xe4rten Gr\xfcnden.</p>
-        <p class="vb-intro"><strong>27.&ndash;29. April 1997, Rush Lake, Minnesota:</strong> David Madson (33), Architekt, Cunanans fr\xfcherer Partner, wird erschossen in der N\xe4he des Rush Lake aufgefunden. Cunanan hat ihn in den Tagen nach Trails Tod bei sich gehalten. Die genauen Umst\xe4nde &ndash; ob Madson freiwillig blieb, ob er fliehen wollte &ndash; sind nicht gesichert.</p>
-        <p class="vb-intro"><strong>3.&ndash;4. Mai 1997, Chicago, Illinois:</strong> Lee Miglin (72), angesehener Immobilienentwickler, wird in seiner Garage ermordet aufgefunden. Er wurde gefesselt, gefoltert und mit mehreren Wunden get\xf6tet. Cunanan hatte Miglin nach aktuellem Kenntnisstand nicht pers\xf6nlich gekannt &ndash; er hatte sein Fahrzeug gestohlen und offenbar zuf\xe4llig ein Opfer ausgew\xe4hlt. Mit Miglins Cadillac fl\xfcchtet er weiter Richtung Osten.</p>
-        <p class="vb-intro"><strong>9. Mai 1997, Pennsville, New Jersey:</strong> William Reese (45), Hausmeister eines nationalen Friedhofs, wird in seinem B\xfcro erschossen. Cunanan stiehlt seinen Pickup-Truck. Mit diesem Fahrzeug reist er nach Florida.</p>
-        <p class="vb-intro"><strong>15. Juli 1997, Miami Beach, Florida:</strong> Gianni Versace (50), einer der bekanntesten Modesch\u00f6pfer der Welt, kehrt morgens gegen 8:45 Uhr von einem Kiosk-Besuch zu\xfcck zu seiner Villa an der Ocean Drive. Andrew Cunanan erschie\xdft ihn auf den Eingangsstufen mit zwei Sch\xfcssen in den Kopf. Versace stirbt kurz darauf im Krankenhaus. Cunanan fl\xfcchtet &ndash; und wird zur meistgesuchten Person der USA.</p>
-        <p class="vb-intro"><strong>23. Juli 1997:</strong> Andrew Cunanan wird in einem Hausboot in Miami Beach tot aufgefunden. Er hat sich mit einer Schusswunde am Kopf selbst get\xf6tet, bevor die Polizei ihn greifen konnte. Er war 27 Jahre alt. Die genauen Motive f\xfcr die Mordserie &ndash; insbesondere f\xfcr die Wahl Versaces als letztes Opfer &ndash; sind auch heute noch nicht abschlie\xdfend gekl\xe4rt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Versace und die B\u00fchne</h3>
-        <p class="vb-intro">Die Wahl von Gianni Versace als letztem Opfer ist psychologisch aufschlussreich. Versace war alles, was Cunanan vorgab zu sein: reich, weltber\xfchmt, in den richtigen Kreisen gefeiert, ein Mensch, dessen Bild die Welt kannte. Ob Cunanan ihn pers\xf6nlich kannte, ist umstritten &ndash; es gibt Hinweise auf fl\xfcchtige Begegnungen in Clubs, aber keine belegte Beziehung. Was Cunanan w\xe4hlte, war kein pers\xf6nlicher Feind. Es war ein Symbol.</p>
-        <p class="vb-intro">Ein SO3w4 im Absturz sucht keine Stille. Er sucht eine B\u00fchne &ndash; auch wenn es die letzte ist. Den t\xf6dlichsten Schuss auf den gl\xe4nzendsten Menschen, den er kannte: das war Cunanans finale Inszenierung. Er hat damit genau das erreicht, was er sein ganzes Leben angestrebt hatte &ndash; weltweit \xfcber ihn zu reden. Auf die falsche Weise, aber unausweichlich.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Der SO3er im Kollaps:</strong> Der gesunde soziale Drei ist ein Vorbild, Br\xfcckenbauer, jemand der echten Wert f\xfcr seine Gemeinschaft schafft. Der ungesunde SO3 hat seine Identit\xe4t vollst\xe4ndig an das Bild delegiert, das andere von ihm haben &ndash; und ist damit maximal gef\xe4hrdet, wenn dieses Bild zusammenbricht. Cunanan hatte keine innere Substanz entwickelt, die den Verlust seines sozialen Ortes h\xe4tte abpuffern k\xf6nnen. Als der Ort weg war, war er weg.</p>
-        <p class="vb-intro"><strong>b) L\xfcge als Identit\xe4tskonstruktion:</strong> Der Unterschied zu einem Typ-4-Profil liegt hier: Eine Vier l\xfcgt selten \xfcber das, was sie <em>ist</em>. Sie kann \xfcber das, was sie f\xfchlt, dramatisieren &ndash; aber ihr Innenleben ist ihr echt. Cunanan hat \xfcber alles gel\xf6gen: Herkunft, Reichtum, Verbindungen. Das ist Drei-Energie: das Selbst als zu optimierende Darstellung.</p>
-        <p class="vb-intro"><strong>c) Der Viererfl\xfcgel als Kippmoment:</strong> Ohne den Viererfl\u00fcgel h\xe4tte Cunanan vielleicht einfach eine neue Fassade aufgebaut, eine neue Stadt, neue Geschichten. Der Viererfl\u00fcgel macht den Neid zu tief, den emotionalen Einbruch zu drastisch. Er kann den Schmerz nicht einfach umleiten &ndash; er muss ihn irgendwohin, und das irgendwohin war die Mordserie.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Fazit: Der Gepard ohne Jagdgebiet</h3>
-        <p class="vb-intro">Andrew Cunanan ist einer der r\xe4tselhaftesten F\xe4lle dieser Sammlung &ndash; nicht wegen der Taten selbst, sondern wegen der Frage, wozu sie dienen sollten. Es gibt keine einheitliche Erkl\xe4rung f\xfcr die Mordserie. Was das Enneagramm sichtbar macht, ist die <em>Struktur</em> hinter dem Chaos: Ein Mensch, dessen gesamtes Selbstgef\xfchl auf der Anerkennung anderer beruhte, verliert diese Anerkennung &ndash; und hat keine innere Ressource, auf die er zur\xfcckgreifen k\xf6nnte.</p>
-        <p class="vb-intro">Der Gepard ist pr\xe4zise, schnell, elegant &ndash; aber er ben\xf6tigt Raum zum Laufen. Cunanan hatte keinen Raum mehr. Was folgte, war kein Plan, keine Ideologie, keine Botschaft. Es war ein freier Fall &ndash; \xe4sthetisch inszeniert bis zur letzten Sekunde, aber innerlich schon lange leer.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Andrew Phillip Cunanan</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO3w4 &ndash; Sozialer Typ 3 mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als Selbstbild, nicht nur als Mittel)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gepard</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 31. August 1969 &ndash; 23. Juli 1997</span>
-          <span style="display:block;"><strong>Tatfolgen:</strong> 5 Tote; Mordserie April&ndash;Juli 1997, USA</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der soziale Drei im Vergleich: Wie sich T\xe4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\xfcckt \u2013 und warum der SO3 Prestige braucht wie Atemluft.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "T\xe4uschung als Grundmotiv der Drei: Wie das Selbstbild zur einzigen Realit\xe4t wird und was dahinter liegt.", "Wer du wirklich bist (Band 1)")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Andrew Cunanan t\u00f6tete sich selbst, bevor er festgenommen werden konnte. F\u00fcnf Morde, darunter der an Gianni Versace, sind ihm zuzurechnen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
-          {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
-          {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey (SE2w3)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
