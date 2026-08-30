@@ -24652,6 +24652,7 @@ const registerEntries = [
   { term: "Sting",                         route: "beruehmte-sting",                       description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Musiker, The Police, spirituelle Tiefe" },
   { term: "Sundar Pichai",                 route: "beruehmte-sundar-pichai",               description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Google-CEO, stille Führungsstärke" },
   { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 · Sozialer Typ 4 · Sänger, Tänzer, King of Pop, Gürteltier" },
+  { term: "Hans Christian Andersen",       route: "beruehmte-hans-christian-andersen",     description: "Portrait: SO4w3 · Sozialer Typ 4 · Schriftsteller, Märchendichter" },
   { term: "Cat Stevens",                   route: "beruehmte-cat-stevens",                 description: "Portrait: SO4w3 · Sozialer Typ 4 · Musiker, auch bekannt als Yusuf Islam" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 · Sozialer Typ 4 · YouTuber, Gen-Z-Identität" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 · Sexueller Typ 5 · Popstar, Songwriterin, Transformation" },
@@ -33215,6 +33216,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Michael Jackson – Sozialer Typ 4",
     teaser:"SO4w3 · 1958–2009. Sänger, Tänzer & Komponist, ›Thriller‹, King of Pop. Das Gürteltier, das eine gestohlene Kindheit nie ganz nachholen konnte – gepanzert von Perfektion, verletzlich im Innersten. Tierentsprechung: Gürteltier.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-hans-christian-andersen", name:"Hans Christian Andersen", added:"2026-08-30", subtyp:"SO4w3",
+    heading:"Hans Christian Andersen – Sozialer Typ 4",
+    teaser:"SO4w3 · 1805–1875. Schriftsteller, Märchendichter. Vom belächelten Schuhmachersohn zum meistgereisten, meistübersetzten Dichter seiner Zeit – und doch das hässliche Entlein, das sich nie ganz zugehörig fühlte. Tierentsprechung: Gürteltier.",
+    land:"Dänemark", tags:["Literatur"], gender:"m"},
   { route:"beruehmte-cat-stevens", name:"Cat Stevens / Yusuf Islam", added:"2026-08-25", subtyp:"SO4w3",
     heading:"Cat Stevens / Yusuf Islam – Sozialer Typ 4",
     teaser:"SO4w3 · geb. 1948. Britischer Musiker. Nach einem Beinahe-Ertrinken 1976 Konversion zum Islam, Rückzug aus der Musikindustrie für fast drei Jahrzehnte, Gründung einer Schule und einer Hilfsorganisation. Das Gürteltier, das seine radikale Identitätssuche öffentlich vollzog, statt sie zu verbergen.",
@@ -48126,8 +48131,74 @@ function michaelJacksonPortraitPage() {
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
           {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
+          {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function hansChristianAndersenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, Märchendichter, 1805–1875 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das sich niemals ganz gehörig fühlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und zugleich preisgegeben zugleich, und bewegt sich durch die Welt mit dem beständigen Gefühl, anders gepanzert zu sein als alle anderen. Wo die selbsterhaltende Vier sich zurückzieht und die sexuelle Vier ihre Intensität in engen Beziehungen auslebt, sucht die soziale Vier die Gruppe &ndash; nicht obwohl, sondern gerade weil sie sich in ihr fremd fühlt.</p>
+          <p class="vb-intro">Hans Christian Andersen, geboren 1805 als Sohn eines Schuhmachers und einer Wäscherin in Odense, war dieses Gürteltier von Kindheit an. Arm, hässlich in den Augen seiner Umgebung genannt, mit einer hohen, oft belächelten Stimme und einer Empfindsamkeit, die in seiner ärmlichen Welt als Schwäche galt &ndash; er wuchs als jemand auf, der nirgendwo wirklich hingehörte, und der genau deshalb sein Leben lang nichts sehnlicher wollte, als dazuzugehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham, die nach Gesellschaft sucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Vier trägt die Vierer-Grundüberzeugung &ndash; <em>mit mir stimmt etwas nicht, ich bin anders als die anderen</em> &ndash; direkt in die Gruppe hinein. Sie zieht sich nicht zurück wie die SE4 und dramatisiert nicht wie die SX4, sondern vergleicht sich unablässig: Wer gehört dazu, wer nicht, und warum bin ausgerechnet ich derjenige, der nicht ganz hineinpasst? Naranjo beschreibt diesen Subtyp treffend über das Element der <em>Scham</em> &ndash; ein Schamgefühl, das paradoxerweise nicht zum Rückzug führt, sondern zur ständigen Suche nach Bestätigung durch genau die Gruppe, von der man sich ausgeschlossen fühlt.</p>
+          <p class="vb-intro">Andersens gesamtes Leben war von dieser Bewegung geprägt. Mit vierzehn Jahren, ohne Ausbildung und ohne Geld, reiste er allein nach Kopenhagen, um am Königlichen Theater Schauspieler, Sänger oder Tänzer zu werden &ndash; er wurde bei allen drei Versuchen abgelehnt, blieb aber, weil ihn Wohltäter aus Mitleid und Interesse an seinem ungewöhnlichen Talent förderten. Diese Position &ndash; gefördert, aber nie ganz gleichwertig aufgenommen; berühmt, aber innerlich stets der Schuhmachersohn unter Adligen &ndash; blieb sein Leben lang seine Grundspannung. Er wurde zum meistgereisten Dichter seiner Zeit, verkehrte mit Königen und Fürsten in halb Europa &ndash; und fühlte sich dabei fast durchgängig unsicher, ob er wirklich dazugehörte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als Bestätigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Dreierflügel verwandelt die introspektive Traurigkeit der Vier in aktives Streben nach Sichtbarkeit. Wo eine Vier mit stärkerem Fünferflügel sich eher zurückzieht und ihre Andersartigkeit in stiller Beobachtung verarbeitet, sucht die Vier mit Dreierflügel die Bühne, den Auftritt, die direkte Rückmeldung eines Publikums &ndash; als Beweis dafür, dass die eigene Einzigartigkeit tatsächlich etwas wert ist.</p>
+          <p class="vb-intro">Kaum ein Zug in Andersens Biografie zeigt das deutlicher als seine berühmt gewordene Angewohnheit, seine Märchen selbst öffentlich vorzulesen &ndash; in Salons, vor Königshäusern, auf Reisen quer durch Europa, wieder und wieder, mit sichtlichem Vergnügen an der unmittelbaren Reaktion der Zuhörer. Er pflegte gezielt Briefkontakte zu Prominenten seiner Zeit, von Charles Dickens bis zu europäischen Königshäusern, und dokumentierte akribisch jede Ehrung, jeden Orden, jede Einladung, die er erhielt. Das ist kein reiner Selbstzweck &ndash; es ist der Dreierflügel bei der Arbeit: die eigene, zutiefst verletzliche Andersartigkeit in öffentlich sichtbaren Erfolg zu übersetzen, damit sie nicht länger Makel, sondern Auszeichnung ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das hässliche Entlein als Selbstporträt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Text Andersens legt seine eigene Subtyp-Dynamik so offen wie <em>Das hässliche Entlein</em> (1843): ein Wesen, das im eigenen Umfeld als hässlich, fehl am Platz und unwürdig gilt &ndash; um sich am Ende als Schwan zu entpuppen, der von genau der Gesellschaft bewundert wird, die ihn zuvor verstieß. Diese Erzählstruktur ist die soziale Vier in Reinform: nicht der Rückzug aus der Gruppe, sondern der ersehnte Moment, in dem die Gruppe die eigene Besonderheit endlich anerkennt.</p>
+          <p class="vb-intro">Auch sein Privatleben trug diese Signatur. Andersen verliebte sich wiederholt unglücklich &ndash; in die Sängerin Jenny Lind, in mehrere Männer seines Umfelds, ohne dass diese Zuneigungen je erwidert wurden. Er blieb zeitlebens unverheiratet und kinderlos, ein Außenseiter auch in der Liebe, dessen tiefste Sehnsucht nach Zugehörigkeit sich nie in einer dauerhaften, gleichwertigen Bindung erfüllte &ndash; nur, immer wieder, im Applaus eines Publikums, das er nie ganz zur eigenen Familie machen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht verwandelt die SO4w3 ihre Wunde in etwas, das eine ganze Gesellschaft berührt: Andersens Märchen sprechen so unmittelbar zu Kindern wie zu Erwachsenen, weil sie aus echter, nie verleugneter Erfahrung von Ausgrenzung und Sehnsucht stammen, nicht aus erfundenem Sentiment. Seine Fähigkeit, das eigene Anderssein in universelle Geschichten zu übersetzen, machte ihn zu einem der meistübersetzten Autoren der Weltliteratur.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: eine geradezu unstillbare Bedürftigkeit nach Bestätigung, die Zeitgenossen als eitel und überempfindlich gegenüber Kritik beschrieben. Andersen reagierte auf negative Rezensionen mit tiefer, oft tagelanger Verstimmung, sammelte Lob wie ein Schutzschild und konnte selbst wohlmeinende Freundschaften als Zurückweisung erleben, wenn sie seinen Erwartungen an Nähe nicht genügten. Das ist die soziale Vier unter Druck: die Suche nach Zugehörigkeit kippt in eine Abhängigkeit von fremder Bestätigung, die nie ganz genug sein kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom hässlichen Entlein zum eigenen Schwan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Werde ich endlich dazugehören, wenn die anderen sehen, wer ich wirklich bin?</em> zur Erkenntnis <em>Ich gehöre bereits dazu, unabhängig davon, ob die Gruppe es in diesem Moment bestätigt.</em> Für die SO4w3 bedeutet das, die eigene Einzigartigkeit nicht länger als Beweis vor einem Publikum führen zu müssen, sondern sie als selbstverständlichen Teil der eigenen Zugehörigkeit zur menschlichen Gemeinschaft zu verstehen &ndash; das Entlein muss nicht erst zum Schwan werden, um schon immer dazugehört zu haben.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Andersens Gesundheit litt zeitlebens unter psychosomatischen Beschwerden &ndash; Zahnprobleme, Verdauungsstörungen, ausgeprägte Hypochondrie &ndash; die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine ständige Sorge um Krankheit und Ablehnung mit seinem Grundmuster verwoben war. Andersen kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Sehnsucht nach Zugehörigkeit ungebremst und ohne die Sprache, sie als wiederkehrendes Muster zu erkennen, statt sie immer wieder aufs Neue als individuelles Schicksal zu erleiden &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
     </div>
   `);
 }
@@ -139129,6 +139200,7 @@ function render() {
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
+      "beruehmte-hans-christian-andersen": hansChristianAndersenPortraitPage,
       "beruehmte-cat-stevens": catStevensPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,

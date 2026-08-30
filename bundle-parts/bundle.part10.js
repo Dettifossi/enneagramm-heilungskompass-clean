@@ -1,3 +1,71 @@
+function ludwigXIVPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Ludwig XIV. – der Sonnenkönig – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig XIV. – der Sonnenkönig</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">König von Frankreich, 1638–1715 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Augen auf ihn gerichtet sind. 1653, mit vierzehn Jahren, tanzte Ludwig XIV. im "Ballet de la Nuit" höchstpersönlich die Rolle des Sonnengottes Apoll – ein Auftritt, der ihm den Beinamen "Sonnenkönig" einbrachte und zum Programm seiner gesamten Herrschaft wurde. Kein Zufall, kein einmaliger Jugendauftritt, sondern die erste bewusste Inszenierung eines Bildes, das er zeitlebens perfektionierte.</p>
+          <p class="vb-intro">Der franz\u00f6sische K\u00f6nig Ludwig XIV., geboren 1638 als Sohn Ludwigs XIII., bestieg bereits mit vier Jahren den Thron, regierte zunächst unter der Vormundschaft seiner Mutter Anna von Österreich und des Kardinals Mazarin. Erst nach Mazarins Tod 1661 übernahm er, gerade zweiundzwanzig Jahre alt, die persönliche Regierung – und begann sofort, sich als das strahlende Zentrum seines Reiches zu inszenieren. Der Gepard wartet nicht auf die Erlaubnis, zu glänzen. Er ergreift den Moment, sobald sich die Gelegenheit bietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Der Staat als Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Verkörpere ich das Ideal, das die Gemeinschaft von mir erwartet?</em> Ludwig beantwortete diese Frage mit dem gesamten Staatsapparat: Der ihm zugeschriebene Satz "L'État, c'est moi" – "Der Staat bin ich" – mag legendenhaft überliefert sein, doch er trifft den Kern seiner Selbstinszenierung präzise.</p>
+          <p class="vb-intro">1682 verlegte er den gesamten Hof nach Versailles, in ein Schloss, das er über Jahrzehnte zu einem Bauwerk von beispielloser Pracht ausbauen ließ – nicht primär aus architektonischer Leidenschaft, sondern als politisches Instrument: Wer am Hof Karriere machen wollte, musste in Versailles präsent, sichtbar und dem König zugewandt sein. Die soziale Drei baut sich die Bühne, auf der ihre Leistung von allen gesehen werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Gunst als Herrschaftsinstrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht allein durch Distanz und Autorität gesichert, sondern durch persönliche Nähe, Gunst und gezielte Zuwendung. Der tägliche "Lever" und "Coucher", das öffentliche An- und Auskleiden des Königs, war kein bloßes Ritual, sondern ein fein austariertes Machtinstrument: Wer dem König beim Ankleiden assistieren durfte, war jemand. Wer nicht, war niemand.</p>
+          <p class="vb-intro">Ludwig band seine Höflinge nicht nur durch Angst, sondern durch echte Zuwendung: Er förderte Künstler wie Molière, Lully und den Gartenarchitekten Le Nôtre mit großzügigen Pensionen, pflegte über Jahrzehnte enge, persönliche Beziehungen zu seinen Mätressen – darunter Louise de La Vallière und Madame de Montespan – und heiratete nach dem Tod seiner ersten Frau heimlich seine langjährige Vertraute Madame de Maintenon. Die SO3w2 sucht Bestätigung nicht in kühler Distanz, sondern im direkten, persönlichen Band zu jenen, die sie um sich versammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Preis der Zentralisierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwigs Streben nach absoluter, sichtbarer Ordnung hatte eine dunkle Kehrseite: 1685 widerrief er das Edikt von Nantes, das den französischen Protestanten seit 1598 Religionsfreiheit garantiert hatte – Hunderttausende Hugenotten flohen daraufhin ins Ausland, viele davon hochqualifizierte Handwerker und Kaufleute, deren Verlust die französische Wirtschaft nachhaltig schwächte. Zahlreiche kostspielige Kriege zur Ausdehnung und Sicherung seines Ruhms hinterließen das Land am Ende seiner Herrschaft hoch verschuldet.</p>
+          <p class="vb-intro">Die soziale Drei mit Zweierflügel opfert langfristige Stabilität nicht selten für kurzfristig sichtbaren Glanz: Versailles, die Kriege, die religiöse Vereinheitlichung – alles diente demselben Ziel, das eine, unteilbare Bild des Sonnenkönigs zu festigen, selbst wenn der Preis dafür erst die nachfolgenden Generationen voll zu spüren bekamen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich in der kulturellen Blüte, die Ludwigs Herrschaft ermöglichte: Die Académie française, die Pariser Oper, das klassische französische Theater und die Gartenkunst von Versailles prägten den europäischen Geschmack für Jahrhunderte. Seine mit 72 Jahren längste Regierungszeit eines europäischen Monarchen brachte Frankreich über weite Strecken politische Stabilität und kulturelle Vorherrschaft.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Erschöpfung, die diese permanente Selbstinszenierung hinterließ: ein von Kriegsschulden erdrücktes Staatswesen, ein durch die Vertreibung der Hugenotten geschwächtes Handwerk, ein Hofsystem, das den Adel entmachtete, indem es ihn in goldene, aber letztlich machtlose Abhängigkeit von der königlichen Gunst zwang. Die Bühne, die Ludwig baute, verlangte permanente Fütterung – mit Geld, mit Kriegen, mit Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gepard, der zur Sonne wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ludwig XIV. starb 1715 in Versailles an Wundbrand, im Alter von 76 Jahren, nach 72 Regierungsjahren – länger als jeder andere Monarch der europäischen Geschichte. Seine letzten Worte an seinen Urenkel und Nachfolger sollen eine seltene, fast selbstkritische Warnung enthalten haben: nicht seinem Beispiel im übertriebenen Bauen und Kriegführen zu folgen.</p>
+          <p class="vb-intro">Der Gepard, der als Vierzehnjähriger die Sonne tanzte, machte dieses Bild sechs Jahrzehnte lang zur Realität eines ganzen Königreichs. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: die Fähigkeit, aus einem einzigen strahlenden Auftritt ein Lebenswerk zu formen – verbunden mit der tiefen Notwendigkeit, dabei stets von anderen gesehen, bewundert und persönlich an sich gebunden zu sein.</p>
+          <p class="vb-intro">Zu seinem Hofstaat gehörte auch <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a> (SO7w6) – der Dramatiker, dessen Theatertruppe unter Ludwigs Gönnerschaft stand und der sich der schärfsten Gesellschaftssatire seiner Zeit widmete, bevor er 1673 auf der Bühne zusammenbrach. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsporträt zu Molière</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"krankheitsportraets-ludwig-xiv", label:"Krankheitsporträt: Ludwig XIV. (SO3w2) – Gicht, Analfistel, tödlicher Wundbrand"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function christiaanBarnardPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10246,184 +10314,6 @@ function juliusCaesarKrankheitsportraetPage() {
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
-      ])}
-    </div>
-  `);
-}
-
-function claudeDebussyKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-claude-debussy-portrait.jpg" alt="Claude Debussy" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Claude Debussy</p>
-        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel · 1862–1918</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Chihuahua</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Claude Debussy</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-claude-debussy">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
-        Typstruktur. Diese Seite vertieft ein Kapitel, das dort nicht zur Sprache kommt: eine
-        Darmkrebs-Diagnose 1909, ein fast neunjähriger, zunehmend schmerzhafter
-        Krankheitsverlauf während des Ersten Weltkriegs und ein Tod inmitten der deutschen
-        Beschießung von Paris.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Debussy</strong> ist der <strong>sexuellen Vier mit Fünferflügel</strong>
-        zugeordnet. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung,
-        dass die bestehende Ordnung einem etwas Wesentliches vorenthält, verbunden mit dem
-        Antrieb, dagegen anzutreten. Der Fünferflügel bringt die Fähigkeit hinzu, sich in Arbeit
-        und Struktur zu vertiefen, bis keine Kraft mehr bleibt – ein Muster, das sich bis in
-        Debussys Umgang mit der eigenen tödlichen Krankheit nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste Symptome bereits 1908:</strong>
-        Ab 1908 klagte Debussy zunehmend über Verdauungsbeschwerden und Blutungen – Symptome,
-        die er zunächst als vorübergehend abtat, während er weiter komponierte und dirigierte.</p>
-        <p class="vb-intro"><strong>b) Diagnose 1909:</strong>
-        1909 wurde bei Debussy Darmkrebs diagnostiziert. Er hielt die Diagnose weitgehend
-        privat und setzte seine kompositorische Arbeit sowie öffentliche Auftritte als
-        Dirigent und Pianist fort.</p>
-        <p class="vb-intro"><strong>c) Weiterarbeiten trotz erster Behandlungen:</strong>
-        Schon in den ersten Jahren nach der Diagnose unterzog sich Debussy wiederholt
-        schmerzhaften Behandlungen, ohne seine Konzerttätigkeit und Kompositionsarbeit
-        grundlegend einzuschränken.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Radium-Behandlungen ab 1915:</strong>
-        Ab 1915 unterzog sich Debussy mehreren Radium-Behandlungen gegen den fortschreitenden
-        Krebs – eine damals neuartige, äußerst schmerzhafte Therapieform mit ungewissem
-        Erfolg.</p>
-        <p class="vb-intro"><strong>b) Eine Operation im Dezember 1915:</strong>
-        Im Dezember 1915 unterzog sich Debussy einer der ersten Kolostomie-Operationen in
-        Frankreich – ein Eingriff, der ihn körperlich stark schwächte, seinen kompositorischen
-        Ehrgeiz jedoch nicht brach.</p>
-        <p class="vb-intro"><strong>c) Komposition trotz sich verschlechternder Gesundheit:</strong>
-        In den Jahren nach der Operation komponierte Debussy weiter, darunter seine letzten
-        großen Kammermusikwerke – entstanden in Phasen zunehmender Schmerzen und
-        Erschöpfung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Ein letzter öffentlicher Auftritt unter Kriegsbedingungen:</strong>
-        Im September 1917, bereits schwer von der Krankheit gezeichnet, gab Debussy eines
-        seiner letzten Konzerte in Paris – während die Stadt unter dem Bombardement der
-        deutschen Armee stand.</p>
-        <p class="vb-intro"><strong>b) Rascher Verfall im Frühjahr 1918:</strong>
-        In den ersten Monaten des Jahres 1918 verschlechterte sich Debussys Zustand dramatisch.
-        Er war zunehmend ans Bett gefesselt, während die sogenannte Pariser Kanone die Stadt
-        aus fast 130 Kilometern Entfernung beschoss.</p>
-        <p class="vb-intro"><strong>c) Tod am 25. März 1918:</strong>
-        Debussy starb in seiner Wohnung in Paris im Alter von 55 Jahren, während die Stadt
-        unter deutschem Artilleriebeschuss lag. Wegen der Kriegslage fand seine Beerdigung
-        unter kleinem Rahmen statt – ein stiller Abschied inmitten des Kriegslärms.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Fast neun Jahre zwischen Diagnose und Tod:</strong>
-        Von der Diagnose 1909 bis zu seinem Tod 1918 lebte Debussy fast neun Jahre mit einer
-        fortschreitenden, zunehmend schmerzhaften Krankheit, ohne sein kompositorisches
-        Schaffen vollständig aufzugeben.</p>
-        <p class="vb-intro"><strong>b) Ein Spätwerk, geprägt von Verlust und Schmerz:</strong>
-        Debussys letzte Kompositionen – entstanden während der schlimmsten Kriegsjahre und der
-        fortschreitenden Krankheit – tragen eine Klarheit und Zurückhaltung, die viele
-        Musikhistoriker als bewussten Rückzug auf das Wesentliche lesen.</p>
-        <p class="vb-intro"><strong>c) Krankheit und Krieg als paralleler roter Faden:</strong>
-        Debussys letzte Lebensjahre verliefen parallel zum Ersten Weltkrieg – seine persönliche
-        Krankheitsgeschichte und der Zusammenbruch der europäischen Ordnung, die er zeitlebens
-        in Frage gestellt hatte, endeten fast im selben Moment.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Rivalität, gerichtet gegen die eigene Sterblichkeit:</strong>
-        So wie Debussy sein Leben lang gegen die etablierte Musikwelt ankämpfte, kämpfte er
-        auch gegen die fortschreitende Krankheit – nicht durch Verdrängung, sondern durch
-        fortgesetztes, kompromissloses Schaffen.</p>
-        <p class="vb-intro"><strong>b) Der Fünferflügel als Rückzugsort in der Krankheit:</strong>
-        Je kränker Debussy wurde, desto mehr zog er sich in die eigene kompositorische Arbeit
-        zurück – dieselbe Vertiefung in Struktur und Klang, die ihn schon als jungen Komponisten
-        auszeichnete, wurde nun zum Ort, an dem der Schmerz für Stunden verschwand.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Konzert als Trotzreaktion:</strong>
-        Sein Auftritt 1917 unter Kriegsbedingungen, schwer krank, zeigt dieselbe Haltung, die
-        sein gesamtes Werk durchzog: sich nicht von äußeren Umständen – ob Kritikern oder
-        Kanonen – die eigene Musik diktieren zu lassen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Neun Jahre zwischen Diagnose und Tod:</strong>
-        Von 1909 bis 1918 lebte Debussy mit einer Krankheit, die er nie öffentlich in den
-        Mittelpunkt seines Lebens stellte, sondern die er durch fortgesetzte kompositorische
-        Arbeit gewissermaßen überschrieb.</p>
-        <p class="vb-intro"><strong>b) Konfrontation statt Rückzug aus der Öffentlichkeit:</strong>
-        Anders als Karl Lagerfeld (SO3w4) oder Michael Jackson (SO4w3), die ihre Krankheit
-        hinter einer makellosen Fassade verbargen, zog sich Debussy zwar körperlich zurück,
-        gab aber bis zuletzt öffentliche Konzerte – eine eigene, zwischen Konfrontation und
-        Rückzug liegende Form des Umgangs mit der eigenen Sterblichkeit.</p>
-        <p class="vb-intro"><strong>c) Ein Tod, der mit dem Zusammenbruch einer Epoche zusammenfiel:</strong>
-        Dass Debussy ausgerechnet während der Beschießung von Paris starb, verstärkt den
-        Eindruck eines Lebens, dessen private und historische Krisen bis zuletzt
-        ineinandergriffen.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet der Darm?</strong>
-        Für eine sexuelle Vier, deren gesamtes Werk aus der Verdauung und Verwandlung von
-        Schmerz in Kunst bestand, liegt eine Deutung nahe: Ausgerechnet das Organ, das im
-        wörtlichsten Sinn verdaut, wurde zum Schauplatz eines Kampfes, den Debussy nie
-        öffentlich austrug, sondern in seine Musik hinein verdichtete. Diese Deutung ist eine
-        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu Darmkrebs führt –
-        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
-        sich an Debussys Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen Krankheit,
-        das bei einer ausgeprägten sexuellen Vier mit Fünferflügel immer wieder auffällt – eine
-        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Debussy kannte sein eigenes Muster nicht – die sexuelle Vier verwandelt Schmerz
-        reflexhaft in Werk statt in Schonung, und genau das ließ ihn auch angesichts einer
-        tödlichen Diagnose weiterarbeiten, weiterdirigieren, weiterauftreten, statt sich Zeit
-        für die eigene Genesung zu nehmen. Wer das eigene Muster, Schmerz sofort in Ausdruck zu
-        verwandeln, nicht kennt, verpasst möglicherweise den Moment, in dem Innehalten die
-        klügere Antwort gewesen wäre.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Debussys</strong> sexuelle Vier mit
-        Fünferflügel noch einmal ablesen: eine fast neunjährige Krankheit, die er nie
-        öffentlich zum Zentrum seines Lebens machte, ein letztes Konzert unter Kanonendonner
-        und ein Tod, der mit dem Zusammenbruch einer ganzen Epoche zusammenfiel. Der Chihuahua,
-        der der Musik beibrachte zu schweben, auch als der eigene Körper längst nicht mehr
-        tragen konnte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5) – Lebenswerk"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Auftreten"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
     </div>
   `);

@@ -1,3 +1,169 @@
+function elonMuskKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-elon-musk-portrait.jpg" alt="Elon Musk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elon Musk</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · geb. 1971</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elon Musk</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Porträt berühmter
+        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
+        das dort nicht behandelt wird: Musks öffentliches Bekenntnis zum Asperger-Syndrom,
+        das er 2021 live im US-Fernsehen bekannt gab.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Musk</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SO7 opfert die eigene Zurückhaltung für eine größere Vision und scheut
+        keine Bühne, wenn es der Sache dient; der Sechserflügel bringt eine Wachsamkeit
+        hinzu, die auch das eigene Anderssein offen benennt, statt es zu verbergen. Genau
+        diese Kombination – eine private Diagnose, die auf der größtmöglichen öffentlichen
+        Bühne verkündet wird – bestimmte den Umgang mit dem eigenen Asperger-Syndrom.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Auffälligkeiten bereits in der Kindheit:</strong>
+        Nach eigener und familiärer Schilderung zeigte Musk bereits als Kind Verhaltensweisen,
+        die rückblickend als typisch für das Asperger-Syndrom gelten, darunter intensive,
+        eng fokussierte Interessen und soziale Schwierigkeiten.</p>
+        <p class="vb-intro"><strong>b) Keine formale Diagnose in jungen Jahren:</strong>
+        Eine formale Diagnose erfolgte nach eigener Aussage nicht in der Kindheit, sondern
+        erst deutlich später im Erwachsenenleben.</p>
+        <p class="vb-intro"><strong>c) Jahrzehntelange öffentliche Wahrnehmung als „exzentrisch":</strong>
+        Vor der Offenlegung wurde Musks ungewöhnliches öffentliches Auftreten – ungefilterte
+        Kommentare, ungewöhnlicher Humor, direkte Art – von Medien häufig lediglich als
+        exzentrisch beschrieben, ohne Bezug zu einer neurologischen Grundlage.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Öffentliche Bekanntgabe am 8. Mai 2021:</strong>
+        Musk gab die Diagnose live als Moderator der US-Sketch-Show „Saturday Night Live"
+        bekannt – vor einem Millionenpublikum, in einem unterhaltsamen, selbstironischen
+        Rahmen statt in einem ernsten Interview.</p>
+        <p class="vb-intro"><strong>b) Erste bekannte Aspberger-Offenlegung eines Milliardärs dieser Größenordnung:</strong>
+        Musk gilt als einer der ersten sehr prominenten Unternehmer, die eine
+        Autismus-Spektrum-Diagnose öffentlich und in dieser Form bekannt machten.</p>
+        <p class="vb-intro"><strong>c) Verbindung mit Selbstreflexion zu sozialem Verhalten:</strong>
+        In derselben Sendung reflektierte Musk offen darüber, dass er manchmal Schwierigkeiten
+        habe, soziale Signale zu lesen – eine für ihn ungewöhnlich direkte Selbstauskunft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Positive und kritische mediale Reaktionen zugleich:</strong>
+        Die Offenlegung löste sowohl Anerkennung für die Offenheit als auch kritische
+        Stimmen aus, die den unterhaltsamen Rahmen als unpassend für ein ernstes Gesundheitsthema
+        empfanden.</p>
+        <p class="vb-intro"><strong>b) Keine Veränderung des öffentlichen Auftretens danach:</strong>
+        Nach der Offenlegung änderte Musk sein öffentliches Auftreten – provokante Aussagen,
+        ungefilterte Kommentare auf Social Media – nicht erkennbar; die Diagnose wurde nicht
+        zum Anlass einer neuen öffentlichen Zurückhaltung.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte extreme Arbeitsintensität:</strong>
+        Musks bekanntermaßen enorme Arbeitsbelastung über mehrere Unternehmen hinweg blieb
+        nach der Offenlegung unverändert bestehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für Autismus im Erwachsenenalter:</strong>
+        Die Offenlegung trug international zur Sichtbarkeit von spät diagnostiziertem Autismus
+        bei Erwachsenen bei, insbesondere in beruflichen Spitzenpositionen.</p>
+        <p class="vb-intro"><strong>b) Neubewertung früherer öffentlicher Auftritte:</strong>
+        Nach der Offenlegung deuteten viele Kommentatoren frühere, als ungewöhnlich
+        wahrgenommene öffentliche Auftritte Musks rückblickend im Licht der Diagnose neu.</p>
+        <p class="vb-intro"><strong>c) Keine dauerhafte Verankerung als zentrales öffentliches Thema:</strong>
+        Trotz der breiten anfänglichen Aufmerksamkeit blieb das Asperger-Syndrom in der
+        Folgezeit kein durchgängig präsentes Thema in Musks öffentlicher Kommunikation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die größtmögliche Bühne statt stiller Offenlegung:</strong>
+        Die SO7-typische Überzeugung, dass die eigene Botschaft möglichst viele Menschen
+        erreichen soll, zeigte sich exemplarisch: Statt eines diskreten Interviews wählte
+        Musk die größtmögliche mediale Plattform für die Offenlegung.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und die offene Benennung des eigenen Andersseins:</strong>
+        Dieselbe Wachsamkeit, mit der Musk gesellschaftliche Risiken öffentlich benennt,
+        zeigte sich hier als Bereitschaft, auch die eigene neurologische Andersartigkeit
+        offen zu thematisieren, statt sie hinter einem glatten öffentlichen Bild zu
+        verbergen.</p>
+        <p class="vb-intro"><strong>c) Unterhaltung als Vehikel für eine ernste Botschaft:</strong>
+        Dass die Offenlegung in einem komödiantischen Format erfolgte, passt zur SO7-typischen
+        Fähigkeit, auch schwierige Themen in eine zugängliche, positive Erzählung zu
+        verwandeln, statt sie als reine Last darzustellen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann des Unaufhörlichen Bauens, dessen eigenes Denken anders funktioniert als das der meisten:</strong>
+        Musks gesamtes öffentliches Wirken beruht auf einer außergewöhnlichen Fähigkeit zu
+        intensiver, fokussierter Konzentration auf einzelne Probleme – genau jene kognitive
+        Eigenart, die sein Lebenswerk trägt, ist zugleich Teil derselben neurologischen
+        Struktur, die er als Asperger-Syndrom benannte.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet die soziale Wahrnehmung, bei einem Mann mit derart öffentlicher Rolle?</strong>
+        Für einen sozialen Typ 7 mit Sechserflügel, dessen gesamtes Wirken auf öffentlicher
+        Sichtbarkeit und der Fähigkeit beruht, große Menschenmengen zu begeistern, liegt eine
+        Deutung nahe: Ausgerechnet jene kognitive Eigenart, die das Lesen sozialer Signale
+        erschwert, betrifft einen Mann, dessen berufliches Leben untrennbar mit öffentlicher
+        Kommunikation verbunden ist. Diese Deutung ist eine plausible Interpretation, kein
+        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig mit dem
+        Asperger-Syndrom verbunden ist – <strong>jeder Mensch kann jede Form
+        neurologischer Andersartigkeit entwickeln, unabhängig vom Subtyp.</strong> Was sich
+        an Musks Fall zeigen lässt, ist ein Muster im Umgang mit einer spät benannten
+        neurologischen Diagnose, das bei einem ausgeprägten sozialen Typ 7 mit Sechserflügel
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Musk kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 7 mit
+        Sechserflügel hält reflexhaft an der Überzeugung fest, dass die größtmögliche
+        öffentliche Bühne der richtige Ort für jede Botschaft ist, auch für die eigene
+        neurologische Diagnose, und lebt genau dieses Muster bis heute weitgehend unverändert
+        aus. Wer die eigene Neigung, persönliche Themen unmittelbar in öffentliche
+        Inszenierung zu verwandeln, nicht als Muster erkennt, riskiert, dass ernste
+        Themen in der Unterhaltung untergehen, statt die ihnen angemessene Tiefe zu
+        erreichen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 7 mit Sechserflügel erklärt bei <strong>Elon Musk</strong> vieles am
+        Umgang mit dem eigenen Asperger-Syndrom: ein Mann, dessen gesamtes öffentliches
+        Wirken auf größtmöglicher Sichtbarkeit beruht, wählte auch für die eigene
+        neurologische Diagnose die größte verfügbare Bühne – der Biber, der selbst die
+        eigene Andersartigkeit nicht verbirgt, sondern sie zu einem weiteren, öffentlich
+        sichtbaren Teil seines Bauwerks macht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
 function edGeinPortraitPage() {
   return shell(`
     <div class="page-container">

@@ -5001,8 +5001,74 @@ function michaelJacksonPortraitPage() {
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
           {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
+          {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function hansChristianAndersenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, Märchendichter, 1805–1875 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das sich niemals ganz gehörig fühlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und zugleich preisgegeben zugleich, und bewegt sich durch die Welt mit dem beständigen Gefühl, anders gepanzert zu sein als alle anderen. Wo die selbsterhaltende Vier sich zurückzieht und die sexuelle Vier ihre Intensität in engen Beziehungen auslebt, sucht die soziale Vier die Gruppe &ndash; nicht obwohl, sondern gerade weil sie sich in ihr fremd fühlt.</p>
+          <p class="vb-intro">Hans Christian Andersen, geboren 1805 als Sohn eines Schuhmachers und einer Wäscherin in Odense, war dieses Gürteltier von Kindheit an. Arm, hässlich in den Augen seiner Umgebung genannt, mit einer hohen, oft belächelten Stimme und einer Empfindsamkeit, die in seiner ärmlichen Welt als Schwäche galt &ndash; er wuchs als jemand auf, der nirgendwo wirklich hingehörte, und der genau deshalb sein Leben lang nichts sehnlicher wollte, als dazuzugehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham, die nach Gesellschaft sucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Vier trägt die Vierer-Grundüberzeugung &ndash; <em>mit mir stimmt etwas nicht, ich bin anders als die anderen</em> &ndash; direkt in die Gruppe hinein. Sie zieht sich nicht zurück wie die SE4 und dramatisiert nicht wie die SX4, sondern vergleicht sich unablässig: Wer gehört dazu, wer nicht, und warum bin ausgerechnet ich derjenige, der nicht ganz hineinpasst? Naranjo beschreibt diesen Subtyp treffend über das Element der <em>Scham</em> &ndash; ein Schamgefühl, das paradoxerweise nicht zum Rückzug führt, sondern zur ständigen Suche nach Bestätigung durch genau die Gruppe, von der man sich ausgeschlossen fühlt.</p>
+          <p class="vb-intro">Andersens gesamtes Leben war von dieser Bewegung geprägt. Mit vierzehn Jahren, ohne Ausbildung und ohne Geld, reiste er allein nach Kopenhagen, um am Königlichen Theater Schauspieler, Sänger oder Tänzer zu werden &ndash; er wurde bei allen drei Versuchen abgelehnt, blieb aber, weil ihn Wohltäter aus Mitleid und Interesse an seinem ungewöhnlichen Talent förderten. Diese Position &ndash; gefördert, aber nie ganz gleichwertig aufgenommen; berühmt, aber innerlich stets der Schuhmachersohn unter Adligen &ndash; blieb sein Leben lang seine Grundspannung. Er wurde zum meistgereisten Dichter seiner Zeit, verkehrte mit Königen und Fürsten in halb Europa &ndash; und fühlte sich dabei fast durchgängig unsicher, ob er wirklich dazugehörte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Bühne als Bestätigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Dreierflügel verwandelt die introspektive Traurigkeit der Vier in aktives Streben nach Sichtbarkeit. Wo eine Vier mit stärkerem Fünferflügel sich eher zurückzieht und ihre Andersartigkeit in stiller Beobachtung verarbeitet, sucht die Vier mit Dreierflügel die Bühne, den Auftritt, die direkte Rückmeldung eines Publikums &ndash; als Beweis dafür, dass die eigene Einzigartigkeit tatsächlich etwas wert ist.</p>
+          <p class="vb-intro">Kaum ein Zug in Andersens Biografie zeigt das deutlicher als seine berühmt gewordene Angewohnheit, seine Märchen selbst öffentlich vorzulesen &ndash; in Salons, vor Königshäusern, auf Reisen quer durch Europa, wieder und wieder, mit sichtlichem Vergnügen an der unmittelbaren Reaktion der Zuhörer. Er pflegte gezielt Briefkontakte zu Prominenten seiner Zeit, von Charles Dickens bis zu europäischen Königshäusern, und dokumentierte akribisch jede Ehrung, jeden Orden, jede Einladung, die er erhielt. Das ist kein reiner Selbstzweck &ndash; es ist der Dreierflügel bei der Arbeit: die eigene, zutiefst verletzliche Andersartigkeit in öffentlich sichtbaren Erfolg zu übersetzen, damit sie nicht länger Makel, sondern Auszeichnung ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das hässliche Entlein als Selbstporträt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Text Andersens legt seine eigene Subtyp-Dynamik so offen wie <em>Das hässliche Entlein</em> (1843): ein Wesen, das im eigenen Umfeld als hässlich, fehl am Platz und unwürdig gilt &ndash; um sich am Ende als Schwan zu entpuppen, der von genau der Gesellschaft bewundert wird, die ihn zuvor verstieß. Diese Erzählstruktur ist die soziale Vier in Reinform: nicht der Rückzug aus der Gruppe, sondern der ersehnte Moment, in dem die Gruppe die eigene Besonderheit endlich anerkennt.</p>
+          <p class="vb-intro">Auch sein Privatleben trug diese Signatur. Andersen verliebte sich wiederholt unglücklich &ndash; in die Sängerin Jenny Lind, in mehrere Männer seines Umfelds, ohne dass diese Zuneigungen je erwidert wurden. Er blieb zeitlebens unverheiratet und kinderlos, ein Außenseiter auch in der Liebe, dessen tiefste Sehnsucht nach Zugehörigkeit sich nie in einer dauerhaften, gleichwertigen Bindung erfüllte &ndash; nur, immer wieder, im Applaus eines Publikums, das er nie ganz zur eigenen Familie machen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht verwandelt die SO4w3 ihre Wunde in etwas, das eine ganze Gesellschaft berührt: Andersens Märchen sprechen so unmittelbar zu Kindern wie zu Erwachsenen, weil sie aus echter, nie verleugneter Erfahrung von Ausgrenzung und Sehnsucht stammen, nicht aus erfundenem Sentiment. Seine Fähigkeit, das eigene Anderssein in universelle Geschichten zu übersetzen, machte ihn zu einem der meistübersetzten Autoren der Weltliteratur.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite: eine geradezu unstillbare Bedürftigkeit nach Bestätigung, die Zeitgenossen als eitel und überempfindlich gegenüber Kritik beschrieben. Andersen reagierte auf negative Rezensionen mit tiefer, oft tagelanger Verstimmung, sammelte Lob wie ein Schutzschild und konnte selbst wohlmeinende Freundschaften als Zurückweisung erleben, wenn sie seinen Erwartungen an Nähe nicht genügten. Das ist die soziale Vier unter Druck: die Suche nach Zugehörigkeit kippt in eine Abhängigkeit von fremder Bestätigung, die nie ganz genug sein kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom hässlichen Entlein zum eigenen Schwan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Werde ich endlich dazugehören, wenn die anderen sehen, wer ich wirklich bin?</em> zur Erkenntnis <em>Ich gehöre bereits dazu, unabhängig davon, ob die Gruppe es in diesem Moment bestätigt.</em> Für die SO4w3 bedeutet das, die eigene Einzigartigkeit nicht länger als Beweis vor einem Publikum führen zu müssen, sondern sie als selbstverständlichen Teil der eigenen Zugehörigkeit zur menschlichen Gemeinschaft zu verstehen &ndash; das Entlein muss nicht erst zum Schwan werden, um schon immer dazugehört zu haben.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Andersens Gesundheit litt zeitlebens unter psychosomatischen Beschwerden &ndash; Zahnprobleme, Verdauungsstörungen, ausgeprägte Hypochondrie &ndash; die sich nicht monokausal auf seinen Subtyp zurückführen lassen. Bemerkenswert bleibt dennoch, wie eng seine ständige Sorge um Krankheit und Ablehnung mit seinem Grundmuster verwoben war. Andersen kannte sein eigenes Enneagramm-Muster naturgemäß nicht; er lebte seine Sehnsucht nach Zugehörigkeit ungebremst und ohne die Sprache, sie als wiederkehrendes Muster zu erkennen, statt sie immer wieder aufs Neue als individuelles Schicksal zu erleiden &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
     </div>
   `);
 }
@@ -7590,72 +7656,6 @@ function jenniferAnistonPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
         {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2) – ehemaliger Ehemann"},
-      ])}
-    </div>
-  `);
-}
-
-function byronKatiePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Byron Katie – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Byron Katie</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Autorin &amp; Begründerin von „The Work", geb. 1942 in Barstow, Kalifornien – Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug. Wer im Rudel bestehen will, muss standhalten können, wenn es unbequem wird – genau das ist die Bewegung, die Byron Katie zu ihrem Lebenswerk gemacht hat: der eigenen Angst nicht auszuweichen, sondern sie direkt anzuschauen, Frage für Frage.</p>
-          <p class="vb-intro">Die US-amerikanische Byron Kathleen Reid, 1942 in der Wüstenstadt Barstow, Kalifornien, geboren, war in den 1970er-Jahren eine erfolgreiche Geschäftsfrau in der Immobilienbranche, verheiratet, Mutter dreier Kinder. Nichts an diesem Leben deutete auf das hin, was folgte: ein fast vollständiger innerer Zusammenbruch – und daraus geboren eine der einflussreichsten Selbsterkenntnismethoden der Gegenwart.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Der Abgrund vor der Wende (Kontratyp)</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke und direkter Konfrontation. Naranjo nannte diesen Subtyp <em>Strength</em>. Doch bevor diese Stärke sichtbar wird, durchlebt die SX6 oft die Angst in ihrer rohesten Form – ungefiltert, überwältigend, kaum zu ertragen.</p>
-          <p class="vb-intro">Über etwa zehn Jahre hinweg versank Byron Katie in einer immer tieferen Depression: Wutausbrüche, Paranoia, Agoraphobie – sie konnte irgendwann das Haus nicht mehr verlassen –, Suizidgedanken, Medikamenten- und Alkoholmissbrauch. Am Ende dieser Abwärtsspirale nahm sie eine Einrichtung für Frauen mit Essstörungen auf, weil keine andere Einrichtung sie noch behandeln wollte. Das ist die Angst der Sechs in ihrer reinsten, unbearbeiteten Form – bevor der Kontratyp sich zu ihr umdreht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Februar 1986: Die Umkehr auf dem Boden</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1986, auf dem Boden dieser Einrichtung liegend, erlebte Byron Katie einen Moment, den sie selbst als vollständige, unvermittelte Erkenntnis beschreibt: <em>Wenn ich meinen Gedanken glaubte, litt ich. Wenn ich ihnen nicht glaubte, litt ich nicht.</em> Kein allmählicher Prozess, keine Therapiesitzung, kein Auslöser, den sie benennen könnte – sondern ein Umschlagpunkt, nach dem sie sich selbst als grundlegend verändert erlebte: durchgehend heiter, ohne die Wut und Verzweiflung, die sie ein Jahrzehnt begleitet hatten.</p>
-          <p class="vb-intro">Als sie nach Hause zurückkehrte, reagierte ihre Familie zunächst mit Verwirrung und Sorge – die Veränderung war so abrupt und so vollständig, dass manche sie für einen weiteren psychischen Ausnahmezustand hielten, nicht für eine Heilung. Für die sexuelle Sechs ist das die radikalste Form der Konfrontation: nicht die Angst zu bekämpfen, sondern die Gedanken zu hinterfragen, die sie erzeugen – so lange, bis nichts mehr übrig bleibt, dem man ausweichen müsste.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. The Work: Vier Fragen als Waffe gegen die Angst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Aus dieser Erfahrung entwickelte Byron Katie eine Methode, die sie <em>The Work</em> nannte: vier Fragen, die auf jeden belastenden Gedanken angewendet werden können – <em>Ist das wahr? Kannst du absolut sicher wissen, dass es wahr ist? Wie reagierst du, wenn du diesen Gedanken glaubst? Wer wärst du ohne diesen Gedanken?</em> – gefolgt von der <em>Umkehrung</em>, bei der der Gedanke ins Gegenteil oder auf einen selbst gewendet wird.</p>
-          <p class="vb-intro">Das Buch <em>Loving What Is</em> (2002), gemeinsam mit ihrem Ehemann, dem renommierten Übersetzer Stephen Mitchell verfasst, wurde zum internationalen Bestseller. Was diese Methode von vielen anderen Selbsthilfeansätzen unterscheidet, ist ihre Direktheit: Byron Katie weicht keiner Frage aus, keinem Schmerz, keiner Konfrontation. In öffentlichen Sitzungen – bekannt als <em>Workings</em> – führt sie Teilnehmer live und ungeschönt vor Publikum durch ihre schmerzhaftesten Überzeugungen. Das ist reine SX6-Energie: sich der Sache stellen, nicht um sie herumgehen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Siebenerflügel: Freude als Methode</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Leichtigkeit, die eine SX6 mit schwächer ausgeprägtem Siebenerflügel nicht hätte: Humor, Spielfreude, eine Fähigkeit, selbst die schwersten Themen mit einem Lächeln zu berühren, ohne sie zu verharmlosen. Byron Katies öffentlicher Stil ist bekannt für genau diese Mischung – sie lacht oft, mitten in den intensivsten Gesprächen, nicht aus Distanz, sondern aus einer tiefen, fast kindlichen Freude an dem, was gerade geschieht.</p>
-          <p class="vb-intro">Ihr Buch <em>A Thousand Names for Joy</em> (2007) trägt diese Qualität schon im Titel. Die SX6w7 sucht nicht nur die Konfrontation mit der Angst – sie sucht danach die Freude, die entsteht, wenn der Kampf gegen die Realität endet. Das ist der Unterschied zu einer SX6 mit schwach ausgeprägtem Siebenerflügel: Wo diese in der Konfrontation verharren könnte, führt ein stark ausgeprägter Siebenerflügel weiter, zu etwas Leichterem dahinter.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre kompromisslose Bereitschaft, sich selbst und andere mit dem zu konfrontieren, was am meisten schmerzt – nicht aus Härte, sondern aus der Überzeugung, dass genau dort die Freiheit liegt. Millionen Menschen weltweit haben an Byron Katies Seminaren, den <em>School for The Work</em>, teilgenommen oder ihre Bücher gelesen, viele mit dem Gefühl, zum ersten Mal wirklich gehört worden zu sein.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihrer Methode seit Jahren begegnet: Manche werfen ihr vor, komplexe seelische Notlagen – Trauma, Missbrauch, klinische Depression – zu stark auf die Frage nach der Wahrheit eines Gedankens zu reduzieren, als könne jedes Leid allein durch Selbstbefragung aufgelöst werden. Für die SX6 ist die direkte Konfrontation die eigene Rettung gewesen – doch nicht jeder Schmerz lässt sich mit derselben Methode auflösen, mit der sie den ihren überwand. Die reife SX6w7 weiß: Mut zur Wahrheit ersetzt nicht immer die Notwendigkeit von Zeit, Begleitung und Geduld.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
-        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
-        {route:"krankheitsportraets-byron-katie", label:"Krankheitsporträt: Byron Katie (SX6w7) – zehn Jahre Depression und Agoraphobie"},
       ])}
     </div>
   `);

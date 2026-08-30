@@ -1,3 +1,70 @@
+function uliHoenessPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-uli-hoeness-portrait.jpg" alt="Uli Hoene\u00df" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Uli Hoene\u00df</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Fu\u00dfballprofi, Manager &amp; Pr\u00e4sident des FC Bayern M\u00fcnchen, geb. 1952 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und Uli Hoene\u00df ist dieses Tier in seiner kompromisslosesten Auspr\u00e4gung. Das Flusspferd braucht kein Publikum. Es braucht sein Revier: das Wasser, das es kennt, die Ufer, die ihm geh\u00f6ren, die Grenzen, die es mit jedem Gramm seines K\u00f6rpers markiert und verteidigt. Es wirkt gutm\u00fctig &ndash; bis jemand zu nah kommt. Dann zeigt es, was wirklich in ihm steckt.</p>
+          <p class="vb-intro">Der deutsche Fu\u00dfballfunktion\u00e4r Uli Hoene\u00df ist seit mehr als f\u00fcnfzig Jahren der FC Bayern M\u00fcnchen. Nicht als Angestellter, nicht als Funktion\u00e4r &ndash; sondern als Mensch, der diesen Verein als sein Revier begriffen und mit einer Energie aufgebaut hat, die in der deutschen Fu\u00dfballgeschichte ihresgleichen sucht. Er hat als Spieler gewonnen, als Manager aufgebaut, als Pr\u00e4sident gef\u00fchrt &ndash; und nach dem tiefsten Sturz seines Lebens ist er zur\u00fcckgekehrt. Das Flusspferd steht auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: F\u00fcrsorge als \u00dcberlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist der Subtyp der Zwei, der seine Energie am direktesten auf das eigene \u00dcberleben und das \u00dcberleben dessen richtet, was ihm am n\u00e4chsten ist. Naranjo nannte diesen Subtyp <em>Me First</em>: die Zwei, die ihre eigenen Bed\u00fcrfnisse benennt, ihr Territorium kennt und sch\u00fctzt &ndash; nicht durch R\u00fcckzug, sondern durch Pr\u00e4senz. Die SE2 ist die konkreteste, erdn\u00e4chste, am wenigsten romantisierende der drei Zweier-Varianten. Sie handelt. Sie sorgt. Sie sichert ab.</p>
+          <p class="vb-intro">Bei Uli Hoene\u00df zeigt sich das in einer F\u00fcrsorge, die nicht abstrakt ist, sondern pers\u00f6nlich und handfest. Er hat Spieler in Krisen angerufen, Familien geholfen, Transfers pers\u00f6nlich begleitet, Konflikte gel\u00f6st &ndash; nicht weil es zur Stellenbeschreibung geh\u00f6rte, sondern weil er es so verstand: Der FC Bayern ist eine Familie, und er ist derjenige, der diese Familie zusammenh\u00e4lt. Diese Art von F\u00fcrsorge ist keine Schw\u00e4che. Sie ist Macht &ndash; die Macht dessen, der wei\u00df, dass Zusammenhalt das Fundament von allem ist.</p>
+          <p class="vb-intro">Dabei war Hoene\u00df nie ein Mann der gro\u00dfen Gesten f\u00fcr die Galerie. Was er tat, tat er direkt, oft diskret, manchmal ruppig. Das ist die SE2: keine elegante Diplomatie, sondern das unmittelbare Eingreifen dessen, der sich verantwortlich f\u00fchlt &ndash; und dieses Verantwortungsgef\u00fchl nicht delegiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Erfolg als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> gibt der selbsterhaltenden Zwei etwas, das eine SE2 mit schwach ausgeprägtem Dreierflügel nicht von selbst hat: den Hunger nach messbarem Erfolg, nach Ergebnissen, nach dem Beweis, dass die eigene Arbeit wirkt. Die Drei misst sich an Zahlen, Titeln, Siegen. Sie braucht den Beweis &ndash; nicht f\u00fcr andere, sondern f\u00fcr sich selbst. In Kombination mit der SE2 entsteht jemand, der gleichzeitig tief f\u00fcrsorglich und gnadenlos zielorientiert ist.</p>
+          <p class="vb-intro">Uli Hoene\u00df hat den FC Bayern von einem soliden Bundesligaclub zu einem der wirtschaftlich und sportlich erfolgreichsten Fu\u00dfballclubs der Welt gemacht. Er hat das nicht als Vision formuliert &ndash; er hat es getan. Jahrestitel, Champions-League-Siege, Rekordums\u00e4tze, Weltklasse-Transfers. Der Dreierfl\u00fcgel l\u00e4sst keine Mittelm\u00e4\u00dfigkeit zu. Er fragt immer: Wie gut war das wirklich? Und kann es noch besser werden?</p>
+          <p class="vb-intro">Dieser Fl\u00fcgel hat aber auch seinen Schatten. Der Dreierfl\u00fcgel der SE2 neigt dazu, Erfolg mit Selbstwert gleichzusetzen: Ich bin, was ich leiste. Wenn die Leistung ausbleibt, wenn die Kontrolle entgleitet, kann das Fundament schwanken. Die Steueraff\u00e4re 2013 war f\u00fcr Hoene\u00df nicht nur ein juristisches Problem &ndash; sie war ein Einbruch in das Bild, das er von sich selbst hatte: der Mann, der alles im Griff hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz als Antriebskraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei hei\u00dft <strong>Stolz</strong> &ndash; und bei der SE2w3 nimmt dieser Stolz eine besondere Form an: Er richtet sich nicht auf pers\u00f6nliche Bewunderung, sondern auf das Werk. Auf das, was entstanden ist durch die eigene H\u00e4nde Arbeit, durch jahrzehntelanges Engagement, durch die Summe aller Entscheidungen. Dieser Stolz ist berechtigt &ndash; und er ist zugleich eine Falle, wenn er zur Bedingung f\u00fcr den eigenen Wert wird.</p>
+          <p class="vb-intro">Uli Hoene\u00df hat den FC Bayern nicht als Job betrachtet. Er hat ihn als Lebenswerk begriffen. Das ist der Stolz der SE2w3 in seiner reinsten Form: kein Narzissmus, sondern die tiefe \u00dcberzeugung, dass das, was man aufgebaut hat, einmalig ist &ndash; und dass man selbst unentbehrlich f\u00fcr seinen Erhalt ist. Diese \u00dcberzeugung hat ihn angetrieben. Und sie hat es ihm schwer gemacht, loszulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Sturz und die R\u00fcckkehr: Das Flusspferd steht auf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Steueraff\u00e4re von 2013 und das anschlie\u00dfende Gef\u00e4ngnisurteil &ndash; dreieinhalb Jahre, von denen er etwa die H\u00e4lfte absa\u00df &ndash; war ein Einschnitt, der jeden anderen vielleicht gebrochen h\u00e4tte. Hoene\u00df hat sich dem Verfahren gestellt, hat seine Schuld \u00f6ffentlich eingestanden, hat die Strafe angenommen. Das ist keine Selbstverst\u00e4ndlichkeit. Es ist die SE2 in ihrer reifen Form: Verantwortung \u00fcbernehmen &ndash; auch dann, wenn es schmerzt.</p>
+          <p class="vb-intro">Was nach der Entlassung folgte, war das Kapitel, das ihn vielleicht am meisten definiert. Er kehrte zur\u00fcck &ndash; nicht triumphierend, sondern geerdet. Er \u00fcbernahm wieder das Amt des Pr\u00e4sidenten. Der FC Bayern empfing ihn. Das Flusspferd war ins Wasser zur\u00fcckgekehrt. Und wer gedacht hatte, er w\u00fcrde kleiner zur\u00fcckkommen, hatte das Tier untersch\u00e4tzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Verein als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Uli Hoene\u00df dem deutschen Fu\u00dfball &ndash; und dem FC Bayern M\u00fcnchen im Besonderen &ndash; gegeben hat, l\u00e4sst sich nicht auf Titel reduzieren. Er hat gezeigt, dass ein Fu\u00dfballclub mehr sein kann als ein Gesch\u00e4ftsmodell: eine Gemeinschaft mit Haltung, mit Treue, mit einem Selbstverst\u00e4ndnis, das \u00fcber die Saison hinausgeht. Spieler, die in Krisen gerieten, haben von ihm gesprochen wie von einem Vater. Mitarbeiter, die Jahrzehnte blieben, weil sie wussten, dass jemand f\u00fcr sie einsteht. Das ist das Geschenk der SE2w3: Loyalit\u00e4t, die tr\u00e4gt.</p>
+          <p class="vb-intro">Das Flusspferd sch\u00fctzt sein Revier &ndash; aber es sch\u00fctzt auch die, die darin leben. Uli Hoene\u00df hat den FC Bayern nicht f\u00fcr sich gebaut. Er hat ihn f\u00fcr das gebaut, was er in ihm sah: eine Gemeinschaft, die Bestand hat. Das ist sein Lebenswerk. Und daran wird sich wenig \u00e4ndern &ndash; auch wenn das Flusspferd irgendwann den Flusslauf wechselt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-jan-ullrich", label:"Portr\u00e4t: Jan Ullrich (SE2w3)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function wolfgangAmadeusMozartPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7263,72 +7330,4 @@ function pharrellWilliamsPortraitPage() {
   `);
 }
 
-
-function ludwigXIVPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-ludwig-xiv-portrait.jpg" alt="Ludwig XIV. – der Sonnenkönig – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ludwig XIV. – der Sonnenkönig</p>
-        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">König von Frankreich, 1638–1715 – Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Augen auf ihn gerichtet sind. 1653, mit vierzehn Jahren, tanzte Ludwig XIV. im "Ballet de la Nuit" höchstpersönlich die Rolle des Sonnengottes Apoll – ein Auftritt, der ihm den Beinamen "Sonnenkönig" einbrachte und zum Programm seiner gesamten Herrschaft wurde. Kein Zufall, kein einmaliger Jugendauftritt, sondern die erste bewusste Inszenierung eines Bildes, das er zeitlebens perfektionierte.</p>
-          <p class="vb-intro">Der franz\u00f6sische K\u00f6nig Ludwig XIV., geboren 1638 als Sohn Ludwigs XIII., bestieg bereits mit vier Jahren den Thron, regierte zunächst unter der Vormundschaft seiner Mutter Anna von Österreich und des Kardinals Mazarin. Erst nach Mazarins Tod 1661 übernahm er, gerade zweiundzwanzig Jahre alt, die persönliche Regierung – und begann sofort, sich als das strahlende Zentrum seines Reiches zu inszenieren. Der Gepard wartet nicht auf die Erlaubnis, zu glänzen. Er ergreift den Moment, sobald sich die Gelegenheit bietet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Drei: Der Staat als Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Verkörpere ich das Ideal, das die Gemeinschaft von mir erwartet?</em> Ludwig beantwortete diese Frage mit dem gesamten Staatsapparat: Der ihm zugeschriebene Satz "L'État, c'est moi" – "Der Staat bin ich" – mag legendenhaft überliefert sein, doch er trifft den Kern seiner Selbstinszenierung präzise.</p>
-          <p class="vb-intro">1682 verlegte er den gesamten Hof nach Versailles, in ein Schloss, das er über Jahrzehnte zu einem Bauwerk von beispielloser Pracht ausbauen ließ – nicht primär aus architektonischer Leidenschaft, sondern als politisches Instrument: Wer am Hof Karriere machen wollte, musste in Versailles präsent, sichtbar und dem König zugewandt sein. Die soziale Drei baut sich die Bühne, auf der ihre Leistung von allen gesehen werden muss.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierflügel: Gunst als Herrschaftsinstrument</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht allein durch Distanz und Autorität gesichert, sondern durch persönliche Nähe, Gunst und gezielte Zuwendung. Der tägliche "Lever" und "Coucher", das öffentliche An- und Auskleiden des Königs, war kein bloßes Ritual, sondern ein fein austariertes Machtinstrument: Wer dem König beim Ankleiden assistieren durfte, war jemand. Wer nicht, war niemand.</p>
-          <p class="vb-intro">Ludwig band seine Höflinge nicht nur durch Angst, sondern durch echte Zuwendung: Er förderte Künstler wie Molière, Lully und den Gartenarchitekten Le Nôtre mit großzügigen Pensionen, pflegte über Jahrzehnte enge, persönliche Beziehungen zu seinen Mätressen – darunter Louise de La Vallière und Madame de Montespan – und heiratete nach dem Tod seiner ersten Frau heimlich seine langjährige Vertraute Madame de Maintenon. Die SO3w2 sucht Bestätigung nicht in kühler Distanz, sondern im direkten, persönlichen Band zu jenen, die sie um sich versammelt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Preis der Zentralisierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ludwigs Streben nach absoluter, sichtbarer Ordnung hatte eine dunkle Kehrseite: 1685 widerrief er das Edikt von Nantes, das den französischen Protestanten seit 1598 Religionsfreiheit garantiert hatte – Hunderttausende Hugenotten flohen daraufhin ins Ausland, viele davon hochqualifizierte Handwerker und Kaufleute, deren Verlust die französische Wirtschaft nachhaltig schwächte. Zahlreiche kostspielige Kriege zur Ausdehnung und Sicherung seines Ruhms hinterließen das Land am Ende seiner Herrschaft hoch verschuldet.</p>
-          <p class="vb-intro">Die soziale Drei mit Zweierflügel opfert langfristige Stabilität nicht selten für kurzfristig sichtbaren Glanz: Versailles, die Kriege, die religiöse Vereinheitlichung – alles diente demselben Ziel, das eine, unteilbare Bild des Sonnenkönigs zu festigen, selbst wenn der Preis dafür erst die nachfolgenden Generationen voll zu spüren bekamen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3w2 zeigt sich in der kulturellen Blüte, die Ludwigs Herrschaft ermöglichte: Die Académie française, die Pariser Oper, das klassische französische Theater und die Gartenkunst von Versailles prägten den europäischen Geschmack für Jahrhunderte. Seine mit 72 Jahren längste Regierungszeit eines europäischen Monarchen brachte Frankreich über weite Strecken politische Stabilität und kulturelle Vorherrschaft.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in der Erschöpfung, die diese permanente Selbstinszenierung hinterließ: ein von Kriegsschulden erdrücktes Staatswesen, ein durch die Vertreibung der Hugenotten geschwächtes Handwerk, ein Hofsystem, das den Adel entmachtete, indem es ihn in goldene, aber letztlich machtlose Abhängigkeit von der königlichen Gunst zwang. Die Bühne, die Ludwig baute, verlangte permanente Fütterung – mit Geld, mit Kriegen, mit Menschen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Gepard, der zur Sonne wurde</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ludwig XIV. starb 1715 in Versailles an Wundbrand, im Alter von 76 Jahren, nach 72 Regierungsjahren – länger als jeder andere Monarch der europäischen Geschichte. Seine letzten Worte an seinen Urenkel und Nachfolger sollen eine seltene, fast selbstkritische Warnung enthalten haben: nicht seinem Beispiel im übertriebenen Bauen und Kriegführen zu folgen.</p>
-          <p class="vb-intro">Der Gepard, der als Vierzehnjähriger die Sonne tanzte, machte dieses Bild sechs Jahrzehnte lang zur Realität eines ganzen Königreichs. Das ist das bleibende Bild der sozialen Drei mit Zweierflügel: die Fähigkeit, aus einem einzigen strahlenden Auftritt ein Lebenswerk zu formen – verbunden mit der tiefen Notwendigkeit, dabei stets von anderen gesehen, bewundert und persönlich an sich gebunden zu sein.</p>
-          <p class="vb-intro">Zu seinem Hofstaat gehörte auch <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Molière</a> (SO7w6) – der Dramatiker, dessen Theatertruppe unter Ludwigs Gönnerschaft stand und der sich der schärfsten Gesellschaftssatire seiner Zeit widmete, bevor er 1673 auf der Bühne zusammenbrach. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsporträt zu Molière</a>.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"krankheitsportraets-ludwig-xiv", label:"Krankheitsporträt: Ludwig XIV. (SO3w2) – Gicht, Analfistel, tödlicher Wundbrand"},
-        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
-        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
-      ])}
-    </div>
-  `);
-}
 

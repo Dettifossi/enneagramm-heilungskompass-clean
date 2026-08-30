@@ -5091,6 +5091,7 @@ function render() {
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
+      "beruehmte-hans-christian-andersen": hansChristianAndersenPortraitPage,
       "beruehmte-cat-stevens": catStevensPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,

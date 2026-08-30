@@ -1,3 +1,69 @@
+function byronKatiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-byron-katie-portrait.jpg" alt="Byron Katie – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Byron Katie</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Autorin &amp; Begründerin von „The Work", geb. 1942 in Barstow, Kalifornien – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das der Bedrohung nicht ausweicht, sondern sie direkt ansieht. Wölfe testen sich gegenseitig durch Blickkontakt und Nähe, nicht durch Rückzug. Wer im Rudel bestehen will, muss standhalten können, wenn es unbequem wird – genau das ist die Bewegung, die Byron Katie zu ihrem Lebenswerk gemacht hat: der eigenen Angst nicht auszuweichen, sondern sie direkt anzuschauen, Frage für Frage.</p>
+          <p class="vb-intro">Die US-amerikanische Byron Kathleen Reid, 1942 in der Wüstenstadt Barstow, Kalifornien, geboren, war in den 1970er-Jahren eine erfolgreiche Geschäftsfrau in der Immobilienbranche, verheiratet, Mutter dreier Kinder. Nichts an diesem Leben deutete auf das hin, was folgte: ein fast vollständiger innerer Zusammenbruch – und daraus geboren eine der einflussreichsten Selbsterkenntnismethoden der Gegenwart.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Der Abgrund vor der Wende (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht durch Rückzug, sondern begegnet ihr mit Stärke und direkter Konfrontation. Naranjo nannte diesen Subtyp <em>Strength</em>. Doch bevor diese Stärke sichtbar wird, durchlebt die SX6 oft die Angst in ihrer rohesten Form – ungefiltert, überwältigend, kaum zu ertragen.</p>
+          <p class="vb-intro">Über etwa zehn Jahre hinweg versank Byron Katie in einer immer tieferen Depression: Wutausbrüche, Paranoia, Agoraphobie – sie konnte irgendwann das Haus nicht mehr verlassen –, Suizidgedanken, Medikamenten- und Alkoholmissbrauch. Am Ende dieser Abwärtsspirale nahm sie eine Einrichtung für Frauen mit Essstörungen auf, weil keine andere Einrichtung sie noch behandeln wollte. Das ist die Angst der Sechs in ihrer reinsten, unbearbeiteten Form – bevor der Kontratyp sich zu ihr umdreht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Februar 1986: Die Umkehr auf dem Boden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1986, auf dem Boden dieser Einrichtung liegend, erlebte Byron Katie einen Moment, den sie selbst als vollständige, unvermittelte Erkenntnis beschreibt: <em>Wenn ich meinen Gedanken glaubte, litt ich. Wenn ich ihnen nicht glaubte, litt ich nicht.</em> Kein allmählicher Prozess, keine Therapiesitzung, kein Auslöser, den sie benennen könnte – sondern ein Umschlagpunkt, nach dem sie sich selbst als grundlegend verändert erlebte: durchgehend heiter, ohne die Wut und Verzweiflung, die sie ein Jahrzehnt begleitet hatten.</p>
+          <p class="vb-intro">Als sie nach Hause zurückkehrte, reagierte ihre Familie zunächst mit Verwirrung und Sorge – die Veränderung war so abrupt und so vollständig, dass manche sie für einen weiteren psychischen Ausnahmezustand hielten, nicht für eine Heilung. Für die sexuelle Sechs ist das die radikalste Form der Konfrontation: nicht die Angst zu bekämpfen, sondern die Gedanken zu hinterfragen, die sie erzeugen – so lange, bis nichts mehr übrig bleibt, dem man ausweichen müsste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Vier Fragen als Waffe gegen die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aus dieser Erfahrung entwickelte Byron Katie eine Methode, die sie <em>The Work</em> nannte: vier Fragen, die auf jeden belastenden Gedanken angewendet werden können – <em>Ist das wahr? Kannst du absolut sicher wissen, dass es wahr ist? Wie reagierst du, wenn du diesen Gedanken glaubst? Wer wärst du ohne diesen Gedanken?</em> – gefolgt von der <em>Umkehrung</em>, bei der der Gedanke ins Gegenteil oder auf einen selbst gewendet wird.</p>
+          <p class="vb-intro">Das Buch <em>Loving What Is</em> (2002), gemeinsam mit ihrem Ehemann, dem renommierten Übersetzer Stephen Mitchell verfasst, wurde zum internationalen Bestseller. Was diese Methode von vielen anderen Selbsthilfeansätzen unterscheidet, ist ihre Direktheit: Byron Katie weicht keiner Frage aus, keinem Schmerz, keiner Konfrontation. In öffentlichen Sitzungen – bekannt als <em>Workings</em> – führt sie Teilnehmer live und ungeschönt vor Publikum durch ihre schmerzhaftesten Überzeugungen. Das ist reine SX6-Energie: sich der Sache stellen, nicht um sie herumgehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Siebenerflügel: Freude als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Leichtigkeit, die eine SX6 mit schwächer ausgeprägtem Siebenerflügel nicht hätte: Humor, Spielfreude, eine Fähigkeit, selbst die schwersten Themen mit einem Lächeln zu berühren, ohne sie zu verharmlosen. Byron Katies öffentlicher Stil ist bekannt für genau diese Mischung – sie lacht oft, mitten in den intensivsten Gesprächen, nicht aus Distanz, sondern aus einer tiefen, fast kindlichen Freude an dem, was gerade geschieht.</p>
+          <p class="vb-intro">Ihr Buch <em>A Thousand Names for Joy</em> (2007) trägt diese Qualität schon im Titel. Die SX6w7 sucht nicht nur die Konfrontation mit der Angst – sie sucht danach die Freude, die entsteht, wenn der Kampf gegen die Realität endet. Das ist der Unterschied zu einer SX6 mit schwach ausgeprägtem Siebenerflügel: Wo diese in der Konfrontation verharren könnte, führt ein stark ausgeprägter Siebenerflügel weiter, zu etwas Leichterem dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre kompromisslose Bereitschaft, sich selbst und andere mit dem zu konfrontieren, was am meisten schmerzt – nicht aus Härte, sondern aus der Überzeugung, dass genau dort die Freiheit liegt. Millionen Menschen weltweit haben an Byron Katies Seminaren, den <em>School for The Work</em>, teilgenommen oder ihre Bücher gelesen, viele mit dem Gefühl, zum ersten Mal wirklich gehört worden zu sein.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kritik, die ihrer Methode seit Jahren begegnet: Manche werfen ihr vor, komplexe seelische Notlagen – Trauma, Missbrauch, klinische Depression – zu stark auf die Frage nach der Wahrheit eines Gedankens zu reduzieren, als könne jedes Leid allein durch Selbstbefragung aufgelöst werden. Für die SX6 ist die direkte Konfrontation die eigene Rettung gewesen – doch nicht jeder Schmerz lässt sich mit derselben Methode auflösen, mit der sie den ihren überwand. Die reife SX6w7 weiß: Mut zur Wahrheit ersetzt nicht immer die Notwendigkeit von Zeit, Begleitung und Geduld.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"krankheitsportraets-byron-katie", label:"Krankheitsporträt: Byron Katie (SX6w7) – zehn Jahre Depression und Agoraphobie"},
+      ])}
+    </div>
+  `);
+}
+
 function uweOchsenknechtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7420,71 +7486,6 @@ function hermannHessePortraitPage() {
         {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-hermann-hesse", label:"Krankheitsporträt: Hermann Hesse (SE5w6) – Migräne und Depression"},
-      ])}
-    </div>
-  `);
-}
-
-function adamSmithPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Adam Smith – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Adam Smith</p>
-        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schottischer Moralphilosoph und \u00d6konom, 1723&ndash;1790 &ndash; Tierentsprechung: Gans</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Gans, die eine moralische Ordnung entwarf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn f\u00fcr Recht und Unrecht. Sie fliegt nicht f\u00fcr sich allein, sondern h\u00e4lt die Formation zusammen und wacht dar\u00fcber, dass alle sich an die Regeln halten, die das Gemeinwohl sichern.</p>
-          <p class="vb-intro">Der schottische Ökonom Adam Smith wurde 1723 in Kirkcaldy, Schottland, geboren, wenige Monate nach dem Tod seines Vaters. Er wuchs bei seiner Mutter auf, zu der er zeitlebens eine enge Bindung behielt, studierte in Glasgow und Oxford und wurde 1751 Professor f\u00fcr Logik, ein Jahr sp\u00e4ter f\u00fcr Moralphilosophie in Glasgow. Zeitgenossen beschrieben ihn als zerstreut, bescheiden, fast sch\u00fcchtern im pers\u00f6nlichen Umgang &ndash; und zugleich als einen der sch\u00e4rfsten Beobachter menschlichen Verhaltens seiner Zeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als Ordnungsprinzip</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im Privaten, sondern im gesellschaftlichen Rahmen &ndash; sie will die Welt gerechter, geordneter, moralisch stimmiger machen. Smiths erstes gro\u00dfes Werk, <em>Theorie der ethischen Gef\u00fchle</em> (The Theory of Moral Sentiments, 1759), fragt genau danach: Wie entsteht Moral in einer Gesellschaft, in der Menschen einander beobachten und beurteilen? Seine Antwort &ndash; der &bdquo;unparteiische Beobachter&ldquo; in uns, der unser Handeln an einem inneren Ma\u00dfstab misst &ndash; ist die Stimme der inneren Kritikerin der Eins, nach au\u00dfen gewendet und zum philosophischen System erhoben.</p>
-          <p class="vb-intro">Siebzehn Jahre sp\u00e4ter folgte <em>Der Wohlstand der Nationen</em> (An Inquiry into the Nature and Causes of the Wealth of Nations, 1776), das Gr\u00fcndungswerk der modernen \u00d6konomie. Auch hier: die Suche nach der richtigen Ordnung &ndash; diesmal nicht der Moral, sondern des Marktes. Smith wollte zeigen, wie aus dem Eigeninteresse Vieler durch faire Regeln ein gerechtes Ganzes entstehen kann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Vers\u00f6hnung statt Anklage</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> mildert die Sch\u00e4rfe, die bei schwach ausgepr\u00e4gtem Neunerfl\u00fcgel dominanter bliebe, zu einer vers\u00f6hnlicheren, geduldigeren Haltung. Wo eine Eins mit schw\u00e4cherem Neunerfl\u00fcgel mit dem moralischen Zeigefinger anklagt, sucht die SO1w9 den Ausgleich &ndash; sie will \u00fcberzeugen, nicht bestrafen. Smiths ber\u00fchmtestes Bild, die &bdquo;unsichtbare Hand&ldquo;, ist genau das: kein Aufruf zum Kampf der Interessen, sondern das Vertrauen, dass geordnetes Eigeninteresse, richtig gerahmt, von selbst zu einem gr\u00f6\u00dferen Guten findet.</p>
-          <p class="vb-intro">Auch sein Lehrstil war von dieser Milde gepr\u00e4gt: Smith war als Professor in Glasgow so beliebt, dass Studenten ihn nach seinem R\u00fccktritt noch Jahre sp\u00e4ter baten, weiterzulehren. Kein donnernder Moralist, sondern ein geduldiger Ordner der Gedanken &ndash; die Eins mit der Gelassenheit der Neun im R\u00fccken.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Elefant und die Gans: Freundschaft mit David Hume</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Smiths engste und pr\u00e4gendste Freundschaft galt <a href="#beruehmte-david-hume">David Hume</a> (SE9w8) &ndash; sie lernten sich um 1750 in intellektuellen Zirkeln in Edinburgh kennen und blieben bis zu Humes Tod 1776 eng verbunden, tauschten Manuskripte aus, kritisierten und ermutigten sich gegenseitig \u00fcber Jahrzehnte. Zwei sehr unterschiedliche Temperamente: der gelassene, unersch\u00fctterliche Elefant Hume, der \u00f6ffentliche Emp\u00f6rung mit heiterer Ruhe hinnahm &ndash; und die pflichtbewusste, auf ihren Ruf bedachte Gans Smith, f\u00fcr die gesellschaftliche Anerkennung und moralische Integrit\u00e4t untrennbar waren.</p>
-          <p class="vb-intro">Diese Differenz wurde zur eigentlichen Problematik der Freundschaft: Als Hume 1776 im Sterben lag, besuchte Smith ihn wiederholt und war tief beeindruckt von dessen Gelassenheit angesichts des Todes. Nach Humes Tod ver\u00f6ffentlichte Smith einen \u00f6ffentlichen Brief, in dem er seinen Freund als einen Menschen beschrieb, der der Weisheit und Tugend so nahekomme, wie es die menschliche Natur erlaube &ndash; ein Lob, das angesichts von Humes bekanntem religi\u00f6sen Skeptizismus einen Sturm der Entr\u00fcstung ausl\u00f6ste. Smith wurde \u00f6ffentlich als Verteidiger des Unglaubens attackiert; er schrieb sp\u00e4ter, dieser kurze Brief habe ihm mehr Anfeindungen eingebracht als sein gesamtes Werk \u00fcber den Wohlstand der Nationen. F\u00fcr die soziale Eins, die auf Anerkennung und moralische Integrit\u00e4t angewiesen ist, war das ein schmerzhafter Preis &ndash; und zugleich der Beweis, dass ihm die Loyalit\u00e4t zum Freund wichtiger war als die eigene Reputation.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO1w9 ist die F\u00e4higkeit, <strong>Prinzipientreue mit Vers\u00f6hnlichkeit</strong> zu verbinden &ndash; eine Gerechtigkeit, die nicht anklagt, sondern durch \u00fcberzeugende Ordnung wirkt. Smiths Vision einer moralisch fundierten Marktordnung wollte beides zugleich: Freiheit des Einzelnen und Verantwortung f\u00fcr das Ganze.</p>
-          <p class="vb-intro">Der Schatten: Smiths Werk wurde sp\u00e4ter oft auf die reine Verteidigung des Eigeninteresses reduziert &ndash; unter Verlust seiner moralischen Rahmung aus der <em>Theorie der ethischen Gef\u00fchle</em>. Die Kehrseite der SO1w9 zeigt sich hier: die Sorge um das gro\u00dfe Ganze kann so sehr im System aufgehen, dass die eigene, differenzierte Position im Nachhinein vereinfacht und instrumentalisiert wird &ndash; etwas, gegen das sich der zur\u00fcckhaltende, vers\u00f6hnliche Smith kaum mehr wehren konnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Gans, die eine gerechtere Ordnung hinterlie\u00df</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Adam Smith starb 1790 in Edinburgh, unverheiratet, kinderlos, und verf\u00fcgte kurz vor seinem Tod, dass fast alle seine unver\u00f6ffentlichten Manuskripte verbrannt werden sollten &ndash; ein letzter Akt der Kontrolle \u00fcber das eigene Bild, typisch f\u00fcr die Eins, die lieber nichts Unfertiges hinterl\u00e4sst als etwas Unvollkommenes. Was blieb, war ordentlich, durchdacht, zu Ende gebracht.</p>
-          <p class="vb-intro">Wie sein Freund Hume liegt auch Smith auf dem Canongate Kirkyard in Edinburgh begraben &ndash; nur wenige Hundert Meter von dessen Grabmal entfernt. Zwei Denker, die sich im Leben erg\u00e4nzten wie Elefant und Gans: der eine gelassen im Zweifel, der andere beharrlich auf der Suche nach der gerechten Ordnung &ndash; und beide bis zuletzt einander treu.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
-        {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) \u2013 sein enger Freund"},
       ])}
     </div>
   `);

@@ -1,3 +1,68 @@
+function adamSmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Adam Smith – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Smith</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schottischer Moralphilosoph und \u00d6konom, 1723&ndash;1790 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die eine moralische Ordnung entwarf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn f\u00fcr Recht und Unrecht. Sie fliegt nicht f\u00fcr sich allein, sondern h\u00e4lt die Formation zusammen und wacht dar\u00fcber, dass alle sich an die Regeln halten, die das Gemeinwohl sichern.</p>
+          <p class="vb-intro">Der schottische Ökonom Adam Smith wurde 1723 in Kirkcaldy, Schottland, geboren, wenige Monate nach dem Tod seines Vaters. Er wuchs bei seiner Mutter auf, zu der er zeitlebens eine enge Bindung behielt, studierte in Glasgow und Oxford und wurde 1751 Professor f\u00fcr Logik, ein Jahr sp\u00e4ter f\u00fcr Moralphilosophie in Glasgow. Zeitgenossen beschrieben ihn als zerstreut, bescheiden, fast sch\u00fcchtern im pers\u00f6nlichen Umgang &ndash; und zugleich als einen der sch\u00e4rfsten Beobachter menschlichen Verhaltens seiner Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als Ordnungsprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> sucht Vollkommenheit nicht im Privaten, sondern im gesellschaftlichen Rahmen &ndash; sie will die Welt gerechter, geordneter, moralisch stimmiger machen. Smiths erstes gro\u00dfes Werk, <em>Theorie der ethischen Gef\u00fchle</em> (The Theory of Moral Sentiments, 1759), fragt genau danach: Wie entsteht Moral in einer Gesellschaft, in der Menschen einander beobachten und beurteilen? Seine Antwort &ndash; der &bdquo;unparteiische Beobachter&ldquo; in uns, der unser Handeln an einem inneren Ma\u00dfstab misst &ndash; ist die Stimme der inneren Kritikerin der Eins, nach au\u00dfen gewendet und zum philosophischen System erhoben.</p>
+          <p class="vb-intro">Siebzehn Jahre sp\u00e4ter folgte <em>Der Wohlstand der Nationen</em> (An Inquiry into the Nature and Causes of the Wealth of Nations, 1776), das Gr\u00fcndungswerk der modernen \u00d6konomie. Auch hier: die Suche nach der richtigen Ordnung &ndash; diesmal nicht der Moral, sondern des Marktes. Smith wollte zeigen, wie aus dem Eigeninteresse Vieler durch faire Regeln ein gerechtes Ganzes entstehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\u00fcgel: Vers\u00f6hnung statt Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\u00fcgel (w9)</strong> mildert die Sch\u00e4rfe, die bei schwach ausgepr\u00e4gtem Neunerfl\u00fcgel dominanter bliebe, zu einer vers\u00f6hnlicheren, geduldigeren Haltung. Wo eine Eins mit schw\u00e4cherem Neunerfl\u00fcgel mit dem moralischen Zeigefinger anklagt, sucht die SO1w9 den Ausgleich &ndash; sie will \u00fcberzeugen, nicht bestrafen. Smiths ber\u00fchmtestes Bild, die &bdquo;unsichtbare Hand&ldquo;, ist genau das: kein Aufruf zum Kampf der Interessen, sondern das Vertrauen, dass geordnetes Eigeninteresse, richtig gerahmt, von selbst zu einem gr\u00f6\u00dferen Guten findet.</p>
+          <p class="vb-intro">Auch sein Lehrstil war von dieser Milde gepr\u00e4gt: Smith war als Professor in Glasgow so beliebt, dass Studenten ihn nach seinem R\u00fccktritt noch Jahre sp\u00e4ter baten, weiterzulehren. Kein donnernder Moralist, sondern ein geduldiger Ordner der Gedanken &ndash; die Eins mit der Gelassenheit der Neun im R\u00fccken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Elefant und die Gans: Freundschaft mit David Hume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Smiths engste und pr\u00e4gendste Freundschaft galt <a href="#beruehmte-david-hume">David Hume</a> (SE9w8) &ndash; sie lernten sich um 1750 in intellektuellen Zirkeln in Edinburgh kennen und blieben bis zu Humes Tod 1776 eng verbunden, tauschten Manuskripte aus, kritisierten und ermutigten sich gegenseitig \u00fcber Jahrzehnte. Zwei sehr unterschiedliche Temperamente: der gelassene, unersch\u00fctterliche Elefant Hume, der \u00f6ffentliche Emp\u00f6rung mit heiterer Ruhe hinnahm &ndash; und die pflichtbewusste, auf ihren Ruf bedachte Gans Smith, f\u00fcr die gesellschaftliche Anerkennung und moralische Integrit\u00e4t untrennbar waren.</p>
+          <p class="vb-intro">Diese Differenz wurde zur eigentlichen Problematik der Freundschaft: Als Hume 1776 im Sterben lag, besuchte Smith ihn wiederholt und war tief beeindruckt von dessen Gelassenheit angesichts des Todes. Nach Humes Tod ver\u00f6ffentlichte Smith einen \u00f6ffentlichen Brief, in dem er seinen Freund als einen Menschen beschrieb, der der Weisheit und Tugend so nahekomme, wie es die menschliche Natur erlaube &ndash; ein Lob, das angesichts von Humes bekanntem religi\u00f6sen Skeptizismus einen Sturm der Entr\u00fcstung ausl\u00f6ste. Smith wurde \u00f6ffentlich als Verteidiger des Unglaubens attackiert; er schrieb sp\u00e4ter, dieser kurze Brief habe ihm mehr Anfeindungen eingebracht als sein gesamtes Werk \u00fcber den Wohlstand der Nationen. F\u00fcr die soziale Eins, die auf Anerkennung und moralische Integrit\u00e4t angewiesen ist, war das ein schmerzhafter Preis &ndash; und zugleich der Beweis, dass ihm die Loyalit\u00e4t zum Freund wichtiger war als die eigene Reputation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die F\u00e4higkeit, <strong>Prinzipientreue mit Vers\u00f6hnlichkeit</strong> zu verbinden &ndash; eine Gerechtigkeit, die nicht anklagt, sondern durch \u00fcberzeugende Ordnung wirkt. Smiths Vision einer moralisch fundierten Marktordnung wollte beides zugleich: Freiheit des Einzelnen und Verantwortung f\u00fcr das Ganze.</p>
+          <p class="vb-intro">Der Schatten: Smiths Werk wurde sp\u00e4ter oft auf die reine Verteidigung des Eigeninteresses reduziert &ndash; unter Verlust seiner moralischen Rahmung aus der <em>Theorie der ethischen Gef\u00fchle</em>. Die Kehrseite der SO1w9 zeigt sich hier: die Sorge um das gro\u00dfe Ganze kann so sehr im System aufgehen, dass die eigene, differenzierte Position im Nachhinein vereinfacht und instrumentalisiert wird &ndash; etwas, gegen das sich der zur\u00fcckhaltende, vers\u00f6hnliche Smith kaum mehr wehren konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die eine gerechtere Ordnung hinterlie\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adam Smith starb 1790 in Edinburgh, unverheiratet, kinderlos, und verf\u00fcgte kurz vor seinem Tod, dass fast alle seine unver\u00f6ffentlichten Manuskripte verbrannt werden sollten &ndash; ein letzter Akt der Kontrolle \u00fcber das eigene Bild, typisch f\u00fcr die Eins, die lieber nichts Unfertiges hinterl\u00e4sst als etwas Unvollkommenes. Was blieb, war ordentlich, durchdacht, zu Ende gebracht.</p>
+          <p class="vb-intro">Wie sein Freund Hume liegt auch Smith auf dem Canongate Kirkyard in Edinburgh begraben &ndash; nur wenige Hundert Meter von dessen Grabmal entfernt. Zwei Denker, die sich im Leben erg\u00e4nzten wie Elefant und Gans: der eine gelassen im Zweifel, der andere beharrlich auf der Suche nach der gerechten Ordnung &ndash; und beide bis zuletzt einander treu.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) \u2013 sein enger Freund"},
+      ])}
+    </div>
+  `);
+}
+
 function xanthippePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7141,73 +7206,6 @@ function jackBlackPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function uliHoenessPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-uli-hoeness-portrait.jpg" alt="Uli Hoene\u00df" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Uli Hoene\u00df</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Fu\u00dfballprofi, Manager &amp; Pr\u00e4sident des FC Bayern M\u00fcnchen, geb. 1952 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und Uli Hoene\u00df ist dieses Tier in seiner kompromisslosesten Auspr\u00e4gung. Das Flusspferd braucht kein Publikum. Es braucht sein Revier: das Wasser, das es kennt, die Ufer, die ihm geh\u00f6ren, die Grenzen, die es mit jedem Gramm seines K\u00f6rpers markiert und verteidigt. Es wirkt gutm\u00fctig &ndash; bis jemand zu nah kommt. Dann zeigt es, was wirklich in ihm steckt.</p>
-          <p class="vb-intro">Der deutsche Fu\u00dfballfunktion\u00e4r Uli Hoene\u00df ist seit mehr als f\u00fcnfzig Jahren der FC Bayern M\u00fcnchen. Nicht als Angestellter, nicht als Funktion\u00e4r &ndash; sondern als Mensch, der diesen Verein als sein Revier begriffen und mit einer Energie aufgebaut hat, die in der deutschen Fu\u00dfballgeschichte ihresgleichen sucht. Er hat als Spieler gewonnen, als Manager aufgebaut, als Pr\u00e4sident gef\u00fchrt &ndash; und nach dem tiefsten Sturz seines Lebens ist er zur\u00fcckgekehrt. Das Flusspferd steht auf.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: F\u00fcrsorge als \u00dcberlebensprinzip</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist der Subtyp der Zwei, der seine Energie am direktesten auf das eigene \u00dcberleben und das \u00dcberleben dessen richtet, was ihm am n\u00e4chsten ist. Naranjo nannte diesen Subtyp <em>Me First</em>: die Zwei, die ihre eigenen Bed\u00fcrfnisse benennt, ihr Territorium kennt und sch\u00fctzt &ndash; nicht durch R\u00fcckzug, sondern durch Pr\u00e4senz. Die SE2 ist die konkreteste, erdn\u00e4chste, am wenigsten romantisierende der drei Zweier-Varianten. Sie handelt. Sie sorgt. Sie sichert ab.</p>
-          <p class="vb-intro">Bei Uli Hoene\u00df zeigt sich das in einer F\u00fcrsorge, die nicht abstrakt ist, sondern pers\u00f6nlich und handfest. Er hat Spieler in Krisen angerufen, Familien geholfen, Transfers pers\u00f6nlich begleitet, Konflikte gel\u00f6st &ndash; nicht weil es zur Stellenbeschreibung geh\u00f6rte, sondern weil er es so verstand: Der FC Bayern ist eine Familie, und er ist derjenige, der diese Familie zusammenh\u00e4lt. Diese Art von F\u00fcrsorge ist keine Schw\u00e4che. Sie ist Macht &ndash; die Macht dessen, der wei\u00df, dass Zusammenhalt das Fundament von allem ist.</p>
-          <p class="vb-intro">Dabei war Hoene\u00df nie ein Mann der gro\u00dfen Gesten f\u00fcr die Galerie. Was er tat, tat er direkt, oft diskret, manchmal ruppig. Das ist die SE2: keine elegante Diplomatie, sondern das unmittelbare Eingreifen dessen, der sich verantwortlich f\u00fchlt &ndash; und dieses Verantwortungsgef\u00fchl nicht delegiert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Erfolg als zweite Natur</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> gibt der selbsterhaltenden Zwei etwas, das eine SE2 mit schwach ausgeprägtem Dreierflügel nicht von selbst hat: den Hunger nach messbarem Erfolg, nach Ergebnissen, nach dem Beweis, dass die eigene Arbeit wirkt. Die Drei misst sich an Zahlen, Titeln, Siegen. Sie braucht den Beweis &ndash; nicht f\u00fcr andere, sondern f\u00fcr sich selbst. In Kombination mit der SE2 entsteht jemand, der gleichzeitig tief f\u00fcrsorglich und gnadenlos zielorientiert ist.</p>
-          <p class="vb-intro">Uli Hoene\u00df hat den FC Bayern von einem soliden Bundesligaclub zu einem der wirtschaftlich und sportlich erfolgreichsten Fu\u00dfballclubs der Welt gemacht. Er hat das nicht als Vision formuliert &ndash; er hat es getan. Jahrestitel, Champions-League-Siege, Rekordums\u00e4tze, Weltklasse-Transfers. Der Dreierfl\u00fcgel l\u00e4sst keine Mittelm\u00e4\u00dfigkeit zu. Er fragt immer: Wie gut war das wirklich? Und kann es noch besser werden?</p>
-          <p class="vb-intro">Dieser Fl\u00fcgel hat aber auch seinen Schatten. Der Dreierfl\u00fcgel der SE2 neigt dazu, Erfolg mit Selbstwert gleichzusetzen: Ich bin, was ich leiste. Wenn die Leistung ausbleibt, wenn die Kontrolle entgleitet, kann das Fundament schwanken. Die Steueraff\u00e4re 2013 war f\u00fcr Hoene\u00df nicht nur ein juristisches Problem &ndash; sie war ein Einbruch in das Bild, das er von sich selbst hatte: der Mann, der alles im Griff hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Stolz als Antriebskraft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Zwei hei\u00dft <strong>Stolz</strong> &ndash; und bei der SE2w3 nimmt dieser Stolz eine besondere Form an: Er richtet sich nicht auf pers\u00f6nliche Bewunderung, sondern auf das Werk. Auf das, was entstanden ist durch die eigene H\u00e4nde Arbeit, durch jahrzehntelanges Engagement, durch die Summe aller Entscheidungen. Dieser Stolz ist berechtigt &ndash; und er ist zugleich eine Falle, wenn er zur Bedingung f\u00fcr den eigenen Wert wird.</p>
-          <p class="vb-intro">Uli Hoene\u00df hat den FC Bayern nicht als Job betrachtet. Er hat ihn als Lebenswerk begriffen. Das ist der Stolz der SE2w3 in seiner reinsten Form: kein Narzissmus, sondern die tiefe \u00dcberzeugung, dass das, was man aufgebaut hat, einmalig ist &ndash; und dass man selbst unentbehrlich f\u00fcr seinen Erhalt ist. Diese \u00dcberzeugung hat ihn angetrieben. Und sie hat es ihm schwer gemacht, loszulassen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Sturz und die R\u00fcckkehr: Das Flusspferd steht auf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Steueraff\u00e4re von 2013 und das anschlie\u00dfende Gef\u00e4ngnisurteil &ndash; dreieinhalb Jahre, von denen er etwa die H\u00e4lfte absa\u00df &ndash; war ein Einschnitt, der jeden anderen vielleicht gebrochen h\u00e4tte. Hoene\u00df hat sich dem Verfahren gestellt, hat seine Schuld \u00f6ffentlich eingestanden, hat die Strafe angenommen. Das ist keine Selbstverst\u00e4ndlichkeit. Es ist die SE2 in ihrer reifen Form: Verantwortung \u00fcbernehmen &ndash; auch dann, wenn es schmerzt.</p>
-          <p class="vb-intro">Was nach der Entlassung folgte, war das Kapitel, das ihn vielleicht am meisten definiert. Er kehrte zur\u00fcck &ndash; nicht triumphierend, sondern geerdet. Er \u00fcbernahm wieder das Amt des Pr\u00e4sidenten. Der FC Bayern empfing ihn. Das Flusspferd war ins Wasser zur\u00fcckgekehrt. Und wer gedacht hatte, er w\u00fcrde kleiner zur\u00fcckkommen, hatte das Tier untersch\u00e4tzt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Ein Verein als Lebenswerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Uli Hoene\u00df dem deutschen Fu\u00dfball &ndash; und dem FC Bayern M\u00fcnchen im Besonderen &ndash; gegeben hat, l\u00e4sst sich nicht auf Titel reduzieren. Er hat gezeigt, dass ein Fu\u00dfballclub mehr sein kann als ein Gesch\u00e4ftsmodell: eine Gemeinschaft mit Haltung, mit Treue, mit einem Selbstverst\u00e4ndnis, das \u00fcber die Saison hinausgeht. Spieler, die in Krisen gerieten, haben von ihm gesprochen wie von einem Vater. Mitarbeiter, die Jahrzehnte blieben, weil sie wussten, dass jemand f\u00fcr sie einsteht. Das ist das Geschenk der SE2w3: Loyalit\u00e4t, die tr\u00e4gt.</p>
-          <p class="vb-intro">Das Flusspferd sch\u00fctzt sein Revier &ndash; aber es sch\u00fctzt auch die, die darin leben. Uli Hoene\u00df hat den FC Bayern nicht f\u00fcr sich gebaut. Er hat ihn f\u00fcr das gebaut, was er in ihm sah: eine Gemeinschaft, die Bestand hat. Das ist sein Lebenswerk. Und daran wird sich wenig \u00e4ndern &ndash; auch wenn das Flusspferd irgendwann den Flusslauf wechselt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-jan-ullrich", label:"Portr\u00e4t: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
       ])}
     </div>

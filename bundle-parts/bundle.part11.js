@@ -1,3 +1,181 @@
+function claudeDebussyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-claude-debussy-portrait.jpg" alt="Claude Debussy" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Claude Debussy</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel · 1862–1918</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Claude Debussy</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-claude-debussy">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
+        Typstruktur. Diese Seite vertieft ein Kapitel, das dort nicht zur Sprache kommt: eine
+        Darmkrebs-Diagnose 1909, ein fast neunjähriger, zunehmend schmerzhafter
+        Krankheitsverlauf während des Ersten Weltkriegs und ein Tod inmitten der deutschen
+        Beschießung von Paris.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Debussy</strong> ist der <strong>sexuellen Vier mit Fünferflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung,
+        dass die bestehende Ordnung einem etwas Wesentliches vorenthält, verbunden mit dem
+        Antrieb, dagegen anzutreten. Der Fünferflügel bringt die Fähigkeit hinzu, sich in Arbeit
+        und Struktur zu vertiefen, bis keine Kraft mehr bleibt – ein Muster, das sich bis in
+        Debussys Umgang mit der eigenen tödlichen Krankheit nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Symptome bereits 1908:</strong>
+        Ab 1908 klagte Debussy zunehmend über Verdauungsbeschwerden und Blutungen – Symptome,
+        die er zunächst als vorübergehend abtat, während er weiter komponierte und dirigierte.</p>
+        <p class="vb-intro"><strong>b) Diagnose 1909:</strong>
+        1909 wurde bei Debussy Darmkrebs diagnostiziert. Er hielt die Diagnose weitgehend
+        privat und setzte seine kompositorische Arbeit sowie öffentliche Auftritte als
+        Dirigent und Pianist fort.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten trotz erster Behandlungen:</strong>
+        Schon in den ersten Jahren nach der Diagnose unterzog sich Debussy wiederholt
+        schmerzhaften Behandlungen, ohne seine Konzerttätigkeit und Kompositionsarbeit
+        grundlegend einzuschränken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Radium-Behandlungen ab 1915:</strong>
+        Ab 1915 unterzog sich Debussy mehreren Radium-Behandlungen gegen den fortschreitenden
+        Krebs – eine damals neuartige, äußerst schmerzhafte Therapieform mit ungewissem
+        Erfolg.</p>
+        <p class="vb-intro"><strong>b) Eine Operation im Dezember 1915:</strong>
+        Im Dezember 1915 unterzog sich Debussy einer der ersten Kolostomie-Operationen in
+        Frankreich – ein Eingriff, der ihn körperlich stark schwächte, seinen kompositorischen
+        Ehrgeiz jedoch nicht brach.</p>
+        <p class="vb-intro"><strong>c) Komposition trotz sich verschlechternder Gesundheit:</strong>
+        In den Jahren nach der Operation komponierte Debussy weiter, darunter seine letzten
+        großen Kammermusikwerke – entstanden in Phasen zunehmender Schmerzen und
+        Erschöpfung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein letzter öffentlicher Auftritt unter Kriegsbedingungen:</strong>
+        Im September 1917, bereits schwer von der Krankheit gezeichnet, gab Debussy eines
+        seiner letzten Konzerte in Paris – während die Stadt unter dem Bombardement der
+        deutschen Armee stand.</p>
+        <p class="vb-intro"><strong>b) Rascher Verfall im Frühjahr 1918:</strong>
+        In den ersten Monaten des Jahres 1918 verschlechterte sich Debussys Zustand dramatisch.
+        Er war zunehmend ans Bett gefesselt, während die sogenannte Pariser Kanone die Stadt
+        aus fast 130 Kilometern Entfernung beschoss.</p>
+        <p class="vb-intro"><strong>c) Tod am 25. März 1918:</strong>
+        Debussy starb in seiner Wohnung in Paris im Alter von 55 Jahren, während die Stadt
+        unter deutschem Artilleriebeschuss lag. Wegen der Kriegslage fand seine Beerdigung
+        unter kleinem Rahmen statt – ein stiller Abschied inmitten des Kriegslärms.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Fast neun Jahre zwischen Diagnose und Tod:</strong>
+        Von der Diagnose 1909 bis zu seinem Tod 1918 lebte Debussy fast neun Jahre mit einer
+        fortschreitenden, zunehmend schmerzhaften Krankheit, ohne sein kompositorisches
+        Schaffen vollständig aufzugeben.</p>
+        <p class="vb-intro"><strong>b) Ein Spätwerk, geprägt von Verlust und Schmerz:</strong>
+        Debussys letzte Kompositionen – entstanden während der schlimmsten Kriegsjahre und der
+        fortschreitenden Krankheit – tragen eine Klarheit und Zurückhaltung, die viele
+        Musikhistoriker als bewussten Rückzug auf das Wesentliche lesen.</p>
+        <p class="vb-intro"><strong>c) Krankheit und Krieg als paralleler roter Faden:</strong>
+        Debussys letzte Lebensjahre verliefen parallel zum Ersten Weltkrieg – seine persönliche
+        Krankheitsgeschichte und der Zusammenbruch der europäischen Ordnung, die er zeitlebens
+        in Frage gestellt hatte, endeten fast im selben Moment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rivalität, gerichtet gegen die eigene Sterblichkeit:</strong>
+        So wie Debussy sein Leben lang gegen die etablierte Musikwelt ankämpfte, kämpfte er
+        auch gegen die fortschreitende Krankheit – nicht durch Verdrängung, sondern durch
+        fortgesetztes, kompromissloses Schaffen.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel als Rückzugsort in der Krankheit:</strong>
+        Je kränker Debussy wurde, desto mehr zog er sich in die eigene kompositorische Arbeit
+        zurück – dieselbe Vertiefung in Struktur und Klang, die ihn schon als jungen Komponisten
+        auszeichnete, wurde nun zum Ort, an dem der Schmerz für Stunden verschwand.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Konzert als Trotzreaktion:</strong>
+        Sein Auftritt 1917 unter Kriegsbedingungen, schwer krank, zeigt dieselbe Haltung, die
+        sein gesamtes Werk durchzog: sich nicht von äußeren Umständen – ob Kritikern oder
+        Kanonen – die eigene Musik diktieren zu lassen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Neun Jahre zwischen Diagnose und Tod:</strong>
+        Von 1909 bis 1918 lebte Debussy mit einer Krankheit, die er nie öffentlich in den
+        Mittelpunkt seines Lebens stellte, sondern die er durch fortgesetzte kompositorische
+        Arbeit gewissermaßen überschrieb.</p>
+        <p class="vb-intro"><strong>b) Konfrontation statt Rückzug aus der Öffentlichkeit:</strong>
+        Anders als Karl Lagerfeld (SO3w4) oder Michael Jackson (SO4w3), die ihre Krankheit
+        hinter einer makellosen Fassade verbargen, zog sich Debussy zwar körperlich zurück,
+        gab aber bis zuletzt öffentliche Konzerte – eine eigene, zwischen Konfrontation und
+        Rückzug liegende Form des Umgangs mit der eigenen Sterblichkeit.</p>
+        <p class="vb-intro"><strong>c) Ein Tod, der mit dem Zusammenbruch einer Epoche zusammenfiel:</strong>
+        Dass Debussy ausgerechnet während der Beschießung von Paris starb, verstärkt den
+        Eindruck eines Lebens, dessen private und historische Krisen bis zuletzt
+        ineinandergriffen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Darm?</strong>
+        Für eine sexuelle Vier, deren gesamtes Werk aus der Verdauung und Verwandlung von
+        Schmerz in Kunst bestand, liegt eine Deutung nahe: Ausgerechnet das Organ, das im
+        wörtlichsten Sinn verdaut, wurde zum Schauplatz eines Kampfes, den Debussy nie
+        öffentlich austrug, sondern in seine Musik hinein verdichtete. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu Darmkrebs führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Debussys Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen Krankheit,
+        das bei einer ausgeprägten sexuellen Vier mit Fünferflügel immer wieder auffällt – eine
+        von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Debussy kannte sein eigenes Muster nicht – die sexuelle Vier verwandelt Schmerz
+        reflexhaft in Werk statt in Schonung, und genau das ließ ihn auch angesichts einer
+        tödlichen Diagnose weiterarbeiten, weiterdirigieren, weiterauftreten, statt sich Zeit
+        für die eigene Genesung zu nehmen. Wer das eigene Muster, Schmerz sofort in Ausdruck zu
+        verwandeln, nicht kennt, verpasst möglicherweise den Moment, in dem Innehalten die
+        klügere Antwort gewesen wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Debussys</strong> sexuelle Vier mit
+        Fünferflügel noch einmal ablesen: eine fast neunjährige Krankheit, die er nie
+        öffentlich zum Zentrum seines Lebens machte, ein letztes Konzert unter Kanonendonner
+        und ein Tod, der mit dem Zusammenbruch einer ganzen Epoche zusammenfiel. Der Chihuahua,
+        der der Musik beibrachte zu schweben, auch als der eigene Körper längst nicht mehr
+        tragen konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Auftreten"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
 function johnWayneKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12993,172 +13171,6 @@ function robertDeNiroKrankheitsportraetPage() {
         {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
-      ])}
-    </div>
-  `);
-}
-
-function elonMuskKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-elon-musk-portrait.jpg" alt="Elon Musk" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Elon Musk</p>
-        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · geb. 1971</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Biber</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Elon Musk</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-elon-musk">Porträt berühmter
-        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
-        das dort nicht behandelt wird: Musks öffentliches Bekenntnis zum Asperger-Syndrom,
-        das er 2021 live im US-Fernsehen bekannt gab.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Musk</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
-        zugeordnet. Die SO7 opfert die eigene Zurückhaltung für eine größere Vision und scheut
-        keine Bühne, wenn es der Sache dient; der Sechserflügel bringt eine Wachsamkeit
-        hinzu, die auch das eigene Anderssein offen benennt, statt es zu verbergen. Genau
-        diese Kombination – eine private Diagnose, die auf der größtmöglichen öffentlichen
-        Bühne verkündet wird – bestimmte den Umgang mit dem eigenen Asperger-Syndrom.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Auffälligkeiten bereits in der Kindheit:</strong>
-        Nach eigener und familiärer Schilderung zeigte Musk bereits als Kind Verhaltensweisen,
-        die rückblickend als typisch für das Asperger-Syndrom gelten, darunter intensive,
-        eng fokussierte Interessen und soziale Schwierigkeiten.</p>
-        <p class="vb-intro"><strong>b) Keine formale Diagnose in jungen Jahren:</strong>
-        Eine formale Diagnose erfolgte nach eigener Aussage nicht in der Kindheit, sondern
-        erst deutlich später im Erwachsenenleben.</p>
-        <p class="vb-intro"><strong>c) Jahrzehntelange öffentliche Wahrnehmung als „exzentrisch":</strong>
-        Vor der Offenlegung wurde Musks ungewöhnliches öffentliches Auftreten – ungefilterte
-        Kommentare, ungewöhnlicher Humor, direkte Art – von Medien häufig lediglich als
-        exzentrisch beschrieben, ohne Bezug zu einer neurologischen Grundlage.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Öffentliche Bekanntgabe am 8. Mai 2021:</strong>
-        Musk gab die Diagnose live als Moderator der US-Sketch-Show „Saturday Night Live"
-        bekannt – vor einem Millionenpublikum, in einem unterhaltsamen, selbstironischen
-        Rahmen statt in einem ernsten Interview.</p>
-        <p class="vb-intro"><strong>b) Erste bekannte Aspberger-Offenlegung eines Milliardärs dieser Größenordnung:</strong>
-        Musk gilt als einer der ersten sehr prominenten Unternehmer, die eine
-        Autismus-Spektrum-Diagnose öffentlich und in dieser Form bekannt machten.</p>
-        <p class="vb-intro"><strong>c) Verbindung mit Selbstreflexion zu sozialem Verhalten:</strong>
-        In derselben Sendung reflektierte Musk offen darüber, dass er manchmal Schwierigkeiten
-        habe, soziale Signale zu lesen – eine für ihn ungewöhnlich direkte Selbstauskunft.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Positive und kritische mediale Reaktionen zugleich:</strong>
-        Die Offenlegung löste sowohl Anerkennung für die Offenheit als auch kritische
-        Stimmen aus, die den unterhaltsamen Rahmen als unpassend für ein ernstes Gesundheitsthema
-        empfanden.</p>
-        <p class="vb-intro"><strong>b) Keine Veränderung des öffentlichen Auftretens danach:</strong>
-        Nach der Offenlegung änderte Musk sein öffentliches Auftreten – provokante Aussagen,
-        ungefilterte Kommentare auf Social Media – nicht erkennbar; die Diagnose wurde nicht
-        zum Anlass einer neuen öffentlichen Zurückhaltung.</p>
-        <p class="vb-intro"><strong>c) Fortgesetzte extreme Arbeitsintensität:</strong>
-        Musks bekanntermaßen enorme Arbeitsbelastung über mehrere Unternehmen hinweg blieb
-        nach der Offenlegung unverändert bestehen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für Autismus im Erwachsenenalter:</strong>
-        Die Offenlegung trug international zur Sichtbarkeit von spät diagnostiziertem Autismus
-        bei Erwachsenen bei, insbesondere in beruflichen Spitzenpositionen.</p>
-        <p class="vb-intro"><strong>b) Neubewertung früherer öffentlicher Auftritte:</strong>
-        Nach der Offenlegung deuteten viele Kommentatoren frühere, als ungewöhnlich
-        wahrgenommene öffentliche Auftritte Musks rückblickend im Licht der Diagnose neu.</p>
-        <p class="vb-intro"><strong>c) Keine dauerhafte Verankerung als zentrales öffentliches Thema:</strong>
-        Trotz der breiten anfänglichen Aufmerksamkeit blieb das Asperger-Syndrom in der
-        Folgezeit kein durchgängig präsentes Thema in Musks öffentlicher Kommunikation.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die größtmögliche Bühne statt stiller Offenlegung:</strong>
-        Die SO7-typische Überzeugung, dass die eigene Botschaft möglichst viele Menschen
-        erreichen soll, zeigte sich exemplarisch: Statt eines diskreten Interviews wählte
-        Musk die größtmögliche mediale Plattform für die Offenlegung.</p>
-        <p class="vb-intro"><strong>b) Der Sechserflügel und die offene Benennung des eigenen Andersseins:</strong>
-        Dieselbe Wachsamkeit, mit der Musk gesellschaftliche Risiken öffentlich benennt,
-        zeigte sich hier als Bereitschaft, auch die eigene neurologische Andersartigkeit
-        offen zu thematisieren, statt sie hinter einem glatten öffentlichen Bild zu
-        verbergen.</p>
-        <p class="vb-intro"><strong>c) Unterhaltung als Vehikel für eine ernste Botschaft:</strong>
-        Dass die Offenlegung in einem komödiantischen Format erfolgte, passt zur SO7-typischen
-        Fähigkeit, auch schwierige Themen in eine zugängliche, positive Erzählung zu
-        verwandeln, statt sie als reine Last darzustellen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Mann des Unaufhörlichen Bauens, dessen eigenes Denken anders funktioniert als das der meisten:</strong>
-        Musks gesamtes öffentliches Wirken beruht auf einer außergewöhnlichen Fähigkeit zu
-        intensiver, fokussierter Konzentration auf einzelne Probleme – genau jene kognitive
-        Eigenart, die sein Lebenswerk trägt, ist zugleich Teil derselben neurologischen
-        Struktur, die er als Asperger-Syndrom benannte.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet die soziale Wahrnehmung, bei einem Mann mit derart öffentlicher Rolle?</strong>
-        Für einen sozialen Typ 7 mit Sechserflügel, dessen gesamtes Wirken auf öffentlicher
-        Sichtbarkeit und der Fähigkeit beruht, große Menschenmengen zu begeistern, liegt eine
-        Deutung nahe: Ausgerechnet jene kognitive Eigenart, die das Lesen sozialer Signale
-        erschwert, betrifft einen Mann, dessen berufliches Leben untrennbar mit öffentlicher
-        Kommunikation verbunden ist. Diese Deutung ist eine plausible Interpretation, kein
-        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig mit dem
-        Asperger-Syndrom verbunden ist – <strong>jeder Mensch kann jede Form
-        neurologischer Andersartigkeit entwickeln, unabhängig vom Subtyp.</strong> Was sich
-        an Musks Fall zeigen lässt, ist ein Muster im Umgang mit einer spät benannten
-        neurologischen Diagnose, das bei einem ausgeprägten sozialen Typ 7 mit Sechserflügel
-        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Musk kennt sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 7 mit
-        Sechserflügel hält reflexhaft an der Überzeugung fest, dass die größtmögliche
-        öffentliche Bühne der richtige Ort für jede Botschaft ist, auch für die eigene
-        neurologische Diagnose, und lebt genau dieses Muster bis heute weitgehend unverändert
-        aus. Wer die eigene Neigung, persönliche Themen unmittelbar in öffentliche
-        Inszenierung zu verwandeln, nicht als Muster erkennt, riskiert, dass ernste
-        Themen in der Unterhaltung untergehen, statt die ihnen angemessene Tiefe zu
-        erreichen.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 7 mit Sechserflügel erklärt bei <strong>Elon Musk</strong> vieles am
-        Umgang mit dem eigenen Asperger-Syndrom: ein Mann, dessen gesamtes öffentliches
-        Wirken auf größtmöglicher Sichtbarkeit beruht, wählte auch für die eigene
-        neurologische Diagnose die größte verfügbare Bühne – der Biber, der selbst die
-        eigene Andersartigkeit nicht verbirgt, sondern sie zu einem weiteren, öffentlich
-        sichtbaren Teil seines Bauwerks macht.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
     </div>
   `);
