@@ -1026,6 +1026,7 @@ export const registerEntries = [
   { term: "Udo Lindenberg",                route: "beruehmte-udo-lindenberg",              description: "Portrait: SX1w9 · Sexueller Typ 1 · Panik-Rocker, Maler, Dichter" },
   { term: "Astrid Lindgren",               route: "beruehmte-astrid-lindgren",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Schriftstellerin, Pippi Langstrumpf" },
   { term: "Fritz Wepper",                  route: "beruehmte-fritz-wepper",                description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Schauspieler, Harry Klein in Derrick" },
+  { term: "Reinhold Würth",                route: "beruehmte-reinhold-wuerth",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Unternehmer, Würth-Gruppe" },
   { term: "Gianna Nannini",                route: "beruehmte-gianna-nannini",              description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Rocksängerin, America, Bello e impossibile" },
   { term: "Ken Follett",                   route: "beruehmte-ken-follett",                 description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Bestseller-Autor historischer Romane" },
   { term: "Marie-Agnes Strack-Zimmermann", route: "beruehmte-marie-agnes-strack-zimmermann", description: "Portrait: SX1w9 · Sexueller Typ 1 · FDP-Politikerin, Verteidigungsexpertin" },

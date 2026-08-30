@@ -4535,6 +4535,73 @@ function fritzWepperPortraitPage() {
         {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2) – Derrick-Partner"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Porträt: Reinhold Würth (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function reinholdWuerthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-reinhold-wuerth-portrait.jpg" alt="Reinhold Würth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhold Würth</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, geb. 1935 – Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der aus einem kleinen Nest ein Imperium baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins: Er baut sein Nest über Jahrzehnte hinweg immer weiter aus, Stück für Stück, bis es Tonnen wiegen kann – kein spontaner Wurf, sondern beharrliche, geduldige Vermehrung dessen, was schon trägt. Er handelt selten aus dem Impuls heraus, sein Territorium verteidigt er mit äußerster Sorgfalt, und sein Blick ist auf Ordnung und Kontrolle gerichtet, nicht auf Show.</p>
+          <p class="vb-intro">Reinhold Würth, geboren 1935 in Öhringen, übernahm 1954 mit neunzehn Jahren nach dem plötzlichen Tod seines Vaters dessen kleinen Schraubengroßhandel mit zwei Angestellten. Aus diesem winzigen Nest baute er über sieben Jahrzehnte hinweg einen der größten Handelskonzerne Europas: die Würth-Gruppe, heute mit weit über 400 Gesellschaften in mehr als 80 Ländern und mehr als 85.000 Beschäftigten. Kein einzelner spektakulärer Coup, sondern jahrzehntelange, systematische Ausdehnung, ein Land nach dem anderen, ein Vertriebsweg nach dem anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als Existenzgrundlage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Eins richtet ihren Perfektionsanspruch nicht primär auf die große Bühne, sondern auf das eigene, ganz konkrete Fundament: die eigene Existenz, das eigene Unternehmen, die eigene Familie sollen in bester Ordnung sein. Der Blick ist dabei, wie es das Buch beschreibt, prüfend und zielgerichtet – ein Scannen der unmittelbaren Umgebung darauf, ob alles sicher und stabil ist.</p>
+          <p class="vb-intro">Genau dieses Prinzip prägt Würths gesamte Unternehmensgeschichte. Sein Kerngeschäft – Schrauben, Dübel, Montagetechnik – ist buchstäblich die Branche der Präzision und der kleinen, aber unverzichtbaren Teile, ohne die nichts zusammenhält. Würth gilt als Verfechter der klassischen „schwäbischen Tugenden": Fleiß, Sparsamkeit, Zuverlässigkeit, Understatement. Er lebt vergleichsweise zurückgezogen für einen Milliardär, meidet die große mediale Selbstinszenierung und legt größten Wert auf die langfristige, generationenübergreifende Stabilität seines Familienunternehmens – 1987 übertrug er die Anteile bereits vollständig in eine Familienstiftung, um genau diese Stabilität über seinen eigenen Tod hinaus abzusichern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne lautes Aufbegehren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Neunerflügel dämpft bei der Eins die konfrontative Schärfe, die eine Eins mit Zweierflügel eher zeigt, und ersetzt sie durch eine ruhigere, ausgleichende, geduldig-beharrliche Grundhaltung. Statt lautstark zu korrigieren oder zu missionieren, wirkt die SE1w9 eher wie ein stiller Beobachter, der auf Details achtet und Ordnung eher durch beständiges Vorbild als durch Konfrontation herstellt.</p>
+          <p class="vb-intro">Würths öffentliches Auftreten passt genau in dieses Bild: kein lautstarker, polarisierender Wirtschaftsführer, sondern ein bedächtiger, in Interviews auffallend ruhiger Patriarch, dessen Autorität aus jahrzehntelanger Konsequenz erwächst, nicht aus Inszenierung. Sein bekanntes Lächeln in Fotos wirkt entspannt und zugewandt, nicht auftrumpfend – eine Warmherzigkeit, die, wie die eigene Bewertung dieses Falls im Fallprotokoll zeigt, leicht mit einem Zweierflügel verwechselt werden kann, tatsächlich aber die ruhigere, versöhnlichere Note des Neunerflügels trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Mäzen als zweites Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben dem Unternehmen baute Würth über Jahrzehnte eine der größten privaten Kunstsammlungen Europas auf – mit heute über 18.500 Werken – und errichtete mehrere eigene Museen, um diese Sammlung öffentlich zugänglich zu machen, allen voran die Kunsthalle Würth in Schwäbisch Hall. Auch das ist ein Ausdruck der SE1w9-Grundhaltung: nicht die eigene Person soll glänzen, sondern das, was aufgebaut wurde, soll Bestand haben und anderen zugutekommen – Ordnung und Fürsorge, in ein bleibendes Werk übersetzt statt in flüchtige Selbstdarstellung.</p>
+          <p class="vb-intro">Auch sein Engagement für berufliche Bildung – die Würth-Gruppe bildet seit Jahrzehnten in großem Umfang selbst aus – folgt demselben Muster: Struktur schaffen, die über die eigene Lebenszeit hinausreicht, statt kurzfristigen Gewinn zu maximieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Würth eine seltene Kombination aus unternehmerischer Konsequenz und stiller Genügsamkeit – ein Milliardär, der sein Vermögen überwiegend in Substanz investierte, nicht in Repräsentation, und der frühzeitig eine Nachfolgeregelung traf, die sein Lebenswerk vor Zerfall nach seinem Tod schützen soll.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite, die für die selbsterhaltende Eins typisch ist: ein hoher, oft unausgesprochener Erwartungsdruck an die eigene Umgebung und das eigene Unternehmen, verbunden mit einer Neigung, Kontrolle nicht abzugeben, selbst wenn formale Übergaben – wie die frühe Einbringung in die Familienstiftung – bereits erfolgt sind. Der Neunerflügel kann dabei auch bedeuten, notwendige Konflikte zu lange zu vermeiden, aus Sorge, die mühsam aufgebaute Ordnung zu gefährden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Kontrollieren zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Frage <em>Ist alles wirklich in Ordnung, oder muss ich noch mehr sichern?</em> zur Erkenntnis <em>Was solide aufgebaut ist, trägt auch dann, wenn ich nicht jedes Detail selbst kontrolliere.</em> Für die SE1w9 bedeutet das, die eigene Beharrlichkeit nicht als endlose Absicherung zu verstehen, sondern als das, was sie bereits ist: ein tragfähiges Fundament, dem man auch ohne permanente Kontrolle vertrauen darf.</p>
+          <p class="vb-intro">Würths eigener Schritt in diese Richtung war die frühzeitige Übertragung seines Unternehmens in eine Familienstiftung – eine Geste, die genau diesem Prinzip folgt: Struktur so solide zu bauen, dass sie über die eigene Kontrolle hinaus Bestand hat. Der Adler, der sein Nest so sorgfältig gebaut hat, dass es auch dann noch trägt, wenn er selbst nicht mehr über ihm kreist.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9)"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
       ])}
     </div>
   `);
@@ -7594,71 +7661,6 @@ function ankeEngelkePortraitPage() {
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-bastian-pastewka", label:"Portr\u00e4t: Bastian Pastewka (SE3w2)"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function jenniferAnistonPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Jennifer Aniston – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jennifer Aniston</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1969 in Sherman Oaks, Kalifornien &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das seine Kraft nicht aus Einzelgängertum zieht, sondern aus dem Rudel, in dem es sich beweist. Wölfe prüfen einander ständig: durch Blickkontakt, durch körperliche Nähe, durch das Aushändigen und Zurückfordern von Status. Wer im Rudel bestehen will, muss zeigen, dass er standhält &ndash; nicht durch Größe allein, sondern durch die Bereitschaft, sich zu exponieren.</p>
-          <p class="vb-intro">Die US-amerikanische Schauspielerin Jennifer Aniston, 1969 in Sherman Oaks geboren, verkörpert genau das. Ihre Karriere begann nicht mit einem Sprung ins Rampenlicht, sondern mit Jahren kleiner Rollen und gescheiterter Serien, bevor 1994 die Rolle kam, die alles veränderte. Was sie durch die Jahrzehnte trägt, ist keine spektakuläre Einzelleistung, sondern die Fähigkeit, sich immer wieder ins Rudel zu stellen &ndash; ins Ensemble, ins Team, in die Öffentlichkeit &ndash; und dort standzuhalten, wenn es unbequem wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort auf die Angst (Kontratyp)</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht, sondern überdeckt sie mit Stärke, Direktheit und einer Präsenz, die nach außen selbstsicher wirkt. Naranjo nannte diesen Subtyp <em>Strength</em>. Die SX6 begegnet der Bedrohung, statt vor ihr zurückzuweichen &ndash; und genau das erzeugt den Eindruck von Mühelosigkeit, der oft täuscht.</p>
-          <p class="vb-intro">Aniston wirkt seit drei Jahrzehnten souverän vor der Kamera. Was in dieser Souveränität nicht sichtbar ist: die Angst, die als Antrieb dahinterliegt. Sie hat wiederholt öffentlich gemacht, dass sie während der Dreharbeiten zu <em>Friends</em> unter erheblichem Lampenfieber litt und dass ihre vermeintliche Leichtigkeit hart erarbeitet war. Die Stärke der SX6 ist keine Abwesenheit von Angst &ndash; sie ist die tägliche Entscheidung, trotzdem aufzutreten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerflügel: Leichtigkeit als Handwerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine spielerische Seite, die bei schwach ausgeprägtem Siebenerflügel fehlen würde: Timing, Selbstironie, die Fähigkeit, aus Anspannung Komik zu machen. Wo eine SX6 mit schwächerem Siebenerflügel eher grimmig verteidigt, lächelt die SX6w7 dabei &ndash; ohne dass die Schärfe darunter verschwindet.</p>
-          <p class="vb-intro">Anistons komisches Talent, allen voran als Rachel Green in <em>Friends</em> (1994&ndash;2004), lebt genau von dieser Mischung: präzises Timing, körperliche Komik, eine Figur, die verletzlich sein durfte, ohne lächerlich zu wirken. Die Serie machte sie zu einer der bestbezahlten Fernsehschauspielerinnen ihrer Zeit &ndash; und der berühmte <em>Rachel</em>-Haarschnitt wurde weltweit kopiert. Der Siebenerfügel zeigt sich auch darin, wie sie über ihre eigene Berühmtheit sprach: mit Selbstdistanz, nie ganz ernst, immer mit einem Augenzwinkern für das Absurde daran.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Rudel: Solidarität statt Konkurrenz</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein zentrales Kapitel der SX6-Geschichte Anistons ist die Gehaltsverhandlung des <em>Friends</em>-Ensembles: Statt sich gegeneinander ausspielen zu lassen, einigten sich alle sechs Hauptdarsteller darauf, gemeinsam zu verhandeln und am Ende gleich viel zu verdienen &ndash; zuletzt eine Million Dollar pro Folge und Person. Das war zu der Zeit in Hollywood außergewöhnlich. Es ist die SX6 in ihrer reifsten Form: Stärke, die nicht gegen das Rudel eingesetzt wird, sondern für es.</p>
-          <p class="vb-intro">Auch über das Ende der Serie hinaus hielt dieses Rudel: Die sechs Darsteller blieben eng verbunden, trafen sich öffentlich wieder zur Reunion-Sondersendung 2021. Loyalität über Jahrzehnte, ohne dass die individuellen Karrieren darunter litten &ndash; das ist der Wolf, der weiß, dass das Rudel ihn stärker macht, nicht kleiner.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Konfrontation: Öffentliches Leben, private Angst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kaum eine Prominente wurde über so viele Jahre so intensiv öffentlich verhandelt wie Aniston nach der Scheidung von Brad Pitt 2005 &ndash; Boulevardmedien machten ihr Privatleben, insbesondere ihre unerfüllt gebliebene Mutterschaft, zum jahrzehntelangen Dauerthema. Die SX6 reagiert auf solchen Druck nicht mit Rückzug, sondern mit direkter Konfrontation: 2022 sprach Aniston in einem viel beachteten Interview offen über ihre jahrelangen, erfolglosen Künstliche-Befruchtung-Versuche und darüber, wie sehr die öffentlichen Spekulationen sie verletzt hatten.</p>
-          <p class="vb-intro">Diese Offenheit ist typisch für die SX6w7: Statt die Verletzlichkeit zu verstecken, stellt sie sich ihr &ndash; öffentlich, mit Worten, nicht mit Schweigen. Es ist dieselbe Bewegung, die sie 2014 in die dramatische Rolle einer chronisch schmerzgeplagten Frau in <em>Cake</em> führte, eine Rolle, die bewusst mit ihrem Komiker-Image brach und ihr eine Golden-Globe-Nominierung einbrachte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>verlässliche Präsenz</strong>: eine Frau, die über drei Jahrzehnte im öffentlichsten aller Berufe stand, ohne sich zu verstellen, und die Loyalität gegenüber ihrem Rudel über persönlichen Vorteil stellte. Mit ihrer Produktionsfirma und Rollen wie in <em>The Morning Show</em>, die MeToo und Machtmissbrauch in den Medien direkt thematisiert, hat sie sich zudem als Produzentin etabliert, die ernste Stoffe sucht statt sie zu meiden.</p>
-          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der permanenten Angriffsbereitschaft, die auch nach innen wirken kann: Anistons öffentlich diskutierte, jahrelange Beziehung zu strengen Fitness- und Ernährungsroutinen liest sich auch als Versuch, Kontrolle über einen Körper und ein Image zu behalten, das über Jahrzehnte fremdbestimmt kommentiert wurde. Die Stärke, die nach außen souverän wirkt, verlangt nach innen einen Preis, der selten sichtbar wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
-        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2) – ehemaliger Ehemann"},
       ])}
     </div>
   `);

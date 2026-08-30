@@ -1,3 +1,71 @@
+function seanConneryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Connery</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1930&ndash;2020 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, aber nicht das lauteste. Sein Erfolg beruht auf Pr\u00e4zision, nicht auf roher Kraft: jede Bewegung kalkuliert, jeder Auftritt auf maximale Wirkung hin optimiert. Der Gepard f\u00e4llt sofort auf &ndash; und genau das ist sein Ziel.</p>
+          <p class="vb-intro">Der schottische Schauspieler Sean Connery, geboren als Sohn eines Lastwagenfahrers in einem Armenviertel Edinburghs, arbeitete als Milchmann, Sargpolierer und Ringer, bevor er beim Bodybuilding-Wettbewerb Mr. Universe den dritten Platz belegte &ndash; und von dort aus in nur wenigen Jahren zu James Bond wurde, der Verk\u00f6rperung von Weltl\u00e4ufigkeit und Eleganz schlechthin. Kein anderer Schauspieler seiner Generation hat eine solche Distanz zwischen Herkunft und Image \u00fcberwunden. Der Gepard, der aus dem Nichts sprintet und binnen Sekunden das Feld anf\u00fchrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Vom Milchmann zum Weltstar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verst\u00e4rkungstyp der Drei &ndash; derjenige Subtyp, der die Leidenschaft der Eitelkeit in besonders starkem Ma\u00dfe lebt. Sie lebt nicht f\u00fcr einzelne Erfolge, sie <em>ist</em> Erfolg &ndash; ein Image, das \u00f6ffentlich best\u00e4tigt und immer wieder neu verdient werden muss. Naranjo beschrieb diesen Subtyp als denjenigen, bei dem Eitelkeit und Ehrgeiz am unverstelltesten hervortreten, weil die soziale B\u00fchne selbst zum Lebensinhalt wird.</p>
+          <p class="vb-intro">Connerys Wandlung vom schottischen Arbeiterjungen zum Sir Sean Connery ist SO3-Logik pur: Er nahm Schauspielunterricht, arbeitete an seinem breiten schottischen Akzent, lie\u00df sich in Manieren, Kleidung und Haltung coachen, bis aus dem ehemaligen M\u00f6beltr\u00e4ger ein Mann wurde, der Aristokraten glaubw\u00fcrdig verk\u00f6rpern konnte. Ab 1962 als James Bond in <em>Dr. No</em> wurde er \u00fcber Nacht zum Inbegriff internationaler Eleganz &ndash; ein Image, das er in sieben Filmen bis 1983 perfektionierte.</p>
+          <p class="vb-intro">Die SO3 braucht die Best\u00e4tigung durch ein Publikum, das gr\u00f6\u00dfer ist als der Einzelne. Connery wurde mehrfach zum \u201eSexiest Man Alive" gew\u00e4hlt, auch noch mit \u00fcber sechzig Jahren &ndash; ein Beweis, dass sein Image nicht an eine Rolle oder ein Lebensalter gebunden war, sondern zu einer eigenst\u00e4ndigen kulturellen Institution geworden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Der Mann hinter Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines Image \u00fcbersteigt &ndash; den Wunsch, als eigenst\u00e4ndiger, unverwechselbarer Mensch wahrgenommen zu werden, nicht nur als Rolle. Diese Spannung pr\u00e4gte Connerys gesamte Karriere: Er spielte Bond mit einer Pr\u00e4zision, die den Charakter zur Ikone machte &ndash; und k\u00e4mpfte gleichzeitig lebenslang darum, nicht auf ihn reduziert zu werden.</p>
+          <p class="vb-intro">\u00d6ffentlich blieb Connery bemerkenswert verschlossen. Kaum Homestorys, kaum Enth\u00fcllungen \u00fcber sein Privatleben, ein notorisch kurzes Verh\u00e4ltnis zur Presse. Der Viererfl\u00fcgel verlangt Authentizit\u00e4t &ndash; aber nicht auf Kosten der Kontrolle \u00fcber das eigene Bild. Was er preisgab, war sorgf\u00e4ltig gew\u00e4hlt: seine leidenschaftliche schottische Identit\u00e4t, sein Engagement f\u00fcr die Scottish National Party, seine Liebe zum Golf. Alles \u00dcbrige blieb hinter der immer gleichen ruhigen Autorit\u00e4t verborgen.</p>
+          <p class="vb-intro">Diese schottische Identit\u00e4t war f\u00fcr Connery kein Nebenschauplatz, sondern der authentische Kern unter dem internationalen Image: Trotz Weltruhm und Wohnsitzen in Spanien und den Bahamas blieb er Zeit seines Lebens ein erkl\u00e4rter schottischer Nationalist, der Millionen f\u00fcr die Unabh\u00e4ngigkeitsbewegung spendete. Der Viererfl\u00fcgel bewahrte sich diesen einen Ort, an dem das Bild und der Mensch identisch blieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch mit Bond: Neuerfindung als Notwendigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1971 verlie\u00df Connery die Bond-Rolle, die ihn zum Weltstar gemacht hatte &ndash; er wollte nicht f\u00fcr immer mit einer einzigen Figur identifiziert werden. Es folgten Jahre wechselnder, oft schwieriger Rollenwahl, ehe er sich in den achtziger Jahren als ernstzunehmender Charakterdarsteller neu etablierte: als irischer Cop in <em>The Untouchables</em> (1987, Oscar als bester Nebendarsteller), als unsterblicher Krieger in <em>Highlander</em>, als Vater von Indiana Jones.</p>
+          <p class="vb-intro">Diese Neuerfindung ist SO3w4-Logik ungefiltert: Die soziale Drei braucht fortw\u00e4hrende \u00f6ffentliche Best\u00e4tigung &ndash; aber der Viererfl\u00fcgel verweigert sich der Wiederholung um ihrer selbst willen. Eine SO3 mit schwach ausgeprägtem Viererflügel hätte vielleicht an der lukrativen Bond-Marke festgehalten. Connery ging das Risiko ein, sie hinter sich zu lassen, um als eigenst\u00e4ndiger K\u00fcnstler ernst genommen zu werden &ndash; und bewies damit, dass sein Erfolg nicht an eine einzige Rolle gebunden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre F\u00e4higkeit, ein Image zu erschaffen, das gr\u00f6\u00dfer wird als die eigene Person &ndash; und dabei doch mit Substanz zu f\u00fcllen. Connerys Bond definierte ein Filmgenre neu und blieb \u00fcber Jahrzehnte der Ma\u00dfstab, an dem sich jeder Nachfolger messen lassen musste. Sein sp\u00e4teres Werk bewies, dass hinter dem Image tats\u00e4chlich schauspielerisches K\u00f6nnen stand.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; bei der SO3 sichtbar als die Notwendigkeit, permanent im besten Licht zu erscheinen. Connerys Verh\u00e4ltnis zu seiner Vergangenheit blieb zwiesp\u00e4ltig: Er sprach selten offen \u00fcber die Armut seiner Kindheit oder die M\u00fchen seines Aufstiegs, lie\u00df stattdessen die makellose Fassade des Weltstars f\u00fcr sich sprechen. Kontroverser noch waren \u00f6ffentliche \u00c4u\u00dferungen aus den siebziger Jahren, in denen er k\u00f6rperliche Gewalt in Beziehungen verharmloste &ndash; Aussagen, die er nie zur\u00fccknahm und die einen deutlichen Schatten auf sein Bild warfen.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel bringt sein eigenes Schattenmuster mit: die Neigung, N\u00e4he grunds\u00e4tzlich zu misstrauen, weil sie die sorgf\u00e4ltig kontrollierte Fassade gef\u00e4hrdet. Wer Connery wirklich war, jenseits von Bond, jenseits des schottischen Patrioten, blieb selbst engen Weggef\u00e4hrten oft verborgen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Image zur Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne das perfekte Bild.</em> F\u00fcr die SO3w4 bedeutet das, den eigenen Wert nicht l\u00e4nger daran zu messen, ob die Rolle noch tr\u00e4gt oder ob das Publikum noch applaudiert.</p>
+          <p class="vb-intro">Connerys R\u00fcckzug aus Hollywood Mitte der 2000er-Jahre &ndash; freiwillig, ohne gro\u00dfen Abschied, ohne den letzten gro\u00dfen Film, der das Werk h\u00e4tte kr\u00f6nen sollen &ndash; liest sich im R\u00fcckblick wie eine seltene, bewusste Geste: aufzuh\u00f6ren, bevor das Image zur Karikatur seiner selbst wird. Der Gepard, der irgendwann nicht mehr rennt, um zu beweisen, dass er der Schnellste ist &ndash; sondern sich zur\u00fcckzieht, in die Stille der eigenen, nie ganz preisgegebenen Welt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
+        {route:"krankheitsportraets-sean-connery", label:"Krankheitsportr\u00e4t: Sean Connery (SO3w4) \u2013 Demenzerkrankung"},
+      ])}
+    </div>
+  `);
+}
+
 function cristianoRonaldoPortraitPage() {
   return shell(`
     <div class="page-container">

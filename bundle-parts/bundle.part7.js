@@ -1,3 +1,68 @@
+function jenniferAnistonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jennifer-aniston-portrait.jpg" alt="Jennifer Aniston – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jennifer Aniston</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1969 in Sherman Oaks, Kalifornien &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das seine Kraft nicht aus Einzelgängertum zieht, sondern aus dem Rudel, in dem es sich beweist. Wölfe prüfen einander ständig: durch Blickkontakt, durch körperliche Nähe, durch das Aushändigen und Zurückfordern von Status. Wer im Rudel bestehen will, muss zeigen, dass er standhält &ndash; nicht durch Größe allein, sondern durch die Bereitschaft, sich zu exponieren.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Jennifer Aniston, 1969 in Sherman Oaks geboren, verkörpert genau das. Ihre Karriere begann nicht mit einem Sprung ins Rampenlicht, sondern mit Jahren kleiner Rollen und gescheiterter Serien, bevor 1994 die Rolle kam, die alles veränderte. Was sie durch die Jahrzehnte trägt, ist keine spektakuläre Einzelleistung, sondern die Fähigkeit, sich immer wieder ins Rudel zu stellen &ndash; ins Ensemble, ins Team, in die Öffentlichkeit &ndash; und dort standzuhalten, wenn es unbequem wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Antwort auf die Angst (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp der Sechs: Sie zeigt ihre Angst nicht, sondern überdeckt sie mit Stärke, Direktheit und einer Präsenz, die nach außen selbstsicher wirkt. Naranjo nannte diesen Subtyp <em>Strength</em>. Die SX6 begegnet der Bedrohung, statt vor ihr zurückzuweichen &ndash; und genau das erzeugt den Eindruck von Mühelosigkeit, der oft täuscht.</p>
+          <p class="vb-intro">Aniston wirkt seit drei Jahrzehnten souverän vor der Kamera. Was in dieser Souveränität nicht sichtbar ist: die Angst, die als Antrieb dahinterliegt. Sie hat wiederholt öffentlich gemacht, dass sie während der Dreharbeiten zu <em>Friends</em> unter erheblichem Lampenfieber litt und dass ihre vermeintliche Leichtigkeit hart erarbeitet war. Die Stärke der SX6 ist keine Abwesenheit von Angst &ndash; sie ist die tägliche Entscheidung, trotzdem aufzutreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Leichtigkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine spielerische Seite, die bei schwach ausgeprägtem Siebenerflügel fehlen würde: Timing, Selbstironie, die Fähigkeit, aus Anspannung Komik zu machen. Wo eine SX6 mit schwächerem Siebenerflügel eher grimmig verteidigt, lächelt die SX6w7 dabei &ndash; ohne dass die Schärfe darunter verschwindet.</p>
+          <p class="vb-intro">Anistons komisches Talent, allen voran als Rachel Green in <em>Friends</em> (1994&ndash;2004), lebt genau von dieser Mischung: präzises Timing, körperliche Komik, eine Figur, die verletzlich sein durfte, ohne lächerlich zu wirken. Die Serie machte sie zu einer der bestbezahlten Fernsehschauspielerinnen ihrer Zeit &ndash; und der berühmte <em>Rachel</em>-Haarschnitt wurde weltweit kopiert. Der Siebenerfügel zeigt sich auch darin, wie sie über ihre eigene Berühmtheit sprach: mit Selbstdistanz, nie ganz ernst, immer mit einem Augenzwinkern für das Absurde daran.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Rudel: Solidarität statt Konkurrenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein zentrales Kapitel der SX6-Geschichte Anistons ist die Gehaltsverhandlung des <em>Friends</em>-Ensembles: Statt sich gegeneinander ausspielen zu lassen, einigten sich alle sechs Hauptdarsteller darauf, gemeinsam zu verhandeln und am Ende gleich viel zu verdienen &ndash; zuletzt eine Million Dollar pro Folge und Person. Das war zu der Zeit in Hollywood außergewöhnlich. Es ist die SX6 in ihrer reifsten Form: Stärke, die nicht gegen das Rudel eingesetzt wird, sondern für es.</p>
+          <p class="vb-intro">Auch über das Ende der Serie hinaus hielt dieses Rudel: Die sechs Darsteller blieben eng verbunden, trafen sich öffentlich wieder zur Reunion-Sondersendung 2021. Loyalität über Jahrzehnte, ohne dass die individuellen Karrieren darunter litten &ndash; das ist der Wolf, der weiß, dass das Rudel ihn stärker macht, nicht kleiner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Konfrontation: Öffentliches Leben, private Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum eine Prominente wurde über so viele Jahre so intensiv öffentlich verhandelt wie Aniston nach der Scheidung von Brad Pitt 2005 &ndash; Boulevardmedien machten ihr Privatleben, insbesondere ihre unerfüllt gebliebene Mutterschaft, zum jahrzehntelangen Dauerthema. Die SX6 reagiert auf solchen Druck nicht mit Rückzug, sondern mit direkter Konfrontation: 2022 sprach Aniston in einem viel beachteten Interview offen über ihre jahrelangen, erfolglosen Künstliche-Befruchtung-Versuche und darüber, wie sehr die öffentlichen Spekulationen sie verletzt hatten.</p>
+          <p class="vb-intro">Diese Offenheit ist typisch für die SX6w7: Statt die Verletzlichkeit zu verstecken, stellt sie sich ihr &ndash; öffentlich, mit Worten, nicht mit Schweigen. Es ist dieselbe Bewegung, die sie 2014 in die dramatische Rolle einer chronisch schmerzgeplagten Frau in <em>Cake</em> führte, eine Rolle, die bewusst mit ihrem Komiker-Image brach und ihr eine Golden-Globe-Nominierung einbrachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>verlässliche Präsenz</strong>: eine Frau, die über drei Jahrzehnte im öffentlichsten aller Berufe stand, ohne sich zu verstellen, und die Loyalität gegenüber ihrem Rudel über persönlichen Vorteil stellte. Mit ihrer Produktionsfirma und Rollen wie in <em>The Morning Show</em>, die MeToo und Machtmissbrauch in den Medien direkt thematisiert, hat sie sich zudem als Produzentin etabliert, die ernste Stoffe sucht statt sie zu meiden.</p>
+          <p class="vb-intro">Der Schatten der SX6 zeigt sich in der permanenten Angriffsbereitschaft, die auch nach innen wirken kann: Anistons öffentlich diskutierte, jahrelange Beziehung zu strengen Fitness- und Ernährungsroutinen liest sich auch als Versuch, Kontrolle über einen Körper und ein Image zu behalten, das über Jahrzehnte fremdbestimmt kommentiert wurde. Die Stärke, die nach außen souverän wirkt, verlangt nach innen einen Preis, der selten sichtbar wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2) – ehemaliger Ehemann"},
+      ])}
+    </div>
+  `);
+}
+
 function byronKatiePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7419,73 +7484,6 @@ function reneDescartesPortraitPage() {
         {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
-      ])}
-    </div>
-  `);
-}
-
-function hermannHessePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hermann-hesse-portrait.jpg" alt="Hermann Hesse" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hermann Hesse</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle">Schriftsteller, Nobelpreisträger, 1877&ndash;1962 &ndash; Tierentsprechung: Eule</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Eule im Tessiner Garten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 &ndash; ein Wesen, das sich zurückzieht, um klar zu sehen, das seinen Lebensraum eng hält und darin bis in die letzte Ecke vertraut ist. Kaum ein Schriftsteller hat diese Rückzugslogik so konsequent gelebt wie Hermann Hesse: 1919, mitten in der Nachkriegskrise, verließ er Deutschland und trennte sich von seiner ersten Ehefrau Maria Bernoulli und den drei gemeinsamen Söhnen, um allein nach Montagnola im Tessin zu ziehen, in ein kleines Haus namens Casa Camuzzi. Dort lebte er die folgenden vierzig Jahre &ndash; zurückgezogen, mit Garten, Aquarellfarben und einem streng gehüteten Tagesablauf, den kaum jemand von außen durchbrechen durfte.</p>
-          <p class="vb-intro">Der deutsch-schweizerische Schriftsteller Hermann Hesse wurde 1877 in Calw geboren, als Sohn eines Missionars in einem streng pietistischen Elternhaus, das ihm früh das Gefühl vermittelte, anders zu sein als von ihm erwartet. Mit fünfzehn brach er aus dem Klosterseminar Maulbronn aus, erlitt eine schwere Krise und wurde zeitweise in eine Nervenheilanstalt eingewiesen. Diese frühe Erfahrung, dass die Welt der Institutionen und Erwartungen nicht sein Ort war, prägte eine lebenslange Bewegung nach innen &ndash; weg von Gemeinschaften, hin zu einem selbst gebauten, genau kontrollierten inneren Raum.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Die Burg im Tessin</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie möglich beschränkt. Hesses Leben in Montagnola folgte genau diesem Muster. Er baute sich einen streng geregelten Tagesrhythmus aus Schreiben, Gärtnern und Malen, empfing Besucher nur nach vorheriger Absprache und zog sich, wenn die Kräfte nicht reichten, wochenlang völlig zurück. Zeitschriften, Manuskripte und Briefe stapelten sich in seinem Arbeitszimmer &ndash; ein Territorium, in dem jedes Ding seinen Platz hatte und das er niemandem überließ.</p>
-          <p class="vb-intro">Gleichzeitig unterhielt Hesse einen der umfangreichsten Briefwechsel der deutschen Literaturgeschichte &ndash; über 35.000 Briefe sind überliefert. Das ist die typische Lösung der SE5 für das Näheproblem: Kontakt findet statt, aber gefiltert, auf Distanz, in der eigenen Zeit und im eigenen Tempo. Der Brief erlaubt Verbindung, ohne die Burg öffnen zu müssen. Nach seinem Nervenzusammenbruch 1916 unterzog er sich zudem einer Psychoanalyse bei einem Schüler C. G. Jungs, Josef Bernhard Lang &ndash; auch das eine sehr fünferhafte Strategie: die eigene innere Unordnung nicht in Beziehungen, sondern in einem klar umrissenen, therapeutischen Rahmen zu untersuchen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserflügel: Die wache Sorge um die Welt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Fünf eine wache, oft ängstliche Aufmerksamkeit für Bedrohungen &ndash; und ein waches Misstrauen gegenüber jeder Form von Massenbewegung. Als 1914 der Erste Weltkrieg ausbrach, äußerte sich Hesse in dem Essay "O Freunde, nicht diese Töne!" scharf gegen den grassierenden Kriegsjubel unter deutschen Intellektuellen &ndash; eine Position, die ihm in der Heimat den Ruf des Vaterlandsverräters einbrachte und ihn endgültig zum Außenseiter machte. Er zog sich daraufhin noch weiter zurück, half zwar praktisch bei der Betreuung deutscher Kriegsgefangener in der Schweiz, mied aber jede politische Vereinnahmung.</p>
-          <p class="vb-intro">Dieselbe wache Vorsicht zeigte sich in den 1930er-Jahren: Aus sicherer Schweizer Distanz beobachtete Hesse den Aufstieg des Nationalsozialismus mit wachsender Beunruhigung, unterstützte verfolgte und emigrierte Kollegen wie Thomas Mann und Peter Weiss mit Briefen, Rezensionen und Kontakten &ndash; blieb aber selbst im geschützten Rückzugsort. Der Sechserflügel sorgt sich um die Welt, ohne sich ihr auszusetzen: Wachsamkeit als Schutzhaltung, nicht als Aufruf zum Handeln. Als Verstärkungstyp der Fünf treibt die selbsterhaltende Fünf ihre Wissens- und Erkenntnissuche nicht gemäßigt, sondern intensiviert aus &ndash; bei Hesse äußerte sich das in einer lebenslangen, fast obsessiven Beschäftigung mit östlicher Philosophie, Psychoanalyse und der eigenen inneren Entwicklung, die er in immer neuen Anläufen literarisch verarbeitete.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Der Einzelne zwischen zwei Welten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hesses zentrales literarisches Thema ist genau das Grunddilemma der SE5: der Konflikt zwischen dem Rückzug in die eigene innere Welt und der Sehnsucht, dennoch Teil von etwas Größerem zu sein. In "Siddhartha" (1922) sucht ein Einzelner abseits aller Lehrmeinungen und Gemeinschaften seinen eigenen Weg zur Erkenntnis. In "Der Steppenwolf" (1927) zerreißt sich ein Mann zwischen bürgerlicher Sehnsucht nach Zugehörigkeit und der Gewissheit, für die Gesellschaft nicht gemacht zu sein &ndash; ein Bild, in dem sich Generationen von Außenseitern wiedererkannten.</p>
-          <p class="vb-intro">"Das Glasperlenspiel" (1943), sein letztes großes Werk, verlegt diesen Konflikt in eine ferne Zukunft: eine Gelehrtenprovinz, völlig von der Welt abgeschottet, in der reines Wissen zum Selbstzweck wird &ndash; bis der Protagonist erkennt, dass auch diese vollkommene Burg der Wirklichkeit standhalten muss. 1946 erhielt Hesse für dieses Werk den Nobelpreis für Literatur, den er, seiner Rückzugslogik treu, nicht persönlich in Stockholm entgegennahm.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in der Klarheit und Redlichkeit von Hesses Selbstbeobachtung: Kaum ein Schriftsteller hat die innere Zerrissenheit des modernen Menschen so genau und ohne Beschönigung beschrieben. Seine Bücher wurden gerade deshalb zu Kultwerken ganzer Generationen &ndash; von der deutschen Jugendbewegung der 1920er bis zur amerikanischen Gegenkultur der 1960er &ndash;, weil sie dem Gefühl des Nicht-Dazugehörens eine Sprache gaben, ohne es zu verklären.</p>
-          <p class="vb-intro">Der Schatten liegt im Preis dieses Rückzugs: Hesses erste Ehe mit Maria Bernoulli zerbrach unter anderem an seiner Unfähigkeit, dauerhafte Nähe auszuhalten; seine Beziehung zu seinen drei Söhnen blieb zeitlebens distanziert. Migräneanfälle, Augenleiden und wiederkehrende depressive Krisen begleiteten ihn durch sein ganzes Leben &ndash; die Burg schützte ihn vor der Welt, aber sie konnte die eigene innere Unruhe nicht auflösen, sondern nur einen Rahmen geben, in dem er sie literarisch bearbeiten konnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Eule, die bis zuletzt im Garten blieb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Auch im Alter änderte Hesse sein Leben kaum: Er blieb in Montagnola, pflegte seinen Garten, malte Aquarelle der Tessiner Landschaft und schrieb weiterhin Briefe an Leser aus aller Welt, die in seinen Büchern etwas von sich selbst wiedererkannt hatten. Am 9. August 1962 starb er dort im Schlaf, im Alter von 85 Jahren &ndash; an dem Ort, den er sich selbst als sicheren Rückzugsraum gebaut hatte, und den er, anders als Descartes am Ende seines Lebens, nie mehr verließ.</p>
-          <p class="vb-intro">Was blieb, ist ein Werk, das Millionen Menschen begleitet hat, die sich selbst als Außenseiter empfanden &ndash; und das zeigt, dass aus dem radikalen Rückzug der Eule nicht nur Isolation, sondern auch eine Sprache für das entstehen kann, was Gemeinschaft allein nicht auszudrücken vermag: der Weg des Einzelnen zu sich selbst.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
-        {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
-        {route:"beruehmte-spinoza", label:"Porträt: Baruch de Spinoza (SE5w6)"},
-        {route:"beruhmte-philosophen", label:"Schaubild: Berühmte Philosophen im Enneagramm"},
-        {route:"krankheitsportraets-hermann-hesse", label:"Krankheitsporträt: Hermann Hesse (SE5w6) – Migräne und Depression"},
       ])}
     </div>
   `);

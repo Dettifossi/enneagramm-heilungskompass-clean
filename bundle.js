@@ -24655,6 +24655,7 @@ const registerEntries = [
   { term: "Sundar Pichai",                 route: "beruehmte-sundar-pichai",               description: "Portrait: SE6w5 · Selbsterhaltender Typ 6 · Google-CEO, stille Führungsstärke" },
   { term: "Michael Jackson",               route: "beruehmte-michael-jackson",             description: "Portrait: SO4w3 · Sozialer Typ 4 · Sänger, Tänzer, King of Pop, Gürteltier" },
   { term: "Hans Christian Andersen",       route: "beruehmte-hans-christian-andersen",     description: "Portrait: SO4w3 · Sozialer Typ 4 · Schriftsteller, Märchendichter" },
+  { term: "Reinhold Würth",                route: "beruehmte-reinhold-wuerth",             description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Unternehmer, Würth-Gruppe" },
   { term: "Cat Stevens",                   route: "beruehmte-cat-stevens",                 description: "Portrait: SO4w3 · Sozialer Typ 4 · Musiker, auch bekannt als Yusuf Islam" },
   { term: "Taddl",                         route: "beruehmte-taddl",                       description: "Portrait: SO4w3 · Sozialer Typ 4 · YouTuber, Gen-Z-Identität" },
   { term: "Taylor Swift",                  route: "beruehmte-taylor-swift",                description: "Portrait: SX5w4 · Sexueller Typ 5 · Popstar, Songwriterin, Transformation" },
@@ -32987,6 +32988,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fritz Wepper – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · 1941–2024. Deutscher Schauspieler, 24 Jahre als Harry Klein an der Seite von Horst Tappert in ›Derrick‹, danach fast 20 Jahre als Bürgermeister Wöller in ›Um Himmels Willen‹. Über 45 Jahre verlässliche, unaufgeregte Präsenz im deutschen Fernsehen, ohne je die Hauptrolle zu beanspruchen. Tierentsprechung: Adler.",
     land:"Deutschland", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
+    heading:"Reinhold Würth – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1935. Unternehmer, übernahm 1954 mit 19 Jahren den kleinen Schraubenhandel seines verstorbenen Vaters und baute daraus die Würth-Gruppe, einen der größten Handelskonzerne Europas. Mäzen einer der größten privaten Kunstsammlungen Europas. Tierentsprechung: Weißkopfseeadler.",
+    land:"Deutschland", tags:["Business"], gender:"m"},
   { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · 1923–2008. Deutscher Schauspieler, 24 Jahre und 281 Folgen lang Oberinspektor Derrick, der meistverkauften deutschen Fernsehserie aller Zeiten. Über zwei Jahrzehnte enge Zusammenarbeit mit Fritz Wepper. Verschwieg zeitlebens seine Mitgliedschaft in der Waffen-SS, die erst 2013 posthum bekannt wurde. Tierentsprechung: Waschbär.",
@@ -47670,6 +47675,73 @@ function fritzWepperPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2) – Derrick-Partner"},
+        {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Porträt: Reinhold Würth (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function reinholdWuerthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-reinhold-wuerth-portrait.jpg" alt="Reinhold Würth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhold Würth</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, geb. 1935 – Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der aus einem kleinen Nest ein Imperium baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins: Er baut sein Nest über Jahrzehnte hinweg immer weiter aus, Stück für Stück, bis es Tonnen wiegen kann – kein spontaner Wurf, sondern beharrliche, geduldige Vermehrung dessen, was schon trägt. Er handelt selten aus dem Impuls heraus, sein Territorium verteidigt er mit äußerster Sorgfalt, und sein Blick ist auf Ordnung und Kontrolle gerichtet, nicht auf Show.</p>
+          <p class="vb-intro">Reinhold Würth, geboren 1935 in Öhringen, übernahm 1954 mit neunzehn Jahren nach dem plötzlichen Tod seines Vaters dessen kleinen Schraubengroßhandel mit zwei Angestellten. Aus diesem winzigen Nest baute er über sieben Jahrzehnte hinweg einen der größten Handelskonzerne Europas: die Würth-Gruppe, heute mit weit über 400 Gesellschaften in mehr als 80 Ländern und mehr als 85.000 Beschäftigten. Kein einzelner spektakulärer Coup, sondern jahrzehntelange, systematische Ausdehnung, ein Land nach dem anderen, ein Vertriebsweg nach dem anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Ordnung als Existenzgrundlage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Eins richtet ihren Perfektionsanspruch nicht primär auf die große Bühne, sondern auf das eigene, ganz konkrete Fundament: die eigene Existenz, das eigene Unternehmen, die eigene Familie sollen in bester Ordnung sein. Der Blick ist dabei, wie es das Buch beschreibt, prüfend und zielgerichtet – ein Scannen der unmittelbaren Umgebung darauf, ob alles sicher und stabil ist.</p>
+          <p class="vb-intro">Genau dieses Prinzip prägt Würths gesamte Unternehmensgeschichte. Sein Kerngeschäft – Schrauben, Dübel, Montagetechnik – ist buchstäblich die Branche der Präzision und der kleinen, aber unverzichtbaren Teile, ohne die nichts zusammenhält. Würth gilt als Verfechter der klassischen „schwäbischen Tugenden": Fleiß, Sparsamkeit, Zuverlässigkeit, Understatement. Er lebt vergleichsweise zurückgezogen für einen Milliardär, meidet die große mediale Selbstinszenierung und legt größten Wert auf die langfristige, generationenübergreifende Stabilität seines Familienunternehmens – 1987 übertrug er die Anteile bereits vollständig in eine Familienstiftung, um genau diese Stabilität über seinen eigenen Tod hinaus abzusichern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne lautes Aufbegehren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Neunerflügel dämpft bei der Eins die konfrontative Schärfe, die eine Eins mit Zweierflügel eher zeigt, und ersetzt sie durch eine ruhigere, ausgleichende, geduldig-beharrliche Grundhaltung. Statt lautstark zu korrigieren oder zu missionieren, wirkt die SE1w9 eher wie ein stiller Beobachter, der auf Details achtet und Ordnung eher durch beständiges Vorbild als durch Konfrontation herstellt.</p>
+          <p class="vb-intro">Würths öffentliches Auftreten passt genau in dieses Bild: kein lautstarker, polarisierender Wirtschaftsführer, sondern ein bedächtiger, in Interviews auffallend ruhiger Patriarch, dessen Autorität aus jahrzehntelanger Konsequenz erwächst, nicht aus Inszenierung. Sein bekanntes Lächeln in Fotos wirkt entspannt und zugewandt, nicht auftrumpfend – eine Warmherzigkeit, die, wie die eigene Bewertung dieses Falls im Fallprotokoll zeigt, leicht mit einem Zweierflügel verwechselt werden kann, tatsächlich aber die ruhigere, versöhnlichere Note des Neunerflügels trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Mäzen als zweites Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben dem Unternehmen baute Würth über Jahrzehnte eine der größten privaten Kunstsammlungen Europas auf – mit heute über 18.500 Werken – und errichtete mehrere eigene Museen, um diese Sammlung öffentlich zugänglich zu machen, allen voran die Kunsthalle Würth in Schwäbisch Hall. Auch das ist ein Ausdruck der SE1w9-Grundhaltung: nicht die eigene Person soll glänzen, sondern das, was aufgebaut wurde, soll Bestand haben und anderen zugutekommen – Ordnung und Fürsorge, in ein bleibendes Werk übersetzt statt in flüchtige Selbstdarstellung.</p>
+          <p class="vb-intro">Auch sein Engagement für berufliche Bildung – die Würth-Gruppe bildet seit Jahrzehnten in großem Umfang selbst aus – folgt demselben Muster: Struktur schaffen, die über die eigene Lebenszeit hinausreicht, statt kurzfristigen Gewinn zu maximieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Würth eine seltene Kombination aus unternehmerischer Konsequenz und stiller Genügsamkeit – ein Milliardär, der sein Vermögen überwiegend in Substanz investierte, nicht in Repräsentation, und der frühzeitig eine Nachfolgeregelung traf, die sein Lebenswerk vor Zerfall nach seinem Tod schützen soll.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite, die für die selbsterhaltende Eins typisch ist: ein hoher, oft unausgesprochener Erwartungsdruck an die eigene Umgebung und das eigene Unternehmen, verbunden mit einer Neigung, Kontrolle nicht abzugeben, selbst wenn formale Übergaben – wie die frühe Einbringung in die Familienstiftung – bereits erfolgt sind. Der Neunerflügel kann dabei auch bedeuten, notwendige Konflikte zu lange zu vermeiden, aus Sorge, die mühsam aufgebaute Ordnung zu gefährden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Kontrollieren zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Frage <em>Ist alles wirklich in Ordnung, oder muss ich noch mehr sichern?</em> zur Erkenntnis <em>Was solide aufgebaut ist, trägt auch dann, wenn ich nicht jedes Detail selbst kontrolliere.</em> Für die SE1w9 bedeutet das, die eigene Beharrlichkeit nicht als endlose Absicherung zu verstehen, sondern als das, was sie bereits ist: ein tragfähiges Fundament, dem man auch ohne permanente Kontrolle vertrauen darf.</p>
+          <p class="vb-intro">Würths eigener Schritt in diese Richtung war die frühzeitige Übertragung seines Unternehmens in eine Familienstiftung – eine Geste, die genau diesem Prinzip folgt: Struktur so solide zu bauen, dass sie über die eigene Kontrolle hinaus Bestand hat. Der Adler, der sein Nest so sorgfältig gebaut hat, dass es auch dann noch trägt, wenn er selbst nicht mehr über ihm kreist.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9)"},
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
       ])}
@@ -139198,6 +139270,7 @@ function render() {
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-fritz-wepper": fritzWepperPortraitPage,
+      "beruehmte-reinhold-wuerth": reinholdWuerthPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
