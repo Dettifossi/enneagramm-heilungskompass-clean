@@ -47325,7 +47325,7 @@ function enneagrammRadPage() {
     const leftPct = (x / 400 * 100).toFixed(2);
     const topPct = (y / 400 * 100).toFixed(2);
     return `
-      <button class="rad-point" data-typ="${n}" data-route="type/${n}"
+      <button class="rad-point" data-typ="${n}" data-route="type/${n}" ontouchstart=""
         onmouseenter="radFocus(${n})" onmouseleave="radBlur()" onfocus="radFocus(${n})" onblur="radBlur()"
         style="position:absolute;left:${leftPct}%;top:${topPct}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);transition:opacity .15s;"
         title="Type ${n} &ndash; ${TYPNAMEN[n]}"
