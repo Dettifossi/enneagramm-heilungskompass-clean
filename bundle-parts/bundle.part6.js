@@ -2321,32 +2321,35 @@ function lebensmusterkompassDetailPage(codeRaw) {
 }
 
 function musterradarPage() {
+  const MUSTERRADAR_INSTINCT_COLORS = { SE: "#2f8a4e", SO: "#1f6fd4", SX: "#c21a4d" };
   const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
     const count = musterradarMatches("wing", parseInt(w, 10)).length;
+    const col = typeColor(w);
     return `
       <button
         data-route="musterradar/w${w}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
+        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:linear-gradient(160deg, ${col}22, ${col}0d);border:2px solid ${col};border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
         title="${MUSTERRADAR_WING_THEMES[w].name}"
       >
-        <span style="font-size:1.3rem;font-weight:700;color:var(--copper);">w${w}</span>
+        <span style="font-size:1.3rem;font-weight:700;color:${col};">w${w}</span>
         <span style="font-size:.72rem;color:var(--muted);text-align:center;line-height:1.2;">${MUSTERRADAR_WING_THEMES[w].name}</span>
-        <span style="font-size:.68rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+        <span style="font-size:.68rem;color:${col};font-weight:600;">${count} Porträts</span>
       </button>
     `;
   }).join("");
 
   const instinctTiles = Object.keys(MUSTERRADAR_INSTINCT_THEMES).map(inst => {
     const count = musterradarMatches("instinct", inst).length;
+    const col = MUSTERRADAR_INSTINCT_COLORS[inst];
     return `
       <button
         data-route="musterradar/${inst.toLowerCase()}"
-        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:linear-gradient(160deg, ${col}22, ${col}0d);border:2px solid ${col};border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
         title="${MUSTERRADAR_INSTINCT_THEMES[inst].name}"
       >
-        <span style="font-size:1.5rem;font-weight:700;color:var(--copper);">${inst}</span>
+        <span style="font-size:1.5rem;font-weight:700;color:${col};">${inst}</span>
         <span style="font-size:.78rem;color:var(--muted);text-align:center;line-height:1.25;">${MUSTERRADAR_INSTINCT_THEMES[inst].name}</span>
-        <span style="font-size:.7rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+        <span style="font-size:.7rem;color:${col};font-weight:600;">${count} Porträts</span>
       </button>
     `;
   }).join("");
@@ -2357,6 +2360,7 @@ function musterradarPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Musterradar</p>
         <h1 class="section-title">Musterradar</h1>
+        <img src="assets/musterradar-hero.jpg?v=1" alt="Musterradar – Fl\xfcgel und Instinktvarianten im Querschnitt" style="width:100%;height:auto;border-radius:12px;margin:0.8rem 0 1.4rem;display:block;" loading="lazy" />
         <p class="psycho-intro">Der <a href="javascript:void(0)" data-route="lebensmusterkompass">Lebensmusterkompass</a> filtert innerhalb eines einzelnen Subtyps über alle Porträt-Rubriken hinweg. Das Musterradar dreht die Perspektive um: Es filtert <strong>quer über alle 27 Subtypen hinweg</strong> – nach Flügel oder nach Instinktvariante – und zeigt, wie sich derselbe Flügel oder derselbe Instinkt bei ganz unterschiedlichen Grundtypen wiederholt zeigt.</p>
 
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
@@ -7486,64 +7490,6 @@ function moritzBleibtreuPortraitPage() {
         {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function hansZimmerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hans-zimmer-portrait.jpg" alt="Hans Zimmer – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hans Zimmer</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Filmkomponist, Arrangeur &amp; Musikproduzent, geb. 1957 &ndash; Tierentsprechung: Gorilla</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und kein Bild beschreibt Hans Zimmer besser. Der Gorilla ist kein Solist. Er lebt im Verband, sch\u00fctzt seine Familie, teilt Nahrung, lehrt die J\u00fcngeren. Seine St\u00e4rke dient nicht der Selbstdarstellung, sondern der Gemeinschaft. Und wenn er sich bewegt &ndash; durch den Wald, durch den Raum &ndash; sp\u00fcrt man seine Schwerkraft, ohne dass er droht.</p>
-          <p class="vb-intro">Der deutsche Komponist Hans Zimmer hat in Santa Monica ein Studio aufgebaut, das man Remote Control Productions nennt &ndash; und das von innen eher einer Musikerfamilie \u00e4hnelt als einer Produktionsfirma. Zimmer hat dort Dutzende Komponisten ausgebildet, gef\u00f6rdert, begleitet: Junkie XL, Lorne Balfe, Harry Gregson-Williams, Rupert Gregson-Williams, Ramin Djawadi und viele andere. Der Gorilla baut kein Territorium. Er baut ein Rudel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Sch\u00f6pfung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> findet ihre Freude nicht im Spektakel, sondern in der W\u00e4rme des Schaffens selbst &ndash; im Prozess, in der Zusammenarbeit, im Akt des Erschaffens. Naranjo nannte diesen Subtyp <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest, einen Raum, in dem Kreativit\u00e4t und Geborgenheit zusammenkommen.</p>
-          <p class="vb-intro">Zimmer brach mit sechzehn die Schule ab. Er hatte nie eine formale Musikausbildung &ndash; und lie\u00df sich davon nie aufhalten. Statt Noten zu studieren, experimentierte er: mit Synthesizern, mit Orchesterkl\u00e4ngen, mit allem, was Klang erzeugt. Seine Freude am Entdecken ist bis in die Gegenwart sp\u00fcrbar. Kein Score klingt wie der vorherige. Jeder Film ist ein neues Abenteuer.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft, die tr\u00e4gt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das nicht jeder Sieben zur Verf\u00fcgung steht: Durchsetzungskraft. Bei schwach ausgepr\u00e4gtem Achterfl\u00fcgel kann sich die Sieben in M\u00f6glichkeiten verlieren, kann ausweichen, kann umlenken, wenn etwas schwer wird. Der Achterfl\u00fcgel h\u00e4lt dagegen &ndash; er bringt Entschlossenheit, Direktheit, die Bereitschaft, Konflikte auszuhalten.</p>
-          <p class="vb-intro">Zimmers Musik ist nicht zart. Sie ist wuchtig, archaisch, k\u00f6rperlich &ndash; Klang, der man sp\u00fcrt, bevor man ihn versteht. Das Blechbl\u00e4sergewitter in <em>Gladiator</em>, das Herzklopfen von <em>Inception</em>, die Wellen in <em>Dunkirk</em>. Das ist der Achterfl\u00fcgel: Freude, die keine Angst hat vor Lautst\u00e4rke, vor Gewicht, vor dem Moment, in dem Musik jemanden \u00fcberw\u00e4ltigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: V\u00f6llerei als Sch\u00f6pfungsdrang</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, nach dem n\u00e4chsten Projekt, nach dem Gef\u00fchl, etwas Neues zu erschaffen. In der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf Exzess, sondern auf F\u00fclle: mehr Klang, mehr Tiefe, mehr Verbindung zwischen Musik und Bild.</p>
-          <p class="vb-intro">Zimmer hat Musik f\u00fcr \u00fcber 150 Filme geschrieben. Er schl\u00e4ft wenig. Er arbeitet in Phasen, die Mitarbeiter als intensiv beschreiben &ndash; und die er selbst als seine nat\u00fcrliche Betriebstemperatur bezeichnet. Es ist nicht Getriebensein. Es ist der Gorilla in seinem Element: Sch\u00f6pfen als Lebensform, Klang als Sprache, die nie zu Ende gesagt ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Emotionen, die die Welt ber\u00fchren</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Hans Zimmer dem Kino gegeben hat &ndash; und durch das Kino der Welt &ndash; ist die Erfahrung, dass Musik ein Raum sein kann. Nicht Hintergrundtapete, nicht emotionale Markierung, sondern ein eigenst\u00e4ndiges Erleben: Man sitzt im Kino, h\u00f6rt den Score, und versteht pl\u00f6tzlich etwas \u00fcber die Szene, \u00fcber die Figur, \u00fcber sich selbst.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w8: Freude, die nicht bei sich bleibt. Ein Gorilla, der nicht nur sein Rudel sch\u00fctzt, sondern es wachsen l\u00e4sst &ndash; und dessen Stimme, einmal geh\u00f6rt, nicht mehr aus dem Kopf geht. Hans Zimmer hat keine Noten studiert. Er hat gelernt, wie Klang Menschen ber\u00fchrt. Das ist die selbsterhaltende Sieben mit Achterfl\u00fcgel. Das ist der Gorilla, der singt.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
       ])}
     </div>
   `);
