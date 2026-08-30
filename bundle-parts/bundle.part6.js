@@ -2333,6 +2333,28 @@ function radKeywords(n) {
   const firstSeg = (g.thema.split(" · ")[0] || "").split(" & ");
   return [...firstSeg, g.leidenschaft].filter(Boolean);
 }
+const RAD_STRESS_DESC = {
+  1: "wird stimmungsvoller, launischer, zieht sich zurück",
+  2: "wird fordernd, kontrollierend, reagiert schroff",
+  3: "zieht sich zurück, wirkt gleichgültig, verliert Antrieb",
+  4: "wird anhänglich, klammert, sucht Bestätigung",
+  5: "wird sprunghaft, überreizt, flüchtet in Aktionismus",
+  6: "wird konkurrenzbetont, geltungssüchtig, überspielt die Angst",
+  7: "wird starr, kritisch, moralisierend",
+  8: "zieht sich zurück, wird misstrauisch, verschließt sich",
+  9: "wird ängstlich, wachsam, reagiert impulsiv",
+};
+const RAD_GROWTH_DESC = {
+  1: "wird gelassener, spontaner, kann loslassen",
+  2: "wird echter, spürt eigene Bedürfnisse",
+  3: "wird loyaler, kooperativer, verbindlicher",
+  4: "wird diszipliniert, klar, bodenständig",
+  5: "wird entschlossener, selbstbewusster, handlungsfähig",
+  6: "wird ruhiger, vertrauensvoller, entspannt",
+  7: "wird fokussierter, vertieft sich",
+  8: "wird fürsorglich, verletzlich, öffnet sich",
+  9: "wird selbstmotiviert, aktiv, zielgerichtet",
+};
 function radInfoHtml(n) {
   if (!n) {
     return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Fahre mit der Maus über einen Punkt, um seine Stress- und Wachstumsrichtung sowie seine Flügel zu sehen &ndash; oder tippe direkt auf einen Punkt, um zum Typ zu gelangen.</p>`;
@@ -2348,11 +2370,11 @@ function radInfoHtml(n) {
     </div>
     <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
     <div style="display:grid;gap:0.5rem;font-size:0.82rem;">
-      <div><span style="font-weight:700;color:#a00802;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">${kwLine(stressTo)}</span></div>
-      <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">${kwLine(growthTo)}</span></div>
+      <div><span style="font-weight:700;color:#a00802;">Stress-Richtung:</span> Typ ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">Unter Druck: ${RAD_STRESS_DESC[n]}</span></div>
+      <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">In Reife: ${RAD_GROWTH_DESC[n]}</span></div>
       <div><span style="font-weight:700;color:var(--copper);">Flügel:</span> Typ ${wings[0]} (${kwLine(wings[0])}) &amp; Typ ${wings[1]} (${kwLine(wings[1])})</div>
     </div>
-    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Zum Typ ${n} im Kompass &rarr;</button>
+    <p style="margin:0.9rem 0 0;font-size:0.78rem;color:var(--muted);font-style:italic;">Tippe auf den Punkt ${n}, um zum vollständigen Typ-Profil zu gelangen.</p>
   `;
 }
 function radFocus(n) {

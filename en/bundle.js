@@ -47271,6 +47271,28 @@ function radKeywords(n) {
   const firstSeg = (g.thema.split(" · ")[0] || "").split(" & ");
   return [...firstSeg, g.leidenschaft].filter(Boolean);
 }
+const RAD_STRESS_DESC = {
+  1: "becomes moodier, more irritable, withdraws",
+  2: "becomes demanding, controlling, reacts sharply",
+  3: "withdraws, seems indifferent, loses drive",
+  4: "becomes clingy, seeks reassurance",
+  5: "becomes scattered, overstimulated, flees into busyness",
+  6: "becomes competitive, image-conscious, masks the fear",
+  7: "becomes rigid, critical, moralizing",
+  8: "withdraws, becomes suspicious, closes off",
+  9: "becomes anxious, hypervigilant, reacts impulsively",
+};
+const RAD_GROWTH_DESC = {
+  1: "becomes more relaxed, spontaneous, able to let go",
+  2: "becomes more authentic, in touch with own needs",
+  3: "becomes more loyal, cooperative, committed",
+  4: "becomes more disciplined, clear, grounded",
+  5: "becomes more decisive, confident, capable of action",
+  6: "becomes calmer, more trusting, at ease",
+  7: "becomes more focused, goes deeper",
+  8: "becomes more caring, vulnerable, opens up",
+  9: "becomes self-motivated, active, goal-directed",
+};
 function radInfoHtml(n) {
   if (!n) {
     return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Hover over a point to see its stress and growth direction and its wings &ndash; or tap a point directly to go to that type.</p>`;
@@ -47286,11 +47308,11 @@ function radInfoHtml(n) {
     </div>
     <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
     <div style="display:grid;gap:0.5rem;font-size:0.82rem;">
-      <div><span style="font-weight:700;color:#a00802;">Stress direction:</span> Type ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">${kwLine(stressTo)}</span></div>
-      <div><span style="font-weight:700;color:#1fa688;">Growth direction:</span> Type ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">${kwLine(growthTo)}</span></div>
+      <div><span style="font-weight:700;color:#a00802;">Stress direction:</span> Type ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">Under pressure: ${RAD_STRESS_DESC[n]}</span></div>
+      <div><span style="font-weight:700;color:#1fa688;">Growth direction:</span> Type ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">In maturity: ${RAD_GROWTH_DESC[n]}</span></div>
       <div><span style="font-weight:700;color:var(--copper);">Wings:</span> Type ${wings[0]} (${kwLine(wings[0])}) &amp; Type ${wings[1]} (${kwLine(wings[1])})</div>
     </div>
-    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Go to Type ${n} in the compass &rarr;</button>
+    <p style="margin:0.9rem 0 0;font-size:0.78rem;color:var(--muted);font-style:italic;">Tap the point "${n}" to go to the full type profile.</p>
   `;
 }
 function radFocus(n) {
