@@ -45489,7 +45489,7 @@ const RAD_GROWTH_DESC = {
 };
 function radInfoHtml(n) {
   if (!n) {
-    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Fahre mit der Maus über einen Punkt, um seine Stress- und Wachstumsrichtung sowie seine Flügel zu sehen &ndash; oder tippe direkt auf einen Punkt, um zum Typ zu gelangen.</p>`;
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Fahre mit der Maus über einen Punkt (oder tippe darauf), um seine Stress- und Wachstumsrichtung sowie seine Flügel zu sehen. Von dort aus geht es per Klick weiter zum vollständigen Typ-Profil.</p>`;
   }
   const col = typeColor(n);
   const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
@@ -45506,7 +45506,7 @@ function radInfoHtml(n) {
       <div><span style="font-weight:700;color:#1fa688;">Wachstums-Richtung:</span> Typ ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">In Reife: ${RAD_GROWTH_DESC[n]}</span></div>
       <div><span style="font-weight:700;color:var(--copper);">Flügel:</span> Typ ${wings[0]} (${kwLine(wings[0])}) &amp; Typ ${wings[1]} (${kwLine(wings[1])})</div>
     </div>
-    <p style="margin:0.9rem 0 0;font-size:0.78rem;color:var(--muted);font-style:italic;">Tippe auf den Punkt ${n}, um zum vollständigen Typ-Profil zu gelangen.</p>
+    <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Zum Typ ${n} im Kompass &rarr;</button>
   `;
 }
 function radFocus(n) {
@@ -45548,8 +45548,8 @@ function enneagrammRadPage() {
     const leftPct = (x / 400 * 100).toFixed(2);
     const topPct = (y / 400 * 100).toFixed(2);
     return `
-      <button class="rad-point" data-typ="${n}" data-route="type/${n}" ontouchstart=""
-        onmouseenter="radFocus(${n})" onmouseleave="radBlur()" onfocus="radFocus(${n})" onblur="radBlur()"
+      <button class="rad-point" data-typ="${n}"
+        onclick="radFocus(${n})" onmouseenter="radFocus(${n})" onfocus="radFocus(${n})"
         style="position:absolute;left:${leftPct}%;top:${topPct}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);transition:opacity .15s;"
         title="Typ ${n} &ndash; ${TYPNAMEN[n]}"
       >${n}</button>
@@ -45562,7 +45562,7 @@ function enneagrammRadPage() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; Enneagramm-Rad</p>
         <h1 class="section-title">Enneagramm-Rad</h1>
-        <p class="psycho-intro">Das klassische Enneagramm-Symbol als interaktive Karte: Der Sechsstern (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) und das Dreieck (3&ndash;9&ndash;6) zeigen, wie die 9 Typen über Stress- und Wachstumslinien miteinander verbunden sind &ndash; und die Kreisbahn selbst zeigt die Flügel-Nachbarschaften. Fahre über einen Punkt, um seine Verbindungen zu sehen, oder tippe direkt darauf, um zum Typ zu gelangen.</p>
+        <p class="psycho-intro">Das klassische Enneagramm-Symbol als interaktive Karte: Der Sechsstern (1&ndash;4&ndash;2&ndash;8&ndash;5&ndash;7) und das Dreieck (3&ndash;9&ndash;6) zeigen, wie die 9 Typen über Stress- und Wachstumslinien miteinander verbunden sind &ndash; und die Kreisbahn selbst zeigt die Flügel-Nachbarschaften. Fahre über einen Punkt (oder tippe darauf), um seine Verbindungen zu sehen.</p>
 
         <div style="display:grid;grid-template-columns:minmax(260px, 1fr) minmax(220px, 320px);gap:1.5rem;align-items:start;margin:1.5rem 0 2rem;" class="rad-layout">
           <div style="position:relative;width:100%;aspect-ratio:1;">
