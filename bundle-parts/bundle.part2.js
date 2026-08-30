@@ -5159,6 +5159,7 @@ const uiText = {
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
+      { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },

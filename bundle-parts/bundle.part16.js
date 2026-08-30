@@ -4725,6 +4725,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "musterradar": musterradarPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
@@ -5600,6 +5601,8 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "musterradar" && param) {
+      app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {
       app.innerHTML = psychosomatikDetailPage(param);
     } else if (base === "psychosomatik-subtyp" && param) {

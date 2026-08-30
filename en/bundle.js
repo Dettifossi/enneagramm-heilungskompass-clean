@@ -2910,6 +2910,7 @@ text.nav = [
     { route: "enneagramm-bibel", label: "Enneagram in the Mirror of the New Testament" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
+    { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -46377,6 +46378,69 @@ function tierAvatarTop(code) {
   return (typeof v === "number" ? v : -20) + "%";
 }
 
+// ---------------------------------------------------------------------------
+// Pattern Radar: cross-cuts the Life Pattern Compass (which filters WITHIN one
+// subtype across all portrait categories). The Pattern Radar filters ACROSS
+// all 27 subtypes at once – by wing (w1–w9) or by instinctual variant
+// (SE/SO/SX). Built purely from the subtyp fields already maintained on the
+// four portrait registers (BERUEHMT_, KRIMINAL_, KRANKHEITS_, ASTROLOGIE_
+// PORTRAITS) – no manual upkeep needed, updates itself with every new portrait.
+function musterradarParseSubtyp(subtyp) {
+  const m = (subtyp || "").toUpperCase().match(/^(SE|SO|SX)([1-9])W?([1-9])?$/);
+  if (!m) return null;
+  return { instinct: m[1], typ: parseInt(m[2], 10), wing: m[3] ? parseInt(m[3], 10) : null };
+}
+
+function musterradarAllPortraits() {
+  // ASTROLOGIE_PORTRAITS existiert (Stand jetzt) nur im DE-Bundle, nicht im EN-Bundle –
+  // defensiv geprüft, damit das Musterradar unabhängig davon funktioniert.
+  const astro = typeof ASTROLOGIE_PORTRAITS !== "undefined" ? ASTROLOGIE_PORTRAITS : [];
+  return [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS, ...KRANKHEITS_PORTRAITS, ...astro];
+}
+
+function musterradarSortKey(subtyp) {
+  const p = musterradarParseSubtyp(subtyp);
+  if (!p) return [99, 9, 9];
+  const instOrder = { SE: 0, SO: 1, SX: 2 };
+  return [p.typ, instOrder[p.instinct] ?? 9, p.wing ?? 9];
+}
+
+// filterType: "wing" (filterValue = 1–9) or "instinct" (filterValue = "SE"|"SO"|"SX")
+function musterradarMatches(filterType, filterValue) {
+  const all = musterradarAllPortraits();
+  const matches = all.filter(p => {
+    const parsed = musterradarParseSubtyp(p.subtyp);
+    if (!parsed) return false;
+    if (filterType === "wing") return parsed.wing === filterValue;
+    if (filterType === "instinct") return parsed.instinct === filterValue;
+    return false;
+  });
+  return matches
+    .map(p => ({ name: p.name, route: p.route, subtyp: (p.subtyp || "").toUpperCase() }))
+    .sort((a, b) => {
+      const ka = musterradarSortKey(a.subtyp), kb = musterradarSortKey(b.subtyp);
+      return ka[0] - kb[0] || ka[1] - kb[1] || ka[2] - kb[2];
+    });
+}
+
+const MUSTERRADAR_WING_THEMES = {
+  1: { name: "One-wing", desc: "Brings structure, seriousness, and a standard of correctness – precision and moral clarity as an added note to the base type." },
+  2: { name: "Two-wing", desc: "Brings warmth, relational focus, and the wish to be needed – the base type opens up further toward other people." },
+  3: { name: "Three-wing", desc: "Brings drive, goal-orientation, and a sense for visible, measurable success – the base type gains extra pace and ambition." },
+  4: { name: "Four-wing", desc: "Brings depth, individuality, and the search for what is authentic – the base type becomes more introspective and sensitive." },
+  5: { name: "Five-wing", desc: "Brings analytical distance, withdrawal, and a need to understand before acting – the base type gains a more thoughtful, observing note." },
+  6: { name: "Six-wing", desc: "Brings loyalty, vigilance, and a sense for risk and alliance – the base type becomes more cautious and community-oriented." },
+  7: { name: "Seven-wing", desc: "Brings lightness, curiosity, and optimism – the base type gains a playful note, always scanning for possibilities." },
+  8: { name: "Eight-wing", desc: "Brings assertiveness, directness, and an awareness of power – the base type becomes more robust and confrontation-ready." },
+  9: { name: "Nine-wing", desc: "Brings calm, a gift for mediation, and a need for harmony – the base type gains a more balancing, relaxed note." },
+};
+
+const MUSTERRADAR_INSTINCT_THEMES = {
+  SE: { name: "Self-Preservation (SP)", desc: "Energy is directed toward one's own material and physical security – resources, health, a reliable home. Often the most reserved, least publicly visible instinctual variant of a type." },
+  SO: { name: "Social (SO)", desc: "Energy is directed toward belonging, status, and impact within a group or community – how one is seen, what role one plays, where one belongs." },
+  SX: { name: "Sexual / One-to-One (SX)", desc: "Energy is directed toward intensity and merging in the single closest bond – usually the most intense, most all-or-nothing instinctual variant of a type." },
+};
+
 const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Buffalo",
@@ -46796,7 +46860,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Charlotte Wells, who did not process the early loss of her father publicly for nearly two decades and to this day has not confirmed how much of her acclaimed film "Aftersun" is actually autobiographical; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Charlotte Wells, who did not process the early loss of her father publicly for nearly two decades and to this day has not confirmed how much of her acclaimed film 'Aftersun' is actually autobiographical; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -46860,7 +46924,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline; Serdar Somuncu, who completed over ten years of classical music and acting training and directed more than a hundred stage plays before his actual public breakthrough with the "Mein Kampf" readings – years of invisible groundwork as the foundation for a body of work sustained across decades."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline; Serdar Somuncu, who completed over ten years of classical music and acting training and directed more than a hundred stage plays before his actual public breakthrough with the 'Mein Kampf' readings – years of invisible groundwork as the foundation for a body of work sustained across decades."
       },
       {
         titel: "Trading achieved visibility for substance, on purpose",
@@ -46909,7 +46973,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song "Dernière Danse" became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries; Jenna Ortega, who in 2025 went public with her own obsessive-compulsive disorder, describing concrete rituals and exhausting nightly compulsions – a deliberately used vulnerability that sparked a wide public conversation about mental health, extending its impact far beyond her own person."
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song 'Dernière Danse' became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries; Jenna Ortega, who in 2025 went public with her own obsessive-compulsive disorder, describing concrete rituals and exhausting nightly compulsions – a deliberately used vulnerability that sparked a wide public conversation about mental health, extending its impact far beyond her own person."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
@@ -47032,7 +47096,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with "America" in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in "Derrick," nearly 20 more years as Mayor Wöller in "Um Himmels Willen" – not constant reinvention, but steady reliability across an entire professional life."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -47181,11 +47245,151 @@ function lebensmusterkompassPage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
+          {route:"musterradar", label:"Pattern Radar (wings & instincts across all types)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"kriminalpsychologie", label:"Criminal psychology"},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
           {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence"},
           {route:"knowledge", label:"Knowledge base"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarPage() {
+  const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
+    const count = musterradarMatches("wing", parseInt(w, 10)).length;
+    return `
+      <button
+        data-route="musterradar/w${w}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
+        title="${MUSTERRADAR_WING_THEMES[w].name}"
+      >
+        <span style="font-size:1.3rem;font-weight:700;color:var(--copper);">w${w}</span>
+        <span style="font-size:.72rem;color:var(--muted);text-align:center;line-height:1.2;">${MUSTERRADAR_WING_THEMES[w].name}</span>
+        <span style="font-size:.68rem;color:var(--copper);font-weight:600;">${count} portraits</span>
+      </button>
+    `;
+  }).join("");
+
+  const instinctTiles = Object.keys(MUSTERRADAR_INSTINCT_THEMES).map(inst => {
+    const count = musterradarMatches("instinct", inst).length;
+    return `
+      <button
+        data-route="musterradar/${inst.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
+        title="${MUSTERRADAR_INSTINCT_THEMES[inst].name}"
+      >
+        <span style="font-size:1.5rem;font-weight:700;color:var(--copper);">${inst === "SE" ? "SP" : inst}</span>
+        <span style="font-size:.78rem;color:var(--muted);text-align:center;line-height:1.25;">${MUSTERRADAR_INSTINCT_THEMES[inst].name}</span>
+        <span style="font-size:.7rem;color:var(--copper);font-weight:600;">${count} portraits</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Pattern Radar</p>
+        <h1 class="section-title">Pattern Radar</h1>
+        <p class="psycho-intro">The <a href="javascript:void(0)" data-route="lebensmusterkompass">Life Pattern Compass</a> filters within a single subtype across all portrait categories. The Pattern Radar flips the perspective: it filters <strong>across all 27 subtypes at once</strong> – by wing or by instinctual variant – showing how the same wing or instinct repeats itself across very different base types.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">A Nine-wing looks very different on a One than on an Eight – and yet a shared, wing-specific undertone becomes visible once you place all Nine-wing portraits in this compass side by side, regardless of base type. Likewise: what connects all SX portraits, whether Type 2, Type 6, or Type 8? This section makes exactly these cross-sections visible.</p>
+          <p class="vb-intro"><strong>Important note on method:</strong> Unlike the Life Pattern Compass, the Pattern Radar contains no editorially written pattern texts – it is a purely automatically compiled overview, generated directly from the subtyp fields of every portrait in this compass. It updates itself with every new portrait, with no manual upkeep.</p>
+        </blockquote>
+
+        <h2 class="vb-section" style="margin-top:0;">By Wing</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:0.7rem;margin:1rem 0 2rem;">
+          ${wingTiles}
+        </div>
+
+        <h2 class="vb-section">By Instinctual Variant</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem;">
+          ${instinctTiles}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+          {route:"knowledge", label:"Knowledge base"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarDetailPage(keyRaw) {
+  const key = (keyRaw || "").toLowerCase();
+  const wingMatch = key.match(/^w([1-9])$/);
+  const isInstinct = ["se", "so", "sx"].includes(key);
+
+  if (!wingMatch && !isInstinct) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Not found</h1>
+          <p class="psycho-intro">This Pattern Radar filter does not exist.</p>
+          ${relatedLinks([{route:"musterradar", label:"Back to Pattern Radar"}])}
+        </div>
+      </div>
+    `);
+  }
+
+  const filterType = wingMatch ? "wing" : "instinct";
+  const filterValue = wingMatch ? parseInt(wingMatch[1], 10) : key.toUpperCase();
+  const theme = wingMatch ? MUSTERRADAR_WING_THEMES[filterValue] : MUSTERRADAR_INSTINCT_THEMES[filterValue];
+  const matches = musterradarMatches(filterType, filterValue);
+
+  const groups = {};
+  matches.forEach(m => {
+    const p = musterradarParseSubtyp(m.subtyp);
+    if (!p) return;
+    if (!groups[p.typ]) groups[p.typ] = [];
+    groups[p.typ].push(m);
+  });
+
+  const groupCards = Object.keys(groups).sort((a, b) => a - b).map(typ => {
+    const col = typeColor(typ);
+    const items = groups[typ].map(m =>
+      `<button class="related-link-btn" data-route="${m.route}" style="font-size:0.85rem;color:${col};font-weight:600;">${m.name} <span style="color:var(--muted);font-weight:400;">(${m.subtyp})</span></button>`
+    ).join("");
+    return `
+      <div class="vb-blockquote" style="margin-bottom:1.1rem;">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+          <span style="background:${col};color:#fff;font-size:0.78rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.04em;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Type ${typ}</span>
+          <span style="font-size:0.8rem;color:var(--muted);">${groups[typ].length} portrait${groups[typ].length === 1 ? "" : "s"}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">${items}</div>
+      </div>
+    `;
+  }).join("") || `<p class="psycho-intro">No portraits with this trait found yet.</p>`;
+
+  const title = wingMatch ? `Wing w${filterValue} &middot; ${theme.name}` : theme.name;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Pattern Radar</p>
+        <h1 class="section-title">${title}</h1>
+        <p class="psycho-intro">${theme.desc}</p>
+        <p class="psycho-intro" style="font-size:0.85rem;color:var(--muted);">${matches.length} portraits in this compass carry this trait, grouped by base type – automatically compiled from every portrait's subtyp field, updating itself with every new portrait.</p>
+
+        ${groupCards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"musterradar", label:"Back to Pattern Radar"},
+          {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         ])}
       </div>
     </div>
@@ -101786,6 +101990,7 @@ function subtypeSchaubilderPage() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "musterradar": musterradarPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
@@ -102661,6 +102866,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "musterradar" && param) {
+      app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {
       app.innerHTML = psychosomatikDetailPage(param);
     } else if (base === "psychosomatik-subtyp" && param) {

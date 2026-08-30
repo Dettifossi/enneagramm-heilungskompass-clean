@@ -1292,6 +1292,67 @@ function lebensmusterkompassPortraitsForCode(code) {
     .map(p => ({ name: p.name, route: p.route }));
 }
 
+// ---------------------------------------------------------------------------
+// Musterradar: quer zum Lebensmusterkompass (der INNERHALB eines Subtyps über
+// alle Rubriken filtert) filtert das Musterradar QUER über alle 27 Subtypen
+// hinweg – nach Flügel (w1–w9) oder nach Instinktvariante (SE/SO/SX). Rein
+// automatisch aus den ohnehin gepflegten subtyp-Feldern der vier Porträt-
+// Register zusammengestellt (BERUEHMT_, KRIMINAL_, KRANKHEITS_, ASTROLOGIE_
+// PORTRAITS) – keine manuelle Pflege nötig, aktualisiert sich bei jedem neuen
+// Porträt von selbst.
+function musterradarParseSubtyp(subtyp) {
+  const m = (subtyp || "").toUpperCase().match(/^(SE|SO|SX)([1-9])W?([1-9])?$/);
+  if (!m) return null;
+  return { instinct: m[1], typ: parseInt(m[2], 10), wing: m[3] ? parseInt(m[3], 10) : null };
+}
+
+function musterradarAllPortraits() {
+  return [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS, ...KRANKHEITS_PORTRAITS, ...ASTROLOGIE_PORTRAITS];
+}
+
+function musterradarSortKey(subtyp) {
+  const p = musterradarParseSubtyp(subtyp);
+  if (!p) return [99, 9, 9];
+  const instOrder = { SE: 0, SO: 1, SX: 2 };
+  return [p.typ, instOrder[p.instinct] ?? 9, p.wing ?? 9];
+}
+
+// filterType: "wing" (filterValue = 1–9) oder "instinct" (filterValue = "SE"|"SO"|"SX")
+function musterradarMatches(filterType, filterValue) {
+  const all = musterradarAllPortraits();
+  const matches = all.filter(p => {
+    const parsed = musterradarParseSubtyp(p.subtyp);
+    if (!parsed) return false;
+    if (filterType === "wing") return parsed.wing === filterValue;
+    if (filterType === "instinct") return parsed.instinct === filterValue;
+    return false;
+  });
+  return matches
+    .map(p => ({ name: p.name, route: p.route, subtyp: (p.subtyp || "").toUpperCase() }))
+    .sort((a, b) => {
+      const ka = musterradarSortKey(a.subtyp), kb = musterradarSortKey(b.subtyp);
+      return ka[0] - kb[0] || ka[1] - kb[1] || ka[2] - kb[2];
+    });
+}
+
+const MUSTERRADAR_WING_THEMES = {
+  1: { name: "Einserflügel", desc: "Bringt Struktur, Ernsthaftigkeit und einen Anspruch an Richtigkeit mit – Genauigkeit und moralische Klarheit als zusätzliche Note zum Grundtyp." },
+  2: { name: "Zweierflügel", desc: "Bringt Wärme, Beziehungsorientierung und den Wunsch, gebraucht zu werden – der Grundtyp öffnet sich zusätzlich nach außen, auf andere Menschen hin." },
+  3: { name: "Dreierflügel", desc: "Bringt Antrieb, Zielstrebigkeit und ein Gespür für sichtbaren, messbaren Erfolg – der Grundtyp bekommt zusätzlich Tempo und Ehrgeiz." },
+  4: { name: "Viererflügel", desc: "Bringt Tiefe, Individualität und die Suche nach dem Authentischen – der Grundtyp wird zusätzlich introspektiver und empfindsamer." },
+  5: { name: "Fünferflügel", desc: "Bringt analytische Distanz, Rückzug und ein Bedürfnis nach Verstehen, bevor gehandelt wird – der Grundtyp bekommt zusätzlich eine denkerische, beobachtende Note." },
+  6: { name: "Sechserflügel", desc: "Bringt Loyalität, Wachsamkeit und ein Gespür für Risiken und Bündnisse – der Grundtyp wird zusätzlich vorsichtiger und gemeinschaftsbezogener." },
+  7: { name: "Siebenerflügel", desc: "Bringt Leichtigkeit, Neugier und Optimismus – der Grundtyp bekommt zusätzlich eine spielerische, nach Möglichkeiten suchende Note." },
+  8: { name: "Achterflügel", desc: "Bringt Durchsetzungskraft, Direktheit und Machtbewusstsein – der Grundtyp wird zusätzlich robuster und konfrontationsbereiter." },
+  9: { name: "Neunerflügel", desc: "Bringt Gelassenheit, Vermittlungsfähigkeit und ein Bedürfnis nach Harmonie – der Grundtyp bekommt zusätzlich eine ausgleichende, entspanntere Note." },
+};
+
+const MUSTERRADAR_INSTINCT_THEMES = {
+  SE: { name: "Selbsterhaltung (SE)", desc: "Die Energie richtet sich auf die eigene materielle und körperliche Sicherheit – Ressourcen, Gesundheit, ein verlässliches Zuhause. Oft die zurückhaltendste, am wenigsten öffentlich auftretende Instinktvariante eines Typs." },
+  SO: { name: "Sozial (SO)", desc: "Die Energie richtet sich auf Zugehörigkeit, Status und Wirkung innerhalb einer Gruppe oder Gemeinschaft – wie man gesehen wird, welche Rolle man einnimmt, wo man dazugehört." },
+  SX: { name: "Sexuell / Beziehung (SX)", desc: "Die Energie richtet sich auf Intensität und Verschmelzung in der einen, engsten Verbindung – meist die intensivste, am stärksten alles-oder-nichts-geprägte Instinktvariante eines Typs." },
+};
+
 const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Büffel",
@@ -2101,6 +2162,7 @@ function lebensmusterkompassPage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
+          {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
@@ -2252,6 +2314,146 @@ function lebensmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass", label:"Zurück zum Lebensmusterkompass"},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarPage() {
+  const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
+    const count = musterradarMatches("wing", parseInt(w, 10)).length;
+    return `
+      <button
+        data-route="musterradar/w${w}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
+        title="${MUSTERRADAR_WING_THEMES[w].name}"
+      >
+        <span style="font-size:1.3rem;font-weight:700;color:var(--copper);">w${w}</span>
+        <span style="font-size:.72rem;color:var(--muted);text-align:center;line-height:1.2;">${MUSTERRADAR_WING_THEMES[w].name}</span>
+        <span style="font-size:.68rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+      </button>
+    `;
+  }).join("");
+
+  const instinctTiles = Object.keys(MUSTERRADAR_INSTINCT_THEMES).map(inst => {
+    const count = musterradarMatches("instinct", inst).length;
+    return `
+      <button
+        data-route="musterradar/${inst.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
+        title="${MUSTERRADAR_INSTINCT_THEMES[inst].name}"
+      >
+        <span style="font-size:1.5rem;font-weight:700;color:var(--copper);">${inst}</span>
+        <span style="font-size:.78rem;color:var(--muted);text-align:center;line-height:1.25;">${MUSTERRADAR_INSTINCT_THEMES[inst].name}</span>
+        <span style="font-size:.7rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Musterradar</p>
+        <h1 class="section-title">Musterradar</h1>
+        <p class="psycho-intro">Der <a href="javascript:void(0)" data-route="lebensmusterkompass">Lebensmusterkompass</a> filtert innerhalb eines einzelnen Subtyps über alle Porträt-Rubriken hinweg. Das Musterradar dreht die Perspektive um: Es filtert <strong>quer über alle 27 Subtypen hinweg</strong> – nach Flügel oder nach Instinktvariante – und zeigt, wie sich derselbe Flügel oder derselbe Instinkt bei ganz unterschiedlichen Grundtypen wiederholt zeigt.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Ein Neunerflügel etwa zeigt sich bei einer Eins ganz anders als bei einer Acht – und doch lässt sich eine gemeinsame, wing-typische Grundnote erkennen, wenn man alle Neunerflügel-Porträts dieses Kompasses nebeneinanderstellt, unabhängig vom jeweiligen Grundtyp. Genauso lässt sich fragen: Was verbindet alle SX-Porträts, ganz gleich ob Typ 2, Typ 6 oder Typ 8? Diese Rubrik macht genau diese Querschnitte sichtbar.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Anders als der Lebensmusterkompass enthält das Musterradar keine redaktionell verfassten Mustertexte, sondern ist eine rein automatisch zusammengestellte Übersicht – erzeugt direkt aus den Subtyp-Angaben aller Porträts dieses Kompasses. Es aktualisiert sich bei jedem neuen Porträt von selbst, ganz ohne manuelle Pflege.</p>
+        </blockquote>
+
+        <h2 class="vb-section" style="margin-top:0;">Nach Flügel</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:0.7rem;margin:1rem 0 2rem;">
+          ${wingTiles}
+        </div>
+
+        <h2 class="vb-section">Nach Instinktvariante</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem;">
+          ${instinctTiles}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarDetailPage(keyRaw) {
+  const key = (keyRaw || "").toLowerCase();
+  const wingMatch = key.match(/^w([1-9])$/);
+  const isInstinct = ["se", "so", "sx"].includes(key);
+
+  if (!wingMatch && !isInstinct) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Nicht gefunden</h1>
+          <p class="psycho-intro">Dieser Musterradar-Filter existiert nicht.</p>
+          ${relatedLinks([{route:"musterradar", label:"Zurück zum Musterradar"}])}
+        </div>
+      </div>
+    `);
+  }
+
+  const filterType = wingMatch ? "wing" : "instinct";
+  const filterValue = wingMatch ? parseInt(wingMatch[1], 10) : key.toUpperCase();
+  const theme = wingMatch ? MUSTERRADAR_WING_THEMES[filterValue] : MUSTERRADAR_INSTINCT_THEMES[filterValue];
+  const matches = musterradarMatches(filterType, filterValue);
+
+  // Nach Grundtyp gruppieren (1–9), innerhalb jeder Gruppe nach Instinkt/Flügel sortiert
+  const groups = {};
+  matches.forEach(m => {
+    const p = musterradarParseSubtyp(m.subtyp);
+    if (!p) return;
+    if (!groups[p.typ]) groups[p.typ] = [];
+    groups[p.typ].push(m);
+  });
+
+  const groupCards = Object.keys(groups).sort((a, b) => a - b).map(typ => {
+    const col = typeColor(typ);
+    const items = groups[typ].map(m =>
+      `<button class="related-link-btn" data-route="${m.route}" style="font-size:0.85rem;color:${col};font-weight:600;">${m.name} <span style="color:var(--muted);font-weight:400;">(${m.subtyp})</span></button>`
+    ).join("");
+    return `
+      <div class="vb-blockquote" style="margin-bottom:1.1rem;">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+          <span style="background:${col};color:#fff;font-size:0.78rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.04em;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Typ ${typ}</span>
+          <span style="font-size:0.8rem;color:var(--muted);">${groups[typ].length} Porträt${groups[typ].length === 1 ? "" : "s"}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">${items}</div>
+      </div>
+    `;
+  }).join("") || `<p class="psycho-intro">Noch keine Porträts mit diesem Merkmal gefunden.</p>`;
+
+  const title = wingMatch ? `Flügel w${filterValue} &middot; ${theme.name}` : theme.name;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Musterradar</p>
+        <h1 class="section-title">${title}</h1>
+        <p class="psycho-intro">${theme.desc}</p>
+        <p class="psycho-intro" style="font-size:0.85rem;color:var(--muted);">${matches.length} Porträts aus diesem Kompass tragen dieses Merkmal, gruppiert nach Grundtyp – automatisch zusammengestellt aus den Subtyp-Angaben aller Porträts, aktualisiert sich bei jedem neuen Porträt von selbst.</p>
+
+        ${groupCards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"musterradar", label:"Zurück zum Musterradar"},
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         ])}
       </div>
     </div>
@@ -7342,73 +7544,6 @@ function hansZimmerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmine Paolini (SE7w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function francisBaconPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Francis Bacon</p>
-        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Philosoph, Staatsmann &amp; Begr\u00fcnder des Empirismus, geb. 1561, gest. 1626 &ndash; Tierentsprechung: Gorilla</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt, dessen Reichweite sich \u00fcber ein ganzes Territorium erstreckt und dessen Pr\u00e4senz einen Raum f\u00fcllt, ohne dass es sich anstrengen m\u00fcsste. Der Gorilla denkt in gro\u00dfen Zusammenh\u00e4ngen &ndash; und er baut sich sein Umfeld so, dass er darin wachsen kann.</p>
-          <p class="vb-intro">Der britische Philosoph Francis Bacon, geboren 1561 in London als Sohn des Lordsiegelbewahrers Nicholas Bacon, ist dieser Gorilla. Kaum ein Denker seiner Zeit griff nach so viel zugleich: Jurist, Politiker, Wissenschaftstheoretiker, Essayist &ndash; und am Ende seiner Laufbahn Lordkanzler von England, das h\u00f6chste juristische Amt der Krone. Sein erkl\u00e4rtes Lebensziel war nichts Geringeres als die <em>Instauratio Magna</em>, die \u201eGro\u00dfe Erneuerung" des gesamten menschlichen Wissens. Ein Gorilla baut kein kleines Nest &ndash; er baut ein Territorium, das ein ganzes Rudel tr\u00e4gt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude am Entdecken</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht auf der gro\u00dfen B\u00fchne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungest\u00f6rt entfalten kann.</p>
-          <p class="vb-intro">Bacons Neugier kannte praktisch kein Fach, das ihm zu fremd gewesen w\u00e4re. Er sammelte Beobachtungen zu Naturph\u00e4nomenen, Experimenten, Rechtsf\u00e4llen, Staatsgesch\u00e4ften und moralischen Fragen mit derselben Hingabe. Sein Werk <em>Novum Organum</em> (1620) schlug ein radikal neues Fundament f\u00fcr die Wissenschaft vor: nicht l\u00e4nger aus alten Autorit\u00e4ten wie Aristoteles ableiten, sondern durch systematische Beobachtung und Experiment zu neuem Wissen gelangen &ndash; die induktive Methode, die auch heute noch als Geburtsstunde der modernen empirischen Wissenschaft gilt. \u201eWissen ist Macht", schrieb er &ndash; ein Satz, der sein ganzes Lebensprojekt zusammenfasst: die Freude der SE7 am Entdecken, verwandelt in ein System f\u00fcr die gesamte Menschheit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Macht und Durchsetzung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgeprägtem Achterflügel fehlen würde. Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich tr\u00e4gt, ohne sie offen zur Schau zu stellen. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tats\u00e4chlich gestalten kann.</p>
-          <p class="vb-intro">Bacons politische Karriere zeigt diese Durchsetzungskraft ungefiltert: Abgeordneter im Unterhaus, Solicitor General, Attorney General, Lordsiegelbewahrer und schlie\u00dflich 1618 Lordkanzler von England unter K\u00f6nig Jakob I. &ndash; ein beispielloser Aufstieg durch juristische Pr\u00e4zision, politisches Kalk\u00fcl und beharrliches Werben um Gunst am Hof. Doch der Achterfl\u00fcgel hat auch eine schmerzhafte Seite: 1601 war es Bacon, der als Kronanwalt ma\u00dfgeblich an der Anklage seines fr\u00fcheren F\u00f6rderers und Freundes, des Earl of Essex, wegen Hochverrats mitwirkte &ndash; ein Verrat an einer pers\u00f6nlichen Bindung zugunsten der eigenen Karriere, den ihm viele Zeitgenossen nie verziehen. Macht und Loyalit\u00e4t standen bei Bacon oft in Konkurrenz, und die Macht gewann meist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Aufstieg und Fall: Der Lordkanzler</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1618 erreichte Bacon den Gipfel seiner Laufbahn: Lordkanzler von England, kurz darauf zum Viscount St Alban erhoben. Er war damit der oberste Richter des Landes &ndash; und zugleich mitten in der Arbeit an seinem gro\u00dfen wissenschaftlichen Reformwerk. Zwei Leben, ein Mann: der Staatsdiener am Tag, der Universalgelehrte in den fr\u00fchen Morgenstunden.</p>
-          <p class="vb-intro">1621 st\u00fcrzte dieses doppelte Leben ein. Das Parlament klagte Bacon der Bestechlichkeit an &ndash; er hatte, wie damals nicht un\u00fcblich, Geschenke von Prozessparteien angenommen, w\u00e4hrend deren Verfahren vor ihm liefen. Bacon gestand die Vorw\u00fcrfe ein, ohne sich zu rechtfertigen, wurde zu einer hohen Geldstrafe verurteilt, kurzzeitig im Tower of London inhaftiert und von allen \u00f6ffentlichen \u00c4mtern sowie vom Parlament und Hof ausgeschlossen. Der Gorilla, der ein Territorium f\u00fcr die gesamte Menschheit hatte bauen wollen, verlor binnen weniger Wochen sein eigenes.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE7w8 ist ihre F\u00e4higkeit, aus reiner Entdeckerfreude ein Werk zu schaffen, das \u00fcber die eigene Lebenszeit hinausreicht. Bacons Beschreibung der \u201eIdole des Geistes" &ndash; der systematischen Denkfehler, die menschliche Erkenntnis verzerren, von Vorurteilen des Einzelnen bis zu blindem Vertrauen in \u00fcberlieferte Autorit\u00e4ten &ndash; nimmt moderne Erkenntnistheorie und Kognitionspsychologie um Jahrhunderte vorweg. Ohne Bacons Methode s\u00e4he die gesamte neuzeitliche Naturwissenschaft anders aus.</p>
-          <p class="vb-intro">Der Schatten liegt in einer bitteren Ironie: Der Mann, der wie kein anderer vor Selbstt\u00e4uschung und verzerrtem Urteil warnte, unterlag am Ende genau jenen \u201eIdolen", die er selbst beschrieben hatte &ndash; der Versuchung der Macht, der Bequemlichkeit angenommener Geschenke, dem Glauben, \u00fcber den eigenen Regeln zu stehen. Das Schicksalsmuster der Sieben ist die <strong>V\u00f6llerei</strong> &ndash; bei der SE7w8 zeigt sie sich nicht nur als Hunger nach Wissen, sondern auch als Hunger nach \u00c4mtern, Einfluss und Anerkennung, der irgendwann die eigene Integrit\u00e4t \u00fcberholt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Wissen, das bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Frage <em>Wonach greife ich als N\u00e4chstes?</em> zur N\u00fcchternheit: dem bewussten Verzicht auf das Zuviel, zugunsten dessen, was wirklich tr\u00e4gt. F\u00fcr die SE7w8 bedeutet das, die eigene Sch\u00f6pferkraft nicht mehr in den Dienst der Selbstvermehrung von Macht zu stellen, sondern in den Dienst einer Sache, die gr\u00f6\u00dfer ist als man selbst.</p>
-          <p class="vb-intro">Genau das tat Bacon in seinen letzten f\u00fcnf Lebensjahren nach dem Sturz: von \u00f6ffentlichen \u00c4mtern befreit, widmete er sich fast ausschlie\u00dflich dem Schreiben und vollendete einige seiner bedeutendsten Werke. Sein Tod im April 1626 passt zu keinem anderen Subtyp so gut wie zur SE7w8: Auf einer Kutschfahrt kam ihm die Idee, ob K\u00e4lte F\u00e4ulnis verz\u00f6gern k\u00f6nnte &ndash; er hielt an, kaufte ein H\u00e4hnchen, stopfte es eigenh\u00e4ndig mit Schnee aus und erk\u00e4ltete sich dabei t\u00f6dlich. Der Gorilla, der bis zum letzten Atemzug nach der n\u00e4chsten Entdeckung griff &ndash; und im Sterben noch ein Experiment machte.</p>
-        </blockquote>
-
-        <p class="vb-intro">Die jahrzehntelange Gicht und die genauen Umst\u00e4nde des t\u00f6dlichen H\u00fchnchen-Experiments werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Krankheitsportr\u00e4t zu Bacon</a> gedeutet.</p>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"krankheitsportraets-francis-bacon", label:"Krankheitsportr\u00e4t: Francis Bacon (SE7w8)"},
-        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);

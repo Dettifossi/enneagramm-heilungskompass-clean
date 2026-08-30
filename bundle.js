@@ -15868,6 +15868,7 @@ const uiText = {
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
+      { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -44418,6 +44419,67 @@ function lebensmusterkompassPortraitsForCode(code) {
     .map(p => ({ name: p.name, route: p.route }));
 }
 
+// ---------------------------------------------------------------------------
+// Musterradar: quer zum Lebensmusterkompass (der INNERHALB eines Subtyps über
+// alle Rubriken filtert) filtert das Musterradar QUER über alle 27 Subtypen
+// hinweg – nach Flügel (w1–w9) oder nach Instinktvariante (SE/SO/SX). Rein
+// automatisch aus den ohnehin gepflegten subtyp-Feldern der vier Porträt-
+// Register zusammengestellt (BERUEHMT_, KRIMINAL_, KRANKHEITS_, ASTROLOGIE_
+// PORTRAITS) – keine manuelle Pflege nötig, aktualisiert sich bei jedem neuen
+// Porträt von selbst.
+function musterradarParseSubtyp(subtyp) {
+  const m = (subtyp || "").toUpperCase().match(/^(SE|SO|SX)([1-9])W?([1-9])?$/);
+  if (!m) return null;
+  return { instinct: m[1], typ: parseInt(m[2], 10), wing: m[3] ? parseInt(m[3], 10) : null };
+}
+
+function musterradarAllPortraits() {
+  return [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS, ...KRANKHEITS_PORTRAITS, ...ASTROLOGIE_PORTRAITS];
+}
+
+function musterradarSortKey(subtyp) {
+  const p = musterradarParseSubtyp(subtyp);
+  if (!p) return [99, 9, 9];
+  const instOrder = { SE: 0, SO: 1, SX: 2 };
+  return [p.typ, instOrder[p.instinct] ?? 9, p.wing ?? 9];
+}
+
+// filterType: "wing" (filterValue = 1–9) oder "instinct" (filterValue = "SE"|"SO"|"SX")
+function musterradarMatches(filterType, filterValue) {
+  const all = musterradarAllPortraits();
+  const matches = all.filter(p => {
+    const parsed = musterradarParseSubtyp(p.subtyp);
+    if (!parsed) return false;
+    if (filterType === "wing") return parsed.wing === filterValue;
+    if (filterType === "instinct") return parsed.instinct === filterValue;
+    return false;
+  });
+  return matches
+    .map(p => ({ name: p.name, route: p.route, subtyp: (p.subtyp || "").toUpperCase() }))
+    .sort((a, b) => {
+      const ka = musterradarSortKey(a.subtyp), kb = musterradarSortKey(b.subtyp);
+      return ka[0] - kb[0] || ka[1] - kb[1] || ka[2] - kb[2];
+    });
+}
+
+const MUSTERRADAR_WING_THEMES = {
+  1: { name: "Einserflügel", desc: "Bringt Struktur, Ernsthaftigkeit und einen Anspruch an Richtigkeit mit – Genauigkeit und moralische Klarheit als zusätzliche Note zum Grundtyp." },
+  2: { name: "Zweierflügel", desc: "Bringt Wärme, Beziehungsorientierung und den Wunsch, gebraucht zu werden – der Grundtyp öffnet sich zusätzlich nach außen, auf andere Menschen hin." },
+  3: { name: "Dreierflügel", desc: "Bringt Antrieb, Zielstrebigkeit und ein Gespür für sichtbaren, messbaren Erfolg – der Grundtyp bekommt zusätzlich Tempo und Ehrgeiz." },
+  4: { name: "Viererflügel", desc: "Bringt Tiefe, Individualität und die Suche nach dem Authentischen – der Grundtyp wird zusätzlich introspektiver und empfindsamer." },
+  5: { name: "Fünferflügel", desc: "Bringt analytische Distanz, Rückzug und ein Bedürfnis nach Verstehen, bevor gehandelt wird – der Grundtyp bekommt zusätzlich eine denkerische, beobachtende Note." },
+  6: { name: "Sechserflügel", desc: "Bringt Loyalität, Wachsamkeit und ein Gespür für Risiken und Bündnisse – der Grundtyp wird zusätzlich vorsichtiger und gemeinschaftsbezogener." },
+  7: { name: "Siebenerflügel", desc: "Bringt Leichtigkeit, Neugier und Optimismus – der Grundtyp bekommt zusätzlich eine spielerische, nach Möglichkeiten suchende Note." },
+  8: { name: "Achterflügel", desc: "Bringt Durchsetzungskraft, Direktheit und Machtbewusstsein – der Grundtyp wird zusätzlich robuster und konfrontationsbereiter." },
+  9: { name: "Neunerflügel", desc: "Bringt Gelassenheit, Vermittlungsfähigkeit und ein Bedürfnis nach Harmonie – der Grundtyp bekommt zusätzlich eine ausgleichende, entspanntere Note." },
+};
+
+const MUSTERRADAR_INSTINCT_THEMES = {
+  SE: { name: "Selbsterhaltung (SE)", desc: "Die Energie richtet sich auf die eigene materielle und körperliche Sicherheit – Ressourcen, Gesundheit, ein verlässliches Zuhause. Oft die zurückhaltendste, am wenigsten öffentlich auftretende Instinktvariante eines Typs." },
+  SO: { name: "Sozial (SO)", desc: "Die Energie richtet sich auf Zugehörigkeit, Status und Wirkung innerhalb einer Gruppe oder Gemeinschaft – wie man gesehen wird, welche Rolle man einnimmt, wo man dazugehört." },
+  SX: { name: "Sexuell / Beziehung (SX)", desc: "Die Energie richtet sich auf Intensität und Verschmelzung in der einen, engsten Verbindung – meist die intensivste, am stärksten alles-oder-nichts-geprägte Instinktvariante eines Typs." },
+};
+
 const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Büffel",
@@ -45227,6 +45289,7 @@ function lebensmusterkompassPage() {
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
+          {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
@@ -45378,6 +45441,146 @@ function lebensmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass", label:"Zurück zum Lebensmusterkompass"},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarPage() {
+  const wingTiles = Object.keys(MUSTERRADAR_WING_THEMES).map(w => {
+    const count = musterradarMatches("wing", parseInt(w, 10)).length;
+    return `
+      <button
+        data-route="musterradar/w${w}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.3rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:.9rem .5rem;"
+        title="${MUSTERRADAR_WING_THEMES[w].name}"
+      >
+        <span style="font-size:1.3rem;font-weight:700;color:var(--copper);">w${w}</span>
+        <span style="font-size:.72rem;color:var(--muted);text-align:center;line-height:1.2;">${MUSTERRADAR_WING_THEMES[w].name}</span>
+        <span style="font-size:.68rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+      </button>
+    `;
+  }).join("");
+
+  const instinctTiles = Object.keys(MUSTERRADAR_INSTINCT_THEMES).map(inst => {
+    const count = musterradarMatches("instinct", inst).length;
+    return `
+      <button
+        data-route="musterradar/${inst.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:none;border:2px solid var(--copper);border-radius:10px;cursor:pointer;padding:1.1rem .6rem;"
+        title="${MUSTERRADAR_INSTINCT_THEMES[inst].name}"
+      >
+        <span style="font-size:1.5rem;font-weight:700;color:var(--copper);">${inst}</span>
+        <span style="font-size:.78rem;color:var(--muted);text-align:center;line-height:1.25;">${MUSTERRADAR_INSTINCT_THEMES[inst].name}</span>
+        <span style="font-size:.7rem;color:var(--copper);font-weight:600;">${count} Porträts</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Musterradar</p>
+        <h1 class="section-title">Musterradar</h1>
+        <p class="psycho-intro">Der <a href="javascript:void(0)" data-route="lebensmusterkompass">Lebensmusterkompass</a> filtert innerhalb eines einzelnen Subtyps über alle Porträt-Rubriken hinweg. Das Musterradar dreht die Perspektive um: Es filtert <strong>quer über alle 27 Subtypen hinweg</strong> – nach Flügel oder nach Instinktvariante – und zeigt, wie sich derselbe Flügel oder derselbe Instinkt bei ganz unterschiedlichen Grundtypen wiederholt zeigt.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Ein Neunerflügel etwa zeigt sich bei einer Eins ganz anders als bei einer Acht – und doch lässt sich eine gemeinsame, wing-typische Grundnote erkennen, wenn man alle Neunerflügel-Porträts dieses Kompasses nebeneinanderstellt, unabhängig vom jeweiligen Grundtyp. Genauso lässt sich fragen: Was verbindet alle SX-Porträts, ganz gleich ob Typ 2, Typ 6 oder Typ 8? Diese Rubrik macht genau diese Querschnitte sichtbar.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Anders als der Lebensmusterkompass enthält das Musterradar keine redaktionell verfassten Mustertexte, sondern ist eine rein automatisch zusammengestellte Übersicht – erzeugt direkt aus den Subtyp-Angaben aller Porträts dieses Kompasses. Es aktualisiert sich bei jedem neuen Porträt von selbst, ganz ohne manuelle Pflege.</p>
+        </blockquote>
+
+        <h2 class="vb-section" style="margin-top:0;">Nach Flügel</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:0.7rem;margin:1rem 0 2rem;">
+          ${wingTiles}
+        </div>
+
+        <h2 class="vb-section">Nach Instinktvariante</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:0.8rem;margin:1rem 0 2rem;">
+          ${instinctTiles}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+          {route:"knowledge", label:"Wissensbasis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function musterradarDetailPage(keyRaw) {
+  const key = (keyRaw || "").toLowerCase();
+  const wingMatch = key.match(/^w([1-9])$/);
+  const isInstinct = ["se", "so", "sx"].includes(key);
+
+  if (!wingMatch && !isInstinct) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Nicht gefunden</h1>
+          <p class="psycho-intro">Dieser Musterradar-Filter existiert nicht.</p>
+          ${relatedLinks([{route:"musterradar", label:"Zurück zum Musterradar"}])}
+        </div>
+      </div>
+    `);
+  }
+
+  const filterType = wingMatch ? "wing" : "instinct";
+  const filterValue = wingMatch ? parseInt(wingMatch[1], 10) : key.toUpperCase();
+  const theme = wingMatch ? MUSTERRADAR_WING_THEMES[filterValue] : MUSTERRADAR_INSTINCT_THEMES[filterValue];
+  const matches = musterradarMatches(filterType, filterValue);
+
+  // Nach Grundtyp gruppieren (1–9), innerhalb jeder Gruppe nach Instinkt/Flügel sortiert
+  const groups = {};
+  matches.forEach(m => {
+    const p = musterradarParseSubtyp(m.subtyp);
+    if (!p) return;
+    if (!groups[p.typ]) groups[p.typ] = [];
+    groups[p.typ].push(m);
+  });
+
+  const groupCards = Object.keys(groups).sort((a, b) => a - b).map(typ => {
+    const col = typeColor(typ);
+    const items = groups[typ].map(m =>
+      `<button class="related-link-btn" data-route="${m.route}" style="font-size:0.85rem;color:${col};font-weight:600;">${m.name} <span style="color:var(--muted);font-weight:400;">(${m.subtyp})</span></button>`
+    ).join("");
+    return `
+      <div class="vb-blockquote" style="margin-bottom:1.1rem;">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+          <span style="background:${col};color:#fff;font-size:0.78rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.04em;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Typ ${typ}</span>
+          <span style="font-size:0.8rem;color:var(--muted);">${groups[typ].length} Porträt${groups[typ].length === 1 ? "" : "s"}</span>
+        </div>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;">${items}</div>
+      </div>
+    `;
+  }).join("") || `<p class="psycho-intro">Noch keine Porträts mit diesem Merkmal gefunden.</p>`;
+
+  const title = wingMatch ? `Flügel w${filterValue} &middot; ${theme.name}` : theme.name;
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Musterradar</p>
+        <h1 class="section-title">${title}</h1>
+        <p class="psycho-intro">${theme.desc}</p>
+        <p class="psycho-intro" style="font-size:0.85rem;color:var(--muted);">${matches.length} Porträts aus diesem Kompass tragen dieses Merkmal, gruppiert nach Grundtyp – automatisch zusammengestellt aus den Subtyp-Angaben aller Porträts, aktualisiert sich bei jedem neuen Porträt von selbst.</p>
+
+        ${groupCards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"musterradar", label:"Zurück zum Musterradar"},
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         ])}
       </div>
     </div>
@@ -137687,6 +137890,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "musterradar": musterradarPage,
     "psychosomatik": psychosomatikPage,
     "symptomlexikon": symptomlexikonPage,
     "tierforscher-uebereinstimmung": tierforscherUebereinstimmungPage,
@@ -138562,6 +138766,8 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "musterradar" && param) {
+      app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {
       app.innerHTML = psychosomatikDetailPage(param);
     } else if (base === "psychosomatik-subtyp" && param) {

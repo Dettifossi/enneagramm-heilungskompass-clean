@@ -1,3 +1,70 @@
+function francisBaconPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francis-bacon-portrait.jpg" alt="Francis Bacon – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis Bacon</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Staatsmann &amp; Begr\u00fcnder des Empirismus, geb. 1561, gest. 1626 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt, dessen Reichweite sich \u00fcber ein ganzes Territorium erstreckt und dessen Pr\u00e4senz einen Raum f\u00fcllt, ohne dass es sich anstrengen m\u00fcsste. Der Gorilla denkt in gro\u00dfen Zusammenh\u00e4ngen &ndash; und er baut sich sein Umfeld so, dass er darin wachsen kann.</p>
+          <p class="vb-intro">Der britische Philosoph Francis Bacon, geboren 1561 in London als Sohn des Lordsiegelbewahrers Nicholas Bacon, ist dieser Gorilla. Kaum ein Denker seiner Zeit griff nach so viel zugleich: Jurist, Politiker, Wissenschaftstheoretiker, Essayist &ndash; und am Ende seiner Laufbahn Lordkanzler von England, das h\u00f6chste juristische Amt der Krone. Sein erkl\u00e4rtes Lebensziel war nichts Geringeres als die <em>Instauratio Magna</em>, die \u201eGro\u00dfe Erneuerung" des gesamten menschlichen Wissens. Ein Gorilla baut kein kleines Nest &ndash; er baut ein Territorium, das ein ganzes Rudel tr\u00e4gt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude am Entdecken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht auf der gro\u00dfen B\u00fchne, sondern im eigenen, selbst geschaffenen Umfeld &ndash; im Prozess des Erschaffens, Sammelns und Ordnens selbst. Naranjo nannte diesen Subtyp <em>Familie</em>: ein Nest, in dem sich Neugier ungest\u00f6rt entfalten kann.</p>
+          <p class="vb-intro">Bacons Neugier kannte praktisch kein Fach, das ihm zu fremd gewesen w\u00e4re. Er sammelte Beobachtungen zu Naturph\u00e4nomenen, Experimenten, Rechtsf\u00e4llen, Staatsgesch\u00e4ften und moralischen Fragen mit derselben Hingabe. Sein Werk <em>Novum Organum</em> (1620) schlug ein radikal neues Fundament f\u00fcr die Wissenschaft vor: nicht l\u00e4nger aus alten Autorit\u00e4ten wie Aristoteles ableiten, sondern durch systematische Beobachtung und Experiment zu neuem Wissen gelangen &ndash; die induktive Methode, die auch heute noch als Geburtsstunde der modernen empirischen Wissenschaft gilt. \u201eWissen ist Macht", schrieb er &ndash; ein Satz, der sein ganzes Lebensprojekt zusammenfasst: die Freude der SE7 am Entdecken, verwandelt in ein System f\u00fcr die gesamte Menschheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Macht und Durchsetzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgeprägtem Achterflügel fehlen würde. Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich tr\u00e4gt, ohne sie offen zur Schau zu stellen. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und den Aufstieg in Positionen, aus denen heraus sie tats\u00e4chlich gestalten kann.</p>
+          <p class="vb-intro">Bacons politische Karriere zeigt diese Durchsetzungskraft ungefiltert: Abgeordneter im Unterhaus, Solicitor General, Attorney General, Lordsiegelbewahrer und schlie\u00dflich 1618 Lordkanzler von England unter K\u00f6nig Jakob I. &ndash; ein beispielloser Aufstieg durch juristische Pr\u00e4zision, politisches Kalk\u00fcl und beharrliches Werben um Gunst am Hof. Doch der Achterfl\u00fcgel hat auch eine schmerzhafte Seite: 1601 war es Bacon, der als Kronanwalt ma\u00dfgeblich an der Anklage seines fr\u00fcheren F\u00f6rderers und Freundes, des Earl of Essex, wegen Hochverrats mitwirkte &ndash; ein Verrat an einer pers\u00f6nlichen Bindung zugunsten der eigenen Karriere, den ihm viele Zeitgenossen nie verziehen. Macht und Loyalit\u00e4t standen bei Bacon oft in Konkurrenz, und die Macht gewann meist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg und Fall: Der Lordkanzler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1618 erreichte Bacon den Gipfel seiner Laufbahn: Lordkanzler von England, kurz darauf zum Viscount St Alban erhoben. Er war damit der oberste Richter des Landes &ndash; und zugleich mitten in der Arbeit an seinem gro\u00dfen wissenschaftlichen Reformwerk. Zwei Leben, ein Mann: der Staatsdiener am Tag, der Universalgelehrte in den fr\u00fchen Morgenstunden.</p>
+          <p class="vb-intro">1621 st\u00fcrzte dieses doppelte Leben ein. Das Parlament klagte Bacon der Bestechlichkeit an &ndash; er hatte, wie damals nicht un\u00fcblich, Geschenke von Prozessparteien angenommen, w\u00e4hrend deren Verfahren vor ihm liefen. Bacon gestand die Vorw\u00fcrfe ein, ohne sich zu rechtfertigen, wurde zu einer hohen Geldstrafe verurteilt, kurzzeitig im Tower of London inhaftiert und von allen \u00f6ffentlichen \u00c4mtern sowie vom Parlament und Hof ausgeschlossen. Der Gorilla, der ein Territorium f\u00fcr die gesamte Menschheit hatte bauen wollen, verlor binnen weniger Wochen sein eigenes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 ist ihre F\u00e4higkeit, aus reiner Entdeckerfreude ein Werk zu schaffen, das \u00fcber die eigene Lebenszeit hinausreicht. Bacons Beschreibung der \u201eIdole des Geistes" &ndash; der systematischen Denkfehler, die menschliche Erkenntnis verzerren, von Vorurteilen des Einzelnen bis zu blindem Vertrauen in \u00fcberlieferte Autorit\u00e4ten &ndash; nimmt moderne Erkenntnistheorie und Kognitionspsychologie um Jahrhunderte vorweg. Ohne Bacons Methode s\u00e4he die gesamte neuzeitliche Naturwissenschaft anders aus.</p>
+          <p class="vb-intro">Der Schatten liegt in einer bitteren Ironie: Der Mann, der wie kein anderer vor Selbstt\u00e4uschung und verzerrtem Urteil warnte, unterlag am Ende genau jenen \u201eIdolen", die er selbst beschrieben hatte &ndash; der Versuchung der Macht, der Bequemlichkeit angenommener Geschenke, dem Glauben, \u00fcber den eigenen Regeln zu stehen. Das Schicksalsmuster der Sieben ist die <strong>V\u00f6llerei</strong> &ndash; bei der SE7w8 zeigt sie sich nicht nur als Hunger nach Wissen, sondern auch als Hunger nach \u00c4mtern, Einfluss und Anerkennung, der irgendwann die eigene Integrit\u00e4t \u00fcberholt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Wissen, das bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Frage <em>Wonach greife ich als N\u00e4chstes?</em> zur N\u00fcchternheit: dem bewussten Verzicht auf das Zuviel, zugunsten dessen, was wirklich tr\u00e4gt. F\u00fcr die SE7w8 bedeutet das, die eigene Sch\u00f6pferkraft nicht mehr in den Dienst der Selbstvermehrung von Macht zu stellen, sondern in den Dienst einer Sache, die gr\u00f6\u00dfer ist als man selbst.</p>
+          <p class="vb-intro">Genau das tat Bacon in seinen letzten f\u00fcnf Lebensjahren nach dem Sturz: von \u00f6ffentlichen \u00c4mtern befreit, widmete er sich fast ausschlie\u00dflich dem Schreiben und vollendete einige seiner bedeutendsten Werke. Sein Tod im April 1626 passt zu keinem anderen Subtyp so gut wie zur SE7w8: Auf einer Kutschfahrt kam ihm die Idee, ob K\u00e4lte F\u00e4ulnis verz\u00f6gern k\u00f6nnte &ndash; er hielt an, kaufte ein H\u00e4hnchen, stopfte es eigenh\u00e4ndig mit Schnee aus und erk\u00e4ltete sich dabei t\u00f6dlich. Der Gorilla, der bis zum letzten Atemzug nach der n\u00e4chsten Entdeckung griff &ndash; und im Sterben noch ein Experiment machte.</p>
+        </blockquote>
+
+        <p class="vb-intro">Die jahrzehntelange Gicht und die genauen Umst\u00e4nde des t\u00f6dlichen H\u00fchnchen-Experiments werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-francis-bacon">Krankheitsportr\u00e4t zu Bacon</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-francis-bacon", label:"Krankheitsportr\u00e4t: Francis Bacon (SE7w8)"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function hazelBruggerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7445,71 +7512,6 @@ function dietmarBaerPortraitPage() {
         {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function klausJBehrendtPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-klaus-j-behrendt-portrait.jpg" alt="Klaus J. Behrendt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Klaus J. Behrendt</p>
-        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – seit 1997 »Kommissar Schenk« im Kölner Tatort – Tierentsprechung: Kaninchen</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Kaninchen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs – wachsam, vorsichtig, nie das erste, das sich exponiert, sondern eines, das die Lage erst genau prüft, bevor es sich bewegt. Wer Klaus J. Behrendt als Kommissar Freddy Schenk im Kölner „Tatort" beobachtet, erkennt dieses Muster sofort: der bedächtigere, nachdenklichere der beiden Ermittler, einer, der abwägt, bevor er handelt, und der seinem impulsiveren Partner Ballauf oft als ruhender Gegenpol dient.</p>
-          <p class="vb-intro">Behrendt, 1953 geboren, spielt diese Rolle seit 1997 – ebenfalls fast drei Jahrzehnte. Anders als sein Kollege Dietmar Bär tritt er öffentlich deutlich zurückhaltender auf: kaum Homestorys, seltene, aber dafür ungewöhnlich offene Interviews, in denen er wiederholt über eigene Unsicherheiten und Selbstzweifel im Beruf gesprochen hat. Das Kaninchen zeigt sich nicht gern ungeschützt – wenn es das doch tut, dann bewusst und mit Bedacht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im Vertrauten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in einer starken Gruppe (wie die soziale Sechs) oder in einer einzelnen, intensiven Bindung (wie die sexuelle Sechs), sondern in verlässlichen, überschaubaren Strukturen des eigenen Alltags: feste Routinen, ein kleiner, vertrauter Kreis, klare Zuständigkeiten. Behrendts zurückhaltender Umgang mit der eigenen Prominenz – kaum öffentliche Selbstinszenierung trotz Jahrzehnten im Rampenlicht – passt genau in dieses Muster.</p>
-          <p class="vb-intro">Statt die eigene Bekanntheit für zusätzliche Sichtbarkeit zu nutzen, hat Behrendt sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet. Das ist keine Schüchternheit im landläufigen Sinn, sondern die typische SE6-Strategie: Sicherheit entsteht durch Berechenbarkeit, nicht durch Auftritt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Fünferflügel: Der nachdenkliche Beobachter</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine zusätzliche Distanz, eine analytische, beobachtende Note. Statt sich an die Gruppe zu binden, um Sicherheit zu finden, zieht sich die SE6w5 eher zurück, um die Lage erst zu verstehen, bevor sie sich festlegt. Genau diese nachdenkliche, manchmal grüblerische Qualität wird an Behrendt immer wieder beschrieben – ein Mann, der Fragen gründlich durchdenkt, bevor er antwortet, und der in Interviews selten die schnelle, plakative Aussage sucht.</p>
-          <p class="vb-intro">Diese Kombination aus Vorsicht (Sechs) und Distanz (Fünferflügel) erklärt auch, warum Behrendt öffentlich so viel schwerer zu fassen ist als sein Kollege Bär: Der Fünferflügel hält einen Teil der eigenen Innenwelt bewusst zurück, selbst dort, wo die Sechs an sich schon zur Offenheit neigen würde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Rolle: Schenk als Gegengewicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kommissar Schenk ist im Kölner „Tatort" der bedächtigere, oft skeptischere der beiden Ermittler – einer, der Ballaufs impulsivere Vorstöße hinterfragt, der Risiken abwägt, bevor er handelt, und der dem Duo dadurch eine glaubwürdige innere Reibung verleiht. Diese Konstellation funktioniert seit fast 30 Jahren, weil sie nicht auf Gegensatz um des Gegensatzes willen beruht, sondern auf einer echten, tief eingespielten Vertrautheit zwischen zwei Schauspielern, die sich seit Jahrzehnten kennen.</p>
-          <p class="vb-intro">Behrendt selbst hat betont, wie sehr ihm die reale, langjährige Zusammenarbeit mit Bär Sicherheit gibt – eine Aussage, die exakt zur SE6-Logik passt: Vertrauen entsteht nicht spontan, sondern durch Bewährung über einen langen Zeitraum.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Mensch hinter Schenk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Behrendt hat in Interviews wiederholt offen über Phasen der Unsicherheit in seiner Karriere gesprochen – eine für einen jahrzehntelang etablierten Schauspieler ungewöhnliche Offenheit, die zugleich typisch SE6 ist: Die eigene Vorsicht wird nicht verleugnet, sondern benannt, gerade weil sie als real erlebt wird. Sein privates Leben hält er konsequent aus der Öffentlichkeit heraus, was in einem Berufsfeld, das auf ständige Sichtbarkeit ausgerichtet ist, eine bewusste, disziplinierte Entscheidung ist.</p>
-          <p class="vb-intro">Wo Bär öffentlich Genuss und Geselligkeit zelebriert, wirkt Behrendt in Auftritten grundsätzlich introspektiver, abwägender – kein Widerspruch zur langjährigen Männerfreundschaft der beiden, sondern eher deren notwendige Ergänzung: Der wache Beobachter neben dem geerdeten Genießer.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das genau hinschaut</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fast drei Jahrzehnte an der Seite desselben Kollegen, in derselben Rolle – auch für Behrendt ist das eine seltene Konstante im Fernsehgeschäft, getragen von der SE6-typischen Fähigkeit, echtes Vertrauen über einen langen Zeitraum aufzubauen und zu bewahren. Der Fünferflügel sorgt dafür, dass diese Verlässlichkeit nie zur unreflektierten Routine wird, sondern von ständiger, stiller Beobachtung begleitet bleibt.</p>
-          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SE9w8), der im Kölner „Tatort" den direkteren, bodenständigeren Kommissar Ballauf verkörpert. Interessant ist die enneagrammatische Verbindung zwischen den beiden Kerntypen: Neun und Sechs sind durch eine der beiden inneren geraden Linien des Enneagramm-Symbols direkt miteinander verbunden – gemeinsam mit der Drei bilden sie das innere Dreieck der neun Punkte. Beide sind zudem Selbsterhaltungs-Typen, die auf je eigene Weise dem Rampenlicht ausweichen: Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Porträt zu Dietmar Bär</a>.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8) – sein Tatort-Partner Ballauf"},
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
-        {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
       ])}
     </div>
   `);

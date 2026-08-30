@@ -1,3 +1,68 @@
+function klausJBehrendtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klaus-j-behrendt-portrait.jpg" alt="Klaus J. Behrendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klaus J. Behrendt</p>
+        <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – seit 1997 »Kommissar Schenk« im Kölner Tatort – Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs – wachsam, vorsichtig, nie das erste, das sich exponiert, sondern eines, das die Lage erst genau prüft, bevor es sich bewegt. Wer Klaus J. Behrendt als Kommissar Freddy Schenk im Kölner „Tatort" beobachtet, erkennt dieses Muster sofort: der bedächtigere, nachdenklichere der beiden Ermittler, einer, der abwägt, bevor er handelt, und der seinem impulsiveren Partner Ballauf oft als ruhender Gegenpol dient.</p>
+          <p class="vb-intro">Behrendt, 1953 geboren, spielt diese Rolle seit 1997 – ebenfalls fast drei Jahrzehnte. Anders als sein Kollege Dietmar Bär tritt er öffentlich deutlich zurückhaltender auf: kaum Homestorys, seltene, aber dafür ungewöhnlich offene Interviews, in denen er wiederholt über eigene Unsicherheiten und Selbstzweifel im Beruf gesprochen hat. Das Kaninchen zeigt sich nicht gern ungeschützt – wenn es das doch tut, dann bewusst und mit Bedacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im Vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in einer starken Gruppe (wie die soziale Sechs) oder in einer einzelnen, intensiven Bindung (wie die sexuelle Sechs), sondern in verlässlichen, überschaubaren Strukturen des eigenen Alltags: feste Routinen, ein kleiner, vertrauter Kreis, klare Zuständigkeiten. Behrendts zurückhaltender Umgang mit der eigenen Prominenz – kaum öffentliche Selbstinszenierung trotz Jahrzehnten im Rampenlicht – passt genau in dieses Muster.</p>
+          <p class="vb-intro">Statt die eigene Bekanntheit für zusätzliche Sichtbarkeit zu nutzen, hat Behrendt sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet. Das ist keine Schüchternheit im landläufigen Sinn, sondern die typische SE6-Strategie: Sicherheit entsteht durch Berechenbarkeit, nicht durch Auftritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der nachdenkliche Beobachter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine zusätzliche Distanz, eine analytische, beobachtende Note. Statt sich an die Gruppe zu binden, um Sicherheit zu finden, zieht sich die SE6w5 eher zurück, um die Lage erst zu verstehen, bevor sie sich festlegt. Genau diese nachdenkliche, manchmal grüblerische Qualität wird an Behrendt immer wieder beschrieben – ein Mann, der Fragen gründlich durchdenkt, bevor er antwortet, und der in Interviews selten die schnelle, plakative Aussage sucht.</p>
+          <p class="vb-intro">Diese Kombination aus Vorsicht (Sechs) und Distanz (Fünferflügel) erklärt auch, warum Behrendt öffentlich so viel schwerer zu fassen ist als sein Kollege Bär: Der Fünferflügel hält einen Teil der eigenen Innenwelt bewusst zurück, selbst dort, wo die Sechs an sich schon zur Offenheit neigen würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Schenk als Gegengewicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kommissar Schenk ist im Kölner „Tatort" der bedächtigere, oft skeptischere der beiden Ermittler – einer, der Ballaufs impulsivere Vorstöße hinterfragt, der Risiken abwägt, bevor er handelt, und der dem Duo dadurch eine glaubwürdige innere Reibung verleiht. Diese Konstellation funktioniert seit fast 30 Jahren, weil sie nicht auf Gegensatz um des Gegensatzes willen beruht, sondern auf einer echten, tief eingespielten Vertrautheit zwischen zwei Schauspielern, die sich seit Jahrzehnten kennen.</p>
+          <p class="vb-intro">Behrendt selbst hat betont, wie sehr ihm die reale, langjährige Zusammenarbeit mit Bär Sicherheit gibt – eine Aussage, die exakt zur SE6-Logik passt: Vertrauen entsteht nicht spontan, sondern durch Bewährung über einen langen Zeitraum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter Schenk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behrendt hat in Interviews wiederholt offen über Phasen der Unsicherheit in seiner Karriere gesprochen – eine für einen jahrzehntelang etablierten Schauspieler ungewöhnliche Offenheit, die zugleich typisch SE6 ist: Die eigene Vorsicht wird nicht verleugnet, sondern benannt, gerade weil sie als real erlebt wird. Sein privates Leben hält er konsequent aus der Öffentlichkeit heraus, was in einem Berufsfeld, das auf ständige Sichtbarkeit ausgerichtet ist, eine bewusste, disziplinierte Entscheidung ist.</p>
+          <p class="vb-intro">Wo Bär öffentlich Genuss und Geselligkeit zelebriert, wirkt Behrendt in Auftritten grundsätzlich introspektiver, abwägender – kein Widerspruch zur langjährigen Männerfreundschaft der beiden, sondern eher deren notwendige Ergänzung: Der wache Beobachter neben dem geerdeten Genießer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das genau hinschaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast drei Jahrzehnte an der Seite desselben Kollegen, in derselben Rolle – auch für Behrendt ist das eine seltene Konstante im Fernsehgeschäft, getragen von der SE6-typischen Fähigkeit, echtes Vertrauen über einen langen Zeitraum aufzubauen und zu bewahren. Der Fünferflügel sorgt dafür, dass diese Verlässlichkeit nie zur unreflektierten Routine wird, sondern von ständiger, stiller Beobachtung begleitet bleibt.</p>
+          <p class="vb-intro">Sein Schauspielkollege und langjähriger Weggefährte ist <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Dietmar Bär</a> (SE9w8), der im Kölner „Tatort" den direkteren, bodenständigeren Kommissar Ballauf verkörpert. Interessant ist die enneagrammatische Verbindung zwischen den beiden Kerntypen: Neun und Sechs sind durch eine der beiden inneren geraden Linien des Enneagramm-Symbols direkt miteinander verbunden – gemeinsam mit der Drei bilden sie das innere Dreieck der neun Punkte. Beide sind zudem Selbsterhaltungs-Typen, die auf je eigene Weise dem Rampenlicht ausweichen: Bär durch die Pflege des eigenen Komforts, Behrendt durch wachsame Zurückhaltung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-dietmar-baer">Porträt zu Dietmar Bär</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-dietmar-baer", label:"Porträt: Dietmar Bär (SE9w8) – sein Tatort-Partner Ballauf"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function igaSwiatekPortraitPage() {
   return shell(`
     <div class="page-container">

@@ -688,6 +688,7 @@ export const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 400+ Fallporträts" },
+  { term: "Musterradar",               route: "musterradar",            description: "Porträts nach Flügel oder Instinktvariante gefiltert – quer über alle 27 Subtypen hinweg" },
   { term: "Tierforscher-Übereinstimmung", route: "tierforscher-uebereinstimmung", description: "Übersicht: Tierforscher und andere Personen, deren Lebensthema ihrer eigenen Tierentsprechung entspricht" },
 
   { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },
@@ -2201,6 +2202,7 @@ export const registerEntriesEN = [
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 400+ case portraits" },
+  { term: "Pattern Radar", route: "musterradar", description: "Portraits filtered by wing or instinctual variant – across all 27 subtypes at once" },
   { term: "Animal-Researcher Correspondence", route: "tierforscher-uebereinstimmung", description: "Overview: animal researchers and others whose life theme matches their own animal correspondence" },
   { term: "Weather and Nature Phenomena of the 9 Types", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypal weather and nature phenomenon equivalents for each Enneagram type" },
   { term: "Architecture & Interior Design of the 9 Types", route: "architektur-raumgestaltung-der-9-typen", description: "Archetypal architectural styles and interior designs for each Enneagram type" },
