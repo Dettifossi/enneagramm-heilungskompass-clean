@@ -1,3 +1,186 @@
+function kathrinBauerfeindPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Kathrin Bauerfeind – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kathrin Bauerfeind</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Journalistin, Moderatorin &amp; Autorin, geb. 1981 &ndash; Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist ein Tier, das man untersch\u00e4tzt. Kein lauter Auftritt, kein Glanz, keine B\u00fchne. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske, bewegt sich leise durch die Nacht, nimmt das wahr, was andere \u00fcbersehen, und wendet seine Geschicklichkeit ganz praktisch an: Was brauche ich? Wie komme ich dorthin? Der Waschb\u00e4r ist kein Performer &ndash; er ist ein \u00dcberlebensk\u00fcnstler mit feinen H\u00e4nden.</p>
+          <p class="vb-intro">Die deutsche Moderatorin Kathrin Bauerfeind ist in der deutschen Medienlandschaft eine Figur, die sich dieser Logik entzieht. Sie ist nicht laut. Sie ist nicht glamour\u00f6s. Und trotzdem ist sie \u00fcberall: Talkshows, Podcasts, B\u00fccher, Fernsehserien, journalistische Texte. Nicht durch Selbstinszenierung, sondern durch Kompetenz, Verl\u00e4sslichkeit und eine stilistische Unverwechselbarkeit, die sich \u00fcber Jahre aufgebaut hat. Der Waschb\u00e4r w\u00fchlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: K\u00f6nnen statt Gl\u00e4nzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; derjenige Subtyp, der am wenigsten wie eine Drei aussieht. Claudio Naranjo beschreibt ihn als denjenigen, der Leistung nach innen richtet: nicht auf Bewunderung, nicht auf \u00f6ffentliche Anerkennung, sondern auf Sicherheit, Kompetenz und Aufbau. Die SE3 fragt nicht: <em>Wie werde ich gesehen?</em> Sie fragt: <em>Was kann ich? Was brauche ich? Was funktioniert?</em></p>
+          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich das in ihrer Bandbreite: Journalistin, Moderatorin, Entertainerin, Schauspielerin, Buchautorin &ndash; das ist kein Geltungsdrang, das ist Kompetenzaufbau. Die SE3 investiert in K\u00f6nnen, weil K\u00f6nnen Sicherheit bedeutet. Wer viel kann, ist schwer zu ersetzen. Wer in vielen Feldern zuhause ist, braucht kein Rampenlicht &ndash; er hat immer einen Weg.</p>
+          <p class="vb-intro">Charakteristisch f\u00fcr die SE3 ist auch ihre Glaubw\u00fcrdigkeit: Sie muss nicht beeindrucken, sie muss \u00fcberzeugen. Bauerfeind hat sich einen Ruf erarbeitet, der auf Qualit\u00e4t beruht, nicht auf Popularit\u00e4t. Ihre Interviews gelten als pr\u00e4zise und substanzreich, ihre Texte als geschliffen, ihre Moderationen als verl\u00e4sslich. Das ist SE3-Energie in ihrer besten Form: Arbeit, die f\u00fcr sich spricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe hinter der Sachlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> bringt der selbsterhaltenden Drei etwas, das sie von innen heraus ver\u00e4ndert: das Bewusstsein f\u00fcr das Besondere, f\u00fcr das Unwiederholbare, f\u00fcr die eigene innere Welt. Eine SE3 mit schwach ausgeprägtem Viererflügel könnte sich in Effizienz und Nützlichkeit erschöpfen – immer funktional, immer produktiv, immer im Dienst des Aufbaus. Ein stark ausgeprägter Viererflügel stellt eine andere Frage daneben: <em>Aber was bedeutet das alles? Wer bin ich wirklich, jenseits dessen, was ich leiste?</em></p>
+          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich der Viererfl\u00fcgel in der stilistischen Eigenwilligkeit, die ihr Werk durchzieht. Sie hat keine Mainstream-Karriere gemacht &ndash; sie hat eine erkennbar pers\u00f6nliche Handschrift entwickelt. Ihr Buch <em>Wir k\u00f6nnten auch einfach gar nichts tun</em> ist kein Sachbuch im klassischen Sinn, sondern ein Essay-Band mit eigenem Ton: nachdenklich, ironisch, zuweilen melancholisch. Das ist der Viererfl\u00fcgel, der die Drei bereichert &ndash; er bringt Tiefe in das, was sonst vielleicht nur Kompetenz w\u00e4re.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel ist auch verantwortlich f\u00fcr eine gewisse innere Distanz zu sich selbst &ndash; die F\u00e4higkeit, die eigene Arbeit nicht nur als Leistung zu betrachten, sondern als Ausdruck von etwas, das tiefer liegt. Die SE3w4 will nicht nur gut sein &ndash; sie will authentisch sein. Das macht sie komplexer als viele, die \u00e4hnlich produktiv sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Verl\u00e4sslichkeit und Vielseitigkeit. Kathrin Bauerfeind ist in einem Metier zuhause, das schnell verbrennt, was es produziert &ndash; und sie ist seit Jahren pr\u00e4sent, ohne sich zu verausgaben oder zu wiederholen. Das ist kein Gl\u00fcck, das ist Strategie &ndash; die bewusste oder unbewusste Strategie der SE3, die in Kompetenz investiert statt in Aufmerksamkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; nicht im plakativen Sinn, sondern als das tiefe Bed\u00fcrfnis, als wertvoll zu gelten. Bei der SE3 ist das besonders subtil: Die Bescheidenheit kann selbst zur Inszenierung werden. &bdquo;Ich brauche keine gro\u00dfe B\u00fchne&ldquo; ist manchmal eine sehr wirkungsvolle Art, auf sich aufmerksam zu machen, ohne den Verdacht der Eitelkeit auf sich zu ziehen.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel bringt seinen eigenen Schatten: das Gef\u00fchl, im Wesentlichen anders zu sein, nicht ganz dazuzugeh\u00f6ren. Die SE3w4 kann zwischen dem Wunsch nach Anerkennung und dem Bed\u00fcrfnis nach Einzigartigkeit hin- und herpendeln &ndash; und dabei den eigenen Beitrag chronisch untersch\u00e4tzen, weil er ihr selbstverst\u00e4ndlich erscheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Leisten zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> F\u00fcr die SE3w4 ist dieser Weg besonders vielschichtig: Der Viererfl\u00fcgel \u00f6ffnet die T\u00fcr zur inneren Welt, aber er kann auch die Quelle tiefer Selbstkritik sein. Der n\u00e4chste Schritt ist nicht mehr Reflexion &ndash; sondern Akzeptanz.</p>
+          <p class="vb-intro">Die wachsende SE3w4 entdeckt: Sie muss weder die kompetenteste noch die einzigartigste Person im Raum sein, um dazuzugeh\u00f6ren. Der Waschb\u00e4r, der die Maske abnimmt, findet darunter kein Defizit &ndash; sondern ein Gesicht, das schon immer da war. Kathrin Bauerfeind hat in ihren Texten und Auftritten immer wieder Momente, in denen genau das sichtbar wird: eine Bereitschaft zur Verletzlichkeit, die zeigt, dass die Kompetenz nicht alles ist. Das ist der Heilungsweg, der schon begonnen hat.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function tonyShalhoubPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tony-shalhoub-portrait.jpg" alt="Tony Shalhoub" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tony Shalhoub</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – bekannt aus »Monk« – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, dessen Geschick sich erst in den Details zeigt: in der Feinmotorik der Pfoten, im geduldigen Ausprobieren, im methodischen Herantasten an jede neue Aufgabe. Kein Tier für die große Geste, sondern für die tausend kleinen, exakt ausgeführten Handgriffe, aus denen sich am Ende Meisterschaft zusammensetzt.</p>
+          <p class="vb-intro">Der US-amerikanische Schauspieler Tony Shalhoub, ausgebildet an der Yale School of Drama, war über Jahrzehnte genau das: ein Schauspieler, dessen Namen viele erst nach seinen Rollen kennenlernten, nicht umgekehrt. Bevor er 2002 als zwanghaft-akribischer Detektiv Adrian Monk zum Star wurde, hatte er sich bereits durch Theater, Independent-Filme und Nebenrollen ein Handwerk erarbeitet, das kaum ein anderer Schauspieler seiner Generation so präzise beherrschte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">Shalhoubs Karriere liest sich wie ein Lehrbuch dieser Haltung: Rollen in „Barton Fink", „Men in Black", „Wings" und dem Independent-Film „Big Night" (1996) – ein leises, von Kritikern hochgelobtes Drama über zwei italienisch-amerikanische Brüder und ein einziges perfektes Risotto –, lange bevor der große Publikumserfolg kam. Er wählte Rollen nach handwerklicher Substanz, nicht nach Sichtbarkeit. Das ist SE3-Logik pur: Wer wirklich etwas kann, muss sich nicht anpreisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet das alles – jenseits von Funktion und Leistung?</em> Genau das macht Shalhoubs bekannteste Rolle so bemerkenswert: Adrian Monk ist nicht einfach ein exzentrischer Ermittler mit Marotten. Shalhoub spielte die Figur als einen Mann, dessen zwanghafte Ordnungsliebe direkt aus einem unverarbeiteten Trauma – dem Mord an seiner Frau – herrührt. Präzision wird bei ihm zum sichtbaren Ausdruck von Schmerz, nicht zur bloßen Pointe.</p>
+          <p class="vb-intro">Dieselbe Tiefe zeigt sich in der berühmten, fast wortlosen Schlussszene von „Big Night", in der ein einziges gemeinsames Frühstück zweier zerstrittener Brüder mehr Emotion trägt als jeder Dialog. Der Viererflügel sucht nicht die große Geste, sondern den einen wahren, unverwechselbaren Moment. Auch seine spätere Rolle als Abe Weissman in „The Marvelous Mrs. Maisel" trägt diese Handschrift: ein Mann voller intellektueller Eigenheiten, dessen komische Fassade eine tiefe, oft anrührende Verletzlichkeit verbirgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte emotionale Wahrheit zu schöpfen. Shalhoub gewann für „Monk" drei Emmys und einen Golden Globe – nicht für Effekthascherei, sondern weil er eine Figur mit klinischer Störung zu einem der menschlichsten Charaktere des amerikanischen Fernsehens machte. Diese Kombination aus Disziplin und Tiefe ist selten und wird von Kritikern seit Jahrzehnten als eine der konstantesten schauspielerischen Leistungen seiner Generation gewürdigt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, selbst im Rampenlicht zu stehen. Der Viererflügel bringt seinen eigenen Schatten mit: das Gefühl, nie ganz dazuzugehören, selbst inmitten großen Erfolgs – eine leise Melancholie, die viele seiner Rollen durchzieht und die vermutlich auch ein Stück seiner eigenen inneren Wirklichkeit widerspiegelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Perfektionieren zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 bedeutet das, den eigenen Wert nicht mehr an die makellose Ausführung einer Rolle zu knüpfen, sondern an die Wahrhaftigkeit, mit der man sie verkörpert.</p>
+          <p class="vb-intro">Shalhoubs jahrzehntelange, unaufgeregte Konstanz – von kleinen Theaterrollen bis zu preisgekrönten Hauptfiguren, stets fernab des Boulevard-Rampenlichts – zeigt einen Waschbären, der sein Handwerk nie als Beweis brauchte, sondern als Ausdruck dessen, was ihm wirklich wichtig ist. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet in dieser Beständigkeit womöglich genau das, was er sucht: nicht die eine perfekte Rolle, sondern ein ganzes, aufrichtig gelebtes Berufsleben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function juditPolgarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-judit-polgar-portrait.jpg" alt="Judit Polgár" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Judit Polgár</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schach-Großmeisterin, geb. 1976 – spielstärkste Frau der Schachgeschichte – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein nachtaktives Tier, das seine Umgebung nicht mit roher Kraft, sondern mit ertasteter Präzision erschließt: Es befühlt, prüft, kalkuliert, bevor es zugreift. Erst wer genau hinsieht, erkennt die Berechnung hinter der scheinbar spielerischen Bewegung.</p>
+          <p class="vb-intro">Die ungarische Schachspielerin Judit Polgár, geboren 1976 in Budapest als jüngste der drei Polgár-Schwestern, wuchs in einem pädagogischen Experiment ihres Vaters László Polgár auf, der überzeugt war, dass Genie erlernbar sei, wenn man früh genug und intensiv genug übt. Die drei Töchter wurden zu Hause unterrichtet, mit Schach als Kernfach des Curriculums – keine Laune des Schicksals, sondern das Ergebnis Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
+          <p class="vb-intro">1991 wurde Polgár im Alter von fünfzehn Jahren oder viertausendneunundsiebzig Tagen die jüngste Großmeisterin der Schachgeschichte – zu diesem Zeitpunkt jünger als jeder männliche Spieler zuvor, einschließlich Bobby Fischers legendärem Rekord. Statt sich in der Frauenschachwelt zu etablieren, in der ihr sofort ein sicherer Spitzenplatz gewiss gewesen wäre, entschied sie sich, ausschließlich in offenen Turnieren gegen die stärksten Spieler der Welt anzutreten – unabhängig vom Geschlecht der Gegner. Das ist SE3-Logik ungefiltert: Wer wirklich etwas kann, sucht sich die härteste, nicht die bequemste Bühne.</p>
+          <p class="vb-intro">Man nennt die SE3w4 auch die "Profis": Menschen, die tatsächlich mehr können, als sie nach außen zeigen – im Unterschied zum Kontratyp-Zwilling SE3w2, der oft ein freundliches, einnehmendes Auftreten pflegt, dessen Substanz aber nicht immer mit dem ersten Eindruck mithält. Der Viererflügel verleiht der SE3 eine besondere Authentizität: keine Fassade, sondern echtes, oft stilles Können, das erst beim genauen Hinsehen seine volle Tiefe zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg abseits der Norm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg – jenseits dessen, was von mir erwartet wird?</em> Polgár lehnte es zeitlebens ab, an der Frauenweltmeisterschaft teilzunehmen, obwohl sie diese vermutlich mühelos hätte gewinnen können. Stattdessen kletterte sie 2005 auf Platz acht der Weltrangliste aller Spieler – bislang die einzige Frau, die je in die Top Ten der offenen Weltrangliste vordrang, ein Rekord, den niemand seither auch nur annähernd erreicht hat.</p>
+          <p class="vb-intro">Diese Eigenständigkeit zeigte sich auch in ihrem Spielstil: Polgár war bekannt für einen aggressiven, hochriskanten, taktisch geprägten Stil, der stark von ihrer eigenen Intuition statt von reiner Theorie geprägt war. Sie besiegte im Laufe ihrer Karriere zahlreiche amtierende und ehemalige Weltmeister – darunter Garri Kasparow, Anatoli Karpow, Boris Spasski, Wiswanathan Anand und Magnus Carlsen (SE1w9, ebenfalls unter den Berühmten Persönlichkeiten dieser App porträtiert) – nicht durch Anpassung an das etablierte System, sondern durch einen unverwechselbaren, eigenwilligen Zugang zum Spiel, der ihre Handschrift auf jedem Brett erkennbar machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Polgár bewies über zwei Jahrzehnte hinweg, dass Kompetenz keine Frage des Geschlechts ist – nicht durch öffentliche Rhetorik, sondern durch das nüchterne, unwiderlegbare Ergebnis am Brett. Sie tat dies, ohne sich als Symbolfigur zu inszenieren; ihr Statement war das Spiel selbst.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder Erwartung – auch der Erwartung, die "beste Schachspielerin" zu sein – abzugrenzen und stattdessen einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr an das nächste Turnierergebnis geknüpft bleibt, sondern an die Wahrhaftigkeit des eigenen Weges.</p>
+          <p class="vb-intro">2014 beendete Polgár ihre aktive Turnierkarriere und gründete die Judit Polgár Chess Foundation, die Schach als pädagogisches Werkzeug in Schulen einsetzt – ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als Geschenk an die nächste Generation weitergibt. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet darin womöglich genau das, was er sucht: nicht den nächsten Rekord, sondern eine Spur, die über das eigene Leben hinausweist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
+      ])}
+    </div>
+  `);
+}
+
 function annikaVonMutiusPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10531,184 +10714,6 @@ function marilynMonroeKrankheitsportraetPage() {
         {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
-      ])}
-    </div>
-  `);
-}
-
-function ladyDianaKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lady Diana</p>
-        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · 1961–1997</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Taube</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Lady Diana</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-lady-diana">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
-        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine über
-        Jahre verschwiegene Bulimie, die sie erst 1995 selbst öffentlich machte, verbunden mit
-        Selbstverletzung und postnataler Depression.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Diana</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
-        zugeordnet. Die SE4 trägt ihr Leiden – anders als andere Vierer-Subtypen – nicht nach
-        außen, sondern hält es still aus, während sie nach außen Stärke zeigt. Der Dreierflügel
-        gibt ihr die Fähigkeit, das eigene Erleben in öffentliche Wirksamkeit zu verwandeln –
-        genau diese Spannung zwischen verborgenem Leiden und makelloser öffentlicher Fassade
-        prägt auch Dianas Krankheitsgeschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein Beginn in der Verlobungswoche:</strong>
-        Diana beschrieb später selbst, ihre Bulimie habe "in der Woche nach der Verlobung"
-        mit Prinz Charles im Februar 1981 begonnen – ausgelöst unter anderem durch eine
-        abwertende Bemerkung Charles' zu ihrer Taille sowie den Stress durch seine
-        fortbestehende Beziehung zu Camilla Parker Bowles.</p>
-        <p class="vb-intro"><strong>b) Ein Muster, das sie selbst als zerstörerisch erkannte:</strong>
-        Im Panorama-Interview 1995 nannte Diana die Bulimie selbst "a repetitive pattern which
-        is very destructive to yourself" (›ein sich wiederholendes Muster, das sehr
-        zerstörerisch für einen selbst ist‹) – ein Kreislauf aus kurzzeitigem Trost und
-        anschließendem Ekel, den sie über Jahre allein austrug.</p>
-        <p class="vb-intro"><strong>c) Eine Fassade, die lange hielt:</strong>
-        Nach außen blieb Diana über Jahre die makellos gestylte Prinzessin – während im
-        Verborgenen ein Leiden verlief, von dem selbst ihr nächstes Umfeld lange nichts
-        Genaues wusste.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Jahrelange Bulimie:</strong>
-        Laut Dianas eigenen Schilderungen sowie Andrew Mortons Buch "Diana: Her True Story"
-        (1992, für das sie heimlich Interviews gab) zog sich die akute Phase der Erkrankung
-        über mehrere Jahre, mit ersten Therapieversuchen ab Ende der 1980er-Jahre.</p>
-        <p class="vb-intro"><strong>b) Selbstverletzung als Hilferuf zur falschen Adresse:</strong>
-        Diana beschrieb im Panorama-Interview auch Episoden von Selbstverletzung: "you have so
-        much pain inside yourself that you try and hurt yourself on the outside because you
-        want help, but it's the wrong help you're asking for." (›Man hat so viel Schmerz in
-        sich, dass man versucht, sich selbst von außen zu verletzen, weil man Hilfe will – aber
-        es ist die falsche Hilfe, um die man bittet.‹)</p>
-        <p class="vb-intro"><strong>c) Postnatale Depression nach der Geburt Prinz Williams:</strong>
-        Diana litt nach der Geburt ihres ersten Sohnes an postnataler Depression – ein
-        Zustand, den ihr Umfeld laut ihrer eigenen Aussage als Instabilität deutete, statt ihn
-        als das zu behandeln, was er war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Verharmlosung statt Fürsorge:</strong>
-        Diana schilderte, aus dem Umfeld von Charles sei durchgeklungen, sie sei "again
-        unstable and sick and should be put in a home of some sort ... I was almost an
-        embarrassment" (›wieder instabil und krank und sollte irgendwo untergebracht werden
-        ... ich war fast schon eine Peinlichkeit‹) – Pathologisierung statt Unterstützung.</p>
-        <p class="vb-intro"><strong>b) 1992: die indirekte erste Öffnung:</strong>
-        Mit Andrew Mortons Buch gelangten Bulimie, frühere Verzweiflungsmomente im Palast und
-        Charles' Beziehung zu Camilla erstmals an die Öffentlichkeit – ohne dass Diana zu
-        diesem Zeitpunkt offiziell als Quelle genannt wurde.</p>
-        <p class="vb-intro"><strong>c) 1995: die eigene Stimme:</strong>
-        Im BBC-Panorama-Interview mit Martin Bashir am 3. November 1995 sprach Diana erstmals
-        selbst und direkt öffentlich über Bulimie, Selbstverletzung und die Ehe: "There were
-        three of us in this marriage, so it was a bit crowded." (›Wir waren zu dritt in dieser
-        Ehe, das war etwas eng.‹)</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein langer, nicht-linearer Weg aus der Krankheit:</strong>
-        Ab Ende der 1980er-Jahre erhielt Diana Therapie; Rückfälle gehörten laut Berichten zu
-        diesem Prozess dazu, bevor sich eine gewisse Stabilisierung einstellte.</p>
-        <p class="vb-intro"><strong>b) Öffentliche Wirkung des Geständnisses:</strong>
-        Das Panorama-Interview gilt bis heute als einer der Momente, die das öffentliche
-        Sprechen über Essstörungen und psychische Erkrankungen in Großbritannien
-        enttabuisierten – weit über den royalen Kontext hinaus.</p>
-        <p class="vb-intro"><strong>c) Ein Kontext, der später selbst zum Thema wurde:</strong>
-        2021 stellte der Dyson-Report fest, dass Martin Bashir das Interview durch gefälschte
-        Dokumente erschlichen hatte – ein Umstand, der die Zustandekommen betrifft, nicht die
-        inhaltliche Wahrhaftigkeit von Dianas eigenen Aussagen zu ihrer Krankheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Zäh unter der Oberfläche:</strong>
-        Genau die SE4-typische Zähigkeit, mit der Diana das Leiden jahrelang allein austrug,
-        machte es zugleich so schwer erkennbar für ein Umfeld, das lieber wegsah.</p>
-        <p class="vb-intro"><strong>b) Verschärfung durch Camilla:</strong>
-        Diana beschrieb selbst, dass sich sowohl Bulimie als auch Selbstverletzung
-        verstärkten, wenn Charles die Beziehung zu Camilla wieder aufnahm – das Leiden als
-        direkte Reaktion auf wiederholte emotionale Zurückweisung.</p>
-        <p class="vb-intro"><strong>c) Die Taube, die schließlich selbst sprach:</strong>
-        Der Dreierflügel, der sonst Botschaften für andere trug, wandte sich 1995 der eigenen
-        Geschichte zu – ein seltener Moment, in dem die öffentliche Bühne nicht der Imagepflege,
-        sondern der eigenen Wahrheit diente.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Beginn im Moment größter Verunsicherung:</strong>
-        Die Bulimie setzte laut Dianas eigener Schilderung genau in der Woche ein, in der sie
-        in eine Welt aus Protokoll, Erwartung und einer Ehe mit einer dritten Person im
-        Hintergrund eintrat.</p>
-        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Erkrankung:</strong>
-        Von 1981 bis zur ersten öffentlichen Andeutung 1992 und der direkten Aussage 1995
-        zieht sich eine lange Linie aus stillem Leiden hinter der öffentlichen Fassade der
-        Prinzessin.</p>
-        <p class="vb-intro"><strong>c) Zwei Symptome, eine gemeinsame Wurzel:</strong>
-        Bulimie und Selbstverletzung beschrieb Diana selbst als verwandte Ausdrucksformen
-        desselben inneren Schmerzes – beide verstärkt durch dieselben Auslöser.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet Essen und Körper?</strong>
-        Für eine selbsterhaltende Vier, deren Instinkt auf das eigene Überleben und die
-        eigene Stabilität gerichtet ist, liegt eine Deutung nahe: Ausgerechnet der Bereich, der
-        am unmittelbarsten mit Selbstfürsorge und Selbsterhaltung verbunden ist, wurde zum Ort
-        des Kontrollverlusts – während gleichzeitig, dank des Dreierflügels, öffentlich makellose
-        Kontrolle demonstriert werden musste. Diese Deutung ist eine plausible Interpretation,
-        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
-        dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Bulimie
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Was sich an Dianas Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, inneres
-        Leiden hinter äußerer Stabilität zu verbergen, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Diana kannte ihr eigenes Muster nicht – die selbsterhaltende Vier mit Dreierflügel verbirgt inneren Schmerz hinter makelloser öffentlicher Erscheinung, und genau das ließ sie eine schwere Essstörung jahrelang verheimlichen, bevor sie sich 1995 selbst dazu bekannte. Wer das eigene Verbergungsmuster nicht kennt, trägt die Last allein, bis die Offenheit selbst zur befreienden Ausnahme wird.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        An <strong>Dianas</strong> Geschichte lässt sich die selbsterhaltende Vier mit
-        Dreierflügel noch einmal in ihrer ganzen Zerrissenheit ablesen: ein über Jahre still
-        ertragenes Leiden hinter makelloser öffentlicher Fassade, das erst spät und dann mit
-        umso größerer Wirkung ausgesprochen wurde. Die Taube, die lange nur für andere
-        Botschaften trug, bis sie 1995 begann, auch die eigene zu tragen. Diana starb 1997 bei
-        einem Autounfall in Paris – ein Ereignis, das in keinem belegten Zusammenhang mit
-        ihrer früheren Bulimie-Erkrankung steht.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
-        {route:"krankheitsportraets-adele", label:"Krankheitsporträt: Adele (SE4w3) – gleicher Subtyp"},
-        {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);

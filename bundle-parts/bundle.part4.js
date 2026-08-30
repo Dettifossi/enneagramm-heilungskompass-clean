@@ -841,6 +841,7 @@ const registerEntriesEN = [
   { term: "Communication Guide", route: "kommunikationsguide", description: "How to approach each subtype in everyday life, relationships, and leadership" },
   { term: "Crisis Compass", route: "krisenkompass", description: "Crisis Compass: Enneagram support in acute crises – subtype-specific impulses" },
   { term: "Type Test (Motivational)", route: "typentest-motivational", description: "Motivational type test with a focus on inner drives and needs" },
+  { term: "Motivation Quick Test", route: "motivations-schnelltest", description: "Compact 10-question test on your inner why – fast first orientation" },
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 400+ case portraits" },

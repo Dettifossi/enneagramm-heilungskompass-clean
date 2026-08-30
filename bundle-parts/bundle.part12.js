@@ -1,3 +1,165 @@
+function johannesDerTaeuferPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="Johannes der Täufer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes der Täufer</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Rufer in der Wüste am Jordan – Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Bereitet den Weg des Herrn, macht seine Pfade gerade.« (Mt 3,3)</p>
+
+        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – sie beißt nicht aus Bosheit, sondern weil sie eine Bedrohung erkannt hat und keine zweite Warnung ausspricht. Johannes sprach mit einer Stimme, die nicht diskutierte. Sie kam nicht aus dem Kopf, nicht aus dem Bauch – sie kam aus der Tiefe, jenem Ort, an dem sich Urteil und Feuer küssen. Er war kein Mann, den man mochte. Man fürchtete ihn, oder man folgte ihm. Aber niemand war ihm gleichgültig.</p>
+          <p class="vb-intro">Er trug Kamelhaar, nicht aus Armut, sondern aus Absicht. Er aß Heuschrecken, getränkt in wildem Honig – nicht, weil er nichts anderes bekam, sondern weil er sich dem Überfluss, der Lüge, dem bequemen Selbstbetrug verweigerte. Er lebte außerhalb, geografisch und geistig, jenseits der Mauern Jerusalems, am Jordan, wo das Land rauer war und das Herz weniger abgelenkt. Dort stand er, Tag für Tag, und rief: »Kehrt um! Die Axt ist schon an die Wurzel gelegt!«</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Eifer, der keine Heuchelei duldet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihre Leidenschaft der Vollkommenheit mit missionarischer Wucht auf eine einzige Sache – bei Johannes auf die Reinheit vor Gott. Er war nicht gerecht, weil er alle Regeln einhielt, sondern weil er sie auf ihre Wurzel prüfte: Was aus Bequemlichkeit gelebt wurde, verachtete er; was aus echtem Hunger nach Gott kam, ehrte er, selbst wenn es in Staub und Schwäche gekleidet war. Er konnte in einem Zöllner mehr Wahrheit erkennen als in einem Priester mit goldenem Saum.</p>
+          <p class="vb-intro">Als eine Gruppe Pharisäer und Sadduzäer sich näherte, um über ihn zu urteilen, rief er ihnen entgegen: »Ihr Schlangenbrut! Wer hat euch gelehrt, dem kommenden Zorn zu entfliehen? Bringt Frucht, die der Umkehr würdig ist!« Kein Gespräch, keine Verhandlung – der Ruf einer SX1, die spürt, dass unter Selbstbild und System eine gefangene Wahrheit liegt, und die keine zweite Warnung ausspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rückzug in die Wüste, Selbstverkleinerung am Ende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine Sehnsucht nach Rückzug, Askese und Verschmelzung mit etwas Größerem als sich selbst. Johannes kannte das Unreine in sich selbst nicht als Schuld, sondern als Erinnerung – Zeiten, in denen sein Glaube Fassade war, in denen seine Wut ihm als Schild diente. Doch dann war er in die Wüste gegangen, und dort, im Sand, im Schweigen, im Verzicht, war sein Blick geschärft worden.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich dieser Flügel am Ende: »Er muss wachsen. Ich aber muss abnehmen.« Kein Rückzug aus Enttäuschung, sondern Hingabe – nicht an einen Menschen, sondern an den Ruf, der ihn von Anfang an gelenkt hatte. Eine Eins mit Zweierflügel würde um Nähe und Anerkennung ringen; die SX1w9 tritt zurück, sobald ihre Aufgabe erfüllt ist, und löst sich in das auf, wofür sie gerufen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Begegnung am Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Morgen war kühl, der Himmel grau wie ungebrannter Ton. Johannes stand im Fluss, bereit wie jeden Tag, das Reine vom Falschen zu trennen. Dann kam Jesus – nicht mit Getöse, nicht mit Gefolge, sondern mit einer Stille, die größer war als jede Ansprache. Johannes sah ihn und wusste es, nicht durch Zeichen, sondern durch dieselbe Stimme, die ihn einst in die Wüste gerufen hatte: Das ist der Eine.</p>
+          <p class="vb-intro">Jesus trat ans Wasser und sagte nur: »Tauf mich.« Johannes wich zurück: »Ich sollte von dir getauft werden – und du kommst zu mir?« Sein eigenes Maß war plötzlich infrage gestellt. Jesus antwortete: »Lass es geschehen. Es gebührt sich so, damit alle Gerechtigkeit erfüllt werde.« Johannes nickte, langsam, als legte er sein Schwert nieder – führte ihn ins Wasser, senkte ihn unter die Oberfläche und hob ihn zurück ins Licht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zweifel in der Zelle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Herodes ihn festsetzen ließ – nicht aus Überzeugung, sondern weil Wahrheit immer stört, wenn sie auf Macht trifft –, kam mit der Dunkelheit der Zweifel. Er ließ Jesus fragen: <em>Bist du es wirklich? Oder sollen wir auf einen anderen warten?</em> Nicht aus theologischem Interesse, sondern weil sein Herz, das immer gebrannt hatte, nun nur noch Glut war, und er wissen musste: War alles nicht vergeblich?</p>
+          <p class="vb-intro">Jesu Antwort kam ohne Selbstbehauptung: »Geht und sagt Johannes, was ihr seht: Blinde sehen, Lahme gehen, Aussätzige werden rein, Taube hören, Tote stehen auf, Armen wird das Evangelium gepredigt.« Johannes lehnte sich an die kalte Wand, schloss die Augen – und lächelte, zum ersten Mal seit Wochen. Er hatte gesehen, was er sehen sollte. Er hatte gerufen, bis es nicht mehr nötig war zu rufen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Feuer, das sich selbst zurücknimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Johannes hinterlässt, ist ein Feuer, das nicht um sich selbst kreist. Er hatte geliebt – mit brennendem Herzen, unvollkommen, aber wahrhaftig – und war doch bereit, in dem Moment zurückzutreten, in dem ein Größerer erschien. Das ist das Geschenk der SX1w9: eine Kompromisslosigkeit, die sich nicht in der eigenen Bedeutung verliert, sondern sich am Ende freiwillig auflöst, weil die Sache größer ist als der Rufer.</p>
+          <p class="vb-intro">Er ging seinem Ende entgegen – ohne Bitterkeit, ohne Rückruf, ohne Klage. Die Schwarze Mamba, die zubiss, wo Heuchelei war, und die sich still zurückzog, sobald das Licht, dem sie den Weg bereitet hatte, selbst zu leuchten begann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Feuer am Jordan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Johannes dem Täufer ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0" title="Feuer am Jordan – Johannes der Täufer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
+        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function martaPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-marta-portrait.jpg" alt="Marta – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marta</p>
+        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Gastgeberin aus Bethanien – Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Marta, Marta, du machst dir viele Sorgen und Mühen…« (Lk 10,41)</p>
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – massiv, unauffällig, dem Anschein nach träge, und doch das Tier, das im gesamten Ökosystem am unentbehrlichsten ist: Es hält die Flusswege offen, formt den Lebensraum für alle anderen, meist ungesehen unter der Oberfläche. Marta konnte Stille nicht gut ertragen – nicht, weil sie laut dachte, sondern weil sie in der Stille die anderen nicht mehr hörte. Das Haus war ihr Reich, nicht wie ein Palast, sondern wie ein Gefäß: Sie kannte jede Kachel im Innenhof, jede Kerbe in der Backplatte des Herdes, wusste, wie viel Öl im Krug war, bevor sie ihn anhob.</p>
+          <p class="vb-intro">Sie war früh aufgestanden. Der Brotteig musste ruhen, das Wasser erhitzt, der Platz für Gäste gereinigt werden – auch wenn noch niemand kam. Wenn jemand fragte, wie sie das alles schaffe, lächelte sie und sagte: »Es muss ja gemacht werden.« Aber was sie meinte, war: <em>Ich kann nicht anders. Wenn ich nicht gebe, verschwinde ich.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Liebe als Lohn für Nützlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> gibt nicht, um zu strahlen, sondern um zu überleben – Fürsorge wird zur stillen Voraussetzung dafür, gebraucht und damit gehalten zu werden. In ihrer Kindheit war Marta oft übersehen worden: die stille Tochter, die Vernünftige, die hilft, ohne zu fragen. So hatte sie gelernt: Liebe kommt, wenn man gebraucht wird. Nähe entsteht durch Nützlichkeit. Zuwendung ist kein Geschenk – sie ist ein Lohn.</p>
+          <p class="vb-intro">Als Jesus kam und Maria sich zu seinen Füßen setzte, blieb Marta stehen – das Tuch in der einen Hand, das Wort, das sie nicht sagen wollte, in der anderen. <em>Warum hilft sie nicht?</em> Schließlich trat sie näher und sagte, nicht bitter, aber mit einem Unterton: »Herr, kümmert es dich nicht, dass meine Schwester mich die ganze Arbeit allein tun lässt? Sag ihr, sie soll mir helfen.« Es war kein Zorn. Es war Sehnsucht in der Kleidung der Anklage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin als Rechtfertigung des Gebens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei eine strenge, fast moralische Note: Dienst wird nicht als Wahl erlebt, sondern als Pflicht, die korrekt erfüllt werden muss. Marta portionierte das Salz streng, hielt jede Kachel sauber, führte den Haushalt mit kontrolliertem Griff. Versorgen war für sie keine Pflicht im engeren Sinn – es war Identität. Ein Raum, in dem sie spürte: Ich bin gebraucht.</p>
+          <p class="vb-intro">Diese Kombination aus Fürsorge und Disziplin macht das Geben für die SE2w1 zugleich zur Bürde und zum einzigen legitimen Weg, Zuwendung zu verdienen – wer aufhört zu arbeiten, hat scheinbar keinen Anspruch mehr auf Liebe. Genau dieser innere Zwang war es, den Jesus später berührte, nicht Martas Fleiß selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Spiegel in Jesu Antwort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus erhob sich nicht, hob nicht einmal die Stimme. Aber als er sprach, legte sich eine stille Weite über den Hof: »Marta, Marta, du machst dir viele Sorgen und Mühen. Aber nur eines ist notwendig. Maria hat den guten Teil erwählt – und er wird ihr nicht genommen werden.« Es war keine Zurechtweisung. Es war ein Spiegel.</p>
+          <p class="vb-intro">Marta sah sich darin – nicht als Fehler, sondern als Mensch, der zu viel trägt, weil er fürchtet, sonst nicht zu genügen. Es ging nicht um Maria. Es ging um die Art, wie Marta ihr Geben mit Bedingungen füllte, wie sie Nähe durch Leistung eintauschte, wie sie nur dann ruhig atmete, wenn sie sicher war: Ich werde gebraucht. Sie ging zurück in die Küche – aber langsamer. Zum ersten Mal saß sie, inmitten der Arbeit, und dachte nicht an das, was noch zu tun war, sondern an das, was in ihr gerufen worden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk der Zuwendung ohne Forderung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Abend war das Haus erfüllt vom Duft gerösteter Körner und warmer Oliven. Nach dem Essen setzte sich Marta – nicht zu Jesus, nicht zu Maria, sondern auf die Stufe gegenüber, so, dass sie beide sah, aber ohne bedienen zu müssen. Jesus lächelte ihr zu. Sie erwiderte es und spürte etwas Neues: <em>Ich darf da sein, auch wenn ich nichts tue.</em></p>
+          <p class="vb-intro">In jener Nacht schlief sie ruhiger als sonst – nicht, weil alles getan war, sondern weil sie begriff: Nicht jede Liebe muss sichtbar sein. Nicht jedes Geben muss zu Dank führen. Und nicht jede Mühe ist ein Schlüssel zur Anerkennung. Manchmal genügt es, dazusein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Dienen ohne sich zu verlieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Tage vergingen, Jesus kam und ging, und jedes Mal brachte er Bewegung – nicht in den Räumen, in den Menschen. Marta blieb Marta: Sie kochte, sie sorgte. Aber sie drängte weniger, atmete tiefer. Wenn Maria in der Laube saß, fragte sie nicht mehr <em>Warum hilft sie nicht?</em>, sondern dachte: <em>Vielleicht hilft sie gerade anders.</em></p>
+          <p class="vb-intro">Und wenn sie betete, sprach sie nicht mehr nur: <em>Zeig mir, wem ich dienen soll.</em> Sondern manchmal einfach nur: <em>Herr, sei du bei mir. Auch wenn ich nichts tue.</em> Das ist das Geschenk der SE2w1: Fürsorge, die nicht mehr beweisen muss, dass sie einen Platz verdient – ein Flusspferd, das den Fluss weiter offenhält, aber nicht mehr fürchtet zu verschwinden, wenn es einmal stillsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Hände voll, Herz offen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Marta ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0" title="Hände voll, Herz offen – Marta" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
+        {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 function jesusPage() {
   return shell(`
     <div class="page-container">
@@ -11096,115 +11258,4 @@ function johnMcAfeePortraitPage() {
 }
 
 
-
-function johnGottiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("John Gotti \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/john-gotti-portrait.jpg" alt="John Gotti \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">John Gotti</p>
-        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerfl\xfcgel</p>
-        <p class="krim-portrait-sub">Boss der Gambino-Familie, New York 1985&ndash;2002 &ndash; Tierentsprechung: L\xf6we</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der L\xf6we</h3>
-        <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
-        <p class="vb-intro">John Gotti war ein L\xf6we. Er regierte den Gambino-Clan, das m\xe4chtigste Verbrechersyndikat der Vereinigten Staaten, nicht aus dem Verborgenen, sondern im Rampenlicht. Er trug Brioni-Anz\xfcge f\xfcr Tausende von Dollar. Er winkte Kameras zu. Er liebte es, dass sein Viertel ihn kannte. Er gab Truthh\xe4hne an Nachbarn zu Weihnachten. Er war ihr K\xf6nig &ndash; und er wusste es.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Acht: St\xe4rke als Schutz</h3>
-        <p class="vb-intro">Der <strong>soziale Typ 8 (SO8)</strong> ist unter den Acht-Subtypen derjenige, dem es am wenigsten um pers\xf6nliche Selbstbehauptung geht &ndash; und am meisten um den Schutz der eigenen Gruppe. Claudio Naranjo beschreibt ihn als den Typus der <em>Freundschaft und Bruderschaft</em>: Der SO8er baut ein Reich auf, nicht f\xfcr sich allein, sondern f\xfcr die, die ihm geh\xf6ren. Er ist der Anf\xfchrer, der seine Loyalen belohnt, Feinde bestraft und die Ordnung innerhalb des Clans aufrechterh\xe4lt.</p>
-        <p class="vb-intro">Die Leidenschaft der Acht ist <em>Wollust</em> &ndash; nicht im engen sexuellen Sinne, sondern als \xfcberw\u00e4ltigende Lebensintensit\xe4t: alles in \xdcbergr\xf6\xdfe, alles mit maximaler Kraft. Die soziale Acht lebt diese Wollust kollektiv: ihr Revier muss gro\xdf sein, ihre Gefolgschaft zahlreich, ihre Macht untadelig. Gotti gab viel &ndash; und erwartete absolute Loyalit\xe4t zur\xfcck. Wer ihn verriet, ber\xfchrte das Einzige, was er nicht verzeihen konnte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Siebenerfl\xfcgel: Genuss, Gl\xe4nzen, Gro\xdfz\xfcgigkeit</h3>
-        <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> verleiht der sozialen Acht eine zus\xe4tzliche Dimension: Freude am Leben, an Spektakel und Genuss. Wo der Neunerfl\xfcgel die Acht erden und beruhigen kann, macht der Siebenerfl\xfcgel sie lauter, bunter, unwiderstehlicher. Der SO8w7 will nicht nur herrschen &ndash; er will, dass man ihn beim Herrschen sieht und genie\xdft.</p>
-        <p class="vb-intro">Bei John Gotti war dieser Fl\xfcgel unverkennbar: der Hang zu teuren Anz\xfcgen und makellosem Aussehen, die Feste im Ravenite Social Club, die Freude am Rampenlicht. Er h\xe4tte im Verborgenen operieren k\xf6nnen &ndash; kluge Mafia-Bosse tun das. Er wollte es nicht. Der Siebenerfl\xfcgel brauchte die B\xfchne. Und diese Geltungssucht wurde letztlich sein Verderben: Das FBI wusste immer, wo Gotti zu finden war.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: vom Stra\xdfenjungen zum Paten</h3>
-        <p class="vb-intro">John Joseph Gotti Jr. wurde am 27. Oktober 1940 in der South Bronx, New York, als zehntes von dreizehn Kindern einer \xe4rmlichen s\xfcditalienischen Einwandererfamilie geboren. Sein Vater arbeitete auf dem Bau, die Familie zog mehrfach um und landete schlie\xdflich in East New York, Brooklyn &ndash; einem Viertel, in dem die Gambino-Familie pr\xe4sent war und Jugendliche fr\xfch ihren Einfluss sp\xfcrten.</p>
-        <p class="vb-intro">Mit zw\xf6lf Jahren geh\xf6rte Gotti zu einer Stra\xdfengang. Mit sechzehn brach er die Schule ab. Er stahl, \xfcberfiel Lagerhallen, besorgte sich Respekt auf die einzige Art, die in seinem Milieu z\xe4hlte: durch K\xf6rper und Mut. Dabei war er kein rauer Schreier &ndash; er war charmant, gutaussehend, anf\xfchrend. Die anderen folgten ihm, weil er ausstrahlte, was sie sich w\xfcnschten: keine Angst zu haben.</p>
-        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Das ist die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Aufstieg: Lehrjahre bei den Gambinos</h3>
-        <p class="vb-intro">Gotti trat der Gambino-Familie unter dem Capo Carmine Fatico bei und machte sich schnell unentbehrlich. 1973 f\xfchrte er im Auftrag der Familie einen Mord aus: James McBratney hatte den Neffen des Familienbosses Carlo Gambino entf\xfchrt. Gotti und zwei Komplizen erschossen McBratney in einer Bar auf Staten Island. Er wurde verhaftet, einigte sich auf einen Vergleich wegen Totschlags und sa\xdf nur zwei Jahre ab. Eine kurze Strafe f\xfcr einen Mord &ndash; das erste Zeichen, dass er Protektion geno\xdf.</p>
-        <p class="vb-intro">Sein entscheidender F\xf6rderer wurde Aniello Dellacroce, der Unterchef der Gambino-Familie: ein knallharter, respektierter Mann, dem Gotti aufrichtige Loyalit\xe4t entgegenbrachte. Unter Dellacroce wurde er Capo des Bergin Hunt and Fish Clubs in Ozone Park, Queens. Er baute seinen Bereich aus, lieferte zuverl\xe4ssig ab und sammelte Gefolgsleute. Er war noch nicht der Boss &ndash; aber er baute die Grundlage.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Die Machtergreifung: der Mord an Castellano</h3>
-        <p class="vb-intro">Im Dezember 1985 starb Aniello Dellacroce an Krebs. Damit verlor Gotti seinen sch\xfctzenden Paten innerhalb der Familie. Der amtierende Boss Paul Castellano &ndash; ein k\xfchler Gesch\xe4ftsmann, der Drogenhandel verboten hatte und Gotti ver\xe4chtete &ndash; plante offenbar, Gotti zu degradieren oder zu beseitigen.</p>
-        <p class="vb-intro">Gotti handelte zuerst. Am <strong>16. Dezember 1985</strong> wurden Paul Castellano und sein Fahrer Thomas Bilotti vor dem Sparks Steak House in Midtown Manhattan erschossen, als sie aus dem Auto stiegen. Gotti und sein sp\xe4terer Unterchef Salvatore &bdquo;Sammy the Bull&ldquo; Gravano beobachteten die Aktion aus einem Auto heraus. Es war ein klassischer Staatsstreich &ndash; pr\xe4zise, risikoreich, folgenreich. Gotti hatte die Zustimmung anderer Familienbosse nicht eingeholt. Er hatte sich die Macht genommen.</p>
-        <p class="vb-intro">Innerhalb der Gambino-Familie \xfcbernahm er sofort die F\xfchrung. Kein anderer stellte ihn in Frage. Die anderen Familienbosse New Yorks akzeptierten den fait accompli. John Gotti war nun Boss der m\xe4chtigsten Mafia-Familie der Vereinigten Staaten.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Der Teflon-Don: drei Freispr\u00fcche</h3>
-        <p class="vb-intro">Was nun folgte, war ein beispielloser Lauf vor Gericht: 1986 freigesprochen. 1987 freigesprochen. 1990 freigesprochen. Das FBI und die Staatsanwaltschaft in New York legten immer wieder Anklage vor &ndash; und scheiterten immer wieder. Der Spitzname <em>Teflon-Don</em> entstand: Nichts blieb an ihm haften.</p>
-        <p class="vb-intro">Der Grund war nicht juristisches Geschick allein. Gotti operierte systematisch: Geschworene wurden eingesch\xfcchtert oder bestochen, Zeugen schwiegen aus Angst oder Loyalit\xe4t. Er hatte das System nicht nur besiegt &ndash; er hatte sich innerhalb des Systems eingerichtet. Gleichzeitig pflegte er sein \xf6ffentliches Image mit bemerkenswert hohem Aufwand. Er empfing Journalisten, winkte Kameras zu, feierte lautstark. Er war der erste Mafia-Boss, der zum Medienstar wurde &ndash; und er geno\xdf es sichtbar.</p>
-        <p class="vb-intro">Das FBI \xfcberwachte ihn mit wachsender Intensit\xe4t. Im Ravenite Social Club in Little Italy, wo Gotti regelm\xe4\xdfig seine Capos empfing, gelang es dem FBI schlie\xdflich, Wanzen in einer Wohnung im Obergeschoss zu installieren. Sie zeichneten Gotti dabei auf, wie er \xfcber Morde sprach, Rivalen bedrohte und Befehle erteilte. Er sprach, weil er sicher war. Weil er immer sicher gewesen war. Der Siebenerfl\xfcgel machte ihn sorglos.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Der Fall: Sammy the Bull</h3>
-        <p class="vb-intro">Der eigentliche Bruch kam nicht von au\xdfen &ndash; er kam von innen. Im November 1991 wurde Salvatore &bdquo;Sammy the Bull&ldquo; Gravano, Gottis engster Vertrauter und Unterchef, verhaftet. Gravano sah die Bandaufnahmen, h\xf6rte sich selbst belastet &ndash; und h\xf6rte Gotti, der ihn in Gespr\xe4chen als S\u00fcndenbock f\xfcr eigene Fehler dargestellt hatte. Das war die Verletzung, die eine soziale Acht zu Fall bringt: Verrat durch den Engsten.</p>
-        <p class="vb-intro">Gravano entschied sich, mit der Staatsanwaltschaft zu kooperieren. Er gestand 19 Morde. Im Gegenzug erhielt er eine deutlich reduzierte Strafe. Seine Aussage zusammen mit den FBI-Aufzeichnungen war erdr\xfcckend. Im April 1992 wurde John Gotti f\xfcr schuldig befunden: f\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung, Bandenf\xfchrung. Das Gericht verurteilte ihn zu lebenslanger Haft ohne Bew\xe4hrung.</p>
-        <p class="vb-intro">Er wurde ins Hochsicherheitsgef\xe4ngnis USP Marion, sp\xe4ter ADX Florence, verlegt. Er sa\xdf in Einzelhaft, durfte kaum Besuch empfangen. Kehlkopfkrebs wurde diagnostiziert. Am <strong>10. Juni 2002</strong> starb John Gotti im Bundesgef\xe4ngnis in Springfield, Missouri. Er wurde 61 Jahre alt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Schutz als Herrschaftsform:</strong> Gottis Viertel liebte ihn &ndash; das ist keine Propaganda, das ist belegt. Er war der Mann, der f\xfcr Ordnung sorgte, der half, der pr\xe4sent war. Dieser Zug ist typisch f\xfcr die soziale Acht: Sie dominiert nicht durch Angst allein, sondern durch eine Kombination aus Schutz und Kontrolle, die sich wie F\xfcrsorglichkeit anf\xfchlt. Das Rudel ist echt. Die Zuneigung ist echt. Nur der Preis f\xfcr Zugeh\xf6rigkeit bleibt im Dunkeln.</p>
-        <p class="vb-intro"><strong>b) Loyalit\xe4t als oberster Wert &ndash; und oberste Schwachstelle:</strong> Die soziale Acht baut ihr System auf Loyalit\xe4t. Das bedeutet: Verrat ist das Schlimmste, was geschehen kann &ndash; aber auch das Unvermeidlichste, wenn das System gro\xdf genug wird. Gravano war kein Fremder, kein Rivale. Er war Gottis engster Mann. Dass er ihn verlie\xdf, war nicht nur strategisch vernichtend &ndash; es war die tiefste denkbare Kr\xe4nkung. Der L\xf6we, von einem seiner eigenen gejagt.</p>
-        <p class="vb-intro"><strong>c) Der Siebenerfl\xfcgel als Verh\xe4ngnis:</strong> Ein kluger Mafia-Boss operiert unsichtbar. Gotti wollte das Gegenteil. Er suchte das Rampenlicht, die Medien, das Bild von sich selbst als K\xf6nig. Das FBI wusste, wo er war, weil er sichtbar sein wollte. Der Siebenerfl\xfcgel brachte ihm Genuss &ndash; und brachte ihn ins Gef\xe4ngnis.</p>
-        <p class="vb-intro"><strong>d) Kein Sadismus, keine Ideologie:</strong> Gotti t\xf6tete nicht aus Hass oder politischer \xdcberzeugung. Er t\xf6tete aus Herrschaftslogik: Wer die Ordnung st\xf6rt, wird beseitigt. Das ist keine Emotion &ndash; das ist Verwaltung. Die Acht im tiefen Ungleichgewicht sieht Gewalt nicht als Mittel der letzten Wahl, sondern als nat\xfcrliche Sprache der Macht.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Fazit: Der K\xf6nig und sein Rudel</h3>
-        <p class="vb-intro">John Gotti ist einer der seltensten Typen dieser Sammlung: ein Mann, der nicht aus Verborgensein, nicht aus Kontrollzwang, nicht aus Ideologie handelte &ndash; sondern aus dem tief verwurzelten Bed\xfcrfnis, ein Reich zu sch\xfctzen und anzuf\xfchren. Die soziale Acht ist in ihrer gesunden Form eine der gr\xf6\xdften Energien des Enneagramms: mutig, gro\xdfz\xfcgig, loyal. In der Pathologie wird dieselbe Energie zum Werkzeug der Unterwerfung.</p>
-        <p class="vb-intro">Gotti war geliebt und gef\xfcrchtet, verehrt und verraten. Er ist im Ged\xe4chtnis der amerikanischen Kultur geblieben &ndash; nicht als Monster, sondern als tragische Gestalt: der L\xf6we, der zu sehr im Licht stand, um zu \xfcberleben. Sein Viertel trauerte. Sein Sohn versuchte, das Reich weiterzuf\xfchren &ndash; und scheiterte. Das Reich des L\xf6wen \xfcberlebt seinen K\xf6nig selten.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">11. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> John Joseph Gotti Jr.</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO8w7 &ndash; Sozialer Typ 8 mit Siebenerfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Wollust (Lebensintensit\xe4t als Herrschaftsprinzip)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> L\xf6we</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 27. Oktober 1940 &ndash; 10. Juni 2002</span>
-          <span style="display:block;"><strong>Verurteilung:</strong> F\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung &ndash; lebenslang ohne Bew\xe4hrung, 1992; gestorben im Bundesgef\xe4ngnis Springfield, Missouri</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SE8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John Gotti wurde 1992 wegen Mordes, Erpressung und Racketeering zu lebenslanger Haft ohne Bew\u00e4hrung verurteilt und starb 2002 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9)"},
-          {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9)"},
-          {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9)"},
-          {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – Kehlkopfkrebs in Isolationshaft"},
-        ])}
-      </div>
-    </div>
-  `);
-}
 

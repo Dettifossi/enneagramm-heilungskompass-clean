@@ -4085,6 +4085,10 @@ function startPage() {
         <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Welches Tier bin ich?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Kurztest &middot; 3 Fragen &middot; 1 Minute</span></button>
+            <button class="start-path__btn start-path__btn--test" data-route="motivations-schnelltest">
+              <span class="start-path__test-label">Motivations-Schnelltest</span>
+              <span class="start-path__test-sub">10 Fragen &middot; 3&ndash;5 Minuten &middot; Fokus: das innere Warum</span>
+            </button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnose-Test${hasHeilwissen() ? "" : " \ud83d\udd12"}</span>
               <span class="start-path__test-sub">Schnelleinstieg \u00b7 9 Profile</span>
@@ -9325,7 +9329,295 @@ function bindEvents() {
   if (state.route === "diagnosetest") {
     bindDiagnosetest();
   }
+  if (state.route === "motivations-schnelltest") {
+    bindSchnelltest();
+  }
   bindOnboarding();
+}
+
+// -- MOTIVATIONS-SCHNELLTEST --------------------------------------------------
+const MOTIV_SCHNELLTEST = [
+  { nr: 1, thema: "Entscheidungen", frage: "Wenn Sie vor einer wichtigen Entscheidung stehen, was bewegt Sie im Innersten am meisten?", antworten: {
+    E: "Ich will sicherstellen, dass die Entscheidung richtig und vertretbar ist.",
+    Z: "Ich frage mich, wem diese Entscheidung am meisten hilft.",
+    D: "Ich will die Option w\u00e4hlen, die am ehesten zum Erfolg f\u00fchrt.",
+    V: "Ich pr\u00fcfe, ob die Entscheidung wirklich zu mir und meinen Gef\u00fchlen passt.",
+    F: "Ich will erst alle Informationen verstanden haben, bevor ich mich festlege.",
+    X: "Ich denke an das, was schiefgehen k\u00f6nnte, und will vorbereitet sein.",
+    S: "Ich will mir keine spannende M\u00f6glichkeit verbauen.",
+    A: "Ich will die Entscheidung selbst kontrollieren, nicht von anderen abh\u00e4ngen.",
+    N: "Ich will eine L\u00f6sung, mit der alle gut leben k\u00f6nnen.",
+  }},
+  { nr: 2, thema: "Kritik", frage: "Wie reagieren Sie innerlich, wenn jemand Sie kritisiert?", antworten: {
+    Z: "Ich frage mich, ob ich jetzt nicht mehr gebraucht oder gesch\u00e4tzt werde.",
+    D: "Ich will schnell beweisen, dass die Kritik nicht mein wahres K\u00f6nnen trifft.",
+    V: "Ich sp\u00fcre die Kritik tief und frage mich, ob mit mir grunds\u00e4tzlich etwas nicht stimmt.",
+    F: "Ich ziehe mich zur\u00fcck, um die Kritik erst in Ruhe zu durchdenken.",
+    X: "Ich frage mich, ob die Kritik ein Zeichen f\u00fcr eine gr\u00f6\u00dfere Gefahr ist.",
+    S: "Ich will schnell wieder zu etwas Positivem \u00fcbergehen.",
+    A: "Ich pr\u00fcfe, ob mich hier jemand kontrollieren oder schw\u00e4chen will.",
+    N: "Ich will vor allem, dass daraus kein Streit entsteht.",
+    E: "Ich pr\u00fcfe sofort, ob die Kritik berechtigt ist \u2013 und was ich verbessern kann.",
+  }},
+  { nr: 3, thema: "Konflikt", frage: "Was ist Ihr innerster Antrieb in einem Konflikt?", antworten: {
+    D: "Ich will den Konflikt m\u00f6glichst schnell und erfolgreich beenden.",
+    V: "Ich will, dass meine wirklichen Gef\u00fchle gesehen und verstanden werden.",
+    F: "Ich will erst verstehen, worum es eigentlich geht, bevor ich mich \u00e4u\u00dfere.",
+    X: "Ich will wissen, wo ich stehe und wem ich vertrauen kann.",
+    S: "Ich will die Spannung aufl\u00f6sen, bevor sie zu schwer wird.",
+    A: "Ich gehe die Sache direkt an, statt auszuweichen.",
+    N: "Ich will vor allem, dass die Verbindung zueinander nicht zerbricht.",
+    E: "Ich will, dass am Ende die richtige, faire L\u00f6sung steht.",
+    Z: "Ich will die Beziehung retten, auch wenn ich daf\u00fcr zur\u00fcckstecke.",
+  }},
+  { nr: 4, thema: "Auftanken", frage: "Was gibt Ihnen wirklich innere Erf\u00fcllung in Ihrer freien Zeit?", antworten: {
+    V: "Etwas Sch\u00f6nes oder Bedeutungsvolles schaffen, das wirklich meins ist.",
+    F: "Ungest\u00f6rte Zeit, um mich in ein Thema zu vertiefen, das mich interessiert.",
+    X: "Zeit mit Menschen oder Ritualen, die mir Sicherheit geben.",
+    S: "Etwas Neues erleben oder mehrere sch\u00f6ne Dinge gleichzeitig genie\u00dfen.",
+    A: "Etwas tun, bei dem ich ganz die Kontrolle habe und mich frei f\u00fchle.",
+    N: "Einfach zur Ruhe kommen, ohne dass etwas von mir verlangt wird.",
+    E: "Etwas zu Ende bringen, das ich ordentlich und richtig erledigt habe.",
+    Z: "Zeit mit Menschen, die ich unterst\u00fctzen und verw\u00f6hnen kann.",
+    D: "Ein Ziel erreichen, auf das ich stolz sein kann.",
+  }},
+  { nr: 5, thema: "Eigene Fehler", frage: "Wie gehen Sie innerlich mit einem eigenen Fehler um?", antworten: {
+    F: "Ich analysiere in Ruhe, wie es dazu kommen konnte.",
+    X: "Ich frage mich, was das jetzt f\u00fcr Konsequenzen haben k\u00f6nnte.",
+    S: "Ich will schnell weiterziehen und nicht lange daran h\u00e4ngen bleiben.",
+    A: "Ich stehe offen dazu und handle sofort, um es zu regeln.",
+    N: "Ich will vor allem, dass der Fehler keine gr\u00f6\u00dferen Wellen schl\u00e4gt.",
+    E: "Ich mache mir selbst starke Vorw\u00fcrfe, bis ich ihn wiedergutgemacht habe.",
+    Z: "Ich sorge mich vor allem, ob ich dadurch jemanden entt\u00e4uscht habe.",
+    D: "Ich will ihn schnell korrigieren, damit er mein Bild nicht besch\u00e4digt.",
+    V: "Ich frage mich, was der Fehler \u00fcber mich als Person aussagt.",
+  }},
+  { nr: 6, thema: "Pl\u00f6tzliche Ver\u00e4nderung", frage: "Wie reagieren Sie innerlich auf eine pl\u00f6tzliche, ungeplante Ver\u00e4nderung?", antworten: {
+    X: "Ich will wissen, worauf ich mich jetzt noch verlassen kann.",
+    S: "Ich sehe darin schnell auch neue, spannende M\u00f6glichkeiten.",
+    A: "Ich \u00fcbernehme die F\u00fchrung, damit die Lage nicht au\u00dfer Kontrolle ger\u00e4t.",
+    N: "Ich will vor allem innerlich ruhig bleiben, egal was kommt.",
+    E: "Ich will schnell eine Ordnung finden, an der ich mich wieder ausrichten kann.",
+    Z: "Ich frage mich sofort, wie es den Menschen um mich herum damit geht.",
+    D: "Ich passe meinen Plan z\u00fcgig an, um weiter erfolgreich zu bleiben.",
+    V: "Ich brauche erst Raum, um zu f\u00fchlen, was das f\u00fcr mich bedeutet.",
+    F: "Ich ziehe mich zur\u00fcck, um die neue Lage erst zu durchdenken.",
+  }},
+  { nr: 7, thema: "Was Sie vermeiden wollen", frage: "Was m\u00f6chten Sie um fast jeden Preis vermeiden?", antworten: {
+    S: "Eingeengt zu sein oder etwas Wichtiges zu verpassen.",
+    A: "Kontrolliert oder schwach zu wirken.",
+    N: "Streit oder einen Bruch in einer wichtigen Beziehung.",
+    E: "Im Unrecht zu sein oder etwas falsch gemacht zu haben.",
+    Z: "Nicht gebraucht oder nicht geliebt zu werden.",
+    D: "Als erfolglos oder wertlos dazustehen.",
+    V: "Gew\u00f6hnlich oder bedeutungslos zu wirken.",
+    F: "\u00dcberfordert zu sein oder nicht genug zu wissen.",
+    X: "Ohne Halt oder Unterst\u00fctzung dazustehen.",
+  }},
+  { nr: 8, thema: "N\u00e4he & Beziehungen", frage: "Was treibt Sie innerlich in engen Beziehungen am meisten an?", antworten: {
+    A: "Ich will offen und ehrlich sein, auch wenn es unbequem ist.",
+    N: "Ich will, dass zwischen uns nie echte Spannung entsteht.",
+    E: "Ich will ein verl\u00e4sslicher, integrer Partner sein.",
+    Z: "Ich will sp\u00fcren, dass ich wirklich gebraucht und geliebt werde.",
+    D: "Ich will, dass mein Gegen\u00fcber stolz auf mich ist.",
+    V: "Ich will wirklich gesehen werden, so wie ich innerlich bin.",
+    F: "Ich brauche genug eigenen Raum, um nicht \u00fcberflutet zu werden.",
+    X: "Ich will wissen, dass ich mich auf die Beziehung verlassen kann.",
+    S: "Ich will, dass die Beziehung leicht und lebendig bleibt.",
+  }},
+  { nr: 9, thema: "Lob & Erfolg", frage: "Was bedeutet Lob oder Anerkennung innerlich wirklich f\u00fcr Sie?", antworten: {
+    N: "Sch\u00f6n, vor allem, weil es zeigt, dass Harmonie zwischen uns herrscht.",
+    E: "Best\u00e4tigung, dass ich es richtig gemacht habe.",
+    Z: "Der Beweis, dass ich f\u00fcr andere wichtig bin.",
+    D: "Der eigentliche Treibstoff, der mich weitermachen l\u00e4sst.",
+    V: "Sch\u00f6n, aber nur, wenn es wirklich mein echtes Selbst trifft.",
+    F: "Angenehm, aber ich brauche es nicht, um zu wissen, was ich kann.",
+    X: "Beruhigend, weil es zeigt, dass ich auf dem richtigen Weg bin.",
+    S: "Sch\u00f6n, aber ich bin schon beim n\u00e4chsten spannenden Ding.",
+    A: "Nett, aber wichtiger ist mir, dass ich selbst wei\u00df, was ich geleistet habe.",
+  }},
+  { nr: 10, thema: "Ganz f\u00fcr sich", frage: "Was treibt Sie an, wenn wirklich niemand zuschaut und Sie ganz bei sich sind?", antworten: {
+    E: "Der innere Anspruch, es auch dann richtig zu machen.",
+    Z: "Die Frage, wie es den Menschen geht, die mir wichtig sind.",
+    D: "Der Wunsch, an mir und meinen Zielen weiterzuarbeiten.",
+    V: "Die Suche nach dem, was sich f\u00fcr mich wirklich echt anf\u00fchlt.",
+    F: "Die Neugier, ein Thema wirklich zu durchdringen.",
+    X: "Die Frage, worauf ich mich in Zukunft verlassen kann.",
+    S: "Die Vorfreude auf das, was als N\u00e4chstes kommt.",
+    A: "Der innere Drang, die Dinge selbst in die Hand zu nehmen.",
+    N: "Das Bed\u00fcrfnis, endlich ganz zur Ruhe zu kommen.",
+  }},
+];
+
+let schnellState = (() => {
+  try {
+    const saved = localStorage.getItem("kompass:schnellState");
+    if (saved) return JSON.parse(saved);
+  } catch(e) {}
+  return { phase: "intro", qIndex: 0, answers: {} };
+})();
+function _saveSchnellState() {
+  try { localStorage.setItem("kompass:schnellState", JSON.stringify(schnellState)); } catch(e) {}
+}
+
+function motivationsSchnelltestPage() {
+  const ss = schnellState;
+
+  if (ss.phase === "intro") {
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Motivations-Schnelltest \u00b7 schnelle Orientierung</p>
+          <h1 class="typentest-titel">Was treibt Sie im Kern an?</h1>
+          <p class="typentest-intro">Dieser kompakte Test fragt nicht danach, wie Sie sich verhalten, sondern <strong>warum</strong> Sie so handeln. W\u00e4hlen Sie bei jeder der 10 Fragen die eine Aussage, die Ihren inneren Antrieb am treffendsten beschreibt.</p>
+          <div class="typentest-hinweis" style="margin-bottom:1.2rem;">
+            <strong>Wichtiger Hinweis, bevor Sie starten:</strong> Dieser Schnelltest ersetzt nicht den ausf\u00fchrlichen <a href="javascript:void(0)" data-route="typentest-motivational">100-Fragen-Motivationstest</a>. Er gibt in wenigen Minuten eine erste Richtung \u2013 nicht mehr, aber auch nicht weniger. Verhalten allein verr\u00e4t wenig \u00fcber den Typ; erst das Motiv dahinter, das \u201eWarum\u201c, macht den Unterschied.
+          </div>
+          <ul class="typentest-hinweis" style="list-style:none;padding:0;margin:1.2rem 0;">
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; 10 Fragen aus unterschiedlichen Lebensbereichen</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; Je Frage: eine Antwort, die am ehesten zutrifft</li>
+            <li style="padding:0.35rem 0;">&#8226; Dauer: ca. 3&ndash;5 Minuten</li>
+          </ul>
+          ${bookTip("motivationaler-enneagramm-typentest", "Das Buch zum ausf\u00fchrlichen Test \u2013 motivationale Hintergr\u00fcnde, Auswertungshilfen und vertiefende Erl\u00e4uterungen zu allen 9 Typen.", "Motivationaler Enneagrammtypentest")}
+          <button class="typentest-start-btn" data-schnell-start>Test starten &#8594;</button>
+        </div>
+      </div>
+    `);
+  }
+
+  if (ss.phase === "test") {
+    const total = MOTIV_SCHNELLTEST.length;
+    const qi = ss.qIndex;
+    const q = MOTIV_SCHNELLTEST[qi];
+    const pct = Math.round((qi / total) * 100);
+    const chosen = ss.answers[q.nr];
+    const letters = Object.keys(q.antworten);
+
+    const answerCards = letters.map(letter => {
+      const isChosen = chosen === letter;
+      return `<button class="motiv-answer${isChosen ? " motiv-answer--first" : ""}" data-schnell-answer="${letter}" data-schnell-qnr="${q.nr}">
+        <span class="motiv-answer__text">${q.antworten[letter]}</span>
+      </button>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <div class="motiv-progress">
+            <span class="motiv-progress__label">Frage ${qi + 1} von ${total}</span>
+            <div class="motiv-progress__track"><div class="motiv-progress__bar" style="width:${pct}%"></div></div>
+          </div>
+          <p class="eyebrow" style="margin-top:1.2rem;">Frage ${q.nr}: ${q.thema}</p>
+          <p class="typentest-frage">${q.frage}</p>
+          <p class="typentest-intro" style="margin-bottom:0.8rem;">W\u00e4hlen Sie die Aussage, die Ihr inneres <strong>Warum</strong> am treffendsten beschreibt.</p>
+          <div class="motiv-answer-grid">
+            ${answerCards}
+          </div>
+          <div class="typentest-cta-group" style="margin-top:1.5rem;">
+            ${qi > 0 ? `<button class="ghost-link" data-schnell-back>&#8592; Zur\u00fcck</button>` : ""}
+            <button class="typentest-start-btn" data-schnell-next ${chosen ? "" : "disabled"} style="${chosen ? "" : "opacity:0.45;cursor:not-allowed;"}">${qi < total - 1 ? "Weiter &#8594;" : "Ergebnis anzeigen &#8594;"}</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+
+  if (ss.phase === "result") {
+    const scores = {};
+    for (let t = 1; t <= 9; t++) scores[t] = 0;
+    for (const [, letter] of Object.entries(ss.answers)) {
+      const t = LETTER_TO_TYPE[letter];
+      if (t) scores[t] += 1;
+    }
+    const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+    const topType = parseInt(sorted[0][0]);
+    const topScore = sorted[0][1];
+    const maxScore = topScore || 1;
+    const col = typeColor(topType);
+
+    const scoreBars = sorted.map(([typ, score], i) => {
+      const pct = Math.round((score / maxScore) * 100);
+      const highlight = i === 0 ? `style="background:${col}"` : "";
+      return `
+        <div class="motiv-score-row">
+          <span class="motiv-score-label">Typ&nbsp;${typ}</span>
+          <div class="motiv-score-track">
+            <div class="motiv-score-bar ${i === 0 ? "motiv-score-bar--top" : ""}" ${highlight} style="width:${pct}%"></div>
+          </div>
+          <span class="motiv-score-num">${score}</span>
+        </div>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card typentest-card--result">
+          <p class="eyebrow">Ihr Ergebnis</p>
+          <div class="typentest-result-badge" style="border-color:${col};color:${col}">${topType}</div>
+          <h2 class="typentest-titel" style="color:${col}">${TYPNAMEN[topType]}</h2>
+          <p class="typentest-intro">Ihre Antworten deuten auf <strong>Typ&nbsp;${topType}</strong> hin. Bei nur 10 Fragen ist das ein erster Hinweis, kein Beweis.</p>
+
+          <div style="display:grid;gap:0.4rem;margin:1.2rem 0;">${scoreBars}</div>
+
+          <div class="typentest-disclaimer" style="margin-top:0.5rem;">
+            <strong>Zur Einordnung:</strong> Dieser Schnelltest ersetzt nicht den ausf\u00fchrlichen 100-Fragen-Test. Wenn zwei oder drei Typen nah beieinanderliegen, lohnt sich der lange Test oder eine pers\u00f6nliche Typisierungsberatung.
+          </div>
+
+          <div class="typentest-cta-group">
+            <button class="primary" style="background:${col};border-color:${col}" data-route="type/${topType}">Zum Typ&nbsp;${topType} im Kompass &#8594;</button>
+            <button class="ghost-link" data-route="typentest-motivational">Ausf\u00fchrlichen 100-Fragen-Test machen &#8594;</button>
+          </div>
+
+          <button class="ghost-link" data-schnell-reset>Test wiederholen</button>
+          <button class="ghost-link" data-route="dashboard">&#8592; Zum Dashboard</button>
+        </div>
+      </div>
+    `);
+  }
+
+  return shell(`${pageHeader("motivations-schnelltest")}<div class="typentest-wrap"><p>Fehler im Test.</p></div>`);
+}
+
+function bindSchnelltest() {
+  document.querySelector("[data-schnell-start]")?.addEventListener("click", () => {
+    schnellState = { phase: "test", qIndex: 0, answers: {} };
+    _saveSchnellState();
+    history.pushState({test:true}, "");
+    render();
+  });
+
+  document.querySelector("[data-schnell-next]")?.addEventListener("click", () => {
+    if (schnellState.qIndex < MOTIV_SCHNELLTEST.length - 1) {
+      schnellState.qIndex++;
+    } else {
+      schnellState.phase = "result";
+    }
+    _saveSchnellState();
+    history.pushState({test:true}, "");
+    render();
+  });
+
+  document.querySelector("[data-schnell-back]")?.addEventListener("click", () => {
+    if (schnellState.qIndex > 0) { schnellState.qIndex--; render(); }
+  });
+
+  document.querySelectorAll("[data-schnell-answer]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const letter = btn.dataset.schnellAnswer;
+      const nr = parseInt(btn.dataset.schnellQnr);
+      schnellState.answers[nr] = letter;
+      _saveSchnellState();
+      render();
+    });
+  });
+
+  document.querySelector("[data-schnell-reset]")?.addEventListener("click", () => {
+    schnellState = { phase: "intro", qIndex: 0, answers: {} };
+    localStorage.removeItem("kompass:schnellState");
+    render();
+  });
 }
 
 // \u2500\u2500 TYPENTEST \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
@@ -10617,332 +10909,4 @@ const JAZZ_TRACKS = {
   "85": [{t:"Dawn's Swinging Revelation",s:0}, {t:"Destiny's Rhythmic Dance",s:182}, {t:"Echoes of Timeless Swing",s:382}, {t:"Urban Pulse of Healing",s:664}, {t:"Swing of Unfolding Hearts",s:882}, {t:"Cadence of Inner Wisdom",s:1073}, {t:"Syncopated Journeys",s:1266}, {t:"Harmonic Convergence",s:1444}, {t:"Resonance of the Infinite",s:1657}, {t:"Swing of Serendipity",s:1879}, {t:"Unveiled Truths in Swing",s:2080}, {t:"Rebirth Beneath the Swing",s:2275}],
   "86": [{t:"Lighthearted Improvisations",s:0}, {t:"Liveliness of the Moment",s:324}, {t:"Illusion of the Past",s:500}, {t:"Love is a Mystery",s:782}, {t:"Simplicity of Life",s:967}, {t:"Lost Dreams",s:1161}, {t:"Always Now",s:1401}, {t:"The Way Home",s:1575}, {t:"Everlasting Spring",s:1815}, {t:"Past Feelings",s:2048}, {t:"What Else, What Else",s:2288}, {t:"Such Is Life",s:2357}, {t:"Driving Without Destination",s:2579}, {t:"Minor Steps in Major Time",s:2770}, {t:"Highway to Silence",s:2922}, {t:"Moonlight Over Mulholland",s:3070}, {t:"Shadows on Melrose",s:3253}, {t:"Whispers from the Coast",s:3473}, {t:"The Coffee Was Jazz",s:3713}, {t:"Cool Breeze, Warm Soul",s:3884}],
 };
-
-function detlefRathmerJazzPage() {
-  const kachel = (id, label, tracks, desc, langs) => `
-    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
-      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
-      <div style="position:relative;aspect-ratio:16/9;background:#000;">
-        <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${id}?rel=0"
-          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-      </div>
-      ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
-      ${langs && langs.length ? `
-      <details style="padding:0.4rem 1rem 0.6rem;">
-        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
-          \u25b6 In ${langs.length} weiteren Sprachen
-        </summary>
-        <ul style="margin:0.4rem 0 0;padding-left:1.2rem;font-size:0.81rem;line-height:2;">
-          ${langs.map(l => `<li><a href="https://www.youtube.com/watch?v=${l.id}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${l.label}</a></li>`).join("")}
-        </ul>
-      </details>` : ""}
-      ${tracks && tracks.length ? `
-      <details style="padding:0.4rem 1rem 0.6rem;">
-        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
-          \u25b6 Alle ${tracks.length} Songs
-        </summary>
-        <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
-          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
-        </ol>
-      </details>` : ""}
-    </div>
-  `;
-
-  const jazzAlben = [
-    { id: "LcOU_Hn_yBo", num: "64", label: "Album 64 \u2013 Jazz of Eternal Reflections" },
-    { id: "pKnb8mB0Zfo", num: "65", label: "Album 65 \u2013 Jazz of the Soul\u2019s Journey" },
-    { id: "UUV-PEfF_nM", num: "66", label: "Album 66 \u2013 Timeless Currents" },
-    { id: "k9cTNPdppLk", num: "67", label: "Album 67 \u2013 Jazz of Life\u2019s Essence" },
-    { id: "h0sa7RYZM1E", num: "68", label: "Album 68 \u2013 Jazz of Infinite Horizons" },
-    { id: "BEWN4kSD0BY", num: "69", label: "Album 69 \u2013 Jazz of the Heart\u2019s Journey" },
-    { id: "xPExswhyM14", num: "70", label: "Album 70 \u2013 Jazz of Serendipity" },
-    { id: "r00wftzVgB4", num: "71", label: "Album 71 \u2013 Jazz of Awakening" },
-    { id: "pD4nIBarcLM", num: "72", label: "Album 72 \u2013 Jazz of Timeless Whispers" },
-    { id: "bjuxx198edA", num: "73", label: "Album 73 \u2013 Jazz of Inner Light" },
-    { id: "jtN0f9j99Lc", num: "74", label: "Album 74 \u2013 Jazz of the Unwritten Path" },
-    { id: "HkzeR-6z428", num: "75", label: "Album 75 \u2013 Jazz of the Wandering Soul" },
-    { id: "4O3ukz_lkTM", num: "76", label: "Album 76 \u2013 Jazz & Healing Vibes", desc: "70 der sch\u00f6nsten Jazzkompositionen von Detlef Rathmer \u2013 eine 3\u00be-st\u00fcndige Reise durch Klang und Wohlbefinden." },
-    { id: "BIVoUgrInEY", num: "77", label: "Album 77 \u2013 Jazz of the Eternal Flow" },
-    { id: "jwaiY-XAICw", num: "78", label: "Album 78 \u2013 Jazz of Destiny\u2019s Flow" },
-    { id: "vHzAIXpkOro", num: "79", label: "Album 79 \u2013 Jazz of the Unfolding Mystery" },
-    { id: "71n7_wtBpRw", num: "80", label: "Album 80 \u2013 Jazz of Sacred Moments" },
-    { id: "2H8AeBJiD1Q", num: "81", label: "Album 81 \u2013 Jazz of Life\u2019s Symphony" },
-    { id: "VL5UoR4u-b4", num: "82", label: "Album 82 \u2013 Jazz of Sacred Frequencies" },
-    { id: "lpaiPZmq3cM", num: "83", label: "Album 83 \u2013 Jazz of Hidden Truth" },
-    { id: "NE7kqSM1PGU", num: "84", label: "Album 84 \u2013 Jazz of Vital Resonance" },
-    { id: "1AGJ32cw6lI", num: "85", label: "Album 85 \u2013 Swinging Jazz of Cosmic Clarity" },
-    { id: "LlqDcFqqm8I", num: "86", label: "Album 86 \u2013 Spirit of 1950s West Coast Jazz" },
-    { id: "U5CgE4r9G9c", num: "87", label: "Album 87 \u2013 Spirit of 1920s New Orleans Jazz (Dixieland)", desc: "Mitrei\u00dfende Klarinetten, Trompeten und Posaunen im Dixieland-Stil des fr\u00fchen New-Orleans-Jazz." },
-    { id: "MC-fXn94Nv0", label: "Album 88 \u2013 Spirit of 1930s Energetic Swing Jazz", desc: "Mitrei\u00dfende Big-Band-Kl\u00e4nge und tanzbare Rhythmen des Swing-Jazz der 1930er Jahre." },
-    { id: "GInMSoLraG0", num: "89", label: "Album 89 \u2013 Spirit of 1940s Fast-paced Bebop Jazz", desc: "Rasanter Bebop mit komplexen Harmonien und virtuosen Soli \u2013 Jazz der 1940er in seiner schnellsten Form." },
-    { id: "Vnre_ymfs3Y", label: "Album 90 \u2013 Spirit of 1950s Smooth Cool Jazz", desc: "Sanfte Melodien und weiche Bl\u00e4ser im Stil des Cool Jazz der 1950er \u2013 entspannt und stilvoll." },
-    { id: "-MK_u80PKWw", label: "Album 91 \u2013 Spirit of Lively Latin Jazz", desc: "Lateinamerikanische Rhythmen treffen auf Jazz-Improvisation \u2013 kubanische und brasilianische Einfl\u00fcsse." },
-    { id: "ddD6oSU_I_4", label: "Album 92 \u2013 Spirit of Meditative Modal Jazz", desc: "Modaler Jazz mit wenigen Harmoniewechseln und viel Tiefe \u2013 meditativ und frei in der Improvisation." },
-    { id: "uoDD_45vCgU", label: "Album 93 \u2013 Spirit of Relaxing Lo-Fi Jazz", desc: "Entspannter Lo-Fi-Jazz mit weichen Beats und nostalgischem Klang \u2013 ideal zum Lernen, Arbeiten oder Entspannen." },
-    { id: "IaxD4i3ZIUo", num: "94", label: "Album 94 \u2013 Lo-Fi Jazz of the Unwritten Language of Life", desc: "Lo-Fi Jazz als Sprache des Lebens \u2013 zwischen Stille und Schwingen, wo keine Worte mehr n\u00f6tig sind." },
-    { id: "5d-jXATn2Lk", num: "95", label: "Album 95 \u2013 Jazz of Gravity and Grace", desc: "Schwere und Anmut im Dialog \u2013 Jazz, der die Erdung mit der Leichtigkeit des Seins verbindet." },
-    { id: "xIIbqGrQB_U", label: "Album 96 \u2013 Jazz of Echoes Beyond the Form", desc: "Klangreisen jenseits der Form \u2013 Jazz als Spiegel des Unausgesprochenen und Fluss des inneren Nachhalls." },
-    { id: "BDyzUXBdy-o", num: "97", label: "Album 97 \u2013 Jazz of Inner Stillness (Lo-fi, Bossanova)", desc: "Lo-Fi und Bossanova im Zeichen der inneren Stille \u2013 Musik f\u00fcr ruhige Momente und tiefes Atemholen." },
-    { id: "g8k8nzvnTSo", label: "Album 98 \u2013 Jazz of the Spiritual Flow", desc: "Lo-fi, Bossa und Swing im Fluss des Spirituellen \u2013 Musik f\u00fcr tiefe Stille und innere Weite." },
-    { id: "jw9n6Dccr7M", num: "99", label: "Album 99 \u2013 Jazz of Cosmic Law (Lo-fi, Swing Jazz)", desc: "Lo-Fi und Swing im Einklang mit dem kosmischen Gesetz \u2013 Rhythmus und Stille als Ausdruck der Weltordnung." },
-    { id: "5AYWhg50bnw", label: "Album 100 \u2013 Jazz XXI \u2013 21st Century Jazz", desc: "Lo-fi, Swing und Nordic Jazz des 21. Jahrhunderts \u2013 zeitgen\u00f6ssischer Jazz zwischen Stille und Energie." },
-    { id: "ku-pxWpNCZc", num: "101", label: "Album 101 \u2013 Stillness in the Shifting Sky (Nordic Jazz)", desc: "Nordischer Jazz unter wechselndem Himmel \u2013 Stille und Bewegung, Licht und Wolken in klingender Form." },
-    { id: "4firu1KRKIk", label: "Album 102 \u2013 Breath of the Unseen (Nordic Jazz)", desc: "Nordischer Jazz mit Atem und Weite \u2013 Musik f\u00fcr das Unsichtbare zwischen den T\u00f6nen." },
-  ];
-
-  const enneagrammAlben = [
-    { id: "J0Vq9I81i-Q", num: "14", label: "Album 14 \u2013 Irish Folk & Enneagram (English)" },
-    { id: "OUQ5-VXvK7M", num: "15", label: "Album 15 \u2013 Bossa Nova & Enneagramm (Portugu\u00eas)" },
-    { id: "59S6PAWebZ8", num: "16", label: "Album 16 \u2013 Bossa Nova & Enneagram (English)" },
-    { id: "T057IXeqDG4", num: "17", label: "Album 17 \u2013 Bossa Nova & Enneagramm (Deutsch)" },
-    { id: "2qaItk2k21s", num: "18", label: "Album 18 \u2013 Love Ballads & Enneagram" },
-    { id: "LoUJ6097Als", num: "19", label: "Album 19 \u2013 Classical Music & Enneagram" },
-    { id: "LSpTS9uSeaM", num: "20", label: "Album 20 \u2013 R&B Meets Enneagram" },
-    { id: "nwXeqwPDTr0", num: "21", label: "Album 21 \u2013 Reggae Meets Enneagram" },
-    { id: "7HFR5e_mS-E", num: "22", label: "Album 22 \u2013 Charming German Hits Meets Enneagram" },
-    { id: "QWeHHcDySkk", label: "Album 23 \u2013 Rap Meets Enneagram" },
-    { id: "mumR1QESNzQ", label: "Album 24 \u2013 Healing Music for Enneagram Type 1" },
-    { id: "6nCg7G-91Lc", label: "Album 25 \u2013 Healing Music for Enneagram Type 2" },
-    { id: "8SmbE-4Za_k", label: "Album 26 \u2013 Healing Music for Enneagram Type 3" },
-    { id: "R09IW7vjcxQ", label: "Album 27 \u2013 Healing Music for Enneagram Type 4" },
-    { id: "rzkLF6KDCFw", label: "Album 28 \u2013 Healing Music for Enneagram Type 5" },
-    { id: "rIfT6OQgOAU", label: "Album 29 \u2013 Healing Music for Enneagram Type 6" },
-    { id: "BVYOCZ6xMlA", label: "Album 30 \u2013 Healing Music for Enneagram Type 7" },
-    { id: "afuljgIKAOU", label: "Album 31 \u2013 Healing Music for Enneagram Type 8" },
-    { id: "prWKIp0Voq8", label: "Album 32 \u2013 Healing Music for Enneagram Type 9" },
-    { id: "HRAp3ECem00", label: "Album 46 \u2013 Healing Music for Soziale Vierer (SO4)" },
-    { id: "QogJd6km5W8", label: "Album 61 \u2013 Healing Music for Selbsterhaltende Neuner (SE9)" },
-  ];
-
-  const deutschsprachigeSongs = [
-    { id: "UIs80tsNcmE", label: "Enneagramm-Hymne \u2013 Loblied auf die 9 Typen" },
-    { id: "0wuNFvrDWgs", label: "27 Pfade \u2013 Song \u00fcber die 27 Pers\u00f6nlichkeiten" },
-    { id: "UiiJxzKg_8k", label: "Neun Wege \u2013 Jazz-Version" },
-    { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song" },
-    { id: "1OPgSJAh5OE", label: "Blei zu Gold \u2013 Die innere Transformation der 9 Typen" },
-    { id: "Pg7AIif63lE", label: "Zwei Stimmen, ein Lied \u2013 Seelische Bed\u00fcrfnisse des Menschseins" },
-    { id: "ZKzxDWLHj8M", label: "Die Zeit in meinen H\u00e4nden \u2013 Zeitempfinden der 9 Typen" },
-    { id: "F-o0e7y8ElY", label: "Das Rad der Neun \u2013 Die Wege der 9 Typen" },
-    { id: "LttxUqLQ-I4", label: "Neun Wege, neun Herzen \u2013 Die Tugenden der 9 Typen" },
-    { id: "i6cx6rq-kRk", label: "Neun Typen, neun Wege \u2013 Die Vielf\u00e4ltigkeit der 9 Typen" },
-    { id: "zrcTbu-gzKk", label: "Neun Blicke, neun Welten \u2013 Die Blickqualit\u00e4t der 9 Typen" },
-    { id: "cjXKYMQctmw", label: "Neun Wege, ein Licht \u2013 Die Heiligen Ideen der 9 Typen" },
-    { id: "QjIdQUILK3Y", label: "Neun T\u00f6ne, ein Lied \u2013 Die Essenz des menschlichen Strebens" },
-    { id: "qEduDzF1D2k", label: "9 Typen im Urlaub" },
-    { id: "9_5r279IsVM", label: "9 Typen beim Doktor" },
-    { id: "57eIsbdEBgc", label: "Enneagramm-Ballade" },
-    { id: "RNp2Jlu5qUo", label: "Enneagramm-Blues \u2013 Kindheitsdefizite & Verletzungen" },
-    { id: "TUO91KK7Ypc", label: "Neun Melodien \u2013 Fixierungen und L\u00f6sungswege" },
-    { id: "sSkjQXl2O4c", label: "Neun Wege der Seele (Irish-Celtic-Stil)" },
-    { id: "O5235kzxzWE", label: "Neun Wege (Rap-Version)" },
-    { id: "UM3WGb8tBMc", label: "Neun Wege (Pop-Version)" },
-    { id: "0qHG9uV-DUw", label: "Neun Wege (Blues-Version)" },
-    { id: "snO3u9gRZis", label: "Neun Wege (Punk-Version)" },
-    { id: "KEHF4dHB1Ic", label: "Neun Wege (Hip-Hop-Version)" },
-    { id: "7ll_OdPJPFQ", label: "Neun Wege (Reggae-Version)" },
-    { id: "FqrNCwpTieU", label: "Neun Wege (Rock-Version)" },
-    { id: "WsfKzMoc3ss", label: "Neun Wege (World-Music-Version)" },
-    { id: "mGgl_ELpgaQ", label: "Neun Wege (Bossa-Nova-Version)" },
-    { id: "HTCLOI-Qtzw", label: "Neun Wege (R'n'B/Soul-Version)" },
-    { id: "ycCGpZqmzeY", label: "Neun Typen, neun Welten, wie sie Weihnachten seh'n" },
-  ];
-
-  const englischsprachigeSongs = [
-    { id: "2li9BrwEdGo", label: "Enneagram Anthem \u2013 Hymn of Praise" },
-    { id: "gKt5ewn7MY4", label: "27 Paths \u2013 Song About the 27 Personalities" },
-    { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song" },
-    { id: "w2iFAGFT5Iw", label: "Nine Gazes, Nine Worlds \u2013 The Gaze Qualities of the Nine Types" },
-    { id: "Hjww24C4v_o", label: "Enneagram Ballad" },
-    { id: "ldFzU1hRIVU", label: "Nine Paths, Nine Hearts (Irish Folk Style)" },
-    { id: "Vbb0nSQp-6s", label: "Through Your Eyes \u2013 Inner Abundance & Self-Awareness" },
-    { id: "hpTRcrA0kTg", label: "Nine Types at the Doctor's" },
-    { id: "C03WAWfyfk0", label: "Enneagram on Holiday" },
-    { id: "eIyXdMkS4Dk", label: "Nine Types, Nine Worlds, Their Christmas in View \ud83c\udf84" },
-  ];
-
-  const flammenDesLebensSongs = [
-    { id: "zQV3lWHeOWk", label: "Flammen des Lebens \u2013 Die Leidenschaften der 9 Typen (Deutsch)" },
-    { id: "gfGQVCffmL0", label: "Flames of Life \u2013 The Passions of the 9 Types (English)" },
-    { id: "bTNPBa2CCPQ", label: "Flammes de Vie (Fran\u00e7ais)" },
-    { id: "ccmZzNuGsQw", label: "Llamas de la Vida (Espa\u00f1ol)" },
-    { id: "lwgNhlyj_Vs", label: "Fiamme della Vita (Italiano)" },
-    { id: "t3elU2OR-P8", label: "Chamas da Vida (Portugu\u00eas)" },
-    { id: "ceWj_6bq5sY", label: "Hayat\u0131n Alevleri (T\u00fcrk\u00e7e)" },
-    { id: "zhfEHpi7guY", label: "\u041e\u0433\u043d\u0438 \u0436\u0438\u0437\u043d\u0438 (\u0420\u0443\u0441\u0441\u043a\u0438\u0439)" },
-    { id: "TONsxxciVeM", label: "\u0412\u043e\u0433\u043e\u043d\u044c \u0436\u0438\u0442\u0442\u044f (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430)" },
-    { id: "RWnOplcD-NM", label: "\u091c\u0940\u0935\u0928 \u0915\u0940 \u091c\u094d\u0935\u093e\u0932\u093e (\u0939\u093f\u0928\u094d\u0926\u0940)" },
-    { id: "PCbcJQYfJPQ", label: "\u751f\u547d\u4e4b\u706b (\u4e2d\u6587)" },
-  ];
-
-const SPIRITUELL_TRACKS = {
-  "35": [
-    "Buddha's Song (Siddhartha Gautama)",
-    "Douglas' Song (Douglas Harding)",
-    "Epicurus' Song (Epikur von Samos)",
-    "Goethe's Song (Johann Wolfgang von Goethe)",
-    "Huang Po's Song (Pei Xiu)",
-    "Jesus Christ Song (Jeschua ha-Nozri)",
-    "Jiddu's Song (Jiddu Krishnamurti)",
-    "Lao Tzu's Song (L\u012b \u0292r)",
-    "Marcus Aurelius' Song",
-    "Master Eckhart's Song (Eckhart von Hochheim)",
-    "Nisargadatta's Song (Nisargadatta Maharaj)",
-    "Osho's Song (Rajneesh Chandra Mohan Jain)",
-    "Ramana's Song (Venkataraman Iyer)",
-    "Ramesh's Song (Ramesh Sitaram Balsekar)",
-    "Rumi's Song (Dschalal ad-Din Muhammad Rumi)",
-    "Shankara's Song",
-    "Sokrates' Song",
-    "Spinoza's Song (Baruch de Spinoza)",
-  ],
-};
-
-  const spirituelleSongs = [
-    { id: "5IDHooCHCqc", num: "35", label: "Album 35 \u2013 Masters of the Art of Living (18 Spiritual Songs)" },
-    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Hom\u00f6opathie" },
-    { id: "KGl8HgGkOr0", label: "True Love \u2013 A Song About True Love Beyond All Forms" },
-    { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
-    { id: "Jx5Do6FMZT0", label: "I Am the Light \u2013 What We Really, Truly Are" },
-    { id: "D8SJdoRG_qA", label: "Ich bin das Licht (Deutsch)" },
-    { id: "77_c82jSzKE", label: "Happiness \u2013 The Nature of Happiness Beyond All Ideas" },
-    { id: "lVFsolN5SEg", label: "Gl\u00fcck \u2013 Das Wesen des Gl\u00fccks (Deutsch)" },
-    { id: "JWpnfwWLeAw", label: "The Meaning \u2013 The Profound Question of Life\u2019s Purpose" },
-    { id: "FqQVnBwlPQE", label: "Der Sinn \u2013 Song \u00fcber den Sinn des Lebens (Deutsch)" },
-    { id: "BjmK-rYIssY", label: "Peace Without a Reason" },
-    { id: "IbqquR7wrOM", label: "Two Sides of a Coin \u2013 The Polarities of Life" },
-    { id: "yeFTF6ORXM0", label: "Circle of Truth" },
-    { id: "g01kM6W_6r4", label: "Br\u00fccke zu mir \u2013 Eine musikalische Reise zur Selbsterkenntnis" },
-    { id: "NJ0p8bWs_bs", label: "Im Spiegel des Enneagramms \u2013 Die innere Reise der Selbsterkenntnis" },
-  ];
-
-  const liebeslieder = [
-    { id: "vqtriJwS9So", label: "1. Wenn du bei mir bist" },
-    { id: "rCbdd7DbWfw", label: "2. Hinter deinen Schatten" },
-    { id: "fmabw2nvHvI", label: "3. Was bleibt von uns" },
-    { id: "tAzZV6z8nL8", label: "4. So f\u00fchlt sich Ewigkeit an" },
-    { id: "6CSq2mRUJiE", label: "5. Zwischen den Zeilen" },
-    { id: "-elL4ahOCOI", label: "6. Dein Licht in mir" },
-    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
-    { id: "i4GxkTdlPCk", label: "8. F\u00fcr immer und ein Tag" },
-    { id: "c2CcthcXRxc", label: "9. Fl\u00fcgel aus Licht" },
-    { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "Ein Liebeslied f\u00fcr die neun Typen des Enneagramms \u2013 jeder Typ wird mit seiner ganz eigenen Lebensart, seiner Sehnsucht und seinem Weg zur Liebe besungen." },
-  ];
-
-  const grid = (items, tracksMap) => `
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-top:1rem;">
-      ${items.map(a => kachel(a.id, a.label, a.num ? (tracksMap || JAZZ_TRACKS)[a.num] : null, a.desc || null, a.langs || null)).join("")}
-    </div>
-  `;
-
-  return shell(`
-    ${pageHeader("detlef-rathmer-jazz")}
-    <div class="section-content">
-
-      <p style="font-size:1.05rem;line-height:1.7;margin-bottom:1.5rem;">
-        \u00dcber 40 Jahre habe ich Menschen an Volkshochschulen im Bereich der Hom\u00f6opathie,
-        aber auch im Bereich Gitarre unterrichtet \u2013 und w\u00e4hrend all dieser Zeit begleitete mich
-        die Musik auch privat immer wieder. Auf dieser Seite finden Sie meine Jazz-Alben,
-        meine Enneagramm-Songs und spirituelle Lieder \u2013 alles, was ich \u00fcber die Jahre
-        komponiert und aufgenommen habe.
-      </p>
-
-      <!-- Abschnitts-Navigation -->
-      <nav id="dr-top" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2.5rem;">
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-jazz').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Jazz-Alben</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-alben').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Alben</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Songs</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Deutschsprachige Songs</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-en-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Englischsprachige Songs</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-flammen').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Flammen des Lebens</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-spirituell').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Spirituelle Songs</button>
-        <button class="chip-nav-btn" onclick="document.getElementById('dr-liebe').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Liebeslieder</button>
-      </nav>
-
-      <h2 id="dr-jazz" style="margin-top:0;margin-bottom:0.3rem;">Jazz-Alben</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        30 Jazz-Alben zum Entspannen und Heilen \u2013 Kanal:
-        <a href="https://www.youtube.com/@SOULFULJAZZHIGHERVIBES/videos" target="_blank" rel="noopener"
-           style="color:var(--copper);">@SOULFULJAZZHIGHERVIBES</a>
-      </p>
-      ${grid(jazzAlben)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Entspannungs- und Heilungsmusik f\u00fcr alle 9 Enneagrammtypen sowie thematische Alben.
-      </p>
-      ${grid(enneagrammAlben, ENNEA_TRACKS)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h2 id="dr-enn-songs" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Songs</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Einzelne Lieder rund um das Enneagramm \u2013 zum Mitsingen und Nachdenken. Im ersten Teil finden Sie die
-        deutschsprachigen, im zweiten Teil die englischsprachigen Songs. Die Hom\u00f6opathie-Songs finden Sie auf der eigenen Seite
-        <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Hom\u00f6opathie & Songs</a>.
-      </p>
-
-      <h3 id="dr-de-songs" style="margin-top:1.5rem;margin-bottom:0.3rem;">Deutschsprachige Enneagramm-Songs</h3>
-      ${grid(deutschsprachigeSongs)}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h3 id="dr-en-songs" style="margin-top:2.5rem;margin-bottom:0.3rem;">Englischsprachige Enneagramm-Songs</h3>
-      ${grid(englischsprachigeSongs)}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      ${grid([
-        { id: "lq0d0zpwiik", label: "Das Enneagramm-Lied (Unplugged)" },
-        { id: "xDYFjndwt2A", label: "Wer du wirklich bist \u2013 Ein Enneagramm-Klassiker" },
-      ])}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-flammen",label:"Flammen des Lebens"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h2 id="dr-flammen" style="margin-top:3rem;margin-bottom:0.3rem;">Internationales Musikprojekt: Flammen des Lebens</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Derselbe Songtext \u2013 die Leidenschaften der 9 Enneagrammtypen \u2013 in elf Weltsprachen komponiert und arrangiert nach den kulturellen Klangwelten des jeweiligen Landes.
-      </p>
-      ${grid(flammenDesLebensSongs)}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-de-songs",label:"Deutschsprachige Songs"},{route:"detlef-rathmer-jazz|dr-en-songs",label:"Englischsprachige Songs"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h2 id="dr-spirituell" style="margin-top:3rem;margin-bottom:0.3rem;">Spirituelle Songs</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        Lieder \u00fcber das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
-      </p>
-      ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte f\u00fcr den Alltag \u2013 idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
-      ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite \u2013 das stille Buch jenseits aller Pers\u00f6nlichkeitsmuster.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
-      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott \u2013 Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse \u2013 ich bin Gott!")}
-      ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
-      ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden \u2013 der Weg zur Verwandlung des Enneagrammtyps.", "Hinter der Leidenschaft \u2013 die neun Wunden")}
-      ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung \u2013 ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
-      ${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
-      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
-
-      <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        9 Liebeslieder \u2013 auch auf Spotify erh\u00e4ltlich.
-      </p>
-      ${grid(liebeslieder)}
-      ${bookTip("die-sprache-unserer-sexualitaet", "Die Sprache unserer Sexualit\u00e4t \u2013 was Liebeslieder und Eros \u00fcber unsere tiefsten Sehns\u00fcchte verr\u00e4t.", "Die Sprache unserer Sexualit\u00e4t")}
-
-      ${relatedLinks([
-        { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
-        { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
-        { route: "stille", label: "9 Minuten Stille" },
-        { route: "musik", label: "Entspannungs- und Heilungsmusik" },
-        { route: "homoeopathie-songs", label: "Hom\u00f6opathie- und Enneagramm-Hom\u00f6opathie-Songs" },
-        { route: "beruhmte-komponisten", label: "Ber\u00fchmte Komponisten" },
-      ])}
-    </div>
-  `);
-}
 

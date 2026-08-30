@@ -1319,6 +1319,7 @@ const registerEntries = [
 
   // Typentest
   { term: "Typentest (Motivational)",  route: "typentest-motivational", description: "Motivationaler Typentest mit Fokus auf innere Antriebe und Bedürfnisse" },
+  { term: "Motivations-Schnelltest",   route: "motivations-schnelltest", description: "Kompakter 10-Fragen-Test zum inneren Warum – schnelle erste Orientierung" },
   { term: "Gesichts-Scan",             route: "gesichts-scan",          description: "Vorbereitung für die persönliche Typberatung: Foto-Scan oder Kurzvideo aufnehmen" },
 
   // Tierlexikon

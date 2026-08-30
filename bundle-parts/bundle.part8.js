@@ -1,3 +1,201 @@
+function abidaParveenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Abida Parveen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Abida Parveen</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">S\u00e4ngerin, \u201eK\u00f6nigin des Sufi-Gesangs", geb. 1954 in Larkana, Pakistan &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; ein Wesen von enormer Masse, das sich nicht beeilen muss, um Eindruck zu machen. Er bewegt sich in seinem eigenen Rhythmus, geduldig, unersch\u00fctterlich, und wenn er sich einmal in Bewegung setzt, folgt ihm alles um ihn herum. Seine Kraft liegt nicht im Angriff, sondern im schieren Gewicht seiner Pr\u00e4senz.</p>
+          <p class="vb-intro">Die pakistanische S\u00e4ngerin Abida Parveen, geboren 1954 in Larkana, Pakistan, ist dieser Elefant auf der B\u00fchne. Wenn sie in einem farbenpr\u00e4chtigen Gewand auf die B\u00fchne tritt und die Augen schlie\u00dft, geschieht zun\u00e4chst wenig &ndash; keine Show, keine Choreografie, kein Spektakel. Und doch versinkt der gesamte Konzertsaal binnen Minuten in eine kollektive Trance, mitgezogen von einer Stimme, die keine Eile kennt und genau deshalb alles mit sich rei\u00dft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Verschmelzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden durch Beharrlichkeit, durch das vollst\u00e4ndige Einlassen auf den gegenw\u00e4rtigen Moment, durch Sicherheit im Bestehenden statt im Streben nach Neuem. Sie sucht nicht die B\u00fchne der Selbstdarstellung, sondern das stille Verschmelzen mit etwas Gr\u00f6\u00dferem als sich selbst.</p>
+          <p class="vb-intro">Parveen wuchs in einer Familie von Sufi-Musikern auf und wurde von ihrem Vater ausgebildet, obwohl es zu ihrer Zeit un\u00fcblich war, T\u00f6chter zur S\u00e4ngerin auszubilden &ndash; S\u00f6hne wurden bevorzugt. Sie folgte dennoch beharrlich diesem einen Weg, jahrzehntelang, ohne \u00f6ffentliche Rebellion, ohne lautes Auflehnen gegen die Konvention. Die SE9 ver\u00e4ndert die Welt nicht durch Kampf, sondern durch die stille, unbeirrbare Fortsetzung dessen, was sie als ihre Aufgabe erkannt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Die Kraft in der Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der selbsterhaltenden Neun eine Intensit\u00e4t, die einer Neun mit schwach ausgepr\u00e4gtem Achterfl\u00fcgel fehlt: eine k\u00f6rperliche, fast \u00fcberw\u00e4ltigende Kraft, die sich Bahn bricht, sobald der Moment reif ist. Die <strong>SE9w8</strong> ist keine zur\u00fcckhaltende Neun &ndash; sie kann, wenn sie sich \u00f6ffnet, mit einer Wucht auftreten, die niemand erwartet h\u00e4tte.</p>
+          <p class="vb-intro">Genau das geschieht bei Parveens Auftritten: Was als ruhige, meditative Anrufung beginnt, steigert sich unaufhaltsam in eine ekstatische, k\u00f6rperlich sp\u00fcrbare Intensit\u00e4t &ndash; ihre Stimme kann von einem fl\u00fcsternden Gebet zu einem durchdringenden Schrei anschwellen, der ganze Konzerthallen in Bewegung versetzt. Der Achterfl\u00fcgel ist die Kraft, die aus der Hingabe der Neun eine Naturgewalt macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Kalam, Qawwali und die Botschaft der Sufis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abida Parveen gilt weithin als bedeutendste lebende Interpretin des Kalam &ndash; der mystischen Sufi-Poesie von Dichtern wie Bulleh Shah, Shah Hussain und Rumi &ndash; sowie des Qawwali, der traditionellen Sufi-Devotionalmusik. Sie singt in Sindhi, Urdu, Punjabi, Persisch und Saraiki und hat \u00fcber Jahrzehnte hinweg Konzerts\u00e4le von Pakistan \u00fcber Indien bis nach Europa und Nordamerika gef\u00fcllt.</p>
+          <p class="vb-intro">Ihre Musik \u00fcberschreitet bewusst religi\u00f6se und nationale Grenzen: Sie tritt sowohl vor muslimischem als auch vor hinduistischem Publikum auf, wird in Pakistan wie in Indien gleicherma\u00dfen verehrt, und ihre Botschaft der g\u00f6ttlichen Liebe (Ishq) kennt keine konfessionellen Schranken. 2012 wurde sie mit dem UNESCO-Preis f\u00fcr Musik ausgezeichnet, in Pakistan tr\u00e4gt sie den h\u00f6chsten zivilen Verdienstorden, den Hilal-e-Imtiaz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 ist ihre <strong>F\u00e4higkeit, in v\u00f6lliger Hingabe eine Kraft zu entfalten, die weit \u00fcber die eigene Person hinausreicht</strong>. Parveen wird von Millionen Menschen verehrt, weil sie nicht sich selbst inszeniert, sondern zum Gef\u00e4\u00df f\u00fcr etwas wird, das gr\u00f6\u00dfer ist als sie &ndash; die mystische Sehnsucht des Sufismus nach Vereinigung mit dem G\u00f6ttlichen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer Tr\u00e4gheit, die den eigenen k\u00fcnstlerischen Fortschritt bremsen kann: Parveen hat \u00fcber Jahrzehnte im Wesentlichen an derselben Form festgehalten, ohne sich musikalisch grundlegend zu ver\u00e4ndern oder zu experimentieren. Die selbsterhaltende Neun kann in ihrer Beharrlichkeit so tief in einer bew\u00e4hrten Form verankert sein, dass Weiterentwicklung dahinter zur\u00fccktritt &ndash; ein Preis, den auch eine Meisterschaft zahlen kann, die zur Gewohnheit wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der in Trance versinkt und alle mitrei\u00dft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter, aktiver Pr\u00e4senz &ndash; von der Selbstvergessenheit im Allt\u00e4glichen zu einem bewussten Aufgehen in etwas, das gr\u00f6\u00dfer ist als das eigene Ich. Bei Abida Parveen ist genau dieser Weg zum k\u00fcnstlerischen Prinzip geworden: Sie vergisst sich selbst auf der B\u00fchne nicht aus Passivit\u00e4t, sondern aus einer ge\u00fcbten, jahrzehntelang vertieften spirituellen Hingabe.</p>
+          <p class="vb-intro">Wenn Parveen singt, verschwindet die Grenze zwischen Performerin und Publikum, zwischen Diesseits und dem, wovon die Sufi-Dichter sprachen. Das ist die SE9w8 in ihrer reifsten Form: der Elefant, der scheinbar bewegungslos in sich selbst versinkt &ndash; und genau dadurch alle mit sich in Bewegung setzt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function johannesBrahmsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Brahms</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Komponist, 1833–1897 – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun des Enneagramms – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
+          <p class="vb-intro">Der deutsche Komponist Johannes Brahms, geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich als Teenager als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit im Kleinen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden nicht durch große Gesten, sondern durch das verlässliche, oft unscheinbare Ritual – die immer gleiche Kneipe, der immer gleiche Spaziergang, die immer gleiche Sommerfrische. Brahms verkörperte dieses Muster bis ins Detail. Jeden Sommer zog er sich in dieselben ländlichen Orte zurück, um zu komponieren, saß abends verlässlich in seinen Wiener Stammlokalen bei Bier und Zigarre, und hielt an seinen Gewohnheiten mit einer Sturheit fest, die Freunde amüsierte und manchmal auch verzweifeln ließ.</p>
+          <p class="vb-intro">Trotz seines beträchtlichen Vermögens lebte er bewusst einfach – in bescheidenen Wiener Zimmern, ohne Prunk, ohne Dienerschaft. Sein Geld floss stattdessen still und meist anonym an bedürftige Musiker, an die Familien früherer Weggefährten, an den jungen Antonín Dvořák, dessen Karriere er entscheidend förderte. Die SE9 sucht Sicherheit nicht im Besitz, sondern im Vertrauten – und Brahms fand seine Sicherheit darin, gebraucht zu werden, ohne dass es jemand erfuhr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der schroffe Ton hinter der Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun etwas, das bei kaum entwickeltem Achterflügel oft fehlt: eine Kante, die nicht verhandelbar ist. Brahms war berühmt-berüchtigt für seine bissige Schlagfertigkeit. Als er einmal eine Gesellschaft verließ, soll er im Hinausgehen gesagt haben: "Wenn hier jemand ist, den ich nicht beleidigt habe, so bitte ich um Entschuldigung." Das ist keine Anekdote über Bosheit – das ist der Achterflügel, der die konfliktscheue Neun mit einer schneidenden Direktheit ausstattet, die niemand erwartet.</p>
+          <p class="vb-intro">Diese Härte zeigte sich am deutlichsten im sogenannten "Streit der Romantiker": Während Franz Liszt und Richard Wagner mit der "Neudeutschen Schule" die Programmmusik und radikale harmonische Neuerungen vorantrieben, positionierte sich Brahms – gemeinsam mit dem Kritiker Eduard Hanslick – als kompromissloser Verteidiger der klassischen Formen Bachs und Beethovens. Er zog sich aus diesem Streit nie zurück, suchte ihn auch nicht aktiv – aber wenn er einmal Stellung bezogen hatte, bewegte ihn niemand mehr davon weg. Das ist die Neun mit Achterflügel: geduldig bis zu dem Punkt, an dem sie es nicht mehr ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als beharrliches Feilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – nicht Faulheit, sondern das Beharren im Vertrauten, die Weigerung, sich hetzen zu lassen. Bei Brahms wurde daraus eine schöpferische Geduld von fast unmenschlichem Ausmaß: Über 21 Jahre arbeitete er an seiner 1. Symphonie, weil er sich im übermächtigen Schatten Beethovens sah und jeden Takt so lange prüfte, bis er ihm standhielt. Der Dirigent Hans von Bülow nannte das fertige Werk später respektvoll "Beethovens Zehnte".</p>
+          <p class="vb-intro">Diese Trägheit war kein Mangel an Ehrgeiz, sondern das genaue Gegenteil: ein Beharren, das sich nicht drängen ließ, auch nicht vom eigenen Talent. Brahms vernichtete unzählige frühe Werke, die ihm nicht genügten, und veröffentlichte lieber gar nichts als etwas Unfertiges. Die Neun, die im Vertrauten Sicherheit sucht, fand ihre Sicherheit hier in der klassischen Form selbst – und weigerte sich, sie zu verlassen, bevor sie sie vollständig durchdrungen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Robert und Clara Schumann: Die geteilte Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1853 spielte der 20-jährige, noch unbekannte Brahms dem Ehepaar Schumann in Düsseldorf vor. Robert Schumann – selbst eine sexuelle Sieben mit Achterflügel (SX7w8) – erkannte in ihm sofort den kommenden Meister und verkündete es der Welt in seinem Essay "Neue Bahnen" ohne jede Zurückhaltung. Zwei Achterflügel-Naturen trafen hier aufeinander: der stürmische, sich sofort und vollständig begeisternde Schumann und der zurückhaltendere, aber ebenso unbeugsame Brahms. Es war, als hätte die Acht in beiden sofort erkannt, was in dem jeweils anderen steckte.</p>
+          <p class="vb-intro">Als Schumann nur ein Jahr später in geistiger Umnachtung in den Rhein sprang und sich in die Heilanstalt Endenich einweisen ließ, war es Brahms, der blieb. Er zog nach Düsseldorf, unterstützte Clara Schumann bei der Versorgung ihrer sieben Kinder, kümmerte sich um die Finanzen der Familie und besuchte Robert regelmäßig in der Anstalt – während Clara selbst ihn kaum sehen durfte. Das ist die Elefanten-Treue der selbsterhaltenden Neun in ihrer klarsten Ausprägung: Wo ein anderer nach dem ersten Enthusiasmus weitergezogen wäre, blieb Brahms – über Jahrzehnte, bis zu Clara Schumanns Tod 1896. Er selbst starb nur elf Monate später. Der Elefant, der nichts vergisst, hatte bis zuletzt nicht vergessen, wem er seinen ersten großen Anfang verdankte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Bewahrer, der niemanden verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brahms hinterließ ein Werk, das die klassische Tradition nicht museal konservierte, sondern mit letzter Konsequenz zu Ende dachte – vier Symphonien, Kammermusik von unerreichter Dichte, das Deutsche Requiem, komponiert im Angedenken an seine Mutter. Kein Komponist des 19. Jahrhunderts hat die Formen Bachs (SX1w9) und Beethovens (SX6w5) so ernst genommen und zugleich so persönlich durchdrungen.</p>
+          <p class="vb-intro">Das eigentliche Vermächtnis der SE9w8 aber liegt nicht allein in den Noten. Es liegt in der Treue eines Mannes, der weder für Ruhm noch für Anerkennung, sondern aus stiller, unerschütterlicher Verbundenheit vierzig Jahre lang bei einer Familie blieb, die ihn einst entdeckt hatte. Der Elefant mit dem Achterflügel: geduldig genug, um zwei Jahrzehnte an einer Symphonie zu feilen – und stur genug, um eine einmal gegebene Treue nie wieder aufzugeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – sein Entdecker"},
+        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – Leberkrebs, elf Monate nach Clara Schumann"},
+      ])}
+    </div>
+  `);
+}
+
+function kevinCostnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="Kevin Costner – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kevin Costner</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1955 &ndash; Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Kevin Costner genauer. Der B\xfcffel lebt im Kollektiv. Er bewegt sich langsam, mit Gewicht, bodennah. Er ist nicht das lauteste Tier der Pr\xe4rie &ndash; aber wenn er in Bewegung ist, folgt ihm die Herde. Seine Kraft liegt nicht in der Dominanz, sondern in der Zugeh\xf6rigkeit: Er ist Teil von etwas Gr\xf6\xdferem, und er wei\xdf es.</p>
+          <p class="vb-intro">Der US-amerikanische Schauspieler Kevin Costner, 1955 in Lynwood, Kalifornien geboren, ist einer der seltensten Typen in Hollywood: ein Schauspieler, der nicht glitzert, sondern tr\xe4gt. Er spricht langsam. Er spielt langsam. Seine besten Rollen sind M\xe4nner, die nicht f\xfcr sich k\xe4mpfen &ndash; sondern f\xfcr etwas, das gr\xf6\xdfer ist als sie selbst: ein Land, eine Gemeinschaft, ein versunkenes Versprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: In der Gemeinschaft aufgehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Subtyp, den er <em>Teilnahme</em> nannte: die tiefe Neigung, sich einer Gruppe, einer Gemeinschaft, einem Kollektiv zu \xfcbergeben &ndash; und darin Frieden zu finden. Die SO9 verliert sich nicht aus Schw\xe4che im Anderen. Sie findet sich darin. Die Zugeh\xf6rigkeit ist kein Trost &ndash; sie ist das Ziel.</p>
+          <p class="vb-intro">Costners Filmografie liest sich wie ein SO9-Manifest. In <em>Der mit dem Wolf tanzt</em> (<em>Dances with Wolves</em>, 1990) spielt er einen Soldaten, der nicht siegt, sondern sich aufl\xf6st &ndash; in die Lakota-Gemeinschaft, ihre Sprache, ihren Rhythmus, ihre Werte. In <em>Feld der Tr\xe4ume</em> (<em>Field of Dreams</em>, 1989) baut er ein Baseballfeld, um die Gemeinschaft der Toten mit der der Lebenden zu vers\xf6hnen. In <em>Bull Durham</em> (1988) ist er der Catcher, der nicht gl\xe4nzt &ndash; sondern h\xe4lt. Immer wieder der Mann, der den Raum bereitet, damit andere darin existieren k\xf6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Das moralische Gew\xe4sser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der sozialen Neun eine Qualität, die einer SO9 mit schwach ausgeprägtem Einserflügel fehlt: ein innerer Kompass, ein Gef\xfchl f\xfcr Richtigkeit, eine Bereitschaft zur Unbequemlichkeit, wenn etwas falsch l\xe4uft. Die <strong>SO9w1</strong> sucht nicht nur Zugeh\xf6rigkeit &ndash; sie sucht eine Zugeh\xf6rigkeit, die stimmt.</p>
+          <p class="vb-intro">Costner w\xe4hlte seine Rollen nie nach Marktlogik. <em>Der mit dem Wolf tanzt</em> galt in Hollywood als unverkaufbar &ndash; drei Stunden, kein Star-Ensemble, ein Native-American-Epos ohne Heldenrettung. Er produzierte es selbst, riskierte sein Privatverm\xf6gen, gewann den Oscar f\xfcr den besten Film und f\xfcr die beste Regie. Die SO9w1 setzt sich durch &ndash; nicht durch Ellbogen, sondern durch Beharrlichkeit in dem, was sie f\xfcr richtig h\xe4lt. Der Einserfl\xfcgel gibt ihr den Mut zur Stille.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Amerika als Sehnsucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costners Werk ist ein einziges, vielstimmiges Portr\xe4t Amerikas &ndash; nicht des Amerika, das ist, sondern des Amerika, das sein k\xf6nnte. <em>Der Bodyguard</em> (1992), <em>Wyatt Earp</em> (1994), <em>Open Range &ndash; Weites Land</em> (2003): immer wieder M\xe4nner mit einem Ehrenkodex, der gr\xf6\xdfer ist als ihre Interessen. Auch <em>Waterworld</em> (1995), das legendenumwobene Fiasko, erz\xe4hlt von einem Einzelg\xe4nger, der eine Gemeinschaft rettet &ndash; und dann wieder verschwindet. Selbst im Scheitern bleibt die Handschrift dieselbe.</p>
+          <p class="vb-intro">Mit der Fernsehserie <em>Yellowstone</em> (seit 2018) erlebte Costner eine der ungew\xf6hnlichsten Renaissance-Phasen des amerikanischen Kinos. Als John Dutton, Patriarch einer Rancher-Dynastie im Konflikt mit Moderne und Kapital, verk\xf6rpert er die SO9w1 in ihrer vollsten Form: ein Mann, der nicht das Land besitzt &ndash; sondern zu ihm geh\xf6rt. Ein Mann, dessen moralische Geradlinigkeit sowohl seine gr\xf6\xdfte St\xe4rke als auch seine gr\xf6\xdfte Quelle der Isolation ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Stille als Grenze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>F\xe4higkeit zur Hingabe</strong>. Costner hat immer wieder Projekte verfolgt, an die er glaubte &ndash; \xfcber Widerst\xe4nde, Budgets und Kritiken hinaus. Seine Arbeit tr\xe4gt eine Ernsthaftigkeit, die in einer Unterhaltungsindustrie, die auf Ironie und Selbstreferenz setzt, seltsam anachronistisch wirkt &ndash; und gerade deshalb so selten und wertvoll ist.</p>
+          <p class="vb-intro">Der Schatten: Die Neun verliert sich in der Gemeinschaft &ndash; und vergisst manchmal, auch f\xfcr sich selbst da zu sein. Costners Ehen &ndash; mit Cindy Silva (1978&ndash;1994) und Christine Baumgartner (2004&ndash;2023) &ndash; scheiterten beide nach langen Jahren. In Interviews wirkt er nachdenklich, gelegentlich melancholisch, wie jemand, der anderen Heimat schafft und selbst keinen festen Anker hat. Der B\xfcffel bewegt sich mit der Herde. Aber manchmal bleibt er am Ende allein auf der Pr\xe4rie zur\xfcck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kevin Costner geh\xf6rt zu den wenigen Schauspieler-Regisseuren, deren Werk ein konsistentes Weltbild tr\xe4gt: Amerika ist nicht ein Ort, sondern ein Versprechen. Zugeh\xf6rigkeit ist nicht selbstverst\xe4ndlich, sondern wird verdient. Und der Mann, der eine Gemeinschaft h\xe4lt, muss bereit sein, sich selbst zur\xfcckzunehmen. Nicht laut, nicht brillant &ndash; aber beharrlich. Und tiefer, als man zunächst vermutet.</p>
+          <p class="vb-intro">Das ist die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Der mit dem Wolf tanzt</em>, wie in <em>Feld der Tr\xe4ume</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function peterFalkPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -6958,198 +7156,6 @@ function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
         {route:"beruehmte-nero", label:"Porträt: Nero (SE2w3) – Kaiser und Bühnenkünstler"},
-      ])}
-    </div>
-  `);
-}
-
-function neroPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-nero-portrait.jpg" alt="Nero" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Nero</p>
-        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Römischer Kaiser, 37–68 n. Chr. – Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – verspielt und genussfreudig nach außen, doch fähig zu jäher, verheerender Wucht, sobald sich das eigene Revier oder die eigene Bedeutung bedroht fühlt. Kaum eine historische Figur zeigt dieses Doppelbild so extrem wie Nero: ein Kaiser, der lieber auf der Bühne sang, als Staatsgeschäfte zu führen – und der zugleich seine eigene Mutter ermorden ließ, als sie seiner Macht im Weg stand.</p>
-          <p class="vb-intro">Nero, geboren 37 n. Chr. als Lucius Domitius Ahenobarbus, bestieg mit nur 16 Jahren den Thron des Römischen Reiches – emporgehoben durch die schiere Entschlossenheit seiner Mutter Agrippina der Jüngeren, die auf dem Weg dorthin über Leichen ging. Das Flusspferd wartet nicht geduldig auf seinen Platz am Wasserloch. Wenn ihm der Zugang verschafft wird, nimmt es ihn – und verteidigt ihn danach mit aller Kraft, die ihm zur Verfügung steht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Bedeutung durch Nähe zur Macht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse direkt benennt und sich – anders als die sozialen oder sexuellen Zweier – zuerst um das eigene Überleben und die eigene Bedeutung sorgt, bevor sie sich um andere kümmert. Neros gesamte frühe Biografie ist eine Geschichte enger, fast symbiotischer Verstrickung mit seiner Mutter Agrippina, die seinen Aufstieg über Intrigen, eine Zwangsheirat mit Kaiser Claudius und – wie die meisten antiken Quellen annehmen – dessen Vergiftung sicherte.</p>
-          <p class="vb-intro">Diese Nähe kippte, sobald Agrippina versuchte, weiter über ihn zu bestimmen. Nero ließ sie 59 n. Chr. nach mehreren gescheiterten Versuchen schließlich ermorden – ein Muttermord, den selbst wohlwollende antike wie moderne Historiker nicht zu beschönigen versuchen. Für die SE2 ist Nähe zugleich Überlebensressource und potenzielle Bedrohung: Wer die eigene Bedeutung sichert, kann ebenso schnell zu dem werden, der sie am meisten gefährdet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Applaus als Existenzbeweis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach sichtbarem, gefeiertem Erfolg. Bei Nero äußerte sich das in einer für einen römischen Kaiser beispiellosen Weise: Er trat öffentlich als Sänger, Kitharaspieler und Wagenlenker auf, zwang den Senat und die Oberschicht, seinen Auftritten beizuwohnen, und unternahm 66–67 n. Chr. eine ausgedehnte Tournee durch Griechenland, bei der er an nahezu allen großen Wettkämpfen teilnahm – und, wie überliefert, stets als Sieger hervorging.</p>
-          <p class="vb-intro">Für die römische Elite war das ein Skandal ohnegleichen: Ein Kaiser sollte regieren, nicht auf der Bühne um Applaus buhlen. Doch genau das war der Kern von Neros Selbstverständnis – seine überlieferten letzten Worte, „Qualis artifex pereo" („Welch ein Künstler geht mit mir zugrunde"), zeigen, dass er sich selbst zeitlebens primär als Künstler verstand, nicht als Herrscher. Der Dreierflügel der SE2 fragt nicht nur „Wie sichere ich meine Nähe zur Macht?", sondern auch „Wie beweise ich meine Einzigartigkeit vor Publikum?" – und Nero beantwortete diese Frage mit einer Besessenheit, die seine eigentliche Herrschaft zunehmend in den Hintergrund drängte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Liebesbedürfnis und Vernichtungswillen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene, sichtbar bewiesene Unentbehrlichkeit. Wo dieser Stolz verletzt wurde, reagierte Nero mit einer Konsequenz, die weit über politisches Kalkül hinausging: Neben seiner Mutter ließ er seinen Stiefbruder Britannicus vergiften und seine erste Frau Octavia verstoßen und schließlich hinrichten; seine zweite Frau Poppaea Sabina soll er der römischen Überlieferung nach im Streit zu Tode getreten haben, während sie schwanger war.</p>
-          <p class="vb-intro">Das ist die Schattenseite der SE2w3, in ihrer extremsten historischen Ausprägung: Wenn die eigene Bedeutung an der bedingungslosen Nähe der engsten Menschen hängt, wird jede Auflehnung, jede Unabhängigkeit dieser Menschen zur existenziellen Bedrohung. Nero reagierte darauf nicht mit Rückzug, sondern mit Vernichtung – das Flusspferd, das sein Revier notfalls gegen die eigene Familie verteidigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Brand Roms und das Goldene Haus</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der große Brand Roms im Jahr 64 n. Chr. zerstörte weite Teile der Stadt – ob Nero selbst ihn verursachte, ist historisch umstritten; wahrscheinlicher ist ein Unglücksfall, den er politisch geschickt für sich zu nutzen versuchte, unter anderem indem er die noch junge christliche Gemeinde beschuldigte und eine erste systematische Christenverfolgung einleitete. Auf dem frei gewordenen Gelände ließ Nero die „Domus Aurea" errichten, ein gigantisches, mit Gold und Fresken ausgestattetes Palastareal – eine Bühne im wörtlichen wie im übertragenen Sinne, gebaut, um seine eigene Bedeutung unübersehbar in Stein zu gießen.</p>
-          <p class="vb-intro">Genau diese Selbstverherrlichung, verbunden mit hohen Steuern zur Finanzierung des Bauprojekts, entfremdete ihn zunehmend von Senat, Militär und Bevölkerung. Der Dreierflügel der SE2 braucht sichtbaren Beweis – doch wenn dieser Beweis auf Kosten aller anderen errichtet wird, wird er irgendwann selbst zur tödlichen Bedrohung für den, der ihn braucht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Künstler, der als Kaiser starb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Jahr 68 n. Chr. erhoben sich mehrere Statthalter gegen Nero, der Senat erklärte ihn zum Staatsfeind, die Prätorianergarde wandte sich von ihm ab. Verlassen von fast allen, die ihm einst nahestanden, floh er aus Rom und nahm sich mit Hilfe seines Sekretärs Epaphroditos das Leben – im Alter von nur 30 Jahren, nach 14 Jahren Herrschaft.</p>
-          <p class="vb-intro">Das Flusspferd mit Dreierflügel, das sein Leben lang zwischen dem Bedürfnis nach bedingungsloser Nähe und dem Hunger nach öffentlichem Beweis der eigenen Unentbehrlichkeit schwankte, fand am Ende beides nicht mehr: keine Familie, die ihm noch nahestand – er selbst hatte sie größtenteils vernichtet –, und kein Publikum, das ihm noch applaudierte. Seine letzten Worte bleiben das treffendste Selbstporträt, das die Geschichte von ihm überliefert hat: Bis zuletzt sah er sich nicht als gescheiterten Herrscher, sondern als Künstler, dem die Welt seinen wahren Wert nicht mehr zugestand.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
-        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
-        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function carlosSantanaPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-carlos-santana-portrait.jpg" alt="Carlos Santana – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Carlos Santana</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Mexikanisch-US-amerikanischer Musiker, geb. 1947 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das gutmütig und gemächlich wirkt, in Wahrheit aber zu den kraftvollsten und ausdauerndsten Tieren seines Lebensraums zählt. Es bleibt seinem angestammten Gewässer treu, taucht dort tief und lange, und kehrt selbst nach den weitesten Ausflügen dorthin zurück, wo seine Wurzeln liegen.</p>
-          <p class="vb-intro">Der mexikanisch-US-amerikanische Gitarrist Carlos Santana, geboren am 20. Juli 1947 in Autlán de Jalisco, Mexiko, erhielt sein musikalisches Handwerk direkt von seinem Vater José, einem Mariachi-Geiger, der ihn bereits im Alter von vier bis fünf Jahren im Geigenspiel unterrichtete. Als die Familie 1955 in die Grenzstadt Tijuana zog, wechselte der achtjährige Carlos zur Gitarre &ndash; angezogen vom aufkommenden Rock’n’Roll. 1960 übersiedelte die Familie nach San Francisco, ein Jahr später folgte der dreizehnjährige Carlos nach. Das musikalische Fundament aber blieb zeitlebens dasselbe: die im Elternhaus direkt weitergegebene, körperlich erlernte Musiktradition.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Handwerk als weitergegebene Fürsorge</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge wird nicht abstrakt oder öffentlich geleistet, sondern konkret, direkt, im engsten Kreis &ndash; und beginnt oft mit der Sicherung der eigenen Grundlage, bevor sie sich nach außen richtet. Bei Carlos Santana zeigt sich das bereits am Ursprung seiner Karriere: Sein Vater gab ihm nicht abstraktes Wissen weiter, sondern brachte ihm das Instrument buchstäblich in die Hand &ndash; tägliche, körperliche, sehr persönliche Unterweisung, nicht formaler Musikunterricht in einer Institution.</p>
-          <p class="vb-intro">Dieses Prinzip der direkten, körperlichen Weitergabe zieht sich durch sein gesamtes Werk: Santanas Musik verschmilzt afrokubanische Perkussion, Blues und Rock zu einem unverkennbaren, körperlich-intensiven Gitarrenton, der weniger aus Theorie als aus unmittelbarer, jahrzehntelanger Übung entstand. Für die SE2 ist Meisterschaft kein abstraktes Ziel, sondern etwas, das man sich buchstäblich in die Hände und die Finger einschreibt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Die Kunst der Neuerfindung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung, Sichtbarkeit und Relevanz &ndash; das Bedürfnis, das eigene Können nicht nur zu besitzen, sondern es einem möglichst großen Publikum sichtbar zu machen. 1969 elektrisierte Santana mit seinem Auftritt beim Woodstock-Festival ein Millionenpublikum und wurde über Nacht zum Gesicht des Latin Rock &ndash; ein Moment, der Bild und Karriere für Jahrzehnte prägte.</p>
-          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel in seinem legendären Comeback: In den 1990er-Jahren erklärten mehrere Plattenfirmen Santana für zu alt und nicht mehr relevant, seine Alben verkauften sich kaum noch. Statt sich zurückzuziehen, veröffentlichte er 1999 das Album <em>Supernatural</em> &ndash; eine strategisch angelegte Serie von Kollaborationen mit den damals angesagtesten jungen Künstlerinnen und Künstlern wie Rob Thomas, Lauryn Hill, Wyclef Jean und Everlast. Das Kalkül ging in einem Ausmaß auf, das selbst Optimisten überraschte: 25 Millionen verkaufte Exemplare, neun Grammys, die erneute globale Relevanz eines bereits totgesagten Musikers. Der Dreierflügel fragt nicht nur „Wie spiele ich gut?", sondern auch „Wie erreiche ich damit wieder die ganze Welt?"</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die spirituelle Suche: Hingabe als Identität</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Von 1972 bis 1981 folgte Santana dem Guru Sri Chinmoy und nahm den spirituellen Namen „Devadip" an &ndash; „das Auge, das Licht der Lampe Gottes". In dieser Zeit entstanden Alben wie <em>Love Devotion Surrender</em> (1973, mit John McLaughlin) und <em>Illuminations</em> mit Alice Coltrane, die jazzige, indisch inspirierte Klangwelten mit spiritueller Hingabe verbanden. Erst Anfang der 1980er-Jahre löste er sich von Chinmoy, nachdem er zunehmend problematische, kultartige Züge in der Gemeinschaft wahrnahm.</p>
-          <p class="vb-intro">Für die SE2 ist eine solche Phase typisch: Die Fürsorge, die sonst dem engsten menschlichen Kreis gilt, richtet sich hier auf eine spirituelle Führungsfigur, der man sich mit ganzer Hingabe unterordnet &ndash; ein Muster, das Nähe und Sicherheit über eine besonders bedeutsame Bindung sucht, diesmal jenseits der eigenen Familie.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, ein über Jahrzehnte im engsten, persönlichen Kreis erlerntes Handwerk mit einem untrüglichen Gespür für Reichweite zu verbinden &ndash; ohne dass die eine Qualität die andere verdrängt. Santanas Gitarrenton blieb über fünfzig Jahre unverwechselbar, während er sich immer wieder neu positionierte, um relevant zu bleiben.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und das eigene Wirken unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Suche nach neuer, sichtbarer Bestätigung werden: das Bedürfnis, sich immer wieder von neuem zu beweisen, statt sich auf das bereits Erreichte zu verlassen. Das jahrzehntelange kommerzielle Auf und Ab seiner Karriere, bevor <em>Supernatural</em> den Beweis noch einmal in aller Deutlichkeit erbrachte, liest sich als genau diese Kehrseite.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Gitarrenton, der bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Carlos Santanas Karriere überspannt inzwischen mehr als sechzig Jahre &ndash; vom achtjährigen Jungen mit der ersten Gitarre in Tijuana über die Bühne von Woodstock bis zum kommerziellen Rekordalbum im Alter von 52 Jahren. Was über all diese Wendungen hinweg konstant blieb, ist der körperlich erlernte, im Elternhaus weitergegebene Ton seiner Gitarre.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nie wirklich, auch wenn es weite Strecken zurücklegt: Santanas Musik trägt bis heute die afrokubanischen und mexikanischen Wurzeln, die ihm sein Vater als Kind mitgab &ndash; verstärkt, nicht verwässert, durch jede Neuerfindung, die er unternahm, um gehört zu werden.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
-        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function haraldGloeocklerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-harald-gloeockler-portrait.jpg" alt="Harald Glööckler – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Harald Glööckler</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Modedesigner, geb. 1965 &ndash; Gründer von POMPÖÖS &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich, wo immer möglich, ein sicheres, geschütztes eigenes Terrain schafft, in dem es sich fern von äußerer Bedrohung bewegen kann. Es baut sich sein Revier nicht leise, sondern mit einer Präsenz, die weithin sichtbar bleibt.</p>
-          <p class="vb-intro">Der deutsche Modedesigner Harald Glööckler, geboren am 30. Mai 1965 im badischen Maulbronn-Zaisersweiher, wuchs in einem von ihm selbst als traumatisch beschriebenen Elternhaus auf: Sein Vater, der gemeinsam mit der Mutter eine Gastwirtschaft führte, war gewalttätig und alkoholkrank; zusätzlich wurde Glööckler als Kind von einem Bekannten der Familie sexuell missbraucht, worüber er in dem instabilen Elternhaus nie sprechen konnte. Als er neunzehn war, starb seine Mutter durch einen Sturz. Schon mit sieben Jahren aber, angeregt durch seine Tante, eine Schneiderin, entwarf der junge Harald sein erstes Kleid &ndash; ein schwarzes Spitzenkleid mit goldfarbenem Innenfutter. Die Sehnsucht nach Glanz und Fülle war früh geboren, mitten in einer Kindheit, die alles andere als glanzvoll war.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Sicherheit durch selbst geschaffene Fülle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen materiellen und emotionalen Sicherheit, bevor sie sich nach außen richtet. Wo ein Elternhaus Bedrohung, Gewalt und Mangel bedeutete, baute sich Glööckler mit seiner Marke <em>POMPÖÖS</em> &ndash; benannt und gegründet 1990, nach der gemeinsamen Eröffnung des Modegeschäfts „Jeans Garden" mit seinem langjährigen Lebenspartner Dieter Schroth 1987 in Stuttgart &ndash; buchstäblich eine eigene, überbordend sichere und glanzvolle Gegenwelt: goldene Kronen, Strasssteine, Fülle statt Mangel, Überfluss statt Bedrohung.</p>
-          <p class="vb-intro">Diese Fürsorge bleibt auch im engsten persönlichen Kreis konkret: Seine langjährige Partnerschaft mit Dieter Schroth, geschäftlich wie privat, trägt seine Karriere seit den 1980er-Jahren. Gleichzeitig engagiert er sich mit sehr direktem, konkretem Einsatz für Tierschutz &ndash; als erklärter Gegner von Pelz in der Mode, mit veganen, tierversuchsfreien Kollektionen, aus deren Erlösen er Spenden abzweigt, sowie in der Zusammenarbeit mit der Organisation „Ein Herz für Kinder". Für die SE2 ist Fürsorge nie abstrakt: Sie zeigt sich in konkreten Produkten, konkreten Spenden, einer konkreten Beziehung, die über Jahrzehnte hält.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Die Marke als Rüstung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Instinkt für Bild, Wirkung und Wiedererkennbarkeit. Glööcklers persönliches Markenzeichen &ndash; die goldene Krone, oft ergänzt durch den Schriftzug „POMPÖÖS" &ndash; ist keine zufällige Ästhetik, sondern ein bewusst gestaltetes, konsequent wiederholtes Erkennungssymbol, das sich über Mode, Wohnaccessoires und Beauty-Produkte zieht.</p>
-          <p class="vb-intro">Auch seine mediale Präsenz folgt diesem Muster: Als Reality-TV-Star war er unter anderem bei „Ich bin ein Star – Holt mich hier raus!" und „Promi Big Brother" zu sehen &ndash; Formate, die maximale Sichtbarkeit bei minimalem Textbuch bieten. Der Dreierflügel verwandelt die aus der Kindheit stammende Sehnsucht nach Sicherheit in ein öffentlich sichtbares, konsequent vermarktetes Image: nicht verstecken, sondern in aller Deutlichkeit zeigen, dass man es geschafft hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer Kindheit ohne Sicherheit eine eigene, tragfähige Welt aufzubauen &ndash; und diese Welt nicht für sich zu behalten, sondern mit konkretem Engagement für Tiere und benachteiligte Kinder zu teilen. Glööcklers jahrzehntelange Partnerschaft und sein beständiges karitatives Engagement zeigen, dass hinter der glitzernden Fassade eine sehr reale, sehr verlässliche Fürsorge steckt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und die eigene Leistung unentbehrlich und sicher zu sein. Bei der SE2w3 kann dieser Stolz zur permanenten, öffentlich sichtbaren Selbstinszenierung werden: das Bedürfnis, die einmal erkämpfte Sicherheit immer wieder aufs Neue, immer sichtbarer zu demonstrieren, statt sich innerlich auf sie verlassen zu können. Glööcklers eigene, sehr bewusste Entscheidung gegen eigene Kinder &ndash; mit der Begründung, ein Kind sei „ein Full-Time-Job" und mit der Karriere nicht vereinbar &ndash; lässt sich als Ausdruck genau dieser Priorität lesen: die selbst aufgebaute, kontrollierbare Sicherheit vor einer neuen, unkontrollierbaren Abhängigkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Überfluss als Gegenentwurf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">POMPÖÖS steht seit über drei Jahrzehnten für eine Ästhetik, die niemanden gleichgültig lässt: Strass, Gold, Kronen, opulente Muster &ndash; eine bewusste Gegenposition zu Understatement und Minimalismus. Diese konsequente Übertreibung ist mehr als Geschmacksfrage: Sie ist die sichtbare Umkehrung einer Kindheit, in der Fülle, Glanz und Sicherheit gefehlt haben.</p>
-          <p class="vb-intro">Dass Glööckler seinen kommerziellen Erfolg konsequent mit Tierschutz-Engagement verbindet &ndash; vegane Kollektionen, Anti-Pelz-Positionierung, Spenden aus den Erlösen &ndash; zeigt, wie bei der SE2 typisch, dass die selbst geschaffene Sicherheit nicht zum reinen Selbstzweck wird, sondern in konkrete Fürsorge für andere zurückfließt.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-        </blockquote>
-
-      </div>
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
-        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
-        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
       ])}
     </div>
   `);

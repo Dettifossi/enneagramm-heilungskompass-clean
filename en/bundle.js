@@ -4666,6 +4666,10 @@ function startPage() {
         <div class="start-path__actions">
           <div class="start-path__test-row">
             <button class="start-path__btn start-path__btn--test" style="background:var(--gold);border-color:var(--gold-dark,#A8872D);" data-route="tierquiz"><span class="start-path__test-label" style="color:var(--anthracite,#2c2c2c);">&#129471; Which Animal Am I?</span><span class="start-path__test-sub" style="color:var(--anthracite,#2c2c2c);">Quick Test &middot; 3 Questions &middot; 1 Minute</span></button>
+            <button class="start-path__btn start-path__btn--test" data-route="motivations-schnelltest">
+              <span class="start-path__test-label">Motivation Quick Test</span>
+              <span class="start-path__test-sub">10 Questions &middot; 3&ndash;5 Minutes &middot; Focus: the inner why</span>
+            </button>
             <button class="start-path__btn start-path__btn--test start-path__btn--diag${hasHeilwissen() ? "" : " is-locked"}" data-route="${hasHeilwissen() ? "diagnosetest" : "freischalt/heilwissen"}">
               <span class="start-path__test-label">Diagnosis Test${hasHeilwissen() ? "" : " 🔒"}</span>
               <span class="start-path__test-sub">Quick start · 9 Profiles</span>
@@ -14043,7 +14047,295 @@ function bindEvents() {
   if (state.route === "diagnosetest") {
     bindDiagnosetest();
   }
+  if (state.route === "motivations-schnelltest") {
+    bindSchnelltest();
+  }
   bindOnboarding();
+}
+
+// ── MOTIVATION QUICK TEST ───────────────────────────────────────────────────
+const MOTIV_SCHNELLTEST = [
+  { nr: 1, thema: "Decisions", frage: "When you're facing an important decision, what moves you most deeply?", antworten: {
+    E: "I want to make sure the decision is right and defensible.",
+    Z: "I ask myself who this decision helps the most.",
+    D: "I want to choose the option most likely to lead to success.",
+    V: "I check whether the decision really fits me and my feelings.",
+    F: "I want to fully understand the situation before committing.",
+    X: "I think about what could go wrong and want to be prepared.",
+    S: "I don't want to close off an exciting possibility.",
+    A: "I want to control the decision myself, not depend on others.",
+    N: "I want a solution everyone can live with.",
+  }},
+  { nr: 2, thema: "Criticism", frage: "How do you react inwardly when someone criticizes you?", antworten: {
+    Z: "I ask myself whether I'm no longer needed or valued.",
+    D: "I want to quickly prove the criticism doesn't reflect my real ability.",
+    V: "I feel the criticism deeply and wonder if something is fundamentally wrong with me.",
+    F: "I withdraw to think the criticism through in peace first.",
+    X: "I ask myself if the criticism is a sign of a bigger danger.",
+    S: "I want to move on to something positive quickly.",
+    A: "I check whether someone is trying to control or weaken me.",
+    N: "I mostly want this not to turn into a conflict.",
+    E: "I immediately check whether the criticism is justified – and what I can improve.",
+  }},
+  { nr: 3, thema: "Conflict", frage: "What is your deepest drive in a conflict?", antworten: {
+    D: "I want the conflict resolved quickly and successfully.",
+    V: "I want my real feelings to be seen and understood.",
+    F: "I want to understand what's really going on before I speak.",
+    X: "I want to know where I stand and whom I can trust.",
+    S: "I want to defuse the tension before it gets too heavy.",
+    A: "I address it head-on instead of avoiding it.",
+    N: "I mostly want the connection between us not to break.",
+    E: "I want the right, fair solution to prevail in the end.",
+    Z: "I want to save the relationship, even if it means holding back.",
+  }},
+  { nr: 4, thema: "Recharging", frage: "What truly gives you inner fulfillment in your free time?", antworten: {
+    V: "Creating something beautiful or meaningful that is really mine.",
+    F: "Undisturbed time to dive deep into a subject that interests me.",
+    X: "Time with people or rituals that give me security.",
+    S: "Experiencing something new or enjoying several nice things at once.",
+    A: "Doing something where I'm fully in control and feel free.",
+    N: "Simply coming to rest, without anything being demanded of me.",
+    E: "Finishing something I've done properly and correctly.",
+    Z: "Time with people I can support and pamper.",
+    D: "Reaching a goal I can be proud of.",
+  }},
+  { nr: 5, thema: "Your own mistakes", frage: "How do you deal inwardly with a mistake you've made?", antworten: {
+    F: "I calmly analyze how it came about.",
+    X: "I wonder what consequences this could now have.",
+    S: "I want to move on quickly and not dwell on it.",
+    A: "I own it openly and act immediately to fix it.",
+    N: "I mostly want the mistake not to cause bigger waves.",
+    E: "I blame myself heavily until I've made up for it.",
+    Z: "I mainly worry about whether I've disappointed someone.",
+    D: "I want to correct it quickly so it doesn't damage my image.",
+    V: "I ask myself what the mistake says about me as a person.",
+  }},
+  { nr: 6, thema: "Sudden change", frage: "How do you react inwardly to a sudden, unplanned change?", antworten: {
+    X: "I want to know what I can still rely on now.",
+    S: "I quickly see new, exciting possibilities in it too.",
+    A: "I take charge so the situation doesn't spiral out of control.",
+    N: "I mostly want to stay inwardly calm, whatever happens.",
+    E: "I want to quickly find an order I can orient myself by again.",
+    Z: "I immediately wonder how the people around me are affected.",
+    D: "I adjust my plan quickly to stay successful.",
+    V: "I need space first to feel what this means for me.",
+    F: "I withdraw to think the new situation through first.",
+  }},
+  { nr: 7, thema: "What you want to avoid", frage: "What do you want to avoid at almost any cost?", antworten: {
+    S: "Being trapped or missing out on something important.",
+    A: "Being controlled or appearing weak.",
+    N: "Conflict or a break in an important relationship.",
+    E: "Being wrong or having done something incorrectly.",
+    Z: "Not being needed or not being loved.",
+    D: "Appearing unsuccessful or worthless.",
+    V: "Appearing ordinary or insignificant.",
+    F: "Being overwhelmed or not knowing enough.",
+    X: "Being without support or backing.",
+  }},
+  { nr: 8, thema: "Closeness & relationships", frage: "What drives you most inwardly in close relationships?", antworten: {
+    A: "I want to be open and honest, even if it's uncomfortable.",
+    N: "I want real tension to never arise between us.",
+    E: "I want to be a reliable, principled partner.",
+    Z: "I want to feel that I'm truly needed and loved.",
+    D: "I want my partner to be proud of me.",
+    V: "I want to truly be seen as I am inside.",
+    F: "I need enough space of my own not to feel overwhelmed.",
+    X: "I want to know I can rely on the relationship.",
+    S: "I want the relationship to stay light and alive.",
+  }},
+  { nr: 9, thema: "Praise & success", frage: "What does praise or recognition really mean to you inwardly?", antworten: {
+    N: "It's nice, mainly because it shows harmony between us.",
+    E: "Confirmation that I did it right.",
+    Z: "Proof that I matter to others.",
+    D: "The real fuel that keeps me going.",
+    V: "Nice, but only if it really touches my true self.",
+    F: "Pleasant, but I don't need it to know what I'm capable of.",
+    X: "Reassuring, because it shows I'm on the right track.",
+    S: "Nice, but I'm already onto the next exciting thing.",
+    A: "Nice, but what matters more is that I know what I accomplished.",
+  }},
+  { nr: 10, thema: "Fully alone with yourself", frage: "What drives you when truly no one is watching and you're fully with yourself?", antworten: {
+    E: "The inner standard to still do it right even then.",
+    Z: "The question of how the people who matter to me are doing.",
+    D: "The wish to keep working on myself and my goals.",
+    V: "The search for what really feels true to me.",
+    F: "The curiosity to truly understand a subject.",
+    X: "The question of what I can rely on going forward.",
+    S: "The anticipation of what comes next.",
+    A: "The inner drive to take matters into my own hands.",
+    N: "The need to finally come to full rest.",
+  }},
+];
+
+let schnellState = (() => {
+  try {
+    const saved = localStorage.getItem("kompass:schnellState");
+    if (saved) return JSON.parse(saved);
+  } catch(e) {}
+  return { phase: "intro", qIndex: 0, answers: {} };
+})();
+function _saveSchnellState() {
+  try { localStorage.setItem("kompass:schnellState", JSON.stringify(schnellState)); } catch(e) {}
+}
+
+function motivationsSchnelltestPage() {
+  const ss = schnellState;
+
+  if (ss.phase === "intro") {
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <p class="eyebrow">Motivation quick test · fast orientation</p>
+          <h1 class="typentest-titel">What drives you at your core?</h1>
+          <p class="typentest-intro">This compact test doesn't ask how you behave, but <strong>why</strong> you act that way. For each of the 10 questions, choose the one statement that best describes your inner drive.</p>
+          <div class="typentest-hinweis" style="margin-bottom:1.2rem;">
+            <strong>Important note before you start:</strong> This quick test does not replace the full <a href="javascript:void(0)" data-route="typentest-motivational">100-question motivation test</a>. It gives a first direction in just a few minutes – no more, but no less. Behavior alone reveals little about type; only the motive behind it, the "why," makes the difference.
+          </div>
+          <ul class="typentest-hinweis" style="list-style:none;padding:0;margin:1.2rem 0;">
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; 10 questions from different areas of life</li>
+            <li style="padding:0.35rem 0;border-bottom:1px solid var(--line);">&#8226; One answer per question – whichever fits best</li>
+            <li style="padding:0.35rem 0;">&#8226; Duration: approx. 3&ndash;5 minutes</li>
+          </ul>
+          ${bookTip("motivationaler-enneagramm-typentest", "The book behind the full test – motivational background, scoring guidance, and in-depth explanations for all 9 types.", "Motivationaler Enneagrammtypentest")}
+          <button class="typentest-start-btn" data-schnell-start>Start test &#8594;</button>
+        </div>
+      </div>
+    `);
+  }
+
+  if (ss.phase === "test") {
+    const total = MOTIV_SCHNELLTEST.length;
+    const qi = ss.qIndex;
+    const q = MOTIV_SCHNELLTEST[qi];
+    const pct = Math.round((qi / total) * 100);
+    const chosen = ss.answers[q.nr];
+    const letters = Object.keys(q.antworten);
+
+    const answerCards = letters.map(letter => {
+      const isChosen = chosen === letter;
+      return `<button class="motiv-answer${isChosen ? " motiv-answer--first" : ""}" data-schnell-answer="${letter}" data-schnell-qnr="${q.nr}">
+        <span class="motiv-answer__text">${q.antworten[letter]}</span>
+      </button>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card">
+          <div class="motiv-progress">
+            <span class="motiv-progress__label">Question ${qi + 1} of ${total}</span>
+            <div class="motiv-progress__track"><div class="motiv-progress__bar" style="width:${pct}%"></div></div>
+          </div>
+          <p class="eyebrow" style="margin-top:1.2rem;">Question ${q.nr}: ${q.thema}</p>
+          <p class="typentest-frage">${q.frage}</p>
+          <p class="typentest-intro" style="margin-bottom:0.8rem;">Choose the statement that best describes your inner <strong>why</strong>.</p>
+          <div class="motiv-answer-grid">
+            ${answerCards}
+          </div>
+          <div class="typentest-cta-group" style="margin-top:1.5rem;">
+            ${qi > 0 ? `<button class="ghost-link" data-schnell-back>&#8592; Back</button>` : ""}
+            <button class="typentest-start-btn" data-schnell-next ${chosen ? "" : "disabled"} style="${chosen ? "" : "opacity:0.45;cursor:not-allowed;"}">${qi < total - 1 ? "Next &#8594;" : "Show result &#8594;"}</button>
+          </div>
+        </div>
+      </div>
+    `);
+  }
+
+  if (ss.phase === "result") {
+    const scores = {};
+    for (let t = 1; t <= 9; t++) scores[t] = 0;
+    for (const [, letter] of Object.entries(ss.answers)) {
+      const t = LETTER_TO_TYPE[letter];
+      if (t) scores[t] += 1;
+    }
+    const sorted = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+    const topType = parseInt(sorted[0][0]);
+    const topScore = sorted[0][1];
+    const maxScore = topScore || 1;
+    const col = typeColor(topType);
+
+    const scoreBars = sorted.map(([typ, score], i) => {
+      const pct = Math.round((score / maxScore) * 100);
+      const highlight = i === 0 ? `style="background:${col}"` : "";
+      return `
+        <div class="motiv-score-row">
+          <span class="motiv-score-label">Type&nbsp;${typ}</span>
+          <div class="motiv-score-track">
+            <div class="motiv-score-bar ${i === 0 ? "motiv-score-bar--top" : ""}" ${highlight} style="width:${pct}%"></div>
+          </div>
+          <span class="motiv-score-num">${score}</span>
+        </div>`;
+    }).join("");
+
+    return shell(`
+      ${pageHeader("motivations-schnelltest")}
+      <div class="typentest-wrap">
+        <div class="typentest-card typentest-card--result">
+          <p class="eyebrow">Your result</p>
+          <div class="typentest-result-badge" style="border-color:${col};color:${col}">${topType}</div>
+          <h2 class="typentest-titel" style="color:${col}">${TYPNAMEN[topType]}</h2>
+          <p class="typentest-intro">Your answers point to <strong>Type&nbsp;${topType}</strong>. With only 10 questions, this is a first hint, not proof.</p>
+
+          <div style="display:grid;gap:0.4rem;margin:1.2rem 0;">${scoreBars}</div>
+
+          <div class="typentest-disclaimer" style="margin-top:0.5rem;">
+            <strong>For context:</strong> This quick test does not replace the full 100-question test. If two or three types are close together, the long test or a personal typing consultation is worth it.
+          </div>
+
+          <div class="typentest-cta-group">
+            <button class="primary" style="background:${col};border-color:${col}" data-route="type/${topType}">Go to Type&nbsp;${topType} in the compass &#8594;</button>
+            <button class="ghost-link" data-route="typentest-motivational">Take the full 100-question test &#8594;</button>
+          </div>
+
+          <button class="ghost-link" data-schnell-reset>Retake test</button>
+          <button class="ghost-link" data-route="dashboard">&#8592; To dashboard</button>
+        </div>
+      </div>
+    `);
+  }
+
+  return shell(`${pageHeader("motivations-schnelltest")}<div class="typentest-wrap"><p>Test error.</p></div>`);
+}
+
+function bindSchnelltest() {
+  document.querySelector("[data-schnell-start]")?.addEventListener("click", () => {
+    schnellState = { phase: "test", qIndex: 0, answers: {} };
+    _saveSchnellState();
+    history.pushState({test:true}, "");
+    render();
+  });
+
+  document.querySelector("[data-schnell-next]")?.addEventListener("click", () => {
+    if (schnellState.qIndex < MOTIV_SCHNELLTEST.length - 1) {
+      schnellState.qIndex++;
+    } else {
+      schnellState.phase = "result";
+    }
+    _saveSchnellState();
+    history.pushState({test:true}, "");
+    render();
+  });
+
+  document.querySelector("[data-schnell-back]")?.addEventListener("click", () => {
+    if (schnellState.qIndex > 0) { schnellState.qIndex--; render(); }
+  });
+
+  document.querySelectorAll("[data-schnell-answer]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const letter = btn.dataset.schnellAnswer;
+      const nr = parseInt(btn.dataset.schnellQnr);
+      schnellState.answers[nr] = letter;
+      _saveSchnellState();
+      render();
+    });
+  });
+
+  document.querySelector("[data-schnell-reset]")?.addEventListener("click", () => {
+    schnellState = { phase: "intro", qIndex: 0, answers: {} };
+    localStorage.removeItem("kompass:schnellState");
+    render();
+  });
 }
 
 // ── TYPENTEST ─────────────────────────────────────────────────────────────────
@@ -102106,6 +102398,7 @@ function subtypeSchaubilderPage() {
     datenschutz: datenschutzPage,
     typentest: typentestPage,
     "typentest-motivational": typentestMotivationalPage,
+    "motivations-schnelltest": motivationsSchnelltestPage,
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,

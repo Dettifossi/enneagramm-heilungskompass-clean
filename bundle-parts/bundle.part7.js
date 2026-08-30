@@ -1,3 +1,195 @@
+function michaelSchumacherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Schumacher</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in H\xfcrth &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist kein Tier der Bequemlichkeit. Er ist wachsam, territorial, auf seine Gruppe ausgerichtet &ndash; und wenn er jagt, jagt er mit allem, was er hat. Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und l\xe4uft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Auspr\xe4gung: Angst nicht als L\xe4hmung, sondern als Treibstoff.</p>
+          <p class="vb-intro">Der deutsche Rennfahrer Michael Schumacher ist dieser Wolf. Siebenmal Formel-1-Weltmeister, 91 Siege, f\xfcnf aufeinanderfolgende Titel mit Ferrari &ndash; Zahlen, die in der Geschichte des Motorsports ohne Vergleich waren, als er 2006 zum ersten Mal zur\xfccktrat. Und doch w\xe4re es falsch, Schumacher \xfcber seine Statistiken zu verstehen. Was ihn auszeichnete, war kein K\xf6nner-Gef\xfchl aus der Distanz. Es war eine Intensit\xe4t, die jeden Zentimeter der Strecke als pers\xf6nliches Territorium behandelte. Der Wolf markiert sein Revier. Und er verteidigt es.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die St\xe4rke: Angst als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
+          <p class="vb-intro">Schumacher war bekannt f\xfcr eine k\xf6rperliche und mentale Vorbereitung, die damals in der Formel 1 ohnegleichen war. Er trainierte wie ein Leistungssportler &ndash; Ausdauer, Reflexe, Nackenmuskulatur. Er kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verbl\xfcffte. Er hinterfragte, analysierte, verfeinerte &ndash; und wenn er ins Auto stieg, war die Angst vor dem Versagen l\xe4ngst in Vorbereitung verwandelt worden. Das ist die SX6: <em>Ich \xfcberhole die Bedrohung, bevor sie mich \xfcberholt.</em></p>
+          <p class="vb-intro">Sein Rudel war das Ferrari-Team. Die Jahre 2000 bis 2004, in denen er f\xfcnf Titel in Serie gewann, waren kein Soloprojekt &ndash; sie waren das Ergebnis eines Kollektivs, das sich um ihn herum aufgebaut hatte: Jean Todt, Ross Brawn, Rory Byrne. Schumacher war loyal bis in die Knochen, und das Team gab ihm dieselbe Loyalit\xe4t unmittelbar zur\xfcck. Der Wolf und sein Rudel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Freude an der Geschwindigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> bringt der sexuellen Sechs etwas, das eine SX6 mit schwach ausgeprägtem Siebenerflügel allein nicht entwickeln würde: Begeisterungsfähigkeit, Spielfreude und die F\xe4higkeit, aus dem, was andere als Bedrohung erleben, einen Genuss zu machen. Wo die SX6 k\xe4mpft, feiert die SX6w7 das K\xe4mpfen. Das Ergebnis ist ein Mensch, der nicht nur gewinnen <em>will</em>, sondern dem Gewinnen <em>gef\xe4llt</em>.</p>
+          <p class="vb-intro">Schumacher liebte das Fahren. Das klingt selbstverst\xe4ndlich &ndash; ist es aber nicht. Viele Rennfahrer lieben das Siegen. Schumacher liebte die Kurve, den Grip, die Grenze des Machbaren. Sein ber\xfchmtes <em>Qualifikationsgef\xfchl</em> &ndash; die F\xe4higkeit, in einem einzigen Rundenversuch alles aus sich und dem Auto herauszuholen &ndash; war nicht nur Technik. Es war Leidenschaft. Der Siebenerfl\xfcgel gibt der SX6 die Freude, die die Angst nicht gibt: Wenn ich so schnell fahre, dass niemand mich einholen kann, sp\xfcre ich kein Risiko mehr. Ich sp\xfcre Freiheit.</p>
+          <p class="vb-intro">Der Siebenerfl\xfcgel erkl\xe4rt auch seinen R\xfcckkehr-Drang. 2010, mit einundvierzig Jahren, stieg er bei Mercedes wieder in ein Formel-1-Auto. Nicht aus Geldgier, nicht aus Eitelkeit &ndash; sondern weil das Fahren selbst ihn rief. Der Siebenerfl\xfcgel h\xe4lt die T\xfcr zur Freude offen, auch wenn der Verstand l\xe4ngst Nein sagt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Sieben Titel, f\xfcnf mit Ferrari</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Schumacher deb\u00fctierte 1991 beim Gro\xdfen Preis von Belgien in Spa f\xfcr das Jordan-Team &ndash; und wurde noch vor dem n\xe4chsten Rennen von Benetton \xfcbernommen. 1994 gewann er seinen ersten Weltmeistertitel, 1995 seinen zweiten. 1996 wechselte er zu Ferrari &ndash; damals einem Team in der Krise, das seit 1979 keinen Fahrertitel mehr gewonnen hatte. Er baute das Team mit auf, wartete vier Jahre auf den Durchbruch &ndash; und gewann dann f\xfcnfmal in Serie: 2000, 2001, 2002, 2003, 2004. Niemand hatte zuvor f\xfcnf aufeinanderfolgende Weltmeistertitel gewonnen.</p>
+          <p class="vb-intro">Einundneunzig Siege, 155 Podestpl\xe4tze, 68 Pole-Positions &ndash; Zahlen, die erst Jahre sp\xe4ter von Lewis Hamilton (SO2w3) \xfcbertroffen wurden. Schumacher setzte in seiner aktiven Zeit den Ma\xdfstab, an dem alle anderen gemessen wurden. Das ist das Werk der SX6w7: nicht das Mittelma\xdf des Komforts, sondern das Absolute des Extremen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Grenzen und Kontroversen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>Unbedingtheit</strong>. Schumacher hat Ferrari aus einer langj\xe4hrigen Erfolglosigkeit in eine \xc4ra der Dominanz gef\xfchrt. Er hat die Messlatte f\xfcr Vorbereitung, Analyse und Teamgeist in der Formel 1 dauerhaft angehoben. Und er hat eine Leidenschaft f\xfcr den Motorsport vorgelebt, die Generationen von Fans und Fahrern gepr\xe4gt hat.</p>
+          <p class="vb-intro">Der Schatten der SX6 ist die Grenz\u00fcberschreitung. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem Man\u00f6ver, das noch heute umstritten ist: absichtliche Kollision oder Racing-Unfall? 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve &ndash; und wurde daf\xfcr aus der Weltmeisterschaftswertung gestrichen. Das ist der Wolf, wenn der Kontratyp kippt: Wenn Gewinnen wichtiger wird als das Spielfeld, das das Gewinnen erst erm\xf6glicht. Die SX6 kennt keine halben Ma\xdfnahmen. Auch im Schatten nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Wolf, der schweigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 29. Dezember 2013 verungl\xfcckte Michael Schumacher beim Skifahren im franz\xf6sischen M\xe9ribel. Er fuhr au\xdferhalb der markierten Piste und st\xfcrzte \xfcber Felsen. Das dabei erlittene schwere Sch\xe4del-Hirn-Trauma ver\xe4nderte sein Leben unwiderruflich. Wochenlang lag er im k\xfcnstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen &ndash; in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
+          <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts \xfcber seinen Zustand erf\xe4hrt. Nicht als Geste der Abschottung &ndash; sondern als Schutz. <em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>Er ist hier, er ist anders, aber er ist da.</em> Dieser Satz ist alles, was die \xd6ffentlichkeit wei\xdf. Das Rudel h\xe4lt zusammen. Es zeigt die Z\xe4hne gegen\xfcber jedem, der n\xe4her kommen will, als erlaubt ist. Und der Wolf, der jahrzehntelang das Tempo vorgegeben hat, ist jetzt still &ndash; umgeben von denen, die ihm geh\xf6ren.</p>
+          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst bezahlt. Der Rest geh\xf6rt ihm.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
+        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function scarlettJohanssonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-scarlett-johansson-portrait.jpg" alt="Scarlett Johansson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Scarlett Johansson</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier von enormer Pr\u00e4senz, das genau sp\u00fcrt, wann es N\u00e4he zulassen kann und wann es sein Territorium verteidigen muss. Der Wolf zeigt selten Schw\u00e4che nach au\u00dfen. Er tr\u00e4gt seine Wachsamkeit in der Haltung, im Blick, in der Art, wie er einen Raum betritt &ndash; nicht laut, aber un\u00fcbersehbar.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Scarlett Johansson, geboren 1984 in New York City, ist dieser Wolf. Seit ihrem Deb\u00fct als Kind in <em>The Horse Whisperer</em> und ihrem Durchbruch mit <em>Lost in Translation</em> (2003) hat sie sich als eine der intensivsten Pr\u00e4senzen des Weltkinos etabliert &ndash; eine Schauspielerin, die selten viel sagen muss, um einen Raum zu f\u00fcllen. Diese Intensit\u00e4t kommt nicht von ungef\u00e4hr. Sie ist die Signatur des Wolfes: eine Kraft, die sp\u00fcrbar ist, bevor ein Wort f\u00e4llt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zur\u00fcckzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
+          <p class="vb-intro">Bei Johansson zeigt sich das in einer Karriere voller Rollen, die genau diese Spannung verk\u00f6rpern: die k\u00fchle, t\u00f6dlich pr\u00e4zise Black Widow im Marvel Cinematic Universe, die selbstbewusste Femme fatale in <em>Match Point</em>, die kontrollierte KI-Stimme in <em>Her</em>, deren emotionale Tiefe sich nur in Nuancen zeigt. Immer wieder Figuren, die St\u00e4rke performen, w\u00e4hrend darunter etwas Verletzliches, Suchendes liegt &ndash; genau das Muster der SX6, das Innere hinter einer R\u00fcstung aus Pr\u00e4senz zu verbergen.</p>
+          <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und gesch\u00fctzt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihren Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das f\u00fcr einen der bekanntesten Filmstars der Welt m\u00f6glich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Vielseitigkeit und Tempo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel (w7)</strong> bringt der sexuellen Sechs eine Leichtigkeit und Vielseitigkeit, die bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel so nicht da w\u00e4re. Die SX6w7 k\u00e4mpft nicht nur &ndash; sie sucht auch die Abwechslung, das n\u00e4chste Projekt, die n\u00e4chste Herausforderung, bevor die vorherige ausgesch\u00f6pft ist. <em>Stillstand ist gef\u00e4hrlicher als Bewegung.</em></p>
+          <p class="vb-intro">Johanssons Filmografie ist ein Musterbeispiel f\u00fcr diesen Fl\u00fcgel: Arthouse-Kino (<em>Lost in Translation</em>, <em>Under the Skin</em>), Blockbuster-Action (<em>Black Widow</em>, <em>Lucy</em>), Stimmarbeit (<em>Her</em>), ernstes Drama (<em>Marriage Story</em>, f\u00fcr das sie 2020 gleich zwei Oscar-Nominierungen erhielt), Satire (<em>Jojo Rabbit</em>) &ndash; kaum ein Genre, das sie ausgelassen hat. Dazu kommt ihr Engagement als Produzentin und ihr Ausflug in die Musik mit dem Album <em>Anywhere I Lay My Head</em> (2008). Der Siebenerfl\u00fcgel verwandelt die Wachsamkeit der Sechs in Neugier: Wer sich st\u00e4ndig weiterbewegt, gibt der Angst keine Zeit, sich festzusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Karriere: Vom Kinderstar zur meistkassierenden Schauspielerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johanssons Weg vom Kinderdarstellerinnen-Dasein zur, nach Kinokasseneinspielungen gerechnet, meistkassierenden Schauspielerin der Filmgeschichte ist eine Geschichte konsequenter Neuerfindung. Nach dem kritischen Erfolg von <em>Lost in Translation</em> und <em>Girl with a Pearl Earring</em> etablierte sie sich zun\u00e4chst als anspruchsvolle Charakterdarstellerin, bevor sie 2010 mit <em>Iron Man 2</em> als Natasha Romanoff / Black Widow in das Marvel Cinematic Universe eintrat &ndash; eine Rolle, die sie \u00fcber ein Jahrzehnt und neun Filme hinweg pr\u00e4gte, bis zu ihrem eigenen Solofilm <em>Black Widow</em> (2021).</p>
+          <p class="vb-intro">Diese Doppelbewegung &ndash; ernsthaftes Autorenkino neben physisch fordernder Blockbuster-Action &ndash; ist typisch f\u00fcr die SX6w7: die F\u00e4higkeit, in v\u00f6llig unterschiedlichen Registern zu bestehen, ohne sich auf ein einziges Bild festlegen zu lassen. Der Wolf, der in jedem Rudel eine andere Rolle einnehmen kann, ohne seine Kernidentit\u00e4t zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 ist ihre F\u00e4higkeit, unter Druck Pr\u00e4senz zu zeigen &ndash; die Bereitschaft, sich physisch und emotional in eine Rolle zu werfen, ohne sich zu schonen. Johanssons Trainingsintensit\u00e4t f\u00fcr actionlastige Rollen, ihre Bereitschaft, in <em>Marriage Story</em> eine schmerzhafte Scheidung mit schonungsloser Offenheit darzustellen, ihr Eintreten f\u00fcr gerechte Bezahlung von Schauspielerinnen in Hollywood: All das zeugt von der Bereitschaft, sich der Bedrohung zu stellen, statt ihr auszuweichen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und bei der SX6w7 zeigt sich die Schattenseite oft als Kontrollbed\u00fcrfnis \u00fcber das eigene Bild, das in juristischen Auseinandersetzungen m\u00fcndete: Ihr \u00f6ffentlicher Streit mit Disney 2021 um die Streaming-Auswertung von <em>Black Widow</em> war eine der seltenen Gelegenheiten, bei denen der sonst so sorgf\u00e4ltig gesch\u00fctzte Wolf \u00f6ffentlich die Z\u00e4hne zeigte &ndash; ein Kampf um Anerkennung und Kontrolle, ausgetragen mit derselben Direktheit, die sie sonst nur ihren Rollen vorbeh\u00e4lt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: St\u00e4rke, die nicht mehr sch\u00fctzen muss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der n\u00e4chsten Bedrohung?</em> zur Erkenntnis <em>Ich bin bereits sicher genug, um mich zu zeigen.</em> F\u00fcr die SX6w7 bedeutet das, die R\u00fcstung der st\u00e4ndigen Bewegung und Selbstinszenierung abzulegen &ndash; und Verletzlichkeit nicht nur zu spielen, sondern zuzulassen.</p>
+          <p class="vb-intro">Rollen wie die in <em>Marriage Story</em>, in der Johansson eine Frau spielt, die sich selbst neu erfinden muss, deuten genau diese Richtung an: nicht die n\u00e4chste Rolle als Flucht, sondern als ehrlicher Ausdruck. Der Wolf, der nicht mehr k\u00e4mpfen muss, um sicher zu sein &ndash; sondern der wei\u00df, dass seine St\u00e4rke l\u00e4ngst bewiesen ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function jasminPaoliniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Jasmine Paolini – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jasmine Paolini</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Tennisspielerin, geb. 1996 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er \u00fcberrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist m\u00e4chtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, sch\u00fctzt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine St\u00e4rke ist keine Aggression. Sie ist Verl\u00e4sslichkeit.</p>
+          <p class="vb-intro">Die italienische Tennisspielerin Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unerm\u00fcdlich. Abseits davon: warm, lachend, famili\u00e4r. Sie feiert Siege mit einer Offenheit, die ansteckt, und tr\u00e4gt Niederlagen mit einer W\u00fcrde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er l\u00e4chelt, leuchtet der ganze Wald.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Ma\u00dflosigkeit der Sieben durch W\u00e4rme und Gemeinschaft ausdr\u00fcckt. Naranjo nannte ihn <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest &ndash; einen Kreis aus Menschen, Ritualen, Freuden, der ihr Sicherheit gibt. Nicht durch Kontrolle wie die Acht, nicht durch Regeln wie die Eins &ndash; sondern durch Verbindung und Geborgenheit.</p>
+          <p class="vb-intro">Bei Jasmine Paolini sieht man das in jedem Turnier: ihr Team, ihr Lachen mit dem Trainer, ihre Ausbr\u00fcche echter Freude nach gewonnenen Punkten. Sie wirkt nie wie jemand, der Tennis spielt, um Ruhm zu ernten. Sie wirkt wie jemand, der Tennis liebt &ndash; und dieses Lieben mit allen teilt, die gerade zusehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das ihr ohne ihn fehlen k\u00f6nnte: Beharrlichkeit. Eine Sieben mit schwach ausgepr\u00e4gtem Sechserfl\u00fcgel springt eher von Erfahrung zu Erfahrung, scheut Schwere, sucht den n\u00e4chsten Aufbruch. Der Sechserfl\u00fcgel verankert sie &ndash; er bringt Loyalit\u00e4t, Verantwortungsgef\u00fchl, die Bereitschaft, auch dann noch zu k\u00e4mpfen, wenn die Freude gerade schwer zu finden ist.</p>
+          <p class="vb-intro">Paolinis Karriere ist kein gerader Weg nach oben. Jahrelang spielte sie in der Weltrangliste im Mittelfeld, arbeitete mit ihrem Trainer Renzo Furlan an jedem Detail. Kein Wechsel, keine Ungeduld &ndash; Bindung. Der Sechserfl\u00fcgel h\u00e4lt sie auf dem Boden, wenn die Sieben abzuheben droht, und gibt ihr die Ausdauer f\u00fcr die langen Matches, in denen Freude allein nicht ausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Ma\u00dflosigkeit als innerer Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, Freude, Leben. In der selbsterhaltenden Sieben zeigt er sich nicht als Exzess, sondern als F\u00fclle: mehr W\u00e4rme, mehr Verbindung, mehr dieser Momente, in denen alles stimmt.</p>
+          <p class="vb-intro">Bei Paolini sieht man das im Spiel selbst. Sie gibt keine Punkte auf. Sie versucht jeden Ball zu erreichen. Sie l\u00e4chelt nach verlorenen S\u00e4tzen und k\u00e4mpft sich zur\u00fcck. 2024 stand sie in den Finals von Roland Garros und Wimbledon &ndash; und verlor beide. Vier Wochen sp\u00e4ter gewann sie die WTA Finals. Das ist die Ma\u00dflosigkeit der SE7: nicht zerst\u00f6rerisch, sondern unersch\u00f6pflich. Der Hunger nach dem n\u00e4chsten Moment, der n\u00e4chsten Chance, dem n\u00e4chsten Aufschlag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Jasmine Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren l\u00e4sst: echte Freude. Nicht das L\u00e4cheln einer Marke, nicht die kalkulierte Zug\u00e4nglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standh\u00e4lt. Nicht die fl\u00fcchtige Begeisterung, die beim ersten R\u00fcckschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu \u00fcberstehen. Wer Jasmine Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unersch\u00fctterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function moritzBleibtreuPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7304,202 +7496,4 @@ function hansDietrichGenscherPortraitPage() {
     </div>
   `);
 }
-
-function abidaParveenPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-abida-parveen-portrait.jpg" alt="Abida Parveen – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Abida Parveen</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">S\u00e4ngerin, \u201eK\u00f6nigin des Sufi-Gesangs", geb. 1954 in Larkana, Pakistan &ndash; Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; ein Wesen von enormer Masse, das sich nicht beeilen muss, um Eindruck zu machen. Er bewegt sich in seinem eigenen Rhythmus, geduldig, unersch\u00fctterlich, und wenn er sich einmal in Bewegung setzt, folgt ihm alles um ihn herum. Seine Kraft liegt nicht im Angriff, sondern im schieren Gewicht seiner Pr\u00e4senz.</p>
-          <p class="vb-intro">Die pakistanische S\u00e4ngerin Abida Parveen, geboren 1954 in Larkana, Pakistan, ist dieser Elefant auf der B\u00fchne. Wenn sie in einem farbenpr\u00e4chtigen Gewand auf die B\u00fchne tritt und die Augen schlie\u00dft, geschieht zun\u00e4chst wenig &ndash; keine Show, keine Choreografie, kein Spektakel. Und doch versinkt der gesamte Konzertsaal binnen Minuten in eine kollektive Trance, mitgezogen von einer Stimme, die keine Eile kennt und genau deshalb alles mit sich rei\u00dft.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit auf Verschmelzung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden durch Beharrlichkeit, durch das vollst\u00e4ndige Einlassen auf den gegenw\u00e4rtigen Moment, durch Sicherheit im Bestehenden statt im Streben nach Neuem. Sie sucht nicht die B\u00fchne der Selbstdarstellung, sondern das stille Verschmelzen mit etwas Gr\u00f6\u00dferem als sich selbst.</p>
-          <p class="vb-intro">Parveen wuchs in einer Familie von Sufi-Musikern auf und wurde von ihrem Vater ausgebildet, obwohl es zu ihrer Zeit un\u00fcblich war, T\u00f6chter zur S\u00e4ngerin auszubilden &ndash; S\u00f6hne wurden bevorzugt. Sie folgte dennoch beharrlich diesem einen Weg, jahrzehntelang, ohne \u00f6ffentliche Rebellion, ohne lautes Auflehnen gegen die Konvention. Die SE9 ver\u00e4ndert die Welt nicht durch Kampf, sondern durch die stille, unbeirrbare Fortsetzung dessen, was sie als ihre Aufgabe erkannt hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Die Kraft in der Hingabe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel</strong> verleiht der selbsterhaltenden Neun eine Intensit\u00e4t, die einer Neun mit schwach ausgepr\u00e4gtem Achterfl\u00fcgel fehlt: eine k\u00f6rperliche, fast \u00fcberw\u00e4ltigende Kraft, die sich Bahn bricht, sobald der Moment reif ist. Die <strong>SE9w8</strong> ist keine zur\u00fcckhaltende Neun &ndash; sie kann, wenn sie sich \u00f6ffnet, mit einer Wucht auftreten, die niemand erwartet h\u00e4tte.</p>
-          <p class="vb-intro">Genau das geschieht bei Parveens Auftritten: Was als ruhige, meditative Anrufung beginnt, steigert sich unaufhaltsam in eine ekstatische, k\u00f6rperlich sp\u00fcrbare Intensit\u00e4t &ndash; ihre Stimme kann von einem fl\u00fcsternden Gebet zu einem durchdringenden Schrei anschwellen, der ganze Konzerthallen in Bewegung versetzt. Der Achterfl\u00fcgel ist die Kraft, die aus der Hingabe der Neun eine Naturgewalt macht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Kalam, Qawwali und die Botschaft der Sufis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Abida Parveen gilt weithin als bedeutendste lebende Interpretin des Kalam &ndash; der mystischen Sufi-Poesie von Dichtern wie Bulleh Shah, Shah Hussain und Rumi &ndash; sowie des Qawwali, der traditionellen Sufi-Devotionalmusik. Sie singt in Sindhi, Urdu, Punjabi, Persisch und Saraiki und hat \u00fcber Jahrzehnte hinweg Konzerts\u00e4le von Pakistan \u00fcber Indien bis nach Europa und Nordamerika gef\u00fcllt.</p>
-          <p class="vb-intro">Ihre Musik \u00fcberschreitet bewusst religi\u00f6se und nationale Grenzen: Sie tritt sowohl vor muslimischem als auch vor hinduistischem Publikum auf, wird in Pakistan wie in Indien gleicherma\u00dfen verehrt, und ihre Botschaft der g\u00f6ttlichen Liebe (Ishq) kennt keine konfessionellen Schranken. 2012 wurde sie mit dem UNESCO-Preis f\u00fcr Musik ausgezeichnet, in Pakistan tr\u00e4gt sie den h\u00f6chsten zivilen Verdienstorden, den Hilal-e-Imtiaz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE9w8 ist ihre <strong>F\u00e4higkeit, in v\u00f6lliger Hingabe eine Kraft zu entfalten, die weit \u00fcber die eigene Person hinausreicht</strong>. Parveen wird von Millionen Menschen verehrt, weil sie nicht sich selbst inszeniert, sondern zum Gef\u00e4\u00df f\u00fcr etwas wird, das gr\u00f6\u00dfer ist als sie &ndash; die mystische Sehnsucht des Sufismus nach Vereinigung mit dem G\u00f6ttlichen.</p>
-          <p class="vb-intro">Der Schatten zeigt sich in einer Tr\u00e4gheit, die den eigenen k\u00fcnstlerischen Fortschritt bremsen kann: Parveen hat \u00fcber Jahrzehnte im Wesentlichen an derselben Form festgehalten, ohne sich musikalisch grundlegend zu ver\u00e4ndern oder zu experimentieren. Die selbsterhaltende Neun kann in ihrer Beharrlichkeit so tief in einer bew\u00e4hrten Form verankert sein, dass Weiterentwicklung dahinter zur\u00fccktritt &ndash; ein Preis, den auch eine Meisterschaft zahlen kann, die zur Gewohnheit wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Elefant, der in Trance versinkt und alle mitrei\u00dft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Tr\u00e4gheit zu echter, aktiver Pr\u00e4senz &ndash; von der Selbstvergessenheit im Allt\u00e4glichen zu einem bewussten Aufgehen in etwas, das gr\u00f6\u00dfer ist als das eigene Ich. Bei Abida Parveen ist genau dieser Weg zum k\u00fcnstlerischen Prinzip geworden: Sie vergisst sich selbst auf der B\u00fchne nicht aus Passivit\u00e4t, sondern aus einer ge\u00fcbten, jahrzehntelang vertieften spirituellen Hingabe.</p>
-          <p class="vb-intro">Wenn Parveen singt, verschwindet die Grenze zwischen Performerin und Publikum, zwischen Diesseits und dem, wovon die Sufi-Dichter sprachen. Das ist die SE9w8 in ihrer reifsten Form: der Elefant, der scheinbar bewegungslos in sich selbst versinkt &ndash; und genau dadurch alle mit sich in Bewegung setzt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function johannesBrahmsPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-johannes-brahms-portrait.jpg" alt="Johannes Brahms" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johannes Brahms</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Komponist, 1833–1897 – Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier der selbsterhaltenden Neun des Enneagramms – ein Wesen von enormem Gewicht, das sich trotzdem gemächlich, fast bedächtig durch die Welt bewegt, das nichts vergisst und niemanden verlässt, dem es einmal die Treue geschworen hat. Johannes Brahms war dieser Elefant: massig in seiner künstlerischen Statur, unerschütterlich in seinen Bindungen, und mit einem Gedächtnis, das eine einzige Freundschaft über vier Jahrzehnte trug.</p>
-          <p class="vb-intro">Der deutsche Komponist Johannes Brahms, geboren 1833 in Hamburg als Sohn eines Stadtmusikers, verdiente sich als Teenager als Teenager sein Geld am Klavier in Hafenkneipen St. Paulis – eine harte, karge Schule, die ihn Zeit seines Lebens genügsam bleiben ließ, auch als sein Ruhm ihn längst zu einem der reichsten Komponisten Europas gemacht hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit im Kleinen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Frieden nicht durch große Gesten, sondern durch das verlässliche, oft unscheinbare Ritual – die immer gleiche Kneipe, der immer gleiche Spaziergang, die immer gleiche Sommerfrische. Brahms verkörperte dieses Muster bis ins Detail. Jeden Sommer zog er sich in dieselben ländlichen Orte zurück, um zu komponieren, saß abends verlässlich in seinen Wiener Stammlokalen bei Bier und Zigarre, und hielt an seinen Gewohnheiten mit einer Sturheit fest, die Freunde amüsierte und manchmal auch verzweifeln ließ.</p>
-          <p class="vb-intro">Trotz seines beträchtlichen Vermögens lebte er bewusst einfach – in bescheidenen Wiener Zimmern, ohne Prunk, ohne Dienerschaft. Sein Geld floss stattdessen still und meist anonym an bedürftige Musiker, an die Familien früherer Weggefährten, an den jungen Antonín Dvořák, dessen Karriere er entscheidend förderte. Die SE9 sucht Sicherheit nicht im Besitz, sondern im Vertrauten – und Brahms fand seine Sicherheit darin, gebraucht zu werden, ohne dass es jemand erfuhr.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Der schroffe Ton hinter der Stille</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun etwas, das bei kaum entwickeltem Achterflügel oft fehlt: eine Kante, die nicht verhandelbar ist. Brahms war berühmt-berüchtigt für seine bissige Schlagfertigkeit. Als er einmal eine Gesellschaft verließ, soll er im Hinausgehen gesagt haben: "Wenn hier jemand ist, den ich nicht beleidigt habe, so bitte ich um Entschuldigung." Das ist keine Anekdote über Bosheit – das ist der Achterflügel, der die konfliktscheue Neun mit einer schneidenden Direktheit ausstattet, die niemand erwartet.</p>
-          <p class="vb-intro">Diese Härte zeigte sich am deutlichsten im sogenannten "Streit der Romantiker": Während Franz Liszt und Richard Wagner mit der "Neudeutschen Schule" die Programmmusik und radikale harmonische Neuerungen vorantrieben, positionierte sich Brahms – gemeinsam mit dem Kritiker Eduard Hanslick – als kompromissloser Verteidiger der klassischen Formen Bachs und Beethovens. Er zog sich aus diesem Streit nie zurück, suchte ihn auch nicht aktiv – aber wenn er einmal Stellung bezogen hatte, bewegte ihn niemand mehr davon weg. Das ist die Neun mit Achterflügel: geduldig bis zu dem Punkt, an dem sie es nicht mehr ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als beharrliches Feilen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – nicht Faulheit, sondern das Beharren im Vertrauten, die Weigerung, sich hetzen zu lassen. Bei Brahms wurde daraus eine schöpferische Geduld von fast unmenschlichem Ausmaß: Über 21 Jahre arbeitete er an seiner 1. Symphonie, weil er sich im übermächtigen Schatten Beethovens sah und jeden Takt so lange prüfte, bis er ihm standhielt. Der Dirigent Hans von Bülow nannte das fertige Werk später respektvoll "Beethovens Zehnte".</p>
-          <p class="vb-intro">Diese Trägheit war kein Mangel an Ehrgeiz, sondern das genaue Gegenteil: ein Beharren, das sich nicht drängen ließ, auch nicht vom eigenen Talent. Brahms vernichtete unzählige frühe Werke, die ihm nicht genügten, und veröffentlichte lieber gar nichts als etwas Unfertiges. Die Neun, die im Vertrauten Sicherheit sucht, fand ihre Sicherheit hier in der klassischen Form selbst – und weigerte sich, sie zu verlassen, bevor sie sie vollständig durchdrungen hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Robert und Clara Schumann: Die geteilte Acht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1853 spielte der 20-jährige, noch unbekannte Brahms dem Ehepaar Schumann in Düsseldorf vor. Robert Schumann – selbst eine sexuelle Sieben mit Achterflügel (SX7w8) – erkannte in ihm sofort den kommenden Meister und verkündete es der Welt in seinem Essay "Neue Bahnen" ohne jede Zurückhaltung. Zwei Achterflügel-Naturen trafen hier aufeinander: der stürmische, sich sofort und vollständig begeisternde Schumann und der zurückhaltendere, aber ebenso unbeugsame Brahms. Es war, als hätte die Acht in beiden sofort erkannt, was in dem jeweils anderen steckte.</p>
-          <p class="vb-intro">Als Schumann nur ein Jahr später in geistiger Umnachtung in den Rhein sprang und sich in die Heilanstalt Endenich einweisen ließ, war es Brahms, der blieb. Er zog nach Düsseldorf, unterstützte Clara Schumann bei der Versorgung ihrer sieben Kinder, kümmerte sich um die Finanzen der Familie und besuchte Robert regelmäßig in der Anstalt – während Clara selbst ihn kaum sehen durfte. Das ist die Elefanten-Treue der selbsterhaltenden Neun in ihrer klarsten Ausprägung: Wo ein anderer nach dem ersten Enthusiasmus weitergezogen wäre, blieb Brahms – über Jahrzehnte, bis zu Clara Schumanns Tod 1896. Er selbst starb nur elf Monate später. Der Elefant, der nichts vergisst, hatte bis zuletzt nicht vergessen, wem er seinen ersten großen Anfang verdankte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Bewahrer, der niemanden verließ</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Brahms hinterließ ein Werk, das die klassische Tradition nicht museal konservierte, sondern mit letzter Konsequenz zu Ende dachte – vier Symphonien, Kammermusik von unerreichter Dichte, das Deutsche Requiem, komponiert im Angedenken an seine Mutter. Kein Komponist des 19. Jahrhunderts hat die Formen Bachs (SX1w9) und Beethovens (SX6w5) so ernst genommen und zugleich so persönlich durchdrungen.</p>
-          <p class="vb-intro">Das eigentliche Vermächtnis der SE9w8 aber liegt nicht allein in den Noten. Es liegt in der Treue eines Mannes, der weder für Ruhm noch für Anerkennung, sondern aus stiller, unerschütterlicher Verbundenheit vierzig Jahre lang bei einer Familie blieb, die ihn einst entdeckt hatte. Der Elefant mit dem Achterflügel: geduldig genug, um zwei Jahrzehnte an einer Symphonie zu feilen – und stur genug, um eine einmal gegebene Treue nie wieder aufzugeben.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8) – sein Entdecker"},
-        {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
-        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
-        {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9)"},
-        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-baerbel-bas", label:"Porträt: Bärbel Bas (SE9w1)"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – Leberkrebs, elf Monate nach Clara Schumann"},
-      ])}
-    </div>
-  `);
-}
-
-function kevinCostnerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="Kevin Costner – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Kevin Costner</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1955 &ndash; Tierentsprechung: B\xfcffel</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der B\xfcffel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier des sozialen Typs 9 &ndash; und kein Bild trifft Kevin Costner genauer. Der B\xfcffel lebt im Kollektiv. Er bewegt sich langsam, mit Gewicht, bodennah. Er ist nicht das lauteste Tier der Pr\xe4rie &ndash; aber wenn er in Bewegung ist, folgt ihm die Herde. Seine Kraft liegt nicht in der Dominanz, sondern in der Zugeh\xf6rigkeit: Er ist Teil von etwas Gr\xf6\xdferem, und er wei\xdf es.</p>
-          <p class="vb-intro">Der US-amerikanische Schauspieler Kevin Costner, 1955 in Lynwood, Kalifornien geboren, ist einer der seltensten Typen in Hollywood: ein Schauspieler, der nicht glitzert, sondern tr\xe4gt. Er spricht langsam. Er spielt langsam. Seine besten Rollen sind M\xe4nner, die nicht f\xfcr sich k\xe4mpfen &ndash; sondern f\xfcr etwas, das gr\xf6\xdfer ist als sie selbst: ein Land, eine Gemeinschaft, ein versunkenes Versprechen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Neun: In der Gemeinschaft aufgehen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Subtyp, den er <em>Teilnahme</em> nannte: die tiefe Neigung, sich einer Gruppe, einer Gemeinschaft, einem Kollektiv zu \xfcbergeben &ndash; und darin Frieden zu finden. Die SO9 verliert sich nicht aus Schw\xe4che im Anderen. Sie findet sich darin. Die Zugeh\xf6rigkeit ist kein Trost &ndash; sie ist das Ziel.</p>
-          <p class="vb-intro">Costners Filmografie liest sich wie ein SO9-Manifest. In <em>Der mit dem Wolf tanzt</em> (<em>Dances with Wolves</em>, 1990) spielt er einen Soldaten, der nicht siegt, sondern sich aufl\xf6st &ndash; in die Lakota-Gemeinschaft, ihre Sprache, ihren Rhythmus, ihre Werte. In <em>Feld der Tr\xe4ume</em> (<em>Field of Dreams</em>, 1989) baut er ein Baseballfeld, um die Gemeinschaft der Toten mit der der Lebenden zu vers\xf6hnen. In <em>Bull Durham</em> (1988) ist er der Catcher, der nicht gl\xe4nzt &ndash; sondern h\xe4lt. Immer wieder der Mann, der den Raum bereitet, damit andere darin existieren k\xf6nnen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\xfcgel: Das moralische Gew\xe4sser</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\xfcgel</strong> verleiht der sozialen Neun eine Qualität, die einer SO9 mit schwach ausgeprägtem Einserflügel fehlt: ein innerer Kompass, ein Gef\xfchl f\xfcr Richtigkeit, eine Bereitschaft zur Unbequemlichkeit, wenn etwas falsch l\xe4uft. Die <strong>SO9w1</strong> sucht nicht nur Zugeh\xf6rigkeit &ndash; sie sucht eine Zugeh\xf6rigkeit, die stimmt.</p>
-          <p class="vb-intro">Costner w\xe4hlte seine Rollen nie nach Marktlogik. <em>Der mit dem Wolf tanzt</em> galt in Hollywood als unverkaufbar &ndash; drei Stunden, kein Star-Ensemble, ein Native-American-Epos ohne Heldenrettung. Er produzierte es selbst, riskierte sein Privatverm\xf6gen, gewann den Oscar f\xfcr den besten Film und f\xfcr die beste Regie. Die SO9w1 setzt sich durch &ndash; nicht durch Ellbogen, sondern durch Beharrlichkeit in dem, was sie f\xfcr richtig h\xe4lt. Der Einserfl\xfcgel gibt ihr den Mut zur Stille.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Amerika als Sehnsucht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kevin Costners Werk ist ein einziges, vielstimmiges Portr\xe4t Amerikas &ndash; nicht des Amerika, das ist, sondern des Amerika, das sein k\xf6nnte. <em>Der Bodyguard</em> (1992), <em>Wyatt Earp</em> (1994), <em>Open Range &ndash; Weites Land</em> (2003): immer wieder M\xe4nner mit einem Ehrenkodex, der gr\xf6\xdfer ist als ihre Interessen. Auch <em>Waterworld</em> (1995), das legendenumwobene Fiasko, erz\xe4hlt von einem Einzelg\xe4nger, der eine Gemeinschaft rettet &ndash; und dann wieder verschwindet. Selbst im Scheitern bleibt die Handschrift dieselbe.</p>
-          <p class="vb-intro">Mit der Fernsehserie <em>Yellowstone</em> (seit 2018) erlebte Costner eine der ungew\xf6hnlichsten Renaissance-Phasen des amerikanischen Kinos. Als John Dutton, Patriarch einer Rancher-Dynastie im Konflikt mit Moderne und Kapital, verk\xf6rpert er die SO9w1 in ihrer vollsten Form: ein Mann, der nicht das Land besitzt &ndash; sondern zu ihm geh\xf6rt. Ein Mann, dessen moralische Geradlinigkeit sowohl seine gr\xf6\xdfte St\xe4rke als auch seine gr\xf6\xdfte Quelle der Isolation ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten: Die Stille als Grenze</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w1 ist ihre <strong>F\xe4higkeit zur Hingabe</strong>. Costner hat immer wieder Projekte verfolgt, an die er glaubte &ndash; \xfcber Widerst\xe4nde, Budgets und Kritiken hinaus. Seine Arbeit tr\xe4gt eine Ernsthaftigkeit, die in einer Unterhaltungsindustrie, die auf Ironie und Selbstreferenz setzt, seltsam anachronistisch wirkt &ndash; und gerade deshalb so selten und wertvoll ist.</p>
-          <p class="vb-intro">Der Schatten: Die Neun verliert sich in der Gemeinschaft &ndash; und vergisst manchmal, auch f\xfcr sich selbst da zu sein. Costners Ehen &ndash; mit Cindy Silva (1978&ndash;1994) und Christine Baumgartner (2004&ndash;2023) &ndash; scheiterten beide nach langen Jahren. In Interviews wirkt er nachdenklich, gelegentlich melancholisch, wie jemand, der anderen Heimat schafft und selbst keinen festen Anker hat. Der B\xfcffel bewegt sich mit der Herde. Aber manchmal bleibt er am Ende allein auf der Pr\xe4rie zur\xfcck.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der B\xfcffel, der bleibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Kevin Costner geh\xf6rt zu den wenigen Schauspieler-Regisseuren, deren Werk ein konsistentes Weltbild tr\xe4gt: Amerika ist nicht ein Ort, sondern ein Versprechen. Zugeh\xf6rigkeit ist nicht selbstverst\xe4ndlich, sondern wird verdient. Und der Mann, der eine Gemeinschaft h\xe4lt, muss bereit sein, sich selbst zur\xfcckzunehmen. Nicht laut, nicht brillant &ndash; aber beharrlich. Und tiefer, als man zunächst vermutet.</p>
-          <p class="vb-intro">Das ist die SO9w1 in ihrer besten Form: Sie macht nichts f\xfcr sich. Sie macht alles f\xfcr das, woran sie glaubt. Und manchmal &ndash; wie in <em>Der mit dem Wolf tanzt</em>, wie in <em>Feld der Tr\xe4ume</em>, wie in <em>Yellowstone</em> &ndash; reicht das, um etwas zu schaffen, das \xfcberdauert.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        </blockquote>
-
-        ${relatedLinks([
-          {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
-          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
 

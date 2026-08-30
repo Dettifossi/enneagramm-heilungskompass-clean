@@ -1,3 +1,331 @@
+function detlefRathmerJazzPage() {
+  const kachel = (id, label, tracks, desc, langs) => `
+    <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
+      <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
+      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+        <iframe width="100%" height="100%" style="border:none;display:block;"
+          src="https://www.youtube.com/embed/${id}?rel=0"
+          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      </div>
+      ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
+      ${langs && langs.length ? `
+      <details style="padding:0.4rem 1rem 0.6rem;">
+        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
+          \u25b6 In ${langs.length} weiteren Sprachen
+        </summary>
+        <ul style="margin:0.4rem 0 0;padding-left:1.2rem;font-size:0.81rem;line-height:2;">
+          ${langs.map(l => `<li><a href="https://www.youtube.com/watch?v=${l.id}" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${l.label}</a></li>`).join("")}
+        </ul>
+      </details>` : ""}
+      ${tracks && tracks.length ? `
+      <details style="padding:0.4rem 1rem 0.6rem;">
+        <summary style="cursor:pointer;font-size:0.82rem;color:var(--copper);font-weight:600;user-select:none;">
+          \u25b6 Alle ${tracks.length} Songs
+        </summary>
+        <ol style="margin:0.4rem 0 0;padding-left:1.4rem;font-size:0.81rem;line-height:1.9;">
+          ${tracks.map(trk => typeof trk === "string" ? `<li style="color:var(--ink);">${trk}</li>` : `<li><a href="https://www.youtube.com/watch?v=${id}&t=${trk.s}s" target="_blank" rel="noopener" style="color:var(--ink);text-decoration:none;">${trk.t}</a></li>`).join("")}
+        </ol>
+      </details>` : ""}
+    </div>
+  `;
+
+  const jazzAlben = [
+    { id: "LcOU_Hn_yBo", num: "64", label: "Album 64 \u2013 Jazz of Eternal Reflections" },
+    { id: "pKnb8mB0Zfo", num: "65", label: "Album 65 \u2013 Jazz of the Soul\u2019s Journey" },
+    { id: "UUV-PEfF_nM", num: "66", label: "Album 66 \u2013 Timeless Currents" },
+    { id: "k9cTNPdppLk", num: "67", label: "Album 67 \u2013 Jazz of Life\u2019s Essence" },
+    { id: "h0sa7RYZM1E", num: "68", label: "Album 68 \u2013 Jazz of Infinite Horizons" },
+    { id: "BEWN4kSD0BY", num: "69", label: "Album 69 \u2013 Jazz of the Heart\u2019s Journey" },
+    { id: "xPExswhyM14", num: "70", label: "Album 70 \u2013 Jazz of Serendipity" },
+    { id: "r00wftzVgB4", num: "71", label: "Album 71 \u2013 Jazz of Awakening" },
+    { id: "pD4nIBarcLM", num: "72", label: "Album 72 \u2013 Jazz of Timeless Whispers" },
+    { id: "bjuxx198edA", num: "73", label: "Album 73 \u2013 Jazz of Inner Light" },
+    { id: "jtN0f9j99Lc", num: "74", label: "Album 74 \u2013 Jazz of the Unwritten Path" },
+    { id: "HkzeR-6z428", num: "75", label: "Album 75 \u2013 Jazz of the Wandering Soul" },
+    { id: "4O3ukz_lkTM", num: "76", label: "Album 76 \u2013 Jazz & Healing Vibes", desc: "70 der sch\u00f6nsten Jazzkompositionen von Detlef Rathmer \u2013 eine 3\u00be-st\u00fcndige Reise durch Klang und Wohlbefinden." },
+    { id: "BIVoUgrInEY", num: "77", label: "Album 77 \u2013 Jazz of the Eternal Flow" },
+    { id: "jwaiY-XAICw", num: "78", label: "Album 78 \u2013 Jazz of Destiny\u2019s Flow" },
+    { id: "vHzAIXpkOro", num: "79", label: "Album 79 \u2013 Jazz of the Unfolding Mystery" },
+    { id: "71n7_wtBpRw", num: "80", label: "Album 80 \u2013 Jazz of Sacred Moments" },
+    { id: "2H8AeBJiD1Q", num: "81", label: "Album 81 \u2013 Jazz of Life\u2019s Symphony" },
+    { id: "VL5UoR4u-b4", num: "82", label: "Album 82 \u2013 Jazz of Sacred Frequencies" },
+    { id: "lpaiPZmq3cM", num: "83", label: "Album 83 \u2013 Jazz of Hidden Truth" },
+    { id: "NE7kqSM1PGU", num: "84", label: "Album 84 \u2013 Jazz of Vital Resonance" },
+    { id: "1AGJ32cw6lI", num: "85", label: "Album 85 \u2013 Swinging Jazz of Cosmic Clarity" },
+    { id: "LlqDcFqqm8I", num: "86", label: "Album 86 \u2013 Spirit of 1950s West Coast Jazz" },
+    { id: "U5CgE4r9G9c", num: "87", label: "Album 87 \u2013 Spirit of 1920s New Orleans Jazz (Dixieland)", desc: "Mitrei\u00dfende Klarinetten, Trompeten und Posaunen im Dixieland-Stil des fr\u00fchen New-Orleans-Jazz." },
+    { id: "MC-fXn94Nv0", label: "Album 88 \u2013 Spirit of 1930s Energetic Swing Jazz", desc: "Mitrei\u00dfende Big-Band-Kl\u00e4nge und tanzbare Rhythmen des Swing-Jazz der 1930er Jahre." },
+    { id: "GInMSoLraG0", num: "89", label: "Album 89 \u2013 Spirit of 1940s Fast-paced Bebop Jazz", desc: "Rasanter Bebop mit komplexen Harmonien und virtuosen Soli \u2013 Jazz der 1940er in seiner schnellsten Form." },
+    { id: "Vnre_ymfs3Y", label: "Album 90 \u2013 Spirit of 1950s Smooth Cool Jazz", desc: "Sanfte Melodien und weiche Bl\u00e4ser im Stil des Cool Jazz der 1950er \u2013 entspannt und stilvoll." },
+    { id: "-MK_u80PKWw", label: "Album 91 \u2013 Spirit of Lively Latin Jazz", desc: "Lateinamerikanische Rhythmen treffen auf Jazz-Improvisation \u2013 kubanische und brasilianische Einfl\u00fcsse." },
+    { id: "ddD6oSU_I_4", label: "Album 92 \u2013 Spirit of Meditative Modal Jazz", desc: "Modaler Jazz mit wenigen Harmoniewechseln und viel Tiefe \u2013 meditativ und frei in der Improvisation." },
+    { id: "uoDD_45vCgU", label: "Album 93 \u2013 Spirit of Relaxing Lo-Fi Jazz", desc: "Entspannter Lo-Fi-Jazz mit weichen Beats und nostalgischem Klang \u2013 ideal zum Lernen, Arbeiten oder Entspannen." },
+    { id: "IaxD4i3ZIUo", num: "94", label: "Album 94 \u2013 Lo-Fi Jazz of the Unwritten Language of Life", desc: "Lo-Fi Jazz als Sprache des Lebens \u2013 zwischen Stille und Schwingen, wo keine Worte mehr n\u00f6tig sind." },
+    { id: "5d-jXATn2Lk", num: "95", label: "Album 95 \u2013 Jazz of Gravity and Grace", desc: "Schwere und Anmut im Dialog \u2013 Jazz, der die Erdung mit der Leichtigkeit des Seins verbindet." },
+    { id: "xIIbqGrQB_U", label: "Album 96 \u2013 Jazz of Echoes Beyond the Form", desc: "Klangreisen jenseits der Form \u2013 Jazz als Spiegel des Unausgesprochenen und Fluss des inneren Nachhalls." },
+    { id: "BDyzUXBdy-o", num: "97", label: "Album 97 \u2013 Jazz of Inner Stillness (Lo-fi, Bossanova)", desc: "Lo-Fi und Bossanova im Zeichen der inneren Stille \u2013 Musik f\u00fcr ruhige Momente und tiefes Atemholen." },
+    { id: "g8k8nzvnTSo", label: "Album 98 \u2013 Jazz of the Spiritual Flow", desc: "Lo-fi, Bossa und Swing im Fluss des Spirituellen \u2013 Musik f\u00fcr tiefe Stille und innere Weite." },
+    { id: "jw9n6Dccr7M", num: "99", label: "Album 99 \u2013 Jazz of Cosmic Law (Lo-fi, Swing Jazz)", desc: "Lo-Fi und Swing im Einklang mit dem kosmischen Gesetz \u2013 Rhythmus und Stille als Ausdruck der Weltordnung." },
+    { id: "5AYWhg50bnw", label: "Album 100 \u2013 Jazz XXI \u2013 21st Century Jazz", desc: "Lo-fi, Swing und Nordic Jazz des 21. Jahrhunderts \u2013 zeitgen\u00f6ssischer Jazz zwischen Stille und Energie." },
+    { id: "ku-pxWpNCZc", num: "101", label: "Album 101 \u2013 Stillness in the Shifting Sky (Nordic Jazz)", desc: "Nordischer Jazz unter wechselndem Himmel \u2013 Stille und Bewegung, Licht und Wolken in klingender Form." },
+    { id: "4firu1KRKIk", label: "Album 102 \u2013 Breath of the Unseen (Nordic Jazz)", desc: "Nordischer Jazz mit Atem und Weite \u2013 Musik f\u00fcr das Unsichtbare zwischen den T\u00f6nen." },
+  ];
+
+  const enneagrammAlben = [
+    { id: "J0Vq9I81i-Q", num: "14", label: "Album 14 \u2013 Irish Folk & Enneagram (English)" },
+    { id: "OUQ5-VXvK7M", num: "15", label: "Album 15 \u2013 Bossa Nova & Enneagramm (Portugu\u00eas)" },
+    { id: "59S6PAWebZ8", num: "16", label: "Album 16 \u2013 Bossa Nova & Enneagram (English)" },
+    { id: "T057IXeqDG4", num: "17", label: "Album 17 \u2013 Bossa Nova & Enneagramm (Deutsch)" },
+    { id: "2qaItk2k21s", num: "18", label: "Album 18 \u2013 Love Ballads & Enneagram" },
+    { id: "LoUJ6097Als", num: "19", label: "Album 19 \u2013 Classical Music & Enneagram" },
+    { id: "LSpTS9uSeaM", num: "20", label: "Album 20 \u2013 R&B Meets Enneagram" },
+    { id: "nwXeqwPDTr0", num: "21", label: "Album 21 \u2013 Reggae Meets Enneagram" },
+    { id: "7HFR5e_mS-E", num: "22", label: "Album 22 \u2013 Charming German Hits Meets Enneagram" },
+    { id: "QWeHHcDySkk", label: "Album 23 \u2013 Rap Meets Enneagram" },
+    { id: "mumR1QESNzQ", label: "Album 24 \u2013 Healing Music for Enneagram Type 1" },
+    { id: "6nCg7G-91Lc", label: "Album 25 \u2013 Healing Music for Enneagram Type 2" },
+    { id: "8SmbE-4Za_k", label: "Album 26 \u2013 Healing Music for Enneagram Type 3" },
+    { id: "R09IW7vjcxQ", label: "Album 27 \u2013 Healing Music for Enneagram Type 4" },
+    { id: "rzkLF6KDCFw", label: "Album 28 \u2013 Healing Music for Enneagram Type 5" },
+    { id: "rIfT6OQgOAU", label: "Album 29 \u2013 Healing Music for Enneagram Type 6" },
+    { id: "BVYOCZ6xMlA", label: "Album 30 \u2013 Healing Music for Enneagram Type 7" },
+    { id: "afuljgIKAOU", label: "Album 31 \u2013 Healing Music for Enneagram Type 8" },
+    { id: "prWKIp0Voq8", label: "Album 32 \u2013 Healing Music for Enneagram Type 9" },
+    { id: "HRAp3ECem00", label: "Album 46 \u2013 Healing Music for Soziale Vierer (SO4)" },
+    { id: "QogJd6km5W8", label: "Album 61 \u2013 Healing Music for Selbsterhaltende Neuner (SE9)" },
+  ];
+
+  const deutschsprachigeSongs = [
+    { id: "UIs80tsNcmE", label: "Enneagramm-Hymne \u2013 Loblied auf die 9 Typen" },
+    { id: "0wuNFvrDWgs", label: "27 Pfade \u2013 Song \u00fcber die 27 Pers\u00f6nlichkeiten" },
+    { id: "UiiJxzKg_8k", label: "Neun Wege \u2013 Jazz-Version" },
+    { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song" },
+    { id: "1OPgSJAh5OE", label: "Blei zu Gold \u2013 Die innere Transformation der 9 Typen" },
+    { id: "Pg7AIif63lE", label: "Zwei Stimmen, ein Lied \u2013 Seelische Bed\u00fcrfnisse des Menschseins" },
+    { id: "ZKzxDWLHj8M", label: "Die Zeit in meinen H\u00e4nden \u2013 Zeitempfinden der 9 Typen" },
+    { id: "F-o0e7y8ElY", label: "Das Rad der Neun \u2013 Die Wege der 9 Typen" },
+    { id: "LttxUqLQ-I4", label: "Neun Wege, neun Herzen \u2013 Die Tugenden der 9 Typen" },
+    { id: "i6cx6rq-kRk", label: "Neun Typen, neun Wege \u2013 Die Vielf\u00e4ltigkeit der 9 Typen" },
+    { id: "zrcTbu-gzKk", label: "Neun Blicke, neun Welten \u2013 Die Blickqualit\u00e4t der 9 Typen" },
+    { id: "cjXKYMQctmw", label: "Neun Wege, ein Licht \u2013 Die Heiligen Ideen der 9 Typen" },
+    { id: "QjIdQUILK3Y", label: "Neun T\u00f6ne, ein Lied \u2013 Die Essenz des menschlichen Strebens" },
+    { id: "qEduDzF1D2k", label: "9 Typen im Urlaub" },
+    { id: "9_5r279IsVM", label: "9 Typen beim Doktor" },
+    { id: "57eIsbdEBgc", label: "Enneagramm-Ballade" },
+    { id: "RNp2Jlu5qUo", label: "Enneagramm-Blues \u2013 Kindheitsdefizite & Verletzungen" },
+    { id: "TUO91KK7Ypc", label: "Neun Melodien \u2013 Fixierungen und L\u00f6sungswege" },
+    { id: "sSkjQXl2O4c", label: "Neun Wege der Seele (Irish-Celtic-Stil)" },
+    { id: "O5235kzxzWE", label: "Neun Wege (Rap-Version)" },
+    { id: "UM3WGb8tBMc", label: "Neun Wege (Pop-Version)" },
+    { id: "0qHG9uV-DUw", label: "Neun Wege (Blues-Version)" },
+    { id: "snO3u9gRZis", label: "Neun Wege (Punk-Version)" },
+    { id: "KEHF4dHB1Ic", label: "Neun Wege (Hip-Hop-Version)" },
+    { id: "7ll_OdPJPFQ", label: "Neun Wege (Reggae-Version)" },
+    { id: "FqrNCwpTieU", label: "Neun Wege (Rock-Version)" },
+    { id: "WsfKzMoc3ss", label: "Neun Wege (World-Music-Version)" },
+    { id: "mGgl_ELpgaQ", label: "Neun Wege (Bossa-Nova-Version)" },
+    { id: "HTCLOI-Qtzw", label: "Neun Wege (R'n'B/Soul-Version)" },
+    { id: "ycCGpZqmzeY", label: "Neun Typen, neun Welten, wie sie Weihnachten seh'n" },
+  ];
+
+  const englischsprachigeSongs = [
+    { id: "2li9BrwEdGo", label: "Enneagram Anthem \u2013 Hymn of Praise" },
+    { id: "gKt5ewn7MY4", label: "27 Paths \u2013 Song About the 27 Personalities" },
+    { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song" },
+    { id: "w2iFAGFT5Iw", label: "Nine Gazes, Nine Worlds \u2013 The Gaze Qualities of the Nine Types" },
+    { id: "Hjww24C4v_o", label: "Enneagram Ballad" },
+    { id: "ldFzU1hRIVU", label: "Nine Paths, Nine Hearts (Irish Folk Style)" },
+    { id: "Vbb0nSQp-6s", label: "Through Your Eyes \u2013 Inner Abundance & Self-Awareness" },
+    { id: "hpTRcrA0kTg", label: "Nine Types at the Doctor's" },
+    { id: "C03WAWfyfk0", label: "Enneagram on Holiday" },
+    { id: "eIyXdMkS4Dk", label: "Nine Types, Nine Worlds, Their Christmas in View \ud83c\udf84" },
+  ];
+
+  const flammenDesLebensSongs = [
+    { id: "zQV3lWHeOWk", label: "Flammen des Lebens \u2013 Die Leidenschaften der 9 Typen (Deutsch)" },
+    { id: "gfGQVCffmL0", label: "Flames of Life \u2013 The Passions of the 9 Types (English)" },
+    { id: "bTNPBa2CCPQ", label: "Flammes de Vie (Fran\u00e7ais)" },
+    { id: "ccmZzNuGsQw", label: "Llamas de la Vida (Espa\u00f1ol)" },
+    { id: "lwgNhlyj_Vs", label: "Fiamme della Vita (Italiano)" },
+    { id: "t3elU2OR-P8", label: "Chamas da Vida (Portugu\u00eas)" },
+    { id: "ceWj_6bq5sY", label: "Hayat\u0131n Alevleri (T\u00fcrk\u00e7e)" },
+    { id: "zhfEHpi7guY", label: "\u041e\u0433\u043d\u0438 \u0436\u0438\u0437\u043d\u0438 (\u0420\u0443\u0441\u0441\u043a\u0438\u0439)" },
+    { id: "TONsxxciVeM", label: "\u0412\u043e\u0433\u043e\u043d\u044c \u0436\u0438\u0442\u0442\u044f (\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430)" },
+    { id: "RWnOplcD-NM", label: "\u091c\u0940\u0935\u0928 \u0915\u0940 \u091c\u094d\u0935\u093e\u0932\u093e (\u0939\u093f\u0928\u094d\u0926\u0940)" },
+    { id: "PCbcJQYfJPQ", label: "\u751f\u547d\u4e4b\u706b (\u4e2d\u6587)" },
+  ];
+
+const SPIRITUELL_TRACKS = {
+  "35": [
+    "Buddha's Song (Siddhartha Gautama)",
+    "Douglas' Song (Douglas Harding)",
+    "Epicurus' Song (Epikur von Samos)",
+    "Goethe's Song (Johann Wolfgang von Goethe)",
+    "Huang Po's Song (Pei Xiu)",
+    "Jesus Christ Song (Jeschua ha-Nozri)",
+    "Jiddu's Song (Jiddu Krishnamurti)",
+    "Lao Tzu's Song (L\u012b \u0292r)",
+    "Marcus Aurelius' Song",
+    "Master Eckhart's Song (Eckhart von Hochheim)",
+    "Nisargadatta's Song (Nisargadatta Maharaj)",
+    "Osho's Song (Rajneesh Chandra Mohan Jain)",
+    "Ramana's Song (Venkataraman Iyer)",
+    "Ramesh's Song (Ramesh Sitaram Balsekar)",
+    "Rumi's Song (Dschalal ad-Din Muhammad Rumi)",
+    "Shankara's Song",
+    "Sokrates' Song",
+    "Spinoza's Song (Baruch de Spinoza)",
+  ],
+};
+
+  const spirituelleSongs = [
+    { id: "5IDHooCHCqc", num: "35", label: "Album 35 \u2013 Masters of the Art of Living (18 Spiritual Songs)" },
+    { id: "VVsH7ql4zjU", label: "8 Deutsche Spirituelle Lieder & 3 Bonus-Songs zur Hom\u00f6opathie" },
+    { id: "KGl8HgGkOr0", label: "True Love \u2013 A Song About True Love Beyond All Forms" },
+    { id: "7SIIXE1a2YA", label: "Die Wahre Liebe (Deutsch)" },
+    { id: "Jx5Do6FMZT0", label: "I Am the Light \u2013 What We Really, Truly Are" },
+    { id: "D8SJdoRG_qA", label: "Ich bin das Licht (Deutsch)" },
+    { id: "77_c82jSzKE", label: "Happiness \u2013 The Nature of Happiness Beyond All Ideas" },
+    { id: "lVFsolN5SEg", label: "Gl\u00fcck \u2013 Das Wesen des Gl\u00fccks (Deutsch)" },
+    { id: "JWpnfwWLeAw", label: "The Meaning \u2013 The Profound Question of Life\u2019s Purpose" },
+    { id: "FqQVnBwlPQE", label: "Der Sinn \u2013 Song \u00fcber den Sinn des Lebens (Deutsch)" },
+    { id: "BjmK-rYIssY", label: "Peace Without a Reason" },
+    { id: "IbqquR7wrOM", label: "Two Sides of a Coin \u2013 The Polarities of Life" },
+    { id: "yeFTF6ORXM0", label: "Circle of Truth" },
+    { id: "g01kM6W_6r4", label: "Br\u00fccke zu mir \u2013 Eine musikalische Reise zur Selbsterkenntnis" },
+    { id: "NJ0p8bWs_bs", label: "Im Spiegel des Enneagramms \u2013 Die innere Reise der Selbsterkenntnis" },
+  ];
+
+  const liebeslieder = [
+    { id: "vqtriJwS9So", label: "1. Wenn du bei mir bist" },
+    { id: "rCbdd7DbWfw", label: "2. Hinter deinen Schatten" },
+    { id: "fmabw2nvHvI", label: "3. Was bleibt von uns" },
+    { id: "tAzZV6z8nL8", label: "4. So f\u00fchlt sich Ewigkeit an" },
+    { id: "6CSq2mRUJiE", label: "5. Zwischen den Zeilen" },
+    { id: "-elL4ahOCOI", label: "6. Dein Licht in mir" },
+    { id: "L2ZsAW7Dngo", label: "7. Wie Feuer unter der Haut" },
+    { id: "i4GxkTdlPCk", label: "8. F\u00fcr immer und ein Tag" },
+    { id: "c2CcthcXRxc", label: "9. Fl\u00fcgel aus Licht" },
+    { id: "BCn5c-Z8ulM", label: "10. Wahre Liebe", desc: "Ein Liebeslied f\u00fcr die neun Typen des Enneagramms \u2013 jeder Typ wird mit seiner ganz eigenen Lebensart, seiner Sehnsucht und seinem Weg zur Liebe besungen." },
+  ];
+
+  const grid = (items, tracksMap) => `
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.2rem;margin-top:1rem;">
+      ${items.map(a => kachel(a.id, a.label, a.num ? (tracksMap || JAZZ_TRACKS)[a.num] : null, a.desc || null, a.langs || null)).join("")}
+    </div>
+  `;
+
+  return shell(`
+    ${pageHeader("detlef-rathmer-jazz")}
+    <div class="section-content">
+
+      <p style="font-size:1.05rem;line-height:1.7;margin-bottom:1.5rem;">
+        \u00dcber 40 Jahre habe ich Menschen an Volkshochschulen im Bereich der Hom\u00f6opathie,
+        aber auch im Bereich Gitarre unterrichtet \u2013 und w\u00e4hrend all dieser Zeit begleitete mich
+        die Musik auch privat immer wieder. Auf dieser Seite finden Sie meine Jazz-Alben,
+        meine Enneagramm-Songs und spirituelle Lieder \u2013 alles, was ich \u00fcber die Jahre
+        komponiert und aufgenommen habe.
+      </p>
+
+      <!-- Abschnitts-Navigation -->
+      <nav id="dr-top" style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:2.5rem;">
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-jazz').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Jazz-Alben</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-alben').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Alben</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Enneagramm-Songs</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Deutschsprachige Songs</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-en-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Englischsprachige Songs</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-flammen').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Flammen des Lebens</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-spirituell').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Spirituelle Songs</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-liebe').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Liebeslieder</button>
+      </nav>
+
+      <h2 id="dr-jazz" style="margin-top:0;margin-bottom:0.3rem;">Jazz-Alben</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        30 Jazz-Alben zum Entspannen und Heilen \u2013 Kanal:
+        <a href="https://www.youtube.com/@SOULFULJAZZHIGHERVIBES/videos" target="_blank" rel="noopener"
+           style="color:var(--copper);">@SOULFULJAZZHIGHERVIBES</a>
+      </p>
+      ${grid(jazzAlben)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Entspannungs- und Heilungsmusik f\u00fcr alle 9 Enneagrammtypen sowie thematische Alben.
+      </p>
+      ${grid(enneagrammAlben, ENNEA_TRACKS)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h2 id="dr-enn-songs" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Songs</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Einzelne Lieder rund um das Enneagramm \u2013 zum Mitsingen und Nachdenken. Im ersten Teil finden Sie die
+        deutschsprachigen, im zweiten Teil die englischsprachigen Songs. Die Hom\u00f6opathie-Songs finden Sie auf der eigenen Seite
+        <a href="#homoeopathie-songs" data-route="homoeopathie-songs" style="color:var(--copper);">Hom\u00f6opathie & Songs</a>.
+      </p>
+
+      <h3 id="dr-de-songs" style="margin-top:1.5rem;margin-bottom:0.3rem;">Deutschsprachige Enneagramm-Songs</h3>
+      ${grid(deutschsprachigeSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h3 id="dr-en-songs" style="margin-top:2.5rem;margin-bottom:0.3rem;">Englischsprachige Enneagramm-Songs</h3>
+      ${grid(englischsprachigeSongs)}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      ${grid([
+        { id: "lq0d0zpwiik", label: "Das Enneagramm-Lied (Unplugged)" },
+        { id: "xDYFjndwt2A", label: "Wer du wirklich bist \u2013 Ein Enneagramm-Klassiker" },
+      ])}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz. Der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+      ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-flammen",label:"Flammen des Lebens"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"stille",label:"9 Minuten Stille"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h2 id="dr-flammen" style="margin-top:3rem;margin-bottom:0.3rem;">Internationales Musikprojekt: Flammen des Lebens</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Derselbe Songtext \u2013 die Leidenschaften der 9 Enneagrammtypen \u2013 in elf Weltsprachen komponiert und arrangiert nach den kulturellen Klangwelten des jeweiligen Landes.
+      </p>
+      ${grid(flammenDesLebensSongs)}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-de-songs",label:"Deutschsprachige Songs"},{route:"detlef-rathmer-jazz|dr-en-songs",label:"Englischsprachige Songs"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagramm-Songs"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h2 id="dr-spirituell" style="margin-top:3rem;margin-bottom:0.3rem;">Spirituelle Songs</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        Lieder \u00fcber das Wesen der Wirklichkeit, tiefe Stille und das Licht hinter den Dingen.
+      </p>
+      ${grid(spirituelleSongs, SPIRITUELL_TRACKS)}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte f\u00fcr den Alltag \u2013 idealer Begleiter zur Musik.", "7 Wege zu Dir selbst")}
+      ${bookTip("nichts-und-alles", "Bewusstsein, Stille und innere Weite \u2013 das stille Buch jenseits aller Pers\u00f6nlichkeitsmuster.", "Nichts und Alles")}
+      ${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
+      ${bookTip("sei-still-und-wisse-ich-bin-gott", "Sei still und wisse, ich bin Gott \u2013 Stille als Weg zur unmittelbaren Selbsterkenntnis.", "Sei still und wisse \u2013 ich bin Gott!")}
+      ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
+      ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden \u2013 der Weg zur Verwandlung des Enneagrammtyps.", "Hinter der Leidenschaft \u2013 die neun Wunden")}
+      ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung \u2013 ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
+      ${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
+
+      <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Liebeslieder von Detlef</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        9 Liebeslieder \u2013 auch auf Spotify erh\u00e4ltlich.
+      </p>
+      ${grid(liebeslieder)}
+      ${bookTip("die-sprache-unserer-sexualitaet", "Die Sprache unserer Sexualit\u00e4t \u2013 was Liebeslieder und Eros \u00fcber unsere tiefsten Sehns\u00fcchte verr\u00e4t.", "Die Sprache unserer Sexualit\u00e4t")}
+
+      ${relatedLinks([
+        { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
+        { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
+        { route: "stille", label: "9 Minuten Stille" },
+        { route: "musik", label: "Entspannungs- und Heilungsmusik" },
+        { route: "homoeopathie-songs", label: "Hom\u00f6opathie- und Enneagramm-Hom\u00f6opathie-Songs" },
+        { route: "beruhmte-komponisten", label: "Ber\u00fchmte Komponisten" },
+      ])}
+    </div>
+  `);
+}
+
 function homoeopathieSongsPage() {
   const songs = [
     { id: "i_BW505pltc",  label: "1. Die sanfte Heilung \u2013 DER Hom\u00f6opathie-Song" },
@@ -7380,198 +7708,6 @@ function katjaRiemannPortraitPage() {
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3) – Partner in ›Der bewegte Mann‹"},
         {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function michaelSchumacherPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in H\xfcrth &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist kein Tier der Bequemlichkeit. Er ist wachsam, territorial, auf seine Gruppe ausgerichtet &ndash; und wenn er jagt, jagt er mit allem, was er hat. Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und l\xe4uft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Auspr\xe4gung: Angst nicht als L\xe4hmung, sondern als Treibstoff.</p>
-          <p class="vb-intro">Der deutsche Rennfahrer Michael Schumacher ist dieser Wolf. Siebenmal Formel-1-Weltmeister, 91 Siege, f\xfcnf aufeinanderfolgende Titel mit Ferrari &ndash; Zahlen, die in der Geschichte des Motorsports ohne Vergleich waren, als er 2006 zum ersten Mal zur\xfccktrat. Und doch w\xe4re es falsch, Schumacher \xfcber seine Statistiken zu verstehen. Was ihn auszeichnete, war kein K\xf6nner-Gef\xfchl aus der Distanz. Es war eine Intensit\xe4t, die jeden Zentimeter der Strecke als pers\xf6nliches Territorium behandelte. Der Wolf markiert sein Revier. Und er verteidigt es.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die St\xe4rke: Angst als Antrieb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
-          <p class="vb-intro">Schumacher war bekannt f\xfcr eine k\xf6rperliche und mentale Vorbereitung, die damals in der Formel 1 ohnegleichen war. Er trainierte wie ein Leistungssportler &ndash; Ausdauer, Reflexe, Nackenmuskulatur. Er kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verbl\xfcffte. Er hinterfragte, analysierte, verfeinerte &ndash; und wenn er ins Auto stieg, war die Angst vor dem Versagen l\xe4ngst in Vorbereitung verwandelt worden. Das ist die SX6: <em>Ich \xfcberhole die Bedrohung, bevor sie mich \xfcberholt.</em></p>
-          <p class="vb-intro">Sein Rudel war das Ferrari-Team. Die Jahre 2000 bis 2004, in denen er f\xfcnf Titel in Serie gewann, waren kein Soloprojekt &ndash; sie waren das Ergebnis eines Kollektivs, das sich um ihn herum aufgebaut hatte: Jean Todt, Ross Brawn, Rory Byrne. Schumacher war loyal bis in die Knochen, und das Team gab ihm dieselbe Loyalit\xe4t unmittelbar zur\xfcck. Der Wolf und sein Rudel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Freude an der Geschwindigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> bringt der sexuellen Sechs etwas, das eine SX6 mit schwach ausgeprägtem Siebenerflügel allein nicht entwickeln würde: Begeisterungsfähigkeit, Spielfreude und die F\xe4higkeit, aus dem, was andere als Bedrohung erleben, einen Genuss zu machen. Wo die SX6 k\xe4mpft, feiert die SX6w7 das K\xe4mpfen. Das Ergebnis ist ein Mensch, der nicht nur gewinnen <em>will</em>, sondern dem Gewinnen <em>gef\xe4llt</em>.</p>
-          <p class="vb-intro">Schumacher liebte das Fahren. Das klingt selbstverst\xe4ndlich &ndash; ist es aber nicht. Viele Rennfahrer lieben das Siegen. Schumacher liebte die Kurve, den Grip, die Grenze des Machbaren. Sein ber\xfchmtes <em>Qualifikationsgef\xfchl</em> &ndash; die F\xe4higkeit, in einem einzigen Rundenversuch alles aus sich und dem Auto herauszuholen &ndash; war nicht nur Technik. Es war Leidenschaft. Der Siebenerfl\xfcgel gibt der SX6 die Freude, die die Angst nicht gibt: Wenn ich so schnell fahre, dass niemand mich einholen kann, sp\xfcre ich kein Risiko mehr. Ich sp\xfcre Freiheit.</p>
-          <p class="vb-intro">Der Siebenerfl\xfcgel erkl\xe4rt auch seinen R\xfcckkehr-Drang. 2010, mit einundvierzig Jahren, stieg er bei Mercedes wieder in ein Formel-1-Auto. Nicht aus Geldgier, nicht aus Eitelkeit &ndash; sondern weil das Fahren selbst ihn rief. Der Siebenerfl\xfcgel h\xe4lt die T\xfcr zur Freude offen, auch wenn der Verstand l\xe4ngst Nein sagt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Sieben Titel, f\xfcnf mit Ferrari</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Michael Schumacher deb\u00fctierte 1991 beim Gro\xdfen Preis von Belgien in Spa f\xfcr das Jordan-Team &ndash; und wurde noch vor dem n\xe4chsten Rennen von Benetton \xfcbernommen. 1994 gewann er seinen ersten Weltmeistertitel, 1995 seinen zweiten. 1996 wechselte er zu Ferrari &ndash; damals einem Team in der Krise, das seit 1979 keinen Fahrertitel mehr gewonnen hatte. Er baute das Team mit auf, wartete vier Jahre auf den Durchbruch &ndash; und gewann dann f\xfcnfmal in Serie: 2000, 2001, 2002, 2003, 2004. Niemand hatte zuvor f\xfcnf aufeinanderfolgende Weltmeistertitel gewonnen.</p>
-          <p class="vb-intro">Einundneunzig Siege, 155 Podestpl\xe4tze, 68 Pole-Positions &ndash; Zahlen, die erst Jahre sp\xe4ter von Lewis Hamilton (SO2w3) \xfcbertroffen wurden. Schumacher setzte in seiner aktiven Zeit den Ma\xdfstab, an dem alle anderen gemessen wurden. Das ist das Werk der SX6w7: nicht das Mittelma\xdf des Komforts, sondern das Absolute des Extremen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten: Grenzen und Kontroversen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>Unbedingtheit</strong>. Schumacher hat Ferrari aus einer langj\xe4hrigen Erfolglosigkeit in eine \xc4ra der Dominanz gef\xfchrt. Er hat die Messlatte f\xfcr Vorbereitung, Analyse und Teamgeist in der Formel 1 dauerhaft angehoben. Und er hat eine Leidenschaft f\xfcr den Motorsport vorgelebt, die Generationen von Fans und Fahrern gepr\xe4gt hat.</p>
-          <p class="vb-intro">Der Schatten der SX6 ist die Grenz\u00fcberschreitung. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem Man\u00f6ver, das noch heute umstritten ist: absichtliche Kollision oder Racing-Unfall? 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve &ndash; und wurde daf\xfcr aus der Weltmeisterschaftswertung gestrichen. Das ist der Wolf, wenn der Kontratyp kippt: Wenn Gewinnen wichtiger wird als das Spielfeld, das das Gewinnen erst erm\xf6glicht. Die SX6 kennt keine halben Ma\xdfnahmen. Auch im Schatten nicht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Wolf, der schweigt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 29. Dezember 2013 verungl\xfcckte Michael Schumacher beim Skifahren im franz\xf6sischen M\xe9ribel. Er fuhr au\xdferhalb der markierten Piste und st\xfcrzte \xfcber Felsen. Das dabei erlittene schwere Sch\xe4del-Hirn-Trauma ver\xe4nderte sein Leben unwiderruflich. Wochenlang lag er im k\xfcnstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen &ndash; in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
-          <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts \xfcber seinen Zustand erf\xe4hrt. Nicht als Geste der Abschottung &ndash; sondern als Schutz. <em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>Er ist hier, er ist anders, aber er ist da.</em> Dieser Satz ist alles, was die \xd6ffentlichkeit wei\xdf. Das Rudel h\xe4lt zusammen. Es zeigt die Z\xe4hne gegen\xfcber jedem, der n\xe4her kommen will, als erlaubt ist. Und der Wolf, der jahrzehntelang das Tempo vorgegeben hat, ist jetzt still &ndash; umgeben von denen, die ihm geh\xf6ren.</p>
-          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst bezahlt. Der Rest geh\xf6rt ihm.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
-        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function scarlettJohanssonPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-scarlett-johansson-portrait.jpg" alt="Scarlett Johansson – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Scarlett Johansson</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier von enormer Pr\u00e4senz, das genau sp\u00fcrt, wann es N\u00e4he zulassen kann und wann es sein Territorium verteidigen muss. Der Wolf zeigt selten Schw\u00e4che nach au\u00dfen. Er tr\u00e4gt seine Wachsamkeit in der Haltung, im Blick, in der Art, wie er einen Raum betritt &ndash; nicht laut, aber un\u00fcbersehbar.</p>
-          <p class="vb-intro">Die US-amerikanische Schauspielerin Scarlett Johansson, geboren 1984 in New York City, ist dieser Wolf. Seit ihrem Deb\u00fct als Kind in <em>The Horse Whisperer</em> und ihrem Durchbruch mit <em>Lost in Translation</em> (2003) hat sie sich als eine der intensivsten Pr\u00e4senzen des Weltkinos etabliert &ndash; eine Schauspielerin, die selten viel sagen muss, um einen Raum zu f\u00fcllen. Diese Intensit\u00e4t kommt nicht von ungef\u00e4hr. Sie ist die Signatur des Wolfes: eine Kraft, die sp\u00fcrbar ist, bevor ein Wort f\u00e4llt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Schutzschild</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Statt sich zur\u00fcckzuziehen, tritt die SX6 nach vorn. <em>Wenn ich stark genug wirke, kann mir niemand zu nahe kommen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 begegnet der eigenen Verletzlichkeit, indem sie eine Fassade von Unangreifbarkeit errichtet.</p>
-          <p class="vb-intro">Bei Johansson zeigt sich das in einer Karriere voller Rollen, die genau diese Spannung verk\u00f6rpern: die k\u00fchle, t\u00f6dlich pr\u00e4zise Black Widow im Marvel Cinematic Universe, die selbstbewusste Femme fatale in <em>Match Point</em>, die kontrollierte KI-Stimme in <em>Her</em>, deren emotionale Tiefe sich nur in Nuancen zeigt. Immer wieder Figuren, die St\u00e4rke performen, w\u00e4hrend darunter etwas Verletzliches, Suchendes liegt &ndash; genau das Muster der SX6, das Innere hinter einer R\u00fcstung aus Pr\u00e4senz zu verbergen.</p>
-          <p class="vb-intro">Auch privat hat Johansson ihr Rudel klein und gesch\u00fctzt gehalten. Trotz jahrzehntelanger globaler Bekanntheit hat sie ihr Privatleben &ndash; drei Ehen, ihre Tochter und ihren Sohn &ndash; konsequent aus dem Blitzlicht ferngehalten, soweit das f\u00fcr einen der bekanntesten Filmstars der Welt m\u00f6glich ist. Der Wolf gibt nur preis, was er selbst entscheidet preiszugeben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Vielseitigkeit und Tempo</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel (w7)</strong> bringt der sexuellen Sechs eine Leichtigkeit und Vielseitigkeit, die bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel so nicht da w\u00e4re. Die SX6w7 k\u00e4mpft nicht nur &ndash; sie sucht auch die Abwechslung, das n\u00e4chste Projekt, die n\u00e4chste Herausforderung, bevor die vorherige ausgesch\u00f6pft ist. <em>Stillstand ist gef\u00e4hrlicher als Bewegung.</em></p>
-          <p class="vb-intro">Johanssons Filmografie ist ein Musterbeispiel f\u00fcr diesen Fl\u00fcgel: Arthouse-Kino (<em>Lost in Translation</em>, <em>Under the Skin</em>), Blockbuster-Action (<em>Black Widow</em>, <em>Lucy</em>), Stimmarbeit (<em>Her</em>), ernstes Drama (<em>Marriage Story</em>, f\u00fcr das sie 2020 gleich zwei Oscar-Nominierungen erhielt), Satire (<em>Jojo Rabbit</em>) &ndash; kaum ein Genre, das sie ausgelassen hat. Dazu kommt ihr Engagement als Produzentin und ihr Ausflug in die Musik mit dem Album <em>Anywhere I Lay My Head</em> (2008). Der Siebenerfl\u00fcgel verwandelt die Wachsamkeit der Sechs in Neugier: Wer sich st\u00e4ndig weiterbewegt, gibt der Angst keine Zeit, sich festzusetzen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Karriere: Vom Kinderstar zur meistkassierenden Schauspielerin</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Johanssons Weg vom Kinderdarstellerinnen-Dasein zur, nach Kinokasseneinspielungen gerechnet, meistkassierenden Schauspielerin der Filmgeschichte ist eine Geschichte konsequenter Neuerfindung. Nach dem kritischen Erfolg von <em>Lost in Translation</em> und <em>Girl with a Pearl Earring</em> etablierte sie sich zun\u00e4chst als anspruchsvolle Charakterdarstellerin, bevor sie 2010 mit <em>Iron Man 2</em> als Natasha Romanoff / Black Widow in das Marvel Cinematic Universe eintrat &ndash; eine Rolle, die sie \u00fcber ein Jahrzehnt und neun Filme hinweg pr\u00e4gte, bis zu ihrem eigenen Solofilm <em>Black Widow</em> (2021).</p>
-          <p class="vb-intro">Diese Doppelbewegung &ndash; ernsthaftes Autorenkino neben physisch fordernder Blockbuster-Action &ndash; ist typisch f\u00fcr die SX6w7: die F\u00e4higkeit, in v\u00f6llig unterschiedlichen Registern zu bestehen, ohne sich auf ein einziges Bild festlegen zu lassen. Der Wolf, der in jedem Rudel eine andere Rolle einnehmen kann, ohne seine Kernidentit\u00e4t zu verlieren.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre F\u00e4higkeit, unter Druck Pr\u00e4senz zu zeigen &ndash; die Bereitschaft, sich physisch und emotional in eine Rolle zu werfen, ohne sich zu schonen. Johanssons Trainingsintensit\u00e4t f\u00fcr actionlastige Rollen, ihre Bereitschaft, in <em>Marriage Story</em> eine schmerzhafte Scheidung mit schonungsloser Offenheit darzustellen, ihr Eintreten f\u00fcr gerechte Bezahlung von Schauspielerinnen in Hollywood: All das zeugt von der Bereitschaft, sich der Bedrohung zu stellen, statt ihr auszuweichen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und bei der SX6w7 zeigt sich die Schattenseite oft als Kontrollbed\u00fcrfnis \u00fcber das eigene Bild, das in juristischen Auseinandersetzungen m\u00fcndete: Ihr \u00f6ffentlicher Streit mit Disney 2021 um die Streaming-Auswertung von <em>Black Widow</em> war eine der seltenen Gelegenheiten, bei denen der sonst so sorgf\u00e4ltig gesch\u00fctzte Wolf \u00f6ffentlich die Z\u00e4hne zeigte &ndash; ein Kampf um Anerkennung und Kontrolle, ausgetragen mit derselben Direktheit, die sie sonst nur ihren Rollen vorbeh\u00e4lt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: St\u00e4rke, die nicht mehr sch\u00fctzen muss</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der n\u00e4chsten Bedrohung?</em> zur Erkenntnis <em>Ich bin bereits sicher genug, um mich zu zeigen.</em> F\u00fcr die SX6w7 bedeutet das, die R\u00fcstung der st\u00e4ndigen Bewegung und Selbstinszenierung abzulegen &ndash; und Verletzlichkeit nicht nur zu spielen, sondern zuzulassen.</p>
-          <p class="vb-intro">Rollen wie die in <em>Marriage Story</em>, in der Johansson eine Frau spielt, die sich selbst neu erfinden muss, deuten genau diese Richtung an: nicht die n\u00e4chste Rolle als Flucht, sondern als ehrlicher Ausdruck. Der Wolf, der nicht mehr k\u00e4mpfen muss, um sicher zu sein &ndash; sondern der wei\u00df, dass seine St\u00e4rke l\u00e4ngst bewiesen ist.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function jasminPaoliniPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-jasmine-paolini-portrait.jpg" alt="Jasmine Paolini – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jasmine Paolini</p>
-        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Tennisspielerin, geb. 1996 &ndash; Tierentsprechung: Gorilla</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gorilla</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; und er \u00fcberrascht, weil man ihn beim ersten Hinsehen nicht mit Leichtigkeit verbindet. Der Gorilla ist m\u00e4chtig, ruhig und zutiefst familienorientiert. Er lebt im engen Verband, pflegt Bindungen, sch\u00fctzt sein Rudel. Er sucht keine Konfrontation &ndash; aber weicht ihr auch nicht aus, wenn es darauf ankommt. Seine St\u00e4rke ist keine Aggression. Sie ist Verl\u00e4sslichkeit.</p>
-          <p class="vb-intro">Die italienische Tennisspielerin Jasmine Paolini ist dieser Gorilla. Auf dem Platz: explosiv, kampfstark, unerm\u00fcdlich. Abseits davon: warm, lachend, famili\u00e4r. Sie feiert Siege mit einer Offenheit, die ansteckt, und tr\u00e4gt Niederlagen mit einer W\u00fcrde, die beeindruckt. Der Gorilla tanzt nicht &ndash; aber wenn er l\u00e4chelt, leuchtet der ganze Wald.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Freude als Heimat</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Ma\u00dflosigkeit der Sieben durch W\u00e4rme und Gemeinschaft ausdr\u00fcckt. Naranjo nannte ihn <em>Familie</em>: Die SE7 schafft sich ihr eigenes Nest &ndash; einen Kreis aus Menschen, Ritualen, Freuden, der ihr Sicherheit gibt. Nicht durch Kontrolle wie die Acht, nicht durch Regeln wie die Eins &ndash; sondern durch Verbindung und Geborgenheit.</p>
-          <p class="vb-intro">Bei Jasmine Paolini sieht man das in jedem Turnier: ihr Team, ihr Lachen mit dem Trainer, ihre Ausbr\u00fcche echter Freude nach gewonnenen Punkten. Sie wirkt nie wie jemand, der Tennis spielt, um Ruhm zu ernten. Sie wirkt wie jemand, der Tennis liebt &ndash; und dieses Lieben mit allen teilt, die gerade zusehen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Loyalit\u00e4t als Fundament</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel</strong> gibt der selbsterhaltenden Sieben etwas, das ihr ohne ihn fehlen k\u00f6nnte: Beharrlichkeit. Eine Sieben mit schwach ausgepr\u00e4gtem Sechserfl\u00fcgel springt eher von Erfahrung zu Erfahrung, scheut Schwere, sucht den n\u00e4chsten Aufbruch. Der Sechserfl\u00fcgel verankert sie &ndash; er bringt Loyalit\u00e4t, Verantwortungsgef\u00fchl, die Bereitschaft, auch dann noch zu k\u00e4mpfen, wenn die Freude gerade schwer zu finden ist.</p>
-          <p class="vb-intro">Paolinis Karriere ist kein gerader Weg nach oben. Jahrelang spielte sie in der Weltrangliste im Mittelfeld, arbeitete mit ihrem Trainer Renzo Furlan an jedem Detail. Kein Wechsel, keine Ungeduld &ndash; Bindung. Der Sechserfl\u00fcgel h\u00e4lt sie auf dem Boden, wenn die Sieben abzuheben droht, und gibt ihr die Ausdauer f\u00fcr die langen Matches, in denen Freude allein nicht ausreicht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Ma\u00dflosigkeit als innerer Motor</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sieben hei\u00dft <strong>V\u00f6llerei</strong> &ndash; oder Ma\u00dflosigkeit: der unstillbare Hunger nach Erfahrung, Freude, Leben. In der selbsterhaltenden Sieben zeigt er sich nicht als Exzess, sondern als F\u00fclle: mehr W\u00e4rme, mehr Verbindung, mehr dieser Momente, in denen alles stimmt.</p>
-          <p class="vb-intro">Bei Paolini sieht man das im Spiel selbst. Sie gibt keine Punkte auf. Sie versucht jeden Ball zu erreichen. Sie l\u00e4chelt nach verlorenen S\u00e4tzen und k\u00e4mpft sich zur\u00fcck. 2024 stand sie in den Finals von Roland Garros und Wimbledon &ndash; und verlor beide. Vier Wochen sp\u00e4ter gewann sie die WTA Finals. Das ist die Ma\u00dflosigkeit der SE7: nicht zerst\u00f6rerisch, sondern unersch\u00f6pflich. Der Hunger nach dem n\u00e4chsten Moment, der n\u00e4chsten Chance, dem n\u00e4chsten Aufschlag.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Freude, die nicht aufgibt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Jasmine Paolini dem Tennis gibt &ndash; und dem Publikum &ndash; ist etwas, das sich nicht trainieren l\u00e4sst: echte Freude. Nicht das L\u00e4cheln einer Marke, nicht die kalkulierte Zug\u00e4nglichkeit eines Kommunikationsteams. Sondern die Freude einer Frau, die auf dem Platz zu Hause ist, die ihren Beruf liebt und das nicht versteckt.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE7w6: Freude, die standh\u00e4lt. Nicht die fl\u00fcchtige Begeisterung, die beim ersten R\u00fcckschlag verschwindet, sondern eine Freude, die tief genug verankert ist, um auch Niederlagen zu \u00fcberstehen. Wer Jasmine Paolini beim Tennis zusieht, sieht einen Gorilla in seinem Element: stark, warm, unersch\u00fctterlich. Das ist die SE7w6. Das ist die Freude als Heimat.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
-        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
       ])}
     </div>
   `);

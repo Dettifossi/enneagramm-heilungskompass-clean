@@ -1,3 +1,195 @@
+function neroPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-nero-portrait.jpg" alt="Nero" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nero</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Römischer Kaiser, 37–68 n. Chr. – Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – verspielt und genussfreudig nach außen, doch fähig zu jäher, verheerender Wucht, sobald sich das eigene Revier oder die eigene Bedeutung bedroht fühlt. Kaum eine historische Figur zeigt dieses Doppelbild so extrem wie Nero: ein Kaiser, der lieber auf der Bühne sang, als Staatsgeschäfte zu führen – und der zugleich seine eigene Mutter ermorden ließ, als sie seiner Macht im Weg stand.</p>
+          <p class="vb-intro">Nero, geboren 37 n. Chr. als Lucius Domitius Ahenobarbus, bestieg mit nur 16 Jahren den Thron des Römischen Reiches – emporgehoben durch die schiere Entschlossenheit seiner Mutter Agrippina der Jüngeren, die auf dem Weg dorthin über Leichen ging. Das Flusspferd wartet nicht geduldig auf seinen Platz am Wasserloch. Wenn ihm der Zugang verschafft wird, nimmt es ihn – und verteidigt ihn danach mit aller Kraft, die ihm zur Verfügung steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Bedeutung durch Nähe zur Macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: die Zwei, die ihre eigenen Bedürfnisse direkt benennt und sich – anders als die sozialen oder sexuellen Zweier – zuerst um das eigene Überleben und die eigene Bedeutung sorgt, bevor sie sich um andere kümmert. Neros gesamte frühe Biografie ist eine Geschichte enger, fast symbiotischer Verstrickung mit seiner Mutter Agrippina, die seinen Aufstieg über Intrigen, eine Zwangsheirat mit Kaiser Claudius und – wie die meisten antiken Quellen annehmen – dessen Vergiftung sicherte.</p>
+          <p class="vb-intro">Diese Nähe kippte, sobald Agrippina versuchte, weiter über ihn zu bestimmen. Nero ließ sie 59 n. Chr. nach mehreren gescheiterten Versuchen schließlich ermorden – ein Muttermord, den selbst wohlwollende antike wie moderne Historiker nicht zu beschönigen versuchen. Für die SE2 ist Nähe zugleich Überlebensressource und potenzielle Bedrohung: Wer die eigene Bedeutung sichert, kann ebenso schnell zu dem werden, der sie am meisten gefährdet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Applaus als Existenzbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach sichtbarem, gefeiertem Erfolg. Bei Nero äußerte sich das in einer für einen römischen Kaiser beispiellosen Weise: Er trat öffentlich als Sänger, Kitharaspieler und Wagenlenker auf, zwang den Senat und die Oberschicht, seinen Auftritten beizuwohnen, und unternahm 66–67 n. Chr. eine ausgedehnte Tournee durch Griechenland, bei der er an nahezu allen großen Wettkämpfen teilnahm – und, wie überliefert, stets als Sieger hervorging.</p>
+          <p class="vb-intro">Für die römische Elite war das ein Skandal ohnegleichen: Ein Kaiser sollte regieren, nicht auf der Bühne um Applaus buhlen. Doch genau das war der Kern von Neros Selbstverständnis – seine überlieferten letzten Worte, „Qualis artifex pereo" („Welch ein Künstler geht mit mir zugrunde"), zeigen, dass er sich selbst zeitlebens primär als Künstler verstand, nicht als Herrscher. Der Dreierflügel der SE2 fragt nicht nur „Wie sichere ich meine Nähe zur Macht?", sondern auch „Wie beweise ich meine Einzigartigkeit vor Publikum?" – und Nero beantwortete diese Frage mit einer Besessenheit, die seine eigentliche Herrschaft zunehmend in den Hintergrund drängte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Stolz zwischen Liebesbedürfnis und Vernichtungswillen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene, sichtbar bewiesene Unentbehrlichkeit. Wo dieser Stolz verletzt wurde, reagierte Nero mit einer Konsequenz, die weit über politisches Kalkül hinausging: Neben seiner Mutter ließ er seinen Stiefbruder Britannicus vergiften und seine erste Frau Octavia verstoßen und schließlich hinrichten; seine zweite Frau Poppaea Sabina soll er der römischen Überlieferung nach im Streit zu Tode getreten haben, während sie schwanger war.</p>
+          <p class="vb-intro">Das ist die Schattenseite der SE2w3, in ihrer extremsten historischen Ausprägung: Wenn die eigene Bedeutung an der bedingungslosen Nähe der engsten Menschen hängt, wird jede Auflehnung, jede Unabhängigkeit dieser Menschen zur existenziellen Bedrohung. Nero reagierte darauf nicht mit Rückzug, sondern mit Vernichtung – das Flusspferd, das sein Revier notfalls gegen die eigene Familie verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Brand Roms und das Goldene Haus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der große Brand Roms im Jahr 64 n. Chr. zerstörte weite Teile der Stadt – ob Nero selbst ihn verursachte, ist historisch umstritten; wahrscheinlicher ist ein Unglücksfall, den er politisch geschickt für sich zu nutzen versuchte, unter anderem indem er die noch junge christliche Gemeinde beschuldigte und eine erste systematische Christenverfolgung einleitete. Auf dem frei gewordenen Gelände ließ Nero die „Domus Aurea" errichten, ein gigantisches, mit Gold und Fresken ausgestattetes Palastareal – eine Bühne im wörtlichen wie im übertragenen Sinne, gebaut, um seine eigene Bedeutung unübersehbar in Stein zu gießen.</p>
+          <p class="vb-intro">Genau diese Selbstverherrlichung, verbunden mit hohen Steuern zur Finanzierung des Bauprojekts, entfremdete ihn zunehmend von Senat, Militär und Bevölkerung. Der Dreierflügel der SE2 braucht sichtbaren Beweis – doch wenn dieser Beweis auf Kosten aller anderen errichtet wird, wird er irgendwann selbst zur tödlichen Bedrohung für den, der ihn braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Künstler, der als Kaiser starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Jahr 68 n. Chr. erhoben sich mehrere Statthalter gegen Nero, der Senat erklärte ihn zum Staatsfeind, die Prätorianergarde wandte sich von ihm ab. Verlassen von fast allen, die ihm einst nahestanden, floh er aus Rom und nahm sich mit Hilfe seines Sekretärs Epaphroditos das Leben – im Alter von nur 30 Jahren, nach 14 Jahren Herrschaft.</p>
+          <p class="vb-intro">Das Flusspferd mit Dreierflügel, das sein Leben lang zwischen dem Bedürfnis nach bedingungsloser Nähe und dem Hunger nach öffentlichem Beweis der eigenen Unentbehrlichkeit schwankte, fand am Ende beides nicht mehr: keine Familie, die ihm noch nahestand – er selbst hatte sie größtenteils vernichtet –, und kein Publikum, das ihm noch applaudierte. Seine letzten Worte bleiben das treffendste Selbstporträt, das die Geschichte von ihm überliefert hat: Bis zuletzt sah er sich nicht als gescheiterten Herrscher, sondern als Künstler, dem die Welt seinen wahren Wert nicht mehr zugestand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Porträt: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Porträt: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function carlosSantanaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carlos-santana-portrait.jpg" alt="Carlos Santana – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carlos Santana</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Mexikanisch-US-amerikanischer Musiker, geb. 1947 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das gutmütig und gemächlich wirkt, in Wahrheit aber zu den kraftvollsten und ausdauerndsten Tieren seines Lebensraums zählt. Es bleibt seinem angestammten Gewässer treu, taucht dort tief und lange, und kehrt selbst nach den weitesten Ausflügen dorthin zurück, wo seine Wurzeln liegen.</p>
+          <p class="vb-intro">Der mexikanisch-US-amerikanische Gitarrist Carlos Santana, geboren am 20. Juli 1947 in Autlán de Jalisco, Mexiko, erhielt sein musikalisches Handwerk direkt von seinem Vater José, einem Mariachi-Geiger, der ihn bereits im Alter von vier bis fünf Jahren im Geigenspiel unterrichtete. Als die Familie 1955 in die Grenzstadt Tijuana zog, wechselte der achtjährige Carlos zur Gitarre &ndash; angezogen vom aufkommenden Rock’n’Roll. 1960 übersiedelte die Familie nach San Francisco, ein Jahr später folgte der dreizehnjährige Carlos nach. Das musikalische Fundament aber blieb zeitlebens dasselbe: die im Elternhaus direkt weitergegebene, körperlich erlernte Musiktradition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Handwerk als weitergegebene Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge wird nicht abstrakt oder öffentlich geleistet, sondern konkret, direkt, im engsten Kreis &ndash; und beginnt oft mit der Sicherung der eigenen Grundlage, bevor sie sich nach außen richtet. Bei Carlos Santana zeigt sich das bereits am Ursprung seiner Karriere: Sein Vater gab ihm nicht abstraktes Wissen weiter, sondern brachte ihm das Instrument buchstäblich in die Hand &ndash; tägliche, körperliche, sehr persönliche Unterweisung, nicht formaler Musikunterricht in einer Institution.</p>
+          <p class="vb-intro">Dieses Prinzip der direkten, körperlichen Weitergabe zieht sich durch sein gesamtes Werk: Santanas Musik verschmilzt afrokubanische Perkussion, Blues und Rock zu einem unverkennbaren, körperlich-intensiven Gitarrenton, der weniger aus Theorie als aus unmittelbarer, jahrzehntelanger Übung entstand. Für die SE2 ist Meisterschaft kein abstraktes Ziel, sondern etwas, das man sich buchstäblich in die Hände und die Finger einschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Kunst der Neuerfindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung, Sichtbarkeit und Relevanz &ndash; das Bedürfnis, das eigene Können nicht nur zu besitzen, sondern es einem möglichst großen Publikum sichtbar zu machen. 1969 elektrisierte Santana mit seinem Auftritt beim Woodstock-Festival ein Millionenpublikum und wurde über Nacht zum Gesicht des Latin Rock &ndash; ein Moment, der Bild und Karriere für Jahrzehnte prägte.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel in seinem legendären Comeback: In den 1990er-Jahren erklärten mehrere Plattenfirmen Santana für zu alt und nicht mehr relevant, seine Alben verkauften sich kaum noch. Statt sich zurückzuziehen, veröffentlichte er 1999 das Album <em>Supernatural</em> &ndash; eine strategisch angelegte Serie von Kollaborationen mit den damals angesagtesten jungen Künstlerinnen und Künstlern wie Rob Thomas, Lauryn Hill, Wyclef Jean und Everlast. Das Kalkül ging in einem Ausmaß auf, das selbst Optimisten überraschte: 25 Millionen verkaufte Exemplare, neun Grammys, die erneute globale Relevanz eines bereits totgesagten Musikers. Der Dreierflügel fragt nicht nur „Wie spiele ich gut?", sondern auch „Wie erreiche ich damit wieder die ganze Welt?"</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die spirituelle Suche: Hingabe als Identität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1972 bis 1981 folgte Santana dem Guru Sri Chinmoy und nahm den spirituellen Namen „Devadip" an &ndash; „das Auge, das Licht der Lampe Gottes". In dieser Zeit entstanden Alben wie <em>Love Devotion Surrender</em> (1973, mit John McLaughlin) und <em>Illuminations</em> mit Alice Coltrane, die jazzige, indisch inspirierte Klangwelten mit spiritueller Hingabe verbanden. Erst Anfang der 1980er-Jahre löste er sich von Chinmoy, nachdem er zunehmend problematische, kultartige Züge in der Gemeinschaft wahrnahm.</p>
+          <p class="vb-intro">Für die SE2 ist eine solche Phase typisch: Die Fürsorge, die sonst dem engsten menschlichen Kreis gilt, richtet sich hier auf eine spirituelle Führungsfigur, der man sich mit ganzer Hingabe unterordnet &ndash; ein Muster, das Nähe und Sicherheit über eine besonders bedeutsame Bindung sucht, diesmal jenseits der eigenen Familie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, ein über Jahrzehnte im engsten, persönlichen Kreis erlerntes Handwerk mit einem untrüglichen Gespür für Reichweite zu verbinden &ndash; ohne dass die eine Qualität die andere verdrängt. Santanas Gitarrenton blieb über fünfzig Jahre unverwechselbar, während er sich immer wieder neu positionierte, um relevant zu bleiben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und das eigene Wirken unentbehrlich zu sein. Bei der SE2w3 kann dieser Stolz zur ständigen Suche nach neuer, sichtbarer Bestätigung werden: das Bedürfnis, sich immer wieder von neuem zu beweisen, statt sich auf das bereits Erreichte zu verlassen. Das jahrzehntelange kommerzielle Auf und Ab seiner Karriere, bevor <em>Supernatural</em> den Beweis noch einmal in aller Deutlichkeit erbrachte, liest sich als genau diese Kehrseite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gitarrenton, der bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlos Santanas Karriere überspannt inzwischen mehr als sechzig Jahre &ndash; vom achtjährigen Jungen mit der ersten Gitarre in Tijuana über die Bühne von Woodstock bis zum kommerziellen Rekordalbum im Alter von 52 Jahren. Was über all diese Wendungen hinweg konstant blieb, ist der körperlich erlernte, im Elternhaus weitergegebene Ton seiner Gitarre.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nie wirklich, auch wenn es weite Strecken zurücklegt: Santanas Musik trägt bis heute die afrokubanischen und mexikanischen Wurzeln, die ihm sein Vater als Kind mitgab &ndash; verstärkt, nicht verwässert, durch jede Neuerfindung, die er unternahm, um gehört zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function haraldGloeocklerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-harald-gloeockler-portrait.jpg" alt="Harald Glööckler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harald Glööckler</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Modedesigner, geb. 1965 &ndash; Gründer von POMPÖÖS &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Wesen, das sich, wo immer möglich, ein sicheres, geschütztes eigenes Terrain schafft, in dem es sich fern von äußerer Bedrohung bewegen kann. Es baut sich sein Revier nicht leise, sondern mit einer Präsenz, die weithin sichtbar bleibt.</p>
+          <p class="vb-intro">Der deutsche Modedesigner Harald Glööckler, geboren am 30. Mai 1965 im badischen Maulbronn-Zaisersweiher, wuchs in einem von ihm selbst als traumatisch beschriebenen Elternhaus auf: Sein Vater, der gemeinsam mit der Mutter eine Gastwirtschaft führte, war gewalttätig und alkoholkrank; zusätzlich wurde Glööckler als Kind von einem Bekannten der Familie sexuell missbraucht, worüber er in dem instabilen Elternhaus nie sprechen konnte. Als er neunzehn war, starb seine Mutter durch einen Sturz. Schon mit sieben Jahren aber, angeregt durch seine Tante, eine Schneiderin, entwarf der junge Harald sein erstes Kleid &ndash; ein schwarzes Spitzenkleid mit goldfarbenem Innenfutter. Die Sehnsucht nach Glanz und Fülle war früh geboren, mitten in einer Kindheit, die alles andere als glanzvoll war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Sicherheit durch selbst geschaffene Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge beginnt bei der eigenen materiellen und emotionalen Sicherheit, bevor sie sich nach außen richtet. Wo ein Elternhaus Bedrohung, Gewalt und Mangel bedeutete, baute sich Glööckler mit seiner Marke <em>POMPÖÖS</em> &ndash; benannt und gegründet 1990, nach der gemeinsamen Eröffnung des Modegeschäfts „Jeans Garden" mit seinem langjährigen Lebenspartner Dieter Schroth 1987 in Stuttgart &ndash; buchstäblich eine eigene, überbordend sichere und glanzvolle Gegenwelt: goldene Kronen, Strasssteine, Fülle statt Mangel, Überfluss statt Bedrohung.</p>
+          <p class="vb-intro">Diese Fürsorge bleibt auch im engsten persönlichen Kreis konkret: Seine langjährige Partnerschaft mit Dieter Schroth, geschäftlich wie privat, trägt seine Karriere seit den 1980er-Jahren. Gleichzeitig engagiert er sich mit sehr direktem, konkretem Einsatz für Tierschutz &ndash; als erklärter Gegner von Pelz in der Mode, mit veganen, tierversuchsfreien Kollektionen, aus deren Erlösen er Spenden abzweigt, sowie in der Zusammenarbeit mit der Organisation „Ein Herz für Kinder". Für die SE2 ist Fürsorge nie abstrakt: Sie zeigt sich in konkreten Produkten, konkreten Spenden, einer konkreten Beziehung, die über Jahrzehnte hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Marke als Rüstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Instinkt für Bild, Wirkung und Wiedererkennbarkeit. Glööcklers persönliches Markenzeichen &ndash; die goldene Krone, oft ergänzt durch den Schriftzug „POMPÖÖS" &ndash; ist keine zufällige Ästhetik, sondern ein bewusst gestaltetes, konsequent wiederholtes Erkennungssymbol, das sich über Mode, Wohnaccessoires und Beauty-Produkte zieht.</p>
+          <p class="vb-intro">Auch seine mediale Präsenz folgt diesem Muster: Als Reality-TV-Star war er unter anderem bei „Ich bin ein Star – Holt mich hier raus!" und „Promi Big Brother" zu sehen &ndash; Formate, die maximale Sichtbarkeit bei minimalem Textbuch bieten. Der Dreierflügel verwandelt die aus der Kindheit stammende Sehnsucht nach Sicherheit in ein öffentlich sichtbares, konsequent vermarktetes Image: nicht verstecken, sondern in aller Deutlichkeit zeigen, dass man es geschafft hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 ist die Fähigkeit, aus einer Kindheit ohne Sicherheit eine eigene, tragfähige Welt aufzubauen &ndash; und diese Welt nicht für sich zu behalten, sondern mit konkretem Engagement für Tiere und benachteiligte Kinder zu teilen. Glööcklers jahrzehntelange Partnerschaft und sein beständiges karitatives Engagement zeigen, dass hinter der glitzernden Fassade eine sehr reale, sehr verlässliche Fürsorge steckt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, durch die eigene Fürsorge und die eigene Leistung unentbehrlich und sicher zu sein. Bei der SE2w3 kann dieser Stolz zur permanenten, öffentlich sichtbaren Selbstinszenierung werden: das Bedürfnis, die einmal erkämpfte Sicherheit immer wieder aufs Neue, immer sichtbarer zu demonstrieren, statt sich innerlich auf sie verlassen zu können. Glööcklers eigene, sehr bewusste Entscheidung gegen eigene Kinder &ndash; mit der Begründung, ein Kind sei „ein Full-Time-Job" und mit der Karriere nicht vereinbar &ndash; lässt sich als Ausdruck genau dieser Priorität lesen: die selbst aufgebaute, kontrollierbare Sicherheit vor einer neuen, unkontrollierbaren Abhängigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Überfluss als Gegenentwurf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">POMPÖÖS steht seit über drei Jahrzehnten für eine Ästhetik, die niemanden gleichgültig lässt: Strass, Gold, Kronen, opulente Muster &ndash; eine bewusste Gegenposition zu Understatement und Minimalismus. Diese konsequente Übertreibung ist mehr als Geschmacksfrage: Sie ist die sichtbare Umkehrung einer Kindheit, in der Fülle, Glanz und Sicherheit gefehlt haben.</p>
+          <p class="vb-intro">Dass Glööckler seinen kommerziellen Erfolg konsequent mit Tierschutz-Engagement verbindet &ndash; vegane Kollektionen, Anti-Pelz-Positionierung, Spenden aus den Erlösen &ndash; zeigt, wie bei der SE2 typisch, dass die selbst geschaffene Sicherheit nicht zum reinen Selbstzweck wird, sondern in konkrete Fürsorge für andere zurückfließt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function harnaamKaurPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7140,189 +7332,6 @@ function christiaanBarnardPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
         {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – Rheumatoide Arthritis in den Händen"},
-      ])}
-    </div>
-  `);
-}
-
-function kathrinBauerfeindPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-kathrin-bauerfeind-portrait.jpg" alt="Kathrin Bauerfeind – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Kathrin Bauerfeind</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Journalistin, Moderatorin &amp; Autorin, geb. 1981 &ndash; Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschb\u00e4r</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschb\u00e4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und er ist ein Tier, das man untersch\u00e4tzt. Kein lauter Auftritt, kein Glanz, keine B\u00fchne. Der Waschb\u00e4r tr\u00e4gt eine nat\u00fcrliche Maske, bewegt sich leise durch die Nacht, nimmt das wahr, was andere \u00fcbersehen, und wendet seine Geschicklichkeit ganz praktisch an: Was brauche ich? Wie komme ich dorthin? Der Waschb\u00e4r ist kein Performer &ndash; er ist ein \u00dcberlebensk\u00fcnstler mit feinen H\u00e4nden.</p>
-          <p class="vb-intro">Die deutsche Moderatorin Kathrin Bauerfeind ist in der deutschen Medienlandschaft eine Figur, die sich dieser Logik entzieht. Sie ist nicht laut. Sie ist nicht glamour\u00f6s. Und trotzdem ist sie \u00fcberall: Talkshows, Podcasts, B\u00fccher, Fernsehserien, journalistische Texte. Nicht durch Selbstinszenierung, sondern durch Kompetenz, Verl\u00e4sslichkeit und eine stilistische Unverwechselbarkeit, die sich \u00fcber Jahre aufgebaut hat. Der Waschb\u00e4r w\u00fchlt nicht im Rampenlicht &ndash; er schafft sich sein eigenes Territorium.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: K\u00f6nnen statt Gl\u00e4nzen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; derjenige Subtyp, der am wenigsten wie eine Drei aussieht. Claudio Naranjo beschreibt ihn als denjenigen, der Leistung nach innen richtet: nicht auf Bewunderung, nicht auf \u00f6ffentliche Anerkennung, sondern auf Sicherheit, Kompetenz und Aufbau. Die SE3 fragt nicht: <em>Wie werde ich gesehen?</em> Sie fragt: <em>Was kann ich? Was brauche ich? Was funktioniert?</em></p>
-          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich das in ihrer Bandbreite: Journalistin, Moderatorin, Entertainerin, Schauspielerin, Buchautorin &ndash; das ist kein Geltungsdrang, das ist Kompetenzaufbau. Die SE3 investiert in K\u00f6nnen, weil K\u00f6nnen Sicherheit bedeutet. Wer viel kann, ist schwer zu ersetzen. Wer in vielen Feldern zuhause ist, braucht kein Rampenlicht &ndash; er hat immer einen Weg.</p>
-          <p class="vb-intro">Charakteristisch f\u00fcr die SE3 ist auch ihre Glaubw\u00fcrdigkeit: Sie muss nicht beeindrucken, sie muss \u00fcberzeugen. Bauerfeind hat sich einen Ruf erarbeitet, der auf Qualit\u00e4t beruht, nicht auf Popularit\u00e4t. Ihre Interviews gelten als pr\u00e4zise und substanzreich, ihre Texte als geschliffen, ihre Moderationen als verl\u00e4sslich. Das ist SE3-Energie in ihrer besten Form: Arbeit, die f\u00fcr sich spricht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe hinter der Sachlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> bringt der selbsterhaltenden Drei etwas, das sie von innen heraus ver\u00e4ndert: das Bewusstsein f\u00fcr das Besondere, f\u00fcr das Unwiederholbare, f\u00fcr die eigene innere Welt. Eine SE3 mit schwach ausgeprägtem Viererflügel könnte sich in Effizienz und Nützlichkeit erschöpfen – immer funktional, immer produktiv, immer im Dienst des Aufbaus. Ein stark ausgeprägter Viererflügel stellt eine andere Frage daneben: <em>Aber was bedeutet das alles? Wer bin ich wirklich, jenseits dessen, was ich leiste?</em></p>
-          <p class="vb-intro">Bei Kathrin Bauerfeind zeigt sich der Viererfl\u00fcgel in der stilistischen Eigenwilligkeit, die ihr Werk durchzieht. Sie hat keine Mainstream-Karriere gemacht &ndash; sie hat eine erkennbar pers\u00f6nliche Handschrift entwickelt. Ihr Buch <em>Wir k\u00f6nnten auch einfach gar nichts tun</em> ist kein Sachbuch im klassischen Sinn, sondern ein Essay-Band mit eigenem Ton: nachdenklich, ironisch, zuweilen melancholisch. Das ist der Viererfl\u00fcgel, der die Drei bereichert &ndash; er bringt Tiefe in das, was sonst vielleicht nur Kompetenz w\u00e4re.</p>
-          <p class="vb-intro">Der Viererfl\u00fcgel ist auch verantwortlich f\u00fcr eine gewisse innere Distanz zu sich selbst &ndash; die F\u00e4higkeit, die eigene Arbeit nicht nur als Leistung zu betrachten, sondern als Ausdruck von etwas, das tiefer liegt. Die SE3w4 will nicht nur gut sein &ndash; sie will authentisch sein. Das macht sie komplexer als viele, die \u00e4hnlich produktiv sind.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3 ist ihre Verl\u00e4sslichkeit und Vielseitigkeit. Kathrin Bauerfeind ist in einem Metier zuhause, das schnell verbrennt, was es produziert &ndash; und sie ist seit Jahren pr\u00e4sent, ohne sich zu verausgaben oder zu wiederholen. Das ist kein Gl\u00fcck, das ist Strategie &ndash; die bewusste oder unbewusste Strategie der SE3, die in Kompetenz investiert statt in Aufmerksamkeit.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; nicht im plakativen Sinn, sondern als das tiefe Bed\u00fcrfnis, als wertvoll zu gelten. Bei der SE3 ist das besonders subtil: Die Bescheidenheit kann selbst zur Inszenierung werden. &bdquo;Ich brauche keine gro\u00dfe B\u00fchne&ldquo; ist manchmal eine sehr wirkungsvolle Art, auf sich aufmerksam zu machen, ohne den Verdacht der Eitelkeit auf sich zu ziehen.</p>
-          <p class="vb-intro">Der Viererfl\u00fcgel bringt seinen eigenen Schatten: das Gef\u00fchl, im Wesentlichen anders zu sein, nicht ganz dazuzugeh\u00f6ren. Die SE3w4 kann zwischen dem Wunsch nach Anerkennung und dem Bed\u00fcrfnis nach Einzigartigkeit hin- und herpendeln &ndash; und dabei den eigenen Beitrag chronisch untersch\u00e4tzen, weil er ihr selbstverst\u00e4ndlich erscheint.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: Vom Leisten zum Sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> F\u00fcr die SE3w4 ist dieser Weg besonders vielschichtig: Der Viererfl\u00fcgel \u00f6ffnet die T\u00fcr zur inneren Welt, aber er kann auch die Quelle tiefer Selbstkritik sein. Der n\u00e4chste Schritt ist nicht mehr Reflexion &ndash; sondern Akzeptanz.</p>
-          <p class="vb-intro">Die wachsende SE3w4 entdeckt: Sie muss weder die kompetenteste noch die einzigartigste Person im Raum sein, um dazuzugeh\u00f6ren. Der Waschb\u00e4r, der die Maske abnimmt, findet darunter kein Defizit &ndash; sondern ein Gesicht, das schon immer da war. Kathrin Bauerfeind hat in ihren Texten und Auftritten immer wieder Momente, in denen genau das sichtbar wird: eine Bereitschaft zur Verletzlichkeit, die zeigt, dass die Kompetenz nicht alles ist. Das ist der Heilungsweg, der schon begonnen hat.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
-        {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
-      ])}
-    </div>
-  `);
-}
-
-
-function tonyShalhoubPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-tony-shalhoub-portrait.jpg" alt="Tony Shalhoub" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Tony Shalhoub</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, geb. 1953 – bekannt aus »Monk« – Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, dessen Geschick sich erst in den Details zeigt: in der Feinmotorik der Pfoten, im geduldigen Ausprobieren, im methodischen Herantasten an jede neue Aufgabe. Kein Tier für die große Geste, sondern für die tausend kleinen, exakt ausgeführten Handgriffe, aus denen sich am Ende Meisterschaft zusammensetzt.</p>
-          <p class="vb-intro">Der US-amerikanische Schauspieler Tony Shalhoub, ausgebildet an der Yale School of Drama, war über Jahrzehnte genau das: ein Schauspieler, dessen Namen viele erst nach seinen Rollen kennenlernten, nicht umgekehrt. Bevor er 2002 als zwanghaft-akribischer Detektiv Adrian Monk zum Star wurde, hatte er sich bereits durch Theater, Independent-Filme und Nebenrollen ein Handwerk erarbeitet, das kaum ein anderer Schauspieler seiner Generation so präzise beherrschte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
-          <p class="vb-intro">Shalhoubs Karriere liest sich wie ein Lehrbuch dieser Haltung: Rollen in „Barton Fink", „Men in Black", „Wings" und dem Independent-Film „Big Night" (1996) – ein leises, von Kritikern hochgelobtes Drama über zwei italienisch-amerikanische Brüder und ein einziges perfektes Risotto –, lange bevor der große Publikumserfolg kam. Er wählte Rollen nach handwerklicher Substanz, nicht nach Sichtbarkeit. Das ist SE3-Logik pur: Wer wirklich etwas kann, muss sich nicht anpreisen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Tiefe hinter der Präzision</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet das alles – jenseits von Funktion und Leistung?</em> Genau das macht Shalhoubs bekannteste Rolle so bemerkenswert: Adrian Monk ist nicht einfach ein exzentrischer Ermittler mit Marotten. Shalhoub spielte die Figur als einen Mann, dessen zwanghafte Ordnungsliebe direkt aus einem unverarbeiteten Trauma – dem Mord an seiner Frau – herrührt. Präzision wird bei ihm zum sichtbaren Ausdruck von Schmerz, nicht zur bloßen Pointe.</p>
-          <p class="vb-intro">Dieselbe Tiefe zeigt sich in der berühmten, fast wortlosen Schlussszene von „Big Night", in der ein einziges gemeinsames Frühstück zweier zerstrittener Brüder mehr Emotion trägt als jeder Dialog. Der Viererflügel sucht nicht die große Geste, sondern den einen wahren, unverwechselbaren Moment. Auch seine spätere Rolle als Abe Weissman in „The Marvelous Mrs. Maisel" trägt diese Handschrift: ein Mann voller intellektueller Eigenheiten, dessen komische Fassade eine tiefe, oft anrührende Verletzlichkeit verbirgt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte emotionale Wahrheit zu schöpfen. Shalhoub gewann für „Monk" drei Emmys und einen Golden Globe – nicht für Effekthascherei, sondern weil er eine Figur mit klinischer Störung zu einem der menschlichsten Charaktere des amerikanischen Fernsehens machte. Diese Kombination aus Disziplin und Tiefe ist selten und wird von Kritikern seit Jahrzehnten als eine der konstantesten schauspielerischen Leistungen seiner Generation gewürdigt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, selbst im Rampenlicht zu stehen. Der Viererflügel bringt seinen eigenen Schatten mit: das Gefühl, nie ganz dazuzugehören, selbst inmitten großen Erfolgs – eine leise Melancholie, die viele seiner Rollen durchzieht und die vermutlich auch ein Stück seiner eigenen inneren Wirklichkeit widerspiegelt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: Vom Perfektionieren zum Sein</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 bedeutet das, den eigenen Wert nicht mehr an die makellose Ausführung einer Rolle zu knüpfen, sondern an die Wahrhaftigkeit, mit der man sie verkörpert.</p>
-          <p class="vb-intro">Shalhoubs jahrzehntelange, unaufgeregte Konstanz – von kleinen Theaterrollen bis zu preisgekrönten Hauptfiguren, stets fernab des Boulevard-Rampenlichts – zeigt einen Waschbären, der sein Handwerk nie als Beweis brauchte, sondern als Ausdruck dessen, was ihm wirklich wichtig ist. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet in dieser Beständigkeit womöglich genau das, was er sucht: nicht die eine perfekte Rolle, sondern ein ganzes, aufrichtig gelebtes Berufsleben.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
-        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
-      ])}
-    </div>
-  `);
-}
-
-function juditPolgarPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-judit-polgar-portrait.jpg" alt="Judit Polgár" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Judit Polgár</p>
-        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Schach-Großmeisterin, geb. 1976 – spielstärkste Frau der Schachgeschichte – Tierentsprechung: Waschbär</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Waschbär</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein nachtaktives Tier, das seine Umgebung nicht mit roher Kraft, sondern mit ertasteter Präzision erschließt: Es befühlt, prüft, kalkuliert, bevor es zugreift. Erst wer genau hinsieht, erkennt die Berechnung hinter der scheinbar spielerischen Bewegung.</p>
-          <p class="vb-intro">Die ungarische Schachspielerin Judit Polgár, geboren 1976 in Budapest als jüngste der drei Polgár-Schwestern, wuchs in einem pädagogischen Experiment ihres Vaters László Polgár auf, der überzeugt war, dass Genie erlernbar sei, wenn man früh genug und intensiv genug übt. Die drei Töchter wurden zu Hause unterrichtet, mit Schach als Kernfach des Curriculums – keine Laune des Schicksals, sondern das Ergebnis Tausender Trainingsstunden am Brett, lange bevor die Öffentlichkeit von ihr wusste.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Die SE3 fragt nicht <em>Wie werde ich gesehen?</em>, sondern <em>Was kann ich wirklich?</em></p>
-          <p class="vb-intro">1991 wurde Polgár im Alter von fünfzehn Jahren oder viertausendneunundsiebzig Tagen die jüngste Großmeisterin der Schachgeschichte – zu diesem Zeitpunkt jünger als jeder männliche Spieler zuvor, einschließlich Bobby Fischers legendärem Rekord. Statt sich in der Frauenschachwelt zu etablieren, in der ihr sofort ein sicherer Spitzenplatz gewiss gewesen wäre, entschied sie sich, ausschließlich in offenen Turnieren gegen die stärksten Spieler der Welt anzutreten – unabhängig vom Geschlecht der Gegner. Das ist SE3-Logik ungefiltert: Wer wirklich etwas kann, sucht sich die härteste, nicht die bequemste Bühne.</p>
-          <p class="vb-intro">Man nennt die SE3w4 auch die "Profis": Menschen, die tatsächlich mehr können, als sie nach außen zeigen – im Unterschied zum Kontratyp-Zwilling SE3w2, der oft ein freundliches, einnehmendes Auftreten pflegt, dessen Substanz aber nicht immer mit dem ersten Eindruck mithält. Der Viererflügel verleiht der SE3 eine besondere Authentizität: keine Fassade, sondern echtes, oft stilles Können, das erst beim genauen Hinsehen seine volle Tiefe zeigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Der eigene Weg abseits der Norm</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg – jenseits dessen, was von mir erwartet wird?</em> Polgár lehnte es zeitlebens ab, an der Frauenweltmeisterschaft teilzunehmen, obwohl sie diese vermutlich mühelos hätte gewinnen können. Stattdessen kletterte sie 2005 auf Platz acht der Weltrangliste aller Spieler – bislang die einzige Frau, die je in die Top Ten der offenen Weltrangliste vordrang, ein Rekord, den niemand seither auch nur annähernd erreicht hat.</p>
-          <p class="vb-intro">Diese Eigenständigkeit zeigte sich auch in ihrem Spielstil: Polgár war bekannt für einen aggressiven, hochriskanten, taktisch geprägten Stil, der stark von ihrer eigenen Intuition statt von reiner Theorie geprägt war. Sie besiegte im Laufe ihrer Karriere zahlreiche amtierende und ehemalige Weltmeister – darunter Garri Kasparow, Anatoli Karpow, Boris Spasski, Wiswanathan Anand und Magnus Carlsen (SE1w9, ebenfalls unter den Berühmten Persönlichkeiten dieser App porträtiert) – nicht durch Anpassung an das etablierte System, sondern durch einen unverwechselbaren, eigenwilligen Zugang zum Spiel, der ihre Handschrift auf jedem Brett erkennbar machte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Handwerk echte Einzigartigkeit zu schöpfen. Polgár bewies über zwei Jahrzehnte hinweg, dass Kompetenz keine Frage des Geschlechts ist – nicht durch öffentliche Rhetorik, sondern durch das nüchterne, unwiderlegbare Ergebnis am Brett. Sie tat dies, ohne sich als Symbolfigur zu inszenieren; ihr Statement war das Spiel selbst.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> – bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während man zugleich vermeidet, sich selbst als Person in den Vordergrund zu stellen. Der Viererflügel bringt seinen eigenen Schatten mit: die ständige Notwendigkeit, sich von jeder Erwartung – auch der Erwartung, die "beste Schachspielerin" zu sein – abzugrenzen und stattdessen einen völlig eigenen Maßstab zu setzen, was auf Dauer isolierend wirken kann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Weitergeben</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Für die SE3w4 zeigt sich das darin, dass der eigene Wert nicht mehr an das nächste Turnierergebnis geknüpft bleibt, sondern an die Wahrhaftigkeit des eigenen Weges.</p>
-          <p class="vb-intro">2014 beendete Polgár ihre aktive Turnierkarriere und gründete die Judit Polgár Chess Foundation, die Schach als pädagogisches Werkzeug in Schulen einsetzt – ein Waschbär, der sein Handwerk nicht mehr als Beweis der eigenen Ausnahmestellung braucht, sondern als Geschenk an die nächste Generation weitergibt. Der Viererflügel, der stets nach der tieferen Bedeutung sucht, findet darin womöglich genau das, was er sucht: nicht den nächsten Rekord, sondern eine Spur, die über das eigene Leben hinausweist.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
-        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
-        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
-        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
       ])}
     </div>
   `);

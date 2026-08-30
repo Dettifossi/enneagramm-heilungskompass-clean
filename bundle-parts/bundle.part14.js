@@ -1,3 +1,105 @@
+function nagetierartenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Nagetierarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Nagetiere sind die erfolgreichste S\u00e4ugetiergruppe der Erde \u2013 \u00fcber 40 Prozent aller S\u00e4ugetierarten sind Nagetiere. Sie leben auf jedem Kontinent, in jedem Klima, in jeder Nische. Ihr Erfolgsrezept ist Vielfalt: Jede Art hat ein vollkommen eigenes Prinzip entwickelt, um zu \u00fcberleben und zu gedeihen. Neun Nagetierarten, neun Enneagrammprinzipien.</p>
+      <img src="./assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Pr\u00e4riehund: Ordnung unter der Erde</h3>
+        <p class="vb-intro">Der Pr\u00e4riehund baut die ausgefeiltesten sozialen Systeme unter allen Nagetieren: Seine unterirdischen St\u00e4dte \u2013 sogenannte D\u00f6rfer \u2013 k\u00f6nnen Hunderte von Kilometern Tunneln umfassen, mit klar getrennten Bereichen f\u00fcr Schlafen, Geb\u00e4ren, Lagern und Entleeren. Jeder Bereich hat seinen Platz, und dieser Platz wird eingehalten. Pr\u00e4riehunde kommunizieren dar\u00fcber hinaus mit einer der komplexesten Tiersprachen, die bekannt sind: Forscher haben herausgefunden, dass ihre Rufe nicht nur \u201eGefahr\u201c bedeuten, sondern auch die Gr\u00f6\u00dfe, Farbe, Form und Geschwindigkeit eines Angreifers kodieren \u2013 sie beschreiben ihn buchst\u00e4blich. Ein Pr\u00e4riehund-Ruf \u00fcbermittelt: Ein gro\u00dfer, runder, langsamer, brauner Mensch n\u00e4hert sich von Osten. Informationsgenauigkeit als Lebensrettung. Das Prinzip des Enneagrammtyps 1: Der Pr\u00e4riehund lebt in einer Welt, in der alles seinen Platz hat \u2013 und sorgt daf\u00fcr, dass jeder diesen Platz kennt. Ordnung ist f\u00fcr ihn kein Aufwand. Sie ist \u00dcberleben.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Ziesel: F\u00fcr die Gemeinschaft wachen</h3>
+        <p class="vb-intro">Das Ziesel ist ein kleines Erdh\u00f6rnchen der eurasischen Steppen \u2013 und eines der selbstlosesten Tiere der Savanne: Es stellt sich auf die Hinterbeine, um \u00fcber die Graslandschaft zu schauen, und l\u00e4sst beim Anblick eines Greifvogels sofort einen Warnruf los, der die gesamte Kolonie in Sicherheit bringt. Dieser Warnruf macht das Ziesel selbst zum sichtbarsten Ziel im Umfeld \u2013 es gef\u00e4hrdet sich, um die anderen zu retten. Ziesel leben in engen Familiengruppen, teilen ihre Erdh\u00f6hlen, pflegen einander, und die Weibchen einer Gruppe helfen gegenseitig beim Aufziehen der Jungen. Was diese Tiere antreibt, ist nicht eigener Vorteil \u2013 es ist die Bindung an die Gruppe, die st\u00e4rker ist als die Bindung ans eigene \u00dcberleben. Das Prinzip des Enneagrammtyps 2: Das Ziesel tritt ins Licht, damit andere im Schatten sicher sind. Diese Umkehrung \u2013 sich sichtbar machen, um zu sch\u00fctzen \u2013 ist das Tiefste, was F\u00fcrsorge sein kann.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Waldmaus: Anpassungsf\u00e4higkeit als Erfolgsrezept</h3>
+        <p class="vb-intro">Die Waldmaus ist das erfolgreichste Nagetier Europas \u2013 und das unaufdringlichste. Sie lebt in W\u00e4ldern, Feldern, G\u00e4rten, Kellern, S\u00fcmpfen, Hochgebirge und D\u00fcnen. Sie frisst Samen, Fr\u00fcchte, Insekten, Pilze, Wurzeln \u2013 was da ist. Sie nistelt in Erdh\u00f6hlen, Baumh\u00f6hlungen, unter Steinen, in Komposth\u00e4ufen. Sie ist nacht- und d\u00e4mmerungsaktiv, legt in einer einzigen Nacht Kilometer zur\u00fcck und kann mit einer Geschwindigkeit von bis zu 13 km/h fliehen, klettern und schwimmen. Die Waldmaus ist nicht die gr\u00f6\u00dfte, nicht die st\u00e4rkste, nicht die auff\u00e4lligste Maus \u2013 sie ist die vielseitigste. Und genau deshalb geh\u00f6rt sie zu den am weitesten verbreiteten S\u00e4ugetieren der Erde. Das Prinzip des Enneagrammtyps 3: Die Waldmaus stellt sich nicht die Frage, ob eine Umgebung zu ihr passt. Sie passt sich an \u2013 blitzschnell, kompetent, ohne Aufhebens. Erfolg durch totale Flexibilit\u00e4t.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Zwerghamster: Intensit\u00e4t im kleinen Format</h3>
+        <p class="vb-intro">Der Zwerghamster ist eines der kleinsten Nagetiere der Welt \u2013 und eines der eigenwilligsten. In freier Wildbahn ist er ein Einzelg\u00e4nger mit fester Revier\u00fcberzeugung: Er duldet kein anderes Tier in seinem Bereich, markiert es sorgf\u00e4ltig und verteidigt es mit einer Entschlossenheit, die seiner K\u00f6rpergr\u00f6\u00dfe spottet. Sein Fell wechselt je nach Art und Jahreszeit \u2013 manche Zwerghamster werden im Winter wei\u00df, eine Metamorphose, die selbst in der Nagetier-Welt selten ist. Er tr\u00e4gt f\u00fcr kurze Zeit enorme Mengen Futter in seinen Backentaschen \u2013 Vorr\u00e4te, die er sorgf\u00e4ltig anlegt und nach einem inneren System sortiert. Er lebt intensiv, schl\u00e4ft kaum, bewegt sich st\u00e4ndig. Das Prinzip des Enneagrammtyps 4: Der Zwerghamster zeigt, dass Einzigartigkeit keine Frage der Gr\u00f6\u00dfe ist. Sein Revier ist sein Ausdruck \u2013 klar begrenzt, tief empfunden, unverhandelbar sein.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Maulwurf: Meister der verborgenen Welt</h3>
+        <p class="vb-intro">Der Maulwurf verbringt sein gesamtes Leben unter der Erde \u2013 er ist fast blind, seine Augen sind von Haut bedeckt, seine Ohren sind nicht sichtbar. Aber er hat Sinne entwickelt, die alle oberirdischen Lebewesen \u00fcbertreffen: Er sp\u00fcrt die Vibrationen eines Regenwurms durch den Boden in mehreren Metern Entfernung. Sein Tunnelsystem ist ein architektonisches Meisterwerk: Mit einer Grabgeschwindigkeit von bis zu 20 Metern pro Stunde legt er weitverzweigte Netze an, mit Schlafkammern, Vorratskammern und \u201eAngelstrecken\u201c \u2013 Tunneln, die er regelm\u00e4\u00dfig ablauft und in die hineinfallendes Gew\u00fcrm er sammelt. Was die wenigsten wissen: Maulw\u00fcrfe beto\u00e4uben Regenw\u00fcrmer mit Gift in ihrem Speichel und lagern sie lebend in Vorratskammern \u2013 ein k\u00fchles, lebendiges Lager f\u00fcr den Winter. Das Prinzip des Enneagrammtyps 5: Der Maulwurf wei\u00df alles \u00fcber seine Welt \u2013 und seine Welt liegt dort, wo niemand sonst hinschaut. Er braucht kein Licht, um zu sehen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Bisamratte: Sicherheit durch Gemeinschaft</h3>
+        <p class="vb-intro">Die Bisamratte baut ihre Burgen an Teichen und Fl\u00fcssen mit einem einzigen Prinzip: der Eingang ist immer unter Wasser. Kein Landraubtier kommt ohne zu tauchen hinein. Diese Sicherheitsarchitektur ist wohl\u00fcberlegt \u2013 das Ergebnis einer evolution\u00e4ren Strategie, die \u00dcberleben durch Vorsicht priorisiert. Bisamratten leben in engen Familienverb\u00e4nden \u2013 mehrere Generationen teilen eine Burg, bewachen gemeinsam den Eingang und warnen einander bei Gefahr mit pr\u00e4zisen Lautzeichen. Fremde Bisamratten werden aus dem Revier vertrieben; eigene Familienmitglieder dagegen werden lebenslang unterst\u00fctzt. Die Grenze ist klar: Loyalit\u00e4t zur Gruppe, Misstrauen gegen\u00fcber dem Unbekannten. Das Prinzip des Enneagrammtyps 6: Die Bisamratte hat ihre Burg so gebaut, dass kein Fremder ohne Ank\u00fcndigung hineinkommt \u2013 und ihre Familie wei\u00df immer, dass der Weg nach unten und ins Wasser der sicherste Weg nach Hause ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Biber: Der Architekt der Freude</h3>
+        <p class="vb-intro">Der Biber ist das ingenieursfreudigste Tier der Welt: Er f\u00e4llt B\u00e4ume, staut Fl\u00fcsse auf, erschafft Teiche, wo keiner war, und baut Burgen aus Holz, Schlamm und Gestein, die Jahrzehnte halten. Was ihn dabei auszeichnet: Er baut nicht, weil er muss. Er baut, weil das Bauen sein Wesen ist \u2013 sein Instinkt ist so tief verankert, dass Biber in Gefangenschaft versuchen, mit jedem verf\u00fcgbaren Material \u201eD\u00e4mme\u201c zu errichten, auch wenn kein Wasser flie\u00dft. Das Flie\u00dfen von Wasser ist der Ausl\u00f6ser; das Bauen ist die Antwort; die Freude dabei ist sp\u00fcrbar. Biber-Familien sind eng und loyal \u2013 Jungtiere bleiben zwei Jahre bei den Eltern und helfen beim Bau, bevor sie ausziehen. Was sie hinterlassen: Biberd\u00e4mme, die ganze \u00d6kosysteme ver\u00e4ndern, Feuchtgebiete schaffen und Artenvielfalt f\u00f6rdern. Das Prinzip des Enneagrammtyps 7: Der Biber verwandelt, was er ber\u00fchrt \u2013 nicht aus Pflicht, sondern aus dem tief sitzenden Drang, die Welt zu gestalten. Jeder Stamm ein neues Projekt. Jeder Stausee ein neues Abenteuer.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Nutria: Robust ohne Kompromiss</h3>
+        <p class="vb-intro">Die Nutria \u2013 auch Biberratte genannt \u2013 ist ein Einwanderer aus S\u00fcdamerika, der in Europa, Nordafrika und Nordamerika l\u00e4ngst heimisch geworden ist, obwohl ihn niemand eingeladen hat: Er kam, er frass, er blieb. Nutrias sind gro\u00dfe, kr\u00e4ftige Nagetiere mit leuchtend orangefarbenen Z\u00e4hnen \u2013 gefarbt durch eisenhaltigen Zahnschmelz, der sie h\u00e4rter und widerstandsf\u00e4higer macht als normale Nagez\u00e4hne. Sie graben Uferbereiche systematisch um, fressen Schilf, Wasserpflanzen und Wurzeln mit einer Gr\u00fcndlichkeit, die Ufererosion verursacht \u2013 und tun das mit einer Gleichg\u00fcltigkeit gegen\u00fcber den Konsequenzen, die beeindruckend und beunruhigend zugleich ist. In ihrer Heimat S\u00fcdamerika sind sie Teil eines ausgeglichenen Systems; in Europa haben sie keine nat\u00fcrlichen Feinde und legen ihr Territorium nach eigenem Ermessen fest. Das Prinzip des Enneagrammtyps 8: Die Nutria fragt nicht, ob sie willkommen ist. Sie ist da \u2013 mit orangefarbenen Z\u00e4hnen, mit vollen K\u00f6rpereinsatz, ohne Entschuldigung. Grenzen setzt sie selbst.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Capybara: Das friedlichste Tier der Welt</h3>
+        <p class="vb-intro">Der Capybara ist das gr\u00f6\u00dfte Nagetier der Welt \u2013 und das entspannteste. Er lebt in S\u00fcdamerika, an Fl\u00fcssen und Seen, in Gruppen von zehn bis drei\u00dfig Tieren, und hat die bemerkenswerte Eigenschaft, mit nahezu allen anderen Tieren in Frieden zu leben. Fotos und Videos von Capybaras sind weltweit viral gegangen \u2013 weil auf ihrem breiten R\u00fccken regelm\u00e4\u00dfig Affen, V\u00f6gel, Katzen, Enten und sogar Kaimane sitzen, ohne dass der Capybara auch nur mit der Wimper zuckt. Biologen erkl\u00e4ren das mit seiner au\u00dferordentlichen Stressresistenz: Sein Nervensystem ist auf Ruhe eingestellt wie das kaum eines anderen Tieres. Er schwimmt, w\u00e4lzt sich im Schlamm, frisst Gras \u2013 und strahlt dabei eine Gelassenheit aus, die andere Tiere buchst\u00e4blich beruhigt. Das Prinzip des Enneagrammtyps 9: Der Capybara hat keinen Feind, weil er keinen braucht. Sein Friede ist so vollst\u00e4ndig, dass andere Tiere ihn sp\u00fcren und sich von ihm anstecken lassen. Er ist das lebende Argument f\u00fcr Harmonie als Urkraft.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
+        {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
+        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function baerenarteDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("B\u00e4renarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">B\u00e4ren geh\u00f6ren zu den m\u00e4chtigsten und r\u00e4tselhaftesten Tieren der Erde \u2013 in nahezu allen Kulturen der Welt verehrt, gef\u00fcrchtet und als Symbol innerer Kraft verstanden. Jede Art hat dabei ein vollkommen eigenes Wesen: eine eigene Strategie, eine eigene Art zu leben, ein eigenes Prinzip. Neun B\u00e4renarten, neun Enneagrammprinzipien.</p>
+      <img src="./assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Eisb\u00e4r: Vollkommenheit in Wei\u00df</h3>
+        <p class="vb-intro">Der Eisb\u00e4r lebt in der extremsten Umgebung, die ein Landraubtier bewohnen kann: auf dem Treibeis der Arktis, bei Temperaturen bis minus 50 Grad, auf einer Eisfl\u00e4che, die sich st\u00e4ndig bewegt, bricht und neu formt. Seine Anpassung an diese Bedingungen ist so vollkommen, dass kein anderes S\u00e4ugetier sie \u00fcbertrifft: Sein Fell ist nicht wei\u00df, sondern hohl und transparent \u2013 jedes einzelne Haar leitet Sonnenlicht zur schwarzen Haut darunter, die W\u00e4rme absorbiert. Seine Pfoten sind so gro\u00df wie Schneeschuhe und so beschaffen, dass er lautlos \u00fcber Eis gleitet. Er kann Robben unter einer Schneedecke riechen, die \u00fcber einen Kilometer entfernt liegt. Der Eisb\u00e4r trainiert seine Jagdtechnik \u2013 junge Eisb\u00e4ren \u00fcben stundenlang das Anschleichen und Zuschlagen. Perfektion ist keine Gabe, sie ist das Ergebnis von Wiederholung. Das Prinzip des Enneagrammtyps 1: Der Eisb\u00e4r \u00fcberlebt nicht trotz seiner Umgebung \u2013 er hat sich so vollst\u00e4ndig an sie angepasst, dass er in ihr vollkommen ist. Kein anderer w\u00e4re hier besser. Und das gen\u00fcgt ihm.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Schwarzb\u00e4r: Der Anpassungsf\u00e4hige</h3>
+        <p class="vb-intro">Der Amerikanische Schwarzb\u00e4r ist der sozialste und anpassungsf\u00e4higste B\u00e4r der Welt: Er lebt in W\u00e4ldern, S\u00fcmpfen, Graslandschaften, Vorst\u00e4dten \u2013 er findet sich in nahezu jeder Umgebung zurecht, die der Mensch ihm l\u00e4sst. Er ist der einzige B\u00e4r, der konsequent Konflikten ausweicht: Im Vergleich zu Braunb\u00e4ren oder Grizzlys ist er deutlich weniger aggressiv, zeigt in Begegnungen mit Menschen fast immer Fluchtverhalten und sucht den Weg des geringsten Widerstands. Was ihn dabei auszeichnet: Er ist hochgradig sozial lernf\u00e4hig. Schwarzb\u00e4ren in der N\u00e4he menschlicher Siedlungen lernen schnell, wie M\u00fclltonnen funktionieren, wie T\u00fcren ge\u00f6ffnet werden, wie man Camps pl\u00fcndert \u2013 und geben dieses Wissen an ihre Jungen weiter. Er hilft sich selbst durch das Verstehen anderer. Das Prinzip des Enneagrammtyps 2: Der Schwarzb\u00e4r \u00fcberlebt nicht durch Dominanz, sondern durch die F\u00e4higkeit, sich einzuf\u00fcgen, zu lernen und anzupassen. Er gibt nach \u2013 und bekommt dadurch mehr als die, die k\u00e4mpfen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Kodiakb\u00e4r: Rekord als Nat\u00fcrlichkeit</h3>
+        <p class="vb-intro">Der Kodiakb\u00e4r ist das gr\u00f6\u00dfte Landraubtier der Erde: M\u00e4nnliche Tiere erreichen ein Gewicht von \u00fcber 680 Kilogramm und eine Schulterh\u00f6he von 1,5 Metern \u2013 aufgerichtet stehen sie fast vier Meter hoch. Sie leben auf der Kodiak-Inselgruppe in Alaska, wo ein reichhaltiges \u00d6kosystem \u2013 Lachsfl\u00fcsse, reiche Vegetation, milde Seeluft \u2013 Tiere hervorbringt, die in ihrer Gr\u00f6\u00dfe keine nat\u00fcrlichen Feinde kennen. Der Kodiakb\u00e4r ist nicht aggressiv um seiner Gr\u00f6\u00dfe willen \u2013 er ist ruhig, methodisch, zielsicher. W\u00e4hrend des Lachsfangs stehen dominante M\u00e4nnchen auf den besten Positionen an den Wasserf\u00e4llen und fangen Lachs mit einer Effizienz, die anderen B\u00e4ren erst nach Jahren des Lernens gelingt. Sie investieren in ihre F\u00e4higkeit \u2013 und werden daf\u00fcr belohnt. Das Prinzip des Enneagrammtyps 3: Der Kodiakb\u00e4r ist nicht der gr\u00f6\u00dfte, weil er \u00fcbertreiben will. Er ist der gr\u00f6\u00dfte, weil er das Optimum aus allem gemacht hat, was ihm seine Umgebung gegeben hat. Gr\u00f6\u00dfe als konsequente Weiterentwicklung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Kragenb\u00e4r: Das Zeichen, das er tr\u00e4gt</h3>
+        <p class="vb-intro">Der Kragenb\u00e4r \u2013 auch Asiatischer Schwarzb\u00e4r \u2013 tr\u00e4gt ein unverwechselbares wei\u00dfes V-f\u00f6rmiges Zeichen auf der Brust: eine Mondsichel, die ihm in Teilen Asiens den Namen \u201eMondbar\u201c eingebracht hat. Kein anderer B\u00e4r sieht so aus wie er. Der Kragenb\u00e4r lebt haupts\u00e4chlich in B\u00e4umen \u2013 er ist der geschickteste Kletterer unter den gro\u00dfen B\u00e4ren und baut sich Schlafnester in H\u00f6hen, die anderen B\u00e4ren verwehrt bleiben. Dort oben, allein, zieht er sich aus Konflikten zur\u00fcck. Er ist ein Einzelg\u00e4nger mit einer ausgepr\u00e4gten Vorliebe f\u00fcr ein einsames Leben \u2013 es gibt eine Parallele zur einsamen Lebensweise, die dem introspektiven Charakter des Typs 4 entspricht. In der Mythologie Ostasiens gilt er als Tier des Mondes, des Geheimnisses, der inneren Welt. Das Prinzip des Enneagrammtyps 4: Der Kragenb\u00e4r tr\u00e4gt sein Zeichen auf der Brust \u2013 sichtbar, unverwechselbar, ohne Erkl\u00e4rung. Er steigt auf, wo andere nicht hingelangen. Und er ruht dort, weit \u00fcber dem L\u00e4rm der Welt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Brillenb\u00e4r: Der stille Beobachter S\u00fcdamerikas</h3>
+        <p class="vb-intro">Der Brillenb\u00e4r ist der einzige B\u00e4r S\u00fcdamerikas \u2013 und einer der zur\u00fcckgezogensten: Er lebt in den schwer zug\u00e4nglichen Nebelw\u00e4ldern der Anden, \u00fcberwiegend als Einzelg\u00e4nger, und ist so scheu, dass er von Forschern erst in den letzten Jahrzehnten genauer beobachtet werden konnte. Seine charakteristischen hellen Abzeichen um die Augen \u2013 die ihm den Namen geben \u2013 sind bei jedem Tier anders: ein individuelles Muster, das ihn unverwechselbar macht. Der Brillenb\u00e4r ist haupts\u00e4chlich Pflanzenfresser und verbringt viel Zeit damit, in den Baumkronen zu fressen \u2013 weit oben, unsichtbar, in Ruhe. Er baut Futterplattformen aus gebogenen Zweigen, auf denen er sitzt und frisst \u2013 eine Form von Werkzeuggebrauch, die man B\u00e4ren lange nicht zugetraut hat. Das Prinzip des Enneagrammtyps 5: Der Brillenb\u00e4r wei\u00df, wie man unsichtbar bleibt, und hat seinen Lebensraum so gew\u00e4hlt, dass ihn die meisten gar nicht suchen. Was er wei\u00df, hat er sich selbst beigebracht \u2013 hoch oben, allein, in vollkommener Ruhe.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Braunb\u00e4r: Die Gemeinschaft als Anker</h3>
+        <p class="vb-intro">Der Braunb\u00e4r ist der B\u00e4r, den die meisten Menschen kennen \u2013 aus europ\u00e4ischen W\u00e4ldern, aus Nationalparks, aus M\u00e4rchen und Mythen. Er ist vorsichtig, situationsbewusst und au\u00dferordentlich lernf\u00e4hig: Braunb\u00e4ren merken sich Orte, an denen sie gest\u00f6rt wurden, meiden sie jahrelang und passen ihr Verhalten an die Erfahrungen an, die sie mit Menschen gemacht haben. Sie sind bekannt f\u00fcr ihre Treue zu ihren j\u00e4hrlichen Wanderrouten und Laichgew\u00e4ssern \u2013 dasselbe Flussufer, dieselbe Jahreszeit, dieselbe Strategie. Braunb\u00e4ren sind Einzelg\u00e4nger, die sich zur Lachssaison versammeln \u2013 und dabei eine bemerkenswerte Hierarchie und Toleranz entwickeln: M\u00fctter mit Jungen haben Vorrang, und erfahrene B\u00e4ren geben den Rang weiter. Die Bindung der Mutter an ihre Jungen ist eine der intensivsten im Tierreich: Sie bleibt bis zu drei Jahre bei ihnen. Das Prinzip des Enneagrammtyps 6: Der Braunb\u00e4r \u00fcberlebt durch Vertrauen \u2013 auf seinen Erfahrungsschatz, auf die Gemeinschaft, auf den bew\u00e4hrten Weg. Wer ihm dieses Vertrauen entgegenbringt, findet einen zuverl\u00e4ssigen Gef\u00e4hrten.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Lippenb\u00e4r: Freude am Leben, Freude am Saugen</h3>
+        <p class="vb-intro">Der Lippenb\u00e4r ist der verspielste und lauteste B\u00e4r der Welt: Er hat eine bewegliche Schnauze mit langen Lippen und einem zahnlosen vorderen Gaumen, mit dem er Termiten und Ameisen mit einem Saugger\u00e4usch aufsaugt, das man noch 180 Meter weit h\u00f6ren kann. Dieser B\u00e4r macht L\u00e4rm \u2013 schmatzen, schnaufen, saugen, pfeifen. Er lebt in den W\u00e4ldern Indiens und Sri Lankas und ist bekannt f\u00fcr sein aktives, lebhaftes Verhalten: Er klettert, spielt, w\u00e4lzt sich, und erkundet unerm\u00fcdlich sein Revier. Lippenb\u00e4ren-M\u00fctter tragen ihre Jungen auf dem R\u00fccken \u2013 die einzigen B\u00e4ren, die das tun \u2013 und spielen mit ihnen ausgiebig, lang nachdem andere B\u00e4renm\u00fctter ihre Jungen in die Unabh\u00e4ngigkeit entlassen h\u00e4tten. Das Prinzip des Enneagrammtyps 7: Der Lippenb\u00e4r hat eine Leiblingsbesch\u00e4ftigung f\u00fcr Termiten und Ameisen entwickelt \u2013 und dabei so viel Freude, dass man seinen Jubel noch \u00fcber den halben Wald h\u00f6rt. Das Leben ist ein Festmahl. Und er hat die Werkzeuge, es vollst\u00e4ndig zu genie\u00dfen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Grizzlyb\u00e4r: Die ungeb\u00e4ndigte Kraft</h3>
+        <p class="vb-intro">Der Grizzlyb\u00e4r ist das Symbol wilder Kraft schlechthin: m\u00e4chtig, direkt, ohne Umweg. Ein ausgewachsener Grizzly kann einen Baumstamm mit einer einzigen Pfotenbewegung beiseiter\u00e4umen, einen Felsbrocken umrollen und einen Lachs mit solcher Pr\u00e4zision aus dem Wasser schlagen, dass das Tier kaum Zeit hat zu reagieren. Er dominiert sein Territorium \u2013 nicht durch Aggressivit\u00e4t um ihrer selbst willen, sondern durch eine Pr\u00e4senz, die anderen B\u00e4ren gar nicht erst den Gedanken aufkommen l\u00e4sst, seinen Platz streitig zu machen. Was wenige wissen: Grizzlys sind ausgezeichnete V\u00e4ter in dem Sinne, dass M\u00e4nnchen junge B\u00e4ren in ihrem Territorium tolerieren und gelegentlich sogar sch\u00fctzen \u2013 nicht aus R\u00fchrseligkeit, sondern aus dem sicheren Gef\u00fchl, dass ihre Stellung unangefochten ist. Wer stark genug ist, muss sich nicht beweisen. Das Prinzip des Enneagrammtyps 8: Der Grizzly ist nicht aggressiv. Er ist souver\u00e4n \u2013 und wer diesen Unterschied versteht, versteht, warum er in jedem Fluss der beste Platz geh\u00f6rt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sonnenb\u00e4r: Sanft in der gr\u00f6\u00dften Hitze</h3>
+        <p class="vb-intro">Der Sonnenb\u00e4r ist der kleinste B\u00e4r der Welt \u2013 und lebt im tropischen Regenwald S\u00fcdostasiens, wo er kaum gesehen, kaum geh\u00f6rt, kaum gest\u00f6rt wird. Er f\u00fchrt ein ruhiges, gen\u00fcgsames Leben: Honig, Fr\u00fcchte, Insekten \u2013 er sucht das S\u00fc\u00dfe des Lebens, nie den Konflikt. Sein Name kommt vom goldgelben Halbmond auf seiner Brust, der wie ein Sonnenfleck leuchtet. Der Sonnenb\u00e4r ist bekannt f\u00fcr seine lange Zunge \u2013 bis zu 25 Zentimeter \u2013 mit der er Honig aus engen Spalten leckt, wo keine andere Zunge hinreicht. Er ist hoch sozial mit seiner Mutter verbunden: Sonnenb\u00e4r-M\u00fctter spielen l\u00e4nger mit ihren Jungen als fast jede andere B\u00e4renart, und die Jungtiere zeigen eine besonders ausgepr\u00e4gte F\u00e4higkeit zur Mimikry \u2013 sie spiegeln die Gesichtsausdr\u00fccke ihrer Mutter und ihrer Spielgef\u00e4hrten, was Forscher als m\u00f6gliche Form von Empathie deuten. Das Prinzip des Enneagrammtyps 9: Der Sonnenb\u00e4r sucht nicht den gro\u00dfen Kampf. Er sucht den s\u00fc\u00dfen Moment \u2013 und findet ihn, weil er nie aufh\u00f6rt, sanft danach zu suchen.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
+        {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
+        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function milchkuhartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -6688,206 +6790,4 @@ function perspektivenPage() {
 
 const INSTINKT_LABEL = { se: "Selbsterhaltung", so: "Sozial", sx: "Sexual" };
 const INSTINKT_KURZ  = { se: "SE", so: "SO", sx: "SX" };
-
-function subtypChecklistePage() {
-  const parts = state.route.split("/");
-  const typNr = parts[1] ? parseInt(parts[1]) : null;
-  const inst  = parts[2] || null; // "se" | "so" | "sx"
-
-  // Ebene 3: einzelne Checkliste gro\u00df
-  if (typNr && inst && INSTINKT_LABEL[inst]) {
-    const code = `${inst}${typNr}`;
-    return shell(`
-      ${pageHeader("subtypen-checklisten")}
-      <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="subtypen-checklisten/${typNr}">\u2190 Typ ${typNr} Subtypen</button>
-        <h1 class="psycho-detail__title">Typ ${typNr} \u00b7 ${INSTINKT_LABEL[inst]} (${INSTINKT_KURZ[inst]}${typNr})</h1>
-        <div class="psycho-img-wrap">
-          <img src="${R2_CDN}assets/schaubilder/subtypen-checklisten/${code}.jpg"
-               alt="Checkliste ${INSTINKT_KURZ[inst]}${typNr}"
-               class="psycho-img" />
-        </div>
-      </div>
-    `);
-  }
-
-  // Ebene 2: 3 Subtypen eines Typs
-  if (typNr && typNr >= 1 && typNr <= 9) {
-    return shell(`
-      ${pageHeader("subtypen-checklisten")}
-      <div class="psycho-wrap">
-        <button class="ghost-link psycho-back" data-route="subtypen-checklisten">\u2190 Alle Typen</button>
-        <p class="eyebrow">Subtypen-Checklisten \u00b7 Typ ${typNr}</p>
-        <h1 class="section-title">Typ ${typNr} &ndash; Welcher Subtyp bin ich?</h1>
-        <p class="psycho-intro">W\u00e4hle einen Instinktschwerpunkt und pr\u00fcfe anhand der Checkliste, wie gut die Aussagen auf dich zutreffen.</p>
-        <div class="psycho-grid psycho-grid--3">
-          ${["se","so","sx"].map(ins => `
-            <button class="psycho-card psycho-card--inst" data-route="subtypen-checklisten/${typNr}/${ins}">
-              <span class="psycho-card__nr">${INSTINKT_KURZ[ins]}${typNr}</span>
-              <span class="psycho-card__name">${INSTINKT_LABEL[ins]}</span>
-              <span class="psycho-card__arrow">\u2192</span>
-            </button>
-          `).join("")}
-        </div>
-      </div>
-    `);
-  }
-
-  // Ebene 1: Typauswahl 1&ndash;9
-  return shell(`
-    ${pageHeader("subtypen-checklisten")}
-    <div class="psycho-wrap">
-      <p class="eyebrow">Schaubilder \u00b7 Subtypen-Checklisten</p>
-      <h1 class="section-title">Subtypen-Checklisten</h1>
-      <p class="psycho-intro">Welcher der 27 Subtypen beschreibt dich am treffendsten? W\u00e4hle deinen Haupttyp &ndash; dann kannst du die drei Subtypen vergleichen und anhand der Checklisten pr\u00fcfen, was auf dich zutrifft.</p>
-      <div class="psycho-grid">
-        ${[1,2,3,4,5,6,7,8,9].map(n => `
-          <button class="psycho-card" data-route="subtypen-checklisten/${n}" style="border-color:${typeColor(n)};background:linear-gradient(160deg, ${typeColor(n)}18, ${typeColor(n)}08);">
-            <span class="psycho-card__nr" style="color:${typeColor(n)};">${n}</span>
-            <span class="psycho-card__name">${TYPNAMEN_MOTIV[n]}</span>
-            <span class="psycho-card__arrow" style="color:${typeColor(n)};">\u2192</span>
-          </button>
-        `).join("")}
-      </div>
-      ${relatedLinks([
-        {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
-        {route:"triadendefizite", label:"Triadendefizite"},
-      ])}
-    </div>
-  `);
-}
-
-const EDELSTEINE = [
-  { typ: 1, name: "Amethyst",    crystal: "The Perfection Detox",   file: "typ-1-amethyst.png" },
-  { typ: 2, name: "Rosenquarz",  crystal: "The Self-Love Shield",   file: "typ-2-rosenquarz.png" },
-  { typ: 3, name: "Tigerauge",   crystal: "The High-Achiever Fuel", file: "typ-3-tigerauge.png" },
-  { typ: 4, name: "Rhodonit",    crystal: "The Emotion Alchemist",  file: "typ-4-rhodonit.png" },
-  { typ: 5, name: "Amazonit",    crystal: "The Brain-Battery Saver",file: "typ-5-amazonit.png" },
-  { typ: 6, name: "H\u00e4matit",     crystal: "The Bulletproof Vest",   file: "typ-6-haematit.png" },
-  { typ: 7, name: "Rauchquarz",  crystal: "The Idea Grounder",      file: "typ-7-rauchquarz.png" },
-  { typ: 8, name: "Fluorit",     crystal: "The Strategy Matrix",    file: "typ-8-fluorit.png" },
-  { typ: 9, name: "Karneol",     crystal: "The Action Catalyst",    file: "typ-9-karneol.png" },
-];
-
-function subtypeSchaubilderPage() {
-  const code = state.route.split("/")[1] || null;
-
-  // Detailansicht: alle Seiten eines Subtyps
-  if (code) {
-    const entry = subtypeEntry(code);
-    if (!entry || !entry.visualPages || !entry.visualPages.length) {
-      return shell(`
-        <section class="narrow" style="padding:1.5rem 1rem 0;">
-          <button class="ghost-link" data-route="subtypen-schaubilder">\u2190 Zur\u00fcck zur \u00dcbersicht</button>
-        </section>
-        <section class="narrow centered" style="padding:1rem;">
-          <p>F\u00fcr diesen Subtyp sind noch keine Schaubilder hinterlegt.</p>
-        </section>
-      `);
-    }
-    const tc = typeColorFromCode(code);
-    const pagesHtml = entry.visualPages.map(pg => `
-      <figure class="vollseite-karte" style="margin:0 0 1.5rem;">
-        <p class="vollseite-karte__hint">Zum Vergr\u00f6\u00dfern antippen</p>
-        <div class="card-pg-wrap">
-          <img src="${cdnImg(pg.src)}" alt="${pg.alt}" class="vollseite-karte__img" loading="lazy"
-            onerror="this.closest('.vollseite-karte').style.display='none'" />
-          <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
-        </div>
-        <figcaption class="vollseite-karte__titel">${pg.title}${pg.caption ? ` \u00b7 <span style="font-weight:400;opacity:.7;">${pg.caption}</span>` : ""}</figcaption>
-      </figure>
-    `).join("");
-
-    return shell(`
-      ${pageHeader("subtypen-schaubilder")}
-      <section class="narrow" style="padding:1rem 1rem 0;">
-        <button class="ghost-link" data-route="subtypen-schaubilder">\u2190 Alle Subtypen</button>
-      </section>
-      <section class="narrow centered" style="padding:.75rem 1rem 1rem;">
-        <p class="eyebrow" style="color:${tc}">${entry.code}</p>
-        <h1 style="color:${tc};font-size:1.8rem;">${entry.title}</h1>
-        <p class="lead-small">${entry.coreSentence || ""}</p>
-      </section>
-      <section class="narrow" style="padding:0 1rem 2rem;">
-        ${pagesHtml}
-        <button class="secondary" style="width:100%;margin-top:.5rem;" data-route="subtypen-schaubilder">\u2190 Zur\u00fcck zur \u00dcbersicht</button>
-      </section>
-    `);
-  }
-
-  // \u00dcbersicht: alle 27 Subtypen als klickbare Kacheln, gruppiert nach Typ
-  const typeNames = {
-    1:"Typ 1 \u00b7 Der Verbesserer", 2:"Typ 2 \u00b7 Der Helfer", 3:"Typ 3 \u00b7 Der Macher",
-    4:"Typ 4 \u00b7 Der Individualist", 5:"Typ 5 \u00b7 Der Forscher", 6:"Typ 6 \u00b7 Der Loyale",
-    7:"Typ 7 \u00b7 Der Enthusiast", 8:"Typ 8 \u00b7 Der Herausforderer", 9:"Typ 9 \u00b7 Der Vermittler"
-  };
-  const instLabels = { se: "Selbst\xaderhaltung", so: "Sozial", sx: "Sexuell" };
-
-  const groupsHtml = [1,2,3,4,5,6,7,8,9].map(n => {
-    const tc = typeColor(n);
-    const codes = ["se","so","sx"].map(inst => `${inst}${n}`);
-    const tilesHtml = codes.map(c => {
-      const e = subtypeEntry(c);
-      const inst = c.slice(0,2);
-      const thumb = cdnImg(e?.visualPages?.[0]?.src || "");
-      return `
-        <button class="subtyp-schaubilder-tile" data-route="subtypen-schaubilder/${c}" style="border-color:${tc};">
-          ${thumb ? `<img src="${thumb}" alt="${c} Vorschau" loading="lazy" style="width:100%;border-radius:6px 6px 0 0;display:block;" onerror="this.style.display='none'" />` : ""}
-          <div style="padding:.6rem .75rem .75rem;">
-            <span style="font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:${tc};">${instLabels[inst]}</span>
-            <p style="margin:.15rem 0 0;font-size:.88rem;font-weight:600;hyphens:auto;overflow-wrap:break-word;">${e?.title || c.toUpperCase()}</p>
-            <p style="margin:.15rem 0 0;font-size:.75rem;color:#888;">${e?.visualPages?.length || 0} Schaubilder</p>
-          </div>
-        </button>
-      `;
-    }).join("");
-    return `
-      <div style="margin-bottom:1.5rem;">
-        <h2 style="font-size:1rem;font-weight:700;color:${tc};border-left:3px solid ${tc};padding-left:.6rem;margin:0 0 .75rem;">${typeNames[n]}</h2>
-        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;">
-          ${tilesHtml}
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  return shell(`
-    ${pageHeader("subtypen-schaubilder")}
-    <section class="narrow centered" style="padding:1rem 1rem .5rem;">
-      <p class="eyebrow">Schaubilder \u00b7 Alle 27 Subtypen</p>
-      <h1>Subtypen-Schaubilder</h1>
-      <p class="lead-small">Alle Originaltafeln der 27 Enneagramm-Subtypen \u2014 tippen Sie auf einen Subtyp, um alle Schaubilder zu sehen.</p>
-    </section>
-    <section class="narrow" style="padding:.5rem 1rem 2rem;">
-      ${groupsHtml}
-      ${relatedLinks([
-        {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
-        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
-        {route:"horney-triaden", label:"Horney-Triaden"},
-      ])}
-    </section>
-  `);
-}
-
-// Eigene, gedämpfte Kategorie-Farbpalette (bewusst abgesetzt von TYPE_COLORS, damit
-// keine Verwechslung mit den Enneagrammtypfarben entsteht) – angelehnt an medizinische
-// Fachbuch-Konventionen (Herz/Kreislauf rötlich, Bewegungsapparat erdig, Atemwege luftig-
-// bläulich, Haut hautfarben, Nerven/Psyche blau, Immunsystem weinrot, Onkologie gedämpft-
-// dunkel), aber entsättigt genug, um zum ruhigen Gesamtbild des Kompasses zu passen.
-const PSYCHOSOMATIK_KATEGORIEN = [
-  { key: "herz-kreislauf", label: "Herz-Kreislauf-System", farbe: "#b6483f" },
-  { key: "bewegungsapparat", label: "Bewegungsapparat", farbe: "#8a7860" },
-  { key: "atemwege", label: "Atemwege & Lunge", farbe: "#4a7f91" },
-  { key: "verdauung", label: "Verdauungssystem", farbe: "#ab7d42" },
-  { key: "niere", label: "Niere & Blase", farbe: "#3d6b5c" },
-  { key: "haut", label: "Haut", farbe: "#c99b7a" },
-  { key: "augen", label: "Augen", farbe: "#4d7a8c" },
-  { key: "hormone-stoffwechsel", label: "Hormone & Stoffwechsel", farbe: "#7d6a8c" },
-  { key: "nerven-psyche", label: "Nervensystem & Psyche", farbe: "#46688f" },
-  { key: "immunsystem", label: "Immunsystem & Autoimmun", farbe: "#7a3d4a" },
-  { key: "onkologie", label: "Onkologie", farbe: "#5c4a5e" },
-  { key: "psychiatrie", label: "Psychiatrische Erkrankungen", farbe: "#6a4d6e" },
-  { key: "sonstige", label: "Sonstige Krankheitsbilder", farbe: "#6b6558" },
-];
 

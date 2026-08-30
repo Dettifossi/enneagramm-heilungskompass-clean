@@ -1,3 +1,114 @@
+function johnGottiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("John Gotti \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/john-gotti-portrait.jpg" alt="John Gotti \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Gotti</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerfl\xfcgel</p>
+        <p class="krim-portrait-sub">Boss der Gambino-Familie, New York 1985&ndash;2002 &ndash; Tierentsprechung: L\xf6we</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der L\xf6we</h3>
+        <p class="vb-intro">Der <strong>L\xf6we</strong> ist das Tier der sozialen Acht &ndash; und kein Bild trifft John Gotti besser. Der L\xf6we ist kein Einzelk\xe4mpfer. Er lebt im Rudel, er herrscht \xfcber ein Revier, er sch\xfctzt die Seinen und duldet keinen Rivalen. Er bek\xe4mpft nicht aus Sadismus, sondern aus Herrschaftslogik: Wer hier lebt, lebt unter meinem Schutz &ndash; und nach meinen Regeln. Der L\xf6we zeigt sich. Er versteckt sich nicht. Er tr\xe4gt seine Macht im K\xf6rper, im Gang, im Blick. Er braucht keine Erkl\xe4rung.</p>
+        <p class="vb-intro">John Gotti war ein L\xf6we. Er regierte den Gambino-Clan, das m\xe4chtigste Verbrechersyndikat der Vereinigten Staaten, nicht aus dem Verborgenen, sondern im Rampenlicht. Er trug Brioni-Anz\xfcge f\xfcr Tausende von Dollar. Er winkte Kameras zu. Er liebte es, dass sein Viertel ihn kannte. Er gab Truthh\xe4hne an Nachbarn zu Weihnachten. Er war ihr K\xf6nig &ndash; und er wusste es.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Acht: St\xe4rke als Schutz</h3>
+        <p class="vb-intro">Der <strong>soziale Typ 8 (SO8)</strong> ist unter den Acht-Subtypen derjenige, dem es am wenigsten um pers\xf6nliche Selbstbehauptung geht &ndash; und am meisten um den Schutz der eigenen Gruppe. Claudio Naranjo beschreibt ihn als den Typus der <em>Freundschaft und Bruderschaft</em>: Der SO8er baut ein Reich auf, nicht f\xfcr sich allein, sondern f\xfcr die, die ihm geh\xf6ren. Er ist der Anf\xfchrer, der seine Loyalen belohnt, Feinde bestraft und die Ordnung innerhalb des Clans aufrechterh\xe4lt.</p>
+        <p class="vb-intro">Die Leidenschaft der Acht ist <em>Wollust</em> &ndash; nicht im engen sexuellen Sinne, sondern als \xfcberw\u00e4ltigende Lebensintensit\xe4t: alles in \xdcbergr\xf6\xdfe, alles mit maximaler Kraft. Die soziale Acht lebt diese Wollust kollektiv: ihr Revier muss gro\xdf sein, ihre Gefolgschaft zahlreich, ihre Macht untadelig. Gotti gab viel &ndash; und erwartete absolute Loyalit\xe4t zur\xfcck. Wer ihn verriet, ber\xfchrte das Einzige, was er nicht verzeihen konnte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Siebenerfl\xfcgel: Genuss, Gl\xe4nzen, Gro\xdfz\xfcgigkeit</h3>
+        <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> verleiht der sozialen Acht eine zus\xe4tzliche Dimension: Freude am Leben, an Spektakel und Genuss. Wo der Neunerfl\xfcgel die Acht erden und beruhigen kann, macht der Siebenerfl\xfcgel sie lauter, bunter, unwiderstehlicher. Der SO8w7 will nicht nur herrschen &ndash; er will, dass man ihn beim Herrschen sieht und genie\xdft.</p>
+        <p class="vb-intro">Bei John Gotti war dieser Fl\xfcgel unverkennbar: der Hang zu teuren Anz\xfcgen und makellosem Aussehen, die Feste im Ravenite Social Club, die Freude am Rampenlicht. Er h\xe4tte im Verborgenen operieren k\xf6nnen &ndash; kluge Mafia-Bosse tun das. Er wollte es nicht. Der Siebenerfl\xfcgel brauchte die B\xfchne. Und diese Geltungssucht wurde letztlich sein Verderben: Das FBI wusste immer, wo Gotti zu finden war.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: vom Stra\xdfenjungen zum Paten</h3>
+        <p class="vb-intro">John Joseph Gotti Jr. wurde am 27. Oktober 1940 in der South Bronx, New York, als zehntes von dreizehn Kindern einer \xe4rmlichen s\xfcditalienischen Einwandererfamilie geboren. Sein Vater arbeitete auf dem Bau, die Familie zog mehrfach um und landete schlie\xdflich in East New York, Brooklyn &ndash; einem Viertel, in dem die Gambino-Familie pr\xe4sent war und Jugendliche fr\xfch ihren Einfluss sp\xfcrten.</p>
+        <p class="vb-intro">Mit zw\xf6lf Jahren geh\xf6rte Gotti zu einer Stra\xdfengang. Mit sechzehn brach er die Schule ab. Er stahl, \xfcberfiel Lagerhallen, besorgte sich Respekt auf die einzige Art, die in seinem Milieu z\xe4hlte: durch K\xf6rper und Mut. Dabei war er kein rauer Schreier &ndash; er war charmant, gutaussehend, anf\xfchrend. Die anderen folgten ihm, weil er ausstrahlte, was sie sich w\xfcnschten: keine Angst zu haben.</p>
+        <p class="vb-intro">Er heiratete 1962 Victoria DiGiorgio. Sie blieben bis zu seinem Tod zusammen. In Howard Beach, Queens, wo er sp\xe4ter lebte, war er ein gesch\u00e4tzter Nachbar: Er organisierte das allj\u00e4hrliche Feuerwerk, verteilte Truthh\u00e4hne zu Thanksgiving, kannte jeden beim Namen. Das Viertel liebte ihn. Das ist die soziale Acht: Sie besch\u00fctzt ihr Rudel &ndash; und das Rudel erwidert es mit Loyalit\u00e4t.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Aufstieg: Lehrjahre bei den Gambinos</h3>
+        <p class="vb-intro">Gotti trat der Gambino-Familie unter dem Capo Carmine Fatico bei und machte sich schnell unentbehrlich. 1973 f\xfchrte er im Auftrag der Familie einen Mord aus: James McBratney hatte den Neffen des Familienbosses Carlo Gambino entf\xfchrt. Gotti und zwei Komplizen erschossen McBratney in einer Bar auf Staten Island. Er wurde verhaftet, einigte sich auf einen Vergleich wegen Totschlags und sa\xdf nur zwei Jahre ab. Eine kurze Strafe f\xfcr einen Mord &ndash; das erste Zeichen, dass er Protektion geno\xdf.</p>
+        <p class="vb-intro">Sein entscheidender F\xf6rderer wurde Aniello Dellacroce, der Unterchef der Gambino-Familie: ein knallharter, respektierter Mann, dem Gotti aufrichtige Loyalit\xe4t entgegenbrachte. Unter Dellacroce wurde er Capo des Bergin Hunt and Fish Clubs in Ozone Park, Queens. Er baute seinen Bereich aus, lieferte zuverl\xe4ssig ab und sammelte Gefolgsleute. Er war noch nicht der Boss &ndash; aber er baute die Grundlage.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Die Machtergreifung: der Mord an Castellano</h3>
+        <p class="vb-intro">Im Dezember 1985 starb Aniello Dellacroce an Krebs. Damit verlor Gotti seinen sch\xfctzenden Paten innerhalb der Familie. Der amtierende Boss Paul Castellano &ndash; ein k\xfchler Gesch\xe4ftsmann, der Drogenhandel verboten hatte und Gotti ver\xe4chtete &ndash; plante offenbar, Gotti zu degradieren oder zu beseitigen.</p>
+        <p class="vb-intro">Gotti handelte zuerst. Am <strong>16. Dezember 1985</strong> wurden Paul Castellano und sein Fahrer Thomas Bilotti vor dem Sparks Steak House in Midtown Manhattan erschossen, als sie aus dem Auto stiegen. Gotti und sein sp\xe4terer Unterchef Salvatore &bdquo;Sammy the Bull&ldquo; Gravano beobachteten die Aktion aus einem Auto heraus. Es war ein klassischer Staatsstreich &ndash; pr\xe4zise, risikoreich, folgenreich. Gotti hatte die Zustimmung anderer Familienbosse nicht eingeholt. Er hatte sich die Macht genommen.</p>
+        <p class="vb-intro">Innerhalb der Gambino-Familie \xfcbernahm er sofort die F\xfchrung. Kein anderer stellte ihn in Frage. Die anderen Familienbosse New Yorks akzeptierten den fait accompli. John Gotti war nun Boss der m\xe4chtigsten Mafia-Familie der Vereinigten Staaten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Der Teflon-Don: drei Freispr\u00fcche</h3>
+        <p class="vb-intro">Was nun folgte, war ein beispielloser Lauf vor Gericht: 1986 freigesprochen. 1987 freigesprochen. 1990 freigesprochen. Das FBI und die Staatsanwaltschaft in New York legten immer wieder Anklage vor &ndash; und scheiterten immer wieder. Der Spitzname <em>Teflon-Don</em> entstand: Nichts blieb an ihm haften.</p>
+        <p class="vb-intro">Der Grund war nicht juristisches Geschick allein. Gotti operierte systematisch: Geschworene wurden eingesch\xfcchtert oder bestochen, Zeugen schwiegen aus Angst oder Loyalit\xe4t. Er hatte das System nicht nur besiegt &ndash; er hatte sich innerhalb des Systems eingerichtet. Gleichzeitig pflegte er sein \xf6ffentliches Image mit bemerkenswert hohem Aufwand. Er empfing Journalisten, winkte Kameras zu, feierte lautstark. Er war der erste Mafia-Boss, der zum Medienstar wurde &ndash; und er geno\xdf es sichtbar.</p>
+        <p class="vb-intro">Das FBI \xfcberwachte ihn mit wachsender Intensit\xe4t. Im Ravenite Social Club in Little Italy, wo Gotti regelm\xe4\xdfig seine Capos empfing, gelang es dem FBI schlie\xdflich, Wanzen in einer Wohnung im Obergeschoss zu installieren. Sie zeichneten Gotti dabei auf, wie er \xfcber Morde sprach, Rivalen bedrohte und Befehle erteilte. Er sprach, weil er sicher war. Weil er immer sicher gewesen war. Der Siebenerfl\xfcgel machte ihn sorglos.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Der Fall: Sammy the Bull</h3>
+        <p class="vb-intro">Der eigentliche Bruch kam nicht von au\xdfen &ndash; er kam von innen. Im November 1991 wurde Salvatore &bdquo;Sammy the Bull&ldquo; Gravano, Gottis engster Vertrauter und Unterchef, verhaftet. Gravano sah die Bandaufnahmen, h\xf6rte sich selbst belastet &ndash; und h\xf6rte Gotti, der ihn in Gespr\xe4chen als S\u00fcndenbock f\xfcr eigene Fehler dargestellt hatte. Das war die Verletzung, die eine soziale Acht zu Fall bringt: Verrat durch den Engsten.</p>
+        <p class="vb-intro">Gravano entschied sich, mit der Staatsanwaltschaft zu kooperieren. Er gestand 19 Morde. Im Gegenzug erhielt er eine deutlich reduzierte Strafe. Seine Aussage zusammen mit den FBI-Aufzeichnungen war erdr\xfcckend. Im April 1992 wurde John Gotti f\xfcr schuldig befunden: f\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung, Bandenf\xfchrung. Das Gericht verurteilte ihn zu lebenslanger Haft ohne Bew\xe4hrung.</p>
+        <p class="vb-intro">Er wurde ins Hochsicherheitsgef\xe4ngnis USP Marion, sp\xe4ter ADX Florence, verlegt. Er sa\xdf in Einzelhaft, durfte kaum Besuch empfangen. Kehlkopfkrebs wurde diagnostiziert. Am <strong>10. Juni 2002</strong> starb John Gotti im Bundesgef\xe4ngnis in Springfield, Missouri. Er wurde 61 Jahre alt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Schutz als Herrschaftsform:</strong> Gottis Viertel liebte ihn &ndash; das ist keine Propaganda, das ist belegt. Er war der Mann, der f\xfcr Ordnung sorgte, der half, der pr\xe4sent war. Dieser Zug ist typisch f\xfcr die soziale Acht: Sie dominiert nicht durch Angst allein, sondern durch eine Kombination aus Schutz und Kontrolle, die sich wie F\xfcrsorglichkeit anf\xfchlt. Das Rudel ist echt. Die Zuneigung ist echt. Nur der Preis f\xfcr Zugeh\xf6rigkeit bleibt im Dunkeln.</p>
+        <p class="vb-intro"><strong>b) Loyalit\xe4t als oberster Wert &ndash; und oberste Schwachstelle:</strong> Die soziale Acht baut ihr System auf Loyalit\xe4t. Das bedeutet: Verrat ist das Schlimmste, was geschehen kann &ndash; aber auch das Unvermeidlichste, wenn das System gro\xdf genug wird. Gravano war kein Fremder, kein Rivale. Er war Gottis engster Mann. Dass er ihn verlie\xdf, war nicht nur strategisch vernichtend &ndash; es war die tiefste denkbare Kr\xe4nkung. Der L\xf6we, von einem seiner eigenen gejagt.</p>
+        <p class="vb-intro"><strong>c) Der Siebenerfl\xfcgel als Verh\xe4ngnis:</strong> Ein kluger Mafia-Boss operiert unsichtbar. Gotti wollte das Gegenteil. Er suchte das Rampenlicht, die Medien, das Bild von sich selbst als K\xf6nig. Das FBI wusste, wo er war, weil er sichtbar sein wollte. Der Siebenerfl\xfcgel brachte ihm Genuss &ndash; und brachte ihn ins Gef\xe4ngnis.</p>
+        <p class="vb-intro"><strong>d) Kein Sadismus, keine Ideologie:</strong> Gotti t\xf6tete nicht aus Hass oder politischer \xdcberzeugung. Er t\xf6tete aus Herrschaftslogik: Wer die Ordnung st\xf6rt, wird beseitigt. Das ist keine Emotion &ndash; das ist Verwaltung. Die Acht im tiefen Ungleichgewicht sieht Gewalt nicht als Mittel der letzten Wahl, sondern als nat\xfcrliche Sprache der Macht.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Fazit: Der K\xf6nig und sein Rudel</h3>
+        <p class="vb-intro">John Gotti ist einer der seltensten Typen dieser Sammlung: ein Mann, der nicht aus Verborgensein, nicht aus Kontrollzwang, nicht aus Ideologie handelte &ndash; sondern aus dem tief verwurzelten Bed\xfcrfnis, ein Reich zu sch\xfctzen und anzuf\xfchren. Die soziale Acht ist in ihrer gesunden Form eine der gr\xf6\xdften Energien des Enneagramms: mutig, gro\xdfz\xfcgig, loyal. In der Pathologie wird dieselbe Energie zum Werkzeug der Unterwerfung.</p>
+        <p class="vb-intro">Gotti war geliebt und gef\xfcrchtet, verehrt und verraten. Er ist im Ged\xe4chtnis der amerikanischen Kultur geblieben &ndash; nicht als Monster, sondern als tragische Gestalt: der L\xf6we, der zu sehr im Licht stand, um zu \xfcberleben. Sein Viertel trauerte. Sein Sohn versuchte, das Reich weiterzuf\xfchren &ndash; und scheiterte. Das Reich des L\xf6wen \xfcberlebt seinen K\xf6nig selten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">11. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> John Joseph Gotti Jr.</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO8w7 &ndash; Sozialer Typ 8 mit Siebenerfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Wollust (Lebensintensit\xe4t als Herrschaftsprinzip)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> L\xf6we</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 27. Oktober 1940 &ndash; 10. Juni 2002</span>
+          <span style="display:block;"><strong>Verurteilung:</strong> F\xfcnffacher Mord, Erpressung, Steuerhinterziehung, Justizbehinderung &ndash; lebenslang ohne Bew\xe4hrung, 1992; gestorben im Bundesgef\xe4ngnis Springfield, Missouri</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Wollust bei SE8, SO8 und SX8 unterschiedlich ausdr\xfcckt &ndash; und warum die SO8 als Schutztyp so schwer von echter F\xfchrst\xe4rke zu unterscheiden ist.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 &ndash; 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Intensit\xe4t zur Herrschaft wird und was den Unterschied zwischen sch\xfctzender und zerst\xf6rerischer Kraft ausmacht.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John Gotti wurde 1992 wegen Mordes, Erpressung und Racketeering zu lebenslanger Haft ohne Bew\u00e4hrung verurteilt und starb 2002 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina (SE8w9)"},
+          {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9)"},
+          {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9)"},
+          {route:"krankheitsportraets-john-gotti", label:"Krankheitsporträt: John Gotti (SO8w7) – Kehlkopfkrebs in Isolationshaft"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function leslieVanHoutenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9487,106 +9598,4 @@ function pferdearteDer9TypenPage() {
   `);
 }
 
-
-function nagetierartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Nagetierarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Nagetiere sind die erfolgreichste S\u00e4ugetiergruppe der Erde \u2013 \u00fcber 40 Prozent aller S\u00e4ugetierarten sind Nagetiere. Sie leben auf jedem Kontinent, in jedem Klima, in jeder Nische. Ihr Erfolgsrezept ist Vielfalt: Jede Art hat ein vollkommen eigenes Prinzip entwickelt, um zu \u00fcberleben und zu gedeihen. Neun Nagetierarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Pr\u00e4riehund: Ordnung unter der Erde</h3>
-        <p class="vb-intro">Der Pr\u00e4riehund baut die ausgefeiltesten sozialen Systeme unter allen Nagetieren: Seine unterirdischen St\u00e4dte \u2013 sogenannte D\u00f6rfer \u2013 k\u00f6nnen Hunderte von Kilometern Tunneln umfassen, mit klar getrennten Bereichen f\u00fcr Schlafen, Geb\u00e4ren, Lagern und Entleeren. Jeder Bereich hat seinen Platz, und dieser Platz wird eingehalten. Pr\u00e4riehunde kommunizieren dar\u00fcber hinaus mit einer der komplexesten Tiersprachen, die bekannt sind: Forscher haben herausgefunden, dass ihre Rufe nicht nur \u201eGefahr\u201c bedeuten, sondern auch die Gr\u00f6\u00dfe, Farbe, Form und Geschwindigkeit eines Angreifers kodieren \u2013 sie beschreiben ihn buchst\u00e4blich. Ein Pr\u00e4riehund-Ruf \u00fcbermittelt: Ein gro\u00dfer, runder, langsamer, brauner Mensch n\u00e4hert sich von Osten. Informationsgenauigkeit als Lebensrettung. Das Prinzip des Enneagrammtyps 1: Der Pr\u00e4riehund lebt in einer Welt, in der alles seinen Platz hat \u2013 und sorgt daf\u00fcr, dass jeder diesen Platz kennt. Ordnung ist f\u00fcr ihn kein Aufwand. Sie ist \u00dcberleben.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Ziesel: F\u00fcr die Gemeinschaft wachen</h3>
-        <p class="vb-intro">Das Ziesel ist ein kleines Erdh\u00f6rnchen der eurasischen Steppen \u2013 und eines der selbstlosesten Tiere der Savanne: Es stellt sich auf die Hinterbeine, um \u00fcber die Graslandschaft zu schauen, und l\u00e4sst beim Anblick eines Greifvogels sofort einen Warnruf los, der die gesamte Kolonie in Sicherheit bringt. Dieser Warnruf macht das Ziesel selbst zum sichtbarsten Ziel im Umfeld \u2013 es gef\u00e4hrdet sich, um die anderen zu retten. Ziesel leben in engen Familiengruppen, teilen ihre Erdh\u00f6hlen, pflegen einander, und die Weibchen einer Gruppe helfen gegenseitig beim Aufziehen der Jungen. Was diese Tiere antreibt, ist nicht eigener Vorteil \u2013 es ist die Bindung an die Gruppe, die st\u00e4rker ist als die Bindung ans eigene \u00dcberleben. Das Prinzip des Enneagrammtyps 2: Das Ziesel tritt ins Licht, damit andere im Schatten sicher sind. Diese Umkehrung \u2013 sich sichtbar machen, um zu sch\u00fctzen \u2013 ist das Tiefste, was F\u00fcrsorge sein kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Waldmaus: Anpassungsf\u00e4higkeit als Erfolgsrezept</h3>
-        <p class="vb-intro">Die Waldmaus ist das erfolgreichste Nagetier Europas \u2013 und das unaufdringlichste. Sie lebt in W\u00e4ldern, Feldern, G\u00e4rten, Kellern, S\u00fcmpfen, Hochgebirge und D\u00fcnen. Sie frisst Samen, Fr\u00fcchte, Insekten, Pilze, Wurzeln \u2013 was da ist. Sie nistelt in Erdh\u00f6hlen, Baumh\u00f6hlungen, unter Steinen, in Komposth\u00e4ufen. Sie ist nacht- und d\u00e4mmerungsaktiv, legt in einer einzigen Nacht Kilometer zur\u00fcck und kann mit einer Geschwindigkeit von bis zu 13 km/h fliehen, klettern und schwimmen. Die Waldmaus ist nicht die gr\u00f6\u00dfte, nicht die st\u00e4rkste, nicht die auff\u00e4lligste Maus \u2013 sie ist die vielseitigste. Und genau deshalb geh\u00f6rt sie zu den am weitesten verbreiteten S\u00e4ugetieren der Erde. Das Prinzip des Enneagrammtyps 3: Die Waldmaus stellt sich nicht die Frage, ob eine Umgebung zu ihr passt. Sie passt sich an \u2013 blitzschnell, kompetent, ohne Aufhebens. Erfolg durch totale Flexibilit\u00e4t.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Zwerghamster: Intensit\u00e4t im kleinen Format</h3>
-        <p class="vb-intro">Der Zwerghamster ist eines der kleinsten Nagetiere der Welt \u2013 und eines der eigenwilligsten. In freier Wildbahn ist er ein Einzelg\u00e4nger mit fester Revier\u00fcberzeugung: Er duldet kein anderes Tier in seinem Bereich, markiert es sorgf\u00e4ltig und verteidigt es mit einer Entschlossenheit, die seiner K\u00f6rpergr\u00f6\u00dfe spottet. Sein Fell wechselt je nach Art und Jahreszeit \u2013 manche Zwerghamster werden im Winter wei\u00df, eine Metamorphose, die selbst in der Nagetier-Welt selten ist. Er tr\u00e4gt f\u00fcr kurze Zeit enorme Mengen Futter in seinen Backentaschen \u2013 Vorr\u00e4te, die er sorgf\u00e4ltig anlegt und nach einem inneren System sortiert. Er lebt intensiv, schl\u00e4ft kaum, bewegt sich st\u00e4ndig. Das Prinzip des Enneagrammtyps 4: Der Zwerghamster zeigt, dass Einzigartigkeit keine Frage der Gr\u00f6\u00dfe ist. Sein Revier ist sein Ausdruck \u2013 klar begrenzt, tief empfunden, unverhandelbar sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Maulwurf: Meister der verborgenen Welt</h3>
-        <p class="vb-intro">Der Maulwurf verbringt sein gesamtes Leben unter der Erde \u2013 er ist fast blind, seine Augen sind von Haut bedeckt, seine Ohren sind nicht sichtbar. Aber er hat Sinne entwickelt, die alle oberirdischen Lebewesen \u00fcbertreffen: Er sp\u00fcrt die Vibrationen eines Regenwurms durch den Boden in mehreren Metern Entfernung. Sein Tunnelsystem ist ein architektonisches Meisterwerk: Mit einer Grabgeschwindigkeit von bis zu 20 Metern pro Stunde legt er weitverzweigte Netze an, mit Schlafkammern, Vorratskammern und \u201eAngelstrecken\u201c \u2013 Tunneln, die er regelm\u00e4\u00dfig ablauft und in die hineinfallendes Gew\u00fcrm er sammelt. Was die wenigsten wissen: Maulw\u00fcrfe beto\u00e4uben Regenw\u00fcrmer mit Gift in ihrem Speichel und lagern sie lebend in Vorratskammern \u2013 ein k\u00fchles, lebendiges Lager f\u00fcr den Winter. Das Prinzip des Enneagrammtyps 5: Der Maulwurf wei\u00df alles \u00fcber seine Welt \u2013 und seine Welt liegt dort, wo niemand sonst hinschaut. Er braucht kein Licht, um zu sehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Bisamratte: Sicherheit durch Gemeinschaft</h3>
-        <p class="vb-intro">Die Bisamratte baut ihre Burgen an Teichen und Fl\u00fcssen mit einem einzigen Prinzip: der Eingang ist immer unter Wasser. Kein Landraubtier kommt ohne zu tauchen hinein. Diese Sicherheitsarchitektur ist wohl\u00fcberlegt \u2013 das Ergebnis einer evolution\u00e4ren Strategie, die \u00dcberleben durch Vorsicht priorisiert. Bisamratten leben in engen Familienverb\u00e4nden \u2013 mehrere Generationen teilen eine Burg, bewachen gemeinsam den Eingang und warnen einander bei Gefahr mit pr\u00e4zisen Lautzeichen. Fremde Bisamratten werden aus dem Revier vertrieben; eigene Familienmitglieder dagegen werden lebenslang unterst\u00fctzt. Die Grenze ist klar: Loyalit\u00e4t zur Gruppe, Misstrauen gegen\u00fcber dem Unbekannten. Das Prinzip des Enneagrammtyps 6: Die Bisamratte hat ihre Burg so gebaut, dass kein Fremder ohne Ank\u00fcndigung hineinkommt \u2013 und ihre Familie wei\u00df immer, dass der Weg nach unten und ins Wasser der sicherste Weg nach Hause ist.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Biber: Der Architekt der Freude</h3>
-        <p class="vb-intro">Der Biber ist das ingenieursfreudigste Tier der Welt: Er f\u00e4llt B\u00e4ume, staut Fl\u00fcsse auf, erschafft Teiche, wo keiner war, und baut Burgen aus Holz, Schlamm und Gestein, die Jahrzehnte halten. Was ihn dabei auszeichnet: Er baut nicht, weil er muss. Er baut, weil das Bauen sein Wesen ist \u2013 sein Instinkt ist so tief verankert, dass Biber in Gefangenschaft versuchen, mit jedem verf\u00fcgbaren Material \u201eD\u00e4mme\u201c zu errichten, auch wenn kein Wasser flie\u00dft. Das Flie\u00dfen von Wasser ist der Ausl\u00f6ser; das Bauen ist die Antwort; die Freude dabei ist sp\u00fcrbar. Biber-Familien sind eng und loyal \u2013 Jungtiere bleiben zwei Jahre bei den Eltern und helfen beim Bau, bevor sie ausziehen. Was sie hinterlassen: Biberd\u00e4mme, die ganze \u00d6kosysteme ver\u00e4ndern, Feuchtgebiete schaffen und Artenvielfalt f\u00f6rdern. Das Prinzip des Enneagrammtyps 7: Der Biber verwandelt, was er ber\u00fchrt \u2013 nicht aus Pflicht, sondern aus dem tief sitzenden Drang, die Welt zu gestalten. Jeder Stamm ein neues Projekt. Jeder Stausee ein neues Abenteuer.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Nutria: Robust ohne Kompromiss</h3>
-        <p class="vb-intro">Die Nutria \u2013 auch Biberratte genannt \u2013 ist ein Einwanderer aus S\u00fcdamerika, der in Europa, Nordafrika und Nordamerika l\u00e4ngst heimisch geworden ist, obwohl ihn niemand eingeladen hat: Er kam, er frass, er blieb. Nutrias sind gro\u00dfe, kr\u00e4ftige Nagetiere mit leuchtend orangefarbenen Z\u00e4hnen \u2013 gefarbt durch eisenhaltigen Zahnschmelz, der sie h\u00e4rter und widerstandsf\u00e4higer macht als normale Nagez\u00e4hne. Sie graben Uferbereiche systematisch um, fressen Schilf, Wasserpflanzen und Wurzeln mit einer Gr\u00fcndlichkeit, die Ufererosion verursacht \u2013 und tun das mit einer Gleichg\u00fcltigkeit gegen\u00fcber den Konsequenzen, die beeindruckend und beunruhigend zugleich ist. In ihrer Heimat S\u00fcdamerika sind sie Teil eines ausgeglichenen Systems; in Europa haben sie keine nat\u00fcrlichen Feinde und legen ihr Territorium nach eigenem Ermessen fest. Das Prinzip des Enneagrammtyps 8: Die Nutria fragt nicht, ob sie willkommen ist. Sie ist da \u2013 mit orangefarbenen Z\u00e4hnen, mit vollen K\u00f6rpereinsatz, ohne Entschuldigung. Grenzen setzt sie selbst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Capybara: Das friedlichste Tier der Welt</h3>
-        <p class="vb-intro">Der Capybara ist das gr\u00f6\u00dfte Nagetier der Welt \u2013 und das entspannteste. Er lebt in S\u00fcdamerika, an Fl\u00fcssen und Seen, in Gruppen von zehn bis drei\u00dfig Tieren, und hat die bemerkenswerte Eigenschaft, mit nahezu allen anderen Tieren in Frieden zu leben. Fotos und Videos von Capybaras sind weltweit viral gegangen \u2013 weil auf ihrem breiten R\u00fccken regelm\u00e4\u00dfig Affen, V\u00f6gel, Katzen, Enten und sogar Kaimane sitzen, ohne dass der Capybara auch nur mit der Wimper zuckt. Biologen erkl\u00e4ren das mit seiner au\u00dferordentlichen Stressresistenz: Sein Nervensystem ist auf Ruhe eingestellt wie das kaum eines anderen Tieres. Er schwimmt, w\u00e4lzt sich im Schlamm, frisst Gras \u2013 und strahlt dabei eine Gelassenheit aus, die andere Tiere buchst\u00e4blich beruhigt. Das Prinzip des Enneagrammtyps 9: Der Capybara hat keinen Feind, weil er keinen braucht. Sein Friede ist so vollst\u00e4ndig, dass andere Tiere ihn sp\u00fcren und sich von ihm anstecken lassen. Er ist das lebende Argument f\u00fcr Harmonie als Urkraft.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
-        {route:"spinnenarten-der-9-typen", label:"Spinnenarten der 9 Typen"},
-        {route:"insektenarten-der-9-typen", label:"Insektenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function baerenarteDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("B\u00e4renarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">B\u00e4ren geh\u00f6ren zu den m\u00e4chtigsten und r\u00e4tselhaftesten Tieren der Erde \u2013 in nahezu allen Kulturen der Welt verehrt, gef\u00fcrchtet und als Symbol innerer Kraft verstanden. Jede Art hat dabei ein vollkommen eigenes Wesen: eine eigene Strategie, eine eigene Art zu leben, ein eigenes Prinzip. Neun B\u00e4renarten, neun Enneagrammprinzipien.</p>
-      <img src="./assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Eisb\u00e4r: Vollkommenheit in Wei\u00df</h3>
-        <p class="vb-intro">Der Eisb\u00e4r lebt in der extremsten Umgebung, die ein Landraubtier bewohnen kann: auf dem Treibeis der Arktis, bei Temperaturen bis minus 50 Grad, auf einer Eisfl\u00e4che, die sich st\u00e4ndig bewegt, bricht und neu formt. Seine Anpassung an diese Bedingungen ist so vollkommen, dass kein anderes S\u00e4ugetier sie \u00fcbertrifft: Sein Fell ist nicht wei\u00df, sondern hohl und transparent \u2013 jedes einzelne Haar leitet Sonnenlicht zur schwarzen Haut darunter, die W\u00e4rme absorbiert. Seine Pfoten sind so gro\u00df wie Schneeschuhe und so beschaffen, dass er lautlos \u00fcber Eis gleitet. Er kann Robben unter einer Schneedecke riechen, die \u00fcber einen Kilometer entfernt liegt. Der Eisb\u00e4r trainiert seine Jagdtechnik \u2013 junge Eisb\u00e4ren \u00fcben stundenlang das Anschleichen und Zuschlagen. Perfektion ist keine Gabe, sie ist das Ergebnis von Wiederholung. Das Prinzip des Enneagrammtyps 1: Der Eisb\u00e4r \u00fcberlebt nicht trotz seiner Umgebung \u2013 er hat sich so vollst\u00e4ndig an sie angepasst, dass er in ihr vollkommen ist. Kein anderer w\u00e4re hier besser. Und das gen\u00fcgt ihm.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Schwarzb\u00e4r: Der Anpassungsf\u00e4hige</h3>
-        <p class="vb-intro">Der Amerikanische Schwarzb\u00e4r ist der sozialste und anpassungsf\u00e4higste B\u00e4r der Welt: Er lebt in W\u00e4ldern, S\u00fcmpfen, Graslandschaften, Vorst\u00e4dten \u2013 er findet sich in nahezu jeder Umgebung zurecht, die der Mensch ihm l\u00e4sst. Er ist der einzige B\u00e4r, der konsequent Konflikten ausweicht: Im Vergleich zu Braunb\u00e4ren oder Grizzlys ist er deutlich weniger aggressiv, zeigt in Begegnungen mit Menschen fast immer Fluchtverhalten und sucht den Weg des geringsten Widerstands. Was ihn dabei auszeichnet: Er ist hochgradig sozial lernf\u00e4hig. Schwarzb\u00e4ren in der N\u00e4he menschlicher Siedlungen lernen schnell, wie M\u00fclltonnen funktionieren, wie T\u00fcren ge\u00f6ffnet werden, wie man Camps pl\u00fcndert \u2013 und geben dieses Wissen an ihre Jungen weiter. Er hilft sich selbst durch das Verstehen anderer. Das Prinzip des Enneagrammtyps 2: Der Schwarzb\u00e4r \u00fcberlebt nicht durch Dominanz, sondern durch die F\u00e4higkeit, sich einzuf\u00fcgen, zu lernen und anzupassen. Er gibt nach \u2013 und bekommt dadurch mehr als die, die k\u00e4mpfen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Kodiakb\u00e4r: Rekord als Nat\u00fcrlichkeit</h3>
-        <p class="vb-intro">Der Kodiakb\u00e4r ist das gr\u00f6\u00dfte Landraubtier der Erde: M\u00e4nnliche Tiere erreichen ein Gewicht von \u00fcber 680 Kilogramm und eine Schulterh\u00f6he von 1,5 Metern \u2013 aufgerichtet stehen sie fast vier Meter hoch. Sie leben auf der Kodiak-Inselgruppe in Alaska, wo ein reichhaltiges \u00d6kosystem \u2013 Lachsfl\u00fcsse, reiche Vegetation, milde Seeluft \u2013 Tiere hervorbringt, die in ihrer Gr\u00f6\u00dfe keine nat\u00fcrlichen Feinde kennen. Der Kodiakb\u00e4r ist nicht aggressiv um seiner Gr\u00f6\u00dfe willen \u2013 er ist ruhig, methodisch, zielsicher. W\u00e4hrend des Lachsfangs stehen dominante M\u00e4nnchen auf den besten Positionen an den Wasserf\u00e4llen und fangen Lachs mit einer Effizienz, die anderen B\u00e4ren erst nach Jahren des Lernens gelingt. Sie investieren in ihre F\u00e4higkeit \u2013 und werden daf\u00fcr belohnt. Das Prinzip des Enneagrammtyps 3: Der Kodiakb\u00e4r ist nicht der gr\u00f6\u00dfte, weil er \u00fcbertreiben will. Er ist der gr\u00f6\u00dfte, weil er das Optimum aus allem gemacht hat, was ihm seine Umgebung gegeben hat. Gr\u00f6\u00dfe als konsequente Weiterentwicklung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Kragenb\u00e4r: Das Zeichen, das er tr\u00e4gt</h3>
-        <p class="vb-intro">Der Kragenb\u00e4r \u2013 auch Asiatischer Schwarzb\u00e4r \u2013 tr\u00e4gt ein unverwechselbares wei\u00dfes V-f\u00f6rmiges Zeichen auf der Brust: eine Mondsichel, die ihm in Teilen Asiens den Namen \u201eMondbar\u201c eingebracht hat. Kein anderer B\u00e4r sieht so aus wie er. Der Kragenb\u00e4r lebt haupts\u00e4chlich in B\u00e4umen \u2013 er ist der geschickteste Kletterer unter den gro\u00dfen B\u00e4ren und baut sich Schlafnester in H\u00f6hen, die anderen B\u00e4ren verwehrt bleiben. Dort oben, allein, zieht er sich aus Konflikten zur\u00fcck. Er ist ein Einzelg\u00e4nger mit einer ausgepr\u00e4gten Vorliebe f\u00fcr ein einsames Leben \u2013 es gibt eine Parallele zur einsamen Lebensweise, die dem introspektiven Charakter des Typs 4 entspricht. In der Mythologie Ostasiens gilt er als Tier des Mondes, des Geheimnisses, der inneren Welt. Das Prinzip des Enneagrammtyps 4: Der Kragenb\u00e4r tr\u00e4gt sein Zeichen auf der Brust \u2013 sichtbar, unverwechselbar, ohne Erkl\u00e4rung. Er steigt auf, wo andere nicht hingelangen. Und er ruht dort, weit \u00fcber dem L\u00e4rm der Welt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Brillenb\u00e4r: Der stille Beobachter S\u00fcdamerikas</h3>
-        <p class="vb-intro">Der Brillenb\u00e4r ist der einzige B\u00e4r S\u00fcdamerikas \u2013 und einer der zur\u00fcckgezogensten: Er lebt in den schwer zug\u00e4nglichen Nebelw\u00e4ldern der Anden, \u00fcberwiegend als Einzelg\u00e4nger, und ist so scheu, dass er von Forschern erst in den letzten Jahrzehnten genauer beobachtet werden konnte. Seine charakteristischen hellen Abzeichen um die Augen \u2013 die ihm den Namen geben \u2013 sind bei jedem Tier anders: ein individuelles Muster, das ihn unverwechselbar macht. Der Brillenb\u00e4r ist haupts\u00e4chlich Pflanzenfresser und verbringt viel Zeit damit, in den Baumkronen zu fressen \u2013 weit oben, unsichtbar, in Ruhe. Er baut Futterplattformen aus gebogenen Zweigen, auf denen er sitzt und frisst \u2013 eine Form von Werkzeuggebrauch, die man B\u00e4ren lange nicht zugetraut hat. Das Prinzip des Enneagrammtyps 5: Der Brillenb\u00e4r wei\u00df, wie man unsichtbar bleibt, und hat seinen Lebensraum so gew\u00e4hlt, dass ihn die meisten gar nicht suchen. Was er wei\u00df, hat er sich selbst beigebracht \u2013 hoch oben, allein, in vollkommener Ruhe.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Braunb\u00e4r: Die Gemeinschaft als Anker</h3>
-        <p class="vb-intro">Der Braunb\u00e4r ist der B\u00e4r, den die meisten Menschen kennen \u2013 aus europ\u00e4ischen W\u00e4ldern, aus Nationalparks, aus M\u00e4rchen und Mythen. Er ist vorsichtig, situationsbewusst und au\u00dferordentlich lernf\u00e4hig: Braunb\u00e4ren merken sich Orte, an denen sie gest\u00f6rt wurden, meiden sie jahrelang und passen ihr Verhalten an die Erfahrungen an, die sie mit Menschen gemacht haben. Sie sind bekannt f\u00fcr ihre Treue zu ihren j\u00e4hrlichen Wanderrouten und Laichgew\u00e4ssern \u2013 dasselbe Flussufer, dieselbe Jahreszeit, dieselbe Strategie. Braunb\u00e4ren sind Einzelg\u00e4nger, die sich zur Lachssaison versammeln \u2013 und dabei eine bemerkenswerte Hierarchie und Toleranz entwickeln: M\u00fctter mit Jungen haben Vorrang, und erfahrene B\u00e4ren geben den Rang weiter. Die Bindung der Mutter an ihre Jungen ist eine der intensivsten im Tierreich: Sie bleibt bis zu drei Jahre bei ihnen. Das Prinzip des Enneagrammtyps 6: Der Braunb\u00e4r \u00fcberlebt durch Vertrauen \u2013 auf seinen Erfahrungsschatz, auf die Gemeinschaft, auf den bew\u00e4hrten Weg. Wer ihm dieses Vertrauen entgegenbringt, findet einen zuverl\u00e4ssigen Gef\u00e4hrten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Lippenb\u00e4r: Freude am Leben, Freude am Saugen</h3>
-        <p class="vb-intro">Der Lippenb\u00e4r ist der verspielste und lauteste B\u00e4r der Welt: Er hat eine bewegliche Schnauze mit langen Lippen und einem zahnlosen vorderen Gaumen, mit dem er Termiten und Ameisen mit einem Saugger\u00e4usch aufsaugt, das man noch 180 Meter weit h\u00f6ren kann. Dieser B\u00e4r macht L\u00e4rm \u2013 schmatzen, schnaufen, saugen, pfeifen. Er lebt in den W\u00e4ldern Indiens und Sri Lankas und ist bekannt f\u00fcr sein aktives, lebhaftes Verhalten: Er klettert, spielt, w\u00e4lzt sich, und erkundet unerm\u00fcdlich sein Revier. Lippenb\u00e4ren-M\u00fctter tragen ihre Jungen auf dem R\u00fccken \u2013 die einzigen B\u00e4ren, die das tun \u2013 und spielen mit ihnen ausgiebig, lang nachdem andere B\u00e4renm\u00fctter ihre Jungen in die Unabh\u00e4ngigkeit entlassen h\u00e4tten. Das Prinzip des Enneagrammtyps 7: Der Lippenb\u00e4r hat eine Leiblingsbesch\u00e4ftigung f\u00fcr Termiten und Ameisen entwickelt \u2013 und dabei so viel Freude, dass man seinen Jubel noch \u00fcber den halben Wald h\u00f6rt. Das Leben ist ein Festmahl. Und er hat die Werkzeuge, es vollst\u00e4ndig zu genie\u00dfen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Grizzlyb\u00e4r: Die ungeb\u00e4ndigte Kraft</h3>
-        <p class="vb-intro">Der Grizzlyb\u00e4r ist das Symbol wilder Kraft schlechthin: m\u00e4chtig, direkt, ohne Umweg. Ein ausgewachsener Grizzly kann einen Baumstamm mit einer einzigen Pfotenbewegung beiseiter\u00e4umen, einen Felsbrocken umrollen und einen Lachs mit solcher Pr\u00e4zision aus dem Wasser schlagen, dass das Tier kaum Zeit hat zu reagieren. Er dominiert sein Territorium \u2013 nicht durch Aggressivit\u00e4t um ihrer selbst willen, sondern durch eine Pr\u00e4senz, die anderen B\u00e4ren gar nicht erst den Gedanken aufkommen l\u00e4sst, seinen Platz streitig zu machen. Was wenige wissen: Grizzlys sind ausgezeichnete V\u00e4ter in dem Sinne, dass M\u00e4nnchen junge B\u00e4ren in ihrem Territorium tolerieren und gelegentlich sogar sch\u00fctzen \u2013 nicht aus R\u00fchrseligkeit, sondern aus dem sicheren Gef\u00fchl, dass ihre Stellung unangefochten ist. Wer stark genug ist, muss sich nicht beweisen. Das Prinzip des Enneagrammtyps 8: Der Grizzly ist nicht aggressiv. Er ist souver\u00e4n \u2013 und wer diesen Unterschied versteht, versteht, warum er in jedem Fluss der beste Platz geh\u00f6rt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sonnenb\u00e4r: Sanft in der gr\u00f6\u00dften Hitze</h3>
-        <p class="vb-intro">Der Sonnenb\u00e4r ist der kleinste B\u00e4r der Welt \u2013 und lebt im tropischen Regenwald S\u00fcdostasiens, wo er kaum gesehen, kaum geh\u00f6rt, kaum gest\u00f6rt wird. Er f\u00fchrt ein ruhiges, gen\u00fcgsames Leben: Honig, Fr\u00fcchte, Insekten \u2013 er sucht das S\u00fc\u00dfe des Lebens, nie den Konflikt. Sein Name kommt vom goldgelben Halbmond auf seiner Brust, der wie ein Sonnenfleck leuchtet. Der Sonnenb\u00e4r ist bekannt f\u00fcr seine lange Zunge \u2013 bis zu 25 Zentimeter \u2013 mit der er Honig aus engen Spalten leckt, wo keine andere Zunge hinreicht. Er ist hoch sozial mit seiner Mutter verbunden: Sonnenb\u00e4r-M\u00fctter spielen l\u00e4nger mit ihren Jungen als fast jede andere B\u00e4renart, und die Jungtiere zeigen eine besonders ausgepr\u00e4gte F\u00e4higkeit zur Mimikry \u2013 sie spiegeln die Gesichtsausdr\u00fccke ihrer Mutter und ihrer Spielgef\u00e4hrten, was Forscher als m\u00f6gliche Form von Empathie deuten. Das Prinzip des Enneagrammtyps 9: Der Sonnenb\u00e4r sucht nicht den gro\u00dfen Kampf. Er sucht den s\u00fc\u00dfen Moment \u2013 und findet ihn, weil er nie aufh\u00f6rt, sanft danach zu suchen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
-        {route:"milchkuharten-der-9-typen", label:"Milchkuharten der 9 Typen"},
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
 

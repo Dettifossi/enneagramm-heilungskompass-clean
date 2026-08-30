@@ -1,3 +1,181 @@
+function ladyDianaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lady-diana-portrait.jpg" alt="Lady Diana" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lady Diana</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · 1961–1997</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Lady Diana</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-lady-diana">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine über
+        Jahre verschwiegene Bulimie, die sie erst 1995 selbst öffentlich machte, verbunden mit
+        Selbstverletzung und postnataler Depression.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Diana</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SE4 trägt ihr Leiden – anders als andere Vierer-Subtypen – nicht nach
+        außen, sondern hält es still aus, während sie nach außen Stärke zeigt. Der Dreierflügel
+        gibt ihr die Fähigkeit, das eigene Erleben in öffentliche Wirksamkeit zu verwandeln –
+        genau diese Spannung zwischen verborgenem Leiden und makelloser öffentlicher Fassade
+        prägt auch Dianas Krankheitsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Beginn in der Verlobungswoche:</strong>
+        Diana beschrieb später selbst, ihre Bulimie habe "in der Woche nach der Verlobung"
+        mit Prinz Charles im Februar 1981 begonnen – ausgelöst unter anderem durch eine
+        abwertende Bemerkung Charles' zu ihrer Taille sowie den Stress durch seine
+        fortbestehende Beziehung zu Camilla Parker Bowles.</p>
+        <p class="vb-intro"><strong>b) Ein Muster, das sie selbst als zerstörerisch erkannte:</strong>
+        Im Panorama-Interview 1995 nannte Diana die Bulimie selbst "a repetitive pattern which
+        is very destructive to yourself" (›ein sich wiederholendes Muster, das sehr
+        zerstörerisch für einen selbst ist‹) – ein Kreislauf aus kurzzeitigem Trost und
+        anschließendem Ekel, den sie über Jahre allein austrug.</p>
+        <p class="vb-intro"><strong>c) Eine Fassade, die lange hielt:</strong>
+        Nach außen blieb Diana über Jahre die makellos gestylte Prinzessin – während im
+        Verborgenen ein Leiden verlief, von dem selbst ihr nächstes Umfeld lange nichts
+        Genaues wusste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahrelange Bulimie:</strong>
+        Laut Dianas eigenen Schilderungen sowie Andrew Mortons Buch "Diana: Her True Story"
+        (1992, für das sie heimlich Interviews gab) zog sich die akute Phase der Erkrankung
+        über mehrere Jahre, mit ersten Therapieversuchen ab Ende der 1980er-Jahre.</p>
+        <p class="vb-intro"><strong>b) Selbstverletzung als Hilferuf zur falschen Adresse:</strong>
+        Diana beschrieb im Panorama-Interview auch Episoden von Selbstverletzung: "you have so
+        much pain inside yourself that you try and hurt yourself on the outside because you
+        want help, but it's the wrong help you're asking for." (›Man hat so viel Schmerz in
+        sich, dass man versucht, sich selbst von außen zu verletzen, weil man Hilfe will – aber
+        es ist die falsche Hilfe, um die man bittet.‹)</p>
+        <p class="vb-intro"><strong>c) Postnatale Depression nach der Geburt Prinz Williams:</strong>
+        Diana litt nach der Geburt ihres ersten Sohnes an postnataler Depression – ein
+        Zustand, den ihr Umfeld laut ihrer eigenen Aussage als Instabilität deutete, statt ihn
+        als das zu behandeln, was er war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Verharmlosung statt Fürsorge:</strong>
+        Diana schilderte, aus dem Umfeld von Charles sei durchgeklungen, sie sei "again
+        unstable and sick and should be put in a home of some sort ... I was almost an
+        embarrassment" (›wieder instabil und krank und sollte irgendwo untergebracht werden
+        ... ich war fast schon eine Peinlichkeit‹) – Pathologisierung statt Unterstützung.</p>
+        <p class="vb-intro"><strong>b) 1992: die indirekte erste Öffnung:</strong>
+        Mit Andrew Mortons Buch gelangten Bulimie, frühere Verzweiflungsmomente im Palast und
+        Charles' Beziehung zu Camilla erstmals an die Öffentlichkeit – ohne dass Diana zu
+        diesem Zeitpunkt offiziell als Quelle genannt wurde.</p>
+        <p class="vb-intro"><strong>c) 1995: die eigene Stimme:</strong>
+        Im BBC-Panorama-Interview mit Martin Bashir am 3. November 1995 sprach Diana erstmals
+        selbst und direkt öffentlich über Bulimie, Selbstverletzung und die Ehe: "There were
+        three of us in this marriage, so it was a bit crowded." (›Wir waren zu dritt in dieser
+        Ehe, das war etwas eng.‹)</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein langer, nicht-linearer Weg aus der Krankheit:</strong>
+        Ab Ende der 1980er-Jahre erhielt Diana Therapie; Rückfälle gehörten laut Berichten zu
+        diesem Prozess dazu, bevor sich eine gewisse Stabilisierung einstellte.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Wirkung des Geständnisses:</strong>
+        Das Panorama-Interview gilt bis heute als einer der Momente, die das öffentliche
+        Sprechen über Essstörungen und psychische Erkrankungen in Großbritannien
+        enttabuisierten – weit über den royalen Kontext hinaus.</p>
+        <p class="vb-intro"><strong>c) Ein Kontext, der später selbst zum Thema wurde:</strong>
+        2021 stellte der Dyson-Report fest, dass Martin Bashir das Interview durch gefälschte
+        Dokumente erschlichen hatte – ein Umstand, der die Zustandekommen betrifft, nicht die
+        inhaltliche Wahrhaftigkeit von Dianas eigenen Aussagen zu ihrer Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Zäh unter der Oberfläche:</strong>
+        Genau die SE4-typische Zähigkeit, mit der Diana das Leiden jahrelang allein austrug,
+        machte es zugleich so schwer erkennbar für ein Umfeld, das lieber wegsah.</p>
+        <p class="vb-intro"><strong>b) Verschärfung durch Camilla:</strong>
+        Diana beschrieb selbst, dass sich sowohl Bulimie als auch Selbstverletzung
+        verstärkten, wenn Charles die Beziehung zu Camilla wieder aufnahm – das Leiden als
+        direkte Reaktion auf wiederholte emotionale Zurückweisung.</p>
+        <p class="vb-intro"><strong>c) Die Taube, die schließlich selbst sprach:</strong>
+        Der Dreierflügel, der sonst Botschaften für andere trug, wandte sich 1995 der eigenen
+        Geschichte zu – ein seltener Moment, in dem die öffentliche Bühne nicht der Imagepflege,
+        sondern der eigenen Wahrheit diente.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Beginn im Moment größter Verunsicherung:</strong>
+        Die Bulimie setzte laut Dianas eigener Schilderung genau in der Woche ein, in der sie
+        in eine Welt aus Protokoll, Erwartung und einer Ehe mit einer dritten Person im
+        Hintergrund eintrat.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre verborgene Erkrankung:</strong>
+        Von 1981 bis zur ersten öffentlichen Andeutung 1992 und der direkten Aussage 1995
+        zieht sich eine lange Linie aus stillem Leiden hinter der öffentlichen Fassade der
+        Prinzessin.</p>
+        <p class="vb-intro"><strong>c) Zwei Symptome, eine gemeinsame Wurzel:</strong>
+        Bulimie und Selbstverletzung beschrieb Diana selbst als verwandte Ausdrucksformen
+        desselben inneren Schmerzes – beide verstärkt durch dieselben Auslöser.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Essen und Körper?</strong>
+        Für eine selbsterhaltende Vier, deren Instinkt auf das eigene Überleben und die
+        eigene Stabilität gerichtet ist, liegt eine Deutung nahe: Ausgerechnet der Bereich, der
+        am unmittelbarsten mit Selbstfürsorge und Selbsterhaltung verbunden ist, wurde zum Ort
+        des Kontrollverlusts – während gleichzeitig, dank des Dreierflügels, öffentlich makellose
+        Kontrolle demonstriert werden musste. Diese Deutung ist eine plausible Interpretation,
+        kein belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Bulimie
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Dianas Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, inneres
+        Leiden hinter äußerer Stabilität zu verbergen, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Diana kannte ihr eigenes Muster nicht – die selbsterhaltende Vier mit Dreierflügel verbirgt inneren Schmerz hinter makelloser öffentlicher Erscheinung, und genau das ließ sie eine schwere Essstörung jahrelang verheimlichen, bevor sie sich 1995 selbst dazu bekannte. Wer das eigene Verbergungsmuster nicht kennt, trägt die Last allein, bis die Offenheit selbst zur befreienden Ausnahme wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Dianas</strong> Geschichte lässt sich die selbsterhaltende Vier mit
+        Dreierflügel noch einmal in ihrer ganzen Zerrissenheit ablesen: ein über Jahre still
+        ertragenes Leiden hinter makelloser öffentlicher Fassade, das erst spät und dann mit
+        umso größerer Wirkung ausgesprochen wurde. Die Taube, die lange nur für andere
+        Botschaften trug, bis sie 1995 begann, auch die eigene zu tragen. Diana starb 1997 bei
+        einem Autounfall in Paris – ein Ereignis, das in keinem belegten Zusammenhang mit
+        ihrer früheren Bulimie-Erkrankung steht.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-adele", label:"Krankheitsporträt: Adele (SE4w3) – gleicher Subtyp"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
 function freddieMercuryKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12919,168 +13097,6 @@ function rubenSchriftgelehrterPage() {
         {route:"beruehmte-konfuzius", label:"Portrait: Konfuzius (SO1w2)"},
         {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
         {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
-      ])}
-    </div>
-  `);
-}
-
-function johannesDerTaeuferPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="Johannes der Täufer – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Johannes der Täufer</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Rufer in der Wüste am Jordan – Tierentsprechung: Schwarze Mamba</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Bereitet den Weg des Herrn, macht seine Pfade gerade.« (Mt 3,3)</p>
-
-        <h2 class="vb-section">1. Die Schwarze Mamba</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – sie beißt nicht aus Bosheit, sondern weil sie eine Bedrohung erkannt hat und keine zweite Warnung ausspricht. Johannes sprach mit einer Stimme, die nicht diskutierte. Sie kam nicht aus dem Kopf, nicht aus dem Bauch – sie kam aus der Tiefe, jenem Ort, an dem sich Urteil und Feuer küssen. Er war kein Mann, den man mochte. Man fürchtete ihn, oder man folgte ihm. Aber niemand war ihm gleichgültig.</p>
-          <p class="vb-intro">Er trug Kamelhaar, nicht aus Armut, sondern aus Absicht. Er aß Heuschrecken, getränkt in wildem Honig – nicht, weil er nichts anderes bekam, sondern weil er sich dem Überfluss, der Lüge, dem bequemen Selbstbetrug verweigerte. Er lebte außerhalb, geografisch und geistig, jenseits der Mauern Jerusalems, am Jordan, wo das Land rauer war und das Herz weniger abgelenkt. Dort stand er, Tag für Tag, und rief: »Kehrt um! Die Axt ist schon an die Wurzel gelegt!«</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Eins: Eifer, der keine Heuchelei duldet</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> richtet ihre Leidenschaft der Vollkommenheit mit missionarischer Wucht auf eine einzige Sache – bei Johannes auf die Reinheit vor Gott. Er war nicht gerecht, weil er alle Regeln einhielt, sondern weil er sie auf ihre Wurzel prüfte: Was aus Bequemlichkeit gelebt wurde, verachtete er; was aus echtem Hunger nach Gott kam, ehrte er, selbst wenn es in Staub und Schwäche gekleidet war. Er konnte in einem Zöllner mehr Wahrheit erkennen als in einem Priester mit goldenem Saum.</p>
-          <p class="vb-intro">Als eine Gruppe Pharisäer und Sadduzäer sich näherte, um über ihn zu urteilen, rief er ihnen entgegen: »Ihr Schlangenbrut! Wer hat euch gelehrt, dem kommenden Zorn zu entfliehen? Bringt Frucht, die der Umkehr würdig ist!« Kein Gespräch, keine Verhandlung – der Ruf einer SX1, die spürt, dass unter Selbstbild und System eine gefangene Wahrheit liegt, und die keine zweite Warnung ausspricht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Neunerflügel: Rückzug in die Wüste, Selbstverkleinerung am Ende</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine Sehnsucht nach Rückzug, Askese und Verschmelzung mit etwas Größerem als sich selbst. Johannes kannte das Unreine in sich selbst nicht als Schuld, sondern als Erinnerung – Zeiten, in denen sein Glaube Fassade war, in denen seine Wut ihm als Schild diente. Doch dann war er in die Wüste gegangen, und dort, im Sand, im Schweigen, im Verzicht, war sein Blick geschärft worden.</p>
-          <p class="vb-intro">Am deutlichsten zeigt sich dieser Flügel am Ende: »Er muss wachsen. Ich aber muss abnehmen.« Kein Rückzug aus Enttäuschung, sondern Hingabe – nicht an einen Menschen, sondern an den Ruf, der ihn von Anfang an gelenkt hatte. Eine Eins mit Zweierflügel würde um Nähe und Anerkennung ringen; die SX1w9 tritt zurück, sobald ihre Aufgabe erfüllt ist, und löst sich in das auf, wofür sie gerufen hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Begegnung am Jordan</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Morgen war kühl, der Himmel grau wie ungebrannter Ton. Johannes stand im Fluss, bereit wie jeden Tag, das Reine vom Falschen zu trennen. Dann kam Jesus – nicht mit Getöse, nicht mit Gefolge, sondern mit einer Stille, die größer war als jede Ansprache. Johannes sah ihn und wusste es, nicht durch Zeichen, sondern durch dieselbe Stimme, die ihn einst in die Wüste gerufen hatte: Das ist der Eine.</p>
-          <p class="vb-intro">Jesus trat ans Wasser und sagte nur: »Tauf mich.« Johannes wich zurück: »Ich sollte von dir getauft werden – und du kommst zu mir?« Sein eigenes Maß war plötzlich infrage gestellt. Jesus antwortete: »Lass es geschehen. Es gebührt sich so, damit alle Gerechtigkeit erfüllt werde.« Johannes nickte, langsam, als legte er sein Schwert nieder – führte ihn ins Wasser, senkte ihn unter die Oberfläche und hob ihn zurück ins Licht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Zweifel in der Zelle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als Herodes ihn festsetzen ließ – nicht aus Überzeugung, sondern weil Wahrheit immer stört, wenn sie auf Macht trifft –, kam mit der Dunkelheit der Zweifel. Er ließ Jesus fragen: <em>Bist du es wirklich? Oder sollen wir auf einen anderen warten?</em> Nicht aus theologischem Interesse, sondern weil sein Herz, das immer gebrannt hatte, nun nur noch Glut war, und er wissen musste: War alles nicht vergeblich?</p>
-          <p class="vb-intro">Jesu Antwort kam ohne Selbstbehauptung: »Geht und sagt Johannes, was ihr seht: Blinde sehen, Lahme gehen, Aussätzige werden rein, Taube hören, Tote stehen auf, Armen wird das Evangelium gepredigt.« Johannes lehnte sich an die kalte Wand, schloss die Augen – und lächelte, zum ersten Mal seit Wochen. Er hatte gesehen, was er sehen sollte. Er hatte gerufen, bis es nicht mehr nötig war zu rufen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Feuer, das sich selbst zurücknimmt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Johannes hinterlässt, ist ein Feuer, das nicht um sich selbst kreist. Er hatte geliebt – mit brennendem Herzen, unvollkommen, aber wahrhaftig – und war doch bereit, in dem Moment zurückzutreten, in dem ein Größerer erschien. Das ist das Geschenk der SX1w9: eine Kompromisslosigkeit, die sich nicht in der eigenen Bedeutung verliert, sondern sich am Ende freiwillig auflöst, weil die Sache größer ist als der Rufer.</p>
-          <p class="vb-intro">Er ging seinem Ende entgegen – ohne Bitterkeit, ohne Rückruf, ohne Klage. Die Schwarze Mamba, die zubiss, wo Heuchelei war, und die sich still zurückzog, sobald das Licht, dem sie den Weg bereitet hatte, selbst zu leuchten begann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Feuer am Jordan</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Johannes dem Täufer ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0" title="Feuer am Jordan – Johannes der Täufer" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
-        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
-        {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
-        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function martaPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-marta-portrait.jpg" alt="Marta – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Marta</p>
-        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Gastgeberin aus Bethanien – Tierentsprechung: Flusspferd</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Marta, Marta, du machst dir viele Sorgen und Mühen…« (Lk 10,41)</p>
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei – massiv, unauffällig, dem Anschein nach träge, und doch das Tier, das im gesamten Ökosystem am unentbehrlichsten ist: Es hält die Flusswege offen, formt den Lebensraum für alle anderen, meist ungesehen unter der Oberfläche. Marta konnte Stille nicht gut ertragen – nicht, weil sie laut dachte, sondern weil sie in der Stille die anderen nicht mehr hörte. Das Haus war ihr Reich, nicht wie ein Palast, sondern wie ein Gefäß: Sie kannte jede Kachel im Innenhof, jede Kerbe in der Backplatte des Herdes, wusste, wie viel Öl im Krug war, bevor sie ihn anhob.</p>
-          <p class="vb-intro">Sie war früh aufgestanden. Der Brotteig musste ruhen, das Wasser erhitzt, der Platz für Gäste gereinigt werden – auch wenn noch niemand kam. Wenn jemand fragte, wie sie das alles schaffe, lächelte sie und sagte: »Es muss ja gemacht werden.« Aber was sie meinte, war: <em>Ich kann nicht anders. Wenn ich nicht gebe, verschwinde ich.</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Liebe als Lohn für Nützlichkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> gibt nicht, um zu strahlen, sondern um zu überleben – Fürsorge wird zur stillen Voraussetzung dafür, gebraucht und damit gehalten zu werden. In ihrer Kindheit war Marta oft übersehen worden: die stille Tochter, die Vernünftige, die hilft, ohne zu fragen. So hatte sie gelernt: Liebe kommt, wenn man gebraucht wird. Nähe entsteht durch Nützlichkeit. Zuwendung ist kein Geschenk – sie ist ein Lohn.</p>
-          <p class="vb-intro">Als Jesus kam und Maria sich zu seinen Füßen setzte, blieb Marta stehen – das Tuch in der einen Hand, das Wort, das sie nicht sagen wollte, in der anderen. <em>Warum hilft sie nicht?</em> Schließlich trat sie näher und sagte, nicht bitter, aber mit einem Unterton: »Herr, kümmert es dich nicht, dass meine Schwester mich die ganze Arbeit allein tun lässt? Sag ihr, sie soll mir helfen.« Es war kein Zorn. Es war Sehnsucht in der Kleidung der Anklage.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Disziplin als Rechtfertigung des Gebens</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei eine strenge, fast moralische Note: Dienst wird nicht als Wahl erlebt, sondern als Pflicht, die korrekt erfüllt werden muss. Marta portionierte das Salz streng, hielt jede Kachel sauber, führte den Haushalt mit kontrolliertem Griff. Versorgen war für sie keine Pflicht im engeren Sinn – es war Identität. Ein Raum, in dem sie spürte: Ich bin gebraucht.</p>
-          <p class="vb-intro">Diese Kombination aus Fürsorge und Disziplin macht das Geben für die SE2w1 zugleich zur Bürde und zum einzigen legitimen Weg, Zuwendung zu verdienen – wer aufhört zu arbeiten, hat scheinbar keinen Anspruch mehr auf Liebe. Genau dieser innere Zwang war es, den Jesus später berührte, nicht Martas Fleiß selbst.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Spiegel in Jesu Antwort</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jesus erhob sich nicht, hob nicht einmal die Stimme. Aber als er sprach, legte sich eine stille Weite über den Hof: »Marta, Marta, du machst dir viele Sorgen und Mühen. Aber nur eines ist notwendig. Maria hat den guten Teil erwählt – und er wird ihr nicht genommen werden.« Es war keine Zurechtweisung. Es war ein Spiegel.</p>
-          <p class="vb-intro">Marta sah sich darin – nicht als Fehler, sondern als Mensch, der zu viel trägt, weil er fürchtet, sonst nicht zu genügen. Es ging nicht um Maria. Es ging um die Art, wie Marta ihr Geben mit Bedingungen füllte, wie sie Nähe durch Leistung eintauschte, wie sie nur dann ruhig atmete, wenn sie sicher war: Ich werde gebraucht. Sie ging zurück in die Küche – aber langsamer. Zum ersten Mal saß sie, inmitten der Arbeit, und dachte nicht an das, was noch zu tun war, sondern an das, was in ihr gerufen worden war.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk der Zuwendung ohne Forderung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am Abend war das Haus erfüllt vom Duft gerösteter Körner und warmer Oliven. Nach dem Essen setzte sich Marta – nicht zu Jesus, nicht zu Maria, sondern auf die Stufe gegenüber, so, dass sie beide sah, aber ohne bedienen zu müssen. Jesus lächelte ihr zu. Sie erwiderte es und spürte etwas Neues: <em>Ich darf da sein, auch wenn ich nichts tue.</em></p>
-          <p class="vb-intro">In jener Nacht schlief sie ruhiger als sonst – nicht, weil alles getan war, sondern weil sie begriff: Nicht jede Liebe muss sichtbar sein. Nicht jedes Geben muss zu Dank führen. Und nicht jede Mühe ist ein Schlüssel zur Anerkennung. Manchmal genügt es, dazusein.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Dienen ohne sich zu verlieren</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Tage vergingen, Jesus kam und ging, und jedes Mal brachte er Bewegung – nicht in den Räumen, in den Menschen. Marta blieb Marta: Sie kochte, sie sorgte. Aber sie drängte weniger, atmete tiefer. Wenn Maria in der Laube saß, fragte sie nicht mehr <em>Warum hilft sie nicht?</em>, sondern dachte: <em>Vielleicht hilft sie gerade anders.</em></p>
-          <p class="vb-intro">Und wenn sie betete, sprach sie nicht mehr nur: <em>Zeig mir, wem ich dienen soll.</em> Sondern manchmal einfach nur: <em>Herr, sei du bei mir. Auch wenn ich nichts tue.</em> Das ist das Geschenk der SE2w1: Fürsorge, die nicht mehr beweisen muss, dass sie einen Platz verdient – ein Flusspferd, das den Fluss weiter offenhält, aber nicht mehr fürchtet zu verschwinden, wenn es einmal stillsteht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Hände voll, Herz offen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Marta ist ein eigener Song entstanden, der ihre seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0" title="Hände voll, Herz offen – Marta" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
-        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
-        {route:"bibel-jesus", label:"Bibel-Porträt: Jesus (SO2w1)"},
       ])}
     </div>
   `);
