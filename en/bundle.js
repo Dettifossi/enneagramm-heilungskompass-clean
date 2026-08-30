@@ -47265,6 +47265,12 @@ const RAD_GROWTH = {1:7, 2:4, 3:6, 4:1, 5:8, 6:9, 7:5, 8:2, 9:3};
 const RAD_WINGS = {1:[9,2], 2:[1,3], 3:[2,4], 4:[3,5], 5:[4,6], 6:[5,7], 7:[6,8], 8:[7,9], 9:[8,1]};
 const RAD_POS = {1:[302.8,77.4], 2:[357.6,172.2], 3:[338.6,280], 4:[254.7,350.4], 5:[145.3,350.4], 6:[61.4,280], 7:[42.4,172.2], 8:[97.2,77.4], 9:[200,40]};
 function radLineId(a, b) { return "rad-line-" + Math.min(a,b) + "-" + Math.max(a,b); }
+function radKeywords(n) {
+  const g = GRUNDTYPEN.find(t => t.num === n);
+  if (!g) return [];
+  const firstSeg = (g.thema.split(" · ")[0] || "").split(" & ");
+  return [...firstSeg, g.leidenschaft].filter(Boolean);
+}
 function radInfoHtml(n) {
   if (!n) {
     return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Hover over a point to see its stress and growth direction and its wings &ndash; or tap a point directly to go to that type.</p>`;
@@ -47272,16 +47278,17 @@ function radInfoHtml(n) {
   const col = typeColor(n);
   const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
   const wings = RAD_WINGS[n];
+  const kwLine = (t) => radKeywords(t).join(", ");
   return `
     <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
       <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
       <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
     </div>
     <p style="margin:0 0 0.7rem;font-size:0.87rem;line-height:1.6;">${TYPKURZ[n]}</p>
-    <div style="display:grid;gap:0.35rem;font-size:0.82rem;">
-      <div><span style="font-weight:700;color:#a00802;">Stress direction:</span> Type ${stressTo} &ndash; ${TYPNAMEN[stressTo]}</div>
-      <div><span style="font-weight:700;color:#1fa688;">Growth direction:</span> Type ${growthTo} &ndash; ${TYPNAMEN[growthTo]}</div>
-      <div><span style="font-weight:700;color:var(--copper);">Wings:</span> Type ${wings[0]} &amp; Type ${wings[1]}</div>
+    <div style="display:grid;gap:0.5rem;font-size:0.82rem;">
+      <div><span style="font-weight:700;color:#a00802;">Stress direction:</span> Type ${stressTo} &ndash; ${TYPNAMEN[stressTo]}<br><span style="color:var(--muted);">${kwLine(stressTo)}</span></div>
+      <div><span style="font-weight:700;color:#1fa688;">Growth direction:</span> Type ${growthTo} &ndash; ${TYPNAMEN[growthTo]}<br><span style="color:var(--muted);">${kwLine(growthTo)}</span></div>
+      <div><span style="font-weight:700;color:var(--copper);">Wings:</span> Type ${wings[0]} (${kwLine(wings[0])}) &amp; Type ${wings[1]} (${kwLine(wings[1])})</div>
     </div>
     <button onclick="go('type/${n}')" style="margin-top:0.9rem;background:${col};border:1px solid ${col};color:#fff;font-weight:700;padding:0.5rem 1rem;border-radius:8px;cursor:pointer;font-size:0.85rem;">Go to Type ${n} in the compass &rarr;</button>
   `;
