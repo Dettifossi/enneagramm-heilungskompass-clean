@@ -1,3 +1,227 @@
+function johnMcAfeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("John McAfee \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/john-mcafee-portrait.jpg" alt="John McAfee \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John McAfee</p>
+        <p class="krim-portrait-typ">SX8w9 \u00b7 Sexueller Typ 8 mit Neunerfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Unternehmer und Grenzg\u00e4nger \u00b7 Tierentsprechung: Krokodil</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>John McAfee</strong> (1945\u20132021) gr\u00fcndete 1987 das gleichnamige Antiviren-Unternehmen,
+        verdiente damit ein Verm\u00f6gen und verlie\u00df es wieder mit derselben Unbedingtheit,
+        mit der er alles tat. Auf dem H\u00f6hepunkt seines Lebens in Belize lebte er
+        umgeben von bewaffneten Leibw\u00e4chtern, Frauen, Drogen und Hunden auf einem
+        Anwesen, das er \u201esein K\u00f6nigreich\u201c nannte. 2012 floh er nach dem Tod seines
+        Nachbarn, wurde von belize\u00e4nischen Beh\u00f6rden als verd\u00e4chtig eingestuft
+        und entkam \u00fcber Grenzen und Kontinente. 2020 in Spanien wegen
+        Steuerhinterziehung verhaftet, starb er 2021 in einer spanischen
+        Gef\u00e4ngniszelle \u2013 offiziell durch Suizid, nach Ansicht vieler durch das
+        System, dem er ein ganzes Leben lang getrotzt hatte. Diese Analyse fragt:
+        Wie formt die sexuelle Acht mit Neunerfl\u00fcgel einen Menschen, der
+        Grenzen nicht respektiert \u2013 weder die der Gesellschaft noch die seiner selbst?
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
+                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
+          <strong>Typzuordnung:</strong> Sexueller Typ 8 &middot;
+          <strong>Typ mit Fl\u00fcgel:</strong> SX8w9 &middot;
+          <em>Leidenschaft:</em> Wollust &middot;
+          <em>Tieranalogie:</em> Krokodil
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
+        <p class="vb-intro"><strong>a) Durchdringend und herausfordernd:</strong>
+        <strong>McAfee</strong> schaute Menschen so an, als ob er sie in Sekunden
+        durchleuchtet h\u00e4tte. Der Blick der sexuellen Acht ist kein ruhiger
+        Beobachterblick \u2013 er ist ein Test: Wer bist du wirklich? Bist du
+        echt? H\u00e4ltst du stand? Wer vor diesem Blick zur\u00fcckwich, hatte
+        <strong>McAfees</strong> Interesse verloren.</p>
+        <p class="vb-intro"><strong>b) Lebensfreudig und anarchisch:</strong>
+        Der Neunerfl\u00fcgel verleiht der Acht eine unbeschwerte, fast
+        spielerische Note. <strong>McAfee</strong> war nicht nur gef\u00e4hrlich \u2013 er war
+        auch unterhaltsam. Er witzelte \u00fcber seine Anklagen, posierte
+        f\u00fcr Kameras und trollte Beh\u00f6rden \u00f6ffentlich. Bedrohung und
+        Vergn\u00fcgen lagen bei ihm dicht beieinander.</p>
+        <p class="vb-intro"><strong>c) Provokativ und unberechenbar:</strong>
+        <strong>McAfees</strong> \u00f6ffentliche Auftritte folgten keiner berechenbaren Logik.
+        Er sagte, was er dachte \u2013 brutal ehrlich, oft schamlos. Das ist die
+        sexuelle Acht: Sie testet Grenzen nicht aus Bosheit, sondern weil
+        Grenzen f\u00fcr sie prim\u00e4r Einladungen zur \u00dcberpr\u00fcfung sind.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
+        <p class="vb-intro"><strong>a) Wo ist die Macht \u2013 und wie umgehe ich sie?</strong>
+        Die sexuelle Acht richtet ihren Blick auf Machtstrukturen: Wer
+        kontrolliert hier wen? <strong>McAfee</strong> sah in Regierungen, Beh\u00f6rden
+        und Institutionen zun\u00e4chst Gegner, dann Spielmaterial. Seine
+        Steuerverweigerung war kein Versehen \u2013 sie war Prinzip.</p>
+        <p class="vb-intro"><strong>b) Was reizt mich gerade?</strong>
+        Wollust ist die Leidenschaft der Acht: ein unbedingter Hunger
+        nach Intensit\u00e4t, Erfahrung und Lebendigkeit. <strong>McAfees</strong>
+        Aufmerksamkeit folgte dem Reiz \u2013 neue Frauen, neue Drogen,
+        neue L\u00e4nder, neue Gesch\u00e4fte. Langeweile war der einzige
+        Feind, den er f\u00fcrchtete.</p>
+        <p class="vb-intro"><strong>c) Wer ist loyal \u2013 und wer ist Verr\u00e4ter?</strong>
+        Der Neunerfl\u00fcgel sch\u00e4rft den Blick f\u00fcr Zugeh\u00f6rigkeit.
+        <strong>McAfee</strong> umgab sich mit einem engen Kreis Loyaler \u2013
+        und war gegen\u00fcber jedem, den er als Verr\u00e4ter einordnete,
+        gnadenlos. Loyalit\u00e4t war f\u00fcr ihn das einzige moralische Kriterium.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Wollust</h3>
+        <p class="vb-intro"><strong>a) Wollust als Lebenshunger:</strong>
+        Die Wollust der Acht ist kein sexueller Begriff allein \u2013 sie ist
+        ein Hunger nach maximaler Lebensintensit\u00e4t. <strong>McAfee</strong> lebte
+        nie halb: Er feierte exzessiv, arbeitete exzessiv, liebte
+        exzessiv, floh exzessiv. Ma\u00dfigung war ihm fremd.</p>
+        <p class="vb-intro"><strong>b) Wollust als Grenzaufl\u00f6sung:</strong>
+        Die sexuelle Acht l\u00f6st Grenzen auf \u2013 zwischen sich und anderen,
+        zwischen Erlaubtem und Verbotenem, zwischen Risiko und Vernunft.
+        <strong>McAfees</strong> Drogenexperimente, seine zahllosen Beziehungen,
+        sein Umgang mit Waffen: alles war Ausdruck dieser grenzaufl\u00f6senden
+        Energie.</p>
+        <p class="vb-intro"><strong>c) Wollust als Widerstandsstrategie:</strong>
+        <strong>McAfee</strong> nutzte Exzess auch als Waffe gegen das System.
+        Indem er \u00f6ffentlich tat, was verboten war \u2013 und dabei noch
+        lachte \u2013 demonstrierte er, dass das System ihn nicht erreichen
+        konnte. Wollust als politischer Akt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
+        <p class="vb-intro"><strong>a) Konfrontation als Kommunikationsmittel:</strong>
+        <strong>McAfee</strong> kommunizierte durch Provokation. Seine Tweets,
+        Interviews und \u00f6ffentlichen Auftritte waren selten sachlich \u2013
+        sie waren Angriffe. Die sexuelle Acht spricht die Sprache der
+        Konfrontation, weil sie das f\u00fcr die ehrlichste Sprache h\u00e4lt.
+        </p>
+        <p class="vb-intro"><strong>b) Ungehorsam als Identit\u00e4t:</strong>
+        <strong>McAfee</strong> zahlte \u00fcber ein Jahrzehnt keine Steuern \u2013 nicht
+        weil er kein Geld hatte, sondern weil er Steuern f\u00fcr Diebstahl
+        hielt. Regeln, die er f\u00fcr ungerecht befand, ignorierte er.
+        Das ist die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
+        jenseits gesellschaftlicher Konventionen.</p>
+        <p class="vb-intro"><strong>c) Fl\u00fcchtigkeit und Bewegung:</strong>
+        <strong>McAfee</strong> war selten lange an einem Ort. Guatemala, Belize,
+        Russland, Spanien: Er lebte in permanenter Bewegung, teils aus
+        Notwendigkeit, teils aus Naturell. Die sexuelle Acht sucht Intensit\u00e4t
+        \u2013 und Intensit\u00e4t entsteht f\u00fcr sie im Wechsel, nicht in der Stille.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
+        <p class="vb-intro"><strong>a) Die Wunde der Schw\u00e4che:</strong>
+        Hinter der Acht liegt die tief eingravierte \u00dcberzeugung: Schw\u00e4che
+        wird ausgenutzt. <strong>McAfee</strong> wuchs mit einem gewaltt\u00e4tigen Vater auf
+        \u2013 eine Kindheit, in der Verletzbarkeit gef\u00e4hrlich war. Die Acht
+        entschied fr\u00fch: Ich werde nie wieder schwach sein.</p>
+        <p class="vb-intro"><strong>b) Schutz durch Ungreifbarkeit:</strong>
+        Die Schutzstrategie der SX8 ist radikale Ungreifbarkeit: Niemand
+        soll mich kontrollieren, festhalten, definieren k\u00f6nnen. <strong>McAfees</strong>
+        st\u00e4ndige Flucht, sein Wechsel von Land zu Land, seine Unberechenbarkeit
+        \u2013 all das war Schutzstrategie. Wer nicht greifbar ist, kann nicht
+        verletzt werden.</p>
+        <p class="vb-intro"><strong>c) Neunerfl\u00fcgel als Puffer:</strong>
+        Der w9-Anteil milderte die h\u00e4rtesten Kanten der Acht. <strong>McAfee</strong>
+        konnte charmant sein, entspannt, fast friedlich \u2013 bis er es nicht
+        mehr war. Der Neunerfl\u00fcgel ist kein Widerspruch zur Acht: Er ist
+        die Ruhe vor dem Sturm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
+        <p class="vb-intro"><strong>a) SX8: Besessenheit und Besitzergreifung:</strong>
+        Die sexuelle Acht ist der Subtyp mit der gr\u00f6\u00dften Intensit\u00e4t.
+        Naranjo beschreibt sie als \u201ebesessenheit\u201c \u2013 ein Hunger, der sich
+        auf Menschen, Ideen und Erfahrungen richtet. <strong>McAfee</strong> war
+        kein gek\u00fchlter Stratege wie die SE8 \u2013 er war Feuer.
+        Jede Begegnung wurde zur totalen Erfahrung.</p>
+        <p class="vb-intro"><strong>b) Neunerfl\u00fcgel als Entspannungspunkt:</strong>
+        Die w9-Energie gibt der Acht die F\u00e4higkeit zur Selbstvergessenheit,
+        zum Loslassen, zur Gro\u00dfz\u00fcgigkeit. <strong>McAfee</strong> war in guten Momenten
+        ein gastfreundlicher, herzlicher Mensch \u2013 der alles teilte, was er
+        hatte. Dieser Zug machte ihn f\u00fcr viele unwiderstehlich.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Epstein (SX8w9):</strong>
+        Beide sind SX8w9 \u2013 und doch grundverschieden. <strong>Epstein</strong> operierte
+        im Verborgenen, baute Netzwerke und Schweigen. <strong>McAfee</strong> tat
+        alles \u00f6ffentlich, fast aufdringlich sichtbar. Die gleiche Leidenschaft,
+        zwei entgegengesetzte Stile: Epstein verbarg sich, McAfee inszenierte sich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Krokodil</h3>
+        <p class="vb-intro"><strong>a) Uralt und unver\u00e4nderlich:</strong>
+        Krokodile existieren seit \u00fcber 200 Millionen Jahren \u2013 praktisch
+        unver\u00e4ndert. <strong>McAfees</strong> Werte und Prinzipien waren genauso
+        primitiv und best\u00e4ndig: Freiheit, St\u00e4rke, Unabh\u00e4ngigkeit. Er
+        war nicht bereit, sich zu zivilisieren. Evolution interessierte
+        ihn nicht.</p>
+        <p class="vb-intro"><strong>b) Tarnende Ruhe, blitzschneller Angriff:</strong>
+        Krokodile liegen stundenlang reglos im Wasser \u2013 und schlagen dann
+        mit t\u00f6dlicher Pr\u00e4zision zu. <strong>McAfee</strong> konnte entspannt und
+        harmlos wirken, bis ein Ausl\u00f6ser ihn aktivierte. Dann war die
+        Reaktion sofort und total. Der Neunerfl\u00fcgel lieferte die Ruhe,
+        die Acht den Schlag.</p>
+        <p class="vb-intro"><strong>c) Unber\u00fchrbar in seinem Territorium:</strong>
+        In seinem Element \u2013 ob Belize, im Netz oder vor Kameras \u2013
+        war <strong>McAfee</strong> unangreifbar. Das Krokodil dominiert seinen
+        Lebensraum nicht durch Geschwindigkeit, sondern durch Pr\u00e4senz.
+        <strong>McAfees</strong> Pr\u00e4senz war sein sch\u00e4rfster Schutz.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
+        <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
+        Der Heilungsweg der Acht f\u00fchrt \u00fcber Hingabe \u2013 die F\u00e4higkeit,
+        loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
+        diesem Weg n\u00e4her, als er es zugegeben h\u00e4tte: In seinen letzten
+        Jahren zeigte er in Interviews eine seltene Offenheit \u00fcber
+        Einsamkeit und Ersch\u00f6pfung.</p>
+        <p class="vb-intro"><strong>b) St\u00e4rke, die sch\u00fctzt statt zerst\u00f6rt:</strong>
+        Die gesunde Acht nutzt ihre Kraft zum Schutz anderer \u2013 nicht
+        zur eigenen Vergr\u00f6\u00dferung. <strong>McAfee</strong> hatte diesen Impuls:
+        Er finanzierte Arme, unterst\u00fctzte Schw\u00e4chere, sprach f\u00fcr
+        Freiheitsrechte. Das war die lichte Seite seiner Kraft \u2013
+        sie kam nur selten unvermischt zum Ausdruck.</p>
+        <p class="vb-intro"><strong>c) Der unvollendete Weg:</strong>
+        <strong>McAfee</strong> starb, bevor irgendein Heilungsweg sich entfalten
+        konnte \u2013 oder wollte. Er hatte keine Geduld f\u00fcr innere Arbeit
+        und keinen Glauben an Transformation. F\u00fcr die Acht bleibt das
+        die gr\u00f6\u00dfte Gefahr: die \u00dcberzeugung, dass Schw\u00e4che nie sicher ist \u2013
+        und dass deshalb Heilung keine Option ist.</p>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 \u2013 die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerst\u00f6rung zur sch\u00fctzenden Kraft.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 \u2013 alle Achter-Subtypen im \u00dcberblick.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\u00fchrlich portr\u00e4tiert \u2013 Wollust, Macht und der Heilungsweg \u00fcber echte St\u00e4rke ohne Kontrollzwang.", "Wer du wirklich bist \u2013 Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John McAfee wurde nie wegen Mordes verurteilt, stand jedoch mehrfach unter Tatuverdacht und in Auslieferungsverfahren. Er starb 2021 in spanischer Untersuchungshaft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina"},
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
+      ])}
+    </div>
+  `);
+}
+
+
+
 function johnGottiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9546,56 +9770,4 @@ function hunderassenDer9TypenPage() {
     </div>
   `);
 }
-
-function pferdearteDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Pferdearten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Pferderassen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die verschiedenen Aspekte und Charakteristika dieser Pferde mit den Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Jede Rasse verk\u00f6rpert auf eindrucksvolle Weise die Wesensart ihres Typs \u2014 von der edlen Pr\u00e4zision des Lippizaners bis zur friedvollen Ausgeglichenheit des Connemara Ponys.</p>
-      <img src="./assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Lippizaner: Pr\u00e4zision als Lebensform</h3>
-        <p class="vb-intro">Der Lippizaner verk\u00f6rpert mit seiner legend\u00e4ren Pr\u00e4zision und Disziplin den Reformer-Typ auf ideale Weise. Diese Rasse ist bekannt f\u00fcr ihre F\u00e4higkeiten in der klassischen Dressur, die h\u00f6chste Pr\u00e4zision und jahrelange, geduldige \u00dcbung erfordern. Der Lippizaner symbolisiert das Streben nach Perfektion und das Einhalten hoher Standards. Seine ruhige, kontrollierte Kraft und die F\u00e4higkeit, komplexe Bewegungen mit Anmut auszuf\u00fchren, spiegeln die Leidenschaft des Typs 1 wider: den inneren Antrieb zur Vollkommenheit, der manchmal als Zorn auf das Unvollkommene erlebt wird. Kein anderes Pferd hat sich so tief in die K\u00fcnste der Reiterei eingeschrieben \u2014 die Hohe Schule ist sein Reich, und in diesem Reich gibt es kein \u201eGut genug\u201c.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 American Quarter Horse: Im Dienst der anderen</h3>
-        <p class="vb-intro">Das American Quarter Horse steht f\u00fcr Hilfsbereitschaft und die Freude daran, anderen zu dienen \u2014 genau wie der Helfer-Typ des Enneagramms. Diese Pferde sind freundlich, vielseitig und bereit, bei vielen Aufgaben zu helfen. Sie sind f\u00fcr ihre kooperative Natur und ihre Bereitschaft, anderen zu dienen, bekannt. Ihr Stolz liegt im Geben und im Gef\u00fchl, gebraucht zu werden. Als eines der vielseitigsten Arbeitspferde Nordamerikas \u2014 auf Ranch, Rodeo und Rennbahn gleicherma\u00dfen zu Hause \u2014 symbolisieren sie die herzliche Zugewandtheit und die F\u00fcrsorge, die den Typ 2 auszeichnen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Englisches Vollblut: Geboren zum Gewinnen</h3>
-        <p class="vb-intro">Das Englische Vollblut ist die Rasse, die mit Erfolg, Leistung und Wettbewerb identifiziert wird \u2014 ein perfektes Spiegelbild des Machers. Englische Vollbl\u00fcter sind f\u00fcr ihre Geschwindigkeit und ihren Erfolg im Rennsport bekannt. Sie verk\u00f6rpern Ehrgeiz, Zielbewusstsein und den Wunsch, erfolgreich zu sein. Ihr ganzes Wesen ist auf Leistung ausgerichtet: jede Muskelfaser, jeder Atemzug strebt nach dem Ziel. Die Leidenschaft der Eitelkeit \u2014 das Selbstbild als Gewinner \u2014 ist in dieser Rasse archetypisch verankert. Sie wurden nicht gez\u00fcchtet, um m\u00f6glichst gl\u00fccklich zu sein, sondern um m\u00f6glichst schnell zu sein \u2014 und das merkt man ihnen an.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Araber: Sch\u00f6nheit und Einzigartigkeit</h3>
-        <p class="vb-intro">Der Araber ist bekannt f\u00fcr seine Sch\u00f6nheit, Eleganz und ausgepr\u00e4gte Pers\u00f6nlichkeit \u2014 Eigenschaften, die den Individualisten-Typ widerspiegeln. Araber besitzen eine ausgepr\u00e4gte Pers\u00f6nlichkeit, Eleganz und Individualit\u00e4t. Sie strahlen Kreativit\u00e4t, Einzigartigkeit und Anmut aus. Ihr tiefer, ausdrucksstarker Blick und ihr sensibler Charakter machen sie unverwechselbar. Die Leidenschaft des Neids \u2014 das Gef\u00fchl, anders und zugleich nach Verbindung sehnend zu sein \u2014 dr\u00fcckt sich in ihrer innigen, aber auch eigenwilligen Art aus. Der Araber ist kein Pferd f\u00fcr jeden; wer ihn f\u00fchrt, muss ihn verstehen, nicht beherrschen wollen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Mustang: Freiheit und inneres Wissen</h3>
-        <p class="vb-intro">Der Mustang verk\u00f6rpert Unabh\u00e4ngigkeit, Autonomie und Weisheit \u2014 die Kernqualit\u00e4ten des Beobachters. Mustangs sind wilde Pferde, die oft zur\u00fcckgezogen und unabh\u00e4ngig leben. Sie symbolisieren den Wunsch nach Autonomie und Wissen sowie die F\u00e4higkeit, alleine zu \u00fcberleben. Der Mustang beobachtet die Welt aus der Distanz, zieht sich in seine innere Welt zur\u00fcck und akkumuliert Wissen, das er h\u00fctet wie einen Schatz. Jahrtausende in der Wildnis haben ihm eine Intelligenz eingraviert, die kein Z\u00fcchter reproduzieren kann: Er wei\u00df, wo Wasser ist, wo Gefahr lauert, wo die Herde sicher ist. Seine Leidenschaft \u2014 der Geiz mit Zeit, Energie und Vertrauen \u2014 zeigt sich im vorsichtigen Dosieren seiner N\u00e4he.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Clydesdale: Loyalit\u00e4t als Kraft</h3>
-        <p class="vb-intro">Das Clydesdale steht f\u00fcr Loyalit\u00e4t, Zuverl\u00e4ssigkeit und Gemeinschaftssinn \u2014 genau die Qualit\u00e4ten, die den Loyalisten auszeichnen. Clydesdales sind starke, zuverl\u00e4ssige Arbeitspferde. Sie stehen f\u00fcr Loyalit\u00e4t, Verl\u00e4sslichkeit und die Bereitschaft, hart zu arbeiten und ihrer Gemeinschaft zu unterst\u00fctzen. Ihre kolossale Kraft setzen sie nicht f\u00fcr sich selbst ein, sondern im Dienst der Gruppe \u2014 Feldarbeit, Transport, Last tragen, ohne zu klagen. Die Leidenschaft der Angst \u2014 das st\u00e4ndige Pr\u00fcfen, ob alles sicher ist \u2014 wandelt sich im Clydesdale in unersetzliche Treue: Wer ein Clydesdale einmal gef\u00fchrt hat, wei\u00df, dass er nicht wegrennt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Andalusier: Das Fest der Bewegung</h3>
-        <p class="vb-intro">Der Andalusier steht f\u00fcr Lebhaftigkeit, Enthusiasmus und die Freude am Abenteuer \u2014 ein strahlendes Bild des Enthusiasten-Typs. Andalusier sind lebhaft, energisch und vielseitig. Sie lieben das Abenteuer und sind f\u00fcr ihre fr\u00f6hliche und enthusiastische Natur bekannt. Mit flie\u00dfender M\u00e4hne und federndem Schritt tanzen sie durchs Leben \u2014 jeder Moment ein neues Erlebnis, jede Begegnung eine neue Chance. Ihre Geschichte als Pferd der iberischen Ritter und Fiesta-Teilnehmer hat ihnen einen nat\u00fcrlichen Sinn f\u00fcr Spektakel gegeben: Der Andalusier tritt auf. Die Leidenschaft der V\u00f6llerei dr\u00fcckt sich in ihrem unersch\u00f6pflichen Appetit auf Bewegung, Reize und Kontakt aus.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Shire Horse: Macht ohne Entschuldigung</h3>
-        <p class="vb-intro">Das Shire Horse symbolisiert mit seiner imposanten Gr\u00f6\u00dfe, Kraft und Durchsetzungsf\u00e4higkeit den Herausforderer-Typ auf eindrucksvolle Weise. Shire Horses sind kraftvolle und dominante Pferde, die St\u00e4rke und Durchsetzungsverm\u00f6gen verk\u00f6rpern. Sie sind mutig und bereit, Herausforderungen anzunehmen. Ihr blo\u00dfes Auftreten bewegt ganze Landschaften \u2014 diese Pferde kennen kein Zur\u00fcckschrecken. Als die schwersten Pferde der Welt wurden sie eingesetzt, um Kriegsausr\u00fcstung zu ziehen, Fabriken anzutreiben, Hafen-Lasten zu bewegen. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kraft, Einfluss und dem Gef\u00fchl, die Welt zu gestalten \u2014 oder zumindest den Pflug zu ziehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Connemara Pony: Harmonie als Heimat</h3>
-        <p class="vb-intro">Das Connemara Pony ist bekannt f\u00fcr seine ruhige und ausgeglichene Natur \u2014 ein treffendes Bild des Vermittlers. Connemara Ponys sind ruhig und ausgeglichen. Sie sind freundlich und geduldig, streben nach Harmonie und sind leicht zu handhaben. Aus den rauhen Moorlandschaften Irlands stammen diese robusten, gen\u00fcgsamen Ponys, die mit allem zurechtkommen und niemandem zur Last fallen wollen. Sie passen sich jedem Reiter an, jedem Gel\u00e4nde, jedem Wetter \u2014 ohne Theater. Ihre Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, den inneren Frieden nicht durch Konflikte st\u00f6ren zu lassen: Ein Connemara macht keinen \u00c4rger, und erwartet keinen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
-        {route:"nagetierarten-der-9-typen", label:"Nagetierarten der 9 Typen"},
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
 

@@ -1,3 +1,84 @@
+function rubenSchriftgelehrterPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("enneagramm-bibel")}
+      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Ruben, der Schriftgelehrte – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ruben, der Schriftgelehrte</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Schriftgelehrter in dritter Generation – Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie binden schwere Lasten und legen sie den Menschen auf die Schultern, wollen sie aber selbst nicht mit einem Finger anrühren.« (Mt 23,4)</p>
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – ein Tier, das im Verband fliegt, die Formation hält und mit lauter, unnachgiebiger Stimme darauf besteht, dass alle in derselben Ordnung bleiben. Ruben liebte den Klang der Morgengebete – nicht weil sie ihn berührten, sondern weil sie ihn erinnerten: an die Ordnung, an die jahrhundertealte Linie, in die er sich eingereiht hatte wie ein wohlgesetzter Buchstabe in einer Rolle heiliger Schrift. Er war Schriftgelehrter in dritter Generation. Sein Vater hatte die Psalmen auswendig gekannt, sein Großvater in Masada die Gesetze kopiert, als wären sie göttliche Musik.</p>
+          <p class="vb-intro">Sein Haus war schlicht, aber diszipliniert: Die Bücher lagen gestapelt nach Alter und Bedeutung, jede Ecke gewischt, der Ölkrug hatte einen festen Platz. Ordnung war für Ruben kein Konzept, sondern Verpflichtung – ein heiliger Rhythmus, den man nicht hinterfragte, sondern weitergab und bewahrte, gegen die Willkür, gegen das Chaos der Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung als Rettung der Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Vollkommenheitsanspruch nicht wie die selbsterhaltende Eins nach innen, sondern nach außen, auf die Gesellschaft: Wenn jeder das Richtige täte, wäre die Welt heil. Am Markttor begegnete Ruben einem Kind, das Fisch und Brot fallen ließ. Statt nur zu trösten, urteilte er sofort mit fachkundiger Präzision, welches Stück nach dem Reinheitsgebot noch zu retten war und welches nicht. Er war ein Mann, der half – aber durch Vorschrift, nicht durch bloßes Mitgefühl.</p>
+          <p class="vb-intro">Als Jesus im Tempelhof lehrte, trat Ruben nicht aus Neugier näher, sondern aus einem inneren Reflex: <em>Etwas stimmt nicht.</em> Wer öffentlich spricht, muss geprüft werden. Er stellte sich vor die Menge und forderte Rechenschaft: »Warum achtest du das Gesetz nicht wie unsere Väter?« Der Ton, den er anschlug, war nicht der eines Suchenden, sondern der einer Forderung – die soziale Eins, die glaubt, dass Regeln den Menschen tragen, und die sich verpflichtet fühlt, das öffentlich einzufordern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Der Lehrer, der über die Vorschrift hinaus berührt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Eins eine persönliche, zuwendende Note: Sie korrigiert nicht aus der Distanz, sondern im direkten Gespräch, im Unterrichten von Schülern, im Zuhören. Ruben war Lehrer in dritter Generation – jemand, der jungen Männern beibrachte, wie man Opfer richtig darbringt, wie man betet, wie viele Schritte man am Sabbat gehen darf. Seine Strenge war nie anonym; sie richtete sich immer an ein konkretes Gegenüber.</p>
+          <p class="vb-intro">Genau diese Zuwendung wurde später zu seinem Wendepunkt: Als ein alter Schüler ihn fragte, ob eine weinende, betende Frau dadurch unrein werde, antwortete Ruben nicht mehr mit einem Verweis auf das Gesetz, sondern persönlich, warm: »Wenn sie weint, weil sie geliebt hat – dann ist sie reiner, als viele, die nie berührt wurden.« Der Zweierflügel, der die Regel durch die Beziehung hindurch neu lesen lernt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Begegnung: »Du überliest das Herz«</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus antwortete auf Rubens öffentliche Zurechtweisung nicht mit Gegenangriff, sondern mit einem einzigen, leise gesprochenen Satz: »Du liest die Schrift. Aber du überliest das Herz.« Er traf Ruben wie ein Stein – nicht theologisch, sondern persönlich. Denn wenn Jesus recht hatte, war alles, wofür Ruben sich seit Jahren verzehrt hatte, nicht falsch, aber unvollständig.</p>
+          <p class="vb-intro">In der Stille danach erinnerte sich Ruben an die Krankheit seines Bruders, an den frühen Tod seiner Mutter – Schmerz, der sich nie in Trauer entladen hatte, sondern in Disziplin verwandelt worden war: Wenn ich alles richtig mache, wird nichts mehr zerbrechen. Das Gesetz hatte ihn gehalten wie ein Gerüst den Stein. Jetzt stellte ein einziger Satz nicht das Gesetz infrage, sondern Rubens Verhältnis dazu: Was, wenn die Vorschrift ein Mittel war – und nicht das Ziel?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kreuzigung und die stille Wahrhaftigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als die Nachricht von der Kreuzigung kam, ging Ruben nicht zum Richtplatz. Er blieb in seinem Haus, saß auf dem Boden – nicht aus Trauer, sondern weil sein Körper keine andere Haltung fand. <em>Was, wenn wir ihn verkannt haben?</em> Der Gedanke war leise, aber da. Er dachte an Jesu Satz über die Lasten, die man anderen aufbürdet, ohne sie selbst zu tragen – ein Satz, der ihn damals wütend gemacht hatte und ihn jetzt nur noch still machte.</p>
+          <p class="vb-intro">Zum ersten Mal in seinem Leben fragte er sich: Ist das Maß, das ich für andere anlege, wirklich dasselbe, das ich für mich selbst verwende? Kein Urteil – der Anfang einer Wahrhaftigkeit, die nicht sprach, sondern horchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Das Gesetz mit anderen Augen lesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In den Tagen danach kehrte Ruben nicht in den Tempelhof zurück, um zu lehren. Er wurde leiser – nicht schwächer, sondern weicher im Blick. Er begann, das Gesetz neu zu lesen: nicht weniger genau, aber mit der Frage, was ein Gebot eigentlich bewahren, wovor es schützen soll. <em>Das Gesetz ohne Barmherzigkeit ist ein Messer ohne Griff.</em> Das ist das Geschenk der SO1w2: eine Strenge, die durch Zuwendung hindurch lernt, dass die Regel dem Menschen dienen muss – nicht umgekehrt.</p>
+          <p class="vb-intro">Ruben sah Jesus nie wieder. Aber ein Blick blieb ihm im Sinn, nicht streng, nicht weich, sondern durchdringend und still: <em>Sieh nicht nur, was geschrieben steht. Sieh, was es dir zeigen will.</em> Der Schriftgelehrte, der Gesetzeswächter, der öffentliche Mahner begann, innerlich neu zu schreiben – nicht an den Tafeln des Gesetzes, sondern an der stillsten Stelle seines Herzens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Lied: Zwischen Gesetz und Gnade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Ruben, dem Schriftgelehrten, ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
+          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
+            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0" title="Zwischen Gesetz und Gnade – Ruben, der Schriftgelehrte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-konfuzius", label:"Portrait: Konfuzius (SO1w2)"},
+        {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
+        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function johannesDerTaeuferPage() {
   return shell(`
     <div class="page-container">
@@ -11034,228 +11115,4 @@ function davidBerkowitzPortraitPage() {
     </div>
   `);
 }
-
-function johnMcAfeePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("John McAfee \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/john-mcafee-portrait.jpg" alt="John McAfee \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">John McAfee</p>
-        <p class="krim-portrait-typ">SX8w9 \u00b7 Sexueller Typ 8 mit Neunerfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Unternehmer und Grenzg\u00e4nger \u00b7 Tierentsprechung: Krokodil</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>John McAfee</strong> (1945\u20132021) gr\u00fcndete 1987 das gleichnamige Antiviren-Unternehmen,
-        verdiente damit ein Verm\u00f6gen und verlie\u00df es wieder mit derselben Unbedingtheit,
-        mit der er alles tat. Auf dem H\u00f6hepunkt seines Lebens in Belize lebte er
-        umgeben von bewaffneten Leibw\u00e4chtern, Frauen, Drogen und Hunden auf einem
-        Anwesen, das er \u201esein K\u00f6nigreich\u201c nannte. 2012 floh er nach dem Tod seines
-        Nachbarn, wurde von belize\u00e4nischen Beh\u00f6rden als verd\u00e4chtig eingestuft
-        und entkam \u00fcber Grenzen und Kontinente. 2020 in Spanien wegen
-        Steuerhinterziehung verhaftet, starb er 2021 in einer spanischen
-        Gef\u00e4ngniszelle \u2013 offiziell durch Suizid, nach Ansicht vieler durch das
-        System, dem er ein ganzes Leben lang getrotzt hatte. Diese Analyse fragt:
-        Wie formt die sexuelle Acht mit Neunerfl\u00fcgel einen Menschen, der
-        Grenzen nicht respektiert \u2013 weder die der Gesellschaft noch die seiner selbst?
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
-                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
-        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Sexueller Typ 8 &middot;
-          <strong>Typ mit Fl\u00fcgel:</strong> SX8w9 &middot;
-          <em>Leidenschaft:</em> Wollust &middot;
-          <em>Tieranalogie:</em> Krokodil
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\u00e4t</h3>
-        <p class="vb-intro"><strong>a) Durchdringend und herausfordernd:</strong>
-        <strong>McAfee</strong> schaute Menschen so an, als ob er sie in Sekunden
-        durchleuchtet h\u00e4tte. Der Blick der sexuellen Acht ist kein ruhiger
-        Beobachterblick \u2013 er ist ein Test: Wer bist du wirklich? Bist du
-        echt? H\u00e4ltst du stand? Wer vor diesem Blick zur\u00fcckwich, hatte
-        <strong>McAfees</strong> Interesse verloren.</p>
-        <p class="vb-intro"><strong>b) Lebensfreudig und anarchisch:</strong>
-        Der Neunerfl\u00fcgel verleiht der Acht eine unbeschwerte, fast
-        spielerische Note. <strong>McAfee</strong> war nicht nur gef\u00e4hrlich \u2013 er war
-        auch unterhaltsam. Er witzelte \u00fcber seine Anklagen, posierte
-        f\u00fcr Kameras und trollte Beh\u00f6rden \u00f6ffentlich. Bedrohung und
-        Vergn\u00fcgen lagen bei ihm dicht beieinander.</p>
-        <p class="vb-intro"><strong>c) Provokativ und unberechenbar:</strong>
-        <strong>McAfees</strong> \u00f6ffentliche Auftritte folgten keiner berechenbaren Logik.
-        Er sagte, was er dachte \u2013 brutal ehrlich, oft schamlos. Das ist die
-        sexuelle Acht: Sie testet Grenzen nicht aus Bosheit, sondern weil
-        Grenzen f\u00fcr sie prim\u00e4r Einladungen zur \u00dcberpr\u00fcfung sind.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Wo ist die Macht \u2013 und wie umgehe ich sie?</strong>
-        Die sexuelle Acht richtet ihren Blick auf Machtstrukturen: Wer
-        kontrolliert hier wen? <strong>McAfee</strong> sah in Regierungen, Beh\u00f6rden
-        und Institutionen zun\u00e4chst Gegner, dann Spielmaterial. Seine
-        Steuerverweigerung war kein Versehen \u2013 sie war Prinzip.</p>
-        <p class="vb-intro"><strong>b) Was reizt mich gerade?</strong>
-        Wollust ist die Leidenschaft der Acht: ein unbedingter Hunger
-        nach Intensit\u00e4t, Erfahrung und Lebendigkeit. <strong>McAfees</strong>
-        Aufmerksamkeit folgte dem Reiz \u2013 neue Frauen, neue Drogen,
-        neue L\u00e4nder, neue Gesch\u00e4fte. Langeweile war der einzige
-        Feind, den er f\u00fcrchtete.</p>
-        <p class="vb-intro"><strong>c) Wer ist loyal \u2013 und wer ist Verr\u00e4ter?</strong>
-        Der Neunerfl\u00fcgel sch\u00e4rft den Blick f\u00fcr Zugeh\u00f6rigkeit.
-        <strong>McAfee</strong> umgab sich mit einem engen Kreis Loyaler \u2013
-        und war gegen\u00fcber jedem, den er als Verr\u00e4ter einordnete,
-        gnadenlos. Loyalit\u00e4t war f\u00fcr ihn das einzige moralische Kriterium.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Wollust</h3>
-        <p class="vb-intro"><strong>a) Wollust als Lebenshunger:</strong>
-        Die Wollust der Acht ist kein sexueller Begriff allein \u2013 sie ist
-        ein Hunger nach maximaler Lebensintensit\u00e4t. <strong>McAfee</strong> lebte
-        nie halb: Er feierte exzessiv, arbeitete exzessiv, liebte
-        exzessiv, floh exzessiv. Ma\u00dfigung war ihm fremd.</p>
-        <p class="vb-intro"><strong>b) Wollust als Grenzaufl\u00f6sung:</strong>
-        Die sexuelle Acht l\u00f6st Grenzen auf \u2013 zwischen sich und anderen,
-        zwischen Erlaubtem und Verbotenem, zwischen Risiko und Vernunft.
-        <strong>McAfees</strong> Drogenexperimente, seine zahllosen Beziehungen,
-        sein Umgang mit Waffen: alles war Ausdruck dieser grenzaufl\u00f6senden
-        Energie.</p>
-        <p class="vb-intro"><strong>c) Wollust als Widerstandsstrategie:</strong>
-        <strong>McAfee</strong> nutzte Exzess auch als Waffe gegen das System.
-        Indem er \u00f6ffentlich tat, was verboten war \u2013 und dabei noch
-        lachte \u2013 demonstrierte er, dass das System ihn nicht erreichen
-        konnte. Wollust als politischer Akt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Konfrontation als Kommunikationsmittel:</strong>
-        <strong>McAfee</strong> kommunizierte durch Provokation. Seine Tweets,
-        Interviews und \u00f6ffentlichen Auftritte waren selten sachlich \u2013
-        sie waren Angriffe. Die sexuelle Acht spricht die Sprache der
-        Konfrontation, weil sie das f\u00fcr die ehrlichste Sprache h\u00e4lt.
-        </p>
-        <p class="vb-intro"><strong>b) Ungehorsam als Identit\u00e4t:</strong>
-        <strong>McAfee</strong> zahlte \u00fcber ein Jahrzehnt keine Steuern \u2013 nicht
-        weil er kein Geld hatte, sondern weil er Steuern f\u00fcr Diebstahl
-        hielt. Regeln, die er f\u00fcr ungerecht befand, ignorierte er.
-        Das ist die Acht in ihrer klarsten Ausprägung: moralischer Eigensinn
-        jenseits gesellschaftlicher Konventionen.</p>
-        <p class="vb-intro"><strong>c) Fl\u00fcchtigkeit und Bewegung:</strong>
-        <strong>McAfee</strong> war selten lange an einem Ort. Guatemala, Belize,
-        Russland, Spanien: Er lebte in permanenter Bewegung, teils aus
-        Notwendigkeit, teils aus Naturell. Die sexuelle Acht sucht Intensit\u00e4t
-        \u2013 und Intensit\u00e4t entsteht f\u00fcr sie im Wechsel, nicht in der Stille.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde der Schw\u00e4che:</strong>
-        Hinter der Acht liegt die tief eingravierte \u00dcberzeugung: Schw\u00e4che
-        wird ausgenutzt. <strong>McAfee</strong> wuchs mit einem gewaltt\u00e4tigen Vater auf
-        \u2013 eine Kindheit, in der Verletzbarkeit gef\u00e4hrlich war. Die Acht
-        entschied fr\u00fch: Ich werde nie wieder schwach sein.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Ungreifbarkeit:</strong>
-        Die Schutzstrategie der SX8 ist radikale Ungreifbarkeit: Niemand
-        soll mich kontrollieren, festhalten, definieren k\u00f6nnen. <strong>McAfees</strong>
-        st\u00e4ndige Flucht, sein Wechsel von Land zu Land, seine Unberechenbarkeit
-        \u2013 all das war Schutzstrategie. Wer nicht greifbar ist, kann nicht
-        verletzt werden.</p>
-        <p class="vb-intro"><strong>c) Neunerfl\u00fcgel als Puffer:</strong>
-        Der w9-Anteil milderte die h\u00e4rtesten Kanten der Acht. <strong>McAfee</strong>
-        konnte charmant sein, entspannt, fast friedlich \u2013 bis er es nicht
-        mehr war. Der Neunerfl\u00fcgel ist kein Widerspruch zur Acht: Er ist
-        die Ruhe vor dem Sturm.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SX8: Besessenheit und Besitzergreifung:</strong>
-        Die sexuelle Acht ist der Subtyp mit der gr\u00f6\u00dften Intensit\u00e4t.
-        Naranjo beschreibt sie als \u201ebesessenheit\u201c \u2013 ein Hunger, der sich
-        auf Menschen, Ideen und Erfahrungen richtet. <strong>McAfee</strong> war
-        kein gek\u00fchlter Stratege wie die SE8 \u2013 er war Feuer.
-        Jede Begegnung wurde zur totalen Erfahrung.</p>
-        <p class="vb-intro"><strong>b) Neunerfl\u00fcgel als Entspannungspunkt:</strong>
-        Die w9-Energie gibt der Acht die F\u00e4higkeit zur Selbstvergessenheit,
-        zum Loslassen, zur Gro\u00dfz\u00fcgigkeit. <strong>McAfee</strong> war in guten Momenten
-        ein gastfreundlicher, herzlicher Mensch \u2013 der alles teilte, was er
-        hatte. Dieser Zug machte ihn f\u00fcr viele unwiderstehlich.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Epstein (SX8w9):</strong>
-        Beide sind SX8w9 \u2013 und doch grundverschieden. <strong>Epstein</strong> operierte
-        im Verborgenen, baute Netzwerke und Schweigen. <strong>McAfee</strong> tat
-        alles \u00f6ffentlich, fast aufdringlich sichtbar. Die gleiche Leidenschaft,
-        zwei entgegengesetzte Stile: Epstein verbarg sich, McAfee inszenierte sich.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Krokodil</h3>
-        <p class="vb-intro"><strong>a) Uralt und unver\u00e4nderlich:</strong>
-        Krokodile existieren seit \u00fcber 200 Millionen Jahren \u2013 praktisch
-        unver\u00e4ndert. <strong>McAfees</strong> Werte und Prinzipien waren genauso
-        primitiv und best\u00e4ndig: Freiheit, St\u00e4rke, Unabh\u00e4ngigkeit. Er
-        war nicht bereit, sich zu zivilisieren. Evolution interessierte
-        ihn nicht.</p>
-        <p class="vb-intro"><strong>b) Tarnende Ruhe, blitzschneller Angriff:</strong>
-        Krokodile liegen stundenlang reglos im Wasser \u2013 und schlagen dann
-        mit t\u00f6dlicher Pr\u00e4zision zu. <strong>McAfee</strong> konnte entspannt und
-        harmlos wirken, bis ein Ausl\u00f6ser ihn aktivierte. Dann war die
-        Reaktion sofort und total. Der Neunerfl\u00fcgel lieferte die Ruhe,
-        die Acht den Schlag.</p>
-        <p class="vb-intro"><strong>c) Unber\u00fchrbar in seinem Territorium:</strong>
-        In seinem Element \u2013 ob Belize, im Netz oder vor Kameras \u2013
-        war <strong>McAfee</strong> unangreifbar. Das Krokodil dominiert seinen
-        Lebensraum nicht durch Geschwindigkeit, sondern durch Pr\u00e4senz.
-        <strong>McAfees</strong> Pr\u00e4senz war sein sch\u00e4rfster Schutz.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 8</h3>
-        <p class="vb-intro"><strong>a) Von der Kontrolle zur Hingabe:</strong>
-        Der Heilungsweg der Acht f\u00fchrt \u00fcber Hingabe \u2013 die F\u00e4higkeit,
-        loszulassen, zu vertrauen, verletzlich zu sein. <strong>McAfee</strong> kam
-        diesem Weg n\u00e4her, als er es zugegeben h\u00e4tte: In seinen letzten
-        Jahren zeigte er in Interviews eine seltene Offenheit \u00fcber
-        Einsamkeit und Ersch\u00f6pfung.</p>
-        <p class="vb-intro"><strong>b) St\u00e4rke, die sch\u00fctzt statt zerst\u00f6rt:</strong>
-        Die gesunde Acht nutzt ihre Kraft zum Schutz anderer \u2013 nicht
-        zur eigenen Vergr\u00f6\u00dferung. <strong>McAfee</strong> hatte diesen Impuls:
-        Er finanzierte Arme, unterst\u00fctzte Schw\u00e4chere, sprach f\u00fcr
-        Freiheitsrechte. Das war die lichte Seite seiner Kraft \u2013
-        sie kam nur selten unvermischt zum Ausdruck.</p>
-        <p class="vb-intro"><strong>c) Der unvollendete Weg:</strong>
-        <strong>McAfee</strong> starb, bevor irgendein Heilungsweg sich entfalten
-        konnte \u2013 oder wollte. Er hatte keine Geduld f\u00fcr innere Arbeit
-        und keinen Glauben an Transformation. F\u00fcr die Acht bleibt das
-        die gr\u00f6\u00dfte Gefahr: die \u00dcberzeugung, dass Schw\u00e4che nie sicher ist \u2013
-        und dass deshalb Heilung keine Option ist.</p>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SX8 \u2013 die sexuelle Acht: Besessenheit, Unbedingtheit und der Weg von der Zerst\u00f6rung zur sch\u00fctzenden Kraft.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 \u2013 alle Achter-Subtypen im \u00dcberblick.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausf\u00fchrlich portr\u00e4tiert \u2013 Wollust, Macht und der Heilungsweg \u00fcber echte St\u00e4rke ohne Kontrollzwang.", "Wer du wirklich bist \u2013 Band 1")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. John McAfee wurde nie wegen Mordes verurteilt, stand jedoch mehrfach unter Tatuverdacht und in Auslieferungsverfahren. Er starb 2021 in spanischer Untersuchungshaft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
-        {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina"},
-        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
-      ])}
-    </div>
-  `);
-}
-
-
 

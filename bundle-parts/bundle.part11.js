@@ -1,3 +1,182 @@
+function marilynMonroeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marilyn Monroe</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel · 1926–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Marilyn Monroe</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
+        jahrelang hinter dem makellosen Image verborgene Endometriose (eine chronische, oft
+        sehr schmerzhafte Erkrankung, bei der sich gebärmutterschleimhautähnliches Gewebe
+        außerhalb der Gebärmutter ansiedelt), eine eskalierende Schlafmittelabhängigkeit und
+        ein Tod 1962, dessen genaue Umstände bis heute umstritten sind.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Monroe</strong> ist dem <strong>sexuellen Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die SX3 richtet den Erfolgsanspruch der Drei auf unwiderstehliche
+        Anziehungskraft und Faszination im engsten, intimsten Kreis – und lebt zugleich mit
+        der tiefen Angst, hinter der Maske leer zu sein. Der Viererflügel bringt eine
+        melancholische Tiefe hinzu, die Sehnsucht nach einem authentischen Selbst jenseits der
+        Rolle – eine Spannung, die sich bis in Monroes verborgene Krankheitsgeschichte
+        nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Schmerz, der hinter dem Image verschwinden musste:</strong>
+        Monroes chronische Endometriose-Beschwerden durften das makellose öffentliche Bild
+        nie stören – Verträge sollen sie sogar gezielt vor Arbeit während besonders
+        schmerzhafter Phasen geschützt haben, ohne dass die Öffentlichkeit je davon erfuhr.</p>
+        <p class="vb-intro"><strong>b) Die eigene Erschöpfung als etwas, das nicht sein durfte:</strong>
+        Auch als Schlaflosigkeit und Medikamentenkonsum zunahmen, blieb der äußere Auftritt
+        bis zuletzt makellos inszeniert – die Kluft zwischen innerem Zustand und öffentlichem
+        Bild wuchs Jahr für Jahr.</p>
+        <p class="vb-intro"><strong>c) Ein Rückzug, der erst spät sichtbar wurde:</strong>
+        Erst 1962, bei den Dreharbeiten zu "Something's Got to Give", wurde der innere
+        Zusammenbruch für Außenstehende unübersehbar – vorher war er hinter Professionalität
+        und Selbstkontrolle verborgen geblieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine chronische, nie öffentlich gemachte Erkrankung:</strong>
+        Monroe litt ihr gesamtes Erwachsenenleben an Endometriose, wurde mehrfach operiert
+        und erlitt mindestens drei dokumentierte Fehlgeburten, darunter eine
+        Eileiterschwangerschaft 1957 – keine ihrer Schwangerschaften wurde ausgetragen.</p>
+        <p class="vb-intro"><strong>b) Eskalierende Schlafmittelabhängigkeit:</strong>
+        Bereits ab den frühen 1950er-Jahren dokumentiert, verschärfte sich der Konsum von
+        Barbituraten und Chloralhydrat über die Jahre; ab 1960 verschrieb ihr Psychiater
+        Ralph Greenson ihr regelmäßig Nembutal.</p>
+        <p class="vb-intro"><strong>c) Eine belastete familiäre Vorgeschichte:</strong>
+        Monroes Mutter litt an paranoider Schizophrenie, ihr Großvater mütterlicherseits
+        starb an einer Spätfolge einer unbehandelten Syphilis-Infektion in einer Anstalt –
+        Monroe selbst fürchtete zeitlebens, wie ein Fluch liege psychische Erkrankung über
+        ihrer Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vier Tage in der geschlossenen Psychiatrie:</strong>
+        Im Februar 1961 wurde Monroe von ihrer Analytikerin in die Payne Whitney Psychiatric
+        Clinic eingewiesen, in der Annahme, dort eine "Ruhekur" zu erhalten. Stattdessen
+        landete sie auf einer geschlossenen Station, die sie später mit einem Gefängnis
+        verglich – nach vier Tagen wurde sie auf Betreiben von Joe DiMaggio entlassen.</p>
+        <p class="vb-intro"><strong>b) Siebzehn versäumte Drehtage:</strong>
+        Bei den Dreharbeiten zu "Something's Got to Give" 1962 fehlte Monroe an siebzehn von
+        dreißig Drehtagen wegen Krankheit; die Produktion geriet über eine Million Dollar
+        über Budget.</p>
+        <p class="vb-intro"><strong>c) Entlassung durch das Studio:</strong>
+        Am 8. Juni 1962 entließ 20th Century Fox sie wegen "spektakulärer Abwesenheit" und
+        verklagte sie auf 750.000 Dollar – eine Wiedereinstellung für den Herbst wurde zwar
+        noch ausgehandelt, kam durch ihren Tod aber nicht mehr zustande.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 4./5. August 1962:</strong>
+        Monroe wurde tot in ihrem Haus in Brentwood aufgefunden. Die Autopsie stellte eine
+        tödliche Kombination aus Nembutal und Chloralhydrat fest – eine Menge, die laut dem
+        zuständigen Coroner ausgereicht hätte, um mehrere Menschen zu töten.</p>
+        <p class="vb-intro"><strong>b) Eine offiziell bewusst vorsichtige Formulierung:</strong>
+        Der Coroner stufte den Tod als "wahrscheinlichen Suizid" ein – nicht als
+        zweifelsfreien Suizid. Diese eingebaute Unsicherheit ist Teil des offiziellen
+        Befundes selbst, nicht nachträgliche Spekulation.</p>
+        <p class="vb-intro"><strong>c) Bis heute unbewiesene Gegentheorien:</strong>
+        Neben einer versehentlichen Überdosis und Suizid kursieren bis heute
+        Mordtheorien, meist im Kontext angeblicher Affären mit John und Robert Kennedy –
+        historiografisch gelten diese als unbewiesen und spekulativ, wurden aber nie
+        vollständig widerlegt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Glanz als Überlebensstrategie bis zur Erschöpfung:</strong>
+        Die strahlende, faszinierende Öffentlichkeitspersona verlangte Monroe ein Höchstmaß
+        an Energie ab, während im Verborgenen Schmerz, Schlaflosigkeit und Medikamentenkonsum
+        zunahmen.</p>
+        <p class="vb-intro"><strong>b) Ein Rückzug, der wie Kontrollverlust aussah:</strong>
+        Die zunehmenden Fehlzeiten am Set 1962 lassen sich auch als Bewegung Richtung des
+        Neuner-Stresspunkts der Drei lesen: Rückzug, Verzögerung, ein passives Entgleiten
+        statt eines offen ausgetragenen Zusammenbruchs.</p>
+        <p class="vb-intro"><strong>c) Der Pfau, dessen Federn zuletzt kaum noch zu tragen waren:</strong>
+        Bis zuletzt versuchte Monroe, die öffentliche Erwartung an Glanz und Perfektion zu
+        erfüllen, selbst als die eigene Kraft dafür längst nicht mehr ausreichte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Kindheit voller Brüche:</strong>
+        Elf Pflegefamilien, zeitweise ein Waisenhausaufenthalt und sexueller Missbrauch in
+        mindestens drei Pflegefamilien prägten Monroes frühe Jahre – eine Vorgeschichte, die
+        sie selbst später mit ihrer psychischen Verletzlichkeit in Verbindung brachte.</p>
+        <p class="vb-intro"><strong>b) Eine Krankheit, die zwei Jahrzehnte lang verborgen blieb:</strong>
+        Von den ersten dokumentierten Beschwerden bis zu ihrem Tod 1962 zieht sich eine
+        durchgehende, aber öffentlich fast vollständig unsichtbare Linie aus chronischem
+        Schmerz und zunehmender Medikamentenabhängigkeit.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Jahr des offenen Zusammenbruchs:</strong>
+        Erst 1962 – Klinikaufenthalt, versäumte Drehtage, Entlassung – wurde sichtbar, was
+        zuvor jahrelang hinter der Fassade gehalten worden war.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die reproduktiven Organe?</strong>
+        Für eine sexuelle Drei mit Viererflügel, deren öffentliches Image untrennbar mit
+        Weiblichkeit, Begehrenswürdigkeit und makelloser Ausstrahlung verbunden war, liegt
+        eine Deutung nahe: Ausgerechnet jener Körperbereich, der am unmittelbarsten mit dem
+        vermarkteten Bild der Fruchtbarkeit und Verführung verknüpft war, wurde zum Ort
+        chronischen, geheim gehaltenen Leidens. Der Schmerz, der am wenigsten zum Image
+        passte, war genau der, den sie am längsten verbarg. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu Endometriose
+        oder Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Monroes Fall zeigen lässt, ist
+        ein Muster, das bei dem Bedürfnis, Schmerz und Verletzlichkeit hinter einem
+        makellosen öffentlichen Bild zu verbergen, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Monroe kannte ihr eigenes Muster nicht – die sexuelle Drei mit Viererflügel hält das makellose Bild um jeden Preis aufrecht, auch gegenüber sich selbst, und genau das ließ sie eine schmerzhafte Erkrankung jahrelang hinter genau diesem Bild verbergen, statt sich Hilfe zu holen, die die Fassade hätte gefährden können. Wer das eigene Bedürfnis nach einem makellosen Bild nicht als Muster erkennt, opfert diesem Bild am Ende die eigene Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Am Beispiel <strong>Monroes</strong> zeigt sich die sexuelle Drei mit Viererflügel
+        noch einmal auf besonders schmerzhafte Weise: eine chronische Krankheit, jahrelang
+        hinter makellosem Glanz verborgen, eine eskalierende Medikamentenabhängigkeit und ein
+        Tod, dessen genaue Umstände bis heute nicht abschließend geklärt sind. Der Pfau,
+        dessen Federn der Welt Schönheit zeigten, während dahinter ein erschöpfter,
+        schmerzgeplagter Körper um Beachtung rang, die er sich selbst nie erlaubte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
+      ])}
+    </div>
+  `);
+}
+
 function ladyDianaKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13016,87 +13195,6 @@ function josefVonArimathaeaPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
         {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Porträt: Ruben, der Schriftgelehrte (SO1w2)"},
-      ])}
-    </div>
-  `);
-}
-
-function rubenSchriftgelehrterPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("enneagramm-bibel")}
-      <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Ruben, der Schriftgelehrte – Portrait" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ruben, der Schriftgelehrte</p>
-        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Schriftgelehrter in dritter Generation – Tierentsprechung: Gans</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <div class="page-content">
-
-        <p class="vb-intro" style="font-style:italic;text-align:center;margin-bottom:1.5rem;">»Sie binden schwere Lasten und legen sie den Menschen auf die Schultern, wollen sie aber selbst nicht mit einem Finger anrühren.« (Mt 23,4)</p>
-
-        <h2 class="vb-section">1. Die Gans</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – ein Tier, das im Verband fliegt, die Formation hält und mit lauter, unnachgiebiger Stimme darauf besteht, dass alle in derselben Ordnung bleiben. Ruben liebte den Klang der Morgengebete – nicht weil sie ihn berührten, sondern weil sie ihn erinnerten: an die Ordnung, an die jahrhundertealte Linie, in die er sich eingereiht hatte wie ein wohlgesetzter Buchstabe in einer Rolle heiliger Schrift. Er war Schriftgelehrter in dritter Generation. Sein Vater hatte die Psalmen auswendig gekannt, sein Großvater in Masada die Gesetze kopiert, als wären sie göttliche Musik.</p>
-          <p class="vb-intro">Sein Haus war schlicht, aber diszipliniert: Die Bücher lagen gestapelt nach Alter und Bedeutung, jede Ecke gewischt, der Ölkrug hatte einen festen Platz. Ordnung war für Ruben kein Konzept, sondern Verpflichtung – ein heiliger Rhythmus, den man nicht hinterfragte, sondern weitergab und bewahrte, gegen die Willkür, gegen das Chaos der Welt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die soziale Eins: Ordnung als Rettung der Welt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Vollkommenheitsanspruch nicht wie die selbsterhaltende Eins nach innen, sondern nach außen, auf die Gesellschaft: Wenn jeder das Richtige täte, wäre die Welt heil. Am Markttor begegnete Ruben einem Kind, das Fisch und Brot fallen ließ. Statt nur zu trösten, urteilte er sofort mit fachkundiger Präzision, welches Stück nach dem Reinheitsgebot noch zu retten war und welches nicht. Er war ein Mann, der half – aber durch Vorschrift, nicht durch bloßes Mitgefühl.</p>
-          <p class="vb-intro">Als Jesus im Tempelhof lehrte, trat Ruben nicht aus Neugier näher, sondern aus einem inneren Reflex: <em>Etwas stimmt nicht.</em> Wer öffentlich spricht, muss geprüft werden. Er stellte sich vor die Menge und forderte Rechenschaft: »Warum achtest du das Gesetz nicht wie unsere Väter?« Der Ton, den er anschlug, war nicht der eines Suchenden, sondern der einer Forderung – die soziale Eins, die glaubt, dass Regeln den Menschen tragen, und die sich verpflichtet fühlt, das öffentlich einzufordern.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Zweierflügel: Der Lehrer, der über die Vorschrift hinaus berührt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Eins eine persönliche, zuwendende Note: Sie korrigiert nicht aus der Distanz, sondern im direkten Gespräch, im Unterrichten von Schülern, im Zuhören. Ruben war Lehrer in dritter Generation – jemand, der jungen Männern beibrachte, wie man Opfer richtig darbringt, wie man betet, wie viele Schritte man am Sabbat gehen darf. Seine Strenge war nie anonym; sie richtete sich immer an ein konkretes Gegenüber.</p>
-          <p class="vb-intro">Genau diese Zuwendung wurde später zu seinem Wendepunkt: Als ein alter Schüler ihn fragte, ob eine weinende, betende Frau dadurch unrein werde, antwortete Ruben nicht mehr mit einem Verweis auf das Gesetz, sondern persönlich, warm: »Wenn sie weint, weil sie geliebt hat – dann ist sie reiner, als viele, die nie berührt wurden.« Der Zweierflügel, der die Regel durch die Beziehung hindurch neu lesen lernt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Begegnung: »Du überliest das Herz«</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jesus antwortete auf Rubens öffentliche Zurechtweisung nicht mit Gegenangriff, sondern mit einem einzigen, leise gesprochenen Satz: »Du liest die Schrift. Aber du überliest das Herz.« Er traf Ruben wie ein Stein – nicht theologisch, sondern persönlich. Denn wenn Jesus recht hatte, war alles, wofür Ruben sich seit Jahren verzehrt hatte, nicht falsch, aber unvollständig.</p>
-          <p class="vb-intro">In der Stille danach erinnerte sich Ruben an die Krankheit seines Bruders, an den frühen Tod seiner Mutter – Schmerz, der sich nie in Trauer entladen hatte, sondern in Disziplin verwandelt worden war: Wenn ich alles richtig mache, wird nichts mehr zerbrechen. Das Gesetz hatte ihn gehalten wie ein Gerüst den Stein. Jetzt stellte ein einziger Satz nicht das Gesetz infrage, sondern Rubens Verhältnis dazu: Was, wenn die Vorschrift ein Mittel war – und nicht das Ziel?</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Kreuzigung und die stille Wahrhaftigkeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als die Nachricht von der Kreuzigung kam, ging Ruben nicht zum Richtplatz. Er blieb in seinem Haus, saß auf dem Boden – nicht aus Trauer, sondern weil sein Körper keine andere Haltung fand. <em>Was, wenn wir ihn verkannt haben?</em> Der Gedanke war leise, aber da. Er dachte an Jesu Satz über die Lasten, die man anderen aufbürdet, ohne sie selbst zu tragen – ein Satz, der ihn damals wütend gemacht hatte und ihn jetzt nur noch still machte.</p>
-          <p class="vb-intro">Zum ersten Mal in seinem Leben fragte er sich: Ist das Maß, das ich für andere anlege, wirklich dasselbe, das ich für mich selbst verwende? Kein Urteil – der Anfang einer Wahrhaftigkeit, die nicht sprach, sondern horchte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Das Gesetz mit anderen Augen lesen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">In den Tagen danach kehrte Ruben nicht in den Tempelhof zurück, um zu lehren. Er wurde leiser – nicht schwächer, sondern weicher im Blick. Er begann, das Gesetz neu zu lesen: nicht weniger genau, aber mit der Frage, was ein Gebot eigentlich bewahren, wovor es schützen soll. <em>Das Gesetz ohne Barmherzigkeit ist ein Messer ohne Griff.</em> Das ist das Geschenk der SO1w2: eine Strenge, die durch Zuwendung hindurch lernt, dass die Regel dem Menschen dienen muss – nicht umgekehrt.</p>
-          <p class="vb-intro">Ruben sah Jesus nie wieder. Aber ein Blick blieb ihm im Sinn, nicht streng, nicht weich, sondern durchdringend und still: <em>Sieh nicht nur, was geschrieben steht. Sieh, was es dir zeigen will.</em> Der Schriftgelehrte, der Gesetzeswächter, der öffentliche Mahner begann, innerlich neu zu schreiben – nicht an den Tafeln des Gesetzes, sondern an der stillsten Stelle seines Herzens.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Lied: Zwischen Gesetz und Gnade</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Zu Ruben, dem Schriftgelehrten, ist ein eigener Song entstanden, der seine seelische Stimme hörbar macht.</p>
-          <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0" title="Zwischen Gesetz und Gnade – Ruben, der Schriftgelehrte" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
-          </div>
-        </blockquote>
-
-      </div>
-      ${bookTip("die-27-gesichter-der-seele-ein-psychologischer-subtypenroman", "Alle 27 Kapitel ausführlich, mit sämtlichen Songs – die vollständige Vorlage dieser Rubrik als psychologischer Subtypenroman.", "Die 27 Gesichter der Seele – Ein psychologischer Subtypenroman")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${relatedLinks([
-        {route:"enneagramm-bibel", label:"Alle Bibel-Porträts"},
-        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
-        {route:"beruehmte-konfuzius", label:"Portrait: Konfuzius (SO1w2)"},
-        {route:"bibel-josef-von-arimathaea", label:"Bibel-Porträt: Josef von Arimathäa (SE1w9)"},
-        {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
       ])}
     </div>
   `);

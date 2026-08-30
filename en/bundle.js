@@ -971,6 +971,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Serdar Somuncu – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1968. German-Turkish comedian, director, and author. Classically trained percussionist and theater director, known for over 1,500 staged readings from Hitler's \"Mein Kampf,\" at times under police protection and wearing a bulletproof vest. Reached over half a million viewers across Europe. Animal correspondence: Raccoon.",
     land:"Germany/Turkey", tags:["Comedy"], gender:"m"},
+{ route:"beruehmte-gangaji", name:"Gangaji", added:"2026-08-30", subtyp:"SX4w3",
+    heading:"Gangaji – Sexual Four",
+    teaser:"SX4w3 · b. 1942. American spiritual teacher. Teacher, activist, and acupuncturist before meeting H. W. L. Poonja (Papaji) in India in 1990, who gave her the name Gangaji. Founder of the Gangaji Foundation, author of \"You Are That!\" and \"The Diamond in Your Pocket,\" known for her language of longing and intensity. Animal correspondence: Chihuahua.",
+    land:"USA", tags:["Sonstiges"], gender:"f"},
 { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
@@ -44750,6 +44754,70 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function gangajiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gangaji-portrait.jpg" alt="Gangaji" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gangaji</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Four with Three-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher, b. 1942 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four – an animal that looks unassuming by origin and outward appearance, yet carries an inner life of almost unmanageable intensity. Gangaji was born Merle Antoinette Roberson in Mississippi in 1942 and first worked as a teacher in Memphis, then as a political activist, and later as an acupuncturist – a life that outwardly moved through several respectable, conventional paths, none of which ever settled the restlessness underneath.</p>
+          <p class="vb-intro">In 1972 she moved to California, later divorced her first husband, and entered a second marriage with Eli Jaxon-Bear, with whom she ran a Tibetan Buddhist dharma center. None of these stations were a wrong turn – each was another form in which the same underlying longing for something more real sought expression, before she traveled to India in 1990.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Rivalistic Envy as Longing Without Half-Measures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Four (SX4)</strong> is the countertype of the Four – Naranjo called this subtype <em>Rivalistic Envy</em>: an intensity out of all proportion to outward appearance or starting conditions. No half-feeling, no moderated presence – whatever is felt is felt fully. In India, Gangaji met H. W. L. Poonja, known as Papaji, a student of Ramana Maharshi, who gave her the name Gangaji in that encounter and made her a teacher.</p>
+          <p class="vb-intro">From the Mississippi teacher who had passed through several conventional careers and two marriages, one of the best-known Western voices of the neo-Advaita movement emerged within just a few years. Her language remained throughout one of longing and burning: "If you are longing for peace or freedom, make yourself a target so that it finds you. The best way to make yourself a target is to be still" – rivalistic envy not as rivalry with others, but as a longing that tolerates no half-measure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: From Quiet Search to Visible Teaching Mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> translates the Four's inner intensity into visible, structured outward impact. After returning from India, Gangaji did not stay with quiet inner contemplation but built her own teaching institution with the Gangaji Foundation, held regular satsang gatherings, and published a six-book body of work including "You Are That!" (1995) and "The Diamond in Your Pocket" (2005).</p>
+          <p class="vb-intro">Her satsangs are deliberately intense and present-focused, with herself at the center of the collective experience – not a withdrawn meditation practice, but a publicly visible, professionally organized stage for the same longing that had carried her through her earlier life stations. The Three-wing supplies the structure and public presence; the Sexual Four underneath supplies the intensity that makes that presence unmistakable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The 2005 Crisis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In October 2005, Eli Jaxon-Bear confessed to Gangaji a three-year affair with a student. Rather than concealing the crisis or quietly continuing their shared life's work, Gangaji publicly and visibly separated from him first – a radical response that admitted no half-measure, fully in the spirit of rivalistic envy, which does not dampen betrayal but lives it through at full intensity.</p>
+          <p class="vb-intro">After three months came reconciliation, and the two previously separately run foundations were merged. This episode shows the typical SX4 stance: no quiet suppression of a rupture, but the full, public living-through of injury, separation, and reapproachment – as part of the same truthfulness she herself taught.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 is the ability to <strong>turn a deeply personal longing into a publicly effective, structured teaching mission</strong> – Gangaji's path from Mississippi teacher to internationally known satsang teacher shows how much reach an intensity can gain once it no longer holds itself back within conventional bounds.</p>
+          <p class="vb-intro">The Four's fatal flaw is <strong>envy</strong> – in the Sexual Four as rivalistic envy, the need to always go further in intensity and realness than others. Critics of the neo-Advaita movement, to which Gangaji is counted, point out that Papaji himself is said to have later expressed doubts about the legitimacy of several of his Western students – a reminder of how hard it is, within this movement especially, to distinguish depth from mere stage intensity when no traditional teaching lineage secures one's own authority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Chihuahua That Made Longing a Teaching</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gangaji is among the best-known Western voices of the satsang movement – not because of a single spectacular act, but because of a body of work sustained across decades that turned a radical personal longing into a structured teaching mission.</p>
+          <p class="vb-intro">From a teacher and activist in Mississippi, through her 1990 encounter with Papaji, to founder of her own, globally active foundation: this is the Sexual Four with a Three-wing in its most mature form – an intensity that admits no half-measure, and that, instead of hiding, built itself an unmistakable stage of its own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – The Chihuahua"},
+      ])}
+    </div>
+  `);
+}
+
 function serdarSomuncuPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47094,12 +47162,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Jude Thaddaeus"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
         beschreibung: "Naranjo called this subtype the one of 'Competitiveness': an intensity utterly disproportionate to outward appearance or starting conditions. No half-feeling, no moderate demeanor – whatever is felt is felt completely.",
-        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures'; Paris Hilton, whose years-long companion, the Chihuahua Tinkerbell, became a literal emblem of her own unmistakable stage intensity; Jude Thaddaeus, the barely mentioned disciple, whose entire being was nonetheless 'full of longing, full of fire, full of questions, full of hunger for deep, real connection' – small at the edge of tradition, immense in the one question he dared to ask."
+        beleg: "Freddie Mercury: 'The Chihuahua who turns into a lion – and never stops being a Chihuahua'; Rihanna, from 'a child from the Caribbean to the most global entertainer of her generation': 'Small, where she comes from. Unstoppable, where she's going'; Billie Eilish: 'It doesn't shake out of weakness, but out of alertness: every fiber of its small body is tuned to intensity'; Dante, Debussy, and the Marquis de Sade are described in almost identical terms: 'Small in stature, immense inner life, incapable of half-measures'; Paris Hilton, whose years-long companion, the Chihuahua Tinkerbell, became a literal emblem of her own unmistakable stage intensity; Bill Kaulitz, whose unusually high, piercing voice set him apart from his peers even as a child – a trait he never tried to hide, but instead spent two decades consistently turning into an unmistakable public image; Jude Thaddaeus, the barely mentioned disciple, whose entire being was nonetheless 'full of longing, full of fire, full of questions, full of hunger for deep, real connection' – small at the edge of tradition, immense in the one question he dared to ask; Gangaji, who went from a Mississippi teacher to one of the best-known Western satsang teachers within just a few years: 'If you are longing for peace or freedom, make yourself a target so that it finds you' – unassuming origin, immense intensity in the longing she taught."
       },
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
@@ -102768,6 +102836,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
+      "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

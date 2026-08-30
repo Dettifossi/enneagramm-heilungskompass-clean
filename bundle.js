@@ -32952,6 +32952,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Serdar Somuncu – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1968. Deutsch-türkischer Kabarettist, Regisseur und Autor. Klassisch ausgebildeter Schlagzeuger und Schauspielregisseur, bekannt für über 1.500 szenische Lesungen aus Hitlers ›Mein Kampf‹, teils unter Polizeischutz mit kugelsicherer Weste. Über eine halbe Million Zuschauer europaweit erreicht. Tierentsprechung: Waschbär.",
     land:"Deutschland/Türkei", tags:["Comedy"], gender:"m"},
+  { route:"beruehmte-gangaji", name:"Gangaji", added:"2026-08-30", subtyp:"SX4w3",
+    heading:"Gangaji – Sexuelle Vier mit Dreierflügel",
+    teaser:"SX4w3 · geb. 1942. US-amerikanische spirituelle Lehrerin. Lehrerin, Aktivistin und Akupunkteurin, bevor sie 1990 in Indien H. W. L. Poonja (Papaji) begegnete, der ihr den Namen Gangaji gab. Gründerin der Gangaji Foundation, Autorin von ›You Are That!‹ und ›The Diamond in Your Pocket‹, bekannt für ihre Sprache der Sehnsucht und Intensität. Tierentsprechung: Chihuahua.",
+    land:"USA", tags:["Sonstiges"], gender:"w"},
   { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
@@ -45139,12 +45143,12 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Klein von Gestalt, riesig im Innenleben – Intensität, die keine Halbheiten kennt (Naranjo: Konkurrenzneid)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Judas Thaddäus"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Judas Thaddäus", "Gangaji"],
     fingerabdruecke: [
       {
         titel: "Klein von Gestalt oder Herkunft, riesig im Innenleben – Intensität ohne Halbheiten",
         beschreibung: "Naranjo nannte diesen Subtyp den des ›Konkurrenzneids‹: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt.",
-        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde; Bill Kaulitz, dessen ungewöhnlich hohe, durchdringende Stimme ihn schon als Kind von Gleichaltrigen unterschied – ein Merkmal, das er nie zu verstecken versuchte, sondern über zwei Jahrzehnte konsequent in ein unübersehbares öffentliches Erscheinungsbild verwandelte; Judas Thaddäus, der kaum je erwähnte Jünger, dessen ganzes Sein doch »voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung« war – klein am Rand der Überlieferung, riesig in der einen Frage, die er zu stellen wagte."
+        beleg: "Freddie Mercury: ›Der Chihuahua, der sich in einen Löwen verwandelt – und dabei nie aufhört, ein Chihuahua zu sein‹; Rihanna, vom ›Kind aus der Karibik zur globalsten Entertainerin ihrer Generation‹: ›Klein, woher er kommt. Unaufhaltsam, wohin er geht‹; Billie Eilish: ›Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet‹; Dante, Debussy und Marquis de Sade werden fast wortgleich beschrieben: ›Klein von Gestalt, gewaltig im Innenleben, unfähig zu Halbheiten‹; Paris Hilton, deren jahrelanger Begleiter, der Chihuahua Tinkerbell, buchstäblich zum Sinnbild ihrer eigenen, unübersehbaren Bühnenintensität wurde; Bill Kaulitz, dessen ungewöhnlich hohe, durchdringende Stimme ihn schon als Kind von Gleichaltrigen unterschied – ein Merkmal, das er nie zu verstecken versuchte, sondern über zwei Jahrzehnte konsequent in ein unübersehbares öffentliches Erscheinungsbild verwandelte; Judas Thaddäus, der kaum je erwähnte Jünger, dessen ganzes Sein doch »voll Sehnsucht, voll Feuer, voll Fragen, voll Hunger nach tiefer, echter Verbindung« war – klein am Rand der Überlieferung, riesig in der einen Frage, die er zu stellen wagte; Gangaji, aus einer Mississippi-Lehrerin binnen weniger Jahre eine der bekanntesten westlichen Satsang-Lehrerinnen: ›Wenn Sie sich nach Frieden oder Freiheit sehnen, machen Sie sich selbst zum Ziel, damit es Sie findet‹ – unscheinbare Herkunft, riesige Intensität in der Sehnsucht, die sie lehrte."
       },
       {
         titel: "Zurückweisung oder Verbannung wird zu schöpferischer Kraft, statt in Rache oder Resignation zu münden",
@@ -73629,6 +73633,70 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function gangajiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gangaji-portrait.jpg" alt="Gangaji" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gangaji</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexuelle Vier mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Spirituelle Lehrerin, geb. 1942 – Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
+          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit Eli Jaxon-Bear ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 nach Indien reiste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Konkurrenzneid als Sehnsucht ohne Halbheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien traf Gangaji auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
+          <p class="vb-intro">Aus der Mississippi-Lehrerin, die durch mehrere bürgerliche Berufe und zwei Ehen gegangen war, wurde binnen weniger Jahre eine der bekanntesten westlichen Stimmen der Neo-Advaita-Bewegung. Ihre Sprache blieb dabei durchgehend eine der Sehnsucht und des Brennens: ›Wenn Sie sich nach Frieden oder Freiheit sehnen, machen Sie sich selbst zum Ziel, damit es Sie findet. Der beste Weg, sich zum Ziel zu machen, ist, still zu werden‹ – Konkurrenzneid nicht als Rivalität mit anderen, sondern als eine Sehnsucht, die keine Halbheit erträgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der stillen Suche zur sichtbaren Lehrmission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die innere Intensität der Vier in sichtbare, strukturierte Wirkung nach außen. Gangaji blieb nach ihrer Rückkehr aus Indien nicht bei der stillen Innenschau, sondern baute mit der Gangaji Foundation eine eigene Lehrinstitution auf, veranstaltete regelmäßige Satsang-Zusammenkünfte und veröffentlichte mit ›You Are That!‹ (1995), ›The Diamond in Your Pocket‹ (2005) und weiteren Büchern ein sechsteiliges publizistisches Werk.</p>
+          <p class="vb-intro">Ihre Satsangs sind bewusst intensiv und gegenwartsfokussiert angelegt, mit ihr selbst im Zentrum der kollektiven Erfahrung – keine zurückgezogene Meditationspraxis, sondern eine öffentlich sichtbare, professionell organisierte Bühne für dieselbe Sehnsucht, die sie durch ihre früheren Lebensstationen getragen hatte. Der Dreierflügel liefert die Struktur und die öffentliche Präsenz, die sexuelle Vier darunter liefert die Intensität, die diese Präsenz erst unverwechselbar macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Krise von 2005</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 2005 gestand Eli Jaxon-Bear Gangaji eine dreijährige Affäre mit einer Schülerin. Statt die Krise zu verschweigen oder das gemeinsame Lebenswerk stillschweigend fortzusetzen, trennte sich Gangaji zunächst öffentlich sichtbar von ihm – eine radikale Reaktion, die keine Halbheit kannte, ganz im Sinn des Konkurrenzneids, der auch Verrat nicht gedämpft, sondern in voller Intensität durchlebt.</p>
+          <p class="vb-intro">Nach drei Monaten kam es zur Versöhnung, die beiden bis dahin getrennt geführten Foundations wurden zusammengelegt. Diese Episode zeigt die typische SX4-Haltung: keine stille Verdrängung eines Bruchs, sondern das volle, öffentliche Durchleben von Verletzung, Trennung und Wiederannäherung – als Teil derselben Wahrhaftigkeit, die sie selbst lehrte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche Sehnsucht in eine öffentlich wirksame, strukturierte Lehrmission</strong> zu verwandeln – Gangajis Weg von der Mississippi-Lehrerin zur international bekannten Satsang-Lehrerin zeigt, wie viel Reichweite eine Intensität entfalten kann, die sich nicht länger in bürgerlichen Bahnen zurückhält.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der sexuellen Vier als Konkurrenzneid, das Bedürfnis, an Intensität und Wirklichkeit stets weiter zu gehen als andere. Kritiker der Neo-Advaita-Bewegung, zu der Gangaji gezählt wird, verweisen darauf, dass Papaji selbst später Zweifel an der Legitimation mehrerer seiner westlichen Schüler geäußert haben soll – ein Hinweis darauf, wie schwer sich gerade in dieser Bewegung Tiefe von bloßer Bühnenintensität unterscheiden lässt, wenn keine traditionelle Lehrlinie die eigene Autorität absichert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Chihuahua, der Sehnsucht zur Lehre machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gangaji gehört zu den bekanntesten westlichen Stimmen der Satsang-Bewegung – nicht wegen einer spektakulären einzelnen Aktion, sondern wegen eines jahrzehntelang fortgesetzten, öffentlich sichtbaren Werks, das eine radikale persönliche Sehnsucht in eine strukturierte Lehrmission verwandelte.</p>
+          <p class="vb-intro">Von der Lehrerin und Aktivistin aus Mississippi über die Begegnung mit Papaji 1990 bis zur Gründerin einer eigenen, weltweit aktiven Foundation: Das ist die sexuelle Vier mit Dreierflügel in ihrer reifsten Form – eine Intensität, die keine Halbheit kennt und die sich, statt sich zu verbergen, eine eigene, unübersehbare Bühne baute.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Der Chihuahua"},
       ])}
     </div>
   `);
@@ -138494,6 +138562,7 @@ function render() {
       "beruehmte-yayoi-kusama": yayoiKusamaPortraitPage,
       "beruehmte-joseph-haydn": josephHaydnPortraitPage,
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
+      "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

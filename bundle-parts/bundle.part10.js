@@ -820,6 +820,70 @@ function josephHaydnPortraitPage() {
   `);
 }
 
+function gangajiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gangaji-portrait.jpg" alt="Gangaji" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gangaji</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexuelle Vier mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Spirituelle Lehrerin, geb. 1942 – Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier – ein Tier, das nach Herkunft und äußerer Erscheinung unscheinbar wirkt und doch ein Innenleben von kaum zu bändigender Intensität trägt. Gangaji wurde 1942 als Merle Antoinette Roberson in Mississippi geboren und arbeitete zunächst als Lehrerin in Memphis, dann als politische Aktivistin und später als Akupunkteurin – ein Leben, das äußerlich in mehreren bürgerlichen Bahnen verlief, ohne dass eine davon je die eigentliche Unruhe darunter stillte.</p>
+          <p class="vb-intro">1972 zog sie nach Kalifornien, ließ sich später von ihrem ersten Mann scheiden und ging eine zweite Ehe mit Eli Jaxon-Bear ein, mit dem sie ein tibetisch-buddhistisches Dharma-Zentrum betrieb. Keine dieser Stationen war ein Irrweg – jede war eine weitere Form, in der dieselbe grundlegende Sehnsucht nach etwas Wirklicherem einen Ausdruck suchte, bevor sie 1990 nach Indien reiste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Konkurrenzneid als Sehnsucht ohne Halbheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der Kontratyp der Vier – Naranjo nannte diesen Subtyp <em>Konkurrenzneid</em>: eine Intensität, die in keinem Verhältnis zur äußeren Erscheinung oder zu den Startbedingungen steht. Kein halbes Fühlen, kein gemäßigtes Auftreten – was gefühlt wird, wird vollständig gefühlt. In Indien traf Gangaji auf H. W. L. Poonja, genannt Papaji, einen Schüler Ramana Maharshis, der ihr in dieser Begegnung den Namen Gangaji gab und sie zur Lehrerin machte.</p>
+          <p class="vb-intro">Aus der Mississippi-Lehrerin, die durch mehrere bürgerliche Berufe und zwei Ehen gegangen war, wurde binnen weniger Jahre eine der bekanntesten westlichen Stimmen der Neo-Advaita-Bewegung. Ihre Sprache blieb dabei durchgehend eine der Sehnsucht und des Brennens: ›Wenn Sie sich nach Frieden oder Freiheit sehnen, machen Sie sich selbst zum Ziel, damit es Sie findet. Der beste Weg, sich zum Ziel zu machen, ist, still zu werden‹ – Konkurrenzneid nicht als Rivalität mit anderen, sondern als eine Sehnsucht, die keine Halbheit erträgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der stillen Suche zur sichtbaren Lehrmission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die innere Intensität der Vier in sichtbare, strukturierte Wirkung nach außen. Gangaji blieb nach ihrer Rückkehr aus Indien nicht bei der stillen Innenschau, sondern baute mit der Gangaji Foundation eine eigene Lehrinstitution auf, veranstaltete regelmäßige Satsang-Zusammenkünfte und veröffentlichte mit ›You Are That!‹ (1995), ›The Diamond in Your Pocket‹ (2005) und weiteren Büchern ein sechsteiliges publizistisches Werk.</p>
+          <p class="vb-intro">Ihre Satsangs sind bewusst intensiv und gegenwartsfokussiert angelegt, mit ihr selbst im Zentrum der kollektiven Erfahrung – keine zurückgezogene Meditationspraxis, sondern eine öffentlich sichtbare, professionell organisierte Bühne für dieselbe Sehnsucht, die sie durch ihre früheren Lebensstationen getragen hatte. Der Dreierflügel liefert die Struktur und die öffentliche Präsenz, die sexuelle Vier darunter liefert die Intensität, die diese Präsenz erst unverwechselbar macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Krise von 2005</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 2005 gestand Eli Jaxon-Bear Gangaji eine dreijährige Affäre mit einer Schülerin. Statt die Krise zu verschweigen oder das gemeinsame Lebenswerk stillschweigend fortzusetzen, trennte sich Gangaji zunächst öffentlich sichtbar von ihm – eine radikale Reaktion, die keine Halbheit kannte, ganz im Sinn des Konkurrenzneids, der auch Verrat nicht gedämpft, sondern in voller Intensität durchlebt.</p>
+          <p class="vb-intro">Nach drei Monaten kam es zur Versöhnung, die beiden bis dahin getrennt geführten Foundations wurden zusammengelegt. Diese Episode zeigt die typische SX4-Haltung: keine stille Verdrängung eines Bruchs, sondern das volle, öffentliche Durchleben von Verletzung, Trennung und Wiederannäherung – als Teil derselben Wahrhaftigkeit, die sie selbst lehrte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 ist die Fähigkeit, <strong>eine zutiefst persönliche Sehnsucht in eine öffentlich wirksame, strukturierte Lehrmission</strong> zu verwandeln – Gangajis Weg von der Mississippi-Lehrerin zur international bekannten Satsang-Lehrerin zeigt, wie viel Reichweite eine Intensität entfalten kann, die sich nicht länger in bürgerlichen Bahnen zurückhält.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der sexuellen Vier als Konkurrenzneid, das Bedürfnis, an Intensität und Wirklichkeit stets weiter zu gehen als andere. Kritiker der Neo-Advaita-Bewegung, zu der Gangaji gezählt wird, verweisen darauf, dass Papaji selbst später Zweifel an der Legitimation mehrerer seiner westlichen Schüler geäußert haben soll – ein Hinweis darauf, wie schwer sich gerade in dieser Bewegung Tiefe von bloßer Bühnenintensität unterscheiden lässt, wenn keine traditionelle Lehrlinie die eigene Autorität absichert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Chihuahua, der Sehnsucht zur Lehre machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gangaji gehört zu den bekanntesten westlichen Stimmen der Satsang-Bewegung – nicht wegen einer spektakulären einzelnen Aktion, sondern wegen eines jahrzehntelang fortgesetzten, öffentlich sichtbaren Werks, das eine radikale persönliche Sehnsucht in eine strukturierte Lehrmission verwandelte.</p>
+          <p class="vb-intro">Von der Lehrerin und Aktivistin aus Mississippi über die Begegnung mit Papaji 1990 bis zur Gründerin einer eigenen, weltweit aktiven Foundation: Das ist die sexuelle Vier mit Dreierflügel in ihrer reifsten Form – eine Intensität, die keine Halbheit kennt und die sich, statt sich zu verbergen, eine eigene, unübersehbare Bühne baute.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Der Chihuahua"},
+      ])}
+    </div>
+  `);
+}
+
 function serdarSomuncuPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10535,185 +10599,6 @@ Osho kannte das Enneagramm als Lehrsystem sehr genau und griff es in eigenen Vor
         {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsporträt: Bernie Madoff (SE3w4) – dieselbe Diskretion über den eigenen Körper"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
-      ])}
-    </div>
-  `);
-}
-
-function marilynMonroeKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-marilyn-monroe-portrait.jpg" alt="Marilyn Monroe" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Marilyn Monroe</p>
-        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel · 1926–1962</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Pfau</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Marilyn Monroe</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk und ihre Typstruktur im
-        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: eine
-        jahrelang hinter dem makellosen Image verborgene Endometriose (eine chronische, oft
-        sehr schmerzhafte Erkrankung, bei der sich gebärmutterschleimhautähnliches Gewebe
-        außerhalb der Gebärmutter ansiedelt), eine eskalierende Schlafmittelabhängigkeit und
-        ein Tod 1962, dessen genaue Umstände bis heute umstritten sind.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Monroe</strong> ist dem <strong>sexuellen Typ 3 mit Viererflügel</strong>
-        zugeordnet. Die SX3 richtet den Erfolgsanspruch der Drei auf unwiderstehliche
-        Anziehungskraft und Faszination im engsten, intimsten Kreis – und lebt zugleich mit
-        der tiefen Angst, hinter der Maske leer zu sein. Der Viererflügel bringt eine
-        melancholische Tiefe hinzu, die Sehnsucht nach einem authentischen Selbst jenseits der
-        Rolle – eine Spannung, die sich bis in Monroes verborgene Krankheitsgeschichte
-        nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Schmerz, der hinter dem Image verschwinden musste:</strong>
-        Monroes chronische Endometriose-Beschwerden durften das makellose öffentliche Bild
-        nie stören – Verträge sollen sie sogar gezielt vor Arbeit während besonders
-        schmerzhafter Phasen geschützt haben, ohne dass die Öffentlichkeit je davon erfuhr.</p>
-        <p class="vb-intro"><strong>b) Die eigene Erschöpfung als etwas, das nicht sein durfte:</strong>
-        Auch als Schlaflosigkeit und Medikamentenkonsum zunahmen, blieb der äußere Auftritt
-        bis zuletzt makellos inszeniert – die Kluft zwischen innerem Zustand und öffentlichem
-        Bild wuchs Jahr für Jahr.</p>
-        <p class="vb-intro"><strong>c) Ein Rückzug, der erst spät sichtbar wurde:</strong>
-        Erst 1962, bei den Dreharbeiten zu "Something's Got to Give", wurde der innere
-        Zusammenbruch für Außenstehende unübersehbar – vorher war er hinter Professionalität
-        und Selbstkontrolle verborgen geblieben.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine chronische, nie öffentlich gemachte Erkrankung:</strong>
-        Monroe litt ihr gesamtes Erwachsenenleben an Endometriose, wurde mehrfach operiert
-        und erlitt mindestens drei dokumentierte Fehlgeburten, darunter eine
-        Eileiterschwangerschaft 1957 – keine ihrer Schwangerschaften wurde ausgetragen.</p>
-        <p class="vb-intro"><strong>b) Eskalierende Schlafmittelabhängigkeit:</strong>
-        Bereits ab den frühen 1950er-Jahren dokumentiert, verschärfte sich der Konsum von
-        Barbituraten und Chloralhydrat über die Jahre; ab 1960 verschrieb ihr Psychiater
-        Ralph Greenson ihr regelmäßig Nembutal.</p>
-        <p class="vb-intro"><strong>c) Eine belastete familiäre Vorgeschichte:</strong>
-        Monroes Mutter litt an paranoider Schizophrenie, ihr Großvater mütterlicherseits
-        starb an einer Spätfolge einer unbehandelten Syphilis-Infektion in einer Anstalt –
-        Monroe selbst fürchtete zeitlebens, wie ein Fluch liege psychische Erkrankung über
-        ihrer Familie.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Vier Tage in der geschlossenen Psychiatrie:</strong>
-        Im Februar 1961 wurde Monroe von ihrer Analytikerin in die Payne Whitney Psychiatric
-        Clinic eingewiesen, in der Annahme, dort eine "Ruhekur" zu erhalten. Stattdessen
-        landete sie auf einer geschlossenen Station, die sie später mit einem Gefängnis
-        verglich – nach vier Tagen wurde sie auf Betreiben von Joe DiMaggio entlassen.</p>
-        <p class="vb-intro"><strong>b) Siebzehn versäumte Drehtage:</strong>
-        Bei den Dreharbeiten zu "Something's Got to Give" 1962 fehlte Monroe an siebzehn von
-        dreißig Drehtagen wegen Krankheit; die Produktion geriet über eine Million Dollar
-        über Budget.</p>
-        <p class="vb-intro"><strong>c) Entlassung durch das Studio:</strong>
-        Am 8. Juni 1962 entließ 20th Century Fox sie wegen "spektakulärer Abwesenheit" und
-        verklagte sie auf 750.000 Dollar – eine Wiedereinstellung für den Herbst wurde zwar
-        noch ausgehandelt, kam durch ihren Tod aber nicht mehr zustande.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Tod am 4./5. August 1962:</strong>
-        Monroe wurde tot in ihrem Haus in Brentwood aufgefunden. Die Autopsie stellte eine
-        tödliche Kombination aus Nembutal und Chloralhydrat fest – eine Menge, die laut dem
-        zuständigen Coroner ausgereicht hätte, um mehrere Menschen zu töten.</p>
-        <p class="vb-intro"><strong>b) Eine offiziell bewusst vorsichtige Formulierung:</strong>
-        Der Coroner stufte den Tod als "wahrscheinlichen Suizid" ein – nicht als
-        zweifelsfreien Suizid. Diese eingebaute Unsicherheit ist Teil des offiziellen
-        Befundes selbst, nicht nachträgliche Spekulation.</p>
-        <p class="vb-intro"><strong>c) Bis heute unbewiesene Gegentheorien:</strong>
-        Neben einer versehentlichen Überdosis und Suizid kursieren bis heute
-        Mordtheorien, meist im Kontext angeblicher Affären mit John und Robert Kennedy –
-        historiografisch gelten diese als unbewiesen und spekulativ, wurden aber nie
-        vollständig widerlegt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Glanz als Überlebensstrategie bis zur Erschöpfung:</strong>
-        Die strahlende, faszinierende Öffentlichkeitspersona verlangte Monroe ein Höchstmaß
-        an Energie ab, während im Verborgenen Schmerz, Schlaflosigkeit und Medikamentenkonsum
-        zunahmen.</p>
-        <p class="vb-intro"><strong>b) Ein Rückzug, der wie Kontrollverlust aussah:</strong>
-        Die zunehmenden Fehlzeiten am Set 1962 lassen sich auch als Bewegung Richtung des
-        Neuner-Stresspunkts der Drei lesen: Rückzug, Verzögerung, ein passives Entgleiten
-        statt eines offen ausgetragenen Zusammenbruchs.</p>
-        <p class="vb-intro"><strong>c) Der Pfau, dessen Federn zuletzt kaum noch zu tragen waren:</strong>
-        Bis zuletzt versuchte Monroe, die öffentliche Erwartung an Glanz und Perfektion zu
-        erfüllen, selbst als die eigene Kraft dafür längst nicht mehr ausreichte.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Kindheit voller Brüche:</strong>
-        Elf Pflegefamilien, zeitweise ein Waisenhausaufenthalt und sexueller Missbrauch in
-        mindestens drei Pflegefamilien prägten Monroes frühe Jahre – eine Vorgeschichte, die
-        sie selbst später mit ihrer psychischen Verletzlichkeit in Verbindung brachte.</p>
-        <p class="vb-intro"><strong>b) Eine Krankheit, die zwei Jahrzehnte lang verborgen blieb:</strong>
-        Von den ersten dokumentierten Beschwerden bis zu ihrem Tod 1962 zieht sich eine
-        durchgehende, aber öffentlich fast vollständig unsichtbare Linie aus chronischem
-        Schmerz und zunehmender Medikamentenabhängigkeit.</p>
-        <p class="vb-intro"><strong>c) Ein letztes Jahr des offenen Zusammenbruchs:</strong>
-        Erst 1962 – Klinikaufenthalt, versäumte Drehtage, Entlassung – wurde sichtbar, was
-        zuvor jahrelang hinter der Fassade gehalten worden war.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die reproduktiven Organe?</strong>
-        Für eine sexuelle Drei mit Viererflügel, deren öffentliches Image untrennbar mit
-        Weiblichkeit, Begehrenswürdigkeit und makelloser Ausstrahlung verbunden war, liegt
-        eine Deutung nahe: Ausgerechnet jener Körperbereich, der am unmittelbarsten mit dem
-        vermarkteten Bild der Fruchtbarkeit und Verführung verknüpft war, wurde zum Ort
-        chronischen, geheim gehaltenen Leidens. Der Schmerz, der am wenigsten zum Image
-        passte, war genau der, den sie am längsten verbarg. Diese Deutung ist eine
-        plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Drei zwangsläufig zu Endometriose
-        oder Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Krankheit
-        bekommen, unabhängig vom Subtyp.</strong> Was sich an Monroes Fall zeigen lässt, ist
-        ein Muster, das bei dem Bedürfnis, Schmerz und Verletzlichkeit hinter einem
-        makellosen öffentlichen Bild zu verbergen, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Monroe kannte ihr eigenes Muster nicht – die sexuelle Drei mit Viererflügel hält das makellose Bild um jeden Preis aufrecht, auch gegenüber sich selbst, und genau das ließ sie eine schmerzhafte Erkrankung jahrelang hinter genau diesem Bild verbergen, statt sich Hilfe zu holen, die die Fassade hätte gefährden können. Wer das eigene Bedürfnis nach einem makellosen Bild nicht als Muster erkennt, opfert diesem Bild am Ende die eigene Gesundheit.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Am Beispiel <strong>Monroes</strong> zeigt sich die sexuelle Drei mit Viererflügel
-        noch einmal auf besonders schmerzhafte Weise: eine chronische Krankheit, jahrelang
-        hinter makellosem Glanz verborgen, eine eskalierende Medikamentenabhängigkeit und ein
-        Tod, dessen genaue Umstände bis heute nicht abschließend geklärt sind. Der Pfau,
-        dessen Federn der Welt Schönheit zeigten, während dahinter ein erschöpfter,
-        schmerzgeplagter Körper um Beachtung rang, die er sich selbst nie erlaubte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – Lebenswerk"},
-        {route:"krankheitsportraets-dolly-parton", label:"Krankheitsporträt: Dolly Parton (SX3w4)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
       ])}
     </div>
   `);
