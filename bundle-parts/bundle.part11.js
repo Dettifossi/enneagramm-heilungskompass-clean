@@ -1,3 +1,210 @@
+function hansChristianAndersenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1805–1875</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans Christian Andersen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hans-christian-andersen">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, seine Herkunft und seine
+        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift
+        wird: der lebenslangen Hypochondrie, den quälenden Zahnproblemen und der Krebserkrankung,
+        an der Andersen 1875 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Andersen</strong> ist dem <strong>sozialen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SO4 trägt ihre Scham über das eigene Anderssein in die Gruppe hinein und
+        sucht dort unablässig Bestätigung; der Dreierflügel verstärkt dieses Bedürfnis zu aktivem
+        Streben nach öffentlicher Anerkennung. Bei Andersen zeigte sich das in einer bemerkenswerten
+        Diskrepanz: eine tief empfundene, oft übertriebene Sorge um den eigenen Körper, die er nach
+        außen kaum zeigte, solange ein Publikum ihn brauchte – und die erst hervortrat, sobald keine
+        Bühne mehr in Sicht war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine lebenslange Hypochondrie, gut dokumentiert in Briefen und Tagebüchern:</strong>
+        Andersen führte über Jahrzehnte detaillierte Tagebücher, in denen kleinste körperliche
+        Beschwerden – ein Ziehen im Bauch, ein leichtes Fieber, eine Erkältung – mit auffälliger
+        Ausführlichkeit und Sorge festgehalten wurden. Zeitgenossen und spätere Biografen sind sich
+        einig, dass diese Selbstbeobachtung weit über das übliche Maß hinausging.</p>
+        <p class="vb-intro"><strong>b) Die berühmte Angst, lebendig begraben zu werden:</strong>
+        Andersen trug zeitlebens einen Zettel bei sich mit der Bitte, man möge ihm nach dem
+        vermeintlichen Tod die Pulsadern öffnen, um sicherzugehen, dass er wirklich gestorben sei –
+        eine der bestbezeugten Einzelheiten seiner Hypochondrie, die er selbst wiederholt
+        gegenüber Freunden erwähnte.</p>
+        <p class="vb-intro"><strong>c) Quälende Zahnprobleme von früh an:</strong>
+        Schon in mittleren Jahren litt Andersen unter starken, wiederkehrenden Zahnschmerzen und
+        einem fortschreitenden Zahnverlust, den er in Briefen mehrfach als große Qual beschrieb –
+        ein Leiden, das ihn zeitlebens begleitete und das er trotz seiner sonstigen Gesundheitssorge
+        lange kaum professionell behandeln ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein folgenschwerer Sturz im Jahr 1872:</strong>
+        Im Frühjahr 1872 stürzte Andersen aus dem Bett und verletzte sich schwer – ein Ereignis, das
+        Biografen übereinstimmend als Wendepunkt seiner letzten Lebensjahre beschreiben. Von diesem
+        Sturz erholte er sich nie wieder vollständig.</p>
+        <p class="vb-intro"><strong>b) Fortschreitende Erschöpfung und Gewichtsverlust:</strong>
+        In den folgenden drei Jahren verschlechterte sich sein Gesundheitszustand stetig – wachsende
+        Erschöpfung, Appetitlosigkeit und ein deutlicher körperlicher Verfall, den enge Freunde in
+        Briefen dokumentierten.</p>
+        <p class="vb-intro"><strong>c) Die Diagnose:</strong>
+        Andersens Ärzte gingen von einer Krebserkrankung der Leber aus – eine Einschätzung, die auf
+        den beobachteten Symptomen beruhte, ohne die diagnostischen Möglichkeiten, die heutige
+        Medizin zur Verfügung hätte. Die genaue Art der Erkrankung lässt sich aus heutiger Sicht
+        nicht mehr mit letzter Sicherheit rekonstruieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Pflege im Haus befreundeter Familien:</strong>
+        In seinen letzten Lebensjahren wurde Andersen von der befreundeten Kaufmannsfamilie Melchior
+        gepflegt, zunächst in Kopenhagen, später in deren Landhaus Rolighed – ein Zeichen dafür, wie
+        sehr der kinderlose, unverheiratete Andersen am Ende seines Lebens auf die Zugehörigkeit zu
+        einer ihn tragenden Gemeinschaft angewiesen war, die er sich selbst nie in Form einer
+        eigenen Familie hatte schaffen können.</p>
+        <p class="vb-intro"><strong>b) Weiterhin öffentliche Präsenz trotz Schwäche:</strong>
+        Auch nach dem Sturz 1872 nahm Andersen, solange es seine Kräfte zuließen, weiterhin an
+        gesellschaftlichen Anlässen teil und pflegte seinen Briefwechsel mit Prominenten und
+        Bewunderern – das Bedürfnis nach sichtbarer Zugehörigkeit ließ sich selbst durch
+        fortschreitende Krankheit kaum dämpfen.</p>
+        <p class="vb-intro"><strong>c) Ein langsames, öffentlich begleitetes Sterben:</strong>
+        Andersens letzte Lebensmonate wurden in der dänischen Öffentlichkeit aufmerksam verfolgt;
+        Zeitungen berichteten regelmäßig über seinen Gesundheitszustand – für die soziale Vier mit
+        Dreierflügel, die zeitlebens nach öffentlicher Anteilnahme gesucht hatte, eine Situation, in
+        der ihm genau das zuteilwurde, wonach er sich sein Leben lang gesehnt hatte, wenn auch
+        unter den bittersten Umständen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Der Tod am 4. August 1875:</strong>
+        Hans Christian Andersen starb am 4. August 1875 im Alter von 70 Jahren in Rolighed, dem
+        Landhaus der Familie Melchior bei Kopenhagen, umgeben von den Menschen, die ihm in seinen
+        letzten Jahren am nächsten standen.</p>
+        <p class="vb-intro"><strong>b) Ein Staatsbegräbnis als letzte öffentliche Bestätigung:</strong>
+        Andersens Beerdigung wurde zu einem Ereignis nationaler Trauer, an dem auch der dänische
+        König und die königliche Familie teilnahmen – die späte, endgültige Bestätigung der
+        gesellschaftlichen Zugehörigkeit, um die sich der soziale Vierer mit Dreierflügel sein
+        ganzes Leben lang bemüht hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Nachruhm, der die eigene Unsicherheit weit überdauerte:</strong>
+        Innerhalb weniger Jahrzehnte nach seinem Tod wurde Andersen zum meistübersetzten dänischen
+        Schriftsteller aller Zeiten – ein Ausmaß an weltweiter Anerkennung, das die zeitlebens
+        nagende Sorge, nicht wirklich dazuzugehören, im Rückblick als tragische Fehleinschätzung
+        erscheinen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Hypochondrie als umgelenkte Zugehörigkeitssorge:</strong>
+        Die für Andersen so charakteristische Sorge um den eigenen Körper lässt sich als eine nach
+        innen gerichtete Variante seiner eigentlichen Grundangst lesen: nicht wirklich gesehen,
+        nicht wirklich gebraucht, nicht wirklich zugehörig zu sein. Die minutiöse Beobachtung
+        kleinster körperlicher Signale gab dieser diffusen Sorge ein konkretes, kontrollierbares
+        Objekt.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Motor der Weiterarbeit trotz Schwäche:</strong>
+        Derselbe Dreierflügel, der Andersen zeitlebens antrieb, öffentlich sichtbar zu bleiben, ließ
+        ihn auch nach dem Sturz 1872 nicht kampflos aufgeben – noch in geschwächtem Zustand suchte
+        er weiterhin Kontakt zu Bewunderern und Förderern, als könne öffentliche Zuwendung die
+        fortschreitende Krankheit aufhalten.</p>
+        <p class="vb-intro"><strong>c) Die Zahnschmerzen als verdrängtes, weil unglamouröses Leiden:</strong>
+        Auffällig ist der Kontrast zwischen Andersens ausführlicher Sorge um dramatischere,
+        erzählbare Beschwerden und seinem jahrzehntelangen Hinnehmen der Zahnschmerzen – ein Leiden
+        ohne öffentliche Bühne, das ihm vermutlich zu profan erschien, um es in seine sorgfältig
+        gepflegte Selbstdarstellung als sensibler, leidender Künstler einzubauen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Michael Jackson (SO4w3):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a>,
+        ebenfalls SO4w3, zeigt sich bei Andersen das für diesen Subtyp typische Muster: die
+        sorgfältig gepflegte öffentliche Rolle – bei Jackson der makellose King of Pop, bei Andersen
+        der sensible, weltweit gefeierte Märchendichter – wird bis zuletzt aufrechterhalten, während
+        das eigentliche körperliche Leiden im Hintergrund verläuft. Bei Jackson war es die über
+        Jahrzehnte verheimlichte Schmerzmittelabhängigkeit, bei Andersen die stumm ausgehaltenen
+        Zahnschmerzen neben der ausführlich dokumentierten, aber letztlich hilflosen Sorge um alles
+        andere – zwei Varianten derselben SO4w3-Grundbewegung: das Bild nach außen wahren, das
+        eigene Innere zurückstellen.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte gewachsene Sorge, kein plötzlicher Einbruch:</strong>
+        Von den frühesten dokumentierten Tagebucheinträgen über kleinste Beschwerden bis zum
+        tatsächlichen Krankheitsverlauf nach 1872 zieht sich eine durchgehende Linie: Andersens
+        Körper war ihm sein Leben lang ein Objekt intensiver, oft übertriebener Aufmerksamkeit –
+        bevor die reale Erkrankung sie schließlich einholte.</p>
+        <p class="vb-intro"><strong>c) Zwei Leiden, ein gemeinsamer blinder Fleck:</strong>
+        Die ausführlich dokumentierte Hypochondrie und die kaum erwähnten, tatsächlich behandlungsbedürftigen
+        Zahnprobleme lassen sich als zwei Seiten derselben Schieflage lesen: Aufmerksamkeit floss
+        dorthin, wo sie erzählbar und damit sozial verwertbar war – nicht notwendig dorthin, wo der
+        Körper sie am dringendsten gebraucht hätte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Leber?</strong>
+        Für eine soziale Vier, deren Grundthema die Frage ist, ob sie in der Gemeinschaft wirklich
+        ihren Platz hat, liegt eine Deutung nahe: Die Leber gilt in vielen psychosomatischen
+        Traditionen als das Organ der verarbeiteten, oft auch der zurückgehaltenen Emotion – bei
+        einem Menschen, der zeitlebens mehr fühlte, als er in einer für seine Zeit akzeptablen Form
+        zeigen konnte, und der bis zuletzt kontrollierte, was von seinem Inneren nach außen drang,
+        ist das ein naheliegendes Bild. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im
+        <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Psychosomatik-Register
+        zu Leberkrebs</a> dieses Kompasses ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier mit Dreierflügel zwangsläufig zu
+        Lebererkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Andersens Fall zeigen lässt, ist ein Muster, das bei der
+        Neigung, erzählbares Leiden ausführlich zu dokumentieren und unglamouröses Leiden zu
+        übergehen, in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen,
+        kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Andersen kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten in dieser Form noch gar nicht. Die Sehnsucht nach Zugehörigkeit, die ihn ein Leben
+        lang antrieb, öffentlich sichtbar und geliebt zu sein, kannte für ihn keinen eingebauten
+        Warnmechanismus, der zwischen erzählbarem und tatsächlich dringlichem Leiden unterschieden
+        hätte; im Gegenteil, jedes körperliche Signal wurde in derselben Logik verarbeitet, mit der
+        er auch soziale Signale verarbeitete: als etwas, das entweder zur eigenen Geschichte passte
+        oder eben nicht. Wer das eigene Muster nicht kennt, kann es auch nicht rechtzeitig
+        unterbrechen – bei Andersen bedeutete das ein Leben, das an ausführlich dokumentierter Sorge
+        um kleine Beschwerden reich war und an tatsächlicher Fürsorge für den eigenen, real
+        leidenden Körper arm blieb, bis die Krankheit, die ihn schließlich das Leben kostete, keine
+        Ausflucht mehr zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Andersens</strong> Krankengeschichte zeigt sich die soziale Vier mit Dreierflügel
+        von ihrer widersprüchlichsten Seite: eine lebenslange, minutiös dokumentierte Sorge um den
+        eigenen Körper – und ein tatsächliches Leiden, das sich erst zeigte, als keine Bühne mehr
+        half. Das Gürteltier, das sich sein Leben lang nach Zugehörigkeit sehnte, erhielt sie am
+        Ende in Form eines Staatsbegräbnisses – am 4. August 1875, im Alter von 70 Jahren, an den
+        Folgen einer vermuteten Krebserkrankung der Leber.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3) – dieselbe Verbergungsstrategie"},
+        {route:"psychosomatik/leberkrebs", label:"Psychosomatik-Register: Leberkrebs"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
 function fredericChopinKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13045,185 +13252,6 @@ function billieEilishKrankheitsportraetPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
-      ])}
-    </div>
-  `);
-}
-
-function willyBrandtKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-willy-brandt-portrait.jpg" alt="Willy Brandt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Willy Brandt</p>
-        <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achterflügel · 1913–1992</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Büffel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Willy Brandt</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-willy-brandt">Porträt berühmter
-        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
-        das dort nicht behandelt wird: wiederkehrende schwere depressive Episoden während
-        seiner gesamten politischen Laufbahn, die er weitgehend privat hielt, sowie die
-        Darmkrebs-Erkrankung, an der er 1992 starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Brandt</strong> ist dem <strong>sozialen Typ 9 mit Achterflügel</strong>
-        zugeordnet. Die SO9 hält als Kontratyp der Neun äußerlich Kurs und Aktivität
-        aufrecht, auch wenn innerlich Erschöpfung droht; der Achterflügel gibt die Kraft,
-        nach außen entschlossen zu wirken, selbst wenn im Verborgenen ein Zusammenbruch
-        drohte. Genau diese Kombination – nach außen unerschütterliche Präsenz, nach innen
-        wiederkehrende schwere Erschöpfungskrisen – bestimmte den Verlauf seiner
-        gesundheitlichen Geschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Erste dokumentierte depressive Episode um 1958:</strong>
-        Biografen beschreiben eine erste schwere depressive Krise während seiner Zeit als
-        Regierender Bürgermeister von Berlin, ausgelöst durch die politische und persönliche
-        Belastung der Berlin-Krise.</p>
-        <p class="vb-intro"><strong>b) Wiederkehrendes Muster über Jahrzehnte:</strong>
-        Weitere Episoden folgten in Phasen extremer politischer Belastung, dokumentiert unter
-        anderem von seinem Biografen Peter Merseburger, der Brandts Tendenz zu Phasen
-        tiefer Erschöpfung und Rückzugs ausführlich beschrieb.</p>
-        <p class="vb-intro"><strong>c) Keine öffentliche Thematisierung zu Lebzeiten in dieser Form:</strong>
-        Zu seinen Amtszeiten wurden diese Krisen in der Öffentlichkeit nicht als
-        eigenständiges Krankheitsbild benannt, sondern meist als vorübergehende
-        Erschöpfung oder Krankheit umschrieben.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Schwerste Krise im Zusammenhang mit der Guillaume-Affäre 1974:</strong>
-        Als sein enger Mitarbeiter Günter Guillaume 1974 als DDR-Spion enttarnt wurde, geriet
-        Brandt nach übereinstimmenden biografischen Quellen in eine tiefe persönliche Krise,
-        die seinen Rücktritt als Bundeskanzler begleitete.</p>
-        <p class="vb-intro"><strong>b) Rückzug statt öffentlicher Erklärung:</strong>
-        Anstatt die eigene psychische Belastung öffentlich zu benennen, trat Brandt formal
-        wegen der Guillaume-Affäre zurück – ein Rücktrittsgrund, der öffentlich klarer
-        kommuniziert werden konnte als die eigene Erschöpfung.</p>
-        <p class="vb-intro"><strong>c) Diagnose von Darmkrebs in den 1990er-Jahren:</strong>
-        Anfang der 1990er-Jahre wurde bei Brandt Darmkrebs diagnostiziert, an dem er nach
-        kurzer Krankheit starb.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Fortgesetzte politische Aktivität trotz privater Krisen:</strong>
-        Trotz der depressiven Episoden blieb Brandt über Jahrzehnte hinweg politisch aktiv –
-        als SPD-Vorsitzender bis 1987, als Vorsitzender der Sozialistischen Internationale
-        bis zu seinem Tod.</p>
-        <p class="vb-intro"><strong>b) Tod am 8. Oktober 1992 in Unkel:</strong>
-        Willy Brandt starb im Alter von 78 Jahren an den Folgen des Darmkrebses in seinem
-        Wohnort Unkel am Rhein.</p>
-        <p class="vb-intro"><strong>c) Staatsbegräbnis mit weltweiter Anteilnahme:</strong>
-        Sein Tod löste international Trauer aus – zahlreiche Staats- und Regierungschefs
-        nahmen am Staatsbegräbnis teil, das seine Bedeutung für die deutsche und europäische
-        Nachkriegsgeschichte würdigte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Nachträgliche biografische Aufarbeitung der depressiven Episoden:</strong>
-        Erst nach seinem Tod wurde in umfassenden Biografien das Ausmaß seiner
-        wiederkehrenden depressiven Krisen systematisch dokumentiert und in den Kontext
-        seiner politischen Erfolge gestellt.</p>
-        <p class="vb-intro"><strong>b) Ein Bild ungebrochener Stärke in der öffentlichen Erinnerung:</strong>
-        Das öffentliche Gedächtnis an Brandt bleibt bis heute vor allem von Bildern
-        entschlossener Stärke geprägt – dem Kniefall von Warschau, der Ostpolitik –, während
-        die privaten Krisen erst durch spätere historische Forschung sichtbar wurden.</p>
-        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Krankheit:</strong>
-        Weder die depressiven Episoden noch die Krebserkrankung wurden nachträglich zu
-        einem zentralen Bestandteil seines öffentlichen Vermächtnisses – dieses bleibt bis
-        heute von seinem politischen Werk dominiert.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Kontratyp, der auch im Zusammenbruch weiterlief:</strong>
-        Die SO9-typische Umkehrung der eigenen Trägheit in äußere Aktivität zeigte sich
-        gerade in den Krisenjahren: Selbst in Phasen tiefster Erschöpfung reiste, verhandelte
-        und sprach Brandt weiter, statt sich offen zurückzuziehen.</p>
-        <p class="vb-intro"><strong>b) Der Achterflügel und die Fassade der Unerschütterlichkeit:</strong>
-        Dieselbe Kraft, die Brandt gegen den öffentlichen Widerstand zur Ostpolitik standhalten
-        ließ, sorgte auch dafür, dass die eigene psychische Erschöpfung nach außen kaum
-        sichtbar wurde – Stärke als Rüstung, auch gegenüber sich selbst.</p>
-        <p class="vb-intro"><strong>c) Ein formaler Rücktrittsgrund statt einer persönlichen Erklärung:</strong>
-        Dass Brandt 1974 wegen der Guillaume-Affäre zurücktrat, statt die eigene
-        Erschöpfung öffentlich zu benennen, passt zum SO9w8-Muster: Handeln bleibt sichtbar,
-        das eigene Innenleben bleibt verborgen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Mann des Friedens, der den eigenen inneren Frieden am seltensten fand:</strong>
-        Brandts gesamtes politisches Werk galt der Versöhnung und dem äußeren Frieden –
-        ausgerechnet der eigene innere Frieden blieb ihm über Jahrzehnte durch wiederkehrende
-        Erschöpfungskrisen verwehrt, die er nie öffentlich beim Namen nannte.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Parallelen zeigen sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma
-        Mankiller</a> und
-        <a href="javascript:void(0)" data-route="krankheitsportraets-ronald-reagan">Ronald
-        Reagan</a> (beide ebenfalls SO9w8): Alle drei hielten ihr öffentliches Amt trotz
-        erheblicher gesundheitlicher Belastung so lange wie möglich aufrecht, statt sich
-        vorzeitig zurückzuziehen. Bei allen SO9w8ern zeigt sich dasselbe Muster: die äußere
-        Aktivität als Gegenkraft zur eigenen Erschöpfung, bis der Körper selbst die Grenze
-        setzt.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm, das Organ der stillen Verarbeitung?</strong>
-        Für einen sozialen Typ 9 mit Achterflügel, dessen gesamtes Leben von der Umkehrung
-        innerer Erschöpfung in äußere Aktivität geprägt war, liegt eine Deutung nahe:
-        Ausgerechnet jenes Organ, das im Körper unbemerkt und ohne bewusste Kontrolle
-        verarbeitet, wurde zum Ort der letzten Erkrankung – eine Krankheit, die, ähnlich wie
-        die depressiven Episoden zuvor, lange im Verborgenen fortschritt. Diese Deutung ist
-        eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird
-        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Depression oder
-        Darmkrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig
-        vom Subtyp.</strong> Was sich an Brandts Fall zeigen lässt, ist ein Muster im Umgang
-        mit innerer Erschöpfung, das bei einem ausgeprägten sozialen Typ 9 mit Achterflügel
-        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Brandt kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 9
-        mit Achterflügel verwandelt innere Erschöpfung reflexhaft in äußere Aktivität, statt
-        rechtzeitig innezuhalten und die eigene Grenze anzuerkennen, und lebte genau dieses
-        Muster über Jahrzehnte unverändert aus. Wer die eigene Neigung, Erschöpfung durch
-        Handeln zu überdecken, statt sie zu benennen, nicht als Muster erkennt, riskiert,
-        dass der Körper irgendwann die Pause erzwingt, die der Wille nie zugelassen hat.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 9 mit Achterflügel erklärt bei <strong>Willy Brandt</strong> vieles
-        am Verlauf seiner gesundheitlichen Geschichte: ein Mann, dessen gesamtes Wirken dem
-        äußeren Frieden galt, fand den eigenen inneren Frieden über Jahrzehnte nicht – der
-        Büffel, der durch jede Krise weiterlief, bis der Körper selbst am Ende die letzte,
-        unausweichliche Ruhe erzwang.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
-        {route:"krankheitsportraets-wilma-mankiller", label:"Krankheitsporträt: Wilma Mankiller (SO9w8) – gleicher Subtyp"},
-        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
     </div>
   `);

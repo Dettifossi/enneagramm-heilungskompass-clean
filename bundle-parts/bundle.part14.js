@@ -1,3 +1,54 @@
+function eulenartenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Eulenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Die Zuordnung von neun Eulenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser Eulen und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Eulen sind seit der Antike Symbole der Weisheit, Stille und inneren Schau \u2014 jede Art auf ihre ganz eigene Weise.</p>
+      <img src="./assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Schleiereule: Pr\u00e4zision und Perfektion</h3>
+        <p class="vb-intro">Schleiereulen haben ein klares, strukturiertes Jagdmuster und sind f\u00fcr ihre Effizienz und Pr\u00e4zision bekannt. Ihre methodische Natur und ihr Streben nach Perfektion spiegeln die Eigenschaften des Reformers Typ 1 wider. Das Gesicht der Schleiereule ist ein akustisches Pr\u00e4zisionsinstrument: Die herzf\u00f6rmige Scheibe b\u00fcndelt Schallwellen wie eine Parabolantenne und leitet sie zu den asymmetrisch platzierten Ohren \u2014 dadurch kann sie im absoluten Dunkel eine Maus unter Schnee orten, allein durch das Ger\u00e4usch ihrer Schritte. Kein Lebewesen hat ein genaueres Geh\u00f6r. Fehler macht die Schleiereule nicht \u2014 sie kann es sich nicht leisten. Die Leidenschaft des Zorns zeigt sich als innere Anspannung, wenn die Jagd nicht dem inneren Standard entspricht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Bartkauz: F\u00fcrsorge und stille Hilfsbereitschaft</h3>
+        <p class="vb-intro">Der Bartkauz ist bekannt f\u00fcr seine f\u00fcrsorgliche Natur gegen\u00fcber seinen Jungen und seine F\u00e4higkeit, in einer Vielzahl von Umgebungen zu \u00fcberleben und anderen Eulen bei der Aufzucht zu helfen, wenn n\u00f6tig. Der Bartkauz ist eine der gr\u00f6\u00dften Eulen der Welt \u2014 und eine der stillsten. Er jagt lautlos, warnt andere vor Gefahren und zeigt eine ausgepr\u00e4gte Brutf\u00fcrsorge: Bartkauz-M\u00e4nnchen bringen ihrer br\u00fctenden Partnerin regelm\u00e4\u00dfig Nahrung, auch wenn die Bedingungen hart sind. Er dient, ohne zu dr\u00e4ngen. Die Leidenschaft des Stolzes zeigt sich als tiefes Bed\u00fcrfnis, gebraucht zu werden \u2014 der Besch\u00fctzer im Stillen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Schnee-Eule: Leistung und Anpassungsf\u00e4higkeit</h3>
+        <p class="vb-intro">Schnee-Eulen sind beeindruckende J\u00e4ger, die unter den harten Bedingungen der Arktis \u00fcberleben. Ihre F\u00e4higkeit, sich an extreme Bedingungen anzupassen und erfolgreich zu jagen, reflektiert den leistungsorientierten Typ 3. Die Schnee-Eule ist das einzige Tier, das ganzj\u00e4hrig in der Arktis jagt \u2014 bei Temperaturen bis minus 50 Grad, im Winter ohne Licht. Sie zieht keine Grenzen zwischen Nacht und Tag, zwischen Sturm und Stille: Sie jagt, wenn Beute da ist. Ihr wei\u00dfes Gefieder ist kein Schmuck, sondern Effizienz \u2014 perfekte Tarnung im Schnee. Die Leidenschaft der Eitelkeit zeigt sich als der Wille, sichtbar zu triumphieren.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Waldohreule: Einzigartigkeit und innere Tiefe</h3>
+        <p class="vb-intro">Die Waldohreule besitzt ein auff\u00e4lliges Aussehen mit ihren markanten Federb\u00fcscheln, was sie deutlich von anderen Eulen unterscheidet. Ihre Besonderheit und das Anderssein entsprechen dem Individualisten Typ 4. Die Waldohreule ist der Waschb\u00e4r unter den Eulen: Wenn sie sich bedroht f\u00fchlt, streckt sie sich zu einem schlanken Ast, presst das Gefieder eng an den K\u00f6rper und wird fast unsichtbar zwischen Rinde und Borke. Diese F\u00e4higkeit zur Transformation \u2014 sichtbar sein, wenn sie will, unsichtbar, wenn n\u00f6tig \u2014 spiegelt die innere Welt des Typs 4 wider. Die Leidenschaft des Neids zeigt sich als Sehnsucht, gesehen zu werden ohne die Schutzmaske aufzugeben.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Habichtskauz: Beobachtung und analytische Stille</h3>
+        <p class="vb-intro">Der Habichtskauz verh\u00e4lt sich ruhig und zur\u00fcckhaltend und setzt seine genaue Beobachtungsgabe gezielt ein, um Beute zu suchen \u2014 was dem beobachtenden Analytiker Typ 5 entspricht. Der Habichtskauz ist die gr\u00f6\u00dfte Eule der borealen W\u00e4lder \u2014 und eine der am schwersten zu beobachtenden. Er sitzt stundenlang regungslos auf einem hohen Ast, dreht den Kopf in kleinen, pr\u00e4zisen Bewegungen und wartet. Er rennt nicht der Beute hinterher \u2014 er wartet, bis er genug wei\u00df, und handelt dann mit absoluter Sicherheit. Sein Blick ist nicht aggressiv, sondern registrierend. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie und Pr\u00e4senz.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Steinkauz: Treue und soziale Wachsamkeit</h3>
+        <p class="vb-intro">Steink\u00e4uze sind sozial und leben oft in der N\u00e4he menschlicher Siedlungen. Ihre Loyalit\u00e4t gegen\u00fcber ihren Partnern und ihre Bereitschaft, die Familie zu besch\u00fctzen, spiegeln die Eigenschaften des verl\u00e4sslichen Typs 6 wider. Der Steinkauz ist die Eule, die den Menschen am n\u00e4chsten lebt: Er nistet in alten Obstg\u00e4rten, Scheunen und Mauerl\u00f6chern, direkt neben dem Bauernhof. Er kennt jede Ecke seines Reviers auswendig und reagiert auf jede Ver\u00e4nderung mit sichtbarer Alarmierung. Sein Pfeifton in der D\u00e4mmerung ist ein Signal: Ich bin hier, ich beobachte, alles ist unter Kontrolle. Die Leidenschaft der Angst zeigt sich als permanente Wachheit, die nie ganz zur Ruhe kommt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Sperbereule: Lebhaftigkeit und Jagdfreude</h3>
+        <p class="vb-intro">Die Sperbereule ist eine mittelgro\u00dfe Eule, die in den offenen W\u00e4ldern und auf Wiesen lebt. Sie ist f\u00fcr ihre akrobatischen Flugman\u00f6ver und ihre schnellen Jagdtechniken bekannt, was ihre lebhafte, abenteuerlustige Natur zeigt. Die Sperbereule ist die einzige Eule, die \u00fcberwiegend tagaktiv ist \u2014 sie jagt im Sonnenlicht, sichtbar f\u00fcr alle. Sie fliegt in langen, wellenf\u00f6rmigen B\u00f6gen, st\u00fcrzt blitzschnell auf Beute und ist in st\u00e4ndiger Bewegung. Anders als ihre nachtaktiven Verwandten sucht sie nicht die Stille, sondern das Licht. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Hunger nach Aktion und dem n\u00e4chsten Ziel am Horizont.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Turkmenischer Uhu: Dominanz und Territorialit\u00e4t</h3>
+        <p class="vb-intro">Der Turkmenische Uhu ist eine sehr durchsetzungsstarke Eule. Die territoriale Aggression und seine starke Vitalpr\u00e4senz sowie Pr\u00e4senz und Durchsetzungsf\u00e4higkeit spiegeln den Herausforderer Typ 8 wider. Der Turkmenische Uhu ist eine der gr\u00f6\u00dften Eulen der Welt \u2014 sein Revier kann Hunderte von Quadratkilometern umfassen, und er verteidigt es mit einer Konsequenz, die selbst gro\u00dfe Greifv\u00f6gel meidet. Sein Ruf in der Nacht ist unverwechselbar tief und weit tragend: ein Signal, das nicht einl\u00e4dt, sondern warnt. Er teilt seinen Raum nicht \u2014 und braucht es nicht. Die Leidenschaft der Gier zeigt sich als unbedingter Wille zur Kontrolle \u00fcber den eigenen Bereich.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Zwergohreule: Stille Harmonie und Anpassung</h3>
+        <p class="vb-intro">Zwergohreulchen sind klein und unauff\u00e4llig und bevorzugen friedliche und ruhige Umgebungen. Ihre friedliche und ausgeglichene Natur entspricht der harmoniesuchenden Natur des friedliebenden Typs 9. Die Zwergohreule ist die kleinste Eule Europas \u2014 und die unauff\u00e4lligste. Sie nistet in Baumh\u00f6hlen, die andere liegen lie\u00dfen, jagt leise Insekten und Kleingetier und f\u00e4llt in keiner Umgebung auf. Ihr Ruf ist ein sanftes, rhythmisches Pfeifen, das sich harmonisch in die Ger\u00e4uschkulisse der Nacht einf\u00fcgt. Sie braucht keine Aufmerksamkeit und sucht keinen Konflikt. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass die Nacht ruhig bleibt und alles seinen gewohnten Gang geht.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
+        {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
+        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function papageienartenDer9TypenPage() {
   return shell(`
     <div class="page-container">

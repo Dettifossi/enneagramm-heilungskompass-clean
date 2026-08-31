@@ -1,3 +1,209 @@
+function michaelFranzesePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Michael Franzese \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/michael-franzese-portrait.jpg" alt="Michael Franzese \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Franzese</p>
+        <p class="krim-portrait-typ">SE3w2 \u00b7 Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Mafia-Underboss und Aussteiger \u00b7 Tierentsprechung: Waschb\u00e4r</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Michael Franzese</strong> (geb. 1951, Brooklyn) war Capo der Colombo-Familie,
+        einer der m\u00e4chtigsten Mafia-Clans New Yorks. Mit einem raffinierten Benzinsteuer-Betrug
+        verdiente er in den 1980er-Jahren bis zu f\xfcnf Millionen Dollar pro Woche \u2013
+        insgesamt soll er \xfcber eine Milliarde Dollar f\xfcr das organisierte Verbrechen
+        erwirtschaftet haben. <strong>Franzese</strong> war der j\xfcngste Capo seit Al Capone.
+        Was ihn von anderen Mob-Figuren unterscheidet: Er verlie\xdf die Mafia lebend \u2013
+        ohne Kronzeugenregelung, ohne Schutzprogramm. Er konvertierte im Gef\xe4ngnis zum
+        christlichen Glauben und wurde Motivationsredner, Buchautor und Kirchensprecher.
+        Diese Analyse fragt: Wie formt die selbsterhaltende Drei mit Zweierfl\xfcgel
+        einen Menschen, der in zwei v\xf6llig verschiedenen Welten gleich gut funktioniert?
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
+                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
+          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 3 &middot;
+          <strong>Typ mit Fl\xfcgel:</strong> SE3w2 &middot;
+          <em>Leidenschaft:</em> T\xe4uschung &middot;
+          <em>Tieranalogie:</em> Waschb\xe4r
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) Charmant und bodenst\xe4ndig:</strong>
+        <strong>Franzese</strong> wirkte nie kalt oder bedrohlich \u2013 obwohl er einer der
+        m\u00e4chtigsten Kriminellen seiner Zeit war. Der Zweierfl\xfcgel verleiht der Drei
+        W\xe4rme und Zug\xe4nglichkeit. Menschen in seiner N\xe4he f\xfchlten sich wohl,
+        nicht eingesch\xfcchtert.</p>
+        <p class="vb-intro"><strong>b) Souver\xe4n und situationsangepasst:</strong>
+        <strong>Franzese</strong> wechselte m\xfchelos zwischen der Sprache der Stra\xdfe und der
+        Sprache der Gesch\xe4ftswelt. Mit Bankern sprach er wie ein Finanzier,
+        mit Soldaten wie ein Boss. Die SE3 ist ein Meister der Rollenanpassung:
+        Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
+        <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
+        Wer <strong>Franzese</strong> begegnet \u2013 damals wie heute \u2013 beschreibt ihn als jemanden,
+        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SE3w2-Typ: er strahlt Erfolg aus,
+        ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
+        <p class="vb-intro"><strong>a) Was funktioniert hier?</strong>
+        Die selbsterhaltende Drei richtet ihren Blick zuerst auf Effizienz:
+        Welcher Weg f\xfchrt am schnellsten zum Ergebnis? <strong>Franzeses</strong> Benzinsteuerbetrug
+        war ein Meisterwerk der operativen Logik \u2013 er nutzte legale Strukturen,
+        um illegale Ziele zu verschleiern. Der Blick der SE3 ist pragmatisch, nicht ideologisch.</p>
+        <p class="vb-intro"><strong>b) Wie sichere ich das Erreichte ab?</strong>
+        Sicherheit ist das Kernthema der selbsterhaltenden Variante. <strong>Franzese</strong>
+        baute Strukturen auf, die ihn sch\xfctzten: Anw\xe4lte, Gesellschaften, Tarnnamen.
+        Er wollte nicht nur reich werden \u2013 er wollte unangreifbar sein.</p>
+        <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
+        Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Beziehungen.
+        <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt \u2013 er bezahlte gut,
+        behandelte seine Leute fair. Das ist die SE3w2-Kombination: Leistung plus
+        Verbindlichkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: T\xe4uschung</h3>
+        <p class="vb-intro"><strong>a) T\xe4uschung als Gesch\xe4ftsmodell:</strong>
+        Der Benzinsteuerbetrug war in seinem Kern ein Akt systematischer T\xe4uschung:
+        Scheingesellschaften, gef\xe4lschte Buchf\xfchrung, falsche Identit\xe4ten.
+        <strong>Franzese</strong> t\xe4uschte Beh\xf6rden, Partner und Konkurrenten gleichzeitig \u2013
+        nicht aus Bosheit, sondern weil T\xe4uschung f\xfcr die Drei ein neutrales Werkzeug ist.</p>
+        <p class="vb-intro"><strong>b) Selbstt\xe4uschung: der gute Mann:</strong>
+        Wie alle Dreier \xfcbernahm <strong>Franzese</strong> das Selbstbild des kompetenten,
+        verantwortungsvollen Mannes \u2013 der f\xfcr seine Familie sorgt, der loyal ist,
+        der Wort h\xe4lt. Diese Selbstwahrnehmung \xfcberlebte die kriminelle Phase und
+        wurde nach der Konversion zum Fundament seiner neuen Identit\xe4t.</p>
+        <p class="vb-intro"><strong>c) T\xe4uschung durch Verwandlung:</strong>
+        Der Wechsel vom Mob-Boss zum Kirchensprecher ist aus Enneagramm-Sicht
+        keine \xdcberraschung: Die Drei kann sich neu erfinden. <strong>Franzese</strong> t\xe4uschte
+        nicht mehr andere \u2013 er erschuf sich selbst neu. Ob das echte Verwandlung
+        oder erneute Performance ist, bleibt die tiefste Frage dieses Portraits.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
+        <p class="vb-intro"><strong>a) Leistung als Sprache:</strong>
+        <strong>Franzese</strong> kommunizierte \xfcber Ergebnisse. Im Mob: Geld, Macht, Loyalit\xe4t.
+        Heute: B\xfccher, Vortr\xe4ge, Reichweite. Der Kanal wechselt, das Muster bleibt.
+        Die SE3 lebt durch das, was sie produziert \u2013 Sein ohne Leistung ist ihr fremd.</p>
+        <p class="vb-intro"><strong>b) Strategische Gro\xdfz\xfcgigkeit:</strong>
+        <strong>Franzese</strong> war bekannt daf\xfcr, seine Leute zu belohnen. Das ist der
+        Zweierfl\xfcgel: Geben als Bindungsmittel. Aber anders als die reine Zwei
+        gibt die SE3w2 nicht aus emotionalem Bed\xfcrfnis \u2013 sie gibt, weil es
+        Loyalit\xe4t erzeugt, die das System stabil h\xe4lt.</p>
+        <p class="vb-intro"><strong>c) Risikoberechnung statt Impuls:</strong>
+        <strong>Franzese</strong> handelte selten aus Emotion. Sein Benzinsteuerbetrug war
+        jahrelang wasserdicht, weil er methodisch vorgegangen war. Die SE3 ist
+        kein Hasardeur \u2013 sie kalkuliert, sichert ab, plant Auswege. Das unterscheidet
+        sie von impulsiveren Typen wie der Acht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
+        <p class="vb-intro"><strong>a) Die Wunde des Wertlosen:</strong>
+        Hinter dem Erfolg der Drei liegt die tief verankerte \xdcberzeugung:
+        Ich bin nur dann wertvoll, wenn ich leiste. <strong>Franzese</strong> wuchs als
+        Sohn von Sonny Franzese auf \u2013 einem gef\u00fcrchteten Mobster. Den Vater
+        zu \xfcbertreffen war die unbewusste Mission. Leistung als Liebesbeweis.</p>
+        <p class="vb-intro"><strong>b) Schutz durch Unaufhaltbarkeit:</strong>
+        Die SE3 sch\xfctzt sich durch dauerhaften Erfolg: Wer immer gewinnt,
+        muss nie verlieren. <strong>Franzese</strong> baute ein System, das selbst Verh\xe4ngnisse
+        abfedern konnte. Die Gef\xe4ngnisstrafe wurde zum Transformationsnarrativ
+        umgedeutet \u2013 der SE3 verliert nicht, sie wechselt die Spielfeld-Seite.</p>
+        <p class="vb-intro"><strong>c) Identit\xe4t als Projekt:</strong>
+        Die Schutzstrategie der Drei ist Identit\xe4tskonstruktion: Ich bin, was ich
+        leiste. <strong>Franzeses</strong> radikale Neuerfindung als Christ und Sprecher ist
+        eine Schutzstrategie in zweiter Generation \u2013 die alte Identit\xe4t wurde
+        aufgegeben, eine neue gebaut, die ebenso wasserdicht ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
+        <p class="vb-intro"><strong>a) SE3: der gute Mensch als Tarnung:</strong>
+        Naranjo beschreibt die selbsterhaltende Drei als den Subtyp, der am
+        intensivsten das Image des \u201eguten, anst\xe4ndigen Menschen" pflegt \u2013
+        weil Ansehen Sicherheit bedeutet. <strong>Franzese</strong> war im Mob der Mann,
+        der Wort hielt, fair behandelte und nie unn\xf6tig grausam war.
+        Das war kein Versehen \u2013 es war Strategie.</p>
+        <p class="vb-intro"><strong>b) Zweierfl\xfcgel als Popularit\xe4tsfaktor:</strong>
+        Die w2-Anteile machten <strong>Franzese</strong> menschlicher als typische Mob-Figuren.
+        Er war kein k\xfchler Rechner, wie er bei schwach ausgepr\xe4gtem Zweierfl\xfcgel h\xe4ufiger vorkommt \u2013 er war auch warm,
+        zugewandt, f\xe4hig zur echten Verbindung. Das machte ihn gef\xe4hrlicher
+        im Mob und gl\xe4ubw\xfcrdiger danach.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Escobar (SE3):</strong>
+        <strong>Escobar</strong> war die SE3 ohne moralischen Anker \u2013 Leistung um jeden Preis.
+        <strong>Franzese</strong> ist die SE3 mit dem Zweierfl\xfcgel und einem sp\xe4teren Wendepunkt.
+        Beide bauten Imperien. Einer zerst\xf6rte sich dabei, der andere
+        erfand sich neu. Die Fl\xfcgelenergie macht den Unterschied.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Waschb\xe4r</h3>
+        <p class="vb-intro"><strong>a) Die Maske:</strong>
+        Der Waschb\xe4r tr\xe4gt von Natur aus eine Maske \u2013 das dunkle Fellmuster um
+        die Augen. <strong>Franzese</strong> trug seine Maske aus Charme und Geradlinigkeit
+        wie eine zweite Haut. Das Tier und der Mensch teilen dieselbe Eigenschaft:
+        Man sieht die Maske, aber sie wirkt trotzdem \xfcberzeugend.</p>
+        <p class="vb-intro"><strong>b) Anpassungsf\xe4hig in jeder Umgebung:</strong>
+        Waschb\xe4ren \xfcberleben in W\xe4ldern, St\xe4dten, W\xfcstenrandgebieten \u2013 sie
+        brauchen keine ideale Umgebung. <strong>Franzese</strong> \xfcberlebte die Mafia,
+        das Gef\xe4ngnis und die \xf6ffentliche Entlassung gleicherma\xdfen. Der SE3w2er
+        ist der Anpassungsf\xe4higste aller Typen.</p>
+        <p class="vb-intro"><strong>c) Gewissenhaft und pragmatisch:</strong>
+        Waschb\xe4ren \u201ewaschen" ihre Nahrung \u2013 ein Ritual, das Sorgfalt und
+        Kontrolle signalisiert. <strong>Franzese</strong> arbeitete mit derselben Methodik:
+        nichts wurde dem Zufall \xfcberlassen. Jede Transaktion hatte ihre Struktur,
+        jede Beziehung ihren Zweck. Hinter der lockeren Fassade steckte
+        pr\xe4zise Planung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 3</h3>
+        <p class="vb-intro"><strong>a) Vom Tun zum Sein:</strong>
+        Der Heilungsweg der Drei f\xfchrt \xfcber die Frage: Wer bin ich, wenn ich
+        nichts leiste? <strong>Franzeses</strong> Konversion im Gef\xe4ngnis war m\xf6glicherweise
+        der erste Moment, in dem er dieser Frage wirklich begegnete \u2013
+        aller Ressourcen, Rollen und Strukturen beraubt.</p>
+        <p class="vb-intro"><strong>b) Echtheit statt Image:</strong>
+        Die gesunde Drei entwickelt Authentizit\xe4t \u2013 die F\xe4higkeit, ohne Maske
+        zu existieren. Ob <strong>Franzese</strong> diesen Schritt vollst\xe4ndig vollzogen hat,
+        bleibt offen. Seine \xf6ffentliche Rolle als \u201ebekehrter Mob-Boss" ist
+        selbst ein Image \u2013 aber vielleicht das ehrlichste, das er je getragen hat.</p>
+        <p class="vb-intro"><strong>c) Hoffnung als Botschaft:</strong>
+        Das Besondere an <strong>Franzese</strong> ist sein Heilungsnarrativ: Er ist der Beweis,
+        dass Transformation m\xf6glich ist \u2013 auch aus den dunkelsten Strukturen heraus.
+        F\xfcr den Typ 3 ist das die tiefste Aussage: Wert ist nicht verdient,
+        sondern geschenkt. Das ist der Weg von der T\xe4uschung zur Wahrheit.</p>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE3 \u2013 der gute Mensch als Subtyp: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 alle Dreier-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert \u2013 T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist \u2013 Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Michael Franzese bekannte sich schuldig und kooperierte mit Beh\u00f6rden; er verb\u00fc\u00dfte Gef\u00e4ngniszeit und lebt heute als freier Mann. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
+        {route:"kriminalpsychologie-sebastian-greenwood", label:"Kriminalpsychologie: Sebastian Greenwood"},
+      ])}
+    </div>
+  `);
+}
+
 function sebastianGreenwoodPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10399,57 +10605,6 @@ function architekturRaumgestaltungDer9TypenPage() {
         {route:"beziehungen", label:"Beziehungen der 9 Typen"},
         {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
         {route:"beruehmte-hundertwasser", label:"Portr\u00e4t: Friedensreich Hundertwasser (SX9w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function eulenartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Eulenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Eulenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser Eulen und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Eulen sind seit der Antike Symbole der Weisheit, Stille und inneren Schau \u2014 jede Art auf ihre ganz eigene Weise.</p>
-      <img src="./assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Schleiereule: Pr\u00e4zision und Perfektion</h3>
-        <p class="vb-intro">Schleiereulen haben ein klares, strukturiertes Jagdmuster und sind f\u00fcr ihre Effizienz und Pr\u00e4zision bekannt. Ihre methodische Natur und ihr Streben nach Perfektion spiegeln die Eigenschaften des Reformers Typ 1 wider. Das Gesicht der Schleiereule ist ein akustisches Pr\u00e4zisionsinstrument: Die herzf\u00f6rmige Scheibe b\u00fcndelt Schallwellen wie eine Parabolantenne und leitet sie zu den asymmetrisch platzierten Ohren \u2014 dadurch kann sie im absoluten Dunkel eine Maus unter Schnee orten, allein durch das Ger\u00e4usch ihrer Schritte. Kein Lebewesen hat ein genaueres Geh\u00f6r. Fehler macht die Schleiereule nicht \u2014 sie kann es sich nicht leisten. Die Leidenschaft des Zorns zeigt sich als innere Anspannung, wenn die Jagd nicht dem inneren Standard entspricht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Bartkauz: F\u00fcrsorge und stille Hilfsbereitschaft</h3>
-        <p class="vb-intro">Der Bartkauz ist bekannt f\u00fcr seine f\u00fcrsorgliche Natur gegen\u00fcber seinen Jungen und seine F\u00e4higkeit, in einer Vielzahl von Umgebungen zu \u00fcberleben und anderen Eulen bei der Aufzucht zu helfen, wenn n\u00f6tig. Der Bartkauz ist eine der gr\u00f6\u00dften Eulen der Welt \u2014 und eine der stillsten. Er jagt lautlos, warnt andere vor Gefahren und zeigt eine ausgepr\u00e4gte Brutf\u00fcrsorge: Bartkauz-M\u00e4nnchen bringen ihrer br\u00fctenden Partnerin regelm\u00e4\u00dfig Nahrung, auch wenn die Bedingungen hart sind. Er dient, ohne zu dr\u00e4ngen. Die Leidenschaft des Stolzes zeigt sich als tiefes Bed\u00fcrfnis, gebraucht zu werden \u2014 der Besch\u00fctzer im Stillen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Schnee-Eule: Leistung und Anpassungsf\u00e4higkeit</h3>
-        <p class="vb-intro">Schnee-Eulen sind beeindruckende J\u00e4ger, die unter den harten Bedingungen der Arktis \u00fcberleben. Ihre F\u00e4higkeit, sich an extreme Bedingungen anzupassen und erfolgreich zu jagen, reflektiert den leistungsorientierten Typ 3. Die Schnee-Eule ist das einzige Tier, das ganzj\u00e4hrig in der Arktis jagt \u2014 bei Temperaturen bis minus 50 Grad, im Winter ohne Licht. Sie zieht keine Grenzen zwischen Nacht und Tag, zwischen Sturm und Stille: Sie jagt, wenn Beute da ist. Ihr wei\u00dfes Gefieder ist kein Schmuck, sondern Effizienz \u2014 perfekte Tarnung im Schnee. Die Leidenschaft der Eitelkeit zeigt sich als der Wille, sichtbar zu triumphieren.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Waldohreule: Einzigartigkeit und innere Tiefe</h3>
-        <p class="vb-intro">Die Waldohreule besitzt ein auff\u00e4lliges Aussehen mit ihren markanten Federb\u00fcscheln, was sie deutlich von anderen Eulen unterscheidet. Ihre Besonderheit und das Anderssein entsprechen dem Individualisten Typ 4. Die Waldohreule ist der Waschb\u00e4r unter den Eulen: Wenn sie sich bedroht f\u00fchlt, streckt sie sich zu einem schlanken Ast, presst das Gefieder eng an den K\u00f6rper und wird fast unsichtbar zwischen Rinde und Borke. Diese F\u00e4higkeit zur Transformation \u2014 sichtbar sein, wenn sie will, unsichtbar, wenn n\u00f6tig \u2014 spiegelt die innere Welt des Typs 4 wider. Die Leidenschaft des Neids zeigt sich als Sehnsucht, gesehen zu werden ohne die Schutzmaske aufzugeben.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Habichtskauz: Beobachtung und analytische Stille</h3>
-        <p class="vb-intro">Der Habichtskauz verh\u00e4lt sich ruhig und zur\u00fcckhaltend und setzt seine genaue Beobachtungsgabe gezielt ein, um Beute zu suchen \u2014 was dem beobachtenden Analytiker Typ 5 entspricht. Der Habichtskauz ist die gr\u00f6\u00dfte Eule der borealen W\u00e4lder \u2014 und eine der am schwersten zu beobachtenden. Er sitzt stundenlang regungslos auf einem hohen Ast, dreht den Kopf in kleinen, pr\u00e4zisen Bewegungen und wartet. Er rennt nicht der Beute hinterher \u2014 er wartet, bis er genug wei\u00df, und handelt dann mit absoluter Sicherheit. Sein Blick ist nicht aggressiv, sondern registrierend. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Energie und Pr\u00e4senz.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Steinkauz: Treue und soziale Wachsamkeit</h3>
-        <p class="vb-intro">Steink\u00e4uze sind sozial und leben oft in der N\u00e4he menschlicher Siedlungen. Ihre Loyalit\u00e4t gegen\u00fcber ihren Partnern und ihre Bereitschaft, die Familie zu besch\u00fctzen, spiegeln die Eigenschaften des verl\u00e4sslichen Typs 6 wider. Der Steinkauz ist die Eule, die den Menschen am n\u00e4chsten lebt: Er nistet in alten Obstg\u00e4rten, Scheunen und Mauerl\u00f6chern, direkt neben dem Bauernhof. Er kennt jede Ecke seines Reviers auswendig und reagiert auf jede Ver\u00e4nderung mit sichtbarer Alarmierung. Sein Pfeifton in der D\u00e4mmerung ist ein Signal: Ich bin hier, ich beobachte, alles ist unter Kontrolle. Die Leidenschaft der Angst zeigt sich als permanente Wachheit, die nie ganz zur Ruhe kommt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Sperbereule: Lebhaftigkeit und Jagdfreude</h3>
-        <p class="vb-intro">Die Sperbereule ist eine mittelgro\u00dfe Eule, die in den offenen W\u00e4ldern und auf Wiesen lebt. Sie ist f\u00fcr ihre akrobatischen Flugman\u00f6ver und ihre schnellen Jagdtechniken bekannt, was ihre lebhafte, abenteuerlustige Natur zeigt. Die Sperbereule ist die einzige Eule, die \u00fcberwiegend tagaktiv ist \u2014 sie jagt im Sonnenlicht, sichtbar f\u00fcr alle. Sie fliegt in langen, wellenf\u00f6rmigen B\u00f6gen, st\u00fcrzt blitzschnell auf Beute und ist in st\u00e4ndiger Bewegung. Anders als ihre nachtaktiven Verwandten sucht sie nicht die Stille, sondern das Licht. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Hunger nach Aktion und dem n\u00e4chsten Ziel am Horizont.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Turkmenischer Uhu: Dominanz und Territorialit\u00e4t</h3>
-        <p class="vb-intro">Der Turkmenische Uhu ist eine sehr durchsetzungsstarke Eule. Die territoriale Aggression und seine starke Vitalpr\u00e4senz sowie Pr\u00e4senz und Durchsetzungsf\u00e4higkeit spiegeln den Herausforderer Typ 8 wider. Der Turkmenische Uhu ist eine der gr\u00f6\u00dften Eulen der Welt \u2014 sein Revier kann Hunderte von Quadratkilometern umfassen, und er verteidigt es mit einer Konsequenz, die selbst gro\u00dfe Greifv\u00f6gel meidet. Sein Ruf in der Nacht ist unverwechselbar tief und weit tragend: ein Signal, das nicht einl\u00e4dt, sondern warnt. Er teilt seinen Raum nicht \u2014 und braucht es nicht. Die Leidenschaft der Gier zeigt sich als unbedingter Wille zur Kontrolle \u00fcber den eigenen Bereich.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Zwergohreule: Stille Harmonie und Anpassung</h3>
-        <p class="vb-intro">Zwergohreulchen sind klein und unauff\u00e4llig und bevorzugen friedliche und ruhige Umgebungen. Ihre friedliche und ausgeglichene Natur entspricht der harmoniesuchenden Natur des friedliebenden Typs 9. Die Zwergohreule ist die kleinste Eule Europas \u2014 und die unauff\u00e4lligste. Sie nistet in Baumh\u00f6hlen, die andere liegen lie\u00dfen, jagt leise Insekten und Kleingetier und f\u00e4llt in keiner Umgebung auf. Ihr Ruf ist ein sanftes, rhythmisches Pfeifen, das sich harmonisch in die Ger\u00e4uschkulisse der Nacht einf\u00fcgt. Sie braucht keine Aufmerksamkeit und sucht keinen Konflikt. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass die Nacht ruhig bleibt und alles seinen gewohnten Gang geht.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
-        {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
       ])}
     </div>
   `);

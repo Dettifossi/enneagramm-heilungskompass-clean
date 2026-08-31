@@ -33697,6 +33697,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Rowan Atkinson \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \xb7 geb. 1955 in Consett, County Durham. Schauspieler, Komiker, Autor. Mr. Bean, Blackadder, Johnny English. Der Biber mit Sechserfl\xfcgel: Zugeh\xf6rigkeit statt Ausbruch, Perfektion als innere Versicherung.",
     land:"Großbritannien", tags:["Film","Kom\xf6die"], gender:"m"},
+  { route:"beruehmte-epikur", name:"Epikur", added:"2026-08-31", subtyp:"SO7w6",
+    heading:"Epikur – Sozialer Typ 7",
+    teaser:"SO7w6 · 341–270 v. Chr. Griechischer Philosoph, Begründer des Epikureismus. Gründete ›Der Garten‹ in Athen, eine philosophische Wohngemeinschaft mit Freunden, Schülern, Frauen und Sklaven als Gleichberechtigten. Lehrte Freude durch Bescheidenheit und Freundschaft statt Zügellosigkeit. Tierentsprechung: Biber.",
+    land:"Griechenland", tags:["Philosophie"], gender:"m"},
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
@@ -76980,6 +76984,73 @@ function freudKrankheitsportraetPage() {
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7) – verwandte Hypochondrie, andere Instinktantwort"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so6", label:"Subtyp-Profil SO6"},
+      ])}
+    </div>
+  `);
+}
+
+function epikurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-epikur-portrait.jpg" alt="Epikur" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Epikur</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, 341–270 v. Chr. – Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der einen Garten für alle baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – er baut nicht für sich allein, sondern für eine Gemeinschaft, und ist nie wirklich fertig. Epikur wurde 341 v. Chr. auf Samos geboren, studierte in Athen und an mehreren Orten Kleinasiens, bevor er um 306 v. Chr. in Athen ein Grundstück kaufte, das als „Der Garten" (Kepos) in die Philosophiegeschichte einging. Dort baute er über Jahrzehnte eine lebendige Wohn- und Lerngemeinschaft auf, in der Freunde, Schüler, Frauen und sogar Sklaven gleichberechtigt zusammenlebten und philosophierten – für die damalige Zeit eine radikal offene Konstruktion.</p>
+          <p class="vb-intro">Anders als die meisten großen Denker seiner Zeit suchte Epikur keine politische Karriere und keine öffentliche Bühne in der athenischen Demokratie. Sein Lebenswerk war der Garten selbst – ein fortlaufendes Bauprojekt aus Texten, Regeln und einer wachsenden Gemeinschaft, das er bis zu seinem Tod nie als abgeschlossen betrachtete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude im Dienst der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Märtyrer</strong> – dieser Subtyp stellt die eigene Genusssucht zurück, um sich einer größeren Gemeinschaft oder Idee zu widmen. Epikur gilt bis heute vielen als Philosoph der Zügellosigkeit – ein gründliches Missverständnis. Er lehrte nicht Völlerei, sondern die Kunst, das wirklich Angenehme zu wählen und unnötigen Schmerz zu meiden: Freundschaft, einfache Nahrung, ein ruhiges Gewissen wiegen bei ihm schwerer als Reichtum oder Ruhm.</p>
+          <p class="vb-intro">Statt seine Einsichten für sich zu behalten oder als Privatvergnügen zu genießen, verbrachte er sein gesamtes Erwachsenenleben damit, den Garten aufzubauen, zu unterrichten und in unzähligen Briefen Freunde und Schüler in ganz Griechenland an seiner Philosophie teilhaben zu lassen. Sein eigenes Glück blieb an das Glück der Gemeinschaft gebunden – ein Opfer der eigenen Zurückgezogenheit zugunsten eines geteilten guten Lebens, genau wie es das SO7-Muster vorgibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässliche Regeln für ein gutes Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben ein Bedürfnis nach verlässlichen Kriterien und stabilen Strukturen, an denen sich Vertrauen festmachen lässt. Epikur entwickelte mit seiner „Kanonik" ein regelrechtes Prüfsystem für Erkenntnis – klare Kriterien, anhand derer sich wahre von falscher Wahrnehmung unterscheiden ließ, damit seine Schüler nicht im Ungewissen tappen mussten. Auch seine Ethik war kein loses Ideensammelsurium, sondern ein durchdachtes Regelwerk: eine Hierarchie der Bedürfnisse, feste Prinzipien, an denen man sich orientieren konnte.</p>
+          <p class="vb-intro">Diese Sechser-Note zeigte sich auch im Aufbau des Gartens selbst: eine Gemeinschaft mit klaren, verlässlichen Regeln des Zusammenlebens, in der neue Mitglieder wussten, woran sie waren. Nicht wilde, ungebremste Marktbeschickerei durch neue Ideen, sondern ein stabiles System, dem man vertrauen konnte, gerade weil es keine Überraschungen barg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Tod im Garten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In seinen letzten Lebensjahren litt Epikur an schmerzhaften Nierensteinen, vermutlich verbunden mit weiteren Beschwerden im Unterleib. Überliefert ist, dass er die letzten Tage seines Lebens trotz starker Schmerzen in einem warmen Bad verbrachte und dabei ungewöhnlich gefasst blieb. In seinem letzten erhaltenen Brief an einen Freund schrieb er, dass die Erinnerung an gemeinsame philosophische Gespräche ihm mehr Freude bereite als der Schmerz ihm nehmen könne.</p>
+          <p class="vb-intro">Bis zuletzt blieb er in seiner Rolle als Lehrer und Freund präsent – kein einsamer Rückzug aus der Gemeinschaft, sondern ein Sterben mitten im eigenen, sorgfältig aufgebauten Bau. Der Biber, der noch am eigenen Damm arbeitet, während das Wasser längst über ihm zusammenschlägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine tragfähige, verlässliche Gemeinschaft aufzubauen, die dem einzelnen echten Halt gibt</strong> – der Garten überdauerte Epikurs eigenen Tod um Jahrhunderte und wurde zu einer der einflussreichsten philosophischen Schulen der Antike. Seine radikale Offenheit gegenüber Frauen und Sklaven war für seine Zeit ein stiller, aber wirkungsvoller Bruch mit gesellschaftlichen Konventionen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieses Gemeinschaftsprojekts: Wer sein gesamtes Selbstverständnis an eine selbst gegründete Institution bindet, riskiert, die eigene Person hinter dem System verschwinden zu lassen. Über Epikurs privates Innenleben abseits seiner Rolle als Lehrer und Systemgründer ist erstaunlich wenig überliefert – als wäre der Mensch hinter dem Garten selbst zur Nebensache geworden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, dessen Garten ihn überlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Epikur gehört zu den einflussreichsten Philosophen der Antike – nicht weil er lauter argumentierte als andere, sondern weil er eine Gemeinschaft baute, die seine eigenen Lehren tatsächlich lebbar machte, über seinen Tod hinaus.</p>
+          <p class="vb-intro">Die Erinnerung an einen Mann, der ein Missverständnis seines eigenen Namens bis heute trägt – „epikureisch" steht im Volksmund für Genusssucht, während Epikur selbst Bescheidenheit und Freundschaft lehrte –, das ist das bleibende Bild dieses Subtyps: ein Biber, der einen Garten für andere baute, in dem am Ende auch er selbst in Frieden sterben konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
       ])}
     </div>
   `);
@@ -139872,6 +139943,7 @@ function render() {
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
+      "beruehmte-epikur": epikurPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,

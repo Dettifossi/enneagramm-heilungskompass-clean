@@ -1748,6 +1748,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Rowan Atkinson – Social Type 7",
     teaser:"SO7w6 \xb7 born 1955 in Consett, County Durham. Actor, comedian, author. Mr Bean, Blackadder, Johnny English. The beaver with six wings: belonging instead of breaking out, perfection as inner insurance.",
     land:"United Kingdom", tags:["Film","Kom\xf6die"], gender:"m"},
+{ route:"beruehmte-epikur", name:"Epicurus", added:"2026-08-31", subtyp:"SO7w6",
+    heading:"Epicurus – Social Type 7",
+    teaser:"SO7w6 · 341–270 BCE. Greek philosopher, founder of Epicureanism. Founded "The Garden" in Athens, a philosophical community where friends, students, women, and slaves lived as equals. Taught joy through modesty and friendship, not excess. Animal correspondence: Beaver.",
+    land:"Greece", tags:["Philosophy"], gender:"m"},
 { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexual Type 7",
     teaser:"SX7w6 · born 1950. German radio and TV host, entertainer, actor. Wetten, dass..? – 23 years, 212 episodes. The chimpanzee: lively, magnetic, unpredictable – always searching for the next spark. Animal correspondence: Chimpanzee.",
@@ -49701,6 +49705,73 @@ function freudKrankheitsportraetPage() {
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – related hypochondria, a different instinct response"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
+      ])}
+    </div>
+  `);
+}
+
+function epikurPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-epikur-portrait.jpg" alt="Epicurus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Epicurus</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, 341&ndash;270 BCE &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver that built a garden for everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself alone, but for a community, and it is never truly finished. Epicurus was born in 341 BCE on Samos, studied in Athens and at several sites in Asia Minor, before buying a plot of land in Athens around 306 BCE that entered the history of philosophy as "The Garden" (Kepos). There, over decades, he built a living community of residence and learning in which friends, students, women, and even slaves lived and philosophized as equals &ndash; a radically open construction for its time.</p>
+          <p class="vb-intro">Unlike most great thinkers of his era, Epicurus sought no political career and no public stage in Athenian democracy. His life's work was the Garden itself &ndash; an ongoing construction project of texts, rules, and a growing community that he never considered finished, right up to his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: joy in service of the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Social Type Seven the <strong>Sacrifice</strong> or <strong>Martyr</strong> &ndash; this subtype sets aside its own pleasure-seeking to devote itself to a larger community or idea. Epicurus is still widely regarded as a philosopher of excess &ndash; a thorough misunderstanding. He did not teach gluttony, but the art of choosing what is truly pleasant and avoiding unnecessary pain: friendship, simple food, a calm conscience weighed more heavily for him than wealth or fame.</p>
+          <p class="vb-intro">Rather than keeping his insights to himself or enjoying them as a private pleasure, he spent his entire adult life building the Garden, teaching, and sharing his philosophy with friends and students throughout Greece through countless letters. His own happiness remained bound to the happiness of the community &ndash; a sacrifice of his own seclusion for the sake of a shared good life, exactly as the SO7 pattern predicts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: reliable rules for a good life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven a need for reliable criteria and stable structures on which trust can be built. Epicurus developed, with his "Canon," a genuine testing system for knowledge &ndash; clear criteria by which true perception could be distinguished from false, so that his students would not be left in uncertainty. His ethics, too, were no loose collection of ideas, but a carefully considered rulebook: a hierarchy of needs, fixed principles one could orient oneself by.</p>
+          <p class="vb-intro">This same Six-wing note showed in the structure of the Garden itself: a community with clear, reliable rules of coexistence, in which new members knew exactly where they stood. Not a wild, unchecked marketplace of new ideas, but a stable system one could trust precisely because it held no surprises.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Death in the Garden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his final years, Epicurus suffered from painful kidney stones, likely accompanied by further abdominal ailments. Tradition holds that he spent the last days of his life in a warm bath despite severe pain, remaining unusually composed throughout. In his last surviving letter to a friend, he wrote that the memory of shared philosophical conversations brought him more joy than the pain could take from him.</p>
+          <p class="vb-intro">To the end, he remained present in his role as teacher and friend &ndash; not a lonely withdrawal from the community, but a death in the middle of his own carefully built construction. The beaver, still working on its own dam while the water is already closing over it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is the ability to <strong>build a resilient, reliable community that gives real support to the individual</strong> &ndash; the Garden outlived Epicurus's own death by centuries and became one of the most influential philosophical schools of antiquity. His radical openness toward women and slaves was, for its time, a quiet but effective break with social convention.</p>
+          <p class="vb-intro">The shadow shows in the flip side of this communal project: whoever binds their entire sense of self to a self-founded institution risks letting the individual person disappear behind the system. Remarkably little has survived about Epicurus's private inner life apart from his role as teacher and system-builder &ndash; as if the person behind the Garden had itself become secondary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The beaver whose garden outlived him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Epicurus is among the most influential philosophers of antiquity &ndash; not because he argued louder than others, but because he built a community that actually made his own teachings livable, beyond his own death.</p>
+          <p class="vb-intro">The memory of a man who still carries a misunderstanding of his own name today &ndash; "epicurean" stands in common usage for excess, while Epicurus himself taught modesty and friendship &ndash; that is the lasting image of this subtype: a beaver who built a garden for others, in which, in the end, he too could die in peace.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
       ])}
     </div>
   `);
@@ -104091,6 +104162,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
+      "beruehmte-epikur": epikurPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,

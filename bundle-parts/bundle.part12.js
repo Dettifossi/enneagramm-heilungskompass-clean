@@ -1,3 +1,182 @@
+function willyBrandtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-willy-brandt-portrait.jpg" alt="Willy Brandt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willy Brandt</p>
+        <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achterflügel · 1913–1992</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Willy Brandt</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-willy-brandt">Porträt berühmter
+        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
+        das dort nicht behandelt wird: wiederkehrende schwere depressive Episoden während
+        seiner gesamten politischen Laufbahn, die er weitgehend privat hielt, sowie die
+        Darmkrebs-Erkrankung, an der er 1992 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Brandt</strong> ist dem <strong>sozialen Typ 9 mit Achterflügel</strong>
+        zugeordnet. Die SO9 hält als Kontratyp der Neun äußerlich Kurs und Aktivität
+        aufrecht, auch wenn innerlich Erschöpfung droht; der Achterflügel gibt die Kraft,
+        nach außen entschlossen zu wirken, selbst wenn im Verborgenen ein Zusammenbruch
+        drohte. Genau diese Kombination – nach außen unerschütterliche Präsenz, nach innen
+        wiederkehrende schwere Erschöpfungskrisen – bestimmte den Verlauf seiner
+        gesundheitlichen Geschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste dokumentierte depressive Episode um 1958:</strong>
+        Biografen beschreiben eine erste schwere depressive Krise während seiner Zeit als
+        Regierender Bürgermeister von Berlin, ausgelöst durch die politische und persönliche
+        Belastung der Berlin-Krise.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrendes Muster über Jahrzehnte:</strong>
+        Weitere Episoden folgten in Phasen extremer politischer Belastung, dokumentiert unter
+        anderem von seinem Biografen Peter Merseburger, der Brandts Tendenz zu Phasen
+        tiefer Erschöpfung und Rückzugs ausführlich beschrieb.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Thematisierung zu Lebzeiten in dieser Form:</strong>
+        Zu seinen Amtszeiten wurden diese Krisen in der Öffentlichkeit nicht als
+        eigenständiges Krankheitsbild benannt, sondern meist als vorübergehende
+        Erschöpfung oder Krankheit umschrieben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Schwerste Krise im Zusammenhang mit der Guillaume-Affäre 1974:</strong>
+        Als sein enger Mitarbeiter Günter Guillaume 1974 als DDR-Spion enttarnt wurde, geriet
+        Brandt nach übereinstimmenden biografischen Quellen in eine tiefe persönliche Krise,
+        die seinen Rücktritt als Bundeskanzler begleitete.</p>
+        <p class="vb-intro"><strong>b) Rückzug statt öffentlicher Erklärung:</strong>
+        Anstatt die eigene psychische Belastung öffentlich zu benennen, trat Brandt formal
+        wegen der Guillaume-Affäre zurück – ein Rücktrittsgrund, der öffentlich klarer
+        kommuniziert werden konnte als die eigene Erschöpfung.</p>
+        <p class="vb-intro"><strong>c) Diagnose von Darmkrebs in den 1990er-Jahren:</strong>
+        Anfang der 1990er-Jahre wurde bei Brandt Darmkrebs diagnostiziert, an dem er nach
+        kurzer Krankheit starb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzte politische Aktivität trotz privater Krisen:</strong>
+        Trotz der depressiven Episoden blieb Brandt über Jahrzehnte hinweg politisch aktiv –
+        als SPD-Vorsitzender bis 1987, als Vorsitzender der Sozialistischen Internationale
+        bis zu seinem Tod.</p>
+        <p class="vb-intro"><strong>b) Tod am 8. Oktober 1992 in Unkel:</strong>
+        Willy Brandt starb im Alter von 78 Jahren an den Folgen des Darmkrebses in seinem
+        Wohnort Unkel am Rhein.</p>
+        <p class="vb-intro"><strong>c) Staatsbegräbnis mit weltweiter Anteilnahme:</strong>
+        Sein Tod löste international Trauer aus – zahlreiche Staats- und Regierungschefs
+        nahmen am Staatsbegräbnis teil, das seine Bedeutung für die deutsche und europäische
+        Nachkriegsgeschichte würdigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Nachträgliche biografische Aufarbeitung der depressiven Episoden:</strong>
+        Erst nach seinem Tod wurde in umfassenden Biografien das Ausmaß seiner
+        wiederkehrenden depressiven Krisen systematisch dokumentiert und in den Kontext
+        seiner politischen Erfolge gestellt.</p>
+        <p class="vb-intro"><strong>b) Ein Bild ungebrochener Stärke in der öffentlichen Erinnerung:</strong>
+        Das öffentliche Gedächtnis an Brandt bleibt bis heute vor allem von Bildern
+        entschlossener Stärke geprägt – dem Kniefall von Warschau, der Ostpolitik –, während
+        die privaten Krisen erst durch spätere historische Forschung sichtbar wurden.</p>
+        <p class="vb-intro"><strong>c) Keine Verklärung der eigenen Krankheit:</strong>
+        Weder die depressiven Episoden noch die Krebserkrankung wurden nachträglich zu
+        einem zentralen Bestandteil seines öffentlichen Vermächtnisses – dieses bleibt bis
+        heute von seinem politischen Werk dominiert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Kontratyp, der auch im Zusammenbruch weiterlief:</strong>
+        Die SO9-typische Umkehrung der eigenen Trägheit in äußere Aktivität zeigte sich
+        gerade in den Krisenjahren: Selbst in Phasen tiefster Erschöpfung reiste, verhandelte
+        und sprach Brandt weiter, statt sich offen zurückzuziehen.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel und die Fassade der Unerschütterlichkeit:</strong>
+        Dieselbe Kraft, die Brandt gegen den öffentlichen Widerstand zur Ostpolitik standhalten
+        ließ, sorgte auch dafür, dass die eigene psychische Erschöpfung nach außen kaum
+        sichtbar wurde – Stärke als Rüstung, auch gegenüber sich selbst.</p>
+        <p class="vb-intro"><strong>c) Ein formaler Rücktrittsgrund statt einer persönlichen Erklärung:</strong>
+        Dass Brandt 1974 wegen der Guillaume-Affäre zurücktrat, statt die eigene
+        Erschöpfung öffentlich zu benennen, passt zum SO9w8-Muster: Handeln bleibt sichtbar,
+        das eigene Innenleben bleibt verborgen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann des Friedens, der den eigenen inneren Frieden am seltensten fand:</strong>
+        Brandts gesamtes politisches Werk galt der Versöhnung und dem äußeren Frieden –
+        ausgerechnet der eigene innere Frieden blieb ihm über Jahrzehnte durch wiederkehrende
+        Erschöpfungskrisen verwehrt, die er nie öffentlich beim Namen nannte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Parallelen zeigen sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma
+        Mankiller</a> und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ronald-reagan">Ronald
+        Reagan</a> (beide ebenfalls SO9w8): Alle drei hielten ihr öffentliches Amt trotz
+        erheblicher gesundheitlicher Belastung so lange wie möglich aufrecht, statt sich
+        vorzeitig zurückzuziehen. Bei allen SO9w8ern zeigt sich dasselbe Muster: die äußere
+        Aktivität als Gegenkraft zur eigenen Erschöpfung, bis der Körper selbst die Grenze
+        setzt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Darm, das Organ der stillen Verarbeitung?</strong>
+        Für einen sozialen Typ 9 mit Achterflügel, dessen gesamtes Leben von der Umkehrung
+        innerer Erschöpfung in äußere Aktivität geprägt war, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das im Körper unbemerkt und ohne bewusste Kontrolle
+        verarbeitet, wurde zum Ort der letzten Erkrankung – eine Krankheit, die, ähnlich wie
+        die depressiven Episoden zuvor, lange im Verborgenen fortschritt. Diese Deutung ist
+        eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zwangsläufig zu Depression oder
+        Darmkrebs führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig
+        vom Subtyp.</strong> Was sich an Brandts Fall zeigen lässt, ist ein Muster im Umgang
+        mit innerer Erschöpfung, das bei einem ausgeprägten sozialen Typ 9 mit Achterflügel
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Brandt kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 9
+        mit Achterflügel verwandelt innere Erschöpfung reflexhaft in äußere Aktivität, statt
+        rechtzeitig innezuhalten und die eigene Grenze anzuerkennen, und lebte genau dieses
+        Muster über Jahrzehnte unverändert aus. Wer die eigene Neigung, Erschöpfung durch
+        Handeln zu überdecken, statt sie zu benennen, nicht als Muster erkennt, riskiert,
+        dass der Körper irgendwann die Pause erzwingt, die der Wille nie zugelassen hat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 9 mit Achterflügel erklärt bei <strong>Willy Brandt</strong> vieles
+        am Verlauf seiner gesundheitlichen Geschichte: ein Mann, dessen gesamtes Wirken dem
+        äußeren Frieden galt, fand den eigenen inneren Frieden über Jahrzehnte nicht – der
+        Büffel, der durch jede Krise weiterlief, bis der Körper selbst am Ende die letzte,
+        unausweichliche Ruhe erzwang.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
+        {route:"krankheitsportraets-wilma-mankiller", label:"Krankheitsporträt: Wilma Mankiller (SO9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so9", label:"Subtyp-Profil SO9"},
+      ])}
+    </div>
+  `);
+}
+
 function hansDietrichGenscherKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11208,212 +11387,6 @@ function jonathanMeijerPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function michaelFranzesePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Michael Franzese \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/michael-franzese-portrait.jpg" alt="Michael Franzese \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Michael Franzese</p>
-        <p class="krim-portrait-typ">SE3w2 \u00b7 Selbsterhaltender Typ 3 mit Zweierfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanischer Mafia-Underboss und Aussteiger \u00b7 Tierentsprechung: Waschb\u00e4r</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Michael Franzese</strong> (geb. 1951, Brooklyn) war Capo der Colombo-Familie,
-        einer der m\u00e4chtigsten Mafia-Clans New Yorks. Mit einem raffinierten Benzinsteuer-Betrug
-        verdiente er in den 1980er-Jahren bis zu f\xfcnf Millionen Dollar pro Woche \u2013
-        insgesamt soll er \xfcber eine Milliarde Dollar f\xfcr das organisierte Verbrechen
-        erwirtschaftet haben. <strong>Franzese</strong> war der j\xfcngste Capo seit Al Capone.
-        Was ihn von anderen Mob-Figuren unterscheidet: Er verlie\xdf die Mafia lebend \u2013
-        ohne Kronzeugenregelung, ohne Schutzprogramm. Er konvertierte im Gef\xe4ngnis zum
-        christlichen Glauben und wurde Motivationsredner, Buchautor und Kirchensprecher.
-        Diese Analyse fragt: Wie formt die selbsterhaltende Drei mit Zweierfl\xfcgel
-        einen Menschen, der in zwei v\xf6llig verschiedenen Welten gleich gut funktioniert?
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
-                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
-        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 3 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SE3w2 &middot;
-          <em>Leidenschaft:</em> T\xe4uschung &middot;
-          <em>Tieranalogie:</em> Waschb\xe4r
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
-        <p class="vb-intro"><strong>a) Charmant und bodenst\xe4ndig:</strong>
-        <strong>Franzese</strong> wirkte nie kalt oder bedrohlich \u2013 obwohl er einer der
-        m\u00e4chtigsten Kriminellen seiner Zeit war. Der Zweierfl\xfcgel verleiht der Drei
-        W\xe4rme und Zug\xe4nglichkeit. Menschen in seiner N\xe4he f\xfchlten sich wohl,
-        nicht eingesch\xfcchtert.</p>
-        <p class="vb-intro"><strong>b) Souver\xe4n und situationsangepasst:</strong>
-        <strong>Franzese</strong> wechselte m\xfchelos zwischen der Sprache der Stra\xdfe und der
-        Sprache der Gesch\xe4ftswelt. Mit Bankern sprach er wie ein Finanzier,
-        mit Soldaten wie ein Boss. Die SE3 ist ein Meister der Rollenanpassung:
-        Sie zeigt immer das Gesicht, das gerade erfolgreich ist.</p>
-        <p class="vb-intro"><strong>c) Gewinnendes Selbstbewusstsein:</strong>
-        Wer <strong>Franzese</strong> begegnet \u2013 damals wie heute \u2013 beschreibt ihn als jemanden,
-        der Raum f\xfcllt ohne zu dr\xe4ngen. Das ist der SE3w2-Typ: er strahlt Erfolg aus,
-        ohne damit zu prahlen. Der Erfolg soll f\xfcr sich sprechen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Was funktioniert hier?</strong>
-        Die selbsterhaltende Drei richtet ihren Blick zuerst auf Effizienz:
-        Welcher Weg f\xfchrt am schnellsten zum Ergebnis? <strong>Franzeses</strong> Benzinsteuerbetrug
-        war ein Meisterwerk der operativen Logik \u2013 er nutzte legale Strukturen,
-        um illegale Ziele zu verschleiern. Der Blick der SE3 ist pragmatisch, nicht ideologisch.</p>
-        <p class="vb-intro"><strong>b) Wie sichere ich das Erreichte ab?</strong>
-        Sicherheit ist das Kernthema der selbsterhaltenden Variante. <strong>Franzese</strong>
-        baute Strukturen auf, die ihn sch\xfctzten: Anw\xe4lte, Gesellschaften, Tarnnamen.
-        Er wollte nicht nur reich werden \u2013 er wollte unangreifbar sein.</p>
-        <p class="vb-intro"><strong>c) Wie halte ich die Loyalit\xe4t meiner Umgebung?</strong>
-        Der Zweierfl\xfcgel lenkt einen Teil der Aufmerksamkeit auf Beziehungen.
-        <strong>Franzese</strong> war f\xfcr seine Gro\xdfz\xfcgigkeit bekannt \u2013 er bezahlte gut,
-        behandelte seine Leute fair. Das ist die SE3w2-Kombination: Leistung plus
-        Verbindlichkeit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: T\xe4uschung</h3>
-        <p class="vb-intro"><strong>a) T\xe4uschung als Gesch\xe4ftsmodell:</strong>
-        Der Benzinsteuerbetrug war in seinem Kern ein Akt systematischer T\xe4uschung:
-        Scheingesellschaften, gef\xe4lschte Buchf\xfchrung, falsche Identit\xe4ten.
-        <strong>Franzese</strong> t\xe4uschte Beh\xf6rden, Partner und Konkurrenten gleichzeitig \u2013
-        nicht aus Bosheit, sondern weil T\xe4uschung f\xfcr die Drei ein neutrales Werkzeug ist.</p>
-        <p class="vb-intro"><strong>b) Selbstt\xe4uschung: der gute Mann:</strong>
-        Wie alle Dreier \xfcbernahm <strong>Franzese</strong> das Selbstbild des kompetenten,
-        verantwortungsvollen Mannes \u2013 der f\xfcr seine Familie sorgt, der loyal ist,
-        der Wort h\xe4lt. Diese Selbstwahrnehmung \xfcberlebte die kriminelle Phase und
-        wurde nach der Konversion zum Fundament seiner neuen Identit\xe4t.</p>
-        <p class="vb-intro"><strong>c) T\xe4uschung durch Verwandlung:</strong>
-        Der Wechsel vom Mob-Boss zum Kirchensprecher ist aus Enneagramm-Sicht
-        keine \xdcberraschung: Die Drei kann sich neu erfinden. <strong>Franzese</strong> t\xe4uschte
-        nicht mehr andere \u2013 er erschuf sich selbst neu. Ob das echte Verwandlung
-        oder erneute Performance ist, bleibt die tiefste Frage dieses Portraits.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Leistung als Sprache:</strong>
-        <strong>Franzese</strong> kommunizierte \xfcber Ergebnisse. Im Mob: Geld, Macht, Loyalit\xe4t.
-        Heute: B\xfccher, Vortr\xe4ge, Reichweite. Der Kanal wechselt, das Muster bleibt.
-        Die SE3 lebt durch das, was sie produziert \u2013 Sein ohne Leistung ist ihr fremd.</p>
-        <p class="vb-intro"><strong>b) Strategische Gro\xdfz\xfcgigkeit:</strong>
-        <strong>Franzese</strong> war bekannt daf\xfcr, seine Leute zu belohnen. Das ist der
-        Zweierfl\xfcgel: Geben als Bindungsmittel. Aber anders als die reine Zwei
-        gibt die SE3w2 nicht aus emotionalem Bed\xfcrfnis \u2013 sie gibt, weil es
-        Loyalit\xe4t erzeugt, die das System stabil h\xe4lt.</p>
-        <p class="vb-intro"><strong>c) Risikoberechnung statt Impuls:</strong>
-        <strong>Franzese</strong> handelte selten aus Emotion. Sein Benzinsteuerbetrug war
-        jahrelang wasserdicht, weil er methodisch vorgegangen war. Die SE3 ist
-        kein Hasardeur \u2013 sie kalkuliert, sichert ab, plant Auswege. Das unterscheidet
-        sie von impulsiveren Typen wie der Acht.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde des Wertlosen:</strong>
-        Hinter dem Erfolg der Drei liegt die tief verankerte \xdcberzeugung:
-        Ich bin nur dann wertvoll, wenn ich leiste. <strong>Franzese</strong> wuchs als
-        Sohn von Sonny Franzese auf \u2013 einem gef\u00fcrchteten Mobster. Den Vater
-        zu \xfcbertreffen war die unbewusste Mission. Leistung als Liebesbeweis.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Unaufhaltbarkeit:</strong>
-        Die SE3 sch\xfctzt sich durch dauerhaften Erfolg: Wer immer gewinnt,
-        muss nie verlieren. <strong>Franzese</strong> baute ein System, das selbst Verh\xe4ngnisse
-        abfedern konnte. Die Gef\xe4ngnisstrafe wurde zum Transformationsnarrativ
-        umgedeutet \u2013 der SE3 verliert nicht, sie wechselt die Spielfeld-Seite.</p>
-        <p class="vb-intro"><strong>c) Identit\xe4t als Projekt:</strong>
-        Die Schutzstrategie der Drei ist Identit\xe4tskonstruktion: Ich bin, was ich
-        leiste. <strong>Franzeses</strong> radikale Neuerfindung als Christ und Sprecher ist
-        eine Schutzstrategie in zweiter Generation \u2013 die alte Identit\xe4t wurde
-        aufgegeben, eine neue gebaut, die ebenso wasserdicht ist.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE3: der gute Mensch als Tarnung:</strong>
-        Naranjo beschreibt die selbsterhaltende Drei als den Subtyp, der am
-        intensivsten das Image des \u201eguten, anst\xe4ndigen Menschen" pflegt \u2013
-        weil Ansehen Sicherheit bedeutet. <strong>Franzese</strong> war im Mob der Mann,
-        der Wort hielt, fair behandelte und nie unn\xf6tig grausam war.
-        Das war kein Versehen \u2013 es war Strategie.</p>
-        <p class="vb-intro"><strong>b) Zweierfl\xfcgel als Popularit\xe4tsfaktor:</strong>
-        Die w2-Anteile machten <strong>Franzese</strong> menschlicher als typische Mob-Figuren.
-        Er war kein k\xfchler Rechner, wie er bei schwach ausgepr\xe4gtem Zweierfl\xfcgel h\xe4ufiger vorkommt \u2013 er war auch warm,
-        zugewandt, f\xe4hig zur echten Verbindung. Das machte ihn gef\xe4hrlicher
-        im Mob und gl\xe4ubw\xfcrdiger danach.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Escobar (SE3):</strong>
-        <strong>Escobar</strong> war die SE3 ohne moralischen Anker \u2013 Leistung um jeden Preis.
-        <strong>Franzese</strong> ist die SE3 mit dem Zweierfl\xfcgel und einem sp\xe4teren Wendepunkt.
-        Beide bauten Imperien. Einer zerst\xf6rte sich dabei, der andere
-        erfand sich neu. Die Fl\xfcgelenergie macht den Unterschied.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Waschb\xe4r</h3>
-        <p class="vb-intro"><strong>a) Die Maske:</strong>
-        Der Waschb\xe4r tr\xe4gt von Natur aus eine Maske \u2013 das dunkle Fellmuster um
-        die Augen. <strong>Franzese</strong> trug seine Maske aus Charme und Geradlinigkeit
-        wie eine zweite Haut. Das Tier und der Mensch teilen dieselbe Eigenschaft:
-        Man sieht die Maske, aber sie wirkt trotzdem \xfcberzeugend.</p>
-        <p class="vb-intro"><strong>b) Anpassungsf\xe4hig in jeder Umgebung:</strong>
-        Waschb\xe4ren \xfcberleben in W\xe4ldern, St\xe4dten, W\xfcstenrandgebieten \u2013 sie
-        brauchen keine ideale Umgebung. <strong>Franzese</strong> \xfcberlebte die Mafia,
-        das Gef\xe4ngnis und die \xf6ffentliche Entlassung gleicherma\xdfen. Der SE3w2er
-        ist der Anpassungsf\xe4higste aller Typen.</p>
-        <p class="vb-intro"><strong>c) Gewissenhaft und pragmatisch:</strong>
-        Waschb\xe4ren \u201ewaschen" ihre Nahrung \u2013 ein Ritual, das Sorgfalt und
-        Kontrolle signalisiert. <strong>Franzese</strong> arbeitete mit derselben Methodik:
-        nichts wurde dem Zufall \xfcberlassen. Jede Transaktion hatte ihre Struktur,
-        jede Beziehung ihren Zweck. Hinter der lockeren Fassade steckte
-        pr\xe4zise Planung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 3</h3>
-        <p class="vb-intro"><strong>a) Vom Tun zum Sein:</strong>
-        Der Heilungsweg der Drei f\xfchrt \xfcber die Frage: Wer bin ich, wenn ich
-        nichts leiste? <strong>Franzeses</strong> Konversion im Gef\xe4ngnis war m\xf6glicherweise
-        der erste Moment, in dem er dieser Frage wirklich begegnete \u2013
-        aller Ressourcen, Rollen und Strukturen beraubt.</p>
-        <p class="vb-intro"><strong>b) Echtheit statt Image:</strong>
-        Die gesunde Drei entwickelt Authentizit\xe4t \u2013 die F\xe4higkeit, ohne Maske
-        zu existieren. Ob <strong>Franzese</strong> diesen Schritt vollst\xe4ndig vollzogen hat,
-        bleibt offen. Seine \xf6ffentliche Rolle als \u201ebekehrter Mob-Boss" ist
-        selbst ein Image \u2013 aber vielleicht das ehrlichste, das er je getragen hat.</p>
-        <p class="vb-intro"><strong>c) Hoffnung als Botschaft:</strong>
-        Das Besondere an <strong>Franzese</strong> ist sein Heilungsnarrativ: Er ist der Beweis,
-        dass Transformation m\xf6glich ist \u2013 auch aus den dunkelsten Strukturen heraus.
-        F\xfcr den Typ 3 ist das die tiefste Aussage: Wert ist nicht verdient,
-        sondern geschenkt. Das ist der Weg von der T\xe4uschung zur Wahrheit.</p>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE3 \u2013 der gute Mensch als Subtyp: die tiefste Analyse der selbsterhaltenden Drei und ihrer Maske der Anst\xe4ndigkeit.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 alle Dreier-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\xfchrlich portr\xe4tiert \u2013 T\xe4uschung, Image und der Heilungsweg \xfcber echte Authentizit\xe4t.", "Wer du wirklich bist \u2013 Band 1")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Michael Franzese bekannte sich schuldig und kooperierte mit Beh\u00f6rden; er verb\u00fc\u00dfte Gef\u00e4ngniszeit und lebt heute als freier Mann. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
-        {route:"kriminalpsychologie-sebastian-greenwood", label:"Kriminalpsychologie: Sebastian Greenwood"},
       ])}
     </div>
   `);
