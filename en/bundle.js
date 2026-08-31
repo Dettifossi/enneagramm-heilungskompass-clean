@@ -45477,6 +45477,7 @@ function klaraVonAssisiPortraitPage() {
         <h2 class="vb-section">6. The Legacy: A Foundation That Holds</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Clare of Assisi left behind cannot be reduced to a single miracle or a single rule. The Order of Poor Clares still exists worldwide today, her own Rule remained a model for women's convents for centuries, and in 1958 &ndash; because of a recorded vision in which she "saw and heard" a Mass held elsewhere from her sickbed &ndash; she was declared the patron saint of television, a curious but fitting twist for a woman whose greatest strength was quiet, tireless presence.</p>
+          <p class="vb-intro">On 17 February 1958, more than seven hundred years after her death, Pope Pius XII officially named Clare of Assisi the patron saint of television. According to legend, too weak to leave her bed at Christmas, she had the midnight Mass projected onto the wall of her cell from afar, as if on an invisible screen. When television became popular in the 1950s, the Vatican recalled this medieval "live broadcast" and promptly granted her the patronage.</p>
           <p class="vb-intro">That is the gift of the SE3w2 in its purest form: a competence that needs no stage to have effect, and a foundation that holds precisely because it never depended on outside recognition. The raccoon that never left its territory &ndash; and became immortal exactly because of that.</p>
         </blockquote>
 
