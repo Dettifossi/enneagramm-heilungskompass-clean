@@ -1534,3 +1534,70 @@ export function xanthippePortraitPage() {
     </div>
   `);
 }
+
+export function giacomoCasanovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-giacomo-casanova-portrait.jpg" alt="Giacomo Casanova" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Casanova</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Venezianischer Schriftsteller und Abenteurer, 1725–1798 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das jede neue Begegnung ganz für sich beanspruchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das trägt, was anderen zu schwer wird, und das Nähe nicht fordert, sondern anbietet, einem einzelnen Gegenüber ganz zugewandt. Giacomo Girolamo Casanova wurde 1725 in Venedig als Sohn zweier Schauspieler geboren, größtenteils bei der Großmutter aufgezogen, während die Eltern auf Tournee waren. Früh zeigte sich eine ungewöhnliche Auffassungsgabe: Mit siebzehn Jahren schloss er sein Jurastudium in Padua ab.</p>
+          <p class="vb-intro">Doch statt einer juristischen oder geistlichen Laufbahn – er wurde zunächst tatsächlich für den Klerus ausgebildet und aus dem Priesterseminar geworfen – folgte ein Leben, das sich quer durch fast alle Höfe und Gesellschaften Europas bewegte: Geheimagent, Bibliothekar, Freimaurer, Falschspieler, Diplomat, Violinist, Gefängnisausbrecher. Was all diese Rollen verband, war nicht ein Beruf, sondern eine Konstante: die Fähigkeit, sich in jeder neuen Umgebung sofort auf den einen entscheidenden Menschen im Raum einzustellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Hingabe an den einen Menschen im Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> richtet die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Casanovas eigene Memoiren, über zwölf Bände, in denen er weit mehr als hundertzwanzig Liebschaften beschreibt, lesen sich weniger wie eine Sammlung von Eroberungen als wie eine endlose Reihe einzelner, intensiv geführter Beziehungen – jede mit eigenem Namen, eigener Geschichte, eigenem emotionalen Gewicht.</p>
+          <p class="vb-intro">Zeitgenössische wie spätere Biografen betonen dabei etwas, das gegen das populäre Klischee des kühlen Verführers spricht: Casanova beschreibt sich selbst wiederholt als jemanden, der sich in jeder Begegnung tatsächlich einließ, der zuhörte, der half – bei Mitgiften, bei Fluchtplänen, bei Karrieren –, der sich für die jeweilige Frau unentbehrlich machen wollte, nicht nur begehrenswert. Genau diese personenbezogene, situative Hingabe an das eine Gegenüber, das gerade vor ihm stand, ist der Kern der sexuellen Zwei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der eigene Ruf als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Wirkung ein sichtbares, überprüfbares Projekt zu machen. Casanova war kein zufälliger Charmeur, sondern ein Mann, der seinen eigenen Ruf systematisch pflegte: Er verkehrte gezielt mit den einflussreichsten Persönlichkeiten seiner Zeit – Voltaire, Katharina der Großen, Friedrich dem Großen, Mozart, dem er möglicherweise sogar bei ›Don Giovanni‹ zuarbeitete –, sammelte Empfehlungsschreiben, pflegte einen Adelstitel, den ›Chevalier de Seingalt‹, den er sich selbst zulegte, und hielt penibel Buch über die eigene Biografie.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich dieser Flügel in seinem Lebenswerk der letzten Jahre: der ›Histoire de ma vie‹, seinen zwölfbändigen Memoiren, in denen er sein eigenes Leben nicht nur festhielt, sondern bewusst als zusammenhängendes, wirkungsvolles Gesamtbild komponierte – eine Selbstinszenierung, die weit über den eigenen Tod hinaus wirken sollte und bis heute wirkt. Der Dreierflügel lieferte die strategische Selbstdarstellung, die sexuelle Zwei darunter die tatsächliche, persönliche Wärme, die diese Inszenierung mit Leben füllte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Leben quer durch Europa</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Casanovas Weg führte ihn durch nahezu jede bedeutende Stadt Europas – Paris, London, Wien, St. Petersburg, Warschau, Madrid, Konstantinopel – häufig getrieben von Skandalen, Duellen, Spielschulden oder dem Zorn eines betrogenen Ehemanns. 1755 wurde er in Venedig wegen angeblicher Ketzerei und Freimaurerei in den berüchtigten Bleikammern des Dogenpalastes inhaftiert; seine spektakuläre Flucht 1756, eine der ganz wenigen gelungenen Ausbrüche aus diesem Gefängnis, machte ihn europaweit berühmt, noch bevor seine Memoiren erschienen.</p>
+          <p class="vb-intro">Doch dieselbe Unrast, die ihn zu Hunderten intensiven Begegnungen trieb, verhinderte auch jede dauerhafte Bindung an einen Ort, einen Beruf oder eine einzelne Beziehung. Wohlstand und Mittellosigkeit wechselten sich sein ganzes Leben lang ab, meist im selben Jahrzehnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>echte, intensive Nähe zu einer Vielzahl unterschiedlicher Menschen aufzubauen und daraus ein Leben von außergewöhnlicher Weite zu formen</strong> – Casanova bewegte sich zwischen allen gesellschaftlichen Schichten seiner Zeit, von Bettlern bis zu Monarchen, und hinterließ mit seinen Memoiren eines der detailreichsten Zeitzeugnisse des europäischen 18. Jahrhunderts überhaupt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei eng verknüpft mit der Frage, ob man für den einen Menschen im Moment unentbehrlich genug ist. Bei Casanova zeigte sich das darin, dass er seinen gesamten Wert immer wieder neu an der jeweils aktuellen Eroberung, dem jeweils aktuellen Gönner, der jeweils aktuellen Bewunderung festmachte – kaum je an etwas Bleibendem. Diese Abhängigkeit von immer neuer, unmittelbarer Bestätigung trieb ihn rastlos durch ganz Europa, ließ ihn aber auch nie wirklich ankommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kamel, das am Ende allein durch die eigene Geschichte weiterzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Casanova gehört zu den bekanntesten Gestalten des europäischen 18. Jahrhunderts – weniger wegen einer einzelnen großen Leistung als wegen eines Lebens, das er selbst so überzeugend erzählte, dass sein Name bis heute zum Gattungsbegriff für den charmanten Verführer wurde, obwohl seine eigenen Memoiren ein sehr viel vielschichtigeres Bild zeichnen.</p>
+          <p class="vb-intro">Vom rastlosen jungen Geheimagenten über den europaweit bewunderten Gefängnisausbrecher bis zum alternden Bibliothekar, der seine eigene Geschichte für die Nachwelt niederschrieb: Das ist die sexuelle Zwei mit Dreierflügel in einer ihrer weitreichendsten Formen – eine Hingabe an unzählige einzelne Menschen, die sich am Ende in ein einziges, sorgfältig komponiertes Werk über das eigene Leben verwandelte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"krankheitsportraets-giacomo-casanova", label:"Krankheitsporträt: Giacomo Casanova (SX2w3)"},
+      ])}
+    </div>
+  `);
+}

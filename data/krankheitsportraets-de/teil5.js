@@ -3614,3 +3614,198 @@ export function sammyDavisJrKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function giacomoCasanovaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-giacomo-casanova-portrait.jpg" alt="Giacomo Casanova" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Casanova</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel · 1725–1798</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kamel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Giacomo Casanova</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-giacomo-casanova">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein rastloses Leben quer durch
+        Europa und seine zwölfbändigen Memoiren. Dieses Porträt vertieft ein Kapitel,
+        das dort nur am Rande erwähnt wird: die jahrzehntelangen Geschlechtskrankheiten,
+        die er selbst in seinen Memoiren offen beschrieb, und den quälenden
+        Harnwegsinfekt, an dem er 1798 als verarmter Bibliothekar in der böhmischen
+        Provinz starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Casanova</strong> ist dem <strong>sexuellen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SX2 sucht Nähe über die intensive, persönliche Hingabe an den
+        einen Menschen, der gerade vor ihr steht – bei Casanova äußerte sich das
+        zeitlebens als endlose Reihe einzelner, echter Begegnungen statt kühler
+        Berechnung. Der Dreierflügel bringt den Antrieb hinzu, aus dieser Wirkung ein
+        sichtbares Lebenswerk zu formen – am deutlichsten in den Memoiren, die er als
+        alter, kranker Mann noch verfasste, um dem eigenen Leben ein bleibendes Bild
+        zu geben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Wiederholte Geschlechtskrankheiten über Jahrzehnte:</strong>
+        In seinen eigenen Memoiren beschreibt Casanova offen mehrere Episoden von
+        Gonorrhoe, Schanker sowie mindestens eine Syphilis- und eine Herpes-Erkrankung
+        – Folgen eines Lebens mit vielen intensiven, wechselnden Begegnungen.</p>
+        <p class="vb-intro"><strong>b) Keine dauerhafte Genesung, sondern wiederkehrende Episoden:</strong>
+        Die Beschwerden verschwanden jeweils zeitweise, kehrten jedoch über die
+        Jahrzehnte immer wieder zurück – ein Muster, das sich durch sein gesamtes
+        Erwachsenenleben zieht, ohne dass es ihn dauerhaft ausbremste.</p>
+        <p class="vb-intro"><strong>c) Unvermindertes Reisetempo trotz der Beschwerden:</strong>
+        Selbst während wiederkehrender Krankheitsphasen setzte Casanova sein
+        rastloses Leben quer durch Europa fort – Paris, Wien, St. Petersburg, Madrid –,
+        ohne die eigene Gesundheit zum zentralen Thema zu machen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rückzug nach Dux 1785:</strong>
+        Mit sechzig Jahren nahm der mittlerweile mittellose Casanova die Stelle als
+        Bibliothekar von Graf Waldstein auf Schloss Dux in Böhmen an – ein bewusster
+        Bruch mit dem rastlosen Leben, das ihn zuvor durch fast jede bedeutende Stadt
+        Europas geführt hatte.</p>
+        <p class="vb-intro"><strong>b) Zunehmende Isolation und Streit mit dem Personal:</strong>
+        In Dux fühlte sich Casanova vom Schlosspersonal verspottet und unverstanden;
+        zeitgenössische Berichte schildern endlose Streitereien um Kaffee, Suppe und
+        die eigene Würde – ein scharfer Kontrast zu seinem früheren Leben als
+        gefeierter Gesellschafter der einflussreichsten Höfe Europas.</p>
+        <p class="vb-intro"><strong>c) Die Memoiren als Lebensprojekt der letzten Jahre:</strong>
+        In genau dieser Isolation begann Casanova, seine ›Histoire de ma vie‹ zu
+        verfassen – rund 1.800 handschriftliche Seiten, entstanden aus der
+        Rückschau eines kranken, alternden Mannes auf ein Leben voller Begegnungen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein hartnäckiger Harnwegsinfekt als letzte Erkrankung:</strong>
+        In seinen letzten Lebensmonaten litt Casanova an einem sich verschlimmernden,
+        vermutlich als Spätfolge der jahrzehntelangen Geschlechtskrankheiten
+        einzuordnenden Harnwegsinfekt, der zunehmend seine gesamte Kraft aufzehrte.</p>
+        <p class="vb-intro"><strong>b) Kein spektakuläres, sondern ein zermürbendes Ende:</strong>
+        Anders als die dramatischen Wendepunkte seines früheren Lebens – die Flucht
+        aus den Bleikammern des Dogenpalastes, die europaweiten Skandale – verlief sein
+        Tod still, in einem einzigen Zimmer eines böhmischen Schlosses, weit entfernt
+        von den großen Höfen, die er einst bereist hatte.</p>
+        <p class="vb-intro"><strong>c) Tod am 4. Juni 1798 mit 73 Jahren:</strong>
+        Casanova starb, von der Krankheit sichtlich geschwächt, in Dux – nach eigenen,
+        überlieferten letzten Worten soll er als Philosoph gelebt und als Christ zu
+        sterben versucht haben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Werk, das den eigenen Tod weit überdauerte:</strong>
+        Die ›Histoire de ma vie‹ wurde erst Jahrzehnte nach Casanovas Tod
+        veröffentlicht und gilt heute als eines der bedeutendsten Zeitdokumente des
+        europäischen 18. Jahrhunderts – ein Werk, das aus den letzten, kranken
+        Lebensjahren eines vereinsamten Mannes entstand.</p>
+        <p class="vb-intro"><strong>b) Der Name als Gattungsbegriff:</strong>
+        Sein Name wurde postum zum Synonym für den Verführer schlechthin – eine
+        Verkürzung, die dem vielschichtigen, in seinen letzten Jahren kranken und
+        einsamen Mann kaum gerecht wird.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Inszenierung des eigenen Sterbens:</strong>
+        Anders als sein früheres Leben, das er selbst so sorgfältig zur Schau
+        gestellt hatte, verlief sein Tod fast unbemerkt von der großen europäischen
+        Öffentlichkeit, die ihn einst gefeiert hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Folgen intensiver Nähe als körperliches Vermächtnis:</strong>
+        Die für die sexuelle Zwei typische Hingabe an unzählige einzelne, echte
+        Begegnungen hinterließ bei Casanova nicht nur emotionale, sondern auch
+        körperliche Spuren – die wiederkehrenden Geschlechtskrankheiten als direkte
+        Folge eines Lebens, das ganz auf persönliche Nähe ausgerichtet war.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und das letzte große Projekt:</strong>
+        Dass Casanova ausgerechnet in seiner kränksten, isoliertesten Lebensphase das
+        umfangreichste Werk seines Lebens schuf, passt zum Dreierflügel: Auch als der
+        Körper versagte, blieb der Antrieb bestehen, aus dem eigenen Leben ein
+        sichtbares, bleibendes Ergebnis zu formen.</p>
+        <p class="vb-intro"><strong>c) Vom gefeierten Gesellschafter zum einsamen Kranken:</strong>
+        Der Kontrast zwischen einem Leben, das fast ausschließlich aus Begegnungen mit
+        anderen Menschen bestand, und einem Tod in fast völliger Isolation lässt sich
+        als bitterste Konsequenz derselben Energie lesen, die ihn zeitlebens
+        angetrieben hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit als direkte Folge des Lebensmusters selbst:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses steht hier
+        kein zufälliges Leiden neben dem Lebensmuster, sondern ein Leiden, das aus
+        genau der Lebensweise entstand, die Casanovas SX2w3-Prägung ausmachte –
+        die körperliche Kehrseite jahrzehntelanger intensiver Nähe zu vielen Menschen.</p>
+        <p class="vb-intro"><strong>b) Rückzug in Isolation als Bruch mit dem eigenen Muster:</strong>
+        Für einen Mann, dessen gesamtes Leben auf unmittelbare persönliche Begegnung
+        ausgerichtet war, bedeutete das erzwungene, kranke Rückzugsleben in Dux eine
+        besonders schmerzhafte Umkehrung des eigenen Grundmusters.</p>
+        <p class="vb-intro"><strong>c) Die Memoiren als Ersatz für die fehlende Nähe:</strong>
+        Wo die reale Begegnung mit Menschen in den letzten Lebensjahren fehlte, trat
+        das Schreiben über frühere Begegnungen an ihre Stelle – als könne die
+        sexuelle Zwei die eigene Hingabe an andere nicht aufgeben, sondern nur noch
+        in der Rückschau weiterleben.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Harnwege?</strong>
+        Für eine sexuelle Zwei mit Dreierflügel, deren gesamtes Lebenswerk auf
+        intensiver körperlicher wie emotionaler Nähe zu anderen beruhte, liegt eine
+        Deutung nahe: Ausgerechnet jenes Körpersystem, über das sich diese Nähe am
+        unmittelbarsten vollzog, wurde bei Casanova am Ende zum Ort chronischen
+        Leidens. Diese Deutung ist eine plausible Interpretation, kein belegter
+        medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu
+        Geschlechtskrankheiten oder Harnwegsleiden führt – <strong>jeder Mensch kann
+        jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Casanovas Fall zeigen lässt, ist ein Muster, das bei einer besonders intensiv
+        gelebten sexuellen Zwei in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Casanova kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Zwei mit
+        Dreierflügel hält reflexhaft an der intensiven Hingabe an einzelne Menschen
+        fest, statt rechtzeitig auf die körperlichen Warnsignale zu achten, und lebte
+        genau dieses Muster jahrzehntelang unverändert aus, bevor sich die Folgen in
+        den letzten, isolierten Lebensjahren körperlich Bahn brachen. Wer die eigene
+        Neigung, sich immer wieder vollständig auf neue Begegnungen einzulassen,
+        nicht als Muster erkennt, riskiert, dass der eigene Körper irgendwann die
+        Rechnung für Jahrzehnte ungebremster Hingabe präsentiert.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Zwei mit Dreierflügel erklärt bei <strong>Giacomo Casanova</strong>
+        vieles am Verlauf seiner letzten Lebensjahre: ein Mann, dessen gesamtes Leben
+        der intensiven, persönlichen Nähe zu unzähligen einzelnen Menschen galt, trug
+        die körperlichen Folgen dieser Lebensweise jahrzehntelang mit sich, bis sie
+        ihn in völliger Isolation einholten – und verwandelte genau diese letzte,
+        einsame Phase noch einmal in sein bleibendstes Werk. Das Kamel, das am Ende
+        allein durch die Wüste der eigenen Erinnerungen zog.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-elvis-presley", label:"Krankheitsporträt: Elvis Presley (SX2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
+      ])}
+    </div>
+  `);
+}

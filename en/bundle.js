@@ -333,6 +333,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
   { route:"krankheitsportraets-sammy-davis-jr", name:"Sammy Davis Jr.", subtyp:"SX2w3", heading:"Sammy Davis Jr. – Sexual Type 2", krankheit:"Throat and mouth cancer, hidden from the public for a long time", teaser:"SX2w3 – entertainer, 1925–1990. A tumor diagnosed in late summer 1989 that he hid from the public while continuing to perform – including a 24-hour telethon appearance despite a confirmed diagnosis. Died in 1990 at only 64, eight months after the first symptoms." , land:"USA", gender:"m", jahre:"1925–1990"},
+  { route:"krankheitsportraets-giacomo-casanova", name:"Giacomo Casanova", subtyp:"SX2w3", heading:"Giacomo Casanova – Sexual Type 2", krankheit:"Decades of sexually transmitted illnesses, fatal urinary infection as a late consequence", teaser:"SX2w3 – Venetian writer and adventurer, 1725–1798. Recurring sexually transmitted illnesses openly described in his own memoirs, isolated final years as a librarian in Bohemia, death from a urinary infection." , land:"Italy", gender:"m", jahre:"1725–1798"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-julius-caesar", name:"Julius Caesar", subtyp:"SO2w3", heading:"Julius Caesar – Social Type 2", krankheit:"Recurring seizures, likely epilepsy (ancient sources: Plutarch, Suetonius)", teaser:"SO2w3 – Roman general and statesman, 100–44 BC. Seizures of the 'falling sickness' independently attested by Plutarch and Suetonius, including during the Battle of Thapsus in 46 BC and in 45 BC at Corduba. Never publicly acknowledged or mentioned in his own writings. Assassinated on 15 March 44 BC in the Senate – with no documented direct connection to the illness." , land:"Roman Republic", gender:"m", jahre:"100–44 BC"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
@@ -976,6 +977,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sammy Davis Jr. – Sexual Type 2",
     teaser:"SX2w3 · 1925–1990. Entertainer, singer, dancer, actor. Vaudeville childhood, Rat Pack loyalty, interracial marriage under intense public pressure, six decades of uncompromising giving on stage. Animal correspondence: Camel.",
     land:"USA", tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-giacomo-casanova", name:"Giacomo Casanova", added:"2026-08-31", subtyp:"SX2w3",
+    heading:"Giacomo Casanova – Sexual Type 2",
+    teaser:"SX2w3 · 1725–1798. Venetian writer and adventurer. Secret agent, librarian, prison escapee, twelve-volume memoirs – restless devotion to countless individual encounters across all of Europe. Animal correspondence: Camel.",
+    land:"Italy", tags:["Literatur"] , gender:"m"},
 { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
     heading:"Monika Gruber – Sexual Type 2",
     teaser:"SX2w1 · born 1970. Cabaret artist, actress. Bavaria's sharpest seductress to the truth - humor as home, attitude as second nature. The camel that looks at a thousand people at the same time. Animal correspondence: Camel.",
@@ -45932,6 +45937,73 @@ function mataHariPortraitPage() {
   `);
 }
 
+function giacomoCasanovaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-giacomo-casanova-portrait.jpg" alt="Giacomo Casanova" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Casanova</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Venetian writer and adventurer, 1725&ndash;1798 &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel that claimed every new encounter fully for itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that carries what becomes too heavy for others, and that offers closeness rather than demanding it, turned entirely toward one single companion. Giacomo Girolamo Casanova was born in 1725 in Venice, the son of two actors, raised largely by his grandmother while his parents toured. An unusual quickness of mind showed early: he completed his law degree in Padua at seventeen.</p>
+          <p class="vb-intro">Yet instead of a legal or clerical career &ndash; he was initially trained for the clergy and expelled from seminary &ndash; a life followed that crossed nearly every court and society in Europe: secret agent, librarian, freemason, card sharp, diplomat, violinist, prison escapee. What connected all these roles was not a profession, but a constant: the ability to attune himself instantly, in any new setting, to the one decisive person in the room.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: devotion to the one person in the room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Two (SX2)</strong> directs the Two's energy not toward the large group, but toward the direct, personal space between two people. Naranjo called this subtype <em>Aggression/Seduction</em> &ndash; an active, forward-moving approach toward the other. Casanova's own memoirs, spanning twelve volumes and describing well over a hundred and twenty relationships, read less like a catalog of conquests and more like an endless series of individually, intensely conducted relationships &ndash; each with its own name, its own story, its own emotional weight.</p>
+          <p class="vb-intro">Contemporary and later biographers alike emphasize something that runs against the popular cliché of the cool seducer: Casanova repeatedly describes himself as someone who genuinely engaged in each encounter, who listened, who helped &ndash; with dowries, escape plans, careers &ndash; who wanted to make himself indispensable to each woman, not merely desirable. This exact person-focused, situational devotion to the one companion standing in front of him is the core of the Sexual Two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: one's own reputation as a life's work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to turn personal impact into a visible, verifiable project. Casanova was no accidental charmer, but a man who systematically cultivated his own reputation: he deliberately associated with the most influential figures of his time &ndash; Voltaire, Catherine the Great, Frederick the Great, Mozart, whom he may even have assisted with "Don Giovanni" &ndash; collected letters of recommendation, maintained a self-bestowed noble title, the "Chevalier de Seingalt," and kept meticulous track of his own biography.</p>
+          <p class="vb-intro">This wing shows most clearly in the great work of his final years: the "Histoire de ma vie," his twelve-volume memoirs, in which he not only recorded his own life but deliberately composed it into a coherent, effective whole &ndash; a self-staging meant to reach far beyond his own death, and one that still does. The Three-wing supplied the strategic self-presentation; the Sexual Two underneath supplied the actual, personal warmth that gave that staging its life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A life across Europe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Casanova's path took him through nearly every major city in Europe &ndash; Paris, London, Vienna, St. Petersburg, Warsaw, Madrid, Constantinople &ndash; often driven by scandal, duels, gambling debts, or the wrath of a betrayed husband. In 1755 he was imprisoned in Venice's notorious Leads, the lead-roofed cells of the Doge's Palace, on charges of alleged heresy and freemasonry; his spectacular escape in 1756, one of the very few successful breakouts from that prison, made him famous across Europe even before his memoirs appeared.</p>
+          <p class="vb-intro">Yet the same restlessness that drove him to hundreds of intense encounters also prevented any lasting attachment to a place, a profession, or a single relationship. Wealth and destitution alternated throughout his life, often within the same decade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>build genuine, intense closeness with a great many different people and shape from it a life of extraordinary breadth</strong> &ndash; Casanova moved between every social stratum of his time, from beggars to monarchs, and left behind, in his memoirs, one of the most detailed eyewitness accounts of the eighteenth-century European world.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; in the Sexual Two, closely bound up with the question of whether one is indispensable enough to the one person who matters in the moment. For Casanova, this showed in his tendency to measure his entire worth again and again by his most recent conquest, his most recent patron, his most recent admiration &ndash; almost never by anything lasting. This dependence on ever-new, immediate confirmation drove him restlessly across all of Europe, but also meant he never truly arrived anywhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The camel that, in the end, moved on alone through its own story</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Casanova is among the best-known figures of eighteenth-century Europe &ndash; less because of any single great achievement than because of a life he told so convincingly himself that his name became, to this day, a generic term for the charming seducer, even though his own memoirs paint a far more layered picture.</p>
+          <p class="vb-intro">From the restless young secret agent, through the prison escapee admired across Europe, to the aging librarian who wrote his own story for posterity: this is the Sexual Two with a Three-wing in one of its most far-reaching forms &ndash; a devotion to countless individual people that, in the end, transformed itself into a single, carefully composed work about one life.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+        {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"krankheitsportraets-giacomo-casanova", label:"Illness Portrait: Giacomo Casanova (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function evaMendesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -48684,7 +48756,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -48694,7 +48766,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness; Giacomo Casanova, whose own memoirs describe well over a hundred and twenty relationships that he himself repeatedly frames not as conquests but as relationships in which he helped, listened, and wanted to make himself indispensable to each woman – devotion to the one companion standing in front of him, rather than cold calculation."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -49011,13 +49083,18 @@ const KRANKHEITSMUSTERKOMPASS = {
   },
   SX2: {
     tier: "Camel",
-    kernthema: "With two documented cases so far, no reliable pattern is yet visible, but both share the same basic figure: uncompromising performance for an audience, well beyond the body's own warning signs.",
-    beispiele: ["Elvis Presley", "Sammy Davis Jr."],
+    kernthema: "Two recognizable facets: uncompromising performance for an audience well beyond the body's own warning signs – and, for a way of life oriented more toward individual encounters than a large stage, physical consequences that arise directly from decades of intense closeness to many individual people.",
+    beispiele: ["Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova"],
     fingerabdruecke: [
       {
         titel: "Performing for the audience, past one's own bodily warning signs",
         beschreibung: "Rather than withdrawing at the first health warning signs, the SX2 with a three-wing holds on to the performance – the stage, the audience, the one great connection is not given up until the very end, even once the body has long since been collapsing.",
         beleg: "Elvis Presley, whose cardiac arrhythmia and megacolon were exacerbated by a years-long medication dependency that his closest circle helped sustain, and who barely let up performing right up to his final tour in 1977; Sammy Davis Jr., who completed a 24-hour telethon appearance despite a confirmed cancer diagnosis and hid his illness from the public for a long time."
+      },
+      {
+        titel: "The physical flip side of intense closeness to many individual people",
+        beschreibung: "For an SX2 oriented more toward individual, personal encounters than the large stage, a different pattern emerges: the illness does not arise from holding on to performance, but directly as a physical consequence of decades of intense interpersonal closeness itself.",
+        beleg: "Giacomo Casanova, whose recurring sexually transmitted illnesses across decades, openly described in his own memoirs, were a direct consequence of a life oriented around countless individual, genuine encounters – and whose final years unfolded in forced isolation, far from any close personal contact."
       }
     ]
   },
@@ -58907,6 +58984,195 @@ function elvisPresleyKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3) – life's work"},
         {route:"krankheitsportraets-sammy-davis-jr", label:"Illness Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"krankheitsportraets-giacomo-casanova", label:"Illness Portrait: Giacomo Casanova (SX2w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx2", label:"Subtype Profile SX2"},
+      ])}
+    </div>
+  `);
+}
+
+function giacomoCasanovaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-giacomo-casanova-portrait.jpg" alt="Giacomo Casanova" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giacomo Casanova</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexual Type 2 with Three-wing · 1725–1798</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Camel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Animal correspondence: Camel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Giacomo Casanova</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-giacomo-casanova">portrait under Famous Personalities</a>
+        in this Compass – that page covers his restless life across Europe and his
+        twelve-volume memoirs. This portrait is devoted to a chapter barely touched on
+        there: the decades of sexually transmitted illnesses he himself openly
+        described in his memoirs, and the agonizing urinary infection that killed him
+        in 1798 as an impoverished librarian in provincial Bohemia.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Casanova</strong> is classified as the <strong>Sexual Two with Three-wing</strong>.
+        The SX2 seeks closeness through intense, personal devotion to the one person
+        standing in front of it – for Casanova, this showed throughout his life as an
+        endless series of individual, genuine encounters rather than cold calculation.
+        The Three-wing adds the drive to shape this impact into a visible life's work –
+        most clearly in the memoirs he wrote as an old, ill man, giving his own life a
+        lasting shape.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Repeated sexually transmitted illnesses across decades:</strong>
+        In his own memoirs, Casanova openly describes several episodes of gonorrhea,
+        chancroid, and at least one bout each of syphilis and herpes – consequences of
+        a life of many intense, changing encounters.</p>
+        <p class="vb-intro"><strong>b) No lasting recovery, only recurring episodes:</strong>
+        The symptoms each subsided temporarily but kept returning across the decades –
+        a pattern running through his entire adult life without ever permanently
+        slowing him down.</p>
+        <p class="vb-intro"><strong>c) Undiminished pace of travel despite the symptoms:</strong>
+        Even during recurring bouts of illness, Casanova continued his restless life
+        across Europe – Paris, Vienna, St. Petersburg, Madrid – without making his own
+        health a central concern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Retreat to Dux in 1785:</strong>
+        At sixty, the now-destitute Casanova accepted a position as librarian to Count
+        Waldstein at Dux Castle in Bohemia – a deliberate break with the restless life
+        that had previously carried him through nearly every major city in Europe.</p>
+        <p class="vb-intro"><strong>b) Growing isolation and conflict with the household staff:</strong>
+        At Dux, Casanova felt mocked and misunderstood by the castle staff;
+        contemporary accounts describe endless quarrels over coffee, soup, and his own
+        dignity – a sharp contrast to his earlier life as a celebrated companion of
+        Europe's most influential courts.</p>
+        <p class="vb-intro"><strong>c) The memoirs as the great project of his final years:</strong>
+        It was in exactly this isolation that Casanova began writing his "Histoire de
+        ma vie" – roughly 1,800 handwritten pages, born from the retrospective gaze
+        of an ill, aging man looking back on a life full of encounters.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) A stubborn urinary infection as the final illness:</strong>
+        In his last months, Casanova suffered from a worsening urinary infection,
+        likely a late consequence of his decades of sexually transmitted illnesses,
+        which increasingly drained his remaining strength.</p>
+        <p class="vb-intro"><strong>b) No spectacular ending, but a grinding one:</strong>
+        Unlike the dramatic turning points of his earlier life – the escape from the
+        Leads of the Doge's Palace, the scandals that spanned Europe – his death
+        unfolded quietly, in a single room of a Bohemian castle, far from the great
+        courts he had once traveled between.</p>
+        <p class="vb-intro"><strong>c) Death on June 4, 1798, at age 73:</strong>
+        Casanova died, visibly weakened by illness, at Dux – according to reported
+        last words, he claimed to have lived as a philosopher and tried to die as a
+        Christian.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A work that far outlived him:</strong>
+        The "Histoire de ma vie" was not published until decades after Casanova's
+        death and is today considered one of the most significant eyewitness accounts
+        of eighteenth-century Europe – a work born out of the final, illness-marked
+        years of a solitary man.</p>
+        <p class="vb-intro"><strong>b) His name as a generic term:</strong>
+        His name became, posthumously, a synonym for the seducer himself – a
+        shorthand that hardly does justice to the layered, in his final years ill and
+        lonely man behind it.</p>
+        <p class="vb-intro"><strong>c) No public staging of his own dying:</strong>
+        Unlike his earlier life, which he had so carefully put on display himself, his
+        death passed almost unnoticed by the wider European public that had once
+        celebrated him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The consequences of intense closeness as a physical legacy:</strong>
+        The Sexual Two's typical devotion to countless individual, genuine encounters
+        left Casanova not only emotional but also physical traces – the recurring
+        sexually transmitted illnesses as a direct consequence of a life oriented
+        entirely around personal closeness.</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the final great project:</strong>
+        That Casanova produced the most extensive work of his life precisely during
+        his sickest, most isolated period fits the Three-wing: even as his body
+        failed, the drive remained to shape his own life into a visible, lasting
+        result.</p>
+        <p class="vb-intro"><strong>c) From celebrated companion to solitary invalid:</strong>
+        The contrast between a life made up almost entirely of encounters with other
+        people and a death in near-total isolation can be read as the bitterest
+        consequence of the very same energy that had driven him throughout his life.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Through-Line</h3>
+        <p class="vb-intro"><strong>a) An illness as a direct consequence of the life pattern itself:</strong>
+        Unlike many other illness portraits in this Compass, this is not a random
+        ailment sitting alongside the life pattern, but a condition that arose
+        directly from the very way of life that defined Casanova's SX2w3 nature – the
+        physical flip side of decades of intense closeness to many people.</p>
+        <p class="vb-intro"><strong>b) Retreat into isolation as a rupture of his own pattern:</strong>
+        For a man whose entire life had been oriented around immediate personal
+        encounter, the forced, ill retreat to Dux amounted to a particularly painful
+        reversal of his own core pattern.</p>
+        <p class="vb-intro"><strong>c) The memoirs as a substitute for missing closeness:</strong>
+        Where real encounters with people were missing in his final years, writing
+        about earlier encounters took their place – as if the Sexual Two could not
+        abandon its devotion to others, only continue living it out in retrospect.</p>
+        <p class="vb-intro"><strong>d) Why the urinary tract, of all places?</strong>
+        For a Sexual Two with a Three-wing, whose entire life's work rested on
+        intense physical and emotional closeness to others, one interpretation
+        suggests itself: precisely the bodily system through which that closeness
+        was most directly enacted became, for Casanova, the eventual site of chronic
+        suffering. This reading is a plausible interpretation, not a documented
+        medical causal link, and will be explored further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A framework without determinism:</strong>
+        This does not mean the Sexual Two pattern inevitably leads to sexually
+        transmitted or urinary illnesses – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Casanova's case can show is a pattern
+        that keeps recurring in an especially intensely lived Sexual Two – one of
+        many possible readings, not a verdict. The corresponding illness will
+        gradually be developed further in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Casanova did not know his own Enneagram pattern – the Sexual Two with
+        Three-wing holds almost reflexively onto intense devotion to individual
+        people rather than heeding physical warning signs in time, and he lived out
+        exactly this pattern unchanged for decades before its consequences caught up
+        with him physically in his final, isolated years. Anyone who does not
+        recognize their own tendency to fully give themselves over to every new
+        encounter as a pattern risks their body eventually presenting the bill for
+        decades of unrestrained devotion.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Sexual Two with Three-wing explains much about <strong>Giacomo
+        Casanova's</strong> final years: a man whose entire life was devoted to
+        intense, personal closeness with countless individual people carried the
+        physical consequences of that way of living for decades, until they caught up
+        with him in complete isolation – and turned precisely that final, solitary
+        chapter into his most lasting work once more. The camel that, in the end,
+        crossed the desert of its own memories alone.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3) – life's work"},
+        {route:"krankheitsportraets-elvis-presley", label:"Illness Portrait: Elvis Presley (SX2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx2", label:"Subtype Profile SX2"},
       ])}
@@ -107269,6 +107535,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-sammy-davis-jr": sammyDavisJrPortraitPage,
+      "beruehmte-giacomo-casanova": giacomoCasanovaPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
@@ -107382,6 +107649,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-sammy-davis-jr": sammyDavisJrKrankheitsportraetPage,
+      "krankheitsportraets-giacomo-casanova": giacomoCasanovaKrankheitsportraetPage,
       "krankheitsportraets-john-wayne": johnWayneKrankheitsportraetPage,
       "krankheitsportraets-claude-debussy": claudeDebussyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,
