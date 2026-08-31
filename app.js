@@ -32847,7 +32847,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Argentinien", tags:["Geschichte","Politik"] , gender:"w"},
   { route:"beruehmte-truman-capote", name:"Truman Capote", added:"2026-08-31", subtyp:"SO2w3",
     heading:"Truman Capote – Sozialer Typ 2",
-    teaser:"SO2w3 · 1924–1984. US-amerikanischer Schriftsteller, „In Cold Blood“, gefeierter Society-Liebling New Yorks. Der Golden Retriever, der sich in die intimsten Kreise einschmeichelte – bis der Verrat ihrer Geheimnisse für ein Buchprojekt seine gesamte Welt zum Einsturz brachte. Tierentsprechung: Golden Retriever.",
+    teaser:"SO2w3 · 1924–1984. US-amerikanischer Schriftsteller, „In Cold Blood“ (dt. „Kaltblütig“), gefeierter Society-Liebling New Yorks. Der Golden Retriever, der sich in die intimsten Kreise einschmeichelte – bis der Verrat ihrer Geheimnisse für ein Buchprojekt seine gesamte Welt zum Einsturz brachte. Tierentsprechung: Golden Retriever.",
     land:"USA", tags:["Kultur","Literatur"] , gender:"m"},
   { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar \u2013 Sozialer Typ 2",
@@ -71916,7 +71916,7 @@ function trumanCapotePortraitPage() {
         </div>
         <p class="krim-portrait-name">Truman Capote</p>
         <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">1924&ndash;1984 &ndash; US-amerikanischer Schriftsteller, „In Cold Blood" &ndash; Tierentsprechung: Golden Retriever</p>
+        <p class="krim-portrait-subtitle">1924&ndash;1984 &ndash; US-amerikanischer Schriftsteller, „In Cold Blood" (dt. „Kaltblütig") &ndash; Tierentsprechung: Golden Retriever</p>
       </div>
       <div class="page-content">
 
@@ -71934,14 +71934,14 @@ function trumanCapotePortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Der Schriftsteller als Ereignis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren Wirkung, zum inszenierten Auftritt, zum Beweis durch öffentliches Bild. Bei Capote äußerte sich das in einem beispiellosen Talent zur Selbstvermarktung: schrille Kleidung, eine unverkennbare, oft nachgeahmte Sprechweise, provokante Fernsehauftritte. Sein <em>Black and White Ball</em> von 1966 im Plaza Hotel gilt bis heute als eine der legendärsten Society-Veranstaltungen des zwanzigsten Jahrhunderts &ndash; eine Party, die er selbst kuratierte, um genau zu zeigen, wie mächtig sein soziales Netzwerk geworden war.</p>
-          <p class="vb-intro">Auch sein literarisches Meisterwerk trägt diese Handschrift: Für <em>In Cold Blood</em> (1966) verbrachte er Jahre damit, sich in die Gemeinde des Tatorts und in eine intensive persönliche Beziehung zu einem der beiden verurteilten Mörder hineinzuarbeiten &ndash; eine Nähe, die weit über journalistische Recherche hinausging. Der Dreierflügel wollte nicht nur ein Buch schreiben, er wollte ein literarisches Ereignis erschaffen, das ihn selbst unsterblich machte &ndash; und mit dem „New Journalism" schließlich eine ganze literarische Gattung.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren Wirkung, zum inszenierten Auftritt, zum Beweis durch öffentliches Bild. Bei Capote äußerte sich das in einem beispiellosen Talent zur Selbstvermarktung: schrille Kleidung, eine unverkennbare, oft nachgeahmte Sprechweise, provokante Fernsehauftritte. Sein <em>Black and White Ball</em> (wörtlich „Schwarz-Weiß-Ball", nach der strengen Kleiderordnung benannt) von 1966 im Plaza Hotel gilt bis heute als eine der legendärsten Society-Veranstaltungen des zwanzigsten Jahrhunderts &ndash; eine Party, die er selbst kuratierte, um genau zu zeigen, wie mächtig sein soziales Netzwerk geworden war.</p>
+          <p class="vb-intro">Auch sein literarisches Meisterwerk trägt diese Handschrift: <em>In Cold Blood</em> (dt. „Kaltblütig", 1966) rekonstruiert minutiös den vierfachen Mord an der Farmerfamilie Clutter im ländlichen Kansas 1959 sowie Fahndung, Gerichtsverfahren und Hinrichtung der beiden Täter &ndash; ein Tatsachenroman, für den Capote Jahre damit verbrachte, sich in die Gemeinde des Tatorts und in eine intensive persönliche Beziehung zu einem der beiden verurteilten Mörder hineinzuarbeiten, eine Nähe, die weit über journalistische Recherche hinausging. Der Dreierflügel wollte nicht nur ein Buch schreiben, er wollte ein literarisches Ereignis erschaffen, das ihn selbst unsterblich machte &ndash; und mit dem „New Journalism" (der Verbindung journalistischer Fakten mit literarischen Erzähltechniken) schließlich eine ganze literarische Gattung.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO2w3 ist eine seltene Gabe des Zuhörens, gepaart mit der Fähigkeit, daraus große Kunst zu formen. Capotes <em>In Cold Blood</em> gilt bis heute als Meilenstein des literarischen Erzähljournalismus &ndash; ein Werk, das nur entstehen konnte, weil er Menschen wirklich nahekam, ihr Vertrauen gewann und ihre Geschichten mit echter Aufmerksamkeit erfasste.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, unentbehrlich zu sein, und die Schwierigkeit, die eigene Bedürftigkeit dahinter zu erkennen. Bei Capote wurde daraus 1975 eine folgenschwere Grenzüberschreitung: Er veröffentlichte in Esquire das Kapitel „La Côte Basque 1965" aus seinem geplanten Roman <em>Answered Prayers</em> &ndash; darin verarbeitete er, kaum verschlüsselt, die intimsten Geheimnisse genau jener „Swans", die ihm jahrelang blind vertraut hatten. Ehebrüche, Morde, Familiengeheimnisse &ndash; alles, was man ihm anvertraut hatte, goss er in literarische Form.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, unentbehrlich zu sein, und die Schwierigkeit, die eigene Bedürftigkeit dahinter zu erkennen. Bei Capote wurde daraus 1975 eine folgenschwere Grenzüberschreitung: Er veröffentlichte in Esquire das Kapitel „La Côte Basque 1965" aus seinem geplanten Roman <em>Answered Prayers</em> (dt. „Erhörte Gebete") &ndash; darin verarbeitete er, kaum verschlüsselt, die intimsten Geheimnisse genau jener „Swans", die ihm jahrelang blind vertraut hatten. Ehebrüche, Morde, Familiengeheimnisse &ndash; alles, was man ihm anvertraut hatte, goss er in literarische Form.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Der Verrat, der das Rudel zerbrach</h2>

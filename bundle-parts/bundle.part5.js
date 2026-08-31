@@ -653,7 +653,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Argentinien", tags:["Geschichte","Politik"] , gender:"w"},
   { route:"beruehmte-truman-capote", name:"Truman Capote", added:"2026-08-31", subtyp:"SO2w3",
     heading:"Truman Capote – Sozialer Typ 2",
-    teaser:"SO2w3 · 1924–1984. US-amerikanischer Schriftsteller, „In Cold Blood“, gefeierter Society-Liebling New Yorks. Der Golden Retriever, der sich in die intimsten Kreise einschmeichelte – bis der Verrat ihrer Geheimnisse für ein Buchprojekt seine gesamte Welt zum Einsturz brachte. Tierentsprechung: Golden Retriever.",
+    teaser:"SO2w3 · 1924–1984. US-amerikanischer Schriftsteller, „In Cold Blood“ (dt. „Kaltblütig“), gefeierter Society-Liebling New Yorks. Der Golden Retriever, der sich in die intimsten Kreise einschmeichelte – bis der Verrat ihrer Geheimnisse für ein Buchprojekt seine gesamte Welt zum Einsturz brachte. Tierentsprechung: Golden Retriever.",
     land:"USA", tags:["Kultur","Literatur"] , gender:"m"},
   { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar \u2013 Sozialer Typ 2",
