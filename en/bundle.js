@@ -1773,6 +1773,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Rowan Atkinson – Social Type 7",
     teaser:"SO7w6 \xb7 born 1955 in Consett, County Durham. Actor, comedian, author. Mr Bean, Blackadder, Johnny English. The beaver with six wings: belonging instead of breaking out, perfection as inner insurance.",
     land:"United Kingdom", tags:["Film","Kom\xf6die"], gender:"m"},
+{ route:"beruehmte-george-gershwin", name:"George Gershwin", added:"2026-08-31", subtyp:"SO7w6",
+    heading:"George Gershwin – Social Type 7",
+    teaser:"SO7w6 · 1898–1937. American composer, \"Rhapsody in Blue,\" \"Porgy and Bess.\" Fused jazz and classical music into a new, genuinely American concert language – in service of a whole nation, not personal fame. Animal correspondence: Beaver.",
+    land:"USA", tags:["Music"], gender:"m"},
 { route:"beruehmte-epikur", name:"Epicurus", added:"2026-08-31", subtyp:"SO7w6",
     heading:"Epicurus – Social Type 7",
     teaser:"SO7w6 · 341–270 BCE. Greek philosopher, founder of Epicureanism. Founded \"The Garden\" in Athens, a philosophical community where friends, students, women, and slaves lived as equals. Taught joy through modesty and friendship, not excess. Animal correspondence: Beaver.",
@@ -35778,6 +35782,7 @@ function nikolaTeslaPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – named his company after Tesla"},
+        {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – obsessive-compulsive disorder and isolation"},
       ])}
@@ -50148,6 +50153,72 @@ function freudKrankheitsportraetPage() {
   `);
 }
 
+function georgeGershwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-george-gershwin-portrait.jpg" alt="George Gershwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Gershwin</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">1898&ndash;1937 &ndash; American composer, "Rhapsody in Blue" &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver from Brooklyn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven &ndash; a builder who doesn't keep its overflowing energy to itself but turns it into something the whole surrounding landscape benefits from. George Gershwin, born in 1898 in Brooklyn to Russian-Jewish immigrants, was largely self-taught at the piano before entering Tin Pan Alley as a teenager &ndash; New York's music-publishing district, where he worked as a "song plugger," playing other people's songs on the piano to sell them to customers.</p>
+          <p class="vb-intro">Out of this apprenticeship in other people's melodies quickly grew something larger: the wish to create a wholly original, genuinely American musical language that would tear down the wall between popular and serious music. The beaver does not build for itself alone &ndash; it builds so that an entire river finds its bed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Art in the Service of a Whole Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> places the Seven's overflowing enthusiasm in the service of something larger &ndash; not personal pleasure, but a vision that benefits others. Naranjo called this subtype "sacrifice" or "martyr": where the self-preservation Seven hoards abundance for itself, the social Seven forgoes it in favor of an ideal larger than itself.</p>
+          <p class="vb-intro">In 1924, at just twenty-six, Gershwin composed "Rhapsody in Blue" within a few weeks for Paul Whiteman's concert "An Experiment in Modern Music" &ndash; an attempt to make jazz socially respectable and grant it the standing of serious concert music. It was never only about his own success, but about proving that American music &ndash; born of jazz, blues, and the streets of New York &ndash; could stand as an equal alongside the European concert tradition. With "Porgy and Bess" (1935), an opera with an all-Black cast at a time of deep racial segregation in the United States, he carried this mission further still.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Diligence Over Self-Overestimation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Seven a vigilance that guards against overestimating itself and instead drives systematic self-improvement. Despite his early, overwhelming success, Gershwin took composition lessons throughout his life &ndash; among others with Rubin Goldmark, and later attempted to study with Maurice Ravel and Arnold Schoenberg (both declined, on the grounds that they didn't want to turn an already brilliant Gershwin into a second-rate Ravel or Schoenberg).</p>
+          <p class="vb-intro">This persistent search for a reliable teacher, an authority who might further secure his art, is pure Six-wing energy: success alone was not enough proof of his own legitimacy &ndash; he also sought confirmation through tested expertise. His decades-long, close collaboration with his brother Ira Gershwin, who wrote the lyrics to nearly all his songs, shows the same Six-wing note: reliability and loyalty to a small, proven circle rather than constantly changing partnerships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "Rhapsody in Blue" and the Proof of a Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The premiere of "Rhapsody in Blue" on 12 February 1924 at Aeolian Hall in New York is still regarded as one of the turning points in American musical history. Among the audience sat composers like Sergei Rachmaninoff and Igor Stravinsky &ndash; the European concert world itself bore witness as jazz elements, blues scales, and a clarinet glissando opening now counted among the most famous moments in all of classical music fused into serious concert music.</p>
+          <p class="vb-intro">The success was no fluke: with "An American in Paris" (1928) and finally "Porgy and Bess" (1935), Gershwin systematically kept building on this one great work &ndash; proving that an American musical language could exist and hold its own internationally. The beaver does not build a dam and stop; it keeps building on the same great structure for its whole life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is an enthusiasm that genuinely transforms an entire art form. Gershwin opened concert halls to jazz, opera to Broadway, and one of New York's great stages to an all-Black cast &ndash; his work still resonates in film scores, musicals, and concert halls alike.</p>
+          <p class="vb-intro">The Seven's shadow is the flight from stillness and pain into ever-new projects. Contemporaries described Gershwin as restlessly productive, almost never at rest &ndash; constantly working on several compositions at once, constantly present at parties and in salons, always at the center of a sociable circle. This inability to pause, one can say in hindsight, also delayed his taking the first health warning signs seriously in his final months.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A River That Keeps Flowing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gershwin died in 1937 at only 38 years old of a brain tumor &ndash; a sudden ending, unfathomable to many contemporaries, in the middle of his creative prime. The circumstances of his final months, during which the first symptoms were long misread, are explored in greater depth in a dedicated illness portrait.</p>
+          <p class="vb-intro">What remains is a body of work that permanently made the boundary between popular and serious music permeable in the United States. That is the gift of the SO7w6 in its purest form: enthusiasm that does not exhaust itself in personal pleasure, but becomes a structure that carries an entire country. The beaver whose dam still holds, long after the builder himself is gone.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
+        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function epikurPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50210,6 +50281,7 @@ function epikurPortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
+        {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
       ])}
     </div>
@@ -50277,6 +50349,7 @@ function franzVonAssisiPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – companion"},
       ])}
@@ -104865,6 +104938,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
+      "beruehmte-george-gershwin": georgeGershwinPortraitPage,
       "beruehmte-epikur": epikurPortraitPage,
       "beruehmte-franz-von-assisi": franzVonAssisiPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,

@@ -1372,6 +1372,7 @@ function nikolaTeslaPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – benannte seine Firma nach Tesla"},
+        {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – Zwangsstörung und Isolation"},
       ])}

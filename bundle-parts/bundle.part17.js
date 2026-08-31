@@ -5153,6 +5153,7 @@ function render() {
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
+      "beruehmte-george-gershwin": georgeGershwinPortraitPage,
       "beruehmte-epikur": epikurPortraitPage,
       "beruehmte-franz-von-assisi": franzVonAssisiPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,

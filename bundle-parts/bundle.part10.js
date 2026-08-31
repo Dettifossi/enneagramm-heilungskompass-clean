@@ -4495,6 +4495,72 @@ function freudKrankheitsportraetPage() {
   `);
 }
 
+function georgeGershwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-george-gershwin-portrait.jpg" alt="George Gershwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Gershwin</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">1898&ndash;1937 &ndash; US-amerikanischer Komponist, ›Rhapsody in Blue‹ &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber aus Brooklyn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; ein Baumeister, der seine überschäumende Energie nicht für sich behält, sondern in etwas verwandelt, das der ganzen Umgebung zugutekommt. George Gershwin, 1898 als Sohn russisch-jüdischer Einwanderer in Brooklyn geboren, war weitgehend Autodidakt am Klavier, bevor er als Teenager in die „Tin Pan Alley" einstieg &ndash; das New Yorker Musikverlagsviertel, in dem er als „Song Plugger" fremde Lieder am Klavier vorspielte, um sie an Kunden zu verkaufen.</p>
+          <p class="vb-intro">Aus dieser Werkstattarbeit an fremden Melodien wurde rasch etwas Größeres: der Wunsch, eine ganz eigene, genuin amerikanische Musiksprache zu schaffen, die die Gräben zwischen U- und E-Musik einriss. Der Biber baut nicht für sich allein &ndash; er baut, damit ein ganzer Fluss sein Bett findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Kunst im Dienst einer ganzen Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> stellt die überschäumende Begeisterung der Sieben in den Dienst eines größeren Ganzen &ndash; nicht des eigenen Vergnügens, sondern einer Vision, die anderen zugutekommt. Naranjo nannte diesen Subtyp „Opfer" oder „Märtyrer": Wo die selbsterhaltende Sieben Fülle für sich selbst anhäuft, verzichtet die soziale Sieben zugunsten eines Ideals, das größer ist als sie selbst.</p>
+          <p class="vb-intro">1924 komponierte Gershwin, gerade sechsundzwanzig, innerhalb weniger Wochen „Rhapsody in Blue" für Paul Whitemans Konzert „An Experiment in Modern Music" &ndash; ein Versuch, Jazz gesellschaftsfähig zu machen und ihm den Rang einer ernstzunehmenden Konzertform zu verschaffen. Es ging ihm dabei nie nur um den eigenen Erfolg, sondern um den Beweis, dass amerikanische Musik &ndash; geboren aus Jazz, Blues und den Straßen New Yorks &ndash; ebenbürtig neben der europäischen Konzerttradition bestehen konnte. Mit „Porgy and Bess" (1935), einer Oper mit durchweg schwarzer Besetzung zu einer Zeit tiefer Rassentrennung in den USA, ging er diesen Weg konsequent weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Fleiß statt Selbstüberschätzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine Wachsamkeit, die vor Selbstüberschätzung schützt und stattdessen zu systematischer Selbstverbesserung antreibt. Trotz seines frühen, überwältigenden Erfolgs nahm Gershwin sein Leben lang Kompositionsunterricht &ndash; unter anderem bei Rubin Goldmark und später der Versuch, bei Maurice Ravel und Arnold Schönberg Unterricht zu nehmen (beide lehnten mit der Begründung ab, sie wollten aus einem bereits brillanten Gershwin keinen zweitklassigen Ravel oder Schönberg machen).</p>
+          <p class="vb-intro">Diese beständige Suche nach einem verlässlichen Lehrer, einer Autorität, die seine Kunst noch weiter absichern könnte, ist reine Sechserflügel-Energie: Der Erfolg allein genügte ihm nicht als Beweis der eigenen Legitimität &ndash; er suchte zusätzlich die Bestätigung durch geprüfte Expertise. Auch die enge, jahrzehntelange Zusammenarbeit mit seinem Bruder Ira Gershwin, der die Texte zu fast all seinen Liedern schrieb, zeigt diese Sechser-Note: Verlässlichkeit und Loyalität zu einem engen, bewährten Kreis statt ständig wechselnder Partnerschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. ›Rhapsody in Blue‹ und der Beweis einer Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Uraufführung von „Rhapsody in Blue" am 12. Februar 1924 in der Aeolian Hall in New York gilt bis heute als einer der Wendepunkte der amerikanischen Musikgeschichte. Im Publikum saßen Komponisten wie Sergei Rachmaninow und Igor Strawinsky &ndash; die europäische Konzertwelt selbst wurde Zeuge, wie Jazz-Elemente, Blues-Tonleitern und eine Klarinettenglissando-Eröffnung, die inzwischen zu den bekanntesten Momenten der klassischen Musik überhaupt zählt, zu ernstzunehmender Konzertmusik verschmolzen.</p>
+          <p class="vb-intro">Der Erfolg war kein Zufallstreffer: Mit „An American in Paris" (1928) und schließlich „Porgy and Bess" (1935) baute Gershwin systematisch an diesem einen großen Werk weiter &ndash; dem Beweis, dass eine amerikanische Musiksprache existieren und international bestehen konnte. Der Biber errichtet nicht einen Damm und ist fertig; er baut sein Leben lang am selben großen Bauwerk weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist eine Begeisterung, die tatsächlich eine ganze Kunstform verändert. Gershwin öffnete Konzertsälen den Jazz, dem Broadway die Oper und einer schwarzen Besetzung eine der großen Bühnen New Yorks &ndash; sein Werk wirkt bis heute in Filmmusik, Musical und Konzertsaal gleichermaßen nach.</p>
+          <p class="vb-intro">Der Schatten der Sieben ist die Flucht vor Stillstand und Schmerz in immer neue Projekte. Zeitgenossen beschrieben Gershwin als rastlos produktiv, kaum je im Ruhezustand &ndash; ständig an mehreren Kompositionen gleichzeitig arbeitend, ständig auf Gesellschaften und in Salons präsent, immer im Zentrum eines geselligen Kreises. Diese Unfähigkeit zur Pause, so lässt sich rückblickend sagen, verzögerte auch das ernste Wahrnehmen der ersten gesundheitlichen Warnzeichen in seinen letzten Lebensmonaten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Fluss, der weiterfließt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden in einem eigenen Krankheitsporträt noch ausführlicher behandelt.</p>
+          <p class="vb-intro">Was bleibt, ist ein Werk, das die Grenze zwischen U- und E-Musik in den USA endgültig durchlässig machte. Das ist das Geschenk der SO7w6 in ihrer reinsten Form: Begeisterung, die sich nicht im eigenen Vergnügen erschöpft, sondern zu einem Bauwerk wird, das ein ganzes Land trägt. Der Biber, dessen Damm auch dann noch hält, wenn der Baumeister selbst längst nicht mehr da ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function epikurPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -4557,6 +4623,7 @@ function epikurPortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
+        {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
       ])}
     </div>
@@ -4624,6 +4691,7 @@ function franzVonAssisiPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Weggefährtin"},
       ])}
