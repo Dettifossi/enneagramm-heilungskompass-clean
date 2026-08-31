@@ -60,6 +60,7 @@ export function adamSmithPortraitPage() {
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Portr\xe4t: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portr\xe4t: David Hume (SE9w8) \u2013 sein enger Freund"},
+        {route:"krankheitsportraets-adam-smith", label:"Krankheitsportr\xe4t: Adam Smith (SO1w9)"},
       ])}
     </div>
   `);
@@ -380,6 +381,7 @@ export function diegoVelazquezPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
         {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1)"},
       ])}
     </div>
   `);

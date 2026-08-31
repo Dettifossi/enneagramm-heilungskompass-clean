@@ -1643,6 +1643,7 @@ export function hundertwasserKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
       ])}

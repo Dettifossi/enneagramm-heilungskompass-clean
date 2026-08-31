@@ -3388,3 +3388,747 @@ export function winstonChurchillKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function blaisePascalKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-blaise-pascal-portrait.jpg" alt="Blaise Pascal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Blaise Pascal</p>
+        <p class="krim-portrait-typ">SX5w6 · Sexueller Typ 5 mit Sechserflügel · 1623–1662</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Blaise Pascal</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-blaise-pascal">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein wissenschaftliches und
+        philosophisches Werk. Dieses Porträt vertieft ein Kapitel, das dort nur
+        gestreift wird: eine praktisch lebenslange, nie eindeutig diagnostizierte
+        Krankheit, die sich in den letzten Lebensjahren mit einer radikalen religiösen
+        Selbstkasteiung verband und mit nur 39 Jahren zum Tod führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Pascal</strong> ist dem <strong>sexuellen Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SX5 sucht Sicherheit über eine intensive, fast verschmelzende
+        Vertiefung in ein einziges Thema – bei Pascal wechselte dieses Thema im Lauf
+        des Lebens von Mathematik und Physik zu einer ebenso kompromisslosen religiösen
+        Hingabe. Der Sechserflügel bringt eine tiefe Sehnsucht nach absoluter,
+        unerschütterlicher Gewissheit hinzu. Genau diese Kombination aus Verschmelzung
+        und Sicherheitssuche prägte auch seinen Umgang mit der eigenen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Kind ohne stabile Gesundheit:</strong>
+        Pascal galt schon als Kind als kränklich; Zeitgenossen berichten von früh
+        einsetzenden Verdauungsbeschwerden und einer insgesamt zarten Konstitution,
+        die sein gesamtes weiteres Leben prägen sollte.</p>
+        <p class="vb-intro"><strong>b) Der Beginn der ständigen Schmerzen mit achtzehn:</strong>
+        Ab etwa seinem achtzehnten Lebensjahr, so überliefern es mehrere Biografen,
+        verging kaum noch ein Tag ohne Schmerzen – heftige Kopfschmerzen, Verdauungsleiden
+        und quälende Schlaflosigkeit wurden zu ständigen Begleitern.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten trotz der Beschwerden:</strong>
+        Ungeachtet dieser Beschwerden entwickelte Pascal bereits mit neunzehn Jahren
+        die erste mechanische Rechenmaschine der Geschichte (die ›Pascaline‹) und
+        führte parallel bahnbrechende physikalische Experimente zu Druck und Vakuum durch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die ›Nacht des Feuers‹ 1654:</strong>
+        In der Nacht vom 23. auf den 24. November 1654 erlebte Pascal ein intensives
+        religiöses Erweckungserlebnis, das er auf einem Zettel festhielt, den er
+        bis zu seinem Tod in sein Gewand eingenäht trug – ein radikaler Wendepunkt,
+        der seine spätere Hinwendung zum Jansenismus einleitete.</p>
+        <p class="vb-intro"><strong>b) Rückzug aus Wissenschaft und Gesellschaft:</strong>
+        In den folgenden Jahren zog sich Pascal zunehmend aus dem wissenschaftlichen
+        Betrieb und dem Pariser Gesellschaftsleben zurück, verschenkte einen Großteil
+        seines Besitzes und lebte zeitweise in klösterlicher Zurückgezogenheit.</p>
+        <p class="vb-intro"><strong>c) Ein selbst auferlegtes Bußwerkzeug:</strong>
+        Überlieferungen zufolge trug Pascal in seinen letzten Lebensjahren zeitweise
+        einen mit spitzen Nägeln versehenen Gürtel unter der Kleidung und stieß sich
+        diesen bei aufkommenden eitlen Gedanken bewusst in die Seite.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine letzte, unvollendete Verteidigungsschrift des Glaubens:</strong>
+        In seinen letzten Lebensjahren arbeitete Pascal an einer umfassenden
+        Rechtfertigung des christlichen Glaubens, die postum als ›Pensées‹
+        (›Gedanken‹) veröffentlicht wurde – ein Fragment gebliebenes, aber bis
+        heute einflussreiches philosophisches Werk.</p>
+        <p class="vb-intro"><strong>b) Aufnahme einer fremden, armen Familie ins eigene Haus:</strong>
+        Kurz vor seinem Tod nahm der schwerkranke Pascal eine mittellose Familie
+        bei sich auf, um sie persönlich zu pflegen und zu versorgen – und zog
+        selbst in ein kleineres Zimmer, um ihnen sein Bett zu überlassen.</p>
+        <p class="vb-intro"><strong>c) Ablehnung ärztlicher Annehmlichkeiten:</strong>
+        Zeitgenössische Berichte schildern, dass Pascal medizinische Behandlung
+        und persönlichen Komfort bewusst zurückwies, sofern sie seiner Vorstellung
+        christlicher Demut zu widersprechen schienen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein heftiger Krampfanfall als unmittelbare Todesursache:</strong>
+        Pascal starb am 19. August 1662 im Alter von nur 39 Jahren nach einem
+        schweren Krampfanfall, dem mehrere Wochen zunehmender Schwäche vorausgegangen waren.</p>
+        <p class="vb-intro"><strong>b) Eine bis heute umstrittene Diagnose:</strong>
+        Die bei der Autopsie festgestellten Magenläsionen und Auffälligkeiten am
+        Gehirn werden von medizinhistorischer Seite bis heute unterschiedlich gedeutet
+        – diskutiert werden unter anderem eine Darmtuberkulose, ein bösartiger
+        Magentumor mit Hirnmetastasen oder eine seltene genetische Erkrankung.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das die eigene Lebenszeit weit überdauerte:</strong>
+        Sowohl seine mathematischen und physikalischen Entdeckungen als auch die
+        ›Pensées‹ prägen bis heute jeweils die Naturwissenschaft und die
+        Religionsphilosophie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung als Strategie, mit dem eigenen Leiden umzugehen:</strong>
+        Die für die sexuelle Fünf typische Strategie, sich vollständig in ein Thema
+        zu vertiefen, bis die Grenze zwischen sich selbst und der Sache verschwimmt,
+        zeigte sich bei Pascal zunächst in der Wissenschaft, später in der Religion
+        – beides Wege, dem eigenen körperlichen Leiden eine höhere Bedeutung zu geben.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Suche nach unerschütterlicher Gewissheit:</strong>
+        Die Radikalität von Pascals spätem Glauben – keine halben Zugeständnisse,
+        keine Kompromisse – trägt deutlich die Handschrift des Sechserflügels: eine
+        Sicherheit, die keinen Zweifel mehr zulässt, weil Zweifel selbst als
+        bedrohlich erlebt wird.</p>
+        <p class="vb-intro"><strong>c) Körperlicher Schmerz als Bestätigung der eigenen Ernsthaftigkeit:</strong>
+        Die bewusste Selbstkasteiung lässt sich auch als Versuch lesen, durch
+        physisches Leiden die eigene innere Hingabe unanfechtbar zu machen –
+        Schmerz als Beweis, nicht als bloße Last.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit ohne gesunde Vergleichsphase:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses lässt
+        sich bei Pascal kaum eine längere Phase wirklicher Gesundheit ausmachen –
+        das Leiden begleitete praktisch sein gesamtes bewusstes Erwachsenenleben.</p>
+        <p class="vb-intro"><strong>b) Zwei Vertiefungsphasen, ein Muster:</strong>
+        Sowohl die Jahre der mathematisch-physikalischen Genieleistungen als auch
+        die spätere religiöse Radikalisierung zeigen dieselbe Grundstruktur: völlige,
+        kompromisslose Hingabe an eine einzige Sache, bis zur Selbstaufgabe.</p>
+        <p class="vb-intro"><strong>c) Eine letzte Tat der Fürsorge trotz eigener Schwäche:</strong>
+        Dass der todkranke Pascal kurz vor seinem Ende noch eine fremde Familie
+        bei sich aufnahm und ihr sein eigenes Bett überließ, zeigt, wie sehr auch
+        im körperlichen Verfall die Hingabe an eine höhere Sache Vorrang vor der
+        eigenen Bequemlichkeit behielt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Kopf und Verdauung?</strong>
+        Für eine sexuelle Fünf mit Sechserflügel, deren Sicherheit aus intensivem
+        Denken und unerschütterlicher Gewissheit entsteht, liegt eine Deutung nahe:
+        Ausgerechnet die Organe, die für Denken (Kopf) und Verarbeiten (Verdauung)
+        stehen, wurden bei Pascal zum Ort chronischen Leidens – als könne das, was
+        am intensivsten genutzt wurde, dem eigenen Anspruch nie ganz standhalten.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu
+        chronischen Kopf- oder Verdauungsleiden führt – <strong>jeder Mensch kann
+        jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Pascals Fall zeigen lässt, ist ein Muster, das bei radikaler, alles
+        verschlingender Vertiefung in eine einzige Sache in der Praxis immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Pascal kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Fünf mit
+        Sechserflügel sucht Sicherheit fast reflexhaft in radikaler, kompromissloser
+        Verschmelzung mit einer einzigen Sache, statt einen maßvolleren Mittelweg
+        zuzulassen. Genau das lebte er bis zuletzt ungebremst aus: erst restlos in
+        der Wissenschaft, dann restlos im Glauben, nie in einer Balance dazwischen.
+        Wer die eigene Neigung zur radikalen Verschmelzung nicht als Muster erkennt,
+        verwechselt sie leicht mit reiner Tugend, selbst wenn der eigene Körper
+        längst erschöpft ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Pascals</strong> kurzem, von Krankheit durchzogenem Leben lässt
+        sich die sexuelle Fünf mit Sechserflügel in einer ihrer radikalsten Formen
+        studieren: ein Leben ohne echte gesunde Phase, zwei aufeinanderfolgende
+        Vertiefungen ohne jeden Mittelweg, und eine letzte Geste der Fürsorge, die
+        selbst die eigene Schwäche noch der höheren Sache unterordnete. Der Igel,
+        der sich nie entrollte, sondern nur die Richtung wechselte, in die er sich
+        vollständig verschloss.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4) – verwandter Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
+
+export function diegoVelazquezKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-diego-velazquez-portrait.jpg" alt="Diego Velázquez" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diego Velázquez</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel · 1599–1660</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Diego Velázquez</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-diego-velazquez">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein malerisches Lebenswerk,
+        allen voran ›Las Meninas‹. Dieses Porträt vertieft ein Kapitel, das dort
+        nur gestreift wird: seinen plötzlichen Tod binnen einer Woche, unmittelbar
+        nachdem er sich für eine letzte, erschöpfende höfische Pflicht vollständig
+        verausgabt hatte.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Velázquez</strong> ist dem <strong>sexuellen Typ 9 mit Einserflügel</strong>
+        zugeordnet. Die SX9 sucht Erfüllung über völlige Verschmelzung mit einer
+        einzelnen intensiven Beziehung oder Aufgabe, verliert dabei aber leicht die
+        eigenen Grenzen und Bedürfnisse aus dem Blick. Der Einserflügel bringt einen
+        hohen, oft perfektionistischen Anspruch an die eigene Sorgfalt hinzu. Genau
+        diese Kombination aus grenzenloser Hingabe und perfektionistischem Anspruch
+        führte Velázquez am Ende buchstäblich bis zur völligen Erschöpfung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte im Dienst eines einzigen Hofes:</strong>
+        Velázquez trat bereits 1623 in den Dienst des spanischen Königs Philipp IV.
+        und blieb diesem Hof – ohne nennenswerte Unterbrechung – bis zu seinem Tod
+        fast vier Jahrzehnte lang treu, in stetig wachsender Verantwortung.</p>
+        <p class="vb-intro"><strong>b) Eine wachsende Doppelbelastung:</strong>
+        Neben seiner Malerei übernahm Velázquez zunehmend höfische Verwaltungsaufgaben,
+        zuletzt das Amt des königlichen Kammerherrn (aposentador mayor), das ihn mit
+        der gesamten logistischen Organisation höfischer Großereignisse betraute.</p>
+        <p class="vb-intro"><strong>c) Keine erkennbare Schonung trotz zunehmenden Alters:</strong>
+        Auch mit über sechzig Jahren zeigte Velázquez keine Anzeichen, kürzerzutreten
+        – im Gegenteil, seine letzte große Aufgabe sollte die anspruchsvollste seines
+        gesamten Lebens werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Organisation einer königlichen Hochzeit:</strong>
+        1660 wurde Velázquez mit der gesamten zeremoniellen Organisation der Vermählung
+        der Infantin María Teresa mit König Ludwig XIV. von Frankreich betraut – einem
+        der aufwendigsten diplomatischen Großereignisse seiner Zeit auf der Fasaneninsel
+        an der französisch-spanischen Grenze.</p>
+        <p class="vb-intro"><strong>b) Wochen ununterbrochener logistischer Schwerstarbeit:</strong>
+        Zeitgenössische Quellen beschreiben wochenlange, bis ins kleinste Detail
+        durchorganisierte Vorbereitungen – Ausstattung, Dekoration, Protokoll, Transport
+        eines gesamten Hofstaats – die Velázquez persönlich verantwortete.</p>
+        <p class="vb-intro"><strong>c) Rückkehr nach Madrid, erschöpft:</strong>
+        Nach Abschluss der Feierlichkeiten kehrte Velázquez sichtlich erschöpft nach
+        Madrid zurück – ohne dass ihm, soweit überliefert, eine Erholungspause zugestanden
+        worden wäre.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Plötzliches hohes Fieber wenige Tage nach der Rückkehr:</strong>
+        Nur kurz nach seiner Rückkehr nach Madrid erkrankte Velázquez an hohem Fieber
+        – vermutlich, so die heute plausibelste Deutung, eine fieberhafte Infektion,
+        die seinen bereits erschöpften Körper überforderte.</p>
+        <p class="vb-intro"><strong>b) Keine Zeit für eine längere Krankheitsphase:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses gab es bei
+        Velázquez keine Vorwarnzeit von Monaten oder Jahren – zwischen sichtbarer
+        Erschöpfung und Tod lag nur etwa eine Woche.</p>
+        <p class="vb-intro"><strong>c) Bis zuletzt kaum Klagen überliefert:</strong>
+        Aus den überlieferten Quellen geht keine ausgeprägte Klage über die eigene
+        Erschöpfung hervor – Velázquez scheint seine Verausgabung als selbstverständlichen
+        Teil seiner Pflicht hingenommen zu haben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 6. August 1660:</strong>
+        Velázquez starb in Madrid, nur wenige Tage nach den ersten Fieberanzeichen,
+        im Alter von 61 Jahren – kaum sechs Monate nachdem er die Hochzeitszeremonie
+        auf der Fasaneninsel erfolgreich zu Ende gebracht hatte.</p>
+        <p class="vb-intro"><strong>b) Ein letztes großes Werk kurz zuvor vollendet:</strong>
+        Nur wenige Jahre vor seinem Tod hatte Velázquez mit ›Las Meninas‹ (1656) sein
+        heute berühmtestes Gemälde geschaffen – ein Werk, das bis heute als einer der
+        Höhepunkte der abendländischen Malerei gilt.</p>
+        <p class="vb-intro"><strong>c) Der plötzliche Tod als Schock für den Hof:</strong>
+        Sein unerwartetes Ableben nach jahrzehntelangem, unauffällig zuverlässigem
+        Dienst traf den spanischen Hof sichtlich unvorbereitet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung mit einer Aufgabe bis zur Selbstauflösung:</strong>
+        Die für die sexuelle Neun typische Strategie, sich vollständig mit einer
+        einzelnen intensiven Aufgabe oder Beziehung zu verschmelzen, zeigte sich bei
+        Velázquez in seiner jahrzehntelangen, fast bedingungslosen Identifikation mit
+        dem Hofdienst – bis zur völligen Erschöpfung der eigenen Reserven.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel als unsichtbarer Antrieb zur Perfektion:</strong>
+        Der außergewöhnlich hohe Organisationsanspruch, den die Zeitgenossen an der
+        Hochzeitszeremonie beobachteten, trägt deutlich die Handschrift des
+        Einserflügels: nichts sollte dem Zufall überlassen bleiben.</p>
+        <p class="vb-intro"><strong>c) Kein Wahrnehmen der eigenen Erschöpfung als Warnsignal:</strong>
+        Typisch für die Neun ist eine geringe Wahrnehmung eigener Bedürfnisse und
+        Grenzen – Velázquez scheint seine sinkenden Kräfte bis zuletzt nicht als
+        ernstzunehmendes Warnsignal gedeutet zu haben.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Vier Jahrzehnte ohne erkennbare Grenzen:</strong>
+        Über seine gesamte Hofkarriere hinweg lässt sich kaum eine Episode erkennen,
+        in der Velázquez erkennbar eigene Grenzen setzte oder Aufgaben zurückwies –
+        ein durchgehendes Muster grenzenloser Verfügbarkeit.</p>
+        <p class="vb-intro"><strong>b) Die letzte Aufgabe als Steigerung, nicht als Ausnahme:</strong>
+        Die Fasaneninsel-Zeremonie war keine untypische Episode, sondern die
+        konsequente Fortsetzung und Steigerung eines lebenslangen Musters völliger
+        Selbstverausgabung im Dienst anderer.</p>
+        <p class="vb-intro"><strong>c) Kein Übergang, sondern ein abrupter Bruch:</strong>
+        Statt eines allmählichen, über Jahre erkennbaren Verfalls zeigt Velázquez'
+        Fall einen abrupten Bruch – erschöpft, aber äußerlich funktionsfähig, dann
+        binnen Tagen tot.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein plötzliches Fieber?</strong>
+        Für eine sexuelle Neun mit Einserflügel, deren Selbstwahrnehmung ohnehin
+        strukturell hinter der Wahrnehmung anderer zurücktritt, liegt eine Deutung
+        nahe: Der Körper meldete sich nicht schleichend, weil er über Jahrzehnte
+        gelernt hatte, überhört zu werden – erst als die Reserven vollständig
+        aufgebraucht waren, zeigte sich die Erschöpfung schlagartig und unübersehbar.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu
+        plötzlichem Fiebertod führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Velázquez' Fall zeigen
+        lässt, ist ein Muster, das beim grenzenlosen Verschmelzen mit einer Aufgabe
+        bis zur völligen Selbstvergessenheit in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Velázquez kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Neun mit
+        Einserflügel verschmilzt fast reflexhaft mit einer übernommenen Aufgabe, bis
+        die eigenen Grenzen darin völlig verschwinden, statt rechtzeitig innezuhalten.
+        Genau das lebte er bis zuletzt ungebremst aus: eine letzte, perfekt ausgeführte
+        Pflicht, die keinen Raum mehr für die eigene Erschöpfung ließ. Wer die eigene
+        Neigung zur grenzenlosen Verschmelzung nicht als Muster erkennt, verwechselt
+        sie leicht mit reiner Pflichttreue, selbst wenn der eigene Körper längst an
+        seine Grenzen stößt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Velázquez'</strong> plötzlichem Tod lässt sich die sexuelle Neun
+        mit Einserflügel in einer ihrer stillsten, aber eindrücklichsten Formen
+        studieren: vier Jahrzehnte grenzenlose Verfügbarkeit, eine letzte, perfekt
+        organisierte Pflichterfüllung als Höhepunkt statt als Ausnahme, und ein Körper,
+        der erst meldete, als nichts mehr übrig war. Das Faultier, das sich nie
+        ausruhte, bis es für immer zur Ruhe kam.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-diego-velazquez", label:"Porträt: Diego Velázquez (SX9w1) – Lebenswerk"},
+        {route:"krankheitsportraets-hundertwasser", label:"Krankheitsporträt: Friedensreich Hundertwasser (SX9w8) – verwandter Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
+export function adamSmithKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Adam Smith" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Smith</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel · 1723–1790</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Adam Smith</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-adam-smith">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein ökonomisches Lebenswerk.
+        Dieses Porträt vertieft ein Kapitel, das dort nur gestreift wird: ein
+        jahrzehntelanges, chronisches Verdauungsleiden und eine letzte, radikale
+        Geste kurz vor seinem Tod, mit der er sein eigenes unveröffentlichtes Werk
+        fast vollständig vernichten ließ.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Smith</strong> ist dem <strong>sozialen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SO1 misst sich und ihr Umfeld an hohen, oft universell
+        gedachten moralischen und intellektuellen Maßstäben – nicht aus persönlicher
+        Eitelkeit, sondern aus dem Bedürfnis, dem Richtigen zu dienen. Der Neunerflügel
+        bringt eine friedliche, zurückhaltende Note hinzu, die Konflikte eher vermeidet
+        als sucht. Genau diese Kombination aus hohem Anspruch und stiller
+        Zurückhaltung prägte auch Smiths Umgang mit der eigenen Gesundheit und
+        seinem eigenen literarischen Nachlass.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein von Zeitgenossen beschriebener ›hypochondrischer‹ Zug:</strong>
+        Bereits während seiner Zeit als Professor in Glasgow beschrieben Bekannte
+        Smith als jemanden mit auffälliger gesundheitlicher Selbstbeobachtung –
+        eine Einschätzung, die spätere Historiker jedoch zunehmend als tatsächliche
+        chronische Beschwerden statt reiner Einbildung deuten.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrende Verdauungsbeschwerden ab mittlerem Alter:</strong>
+        Über weite Strecken seines Erwachsenenlebens litt Smith an wiederkehrenden
+        Magen- und Darmbeschwerden, die seine Arbeitsfähigkeit zeitweise erheblich
+        einschränkten.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten trotz der Beschwerden:</strong>
+        Ungeachtet dieser wiederkehrenden Beschwerden vollendete Smith sowohl seine
+        ›Theorie der ethischen Gefühle‹ (1759) als auch sein Hauptwerk ›Der
+        Wohlstand der Nationen‹ (1776), das die moderne Nationalökonomie begründete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Leben in enger Bindung an die eigene Mutter:</strong>
+        Smith blieb zeitlebens unverheiratet und lebte über weite Strecken seines
+        Erwachsenenlebens mit seiner Mutter zusammen, die ihn bis kurz vor seinem
+        eigenen Tod überlebte.</p>
+        <p class="vb-intro"><strong>b) Sprichwörtliche Zerstreutheit als Kehrseite intensiver Gedankenarbeit:</strong>
+        Zahlreiche überlieferte Anekdoten schildern Smith als notorisch geistesabwesend
+        im Alltag – ein Zug, der eng mit seiner Fähigkeit zu tiefer, konzentrierter
+        gedanklicher Durchdringung komplexer Zusammenhänge verbunden war.</p>
+        <p class="vb-intro"><strong>c) Zunehmende körperliche Schwäche in den letzten Lebensjahren:</strong>
+        Ab Ende der 1780er-Jahre verschlechterte sich Smiths Gesundheitszustand
+        spürbar, mit anhaltenden Verdauungsproblemen, die schließlich in einen
+        vermuteten Darmverschluss mündeten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Bitte, unveröffentlichte Manuskripte zu verbrennen:</strong>
+        Kurz vor seinem Tod bat Smith enge Freunde eindringlich darum, fast alle
+        seine unveröffentlichten Manuskripte zu vernichten – eine Bitte, der seine
+        Testamentsvollstrecker letztlich nachkamen.</p>
+        <p class="vb-intro"><strong>b) Der eigene Anspruch als Maßstab bis zuletzt:</strong>
+        Nach überlieferten Aussagen wollte Smith verhindern, dass unfertige,
+        seinem eigenen hohen Anspruch nicht genügende Gedanken postum
+        veröffentlicht werden könnten.</p>
+        <p class="vb-intro"><strong>c) Ein letztes geselliges Beisammensein trotz Schwäche:</strong>
+        Noch wenige Tage vor seinem Tod empfing der bereits sehr geschwächte Smith
+        Freunde zu einem letzten gemeinsamen Abendessen, bei dem er sich, so die
+        Überlieferung, für sein vermeintlich unvollendetes Lebenswerk entschuldigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 17. Juli 1790:</strong>
+        Adam Smith starb in Edinburgh im Alter von 67 Jahren, nach Jahren
+        wiederkehrender Verdauungsbeschwerden, die sich zuletzt zu einem vermuteten
+        Darmverschluss zuspitzten.</p>
+        <p class="vb-intro"><strong>b) Ein Werk, das die eigene Zeit weit überdauerte:</strong>
+        ›Der Wohlstand der Nationen‹ gilt bis heute als Gründungstext der modernen
+        Wirtschaftswissenschaft und prägt ökonomisches Denken weltweit.</p>
+        <p class="vb-intro"><strong>c) Ein für immer verlorener Teil seines Denkens:</strong>
+        Durch die Vernichtung seiner unveröffentlichten Manuskripte ist ein
+        erheblicher Teil von Smiths spätem Denken – darunter geplante Werke zu
+        Recht und Regierung – für die Nachwelt unwiederbringlich verloren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der eigene Körper als Objekt strenger Selbstbeobachtung:</strong>
+        Die für die soziale Eins typische Neigung, sich selbst nach hohen Maßstäben
+        zu beurteilen, richtete sich bei Smith auch auf den eigenen Körper – eine
+        wache, fast prüfende Aufmerksamkeit für die eigenen körperlichen Zustände.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel als stille Zurückhaltung im Umgang mit Beschwerden:</strong>
+        Statt seine Beschwerden lautstark zu thematisieren, scheint Smith sie eher
+        still ertragen zu haben – eine Zurückhaltung, die typisch für den
+        Neunerflügel ist, der Konfrontation, auch mit dem eigenen Körper, meidet.</p>
+        <p class="vb-intro"><strong>c) Kontrolle über das eigene Bild bis zum letzten Moment:</strong>
+        Die Vernichtung der unfertigen Manuskripte lässt sich als letzter,
+        entschiedener Akt der Einser-Kontrolle über das eigene öffentliche Bild
+        lesen – lieber gar nichts als etwas, das dem eigenen Anspruch nicht genügt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine über Jahrzehnte von Zeitgenossen belächelte Beschwerde:</strong>
+        Was Smiths Umfeld lange als bloße Hypochondrie abtat, erweist sich aus
+        heutiger Sicht als ernstzunehmendes, chronisches körperliches Leiden – ein
+        Missverständnis, das ihm zu Lebzeiten kaum Entlastung verschaffte.</p>
+        <p class="vb-intro"><strong>b) Arbeit als Konstante trotz wiederkehrender Beschwerden:</strong>
+        Sowohl in Phasen relativer Gesundheit als auch in Phasen deutlicher
+        Beschwerden setzte Smith seine intellektuelle Arbeit mit bemerkenswerter
+        Konstanz fort, bis kurz vor seinem Tod.</p>
+        <p class="vb-intro"><strong>c) Ein letzter Akt der Kontrolle statt der Übergabe:</strong>
+        Statt sein unfertiges Werk der Nachwelt zur Beurteilung zu überlassen, wählte
+        Smith die vollständige Kontrolle durch Vernichtung – ein Muster, das sich
+        durch sein gesamtes Verhältnis zum eigenen, stets kritisch geprüften Werk zieht.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Verdauung?</strong>
+        Für eine soziale Eins mit Neunerflügel, deren innerer Kritiker permanent
+        prüft, ob das eigene Handeln dem hohen Anspruch genügt, liegt eine Deutung
+        nahe: Das Verdauungssystem – das, was aufgenommen, geprüft und verarbeitet
+        wird, bevor es freigegeben oder verworfen wird – wurde bei Smith zum
+        Austragungsort ebenjenes inneren Prüfprozesses, den er auch auf sein eigenes
+        Denken anwandte. Diese Deutung ist eine plausible Interpretation, kein
+        belegter historischer Kausalzusammenhang, und wird im Psychosomatik-Register
+        dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
+        Verdauungsleiden führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Smiths Fall zeigen lässt, ist
+        ein Muster, das beim ständigen inneren Prüfen und Bewerten des eigenen
+        Denkens und Handelns in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Smith kannte sein eigenes Enneagramm-Muster nicht – die soziale Eins mit
+        Neunerflügel prüft fast reflexhaft das eigene Handeln und Denken an einem
+        hohen, oft unerreichbaren Maßstab, statt sich selbst auch Unvollkommenes
+        zuzugestehen. Genau das lebte er bis zuletzt ungebremst aus: lieber die
+        vollständige Vernichtung des eigenen unfertigen Werks als dessen mögliche
+        Unzulänglichkeit der Nachwelt zu offenbaren. Wer die eigene Neigung zur
+        permanenten Selbstprüfung nicht als Muster erkennt, verwechselt sie leicht
+        mit reiner Sorgfalt, selbst wenn der eigene Körper längst Alarm schlägt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Adam Smiths</strong> letzten Lebensjahren lässt sich die soziale
+        Eins mit Neunerflügel in einer ihrer stillsten Formen studieren: eine über
+        Jahrzehnte lange belächelte, tatsächlich aber reale körperliche Beschwerde,
+        eine bis zuletzt ungebrochene Arbeitsdisziplin und ein letzter, radikaler
+        Akt der Kontrolle über das eigene, nie ganz genügende Werk. Die Gans, die
+        selbst im eigenen Nachlass noch penibel Ordnung schuf.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsporträt: Dr. Jordan Peterson (SO1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}
+
+export function josephHaydnKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Haydn</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · 1732–1809</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Joseph Haydn</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches
+        Lebenswerk. Dieses Porträt vertieft ein Kapitel, das dort nur gestreift
+        wird: seinen körperlichen Verfall in den letzten Lebensjahren und die
+        bewegende letzte Geste, mit der er noch im Angesicht des Todes für sein
+        Hauspersonal da war.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Haydn</strong> ist dem <strong>selbsterhaltenden Typ 3 mit
+        Zweierflügel</strong> zugeordnet. Die SE3 sucht Sicherheit über
+        nachweisbare, verlässliche Tüchtigkeit im eigenen überschaubaren Bereich
+        – bei Haydn ein Leben lang die eigene kompositorische Arbeit. Der
+        Zweierflügel bringt eine warme, fürsorgliche Note hinzu, die sich nach
+        innen, auf das eigene kleine Umfeld richtet. Genau diese Kombination aus
+        Tüchtigkeit und stiller Fürsorge zeigte sich noch in seinen allerletzten
+        Lebenstagen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte ungebrochener Schaffenskraft:</strong>
+        Nach jahrzehntelangem Dienst am Hof der Fürsten Esterházy und internationalem
+        Ruhm durch seine Londoner Sinfonien komponierte Haydn Ende der 1790er-Jahre
+        mit ›Die Schöpfung‹ und ›Die Jahreszeiten‹ zwei seiner umfangreichsten und
+        anspruchsvollsten Werke überhaupt.</p>
+        <p class="vb-intro"><strong>b) Erste Erschöpfungszeichen nach diesen Großwerken:</strong>
+        Nach Fertigstellung von ›Die Jahreszeiten‹ 1801 berichtete Haydn selbst von
+        tiefer körperlicher Erschöpfung – ein Werk, das er später als übermäßig
+        anstrengend für seine damals bereits nachlassenden Kräfte beschrieb.</p>
+        <p class="vb-intro"><strong>c) Zunehmendes Nachlassen ab etwa 1803:</strong>
+        Ab etwa 1803 wurde Haydn zunehmend arbeitsunfähig – seine letzten geplanten
+        Werke, darunter ein Streichquartett, blieben unvollendete Fragmente.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fortschreitende Wassersucht:</strong>
+        In den folgenden Jahren entwickelte Haydn eine zunehmende Wassersucht
+        (Ödembildung, vor allem in den Beinen) – eine damals häufige Alterserkrankung,
+        die seine Mobilität immer stärker einschränkte.</p>
+        <p class="vb-intro"><strong>b) Rückzug aus dem öffentlichen Musikleben:</strong>
+        Haydn zog sich zunehmend aus dem aktiven Musikleben zurück, empfing aber
+        weiterhin regelmäßig Besucher und Bewunderer in seinem Wiener Haus.</p>
+        <p class="vb-intro"><strong>c) Ein letzter großer öffentlicher Auftritt 1808:</strong>
+        Im März 1808 nahm der bereits stark geschwächte Haydn an einer Aufführung
+        seiner ›Schöpfung‹ zu seinen Ehren teil und wurde dabei von der anwesenden
+        Prominenz, darunter Beethoven, tief gerührt gefeiert – seine letzte
+        öffentliche Erscheinung dieser Art.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Beschießung Wiens im Mai 1809:</strong>
+        Im Mai 1809 belagerten und beschossen napoleonische Truppen Wien; der Legende
+        nach schlug eine Kanonenkugel in unmittelbarer Nähe von Haydns Haus ein.</p>
+        <p class="vb-intro"><strong>b) Dreimaliges Spielen der eigenen Kaiserhymne:</strong>
+        Trotz seiner schweren Erkrankung setzte sich Haydn während der Beschießung
+        der Überlieferung nach dreimal ans Klavier, um die von ihm selbst komponierte
+        österreichische Kaiserhymne (›Gott erhalte Franz den Kaiser‹) zu spielen –
+        um sein verängstigtes Hauspersonal zu beruhigen.</p>
+        <p class="vb-intro"><strong>c) Fürsorge für andere trotz eigener Todesnähe:</strong>
+        Diese Geste galt nicht ihm selbst, sondern erkennbar der Beruhigung derer,
+        die um ihn herum waren – eine Handlung der Fürsorge mitten in der eigenen
+        schwersten Krankheitsphase.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 31. Mai 1809:</strong>
+        Joseph Haydn starb wenige Tage nach der Beschießung Wiens im Alter von 77
+        Jahren, in einer Stadt, die zu diesem Zeitpunkt unter französischer
+        Besatzung stand.</p>
+        <p class="vb-intro"><strong>b) Ein Ehrengeleit trotz Kriegszustand:</strong>
+        Trotz der angespannten politischen Lage ließ der französische General ein
+        Ehrenwachkommando an Haydns Sterbehaus aufstellen – ein Zeichen des
+        Respekts, das die Grenzen der Kriegsparteien überschritt.</p>
+        <p class="vb-intro"><strong>c) Ein Lebenswerk von prägender Wirkung:</strong>
+        Haydns kompositorisches Werk – als ›Vater der Sinfonie‹ und des
+        Streichquartetts – prägte die Wiener Klassik grundlegend und wirkte auf
+        Zeitgenossen wie Mozart und den jungen Beethoven direkt ein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Tüchtigkeit bis an die Grenze der eigenen Kraft:</strong>
+        Die für die selbsterhaltende Drei typische Strategie, den eigenen Wert über
+        nachweisbare Leistung zu sichern, zeigte sich bei Haydn bis zuletzt – selbst
+        die Komposition von ›Die Jahreszeiten‹ jenseits der eigenen Kräfte war
+        Ausdruck dieses tief verankerten Musters.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel als Fürsorge im eigenen kleinen Kreis:</strong>
+        Die Sorge um sein verängstigtes Hauspersonal während der Beschießung Wiens
+        zeigt deutlich die warme, nach innen gerichtete Fürsorge des Zweierflügels
+        – gerichtet nicht auf ein großes Publikum, sondern auf die ihm nahestehenden
+        Menschen.</p>
+        <p class="vb-intro"><strong>c) Beruhigung durch die vertraute eigene Leistung:</strong>
+        Bezeichnend ist, dass Haydn ausgerechnet zur eigenen kompositorischen
+        Leistung griff, um in einer bedrohlichen Situation Sicherheit zu vermitteln
+        – die vertraute Tüchtigkeit als Anker, selbst im eigenen Sterben.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Verfall erst nach Jahrzehnten ungebrochener Schaffenskraft:</strong>
+        Anders als bei manchen anderen Krankheitsporträts dieses Kompasses setzte
+        Haydns Verfall erst sehr spät ein, nach einem außergewöhnlich langen Leben
+        beständiger, hoher Produktivität.</p>
+        <p class="vb-intro"><strong>b) Die letzten Großwerke als Wendepunkt:</strong>
+        Die eigene Einschätzung Haydns, ›Die Jahreszeiten‹ habe ihn über seine
+        Kräfte hinaus beansprucht, markiert einen klar erkennbaren Übergang von
+        ungebrochener Schaffenskraft zu beginnendem körperlichem Verfall.</p>
+        <p class="vb-intro"><strong>c) Fürsorge als letzte verbliebene Ausdrucksform:</strong>
+        Als die eigene Kraft für neue Kompositionen nicht mehr ausreichte, blieb
+        Haydn die vertraute Musik als Mittel der Fürsorge für andere erhalten –
+        ein Muster, das sich bis in die letzten Lebenstage durchhielt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Wassersucht?</strong>
+        Für eine selbsterhaltende Drei mit Zweierflügel, deren Sicherheit aus
+        sichtbarer, verlässlicher Leistung entsteht, liegt eine Deutung nahe: Die
+        Wassersucht – eine Erkrankung, bei der sich der Körper buchstäblich mit dem
+        füllt, was er nicht mehr verarbeiten und ausscheiden kann – korrespondiert
+        mit einem Leben, das über Jahrzehnte hinweg nie eine echte Verschnaufpause
+        kannte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        Wassersucht führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Haydns Fall zeigen lässt, ist ein
+        Muster, das bei jahrzehntelanger, kaum unterbrochener Leistungserbringung in
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Haydn kannte sein eigenes Enneagramm-Muster nicht – die selbsterhaltende
+        Drei mit Zweierflügel sichert den eigenen Wert fast reflexhaft über
+        beständige, nachweisbare Leistung, statt sich rechtzeitig Ruhephasen
+        zuzugestehen. Genau das lebte er bis zuletzt ungebremst aus: noch im
+        eigenen Sterben griff er zur vertrauten musikalischen Leistung, um für
+        andere da zu sein, statt selbst umsorgt zu werden. Wer die eigene Neigung
+        zur ständigen Leistungserbringung nicht als Muster erkennt, verwechselt sie
+        leicht mit reiner Berufung, selbst wenn der eigene Körper längst erschöpft ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Haydns</strong> letzten Lebensjahren lässt sich die
+        selbsterhaltende Drei mit Zweierflügel in einer ihrer berührendsten Formen
+        studieren: Jahrzehnte ungebrochener Schaffenskraft, ein körperlicher Verfall,
+        der erst spät, aber dann unaufhaltsam einsetzte, und eine letzte Geste der
+        Fürsorge, die selbst unter Kanonendonner nicht der eigenen Angst, sondern
+        der Beruhigung anderer galt. Der Waschbär, der bis zuletzt für sein Rudel
+        sorgte, selbst als die eigenen Kräfte längst erschöpft waren.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – Lebenswerk"},
+        {route:"krankheitsportraets-sadhguru", label:"Krankheitsporträt: Sadhguru (SE3w2) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}

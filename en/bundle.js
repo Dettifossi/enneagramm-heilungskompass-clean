@@ -419,6 +419,10 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexual Type 6", krankheit:"Severe traumatic brain injury after 2013 skiing accident, since then a total media blackout", teaser:"SX6w7 – Formula 1 racing driver, seven-time world champion, born 1969. Skiing accident on December 29, 2013, in Méribel with a severe traumatic brain injury, several emergency surgeries, months in a medically induced coma. Since his 2014 discharge, the family has kept his health condition entirely private." , land:"Germany", gender:"m", jahre:"born 1969"},
   { route:"krankheitsportraets-klaus-kinski", name:"Klaus Kinski", subtyp:"SX1w9", heading:"Klaus Kinski – Sexual Type 1", krankheit:"Involuntary psychiatric commitment in 1950 with a preliminary schizophrenia diagnosis, lifelong rage outbursts", teaser:"SX1w9 – actor, 1926–1991. Involuntary commitment on September 5, 1950, following a suicide attempt and a violent outburst, preliminary diagnosis of schizophrenia, later revised to psychopathy. Legendary outbursts on set across decades, 2013 posthumous abuse allegations from his daughter Pola." , land:"Germany", gender:"m", jahre:"1926–1991"},
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Self-Preservation Type 2", krankheit:"Post-traumatic stress disorder, severe psychological breakdown twenty years after liberation", teaser:"SP2w1 – author and activist, born 1988. Post-traumatic stress disorder following eight years of captivity (1998–2006), severe psychological breakdown made public by her family in 2026. Connected to Greta Thunberg (also SP2w1, also retreat into a world of her own under extreme pressure)." , land:"Austria", gender:"f", jahre:"born 1988"},
+  { route:"krankheitsportraets-blaise-pascal", name:"Blaise Pascal", subtyp:"SX5w6", heading:"Blaise Pascal – Sexual Type 5", krankheit:"Lifelong, never conclusively diagnosed chronic illness (headaches, digestive suffering), radical self-mortification in his final years", teaser:"SX5w6 – French mathematician, physicist, and philosopher, 1623–1662. Practically no pain-free day documented since age 18. Withdrew radically from science and possessions in his final years, at times wore a nail belt for self-mortification, died at only 39 after a violent seizure." , land:"France", gender:"m", jahre:"1623–1662"},
+  { route:"krankheitsportraets-diego-velazquez", name:"Diego Velázquez", subtyp:"SX9w1", heading:"Diego Velázquez – Sexual Type 9", krankheit:"Sudden, fatal fever after complete physical exhaustion", teaser:"SX9w1 – Spanish court painter, creator of Las Meninas, 1599–1660. Exhaustively organized the entire court ceremony for the wedding of the Infanta María Teresa to Louis XIV in 1660 on the Isle of Pheasants. Fell ill with a high fever days after returning and died within a week." , land:"Spain", gender:"m", jahre:"1599–1660"},
+  { route:"krankheitsportraets-adam-smith", name:"Adam Smith", subtyp:"SO1w9", heading:"Adam Smith – Social Type 1", krankheit:"Decades of chronic digestive suffering, presumed bowel obstruction as cause of death", teaser:"SO1w9 – Scottish moral philosopher and economist, founder of modern economics, 1723–1790. Decades of digestive complaints, described by contemporaries as hypochondria but genuinely physical. Had almost all his unpublished manuscripts burned shortly before his death, fearing they would not meet his own high standard." , land:"Scotland", gender:"m", jahre:"1723–1790"},
+  { route:"krankheitsportraets-joseph-haydn", name:"Joseph Haydn", subtyp:"SE3w2", heading:"Joseph Haydn – Self-Preservation Type 3", krankheit:"Progressive dropsy (edema) and general physical decline in his final years", teaser:"SE3w2 – Austrian composer, the “father of the symphony,” 1732–1809. Increasingly unable to work from about 1803 due to dropsy and exhaustion. In May 1809, while Napoleon's troops shelled Vienna, the dying Haydn played his own imperial anthem on the piano three times to calm his household staff – died a few days later." , land:"Austria", gender:"m", jahre:"1732–1809"},
 ];
 
 const BERUEHMT_PORTRAITS = [
@@ -22697,6 +22701,7 @@ function diegoVelazquezPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1)"},
       ])}
     </div>
   `);
@@ -33786,7 +33791,7 @@ function blaisePascalPortraitPage() {
         <h2 class="vb-section">6. The Healing Path: From Reed to Bearing Root</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Five's healing path leads from the question <em>Have I understood enough to be safe?</em> to the insight <em>Understanding does not arise through retreat, but through devotion to what I cannot fully control.</em> For SX5w6, this means not turning the one foundation found into a fortress against every further doubt, but taking it for what it once was for the young Pascal: a starting point for open thought, not its endpoint.</p>
-          <p class="vb-intro">A note without determinism: as with Pascal, no one becomes chronically ill purely because of their Enneagram subtype &ndash; his ailments had their own, independent physical causes. What remains notable is how consistently his approach to illness and mortality fit his pattern of thought: instead of repressing his own frailty, he made it &ndash; utterly Five, utterly hedgehog &ndash; the starting point for one of the best-known philosophical formulas in intellectual history. Pascal naturally had no conscious knowledge of his own Enneagram pattern; he lived out his passion for security through tested knowledge unchecked, until it was literally carved into his body &ndash; not out of guilt, but because he lacked the language to recognize his own pattern as a pattern, rather than accepting it as fate.</p>
+          <p class="vb-intro">A note without determinism: as with Pascal, no one becomes chronically ill purely because of their Enneagram subtype &ndash; his ailments had their own, independent physical causes. What remains notable is how consistently his approach to illness and mortality fit his pattern of thought: instead of repressing his own frailty, he made it &ndash; utterly Five, utterly hedgehog &ndash; the starting point for one of the best-known philosophical formulas in intellectual history. Pascal naturally had no conscious knowledge of his own Enneagram pattern; he lived out his passion for security through tested knowledge unchecked, until it was literally carved into his body &ndash; not out of guilt, but because he lacked the language to recognize his own pattern as a pattern, rather than accepting it as fate. His illness and final years are explored in much greater depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-blaise-pascal">Illness Portrait of Pascal</a>.</p>
         </blockquote>
 
       </div>
@@ -33797,6 +33802,7 @@ function blaisePascalPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
+        {route:"krankheitsportraets-blaise-pascal", label:"Illness Portrait: Blaise Pascal (SX5w6)"},
       ])}
     </div>
   `);
@@ -38607,6 +38613,7 @@ function adamSmithPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – his close friend"},
+        {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
       ])}
     </div>
   `);
@@ -45510,6 +45517,7 @@ function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SE3w2)"},
       ])}
     </div>
   `);
@@ -48878,12 +48886,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Small sample so far – the first discernible line: a very deliberate, often preventive decision in how one handles one's own health.",
-    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie"],
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith"],
     fingerabdruecke: [
       {
         titel: "Principled decisions even in the face of one's own illness",
         beschreibung: "With few cases so far but a strikingly consistent pattern, the social One shows a very deliberate, almost principled stance toward its own health – decisions are not left to chance but made by clear standards of its own.",
-        beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it."
+        beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it; Adam Smith, who shortly before his death had almost all his unpublished manuscripts burned, fearing they would not meet his own high standard – an equally principled and final decision in the face of his own mortality."
       }
     ]
   },
@@ -48938,7 +48946,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Collapse after the façade ends – illnesses that strikingly often coincide with the crumbling of a long-maintained outward control.",
-    beispiele: ["Osho", "Bernie Madoff", "Sadhguru"],
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru", "Joseph Haydn"],
     fingerabdruecke: [
       {
         titel: "Physical breakdown following the loss of public control",
@@ -49034,7 +49042,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX5: {
     tier: "Hedgehog",
     kernthema: "Small sample so far – a discernible cluster of neurological and sense-related complaints accompanied by mental breakdown.",
-    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin"],
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin", "Blaise Pascal"],
     fingerabdruecke: [
       {
         titel: "Neurological complaints affecting perception and mind",
@@ -49178,7 +49186,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Small sample so far – a tendency toward chronic, never clearly diagnosed suffering, often accompanied by a numbing approach to one's own pain.",
-    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser"],
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez"],
     fingerabdruecke: [
       {
         titel: "Chronic, never clearly diagnosed suffering with a numbing approach",
@@ -53881,6 +53889,739 @@ function muhammadAliKrankheitsportraetPage() {
   `);
 }
 
+function blaisePascalKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-blaise-pascal-portrait.jpg" alt="Blaise Pascal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Blaise Pascal</p>
+        <p class="krim-portrait-typ">SX5w6 · Sexual Type 5 with Six-wing · 1623–1662</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Blaise Pascal</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-blaise-pascal">portrait under Famous Personalities</a>
+        in this Compass – that page covers his scientific and philosophical
+        work. This page deepens a chapter only fleetingly touched on there: a
+        practically lifelong, never conclusively diagnosed illness that, in his
+        final years, merged with a radical religious self-mortification and led
+        to his death at only 39.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Pascal</strong> is classified as the <strong>Sexual Five with Six-wing</strong>.
+        The SX5 seeks security through intense, almost fusional immersion in a
+        single subject – for Pascal, that subject shifted over his lifetime from
+        mathematics and physics to an equally uncompromising religious devotion.
+        The Six-wing adds a deep longing for absolute, unshakeable certainty. This
+        exact combination of fusion and the search for security also shaped how
+        he related to his own illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A child without stable health:</strong>
+        Pascal was already considered sickly as a child; contemporaries report
+        digestive complaints setting in early and an overall delicate constitution
+        that would shape the rest of his life.</p>
+        <p class="vb-intro"><strong>b) Constant pain beginning at eighteen:</strong>
+        From roughly his eighteenth year on, several biographers report, scarcely
+        a day passed without pain – severe headaches, digestive suffering, and
+        tormenting insomnia became constant companions.</p>
+        <p class="vb-intro"><strong>c) Working on regardless:</strong>
+        Despite these complaints, Pascal built the first mechanical calculating
+        machine in history (the "Pascaline") at just nineteen, and simultaneously
+        carried out groundbreaking physics experiments on pressure and vacuum.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The "Night of Fire," 1654:</strong>
+        On the night of November 23–24, 1654, Pascal underwent an intense
+        religious awakening, which he recorded on a note he carried sewn into his
+        coat until his death – a radical turning point that set his later turn
+        toward Jansenism in motion.</p>
+        <p class="vb-intro"><strong>b) Withdrawal from science and society:</strong>
+        In the years that followed, Pascal increasingly withdrew from scientific
+        life and Parisian society, gave away much of his possessions, and lived
+        for periods in monastic seclusion.</p>
+        <p class="vb-intro"><strong>c) A self-imposed instrument of penance:</strong>
+        According to tradition, in his final years Pascal at times wore a belt
+        studded with sharp nails under his clothing, and deliberately pressed it
+        into his side whenever vain thoughts arose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) A final, unfinished defense of the faith:</strong>
+        In his last years, Pascal worked on a comprehensive justification of the
+        Christian faith, published posthumously as the <em>Pensées</em> ("Thoughts")
+        – a fragment, yet an influential philosophical work to this day.</p>
+        <p class="vb-intro"><strong>b) Taking a stranger's poor family into his own home:</strong>
+        Shortly before his death, the gravely ill Pascal took in a destitute
+        family to care for and support them personally – moving into a smaller
+        room himself so he could give them his bed.</p>
+        <p class="vb-intro"><strong>c) Refusing medical comforts:</strong>
+        Contemporary accounts describe Pascal deliberately turning down medical
+        treatment and personal comfort whenever they seemed to conflict with his
+        idea of Christian humility.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A violent seizure as the immediate cause of death:</strong>
+        Pascal died on August 19, 1662, at only 39, after a severe seizure
+        preceded by several weeks of increasing weakness.</p>
+        <p class="vb-intro"><strong>b) A diagnosis still disputed today:</strong>
+        The stomach lesions and brain abnormalities found at autopsy are
+        interpreted differently by medical historians to this day – theories
+        discussed include intestinal tuberculosis, a malignant stomach tumor with
+        brain metastases, or a rare genetic disorder.</p>
+        <p class="vb-intro"><strong>c) A body of work that far outlasted his own lifetime:</strong>
+        Both his mathematical and physical discoveries and the <em>Pensées</em>
+        continue to shape natural science and religious philosophy respectively.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Fusion as a strategy for coping with his own suffering:</strong>
+        The strategy typical of the sexual Five – immersing herself completely in
+        a subject until the boundary between self and matter dissolves – showed
+        up in Pascal first in science, later in religion, both ways of giving his
+        own physical suffering a higher meaning.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as a search for unshakeable certainty:</strong>
+        The radical nature of Pascal's late faith – no half concessions, no
+        compromises – clearly bears the Six-wing's signature: a certainty that
+        allows no more doubt, because doubt itself is experienced as threatening.</p>
+        <p class="vb-intro"><strong>c) Physical pain as confirmation of his own seriousness:</strong>
+        His deliberate self-mortification can also be read as an attempt to make
+        his own inner devotion unassailable through physical suffering – pain as
+        proof, not merely as burden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness with no healthy stretch for comparison:</strong>
+        Unlike many other illness portraits in this Compass, Pascal's life shows
+        almost no extended period of real health – the suffering accompanied
+        practically his entire conscious adult life.</p>
+        <p class="vb-intro"><strong>b) Two phases of immersion, one pattern:</strong>
+        Both the years of mathematical and physical genius and the later
+        religious radicalization show the same underlying structure: total,
+        uncompromising devotion to a single cause, to the point of self-abandonment.</p>
+        <p class="vb-intro"><strong>c) A final act of care despite his own weakness:</strong>
+        That the dying Pascal took in a stranger's family shortly before his end
+        and gave them his own bed shows how, even amid physical decline, devotion
+        to a higher cause still outranked his own comfort.</p>
+        <p class="vb-intro"><strong>d) Why the head and digestion, of all places?</strong>
+        For a sexual Five with a Six-wing, whose security arises from intense
+        thinking and unshakeable certainty, one reading suggests itself: precisely
+        the organs that stand for thought (the head) and processing (digestion)
+        became, in Pascal, the site of chronic suffering – as if the very thing
+        used most intensively could never fully withstand his own demands on it.
+        This reading is a plausible interpretation, not a documented historical
+        causal link, and is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the sexual Five's pattern inevitably leads to chronic
+        head or digestive suffering – <strong>every person can develop any
+        illness, regardless of subtype.</strong> What Pascal's case can show is a
+        pattern that stands out again and again in practice wherever radical,
+        all-consuming immersion in a single cause is present – one possible
+        explanation among many, not a verdict. The corresponding condition will
+        be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Pascal did not know his own Enneagram pattern – the sexual Five with a
+        Six-wing seeks security almost reflexively in radical, uncompromising
+        fusion with a single cause, rather than allowing a more measured middle
+        path. That is exactly what he lived out unchecked until the end: first
+        completely in science, then completely in faith, never in a balance
+        between the two. Someone who does not recognize their own pull toward
+        radical fusion as a pattern easily mistakes it for pure virtue, even once
+        their own body is thoroughly exhausted.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Pascal's</strong> short, illness-riddled life offers one of the
+        most radical studies of the sexual Five with a Six-wing: a life with no
+        genuine healthy phase, two successive immersions with no middle ground
+        between them, and a final gesture of care that subordinated even his own
+        weakness to a higher cause. The hedgehog that never unrolled, only
+        changed the direction in which it sealed itself completely shut.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6) – life's work"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4) – related subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
+function diegoVelazquezKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-diego-velazquez-portrait.jpg" alt="Diego Velázquez" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Diego Velázquez</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing · 1599–1660</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Diego Velázquez</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-diego-velazquez">portrait under Famous Personalities</a>
+        in this Compass – that page covers his painterly life's work, above all
+        <em>Las Meninas</em>. This page deepens a chapter only fleetingly touched
+        on there: his sudden death within a single week, immediately after he
+        had completely exhausted himself in one final, grueling courtly duty.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Velázquez</strong> is classified as the <strong>Sexual Nine with
+        One-wing</strong>. The SX9 seeks fulfillment through total fusion with a
+        single intense relationship or task, but in doing so easily loses sight
+        of her own boundaries and needs. The One-wing adds a high, often
+        perfectionistic standard for her own diligence. This exact combination of
+        boundless devotion and perfectionistic standards ultimately drove
+        Velázquez, quite literally, to complete exhaustion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades in the service of a single court:</strong>
+        Velázquez entered the service of the Spanish king Philip IV as early as
+        1623 and remained loyal to that court – without any notable interruption
+        – for nearly four decades, in ever-growing responsibility.</p>
+        <p class="vb-intro"><strong>b) A growing double burden:</strong>
+        Alongside his painting, Velázquez increasingly took on courtly
+        administrative duties, culminating in the office of royal chamberlain
+        (aposentador mayor), which put him in charge of the entire logistical
+        organization of major court events.</p>
+        <p class="vb-intro"><strong>c) No visible easing off, even in advancing age:</strong>
+        Even past sixty, Velázquez showed no signs of slowing down – on the
+        contrary, his final great task would become the most demanding of his
+        entire life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Organizing a royal wedding:</strong>
+        In 1660, Velázquez was put in charge of the entire ceremonial
+        organization of the marriage of the Infanta María Teresa to King Louis
+        XIV of France – one of the most elaborate diplomatic events of his time,
+        held on the Isle of Pheasants on the French-Spanish border.</p>
+        <p class="vb-intro"><strong>b) Weeks of uninterrupted logistical toil:</strong>
+        Contemporary sources describe weeks of preparation, organized down to the
+        smallest detail – furnishings, decoration, protocol, transporting an
+        entire court – all of which Velázquez personally oversaw.</p>
+        <p class="vb-intro"><strong>c) Returning to Madrid, exhausted:</strong>
+        After the festivities concluded, Velázquez returned to Madrid visibly
+        exhausted – with no recovery period granted him, as far as the record
+        shows.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) A sudden high fever days after his return:</strong>
+        Only a short time after returning to Madrid, Velázquez fell ill with a
+        high fever – most plausibly, by today's reading, a feverish infection
+        that overwhelmed his already exhausted body.</p>
+        <p class="vb-intro"><strong>b) No time for a prolonged illness:</strong>
+        Unlike many other illness portraits in this Compass, Velázquez's case
+        allowed no warning period of months or years – barely a week separated
+        visible exhaustion from death.</p>
+        <p class="vb-intro"><strong>c) Almost no recorded complaints to the end:</strong>
+        The surviving sources contain no pronounced complaint about his own
+        exhaustion – Velázquez seems to have accepted his self-expenditure as a
+        natural part of his duty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on August 6, 1660:</strong>
+        Velázquez died in Madrid, only a few days after the first signs of
+        fever, at the age of 61 – barely six months after successfully
+        completing the wedding ceremony on the Isle of Pheasants.</p>
+        <p class="vb-intro"><strong>b) A final great work completed shortly before:</strong>
+        Only a few years before his death, Velázquez had created his now most
+        famous painting, <em>Las Meninas</em> (1656) – a work still regarded as
+        one of the high points of Western painting.</p>
+        <p class="vb-intro"><strong>c) A sudden death that shocked the court:</strong>
+        His unexpected passing, after decades of quietly reliable service, caught
+        the Spanish court visibly unprepared.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Fusion with a task to the point of self-dissolution:</strong>
+        The strategy typical of the sexual Nine – merging completely with a
+        single intense task or relationship – showed up in Velázquez in his
+        decades-long, near-unconditional identification with court service, right
+        up to the complete exhaustion of his own reserves.</p>
+        <p class="vb-intro"><strong>b) The One-wing as an invisible drive toward perfection:</strong>
+        The exceptionally high organizational standard contemporaries observed
+        at the wedding ceremony clearly bears the One-wing's signature: nothing
+        was to be left to chance.</p>
+        <p class="vb-intro"><strong>c) Not registering his own exhaustion as a warning sign:</strong>
+        Typical of the Nine is a low awareness of her own needs and limits –
+        Velázquez seems, to the end, not to have read his dwindling strength as a
+        serious warning sign.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Four decades with barely a visible limit:</strong>
+        Across his entire court career, hardly a single episode can be found in
+        which Velázquez visibly set his own limits or turned a task down – a
+        consistent pattern of boundless availability.</p>
+        <p class="vb-intro"><strong>b) The final task as an escalation, not an exception:</strong>
+        The Isle of Pheasants ceremony was not an atypical episode but the
+        logical continuation and escalation of a lifelong pattern of total
+        self-expenditure in the service of others.</p>
+        <p class="vb-intro"><strong>c) No gradual decline, but an abrupt break:</strong>
+        Rather than the years-long, gradually visible decline seen in other
+        cases, Velázquez's case shows an abrupt break – exhausted but outwardly
+        functional, then dead within days.</p>
+        <p class="vb-intro"><strong>d) Why a sudden fever, of all things?</strong>
+        For a sexual Nine with a One-wing, whose self-perception already
+        structurally lags behind her perception of others, one reading suggests
+        itself: the body did not send gradual signals, because it had learned
+        over decades to be overheard – only once the reserves were completely
+        used up did the exhaustion show itself abruptly and unmistakably. This
+        reading is a plausible interpretation, not a documented historical causal
+        link, and is explored in more depth in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the sexual Nine's pattern inevitably leads to sudden
+        feverish death – <strong>every person can develop any illness, regardless
+        of subtype.</strong> What Velázquez's case can show is a pattern that
+        stands out again and again in practice wherever boundless fusion with a
+        task, to the point of total self-forgetting, is present – one possible
+        explanation among many, not a verdict. The corresponding condition will
+        be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Velázquez did not know his own Enneagram pattern – the sexual Nine with a
+        One-wing merges almost reflexively with an assigned task until her own
+        boundaries vanish inside it, rather than pausing in time. That is exactly
+        what he lived out unchecked until the end: one final, flawlessly executed
+        duty that left no room for his own exhaustion. Someone who does not
+        recognize their own pull toward boundless fusion as a pattern easily
+        mistakes it for pure devotion to duty, even once their own body has
+        already reached its limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Velázquez's</strong> sudden death offers one of the quietest yet
+        most striking studies of the sexual Nine with a One-wing: four decades
+        of boundless availability, a final, flawlessly organized duty as a
+        culmination rather than an exception, and a body that only reported in
+        once nothing was left. The sloth that never rested – until it came to
+        rest forever.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1) – life's work"},
+        {route:"krankheitsportraets-hundertwasser", label:"Illness Portrait: Friedensreich Hundertwasser (SX9w8) – related subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function adamSmithKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-adam-smith-portrait.jpg" alt="Adam Smith" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Smith</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing · 1723–1790</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Adam Smith</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-adam-smith">portrait under Famous Personalities</a>
+        in this Compass – that page covers his economic life's work. This page
+        deepens a chapter only fleetingly touched on there: decades of chronic
+        digestive suffering and one final, radical gesture shortly before his
+        death, in which he had almost all of his unpublished work destroyed.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Smith</strong> is classified as the <strong>Social One with
+        Nine-wing</strong>. The SO1 measures herself and her surroundings against
+        high, often universally conceived moral and intellectual standards – not
+        out of personal vanity, but out of a need to serve what is right. The
+        Nine-wing adds a peaceful, reticent note that avoids conflict rather than
+        seeking it. This exact combination of high standards and quiet reticence
+        also shaped how Smith dealt with his own health and his own literary
+        legacy.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A "hypochondriac" streak, as contemporaries described it:</strong>
+        Already during his time as a professor in Glasgow, acquaintances
+        described Smith as someone with striking self-monitoring of his health –
+        an assessment that later historians increasingly read as genuine chronic
+        complaints rather than mere imagination.</p>
+        <p class="vb-intro"><strong>b) Recurring digestive complaints from middle age on:</strong>
+        For much of his adult life, Smith suffered from recurring stomach and
+        intestinal complaints that at times considerably limited his ability to
+        work.</p>
+        <p class="vb-intro"><strong>c) Working on regardless:</strong>
+        Despite these recurring complaints, Smith completed both his <em>Theory
+        of Moral Sentiments</em> (1759) and his major work <em>The Wealth of
+        Nations</em> (1776), which founded modern economics.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A life closely bound to his own mother:</strong>
+        Smith remained unmarried throughout his life and lived with his mother
+        for much of his adult years; she outlived him until shortly before his
+        own death.</p>
+        <p class="vb-intro"><strong>b) Proverbial absent-mindedness as the flip side of intense mental work:</strong>
+        Numerous surviving anecdotes describe Smith as notoriously absent-minded
+        in everyday life – a trait closely tied to his capacity for deep,
+        concentrated intellectual penetration of complex subjects.</p>
+        <p class="vb-intro"><strong>c) Growing physical weakness in his final years:</strong>
+        From the late 1780s on, Smith's health noticeably declined, with
+        persistent digestive problems that eventually developed into a suspected
+        bowel obstruction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The request to burn his unpublished manuscripts:</strong>
+        Shortly before his death, Smith urgently asked close friends to destroy
+        almost all of his unpublished manuscripts – a request his executors
+        ultimately honored.</p>
+        <p class="vb-intro"><strong>b) His own standard as the measure to the very end:</strong>
+        According to surviving accounts, Smith wanted to prevent unfinished
+        thoughts that did not meet his own high standard from possibly being
+        published posthumously.</p>
+        <p class="vb-intro"><strong>c) A final gathering with friends despite his weakness:</strong>
+        Only a few days before his death, the already very weakened Smith
+        received friends for one last dinner together, where, tradition has it,
+        he apologized for what he considered his unfinished life's work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on July 17, 1790:</strong>
+        Adam Smith died in Edinburgh at the age of 67, after years of recurring
+        digestive complaints that ultimately worsened into a suspected bowel
+        obstruction.</p>
+        <p class="vb-intro"><strong>b) A work that far outlasted his own time:</strong>
+        <em>The Wealth of Nations</em> is still regarded today as the founding
+        text of modern economics and continues to shape economic thinking
+        worldwide.</p>
+        <p class="vb-intro"><strong>c) A part of his thought lost forever:</strong>
+        By destroying his unpublished manuscripts, a considerable part of
+        Smith's late thought – including planned works on law and government –
+        was irretrievably lost to posterity.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) His own body as an object of strict self-scrutiny:</strong>
+        The social One's typical inclination to judge herself by high standards
+        turned, in Smith, onto his own body too – a watchful, almost inspecting
+        attention to his own physical states.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing as quiet reticence about his complaints:</strong>
+        Rather than making noise about his complaints, Smith seems to have borne
+        them quietly – a reticence typical of the Nine-wing, which avoids
+        confrontation, even with one's own body.</p>
+        <p class="vb-intro"><strong>c) Control over his own image to the very last moment:</strong>
+        The destruction of his unfinished manuscripts can be read as a final,
+        decisive act of the One's control over her own public image – nothing at
+        all, rather than something that does not meet her own standard.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A complaint contemporaries dismissed for decades:</strong>
+        What Smith's circle long dismissed as mere hypochondria appears, from
+        today's perspective, to have been a serious, chronic physical condition –
+        a misunderstanding that offered him little relief during his lifetime.</p>
+        <p class="vb-intro"><strong>b) Work as a constant despite recurring complaints:</strong>
+        Both in periods of relative health and in periods of pronounced
+        complaints, Smith carried on his intellectual work with remarkable
+        consistency, until shortly before his death.</p>
+        <p class="vb-intro"><strong>c) A final act of control rather than surrender:</strong>
+        Rather than leaving his unfinished work to posterity's judgment, Smith
+        chose total control through destruction – a pattern running through his
+        entire relationship to his own, always critically scrutinized work.</p>
+        <p class="vb-intro"><strong>d) Why digestion, of all things?</strong>
+        For a social One with a Nine-wing, whose inner critic constantly checks
+        whether her own conduct meets a high standard, one reading suggests
+        itself: the digestive system – what is taken in, examined, and processed
+        before being released or rejected – became, in Smith, the arena for
+        exactly that inner process of scrutiny he also applied to his own
+        thinking. This reading is a plausible interpretation, not a documented
+        historical causal link, and is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the social One's pattern inevitably leads to
+        digestive suffering – <strong>every person can develop any illness,
+        regardless of subtype.</strong> What Smith's case can show is a pattern
+        that stands out again and again in practice wherever constant inner
+        scrutiny and judgment of one's own thought and action is present – one
+        possible explanation among many, not a verdict. The corresponding
+        condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Smith did not know his own Enneagram pattern – the social One with a
+        Nine-wing checks her own actions and thoughts almost reflexively against
+        a high, often unreachable standard, rather than allowing herself
+        imperfection too. That is exactly what he lived out unchecked until the
+        end: complete destruction of his own unfinished work, sooner than let
+        posterity glimpse its possible shortcomings. Someone who does not
+        recognize their own pull toward permanent self-scrutiny as a pattern
+        easily mistakes it for pure diligence, even once their own body has long
+        been sounding the alarm.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Adam Smith's</strong> final years offer one of the quietest
+        studies of the social One with a Nine-wing: a complaint dismissed for
+        decades but in fact real, an unbroken work discipline to the very end,
+        and one last, radical act of control over a work he never quite
+        considered good enough. The goose, still meticulously putting her own
+        legacy in order.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – life's work"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
+      ])}
+    </div>
+  `);
+}
+
+function josephHaydnKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-joseph-haydn-portrait.jpg" alt="Joseph Haydn" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Haydn</p>
+        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-wing · 1732–1809</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Joseph Haydn</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">portrait under Famous Personalities</a>
+        in this Compass – that page covers his compositional life's work. This
+        page deepens a chapter only fleetingly touched on there: his physical
+        decline in his final years and the moving final gesture with which he
+        was still there for his household staff in the face of death.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Haydn</strong> is classified as the <strong>Self-Preservation
+        Three with Two-wing</strong>. The SE3 seeks security through
+        demonstrable, reliable competence in her own manageable domain – for
+        Haydn, that meant a lifetime devoted to his own compositional work. The
+        Two-wing adds a warm, caring note directed inward, toward her own small
+        circle. This exact combination of competence and quiet care showed up
+        even in his very last days.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades of unbroken creative power:</strong>
+        After decades of service at the Esterházy court and international fame
+        through his London symphonies, Haydn composed, in the late 1790s, two of
+        his most extensive and demanding works ever, <em>The Creation</em> and
+        <em>The Seasons</em>.</p>
+        <p class="vb-intro"><strong>b) First signs of exhaustion after these major works:</strong>
+        After completing <em>The Seasons</em> in 1801, Haydn himself reported
+        deep physical exhaustion – a work he would later describe as too
+        strenuous for his by-then already declining strength.</p>
+        <p class="vb-intro"><strong>c) A growing decline from about 1803:</strong>
+        From around 1803, Haydn became increasingly unable to work – his last
+        planned works, including a string quartet, remained unfinished fragments.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Progressive dropsy:</strong>
+        In the years that followed, Haydn developed increasing dropsy (edema,
+        especially in the legs) – a common ailment of old age at the time, which
+        increasingly restricted his mobility.</p>
+        <p class="vb-intro"><strong>b) Withdrawal from public musical life:</strong>
+        Haydn increasingly withdrew from active musical life, but continued to
+        regularly receive visitors and admirers at his home in Vienna.</p>
+        <p class="vb-intro"><strong>c) One last great public appearance in 1808:</strong>
+        In March 1808, the already severely weakened Haydn attended a
+        performance of his <em>Creation</em> held in his honor, and was deeply
+        moved by the celebration from the prominent guests present, including
+        Beethoven – his last public appearance of this kind.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The bombardment of Vienna in May 1809:</strong>
+        In May 1809, Napoleonic troops besieged and shelled Vienna; legend has
+        it that a cannonball struck close to Haydn's house.</p>
+        <p class="vb-intro"><strong>b) Playing his own imperial anthem three times:</strong>
+        Despite his severe illness, tradition holds that Haydn sat down at the
+        piano three times during the bombardment to play the Austrian imperial
+        anthem he had composed himself ("Gott erhalte Franz den Kaiser") – to
+        calm his frightened household staff.</p>
+        <p class="vb-intro"><strong>c) Care for others even in the face of his own death:</strong>
+        This gesture was not for himself but visibly meant to reassure the
+        people around him – an act of care in the middle of his own gravest
+        illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on May 31, 1809:</strong>
+        Joseph Haydn died a few days after the bombardment of Vienna, at the age
+        of 77, in a city then under French occupation.</p>
+        <p class="vb-intro"><strong>b) An honor guard despite the state of war:</strong>
+        Despite the tense political situation, the French general had an honor
+        guard posted at Haydn's deathbed house – a sign of respect that crossed
+        the lines of the warring parties.</p>
+        <p class="vb-intro"><strong>c) A life's work of formative influence:</strong>
+        Haydn's compositional work – as the "father of the symphony" and the
+        string quartet – fundamentally shaped Viennese Classicism and directly
+        influenced contemporaries such as Mozart and the young Beethoven.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Competence to the limit of his own strength:</strong>
+        The self-preservation Three's typical strategy of securing her own worth
+        through demonstrable achievement showed up in Haydn to the very end –
+        even composing <em>The Seasons</em> beyond his own strength was an
+        expression of this deeply anchored pattern.</p>
+        <p class="vb-intro"><strong>b) The Two-wing as care within his own small circle:</strong>
+        His concern for his frightened household staff during the bombardment of
+        Vienna clearly shows the warm, inward-directed care of the Two-wing –
+        aimed not at a large audience but at the people close to him.</p>
+        <p class="vb-intro"><strong>c) Reassurance through familiar competence:</strong>
+        It is telling that Haydn reached for exactly his own compositional skill
+        to provide security in a threatening situation – familiar competence as
+        an anchor, even in his own dying.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A decline only after decades of unbroken creative power:</strong>
+        Unlike some other illness portraits in this Compass, Haydn's decline set
+        in only very late, after an unusually long life of steady, high
+        productivity.</p>
+        <p class="vb-intro"><strong>b) The final major works as a turning point:</strong>
+        Haydn's own assessment that <em>The Seasons</em> had demanded more than
+        his strength allowed marks a clearly recognizable transition from
+        unbroken creative power to the beginning of physical decline.</p>
+        <p class="vb-intro"><strong>c) Care as the last remaining form of expression:</strong>
+        Once his own strength was no longer enough for new compositions, Haydn
+        still had familiar music as a means of caring for others – a pattern
+        that held right up to his final days.</p>
+        <p class="vb-intro"><strong>d) Why dropsy, of all things?</strong>
+        For a self-preservation Three with a Two-wing, whose security arises
+        from visible, reliable achievement, one reading suggests itself: dropsy
+        – an illness in which the body literally fills with what it can no
+        longer process and release – corresponds to a life that, across decades,
+        never knew a real pause to catch its breath. This reading is a plausible
+        interpretation, not a documented historical causal link, and is explored
+        in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the self-preservation Three's pattern inevitably
+        leads to dropsy – <strong>every person can develop any illness,
+        regardless of subtype.</strong> What Haydn's case can show is a pattern
+        that stands out again and again in practice wherever decades of barely
+        interrupted achievement are present – one possible explanation among
+        many, not a verdict. The corresponding condition will be developed step
+        by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Haydn did not know his own Enneagram pattern – the self-preservation
+        Three with a Two-wing secures her own worth almost reflexively through
+        steady, demonstrable achievement, rather than allowing herself rest in
+        time. That is exactly what he lived out unchecked until the end: even in
+        his own dying, he reached for familiar musical competence to be there
+        for others rather than let himself be cared for. Someone who does not
+        recognize their own pull toward constant achievement as a pattern easily
+        mistakes it for pure calling, even once their own body is thoroughly
+        exhausted.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Haydn's</strong> final years offer one of the most touching
+        studies of the self-preservation Three with a Two-wing: decades of
+        unbroken creative power, a physical decline that set in late but then
+        unstoppably, and one final gesture of care that, even under cannon fire,
+        was directed not at his own fear but at reassuring others. The raccoon
+        that cared for its troop to the very end, even once its own strength was
+        long since spent.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2) – life's work"},
+        {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SE3w2) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SE3"},
+      ])}
+    </div>
+  `);
+}
+
 function friedrichNietzscheKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -54056,6 +54797,7 @@ function friedrichNietzscheKrankheitsportraetPage() {
         {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – life's work"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"krankheitsportraets-frederic-chopin", label:"Illness Portrait: Frédéric Chopin (SX5w4) – same SX5w4 parallel"},
+        {route:"krankheitsportraets-blaise-pascal", label:"Illness Portrait: Blaise Pascal (SX5w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx5", label:"Subtype Profile SX5"},
       ])}
@@ -67675,6 +68417,7 @@ function jordanPetersonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
+        {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
@@ -67842,6 +68585,7 @@ function hundertwasserKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}
@@ -67999,6 +68743,7 @@ function sadhguruKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SE3w2)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SE3"},
       ])}
@@ -106214,6 +106959,10 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-michael-schumacher": michaelSchumacherKrankheitsportraetPage,
       "krankheitsportraets-klaus-kinski": klausKinskiKrankheitsportraetPage,
       "krankheitsportraets-natascha-kampusch": nataschaKampuschKrankheitsportraetPage,
+      "krankheitsportraets-blaise-pascal": blaisePascalKrankheitsportraetPage,
+      "krankheitsportraets-diego-velazquez": diegoVelazquezKrankheitsportraetPage,
+      "krankheitsportraets-adam-smith": adamSmithKrankheitsportraetPage,
+      "krankheitsportraets-joseph-haydn": josephHaydnKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,

@@ -179,7 +179,7 @@ export function blaisePascalPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Vom Schilfrohr zur tragenden Wurzel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug verstanden, um sicher zu sein?</em> zur Erkenntnis <em>Verstehen entsteht nicht durch Rückzug, sondern durch Hingabe an das, was ich nicht vollständig kontrollieren kann.</em> Für die SX5w6 bedeutet das, das eine gefundene Fundament nicht zur Festung gegen jeden weiteren Zweifel zu machen, sondern es als das zu nehmen, was es für den jungen Pascal einmal war: ein Ausgangspunkt für offenes Denken, nicht sein Endpunkt.</p>
-          <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; er lebte seine Leidenschaft nach Sicherheit durch geprüftes Wissen ungebremst aus, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Auch bei Pascal gilt, dass niemand allein aufgrund seines Enneagramm-Subtyps chronisch krank wird &ndash; seine Leiden hatten eigene, unabhängige körperliche Ursachen. Bemerkenswert bleibt dennoch, wie konsequent sich sein Umgang mit Krankheit und Sterblichkeit in sein Denkmuster einfügte: Statt die eigene Hinfälligkeit zu verdrängen, machte er sie &ndash; ganz Fünf, ganz Igel &ndash; zum Ausgangspunkt einer der bekanntesten philosophischen Formeln der Geistesgeschichte. Pascal kannte sein eigenes Enneagramm-Muster natürlich nicht bewusst; er lebte seine Leidenschaft nach Sicherheit durch geprüftes Wissen ungebremst aus, bis sie sich buchstäblich in seinen Körper eingrub &ndash; nicht aus Schuld, sondern weil ihm die Sprache fehlte, um das eigene Muster als Muster zu erkennen, statt es als Schicksal hinzunehmen. Seine Krankheitsgeschichte und die letzten Lebensjahre werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-blaise-pascal">Krankheitsporträt zu Pascal</a> noch ausführlicher gedeutet.</p>
         </blockquote>
 
       </div>
@@ -188,6 +188,7 @@ export function blaisePascalPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-blaise-pascal", label:"Krankheitsporträt: Blaise Pascal (SX5w6)"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
       ])}

@@ -1070,6 +1070,7 @@ export function friedrichNietzscheKrankheitsportraetPage() {
         {route:"beruehmte-friedrich-nietzsche", label:"Porträt: Friedrich Nietzsche (SX5w4) – Lebenswerk"},
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
         {route:"krankheitsportraets-frederic-chopin", label:"Krankheitsporträt: Frédéric Chopin (SX5w4) – dieselbe SX5w4-Parallele"},
+        {route:"krankheitsportraets-blaise-pascal", label:"Krankheitsporträt: Blaise Pascal (SX5w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
       ])}
@@ -3051,6 +3052,7 @@ export function sadhguruKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}

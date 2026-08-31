@@ -26,7 +26,7 @@ import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, c
 import { albertEinsteinKrankheitsportraetPage, bernieMadoffKrankheitsportraetPage, christiaanBarnardKrankheitsportraetPage, drewBarrymoreKrankheitsportraetPage, fransDeWaalKrankheitsportraetPage, freudKrankheitsportraetPage, georgeGershwinKrankheitsportraetPage, hansDietrichGenscherKrankheitsportraetPage, isaacNewtonKrankheitsportraetPage, johnWayneKrankheitsportraetPage, karlLagerfeldKrankheitsportraetPage, leonardBernsteinKrankheitsportraetPage, mariahCareyKrankheitsportraetPage, morganFreemanKrankheitsportraetPage, nikolaTeslaKrankheitsportraetPage, peterFalkKrankheitsportraetPage, ronaldReaganKrankheitsportraetPage, stephenHawkingKrankheitsportraetPage, warrenBuffettKrankheitsportraetPage, yayoiKusamaKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil3.js";
 import { alexanderDerGrosseKrankheitsportraetPage, billieEilishKrankheitsportraetPage, claudeDebussyKrankheitsportraetPage, elizabethBarrettBrowningKrankheitsportraetPage, franzKafkaKrankheitsportraetPage, fridaKahloKrankheitsportraetPage, giacomoPucciniKrankheitsportraetPage, helmutKohlKrankheitsportraetPage, jamesLevineKrankheitsportraetPage, jordanPetersonKrankheitsportraetPage, karlMarxKrankheitsportraetPage, leonardoDaVinciKrankheitsportraetPage, marieCurieKrankheitsportraetPage, mrTKrankheitsportraetPage, nusratFatehAliKhanKrankheitsportraetPage, richardRamirezKrankheitsportraetPage, ruthBaderGinsburgKrankheitsportraetPage, tELawrenceKrankheitsportraetPage, willyBrandtKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil4.js";
 import { angelinaJolieKrankheitsportraetPage, bobMarleyKrankheitsportraetPage, claudioNaranjoKrankheitsportraetPage, elonMuskKrankheitsportraetPage, franzLisztKrankheitsportraetPage, friedrichNietzscheKrankheitsportraetPage, goldaMeirKrankheitsportraetPage, hermannHesseKrankheitsportraetPage, jamieLeeCurtisKrankheitsportraetPage, julesVerneKrankheitsportraetPage, klausKinskiKrankheitsportraetPage, ludwigVanBeethovenKrankheitsportraetPage, marilynMonroeKrankheitsportraetPage, muhammadAliKrankheitsportraetPage, ojSimpsonKrankheitsportraetPage, robbieWilliamsKrankheitsportraetPage, sadhguruKrankheitsportraetPage, teresaVonAvilaKrankheitsportraetPage, wilmaMankillerKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil5.js";
-import { anthonyHopkinsKrankheitsportraetPage, byronKatieKrankheitsportraetPage, davidBowieKrankheitsportraetPage, elvisPresleyKrankheitsportraetPage, franzSchubertKrankheitsportraetPage, friedrichSchillerKrankheitsportraetPage, gretaThunbergKrankheitsportraetPage, honoreDeBalzacKrankheitsportraetPage, johannesBrahmsKrankheitsportraetPage, julianAssangeKrankheitsportraetPage, konradAdenauerKrankheitsportraetPage, ludwigWittgensteinKrankheitsportraetPage, martinLutherKrankheitsportraetPage, napoleonBonaparteKrankheitsportraetPage, oprahWinfreyKrankheitsportraetPage, robertDeNiroKrankheitsportraetPage, salvatoreRiinaKrankheitsportraetPage, umbertoEcoKrankheitsportraetPage, winstonChurchillKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil6.js";
+import { adamSmithKrankheitsportraetPage, anthonyHopkinsKrankheitsportraetPage, blaisePascalKrankheitsportraetPage, byronKatieKrankheitsportraetPage, davidBowieKrankheitsportraetPage, diegoVelazquezKrankheitsportraetPage, elvisPresleyKrankheitsportraetPage, franzSchubertKrankheitsportraetPage, friedrichSchillerKrankheitsportraetPage, gretaThunbergKrankheitsportraetPage, honoreDeBalzacKrankheitsportraetPage, johannesBrahmsKrankheitsportraetPage, josephHaydnKrankheitsportraetPage, julianAssangeKrankheitsportraetPage, konradAdenauerKrankheitsportraetPage, ludwigWittgensteinKrankheitsportraetPage, martinLutherKrankheitsportraetPage, napoleonBonaparteKrankheitsportraetPage, oprahWinfreyKrankheitsportraetPage, robertDeNiroKrankheitsportraetPage, salvatoreRiinaKrankheitsportraetPage, umbertoEcoKrankheitsportraetPage, winstonChurchillKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil6.js";
 
 (function(){
 const se1 = {
@@ -32322,6 +32322,10 @@ const KRIMINAL_PORTRAITS = [
 // (siehe CLAUDE.md-Diskussion: bei lebenden Personen mit aktueller, ungewisser Erkrankung
 // w\xe4re eine solche Deutung taktlos und widerspr\xe4che dem eigenen Disclaimer "kein Determinismus").
 const KRANKHEITS_PORTRAITS = [
+  { route:"krankheitsportraets-blaise-pascal", name:"Blaise Pascal", subtyp:"SX5w6", heading:"Blaise Pascal – Sexueller Typ 5", krankheit:"Lebenslange, nie eindeutig diagnostizierte chronische Krankheit (Kopfschmerzen, Verdauungsleiden), radikale Selbstkasteiung in den letzten Lebensjahren", teaser:"SX5w6 – französischer Mathematiker, Physiker und Philosoph, 1623–1662. Praktisch schmerzfreier Tag seit dem 18. Lebensjahr nicht mehr dokumentiert. Zog sich in den letzten Jahren radikal von Wissenschaft und Besitz zurück, trug zeitweise einen Nagelgürtel zur Selbstkasteiung, starb mit nur 39 Jahren nach einem heftigen Krampfanfall." , land:"Frankreich", gender:"m", jahre:"1623–1662"},
+  { route:"krankheitsportraets-diego-velazquez", name:"Diego Velázquez", subtyp:"SX9w1", heading:"Diego Velázquez – Sexueller Typ 9", krankheit:"Plötzliches, tödliches Fieber nach völliger körperlicher Erschöpfung", teaser:"SX9w1 – spanischer Hofmaler, Schöpfer von Las Meninas, 1599–1660. Organisierte 1660 erschöpfend die gesamte höfische Zeremonie zur Hochzeit der Infantin María Teresa mit Ludwig XIV. auf der Fasaneninsel. Erkrankte wenige Tage nach der Rückkehr an hohem Fieber und starb binnen einer Woche." , land:"Spanien", gender:"m", jahre:"1599–1660"},
+  { route:"krankheitsportraets-adam-smith", name:"Adam Smith", subtyp:"SO1w9", heading:"Adam Smith – Sozialer Typ 1", krankheit:"Chronisches Verdauungsleiden über Jahrzehnte, vermutlich Darmverschluss als Todesursache", teaser:"SO1w9 – schottischer Moralphilosoph und Ökonom, Begründer der modernen Nationalökonomie, 1723–1790. Jahrzehntelang von Zeitgenossen als hypochondrisch beschriebene, aber real körperliche Verdauungsbeschwerden. Ließ kurz vor seinem Tod fast alle unveröffentlichten Manuskripte verbrennen, aus Sorge, sie könnten seinem hohen eigenen Anspruch nicht genügen." , land:"Schottland", gender:"m", jahre:"1723–1790"},
+  { route:"krankheitsportraets-joseph-haydn", name:"Joseph Haydn", subtyp:"SE3w2", heading:"Joseph Haydn – Selbsterhaltender Typ 3", krankheit:"Fortschreitende Wassersucht (Ödeme) und allgemeiner körperlicher Verfall in den letzten Lebensjahren", teaser:"SE3w2 – österreichischer Komponist, ›Vater der Sinfonie‹, 1732–1809. Ab etwa 1803 zunehmend arbeitsunfähig durch Wassersucht und Erschöpfung. Spielte im Mai 1809, während Napoleons Truppen Wien beschossen, todkrank noch dreimal die von ihm komponierte Kaiserhymne am Klavier, um sein Hauspersonal zu beruhigen – starb wenige Tage später." , land:"Österreich", gender:"m", jahre:"1732–1809"},
   { route:"krankheitsportraets-moliere", name:"Molière", subtyp:"SO7w6", heading:"Molière – Sozialer Typ 7", krankheit:"Chronische Lungenerkrankung (vermutlich Tuberkulose)", teaser:"SO7w6 – französischer Dramatiker und Schauspieler, 1622–1673. Schöpfer von Tartuffe, Der Menschenfeind und Der eingebildete Kranke. Brach 1673 während der vierten Aufführung von Der eingebildete Kranke – in der Rolle eines Hypochonders – auf der Bühne zusammen und starb Stunden später an einem Lungenleiden, das er jahrelang verschwiegen hatte." , land:"Frankreich", gender:"m", jahre:"1622–1673"},
   { route:"krankheitsportraets-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5", heading:"Sigmund Freud – Sozialer Typ 6", krankheit:"Mundhöhlen- und Kieferkrebs", teaser:"SO6w5 – Begründer der Psychoanalyse, 1856–1939. 1923 mit Kieferkrebs diagnostiziert, über 30 Operationen in 16 Jahren, rauchte trotz der Diagnose weiter Zigarren und lehnte lange wirksame Schmerzmittel ab, um geistig klar zu bleiben. Starb 1939 im Londoner Exil durch ärztlich assistierten Tod." , land:"Österreich", gender:"m", jahre:"1856–1939"},
   { route:"krankheitsportraets-marie-curie", name:"Marie Curie", subtyp:"SE5w6", heading:"Marie Curie – Selbsterhaltender Typ 5", krankheit:"Aplastische Anämie durch chronische Strahlenbelastung", teaser:"SE5w6 – Physikerin und Chemikerin, 1867–1934. Jahrzehntelange, ungeschützte Arbeit mit radioaktiven Stoffen, Radiumproben in der Kitteltasche, kontaminierte Notizbücher bis heute radioaktiv. Starb 1934 an aplastischer Anämie als direkte Folge der Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte." , land:"Polen/Frankreich", gender:"f", jahre:"1867–1934"},
@@ -45515,12 +45519,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO1: {
     tier: "Gans",
     kernthema: "Kleine Fallzahl bislang – erste erkennbare Linie: eine sehr bewusste, oft präventive Entscheidung im Umgang mit der eigenen Gesundheit.",
-    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie"],
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith"],
     fingerabdruecke: [
       {
         titel: "Prinzipientreue Entscheidungen selbst im Angesicht der eigenen Krankheit",
         beschreibung: "Bei bislang wenigen, aber auffällig einheitlichen Fällen zeigt sich bei der sozialen Eins eine sehr bewusste, fast grundsätzliche Haltung zur eigenen Gesundheit – Entscheidungen werden nicht dem Zufall überlassen, sondern nach klaren eigenen Maßstäben getroffen.",
-        beleg: "Angelina Jolie, die sich nach dem Nachweis der BRCA1-Genmutation präventiv doppelt mastektomieren sowie Eierstöcke und Eileiter entfernen ließ, bevor überhaupt eine Erkrankung vorlag; David Bowie, der seine Leberkrebsdiagnose bis zuletzt zur Grundlage eines bewusst komponierten letzten Werks (›Blackstar‹) machte, statt sie zu verschweigen oder zu dramatisieren."
+        beleg: "Angelina Jolie, die sich nach dem Nachweis der BRCA1-Genmutation präventiv doppelt mastektomieren sowie Eierstöcke und Eileiter entfernen ließ, bevor überhaupt eine Erkrankung vorlag; David Bowie, der seine Leberkrebsdiagnose bis zuletzt zur Grundlage eines bewusst komponierten letzten Werks (›Blackstar‹) machte, statt sie zu verschweigen oder zu dramatisieren; Adam Smith, der kurz vor seinem Tod fast alle unveröffentlichten Manuskripte verbrennen ließ, aus Sorge, sie könnten seinem eigenen hohen Anspruch nicht genügen – eine ebenso prinzipientreue wie endgültige Entscheidung im Angesicht der eigenen Sterblichkeit."
       }
     ]
   },
@@ -45575,7 +45579,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE3: {
     tier: "Waschbär",
     kernthema: "Der Zusammenbruch nach dem Ende der Fassade – Erkrankungen, die auffällig oft mit dem Einsturz einer lange aufrechterhaltenen äußeren Kontrolle zusammenfallen.",
-    beispiele: ["Osho", "Bernie Madoff", "Sadhguru"],
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru", "Joseph Haydn"],
     fingerabdruecke: [
       {
         titel: "Körperlicher Einbruch nach dem Verlust der öffentlichen Kontrolle",
@@ -45671,7 +45675,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX5: {
     tier: "Igel",
     kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Häufung neurologischer und die Sinne betreffender Beschwerden, die mit geistigem Zusammenbruch einhergehen.",
-    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin"],
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin", "Blaise Pascal"],
     fingerabdruecke: [
       {
         titel: "Neurologische Beschwerden mit Auswirkung auf Wahrnehmung und Geist",
@@ -45815,7 +45819,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zu chronischen, nie eindeutig diagnostizierten Leiden, oft begleitet von einem betäubenden Umgang mit dem eigenen Schmerz.",
-    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser"],
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez"],
     fingerabdruecke: [
       {
         titel: "Chronisches, nie eindeutig diagnostiziertes Leiden mit betäubendem Umgang",
@@ -76248,6 +76252,10 @@ function render() {
       "bibel-barabbas": barabbasPage,
       "bibel-mutter-maria": mutterMariaPage,
       "krankheitsportraets": krankheitsportraetsPage,
+      "krankheitsportraets-blaise-pascal": blaisePascalKrankheitsportraetPage,
+      "krankheitsportraets-diego-velazquez": diegoVelazquezKrankheitsportraetPage,
+      "krankheitsportraets-adam-smith": adamSmithKrankheitsportraetPage,
+      "krankheitsportraets-joseph-haydn": josephHaydnKrankheitsportraetPage,
       "krankheitsportraets-moliere": molierePortraitPage,
       "krankheitsportraets-sigmund-freud": freudKrankheitsportraetPage,
       "krankheitsportraets-marie-curie": marieCurieKrankheitsportraetPage,
