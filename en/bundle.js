@@ -63105,7 +63105,7 @@ function stephenHawkingKrankheitsportraetPage() {
         belonging to a reliable, tested institution rather than to fleeting personal fame.</p>
         <p class="vb-intro"><strong>c) A public legacy beyond death:</strong>
         Hawking's ashes were interred in Westminster Abbey next to the graves of Isaac
-        Newton and Charles Darwin – a posthumous belonging to exactly the community of great
+        Newton and Charles Darwin (SE5w6) – a posthumous belonging to exactly the community of great
         scientists he had felt connected to throughout his life.</p>
       </div>
 

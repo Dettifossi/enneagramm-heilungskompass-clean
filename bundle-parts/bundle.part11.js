@@ -8904,7 +8904,7 @@ function stephenHawkingKrankheitsportraetPage() {
         geprüften Institution statt zu flüchtigem persönlichem Ruhm.</p>
         <p class="vb-intro"><strong>c) Ein öffentliches Vermächtnis über den Tod hinaus:</strong>
         Hawkings Asche wurde in der Westminster Abbey neben den Gräbern von Isaac Newton
-        und Charles Darwin beigesetzt – eine posthume Zugehörigkeit zu genau jener
+        und Charles Darwin (SE5w6) beigesetzt – eine posthume Zugehörigkeit zu genau jener
         Gemeinschaft großer Wissenschaftler, der er sich zeitlebens verbunden fühlte.</p>
       </div>
 
@@ -8919,7 +8919,7 @@ function stephenHawkingKrankheitsportraetPage() {
         Die methodische, akribisch getestete Konstruktion seines Kommunikationssystems –
         vom Handschalter bis zum wangenmuskelgesteuerten Sprachcomputer – trägt deutlich die
         Handschrift des Sechserflügels: kein spontanes Improvisieren, sondern der geduldige
-        Aufbau eines Systems, dem man sich verlassen kann, gemeinsam mit einem kleinen,
+        Aufbau eines Systems, auf das man sich verlassen kann, gemeinsam mit einem kleinen,
         loyalen Kreis von Vertrauten.</p>
         <p class="vb-intro"><strong>c) Kontrolle durch Verstehen des eigenen Zustands:</strong>
         Hawking sprach öffentlich selten über seine Krankheit als persönliches Leid,
