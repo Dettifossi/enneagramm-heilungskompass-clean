@@ -22,13 +22,20 @@ Nach **jeder** inhaltlichen Änderung an `bundle.js`, `en/bundle.js` oder `data/
 
 Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kümmert sich nur um `app.js`-Sync und die Wegweiser-Wissensbasis) — er muss aktiv bei jedem Content-Commit mit erledigt werden.
 
-### bundle-parts/ — bundle.js wird für die Auslieferung zerlegt (seit 29.08.2026)
+### bundle.js ist ein ES-Modul — Portrait-Seitenfunktionen liegen in data/*-de/ (seit 31.08.2026)
 
-`bundle.js` war auf 16 MB angewachsen und führte auf dem Handy zu Safaris „Es ist wiederholt ein Problem aufgetreten"-Absturzmeldung (WebKit-Speicherdruck) bei Seiten mit vielen Karten (z. B. „Berühmte Persönlichkeiten"). Ausgeliefert wird `bundle.js` deshalb nicht mehr direkt, sondern in 16 Teile zerlegt als `bundle-parts/bundle.part1.js` … `bundle.part16.js`, die `index.html` als sequenzielle `<script>`-Tags lädt (siehe `ai-prototype/split-bundle.mjs`).
+`bundle.js` war auf 16,4 MB angewachsen und führte auf dem Handy zu Safaris „Es ist wiederholt ein Problem aufgetreten"-Absturzmeldung (WebKit-Speicherdruck) bei Seiten mit vielen Karten (z. B. „Berühmte Persönlichkeiten"). Der vorherige `bundle-parts/`-Workaround (16-fache Zerlegung in sequenzielle `<script>`-Tags) wurde durch eine echte Modularisierung ersetzt: `bundle.js` ist jetzt ein ES-Modul (`<script type="module">` in `index.html`), und die drei größten Funktionsgruppen wurden ausgelagert:
+- **Berühmte Persönlichkeiten:** `data/beruehmte-de/teil1.js` … `teil18.js`
+- **Kriminalpsychologie:** `data/kriminal-de/teil1.js` … `teil4.js`
+- **Krankheitsporträts:** `data/krankheitsportraets-de/teil1.js` … `teil6.js`
 
-**Der Bearbeitungsworkflow ändert sich dadurch nicht:** Es wird weiterhin ausschließlich `bundle.js` inhaltlich bearbeitet, nie `bundle-parts/`. Der Post-Commit-Hook regeneriert `bundle-parts/` automatisch bei jedem Commit, der `bundle.js` verändert, und committet das Ergebnis mit. Nur bei Änderungen außerhalb von git müsste `node ai-prototype/split-bundle.mjs` manuell nachgeholt werden.
+Jede dieser Dateien exportiert eine Handvoll `...PortraitPage()`-Funktionen und importiert die gemeinsam genutzten Helfer (`shell`, `pageHeader`, `relatedLinks`, `bookTip`, `tierAvatarTop`, `tierAvatarLeft`, `animalResearcherMatchBlock`) direkt aus `bundle.js` zurück (`import { ... } from "../../bundle.js"`) — ein bewusster zirkulärer Import, der bei reinen `function`-Deklarationen unproblematisch ist, weil deren Bindungen schon beim Modul-Linking verfügbar sind, bevor irgendein Code sie tatsächlich aufruft.
 
-Bei der Cache-Busting-Versionsnummer in `index.html` (Schritt 1 oben) jetzt **alle 16 Vorkommen** von `bundle-parts/bundle.partN.js?v=inhalt-vXXXX` auf dieselbe neue Nummer hochzählen (ein globales Such-Ersetzen der alten Versionsnummer erledigt das in einem Schritt). `en/bundle.js` ist von diesem Split **nicht** betroffen — es ist (anders als `bundle.js`) ein echtes ES-Modul mit `import`-Statements aus `data/*.js` und bleibt vorerst als eine Datei bestehen; eigenständiges Folgeprojekt, falls die englische Version dieselben Speicherprobleme zeigt.
+**Bearbeitungsworkflow:** Bei einer neuen oder geänderten Berühmte-Persönlichkeiten-/Kriminalpsychologie-/Krankheitsporträt-Funktion die passende `teilN.js`-Datei in der jeweiligen `data/*-de/`-Mappe bearbeiten, **nicht** `bundle.js` selbst (dort stehen diese Funktionen nicht mehr). Alle Array-Einträge (`BERUEHMT_PORTRAITS`, `KRIMINAL_PORTRAITS`, `KRANKHEITS_PORTRAITS`), die Route-Map, `LEBENSMUSTERKOMPASS`, `KRANKHEITSMUSTERKOMPASS` und alle anderen Seiten (Astrologie, Bibel, Wissen, Tools, Schaubilder) bleiben unverändert in `bundle.js`. Bei einer komplett neuen Person in einer der drei Gruppen: neue Funktion in eine der bestehenden `teilN.js`-Dateien einfügen (z. B. die kürzeste) statt eine neue Datei anzulegen, außer eine `teilN.js` wird zu groß.
+
+Nach jeder Änderung `node --input-type=module --check < bundle.js` sowie für jede geänderte `data/*-de/teilN.js` denselben Check ausführen (normales `node --check` reicht nicht, weil es `import`/`export` nicht kennt). `app.js` bleibt weiterhin eine reine `cp bundle.js app.js`-Kopie für die Wegweiser-Extraktionsskripte — die extrahierten Portrait-Arrays selbst liegen unverändert in `bundle.js`/`app.js`, nur die Rendering-Funktionen sind ausgelagert.
+
+`en/bundle.js` ist von dieser Aufteilung **nicht** betroffen — es bleibt weiterhin eine einzelne, große ES-Modul-Datei (12,3 MB) mit `import`-Statements nur für Rohdaten aus `data/*.js`, nicht für Seitenfunktionen. Sollte die englische Version ebenfalls Safari-Speicherprobleme zeigen, wäre eine analoge Aufteilung (`data/beruehmte-en/`, `data/kriminal-en/`, `data/krankheitsportraets-en/`) das naheliegende nächste Projekt.
 
 ## 2. Antwortverhalten
 
