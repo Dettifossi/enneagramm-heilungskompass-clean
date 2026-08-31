@@ -39903,6 +39903,65 @@ function dynamikDerTypenPage() {
   `);
 }
 
+const SUBTYPE_SONGS = {
+  SE1: { de: "XHB8xTxJtHY", en: "NWj3sLpqm1s" },
+  SO1: { de: "eOJAkd-QohU", en: "DkkZS4FkZbA" },
+  SX1: { de: "s1AQHS_gOHg", en: "NWj3sLpqm1s" },
+  SE2: { de: "Gxgr9xOtKaQ", en: "OT19G0XQsak" },
+  SO2: { de: "tLMBN_8wH9g", en: "SaMqeT32TmQ" },
+  SX2: { de: "JCoUFccskX0", en: "aTFl_G-AE3E" },
+  SE3: { de: "CADA-IqRQWY", en: "fY4bvwCPQoQ" },
+  SO3: { de: "Rxprww_GTsc", en: "hFPun_FKul8" },
+  SX3: { de: "-ByqceZszZw", en: "vuRc8ToDW6A" },
+  SE4: { de: "Q14Rd2iCgzk", en: "E6xQTADTtAo" },
+  SO4: { de: "r1ni5PfATM8", en: "dubv-FXZwDo" },
+  SX4: { de: "qWQCEAN5TJA", en: "DYC5o5-XQYE" },
+  SE5: { de: "200kCwdgywU", en: "hWvUu9t7t88" },
+  SO5: { de: "3xyba3n5Iro", en: "4GOof3XqAkg" },
+  SX5: { de: "bzOuErO0WF0", en: "VzDs1icqvac" },
+  SE6: { de: "_bnbjIyn3qY", en: "KICVKWtfIKk" },
+  SO6: { de: "KSeQ5r73C7Q", en: "82Qd_SdH1RI" },
+  SX6: { de: "XEAzDNSmVjg", en: "IHDIM7tK4Fs" },
+  SE7: { de: "e67bCJpPGo4", en: "_SOvWRQxacw" },
+  SO7: { de: "mxSaAfvaBKE", en: "-a261mIny40" },
+  SX7: { de: "ubtVaur_QKc", en: "KhvQsODuii8" },
+  SE8: { de: "w-l6Otm34QU", en: "PTwXfWpA5sk" },
+  SO8: { de: "dR6VaEnpWgE", en: "WnZzoQt45FU" },
+  SX8: { de: "THA4awgtiTE", en: "5wCzlEA2cik" },
+  SE9: { de: "X7Vw6jtKNMY", en: "XWwqegFjgXM" },
+  SO9: { de: "_xYqRYaUsEk", en: "0BW4MaBwT_E" },
+  SX9: { de: "Q9p8_1iQhm0", en: "cJN3-HEA-_A" },
+};
+
+function subtypeSongSection(code, tc) {
+  const song = SUBTYPE_SONGS[code.toUpperCase()];
+  if (!song) return "";
+  return `
+    <section class="narrow" style="padding-top:0;">
+      <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">Dein Subtyp-Song</h3>
+      <p style="margin:0 0 0.8rem;font-size:0.92rem;color:var(--muted);">Zu jedem der 27 Subtypen gibt es einen eigens komponierten Song &ndash; deutsch und englisch &ndash; als musikalische Vertiefung des Themas.</p>
+      <div style="display:grid; grid-template-columns:1fr; gap:0.9rem;">
+        <div>
+          <p style="margin:0 0 0.35rem;font-size:0.8rem;font-weight:600;color:var(--muted);">Deutsch</p>
+          <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
+            <iframe width="100%" height="100%" style="border:none;display:block;"
+              src="https://www.youtube.com/embed/${song.de}?rel=0"
+              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+        <div>
+          <p style="margin:0 0 0.35rem;font-size:0.8rem;font-weight:600;color:var(--muted);">English</p>
+          <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
+            <iframe width="100%" height="100%" style="border:none;display:block;"
+              src="https://www.youtube.com/embed/${song.en}?rel=0"
+              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
 function subtypePage(code) {
   const sp = text.subtypePage;
   const entry = subtypeEntry(code);
@@ -39954,6 +40013,7 @@ function subtypePage(code) {
       ${sectionBlock("verkoerpern", sp.rooms.verkoerpern, verkoerpernInner(entry, sp), tc)}
       ${sectionBlock("vertiefen", sp.rooms.vertiefen, vertiefungSection(details.vertiefung, sp), tc)}
     </section>
+    ${subtypeSongSection(entry.code, tc)}
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">
