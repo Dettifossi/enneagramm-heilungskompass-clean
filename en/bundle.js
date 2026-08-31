@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=53";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=54";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -415,6 +415,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-frans-de-waal", name:"Frans de Waal", subtyp:"SX7w6", heading:"Frans de Waal – Sexual Type 7", krankheit:"Stomach cancer, continued working until a few months before death", teaser:"SX7w6 – primatologist, 1948–2024. Stomach cancer diagnosis in August 2023, remained publicly and scientifically active, died on March 14, 2024, at age 75." , land:"Netherlands/USA", gender:"m", jahre:"1948–2024"},
   { route:"krankheitsportraets-salvatore-riina", name:"Salvatore Riina", subtyp:"SE8w9", heading:"Salvatore Riina – Self-Preservation Type 8", krankheit:"Kidney failure, stroke", teaser:"SP8w9 – boss of Cosa Nostra, 1930–2017. Progressive kidney failure, a stroke in 2017, repeatedly denied requests for release on medical grounds. Died on November 17, 2017, in the hospital wing of Parma prison." , land:"Italy", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-dolly-parton", name:"Dolly Parton", subtyp:"SX3w4", heading:"Dolly Parton – Sexual Type 3", krankheit:"Endometriosis since the early 1980s, later cancer", teaser:"SX3w4 – singer, songwriter, 1946–2026. Endometriosis diagnosed in the early 1980s with a partial hysterectomy in 1985, decades of recurring health crises. Died on August 25, 2026, following a brief battle with cancer. Connected to Marilyn Monroe (also SX3w4, also endometriosis)." , land:"USA", gender:"f", jahre:"1946–2026"},
+  { route:"krankheitsportraets-brigitte-bardot", name:"Brigitte Bardot", subtyp:"SX3w2", heading:"Brigitte Bardot – Sexual Type 3", krankheit:"Never publicly named cancer diagnosis, two surgeries in 2025, decades of chronic back pain", teaser:"SX3w2 – actress and animal-rights activist, 1934–2025. Hospitalized in October 2025 and personally denied death rumors, died of cancer in December 2025 – diagnosis confirmed by her husband but never publicly named." , land:"France", gender:"f", jahre:"1934–2025"},
   { route:"krankheitsportraets-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3", heading:"Romy Schneider – Social Type 4", krankheit:"Kidney surgery, escalating alcohol and pill dependency, unresolved death", teaser:"SO4w3 – actress, 1938–1982. Severe kidney operation, suicide of her first husband Harry Meyen in 1979, fatal accident of her son David in 1981. Died on May 29, 1982, officially of heart failure, no autopsy performed. Connected to Michael Jackson (also SO4w3, also substance dependency behind a flawless façade)." , land:"Austria/Germany", gender:"f", jahre:"1938–1982"},
   { route:"krankheitsportraets-yayoi-kusama", name:"Yayoi Kusama", subtyp:"SE2w3", heading:"Yayoi Kusama – Self-Preservation Type 2", krankheit:"Hallucinations and depersonalization since childhood, voluntarily in a psychiatric hospital since 1977", teaser:"SP2w3 – Japanese artist, 1929–2026. Hallucinations since early childhood, several suicide attempts in the 1970s, voluntarily admitted to Tokyo's Seiwa Hospital for the mentally ill since 1977. Worked in her studio almost daily until near the end. Connected to Frida Kahlo (also SP2w3, also art born from lifelong suffering)." , land:"Japan", gender:"f", jahre:"1929–2026"},
   { route:"krankheitsportraets-michael-schumacher", name:"Michael Schumacher", subtyp:"SX6w7", heading:"Michael Schumacher – Sexual Type 6", krankheit:"Severe traumatic brain injury after 2013 skiing accident, since then a total media blackout", teaser:"SX6w7 – Formula 1 racing driver, seven-time world champion, born 1969. Skiing accident on December 29, 2013, in Méribel with a severe traumatic brain injury, several emergency surgeries, months in a medically induced coma. Since his 2014 discharge, the family has kept his health condition entirely private." , land:"Germany", gender:"m", jahre:"born 1969"},
@@ -25538,6 +25539,7 @@ function brigitteBardotPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
+        {route:"krankheitsportraets-brigitte-bardot", label:"Illness Portrait: Brigitte Bardot (SX3w2)"},
       ])}
     </div>
   `);
@@ -49045,13 +49047,13 @@ const KRANKHEITSMUSTERKOMPASS = {
   },
   SX3: {
     tier: "Peacock",
-    kernthema: "Small sample so far – a tendency toward fatal escalations that long stayed hidden beneath an immaculate public stage presence.",
-    beispiele: ["Marilyn Monroe", "Richard Ramírez", "Dolly Parton"],
+    kernthema: "A recognizable tendency to keep the exact nature of one's own illness hidden beneath an immaculate public stage presence for as long as possible – regardless of whether the wing leans more toward calculation (w2) or self-dramatization (w4).",
+    beispiele: ["Marilyn Monroe", "Richard Ramírez", "Dolly Parton", "Brigitte Bardot"],
     fingerabdruecke: [
       {
         titel: "A polished stage presence concealing the actual crisis for a long time",
-        beschreibung: "In the three cases so far, a pattern emerges in which the actual health or psychological crisis stays hidden for a long time behind a flawless public presence, before it escalates abruptly.",
-        beleg: "Marilyn Monroe, whose fatal drug combination occurred despite the glamorous public image she maintained to the end; Dolly Parton, who rarely publicly addressed the endometriosis she has had since the early 1980s, while maintaining her radiant stage image."
+        beschreibung: "In several cases, a pattern emerges in which the actual health or psychological crisis stays hidden for a long time behind a flawless public presence, before it escalates abruptly.",
+        beleg: "Marilyn Monroe, whose fatal drug combination occurred despite the glamorous public image she maintained to the end; Dolly Parton, who rarely publicly addressed the endometriosis she has had since the early 1980s, while maintaining her radiant stage image; Brigitte Bardot, whose husband confirmed a cancer diagnosis after her death without ever publicly naming the exact condition – she personally denied circulating death rumors right up until the end."
       }
     ]
   },
@@ -59625,6 +59627,197 @@ function dollyPartonKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4) – life's work"},
         {route:"krankheitsportraets-marilyn-monroe", label:"Illness Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx3", label:"Subtype Profile SX3"},
+      ])}
+    </div>
+  `);
+}
+
+function brigitteBardotKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-brigitte-bardot-portrait.jpg" alt="Brigitte Bardot" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Bardot</p>
+        <p class="krim-portrait-typ">SX3w2 · Sexual Type 3 with Two-wing · 1934–2025</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Peacock</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Animal correspondence: Peacock" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Brigitte Bardot</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-brigitte-bardot">portrait under Famous Personalities</a>
+        in this Compass – that page covers her film career and her decades of work
+        as an animal-rights activist. This portrait is devoted to a chapter barely
+        touched on there: her final months, marked by a cancer diagnosis never
+        publicly named, two surgeries, and a self-assured way of handling rumors of
+        her own death right up until her actual passing on December 28, 2025.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bardot</strong> is classified as the <strong>Sexual Three with Two-wing</strong>.
+        The SX3 makes immediate, magnetic presence its life's task – for Bardot, this
+        showed throughout her life as a refusal to hide, even where vulnerability
+        became visible. The Two-wing adds a genuine caretaking energy that first
+        turned outward toward the animals she rescued, and in her final months turned
+        toward her own body – with the same uncompromising directness she had shown
+        in public her whole life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades of publicly known back problems:</strong>
+        Bardot had suffered from severe back pain for many years, a condition
+        repeatedly covered in the press, without her fundamentally scaling back her
+        animal-rights work or public appearances because of it.</p>
+        <p class="vb-intro"><strong>b) A first serious hospitalization in October 2025:</strong>
+        In October 2025, Bardot was hospitalized for what was described as a
+        "serious" illness alongside a minor procedure – an event that triggered the
+        first widespread public concern about her health.</p>
+        <p class="vb-intro"><strong>c) Personally denying circulating death rumors:</strong>
+        That same month, the then-91-year-old felt compelled to personally reject
+        false reports of her own death that had spread online – an appearance that
+        showed how determined she remained, even while seriously ill, to keep control
+        of her own public narrative.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A cancer diagnosis without a publicly named type:</strong>
+        Her husband Bernard d'Ormale confirmed after her death that Bardot had had
+        cancer, but never disclosed the exact diagnosis at any point – a deliberate
+        choice for privacy in the middle of a very public life.</p>
+        <p class="vb-intro"><strong>b) Two surgeries within a few months:</strong>
+        According to reports, Bardot underwent two surgeries related to her cancer,
+        while her chronic back pain continued alongside it and further weakened her
+        overall condition.</p>
+        <p class="vb-intro"><strong>c) Retreating to the familiar grounds of La Madrague:</strong>
+        In her final months, Bardot withdrew to her longtime estate La Madrague in
+        Saint-Tropez – the same place where she had cared for injured animals for
+        decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Death on December 28, 2025, in familiar surroundings:</strong>
+        Bardot died at age 91 in her home at La Madrague – not in a clinic, but at
+        the place that had been the center of her second, animal-rights-focused life
+        for decades.</p>
+        <p class="vb-intro"><strong>b) No staged narrative around her own dying:</strong>
+        Unlike some public figures, her death was not preceded by an announcement or
+        an accompanying campaign – after denying the death rumors in October, she
+        remained her usual, uncompromising public self right up until the actual news
+        broke in December.</p>
+        <p class="vb-intro"><strong>c) Worldwide tributes reaching well beyond film and animal-rights circles:</strong>
+        Obituaries honored both her film career of the 1950s and 60s and her decades
+        of work for animals – two chapters of her life that carried equal weight in
+        public memory.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A legacy that outlasts the person herself:</strong>
+        The Fondation Brigitte Bardot, which she founded in 1986, remains active
+        after her death and continues its campaigns against the fur trade, seal
+        hunting, and factory farming – work that outlives her.</p>
+        <p class="vb-intro"><strong>b) A conflicted public memory:</strong>
+        Obituaries repeatedly touched on the tension between her lifelong
+        animal-rights work and her statements on immigration and Islam in later
+        decades, several of which had led to court convictions – a legacy that
+        remained unresolved right to the end.</p>
+        <p class="vb-intro"><strong>c) One of the last great icons of classic European cinema:</strong>
+        Her death took from postwar European film heritage one of its most
+        defining, and at the same time most controversial, figures.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Directness even in the face of her own dying:</strong>
+        The Sexual Three's typical refusal to hide behind a facade showed in Bardot
+        right to the end: she did not silently accept circulating false reports of
+        her death, but publicly contradicted them herself.</p>
+        <p class="vb-intro"><strong>b) The Two-wing and the guarded privacy of the diagnosis:</strong>
+        That the exact type of cancer was never publicly named can also be read as
+        an expression of the Two-wing: throughout her life, caretaking was directed
+        outward, toward the animals she protected – her own vulnerability, by
+        contrast, remained a deliberately guarded, private space, unlike her public
+        image.</p>
+        <p class="vb-intro"><strong>c) A familiar place as the final retreat:</strong>
+        That Bardot died at La Madrague, the very place where she had given refuge
+        to animals for decades, reads as a consistent final gesture – the peacock
+        that no longer spreads its tail for an audience, but withdraws to where its
+        caretaking first began.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Through-Line</h3>
+        <p class="vb-intro"><strong>a) A woman who kept control of her own narrative throughout her life:</strong>
+        From her abrupt withdrawal from filmmaking in 1973 to her personal denial
+        of her own death rumors in October 2025, a pattern runs through Bardot's
+        life: she never fully handed the decisive turning points of her own story
+        over to others.</p>
+        <p class="vb-intro"><strong>b) Two chapters of caretaking, the same consistency:</strong>
+        Just as she once cared for injured and abandoned animals with her own hands,
+        never delegating that task, she seems to have handled her own illness the
+        same way: no public complaint, no delegation to a controlled PR narrative,
+        but a private, direct reckoning right to the end.</p>
+        <p class="vb-intro"><strong>c) A public figure who stayed private in the decisive moment:</strong>
+        That neither the exact type of cancer nor the precise course of her illness
+        was ever named publicly, despite Bardot being known her whole life for her
+        directness, reveals a deliberate boundary: her public caretaking and
+        presence belonged above all to the animals; her own vulnerability remained a
+        guarded, private space.</p>
+        <p class="vb-intro"><strong>d) Why the back, of all places?</strong>
+        For a Sexual Three with a Two-wing, whose entire life's work rested on
+        upright, immediate presence – in front of the camera first, later in front
+        of the public as an activist – one interpretation suggests itself:
+        precisely the body part that, figuratively, stands for posture and
+        backbone became, for Bardot, a site of chronic suffering across decades.
+        This reading is a plausible interpretation, not a documented medical causal
+        link, and will be explored further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>e) A framework without determinism:</strong>
+        This does not mean the Sexual Three with Two-wing pattern inevitably leads
+        to chronic back pain or cancer – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Bardot's case can show is a pattern in
+        how a progressing illness is handled that keeps recurring in a
+        pronounced Sexual Three with Two-wing – one of many possible readings, not a
+        verdict. The corresponding illness will gradually be developed further in
+        this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Bardot did not know her own Enneagram pattern – the Sexual Three with
+        Two-wing holds almost reflexively onto its own immediate presence rather
+        than admitting weakness or vulnerability in time, and she lived out exactly
+        this pattern unchanged right to the end: publicly direct and uncompromising,
+        privately alone with her illness. Anyone who does not recognize their own
+        tendency to never relinquish control of their own narrative as a pattern
+        risks that real care for themselves only finds room at the very end.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Sexual Three with Two-wing explains much about <strong>Brigitte
+        Bardot's</strong> final months: a woman whose entire life had been marked by
+        immediate, unfiltered presence kept control of her own story even in the
+        face of her own mortality – denying rumors herself, choosing her own place
+        of retreat, and letting the world know only as much as she herself chose to
+        reveal. The peacock that, one last time, did not spread its tail for an
+        audience, but folded it for itself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – life's work"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx3", label:"Subtype Profile SX3"},
       ])}
@@ -107185,6 +107378,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,
       "krankheitsportraets-dolly-parton": dollyPartonKrankheitsportraetPage,
+      "krankheitsportraets-brigitte-bardot": brigitteBardotKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
       "krankheitsportraets-sammy-davis-jr": sammyDavisJrKrankheitsportraetPage,

@@ -3489,3 +3489,195 @@ export function willyBrandtKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function brigitteBardotKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-brigitte-bardot-portrait.jpg" alt="Brigitte Bardot" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Bardot</p>
+        <p class="krim-portrait-typ">SX3w2 · Sexueller Typ 3 mit Zweierflügel · 1934–2025</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Pfau</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx3.jpg" alt="Tierentsprechung: Pfau" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX3")};left:${tierAvatarLeft("SX3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Brigitte Bardot</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-brigitte-bardot">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihre Filmkarriere und ihr
+        jahrzehntelanges Wirken als Tierschutzaktivistin. Dieses Porträt vertieft ein
+        Kapitel, das dort nur am Rande erwähnt wird: ihre letzten Lebensmonate, geprägt
+        von einer nie öffentlich benannten Krebserkrankung, zwei Operationen und einem
+        selbstbewussten Umgang mit den eigenen Todesgerüchten bis kurz vor ihrem
+        tatsächlichen Tod am 28. Dezember 2025.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bardot</strong> ist dem <strong>sexuellen Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Die SX3 macht unmittelbare, magnetische Präsenz zum Lebensthema –
+        bei Bardot äußerte sich das zeitlebens als Weigerung, sich zu verstecken, auch
+        dort nicht, wo Verletzlichkeit sichtbar wurde. Der Zweierflügel bringt eine echte
+        Fürsorgeenergie hinzu, die sich bei ihr zunächst den eigenen Tieren zuwandte und
+        sich in den letzten Lebensmonaten auf den eigenen Körper richtete – mit
+        derselben unnachgiebigen Direktheit, mit der sie ihr ganzes Leben lang öffentlich
+        aufgetreten war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehntelange, öffentlich bekannte Rückenprobleme:</strong>
+        Bardot litt bereits seit vielen Jahren an schweren Rückenschmerzen, die
+        wiederholt Thema von Presseberichten waren, ohne dass sie deswegen ihr Engagement
+        für den Tierschutz oder ihre öffentlichen Auftritte grundsätzlich einschränkte.</p>
+        <p class="vb-intro"><strong>b) Ein erster ernster Krankenhausaufenthalt im Oktober 2025:</strong>
+        Im Oktober 2025 wurde Bardot wegen einer als „ernst" beschriebenen Erkrankung und
+        eines kleineren Eingriffs ins Krankenhaus eingeliefert – ein Ereignis, das erste
+        öffentliche Sorge um ihren Gesundheitszustand auslöste.</p>
+        <p class="vb-intro"><strong>c) Eigenhändiges Dementi kursierender Todesgerüchte:</strong>
+        Noch im selben Monat sah sich die damals 91-Jährige gezwungen, online kursierende
+        falsche Berichte über ihren angeblichen Tod persönlich zurückzuweisen – ein
+        Auftritt, der zeigte, wie sehr sie auch schwer krank die Kontrolle über die
+        eigene öffentliche Erzählung behalten wollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine Krebsdiagnose ohne öffentlich benannten Typ:</strong>
+        Ihr Ehemann Bernard d'Ormale bestätigte nach ihrem Tod, dass Bardot an Krebs
+        erkrankt war, nannte aber zu keinem Zeitpunkt die genaue Diagnose – eine bewusste
+        Entscheidung für Privatsphäre inmitten eines öffentlichen Lebens.</p>
+        <p class="vb-intro"><strong>b) Zwei Operationen innerhalb weniger Monate:</strong>
+        Berichten zufolge unterzog sich Bardot zwei Operationen im Zusammenhang mit ihrer
+        Krebserkrankung, während gleichzeitig ihre chronischen Rückenschmerzen weiter
+        bestanden und ihren Gesamtzustand zusätzlich schwächten.</p>
+        <p class="vb-intro"><strong>c) Rückzug an den vertrauten Ort La Madrague:</strong>
+        In ihren letzten Lebensmonaten zog sich Bardot an ihr langjähriges Anwesen La
+        Madrague in Saint-Tropez zurück – denselben Ort, an dem sie über Jahrzehnte
+        hinweg verletzte Tiere gepflegt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 28. Dezember 2025 in vertrauter Umgebung:</strong>
+        Bardot starb im Alter von 91 Jahren in ihrem Haus in La Madrague – nicht in einer
+        Klinik, sondern an dem Ort, der über Jahrzehnte das Zentrum ihres zweiten,
+        tierschützerischen Lebens gewesen war.</p>
+        <p class="vb-intro"><strong>b) Keine Inszenierung des eigenen Sterbens:</strong>
+        Anders als bei mancher öffentlichen Figur wurde ihr Tod nicht vorab angekündigt
+        oder begleitet – nach dem Dementi der Todesgerüchte im Oktober blieb es bis zur
+        tatsächlichen Nachricht im Dezember bei ihrer gewohnten, unnachgiebigen Präsenz
+        in der Öffentlichkeit.</p>
+        <p class="vb-intro"><strong>c) Weltweite Anteilnahme über Film- und Tierschutzkreise hinaus:</strong>
+        Nachrufe würdigten sowohl ihre Filmkarriere der 1950er- und 60er-Jahre als auch
+        ihr jahrzehntelanges Engagement für Tiere – zwei Lebensphasen, die in der
+        öffentlichen Erinnerung gleichermaßen Gewicht erhielten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Vermächtnis, das über die eigene Person hinausreicht:</strong>
+        Die von ihr 1986 gegründete Fondation Brigitte Bardot bleibt nach ihrem Tod
+        aktiv und setzt ihre Kampagnen gegen Pelzhandel, Robbenjagd und Massentierhaltung
+        fort – ein Wirken, das ihren eigenen Tod überdauert.</p>
+        <p class="vb-intro"><strong>b) Zwiespältige öffentliche Erinnerung:</strong>
+        Nachrufe griffen wiederholt die Spannung zwischen ihrem Lebenswerk im Tierschutz
+        und ihren in späteren Jahrzehnten mehrfach gerichtlich verurteilten Äußerungen
+        zu Einwanderung und Islam auf – ein Erbe, das bis zuletzt nicht widerspruchsfrei war.</p>
+        <p class="vb-intro"><strong>c) Eine der letzten großen Ikonen des klassischen europäischen Kinos:</strong>
+        Mit ihrem Tod verlor das europäische Filmerbe der Nachkriegszeit eine seiner
+        prägendsten und zugleich umstrittensten Figuren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Direktheit auch im eigenen Sterben:</strong>
+        Die für die sexuelle Drei typische Weigerung, sich hinter einer Fassade zu
+        verstecken, zeigte sich bei Bardot bis zuletzt darin, dass sie kursierende
+        Falschmeldungen über ihren Tod nicht stillschweigend hinnahm, sondern selbst
+        öffentlich widersprach.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und die gewahrte Privatsphäre der Diagnose:</strong>
+        Dass die genaue Krebsart nie öffentlich benannt wurde, lässt sich auch als
+        Ausdruck des Zweierflügels lesen: Fürsorge richtete sich zeitlebens nach außen,
+        auf die Tiere, die sie schützte – die eigene Verletzlichkeit dagegen blieb, anders
+        als ihr öffentliches Bild, bewusst geschützter, privater Raum.</p>
+        <p class="vb-intro"><strong>c) Der vertraute Ort als letzter Rückzugsraum:</strong>
+        Dass Bardot in La Madrague starb, an demselben Ort, an dem sie über Jahrzehnte
+        Tieren Zuflucht gegeben hatte, lässt sich als konsequente letzte Geste lesen –
+        der Pfau, der sein Rad nicht mehr für ein Publikum entfaltet, sondern sich dorthin
+        zurückzieht, wo seine Fürsorge zuerst begann.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Frau, die zeitlebens die Kontrolle über die eigene Erzählung behielt:</strong>
+        Von ihrem abrupten Rückzug aus dem Filmgeschäft 1973 bis zu ihrem persönlichen
+        Dementi der eigenen Todesgerüchte im Oktober 2025 zieht sich ein Muster durch
+        Bardots Leben: Sie überließ entscheidende Wendepunkte ihrer eigenen Geschichte
+        nie vollständig anderen.</p>
+        <p class="vb-intro"><strong>b) Zwei Fürsorgephasen, dieselbe Konsequenz:</strong>
+        Wie sie sich einst mit den eigenen Händen um verletzte und ausgesetzte Tiere
+        kümmerte, ohne diese Aufgabe zu delegieren, ging sie offenbar auch mit der
+        eigenen Krankheit um: kein öffentliches Klagen, keine Delegation an eine
+        kontrollierte PR-Erzählung, sondern eine private, direkte Auseinandersetzung bis
+        zuletzt.</p>
+        <p class="vb-intro"><strong>c) Eine öffentliche Person, die im entscheidenden Moment privat blieb:</strong>
+        Dass weder die genaue Krebsart noch der exakte Krankheitsverlauf öffentlich
+        benannt wurden, obwohl Bardot zeitlebens für ihre Direktheit bekannt war, zeigt
+        eine bewusste Grenze: Fürsorge und Präsenz galten öffentlich vor allem den
+        Tieren, die eigene Verletzlichkeit blieb geschützter, privater Raum.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Rücken zuerst?</strong>
+        Für eine sexuelle Drei mit Zweierflügel, deren gesamtes Lebenswerk auf
+        aufrechter, unmittelbarer Präsenz beruhte – vor der Kamera wie später vor der
+        Öffentlichkeit als Aktivistin –, liegt eine Deutung nahe: Ausgerechnet jenes
+        Körperteil, das im übertragenen Sinn für Haltung und Rückgrat steht, wurde bei
+        Bardot über Jahrzehnte zum Ort chronischen Leidens. Diese Deutung ist eine
+        plausible Interpretation, kein belegter medizinischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Drei mit Zweierflügel
+        zwangsläufig zu chronischen Rückenleiden oder Krebserkrankungen führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Bardots Fall zeigen lässt, ist ein Muster im Umgang mit einer
+        fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen Drei mit
+        Zweierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bardot kannte ihr eigenes Enneagramm-Muster nicht – die sexuelle Drei mit
+        Zweierflügel hält reflexhaft an der eigenen, unmittelbaren Präsenz fest, statt
+        Schwäche oder Verletzlichkeit rechtzeitig einzugestehen, und lebte genau dieses
+        Muster bis zuletzt unverändert aus: öffentlich direkt und unnachgiebig, privat
+        mit der eigenen Krankheit allein. Wer die eigene Neigung, niemals Kontrolle über
+        die eigene Erzählung abzugeben, nicht als Muster erkennt, riskiert, dass echte
+        Fürsorge für sich selbst erst ganz am Ende überhaupt Raum bekommt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Drei mit Zweierflügel erklärt bei <strong>Brigitte Bardot</strong>
+        vieles am Verlauf ihrer letzten Lebensmonate: eine Frau, deren gesamtes Leben
+        von unmittelbarer, unverstellter Präsenz geprägt war, behielt auch im
+        Angesicht der eigenen Sterblichkeit die Kontrolle über die eigene Geschichte –
+        dementierte Gerüchte selbst, wählte den eigenen Rückzugsort, und ließ die Welt
+        nur so viel wissen, wie sie selbst preisgeben wollte. Der Pfau, der sein Rad ein
+        letztes Mal nicht für ein Publikum entfaltete, sondern für sich selbst schloss.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx3", label:"Subtyp-Profil SX3"},
+      ])}
+    </div>
+  `);
+}
