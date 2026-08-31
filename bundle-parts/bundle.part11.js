@@ -1,3 +1,163 @@
+function ludwigWittgensteinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1889–1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig Wittgenstein</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-wittgenstein">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Adler als Tiermotiv und
+        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
+        gestreift wird: der Prostatakrebs-Diagnose vom Dezember 1949, den Monaten unklarer
+        Erschöpfung davor, und den letzten anderthalb Jahren bis zu seinem Tod 1951.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wittgenstein</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
+        zugeordnet. Die SE1 misst sich unablässig an einem inneren Maßstab von Integrität und
+        Vollständigkeit – Krankheit ist für diesen Subtyp nicht einfach ein körperliches Ereignis,
+        sondern eine Art Beweis der eigenen Unvollkommenheit, dem mit Disziplin und möglichst
+        wenig öffentlicher Klage begegnet wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Monatelange, unklare Erschöpfung:</strong>
+        Bereits Monate vor der eigentlichen Diagnose litt Wittgenstein an einer Erschöpfung, die
+        zunächst nicht eindeutig zugeordnet werden konnte – ein Zustand, den er, seinem Muster
+        entsprechend, lange herunterspielte, statt ihn zum zentralen Thema zu machen.</p>
+        <p class="vb-intro"><strong>b) Eine erste, falsche Fährte:</strong>
+        Ein Arzt in Dublin diagnostizierte zunächst eine Blutarmut und verschrieb Eisen- und
+        Leberpräparate – eine Behandlung, die das eigentliche Problem nicht traf und die Klärung
+        zusätzlich verzögerte.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten trotz spürbarer Schwäche:</strong>
+        Auch in dieser Phase unklarer gesundheitlicher Beschwerden setzte Wittgenstein seine
+        philosophische Arbeit fort – ein Innehalten allein wegen unspezifischer Erschöpfung kam für
+        ihn nicht infrage, solange keine eindeutige Diagnose vorlag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose im Dezember 1949:</strong>
+        Erst im Dezember 1949 wurde die tatsächliche Ursache gefunden: Prostatakrebs, zu diesem
+        Zeitpunkt bereits mit Metastasen in der Wirbelsäule – eine Diagnose, die von vornherein
+        keine Aussicht auf Heilung mehr bot.</p>
+        <p class="vb-intro"><strong>b) Eine Hormonbehandlung mit hohem Preis:</strong>
+        Die eingeleitete Hormontherapie (Stilböstrol) sollte das Fortschreiten verlangsamen –
+        brachte aber über dreizehn, vierzehn Monate hinweg einen Zustand mit sich, in dem
+        Wittgenstein sich selbst als nahezu unfähig zu denken beschrieb.</p>
+        <p class="vb-intro"><strong>c) Der Verlust des eigenen Werkzeugs:</strong>
+        Für einen Mann, dessen gesamte Identität auf der Schärfe des eigenen Denkens beruhte, war
+        dieser vorübergehende Verlust der Denkfähigkeit vermutlich schwerer zu ertragen als die
+        Diagnose selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Keine öffentliche Klage:</strong>
+        Wittgenstein sprach auch im Angesicht der unheilbaren Diagnose kaum öffentlich über sein
+        Leiden – ganz im Einklang mit dem SE1w9-Muster, Schwäche nicht zur Schau zu stellen,
+        sondern in Zurückgezogenheit zu verarbeiten.</p>
+        <p class="vb-intro"><strong>b) Reisen zwischen Wien, Oxford und Cambridge:</strong>
+        Die letzten beiden Lebensjahre verbrachte er wechselnd zwischen Wien, Oxford und Cambridge
+        – kein Rückzug ins Krankenbett, sondern ein Leben, das trotz der Diagnose in Bewegung
+        blieb.</p>
+        <p class="vb-intro"><strong>c) Arbeit bis fast zuletzt:</strong>
+        Selbst in dieser Phase setzte Wittgenstein seine philosophische Arbeit fort, so gut es die
+        Kräfte zuließen – das Manuskript, das später als <em>Über Gewissheit</em> veröffentlicht
+        wurde, entstand in genau diesen letzten Monaten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug zu seinem Arzt:</strong>
+        In seinen letzten Wochen zog Wittgenstein, der zuvor jahrzehntelang selbst kaum ein
+        eigenes Zuhause im herkömmlichen Sinn unterhielt, in das Haus seines Arztes Dr. Edward
+        Bevan in Cambridge – eine seltene Geste des Sich-Anvertrauens für einen Mann, der Nähe
+        selten zuließ.</p>
+        <p class="vb-intro"><strong>b) Ein bewusstes letztes Fest:</strong>
+        Kurz vor seinem Tod bat er Mrs. Bevan, sein bevorstehendes Ende noch nicht mit ihm zu
+        besprechen, und feierte, soweit möglich, seinen zweiundsechzigsten Geburtstag im April
+        1951 – Normalität als letzter Akt der Selbstkontrolle.</p>
+        <p class="vb-intro"><strong>c) Tod am 29. April 1951:</strong>
+        Ludwig Wittgenstein starb zwei Tage nach seinem Geburtstag im Haus seines Arztes in
+        Cambridge. Seine letzten überlieferten Worte: »Sagt ihnen, ich hatte ein wunderbares
+        Leben.«</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Robert De Niro (SE1w9):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-robert-de-niro">Robert
+        De Niro</a>, ebenfalls SE1w9, war es dieselbe Krankheit – Prostatakrebs –, die hier auf
+        zwei gegensätzliche Weisen verarbeitet wurde. De Niro ließ seine 2003 diagnostizierte
+        Erkrankung zügig und diskret behandeln und überlebte; bei Wittgenstein wurde die Diagnose
+        deutlich später gestellt, zu einem Zeitpunkt, an dem Heilung nicht mehr möglich war – zwei
+        Varianten derselben SE1-Grundhaltung, körperliche Warnsignale möglichst lange nicht zum
+        zentralen Thema zu machen, nur mit unterschiedlichem Ausgang.</p>
+        <p class="vb-intro"><strong>b) Gesundheit als weiteres Feld des eigenen Anspruchs:</strong>
+        Für eine SE1 ist der eigene Körper kein neutraler Schauplatz, sondern ein weiteres Feld, auf
+        dem sich der innere Anspruch an Integrität und Vollständigkeit misst. Eine Krankheit, die
+        sich nicht kontrollieren oder durch Disziplin abwenden lässt, stellt diesen Anspruch auf
+        eine Weise infrage, die für die SE1 kaum erträglich ist – und genau deshalb oft lange
+        verdrängt oder heruntergespielt wird, bis eine eindeutige Diagnose keine Ausflucht mehr
+        zulässt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Verlust der Denkfähigkeit?</strong>
+        Für einen Mann, dessen gesamtes Selbstverständnis auf der Schärfe des eigenen Denkens
+        beruhte, liegt eine Deutung nahe: Die Hormonbehandlung traf ausgerechnet das Werkzeug, mit
+        dem Wittgenstein zeitlebens seinen eigenen, unerbittlichen Anspruch an Klarheit
+        verwirklicht hatte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Wittgensteins Fall zeigen lässt, ist ein Muster im Umgang mit unklaren
+        körperlichen Warnsignalen, das bei einer ausgeprägten selbsterhaltenden Eins immer wieder
+        auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Wittgenstein kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten noch nicht. Die SE1-Neigung, Schwäche nicht zum zentralen Thema zu machen, kannte
+        für ihn keinen eingebauten Warnmechanismus, der ihn zu einer früheren, gründlicheren
+        Abklärung der monatelangen Erschöpfung hätte bewegen können. Wer das eigene Muster, Klagen
+        möglichst zu vermeiden, nicht kennt, kann es auch nicht rechtzeitig durchbrechen – bei
+        Wittgenstein blieb bis zuletzt offen, ob eine frühere Diagnose etwas am Verlauf geändert
+        hätte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Wittgensteins</strong> selbsterhaltende Eins
+        mit Neunerflügel noch einmal ablesen: monatelang heruntergespielte Erschöpfung, eine späte,
+        unheilbare Diagnose, und eine letzte Lebensphase, die trotz allem von Arbeit, Bewegung und
+        einem bewusst gewählten, würdevollen Abschied geprägt war – bis hin zu den eigenen, sorgsam
+        gewählten letzten Worten. Der Adler, der bis zuletzt allein seine Kreise zog, selbst als der
+        eigene Körper längst nicht mehr mithalten konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigVanBeethovenKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12929,187 +13089,6 @@ function angelinaJolieKrankheitsportraetPage() {
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
-      ])}
-    </div>
-  `);
-}
-
-function adeleKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-adele-portrait.jpg" alt="Adele" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Adele</p>
-        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · geb. 1988</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Taube</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Adele</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-adele">Porträt berühmter
-        Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein Kapitel,
-        das dort nur beiläufig erwähnt wird: eine schwere postnatale Depression nach der
-        Geburt ihres Sohnes 2012, begleitet von Panikattacken, die sie über Jahre nur
-        gegenüber engsten Vertrauten offenlegte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Adele</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
-        zugeordnet. Die SE4 trägt ihren Schmerz still, kämpft ihn allein aus, bevor sie ihn
-        zeigt; der Dreierflügel bringt die Disziplin, nach außen dennoch makellos zu
-        funktionieren. Genau diese Kombination – innerer Zusammenbruch bei gleichzeitig
-        makellos funktionierender öffentlicher Fassade – bestimmte den jahrelang verborgenen
-        Verlauf ihrer postnatalen Depression.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Beginn nach der Geburt ihres Sohnes 2012:</strong>
-        Nach eigener Aussage begannen die Symptome kurz nach der Geburt ihres Sohnes Angelo
-        im Oktober 2012 – ein Zeitpunkt, der öffentlich als Höhepunkt privaten Glücks
-        wahrgenommen wurde.</p>
-        <p class="vb-intro"><strong>b) Gefühl völliger Überforderung:</strong>
-        Adele beschrieb später in Interviews, sich in den ersten Monaten der Mutterschaft
-        als völlig überfordert und von Schuldgefühlen überwältigt erlebt zu haben, weil sie
-        die erwartete sofortige mütterliche Verbundenheit nicht spürte.</p>
-        <p class="vb-intro"><strong>c) Vollständige Geheimhaltung nach außen:</strong>
-        Über Jahre sprach sie öffentlich nicht über diese Zeit – die Diagnose einer
-        postnatalen Depression wurde erst 2021, fast ein Jahrzehnt später, in einem
-        Vogue-Interview bekannt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Begleitende Panikattacken vor Auftritten:</strong>
-        Adele sprach wiederholt über schwere Panikattacken vor Live-Auftritten, die sie
-        zeitweise dazu brachten, Konzerte kurz vor Beginn fast abzusagen.</p>
-        <p class="vb-intro"><strong>b) Kurzfristige Absage der Las-Vegas-Residency 2022:</strong>
-        Einen Tag vor der geplanten Eröffnung ihrer Las-Vegas-Show sagte Adele unter Tränen
-        ab, weil das Ergebnis – nach eigener Aussage wegen Lieferproblemen der
-        Bühnentechnik – ihrem eigenen Anspruch nicht genügte.</p>
-        <p class="vb-intro"><strong>c) Therapiebeginn als Wendepunkt:</strong>
-        Nach eigener Schilderung begann sie erst durch eine Psychotherapie, die
-        postnatale Depression rückblickend als eigenständige Erkrankung zu erkennen und zu
-        benennen, statt sie als persönliches Versagen zu deuten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Verarbeitung durch das Album „30":</strong>
-        Ihr 2021 erschienenes Album „30" verarbeitet nach eigener Aussage explizit diese
-        Zeit – Scheidung, Mutterschaft, Selbstfindung – und markiert den Punkt, an dem sie
-        erstmals öffentlich über die Krise sprach.</p>
-        <p class="vb-intro"><strong>b) Offenheit ohne Dramatisierung:</strong>
-        Anders als eine öffentlich inszenierte Krankheitsgeschichte blieb Adeles Offenlegung
-        sachlich und zurückhaltend – im Vogue-Interview beschrieb sie die Erfahrung präzise,
-        ohne sie zum zentralen Vermarktungsthema des Albums zu machen.</p>
-        <p class="vb-intro"><strong>c) Positive Rückmeldung von Betroffenen:</strong>
-        Nach der Veröffentlichung erhielt Adele zahlreiche Rückmeldungen von Müttern, die
-        sich durch ihre Offenheit erstmals ermutigt fühlten, über eigene postnatale
-        Depressionen zu sprechen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit für ein Tabuthema:</strong>
-        Adeles Offenheit trug international zur Enttabuisierung postnataler Depression bei –
-        ein Thema, das gerade bei öffentlich wahrgenommenen „perfekten" Müttern selten offen
-        verhandelt wird.</p>
-        <p class="vb-intro"><strong>b) Verzögerte statt sofortige Offenlegung:</strong>
-        Der fast zehnjährige Abstand zwischen Erkrankung und öffentlicher Offenlegung
-        illustriert, wie lange die Krise ausschließlich privat verarbeitet wurde, bevor sie
-        überhaupt zur öffentlichen Sprache kam.</p>
-        <p class="vb-intro"><strong>c) Fortgesetzte künstlerische Produktivität:</strong>
-        Trotz der Krise blieb Adele künstlerisch aktiv und produktiv – die Krise wurde nicht
-        zum Karriereeinschnitt, sondern letztlich zum Stoff eines ihrer erfolgreichsten
-        Alben.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Stiller Kampf statt öffentlicher Klage:</strong>
-        Die SE4-typische Zähigkeit zeigte sich exemplarisch: Adele kämpfte die postnatale
-        Depression über Jahre allein aus, statt sie öffentlich zu machen – die SE4-Logik,
-        nicht zu klagen, sondern erst dann zu sprechen, wenn der Schmerz verarbeitet und in
-        eine Form gebracht ist.</p>
-        <p class="vb-intro"><strong>b) Der Dreierflügel und die makellose Fassade:</strong>
-        Dieselbe Disziplin, die ihre Konzerte und Alben zu kommerziellen Welterfolgen macht,
-        sorgte dafür, dass die Krise nach außen über Jahre unsichtbar blieb – erst als das
-        Album „30" fertig war, wurde aus dem privaten Kampf eine öffentliche Botschaft.</p>
-        <p class="vb-intro"><strong>c) Verarbeitung durch Form, nicht durch Bekenntnis:</strong>
-        Adeles Weg aus der Krise führte nicht über ein spontanes öffentliches Geständnis,
-        sondern über die Verwandlung des Erlebten in ein fertiges künstlerisches Werk – die
-        typische SE4w3-Bewegung vom stillen Innenleben zur wirkungsvollen äußeren Form.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Stimme des Herzschmerzes, die den eigenen Herzschmerz am längsten verschwieg:</strong>
-        Adeles gesamtes Werk beruht auf der Fähigkeit, privaten Schmerz in universelle Songs
-        zu verwandeln – ausgerechnet die eigene postnatale Depression blieb fast ein
-        Jahrzehnt lang von diesem Prinzip ausgenommen, bis sie reif genug war, in Form
-        gebracht zu werden.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana
-        (SE4w3)</a>: Auch Diana verbarg ihre Erkrankung – bei ihr eine Bulimie – jahrelang
-        hinter einer makellos funktionierenden öffentlichen Fassade, bevor sie sich Jahre
-        später selbst dazu äußerte. Bei beiden SE4w3ern zeigt sich dasselbe Muster: der innere
-        Kampf bleibt so lange verborgen, bis er in eine kontrollierte, selbstgewählte Form
-        gebracht werden kann.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet nach der Geburt, dem Moment größter erwarteter Nähe?</strong>
-        Für eine selbsterhaltende Vier mit Dreierflügel, deren gesamtes Werk um echte,
-        unverstellte Gefühlstiefe kreist, liegt eine Deutung nahe: Ausgerechnet der Moment,
-        in dem gesellschaftlich die spontanste, unmittelbarste Verbundenheit erwartet wird,
-        wurde zum Ort, an dem sich diese Verbundenheit nicht einstellte – eine besonders
-        schmerzhafte Konfrontation mit dem eigenen Schicksalsmuster der Vier. Diese Deutung
-        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu
-        postnataler Depression führt – <strong>jeder Mensch kann jede Erkrankung
-        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Adeles Fall zeigen lässt,
-        ist ein Muster im Umgang mit einer psychischen Krise, das bei einer ausgeprägten
-        selbsterhaltenden Vier mit Dreierflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Adele kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
-        Vier mit Dreierflügel hält reflexhaft daran fest, den eigenen Schmerz erst dann zu
-        zeigen, wenn er in eine makellose Form gebracht ist, statt sich frühzeitig Hilfe zu
-        holen, und lebt genau dieses Muster bis heute weitgehend unverändert aus. Wer die
-        eigene Neigung, seelische Krisen erst nach Jahren stiller Verarbeitung überhaupt zu
-        benennen, nicht als Muster erkennt, riskiert, dass Hilfe erst kommt, wenn die Krise
-        bereits sehr weit fortgeschritten ist.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 4 mit Dreierflügel erklärt bei <strong>Adele</strong> vieles
-        am Verlauf ihrer postnatalen Depression: eine Frau, deren gesamtes Werk private
-        Wunden in universelle Songs verwandelt, brauchte fast zehn Jahre, um dieselbe
-        Verwandlung auch auf die eigene tiefste Krise anzuwenden – die Taube, die ihre
-        Botschaft erst dann nach außen trug, als sie bereit war, sie auch für sich selbst
-        anzunehmen.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
-        {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);

@@ -1008,6 +1008,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andre Agassi – Self-Preservation Type 3",
     teaser:"SE3w2 · b. 1970. American tennis player, 8-time Grand Slam champion. Drilled into tennis by his father, he became the rebel face of the \"Image is Everything\" campaign, which he later exposed as a lie in his autobiography \"Open.\" After a slump outside the top 100 and a concealed crystal meth episode, he fought his way back to No. 1. Founder of the Andre Agassi Foundation for Education. Married to Steffi Graf (SO9w1) since 2001. Animal correspondence: Raccoon.",
     land:"USA", tags:["Sport"], gender:"m"},
+{ route:"beruehmte-klara-von-assisi", name:"Clare of Assisi", added:"2026-08-31", subtyp:"SE3w2",
+    heading:"Clare of Assisi – Self-Preservation Type 3",
+    teaser:"SE3w2 · c. 1194–1253. Founder of the Order of Poor Clares, companion of Francis of Assisi, forty years' unyielding defender of radical poverty against several popes. The raccoon who ran a convent through sheer discipline that outlasted its own founding rule. Animal correspondence: Raccoon.",
+    land:"Italy", tags:["History","Religion"] , gender:"f"},
 { route:"beruehmte-tim-maelzer", name:"Tim Mälzer", added:"2026-08-31", subtyp:"SE3w2",
     heading:"Tim Mälzer – Self-Preservation Type 3",
     teaser:"SE3w2 · b. 1972. German chef, entrepreneur, and TV host (\"Kitchen Impossible,\" \"Schmeckt nicht, gibt's nicht\"). Classically trained chef, has run the Hamburg restaurant Bullerei since 2009, teaches families to cook on \"Zurück zum Herd.\" Animal correspondence: Raccoon.",
@@ -45425,6 +45429,72 @@ function andreAgassiPortraitPage() {
   `);
 }
 
+function klaraVonAssisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Clare of Assisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clare of Assisi</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">c. 1194&ndash;1253 &ndash; Founder of the Order of Poor Clares &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Behind the Convent Wall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; not the dazzling performance on the grand stage, but the quiet, tireless competence within one's own, manageable territory. It washes, sorts, organizes, secures its ground with calm persistence &ndash; unglamorous, but highly effective. Clare, born around 1194 into a wealthy noble family in Assisi, secretly left her parents' home one night at eighteen to follow the example of Francis of Assisi (SO7w6) &ndash; a break with everything that would have meant safety and social standing.</p>
+          <p class="vb-intro">Yet contrary to what one might expect, this radical step did not lead her into a restless, wandering life. Clare founded her own, fixed convent at San Damiano &ndash; and stayed there for over forty years, until her death, almost never leaving. The raccoon does not give up its territory; it simply chooses a radically different one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Competence as Spiritual Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks its worth not in public admiration but in demonstrable, reliable competence within its own manageable domain. Naranjo called this subtype <em>security</em> &ndash; a quietly working drive for achievement that would rather convince through results than through performance. Clare ran San Damiano for over four decades with remarkable organizational discipline: a regulated daily routine, carefully assigned tasks, a convent that, despite radical poverty, functioned and grew.</p>
+          <p class="vb-intro">Her competence showed most clearly in 1240, when mercenary troops of Emperor Frederick II are said to have threatened Assisi and marched toward San Damiano. Tradition holds that the gravely ill Clare had herself carried to the window with the monstrance &ndash; and the attackers withdrew. Miracle or not, it is the gesture of a woman who remained capable of action even in her own dying, rather than surrendering to fate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care Within the Walls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a warm, caring note directed not outward but inward &ndash; toward its own small pack. Contemporary accounts describe Clare as an abbess who personally washed the feet of sick sisters, rose at night to tend to them, and, even on her deathbed, was more concerned with her community's well-being than with herself.</p>
+          <p class="vb-intro">Yet this care remained disciplined, never sentimental. Clare combined maternal devotion with unwavering leadership &ndash; she was at once the woman who nursed tenderly and the abbess who enforced one of the strictest rules in medieval church history. The Two-wing warms the Three's competence without ever letting it turn soft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Privilege of Poverty: Forty Years Against Several Popes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">No thread in Clare's life shows the self-preservation Three's persistence more clearly than her decades-long fight for the "Privilege of Poverty" &ndash; the right for her convent to own no land or secured income whatsoever, and to live exclusively on alms. Several popes, including Gregory IX, urged her to accept the kind of landholdings customary for other women's convents, purely to secure the sisters economically. Clare resisted unyieldingly &ndash; not out of defiance, but from the deep conviction that this radical freedom from need was precisely the core of her calling.</p>
+          <p class="vb-intro">Only two days before her death in 1253 did she receive papal confirmation of her own, self-written Rule &ndash; the first rule ever written by a woman to receive ecclesiastical approval. Forty years of endurance for a single principle: that is not stubbornness, but the most extreme form of what the SE3 understands as security &ndash; a foundation that no external pressure can shift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 is a competence that never serves itself, only the cause. Clare built no personal power base &ndash; she built a community that outlasted centuries and still exists worldwide today. Her effectiveness was measured not by visibility, but by whether San Damiano functioned, whether the sisters were provided for, whether the principle held.</p>
+          <p class="vb-intro">The Three's fateful pattern is <strong>self-deceit</strong> &ndash; the unconscious merging of one's own identity with the task performed, until no difference remains perceptible between "I am worthy" and "I function." In Clare this showed up as an asceticism so severe that even her fellow sisters and Francis of Assisi himself tried to moderate it &ndash; fasting so strict that it permanently weakened her health. The SE3w2 can become so absorbed in its own discipline that it no longer recognizes the line between devotion and self-neglect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Foundation That Holds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Clare of Assisi left behind cannot be reduced to a single miracle or a single rule. The Order of Poor Clares still exists worldwide today, her own Rule remained a model for women's convents for centuries, and in 1958 &ndash; because of a recorded vision in which she "saw and heard" a Mass held elsewhere from her sickbed &ndash; she was declared the patron saint of television, a curious but fitting twist for a woman whose greatest strength was quiet, tireless presence.</p>
+          <p class="vb-intro">That is the gift of the SE3w2 in its purest form: a competence that needs no stage to have effect, and a foundation that holds precisely because it never depended on outside recognition. The raccoon that never left its territory &ndash; and became immortal exactly because of that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
+        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6) – companion"},
+      ])}
+    </div>
+  `);
+}
+
 function timMaelzerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45485,6 +45555,7 @@ function timMaelzerPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -45947,6 +46018,7 @@ function michaelDellPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -50061,6 +50133,7 @@ function franzVonAssisiPortraitPage() {
         {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – companion"},
       ])}
     </div>
   `);
@@ -104341,6 +104414,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
+      "beruehmte-klara-von-assisi": klaraVonAssisiPortraitPage,
       "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

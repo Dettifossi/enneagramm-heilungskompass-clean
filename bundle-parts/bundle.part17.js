@@ -4939,6 +4939,7 @@ function render() {
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
+      "beruehmte-klara-von-assisi": klaraVonAssisiPortraitPage,
       "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

@@ -32993,6 +32993,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andre Agassi – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1970. US-amerikanischer Tennisspieler, 8-facher Grand-Slam-Sieger. Vom Vater zum Tennisprofi gedrillt, wurde er mit der ›Image is Everything‹-Kampagne zum Rebellen-Image, das er später in seiner Autobiografie ›Open‹ als Lüge entlarvte. Nach einem Absturz außerhalb der Top 100 und einer verheimlichten Crystal-Meth-Episode kämpfte er sich zurück zur Nummer 1. Gründer der Andre Agassi Foundation for Education. Seit 2001 mit Steffi Graf (SO9w1) verheiratet. Tierentsprechung: Waschbär.",
     land:"USA", tags:["Sport"], gender:"m"},
+  { route:"beruehmte-klara-von-assisi", name:"Klara von Assisi", added:"2026-08-31", subtyp:"SE3w2",
+    heading:"Klara von Assisi – Selbsterhaltende Typ 3",
+    teaser:"SE3w2 · ca. 1194–1253. Gründerin des Klarissenordens, Weggefährtin des Franz von Assisi, vierzig Jahre unnachgiebige Verteidigerin radikaler Armut gegen mehrere Päpste. Der Waschbär, der aus reiner Disziplin ein Kloster führte, das seine eigene Ordensregel überlebte. Tierentsprechung: Waschbär.",
+    land:"Italien", tags:["Geschichte","Religion"] , gender:"w"},
   { route:"beruehmte-tim-maelzer", name:"Tim Mälzer", added:"2026-08-31", subtyp:"SE3w2",
     heading:"Tim Mälzer – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1972. Deutscher Koch, Unternehmer und TV-Moderator (›Kitchen Impossible‹, ›Schmeckt nicht, gibt's nicht‹). Klassisch ausgebildeter Koch, betreibt seit 2009 das Hamburger Restaurant Bullerei, bringt Familien im Format ›Zurück zum Herd‹ das Kochen bei. Tierentsprechung: Waschbär.",
@@ -74294,6 +74298,72 @@ function andreAgassiPortraitPage() {
   `);
 }
 
+function klaraVonAssisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Klara von Assisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klara von Assisi</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltende Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">ca. 1194&ndash;1253 &ndash; Gründerin des Klarissenordens &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär hinter der Klostermauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; nicht der glänzende Auftritt auf der großen Bühne, sondern die stille, unermüdliche Tüchtigkeit im eigenen, überschaubaren Revier. Er wäscht, sortiert, organisiert, sichert sein Territorium mit ruhiger Beharrlichkeit &ndash; unauffällig, aber äußerst wirksam. Klara, um 1194 als Tochter einer wohlhabenden Adelsfamilie in Assisi geboren, verließ mit achtzehn Jahren heimlich in einer Nacht das Elternhaus, um dem Beispiel des Franz von Assisi (SO7w6) zu folgen &ndash; ein Bruch mit allem, was Sicherheit und gesellschaftliche Stellung bedeutet hätte.</p>
+          <p class="vb-intro">Doch anders, als man erwarten könnte, führte dieser radikale Schritt sie nicht in ein unstetes Wanderleben. Klara gründete mit San Damiano ein eigenes, festes Kloster &ndash; und blieb dort über vierzig Jahre, bis zu ihrem Tod, fast ohne es zu verlassen. Der Waschbär verzichtet nicht auf sein Revier, er wählt nur ein radikal anderes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Tüchtigkeit als geistliche Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht ihren Wert nicht in öffentlicher Bewunderung, sondern in nachweisbarer, verlässlicher Tüchtigkeit im eigenen überschaubaren Bereich. Naranjo nannte diesen Subtyp <em>Sicherheit</em> &ndash; ein still arbeitendes Leistungsstreben, das lieber durch Ergebnisse als durch Auftritt überzeugt. Klara führte San Damiano über vier Jahrzehnte mit bemerkenswerter organisatorischer Disziplin: geregelter Tagesablauf, sorgfältig verteilte Aufgaben, ein Kloster, das trotz radikaler Armut funktionierte und wuchs.</p>
+          <p class="vb-intro">Ihre Tüchtigkeit zeigte sich am deutlichsten 1240, als angeblich Söldnertruppen Kaiser Friedrichs II. Assisi bedrohten und Richtung San Damiano zogen. Die Überlieferung berichtet, die schwer kranke Klara habe sich mit der Monstranz ans Fenster tragen lassen &ndash; und die Angreifer seien daraufhin abgezogen. Ob Wunder oder nicht: Es ist die Geste einer Frau, die auch im eigenen Sterben noch handlungsfähig blieb, statt sich dem Schicksal zu überlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge innerhalb der Mauern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine warme, fürsorgliche Note, die sich nicht nach außen, sondern nach innen richtet &ndash; auf das eigene, kleine Rudel. Zeitgenössische Berichte schildern Klara als Äbtissin, die selbst die Füße kranker Mitschwestern wusch, nachts aufstand, um für sie zu sorgen, und noch auf dem Sterbebett mehr um das Wohlergehen ihrer Gemeinschaft besorgt war als um sich selbst.</p>
+          <p class="vb-intro">Diese Fürsorge blieb dabei stets diszipliniert, nie sentimental. Klara verband mütterliche Zuwendung mit unbeirrbarer Führungsstärke &ndash; sie war zugleich die Frau, die zärtlich pflegte, und die Äbtissin, die eine der strengsten Ordensregeln der mittelalterlichen Kirchengeschichte durchsetzte. Der Zweierflügel wärmt die Dreier-Tüchtigkeit, ohne sie weich werden zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Privilegium der Armut: vierzig Jahre gegen mehrere Päpste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Zug in Klaras Leben zeigt die Beharrlichkeit der selbsterhaltenden Drei deutlicher als ihr jahrzehntelanger Kampf um das „Privilegium der Armut" &ndash; das Recht, als Kloster keinerlei Landbesitz oder gesicherte Einkünfte zu besitzen und ausschließlich von Almosen zu leben. Mehrere Päpste, darunter Gregor IX., drängten sie, wie andere Frauenklöster üblichen Grundbesitz anzunehmen, allein zur wirtschaftlichen Absicherung der Schwestern. Klara widersetzte sich unnachgiebig &ndash; nicht aus Trotz, sondern aus der tiefen Überzeugung, dass genau diese radikale Bedürfnislosigkeit den Kern ihrer Berufung ausmachte.</p>
+          <p class="vb-intro">Erst zwei Tage vor ihrem Tod 1253 erhielt sie die päpstliche Bestätigung ihrer eigenen, selbst verfassten Ordensregel &ndash; die erste je von einer Frau geschriebene Regel, die kirchlich anerkannt wurde. Vierzig Jahre Ausdauer für ein einziges Prinzip: Das ist keine Sturheit, sondern die äußerste Form dessen, was die SE3 unter Sicherheit versteht &ndash; ein Fundament, das sich durch keinen äußeren Druck verschieben lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist eine Tüchtigkeit, die nie sich selbst, sondern immer der Sache dient. Klara baute keine persönliche Machtbasis auf &ndash; sie baute eine Gemeinschaft, die Jahrhunderte überdauerte und bis heute weltweit existiert. Ihre Wirksamkeit maß sich nicht an Sichtbarkeit, sondern daran, ob San Damiano funktionierte, ob die Schwestern versorgt waren, ob das Prinzip Bestand hatte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Selbsttäuschung</strong> &ndash; das unbewusste Verschmelzen der eigenen Identität mit der geleisteten Aufgabe, bis kein Unterschied zwischen „ich bin wertvoll" und „ich funktioniere" mehr wahrnehmbar bleibt. Bei Klara zeigte sich das in einer Askese, die selbst ihre Mitschwestern und Franz von Assisi persönlich zu mäßigen versuchten &ndash; ein derart strenges Fasten, dass es ihre Gesundheit dauerhaft schwächte. Die SE3w2 kann so tief in ihrer eigenen Disziplin aufgehen, dass sie die Grenze zwischen Hingabe und Selbstvernachlässigung nicht mehr erkennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Fundament, das trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Klara von Assisi hinterließ, lässt sich nicht auf ein einzelnes Wunder oder eine einzelne Regel reduzieren. Der Klarissenorden existiert bis heute in aller Welt, ihre eigene Ordensregel blieb über Jahrhunderte Vorbild für Frauenklöster, und sie wurde 1958 &ndash; wegen einer überlieferten Vision, in der sie von ihrem Sterbebett aus eine Messe an einem anderen Ort „sah und hörte" &ndash; zur Patronin des Fernsehens erklärt, eine kuriose, aber treffende Volte für eine Frau, deren größte Stärke stille, unermüdliche Präsenz war.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE3w2 in ihrer reinsten Form: eine Tüchtigkeit, die keine Bühne braucht, um zu wirken, und ein Fundament, das gerade deshalb trägt, weil es nie auf äußere Anerkennung angewiesen war. Der Waschbär, der sein Revier nie verließ &ndash; und genau darin unsterblich wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6) – Weggefährte"},
+      ])}
+    </div>
+  `);
+}
+
 function timMaelzerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -74354,6 +74424,7 @@ function timMaelzerPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -74816,6 +74887,7 @@ function michaelDellPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -77340,6 +77412,7 @@ function franzVonAssisiPortraitPage() {
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Weggefährtin"},
       ])}
     </div>
   `);
@@ -140022,6 +140095,7 @@ function render() {
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
+      "beruehmte-klara-von-assisi": klaraVonAssisiPortraitPage,
       "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,

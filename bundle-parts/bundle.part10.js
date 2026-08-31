@@ -1444,6 +1444,72 @@ function andreAgassiPortraitPage() {
   `);
 }
 
+function klaraVonAssisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Klara von Assisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klara von Assisi</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltende Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">ca. 1194&ndash;1253 &ndash; Gründerin des Klarissenordens &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär hinter der Klostermauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; nicht der glänzende Auftritt auf der großen Bühne, sondern die stille, unermüdliche Tüchtigkeit im eigenen, überschaubaren Revier. Er wäscht, sortiert, organisiert, sichert sein Territorium mit ruhiger Beharrlichkeit &ndash; unauffällig, aber äußerst wirksam. Klara, um 1194 als Tochter einer wohlhabenden Adelsfamilie in Assisi geboren, verließ mit achtzehn Jahren heimlich in einer Nacht das Elternhaus, um dem Beispiel des Franz von Assisi (SO7w6) zu folgen &ndash; ein Bruch mit allem, was Sicherheit und gesellschaftliche Stellung bedeutet hätte.</p>
+          <p class="vb-intro">Doch anders, als man erwarten könnte, führte dieser radikale Schritt sie nicht in ein unstetes Wanderleben. Klara gründete mit San Damiano ein eigenes, festes Kloster &ndash; und blieb dort über vierzig Jahre, bis zu ihrem Tod, fast ohne es zu verlassen. Der Waschbär verzichtet nicht auf sein Revier, er wählt nur ein radikal anderes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Tüchtigkeit als geistliche Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht ihren Wert nicht in öffentlicher Bewunderung, sondern in nachweisbarer, verlässlicher Tüchtigkeit im eigenen überschaubaren Bereich. Naranjo nannte diesen Subtyp <em>Sicherheit</em> &ndash; ein still arbeitendes Leistungsstreben, das lieber durch Ergebnisse als durch Auftritt überzeugt. Klara führte San Damiano über vier Jahrzehnte mit bemerkenswerter organisatorischer Disziplin: geregelter Tagesablauf, sorgfältig verteilte Aufgaben, ein Kloster, das trotz radikaler Armut funktionierte und wuchs.</p>
+          <p class="vb-intro">Ihre Tüchtigkeit zeigte sich am deutlichsten 1240, als angeblich Söldnertruppen Kaiser Friedrichs II. Assisi bedrohten und Richtung San Damiano zogen. Die Überlieferung berichtet, die schwer kranke Klara habe sich mit der Monstranz ans Fenster tragen lassen &ndash; und die Angreifer seien daraufhin abgezogen. Ob Wunder oder nicht: Es ist die Geste einer Frau, die auch im eigenen Sterben noch handlungsfähig blieb, statt sich dem Schicksal zu überlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge innerhalb der Mauern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine warme, fürsorgliche Note, die sich nicht nach außen, sondern nach innen richtet &ndash; auf das eigene, kleine Rudel. Zeitgenössische Berichte schildern Klara als Äbtissin, die selbst die Füße kranker Mitschwestern wusch, nachts aufstand, um für sie zu sorgen, und noch auf dem Sterbebett mehr um das Wohlergehen ihrer Gemeinschaft besorgt war als um sich selbst.</p>
+          <p class="vb-intro">Diese Fürsorge blieb dabei stets diszipliniert, nie sentimental. Klara verband mütterliche Zuwendung mit unbeirrbarer Führungsstärke &ndash; sie war zugleich die Frau, die zärtlich pflegte, und die Äbtissin, die eine der strengsten Ordensregeln der mittelalterlichen Kirchengeschichte durchsetzte. Der Zweierflügel wärmt die Dreier-Tüchtigkeit, ohne sie weich werden zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Privilegium der Armut: vierzig Jahre gegen mehrere Päpste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kein Zug in Klaras Leben zeigt die Beharrlichkeit der selbsterhaltenden Drei deutlicher als ihr jahrzehntelanger Kampf um das „Privilegium der Armut" &ndash; das Recht, als Kloster keinerlei Landbesitz oder gesicherte Einkünfte zu besitzen und ausschließlich von Almosen zu leben. Mehrere Päpste, darunter Gregor IX., drängten sie, wie andere Frauenklöster üblichen Grundbesitz anzunehmen, allein zur wirtschaftlichen Absicherung der Schwestern. Klara widersetzte sich unnachgiebig &ndash; nicht aus Trotz, sondern aus der tiefen Überzeugung, dass genau diese radikale Bedürfnislosigkeit den Kern ihrer Berufung ausmachte.</p>
+          <p class="vb-intro">Erst zwei Tage vor ihrem Tod 1253 erhielt sie die päpstliche Bestätigung ihrer eigenen, selbst verfassten Ordensregel &ndash; die erste je von einer Frau geschriebene Regel, die kirchlich anerkannt wurde. Vierzig Jahre Ausdauer für ein einziges Prinzip: Das ist keine Sturheit, sondern die äußerste Form dessen, was die SE3 unter Sicherheit versteht &ndash; ein Fundament, das sich durch keinen äußeren Druck verschieben lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist eine Tüchtigkeit, die nie sich selbst, sondern immer der Sache dient. Klara baute keine persönliche Machtbasis auf &ndash; sie baute eine Gemeinschaft, die Jahrhunderte überdauerte und bis heute weltweit existiert. Ihre Wirksamkeit maß sich nicht an Sichtbarkeit, sondern daran, ob San Damiano funktionierte, ob die Schwestern versorgt waren, ob das Prinzip Bestand hatte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Selbsttäuschung</strong> &ndash; das unbewusste Verschmelzen der eigenen Identität mit der geleisteten Aufgabe, bis kein Unterschied zwischen „ich bin wertvoll" und „ich funktioniere" mehr wahrnehmbar bleibt. Bei Klara zeigte sich das in einer Askese, die selbst ihre Mitschwestern und Franz von Assisi persönlich zu mäßigen versuchten &ndash; ein derart strenges Fasten, dass es ihre Gesundheit dauerhaft schwächte. Die SE3w2 kann so tief in ihrer eigenen Disziplin aufgehen, dass sie die Grenze zwischen Hingabe und Selbstvernachlässigung nicht mehr erkennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Fundament, das trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Klara von Assisi hinterließ, lässt sich nicht auf ein einzelnes Wunder oder eine einzelne Regel reduzieren. Der Klarissenorden existiert bis heute in aller Welt, ihre eigene Ordensregel blieb über Jahrhunderte Vorbild für Frauenklöster, und sie wurde 1958 &ndash; wegen einer überlieferten Vision, in der sie von ihrem Sterbebett aus eine Messe an einem anderen Ort „sah und hörte" &ndash; zur Patronin des Fernsehens erklärt, eine kuriose, aber treffende Volte für eine Frau, deren größte Stärke stille, unermüdliche Präsenz war.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE3w2 in ihrer reinsten Form: eine Tüchtigkeit, die keine Bühne braucht, um zu wirken, und ein Fundament, das gerade deshalb trägt, weil es nie auf äußere Anerkennung angewiesen war. Der Waschbär, der sein Revier nie verließ &ndash; und genau darin unsterblich wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6) – Weggefährte"},
+      ])}
+    </div>
+  `);
+}
+
 function timMaelzerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -1504,6 +1570,7 @@ function timMaelzerPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -1966,6 +2033,7 @@ function michaelDellPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -4490,6 +4558,7 @@ function franzVonAssisiPortraitPage() {
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Weggefährtin"},
       ])}
     </div>
   `);
@@ -9602,166 +9671,6 @@ function martinLutherKrankheitsportraetPage() {
         {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – Lebenswerk"},
         {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
         {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
-      ])}
-    </div>
-  `);
-}
-
-function ludwigWittgensteinKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-ludwig-wittgenstein-portrait.jpg" alt="Ludwig Wittgenstein" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ludwig Wittgenstein</p>
-        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1889–1951</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Adler</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Ludwig Wittgenstein</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-ludwig-wittgenstein">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Adler als Tiermotiv und
-        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
-        gestreift wird: der Prostatakrebs-Diagnose vom Dezember 1949, den Monaten unklarer
-        Erschöpfung davor, und den letzten anderthalb Jahren bis zu seinem Tod 1951.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Wittgenstein</strong> ist der <strong>selbsterhaltenden Eins mit Neunerflügel</strong>
-        zugeordnet. Die SE1 misst sich unablässig an einem inneren Maßstab von Integrität und
-        Vollständigkeit – Krankheit ist für diesen Subtyp nicht einfach ein körperliches Ereignis,
-        sondern eine Art Beweis der eigenen Unvollkommenheit, dem mit Disziplin und möglichst
-        wenig öffentlicher Klage begegnet wird.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Monatelange, unklare Erschöpfung:</strong>
-        Bereits Monate vor der eigentlichen Diagnose litt Wittgenstein an einer Erschöpfung, die
-        zunächst nicht eindeutig zugeordnet werden konnte – ein Zustand, den er, seinem Muster
-        entsprechend, lange herunterspielte, statt ihn zum zentralen Thema zu machen.</p>
-        <p class="vb-intro"><strong>b) Eine erste, falsche Fährte:</strong>
-        Ein Arzt in Dublin diagnostizierte zunächst eine Blutarmut und verschrieb Eisen- und
-        Leberpräparate – eine Behandlung, die das eigentliche Problem nicht traf und die Klärung
-        zusätzlich verzögerte.</p>
-        <p class="vb-intro"><strong>c) Weiterarbeiten trotz spürbarer Schwäche:</strong>
-        Auch in dieser Phase unklarer gesundheitlicher Beschwerden setzte Wittgenstein seine
-        philosophische Arbeit fort – ein Innehalten allein wegen unspezifischer Erschöpfung kam für
-        ihn nicht infrage, solange keine eindeutige Diagnose vorlag.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Die Diagnose im Dezember 1949:</strong>
-        Erst im Dezember 1949 wurde die tatsächliche Ursache gefunden: Prostatakrebs, zu diesem
-        Zeitpunkt bereits mit Metastasen in der Wirbelsäule – eine Diagnose, die von vornherein
-        keine Aussicht auf Heilung mehr bot.</p>
-        <p class="vb-intro"><strong>b) Eine Hormonbehandlung mit hohem Preis:</strong>
-        Die eingeleitete Hormontherapie (Stilböstrol) sollte das Fortschreiten verlangsamen –
-        brachte aber über dreizehn, vierzehn Monate hinweg einen Zustand mit sich, in dem
-        Wittgenstein sich selbst als nahezu unfähig zu denken beschrieb.</p>
-        <p class="vb-intro"><strong>c) Der Verlust des eigenen Werkzeugs:</strong>
-        Für einen Mann, dessen gesamte Identität auf der Schärfe des eigenen Denkens beruhte, war
-        dieser vorübergehende Verlust der Denkfähigkeit vermutlich schwerer zu ertragen als die
-        Diagnose selbst.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Keine öffentliche Klage:</strong>
-        Wittgenstein sprach auch im Angesicht der unheilbaren Diagnose kaum öffentlich über sein
-        Leiden – ganz im Einklang mit dem SE1w9-Muster, Schwäche nicht zur Schau zu stellen,
-        sondern in Zurückgezogenheit zu verarbeiten.</p>
-        <p class="vb-intro"><strong>b) Reisen zwischen Wien, Oxford und Cambridge:</strong>
-        Die letzten beiden Lebensjahre verbrachte er wechselnd zwischen Wien, Oxford und Cambridge
-        – kein Rückzug ins Krankenbett, sondern ein Leben, das trotz der Diagnose in Bewegung
-        blieb.</p>
-        <p class="vb-intro"><strong>c) Arbeit bis fast zuletzt:</strong>
-        Selbst in dieser Phase setzte Wittgenstein seine philosophische Arbeit fort, so gut es die
-        Kräfte zuließen – das Manuskript, das später als <em>Über Gewissheit</em> veröffentlicht
-        wurde, entstand in genau diesen letzten Monaten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Rückzug zu seinem Arzt:</strong>
-        In seinen letzten Wochen zog Wittgenstein, der zuvor jahrzehntelang selbst kaum ein
-        eigenes Zuhause im herkömmlichen Sinn unterhielt, in das Haus seines Arztes Dr. Edward
-        Bevan in Cambridge – eine seltene Geste des Sich-Anvertrauens für einen Mann, der Nähe
-        selten zuließ.</p>
-        <p class="vb-intro"><strong>b) Ein bewusstes letztes Fest:</strong>
-        Kurz vor seinem Tod bat er Mrs. Bevan, sein bevorstehendes Ende noch nicht mit ihm zu
-        besprechen, und feierte, soweit möglich, seinen zweiundsechzigsten Geburtstag im April
-        1951 – Normalität als letzter Akt der Selbstkontrolle.</p>
-        <p class="vb-intro"><strong>c) Tod am 29. April 1951:</strong>
-        Ludwig Wittgenstein starb zwei Tage nach seinem Geburtstag im Haus seines Arztes in
-        Cambridge. Seine letzten überlieferten Worte: »Sagt ihnen, ich hatte ein wunderbares
-        Leben.«</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Robert De Niro (SE1w9):</strong>
-        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-robert-de-niro">Robert
-        De Niro</a>, ebenfalls SE1w9, war es dieselbe Krankheit – Prostatakrebs –, die hier auf
-        zwei gegensätzliche Weisen verarbeitet wurde. De Niro ließ seine 2003 diagnostizierte
-        Erkrankung zügig und diskret behandeln und überlebte; bei Wittgenstein wurde die Diagnose
-        deutlich später gestellt, zu einem Zeitpunkt, an dem Heilung nicht mehr möglich war – zwei
-        Varianten derselben SE1-Grundhaltung, körperliche Warnsignale möglichst lange nicht zum
-        zentralen Thema zu machen, nur mit unterschiedlichem Ausgang.</p>
-        <p class="vb-intro"><strong>b) Gesundheit als weiteres Feld des eigenen Anspruchs:</strong>
-        Für eine SE1 ist der eigene Körper kein neutraler Schauplatz, sondern ein weiteres Feld, auf
-        dem sich der innere Anspruch an Integrität und Vollständigkeit misst. Eine Krankheit, die
-        sich nicht kontrollieren oder durch Disziplin abwenden lässt, stellt diesen Anspruch auf
-        eine Weise infrage, die für die SE1 kaum erträglich ist – und genau deshalb oft lange
-        verdrängt oder heruntergespielt wird, bis eine eindeutige Diagnose keine Ausflucht mehr
-        zulässt.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet der Verlust der Denkfähigkeit?</strong>
-        Für einen Mann, dessen gesamtes Selbstverständnis auf der Schärfe des eigenen Denkens
-        beruhte, liegt eine Deutung nahe: Die Hormonbehandlung traf ausgerechnet das Werkzeug, mit
-        dem Wittgenstein zeitlebens seinen eigenen, unerbittlichen Anspruch an Klarheit
-        verwirklicht hatte. Diese Deutung ist eine plausible Interpretation, kein belegter
-        historischer Kausalzusammenhang.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu Krebserkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
-        Was sich an Wittgensteins Fall zeigen lässt, ist ein Muster im Umgang mit unklaren
-        körperlichen Warnsignalen, das bei einer ausgeprägten selbsterhaltenden Eins immer wieder
-        auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Wittgenstein kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
-        Lebzeiten noch nicht. Die SE1-Neigung, Schwäche nicht zum zentralen Thema zu machen, kannte
-        für ihn keinen eingebauten Warnmechanismus, der ihn zu einer früheren, gründlicheren
-        Abklärung der monatelangen Erschöpfung hätte bewegen können. Wer das eigene Muster, Klagen
-        möglichst zu vermeiden, nicht kennt, kann es auch nicht rechtzeitig durchbrechen – bei
-        Wittgenstein blieb bis zuletzt offen, ob eine frühere Diagnose etwas am Verlauf geändert
-        hätte.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Wittgensteins</strong> selbsterhaltende Eins
-        mit Neunerflügel noch einmal ablesen: monatelang heruntergespielte Erschöpfung, eine späte,
-        unheilbare Diagnose, und eine letzte Lebensphase, die trotz allem von Arbeit, Bewegung und
-        einem bewusst gewählten, würdevollen Abschied geprägt war – bis hin zu den eigenen, sorgsam
-        gewählten letzten Worten. Der Adler, der bis zuletzt allein seine Kreise zog, selbst als der
-        eigene Körper längst nicht mehr mithalten konnte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9) – Lebenswerk"},
-        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
-        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
