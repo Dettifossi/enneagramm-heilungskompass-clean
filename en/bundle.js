@@ -1750,7 +1750,7 @@ const BERUEHMT_PORTRAITS = [
     land:"United Kingdom", tags:["Film","Kom\xf6die"], gender:"m"},
 { route:"beruehmte-epikur", name:"Epicurus", added:"2026-08-31", subtyp:"SO7w6",
     heading:"Epicurus – Social Type 7",
-    teaser:"SO7w6 · 341–270 BCE. Greek philosopher, founder of Epicureanism. Founded "The Garden" in Athens, a philosophical community where friends, students, women, and slaves lived as equals. Taught joy through modesty and friendship, not excess. Animal correspondence: Beaver.",
+    teaser:"SO7w6 · 341–270 BCE. Greek philosopher, founder of Epicureanism. Founded \"The Garden\" in Athens, a philosophical community where friends, students, women, and slaves lived as equals. Taught joy through modesty and friendship, not excess. Animal correspondence: Beaver.",
     land:"Greece", tags:["Philosophy"], gender:"m"},
 { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexual Type 7",
