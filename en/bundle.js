@@ -1752,6 +1752,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Epicurus – Social Type 7",
     teaser:"SO7w6 · 341–270 BCE. Greek philosopher, founder of Epicureanism. Founded \"The Garden\" in Athens, a philosophical community where friends, students, women, and slaves lived as equals. Taught joy through modesty and friendship, not excess. Animal correspondence: Beaver.",
     land:"Greece", tags:["Philosophy"], gender:"m"},
+{ route:"beruehmte-franz-von-assisi", name:"Francis of Assisi", added:"2026-08-31", subtyp:"SO7w6",
+    heading:"Francis of Assisi – Social Type 7",
+    teaser:"SO7w6 · 1181/82–1226. Founder of a religious order, broke radically with his merchant family's fortune and founded the Franciscan Order. Legend has him preaching to birds, he wrote the \"Canticle of the Sun,\" and received the stigmata. Animal correspondence: Beaver.",
+    land:"Italy", tags:["Religion","History"], gender:"m"},
 { route:"beruehmte-thomas-gottschalk", name:"Thomas Gottschalk", subtyp:"SX7w6",
     heading:"Thomas Gottschalk – Sexual Type 7",
     teaser:"SX7w6 · born 1950. German radio and TV host, entertainer, actor. Wetten, dass..? – 23 years, 212 episodes. The chimpanzee: lively, magnetic, unpredictable – always searching for the next spark. Animal correspondence: Chimpanzee.",
@@ -49772,6 +49776,74 @@ function epikurPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzVonAssisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-franz-von-assisi-portrait.jpg" alt="Francis of Assisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis of Assisi</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Founder of a religious order, 1181/82&ndash;1226 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver that built a brotherhood for the whole world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself alone, but for a community, and it is never truly finished. Francis of Assisi was born around 1181, the son of a wealthy cloth merchant in Umbria, and as a young man led a carefree, pleasure-seeking life before a period as a prisoner of war and a serious illness led him to break radically with his former life. He publicly stripped off his clothes before his father, renounced any claim to the family fortune, and began rebuilding decaying churches with his own hands.</p>
+          <p class="vb-intro">Out of this first, very concrete construction project grew, within a few years, something far larger: the Franciscan Order, which dozens and then hundreds of companions soon joined. No sooner was one church restored, no sooner had a first small group of brothers gathered, than the next, larger building project began &ndash; until, still in his lifetime, Francis had founded a worldwide order, a second branch for women around Clare of Assisi, and even a third branch for laypeople.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: joy in service of all</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Social Type Seven the <strong>Sacrifice</strong> or <strong>Martyr</strong> &ndash; this subtype sets aside its own pleasure-seeking to devote itself to a larger community or idea. Francis did not renounce wealth and comfort reluctantly, but practically celebrated poverty as "Lady Poverty" &ndash; a reframing of renunciation into a source of joy that astonished contemporaries and posterity alike. Accounts describe him, despite the strictest asceticism, as strikingly cheerful, fond of singing and dancing, never brooding or bitter.</p>
+          <p class="vb-intro">This joy never stayed private. Legend has Francis preaching to the birds, taming the wolf of Gubbio, and he wrote, with the "Canticle of the Sun," one of the most famous hymns of praise to creation ever composed &ndash; Brother Sun, Sister Moon, Brother Wind, even "Sister Bodily Death" are all celebrated in it as part of one single great kinship. His own happiness remained inseparable from the happiness and salvation of as many others as possible &ndash; a sacrifice of personal security for the sake of a shared, universal cause, exactly as the SO7 pattern predicts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: strict rule, loyal submission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven a need for reliable rules and stable loyalty to a larger order. Francis wrote a strikingly strict rule for his growing brotherhood &ndash; absolute renunciation of property, radical obedience, a precisely defined daily rhythm &ndash; no loose collection of ideas, but a binding rulebook that every new brother could orient himself by.</p>
+          <p class="vb-intro">This same Six-wing note showed in his relationship to the institutional Church: despite his radical ideals, Francis traveled to Rome in 1209 specifically to have his rule personally confirmed by Pope Innocent III, rather than striking out on his own, independent path outside the Church hierarchy. Loyalty to the larger institution, not rebellion against it &ndash; a cautious securing of his own vision through the authority he remained faithful to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Stigmata at Mount La Verna</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1224, two years before his death, Francis is said to have received the wounds of Christ on his own body during a fasting retreat on Mount La Verna &ndash; the stigmata, which he largely tried to conceal until his death by covering his hands and feet. Even this deeply personal, physical experience he did not turn into withdrawal, but continued his travels and his work for the order as far as his increasingly weakened body allowed.</p>
+          <p class="vb-intro">A few months before his death, nearly blind and marked by pain, he still composed the "Canticle of the Sun" &ndash; not a retreat into quiet lament, but one last, public construction of words, dedicated to the whole of creation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is the ability to <strong>build a resilient, world-spanning community that gives real support to the individual</strong> &ndash; the Franciscan Order already counted thousands of members in its founder's lifetime and remains, to this day, one of the largest and most influential religious orders in the Catholic Church. His radical devotion to the poor, the sick, and the outcast left a lasting mark on Christian charity.</p>
+          <p class="vb-intro">The shadow shows in the flip side of this rapid growth: already in his lifetime, Francis clashed with brothers who wanted to soften his radical rule of poverty, and had to watch the order he founded begin to split into factions &ndash; a construction that grew larger than a single vision could still hold together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The beaver whose construction spanned all creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Francis of Assisi died in 1226 in Assisi, less than two years after the stigmata, physically exhausted but present to the end in his role as a brother among brothers. He was canonized just two years after his death &ndash; one of the fastest canonizations in the history of the Church.</p>
+          <p class="vb-intro">From radically renouncing his fortune, through building three separate branches of a religious order, to a hymn of praise for the whole of creation: this is the Social Seven with a Six-wing in its most expansive form &ndash; a beaver that did not build a single dam, but a brotherhood that still stands today, eight hundred years later.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
       ])}
     </div>
@@ -104164,6 +104236,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-epikur": epikurPortraitPage,
+      "beruehmte-franz-von-assisi": franzVonAssisiPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-frida-kahlo": fridaKahloPortraitPage,

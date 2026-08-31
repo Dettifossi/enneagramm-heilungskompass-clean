@@ -5150,6 +5150,7 @@ function render() {
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-epikur": epikurPortraitPage,
+      "beruehmte-franz-von-assisi": franzVonAssisiPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,

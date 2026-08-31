@@ -33701,6 +33701,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Epikur – Sozialer Typ 7",
     teaser:"SO7w6 · 341–270 v. Chr. Griechischer Philosoph, Begründer des Epikureismus. Gründete ›Der Garten‹ in Athen, eine philosophische Wohngemeinschaft mit Freunden, Schülern, Frauen und Sklaven als Gleichberechtigten. Lehrte Freude durch Bescheidenheit und Freundschaft statt Zügellosigkeit. Tierentsprechung: Biber.",
     land:"Griechenland", tags:["Philosophie"], gender:"m"},
+  { route:"beruehmte-franz-von-assisi", name:"Franz von Assisi", added:"2026-08-31", subtyp:"SO7w6",
+    heading:"Franz von Assisi – Sozialer Typ 7",
+    teaser:"SO7w6 · 1181/82–1226. Ordensgründer, brach radikal mit dem Vermögen seiner Kaufmannsfamilie und gründete den Franziskanerorden. Predigte der Legende nach den Vögeln, verfasste den ›Sonnengesang‹, empfing die Stigmata. Tierentsprechung: Biber.",
+    land:"Italien", tags:["Religion","Geschichte"], gender:"m"},
   { route:"beruehmte-elon-musk", name:"Elon Musk", subtyp:"SO7w6",
     heading:"Elon Musk \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 geb. 1971. Unternehmer, Gr\u00fcnder von PayPal, SpaceX, X (ehem. Twitter), Mitinhaber von Tesla. Reichster Mensch der Welt (Stand 2026). Der Biber, der Welten baut \u2013 und dabei nie fertig wird. Tierentsprechung: Biber.",
@@ -77051,6 +77055,74 @@ function epikurPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function franzVonAssisiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-franz-von-assisi-portrait.jpg" alt="Franz von Assisi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz von Assisi</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Ordensgründer, 1181/82–1226 – Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der eine Bruderschaft für die ganze Welt baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – er baut nicht für sich allein, sondern für eine Gemeinschaft, und ist nie wirklich fertig. Franz von Assisi wurde um 1181 als Sohn eines wohlhabenden Tuchhändlers in Umbrien geboren und führte als junger Mann zunächst ein unbeschwertes, vergnügungsreiches Leben, bevor er nach einer Kriegsgefangenschaft und schwerer Krankheit radikal mit seinem bisherigen Leben brach. Er legte seine Kleidung öffentlich vor seinem Vater ab, verzichtete auf jeden Anspruch auf das Familienvermögen und begann, verfallene Kirchen eigenhändig wieder aufzubauen.</p>
+          <p class="vb-intro">Aus diesem ersten, sehr konkreten Bauprojekt wurde binnen weniger Jahre ein weit größeres: der Franziskanerorden, dem sich rasch Dutzende, dann Hunderte Gefährten anschlossen. Kaum war eine Kirche wiederhergestellt, kaum eine erste kleine Gruppe von Brüdern beisammen, begann bereits das nächste, größere Bauvorhaben – bis Franz noch zu Lebzeiten einen weltweiten Orden, einen zweiten Zweig für Frauen um Klara von Assisi und sogar einen dritten Zweig für Laien ins Leben gerufen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude im Dienst aller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Märtyrer</strong> – dieser Subtyp stellt die eigene Genusssucht zurück, um sich einer größeren Gemeinschaft oder Idee zu widmen. Franz verzichtete nicht widerwillig auf Reichtum und Komfort, sondern feierte die Armut geradezu als „Herrin Armut" – eine Umdeutung des Verzichts in eine Quelle der Freude, die für Zeitgenossen wie Nachwelt gleichermaßen verblüffend war. Zeugnisse beschreiben ihn trotz strengster Askese als auffallend heiter, sang- und tanzfreudig, nie als grüblerisch oder bitter.</p>
+          <p class="vb-intro">Diese Freude blieb nie privat. Franz predigte der Legende nach den Vögeln, soll den Wolf von Gubbio gezähmt haben, und verfasste mit dem „Sonnengesang" eine der berühmtesten Lobpreisungen der Schöpfung überhaupt – Bruder Sonne, Schwester Mond, Bruder Wind, sogar „Schwester leiblicher Tod" werden darin als Teil einer einzigen großen Geschwisterschaft besungen. Sein eigenes Glück blieb untrennbar an das Glück und Heil möglichst vieler anderer gebunden – ein Opfer der persönlichen Sicherheit zugunsten eines geteilten, universellen Anliegens, genau wie es das SO7-Muster vorgibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Strenge Regel, treue Unterordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben ein Bedürfnis nach verlässlichen Regeln und stabiler Loyalität zu einer größeren Ordnung. Franz verfasste für seine wachsende Bruderschaft eine ausgesprochen strenge Regel – absolute Besitzlosigkeit, radikaler Gehorsam, ein genau festgelegter Lebensrhythmus –, kein loses Ideenkonstrukt, sondern ein verbindliches Regelwerk, an dem sich jeder neue Bruder orientieren konnte.</p>
+          <p class="vb-intro">Diese Sechser-Note zeigte sich auch in seinem Verhältnis zur Amtskirche: Trotz seiner radikalen Ideale reiste Franz 1209 eigens nach Rom, um sich seine Regel von Papst Innozenz III. persönlich bestätigen zu lassen, statt einen eigenen, unabhängigen Weg außerhalb der kirchlichen Hierarchie zu gehen. Loyalität zur größeren Institution, nicht Rebellion gegen sie – ein vorsichtiges Absichern der eigenen Vision durch die Autorität, der er treu blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Stigmata am Berg La Verna</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1224, zwei Jahre vor seinem Tod, soll Franz während eines Fastenrückzugs auf dem Berg La Verna die Wundmale Christi an seinem eigenen Körper empfangen haben – die Stigmata, die er bis zu seinem Tod weitgehend zu verbergen versuchte, indem er Hände und Füße bedeckte. Selbst diese zutiefst persönliche, körperliche Erfahrung wandelte er nicht in Rückzug, sondern setzte seine Reisetätigkeit und sein Wirken für den Orden fort, soweit es sein zunehmend geschwächter Körper zuließ.</p>
+          <p class="vb-intro">Wenige Monate vor seinem Tod, nahezu erblindet und von Schmerzen gezeichnet, verfasste er noch den „Sonnengesang" – kein Rückzug in stille Klage, sondern ein letztes, öffentliches Bauwerk aus Worten, das der ganzen Schöpfung galt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine tragfähige, weltumspannende Gemeinschaft aufzubauen, die dem Einzelnen echten Halt gibt</strong> – der Franziskanerorden zählte schon zu Lebzeiten seines Gründers Tausende Mitglieder und gehört bis heute zu den größten und einflussreichsten Ordensgemeinschaften der katholischen Kirche. Seine radikale Zuwendung zu Armen, Kranken und Ausgestoßenen prägte die christliche Nächstenliebe nachhaltig.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieses rasanten Wachstums: Noch zu Lebzeiten geriet Franz in Konflikt mit Brüdern, die seine radikale Armutsregel aufweichen wollten, und musste erleben, wie der von ihm gegründete Orden sich in Fraktionen zu spalten begann – ein Bauwerk, das größer wurde, als eine einzelne Vision es noch zusammenhalten konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, dessen Bau die ganze Schöpfung umfasste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Franz von Assisi starb 1226 in Assisi, keine zwei Jahre nach den Stigmata, körperlich erschöpft, aber bis zuletzt in seiner Rolle als Bruder unter Brüdern präsent. Schon zwei Jahre nach seinem Tod wurde er heiliggesprochen – eine der schnellsten Kanonisationen der Kirchengeschichte.</p>
+          <p class="vb-intro">Vom radikalen Vermögensverzicht über den Aufbau dreier eigenständiger Ordenszweige bis zum Lobgesang auf die gesamte Schöpfung: Das ist die soziale Sieben mit Sechserflügel in ihrer umfassendsten Form – ein Biber, der nicht an einem Damm baute, sondern an einer Bruderschaft, die noch heute, achthundert Jahre später, weiterbesteht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
       ])}
     </div>
@@ -139945,6 +140017,7 @@ function render() {
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-epikur": epikurPortraitPage,
+      "beruehmte-franz-von-assisi": franzVonAssisiPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
