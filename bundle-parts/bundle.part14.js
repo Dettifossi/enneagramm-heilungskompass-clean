@@ -1,3 +1,111 @@
+function verhaeltnisZuGeldDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Verh\u00e4ltnis zu Geld der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Geld ist nie nur Geld \u2014 es ist ein Spiegel. Was wir damit machen, wie wir es festhalten oder loslassen, ob es uns Angst macht oder befl\u00fcgelt: All das verr\u00e4t etwas \u00fcber unseren Enneagrammtyp. Jeder Typ bringt seine eigenen Muster, \u00c4ngste und Sehns\u00fcchte in den Umgang mit Geld ein.</p>
+      <img src="./assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verh\u00e4ltnis zu Geld der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Ordnung und ethische Sorgfalt</h3>
+        <p class="vb-intro">Typ 1 sieht Geld oft als Mittel zur Schaffung von Ordnung und Sicherheit. Er ist diszipliniert und sorgf\u00e4ltig im Umgang mit Geld, vermeidet Verschwendung und legt Wert auf eine gerechte und ethische Verwendung von Ressourcen. Der innere Richter des Typs 1 wacht auch \u00fcber das Konto: Wird dieses Geld auf die richtige Art ausgegeben? Kann ich das wirklich verantworten? Diese Haltung macht ihn verl\u00e4sslich und vorausschauend \u2014 manchmal aber auch unn\u00f6tig rigide gegen\u00fcber sich selbst.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Geben als Lebenshaltung</h3>
+        <p class="vb-intro">Typ 2 kann dazu neigen, Geld auszugeben, um anderen zu helfen und sich um sie zu k\u00fcmmern. Er findet Erf\u00fcllung darin, Geld f\u00fcr wohlt\u00e4tige Zwecke oder Geschenke auszugeben \u2014 kann aber manchmal Schwierigkeiten damit haben, die eigenen finanziellen Bed\u00fcrfnisse zu priorisieren. Hinter diesem Muster steckt oft die tiefe \u00dcberzeugung: Mein Wert liegt darin, was ich f\u00fcr andere tue. Wer Geld f\u00fcr sich selbst beh\u00e4lt, ist selbsts\u00fcchtig. Die Heilung des Typs 2 liegt auch hier: Geben darf keine Einbahnstra\u00dfe sein.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Erfolg und Status</h3>
+        <p class="vb-intro">Typ 3 sieht Geld oft als Symbol f\u00fcr Erfolg und Status. Er ist bereit, hart zu arbeiten, um finanziellen Wohlstand zu erreichen, und investiert gerne in Dinge, die seinen Status und seine Leistung widerspiegeln. Er kann jedoch auch dazu neigen, Geld zu sparen, um langfristige Ziele zu erreichen. F\u00fcr den Leistungsmensch ist Geld weniger Selbstzweck als R\u00fcckmeldung: Es zeigt, dass er angekommen ist, dass seine Arbeit gesehen wird, dass er z\u00e4hlt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Ambivalenz und Bedeutung</h3>
+        <p class="vb-intro">Typ 4 hat oft eine ambivalente Einstellung zu Geld. Er kann Geld als Mittel zur Erf\u00fcllung \u00e4sthetischer und emotionaler Bed\u00fcrfnisse betrachten und neigt dazu, es f\u00fcr einzigartige und bedeutungsvolle Erfahrungen und Objekte auszugeben. Er kann jedoch auch Schwierigkeiten haben, finanziell diszipliniert zu sein. Der \u00c4sthet will, dass Geld Ausdruck seines Inneren ist \u2014 Routine-Ausgaben f\u00fcr Allt\u00e4gliches f\u00fchlen sich f\u00fcr ihn oft bedeutungslos an, w\u00e4hrend ein perfektes Erlebnis oder ein besonderes St\u00fcck jeden Preis wert erscheint.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Sparsamkeit und Unabh\u00e4ngigkeit</h3>
+        <p class="vb-intro">Typ 5 ist in der Regel vorsichtig und sparsam im Umgang mit Geld. Er neigt dazu, Geld zu sparen und klug zu investieren, um finanzielle Sicherheit zu gew\u00e4hrleisten. Er bevorzugt es, Geld f\u00fcr Dinge auszugeben, die ihm Wissen und praktische Vorteile bringen. Geld bedeutet f\u00fcr den Denker vor allem eines: Unabh\u00e4ngigkeit. Wer finanziell abgesichert ist, muss nicht auf andere angewiesen sein \u2014 und das ist f\u00fcr den Typ 5 ein zutiefst erstrebenswerter Zustand.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Sicherheit und Vorsorge</h3>
+        <p class="vb-intro">Typ 6 hat oft ein sicherheitsorientiertes Verh\u00e4ltnis zu Geld. Er legt Wert auf finanzielle Stabilit\u00e4t und ist vorsichtig bei Investitionen. Er neigt dazu, Geld zu sparen und Risiken zu minimieren, um sich gegen unsichere Zukunftsszenarien abzusichern. Der Skeptiker denkt beim Geld immer ein paar Schritte voraus: Was, wenn etwas schiefl\u00e4uft? Was, wenn das Einkommen wegbricht? Diese Vorsorge ist eine seiner gro\u00dfen St\u00e4rken \u2014 solange sie nicht in l\u00e4hmende Angst \u00fcbergeht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Freiheit und Erlebnis</h3>
+        <p class="vb-intro">Typ 7 genie\u00dft es, Geld f\u00fcr neue Erfahrungen und Vergn\u00fcgungen auszugeben. Er neigt dazu, impulsiv zu sein und f\u00fcr Reisen, Freizeitaktivit\u00e4ten und andere lustvolle Erlebnisse Geld in die Hand zu nehmen. Er kann Schwierigkeiten haben, Geld zu sparen oder langfristige Pl\u00e4ne zu machen. F\u00fcr den Enthusiasten ist Geld Freiheitskapital \u2014 es kauft Optionen, Abenteuer, die n\u00e4chste M\u00f6glichkeit. Der Gedanke, es auf einem Konto liegen zu lassen, f\u00fchlt sich f\u00fcr ihn an wie verschenkte Lebenszeit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Macht und Unabh\u00e4ngigkeit</h3>
+        <p class="vb-intro">Typ 8 sieht Geld als Mittel zur Macht und Unabh\u00e4ngigkeit. Er ist oft erfolgreich im Erwerb von Geld und hat keine Angst, es einzusetzen, um seine Ziele zu erreichen und seine Position zu st\u00e4rken. Er ist entschlossen und selbstbewusst im Umgang mit finanziellen Angelegenheiten. Der Herausforderer verhandelt, investiert und k\u00e4mpft um Ressourcen \u2014 nicht aus Gier, sondern weil Geld f\u00fcr ihn Handlungsf\u00e4higkeit bedeutet. Wer Geld hat, kann gestalten. Wer keines hat, ist abh\u00e4ngig. Und Abh\u00e4ngigkeit ist f\u00fcr den Typ 8 das Schlimmste.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Komfort und Entspanntheit</h3>
+        <p class="vb-intro">Typ 9 kann ein entspanntes und oft nachl\u00e4ssiges Verh\u00e4ltnis zu Geld haben. Er legt Wert auf Komfort und kann dazu neigen, Geld f\u00fcr Dinge auszugeben, die ihm ein Gef\u00fchl von Frieden und Wohlbefinden geben. Probleme hat er gegebenenfalls damit, sich auf langfristige finanzielle Ziele zu konzentrieren oder klare finanzielle Entscheidungen zu treffen. Der Vermittler m\u00f6chte keinen Streit \u2014 auch nicht mit dem eigenen Kontostand. Solange es reicht und alles ruhig bleibt, ist er zufrieden. Die Herausforderung liegt darin, sich aktiv um die eigene finanzielle Zukunft zu k\u00fcmmern, auch wenn es unbequem ist.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Verh\u00e4ltnis zu Geld im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Verh\u00e4ltnisses zu Geld im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
+        {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function sexualverhaltenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Sexualverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Der bekannte Enneagrammlehrer Claudio Naranjo hat das Sexualverhalten im Kontext der Enneagrammtypen untersucht. Jeder Typ bringt seine eigenen charakteristischen Muster, \u00c4ngste und Sehns\u00fcchte in sein Sexualverhalten ein.</p>
+      <img src="./assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Strukturiert und kontrolliert</h3>
+        <p class="vb-intro">Der Typ 1 kann beim Sex nach Perfektion streben, was zu Kontrollverhalten und Selbstkritik f\u00fchren kann. Der Perfektionist bringt seine innere Richterlinie auch in die Intimit\u00e4t mit \u2014 er m\u00f6chte alles richtig machen, den Partner nicht entt\u00e4uschen, keine Fehler begehen. Das kann hemmend wirken, aber auch sehr achtsam: Der Typ 1 kann sich sehr diszipliniert und zugewandt auf das Wohl des Partners konzentrieren, wenn er lernt, den inneren Kritiker zum Schweigen zu bringen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Warmherzig und f\u00fcrsorglich</h3>
+        <p class="vb-intro">Der Typ 2 setzt oft den Partner an erste Stelle und kann beim Sex sehr gebend und f\u00fcrsorglich sein. Der Helfer sucht in der Intimit\u00e4t emotionale Best\u00e4tigung und Wertsch\u00e4tzung \u2014 er gibt sich vollst\u00e4ndig hin und hofft, durch dieses Geben Liebe zur\u00fcckzubekommen. Sein Sexualverhalten ist warmherzig und zugewandt, aber oft auch mit einem stillen Bed\u00fcrfnis verbunden: Siehst du, wie sehr ich f\u00fcr dich da bin? Werde ich das zur\u00fcckbekommen?</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Zielgerichtet und effektiv</h3>
+        <p class="vb-intro">Der Typ 3 kann Sex als eine Leistung betrachten und strebt danach, als guter Liebhaber wahrgenommen zu werden. Der Leistungsmensch bringt seine Grundorientierung auch ins Schlafzimmer: Er m\u00f6chte gl\u00e4nzen, beeindrucken, der Beste sein. Das kann sehr stimulierend wirken \u2014 aber es birgt auch die Frage, ob hinter der Inszenierung echte Hingabe steckt. Je bewusster der Typ 3, desto mehr l\u00f6st sich die Leistungshaltung auf und macht Platz f\u00fcr echte Verbindung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Intensiv und emotional</h3>
+        <p class="vb-intro">Der Typ 4 erlebt Sexualit\u00e4t oft intensiv und leidenschaftlich, mit einer Tendenz zur Dramatik und emotionaler Tiefe. Der \u00c4sthet sucht in der k\u00f6rperlichen Begegnung nach einer tiefen, bedeutungsvollen Verbindung \u2014 Sexualit\u00e4t ist f\u00fcr ihn kein fl\u00fcchtiger Moment, sondern ein Raum, in dem das Innerste sichtbar wird. Er kann hingebungsvoll und leidenschaftlich sein, braucht aber Echtheit: Oberfl\u00e4chlichkeit oder Routine sind f\u00fcr den Typ 4 das Ende jeder Erotik.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Zur\u00fcckhaltend und analytisch</h3>
+        <p class="vb-intro">Der Typ 5 kann distanziert und analytisch an Sexualit\u00e4t herangehen, oft mit einem Bed\u00fcrfnis nach emotionalem Abstand. Der Denker kann Schwierigkeiten haben, sich v\u00f6llig hinzugeben \u2014 er bevorzugt, wenn m\u00f6glich, intellektuelle Intimit\u00e4t. K\u00f6rperliche N\u00e4he erfordert von ihm Vertrauen und Sicherheit, die er sich langsam erarbeitet. Wenn dieser Schritt gelingt, \u00f6ffnet sich hinter der k\u00fchlen Fassade ein Mensch, der mit gro\u00dfer Aufmerksamkeit und Z\u00e4rtlichkeit da sein kann.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Z\u00f6gerlich und unsicher</h3>
+        <p class="vb-intro">Der Typ 6 kann beim Sex Unsicherheit und Zweifel erleben, sucht aber gleichzeitig nach Sicherheit und Vertrauen. Der Skeptiker bringt seine Grundangst auch in die Intimit\u00e4t: Bin ich gut genug? Ist das sicher? Kann ich mich fallen lassen? Er kann sexuell z\u00f6gerlich sein und ben\u00f6tigt Best\u00e4tigung und Stabilit\u00e4t vom Partner. Hat er diese Sicherheit gefunden, \u00f6ffnet er sich mit einer Treue und Verl\u00e4sslichkeit, die seinesgleichen sucht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spontan und verspielt</h3>
+        <p class="vb-intro">Der Typ 7 geht oft spielerisch und abenteuerlustig mit Sexualit\u00e4t um, mit einer Vorliebe f\u00fcr Vielfalt und neue Erfahrungen. Der Enthusiast sieht Sex als Spa\u00df und Vergn\u00fcgen \u2014 er bringt Leichtigkeit, Humor und Entdeckungsfreude mit. Er kann Schwierigkeiten haben, sich zu binden und neigt dazu, Tiefe durch Abwechslung zu ersetzen. Je bewusster der Typ 7, desto mehr entdeckt er, dass die gr\u00f6\u00dfte Freiheit nicht in der Flucht liegt \u2014 sondern im vollst\u00e4ndigen Ankommen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kraftvoll und dominant</h3>
+        <p class="vb-intro">Der Typ 8 hat ein starkes und intensives Sexualverhalten, oft gepr\u00e4gt von Dominanz und Kontrolle. Der Herausforderer kann sehr leidenschaftlich und direkt sein und sucht oft nach Macht und Einfluss in der sexuellen Dynamik. Hinter dieser Intensit\u00e4t steckt aber eine tiefe Sehnsucht: geliebt zu werden, ohne Schw\u00e4che zeigen zu m\u00fcssen. Wem es gelingt, dem Typ 8 diesen sicheren Raum zu geben, erlebt einen Menschen, der sich mit beeindruckender Verletzlichkeit \u00f6ffnen kann.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanft und harmonisch</h3>
+        <p class="vb-intro">Der Typ 9 hat ein entspanntes und harmonisches Sexualverhalten, das auf die Bed\u00fcrfnisse des Partners eingeht. Der Vermittler neigt dazu, Konflikte zu vermeiden, und sucht nach Frieden und Verbindung in der sexuellen Beziehung. Er kann sich dabei selbst vergessen \u2014 seine eigenen W\u00fcnsche zur\u00fcckstellen, um den anderen gl\u00fccklich zu machen. Je bewusster der Typ 9, desto mehr lernt er, auch die eigene Stimme einzubringen: Verbindung entsteht zwischen zwei Anwesenden, nicht zwischen einem und seinem Echo.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Sexualverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Sexualverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
+        {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function kussverhaltenDer9TypenPage() {
   return shell(`
     <div class="page-container">

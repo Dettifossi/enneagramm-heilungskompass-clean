@@ -8605,6 +8605,192 @@ function voltaireKrankheitsportraetPage() {
   `);
 }
 
+function georgeGershwinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-george-gershwin-portrait.jpg" alt="George Gershwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Gershwin</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1898–1937</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>George Gershwin</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-george-gershwin">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk, von
+        „Rhapsody in Blue" bis „Porgy and Bess". Dieses Porträt vertieft ein Kapitel, das
+        dort nur gestreift wird: die letzten Monate seines Lebens, in denen ein bösartiger
+        Hirntumor zunächst als Erschöpfung und Nervosität fehlgedeutet wurde, bis er am
+        11. Juli 1937 im Alter von nur 38 Jahren daran starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gershwin</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SO7 stellt ihre überschäumende Energie in den Dienst eines größeren
+        Ideals und flieht dabei reflexhaft vor jedem Anzeichen von Stillstand oder Schmerz –
+        auch vor den eigenen Warnsignalen des Körpers. Der Sechserflügel bringt zwar
+        systematische Wachsamkeit gegenüber äußeren Risiken hinzu, doch diese Wachsamkeit
+        galt bei Gershwin fast ausschließlich seiner Musik, nicht seiner Gesundheit. Genau
+        diese Kombination aus rastloser Fluchtbewegung und blinder Stelle für den eigenen
+        Körper prägte den fatalen Verlauf seiner letzten Lebensmonate.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein seltsamer Geruch, der niemand sonst wahrnahm:</strong>
+        Ab Anfang 1937 berichtete Gershwin wiederholt, er rieche verbranntes Gummi – eine
+        Geruchshalluzination, die medizinisch als typisches Frühsymptom bestimmter
+        Hirntumoren gilt, damals aber niemandem etwas sagte.</p>
+        <p class="vb-intro"><strong>b) Kopfschmerzen, die als Nervosität abgetan wurden:</strong>
+        Zunehmende, teils heftige Kopfschmerzen, Konzentrationsstörungen und
+        Koordinationsprobleme wurden von Ärzten und Freunden monatelang als psychosomatisch
+        gedeutet – Überarbeitung, Erschöpfung durch den Umzug nach Hollywood, nervöse
+        Anspannung vor neuen Filmprojekten.</p>
+        <p class="vb-intro"><strong>c) Ein wachsendes Gefühl, dass etwas nicht stimmte:</strong>
+        Gershwin selbst äußerte gegenüber engen Freunden zunehmend die Sorge, ernsthaft
+        krank zu sein, ließ sich aber von mehreren Ärzten beruhigen, die keine organische
+        Ursache finden konnten – und arbeitete währenddessen weiter an neuen Kompositionen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Zusammenbruch am Set:</strong>
+        Am 9. Juli 1937 verlor Gershwin während der Arbeit an den MGM-Studios kurzzeitig das
+        Bewusstsein. Erst jetzt wurde eine gründliche neurologische Untersuchung eingeleitet.</p>
+        <p class="vb-intro"><strong>b) Eine Diagnose, die zu spät kam:</strong>
+        Ärzte diagnostizierten ein Glioblastom, einen besonders aggressiven, bösartigen
+        Hirntumor. Eine Notoperation am 11. Juli 1937 im Cedars of Lebanon Hospital in Los
+        Angeles konnte den Tumor nicht mehr wirksam entfernen.</p>
+        <p class="vb-intro"><strong>c) Tod noch am selben Tag:</strong>
+        Gershwin starb wenige Stunden nach der Operation, am 11. Juli 1937, im Alter von 38
+        Jahren – für Familie, Freunde und die amerikanische Musikwelt ein Schock, der
+        keinerlei Vorwarnzeit gelassen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Weiterarbeiten trotz Warnsignalen:</strong>
+        Selbst mit spürbar zunehmenden Symptomen komponierte Gershwin in seinen letzten
+        Lebensmonaten in Hollywood unvermindert weiter an Filmmusik – unter anderem für
+        „Shall We Dance" und „A Damsel in Distress" mit Fred Astaire.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug, sondern noch mehr Gesellschaft:</strong>
+        Weggefährten berichteten, dass Gershwin auch in den Monaten wachsender
+        gesundheitlicher Beschwerden ein aktives, geselliges Leben führte, weiterhin
+        Partys besuchte und veranstaltete – als könne die eigene gesellschaftliche
+        Präsenz die körperlichen Warnzeichen überstimmen.</p>
+        <p class="vb-intro"><strong>c) Fehldiagnosen, die auf Fluchtverhalten interpretiert wurden:</strong>
+        Einige der behandelnden Ärzte vermuteten zunächst eine psychosomatische Ursache
+        oder sogar eine Hysterie-Diagnose, teils weil Gershwins äußere Fassade so wenig auf
+        eine ernsthafte körperliche Erkrankung schließen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein abruptes Ende mitten im Schaffen:</strong>
+        Gershwin starb auf dem Höhepunkt seines Erfolgs, mit zahlreichen unvollendeten
+        Projekten und Plänen für weitere Bühnen- und Filmwerke.</p>
+        <p class="vb-intro"><strong>b) Landesweite Trauer:</strong>
+        Sein Tod löste eine Welle öffentlicher Trauer in den USA aus; Radiosender
+        unterbrachen ihr Programm, um die Nachricht zu verkünden, und zahlreiche Kollegen
+        widmeten ihm in den folgenden Wochen Gedenkkonzerte.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche medizinische Aufarbeitung:</strong>
+        Erst Jahrzehnte später wurde in der medizinischen Fachliteratur breiter diskutiert,
+        wie typisch Gershwins frühe Symptome – insbesondere die Geruchshalluzinationen –
+        tatsächlich für Hirntumoren waren, und wie leicht sie damals fehlgedeutet wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Flucht nach vorn statt Innehalten:</strong>
+        Die SO7-typische Strategie, drohendem Schmerz durch immer neue Projekte und
+        Aktivität auszuweichen, zeigte sich bei Gershwin bis zuletzt: Je mehr Symptome
+        auftraten, desto mehr füllte er seinen Terminkalender.</p>
+        <p class="vb-intro"><strong>b) Wachsamkeit am falschen Ort:</strong>
+        Der Sechserflügel richtete seine Vorsicht auf die eigene künstlerische Legitimität
+        – die Suche nach Lehrern, die Sorge um die Qualität seiner Werke –, nicht auf die
+        eigene körperliche Verfassung. Diese Fehlallokation von Wachsamkeit ist ein
+        Muster, das bei SO7w6-Persönlichkeiten immer wieder zu beobachten ist.</p>
+        <p class="vb-intro"><strong>c) Geselligkeit als Ablenkung:</strong>
+        Statt sich mit den eigenen Ängsten vor einer ernsthaften Erkrankung
+        auseinanderzusetzen, suchte Gershwin verstärkt Gesellschaft – die vertraute
+        SO7-Strategie, unangenehme innere Zustände durch äußere Anregung zu überdecken.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben ohne echte Pausen:</strong>
+        Schon lange vor den ersten Symptomen war Gershwin für seine praktisch pausenlose
+        Produktivität bekannt – mehrere Projekte gleichzeitig, kaum je wirkliche
+        Erholungsphasen, ein Terminkalender, der keine Leere zuließ.</p>
+        <p class="vb-intro"><strong>b) Monate mit ignorierten Warnzeichen:</strong>
+        Von den ersten Geruchshalluzinationen Anfang 1937 bis zum Kollaps im Juli desselben
+        Jahres verstrichen mehrere Monate, in denen Gershwin selbst, sein Umfeld und
+        mehrere Ärzte die Symptome konsequent verharmlosten.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Halbjahr voller neuer Projekte:</strong>
+        Statt sich zurückzuziehen, begann Gershwin in genau dieser Zeit neue
+        Filmmusik-Aufträge in Hollywood – ein weiteres Kapitel wurde aufgeschlagen, statt
+        das bereits begonnene zur Ruhe kommen zu lassen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gehirn?</strong>
+        Für eine soziale Sieben mit Sechserflügel, deren gesamte Identität am
+        unaufhörlichen Hervorbringen neuer Ideen hängt, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das ununterbrochen neue Musik, neue Pläne, neue
+        Begeisterung produzierte, wurde zum Ort einer Erkrankung, die sich jeder
+        Kontrolle entzog – während die für die SO7 typische Flucht nach vorn genau in dem
+        Organ ihre Grenze fand, das diese Flucht überhaupt erst ermöglichte. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu
+        Hirntumoren führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Gershwins Fall zeigen lässt, ist ein Muster, das
+        bei der Flucht vor Stillstand und der Fehlallokation von Wachsamkeit in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Gershwin kannte sein eigenes Enneagramm-Muster nicht – die soziale Sieben mit
+        Sechserflügel flieht fast reflexhaft vor jedem Anzeichen von Stillstand oder
+        Bedrohung in neue Projekte und gesellschaftliche Aktivität, statt innezuhalten und
+        die eigenen Warnsignale ernst zu nehmen. Genau das lebte er bis zuletzt ungebremst
+        aus: mehr Termine statt weniger, mehr Gesellschaft statt Rückzug, mehr neue Musik
+        statt der einen dringend nötigen ärztlichen Abklärung. Wer die eigene
+        Fluchtbewegung nicht als Muster erkennt, verwechselt sie leicht mit reinem
+        Tatendrang, selbst wenn der eigene Körper längst Alarm schlägt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Gershwins</strong> letzten Lebensmonaten lässt sich die soziale Sieben
+        mit Sechserflügel in einer ihrer erschütterndsten Formen ablesen: monatelang
+        fehlgedeutete Warnsignale, ein Terminkalender, der bis zum Kollaps keine Lücke
+        zuließ, und eine Wachsamkeit, die sich auf alles außer die eigene Gesundheit
+        richtete. Der Biber, der so lange weiterbaute, bis der eigene Bau ihn unter sich
+        begrub.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
 function nikolaTeslaKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -8787,6 +8973,7 @@ function nikolaTeslaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Erfinder"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – gleicher Subtyp"},
+        {route:"krankheitsportraets-george-gershwin", label:"Krankheitsporträt: George Gershwin (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
@@ -12945,177 +13132,6 @@ function umbertoEcoKrankheitsportraetPage() {
         {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
-      ])}
-    </div>
-  `);
-}
-
-function gretaThunbergKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Greta Thunberg</p>
-        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel · geb. 2003</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Flusspferd</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Greta Thunberg</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur kurz erwähnt wird: eine schwere depressive Episode mit
-        Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, mehrere Monate vor
-        der Diagnose von Asperger-Syndrom und Zwangsstörung.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Thunberg</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Einserflügel</strong>
-        zugeordnet. Die SE2 nimmt Bedrohungen der eigenen Existenzgrundlage unmittelbar
-        körperlich wahr, statt sie zu abstrahieren; der Einserflügel bringt eine moralische
-        Klarheit hinzu, die keine Kompromisse zulässt. Genau diese Kombination – eine als
-        existenziell erlebte Bedrohung, gekoppelt mit der Unfähigkeit, sich mit einer aus
-        eigener Sicht unerträglichen Realität zu arrangieren – bestimmte den Verlauf ihrer
-        eigenen psychischen Krise.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Beginn im Alter von etwa acht Jahren:</strong>
-        Nach eigener und familiärer Schilderung begann Thunberg bereits im Grundschulalter
-        zu verstehen, welche Ausmaße der Klimawandel hat – ein Wissen, das sie zunehmend
-        belastete, während ihre Umgebung kaum reagierte.</p>
-        <p class="vb-intro"><strong>b) Zunehmender Rückzug im Alter von elf Jahren:</strong>
-        Um das Jahr 2014 verschlechterte sich ihr Zustand deutlich: Sie aß kaum noch, verlor
-        erheblich an Gewicht und sprach zeitweise fast gar nicht mehr.</p>
-        <p class="vb-intro"><strong>c) Diagnose einer schweren Depression:</strong>
-        Ärzte diagnostizierten eine schwere depressive Episode, begleitet von einer
-        Essstörung und selektivem Mutismus – einem Zustand, in dem Sprechen in bestimmten
-        Situationen nicht mehr möglich ist.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Monatelanger Schulausfall:</strong>
-        Über mehrere Monate hinweg konnte Thunberg nach Angaben ihrer Familie nicht regelmäßig
-        die Schule besuchen.</p>
-        <p class="vb-intro"><strong>b) Spätere Diagnose von Asperger-Syndrom und Zwangsstörung:</strong>
-        Im weiteren Verlauf wurden zusätzlich Asperger-Syndrom und eine Zwangsstörung
-        diagnostiziert – Diagnosen, die Thunberg später selbst öffentlich als Teil ihrer
-        Identität beschrieb, nicht als Makel.</p>
-        <p class="vb-intro"><strong>c) Familiäre Begleitung als zentraler Faktor:</strong>
-        Ihre Eltern, insbesondere ihre Mutter, beschrieben in einem gemeinsam verfassten
-        Buch ausführlich, wie die gesamte Familie ihren Alltag über Monate an Gretas Zustand
-        ausrichtete.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Handeln als Ausweg aus der Krise:</strong>
-        Nach eigener Aussage begann sich ihr Zustand erst zu bessern, als sie begann, sich
-        aktiv für den Klimaschutz einzusetzen – zunächst innerhalb der Familie, dann
-        öffentlich.</p>
-        <p class="vb-intro"><strong>b) Der Schulstreik als konkretisierter Handlungsimpuls:</strong>
-        Der Schulstreik vor dem schwedischen Reichstag im August 2018 markierte den Punkt, an
-        dem aus innerer Belastung eine nach außen gerichtete, strukturierte Handlung wurde.</p>
-        <p class="vb-intro"><strong>c) Offener Umgang mit der eigenen Geschichte seither:</strong>
-        Anders als viele öffentliche Personen sprach Thunberg von Beginn an offen über diese
-        Krise, statt sie zu verschweigen oder zu verharmlosen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für ein selten offen thematisiertes Muster:</strong>
-        Thunbergs Offenheit über Depression, Essstörung und Neurodivergenz bei einer so
-        jungen, öffentlich extrem sichtbaren Person löste international Diskussionen über
-        psychische Gesundheit bei Jugendlichen aus.</p>
-        <p class="vb-intro"><strong>b) Verknüpfung von persönlicher Krise und politischem Engagement:</strong>
-        Für viele wurde ihre Geschichte zum Beispiel dafür, wie aus einer individuellen
-        psychischen Krise eine globale Bewegung entstehen kann, ohne dass die Krise selbst
-        verklärt wird.</p>
-        <p class="vb-intro"><strong>c) Anhaltende öffentliche Neugier auf ihre Diagnosen:</strong>
-        Bis heute wird Thunbergs Neurodivergenz in Medien immer wieder aufgegriffen – von ihr
-        selbst konsequent als Stärke, nicht als Einschränkung dargestellt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Existenzielle statt abstrakte Wahrnehmung der Bedrohung:</strong>
-        Die SE2-typische Unmittelbarkeit zeigte sich schon in der Kindheit: Der Klimawandel
-        war für die junge Greta keine ferne Nachricht, sondern eine körperlich spürbare
-        Bedrohung der eigenen Zukunft – genau jene Direktheit, die Jahre später ihre gesamte
-        öffentliche Sprache prägen sollte.</p>
-        <p class="vb-intro"><strong>b) Der Einserflügel und die Unmöglichkeit der Verdrängung:</strong>
-        Während andere Kinder das Wissen um den Klimawandel verdrängen oder relativieren
-        konnten, ließ der Einserflügel bei Thunberg keinen Kompromiss mit der als falsch
-        erkannten Realität zu – ein Muster, das die Krise verschärfte, bevor es später zur
-        Quelle ihrer Entschlossenheit wurde.</p>
-        <p class="vb-intro"><strong>c) Vom stummen Rückzug zur lauten Stimme:</strong>
-        Der selektive Mutismus – das Verstummen angesichts einer unerträglichen Realität –
-        und die spätere, weltweit gehörte Stimme sind zwei Seiten desselben Musters: Solange
-        keine Handlung möglich schien, verstummte sie; sobald Handlung möglich wurde, sprach
-        sie so klar wie kaum jemand sonst.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Stimme, die erst verstummte, bevor sie zur lautesten wurde:</strong>
-        Thunbergs gesamtes öffentliches Wirken beruht auf der Fähigkeit, unbequeme Wahrheiten
-        unmissverständlich auszusprechen – bevor sie diese Stimme fand, verlor sie sie
-        vollständig, als dieselbe Wahrheit noch keinen Ausweg zuließ.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet das Schweigen und der Hunger?</strong>
-        Für eine selbsterhaltende Zwei mit Einserflügel, deren gesamtes späteres Wirken auf
-        unmittelbarer, körperlich gespürter Dringlichkeit beruhte, liegt eine Deutung nahe:
-        Ausgerechnet die beiden Grundfunktionen, mit denen der Körper sich Gehör verschafft
-        – Sprechen und Essen – wurden vorübergehend zum Ort, an dem sich die als unerträglich
-        erlebte Bedrohung ausdrückte. Diese Deutung ist eine plausible Interpretation, kein
-        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
-        Depression und Essstörung führt – <strong>jeder Mensch kann jede Erkrankung
-        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Thunbergs Fall zeigen lässt,
-        ist ein Muster im Umgang mit einer als existenziell erlebten Bedrohung, das bei einer
-        ausgeprägten selbsterhaltenden Zwei mit Einserflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Thunberg kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
-        Zwei mit Einserflügel erlebt Bedrohungen der eigenen Existenzgrundlage reflexhaft als
-        unmittelbar körperlich, statt frühzeitig einen Ausgleich zwischen Dringlichkeit und
-        Selbstfürsorge zu finden, und lebt genau dieses Muster bis heute weitgehend
-        unverändert aus. Wer die eigene Neigung, existenzielle Bedrohungen ungefiltert am
-        eigenen Körper auszutragen, nicht als Muster erkennt, riskiert, dass sich die Krise
-        wiederholt, sobald keine Handlungsmöglichkeit mehr sichtbar ist.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 2 mit Einserflügel erklärt bei <strong>Greta Thunberg</strong>
-        vieles am Verlauf ihrer psychischen Krise: ein Mädchen, das eine globale Bedrohung so
-        unmittelbar körperlich erlebte wie kaum jemand sonst, verstummte zunächst vollständig
-        – und fand seine Stimme erst wieder, als aus stiller Verzweiflung konkretes Handeln
-        wurde. Das Flusspferd, das erst regungslos im Wasser verharrte, bevor es den ganzen
-        Strom umlenkte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
-        {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
       ])}
     </div>
   `);

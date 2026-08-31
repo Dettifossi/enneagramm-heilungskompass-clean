@@ -4542,7 +4542,7 @@ function georgeGershwinPortraitPage() {
 
         <h2 class="vb-section">6. Das Vermächtnis: Ein Fluss, der weiterfließt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden in einem eigenen Krankheitsporträt noch ausführlicher behandelt.</p>
+          <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-george-gershwin">Krankheitsporträt zu Gershwin</a> noch ausführlicher behandelt.</p>
           <p class="vb-intro">Was bleibt, ist ein Werk, das die Grenze zwischen U- und E-Musik in den USA endgültig durchlässig machte. Das ist das Geschenk der SO7w6 in ihrer reinsten Form: Begeisterung, die sich nicht im eigenen Vergnügen erschöpft, sondern zu einem Bauwerk wird, das ein ganzes Land trägt. Der Biber, dessen Damm auch dann noch hält, wenn der Baumeister selbst längst nicht mehr da ist.</p>
         </blockquote>
 
@@ -4552,6 +4552,7 @@ function georgeGershwinPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-george-gershwin", label:"Krankheitsporträt: George Gershwin (SO7w6) – Hirntumor"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},

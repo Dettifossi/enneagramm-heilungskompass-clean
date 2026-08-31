@@ -1,3 +1,201 @@
+function angelResendezPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("\u00c1ngel Res\u00e9ndez \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/angel-resendez-portrait.jpg" alt="\u00c1ngel Res\u00e9ndez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">\u00c1ngel Res\u00e9ndez</p>
+        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Eisenbahn-Killer" \u2013 USA 1997\u20131999</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>\u00c1ngel Maturino Res\u00e9ndez</strong>, geboren am 1. August 1960
+        in Iz\u00facar de Matamoros, Puebla, Mexiko,
+        ermordete als illegaler Einwanderer und Eisenbahnlandstreicher
+        mindestens <strong>neun Menschen</strong> in den Vereinigten Staaten;
+        sechs weitere Morde werden ihm zugeschrieben.
+        Er reiste entlang von G\u00fctereisenbahnlinien quer durch die USA,
+        drang in H\u00e4user nahe der Schienenstrecken ein
+        und t\u00f6tete die Bewohner mit \u00e4u\u00dferster Brutalit\u00e4t.
+        1999 stand er auf der FBI-Liste der zehn meistgesuchten Fl\u00fcchtigen.
+        Am 13. Juli 1999 stellte er sich freiwillig einem texanischen Ranger \u2013
+        vermittelt durch seine Schwester.
+        Am 27. Juni 2006 wurde er in Huntsville, Texas, durch die Giftspritze hingerichtet.
+        Das Enneagramm macht sichtbar, wie ein Mensch, der nichts besa\u00df und nirgends dazugeh\u00f6rte,
+        das \u00dcberleben mit r\u00fccksichtsloser Gewalt erzwang.
+      </p>
+
+      <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>\u00c1ngel Res\u00e9ndez</strong> wird dem <strong>Selbsterhaltenden Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
+        Die selbsterhaltende Zwei \u2013 auch als <em>\u201eIch zuerst"</em> oder <em>\u201ePrivileg"</em> bezeichnet \u2013
+        sichert ihren Platz in der Welt durch Ann\u00e4herung, durch das Erzwingen von N\u00e4he,
+        durch das Besetzen fremder Sph\u00e4ren.
+        Sie ist die Zwei, die nicht fragt, ob sie gebraucht wird \u2013 sie nimmt sich, was sie braucht.
+        Der Einserfl\u00fcgel verleiht ihr ein inneres Regelwerk und moralische Selbstgerechtigkeit:
+        eine stille \u00dcberzeugung, dass das, was sie tut, gerechtfertigt ist.
+        Der Stresspunkt liegt bei der <strong>Acht</strong>:
+        rohe Gewalt, Kontrollverlust, das brutalste Ende der F\u00fcrsorge-Fassade.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
+        <p class="vb-intro">
+        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
+        massiv und unscheinbar zugleich, scheinbar tr\u00e4ge und harmlos,
+        dabei jederzeit f\u00e4hig zu explosiver Gewalt.
+        Es lebt am Wasser \u2013 an der Grenze zwischen zwei Welten \u2013,
+        sch\u00fctzt sein Revier mit \u00e4u\u00dferster Entschlossenheit
+        und wirkt nach au\u00dfen hin fast gesellig.
+        Res\u00e9ndez lebte buchst\u00e4blich an einer Grenze: zwischen Mexiko und den USA,
+        zwischen Legalit\u00e4t und Kriminalit\u00e4t, zwischen Unsichtbarkeit und Brutalit\u00e4t.
+        Er tauchte auf, schlug zu, verschwand wieder \u2013
+        das Flusspferd, das zwischen den Welten gleitet
+        und nur sichtbar wird, wenn es zu sp\u00e4t ist.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: \u00dcberleben als einziges Gesetz</h3>
+        <p class="vb-intro"><strong>a) Das Grundprinzip:</strong>
+        Der Selbsterhaltende Typ 2 sichert seinen \u00dcberlebensraum
+        durch die Besetzung des Raumes anderer.
+        Er n\u00e4hert sich an \u2013 ob durch Hilfsbereitschaft, durch Charme oder durch Gewalt \u2013
+        und macht sich unentbehrlich, indem er schlicht anwesend ist.
+        Bei Res\u00e9ndez war diese Strategie radikal:
+        Er drang in H\u00e4user ein, nicht um zu helfen,
+        sondern weil das Haus jemand anderem geh\u00f6rte
+        und er keine eigene Sph\u00e4re besa\u00df.
+        Das Eindringen war die \u00dcberlebensstrategie des SE2 in ihrer dunkelsten Form:
+        nicht F\u00fcrsorge als Tarnung, sondern Besitznahme als Trieb.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Die innere Rechtfertigung:</strong>
+        Der Einserfl\u00fcgel verleiht der selbsterhaltenden Zwei
+        eine stille innere Rechtfertigung.
+        Res\u00e9ndez \u00e4u\u00dferte in Verh\u00f6ren eine Art moralische Gleichg\u00fcltigkeit gegen\u00fcber seinen Opfern \u2013
+        er zeigte wenig Reue, aber auch keine offene Grausamkeit im Ton.
+        Es war, als ob ein inneres Regelwerk besagte:
+        Das war notwendig. Das war mein Recht.
+        Diese moralische Selbstrechtfertigung ist das Markenzeichen des SE2w1 \u2013
+        nicht Sadismus, sondern Indifferenz gegen\u00fcber dem Leid anderer,
+        wenn die eigene \u00dcberlebensstrategie bedroht ist.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als Anspruch:</strong>
+        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
+        das unbewusste Festhalten an der eigenen \u00dcberlegenheit,
+        die \u00dcberzeugung, einen Anspruch auf das zu haben, was andere besitzen.
+        Bei Res\u00e9ndez zeigte sich dieser Stolz nicht als Eitelkeit,
+        sondern als eine Art primitiver Souver\u00e4nit\u00e4t:
+        die \u00dcberzeugung, dass seine Bed\u00fcrfnisse z\u00e4hlen,
+        auch wenn die Gesellschaft ihn als unsichtbar behandelte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Der Eisenbahn-Killer</h3>
+        <p class="vb-intro"><strong>a) Herkunft und Vorgeschichte:</strong>
+        Res\u00e9ndez wuchs in Mexiko in \u00e4rmlichen Verh\u00e4ltnissen auf
+        und \u00fcberquerte ab den sp\u00e4ten 1970er Jahren wiederholt illegal die Grenze zu den USA.
+        Er wurde mehrfach festgenommen und abgeschoben \u2013
+        und kehrte jedes Mal zur\u00fcck.
+        Er hatte keine feste Arbeit, kein Zuhause, keine sozialen Bindungen in den USA.
+        Sein Lebensmittelpunkt war die G\u00fctereisenbahn:
+        Er reiste als blinder Passagier auf G\u00fcterwaggons,
+        orientierte sich an Streckenverl\u00e4ufen und schlug dort zu,
+        wo H\u00e4user nahe an Gleisen lagen \u2013 abgelegen, schwer erreichbar,
+        ohne schnelle Polizeireaktionszeit.</p>
+        <p class="vb-intro"><strong>b) Die Opfer:</strong>
+        Res\u00e9ndez' Opfer waren Menschen, deren H\u00e4user zuf\u00e4llig in der N\u00e4he von Schienenstrecken lagen.
+        Es gab kein erkennbares pers\u00f6nliches Motiv \u2013 kein sexuelles Muster, keinen rituellen Charakter.
+        Die Bewohner wurden Opfer, weil sie anwesend waren.
+        Er verwendete als Tatwaffe, was er vorfand: Hacken, Eisenstangen, Steine.
+        Unter den neun best\u00e4tigten Opfern waren \u00e4ltere Frauen,
+        ein junges P\u00e4rchen, ein Priester und seine Haush\u00e4lterin.
+        Die Taten verteilten sich auf Texas, Kentucky, Illinois und New Mexico
+        und erstreckten sich \u00fcber einen Zeitraum von fast zwei Jahren (1997\u20131999).
+        Sechs weitere Morde in Texas und Mexiko werden ihm zugeschrieben,
+        konnten aber nicht abschlie\u00dfend bewiesen werden.</p>
+        <p class="vb-intro"><strong>c) Die Fahndung und Selbststellung:</strong>
+        Als die Verbindung der Taten zu einem einzigen T\u00e4ter erkannt wurde,
+        setzte das FBI Res\u00e9ndez auf seine Liste der zehn meistgesuchten Fl\u00fcchtigen.
+        Er war schwer zu fassen: kein fester Wohnsitz, mehrere Aliase,
+        st\u00e4ndige Bewegung entlang von Tausenden Kilometern Gleis.
+        Den Durchbruch brachte ein ungew\u00f6hnlicher Schritt:
+        Seine Schwester <strong>Manuelita Res\u00e9ndez</strong>
+        nahm Kontakt zu dem texanischen Ranger <strong>Drew Carter</strong> auf
+        und erkl\u00e4rte sich bereit zu vermitteln.
+        Am 13. Juli 1999 \u00fcberquerte Res\u00e9ndez an einem Grenz\u00fcbergang
+        in El Paso freiwillig die Grenze und stellte sich.
+        Ob er tats\u00e4chlich glaubte, einer Todesstrafe zu entgehen,
+        oder ob er ersch\u00f6pft war und aufgeben wollte, ist nicht abschlie\u00dfend bekannt.</p>
+        <p class="vb-intro"><strong>d) Prozess und Hinrichtung:</strong>
+        Res\u00e9ndez wurde in Texas wegen des Mordes an
+        <strong>Claudia Benton</strong> (39), Neurologin in West University Place,
+        zum Tode verurteilt \u2013 einer der F\u00e4lle, in denen die Beweislage am eindeutigsten war.
+        Er legte keine Berufung ein und akzeptierte das Urteil.
+        Am <strong>27. Juni 2006</strong> wurde er in Huntsville, Texas,
+        durch die Giftspritze hingerichtet. Er war 45 Jahre alt.
+        Seine letzten Worte richtete er an die Familie seiner Opfer:
+        \u201eI want to ask if it is in your heart to forgive me.
+        I am truly sorry for all the hurt I caused. I hope God will
+        not turn away from me."
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        \u00c1ngel Res\u00e9ndez ist der Selbsterhaltende Typ 2 in seiner elementarsten Form:
+        ein Mensch, der buchst\u00e4blich nichts besa\u00df \u2013
+        keine Papiere, kein Zuhause, keine Sprache des Gastlandes \u2013
+        und das \u00dcberleben durch das gewaltsame Besetzen fremder R\u00e4ume sicherte.
+        Das Flusspferd, das zwischen den Welten lebt,
+        das sich in die N\u00e4he des Menschlichen wagt und t\u00f6tet,
+        wenn sein \u00dcberlebensraum ber\u00fchrt wird \u2013
+        das ist das treffende Bild.
+        Was diesen Fall von anderen SE2-T\u00e4tern unterscheidet:
+        Res\u00e9ndez t\u00f6tete nicht aus moralischem Urteil wie Sutcliffe,
+        nicht aus Identit\u00e4tsfassade wie Unterweger.
+        Er t\u00f6tete, weil Anwesenheit und \u00dcberleben f\u00fcr ihn identisch waren.
+        Die letzte Geste \u2013 die Selbststellung, die Bitte um Vergebung \u2013
+        zeigt den Zweier-Kern: die tiefe Sehnsucht nach Verbindung,
+        die ein ganzes Leben lang durch Gewalt \u00fcberdeckt wurde.
+        </p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
+        <div style="font-size:0.88rem;line-height:1.8;">
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> \u00c1ngel Maturino Res\u00e9ndez</p>
+          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Iz\u00facar de Matamoros, Puebla, Mexiko</p>
+          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
+          <p style="margin:0 0 0.3rem;"><strong>Best\u00e4tigte Opfer:</strong> 9 Morde in den USA (1997\u20131999); 6 weitere zugeschrieben</p>
+          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
+          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
+        </div>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich \u2013 F\u00fcrsorge als \u00dcberlebensstrategie und ihre dunkelste Auspr\u00e4gung.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. \u00c1ngel Res\u00e9ndez wurde in Texas wegen Mordes zum Tode verurteilt und 2006 hingerichtet. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1) \u2013 Yorkshire Ripper"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Kriminalpsychologie: Tommy Lynn Sells (SE2w1) \u2013 Coast-to-Coast-Killer"},
+        {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"}
+      ])}
+    </div>
+  `);
+}
+
 function tommyLynnSellsPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11135,114 +11333,6 @@ function arbeitsverhalteDer9TypenPage() {
       ${relatedLinks([
         {route:"essverhalten-der-9-typen", label:"Essverhalten der 9 Typen"},
         {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function verhaeltnisZuGeldDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Verh\u00e4ltnis zu Geld der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Geld ist nie nur Geld \u2014 es ist ein Spiegel. Was wir damit machen, wie wir es festhalten oder loslassen, ob es uns Angst macht oder befl\u00fcgelt: All das verr\u00e4t etwas \u00fcber unseren Enneagrammtyp. Jeder Typ bringt seine eigenen Muster, \u00c4ngste und Sehns\u00fcchte in den Umgang mit Geld ein.</p>
-      <img src="./assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verh\u00e4ltnis zu Geld der 9 Enneagrammtypen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Ordnung und ethische Sorgfalt</h3>
-        <p class="vb-intro">Typ 1 sieht Geld oft als Mittel zur Schaffung von Ordnung und Sicherheit. Er ist diszipliniert und sorgf\u00e4ltig im Umgang mit Geld, vermeidet Verschwendung und legt Wert auf eine gerechte und ethische Verwendung von Ressourcen. Der innere Richter des Typs 1 wacht auch \u00fcber das Konto: Wird dieses Geld auf die richtige Art ausgegeben? Kann ich das wirklich verantworten? Diese Haltung macht ihn verl\u00e4sslich und vorausschauend \u2014 manchmal aber auch unn\u00f6tig rigide gegen\u00fcber sich selbst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Geben als Lebenshaltung</h3>
-        <p class="vb-intro">Typ 2 kann dazu neigen, Geld auszugeben, um anderen zu helfen und sich um sie zu k\u00fcmmern. Er findet Erf\u00fcllung darin, Geld f\u00fcr wohlt\u00e4tige Zwecke oder Geschenke auszugeben \u2014 kann aber manchmal Schwierigkeiten damit haben, die eigenen finanziellen Bed\u00fcrfnisse zu priorisieren. Hinter diesem Muster steckt oft die tiefe \u00dcberzeugung: Mein Wert liegt darin, was ich f\u00fcr andere tue. Wer Geld f\u00fcr sich selbst beh\u00e4lt, ist selbsts\u00fcchtig. Die Heilung des Typs 2 liegt auch hier: Geben darf keine Einbahnstra\u00dfe sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Erfolg und Status</h3>
-        <p class="vb-intro">Typ 3 sieht Geld oft als Symbol f\u00fcr Erfolg und Status. Er ist bereit, hart zu arbeiten, um finanziellen Wohlstand zu erreichen, und investiert gerne in Dinge, die seinen Status und seine Leistung widerspiegeln. Er kann jedoch auch dazu neigen, Geld zu sparen, um langfristige Ziele zu erreichen. F\u00fcr den Leistungsmensch ist Geld weniger Selbstzweck als R\u00fcckmeldung: Es zeigt, dass er angekommen ist, dass seine Arbeit gesehen wird, dass er z\u00e4hlt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Ambivalenz und Bedeutung</h3>
-        <p class="vb-intro">Typ 4 hat oft eine ambivalente Einstellung zu Geld. Er kann Geld als Mittel zur Erf\u00fcllung \u00e4sthetischer und emotionaler Bed\u00fcrfnisse betrachten und neigt dazu, es f\u00fcr einzigartige und bedeutungsvolle Erfahrungen und Objekte auszugeben. Er kann jedoch auch Schwierigkeiten haben, finanziell diszipliniert zu sein. Der \u00c4sthet will, dass Geld Ausdruck seines Inneren ist \u2014 Routine-Ausgaben f\u00fcr Allt\u00e4gliches f\u00fchlen sich f\u00fcr ihn oft bedeutungslos an, w\u00e4hrend ein perfektes Erlebnis oder ein besonderes St\u00fcck jeden Preis wert erscheint.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Sparsamkeit und Unabh\u00e4ngigkeit</h3>
-        <p class="vb-intro">Typ 5 ist in der Regel vorsichtig und sparsam im Umgang mit Geld. Er neigt dazu, Geld zu sparen und klug zu investieren, um finanzielle Sicherheit zu gew\u00e4hrleisten. Er bevorzugt es, Geld f\u00fcr Dinge auszugeben, die ihm Wissen und praktische Vorteile bringen. Geld bedeutet f\u00fcr den Denker vor allem eines: Unabh\u00e4ngigkeit. Wer finanziell abgesichert ist, muss nicht auf andere angewiesen sein \u2014 und das ist f\u00fcr den Typ 5 ein zutiefst erstrebenswerter Zustand.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Sicherheit und Vorsorge</h3>
-        <p class="vb-intro">Typ 6 hat oft ein sicherheitsorientiertes Verh\u00e4ltnis zu Geld. Er legt Wert auf finanzielle Stabilit\u00e4t und ist vorsichtig bei Investitionen. Er neigt dazu, Geld zu sparen und Risiken zu minimieren, um sich gegen unsichere Zukunftsszenarien abzusichern. Der Skeptiker denkt beim Geld immer ein paar Schritte voraus: Was, wenn etwas schiefl\u00e4uft? Was, wenn das Einkommen wegbricht? Diese Vorsorge ist eine seiner gro\u00dfen St\u00e4rken \u2014 solange sie nicht in l\u00e4hmende Angst \u00fcbergeht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Freiheit und Erlebnis</h3>
-        <p class="vb-intro">Typ 7 genie\u00dft es, Geld f\u00fcr neue Erfahrungen und Vergn\u00fcgungen auszugeben. Er neigt dazu, impulsiv zu sein und f\u00fcr Reisen, Freizeitaktivit\u00e4ten und andere lustvolle Erlebnisse Geld in die Hand zu nehmen. Er kann Schwierigkeiten haben, Geld zu sparen oder langfristige Pl\u00e4ne zu machen. F\u00fcr den Enthusiasten ist Geld Freiheitskapital \u2014 es kauft Optionen, Abenteuer, die n\u00e4chste M\u00f6glichkeit. Der Gedanke, es auf einem Konto liegen zu lassen, f\u00fchlt sich f\u00fcr ihn an wie verschenkte Lebenszeit.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Macht und Unabh\u00e4ngigkeit</h3>
-        <p class="vb-intro">Typ 8 sieht Geld als Mittel zur Macht und Unabh\u00e4ngigkeit. Er ist oft erfolgreich im Erwerb von Geld und hat keine Angst, es einzusetzen, um seine Ziele zu erreichen und seine Position zu st\u00e4rken. Er ist entschlossen und selbstbewusst im Umgang mit finanziellen Angelegenheiten. Der Herausforderer verhandelt, investiert und k\u00e4mpft um Ressourcen \u2014 nicht aus Gier, sondern weil Geld f\u00fcr ihn Handlungsf\u00e4higkeit bedeutet. Wer Geld hat, kann gestalten. Wer keines hat, ist abh\u00e4ngig. Und Abh\u00e4ngigkeit ist f\u00fcr den Typ 8 das Schlimmste.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Komfort und Entspanntheit</h3>
-        <p class="vb-intro">Typ 9 kann ein entspanntes und oft nachl\u00e4ssiges Verh\u00e4ltnis zu Geld haben. Er legt Wert auf Komfort und kann dazu neigen, Geld f\u00fcr Dinge auszugeben, die ihm ein Gef\u00fchl von Frieden und Wohlbefinden geben. Probleme hat er gegebenenfalls damit, sich auf langfristige finanzielle Ziele zu konzentrieren oder klare finanzielle Entscheidungen zu treffen. Der Vermittler m\u00f6chte keinen Streit \u2014 auch nicht mit dem eigenen Kontostand. Solange es reicht und alles ruhig bleibt, ist er zufrieden. Die Herausforderung liegt darin, sich aktiv um die eigene finanzielle Zukunft zu k\u00fcmmern, auch wenn es unbequem ist.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Verh\u00e4ltnis zu Geld im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Verh\u00e4ltnisses zu Geld im Rahmen seines jeweiligen Typspektrums.</p>
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
-        {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function sexualverhaltenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Sexualverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Der bekannte Enneagrammlehrer Claudio Naranjo hat das Sexualverhalten im Kontext der Enneagrammtypen untersucht. Jeder Typ bringt seine eigenen charakteristischen Muster, \u00c4ngste und Sehns\u00fcchte in sein Sexualverhalten ein.</p>
-      <img src="./assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Strukturiert und kontrolliert</h3>
-        <p class="vb-intro">Der Typ 1 kann beim Sex nach Perfektion streben, was zu Kontrollverhalten und Selbstkritik f\u00fchren kann. Der Perfektionist bringt seine innere Richterlinie auch in die Intimit\u00e4t mit \u2014 er m\u00f6chte alles richtig machen, den Partner nicht entt\u00e4uschen, keine Fehler begehen. Das kann hemmend wirken, aber auch sehr achtsam: Der Typ 1 kann sich sehr diszipliniert und zugewandt auf das Wohl des Partners konzentrieren, wenn er lernt, den inneren Kritiker zum Schweigen zu bringen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Warmherzig und f\u00fcrsorglich</h3>
-        <p class="vb-intro">Der Typ 2 setzt oft den Partner an erste Stelle und kann beim Sex sehr gebend und f\u00fcrsorglich sein. Der Helfer sucht in der Intimit\u00e4t emotionale Best\u00e4tigung und Wertsch\u00e4tzung \u2014 er gibt sich vollst\u00e4ndig hin und hofft, durch dieses Geben Liebe zur\u00fcckzubekommen. Sein Sexualverhalten ist warmherzig und zugewandt, aber oft auch mit einem stillen Bed\u00fcrfnis verbunden: Siehst du, wie sehr ich f\u00fcr dich da bin? Werde ich das zur\u00fcckbekommen?</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Zielgerichtet und effektiv</h3>
-        <p class="vb-intro">Der Typ 3 kann Sex als eine Leistung betrachten und strebt danach, als guter Liebhaber wahrgenommen zu werden. Der Leistungsmensch bringt seine Grundorientierung auch ins Schlafzimmer: Er m\u00f6chte gl\u00e4nzen, beeindrucken, der Beste sein. Das kann sehr stimulierend wirken \u2014 aber es birgt auch die Frage, ob hinter der Inszenierung echte Hingabe steckt. Je bewusster der Typ 3, desto mehr l\u00f6st sich die Leistungshaltung auf und macht Platz f\u00fcr echte Verbindung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Intensiv und emotional</h3>
-        <p class="vb-intro">Der Typ 4 erlebt Sexualit\u00e4t oft intensiv und leidenschaftlich, mit einer Tendenz zur Dramatik und emotionaler Tiefe. Der \u00c4sthet sucht in der k\u00f6rperlichen Begegnung nach einer tiefen, bedeutungsvollen Verbindung \u2014 Sexualit\u00e4t ist f\u00fcr ihn kein fl\u00fcchtiger Moment, sondern ein Raum, in dem das Innerste sichtbar wird. Er kann hingebungsvoll und leidenschaftlich sein, braucht aber Echtheit: Oberfl\u00e4chlichkeit oder Routine sind f\u00fcr den Typ 4 das Ende jeder Erotik.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Zur\u00fcckhaltend und analytisch</h3>
-        <p class="vb-intro">Der Typ 5 kann distanziert und analytisch an Sexualit\u00e4t herangehen, oft mit einem Bed\u00fcrfnis nach emotionalem Abstand. Der Denker kann Schwierigkeiten haben, sich v\u00f6llig hinzugeben \u2014 er bevorzugt, wenn m\u00f6glich, intellektuelle Intimit\u00e4t. K\u00f6rperliche N\u00e4he erfordert von ihm Vertrauen und Sicherheit, die er sich langsam erarbeitet. Wenn dieser Schritt gelingt, \u00f6ffnet sich hinter der k\u00fchlen Fassade ein Mensch, der mit gro\u00dfer Aufmerksamkeit und Z\u00e4rtlichkeit da sein kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Z\u00f6gerlich und unsicher</h3>
-        <p class="vb-intro">Der Typ 6 kann beim Sex Unsicherheit und Zweifel erleben, sucht aber gleichzeitig nach Sicherheit und Vertrauen. Der Skeptiker bringt seine Grundangst auch in die Intimit\u00e4t: Bin ich gut genug? Ist das sicher? Kann ich mich fallen lassen? Er kann sexuell z\u00f6gerlich sein und ben\u00f6tigt Best\u00e4tigung und Stabilit\u00e4t vom Partner. Hat er diese Sicherheit gefunden, \u00f6ffnet er sich mit einer Treue und Verl\u00e4sslichkeit, die seinesgleichen sucht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spontan und verspielt</h3>
-        <p class="vb-intro">Der Typ 7 geht oft spielerisch und abenteuerlustig mit Sexualit\u00e4t um, mit einer Vorliebe f\u00fcr Vielfalt und neue Erfahrungen. Der Enthusiast sieht Sex als Spa\u00df und Vergn\u00fcgen \u2014 er bringt Leichtigkeit, Humor und Entdeckungsfreude mit. Er kann Schwierigkeiten haben, sich zu binden und neigt dazu, Tiefe durch Abwechslung zu ersetzen. Je bewusster der Typ 7, desto mehr entdeckt er, dass die gr\u00f6\u00dfte Freiheit nicht in der Flucht liegt \u2014 sondern im vollst\u00e4ndigen Ankommen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kraftvoll und dominant</h3>
-        <p class="vb-intro">Der Typ 8 hat ein starkes und intensives Sexualverhalten, oft gepr\u00e4gt von Dominanz und Kontrolle. Der Herausforderer kann sehr leidenschaftlich und direkt sein und sucht oft nach Macht und Einfluss in der sexuellen Dynamik. Hinter dieser Intensit\u00e4t steckt aber eine tiefe Sehnsucht: geliebt zu werden, ohne Schw\u00e4che zeigen zu m\u00fcssen. Wem es gelingt, dem Typ 8 diesen sicheren Raum zu geben, erlebt einen Menschen, der sich mit beeindruckender Verletzlichkeit \u00f6ffnen kann.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanft und harmonisch</h3>
-        <p class="vb-intro">Der Typ 9 hat ein entspanntes und harmonisches Sexualverhalten, das auf die Bed\u00fcrfnisse des Partners eingeht. Der Vermittler neigt dazu, Konflikte zu vermeiden, und sucht nach Frieden und Verbindung in der sexuellen Beziehung. Er kann sich dabei selbst vergessen \u2014 seine eigenen W\u00fcnsche zur\u00fcckstellen, um den anderen gl\u00fccklich zu machen. Je bewusster der Typ 9, desto mehr lernt er, auch die eigene Stimme einzubringen: Verbindung entsteht zwischen zwei Anwesenden, nicht zwischen einem und seinem Echo.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Sexualverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Sexualverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
-        {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
       ])}
     </div>

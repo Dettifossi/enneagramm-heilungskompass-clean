@@ -32355,6 +32355,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Selbsterhaltender Typ 5", krankheit:"Prostatakrebs im Frühstadium, 2012 diagnostiziert", teaser:"SE5w6 – Investor und Unternehmer, geb. 1930. 2012 im Alter von 81 Jahren mit Prostatakrebs im Stadium I diagnostiziert, per offenem Aktionärsbrief bekanntgegeben. Zweimonatige Strahlentherapie, im September 2012 erfolgreich abgeschlossen, ohne Unterbrechung seiner Führungsrolle bei Berkshire Hathaway." , land:"USA", gender:"m", jahre:"geb. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
+  { route:"krankheitsportraets-george-gershwin", name:"George Gershwin", subtyp:"SO7w6", heading:"George Gershwin – Sozialer Typ 7", krankheit:"Glioblastom (bösartiger Hirntumor), erste Symptome monatelang als Erschöpfung oder Nervosität fehlgedeutet", teaser:"SO7w6 – US-amerikanischer Komponist, 1898–1937. Monatelange Kopfschmerzen, Geruchshalluzinationen (verbranntes Gummi) und Konzentrationsstörungen, zunächst als Überarbeitung abgetan. Kollabierte im Juli 1937 in den MGM-Studios, starb am 11. Juli 1937 nach einer Notoperation im Alter von nur 38 Jahren." , land:"USA", gender:"m", jahre:"1898–1937"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", heading:"Nikola Tesla – Sozialer Typ 7", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SO7w6 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Selbsterhaltender Typ 4", krankheit:"Wiederkehrende psychotische und mutmaßlich epileptische Krisen, Ohrschnitt 1888, Tod durch vermutlich selbst beigebrachte Schussverletzung", teaser:"SE4w5 – niederländischer Maler, 1853–1890. Wiederholte schwere psychische Krisen ab 1888, freiwillige Einweisung nach Saint-Rémy, Ohrschnitt nach dem Bruch mit Gauguin, ›Sternennacht‹ mitten in der Krise gemalt, Tod zwei Tage nach einer Schussverletzung am 29. Juli 1890." , land:"Niederlande", gender:"m", jahre:"1853–1890"},
   { route:"krankheitsportraets-stephen-hawking", name:"Stephen Hawking", subtyp:"SO5w6", heading:"Stephen Hawking – Sozialer Typ 5", krankheit:"Amyotrophe Lateralsklerose (ALS), Diagnose mit 21 Jahren, progressive Lähmung über 55 Jahre", teaser:"SO5w6 – britischer Physiker, 1942–2018. Diagnose mit 21 Jahren und einer Prognose von zwei Lebensjahren, überlebte 55 weitere Jahre bei fortschreitender vollständiger Lähmung. Kommunizierte zuletzt über einen computergestützten Sprachsynthesizer, arbeitete bis zuletzt an offenen Fragen der Physik." , land:"Großbritannien", gender:"m", jahre:"1942–2018"},
@@ -77479,7 +77480,7 @@ function georgeGershwinPortraitPage() {
 
         <h2 class="vb-section">6. Das Vermächtnis: Ein Fluss, der weiterfließt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden in einem eigenen Krankheitsporträt noch ausführlicher behandelt.</p>
+          <p class="vb-intro">Gershwin starb 1937 im Alter von nur 38 Jahren an einem Hirntumor &ndash; ein plötzliches, für viele Zeitgenossen unfassbares Ende mitten im Schaffen. Die Umstände seiner letzten Lebensmonate, in denen erste Symptome lange fehlgedeutet wurden, werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-george-gershwin">Krankheitsporträt zu Gershwin</a> noch ausführlicher behandelt.</p>
           <p class="vb-intro">Was bleibt, ist ein Werk, das die Grenze zwischen U- und E-Musik in den USA endgültig durchlässig machte. Das ist das Geschenk der SO7w6 in ihrer reinsten Form: Begeisterung, die sich nicht im eigenen Vergnügen erschöpft, sondern zu einem Bauwerk wird, das ein ganzes Land trägt. Der Biber, dessen Damm auch dann noch hält, wenn der Baumeister selbst längst nicht mehr da ist.</p>
         </blockquote>
 
@@ -77489,6 +77490,7 @@ function georgeGershwinPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-george-gershwin", label:"Krankheitsporträt: George Gershwin (SO7w6) – Hirntumor"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
@@ -91190,6 +91192,192 @@ function voltaireKrankheitsportraetPage() {
   `);
 }
 
+function georgeGershwinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-george-gershwin-portrait.jpg" alt="George Gershwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Gershwin</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1898–1937</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>George Gershwin</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-george-gershwin">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk, von
+        „Rhapsody in Blue" bis „Porgy and Bess". Dieses Porträt vertieft ein Kapitel, das
+        dort nur gestreift wird: die letzten Monate seines Lebens, in denen ein bösartiger
+        Hirntumor zunächst als Erschöpfung und Nervosität fehlgedeutet wurde, bis er am
+        11. Juli 1937 im Alter von nur 38 Jahren daran starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gershwin</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SO7 stellt ihre überschäumende Energie in den Dienst eines größeren
+        Ideals und flieht dabei reflexhaft vor jedem Anzeichen von Stillstand oder Schmerz –
+        auch vor den eigenen Warnsignalen des Körpers. Der Sechserflügel bringt zwar
+        systematische Wachsamkeit gegenüber äußeren Risiken hinzu, doch diese Wachsamkeit
+        galt bei Gershwin fast ausschließlich seiner Musik, nicht seiner Gesundheit. Genau
+        diese Kombination aus rastloser Fluchtbewegung und blinder Stelle für den eigenen
+        Körper prägte den fatalen Verlauf seiner letzten Lebensmonate.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein seltsamer Geruch, der niemand sonst wahrnahm:</strong>
+        Ab Anfang 1937 berichtete Gershwin wiederholt, er rieche verbranntes Gummi – eine
+        Geruchshalluzination, die medizinisch als typisches Frühsymptom bestimmter
+        Hirntumoren gilt, damals aber niemandem etwas sagte.</p>
+        <p class="vb-intro"><strong>b) Kopfschmerzen, die als Nervosität abgetan wurden:</strong>
+        Zunehmende, teils heftige Kopfschmerzen, Konzentrationsstörungen und
+        Koordinationsprobleme wurden von Ärzten und Freunden monatelang als psychosomatisch
+        gedeutet – Überarbeitung, Erschöpfung durch den Umzug nach Hollywood, nervöse
+        Anspannung vor neuen Filmprojekten.</p>
+        <p class="vb-intro"><strong>c) Ein wachsendes Gefühl, dass etwas nicht stimmte:</strong>
+        Gershwin selbst äußerte gegenüber engen Freunden zunehmend die Sorge, ernsthaft
+        krank zu sein, ließ sich aber von mehreren Ärzten beruhigen, die keine organische
+        Ursache finden konnten – und arbeitete währenddessen weiter an neuen Kompositionen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Zusammenbruch am Set:</strong>
+        Am 9. Juli 1937 verlor Gershwin während der Arbeit an den MGM-Studios kurzzeitig das
+        Bewusstsein. Erst jetzt wurde eine gründliche neurologische Untersuchung eingeleitet.</p>
+        <p class="vb-intro"><strong>b) Eine Diagnose, die zu spät kam:</strong>
+        Ärzte diagnostizierten ein Glioblastom, einen besonders aggressiven, bösartigen
+        Hirntumor. Eine Notoperation am 11. Juli 1937 im Cedars of Lebanon Hospital in Los
+        Angeles konnte den Tumor nicht mehr wirksam entfernen.</p>
+        <p class="vb-intro"><strong>c) Tod noch am selben Tag:</strong>
+        Gershwin starb wenige Stunden nach der Operation, am 11. Juli 1937, im Alter von 38
+        Jahren – für Familie, Freunde und die amerikanische Musikwelt ein Schock, der
+        keinerlei Vorwarnzeit gelassen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Weiterarbeiten trotz Warnsignalen:</strong>
+        Selbst mit spürbar zunehmenden Symptomen komponierte Gershwin in seinen letzten
+        Lebensmonaten in Hollywood unvermindert weiter an Filmmusik – unter anderem für
+        „Shall We Dance" und „A Damsel in Distress" mit Fred Astaire.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug, sondern noch mehr Gesellschaft:</strong>
+        Weggefährten berichteten, dass Gershwin auch in den Monaten wachsender
+        gesundheitlicher Beschwerden ein aktives, geselliges Leben führte, weiterhin
+        Partys besuchte und veranstaltete – als könne die eigene gesellschaftliche
+        Präsenz die körperlichen Warnzeichen überstimmen.</p>
+        <p class="vb-intro"><strong>c) Fehldiagnosen, die auf Fluchtverhalten interpretiert wurden:</strong>
+        Einige der behandelnden Ärzte vermuteten zunächst eine psychosomatische Ursache
+        oder sogar eine Hysterie-Diagnose, teils weil Gershwins äußere Fassade so wenig auf
+        eine ernsthafte körperliche Erkrankung schließen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein abruptes Ende mitten im Schaffen:</strong>
+        Gershwin starb auf dem Höhepunkt seines Erfolgs, mit zahlreichen unvollendeten
+        Projekten und Plänen für weitere Bühnen- und Filmwerke.</p>
+        <p class="vb-intro"><strong>b) Landesweite Trauer:</strong>
+        Sein Tod löste eine Welle öffentlicher Trauer in den USA aus; Radiosender
+        unterbrachen ihr Programm, um die Nachricht zu verkünden, und zahlreiche Kollegen
+        widmeten ihm in den folgenden Wochen Gedenkkonzerte.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche medizinische Aufarbeitung:</strong>
+        Erst Jahrzehnte später wurde in der medizinischen Fachliteratur breiter diskutiert,
+        wie typisch Gershwins frühe Symptome – insbesondere die Geruchshalluzinationen –
+        tatsächlich für Hirntumoren waren, und wie leicht sie damals fehlgedeutet wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Flucht nach vorn statt Innehalten:</strong>
+        Die SO7-typische Strategie, drohendem Schmerz durch immer neue Projekte und
+        Aktivität auszuweichen, zeigte sich bei Gershwin bis zuletzt: Je mehr Symptome
+        auftraten, desto mehr füllte er seinen Terminkalender.</p>
+        <p class="vb-intro"><strong>b) Wachsamkeit am falschen Ort:</strong>
+        Der Sechserflügel richtete seine Vorsicht auf die eigene künstlerische Legitimität
+        – die Suche nach Lehrern, die Sorge um die Qualität seiner Werke –, nicht auf die
+        eigene körperliche Verfassung. Diese Fehlallokation von Wachsamkeit ist ein
+        Muster, das bei SO7w6-Persönlichkeiten immer wieder zu beobachten ist.</p>
+        <p class="vb-intro"><strong>c) Geselligkeit als Ablenkung:</strong>
+        Statt sich mit den eigenen Ängsten vor einer ernsthaften Erkrankung
+        auseinanderzusetzen, suchte Gershwin verstärkt Gesellschaft – die vertraute
+        SO7-Strategie, unangenehme innere Zustände durch äußere Anregung zu überdecken.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben ohne echte Pausen:</strong>
+        Schon lange vor den ersten Symptomen war Gershwin für seine praktisch pausenlose
+        Produktivität bekannt – mehrere Projekte gleichzeitig, kaum je wirkliche
+        Erholungsphasen, ein Terminkalender, der keine Leere zuließ.</p>
+        <p class="vb-intro"><strong>b) Monate mit ignorierten Warnzeichen:</strong>
+        Von den ersten Geruchshalluzinationen Anfang 1937 bis zum Kollaps im Juli desselben
+        Jahres verstrichen mehrere Monate, in denen Gershwin selbst, sein Umfeld und
+        mehrere Ärzte die Symptome konsequent verharmlosten.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Halbjahr voller neuer Projekte:</strong>
+        Statt sich zurückzuziehen, begann Gershwin in genau dieser Zeit neue
+        Filmmusik-Aufträge in Hollywood – ein weiteres Kapitel wurde aufgeschlagen, statt
+        das bereits begonnene zur Ruhe kommen zu lassen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gehirn?</strong>
+        Für eine soziale Sieben mit Sechserflügel, deren gesamte Identität am
+        unaufhörlichen Hervorbringen neuer Ideen hängt, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, das ununterbrochen neue Musik, neue Pläne, neue
+        Begeisterung produzierte, wurde zum Ort einer Erkrankung, die sich jeder
+        Kontrolle entzog – während die für die SO7 typische Flucht nach vorn genau in dem
+        Organ ihre Grenze fand, das diese Flucht überhaupt erst ermöglichte. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu
+        Hirntumoren führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Gershwins Fall zeigen lässt, ist ein Muster, das
+        bei der Flucht vor Stillstand und der Fehlallokation von Wachsamkeit in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Gershwin kannte sein eigenes Enneagramm-Muster nicht – die soziale Sieben mit
+        Sechserflügel flieht fast reflexhaft vor jedem Anzeichen von Stillstand oder
+        Bedrohung in neue Projekte und gesellschaftliche Aktivität, statt innezuhalten und
+        die eigenen Warnsignale ernst zu nehmen. Genau das lebte er bis zuletzt ungebremst
+        aus: mehr Termine statt weniger, mehr Gesellschaft statt Rückzug, mehr neue Musik
+        statt der einen dringend nötigen ärztlichen Abklärung. Wer die eigene
+        Fluchtbewegung nicht als Muster erkennt, verwechselt sie leicht mit reinem
+        Tatendrang, selbst wenn der eigene Körper längst Alarm schlägt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Gershwins</strong> letzten Lebensmonaten lässt sich die soziale Sieben
+        mit Sechserflügel in einer ihrer erschütterndsten Formen ablesen: monatelang
+        fehlgedeutete Warnsignale, ein Terminkalender, der bis zum Kollaps keine Lücke
+        zuließ, und eine Wachsamkeit, die sich auf alles außer die eigene Gesundheit
+        richtete. Der Biber, der so lange weiterbaute, bis der eigene Bau ihn unter sich
+        begrub.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
 function nikolaTeslaKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -91372,6 +91560,7 @@ function nikolaTeslaKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Erfinder"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – gleicher Subtyp"},
+        {route:"krankheitsportraets-george-gershwin", label:"Krankheitsporträt: George Gershwin (SO7w6) – gleicher Subtyp, entgegengesetzter Verlauf"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
@@ -140952,6 +141141,7 @@ function render() {
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
+      "krankheitsportraets-george-gershwin": georgeGershwinKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-vincent-van-gogh": vincentVanGoghKrankheitsportraetPage,
       "krankheitsportraets-stephen-hawking": stephenHawkingKrankheitsportraetPage,

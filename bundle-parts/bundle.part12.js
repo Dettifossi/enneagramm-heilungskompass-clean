@@ -1,3 +1,174 @@
+function gretaThunbergKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-greta-thunberg-portrait.jpg" alt="Greta Thunberg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Greta Thunberg</p>
+        <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel · geb. 2003</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Flusspferd</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se2.jpg" alt="Tierentsprechung: Flusspferd" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE2")};left:${tierAvatarLeft("SE2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Greta Thunberg</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: eine schwere depressive Episode mit
+        Essstörung und selektivem Mutismus im Alter von etwa elf Jahren, mehrere Monate vor
+        der Diagnose von Asperger-Syndrom und Zwangsstörung.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Thunberg</strong> ist dem <strong>selbsterhaltenden Typ 2 mit Einserflügel</strong>
+        zugeordnet. Die SE2 nimmt Bedrohungen der eigenen Existenzgrundlage unmittelbar
+        körperlich wahr, statt sie zu abstrahieren; der Einserflügel bringt eine moralische
+        Klarheit hinzu, die keine Kompromisse zulässt. Genau diese Kombination – eine als
+        existenziell erlebte Bedrohung, gekoppelt mit der Unfähigkeit, sich mit einer aus
+        eigener Sicht unerträglichen Realität zu arrangieren – bestimmte den Verlauf ihrer
+        eigenen psychischen Krise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn im Alter von etwa acht Jahren:</strong>
+        Nach eigener und familiärer Schilderung begann Thunberg bereits im Grundschulalter
+        zu verstehen, welche Ausmaße der Klimawandel hat – ein Wissen, das sie zunehmend
+        belastete, während ihre Umgebung kaum reagierte.</p>
+        <p class="vb-intro"><strong>b) Zunehmender Rückzug im Alter von elf Jahren:</strong>
+        Um das Jahr 2014 verschlechterte sich ihr Zustand deutlich: Sie aß kaum noch, verlor
+        erheblich an Gewicht und sprach zeitweise fast gar nicht mehr.</p>
+        <p class="vb-intro"><strong>c) Diagnose einer schweren Depression:</strong>
+        Ärzte diagnostizierten eine schwere depressive Episode, begleitet von einer
+        Essstörung und selektivem Mutismus – einem Zustand, in dem Sprechen in bestimmten
+        Situationen nicht mehr möglich ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Monatelanger Schulausfall:</strong>
+        Über mehrere Monate hinweg konnte Thunberg nach Angaben ihrer Familie nicht regelmäßig
+        die Schule besuchen.</p>
+        <p class="vb-intro"><strong>b) Spätere Diagnose von Asperger-Syndrom und Zwangsstörung:</strong>
+        Im weiteren Verlauf wurden zusätzlich Asperger-Syndrom und eine Zwangsstörung
+        diagnostiziert – Diagnosen, die Thunberg später selbst öffentlich als Teil ihrer
+        Identität beschrieb, nicht als Makel.</p>
+        <p class="vb-intro"><strong>c) Familiäre Begleitung als zentraler Faktor:</strong>
+        Ihre Eltern, insbesondere ihre Mutter, beschrieben in einem gemeinsam verfassten
+        Buch ausführlich, wie die gesamte Familie ihren Alltag über Monate an Gretas Zustand
+        ausrichtete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Handeln als Ausweg aus der Krise:</strong>
+        Nach eigener Aussage begann sich ihr Zustand erst zu bessern, als sie begann, sich
+        aktiv für den Klimaschutz einzusetzen – zunächst innerhalb der Familie, dann
+        öffentlich.</p>
+        <p class="vb-intro"><strong>b) Der Schulstreik als konkretisierter Handlungsimpuls:</strong>
+        Der Schulstreik vor dem schwedischen Reichstag im August 2018 markierte den Punkt, an
+        dem aus innerer Belastung eine nach außen gerichtete, strukturierte Handlung wurde.</p>
+        <p class="vb-intro"><strong>c) Offener Umgang mit der eigenen Geschichte seither:</strong>
+        Anders als viele öffentliche Personen sprach Thunberg von Beginn an offen über diese
+        Krise, statt sie zu verschweigen oder zu verharmlosen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für ein selten offen thematisiertes Muster:</strong>
+        Thunbergs Offenheit über Depression, Essstörung und Neurodivergenz bei einer so
+        jungen, öffentlich extrem sichtbaren Person löste international Diskussionen über
+        psychische Gesundheit bei Jugendlichen aus.</p>
+        <p class="vb-intro"><strong>b) Verknüpfung von persönlicher Krise und politischem Engagement:</strong>
+        Für viele wurde ihre Geschichte zum Beispiel dafür, wie aus einer individuellen
+        psychischen Krise eine globale Bewegung entstehen kann, ohne dass die Krise selbst
+        verklärt wird.</p>
+        <p class="vb-intro"><strong>c) Anhaltende öffentliche Neugier auf ihre Diagnosen:</strong>
+        Bis heute wird Thunbergs Neurodivergenz in Medien immer wieder aufgegriffen – von ihr
+        selbst konsequent als Stärke, nicht als Einschränkung dargestellt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Existenzielle statt abstrakte Wahrnehmung der Bedrohung:</strong>
+        Die SE2-typische Unmittelbarkeit zeigte sich schon in der Kindheit: Der Klimawandel
+        war für die junge Greta keine ferne Nachricht, sondern eine körperlich spürbare
+        Bedrohung der eigenen Zukunft – genau jene Direktheit, die Jahre später ihre gesamte
+        öffentliche Sprache prägen sollte.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und die Unmöglichkeit der Verdrängung:</strong>
+        Während andere Kinder das Wissen um den Klimawandel verdrängen oder relativieren
+        konnten, ließ der Einserflügel bei Thunberg keinen Kompromiss mit der als falsch
+        erkannten Realität zu – ein Muster, das die Krise verschärfte, bevor es später zur
+        Quelle ihrer Entschlossenheit wurde.</p>
+        <p class="vb-intro"><strong>c) Vom stummen Rückzug zur lauten Stimme:</strong>
+        Der selektive Mutismus – das Verstummen angesichts einer unerträglichen Realität –
+        und die spätere, weltweit gehörte Stimme sind zwei Seiten desselben Musters: Solange
+        keine Handlung möglich schien, verstummte sie; sobald Handlung möglich wurde, sprach
+        sie so klar wie kaum jemand sonst.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme, die erst verstummte, bevor sie zur lautesten wurde:</strong>
+        Thunbergs gesamtes öffentliches Wirken beruht auf der Fähigkeit, unbequeme Wahrheiten
+        unmissverständlich auszusprechen – bevor sie diese Stimme fand, verlor sie sie
+        vollständig, als dieselbe Wahrheit noch keinen Ausweg zuließ.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet das Schweigen und der Hunger?</strong>
+        Für eine selbsterhaltende Zwei mit Einserflügel, deren gesamtes späteres Wirken auf
+        unmittelbarer, körperlich gespürter Dringlichkeit beruhte, liegt eine Deutung nahe:
+        Ausgerechnet die beiden Grundfunktionen, mit denen der Körper sich Gehör verschafft
+        – Sprechen und Essen – wurden vorübergehend zum Ort, an dem sich die als unerträglich
+        erlebte Bedrohung ausdrückte. Diese Deutung ist eine plausible Interpretation, kein
+        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Zwei zwangsläufig zu
+        Depression und Essstörung führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Thunbergs Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer als existenziell erlebten Bedrohung, das bei einer
+        ausgeprägten selbsterhaltenden Zwei mit Einserflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Thunberg kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
+        Zwei mit Einserflügel erlebt Bedrohungen der eigenen Existenzgrundlage reflexhaft als
+        unmittelbar körperlich, statt frühzeitig einen Ausgleich zwischen Dringlichkeit und
+        Selbstfürsorge zu finden, und lebt genau dieses Muster bis heute weitgehend
+        unverändert aus. Wer die eigene Neigung, existenzielle Bedrohungen ungefiltert am
+        eigenen Körper auszutragen, nicht als Muster erkennt, riskiert, dass sich die Krise
+        wiederholt, sobald keine Handlungsmöglichkeit mehr sichtbar ist.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 2 mit Einserflügel erklärt bei <strong>Greta Thunberg</strong>
+        vieles am Verlauf ihrer psychischen Krise: ein Mädchen, das eine globale Bedrohung so
+        unmittelbar körperlich erlebte wie kaum jemand sonst, verstummte zunächst vollständig
+        – und fand seine Stimme erst wieder, als aus stiller Verzweiflung konkretes Handeln
+        wurde. Das Flusspferd, das erst regungslos im Wasser verharrte, bevor es den ganzen
+        Strom umlenkte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
+        {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se2", label:"Subtyp-Profil SE2"},
+      ])}
+    </div>
+  `);
+}
+
 function bobMarleyKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11218,204 +11389,6 @@ function busterMurdaughPortraitPage() {
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
-      ])}
-    </div>
-  `);
-}
-
-function angelResendezPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("\u00c1ngel Res\u00e9ndez \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/angel-resendez-portrait.jpg" alt="\u00c1ngel Res\u00e9ndez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">\u00c1ngel Res\u00e9ndez</p>
-        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Eisenbahn-Killer" \u2013 USA 1997\u20131999</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>\u00c1ngel Maturino Res\u00e9ndez</strong>, geboren am 1. August 1960
-        in Iz\u00facar de Matamoros, Puebla, Mexiko,
-        ermordete als illegaler Einwanderer und Eisenbahnlandstreicher
-        mindestens <strong>neun Menschen</strong> in den Vereinigten Staaten;
-        sechs weitere Morde werden ihm zugeschrieben.
-        Er reiste entlang von G\u00fctereisenbahnlinien quer durch die USA,
-        drang in H\u00e4user nahe der Schienenstrecken ein
-        und t\u00f6tete die Bewohner mit \u00e4u\u00dferster Brutalit\u00e4t.
-        1999 stand er auf der FBI-Liste der zehn meistgesuchten Fl\u00fcchtigen.
-        Am 13. Juli 1999 stellte er sich freiwillig einem texanischen Ranger \u2013
-        vermittelt durch seine Schwester.
-        Am 27. Juni 2006 wurde er in Huntsville, Texas, durch die Giftspritze hingerichtet.
-        Das Enneagramm macht sichtbar, wie ein Mensch, der nichts besa\u00df und nirgends dazugeh\u00f6rte,
-        das \u00dcberleben mit r\u00fccksichtsloser Gewalt erzwang.
-      </p>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>\u00c1ngel Res\u00e9ndez</strong> wird dem <strong>Selbsterhaltenden Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
-        Die selbsterhaltende Zwei \u2013 auch als <em>\u201eIch zuerst"</em> oder <em>\u201ePrivileg"</em> bezeichnet \u2013
-        sichert ihren Platz in der Welt durch Ann\u00e4herung, durch das Erzwingen von N\u00e4he,
-        durch das Besetzen fremder Sph\u00e4ren.
-        Sie ist die Zwei, die nicht fragt, ob sie gebraucht wird \u2013 sie nimmt sich, was sie braucht.
-        Der Einserfl\u00fcgel verleiht ihr ein inneres Regelwerk und moralische Selbstgerechtigkeit:
-        eine stille \u00dcberzeugung, dass das, was sie tut, gerechtfertigt ist.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>:
-        rohe Gewalt, Kontrollverlust, das brutalste Ende der F\u00fcrsorge-Fassade.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
-        <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
-        massiv und unscheinbar zugleich, scheinbar tr\u00e4ge und harmlos,
-        dabei jederzeit f\u00e4hig zu explosiver Gewalt.
-        Es lebt am Wasser \u2013 an der Grenze zwischen zwei Welten \u2013,
-        sch\u00fctzt sein Revier mit \u00e4u\u00dferster Entschlossenheit
-        und wirkt nach au\u00dfen hin fast gesellig.
-        Res\u00e9ndez lebte buchst\u00e4blich an einer Grenze: zwischen Mexiko und den USA,
-        zwischen Legalit\u00e4t und Kriminalit\u00e4t, zwischen Unsichtbarkeit und Brutalit\u00e4t.
-        Er tauchte auf, schlug zu, verschwand wieder \u2013
-        das Flusspferd, das zwischen den Welten gleitet
-        und nur sichtbar wird, wenn es zu sp\u00e4t ist.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: \u00dcberleben als einziges Gesetz</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip:</strong>
-        Der Selbsterhaltende Typ 2 sichert seinen \u00dcberlebensraum
-        durch die Besetzung des Raumes anderer.
-        Er n\u00e4hert sich an \u2013 ob durch Hilfsbereitschaft, durch Charme oder durch Gewalt \u2013
-        und macht sich unentbehrlich, indem er schlicht anwesend ist.
-        Bei Res\u00e9ndez war diese Strategie radikal:
-        Er drang in H\u00e4user ein, nicht um zu helfen,
-        sondern weil das Haus jemand anderem geh\u00f6rte
-        und er keine eigene Sph\u00e4re besa\u00df.
-        Das Eindringen war die \u00dcberlebensstrategie des SE2 in ihrer dunkelsten Form:
-        nicht F\u00fcrsorge als Tarnung, sondern Besitznahme als Trieb.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Die innere Rechtfertigung:</strong>
-        Der Einserfl\u00fcgel verleiht der selbsterhaltenden Zwei
-        eine stille innere Rechtfertigung.
-        Res\u00e9ndez \u00e4u\u00dferte in Verh\u00f6ren eine Art moralische Gleichg\u00fcltigkeit gegen\u00fcber seinen Opfern \u2013
-        er zeigte wenig Reue, aber auch keine offene Grausamkeit im Ton.
-        Es war, als ob ein inneres Regelwerk besagte:
-        Das war notwendig. Das war mein Recht.
-        Diese moralische Selbstrechtfertigung ist das Markenzeichen des SE2w1 \u2013
-        nicht Sadismus, sondern Indifferenz gegen\u00fcber dem Leid anderer,
-        wenn die eigene \u00dcberlebensstrategie bedroht ist.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als Anspruch:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
-        das unbewusste Festhalten an der eigenen \u00dcberlegenheit,
-        die \u00dcberzeugung, einen Anspruch auf das zu haben, was andere besitzen.
-        Bei Res\u00e9ndez zeigte sich dieser Stolz nicht als Eitelkeit,
-        sondern als eine Art primitiver Souver\u00e4nit\u00e4t:
-        die \u00dcberzeugung, dass seine Bed\u00fcrfnisse z\u00e4hlen,
-        auch wenn die Gesellschaft ihn als unsichtbar behandelte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Der Eisenbahn-Killer</h3>
-        <p class="vb-intro"><strong>a) Herkunft und Vorgeschichte:</strong>
-        Res\u00e9ndez wuchs in Mexiko in \u00e4rmlichen Verh\u00e4ltnissen auf
-        und \u00fcberquerte ab den sp\u00e4ten 1970er Jahren wiederholt illegal die Grenze zu den USA.
-        Er wurde mehrfach festgenommen und abgeschoben \u2013
-        und kehrte jedes Mal zur\u00fcck.
-        Er hatte keine feste Arbeit, kein Zuhause, keine sozialen Bindungen in den USA.
-        Sein Lebensmittelpunkt war die G\u00fctereisenbahn:
-        Er reiste als blinder Passagier auf G\u00fcterwaggons,
-        orientierte sich an Streckenverl\u00e4ufen und schlug dort zu,
-        wo H\u00e4user nahe an Gleisen lagen \u2013 abgelegen, schwer erreichbar,
-        ohne schnelle Polizeireaktionszeit.</p>
-        <p class="vb-intro"><strong>b) Die Opfer:</strong>
-        Res\u00e9ndez' Opfer waren Menschen, deren H\u00e4user zuf\u00e4llig in der N\u00e4he von Schienenstrecken lagen.
-        Es gab kein erkennbares pers\u00f6nliches Motiv \u2013 kein sexuelles Muster, keinen rituellen Charakter.
-        Die Bewohner wurden Opfer, weil sie anwesend waren.
-        Er verwendete als Tatwaffe, was er vorfand: Hacken, Eisenstangen, Steine.
-        Unter den neun best\u00e4tigten Opfern waren \u00e4ltere Frauen,
-        ein junges P\u00e4rchen, ein Priester und seine Haush\u00e4lterin.
-        Die Taten verteilten sich auf Texas, Kentucky, Illinois und New Mexico
-        und erstreckten sich \u00fcber einen Zeitraum von fast zwei Jahren (1997\u20131999).
-        Sechs weitere Morde in Texas und Mexiko werden ihm zugeschrieben,
-        konnten aber nicht abschlie\u00dfend bewiesen werden.</p>
-        <p class="vb-intro"><strong>c) Die Fahndung und Selbststellung:</strong>
-        Als die Verbindung der Taten zu einem einzigen T\u00e4ter erkannt wurde,
-        setzte das FBI Res\u00e9ndez auf seine Liste der zehn meistgesuchten Fl\u00fcchtigen.
-        Er war schwer zu fassen: kein fester Wohnsitz, mehrere Aliase,
-        st\u00e4ndige Bewegung entlang von Tausenden Kilometern Gleis.
-        Den Durchbruch brachte ein ungew\u00f6hnlicher Schritt:
-        Seine Schwester <strong>Manuelita Res\u00e9ndez</strong>
-        nahm Kontakt zu dem texanischen Ranger <strong>Drew Carter</strong> auf
-        und erkl\u00e4rte sich bereit zu vermitteln.
-        Am 13. Juli 1999 \u00fcberquerte Res\u00e9ndez an einem Grenz\u00fcbergang
-        in El Paso freiwillig die Grenze und stellte sich.
-        Ob er tats\u00e4chlich glaubte, einer Todesstrafe zu entgehen,
-        oder ob er ersch\u00f6pft war und aufgeben wollte, ist nicht abschlie\u00dfend bekannt.</p>
-        <p class="vb-intro"><strong>d) Prozess und Hinrichtung:</strong>
-        Res\u00e9ndez wurde in Texas wegen des Mordes an
-        <strong>Claudia Benton</strong> (39), Neurologin in West University Place,
-        zum Tode verurteilt \u2013 einer der F\u00e4lle, in denen die Beweislage am eindeutigsten war.
-        Er legte keine Berufung ein und akzeptierte das Urteil.
-        Am <strong>27. Juni 2006</strong> wurde er in Huntsville, Texas,
-        durch die Giftspritze hingerichtet. Er war 45 Jahre alt.
-        Seine letzten Worte richtete er an die Familie seiner Opfer:
-        \u201eI want to ask if it is in your heart to forgive me.
-        I am truly sorry for all the hurt I caused. I hope God will
-        not turn away from me."
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        \u00c1ngel Res\u00e9ndez ist der Selbsterhaltende Typ 2 in seiner elementarsten Form:
-        ein Mensch, der buchst\u00e4blich nichts besa\u00df \u2013
-        keine Papiere, kein Zuhause, keine Sprache des Gastlandes \u2013
-        und das \u00dcberleben durch das gewaltsame Besetzen fremder R\u00e4ume sicherte.
-        Das Flusspferd, das zwischen den Welten lebt,
-        das sich in die N\u00e4he des Menschlichen wagt und t\u00f6tet,
-        wenn sein \u00dcberlebensraum ber\u00fchrt wird \u2013
-        das ist das treffende Bild.
-        Was diesen Fall von anderen SE2-T\u00e4tern unterscheidet:
-        Res\u00e9ndez t\u00f6tete nicht aus moralischem Urteil wie Sutcliffe,
-        nicht aus Identit\u00e4tsfassade wie Unterweger.
-        Er t\u00f6tete, weil Anwesenheit und \u00dcberleben f\u00fcr ihn identisch waren.
-        Die letzte Geste \u2013 die Selbststellung, die Bitte um Vergebung \u2013
-        zeigt den Zweier-Kern: die tiefe Sehnsucht nach Verbindung,
-        die ein ganzes Leben lang durch Gewalt \u00fcberdeckt wurde.
-        </p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">5. Einordnung</h3>
-        <div style="font-size:0.88rem;line-height:1.8;">
-          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> \u00c1ngel Maturino Res\u00e9ndez</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 1. August 1960, Iz\u00facar de Matamoros, Puebla, Mexiko</p>
-          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 27. Juni 2006, Huntsville, Texas (Giftspritze)</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
-          <p style="margin:0 0 0.3rem;"><strong>Best\u00e4tigte Opfer:</strong> 9 Morde in den USA (1997\u20131999); 6 weitere zugeschrieben</p>
-          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Stolz</p>
-          <p style="margin:0;"><strong>Stresspunkt:</strong> Typ 8</p>
-        </div>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich \u2013 F\u00fcrsorge als \u00dcberlebensstrategie und ihre dunkelste Auspr\u00e4gung.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. \u00c1ngel Res\u00e9ndez wurde in Texas wegen Mordes zum Tode verurteilt und 2006 hingerichtet. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1) \u2013 Yorkshire Ripper"},
-        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Kriminalpsychologie: Tommy Lynn Sells (SE2w1) \u2013 Coast-to-Coast-Killer"},
-        {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
-        {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"}
       ])}
     </div>
   `);
