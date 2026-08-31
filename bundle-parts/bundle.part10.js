@@ -1,3 +1,80 @@
+function karlLagerfeldPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lagerfeld</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel &middot; Verst\u00e4rkungstyp der Drei</p>
+        <p class="krim-portrait-subtitle">Mode-Ikone, Creative Director, Fotograf, 1933&ndash;2019 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Blickqualit\u00e4t: verborgen hinter dunklen Gl\u00e4sern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Karl Lagerfeld war der einzige Mensch der Modewelt, der seinen Blick systematisch verbarg &ndash; und gerade dadurch unwiderstehlich wurde. Die schwarze Sonnenbrille war kein Accessoire. Sie war ein Instrument der Kontrolle: Wer die Augen nicht sieht, kann nicht lesen, was dahinter vorgeht. Der SO3w4er verwaltet seinen Ausdruck mit \u00e4u\u00dferster Pr\u00e4zision &ndash; jedes Bild, das er von sich zul\u00e4sst, ist gewollt.</p>
+          <p class="vb-intro">Und doch war Lagerfelds Wirkung kein R\u00e4tsel: Man sah genug von ihm, um ihn sofort zu erkennen &ndash; das Wei\u00df des Haares, das Schwarz des Anzugs, die Strenge der Haltung. Er hatte sich in ein Symbol verwandelt, das auf Anhieb identifizierbar war, weltweit, zeitlos. Das ist die Blickqualit\u00e4t der sozialen Drei auf ihrer meisterhaften Stufe: nicht Blicke erwidern, sondern Blicke anziehen.</p>
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> verlieh diesem Blick eine melancholische Tiefe. Hinter dem perfekten Bild ahnte man &ndash; manchmal &ndash; den Menschen, der lieber allein war. Den Sammler. Den Leser. Den, der um drei Uhr morgens wach lag und an B\u00fccher dachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg nicht als Ziel, sondern als Daseinsform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der soziale Subtyp der Drei, den Claudio Naranjo den <strong>Verst\u00e4rkungstyp</strong> nannte, lebt nicht f\u00fcr Erfolge &ndash; er <em>ist</em> Erfolg. Karl Lagerfeld hat diesen Typus in der Kulturgeschichte des 20. Jahrhunderts wie kaum jemand anderes verk\u00f6rpert. Seine Arbeit bei Chanel &ndash; \u00fcbernommen 1983, als das Haus als veraltet galt, und bis zu seinem Tod 2019 gef\u00fchrt &ndash; ist eine der au\u00dfergew\u00f6hnlichsten Transformationsgeschichten der Modewelt.</p>
+          <p class="vb-intro">Der SO3er reinventiert. Er wei\u00df, dass Image kein statisches Konstrukt ist, sondern ein lebendiges Projekt. Lagerfeld hat sich selbst mehrfach neu erfunden: als Hamburger Junge, der Paris eroberte; als Kaiser Karl in den Achtzigern; als Person, die 2001 \u00fcber vierzig Kilogramm verlor, weil er Jeans eines jungen Designers tragen wollte. Dieser letzte Punkt ist exemplarisch: Er hat seinen K\u00f6rper nicht geformt, weil er ges\u00fcnder leben wollte &ndash; er hat ihn geformt, weil das Bild es verlangte.</p>
+          <p class="vb-intro">Das ist die soziale Drei in ihrer radikalsten Konsequenz: Das Selbst wird dem Erfolg untergeordnet, bis kein Unterschied mehr besteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: \u00c4sthetik als Weltanschauung, Einzigartigkeit als Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> war bei Lagerfeld nicht zu \u00fcbersehen &ndash; er war der Grund, warum er nicht nur erfolgreich, sondern <em>unverwechselbar</em> wurde. Während eine SO3 mit schwach ausgeprägtem Viererflügel Erfolg durch Anpassung erzielt – durch das, was gefragt ist –, verlangt ein stark ausgeprägter Viererflügel nach dem Besonderen, nach dem Eigenen, nach etwas, das sonst niemand hat.</p>
+          <p class="vb-intro">Lagerfeld war kein Designer, der Trends bediente. Er war einer, der sie schuf &ndash; und sich dabei stets \u00fcber dem Trend hielt. Seine Belesenheit war legend\u00e4r: Zehntausende B\u00fccher in seiner Pariser Bibliothek, gelesen, nicht dekoriert. Sein Wissen war kein Statussymbol &ndash; es war Grundnahrungsmittel. Der SO3w4er braucht die intellektuelle Tiefe, um sich von der blo\u00dfen Oberfl\u00e4che des Erfolgs zu unterscheiden.</p>
+          <p class="vb-intro">Gleichzeitig brachte der Viererfl\u00fcgel Melancholie: Lagerfeld verlor seinen engsten Freund Jacques de Bascher 1989 an AIDS. Er sprach kaum dar\u00fcber &ndash; \u00f6ffentlich nie. Der SO3w4er sch\u00fctzt seinen Schmerz mit Perfektion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Gesamtwirkung: Chanel, Fendi und die Unerm\u00fcdlichkeit des Schaffens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">\u00dcber f\u00fcnfzig Jahre Creative Director bei Fendi. \u00dcber drei\u00dfig Jahre das Gesicht von Chanel. Gleichzeitig seine eigene Marke, eine Fotografenkarriere, Verlagsprojekte. Karl Lagerfeld hat ein Pensum an Arbeit geleistet, das selbst in der Modebranche als au\u00dfergew\u00f6hnlich gilt &ndash; und er tat es bis kurz vor seinem Tod mit 85 Jahren.</p>
+          <p class="vb-intro">Der SO3er braucht Leistung wie andere Menschen Schlaf. Stillstand ist f\u00fcr ihn keine Erholung &ndash; er ist Bedrohung. Lagerfelds \u00c4u\u00dferungen \u00fcber Urlaub und M\u00fc\u00dfiggang klangen immer leicht feindselig: <em>\u201eIch langweile mich nie, weil ich immer arbeite."</em> Das ist keine Pose &ndash; das ist Typologie.</p>
+          <p class="vb-intro">Sein Umgang mit Chanel war vielleicht seine bedeutendste Leistung: Er \u00fcbernahm ein Haus, das als museal galt, und machte es zur definierenden Luxusmarke des 21. Jahrhunderts. Nicht durch Revolution, sondern durch Transformation &ndash; er bewahrte die DNA und verleibte ihr die Gegenwart ein. Das ist soziale Drei auf h\u00f6chster Ebene: das Erbe anderer verstehen, es neu denken, es \u00fcbertreffen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Gepard: Pr\u00e4zision, Eleganz und der Unterschied zum blo\u00dfen Tempo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gepard ist nicht nur schnell &ndash; er ist <em>elegant</em> in seiner Geschwindigkeit. Das unterscheidet ihn von anderen Raubtieren: Der Angriff hat Stil. Karl Lagerfeld hatte diese Qualit\u00e4t in jeder \u00f6ffentlichen \u00c4u\u00dferung. Seine S\u00e4tze sa\u00dfen &ndash; messerscharf, manchmal kalt, immer formuliert. <em>\u201eJogginghosen sind ein Zeichen daf\u00fcr, dass man die Kontrolle \u00fcber sein Leben verloren hat."</em> Ein Satz, der viral ging, bevor es das Wort gab.</p>
+          <p class="vb-intro">Diese Gepard-Energie zeigte sich auch in seiner Schnelligkeit: Lagerfeld skizzierte Entw\u00fcrfe in Minuten, seine Handzeichnungen sind nach wie vor begehrt. Der SO3er denkt schnell &ndash; er hat wenig Geduld mit Prozessen, die sein Tempo bremsen. Das Ergebnis muss gut sein, und es muss <em>jetzt</em> fertig sein.</p>
+          <p class="vb-intro">Die Schattenseite: Der Gepard l\u00e4uft sich hei\u00df. Wer immer performt, verliert irgendwann den Zugang zu dem, was unter der Leistung liegt. Lagerfeld hatte diesen Zugang fr\u00fch verbarrikadiert &ndash; und die Barrikade sein ganzes Leben lang dekoriert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: wenn das Bild nicht mehr der Mensch ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Identifikation mit dem Image zur Entdeckung des Selbst darunter. F\u00fcr Karl Lagerfeld war das ein lebenslanger Balanceakt &ndash; und es gibt Hinweise, dass er ihn zumindest ahnungsweise gegangen ist.</p>
+          <p class="vb-intro">Er sprach selten \u00fcber Gef\u00fchle &ndash; aber wenn, dann mit einer Ehrlichkeit, die \u00fcberraschte. \u00dcber die Einsamkeit des Alterns. \u00dcber seine Bindung an Choupette, seine Katze, die er als sein liebstes Wesen bezeichnete und der er Teile seines Verm\u00f6gens hinterlie\u00df. Eine Katze braucht keine Leistung. Eine Katze liebt ohne Bedingung. Vielleicht war das der Ort, wo Karl Lagerfeld &ndash; der Mensch, nicht die Marke &ndash; sich kurz zeigen durfte.</p>
+          <p class="vb-intro">Ein bewusster SO3w4er wei\u00df, dass sein Werk gr\u00f6\u00dfer ist als er &ndash; und dass er selbst gr\u00f6\u00dfer ist als sein Werk. Der Gepard, der inneh\u00e4lt und sein Spiegelbild betrachtet, ohne sofort weiterzusprinten &ndash; das ist die Energie, die hinter dem wei\u00dfen Pferdeschwanz und den dunklen Gl\u00e4sern immer gewartet hat.</p>
+        </blockquote>
+
+        <p class="vb-intro">Die Krebsdiagnose, die er nach \u00fcbereinstimmenden Berichten fast vier Jahre lang selbst vor engsten Vertrauten geheim hielt, wird ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-karl-lagerfeld">Krankheitsportr\u00e4t zu Lagerfeld</a> gedeutet.</p>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+
+      ${relatedLinks([
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsportr\u00e4t: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
+        {route:"bibel-pontius-pilatus", label:"Bibel-Portr\u00e4t: Pontius Pilatus (SO3w4)"}
+      ])}
+    </div>
+  `);
+}
+
 function teresaVonAvilaPortraitPage() {
   return shell(`
     <div class="page-container">

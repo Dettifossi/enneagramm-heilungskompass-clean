@@ -32845,6 +32845,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eva Per\u00f3n \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 1919\u20131952. Argentinische First Lady, Schauspielerin, Wohlt\u00e4terin der \u201edescamisados\u201c. Aufstieg aus Armut zur \u201eEvita\u201c \u2013 der Golden Retriever mit Dreierfl\u00fcgel, der Hingabe und Inszenierung zu einem Mythos verschmolz, der ihren fr\u00fchen Tod \u00fcberdauerte. Tierentsprechung: Golden Retriever.",
     land:"Argentinien", tags:["Geschichte","Politik"] , gender:"w"},
+  { route:"beruehmte-truman-capote", name:"Truman Capote", added:"2026-08-31", subtyp:"SO2w3",
+    heading:"Truman Capote – Sozialer Typ 2",
+    teaser:"SO2w3 · 1924–1984. US-amerikanischer Schriftsteller, „In Cold Blood“, gefeierter Society-Liebling New Yorks. Der Golden Retriever, der sich in die intimsten Kreise einschmeichelte – bis der Verrat ihrer Geheimnisse für ein Buchprojekt seine gesamte Welt zum Einsturz brachte. Tierentsprechung: Golden Retriever.",
+    land:"USA", tags:["Kultur","Literatur"] , gender:"m"},
   { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar \u2013 Sozialer Typ 2",
     teaser:"SO2w3 \u00b7 100\u201344 v. Chr. R\u00f6mischer Feldherr, Staatsmann, Diktator auf Lebenszeit. Freigebigkeit als Machtinstrument, Gnade gegen\u00fcber Feinden, Selbstinszenierung im Feldzugsbericht \u2013 der Golden Retriever, der ein Weltreich einte und von einem Begnadigten ermordet wurde. Tierentsprechung: Golden Retriever.",
@@ -71895,6 +71899,73 @@ function kamalaHarrisPortraitPage() {
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portr\u00e4t: Eva Per\u00f3n (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portr\u00e4t: Truman Capote (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function trumanCapotePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-truman-capote-portrait.jpg" alt="Truman Capote" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Truman Capote</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">1924&ndash;1984 &ndash; US-amerikanischer Schriftsteller, „In Cold Blood" &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der jede Tür öffnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; zugewandt, warmherzig, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Truman Capote, geboren 1924 in New Orleans, wuchs weitgehend von seinen Eltern verlassen bei Verwandten in Alabama auf &ndash; eine frühe Erfahrung des Nicht-Gewolltseins, die sich in ein lebenslanges, geradezu unstillbares Bedürfnis verwandelte, überall dazuzugehören und für jeden unentbehrlich zu sein.</p>
+          <p class="vb-intro">Schon als junger Mann in New York schmeichelte er sich mit einer Mischung aus Witz, Charme und aufmerksamer Zuwendung in die exklusivsten Zirkel der Stadt ein &ndash; Verleger, Society-Damen, Filmstars. Der Golden Retriever wedelt sich nicht zufällig ins Herz einer Gesellschaft; er beobachtet genau, wen er wie für sich gewinnen kann, und Capote beherrschte dieses Spiel wie kaum ein Zweiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Zugehörigkeit als Lebensprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht in einer einzelnen Beziehung, sondern im größeren gesellschaftlichen Feld. Naranjo nannte diesen Subtyp <em>Ambition</em> &ndash; den Drang, durch Wirkung und Präsenz in der Gemeinschaft unentbehrlich zu werden. Bei Capote zeigte sich das in einem Netzwerk intensivster Freundschaften mit den sogenannten „Swans" &ndash; einer Gruppe wohlhabender, mächtiger New Yorker Gesellschaftsdamen wie Babe Paley, denen er sich als vertrautester Freund, Berater und Beichtvater andiente.</p>
+          <p class="vb-intro">Diese Freundschaften waren keine oberflächliche Bekanntschaft. Capote hörte stundenlang zu, teilte intimste Geheimnisse, wurde zur emotionalen Stütze in Ehekrisen und Familiendramen &ndash; und wob sich damit tief in das Leben dieser Frauen ein. Der Golden Retriever geht nicht neben dem Rudel her, er wird selbst zu seinem Zentrum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Schriftsteller als Ereignis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren Wirkung, zum inszenierten Auftritt, zum Beweis durch öffentliches Bild. Bei Capote äußerte sich das in einem beispiellosen Talent zur Selbstvermarktung: schrille Kleidung, eine unverkennbare, oft nachgeahmte Sprechweise, provokante Fernsehauftritte. Sein <em>Black and White Ball</em> von 1966 im Plaza Hotel gilt bis heute als eine der legendärsten Society-Veranstaltungen des zwanzigsten Jahrhunderts &ndash; eine Party, die er selbst kuratierte, um genau zu zeigen, wie mächtig sein soziales Netzwerk geworden war.</p>
+          <p class="vb-intro">Auch sein literarisches Meisterwerk trägt diese Handschrift: Für <em>In Cold Blood</em> (1966) verbrachte er Jahre damit, sich in die Gemeinde des Tatorts und in eine intensive persönliche Beziehung zu einem der beiden verurteilten Mörder hineinzuarbeiten &ndash; eine Nähe, die weit über journalistische Recherche hinausging. Der Dreierflügel wollte nicht nur ein Buch schreiben, er wollte ein literarisches Ereignis erschaffen, das ihn selbst unsterblich machte &ndash; und mit dem „New Journalism" schließlich eine ganze literarische Gattung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 ist eine seltene Gabe des Zuhörens, gepaart mit der Fähigkeit, daraus große Kunst zu formen. Capotes <em>In Cold Blood</em> gilt bis heute als Meilenstein des literarischen Erzähljournalismus &ndash; ein Werk, das nur entstehen konnte, weil er Menschen wirklich nahekam, ihr Vertrauen gewann und ihre Geschichten mit echter Aufmerksamkeit erfasste.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, unentbehrlich zu sein, und die Schwierigkeit, die eigene Bedürftigkeit dahinter zu erkennen. Bei Capote wurde daraus 1975 eine folgenschwere Grenzüberschreitung: Er veröffentlichte in Esquire das Kapitel „La Côte Basque 1965" aus seinem geplanten Roman <em>Answered Prayers</em> &ndash; darin verarbeitete er, kaum verschlüsselt, die intimsten Geheimnisse genau jener „Swans", die ihm jahrelang blind vertraut hatten. Ehebrüche, Morde, Familiengeheimnisse &ndash; alles, was man ihm anvertraut hatte, goss er in literarische Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Verrat, der das Rudel zerbrach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Reaktion war verheerend. Fast über Nacht verstießen ihn die „Swans" &ndash; Freundinnen von Jahrzehnten, denen er sich als treuester Vertrauter präsentiert hatte, sprachen nie wieder ein Wort mit ihm. Babe Paley, seine engste Freundin, verzieh ihm bis zu ihrem Tod 1978 nicht. Capote selbst zeigte sich ehrlich überrascht über die Konsequenzen &ndash; ein Muster, das für die soziale Zwei typisch ist: Wer glaubt, durch grenzenlose Hingabe unantastbar geworden zu sein, kann kaum begreifen, dass genau diese Hingabe auch verraten werden kann.</p>
+          <p class="vb-intro">Der Verlust seines Rudels traf ihn ins Mark. Ohne die Zugehörigkeit, die sein gesamtes Leben getragen hatte, verfiel Capote zunehmend Alkohol und Tabletten, vollendete <em>Answered Prayers</em> nie und starb 1984 im Alter von 59 Jahren &ndash; ein Golden Retriever, der sein eigenes Rudel verloren hatte, weil er es für eine Geschichte geopfert hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Nähe, die Literatur wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Truman Capote hinterließ, lässt sich nicht auf einen einzelnen Skandal reduzieren. Er prägte mit dem New Journalism eine literarische Form, in der Fakten mit erzählerischer Kunstfertigkeit verschmelzen, und schrieb mit <em>In Cold Blood</em> eines der einflussreichsten Werke der amerikanischen Literatur des zwanzigsten Jahrhunderts.</p>
+          <p class="vb-intro">Das ist die zwiespältige Gabe der SO2w3 in ihrer ungeschminktesten Form: eine Nähe zu Menschen, die tief genug ging, um daraus große Kunst zu schaffen &ndash; und die gleichzeitig so hungrig nach Wirkung war, dass sie diese Nähe am Ende selbst zerstörte. Der Golden Retriever, der ins Rudel wollte, weil er es liebte &ndash; und es verlor, weil er es zugleich brauchte, um bewundert zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
       ])}
     </div>
   `);
@@ -71960,6 +72031,7 @@ function evaPeronPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
       ])}
     </div>
@@ -72031,6 +72103,7 @@ function juliusCaesarPortraitPage() {
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portr\u00e4t: Jesus Christus (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portr\u00e4t: Eva Per\u00f3n (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portr\u00e4t: Truman Capote (SO2w3)"},
       ])}
     </div>
   `);
@@ -140231,6 +140304,7 @@ function render() {
       "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-hannah-emde": hannahEmdePortraitPage,
+      "beruehmte-truman-capote": trumanCapotePortraitPage,
       "beruehmte-eva-peron": evaPeronPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,

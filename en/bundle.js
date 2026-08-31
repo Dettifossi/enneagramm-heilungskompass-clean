@@ -912,6 +912,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
     tags:["Science","Medizin"] , gender:"m"},
+{ route:"beruehmte-truman-capote", name:"Truman Capote", added:"2026-08-31", subtyp:"SO2w3",
+    heading:"Truman Capote – Social Type 2",
+    teaser:"SO2w3 · 1924–1984. American writer, \"In Cold Blood,\" celebrated darling of New York society. The Golden Retriever who charmed his way into the most intimate circles – until betraying their secrets for a book project brought his whole world crashing down. Animal correspondence: Golden Retriever.",
+    land:"USA", tags:["Culture","Literature"] , gender:"m"},
 { route:"beruehmte-eva-peron", name:"Eva Perón", added:"2026-08-31", subtyp:"SO2w3",
     heading:"Eva Perón – Social Type 2",
     teaser:"SO2w3 · 1919–1952. Argentine First Lady, actress, benefactress of the \"descamisados\". Rise from poverty to \"Evita\" – the Golden Retriever with a Three-wing who fused devotion and self-presentation into a myth that outlasted her early death. Animal correspondence: Golden Retriever.",
@@ -30658,6 +30662,72 @@ function napoleonBonapartePortraitPage() {
   `);
 }
 
+function trumanCapotePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-truman-capote-portrait.jpg" alt="Truman Capote" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Truman Capote</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">1924&ndash;1984 &ndash; American writer, "In Cold Blood" &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Opened Every Door</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, warm-hearted, irresistibly driven to be needed and loved. Truman Capote, born in 1924 in New Orleans, grew up largely abandoned by his parents in the care of relatives in Alabama &ndash; an early experience of being unwanted that turned into a lifelong, almost unquenchable need to belong everywhere and be indispensable to everyone.</p>
+          <p class="vb-intro">Even as a young man in New York, he charmed his way into the city's most exclusive circles with a mix of wit, charisma, and attentive care &ndash; publishers, society women, film stars. The Golden Retriever doesn't wag its way into a society's heart by accident; it studies exactly whom to win over and how, and Capote mastered that game like almost no one else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Belonging as a Life's Project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks belonging not in a single relationship but in the larger social field. Naranjo called this subtype <em>ambition</em> &ndash; the drive to become indispensable through impact and presence in the community. In Capote this showed up as a network of intense friendships with the so-called "Swans" &ndash; a group of wealthy, powerful New York society women, among them Babe Paley, to whom he offered himself as closest friend, confidant, and confessor.</p>
+          <p class="vb-intro">These friendships were no superficial acquaintances. Capote listened for hours, shared the most intimate secrets, became an emotional anchor through marital crises and family dramas &ndash; and wove himself deep into these women's lives. The Golden Retriever doesn't walk alongside the pack; it becomes its center.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Writer as Event</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive toward visible impact, staged appearance, proof through public image. In Capote this showed up as an unparalleled talent for self-promotion: flamboyant clothing, an unmistakable, often-imitated way of speaking, provocative television appearances. His 1966 <em>Black and White Ball</em> at the Plaza Hotel is still considered one of the most legendary society events of the twentieth century &ndash; a party he curated himself, precisely to demonstrate how powerful his social network had become.</p>
+          <p class="vb-intro">His literary masterpiece carries the same signature: for <em>In Cold Blood</em> (1966) he spent years immersing himself in the community where the murders occurred and in an intense personal relationship with one of the two convicted killers &ndash; a closeness that went far beyond journalistic research. The Three-wing didn't just want to write a book, it wanted to create a literary event that would make him immortal &ndash; and, with "New Journalism," ultimately an entire literary genre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 is a rare gift for listening, paired with the ability to shape it into great art. Capote's <em>In Cold Blood</em> is still regarded as a milestone of literary narrative journalism &ndash; a work that could only exist because he truly got close to people, earned their trust, and captured their stories with genuine attention.</p>
+          <p class="vb-intro">The Two's fateful pattern is <strong>pride</strong> &ndash; the deep conviction of being indispensable, and the difficulty of recognizing the neediness hidden beneath it. In Capote this became, in 1975, a consequential transgression: he published in Esquire the chapter "La Côte Basque 1965" from his planned novel <em>Answered Prayers</em> &ndash; in it, barely disguised, he processed the most intimate secrets of exactly the "Swans" who had trusted him blindly for years. Affairs, murders, family secrets &ndash; everything they had confided in him, he poured into literary form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Betrayal That Broke the Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The reaction was devastating. Almost overnight, the "Swans" cast him out &ndash; friends of decades, to whom he had presented himself as their most loyal confidant, never spoke to him again. Babe Paley, his closest friend, never forgave him before her death in 1978. Capote himself seemed genuinely surprised by the consequences &ndash; a pattern typical of the social Two: someone who believes boundless devotion has made them untouchable can hardly grasp that this very devotion can also be betrayed.</p>
+          <p class="vb-intro">Losing his pack hit him to the core. Without the belonging that had carried his entire life, Capote sank increasingly into alcohol and pills, never finished <em>Answered Prayers</em>, and died in 1984 at the age of 59 &ndash; a Golden Retriever who had lost his own pack because he had sacrificed it for a story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Closeness That Became Literature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Truman Capote left behind cannot be reduced to a single scandal. With New Journalism, he shaped a literary form in which fact fuses with narrative craft, and with <em>In Cold Blood</em> he wrote one of the most influential works of twentieth-century American literature.</p>
+          <p class="vb-intro">That is the ambivalent gift of the SO2w3 in its rawest form: a closeness to people deep enough to make great art from it &ndash; and, at the same time, a hunger for impact so intense that it ultimately destroyed that very closeness. The Golden Retriever who wanted into the pack because he loved it &ndash; and lost it because he needed it, at the same time, to be admired.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function evaPeronPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -30718,6 +30788,7 @@ function evaPeronPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
       ])}
     </div>
@@ -30789,6 +30860,7 @@ function juliusCaesarPortraitPage() {
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
       ])}
     </div>
   `);
@@ -44001,6 +44073,7 @@ function kamalaHarrisPortraitPage() {
         {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
       ])}
     </div>
   `);
@@ -104404,6 +104477,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jeanne-calment": jeanneCalmentPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
+      "beruehmte-truman-capote": trumanCapotePortraitPage,
       "beruehmte-eva-peron": evaPeronPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
