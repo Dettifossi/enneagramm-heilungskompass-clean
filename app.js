@@ -15899,6 +15899,7 @@ const uiText = {
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
       { route: "krankheitsmusterkompass", label: "Krankheitsmusterkompass (Muster in den Krankheitsporträts)" },
+      { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "tierlexikon", label: "Tierlexikon" },
@@ -45879,6 +45880,7 @@ function lebensmusterkompassPage() {
         ${relatedLinks([
           {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
           {route:"krankheitsmusterkompass", label:"Krankheitsmusterkompass (Muster in den Krankheitsporträts)"},
+          {route:"kriminalmusterkompass", label:"Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)"},
           {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
@@ -46038,6 +46040,347 @@ function lebensmusterkompassDetailPage(codeRaw) {
   `);
 }
 
+// ---------------------------------------------------------------------------
+// Kriminalmusterkompass: analog zum Krankheitsmusterkompass, aber aus den
+// Kriminalpsychologie-Porträts gespeist. Wichtig, wegen der besonderen
+// Sensibilität dieses Themas: Es geht NICHT um "welcher Subtyp wird
+// kriminell", sondern ausschließlich darum, welche FORM eine Entgleisung
+// bei den wenigen bereits porträtierten Straftätern eines Subtyps jeweils
+// annahm, wenn eine schon vorhandene, an sich neutrale Grundmotivation
+// entgleiste. Die überwältigende Mehrheit jedes Subtyps wird nie kriminell.
+function kriminalmusterkompassPortraitsForCode(code) {
+  return KRIMINAL_PORTRAITS
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+const KRIMINALMUSTERKOMPASS = {
+  SE1: {
+    tier: "Adler",
+    kernthema: "Entgleiste Fälle zeigen auffällig oft dieselbe methodische Präzision, die die selbsterhaltende Eins sonst für Ordnung und Kontrolle einsetzt – nur gegen ihr eigentliches Ziel gerichtet.",
+    beispiele: ["Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow"],
+    fingerabdruecke: [
+      {
+        titel: "Methodische Präzision und jahrelange Selbstkontrolle als Tarnung",
+        beschreibung: "In mehreren der porträtierten Fälle wird eine ausgeprägt methodische, detailversessene Vorgehensweise sichtbar, verbunden mit einer nach außen jahrelang unauffälligen, kontrollierten Lebensführung – dieselbe Selbstdisziplin, die die Eins sonst konstruktiv einsetzt, hier pervertiert in akribische Verschleierung.",
+        beleg: "Dennis Rader (BTK) führte über Jahrzehnte ein unauffälliges Doppelleben als Kirchenvorsteher und Behördenmitarbeiter bei gleichzeitig minutiös geplanten Taten; Arno Funke (›Dagobert‹) plante seine Erpressungen mit außergewöhnlicher technischer Sorgfalt über Jahre hinweg."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Gans",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine nach außen makellose, moralisch integer wirkende Fassade, hinter der sich die eigentliche Tat verbarg.",
+    beispiele: ["Ted Bundy", "Heinrich Pommerenke"],
+    fingerabdruecke: [
+      {
+        titel: "Eine moralisch integer wirkende öffentliche Fassade als Deckmantel",
+        beschreibung: "Mit bislang zwei Fällen zeigt sich vorsichtig ein Muster: Beide galten in ihrem Umfeld über lange Zeit als überdurchschnittlich unauffällig oder sogar als vertrauenswürdig, was die Aufdeckung der Taten erheblich verzögerte.",
+        beleg: "Ted Bundy wirkte auf sein Umfeld charmant, gebildet und vertrauenswürdig – ein Ruf, den er gezielt nutzte, um sich Opfern zu nähern."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Schwarze Mamba",
+    kernthema: "Auffällig viele der porträtierten Fälle spielten sich innerhalb der engsten familiären oder häuslichen Sphäre ab, oft unter dem Deckmantel von Fürsorge oder Autorität.",
+    beispiele: ["Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    fingerabdruecke: [
+      {
+        titel: "Kontrolle und Gewalt innerhalb der eigenen Familie oder engsten Gemeinschaft",
+        beschreibung: "Bei der sexuellen Eins tritt in mehreren Fällen die Tat nicht im öffentlichen Raum auf, sondern innerhalb der eigenen Familie oder einer selbst geschaffenen, geschlossenen Gemeinschaft, häufig über Jahre hinweg unentdeckt unter dem Vorwand von Fürsorge oder rechtmäßiger Autorität.",
+        beleg: "Josef Fritzl hielt seine eigene Tochter über 24 Jahre in einem selbst gebauten Kellerverlies gefangen; Mary Ann Cotton vergiftete über Jahre mehrere eigene Familienmitglieder; Alex Murdaugh nutzte jahrzehntelang seine Stellung innerhalb der eigenen Familienkanzlei für Betrug im großen Stil."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Flusspferd",
+    kernthema: "Eine auffällig hohe Zahl der porträtierten Fälle nutzte eine als Fürsorge, Nähe oder Gemeinschaft getarnte Rolle, um Vertrauen zu gewinnen und auszunutzen.",
+    beispiele: ["Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    fingerabdruecke: [
+      {
+        titel: "Eine Rolle der Fürsorge oder Nähe als Werkzeug für Vertrauensmissbrauch",
+        beschreibung: "Bei der selbsterhaltenden Zwei tritt in mehreren Fällen eine Person auf, die sich zunächst als hilfreich, nahbar oder gemeinschaftsstiftend präsentierte – als Mentor, Nachbar, Familienmitglied oder Wohltäter – und genau dieses Vertrauen für die eigentliche Tat missbrauchte.",
+        beleg: "Harvey Weinstein nutzte seine Rolle als mächtiger, vermeintlich fördernder Mentor in der Filmbranche systematisch aus; John Wayne Gacy war in seiner Nachbarschaft als geselliger, gemeinschaftsengagierter ›Clown‹ bekannt, während er parallel mordete; Jeanne Weber, eine Amme, tötete mehrere ihr anvertraute Kinder."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Charisma und die Fähigkeit, Menschen um sich zu scharen, wurden in den porträtierten Fällen zum Werkzeug, um ganze Gruppen in Gewalt oder Zerstörung zu führen.",
+    beispiele: ["Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    fingerabdruecke: [
+      {
+        titel: "Charismatische Führung, die eine ganze Gruppe in Zerstörung führt",
+        beschreibung: "Bei der sozialen Zwei zeigt sich in den porträtierten Fällen wiederholt eine Person, deren soziale Anziehungskraft und Führungsfähigkeit nicht für den Aufbau, sondern für die Zerstörung einer ihr anvertrauten Gemeinschaft eingesetzt wurde.",
+        beleg: "Jim Jones führte seine gesamte Sektengemeinschaft über Jahre in völlige Abhängigkeit, bevor er sie in den kollektiven Tod von Jonestown trieb; Jack Unterweger nutzte seinen öffentlichen Ruf als resozialisierter, gefeierter Autor, um weiter unentdeckt zu morden."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Kamel",
+    kernthema: "Bislang nur ein dokumentierter Fall – zu wenig für ein Muster, aber ein auffälliger Einzelfall von Manipulation über eine intensive Zweierbeziehung.",
+    beispiele: ["Pamela Smart"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: Manipulation über eine intensive romantische Bindung",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "Pamela Smart überredete ihren deutlich jüngeren Liebhaber über eine intensive romantische Bindung dazu, ihren Ehemann zu töten."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Waschbär",
+    kernthema: "Der mit Abstand größte Anteil der porträtierten SE3-Fälle betrifft Finanzbetrug im großen Stil – demonstrierte Kompetenz und sichtbarer Erfolg als Fassade.",
+    beispiele: ["Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    fingerabdruecke: [
+      {
+        titel: "Demonstrierte Kompetenz und sichtbarer Erfolg als Fassade für Betrug",
+        beschreibung: "Bei der selbsterhaltenden Drei dominieren unter den porträtierten Fällen auffällig Wirtschafts- und Anlagebetrüger, deren nach außen glaubwürdig demonstrierte fachliche Kompetenz und Erfolgsbilanz über Jahre als Fassade für systematischen Betrug diente.",
+        beleg: "Bernie Madoff baute über Jahrzehnte ein scheinbar seriöses Anlageimperium auf, das sich als eines der größten Schneeballsysteme der Geschichte entpuppte; Samuel Bankman-Fried präsentierte sich als seriöses Gesicht der Kryptowelt, während im Hintergrund Kundengelder in Milliardenhöhe umgeleitet wurden; Ruja Ignatova verkaufte eine fiktive Kryptowährung als revolutionäre Wertanlage."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Gepard",
+    kernthema: "Der Wunsch nach Status, Sichtbarkeit oder öffentlicher Anerkennung spielte in mehreren der porträtierten Fälle eine erkennbare Rolle als Motiv oder Bühne.",
+    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson"],
+    fingerabdruecke: [
+      {
+        titel: "Status, Sichtbarkeit oder öffentliche Bühne als erkennbares Motiv",
+        beschreibung: "Bei der sozialen Drei zeigt sich in mehreren Fällen ein Bezug zu Ruhm, Status oder öffentlicher Aufmerksamkeit – entweder als direktes Motiv oder als Bühne, auf der sich die Tat abspielte.",
+        beleg: "O.J. Simpsons Fall wurde als ›Prozess des Jahrhunderts‹ selbst zur öffentlichen Bühne; Andrew Cunanan suchte zeitlebens Nähe zu Prestige und Anerkennung, bevor er quer durch die USA mordete; Vincenzo Peruggia stahl die Mona Lisa aus patriotischer Selbstinszenierung."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Pfau",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zur medienwirksamen Selbstinszenierung der eigenen Taten.",
+    beispiele: ["Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    fingerabdruecke: [
+      {
+        titel: "Medienwirksame Selbstinszenierung der eigenen Taten",
+        beschreibung: "Bei bislang drei Fällen fällt eine bewusste, oft theatralische Inszenierung der eigenen Person im Zusammenhang mit der Tat auf – eine Suche nach Aufmerksamkeit, die über die reine Tat hinausging.",
+        beleg: "Luka Magnotta filmte und verbreitete seine Tat bewusst selbst, um mediale Aufmerksamkeit zu erzeugen; Richard Ramírez inszenierte sich im Gerichtssaal mit einem Pentagramm auf der Handfläche."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Taube",
+    kernthema: "Bislang nur ein dokumentierter Fall – ein Muster tiefer Kränkung und des Gefühls, unverstanden und ausgegrenzt zu sein, das sich in einer eigenen, düsteren Erzählung entlud.",
+    beispiele: ["David Berkowitz"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: tiefe Kränkung, die sich in einer eigenen düsteren Erzählung entlädt",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "David Berkowitz (›Son of Sam‹) konstruierte um seine Taten eine elaborierte, selbst erschaffene Erzählung von Verfolgung und Auftrag."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Gürteltier",
+    kernthema: "Bislang nur ein dokumentierter Fall – ein Muster des Gefühls tiefer, öffentlich erlittener Zurückweisung, das sich in einem selbst verfassten Manifest artikulierte.",
+    beispiele: ["Elliot Rodger"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: öffentlich erlittene Zurückweisung, artikuliert in einem eigenen Manifest",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "Elliot Rodger hinterließ vor seiner Tat ein ausführliches, selbst verfasstes Manifest über empfundene soziale Zurückweisung und Ausgrenzung."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Verschmelzung der eigenen Identität mit einer intensiven Beziehung oder einer selbst erschaffenen ideologischen Erzählung.",
+    beispiele: ["Bonnie Parker", "Adolf Hitler"],
+    fingerabdruecke: [
+      {
+        titel: "Verschmelzung der eigenen Identität mit einer intensiven Bindung oder Erzählung",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich eine tiefe Verschmelzung der eigenen Identität entweder mit einer einzelnen intensiven Beziehung oder mit einer selbst erschaffenen, alles bestimmenden ideologischen Erzählung.",
+        beleg: "Bonnie Parker definierte ihre gesamte spätere Identität über die romantisierte gemeinsame Verbrecherlaufbahn mit Clyde Barrow."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Eule",
+    kernthema: "Bislang nur ein dokumentierter Fall – ein Muster extremer, jahrelang aufrechterhaltener Geheimhaltung und Isolation von der Außenwelt.",
+    beispiele: ["Joachim Kroll"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: extreme, jahrelang aufrechterhaltene Geheimhaltung",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "Joachim Kroll lebte über Jahrzehnte unauffällig und zurückgezogen in derselben Nachbarschaft, ohne dass sein Umfeld je einen Verdacht hegte."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Oktopus",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist ein Missbrauch von Fachwissen oder intellektueller Autorität als Werkzeug der Tat.",
+    beispiele: ["Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    fingerabdruecke: [
+      {
+        titel: "Fachwissen oder intellektuelle Autorität als Werkzeug der Tat",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich, wie spezialisiertes Fachwissen oder eine anerkannte fachliche Autorität direkt als Mittel für die Tat selbst eingesetzt wurde, statt nur als Tarnung zu dienen.",
+        beleg: "Dr. Harold Shipman nutzte sein Vertrauen als Hausarzt und sein medizinisches Fachwissen, um über Jahre hinweg mindestens 218 Patienten zu töten; Ted Kaczynski setzte sein mathematisches Fachwissen gezielt zum Bau seiner Briefbomben ein."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Igel",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine extreme private Isolation, in der eine obsessive Fixierung völlig ungebremst blieb.",
+    beispiele: ["Jeffrey Dahmer", "Joel Rifkin"],
+    fingerabdruecke: [
+      {
+        titel: "Extreme private Isolation als Nährboden einer ungebremsten Fixierung",
+        beschreibung: "Bei bislang zwei Fällen entwickelte sich die Tat in einem Zustand fast vollständiger sozialer Isolation, in dem eine obsessive innere Fixierung ohne jede äußere Korrektur ungebremst blieb.",
+        beleg: "Jeffrey Dahmer lebte allein und weitgehend zurückgezogen, während sich seine Taten über Jahre in seiner eigenen Wohnung abspielten, ohne dass sein Umfeld eingriff."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Kaninchen",
+    kernthema: "Bislang nur ein dokumentierter Fall – ein Muster einer rigiden, selbst konstruierten moralischen Rechtfertigung, die die eigene Tat als notwendig erscheinen ließ.",
+    beispiele: ["John List"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: eine rigide, selbst konstruierte moralische Rechtfertigung",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "John List rechtfertigte die Tötung seiner gesamten Familie vor sich selbst mit einer religiös verbrämten Überzeugung, sie damit vor einem als schlimmer empfundenen Schicksal zu ›bewahren‹."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Erdmännchen",
+    kernthema: "Bislang nur ein dokumentierter Fall – das historisch bekannteste Beispiel für Loyalität zu einem System, die jede eigene moralische Prüfung verdrängte.",
+    beispiele: ["Adolf Eichmann"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: Systemloyalität, die jede eigene moralische Prüfung verdrängt",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall, historisch aber als eines der bekanntesten Beispiele bürokratischer Verantwortungsverschiebung dokumentiert (Hannah Arendts ›Banalität des Bösen‹).",
+        beleg: "Adolf Eichmann berief sich bei seinem Prozess durchgehend darauf, lediglich Befehle und organisatorische Abläufe innerhalb eines Systems ausgeführt zu haben."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Eine intensive, oft ideologische oder gruppenbezogene Bindung ging in den porträtierten Fällen der Tat jeweils unmittelbar voraus.",
+    beispiele: ["Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    fingerabdruecke: [
+      {
+        titel: "Intensive ideologische oder gruppenbezogene Bindung als Vorstufe der Tat",
+        beschreibung: "Bei der sexuellen Sechs zeigt sich in den porträtierten Fällen eine besonders intensive, oft radikalisierte Bindung an eine Ideologie, eine Gruppe oder eine einzelne fixe Idee, die der eigentlichen Tat unmittelbar voranging.",
+        beleg: "Charles Manson band seine ›Familie‹ durch absolute ideologische Verschmelzung an sich; Anders Breivik radikalisierte sich über Jahre in einer selbst konstruierten ideologischen Weltsicht, bevor er seinen Anschlag verübte."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Bislang nur zwei Fälle – erkennbar ist eine Suche nach Nervenkitzel oder dem Gefühl, gebraucht bzw. unentbehrlich zu sein, als treibende Kraft.",
+    beispiele: ["Niels Högel", "Andreas Baader"],
+    fingerabdruecke: [
+      {
+        titel: "Nervenkitzel oder das Gefühl, unentbehrlich zu sein, als treibende Kraft",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich eine Suche nach intensiven Momenten oder dem Gefühl, im entscheidenden Augenblick gebraucht zu werden, als erkennbarer Antrieb.",
+        beleg: "Niels Högel manipulierte wiederholt Patienten, um anschließend als vermeintlicher Lebensretter bei der Reanimation zu glänzen – eine Studie fand später über 300 mögliche Opfer."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Biber",
+    kernthema: "In beiden porträtierten Fällen stand ein sorgfältig gepflegtes, ideales öffentliches oder gemeinschaftliches Bild in scharfem Kontrast zur tatsächlichen Realität dahinter.",
+    beispiele: ["Chris Watts", "Frank Abagnale Jr."],
+    fingerabdruecke: [
+      {
+        titel: "Ein sorgfältig gepflegtes ideales Bild im Kontrast zur Realität dahinter",
+        beschreibung: "Bei der sozialen Sieben zeigt sich in beiden Fällen ein nach außen sorgsam gepflegtes, positives Bild – der ideale Familienvater, der vertrauenswürdige Fachmann –, hinter dem sich eine völlig andere Realität verbarg.",
+        beleg: "Chris Watts präsentierte sich in sozialen Medien bis kurz vor der Tat als liebevoller, engagierter Familienvater; Frank Abagnale Jr. gab sich über Jahre als Pilot, Arzt und Anwalt aus, ohne je einer gewesen zu sein."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Schimpanse",
+    kernthema: "Eine intensive Suche nach Aufregung, Grenzüberschreitung oder radikaler Freiheit zieht sich durch mehrere der porträtierten Fälle.",
+    beispiele: ["Gudrun Ensslin", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig"],
+    fingerabdruecke: [
+      {
+        titel: "Intensive Suche nach Aufregung, Grenzüberschreitung oder radikaler Freiheit",
+        beschreibung: "Bei der sexuellen Sieben zeigt sich in mehreren Fällen eine Lebensweise, die bewusst auf Intensität, Tempo und das Überschreiten von Grenzen ausgerichtet war – oft mit einer gewissen theatralischen, fast euphorischen Note.",
+        beleg: "Clyde Barrow und Bonnie Parker lebten ihre gemeinsame Verbrecherlaufbahn in einer rastlosen, medienwirksamen Flucht quer durch die USA; Victor Lustig verkaufte notorisch charmant und mit hohem Tempo den Eiffelturm gleich zweimal an ahnungslose Käufer."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orang-Utan",
+    kernthema: "Bislang zwei Fälle – erkennbar ist direkte, unverhohlene Machtausübung über ein eigenes Territorium oder eine eigene Organisation.",
+    beispiele: ["Griselda Blanco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Direkte, unverhohlene Machtausübung über ein eigenes Territorium",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich eine unmittelbare, oft brutale Kontrolle über ein selbst aufgebautes kriminelles Territorium oder eine eigene Organisation, ohne Umweg über Täuschung oder Fassade.",
+        beleg: "Griselda Blanco kontrollierte über Jahre einen bedeutenden Teil des Kokainhandels nach Miami mit unverhohlener Gewalt; Salvatore Riina führte die sizilianische Cosa Nostra mit brutaler Direktheit."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Löwe",
+    kernthema: "Bislang nur ein dokumentierter Fall – die öffentlich zur Schau gestellte Rolle eines unangreifbaren, mächtigen Anführers.",
+    beispiele: ["John Gotti"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: die öffentlich zur Schau gestellte Rolle des unangreifbaren Anführers",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall.",
+        beleg: "John Gotti kultivierte bewusst sein Image als ›Teflon Don‹ – öffentlich, medienwirksam und scheinbar unangreifbar."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Krokodil",
+    kernthema: "Bislang zwei Fälle – erkennbar ist der Einsatz von Reichtum und persönlicher Dominanz zur Kontrolle über andere Menschen in sehr engen Machtgefällen.",
+    beispiele: ["John McAfee", "Jeffrey Epstein"],
+    fingerabdruecke: [
+      {
+        titel: "Reichtum und persönliche Dominanz als Mittel der Kontrolle über andere",
+        beschreibung: "Bei bislang zwei Fällen wird sichtbar, wie finanzielle Macht und persönliche Durchsetzungskraft eingesetzt wurden, um in sehr engen, ungleichen Machtverhältnissen andere Menschen zu kontrollieren und auszubeuten.",
+        beleg: "Jeffrey Epstein nutzte seinen Reichtum und seine gesellschaftlichen Verbindungen über Jahre systematisch zur Ausbeutung Minderjähriger."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elefant",
+    kernthema: "Bislang zwei Fälle – erkennbar ist eine lange Phase des Vermeidens oder passiven Verdrängens einer sich zuspitzenden Situation, bevor es zur eigentlichen Tat kam.",
+    beispiele: ["Alfons Schuhbeck", "John Hinckley Jr."],
+    fingerabdruecke: [
+      {
+        titel: "Langes Vermeiden oder passives Verdrängen vor der eigentlichen Zuspitzung",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich eine lange Phase des Wegschauens oder passiven Verdrängens eines eigentlich erkennbaren Problems, bevor sich die Situation zuspitzte.",
+        beleg: "Alfons Schuhbeck vermied über Jahre die aktive Auseinandersetzung mit den steuerlichen Unregelmäßigkeiten seines Firmenimperiums, bis diese unübersehbar wurden."
+      }
+    ]
+  },
+  SO9: {
+    tier: "Büffel",
+    kernthema: "Bislang zwei Fälle – erkennbar ist eine Verschmelzung der eigenen Identität mit einer Gruppe oder einem System, bis eigenes Urteilsvermögen dahinter zurücktrat.",
+    beispiele: ["Nick Leeson", "Leslie Van Houten"],
+    fingerabdruecke: [
+      {
+        titel: "Verschmelzung der eigenen Identität mit einer Gruppe oder einem System",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich, wie die eigene Identität so stark mit einer Gruppe, einem System oder einer Institution verschmolz, dass eigenständiges Urteilsvermögen dahinter zurücktrat.",
+        beleg: "Leslie Van Houten ordnete sich vollständig der ›Manson Family‹ unter, bevor sie an den Morden beteiligt war; Nick Leeson vermied es über Monate, seine wachsenden Verluste innerhalb der Bank offenzulegen, bis diese zum Zusammenbruch von Barings führten."
+      }
+    ]
+  },
+  SX9: {
+    tier: "Faultier",
+    kernthema: "Bislang zwei Fälle – erkennbar ist eine tiefe Verschmelzung der eigenen Identität mit einer anderen Person oder einem fremden Stil, bis zur fast völligen Selbstauflösung.",
+    beispiele: ["Wolfgang Beltracchi", "Ed Gein"],
+    fingerabdruecke: [
+      {
+        titel: "Tiefe Verschmelzung der eigenen Identität mit einer anderen Person oder einem fremden Stil",
+        beschreibung: "Bei bislang zwei Fällen zeigt sich eine außergewöhnlich tiefe Verschmelzung der eigenen Identität mit einer fremden Vorlage – bis zur fast völligen Auflösung der eigenen Person darin.",
+        beleg: "Wolfgang Beltracchi fälschte über Jahrzehnte Werke bekannter Künstler mit einer stilistischen Verschmelzung, die selbst Experten täuschte."
+      }
+    ]
+  }
+};
+
 function krankheitsmusterkompassPage() {
   const subtypes = [
     { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
@@ -46182,6 +46525,134 @@ function krankheitsmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Lebensmusterkompass: ${code} – ${data.tier}`},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
           {route:"psychosomatik", label:"Psychosomatik-Register"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function kriminalmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
+    { code: "SE2", tier: "Flusspferd" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Kamel" },
+    { code: "SE3", tier: "Waschbär" }, { code: "SO3", tier: "Gepard" }, { code: "SX3", tier: "Pfau" },
+    { code: "SE4", tier: "Taube" }, { code: "SO4", tier: "Gürteltier" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Eule" }, { code: "SO5", tier: "Oktopus" }, { code: "SX5", tier: "Igel" },
+    { code: "SE6", tier: "Kaninchen" }, { code: "SO6", tier: "Erdmännchen" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Biber" }, { code: "SX7", tier: "Schimpanse" },
+    { code: "SE8", tier: "Orang-Utan" }, { code: "SO8", tier: "Löwe" }, { code: "SX8", tier: "Krokodil" },
+    { code: "SE9", tier: "Elefant" }, { code: "SO9", tier: "Büffel" }, { code: "SX9", tier: "Faultier" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!KRIMINALMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="kriminalmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Kriminalmusterkompass</p>
+        <h1 class="section-title">Kriminalmusterkompass</h1>
+        <p class="psycho-intro">Wiederkehrende Muster in der Vorgehensweise der 27 Subtypen &ndash; herausgearbeitet aus der internen Analyse sämtlicher Kriminalpsychologie-Porträts dieses Kompasses.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Der wichtigste Satz zuerst, unmissverständlich:</strong> Die überwältigende Mehrheit jedes Enneagramm-Subtyps wird nie kriminell. Diese Rubrik behauptet nicht und suggeriert nicht, dass ein bestimmter Subtyp zu Kriminalität neigt. Sie hält ausschließlich fest, welche <strong>Form</strong> eine Entgleisung annahm, wenn eine der wenigen bereits porträtierten Personen eines Subtyps tatsächlich straffällig wurde – also nicht &bdquo;ob&ldquo;, sondern nur &bdquo;wie&ldquo;, in den seltenen Fällen, in denen es dazu kam.</p>
+          <p class="vb-intro">Der Grundgedanke: Dieselbe Grundmotivation, die bei den allermeisten Menschen eines Subtyps zu völlig gewöhnlichem, oft sogar besonders wertvollem Verhalten führt (Fürsorge, Kompetenz, Loyalität, Charisma, Sorgfalt), kann in extrem seltenen Fällen entgleisen &ndash; und nimmt dann häufig eine Form an, die zur jeweiligen Grundmotivation passt. Fürsorge, die entgleist, sieht anders aus als Kontrolle, die entgleist. Das ist eine Beobachtung über die <strong>Form</strong> der Entgleisung, keine Aussage über die Wahrscheinlichkeit, dass sie überhaupt eintritt &ndash; diese bleibt für jeden Subtyp verschwindend gering.</p>
+          <p class="vb-intro"><strong>Eine Entwarnung, die wichtig ist:</strong> Die hier erkennbaren Muster setzen praktisch immer voraus, dass ein Mensch sich seines eigenen Grundmusters nicht bewusst ist und es dadurch völlig ungebremst und ohne jede Selbstreflexion auslebt. Wer sich mit dem Enneagramm und dem eigenen Subtyp bereits auseinandersetzt, entwickelt genau die Selbstwahrnehmung, die einer solchen Entgleisung typischerweise fehlte.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Auch dieser Kompass ist, wie der Lebens- und der Krankheitsmusterkompass, kein außenstehend verifizierter, wissenschaftlicher Beweis, sondern eine fortlaufend wachsende interne Beobachtungssammlung aus der eigenen Porträtarbeit &ndash; mit demselben methodischen Zirkularitätsrisiko. Bei Subtypen mit bislang nur einem einzigen dokumentierten Fall wird das explizit als Einzelfall gekennzeichnet, nicht als Muster. Die Rubrik wird bei jedem neuen Kriminalpsychologie-Porträt aktualisiert.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"krankheitsmusterkompass", label:"Krankheitsmusterkompass (Muster in den Krankheitsporträts)"},
+          {route:"kriminalpsychologie", label:"Alle Kriminalpsychologie-Porträts"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function kriminalmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = KRIMINALMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Noch nicht verfügbar</h1>
+          <p class="psycho-intro">Der Kriminalmusterkompass für ${code} ist noch in Arbeit.</p>
+          ${relatedLinks([{route:"kriminalmusterkompass", label:"Zurück zum Kriminalmusterkompass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = kriminalmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Muster ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Belege aus den Kriminalpsychologie-Porträts</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Kriminalmusterkompass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Muster der Entgleisung</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:-0.6rem 0 1.4rem;">Die überwältigende Mehrheit dieses Subtyps wird nie kriminell – diese Seite zeigt nur, welche Form seltene Entgleisungen annahmen, keine Vorhersage. Mehr dazu im <a href="javascript:void(0)" data-route="kriminalmusterkompass" style="color:${col};">Kriminalmusterkompass-Überblick</a>.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Herangezogene Kriminalpsychologie-Porträts (automatisch aus allen ${code}-Einträgen zusammengestellt &ndash; ergänzt sich bei jedem neuen Porträt von selbst):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"kriminalmusterkompass", label:"Zurück zum Kriminalmusterkompass"},
+          {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Lebensmusterkompass: ${code} – ${data.tier}`},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
         ])}
       </div>
     </div>
@@ -51713,7 +52184,8 @@ function kriminalpsychologiePage() {
     +'<p class="psycho-intro">Bekannte Kriminalf\xe4lle durch die Linse des Enneagramms: '
     +'Wie pr\xe4gt die innere Struktur eines Menschen seine dunkelsten Taten? '
     +'Diese Portr\xe4ts sind keine Verherrlichung, sondern Tiefenanalysen &ndash; '
-    +'ein Versuch zu verstehen, was geschieht, wenn die Leidenschaft eines Typs in die Zerst\xf6rung kippt.</p>'
+    +'ein Versuch zu verstehen, was geschieht, wenn die Leidenschaft eines Typs in die Zerst\xf6rung kippt. '
+    +'Wiederkehrende Muster über alle Portr\xe4ts eines Subtyps hinweg sammelt der <a href="javascript:void(0)" data-route="kriminalmusterkompass">Kriminalmusterkompass</a>.</p>'
     +filterBar()
     +registerBox
     +'<div id="kf-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
@@ -75250,6 +75722,7 @@ function render() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
+    "kriminalmusterkompass": kriminalmusterkompassPage,
     "musterradar": musterradarPage,
     "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
@@ -76153,6 +76626,8 @@ function render() {
       app.innerHTML = lebensmusterkompassDetailPage(param);
     } else if (base === "krankheitsmusterkompass" && param) {
       app.innerHTML = krankheitsmusterkompassDetailPage(param);
+    } else if (base === "kriminalmusterkompass" && param) {
+      app.innerHTML = kriminalmusterkompassDetailPage(param);
     } else if (base === "musterradar" && param) {
       app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {

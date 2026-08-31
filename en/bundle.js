@@ -3002,6 +3002,7 @@ text.nav = [
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
     { route: "krankheitsmusterkompass", label: "Illness Pattern Compass (Patterns in the Illness Portraits)" },
+    { route: "kriminalmusterkompass", label: "Crime Pattern Compass (Patterns in the Criminal Psychology Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
@@ -49242,6 +49243,7 @@ function lebensmusterkompassPage() {
         ${relatedLinks([
           {route:"musterradar", label:"Pattern Radar (wings & instincts across all types)"},
           {route:"krankheitsmusterkompass", label:"Illness Pattern Compass (patterns in the illness portraits)"},
+          {route:"kriminalmusterkompass", label:"Crime Pattern Compass (patterns in the criminal psychology portraits)"},
           {route:"enneagramm-rad", label:"Enneagram Wheel (interactive symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"kriminalpsychologie", label:"Criminal psychology"},
@@ -49684,6 +49686,347 @@ function lebensmusterkompassDetailPage(codeRaw) {
   `);
 }
 
+// ---------------------------------------------------------------------------
+// Crime Pattern Compass: analogous to the Illness Pattern Compass, but fed
+// from the criminal-psychology portraits. Important, given the special
+// sensitivity of this topic: this is NOT about "which subtype turns
+// criminal," but solely about which FORM a derailment took among the very
+// few already-portrayed offenders of a subtype, when an otherwise neutral
+// core motivation derailed. The overwhelming majority of every subtype
+// never becomes criminal.
+function kriminalmusterkompassPortraitsForCode(code) {
+  return KRIMINAL_PORTRAITS
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+const KRIMINALMUSTERKOMPASS = {
+  SE1: {
+    tier: "Eagle",
+    kernthema: "Derailed cases strikingly often show the same methodical precision the self-preservation One otherwise applies to order and control – just aimed against its own stated goal.",
+    beispiele: ["Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow"],
+    fingerabdruecke: [
+      {
+        titel: "Methodical precision and years of self-control as camouflage",
+        beschreibung: "Several of the portrayed cases show a strikingly methodical, detail-obsessed approach combined with an outwardly unremarkable, controlled life for years – the same self-discipline the One otherwise applies constructively, here perverted into meticulous concealment.",
+        beleg: "Dennis Rader (BTK) led an inconspicuous double life for decades as a church council president and local official while meticulously planning his crimes; Arno Funke (\"Dagobert\") planned his extortion scheme with extraordinary technical care over years."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Goose",
+    kernthema: "Small sample so far – a discernible pattern of an outwardly flawless, morally upright façade concealing the actual crime.",
+    beispiele: ["Ted Bundy", "Heinrich Pommerenke"],
+    fingerabdruecke: [
+      {
+        titel: "A morally upright public façade as a cover",
+        beschreibung: "With only two cases so far, a cautious pattern emerges: both were, for a long time, seen by those around them as unusually respectable or even trustworthy, which significantly delayed the discovery of their crimes.",
+        beleg: "Ted Bundy came across to those around him as charming, educated, and trustworthy – a reputation he deliberately used to approach victims."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Black Mamba",
+    kernthema: "A striking number of the portrayed cases took place within the closest family or domestic sphere, often under the guise of care or authority.",
+    beispiele: ["Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennady Mikhasevich", "Fritz Haarmann", "Josef Fritzl"],
+    fingerabdruecke: [
+      {
+        titel: "Control and violence within one's own family or closest community",
+        beschreibung: "In the sexual One, several cases show the crime unfolding not in public but within the offender's own family or a closed community they created, often undetected for years under the pretense of care or legitimate authority.",
+        beleg: "Josef Fritzl held his own daughter captive in a self-built basement dungeon for 24 years; Mary Ann Cotton poisoned several of her own family members over years; Alex Murdaugh used his position within his own family law firm for large-scale fraud for decades."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Hippopotamus",
+    kernthema: "A strikingly high number of the portrayed cases used a role disguised as care, closeness, or community to gain and exploit trust.",
+    beispiele: ["Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
+    fingerabdruecke: [
+      {
+        titel: "A role of care or closeness as a tool for breach of trust",
+        beschreibung: "In the self-preservation Two, several cases feature a person who first presented as helpful, approachable, or community-building – as a mentor, neighbor, family member, or benefactor – and exploited exactly that trust for the actual crime.",
+        beleg: "Harvey Weinstein systematically exploited his role as a powerful, supposedly supportive mentor in the film industry; John Wayne Gacy was known in his neighborhood as a sociable, community-engaged \"clown\" while murdering in parallel; Jeanne Weber, a nurse, killed several children entrusted to her care."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Charisma and the ability to gather people around oneself became, in the portrayed cases, a tool for leading entire groups into violence or destruction.",
+    beispiele: ["Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    fingerabdruecke: [
+      {
+        titel: "Charismatic leadership that drives an entire group into destruction",
+        beschreibung: "The social Two repeatedly shows, in the portrayed cases, a person whose social pull and leadership ability was used not to build up but to destroy a community entrusted to them.",
+        beleg: "Jim Jones led his entire cult community into total dependency over years before driving them into the collective deaths of Jonestown; Jack Unterweger used his public reputation as a celebrated, reformed author to keep killing undetected."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Camel",
+    kernthema: "Only one documented case so far – too little for a pattern, but a striking individual case of manipulation through an intense one-on-one relationship.",
+    beispiele: ["Pamela Smart"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: manipulation through an intense romantic bond",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "Pamela Smart persuaded her much younger lover, through an intense romantic bond, to kill her husband."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Raccoon",
+    kernthema: "By far the largest share of the portrayed SE3 cases involves large-scale financial fraud – demonstrated competence and visible success as a façade.",
+    beispiele: ["Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff"],
+    fingerabdruecke: [
+      {
+        titel: "Demonstrated competence and visible success as a façade for fraud",
+        beschreibung: "Among the portrayed self-preservation Three cases, financial and investment fraudsters strikingly dominate, whose outwardly credible display of professional competence and track record served for years as a façade for systematic fraud.",
+        beleg: "Bernie Madoff built a seemingly reputable investment empire over decades that turned out to be one of history's largest Ponzi schemes; Samuel Bankman-Fried presented himself as the respectable face of the crypto world while billions in customer funds were diverted behind the scenes; Ruja Ignatova sold a fictitious cryptocurrency as a revolutionary investment."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Cheetah",
+    kernthema: "A desire for status, visibility, or public recognition played a recognizable role, as motive or stage, in several of the portrayed cases.",
+    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson"],
+    fingerabdruecke: [
+      {
+        titel: "Status, visibility, or a public stage as a recognizable motive",
+        beschreibung: "The social Three shows, in several cases, a connection to fame, status, or public attention – either as a direct motive or as the stage on which the crime unfolded.",
+        beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Peacock",
+    kernthema: "Small sample so far – a tendency toward media-savvy self-dramatization of one's own crimes.",
+    beispiele: ["Diane Downs", "Luka Magnotta", "Richard Ramírez"],
+    fingerabdruecke: [
+      {
+        titel: "Media-savvy self-dramatization of one's own crimes",
+        beschreibung: "In the three cases so far, a deliberate, often theatrical self-presentation in connection with the crime stands out – a search for attention that went beyond the crime itself.",
+        beleg: "Luka Magnotta deliberately filmed and distributed his crime himself to generate media attention; Richard Ramírez staged himself in court with a pentagram drawn on his palm."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Dove",
+    kernthema: "Only one documented case so far – a pattern of deep hurt and a feeling of being misunderstood and excluded, discharged into a self-created, dark narrative.",
+    beispiele: ["David Berkowitz"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: deep hurt discharged into a self-created dark narrative",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "David Berkowitz (\"Son of Sam\") constructed an elaborate, self-created narrative of persecution and mission around his crimes."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Armadillo",
+    kernthema: "Only one documented case so far – a pattern of deeply felt, publicly suffered rejection, articulated in a self-written manifesto.",
+    beispiele: ["Elliot Rodger"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: publicly suffered rejection, articulated in a manifesto",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "Elliot Rodger left behind an extensive, self-written manifesto about perceived social rejection and exclusion before his attack."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Small sample so far – a discernible fusion of one's own identity with an intense relationship or a self-created ideological narrative.",
+    beispiele: ["Bonnie Parker", "Adolf Hitler"],
+    fingerabdruecke: [
+      {
+        titel: "Fusion of one's own identity with an intense bond or narrative",
+        beschreibung: "In the two cases so far, a deep fusion of one's own identity emerges, either with a single intense relationship or with a self-created, all-consuming ideological narrative.",
+        beleg: "Bonnie Parker defined her entire later identity through the romanticized shared outlaw career with Clyde Barrow."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Owl",
+    kernthema: "Only one documented case so far – a pattern of extreme, years-long secrecy and isolation from the outside world.",
+    beispiele: ["Joachim Kroll"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: extreme, years-long secrecy",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "Joachim Kroll lived inconspicuously and withdrawn in the same neighborhood for decades, without those around him ever suspecting anything."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Octopus",
+    kernthema: "Small sample so far – a discernible misuse of specialist knowledge or intellectual authority as the tool of the crime itself.",
+    beispiele: ["Dr. Ted Kaczynski", "Dr. Harold Shipman"],
+    fingerabdruecke: [
+      {
+        titel: "Specialist knowledge or intellectual authority as the tool of the crime",
+        beschreibung: "In the two cases so far, specialized knowledge or recognized professional authority was used directly as the means of the crime itself, not merely as camouflage.",
+        beleg: "Dr. Harold Shipman used his trusted position as a family doctor and his medical expertise to kill at least 218 patients over the years; Ted Kaczynski deliberately used his mathematical expertise to build his mail bombs."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Hedgehog",
+    kernthema: "Small sample so far – a discernible extreme private isolation in which an obsessive fixation remained entirely unchecked.",
+    beispiele: ["Jeffrey Dahmer", "Joel Rifkin"],
+    fingerabdruecke: [
+      {
+        titel: "Extreme private isolation as the breeding ground for an unchecked fixation",
+        beschreibung: "In the two cases so far, the crimes developed in a state of near-total social isolation, in which an obsessive inner fixation remained entirely unchecked by any outside correction.",
+        beleg: "Jeffrey Dahmer lived alone and largely withdrawn, while his crimes unfolded over years within his own apartment, unnoticed by those around him."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Rabbit",
+    kernthema: "Only one documented case so far – a pattern of rigid, self-constructed moral justification that made the crime itself appear necessary.",
+    beispiele: ["John List"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: a rigid, self-constructed moral justification",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "John List justified killing his entire family to himself with a religiously framed conviction that he was thereby \"sparing\" them a worse fate."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Meerkat",
+    kernthema: "Only one documented case so far – historically the most well-known example of loyalty to a system displacing all individual moral scrutiny.",
+    beispiele: ["Adolf Eichmann"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: system loyalty displacing all individual moral scrutiny",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case, historically documented as one of the most famous examples of bureaucratic displacement of responsibility (Hannah Arendt's \"banality of evil\").",
+        beleg: "Adolf Eichmann consistently claimed at his trial to have merely carried out orders and organizational processes within a system."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "An intense, often ideological or group-related bond directly preceded the crime in each of the portrayed cases.",
+    beispiele: ["Anders Breivik", "Armin Meiwes", "Charles Manson"],
+    fingerabdruecke: [
+      {
+        titel: "Intense ideological or group-related bond as a precursor to the crime",
+        beschreibung: "The sexual Six shows, in the portrayed cases, an especially intense, often radicalized attachment to an ideology, a group, or a single fixed idea that directly preceded the actual crime.",
+        beleg: "Charles Manson bound his \"family\" to himself through absolute ideological fusion; Anders Breivik radicalized himself over years within a self-constructed ideological worldview before carrying out his attack."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Only two cases so far – a discernible search for thrill or the feeling of being needed or indispensable as a driving force.",
+    beispiele: ["Niels Högel", "Andreas Baader"],
+    fingerabdruecke: [
+      {
+        titel: "Thrill or the feeling of being indispensable as a driving force",
+        beschreibung: "In the two cases so far, a search for intense moments or the feeling of being needed at a decisive moment shows up as a recognizable driver.",
+        beleg: "Niels Högel repeatedly manipulated patients in order to then shine as a supposed life-saver during resuscitation – a later study found over 300 possible victims."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Beaver",
+    kernthema: "In both portrayed cases, a carefully maintained, ideal public or communal image stood in sharp contrast to the actual reality behind it.",
+    beispiele: ["Chris Watts", "Frank Abagnale Jr."],
+    fingerabdruecke: [
+      {
+        titel: "A carefully maintained ideal image in contrast to the reality behind it",
+        beschreibung: "The social Seven shows, in both cases, an outwardly carefully maintained, positive image – the ideal family man, the trustworthy professional – behind which an entirely different reality was hidden.",
+        beleg: "Chris Watts presented himself on social media as a loving, devoted family man until shortly before the crime; Frank Abagnale Jr. posed as a pilot, doctor, and lawyer for years without ever having been one."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Chimpanzee",
+    kernthema: "An intense search for excitement, boundary-crossing, or radical freedom runs through several of the portrayed cases.",
+    beispiele: ["Gudrun Ensslin", "Aileen Wuornos", "Clyde Barrow", "Victor Lustig"],
+    fingerabdruecke: [
+      {
+        titel: "An intense search for excitement, boundary-crossing, or radical freedom",
+        beschreibung: "The sexual Seven shows, in several cases, a lifestyle deliberately oriented toward intensity, pace, and crossing boundaries – often with a certain theatrical, almost euphoric note.",
+        beleg: "Clyde Barrow and Bonnie Parker lived their shared outlaw career in a restless, media-savvy flight across the United States; Victor Lustig notoriously and charmingly sold the Eiffel Tower twice, at high speed, to unsuspecting buyers."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orangutan",
+    kernthema: "Two cases so far – a discernible direct, unconcealed exercise of power over one's own territory or organization.",
+    beispiele: ["Griselda Blanco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Direct, unconcealed exercise of power over one's own territory",
+        beschreibung: "In the two cases so far, an immediate, often brutal control over a self-built criminal territory or organization emerges, without the detour of deception or façade.",
+        beleg: "Griselda Blanco controlled a significant share of cocaine trafficking into Miami for years with unconcealed violence; Salvatore Riina led the Sicilian Cosa Nostra with brutal directness."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Lion",
+    kernthema: "Only one documented case so far – the publicly displayed role of an untouchable, powerful leader.",
+    beispiele: ["John Gotti"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: the publicly displayed role of the untouchable leader",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
+        beleg: "John Gotti deliberately cultivated his image as the \"Teflon Don\" – public, media-savvy, and seemingly untouchable."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Crocodile",
+    kernthema: "Two cases so far – a discernible use of wealth and personal dominance to control others within very close, unequal power dynamics.",
+    beispiele: ["John McAfee", "Jeffrey Epstein"],
+    fingerabdruecke: [
+      {
+        titel: "Wealth and personal dominance as a means of controlling others",
+        beschreibung: "In the two cases so far, financial power and personal assertiveness were used to control and exploit others within very close, unequal power relationships.",
+        beleg: "Jeffrey Epstein systematically used his wealth and social connections over years to exploit minors."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elephant",
+    kernthema: "Two cases so far – a discernible long phase of avoidance or passive denial of an escalating situation before the actual crime occurred.",
+    beispiele: ["Alfons Schuhbeck", "John Hinckley Jr."],
+    fingerabdruecke: [
+      {
+        titel: "Long avoidance or passive denial before the actual escalation",
+        beschreibung: "In the two cases so far, a long phase of looking away or passively denying an actually recognizable problem shows up before the situation escalated.",
+        beleg: "Alfons Schuhbeck avoided actively confronting the tax irregularities of his business empire for years, until they became impossible to overlook."
+      }
+    ]
+  },
+  SO9: {
+    tier: "Buffalo",
+    kernthema: "Two cases so far – a discernible fusion of one's own identity with a group or system, until independent judgment receded behind it.",
+    beispiele: ["Nick Leeson", "Leslie Van Houten"],
+    fingerabdruecke: [
+      {
+        titel: "Fusion of one's own identity with a group or system",
+        beschreibung: "In the two cases so far, one's own identity fused so strongly with a group, a system, or an institution that independent judgment receded behind it.",
+        beleg: "Leslie Van Houten fully subordinated herself to the \"Manson Family\" before being involved in the murders; Nick Leeson avoided disclosing his mounting losses within the bank for months, until they led to the collapse of Barings."
+      }
+    ]
+  },
+  SX9: {
+    tier: "Sloth",
+    kernthema: "Two cases so far – a discernible deep fusion of one's own identity with another person or a foreign style, to the point of near-total self-dissolution.",
+    beispiele: ["Wolfgang Beltracchi", "Ed Gein"],
+    fingerabdruecke: [
+      {
+        titel: "Deep fusion of one's own identity with another person or foreign style",
+        beschreibung: "In the two cases so far, an unusually deep fusion of one's own identity with a foreign template emerges – to the point of near-total dissolution of the self within it.",
+        beleg: "Wolfgang Beltracchi forged the works of well-known artists for decades with a stylistic fusion so thorough it fooled even experts."
+      }
+    ]
+  }
+};
+
 function krankheitsmusterkompassPage() {
   const subtypes = [
     { code: "SE1", tier: "Eagle" }, { code: "SO1", tier: "Goose" }, { code: "SX1", tier: "Black Mamba" },
@@ -49828,6 +50171,134 @@ function krankheitsmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Life Pattern Compass: ${code} – ${data.tier}`},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: subtype profile`},
           {route:"psychosomatik", label:"Psychosomatics Register"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function kriminalmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Eagle" }, { code: "SO1", tier: "Goose" }, { code: "SX1", tier: "Black Mamba" },
+    { code: "SE2", tier: "Hippopotamus" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Camel" },
+    { code: "SE3", tier: "Raccoon" }, { code: "SO3", tier: "Cheetah" }, { code: "SX3", tier: "Peacock" },
+    { code: "SE4", tier: "Dove" }, { code: "SO4", tier: "Armadillo" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Owl" }, { code: "SO5", tier: "Octopus" }, { code: "SX5", tier: "Hedgehog" },
+    { code: "SE6", tier: "Rabbit" }, { code: "SO6", tier: "Meerkat" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Beaver" }, { code: "SX7", tier: "Chimpanzee" },
+    { code: "SE8", tier: "Orangutan" }, { code: "SO8", tier: "Lion" }, { code: "SX8", tier: "Crocodile" },
+    { code: "SE9", tier: "Elephant" }, { code: "SO9", tier: "Buffalo" }, { code: "SX9", tier: "Sloth" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!KRIMINALMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="kriminalmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in progress"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in progress</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Crime Pattern Compass</p>
+        <h1 class="section-title">Crime Pattern Compass</h1>
+        <p class="psycho-intro">Recurring patterns in the modus operandi of the 27 subtypes &ndash; drawn from an internal analysis of all criminal-psychology portraits in this Compass.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>The most important sentence first, unambiguously:</strong> the overwhelming majority of every Enneagram subtype never becomes criminal. This section does not claim or suggest that any given subtype is prone to crime. It records only the <strong>form</strong> a derailment took when one of the very few already-portrayed people of a subtype actually broke the law – not "whether," but only "how," in the rare cases where it happened.</p>
+          <p class="vb-intro">The core idea: the same underlying motivation that, in the vast majority of people of a subtype, leads to entirely ordinary, often even particularly valuable behavior (care, competence, loyalty, charisma, diligence) can, in extremely rare cases, derail – and when it does, it often takes a form that matches that underlying motivation. Care that derails looks different from control that derails. This is an observation about the <strong>form</strong> of a derailment, not a statement about how likely it is to occur in the first place – that likelihood remains vanishingly small for every subtype.</p>
+          <p class="vb-intro"><strong>An important reassurance:</strong> the patterns visible here almost always presuppose that a person is unaware of their own core pattern and therefore lives it out completely unchecked, without any self-reflection. Anyone who is already engaging with the Enneagram and their own subtype develops exactly the self-awareness that was typically missing in such a derailment.</p>
+          <p class="vb-intro"><strong>Important note on method:</strong> like the Life Pattern Compass and the Illness Pattern Compass, this section is not an externally verified, scientific proof, but a continuously growing internal collection of observations from this Compass's own portrait work &ndash; carrying the same methodological circularity risk. Where only a single documented case exists for a subtype so far, it is explicitly flagged as an individual case, not a pattern. This section is updated with every new criminal-psychology portrait.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"krankheitsmusterkompass", label:"Illness Pattern Compass (Patterns in the Illness Portraits)"},
+          {route:"kriminalpsychologie", label:"All Criminal Psychology Portraits"},
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function kriminalmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = KRIMINALMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Not yet available</h1>
+          <p class="psycho-intro">The Crime Pattern Compass for ${code} is still in progress.</p>
+          ${relatedLinks([{route:"kriminalmusterkompass", label:"Back to the Crime Pattern Compass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = kriminalmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Pattern ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Evidence from the criminal-psychology portraits</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Crime Pattern Compass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Patterns of Derailment</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:-0.6rem 0 1.4rem;">The overwhelming majority of this subtype never becomes criminal – this page shows only the form rare derailments took, not a prediction. More on this in the <a href="javascript:void(0)" data-route="kriminalmusterkompass" style="color:${col};">Crime Pattern Compass overview</a>.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Criminal-psychology portraits drawn on (automatically compiled from all ${code} entries &ndash; extends itself with every new portrait):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${relatedLinks([
+          {route:"kriminalmusterkompass", label:"Back to the Crime Pattern Compass"},
+          {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Life Pattern Compass: ${code} – ${data.tier}`},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: subtype profile`},
         ])}
       </div>
     </div>
@@ -73118,7 +73589,8 @@ function kriminalpsychologiePage() {
     +'<p class="psycho-intro">Notorious criminal cases through the lens of the Enneagram: '
     +'How does the inner structure of a person shape their darkest deeds? '
     +'These portraits are not a glorification, but in-depth analyses &ndash; '
-    +'an attempt to understand what happens when a type\'s passion tips over into destruction.</p>'
+    +'an attempt to understand what happens when a type\'s passion tips over into destruction. '
+    +'Recurring patterns across all portraits of a subtype are collected in the <a href="javascript:void(0)" data-route="kriminalmusterkompass">Crime Pattern Compass</a>.</p>'
     +filterBar()
     +registerBox
     +'<div id="kf-list" style="display:flex;flex-direction:column;gap:1rem;max-width:100%;">'
@@ -105151,6 +105623,7 @@ function subtypeSchaubilderPage() {
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
+    "kriminalmusterkompass": kriminalmusterkompassPage,
     "musterradar": musterradarPage,
     "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
@@ -106055,6 +106528,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = lebensmusterkompassDetailPage(param);
     } else if (base === "krankheitsmusterkompass" && param) {
       app.innerHTML = krankheitsmusterkompassDetailPage(param);
+    } else if (base === "kriminalmusterkompass" && param) {
+      app.innerHTML = kriminalmusterkompassDetailPage(param);
     } else if (base === "musterradar" && param) {
       app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {
