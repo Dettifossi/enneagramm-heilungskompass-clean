@@ -50759,7 +50759,7 @@ function aliceSchwarzerPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke gegen die Angst</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am st\u00e4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit Angriff. <em>Wenn ich schneller bin als die Bedrohung, wenn ich lauter bin, wenn ich als erste angreife &ndash; dann bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Kraft, weil sie Angst kennt &ndash; und weil sie sich geschworen hat, dieser Angst nie wieder nachzugeben.</p>
-          <p class="vb-intro">Bei Alice Schwarzer zeigt sich das in ihrer Kampfbereitschaft, die seit Jahrzehnten nicht nachl\u00e4sst. Sie war es, die 1971 in Deutschland die Aktion <em>Wir haben abgetrieben</em> organisierte &ndash; zu einer Zeit, als das strafrechtliche Konsequenzen haben konnte. Sie war es, die Pornographie \u00f6ffentlich als Gewalt gegen Frauen benannte, als das noch ein gesellschaftliches Tabu war. Sie war es, die die Debatte um Prostitution in Deutschland in eine Richtung gelenkt hat, die viele nicht h\u00f6ren wollten. Das ist die SX6: <em>Ich habe Angst. Also k\u00e4mpfe ich.</em></p>
+          <p class="vb-intro">Bei Alice Schwarzer zeigt sich das in ihrer Kampfbereitschaft, die seit Jahrzehnten nicht nachl\u00e4sst. 1971 organisierte sie in Deutschland die Aktion <em>Wir haben abgetrieben</em>, zu einer Zeit, als das strafrechtliche Konsequenzen haben konnte. Sie benannte Pornographie \u00f6ffentlich als Gewalt gegen Frauen, als das noch ein gesellschaftliches Tabu war, und lenkte sp\u00e4ter die Debatte um Prostitution in Deutschland in eine Richtung, die viele nicht h\u00f6ren wollten. Das ist die SX6: <em>Ich habe Angst. Also k\u00e4mpfe ich.</em></p>
           <p class="vb-intro">Ihr Rudel ist Emma &ndash; die Frauenzeitschrift, die sie 1977 gr\u00fcndete und nach wie vor herausgibt. Kein Konzern im R\u00fccken, keine Investoren, kein Kompromiss mit der Werbewirtschaft. Emma ist das Territorium des Wolfes: gesch\u00fctzt, verteidigt, kompromisslos.</p>
         </blockquote>
 
@@ -50779,7 +50779,7 @@ function aliceSchwarzerPortraitPage() {
         <h2 class="vb-section">5. Der Heilungsweg: K\u00e4mpfen aus Liebe, nicht aus Angst</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich bin stark genug &ndash; auch ohne den Kampf.</em> F\u00fcr die SX6w5 bedeutet das, die Waffe nicht niederzulegen, aber sie aus einem anderen Ort heraus zu f\u00fchren: nicht aus der Angst, die angreift, bevor sie angegriffen wird &ndash; sondern aus der Liebe zu dem, was man sch\u00fctzen will.</p>
-          <p class="vb-intro">Alice Schwarzer hat f\u00fcnf Jahrzehnte lang f\u00fcr Frauen gek\u00e4mpft. Der Wolf, der nicht aufh\u00f6rt zu heulen &ndash; weil er wei\u00df, dass das Rudel es h\u00f6rt. Das ist die SX6w5 auf ihrem Heilungsweg: Wenn die St\u00e4rke nicht mehr aus der Angst kommt, sondern aus dem tiefen Wissen um den Wert dessen, wof\u00fcr man steht.</p>
+          <p class="vb-intro">Alice Schwarzer hat f\u00fcnf Jahrzehnte lang f\u00fcr Frauen gek\u00e4mpft, und sie k\u00e4mpft, weil sie wei\u00df, dass das Rudel zuh\u00f6rt. Das ist die SX6w5 auf ihrem Heilungsweg: Wenn die St\u00e4rke nicht mehr aus der Angst kommt, sondern aus dem tiefen Wissen um den Wert dessen, wof\u00fcr man steht.</p>
         </blockquote>
 
       </div>
@@ -63618,7 +63618,7 @@ function paulMccartneyPortraitPage() {
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; unscheinbar im ersten Eindruck, aber von einer Z\u00e4higkeit, die weite Strecken \u00fcberdauert. Sie tr\u00e4gt Botschaften, ohne sich selbst in den Vordergrund zu dr\u00e4ngen, und kehrt zur\u00fcck, wo andere aufgeben w\u00fcrden. Kaum ein Songtitel bringt dieses Bild treffender auf den Punkt als Paul McCartneys eigenes &bdquo;Let It Be&ldquo; &ndash; geschrieben in einer Nacht des Zweifels, als Antwort auf einen Traum von seiner verstorbenen Mutter.</p>
-          <p class="vb-intro">\u00dcber sechzig Jahre \u00f6ffentliches Wirken, mehr als 20.000 Auff\u00fchrungen seiner Songs weltweit, und dennoch bleibt McCartney eine Figur, \u00fcber deren tiefstes Inneres man erstaunlich wenig wei\u00df. Die Taube, die singt, was sie f\u00fchlt &ndash; und dabei fast nie preisgibt, was das Singen sie kostet.</p>
+          <p class="vb-intro">\u00dcber sechzig Jahre \u00f6ffentliches Wirken, mehr als 20.000 Auff\u00fchrungen seiner Songs weltweit &ndash; und trotzdem wei\u00df man erstaunlich wenig \u00fcber McCartneys tiefstes Inneres. Er singt, was er f\u00fchlt, doch was ihn das Singen tats\u00e4chlich kostet, bleibt fast immer sein eigenes Geheimnis.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Z\u00e4higkeit ohne Drama</h2>
@@ -63639,7 +63639,7 @@ function paulMccartneyPortraitPage() {
         <h2 class="vb-section">4. Verlust und Stille: Linda und John</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1980 wurde John Lennon erschossen &ndash; McCartneys engster musikalischer Partner, mit dem ihn eine Beziehung aus tiefer Kreativit\u00e4t und ebenso tiefer Rivalit\u00e4t verband, die nie vollst\u00e4ndig gekl\u00e4rt wurde. McCartneys \u00f6ffentliche Reaktion am Tag danach, das inzwischen ber\u00fchmte, fast beil\u00e4ufig wirkende &bdquo;It's a drag&ldquo; gegen\u00fcber wartenden Journalisten, wurde vielfach als Gef\u00fchllosigkeit missverstanden. Tats\u00e4chlich war es das Gegenteil: die SE4, die den gr\u00f6\u00dften Schmerz gerade dann verbirgt, wenn er am gr\u00f6\u00dften ist.</p>
-          <p class="vb-intro">1998 starb seine Frau Linda McCartney nach langem Kampf gegen Brustkrebs &ndash; nach 29 gemeinsamen Ehejahren, in denen sie ihn auf Tourneen begleitet, gemeinsam mit ihm musiziert und eine Familie mit vier Kindern aufgebaut hatten. McCartney zog sich f\u00fcr Monate fast vollst\u00e4ndig zur\u00fcck, komponierte in dieser Zeit heimlich ein Album, &bdquo;Flaming Pie&ldquo; und sp\u00e4ter &bdquo;Driving Rain&ldquo;, in dem der Verlust nie direkt benannt, aber in fast jedem Ton sp\u00fcrbar wird. Die Taube, die ihre schwerste Botschaft am l\u00e4ngsten mit sich tr\u00e4gt, bevor sie sie endlich singt.</p>
+          <p class="vb-intro">1998 starb seine Frau Linda McCartney nach langem Kampf gegen Brustkrebs &ndash; nach 29 gemeinsamen Ehejahren, in denen sie ihn auf Tourneen begleitet, gemeinsam mit ihm musiziert und eine Familie mit vier Kindern aufgebaut hatten. McCartney zog sich f\u00fcr Monate fast vollst\u00e4ndig zur\u00fcck und komponierte heimlich ein Album, &bdquo;Flaming Pie&ldquo;, sp\u00e4ter &bdquo;Driving Rain&ldquo;. Den Verlust benennt er in keinem der Songs direkt, doch sp\u00fcrbar ist er in fast jedem Ton.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
@@ -105715,9 +105715,9 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>a) Zur\xfcckhaltend und kontrolliert:</strong>
         Buster trat in der \xf6ffentlichen Berichterstattung
         deutlich zur\xfckhaltender auf als sein Vater \u2013
-        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten.
-        Das ist der Dreierfl\xfcgel in defensiver Haltung:
-        Image-Kontrolle durch Abwesenheit.</p>
+        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten &ndash;
+        der Dreierfl\xfcgel in defensiver Haltung, der Image-Kontrolle
+        durch Abwesenheit betreibt.</p>
         <p class="vb-intro"><strong>b) Loyal nach au\xdfen, undurchsichtig nach innen:</strong>
         Buster stand an der Seite seines Vaters bis zu dessen Verurteilung.
         Diese Loyalit\xe4t war sichtbar, aber schwer einzusch\xe4tzen:
@@ -105726,8 +105726,8 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Sympathisch-defensiv unter Druck:</strong>
         In den wenigen Interviews wirkte Buster besonnen
         und verletzt zugleich \u2013 ein Opfer der Umst\xe4nde,
-        nicht ein Akteur. Das ist typische Zweier-Schutzstrategie:
-        Die eigene Verletzlichkeit als Schild einsetzen.</p>
+        nicht ein Akteur. Die typische Zweier-Schutzstrategie:
+        die eigene Verletzlichkeit als Schild einsetzen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -105749,7 +105749,7 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Selbstbild als Opfer der Geschichte:</strong>
         Nach dem Zusammenbruch der Familie positionierte sich Buster
         als Hinterbliebener einer Trag\u00f6die \u2013 nicht als Teil des Problems.
-        Das ist SE2-Logik: Man gibt, man bleibt, man tr\xe4gt \u2013
+        Reine SE2-Logik: Man gibt, man bleibt, man tr\xe4gt \u2013
         und bekommt daf\xfcr Straffreiheit.</p>
       </div>
 
@@ -105807,15 +105807,14 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>a) Ruhig und kontrolliert:</strong>
         Buster wirkt in \xf6ffentlichen Auftritten nicht charismatisch
         wie Anna Delvey und nicht w\xe4rmend wie Jonathan Meijer \u2013
-        er wirkt ged\u00e4mpft, zur\xfcckgehalten.
-        Der Dreierfl\xfcgel in defensiver Haltung:
-        Energie sparen, kein Angriffspunkt bieten.</p>
+        er wirkt ged\u00e4mpft, zur\xfcckgehalten \u2013 Energie sparen,
+        keinen Angriffspunkt bieten, ganz der Dreierfl\xfcgel
+        in seiner defensivsten Form.</p>
         <p class="vb-intro"><strong>b) Familienenergie als Schutzh\u00fclle:</strong>
         Die Murdaugh-Energie, die Buster tr\xe4gt,
         ist nicht seine eigene \u2013 sie ist geborgt,
-        \xfcbernommen, dynastisch. Das ist das Besondere
-        an diesem Fall: Das Zweier-Privileg
-        war keine individuelle Konstruktion,
+        \xfcbernommen, dynastisch. Das Besondere an diesem Fall:
+        Das Zweier-Privileg war keine individuelle Konstruktion,
         sondern ein \xfcberliefertes System.</p>
         <p class="vb-intro"><strong>c) Niedrige emotionale Sichtbarkeit:</strong>
         Im Vergleich zu anderen Portr\xe4ts dieser Reihe

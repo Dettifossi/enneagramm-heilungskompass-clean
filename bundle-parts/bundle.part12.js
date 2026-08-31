@@ -9601,9 +9601,9 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>a) Zur\xfcckhaltend und kontrolliert:</strong>
         Buster trat in der \xf6ffentlichen Berichterstattung
         deutlich zur\xfckhaltender auf als sein Vater \u2013
-        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten.
-        Das ist der Dreierfl\xfcgel in defensiver Haltung:
-        Image-Kontrolle durch Abwesenheit.</p>
+        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten &ndash;
+        der Dreierfl\xfcgel in defensiver Haltung, der Image-Kontrolle
+        durch Abwesenheit betreibt.</p>
         <p class="vb-intro"><strong>b) Loyal nach au\xdfen, undurchsichtig nach innen:</strong>
         Buster stand an der Seite seines Vaters bis zu dessen Verurteilung.
         Diese Loyalit\xe4t war sichtbar, aber schwer einzusch\xe4tzen:
@@ -9612,8 +9612,8 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Sympathisch-defensiv unter Druck:</strong>
         In den wenigen Interviews wirkte Buster besonnen
         und verletzt zugleich \u2013 ein Opfer der Umst\xe4nde,
-        nicht ein Akteur. Das ist typische Zweier-Schutzstrategie:
-        Die eigene Verletzlichkeit als Schild einsetzen.</p>
+        nicht ein Akteur. Die typische Zweier-Schutzstrategie:
+        die eigene Verletzlichkeit als Schild einsetzen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -9635,7 +9635,7 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>c) Selbstbild als Opfer der Geschichte:</strong>
         Nach dem Zusammenbruch der Familie positionierte sich Buster
         als Hinterbliebener einer Trag\u00f6die \u2013 nicht als Teil des Problems.
-        Das ist SE2-Logik: Man gibt, man bleibt, man tr\xe4gt \u2013
+        Reine SE2-Logik: Man gibt, man bleibt, man tr\xe4gt \u2013
         und bekommt daf\xfcr Straffreiheit.</p>
       </div>
 
@@ -9693,15 +9693,14 @@ function busterMurdaughPortraitPage() {
         <p class="vb-intro"><strong>a) Ruhig und kontrolliert:</strong>
         Buster wirkt in \xf6ffentlichen Auftritten nicht charismatisch
         wie Anna Delvey und nicht w\xe4rmend wie Jonathan Meijer \u2013
-        er wirkt ged\u00e4mpft, zur\xfcckgehalten.
-        Der Dreierfl\xfcgel in defensiver Haltung:
-        Energie sparen, kein Angriffspunkt bieten.</p>
+        er wirkt ged\u00e4mpft, zur\xfcckgehalten \u2013 Energie sparen,
+        keinen Angriffspunkt bieten, ganz der Dreierfl\xfcgel
+        in seiner defensivsten Form.</p>
         <p class="vb-intro"><strong>b) Familienenergie als Schutzh\u00fclle:</strong>
         Die Murdaugh-Energie, die Buster tr\xe4gt,
         ist nicht seine eigene \u2013 sie ist geborgt,
-        \xfcbernommen, dynastisch. Das ist das Besondere
-        an diesem Fall: Das Zweier-Privileg
-        war keine individuelle Konstruktion,
+        \xfcbernommen, dynastisch. Das Besondere an diesem Fall:
+        Das Zweier-Privileg war keine individuelle Konstruktion,
         sondern ein \xfcberliefertes System.</p>
         <p class="vb-intro"><strong>c) Niedrige emotionale Sichtbarkeit:</strong>
         Im Vergleich zu anderen Portr\xe4ts dieser Reihe
