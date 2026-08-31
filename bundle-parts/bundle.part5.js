@@ -7739,34 +7739,17 @@ const SUBTYPE_SONGS = {
   SX9: { de: "Q9p8_1iQhm0", en: "cJN3-HEA-_A" },
 };
 
-function subtypeSongSection(code, tc) {
-  const song = SUBTYPE_SONGS[code.toUpperCase()];
-  if (!song) return "";
-  return `
-    <section class="narrow" style="padding-top:0;">
-      <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">Dein Subtyp-Song</h3>
-      <p style="margin:0 0 0.8rem;font-size:0.92rem;color:var(--muted);">Zu jedem der 27 Subtypen gibt es einen eigens komponierten Song &ndash; deutsch und englisch &ndash; als musikalische Vertiefung des Themas.</p>
-      <div style="display:grid; grid-template-columns:1fr; gap:0.9rem;">
-        <div>
-          <p style="margin:0 0 0.35rem;font-size:0.8rem;font-weight:600;color:var(--muted);">Deutsch</p>
-          <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
-            <iframe width="100%" height="100%" style="border:none;display:block;"
-              src="https://www.youtube.com/embed/${song.de}?rel=0"
-              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-          </div>
-        </div>
-        <div>
-          <p style="margin:0 0 0.35rem;font-size:0.8rem;font-weight:600;color:var(--muted);">English</p>
-          <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
-            <iframe width="100%" height="100%" style="border:none;display:block;"
-              src="https://www.youtube.com/embed/${song.en}?rel=0"
-              allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-  `;
-}
+const SUBTYP_SONG_TYPEN = [
+  { nr: 1, name: "Der Reformer" },
+  { nr: 2, name: "Der Helfer" },
+  { nr: 3, name: "Der Macher" },
+  { nr: 4, name: "Der Individualist" },
+  { nr: 5, name: "Der Beobachter" },
+  { nr: 6, name: "Der Loyale" },
+  { nr: 7, name: "Der Enthusiast" },
+  { nr: 8, name: "Der Herausforderer" },
+  { nr: 9, name: "Der Friedensstifter" },
+];
 
 function subtypePage(code) {
   const sp = text.subtypePage;
@@ -7819,7 +7802,6 @@ function subtypePage(code) {
       ${sectionBlock("verkoerpern", sp.rooms.verkoerpern, verkoerpernInner(entry, sp), tc)}
       ${sectionBlock("vertiefen", sp.rooms.vertiefen, vertiefungSection(details.vertiefung, sp), tc)}
     </section>
-    ${subtypeSongSection(entry.code, tc)}
     ${hasHeilwissen() ? tcmInlineBlock(tcmForType(entry.code)) : ""}
     ${hasHeilwissen() ? kindheitInlineBlock(kindheitForType(entry.code)) : ""}
     <section class="narrow" style="padding-top:0; padding-bottom:0;">

@@ -4327,6 +4327,51 @@ function musikPage() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
       </div>
+
+      <div style="margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--line);max-width:720px;">
+        <p class="eyebrow">Vertiefung \u00b7 27 Subtypen</p>
+        <h2 class="h1--tip" style="margin-bottom:0.3rem;font-size:1.5rem;">Die 27 Subtyp-Songs</h2>
+        <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 2rem;">
+          Zu jedem der 27 Subtypen \u2014 nicht nur zu den neun Haupttypen \u2014 gibt es einen eigens komponierten Song, deutsch und englisch. Jeder Song \u00fcbersetzt das spezifische Thema des Subtyps in Melodie und Text \u2014 eine musikalische Vertiefung dessen, was auf den Subtyp-Profilseiten in Worten beschrieben wird.
+        </p>
+        ${SUBTYP_SONG_TYPEN.map(t => `
+          <div style="margin-bottom:2.2rem;">
+            <h3 style="margin:0 0 0.8rem;font-size:1.05rem;color:var(--copper);">Typ ${t.nr} \u00b7 ${t.name}</h3>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0.9rem;">
+              ${["SE","SO","SX"].map(inst => {
+                const code = `${inst}${t.nr}`;
+                const song = SUBTYPE_SONGS[code];
+                if (!song) return "";
+                return ["de","en"].map(lang => `
+                  <div class="musik-card" data-vid="${song[lang]}" style="background:var(--paper);border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,0.07);">
+                    <div class="musik-thumb" style="position:relative;background:#111;aspect-ratio:16/9;">
+                      <img src="https://img.youtube.com/vi/${song[lang]}/mqdefault.jpg"
+                           alt="${code} Song ${lang === 'de' ? 'Deutsch' : 'Englisch'}"
+                           style="width:100%;height:100%;object-fit:cover;display:block;opacity:0.85;" loading="lazy"/>
+                      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                        <div style="width:38px;height:38px;border-radius:50%;background:rgba(165,96,61,0.88);display:flex;align-items:center;justify-content:center;">
+                          <span style="color:#fff;font-size:1.05rem;margin-left:3px;">\u25b6</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="padding:0.55rem 0.7rem 0.65rem;">
+                      <p style="margin:0;font-size:0.85rem;font-weight:600;">${code} \u00b7 ${lang === 'de' ? 'DE' : 'EN'}</p>
+                    </div>
+                    <div class="musik-player" style="display:none;">
+                      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+                        <iframe width="100%" height="100%" style="border:none;display:block;"
+                          src="https://www.youtube.com/embed/${song[lang]}?autoplay=1&rel=0"
+                          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                `).join("");
+              }).join("")}
+            </div>
+          </div>
+        `).join("")}
+      </div>
+
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben spirituelle Lebenskunst-Schritte f\u00fcr den Alltag \u2014 der ideale Begleiter zur Entspannungs- und Heilungsmusik.", "7 Wege zu Dir selbst \u2013 Lebenskunst f\u00fcr den Alltag")}
       ${bookTip("nichts-und-alles", "Stilles Buch \u00fcber das Schauen nach innen \u2014 Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Jenseits aller Muster: der stille Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2014 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}
