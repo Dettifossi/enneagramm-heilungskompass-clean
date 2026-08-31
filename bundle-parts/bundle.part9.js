@@ -7352,7 +7352,8 @@ function sahraWagenknechtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-obama", label:"Portr\u00e4t: Barack Obama (SO2w3)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"}
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portr\u00e4t: Klemens von Metternich (SO3w2)"}
       ])}
     </div>
   `);

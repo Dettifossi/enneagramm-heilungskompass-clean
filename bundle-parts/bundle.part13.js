@@ -1,3 +1,84 @@
+function jeanneWeberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jeanne Weber – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jeanne Weber</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltende Typ 2 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-sub">&bdquo;Die Menschenfresserin von der Goutte d'Or&ldquo; &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Flusspferd</h3>
+        <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das nach au\xdfen sanft und schwerf\xe4llig wirkt, aber unter der Wasseroberfl\xe4che eine ganz andere Realit\xe4t verbirgt. Jeanne Weber, 1874 in einem westfranz\xf6sischen Fischerdorf geboren, arbeitete ab ihrem vierzehnten Lebensjahr in Paris in einfachen Haushalten, bevor sie 1893 heiratete. Zwischen 1905 und 1908 t\xf6tete sie mutma\xdflich mindestens acht Kinder &ndash; darunter ihre eigenen und die ihrer Verwandtschaft &ndash; durch Erw\xfcrgen, jeweils in Momenten, in denen sie kurz allein mit dem Kind war.</p>
+        <p class="vb-intro">Nach au\xdfen war sie eine F\xfcrsorgerin: Mutter, Tante, Betreuerin, die Frau, die sich um die Kinder k\xfcmmerte, w\xe4hrend die \xfcbrige Familie arbeitete. Genau in dieser Rolle, im engsten, vertrautesten Kreis, geschahen die Taten &ndash; unsichtbar f\xfcr alle, die sie f\xfcr eine F\xfcrsorgeperson hielten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Privileg durch Unentbehrlichkeit</h3>
+        <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Zwei (SE2)</strong> den Subtyp des <em>Privilegs</em>: das tief verankerte Gef\xfchl, sich einen besonderen Platz im Leben eines geliebten Menschen durch Unentbehrlichkeit zu sichern &ndash; und daraus einen stillschweigenden Anspruch abzuleiten. Weber \xfcbernahm immer wieder freiwillig die Betreuung von Kindern, auch nachdem der Verdacht gegen sie l\xe4ngst gewachsen war &ndash; sie zog sogar unter falschem Namen weiter, um erneut eine Betreuungsrolle bei einem fremden Kind zu \xfcbernehmen.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, von der Rolle der Betreuenden zu lassen, selbst im Angesicht wachsender Verd\xe4chtigungen, ist die SE2 in ihrer zerst\xf6rerischsten Form: Die N\xe4he zum Kind, die Position als unverzichtbare Bezugsperson, wird zum zwanghaften Zentrum des eigenen Selbstverst\xe4ndnisses &ndash; und zur Gelegenheit f\xfcr eine Gewalt, die sich in genau diesem intimen Rahmen wiederholt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Der innere Zwang</h3>
+        <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Tat innegehalten oder w\xe4re zumindest vorsichtiger geworden. Bei Weber trat stattdessen eine rigide, fast zwanghafte Wiederholung hervor: Dieselbe Konstellation &ndash; ein Kind, kurz allein mit ihr &ndash; wiederholte sich \xfcber Jahre hinweg an verschiedenen Orten, mit unterschiedlichen Kindern, trotz wachsender Ermittlungen und \xf6ffentlicher Aufmerksamkeit.</p>
+        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Dreierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Freispruch, Weiterziehen, R\xfcckfall</h3>
+        <p class="vb-intro">1905 starb Webers Nichte Georgette unter verd\xe4chtigen Umst\xe4nden in ihrer Obhut, kurz darauf ein weiteres Kind aus der Verwandtschaft. Als ihr Neffe Maurice im April 1905 mit W\xfcrgemalen am Hals gefunden wurde, w\xe4hrend Weber \xfcber ihm stand, schien der Fall klar &ndash; dennoch wurde sie im Februar 1906 trotz erdr\xfcckender Indizien freigesprochen. Statt sich zur\xfcckzuziehen, zog sie weiter, nahm einen falschen Namen an und \xfcbernahm erneut die Betreuung eines Kindes.</p>
+        <p class="vb-intro">1908 wurde sie dabei beobachtet, wie sie den zehnj\xe4hrigen Marcel Poirot mit einem blutigen Taschentuch zu erw\xfcrgen versuchte. Dieses Mal folgte die Verurteilung &ndash; zugleich wurde sie f\xfcr unzurechnungsf\xe4hig erkl\xe4rt und in die Anstalt von Mareville eingewiesen. Formal handelte es sich damit nicht um eine klassische Strafverurteilung, sondern um eine Unterbringung wegen festgestellter Unzurechnungsf\xe4higkeit.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Zehn Jahre Anstalt, ungekl\xe4rtes Ende</h3>
+        <p class="vb-intro">Weber verbrachte die letzten zehn Jahre ihres Lebens in der Anstalt Mareville, bevor sie 1918 starb. Die genauen Todesumst\xe4nde sind bis heute nicht eindeutig gekl\xe4rt: W\xe4hrend manche \xe4ltere Quellen von einer Selbststrangulation in der Anstalt berichten, verweisen neuere Auswertungen franz\xf6sischer Prim\xe4rquellen auf Nierenversagen als Todesursache, ohne Hinweise auf Fremdeinwirkung. Diese Unsicherheit passt auf beunruhigende Weise zum gesamten Fall: Selbst am Ende bleibt vieles im Ungewissen.</p>
+        <p class="vb-intro">Was bleibt, ist das Muster: eine Frau, deren Rolle als F\xfcrsorgerin zur Tarnung f\xfcr wiederholte Gewalt wurde, ohne dass \xf6ffentliches Ansehen, Status oder Inszenierung je eine Rolle spielten. Reines, kompulsives Wiederholen im Verborgenen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) F\xfcrsorge als Tarnung:</strong> Anders als bei der SE2w3, die Status und \xf6ffentliches Bild sucht, agierte Weber ausschlie\xdflich im privaten, familiären Nahbereich. Die Rolle der F\xfcrsorgerin war nicht Fassade f\xfcr Prestige, sondern der einzige Ort, an dem sich die Taten ereignen konnten.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Wiederholungszwang:</strong> Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Entdeckung aufgeh\xf6rt. Der stark ausgepr\xe4gte Einserfl\xfcgel bei Weber zeigte sich als rigide innere Notwendigkeit, dasselbe Muster immer wieder zu wiederholen &ndash; trotz wachsenden Risikos.</p>
+        <p class="vb-intro"><strong>c) Kein \xf6ffentliches Motiv:</strong> Anders als bei Peter Sutcliffe, dessen Taten von einer Art moralischem Feldzug begleitet waren, gibt es bei Weber keine Hinweise auf eine \xe4hnliche \xf6ffentliche Rechtfertigungserz\xe4hlung. Ihr Muster blieb rein privat, verdeckt, ohne jede Selbstinszenierung.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE2w1 &ndash; Selbsterhaltende Zwei mit Einserfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Stolz (als Privileg der Unentbehrlichkeit im engsten familiären Kreis)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 7. Oktober 1874 &ndash; 5. Juli 1918</span>
+          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Erw\xfcrgen mehrerer Kinder aus dem eigenen und dem verwandtschaftlichen Umfeld (1905&ndash;1908), 1906 zun\xe4chst freigesprochen, 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt, Unterbringung in der Anstalt Mareville bis zu ihrem Tod 1918</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie das Privileg der Unentbehrlichkeit zur zwanghaften Wiederholungsfalle wird – und warum der Einserflügel keine Rücksicht auf Entdeckungsrisiko kennt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie das Schutzsystem der Zwei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jeanne Weber wurde 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt und in eine Anstalt eingewiesen, wo sie 1918 starb. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1)"},
+          {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Kriminalpsychologie: Henri D\xe9sir\xe9 Landru (SE3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function peterSutcliffePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11022,57 +11103,6 @@ function kussverhaltenDer9TypenPage() {
         {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
         {route:"hochsensibilitaet-der-9-typen", label:"Hochsensibilit\u00e4t der 9 Typen"},
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function hochsensibilitaetDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Hochsensibilit\u00e4t der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Diese Eigenschaften sind bei hochsensiblen Menschen h\u00e4ufig in starker Form ausgepr\u00e4gt, da sich hier die universellen Ur-Prinzipien in einem Menschen \u00fcberm\u00e4\u00dfig einseitig intensiv manifestieren. Diese Qualit\u00e4ten k\u00f6nnen im Einzelfall Segen und Fluch zugleich sein.</p>
-      <img src="./assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilit\u00e4t der 9 Enneagrammtypen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Feinwahrnehmung, Perfektionismus, Gerechtigkeitssinn</h3>
-        <p class="vb-intro">Der hochsensible Typ 1 besitzt eine au\u00dfergew\u00f6hnliche F\u00e4higkeit, Feinheiten auf einfache Weise detailreich herauszuh\u00f6ren, wiederzugeben und in Worte zu fassen. Er ist von Natur aus gewissenhaft \u2014 sein innerer Sensor registriert jede Abweichung vom Ideal, jede Ungereimtheit, jede Schieflage. Diese Feinf\u00fchligkeit ist sein gr\u00f6\u00dftes Geschenk: Sie macht ihn zum unbestechlichen Beobachter, zum verl\u00e4sslichen Korrektor, zum Menschen, der Qualit\u00e4t erkennt, bevor andere sie auch nur ahnen. Die Schattenseite ist die innere Ersch\u00f6pfung durch st\u00e4ndige Reizfilterung \u2014 der Typ 1 h\u00f6rt immer alles, auch das, was andere l\u00e4ngst ausgeblendet haben. Segen und Fluch zugleich: wer alles wahrnimmt, kann die Welt verbessern \u2014 und kann sich in ihr nicht erholen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Ausgepr\u00e4gter Altruismus und emotionale Resonanz</h3>
-        <p class="vb-intro">Der hochsensible Typ 2 f\u00fchlt und \u00fcbermittelt au\u00dfergew\u00f6hnliche Emotionen mit einer Einf\u00fchlsamkeit, die andere kaum nachvollziehen k\u00f6nnen. Er erkennt fremde Gef\u00fchle, bevor sie ausgesprochen werden \u2014 ein Blick, eine K\u00f6rperhaltung, eine Pause im Gespr\u00e4ch reichen ihm, um zu wissen, was der andere gerade braucht. Diese Qualit\u00e4t macht ihn zum nat\u00fcrlichen Helfer, Tr\u00f6ster und emotionalen Anker f\u00fcr andere. Die Kehrseite: Er saugt die Emotionen seiner Umgebung auf wie ein Schwamm und tr\u00e4gt oft Gef\u00fchle, die gar nicht seine eigenen sind \u2014 ohne zu wissen, wo die Grenze zwischen ihm und dem anderen verl\u00e4uft. Segen und Fluch: wer alles f\u00fchlt, kann heilen \u2014 und kann sich selbst dabei verlieren.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Intensives emotionales Ersp\u00fcren in Beziehungen</h3>
-        <p class="vb-intro">Der hochsensible Typ 3 nimmt Beziehungen und Reize tief und emotional intensiv wahr \u2014 weit mehr, als sein nach au\u00dfen oft k\u00fchl wirkendes Auftreten vermuten l\u00e4sst. Hinter der Fassade des Erfolgsorientierten lebt ein Mensch, der Verbindungen mit gro\u00dfer Intensit\u00e4t erlebt und auf emotionale Signale in seinem sozialen Umfeld \u00e4u\u00dferst fein reagiert. Diese Sensibilit\u00e4t erm\u00f6glicht ihm ein intuitives Gesp\u00fcr f\u00fcr die Dynamiken zwischen Menschen \u2014 er liest R\u00e4ume, bevor andere die T\u00fcr aufgemacht haben. Die Gefahr: Er \u00fcberarbeitet sich, weil er die emotionale Last seiner Umgebung sp\u00fcrt und gleichzeitig nach au\u00dfen St\u00e4rke zeigen will. Segen und Fluch: wer alles ersp\u00fcrt und trotzdem liefert, kann Gro\u00dfes bewegen \u2014 und brennt dabei von innen aus.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Empathie und langer emotionaler Nachklang</h3>
-        <p class="vb-intro">Der hochsensible Typ 4 ist sehr empathisch und kann seine Mitmenschen auf einer Tiefe verstehen, die anderen verschlossen bleibt. Erlebnisse klingen in ihm lange nach \u2014 Musik, Kunst, Begegnungen, Trennungen hinterlassen Spuren, die sich nicht einfach aufl\u00f6sen. Diese Tiefe ist sein k\u00fcnstlerisches Kapital: Sie speist seine Kreativit\u00e4t, seine Ausdruckskraft, seine F\u00e4higkeit, das Unsagbare in Sprache oder Bild zu verwandeln. Die Schattenseite ist die emotionale \u00dcberflutung: Was andere als vergangen abhaken, lebt im Typ 4 weiter \u2014 manchmal als Sch\u00f6nheit, manchmal als Schmerz, oft als beides gleichzeitig. Segen und Fluch: wer so tief f\u00fchlt, kann Kunst schaffen, die Menschen ber\u00fchrt \u2014 und findet selbst keinen Abschalter.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Langzeitged\u00e4chtnis und systemisches Denken</h3>
-        <p class="vb-intro">Der hochsensible Typ 5 besitzt ein sehr ausgepr\u00e4gtes Langzeitged\u00e4chtnis und die F\u00e4higkeit, in gr\u00f6\u00dferen Zusammenh\u00e4ngen zu denken \u2014 er ist ein tiefsinniger Denker mit ausgepr\u00e4gten, weitverzweigten Gedankeng\u00e4ngen. Er verkn\u00fcpft Informationen, die andere l\u00e4ngst vergessen haben, zu neuen Mustern und Erkenntnissen. Diese Qualit\u00e4t macht ihn zum Analytiker, Forscher, Vision\u00e4r. Die Kehrseite: Er ist reiz\u00fcberflutet in einer Welt, die st\u00e4ndig auf ihn einprasselt, und zieht sich daher weit zur\u00fcck \u2014 nicht aus K\u00e4lte, sondern aus dem tiefen Bed\u00fcrfnis nach Stille, um \u00fcberhaupt denken zu k\u00f6nnen. Segen und Fluch: wer so weit denkt, kann Zusammenh\u00e4nge erkennen, die andere nie sehen \u2014 und braucht daf\u00fcr eine Einsamkeit, die nicht jeder versteht.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Vertrauen und Sicherheit schaffend</h3>
-        <p class="vb-intro">Der hochsensible Typ 6 ist sehr zuverl\u00e4ssig, hilfsbereit und freundschaftlich-loyal \u2014 ein Mensch, in dessen N\u00e4he andere sich sicher f\u00fchlen, weil er Vertrauen nicht nur verspricht, sondern verk\u00f6rpert. Sein feines Gesp\u00fcr f\u00fcr Risiken, Unstimmigkeiten und versteckte Gefahren macht ihn zum nat\u00fcrlichen W\u00e4chter und Vertrauensanker in Gruppen. Er bemerkt, wenn etwas nicht stimmt \u2014 lange bevor es offensichtlich wird. Die Schattenseite: Diese Wachheit ersch\u00f6pft ihn. Ein hochsensibler Typ 6 tr\u00e4gt die Sorgen seiner Umgebung mit, auch wenn niemand ihn darum gebeten hat. Segen und Fluch: wer so wachsam ist, h\u00e4lt Gemeinschaften zusammen \u2014 und findet selbst kaum einen Moment echter Ruhe.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Begeisterungsf\u00e4higkeit, Fantasie und Schmerzempfindlichkeit</h3>
-        <p class="vb-intro">Der hochsensible Typ 7 ist optimistisch, lacht und weint leicht und besitzt eine erh\u00f6hte Schmerzempfindlichkeit \u2014 er lebt an der Oberfl\u00e4che der Gef\u00fchle mit einer Intensit\u00e4t, die andere mitrei\u00dft. Seine hohe Begeisterungsf\u00e4higkeit, seine vielseitigen Interessen und seine gro\u00dfe Fantasie machen ihn zum kreativen Motor in jedem Umfeld. Er entz\u00fcndet sich an Ideen und entz\u00fcndet andere damit. Die Kehrseite: Er f\u00fchlt Schmerz \u2014 k\u00f6rperlich wie seelisch \u2014 mit einer Unmittelbarkeit, die ihn manchmal \u00fcberrollt. Sein Optimismus ist oft auch eine Schutzstrategie gegen das, was er so intensiv wahrnimmt. Segen und Fluch: wer so hell brennt, beleuchtet alles um sich herum \u2014 und braucht viel Raum, um sich zu erholen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Psychische Stabilit\u00e4t und Selbstst\u00e4ndigkeit</h3>
-        <p class="vb-intro">Der hochsensible Typ 8 ist meist psychisch sehr stabil, sehr selbstst\u00e4ndig und f\u00fchlt sich auch dann gut, wenn er alleine ist \u2014 er braucht keine Best\u00e4tigung von au\u00dfen, um sich seiner selbst sicher zu sein. Diese innere Festigkeit ist seine besondere Form der Hochsensibilit\u00e4t: W\u00e4hrend andere in emotionalen St\u00fcrmen schwanken, bleibt er geerdet. Gleichzeitig nimmt er Ungerechtigkeit, Schw\u00e4che und Bedrohung mit einer Unmittelbarkeit wahr, die ihn sofort in Aktion versetzt. Sein K\u00f6rpergef\u00fchl ist intensiv \u2014 er sp\u00fcrt sich und seine Grenzen sehr klar. Segen und Fluch: wer so geerdet ist, kann anderen Halt geben \u2014 und \u00fcbersieht dabei manchmal die eigene Verletzlichkeit, die tief im Inneren verborgen liegt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Stille, Wesentlichkeit und verbindende Pr\u00e4senz</h3>
-        <p class="vb-intro">Der hochsensible Typ 9 sucht oft die Stille und kann auf einfache Weise das Wesentliche erkennen \u2014 er verf\u00fcgt \u00fcber ein ausgepr\u00e4gtes Harmoniebed\u00fcrfnis und ist sehr vermittelnd, freundlich und verbindend. Unter all dem L\u00e4rm der Welt h\u00f6rt er, was wirklich wichtig ist. Diese stille Wahrnehmung macht ihn zum nat\u00fcrlichen Vermittler: Er sieht alle Perspektiven gleichzeitig und kann Br\u00fccken bauen, wo andere nur Gr\u00e4ben sehen. Die Kehrseite: Reiz\u00fcberflutung trifft ihn hart \u2014 er zieht sich dann in sich zur\u00fcck und wirkt abwesend, obwohl er eigentlich nur \u00fcberfordert ist. Segen und Fluch: wer das Wesentliche so klar sieht, kann Frieden stiften \u2014 und verliert dabei manchmal seine eigene Mitte aus dem Blick.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-        {route:"empfindliche-punkte", label:"Empfindliche Punkte"},
       ])}
     </div>
   `);

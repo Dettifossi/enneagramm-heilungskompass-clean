@@ -1,3 +1,177 @@
+function angelinaJolieKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-angelina-jolie-portrait.jpg" alt="Angelina Jolie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Angelina Jolie</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · geb. 1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Angelina Jolie</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: eine 2013 öffentlich gemachte
+        vorbeugende doppelte Mastektomie aufgrund einer BRCA1-Genmutation, gefolgt 2015 von
+        der Entfernung von Eierstöcken und Eileitern – beides bewusst öffentlich
+        kommuniziert.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jolie</strong> ist dem <strong>sozialen Typ 1 mit Zweierflügel</strong>
+        zugeordnet. Die SO1 kann nicht nicht-handeln, wenn Handlung möglich ist – auch bei
+        der eigenen Gesundheit; der Zweierflügel bringt das direkte, persönliche Mitgefühl
+        hinzu, das aus einer privaten medizinischen Entscheidung eine öffentliche Botschaft
+        macht. Genau diese Kombination – Pflicht zum Richtigen, verbunden mit dem Wunsch,
+        anderen durch die eigene Offenheit zu nützen – bestimmte den Umgang mit der eigenen
+        genetischen Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Belastete Familiengeschichte:</strong>
+        Jolies Mutter Marcheline Bertrand starb 2007 an Eierstockkrebs im Alter von 56
+        Jahren, ihre Großmutter mütterlicherseits an Eierstockkrebs, ihre Tante an
+        Brustkrebs – eine familiäre Häufung, die einen genetischen Test nahelegte.</p>
+        <p class="vb-intro"><strong>b) Nachweis der BRCA1-Genmutation:</strong>
+        Ein Gentest bestätigte bei Jolie eine Mutation im BRCA1-Gen, die das Risiko für
+        Brust- und Eierstockkrebs statistisch erheblich erhöht.</p>
+        <p class="vb-intro"><strong>c) Ärztlich geschätztes Risiko von rund 87 Prozent:</strong>
+        Nach ärztlicher Einschätzung lag ihr persönliches Risiko, im Laufe ihres Lebens an
+        Brustkrebs zu erkranken, bei etwa 87 Prozent, das Risiko für Eierstockkrebs bei etwa
+        50 Prozent.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Präventive doppelte Mastektomie 2013:</strong>
+        Zwischen Februar und April 2013 unterzog sich Jolie einer vorbeugenden doppelten
+        Mastektomie mit anschließender Rekonstruktion, um das Brustkrebsrisiko drastisch zu
+        senken.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Ankündigung per Zeitungsessay:</strong>
+        Statt die Operation privat zu halten, veröffentlichte Jolie im Mai 2013 einen
+        ausführlichen Essay in der New York Times unter dem Titel „My Medical Choice", in
+        dem sie ihre Entscheidung und deren medizinische Grundlage detailliert erklärte.</p>
+        <p class="vb-intro"><strong>c) Entfernung von Eierstöcken und Eileitern 2015:</strong>
+        Zwei Jahre später, im März 2015, ließ Jolie zusätzlich präventiv ihre Eierstöcke und
+        Eileiter entfernen, nachdem ein Bluttest erhöhte Werte gezeigt hatte, die auf eine
+        beginnende Krebserkrankung hindeuten konnten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Kein tatsächlicher Krebsbefund:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses handelte es sich
+        bei Jolie nicht um eine bereits bestehende Krebserkrankung, sondern um eine rein
+        präventive Entscheidung aufgrund eines statistisch erhöhten Risikos.</p>
+        <p class="vb-intro"><strong>b) Zweiter Essay zur Eierstockoperation:</strong>
+        Auch die Entfernung von Eierstöcken und Eileitern begleitete Jolie 2015 mit einem
+        weiteren öffentlichen Essay in der New York Times, in dem sie den Entscheidungsweg
+        erneut offenlegte.</p>
+        <p class="vb-intro"><strong>c) Nachweisbarer Effekt auf öffentliche Wahrnehmung:</strong>
+        Nach Jolies Essay von 2013 registrierten Ärzte weltweit einen deutlichen Anstieg von
+        Anfragen zu BRCA-Gentests – ein Phänomen, das später als „Angelina-Jolie-Effekt"
+        bekannt wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale und medizinische Aufmerksamkeit:</strong>
+        Jolies Entscheidungen lösten internationale Berichterstattung aus und wurden in
+        zahlreichen Studien als Fallbeispiel für den Einfluss prominenter Gesundheitsoffenheit
+        auf das Präventionsverhalten der Allgemeinbevölkerung untersucht.</p>
+        <p class="vb-intro"><strong>b) Kontroverse um Zugänglichkeit und Kosten:</strong>
+        Der „Angelina-Jolie-Effekt" führte auch zu einer öffentlichen Debatte darüber, dass
+        präventive Gentests und Operationen nicht allen Frauen gleichermaßen zugänglich
+        sind – eine Diskussion, die Jolie selbst in ihren Essays mit aufgriff.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes öffentliches Engagement:</strong>
+        Jolie setzt ihr humanitäres und filmisches Engagement seither unverändert fort, ohne
+        dass die präventiven Eingriffe ihr öffentliches Leben sichtbar einschränkten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Handeln, weil Handlung möglich ist:</strong>
+        Die SO1-typische Überzeugung, dass Unrecht – auch ein erhöhtes gesundheitliches
+        Risiko – nicht einfach hingenommen werden darf, wenn eine Handlungsmöglichkeit
+        besteht, prägte Jolies Entscheidung für die präventiven Operationen von Beginn an.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und die bewusste Öffentlichkeit:</strong>
+        Dieselbe Verbindung aus Haltung und Herz, die Jolies humanitäres Engagement prägt,
+        zeigte sich auch hier: Statt die Operationen privat zu halten, machte sie sie
+        öffentlich, weil andere Frauen davon profitieren könnten – Fürsorge als Handlung,
+        nicht als Gefühl.</p>
+        <p class="vb-intro"><strong>c) Pflicht zur Sichtbarkeit statt Rückzug:</strong>
+        Wo andere eine derart intime medizinische Entscheidung privat gehalten hätten,
+        veröffentlichte Jolie zwei ausführliche Essays – ein Muster, das ihrem gesamten
+        öffentlichen Wirken entspricht: Das Richtige tun und es sichtbar machen, nicht um
+        Bewunderung zu ernten, sondern weil Sichtbarkeit selbst als Verpflichtung erlebt
+        wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Kämpferin gegen Unrecht, die auch das genetische Risiko als Unrecht behandelte:</strong>
+        Jolies gesamtes öffentliches Wirken beruht auf der Überzeugung, dass sichtbares
+        Unrecht ein Handeln erfordert – bei der eigenen genetischen Diagnose übertrug sie
+        genau diese Haltung auf den eigenen Körper: ein statistisches Risiko wurde zu einer
+        Sache, gegen die aktiv vorgegangen werden musste.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet Brust und Eierstöcke, die Organe der weiblichen Fürsorge?</strong>
+        Für eine soziale Eins mit Zweierflügel, deren gesamtes Lebenswerk um Mutterschaft,
+        Fürsorge für fremde Kinder und den Schutz von Verwundbaren kreist, liegt eine Deutung
+        nahe: Ausgerechnet jene Organe, die im Volksmund für Mutterschaft und weibliche
+        Fürsorge stehen, wurden zum Gegenstand einer präventiven, öffentlich gemachten
+        Entscheidung. Diese Deutung ist eine plausible Interpretation, kein belegter
+        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu genetisch
+        bedingten Krebsrisiken führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Jolies Fall zeigen lässt, ist ein Muster
+        im Umgang mit einem gesundheitlichen Risiko, das bei einer ausgeprägten sozialen Eins
+        mit Zweierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Jolie kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die soziale Eins mit
+        Zweierflügel kann reflexhaft nicht nicht-handeln, wenn eine Gefahr erkannt ist, und
+        macht aus privaten Entscheidungen fast zwangsläufig öffentliche Botschaften. Wer die
+        eigene Neigung, jede erkannte Gefahr sofort in sichtbares Handeln zu übersetzen,
+        nicht als Muster erkennt, riskiert, dass kaum Raum bleibt, eine schwierige
+        Entscheidung erst einmal privat zu verarbeiten, bevor sie zur öffentlichen Aufgabe
+        wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 1 mit Zweierflügel erklärt bei <strong>Angelina Jolie</strong> vieles
+        am Umgang mit ihrem genetischen Risiko: eine Frau, deren gesamtes öffentliches
+        Wirken der Sichtbarmachung von Unrecht gilt, machte auch ihre eigene präventive
+        Entscheidung zu einer öffentlichen Botschaft – die Gans, die selbst im eigenen
+        Körper kein Risiko unbeachtet ließ und die Formation dadurch stärker machte, dass sie
+        offen über die eigene Verwundbarkeit sprach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}
+
 function adeleKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11267,87 +11441,6 @@ function tommyLynnSellsPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
         {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w2) \u2013 Die Vermieterin des Todes"}
       ])}
-    </div>
-  `);
-}
-
-function jeanneWeberPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Jeanne Weber – Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jeanne-weber-portrait.jpg" alt="Jeanne Weber – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jeanne Weber</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltende Typ 2 mit Einserfl\xfcgel</p>
-        <p class="krim-portrait-sub">&bdquo;Die Menschenfresserin von der Goutte d'Or&ldquo; &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Das Flusspferd</h3>
-        <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das nach au\xdfen sanft und schwerf\xe4llig wirkt, aber unter der Wasseroberfl\xe4che eine ganz andere Realit\xe4t verbirgt. Jeanne Weber, 1874 in einem westfranz\xf6sischen Fischerdorf geboren, arbeitete ab ihrem vierzehnten Lebensjahr in Paris in einfachen Haushalten, bevor sie 1893 heiratete. Zwischen 1905 und 1908 t\xf6tete sie mutma\xdflich mindestens acht Kinder &ndash; darunter ihre eigenen und die ihrer Verwandtschaft &ndash; durch Erw\xfcrgen, jeweils in Momenten, in denen sie kurz allein mit dem Kind war.</p>
-        <p class="vb-intro">Nach au\xdfen war sie eine F\xfcrsorgerin: Mutter, Tante, Betreuerin, die Frau, die sich um die Kinder k\xfcmmerte, w\xe4hrend die \xfcbrige Familie arbeitete. Genau in dieser Rolle, im engsten, vertrautesten Kreis, geschahen die Taten &ndash; unsichtbar f\xfcr alle, die sie f\xfcr eine F\xfcrsorgeperson hielten.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: Privileg durch Unentbehrlichkeit</h3>
-        <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Zwei (SE2)</strong> den Subtyp des <em>Privilegs</em>: das tief verankerte Gef\xfchl, sich einen besonderen Platz im Leben eines geliebten Menschen durch Unentbehrlichkeit zu sichern &ndash; und daraus einen stillschweigenden Anspruch abzuleiten. Weber \xfcbernahm immer wieder freiwillig die Betreuung von Kindern, auch nachdem der Verdacht gegen sie l\xe4ngst gewachsen war &ndash; sie zog sogar unter falschem Namen weiter, um erneut eine Betreuungsrolle bei einem fremden Kind zu \xfcbernehmen.</p>
-        <p class="vb-intro">Diese Unf\xe4higkeit, von der Rolle der Betreuenden zu lassen, selbst im Angesicht wachsender Verd\xe4chtigungen, ist die SE2 in ihrer zerst\xf6rerischsten Form: Die N\xe4he zum Kind, die Position als unverzichtbare Bezugsperson, wird zum zwanghaften Zentrum des eigenen Selbstverst\xe4ndnisses &ndash; und zur Gelegenheit f\xfcr eine Gewalt, die sich in genau diesem intimen Rahmen wiederholt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Einserfl\xfcgel: Der innere Zwang</h3>
-        <p class="vb-intro">Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Tat innegehalten oder w\xe4re zumindest vorsichtiger geworden. Bei Weber trat stattdessen eine rigide, fast zwanghafte Wiederholung hervor: Dieselbe Konstellation &ndash; ein Kind, kurz allein mit ihr &ndash; wiederholte sich \xfcber Jahre hinweg an verschiedenen Orten, mit unterschiedlichen Kindern, trotz wachsender Ermittlungen und \xf6ffentlicher Aufmerksamkeit.</p>
-        <p class="vb-intro">Diese Unf\xe4higkeit, vom einmal etablierten Muster abzuweichen, selbst als das Risiko der Entdeckung offensichtlich stieg, ist der Einserfl\xfcgel in seiner dunkelsten Auspr\xe4gung: kein kalkuliertes \xdcberlegen, sondern ein innerer Zwang, der st\xe4rker war als jede Vorsicht. Anders als bei einem Dreierfl\xfcgel-Muster mit Inszenierung oder Status ging es hier um keine \xf6ffentliche B\xfchne &ndash; Weber suchte keine Aufmerksamkeit, keinen sozialen Aufstieg. Sie leugnete jedes Mal beharrlich und still.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Freispruch, Weiterziehen, R\xfcckfall</h3>
-        <p class="vb-intro">1905 starb Webers Nichte Georgette unter verd\xe4chtigen Umst\xe4nden in ihrer Obhut, kurz darauf ein weiteres Kind aus der Verwandtschaft. Als ihr Neffe Maurice im April 1905 mit W\xfcrgemalen am Hals gefunden wurde, w\xe4hrend Weber \xfcber ihm stand, schien der Fall klar &ndash; dennoch wurde sie im Februar 1906 trotz erdr\xfcckender Indizien freigesprochen. Statt sich zur\xfcckzuziehen, zog sie weiter, nahm einen falschen Namen an und \xfcbernahm erneut die Betreuung eines Kindes.</p>
-        <p class="vb-intro">1908 wurde sie dabei beobachtet, wie sie den zehnj\xe4hrigen Marcel Poirot mit einem blutigen Taschentuch zu erw\xfcrgen versuchte. Dieses Mal folgte die Verurteilung &ndash; zugleich wurde sie f\xfcr unzurechnungsf\xe4hig erkl\xe4rt und in die Anstalt von Mareville eingewiesen. Formal handelte es sich damit nicht um eine klassische Strafverurteilung, sondern um eine Unterbringung wegen festgestellter Unzurechnungsf\xe4higkeit.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Zehn Jahre Anstalt, ungekl\xe4rtes Ende</h3>
-        <p class="vb-intro">Weber verbrachte die letzten zehn Jahre ihres Lebens in der Anstalt Mareville, bevor sie 1918 starb. Die genauen Todesumst\xe4nde sind bis heute nicht eindeutig gekl\xe4rt: W\xe4hrend manche \xe4ltere Quellen von einer Selbststrangulation in der Anstalt berichten, verweisen neuere Auswertungen franz\xf6sischer Prim\xe4rquellen auf Nierenversagen als Todesursache, ohne Hinweise auf Fremdeinwirkung. Diese Unsicherheit passt auf beunruhigende Weise zum gesamten Fall: Selbst am Ende bleibt vieles im Ungewissen.</p>
-        <p class="vb-intro">Was bleibt, ist das Muster: eine Frau, deren Rolle als F\xfcrsorgerin zur Tarnung f\xfcr wiederholte Gewalt wurde, ohne dass \xf6ffentliches Ansehen, Status oder Inszenierung je eine Rolle spielten. Reines, kompulsives Wiederholen im Verborgenen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) F\xfcrsorge als Tarnung:</strong> Anders als bei der SE2w3, die Status und \xf6ffentliches Bild sucht, agierte Weber ausschlie\xdflich im privaten, familiären Nahbereich. Die Rolle der F\xfcrsorgerin war nicht Fassade f\xfcr Prestige, sondern der einzige Ort, an dem sich die Taten ereignen konnten.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel als Wiederholungszwang:</strong> Eine SE2 mit schw\xe4cher ausgepr\xe4gtem Einserfl\xfcgel h\xe4tte m\xf6glicherweise nach der ersten Entdeckung aufgeh\xf6rt. Der stark ausgepr\xe4gte Einserfl\xfcgel bei Weber zeigte sich als rigide innere Notwendigkeit, dasselbe Muster immer wieder zu wiederholen &ndash; trotz wachsenden Risikos.</p>
-        <p class="vb-intro"><strong>c) Kein \xf6ffentliches Motiv:</strong> Anders als bei Peter Sutcliffe, dessen Taten von einer Art moralischem Feldzug begleitet waren, gibt es bei Weber keine Hinweise auf eine \xe4hnliche \xf6ffentliche Rechtfertigungserz\xe4hlung. Ihr Muster blieb rein privat, verdeckt, ohne jede Selbstinszenierung.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Jeanne Weber</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE2w1 &ndash; Selbsterhaltende Zwei mit Einserfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Stolz (als Privileg der Unentbehrlichkeit im engsten familiären Kreis)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 7. Oktober 1874 &ndash; 5. Juli 1918</span>
-          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Erw\xfcrgen mehrerer Kinder aus dem eigenen und dem verwandtschaftlichen Umfeld (1905&ndash;1908), 1906 zun\xe4chst freigesprochen, 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt, Unterbringung in der Anstalt Mareville bis zu ihrem Tod 1918</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie das Privileg der Unentbehrlichkeit zur zwanghaften Wiederholungsfalle wird – und warum der Einserflügel keine Rücksicht auf Entdeckungsrisiko kennt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Stolz als Grundmotiv der Zwei: Wie das Schutzsystem der Zwei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jeanne Weber wurde 1908 f\xfcr schuldig und zugleich unzurechnungsf\xe4hig erkl\xe4rt und in eine Anstalt eingewiesen, wo sie 1918 starb. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1)"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1)"},
-          {route:"kriminalpsychologie-henri-landru", label:"Kriminalpsychologie: Henri D\xe9sir\xe9 Landru (SE3w4)"},
-        ])}
-      </div>
     </div>
   `);
 }

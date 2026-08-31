@@ -1,3 +1,168 @@
+function martinLutherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-martin-luther-portrait.jpg" alt="Martin Luther" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Martin Luther</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel · 1483–1546</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Martin Luther</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-martin-luther">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, die Schwarze Mamba als Tiermotiv und
+        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift
+        wird: der Dekade zwischen 1535 und seinem Tod 1546, in der sich zunehmende Herz-Kreislauf-Probleme,
+        Nierensteine und Schwindelanfälle mit schweren, wiederkehrenden depressiven Episoden verschränkten –
+        seinen eigenen »Anfechtungen«.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Luther</strong> ist der <strong>sexuellen Eins mit Zweierflügel</strong>
+        zugeordnet. Die SX1 richtet ihren unerbittlichen Vollkommenheitsanspruch mit missionarischer Wucht
+        auf eine einzige Sache – bei Luther die reine Lehre. Der Zweierflügel bringt die Sorge um konkrete
+        Menschen hinzu, aber auch die Tendenz, die eigene Erschöpfung hinter dem Weiterfunktionieren für
+        andere zu verbergen, statt sie sich selbst einzugestehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Anfechtungen bereits im Kloster:</strong>
+        Schon als junger Augustinermönch litt Luther unter dem, was er selbst »Anfechtungen« nannte –
+        Anfälle tiefster Verzweiflung, Schuld- und Todesangst, die ihn trotz strengster Bußpraxis nie
+        verließen. Das Muster war also lange vor der Reformation angelegt, nicht erst eine Folge ihrer
+        Belastungen.</p>
+        <p class="vb-intro"><strong>b) Erste körperliche Beschwerden ab den 1520er-Jahren:</strong>
+        Parallel zu den Anfangsjahren der reformatorischen Bewegung mehrten sich bei Luther Klagen über
+        Verdauungsbeschwerden und Nierensteine – Symptome, die er kaum je zum Anlass nahm, sein Arbeitspensum
+        zu drosseln.</p>
+        <p class="vb-intro"><strong>c) Ein Leben ohne erkennbare Erholungsphasen:</strong>
+        Zwischen Predigten, Vorlesungen, Bibelübersetzung, umfangreicher Korrespondenz und permanenter
+        theologischer Kontroverse blieb für Luther kaum eine Phase wirklicher Entlastung – ein Betrieb, der
+        sich über Jahrzehnte fortsetzte, ohne dass äußere Erfolge die innere Anspannung milderten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Wendepunkt nach 1527:</strong>
+        Historiker verorten einen deutlichen Einschnitt um das Jahr 1527: Von da an lässt sich bei Luther
+        eine wiederkehrende Verbindung zwischen Kreislaufproblemen und depressiven Verstimmungen erkennen,
+        die sich fortan gegenseitig verstärkten, statt unabhängig voneinander aufzutreten.</p>
+        <p class="vb-intro"><strong>b) Wachsende gesundheitliche Instabilität:</strong>
+        Zeitgenössische wie spätere medizinhistorische Einschätzungen beschreiben Luther in den Jahren nach
+        1527 als zunehmend labil – Phasen intensiver Schaffenskraft wechselten sich mit Einbrüchen ab, die
+        Körper und Psyche gleichermaßen betrafen.</p>
+        <p class="vb-intro"><strong>c) Die Dekade 1535 bis 1545 als Höhepunkt:</strong>
+        Diese zehn Jahre gelten als die Phase, in der Krankheit und Depression bei Luther am dichtesten
+        zusammenfielen – Herzbeschwerden, Schwindelanfälle und quälende Selbstzweifel, die sich gegenseitig
+        befeuerten, statt sich abzuwechseln.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) »Ich bin's nicht«:</strong>
+        In seinen dunkelsten Momenten soll Luther nach Überlieferung am Boden liegend und weinend
+        ausgerufen haben, er sei »es nicht« – ein Ausdruck radikaler Selbstentfremdung, der weit über
+        gewöhnliche Erschöpfung hinausgeht.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug aus der Öffentlichkeit:</strong>
+        Anders als mancher andere Kranke seiner Zeit zog sich Luther trotz dieser Zustände nicht aus dem
+        öffentlichen Leben zurück – Predigten, Vorlesungen und Streitschriften liefen auch in den
+        schwersten Jahren nahezu ungebremst weiter.</p>
+        <p class="vb-intro"><strong>c) Eine Krankengeschichte, die er selbst dokumentierte:</strong>
+        Luthers eigene Briefe und die Aufzeichnungen seines Umfelds – vor allem die späteren »Tischreden« –
+        machen seine Leiden ungewöhnlich gut belegbar, weit über das hinaus, was von den meisten Zeitgenossen
+        seines Standes überliefert ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Zunehmende Schwindelanfälle in den letzten Jahren:</strong>
+        In seinem letzten Lebensjahrzehnt kamen wiederkehrende Schwindelanfälle hinzu, die rückblickend
+        als mögliche Menière-Erkrankung gedeutet werden – ein weiteres Symptom, das Luther nie ernsthaft
+        von seiner Arbeit abhielt.</p>
+        <p class="vb-intro"><strong>b) Eine letzte Reise trotz sichtbarer Schwäche:</strong>
+        Im Winter 1546 reiste der bereits gesundheitlich schwer angeschlagene Luther nach Eisleben, um
+        einen Erbschaftsstreit zwischen den Grafen von Mansfeld zu schlichten – eine Aufgabe, die er
+        trotz erkennbarer Erschöpfung nicht delegierte.</p>
+        <p class="vb-intro"><strong>c) Tod in der Geburtsstadt:</strong>
+        Martin Luther starb am 18. Februar 1546 in Eisleben, vermutlich an Herzversagen oder einem
+        Schlaganfall – in derselben Stadt, in der er 63 Jahre zuvor geboren worden war.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">5. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Robbie Williams (SX1w2):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
+        Williams</a>, ebenfalls SX1w2, zeigt sich bei Luther das für diesen Subtyp typische Muster einer
+        tief sitzenden, jahrzehntelangen Depression. Die Ausprägung ist jedoch gegenläufig: Williams
+        externalisierte seine Erschöpfung über Sucht und öffentliche Zusammenbrüche; Luther kanalisierte
+        seine Anfechtungen fast vollständig nach innen und in weitere theologische Arbeit – zwei Varianten
+        derselben SX1-Grundhaltung, der eigenen Erschöpfung nie nachzugeben, nur mit entgegengesetztem
+        äußerem Ausdruck: Offenlegung bei Williams, Weiterarbeiten bis zur Erschöpfung bei Luther.</p>
+        <p class="vb-intro"><strong>b) Zwei sich verstärkende Leiden statt eines einzelnen Ereignisses:</strong>
+        Anders als bei manchem anderen Krankheitsporträt gibt es bei Luther keinen einzelnen dramatischen
+        Wendepunkt, sondern eine sich über die Dekade 1535 bis 1545 stetig verdichtende Wechselwirkung aus
+        körperlichem und seelischem Verfall, die sich gegenseitig nährte, statt unabhängig voneinander zu
+        verlaufen.</p>
+        <p class="vb-intro"><strong>c) Eine Verschiebung Richtung Stresspunkt:</strong>
+        Der Stresspunkt der Eins ist die Vier. In den beschriebenen Symptomen der letzten Lebensjahre –
+        Melancholie, radikale Selbstentfremdung, quälender Selbstzweifel statt der für die Eins typischeren
+        moralischen Gewissheit – lässt sich eine Verschiebung entlang der Stresslinie erkennen, wie sie bei
+        chronischem, jahrzehntelangem Druck typisch ist. Der Kerntyp blieb dabei unverändert die sexuelle
+        Eins mit Zweierflügel – doch die Symptomatik der letzten Lebensjahre trägt zunehmend Vierer-Züge.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Herz?</strong>
+        Für einen Mann, dessen gesamte Theologie um den Begriff des Glaubens »von Herzen« kreiste – nicht
+        um äußerliches Werk, sondern um innere Gewissheit –, liegt eine Deutung nahe: ausgerechnet das
+        Organ, das im übertragenen Sinn für die eigene innere Gewissheit steht, wurde in den letzten
+        Lebensjahren zum Schauplatz eines Verfalls, der sich mit keiner noch so festen Überzeugung
+        aufhalten ließ. Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu Herzleiden oder Depression
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Luthers Fall zeigen lässt, ist ein Muster, das bei dem Zwang, den eigenen Eifer niemals
+        auszusetzen, in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Luther kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen Lebzeiten
+        noch nicht. Sein Eifer, der keine Halbheiten duldete, kannte für ihn keinen eingebauten
+        Warnmechanismus, der ihn rechtzeitig zu einer Verlangsamung hätte bewegen können; im Gegenteil,
+        die eigene Erschöpfung wurde offenbar in derselben Logik verarbeitet wie jede theologische
+        Auseinandersetzung zuvor: als etwas, dem man mit noch mehr Einsatz begegnet, statt ihm nachzugeben.
+        Wer das eigene Muster, niemals aufzuhören, nicht kennt, kann es auch nicht rechtzeitig durchbrechen
+        – bei Luther endete das erst mit dem Tod, am 18. Februar 1546.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">6. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Luthers</strong> sexuelle Eins mit Zweierflügel noch
+        einmal ablesen: eine Dekade zunehmender Herz-Kreislauf-Probleme, die sich untrennbar mit
+        wiederkehrenden Anfechtungen verwoben, und ein Eifer, der bis zuletzt keine Pause zuließ – noch die
+        letzte Reise nach Eisleben trat er im Dienst einer Sache an, nicht im Dienst der eigenen Genesung.
+        Die Schwarze Mamba, die bis zum letzten Atemzug zubiss, auch als der eigene Körper längst nicht
+        mehr mithalten konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigWittgensteinKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12915,180 +13080,6 @@ function bobMarleyKrankheitsportraetPage() {
         {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
-      ])}
-    </div>
-  `);
-}
-
-function angelinaJolieKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-angelina-jolie-portrait.jpg" alt="Angelina Jolie" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Angelina Jolie</p>
-        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · geb. 1975</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gans</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Angelina Jolie</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur kurz erwähnt wird: eine 2013 öffentlich gemachte
-        vorbeugende doppelte Mastektomie aufgrund einer BRCA1-Genmutation, gefolgt 2015 von
-        der Entfernung von Eierstöcken und Eileitern – beides bewusst öffentlich
-        kommuniziert.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jolie</strong> ist dem <strong>sozialen Typ 1 mit Zweierflügel</strong>
-        zugeordnet. Die SO1 kann nicht nicht-handeln, wenn Handlung möglich ist – auch bei
-        der eigenen Gesundheit; der Zweierflügel bringt das direkte, persönliche Mitgefühl
-        hinzu, das aus einer privaten medizinischen Entscheidung eine öffentliche Botschaft
-        macht. Genau diese Kombination – Pflicht zum Richtigen, verbunden mit dem Wunsch,
-        anderen durch die eigene Offenheit zu nützen – bestimmte den Umgang mit der eigenen
-        genetischen Diagnose.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Belastete Familiengeschichte:</strong>
-        Jolies Mutter Marcheline Bertrand starb 2007 an Eierstockkrebs im Alter von 56
-        Jahren, ihre Großmutter mütterlicherseits an Eierstockkrebs, ihre Tante an
-        Brustkrebs – eine familiäre Häufung, die einen genetischen Test nahelegte.</p>
-        <p class="vb-intro"><strong>b) Nachweis der BRCA1-Genmutation:</strong>
-        Ein Gentest bestätigte bei Jolie eine Mutation im BRCA1-Gen, die das Risiko für
-        Brust- und Eierstockkrebs statistisch erheblich erhöht.</p>
-        <p class="vb-intro"><strong>c) Ärztlich geschätztes Risiko von rund 87 Prozent:</strong>
-        Nach ärztlicher Einschätzung lag ihr persönliches Risiko, im Laufe ihres Lebens an
-        Brustkrebs zu erkranken, bei etwa 87 Prozent, das Risiko für Eierstockkrebs bei etwa
-        50 Prozent.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Präventive doppelte Mastektomie 2013:</strong>
-        Zwischen Februar und April 2013 unterzog sich Jolie einer vorbeugenden doppelten
-        Mastektomie mit anschließender Rekonstruktion, um das Brustkrebsrisiko drastisch zu
-        senken.</p>
-        <p class="vb-intro"><strong>b) Öffentliche Ankündigung per Zeitungsessay:</strong>
-        Statt die Operation privat zu halten, veröffentlichte Jolie im Mai 2013 einen
-        ausführlichen Essay in der New York Times unter dem Titel „My Medical Choice", in
-        dem sie ihre Entscheidung und deren medizinische Grundlage detailliert erklärte.</p>
-        <p class="vb-intro"><strong>c) Entfernung von Eierstöcken und Eileitern 2015:</strong>
-        Zwei Jahre später, im März 2015, ließ Jolie zusätzlich präventiv ihre Eierstöcke und
-        Eileiter entfernen, nachdem ein Bluttest erhöhte Werte gezeigt hatte, die auf eine
-        beginnende Krebserkrankung hindeuten konnten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Kein tatsächlicher Krebsbefund:</strong>
-        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses handelte es sich
-        bei Jolie nicht um eine bereits bestehende Krebserkrankung, sondern um eine rein
-        präventive Entscheidung aufgrund eines statistisch erhöhten Risikos.</p>
-        <p class="vb-intro"><strong>b) Zweiter Essay zur Eierstockoperation:</strong>
-        Auch die Entfernung von Eierstöcken und Eileitern begleitete Jolie 2015 mit einem
-        weiteren öffentlichen Essay in der New York Times, in dem sie den Entscheidungsweg
-        erneut offenlegte.</p>
-        <p class="vb-intro"><strong>c) Nachweisbarer Effekt auf öffentliche Wahrnehmung:</strong>
-        Nach Jolies Essay von 2013 registrierten Ärzte weltweit einen deutlichen Anstieg von
-        Anfragen zu BRCA-Gentests – ein Phänomen, das später als „Angelina-Jolie-Effekt"
-        bekannt wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite mediale und medizinische Aufmerksamkeit:</strong>
-        Jolies Entscheidungen lösten internationale Berichterstattung aus und wurden in
-        zahlreichen Studien als Fallbeispiel für den Einfluss prominenter Gesundheitsoffenheit
-        auf das Präventionsverhalten der Allgemeinbevölkerung untersucht.</p>
-        <p class="vb-intro"><strong>b) Kontroverse um Zugänglichkeit und Kosten:</strong>
-        Der „Angelina-Jolie-Effekt" führte auch zu einer öffentlichen Debatte darüber, dass
-        präventive Gentests und Operationen nicht allen Frauen gleichermaßen zugänglich
-        sind – eine Diskussion, die Jolie selbst in ihren Essays mit aufgriff.</p>
-        <p class="vb-intro"><strong>c) Fortgesetztes öffentliches Engagement:</strong>
-        Jolie setzt ihr humanitäres und filmisches Engagement seither unverändert fort, ohne
-        dass die präventiven Eingriffe ihr öffentliches Leben sichtbar einschränkten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Handeln, weil Handlung möglich ist:</strong>
-        Die SO1-typische Überzeugung, dass Unrecht – auch ein erhöhtes gesundheitliches
-        Risiko – nicht einfach hingenommen werden darf, wenn eine Handlungsmöglichkeit
-        besteht, prägte Jolies Entscheidung für die präventiven Operationen von Beginn an.</p>
-        <p class="vb-intro"><strong>b) Der Zweierflügel und die bewusste Öffentlichkeit:</strong>
-        Dieselbe Verbindung aus Haltung und Herz, die Jolies humanitäres Engagement prägt,
-        zeigte sich auch hier: Statt die Operationen privat zu halten, machte sie sie
-        öffentlich, weil andere Frauen davon profitieren könnten – Fürsorge als Handlung,
-        nicht als Gefühl.</p>
-        <p class="vb-intro"><strong>c) Pflicht zur Sichtbarkeit statt Rückzug:</strong>
-        Wo andere eine derart intime medizinische Entscheidung privat gehalten hätten,
-        veröffentlichte Jolie zwei ausführliche Essays – ein Muster, das ihrem gesamten
-        öffentlichen Wirken entspricht: Das Richtige tun und es sichtbar machen, nicht um
-        Bewunderung zu ernten, sondern weil Sichtbarkeit selbst als Verpflichtung erlebt
-        wird.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Kämpferin gegen Unrecht, die auch das genetische Risiko als Unrecht behandelte:</strong>
-        Jolies gesamtes öffentliches Wirken beruht auf der Überzeugung, dass sichtbares
-        Unrecht ein Handeln erfordert – bei der eigenen genetischen Diagnose übertrug sie
-        genau diese Haltung auf den eigenen Körper: ein statistisches Risiko wurde zu einer
-        Sache, gegen die aktiv vorgegangen werden musste.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet Brust und Eierstöcke, die Organe der weiblichen Fürsorge?</strong>
-        Für eine soziale Eins mit Zweierflügel, deren gesamtes Lebenswerk um Mutterschaft,
-        Fürsorge für fremde Kinder und den Schutz von Verwundbaren kreist, liegt eine Deutung
-        nahe: Ausgerechnet jene Organe, die im Volksmund für Mutterschaft und weibliche
-        Fürsorge stehen, wurden zum Gegenstand einer präventiven, öffentlich gemachten
-        Entscheidung. Diese Deutung ist eine plausible Interpretation, kein belegter
-        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
-        noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu genetisch
-        bedingten Krebsrisiken führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Jolies Fall zeigen lässt, ist ein Muster
-        im Umgang mit einem gesundheitlichen Risiko, das bei einer ausgeprägten sozialen Eins
-        mit Zweierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Jolie kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die soziale Eins mit
-        Zweierflügel kann reflexhaft nicht nicht-handeln, wenn eine Gefahr erkannt ist, und
-        macht aus privaten Entscheidungen fast zwangsläufig öffentliche Botschaften. Wer die
-        eigene Neigung, jede erkannte Gefahr sofort in sichtbares Handeln zu übersetzen,
-        nicht als Muster erkennt, riskiert, dass kaum Raum bleibt, eine schwierige
-        Entscheidung erst einmal privat zu verarbeiten, bevor sie zur öffentlichen Aufgabe
-        wird.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 1 mit Zweierflügel erklärt bei <strong>Angelina Jolie</strong> vieles
-        am Umgang mit ihrem genetischen Risiko: eine Frau, deren gesamtes öffentliches
-        Wirken der Sichtbarmachung von Unrecht gilt, machte auch ihre eigene präventive
-        Entscheidung zu einer öffentlichen Botschaft – die Gans, die selbst im eigenen
-        Körper kein Risiko unbeachtet ließ und die Formation dadurch stärker machte, dass sie
-        offen über die eigene Verwundbarkeit sprach.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
     </div>
   `);

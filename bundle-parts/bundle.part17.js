@@ -4951,6 +4951,7 @@ function render() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-klemens-von-metternich": klemensVonMetternichPortraitPage,
       "beruehmte-ludwig-xiv": ludwigXIVPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,

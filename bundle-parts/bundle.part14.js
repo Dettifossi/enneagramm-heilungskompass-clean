@@ -1,3 +1,54 @@
+function hochsensibilitaetDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Hochsensibilit\u00e4t der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Diese Eigenschaften sind bei hochsensiblen Menschen h\u00e4ufig in starker Form ausgepr\u00e4gt, da sich hier die universellen Ur-Prinzipien in einem Menschen \u00fcberm\u00e4\u00dfig einseitig intensiv manifestieren. Diese Qualit\u00e4ten k\u00f6nnen im Einzelfall Segen und Fluch zugleich sein.</p>
+      <img src="./assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilit\u00e4t der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Feinwahrnehmung, Perfektionismus, Gerechtigkeitssinn</h3>
+        <p class="vb-intro">Der hochsensible Typ 1 besitzt eine au\u00dfergew\u00f6hnliche F\u00e4higkeit, Feinheiten auf einfache Weise detailreich herauszuh\u00f6ren, wiederzugeben und in Worte zu fassen. Er ist von Natur aus gewissenhaft \u2014 sein innerer Sensor registriert jede Abweichung vom Ideal, jede Ungereimtheit, jede Schieflage. Diese Feinf\u00fchligkeit ist sein gr\u00f6\u00dftes Geschenk: Sie macht ihn zum unbestechlichen Beobachter, zum verl\u00e4sslichen Korrektor, zum Menschen, der Qualit\u00e4t erkennt, bevor andere sie auch nur ahnen. Die Schattenseite ist die innere Ersch\u00f6pfung durch st\u00e4ndige Reizfilterung \u2014 der Typ 1 h\u00f6rt immer alles, auch das, was andere l\u00e4ngst ausgeblendet haben. Segen und Fluch zugleich: wer alles wahrnimmt, kann die Welt verbessern \u2014 und kann sich in ihr nicht erholen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Ausgepr\u00e4gter Altruismus und emotionale Resonanz</h3>
+        <p class="vb-intro">Der hochsensible Typ 2 f\u00fchlt und \u00fcbermittelt au\u00dfergew\u00f6hnliche Emotionen mit einer Einf\u00fchlsamkeit, die andere kaum nachvollziehen k\u00f6nnen. Er erkennt fremde Gef\u00fchle, bevor sie ausgesprochen werden \u2014 ein Blick, eine K\u00f6rperhaltung, eine Pause im Gespr\u00e4ch reichen ihm, um zu wissen, was der andere gerade braucht. Diese Qualit\u00e4t macht ihn zum nat\u00fcrlichen Helfer, Tr\u00f6ster und emotionalen Anker f\u00fcr andere. Die Kehrseite: Er saugt die Emotionen seiner Umgebung auf wie ein Schwamm und tr\u00e4gt oft Gef\u00fchle, die gar nicht seine eigenen sind \u2014 ohne zu wissen, wo die Grenze zwischen ihm und dem anderen verl\u00e4uft. Segen und Fluch: wer alles f\u00fchlt, kann heilen \u2014 und kann sich selbst dabei verlieren.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Intensives emotionales Ersp\u00fcren in Beziehungen</h3>
+        <p class="vb-intro">Der hochsensible Typ 3 nimmt Beziehungen und Reize tief und emotional intensiv wahr \u2014 weit mehr, als sein nach au\u00dfen oft k\u00fchl wirkendes Auftreten vermuten l\u00e4sst. Hinter der Fassade des Erfolgsorientierten lebt ein Mensch, der Verbindungen mit gro\u00dfer Intensit\u00e4t erlebt und auf emotionale Signale in seinem sozialen Umfeld \u00e4u\u00dferst fein reagiert. Diese Sensibilit\u00e4t erm\u00f6glicht ihm ein intuitives Gesp\u00fcr f\u00fcr die Dynamiken zwischen Menschen \u2014 er liest R\u00e4ume, bevor andere die T\u00fcr aufgemacht haben. Die Gefahr: Er \u00fcberarbeitet sich, weil er die emotionale Last seiner Umgebung sp\u00fcrt und gleichzeitig nach au\u00dfen St\u00e4rke zeigen will. Segen und Fluch: wer alles ersp\u00fcrt und trotzdem liefert, kann Gro\u00dfes bewegen \u2014 und brennt dabei von innen aus.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Empathie und langer emotionaler Nachklang</h3>
+        <p class="vb-intro">Der hochsensible Typ 4 ist sehr empathisch und kann seine Mitmenschen auf einer Tiefe verstehen, die anderen verschlossen bleibt. Erlebnisse klingen in ihm lange nach \u2014 Musik, Kunst, Begegnungen, Trennungen hinterlassen Spuren, die sich nicht einfach aufl\u00f6sen. Diese Tiefe ist sein k\u00fcnstlerisches Kapital: Sie speist seine Kreativit\u00e4t, seine Ausdruckskraft, seine F\u00e4higkeit, das Unsagbare in Sprache oder Bild zu verwandeln. Die Schattenseite ist die emotionale \u00dcberflutung: Was andere als vergangen abhaken, lebt im Typ 4 weiter \u2014 manchmal als Sch\u00f6nheit, manchmal als Schmerz, oft als beides gleichzeitig. Segen und Fluch: wer so tief f\u00fchlt, kann Kunst schaffen, die Menschen ber\u00fchrt \u2014 und findet selbst keinen Abschalter.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Langzeitged\u00e4chtnis und systemisches Denken</h3>
+        <p class="vb-intro">Der hochsensible Typ 5 besitzt ein sehr ausgepr\u00e4gtes Langzeitged\u00e4chtnis und die F\u00e4higkeit, in gr\u00f6\u00dferen Zusammenh\u00e4ngen zu denken \u2014 er ist ein tiefsinniger Denker mit ausgepr\u00e4gten, weitverzweigten Gedankeng\u00e4ngen. Er verkn\u00fcpft Informationen, die andere l\u00e4ngst vergessen haben, zu neuen Mustern und Erkenntnissen. Diese Qualit\u00e4t macht ihn zum Analytiker, Forscher, Vision\u00e4r. Die Kehrseite: Er ist reiz\u00fcberflutet in einer Welt, die st\u00e4ndig auf ihn einprasselt, und zieht sich daher weit zur\u00fcck \u2014 nicht aus K\u00e4lte, sondern aus dem tiefen Bed\u00fcrfnis nach Stille, um \u00fcberhaupt denken zu k\u00f6nnen. Segen und Fluch: wer so weit denkt, kann Zusammenh\u00e4nge erkennen, die andere nie sehen \u2014 und braucht daf\u00fcr eine Einsamkeit, die nicht jeder versteht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Vertrauen und Sicherheit schaffend</h3>
+        <p class="vb-intro">Der hochsensible Typ 6 ist sehr zuverl\u00e4ssig, hilfsbereit und freundschaftlich-loyal \u2014 ein Mensch, in dessen N\u00e4he andere sich sicher f\u00fchlen, weil er Vertrauen nicht nur verspricht, sondern verk\u00f6rpert. Sein feines Gesp\u00fcr f\u00fcr Risiken, Unstimmigkeiten und versteckte Gefahren macht ihn zum nat\u00fcrlichen W\u00e4chter und Vertrauensanker in Gruppen. Er bemerkt, wenn etwas nicht stimmt \u2014 lange bevor es offensichtlich wird. Die Schattenseite: Diese Wachheit ersch\u00f6pft ihn. Ein hochsensibler Typ 6 tr\u00e4gt die Sorgen seiner Umgebung mit, auch wenn niemand ihn darum gebeten hat. Segen und Fluch: wer so wachsam ist, h\u00e4lt Gemeinschaften zusammen \u2014 und findet selbst kaum einen Moment echter Ruhe.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Begeisterungsf\u00e4higkeit, Fantasie und Schmerzempfindlichkeit</h3>
+        <p class="vb-intro">Der hochsensible Typ 7 ist optimistisch, lacht und weint leicht und besitzt eine erh\u00f6hte Schmerzempfindlichkeit \u2014 er lebt an der Oberfl\u00e4che der Gef\u00fchle mit einer Intensit\u00e4t, die andere mitrei\u00dft. Seine hohe Begeisterungsf\u00e4higkeit, seine vielseitigen Interessen und seine gro\u00dfe Fantasie machen ihn zum kreativen Motor in jedem Umfeld. Er entz\u00fcndet sich an Ideen und entz\u00fcndet andere damit. Die Kehrseite: Er f\u00fchlt Schmerz \u2014 k\u00f6rperlich wie seelisch \u2014 mit einer Unmittelbarkeit, die ihn manchmal \u00fcberrollt. Sein Optimismus ist oft auch eine Schutzstrategie gegen das, was er so intensiv wahrnimmt. Segen und Fluch: wer so hell brennt, beleuchtet alles um sich herum \u2014 und braucht viel Raum, um sich zu erholen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Psychische Stabilit\u00e4t und Selbstst\u00e4ndigkeit</h3>
+        <p class="vb-intro">Der hochsensible Typ 8 ist meist psychisch sehr stabil, sehr selbstst\u00e4ndig und f\u00fchlt sich auch dann gut, wenn er alleine ist \u2014 er braucht keine Best\u00e4tigung von au\u00dfen, um sich seiner selbst sicher zu sein. Diese innere Festigkeit ist seine besondere Form der Hochsensibilit\u00e4t: W\u00e4hrend andere in emotionalen St\u00fcrmen schwanken, bleibt er geerdet. Gleichzeitig nimmt er Ungerechtigkeit, Schw\u00e4che und Bedrohung mit einer Unmittelbarkeit wahr, die ihn sofort in Aktion versetzt. Sein K\u00f6rpergef\u00fchl ist intensiv \u2014 er sp\u00fcrt sich und seine Grenzen sehr klar. Segen und Fluch: wer so geerdet ist, kann anderen Halt geben \u2014 und \u00fcbersieht dabei manchmal die eigene Verletzlichkeit, die tief im Inneren verborgen liegt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Stille, Wesentlichkeit und verbindende Pr\u00e4senz</h3>
+        <p class="vb-intro">Der hochsensible Typ 9 sucht oft die Stille und kann auf einfache Weise das Wesentliche erkennen \u2014 er verf\u00fcgt \u00fcber ein ausgepr\u00e4gtes Harmoniebed\u00fcrfnis und ist sehr vermittelnd, freundlich und verbindend. Unter all dem L\u00e4rm der Welt h\u00f6rt er, was wirklich wichtig ist. Diese stille Wahrnehmung macht ihn zum nat\u00fcrlichen Vermittler: Er sieht alle Perspektiven gleichzeitig und kann Br\u00fccken bauen, wo andere nur Gr\u00e4ben sehen. Die Kehrseite: Reiz\u00fcberflutung trifft ihn hart \u2014 er zieht sich dann in sich zur\u00fcck und wirkt abwesend, obwohl er eigentlich nur \u00fcberfordert ist. Segen und Fluch: wer das Wesentliche so klar sieht, kann Frieden stiften \u2014 und verliert dabei manchmal seine eigene Mitte aus dem Blick.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+        {route:"empfindliche-punkte", label:"Empfindliche Punkte"},
+      ])}
+    </div>
+  `);
+}
+
 function superpowerDer9TypenPage() {
   return shell(`
     <div class="page-container">

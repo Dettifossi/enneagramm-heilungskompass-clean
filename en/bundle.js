@@ -1108,6 +1108,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Christiaan Barnard – Social Type 3",
     teaser:"SO3w2 · 1922–2001. South African cardiac surgeon. First successful heart transplant in the world (1967), overnight global fame, jet-set life with film stars. The cheetah with the Two-wing: the courage for the first leap, joined with the need to be seen doing it. Animal correspondence: Cheetah.",
     land:"South Africa", tags:["History","Medicine"], gender:"m"},
+{ route:"beruehmte-klemens-von-metternich", name:"Klemens von Metternich", added:"2026-08-31", subtyp:"SO3w2",
+    heading:"Klemens von Metternich – Social Type 3",
+    teaser:"SO3w2 · 1773–1859. Austrian State Chancellor, architect of the Congress of Vienna and the post-Napoleonic European order. The cheetah with the Two-wing: diplomacy through personal charm, salons, and influential liaisons rather than raw negotiating power. Animal correspondence: Cheetah.",
+    land:"Austria", tags:["History","Politics"] , gender:"m"},
 { route:"beruehmte-ludwig-xiv", name:"Louis XIV", added:"2026-08-15", subtyp:"SO3w2",
     heading:"Louis XIV – Social Type 3",
     teaser:"SO3w2 · 1638–1715. King of France, the Sun King. Versailles, the Ballet de la Nuit as Apollo, 72 years on the throne. The cheetah with the Two-wing: an image that became the program of an entire kingdom. Animal correspondence: Cheetah.",
@@ -27361,7 +27365,8 @@ function sahraWagenknechtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-obama", label:"Portrait: Barack Obama (SO2w3)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"}
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portrait: Klemens von Metternich (SO3w2)"}
       ])}
     </div>
   `);
@@ -44684,6 +44689,71 @@ function christiaanBarnardPortraitPage() {
   `);
 }
 
+function klemensVonMetternichPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-klemens-von-metternich-portrait.jpg" alt="Klemens von Metternich" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klemens von Metternich</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">1773&ndash;1859 &ndash; Austrian State Chancellor, architect of the Congress of Vienna &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah in the Ballroom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> is the animal of the social Three &ndash; fast, elegant, always mindful of the impression it makes, a hunter who knows exactly how it wants to be seen. Klemens Wenzel von Metternich, born in 1773 into a Rhenish noble family, understood from a young age that appearance in aristocratic society was no side matter but the actual tool of power. Contemporaries consistently described him as one of the most elegant, charming men of his time &ndash; a presence he never left to chance.</p>
+          <p class="vb-intro">Yet unlike a purely self-absorbed performer, this brilliance served a purpose from the start: Metternich used his social impact systematically as a political instrument. The cheetah doesn't hunt for pleasure &ndash; it hunts because the pack must survive.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Success in the Service of the System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> seeks its worth not in personal glamour alone, but in becoming indispensable to a larger system &ndash; success measured by usefulness to the community, the state, the order of things. Naranjo described this subtype as <em>prestige</em>: status is not privately enjoyed but publicly displayed as proof of one's importance to the whole.</p>
+          <p class="vb-intro">Metternich's entire career follows this pattern. As Austrian foreign minister from 1809 and eventually State Chancellor, he made himself, over decades, the central, practically irreplaceable figure of European diplomacy. The Congress of Vienna in 1814&ndash;15, which he largely orchestrated, was his masterpiece: a continent-wide reordering after the Napoleonic Wars, in which Metternich staged himself as the indispensable mediator between the great powers &ndash; the "Metternich System" named after him held Europe in a fragile balance he himself curated for four decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Diplomacy as Personal Seduction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three its actual tool: not cold negotiating power, but personal closeness, charm, the feeling that whoever stood before him was the most important person in the room. Metternich's reputation as a ladies' man was legendary and by no means merely private pleasure &ndash; his relationship with Duchess Wilhelmine of Sagan during the Congress of Vienna, for instance, carried real political weight, a web of personal affection and diplomatic calculation that could hardly be separated.</p>
+          <p class="vb-intro">The Congress of Vienna itself became emblematic of this method: a contemporary coined the phrase "The Congress dances, but does not move forward" &ndash; because much of the actual negotiating happened not at the conference table but at balls, in salons, in private gatherings that Metternich masterfully orchestrated. Where an SO3w4 would have relied on its own distinctiveness, Metternich relied on the web of personal bonds he spun across all of Europe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO3w2 is the ability to turn personal charisma into genuinely stabilizing impact for an entire system. The balance of power established after the Congress of Vienna prevented a renewed continent-wide war for decades &ndash; a real, historically significant achievement built on Metternich's diplomatic skill.</p>
+          <p class="vb-intro">The Three's fateful pattern is <strong>self-deceit</strong> &ndash; the unconscious merging of one's own worth with the successfully performed role. In Metternich this showed up as an increasingly rigid defense of the status quo: as the symbolic figure of the Restoration, he systematically suppressed liberal and national movements across Europe, convinced that the order he had built was inseparable from his own person. When the revolution of 1848 broke out, he had to flee Vienna at age 74 &ndash; a system so tightly bound to a single performance could not survive the break with that performance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Flight from Vienna: When the Image Shattered</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In March 1848, when uprisings in Vienna forced his resignation, Metternich had to flee the city he had shaped as the center of European diplomacy for decades &ndash; disguised as a commoner, unrecognized. For a social Three so completely identified with its own role, this is the deepest conceivable fall: not merely the loss of power, but the loss of exactly the public image that had carried his identity for decades.</p>
+          <p class="vb-intro">What happened next is remarkable: after years in exile in England and Belgium, Metternich returned to Vienna in 1851 and, now without official office, informally became a sought-after advisor to the younger generation of Austrian statesmen once again. The cheetah that had lost its territory found a way back &ndash; not through renewed power, but through what remained most fully his: the impact of his own person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Order Through Relationship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Klemens von Metternich left behind cannot be reduced to a single political decision. For decades he shaped how European diplomacy worked &ndash; as a web of personal relationships, calculated self-presentation, and the constant effort to appear indispensable to the greater whole. The era named after him, the "Metternich System," remains to this day a reference point for balancing power through diplomacy rather than war.</p>
+          <p class="vb-intro">That is the gift of the SO3w2 in its most powerful form: a stage presence that carries not just itself but entire systems &ndash; and whose shadow only shows once the stage itself begins to shake. The cheetah that ran so long the whole of European order paced itself by his stride &ndash; until, at last, he himself was overtaken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigXIVPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -44747,6 +44817,7 @@ function ludwigXIVPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portrait: Klemens von Metternich (SO3w2)"},
       ])}
     </div>
   `);
@@ -104426,6 +104497,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-klemens-von-metternich": klemensVonMetternichPortraitPage,
       "beruehmte-ludwig-xiv": ludwigXIVPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,

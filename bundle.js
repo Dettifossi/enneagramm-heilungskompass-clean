@@ -33101,6 +33101,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Christiaan Barnard – Sozialer Typ 3",
     teaser:"SO3w2 · 1922–2001. Südafrikanischer Herzchirurg. Erste erfolgreiche Herztransplantation der Welt (1967), Weltruhm über Nacht, Jetset-Leben mit Filmstars. Der Gepard mit Zweierflügel: der Mut zum ersten Sprung, verbunden mit dem Bedürfnis, dabei gesehen zu werden. Tierentsprechung: Gepard.",
     land:"Südafrika", tags:["Geschichte","Medizin"], gender:"m"},
+  { route:"beruehmte-klemens-von-metternich", name:"Klemens von Metternich", added:"2026-08-31", subtyp:"SO3w2",
+    heading:"Klemens von Metternich – Sozialer Typ 3",
+    teaser:"SO3w2 · 1773–1859. Österreichischer Staatskanzler, Architekt des Wiener Kongresses und der europäischen Nachkriegsordnung. Der Gepard mit Zweierflügel: Diplomatie über persönlichen Charme, Salons und einflussreiche Liebschaften statt reiner Verhandlungsmacht. Tierentsprechung: Gepard.",
+    land:"Österreich", tags:["Geschichte","Politik"] , gender:"m"},
   { route:"beruehmte-ludwig-xiv", name:"Ludwig XIV.", added:"2026-08-15", subtyp:"SO3w2",
     heading:"Ludwig XIV. – Sozialer Typ 3",
     teaser:"SO3w2 · 1638–1715. König von Frankreich, der Sonnenkönig. Versailles, Ballet de la Nuit als Apoll, 72 Regierungsjahre. Der Gepard mit Zweierflügel: ein Bild, das zum Programm eines ganzen Königreichs wurde. Tierentsprechung: Gepard.",
@@ -72846,7 +72850,8 @@ function sahraWagenknechtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-obama", label:"Portr\u00e4t: Barack Obama (SO2w3)"},
-        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"}
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portr\u00e4t: Klemens von Metternich (SO3w2)"}
       ])}
     </div>
   `);
@@ -73263,6 +73268,71 @@ function pharrellWilliamsPortraitPage() {
 }
 
 
+function klemensVonMetternichPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-klemens-von-metternich-portrait.jpg" alt="Klemens von Metternich" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klemens von Metternich</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">1773&ndash;1859 &ndash; Österreichischer Staatskanzler, Architekt des Wiener Kongresses &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard im Ballsaal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; schnell, elegant, jederzeit auf Wirkung bedacht, ein Jäger, der genau weiß, wie er gesehen werden will. Klemens Wenzel von Metternich, 1773 in eine rheinische Adelsfamilie geboren, verstand von jungen Jahren an, dass Auftreten in der aristokratischen Gesellschaft keine Nebensache, sondern das eigentliche Handwerkszeug der Macht war. Zeitgenossen beschrieben ihn übereinstimmend als einen der elegantesten, charmantesten Männer seiner Zeit &ndash; ein Auftreten, das er nie dem Zufall überließ.</p>
+          <p class="vb-intro">Doch anders als bei einem reinen Selbstdarsteller diente dieser Glanz von Anfang an einem Ziel: Metternich nutzte seine gesellschaftliche Wirkung systematisch als politisches Instrument. Der Gepard jagt nicht zum Vergnügen &ndash; er jagt, weil das Rudel überleben muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg im Dienst des Systems</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht ihren Wert nicht in persönlichem Glanz allein, sondern darin, für ein größeres System unentbehrlich zu werden &ndash; Erfolg, der sich am Nutzen für die Gemeinschaft, den Staat, die Ordnung misst. Naranjo beschrieb diesen Subtyp als <em>Prestige</em>: Status wird nicht privat genossen, sondern öffentlich als Beweis der eigenen Wichtigkeit für das Ganze zur Schau gestellt.</p>
+          <p class="vb-intro">Metternichs gesamte Karriere folgt diesem Muster. Als österreichischer Außenminister ab 1809 und schließlich Staatskanzler machte er sich über Jahrzehnte zur zentralen, praktisch unersetzlichen Figur der europäischen Diplomatie. Der Wiener Kongress 1814/15, den er maßgeblich orchestrierte, war sein Meisterstück: eine gesamteuropäische Neuordnung nach den napoleonischen Kriegen, bei der Metternich sich selbst als unverzichtbaren Mittler zwischen den Großmächten inszenierte &ndash; das nach ihm benannte „System Metternich" hielt Europa vier Jahrzehnte lang in einem fragilen, von ihm selbst kuratierten Gleichgewicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Diplomatie als persönliche Verführung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei ihr eigentliches Werkzeug: nicht kalte Verhandlungsmacht, sondern persönliche Nähe, Charme, das Gefühl, das Gegenüber sei der wichtigste Mensch im Raum. Metternichs Ruf als Frauenheld war legendär und keineswegs bloß privates Vergnügen &ndash; seine Beziehung zur Herzogin Wilhelmine von Sagan während des Wiener Kongresses etwa war politisch von realer Bedeutung, ein Geflecht aus persönlicher Zuneigung und diplomatischem Kalkül, das sich kaum trennen ließ.</p>
+          <p class="vb-intro">Der Wiener Kongress selbst wurde zum Sinnbild dieser Methode: Ein Zeitgenosse prägte den Satz „Der Kongress tanzt, er kommt nicht voran" &ndash; denn ein Großteil der eigentlichen Verhandlungen fand nicht am Konferenztisch statt, sondern auf Bällen, in Salons, bei privaten Zusammenkünften, die Metternich meisterhaft orchestrierte. Wo eine SO3w4 auf die eigene Unverwechselbarkeit gesetzt hätte, setzte Metternich auf das Netz persönlicher Bindungen, das er über ganz Europa spannte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 ist die Fähigkeit, aus persönlichem Charisma tatsächlich stabilisierende Wirkung für ein ganzes System zu schaffen. Das nach dem Wiener Kongress geschaffene Gleichgewicht der Mächte verhinderte über Jahrzehnte einen erneuten europaweiten Krieg &ndash; eine reale, historisch bedeutsame Leistung, die auf Metternichs diplomatischem Geschick beruhte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Selbsttäuschung</strong> &ndash; die unbewusste Verschmelzung des eigenen Wertes mit der erfolgreich gespielten Rolle. Bei Metternich zeigte sich das in einer zunehmend starren Verteidigung des Status quo: Als Symbolfigur der Restauration unterdrückte er systematisch liberale und nationale Bewegungen in ganz Europa, überzeugt, dass die von ihm errichtete Ordnung mit seiner eigenen Person gleichzusetzen sei. Als die Revolution von 1848 ausbrach, musste er, mittlerweile 74-jährig, aus Wien fliehen &ndash; ein System, das so sehr an eine einzelne Inszenierung gebunden war, konnte den Bruch mit dieser Inszenierung nicht überleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Flucht aus Wien: Als das Bild zerbrach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im März 1848, als Aufstände in Wien seinen Rücktritt erzwangen, musste Metternich in bürgerlicher Verkleidung, unerkannt, aus der Stadt fliehen, die er über Jahrzehnte als Zentrum der europäischen Diplomatie geprägt hatte. Für eine soziale Drei mit derart vollständiger Identifikation mit der eigenen Rolle ist das der denkbar tiefste Sturz: nicht nur der Verlust der Macht, sondern der Verlust genau des öffentlichen Bildes, das jahrzehntelang die eigene Identität getragen hatte.</p>
+          <p class="vb-intro">Bemerkenswert ist, was danach geschah: Nach Jahren im Exil in England und Belgien kehrte Metternich 1851 nach Wien zurück und wurde, mittlerweile ohne offizielles Amt, informell erneut zum gefragten Berater der jüngeren Generation österreichischer Staatsmänner. Der Gepard, der sein Revier verloren hatte, fand einen Weg zurück &ndash; nicht durch neue Macht, sondern durch das, was ihm am meisten geblieben war: die Wirkung seiner eigenen Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ordnung durch Beziehung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Klemens von Metternich hinterließ, lässt sich nicht auf eine einzelne politische Entscheidung reduzieren. Er prägte über Jahrzehnte, wie europäische Diplomatie funktionierte &ndash; als ein Geflecht aus persönlichen Beziehungen, kalkulierter Selbstdarstellung und dem beständigen Bemühen, für das große Ganze unverzichtbar zu erscheinen. Das nach ihm benannte Zeitalter des „Metternich'schen Systems" bleibt bis heute ein Referenzpunkt für Machtbalance durch Diplomatie statt durch Krieg.</p>
+          <p class="vb-intro">Das ist das Geschenk der SO3w2 in ihrer wirkmächtigsten Form: eine Bühnenpräsenz, die nicht nur sich selbst, sondern ganze Systeme trägt &ndash; und deren Schatten sich erst zeigt, wenn die Bühne selbst ins Wanken gerät. Der Gepard, der so lange rannte, dass die gesamte europäische Ordnung sich an seinem Tempo orientierte &ndash; bis er schließlich selbst überholt wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 function ludwigXIVPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -73326,6 +73396,7 @@ function ludwigXIVPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Porträt: Klemens von Metternich (SO3w2)"},
       ])}
     </div>
   `);
@@ -140108,6 +140179,7 @@ function render() {
       "beruehmte-hippokrates-von-kos": hippokratesVonKosPortraitPage,
       "beruehmte-heraklit": heraklitPortraitPage,
       "beruehmte-christiaan-barnard": christiaanBarnardPortraitPage,
+      "beruehmte-klemens-von-metternich": klemensVonMetternichPortraitPage,
       "beruehmte-ludwig-xiv": ludwigXIVPortraitPage,
       "beruehmte-albert-schweitzer": albertSchweitzerPortraitPage,
       "beruehmte-tony-shalhoub": tonyShalhoubPortraitPage,
