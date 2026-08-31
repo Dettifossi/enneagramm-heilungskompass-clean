@@ -3128,7 +3128,7 @@ function tierlexikonDetailPage(codeRaw) {
         return `
           <div style="margin-top:2rem;padding-top:1.2rem;border-top:1px solid var(--line);">
             <h2 style="font-size:1rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">\u2726 Lebende Beweise: ${data.tier}-\u00dcbereinstimmung</h2>
-            <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">Diese Personen widmen ihr Lebensthema ausgerechnet dem ${data.tier} \u2013 und sind selbst ${code}.</p>
+            <p style="font-size:.85rem;color:var(--muted);margin:0 0 .8rem;">Diese Personen widmen ihr Lebensthema ausgerechnet dem ${data.tier} \u2013 und sind selbst ${code}er.</p>
             <div style="display:flex;flex-wrap:wrap;gap:.5rem;">${items}</div>
           </div>
         `;
