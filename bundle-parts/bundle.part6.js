@@ -1852,12 +1852,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Die Samariterin am Jakobsbrunnen"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "Die Samariterin am Jakobsbrunnen"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
         beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
-        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm."
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm; Nikola Tesla, der zeitlebens Dutzende parallele Großprojekte verfolgte – Wechselstromsystem, drahtlose Energieübertragung, Radartechnik, ferngesteuerte Boote –, kaum war eines skizziert, begann bereits das nächste, nie mit dem Ziel des eigenen Ruhms, sondern stets im Namen einer kostenlosen Energie für die gesamte Menschheit."
       },
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
@@ -2095,7 +2095,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -2105,7 +2105,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen; June Carter Cash, die 1967/68 gemeinsam mit Familie und Freunden Johnny Cashs Tabletten- und Alkoholabhängigkeit entgegentrat und ihn danach über Jahre durch seine Genesung begleitete – eine stille, zähe Last, die sie nie zum Zentrum der eigenen Geschichte machte."
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen; June Carter Cash, die 1967/68 gemeinsam mit Familie und Freunden Johnny Cashs Tabletten- und Alkoholabhängigkeit entgegentrat und ihn danach über Jahre durch seine Genesung begleitete – eine stille, zähe Last, die sie nie zum Zentrum der eigenen Geschichte machte."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -6185,11 +6185,11 @@ function vincentVanGoghKrankheitsportraetPage() {
         Nichtbeachtung unbeirrt zu ertragen, richtete sich in den Krisenjahren zunehmend gegen
         ihn selbst – vom Ohrschnitt bis zur mutmaßlich selbst beigebrachten Schussverletzung.</p>
         <p class="vb-intro"><strong>b) Der Fünferflügel als Gegenkraft, nicht als Schutz:</strong>
-        Wie bei Nikola Tesla (ebenfalls SE4w5) hielt der analytische Fünferflügel auch bei Van
-        Gogh selbst in tiefster Krise ein systematisches, fast wissenschaftliches Arbeiten
-        aufrecht – ein Werk wie „Sternennacht" entstand mitten in einer der schwersten Phasen
-        seines Lebens. Der Fünferflügel schützte jedoch nicht vor der Krise selbst, sondern gab
-        ihr lediglich eine geordnete, kanalisierte Form nach außen.</p>
+        Der analytische Fünferflügel hielt bei Van Gogh selbst in tiefster Krise ein
+        systematisches, fast wissenschaftliches Arbeiten aufrecht – ein Werk wie „Sternennacht"
+        entstand mitten in einer der schwersten Phasen seines Lebens. Der Fünferflügel schützte
+        jedoch nicht vor der Krise selbst, sondern gab ihr lediglich eine geordnete, kanalisierte
+        Form nach außen.</p>
         <p class="vb-intro"><strong>c) Die Farbe als einzige zugelassene Sprache des Leidens:</strong>
         Während Van Gogh seine innere Not im persönlichen Austausch fast vollständig
         verschwieg, lässt sie sich in der zunehmend aufgewühlten, wirbelnden Bildsprache seiner
@@ -6199,15 +6199,12 @@ function vincentVanGoghKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Nikola Tesla (SE4w5):</strong>
-        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-nikola-tesla">Nikola
-        Tesla</a>, ebenfalls SE4w5, zeigt sich bei Van Gogh das für diesen Subtyp typische
-        Zusammenspiel: eine fortschreitende psychische Belastung, die kaum je offen
-        angesprochen wird, während der Fünferflügel parallel dazu ein hochgradig systematisches,
-        analytisches Schaffen aufrechterhält. Bei Tesla war es eine fortschreitende
-        Zwangsstörung neben bahnbrechenden Erfindungen, bei Van Gogh psychotische Krisen neben
-        methodisch durchdachter Malerei – zwei Varianten derselben SE4w5-Grundbewegung: das
-        Leiden wird stumm ertragen, während die geistige Systemarbeit ungebrochen weiterläuft.</p>
+        <p class="vb-intro"><strong>a) Leiden im Verborgenen, Systemarbeit ungebrochen:</strong>
+        Für die selbsterhaltende Vier mit Fünferflügel typisch: eine fortschreitende psychische
+        Belastung, die kaum je offen angesprochen wird, während der Fünferflügel parallel dazu
+        ein hochgradig systematisches, analytisches Schaffen aufrechterhält. Bei Van Gogh zeigte
+        sich das in psychotischen Krisen neben methodisch durchdachter Malerei – das Leiden wird
+        stumm ertragen, während die geistige Systemarbeit ungebrochen weiterläuft.</p>
         <p class="vb-intro"><strong>b) Eine über Jahre gewachsene Krise, kein plötzlicher Einbruch:</strong>
         Von den ersten Anzeichen sozialer Isolation in den 1870er-Jahren bis zum Tod 1890 zieht
         sich eine durchgehende Linie zunehmender psychischer Instabilität – keine einzelne
@@ -6257,7 +6254,6 @@ function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Lebenswerk"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatik-Register: Epilepsie"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}

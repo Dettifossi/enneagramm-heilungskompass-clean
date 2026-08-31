@@ -702,7 +702,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Flügel-Nuance: SE4w3 und SE4w5",
       w1: { code: "SE4w3", route: "beruehmte-adele", name: "Adele", text: `die Melancholie bekommt eine ausdrucksstärkere, sichtbarere Note – Gefühl wird auch zu Leistung geformt, ohne dass die Tiefe verloren geht. Reagiert gut auf Anerkennung, die sowohl das Gefühl als auch das Können würdigt, weniger gut auf reine Sachlichkeit ohne emotionalen Bezug.` },
-      w2: { code: "SE4w5", route: "beruehmte-nikola-tesla", name: "Nikola Tesla", text: `die Melancholie wird introspektiver, mit einem Hang zu Rückzug und geistiger Vertiefung verbunden – Sehnsucht sucht Ausdruck eher im stillen Denken als im offenen Gefühl. Reagiert gut auf Raum und Zeit für sich, schlecht auf Drängen oder ungebetene Nähe.` },
+      w2: { code: "SE4w5", route: "beruehmte-charlotte-wells", name: "Charlotte Wells", text: `die Melancholie wird introspektiver, mit einem Hang zu Rückzug und geistiger Vertiefung verbunden – Sehnsucht sucht Ausdruck eher im stillen Denken als im offenen Gefühl. Reagiert gut auf Raum und Zeit für sich, schlecht auf Drängen oder ungebetene Nähe.` },
     },
     stressWachstum: {
       stress: `Unter Stress bewegt sich die SE4 Richtung <strong>Typ 2</strong>: Die sonst stille Zurückhaltung kippt in anhängliches, forderndes Klammern – die stille Sehnsucht wird plötzlich laut. Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment, um Distanz zu fordern, ein guter Moment für ruhige, verlässliche Nähe.`,

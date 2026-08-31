@@ -389,7 +389,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Self-Preservation Type 5", krankheit:"Early-Stage Prostate Cancer, Diagnosed 2012", teaser:"SE5w6 – investor and businessman, b. 1930. Diagnosed with Stage I prostate cancer in 2012 at age 81, disclosed in an open shareholder letter. Two-month course of radiation therapy, successfully completed in September 2012, with no interruption to his leadership role at Berkshire Hathaway." , land:"USA", gender:"m", jahre:"b. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
-  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Self-Preservation Type 4", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SP4w5 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
+  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", heading:"Nikola Tesla – Social Type 7", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SO7w6 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Self-Preservation Type 4", krankheit:"Recurring psychotic and suspected epileptic crises, 1888 ear incident, death by likely self-inflicted gunshot wound", teaser:"SP4w5 – Dutch painter, 1853–1890. Repeated severe psychological crises from 1888, voluntary admission to Saint-Rémy asylum, ear incident after the rupture with Gauguin, \"The Starry Night\" painted mid-crisis, died two days after a gunshot wound on July 29, 1890." , land:"Netherlands", gender:"m", jahre:"1853–1890"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Social Type 5", krankheit:"Nervous breakdown, likely from mercury poisoning", teaser:"SO5w6 – physicist and mathematician, 1642/43–1727. Severe nervous breakdown in 1693 with paranoid accusations against close friends, likely caused by decades of unprotected alchemical experiments with mercury. Recovered within a year, died in 1727 at age 84." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
@@ -1184,9 +1184,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leo Tolstoy – Self-Preservation Type 4",
     teaser:"SE4w5 · 1828–1910. Russian writer. War and Peace, Anna Karenina. The dove that spent its life swinging between wealth and asceticism, turning its own inner conflict into timeless literature.",
     land:"Russia", tags:["Literatur"], gender:"m"},
-{ route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SE4w5",
-    heading:"Nikola Tesla – Self-Preservation Type 4",
-    teaser:"SE4w5 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The dove that invented for all humanity and, in the end, loved only a single white dove. Animal correspondence: Dove.",
+{ route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SO7w6",
+    heading:"Nikola Tesla – Social Type 7",
+    teaser:"SO7w6 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The beaver that wanted to give free energy to all humanity and, in the end, loved only a single white dove. Animal correspondence: Beaver.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
 { route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Charlotte Wells – Self-Preservation Type 4",
@@ -5594,7 +5594,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Chimpanzee"},
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Chimpanzee"},
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
-  {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Dove"},
+  {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", tier:"Beaver"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Lion"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elephant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Buffalo"},
@@ -24035,7 +24035,7 @@ function virginiaWoolfPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
       ])}
     </div>
   `);
@@ -24101,7 +24101,7 @@ function miguelDeUnamunoPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
       ])}
     </div>
   `);
@@ -24166,7 +24166,7 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
       ])}
@@ -26790,11 +26790,10 @@ function vincentVanGoghKrankheitsportraetPage() {
         disregard unwaveringly turned, in his crisis years, increasingly against himself –
         from the ear incident to the likely self-inflicted gunshot wound.</p>
         <p class="vb-intro"><strong>b) The Five-wing as counterforce, not protection:</strong>
-        As with Nikola Tesla (also SP4w5), the analytical Five-wing kept Van Gogh working in a
-        systematic, almost scientific way even in his deepest crisis – a work like "The Starry
-        Night" was created in the middle of one of the hardest periods of his life. The
-        Five-wing did not, however, protect against the crisis itself, but merely gave it an
-        ordered, channeled form outwardly.</p>
+        The analytical Five-wing kept Van Gogh working in a systematic, almost scientific way
+        even in his deepest crisis – a work like "The Starry Night" was created in the middle
+        of one of the hardest periods of his life. The Five-wing did not, however, protect
+        against the crisis itself, but merely gave it an ordered, channeled form outwardly.</p>
         <p class="vb-intro"><strong>c) Color as the only permitted language of suffering:</strong>
         While Van Gogh almost entirely concealed his inner distress in personal exchange, it
         can be read clearly in the increasingly turbulent, swirling visual language of his
@@ -26804,15 +26803,12 @@ function vincentVanGoghKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
-        <p class="vb-intro"><strong>a) Parallel within the same subtype – Nikola Tesla (SE4w5):</strong>
-        As with <a href="javascript:void(0)" data-route="krankheitsportraets-nikola-tesla">Nikola
-        Tesla</a>, also SE4w5, Van Gogh shows the interplay typical of this subtype: a
-        progressive psychological burden that is almost never openly addressed, while the
-        Five-wing simultaneously maintains a highly systematic, analytical body of work. For
-        Tesla it was a progressive obsessive-compulsive disorder alongside groundbreaking
-        inventions; for Van Gogh, psychotic crises alongside methodically considered painting –
-        two variants of the same SE4w5 core movement: suffering is endured in silence while the
-        intellectual system-work continues unbroken.</p>
+        <p class="vb-intro"><strong>a) Suffering hidden, system-work unbroken:</strong>
+        Typical for the Self-Preservation Four with a Five-wing: a progressive psychological
+        burden that is almost never openly addressed, while the Five-wing simultaneously
+        maintains a highly systematic, analytical body of work. For Van Gogh this showed as
+        psychotic crises alongside methodically considered painting – suffering is endured in
+        silence while the intellectual system-work continues unbroken.</p>
         <p class="vb-intro"><strong>b) A crisis that grew over years, not a sudden collapse:</strong>
         From the first signs of social isolation in the 1870s to his death in 1890 runs a
         continuous line of growing psychological instability – not a single catastrophe, but a
@@ -26860,7 +26856,6 @@ function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – life's work"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SP4w5) – same subtype"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatics Register: Epilepsy"},
         {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
@@ -35474,7 +35469,7 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5) – namesake of his company Tesla"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – namesake of his company Tesla"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"krankheitsportraets-elon-musk", label:"Illness Portrait: Elon Musk (SO7w6) – Asperger's syndrome"},
       ])}
@@ -35492,45 +35487,45 @@ function nikolaTeslaPortraitPage() {
           <img src="../assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
-        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Dove</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Inventor, engineer, 1856&ndash;1943 &ndash; Animal correspondence: Beaver</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The dove that invented for all humanity</h2>
+        <h2 class="vb-section">1. The beaver that wanted to give the whole of humanity energy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four &ndash; it does not put its deep emotional life on display, but processes it in quiet, often decades-long persistence, seeking its uniqueness not in applause but in an entirely own, unmistakable path. Nikola Tesla embodied this principle in an almost literal way: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents and reshaped the technical infrastructure of all humanity. And yet he was, throughout his life, no man of the spotlight, but a deeply lonely, introverted outsider who, in the end, found his most intense and lasting emotional bond not with a human being, but with a single white dove.</p>
-          <p class="vb-intro">The Serbian-American inventor Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an inner world of images so intense that, at times, it became almost indistinguishable from outer reality.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for itself, but for a system larger than itself, and it is never truly finished: no sooner does one dam stand than the next project begins. Nikola Tesla embodied this principle to an almost alarming degree: the AC induction motor, the transformer, radio technology, the foundations of radar, remote control &ndash; he left behind more than 300 patents, plus dozens of parallel large-scale projects that were never fully completed. Every invention was at the same time the prelude to the next.</p>
+          <p class="vb-intro">The Serbian-American inventor Nikola Tesla was born in 1856 in Smiljan, in present-day Croatia, the son of a Serbian Orthodox priest. Even as a child, he later reported, he had spontaneous, flash-like inner images of machines that he could construct in complete detail in his mind's eye before ever picking up a tool &ndash; an abundance of ideas that, from early on, went far beyond what a single life could ever realize.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Preservation Four: uniqueness over conformity</h2>
+        <h2 class="vb-section">2. The Social Seven: invention in service of humanity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> does not carry its otherness out into the open, but lives it out in quiet, often painful consistency &ndash; telling itself: I am different from everyone else, and precisely in that lies my dignity, even if it costs me my connection to other people. Tesla lived ascetically throughout his life, remained unmarried, and explicitly described intimate closeness as a disruption to his concentration and his inventive power &ndash; a radical, self-chosen uniqueness that kept him apart from any ordinary bourgeois existence.</p>
-          <p class="vb-intro">His relationship to recognition and money was shaped by this same inner unconditionality: when J.P. Morgan, the main financier of his greatest project, the Wardenclyffe Tower on Long Island, learned that Tesla planned to distribute wireless energy to all of humanity for free rather than bill for it, he withdrew his support &ndash; the tower was never completed, and Tesla lost his life's work as a result. He nonetheless remained convinced to the end that his idea had been right. This shows the Self-Preservation Four at its most uncompromising: sooner lose one's own, unmistakable ideal than adapt it to the ordinary standard of others.</p>
+          <p class="vb-intro">Claudio Naranjo called the Social Type Seven the <strong>Sacrifice</strong> or <strong>Martyr</strong> &ndash; this subtype sets aside its own pleasure-seeking to devote itself to a larger idea, group, or mission. Tesla explicitly framed his entire life's work as service to humanity, not to himself: his greatest goal was a worldwide system for the wireless transmission of energy and information &ndash; free, accessible to all people, not just those who could pay for it.</p>
+          <p class="vb-intro">How seriously he meant this is shown by one of the most consequential decisions of his life: George Westinghouse, who had bought the AC patent rights from Tesla, ran into financial trouble in the early 1890s because of the royalty payments owed to Tesla under their agreement. Tesla voluntarily tore up the contract that could have made him the richest man in the world, in order to save Westinghouse and, with it, the spread of the AC system itself &ndash; a sacrifice of his own material advantage for the larger cause, exactly as the SO7 pattern predicts.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Five-wing: genius as a refuge</h2>
+        <h2 class="vb-section">3. The Six-Wing: vigilance, turned into order</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four an analytical distance and an enormous thirst for knowledge &ndash; one's own feeling is not merely lived through, but translated into a carefully constructed, almost encyclopedic system of thought, which at the same time serves as a shield against an overwhelming outer world. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes and wash his hands for hours at a time.</p>
-          <p class="vb-intro">This same love of systems and this same retreat into his own, controlled thinking also showed in his working style: Tesla was notoriously suspicious of investors and competitors &ndash; above all Thomas Edison, with whom he fought a bitter public battle in the "War of the Currents" over direct versus alternating current &ndash; and kept many of his designs secret, fearing they would be stolen. By his own account he slept only a few hours a night, working simultaneously on wireless energy transmission, radar technology, X-rays, remote-controlled boats, and ideas for artificial rain &ndash; a Five-wing that did not merely gather knowledge, but lived inside it, because it was the one space in which Tesla truly felt safe.</p>
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven an inner vigilance and a need for control that does not show itself as open fear, but is channeled into systems, rituals, and loyalty to one's own mission. In Tesla this showed in pronounced compulsive behaviors: he counted his steps while walking, calculated the volume of his soup before eating it, and worked almost exclusively with numbers divisible by three &ndash; deviations from this caused him massive discomfort. An extreme fear of germs made him avoid doorknobs and handshakes.</p>
+          <p class="vb-intro">His relationship to competitors carried the same watchful, mistrustful note: in the "War of the Currents" with Thomas Edison over direct versus alternating current, he kept many of his designs secret, fearing they would be stolen &ndash; yet unlike an Eight-wing, he never sought open confrontation or personal victory over Edison, but withdrew instead into his own, controlled work. The Six-wing does not turn the Seven into a fighter, but into a loyal, cautious servant of its own mission.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The retreat and the white dove</h2>
+        <h2 class="vb-section">4. The Wardenclyffe Tower</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In his later years, Tesla withdrew completely from society and lived isolated in New York hotel rooms. His only remaining emotional bonds were to pigeons: he fed them daily in the park, caught injured or sick birds to nurse them back to health in his room, and spent astronomical sums on their care. Among all these pigeons there was one especially dear to him, a white one &ndash; the love of his life, as he himself called her. He claimed for the rest of his life to have loved this one dove as one loves a human being, and that when she died, "a light went out of his eyes."</p>
-          <p class="vb-intro">In Enneagram research, Tesla is almost unanimously regarded as a textbook example of a Self-Preservation Four with a strong Five-wing: his radical asceticism, his deep, quiet suffering, his longing for absolute uniqueness, and his melancholic isolation mirror this pattern precisely &ndash; crowned by an almost painfully exclusive devotion to a single beloved creature that came to replace human closeness for him. The animal correspondence fits here almost literally: of all people, the man whose archetypal animal is the dove found, at the end of his life, his deepest and only emotional bond with an actual dove.</p>
+          <p class="vb-intro">When J.P. Morgan, the main financier of Tesla's greatest project, the Wardenclyffe Tower on Long Island, learned that Tesla planned to distribute wireless energy to all of humanity for free rather than bill for it, he withdrew his support &ndash; the tower was never completed, and Tesla lost his life's work as a result. He nonetheless remained convinced to the end that his idea had been right.</p>
+          <p class="vb-intro">This shows the Social Seven at its most uncompromising: sooner lose one's own fortune and reputation for a utopian communal project than abandon an idea meant to serve the whole of humanity. Not a retreat into pure privacy, but a failure in the name of a vision larger than one's own success.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE4w5 is its ability to turn <strong>radical inner uniqueness into groundbreaking, universal knowledge</strong> &ndash; Tesla's AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. His deep need to be different and unique was the engine behind one of the most consequential inventive lives in history.</p>
-          <p class="vb-intro">The shadow showed in his complete isolation: he died in 1943, impoverished and largely forgotten, in a New York hotel room, his only company the injured pigeons he had fed and nursed for years. The reverse side of the Self-Preservation Four with a Five-wing: holding on to one's own, unmistakable truth can become so complete that, in the end, no human being can get close enough anymore &ndash; and a single bird becomes the last remaining love.</p>
+          <p class="vb-intro">The light of the SO7w6 is its ability to <strong>put a nearly boundless abundance of ideas in service of a utopian communal goal</strong> &ndash; Tesla's AC system still powers billions of households worldwide today, and his work laid the foundation for radio, radar, and wireless communication. His drive was never primarily his own fame, but a vision he wanted to realize for the whole of humanity.</p>
+          <p class="vb-intro">The shadow showed in growing isolation: in his final decades, Tesla withdrew completely from society, lived alone in New York hotel rooms, and found his most intense and lasting emotional bond no longer with a human being, but with a single white dove, which he treated as one would treat a beloved person. Under chronic stress the Social Seven moves toward One &ndash; and that is exactly the arc traceable in Tesla: restless, world-facing inventive drive turned, over time, into rigid, isolated inflexibility; vigilance turned into compulsion.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The dove that, in the end, loved only a dove</h2>
+        <h2 class="vb-section">6. The beaver whose last construction was a single dove</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization. Whether he received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
-          <p class="vb-intro">And yet, at the end of this life, one image remains that could hardly stand more vividly for the Self-Preservation Four with a Five-wing: a genius who wanted to give all of humanity unlimited energy &ndash; and whose own heart, in the end, belonged only to a single white dove.</p>
+          <p class="vb-intro">And yet, at the end of this life, one image remains that could hardly stand more vividly for the Social Seven with a Six-wing: a man who wanted to give all of humanity unlimited energy &ndash; and whose own heart, in the end, belonged only to a single white dove, the last and smallest of all his unfinished constructions.</p>
         </blockquote>
 
       </div>
@@ -35541,12 +35536,12 @@ function nikolaTeslaPortraitPage() {
       ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
-        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
-        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SE4w5)"},
-        {route:"beruehmte-derek-goodwin", label:"Portrait: Derek Goodwin (SE4w5)"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SP4w5) – obsessive-compulsive disorder and isolation"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – named his company after Tesla"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – obsessive-compulsive disorder and isolation"},
       ])}
     </div>
   `);
@@ -35607,7 +35602,7 @@ function derekGoodwinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
@@ -36851,7 +36846,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Illness Portrait: Jules Verne (SO7w6) – gunshot wound and lifelong lameness"},
         {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bible Portrait: The Samaritan Woman at Jacob's Well (SO7w6)"},
@@ -47824,12 +47819,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "The Samaritan Woman at Jacob's Well"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Nikola Tesla", "The Samaritan Woman at Jacob's Well"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
         beschreibung: "Instead of enjoying things for oneself, something is continuously built that has an effect beyond one's own person – as soon as one project is finished, the next already begins, with no real pause.",
-        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it'; Prof. Dr. Frank Rosell, who authored over 130 scientific publications and extended his expertise even beyond beavers into dogs' sense of smell – the beaver doesn't build just one dam."
+        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it'; Prof. Dr. Frank Rosell, who authored over 130 scientific publications and extended his expertise even beyond beavers into dogs' sense of smell – the beaver doesn't build just one dam; Nikola Tesla, who pursued dozens of parallel grand projects throughout his life – the AC system, wireless energy transmission, radar technology, remote-controlled boats – barely had one been sketched before the next began, never in the name of his own fame, but always in the name of free energy for all humanity."
       },
       {
         titel: "Complete inner planning before the first move is even made",
@@ -48067,7 +48062,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -48077,7 +48072,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
         beschreibung: "The delicate, sensitive appearance is deceptive about considerable inner endurance: the path continues even through storms and setbacks, not because fear is absent, but because a deep knowledge of one's own direction carries it.",
-        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Nikola Tesla, who lost his life's work at the Wardenclyffe Tower and nonetheless held to its rightness to the end – and who, far from any human closeness, found his deepest bond in a single white dove; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years; T. E. Lawrence, who as a British liaison officer rode through the desert for weeks, sharing hunger and exhaustion with the Arab fighters instead of commanding from a distance – and who, after the war, turned that same quiet tenacity inward, in a years-long, self-arranged punishment ritual, rather than speaking of the humiliation he suffered at Deraa; June Carter Cash, who in 1967/68, together with family and friends, confronted Johnny Cash's addiction to pills and alcohol and accompanied him through years of recovery afterward – a quiet, tenacious burden she never made the center of her own story."
+        beleg: "Lady Diana: 'The dove is tough: it finds its way even over great distances, even through storms'; Tim Bendzko: 'It returns. Not because it knows no fear, but because it knows where it belongs ... That's the dove: it carries the weight – and sings anyway'; Nicolas Cage: 'Tougher than it looks, its greatest strength lies in righting itself again and again despite inner vulnerability'; Honoré de Balzac, who for decades wrote through the night against crushing debt, often fifteen to eighteen hours at a stretch – no giving up despite constant financial hardship, but a tenacious persistence that ended only with his death, five months after the marriage to Ewelina Hańska he had hoped for over seventeen years; T. E. Lawrence, who as a British liaison officer rode through the desert for weeks, sharing hunger and exhaustion with the Arab fighters instead of commanding from a distance – and who, after the war, turned that same quiet tenacity inward, in a years-long, self-arranged punishment ritual, rather than speaking of the humiliation he suffered at Deraa; June Carter Cash, who in 1967/68, together with family and friends, confronted Johnny Cash's addiction to pills and alcohol and accompanied him through years of recovery afterward – a quiet, tenacious burden she never made the center of her own story."
       },
       {
         titel: "Complete inner processing before stepping outward",
@@ -49961,6 +49956,7 @@ function molierePortraitPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Illness Portrait: Jules Verne (SO7w6) – the beaver's concealed caution"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
@@ -62258,32 +62254,34 @@ function nikolaTeslaKrankheitsportraetPage() {
           <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with Five-wing · 1856–1943</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing · 1856–1943</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Animal correspondence: Dove</span>
+          <span>Animal correspondence: Beaver</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
       <p class="psycho-intro">
         <strong>Nikola Tesla</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">famous-personality portrait</a>
-        – that page covers his groundbreaking technical life's work and his radical
-        uniqueness. This page goes deeper into a chapter mentioned there only in passing: a
-        progressive obsessive-compulsive disorder with pronounced germophobia that drove him
-        into increasing isolation over decades, until he died impoverished and nearly
-        forgotten, alone in a New York hotel room.
+        – that page covers his groundbreaking technical life's work and his vision of free
+        energy for all humanity. This page goes deeper into a chapter mentioned there only in
+        passing: a progressive obsessive-compulsive disorder with pronounced germophobia that
+        drove him into increasing isolation over decades, until he died impoverished and
+        nearly forgotten, alone in a New York hotel room.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Tesla</strong> is assigned to the <strong>Self-Preservation Type 4 with
-        Five-wing</strong>. SP4 lives its otherness quietly and consistently, without a
-        public stage; the Five-wing translates feeling into analytical systematic thinking
-        that also serves as a bulwark. This same combination also determined how his
-        progressive obsessive-compulsive disorder developed: not as a sudden collapse, but
-        as an ever more tightly meshed, self-imposed system for controlling a world that felt
-        increasingly overwhelming.</p>
+        <strong>Tesla</strong> is assigned to the <strong>Social Type 7 with
+        Six-wing</strong>. SO7 sets aside its own pleasure-seeking to serve a larger mission –
+        for Tesla that was free energy for the whole of humanity; the Six-wing translates
+        vigilance and worry into control, order, and ritual. This same combination also
+        determined how his progressive obsessive-compulsive disorder developed: not as a
+        sudden collapse, but as an ever more tightly meshed, self-imposed system for
+        controlling a world that felt increasingly overwhelming – and as a shift toward the
+        Seven's stress point, One: restless inventive drive turned, over time, into rigid
+        inflexibility.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -62348,76 +62346,78 @@ function nikolaTeslaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
-        <p class="vb-intro"><strong>a) His own uniqueness carried into complete isolation:</strong>
-        The same radical consistency with which Tesla defended his own, unmistakable
-        thinking against any adaptation also determined how completely he cut himself off
-        from human closeness in the end – SP4 clings to its own truth, even when the price is
-        its own connection to the world.</p>
-        <p class="vb-intro"><strong>b) The Five-wing and the system as a final refuge:</strong>
+        <p class="vb-intro"><strong>a) The mission defended into complete isolation:</strong>
+        The same radical consistency with which Tesla held to his vision of free energy for
+        the whole of humanity also determined how completely he cut himself off from human
+        closeness in the end – SO7 clings to its own mission, even when the price is its own
+        connection to the world.</p>
+        <p class="vb-intro"><strong>b) The Six-wing and the system as a final refuge:</strong>
         His compulsive behaviors – counting, divisibility by three, avoiding germs – were not
         random quirks, but an increasingly tightly meshed system for controlling a world that
-        felt ever more threatening to him. Where a healthy Five-wing uses knowledge as a
-        tool, in Tesla the system itself became the only reliable anchor.</p>
-        <p class="vb-intro"><strong>c) One single bond instead of many loose ones:</strong>
-        Unlike a Social Four subtype (SO4) might have reacted, Tesla did not replace his
-        entire human relationship network with several loose contacts, but with a single,
-        extraordinarily intense bond – the white dove carried the entire weight of what
-        constitutes an entire social life for other people.</p>
+        felt ever more threatening to him. Where a healthy Six-wing translates vigilance into
+        reliable loyalty to one's own cause, in Tesla the control system itself became the
+        only reliable anchor.</p>
+        <p class="vb-intro"><strong>c) A single bond instead of a shared project:</strong>
+        Unlike what would be typical for the Social Seven – finding meaning and belonging
+        through a shared project or a group – Tesla did not replace his entire human
+        relationship network with a new community, but with a single, extraordinarily intense
+        bond – the white dove carried the entire weight of what constitutes an entire social
+        life for other people.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
-        <p class="vb-intro"><strong>a) A mind that protected itself from its own openness:</strong>
-        Tesla's entire life was shaped by the conviction that his inner world of images and
-        his unique thinking needed protection – his obsessive-compulsive disorder can be read
-        as the ever-stricter system with which he tried to maintain this protection, until
-        the system itself became isolation.</p>
+        <p class="vb-intro"><strong>a) A mind that protected itself from losing its mission:</strong>
+        Tesla's entire life was shaped by the conviction that his vision of an energy supply
+        for the whole of humanity needed protection – his obsessive-compulsive disorder can
+        be read as the ever-stricter system with which he tried to maintain this protection,
+        until the system itself became isolation.</p>
         <p class="vb-intro"><strong>b) Control over his environment as a substitute for control over closeness:</strong>
         A man who explicitly described intimate human closeness as a threat to his
         concentration instead developed an ever more detailed control over his physical
         environment – numbers, germs, rituals – that promised exactly the security human
         relationships could not offer him.</p>
         <p class="vb-intro"><strong>c) Why contact with the outside world, of all things?</strong>
-        For a Self-Preservation Four with Five-wing whose entire strength rested on radical,
-        self-chosen uniqueness, one interpretation suggests itself: precisely direct physical
+        For a Social Seven with Six-wing whose entire strength rested on a mission for
+        humanity as a whole, one interpretation suggests itself: precisely direct physical
         contact with the outside world – doorknobs, handshakes, other people – became the
         site of fear, while his inner, self-constructed world of thought remained the only
         place he felt completely safe. This interpretation is a plausible reading, not a
         documented historical causal link, and is developed further in this Compass's
         psychosomatics register.</p>
         <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
-        This does not mean the pattern of Self-Preservation Four inevitably leads to
+        This does not mean the pattern of the Social Seven inevitably leads to
         obsessive-compulsive disorder – <strong>anyone can develop any illness, regardless of
-        subtype.</strong> What Tesla's case shows is a pattern in how a pronounced
-        Self-Preservation Four with Five-wing repeatedly deals with progressive psychological
-        isolation – one possible reading among many, not a verdict. The corresponding illness
-        profile is gradually being developed in this Compass's
+        subtype.</strong> What Tesla's case shows is a pattern in how a pronounced Social
+        Seven with Six-wing, under chronic stress, repeatedly deals with progressive
+        psychological isolation – one possible reading among many, not a verdict. The
+        corresponding illness profile is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Tesla did not know his own pattern – Self-Preservation Four with Five-wing
-        reflexively defends its own unmistakable inner world against any closeness
-        experienced as threatening, rather than ever recognizing its own isolation as a
-        pattern, and he lived out exactly this pattern unchanged until his lonely death.
-        Whoever does not recognize their own need to protect their uniqueness at any cost as
-        a pattern cannot set it aside even in the face of their own loneliness.</p>
+        Tesla did not know his own pattern – Social Seven with Six-wing reflexively defends
+        its own mission against any disruption experienced as threatening, rather than ever
+        recognizing its own isolation as a pattern, and he lived out exactly this pattern
+        unchanged until his lonely death. Whoever does not recognize their own need to
+        protect their mission at any cost as a pattern cannot set it aside even in the face
+        of their own loneliness.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Self-Preservation Four with Five-wing explains much about the course of
-        <strong>Tesla's</strong> own illness: a man whose entire strength rested on radical
-        uniqueness defended that uniqueness so consistently that in the end no one could get
-        close enough – the dove that wanted to give unlimited energy to all of humanity, and
-        whose own heart in the end depended on a single bird.</p>
+        Social Seven with Six-wing explains much about the course of
+        <strong>Tesla's</strong> own illness: a man whose entire strength rested on a mission
+        for the whole of humanity defended that mission so consistently that in the end no
+        one could get close enough – the beaver that wanted to give unlimited energy to all
+        of humanity, and whose own heart in the end depended on a single bird.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SP4w5) – inventor"},
-        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SP4w5) – same subtype"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – inventor"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/se4", label:"Subtype Profile SP4"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
       ])}
     </div>
   `);
@@ -87508,7 +87508,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Wing nuance: SE4w3 and SE4w5",
       w1: { code: "SE4w3", route: "beruehmte-adele", name: "Adele", text: `melancholy takes on a more expressive, more visible note – feeling is also shaped into achievement, without losing its depth. Responds well to recognition that honors both the feeling and the skill, less well to pure factuality without emotional connection.` },
-      w2: { code: "SE4w5", route: "beruehmte-nikola-tesla", name: "Nikola Tesla", text: `melancholy becomes more introspective, tied to a leaning toward withdrawal and mental depth – longing seeks expression more in quiet thought than in open feeling. Responds well to room and time for herself, poorly to pressure or uninvited closeness.` },
+      w2: { code: "SE4w5", route: "beruehmte-charlotte-wells", name: "Charlotte Wells", text: `melancholy becomes more introspective, tied to a leaning toward withdrawal and mental depth – longing seeks expression more in quiet thought than in open feeling. Responds well to room and time for herself, poorly to pressure or uninvited closeness.` },
     },
     stressWachstum: {
       stress: `Under stress the SE4 moves toward <strong>Type 2</strong>: her otherwise quiet reticence tips into clingy, demanding attachment – the quiet longing suddenly becomes loud. If you recognize this pattern, it's a signal of rising inner pressure – not a good moment to demand distance, a good moment for calm, reliable closeness.`,

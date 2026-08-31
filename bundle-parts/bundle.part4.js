@@ -157,7 +157,7 @@ const registerEntriesEN = [
   { term: "Dieter Nuhr", route: "beruehmte-dieter-nuhr", description: "Portrait: SO7w8 · Social Type 7 · Comedian, Nuhr im Ersten, Comedian, painter, Beaver" },
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 · Social Type 7 · Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SO7w6 · Social Type 7 · Tesla, SpaceX, Visionary" },
-  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Inventor, engineer, AC power pioneer" },
+  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SO7w6 · Social Type 7 · Inventor, engineer, AC power pioneer" },
   { term: "Derek Goodwin", route: "beruehmte-derek-goodwin", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Ornithologist, definitive works on doves" },
   { term: "Mariella Superina", route: "beruehmte-mariella-superina", description: "Portrait: SO4w5 · Social Type 4 · Veterinarian, world's leading armadillo researcher" },
   { term: "Lauren Gardner", route: "beruehmte-lauren-gardner", description: "Portrait: SO4w5 · Social Type 4 · Engineer, creator of the COVID-19 dashboard" },

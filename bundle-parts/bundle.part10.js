@@ -4416,6 +4416,7 @@ function molierePortraitPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – die verschwiegene Vorsicht des Bibers"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}

@@ -24044,7 +24044,7 @@ const registerEntries = [
   { term: "Baruch de Spinoza Krankheitsporträt", route: "krankheitsportraets-spinoza", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Chronische Lungenerkrankung durch Glasstaub" },
   { term: "Hermann Hesse Krankheitsporträt", route: "krankheitsportraets-hermann-hesse", description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Migräne, Augenleiden, depressive Krisen" },
   { term: "Voltaire Krankheitsporträt", route: "krankheitsportraets-voltaire", description: "Portrait: SX4w3 · Sexueller Typ 4 · Chronische Verdauungs- und Blasenleiden" },
-  { term: "Nikola Tesla Krankheitsporträt", route: "krankheitsportraets-nikola-tesla", description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Zwangsstörung, Keimphobie, Isolation" },
+  { term: "Nikola Tesla Krankheitsporträt", route: "krankheitsportraets-nikola-tesla", description: "Portrait: SO7w6 · Sozialer Typ 7 · Zwangsstörung, Keimphobie, Isolation" },
   { term: "Isaac Newton Krankheitsporträt", route: "krankheitsportraets-isaac-newton", description: "Portrait: SO5w6 · Sozialer Typ 5 · Nervenzusammenbruch durch Quecksilbervergiftung" },
   { term: "Immanuel Kant Krankheitsporträt", route: "krankheitsportraets-immanuel-kant", description: "Portrait: SO6w5 · Sozialer Typ 6 · Hypochondrie, Atembeklemmung, geistiger Verfall" },
   { term: "Leonardo da Vinci Krankheitsporträt", route: "krankheitsportraets-leonardo-da-vinci", description: "Portrait: SO5w4 · Sozialer Typ 5 · Schlaganfall mit Lähmung der rechten Hand" },
@@ -24451,7 +24451,7 @@ const registerEntries = [
   { term: "Dieter Nuhr",                    route: "beruehmte-dieter-nuhr",                 description: "Portrait: SO7w8 · Sozialer Typ 7 · Kabarettist, Nuhr im Ersten, Comedian, Maler, Biber" },
   { term: "Rowan Atkinson",                 route: "beruehmte-rowan-atkinson",              description: "Portrait: SO7w6 · Sozialer Typ 7 · Mr. Bean, Blackadder, Johnny English, Biber" },
   { term: "Elon Musk",                     route: "beruehmte-elon-musk",                   description: "Portrait: SO7w6 · Sozialer Typ 7 · Tesla, SpaceX, Visionär" },
-  { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Erfinder, Ingenieur, Wechselstrompionier" },
+  { term: "Nikola Tesla",                  route: "beruehmte-nikola-tesla",                description: "Portrait: SO7w6 · Sozialer Typ 7 · Erfinder, Ingenieur, Wechselstrompionier" },
   { term: "Derek Goodwin",                 route: "beruehmte-derek-goodwin",               description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Ornithologe, Standardwerke über Tauben" },
   { term: "Mariella Superina",              route: "beruehmte-mariella-superina",           description: "Portrait: SO4w5 · Sozialer Typ 4 · Tierärztin, weltweit führende Gürteltierforscherin" },
   { term: "Lauren Gardner",                 route: "beruehmte-lauren-gardner",              description: "Portrait: SO4w5 · Sozialer Typ 4 · Ingenieurin, Schöpferin des COVID-19-Dashboards" },
@@ -24948,7 +24948,7 @@ const registerEntriesEN = [
   { term: "Dieter Nuhr", route: "beruehmte-dieter-nuhr", description: "Portrait: SO7w8 · Social Type 7 · Comedian, Nuhr im Ersten, Comedian, painter, Beaver" },
   { term: "Rowan Atkinson", route: "beruehmte-rowan-atkinson", description: "Portrait: SO7w6 · Social Type 7 · Mr. Bean, Blackadder, Johnny English, Beaver" },
   { term: "Elon Musk", route: "beruehmte-elon-musk", description: "Portrait: SO7w6 · Social Type 7 · Tesla, SpaceX, Visionary" },
-  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Inventor, engineer, AC power pioneer" },
+  { term: "Nikola Tesla", route: "beruehmte-nikola-tesla", description: "Portrait: SO7w6 · Social Type 7 · Inventor, engineer, AC power pioneer" },
   { term: "Derek Goodwin", route: "beruehmte-derek-goodwin", description: "Portrait: SE4w5 · Self-Preservation Type 4 · Ornithologist, definitive works on doves" },
   { term: "Mariella Superina", route: "beruehmte-mariella-superina", description: "Portrait: SO4w5 · Social Type 4 · Veterinarian, world's leading armadillo researcher" },
   { term: "Lauren Gardner", route: "beruehmte-lauren-gardner", description: "Portrait: SO4w5 · Social Type 4 · Engineer, creator of the COVID-19 dashboard" },
@@ -32355,7 +32355,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Selbsterhaltender Typ 5", krankheit:"Migräne, Augenleiden, wiederkehrende depressive Krisen", teaser:"SE5w6 – Schriftsteller, Nobelpreisträger, 1877–1962. Lebenslange schwere Migräne, chronische Augenleiden, Nervenzusammenbruch 1916, Psychoanalyse bei einem Schüler C. G. Jungs. Starb 1962 im Schlaf in Montagnola im Alter von 85 Jahren." , land:"Deutschland/Schweiz", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Selbsterhaltender Typ 5", krankheit:"Prostatakrebs im Frühstadium, 2012 diagnostiziert", teaser:"SE5w6 – Investor und Unternehmer, geb. 1930. 2012 im Alter von 81 Jahren mit Prostatakrebs im Stadium I diagnostiziert, per offenem Aktionärsbrief bekanntgegeben. Zweimonatige Strahlentherapie, im September 2012 erfolgreich abgeschlossen, ohne Unterbrechung seiner Führungsrolle bei Berkshire Hathaway." , land:"USA", gender:"m", jahre:"geb. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
-  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", heading:"Nikola Tesla – Selbsterhaltender Typ 4", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SE4w5 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
+  { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", heading:"Nikola Tesla – Sozialer Typ 7", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SO7w6 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Selbsterhaltender Typ 4", krankheit:"Wiederkehrende psychotische und mutmaßlich epileptische Krisen, Ohrschnitt 1888, Tod durch vermutlich selbst beigebrachte Schussverletzung", teaser:"SE4w5 – niederländischer Maler, 1853–1890. Wiederholte schwere psychische Krisen ab 1888, freiwillige Einweisung nach Saint-Rémy, Ohrschnitt nach dem Bruch mit Gauguin, ›Sternennacht‹ mitten in der Krise gemalt, Tod zwei Tage nach einer Schussverletzung am 29. Juli 1890." , land:"Niederlande", gender:"m", jahre:"1853–1890"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
@@ -33193,9 +33193,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leo Tolstoi \u2013 Selbsterhaltender Typ 4",
     teaser:"SE4w5 \u00b7 1828\u20131910. Russischer Schriftsteller. Krieg und Frieden, Anna Karenina. Die Taube, die zeitlebens zwischen Reichtum und Askese schwankte und ihre eigene Zerrissenheit in zeitlose Literatur verwandelte.",
     land:"Russland", tags:["Literatur"], gender:"m"},
-  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SE4w5",
-    heading:"Nikola Tesla \u2013 Selbsterhaltender Typ 4",
-    teaser:"SE4w5 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Die Taube, die f\u00fcr die ganze Menschheit erfand und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Taube.",
+  { route:"beruehmte-nikola-tesla", name:"Nikola Tesla", added:"2026-08-18", subtyp:"SO7w6",
+    heading:"Nikola Tesla \u2013 Sozialer Typ 7",
+    teaser:"SO7w6 \u00b7 1856\u20131943. Erfinder, Ingenieur. Wechselstrom, Wardenclyffe Tower, Stromkrieg mit Edison. Der Biber, der der ganzen Menschheit kostenlose Energie schenken wollte und am Ende nur noch eine einzelne wei\u00dfe Taube liebte. Tierentsprechung: Biber.",
     land:"Serbien/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
   { route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Charlotte Wells – Selbsterhaltender Typ 4",
@@ -36915,7 +36915,7 @@ const ANIMAL_RESEARCHER_MATCHES = [
   {route:"beruehmte-christophe-boesch", name:"Prof. Dr. Christophe Boesch", subtyp:"SX7w8", tier:"Schimpanse"},
   {route:"beruehmte-jill-pruetz", name:"Dr. Jill Pruetz", subtyp:"SX7w6", tier:"Schimpanse"},
   {route:"beruehmte-paris-hilton", name:"Paris Hilton", subtyp:"SX4w3", tier:"Chihuahua"},
-  {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SE4w5", tier:"Taube"},
+  {route:"beruehmte-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", tier:"Biber"},
   {route:"beruehmte-laurence-frank", name:"Dr. Laurence Frank", subtyp:"SO8w7", tier:"Löwe"},
   {route:"beruehmte-cynthia-moss", name:"Dr. Cynthia Moss", subtyp:"SE9w1", tier:"Elefant"},
   {route:"beruehmte-alan-mcelligott", name:"Dr. Alan McElligott", subtyp:"SO9w1", tier:"Büffel"},
@@ -45049,12 +45049,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Die Samariterin am Jakobsbrunnen"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "Die Samariterin am Jakobsbrunnen"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
         beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
-        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm."
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm; Nikola Tesla, der zeitlebens Dutzende parallele Großprojekte verfolgte – Wechselstromsystem, drahtlose Energieübertragung, Radartechnik, ferngesteuerte Boote –, kaum war eines skizziert, begann bereits das nächste, nie mit dem Ziel des eigenen Ruhms, sondern stets im Namen einer kostenlosen Energie für die gesamte Menschheit."
       },
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
@@ -45292,7 +45292,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Taube",
     kernthema: "Tiefes Gefühlsleben, das nicht zur Schau gestellt, sondern still, zäh und beharrlich getragen wird",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "Nikola Tesla", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoi", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andreas", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
     fingerabdruecke: [
       {
         titel: "Tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still verarbeitet wird",
@@ -45302,7 +45302,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Zähigkeit trotz Verletzlichkeit – trägt weiter, kehrt zurück, wo andere aufgeben würden",
         beschreibung: "Die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg: Der Weg wird auch durch Sturm und Rückschläge fortgesetzt, nicht weil Angst fehlt, sondern weil eine tiefe Kenntnis der eigenen Richtung trägt.",
-        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Nikola Tesla, der sein Lebenswerk am Wardenclyffe Tower verlor und dennoch bis zuletzt an dessen Richtigkeit festhielt – bis zuletzt fand er, fernab jeder menschlichen Nähe und trotz einer fortschreitenden Zwangsstörung, seine tiefste Bindung an eine einzelne weiße Taube; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen; June Carter Cash, die 1967/68 gemeinsam mit Familie und Freunden Johnny Cashs Tabletten- und Alkoholabhängigkeit entgegentrat und ihn danach über Jahre durch seine Genesung begleitete – eine stille, zähe Last, die sie nie zum Zentrum der eigenen Geschichte machte."
+        beleg: "Lady Diana: ›Die Taube ist zäh: Sie findet ihren Weg auch über weite Strecken, auch durch Sturm‹; Tim Bendzko: ›Sie kehrt zurück. Nicht weil sie keine Angst kennt, sondern weil sie weiß, wohin sie gehört … Das ist die Taube: Sie trägt das Gewicht – und sie singt trotzdem‹; Nicolas Cage: ›Zäher, als sie wirkt, ihre größte Kraft liegt darin, sich trotz innerer Verletzlichkeit immer wieder neu aufzurichten‹; Honoré de Balzac, der über Jahrzehnte nächtelang, oft fünfzehn bis achtzehn Stunden am Stück, gegen drückende Schulden anschrieb – kein Aufgeben trotz ständiger finanzieller Not, sondern ein zähes Weiterschreiben, das erst mit seinem Tod endete, fünf Monate nach der siebzehn Jahre lang erhofften Hochzeit mit Ewelina Hańska; T. E. Lawrence, der als britischer Verbindungsoffizier wochenlang durch die Wüste ritt, Hunger und Erschöpfung körperlich mit den arabischen Kämpfern teilte, statt aus der Distanz zu befehligen – und der nach dem Krieg dieselbe stille Zähigkeit nach innen kehrte, in einem über Jahre selbst organisierten Bestrafungsritual, statt über die erlittene Erniedrigung von Deraa zu sprechen; June Carter Cash, die 1967/68 gemeinsam mit Familie und Freunden Johnny Cashs Tabletten- und Alkoholabhängigkeit entgegentrat und ihn danach über Jahre durch seine Genesung begleitete – eine stille, zähe Last, die sie nie zum Zentrum der eigenen Geschichte machte."
       },
       {
         titel: "Vollständiges inneres Durchleben, bevor nach außen getreten wird",
@@ -49382,11 +49382,11 @@ function vincentVanGoghKrankheitsportraetPage() {
         Nichtbeachtung unbeirrt zu ertragen, richtete sich in den Krisenjahren zunehmend gegen
         ihn selbst – vom Ohrschnitt bis zur mutmaßlich selbst beigebrachten Schussverletzung.</p>
         <p class="vb-intro"><strong>b) Der Fünferflügel als Gegenkraft, nicht als Schutz:</strong>
-        Wie bei Nikola Tesla (ebenfalls SE4w5) hielt der analytische Fünferflügel auch bei Van
-        Gogh selbst in tiefster Krise ein systematisches, fast wissenschaftliches Arbeiten
-        aufrecht – ein Werk wie „Sternennacht" entstand mitten in einer der schwersten Phasen
-        seines Lebens. Der Fünferflügel schützte jedoch nicht vor der Krise selbst, sondern gab
-        ihr lediglich eine geordnete, kanalisierte Form nach außen.</p>
+        Der analytische Fünferflügel hielt bei Van Gogh selbst in tiefster Krise ein
+        systematisches, fast wissenschaftliches Arbeiten aufrecht – ein Werk wie „Sternennacht"
+        entstand mitten in einer der schwersten Phasen seines Lebens. Der Fünferflügel schützte
+        jedoch nicht vor der Krise selbst, sondern gab ihr lediglich eine geordnete, kanalisierte
+        Form nach außen.</p>
         <p class="vb-intro"><strong>c) Die Farbe als einzige zugelassene Sprache des Leidens:</strong>
         Während Van Gogh seine innere Not im persönlichen Austausch fast vollständig
         verschwieg, lässt sie sich in der zunehmend aufgewühlten, wirbelnden Bildsprache seiner
@@ -49396,15 +49396,12 @@ function vincentVanGoghKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Nikola Tesla (SE4w5):</strong>
-        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-nikola-tesla">Nikola
-        Tesla</a>, ebenfalls SE4w5, zeigt sich bei Van Gogh das für diesen Subtyp typische
-        Zusammenspiel: eine fortschreitende psychische Belastung, die kaum je offen
-        angesprochen wird, während der Fünferflügel parallel dazu ein hochgradig systematisches,
-        analytisches Schaffen aufrechterhält. Bei Tesla war es eine fortschreitende
-        Zwangsstörung neben bahnbrechenden Erfindungen, bei Van Gogh psychotische Krisen neben
-        methodisch durchdachter Malerei – zwei Varianten derselben SE4w5-Grundbewegung: das
-        Leiden wird stumm ertragen, während die geistige Systemarbeit ungebrochen weiterläuft.</p>
+        <p class="vb-intro"><strong>a) Leiden im Verborgenen, Systemarbeit ungebrochen:</strong>
+        Für die selbsterhaltende Vier mit Fünferflügel typisch: eine fortschreitende psychische
+        Belastung, die kaum je offen angesprochen wird, während der Fünferflügel parallel dazu
+        ein hochgradig systematisches, analytisches Schaffen aufrechterhält. Bei Van Gogh zeigte
+        sich das in psychotischen Krisen neben methodisch durchdachter Malerei – das Leiden wird
+        stumm ertragen, während die geistige Systemarbeit ungebrochen weiterläuft.</p>
         <p class="vb-intro"><strong>b) Eine über Jahre gewachsene Krise, kein plötzlicher Einbruch:</strong>
         Von den ersten Anzeichen sozialer Isolation in den 1870er-Jahren bis zum Tod 1890 zieht
         sich eine durchgehende Linie zunehmender psychischer Instabilität – keine einzelne
@@ -49454,7 +49451,6 @@ function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Lebenswerk"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatik-Register: Epilepsie"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -52105,7 +52101,7 @@ function elonMuskPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Namensgeber seiner Firma Tesla"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Namensgeber seiner Firma Tesla"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
         {route:"krankheitsportraets-elon-musk", label:"Krankheitsporträt: Elon Musk (SO7w6) – Asperger-Syndrom"},
       ])}
@@ -52123,45 +52119,45 @@ function nikolaTeslaPortraitPage() {
           <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
-        <p class="krim-portrait-subtitle">Erfinder, Ingenieur, 1856&ndash;1943 &ndash; Tierentsprechung: Taube</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Erfinder, Ingenieur, 1856&ndash;1943 &ndash; Tierentsprechung: Biber</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Die Taube, die für die ganze Menschheit erfand</h2>
+        <h2 class="vb-section">1. Der Biber, der der ganzen Menschheit Energie schenken wollte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; sie trägt ihr tiefes Gefühlsleben nicht zur Schau, sondern verarbeitet es in stiller, oft jahrzehntelanger Beharrlichkeit, und sucht ihre Einzigartigkeit nicht im Applaus, sondern in einem ganz eigenen, unverwechselbaren Weg. Nikola Tesla verkörperte dieses Prinzip auf eine fast schon buchstäbliche Weise: Wechselstrommotor, Transformator, Funktechnik, Radar-Grundlagen, Fernsteuerung &ndash; er hinterließ über 300 Patente und veränderte die technische Infrastruktur der gesamten Menschheit. Und doch war er zeitlebens kein Mann des Rampenlichts, sondern ein zutiefst einsamer, introvertierter Sonderling, der seine intensivste, dauerhafteste emotionale Bindung am Ende nicht zu einem Menschen, sondern zu einer einzelnen weißen Taube fand.</p>
-          <p class="vb-intro">Der serbisch-amerikanische Erfinder Nikola Tesla wurde 1856 in Smiljan, im heutigen Kroatien, als Sohn eines serbisch-orthodoxen Priesters geboren. Schon als Kind sah er, wie er später berichtete, spontane, blitzartige innere Bilder von Maschinen, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm &ndash; eine innere Bilderwelt von solcher Intensität, dass sie ihn zeitweise von der äußeren Realität kaum noch unterscheidbar erschien.</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für sich selbst, sondern für ein System, das größer ist als er selbst, und ist nie wirklich fertig: Kaum steht ein Damm, beginnt bereits das nächste Projekt. Nikola Tesla verkörperte dieses Prinzip in geradezu erschreckender Konsequenz: Wechselstrommotor, Transformator, Funktechnik, Radar-Grundlagen, Fernsteuerung &ndash; er hinterließ über 300 Patente, dazu Dutzende parallele Großprojekte, die nie ganz abgeschlossen wurden. Jede Erfindung war zugleich der Auftakt zur nächsten.</p>
+          <p class="vb-intro">Der serbisch-amerikanische Erfinder Nikola Tesla wurde 1856 in Smiljan, im heutigen Kroatien, als Sohn eines serbisch-orthodoxen Priesters geboren. Schon als Kind sah er, wie er später berichtete, spontane, blitzartige innere Bilder von Maschinen, die er bis ins letzte Detail vor seinem geistigen Auge konstruieren konnte, bevor er je ein Werkzeug in die Hand nahm &ndash; eine Ideenfülle, die schon früh weit über das hinausging, was ein einzelnes Leben je hätte umsetzen können.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die selbsterhaltende Vier: Einzigartigkeit statt Anpassung</h2>
+        <h2 class="vb-section">2. Die soziale Sieben: Erfindung im Dienst der Menschheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Anderssein nicht öffentlich vor sich her, sondern lebt es in stiller, oft schmerzhafter Konsequenz &ndash; sie sagt sich: Ich bin anders als alle anderen, und genau darin liegt meine Würde, auch wenn es mich meine Verbindung zu den Menschen kostet. Tesla lebte zeitlebens asketisch, blieb unverheiratet und beschrieb intime Nähe explizit als Störung seiner Konzentration und seiner Erfindungskraft &ndash; eine radikale, selbst gewählte Einzigartigkeit, die ihn von jeder gewöhnlichen bürgerlichen Existenz fernhielt.</p>
-          <p class="vb-intro">Auch sein Verhältnis zu Anerkennung und Geld war von dieser inneren Unbedingtheit geprägt: Als J.P. Morgan, der Hauptfinanzier seines größten Projekts, des Wardenclyffe Tower auf Long Island, erfuhr, dass Tesla plante, drahtlose Energie kostenlos an die gesamte Menschheit zu verteilen statt sie abzurechnen, zog er seine Unterstützung zurück &ndash; der Turm wurde nie fertiggestellt, und Tesla verlor damit sein Lebenswerk. Er blieb dennoch bis zuletzt überzeugt, dass seine Idee richtig gewesen war. Genau darin zeigt sich die selbsterhaltende Vier von ihrer kompromisslosesten Seite: lieber das eigene, unverwechselbare Ideal verlieren, als es dem gewöhnlichen Maßstab der anderen anzupassen.</p>
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 7 das <strong>Opfer</strong> beziehungsweise den <strong>Märtyrer</strong> &ndash; dieser Subtyp stellt die eigene Genusssucht zurück, um sich einer größeren Idee, Gruppe oder Mission zu widmen. Tesla rahmte sein gesamtes Lebenswerk explizit als Dienst an der Menschheit, nicht an sich selbst: Sein größtes Ziel war ein weltumspannendes System zur drahtlosen Übertragung von Energie und Information &ndash; kostenlos, für alle Menschen zugänglich, nicht nur für die, die dafür bezahlen konnten.</p>
+          <p class="vb-intro">Wie ernst er das meinte, zeigt eine der folgenreichsten Entscheidungen seines Lebens: George Westinghouse, der Tesla die Patentrechte für das Wechselstromsystem abgekauft hatte, geriet Anfang der 1890er-Jahre durch die vereinbarten Tantiemenzahlungen an Tesla in finanzielle Bedrängnis. Tesla zerriss daraufhin freiwillig den Vertrag, der ihn zum reichsten Mann der Welt hätte machen können, um Westinghouse und damit die Verbreitung des Wechselstromsystems selbst zu retten &ndash; ein Opfer des eigenen materiellen Vorteils zugunsten der größeren Sache, genau wie es das SO7-Muster vorgibt.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Fünferflügel: Das Genie als Schutzraum</h2>
+        <h2 class="vb-section">3. Der Sechserflügel: Wachsamkeit, in Ordnung verwandelt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verleiht der Vier eine analytische Distanz und einen enormen Wissensdurst &ndash; das eigene Gefühl wird nicht nur durchlebt, sondern in ein durchdachtes, oft geradezu enzyklopädisches Systemdenken übersetzt, das zugleich als Schutzwall gegen eine überfordernde Außenwelt dient. Bei Tesla zeigte sich das in ausgeprägten Zwangshandlungen: Er zählte seine Schritte beim Gehen, berechnete das Volumen seiner Suppe, bevor er sie aß, und arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren &ndash; Abweichungen davon lösten bei ihm massives Unbehagen aus. Extreme Angst vor Keimen ließ ihn Türklinken und Handschläge meiden und stundenlang die Hände waschen.</p>
-          <p class="vb-intro">Diese Systemliebe und dieser Rückzug ins eigene, kontrollierte Denken zeigten sich auch in seinem Arbeitsstil: Tesla war notorisch misstrauisch gegenüber Investoren und Konkurrenten &ndash; allen voran Thomas Edison, mit dem er sich im »Stromkrieg« um Gleich- versus Wechselstrom einen erbitterten öffentlichen Kampf lieferte &ndash; und hielt viele seiner Entwürfe geheim, aus Angst, sie könnten gestohlen werden. Er schlief nach eigenen Angaben nur wenige Stunden pro Nacht und arbeitete parallel an drahtloser Energieübertragung, Radartechnik, Röntgenstrahlen, ferngesteuerten Booten und Ideen zu künstlichem Regen &ndash; ein Fünferflügel, der Wissen nicht nur sammelte, sondern in ihm lebte, weil es der einzige Raum war, in dem sich Tesla wirklich sicher fühlte.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine innere Wachsamkeit und ein Bedürfnis nach Kontrolle, das sich nicht offen als Angst zeigt, sondern in Systemen, Ritualen und Loyalität zur eigenen Mission kanalisiert wird. Bei Tesla trat das in ausgeprägten Zwangshandlungen zutage: Er zählte seine Schritte beim Gehen, berechnete das Volumen seiner Suppe, bevor er sie aß, und arbeitete fast ausschließlich mit Zahlen, die durch drei teilbar waren &ndash; Abweichungen davon lösten bei ihm massives Unbehagen aus. Extreme Angst vor Keimen ließ ihn Türklinken und Handschläge meiden.</p>
+          <p class="vb-intro">Auch sein Verhältnis zu Konkurrenten war von dieser wachsamen, misstrauischen Note geprägt: Im »Stromkrieg« mit Thomas Edison um Gleich- versus Wechselstrom hielt er viele seiner Entwürfe geheim, aus Sorge, sie könnten gestohlen werden &ndash; doch anders als ein Achterflügel suchte er dabei nie die offene Konfrontation oder den persönlichen Sieg über Edison, sondern zog sich zurück in die eigene, kontrollierte Arbeit. Der Sechserflügel macht aus der Sieben keinen Kämpfer, sondern einen loyalen, vorsichtigen Diener der eigenen Mission.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Rückzug und die weiße Taube</h2>
+        <h2 class="vb-section">4. Der Wardenclyffe Tower</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In seiner späteren Lebensphase zog sich Tesla völlig aus der Gesellschaft zurück und lebte isoliert in New Yorker Hotelzimmern. Seine einzigen verbliebenen emotionalen Bindungen galten Tauben: Er fütterte sie täglich im Park, fing verletzte oder kranke Tiere ein, um sie in seinem Zimmer gesund zu pflegen, und gab dafür astronomische Summen aus. Unter all diesen Tauben gab es eine ganz besondere, weiße &ndash; die Liebe seines Lebens, wie er es selbst nannte. Er behauptete zeitlebens, diese eine Taube geliebt zu haben wie einen Menschen, und als sie starb, sei &bdquo;das Licht aus seinen Augen gewichen&ldquo;.</p>
-          <p class="vb-intro">In der Enneagrammforschung gilt Tesla fast einhellig als Musterbeispiel einer selbsterhaltenden Vier mit starkem Fünferflügel: seine radikale Askese, sein tiefes, stilles Leiden, sein Verlangen nach absoluter Einzigartigkeit und seine melancholische Isolation spiegeln exakt dieses Muster wider &ndash; gekrönt von einer fast schmerzhaft exklusiven Hingabe an ein einziges geliebtes Wesen, das ihm menschliche Nähe ersetzte. Die Tierentsprechung passt hier buchstäblich: Ausgerechnet der Mann, dessen archetypisches Tier die Taube ist, fand am Ende seines Lebens seine tiefste, einzige emotionale Bindung zu einer echten Taube.</p>
+          <p class="vb-intro">Als J.P. Morgan, der Hauptfinanzier von Teslas größtem Projekt, dem Wardenclyffe Tower auf Long Island, erfuhr, dass Tesla plante, drahtlose Energie kostenlos an die gesamte Menschheit zu verteilen statt sie abzurechnen, zog er seine Unterstützung zurück &ndash; der Turm wurde nie fertiggestellt, und Tesla verlor damit sein Lebenswerk. Er blieb dennoch bis zuletzt überzeugt, dass seine Idee richtig gewesen war.</p>
+          <p class="vb-intro">Genau darin zeigt sich die soziale Sieben von ihrer kompromisslosesten Seite: lieber das eigene Vermögen und den eigenen Ruf für ein utopisches Gemeinschaftsprojekt verlieren, als eine Idee aufzugeben, die der ganzen Menschheit dienen sollte. Kein Rückzug ins rein Private, sondern ein Scheitern im Namen einer Vision, die größer war als der eigene Erfolg.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE4w5 ist die Fähigkeit, <strong>radikale innere Einzigartigkeit in bahnbrechendes, universelles Wissen</strong> zu verwandeln &ndash; Teslas Wechselstromsystem versorgt noch heute Milliarden Haushalte weltweit mit Elektrizität, seine Arbeiten legten den Grundstein für Radio, Radar und drahtlose Kommunikation. Sein tiefes Bedürfnis, anders und einzigartig zu sein, war der Motor eines der folgenreichsten Erfinderlebens der Geschichte.</p>
-          <p class="vb-intro">Der Schatten zeigte sich in seiner völligen Isolation: Trotzdem starb er 1943 verarmt und weitgehend vergessen in einem New Yorker Hotelzimmer, mit seiner einzigen Gesellschaft &ndash; verletzten Tauben, die er über Jahre gefüttert und gepflegt hatte. Die Kehrseite der selbsterhaltenden Vier mit Fünferflügel: Das Festhalten an der eigenen, unverwechselbaren Wahrheit kann so vollständig werden, dass am Ende kein Mensch mehr nah genug herankommt &ndash; und ein einzelner Vogel zur letzten verbliebenen Liebe wird.</p>
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>eine schier grenzenlose Ideenfülle in den Dienst eines utopischen Gemeinschaftsziels zu stellen</strong> &ndash; Teslas Wechselstromsystem versorgt noch heute Milliarden Haushalte weltweit mit Elektrizität, seine Arbeiten legten den Grundstein für Radio, Radar und drahtlose Kommunikation. Sein Antrieb war nie in erster Linie der eigene Ruhm, sondern eine Vision, die er für die ganze Menschheit verwirklichen wollte.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in wachsender Isolation: In seinen letzten Lebensjahrzehnten zog sich Tesla völlig aus der Gesellschaft zurück, lebte allein in New Yorker Hotelzimmern und fand seine intensivste, dauerhafteste emotionale Bindung nicht mehr zu einem Menschen, sondern zu einer einzelnen weißen Taube, die er wie einen geliebten Menschen behandelte. Unter chronischem Stress bewegt sich die soziale Sieben Richtung Eins &ndash; genau das lässt sich bei Tesla nachzeichnen: Aus rastloser, weltzugewandter Erfindungslust wurde zunehmend starre, isolierte Rigidität, aus Wachsamkeit wurde Zwang.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Die Taube, die zuletzt nur noch eine Taube liebte</h2>
+        <h2 class="vb-section">6. Der Biber, dessen letztes Bauwerk eine einzelne Taube war</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Tesla der Welt gegeben hat, ist buchstäblich das Rückgrat der modernen Zivilisation. Ob er die Anerkennung erhielt, die sein Werk verdient hätte, ist eine offene Frage. Dass er die Welt für immer veränderte, ist keine.</p>
-          <p class="vb-intro">Und doch bleibt am Ende dieses Lebens ein Bild, das kaum eindrücklicher für die selbsterhaltende Vier mit Fünferflügel stehen könnte: ein Genie, das der gesamten Menschheit unbegrenzte Energie schenken wollte &ndash; und dessen eigenes Herz zuletzt nur noch an einer einzigen, weißen Taube hing.</p>
+          <p class="vb-intro">Und doch bleibt am Ende dieses Lebens ein Bild, das kaum eindrücklicher für die soziale Sieben mit Sechserflügel stehen könnte: ein Mann, der der gesamten Menschheit unbegrenzte Energie schenken wollte &ndash; und dessen eigenes Herz zuletzt nur noch an einer einzigen, weißen Taube hing, als das letzte, kleinste aller seiner unvollendeten Bauwerke.</p>
         </blockquote>
 
       </div>
@@ -52172,12 +52168,12 @@ function nikolaTeslaPortraitPage() {
       ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
-        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
-        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
-        {route:"beruehmte-derek-goodwin", label:"Porträt: Derek Goodwin (SE4w5)"},
-        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SE4w5) – Zwangsstörung und Isolation"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6) – benannte seine Firma nach Tesla"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – Zwangsstörung und Isolation"},
       ])}
     </div>
   `);
@@ -52238,7 +52234,7 @@ function derekGoodwinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
@@ -53423,7 +53419,7 @@ function julesVernePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-elon-musk", label:"Porträt: Elon Musk (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – Schussverletzung und lebenslange Lähmung"},
         {route:"bibel-samariterin-am-jakobsbrunnen", label:"Bibel-Porträt: Die Samariterin am Jakobsbrunnen (SO7w6)"},
@@ -57317,7 +57313,7 @@ function virginiaWoolfPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
       ])}
     </div>
   `);
@@ -57383,7 +57379,7 @@ function miguelDeUnamunoPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
       ])}
     </div>
   `);
@@ -57448,7 +57444,7 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5)"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – der Konflikt in Arles"},
       ])}
@@ -77257,6 +77253,7 @@ function molierePortraitPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
         {route:"krankheitsportraets-jules-verne", label:"Krankheitsporträt: Jules Verne (SO7w6) – die verschwiegene Vorsicht des Bibers"},
+        {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
@@ -90551,11 +90548,11 @@ function nikolaTeslaKrankheitsportraetPage() {
           <img src="./assets/portraits/beruehmte-nikola-tesla-portrait.jpg" alt="Nikola Tesla" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikola Tesla</p>
-        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1856–1943</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1856–1943</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Taube</span>
+          <span>Tierentsprechung: Biber</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -90563,20 +90560,23 @@ function nikolaTeslaKrankheitsportraetPage() {
         <strong>Nikola Tesla</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein bahnbrechendes technisches
-        Lebenswerk und seine radikale Einzigartigkeit. Diese Seite vertieft ein Kapitel, das
-        dort nur am Rande erwähnt wird: eine fortschreitende Zwangsstörung mit ausgeprägter
-        Keimphobie, die ihn über Jahrzehnte zunehmend in völlige Isolation trieb, bis er
-        verarmt und fast vergessen allein in einem New Yorker Hotelzimmer starb.
+        Lebenswerk und seine Vision einer kostenlosen Energieversorgung für die ganze
+        Menschheit. Diese Seite vertieft ein Kapitel, das dort nur am Rande erwähnt wird: eine
+        fortschreitende Zwangsstörung mit ausgeprägter Keimphobie, die ihn über Jahrzehnte
+        zunehmend in völlige Isolation trieb, bis er verarmt und fast vergessen allein in
+        einem New Yorker Hotelzimmer starb.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Tesla</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
-        zugeordnet. Die SE4 lebt ihr Anderssein still und konsequent, ohne öffentliche
-        Bühne; der Fünferflügel übersetzt Gefühl in analytisches Systemdenken, das
-        zugleich als Schutzwall dient. Genau diese Kombination bestimmte auch, wie sich seine
-        fortschreitende Zwangsstörung entwickelte: nicht als plötzlicher Einbruch, sondern
-        als immer strengeres, selbst auferlegtes System zur Kontrolle einer als überfordernd
-        erlebten Außenwelt.</p>
+        <strong>Tesla</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SO7 stellt die eigene Genusssucht zurück, um einer größeren Mission zu
+        dienen – bei Tesla war das eine kostenlose Energieversorgung der gesamten Menschheit;
+        der Sechserflügel übersetzt Wachsamkeit und Sorge in Kontrolle, Ordnung und Rituale.
+        Genau diese Kombination bestimmte auch, wie sich seine fortschreitende Zwangsstörung
+        entwickelte: nicht als plötzlicher Einbruch, sondern als immer strengeres, selbst
+        auferlegtes System zur Kontrolle einer als überfordernd erlebten Außenwelt – und als
+        Verschiebung Richtung des Stresspunkts der Sieben, der Eins: aus rastloser
+        Erfindungslust wurde zunehmend starre Rigidität.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -90646,39 +90646,40 @@ function nikolaTeslaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die eigene Einzigartigkeit bis zur völligen Isolation getragen:</strong>
-        Dieselbe radikale Konsequenz, mit der Tesla sein eigenes, unverwechselbares Denken
-        gegen jede Anpassung verteidigte, bestimmte auch, wie vollständig er sich am Ende von
-        jeder menschlichen Nähe abschnitt – die SE4 hält an der eigenen Wahrheit fest, auch
-        wenn der Preis dafür die eigene Verbindung zur Welt ist.</p>
-        <p class="vb-intro"><strong>b) Der Fünferflügel und das System als letzter Schutzraum:</strong>
+        <p class="vb-intro"><strong>a) Die Mission bis zur völligen Isolation verteidigt:</strong>
+        Dieselbe radikale Konsequenz, mit der Tesla an seiner Vision einer kostenlosen
+        Energieversorgung für die ganze Menschheit festhielt, bestimmte auch, wie vollständig
+        er sich am Ende von jeder menschlichen Nähe abschnitt – die SO7 hält an der eigenen
+        Mission fest, auch wenn der Preis dafür die eigene Verbindung zur Welt ist.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und das System als letzter Schutzraum:</strong>
         Seine Zwangshandlungen – das Zählen, die Teilbarkeit durch drei, die Keimvermeidung
         – waren keine zufälligen Marotten, sondern ein immer engmaschigeres System zur
         Kontrolle einer Welt, die für ihn zunehmend bedrohlich wurde. Wo der gesunde
-        Fünferflügel Wissen als Werkzeug nutzt, wurde bei Tesla das System selbst zum
-        einzigen verlässlichen Halt.</p>
-        <p class="vb-intro"><strong>c) Eine einzelne Bindung statt vieler lockerer:</strong>
-        Anders als ein sozialer Vierer-Subtyp (SO4) reagiert hätte, ersetzte Tesla das gesamte
-        menschliche Beziehungsnetz nicht durch mehrere lose Kontakte, sondern durch eine
+        Sechserflügel Wachsamkeit in verlässliche Loyalität zur eigenen Sache übersetzt, wurde
+        bei Tesla das Kontrollsystem selbst zum einzigen verlässlichen Halt.</p>
+        <p class="vb-intro"><strong>c) Eine einzelne Bindung statt eines Gemeinschaftsprojekts:</strong>
+        Anders als es für die soziale Sieben typisch wäre – Sinn und Bindung über ein
+        gemeinsames Projekt oder eine Gruppe zu finden –, ersetzte Tesla das gesamte
+        menschliche Beziehungsnetz nicht durch eine neue Gemeinschaft, sondern durch eine
         einzige, außergewöhnlich intensive Bindung – die weiße Taube trug das gesamte
         Gewicht dessen, was für andere Menschen ein ganzes soziales Leben ausmacht.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Geist, der sich vor der eigenen Offenheit schützte:</strong>
-        Teslas gesamtes Leben war von der Überzeugung geprägt, dass seine innere Bilderwelt
-        und sein einzigartiges Denken schutzbedürftig waren – seine Zwangsstörung lässt sich
-        als das immer strengere System lesen, mit dem er diesen Schutz aufrechtzuerhalten
-        versuchte, bis das System selbst zur Isolation wurde.</p>
+        <p class="vb-intro"><strong>a) Ein Geist, der sich vor dem Verlust seiner Mission schützte:</strong>
+        Teslas gesamtes Leben war von der Überzeugung geprägt, dass seine Vision einer
+        Energieversorgung für die ganze Menschheit schutzbedürftig war – seine Zwangsstörung
+        lässt sich als das immer strengere System lesen, mit dem er diesen Schutz
+        aufrechtzuerhalten versuchte, bis das System selbst zur Isolation wurde.</p>
         <p class="vb-intro"><strong>b) Kontrolle über die eigene Umgebung als Ersatz für Kontrolle über Nähe:</strong>
         Ein Mann, der intime menschliche Nähe explizit als Bedrohung seiner Konzentration
         beschrieb, entwickelte stattdessen eine immer detailliertere Kontrolle über seine
         physische Umgebung – Zahlen, Keime, Rituale –, die genau jene Sicherheit versprach,
         die menschliche Beziehungen ihm nicht bieten konnten.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet der Kontakt zur Außenwelt?</strong>
-        Für eine selbsterhaltende Vier mit Fünferflügel, deren gesamte Kraft auf radikaler,
-        selbst gewählter Einzigartigkeit beruhte, liegt eine Deutung nahe: Ausgerechnet der
+        Für eine soziale Sieben mit Sechserflügel, deren gesamte Kraft auf einer Mission für
+        die Menschheit als Ganzes beruhte, liegt eine Deutung nahe: Ausgerechnet der
         unmittelbare körperliche Kontakt zur Außenwelt – Türklinken, Handschläge, andere
         Menschen – wurde zum Schauplatz der Angst, während die innere, selbst konstruierte
         Gedankenwelt der einzige Ort blieb, an dem er sich vollständig sicher fühlte. Diese
@@ -90686,41 +90687,41 @@ function nikolaTeslaKrankheitsportraetPage() {
         Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
         ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu
+        Das heißt nicht, dass das Muster der sozialen Sieben zwangsläufig zu
         Zwangsstörungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
         unabhängig vom Subtyp.</strong> Was sich an Teslas Fall zeigen lässt, ist ein Muster
         im Umgang mit fortschreitender psychischer Isolation, das bei einer ausgeprägten
-        selbsterhaltenden Vier mit Fünferflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
+        sozialen Sieben mit Sechserflügel unter chronischem Stress immer wieder auffällt –
+        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Tesla kannte sein eigenes Muster nicht – die selbsterhaltende Vier mit Fünferflügel
-        verteidigt reflexhaft die eigene, unverwechselbare Innenwelt gegen jede als bedrohlich
-        erlebte Nähe, statt die eigene Isolation je als Muster zu erkennen, und genau dieses
-        Muster lebte er bis zu seinem einsamen Tod unverändert aus. Wer die eigene
-        Notwendigkeit, die eigene Einzigartigkeit um jeden Preis zu schützen, nicht als Muster
-        erkennt, kann sie auch angesichts der eigenen Vereinsamung nicht ablegen.</p>
+        Tesla kannte sein eigenes Muster nicht – die soziale Sieben mit Sechserflügel
+        verteidigt reflexhaft die eigene Mission gegen jede als bedrohlich erlebte Störung,
+        statt die eigene Isolation je als Muster zu erkennen, und genau dieses Muster lebte er
+        bis zu seinem einsamen Tod unverändert aus. Wer die eigene Notwendigkeit, die eigene
+        Mission um jeden Preis zu schützen, nicht als Muster erkennt, kann sie auch angesichts
+        der eigenen Vereinsamung nicht ablegen.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Die selbsterhaltende Vier mit Fünferflügel erklärt bei <strong>Tesla</strong> vieles
-        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf radikaler
-        Einzigartigkeit beruhte, verteidigte diese Einzigartigkeit so konsequent, dass am
-        Ende kein Mensch mehr nah genug herankam – die Taube, die der ganzen Menschheit
-        unbegrenzte Energie schenken wollte, und deren eigenes Herz zuletzt nur noch an
+        Die soziale Sieben mit Sechserflügel erklärt bei <strong>Tesla</strong> vieles
+        am Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf einer Mission
+        für die ganze Menschheit beruhte, verteidigte diese Mission so konsequent, dass am
+        Ende kein Mensch mehr nah genug herankam – der Biber, der der ganzen Menschheit
+        unbegrenzte Energie schenken wollte, und dessen eigenes Herz zuletzt nur noch an
         einem einzigen Vogel hing.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SE4w5) – Erfinder"},
-        {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – Erfinder"},
+        {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
       ])}
     </div>
   `);
@@ -123298,7 +123299,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Flügel-Nuance: SE4w3 und SE4w5",
       w1: { code: "SE4w3", route: "beruehmte-adele", name: "Adele", text: `die Melancholie bekommt eine ausdrucksstärkere, sichtbarere Note – Gefühl wird auch zu Leistung geformt, ohne dass die Tiefe verloren geht. Reagiert gut auf Anerkennung, die sowohl das Gefühl als auch das Können würdigt, weniger gut auf reine Sachlichkeit ohne emotionalen Bezug.` },
-      w2: { code: "SE4w5", route: "beruehmte-nikola-tesla", name: "Nikola Tesla", text: `die Melancholie wird introspektiver, mit einem Hang zu Rückzug und geistiger Vertiefung verbunden – Sehnsucht sucht Ausdruck eher im stillen Denken als im offenen Gefühl. Reagiert gut auf Raum und Zeit für sich, schlecht auf Drängen oder ungebetene Nähe.` },
+      w2: { code: "SE4w5", route: "beruehmte-charlotte-wells", name: "Charlotte Wells", text: `die Melancholie wird introspektiver, mit einem Hang zu Rückzug und geistiger Vertiefung verbunden – Sehnsucht sucht Ausdruck eher im stillen Denken als im offenen Gefühl. Reagiert gut auf Raum und Zeit für sich, schlecht auf Drängen oder ungebetene Nähe.` },
     },
     stressWachstum: {
       stress: `Unter Stress bewegt sich die SE4 Richtung <strong>Typ 2</strong>: Die sonst stille Zurückhaltung kippt in anhängliches, forderndes Klammern – die stille Sehnsucht wird plötzlich laut. Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment, um Distanz zu fordern, ein guter Moment für ruhige, verlässliche Nähe.`,
