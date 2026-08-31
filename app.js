@@ -86227,7 +86227,7 @@ function johannesBrahmsKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Elefant, der eine Erschütterung nicht mehr abschütteln konnte:</strong>
+        <p class="vb-intro"><strong>a) Ein Fixpunkt, der plötzlich fehlte:</strong>
         Die selbsterhaltende Neun findet ihre Stabilität im Vertrauten – Clara Schumanns Tod
         entzog Brahms genau diesen letzten, über vierzig Jahre gewachsenen Fixpunkt, und der
         Körper folgte kurz darauf.</p>
@@ -86975,7 +86975,7 @@ function dollyPartonKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Pfau, der das Rad schlägt, solange es irgend geht:</strong>
+        <p class="vb-intro"><strong>a) Präsenz aufrechterhalten, koste es, was es wolle:</strong>
         Die SX3-typische Überzeugung, dass Präsenz und Wirkung nach außen aufrechterhalten
         werden müssen, zeigte sich bis in die letzten Lebensmonate: Selbst gesundheitliche
         Absagen wurden mit Humor, Herzlichkeit und einer gepflegten Bühnenfigur verkündet, nie
