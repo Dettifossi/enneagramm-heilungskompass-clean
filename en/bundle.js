@@ -3001,6 +3001,7 @@ text.nav = [
     { route: "enneagramm-bibel", label: "Enneagram in the Mirror of the New Testament" },
     { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "lebensmusterkompass", label: "Life Pattern Compass (Biographical Fingerprints)" },
+    { route: "krankheitsmusterkompass", label: "Illness Pattern Compass (Patterns in the Illness Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
@@ -49733,8 +49734,29 @@ function krankheitsmusterkompassPage() {
           ${buttons}
         </div>
 
-        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        <div class="vb-section" style="max-width:640px;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+          <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+            <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                            background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                            font-size:0.95rem;color:var(--ink);">
+              <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+              <span style="flex:1;">In-depth reading on illness and healing by Detlef Rathmer (7)</span>
+              <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+            </summary>
+            <div style="padding:1rem 1.2rem 1.2rem;">
+              ${bookTip("chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe", "Nutrition according to your Enneagram type in the rhythm of the TCM organ clock – what nourishes each type at its core.", "Chrono-Ennea-Typ: Ernährung im Rhythmus der Organe")}
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram-Homeopathy – how personality type and remedy selection are connected, accessible for lay readers as well.", "Enneagramm-Homöopathie – Band 1")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Deepening and expansion: The 27 Subtypes and their individual homeopathic remedies.", "Enneagramm-Homöopathie – Band 2")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler.", "Enneagramm-Biochemie")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}</div>
+              <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}</div>
+              <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+              <div style="margin-top:.8rem;">${bookTip("leidenschaft-und-heilung", "27 subtypes – passions, virtues, and paths of healing directly from therapeutic practice.", "Leidenschaft und Heilung")}</div>
+            </div>
+          </details>
+        </div>
+
         ${relatedLinks([
           {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
           {route:"krankheitsportraets", label:"All Illness Portraits"},

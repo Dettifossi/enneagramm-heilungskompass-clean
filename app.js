@@ -15898,6 +15898,7 @@ const uiText = {
       { route: "krankheitsportraets", label: "Krankheitsporträts" },
       { route: "enneagramm-bibel", label: "Enneagramm im Spiegel des Neuen Testaments" },
       { route: "lebensmusterkompass", label: "Lebensmusterkompass (Biografische Fingerabdrücke)" },
+      { route: "krankheitsmusterkompass", label: "Krankheitsmusterkompass (Muster in den Krankheitsporträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "tierlexikon", label: "Tierlexikon" },
@@ -46087,8 +46088,29 @@ function krankheitsmusterkompassPage() {
           ${buttons}
         </div>
 
-        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        <div class="vb-section" style="max-width:640px;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
+          <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+            <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                            background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                            font-size:0.95rem;color:var(--ink);">
+              <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+              <span style="flex:1;">Vertiefende Literatur zu Krankheit und Heilung von Detlef Rathmer (7)</span>
+              <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+            </summary>
+            <div style="padding:1rem 1.2rem 1.2rem;">
+              ${bookTip("chrono-ennea-typ-ernaehrung-im-rhythmus-der-organe", "Ernährung nach dem Enneagrammtyp im Rhythmus der TCM-Organuhr – was jeden Typ von Grund auf nährt.", "Chrono-Ennea-Typ: Ernährung im Rhythmus der Organe")}
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler.", "Enneagramm-Biochemie")}</div>
+              <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
+              <div style="margin-top:.8rem;">${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}</div>
+              <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+              <div style="margin-top:.8rem;">${bookTip("leidenschaft-und-heilung", "27 Subtypen – Leidenschaften, Tugenden und Heilungswege direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}</div>
+            </div>
+          </details>
+        </div>
+
         ${relatedLinks([
           {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
           {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
