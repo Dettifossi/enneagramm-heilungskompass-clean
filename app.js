@@ -32969,6 +32969,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexuelle Zwei mit Dreierflügel",
     teaser:"SX2w3 · geb. 1980. Kanadischer Schauspieler. Vom gemobbten Einzelgänger und Mickey-Mouse-Club-Kinderstar zum dreifach oscarnominierten Charakterdarsteller (›Half Nelson‹, ›La La Land‹, ›Barbie‹). Bekannt für seine bewusst private, familienzentrierte Beziehung mit Eva Mendes und eine vierjährige Karrierepause zugunsten seiner Töchter. Tierentsprechung: Kamel.",
     land:"Kanada", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-mata-hari", name:"Mata Hari", added:"2026-08-31", subtyp:"SX2w3",
+    heading:"Mata Hari – Sexuelle Zwei mit Dreierflügel",
+    teaser:"SX2w3 · 1876–1917. Niederländische Tänzerin, erfand sich nach gescheiterter Ehe als exotische Kunstfigur ›Mata Hari‹ neu, unterhielt exklusive Beziehungen zu einflussreichen Männern beider Seiten des Ersten Weltkriegs, 1917 wegen Spionage hingerichtet – Beweislage bis heute umstritten. Tierentsprechung: Kamel.",
+    land:"Niederlande", tags:["Geschichte"], gender:"f"},
   { route:"beruehmte-eva-mendes", name:"Eva Mendes", added:"2026-08-30", subtyp:"SX6w7",
     heading:"Eva Mendes – Sexuelle Sechs mit Siebenerflügel",
     teaser:"SX6w7 · geb. 1974. Schauspielerin und Unternehmerin. Vom ängstlichen Kind einer kubanischen Einwandererfamilie zum international gefeierten Sexsymbol (Calvin-Klein-Kampagnen) und zur vielseitigen Unternehmerin mit eigenen Mode-, Skincare- und Wohnaccessoire-Linien. Zog sich bewusst aus dem Rampenlicht zurück, um Familie und Privatsphäre mit Ehemann Ryan Gosling zu schützen. Tierentsprechung: Wolf.",
@@ -74270,6 +74274,72 @@ function ryanGoslingPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
         {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – Ehefrau"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function mataHariPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mata-hari-portrait.jpg" alt="Mata Hari" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mata Hari</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Tänzerin, geb. 1876 – hingerichtet 1917 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das sich selbst neu erschuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet, einem einzelnen Gegenüber zugewandt. Margaretha Geertruida Zelle wurde 1876 in den Niederlanden geboren, heiratete mit achtzehn den deutlich älteren Offizier Rudolf MacLeod und folgte ihm in die niederländische Kolonie Ostindien – eine Ehe, die sich rasch als gewalttätig und von Alkohol geprägt erwies. Ihr Sohn starb dort vermutlich an den Folgen einer Syphilis-Behandlung, die Ehe endete in Scheidung.</p>
+          <p class="vb-intro">Aus dieser gescheiterten, von Gewalt und Verlust gezeichneten Existenz baute sich Zelle in Paris eine vollständig neue Person: Mata Hari, angeblich eine javanische Priesterin, in Wahrheit eine niederländische Kaufmannstochter, die sich Kostüm, Herkunftsmythos und Bühnenname selbst erfand. Kein Zufall, sondern eine bewusst konstruierte, in jedem Detail durchdachte zweite Identität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verführung als persönliche Begegnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Mata Haris Auftritte auf den Bühnen von Paris waren spektakulär, doch ihre eigentliche Wirkung entfaltete sie nicht im Saal, sondern danach: in exklusiven, oft jahrelangen Beziehungen zu einzelnen einflussreichen Männern – Offiziere, Diplomaten, Industrielle auf beiden Seiten des Ersten Weltkriegs.</p>
+          <p class="vb-intro">Diese Beziehungen waren für sie nie bloße Mittel zum Gelderwerb allein. Zeitgenössische Berichte beschreiben eine Frau, die sich in jeder einzelnen Begegnung tatsächlich einließ, die zuhörte, sich anpasste, unentbehrlich werden wollte – nicht die kühle Berechnung einer distanzierten Verführerin, sondern die intensive, personenbezogene Hingabe der sexuellen Zwei an das eine Gegenüber, das gerade vor ihr stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Kunstfigur als Karriereprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Anziehungskraft ein sichtbares, überprüfbares Erfolgsprojekt zu formen. Mata Hari war keine zufällig entdeckte Attraktion, sondern eine selbst gemanagte Marke: eigens entworfene Kostüme, ein sorgfältig gepflegter exotischer Herkunftsmythos, gezielte Auftritte bei den richtigen Salons und Veranstaltern, um in kürzester Zeit zur meistdiskutierten Tänzerin von Paris zu werden.</p>
+          <p class="vb-intro">Auch als ihre Tanzkarriere in den 1910er-Jahren nachließ, hielt sie an dem einmal geschaffenen Bild fest und lebte von ihm weiter – eine Kunstfigur, die sie über Jahre erfolgreich in eine gesellschaftliche Position, finanzielle Unabhängigkeit und Zugang zu den einflussreichsten Kreisen Europas übersetzte. Der Dreierflügel lieferte die strategische Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Wirkung, die diese Inszenierung mit Leben füllte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwischen den Fronten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Während des Ersten Weltkriegs bewegte sich Mata Hari als niederländische Staatsbürgerin – neutral auf dem Papier – frei zwischen Frankreich, Deutschland und weiteren europäischen Ländern und unterhielt Beziehungen zu hochrangigen Militärs beider Kriegsparteien. 1917 wurde sie von der französischen Militärjustiz der Spionage für Deutschland angeklagt, in einem Prozess mit dünner, bis heute umstrittener Beweislage verurteilt und am 15. Oktober 1917 erschossen.</p>
+          <p class="vb-intro">Sie soll dem Erschießungskommando ohne Augenbinde und ohne sichtbare Angst entgegengetreten sein – ein letzter, öffentlicher Auftritt der selbst geschaffenen Figur, bis zum eigenen Tod in der Rolle, die sie sich Jahrzehnte zuvor selbst gegeben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>aus einer zerstörten Existenz heraus eine neue, wirkungsvolle Identität zu schaffen, die tatsächlich trägt</strong> – Mata Hari verwandelte eine traumatische Ehe und den Verlust ihres Kindes in eine der einflussreichsten Selbsterfindungen ihrer Zeit, finanziell unabhängig und gesellschaftlich einflussreich in einer Welt, die Frauen kaum eigenständige Wege ließ.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei eng verknüpft mit der Frage, ob man für den einen wichtigen Menschen unentbehrlich genug ist. Genau diese Abhängigkeit von persönlicher Nähe zu Mächtigen wurde ihr am Ende zum Verhängnis: Ihre Beziehungen zu Militärs beider Seiten, die ihr einst Sicherheit und Einfluss verschafft hatten, lieferten der französischen Justiz die Vorlage für eine Anklage, gegen die sie sich am Ende nicht mehr wirksam verteidigen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kamel, das bis zuletzt seine Haltung bewahrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mata Hari gehört zu den bekanntesten Frauengestalten des frühen zwanzigsten Jahrhunderts – weniger wegen einer wirklich geklärten Spionagegeschichte als wegen einer selbst erschaffenen Kunstfigur, die so überzeugend war, dass sie bis heute kaum von der historischen Person zu trennen ist.</p>
+          <p class="vb-intro">Vom gewaltgeprägten Kolonialleben über die selbst erfundene javanische Priesterin bis zum letzten, aufrechten Gang vor das Erschießungskommando: Das ist die sexuelle Zwei mit Dreierflügel in ihrer dramatischsten Form – eine Hingabe an einzelne Menschen, die zur eigenen Identität wurde, und eine selbst gewählte Rolle, die sie bis zum eigenen Tod nicht mehr ablegte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
       ])}
     </div>
   `);
@@ -139802,6 +139872,7 @@ function render() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-mata-hari": mataHariPortraitPage,
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,

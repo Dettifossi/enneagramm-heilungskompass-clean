@@ -1,3 +1,517 @@
+function annaDelveyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Anna Delvey \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anna Delvey</p>
+        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russisch-deutsche Hochstaplerin in New York \u00b7 Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Anna Delvey</strong> \u2013 b\xfcrgerlich Anna Sorokin \u2013 gab sich in der New Yorker
+        Hochgesellschaft als reiche deutsche Erbin aus und erg\xe4ppte damit
+        Hotels, Banken, Kunstinstitutionen und Privatpersonen um Hunderttausende
+        Dollar. Zwischen 2016 und 2017 inszenierte sie eine vollst\xe4ndige Identit\xe4t:
+        Designerkleidung, Fotoauftritte, gro\xdfz\xfcgige Auftritte in Luxusrestaurants \u2013
+        alles auf Pump, alles auf Kredit, alles auf Bluff. 2019 wurde sie wegen
+        Betruges verurteilt, 2022 nach Verb\xfc\xdfung der Strafe auf Kaution freigelassen
+        und sp\xe4ter in Abschiebehaft genommen. Heute vermarktet sie ihre Geschichte
+        als Marke. Der Fall Delvey ist kein gew\xf6hnlicher Betrug \u2013
+        er ist eine pr\xe4zise Inszenierung des gesellschaftlichen Aufstiegs:
+        eine Zwei, die mit dem Dreierfl\xfcgel gelernt hat, dass Image genug ist,
+        solange niemand hinter die Kulissen schaut.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Anna Delvey</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
+        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen, verbunden mit
+        dem unbewussten Anspruch auf Gegenleistung und Zugeh\xf6rigkeit zu einer
+        Sph\xe4re, die man sich nicht verdient hat, sondern die man sich nimmt.
+        Die selbsterhaltende Zwei (SE2) \u2013 von Naranjo als \u201ePrivileg" beschrieben \u2013
+        stellt die eigenen Bed\xfcrfnisse ins Zentrum, verh\xfcllt durch das Spiel
+        der F\xfcrsorge und der Zugeh\xf6rigkeit. Der Dreierfl\xfcgel verleiht ihr
+        eine strahlende, selbstbewusste Au\xdfenpr\xe4senz: Sie wei\xdf, wie man
+        Eindruck macht, wie man Bilder erzeugt, wie man Wert signalisiert
+        ohne ihn zu besitzen. In Delveys Fall entstand daraus ein System,
+        das auf Fassade beruhte \u2013 und jahrelang funktionierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
+        <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
+        sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
+        weltgew\xe4ndt. Das ist die Zwei mit Dreierfl\xfcgel:
+        Sie wei\xdf, wie sie wirkt \u2013 und nutzt diese Wirkung.</p>
+        <p class="vb-intro"><strong>b) Einnehmend ohne Offenbarung:</strong>
+        <strong>Delvey</strong> gab viel vor \u2013 und wenig preis. Menschen, die sie kannten,
+        beschrieben sp\xe4ter das Gef\xfchl, sie nie wirklich gekannt zu haben.
+        Die Zwei teilt das, was Eindruck macht, und verbirgt, was
+        Schw\xe4che zeigen k\xf6nnte.</p>
+        <p class="vb-intro"><strong>c) K\xfchl bei Konfrontation:</strong>
+        Wenn Delvey mit Inkonsistenzen konfrontiert wurde,
+        reagierte sie nicht nerv\u00f6s, sondern k\xfchl und \xfcberlegen.
+        Das ist der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
+        auch unter Druck das Image aufrechtzuerhalten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Status als Mittel der Zugeh\xf6rigkeit:</strong>
+        F\xfcr Delvey war Luxus kein Selbstzweck \u2013
+        er war eine Sprache. Die SE2 will dazugeh\xf6ren,
+        will in einer bestimmten Welt willkommen sein.
+        Delvey lernte diese Sprache perfekt und sprach sie
+        flie\xdfend \u2013 auch ohne die Mittel daf\xfcr zu haben.</p>
+        <p class="vb-intro"><strong>b) Helfen und Verf\xfchren als Strategie:</strong>
+        Die Zwei gewinnt Zugeh\xf6rigkeit durch Geben.
+        Delvey gab Einladungen, Drinks, Aufmerksamkeit,
+        das Gef\xfchl, besonders zu sein \u2013 und erschuf so
+        Netzwerke aus Verbindlichkeit.</p>
+        <p class="vb-intro"><strong>c) Privilegiertheitsgef\xfchl als innere \xdcberzeugung:</strong>
+        Die SE2 glaubt, auf Grund ihrer besonderen Qualit\xe4ten
+        Anspruch auf Dinge zu haben, die anderen verwehrt bleiben.
+        Delvey glaubte offenbar wirklich, dass ihr
+        der Aufstieg in diese Welt zustand \u2013
+        und erschuf den Weg dorthin kurzerhand selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Meisterin der sozialen Inszenierung:</strong>
+        <strong>Delvey</strong> verstand die ungeschriebenen Regeln der
+        New Yorker Hochgesellschaft besser als viele, die
+        dort aufgewachsen waren. Der Dreierfl\xfcgel gibt ihr
+        das Gespr\xfcr f\xfcr Codes, Bilder, Signale \u2013
+        und die F\xe4higkeit, sie zu spielen.</p>
+        <p class="vb-intro"><strong>b) Hochgradige Anpassungsf\xe4higkeit:</strong>
+        Sorokin wurde zu Delvey, Delvey wurde zur
+        deutschen Erbin, die deutsche Erbin wurde zur
+        K\xfcnstlerin, dann zur Marke. Die Zwei mit
+        Dreierfl\xfcgel kann ihre Identit\xe4t nach Kontext
+        formen \u2013 weil Identit\xe4t f\xfcr sie nie vollst\xe4ndig
+        real, sondern immer auch Performance war.</p>
+        <p class="vb-intro"><strong>c) Grenze zwischen Selbstt\xe4uschung und bewusstem Betrug:</strong>
+        Was Delveys Fall besonders macht: Es ist nicht ganz klar,
+        wo Kalk\u00fcl endet und Selbstt\xe4uschung beginnt.
+        Glaubte sie, das Geld irgendwann zu haben?
+        Oder war alles kalter Plan? Die Zwei im Stolz
+        kann beides gleichzeitig sein \u2013
+        sie t\xe4uscht andere und sich selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Bewunderung und Unglauben:</strong>
+        <strong>Delvey</strong> l\xf6ste in der \xd6ffentlichkeit eine unerwartete Reaktion aus:
+        viele Menschen \u2013 besonders Frauen \u2013 empfanden
+        eine gewisse Faszination f\xfcr sie. Sie hatte das getan,
+        was viele insgeheim wollten: die Regeln des Aufstiegs
+        gebrochen und trotzdem gewonnen \u2013 zumindest f\xfcr eine Weile.</p>
+        <p class="vb-intro"><strong>b) Keine klassische Reue:</strong>
+        Im Gef\xe4ngnis, nach der Verurteilung und sp\xe4ter in Interviews
+        zeigte Delvey wenig klassische Schuldbek\xe4mmerung.
+        Dem SE2w3er fehlt der Zugang zur eigenen Verletzlichkeit \u2013
+        sie ist immer noch in der Rolle, immer noch
+        auf der B\xfchne.</p>
+        <p class="vb-intro"><strong>c) Marke als letzter Akt:</strong>
+        <strong>Delvey</strong> hat ihre Geschichte vermarktet \u2013 Netflix-Serie,
+        Podcast, Kunstinstallationen aus der Abschiebehaft.
+        Das ist konsequente Dreier-Logik: Wenn schon Scheitern,
+        dann inszeniertes Scheitern. Der Schaden an anderen bleibt \u2013
+        aber die Marke lebt weiter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Anziehend und magnetisch:</strong>
+        Delveys Energie war einladend, glamour\xf6s, vielversprechend.
+        Menschen wollten in ihrer N\xe4he sein, weil sie das Gef\xfchl
+        vermittelte, dass etwas Besonderes passiert.
+        Das ist die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
+        zugleich W\xe4rme und Spektakel.</p>
+        <p class="vb-intro"><strong>b) Kontrollierte Emotionalit\xe4t:</strong>
+        Anders als der Einserfl\xfcgel, der moralisch aufgeladen wirkt,
+        bleibt der Dreierfl\xfcgel k\xfchl und kalkuliert.
+        Delvey zeigte nie zu viel \u2013
+        Emotion als Mittel, nicht als Zustand.</p>
+        <p class="vb-intro"><strong>c) Verbindlichkeit durch Exklusivit\xe4t:</strong>
+        Wer von Delvey eingeladen wurde, f\xfchlte sich besonders.
+        Dieses Gef\xfchl ist ein klassisches Zwei-Mittel:
+        Zugeh\xf6rigkeit als Gabe \u2013 die gleichzeitig
+        Abh\xe4ngigkeit erzeugt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
+        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
+        Das Flusspferd gilt als gem\xfctliches, wasserliebendes Tier \u2013
+        und ist dabei eines der gef\xe4hrlichsten \xdcbers\xe4ugetiere Afrikas.
+        Delvey wirkte charming, weltoffen, ungef\xe4hrlich \u2013
+        bis die Betr\xfcgereien aufgedeckt wurden.</p>
+        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck trotz scheinbarer Grazie:</strong>
+        Das Flusspferd bewegt sich elegant im Wasser \u2013
+        aber verursacht an Land eine Schneise der Zerst\xf6rung.
+        Delvey hinterlie\xdf einen Schaden, der zum
+        glanzvollen Auftreten in keinem Verh\xe4ltnis stand.</p>
+        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
+        Das Flusspferd verteidigt sein Revier bedingungslos \u2013
+        und hinterfragt es nicht. Delvey verteidigte
+        ihre Identit\xe4t als reiche Erbin mit derselben
+        Unbedingtheit \u2013 bis das System zusammenbrach.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Anna Delvey</strong> ist das pr\xe4ziseste Portr\xe4t der SE2w3 in der Popkultur:
+        Sie zeigt, wie der Stolz der Zwei \u2013 das Gef\xfchl, besonders zu sein
+        und besondere Rechte zu haben \u2013 durch den Dreierfl\xfcgel in eine
+        vollst\xe4ndige Lebensinszenierung \xfcbersetzt werden kann.
+        Was sie unterscheidet von klassischen Betr\xfcgern ist das Gef\xfchl,
+        dass sie selbst an ihre Rolle glaubte \u2013 zumindest teilweise.
+        Der Schaden war real: gestohlenes Geld, zerst\xf6rte Verbindungen,
+        benutzte Menschen. Aber das Innenleben der Zwei bleibt
+        \xfcberzeugt: Es war nicht Unrecht \u2013 es war Aufstieg.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
+        Claudio Naranjo nannte die SE2 den Subtyp des Privilegs:
+        Sie glaubt, durch ihre besondere Art zu geben und zu sein,
+        Anspruch auf mehr zu haben als andere.
+        F\xfcr Delvey war das kein Wunsch \u2013 es war eine Gewissheit.</p>
+        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel \u2013 Bild als Realit\xe4t:</strong>
+        Der Dreierfl\xfcgel lehrt: Wenn das Bild \xfcberzeugt,
+        ist das Bild real. Diese Logik durchzieht Delveys
+        gesamtes System \u2013 von der erfundenen Biografie bis
+        zur heutigen Selbstvermarktung. Image ist nicht Mittel.
+        Image ist Ziel.</p>
+        <p class="vb-intro"><strong>c) Stolz als sozialer Klebstoff:</strong>
+        Delveys Stolz war nicht Arroganz nach au\xdfen \u2013
+        er war eine innere \xdcberzeugung von Ausnahmestellung,
+        die ihr erlaubte, Grenzen zu \xfcberschreiten,
+        ohne sie als Grenzen wahrzunehmen.</p>
+        <p class="vb-intro"><strong>d) Entspannungspunkt Vier \u2013 der fehlende Zugang:</strong>
+        Der Entspannungspunkt der Zwei ist die Vier.
+        In Gesundheit hei\xdft das: echte Selbstreflexion,
+        Zugang zur eigenen Trauer, zur eigenen Sehnsucht.
+        Delvey zeigte kaum Anzeichen davon \u2013
+        sie bewegte sich immer auf der Oberfl\xe4che
+        der Inszenierung, nie darunter.</p>
+        <p class="vb-intro"><strong>e) Vergleich mit Harvey Weinstein:</strong>
+        Weinstein (SE2w1) und Delvey (SE2w3) nutzen denselben
+        Grundmechanismus: das Gef\xfchl der Ausnahmestellung,
+        das Zweier-Privileg. Der Einserfl\xfcgel moralisiert
+        das Privileg; der Dreierfl\xfcgel \xe4sthetisiert es.
+        Weinstein rechtfertigte, Delvey inszenierte.</p>
+        <p class="vb-intro"><strong>f) Die Frage der Verantwortung:</strong>
+        Delveys Fall l\xf6ste eine gesellschaftliche Debatte aus:
+        Ist sie Opfer eines Systems, das Frauen den direkten
+        Aufstieg verwehrt, oder Betr\xfcgerin ohne Entschuldigung?
+        Aus Enneagramm-Sicht ist beides wahr \u2013
+        und das ist das Wesen der Leidenschaft:
+        Sie ist nicht b\xf6se Absicht. Sie ist blinder Fleck.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 alle Zwei-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich: Stolz, F\xfcrsorge, Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Anna Delvey wurde 2019 in New York wegen Betrugs schuldig gesprochen und verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
+      ])}
+    </div>
+  `);
+}
+
+function jonathanMeijerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Jonathan Meijer \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jonathan Meijer</p>
+        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jonathan Meijer</strong> ist ein niederl\xe4ndischer Samenspender, der \xfcber 550 Kinder
+        in aller Welt gezeugt haben soll \u2013 weit mehr als die vereinbarten H\xf6chstgrenzen
+        von Kliniken und Empf\xe4ngerinnen. Er t\xe4uschte Kliniken \xfcber die Gesamtzahl
+        seiner Spenden, ignorierte Absprachen und spendete nach mehrfachen
+        Gerichtsurteilen, die ihm weiteres Spenden untersagten, in anderen L\xe4ndern
+        weiter. Meijer wurde nie strafrechtlich verurteilt \u2013 sein Verhalten
+        bewegte sich in einer juristischen Grauzone. Dennoch hinterlie\xdf er
+        eine der gr\xf6\xdften ethischen Debatte der modernen Reproduktionsmedizin:
+        \xdcber die Grenzen von Einwilligung, \xfcber den Schaden durch massenhaft
+        unbekannte Halbgeschwister, \xfcber die Frage, ob Helfen Recht gibt
+        oder Grenzen aufhebt. Sein Fall ist aus Enneagramm-Sicht hochinteressant:
+        Er zeigt, was geschieht, wenn die Leidenschaft der Zwei \u2013 der Stolz
+        auf das eigene Geben \u2013 vollst\xe4ndig die Kontrolle \xfcbernimmt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jonathan Meijer</strong> wird der <strong>Selbsterhaltenden Zwei mit Einserfl\xfcgel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
+        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen und zu geben,
+        verbunden mit dem unbewussten Anspruch auf Gegenleistung und Anerkennung.
+        Die selbsterhaltende Zwei (SE2) \u2013 von Naranjo als \u201ePrivileg" beschrieben \u2013
+        richtet diese Energie nach innen: Sie stellt die eigenen Bed\xfcrfnisse
+        unter dem Deckmantel des Helfens ins Zentrum und entwickelt ein Gef\xfchl
+        von Ausnahmestellung und Unantastbarkeit. Der Einserfl\xfcgel verleiht ihr
+        eine moralische Selbstrechtfertigung: Das Gute, das sie tut, legitimiert
+        jede Grenz\xfcberschreitung. In Meijers Fall entstand daraus ein System,
+        das sich selbst als reine Gro\u00dfz\xfcgigkeit verstand \u2013 und dabei
+        Hunderte von Menschen nachhaltig besch\xe4digte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
+        <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
+        <strong>Meijer</strong> beschrieb sich selbst als warmherzig und f\xfcrsorglich \u2013
+        und seine Wirkung auf viele Empf\xe4ngerinnen best\xe4tigte das.
+        Die Zwei strahlt echte W\xe4rme aus; ihr Blick signalisiert
+        Aufmerksamkeit, Zugewandtheit, das Gef\xfchl: Ich sehe dich,
+        ich bin f\xfcr dich da.</p>
+        <p class="vb-intro"><strong>b) \xdcberzeugt von der eigenen Botschaft:</strong>
+        <strong>Meijer</strong> wirkte auf Interviews und in \xf6ffentlichen Auftritten
+        nicht wie jemand, der l\xfcgt \u2013 er wirkte wie jemand, der glaubt,
+        was er sagt. Das ist das Kernmerkmal der Zwei im Stolz:
+        Sie t\xe4uscht andere nicht in erster Linie absichtlich,
+        sondern weil sie sich selbst t\xe4uscht.</p>
+        <p class="vb-intro"><strong>c) Verletzt bei Kritik:</strong>
+        Wenn Meijer mit dem Schaden konfrontiert wurde, den seine
+        Handlungen angerichtet hatten, wirkte er h\xe4ufig verletzt
+        und unverstanden. Der Einserfl\xfcgel verst\xe4rkt das: Er,
+        der Gutes tut, wird missverstanden \u2013 eine typische
+        SE2w1-Reaktion auf Grenzsetzung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Helfen als Identit\xe4t:</strong>
+        <strong>Meijer</strong> verstand sich als Geschenk an die Welt \u2013
+        im w\xf6rtlichen Sinne. Die Zwei definiert sich \xfcber
+        das, was sie gibt. Wer so viel gibt wie Meijer,
+        hat eine enorme Identit\xe4t als Geber aufgebaut.
+        Diese Identit\xe4t aufzugeben h\xe4tte bedeutet,
+        nichts mehr zu sein.</p>
+        <p class="vb-intro"><strong>b) Regeln als Hindernisse f\xfcr das Gute:</strong>
+        Klinische Obergrenzen, Gerichtsurteile, Absprachen \u2013
+        Meijer umging sie systematisch. F\xfcr die SE2w1 gilt:
+        Wer Gutes tut, steht \xfcber den Regeln, die f\xfcr
+        gew\xf6hnliche Menschen gemacht wurden. Der Einserfl\xfcgel
+        formuliert das als moralisches Prinzip: Die Regeln sind
+        falsch, meine Mission ist richtig.</p>
+        <p class="vb-intro"><strong>c) Bed\xfcrfnis nach Ausnahmestellung:</strong>
+        Die selbsterhaltende Zwei entwickelt ein Gef\xfchl
+        von Privileg \u2013 sie ist besonders, ihre Ressourcen
+        sind besonders, ihr Beitrag ist besonders.
+        Meijer sah seine genetische Gesundheit und sein
+        Aussehen als Gabe, die er der Welt nicht vorenthalten
+        durfte. Das ist SE2-Stolz in seiner unverfälschtesten Gestalt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Unbewusste Eigeninteressen:</strong>
+        <strong>Meijer</strong> betonte immer wieder seinen altruistischen Antrieb.
+        Aber was die SE2 nicht sieht: Hinter dem Geben stecken
+        eigene Bed\xfcrfnisse \u2013 nach Bedeutung, nach Verbindung,
+        nach dem Gef\xfchl, unersetzlich zu sein.
+        550 Kinder sind nicht Altruismus \u2013 sie sind
+        ein Monument der eigenen Unersetzlichkeit.</p>
+        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
+        Der Einserfl\xfcgel gibt der Zwei eine innere Stimme,
+        die ihr Verhalten nicht nur erlaubt, sondern fordert.
+        Meijer handelte aus \xdcberzeugung \u2013 und diese \xdcberzeugung
+        schirmte ihn gegen\xfcber jedem Einwand ab.
+        Das ist die gef\xe4hrlichste Kombination: Geben als Pflicht,
+        Grenzen als Unrecht.</p>
+        <p class="vb-intro"><strong>c) Kontrolle durch F\xfcrsorge:</strong>
+        Die Zwei h\xe4lt Verbindungen aufrecht, weil sie
+        gebraucht werden will. Meijer suchte aktiv Kontakt
+        zu donorkind-Gruppen, zum Teil gegen deren Willen.
+        Das ist SE2-Kontrolle: nicht durch Macht,
+        sondern durch das Angebot von sich selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Sympathisch und schwer greifbar:</strong>
+        <strong>Meijer</strong> wurde nie strafrechtlich verurteilt \u2013 auch weil
+        sein Verhalten sich juristisch in Graubereichen bewegte,
+        aber auch weil er schlicht sympathisch wirkte.
+        Die Zwei hat diese Qualit\xe4t: Sie macht es schwer,
+        ihr b\xf6se zu sein, weil sie so offensichtlich
+        helfen will.</p>
+        <p class="vb-intro"><strong>b) Uneinsichtig trotz Konsequenzen:</strong>
+        Selbst nach mehreren Gerichtsurteilen, nach internationaler
+        Berichterstattung und nach dem Schmerz vieler Betroffener
+        zeigte Meijer wenig echte Einsicht. Das ist die Zwei
+        im Stolz: Kritik wird als Missverst\xe4ndnis erlebt,
+        nicht als berechtigter Einwand.</p>
+        <p class="vb-intro"><strong>c) Gro\xdfes Vergehen, kleines Bewusstsein:</strong>
+        Die Diskrepanz zwischen dem Ausma\xdf des Schadens
+        und Meijers Selbstwahrnehmung ist das Erschreckendste
+        an seinem Fall. Das ist das Wesen des Zwei-Stolzes:
+        Man sieht das eigene Geben, aber nicht die eigene
+        Wirkung auf andere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) W\xe4rmend und einbindend:</strong>
+        Meijers Energie ist die der F\xfcrsorge \u2013 einladend,
+        w\xe4rmend, pr\xe4sent. Menschen in seiner N\xe4he f\xfchlten sich
+        gesehen. Das ist das Gesckenk der gesunden Zwei
+        und gleichzeitig ihr wirksamster Einflusskanal.</p>
+        <p class="vb-intro"><strong>b) Unterschwelliger Anspruch:</strong>
+        Darunter lag ein Anspruch: Anerkennst du, was ich f\xfcr
+        dich tue? Die Zwei gibt nie bedingungslos \u2013 sie gibt
+        immer mit der stillen Erwartung von R\xfcickkehr.
+        Wer das nicht erf\xfcllte, erlebte Meijer
+        als verletzt oder kalt.</p>
+        <p class="vb-intro"><strong>c) Einserfl\xfcgel als moralische Ladung:</strong>
+        Der Einserfl\xfcgel gibt der Energie eine moralische
+        Schwere: Ich handle nicht nur gut, ich handle richtig.
+        Diese moralische Aufgeladenheit kann einsch\xfcchternd
+        wirken \u2013 wer Meijer kritisierte, kritisierte
+        nicht nur einen Menschen, sondern eine Mission.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
+        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
+        Das Flusspferd wird oft f\xfcr gem\xfctlich und tr\xe4ge gehalten \u2013
+        dabei ist es eines der gef\xe4hrlichsten Tiere Afrikas.
+        Es verteidigt sein Revier mit \xfcberw\xe4ltigender Kraft,
+        ohne dass es nach au\xdfen bedrohlich wirkt.
+        Meijer wurde lange als harmlosen Wohlt\xe4ter wahrgenommen \u2013
+        bis das Ausma\xdf seines Handelns sichtbar wurde.</p>
+        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck im \xd6kosystem:</strong>
+        Das Flusspferd ver\xe4ndert seine Umgebung grundlegend \u2013
+        durch seine schiere K\xf6rpermasse, seinen N\xe4hrstoffaussto\xdf,
+        seine Pr\xe4senz in Gew\xe4ssern. Meijers biologischer Fu\xdfabdruck
+        in der Welt ist \xe4hnlich: massiv, dauerhaft,
+        unumkehrbar \u2013 und f\xfcr viele Betroffene schmerzhaft.</p>
+        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
+        Das Flusspferd kennt keine Selbstreflexion \u2013 es folgt
+        seinen Instinkten mit vollst\xe4ndiger \xdcberzeugung.
+        Meijer folgte seinem Impuls zu geben mit einer
+        \xe4hnlichen Unbedingtheit: keine Grenze, keine Pause,
+        kein Innehalten. Die Zwei im Stolz ist
+        sich selbst gegen\xfcber blind.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Jonathan Meijer</strong> wurde nie verurteilt \u2013 und das macht seinen Fall
+        in gewisser Weise noch lehrreicher als viele andere in dieser Reihe.
+        Er zeigt, dass der gr\xf6\xdfte Schaden nicht immer durch b\xf6sen Willen
+        entsteht, sondern durch das, was die Enneagramm-Tradition
+        Leidenschaft nennt: eine unbewusste, \xfcberm\xe4\xdfige Energie,
+        die sich selbst f\xfcr Tugend h\xe4lt. Der Stolz der Zwei,
+        verst\xe4rkt durch die moralische Selbstgewissheit des Einserfl\xfcgels,
+        erzeugte ein System, das sich als reine Gro\u00dfz\xfcgigkeit verstand \u2013
+        und dabei Hunderte von Leben nachhaltig ver\xe4nderte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
+        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
+        als den Subtyp des \u201ePrivilegs": Sie glaubt, auf Grund
+        ihres Gebens und ihrer F\xfcrsorge besondere Rechte zu haben.
+        Die SE2 stellt ihre eigenen Bed\xfcrfnisse ins Zentrum \u2013
+        aber so geschickt verh\xfcllt durch F\xfcrsorge f\xfcr andere,
+        dass sie es selbst nicht sieht. Meijer wollte spenden
+        und gleichzeitig bedeutsam, erinnert, relevant sein.
+        Das Privileg war nicht Reichtum \u2013 es war Einzigartigkeit.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel \u2013 Pflicht und Recht:</strong>
+        Der Einserfl\xfcgel gibt der Zwei eine mission\xe4re Qualit\xe4t.
+        Er macht aus dem Impuls zu geben eine moralische Pflicht \u2013
+        und aus der Missachtung von Grenzen ein Recht.
+        Meijer handelte nicht aus Bequemlichkeit oder Kalk\xfcl,
+        sondern aus echter, tief verankerter \xdcberzeugung.
+        Das macht ihn schwerer einzuordnen als klassische
+        Kriminelle \u2013 und sein Verhalten schwerer zu stoppen.</p>
+        <p class="vb-intro"><strong>c) Stolz als blinder Fleck:</strong>
+        Die Leidenschaft der Zwei ist Stolz \u2013 aber nicht
+        der offene Hochmut. Es ist ein stiller, unsichtbarer Stolz:
+        die \xdcberzeugung, mehr zu geben als andere,
+        mehr zu f\xfchlen als andere, mehr wert zu sein als andere.
+        Dieser Stolz ist f\xfcr die Zwei selbst unsichtbar.
+        Meijer sah sich als gew\xf6hnlichen Helfer \u2013
+        und war doch von einer grandiosen Selbst\xfcberhebung getrieben.</p>
+        <p class="vb-intro"><strong>d) Kein klassischer Krimineller:</strong>
+        <strong>Meijer</strong> geh\xf6rt in diese Reihe nicht als T\xe4ter im
+        \xfcblichen Sinne, sondern als Beispiel f\xfcr das
+        Schadenspotenzial unbewusster Leidenschaften.
+        Sein Fall zeigt: Die gef\xe4hrlichste Form von
+        Grenz\xfcberschreitung ist nicht die, die sich
+        selbst als b\xf6se erkennt \u2013 sondern die,
+        die sich f\xfcr gut h\xe4lt.</p>
+        <p class="vb-intro"><strong>e) Entspannungspunkt Vier \u2013 Tiefe und Einzigartigkeit:</strong>
+        Der Entspannungspunkt der Zwei ist die Vier.
+        In gesunder Form bedeutet das: echte Selbstreflexion,
+        Zugang zu eigenen Gef\xfchlen, Unterscheidung zwischen
+        echtem Geben und verdeckter Eigeninteressen.
+        Bei Meijer zeigte sich dieser Punkt kaum \u2013
+        was erkl\xe4rt, warum er so lange ohne Innehalten
+        weiterhandelte.</p>
+        <p class="vb-intro"><strong>f) Die ethische Debatte als Verm\u00e4chtnis:</strong>
+        Meijers Fall hat die Reproduktionsmedizin ver\xe4ndert.
+        In den Niederlanden und anderen L\xe4ndern wurden
+        Gesetze gest\xe4rkt, Kliniken strenger reguliert,
+        Obergrenzen gesetzlich verankert. Das ist das
+        bleibende Resultat: Sein Verhalten zwang die Gesellschaft,
+        Grenzen zu definieren, die sie zuvor nicht f\xfcr
+        n\xf6tig gehalten hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei den drei Zweier-Subtypen unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert \u2013 Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jonathan Meijer wurde 2023 in den Niederlanden wegen Versto\u00df gegen Spendenobergrenzen verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
+        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function michaelFranzesePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10435,176 +10949,6 @@ function wolkenformationenDer9TypenPage() {
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
         {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
         {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function wolfsartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Wolfsarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Wolfsarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser W\u00f6lfe und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Der Wolf steht seit Urzeiten f\u00fcr Instinkt, Gemeinschaft und innere St\u00e4rke \u2014 jede Art auf ihre ganz eigene Weise.</p>
-      <img src="./assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Grauwolf: Ordnung und Struktur im Rudel</h3>
-        <p class="vb-intro">Der Grauwolf zeigt ein starkes Territorialverhalten und soziale Hierarchie innerhalb des Rudels, was auf eine Ordnung und Struktur hinweist, die dem Typ 1 sehr \u00e4hnlich ist. Der Grauwolf ist der Architekt des Rudels: Er kennt die Grenzen seines Reviers auf den Meter genau, markiert sie regelm\u00e4\u00dfig und verteidigt sie konsequent. Die Hierarchie im Rudel ist klar geregelt \u2014 nicht durch rohe Gewalt, sondern durch eine soziale Ordnung, die alle anerkennen. Grauw\u00f6lfe fressen zuletzt und trinken zuerst nur, wenn die Situation es erlaubt: Pflicht vor Privileg. Die Leidenschaft des Zorns zeigt sich als innere Spannung, wenn Ordnung und Gerechtigkeit verletzt werden.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Polarwolf: F\u00fcrsorge und kooperatives Miteinander</h3>
-        <p class="vb-intro">Der Polarwolf lebt in extremen Umgebungen und zeigt starkes kooperatives Verhalten innerhalb des Rudels \u2014 was dem Bed\u00fcrfnis von Typ 2 entspricht, f\u00fcr andere zu sorgen. Der Polarwolf \u00fcberlebt die Arktis nur durch radikale Kooperation: Die gesamte Gruppe k\u00fcmmert sich gemeinsam um den Nachwuchs, teilt Beute auch mit schw\u00e4cheren Rudelmitgliedern und h\u00e4lt auch bei extremem Frost zusammen. Jeder im Rudel hat eine Rolle, aber niemand wird allein gelassen. Der Polarwolf ist wei\u00df wie Schnee \u2014 kein Versteck, volle Sichtbarkeit: Ich bin hier, ich helfe, ich geh\u00f6re dazu. Die Leidenschaft des Stolzes zeigt sich als tiefer Wunsch, unverzichtbar f\u00fcr das \u00dcberleben anderer zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Rotwolf: Anpassungsf\u00e4higkeit und \u00dcberlebenswille</h3>
-        <p class="vb-intro">Der Rotwolf ist bekannt f\u00fcr seine Anpassungsf\u00e4higkeit und \u00dcberlebensf\u00e4higkeiten, was den Erfolg und die Anerkennung widerspiegelt, die den Typ 3 antreiben. Der Rotwolf ist einer der seltensten W\u00f6lfe der Welt \u2014 und ein Meister der Anpassung. Er hat Jahrhunderte der Verfolgung \u00fcberlebt, indem er sein Verhalten, sein Revier und seine Jagdstrategie der jeweiligen Situation anpasste. Heute existiert er fast nur noch in Gefangenschaftszuchtprogrammen \u2014 ein Zeuge davon, wie weit \u00dcberlebenswille reichen kann. Der Rotwolf sucht keine Konfrontation, er findet Wege. Die Leidenschaft der Eitelkeit zeigt sich als Identifikation mit dem eigenen Erfolg \u2014 der Wille, trotz allem zu bestehen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 M\u00e4hnenwolf: Einzigartigkeit und seltenes Wesen</h3>
-        <p class="vb-intro">Der M\u00e4hnenwolf zeichnet sich durch sein markantes Aussehen, seine spezielle Lebensweise und sein sehr individuelles Verhalten aus \u2014 was der Besonderheit von Typ 4 entspricht. Der M\u00e4hnenwolf ist kein echter Wolf und kein Fuchs \u2014 er ist einzigartig: die einzige Art seiner Gattung. Mit langen schwarzen Beinen, rotbraunem Fell und einer schwarzen M\u00e4hne ist er unverwechselbar. Er lebt als Einzelg\u00e4nger in den Cerrado-Savannen Brasiliens und streift weitr\u00e4umig und allein durch sein Territorium. Er meidet andere M\u00e4hnenw\u00f6lfe, au\u00dfer zur Paarungszeit. Die Leidenschaft des Neids zeigt sich als Sehnsucht nach tiefer Verbindung bei gleichzeitigem Festhalten an der eigenen Andersartigkeit.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Arabischer Wolf: R\u00fcckzug und stille Beobachtung</h3>
-        <p class="vb-intro">Der arabische Wolf lebt in extremen W\u00fcstenregionen und zeigt ein zur\u00fcckhaltendes Verhalten, das dem Typ 5 entspricht. Der Arabische Wolf ist der kleinste Wolf der Welt \u2014 und der einsamste. Er lebt meist als Einzelg\u00e4nger oder in kleinen Paaren in den W\u00fcsten der Arabischen Halbinsel und Israels, und hat sich an Hitze und Trockenheit angepasst wie kein anderer Canide. Er jagt nachts, h\u00e4lt sich tags\u00fcber verborgen und braucht wenig, um zu \u00fcberleben: minimale Ressourcen, maximale Effizienz. Die Leidenschaft des Geizes zeigt sich als \u00e4u\u00dferste Sparsamkeit mit allem \u2014 Energie, Raum, Vertrauen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Eurasischer Wolf: Loyalit\u00e4t und Rudelzusammenhalt</h3>
-        <p class="vb-intro">Der eurasische Wolf zeigt innerhalb des Rudels starke soziale Bindungen, gro\u00dfe Loyalit\u00e4t, gute Zusammenarbeit und ein intensives Sicherheitsverhalten, sehr \u00e4hnlich dem Typ 6. Der Eurasische Wolf ist der Wolf Europas und Asiens \u2014 verbreitet, ausdauernd, sozial tief verwurzelt. Sein Rudel ist eine Gemeinschaft mit klaren Rollen und starker gegenseitiger Abh\u00e4ngigkeit: Die Sicherheit des Einzelnen h\u00e4ngt vom Zusammenhalt aller ab. Bedrohungen werden kollektiv registriert und kollektiv beantwortet. Der Eurasische Wolf ist wachsam, aber nie unbesonnen. Die Leidenschaft der Angst zeigt sich als Hyperaufmerksamkeit f\u00fcr alles, was die Sicherheit des Rudels bedrohen k\u00f6nnte.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Indischer Wolf: Neugier und Lebhaftigkeit</h3>
-        <p class="vb-intro">Der indische Wolf lebt meist in Rudeln und zeigt eine gro\u00dfe Neugier in verschiedensten Lebensr\u00e4umen \u2014 bekannt f\u00fcr die abenteuerliche und begeisterte Natur des Typ 7. Der Indische Wolf ist kleiner und leichter als seine europ\u00e4ischen Verwandten \u2014 und beweglicher. Er bewohnt offene Grassteppen und Halbw\u00fcsten Indiens und hat sich an ein Leben angepasst, das st\u00e4ndige Bewegung erfordert: weite Streifz\u00fcge, wechselnde Jagdgr\u00fcnde, neue Territorien. Er ist verspielter als andere Wolfsarten und zeigt selbst als Erwachsener h\u00e4ufig spielerisches Verhalten. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Appetit auf neue R\u00e4ume und Erfahrungen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Timberwolf: Dominanz und F\u00fchrungsst\u00e4rke</h3>
-        <p class="vb-intro">Der Timberwolf ist der gr\u00f6\u00dfte wildlebende Wolf der Welt, lebt in stark strukturierten Rudeln, die aus einem Alpha-Paar und dessen Nachkommen bestehen \u2014 Eigenschaften, die der Durchsetzungsf\u00e4higkeit des Typs 8 entsprechen. Der Timberwolf der nordamerikanischen W\u00e4lder ist ein Wolf, der Landschaften pr\u00e4gt: Wo er lebt, reguliert er die Best\u00e4nde der Huftiere und damit die gesamte \u00d6kologie seines Lebensraums \u2014 der sogenannte trophische Kaskaden-Effekt. Er braucht kein Einverst\u00e4ndnis, er gestaltet. Im Rudel f\u00fchrt das Alpha-Paar mit einer Kombination aus St\u00e4rke und Erfahrung, die nicht hinterfragt wird. Die Leidenschaft der Gier zeigt sich als ungestillter Wille zur Kontrolle und zum Gestalten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Iberischer Wolf: Harmonie und Ausgleich</h3>
-        <p class="vb-intro">Der iberische Wolf zeigt oft ein ruhiges und zur\u00fcckhaltendes Verhalten und lebt harmonisch in kleineren Rudeln \u2014 was dem friedliebenden und ausgleichenden Wesen von Typ 9 entspricht. Der Iberische Wolf ist kleiner und scheuer als der Grauwolf \u2014 ein Tier, das \u00fcber Jahrhunderte der Verfolgung gelernt hat, m\u00f6glichst unsichtbar zu sein. Er meidet Konflikte mit Menschen, lebt in kleinen Familienrudeln und h\u00e4lt sich in Bergregionen Portugals und Spaniens verborgen. Sein Territorium verteidigt er still und ohne unn\u00f6tige Eskalation. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, den Frieden des Waldes nicht zu st\u00f6ren \u2014 einfach zu sein, im Verborgenen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"wolkenformationen-der-9-typen", label:"Wolkenformationen der 9 Typen"},
-        {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function wetterNaturphaenomeneDer9TypenPage() {
-  const bild = (datei, alt) => `<img src="./assets/${datei}" alt="${alt}"
-        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Wetter- und Naturph\u00e4nomene der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Wetter- und Naturph\u00e4nomene der 9 Typen</h1>
-      <p class="psycho-intro">Die Natur dr\u00fcckt die neun Ur-Energien des Enneagramms in ihren eigenen Zyklen aus: Frost und Regen, Sonne und Nebel, Sternennacht und Sturm, Regenbogen und Vulkan, der stille See. Jedes Wetterph\u00e4nomen tr\u00e4gt ein eigenes Prinzip in sich \u2013 eine eigene Bewegung, eine eigene Qualit\u00e4t von Kraft, Ruhe oder Wandel. Neun Naturph\u00e4nomene, neun Enneagrammprinzipien.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Der Frost / Die Kristallbildung: Erstarrte Form</h3>
-      ${bild("wetter-1-frost.jpg", "Rauhreif-Kristalle an gefrorenen Zweigen")}
-      <p class="vb-intro">Frost entsteht, wenn Feuchtigkeit unter fallender Temperatur nicht chaotisch gefriert, sondern sich zu einer exakten, geometrisch reinen Struktur ordnet \u2013 jede Eiskristallnadel folgt demselben inneren Bauplan, nichts ist zuf\u00e4llig, nichts wirkt "unordentlich". Genau das ist die Signatur von Typ 1: der innere Drang, Chaos in eine korrekte, makellose Form zu bringen, bevor sie als "fertig" gelten darf. Frost ist au\u00dferdem kalt und hart, solange er nicht erw\u00e4rmt wird \u2013 ein Bild f\u00fcr die Strenge, mit der Einser zun\u00e4chst sich selbst, dann die Welt bewerten: nichts darf schmelzen, solange die Form nicht stimmt. Und so, wie Rauhreif bei den ersten Sonnenstrahlen in klares, flie\u00dfendes Wasser \u00fcbergeht, l\u00f6st sich auch die Strenge der Einser, sobald sie sich selbst mit W\u00e4rme statt mit Kritik begegnen \u2013 die Perfektion wird dann nicht aufgegeben, sondern lebendig.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Der warme Fr\u00fchlingsregen: N\u00e4hrend</h3>
-      ${bild("wetter-2-fruehlingsregen.jpg", "Regentropfen auf frischem Fr\u00fchlingsgras")}
-      <p class="vb-intro">Fr\u00fchlingsregen f\u00e4llt nicht als Unwetter, sondern sanft und beharrlich \u2013 er weckt das Wachstum in allem, was er ber\u00fchrt, ohne selbst sichtbar zu bleiben. Er sickert in den Boden, dorthin, wo die Wurzeln sind, und wirkt im Verborgenen weiter, lange nachdem die Wolken schon weitergezogen sind. Das ist die Kernbewegung der Zwei: sich in den Dienst des Wachstums anderer stellen, oft unbemerkt, ohne daf\u00fcr Anerkennung zu verlangen \u2013 N\u00e4he geben, die den anderen aufbl\u00fchen l\u00e4sst. Die Kehrseite zeigt sich, wenn Regen nicht mehr aufh\u00f6rt: Ein Boden, der st\u00e4ndig \u00fcbergossen wird, kann \u00fcberfluten, Wurzeln k\u00f6nnen faulen. Die Tendenz der Zweier, so viel zu geben, dass die eigenen Grenzen verschwimmen, tr\u00e4gt dasselbe Risiko \u2013 sie selbst trocknen aus, weil sie sich nie "gie\u00dfen" lassen. Reife bei Typ 2 hei\u00dft: den eigenen Regen auch f\u00fcr sich selbst fallen lassen.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Die Mittagssonne: Volle Strahlkraft</h3>
-      ${bild("wetter-3-mittagssonne.jpg", "Sonnenblume in voller Bl\u00fcte im hellen Sonnenlicht")}
-      <p class="vb-intro">Die Sonne im Zenit ist der Moment maximaler Sichtbarkeit und Kraft \u2013 Schatten werden minimal, jede Form, jede Farbe, jede Leistung wird sichtbar. Eine Sonnenblume folgt dieser Sonne den ganzen Tag \u00fcber, dreht sich ihr entgegen, \u00f6ffnet sich ihr voll \u2013 sie ist auf Strahlkraft hin gebaut. Genau das spiegelt den Antrieb der Drei: strahlen, gl\u00e4nzen, Erfolg und F\u00e4higkeit sichtbar machen, sich der Anerkennung entgegendrehen wie die Bl\u00fcte dem Licht. Doch Mittagssonne blendet auch: In ihrem grellen Licht verschwimmen die feinen Konturen, man sieht weniger klar, gerade weil das Licht so intensiv ist. Ebenso kann die Selbstdarstellung der Dreier verdecken, wer sie "im eigenen Schatten", jenseits der Leistung und der B\u00fchne, eigentlich sind. Die Reife dieses Typs entsteht, wenn er auch bei bew\u00f6lktem Himmel wei\u00df, dass er wertvoll ist.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Der Nebel / Der Herbst: Melancholisch, geheimnisvoll</h3>
-      ${bild("wetter-4-nebel-herbst.jpg", "Herbstlicher Nebelsee mit gespiegelten B\u00e4umen")}
-      <p class="vb-intro">Nebel \u00fcber einem herbstlichen See verwischt die Grenzen zwischen Wasser, Ufer und Himmel \u2013 Vertrautes wird fremd und zugleich poetisch, weil man die Konturen der Welt nur ahnt, nicht klar sieht. Der Herbst als Jahreszeit des \u00dcbergangs, der Verg\u00e4nglichkeit in voller Farbenpracht, spricht die Vier unmittelbar an: Das Gef\u00fchl von Tiefe entsteht bei diesem Typ gerade aus dem Bewusstsein des Verlusts, aus dem Wissen, dass jede Sch\u00f6nheit auch vergeht. Die ged\u00e4mpfte, gold-braune Stimmung eines Nebelmorgens im Herbst tr\u00e4gt genau diese Mischung aus Sehnsucht, Wehmut und stiller Sch\u00f6nheit, die f\u00fcr Vierer zum eigentlichen Lebensgef\u00fchl wird. Nebel hebt sich aber auch \u2013 und dahinter liegt oft \u00fcberraschende Klarheit. Ein Bild daf\u00fcr, dass die emotionale Intensit\u00e4t der Vierer kein Endzustand sein muss, sondern ein Durchgang zu echter, undramatischer Pr\u00e4senz.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Die Sternennacht / Polarnacht: Stille, Tiefe</h3>
-      ${bild("wetter-5-polarnacht.jpg", "Sternenhimmel mit Polarlicht in der Polarnacht")}
-      <p class="vb-intro">Die Polarnacht ist Stille, Distanz, unendliche Weite \u2013 ein Raum, in dem man tagelang beobachten kann, ohne selbst gesehen zu werden, in dem R\u00fcckzug kein Mangel, sondern die Bedingung f\u00fcr Klarheit ist. Genau das trifft den R\u00fcckzugsimpuls der F\u00fcnf: Abstand schaffen, um zu verstehen, bevor man sich einl\u00e4sst; die Dinge erst in Ruhe durchdenken, dann erst handeln. Die Sterne und das Polarlicht selbst stehen f\u00fcr das, was die F\u00fcnf sammelt \u2013 Wissen, Muster, Einsicht, aus sicherer Entfernung betrachtet, ohne den L\u00e4rm des Tages, der die feinen Lichter am Himmel \u00fcberstrahlen w\u00fcrde. Die Herausforderung dieses Bildes: eine Nacht, die zu lange dauert, in der niemand mehr zur\u00fcckkehrt ins Tageslicht der Verbindung. Reife bei Typ 5 bedeutet, die gesammelte innere Klarheit auch mit anderen zu teilen, statt sie nur f\u00fcr sich zu behalten.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Der Wind / Das aufziehende Unwetter: Achtsamkeit, Warnung</h3>
-      ${bild("wetter-6-unwetter.jpg", "Blitz \u00fcber Bergen, aufziehende Gewitterwolken")}
-      <p class="vb-intro">Der Wind, der das Kommende ank\u00fcndigt, das Barometer, das f\u00e4llt, die Wolken, die sich \u00fcber den Bergen auft\u00fcrmen \u2013 das ist reine Wachsamkeit, das Lesen von Signalen, bevor die eigentliche Gefahr \u00fcberhaupt da ist. Genau das ist die Gabe der Sechs: Sie sp\u00fcren Risiken, bevor andere sie sehen, sie sind die "Wetterf\u00fchligen" jeder Gruppe, diejenigen, die als Erste merken, wenn sich etwas zusammenbraut. Die Sorge-und-Angst-Dynamik dieses Typs zeigt sich darin, dass der aufziehende Wind selbst noch kein Sturm ist \u2013 aber Sechser erleben ihn oft schon so, als w\u00e4re die Katastrophe bereits eingetroffen, und r\u00fcsten sich entsprechend. Mut bedeutet bei diesem Typ nicht, keine Angst zu haben, sondern: den Wind sp\u00fcren, ernst nehmen \u2013 und ihn trotzdem nicht vorschnell zum Orkan zu erkl\u00e4ren.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Der Regenbogen / Das Sommergewitter: Dynamisch, bunt</h3>
-      ${bild("wetter-7-regenbogen.jpg", "Regenbogen vor der Abendsonne nach einem Sommerregen")}
-      <p class="vb-intro">Ein Sommergewitter ist intensiv, kurz, wechselhaft \u2013 und danach, wenn die Sonne wieder durch die Wolken bricht, erscheint der Regenbogen als Belohnung, als sichtbarer Beweis, dass aus Aufruhr sofort wieder Freude und Farbe entstehen kann. Das ist die Bewegung der Sieben: schnelle Wechsel, viele Farben und Optionen gleichzeitig im Blick, die F\u00e4higkeit, aus praktisch jeder Situation etwas Positives, Leuchtendes zu ziehen. Die Kehrseite: Ein Regenbogen ist fl\u00fcchtig, er verschwindet in dem Moment, in dem man versucht, ihn festzuhalten oder ihm hinterherzulaufen \u2013 ein Bild f\u00fcr die Schwierigkeit vieler Siebener, bei einer Erfahrung, einem Gef\u00fchl oder einer Verpflichtung wirklich zu bleiben, statt zum n\u00e4chsten "bunten" Reiz weiterzuziehen. Reife bei diesem Typ zeigt sich, wenn er lernt, auch bei bedecktem Himmel zu bleiben, ohne sofort zum n\u00e4chsten Regenbogen zu fliehen.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Der Vulkanausbruch / Der Sturm: Rohe Gewalt, Transformation</h3>
-      ${bild("wetter-8-vulkan.jpg", "Vulkanausbruch mit Lava und Aschewolke")}
-      <p class="vb-intro">Rohe, ungefilterte Kraft, die sich unaufhaltsam Bahn bricht \u2013 ein Vulkanausbruch zerst\u00f6rt alles in seinem unmittelbaren Weg, schafft aber zugleich neuen, au\u00dfergew\u00f6hnlich fruchtbaren Boden, auf dem sp\u00e4ter mehr w\u00e4chst als zuvor. Das ist die Acht: Intensit\u00e4t, Durchsetzungskraft, der Instinkt, sofort die Kontrolle zu \u00fcbernehmen, sobald irgendwo Schw\u00e4che oder Bedrohung gesp\u00fcrt wird. Der Ausbruch reinigt gewisserma\u00dfen die Atmosph\u00e4re, bringt aber auch Verw\u00fcstung, wenn die Kraft unkontrolliert bleibt und niemand sie kanalisiert. Die Reifung der Acht liegt genau darin, die eigene "Lava-Kraft" bewusst zu lenken \u2013 Schutz und Aufbau statt blo\u00dfer Zerst\u00f6rung, echte F\u00fchrung statt reiner Dominanz. Ein Vulkan, der wei\u00df, wohin seine Kraft flie\u00dfen soll, ver\u00e4ndert eine Landschaft zum Guten.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Der stille See / Das weite Meer: Absolute Ruhe, Verbindung</h3>
-      ${bild("wetter-9-stiller-see.jpg", "Stiller See bei Sonnenuntergang mit ruhiger Wasserspiegelung")}
-      <p class="vb-intro">Die spiegelglatte Oberfl\u00e4che eines stillen Sees bei Sonnenuntergang zeigt den Himmel, die Ufer, die B\u00e4ume \u2013 perfekt, ohne eigene Bewegung, die diesen Frieden st\u00f6ren w\u00fcrde. Genau das ist der tiefste Wunsch der Neun: Verbindung, Harmonie, Nicht-Konflikt, das Gef\u00fchl, mit der Umgebung eins zu sein, statt sich gegen sie zu behaupten. Aber ein See ohne jede Str\u00f6mung kann mit der Zeit stagnieren \u2013 ebenso wie Neuner sich selbst, ihre eigenen W\u00fcnsche und Priorit\u00e4ten, "vergessen" k\u00f6nnen, um den \u00e4u\u00dferen Frieden um jeden Preis zu bewahren. Das weite Meer im Hintergrund erinnert daran, dass unter der ruhigen Oberfl\u00e4che enorme Kraft und Tiefe liegen \u2013 die eigene Pr\u00e4senz, der eigene Wille, den die Neun oft erst bewusst entdecken und beanspruchen muss, um wirklich lebendig zu sein.</p>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"wolkenformationen-der-9-typen", label:"Wolkenformationen der 9 Typen"},
-        {route:"berge-der-9-typen", label:"Berge der 9 Typen"},
-        {route:"baerenarten-der-9-typen", label:"B\u00e4renarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function architekturRaumgestaltungDer9TypenPage() {
-  const bild = (datei, alt) => `<img src="./assets/${datei}" alt="${alt}"
-        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Architektur & Raumgestaltung der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Architektur & Raumgestaltung der 9 Typen</h1>
-      <p class="psycho-intro">Wie wir R\u00e4ume bauen und bewohnen, spiegelt unsere innere Haltung wider. Jeder Baustil tr\u00e4gt ein eigenes Lebensgef\u00fchl in sich \u2013 Klarheit oder W\u00e4rme, Repr\u00e4sentation oder R\u00fcckzug, Dramatik oder Stabilit\u00e4t. Neun Architektur- und Raumkonzepte, neun Enneagrammprinzipien.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Minimalismus / Bauhaus: Klare Linien, funktionale Perfektion</h3>
-      ${bild("architektur-1-bauhaus.jpg", "Bauhaus-Geb\u00e4ude mit klaren geometrischen Linien")}
-      <p class="vb-intro">Bauhaus-Architektur verzichtet auf jedes Ornament, das keine Funktion erf\u00fcllt \u2013 jede Linie, jede Fl\u00e4che ist so reduziert, wie sie sein muss, und nicht mehr. Genau das ist die Handschrift der Eins: eine tief sitzende Sehnsucht nach der einen richtigen, korrekten Form, in der nichts \u00fcberfl\u00fcssig ist und nichts fehlt. Klare Kanten, rechte Winkel, keine Schn\u00f6rkel \u2013 Ordnung wird hier nicht als Einschr\u00e4nkung erlebt, sondern als die einzig ehrliche Antwort auf die Frage, wie ein Raum sein sollte. Die Kehrseite: Ein Raum, der nur noch Funktion kennt, kann kalt wirken, ein Zuhause ohne Weichheit. Reife bei Typ 1 zeigt sich, wenn die klare Form bestehen bleibt, aber W\u00e4rme und Leben in sie einziehen d\u00fcrfen.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Kompakter Landhausstil / Hygge: Gem\u00fctlich, einladend</h3>
-      ${bild("architektur-2-hygge.jpg", "Gem\u00fctliches Hygge-Wohnzimmer mit warmem Licht und vielen Sitzgelegenheiten")}
-      <p class="vb-intro">Der Landhausstil und das d\u00e4nische Hygge-Gef\u00fchl leben von weichen Textilien, warmem Licht und vor allem: von Sitzgelegenheiten f\u00fcr andere. Ein Sofa, das f\u00fcr vier gedacht ist, ein Tisch, an dem noch ein Stuhl mehr Platz findet \u2013 dieser Raum ist von Anfang an auf Besuch, auf N\u00e4he, auf gemeinsames Ankommen hin gebaut. Genau das ist die Zwei: ein Zuhause schaffen, in dem sich andere geborgen f\u00fchlen, noch bevor die eigenen Bed\u00fcrfnisse \u00fcberhaupt zur Sprache kommen. Die Gefahr liegt darin, dass der Raum irgendwann mehr f\u00fcr G\u00e4ste eingerichtet ist als f\u00fcr die Bewohnerin selbst. Reife bedeutet, sich die gem\u00fctlichste Ecke auch f\u00fcr sich selbst zu reservieren.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Penthouse / Moderne Glas-Architektur: Repr\u00e4sentativ, zukunftsorientiert</h3>
-      ${bild("architektur-3-glasfassade.jpg", "Moderne Glasfassade eines Wolkenkratzers")}
-      <p class="vb-intro">Glasfassaden und Penthouses sind Architektur, die gesehen werden will \u2013 sie reflektieren Licht, Status und Fortschritt, oft schon von Weitem sichtbar \u00fcber der \u00fcbrigen Stadt. Kein Detail ist zuf\u00e4llig: Jede Sichtachse, jede Skyline-Aussicht ist so platziert, dass sie beeindruckt. Das ist die Drei: ein Zuhause als B\u00fchne, als sichtbares Zeugnis von Erfolg, das keine Erkl\u00e4rung braucht, weil es f\u00fcr sich selbst spricht. Die Kehrseite dieser gl\u00e4sernen Perfektion: Wer st\u00e4ndig repr\u00e4sentiert, hat oft keinen Ort mehr, an dem er einfach nur unperfekt sein darf. Reife bei Typ 3 entsteht, wenn Wert nicht mehr an der Wirkung der R\u00e4ume h\u00e4ngt, sondern im Inneren ruht.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Gothik / Boho-Chic / Art Nouveau: Dramatisch, individuell</h3>
-      ${bild("architektur-4-jugendstil.jpg", "Jugendstil-Fassade mit kunstvollen, individuellen Details")}
-      <p class="vb-intro">Jugendstil-Fassaden und gotische Bauten verweigern sich der Wiederholung \u2013 jede Verzierung ist einzigartig, jedes Fenster erz\u00e4hlt eine eigene kleine Geschichte, jedes Detail tr\u00e4gt Ausdruck statt blo\u00dfer Funktion. Das ist die tiefste Sprache der Vier: ein Raum muss die eigene Einzigartigkeit sichtbar machen, muss Bedeutung, Geschichte, Gef\u00fchl in sich tragen, sonst bleibt er leer. Dramatische Farben, ungew\u00f6hnliche Formen, gesammelte Fundst\u00fccke \u2013 jedes Element ist Ausdruck einer inneren Wahrheit. Die Gefahr: Ein Raum, der so sehr auf Besonderheit ausgerichtet ist, dass er nie fertig, nie in Ruhe ankommen kann. Reife zeigt sich, wenn die Sch\u00f6nheit bleibt, ohne dass st\u00e4ndig neue Dramatik nachgeliefert werden muss.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Brutalismus / Tiny House: Autark, auf das Wesentliche reduziert</h3>
-      ${bild("architektur-5-brutalismus.jpg", "Brutalistisches Betongeb\u00e4ude mit klaren, massiven Formen")}
-      <p class="vb-intro">Rohbeton, unverkleidet, ehrlich in seiner Materialit\u00e4t \u2013 Brutalismus zeigt genau das, was er ist, ohne Fassade, ohne Dekoration, die vom Wesentlichen ablenken w\u00fcrde. Ebenso das Tiny House: ein Raum, radikal reduziert auf das, was wirklich gebraucht wird, autark, unabh\u00e4ngig von unn\u00f6tigem Ballast. Das ist die F\u00fcnf: R\u00fcckzug in einen gesch\u00fctzten, klar begrenzten Raum, in dem jede Ressource \u2013 Zeit, Energie, Besitz \u2013 bewusst eingeteilt ist, damit nichts verschwendet wird. Die Kehrseite: Ein Raum, der so sehr auf Autarkie ausgelegt ist, dass er andere gar nicht mehr hereinl\u00e4sst. Reife bei Typ 5 hei\u00dft, die eigene Festung auch einmal f\u00fcr andere zu \u00f6ffnen.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Festungs-Architektur / Klassische Klinker-Siedlungen: Solide, best\u00e4ndig</h3>
-      ${bild("architektur-6-festung.jpg", "Massive Festung mit dicken Steinmauern")}
-      <p class="vb-intro">Eine Festung ist so gebaut, dass sie jedem Angriff standh\u00e4lt \u2013 dicke Mauern, wenige, gut kontrollierbare Zug\u00e4nge, ein Ort, an dem man sich sicher f\u00fchlt, weil man wei\u00df, was ihn sch\u00fctzt. Klassische Klinker-Siedlungen tragen dieselbe Botschaft in b\u00fcrgerlicherem Ma\u00dfstab: solide Bausubstanz, die seit Generationen h\u00e4lt und nichts dem Zufall \u00fcberl\u00e4sst. Das ist die Sechs: Sicherheit entsteht durch Struktur, durch Verl\u00e4sslichkeit, durch das Wissen, was im Ernstfall tr\u00e4gt. Ein Zuhause, das Halt gibt, weil es gepr\u00fcft und bew\u00e4hrt ist. Die Gefahr: Mauern, die so dick werden, dass sie auch das Vertrauen aussperren. Reife bei Typ 6 zeigt sich, wenn Sicherheit nicht mehr nur von au\u00dfen, sondern auch von innen kommt.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Lofts / Glamping-Architektur: Offen, verspielt, hell</h3>
-      ${bild("architektur-7-loft.jpg", "Offenes, helles Loft mit flie\u00dfenden Raum\u00fcberg\u00e4ngen")}
-      <p class="vb-intro">Ein Loft kennt keine festen W\u00e4nde \u2013 K\u00fcche, Wohnen, Arbeiten flie\u00dfen ineinander, jederzeit l\u00e4sst sich der Raum neu nutzen, neu erleben, nichts ist endg\u00fcltig festgelegt. Glamping-Architektur tr\u00e4gt dieselbe Leichtigkeit ins Freie: Komfort ohne Enge, Offenheit statt Begrenzung, immer die M\u00f6glichkeit, spontan weiterzuziehen. Das ist die Sieben: ein Raum, der Optionen offenh\u00e4lt, der Licht, Luft und Bewegungsfreiheit \u00fcber feste Struktur stellt, weil Festlegung wie Einengung wirkt. Die Kehrseite: So viel Offenheit kann auch bedeuten, dass sich nie ein wirkliches Zuhause-Gef\u00fchl einstellt. Reife bei Typ 7 entsteht, wenn ein offener Raum auch zum Bleiben einl\u00e4dt, nicht nur zum Weiterziehen.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Industrial Style / Monumentalarchitektur: Massiv, imposant</h3>
-      ${bild("architektur-8-industrial.jpg", "Industrial-Interieur mit Ziegelmauer, Stahl und gro\u00dfen Fenstern")}
-      <p class="vb-intro">Roher Backstein, sichtbare Stahltr\u00e4ger, massive Fensterfronten \u2013 Industrial Style verbirgt nichts von seiner Kraft, im Gegenteil, er stellt sie aus. Monumentalarchitektur geht noch weiter: Bauten, die allein durch ihre Gr\u00f6\u00dfe Respekt einfordern, die keinen Zweifel daran lassen, wer hier den Raum bestimmt. Das ist die Acht: ein Zuhause als Ausdruck von St\u00e4rke, unverstellter Pr\u00e4senz, Kontrolle \u00fcber das eigene Territorium. Nichts wird verkleinert oder besch\u00f6nigt, jede Struktur bleibt sichtbar. Die Gefahr: Ein Raum, der so massiv wirkt, dass Verletzlichkeit darin keinen Platz mehr findet. Reife bei Typ 8 zeigt sich, wenn hinter der starken Fassade auch Weichheit zugelassen wird.</p>
-
-      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Organische Architektur (Hundertwasser/Steiner): Integriert in die Natur</h3>
-      ${bild("architektur-9-organisch.jpg", "Hundertwasserhaus mit bunter, organisch geschwungener Fassade")}
-      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen w\u00fcrde \u2013 Fassaden wachsen wie Baumst\u00e4mme, D\u00e4cher tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchl\u00e4ssig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund dr\u00e4ngt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Pr\u00e4senz darin klar sp\u00fcrbar wird. Mehr zu Hundertwasser als sexuellem Typ 9 (SX9w8) im Portr\u00e4t weiter unten verlinkt.</p>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"wetter-naturphaenomene-der-9-typen", label:"Wetter- und Naturph\u00e4nomene der 9 Typen"},
-        {route:"beziehungen", label:"Beziehungen der 9 Typen"},
-        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
-        {route:"beruehmte-hundertwasser", label:"Portr\u00e4t: Friedensreich Hundertwasser (SX9w8)"},
       ])}
     </div>
   `);

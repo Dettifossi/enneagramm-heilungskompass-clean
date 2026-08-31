@@ -1,3 +1,190 @@
+function michaelJacksonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Michael Jackson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Jackson</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1958–2009</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Jackson</strong> hat bereits ein
+        <a href="javascript:void(0)" data-route="beruehmte-michael-jackson">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass – dort geht es um sein Lebenswerk und seine Typstruktur, einschließlich
+        eines kurzen Hinweises auf Vitiligo und den Tod durch Propofol. Diese Seite vertieft genau
+        diese Kette: eine Brandverletzung 1984, die zum Ausgangspunkt eines jahrzehntelangen
+        Schmerzmittel- und Schlafmittelkonsums wurde und ihn schließlich das Leben kostete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jackson</strong> ist der <strong>sozialen Vier mit Dreierflügel</strong>
+        zugeordnet. Naranjo beschrieb die SO4 als Verstärkungstyp der Vier: Die Leidenschaft des
+        Neids wird nach innen gewendet und zu Scham – einem tiefen Mangelbewusstsein, das sich am
+        eigenen äußeren Bild festmacht. Der Dreierflügel liefert Bühnenpräsenz und Perfektionismus,
+        der keinen sichtbaren Makel duldet – ein Muster, das sich bis in seinen Umgang mit
+        chronischem Schmerz und Schlaflosigkeit nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Unfall vor laufenden Kameras:</strong>
+        Am 27. Januar 1984 fingen bei Dreharbeiten zu einem Pepsi-Werbespot Funken einer
+        Pyrotechnik-Effekte Jacksons Haar Feuer. Er erlitt Verbrennungen zweiten und dritten
+        Grades an der Kopfhaut, die mehrere Operationen erforderlich machten.</p>
+        <p class="vb-intro"><strong>b) Der Beginn der Schmerzmittelgabe:</strong>
+        Zur Behandlung der Verbrennungsschmerzen und der folgenden Operationen wurden ihm starke
+        Opioid-Schmerzmittel verschrieben – nach übereinstimmenden späteren Berichten aus seinem
+        Umfeld der erste Kontakt mit einer Substanzklasse, die ihn bis zu seinem Tod begleitete.</p>
+        <p class="vb-intro"><strong>c) Auftreten trotz Schmerzen als Norm:</strong>
+        Schon kurz nach dem Unfall kehrte Jackson auf die Bühne zurück, mit sichtbaren
+        Kopfhautverletzungen unter Perücke und Make-up verborgen – ein früher Beleg für ein
+        Muster, das sein gesamtes späteres Leben prägte: Schmerz wurde nicht gezeigt, sondern
+        überspielt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Vitiligo als zusätzliche, verschwiegene Belastung:</strong>
+        Parallel zu den Schmerzmittelgaben verschlechterte sich ab Mitte der 1980er-Jahre
+        zunehmend seine durch Vitiligo fleckig gewordene Haut – eine Autoimmunerkrankung, die
+        Pigmentzellen zerstört. Jackson bedeckte die betroffenen Stellen jahrelang mit
+        Make-up, bevor er die Diagnose 1993 gegenüber Oprah Winfrey öffentlich machte.</p>
+        <p class="vb-intro"><strong>b) Chronische Schlaflosigkeit als eigenständiges Leiden:</strong>
+        Ab den 1990er-Jahren berichteten Ärzte, Mitarbeiter und spätere Gerichtsdokumente
+        übereinstimmend von einer schweren, therapieresistenten Schlaflosigkeit, die Jackson
+        über Jahre hinweg begleitete und die er mit immer stärkeren Mitteln zu bekämpfen
+        versuchte.</p>
+        <p class="vb-intro"><strong>c) Propofol als Schlafmittel außerhalb jeder medizinischen Norm:</strong>
+        Propofol ist ein starkes Narkosemittel, das ausschließlich unter intensivmedizinischer
+        Überwachung eingesetzt werden darf – niemals als Schlafmittel im häuslichen Umfeld. Nach
+        Zeugenaussagen im späteren Gerichtsverfahren erhielt Jackson es dennoch über Monate
+        nächtlich verabreicht, um überhaupt einschlafen zu können.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die letzten Vorbereitungen für This Is It:</strong>
+        In den Wochen vor seinem Tod probte Jackson intensiv für seine geplante fünfzigteilige
+        Comeback-Konzertreihe <em>This Is It</em> in London – trotz zunehmender körperlicher
+        Erschöpfung, die Mitarbeiter der Produktion in mehreren späteren Aussagen beschrieben.</p>
+        <p class="vb-intro"><strong>b) Der 25. Juni 2009:</strong>
+        Sein Leibarzt Conrad Murray verabreichte Jackson in den frühen Morgenstunden Propofol
+        gegen die anhaltende Schlaflosigkeit. Jackson erlitt einen akuten Herzstillstand und
+        konnte nicht wiederbelebt werden. Er starb im Alter von 50 Jahren, wenige Wochen vor
+        dem geplanten Konzertstart.</p>
+        <p class="vb-intro"><strong>c) Ein Prozess, der das Ausmaß offenlegte:</strong>
+        Conrad Murray wurde 2011 wegen fahrlässiger Tötung verurteilt. Die Gerichtsverhandlung
+        legte detailliert offen, wie weit die häusliche Propofol-Gabe von jedem medizinischen
+        Standard entfernt war und wie lange dieses Muster bereits bestanden hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine Kette, die 1984 begann:</strong>
+        Von der ersten Opioid-Verschreibung nach dem Pepsi-Unfall bis zur tödlichen
+        Propofol-Gabe 2009 liegen fünfundzwanzig Jahre, in denen sich der Umgang mit Schmerz
+        und Schlaflosigkeit schrittweise zu einer lebensgefährlichen Abhängigkeit von
+        verschreibungspflichtigen Substanzen entwickelte.</p>
+        <p class="vb-intro"><strong>b) Zwei parallele Baustellen am eigenen Körper:</strong>
+        Vitiligo veränderte sichtbar, wie Jackson aussah; die Medikamentenabhängigkeit
+        veränderte unsichtbar, wie sein Körper funktionierte. Beide Prozesse liefen über
+        Jahrzehnte parallel, beide wurden von Jackson lange verborgen, bis die
+        Öffentlichkeit sie erzwang oder ein Gerichtsverfahren sie aufdeckte.</p>
+        <p class="vb-intro"><strong>c) Arbeit bis zur physischen Grenze:</strong>
+        Selbst in den letzten Lebenswochen, körperlich erschöpft und auf Propofol angewiesen,
+        um überhaupt zu schlafen, hielt Jackson an den Proben für sein Comeback fest – ein
+        Muster, das sich bereits 1984 zeigte, als er kurz nach dem Unfall wieder auf die
+        Bühne zurückkehrte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Gürteltier, das den Schmerz hinter der Bühne verbarg:</strong>
+        Wie er 1993 zunächst die Vitiligo-Flecken hinter Make-up verbarg, verbarg Jackson auch
+        die zunehmende Abhängigkeit von Schmerz- und Schlafmitteln hinter der makellosen
+        Fassade des Auftritts – bis beides irgendwann nicht mehr zu verbergen war.</p>
+        <p class="vb-intro"><strong>b) Perfektion als Antrieb bis zuletzt:</strong>
+        Die Probenprotokolle der letzten Wochen zeigen einen Künstler, der trotz sichtbarer
+        Erschöpfung an höchsten eigenen Ansprüchen festhielt – der Dreierflügel, der
+        Leistung liefert, auch wenn der Körper längst Alarm schlägt.</p>
+        <p class="vb-intro"><strong>c) Abhängigkeit von genau jenen, die schützen sollten:</strong>
+        Die häusliche Propofol-Gabe erfolgte durch einen von Jackson selbst engagierten Arzt –
+        ein Muster, in dem Nähe und Vertrauen zur Gefahr wurden, weil die Bedürftigkeit nach
+        Linderung größer war als jede Vorsicht.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Von der sichtbaren zur unsichtbaren Verletzung:</strong>
+        Die Brandverletzung von 1984 war öffentlich sichtbar, wurde behandelt und verheilte. Die
+        daraus entstandene Medikamentenabhängigkeit blieb über fünfundzwanzig Jahre weitgehend
+        unsichtbar – bis zum Tod selbst.</p>
+        <p class="vb-intro"><strong>b) Fünfundzwanzig Jahre zwischen Auslöser und Tod:</strong>
+        Vom Pepsi-Unfall 1984 bis zu seinem Tod 2009 lebte Jackson ein Vierteljahrhundert mit
+        einem Krankheitsverlauf, der nie in einer einzigen Diagnose zusammengefasst wurde, sondern
+        sich schrittweise aus Schmerzbehandlung, Schlaflosigkeit und immer stärkeren Mitteln
+        zusammensetzte.</p>
+        <p class="vb-intro"><strong>c) Verbergen statt Konfrontation als durchgehendes Muster:</strong>
+        Anders als Ludwig van Beethoven (SX6w5) oder Friedrich Schiller (SX6w5), die ihrer
+        Krankheit mit offener Konfrontation begegneten, oder Franz Schubert (SE6w5), der sich
+        zunehmend zurückzog, verbarg Jackson – ganz wie sein SO3w4-Pendant Karl Lagerfeld –
+        seine Abhängigkeit hinter einer makellosen öffentlichen Fassade, bis der Körper keine
+        weitere Verbergung mehr zuließ.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Haut und Schlaf?</strong>
+        Für eine soziale Vier, deren gesamtes Selbstbild an der eigenen äußeren Erscheinung
+        hängt, liegt eine Deutung nahe: Ausgerechnet die Haut – das sichtbarste aller Organe –
+        und der Schlaf – der Zustand, in dem keine Kontrolle über das eigene Bild mehr möglich
+        ist – wurden zum Schauplatz eines Kampfes, den Jackson nie öffentlich austrug, sondern
+        hinter geschlossenen Türen zu bewältigen versuchte. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Medikamentenabhängigkeit
+        oder Hauterkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Jacksons Fall zeigen lässt, ist ein Muster,
+        das bei dem Bedürfnis, ein makelloses äußeres Bild um jeden Preis aufrechtzuerhalten, in
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Jackson kannte sein eigenes Muster nicht – die soziale Vier mit Dreierflügel hält das eigene Bild um jeden Preis makellos, auch gegenüber sich selbst, und genau das ließ ihn eine fünfundzwanzigjährige Abhängigkeit hinter genau diesem Bild verbergen, statt sich offen Hilfe zu holen. Wer das eigene Bedürfnis nach einem makellosen Bild nicht als Muster erkennt, opfert diesem Bild am Ende die eigene Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Jacksons</strong> soziale Vier mit
+        Dreierflügel noch einmal ablesen: eine Brandverletzung, die zum Ausgangspunkt einer
+        fünfundzwanzigjährigen, weitgehend verborgenen Abhängigkeit wurde, überlagert von einer
+        ebenfalls verheimlichten Hautkrankheit – bis am 25. Juni 2009 beides zusammen keine
+        weitere Verbergung mehr zuließ. Das Gürteltier, das seine Rüstung bis zuletzt trug –
+        glänzend, unangreifbar nach außen, und innen zunehmend erschöpft von einem Kampf, den
+        kaum jemand sah.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
 function hansChristianAndersenKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12908,350 +13095,6 @@ function jamieLeeCurtisKrankheitsportraetPage() {
         {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
-      ])}
-    </div>
-  `);
-}
-
-function genesisPOrridgeKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-genesis-p-orridge-portrait.jpg" alt="Genesis P-Orridge" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Genesis P-Orridge</p>
-        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel · 1950–2020</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Krokodil</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Genesis P-Orridge</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-genesis-p-orridge">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: eine über Jahre verlaufende Leukämie-Erkrankung, während der Genesis bis kurz vor dem Tod im März 2020 weiter künstlerisch
-        aktiv blieb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Genesis</strong> ist dem <strong>sexuellen Typ 8 mit Neunerflügel</strong>
-        zugeordnet. Die SX8 will das Ganze, ohne Kompromiss, auch im Umgang mit dem eigenen
-        Körper; der Neunerflügel bringt eine ruhende, ausdauernde Kraft hinzu, die nicht
-        explosiv, sondern beharrlich wirkt. Genau diese Kombination – kompromisslose
-        Weigerung, sich der Krankheit unterzuordnen, verbunden mit stiller, langer Ausdauer
-        – bestimmte den Verlauf der eigenen Leukämie-Erkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Diagnose einer chronischen Leukämie:</strong>
-        Nach Angaben von Weggefährten wurde bei Genesis eine chronische Form der Leukämie
-        diagnostiziert, die zunächst über Jahre relativ stabil verlief.</p>
-        <p class="vb-intro"><strong>b) Fortgesetzte künstlerische und rituelle Praxis:</strong>
-        Trotz der Diagnose setzte Genesis Auftritte, Ausstellungen und die eigene
-        okkult-künstlerische Praxis über Jahre nahezu unvermindert fort.</p>
-        <p class="vb-intro"><strong>c) Weitgehende Zurückhaltung gegenüber breiter Öffentlichkeit:</strong>
-        Die Erkrankung wurde nicht zu einem zentralen öffentlichen Thema, sondern blieb
-        gegenüber der breiten Öffentlichkeit lange im Hintergrund, während enge Freunde und
-        Mitstreiter informiert waren.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Fortschreiten zu einer akuten Krankheitsphase:</strong>
-        In den letzten Lebensjahren verschärfte sich die Erkrankung, was wiederholte
-        Klinikaufenthalte und intensivere Behandlungen erforderlich machte.</p>
-        <p class="vb-intro"><strong>b) Fortsetzung von Projekten trotz Krankenhausaufenthalten:</strong>
-        Auch während Behandlungsphasen arbeitete Genesis nach Berichten von Mitarbeitenden
-        weiter an Musik- und Kunstprojekten, teils direkt aus dem Krankenbett heraus.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Anteilnahme aus der Musik- und Kunstszene:</strong>
-        In den letzten Monaten vor dem Tod äußerten zahlreiche Weggefährten und Fans aus der
-        Industrial- und Experimentalmusik-Szene öffentlich ihre Anteilnahme und Unterstützung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tod am 14. März 2020 in New York:</strong>
-        Genesis P-Orridge starb im Alter von 70 Jahren an den Folgen der Leukämie-Erkrankung, in der Wohnung, die eng mit der verstorbenen Partnerin Lady Jaye
-        verbunden war.</p>
-        <p class="vb-intro"><strong>b) Weltweite Trauer in der Musik- und Kunstwelt:</strong>
-        Der Tod löste international Nachrufe aus, die Genesis' Einfluss auf Industrial
-        Music, Performancekunst und Gegenkultur würdigten.</p>
-        <p class="vb-intro"><strong>c) Postume Fortführung des künstlerischen Vermächtnisses:</strong>
-        Nach dem Tod wurden weitere, teils bereits vorbereitete Werke veröffentlicht,
-        darunter Musik und Kunstprojekte, an denen Genesis bis zuletzt gearbeitet hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Würdigung eines kompromisslosen Lebenswerks:</strong>
-        In Nachrufen wurde wiederholt betont, dass Genesis bis zuletzt der eigenen
-        künstlerischen Radikalität treu blieb, ohne die Krankheit zum bestimmenden Narrativ
-        des eigenen Werks zu machen.</p>
-        <p class="vb-intro"><strong>b) Keine öffentliche Inszenierung des Krankheitsverlaufs:</strong>
-        Anders als bei manchen Künstlern wurde die Leukämie nicht zu einem zentralen
-        Bestandteil der öffentlichen Selbstdarstellung – die Kunst blieb im Vordergrund, nicht
-        das Leiden.</p>
-        <p class="vb-intro"><strong>c) Fortwirken des Pandrogeny-Projekts über den Tod hinaus:</strong>
-        Das gemeinsam mit Lady Jaye begonnene Pandrogeny-Projekt – die körperliche
-        Verschmelzung zweier Menschen zu einem Wesen – wird bis heute als eigenständiges
-        Kunstwerk diskutiert, unabhängig vom Tod beider Beteiligter.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Besitzergreifung, angewandt auf die eigene Krankheit:</strong>
-        Die SX8-typische Weigerung, sich irgendetwas kampflos zu unterwerfen, zeigte sich
-        auch im Umgang mit der Leukämie: Genesis ließ die Krankheit nicht zum Diktator des
-        eigenen Lebens werden, sondern arbeitete bis zuletzt mit derselben Intensität weiter.</p>
-        <p class="vb-intro"><strong>b) Der Neunerflügel und die stille Ausdauer im Krankheitsverlauf:</strong>
-        Dieselbe ruhende, nicht-explosive Kraft, die Genesis' jahrzehntelanges Werk trug,
-        zeigte sich auch im Umgang mit der Erkrankung: kein lautes öffentliches Ringen,
-        sondern eine stille, beharrliche Fortsetzung der eigenen Arbeit trotz fortschreitender
-        Krankheit.</p>
-        <p class="vb-intro"><strong>c) Keine Trennung zwischen Kunst und Krankheit:</strong>
-        Für Genesis war die eigene körperliche Verwundbarkeit nie vollständig vom
-        künstlerischen Werk zu trennen – schon das Pandrogeny-Projekt hatte den eigenen
-        Körper als Material der Kunst verwendet; die Leukämie wurde so zu einer weiteren,
-        letzten Form dieser Verschmelzung von Leben und Werk.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Künstler der Grenzauflösung, konfrontiert mit der letzten unauflösbaren Grenze:</strong>
-        Genesis' gesamtes Werk kreiste um die Auflösung von Grenzen – zwischen Körpern,
-        Geschlechtern, Kunst und Leben. Ausgerechnet die Krankheit stellte eine Grenze dar,
-        die sich nicht durch Kunst, Ritual oder Willenskraft auflösen ließ.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Ruth
-        Bader Ginsburg (SX8w9)</a>: Auch Ginsburg weigerte sich über Jahre, mehrfachen
-        Krebsdiagnosen nachzugeben, und blieb bis kurz vor dem Tod im Amt aktiv. Bei beiden
-        SX8w9ern zeigt sich dasselbe Muster: eine kompromisslose Weigerung, die eigene
-        Lebensaufgabe der Krankheit unterzuordnen, getragen von einer stillen, langen
-        Ausdauer statt lauten öffentlichen Kampfes.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet das Blut, der Stoff der Verschmelzung selbst?</strong>
-        Für eine sexuelle Acht mit Neunerflügel, deren gesamtes Werk um körperliche
-        Verschmelzung und Grenzauflösung kreiste, liegt eine Deutung nahe: Ausgerechnet eine
-        Erkrankung des Blutes – jenes Stoffes, der im Körper alle Grenzen überwindet und
-        alles verbindet – wurde zum Ort des eigenen körperlichen Zusammenbruchs. Diese
-        Deutung ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang,
-        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Acht zwangsläufig zu Leukämie führt –
-        <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong>
-        Was sich an Genesis' Fall zeigen lässt, ist ein Muster im Umgang mit einer
-        fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen Acht mit
-        Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Genesis kannte das eigene Muster nicht als Enneagramm-Struktur – die sexuelle Acht
-        mit Neunerflügel hält reflexhaft an der eigenen Kompromisslosigkeit fest, auch
-        gegenüber der eigenen Sterblichkeit, statt rechtzeitig innezuhalten, und lebte genau
-        dieses Muster bis zum letzten Tag unverändert aus. Wer die eigene Neigung, keine
-        Grenze – auch nicht die des eigenen Körpers – anzuerkennen, nicht als Muster
-        erkennt, riskiert, dass der Körper am Ende die einzige Grenze setzt, die sich nicht
-        mehr auflösen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Die sexuelle Acht mit Neunerflügel erklärt bei <strong>Genesis P-Orridge</strong>
-        vieles am Umgang mit der eigenen Leukämie: ein Künstler, dessen gesamtes Werk der
-        Auflösung von Grenzen galt, begegnete auch der letzten, unüberwindbaren Grenze mit
-        derselben kompromisslosen Intensität – das Krokodil, das bis zum letzten Tag nicht
-        stillhielt, sondern weiterarbeitete, während die Krankheit selbst zur letzten
-        Verschmelzung von Leben und Werk wurde.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-genesis-p-orridge", label:"Porträt: Genesis P-Orridge (SX8w9)"},
-        {route:"krankheitsportraets-ruth-bader-ginsburg", label:"Krankheitsporträt: Ruth Bader Ginsburg (SX8w9) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
-      ])}
-    </div>
-  `);
-}
-
-function billieEilishKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-billie-eilish-portrait.jpg" alt="Billie Eilish" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Billie Eilish</p>
-        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · geb. 2001</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Chihuahua</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Billie Eilish</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nur beiläufig erwähnt wird: das Tourette-Syndrom, das sie über
-        Jahre vor der Öffentlichkeit verbarg, bevor sie es 2018 selbst bestätigte, sowie eine
-        schwere depressive Phase mit Selbstverletzung im Teenageralter.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Eilish</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
-        zugeordnet. Die SX4 trägt Schmerz roh und ungefiltert nach außen; der Dreierflügel
-        gibt ihr zugleich das Gespür dafür, wie viel davon öffentlich gezeigt werden kann,
-        ohne die eigene Wirkung zu gefährden. Genau diese Kombination – kompromisslose
-        Ehrlichkeit in der Musik, verbunden mit strategischer Zurückhaltung bei bestimmten
-        gesundheitlichen Themen – bestimmte den Umgang mit dem eigenen Tourette-Syndrom und
-        der eigenen Depression.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Tics bereits im Kindesalter:</strong>
-        Nach eigener Aussage bemerkte Eilish erste Tics bereits als Kind, lange bevor eine
-        Diagnose gestellt wurde oder das Thema öffentlich bekannt war.</p>
-        <p class="vb-intro"><strong>b) Diagnose des Tourette-Syndroms:</strong>
-        Eilish wurde mit dem Tourette-Syndrom diagnostiziert, einer neurologischen Störung,
-        die sich durch unwillkürliche Bewegungen und Lautäußerungen zeigt.</p>
-        <p class="vb-intro"><strong>c) Beginn einer depressiven Phase in der frühen Jugend:</strong>
-        Parallel dazu beschrieb sie später in der Dokumentation „The World's a Little
-        Blurry" (2021) eine schwere depressive Episode, die etwa im Alter von zwölf Jahren
-        begann.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Jahrelange bewusste Geheimhaltung des Tourette-Syndroms:</strong>
-        Eilish hielt die Diagnose über Jahre vor der Öffentlichkeit geheim, aus Sorge, auf
-        die Erkrankung reduziert oder in Interviews ständig danach gefragt zu werden.</p>
-        <p class="vb-intro"><strong>b) Selbstverletzendes Verhalten als Teil der depressiven Phase:</strong>
-        In derselben Dokumentation sprach sie offen über selbstverletzendes Verhalten
-        während dieser Zeit sowie über anhaltende Suizidgedanken.</p>
-        <p class="vb-intro"><strong>c) Körperbildbezogene Belastung durch öffentliche Aufmerksamkeit:</strong>
-        Die mit vierzehn Jahren einsetzende öffentliche Aufmerksamkeit verstärkte nach
-        eigener Schilderung ein bereits angespanntes Verhältnis zum eigenen Körper.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Öffentliche Bestätigung des Tourette-Syndroms 2018:</strong>
-        Eilish bestätigte die Diagnose erstmals öffentlich in einem Interview 2018, nachdem
-        Fans Videoaufnahmen ihrer Tics online diskutiert hatten.</p>
-        <p class="vb-intro"><strong>b) Offener Umgang mit Missverständnissen:</strong>
-        Seither erklärt sie wiederholt in Interviews, wie sich Tourette bei ihr äußert, und
-        korrigiert öffentlich gängige Fehlvorstellungen über die Erkrankung.</p>
-        <p class="vb-intro"><strong>c) Ausführliche Dokumentation der depressiven Phase:</strong>
-        Die 2021 veröffentlichte Dokumentation begleitet Eilish über mehrere Jahre und zeigt
-        auch unbearbeitete Aufnahmen aus der Zeit der schwersten depressiven Episode.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für ein wenig bekanntes Krankheitsbild:</strong>
-        Eilishs Offenheit über Tourette trug international dazu bei, Missverständnisse über
-        die Erkrankung abzubauen, da sie eine der bekanntesten öffentlichen Personen mit
-        dieser Diagnose ist.</p>
-        <p class="vb-intro"><strong>b) Positive Resonanz auf die Dokumentation:</strong>
-        Die schonungslose Offenheit der Dokumentation über Depression und
-        Selbstverletzung wurde von Kritikern und jungen Fans gleichermaßen als
-        außergewöhnlich ehrlich gewürdigt.</p>
-        <p class="vb-intro"><strong>c) Fortgesetzte künstlerische Verarbeitung:</strong>
-        Themen wie Körperbild, psychische Gesundheit und der Druck öffentlicher
-        Aufmerksamkeit blieben zentrale Motive ihrer späteren Alben, ohne dass die
-        Erkrankungen selbst zum Vermarktungsthema wurden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Ungefilterte Offenheit in der Musik, Zurückhaltung beim Tourette-Syndrom:</strong>
-        Die SX4-typische Kompromisslosigkeit zeigte sich in Eilishs Texten uneingeschränkt –
-        beim Tourette-Syndrom hingegen entschied sie sich über Jahre bewusst für
-        Zurückhaltung, aus Sorge vor Reduktion auf die Diagnose.</p>
-        <p class="vb-intro"><strong>b) Der Dreierflügel und die kontrollierte öffentliche Offenlegung:</strong>
-        Als Eilish sich schließlich zur Tourette-Diagnose äußerte, geschah das nicht
-        spontan, sondern in einem kontrollierten Interviewrahmen – dieselbe strategische
-        Präzision, mit der der Dreierflügel auch ihre musikalische Karriere prägte.</p>
-        <p class="vb-intro"><strong>c) Die Dokumentation als Form kontrollierter Verletzlichkeit:</strong>
-        Dass die tiefste Offenlegung der eigenen depressiven Phase in einem sorgfältig
-        produzierten Dokumentarfilm erfolgte statt in einem spontanen Interview, passt zur
-        SX4w3-Dynamik: rohe Ehrlichkeit, aber in eine wirkungsvolle Form gebracht.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Stimme kompromissloser Ehrlichkeit, die eine Diagnose jahrelang verschwieg:</strong>
-        Eilishs gesamtes Werk beruht auf der Weigerung, irgendetwas zu beschönigen –
-        ausgerechnet das Tourette-Syndrom blieb über Jahre die eine Ausnahme von diesem
-        Prinzip, bis sie selbst entschied, wann und wie es öffentlich würde.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie
-        Mercury (SX4w3)</a>: Auch Mercury verbarg eine gesundheitliche Diagnose über Jahre
-        vor der Öffentlichkeit, bevor er sie schließlich zu einem selbst gewählten Zeitpunkt
-        bestätigte. Bei beiden SX4w3ern zeigt sich dasselbe Muster: die Kontrolle über den
-        eigenen Offenlegungszeitpunkt wird zur letzten verbleibenden Form der
-        Selbstbestimmung angesichts einer Diagnose, die man sich nicht ausgesucht hat.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet unwillkürliche Bewegungen, bei einer Künstlerin präziser Kontrolle?</strong>
-        Für eine sexuelle Vier mit Dreierflügel, deren gesamtes Werk auf der präzisen
-        Kontrolle über Bild, Ton und Auftritt beruht, liegt eine Deutung nahe: Ausgerechnet
-        eine neurologische Störung, die sich durch unkontrollierbare Bewegungen und Laute
-        äußert, traf eine Künstlerin, deren öffentliches Bild von perfekt orchestrierter
-        Selbstinszenierung lebt. Diese Deutung ist eine plausible Interpretation, kein
-        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu Tourette-Syndrom
-        oder Depression führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Eilishs Fall zeigen lässt, ist ein
-        Muster im Umgang mit einer nicht selbst gewählten gesundheitlichen Diagnose, das bei
-        einer ausgeprägten sexuellen Vier mit Dreierflügel immer wieder auffällt – eine von
-        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
-        diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Eilish kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Vier mit
-        Dreierflügel hält reflexhaft an der Kontrolle darüber fest, wann und wie das eigene
-        Innenleben gezeigt wird, auch wenn das bedeutet, eine belastende Diagnose über Jahre
-        allein zu tragen, und lebt genau dieses Muster bis heute weitgehend unverändert aus.
-        Wer die eigene Neigung, Offenheit strikt zu terminieren und zu inszenieren, nicht als
-        Muster erkennt, riskiert, dass gerade die Themen, die am dringendsten Unterstützung
-        bräuchten, am längsten verborgen bleiben.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der sexuelle Typ 4 mit Dreierflügel erklärt bei <strong>Billie Eilish</strong> vieles
-        am Umgang mit Tourette-Syndrom und Depression: eine Künstlerin, deren gesamtes Werk
-        auf kompromissloser Ehrlichkeit beruht, entschied bei den eigenen gesundheitlichen
-        Diagnosen bewusst selbst, wann diese Ehrlichkeit einsetzte – der Chihuahua, der
-        nicht lauter werden muss, um gehört zu werden, sondern nur so ehrlich, wie er selbst
-        es zulassen kann.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
-        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
     </div>
   `);

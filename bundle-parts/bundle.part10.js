@@ -1424,6 +1424,72 @@ function ryanGoslingPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx2", label:"Lebensmusterkompass: SX2 – Das Kamel"},
         {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – Ehefrau"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function mataHariPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mata-hari-portrait.jpg" alt="Mata Hari" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mata Hari</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Tänzerin, geb. 1876 – hingerichtet 1917 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das sich selbst neu erschuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das Nähe nicht fordert, sondern anbietet, einem einzelnen Gegenüber zugewandt. Margaretha Geertruida Zelle wurde 1876 in den Niederlanden geboren, heiratete mit achtzehn den deutlich älteren Offizier Rudolf MacLeod und folgte ihm in die niederländische Kolonie Ostindien – eine Ehe, die sich rasch als gewalttätig und von Alkohol geprägt erwies. Ihr Sohn starb dort vermutlich an den Folgen einer Syphilis-Behandlung, die Ehe endete in Scheidung.</p>
+          <p class="vb-intro">Aus dieser gescheiterten, von Gewalt und Verlust gezeichneten Existenz baute sich Zelle in Paris eine vollständig neue Person: Mata Hari, angeblich eine javanische Priesterin, in Wahrheit eine niederländische Kaufmannstochter, die sich Kostüm, Herkunftsmythos und Bühnenname selbst erfand. Kein Zufall, sondern eine bewusst konstruierte, in jedem Detail durchdachte zweite Identität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verführung als persönliche Begegnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Mata Haris Auftritte auf den Bühnen von Paris waren spektakulär, doch ihre eigentliche Wirkung entfaltete sie nicht im Saal, sondern danach: in exklusiven, oft jahrelangen Beziehungen zu einzelnen einflussreichen Männern – Offiziere, Diplomaten, Industrielle auf beiden Seiten des Ersten Weltkriegs.</p>
+          <p class="vb-intro">Diese Beziehungen waren für sie nie bloße Mittel zum Gelderwerb allein. Zeitgenössische Berichte beschreiben eine Frau, die sich in jeder einzelnen Begegnung tatsächlich einließ, die zuhörte, sich anpasste, unentbehrlich werden wollte – nicht die kühle Berechnung einer distanzierten Verführerin, sondern die intensive, personenbezogene Hingabe der sexuellen Zwei an das eine Gegenüber, das gerade vor ihr stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Kunstfigur als Karriereprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Anziehungskraft ein sichtbares, überprüfbares Erfolgsprojekt zu formen. Mata Hari war keine zufällig entdeckte Attraktion, sondern eine selbst gemanagte Marke: eigens entworfene Kostüme, ein sorgfältig gepflegter exotischer Herkunftsmythos, gezielte Auftritte bei den richtigen Salons und Veranstaltern, um in kürzester Zeit zur meistdiskutierten Tänzerin von Paris zu werden.</p>
+          <p class="vb-intro">Auch als ihre Tanzkarriere in den 1910er-Jahren nachließ, hielt sie an dem einmal geschaffenen Bild fest und lebte von ihm weiter – eine Kunstfigur, die sie über Jahre erfolgreich in eine gesellschaftliche Position, finanzielle Unabhängigkeit und Zugang zu den einflussreichsten Kreisen Europas übersetzte. Der Dreierflügel lieferte die strategische Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Wirkung, die diese Inszenierung mit Leben füllte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwischen den Fronten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Während des Ersten Weltkriegs bewegte sich Mata Hari als niederländische Staatsbürgerin – neutral auf dem Papier – frei zwischen Frankreich, Deutschland und weiteren europäischen Ländern und unterhielt Beziehungen zu hochrangigen Militärs beider Kriegsparteien. 1917 wurde sie von der französischen Militärjustiz der Spionage für Deutschland angeklagt, in einem Prozess mit dünner, bis heute umstrittener Beweislage verurteilt und am 15. Oktober 1917 erschossen.</p>
+          <p class="vb-intro">Sie soll dem Erschießungskommando ohne Augenbinde und ohne sichtbare Angst entgegengetreten sein – ein letzter, öffentlicher Auftritt der selbst geschaffenen Figur, bis zum eigenen Tod in der Rolle, die sie sich Jahrzehnte zuvor selbst gegeben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>aus einer zerstörten Existenz heraus eine neue, wirkungsvolle Identität zu schaffen, die tatsächlich trägt</strong> – Mata Hari verwandelte eine traumatische Ehe und den Verlust ihres Kindes in eine der einflussreichsten Selbsterfindungen ihrer Zeit, finanziell unabhängig und gesellschaftlich einflussreich in einer Welt, die Frauen kaum eigenständige Wege ließ.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei eng verknüpft mit der Frage, ob man für den einen wichtigen Menschen unentbehrlich genug ist. Genau diese Abhängigkeit von persönlicher Nähe zu Mächtigen wurde ihr am Ende zum Verhängnis: Ihre Beziehungen zu Militärs beider Seiten, die ihr einst Sicherheit und Einfluss verschafft hatten, lieferten der französischen Justiz die Vorlage für eine Anklage, gegen die sie sich am Ende nicht mehr wirksam verteidigen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kamel, das bis zuletzt seine Haltung bewahrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mata Hari gehört zu den bekanntesten Frauengestalten des frühen zwanzigsten Jahrhunderts – weniger wegen einer wirklich geklärten Spionagegeschichte als wegen einer selbst erschaffenen Kunstfigur, die so überzeugend war, dass sie bis heute kaum von der historischen Person zu trennen ist.</p>
+          <p class="vb-intro">Vom gewaltgeprägten Kolonialleben über die selbst erfundene javanische Priesterin bis zum letzten, aufrechten Gang vor das Erschießungskommando: Das ist die sexuelle Zwei mit Dreierflügel in ihrer dramatischsten Form – eine Hingabe an einzelne Menschen, die zur eigenen Identität wurde, und eine selbst gewählte Rolle, die sie bis zum eigenen Tod nicht mehr ablegte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
       ])}
     </div>
   `);
@@ -9740,193 +9806,6 @@ function ludwigVanBeethovenKrankheitsportraetPage() {
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
-      ])}
-    </div>
-  `);
-}
-
-function michaelJacksonKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-michael-jackson-portrait.jpg" alt="Michael Jackson" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Michael Jackson</p>
-        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1958–2009</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gürteltier</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Michael Jackson</strong> hat bereits ein
-        <a href="javascript:void(0)" data-route="beruehmte-michael-jackson">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass – dort geht es um sein Lebenswerk und seine Typstruktur, einschließlich
-        eines kurzen Hinweises auf Vitiligo und den Tod durch Propofol. Diese Seite vertieft genau
-        diese Kette: eine Brandverletzung 1984, die zum Ausgangspunkt eines jahrzehntelangen
-        Schmerzmittel- und Schlafmittelkonsums wurde und ihn schließlich das Leben kostete.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jackson</strong> ist der <strong>sozialen Vier mit Dreierflügel</strong>
-        zugeordnet. Naranjo beschrieb die SO4 als Verstärkungstyp der Vier: Die Leidenschaft des
-        Neids wird nach innen gewendet und zu Scham – einem tiefen Mangelbewusstsein, das sich am
-        eigenen äußeren Bild festmacht. Der Dreierflügel liefert Bühnenpräsenz und Perfektionismus,
-        der keinen sichtbaren Makel duldet – ein Muster, das sich bis in seinen Umgang mit
-        chronischem Schmerz und Schlaflosigkeit nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein Unfall vor laufenden Kameras:</strong>
-        Am 27. Januar 1984 fingen bei Dreharbeiten zu einem Pepsi-Werbespot Funken einer
-        Pyrotechnik-Effekte Jacksons Haar Feuer. Er erlitt Verbrennungen zweiten und dritten
-        Grades an der Kopfhaut, die mehrere Operationen erforderlich machten.</p>
-        <p class="vb-intro"><strong>b) Der Beginn der Schmerzmittelgabe:</strong>
-        Zur Behandlung der Verbrennungsschmerzen und der folgenden Operationen wurden ihm starke
-        Opioid-Schmerzmittel verschrieben – nach übereinstimmenden späteren Berichten aus seinem
-        Umfeld der erste Kontakt mit einer Substanzklasse, die ihn bis zu seinem Tod begleitete.</p>
-        <p class="vb-intro"><strong>c) Auftreten trotz Schmerzen als Norm:</strong>
-        Schon kurz nach dem Unfall kehrte Jackson auf die Bühne zurück, mit sichtbaren
-        Kopfhautverletzungen unter Perücke und Make-up verborgen – ein früher Beleg für ein
-        Muster, das sein gesamtes späteres Leben prägte: Schmerz wurde nicht gezeigt, sondern
-        überspielt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Vitiligo als zusätzliche, verschwiegene Belastung:</strong>
-        Parallel zu den Schmerzmittelgaben verschlechterte sich ab Mitte der 1980er-Jahre
-        zunehmend seine durch Vitiligo fleckig gewordene Haut – eine Autoimmunerkrankung, die
-        Pigmentzellen zerstört. Jackson bedeckte die betroffenen Stellen jahrelang mit
-        Make-up, bevor er die Diagnose 1993 gegenüber Oprah Winfrey öffentlich machte.</p>
-        <p class="vb-intro"><strong>b) Chronische Schlaflosigkeit als eigenständiges Leiden:</strong>
-        Ab den 1990er-Jahren berichteten Ärzte, Mitarbeiter und spätere Gerichtsdokumente
-        übereinstimmend von einer schweren, therapieresistenten Schlaflosigkeit, die Jackson
-        über Jahre hinweg begleitete und die er mit immer stärkeren Mitteln zu bekämpfen
-        versuchte.</p>
-        <p class="vb-intro"><strong>c) Propofol als Schlafmittel außerhalb jeder medizinischen Norm:</strong>
-        Propofol ist ein starkes Narkosemittel, das ausschließlich unter intensivmedizinischer
-        Überwachung eingesetzt werden darf – niemals als Schlafmittel im häuslichen Umfeld. Nach
-        Zeugenaussagen im späteren Gerichtsverfahren erhielt Jackson es dennoch über Monate
-        nächtlich verabreicht, um überhaupt einschlafen zu können.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Die letzten Vorbereitungen für This Is It:</strong>
-        In den Wochen vor seinem Tod probte Jackson intensiv für seine geplante fünfzigteilige
-        Comeback-Konzertreihe <em>This Is It</em> in London – trotz zunehmender körperlicher
-        Erschöpfung, die Mitarbeiter der Produktion in mehreren späteren Aussagen beschrieben.</p>
-        <p class="vb-intro"><strong>b) Der 25. Juni 2009:</strong>
-        Sein Leibarzt Conrad Murray verabreichte Jackson in den frühen Morgenstunden Propofol
-        gegen die anhaltende Schlaflosigkeit. Jackson erlitt einen akuten Herzstillstand und
-        konnte nicht wiederbelebt werden. Er starb im Alter von 50 Jahren, wenige Wochen vor
-        dem geplanten Konzertstart.</p>
-        <p class="vb-intro"><strong>c) Ein Prozess, der das Ausmaß offenlegte:</strong>
-        Conrad Murray wurde 2011 wegen fahrlässiger Tötung verurteilt. Die Gerichtsverhandlung
-        legte detailliert offen, wie weit die häusliche Propofol-Gabe von jedem medizinischen
-        Standard entfernt war und wie lange dieses Muster bereits bestanden hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Eine Kette, die 1984 begann:</strong>
-        Von der ersten Opioid-Verschreibung nach dem Pepsi-Unfall bis zur tödlichen
-        Propofol-Gabe 2009 liegen fünfundzwanzig Jahre, in denen sich der Umgang mit Schmerz
-        und Schlaflosigkeit schrittweise zu einer lebensgefährlichen Abhängigkeit von
-        verschreibungspflichtigen Substanzen entwickelte.</p>
-        <p class="vb-intro"><strong>b) Zwei parallele Baustellen am eigenen Körper:</strong>
-        Vitiligo veränderte sichtbar, wie Jackson aussah; die Medikamentenabhängigkeit
-        veränderte unsichtbar, wie sein Körper funktionierte. Beide Prozesse liefen über
-        Jahrzehnte parallel, beide wurden von Jackson lange verborgen, bis die
-        Öffentlichkeit sie erzwang oder ein Gerichtsverfahren sie aufdeckte.</p>
-        <p class="vb-intro"><strong>c) Arbeit bis zur physischen Grenze:</strong>
-        Selbst in den letzten Lebenswochen, körperlich erschöpft und auf Propofol angewiesen,
-        um überhaupt zu schlafen, hielt Jackson an den Proben für sein Comeback fest – ein
-        Muster, das sich bereits 1984 zeigte, als er kurz nach dem Unfall wieder auf die
-        Bühne zurückkehrte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Das Gürteltier, das den Schmerz hinter der Bühne verbarg:</strong>
-        Wie er 1993 zunächst die Vitiligo-Flecken hinter Make-up verbarg, verbarg Jackson auch
-        die zunehmende Abhängigkeit von Schmerz- und Schlafmitteln hinter der makellosen
-        Fassade des Auftritts – bis beides irgendwann nicht mehr zu verbergen war.</p>
-        <p class="vb-intro"><strong>b) Perfektion als Antrieb bis zuletzt:</strong>
-        Die Probenprotokolle der letzten Wochen zeigen einen Künstler, der trotz sichtbarer
-        Erschöpfung an höchsten eigenen Ansprüchen festhielt – der Dreierflügel, der
-        Leistung liefert, auch wenn der Körper längst Alarm schlägt.</p>
-        <p class="vb-intro"><strong>c) Abhängigkeit von genau jenen, die schützen sollten:</strong>
-        Die häusliche Propofol-Gabe erfolgte durch einen von Jackson selbst engagierten Arzt –
-        ein Muster, in dem Nähe und Vertrauen zur Gefahr wurden, weil die Bedürftigkeit nach
-        Linderung größer war als jede Vorsicht.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Von der sichtbaren zur unsichtbaren Verletzung:</strong>
-        Die Brandverletzung von 1984 war öffentlich sichtbar, wurde behandelt und verheilte. Die
-        daraus entstandene Medikamentenabhängigkeit blieb über fünfundzwanzig Jahre weitgehend
-        unsichtbar – bis zum Tod selbst.</p>
-        <p class="vb-intro"><strong>b) Fünfundzwanzig Jahre zwischen Auslöser und Tod:</strong>
-        Vom Pepsi-Unfall 1984 bis zu seinem Tod 2009 lebte Jackson ein Vierteljahrhundert mit
-        einem Krankheitsverlauf, der nie in einer einzigen Diagnose zusammengefasst wurde, sondern
-        sich schrittweise aus Schmerzbehandlung, Schlaflosigkeit und immer stärkeren Mitteln
-        zusammensetzte.</p>
-        <p class="vb-intro"><strong>c) Verbergen statt Konfrontation als durchgehendes Muster:</strong>
-        Anders als Ludwig van Beethoven (SX6w5) oder Friedrich Schiller (SX6w5), die ihrer
-        Krankheit mit offener Konfrontation begegneten, oder Franz Schubert (SE6w5), der sich
-        zunehmend zurückzog, verbarg Jackson – ganz wie sein SO3w4-Pendant Karl Lagerfeld –
-        seine Abhängigkeit hinter einer makellosen öffentlichen Fassade, bis der Körper keine
-        weitere Verbergung mehr zuließ.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet Haut und Schlaf?</strong>
-        Für eine soziale Vier, deren gesamtes Selbstbild an der eigenen äußeren Erscheinung
-        hängt, liegt eine Deutung nahe: Ausgerechnet die Haut – das sichtbarste aller Organe –
-        und der Schlaf – der Zustand, in dem keine Kontrolle über das eigene Bild mehr möglich
-        ist – wurden zum Schauplatz eines Kampfes, den Jackson nie öffentlich austrug, sondern
-        hinter geschlossenen Türen zu bewältigen versuchte. Diese Deutung wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Medikamentenabhängigkeit
-        oder Hauterkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Jacksons Fall zeigen lässt, ist ein Muster,
-        das bei dem Bedürfnis, ein makelloses äußeres Bild um jeden Preis aufrechtzuerhalten, in
-        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.
-        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Jackson kannte sein eigenes Muster nicht – die soziale Vier mit Dreierflügel hält das eigene Bild um jeden Preis makellos, auch gegenüber sich selbst, und genau das ließ ihn eine fünfundzwanzigjährige Abhängigkeit hinter genau diesem Bild verbergen, statt sich offen Hilfe zu holen. Wer das eigene Bedürfnis nach einem makellosen Bild nicht als Muster erkennt, opfert diesem Bild am Ende die eigene Gesundheit.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Jacksons</strong> soziale Vier mit
-        Dreierflügel noch einmal ablesen: eine Brandverletzung, die zum Ausgangspunkt einer
-        fünfundzwanzigjährigen, weitgehend verborgenen Abhängigkeit wurde, überlagert von einer
-        ebenfalls verheimlichten Hautkrankheit – bis am 25. Juni 2009 beides zusammen keine
-        weitere Verbergung mehr zuließ. Das Gürteltier, das seine Rüstung bis zuletzt trug –
-        glänzend, unangreifbar nach außen, und innen zunehmend erschöpft von einem Kampf, den
-        kaum jemand sah.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – Lebenswerk"},
-        {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
-        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3) – dieselbe Verbergungsstrategie"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – dieselbe Verbergungsstrategie"},
-        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);

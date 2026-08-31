@@ -1,3 +1,347 @@
+function genesisPOrridgeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-genesis-p-orridge-portrait.jpg" alt="Genesis P-Orridge" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Genesis P-Orridge</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel · 1950–2020</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Krokodil</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Genesis P-Orridge</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-genesis-p-orridge">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: eine über Jahre verlaufende Leukämie-Erkrankung, während der Genesis bis kurz vor dem Tod im März 2020 weiter künstlerisch
+        aktiv blieb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Genesis</strong> ist dem <strong>sexuellen Typ 8 mit Neunerflügel</strong>
+        zugeordnet. Die SX8 will das Ganze, ohne Kompromiss, auch im Umgang mit dem eigenen
+        Körper; der Neunerflügel bringt eine ruhende, ausdauernde Kraft hinzu, die nicht
+        explosiv, sondern beharrlich wirkt. Genau diese Kombination – kompromisslose
+        Weigerung, sich der Krankheit unterzuordnen, verbunden mit stiller, langer Ausdauer
+        – bestimmte den Verlauf der eigenen Leukämie-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose einer chronischen Leukämie:</strong>
+        Nach Angaben von Weggefährten wurde bei Genesis eine chronische Form der Leukämie
+        diagnostiziert, die zunächst über Jahre relativ stabil verlief.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte künstlerische und rituelle Praxis:</strong>
+        Trotz der Diagnose setzte Genesis Auftritte, Ausstellungen und die eigene
+        okkult-künstlerische Praxis über Jahre nahezu unvermindert fort.</p>
+        <p class="vb-intro"><strong>c) Weitgehende Zurückhaltung gegenüber breiter Öffentlichkeit:</strong>
+        Die Erkrankung wurde nicht zu einem zentralen öffentlichen Thema, sondern blieb
+        gegenüber der breiten Öffentlichkeit lange im Hintergrund, während enge Freunde und
+        Mitstreiter informiert waren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fortschreiten zu einer akuten Krankheitsphase:</strong>
+        In den letzten Lebensjahren verschärfte sich die Erkrankung, was wiederholte
+        Klinikaufenthalte und intensivere Behandlungen erforderlich machte.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung von Projekten trotz Krankenhausaufenthalten:</strong>
+        Auch während Behandlungsphasen arbeitete Genesis nach Berichten von Mitarbeitenden
+        weiter an Musik- und Kunstprojekten, teils direkt aus dem Krankenbett heraus.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Anteilnahme aus der Musik- und Kunstszene:</strong>
+        In den letzten Monaten vor dem Tod äußerten zahlreiche Weggefährten und Fans aus der
+        Industrial- und Experimentalmusik-Szene öffentlich ihre Anteilnahme und Unterstützung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 14. März 2020 in New York:</strong>
+        Genesis P-Orridge starb im Alter von 70 Jahren an den Folgen der Leukämie-Erkrankung, in der Wohnung, die eng mit der verstorbenen Partnerin Lady Jaye
+        verbunden war.</p>
+        <p class="vb-intro"><strong>b) Weltweite Trauer in der Musik- und Kunstwelt:</strong>
+        Der Tod löste international Nachrufe aus, die Genesis' Einfluss auf Industrial
+        Music, Performancekunst und Gegenkultur würdigten.</p>
+        <p class="vb-intro"><strong>c) Postume Fortführung des künstlerischen Vermächtnisses:</strong>
+        Nach dem Tod wurden weitere, teils bereits vorbereitete Werke veröffentlicht,
+        darunter Musik und Kunstprojekte, an denen Genesis bis zuletzt gearbeitet hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Würdigung eines kompromisslosen Lebenswerks:</strong>
+        In Nachrufen wurde wiederholt betont, dass Genesis bis zuletzt der eigenen
+        künstlerischen Radikalität treu blieb, ohne die Krankheit zum bestimmenden Narrativ
+        des eigenen Werks zu machen.</p>
+        <p class="vb-intro"><strong>b) Keine öffentliche Inszenierung des Krankheitsverlaufs:</strong>
+        Anders als bei manchen Künstlern wurde die Leukämie nicht zu einem zentralen
+        Bestandteil der öffentlichen Selbstdarstellung – die Kunst blieb im Vordergrund, nicht
+        das Leiden.</p>
+        <p class="vb-intro"><strong>c) Fortwirken des Pandrogeny-Projekts über den Tod hinaus:</strong>
+        Das gemeinsam mit Lady Jaye begonnene Pandrogeny-Projekt – die körperliche
+        Verschmelzung zweier Menschen zu einem Wesen – wird bis heute als eigenständiges
+        Kunstwerk diskutiert, unabhängig vom Tod beider Beteiligter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Besitzergreifung, angewandt auf die eigene Krankheit:</strong>
+        Die SX8-typische Weigerung, sich irgendetwas kampflos zu unterwerfen, zeigte sich
+        auch im Umgang mit der Leukämie: Genesis ließ die Krankheit nicht zum Diktator des
+        eigenen Lebens werden, sondern arbeitete bis zuletzt mit derselben Intensität weiter.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und die stille Ausdauer im Krankheitsverlauf:</strong>
+        Dieselbe ruhende, nicht-explosive Kraft, die Genesis' jahrzehntelanges Werk trug,
+        zeigte sich auch im Umgang mit der Erkrankung: kein lautes öffentliches Ringen,
+        sondern eine stille, beharrliche Fortsetzung der eigenen Arbeit trotz fortschreitender
+        Krankheit.</p>
+        <p class="vb-intro"><strong>c) Keine Trennung zwischen Kunst und Krankheit:</strong>
+        Für Genesis war die eigene körperliche Verwundbarkeit nie vollständig vom
+        künstlerischen Werk zu trennen – schon das Pandrogeny-Projekt hatte den eigenen
+        Körper als Material der Kunst verwendet; die Leukämie wurde so zu einer weiteren,
+        letzten Form dieser Verschmelzung von Leben und Werk.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Künstler der Grenzauflösung, konfrontiert mit der letzten unauflösbaren Grenze:</strong>
+        Genesis' gesamtes Werk kreiste um die Auflösung von Grenzen – zwischen Körpern,
+        Geschlechtern, Kunst und Leben. Ausgerechnet die Krankheit stellte eine Grenze dar,
+        die sich nicht durch Kunst, Ritual oder Willenskraft auflösen ließ.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-ruth-bader-ginsburg">Ruth
+        Bader Ginsburg (SX8w9)</a>: Auch Ginsburg weigerte sich über Jahre, mehrfachen
+        Krebsdiagnosen nachzugeben, und blieb bis kurz vor dem Tod im Amt aktiv. Bei beiden
+        SX8w9ern zeigt sich dasselbe Muster: eine kompromisslose Weigerung, die eigene
+        Lebensaufgabe der Krankheit unterzuordnen, getragen von einer stillen, langen
+        Ausdauer statt lauten öffentlichen Kampfes.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Blut, der Stoff der Verschmelzung selbst?</strong>
+        Für eine sexuelle Acht mit Neunerflügel, deren gesamtes Werk um körperliche
+        Verschmelzung und Grenzauflösung kreiste, liegt eine Deutung nahe: Ausgerechnet eine
+        Erkrankung des Blutes – jenes Stoffes, der im Körper alle Grenzen überwindet und
+        alles verbindet – wurde zum Ort des eigenen körperlichen Zusammenbruchs. Diese
+        Deutung ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang,
+        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Acht zwangsläufig zu Leukämie führt –
+        <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong>
+        Was sich an Genesis' Fall zeigen lässt, ist ein Muster im Umgang mit einer
+        fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen Acht mit
+        Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Genesis kannte das eigene Muster nicht als Enneagramm-Struktur – die sexuelle Acht
+        mit Neunerflügel hält reflexhaft an der eigenen Kompromisslosigkeit fest, auch
+        gegenüber der eigenen Sterblichkeit, statt rechtzeitig innezuhalten, und lebte genau
+        dieses Muster bis zum letzten Tag unverändert aus. Wer die eigene Neigung, keine
+        Grenze – auch nicht die des eigenen Körpers – anzuerkennen, nicht als Muster
+        erkennt, riskiert, dass der Körper am Ende die einzige Grenze setzt, die sich nicht
+        mehr auflösen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Acht mit Neunerflügel erklärt bei <strong>Genesis P-Orridge</strong>
+        vieles am Umgang mit der eigenen Leukämie: ein Künstler, dessen gesamtes Werk der
+        Auflösung von Grenzen galt, begegnete auch der letzten, unüberwindbaren Grenze mit
+        derselben kompromisslosen Intensität – das Krokodil, das bis zum letzten Tag nicht
+        stillhielt, sondern weiterarbeitete, während die Krankheit selbst zur letzten
+        Verschmelzung von Leben und Werk wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-genesis-p-orridge", label:"Porträt: Genesis P-Orridge (SX8w9)"},
+        {route:"krankheitsportraets-ruth-bader-ginsburg", label:"Krankheitsporträt: Ruth Bader Ginsburg (SX8w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
+      ])}
+    </div>
+  `);
+}
+
+function billieEilishKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-billie-eilish-portrait.jpg" alt="Billie Eilish" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Billie Eilish</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · geb. 2001</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Billie Eilish</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nur beiläufig erwähnt wird: das Tourette-Syndrom, das sie über
+        Jahre vor der Öffentlichkeit verbarg, bevor sie es 2018 selbst bestätigte, sowie eine
+        schwere depressive Phase mit Selbstverletzung im Teenageralter.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Eilish</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SX4 trägt Schmerz roh und ungefiltert nach außen; der Dreierflügel
+        gibt ihr zugleich das Gespür dafür, wie viel davon öffentlich gezeigt werden kann,
+        ohne die eigene Wirkung zu gefährden. Genau diese Kombination – kompromisslose
+        Ehrlichkeit in der Musik, verbunden mit strategischer Zurückhaltung bei bestimmten
+        gesundheitlichen Themen – bestimmte den Umgang mit dem eigenen Tourette-Syndrom und
+        der eigenen Depression.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Tics bereits im Kindesalter:</strong>
+        Nach eigener Aussage bemerkte Eilish erste Tics bereits als Kind, lange bevor eine
+        Diagnose gestellt wurde oder das Thema öffentlich bekannt war.</p>
+        <p class="vb-intro"><strong>b) Diagnose des Tourette-Syndroms:</strong>
+        Eilish wurde mit dem Tourette-Syndrom diagnostiziert, einer neurologischen Störung,
+        die sich durch unwillkürliche Bewegungen und Lautäußerungen zeigt.</p>
+        <p class="vb-intro"><strong>c) Beginn einer depressiven Phase in der frühen Jugend:</strong>
+        Parallel dazu beschrieb sie später in der Dokumentation „The World's a Little
+        Blurry" (2021) eine schwere depressive Episode, die etwa im Alter von zwölf Jahren
+        begann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahrelange bewusste Geheimhaltung des Tourette-Syndroms:</strong>
+        Eilish hielt die Diagnose über Jahre vor der Öffentlichkeit geheim, aus Sorge, auf
+        die Erkrankung reduziert oder in Interviews ständig danach gefragt zu werden.</p>
+        <p class="vb-intro"><strong>b) Selbstverletzendes Verhalten als Teil der depressiven Phase:</strong>
+        In derselben Dokumentation sprach sie offen über selbstverletzendes Verhalten
+        während dieser Zeit sowie über anhaltende Suizidgedanken.</p>
+        <p class="vb-intro"><strong>c) Körperbildbezogene Belastung durch öffentliche Aufmerksamkeit:</strong>
+        Die mit vierzehn Jahren einsetzende öffentliche Aufmerksamkeit verstärkte nach
+        eigener Schilderung ein bereits angespanntes Verhältnis zum eigenen Körper.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Öffentliche Bestätigung des Tourette-Syndroms 2018:</strong>
+        Eilish bestätigte die Diagnose erstmals öffentlich in einem Interview 2018, nachdem
+        Fans Videoaufnahmen ihrer Tics online diskutiert hatten.</p>
+        <p class="vb-intro"><strong>b) Offener Umgang mit Missverständnissen:</strong>
+        Seither erklärt sie wiederholt in Interviews, wie sich Tourette bei ihr äußert, und
+        korrigiert öffentlich gängige Fehlvorstellungen über die Erkrankung.</p>
+        <p class="vb-intro"><strong>c) Ausführliche Dokumentation der depressiven Phase:</strong>
+        Die 2021 veröffentlichte Dokumentation begleitet Eilish über mehrere Jahre und zeigt
+        auch unbearbeitete Aufnahmen aus der Zeit der schwersten depressiven Episode.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Aufmerksamkeit für ein wenig bekanntes Krankheitsbild:</strong>
+        Eilishs Offenheit über Tourette trug international dazu bei, Missverständnisse über
+        die Erkrankung abzubauen, da sie eine der bekanntesten öffentlichen Personen mit
+        dieser Diagnose ist.</p>
+        <p class="vb-intro"><strong>b) Positive Resonanz auf die Dokumentation:</strong>
+        Die schonungslose Offenheit der Dokumentation über Depression und
+        Selbstverletzung wurde von Kritikern und jungen Fans gleichermaßen als
+        außergewöhnlich ehrlich gewürdigt.</p>
+        <p class="vb-intro"><strong>c) Fortgesetzte künstlerische Verarbeitung:</strong>
+        Themen wie Körperbild, psychische Gesundheit und der Druck öffentlicher
+        Aufmerksamkeit blieben zentrale Motive ihrer späteren Alben, ohne dass die
+        Erkrankungen selbst zum Vermarktungsthema wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Ungefilterte Offenheit in der Musik, Zurückhaltung beim Tourette-Syndrom:</strong>
+        Die SX4-typische Kompromisslosigkeit zeigte sich in Eilishs Texten uneingeschränkt –
+        beim Tourette-Syndrom hingegen entschied sie sich über Jahre bewusst für
+        Zurückhaltung, aus Sorge vor Reduktion auf die Diagnose.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die kontrollierte öffentliche Offenlegung:</strong>
+        Als Eilish sich schließlich zur Tourette-Diagnose äußerte, geschah das nicht
+        spontan, sondern in einem kontrollierten Interviewrahmen – dieselbe strategische
+        Präzision, mit der der Dreierflügel auch ihre musikalische Karriere prägte.</p>
+        <p class="vb-intro"><strong>c) Die Dokumentation als Form kontrollierter Verletzlichkeit:</strong>
+        Dass die tiefste Offenlegung der eigenen depressiven Phase in einem sorgfältig
+        produzierten Dokumentarfilm erfolgte statt in einem spontanen Interview, passt zur
+        SX4w3-Dynamik: rohe Ehrlichkeit, aber in eine wirkungsvolle Form gebracht.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme kompromissloser Ehrlichkeit, die eine Diagnose jahrelang verschwieg:</strong>
+        Eilishs gesamtes Werk beruht auf der Weigerung, irgendetwas zu beschönigen –
+        ausgerechnet das Tourette-Syndrom blieb über Jahre die eine Ausnahme von diesem
+        Prinzip, bis sie selbst entschied, wann und wie es öffentlich würde.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie
+        Mercury (SX4w3)</a>: Auch Mercury verbarg eine gesundheitliche Diagnose über Jahre
+        vor der Öffentlichkeit, bevor er sie schließlich zu einem selbst gewählten Zeitpunkt
+        bestätigte. Bei beiden SX4w3ern zeigt sich dasselbe Muster: die Kontrolle über den
+        eigenen Offenlegungszeitpunkt wird zur letzten verbleibenden Form der
+        Selbstbestimmung angesichts einer Diagnose, die man sich nicht ausgesucht hat.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet unwillkürliche Bewegungen, bei einer Künstlerin präziser Kontrolle?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren gesamtes Werk auf der präzisen
+        Kontrolle über Bild, Ton und Auftritt beruht, liegt eine Deutung nahe: Ausgerechnet
+        eine neurologische Störung, die sich durch unkontrollierbare Bewegungen und Laute
+        äußert, traf eine Künstlerin, deren öffentliches Bild von perfekt orchestrierter
+        Selbstinszenierung lebt. Diese Deutung ist eine plausible Interpretation, kein
+        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu Tourette-Syndrom
+        oder Depression führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Eilishs Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer nicht selbst gewählten gesundheitlichen Diagnose, das bei
+        einer ausgeprägten sexuellen Vier mit Dreierflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Eilish kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Vier mit
+        Dreierflügel hält reflexhaft an der Kontrolle darüber fest, wann und wie das eigene
+        Innenleben gezeigt wird, auch wenn das bedeutet, eine belastende Diagnose über Jahre
+        allein zu tragen, und lebt genau dieses Muster bis heute weitgehend unverändert aus.
+        Wer die eigene Neigung, Offenheit strikt zu terminieren und zu inszenieren, nicht als
+        Muster erkennt, riskiert, dass gerade die Themen, die am dringendsten Unterstützung
+        bräuchten, am längsten verborgen bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der sexuelle Typ 4 mit Dreierflügel erklärt bei <strong>Billie Eilish</strong> vieles
+        am Umgang mit Tourette-Syndrom und Depression: eine Künstlerin, deren gesamtes Werk
+        auf kompromissloser Ehrlichkeit beruht, entschied bei den eigenen gesundheitlichen
+        Diagnosen bewusst selbst, wann diese Ehrlichkeit einsetzte – der Chihuahua, der
+        nicht lauter werden muss, um gehört zu werden, sondern nur so ehrlich, wie er selbst
+        es zulassen kann.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
 function willyBrandtKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -10873,520 +11217,6 @@ function peterSutcliffePortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1) \u2013 ebenfalls Flusspferd"},
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SE1w9) \u2013 \u00e4hnliche T\u00e4terstruktur"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9) \u2013 moralische Selbstrechtfertigung"},
-      ])}
-    </div>
-  `);
-}
-
-function annaDelveyPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Anna Delvey \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Anna Delvey</p>
-        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Russisch-deutsche Hochstaplerin in New York \u00b7 Tierentsprechung: Flusspferd</p>
-      </div>
-
-      <p class="psycho-intro">
-        <strong>Anna Delvey</strong> \u2013 b\xfcrgerlich Anna Sorokin \u2013 gab sich in der New Yorker
-        Hochgesellschaft als reiche deutsche Erbin aus und erg\xe4ppte damit
-        Hotels, Banken, Kunstinstitutionen und Privatpersonen um Hunderttausende
-        Dollar. Zwischen 2016 und 2017 inszenierte sie eine vollst\xe4ndige Identit\xe4t:
-        Designerkleidung, Fotoauftritte, gro\xdfz\xfcgige Auftritte in Luxusrestaurants \u2013
-        alles auf Pump, alles auf Kredit, alles auf Bluff. 2019 wurde sie wegen
-        Betruges verurteilt, 2022 nach Verb\xfc\xdfung der Strafe auf Kaution freigelassen
-        und sp\xe4ter in Abschiebehaft genommen. Heute vermarktet sie ihre Geschichte
-        als Marke. Der Fall Delvey ist kein gew\xf6hnlicher Betrug \u2013
-        er ist eine pr\xe4zise Inszenierung des gesellschaftlichen Aufstiegs:
-        eine Zwei, die mit dem Dreierfl\xfcgel gelernt hat, dass Image genug ist,
-        solange niemand hinter die Kulissen schaut.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Anna Delvey</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
-        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen, verbunden mit
-        dem unbewussten Anspruch auf Gegenleistung und Zugeh\xf6rigkeit zu einer
-        Sph\xe4re, die man sich nicht verdient hat, sondern die man sich nimmt.
-        Die selbsterhaltende Zwei (SE2) \u2013 von Naranjo als \u201ePrivileg" beschrieben \u2013
-        stellt die eigenen Bed\xfcrfnisse ins Zentrum, verh\xfcllt durch das Spiel
-        der F\xfcrsorge und der Zugeh\xf6rigkeit. Der Dreierfl\xfcgel verleiht ihr
-        eine strahlende, selbstbewusste Au\xdfenpr\xe4senz: Sie wei\xdf, wie man
-        Eindruck macht, wie man Bilder erzeugt, wie man Wert signalisiert
-        ohne ihn zu besitzen. In Delveys Fall entstand daraus ein System,
-        das auf Fassade beruhte \u2013 und jahrelang funktionierte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
-        <p class="vb-intro"><strong>a) Charismatisch und pr\xe4senz-stark:</strong>
-        <strong>Delvey</strong> wirkte auf Menschen, die ihr begegneten,
-        sofort wie jemand, der geh\xf6rt. Selbstsicher, stilbewusst,
-        weltgew\xe4ndt. Das ist die Zwei mit Dreierfl\xfcgel:
-        Sie wei\xdf, wie sie wirkt \u2013 und nutzt diese Wirkung.</p>
-        <p class="vb-intro"><strong>b) Einnehmend ohne Offenbarung:</strong>
-        <strong>Delvey</strong> gab viel vor \u2013 und wenig preis. Menschen, die sie kannten,
-        beschrieben sp\xe4ter das Gef\xfchl, sie nie wirklich gekannt zu haben.
-        Die Zwei teilt das, was Eindruck macht, und verbirgt, was
-        Schw\xe4che zeigen k\xf6nnte.</p>
-        <p class="vb-intro"><strong>c) K\xfchl bei Konfrontation:</strong>
-        Wenn Delvey mit Inkonsistenzen konfrontiert wurde,
-        reagierte sie nicht nerv\u00f6s, sondern k\xfchl und \xfcberlegen.
-        Das ist der Dreierfl\xfcgel: er gibt der Zwei die F\xe4higkeit,
-        auch unter Druck das Image aufrechtzuerhalten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Status als Mittel der Zugeh\xf6rigkeit:</strong>
-        F\xfcr Delvey war Luxus kein Selbstzweck \u2013
-        er war eine Sprache. Die SE2 will dazugeh\xf6ren,
-        will in einer bestimmten Welt willkommen sein.
-        Delvey lernte diese Sprache perfekt und sprach sie
-        flie\xdfend \u2013 auch ohne die Mittel daf\xfcr zu haben.</p>
-        <p class="vb-intro"><strong>b) Helfen und Verf\xfchren als Strategie:</strong>
-        Die Zwei gewinnt Zugeh\xf6rigkeit durch Geben.
-        Delvey gab Einladungen, Drinks, Aufmerksamkeit,
-        das Gef\xfchl, besonders zu sein \u2013 und erschuf so
-        Netzwerke aus Verbindlichkeit.</p>
-        <p class="vb-intro"><strong>c) Privilegiertheitsgef\xfchl als innere \xdcberzeugung:</strong>
-        Die SE2 glaubt, auf Grund ihrer besonderen Qualit\xe4ten
-        Anspruch auf Dinge zu haben, die anderen verwehrt bleiben.
-        Delvey glaubte offenbar wirklich, dass ihr
-        der Aufstieg in diese Welt zustand \u2013
-        und erschuf den Weg dorthin kurzerhand selbst.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Meisterin der sozialen Inszenierung:</strong>
-        <strong>Delvey</strong> verstand die ungeschriebenen Regeln der
-        New Yorker Hochgesellschaft besser als viele, die
-        dort aufgewachsen waren. Der Dreierfl\xfcgel gibt ihr
-        das Gespr\xfcr f\xfcr Codes, Bilder, Signale \u2013
-        und die F\xe4higkeit, sie zu spielen.</p>
-        <p class="vb-intro"><strong>b) Hochgradige Anpassungsf\xe4higkeit:</strong>
-        Sorokin wurde zu Delvey, Delvey wurde zur
-        deutschen Erbin, die deutsche Erbin wurde zur
-        K\xfcnstlerin, dann zur Marke. Die Zwei mit
-        Dreierfl\xfcgel kann ihre Identit\xe4t nach Kontext
-        formen \u2013 weil Identit\xe4t f\xfcr sie nie vollst\xe4ndig
-        real, sondern immer auch Performance war.</p>
-        <p class="vb-intro"><strong>c) Grenze zwischen Selbstt\xe4uschung und bewusstem Betrug:</strong>
-        Was Delveys Fall besonders macht: Es ist nicht ganz klar,
-        wo Kalk\u00fcl endet und Selbstt\xe4uschung beginnt.
-        Glaubte sie, das Geld irgendwann zu haben?
-        Oder war alles kalter Plan? Die Zwei im Stolz
-        kann beides gleichzeitig sein \u2013
-        sie t\xe4uscht andere und sich selbst.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Bewunderung und Unglauben:</strong>
-        <strong>Delvey</strong> l\xf6ste in der \xd6ffentlichkeit eine unerwartete Reaktion aus:
-        viele Menschen \u2013 besonders Frauen \u2013 empfanden
-        eine gewisse Faszination f\xfcr sie. Sie hatte das getan,
-        was viele insgeheim wollten: die Regeln des Aufstiegs
-        gebrochen und trotzdem gewonnen \u2013 zumindest f\xfcr eine Weile.</p>
-        <p class="vb-intro"><strong>b) Keine klassische Reue:</strong>
-        Im Gef\xe4ngnis, nach der Verurteilung und sp\xe4ter in Interviews
-        zeigte Delvey wenig klassische Schuldbek\xe4mmerung.
-        Dem SE2w3er fehlt der Zugang zur eigenen Verletzlichkeit \u2013
-        sie ist immer noch in der Rolle, immer noch
-        auf der B\xfchne.</p>
-        <p class="vb-intro"><strong>c) Marke als letzter Akt:</strong>
-        <strong>Delvey</strong> hat ihre Geschichte vermarktet \u2013 Netflix-Serie,
-        Podcast, Kunstinstallationen aus der Abschiebehaft.
-        Das ist konsequente Dreier-Logik: Wenn schon Scheitern,
-        dann inszeniertes Scheitern. Der Schaden an anderen bleibt \u2013
-        aber die Marke lebt weiter.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Anziehend und magnetisch:</strong>
-        Delveys Energie war einladend, glamour\xf6s, vielversprechend.
-        Menschen wollten in ihrer N\xe4he sein, weil sie das Gef\xfchl
-        vermittelte, dass etwas Besonderes passiert.
-        Das ist die Zwei mit Dreierfl\xfcgel auf einer B\xfchne:
-        zugleich W\xe4rme und Spektakel.</p>
-        <p class="vb-intro"><strong>b) Kontrollierte Emotionalit\xe4t:</strong>
-        Anders als der Einserfl\xfcgel, der moralisch aufgeladen wirkt,
-        bleibt der Dreierfl\xfcgel k\xfchl und kalkuliert.
-        Delvey zeigte nie zu viel \u2013
-        Emotion als Mittel, nicht als Zustand.</p>
-        <p class="vb-intro"><strong>c) Verbindlichkeit durch Exklusivit\xe4t:</strong>
-        Wer von Delvey eingeladen wurde, f\xfchlte sich besonders.
-        Dieses Gef\xfchl ist ein klassisches Zwei-Mittel:
-        Zugeh\xf6rigkeit als Gabe \u2013 die gleichzeitig
-        Abh\xe4ngigkeit erzeugt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
-        Das Flusspferd gilt als gem\xfctliches, wasserliebendes Tier \u2013
-        und ist dabei eines der gef\xe4hrlichsten \xdcbers\xe4ugetiere Afrikas.
-        Delvey wirkte charming, weltoffen, ungef\xe4hrlich \u2013
-        bis die Betr\xfcgereien aufgedeckt wurden.</p>
-        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck trotz scheinbarer Grazie:</strong>
-        Das Flusspferd bewegt sich elegant im Wasser \u2013
-        aber verursacht an Land eine Schneise der Zerst\xf6rung.
-        Delvey hinterlie\xdf einen Schaden, der zum
-        glanzvollen Auftreten in keinem Verh\xe4ltnis stand.</p>
-        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
-        Das Flusspferd verteidigt sein Revier bedingungslos \u2013
-        und hinterfragt es nicht. Delvey verteidigte
-        ihre Identit\xe4t als reiche Erbin mit derselben
-        Unbedingtheit \u2013 bis das System zusammenbrach.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Anna Delvey</strong> ist das pr\xe4ziseste Portr\xe4t der SE2w3 in der Popkultur:
-        Sie zeigt, wie der Stolz der Zwei \u2013 das Gef\xfchl, besonders zu sein
-        und besondere Rechte zu haben \u2013 durch den Dreierfl\xfcgel in eine
-        vollst\xe4ndige Lebensinszenierung \xfcbersetzt werden kann.
-        Was sie unterscheidet von klassischen Betr\xfcgern ist das Gef\xfchl,
-        dass sie selbst an ihre Rolle glaubte \u2013 zumindest teilweise.
-        Der Schaden war real: gestohlenes Geld, zerst\xf6rte Verbindungen,
-        benutzte Menschen. Aber das Innenleben der Zwei bleibt
-        \xfcberzeugt: Es war nicht Unrecht \u2013 es war Aufstieg.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
-        Claudio Naranjo nannte die SE2 den Subtyp des Privilegs:
-        Sie glaubt, durch ihre besondere Art zu geben und zu sein,
-        Anspruch auf mehr zu haben als andere.
-        F\xfcr Delvey war das kein Wunsch \u2013 es war eine Gewissheit.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel \u2013 Bild als Realit\xe4t:</strong>
-        Der Dreierfl\xfcgel lehrt: Wenn das Bild \xfcberzeugt,
-        ist das Bild real. Diese Logik durchzieht Delveys
-        gesamtes System \u2013 von der erfundenen Biografie bis
-        zur heutigen Selbstvermarktung. Image ist nicht Mittel.
-        Image ist Ziel.</p>
-        <p class="vb-intro"><strong>c) Stolz als sozialer Klebstoff:</strong>
-        Delveys Stolz war nicht Arroganz nach au\xdfen \u2013
-        er war eine innere \xdcberzeugung von Ausnahmestellung,
-        die ihr erlaubte, Grenzen zu \xfcberschreiten,
-        ohne sie als Grenzen wahrzunehmen.</p>
-        <p class="vb-intro"><strong>d) Entspannungspunkt Vier \u2013 der fehlende Zugang:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier.
-        In Gesundheit hei\xdft das: echte Selbstreflexion,
-        Zugang zur eigenen Trauer, zur eigenen Sehnsucht.
-        Delvey zeigte kaum Anzeichen davon \u2013
-        sie bewegte sich immer auf der Oberfl\xe4che
-        der Inszenierung, nie darunter.</p>
-        <p class="vb-intro"><strong>e) Vergleich mit Harvey Weinstein:</strong>
-        Weinstein (SE2w1) und Delvey (SE2w3) nutzen denselben
-        Grundmechanismus: das Gef\xfchl der Ausnahmestellung,
-        das Zweier-Privileg. Der Einserfl\xfcgel moralisiert
-        das Privileg; der Dreierfl\xfcgel \xe4sthetisiert es.
-        Weinstein rechtfertigte, Delvey inszenierte.</p>
-        <p class="vb-intro"><strong>f) Die Frage der Verantwortung:</strong>
-        Delveys Fall l\xf6ste eine gesellschaftliche Debatte aus:
-        Ist sie Opfer eines Systems, das Frauen den direkten
-        Aufstieg verwehrt, oder Betr\xfcgerin ohne Entschuldigung?
-        Aus Enneagramm-Sicht ist beides wahr \u2013
-        und das ist das Wesen der Leidenschaft:
-        Sie ist nicht b\xf6se Absicht. Sie ist blinder Fleck.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 im Vergleich: Wie sich Stolz und Bild-Denken im Dreierfl\xfcgel verbinden.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 alle Zwei-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich: Stolz, F\xfcrsorge, Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Anna Delvey wurde 2019 in New York wegen Betrugs schuldig gesprochen und verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
-        {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
-      ])}
-    </div>
-  `);
-}
-
-function jonathanMeijerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Jonathan Meijer \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jonathan Meijer</p>
-        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Jonathan Meijer</strong> ist ein niederl\xe4ndischer Samenspender, der \xfcber 550 Kinder
-        in aller Welt gezeugt haben soll \u2013 weit mehr als die vereinbarten H\xf6chstgrenzen
-        von Kliniken und Empf\xe4ngerinnen. Er t\xe4uschte Kliniken \xfcber die Gesamtzahl
-        seiner Spenden, ignorierte Absprachen und spendete nach mehrfachen
-        Gerichtsurteilen, die ihm weiteres Spenden untersagten, in anderen L\xe4ndern
-        weiter. Meijer wurde nie strafrechtlich verurteilt \u2013 sein Verhalten
-        bewegte sich in einer juristischen Grauzone. Dennoch hinterlie\xdf er
-        eine der gr\xf6\xdften ethischen Debatte der modernen Reproduktionsmedizin:
-        \xdcber die Grenzen von Einwilligung, \xfcber den Schaden durch massenhaft
-        unbekannte Halbgeschwister, \xfcber die Frage, ob Helfen Recht gibt
-        oder Grenzen aufhebt. Sein Fall ist aus Enneagramm-Sicht hochinteressant:
-        Er zeigt, was geschieht, wenn die Leidenschaft der Zwei \u2013 der Stolz
-        auf das eigene Geben \u2013 vollst\xe4ndig die Kontrolle \xfcbernimmt.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Jonathan Meijer</strong> wird der <strong>Selbsterhaltenden Zwei mit Einserfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
-        das \xdcberzeugtsein, etwas einzigartig Wertvolles zu besitzen und zu geben,
-        verbunden mit dem unbewussten Anspruch auf Gegenleistung und Anerkennung.
-        Die selbsterhaltende Zwei (SE2) \u2013 von Naranjo als \u201ePrivileg" beschrieben \u2013
-        richtet diese Energie nach innen: Sie stellt die eigenen Bed\xfcrfnisse
-        unter dem Deckmantel des Helfens ins Zentrum und entwickelt ein Gef\xfchl
-        von Ausnahmestellung und Unantastbarkeit. Der Einserfl\xfcgel verleiht ihr
-        eine moralische Selbstrechtfertigung: Das Gute, das sie tut, legitimiert
-        jede Grenz\xfcberschreitung. In Meijers Fall entstand daraus ein System,
-        das sich selbst als reine Gro\u00dfz\xfcgigkeit verstand \u2013 und dabei
-        Hunderte von Menschen nachhaltig besch\xe4digte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualit\xe4t</h3>
-        <p class="vb-intro"><strong>a) Warm und einnehmend:</strong>
-        <strong>Meijer</strong> beschrieb sich selbst als warmherzig und f\xfcrsorglich \u2013
-        und seine Wirkung auf viele Empf\xe4ngerinnen best\xe4tigte das.
-        Die Zwei strahlt echte W\xe4rme aus; ihr Blick signalisiert
-        Aufmerksamkeit, Zugewandtheit, das Gef\xfchl: Ich sehe dich,
-        ich bin f\xfcr dich da.</p>
-        <p class="vb-intro"><strong>b) \xdcberzeugt von der eigenen Botschaft:</strong>
-        <strong>Meijer</strong> wirkte auf Interviews und in \xf6ffentlichen Auftritten
-        nicht wie jemand, der l\xfcgt \u2013 er wirkte wie jemand, der glaubt,
-        was er sagt. Das ist das Kernmerkmal der Zwei im Stolz:
-        Sie t\xe4uscht andere nicht in erster Linie absichtlich,
-        sondern weil sie sich selbst t\xe4uscht.</p>
-        <p class="vb-intro"><strong>c) Verletzt bei Kritik:</strong>
-        Wenn Meijer mit dem Schaden konfrontiert wurde, den seine
-        Handlungen angerichtet hatten, wirkte er h\xe4ufig verletzt
-        und unverstanden. Der Einserfl\xfcgel verst\xe4rkt das: Er,
-        der Gutes tut, wird missverstanden \u2013 eine typische
-        SE2w1-Reaktion auf Grenzsetzung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Helfen als Identit\xe4t:</strong>
-        <strong>Meijer</strong> verstand sich als Geschenk an die Welt \u2013
-        im w\xf6rtlichen Sinne. Die Zwei definiert sich \xfcber
-        das, was sie gibt. Wer so viel gibt wie Meijer,
-        hat eine enorme Identit\xe4t als Geber aufgebaut.
-        Diese Identit\xe4t aufzugeben h\xe4tte bedeutet,
-        nichts mehr zu sein.</p>
-        <p class="vb-intro"><strong>b) Regeln als Hindernisse f\xfcr das Gute:</strong>
-        Klinische Obergrenzen, Gerichtsurteile, Absprachen \u2013
-        Meijer umging sie systematisch. F\xfcr die SE2w1 gilt:
-        Wer Gutes tut, steht \xfcber den Regeln, die f\xfcr
-        gew\xf6hnliche Menschen gemacht wurden. Der Einserfl\xfcgel
-        formuliert das als moralisches Prinzip: Die Regeln sind
-        falsch, meine Mission ist richtig.</p>
-        <p class="vb-intro"><strong>c) Bed\xfcrfnis nach Ausnahmestellung:</strong>
-        Die selbsterhaltende Zwei entwickelt ein Gef\xfchl
-        von Privileg \u2013 sie ist besonders, ihre Ressourcen
-        sind besonders, ihr Beitrag ist besonders.
-        Meijer sah seine genetische Gesundheit und sein
-        Aussehen als Gabe, die er der Welt nicht vorenthalten
-        durfte. Das ist SE2-Stolz in seiner unverfälschtesten Gestalt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Unbewusste Eigeninteressen:</strong>
-        <strong>Meijer</strong> betonte immer wieder seinen altruistischen Antrieb.
-        Aber was die SE2 nicht sieht: Hinter dem Geben stecken
-        eigene Bed\xfcrfnisse \u2013 nach Bedeutung, nach Verbindung,
-        nach dem Gef\xfchl, unersetzlich zu sein.
-        550 Kinder sind nicht Altruismus \u2013 sie sind
-        ein Monument der eigenen Unersetzlichkeit.</p>
-        <p class="vb-intro"><strong>b) Moralische Selbstrechtfertigung:</strong>
-        Der Einserfl\xfcgel gibt der Zwei eine innere Stimme,
-        die ihr Verhalten nicht nur erlaubt, sondern fordert.
-        Meijer handelte aus \xdcberzeugung \u2013 und diese \xdcberzeugung
-        schirmte ihn gegen\xfcber jedem Einwand ab.
-        Das ist die gef\xe4hrlichste Kombination: Geben als Pflicht,
-        Grenzen als Unrecht.</p>
-        <p class="vb-intro"><strong>c) Kontrolle durch F\xfcrsorge:</strong>
-        Die Zwei h\xe4lt Verbindungen aufrecht, weil sie
-        gebraucht werden will. Meijer suchte aktiv Kontakt
-        zu donorkind-Gruppen, zum Teil gegen deren Willen.
-        Das ist SE2-Kontrolle: nicht durch Macht,
-        sondern durch das Angebot von sich selbst.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Sympathisch und schwer greifbar:</strong>
-        <strong>Meijer</strong> wurde nie strafrechtlich verurteilt \u2013 auch weil
-        sein Verhalten sich juristisch in Graubereichen bewegte,
-        aber auch weil er schlicht sympathisch wirkte.
-        Die Zwei hat diese Qualit\xe4t: Sie macht es schwer,
-        ihr b\xf6se zu sein, weil sie so offensichtlich
-        helfen will.</p>
-        <p class="vb-intro"><strong>b) Uneinsichtig trotz Konsequenzen:</strong>
-        Selbst nach mehreren Gerichtsurteilen, nach internationaler
-        Berichterstattung und nach dem Schmerz vieler Betroffener
-        zeigte Meijer wenig echte Einsicht. Das ist die Zwei
-        im Stolz: Kritik wird als Missverst\xe4ndnis erlebt,
-        nicht als berechtigter Einwand.</p>
-        <p class="vb-intro"><strong>c) Gro\xdfes Vergehen, kleines Bewusstsein:</strong>
-        Die Diskrepanz zwischen dem Ausma\xdf des Schadens
-        und Meijers Selbstwahrnehmung ist das Erschreckendste
-        an seinem Fall. Das ist das Wesen des Zwei-Stolzes:
-        Man sieht das eigene Geben, aber nicht die eigene
-        Wirkung auf andere.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) W\xe4rmend und einbindend:</strong>
-        Meijers Energie ist die der F\xfcrsorge \u2013 einladend,
-        w\xe4rmend, pr\xe4sent. Menschen in seiner N\xe4he f\xfchlten sich
-        gesehen. Das ist das Gesckenk der gesunden Zwei
-        und gleichzeitig ihr wirksamster Einflusskanal.</p>
-        <p class="vb-intro"><strong>b) Unterschwelliger Anspruch:</strong>
-        Darunter lag ein Anspruch: Anerkennst du, was ich f\xfcr
-        dich tue? Die Zwei gibt nie bedingungslos \u2013 sie gibt
-        immer mit der stillen Erwartung von R\xfcickkehr.
-        Wer das nicht erf\xfcllte, erlebte Meijer
-        als verletzt oder kalt.</p>
-        <p class="vb-intro"><strong>c) Einserfl\xfcgel als moralische Ladung:</strong>
-        Der Einserfl\xfcgel gibt der Energie eine moralische
-        Schwere: Ich handle nicht nur gut, ich handle richtig.
-        Diese moralische Aufgeladenheit kann einsch\xfcchternd
-        wirken \u2013 wer Meijer kritisierte, kritisierte
-        nicht nur einen Menschen, sondern eine Mission.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, gef\xe4hrliche Wirklichkeit:</strong>
-        Das Flusspferd wird oft f\xfcr gem\xfctlich und tr\xe4ge gehalten \u2013
-        dabei ist es eines der gef\xe4hrlichsten Tiere Afrikas.
-        Es verteidigt sein Revier mit \xfcberw\xe4ltigender Kraft,
-        ohne dass es nach au\xdfen bedrohlich wirkt.
-        Meijer wurde lange als harmlosen Wohlt\xe4ter wahrgenommen \u2013
-        bis das Ausma\xdf seines Handelns sichtbar wurde.</p>
-        <p class="vb-intro"><strong>b) Massiver Fu\xdfabdruck im \xd6kosystem:</strong>
-        Das Flusspferd ver\xe4ndert seine Umgebung grundlegend \u2013
-        durch seine schiere K\xf6rpermasse, seinen N\xe4hrstoffaussto\xdf,
-        seine Pr\xe4senz in Gew\xe4ssern. Meijers biologischer Fu\xdfabdruck
-        in der Welt ist \xe4hnlich: massiv, dauerhaft,
-        unumkehrbar \u2013 und f\xfcr viele Betroffene schmerzhaft.</p>
-        <p class="vb-intro"><strong>c) Territorial und unkritisch gegen\xfcber sich selbst:</strong>
-        Das Flusspferd kennt keine Selbstreflexion \u2013 es folgt
-        seinen Instinkten mit vollst\xe4ndiger \xdcberzeugung.
-        Meijer folgte seinem Impuls zu geben mit einer
-        \xe4hnlichen Unbedingtheit: keine Grenze, keine Pause,
-        kein Innehalten. Die Zwei im Stolz ist
-        sich selbst gegen\xfcber blind.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Jonathan Meijer</strong> wurde nie verurteilt \u2013 und das macht seinen Fall
-        in gewisser Weise noch lehrreicher als viele andere in dieser Reihe.
-        Er zeigt, dass der gr\xf6\xdfte Schaden nicht immer durch b\xf6sen Willen
-        entsteht, sondern durch das, was die Enneagramm-Tradition
-        Leidenschaft nennt: eine unbewusste, \xfcberm\xe4\xdfige Energie,
-        die sich selbst f\xfcr Tugend h\xe4lt. Der Stolz der Zwei,
-        verst\xe4rkt durch die moralische Selbstgewissheit des Einserfl\xfcgels,
-        erzeugte ein System, das sich als reine Gro\u00dfz\xfcgigkeit verstand \u2013
-        und dabei Hunderte von Leben nachhaltig ver\xe4nderte.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
-        Claudio Naranjo bezeichnete die selbsterhaltende Zwei
-        als den Subtyp des \u201ePrivilegs": Sie glaubt, auf Grund
-        ihres Gebens und ihrer F\xfcrsorge besondere Rechte zu haben.
-        Die SE2 stellt ihre eigenen Bed\xfcrfnisse ins Zentrum \u2013
-        aber so geschickt verh\xfcllt durch F\xfcrsorge f\xfcr andere,
-        dass sie es selbst nicht sieht. Meijer wollte spenden
-        und gleichzeitig bedeutsam, erinnert, relevant sein.
-        Das Privileg war nicht Reichtum \u2013 es war Einzigartigkeit.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\xfcgel \u2013 Pflicht und Recht:</strong>
-        Der Einserfl\xfcgel gibt der Zwei eine mission\xe4re Qualit\xe4t.
-        Er macht aus dem Impuls zu geben eine moralische Pflicht \u2013
-        und aus der Missachtung von Grenzen ein Recht.
-        Meijer handelte nicht aus Bequemlichkeit oder Kalk\xfcl,
-        sondern aus echter, tief verankerter \xdcberzeugung.
-        Das macht ihn schwerer einzuordnen als klassische
-        Kriminelle \u2013 und sein Verhalten schwerer zu stoppen.</p>
-        <p class="vb-intro"><strong>c) Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist Stolz \u2013 aber nicht
-        der offene Hochmut. Es ist ein stiller, unsichtbarer Stolz:
-        die \xdcberzeugung, mehr zu geben als andere,
-        mehr zu f\xfchlen als andere, mehr wert zu sein als andere.
-        Dieser Stolz ist f\xfcr die Zwei selbst unsichtbar.
-        Meijer sah sich als gew\xf6hnlichen Helfer \u2013
-        und war doch von einer grandiosen Selbst\xfcberhebung getrieben.</p>
-        <p class="vb-intro"><strong>d) Kein klassischer Krimineller:</strong>
-        <strong>Meijer</strong> geh\xf6rt in diese Reihe nicht als T\xe4ter im
-        \xfcblichen Sinne, sondern als Beispiel f\xfcr das
-        Schadenspotenzial unbewusster Leidenschaften.
-        Sein Fall zeigt: Die gef\xe4hrlichste Form von
-        Grenz\xfcberschreitung ist nicht die, die sich
-        selbst als b\xf6se erkennt \u2013 sondern die,
-        die sich f\xfcr gut h\xe4lt.</p>
-        <p class="vb-intro"><strong>e) Entspannungspunkt Vier \u2013 Tiefe und Einzigartigkeit:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier.
-        In gesunder Form bedeutet das: echte Selbstreflexion,
-        Zugang zu eigenen Gef\xfchlen, Unterscheidung zwischen
-        echtem Geben und verdeckter Eigeninteressen.
-        Bei Meijer zeigte sich dieser Punkt kaum \u2013
-        was erkl\xe4rt, warum er so lange ohne Innehalten
-        weiterhandelte.</p>
-        <p class="vb-intro"><strong>f) Die ethische Debatte als Verm\u00e4chtnis:</strong>
-        Meijers Fall hat die Reproduktionsmedizin ver\xe4ndert.
-        In den Niederlanden und anderen L\xe4ndern wurden
-        Gesetze gest\xe4rkt, Kliniken strenger reguliert,
-        Obergrenzen gesetzlich verankert. Das ist das
-        bleibende Resultat: Sein Verhalten zwang die Gesellschaft,
-        Grenzen zu definieren, die sie zuvor nicht f\xfcr
-        n\xf6tig gehalten hatte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei den drei Zweier-Subtypen unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert \u2013 Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Jonathan Meijer wurde 2023 in den Niederlanden wegen Versto\u00df gegen Spendenobergrenzen verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
-        {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
-        {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
   `);

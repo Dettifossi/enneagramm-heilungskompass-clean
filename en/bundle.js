@@ -984,6 +984,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryan Gosling – Sexual Two",
     teaser:"SX2w3 · b. 1980. Canadian actor. From bullied loner and Mickey Mouse Club child star to three-time Oscar-nominated character actor (\"Half Nelson,\" \"La La Land,\" \"Barbie\"). Known for his deliberately private, family-centered relationship with Eva Mendes and a four-year career break for his daughters. Animal correspondence: Camel.",
     land:"Canada", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-mata-hari", name:"Mata Hari", added:"2026-08-31", subtyp:"SX2w3",
+    heading:"Mata Hari – Sexual Two with Three-wing",
+    teaser:"SX2w3 · 1876–1917. Dutch dancer, reinvented herself as the exotic persona \"Mata Hari\" after a failed marriage, maintained exclusive relationships with influential men on both sides of World War I, executed in 1917 for espionage – evidence still disputed today. Animal correspondence: Camel.",
+    land:"Netherlands", tags:["History"], gender:"f"},
 { route:"beruehmte-eva-mendes", name:"Eva Mendes", added:"2026-08-30", subtyp:"SX6w7",
     heading:"Eva Mendes – Sexual Six",
     teaser:"SX6w7 · b. 1974. Actress and entrepreneur. From an anxious child of a Cuban immigrant family to an internationally celebrated sex symbol (Calvin Klein campaigns) and versatile entrepreneur with her own fashion, skincare, and home décor lines. Deliberately stepped back from the spotlight to protect family and privacy with husband Ryan Gosling. Animal correspondence: Wolf.",
@@ -45401,6 +45405,72 @@ function ryanGoslingPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"lebensmusterkompass/sx2", label:"Life Pattern Compass: SX2 – The Camel"},
         {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – wife"},
+        {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function mataHariPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-mata-hari-portrait.jpg" alt="Mata Hari" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mata Hari</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Dancer, b. 1876 &ndash; executed 1917 &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel that reinvented itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that offers closeness rather than demanding it, turned toward one single companion. Margaretha Geertruida Zelle was born in 1876 in the Netherlands, married the considerably older officer Rudolf MacLeod at eighteen, and followed him to the Dutch colony of the East Indies &ndash; a marriage that quickly proved violent and marked by alcohol. Her son died there, likely from the effects of a syphilis treatment, and the marriage ended in divorce.</p>
+          <p class="vb-intro">Out of this failed existence, marked by violence and loss, Zelle built herself an entirely new person in Paris: Mata Hari, supposedly a Javanese priestess, in truth a Dutch merchant's daughter who invented her own costume, origin myth, and stage name in every detail. Not chance, but a deliberately constructed second identity, thought through to the last detail.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: seduction as personal encounter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Two (SX2)</strong> directs the Two's energy not toward the large group, but toward the direct, personal space between two people. Naranjo called this subtype <em>Aggression/Seduction</em> &ndash; an active, forward-moving approach toward the other. Mata Hari's performances on the stages of Paris were spectacular, yet her real impact unfolded not in the theater, but afterward: in exclusive, often years-long relationships with individual influential men &ndash; officers, diplomats, industrialists on both sides of the First World War.</p>
+          <p class="vb-intro">These relationships were never merely a means of earning money for her. Contemporary accounts describe a woman who genuinely engaged in each individual encounter, who listened, adapted, wanted to become indispensable &ndash; not the cool calculation of a distant seductress, but the intense, person-focused devotion of the Sexual Two to the one companion standing in front of her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: the invented persona as a career project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal magnetism into a visible, verifiable success project. Mata Hari was no accidentally discovered attraction, but a self-managed brand: specially designed costumes, a carefully maintained exotic origin myth, targeted appearances at the right salons and venues, all to become the most talked-about dancer in Paris within a very short time.</p>
+          <p class="vb-intro">Even as her dancing career waned in the 1910s, she held onto the image she had created and continued to live off it &ndash; a persona she successfully translated, over years, into social standing, financial independence, and access to the most influential circles of Europe. The Three-wing supplied the strategic self-staging; the Sexual Two underneath supplied the actual, personal impact that gave that staging its life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Between the front lines</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">During the First World War, Mata Hari, as a Dutch citizen &ndash; neutral on paper &ndash; moved freely between France, Germany, and other European countries and maintained relationships with high-ranking military figures on both sides of the war. In 1917 she was charged with espionage for Germany by French military justice, convicted in a trial with thin, still-disputed evidence, and executed by firing squad on October 15, 1917.</p>
+          <p class="vb-intro">She is said to have faced the firing squad without a blindfold and without visible fear &ndash; one last, public performance of the self-created figure, still in the role she had given herself decades earlier, up to her own death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>build, out of a destroyed existence, a new and genuinely effective identity that actually holds</strong> &ndash; Mata Hari transformed a traumatic marriage and the loss of her child into one of the most influential self-inventions of her time, financially independent and socially influential in a world that left women few paths of their own.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; in the Sexual Two, closely bound up with the question of whether one is indispensable enough to the one person who matters most. This exact dependence on personal closeness to powerful men became her undoing in the end: her relationships with military figures on both sides, which had once given her security and influence, supplied French justice with the template for a charge she could no longer effectively defend herself against.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The camel that kept its composure to the end</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mata Hari is among the best-known female figures of the early twentieth century &ndash; less because of a genuinely resolved espionage story than because of a self-created persona so convincing that it remains, to this day, difficult to separate from the historical person.</p>
+          <p class="vb-intro">From a violent colonial marriage, through the self-invented Javanese priestess, to the final, upright walk before the firing squad: this is the Sexual Two with a Three-wing at its most dramatic &ndash; a devotion to individual people that became her own identity, and a self-chosen role she never set down, not even facing her own death.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
       ])}
     </div>
   `);
@@ -104121,6 +104191,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-serdar-somuncu": serdarSomuncuPortraitPage,
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
+      "beruehmte-mata-hari": mataHariPortraitPage,
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
