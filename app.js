@@ -32357,6 +32357,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexueller Typ 4", krankheit:"Chronische Verdauungs- und Blasenleiden", teaser:"SX4w3 – Schriftsteller und Philosoph der Aufklärung, 1694–1778. Jahrzehntelange, in Briefen exzessiv dokumentierte Verdauungs- und Blasenbeschwerden, ungebremste Produktivität trotz ständiger Klagen. Starb am 30. Mai 1778 in Paris, wenige Wochen nach seiner triumphalen Rückkehr aus dem Exil." , land:"Frankreich", gender:"m", jahre:"1694–1778"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", heading:"Nikola Tesla – Sozialer Typ 7", krankheit:"Fortschreitende Zwangsstörung, Keimphobie, völlige Isolation", teaser:"SO7w6 – Erfinder und Ingenieur, 1856–1943. Ausgeprägte Zwangsstörung mit Zählzwang und Keimphobie, jahrzehntelange zunehmende soziale Isolation, letzte Bindung zu einer einzelnen weißen Taube. Starb verarmt am 7. Januar 1943 allein in einem New Yorker Hotelzimmer." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Selbsterhaltender Typ 4", krankheit:"Wiederkehrende psychotische und mutmaßlich epileptische Krisen, Ohrschnitt 1888, Tod durch vermutlich selbst beigebrachte Schussverletzung", teaser:"SE4w5 – niederländischer Maler, 1853–1890. Wiederholte schwere psychische Krisen ab 1888, freiwillige Einweisung nach Saint-Rémy, Ohrschnitt nach dem Bruch mit Gauguin, ›Sternennacht‹ mitten in der Krise gemalt, Tod zwei Tage nach einer Schussverletzung am 29. Juli 1890." , land:"Niederlande", gender:"m", jahre:"1853–1890"},
+  { route:"krankheitsportraets-stephen-hawking", name:"Stephen Hawking", subtyp:"SO5w6", heading:"Stephen Hawking – Sozialer Typ 5", krankheit:"Amyotrophe Lateralsklerose (ALS), Diagnose mit 21 Jahren, progressive Lähmung über 55 Jahre", teaser:"SO5w6 – britischer Physiker, 1942–2018. Diagnose mit 21 Jahren und einer Prognose von zwei Lebensjahren, überlebte 55 weitere Jahre bei fortschreitender vollständiger Lähmung. Kommunizierte zuletzt über einen computergestützten Sprachsynthesizer, arbeitete bis zuletzt an offenen Fragen der Physik." , land:"Großbritannien", gender:"m", jahre:"1942–2018"},
   { route:"krankheitsportraets-isaac-newton", name:"Isaac Newton", subtyp:"SO5w6", heading:"Isaac Newton – Sozialer Typ 5", krankheit:"Nervenzusammenbruch, vermutlich durch Quecksilbervergiftung", teaser:"SO5w6 – Physiker und Mathematiker, 1642/43–1727. Schwerer Nervenzusammenbruch 1693 mit paranoiden Anschuldigungen gegen enge Freunde, vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber verursacht. Erholte sich innerhalb eines Jahres, starb 1727 im Alter von 84 Jahren." , land:"England", gender:"m", jahre:"1642–1727"},
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
@@ -85679,6 +85680,7 @@ function albertEinsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -91232,6 +91234,208 @@ function nikolaTeslaKrankheitsportraetPage() {
   `);
 }
 
+function stephenHawkingKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel · 1942–2018</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Stephen Hawking</strong> ist einer der bekanntesten Physiker des zwanzigsten
+        Jahrhunderts – berühmt für seine Arbeiten zu Schwarzen Löchern und die Diagnose,
+        die sein gesamtes Erwachsenenleben begleitete: Amyotrophe Lateralsklerose (ALS),
+        eine fortschreitende Erkrankung der Nervenzellen, die Muskeln zunehmend lähmt. Mit
+        21 Jahren diagnostiziert und mit einer Lebenserwartung von zwei Jahren konfrontiert,
+        lebte er noch 55 weitere Jahre – bei vollständigem Verlust der willkürlichen
+        Muskelkontrolle, aber ungebrochener geistiger Schärfe bis zuletzt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hawking</strong> ist dem <strong>sozialen Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen, das sie mit einer größeren
+        Gemeinschaft teilt – nicht als Zurückgezogener, sondern als jemand, der sein
+        Verstehen öffentlich zugänglich macht. Der Sechserflügel bringt systematische
+        Wachsamkeit und die Fähigkeit hinzu, verlässliche, getestete Systeme aufzubauen und
+        einem kleinen, treuen Kreis zu vertrauen. Genau diese Kombination aus öffentlichem
+        Wissensauftrag und methodischer Systembildung prägte auch Hawkings Umgang mit
+        seiner eigenen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Stolpern und undeutliches Sprechen:</strong>
+        Im letzten Studienjahr in Oxford, um 1962/63, bemerkte der einundzwanzigjährige
+        Hawking zunehmende Ungeschicklichkeit – er stolperte ohne erkennbaren Grund, und
+        seine Sprache wurde bei einem Weihnachtsbesuch zuhause merklich undeutlicher.</p>
+        <p class="vb-intro"><strong>b) Eine niederschmetternde Diagnose:</strong>
+        Nach mehrwöchigen Untersuchungen im St. Bartholomew's Hospital in London
+        diagnostizierten die Ärzte 1963 ALS und gaben ihm eine Lebenserwartung von etwa
+        zwei bis drei weiteren Jahren.</p>
+        <p class="vb-intro"><strong>c) Eine kurze Phase der Verzweiflung, dann Rückkehr zur Arbeit:</strong>
+        Hawking selbst berichtete später von einer Phase tiefer Depression nach der
+        Diagnose – gefolgt von der bewussten Entscheidung, sich wieder seiner Doktorarbeit
+        über die Kosmologie zuzuwenden, solange ihm noch Zeit blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein langsamer, aber unaufhaltsamer Verlust der Muskelkontrolle:</strong>
+        Über die folgenden Jahrzehnte verlor Hawking schrittweise die Kontrolle über Arme,
+        Beine und schließlich fast alle willkürlichen Muskeln – ab Mitte der 1960er-Jahre
+        zunehmend auf einen Rollstuhl angewiesen.</p>
+        <p class="vb-intro"><strong>b) Der Verlust der eigenen Stimme:</strong>
+        1985 erkrankte Hawking während eines Forschungsaufenthalts in Genf an einer
+        Lungenentzündung; die notwendige Tracheotomie (ein operativer Luftröhrenschnitt)
+        rettete sein Leben, kostete ihn aber unwiderruflich seine natürliche Sprechfähigkeit.</p>
+        <p class="vb-intro"><strong>c) Eine Stimme aus dem Computer:</strong>
+        Ein Sprachsynthesizer, zunächst über einen Handschalter, später über einen einzigen
+        beweglichen Wangenmuskel gesteuert, wurde zu seinem einzigen verbliebenen
+        Kommunikationskanal – mit der inzwischen weltberühmten, monotonen synthetischen
+        Computerstimme, die er bewusst beibehielt, selbst als natürlicher klingende
+        Alternativen verfügbar wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Bestseller trotz fast völliger Lähmung:</strong>
+        1988, bereits weitgehend gelähmt und auf den Sprachsynthesizer angewiesen,
+        veröffentlichte Hawking mit „Eine kurze Geschichte der Zeit" eines der
+        meistverkauften populärwissenschaftlichen Bücher überhaupt – Millionen Exemplare in
+        über vierzig Sprachen.</p>
+        <p class="vb-intro"><strong>b) Ein verlässliches System aus Menschen und Technik:</strong>
+        Um weiterarbeiten zu können, baute Hawking über Jahrzehnte ein sorgfältig
+        eingespieltes, sehr kleines Team aus Pflegekräften, technischen Assistenten und
+        Doktoranden auf, die sein Kommunikationssystem warteten und ihn rund um die Uhr
+        begleiteten – ein hochgradig systematisiertes, auf Verlässlichkeit statt auf
+        Spontaneität ausgelegtes Lebensmodell.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Präsenz statt Rückzug:</strong>
+        Statt sich mit fortschreitender Krankheit aus der Öffentlichkeit zurückzuziehen,
+        suchte Hawking sie zunehmend aktiv: Vorträge, Fernsehauftritte, sogar Gastauftritte
+        in „Raumschiff Enterprise" und „The Big Bang Theory" sowie 2007 ein
+        Schwerelosigkeitsflug in einem umgebauten Flugzeug – Wissen und Erfahrung sollten
+        geteilt werden, nicht privat bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) 55 Jahre gegen jede medizinische Prognose:</strong>
+        Statt der ursprünglich prognostizierten zwei bis drei Jahre lebte Hawking bis zum
+        14. März 2018 – ein außergewöhnlich langer Krankheitsverlauf, dessen genaue Gründe
+        bis heute nicht vollständig geklärt sind.</p>
+        <p class="vb-intro"><strong>b) Der Lucasian Chair bis zur Pensionierung:</strong>
+        Von 1979 bis 2009 hatte Hawking den Lucasian Chair for Mathematics in Cambridge
+        inne, denselben Lehrstuhl, den einst Isaac Newton (SO5w6) besetzte – eine
+        institutionelle Kontinuität über Jahrhunderte hinweg, für die eine soziale Fünf mit
+        Sechserflügel ein besonderes Gespür hat: Zugehörigkeit zu einer verlässlichen,
+        geprüften Institution statt zu flüchtigem persönlichem Ruhm.</p>
+        <p class="vb-intro"><strong>c) Ein öffentliches Vermächtnis über den Tod hinaus:</strong>
+        Hawkings Asche wurde in der Westminster Abbey neben den Gräbern von Isaac Newton
+        und Charles Darwin beigesetzt – eine posthume Zugehörigkeit zu genau jener
+        Gemeinschaft großer Wissenschaftler, der er sich zeitlebens verbunden fühlte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sicherheit durch geteiltes Wissen statt durch Rückzug:</strong>
+        Anders als eine selbsterhaltende oder sexuelle Fünf, die sich eher zurückzieht,
+        suchte Hawking mit fortschreitender Krankheit den Kontakt zu einem möglichst großen
+        Publikum – die SO5-typische Überzeugung, dass Wissen erst durch Teilen seinen vollen
+        Wert entfaltet.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Systembauer:</strong>
+        Die methodische, akribisch getestete Konstruktion seines Kommunikationssystems –
+        vom Handschalter bis zum wangenmuskelgesteuerten Sprachcomputer – trägt deutlich die
+        Handschrift des Sechserflügels: kein spontanes Improvisieren, sondern der geduldige
+        Aufbau eines Systems, dem man sich verlassen kann, gemeinsam mit einem kleinen,
+        loyalen Kreis von Vertrauten.</p>
+        <p class="vb-intro"><strong>c) Kontrolle durch Verstehen des eigenen Zustands:</strong>
+        Hawking sprach öffentlich selten über seine Krankheit als persönliches Leid,
+        sondern eher analytisch, fast wie über ein weiteres physikalisches Phänomen –
+        die vertraute SO5-Strategie, existenzielle Bedrohung über intellektuelle Distanz zu
+        verarbeiten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Diagnose direkt am Beginn des Erwachsenenlebens:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses, in denen sich
+        eine Krankheit erst über Jahrzehnte in ein bereits gelebtes Leben einschleicht,
+        stand Hawkings gesamtes Erwachsenenleben von Beginn an im Zeichen der Diagnose –
+        seine wissenschaftliche Karriere und seine Krankheit begannen praktisch gleichzeitig.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte bekannte, nie verdrängte Grenze:</strong>
+        Von der Diagnose 1963 bis zu seinem Tod 2018 lebte Hawking mit einer Krankheit, die
+        er weder verheimlichte noch dramatisierte – sie wurde, ähnlich wie bei Albert
+        Einstein (SO5w4), zur Kenntnis genommen und in ein funktionierendes System aus
+        Arbeit und Alltag eingebaut.</p>
+        <p class="vb-intro"><strong>c) Arbeit als Konstante über jede körperliche Veränderung hinweg:</strong>
+        Ob mit noch beweglichen Händen in den 1960er-Jahren oder Jahrzehnte später mit
+        einem einzigen kontrollierbaren Wangenmuskel – die physikalische Forschung selbst
+        blieb über all diese Stufen des Verlusts hinweg die tragende Konstante.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das motorische Nervensystem?</strong>
+        Für eine soziale Fünf mit Sechserflügel, deren Sicherheit über Systeme aus Wissen
+        und verlässlicher Struktur entsteht, liegt eine Deutung nahe: Ausgerechnet jenes
+        System, das Denken in Handeln übersetzt – die Nervenbahnen, die den Körper steuern
+        – verlor zunehmend seine Funktion, während der Geist selbst von der Krankheit
+        vollständig verschont blieb. Die Antwort darauf war exemplarisch SO5w6: der Bau
+        eines neuen, künstlichen Übersetzungssystems zwischen Denken und Mitteilen, das
+        ebenso verlässlich funktionieren sollte wie zuvor der eigene Körper. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang,
+        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu neurologischen
+        Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Hawkings Fall zeigen lässt, ist ein Muster, das bei
+        dem Bedürfnis, Kontrollverlust durch den Aufbau neuer, verlässlicher Systeme zu
+        kompensieren, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hawking kannte sein eigenes Enneagramm-Muster nicht – die soziale Fünf mit
+        Sechserflügel sucht Sicherheit fast reflexhaft im Aufbau geprüfter, verlässlicher
+        Systeme und im geteilten Wissen einer größeren Gemeinschaft, statt sich der
+        körperlichen Bedrohung mit offener emotionaler Verarbeitung zu stellen. Genau das
+        lebte er ungebremst: ein immer ausgefeilteres technisches System, ein immer
+        größeres Publikum – nicht aus Berechnung, sondern aus einem Muster, das er selbst
+        nie als solches erkannte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Hawkings</strong> 55 Jahren mit ALS lässt sich die soziale Fünf mit
+        Sechserflügel in einer ihrer eindrücklichsten Formen studieren: eine Diagnose, die
+        nie verheimlicht, aber auch nie dramatisiert wurde, ein sorgfältig gebautes System
+        aus Technik und Vertrauenspersonen, das den fortschreitenden Kontrollverlust
+        auffing, und ein Wissensauftrag, der bis zur letzten Möglichkeit der Mitteilung
+        nicht endete. Der Oktopus, dessen Körper ihm Stück für Stück genommen wurde – und
+        der trotzdem einen Weg fand, seine acht Arme durch ein einziges technisches System
+        zu ersetzen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
 function isaacNewtonKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -91409,6 +91613,7 @@ function isaacNewtonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – Physiker und Mathematiker"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -140599,6 +140804,7 @@ function render() {
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-vincent-van-gogh": vincentVanGoghKrankheitsportraetPage,
+      "krankheitsportraets-stephen-hawking": stephenHawkingKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,

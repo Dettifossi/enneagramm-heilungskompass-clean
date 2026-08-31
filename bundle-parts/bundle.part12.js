@@ -1,3 +1,174 @@
+function bobMarleyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bob-marley-portrait.jpg" alt="Bob Marley" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bob Marley</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel · 1945–1981</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bob Marley</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-bob-marley">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: ein 1977 entdecktes malignes Melanom an
+        der Zehe, dessen dringend empfohlene Amputation Marley aus religiösen Gründen
+        ablehnte – eine Entscheidung, die seinen frühen Tod im Alter von 36 Jahren
+        mitbestimmte.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Marley</strong> ist dem <strong>sozialen Typ 2 mit Einserflügel</strong>
+        zugeordnet. Die SO2 stellt ihre Fürsorge in den Dienst eines größeren Anliegens,
+        nicht der eigenen Person; der Einserflügel gibt dieser Fürsorge eine moralische
+        Gewissheit, die keinen Kompromiss kennt. Genau diese Kombination – die eigene
+        Gesundheit dem übergeordneten Auftrag und der religiösen Überzeugung
+        unterzuordnen – bestimmte den Verlauf seiner Krankheit bis zum Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verletzung beim Fußballspielen 1977:</strong>
+        Eine Verletzung an der großen Zehe des rechten Fußes, die zunächst als
+        Sportverletzung galt, heilte nicht wie erwartet ab.</p>
+        <p class="vb-intro"><strong>b) Diagnose eines malignen Melanoms:</strong>
+        Ärzte diagnostizierten ein akrolentiginöses malignes Melanom – eine besonders
+        aggressive Hautkrebsform, die häufig an Händen und Füßen auftritt und dort oft spät
+        erkannt wird.</p>
+        <p class="vb-intro"><strong>c) Dringende Empfehlung zur Amputation:</strong>
+        Die behandelnden Ärzte rieten zur Amputation der Zehe, um eine Ausbreitung des
+        Tumors zu verhindern – eine aus medizinischer Sicht dringliche Maßnahme.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ablehnung der Amputation aus religiösen Gründen:</strong>
+        Marley lehnte den Eingriff ab, da der Rastafari-Glaube die Unversehrtheit des
+        Körpers als heilig ansieht – eine Entscheidung, die er trotz der ärztlichen
+        Dringlichkeit nicht revidierte.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung des Tourprogramms:</strong>
+        Statt sich behandeln zu lassen, setzte Marley seine intensive Tour- und
+        Aufnahmetätigkeit über Jahre nahezu unverändert fort.</p>
+        <p class="vb-intro"><strong>c) Ausbreitung des Krebses über mehrere Jahre:</strong>
+        In den folgenden Jahren metastasierte der Krebs unbemerkt in Lunge, Leber und
+        Gehirn, bis die Erkrankung 1980 nicht mehr zu übersehen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zusammenbruch beim Joggen im September 1980:</strong>
+        Während einer Tour durch die USA brach Marley beim Joggen im Central Park
+        zusammen – ein Ereignis, das den fortgeschrittenen Zustand seiner Erkrankung
+        öffentlich sichtbar machte.</p>
+        <p class="vb-intro"><strong>b) Letzter öffentlicher Auftritt kurz danach:</strong>
+        Nur wenige Tage später gab Marley in Pittsburgh sein letztes Konzert, ohne dass das
+        Publikum vom Ausmaß seiner Erkrankung wusste.</p>
+        <p class="vb-intro"><strong>c) Erfolglose Behandlungsversuche in Deutschland:</strong>
+        Anschließend suchte Marley eine alternative Krebsbehandlung bei einem Arzt in
+        Bayern auf, die den fortgeschrittenen Krebs jedoch nicht mehr aufhalten konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 11. Mai 1981 in Miami:</strong>
+        Bob Marley starb im Alter von nur 36 Jahren auf dem Rückweg von der Behandlung in
+        Deutschland nach Jamaika, in einem Krankenhaus in Miami.</p>
+        <p class="vb-intro"><strong>b) Weltweite Trauer und posthumer Ruhm:</strong>
+        Marleys Tod löste weltweite Trauer aus und markierte zugleich den Beginn eines bis
+        heute ungebrochenen posthumen Ruhms als globale Reggae-Ikone.</p>
+        <p class="vb-intro"><strong>c) Bis heute diskutierte Entscheidung:</strong>
+        Marleys Ablehnung der Amputation wird bis heute als eines der bekanntesten Beispiele
+        dafür diskutiert, wie religiöse Überzeugung eine medizinisch dringend gebotene
+        Behandlung verhindern kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fürsorge für ein ganzes Volk, nicht für sich selbst:</strong>
+        Die SO2-typische Ausrichtung auf ein größeres Anliegen zeigte sich auch im Umgang
+        mit der eigenen Krankheit: Marley setzte seine Tourneen fort, weil die Botschaft für
+        die Vielen wichtiger schien als die eigene Gesundheit.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel und die unbedingte religiöse Überzeugung:</strong>
+        Dieselbe Kompromisslosigkeit, mit der Marley zwei Tage nach dem Attentat 1976 mit
+        der Kugel im Arm auftrat, zeigte sich im Umgang mit der Krebsdiagnose als Weigerung,
+        eine als religiös falsch erkannte Behandlung überhaupt in Erwägung zu ziehen.</p>
+        <p class="vb-intro"><strong>c) Der eigene Körper als Teil einer größeren Ordnung:</strong>
+        Für Marley war der eigene Körper nicht getrennt von seinem Glauben zu betrachten –
+        die Weigerung, sich amputieren zu lassen, war keine Verdrängung der Krankheit,
+        sondern die konsequente Anwendung derselben moralischen Gewissheit, die auch seine
+        Musik trug.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann, der für die Unversehrtheit eines Volkes kämpfte und die eigene Unversehrtheit über sein Leben stellte:</strong>
+        Marleys gesamtes Werk kreiste um die Versöhnung, Heilung und Würde eines
+        unterdrückten Volkes – ausgerechnet er stellte die religiöse Vorstellung der eigenen
+        körperlichen Unversehrtheit über die medizinisch dringend gebotene Behandlung, bis
+        die Krankheit sich seiner Kontrolle entzog.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine auffällige Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad
+        Ali (SO2w1)</a>: Auch Ali ignorierte über Jahre gesundheitliche Warnzeichen im
+        Boxsport, weil eine als moralisch richtig erkannte Sache – bei Ali der Kampf im
+        Ring, bei Marley die religiöse Überzeugung – wichtiger erschien als die eigene
+        körperliche Unversehrtheit. Bei beiden SO2w1ern zeigt sich dasselbe Muster: eine
+        Gewissheit, im Recht zu sein, die auch das eigene Leben der übergeordneten Sache
+        unterordnet.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Zehe, der Kontaktpunkt zur Erde?</strong>
+        Für eine soziale Zwei mit Einserflügel, deren gesamtes Werk um Verwurzelung,
+        Herkunft und die Rückkehr zu den eigenen Wurzeln kreiste, liegt eine Deutung nahe:
+        Ausgerechnet jener Körperteil, der den Kontakt zum Boden herstellt, wurde zum
+        Ausgangspunkt einer Krankheit, die er nicht rechtzeitig behandeln ließ. Diese Deutung
+        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu einer verweigerten
+        Krebsbehandlung führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Marleys Fall zeigen lässt, ist ein Muster
+        im Umgang mit einer lebensbedrohlichen Diagnose, das bei einem ausgeprägten sozialen
+        Typ 2 mit Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Marley kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
+        mit Einserflügel hält reflexhaft an der eigenen moralischen Gewissheit fest, statt
+        die eigene Verwundbarkeit rechtzeitig ernst zu nehmen, und lebte genau dieses Muster
+        bis zum Tod unverändert aus. Wer die eigene Neigung, eine als richtig erkannte
+        Überzeugung über die eigene körperliche Sicherheit zu stellen, nicht als Muster
+        erkennt, riskiert, dass genau diese Überzeugung das eigene Leben verkürzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 2 mit Einserflügel erklärt bei <strong>Bob Marley</strong> vieles am
+        Verlauf seiner Krankheit: ein Mann, dessen gesamtes Werk der Heilung eines Volkes
+        galt, unterwarf die eigene Heilung derselben unbedingten religiösen Überzeugung, die
+        ihn weltberühmt gemacht hatte – der Golden Retriever, der bis zuletzt für andere da
+        war und die eigene Wunde nicht rechtzeitig versorgen ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-bob-marley", label:"Porträt: Bob Marley (SO2w1)"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}
+
 function angelinaJolieKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11245,201 +11416,6 @@ function angelResendezPortraitPage() {
         {route:"kriminalpsychologie-tommy-lynn-sells", label:"Kriminalpsychologie: Tommy Lynn Sells (SE2w1) \u2013 Coast-to-Coast-Killer"},
         {route:"kriminalpsychologie-osama-bin-laden", label:"Kriminalpsychologie: Osama bin Laden (SO2w1) \u2013 al-Qaida"},
         {route:"kriminalpsychologie-jack-unterweger", label:"Kriminalpsychologie: Jack Unterweger (SO2w1) \u2013 Der Dichter und der Tod"}
-      ])}
-    </div>
-  `);
-}
-
-function tommyLynnSellsPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Tommy Lynn Sells \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Tommy Lynn Sells</p>
-        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Coast-to-Coast-Killer" \u2013 USA 1980\u20131999</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Tommy Lynn Sells</strong>, geboren am 28. Juni 1964 in Oakland, Kalifornien,
-        ermordete nach eigenen Angaben zwischen 13 und 70 Menschen in zahlreichen
-        US-Bundesstaaten \u2013 \u00fcber einen Zeitraum von fast zwei Jahrzehnten.
-        Er zog als Drifter und Wanderarbeiter quer durch Amerika,
-        erschlich sich das Vertrauen fremder Familien und t\u00f6tete dort, wo man ihn nicht erwartete.
-        Am 3. April 2014 wurde er im texanischen Huntsville durch die Giftspritze hingerichtet.
-        Die Strafverfolgungsbeh\u00f6rden konnten ihm mindestens 13 Morde zweifelsfrei nachweisen;
-        seine eigenen Gest\u00e4ndnisse, die mal mehr und mal weniger Details enthielten,
-        blieben bis zuletzt widerspr\u00fcchlich.
-        Sells gilt als einer der r\u00e4umlich mobilsten Serienm\u00f6rder der amerikanischen Kriminalgeschichte.
-      </p>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Tommy Lynn Sells</strong> wird dem <strong>Selbsterhaltenden Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
-        Die selbsterhaltende Zwei sichert ihren Selbstwert durch F\u00fcrsorge, Unentbehrlichkeit
-        und das Erschaffen von N\u00e4he \u2013 auch zu Fremden, auch dort, wo N\u00e4he zur Gefahr wird.
-        Der Einserfl\u00fcgel verleiht ihr moralische Selbstgerechtigkeit:
-        die eigene Geschichte als erlittenes Unrecht, die Taten als eine Art Abrechnung.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>: Kontrollverlust, Brutalit\u00e4t,
-        explosive Gewalt als Ausdruck eines \u00fcberfluteten Systems.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
-        <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
-        massiv und unscheinbar zugleich, scheinbar tr\u00e4ge und harmlos,
-        dabei jederzeit f\u00e4hig zu explosiver Gewalt.
-        Das Flusspferd lebt am Wasser \u2013 an der Grenze zwischen zwei Welten \u2013,
-        sch\u00fctzt sein Revier mit \u00e4u\u00dferster Entschlossenheit
-        und wirkt nach au\u00dfen hin fast gesellig.
-        Sells spielte diese Ambivalenz auf erschreckende Weise:
-        der freundliche Fremde, dem man die Haust\u00fcr \u00f6ffnet \u2013 und der dann t\u00f6tet.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: F\u00fcrsorge als K\u00f6der</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der selbsterhaltenden Zwei:</strong>
-        Der <strong>Selbsterhaltende Typ 2</strong> \u2013 in der Tradition der Enneagramm-Schule
-        auch als <em>\u201eIch zuerst"</em> oder <em>\u201ePrivileg"</em> bezeichnet \u2013
-        ist die am wenigsten typisch wirkende Auspr\u00e4gung der Zwei.
-        W\u00e4hrend andere Zweien offen F\u00fcrsorglichkeit zeigen,
-        ist die SE2 darauf ausgerichtet, die eigenen \u00dcberlebensbed\u00fcrfnisse zu sichern:
-        durch Einschmeicheln, durch das Erschaffen von Abh\u00e4ngigkeit,
-        durch Kontrolle \u00fcber die unmittelbare Umgebung.
-        Die F\u00fcrsorge ist real \u2013 aber sie hat immer einen Preis.
-        Sells pr\u00e4sentierte sich Fremden gegen\u00fcber auffallend hilfsbereit und zug\u00e4nglich.
-        Er arbeitete auf Jahrm\u00e4rkten und Wanderfestivals, half beim Aufbauen, war verf\u00fcgbar \u2013
-        und schuf so N\u00e4he zu Menschen, die ihm dann ausgeliefert waren.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Moralische Selbstgerechtigkeit:</strong>
-        Der Einserfl\u00fcgel verleiht der Zwei ein scharfes inneres Regelwerk.
-        Sells beschrieb sich selbst in Interviews als jemanden,
-        dem das Leben \u00fcbel mitgespielt hatte \u2013 ein Mann, der Unrecht erlitten hatte
-        und nun Rechnung beglich.
-        Diese moralische Selbstrechtfertigung, die eigene T\u00e4terschaft
-        als Reaktion auf erlittenes Unrecht zu rahmen,
-        ist das typische Narrativ des SE2w1 in seiner destruktiven Auspr\u00e4gung.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
-        das unbewusste Festhalten an der eigenen \u00dcberlegenheit,
-        die tiefe \u00dcberzeugung, besondere Empfindsamkeit zu besitzen,
-        besonderes Leid erfahren zu haben, und deshalb besondere Regeln zu verdienen.
-        Sells glaubte, sein schwieriges Leben berechtige ihn zu Dingen,
-        die anderen verwehrt sind.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Herkunft und Kindheit</h3>
-        <p class="vb-intro">
-        Tommy Lynn Sells wurde in \u00e4rmliche Verh\u00e4ltnisse hineingeboren
-        und schon fr\u00fch von seiner Mutter weggegeben.
-        Er wuchs teils bei Verwandten, teils in Pflegefamilien auf,
-        erlebte nach eigenen Angaben sexuelle \u00dcbergriffe und k\u00f6rperliche Vernachl\u00e4ssigung.
-        Schon als Jugendlicher begann er, das Zuhause zu verlassen
-        und als Tramper durch die USA zu ziehen.
-        Sells behauptete sp\u00e4ter, seinen ersten Mord im Alter von 16 Jahren begangen zu haben.
-        Diese und viele andere Angaben lie\u00dfen sich nicht vollst\u00e4ndig verifizieren.
-        Die fr\u00fche Bindungslosigkeit, das wiederholte Erlebnis von Verrat durch Bezugspersonen
-        und der damit verbundene Vertrauensbruch bilden den psychologischen Boden,
-        auf dem sich die SE2-Dynamik in ihrer dunkelsten Form entfalten konnte:
-        N\u00e4he als Vorstufe zur Gefahr.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Zwei Jahrzehnte quer durch Amerika</h3>
-        <p class="vb-intro"><strong>a) Der nomadische T\u00e4ter:</strong>
-        Sells reiste jahrzehntelang quer durch die Vereinigten Staaten,
-        ohne festen Wohnsitz, ohne geregelten Beruf.
-        Er lebte von Gelegenheitsjobs auf Jahrm\u00e4rkten und Bauernh\u00f6fen,
-        schlief in Lagerhallen, unter Br\u00fccken oder bei fl\u00fcchtigen Bekanntschaften.
-        Diese Mobilit\u00e4t machte ihn jahrelang nahezu unsichtbar f\u00fcr die Strafverfolgung:
-        Jede Tat geschah in einem anderen Bundesstaat, jedes Opfer hatte einen anderen Kontext,
-        und eine \u00fcbergreifende Verbindung war schwer herzustellen.</p>
-        <p class="vb-intro"><strong>b) Die Taten:</strong>
-        Sells ermordete Angeh\u00f6rige aller Altersgruppen: Kinder, Frauen, M\u00e4nner, ganze Familien.
-        Er schlug bevorzugt nachts zu, oft in H\u00e4usern, in die er unbemerkt eingedrungen war
-        oder zu denen er eingeladen worden war.
-        Die Brutalit\u00e4t seiner Taten \u2013 Erw\u00fcrgen, Erstechen, Erschlagen \u2013
-        stand in krassem Kontrast zu seinem einnehmenden Auftreten im Alltag.</p>
-        <p class="vb-intro"><strong>c) Die entscheidende Nacht \u2013 Silvester 1999:</strong>
-        Der entscheidende Fehler unterlief ihm in der Silvesternacht 1999 in Del Rio, Texas.
-        Sells drang in das Haus der Familie Harris ein und ermordete die 13-j\u00e4hrige
-        <strong>Kaylene Harris</strong>.
-        Ihre Freundin <strong>Crystal Surles</strong>, zehn Jahre alt,
-        \u00fcberlebte schwer verletzt, weil sie den Tod vort\u00e4uschte.
-        Sie konnte Sells am folgenden Morgen gegen\u00fcber den Ermittlern als \u201eTommy" identifizieren.
-        Innerhalb weniger Tage wurde Sells in einem nahegelegenen Wohnwagen verhaftet.</p>
-        <p class="vb-intro"><strong>d) Die Gest\u00e4ndnisse:</strong>
-        Nach seiner Festnahme gestand Sells zahlreiche Morde,
-        zog manche Gest\u00e4ndnisse zur\u00fcck, erg\u00e4nzte andere durch neue Details.
-        Kriminalisten aus verschiedenen Bundesstaaten reisten an,
-        um seine Aussagen mit ungekl\u00e4rten F\u00e4llen abzugleichen.
-        In einigen F\u00e4llen stimmten die Details exakt, in anderen nicht.
-        Sells nutzte die Gest\u00e4ndnisse offenkundig auch als B\u00fchne:
-        Er war der Mittelpunkt, die Ermittler kamen zu ihm, er kontrollierte den Informationsfluss.
-        Das ist SE2-Dynamik ungefiltert \u2013
-        auch in der Gefangenschaft noch Aufmerksamkeit und Einfluss sichernd.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung, Prozess und Hinrichtung</h3>
-        <p class="vb-intro">
-        Im Jahr 2000 wurde Sells in Texas wegen des Mordes an Kaylene Harris zum Tode verurteilt.
-        Weitere Anklagen in anderen Bundesstaaten folgten.
-        Er verbrachte \u00fcber dreizehn Jahre in der Todeszelle des Gef\u00e4ngnisses in Livingston, Texas,
-        und gab in dieser Zeit zahlreichen Journalisten und Kriminologen Interviews.
-        Am <strong>3. April 2014</strong> wurde Tommy Lynn Sells in Huntsville, Texas,
-        durch die Giftspritze hingerichtet. Er war 49 Jahre alt.
-        Bis zuletzt blieb die genaue Zahl seiner Opfer ungekl\u00e4rt \u2013
-        mindestens 13 Morde sind sicher dokumentiert;
-        Sells selbst sprach von bis zu 70 Taten.
-        </p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Fazit: Der freundliche Fremde</h3>
-        <p class="vb-intro">
-        Tommy Lynn Sells verk\u00f6rpert die dunkelste M\u00f6glichkeit des Selbsterhaltenden Typs 2:
-        ein Mensch, dessen fr\u00fche Bindungserfahrungen so zerst\u00f6rerisch waren,
-        dass die SE2-\u00dcberlebensstrategie \u2013 F\u00fcrsorge als Mittel zur Kontrolle,
-        Ann\u00e4herung als Vorstufe zur Ausbeutung \u2013 keine sozialen Grenzen mehr kannte.
-        Das Flusspferd, das sich in die N\u00e4he von Menschen wagt,
-        weil es dort findet, was es braucht, und dabei keine Schw\u00e4che zeigt \u2013
-        das ist das treffende Bild f\u00fcr diesen T\u00e4ter.
-        Was bleibt, ist der Fall Crystal Surles: ein zehnj\u00e4hriges M\u00e4dchen,
-        das \u00fcberlebte, weil es in einem Moment extremer Bedrohung geistesgegenw\u00e4rtig genug war,
-        sich totzustellen \u2013 und am n\u00e4chsten Morgen daf\u00fcr sorgte, dass Sells verhaftet wurde.
-        Nicht Technologie, nicht ein Fahndungsnetz: ein Kind.
-        </p>
-        <div style="margin-top:1rem;padding:0.8rem;background:rgba(0,0,0,0.04);border-radius:6px;font-size:0.88rem;line-height:1.6;">
-          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
-          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
-          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
-          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
-          <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 best\u00e4tigt, bis zu 70 beansprucht</p>
-          <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz \u00b7 <strong>Stresspunkt:</strong> Typ 8</p>
-        </div>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich \u2013 F\u00fcrsorge als \u00dcberlebensstrategie und ihre dunkelste Auspr\u00e4gung.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Tommy Lynn Sells wurde 2000 in Texas wegen Mordes zum Tode verurteilt und 2014 hingerichtet. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1) \u2013 Yorkshire Ripper"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
-        {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w2) \u2013 Die Vermieterin des Todes"}
       ])}
     </div>
   `);

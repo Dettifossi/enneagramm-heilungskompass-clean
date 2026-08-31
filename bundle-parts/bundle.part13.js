@@ -1,3 +1,198 @@
+function tommyLynnSellsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Tommy Lynn Sells \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/tommy-lynn-sells-portrait.jpg" alt="Tommy Lynn Sells \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tommy Lynn Sells</p>
+        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Coast-to-Coast-Killer" \u2013 USA 1980\u20131999</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Tommy Lynn Sells</strong>, geboren am 28. Juni 1964 in Oakland, Kalifornien,
+        ermordete nach eigenen Angaben zwischen 13 und 70 Menschen in zahlreichen
+        US-Bundesstaaten \u2013 \u00fcber einen Zeitraum von fast zwei Jahrzehnten.
+        Er zog als Drifter und Wanderarbeiter quer durch Amerika,
+        erschlich sich das Vertrauen fremder Familien und t\u00f6tete dort, wo man ihn nicht erwartete.
+        Am 3. April 2014 wurde er im texanischen Huntsville durch die Giftspritze hingerichtet.
+        Die Strafverfolgungsbeh\u00f6rden konnten ihm mindestens 13 Morde zweifelsfrei nachweisen;
+        seine eigenen Gest\u00e4ndnisse, die mal mehr und mal weniger Details enthielten,
+        blieben bis zuletzt widerspr\u00fcchlich.
+        Sells gilt als einer der r\u00e4umlich mobilsten Serienm\u00f6rder der amerikanischen Kriminalgeschichte.
+      </p>
+
+      <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Tommy Lynn Sells</strong> wird dem <strong>Selbsterhaltenden Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
+        Die selbsterhaltende Zwei sichert ihren Selbstwert durch F\u00fcrsorge, Unentbehrlichkeit
+        und das Erschaffen von N\u00e4he \u2013 auch zu Fremden, auch dort, wo N\u00e4he zur Gefahr wird.
+        Der Einserfl\u00fcgel verleiht ihr moralische Selbstgerechtigkeit:
+        die eigene Geschichte als erlittenes Unrecht, die Taten als eine Art Abrechnung.
+        Der Stresspunkt liegt bei der <strong>Acht</strong>: Kontrollverlust, Brutalit\u00e4t,
+        explosive Gewalt als Ausdruck eines \u00fcberfluteten Systems.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
+        <p class="vb-intro">
+        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
+        massiv und unscheinbar zugleich, scheinbar tr\u00e4ge und harmlos,
+        dabei jederzeit f\u00e4hig zu explosiver Gewalt.
+        Das Flusspferd lebt am Wasser \u2013 an der Grenze zwischen zwei Welten \u2013,
+        sch\u00fctzt sein Revier mit \u00e4u\u00dferster Entschlossenheit
+        und wirkt nach au\u00dfen hin fast gesellig.
+        Sells spielte diese Ambivalenz auf erschreckende Weise:
+        der freundliche Fremde, dem man die Haust\u00fcr \u00f6ffnet \u2013 und der dann t\u00f6tet.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: F\u00fcrsorge als K\u00f6der</h3>
+        <p class="vb-intro"><strong>a) Das Grundprinzip der selbsterhaltenden Zwei:</strong>
+        Der <strong>Selbsterhaltende Typ 2</strong> \u2013 in der Tradition der Enneagramm-Schule
+        auch als <em>\u201eIch zuerst"</em> oder <em>\u201ePrivileg"</em> bezeichnet \u2013
+        ist die am wenigsten typisch wirkende Auspr\u00e4gung der Zwei.
+        W\u00e4hrend andere Zweien offen F\u00fcrsorglichkeit zeigen,
+        ist die SE2 darauf ausgerichtet, die eigenen \u00dcberlebensbed\u00fcrfnisse zu sichern:
+        durch Einschmeicheln, durch das Erschaffen von Abh\u00e4ngigkeit,
+        durch Kontrolle \u00fcber die unmittelbare Umgebung.
+        Die F\u00fcrsorge ist real \u2013 aber sie hat immer einen Preis.
+        Sells pr\u00e4sentierte sich Fremden gegen\u00fcber auffallend hilfsbereit und zug\u00e4nglich.
+        Er arbeitete auf Jahrm\u00e4rkten und Wanderfestivals, half beim Aufbauen, war verf\u00fcgbar \u2013
+        und schuf so N\u00e4he zu Menschen, die ihm dann ausgeliefert waren.</p>
+        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Moralische Selbstgerechtigkeit:</strong>
+        Der Einserfl\u00fcgel verleiht der Zwei ein scharfes inneres Regelwerk.
+        Sells beschrieb sich selbst in Interviews als jemanden,
+        dem das Leben \u00fcbel mitgespielt hatte \u2013 ein Mann, der Unrecht erlitten hatte
+        und nun Rechnung beglich.
+        Diese moralische Selbstrechtfertigung, die eigene T\u00e4terschaft
+        als Reaktion auf erlittenes Unrecht zu rahmen,
+        ist das typische Narrativ des SE2w1 in seiner destruktiven Auspr\u00e4gung.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz:</strong>
+        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
+        das unbewusste Festhalten an der eigenen \u00dcberlegenheit,
+        die tiefe \u00dcberzeugung, besondere Empfindsamkeit zu besitzen,
+        besonderes Leid erfahren zu haben, und deshalb besondere Regeln zu verdienen.
+        Sells glaubte, sein schwieriges Leben berechtige ihn zu Dingen,
+        die anderen verwehrt sind.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Herkunft und Kindheit</h3>
+        <p class="vb-intro">
+        Tommy Lynn Sells wurde in \u00e4rmliche Verh\u00e4ltnisse hineingeboren
+        und schon fr\u00fch von seiner Mutter weggegeben.
+        Er wuchs teils bei Verwandten, teils in Pflegefamilien auf,
+        erlebte nach eigenen Angaben sexuelle \u00dcbergriffe und k\u00f6rperliche Vernachl\u00e4ssigung.
+        Schon als Jugendlicher begann er, das Zuhause zu verlassen
+        und als Tramper durch die USA zu ziehen.
+        Sells behauptete sp\u00e4ter, seinen ersten Mord im Alter von 16 Jahren begangen zu haben.
+        Diese und viele andere Angaben lie\u00dfen sich nicht vollst\u00e4ndig verifizieren.
+        Die fr\u00fche Bindungslosigkeit, das wiederholte Erlebnis von Verrat durch Bezugspersonen
+        und der damit verbundene Vertrauensbruch bilden den psychologischen Boden,
+        auf dem sich die SE2-Dynamik in ihrer dunkelsten Form entfalten konnte:
+        N\u00e4he als Vorstufe zur Gefahr.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Zwei Jahrzehnte quer durch Amerika</h3>
+        <p class="vb-intro"><strong>a) Der nomadische T\u00e4ter:</strong>
+        Sells reiste jahrzehntelang quer durch die Vereinigten Staaten,
+        ohne festen Wohnsitz, ohne geregelten Beruf.
+        Er lebte von Gelegenheitsjobs auf Jahrm\u00e4rkten und Bauernh\u00f6fen,
+        schlief in Lagerhallen, unter Br\u00fccken oder bei fl\u00fcchtigen Bekanntschaften.
+        Diese Mobilit\u00e4t machte ihn jahrelang nahezu unsichtbar f\u00fcr die Strafverfolgung:
+        Jede Tat geschah in einem anderen Bundesstaat, jedes Opfer hatte einen anderen Kontext,
+        und eine \u00fcbergreifende Verbindung war schwer herzustellen.</p>
+        <p class="vb-intro"><strong>b) Die Taten:</strong>
+        Sells ermordete Angeh\u00f6rige aller Altersgruppen: Kinder, Frauen, M\u00e4nner, ganze Familien.
+        Er schlug bevorzugt nachts zu, oft in H\u00e4usern, in die er unbemerkt eingedrungen war
+        oder zu denen er eingeladen worden war.
+        Die Brutalit\u00e4t seiner Taten \u2013 Erw\u00fcrgen, Erstechen, Erschlagen \u2013
+        stand in krassem Kontrast zu seinem einnehmenden Auftreten im Alltag.</p>
+        <p class="vb-intro"><strong>c) Die entscheidende Nacht \u2013 Silvester 1999:</strong>
+        Der entscheidende Fehler unterlief ihm in der Silvesternacht 1999 in Del Rio, Texas.
+        Sells drang in das Haus der Familie Harris ein und ermordete die 13-j\u00e4hrige
+        <strong>Kaylene Harris</strong>.
+        Ihre Freundin <strong>Crystal Surles</strong>, zehn Jahre alt,
+        \u00fcberlebte schwer verletzt, weil sie den Tod vort\u00e4uschte.
+        Sie konnte Sells am folgenden Morgen gegen\u00fcber den Ermittlern als \u201eTommy" identifizieren.
+        Innerhalb weniger Tage wurde Sells in einem nahegelegenen Wohnwagen verhaftet.</p>
+        <p class="vb-intro"><strong>d) Die Gest\u00e4ndnisse:</strong>
+        Nach seiner Festnahme gestand Sells zahlreiche Morde,
+        zog manche Gest\u00e4ndnisse zur\u00fcck, erg\u00e4nzte andere durch neue Details.
+        Kriminalisten aus verschiedenen Bundesstaaten reisten an,
+        um seine Aussagen mit ungekl\u00e4rten F\u00e4llen abzugleichen.
+        In einigen F\u00e4llen stimmten die Details exakt, in anderen nicht.
+        Sells nutzte die Gest\u00e4ndnisse offenkundig auch als B\u00fchne:
+        Er war der Mittelpunkt, die Ermittler kamen zu ihm, er kontrollierte den Informationsfluss.
+        Das ist SE2-Dynamik ungefiltert \u2013
+        auch in der Gefangenschaft noch Aufmerksamkeit und Einfluss sichernd.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung, Prozess und Hinrichtung</h3>
+        <p class="vb-intro">
+        Im Jahr 2000 wurde Sells in Texas wegen des Mordes an Kaylene Harris zum Tode verurteilt.
+        Weitere Anklagen in anderen Bundesstaaten folgten.
+        Er verbrachte \u00fcber dreizehn Jahre in der Todeszelle des Gef\u00e4ngnisses in Livingston, Texas,
+        und gab in dieser Zeit zahlreichen Journalisten und Kriminologen Interviews.
+        Am <strong>3. April 2014</strong> wurde Tommy Lynn Sells in Huntsville, Texas,
+        durch die Giftspritze hingerichtet. Er war 49 Jahre alt.
+        Bis zuletzt blieb die genaue Zahl seiner Opfer ungekl\u00e4rt \u2013
+        mindestens 13 Morde sind sicher dokumentiert;
+        Sells selbst sprach von bis zu 70 Taten.
+        </p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Fazit: Der freundliche Fremde</h3>
+        <p class="vb-intro">
+        Tommy Lynn Sells verk\u00f6rpert die dunkelste M\u00f6glichkeit des Selbsterhaltenden Typs 2:
+        ein Mensch, dessen fr\u00fche Bindungserfahrungen so zerst\u00f6rerisch waren,
+        dass die SE2-\u00dcberlebensstrategie \u2013 F\u00fcrsorge als Mittel zur Kontrolle,
+        Ann\u00e4herung als Vorstufe zur Ausbeutung \u2013 keine sozialen Grenzen mehr kannte.
+        Das Flusspferd, das sich in die N\u00e4he von Menschen wagt,
+        weil es dort findet, was es braucht, und dabei keine Schw\u00e4che zeigt \u2013
+        das ist das treffende Bild f\u00fcr diesen T\u00e4ter.
+        Was bleibt, ist der Fall Crystal Surles: ein zehnj\u00e4hriges M\u00e4dchen,
+        das \u00fcberlebte, weil es in einem Moment extremer Bedrohung geistesgegenw\u00e4rtig genug war,
+        sich totzustellen \u2013 und am n\u00e4chsten Morgen daf\u00fcr sorgte, dass Sells verhaftet wurde.
+        Nicht Technologie, nicht ein Fahndungsnetz: ein Kind.
+        </p>
+        <div style="margin-top:1rem;padding:0.8rem;background:rgba(0,0,0,0.04);border-radius:6px;font-size:0.88rem;line-height:1.6;">
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Tommy Lynn Sells</p>
+          <p style="margin:0 0 0.3rem;"><strong>Geboren:</strong> 28. Juni 1964, Oakland, Kalifornien</p>
+          <p style="margin:0 0 0.3rem;"><strong>Hingerichtet:</strong> 3. April 2014, Huntsville, Texas</p>
+          <p style="margin:0 0 0.3rem;"><strong>Enneagrammtyp:</strong> SE2w1 \u2013 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Flusspferd</p>
+          <p style="margin:0 0 0.3rem;"><strong>Bekannte Opfer:</strong> mind. 13 best\u00e4tigt, bis zu 70 beansprucht</p>
+          <p style="margin:0;"><strong>Leidenschaft:</strong> Stolz \u00b7 <strong>Stresspunkt:</strong> Typ 8</p>
+        </div>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Der SE2w1 im systemischen Vergleich \u2013 F\u00fcrsorge als \u00dcberlebensstrategie und ihre dunkelste Auspr\u00e4gung.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, F\u00fcrsorge als Kontrolle und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Tommy Lynn Sells wurde 2000 in Texas wegen Mordes zum Tode verurteilt und 2014 hingerichtet. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1) \u2013 Yorkshire Ripper"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1)"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w2) \u2013 Die Vermieterin des Todes"}
+      ])}
+    </div>
+  `);
+}
+
 function jeanneWeberPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -11048,60 +11243,6 @@ function sexualverhaltenDer9TypenPage() {
       ${relatedLinks([
         {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
         {route:"kussverhalten-der-9-typen", label:"Kussverhalten der 9 Typen"},
-        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function kussverhaltenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Kussverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Der ber\u00fchmte Enneagrammlehrer Claudio Naranjo hat einmal in den 80er-Jahren innerhalb eines Seminars in Berkeley, Californien, eine interessante Perspektive auf das Kussverhalten im Kontext der Enneagrammtypen entwickelt. Laut Naranjo kann das Kussverhalten eines Menschen Einblick in dessen Enneagrammtyp geben.</p>
-      <img src="./assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Strukturiert und kontrolliert</h3>
-        <p class="vb-intro">Der Typ 1 k\u00fcsst strukturiert und kontrolliert \u2014 m\u00f6glicherweise zur\u00fcckhaltend, um Perfektion zu wahren. F\u00fcr den Perfektionisten ist auch ein Kuss kein spontaner Moment der Hingabe, sondern eine Handlung, die mit Bedacht vollzogen wird. Er bringt sich vollst\u00e4ndig ein, aber auf seine Weise: pr\u00e4zise, respektvoll, ohne \u00fcbergriffige Geste. Der Kuss des Typs 1 ist ein stilles Versprechen \u2014 er dr\u00fcckt nicht Leidenschaft durch Intensit\u00e4t aus, sondern durch Verl\u00e4sslichkeit. Wer von einem Typ 1 gek\u00fcsst wird, sp\u00fcrt: Das meint er ernst.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Warmherzig und f\u00fcrsorglich</h3>
-        <p class="vb-intro">Der Typ 2 k\u00fcsst warmherzig und f\u00fcrsorglich \u2014 ein Kuss, der N\u00e4he und Verbundenheit ausdr\u00fcckt. Im Kuss des Helfers steckt das ganze Wesen dieses Typs: Er gibt sich hin, vollst\u00e4ndig und ohne Vorbehalt. Sein Kuss ist eine Umarmung in konzentrierter Form \u2014 er will, dass der andere f\u00fchlt: Du bist willkommen, du bist geliebt, du bist bei mir sicher. Der Typ 2 k\u00fcsst nicht f\u00fcr sich \u2014 er k\u00fcsst f\u00fcr den anderen. Und genau das macht seinen Kuss so unverwechselbar warm.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Zielgerichtet und effektiv</h3>
-        <p class="vb-intro">Der Typ 3 k\u00fcsst zielgerichtet und effektiv \u2014 m\u00f6glicherweise etwas demonstrativ. Der Leistungsmensch bringt auch in den intimsten Momenten seine Grundstruktur mit: Er wei\u00df, was er will, und er setzt es um. Sein Kuss ist kein Tastversuch, sondern eine Aussage. Er kann beeindruckend sein \u2014 voller Selbstsicherheit, mit klarer Intention. Und doch liegt die Frage im Raum: K\u00fcsst er, weil er f\u00fchlt \u2014 oder weil er wei\u00df, wie man k\u00fcsst? Je bewusster der Typ 3, desto echter wird die Antwort.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Intensiv und emotional</h3>
-        <p class="vb-intro">Der Typ 4 k\u00fcsst intensiv und emotional \u2014 ein Kuss, der Tiefe und Leidenschaft vermittelt. F\u00fcr den \u00c4stheten ist ein Kuss nie Routine. Er ist Ausdruck, Offenbarung, Kunst. Der Typ 4 k\u00fcsst so, wie er f\u00fchlt: mit allem, was er hat. Er bringt die gesamte Tiefe seines Innenlebens in diesen Moment \u2014 die Sehnsucht, die Sch\u00f6nheit, den Schmerz. Wer von einem Typ 4 gek\u00fcsst wird, vergisst es nicht. Es ist kein Kuss unter vielen \u2014 es ist der eine, der z\u00e4hlt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Zur\u00fcckhaltend und analytisch</h3>
-        <p class="vb-intro">Der Typ 5 k\u00fcsst zur\u00fcckhaltend und analytisch \u2014 eher vorsichtig und distanziert. Das bedeutet nicht, dass er nicht f\u00fchlt \u2014 es bedeutet, dass N\u00e4he f\u00fcr ihn kostbar und daher selten ist. Der Denker n\u00e4hert sich auch k\u00f6rperlicher Intimit\u00e4t mit einer gewissen inneren Beobachtung: Was passiert hier? Was bedeutet das? Sein Kuss ist selten, aber wenn er kommt, dann mit Bewusstsein. Und wer geduldig genug ist, die Distanz zu \u00fcberwinden, entdeckt dahinter eine Z\u00e4rtlichkeit, die die wenigsten ahnen.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Z\u00f6gerlich und vertrauenssuchend</h3>
-        <p class="vb-intro">Der Typ 6 k\u00fcsst z\u00f6gerlich und unsicher \u2014 ein Kuss, der die Suche nach Sicherheit und Vertrauen widerspiegelt. F\u00fcr den Skeptiker ist Intimit\u00e4t immer auch Verletzlichkeit \u2014 und Verletzlichkeit erfordert Vertrauen. Sein Z\u00f6gern ist kein Desinteresse, sondern eine Form der Ehrlichkeit: Er \u00f6ffnet sich nur, wenn er sich sicher f\u00fchlt. Wer den Typ 6 dazu gebracht hat, diesen Schritt zu wagen, hat etwas Seltenes errungen. Und der Kuss, der dann folgt, ist aufrichtig \u2014 ohne Pose, ohne Spiel.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spontan und verspielt</h3>
-        <p class="vb-intro">Der Typ 7 k\u00fcsst spontan und verspielt \u2014 ein Kuss, der Freude und Abenteuerlust zeigt. F\u00fcr den Enthusiasten ist ein Kuss ein Fest \u2014 ungeplant, \u00fcberschw\u00e4nglich, mit einem L\u00e4cheln darin. Er k\u00fcsst, weil der Moment es verlangt, weil es sch\u00f6n ist, weil es ihn freut. Sein Kuss ist selten schwer \u2014 er tr\u00e4gt die Leichtigkeit des Augenblicks in sich. Manchmal fl\u00fcchtig, manchmal mitrei\u00dfend, aber immer lebendig. Wer mit einem Typ 7 k\u00fcsst, k\u00fcsst mit jemandem, der noch nie vergessen hat, wie es sich anf\u00fchlt, das erste Mal.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kraftvoll und dominant</h3>
-        <p class="vb-intro">Der Typ 8 k\u00fcsst kraftvoll und dominant \u2014 ein Kuss, der Intensit\u00e4t und Kontrolle ausdr\u00fcckt. Der Herausforderer bringt in jeden Moment seiner Begegnung mit anderen seine Grundenergie mit: St\u00e4rke, Direktheit, unverstellte Pr\u00e4senz. Sein Kuss ist keine Frage \u2014 er ist eine Aussage. Und doch: Hinter dieser Kraft liegt eine Verletzlichkeit, die der Typ 8 selten zeigt. Wer tief genug schaut, findet in seinem Kuss auch Schutz \u2014 die stille Botschaft: Ich lasse dich nah, weil ich dir vertraue.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanft und harmonisch</h3>
-        <p class="vb-intro">Der Typ 9 k\u00fcsst sanft und harmonisch \u2014 ein Kuss, der Frieden und Verbindung betont. Der Vermittler bringt in seine Intimit\u00e4t das, was ihn ausmacht: eine tiefe Sehnsucht nach Verbundenheit ohne Spannung, nach N\u00e4he ohne Drama. Sein Kuss ist ein Moment der Stille zu zweit \u2014 weich, ruhig, mit einer W\u00e4rme, die sich langsam ausbreitet. Er will nicht beeindrucken, er will ankommen. Und wer sich darauf einl\u00e4sst, findet in ihm einen der tiefsten K\u00fcsse, die es gibt \u2014 weil er ganz da ist, ohne Agenda.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
-        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Kussverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Kussverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
-        {route:"hochsensibilitaet-der-9-typen", label:"Hochsensibilit\u00e4t der 9 Typen"},
         {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
       ])}
     </div>

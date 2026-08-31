@@ -3240,6 +3240,7 @@ function albertEinsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -8793,6 +8794,208 @@ function nikolaTeslaKrankheitsportraetPage() {
   `);
 }
 
+function stephenHawkingKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel · 1942–2018</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Stephen Hawking</strong> ist einer der bekanntesten Physiker des zwanzigsten
+        Jahrhunderts – berühmt für seine Arbeiten zu Schwarzen Löchern und die Diagnose,
+        die sein gesamtes Erwachsenenleben begleitete: Amyotrophe Lateralsklerose (ALS),
+        eine fortschreitende Erkrankung der Nervenzellen, die Muskeln zunehmend lähmt. Mit
+        21 Jahren diagnostiziert und mit einer Lebenserwartung von zwei Jahren konfrontiert,
+        lebte er noch 55 weitere Jahre – bei vollständigem Verlust der willkürlichen
+        Muskelkontrolle, aber ungebrochener geistiger Schärfe bis zuletzt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hawking</strong> ist dem <strong>sozialen Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen, das sie mit einer größeren
+        Gemeinschaft teilt – nicht als Zurückgezogener, sondern als jemand, der sein
+        Verstehen öffentlich zugänglich macht. Der Sechserflügel bringt systematische
+        Wachsamkeit und die Fähigkeit hinzu, verlässliche, getestete Systeme aufzubauen und
+        einem kleinen, treuen Kreis zu vertrauen. Genau diese Kombination aus öffentlichem
+        Wissensauftrag und methodischer Systembildung prägte auch Hawkings Umgang mit
+        seiner eigenen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Stolpern und undeutliches Sprechen:</strong>
+        Im letzten Studienjahr in Oxford, um 1962/63, bemerkte der einundzwanzigjährige
+        Hawking zunehmende Ungeschicklichkeit – er stolperte ohne erkennbaren Grund, und
+        seine Sprache wurde bei einem Weihnachtsbesuch zuhause merklich undeutlicher.</p>
+        <p class="vb-intro"><strong>b) Eine niederschmetternde Diagnose:</strong>
+        Nach mehrwöchigen Untersuchungen im St. Bartholomew's Hospital in London
+        diagnostizierten die Ärzte 1963 ALS und gaben ihm eine Lebenserwartung von etwa
+        zwei bis drei weiteren Jahren.</p>
+        <p class="vb-intro"><strong>c) Eine kurze Phase der Verzweiflung, dann Rückkehr zur Arbeit:</strong>
+        Hawking selbst berichtete später von einer Phase tiefer Depression nach der
+        Diagnose – gefolgt von der bewussten Entscheidung, sich wieder seiner Doktorarbeit
+        über die Kosmologie zuzuwenden, solange ihm noch Zeit blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein langsamer, aber unaufhaltsamer Verlust der Muskelkontrolle:</strong>
+        Über die folgenden Jahrzehnte verlor Hawking schrittweise die Kontrolle über Arme,
+        Beine und schließlich fast alle willkürlichen Muskeln – ab Mitte der 1960er-Jahre
+        zunehmend auf einen Rollstuhl angewiesen.</p>
+        <p class="vb-intro"><strong>b) Der Verlust der eigenen Stimme:</strong>
+        1985 erkrankte Hawking während eines Forschungsaufenthalts in Genf an einer
+        Lungenentzündung; die notwendige Tracheotomie (ein operativer Luftröhrenschnitt)
+        rettete sein Leben, kostete ihn aber unwiderruflich seine natürliche Sprechfähigkeit.</p>
+        <p class="vb-intro"><strong>c) Eine Stimme aus dem Computer:</strong>
+        Ein Sprachsynthesizer, zunächst über einen Handschalter, später über einen einzigen
+        beweglichen Wangenmuskel gesteuert, wurde zu seinem einzigen verbliebenen
+        Kommunikationskanal – mit der inzwischen weltberühmten, monotonen synthetischen
+        Computerstimme, die er bewusst beibehielt, selbst als natürlicher klingende
+        Alternativen verfügbar wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Bestseller trotz fast völliger Lähmung:</strong>
+        1988, bereits weitgehend gelähmt und auf den Sprachsynthesizer angewiesen,
+        veröffentlichte Hawking mit „Eine kurze Geschichte der Zeit" eines der
+        meistverkauften populärwissenschaftlichen Bücher überhaupt – Millionen Exemplare in
+        über vierzig Sprachen.</p>
+        <p class="vb-intro"><strong>b) Ein verlässliches System aus Menschen und Technik:</strong>
+        Um weiterarbeiten zu können, baute Hawking über Jahrzehnte ein sorgfältig
+        eingespieltes, sehr kleines Team aus Pflegekräften, technischen Assistenten und
+        Doktoranden auf, die sein Kommunikationssystem warteten und ihn rund um die Uhr
+        begleiteten – ein hochgradig systematisiertes, auf Verlässlichkeit statt auf
+        Spontaneität ausgelegtes Lebensmodell.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Präsenz statt Rückzug:</strong>
+        Statt sich mit fortschreitender Krankheit aus der Öffentlichkeit zurückzuziehen,
+        suchte Hawking sie zunehmend aktiv: Vorträge, Fernsehauftritte, sogar Gastauftritte
+        in „Raumschiff Enterprise" und „The Big Bang Theory" sowie 2007 ein
+        Schwerelosigkeitsflug in einem umgebauten Flugzeug – Wissen und Erfahrung sollten
+        geteilt werden, nicht privat bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) 55 Jahre gegen jede medizinische Prognose:</strong>
+        Statt der ursprünglich prognostizierten zwei bis drei Jahre lebte Hawking bis zum
+        14. März 2018 – ein außergewöhnlich langer Krankheitsverlauf, dessen genaue Gründe
+        bis heute nicht vollständig geklärt sind.</p>
+        <p class="vb-intro"><strong>b) Der Lucasian Chair bis zur Pensionierung:</strong>
+        Von 1979 bis 2009 hatte Hawking den Lucasian Chair for Mathematics in Cambridge
+        inne, denselben Lehrstuhl, den einst Isaac Newton (SO5w6) besetzte – eine
+        institutionelle Kontinuität über Jahrhunderte hinweg, für die eine soziale Fünf mit
+        Sechserflügel ein besonderes Gespür hat: Zugehörigkeit zu einer verlässlichen,
+        geprüften Institution statt zu flüchtigem persönlichem Ruhm.</p>
+        <p class="vb-intro"><strong>c) Ein öffentliches Vermächtnis über den Tod hinaus:</strong>
+        Hawkings Asche wurde in der Westminster Abbey neben den Gräbern von Isaac Newton
+        und Charles Darwin beigesetzt – eine posthume Zugehörigkeit zu genau jener
+        Gemeinschaft großer Wissenschaftler, der er sich zeitlebens verbunden fühlte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sicherheit durch geteiltes Wissen statt durch Rückzug:</strong>
+        Anders als eine selbsterhaltende oder sexuelle Fünf, die sich eher zurückzieht,
+        suchte Hawking mit fortschreitender Krankheit den Kontakt zu einem möglichst großen
+        Publikum – die SO5-typische Überzeugung, dass Wissen erst durch Teilen seinen vollen
+        Wert entfaltet.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Systembauer:</strong>
+        Die methodische, akribisch getestete Konstruktion seines Kommunikationssystems –
+        vom Handschalter bis zum wangenmuskelgesteuerten Sprachcomputer – trägt deutlich die
+        Handschrift des Sechserflügels: kein spontanes Improvisieren, sondern der geduldige
+        Aufbau eines Systems, dem man sich verlassen kann, gemeinsam mit einem kleinen,
+        loyalen Kreis von Vertrauten.</p>
+        <p class="vb-intro"><strong>c) Kontrolle durch Verstehen des eigenen Zustands:</strong>
+        Hawking sprach öffentlich selten über seine Krankheit als persönliches Leid,
+        sondern eher analytisch, fast wie über ein weiteres physikalisches Phänomen –
+        die vertraute SO5-Strategie, existenzielle Bedrohung über intellektuelle Distanz zu
+        verarbeiten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Diagnose direkt am Beginn des Erwachsenenlebens:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses, in denen sich
+        eine Krankheit erst über Jahrzehnte in ein bereits gelebtes Leben einschleicht,
+        stand Hawkings gesamtes Erwachsenenleben von Beginn an im Zeichen der Diagnose –
+        seine wissenschaftliche Karriere und seine Krankheit begannen praktisch gleichzeitig.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahrzehnte bekannte, nie verdrängte Grenze:</strong>
+        Von der Diagnose 1963 bis zu seinem Tod 2018 lebte Hawking mit einer Krankheit, die
+        er weder verheimlichte noch dramatisierte – sie wurde, ähnlich wie bei Albert
+        Einstein (SO5w4), zur Kenntnis genommen und in ein funktionierendes System aus
+        Arbeit und Alltag eingebaut.</p>
+        <p class="vb-intro"><strong>c) Arbeit als Konstante über jede körperliche Veränderung hinweg:</strong>
+        Ob mit noch beweglichen Händen in den 1960er-Jahren oder Jahrzehnte später mit
+        einem einzigen kontrollierbaren Wangenmuskel – die physikalische Forschung selbst
+        blieb über all diese Stufen des Verlusts hinweg die tragende Konstante.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das motorische Nervensystem?</strong>
+        Für eine soziale Fünf mit Sechserflügel, deren Sicherheit über Systeme aus Wissen
+        und verlässlicher Struktur entsteht, liegt eine Deutung nahe: Ausgerechnet jenes
+        System, das Denken in Handeln übersetzt – die Nervenbahnen, die den Körper steuern
+        – verlor zunehmend seine Funktion, während der Geist selbst von der Krankheit
+        vollständig verschont blieb. Die Antwort darauf war exemplarisch SO5w6: der Bau
+        eines neuen, künstlichen Übersetzungssystems zwischen Denken und Mitteilen, das
+        ebenso verlässlich funktionieren sollte wie zuvor der eigene Körper. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang,
+        und wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu neurologischen
+        Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Hawkings Fall zeigen lässt, ist ein Muster, das bei
+        dem Bedürfnis, Kontrollverlust durch den Aufbau neuer, verlässlicher Systeme zu
+        kompensieren, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hawking kannte sein eigenes Enneagramm-Muster nicht – die soziale Fünf mit
+        Sechserflügel sucht Sicherheit fast reflexhaft im Aufbau geprüfter, verlässlicher
+        Systeme und im geteilten Wissen einer größeren Gemeinschaft, statt sich der
+        körperlichen Bedrohung mit offener emotionaler Verarbeitung zu stellen. Genau das
+        lebte er ungebremst: ein immer ausgefeilteres technisches System, ein immer
+        größeres Publikum – nicht aus Berechnung, sondern aus einem Muster, das er selbst
+        nie als solches erkannte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Hawkings</strong> 55 Jahren mit ALS lässt sich die soziale Fünf mit
+        Sechserflügel in einer ihrer eindrücklichsten Formen studieren: eine Diagnose, die
+        nie verheimlicht, aber auch nie dramatisiert wurde, ein sorgfältig gebautes System
+        aus Technik und Vertrauenspersonen, das den fortschreitenden Kontrollverlust
+        auffing, und ein Wissensauftrag, der bis zur letzten Möglichkeit der Mitteilung
+        nicht endete. Der Oktopus, dessen Körper ihm Stück für Stück genommen wurde – und
+        der trotzdem einen Weg fand, seine acht Arme durch ein einziges technisches System
+        zu ersetzen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
 function isaacNewtonKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -8970,6 +9173,7 @@ function isaacNewtonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – Physiker und Mathematiker"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -12909,177 +13113,6 @@ function gretaThunbergKrankheitsportraetPage() {
         {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
-      ])}
-    </div>
-  `);
-}
-
-function bobMarleyKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-bob-marley-portrait.jpg" alt="Bob Marley" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Bob Marley</p>
-        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel · 1945–1981</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Golden Retriever</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Bob Marley</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-bob-marley">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur kurz erwähnt wird: ein 1977 entdecktes malignes Melanom an
-        der Zehe, dessen dringend empfohlene Amputation Marley aus religiösen Gründen
-        ablehnte – eine Entscheidung, die seinen frühen Tod im Alter von 36 Jahren
-        mitbestimmte.</p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Marley</strong> ist dem <strong>sozialen Typ 2 mit Einserflügel</strong>
-        zugeordnet. Die SO2 stellt ihre Fürsorge in den Dienst eines größeren Anliegens,
-        nicht der eigenen Person; der Einserflügel gibt dieser Fürsorge eine moralische
-        Gewissheit, die keinen Kompromiss kennt. Genau diese Kombination – die eigene
-        Gesundheit dem übergeordneten Auftrag und der religiösen Überzeugung
-        unterzuordnen – bestimmte den Verlauf seiner Krankheit bis zum Tod.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Verletzung beim Fußballspielen 1977:</strong>
-        Eine Verletzung an der großen Zehe des rechten Fußes, die zunächst als
-        Sportverletzung galt, heilte nicht wie erwartet ab.</p>
-        <p class="vb-intro"><strong>b) Diagnose eines malignen Melanoms:</strong>
-        Ärzte diagnostizierten ein akrolentiginöses malignes Melanom – eine besonders
-        aggressive Hautkrebsform, die häufig an Händen und Füßen auftritt und dort oft spät
-        erkannt wird.</p>
-        <p class="vb-intro"><strong>c) Dringende Empfehlung zur Amputation:</strong>
-        Die behandelnden Ärzte rieten zur Amputation der Zehe, um eine Ausbreitung des
-        Tumors zu verhindern – eine aus medizinischer Sicht dringliche Maßnahme.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Ablehnung der Amputation aus religiösen Gründen:</strong>
-        Marley lehnte den Eingriff ab, da der Rastafari-Glaube die Unversehrtheit des
-        Körpers als heilig ansieht – eine Entscheidung, die er trotz der ärztlichen
-        Dringlichkeit nicht revidierte.</p>
-        <p class="vb-intro"><strong>b) Fortsetzung des Tourprogramms:</strong>
-        Statt sich behandeln zu lassen, setzte Marley seine intensive Tour- und
-        Aufnahmetätigkeit über Jahre nahezu unverändert fort.</p>
-        <p class="vb-intro"><strong>c) Ausbreitung des Krebses über mehrere Jahre:</strong>
-        In den folgenden Jahren metastasierte der Krebs unbemerkt in Lunge, Leber und
-        Gehirn, bis die Erkrankung 1980 nicht mehr zu übersehen war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Zusammenbruch beim Joggen im September 1980:</strong>
-        Während einer Tour durch die USA brach Marley beim Joggen im Central Park
-        zusammen – ein Ereignis, das den fortgeschrittenen Zustand seiner Erkrankung
-        öffentlich sichtbar machte.</p>
-        <p class="vb-intro"><strong>b) Letzter öffentlicher Auftritt kurz danach:</strong>
-        Nur wenige Tage später gab Marley in Pittsburgh sein letztes Konzert, ohne dass das
-        Publikum vom Ausmaß seiner Erkrankung wusste.</p>
-        <p class="vb-intro"><strong>c) Erfolglose Behandlungsversuche in Deutschland:</strong>
-        Anschließend suchte Marley eine alternative Krebsbehandlung bei einem Arzt in
-        Bayern auf, die den fortgeschrittenen Krebs jedoch nicht mehr aufhalten konnte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Tod am 11. Mai 1981 in Miami:</strong>
-        Bob Marley starb im Alter von nur 36 Jahren auf dem Rückweg von der Behandlung in
-        Deutschland nach Jamaika, in einem Krankenhaus in Miami.</p>
-        <p class="vb-intro"><strong>b) Weltweite Trauer und posthumer Ruhm:</strong>
-        Marleys Tod löste weltweite Trauer aus und markierte zugleich den Beginn eines bis
-        heute ungebrochenen posthumen Ruhms als globale Reggae-Ikone.</p>
-        <p class="vb-intro"><strong>c) Bis heute diskutierte Entscheidung:</strong>
-        Marleys Ablehnung der Amputation wird bis heute als eines der bekanntesten Beispiele
-        dafür diskutiert, wie religiöse Überzeugung eine medizinisch dringend gebotene
-        Behandlung verhindern kann.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Fürsorge für ein ganzes Volk, nicht für sich selbst:</strong>
-        Die SO2-typische Ausrichtung auf ein größeres Anliegen zeigte sich auch im Umgang
-        mit der eigenen Krankheit: Marley setzte seine Tourneen fort, weil die Botschaft für
-        die Vielen wichtiger schien als die eigene Gesundheit.</p>
-        <p class="vb-intro"><strong>b) Der Einserflügel und die unbedingte religiöse Überzeugung:</strong>
-        Dieselbe Kompromisslosigkeit, mit der Marley zwei Tage nach dem Attentat 1976 mit
-        der Kugel im Arm auftrat, zeigte sich im Umgang mit der Krebsdiagnose als Weigerung,
-        eine als religiös falsch erkannte Behandlung überhaupt in Erwägung zu ziehen.</p>
-        <p class="vb-intro"><strong>c) Der eigene Körper als Teil einer größeren Ordnung:</strong>
-        Für Marley war der eigene Körper nicht getrennt von seinem Glauben zu betrachten –
-        die Weigerung, sich amputieren zu lassen, war keine Verdrängung der Krankheit,
-        sondern die konsequente Anwendung derselben moralischen Gewissheit, die auch seine
-        Musik trug.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Mann, der für die Unversehrtheit eines Volkes kämpfte und die eigene Unversehrtheit über sein Leben stellte:</strong>
-        Marleys gesamtes Werk kreiste um die Versöhnung, Heilung und Würde eines
-        unterdrückten Volkes – ausgerechnet er stellte die religiöse Vorstellung der eigenen
-        körperlichen Unversehrtheit über die medizinisch dringend gebotene Behandlung, bis
-        die Krankheit sich seiner Kontrolle entzog.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine auffällige Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad
-        Ali (SO2w1)</a>: Auch Ali ignorierte über Jahre gesundheitliche Warnzeichen im
-        Boxsport, weil eine als moralisch richtig erkannte Sache – bei Ali der Kampf im
-        Ring, bei Marley die religiöse Überzeugung – wichtiger erschien als die eigene
-        körperliche Unversehrtheit. Bei beiden SO2w1ern zeigt sich dasselbe Muster: eine
-        Gewissheit, im Recht zu sein, die auch das eigene Leben der übergeordneten Sache
-        unterordnet.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet die Zehe, der Kontaktpunkt zur Erde?</strong>
-        Für eine soziale Zwei mit Einserflügel, deren gesamtes Werk um Verwurzelung,
-        Herkunft und die Rückkehr zu den eigenen Wurzeln kreiste, liegt eine Deutung nahe:
-        Ausgerechnet jener Körperteil, der den Kontakt zum Boden herstellt, wurde zum
-        Ausgangspunkt einer Krankheit, die er nicht rechtzeitig behandeln ließ. Diese Deutung
-        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Zwei zwangsläufig zu einer verweigerten
-        Krebsbehandlung führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Marleys Fall zeigen lässt, ist ein Muster
-        im Umgang mit einer lebensbedrohlichen Diagnose, das bei einem ausgeprägten sozialen
-        Typ 2 mit Einserflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Marley kannte sein eigenes Muster nicht als Enneagramm-Struktur – der soziale Typ 2
-        mit Einserflügel hält reflexhaft an der eigenen moralischen Gewissheit fest, statt
-        die eigene Verwundbarkeit rechtzeitig ernst zu nehmen, und lebte genau dieses Muster
-        bis zum Tod unverändert aus. Wer die eigene Neigung, eine als richtig erkannte
-        Überzeugung über die eigene körperliche Sicherheit zu stellen, nicht als Muster
-        erkennt, riskiert, dass genau diese Überzeugung das eigene Leben verkürzt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 2 mit Einserflügel erklärt bei <strong>Bob Marley</strong> vieles am
-        Verlauf seiner Krankheit: ein Mann, dessen gesamtes Werk der Heilung eines Volkes
-        galt, unterwarf die eigene Heilung derselben unbedingten religiösen Überzeugung, die
-        ihn weltberühmt gemacht hatte – der Golden Retriever, der bis zuletzt für andere da
-        war und die eigene Wunde nicht rechtzeitig versorgen ließ.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-bob-marley", label:"Porträt: Bob Marley (SO2w1)"},
-        {route:"krankheitsportraets-muhammad-ali", label:"Krankheitsporträt: Muhammad Ali (SO2w1) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
     </div>
   `);

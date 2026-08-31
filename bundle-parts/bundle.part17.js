@@ -5371,6 +5371,7 @@ function render() {
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-vincent-van-gogh": vincentVanGoghKrankheitsportraetPage,
+      "krankheitsportraets-stephen-hawking": stephenHawkingKrankheitsportraetPage,
       "krankheitsportraets-isaac-newton": isaacNewtonKrankheitsportraetPage,
       "krankheitsportraets-immanuel-kant": immanuelKantKrankheitsportraetPage,
       "krankheitsportraets-leonardo-da-vinci": leonardoDaVinciKrankheitsportraetPage,

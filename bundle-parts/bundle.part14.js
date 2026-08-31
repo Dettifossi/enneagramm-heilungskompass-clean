@@ -1,3 +1,57 @@
+function kussverhaltenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Kussverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Der ber\u00fchmte Enneagrammlehrer Claudio Naranjo hat einmal in den 80er-Jahren innerhalb eines Seminars in Berkeley, Californien, eine interessante Perspektive auf das Kussverhalten im Kontext der Enneagrammtypen entwickelt. Laut Naranjo kann das Kussverhalten eines Menschen Einblick in dessen Enneagrammtyp geben.</p>
+      <img src="./assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Strukturiert und kontrolliert</h3>
+        <p class="vb-intro">Der Typ 1 k\u00fcsst strukturiert und kontrolliert \u2014 m\u00f6glicherweise zur\u00fcckhaltend, um Perfektion zu wahren. F\u00fcr den Perfektionisten ist auch ein Kuss kein spontaner Moment der Hingabe, sondern eine Handlung, die mit Bedacht vollzogen wird. Er bringt sich vollst\u00e4ndig ein, aber auf seine Weise: pr\u00e4zise, respektvoll, ohne \u00fcbergriffige Geste. Der Kuss des Typs 1 ist ein stilles Versprechen \u2014 er dr\u00fcckt nicht Leidenschaft durch Intensit\u00e4t aus, sondern durch Verl\u00e4sslichkeit. Wer von einem Typ 1 gek\u00fcsst wird, sp\u00fcrt: Das meint er ernst.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Warmherzig und f\u00fcrsorglich</h3>
+        <p class="vb-intro">Der Typ 2 k\u00fcsst warmherzig und f\u00fcrsorglich \u2014 ein Kuss, der N\u00e4he und Verbundenheit ausdr\u00fcckt. Im Kuss des Helfers steckt das ganze Wesen dieses Typs: Er gibt sich hin, vollst\u00e4ndig und ohne Vorbehalt. Sein Kuss ist eine Umarmung in konzentrierter Form \u2014 er will, dass der andere f\u00fchlt: Du bist willkommen, du bist geliebt, du bist bei mir sicher. Der Typ 2 k\u00fcsst nicht f\u00fcr sich \u2014 er k\u00fcsst f\u00fcr den anderen. Und genau das macht seinen Kuss so unverwechselbar warm.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Zielgerichtet und effektiv</h3>
+        <p class="vb-intro">Der Typ 3 k\u00fcsst zielgerichtet und effektiv \u2014 m\u00f6glicherweise etwas demonstrativ. Der Leistungsmensch bringt auch in den intimsten Momenten seine Grundstruktur mit: Er wei\u00df, was er will, und er setzt es um. Sein Kuss ist kein Tastversuch, sondern eine Aussage. Er kann beeindruckend sein \u2014 voller Selbstsicherheit, mit klarer Intention. Und doch liegt die Frage im Raum: K\u00fcsst er, weil er f\u00fchlt \u2014 oder weil er wei\u00df, wie man k\u00fcsst? Je bewusster der Typ 3, desto echter wird die Antwort.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Intensiv und emotional</h3>
+        <p class="vb-intro">Der Typ 4 k\u00fcsst intensiv und emotional \u2014 ein Kuss, der Tiefe und Leidenschaft vermittelt. F\u00fcr den \u00c4stheten ist ein Kuss nie Routine. Er ist Ausdruck, Offenbarung, Kunst. Der Typ 4 k\u00fcsst so, wie er f\u00fchlt: mit allem, was er hat. Er bringt die gesamte Tiefe seines Innenlebens in diesen Moment \u2014 die Sehnsucht, die Sch\u00f6nheit, den Schmerz. Wer von einem Typ 4 gek\u00fcsst wird, vergisst es nicht. Es ist kein Kuss unter vielen \u2014 es ist der eine, der z\u00e4hlt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Zur\u00fcckhaltend und analytisch</h3>
+        <p class="vb-intro">Der Typ 5 k\u00fcsst zur\u00fcckhaltend und analytisch \u2014 eher vorsichtig und distanziert. Das bedeutet nicht, dass er nicht f\u00fchlt \u2014 es bedeutet, dass N\u00e4he f\u00fcr ihn kostbar und daher selten ist. Der Denker n\u00e4hert sich auch k\u00f6rperlicher Intimit\u00e4t mit einer gewissen inneren Beobachtung: Was passiert hier? Was bedeutet das? Sein Kuss ist selten, aber wenn er kommt, dann mit Bewusstsein. Und wer geduldig genug ist, die Distanz zu \u00fcberwinden, entdeckt dahinter eine Z\u00e4rtlichkeit, die die wenigsten ahnen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Z\u00f6gerlich und vertrauenssuchend</h3>
+        <p class="vb-intro">Der Typ 6 k\u00fcsst z\u00f6gerlich und unsicher \u2014 ein Kuss, der die Suche nach Sicherheit und Vertrauen widerspiegelt. F\u00fcr den Skeptiker ist Intimit\u00e4t immer auch Verletzlichkeit \u2014 und Verletzlichkeit erfordert Vertrauen. Sein Z\u00f6gern ist kein Desinteresse, sondern eine Form der Ehrlichkeit: Er \u00f6ffnet sich nur, wenn er sich sicher f\u00fchlt. Wer den Typ 6 dazu gebracht hat, diesen Schritt zu wagen, hat etwas Seltenes errungen. Und der Kuss, der dann folgt, ist aufrichtig \u2014 ohne Pose, ohne Spiel.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spontan und verspielt</h3>
+        <p class="vb-intro">Der Typ 7 k\u00fcsst spontan und verspielt \u2014 ein Kuss, der Freude und Abenteuerlust zeigt. F\u00fcr den Enthusiasten ist ein Kuss ein Fest \u2014 ungeplant, \u00fcberschw\u00e4nglich, mit einem L\u00e4cheln darin. Er k\u00fcsst, weil der Moment es verlangt, weil es sch\u00f6n ist, weil es ihn freut. Sein Kuss ist selten schwer \u2014 er tr\u00e4gt die Leichtigkeit des Augenblicks in sich. Manchmal fl\u00fcchtig, manchmal mitrei\u00dfend, aber immer lebendig. Wer mit einem Typ 7 k\u00fcsst, k\u00fcsst mit jemandem, der noch nie vergessen hat, wie es sich anf\u00fchlt, das erste Mal.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kraftvoll und dominant</h3>
+        <p class="vb-intro">Der Typ 8 k\u00fcsst kraftvoll und dominant \u2014 ein Kuss, der Intensit\u00e4t und Kontrolle ausdr\u00fcckt. Der Herausforderer bringt in jeden Moment seiner Begegnung mit anderen seine Grundenergie mit: St\u00e4rke, Direktheit, unverstellte Pr\u00e4senz. Sein Kuss ist keine Frage \u2014 er ist eine Aussage. Und doch: Hinter dieser Kraft liegt eine Verletzlichkeit, die der Typ 8 selten zeigt. Wer tief genug schaut, findet in seinem Kuss auch Schutz \u2014 die stille Botschaft: Ich lasse dich nah, weil ich dir vertraue.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanft und harmonisch</h3>
+        <p class="vb-intro">Der Typ 9 k\u00fcsst sanft und harmonisch \u2014 ein Kuss, der Frieden und Verbindung betont. Der Vermittler bringt in seine Intimit\u00e4t das, was ihn ausmacht: eine tiefe Sehnsucht nach Verbundenheit ohne Spannung, nach N\u00e4he ohne Drama. Sein Kuss ist ein Moment der Stille zu zweit \u2014 weich, ruhig, mit einer W\u00e4rme, die sich langsam ausbreitet. Er will nicht beeindrucken, er will ankommen. Und wer sich darauf einl\u00e4sst, findet in ihm einen der tiefsten K\u00fcsse, die es gibt \u2014 weil er ganz da ist, ohne Agenda.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Kussverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Kussverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"sexualverhalten-der-9-typen", label:"Sexualverhalten der 9 Typen"},
+        {route:"hochsensibilitaet-der-9-typen", label:"Hochsensibilit\u00e4t der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function hochsensibilitaetDer9TypenPage() {
   return shell(`
     <div class="page-container">
