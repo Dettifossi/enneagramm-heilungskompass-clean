@@ -4331,8 +4331,11 @@ function musikPage() {
       <div style="margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--line);max-width:720px;">
         <p class="eyebrow">Vertiefung \u00b7 27 Subtypen</p>
         <h2 class="h1--tip" style="margin-bottom:0.3rem;font-size:1.5rem;">Die 27 Subtyp-Songs</h2>
+        <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 1.1rem;">
+          Musik als Zugang zu den Prinzipien des Enneagramms ist keine neue Idee, sondern eine alte Tradition. Schon G. I. Gurdjieff lehrte seine sogenannten \u201eHeiligen T\u00e4nze\u201c (Movements) \u2014 choreografierte Bewegungsabfolgen zu eigens komponierter Musik, die einen Zugang zu inneren Prinzipien er\u00f6ffnen sollten, den der reine Verstand allein nicht erreicht. Claudio Naranjo, mein eigener Lehrer, schlug in seinen Seminaren immer wieder die Br\u00fccke von klassischen Komponisten zu den neun Typen und ihren Subtypen \u2014 er setzte sich selbst ans Klavier und zeigte, wie sich etwa im Werk Beethovens (sexuelle Sechs) oder Chopins (sexuelle F\u00fcnf) der jeweilige Enneagramm-Charakter unmittelbar in der Musik selbst ausdr\u00fcckt, nicht nur in der Biografie des Komponisten.
+        </p>
         <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 2rem;">
-          Zu jedem der 27 Subtypen \u2014 nicht nur zu den neun Haupttypen \u2014 gibt es einen eigens komponierten Song, deutsch und englisch. Jeder Song \u00fcbersetzt das spezifische Thema des Subtyps in Melodie und Text \u2014 eine musikalische Vertiefung dessen, was auf den Subtyp-Profilseiten in Worten beschrieben wird.
+          Diese Tradition f\u00fchre ich mit den 27 Subtyp-Songs fort: Zu jedem der 27 Subtypen \u2014 nicht nur zu den neun Haupttypen \u2014 gibt es einen eigens komponierten Song, deutsch und englisch, bei dem sowohl Melodie als auch Text bewusst auf das jeweilige Thema abgestimmt sind. Wer sich Zeit nimmt, hinzuh\u00f6ren, findet darin oft einen Zugang, der sich mit reinem Verstehen allein nicht erschlie\u00dft \u2014 Musik als Wegbegleiterin der Vertiefung, nicht nur als Illustration.
         </p>
         ${SUBTYP_SONG_TYPEN.map(t => `
           <div style="margin-bottom:2.2rem;">
