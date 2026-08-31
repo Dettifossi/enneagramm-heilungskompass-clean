@@ -1,3 +1,70 @@
+function gottfriedWilhelmLeibnizPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gottfried-wilhelm-leibniz-portrait.jpg" alt="Gottfried Wilhelm Leibniz" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gottfried Wilhelm Leibniz</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Philosoph, Mathematiker und Universalgelehrter, 1646–1716 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der auf jedem Feld gleichzeitig lief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt verkörpert dieses Bild so vollständig wie Gottfried Wilhelm Leibniz, oft als "letzter Universalgelehrter" bezeichnet: Er wirkte gleichzeitig als Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur – nicht nacheinander, sondern in ständiger Überlappung, oft an mehreren Großprojekten parallel.</p>
+          <p class="vb-intro">Der deutsche Philosoph Gottfried Wilhelm Leibniz, geboren 1646 in Leipzig als Sohn eines Moralphilosophieprofessors, brachte sich als Kind weitgehend selbst Latein und Griechisch bei, indem er sich Zugang zur väterlichen Bibliothek verschaffte. Mit nur zwanzig Jahren war er promoviert und für eine akademische Karriere qualifiziert – doch er lehnte eine angebotene Professur in Altdorf ab. Der Gepard bleibt nicht im geschützten Revier eines einzelnen Hörsaals. Er sucht die offene Fläche, auf der sich Tempo wirklich zeigen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Höfe, Akademien und die Bühne der Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> braucht ein Werk, das öffentlich sichtbar wird – Anerkennung durch ein größeres Ganzes, nicht nur durch private Genugtuung. Leibniz' gesamte Laufbahn folgt diesem Muster: Er diente als Diplomat und Bibliothekar am Hof von Mainz, dann fast vierzig Jahre lang am Hof von Hannover, wo er offiziell als Hofhistoriker und Bibliothekar angestellt war, tatsächlich aber ein enormes Spektrum an Projekten für seine fürstlichen Auftraggeber bediente – von Wasserpumpentechnik im Harzer Bergbau bis zu diplomatischen Denkschriften.</p>
+          <p class="vb-intro">1700 gründete er die Preußische Akademie der Wissenschaften in Berlin und wurde ihr erster Präsident – eine Institution, die sein Wirken dauerhaft sichtbar machen sollte, ähnlich wie Klostergründungen für andere SO3w4-Persönlichkeiten der Geschichte. Zeit seines Lebens umwarb er zudem die einflussreichsten Fürstenhäuser Europas: Kurfürstin Sophie von Hannover und ihre Tochter Sophie Charlotte von Preußen führten mit ihm einen jahrzehntelangen Briefwechsel über Philosophie und Politik. Der Gepard jagt nicht heimlich – er jagt dort, wo das Rudel zusieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Monade als einzigartiges Universum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken übersteigt – die Faszination für das absolut Einzigartige. Genau diese Faszination bildet den Kern von Leibniz' Metaphysik: In seiner Monadologie beschrieb er die letzten Bausteine der Wirklichkeit als "Monaden" – fensterlose, geistartige Einheiten, von denen keine zwei jemals identisch sind. Jede Monade spiegelt das gesamte Universum aus ihrer eigenen, unverwechselbaren Perspektive.</p>
+          <p class="vb-intro">Diese Idee der radikalen Einzigartigkeit durchzieht sein gesamtes Werk: seine Theodizee, in der er argumentierte, die bestehende Welt sei trotz allen Leids die "beste aller möglichen Welten" – eine ästhetisch-harmonische Gesamtschau, die Voltaire später in "Candide" beißend verspottete. Auch sein Traum einer "Characteristica universalis", einer universellen Symbolsprache, mit der sich jeder Gedanke eindeutig und einzigartig ausdrücken ließe, zeigt denselben Viererzug: die Sehnsucht nach einer Sprache, die dem Innersten jedes Gedankens gerecht wird, nicht nur seiner äußeren Nützlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Prioritätsstreit mit Newton: Hunger nach unanfechtbarer Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – nicht Prunksucht, sondern die Notwendigkeit, das eigene Werk als unanfechtbar erfolgreich zu erweisen. Nirgends zeigt sich das deutlicher als im jahrzehntelangen Streit mit Isaac Newton (SO5w6) um die Erfindung der Infinitesimalrechnung: Beide hatten unabhängig voneinander die Grundlagen der modernen Analysis entwickelt, doch die Frage, wer zuerst war, eskalierte zu einem der erbittertsten Prioritätsstreite der Wissenschaftsgeschichte.</p>
+          <p class="vb-intro">1712 setzte die Royal Society – deren Präsident zu diesem Zeitpunkt Newton selbst war – eine Untersuchungskommission ein, die Leibniz des Plagiats bezichtigte; das Gutachten, heimlich von Newton mitverfasst, fiel entsprechend einseitig aus. Leibniz kämpfte bis zu seinem Tod um seinen Ruf, ohne öffentliche Rehabilitierung zu erleben. Erst die Wissenschaftsgeschichte des 20. Jahrhunderts stellte klar: Beide hatten die Rechnung tatsächlich unabhängig voneinander entdeckt – Leibniz' Notation, kompakter und eleganter, ist es, die sich bis in die Gegenwart in Lehrbüchern durchgesetzt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w4 zeigt sich in der schieren Reichweite von Leibniz' Werk: das binäre Zahlensystem, das die Grundlage jeder heutigen Computertechnik bildet, die Rechenmaschine "Stepped Reckoner", die als eine der ersten mechanischen Rechner der Geschichte gilt, grundlegende Beiträge zur formalen Logik, die erst im 19. Jahrhundert von George Boole wirklich aufgegriffen wurden. Kaum ein Denker seiner Zeit verband so viele Felder zu einem derart kohärenten Ganzen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Zersplitterung, die aus diesem grenzenlosen Ehrgeiz folgte: Leibniz hinterließ Zehntausende unveröffentlichter Manuskriptseiten, viele Projekte blieben Fragment, weil er ständig neue begann, bevor die alten abgeschlossen waren. Der Gepard, der auf allen Feldern gleichzeitig laufen will, riskiert, auf keinem einzigen die Ziellinie zu erreichen – ein Muster, das sich bei Leibniz nicht als Scheitern, sondern als lebenslange, rastlose Vervielfachung zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das einsame Ende: Der Gepard, der zuletzt allein blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1714 bestieg Leibniz' langjähriger Dienstherr, Kurfürst Georg Ludwig von Hannover, als Georg I. den englischen Thron – und ließ Leibniz zurück. Der Mann, der jahrzehntelang die Nähe der mächtigsten Höfe Europas gesucht hatte, verbrachte seine letzten beiden Lebensjahre weitgehend übergangen, mit der undankbaren Aufgabe betraut, eine Geschichte des Hauses Braunschweig-Lüneburg fertigzustellen, die er nie vollendete.</p>
+          <p class="vb-intro">Als Leibniz 1716 in Hannover starb, nahm der Hof kaum Notiz davon; sein Sekretär soll der einzige Trauergast bei der Beerdigung gewesen sein. Ein Chronist der Zeit bemerkte, er sei "eher wie ein Räuber begraben worden als wie das, was er wirklich war: eine Zierde seines Landes". Der Gepard, dessen ganzes Leben dem sichtbaren, öffentlichen Erfolg galt, verschwand im Moment seines Todes fast spurlos von der Bühne, die er selbst so lange bespielt hatte – und wurde erst durch die Nachwelt, durch die spätere Würdigung seiner mathematischen, logischen und philosophischen Leistungen, zu dem erhoben, was er zeitlebens für sich beansprucht hatte: einer der größten Geister seiner Epoche.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
+        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – sein erbittertster wissenschaftlicher Rivale"},
+      ])}
+    </div>
+  `);
+}
+
 function seanConneryPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -9865,191 +9932,6 @@ function hansChristianAndersenKrankheitsportraetPage() {
         {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3) – dieselbe Verbergungsstrategie"},
         {route:"psychosomatik/leberkrebs", label:"Psychosomatik-Register: Leberkrebs"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
-      ])}
-    </div>
-  `);
-}
-
-function fredericChopinKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Frédéric Chopin" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Frédéric Chopin</p>
-        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1810–1849</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Igel</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Frédéric Chopin</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
-        Typstruktur. Diese Seite vertieft ein Thema, das dort kurz angeschnitten wird: eine
-        Tuberkulose-Erkrankung, die ihn vermutlich schon als jungen Mann begleitete, sich nach
-        dem Zerbrechen seiner Beziehung zu George Sand 1847 dramatisch beschleunigte und ihn mit
-        neununddreißig Jahren das Leben kostete.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Chopin</strong> ist der <strong>sexuellen Fünf mit Viererflügel</strong>
-        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>.
-        Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht nicht Distanz, sondern die
-        eine Verbindung, die alles trägt. Der Viererflügel macht aus Verschlossenheit Kunst – ein
-        Muster, das sich bis in Chopins körperlichen Verfall nachverfolgen lässt, der genau dann
-        einsetzte, als diese eine Verbindung zerbrach.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Eine zarte Konstitution seit der Kindheit:</strong>
-        Schon als Kind galt Chopin als kränklich und schmächtig – wiederkehrende Erkältungen und
-        Atembeschwerden begleiteten ihn durch die Jugend in Warschau, lange bevor sich eine
-        eigentliche Diagnose stellen ließ.</p>
-        <p class="vb-intro"><strong>b) Erste ernsthafte Warnzeichen in den zwanziger Lebensjahren:</strong>
-        Bereits kurz nach seiner Übersiedlung nach Paris 1831 berichteten Freunde und Ärzte von
-        Hustenanfällen, Erschöpfungszuständen und gelegentlichem Blutauswurf – Symptome, die
-        rückblickend als frühe Tuberkulose gedeutet werden.</p>
-        <p class="vb-intro"><strong>c) Die Katastrophe von Mallorca:</strong>
-        Im Winter 1838/39 reiste Chopin mit George Sand nach Mallorca, in der Hoffnung, das
-        milde Klima werde seiner Gesundheit guttun. Stattdessen verschlechterte sich sein
-        Zustand dramatisch: Örtliche Ärzte diagnostizierten eine ansteckende Lungenkrankheit,
-        der Vermieter kündigte ihnen daraufhin die Unterkunft, und die Familie musste in ein
-        feuchtes, kaltes Kartäuserkloster in Valldemossa umziehen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Komposition trotz akuter Krankheitsschübe:</strong>
-        Gerade in den Wochen der schwersten körperlichen Krise auf Mallorca komponierte Chopin
-        einen Großteil seiner <em>Préludes op. 28</em> – eines seiner dichtesten, introspektivsten
-        Werke, entstanden buchstäblich am Krankenbett.</p>
-        <p class="vb-intro"><strong>b) Ein Jahrzehnt zwischen Schüben und Erholung:</strong>
-        Während der gesamten 1840er-Jahre wechselten sich bei Chopin Phasen relativer Stabilität
-        mit akuten Krankheitsschüben ab – begleitet von Gewichtsverlust, chronischer Müdigkeit
-        und zunehmender Atemnot bei körperlicher Anstrengung.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Auftritte trotz sichtbarer Schwäche:</strong>
-        Freunde und Zeitgenossen beschrieben Chopin bei seinen seltenen Konzerten zunehmend als
-        blass, hager und kurzatmig – ein Kontrast, der umso deutlicher wurde, je makelloser seine
-        Musik trotz alledem blieb.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der Einbruch nach der Trennung 1847:</strong>
-        Nach dem bitteren Ende seiner neunjährigen Beziehung zu George Sand im Jahr 1847 verfiel
-        Chopins Gesundheit rapide. Er komponierte kaum noch – als hätte die Verbindung, die seine
-        schöpferische Kraft getragen hatte, auch seine körperlichen Reserven mit sich
-        genommen.</p>
-        <p class="vb-intro"><strong>b) Die letzte Reise nach England:</strong>
-        1848, bereits schwer geschwächt, reiste Chopin dennoch nach London und Schottland, um
-        Konzerte zu geben und Unterricht zu erteilen. Zeitgenossen beschrieben ihn danach als
-        kaum wiederzuerkennen – erschöpft bis zur Erschöpfung.</p>
-        <p class="vb-intro"><strong>c) Die letzten Monate in Paris:</strong>
-        Zurück in Paris verschlechterte sich sein Zustand im Laufe des Jahres 1849 weiter. Freunde
-        und seine Schwester Ludwika, die eigens aus Warschau anreiste, pflegten ihn in seinen
-        letzten Wochen, während er zunehmend ans Bett gefesselt war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Tod mit neununddreißig Jahren:</strong>
-        Chopin starb am 17. Oktober 1849 in Paris an den Folgen der fortgeschrittenen
-        Tuberkulose. Sein letzter Wunsch war, dass bei seiner Beerdigung Mozarts Requiem gespielt
-        werden solle.</p>
-        <p class="vb-intro"><strong>b) Zwei Jahrzehnte zwischen ersten Anzeichen und Tod:</strong>
-        Von den ersten Symptomen in den frühen 1830er-Jahren bis zu seinem Tod 1849 lebte Chopin
-        fast zwei Jahrzehnte mit einer Krankheit, die sein kompositorisches Schaffen nie
-        vollständig zum Erliegen brachte – bis zur Trennung von George Sand, die den letzten
-        Einbruch beschleunigte.</p>
-        <p class="vb-intro"><strong>c) Ein Werk, das trotz allem nie an Präzision verlor:</strong>
-        Selbst in den Jahren zunehmender körperlicher Schwäche blieb Chopins Musik von derselben
-        Verdichtung und Zurückhaltung geprägt, die sein gesamtes Schaffen auszeichnete – kein
-        Ton zu viel, auch nicht am Krankenbett.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Geiz der Fünf, angewandt auf die eigene Energie:</strong>
-        Wo andere Menschen mit fortschreitender Krankheit ihre Kräfte auf viele Bereiche
-        verteilen, bündelte Chopin die wenige Energie, die ihm blieb, fast ausschließlich auf
-        die Komposition – der Igel, der sich zusammenrollt und nur das Nötigste nach außen
-        gibt.</p>
-        <p class="vb-intro"><strong>b) Der körperliche Einbruch als Spiegel der einen zerbrochenen Verbindung:</strong>
-        Der rapide gesundheitliche Verfall nach der Trennung von George Sand 1847 zeigt, wie eng
-        bei der SX5 körperliche Kraft und die eine tragende Beziehung miteinander verwoben sind –
-        zerbricht die Verbindung, folgt der körperliche Einbruch auf dem Fuß.</p>
-        <p class="vb-intro"><strong>c) Komposition bis zur physischen Grenze:</strong>
-        Noch in den letzten Lebensmonaten unterrichtete und komponierte Chopin, so gut es seine
-        schwindenden Kräfte zuließen – der eine offene Kanal, durch den sich alles entlud, blieb
-        bis zuletzt geöffnet.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Krankheit, die das ganze Erwachsenenleben begleitete:</strong>
-        Von ersten Anzeichen in der Jugend über die Katastrophe von Mallorca bis zum Tod 1849
-        zieht sich die Tuberkulose als ständiger, nie ganz verschwundener Begleiter durch
-        Chopins gesamtes künstlerisches Schaffen.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Auch <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>
-        (SX5w4) brach körperlich zusammen, kurz nachdem seine eine entscheidende Verbindung
-        zerbrochen war – bei Nietzsche der Bruch mit Lou Salomé 1883, bei Chopin die Trennung
-        von George Sand 1847. Bei beiden zeigt sich dasselbe SX5w4-Muster: Die eine Verbindung,
-        die alles trägt, ist zugleich das, wovon die körperliche und schöpferische Kraft
-        abhängt – zerbricht sie, folgt der körperliche Einbruch auf dem Fuß. Diese Parallele wird
-        auch im <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Krankheitsporträt zu Nietzsche</a>
-        aufgegriffen.</p>
-        <p class="vb-intro"><strong>c) Rückzug statt Konfrontation als durchgehendes Muster:</strong>
-        Anders als Ludwig van Beethoven (SX6w5) oder Friedrich Schiller (SX6w5), die ihrer
-        Krankheit mit offener Konfrontation begegneten, zog sich Chopin – ganz wie es für die
-        sexuelle Fünf typisch ist – mit fortschreitender Krankheit zunehmend in kleinere, private
-        Kreise zurück, statt öffentlich dagegen anzukämpfen.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
-        Für eine sexuelle Fünf, deren Kraft sich fast ausschließlich in einem einzigen, eng
-        begrenzten Kanal bündelt, liegt eine Deutung nahe: Ausgerechnet die Lunge – der Atem, der
-        Grundlage jeder Lebensäußerung, auch der musikalischen – wurde zum Schauplatz eines
-        Kampfes, den Chopin nie öffentlich austrug, sondern in seine Musik hinein verdichtete.
-        Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher
-        entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Chopins Fall zeigen lässt, ist ein Muster,
-        das bei der engen Verknüpfung von körperlicher Kraft und der einen tragenden Verbindung
-        in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
-        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Chopin kannte sein eigenes Muster nicht – die sexuelle Fünf bündelt Kraft und Hingabe auf die eine tragende Verbindung, ohne dass ihm bewusst war, wie sehr seine körperliche Kraft an genau dieser einen Verbindung hing. Wer das eigene Muster nicht kennt, sieht auch nicht, wie eng die eigene Vitalität an eine einzige Bindung geknüpft ist, bis der Verlust sie mit sich reißt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Chopins</strong> sexuelle Fünf mit
-        Viererflügel noch einmal ablesen: eine seit der Jugend schwelende Tuberkulose, die sich
-        genau dann dramatisch beschleunigte, als die eine tragende Verbindung seines Lebens
-        zerbrach, und die ihn am 17. Oktober 1849 das Leben kostete. Der Igel, der seine wenige
-        verbliebene Kraft bis zuletzt in den einen offenen Kanal bündelte, durch den alles
-        strömte, was in ihm war.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4) – Lebenswerk"},
-        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4) – dieselbe SX5w4-Parallele"},
-        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
       ])}
     </div>
   `);

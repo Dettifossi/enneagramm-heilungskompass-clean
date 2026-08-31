@@ -2092,6 +2092,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Gabriel – Self-Preservation Type 4",
     teaser:"SE4w3 · b. 1950. British musician, Genesis frontman until 1975, then a celebrated solo career (\"So,\" \"Sledgehammer\"). Performed in self-designed masks and costumes, founded WOMAD, Real World Records, and the human-rights organization Witness. Animal correspondence: Dove.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-enya", name:"Enya", added:"2026-08-31", subtyp:"SE4w3",
+    heading:"Enya – Self-Preservation Type 4",
+    teaser:"SE4w3 · b. 1961. Irish singer and composer, left the family band Clannad in 1982, has worked almost exclusively with producer Nicky Ryan and lyricist Roma Ryan ever since. World-famous through \"Orinoco Flow,\" practically never toured, lives secluded at Ayesha Castle near Dublin. Animal correspondence: Dove.",
+    land:"Ireland", tags:["Music"], gender:"f"},
 { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Self-Preservation Type 4",
     teaser:"SE4w3 · 1799–1850. French writer, \"La Comédie humaine\" (almost 100 novels/stories). Gave himself the noble \"de\" that wasn't his by birth, wrote through the night up to 18 hours a day fueled by coffee to pay off crushing debts, 17 years of correspondence with Countess Hańska before marrying her shortly before his death. Animal correspondence: Dove.",
@@ -23696,6 +23700,73 @@ function peterGabrielPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
+        {route:"beruehmte-enya", label:"Portrait: Enya (SP4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function enyaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-enya-portrait.jpg" alt="Enya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enya</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Singer & composer, b. 1961 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the Self-Preservation Four – it does not put its depth on loud display, but processes it in persistent, often years-long withdrawal. Enya was born in 1961 as Eithne Patricia Ní Bhraonáin in the Irish-speaking area of Gweedore, County Donegal, one of nine children in a musical family – her father led a dance band, and several siblings later formed the group Clannad. Eithne joined that family band too, but left it again in 1982 to work on her own.</p>
+          <p class="vb-intro">That early decision to withdraw from a loud, shared band life became a lifelong pattern: for more than forty years, Enya has worked almost exclusively with just two people – producer Nicky Ryan and his wife, lyricist Roma Ryan. No rotating team, no large studio apparatus, but an extremely small, closed circle in which every album takes shape over years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Withdrawal as a Protected Space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SP4)</strong> is the counter-type of the Four: it does not display its rich inner life publicly, but keeps it alive in a strictly guarded, private space. Enya ranks among the best-selling musicians in the world, yet in her entire career she has practically never toured – no conventional concert tours, no regular live performances, barely any interviews beyond the essentials. A public profile that is highly unusual for an artist of this scale.</p>
+          <p class="vb-intro">In 1997 she bought Manderley Castle (now Ayesha Castle) in Killiney near Dublin, a Victorian castle building she made her permanent retreat. Four to seven years often pass between her albums – time spans typical of the Self-Preservation Four: better to stay silent for a long time than to carry something unfinished, or not fully lived through, out into the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: The Self-Made Sound Figure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Self-Preservation Four a fine sense for how a private inner world can be translated into an effective, recognizable public form – without the person behind it having to expose herself. Even the stage name expresses this pattern: the Irish-speaking Eithne Ní Bhraonáin became "Enya," a purpose-built, internationally pronounceable brand – a deliberately shaped shell around a very withdrawn person.</p>
+          <p class="vb-intro">The Three-wing shows even more clearly in the actual sound itself: Enya's signature sound comes from layering her own voice in countless tracks until it becomes a dense, choir-like sonic body – a technique she perfected over years together with Nicky Ryan. The result, on "Orinoco Flow" (1988), the song that made her world-famous in 1988/89, sounds like an entire ensemble and is yet the work of a single voice working alone – inner abundance shaped into a smooth, mass-appealing form, exactly as the SP4w3 pattern predicts (compare the portrait of <a href="#beruehmte-peter-gabriel">Peter Gabriel (SP4w3)</a>, who translated his own private imagery into a stage persona in a different but structurally related way).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A World Sound From a Closed Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Albums such as "Watermark" (1988), "Shepherd Moons" (1991), or "A Day Without Rain" (2000) sold millions of copies worldwide without Enya ever touring in the conventional sense or submitting to the usual machinery of pop marketing. In place of public self-promotion came consistent, years-long attention to detail in the studio – each record a self-contained, fully thought-through sound world before it was released at all.</p>
+          <p class="vb-intro">That she remained in the same small constellation throughout her career – herself, Nicky Ryan at the mixing desk, Roma Ryan on the lyrics – underscores the SP4 pattern in its purest form: not a large, shifting operation carries the work, but an extremely tight, decades-stable circle of trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 is the ability to <strong>create, out of radical withdrawal, a body of work that still reaches millions</strong> – Enya's music remains among the best-selling and most-listened-to sound worlds of all time, even though the person behind it barely appears in public. This combination of maximum impact and maximum restraint is rare and hard to replicate.</p>
+          <p class="vb-intro">The shadow shows in the near-complete separation between the public sound figure and the private person: to this day, remarkably little is known about Enya's personal life, her relationships, her daily routine behind the walls of Ayesha Castle – a seclusion that protects, but can also mean that part of one's own life is never truly shared with others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Dove Behind the Sonic Body</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Enya is among the most successful musicians in the world – not because she showed herself more loudly than others, but because, from an unusually small, protected circle, she created a sound that traveled the whole world while she herself stayed in the background.</p>
+          <p class="vb-intro">The dove who left a family band to quietly layer her own voice over itself countless times, until it became an entire choir – that is the lasting image of this subtype: an abundance that never appears louder than it chooses to be.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
       ])}
     </div>
@@ -103583,6 +103654,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
       "beruehmte-peter-gabriel": peterGabrielPortraitPage,
+      "beruehmte-enya": enyaPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,

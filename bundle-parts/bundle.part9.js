@@ -1,3 +1,119 @@
+function loiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-loi-portrait.jpg" alt="Loi (Leonie Greiner) – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loi (Leonie Greiner)</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Sängerin &amp; Songwriterin, geb. 2002 in Mannheim &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Name selbst schon Programm ist: standhaft, warmherzig, im eigenen Element unerschütterlich. Leonie Greiner wählte sich als Künstlernamen ausgerechnet <em>Loi</em>, eine andere Schreibweise von „Löwe" – abgeleitet von ihrem Kindheitsspitznamen „Leonie Löwenherz". Ein Name, der schon früh eine innere Stärke behauptete, die sich erst später öffentlich bestätigen sollte.</p>
+          <p class="vb-intro">Geboren am 3. Juli 2002 in Mannheim, begann Loi ihre musikalische Laufbahn nicht mit einem plötzlichen Durchbruch, sondern über Jahre des Übens an Gitarre und Klavier – ein solides, handwerkliches Fundament, bevor sie überhaupt einem größeren Publikum bekannt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch familiäre Nähe im Erfolg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sicherheit und Nähe entstehen zuerst im engsten, vertrautesten Kreis, bevor sie sich nach außen richten. 2017, mit gerade einmal 15 Jahren, trat Loi bei <em>The Voice Kids</em> an und erreichte das Finale – ein früher öffentlicher Auftritt, der sie aber nicht sofort in eine Solokarriere im Rampenlicht katapultierte, sondern der Beginn eines langsamen, kontinuierlichen Aufbaus war.</p>
+          <p class="vb-intro">Diese Geduld, über Jahre am eigenen Handwerk zu arbeiten, statt den schnellen Durchbruch zu suchen, ist typisch für die SE2: Sicherheit wird zuerst innerhalb der eigenen musikalischen Basis aufgebaut, bevor sie nach außen in größere Erfolge übersetzt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Internationaler Erfolg mit „Gold"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus dieser soliden Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg zu suchen. 2022 erreichte Lois Single <em>Gold</em> Goldstatus in Frankreich und Polen und erklomm in Polen Platz zwei der Charts – ein internationaler Erfolg, der weit über ihre deutsche Heimatbasis hinausreichte.</p>
+          <p class="vb-intro">Bezeichnend ist dabei der Songtitel selbst: <em>Gold</em> als sichtbares, messbares Erfolgssymbol, erreicht durch dieselbe junge Künstlerin, die Jahre zuvor noch geduldig an Gitarre und Klavier übte – der Dreierflügel übersetzt die frühe, private Basis in einen international messbaren Erfolg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer frühen, geduldig aufgebauten musikalischen Basis heraus internationalen Erfolg zu erreichen, ohne die eigene Handschrift als Gitarre und Klavier spielende Songwriterin zu verlieren.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den eigenen Erfolg durch die eigene Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den einmal erreichten Erfolg – wie den mit <em>Gold</em> – kontinuierlich zu bestätigen, statt sich auf dem einen Hit auszuruhen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Von „Leonie Löwenherz" zu internationalen Charts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vom Kindheitsspitznamen „Leonie Löwenherz" über den Finaleinzug bei <em>The Voice Kids</em> 2017 bis zum internationalen Charterfolg mit <em>Gold</em> 2022 zieht sich ein roter Faden durch Lois Werk: eine früh behauptete innere Stärke, die sich über Jahre geduldiger Arbeit in öffentlich messbaren Erfolg verwandelte.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es baut seine Kraft von innen nach außen auf. Lois Weg vom Mannheimer Kinderzimmer mit Gitarre und Klavier zu internationalen Chartplatzierungen zeigt diesen Antrieb von seiner deutlichsten Seite: Stärke, die sich zuerst im Kleinen bewährt, bevor sie im Großen sichtbar wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+function loniHuiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-loni-hui-portrait.jpg" alt="Loni Hui – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loni Hui (geb. Harwood)</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Profi-Pokerspielerin, geb. um 1989 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das erst ein solides eigenes Fundament braucht, bevor es sich in gefährlichere Gewässer wagt. Loni Hui, geboren als Loni Harwood, schloss 2012 zunächst ein Finanzstudium an der University at Albany ab – ein handfestes, wirtschaftliches Fundament, bevor sie sich überhaupt dem professionellen Pokerspiel zuwandte.</p>
+          <p class="vb-intro">Nach dem Abschluss zog sie nach Florida und begann dort, Poker zu spielen – schnell entdeckte sie die World Series of Poker Circuit als ihr eigentliches berufliches Umfeld. Der Weg vom Wirtschaftsstudium zum Pokertisch verlief nicht sprunghaft, sondern über eine solide, planvoll aufgebaute Basis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als finanzielle Sicherheit im Spiel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Die eigene, konkrete materielle und persönliche Sicherheit wird zuerst gesichert, bevor sich der Blick nach außen richtet. Loni Huis Finanzstudium und ihr methodischer Einstieg über die WSOP Circuit-Turniere statt sofort in die höchsten Einsatzklassen zeigen genau diese Haltung: erst die Basis sichern, dann Risiko eingehen.</p>
+          <p class="vb-intro">Über 3,4 Millionen US-Dollar Gesamtgewinne aus Live-Turnieren und fünf WSOP-Circuit-Ringe entstanden nicht aus einem einzigen großen Wurf, sondern aus jahrelanger, konsequenter Präsenz auf der Turnierserie – eine SE2-typische Fürsorge für die eigene finanzielle Zukunft, aufgebaut Schritt für Schritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der historische Bracelet-Gewinn 2013</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer soliden Basis heraus einen sichtbaren, öffentlich messbaren Erfolg zu suchen. 2013 gelang Loni Hui bei der World Series of Poker etwas historisch Seltenes: Sie erreichte in einem einzigen Turnierjahr drei Finaltische – nur die zweite Frau nach Cyndy Violette (2005), der das gelang – und wurde zugleich die erste Frau, die im selben Jahr auch ein Bracelet gewann.</p>
+          <p class="vb-intro">Dieser Erfolg brachte sie auf Platz drei der World Series of Poker Player of the Year-Wertung 2013 – ein klar sichtbares, öffentlich anerkanntes Ergebnis, das ihre jahrelange methodische Vorarbeit auf einen Schlag bestätigte. 2015 folgte ein zweites Bracelet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer sorgfältig aufgebauten finanziellen und methodischen Basis heraus historische, öffentlich messbare Erfolge zu erzielen – Loni Huis Weg vom Finanzstudium zu zwei WSOP-Bracelets und über 3,4 Millionen Dollar Turniergewinnen zeigt genau diese Kombination aus Vorsicht und sichtbarem Ehrgeiz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, den eigenen Erfolg durch die eigene, konkrete Leistung verdient zu haben. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den erreichten Status kontinuierlich neu zu bestätigen – im Wettkampfsport Poker eine Haltung, die ebenso zum langfristigen Erfolg beitragen wie auch erschöpfend wirken kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Vom Finanzstudium zur Poker-Geschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vom Finanzabschluss 2012 über den methodischen Einstieg auf der WSOP Circuit bis zum historischen Dreifach-Finaltisch-Jahr 2013 und einem zweiten Bracelet 2015 zieht sich ein roter Faden durch Loni Huis Werk: eine solide gesicherte Basis, aus der heraus konsequent gewachsen wurde, nie ein plötzlicher, unvorbereiteter Sprung.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es baut es sorgfältig aus, bevor es sich weiter hinauswagt. Loni Huis Weg von der Finanzstudentin zur zweifachen WSOP-Bracelet-Gewinnerin bündelt diesen Antrieb beispielhaft: Erfolg, der aus geduldig gesicherter Basis wächst, nicht aus riskantem Vabanquespiel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
 function madelineStuartPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7245,73 +7361,6 @@ function teresaVonAvilaPortraitPage() {
         {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
         {route:"krankheitsportraets-teresa-von-avila", label:"Krankheitsporträt: Teresa von Ávila – Scheintod & Lähmung"},
-      ])}
-    </div>
-  `);
-}
-
-function gottfriedWilhelmLeibnizPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-gottfried-wilhelm-leibniz-portrait.jpg" alt="Gottfried Wilhelm Leibniz" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Gottfried Wilhelm Leibniz</p>
-        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Philosoph, Mathematiker und Universalgelehrter, 1646–1716 – Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard, der auf jedem Feld gleichzeitig lief</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – das schnellste Tier der Erde, gebaut für sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt verkörpert dieses Bild so vollständig wie Gottfried Wilhelm Leibniz, oft als "letzter Universalgelehrter" bezeichnet: Er wirkte gleichzeitig als Philosoph, Mathematiker, Logiker, Jurist, Diplomat, Historiker, Bibliothekar und Ingenieur – nicht nacheinander, sondern in ständiger Überlappung, oft an mehreren Großprojekten parallel.</p>
-          <p class="vb-intro">Der deutsche Philosoph Gottfried Wilhelm Leibniz, geboren 1646 in Leipzig als Sohn eines Moralphilosophieprofessors, brachte sich als Kind weitgehend selbst Latein und Griechisch bei, indem er sich Zugang zur väterlichen Bibliothek verschaffte. Mit nur zwanzig Jahren war er promoviert und für eine akademische Karriere qualifiziert – doch er lehnte eine angebotene Professur in Altdorf ab. Der Gepard bleibt nicht im geschützten Revier eines einzelnen Hörsaals. Er sucht die offene Fläche, auf der sich Tempo wirklich zeigen lässt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SO3: Höfe, Akademien und die Bühne der Anerkennung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> braucht ein Werk, das öffentlich sichtbar wird – Anerkennung durch ein größeres Ganzes, nicht nur durch private Genugtuung. Leibniz' gesamte Laufbahn folgt diesem Muster: Er diente als Diplomat und Bibliothekar am Hof von Mainz, dann fast vierzig Jahre lang am Hof von Hannover, wo er offiziell als Hofhistoriker und Bibliothekar angestellt war, tatsächlich aber ein enormes Spektrum an Projekten für seine fürstlichen Auftraggeber bediente – von Wasserpumpentechnik im Harzer Bergbau bis zu diplomatischen Denkschriften.</p>
-          <p class="vb-intro">1700 gründete er die Preußische Akademie der Wissenschaften in Berlin und wurde ihr erster Präsident – eine Institution, die sein Wirken dauerhaft sichtbar machen sollte, ähnlich wie Klostergründungen für andere SO3w4-Persönlichkeiten der Geschichte. Zeit seines Lebens umwarb er zudem die einflussreichsten Fürstenhäuser Europas: Kurfürstin Sophie von Hannover und ihre Tochter Sophie Charlotte von Preußen führten mit ihm einen jahrzehntelangen Briefwechsel über Philosophie und Politik. Der Gepard jagt nicht heimlich – er jagt dort, wo das Rudel zusieht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererflügel: Die Monade als einzigartiges Universum</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken übersteigt – die Faszination für das absolut Einzigartige. Genau diese Faszination bildet den Kern von Leibniz' Metaphysik: In seiner Monadologie beschrieb er die letzten Bausteine der Wirklichkeit als "Monaden" – fensterlose, geistartige Einheiten, von denen keine zwei jemals identisch sind. Jede Monade spiegelt das gesamte Universum aus ihrer eigenen, unverwechselbaren Perspektive.</p>
-          <p class="vb-intro">Diese Idee der radikalen Einzigartigkeit durchzieht sein gesamtes Werk: seine Theodizee, in der er argumentierte, die bestehende Welt sei trotz allen Leids die "beste aller möglichen Welten" – eine ästhetisch-harmonische Gesamtschau, die Voltaire später in "Candide" beißend verspottete. Auch sein Traum einer "Characteristica universalis", einer universellen Symbolsprache, mit der sich jeder Gedanke eindeutig und einzigartig ausdrücken ließe, zeigt denselben Viererzug: die Sehnsucht nach einer Sprache, die dem Innersten jedes Gedankens gerecht wird, nicht nur seiner äußeren Nützlichkeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der Prioritätsstreit mit Newton: Hunger nach unanfechtbarer Anerkennung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – nicht Prunksucht, sondern die Notwendigkeit, das eigene Werk als unanfechtbar erfolgreich zu erweisen. Nirgends zeigt sich das deutlicher als im jahrzehntelangen Streit mit Isaac Newton (SO5w6) um die Erfindung der Infinitesimalrechnung: Beide hatten unabhängig voneinander die Grundlagen der modernen Analysis entwickelt, doch die Frage, wer zuerst war, eskalierte zu einem der erbittertsten Prioritätsstreite der Wissenschaftsgeschichte.</p>
-          <p class="vb-intro">1712 setzte die Royal Society – deren Präsident zu diesem Zeitpunkt Newton selbst war – eine Untersuchungskommission ein, die Leibniz des Plagiats bezichtigte; das Gutachten, heimlich von Newton mitverfasst, fiel entsprechend einseitig aus. Leibniz kämpfte bis zu seinem Tod um seinen Ruf, ohne öffentliche Rehabilitierung zu erleben. Erst die Wissenschaftsgeschichte des 20. Jahrhunderts stellte klar: Beide hatten die Rechnung tatsächlich unabhängig voneinander entdeckt – Leibniz' Notation, kompakter und eleganter, ist es, die sich bis in die Gegenwart in Lehrbüchern durchgesetzt hat.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO3w4 zeigt sich in der schieren Reichweite von Leibniz' Werk: das binäre Zahlensystem, das die Grundlage jeder heutigen Computertechnik bildet, die Rechenmaschine "Stepped Reckoner", die als eine der ersten mechanischen Rechner der Geschichte gilt, grundlegende Beiträge zur formalen Logik, die erst im 19. Jahrhundert von George Boole wirklich aufgegriffen wurden. Kaum ein Denker seiner Zeit verband so viele Felder zu einem derart kohärenten Ganzen.</p>
-          <p class="vb-intro">Der Schatten liegt in der Zersplitterung, die aus diesem grenzenlosen Ehrgeiz folgte: Leibniz hinterließ Zehntausende unveröffentlichter Manuskriptseiten, viele Projekte blieben Fragment, weil er ständig neue begann, bevor die alten abgeschlossen waren. Der Gepard, der auf allen Feldern gleichzeitig laufen will, riskiert, auf keinem einzigen die Ziellinie zu erreichen – ein Muster, das sich bei Leibniz nicht als Scheitern, sondern als lebenslange, rastlose Vervielfachung zeigte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das einsame Ende: Der Gepard, der zuletzt allein blieb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1714 bestieg Leibniz' langjähriger Dienstherr, Kurfürst Georg Ludwig von Hannover, als Georg I. den englischen Thron – und ließ Leibniz zurück. Der Mann, der jahrzehntelang die Nähe der mächtigsten Höfe Europas gesucht hatte, verbrachte seine letzten beiden Lebensjahre weitgehend übergangen, mit der undankbaren Aufgabe betraut, eine Geschichte des Hauses Braunschweig-Lüneburg fertigzustellen, die er nie vollendete.</p>
-          <p class="vb-intro">Als Leibniz 1716 in Hannover starb, nahm der Hof kaum Notiz davon; sein Sekretär soll der einzige Trauergast bei der Beerdigung gewesen sein. Ein Chronist der Zeit bemerkte, er sei "eher wie ein Räuber begraben worden als wie das, was er wirklich war: eine Zierde seines Landes". Der Gepard, dessen ganzes Leben dem sichtbaren, öffentlichen Erfolg galt, verschwand im Moment seines Todes fast spurlos von der Bühne, die er selbst so lange bespielt hatte – und wurde erst durch die Nachwelt, durch die spätere Würdigung seiner mathematischen, logischen und philosophischen Leistungen, zu dem erhoben, was er zeitlebens für sich beansprucht hatte: einer der größten Geister seiner Epoche.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
-        {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
-        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
-        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – sein erbittertster wissenschaftlicher Rivale"},
       ])}
     </div>
   `);

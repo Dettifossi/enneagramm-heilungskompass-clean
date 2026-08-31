@@ -1,3 +1,71 @@
+function reneDescartesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rene-descartes-portrait.jpg" alt="Ren\u00e9 Descartes" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ren\u00e9 Descartes</p>
+        <p class="krim-portrait-typ">SE5w6 \u00b7 Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Franz\u00f6sischer Philosoph und Mathematiker, 1596\u20131650 \u2013 Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die im Bett philosophierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 \u2013 ein Wesen, das sich zur\u00fcckzieht, um klar zu sehen, das seine Energie h\u00fctet wie einen kostbaren Vorrat. Kaum eine Gewohnheit verk\u00f6rpert das so w\u00f6rtlich wie die ber\u00fchmte Morgenroutine Ren\u00e9 Descartes': Schon als Sch\u00fcler am Jesuitenkolleg La Fl\u00e8che erlaubte man ihm aus gesundheitlichen Gr\u00fcnden, bis in den sp\u00e4ten Vormittag im Bett zu bleiben \u2013 eine Ausnahme, die er zeitlebens beibehielt. Seine bedeutendsten Gedanken, sagte er selbst, k\u00e4men ihm in diesen ungest\u00f6rten Morgenstunden, in denen niemand Zugriff auf ihn hatte.</p>
+          <p class="vb-intro">Der französische Philosoph René Descartes, geboren 1596 in La Haye en Touraine, diente kurze Zeit als Offizier in verschiedenen europ\u00e4ischen Armeen \u2013 doch weniger f\u00fcr den Kampf als f\u00fcr die Gelegenheit zu reisen und die Welt aus sicherer Distanz zu beobachten. Am 10. November 1619, in einer beheizten Stube in S\u00fcddeutschland, hatte er der \u00dcberlieferung nach jene Serie von Tr\u00e4umen, die ihn zur \u00dcberzeugung brachte, sein Leben der Suche nach einer sicheren, unersch\u00fctterlichen Methode des Wissens zu widmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg im Exil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie m\u00f6glich beschr\u00e4nkt. 1628 verlie\u00df Descartes Frankreich und zog in die Niederlande \u2013 ein Land, das ihm die intellektuelle Freiheit und die Anonymit\u00e4t bot, die er suchte. In den folgenden gut zwanzig Jahren wechselte er der \u00dcberlieferung nach mehr als zwanzigmal seinen Wohnort, oft ohne seine Adresse auch nur engen Korrespondenten mitzuteilen.</p>
+          <p class="vb-intro">Seinen umfangreichen Briefwechsel wickelte er meist \u00fcber den Priester und Gelehrten Marin Mersenne in Paris ab, der als eine Art Filter fungierte: Mersenne sammelte Fragen und Kommentare anderer Denker, bevor er sie an Descartes weiterleitete. Die Burg der SE5 sch\u00fctzt hier nicht durch Mauern, sondern durch Distanz und Vermittlung \u2013 Kontakt findet statt, aber nur nach den eigenen Bedingungen, in der eigenen Zeit, gefiltert durch Vertraute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Vorsicht als \u00dcberlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der selbsterhaltenden F\u00fcnf eine wache, oft \u00e4ngstliche Vorsicht gegen\u00fcber \u00e4u\u00dferen Bedrohungen. 1633 war Descartes kurz davor, sein physikalisches Werk "Le Monde" (Die Welt) zu ver\u00f6ffentlichen, das \u2013 wie Galileo \u2013 ein heliozentrisches Weltbild vertrat. Als er erfuhr, dass die Inquisition in Rom Galileo genau deswegen verurteilt hatte, zog er das fertige Manuskript sofort zur\u00fcck und ver\u00f6ffentlichte es zu Lebzeiten nie. "Ich m\u00f6chte nicht", schrieb er einem Freund, "dass irgendetwas von mir ver\u00f6ffentlicht wird, das ein einziges Wort enth\u00e4lt, das die Kirche missbilligen k\u00f6nnte."</p>
+          <p class="vb-intro">Dieselbe Vorsicht pr\u00e4gte seine gesamte Methode: In den "Meditationes de prima philosophia" (1641) begann er mit dem radikalen, methodischen Zweifel an allem, was sich auch nur im Geringsten anzweifeln lie\u00df \u2013 um am Ende einen einzigen, absolut sicheren Fixpunkt zu finden: <em>Cogito, ergo sum</em> \u2013 ich denke, also bin ich. Das ist der Sechserfl\u00fcgel in seiner reinsten philosophischen Form: Sicherheit wird nicht vorausgesetzt, sondern durch systematisches Misstrauen gegen\u00fcber jeder M\u00f6glichkeit des Irrtums Schritt f\u00fcr Schritt erarbeitet.</p>
+          <p class="vb-intro">Dahinter steht ein noch grundlegenderer Zug der selbsterhaltenden F\u00fcnf: Als Verst\u00e4rkungstyp der F\u00fcnf treibt sie ihre intrinsische Motivation \u2013 die Suche nach Wissen, Erkenntnis und, im besten Fall, Weisheit \u2013 nicht gem\u00e4\u00dfigt, sondern verst\u00e4rkt aus. Diese Intensivierung ist eine Kompensation: Alle drei Subtypen der Kopftriade (F\u00fcnf, Sechs, Sieben) tragen ein Vertrauensdefizit in sich, und die selbsterhaltende F\u00fcnf begegnet ihm, indem sie die Kopfenergie \u2013 das Denken selbst \u2013 zum sichersten, am st\u00e4rksten ausgebauten Territorium macht. Descartes' <em>Cogito, ergo sum</em> ist der reinste philosophische Ausdruck genau dieser Haltung: Er kann sich zuletzt nichts vorstellen, das jenseits des Denkens noch sicher existiert \u2013 das Denken selbst wird zum einzigen unersch\u00fctterlichen Boden. Aus heutiger Sicht ist dieser Dualismus in seiner strengen Form \u00fcberholt, doch die Grund\u00fcberzeugung, dass gesichertes Wissen zuerst durch das denkende Erfassen der Welt entsteht, pr\u00e4gt bis in die Gegenwart weite Teile der Wissenschaft und des vorherrschenden Zeitgeists.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Fundament: Ein Wissen, das nichts mehr ersch\u00fcttern kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Descartes wollte nicht nur eine neue Theorie liefern, sondern die Philosophie insgesamt auf ein Fundament stellen, das so sicher war wie die Geometrie \u2013 daher r\u00fchrt seine Vorliebe f\u00fcr mathematische Klarheit, die er auch in der von ihm mitbegr\u00fcndeten analytischen Geometrie (dem kartesischen Koordinatensystem) auslebte. Zweifel war f\u00fcr ihn kein Selbstzweck, sondern Werkzeug: Man r\u00e4umt jeden unsicheren Grund beiseite, bis nur noch das \u00fcbrig bleibt, was sich unm\u00f6glich bezweifeln l\u00e4sst.</p>
+          <p class="vb-intro">Diese methodische Strenge zeigte sich auch im Umgang mit dem eigenen K\u00f6rper: Descartes unterschied radikal zwischen res cogitans (dem denkenden Geist) und res extensa (der ausgedehnten, materiellen Welt einschlie\u00dflich des eigenen K\u00f6rpers) \u2013 ein Dualismus, der es ihm erlaubte, das Denken als das einzig wirklich sichere Territorium zu betrachten, unabh\u00e4ngig von den Unw\u00e4gbarkeiten der physischen Existenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in der schieren Klarheit von Descartes' Methode: Der cartesische Zweifel wurde zum Ausgangspunkt der gesamten neuzeitlichen Philosophie, sein Rationalismus zum Gegenpol des britischen Empirismus, seine analytische Geometrie zur Br\u00fccke zwischen Algebra und Raum. Kaum ein Denker hat das Selbstbewusstsein des Subjekts \u2013 "ich denke" \u2013 so wirkungsm\u00e4chtig ins Zentrum der Philosophie ger\u00fcckt.</p>
+          <p class="vb-intro">Der Schatten liegt im Preis dieser Sicherheit: Sein Leib-Seele-Dualismus hinterlie\u00df ein noch heute ungel\u00f6stes Problem \u2013 wie k\u00f6nnen Geist und K\u00f6rper, wenn sie derart radikal getrennte Substanzen sind, \u00fcberhaupt miteinander wechselwirken? Descartes selbst versuchte eine Antwort \u00fcber die Zirbeldr\u00fcse, die kaum jemand seiner Nachfolger \u00fcberzeugend fand. Die Burg, die absolute Gewissheit sch\u00fctzen sollte, erzeugte damit eine neue, tiefe Kluft zwischen Innen und Au\u00dfen, Denken und Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die ihre Routine verlie\u00df \u2013 und starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1649 lud K\u00f6nigin Christina von Schweden Descartes an ihren Hof nach Stockholm ein, um sie in Philosophie zu unterrichten. Die K\u00f6nigin bestand darauf, ihren Unterricht um f\u00fcnf Uhr morgens zu beginnen \u2013 mitten im schwedischen Winter, f\u00fcr einen Mann, der zeitlebens bis in den sp\u00e4ten Vormittag im Bett gearbeitet hatte. Descartes gab seine gesch\u00fctzte Routine auf, um der Bitte der K\u00f6nigin nachzukommen.</p>
+          <p class="vb-intro">Wenige Monate sp\u00e4ter, im Februar 1650, starb er in Stockholm an einer Lungenentz\u00fcndung \u2013 vermutlich zumindest beg\u00fcnstigt durch die eisige nordische K\u00e4lte, der er sich in den fr\u00fchen Morgenstunden aussetzte. Die Eule, die ihr Leben lang in der gesch\u00fctzten Stille ihrer eigenen Zeit gedacht hatte, verlie\u00df genau diesen Schutz ein einziges Mal \u2013 und bezahlte daf\u00fcr mit dem Leben. Was blieb, war ein methodisches Denkgeb\u00e4ude, das bis in die Gegenwart die Grundfragen der westlichen Philosophie pr\u00e4gt: Was kann ich wirklich wissen? Und worauf l\u00e4sst sich dieses Wissen sicher gr\u00fcnden?</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-spinoza", label:"Portr\u00e4t: Baruch de Spinoza (SE5w6) \u2013 kommentierte seine Philosophie in seinem einzigen zu Lebzeiten ver\u00f6ffentlichten Werk"},
+        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+      ])}
+    </div>
+  `);
+}
+
 function hermannHessePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7042,122 +7110,6 @@ function lisaAntoniPortraitPage() {
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
         {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
         {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-function loiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-loi-portrait.jpg" alt="Loi (Leonie Greiner) – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Loi (Leonie Greiner)</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Deutsche Sängerin &amp; Songwriterin, geb. 2002 in Mannheim &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Name selbst schon Programm ist: standhaft, warmherzig, im eigenen Element unerschütterlich. Leonie Greiner wählte sich als Künstlernamen ausgerechnet <em>Loi</em>, eine andere Schreibweise von „Löwe" – abgeleitet von ihrem Kindheitsspitznamen „Leonie Löwenherz". Ein Name, der schon früh eine innere Stärke behauptete, die sich erst später öffentlich bestätigen sollte.</p>
-          <p class="vb-intro">Geboren am 3. Juli 2002 in Mannheim, begann Loi ihre musikalische Laufbahn nicht mit einem plötzlichen Durchbruch, sondern über Jahre des Übens an Gitarre und Klavier – ein solides, handwerkliches Fundament, bevor sie überhaupt einem größeren Publikum bekannt wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch familiäre Nähe im Erfolg</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sicherheit und Nähe entstehen zuerst im engsten, vertrautesten Kreis, bevor sie sich nach außen richten. 2017, mit gerade einmal 15 Jahren, trat Loi bei <em>The Voice Kids</em> an und erreichte das Finale – ein früher öffentlicher Auftritt, der sie aber nicht sofort in eine Solokarriere im Rampenlicht katapultierte, sondern der Beginn eines langsamen, kontinuierlichen Aufbaus war.</p>
-          <p class="vb-intro">Diese Geduld, über Jahre am eigenen Handwerk zu arbeiten, statt den schnellen Durchbruch zu suchen, ist typisch für die SE2: Sicherheit wird zuerst innerhalb der eigenen musikalischen Basis aufgebaut, bevor sie nach außen in größere Erfolge übersetzt wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Internationaler Erfolg mit „Gold"</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus dieser soliden Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg zu suchen. 2022 erreichte Lois Single <em>Gold</em> Goldstatus in Frankreich und Polen und erklomm in Polen Platz zwei der Charts – ein internationaler Erfolg, der weit über ihre deutsche Heimatbasis hinausreichte.</p>
-          <p class="vb-intro">Bezeichnend ist dabei der Songtitel selbst: <em>Gold</em> als sichtbares, messbares Erfolgssymbol, erreicht durch dieselbe junge Künstlerin, die Jahre zuvor noch geduldig an Gitarre und Klavier übte – der Dreierflügel übersetzt die frühe, private Basis in einen international messbaren Erfolg.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer frühen, geduldig aufgebauten musikalischen Basis heraus internationalen Erfolg zu erreichen, ohne die eigene Handschrift als Gitarre und Klavier spielende Songwriterin zu verlieren.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den eigenen Erfolg durch die eigene Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den einmal erreichten Erfolg – wie den mit <em>Gold</em> – kontinuierlich zu bestätigen, statt sich auf dem einen Hit auszuruhen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Von „Leonie Löwenherz" zu internationalen Charts</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Vom Kindheitsspitznamen „Leonie Löwenherz" über den Finaleinzug bei <em>The Voice Kids</em> 2017 bis zum internationalen Charterfolg mit <em>Gold</em> 2022 zieht sich ein roter Faden durch Lois Werk: eine früh behauptete innere Stärke, die sich über Jahre geduldiger Arbeit in öffentlich messbaren Erfolg verwandelte.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es baut seine Kraft von innen nach außen auf. Lois Weg vom Mannheimer Kinderzimmer mit Gitarre und Klavier zu internationalen Chartplatzierungen zeigt diesen Antrieb von seiner deutlichsten Seite: Stärke, die sich zuerst im Kleinen bewährt, bevor sie im Großen sichtbar wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-function loniHuiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-loni-hui-portrait.jpg" alt="Loni Hui – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Loni Hui (geb. Harwood)</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanische Profi-Pokerspielerin, geb. um 1989 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das erst ein solides eigenes Fundament braucht, bevor es sich in gefährlichere Gewässer wagt. Loni Hui, geboren als Loni Harwood, schloss 2012 zunächst ein Finanzstudium an der University at Albany ab – ein handfestes, wirtschaftliches Fundament, bevor sie sich überhaupt dem professionellen Pokerspiel zuwandte.</p>
-          <p class="vb-intro">Nach dem Abschluss zog sie nach Florida und begann dort, Poker zu spielen – schnell entdeckte sie die World Series of Poker Circuit als ihr eigentliches berufliches Umfeld. Der Weg vom Wirtschaftsstudium zum Pokertisch verlief nicht sprunghaft, sondern über eine solide, planvoll aufgebaute Basis.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als finanzielle Sicherheit im Spiel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Die eigene, konkrete materielle und persönliche Sicherheit wird zuerst gesichert, bevor sich der Blick nach außen richtet. Loni Huis Finanzstudium und ihr methodischer Einstieg über die WSOP Circuit-Turniere statt sofort in die höchsten Einsatzklassen zeigen genau diese Haltung: erst die Basis sichern, dann Risiko eingehen.</p>
-          <p class="vb-intro">Über 3,4 Millionen US-Dollar Gesamtgewinne aus Live-Turnieren und fünf WSOP-Circuit-Ringe entstanden nicht aus einem einzigen großen Wurf, sondern aus jahrelanger, konsequenter Präsenz auf der Turnierserie – eine SE2-typische Fürsorge für die eigene finanzielle Zukunft, aufgebaut Schritt für Schritt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Der historische Bracelet-Gewinn 2013</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer soliden Basis heraus einen sichtbaren, öffentlich messbaren Erfolg zu suchen. 2013 gelang Loni Hui bei der World Series of Poker etwas historisch Seltenes: Sie erreichte in einem einzigen Turnierjahr drei Finaltische – nur die zweite Frau nach Cyndy Violette (2005), der das gelang – und wurde zugleich die erste Frau, die im selben Jahr auch ein Bracelet gewann.</p>
-          <p class="vb-intro">Dieser Erfolg brachte sie auf Platz drei der World Series of Poker Player of the Year-Wertung 2013 – ein klar sichtbares, öffentlich anerkanntes Ergebnis, das ihre jahrelange methodische Vorarbeit auf einen Schlag bestätigte. 2015 folgte ein zweites Bracelet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer sorgfältig aufgebauten finanziellen und methodischen Basis heraus historische, öffentlich messbare Erfolge zu erzielen – Loni Huis Weg vom Finanzstudium zu zwei WSOP-Bracelets und über 3,4 Millionen Dollar Turniergewinnen zeigt genau diese Kombination aus Vorsicht und sichtbarem Ehrgeiz.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, den eigenen Erfolg durch die eigene, konkrete Leistung verdient zu haben. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, den erreichten Status kontinuierlich neu zu bestätigen – im Wettkampfsport Poker eine Haltung, die ebenso zum langfristigen Erfolg beitragen wie auch erschöpfend wirken kann.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Vom Finanzstudium zur Poker-Geschichte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Vom Finanzabschluss 2012 über den methodischen Einstieg auf der WSOP Circuit bis zum historischen Dreifach-Finaltisch-Jahr 2013 und einem zweiten Bracelet 2015 zieht sich ein roter Faden durch Loni Huis Werk: eine solide gesicherte Basis, aus der heraus konsequent gewachsen wurde, nie ein plötzlicher, unvorbereiteter Sprung.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es baut es sorgfältig aus, bevor es sich weiter hinauswagt. Loni Huis Weg von der Finanzstudentin zur zweifachen WSOP-Bracelet-Gewinnerin bündelt diesen Antrieb beispielhaft: Erfolg, der aus geduldig gesicherter Basis wächst, nicht aus riskantem Vabanquespiel.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
-        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
       ])}
     </div>
   `);

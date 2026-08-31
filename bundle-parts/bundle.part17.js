@@ -4870,6 +4870,7 @@ function render() {
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
       "beruehmte-peter-gabriel": peterGabrielPortraitPage,
+      "beruehmte-enya": enyaPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,

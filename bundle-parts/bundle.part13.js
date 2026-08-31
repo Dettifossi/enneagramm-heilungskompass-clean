@@ -1,3 +1,199 @@
+function sebastianGreenwoodPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Sebastian Greenwood \u2013 Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sebastian Greenwood</p>
+        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sebastian Greenwood</strong> (geb. 1978, Schweden) war Mitgr\xfcnder und
+        Chefrekrutierer des OneCoin-Kryptow\xe4hrungs-Betrugs \u2013 des gr\xf6\xdften
+        Ponzi-Schemas der Geschichte mit einem Schaden von \xfcber vier Milliarden Euro.
+        W\xe4hrend <strong>Ruja Ignatova</strong> als \u201eCryptoqueen\u201c die intellektuelle Fassade
+        des Systems lieferte, war <strong>Greenwood</strong> der Netzwerker, der Menschenf\xe4nger,
+        der Mann, der Tausende Distributor-Partner weltweit anwarb und f\xfcr die
+        Sache begeisterte. Er wurde 2018 in Thailand verhaftet, 2023 in den USA
+        der Geldw\xe4sche und des Betruges schuldig gesprochen. Diese Analyse fragt:
+        Was treibt einen Menschen an, ein globales Vertrauenssystem aufzubauen \u2013
+        und es zur Waffe zu machen?
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
+                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
+        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
+          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 2 &middot;
+          <strong>Typ mit Fl\xfcgel:</strong> SE2w3 &middot;
+          <em>Leidenschaft:</em> Stolz &middot;
+          <em>Tieranalogie:</em> Flusspferd
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
+        <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
+        willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen \u2013 oft das erste
+        Mal in langer Zeit. Das ist die selbsterhaltende Zwei: Zuwendung als Werkzeug,
+        Warmherzigkeit als Eintrittskarte.</p>
+        <p class="vb-intro"><strong>b) Selbstsicher bis strahlend:</strong>
+        Der Dreierfl\xfcgel gibt der Zwei eine souver\xe4ne Au\xdfenpr\xe4senz. <strong>Greenwood</strong>
+        trat nicht wie ein Verkaufsredner auf, sondern wie ein Vision\u00e4r. Seine
+        Selbstsicherheit war ansteckend \u2013 sie \xfcbertrug sich auf die Zuh\xf6rer
+        und verwandelte Skepsis in Begeisterung.</p>
+        <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
+        <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
+        Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
+        Das ist das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
+        <p class="vb-intro"><strong>a) Wer braucht mich gerade?</strong>
+        Die selbsterhaltende Zwei sucht Menschen, die Orientierung, Sinn oder
+        Zugeh\xf6rigkeit suchen. <strong>Greenwood</strong> fand sein Publikum unter
+        Aufsteigern aus Entwicklungsl\xe4ndern, Unternehmern ohne Netzwerk, Menschen
+        mit dem Wunsch nach finanziellem Aufstieg. Er sah ihre Bed\xfcrftigkeit
+        und machte daraus ein Gesch\xe4ftsmodell.</p>
+        <p class="vb-intro"><strong>b) Wie baue ich Loyalit\xe4t auf?</strong>
+        <strong>Greenwood</strong> investierte in langfristige Bindungen. Er gab gro\xdfz\xfcgig
+        \u2013 Provisionen, Status, Anerkennung. Die Zwei gibt, damit sie gebraucht wird.
+        Das Geben erzeugt Schuld, die Schuld erzeugt Loyalit\xe4t. OneCoin war ein
+        Loyalit\xe4tssystem im Kern.</p>
+        <p class="vb-intro"><strong>c) Welche Vision begeistert die Masse?</strong>
+        Der Dreierfl\xfcgel verschafft <strong>Greenwood</strong> einen scharfen Sinn f\xfcr
+        Narrativ. Er verkaufte nicht eine Kryptow\xe4hrung, sondern eine Mission:
+        finanzielle Befreiung f\xfcr die Unterdr\xfcckten. Dieses Bild zog Millionen an.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Stolz</h3>
+        <p class="vb-intro"><strong>a) Stolz als Netzwerkkonstrukteur:</strong>
+        <strong>Greenwoods</strong> Stolz speiste sich nicht aus Geld allein, sondern daraus,
+        das gr\xf6\xdfte Netzwerk der Krypto-Geschichte aufgebaut zu haben. Er war
+        nicht der Dieb \u2013 er war der Architekt der Gemeinschaft. Der Typ 2
+        braucht das Gef\xfchl, unersetzlich zu sein.</p>
+        <p class="vb-intro"><strong>b) Blind gegen\xfcber dem Schaden:</strong>
+        Wie bei allen SE2-Typen schirmte der Stolz den Blick auf die Wirklichkeit ab.
+        <strong>Greenwood</strong> konnte den Betrug fortsetzen, weil er sich als Helfer
+        erlebte \u2013 jemand, der anderen eine Chance gab. Dass die Chance gef\xe4lscht war,
+        blieb unbewusst.</p>
+        <p class="vb-intro"><strong>c) Grandiosit\xe4t als Identit\xe4t:</strong>
+        Der Dreierfl\xfcgel verst\xe4rkte den Stolz durch \xf6ffentliche Inszenierung. Awards,
+        B\xfchnenereignisse, Titelverleihungen: <strong>Greenwood</strong> schuf ein Theater der
+        Bedeutsamkeit, in dem er selbst die Hauptrolle spielte \u2013 und glaubte, sie zu verdienen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
+        <p class="vb-intro"><strong>a) Geben als Machtinstrument:</strong>
+        <strong>Greenwoods</strong> Provisionsstruktur war psychologisch virtuos: sie schuf
+        ein System, in dem Helfen und Bereichern identisch wirkten. Wer andere anwarb,
+        half ihnen scheinbar. Die SE2-Dynamik des \u201eIch gebe, also habe ich Recht\u201c
+        wurde hier zur Gesch\xe4ftsstrategie.</p>
+        <p class="vb-intro"><strong>b) Netzwerken ohne Grenzen:</strong>
+        <strong>Greenwood</strong> operierte in Uganda, Indien, China, den Emiraten und Europa.
+        Die selbsterhaltende Zwei kennt keine territorialen Grenzen, wenn es um
+        die Erweiterung des eigenen Einflussfeldes geht. Jeder Kontakt war ein
+        potenzieller Schuldner.</p>
+        <p class="vb-intro"><strong>c) Statusf\xf6rderung als Bindungsmittel:</strong>
+        OneCoin vergab Titel und R\u00e4nge an erfolgreiche Distributor-Partner. <strong>Greenwood</strong>
+        verstand, dass Menschen nicht nur Geld wollen \u2013 sie wollen Bedeutung.
+        Er verkaufte Bedeutung. Das ist SE2w3 in seiner reinsten Form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
+        <p class="vb-intro"><strong>a) Die Wunde des Unverzichtbaren:</strong>
+        Hinter dem Netzwerker verbirgt sich die Angst, ohne sein Netzwerk nichts zu sein.
+        Die Zwei baut Beziehungen auf, weil sie glaubt, nur durch Geben geliebt
+        zu werden. <strong>Greenwood</strong> brauchte das System, um sich selbst zu sp\xfcren.</p>
+        <p class="vb-intro"><strong>b) Schutz durch Unentbehrlichkeit:</strong>
+        Die Schutzstrategie der SE2: so viele Menschen an sich binden, dass das
+        Loslassen undenkbar wird. <strong>Greenwood</strong> baute ein Netz, das ihn
+        ebenso gefangen hielt wie seine Opfer. Der Betrug wurde zur Identit\xe4t.</p>
+        <p class="vb-intro"><strong>c) Dreierfl\xfcgel als R\u00fcstung:</strong>
+        Der w3-Anteil gab <strong>Greenwood</strong> die F\xe4higkeit, die innere Leere hinter
+        einer makellosen Performance zu verstecken. Erfolg, Beifall, Vision\u00e4rstatus:
+        all das waren Schutzschichten gegen das Gef\xfchl, ohne diesen Apparat
+        nicht zu existieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
+        <p class="vb-intro"><strong>a) SE2 und das Zweier-Privileg:</strong>
+        Die selbsterhaltende Zwei nimmt, was ihr zusteht \u2013 verh\xfcllt durch das
+        Narrativ des Gebens. <strong>Greenwood</strong> nahm Milliarden, aber er \u201egab\u201c
+        sie weiter: in Form von Provisionen, Status, Versprechen. Das Zweier-Privileg
+        in globaler Dimension.</p>
+        <p class="vb-intro"><strong>b) Dreierfl\xfcgel als Inszenierungsmotor:</strong>
+        Ohne den w3-Anteil w\xe4re <strong>Greenwood</strong> ein lokaler Netzwerker geblieben.
+        Der Dreierfl\xfcgel lieferte das Gro\xdfformat: die B\xfchne, das Narrativ,
+        die Marke. SE2w3 kann Betrug in eine globale Vision verwandeln.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Ignatova:</strong>
+        <strong>Ignatova</strong> (SE3w4) lieferte das intellektuelle Fundament, <strong>Greenwood</strong>
+        (SE2w3) die Beziehungsarchitektur. Zwei komplement\u00e4re Selbsterhaltungstypen,
+        die sich gegenseitig verst\xe4rkten: die eine baut die Marke, der andere
+        baut die Gemeinschaft. Ein Lehrbeispiel f\xfcr Typ-Dynamiken im Team.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Flusspferd</h3>
+        <p class="vb-intro"><strong>a) Massiv und untersch\u00e4tzt:</strong>
+        Das Flusspferd wirkt im Wasser tr\xe4ge und friedlich \u2013 an Land ist es das
+        gef\xe4hrlichste Gro\xdftier Afrikas. <strong>Greenwood</strong> wirkte wie der
+        nette Netzwerker, der anderen hilft. Die Gefahrlosigkeit war Inszenierung.</p>
+        <p class="vb-intro"><strong>b) Territorial und unsichtbar gef\xe4hrlich:</strong>
+        Das Flusspferd verteidigt sein Revier mit extremer Aggressivit\xe4t \u2013 ohne
+        Vorwarnung. <strong>Greenwood</strong> sch\u00fctzte sein Netzwerk genauso: freundlich
+        nach au\xdfen, erbarmungslos im Inneren. Wer ausstieg oder Fragen stellte,
+        verlor Status und Einkommen.</p>
+        <p class="vb-intro"><strong>c) Angepasst an zwei Welten:</strong>
+        Das Flusspferd lebt zwischen Wasser und Land \u2013 nirgendwo ganz zuhause,
+        \xfcberall funktionst\xfcchtig. <strong>Greenwood</strong> operierte zwischen Legalit\xe4t
+        und Betrug, zwischen Helfer und R\xe4uber, zwischen Vision und Manipulation.
+        Diese Ambivalenz ist das Markenzeichen des SE2w3 im Schatten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 2</h3>
+        <p class="vb-intro"><strong>a) Vom Geben zum Sein:</strong>
+        Der Heilungsweg der Zwei beginnt mit der Frage: Was bin ich, wenn ich
+        nichts gebe? F\xfcr <strong>Greenwood</strong> w\xe4re das die radikalste Konfrontation:
+        sich selbst ohne Netzwerk, ohne Status, ohne Bedeutungsarchitektur zu begegnen.</p>
+        <p class="vb-intro"><strong>b) Echte Hilfe statt Einfluss:</strong>
+        Die gesunde Zwei gibt ohne Rechnung. <strong>Greenwood</strong> kannte nur das Geben
+        mit Erwartung: Loyalit\xe4t, Abh\xe4ngigkeit, R\xfcckzahlung. Der Weg zur Heilung
+        f\xfchrt \xfcber die Entdeckung, dass echtes Helfen keine Gegenleistung braucht.</p>
+        <p class="vb-intro"><strong>c) Demut als Gegenpol des Stolzes:</strong>
+        Die Tugend der Zwei ist Demut \u2013 die F\xe4higkeit, die eigene Begrenztheit
+        zu sehen und anzunehmen. F\xfcr <strong>Greenwood</strong> w\xe4re das die Anerkennung:
+        Ich habe nicht geholfen. Ich habe genommen. Dieser Satz, vollst\xe4ndig
+        gef\xfchlt, \xf6ffnet den Heilungsweg.</p>
+      </div>
+
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 \u2013 das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtyps.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 alle Zwei-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert \u2013 Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Sebastian Greenwood wurde 2023 wegen Betrugs im Zusammenhang mit dem OneCoin-Skandal zu 20 Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
+      ])}
+    </div>
+  `);
+}
+
 function pedroAlonsoLopezPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -10253,108 +10449,6 @@ function eulenartenDer9TypenPage() {
       ${relatedLinks([
         {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
         {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function papageienartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Papageienarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Papageienarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser Papageien und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Jede Art spiegelt auf faszinierende Weise das Wesen eines Typs \u2014 vom analytischen Graupapagei bis zum friedliebenden Nymphensittich.</p>
-      <img src="./assets/papageienarten-der-9-typen.jpg" alt="Papageienarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Graupapagei: Intelligenz und Pr\u00e4zision</h3>
-        <p class="vb-intro">Der Graupapagei ist bekannt f\u00fcr seine au\u00dferordentliche Intelligenz und die F\u00e4higkeit, W\u00f6rter und Konzepte genau nachzuahmen. Er kann sehr ordentlich sein und mag eine strukturierte Umgebung \u2014 Eigenschaften, die dem perfektionistischen Typ 1 entsprechen. Der Graupapagei gilt als der kognitiv begabteste Vogel der Welt: Forscher wie Irene Pepperberg haben gezeigt, dass er nicht nur W\u00f6rter nachahmt, sondern ihre Bedeutung versteht und abstrakt denken kann \u2014 Mengen, Farben, Formen, Abwesenheit. Er unterscheidet zwischen richtig und falsch, korrekt und inkorrekt. Wenn etwas nicht stimmt, zeigt er es an. Die Leidenschaft des Zorns zeigt sich als innere Unruhe, wenn Dinge nicht so laufen, wie sie laufen sollten.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Gelbhaubenkakadu: F\u00fcrsorge und soziale Bindung</h3>
-        <p class="vb-intro">Der Gelbhaubenkakadu ist sehr sozial und zeigt starke Bindungen zu seinen Partnern. Er ist \u00e4u\u00dferst neugierig und kann sehr anh\u00e4nglich sein, was ihn f\u00fcr seine F\u00fcrsorglichkeit und sein Bed\u00fcrfnis nach sozialer Interaktion bekannt macht \u2014 Eigenschaften, die dem Helfer-Typ 2 entsprechen. Gelbhaubenkakadus leiden unter Einsamkeit auf eine Weise, die man nur als emotionalen Schmerz beschreiben kann: Sie zupfen sich Federn aus, schreien, werden depressiv. Ihre Bindungsf\u00e4higkeit ist au\u00dfergew\u00f6hnlich \u2014 sie w\u00e4hlen einen Partner und bleiben ihm ein Leben lang treu. Die Leidenschaft des Stolzes zeigt sich im tiefen Bed\u00fcrfnis, gebraucht und geliebt zu werden.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Blaustirnamazone: Selbstbewusstsein und Auftritt</h3>
-        <p class="vb-intro">Amazonenpapageien sind selbstbewusst und besitzen eine starke Pers\u00f6nlichkeit. Sie sind sehr neugierig und lernen schnell, was sie in ihrer Gruppe erfolgreich macht \u2014 Eigenschaften, die den leistungsorientierten Typ 3 widerspiegeln. Die Blaustirnamazone ist ein Vogel mit B\u00fchneninstinkt: Sie liebt Zuschauer, sie liebt Reaktionen, und sie lernt mit einer Geschwindigkeit, die andere Papageien besch\u00e4mt. Ihr Gefieder ist knallig, ihr Auftritt ist laut, ihre Pr\u00e4senz ist unmittelbar. Sie berechnet \u2014 nicht im kalten Sinne, sondern im Sinne eines Wesens, das immer wei\u00df, was in einer sozialen Situation gerade gefragt ist. Die Leidenschaft der Eitelkeit zeigt sich als Hunger nach Bewunderung und Resonanz.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Hyazinthara: Tiefe, Einzigartigkeit, intensive Bindung</h3>
-        <p class="vb-intro">Hyazintharas sind bekannt f\u00fcr ihre lebhaften Farben und ihre einzigartige, intensive Pers\u00f6nlichkeit. Sie pflegen tiefe emotionale Bindungen zu ihren Partnern und besitzen eine starke Pr\u00e4senz als seltene Wesen \u2014 Eigenschaften, die dem Individualisten-Typ 4 entsprechen. Der Hyazinthara ist der gr\u00f6\u00dfte flugf\u00e4hige Papagei der Welt \u2014 und einer der seltensten. Sein kobaltblaues Gefieder hat keine Entsprechung in der Vogelwelt. Er bildet Paarbindungen von einer Intensit\u00e4t und Exklusivit\u00e4t, die Beobachter regelm\u00e4\u00dfig verbl\u00fcfft: Hyazintharas verbringen fast ihre gesamte Zeit miteinander, abseits der Gruppe. Die Leidenschaft des Neids zeigt sich als tiefe Sehnsucht nach vollst\u00e4ndiger Verbindung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Kakadu: Beobachtung und distanziertes Interesse</h3>
-        <p class="vb-intro">Kakadus sind sehr intelligent und lernen liebend gern neue Dinge. Sie k\u00f6nnen \u00e4u\u00dferst neugierig sein und haben ein gro\u00dfes beobachtendes, distanziertes Interesse an ihrer Umgebung \u2014 was gut zum analytischen Typ 5 passt. Der Kakadu l\u00f6st Probleme mit einer Geduld und Methodik, die an Wissenschaftler erinnert: Er dreht ein Objekt in alle Richtungen, bevor er handelt. In der Wildnis entdeckte man, dass Kakadus Werkzeuge benutzen \u2014 und das Wissen dar\u00fcber innerhalb ihrer Gruppe weitergeben, ohne es zu zeigen. Sie teilen Wissen selektiv. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit N\u00e4he und Zuneigung \u2014 Vertrauen muss verdient werden.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Senegalpapagei: Loyalit\u00e4t und Vorsicht</h3>
-        <p class="vb-intro">Senegalpapageien \u2014 fr\u00fcher Mohrenkopfpapagei \u2014 sind sehr loyal und besitzen eine starke Bindung zu ihren Partnern oder Pflegern. Sie sind vorsichtig und zur\u00fcckhaltend gegen\u00fcber Fremden, was den verl\u00e4sslichen und loyalen Typ 6 unterstreicht. Der Senegalpapagei w\u00e4hlt seine Vertrauenspersonen mit gro\u00dfer Sorgfalt \u2014 und wenn er sich einmal entschieden hat, ist diese Bindung fast unzerbrechlich. Neuen Menschen oder Situationen begegnet er mit demonstrativer Skepsis: Er beobachtet zuerst, pr\u00fcft dann, und gibt sich erst viel sp\u00e4ter zu erkennen. Die Leidenschaft der Angst zeigt sich als permanente Wachheit \u2014 ein inneres Sicherheitssystem, das nie ganz abschaltet.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Halsbandsittich: Lebendigkeit und Abenteuerlust</h3>
-        <p class="vb-intro">Halsbandsittiche sind lebhaft und abenteuerlustig. Sie leben es, das Besondere, neue Erfahrungen zu machen und besitzen eine ansteckende Begeisterung f\u00fcr das Leben \u2014 typische Eigenschaften des Typ 7. Der Halsbandsittich ist einer der anpassungsf\u00e4higsten Papageien \u00fcberhaupt: Er lebt urspr\u00fcnglich in S\u00fcdasien und Afrika, hat aber inzwischen in \u00fcber 100 St\u00e4dten weltweit verwilderte Populationen aufgebaut \u2014 London, Amsterdam, K\u00f6ln, Tokio. Er findet \u00fcberall Nahrung, \u00fcberall Nistm\u00f6glichkeiten, \u00fcberall Gesellschaft. Jeder neue Ort ist eine Gelegenheit. Die Leidenschaft der V\u00f6llerei zeigt sich als unersch\u00f6pflicher Appetit auf das Neue.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Molukkenkakadu: St\u00e4rke und Dominanz</h3>
-        <p class="vb-intro">Molukkenkakadus sind sehr selbstbewusst und dominant. Sie zeigen oft F\u00fchrungsqualit\u00e4ten und besitzen eine starke Pr\u00e4senz \u2014 typische Eigenschaften des Typ 8. Der Molukkenkakadu ist einer der gr\u00f6\u00dften Kakadus der Welt und einer der lautesten V\u00f6gel \u00fcberhaupt: Sein Ruf kann \u00fcber einen Kilometer weit geh\u00f6rt werden. Er setzt seine Haube in Momenten der Erregung oder Dominanz auf \u2014 ein visuelles Signal, das unmissverst\u00e4ndlich ist. Er akzeptiert keine Unterordnung, die er nicht selbst gew\u00e4hlt hat. Wenn er liebt, liebt er absolut; wenn er k\u00e4mpft, k\u00e4mpft er absolut. Die Leidenschaft der Gier zeigt sich als Hunger nach Einfluss und vollst\u00e4ndiger Kontrolle \u00fcber seine Umgebung.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Nymphensittich: Sanftmut und Harmonie</h3>
-        <p class="vb-intro">Nymphensittiche sind sanfte und friedliche Zeitgenossen. Sie streben nach Harmonie und vermeiden Konflikte \u2014 was gut zum friedliebenden, sanften Typ 9 passt. Der Nymphensittich ist der meistgehaltene Papagei der Welt \u2014 nicht wegen seiner Sch\u00f6nheit oder Intelligenz, sondern wegen seines Wesens: Er ist unkompliziert, angenehm, vertr\u00e4glich. Er singt leise vor sich hin, pflegt seinen Partner mit sanften Schnabelber\u00fchrungen und bleibt selbst in unruhigen Umgebungen auffallend gelassen. Er braucht keine Aufmerksamkeit \u2014 er ist einfach da. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch, dass alles bleibt, wie es ist \u2014 ruhig, warm, zusammen.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
-        {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
-        {route:"blumenarten-der-9-typen", label:"Blumenarten der 9 Typen"},
-      ])}
-    </div>
-  `);
-}
-
-function blumenartenDer9TypenPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Blumenarten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
-      <p class="psycho-intro">Die Zuordnung von neun Blumenarten zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser Blumen und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Jede Blume tr\u00e4gt ein archetypisches Wesen in sich \u2014 von der makellosen Reinheit der Lilie bis zur stillen Erleuchtung der Lotusblume.</p>
-      <img src="./assets/blumenarten-der-9-typen.jpg" alt="Blumenarten der 9 Typen \u2013 Schaubild"
-        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
-      <div class="vb-section" style="max-width:100%;">
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Lilie: Reinheit und Perfektion</h3>
-        <p class="vb-intro">Die Lilie symbolisiert Reinheit, Perfektion und Integrit\u00e4t \u2014 Werte, die gut zu den hohen Standards und dem Streben nach Vollkommenheit des Typs 1 passen. Die Lilie ist eine der \u00e4ltesten Kulturpflanzen der Welt: In \u00c4gypten, Griechenland und im christlichen Abendland steht sie f\u00fcr Unbeflecktheit und moralische Vollkommenheit. Ihre geometrisch pr\u00e4zisen Bl\u00fctenbl\u00e4tter \u00f6ffnen sich in einer Ordnung, die keine Abweichung kennt. Der Duft ist klar, stark und unverkennbar \u2014 er l\u00e4sst keine Ambiguit\u00e4t zu. F\u00fcr den Typ 1 ist die Lilie ein Spiegel: Sch\u00f6nheit als Ergebnis innerer Korrektheit, nicht als Zufall. Die Leidenschaft des Zorns zeigt sich als Schmerz, wenn die Wirklichkeit hinter dem Ideal zur\u00fcckbleibt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Pfingstrose: Liebe und F\u00fcrsorge</h3>
-        <p class="vb-intro">Die Pfingstrose steht f\u00fcr Mitgef\u00fchl und Gro\u00dfz\u00fcgigkeit \u2014 Eigenschaften, die den hilfsbereiten und liebevollen Charakter des Typs 2 unterstreichen. Keine andere Blume \u00f6ffnet sich so vollst\u00e4ndig: Die Pfingstrose entfaltet Dutzende von Bl\u00fctenbl\u00e4ttern in konzentrischen Lagen, eine Geste der totalen \u00d6ffnung. Sie duftet s\u00fc\u00df und einladend und wird seit Jahrhunderten als Geschenk der Zuneigung \u00fcberreicht. In der Volksmedizin war sie Heilpflanze f\u00fcr Herz und Geist. Der Typ 2 erkennt sich in ihr: im \u00fcberw\u00e4ltigenden Geben, im Wunsch, andere mit Sch\u00f6nheit und W\u00e4rme zu umh\u00fcllen. Die Leidenschaft des Stolzes zeigt sich als das tiefe Bed\u00fcrfnis, unentbehrlich zu sein.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Calla: Eleganz und Erfolg</h3>
-        <p class="vb-intro">Die Calla symbolisiert Eleganz und Erfolg \u2014 was die ambitionierte und zielorientierte Natur des Typs 3 widerspiegelt. Die Calla ist die Blume der Architekten und Designer: ihr Kelch ist eine einzige, makellose Linie, kein \u00fcberfl\u00fcssiges Detail. In Hochzeitsarrangements und auf B\u00fchnen ist sie Stammgast \u2014 immer dort, wo Auftritt z\u00e4hlt. Pablo Picasso malte sie, Diego Riveras Frida Kahlo liebte sie. Die Calla l\u00e4sst sich nicht von anderen Blumen \u00fcbert\u00f6nen: Sie steht, und alle anderen treten zur\u00fcck. Die Leidenschaft der Eitelkeit zeigt sich als totale Identifikation mit dem eigenen Image \u2014 der Wunsch, unvergesslich zu wirken.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Iris: Individualit\u00e4t und Tiefe</h3>
-        <p class="vb-intro">Die Iris steht f\u00fcr Kreativit\u00e4t und Individualit\u00e4t \u2014 was den einzigartigen und k\u00fcnstlerischen Charakter des Typs 4 widerspiegelt. Die Iris gibt es in \u00fcber 300 Arten und fast jeder Farbe des Spektrums \u2014 keine andere Blume zeigt so viel Variation innerhalb einer einzigen Gattung. Van Gogh malte die Iris mit einer Obsession, die ihn selbst \u00fcberraschte: Er nannte sie \u201edie violette Seele des S\u00fcdens". Ihr dreifaches Bl\u00fctenblatt-System symbolisiert seit der Antike die Verbindung von Himmel, Erde und Unterwelt \u2014 ein Wesen, das zwischen den Welten existiert. Die Leidenschaft des Neids zeigt sich als das Gef\u00fchl, einzigartig zu sein und dennoch nicht ganz verstanden zu werden.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Veilchen: Stille Weisheit und Beobachtung</h3>
-        <p class="vb-intro">Das Veilchen symbolisiert bescheidene Weisheit und stille Nachdenklichkeit \u2014 was gut zur zur\u00fcckhaltenden und nachdenklichen Natur des Typs 5 entspricht. Das Veilchen w\u00e4chst in stillen Winkeln, unter B\u00e4umen, an schattigen H\u00e4ngen \u2014 nie im Rampenlicht. Es ist eine der kleinsten Bl\u00fcten im Garten und gleichzeitig eine der hartn\u00e4ckigsten: Es verbreitet sich leise, wurzelt tief und kehrt jedes Jahr wieder. In der Antike galt es als Pflanze der Philosophen \u2014 Nahrung des Geistes, Schutz des Denkens. Das Veilchen macht kein Aufsehen. Es ist einfach da, und wer genau hinschaut, entdeckt eine Sch\u00f6nheit, die sich nicht aufdr\u00e4ngt. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit Pr\u00e4senz.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Vergissmeinnicht: Treue und Verl\u00e4sslichkeit</h3>
-        <p class="vb-intro">Das Vergissmeinnicht steht f\u00fcr Treue und Best\u00e4ndigkeit \u2014 was den verl\u00e4sslichen und loyalen Charakter des Typs 6 unterstreicht. Der Name sagt alles: Diese kleine blaue Blume ist das universale Symbol f\u00fcr Erinnerung, Treue und das Versprechen, nicht zu vergessen. In mittelalterlichen Legenden warf ein Ritter, der seiner Geliebten Blumen pfl\u00fcckte und dabei in den Fluss fiel, ihr noch im Sturz die Blumen zu mit den Worten: \u201eVergiss mein nicht!" Das Vergissmeinnicht fragt nicht nach Aufmerksamkeit \u2014 es w\u00e4chst in gro\u00dfen Teppichen, jede Bl\u00fcte f\u00fcr sich winzig, zusammen un\u00fcbersehbar. Die Leidenschaft der Angst zeigt sich als tiefer Wunsch, nicht verlassen zu werden.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Sonnenblume: Freude und Optimismus</h3>
-        <p class="vb-intro">Die Sonnenblume symbolisiert Freude und Optimismus \u2014 was gut zur lebhaften und positiven Natur des Typs 7 passt. Die Sonnenblume tut buchst\u00e4blich, was ihr Name verspricht: Junge Sonnenblumen drehen sich t\u00e4glich der Sonne entgegen, von Ost nach West \u2014 ein Ph\u00e4nomen namens Heliotropismus, das Biologen als aktive Suche nach Licht beschreiben. Sie w\u00e4chst schneller als fast jede andere Gartenpflanze, erreicht H\u00f6hen von \u00fcber drei Metern und tr\u00e4gt K\u00f6pfe, die selbst wie kleine Sonnen aussehen. Vincent van Gogh malte sie als Symbol der Freundschaft und des Lebens. Die Leidenschaft der V\u00f6llerei zeigt sich als unstillbarer Hunger nach Helligkeit und Erlebnis.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Gladiolus: St\u00e4rke und Entschlossenheit</h3>
-        <p class="vb-intro">Der Gladiolus steht f\u00fcr St\u00e4rke und Entschlossenheit \u2014 passend zur kraftvollen und durchsetzungsstarken Natur des Typs 8. Der Name kommt vom lateinischen \u201egladius" \u2014 das Schwert. Kein Zufall: Der Gladiolus w\u00e4chst wie eine Klinge aus dem Boden, gerade, aufrecht, unbeugbar. Im antiken Rom wurden Gladiatoren nach dem Sieg mit Gladiolen beworfen \u2014 die Blume der K\u00e4mpfer, der \u00dcberwinder. Ihr St\u00e4ngel tr\u00e4gt die Bl\u00fcten in einer Linie von unten nach oben, als w\u00fcrden sie einen Weg zeigen: geradlinig, entschlossen, ohne Umwege. Die Leidenschaft der Gier zeigt sich als ungestillter Hunger nach Kraft und Einfluss \u2014 die Klinge, die immer nach oben zeigt.</p>
-
-        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Lotusblume: Harmonie und innerer Friede</h3>
-        <p class="vb-intro">Die Lotusblume symbolisiert Frieden und Harmonie \u2014 was gut zur ausgeglichenen und harmonischen Natur des Typs 9 passt. Die Lotusblume w\u00e4chst im Schlamm und erhebt sich t\u00e4glich makellos \u00fcber die Wasseroberfl\u00e4che \u2014 ein Bild, das in buddhistischer und hinduistischer Tradition f\u00fcr Erleuchtung und den Weg durch das Leiden steht. Ihr Geheimnis: Die Oberfl\u00e4che ihrer Bl\u00fctenbl\u00e4tter ist so strukturiert, dass Schmutz einfach abperlt \u2014 der Lotus-Effekt, den die Wissenschaft erst im 20. Jahrhundert vollst\u00e4ndig verstand. F\u00fcr den Typ 9 ist die Lotusblume ein tiefes Bild: Sie ruht im Tr\u00fcben, ohne davon ber\u00fchrt zu werden. Die Leidenschaft der Tr\u00e4gheit zeigt sich als tiefer Wunsch nach diesem Frieden \u2014 unber\u00fchrt, schwebend, ganz.</p>
-
-      </div>
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
-        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
-        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
-      </div>
-      ${relatedLinks([
-        {route:"papageienarten-der-9-typen", label:"Papageienarten der 9 Typen"},
-        {route:"hunderassen-der-9-typen", label:"Hunderassen der 9 Typen"},
         {route:"vogelarten-der-9-typen", label:"Vogelarten der 9 Typen"},
       ])}
     </div>

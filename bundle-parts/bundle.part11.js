@@ -1,3 +1,188 @@
+function fredericChopinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-frederic-chopin-portrait.jpg" alt="Frédéric Chopin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frédéric Chopin</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1810–1849</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Frédéric Chopin</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-frederic-chopin">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk und seine
+        Typstruktur. Diese Seite vertieft ein Thema, das dort kurz angeschnitten wird: eine
+        Tuberkulose-Erkrankung, die ihn vermutlich schon als jungen Mann begleitete, sich nach
+        dem Zerbrechen seiner Beziehung zu George Sand 1847 dramatisch beschleunigte und ihn mit
+        neununddreißig Jahren das Leben kostete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Chopin</strong> ist der <strong>sexuellen Fünf mit Viererflügel</strong>
+        zugeordnet – demselben Subtyp wie <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>.
+        Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht nicht Distanz, sondern die
+        eine Verbindung, die alles trägt. Der Viererflügel macht aus Verschlossenheit Kunst – ein
+        Muster, das sich bis in Chopins körperlichen Verfall nachverfolgen lässt, der genau dann
+        einsetzte, als diese eine Verbindung zerbrach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine zarte Konstitution seit der Kindheit:</strong>
+        Schon als Kind galt Chopin als kränklich und schmächtig – wiederkehrende Erkältungen und
+        Atembeschwerden begleiteten ihn durch die Jugend in Warschau, lange bevor sich eine
+        eigentliche Diagnose stellen ließ.</p>
+        <p class="vb-intro"><strong>b) Erste ernsthafte Warnzeichen in den zwanziger Lebensjahren:</strong>
+        Bereits kurz nach seiner Übersiedlung nach Paris 1831 berichteten Freunde und Ärzte von
+        Hustenanfällen, Erschöpfungszuständen und gelegentlichem Blutauswurf – Symptome, die
+        rückblickend als frühe Tuberkulose gedeutet werden.</p>
+        <p class="vb-intro"><strong>c) Die Katastrophe von Mallorca:</strong>
+        Im Winter 1838/39 reiste Chopin mit George Sand nach Mallorca, in der Hoffnung, das
+        milde Klima werde seiner Gesundheit guttun. Stattdessen verschlechterte sich sein
+        Zustand dramatisch: Örtliche Ärzte diagnostizierten eine ansteckende Lungenkrankheit,
+        der Vermieter kündigte ihnen daraufhin die Unterkunft, und die Familie musste in ein
+        feuchtes, kaltes Kartäuserkloster in Valldemossa umziehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Komposition trotz akuter Krankheitsschübe:</strong>
+        Gerade in den Wochen der schwersten körperlichen Krise auf Mallorca komponierte Chopin
+        einen Großteil seiner <em>Préludes op. 28</em> – eines seiner dichtesten, introspektivsten
+        Werke, entstanden buchstäblich am Krankenbett.</p>
+        <p class="vb-intro"><strong>b) Ein Jahrzehnt zwischen Schüben und Erholung:</strong>
+        Während der gesamten 1840er-Jahre wechselten sich bei Chopin Phasen relativer Stabilität
+        mit akuten Krankheitsschüben ab – begleitet von Gewichtsverlust, chronischer Müdigkeit
+        und zunehmender Atemnot bei körperlicher Anstrengung.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Auftritte trotz sichtbarer Schwäche:</strong>
+        Freunde und Zeitgenossen beschrieben Chopin bei seinen seltenen Konzerten zunehmend als
+        blass, hager und kurzatmig – ein Kontrast, der umso deutlicher wurde, je makelloser seine
+        Musik trotz alledem blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Einbruch nach der Trennung 1847:</strong>
+        Nach dem bitteren Ende seiner neunjährigen Beziehung zu George Sand im Jahr 1847 verfiel
+        Chopins Gesundheit rapide. Er komponierte kaum noch – als hätte die Verbindung, die seine
+        schöpferische Kraft getragen hatte, auch seine körperlichen Reserven mit sich
+        genommen.</p>
+        <p class="vb-intro"><strong>b) Die letzte Reise nach England:</strong>
+        1848, bereits schwer geschwächt, reiste Chopin dennoch nach London und Schottland, um
+        Konzerte zu geben und Unterricht zu erteilen. Zeitgenossen beschrieben ihn danach als
+        kaum wiederzuerkennen – erschöpft bis zur Erschöpfung.</p>
+        <p class="vb-intro"><strong>c) Die letzten Monate in Paris:</strong>
+        Zurück in Paris verschlechterte sich sein Zustand im Laufe des Jahres 1849 weiter. Freunde
+        und seine Schwester Ludwika, die eigens aus Warschau anreiste, pflegten ihn in seinen
+        letzten Wochen, während er zunehmend ans Bett gefesselt war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod mit neununddreißig Jahren:</strong>
+        Chopin starb am 17. Oktober 1849 in Paris an den Folgen der fortgeschrittenen
+        Tuberkulose. Sein letzter Wunsch war, dass bei seiner Beerdigung Mozarts Requiem gespielt
+        werden solle.</p>
+        <p class="vb-intro"><strong>b) Zwei Jahrzehnte zwischen ersten Anzeichen und Tod:</strong>
+        Von den ersten Symptomen in den frühen 1830er-Jahren bis zu seinem Tod 1849 lebte Chopin
+        fast zwei Jahrzehnte mit einer Krankheit, die sein kompositorisches Schaffen nie
+        vollständig zum Erliegen brachte – bis zur Trennung von George Sand, die den letzten
+        Einbruch beschleunigte.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das trotz allem nie an Präzision verlor:</strong>
+        Selbst in den Jahren zunehmender körperlicher Schwäche blieb Chopins Musik von derselben
+        Verdichtung und Zurückhaltung geprägt, die sein gesamtes Schaffen auszeichnete – kein
+        Ton zu viel, auch nicht am Krankenbett.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Geiz der Fünf, angewandt auf die eigene Energie:</strong>
+        Wo andere Menschen mit fortschreitender Krankheit ihre Kräfte auf viele Bereiche
+        verteilen, bündelte Chopin die wenige Energie, die ihm blieb, fast ausschließlich auf
+        die Komposition – der Igel, der sich zusammenrollt und nur das Nötigste nach außen
+        gibt.</p>
+        <p class="vb-intro"><strong>b) Der körperliche Einbruch als Spiegel der einen zerbrochenen Verbindung:</strong>
+        Der rapide gesundheitliche Verfall nach der Trennung von George Sand 1847 zeigt, wie eng
+        bei der SX5 körperliche Kraft und die eine tragende Beziehung miteinander verwoben sind –
+        zerbricht die Verbindung, folgt der körperliche Einbruch auf dem Fuß.</p>
+        <p class="vb-intro"><strong>c) Komposition bis zur physischen Grenze:</strong>
+        Noch in den letzten Lebensmonaten unterrichtete und komponierte Chopin, so gut es seine
+        schwindenden Kräfte zuließen – der eine offene Kanal, durch den sich alles entlud, blieb
+        bis zuletzt geöffnet.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die das ganze Erwachsenenleben begleitete:</strong>
+        Von ersten Anzeichen in der Jugend über die Katastrophe von Mallorca bis zum Tod 1849
+        zieht sich die Tuberkulose als ständiger, nie ganz verschwundener Begleiter durch
+        Chopins gesamtes künstlerisches Schaffen.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Auch <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a>
+        (SX5w4) brach körperlich zusammen, kurz nachdem seine eine entscheidende Verbindung
+        zerbrochen war – bei Nietzsche der Bruch mit Lou Salomé 1883, bei Chopin die Trennung
+        von George Sand 1847. Bei beiden zeigt sich dasselbe SX5w4-Muster: Die eine Verbindung,
+        die alles trägt, ist zugleich das, wovon die körperliche und schöpferische Kraft
+        abhängt – zerbricht sie, folgt der körperliche Einbruch auf dem Fuß. Diese Parallele wird
+        auch im <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-nietzsche">Krankheitsporträt zu Nietzsche</a>
+        aufgegriffen.</p>
+        <p class="vb-intro"><strong>c) Rückzug statt Konfrontation als durchgehendes Muster:</strong>
+        Anders als Ludwig van Beethoven (SX6w5) oder Friedrich Schiller (SX6w5), die ihrer
+        Krankheit mit offener Konfrontation begegneten, zog sich Chopin – ganz wie es für die
+        sexuelle Fünf typisch ist – mit fortschreitender Krankheit zunehmend in kleinere, private
+        Kreise zurück, statt öffentlich dagegen anzukämpfen.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge?</strong>
+        Für eine sexuelle Fünf, deren Kraft sich fast ausschließlich in einem einzigen, eng
+        begrenzten Kanal bündelt, liegt eine Deutung nahe: Ausgerechnet die Lunge – der Atem, der
+        Grundlage jeder Lebensäußerung, auch der musikalischen – wurde zum Schauplatz eines
+        Kampfes, den Chopin nie öffentlich austrug, sondern in seine Musik hinein verdichtete.
+        Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher
+        entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Chopins Fall zeigen lässt, ist ein Muster,
+        das bei der engen Verknüpfung von körperlicher Kraft und der einen tragenden Verbindung
+        in der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Chopin kannte sein eigenes Muster nicht – die sexuelle Fünf bündelt Kraft und Hingabe auf die eine tragende Verbindung, ohne dass ihm bewusst war, wie sehr seine körperliche Kraft an genau dieser einen Verbindung hing. Wer das eigene Muster nicht kennt, sieht auch nicht, wie eng die eigene Vitalität an eine einzige Bindung geknüpft ist, bis der Verlust sie mit sich reißt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Chopins</strong> sexuelle Fünf mit
+        Viererflügel noch einmal ablesen: eine seit der Jugend schwelende Tuberkulose, die sich
+        genau dann dramatisch beschleunigte, als die eine tragende Verbindung seines Lebens
+        zerbrach, und die ihn am 17. Oktober 1849 das Leben kostete. Der Igel, der seine wenige
+        verbliebene Kraft bis zuletzt in den einen offenen Kanal bündelte, durch den alles
+        strömte, was in ihm war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4) – dieselbe SX5w4-Parallele"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Krankheitsporträt: Ludwig van Beethoven (SX6w5) – Gegenmodell: offene Konfrontation"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
+
 function konradAdenauerKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -13035,188 +13220,6 @@ function willyBrandtKrankheitsportraetPage() {
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
-      ])}
-    </div>
-  `);
-}
-
-function hansDietrichGenscherKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1927–2016</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Elefant</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Hans-Dietrich Genscher</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-hans-dietrich-genscher">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nicht behandelt wird: ein über Jahre bestehendes Herzleiden, an
-        dessen Folgen Genscher im März 2016 starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Genscher</strong> ist dem <strong>selbsterhaltenden Typ 9 mit Achterflügel</strong>
-        zugeordnet. Die SE9 sucht Sicherheit durch Beharrlichkeit und Kontinuität, auch im
-        Umgang mit der eigenen Gesundheit; der Achterflügel bringt eine ruhige, aber
-        unverkennbare Entschlossenheit hinzu, die sich nicht wegdrängen lässt. Genau diese
-        Kombination – geduldige Kontinuität im Amt, verbunden mit der Weigerung, sich von
-        gesundheitlichen Rückschlägen aus dem öffentlichen Leben drängen zu lassen –
-        bestimmte den Umgang mit dem eigenen Herzleiden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein über Jahre bekanntes Herzleiden:</strong>
-        Genscher war nach übereinstimmenden biografischen Quellen über Jahre herzkrank – ein
-        Umstand, der seinem politischen Umfeld bekannt war, aber öffentlich nie zu einem
-        zentralen Thema wurde.</p>
-        <p class="vb-intro"><strong>b) Kein öffentlicher Rückzug wegen der Erkrankung:</strong>
-        Trotz des bekannten Herzleidens setzte Genscher seine politische und öffentliche
-        Tätigkeit über Jahrzehnte fort, ohne die eigene Gesundheit zum Gegenstand öffentlicher
-        Debatten zu machen.</p>
-        <p class="vb-intro"><strong>c) Fortgesetztes öffentliches Engagement bis ins hohe Alter:</strong>
-        Auch nach seinem Rücktritt als Außenminister 1992 blieb Genscher als Elder Statesman
-        der deutschen Außenpolitik präsent, mit Vorträgen, Interviews und diplomatischen
-        Beratungen bis weit in sein neuntes Lebensjahrzehnt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Zurückhaltung bei gesundheitlichen Details:</strong>
-        Anders als manche Zeitgenossen machte Genscher Details zu seinem Herzleiden nie zum
-        Gegenstand ausführlicher öffentlicher Schilderungen – die genaue Art und der Verlauf
-        der Erkrankung blieben weitgehend privat.</p>
-        <p class="vb-intro"><strong>b) Ein Leben, das bis zuletzt von Kontinuität geprägt war:</strong>
-        Genschers letzte Lebensjahre waren, soweit öffentlich bekannt, von derselben ruhigen
-        Beständigkeit geprägt, die seine gesamte politische Laufbahn kennzeichnete – kein
-        dramatischer öffentlicher Bruch, kein plötzlicher Rückzug.</p>
-        <p class="vb-intro"><strong>c) Zunehmende gesundheitliche Fragilität im hohen Alter:</strong>
-        In den letzten Lebensjahren wurde Genschers gesundheitliche Verfassung nach Angaben
-        seines Umfelds zunehmend fragiler, ohne dass dies öffentlich stark thematisiert
-        wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tod am 31. März 2016 in Wachtberg:</strong>
-        Hans-Dietrich Genscher starb im Alter von 89 Jahren an den Folgen seines Herzleidens
-        in seinem Wohnort Wachtberg bei Bonn.</p>
-        <p class="vb-intro"><strong>b) Staatsakt mit weltweiter Anteilnahme:</strong>
-        Sein Tod löste international Nachrufe und Trauerbekundungen aus – ein Staatsakt
-        würdigte seine Rolle bei der deutschen Wiedervereinigung und der europäischen
-        Entspannungspolitik.</p>
-        <p class="vb-intro"><strong>c) Würdigung eines diplomatischen Lebenswerks bis zum Ende:</strong>
-        Nachrufe betonten durchgängig sein diplomatisches Lebenswerk, während seine private
-        gesundheitliche Geschichte nur am Rande erwähnt wurde.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein öffentliches Bild ungebrochener Präsenz:</strong>
-        Bis kurz vor seinem Tod blieb das öffentliche Bild Genschers das eines aktiven,
-        präsenten Elder Statesman – nicht das eines von langjähriger Krankheit gezeichneten
-        Mannes.</p>
-        <p class="vb-intro"><strong>b) Keine nachträgliche Dramatisierung der Erkrankung:</strong>
-        Auch in Nachrufen und Würdigungen wurde das Herzleiden nicht zu einem zentralen
-        Erzählelement seines Lebens gemacht – es blieb ein stiller, fast beiläufiger
-        Bestandteil seiner Biografie.</p>
-        <p class="vb-intro"><strong>c) Fortwirken seines diplomatischen Vermächtnisses:</strong>
-        Genschers Rolle bei der deutschen Einheit und der europäischen Entspannungspolitik
-        blieb nach seinem Tod das prägende öffentliche Bild, unabhängig von seiner privaten
-        gesundheitlichen Geschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Kontinuität als Antwort auf die eigene Erkrankung:</strong>
-        Die SE9-typische Suche nach Sicherheit durch Beharrlichkeit zeigte sich auch im
-        Umgang mit dem eigenen Herzleiden: Genscher ließ die Krankheit nicht zum Anlass für
-        einen dramatischen Rückzug werden, sondern setzte sein öffentliches Wirken in
-        gewohnter Kontinuität fort.</p>
-        <p class="vb-intro"><strong>b) Der Achterflügel und die stille Entschlossenheit:</strong>
-        Dieselbe ruhige, aber unverkennbare Entschlossenheit, mit der Genscher jahrzehntelang
-        zwischen den Fronten des Kalten Krieges vermittelte, zeigte sich im Umgang mit der
-        eigenen Gesundheit als Weigerung, sich von der Erkrankung aus dem öffentlichen Leben
-        drängen zu lassen.</p>
-        <p class="vb-intro"><strong>c) Diskretion statt öffentlicher Inszenierung:</strong>
-        Dass Genscher Details zu seinem Herzleiden nie öffentlich ausbreitete, passt zur
-        SE9w8-Neigung, private Angelegenheiten diskret zu behandeln, während die öffentliche
-        Rolle unverändert weitergeführt wird.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Brückenbauer zwischen Machtblöcken, der auch die eigene Krankheit ruhig überbrückte:</strong>
-        Genschers gesamtes Lebenswerk beruhte auf der Fähigkeit, Spannungen auszuhalten,
-        ohne sie eskalieren zu lassen – genau diese Haltung übertrug sich auch auf den Umgang
-        mit dem eigenen Herzleiden: kein Kampf, keine Dramatisierung, sondern beharrliche
-        Fortsetzung des gewohnten Weges.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Parallelen zeigen sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">David Hume</a>
-        und
-        <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-brahms">Johannes
-        Brahms</a> (beide ebenfalls SE9w8): Alle drei begegneten einer fortschreitenden
-        Erkrankung mit derselben ruhigen, fast gelassenen Beharrlichkeit, ohne die
-        Erkrankung zum zentralen öffentlichen Thema zu machen. Bei allen SE9w8ern zeigt sich
-        dasselbe Muster: Sicherheit durch Kontinuität, auch angesichts des eigenen
-        körperlichen Verfalls.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz, das Organ der stillen Vermittlung?</strong>
-        Für einen selbsterhaltenden Typ 9 mit Achterflügel, dessen gesamtes Lebenswerk auf
-        der stillen Vermittlung zwischen verfeindeten Lagern beruhte, liegt eine Deutung
-        nahe: Ausgerechnet jenes Organ, das im Volksmund für Verbindung und Ausgleich steht,
-        wurde zum Ort der eigenen körperlichen Belastung. Diese Deutung ist eine plausible
-        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
-        Herzleiden führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig
-        vom Subtyp.</strong> Was sich an Genschers Fall zeigen lässt, ist ein Muster im
-        Umgang mit einer langjährigen Erkrankung, das bei einem ausgeprägten
-        selbsterhaltenden Typ 9 mit Achterflügel immer wieder auffällt – eine von vielen
-        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
-        Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Genscher kannte sein eigenes Muster nicht als Enneagramm-Struktur – der
-        selbsterhaltende Typ 9 mit Achterflügel hält reflexhaft an der eigenen Kontinuität
-        fest, auch gegenüber der eigenen Krankheit, statt rechtzeitig kürzerzutreten, und
-        lebte genau dieses Muster bis zu seinem Tod unverändert aus. Wer die eigene Neigung,
-        gesundheitliche Warnsignale mit stiller Beharrlichkeit zu überdecken, nicht als Muster
-        erkennt, riskiert, dass die Krankheit unbemerkt über Jahre fortschreitet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 9 mit Achterflügel erklärt bei <strong>Hans-Dietrich
-        Genscher</strong> vieles am Umgang mit dem eigenen Herzleiden: ein Mann, dessen
-        gesamtes Lebenswerk der stillen Vermittlung zwischen verfeindeten Lagern galt,
-        begegnete auch der eigenen Krankheit mit derselben ruhigen Kontinuität – der Elefant,
-        der bis zuletzt in seinem eigenen Rhythmus weiterging, ohne das Tempo für die
-        Krankheit zu ändern.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
-        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
-        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
     </div>
   `);

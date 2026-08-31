@@ -34081,6 +34081,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Gabriel – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · geb. 1950. Britischer Musiker, Genesis-Frontmann bis 1975, danach gefeierte Solokarriere („So“, „Sledgehammer“). Trat in selbst entworfenen Masken und Kostümen auf, gründete WOMAD, Real World Records und die Menschenrechtsorganisation Witness. Tierentsprechung: Taube.",
     land:"Großbritannien", tags:["Musik"], gender:"m"},
+  { route:"beruehmte-enya", name:"Enya", added:"2026-08-31", subtyp:"SE4w3",
+    heading:"Enya – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · geb. 1961. Irische Sängerin und Komponistin, verließ 1982 die Familienband Clannad, arbeitet seither fast ausschließlich mit Produzent Nicky Ryan und Texterin Roma Ryan. Weltberühmt durch „Orinoco Flow“, tourte praktisch nie, lebt zurückgezogen auf Ayesha Castle bei Dublin. Tierentsprechung: Taube.",
+    land:"Irland", tags:["Musik"], gender:"f"},
   { route:"beruehmte-honore-de-balzac", name:"Honoré de Balzac", added:"2026-08-27", subtyp:"SE4w3",
     heading:"Honoré de Balzac – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · 1799–1850. Französischer Schriftsteller, „La Comédie humaine“ (fast 100 Romane/Erzählungen). Eignete sich selbst das Adelsprädikat „de“ an, schrieb nächtelang bis zu 18 Stunden koffeingetrieben gegen drückende Schulden an, 17 Jahre Briefwechsel mit Gräfin Hańska vor der Heirat kurz vor seinem Tod. Tierentsprechung: Taube.",
@@ -56895,6 +56899,73 @@ function peterGabrielPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-enya", label:"Porträt: Enya (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function enyaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-enya-portrait.jpg" alt="Enya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enya</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin & Komponistin, geb. 1961 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Enya wurde 1961 als Eithne Patricia Ní Bhraonáin im irischsprachigen Gweedore in County Donegal geboren, eines von neun Kindern einer musikalischen Familie – ihr Vater leitete eine Tanzband, mehrere Geschwister gründeten später die Gruppe Clannad. Auch Eithne trat dieser Familienband bei, verließ sie aber 1982 wieder, um allein weiterzuarbeiten.</p>
+          <p class="vb-intro">Aus dieser frühen Entscheidung, sich aus einem lauten, gemeinsamen Bandbetrieb zurückzuziehen, wurde ein Lebensmuster: Seit über vierzig Jahren arbeitet Enya fast ausschließlich mit genau zwei Menschen zusammen – Produzent Nicky Ryan und dessen Frau, Texterin Roma Ryan. Kein wechselndes Team, keine großen Studioapparate, sondern ein extrem kleiner, geschlossener Kreis, in dem sich jedes Album über Jahre hinweg entwickelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Rückzug als Schutzraum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zeigt ihr reiches Innenleben nicht öffentlich, sondern hält es in einem streng geschützten, privaten Raum am Leben. Enya zählt zu den meistverkauften Musikerinnen der Welt und tourte in ihrer gesamten Karriere dennoch praktisch nie – keine klassischen Konzertreisen, keine regelmäßigen Live-Auftritte, kaum Interviews über das Nötigste hinaus. Ein öffentliches Profil, das für eine Künstlerin dieser Größenordnung höchst ungewöhnlich ist.</p>
+          <p class="vb-intro">1997 kaufte sie Manderley Castle (heute Ayesha Castle) in Killiney bei Dublin, ein viktorianisches Schlossgebäude, das sie zu ihrem dauerhaften Rückzugsort machte. Zwischen ihren Alben liegen oft vier bis sieben Jahre – Zeiträume, die für die selbsterhaltende Vier typisch sind: Lieber lange schweigen, als etwas Unfertiges oder nicht vollständig Durchlebtes nach außen zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die selbst erschaffene Klangfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein feines Gespür dafür, wie sich eine private innere Welt in eine wirkungsvolle, wiedererkennbare öffentliche Form übersetzen lässt – ohne dass die Person dahinter sich selbst preisgeben muss. Schon der Künstlername ist Ausdruck dieses Musters: Aus der irischsprachigen Eithne Ní Bhraonáin wurde die eigens geschaffene, international aussprechbare Marke „Enya" – eine bewusst gestaltete Hülle um eine sehr zurückgezogene Person.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel im eigentlichen Klangbild: Enyas charakteristischer Sound entsteht dadurch, dass sie ihre eigene Stimme in unzähligen Spuren übereinanderlegt, bis daraus ein dichter, chorartiger Klangkörper wird – eine Technik, die sie gemeinsam mit Nicky Ryan über Jahre perfektionierte. Das Ergebnis, etwa auf „Orinoco Flow" (1988), dem Song, der sie 1988/89 weltberühmt machte, klingt nach einem ganzen Ensemble und ist doch das Werk einer einzigen, allein arbeitenden Stimme – innere Fülle, in eine glatte, massenwirksame Form gebracht, genau wie es das Muster der SE4w3 vorgibt (vergleiche das Porträt von <a href="#beruehmte-peter-gabriel">Peter Gabriel (SE4w3)</a>, der seine private Bildwelt auf ganz andere, aber strukturell verwandte Weise in eine eigene Bühnenfigur übersetzte).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Weltklang aus einem geschlossenen Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alben wie „Watermark" (1988), „Shepherd Moons" (1991) oder „A Day Without Rain" (2000) verkauften sich weltweit millionenfach, ohne dass Enya dafür je in klassischem Sinn auf Tournee ging oder sich dem üblichen Popmarketing unterwarf. Statt öffentlicher Selbstinszenierung trat an ihre Stelle die konsequente, jahrelange Detailarbeit im Studio – jede Platte ein in sich geschlossenes, vollständig durchdachtes Klangwerk, bevor es überhaupt veröffentlicht wurde.</p>
+          <p class="vb-intro">Dass sie dabei zeitlebens in derselben kleinen Konstellation blieb – sie selbst, Nicky Ryan am Mischpult, Roma Ryan an den Texten –, unterstreicht das SE4-Muster in seiner reinsten Form: Nicht der große, wechselnde Betrieb trägt das Werk, sondern ein extrem enger, über Jahrzehnte stabiler Vertrauenskreis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>aus radikalem Rückzug heraus ein Werk zu schaffen, das trotzdem Millionen erreicht</strong> – Enyas Musik zählt bis heute zu den meistverkauften und meistgehörten Klangwelten überhaupt, obwohl die Person dahinter kaum öffentlich in Erscheinung tritt. Diese Kombination aus größtmöglicher Wirkung und größtmöglicher Zurückhaltung ist selten und schwer zu kopieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der fast vollständigen Trennung von öffentlicher Klangfigur und privater Person: Über Enyas persönliches Leben, ihre Beziehungen, ihren Alltag hinter den Mauern von Ayesha Castle ist bis heute erstaunlich wenig bekannt – eine Abschottung, die einerseits schützt, andererseits auch bedeuten kann, dass ein Teil des eigenen Lebens nie wirklich mit anderen geteilt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube hinter dem Klangkörper</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Enya gehört zu den erfolgreichsten Musikerinnen der Welt – nicht weil sie sich lauter zeigte als andere, sondern weil sie aus einem denkbar kleinen, geschützten Kreis heraus einen Klang schuf, der um die ganze Welt ging, während sie selbst im Hintergrund blieb.</p>
+          <p class="vb-intro">Die Taube, die eine Familienband verließ, um in aller Stille ihre eigene Stimme unzählige Male über sich selbst zu legen, bis daraus ein ganzer Chor wurde – das ist das bleibende Bild dieses Subtyps: eine Fülle, die niemals lauter auftritt, als sie selbst es zulassen will.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-peter-gabriel", label:"Porträt: Peter Gabriel (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
       ])}
     </div>
@@ -139451,6 +139522,7 @@ function render() {
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
       "beruehmte-peter-gabriel": peterGabrielPortraitPage,
+      "beruehmte-enya": enyaPortraitPage,
       "beruehmte-t-e-lawrence": tELawrencePortraitPage,
       "beruehmte-bill-kaulitz": billKaulitzPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,

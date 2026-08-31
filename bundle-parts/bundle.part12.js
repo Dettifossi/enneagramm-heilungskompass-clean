@@ -1,3 +1,185 @@
+function hansDietrichGenscherKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hans-dietrich-genscher-portrait.jpg" alt="Hans-Dietrich Genscher" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans-Dietrich Genscher</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1927–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans-Dietrich Genscher</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hans-dietrich-genscher">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nicht behandelt wird: ein über Jahre bestehendes Herzleiden, an
+        dessen Folgen Genscher im März 2016 starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Genscher</strong> ist dem <strong>selbsterhaltenden Typ 9 mit Achterflügel</strong>
+        zugeordnet. Die SE9 sucht Sicherheit durch Beharrlichkeit und Kontinuität, auch im
+        Umgang mit der eigenen Gesundheit; der Achterflügel bringt eine ruhige, aber
+        unverkennbare Entschlossenheit hinzu, die sich nicht wegdrängen lässt. Genau diese
+        Kombination – geduldige Kontinuität im Amt, verbunden mit der Weigerung, sich von
+        gesundheitlichen Rückschlägen aus dem öffentlichen Leben drängen zu lassen –
+        bestimmte den Umgang mit dem eigenen Herzleiden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein über Jahre bekanntes Herzleiden:</strong>
+        Genscher war nach übereinstimmenden biografischen Quellen über Jahre herzkrank – ein
+        Umstand, der seinem politischen Umfeld bekannt war, aber öffentlich nie zu einem
+        zentralen Thema wurde.</p>
+        <p class="vb-intro"><strong>b) Kein öffentlicher Rückzug wegen der Erkrankung:</strong>
+        Trotz des bekannten Herzleidens setzte Genscher seine politische und öffentliche
+        Tätigkeit über Jahrzehnte fort, ohne die eigene Gesundheit zum Gegenstand öffentlicher
+        Debatten zu machen.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes öffentliches Engagement bis ins hohe Alter:</strong>
+        Auch nach seinem Rücktritt als Außenminister 1992 blieb Genscher als Elder Statesman
+        der deutschen Außenpolitik präsent, mit Vorträgen, Interviews und diplomatischen
+        Beratungen bis weit in sein neuntes Lebensjahrzehnt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zurückhaltung bei gesundheitlichen Details:</strong>
+        Anders als manche Zeitgenossen machte Genscher Details zu seinem Herzleiden nie zum
+        Gegenstand ausführlicher öffentlicher Schilderungen – die genaue Art und der Verlauf
+        der Erkrankung blieben weitgehend privat.</p>
+        <p class="vb-intro"><strong>b) Ein Leben, das bis zuletzt von Kontinuität geprägt war:</strong>
+        Genschers letzte Lebensjahre waren, soweit öffentlich bekannt, von derselben ruhigen
+        Beständigkeit geprägt, die seine gesamte politische Laufbahn kennzeichnete – kein
+        dramatischer öffentlicher Bruch, kein plötzlicher Rückzug.</p>
+        <p class="vb-intro"><strong>c) Zunehmende gesundheitliche Fragilität im hohen Alter:</strong>
+        In den letzten Lebensjahren wurde Genschers gesundheitliche Verfassung nach Angaben
+        seines Umfelds zunehmend fragiler, ohne dass dies öffentlich stark thematisiert
+        wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 31. März 2016 in Wachtberg:</strong>
+        Hans-Dietrich Genscher starb im Alter von 89 Jahren an den Folgen seines Herzleidens
+        in seinem Wohnort Wachtberg bei Bonn.</p>
+        <p class="vb-intro"><strong>b) Staatsakt mit weltweiter Anteilnahme:</strong>
+        Sein Tod löste international Nachrufe und Trauerbekundungen aus – ein Staatsakt
+        würdigte seine Rolle bei der deutschen Wiedervereinigung und der europäischen
+        Entspannungspolitik.</p>
+        <p class="vb-intro"><strong>c) Würdigung eines diplomatischen Lebenswerks bis zum Ende:</strong>
+        Nachrufe betonten durchgängig sein diplomatisches Lebenswerk, während seine private
+        gesundheitliche Geschichte nur am Rande erwähnt wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentliches Bild ungebrochener Präsenz:</strong>
+        Bis kurz vor seinem Tod blieb das öffentliche Bild Genschers das eines aktiven,
+        präsenten Elder Statesman – nicht das eines von langjähriger Krankheit gezeichneten
+        Mannes.</p>
+        <p class="vb-intro"><strong>b) Keine nachträgliche Dramatisierung der Erkrankung:</strong>
+        Auch in Nachrufen und Würdigungen wurde das Herzleiden nicht zu einem zentralen
+        Erzählelement seines Lebens gemacht – es blieb ein stiller, fast beiläufiger
+        Bestandteil seiner Biografie.</p>
+        <p class="vb-intro"><strong>c) Fortwirken seines diplomatischen Vermächtnisses:</strong>
+        Genschers Rolle bei der deutschen Einheit und der europäischen Entspannungspolitik
+        blieb nach seinem Tod das prägende öffentliche Bild, unabhängig von seiner privaten
+        gesundheitlichen Geschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontinuität als Antwort auf die eigene Erkrankung:</strong>
+        Die SE9-typische Suche nach Sicherheit durch Beharrlichkeit zeigte sich auch im
+        Umgang mit dem eigenen Herzleiden: Genscher ließ die Krankheit nicht zum Anlass für
+        einen dramatischen Rückzug werden, sondern setzte sein öffentliches Wirken in
+        gewohnter Kontinuität fort.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel und die stille Entschlossenheit:</strong>
+        Dieselbe ruhige, aber unverkennbare Entschlossenheit, mit der Genscher jahrzehntelang
+        zwischen den Fronten des Kalten Krieges vermittelte, zeigte sich im Umgang mit der
+        eigenen Gesundheit als Weigerung, sich von der Erkrankung aus dem öffentlichen Leben
+        drängen zu lassen.</p>
+        <p class="vb-intro"><strong>c) Diskretion statt öffentlicher Inszenierung:</strong>
+        Dass Genscher Details zu seinem Herzleiden nie öffentlich ausbreitete, passt zur
+        SE9w8-Neigung, private Angelegenheiten diskret zu behandeln, während die öffentliche
+        Rolle unverändert weitergeführt wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Brückenbauer zwischen Machtblöcken, der auch die eigene Krankheit ruhig überbrückte:</strong>
+        Genschers gesamtes Lebenswerk beruhte auf der Fähigkeit, Spannungen auszuhalten,
+        ohne sie eskalieren zu lassen – genau diese Haltung übertrug sich auch auf den Umgang
+        mit dem eigenen Herzleiden: kein Kampf, keine Dramatisierung, sondern beharrliche
+        Fortsetzung des gewohnten Weges.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Parallelen zeigen sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">David Hume</a>
+        und
+        <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-brahms">Johannes
+        Brahms</a> (beide ebenfalls SE9w8): Alle drei begegneten einer fortschreitenden
+        Erkrankung mit derselben ruhigen, fast gelassenen Beharrlichkeit, ohne die
+        Erkrankung zum zentralen öffentlichen Thema zu machen. Bei allen SE9w8ern zeigt sich
+        dasselbe Muster: Sicherheit durch Kontinuität, auch angesichts des eigenen
+        körperlichen Verfalls.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz, das Organ der stillen Vermittlung?</strong>
+        Für einen selbsterhaltenden Typ 9 mit Achterflügel, dessen gesamtes Lebenswerk auf
+        der stillen Vermittlung zwischen verfeindeten Lagern beruhte, liegt eine Deutung
+        nahe: Ausgerechnet jenes Organ, das im Volksmund für Verbindung und Ausgleich steht,
+        wurde zum Ort der eigenen körperlichen Belastung. Diese Deutung ist eine plausible
+        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu
+        Herzleiden führt – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig
+        vom Subtyp.</strong> Was sich an Genschers Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer langjährigen Erkrankung, das bei einem ausgeprägten
+        selbsterhaltenden Typ 9 mit Achterflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Genscher kannte sein eigenes Muster nicht als Enneagramm-Struktur – der
+        selbsterhaltende Typ 9 mit Achterflügel hält reflexhaft an der eigenen Kontinuität
+        fest, auch gegenüber der eigenen Krankheit, statt rechtzeitig kürzerzutreten, und
+        lebte genau dieses Muster bis zu seinem Tod unverändert aus. Wer die eigene Neigung,
+        gesundheitliche Warnsignale mit stiller Beharrlichkeit zu überdecken, nicht als Muster
+        erkennt, riskiert, dass die Krankheit unbemerkt über Jahre fortschreitet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 9 mit Achterflügel erklärt bei <strong>Hans-Dietrich
+        Genscher</strong> vieles am Umgang mit dem eigenen Herzleiden: ein Mann, dessen
+        gesamtes Lebenswerk der stillen Vermittlung zwischen verfeindeten Lagern galt,
+        begegnete auch der eigenen Krankheit mit derselben ruhigen Kontinuität – der Elefant,
+        der bis zuletzt in seinem eigenen Rhythmus weiterging, ohne das Tempo für die
+        Krankheit zu ändern.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se9", label:"Subtyp-Profil SE9"},
+      ])}
+    </div>
+  `);
+}
+
 function astridLindgrenKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -11232,202 +11414,6 @@ function michaelFranzesePortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
         {route:"kriminalpsychologie-sebastian-greenwood", label:"Kriminalpsychologie: Sebastian Greenwood"},
-      ])}
-    </div>
-  `);
-}
-
-function sebastianGreenwoodPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Sebastian Greenwood \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/sebastian-greenwood-portrait.jpg" alt="Sebastian Greenwood \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Sebastian Greenwood</p>
-        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Sebastian Greenwood</strong> (geb. 1978, Schweden) war Mitgr\xfcnder und
-        Chefrekrutierer des OneCoin-Kryptow\xe4hrungs-Betrugs \u2013 des gr\xf6\xdften
-        Ponzi-Schemas der Geschichte mit einem Schaden von \xfcber vier Milliarden Euro.
-        W\xe4hrend <strong>Ruja Ignatova</strong> als \u201eCryptoqueen\u201c die intellektuelle Fassade
-        des Systems lieferte, war <strong>Greenwood</strong> der Netzwerker, der Menschenf\xe4nger,
-        der Mann, der Tausende Distributor-Partner weltweit anwarb und f\xfcr die
-        Sache begeisterte. Er wurde 2018 in Thailand verhaftet, 2023 in den USA
-        der Geldw\xe4sche und des Betruges schuldig gesprochen. Diese Analyse fragt:
-        Was treibt einen Menschen an, ein globales Vertrauenssystem aufzubauen \u2013
-        und es zur Waffe zu machen?
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);
-                border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin-bottom:1.5rem;">
-        <p style="margin:0;font-size:0.92rem;line-height:1.65;">
-          <strong>Typzuordnung:</strong> Selbsterhaltender Typ 2 &middot;
-          <strong>Typ mit Fl\xfcgel:</strong> SE2w3 &middot;
-          <em>Leidenschaft:</em> Stolz &middot;
-          <em>Tieranalogie:</em> Flusspferd
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
-        <p class="vb-intro"><strong>a) W\xe4rmend und einladend:</strong>
-        <strong>Greenwood</strong> war bekannt daf\xfcr, Menschen sofort das Gef\xfchl zu geben,
-        willkommen zu sein. Wer mit ihm sprach, f\xfchlte sich gesehen \u2013 oft das erste
-        Mal in langer Zeit. Das ist die selbsterhaltende Zwei: Zuwendung als Werkzeug,
-        Warmherzigkeit als Eintrittskarte.</p>
-        <p class="vb-intro"><strong>b) Selbstsicher bis strahlend:</strong>
-        Der Dreierfl\xfcgel gibt der Zwei eine souver\xe4ne Au\xdfenpr\xe4senz. <strong>Greenwood</strong>
-        trat nicht wie ein Verkaufsredner auf, sondern wie ein Vision\u00e4r. Seine
-        Selbstsicherheit war ansteckend \u2013 sie \xfcbertrug sich auf die Zuh\xf6rer
-        und verwandelte Skepsis in Begeisterung.</p>
-        <p class="vb-intro"><strong>c) Kontrolliert bei Kritik:</strong>
-        <strong>Greenwood</strong> reagierte auf Zweifel nicht defensiv, sondern rerahmend.
-        Er verwandelte kritische Fragen in Einladungen zur weiteren Erkl\xe4rung.
-        Das ist das SE2w3-Muster: statt Konfrontation Umlenkung, statt Verteidigung Charme.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Aufmerksamkeitsfokus</h3>
-        <p class="vb-intro"><strong>a) Wer braucht mich gerade?</strong>
-        Die selbsterhaltende Zwei sucht Menschen, die Orientierung, Sinn oder
-        Zugeh\xf6rigkeit suchen. <strong>Greenwood</strong> fand sein Publikum unter
-        Aufsteigern aus Entwicklungsl\xe4ndern, Unternehmern ohne Netzwerk, Menschen
-        mit dem Wunsch nach finanziellem Aufstieg. Er sah ihre Bed\xfcrftigkeit
-        und machte daraus ein Gesch\xe4ftsmodell.</p>
-        <p class="vb-intro"><strong>b) Wie baue ich Loyalit\xe4t auf?</strong>
-        <strong>Greenwood</strong> investierte in langfristige Bindungen. Er gab gro\xdfz\xfcgig
-        \u2013 Provisionen, Status, Anerkennung. Die Zwei gibt, damit sie gebraucht wird.
-        Das Geben erzeugt Schuld, die Schuld erzeugt Loyalit\xe4t. OneCoin war ein
-        Loyalit\xe4tssystem im Kern.</p>
-        <p class="vb-intro"><strong>c) Welche Vision begeistert die Masse?</strong>
-        Der Dreierfl\xfcgel verschafft <strong>Greenwood</strong> einen scharfen Sinn f\xfcr
-        Narrativ. Er verkaufte nicht eine Kryptow\xe4hrung, sondern eine Mission:
-        finanzielle Befreiung f\xfcr die Unterdr\xfcckten. Dieses Bild zog Millionen an.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Leidenschaft: Stolz</h3>
-        <p class="vb-intro"><strong>a) Stolz als Netzwerkkonstrukteur:</strong>
-        <strong>Greenwoods</strong> Stolz speiste sich nicht aus Geld allein, sondern daraus,
-        das gr\xf6\xdfte Netzwerk der Krypto-Geschichte aufgebaut zu haben. Er war
-        nicht der Dieb \u2013 er war der Architekt der Gemeinschaft. Der Typ 2
-        braucht das Gef\xfchl, unersetzlich zu sein.</p>
-        <p class="vb-intro"><strong>b) Blind gegen\xfcber dem Schaden:</strong>
-        Wie bei allen SE2-Typen schirmte der Stolz den Blick auf die Wirklichkeit ab.
-        <strong>Greenwood</strong> konnte den Betrug fortsetzen, weil er sich als Helfer
-        erlebte \u2013 jemand, der anderen eine Chance gab. Dass die Chance gef\xe4lscht war,
-        blieb unbewusst.</p>
-        <p class="vb-intro"><strong>c) Grandiosit\xe4t als Identit\xe4t:</strong>
-        Der Dreierfl\xfcgel verst\xe4rkte den Stolz durch \xf6ffentliche Inszenierung. Awards,
-        B\xfchnenereignisse, Titelverleihungen: <strong>Greenwood</strong> schuf ein Theater der
-        Bedeutsamkeit, in dem er selbst die Hauptrolle spielte \u2013 und glaubte, sie zu verdienen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Typische Verhaltensmuster</h3>
-        <p class="vb-intro"><strong>a) Geben als Machtinstrument:</strong>
-        <strong>Greenwoods</strong> Provisionsstruktur war psychologisch virtuos: sie schuf
-        ein System, in dem Helfen und Bereichern identisch wirkten. Wer andere anwarb,
-        half ihnen scheinbar. Die SE2-Dynamik des \u201eIch gebe, also habe ich Recht\u201c
-        wurde hier zur Gesch\xe4ftsstrategie.</p>
-        <p class="vb-intro"><strong>b) Netzwerken ohne Grenzen:</strong>
-        <strong>Greenwood</strong> operierte in Uganda, Indien, China, den Emiraten und Europa.
-        Die selbsterhaltende Zwei kennt keine territorialen Grenzen, wenn es um
-        die Erweiterung des eigenen Einflussfeldes geht. Jeder Kontakt war ein
-        potenzieller Schuldner.</p>
-        <p class="vb-intro"><strong>c) Statusf\xf6rderung als Bindungsmittel:</strong>
-        OneCoin vergab Titel und R\u00e4nge an erfolgreiche Distributor-Partner. <strong>Greenwood</strong>
-        verstand, dass Menschen nicht nur Geld wollen \u2013 sie wollen Bedeutung.
-        Er verkaufte Bedeutung. Das ist SE2w3 in seiner reinsten Form.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Wunde und Schutzstrategie</h3>
-        <p class="vb-intro"><strong>a) Die Wunde des Unverzichtbaren:</strong>
-        Hinter dem Netzwerker verbirgt sich die Angst, ohne sein Netzwerk nichts zu sein.
-        Die Zwei baut Beziehungen auf, weil sie glaubt, nur durch Geben geliebt
-        zu werden. <strong>Greenwood</strong> brauchte das System, um sich selbst zu sp\xfcren.</p>
-        <p class="vb-intro"><strong>b) Schutz durch Unentbehrlichkeit:</strong>
-        Die Schutzstrategie der SE2: so viele Menschen an sich binden, dass das
-        Loslassen undenkbar wird. <strong>Greenwood</strong> baute ein Netz, das ihn
-        ebenso gefangen hielt wie seine Opfer. Der Betrug wurde zur Identit\xe4t.</p>
-        <p class="vb-intro"><strong>c) Dreierfl\xfcgel als R\u00fcstung:</strong>
-        Der w3-Anteil gab <strong>Greenwood</strong> die F\xe4higkeit, die innere Leere hinter
-        einer makellosen Performance zu verstecken. Erfolg, Beifall, Vision\u00e4rstatus:
-        all das waren Schutzschichten gegen das Gef\xfchl, ohne diesen Apparat
-        nicht zu existieren.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Enneagramm-Analyse</h3>
-        <p class="vb-intro"><strong>a) SE2 und das Zweier-Privileg:</strong>
-        Die selbsterhaltende Zwei nimmt, was ihr zusteht \u2013 verh\xfcllt durch das
-        Narrativ des Gebens. <strong>Greenwood</strong> nahm Milliarden, aber er \u201egab\u201c
-        sie weiter: in Form von Provisionen, Status, Versprechen. Das Zweier-Privileg
-        in globaler Dimension.</p>
-        <p class="vb-intro"><strong>b) Dreierfl\xfcgel als Inszenierungsmotor:</strong>
-        Ohne den w3-Anteil w\xe4re <strong>Greenwood</strong> ein lokaler Netzwerker geblieben.
-        Der Dreierfl\xfcgel lieferte das Gro\xdfformat: die B\xfchne, das Narrativ,
-        die Marke. SE2w3 kann Betrug in eine globale Vision verwandeln.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Ignatova:</strong>
-        <strong>Ignatova</strong> (SE3w4) lieferte das intellektuelle Fundament, <strong>Greenwood</strong>
-        (SE2w3) die Beziehungsarchitektur. Zwei komplement\u00e4re Selbsterhaltungstypen,
-        die sich gegenseitig verst\xe4rkten: die eine baut die Marke, der andere
-        baut die Gemeinschaft. Ein Lehrbeispiel f\xfcr Typ-Dynamiken im Team.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Tieranalogie: Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Massiv und untersch\u00e4tzt:</strong>
-        Das Flusspferd wirkt im Wasser tr\xe4ge und friedlich \u2013 an Land ist es das
-        gef\xe4hrlichste Gro\xdftier Afrikas. <strong>Greenwood</strong> wirkte wie der
-        nette Netzwerker, der anderen hilft. Die Gefahrlosigkeit war Inszenierung.</p>
-        <p class="vb-intro"><strong>b) Territorial und unsichtbar gef\xe4hrlich:</strong>
-        Das Flusspferd verteidigt sein Revier mit extremer Aggressivit\xe4t \u2013 ohne
-        Vorwarnung. <strong>Greenwood</strong> sch\u00fctzte sein Netzwerk genauso: freundlich
-        nach au\xdfen, erbarmungslos im Inneren. Wer ausstieg oder Fragen stellte,
-        verlor Status und Einkommen.</p>
-        <p class="vb-intro"><strong>c) Angepasst an zwei Welten:</strong>
-        Das Flusspferd lebt zwischen Wasser und Land \u2013 nirgendwo ganz zuhause,
-        \xfcberall funktionst\xfcchtig. <strong>Greenwood</strong> operierte zwischen Legalit\xe4t
-        und Betrug, zwischen Helfer und R\xe4uber, zwischen Vision und Manipulation.
-        Diese Ambivalenz ist das Markenzeichen des SE2w3 im Schatten.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Heilungsweg des Typ 2</h3>
-        <p class="vb-intro"><strong>a) Vom Geben zum Sein:</strong>
-        Der Heilungsweg der Zwei beginnt mit der Frage: Was bin ich, wenn ich
-        nichts gebe? F\xfcr <strong>Greenwood</strong> w\xe4re das die radikalste Konfrontation:
-        sich selbst ohne Netzwerk, ohne Status, ohne Bedeutungsarchitektur zu begegnen.</p>
-        <p class="vb-intro"><strong>b) Echte Hilfe statt Einfluss:</strong>
-        Die gesunde Zwei gibt ohne Rechnung. <strong>Greenwood</strong> kannte nur das Geben
-        mit Erwartung: Loyalit\xe4t, Abh\xe4ngigkeit, R\xfcckzahlung. Der Weg zur Heilung
-        f\xfchrt \xfcber die Entdeckung, dass echtes Helfen keine Gegenleistung braucht.</p>
-        <p class="vb-intro"><strong>c) Demut als Gegenpol des Stolzes:</strong>
-        Die Tugend der Zwei ist Demut \u2013 die F\xe4higkeit, die eigene Begrenztheit
-        zu sehen und anzunehmen. F\xfcr <strong>Greenwood</strong> w\xe4re das die Anerkennung:
-        Ich habe nicht geholfen. Ich habe genommen. Dieser Satz, vollst\xe4ndig
-        gef\xfchlt, \xf6ffnet den Heilungsweg.</p>
-      </div>
-
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2w3 \u2013 das Zweier-Privileg mit Dreierfl\xfcgel: die tiefste Analyse des selbsterhaltenden Subtyps.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 alle Zwei-Subtypen im \xdcberblick.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\xfchrlich portr\xe4tiert \u2013 Stolz, F\xfcrsorge und der Heilungsweg \xfcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Sebastian Greenwood wurde 2023 wegen Betrugs im Zusammenhang mit dem OneCoin-Skandal zu 20 Jahren Haft verurteilt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova"},
-        {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
-        {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
       ])}
     </div>
   `);

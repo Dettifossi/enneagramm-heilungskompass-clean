@@ -6039,6 +6039,73 @@ function peterGabrielPortraitPage() {
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
+        {route:"beruehmte-enya", label:"Porträt: Enya (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function enyaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-enya-portrait.jpg" alt="Enya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enya</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin & Komponistin, geb. 1961 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Tiefe nicht lautstark zur Schau, sondern verarbeitet sie in beharrlicher, oft jahrelanger Zurückgezogenheit. Enya wurde 1961 als Eithne Patricia Ní Bhraonáin im irischsprachigen Gweedore in County Donegal geboren, eines von neun Kindern einer musikalischen Familie – ihr Vater leitete eine Tanzband, mehrere Geschwister gründeten später die Gruppe Clannad. Auch Eithne trat dieser Familienband bei, verließ sie aber 1982 wieder, um allein weiterzuarbeiten.</p>
+          <p class="vb-intro">Aus dieser frühen Entscheidung, sich aus einem lauten, gemeinsamen Bandbetrieb zurückzuziehen, wurde ein Lebensmuster: Seit über vierzig Jahren arbeitet Enya fast ausschließlich mit genau zwei Menschen zusammen – Produzent Nicky Ryan und dessen Frau, Texterin Roma Ryan. Kein wechselndes Team, keine großen Studioapparate, sondern ein extrem kleiner, geschlossener Kreis, in dem sich jedes Album über Jahre hinweg entwickelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Rückzug als Schutzraum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zeigt ihr reiches Innenleben nicht öffentlich, sondern hält es in einem streng geschützten, privaten Raum am Leben. Enya zählt zu den meistverkauften Musikerinnen der Welt und tourte in ihrer gesamten Karriere dennoch praktisch nie – keine klassischen Konzertreisen, keine regelmäßigen Live-Auftritte, kaum Interviews über das Nötigste hinaus. Ein öffentliches Profil, das für eine Künstlerin dieser Größenordnung höchst ungewöhnlich ist.</p>
+          <p class="vb-intro">1997 kaufte sie Manderley Castle (heute Ayesha Castle) in Killiney bei Dublin, ein viktorianisches Schlossgebäude, das sie zu ihrem dauerhaften Rückzugsort machte. Zwischen ihren Alben liegen oft vier bis sieben Jahre – Zeiträume, die für die selbsterhaltende Vier typisch sind: Lieber lange schweigen, als etwas Unfertiges oder nicht vollständig Durchlebtes nach außen zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die selbst erschaffene Klangfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein feines Gespür dafür, wie sich eine private innere Welt in eine wirkungsvolle, wiedererkennbare öffentliche Form übersetzen lässt – ohne dass die Person dahinter sich selbst preisgeben muss. Schon der Künstlername ist Ausdruck dieses Musters: Aus der irischsprachigen Eithne Ní Bhraonáin wurde die eigens geschaffene, international aussprechbare Marke „Enya" – eine bewusst gestaltete Hülle um eine sehr zurückgezogene Person.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel im eigentlichen Klangbild: Enyas charakteristischer Sound entsteht dadurch, dass sie ihre eigene Stimme in unzähligen Spuren übereinanderlegt, bis daraus ein dichter, chorartiger Klangkörper wird – eine Technik, die sie gemeinsam mit Nicky Ryan über Jahre perfektionierte. Das Ergebnis, etwa auf „Orinoco Flow" (1988), dem Song, der sie 1988/89 weltberühmt machte, klingt nach einem ganzen Ensemble und ist doch das Werk einer einzigen, allein arbeitenden Stimme – innere Fülle, in eine glatte, massenwirksame Form gebracht, genau wie es das Muster der SE4w3 vorgibt (vergleiche das Porträt von <a href="#beruehmte-peter-gabriel">Peter Gabriel (SE4w3)</a>, der seine private Bildwelt auf ganz andere, aber strukturell verwandte Weise in eine eigene Bühnenfigur übersetzte).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein Weltklang aus einem geschlossenen Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alben wie „Watermark" (1988), „Shepherd Moons" (1991) oder „A Day Without Rain" (2000) verkauften sich weltweit millionenfach, ohne dass Enya dafür je in klassischem Sinn auf Tournee ging oder sich dem üblichen Popmarketing unterwarf. Statt öffentlicher Selbstinszenierung trat an ihre Stelle die konsequente, jahrelange Detailarbeit im Studio – jede Platte ein in sich geschlossenes, vollständig durchdachtes Klangwerk, bevor es überhaupt veröffentlicht wurde.</p>
+          <p class="vb-intro">Dass sie dabei zeitlebens in derselben kleinen Konstellation blieb – sie selbst, Nicky Ryan am Mischpult, Roma Ryan an den Texten –, unterstreicht das SE4-Muster in seiner reinsten Form: Nicht der große, wechselnde Betrieb trägt das Werk, sondern ein extrem enger, über Jahrzehnte stabiler Vertrauenskreis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 ist die Fähigkeit, <strong>aus radikalem Rückzug heraus ein Werk zu schaffen, das trotzdem Millionen erreicht</strong> – Enyas Musik zählt bis heute zu den meistverkauften und meistgehörten Klangwelten überhaupt, obwohl die Person dahinter kaum öffentlich in Erscheinung tritt. Diese Kombination aus größtmöglicher Wirkung und größtmöglicher Zurückhaltung ist selten und schwer zu kopieren.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der fast vollständigen Trennung von öffentlicher Klangfigur und privater Person: Über Enyas persönliches Leben, ihre Beziehungen, ihren Alltag hinter den Mauern von Ayesha Castle ist bis heute erstaunlich wenig bekannt – eine Abschottung, die einerseits schützt, andererseits auch bedeuten kann, dass ein Teil des eigenen Lebens nie wirklich mit anderen geteilt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube hinter dem Klangkörper</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Enya gehört zu den erfolgreichsten Musikerinnen der Welt – nicht weil sie sich lauter zeigte als andere, sondern weil sie aus einem denkbar kleinen, geschützten Kreis heraus einen Klang schuf, der um die ganze Welt ging, während sie selbst im Hintergrund blieb.</p>
+          <p class="vb-intro">Die Taube, die eine Familienband verließ, um in aller Stille ihre eigene Stimme unzählige Male über sich selbst zu legen, bis daraus ein ganzer Chor wurde – das ist das bleibende Bild dieses Subtyps: eine Fülle, die niemals lauter auftritt, als sie selbst es zulassen will.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-peter-gabriel", label:"Porträt: Peter Gabriel (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
       ])}
     </div>
   `);
@@ -7419,74 +7486,6 @@ function marieCuriePortraitPage() {
           {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
         ])}
       </div>
-    </div>
-  `);
-}
-
-function reneDescartesPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-rene-descartes-portrait.jpg" alt="Ren\u00e9 Descartes" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ren\u00e9 Descartes</p>
-        <p class="krim-portrait-typ">SE5w6 \u00b7 Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Franz\u00f6sischer Philosoph und Mathematiker, 1596\u20131650 \u2013 Tierentsprechung: Eule</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Eule, die im Bett philosophierte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 \u2013 ein Wesen, das sich zur\u00fcckzieht, um klar zu sehen, das seine Energie h\u00fctet wie einen kostbaren Vorrat. Kaum eine Gewohnheit verk\u00f6rpert das so w\u00f6rtlich wie die ber\u00fchmte Morgenroutine Ren\u00e9 Descartes': Schon als Sch\u00fcler am Jesuitenkolleg La Fl\u00e8che erlaubte man ihm aus gesundheitlichen Gr\u00fcnden, bis in den sp\u00e4ten Vormittag im Bett zu bleiben \u2013 eine Ausnahme, die er zeitlebens beibehielt. Seine bedeutendsten Gedanken, sagte er selbst, k\u00e4men ihm in diesen ungest\u00f6rten Morgenstunden, in denen niemand Zugriff auf ihn hatte.</p>
-          <p class="vb-intro">Der französische Philosoph René Descartes, geboren 1596 in La Haye en Touraine, diente kurze Zeit als Offizier in verschiedenen europ\u00e4ischen Armeen \u2013 doch weniger f\u00fcr den Kampf als f\u00fcr die Gelegenheit zu reisen und die Welt aus sicherer Distanz zu beobachten. Am 10. November 1619, in einer beheizten Stube in S\u00fcddeutschland, hatte er der \u00dcberlieferung nach jene Serie von Tr\u00e4umen, die ihn zur \u00dcberzeugung brachte, sein Leben der Suche nach einer sicheren, unersch\u00fctterlichen Methode des Wissens zu widmen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg im Exil</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie m\u00f6glich beschr\u00e4nkt. 1628 verlie\u00df Descartes Frankreich und zog in die Niederlande \u2013 ein Land, das ihm die intellektuelle Freiheit und die Anonymit\u00e4t bot, die er suchte. In den folgenden gut zwanzig Jahren wechselte er der \u00dcberlieferung nach mehr als zwanzigmal seinen Wohnort, oft ohne seine Adresse auch nur engen Korrespondenten mitzuteilen.</p>
-          <p class="vb-intro">Seinen umfangreichen Briefwechsel wickelte er meist \u00fcber den Priester und Gelehrten Marin Mersenne in Paris ab, der als eine Art Filter fungierte: Mersenne sammelte Fragen und Kommentare anderer Denker, bevor er sie an Descartes weiterleitete. Die Burg der SE5 sch\u00fctzt hier nicht durch Mauern, sondern durch Distanz und Vermittlung \u2013 Kontakt findet statt, aber nur nach den eigenen Bedingungen, in der eigenen Zeit, gefiltert durch Vertraute.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Vorsicht als \u00dcberlebensstrategie</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> gibt der selbsterhaltenden F\u00fcnf eine wache, oft \u00e4ngstliche Vorsicht gegen\u00fcber \u00e4u\u00dferen Bedrohungen. 1633 war Descartes kurz davor, sein physikalisches Werk "Le Monde" (Die Welt) zu ver\u00f6ffentlichen, das \u2013 wie Galileo \u2013 ein heliozentrisches Weltbild vertrat. Als er erfuhr, dass die Inquisition in Rom Galileo genau deswegen verurteilt hatte, zog er das fertige Manuskript sofort zur\u00fcck und ver\u00f6ffentlichte es zu Lebzeiten nie. "Ich m\u00f6chte nicht", schrieb er einem Freund, "dass irgendetwas von mir ver\u00f6ffentlicht wird, das ein einziges Wort enth\u00e4lt, das die Kirche missbilligen k\u00f6nnte."</p>
-          <p class="vb-intro">Dieselbe Vorsicht pr\u00e4gte seine gesamte Methode: In den "Meditationes de prima philosophia" (1641) begann er mit dem radikalen, methodischen Zweifel an allem, was sich auch nur im Geringsten anzweifeln lie\u00df \u2013 um am Ende einen einzigen, absolut sicheren Fixpunkt zu finden: <em>Cogito, ergo sum</em> \u2013 ich denke, also bin ich. Das ist der Sechserfl\u00fcgel in seiner reinsten philosophischen Form: Sicherheit wird nicht vorausgesetzt, sondern durch systematisches Misstrauen gegen\u00fcber jeder M\u00f6glichkeit des Irrtums Schritt f\u00fcr Schritt erarbeitet.</p>
-          <p class="vb-intro">Dahinter steht ein noch grundlegenderer Zug der selbsterhaltenden F\u00fcnf: Als Verst\u00e4rkungstyp der F\u00fcnf treibt sie ihre intrinsische Motivation \u2013 die Suche nach Wissen, Erkenntnis und, im besten Fall, Weisheit \u2013 nicht gem\u00e4\u00dfigt, sondern verst\u00e4rkt aus. Diese Intensivierung ist eine Kompensation: Alle drei Subtypen der Kopftriade (F\u00fcnf, Sechs, Sieben) tragen ein Vertrauensdefizit in sich, und die selbsterhaltende F\u00fcnf begegnet ihm, indem sie die Kopfenergie \u2013 das Denken selbst \u2013 zum sichersten, am st\u00e4rksten ausgebauten Territorium macht. Descartes' <em>Cogito, ergo sum</em> ist der reinste philosophische Ausdruck genau dieser Haltung: Er kann sich zuletzt nichts vorstellen, das jenseits des Denkens noch sicher existiert \u2013 das Denken selbst wird zum einzigen unersch\u00fctterlichen Boden. Aus heutiger Sicht ist dieser Dualismus in seiner strengen Form \u00fcberholt, doch die Grund\u00fcberzeugung, dass gesichertes Wissen zuerst durch das denkende Erfassen der Welt entsteht, pr\u00e4gt bis in die Gegenwart weite Teile der Wissenschaft und des vorherrschenden Zeitgeists.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Fundament: Ein Wissen, das nichts mehr ersch\u00fcttern kann</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Descartes wollte nicht nur eine neue Theorie liefern, sondern die Philosophie insgesamt auf ein Fundament stellen, das so sicher war wie die Geometrie \u2013 daher r\u00fchrt seine Vorliebe f\u00fcr mathematische Klarheit, die er auch in der von ihm mitbegr\u00fcndeten analytischen Geometrie (dem kartesischen Koordinatensystem) auslebte. Zweifel war f\u00fcr ihn kein Selbstzweck, sondern Werkzeug: Man r\u00e4umt jeden unsicheren Grund beiseite, bis nur noch das \u00fcbrig bleibt, was sich unm\u00f6glich bezweifeln l\u00e4sst.</p>
-          <p class="vb-intro">Diese methodische Strenge zeigte sich auch im Umgang mit dem eigenen K\u00f6rper: Descartes unterschied radikal zwischen res cogitans (dem denkenden Geist) und res extensa (der ausgedehnten, materiellen Welt einschlie\u00dflich des eigenen K\u00f6rpers) \u2013 ein Dualismus, der es ihm erlaubte, das Denken als das einzig wirklich sichere Territorium zu betrachten, unabh\u00e4ngig von den Unw\u00e4gbarkeiten der physischen Existenz.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in der schieren Klarheit von Descartes' Methode: Der cartesische Zweifel wurde zum Ausgangspunkt der gesamten neuzeitlichen Philosophie, sein Rationalismus zum Gegenpol des britischen Empirismus, seine analytische Geometrie zur Br\u00fccke zwischen Algebra und Raum. Kaum ein Denker hat das Selbstbewusstsein des Subjekts \u2013 "ich denke" \u2013 so wirkungsm\u00e4chtig ins Zentrum der Philosophie ger\u00fcckt.</p>
-          <p class="vb-intro">Der Schatten liegt im Preis dieser Sicherheit: Sein Leib-Seele-Dualismus hinterlie\u00df ein noch heute ungel\u00f6stes Problem \u2013 wie k\u00f6nnen Geist und K\u00f6rper, wenn sie derart radikal getrennte Substanzen sind, \u00fcberhaupt miteinander wechselwirken? Descartes selbst versuchte eine Antwort \u00fcber die Zirbeldr\u00fcse, die kaum jemand seiner Nachfolger \u00fcberzeugend fand. Die Burg, die absolute Gewissheit sch\u00fctzen sollte, erzeugte damit eine neue, tiefe Kluft zwischen Innen und Au\u00dfen, Denken und Welt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Eule, die ihre Routine verlie\u00df \u2013 und starb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1649 lud K\u00f6nigin Christina von Schweden Descartes an ihren Hof nach Stockholm ein, um sie in Philosophie zu unterrichten. Die K\u00f6nigin bestand darauf, ihren Unterricht um f\u00fcnf Uhr morgens zu beginnen \u2013 mitten im schwedischen Winter, f\u00fcr einen Mann, der zeitlebens bis in den sp\u00e4ten Vormittag im Bett gearbeitet hatte. Descartes gab seine gesch\u00fctzte Routine auf, um der Bitte der K\u00f6nigin nachzukommen.</p>
-          <p class="vb-intro">Wenige Monate sp\u00e4ter, im Februar 1650, starb er in Stockholm an einer Lungenentz\u00fcndung \u2013 vermutlich zumindest beg\u00fcnstigt durch die eisige nordische K\u00e4lte, der er sich in den fr\u00fchen Morgenstunden aussetzte. Die Eule, die ihr Leben lang in der gesch\u00fctzten Stille ihrer eigenen Zeit gedacht hatte, verlie\u00df genau diesen Schutz ein einziges Mal \u2013 und bezahlte daf\u00fcr mit dem Leben. Was blieb, war ein methodisches Denkgeb\u00e4ude, das bis in die Gegenwart die Grundfragen der westlichen Philosophie pr\u00e4gt: Was kann ich wirklich wissen? Und worauf l\u00e4sst sich dieses Wissen sicher gr\u00fcnden?</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
-        {route:"beruehmte-spinoza", label:"Portr\u00e4t: Baruch de Spinoza (SE5w6) \u2013 kommentierte seine Philosophie in seinem einzigen zu Lebzeiten ver\u00f6ffentlichten Werk"},
-        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
-        {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
-        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
-      ])}
     </div>
   `);
 }
