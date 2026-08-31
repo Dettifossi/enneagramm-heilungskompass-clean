@@ -7199,6 +7199,72 @@ function pythagorasPortraitPage() {
   `);
 }
 
+function stephenHawkingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">1942&ndash;2018 &ndash; theoretischer Physiker, ›Eine kurze Geschichte der Zeit‹ &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der das Universum für alle übersetzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf &ndash; hochintelligent, ein Meister der Problemlösung, und doch kein reiner Einzelgänger: Er passt sein komplexes Denken so an, dass es auch für andere zugänglich wird. Stephen Hawking, geboren 1942 in Oxford als Sohn eines Medizinforschers und einer Politikwissenschaftlerin, zeigte schon in der Schule eine für sein Alter ungewöhnliche Fähigkeit, komplizierte Sachverhalte in verständliche Bilder zu übersetzen &ndash; ein Talent, das sein gesamtes späteres Werk prägen sollte.</p>
+          <p class="vb-intro">Mit 21 Jahren, kurz vor Abschluss seines Studiums in Oxford, erhielt Hawking die Diagnose Amyotrophe Lateralsklerose (ALS) und eine Prognose von nur noch wenigen Lebensjahren. Er lebte weitere 55 Jahre &ndash; bei fortschreitender vollständiger Lähmung, aber ungebrochener wissenschaftlicher Schärfe. Die Einzelheiten dieses fünfundfünfzigjährigen Krankheitsverlaufs werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-stephen-hawking">Krankheitsporträt zu Hawking</a> gedeutet; dieses Porträt widmet sich seinem wissenschaftlichen Lebenswerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen, das der Menschheit gehört</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> sucht Sicherheit nicht im Rückzug, sondern darin, durch Wissen für eine größere Gemeinschaft unentbehrlich zu werden. Naranjo beschrieb diesen Subtyp mit dem Bild eines Menschen, der sein Verstehen wie eine Art Vermächtnis behandelt &ndash; etwas, das geteilt werden muss, damit es seinen vollen Wert entfaltet. Hawkings Forschung zu Schwarzen Löchern, insbesondere die nach ihm benannte Hawking-Strahlung (1974, die theoretische Vorhersage, dass Schwarze Löcher nicht vollständig schwarz sind, sondern langsam Strahlung abgeben und irgendwann verdampfen), zählt zu den einflussreichsten Beiträgen der theoretischen Physik des zwanzigsten Jahrhunderts.</p>
+          <p class="vb-intro">Doch Hawking beließ es nie bei der reinen Fachwelt. 1988 veröffentlichte er „Eine kurze Geschichte der Zeit" &ndash; ein Buch, das komplexeste Kosmologie einem allgemeinen Publikum zugänglich machen sollte und sich über zehn Millionen Mal verkaufte, in mehr als vierzig Sprachen. Der Oktopus verändert seine Form, um durch jeden Spalt zu passen &ndash; Hawking übersetzte die Sprache der theoretischen Physik so lange um, bis sie durch die Enge allgemeiner Verständlichkeit passte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit als Überlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf eine systematische, auf Verlässlichkeit ausgerichtete Note &ndash; statt auf spontane Einfälle zu setzen, baut sie geprüfte, wiederholbare Systeme und vertraut einem kleinen, loyalen Kreis. Mit fortschreitender Lähmung wurde das für Hawking existenziell: Er umgab sich über Jahrzehnte mit einem sorgfältig eingespielten, sehr kleinen Team aus Pflegekräften, technischen Assistenten und Doktoranden, die sein computergestütztes Kommunikationssystem warteten und ihn rund um die Uhr begleiteten.</p>
+          <p class="vb-intro">Auch sein akademischer Werdegang zeigt diese Sechserflügel-Note: Von 1979 bis 2009 hatte er den Lucasian Chair for Mathematics an der Universität Cambridge inne &ndash; denselben Lehrstuhl, den einst Isaac Newton (SO5w6) besetzte. Zugehörigkeit zu einer über Jahrhunderte geprüften, verlässlichen Institution war für Hawking mehr als eine Formalität: Es war die Art von Sicherheit, die eine SO5w6 instinktiv sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. ›Eine kurze Geschichte der Zeit‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als „Eine kurze Geschichte der Zeit" 1988 erschien, war Hawking bereits weitgehend gelähmt und auf einen Sprachsynthesizer angewiesen. Das Buch versucht, die großen Fragen der Kosmologie &ndash; den Urknall, Schwarze Löcher, die Natur der Zeit selbst &ndash; ohne mathematische Formeln zu erklären; Hawking soll bewusst darauf verzichtet haben, komplexe Gleichungen einzubauen, aus der Überzeugung, jede zusätzliche Formel würde die Verkaufszahlen halbieren.</p>
+          <p class="vb-intro">Der Erfolg übertraf alle Erwartungen: Über 237 Wochen stand das Buch auf der Bestsellerliste der Sunday Times, wurde in mehr als vierzig Sprachen übersetzt und machte Hawking zu einem der wenigen Wissenschaftler, die weit über die eigene Disziplin hinaus zu Kulturfiguren wurden &ndash; mit Gastauftritten in „Raumschiff Enterprise" und „The Big Bang Theory" sowie einem Schwerelosigkeitsflug 2007, mit dem er, bereits fast vollständig gelähmt, kurzzeitig die Erfahrung der Schwerelosigkeit teilte, über die er jahrzehntelang nur theoretisch geschrieben hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w6 ist die Fähigkeit, komplexestes Wissen so aufzubereiten, dass es Millionen Menschen zugänglich wird, ohne an Substanz zu verlieren. Hawking hat mehr als jeder andere Physiker seiner Generation dazu beigetragen, dass Kosmologie zum Allgemeingut wurde &ndash; ein öffentlicher Wissensauftrag, der weit über akademische Kreise hinausreichte.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in einer gewissen Distanziertheit im Persönlichen: Beide Ehen Hawkings endeten in Scheidung, und Weggefährten beschrieben ihn wiederholt als jemanden, der auch im engsten Kreis eine gewisse analytische Distanz behielt &ndash; die SO5-typische Tendenz, existenzielle und emotionale Fragen eher über den Umweg des Intellekts zu verarbeiten als über direkten emotionalen Ausdruck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Universum für alle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Stephen Hawking hinterließ, lässt sich nicht auf die Hawking-Strahlung oder ein einzelnes Buch reduzieren. Er veränderte, wie eine ganze Generation über das Universum, über Schwarze Löcher, über die Grenzen menschlichen Wissens nachdachte &ndash; und er tat dies zunehmend, während sein eigener Körper ihm mehr und mehr genommen wurde.</p>
+          <p class="vb-intro">Das ist das Geschenk der SO5w6 in seiner eindrücklichsten Form: Wissen, das nicht gehortet, sondern mit einer möglichst großen Gemeinschaft geteilt wird, getragen von einem verlässlichen System aus Vertrauten und Technik. Der Oktopus, dem der eigene Körper Stück für Stück genommen wurde &ndash; und der trotzdem einen Weg fand, das gesamte Universum einem Millionenpublikum verständlich zu machen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – 55 Jahre mit ALS"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – gleicher Lehrstuhl"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function isaacNewtonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7263,6 +7329,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-dirk-rossmann", label:"Porträt: Dirk Rossmann (SO5w6)"},
         {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – Nervenzusammenbruch durch Quecksilbervergiftung"},
         {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6) – gleicher Lehrstuhl"},
       ])}
     </div>
   `);
@@ -7597,66 +7664,6 @@ function aliceSchwarzerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
-      ])}
-    </div>
-  `);
-}
-
-function ankeEngelkePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-anke-engelke-portrait.jpg" alt="Anke Engelke – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Anke Engelke</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Komikerin, Schauspielerin &amp; Entertainerin, geb. 1965 &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; und er passt zu Anke Engelke mit einer Pr\u00e4zision, die man erst erkennt, wenn man genauer hinsieht. W\u00f6lfe gelten als soziale Tiere: loyal, verspielt, eng im Rudel verbunden. Doch was sie von anderen Rudeltieren unterscheidet, ist ihre Bereitschaft zur offenen Auseinandersetzung. Der Wolf weicht nicht aus. Er stellt sich. Er zeigt Z\u00e4hne &ndash; nicht aus Aggression, sondern aus Klarheit. Er definiert, wer er ist, indem er sagt, was er nicht hinnimmt.</p>
-          <p class="vb-intro">Die deutsche Komikerin Anke Engelke ist eine W\u00f6lfin. Ihre B\u00fchne ist das Rudel: Ensemble, Comedy-Partner, Kolleginnen. Ihre St\u00e4rke kommt nicht aus Isolation, sondern aus Verbindung. Und ihr Humor ist kein R\u00fcckzug &ndash; er ist ein Auftreten. Direkt. Unverkleidet. Mit Z\u00e4hnen, die man sieht, weil man wei\u00df, dass dahinter kein Angriff steckt &ndash; sondern Klarheit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Antwort auf die Angst (Kontratyp)</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist in der Enneagramm-Tradition der Kontratyp der Sechs &ndash; der Subtyp, der die Angst nicht zeigt, sondern \u00fcberdeckt: durch St\u00e4rke, durch Direktheit, durch eine Energie, die nach au\u00dfen eher nach Sieben oder Acht aussieht als nach der gr\u00fcblerischen Sechs, die man erwarten w\u00fcrde. Naranjo nannte diesen Subtyp <em>Strength</em> &ndash; St\u00e4rke als Gegengewicht zur inneren Unsicherheit.</p>
-          <p class="vb-intro">Anke Engelke wirkt nicht \u00e4ngstlich. Sie wirkt mutig, schlagfertig, unersch\u00fctterlich. Was man nicht sofort sieht: Diese St\u00e4rke ist erarbeitet. Die SX6 konfrontiert ihre Angst, indem sie ihr entgegengeht &ndash; auf die B\u00fchne geht, sich exponiert, riskiert. Engelke hat das \u00fcber Jahrzehnte getan: in Live-Sendungen, in Rollen, die Verletzlichkeit fordern, in Momenten, die schiefgehen konnten. Die St\u00e4rke der SX6 ist keine Abwesenheit von Angst. Sie ist die Entscheidung, trotzdem zu erscheinen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Humor als Heimat</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der sexuellen Sechs eine Leichtigkeit, die ihr ohne ihn fehlen w\u00fcrde. Bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel tendiert die Sechs zur Schwere: Gr\u00fcbeln, Misstrauen, das st\u00e4ndige Abw\u00e4gen von Risiken. Der Siebenerfl\u00fcgel hellt das auf &ndash; er bringt Neugier, Spielfreude, die F\u00e4higkeit, Verbindungen herzustellen, die anderen nicht auffallen.</p>
-          <p class="vb-intro">Bei Anke Engelke zeigt sich das schon im Beginn ihrer Karriere. Mit 14 Jahren moderiert sie das <em>ZDF-Ferienprogramm</em> und die w\u00f6chentliche Kindersport-Sendung <em>Pfiff</em> &ndash; als Teenager, der anderen Kindern Sommer und Sport n\u00e4herbringt. Diese fr\u00fche Selbstverst\u00e4ndlichkeit auf der B\u00fchne hat einen Grund: Es ist der Siebenerfl\u00fcgel, der die Angst \u00fcberspielt, bevor sie sich festsetzen kann. Aus diesem Beginn w\u00e4chst eine Karriere voller Wechsel &ndash; Fernsehen, Radio, Comedy, Schauspiel, Synchron, Gesang. Kein Format zu viel, keine Richtung zu eng. Ihr Humor ist selten bitter &ndash; er ist warm, absurd, bisweilen kindlich. Das ist der Siebenerfl\u00fcgel: Angst in Spiel verwandeln, und zwar schon mit vierzehn.</p>
-          <p class="vb-intro">Seit 1996 verbindet sie eine der langlebigsten Partnerschaften der deutschen Comedy-Geschichte mit <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SE3w2)</a>, den sie bei ›Die Wochenshow‹ kennenlernte – gemeinsame Formate von ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ bis ›Wiedersehen macht Freude‹ zeugen von einer Zusammenarbeit, die über Jahrzehnte trug.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Angst als unsichtbarer Motor</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Sechs hei\u00dft <strong>Angst</strong> &ndash; aber in der sexuellen Sechs zeigt sie sich paradox. Nicht als L\u00e4hmung, sondern als Treibstoff. Die SX6 bewegt sich auf das zu, was sie f\u00fcrchtet. Sie sucht die Konfrontation. Sie provoziert, testet, fordert heraus &ndash; nicht weil es ihr leichtf\u00e4llt, sondern weil sie gelernt hat, dass St\u00e4rke das einzige Mittel ist, das zuverl\u00e4ssig wirkt.</p>
-          <p class="vb-intro">Engelkes Karriere ist durchzogen von Momenten, die Mut erforderten: eine eigene Late-Night-Show tragen, politische Satire wagen, international auftreten. 2011 moderierte sie den Eurovision Song Contest &ndash; eine B\u00fchne, auf der alles schiefgehen kann, vor hunderten Millionen Zuschauern. Sie wirkte souver\u00e4n. Dahinter stand die Entscheidung der SX6: Ich gehe hinein. Ich stelle mich.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Geschenk: Mut, der andere ermutigt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was die sexuelle Sechs mit Siebenerfl\u00fcgel als St\u00e4rke gibt, ist mehr als pers\u00f6nlicher Mut. Es ist ein Modell. Wer Anke Engelke zusieht, sieht jemanden, der sich nicht kleiner macht. Der seinen Raum einnimmt. Der Fehler zum Teil der Vorstellung macht, Unsicherheit zum Ausdrucksmittel &ndash; und damit anderen die Erlaubnis gibt, das auch zu tun.</p>
-          <p class="vb-intro">Das ist das Geschenk der SX6w7: Mut durch Erscheinen. Nicht die Abwesenheit von Zweifel, sondern das Einladen des Zweifels auf die B\u00fchne &ndash; und das Spielen damit. Das ist Anke Engelke. Das ist der Wolf, der tanzt.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-bastian-pastewka", label:"Portr\u00e4t: Bastian Pastewka (SE3w2)"},
-        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
       ])}
     </div>
   `);

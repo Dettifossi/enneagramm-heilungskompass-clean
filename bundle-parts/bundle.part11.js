@@ -8813,13 +8813,15 @@ function stephenHawkingKrankheitsportraetPage() {
         </p>
       </div>
       <p class="psycho-intro">
-        <strong>Stephen Hawking</strong> ist einer der bekanntesten Physiker des zwanzigsten
-        Jahrhunderts – berühmt für seine Arbeiten zu Schwarzen Löchern und die Diagnose,
-        die sein gesamtes Erwachsenenleben begleitete: Amyotrophe Lateralsklerose (ALS),
-        eine fortschreitende Erkrankung der Nervenzellen, die Muskeln zunehmend lähmt. Mit
-        21 Jahren diagnostiziert und mit einer Lebenserwartung von zwei Jahren konfrontiert,
-        lebte er noch 55 weitere Jahre – bei vollständigem Verlust der willkürlichen
-        Muskelkontrolle, aber ungebrochener geistiger Schärfe bis zuletzt.
+        <strong>Stephen Hawking</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein wissenschaftliches Lebenswerk,
+        von der Hawking-Strahlung bis zu „Eine kurze Geschichte der Zeit". Dieses Porträt
+        vertieft ein Kapitel, das dort nur gestreift wird: die Amyotrophe Lateralsklerose
+        (ALS), eine fortschreitende Erkrankung der Nervenzellen, die Muskeln zunehmend
+        lähmt. Mit 21 Jahren diagnostiziert und mit einer Lebenserwartung von zwei Jahren
+        konfrontiert, lebte er noch 55 weitere Jahre – bei vollständigem Verlust der
+        willkürlichen Muskelkontrolle, aber ungebrochener geistiger Schärfe bis zuletzt.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -8987,6 +8989,7 @@ function stephenHawkingKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6) – Lebenswerk"},
         {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
         {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},

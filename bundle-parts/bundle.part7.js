@@ -1,3 +1,63 @@
+function ankeEngelkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-anke-engelke-portrait.jpg" alt="Anke Engelke – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anke Engelke</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Komikerin, Schauspielerin &amp; Entertainerin, geb. 1965 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; und er passt zu Anke Engelke mit einer Pr\u00e4zision, die man erst erkennt, wenn man genauer hinsieht. W\u00f6lfe gelten als soziale Tiere: loyal, verspielt, eng im Rudel verbunden. Doch was sie von anderen Rudeltieren unterscheidet, ist ihre Bereitschaft zur offenen Auseinandersetzung. Der Wolf weicht nicht aus. Er stellt sich. Er zeigt Z\u00e4hne &ndash; nicht aus Aggression, sondern aus Klarheit. Er definiert, wer er ist, indem er sagt, was er nicht hinnimmt.</p>
+          <p class="vb-intro">Die deutsche Komikerin Anke Engelke ist eine W\u00f6lfin. Ihre B\u00fchne ist das Rudel: Ensemble, Comedy-Partner, Kolleginnen. Ihre St\u00e4rke kommt nicht aus Isolation, sondern aus Verbindung. Und ihr Humor ist kein R\u00fcckzug &ndash; er ist ein Auftreten. Direkt. Unverkleidet. Mit Z\u00e4hnen, die man sieht, weil man wei\u00df, dass dahinter kein Angriff steckt &ndash; sondern Klarheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Antwort auf die Angst (Kontratyp)</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist in der Enneagramm-Tradition der Kontratyp der Sechs &ndash; der Subtyp, der die Angst nicht zeigt, sondern \u00fcberdeckt: durch St\u00e4rke, durch Direktheit, durch eine Energie, die nach au\u00dfen eher nach Sieben oder Acht aussieht als nach der gr\u00fcblerischen Sechs, die man erwarten w\u00fcrde. Naranjo nannte diesen Subtyp <em>Strength</em> &ndash; St\u00e4rke als Gegengewicht zur inneren Unsicherheit.</p>
+          <p class="vb-intro">Anke Engelke wirkt nicht \u00e4ngstlich. Sie wirkt mutig, schlagfertig, unersch\u00fctterlich. Was man nicht sofort sieht: Diese St\u00e4rke ist erarbeitet. Die SX6 konfrontiert ihre Angst, indem sie ihr entgegengeht &ndash; auf die B\u00fchne geht, sich exponiert, riskiert. Engelke hat das \u00fcber Jahrzehnte getan: in Live-Sendungen, in Rollen, die Verletzlichkeit fordern, in Momenten, die schiefgehen konnten. Die St\u00e4rke der SX6 ist keine Abwesenheit von Angst. Sie ist die Entscheidung, trotzdem zu erscheinen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerfl\u00fcgel: Humor als Heimat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerfl\u00fcgel</strong> verleiht der sexuellen Sechs eine Leichtigkeit, die ihr ohne ihn fehlen w\u00fcrde. Bei schwach ausgepr\u00e4gtem Siebenerfl\u00fcgel tendiert die Sechs zur Schwere: Gr\u00fcbeln, Misstrauen, das st\u00e4ndige Abw\u00e4gen von Risiken. Der Siebenerfl\u00fcgel hellt das auf &ndash; er bringt Neugier, Spielfreude, die F\u00e4higkeit, Verbindungen herzustellen, die anderen nicht auffallen.</p>
+          <p class="vb-intro">Bei Anke Engelke zeigt sich das schon im Beginn ihrer Karriere. Mit 14 Jahren moderiert sie das <em>ZDF-Ferienprogramm</em> und die w\u00f6chentliche Kindersport-Sendung <em>Pfiff</em> &ndash; als Teenager, der anderen Kindern Sommer und Sport n\u00e4herbringt. Diese fr\u00fche Selbstverst\u00e4ndlichkeit auf der B\u00fchne hat einen Grund: Es ist der Siebenerfl\u00fcgel, der die Angst \u00fcberspielt, bevor sie sich festsetzen kann. Aus diesem Beginn w\u00e4chst eine Karriere voller Wechsel &ndash; Fernsehen, Radio, Comedy, Schauspiel, Synchron, Gesang. Kein Format zu viel, keine Richtung zu eng. Ihr Humor ist selten bitter &ndash; er ist warm, absurd, bisweilen kindlich. Das ist der Siebenerfl\u00fcgel: Angst in Spiel verwandeln, und zwar schon mit vierzehn.</p>
+          <p class="vb-intro">Seit 1996 verbindet sie eine der langlebigsten Partnerschaften der deutschen Comedy-Geschichte mit <a href="#beruehmte-bastian-pastewka">Bastian Pastewka (SE3w2)</a>, den sie bei ›Die Wochenshow‹ kennenlernte – gemeinsame Formate von ›Fröhliche Weihnachten! – mit Wolfgang und Anneliese‹ bis ›Wiedersehen macht Freude‹ zeugen von einer Zusammenarbeit, die über Jahrzehnte trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Angst als unsichtbarer Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sechs hei\u00dft <strong>Angst</strong> &ndash; aber in der sexuellen Sechs zeigt sie sich paradox. Nicht als L\u00e4hmung, sondern als Treibstoff. Die SX6 bewegt sich auf das zu, was sie f\u00fcrchtet. Sie sucht die Konfrontation. Sie provoziert, testet, fordert heraus &ndash; nicht weil es ihr leichtf\u00e4llt, sondern weil sie gelernt hat, dass St\u00e4rke das einzige Mittel ist, das zuverl\u00e4ssig wirkt.</p>
+          <p class="vb-intro">Engelkes Karriere ist durchzogen von Momenten, die Mut erforderten: eine eigene Late-Night-Show tragen, politische Satire wagen, international auftreten. 2011 moderierte sie den Eurovision Song Contest &ndash; eine B\u00fchne, auf der alles schiefgehen kann, vor hunderten Millionen Zuschauern. Sie wirkte souver\u00e4n. Dahinter stand die Entscheidung der SX6: Ich gehe hinein. Ich stelle mich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Mut, der andere ermutigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was die sexuelle Sechs mit Siebenerfl\u00fcgel als St\u00e4rke gibt, ist mehr als pers\u00f6nlicher Mut. Es ist ein Modell. Wer Anke Engelke zusieht, sieht jemanden, der sich nicht kleiner macht. Der seinen Raum einnimmt. Der Fehler zum Teil der Vorstellung macht, Unsicherheit zum Ausdrucksmittel &ndash; und damit anderen die Erlaubnis gibt, das auch zu tun.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX6w7: Mut durch Erscheinen. Nicht die Abwesenheit von Zweifel, sondern das Einladen des Zweifels auf die B\u00fchne &ndash; und das Spielen damit. Das ist Anke Engelke. Das ist der Wolf, der tanzt.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-bastian-pastewka", label:"Portr\u00e4t: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function jenniferAnistonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7421,72 +7481,6 @@ function spinozaPortraitPage() {
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – tödliche Lungenerkrankung"},
       ])}
-    </div>
-  `);
-}
-
-function marieCuriePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Marie Curie</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltende Typ 5 mit Sechserfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Physikerin und Chemikerin, 1867&ndash;1934 &ndash; einzige Person mit Nobelpreisen in zwei verschiedenen Naturwissenschaften &ndash; Tierentsprechung: Eule</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Eule</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der Stille und der Tiefe, das sieht, was andere nicht sehen, und sich sein Revier nicht aus L\xe4rm, sondern aus Genauigkeit baut. Marie Curie, geboren 1867 als Maria Salomea Skłodowska in Warschau, verk\xf6rperte genau diese Qualit\xe4t: Sie verlie\xdf ihre Heimat, weil Frauen dort nicht studieren durften, lebte in Paris zeitweise von Brot und Tee, um sich das Studium leisten zu k\xf6nnen &ndash; und wurde die einzige Person der Geschichte, die Nobelpreise in zwei unterschiedlichen Naturwissenschaften erhielt (Physik 1903, Chemie 1911).</p>
-          <p class="vb-intro">Sie entdeckte gemeinsam mit ihrem Mann Pierre die Elemente Polonium und Radium, arbeitete jahrelang unter gesundheitsgef\xe4hrdenden Bedingungen in einem notd\xfcrftig eingerichteten Schuppen &ndash; und starb schlie\xdflich an den Folgen der jahrzehntelangen Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Sicherheit durch Wissen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Refugium&ldquo; nannte &ndash; ein R\xfcckzug in einen abgeschotteten, selbst kontrollierten Raum, in dem Wissen zur eigentlichen Existenzgrundlage wird. Curie lebte diese Haltung radikal: Ihr Pariser Studentenzimmer war so sp\xe4rlich beheizt, dass Wasser im Waschbecken gefror, ihre Ern\xe4hrung reduzierte sie auf das Notwendigste &ndash; nicht aus Armut allein, sondern aus einer fast asketischen Priorisierung des Studiums \xfcber alles andere.</p>
-          <p class="vb-intro">Dieselbe Haltung pr\xe4gte ihre gesamte Forscherlaufbahn: jahrelange, m\xfchsame Handarbeit an tonnenweise Pechblende, um wenige Milligramm Radium zu isolieren &ndash; keine spektakul\xe4re Eingebung, sondern eine methodische, fast st\xf6rrische Ausdauer, die Sicherheit einzig aus der eigenen fachlichen Kompetenz bezog.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Die Bindung als Fundament</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Eine SE5 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte ihre Forschung m\xf6glicherweise vollst\xe4ndig allein und isoliert betrieben. Bei Curie trat stattdessen eine tiefe, loyale Bindungsf\xe4higkeit hervor: Ihre Ehe mit Pierre Curie war zugleich eine wissenschaftliche Partnerschaft auf Augenh\xf6he &ndash; gemeinsame Laborarbeit, gemeinsame Ver\xf6ffentlichungen, ein gemeinsamer Nobelpreis 1903.</p>
-          <p class="vb-intro">Als Pierre 1906 bei einem Verkehrsunfall starb, \xfcbernahm Marie nicht nur seine Professur an der Sorbonne &ndash; als erste Frau \xfcberhaupt &ndash;, sondern setzte die gemeinsame Forschung mit derselben Beharrlichkeit fort, die sie schon zuvor ausgezeichnet hatte. Der Sechserfl\xfcgel zeigt sich hier als F\xe4higkeit, Verlust nicht zum R\xfcckzug, sondern zur Fortsetzung der gemeinsamen Sache zu machen &ndash; Loyalit\xe4t \xfcber den Tod hinaus.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Wissenschaft im Dienst der Menschheit: Die mobilen R\xf6ntgeneinheiten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">W\xe4hrend des Ersten Weltkriegs entwickelte Curie mobile R\xf6ntgeneinheiten &ndash; sp\xe4ter &bdquo;Petites Curies&ldquo; genannt &ndash; und fuhr selbst an die Front, um verwundeten Soldaten bei der Diagnose zu helfen. Sie bildete au\xdferdem rund 150 Frauen als R\xf6ntgenassistentinnen aus. Das ist die SE5w6 in ihrer praktischsten Form: Wissen wird nicht nur angeh\xe4uft, sondern gezielt in konkreten, verl\xe4sslichen Nutzen f\xfcr andere \xfcbersetzt.</p>
-          <p class="vb-intro">Trotz zweier Nobelpreise und weltweiter Anerkennung blieb Curie \xf6ffentlich zur\xfcckhaltend, fast scheu &ndash; sie mied gro\xdfe Auftritte, wo immer m\xf6glich, und kehrte nach jeder Ehrung so schnell wie m\xf6glich ins Labor zur\xfcck. Ruhm war f\xfcr sie kein Ziel, sondern eine l\xe4stige Begleiterscheinung der eigentlichen Arbeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das unsichtbare Risiko</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Curie und ihre Zeitgenossen verstanden die Gefahren radioaktiver Strahlung zu ihren Lebzeiten nur unvollst\xe4ndig. Ihre Notizb\xfccher sind bis heute so radioaktiv kontaminiert, dass sie in bleiausgekleideten K\xe4sten aufbewahrt werden und nur mit Schutzkleidung eingesehen werden d\xfcrfen. Sie starb 1934 an aplastischer An\xe4mie, einer direkten Folge der jahrzehntelangen Strahlenexposition.</p>
-          <p class="vb-intro">Dass sie trotz fortschreitender gesundheitlicher Warnsignale nicht aufh\xf6rte weiterzuforschen, zeigt die Kehrseite der SE5: Die Hingabe an das eigene Wissensgebiet kann so vollst\xe4ndig werden, dass selbst die eigene k\xf6rperliche Sicherheit dahinter zur\xfccktritt &ndash; ein Widerspruch zum Sicherheitsbed\xfcrfnis der SE5, der sich aufl\xf6st, sobald &bdquo;Sicherheit&ldquo; nicht mehr k\xf6rperlich, sondern intellektuell verstanden wird.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Eule, die im Dunkeln das Leuchten fand</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Marie Curies Leben zeigt die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel in ihrer h\xf6chsten, wirkungsvollsten Form: radikale Hingabe an Wissen, getragen von loyaler Bindung &ndash; erst an Pierre, dann an die Sache selbst, dann an die Ausbildung einer ganzen Generation von Forscherinnen (ihre Tochter Ir\xe8ne Joliot-Curie erhielt 1935 ebenfalls den Chemie-Nobelpreis). Kein Bed\xfcrfnis nach \xf6ffentlicher B\xfchne, sondern eine stille, unerm\xfcdliche Ausdauer im Labor.</p>
-          <p class="vb-intro">Die Eule sieht im Dunkeln, was andere \xfcbersehen &ndash; und genau das tat Curie mit unsichtbarer Strahlung, die sie als Erste sichtbar und nutzbar machte. Ihr Verm\xe4chtnis leuchtet bis heute: in der Krebstherapie, in der Kernphysik, und in jeder Frau, die seither in einem Labor stand, weil eine Polin aus Warschau bewies, dass es m\xf6glich war.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-        </blockquote>
-
-        <p class="vb-intro">Die letzten Lebensjahre – geprägt von jahrzehntelanger, ungeschützter Arbeit mit radioaktiven Stoffen und dem Tod an aplastischer Anämie 1934 – werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Krankheitsporträt zu Curie</a> gedeutet.</p>
-
-        ${relatedLinks([
-          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
-          {route:"beruehmte-amelia-earhart", label:"Portr\xe4t: Amelia Earhart (SO9w1)"},
-          {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
-        ])}
-      </div>
     </div>
   `);
 }

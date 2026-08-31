@@ -5117,6 +5117,7 @@ function render() {
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-jennifer-mather": jenniferMatherPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
+      "beruehmte-stephen-hawking": stephenHawkingPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,

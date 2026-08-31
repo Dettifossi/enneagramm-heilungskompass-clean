@@ -1,3 +1,61 @@
+function lisaAntoniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-lisa-antoni-portrait.jpg" alt="Lisa Antoni – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lisa Antoni</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Musical-Darstellerin, geb. in Wien &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das seine ganze Kraft dort entfaltet, wo es sich sicher und verwurzelt fühlt. Lisa Antoni, in Wien geboren und aufgewachsen, fand diesen sicheren Grund im Wiener Musicaltheater – ihr erster großer Auftritt als Mary Vetsera in der deutschsprachigen Erstaufführung von <em>Rudolf – Affaire Mayerling</em> wurde zum Startpunkt einer Karriere, die eng mit ihrer Heimatstadt verbunden blieb.</p>
+          <p class="vb-intro">Der Cast-Mitschnitt dieser Produktion erreichte in Österreich Platin-Status – ein früher, konkreter Beleg dafür, dass Antonis Stimme und Präsenz ein breites Publikum erreichten, noch bevor sie zu einer der gefragtesten Musical-Darstellerinnen im deutschsprachigen Raum wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch verlässliches Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sie sichert sich Nähe und Zugehörigkeit durch konkrete, verlässliche Leistung im vertrauten Umfeld, nicht durch große öffentliche Gesten. Antonis Karriere liest sich wie ein Beleg für diese Haltung – Rollen in <em>Into the Woods</em>, <em>Rebecca</em>, <em>The Witches of Eastwick</em>, <em>Next to Normal</em>, <em>Showboat</em>, <em>Artus – Excalibur</em>, <em>The Addams Family</em> und <em>How to Succeed in Business Without Really Trying</em> in Österreich, Deutschland und der Schweiz.</p>
+          <p class="vb-intro">Statt sich auf eine einzelne große Rolle zu konzentrieren, baute sie über Jahre ein breites, verlässliches Repertoire innerhalb der deutschsprachigen Musicalszene auf – Fürsorge für das eigene Handwerk, ausgedrückt durch stetige, hochwertige Arbeit statt durch spektakuläre Einzelauftritte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die große Bühne als sichtbarer Höhepunkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer soliden, breiten Basis heraus doch die großen, öffentlichkeitswirksamen Rollen zu suchen. Für Antoni war das die Rolle der Christine Daaé in <em>Das Phantom der Oper</em> am Ronacher Theater in Wien – eine der bekanntesten weiblichen Hauptrollen im internationalen Musicalrepertoire, auf einer der größten Bühnen ihrer Heimatstadt.</p>
+          <p class="vb-intro">Diese Rolle bündelt beides: die verlässliche, handwerkliche Basis eines breiten Repertoires und den sichtbaren, öffentlich anerkannten Erfolg einer der begehrtesten weiblichen Musicalrollen überhaupt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus stetiger, verlässlicher Arbeit im vertrauten Umfeld heraus auch die großen, sichtbaren Rollen zu erreichen – Antonis Weg von der ersten großen Rolle in Wien bis zur Christine Daaé zeigt eine Karriere, die sich Schritt für Schritt aus solidem Handwerk heraus aufbaute.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Gelingen einer Produktion durch die eigene verlässliche Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Wunsch verbinden, in möglichst vielen verschiedenen, öffentlich sichtbaren Rollen zu bestehen – eine Stärke, die zu einem breiten Repertoire führt, aber auch die Frage aufwirft, wie viel Raum für die eine, ganz eigene Signaturrolle bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Werk: Von Mary Vetsera zu Christine Daaé</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von der Mary Vetsera in <em>Rudolf – Affaire Mayerling</em> über ein breites Repertoire im deutschsprachigen Musicaltheater bis zur Christine Daaé am Ronacher zieht sich ein roter Faden durch Antonis Werk: verlässliche, handwerklich fundierte Arbeit, die sich Schritt für Schritt zu den größten Rollen des Genres vorarbeitete.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es vertieft seine Verbindung dazu, mit jeder neuen Rolle. Lisa Antonis Weg von der Wiener Musicalbühne zu einer der bekanntesten Frauenrollen des internationalen Repertoires veranschaulicht dieses Prinzip par excellence: Erfolg, der aus stetiger Verlässlichkeit erwächst, nicht aus einem einzigen großen Sprung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
 function loiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -3029,6 +3087,7 @@ function albertEinsteinPortraitPage() {
         {route:"krankheitsportraets-albert-einstein", label:"Krankheitsportr\u00e4t: Albert Einstein (SO5w4)"},
         {route:"astrologie-albert-einstein", label:"Astrologie-Portr\u00e4t: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Portr\u00e4t: Stephen Hawking (SO5w6)"},
       ])}
     </div>
   `);

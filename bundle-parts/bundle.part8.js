@@ -1,3 +1,69 @@
+function marieCuriePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltende Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Physikerin und Chemikerin, 1867&ndash;1934 &ndash; einzige Person mit Nobelpreisen in zwei verschiedenen Naturwissenschaften &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der Stille und der Tiefe, das sieht, was andere nicht sehen, und sich sein Revier nicht aus L\xe4rm, sondern aus Genauigkeit baut. Marie Curie, geboren 1867 als Maria Salomea Skłodowska in Warschau, verk\xf6rperte genau diese Qualit\xe4t: Sie verlie\xdf ihre Heimat, weil Frauen dort nicht studieren durften, lebte in Paris zeitweise von Brot und Tee, um sich das Studium leisten zu k\xf6nnen &ndash; und wurde die einzige Person der Geschichte, die Nobelpreise in zwei unterschiedlichen Naturwissenschaften erhielt (Physik 1903, Chemie 1911).</p>
+          <p class="vb-intro">Sie entdeckte gemeinsam mit ihrem Mann Pierre die Elemente Polonium und Radium, arbeitete jahrelang unter gesundheitsgef\xe4hrdenden Bedingungen in einem notd\xfcrftig eingerichteten Schuppen &ndash; und starb schlie\xdflich an den Folgen der jahrzehntelangen Strahlenbelastung, deren Gefahr sie selbst mit erforscht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Sicherheit durch Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, den er &bdquo;Refugium&ldquo; nannte &ndash; ein R\xfcckzug in einen abgeschotteten, selbst kontrollierten Raum, in dem Wissen zur eigentlichen Existenzgrundlage wird. Curie lebte diese Haltung radikal: Ihr Pariser Studentenzimmer war so sp\xe4rlich beheizt, dass Wasser im Waschbecken gefror, ihre Ern\xe4hrung reduzierte sie auf das Notwendigste &ndash; nicht aus Armut allein, sondern aus einer fast asketischen Priorisierung des Studiums \xfcber alles andere.</p>
+          <p class="vb-intro">Dieselbe Haltung pr\xe4gte ihre gesamte Forscherlaufbahn: jahrelange, m\xfchsame Handarbeit an tonnenweise Pechblende, um wenige Milligramm Radium zu isolieren &ndash; keine spektakul\xe4re Eingebung, sondern eine methodische, fast st\xf6rrische Ausdauer, die Sicherheit einzig aus der eigenen fachlichen Kompetenz bezog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Die Bindung als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SE5 mit schw\xe4cher ausgepr\xe4gtem Sechserfl\xfcgel h\xe4tte ihre Forschung m\xf6glicherweise vollst\xe4ndig allein und isoliert betrieben. Bei Curie trat stattdessen eine tiefe, loyale Bindungsf\xe4higkeit hervor: Ihre Ehe mit Pierre Curie war zugleich eine wissenschaftliche Partnerschaft auf Augenh\xf6he &ndash; gemeinsame Laborarbeit, gemeinsame Ver\xf6ffentlichungen, ein gemeinsamer Nobelpreis 1903.</p>
+          <p class="vb-intro">Als Pierre 1906 bei einem Verkehrsunfall starb, \xfcbernahm Marie nicht nur seine Professur an der Sorbonne &ndash; als erste Frau \xfcberhaupt &ndash;, sondern setzte die gemeinsame Forschung mit derselben Beharrlichkeit fort, die sie schon zuvor ausgezeichnet hatte. Der Sechserfl\xfcgel zeigt sich hier als F\xe4higkeit, Verlust nicht zum R\xfcckzug, sondern zur Fortsetzung der gemeinsamen Sache zu machen &ndash; Loyalit\xe4t \xfcber den Tod hinaus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wissenschaft im Dienst der Menschheit: Die mobilen R\xf6ntgeneinheiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">W\xe4hrend des Ersten Weltkriegs entwickelte Curie mobile R\xf6ntgeneinheiten &ndash; sp\xe4ter &bdquo;Petites Curies&ldquo; genannt &ndash; und fuhr selbst an die Front, um verwundeten Soldaten bei der Diagnose zu helfen. Sie bildete au\xdferdem rund 150 Frauen als R\xf6ntgenassistentinnen aus. Das ist die SE5w6 in ihrer praktischsten Form: Wissen wird nicht nur angeh\xe4uft, sondern gezielt in konkreten, verl\xe4sslichen Nutzen f\xfcr andere \xfcbersetzt.</p>
+          <p class="vb-intro">Trotz zweier Nobelpreise und weltweiter Anerkennung blieb Curie \xf6ffentlich zur\xfcckhaltend, fast scheu &ndash; sie mied gro\xdfe Auftritte, wo immer m\xf6glich, und kehrte nach jeder Ehrung so schnell wie m\xf6glich ins Labor zur\xfcck. Ruhm war f\xfcr sie kein Ziel, sondern eine l\xe4stige Begleiterscheinung der eigentlichen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das unsichtbare Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Curie und ihre Zeitgenossen verstanden die Gefahren radioaktiver Strahlung zu ihren Lebzeiten nur unvollst\xe4ndig. Ihre Notizb\xfccher sind bis heute so radioaktiv kontaminiert, dass sie in bleiausgekleideten K\xe4sten aufbewahrt werden und nur mit Schutzkleidung eingesehen werden d\xfcrfen. Sie starb 1934 an aplastischer An\xe4mie, einer direkten Folge der jahrzehntelangen Strahlenexposition.</p>
+          <p class="vb-intro">Dass sie trotz fortschreitender gesundheitlicher Warnsignale nicht aufh\xf6rte weiterzuforschen, zeigt die Kehrseite der SE5: Die Hingabe an das eigene Wissensgebiet kann so vollst\xe4ndig werden, dass selbst die eigene k\xf6rperliche Sicherheit dahinter zur\xfccktritt &ndash; ein Widerspruch zum Sicherheitsbed\xfcrfnis der SE5, der sich aufl\xf6st, sobald &bdquo;Sicherheit&ldquo; nicht mehr k\xf6rperlich, sondern intellektuell verstanden wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die im Dunkeln das Leuchten fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Marie Curies Leben zeigt die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel in ihrer h\xf6chsten, wirkungsvollsten Form: radikale Hingabe an Wissen, getragen von loyaler Bindung &ndash; erst an Pierre, dann an die Sache selbst, dann an die Ausbildung einer ganzen Generation von Forscherinnen (ihre Tochter Ir\xe8ne Joliot-Curie erhielt 1935 ebenfalls den Chemie-Nobelpreis). Kein Bed\xfcrfnis nach \xf6ffentlicher B\xfchne, sondern eine stille, unerm\xfcdliche Ausdauer im Labor.</p>
+          <p class="vb-intro">Die Eule sieht im Dunkeln, was andere \xfcbersehen &ndash; und genau das tat Curie mit unsichtbarer Strahlung, die sie als Erste sichtbar und nutzbar machte. Ihr Verm\xe4chtnis leuchtet bis heute: in der Krebstherapie, in der Kernphysik, und in jeder Frau, die seither in einem Labor stand, weil eine Polin aus Warschau bewies, dass es m\xf6glich war.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        <p class="vb-intro">Die letzten Lebensjahre – geprägt von jahrzehntelanger, ungeschützter Arbeit mit radioaktiven Stoffen und dem Tod an aplastischer Anämie 1934 – werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Krankheitsporträt zu Curie</a> gedeutet.</p>
+
+        ${relatedLinks([
+          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
+          {route:"beruehmte-amelia-earhart", label:"Portr\xe4t: Amelia Earhart (SO9w1)"},
+          {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function reneDescartesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7041,64 +7107,6 @@ function lionelBoycePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Von der Rolle als „L-Boy" innerhalb von Odd Future über die gemeinsam mit Tyler, the Creator geschaffenen Serien bis zur Emmy-nominierten Rolle in <em>The Bear</em> zieht sich ein roter Faden durch Boyces Werk: kreative Nähe zuerst, sichtbarer Erfolg als Folge, nie als vorrangiges Ziel.</p>
           <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es lässt seinen engsten Kreis wachsen, ohne ihn zu verlassen. Lionel Boyces Weg vom kreativen Hintergrund einer Hip-Hop-Kollektivgruppe zum gefeierten Fernsehschauspieler zeigt dieses Muster in seiner reinsten Ausprägung: Erfolg, der aus Verlässlichkeit gegenüber den engsten Weggefährten entsteht, nicht aus dem Verlassen der eigenen Basis.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-function lisaAntoniPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-lisa-antoni-portrait.jpg" alt="Lisa Antoni – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lisa Antoni</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Österreichische Musical-Darstellerin, geb. in Wien &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das seine ganze Kraft dort entfaltet, wo es sich sicher und verwurzelt fühlt. Lisa Antoni, in Wien geboren und aufgewachsen, fand diesen sicheren Grund im Wiener Musicaltheater – ihr erster großer Auftritt als Mary Vetsera in der deutschsprachigen Erstaufführung von <em>Rudolf – Affaire Mayerling</em> wurde zum Startpunkt einer Karriere, die eng mit ihrer Heimatstadt verbunden blieb.</p>
-          <p class="vb-intro">Der Cast-Mitschnitt dieser Produktion erreichte in Österreich Platin-Status – ein früher, konkreter Beleg dafür, dass Antonis Stimme und Präsenz ein breites Publikum erreichten, noch bevor sie zu einer der gefragtesten Musical-Darstellerinnen im deutschsprachigen Raum wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch verlässliches Handwerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Sie sichert sich Nähe und Zugehörigkeit durch konkrete, verlässliche Leistung im vertrauten Umfeld, nicht durch große öffentliche Gesten. Antonis Karriere liest sich wie ein Beleg für diese Haltung – Rollen in <em>Into the Woods</em>, <em>Rebecca</em>, <em>The Witches of Eastwick</em>, <em>Next to Normal</em>, <em>Showboat</em>, <em>Artus – Excalibur</em>, <em>The Addams Family</em> und <em>How to Succeed in Business Without Really Trying</em> in Österreich, Deutschland und der Schweiz.</p>
-          <p class="vb-intro">Statt sich auf eine einzelne große Rolle zu konzentrieren, baute sie über Jahre ein breites, verlässliches Repertoire innerhalb der deutschsprachigen Musicalszene auf – Fürsorge für das eigene Handwerk, ausgedrückt durch stetige, hochwertige Arbeit statt durch spektakuläre Einzelauftritte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Die große Bühne als sichtbarer Höhepunkt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer soliden, breiten Basis heraus doch die großen, öffentlichkeitswirksamen Rollen zu suchen. Für Antoni war das die Rolle der Christine Daaé in <em>Das Phantom der Oper</em> am Ronacher Theater in Wien – eine der bekanntesten weiblichen Hauptrollen im internationalen Musicalrepertoire, auf einer der größten Bühnen ihrer Heimatstadt.</p>
-          <p class="vb-intro">Diese Rolle bündelt beides: die verlässliche, handwerkliche Basis eines breiten Repertoires und den sichtbaren, öffentlich anerkannten Erfolg einer der begehrtesten weiblichen Musicalrollen überhaupt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus stetiger, verlässlicher Arbeit im vertrauten Umfeld heraus auch die großen, sichtbaren Rollen zu erreichen – Antonis Weg von der ersten großen Rolle in Wien bis zur Christine Daaé zeigt eine Karriere, die sich Schritt für Schritt aus solidem Handwerk heraus aufbaute.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Gelingen einer Produktion durch die eigene verlässliche Leistung unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Wunsch verbinden, in möglichst vielen verschiedenen, öffentlich sichtbaren Rollen zu bestehen – eine Stärke, die zu einem breiten Repertoire führt, aber auch die Frage aufwirft, wie viel Raum für die eine, ganz eigene Signaturrolle bleibt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Von Mary Vetsera zu Christine Daaé</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Von der Mary Vetsera in <em>Rudolf – Affaire Mayerling</em> über ein breites Repertoire im deutschsprachigen Musicaltheater bis zur Christine Daaé am Ronacher zieht sich ein roter Faden durch Antonis Werk: verlässliche, handwerklich fundierte Arbeit, die sich Schritt für Schritt zu den größten Rollen des Genres vorarbeitete.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es vertieft seine Verbindung dazu, mit jeder neuen Rolle. Lisa Antonis Weg von der Wiener Musicalbühne zu einer der bekanntesten Frauenrollen des internationalen Repertoires veranschaulicht dieses Prinzip par excellence: Erfolg, der aus stetiger Verlässlichkeit erwächst, nicht aus einem einzigen großen Sprung.</p>
         </blockquote>
 
       </div>

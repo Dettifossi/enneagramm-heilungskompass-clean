@@ -1465,6 +1465,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Georg Wilhelm Friedrich Hegel – Social Type 5",
     teaser:"SO5w6 · 1770–1831. German philosopher, the culmination of German Idealism. Phenomenology of Spirit, dialectics, Philosophy of Right. The octopus with the Six-wing: an all-encompassing system, security through state and teaching authority. Animal correspondence: Octopus.",
     land:"Germany", tags:["History","Philosophy"], gender:"m"},
+{ route:"beruehmte-stephen-hawking", name:"Stephen Hawking", added:"2026-08-31", subtyp:"SO5w6",
+    heading:"Stephen Hawking – Social Type 5",
+    teaser:"SO5w6 · 1942–2018. British theoretical physicist, work on black holes and Hawking radiation, worldwide bestseller \"A Brief History of Time.\" The octopus with the Six-wing: the most complex physics translated for a mass audience, alongside progressive ALS paralysis from age 21 onward. Animal correspondence: Octopus.",
+    land:"United Kingdom", tags:["Science"], gender:"m"},
 { route:"beruehmte-isaac-newton", name:"Isaac Newton", added:"2026-08-14", subtyp:"SO5w6",
     heading:"Isaac Newton – Social Type 5",
     teaser:"SO5w6 · 1642/43–1727. English physicist and mathematician, Principia Mathematica, law of gravitation. Decades of hidden alchemy and theology studies, priority dispute with Leibniz, president of the Royal Society. The octopus with the Six-wing: knowledge as an instrument of power, security through institutional control. Animal correspondence: Octopus.",
@@ -22861,6 +22865,7 @@ function albertEinsteinPortraitPage() {
         {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4)"},
         {route:"astrologie-albert-einstein", label:"Astrology Portrait: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
       ])}
     </div>
   `);
@@ -34047,6 +34052,72 @@ function pythagorasPortraitPage() {
   `);
 }
 
+function stephenHawkingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">1942&ndash;2018 &ndash; theoretical physicist, "A Brief History of Time" &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Who Translated the Universe for Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; highly intelligent, a master problem-solver, and yet no pure loner: it reshapes its complex thinking so that others can access it too. Stephen Hawking, born in 1942 in Oxford to a medical researcher father and a political-science-educated mother, already showed at school an unusual ability, for his age, to translate complicated matters into understandable images &ndash; a talent that would shape his entire later work.</p>
+          <p class="vb-intro">At 21, shortly before finishing his studies at Oxford, Hawking received the diagnosis of amyotrophic lateral sclerosis (ALS) and a prognosis of only a few more years to live. He lived another 55 years &ndash; with progressive, eventually total paralysis, but undiminished scientific sharpness. The details of this fifty-five-year illness course are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-stephen-hawking">illness portrait of Hawking</a>; this portrait is devoted to his scientific life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge That Belongs to Humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> finds security not in withdrawal, but in becoming indispensable to a larger community through knowledge. Naranjo described this subtype through the image of someone who treats their understanding as a kind of legacy &ndash; something that must be shared to reach its full value. Hawking's research on black holes, particularly Hawking radiation, named after him (1974, the theoretical prediction that black holes are not entirely black but slowly emit radiation and eventually evaporate), ranks among the most influential contributions to twentieth-century theoretical physics.</p>
+          <p class="vb-intro">Yet Hawking never confined himself to the specialist world. In 1988 he published "A Brief History of Time" &ndash; a book meant to make the most complex cosmology accessible to a general audience, which sold over ten million copies in more than forty languages. The octopus reshapes its body to fit through any gap &ndash; Hawking kept reshaping the language of theoretical physics until it fit through the narrow opening of general understanding.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Reliability as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a systematic note oriented toward reliability &ndash; rather than relying on spontaneous flashes of insight, it builds tested, repeatable systems and trusts a small, loyal circle. As his paralysis progressed, this became existential for Hawking: for decades he surrounded himself with a carefully coordinated, very small team of caregivers, technical assistants, and doctoral students who maintained his computer-based communication system and accompanied him around the clock.</p>
+          <p class="vb-intro">His academic career shows the same Six-wing note: from 1979 to 2009 he held the Lucasian Chair of Mathematics at Cambridge &ndash; the very chair once held by Isaac Newton (SO5w6). Belonging to an institution tested reliable over centuries was more than a formality for Hawking: it was exactly the kind of security an SO5w6 instinctively seeks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. "A Brief History of Time"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When "A Brief History of Time" appeared in 1988, Hawking was already largely paralyzed and dependent on a speech synthesizer. The book attempts to explain the great questions of cosmology &ndash; the Big Bang, black holes, the nature of time itself &ndash; without mathematical formulas; Hawking reportedly avoided complex equations deliberately, convinced that every additional formula would halve the book's sales.</p>
+          <p class="vb-intro">Its success exceeded every expectation: the book spent 237 weeks on the Sunday Times bestseller list, was translated into more than forty languages, and made Hawking one of the few scientists to become a cultural figure far beyond his own discipline &ndash; with guest appearances on "Star Trek: The Next Generation" and "The Big Bang Theory," and a 2007 zero-gravity flight during which, already nearly completely paralyzed, he briefly experienced the weightlessness he had written about only theoretically for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w6 is the ability to prepare the most complex knowledge so that it becomes accessible to millions without losing its substance. More than any other physicist of his generation, Hawking helped make cosmology common knowledge &ndash; a public mission to share knowledge that reached far beyond academic circles.</p>
+          <p class="vb-intro">The shadow shows in a certain personal distance: both of Hawking's marriages ended in divorce, and colleagues repeatedly described him as someone who maintained a certain analytical distance even within his closest circle &ndash; the SO5-typical tendency to process existential and emotional questions through the detour of intellect rather than through direct emotional expression.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Universe for Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Stephen Hawking left behind cannot be reduced to Hawking radiation or a single book. He changed how an entire generation thought about the universe, about black holes, about the limits of human knowledge &ndash; and he did so increasingly even as his own body took more and more from him.</p>
+          <p class="vb-intro">That is the gift of the SO5w6 in its most striking form: knowledge that is not hoarded but shared with the largest possible community, carried by a reliable system of trusted people and technology. The octopus whose own body was taken from him piece by piece &ndash; who still found a way to make the entire universe understandable to a mass audience.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Illness Portrait: Stephen Hawking (SO5w6) – 55 years with ALS"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6) – same chair"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function isaacNewtonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -34111,6 +34182,7 @@ function isaacNewtonPortraitPage() {
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
         {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – nervous breakdown from mercury poisoning"},
         {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6) – same chair"},
       ])}
     </div>
   `);
@@ -62949,12 +63021,14 @@ function stephenHawkingKrankheitsportraetPage() {
         </p>
       </div>
       <p class="psycho-intro">
-        <strong>Stephen Hawking</strong> is one of the best-known physicists of the twentieth
-        century – famous for his work on black holes and for the diagnosis that shadowed his
-        entire adult life: amyotrophic lateral sclerosis (ALS), a progressive disease of the
-        nerve cells that increasingly paralyzes the muscles. Diagnosed at 21 and given a
-        life expectancy of two years, he lived another 55 years – with complete loss of
-        voluntary muscle control, but an unbroken sharpness of mind until the very end.
+        <strong>Stephen Hawking</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">famous-personality portrait</a>
+        – that page covers his scientific life's work, from Hawking radiation to "A Brief
+        History of Time." This page goes deeper into a chapter only touched on there:
+        amyotrophic lateral sclerosis (ALS), a progressive disease of the nerve cells that
+        increasingly paralyzes the muscles. Diagnosed at 21 and given a life expectancy of
+        two years, he lived another 55 years – with complete loss of voluntary muscle
+        control, but an unbroken sharpness of mind until the very end.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
@@ -63108,6 +63182,7 @@ function stephenHawkingKrankheitsportraetPage() {
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6) – life's work"},
         {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – same subtype, same chair"},
         {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern of unabated work to the end"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
@@ -104564,6 +104639,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jennifer-mather": jenniferMatherPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-pythagoras": pythagorasPortraitPage,
+      "beruehmte-stephen-hawking": stephenHawkingPortraitPage,
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
