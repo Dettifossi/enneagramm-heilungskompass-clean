@@ -8502,7 +8502,7 @@ function karlLagerfeldKrankheitsportraetPage() {
         Selbst als der Rückzug unübersehbar wurde, blieb die offizielle Sprachregelung im
         Rahmen des Kontrollierbaren – "Erschöpfung" statt Krankheit, ein Begriff, der
         Schwäche zeitlich begrenzt, nicht bedrohlich erscheinen lässt.</p>
-        <p class="vb-intro"><strong>c) Der Gepard, der bis zur letzten Show im vollen Sprint blieb:</strong>
+        <p class="vb-intro"><strong>c) Kein Tempowechsel bis zur letzten Show:</strong>
         Die Energie der SO3w4 richtete sich bis zuletzt auf denselben Antrieb, der Lagerfelds
         gesamte Karriere prägte: keine Kollektion, keinen Auftritt, kein Bild zuzulassen, das
         nicht der eigenen Inszenierung entsprach.</p>
@@ -8683,7 +8683,7 @@ function friedrichSchillerKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der sich nicht zurückzog, sondern angriff:</strong>
+        <p class="vb-intro"><strong>a) Angriff statt Rückzug:</strong>
         Wie er einst dem Herzog Karl Eugen und der Zensur die Stirn geboten hatte, begegnete
         Schiller auch der eigenen Krankheit nicht mit Rückzug, sondern mit fortgesetzter,
         kompromissloser Arbeit.</p>
@@ -8719,8 +8719,8 @@ function friedrichSchillerKrankheitsportraetPage() {
         Unterdrückung bestand – deren Stimme selbst zur Waffe wurde –, liegt eine Deutung
         nahe: ausgerechnet das Organ, das Stimme, Atem und Widerstand physisch trägt, wurde
         Schauplatz eines jahrzehntelangen, unsichtbaren Kampfes, den er nie durch Rückzug,
-        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte. Der Wolf, der so lange
-        weiterkämpfte, bis buchstäblich kein Atem mehr blieb. Diese Deutung wird im
+        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte, bis buchstäblich kein
+        Atem mehr blieb. Diese Deutung wird im
         Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
@@ -8872,7 +8872,7 @@ function ottoVonBismarckKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der sich einem einzigen Vertrauten öffnete:</strong>
+        <p class="vb-intro"><strong>a) Offenheit für genau einen Vertrauten:</strong>
         Dass ausgerechnet Schweninger, ein junger Außenseiter ohne höfischen Rückhalt, zum
         einzigen Arzt wurde, dem Bismarck wirklich folgte, zeigt die SX6w5 in ihrer seltenen,
         gesunden Form: Kontrolle abzugeben, wenn das Vertrauen wirklich verdient scheint.</p>
@@ -9396,7 +9396,7 @@ function ludwigVanBeethovenKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der auch dem eigenen Körper die Zähne zeigte:</strong>
+        <p class="vb-intro"><strong>a) Kampfhaltung auch gegen den eigenen Körper:</strong>
         Wie er einst Fürst Lichnowsky die Stirn geboten hatte, begegnete Beethoven auch der
         eigenen, doppelten Erkrankung nicht mit Rückzug oder Schonung, sondern mit fortgesetzter,
         kompromissloser Arbeit bis zuletzt.</p>

@@ -81335,7 +81335,7 @@ function karlLagerfeldKrankheitsportraetPage() {
         Selbst als der Rückzug unübersehbar wurde, blieb die offizielle Sprachregelung im
         Rahmen des Kontrollierbaren – "Erschöpfung" statt Krankheit, ein Begriff, der
         Schwäche zeitlich begrenzt, nicht bedrohlich erscheinen lässt.</p>
-        <p class="vb-intro"><strong>c) Der Gepard, der bis zur letzten Show im vollen Sprint blieb:</strong>
+        <p class="vb-intro"><strong>c) Kein Tempowechsel bis zur letzten Show:</strong>
         Die Energie der SO3w4 richtete sich bis zuletzt auf denselben Antrieb, der Lagerfelds
         gesamte Karriere prägte: keine Kollektion, keinen Auftritt, kein Bild zuzulassen, das
         nicht der eigenen Inszenierung entsprach.</p>
@@ -81516,7 +81516,7 @@ function friedrichSchillerKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der sich nicht zurückzog, sondern angriff:</strong>
+        <p class="vb-intro"><strong>a) Angriff statt Rückzug:</strong>
         Wie er einst dem Herzog Karl Eugen und der Zensur die Stirn geboten hatte, begegnete
         Schiller auch der eigenen Krankheit nicht mit Rückzug, sondern mit fortgesetzter,
         kompromissloser Arbeit.</p>
@@ -81552,8 +81552,8 @@ function friedrichSchillerKrankheitsportraetPage() {
         Unterdrückung bestand – deren Stimme selbst zur Waffe wurde –, liegt eine Deutung
         nahe: ausgerechnet das Organ, das Stimme, Atem und Widerstand physisch trägt, wurde
         Schauplatz eines jahrzehntelangen, unsichtbaren Kampfes, den er nie durch Rückzug,
-        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte. Der Wolf, der so lange
-        weiterkämpfte, bis buchstäblich kein Atem mehr blieb. Diese Deutung wird im
+        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte, bis buchstäblich kein
+        Atem mehr blieb. Diese Deutung wird im
         Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
@@ -81705,7 +81705,7 @@ function ottoVonBismarckKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der sich einem einzigen Vertrauten öffnete:</strong>
+        <p class="vb-intro"><strong>a) Offenheit für genau einen Vertrauten:</strong>
         Dass ausgerechnet Schweninger, ein junger Außenseiter ohne höfischen Rückhalt, zum
         einzigen Arzt wurde, dem Bismarck wirklich folgte, zeigt die SX6w5 in ihrer seltenen,
         gesunden Form: Kontrolle abzugeben, wenn das Vertrauen wirklich verdient scheint.</p>
@@ -82229,7 +82229,7 @@ function ludwigVanBeethovenKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der auch dem eigenen Körper die Zähne zeigte:</strong>
+        <p class="vb-intro"><strong>a) Kampfhaltung auch gegen den eigenen Körper:</strong>
         Wie er einst Fürst Lichnowsky die Stirn geboten hatte, begegnete Beethoven auch der
         eigenen, doppelten Erkrankung nicht mit Rückzug oder Schonung, sondern mit fortgesetzter,
         kompromissloser Arbeit bis zuletzt.</p>
@@ -83005,7 +83005,7 @@ function konradAdenauerKrankheitsportraetPage() {
         Die Fähigkeit, unter existenzieller Bedrohung – Unfall, Verfolgung, Haft – äußerlich
         gefasst zu bleiben, war keine Abwesenheit von Angst, sondern eine trainierte,
         disziplinierte Kanalisierung der eigenen Anspannung in kontrolliertes Handeln.</p>
-        <p class="vb-intro"><strong>c) Der Adler, der bis zuletzt im Amt blieb:</strong>
+        <p class="vb-intro"><strong>c) Kein Rückzug aus dem Amt:</strong>
         Die Energie der SE1w9 richtete sich bis ins hohe Alter auf dieselbe Grundhaltung:
         Ordnung schaffen, Verantwortung tragen, nicht aufgeben, solange die Aufgabe nicht
         erfüllt ist.</p>
@@ -84617,7 +84617,7 @@ function ladyDianaKrankheitsportraetPage() {
         Diana beschrieb selbst, dass sich sowohl Bulimie als auch Selbstverletzung
         verstärkten, wenn Charles die Beziehung zu Camilla wieder aufnahm – das Leiden als
         direkte Reaktion auf wiederholte emotionale Zurückweisung.</p>
-        <p class="vb-intro"><strong>c) Die Taube, die schließlich selbst sprach:</strong>
+        <p class="vb-intro"><strong>c) Die eigene Botschaft, endlich selbst ausgesprochen:</strong>
         Der Dreierflügel, der sonst Botschaften für andere trug, wandte sich 1995 der eigenen
         Geschichte zu – ein seltener Moment, in dem die öffentliche Bühne nicht der Imagepflege,
         sondern der eigenen Wahrheit diente.</p>
@@ -84797,7 +84797,7 @@ function freddieMercuryKrankheitsportraetPage() {
         Anders als ein offener Zusammenbruch zeigte sich Mercurys Reaktion auf die Krankheit
         als gesteigerte kreative Intensität – er nutzte die verbleibende Zeit, um so viel
         Musik wie möglich fertigzustellen, statt sich zurückzuziehen.</p>
-        <p class="vb-intro"><strong>c) Der Chihuahua, der bis zuletzt nicht aufhörte zu bellen:</strong>
+        <p class="vb-intro"><strong>c) Kein Verstummen bis zuletzt:</strong>
         Bis zum letzten möglichen Moment blieb die schöpferische Energie ungebrochen –
         selbst als der Körper längst nicht mehr mithalten konnte.</p>
       </div>
@@ -84978,7 +84978,7 @@ function albertEinsteinKrankheitsportraetPage() {
         Statt sich mit der Endlichkeit emotional auseinanderzusetzen, vertiefte er sich bis
         zum letzten bewussten Moment in Gleichungen und Texte – die vertraute Zuflucht in
         die Sache.</p>
-        <p class="vb-intro"><strong>c) Der Oktopus, der die Tinte selbst wählte:</strong>
+        <p class="vb-intro"><strong>c) Die eigene Verschleierung, selbst gewählt:</strong>
         Wo andere sich dem Zufall oder dem medizinischen Eingriff überlassen hätten, behielt
         Einstein bis zuletzt die Deutungshoheit über den eigenen Tod – eine letzte Form von
         Autonomie.</p>
@@ -85150,7 +85150,7 @@ function robertSchumannKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die Intensität, die sich gegen sich selbst wandte:</strong>
+        <p class="vb-intro"><strong>a) Die eigene Intensität als Gegner:</strong>
         Dieselbe schrankenlose Hingabefähigkeit, die Schumanns kreative Schübe trug – ganze
         Jahre, die ausschließlich einem einzigen Genre gewidmet waren –, richtete sich in der
         Krise mit derselben Wucht gegen ihn selbst: keine gebremste Traurigkeit, sondern ein
@@ -85335,7 +85335,7 @@ function franzLisztKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht kürzertrat:</strong>
+        <p class="vb-intro"><strong>a) Kein Kürzertreten bis zuletzt:</strong>
         Dieselbe unerschöpfliche Begeisterungsfähigkeit, die Liszt jahrzehntelang durch ganz
         Europa trieb, ließ ihn auch angesichts massiver gesundheitlicher Warnsignale nicht
         innehalten.</p>
@@ -86601,7 +86601,7 @@ function peterFalkKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Büffel, der die Kontrolle über sein eigenes Umfeld verlor:</strong>
+        <p class="vb-intro"><strong>a) Kontrollverlust über das eigene Umfeld:</strong>
         Wo Falk sein ganzes Leben lang die Fähigkeit besaß, sich selbst in jede Umgebung
         einzufügen und dort Frieden zu stiften, konnte er in seinen letzten Jahren nicht mehr
         vermitteln, als genau dieser Frieden um ihn herum zerbrach.</p>
@@ -86778,7 +86778,7 @@ function leonardBernsteinKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Schimpanse, der bis zuletzt nicht innehalten konnte:</strong>
+        <p class="vb-intro"><strong>a) Kein Innehalten bis zuletzt:</strong>
         Seine gesamte Karriere war von der Unfähigkeit geprägt, ein Projekt, eine Rolle oder
         eine Bühne aufzugeben – genau dieses Muster setzte sich bis in seine letzten Wochen
         fort, als es längst um die eigene Gesundheit ging.</p>
@@ -88473,7 +88473,7 @@ function charlesMansonKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, der auch im Sterben keine Schwäche zeigte:</strong>
+        <p class="vb-intro"><strong>a) Keine Schwäche, auch im Sterben nicht:</strong>
         Dieselbe Kontrollhaltung, mit der Manson jahrzehntelang seine Anhänger und später sein
         öffentliches Bild steuerte, bestimmte auch, wie wenig über seinen Krankheitsverlauf
         nach außen drang.</p>
@@ -88660,7 +88660,7 @@ function bernieMadoffKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Waschbär, der auch im Krankenbett keine Spur hinterließ:</strong>
+        <p class="vb-intro"><strong>a) Keine Spur, auch im Krankenbett nicht:</strong>
         Dieselbe Fähigkeit, jahrzehntelang unauffällig zu bleiben, bestimmte auch, wie wenig
         über seinen Gesundheitszustand öffentlich bekannt wurde.</p>
         <p class="vb-intro"><strong>b) Kontrolle über die eigene Erzählung bis zuletzt:</strong>
@@ -89032,7 +89032,7 @@ function johnGottiKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Löwe, der keine Schwäche zeigen durfte:</strong>
+        <p class="vb-intro"><strong>a) Schwäche, die nicht gezeigt werden durfte:</strong>
         Dieselbe Weigerung, jemals Verletzlichkeit einzugestehen, die Gottis gesamtes
         öffentliches Auftreten prägte, bestimmte auch, wie wenig über seine Krankheit nach
         außen drang.</p>
