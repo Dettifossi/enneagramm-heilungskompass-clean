@@ -3420,3 +3420,197 @@ export function wilmaMankillerKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function sammyDavisJrKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sammy-davis-jr-portrait.jpg" alt="Sammy Davis Jr." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sammy Davis Jr.</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel · 1925–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Kamel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Tierentsprechung: Kamel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sammy Davis Jr.</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-sammy-davis-jr">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein sechs Jahrzehnte umspannendes
+        Lebenswerk und seine Typstruktur im Allgemeinen. Hier rückt ein Kapitel in den
+        Vordergrund, das dort nur gestreift wird: die im Spätsommer 1989 diagnostizierte
+        Krebserkrankung, die er der Öffentlichkeit lange verbarg, während er weiter auftrat –
+        bis zu seinem Tod im Mai 1990 im Alter von 64 Jahren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sammy Davis Jr.</strong> ist dem <strong>sexuellen Typ 2 mit Dreierflügel</strong>
+        zugeordnet. Die SX2 richtet die Fürsorge und Verführungskraft der Zwei ganz auf die
+        eine, exklusive Verbindung – bei Davis auf sein Publikum, seine Rat-Pack-Freunde und
+        die Bühne selbst. Der Dreierflügel bringt den unbedingten Willen zum sichtbaren
+        Auftritt hinzu, verbunden mit der Weigerung, dem Publikum je ein Nachlassen der
+        eigenen Leistungsfähigkeit zuzumuten. Genau dieses Muster hielt Davis noch auf der
+        Bühne, als seine Diagnose längst feststand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Kratzen im Hals, das nicht verschwand:</strong>
+        Im Spätsommer 1989 fanden Ärzte bei Davis einen Tumor im Rachenraum – ein Befund,
+        der zunächst mit acht Wochen Strahlentherapie behandelt wurde und zeitweise Wirkung
+        zu zeigen schien.</p>
+        <p class="vb-intro"><strong>b) Auftreten trotz Diagnose:</strong>
+        Obwohl die Diagnose bereits feststand, moderierte Davis am Labor-Day-Wochenende 1989
+        den New Yorker Teil von Jerry Lewis' Muscular-Dystrophy-Telethon – 24 Stunden auf
+        Sendung, ohne dass sein Zustand öffentlich thematisiert wurde.</p>
+        <p class="vb-intro"><strong>c) Jerry Lewis' Rückblick:</strong>
+        Jerry Lewis erinnerte sich später: "Sammy hat den Telethon im vergangenen September
+        gemacht und wusste, wie seine Prognose aussah … Er wusste, dass er Krebs hatte, aber
+        er war 24 Stunden auf Sendung."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine vermeintliche Zahnfleischentzündung:</strong>
+        Anfang 1990 wurde ein zunächst als Zahnfleischinfektion eingeordneter Befund im
+        Mundraum als größerer, inoperabler Tumor erkannt.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der seit dem dritten Lebensjahr auf Sendung war:</strong>
+        Sechs Jahrzehnte nahezu ununterbrochener Auftritte – Vaudeville, Las Vegas, Broadway,
+        Fernsehen – hinterließen einen Körper, der kaum je zur Ruhe gekommen war, bevor die
+        Krankheit ihn endgültig einholte.</p>
+        <p class="vb-intro"><strong>c) Entlassung sechs Wochen vor dem Tod:</strong>
+        Als sich sein Zustand verschlechterte, wurde Davis aus dem Cedars-Sinai Medical
+        Center entlassen, um seine letzten Wochen zu Hause zu verbringen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Acht Monate zwischen Diagnose und Tod:</strong>
+        Von den ersten Symptomen im Spätsommer 1989 bis zu seinem Tod am 16. Mai 1990 lag
+        eine rund achtmonatige Krankheitsspanne, in der Davis zunächst weiter öffentlich in
+        Erscheinung trat.</p>
+        <p class="vb-intro"><strong>b) Ein Tod im Schlaf, um 5:59 Uhr:</strong>
+        Davis starb im Schlaf, in seinem Zuhause in Beverly Hills, umgeben von seiner
+        Familie – ein stiller Abschluss nach einem Leben, das fast nie still gewesen war.</p>
+        <p class="vb-intro"><strong>c) Sieben Millionen Dollar Schulden:</strong>
+        Nach zwei gescheiterten Ehen und jahrzehntelangen Suchtkämpfen hinterließ Davis
+        Berichten zufolge einen Schuldenberg von rund sieben Millionen Dollar – ein Leben,
+        das materiell so viel gegeben hatte, dass am Ende kaum etwas für ihn selbst übrig
+        blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die letzte große Bühne, wissentlich bespielt:</strong>
+        Der Telethon-Auftritt 1989 war keine Unwissenheit, sondern eine bewusste
+        Entscheidung, das Publikum nicht mit der eigenen Diagnose zu belasten – ein Akt
+        äußerster SX2-Hingabe, der zugleich die eigene Gesundheit weiter aufs Spiel setzte.</p>
+        <p class="vb-intro"><strong>b) Ein Vermächtnis aus Vielseitigkeit und Verausgabung:</strong>
+        Dieselbe Fähigkeit, sich in jede Disziplin – Gesang, Tanz, Schauspiel – vollständig
+        zu geben, die Davis' Karriere über sechs Jahrzehnte trug, ließ kaum Raum, rechtzeitig
+        innezuhalten, als der Körper längst Warnsignale sandte.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Trauer, private Erschöpfung:</strong>
+        Nach seinem Tod würdigte eine ganze Branche einen der vielseitigsten Entertainer des
+        20. Jahrhunderts – während im Hintergrund ein finanziell und körperlich erschöpfter
+        Mann zurückblieb, der bis zuletzt kaum für sich selbst gesorgt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Das Publikum als letzte Konstante:</strong>
+        Selbst mit feststehender Diagnose blieb der Auftritt vor Publikum das eine, das
+        Davis nicht aufgab – die Dreierflügel-Energie der SX2 in ihrer kompromisslosesten
+        Form.</p>
+        <p class="vb-intro"><strong>b) Verbergen als letzte Form der Fürsorge:</strong>
+        Das bewusste Verschweigen der eigenen Diagnose vor dem Publikum lässt sich als
+        letzte, äußerste Ausprägung der SX2-Fürsorge lesen: selbst im eigenen Sterben noch
+        das Wohl des Gegenübers über das eigene Leiden zu stellen.</p>
+        <p class="vb-intro"><strong>c) Das Kamel, das bis zur letzten Vorstellung trug:</strong>
+        Die Hingabe an die eine große Verbindung – an das Publikum als Ganzes – wurde bis
+        zuletzt aufrechterhalten, selbst als der Körper längst keine Reserven mehr besaß.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben, das mit drei Jahren zu geben begann:</strong>
+        Vom ersten Bühnenauftritt als Kleinkind bis zu seinem letzten Telethon 1989 zieht
+        sich eine durchgehende Linie kompromisslosen Gebens durch Davis' gesamtes Leben –
+        eine Linie, die sich am Ende auch gegen die eigene Gesundheit richtete.</p>
+        <p class="vb-intro"><strong>b) Auftreten statt Rückzug, bis zuletzt:</strong>
+        Wie bei vielen Krankheitsporträts dieses Kompasses zieht sich auch bei Davis auffällig
+        wenig Rückzug durch die letzten Lebensmonate – stattdessen ein Weitermachen, das eher
+        in Richtung des Stresspunkts der SX2, der Acht, verweist: kompromissloses
+        Durchhalten trotz eindeutiger Warnsignale, statt Kontrolle abzugeben.</p>
+        <p class="vb-intro"><strong>c) Sichtbares Leiden, öffentlich lange verschwiegen:</strong>
+        Der körperliche Zustand blieb Familie und engstem Umfeld nicht verborgen, wurde aber
+        gegenüber der Öffentlichkeit bewusst zurückgehalten – eine Verleugnung nach außen,
+        die das Weitermachen erst möglich machte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Rachen und Mund?</strong>
+        Für eine sexuelle Zwei mit Dreierflügel, deren gesamtes Instrument Stimme, Gesang und
+        Ausdruck war, liegt eine Deutung nahe: Ausgerechnet jenes Organ, mit dem Davis sechs
+        Jahrzehnte lang Verbindung zu seinem Publikum herstellte, versagte am Ende – als
+        hätte ein Leben, das ganz auf das Geben durch Stimme und Ausdruck ausgerichtet war,
+        keine Kapazität mehr übrig gehabt, das eigene Leiden auszusprechen. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Zwei zwangsläufig zu Krebserkrankungen
+        im Rachen- oder Mundraum führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Davis' Fall zeigen lässt, ist ein Muster,
+        das bei der kompromisslosen Priorisierung des Auftritts über die eigenen
+        körperlichen Warnsignale hinweg in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Davis kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Zwei mit
+        Dreierflügel lebt für die unmittelbare Verbindung zu einem Publikum und für den
+        sichtbaren, makellosen Auftritt, und genau dieser Antrieb hielt ihn 1989 noch 24
+        Stunden auf Sendung, während in seinem Körper längst ein Tumor wuchs. Wer das eigene
+        Bedürfnis nach Verbindung und Anerkennung nicht als Muster erkennt, tauscht die
+        eigene Gesundheit gegen den nächsten Applaus – nicht aus Schuld, sondern aus
+        Unwissenheit über das eigene Muster.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(74,127,145,0.08);border-left:3px solid #4a7f91;padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:1.5rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:#2e5a68;">Parallele im selben Subtyp: Sammy Davis Jr. und Elvis Presley</h3>
+        <p class="vb-intro">Unter den SX2w3-Porträts dieses Kompasses findet sich mit
+        <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Elvis Presley</a>
+        eine auffällig ähnliche Dynamik. Beide waren Entertainer, deren gesamte Identität an
+        der unmittelbaren Verbindung zum Publikum hing; beide traten weiter auf, obwohl ihr
+        Körper längst erkennbar zusammenbrach; beide starben mit deutlich verkürzter
+        Lebenserwartung – Presley mit 42, Davis mit 64 Jahren. Der entscheidende Unterschied
+        liegt im Verbergen: Wo Presleys Verfall auf der Bühne für sein Umfeld unübersehbar
+        wurde, gelang es Davis, seine Diagnose fast bis zuletzt aktiv vor der Öffentlichkeit
+        zu verbergen – dieselbe Priorisierung des Auftritts über die eigene Gesundheit, nur
+        in einer noch kontrollierteren, nach außen kaum sichtbaren Form.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Sammy Davis Jr.'</strong> sexueller Typ 2 mit Dreierflügel fand seine letzte,
+        konsequenteste Ausprägung in der eigenen Erkrankung: ein Tumor, der über acht Monate
+        hinweg lange verschwiegen wurde, ein 24-stündiger Telethon-Auftritt trotz feststehender
+        Diagnose, und ein Tod 1990 mit nur 64 Jahren, nach sechs Jahrzehnten fast
+        ununterbrochenen Gebens. Das Kamel, das bis zur letzten Vorstellung trug, auch als es
+        selbst niemanden mehr hatte, der es trug.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-elvis-presley", label:"Krankheitsporträt: Elvis Presley (SX2w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
+      ])}
+    </div>
+  `);
+}

@@ -332,6 +332,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Self-Preservation Type 4", krankheit:"Bulimia concealed for years, together with self-harm and postnatal depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Began, by her own account, the week after her engagement to Prince Charles in 1981; she first made it public herself in the 1995 BBC Panorama interview. Died in 1997 in a car accident in Paris – with no documented link to the earlier illness." , land:"United Kingdom", gender:"f", jahre:"1961–1997"},
   { route:"krankheitsportraets-osho", name:"Osho", subtyp:"SE3w4", heading:"Osho – Self-Preservation Type 3", krankheit:"Heart failure after chronic ailments (diabetes, asthma, back pain) and a disputed poisoning claim", teaser:"SP3w4 – spiritual teacher, 1931–1990. Chronic ailments dating back to the early 1970s, a twelve-day detention in the United States in 1985, followed by new symptoms he and his circle attributed to a never independently confirmed poisoning. Died in 1990 at 58 – the exact cause of death remains disputed to this day." , land:"India", gender:"m", jahre:"1931–1990"},
   { route:"krankheitsportraets-elvis-presley", name:"Elvis Presley", subtyp:"SX2w3", heading:"Elvis Presley – Sexual Type 2", krankheit:"Cardiac arrhythmia with cardiovascular disease and megacolon, worsened by years of drug dependency", teaser:"SX2w3 – musician, 1935–1977. A decade-long escalating drug dependency, a severely enlarged heart, and a megacolon per autopsy. Kept touring almost without pause while his body visibly collapsed. Died in 1977 at only 42 – the exact cause of death is still debated today." , land:"USA", gender:"m", jahre:"1935–1977"},
+  { route:"krankheitsportraets-sammy-davis-jr", name:"Sammy Davis Jr.", subtyp:"SX2w3", heading:"Sammy Davis Jr. – Sexual Type 2", krankheit:"Throat and mouth cancer, hidden from the public for a long time", teaser:"SX2w3 – entertainer, 1925–1990. A tumor diagnosed in late summer 1989 that he hid from the public while continuing to perform – including a 24-hour telethon appearance despite a confirmed diagnosis. Died in 1990 at only 64, eight months after the first symptoms." , land:"USA", gender:"m", jahre:"1925–1990"},
   { route:"krankheitsportraets-napoleon-bonaparte", name:"Napoleon Bonaparte", subtyp:"SO2w3", heading:"Napoleon Bonaparte – Social Type 2", krankheit:"Gastric cancer (per autopsy), preceded by decades of recurring stomach ailments", teaser:"SO2w3 – French emperor and military leader, 1769–1821. Decades of recurring stomach ailments, a disputed episode at Waterloo, dramatic decline in exile on St. Helena. Died in 1821 of gastric cancer – the same disease that likely killed his father." , land:"France", gender:"m", jahre:"1769–1821"},
   { route:"krankheitsportraets-julius-caesar", name:"Julius Caesar", subtyp:"SO2w3", heading:"Julius Caesar – Social Type 2", krankheit:"Recurring seizures, likely epilepsy (ancient sources: Plutarch, Suetonius)", teaser:"SO2w3 – Roman general and statesman, 100–44 BC. Seizures of the 'falling sickness' independently attested by Plutarch and Suetonius, including during the Battle of Thapsus in 46 BC and in 45 BC at Corduba. Never publicly acknowledged or mentioned in his own writings. Assassinated on 15 March 44 BC in the Senate – with no documented direct connection to the illness." , land:"Roman Republic", gender:"m", jahre:"100–44 BC"},
   { route:"krankheitsportraets-johann-sebastian-bach", name:"Johann Sebastian Bach", subtyp:"SX1w9", heading:"Johann Sebastian Bach – Sexual Type 1", krankheit:"Blindness from failed cataract surgeries, death after stroke and fever", teaser:"SX1w9 – composer, 1685–1750. Years-long progressive vision loss, two failed eye operations in March 1750 by the dubious oculist John Taylor led to complete blindness. Died four months later after a stroke – the same surgeon blinded Handel shortly after." , land:"Germany", gender:"m", jahre:"1685–1750"},
@@ -969,6 +970,10 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-elvis-presley", name:"Elvis Presley", added:"2026-07-30", subtyp:"SX2w3",
     heading:"Elvis Presley – Sexual Type 2",
     teaser:"SX2w3 · 1935–1977. King of Rock'n'Roll, singer, actor. Hip-shaking as scandal, ballads as proof of love, boundless generosity toward fans and strangers alike. Animal correspondence: Camel.",
+    land:"USA", tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-sammy-davis-jr", name:"Sammy Davis Jr.", added:"2026-08-31", subtyp:"SX2w3",
+    heading:"Sammy Davis Jr. – Sexual Type 2",
+    teaser:"SX2w3 · 1925–1990. Entertainer, singer, dancer, actor. Vaudeville childhood, Rat Pack loyalty, interracial marriage under intense public pressure, six decades of uncompromising giving on stage. Animal correspondence: Camel.",
     land:"USA", tags:["Musik"] , gender:"m"},
 { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
     heading:"Monika Gruber – Sexual Type 2",
@@ -26580,6 +26585,77 @@ function elvisPresleyPortraitPage() {
         {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
         {route:"beruehmte-anastasiia-metelkina", label:"Portrait: Anastasiia Metelkina (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function sammyDavisJrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sammy-davis-jr-portrait.jpg" alt="Sammy Davis Jr." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sammy Davis Jr.</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing &middot; Heart Type</p>
+        <p class="krim-portrait-subtitle">Entertainer, singer, dancer, actor, 1925&ndash;1990 &ndash; Animal equivalent: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Camel That Never Stopped Carrying</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Camel</strong> is the animal of the sexual Two &ndash; enduring, devoted, able to go beyond its own limits for others, without ever seeming to tire. In Sammy Davis Jr., this image became a life that began, quite literally, in the desert: born in 1925 in Harlem, he was on stage by the age of three, touring with his father Sammy Davis Sr. and his father's partner Will Mastin as "The Will Mastin Trio" through the vaudeville circuits of Jim Crow-era America &ndash; a child who traded his childhood for applause long before he could understand what he was giving up.</p>
+          <p class="vb-intro">Out of this early, almost enforced giving grew not bitterness but a talent that spread across six decades of singing, dancing, acting, and Broadway. The camel knows no gait other than carrying &ndash; and Davis carried, with a versatility rarely matched, well into his final months.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Connection as a Necessity of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the sexual Two <strong>seduction</strong> &ndash; the ability to create immediate connection through intense, personal attention. In Davis, this showed itself in a stage presence that seemed to address everyone in the room individually, and in his belonging to the "Rat Pack" alongside Frank Sinatra and Dean Martin &ndash; a bond that was, for him, far more than mere collegiality. Sinatra stayed loyal to him for decades, even when others turned away, and Davis returned that loyalty with a devotion typical of the SX2: once someone was recognized as trusted, they received everything.</p>
+          <p class="vb-intro">In 1954, Davis lost his left eye in a car accident and wore a glass eye afterward. In the period that followed, he converted to Judaism &ndash; by his own account a response to a phase of intense spiritual reflection on vulnerability, belonging, and his own identity as a Black man in an America shaped by exclusion. For an SX2, whose identity is always sought in relation to a "we," this was not a mere religious switch but the search for a community that would carry him after his own body had become vulnerable.</p>
+          <p class="vb-intro">In 1960, Davis married the Swedish actress May Britt &ndash; one of the first prominent interracial marriages in public American life, which drew massive hostility and even threats. That Davis held to this bond despite it making him publicly vulnerable is pure SX2 handwriting: the one, genuine connection outweighs the safety of restraint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Will to Shine in Every Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>three-wing (w3)</strong> adds a second dimension to the SX2's longing for connection: performance, image, visible success. Few entertainers of his generation mastered as many disciplines at once as Davis &ndash; singing, tap dancing, acting, impressions, instruments. He wanted not only to be loved but also admired, and he worked toward that with a discipline his audience never saw, because it hid behind effortless-looking perfection.</p>
+          <p class="vb-intro">In 1965 he published the autobiography <em>Yes I Can</em>, which became a bestseller &ndash; a title that stood like a motto over his entire life. The three-wing shows itself in the fact that Davis did not just live his life but also told it, staged it, made it accessible to an audience. His decades of performances in Las Vegas, where he became a fixture of the legendary Rat Pack shows, carry the same signature: constant refinement, constant ambition, never letting up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Overall Impact: A Fire That Never Went Out</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set Davis apart from many other entertainers of his time was the sheer range of his presence &ndash; he could bring an audience to laughter in one number and to tears in the next. This ability to give himself completely to the moment and to the connection with the audience is the purest form of SX2 energy: not distance, but radical closeness, even before thousands.</p>
+          <p class="vb-intro">At the same time, lifelong struggles with alcohol and substance dependency remained a companion to his success &ndash; the flip side of a life that, since the age of three, had consisted almost entirely of performing. A relentlessly scheduled touring life across six decades left little room for rest, for a life away from the stage. The camel carries for as long as it is allowed to &ndash; and Davis rarely allowed himself a pause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetic Impact: Giving Until Nothing Was Left</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Davis's generosity toward friends, colleagues, and fellow performers was legendary &ndash; as was his need to be needed everywhere, to accept every invitation, to play every stage offered to him. For an SX2 with a three-wing, this tirelessness is not an external compulsion but an inner drive: whoever stops giving risks losing their own significance.</p>
+          <p class="vb-intro">At the end of his life, Davis died in 1990 at only 64 years of age, financially exhausted &ndash; reportedly around seven million dollars in debt, after two divorces and decades of struggles with addiction. A life that had given so much left, in the end, almost nothing for himself. That is the shadow side of the camel: whoever carries without pause eventually forgets to set aside reserves for themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: A Life That Knew No Limit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Sammy Davis Jr. gave the world was more than entertainment. As a Black entertainer who became an icon in an industry shaped by racism, as a member of an interracial marriage at a time when that meant danger, as a loyal friend within the Rat Pack &ndash; he lived the SX2w3 message with full consequence: I give you my entire intensity, past every boundary, and I hope you will see me for it.</p>
+          <p class="vb-intro">The camel knows no half measures. What remains of Sammy Davis Jr. is the memory of a man who spent himself completely for six decades to give millions of strangers the feeling of genuine connection &ndash; all the way into his final months, marked by illness.</p>
+        </blockquote>
+
+        <p class="vb-intro">The final, most consistent expression of this pattern &ndash; a throat and mouth cancer he continued to hide from the public despite the diagnosis, in order to perform once more &ndash; is explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-sammy-davis-jr">Illness Portrait of Sammy Davis Jr.</a></p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"krankheitsportraets-sammy-davis-jr", label:"Illness Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
       ])}
     </div>
   `);
@@ -48606,7 +48682,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -48616,7 +48692,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -48933,13 +49009,13 @@ const KRANKHEITSMUSTERKOMPASS = {
   },
   SX2: {
     tier: "Camel",
-    kernthema: "Only one documented case so far – too little for a reliable pattern, but a striking individual case of dependency in the context of intense, exclusive bonds.",
-    beispiele: ["Elvis Presley"],
+    kernthema: "With two documented cases so far, no reliable pattern is yet visible, but both share the same basic figure: uncompromising performance for an audience, well beyond the body's own warning signs.",
+    beispiele: ["Elvis Presley", "Sammy Davis Jr."],
     fingerabdruecke: [
       {
-        titel: "Single case: medication dependency amid close personal control",
-        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case so future SX2 portraits can be placed in context.",
-        beleg: "Elvis Presley, whose cardiac arrhythmia and megacolon were exacerbated by a years-long medication dependency that his closest circle helped sustain."
+        titel: "Performing for the audience, past one's own bodily warning signs",
+        beschreibung: "Rather than withdrawing at the first health warning signs, the SX2 with a three-wing holds on to the performance – the stage, the audience, the one great connection is not given up until the very end, even once the body has long since been collapsing.",
+        beleg: "Elvis Presley, whose cardiac arrhythmia and megacolon were exacerbated by a years-long medication dependency that his closest circle helped sustain, and who barely let up performing right up to his final tour in 1977; Sammy Davis Jr., who completed a 24-hour telethon appearance despite a confirmed cancer diagnosis and hid his illness from the public for a long time."
       }
     ]
   },
@@ -58828,6 +58904,192 @@ function elvisPresleyKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3) – life's work"},
+        {route:"krankheitsportraets-sammy-davis-jr", label:"Illness Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx2", label:"Subtype Profile SX2"},
+      ])}
+    </div>
+  `);
+}
+
+function sammyDavisJrKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sammy-davis-jr-portrait.jpg" alt="Sammy Davis Jr." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sammy Davis Jr.</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexual Type 2 with Three-wing · 1925–1990</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Camel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx2.jpg" alt="Animal correspondence: Camel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX2")};left:${tierAvatarLeft("SX2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sammy Davis Jr.</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-sammy-davis-jr">portrait under Famous Personalities</a>
+        in this Compass – that page covers his six-decade life's work and type structure in
+        general. This page brings a chapter to the foreground that page barely touches: the
+        cancer diagnosed in late summer 1989, which he hid from the public for a long time
+        while continuing to perform – until his death in May 1990 at the age of 64.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Sammy Davis Jr.</strong> is classified as the <strong>Sexual Two with
+        Three-wing</strong>. SX2 directs the Two's care and seductive power entirely at the
+        one, exclusive connection – for Davis, at his audience, his Rat Pack friends, and the
+        stage itself. The Three-wing adds an unconditional will toward visible performance,
+        combined with a refusal to ever let the audience sense a fading of his own
+        capability. This exact pattern kept Davis on stage long after his diagnosis was
+        already known.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A scratch in the throat that would not go away:</strong>
+        In late summer 1989, doctors found a tumor in Davis's throat – a finding initially
+        treated with eight weeks of radiation therapy, which for a time seemed to help.</p>
+        <p class="vb-intro"><strong>b) Performing despite the diagnosis:</strong>
+        Although the diagnosis was already established, Davis hosted the New York segment of
+        Jerry Lewis's Muscular Dystrophy Telethon over Labor Day weekend 1989 – 24 hours on
+        air, without his condition ever being publicly addressed.</p>
+        <p class="vb-intro"><strong>c) Jerry Lewis's later account:</strong>
+        Jerry Lewis later recalled: "You see, Sammy did the telethon last September knowing
+        what his prognosis was... He knew he had cancer, but he was on the air for 24 hours."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) What seemed like a gum infection:</strong>
+        In early 1990, a finding in his mouth initially classified as a gum infection was
+        recognized as a larger, inoperable tumor.</p>
+        <p class="vb-intro"><strong>b) A body that had been on air since the age of three:</strong>
+        Six decades of nearly uninterrupted performing – vaudeville, Las Vegas, Broadway,
+        television – left a body that had barely come to rest before the illness finally
+        caught up with it.</p>
+        <p class="vb-intro"><strong>c) Released six weeks before his death:</strong>
+        As his condition worsened, Davis was released from Cedars-Sinai Medical Center to
+        spend his final weeks at home.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Eight months between diagnosis and death:</strong>
+        From the first symptoms in late summer 1989 to his death on May 16, 1990, roughly
+        eight months passed, during which Davis initially continued to appear publicly.</p>
+        <p class="vb-intro"><strong>b) A death in his sleep, at 5:59 a.m.:</strong>
+        Davis died in his sleep, at his home in Beverly Hills, surrounded by family – a quiet
+        ending to a life that had almost never been quiet.</p>
+        <p class="vb-intro"><strong>c) Seven million dollars in debt:</strong>
+        After two failed marriages and decades of struggles with addiction, Davis reportedly
+        left behind roughly seven million dollars in debt – a life that had given so much
+        materially that almost nothing remained for himself in the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) The last great stage, knowingly played:</strong>
+        The 1989 telethon appearance was not ignorance but a conscious decision not to
+        burden his audience with his own diagnosis – an act of extreme SX2 devotion that at
+        the same time kept putting his own health at risk.</p>
+        <p class="vb-intro"><strong>b) A legacy of versatility and self-expenditure:</strong>
+        The same capacity to give himself completely to every discipline – singing, dancing,
+        acting – that carried Davis's career across six decades left little room to pause in
+        time, once his body had long been sending warning signs.</p>
+        <p class="vb-intro"><strong>c) Public mourning, private exhaustion:</strong>
+        After his death, an entire industry honored one of the most versatile entertainers of
+        the 20th century – while, behind the scenes, a financially and physically exhausted
+        man remained, who had barely cared for himself until the very end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The audience as the last constant:</strong>
+        Even with a confirmed diagnosis, performing for an audience remained the one thing
+        Davis never gave up – the Three-wing energy of the SX2 in its most uncompromising
+        form.</p>
+        <p class="vb-intro"><strong>b) Concealment as a final form of care:</strong>
+        The deliberate concealment of his own diagnosis from the public can be read as an
+        extreme, final expression of SX2 care – placing the other's well-being above his own
+        suffering even in his own dying.</p>
+        <p class="vb-intro"><strong>c) The camel that carried to the final show:</strong>
+        The devotion to the one great relationship – to the audience as a whole – was
+        maintained to the end, even once the body had long since run out of reserves.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A life that began giving at the age of three:</strong>
+        From his first stage appearance as a toddler to his last telethon in 1989, a
+        continuous line of uncompromising giving runs through Davis's entire life – a line
+        that in the end turned against his own health as well.</p>
+        <p class="vb-intro"><strong>b) Performing instead of withdrawing, to the end:</strong>
+        As with many Illness Portraits in this Compass, Davis's final months show
+        strikingly little withdrawal – instead a continuing that points more toward the SX2's
+        stress point, the Eight: uncompromising persistence despite clear warning signs,
+        rather than relinquishing control.</p>
+        <p class="vb-intro"><strong>c) Visible suffering, long kept from the public:</strong>
+        His physical condition was not hidden from family and his closest circle, but was
+        deliberately withheld from the public – a denial outward that made continuing
+        possible in the first place.</p>
+        <p class="vb-intro"><strong>d) Why, of all things, the throat and mouth?</strong>
+        For a Sexual Two with Three-wing whose entire instrument was voice, song, and
+        expression, one reading suggests itself: the very organ with which Davis built
+        connection to his audience for six decades failed him in the end – as though a life
+        oriented entirely around giving through voice and expression had no capacity left to
+        speak its own suffering. This reading is a plausible interpretation, not a
+        documented historical causal link, and is explored in more depth in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Sexual Two's pattern inevitably leads to cancers of the
+        throat or mouth – <strong>every person can develop any illness, regardless of
+        subtype.</strong> What Davis's case can show is a pattern that stands out again and
+        again in practice wherever performing is prioritized uncompromisingly over one's own
+        bodily warning signs – one possible explanation among many, not a verdict. The
+        corresponding condition will be developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
+        Davis did not know his own Enneagram pattern – the sexual Two with Three-wing lives
+        for immediate connection with an audience and for a visible, flawless performance,
+        and it was exactly this drive that kept him on air for 24 hours in 1989, while a
+        tumor was already growing in his body. Someone who does not recognize their own need
+        for connection and recognition as a pattern trades their own health for the next
+        round of applause – not out of guilt, but out of not knowing their own pattern.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(74,127,145,0.08);border-left:3px solid #4a7f91;padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:1.5rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:#2e5a68;">A Parallel Within the Same Subtype: Sammy Davis Jr. and Elvis Presley</h3>
+        <p class="vb-intro">Among the SX2w3 portraits in this Compass,
+        <a href="javascript:void(0)" data-route="krankheitsportraets-elvis-presley">Elvis Presley</a>
+        shows a strikingly similar dynamic. Both were entertainers whose entire identity
+        hinged on immediate connection with an audience; both kept performing even as their
+        bodies were visibly breaking down; both died with markedly shortened life
+        expectancy – Presley at 42, Davis at 64. The decisive difference lies in
+        concealment: where Presley's decline on stage became impossible for those around him
+        to miss, Davis managed to actively hide his diagnosis from the public almost to the
+        very end – the same prioritizing of performance over one's own health, only in an
+        even more controlled, outwardly almost invisible form.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Sammy Davis Jr.'s</strong> Sexual Two with Three-wing found its final, most
+        consistent expression in his own illness: a tumor concealed for eight months, a
+        24-hour telethon appearance despite a confirmed diagnosis, and a death in 1990 at
+        only 64 years of age, after six decades of nearly uninterrupted giving. The camel
+        that carried to its final show, even once it had no one left to carry it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3) – life's work"},
+        {route:"krankheitsportraets-elvis-presley", label:"Illness Portrait: Elvis Presley (SX2w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx2", label:"Subtype Profile SX2"},
       ])}
@@ -106813,6 +107075,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-abd-al-fattah-as-sisi": abdAlFattahAsSisiPortraitPage,
       "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
+      "beruehmte-sammy-davis-jr": sammyDavisJrPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
@@ -106924,6 +107187,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-dolly-parton": dollyPartonKrankheitsportraetPage,
       "krankheitsportraets-osho": oshoKrankheitsportraetPage,
       "krankheitsportraets-elvis-presley": elvisPresleyKrankheitsportraetPage,
+      "krankheitsportraets-sammy-davis-jr": sammyDavisJrKrankheitsportraetPage,
       "krankheitsportraets-john-wayne": johnWayneKrankheitsportraetPage,
       "krankheitsportraets-claude-debussy": claudeDebussyKrankheitsportraetPage,
       "krankheitsportraets-napoleon-bonaparte": napoleonBonaparteKrankheitsportraetPage,

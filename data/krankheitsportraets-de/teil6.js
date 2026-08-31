@@ -664,6 +664,7 @@ export function elvisPresleyKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-sammy-davis-jr", label:"Krankheitsporträt: Sammy Davis Jr. (SX2w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx2", label:"Subtyp-Profil SX2"},
       ])}

@@ -1475,3 +1475,73 @@ export function virginiaWoolfPortraitPage() {
     </div>
   `);
 }
+
+export function sammyDavisJrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sammy-davis-jr-portrait.jpg" alt="Sammy Davis Jr." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sammy Davis Jr.</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexueller Typ 2 mit Dreierflügel &middot; Herztyp</p>
+        <p class="krim-portrait-subtitle">Entertainer, Sänger, Tänzer, Schauspieler, 1925&ndash;1990 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das nie aufhörte zu tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; ausdauernd, hingebungsvoll, fähig, für andere über die eigenen Grenzen hinauszugehen, ohne dabei je müde zu wirken. Bei Sammy Davis Jr. wurde aus diesem Bild ein Leben, das buchstäblich in der Wüste begann: Geboren 1925 in Harlem, stand er bereits mit drei Jahren auf der Bühne, tourte mit seinem Vater Sammy Davis Sr. und dessen Partner Will Mastin als &bdquo;The Will Mastin Trio&ldquo; durch das Vaudeville-Amerika der Jim-Crow-Ära &ndash; ein Kind, das seine Kindheit gegen Applaus eintauschte, lange bevor es begreifen konnte, was es damit aufgab.</p>
+          <p class="vb-intro">Aus diesem frühen, fast erzwungenen Geben wurde keine Bitterkeit, sondern ein Talent, das sich über sechs Jahrzehnte hinweg in Gesang, Tanz, Schauspiel und Broadway ausbreitete. Das Kamel kennt keine andere Gangart als das Weitertragen &ndash; und Davis trug, mit einer Vielseitigkeit, die seinesgleichen suchte, bis in seine letzten Lebensmonate hinein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SX2: Verbindung als Lebensnotwendigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die sexuelle Zwei <strong>Verführung</strong> &ndash; die Fähigkeit, durch intensive, persönliche Zuwendung eine unmittelbare Verbindung zum Gegenüber herzustellen. Bei Davis zeigte sich das in einer Bühnenpräsenz, die jeden im Saal einzeln zu meinen schien, ebenso wie in seiner Zugehörigkeit zum &bdquo;Rat Pack&ldquo; um Frank Sinatra und Dean Martin &ndash; einer Verbindung, die für ihn weit mehr war als Kollegenschaft. Sinatra hielt ihm über Jahrzehnte die Treue, auch als andere sich von Davis abwandten, und diese Loyalität erwiderte Davis mit einer Hingabe, die typisch ist für die SX2: Wer einmal als Vertrauter erkannt wurde, bekam alles.</p>
+          <p class="vb-intro">1954 verlor Davis bei einem Autounfall sein linkes Auge und trug fortan ein Glasauge. In der Zeit danach konvertierte er zum Judentum &ndash; nach eigener Aussage eine Reaktion auf eine Phase intensiver spiritueller Reflexion über Verletzlichkeit, Zugehörigkeit und die eigene Identität als Schwarzer Mann in einem von Ausgrenzung geprägten Amerika. Für eine SX2, die ihre Identität stets im Bezug zu einem &bdquo;Wir&ldquo; sucht, war das kein bloßer religiöser Wechsel, sondern die Suche nach einer Gemeinschaft, die trug, nachdem der Körper selbst verwundbar geworden war.</p>
+          <p class="vb-intro">1960 heiratete Davis die schwedische Schauspielerin May Britt &ndash; eine der ersten prominenten interrassischen Ehen im öffentlichen Amerika, die massive Anfeindungen und sogar Drohungen nach sich zog. Dass Davis an dieser Verbindung festhielt, obwohl sie ihn öffentlich angreifbar machte, ist reine SX2-Handschrift: Die eine, echte Bindung wiegt schwerer als die Sicherheit der Zurückhaltung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Wille, in jeder Disziplin zu glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Verbindungssehnsucht der SX2 eine zweite Dimension: Leistung, Image, sichtbaren Erfolg. Kaum ein Entertainer seiner Generation beherrschte so viele Disziplinen zugleich wie Davis &ndash; Gesang, Stepptanz, Schauspiel, Impressionen, Instrumente. Er wollte nicht nur geliebt, er wollte auch bewundert werden, und er arbeitete mit einer Disziplin daran, die seinem Publikum verborgen blieb, weil sie sich hinter mühelos wirkender Perfektion versteckte.</p>
+          <p class="vb-intro">1965 veröffentlichte er die Autobiografie <em>Yes I Can</em>, die zum Bestseller wurde &ndash; ein Titel, der wie ein Motto über seinem ganzen Leben stand. Der Dreierflügel zeigt sich darin, dass Davis sein Leben nicht nur lebte, sondern es auch erzählte, inszenierte, einem Publikum zugänglich machte. Auch seine jahrzehntelangen Auftritte in Las Vegas, wo er zum festen Bestandteil der legendären Rat-Pack-Shows wurde, tragen diese Handschrift: ständige Weiterentwicklung, ständiger Anspruch, nie nachzulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Gesamtwirkung: Ein Feuer, das nie erlosch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Davis von vielen anderen Entertainern seiner Zeit unterschied, war die schiere Bandbreite seiner Präsenz &ndash; er konnte in einer Nummer zum Lachen bringen und in der nächsten zu Tränen rühren. Diese Fähigkeit, sich vollständig in den Moment und in die Verbindung zum Publikum zu geben, ist die reinste Form der SX2-Energie: nicht Distanz, sondern radikale Nähe, selbst vor Tausenden.</p>
+          <p class="vb-intro">Gleichzeitig blieben lebenslange Kämpfe mit Alkohol- und Substanzabhängigkeit ein Begleiter seines Erfolgs &ndash; die Kehrseite eines Lebens, das seit dem dritten Lebensjahr fast ausschließlich aus Auftritten bestand. Ein durchgetaktetes Tourleben über sechs Jahrzehnte hinweg ließ kaum Raum für Erholung, für ein Leben abseits der Bühne. Das Kamel trägt, solange man es lässt &ndash; und Davis ließ sich fast nie eine Pause zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Geben, bis nichts mehr übrig war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Davis' Großzügigkeit gegenüber Freunden, Kollegen und Wegbegleitern war legendär &ndash; ebenso wie sein Bedürfnis, überall gebraucht zu werden, jede Einladung anzunehmen, jede Bühne zu bespielen, die sich ihm bot. Für eine SX2 mit Dreierflügel ist diese Unermüdlichkeit kein Zwang von außen, sondern ein innerer Antrieb: Wer aufhört zu geben, riskiert, die eigene Bedeutung zu verlieren.</p>
+          <p class="vb-intro">Am Ende seines Lebens starb Davis 1990 mit nur 64 Jahren, finanziell erschöpft &ndash; Berichten zufolge rund sieben Millionen Dollar verschuldet, nach zwei Scheidungen und jahrzehntelangen Suchtkämpfen. Ein Leben, das so viel gegeben hatte, hinterließ am Ende kaum etwas für ihn selbst. Das ist die Schattenseite des Kamels: Wer ununterbrochen trägt, vergisst irgendwann, für sich selbst Reserven anzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Ein Leben, das keine Grenze kannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sammy Davis Jr. der Welt gab, war mehr als Unterhaltung. Als Schwarzer Entertainer, der in einer von Rassismus geprägten Branche zur Ikone wurde, als Mitglied einer interrassischen Ehe zu einer Zeit, in der das Gefahr bedeutete, als treuer Freund innerhalb des Rat Pack &ndash; er lebte die SX2w3-Botschaft in aller Konsequenz: Ich gebe dir meine ganze Intensität, über jede Grenze hinweg, und hoffe, dass du mich dafür siehst.</p>
+          <p class="vb-intro">Das Kamel kennt keine halben Wege. Was von Sammy Davis Jr. bleibt, ist die Erinnerung an einen Menschen, der sich sechs Jahrzehnte lang restlos verausgabte, um Millionen von Fremden das Gefühl echter Verbindung zu geben &ndash; bis in seine letzten, von Krankheit gezeichneten Monate hinein.</p>
+        </blockquote>
+
+        <p class="vb-intro">Seine letzte, konsequenteste Ausprägung dieses Musters &ndash; ein Kehlkopf- und Mundkrebs, den er trotz Diagnose vor der Öffentlichkeit weiter verbarg, um noch einmal aufzutreten &ndash; wird ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-sammy-davis-jr">Krankheitsporträt zu Sammy Davis Jr.</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"krankheitsportraets-sammy-davis-jr", label:"Krankheitsporträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-pamela-reif", label:"Porträt: Pamela Reif (SX2w3)"},
+        {route:"beruehmte-braco", label:"Porträt: Braco (SX2w3)"},
+      ])}
+    </div>
+  `);
+}

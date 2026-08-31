@@ -466,6 +466,7 @@ export function elvisPresleyPortraitPage() {
         {route:"beruehmte-pamela-reif", label:"Portr\u00e4t: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portr\u00e4t: Braco (SX2w3)"},
         {route:"beruehmte-anastasiia-metelkina", label:"Porträt: Anastasiia Metelkina (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
       ])}
     </div>
   `);
