@@ -692,6 +692,7 @@ export const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 400+ Fallporträts" },
+  { term: "Krankheitsmusterkompass",   route: "krankheitsmusterkompass", description: "Wiederkehrende Krankheitsmuster der 27 Subtypen – statistische Häufungen aus den Krankheitsporträts" },
   { term: "Musterradar",               route: "musterradar",            description: "Porträts nach Flügel oder Instinktvariante gefiltert – quer über alle 27 Subtypen hinweg" },
   { term: "Enneagramm-Rad",            route: "enneagramm-rad",         description: "Interaktives Enneagramm-Symbol: Stress-, Wachstums- und Flügellinien aller 9 Typen zum Anklicken" },
   { term: "Tierforscher-Übereinstimmung", route: "tierforscher-uebereinstimmung", description: "Übersicht: Tierforscher und andere Personen, deren Lebensthema ihrer eigenen Tierentsprechung entspricht" },
@@ -2253,6 +2254,7 @@ export const registerEntriesEN = [
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 400+ case portraits" },
+  { term: "Illness Pattern Compass", route: "krankheitsmusterkompass", description: "Recurring illness patterns of the 27 subtypes – statistical clusters from the illness portraits" },
   { term: "Pattern Radar", route: "musterradar", description: "Portraits filtered by wing or instinctual variant – across all 27 subtypes at once" },
   { term: "Enneagram Wheel", route: "enneagramm-rad", description: "Interactive Enneagram symbol: stress, growth, and wing lines for all 9 types, click to explore" },
   { term: "Animal-Researcher Correspondence", route: "tierforscher-uebereinstimmung", description: "Overview: animal researchers and others whose life theme matches their own animal correspondence" },

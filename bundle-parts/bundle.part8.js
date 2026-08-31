@@ -1,3 +1,283 @@
+function mahatmaGandhiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Mahatma Gandhi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mahatma Gandhi</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Indischer Anwalt und Freiheitsk\u00e4mpfer, 1869&ndash;1948 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Eine der spannendsten Typisierungsfragen des Enneagramms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mohandas Karamchand Gandhi, genannt Mahatma (&bdquo;gro\u00dfe Seele&ldquo;), wurde 1869 in Porbandar geboren, studierte Jura in London und entwickelte in S\u00fcdafrika und sp\u00e4ter in Indien die Strategie des gewaltlosen Widerstands, mit der er die indische Unabh\u00e4ngigkeitsbewegung entscheidend pr\u00e4gte. 1948 wurde er ermordet, wenige Monate nach der Unabh\u00e4ngigkeit Indiens.</p>
+          <p class="vb-intro">Kaum eine historische Pers\u00f6nlichkeit wird im Enneagramm so kontrovers diskutiert wie Gandhi. Die meisten popul\u00e4ren Zuordnungen sehen in ihm die klassische soziale Eins &ndash; den moralischen Reformer. Eine tiefere psychologische Analyse nach Claudio Naranjo kommt jedoch zu einem anderen Schluss: der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel. Dieses Portr\u00e4t zeichnet beide Sichtweisen nach und begr\u00fcndet, warum wir uns als App f\u00fcr die zweite entscheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die popul\u00e4re Sicht: Gandhi als soziale Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auf Anhieb liefert Gandhi das Bild eines Musterbeispiels der sozialen Eins: der unbeugsame Moralist, der gegen Unrecht und Diskriminierung k\u00e4mpft, mit einer Zivilcourage, die keine Kompromisse duldet. Seine Fixierung auf Selbstoptimierung &ndash; strenge Di\u00e4ten, jahrzehntelange sexuelle Enthaltsamkeit, akribische Selbstpr\u00fcfung in seiner Autobiografie &bdquo;Meine Experimente mit der Wahrheit&ldquo; &ndash; passt beim ersten Hinsehen zur Einser-Signatur von Selbstkontrolle und Perfektionsstreben.</p>
+          <p class="vb-intro">Doch diese Sicht beschreibt vor allem das \u00e4u\u00dfere Verhalten &ndash; das Was, nicht das Warum. Typ 1 handelt aus unterdr\u00fccktem, sublimiertem Zorn (Groll), der sich in st\u00e4ndiger Korrektur von sich selbst und der Welt entl\u00e4dt. Bei Gandhi war der emotionale Kern jedoch ein anderer: kein verdr\u00e4ngter Zorn, sondern ein lebenslanges Ringen mit Angst, Selbstzweifel und dem rastlosen Suchen nach einer absoluten, verl\u00e4sslichen Wahrheit, an der er sich festhalten konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die psychologische Ebene nach Naranjo: die selbsterhaltende Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo, der Begr\u00fcnder des modernen Subtypen-Systems, ordnete Gandhi der <strong>selbsterhaltenden Sechs (SE6)</strong> zu &ndash; und diese Zuordnung erkl\u00e4rt seine innere Dynamik weit treffender als die Eins. Die selbsterhaltende Sechs bew\u00e4ltigt eine als bedrohlich erlebte Welt nicht durch Kampf, sondern durch radikale Harmlosigkeit: Wenn ich niemandem gef\u00e4hrlich bin, kann mir nichts geschehen. Genau das ist die Reinform von <strong>Ahimsa</strong>, dem Prinzip der Gewaltlosigkeit, das Gandhi zu seiner Lebensphilosophie machte &ndash; keine passive Schw\u00e4che, sondern eine Strategie, radikale Verletzlichkeit in eine kaum angreifbare moralische Kraft zu verwandeln.</p>
+          <p class="vb-intro">Auch sein Konzept des <strong>Satyagraha</strong> (&bdquo;Festhalten an der Wahrheit&ldquo;) tr\u00e4gt die Handschrift der Sechs: Nicht der moralische Zorn der Eins trieb ihn an, sondern die typische Sechser-Suche nach einem unumst\u00f6\u00dflichen Ankerpunkt jenseits des eigenen Zweifels &ndash; Wahrheit, f\u00fcr Gandhi untrennbar mit Gott verbunden, wurde zur Zuflucht, an der sich alle Angst brechen konnte. Seine zahllosen selbst auferlegten Gel\u00fcbde &ndash; Armut, Keuschheit, wiederkehrendes Fasten &ndash; lassen sich als psychologische Schutzstrukturen lesen: \u00e4u\u00dfere, unverr\u00fcckbare Regeln, die dem inneren Zweifel der Sechs eine feste Form entgegensetzten.</p>
+          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel und die Selbsterhaltungsvariante erkl\u00e4ren zus\u00e4tzlich, warum sich diese Angstbew\u00e4ltigung so sehr auf den eigenen K\u00f6rper und die materielle Grundversorgung richtete: Gandhis symbolisches Spinnen der eigenen Kleidung (Khadi), seine \u00f6ffentlichen Fastenaktionen und sein bewusst einfaches, k\u00e4rgliches Leben trafen exakt den Nerv der einfachen, armen Bev\u00f6lkerung Indiens &ndash; eine tiefe, gelebte Solidarit\u00e4t mit den Schwachen und Unterdr\u00fcckten, die f\u00fcr die selbsterhaltende Sechs charakteristisch ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ein weiteres Kriterium: das Enneagramm-Profiling nach David L. Rathmer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">\u00dcber die psychologische Analyse nach Naranjo hinaus liefert das Enneagramm-Profiling\u00ae nach David L. Rathmer &ndash; ein System der Blick- und Antlitzdiagnose im Enneagramm &ndash; ein weiteres, erg\u00e4nzendes Diagnosekriterium f\u00fcr die Typzuordnung. Nach diesem System weisen bestimmte konstitutionelle und antlitzdiagnostische Merkmale bei Gandhi zus\u00e4tzlich auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel hin.</p>
+          <p class="vb-intro">Konkret verweist das Profiling-System auf die Nasenform und die Blickqualit\u00e4t, die in diesem Ansatz dem Kopftyp (dem mentalen Zentrum) zugeordnet werden, sowie auf die Zuordnung zur m\u00e4nnlichen Seite des Enneagramms anhand der Gesichtsstruktur &ndash; Merkmale, die nach diesem Diagnosesystem auf das prim\u00e4re Verarbeitungszentrum im Kopf- beziehungsweise Angst-Zentrum hindeuten. Als eigenst\u00e4ndige, erg\u00e4nzende Diagnoseebene neben der psychologischen Analyse f\u00fcgt das Enneagramm-Profiling nach David L. Rathmer damit einen weiteren Baustein zum Gesamtbild der selbsterhaltenden Sechs hinzu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der F\u00fcnferfl\u00fcgel: R\u00fcckzug als Kraftquelle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich in Gandhis ausgepr\u00e4gtem Bed\u00fcrfnis nach zur\u00fcckgezogenen Phasen der Reflexion &ndash; regelm\u00e4\u00dfige Schweigetage, in denen er weder sprach noch schrieb, waren fester Bestandteil seines Lebens. Diese R\u00fcckz\u00fcge dienten nicht der Flucht, sondern der Sammlung: Bevor er in die n\u00e4chste \u00f6ffentliche Konfrontation ging, brauchte er Phasen des inneren Ordnens, des Studierens religi\u00f6ser und philosophischer Texte, des Nachdenkens.</p>
+          <p class="vb-intro">Auch seine akribische, fast wissenschaftliche Herangehensweise an den gewaltlosen Widerstand &ndash; minuti\u00f6s geplante Kampagnen, detaillierte schriftliche Anleitungen f\u00fcr seine Anh\u00e4nger, jahrelange Beobachtung dessen, was funktionierte und was nicht &ndash; tr\u00e4gt die analytische Handschrift des F\u00fcnferfl\u00fcgels: Die Angst der Sechs wird nicht nur ausgehalten, sondern durch Verstehen und Systematisierung eingehegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist die F\u00e4higkeit, <strong>tiefe Angst in eine gewaltlose, kaum angreifbare Kraft</strong> zu verwandeln &ndash; Gandhi bewies, dass radikale Verletzlichkeit, bewusst gew\u00e4hlt und diszipliniert durchgehalten, eine der wirkungsvollsten politischen Waffen der Geschichte werden kann. Seine Kampagnen gegen die britische Kolonialherrschaft ver\u00e4nderten nicht nur Indien, sondern inspirierten B\u00fcrgerrechtsbewegungen weltweit, von Martin Luther King bis Nelson Mandela.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einer mitunter kompromisslosen Strenge gegen\u00fcber der eigenen Familie &ndash; seine S\u00f6hne, insbesondere sein \u00e4ltester Sohn Harilal, litten unter seinen extrem hohen moralischen Anspr\u00fcchen und dem \u00f6ffentlichen Charakter seines Privatlebens. Auch seine sp\u00e4ten, umstrittenen &bdquo;Keuschheitsexperimente&ldquo;, bei denen er im hohen Alter seine sexuelle Selbstbeherrschung testete, werfen bis heute ethische Fragen auf. Die Kehrseite der selbsterhaltenden Sechs: Die Suche nach einem unersch\u00fctterlichen inneren Anker kann sich in Formen von Selbstpr\u00fcfung entladen, die anderen wie auch einem selbst schweren Schaden zuf\u00fcgen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Fazit: Verhalten t\u00e4uscht, die Motivation entscheidet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Verhalten und \u00e4u\u00dfere Erscheinung sprechen f\u00fcr die Eins &ndash; Disziplin, Reformwille, moralische Klarheit. Doch die tiefere psychologische Motivation, wie Naranjo sie herausarbeitete, und das erg\u00e4nzende Diagnosekriterium des Enneagramm-Profilings nach David L. Rathmer weisen \u00fcbereinstimmend auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel: die Transformation von Angst und Verletzlichkeit in gewaltlose Macht durch radikale Hingabe an die Wahrheit.</p>
+          <p class="vb-intro">Das Kaninchen, das sich in seiner scheinbaren Wehrlosigkeit als unangreifbar erwies und damit ein Weltreich ins Wanken brachte &ndash; das ist das bleibende Bild der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel: Angst, die nicht \u00fcberwunden, sondern in eine der st\u00e4rksten gewaltlosen Kr\u00e4fte der Geschichte verwandelt wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+function davidHumePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hume</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schottischer Philosoph, 1711&ndash;1776 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
+          <p class="vb-intro">Der schottische Philosoph David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und innerem Frieden einzurichten und Konflikten durch Gelassenheit zu begegnen, statt sie zu eskalieren. Bei Hume wurde diese Gelassenheit zur philosophischen Methode selbst: Er zweifelte an der Kausalit\u00e4t &ndash; der Annahme, dass ein Ereignis zwangsl\u00e4ufig ein anderes verursacht &ndash; an der Existenz eines stabilen Selbst und an jedem rationalen Gottesbeweis, und blieb dabei erstaunlich unaufgeregt.</p>
+          <p class="vb-intro">Sein Hauptwerk <em>Ein Traktat \u00fcber die menschliche Natur</em> (A Treatise of Human Nature, 1739&ndash;40) erschien zun\u00e4chst fast unbeachtet &ndash; Hume selbst schrieb sp\u00e4ter, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu k\u00e4mpfen, \u00fcberarbeitete er die Ideen jahrzehntelang in zug\u00e4nglicherer Form, etwa in den <em>Moralischen und politischen Essays</em> (Essays, Moral and Political) und der <em>Untersuchung \u00fcber den menschlichen Verstand</em> (An Enquiry Concerning Human Understanding, 1748). Kein Wutausbruch, kein R\u00fcckzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie geh\u00f6rt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Der Mut zum radikalen Zweifel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man nach au\u00dfen kaum sieht, bis man ihre Konsequenzen begreift: die Bereitschaft, eine Position bis zum radikalen Ende zu denken, ohne vor der Reaktion der Umwelt zur\u00fcckzuschrecken. Eine SE9 mit schwach ausgeprägtem Achterflügel würde vielleicht ausweichen. Die SE9w8 zieht die Konsequenz &ndash; ruhig, aber unbeirrbar.</p>
+          <p class="vb-intro">Hume vertrat einen konsequenten religi\u00f6sen Skeptizismus, der ihm zeitlebens die begehrten Lehrst\u00fchle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einw\u00e4nde verhinderten beide Berufungen. Sein Werk <em>Dialoge \u00fcber nat\u00fcrliche Religion</em> (Dialogues Concerning Natural Religion), das die klassischen Gottesbeweise systematisch demontiert, lie\u00df er aus Vorsicht erst nach seinem Tod ver\u00f6ffentlichen &ndash; nicht aus Feigheit, sondern aus der k\u00fchlen Berechnung des Achterfl\u00fcgels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
+          <p class="vb-intro">Diese Mischung aus Nachgiebigkeit und unersch\u00fctterlicher Grundhaltung zeigte sich auch 1766 in seiner Freundschaft mit dem franz\u00f6sischen Philosophen Jean-Jacques Rousseau, den Hume aus Frankreich nach England holte, als dieser politisch verfolgt wurde. Rousseau, zunehmend paranoid, wandte sich gegen Hume und beschuldigte ihn \u00f6ffentlich der Verschw\u00f6rung. Hume reagierte nicht mit Gegenangriff, sondern mit einer sachlichen, in ganz Europa verbreiteten Verteidigungsschrift &ndash; die Neun bleibt ruhig, aber der Achterfl\u00fcgel verteidigt seinen Ruf mit aller gebotenen H\u00e4rte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Schildkr\u00f6tensuppe: Genuss ohne Dogma</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hume war zeitlebens bekannt f\u00fcr seine Tafelfreuden &ndash; besonders f\u00fcr seine Vorliebe f\u00fcr Schildkr\u00f6tensuppe, ein im 18. Jahrhundert aufwendiges Delikatessengericht, das er regelm\u00e4\u00dfig bei geselligen Diners in Edinburgh servieren lie\u00df. Es ist eine sch\u00f6ne F\u00fcgung, dass ausgerechnet die Schildkr\u00f6te &ndash; in manchen Enneagramm-Traditionen selbst eine m\u00f6gliche Tierentsprechung des Typs 9 &ndash; zu seiner Leibspeise wurde: gem\u00e4chlich, gepanzert, unersch\u00fctterlich in ihrem eigenen Tempo, ganz wie der Elefant, nur kleiner.</p>
+          <p class="vb-intro">Diese Freude am sinnlichen Genuss war kein Widerspruch zu seiner Philosophie, sondern ihre praktische Konsequenz: Wer an letzten Gewissheiten zweifelt, kann sich umso ungezwungener dem Guten im Diesseits zuwenden. Hume lehnte jede Form von Askese ab und lebte, was er dachte &ndash; ein Skeptiker, der trotz aller Zweifel ein zutiefst zufriedener, geselliger Mensch war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Freiheit und ihre Grenzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 ist die F\u00e4higkeit, <strong>radikale Freiheit des Denkens mit innerem Frieden</strong> zu verbinden. Hume l\u00f6ste die Fesseln des dogmatischen Denkens seiner Zeit, ohne selbst zum Dogmatiker des Zweifels zu werden &ndash; er blieb neugierig, warmherzig, offen f\u00fcr Widerspruch. Adam Smith, sein enger Freund, beschrieb ihn nach seinem Tod als einen Menschen, der der Weisheit und Tugend so nahe kam, wie es die menschliche Natur wohl erlaubt.</p>
+          <p class="vb-intro">Der Schatten: Humes Schriften enthalten auch rassistische Passagen &ndash; etwa eine vielzitierte Fu\u00dfnote, in der er die geistigen F\u00e4higkeiten au\u00dfereurop\u00e4ischer V\u00f6lker herabsetzte. Diese Haltung, unentschuldbar und im Widerspruch zu seinem eigenen skeptischen Anspruch, zeigt die Kehrseite der SE9w8: die Bequemlichkeit des Appetits kann auch bedeuten, \u00fcberlieferte Vorurteile nie wirklich in Frage zu stellen, obwohl man sich r\u00fchmt, alles andere in Frage gestellt zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Elefant, der gelassen starb, wie er gelebt hatte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Selbstvergessenheit zur <strong>wahren inneren Handlung</strong> &ndash; nicht zum Verschwinden im Komfort, sondern zur bewussten Teilnahme am eigenen Leben. Hume lebte diesen Weg bereits vor: Er wich den gro\u00dfen Fragen nie aus, verweigerte sich nur dem Streit um ihrer selbst willen.</p>
+          <p class="vb-intro">Als Hume 1776 im Sterben lag, besuchte ihn der Schriftsteller James Boswell, der von ihm wissen wollte, ob er angesichts des nahen Todes nicht doch an ein Leben nach dem Tod glaube. Hume antwortete ruhig und ohne jede Angst, es gebe keinen Grund zur Sorge &ndash; eine Gelassenheit, die Boswell zutiefst ersch\u00fctterte, weil sie so gar nicht zum erwarteten Bild eines &bdquo;gottlosen&ldquo; Sterbenden passte. Der Elefant aus Edinburgh verlie\u00df die Welt so, wie er sie durchquert hatte: unger\u00fchrt, neugierig, ohne die Bequemlichkeit einer Illusion zu brauchen.</p>
+
+        <p class="vb-intro">Seine chronische, \u00fcber vier Jahre fortschreitende Darmerkrankung und seine bemerkenswerte Gelassenheit im Sterben werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">Krankheitsportr\u00e4t zu Hume</a> gedeutet.</p>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsportr\u00e4t: David Hume (SE9w8)"},
+        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
+        {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) \u2013 den er aus dem \u203adogmatischen Schlummer\u2039 riss"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portr\xe4t: Thomas von Aquin (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function thomasVonAquinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-thomas-von-aquin-portrait.jpg" alt="Thomas von Aquin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas von Aquin</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Theologe und Philosoph, ca. 1225–1274 – Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant, den man den "stummen Ochsen" nannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 – von massiger, ruhiger Präsenz, die nicht durch Lautstärke wirkt, sondern durch Gewicht. Thomas von Aquin, um 1225 nahe Aquino im Königreich Sizilien geboren, war schon körperlich ein solcher Elefant: groß, schwer, bedächtig in seinen Bewegungen. Seine Kommilitonen an der Universität Paris gaben ihm wegen seines schweigsamen Wesens und seiner massigen Statur den Spitznamen "der stumme Ochse" (bos mutus).</p>
+          <p class="vb-intro">Sein Lehrer Albertus Magnus soll darauf prophetisch geantwortet haben: "Ihr nennt ihn den stummen Ochsen, aber sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen." Der Elefant wirkt bedächtig und unauffällig – bis man erkennt, welches Gewicht hinter seiner Ruhe steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als tägliche Praxis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nennt Naranjo <em>Appetit</em>: die Neigung, sich in Komfort, Routine und innerer Ruhe einzurichten, statt sich von äußerer Unruhe aus der Bahn werfen zu lassen. Bei Thomas zeigte sich das in einer schier unfassbaren Arbeitsdisziplin, die dennoch nie gehetzt wirkte: Zeitgenossen berichten, er habe mehreren Schreibern gleichzeitig unterschiedliche Werke diktieren können, während er gemächlich im Raum auf und ab ging – ruhig, methodisch, ohne sichtbare Anstrengung.</p>
+          <p class="vb-intro">Diese Gelassenheit erstreckte sich auch auf sein leibliches Wohl: Thomas war für seine beträchtliche Statur und seine Freude am Essen bekannt – der Legende nach ließ man an seinem Platz am Esstisch eigens eine halbrunde Aussparung in die Tischplatte schneiden, damit er bequem sitzen konnte. Die SE9 sucht Frieden nicht durch Verzicht, sondern durch das behagliche Einrichten im eigenen Leben – bei Thomas verband sich das mit einer der produktivsten Gelehrtenlaufbahnen der Geistesgeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der Ochse, der nicht wich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man ihrer ruhigen Oberfläche kaum ansieht, bis eine Grenze überschritten wird. Als der junge Thomas gegen den erbitterten Widerstand seiner adligen Familie in den Bettelorden der Dominikaner eintreten wollte, ließen ihn seine eigenen Brüder entführen und über ein Jahr lang in der Familienburg gefangen halten, um ihn umzustimmen.</p>
+          <p class="vb-intro">Der Überlieferung nach schickte man ihm sogar eine Prostituierte in sein Gemach, um ihn zum Bruch seines Keuschheitsgelübdes zu verleiten. Thomas soll sie mit einem brennenden Holzscheit aus dem Kaminfeuer aus dem Zimmer gejagt und anschließend ein Kreuz in die verkohlte Tür seiner Kammer gezeichnet haben. Ein Jahr lang hielt die Familie ihn gefangen – ein Jahr lang blieb der stumme Ochse unbewegt bei seiner Entscheidung, bis man ihn schließlich ziehen ließ. Das ist der Achterflügel der SE9: keine lautstarke Rebellion, sondern ein Widerstand, der sich einfach nicht brechen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Summa Theologica: Ordnung als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas' Hauptwerk, die "Summa Theologica", ist ein Bauwerk von gewaltigem Ausmaß: In Fragen, Einwänden und Antworten gegliedert, versucht es, das gesamte christliche Glaubenswissen mit der Logik des wiederentdeckten Aristoteles (SE1w9) in ein einziges, widerspruchsfreies System zu übersetzen. Diese Synthese aus antiker Vernunft und christlicher Offenbarung – der sogenannte Thomismus – wurde zur prägenden Denkform der katholischen Theologie für Jahrhunderte.</p>
+          <p class="vb-intro">Dieselbe systematische Wucht floss über ein Jahrhundert später in eines der bedeutendsten Werke der Weltliteratur ein: Dante Alighieri (SX4w5) stützte die theologische Architektur seiner "Göttlichen Komödie" maßgeblich auf thomistisches Gedankengut. Der ruhige, methodische Elefant aus Aquin lieferte damit unwissentlich das gedankliche Fundament für eines der leidenschaftlichsten literarischen Werke des Mittelalters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE9w8 zeigt sich in der Fähigkeit, unerschütterliche innere Ruhe mit gewaltiger schöpferischer Kraft zu verbinden: Thomas hinterließ ein Lebenswerk von solcher Wucht, dass die katholische Kirche ihn 1323 heiligsprach und ihn Jahrhunderte später, 1567, zum Kirchenlehrer erhob – eine der höchsten Anerkennungen, die die Kirche für theologisches Wirken vergibt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Trägheit, dem Schicksalsmuster der Neun: Wo Ordnung zum Selbstzweck wird, kann sie auch zur Erstarrung führen – der Thomismus wurde in späteren Jahrhunderten teils dogmatisch verengt und gegen genau jene Offenheit für neue Erkenntnis verteidigt, die Thomas selbst durch die Einbeziehung des "heidnischen" Aristoteles gewagt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Ochse, der verstummte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 6. Dezember 1273, während einer Messe in Neapel, erlebte Thomas eine mystische Erfahrung, nach der er nie wieder ein Wort seiner "Summa Theologica" schrieb. Auf die Frage seines Sekretärs, warum er das gewaltige Werk nicht vollende, antwortete er: "Ich kann nicht mehr. Alles, was ich geschrieben habe, erscheint mir wie Stroh im Vergleich zu dem, was ich gesehen habe und was mir offenbart wurde."</p>
+          <p class="vb-intro">Der Elefant mit Achterflügel, der während seines ganzen Lebens mit unerschütterlicher Beharrlichkeit ein gewaltiges Denkgebäude errichtet hatte, legte im entscheidenden Moment die Feder nieder – nicht aus Erschöpfung, sondern weil er, ganz SE9, erkannte, dass hinter aller Ordnung ein Frieden liegt, den kein System einfangen kann. Thomas starb wenige Monate später, im März 1274, auf dem Weg zum Konzil von Lyon. Der stumme Ochse hatte sein Gebrüll längst in die Welt getragen – und verstummte am Ende freiwillig vor dem, was jenseits aller Worte lag.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9) – dessen Logik er mit der christlichen Theologie verschmolz"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – stützte die Göttliche Komödie auf sein theologisches Denken"},
+        {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
+      ])}
+    </div>
+  `);
+}
+
+function spinozaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Baruch de Spinoza – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Baruch de Spinoza</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Rationalistischer Philosoph, 1632&ndash;1677 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die sich aus der Welt zur\u00fcckzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 &ndash; ein Wesen, das in der D\u00e4mmerung am klarsten sieht, das sich zur\u00fcckzieht, um zu beobachten, und dessen Blick durchdringt, was anderen verborgen bleibt. Sie braucht keine Herde, kein Rudel &ndash; ihre St\u00e4rke liegt im Alleinsein, im ungest\u00f6rten Denken.</p>
+          <p class="vb-intro">Der niederl\u00e4ndische Philosoph Baruch (sp\u00e4ter Benedictus) de Spinoza wurde 1632 in Amsterdam als Sohn einer portugiesisch-j\u00fcdischen Kaufmannsfamilie geboren, die vor der Inquisition aus Portugal geflohen war. 1656 wurde er, gerade 23 Jahre alt, von der j\u00fcdischen Gemeinde Amsterdams mit dem <em>Cherem</em> belegt &ndash; dem sch\u00e4rfsten Bann, den die Gemeinde kannte: Kein Kontakt, kein Handel, kein gemeinsames Dach mehr mit ihm. Die genauen Gr\u00fcnde wurden nie schriftlich festgehalten, doch seine bereits damals bekannten Zweifel an der w\u00f6rtlichen Auslegung der Schrift und an einem pers\u00f6nlichen, eingreifenden Gott gelten als Ursache. Spinoza reagierte nicht mit Widerstand oder Verhandlung &ndash; er zog sich zur\u00fcck, \u00e4nderte seinen Namen zu Benedictus und lebte den Rest seines Lebens au\u00dferhalb jeder Gemeinschaft, die ihn h\u00e4tte binden k\u00f6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg des Denkens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> ist nach Naranjo der Verst\u00e4rkungstyp der F\u00fcnf: Hier lebt die Leidenschaft des <em>Geizes</em> &ndash; das Horten von Energie, Raum und Zeit &ndash; am unverh\u00fclltesten. Naranjo nannte diesen Subtyp <em>Burg</em>: Das eigene Territorium wird zur Festung, hinter deren Mauern die Welt drau\u00dfen bleibt. Spinoza lebte diese Burg w\u00f6rtlich: Nach dem Bann zog er zun\u00e4chst aus Amsterdam fort, wohnte in Rijnsburg, sp\u00e4ter in Voorburg und schlie\u00dflich in Den Haag &ndash; stets zur\u00fcckgezogen, meist allein, in kleinen, kargen Zimmern.</p>
+          <p class="vb-intro">Seinen Lebensunterhalt verdiente er als Schleifer optischer Linsen f\u00fcr Mikroskope und Teleskope &ndash; eine stille, pr\u00e4zise Handarbeit, die kaum Kontakt mit anderen erforderte und die er meisterhaft beherrschte. Er lebte \u00e4u\u00dferst gen\u00fcgsam, lehnte gro\u00dfz\u00fcgige finanzielle Zuwendungen von Bewunderern gr\u00f6\u00dftenteils ab und beschr\u00e4nkte sich auf das N\u00f6tigste. Diese radikale Selbstgen\u00fcgsamkeit war keine Askese um ihrer selbst willen, sondern die Bedingung f\u00fcr das, was er am meisten sch\u00fctzte: die ungest\u00f6rte Zeit zum Denken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Das System, dem er die Treue hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der selbsterhaltenden F\u00fcnf eine wache Sicherheitsorientierung und eine au\u00dferordentliche Systemtreue &ndash; nicht Loyalit\u00e4t gegen\u00fcber Institutionen, sondern gegen\u00fcber einem selbst durchdachten, in sich geschlossenen Prinzip. Spinozas Hauptwerk, die postum 1677 ver\u00f6ffentlichte <em>Ethica, ordine geometrico demonstrata</em> (Die Ethik, nach geometrischer Methode dargestellt), ist genau das: ein philosophisches System, aufgebaut wie ein euklidischer Lehrsatz &ndash; Definitionen, Axiome, Beweise, Schritt f\u00fcr Schritt, ohne L\u00fccke. Kein anderes philosophisches Hauptwerk der Geschichte ist so kompromisslos systematisch aufgebaut.</p>
+          <p class="vb-intro">Diese Systemtreue zeigte sich auch in seiner bekanntesten Entscheidung: 1673 bot ihm die Universit\u00e4t Heidelberg einen Lehrstuhl f\u00fcr Philosophie an &ndash; mit der Zusicherung v\u00f6lliger Lehrfreiheit, solange er die Staatsreligion nicht st\u00f6re. Spinoza lehnte ab. Er bef\u00fcrchtete, dass selbst diese Einschr\u00e4nkung sein Denken auf Dauer verbiegen w\u00fcrde, und zog die Unsicherheit des Linsenschleifers der Sicherheit eines akademischen Amtes vor &ndash; der Sechserfl\u00fcgel w\u00e4gt das Risiko genau ab, und manchmal f\u00e4llt die Antwort auf Sicherheit hin gerade zugunsten der intellektuellen Unabh\u00e4ngigkeit aus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Deus sive Natura: Der radikalste Gottesbegriff seiner Zeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Zentrum der Ethica steht Spinozas ber\u00fchmteste und folgenreichste Formel: <em>Deus sive Natura</em> &ndash; Gott, oder gleichbedeutend die Natur. F\u00fcr Spinoza gibt es nur eine einzige, unendliche Substanz, die alles umfasst, was existiert &ndash; kein Gott au\u00dferhalb der Welt, der sie erschaffen hat und lenkt, sondern Gott als die Welt selbst, in ihrer vollst\u00e4ndigen, notwendigen Gesetzm\u00e4\u00dfigkeit. Alles, was geschieht, geschieht mit derselben Notwendigkeit, mit der die Winkelsumme eines Dreiecks 180 Grad ergibt.</p>
+          <p class="vb-intro">Diese Position kostete ihn nicht nur den Bann der j\u00fcdischen Gemeinde, sondern machte ihn zeitlebens und noch lange nach seinem Tod zur Zielscheibe des Vorwurfs des Atheismus &ndash; sein bereits 1670 anonym ver\u00f6ffentlichter <em>Tractatus theologico-politicus</em>, der die historisch-kritische Bibelauslegung begr\u00fcndete und Meinungsfreiheit forderte, wurde in mehreren L\u00e4ndern verboten. Spinoza reagierte darauf, wie es der Verst\u00e4rkungstyp der F\u00fcnf tut: Er zog sich weiter zur\u00fcck, ver\u00f6ffentlichte die Ethica gar nicht mehr zu Lebzeiten und beschr\u00e4nkte den Kreis, dem er seine Gedanken anvertraute, auf eine kleine Gruppe vertrauter Korrespondenten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 ist die F\u00e4higkeit, <strong>radikale intellektuelle Unabh\u00e4ngigkeit mit einem tragf\u00e4higen, in sich stimmigen System</strong> zu verbinden. Spinoza dachte den freien Willen, das Verh\u00e4ltnis von Affekt und Vernunft und die Grenzen der Toleranz so konsequent zu Ende wie kaum ein Philosoph vor ihm &ndash; und legte damit einen der Grundsteine der modernen Aufkl\u00e4rung, lange bevor sie diesen Namen trug.</p>
+          <p class="vb-intro">Der Schatten: Sein R\u00fcckzug aus jeder Gemeinschaft &ndash; j\u00fcdisch wie christlich &ndash; bedeutete auch ein Leben fast ganz ohne N\u00e4he, ohne eigene Familie, ohne festen Ort der Zugeh\u00f6rigkeit. Die Burg der SE5 sch\u00fctzt das Denken, aber sie kostet Verbindung. Spinoza selbst schien diesen Preis bewusst in Kauf genommen zu haben &ndash; ob er ihn auch bedauerte, ist aus seinen erhaltenen Briefen kaum herauszulesen. Genau diese Verschlossenheit macht ihn nach wie vor zu einer der r\u00e4tselhaftesten Gestalten der Philosophiegeschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die an Staublunge starb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spinoza starb 1677 in Den Haag im Alter von nur 44 Jahren, vermutlich an einer Lungenerkrankung, die durch das jahrzehntelange Einatmen von Glasstaub beim Linsenschleifen beg\u00fcnstigt wurde &ndash; sein Handwerk, das ihm die Unabh\u00e4ngigkeit zum Denken sicherte, trug wohl auch zu seinem fr\u00fchen Tod bei. Freunde ver\u00f6ffentlichten noch im selben Jahr seine <em>Opera Posthuma</em>, darunter die Ethica &ndash; das Werk, das er selbst nie unter eigenem Namen hatte drucken lassen.</p>
+          <p class="vb-intro">Die Eule verlie\u00df die Welt so zur\u00fcckgezogen, wie sie sie durchquert hatte &ndash; ohne Amt, ohne Familie, ohne Gemeinde. Was blieb, war ein in sich geschlossenes Gedankengeb\u00e4ude, das erst Generationen sp\u00e4ter &ndash; von Leibniz (SO3w4) bis Einstein (SO5w4), der sich ausdr\u00fccklich auf &bdquo;Spinozas Gott&ldquo; berief &ndash; seine volle Tragweite entfalten sollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) \u2013 berief sich auf Spinozas Gottesbegriff"},
+        {route:"beruehmte-rene-descartes", label:"Portr\u00e4t: Ren\u00e9 Descartes (SE5w6) \u2013 dessen Philosophie er in seinem einzigen zu Lebzeiten unter eigenem Namen ver\u00f6ffentlichten Werk kommentierte"},
+        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
+        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – tödliche Lungenerkrankung"},
+      ])}
+    </div>
+  `);
+}
+
 function marieCuriePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -6803,322 +7083,3 @@ function frankaPotentePortraitPage() {
   `);
 }
 
-function margotFriedlaenderPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-margot-friedlaender-portrait.jpg" alt="Margot Friedländer – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Margot Friedländer</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
-        <p class="krim-portrait-subtitle">Holocaust-Überlebende &amp; Zeitzeugin, 1921&ndash;2025 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das bis zu sechzehn Stunden am Tag fast vollständig unter Wasser verbringen kann, kaum sichtbar, kaum wahrnehmbar, und doch die ganze Zeit über wach. Es taucht nicht ab, um zu verschwinden. Es taucht ab, weil dort seine Sicherheit liegt &ndash; und es taucht auf, genau in dem Moment, in dem es gebraucht wird.</p>
-          <p class="vb-intro">Die deutsche Zeitzeugin Margot Friedländer überlebte den Holocaust, emigrierte nach dem Krieg in die USA und lebte dort über fünfzig Jahre ein stilles, zurückgezogenes Leben. Erst nach dem Tod ihres Mannes, mit weit über siebzig Jahren, begann sie zu sprechen &ndash; und mit über achtzig kehrte sie endgültig nach Berlin zurück, um dort, bis kurz vor ihrem Tod mit 103 Jahren, unermüdlich vor Schulklassen aufzutreten. Das Flusspferd ruht lange im Wasser. Aber wenn es sich bewegt, bewegt es sich mit einer Entschlossenheit, die niemand mehr aufhält.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge als Überlebensprinzip</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf das eigene Überleben und das der ihr am nächsten Stehenden. Naranjo nannte diesen Subtyp <em>Me First</em> &ndash; nicht im egoistischen Sinn, sondern als eine Fürsorge, die zunächst im engsten, existenziellen Kreis wirkt, bevor sie sich nach außen weitet.</p>
-          <p class="vb-intro">1943, als die Gestapo ihre Mutter und ihren jüngeren Bruder Ralph verhaftete, tauchte die 21-jährige Margot in Berlin unter &ndash; unterstützt von einem engen Kreis von Freunden und Bekannten, die unter Lebensgefahr Verstecke, falsche Papiere und Nahrung besorgten. Ihre Mutter, die selbst noch hätte fliehen können, entschied sich, ihrem Sohn freiwillig in die Deportation zu folgen, statt ihn allein zu lassen &ndash; und hinterließ Margot die Worte: <em>Versuche, dein Leben zu machen.</em> Dieser Satz wurde Jahrzehnte später zum Titel ihrer Autobiografie und zum Kern ihres gesamten weiteren Lebens: die tiefste Form der SE2-Fürsorge, weitergegeben von einer Mutter, die sich selbst für ihr Kind opferte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserflügel: Die moralische Klarheit von ›Seid Menschen‹</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabhängig von der Reaktion anderer trägt &ndash; ein klares Empfinden von Richtig und Falsch, das keine Diplomatie kennt, wenn das Prinzip auf dem Spiel steht. Er verwandelt persönliche Fürsorge in einen moralischen Auftrag.</p>
-          <p class="vb-intro">Bei Friedländer zeigte sich dieser Flügel in ihrem zentralen Leitsatz, mit dem sie ab 2003 hunderte Schulen in ganz Deutschland besuchte: <em>Seid Menschen.</em> Keine komplizierte politische Botschaft, sondern ein unmittelbarer, moralischer Imperativ, direkt an junge Menschen gerichtet &ndash; verbunden mit ihrer eindringlichen Warnung, wachsam zu bleiben gegenüber Hass, Ausgrenzung und Antisemitismus, &bdquo;damit das, was mir und meiner Familie widerfahren ist, nie wieder geschieht&ldquo;. Sie sah jungen Menschen dabei buchstäblich in die Augen &ndash; noch mit über hundert Jahren saß sie ihnen gegenüber, nicht auf einem Podium über ihnen. Der Einserflügel gibt der Fürsorge ihre unbestechliche Richtung: nicht Trost um des Trostes willen, sondern Wahrheit, die verpflichtet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Fünfzehn Monate im Verborgenen, sechzig Jahre Schweigen, ein Vierteljahrhundert Erinnerung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fünfzehn Monate lang überlebte Margot Friedländer 1943/44 in Berlin im Untergrund &ndash; wechselte Verstecke, färbte sich die Haare, änderte ihren Namen. Im April 1944 wurde sie dennoch entdeckt und verhaftet, ins Sammellager an der Rosenstraße gebracht und schließlich ins Konzentrationslager Theresienstadt deportiert, wo sie bis zur Befreiung 1945 überlebte. Dort traf sie auch Adolf Friedländer wieder, einen Bekannten aus ihrer Berliner Jugend, den sie nach dem Krieg in New York heiratete.</p>
-          <p class="vb-intro">In den USA führte das Ehepaar über fünf Jahrzehnte ein zurückgezogenes Leben; Margot arbeitete unter anderem als Schneiderin und in einem Reisebüro, sprach kaum über die Vergangenheit. Erst nach dem Tod ihres Mannes 1997 begann sie, mit über 75 Jahren, ihre Geschichte aufzuschreiben und öffentlich zu erzählen. 2010, im Alter von 88 Jahren, zog sie endgültig zurück nach Berlin &ndash; in die Stadt, aus der sie einst fliehen musste &ndash; und wurde zu einer der meistgehörten Zeitzeuginnen Deutschlands. 2018 gründete sie die Margot Friedländer Stiftung, um ihre Arbeit über ihren Tod hinaus fortzuführen; sie erhielt unter anderem das Große Bundesverdienstkreuz mit Stern und Schulterband und die Ehrenbürgerschaft Berlins.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w1 ist eine seltene Verbindung aus persönlicher Wärme und unbeirrbarer moralischer Festigkeit. Friedländer begegnete jedem einzelnen jungen Menschen, dem sie erzählte, mit echter, individueller Zuwendung &ndash; nicht mit einem einstudierten Vortrag, sondern mit dem Anspruch, wirklich gesehen zu werden und selbst zu sehen. Diese Kombination aus Nähe und Klarheit machte sie zu einer der wirkungsvollsten moralischen Stimmen des Landes.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, gebraucht zu werden, für andere unentbehrlich zu sein, während die eigenen Bedürfnisse zurücktreten. Bei Friedländer zeigte sich das in einem Leben, das bis ins hohe Alter fast vollständig dem Dienst an anderen gewidmet war: Selbst über hundertjährig nahm sie noch Schultermine wahr, obwohl ihre Gesundheit das zunehmend erschwerte. Sechzig Jahre lang hatte sie geschwiegen, weil sie glaubte, ihre eigene Geschichte belaste andere zu sehr &ndash; ein stilles, jahrzehntelanges Zurückstellen der eigenen Verarbeitung zugunsten des vermeintlichen Wohls der Menschen um sie herum.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Vom Schweigen zur Stimme</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Zwei führt vom stillen Geben zum bewussten, selbstgewählten Geben &ndash; von der Frage <em>Was brauchen die anderen von mir?</em> zur Erkenntnis <em>Meine eigene Stimme selbst ist die Gabe.</em> Für die SE2w1 zeigt sich dieser Weg besonders deutlich im Übergang vom sechzigjährigen Schweigen zur bewussten, freien Entscheidung, öffentlich zu sprechen.</p>
-          <p class="vb-intro">Margot Friedländer fand diesen Weg spät, aber vollständig: Aus einer Frau, die ihre eigene Geschichte jahrzehntelang für sich behielt, wurde eine Frau, die genau diese Geschichte zum wichtigsten Geschenk ihres Lebens machte &ndash; nicht aus Pflichtgefühl, sondern aus freier, reifer Entscheidung. Sie starb im Mai 2025 in Berlin im Alter von 103 Jahren. Das Flusspferd, das sein ganzes Leben lang wusste, was es zu schützen galt &ndash; und das am Ende seines Lebens genau das an Millionen weitergab, was es selbst einst am dringendsten gebraucht hatte: Menschlichkeit.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
-        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},
-        {route:"bibel-marta", label:"Bibel-Porträt: Marta (SE2w1)"},
-      ])}
-    </div>
-  `);
-}
-
-function soerenKierkegaardPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-soeren-kierkegaard-portrait.jpg" alt="S\u00f8ren Kierkegaard" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">S\u00f8ren Kierkegaard</p>
-        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">D\u00e4nischer Philosoph und Theologe, 1813\u20131855 \u2013 Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd, das im eigenen Gew\u00e4sser verharrte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei \u2013 ein Tier, das sein Revier mit einer Pr\u00e4zision markiert, die Biologen erst sp\u00e4t verstanden: Es verteilt seinen Kot in exakt bestimmten Bahnen, immer wieder an denselben Stellen, als m\u00fcsse jede Grenze seines Territoriums schriftlich festgehalten werden. Kein Zufall, keine Beliebigkeit \u2013 ein System, das jeder Eindringling lesen kann, wenn er nur genau genug hinsieht.</p>
-          <p class="vb-intro">Der d\u00e4nische Philosoph S\u00f8ren Kierkegaard verlie\u00df Kopenhagen zeitlebens kaum, blieb fast ausschlie\u00dflich in seiner eigenen Stadt, seinem eigenen Kopf, seinem eigenen inneren Gew\u00e4sser \u2013 und verteidigte von dort aus mit unerbittlicher Konsequenz das, was er f\u00fcr die Wahrheit \u00fcber die menschliche Existenz hielt.</p>
-          <p class="vb-intro">Geboren 1813 als j\u00fcngstes von sieben Kindern eines wohlhabenden, aber zutiefst melancholischen Wollh\u00e4ndlers, wuchs er in einem Haus auf, das von Schuld und religi\u00f6ser Angst durchdrungen war: Sein Vater gestand ihm sp\u00e4ter, in seiner Jugend Gott verflucht und vor der Ehe mit Kierkegaards Mutter ein Verh\u00e4ltnis gehabt zu haben \u2013 eine Beichte, die den jungen S\u00f8ren \u00fcberzeugte, seine Familie stehe unter einem g\u00f6ttlichen Fluch. F\u00fcnf seiner Geschwister starben, bevor er selbst erwachsen war. Das Flusspferd lernte fr\u00fch: \u00dcberleben bedeutet, genau hinzusehen, was wirklich bedrohlich ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Die eigene Existenz als Pr\u00fcfstand</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet die Energie der Zwei zuerst auf die eigene Existenzgrundlage \u2013 Naranjo nannte diesen Subtyp <em>Me First</em>, nicht im egoistischen, sondern im existenziellen Sinn: Bevor ich f\u00fcr andere sorgen kann, muss ich wissen, wie ich selbst \u00fcberlebe. Kierkegaards gesamtes philosophisches Projekt l\u00e4sst sich als genau diese Frage lesen, radikal zu Ende gedacht: Wie lebt ein einzelner Mensch wirklich, angesichts von Angst, Schuld und der Notwendigkeit, sich selbst zu w\u00e4hlen?</p>
-          <p class="vb-intro">Sein Zentralbegriff, "der Einzelne" (dänisch: den Enkelte), stellt die eigene, unvertretbare Existenz radikal ins Zentrum \u2013 gegen die Anonymit\u00e4t der Masse, gegen das abstrakte System Hegels, das f\u00fcr Kierkegaard alles erkl\u00e4rte, au\u00dfer dem, was am wichtigsten war: wie ein konkreter Mensch sein eigenes Leben tats\u00e4chlich zu f\u00fchren hat. Seine akribischen, oft t\u00e4glich gef\u00fchrten Tageb\u00fccher \u2013 Zehntausende Seiten \u2013 sind das Protokoll einer SE2, die ihre eigene innere Realit\u00e4t so genau wie m\u00f6glich benennen musste, um darin \u00fcberhaupt bestehen zu k\u00f6nnen.</p>
-          <p class="vb-intro">Man hat die SE2 auch als das "Kind im Erwachsenenkost\u00fcm" beschrieben \u2013 ein Bild, das auf Kierkegaard erstaunlich genau passt. Hinter dem strengen, oft d\u00fcster wirkenden Denker verbarg sich ein Mensch, der zeitlebens von der Angst und Verletzlichkeit seiner Kindheit gepr\u00e4gt blieb: Wer seine Tageb\u00fccher liest, begegnet immer wieder einem verletzten, nach Halt suchenden Ich unter der philosophischen R\u00fcstung \u2013 dem Kind, das gelernt hatte, in einem von Schuld und Angst durchdrungenen Elternhaus fr\u00fch erwachsen zu wirken, ohne es innerlich je ganz zu werden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Der Angriff auf die Christenheit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der selbsterhaltenden Zwei ein inneres Regelwerk, das unabh\u00e4ngig von der Zustimmung anderer tr\u00e4gt: Es gibt ein Richtig und ein Falsch, und die Zwei wei\u00df, auf welcher Seite sie steht. Bei Kierkegaard erreichte dieser Fl\u00fcgel seine radikalste Form in den letzten Monaten seines Lebens: In der Streitschrift-Reihe "Der Augenblick" griff er 1854/55 offen die d\u00e4nische Staatskirche an, nannte die etablierte Christenheit eine Verf\u00e4lschung des urspr\u00fcnglichen Christentums und beschuldigte ihre Bisch\u00f6fe, allen voran den k\u00fcrzlich verstorbenen Bischof Mynster, der Heuchelei.</p>
-          <p class="vb-intro">Dieser Angriff kostete ihn fast seine gesamte gesellschaftliche Stellung \u2013 doch die SE2w1 fragt nicht zuerst, was es kostet, sondern ob es richtig ist. Schon Jahre zuvor hatte sich derselbe Fl\u00fcgel gezeigt: Als er 1846 die Satirezeitschrift "Der Corsar" \u00f6ffentlich der publizistischen Verantwortungslosigkeit bezichtigte, provozierte er monatelangen, gnadenlosen \u00f6ffentlichen Spott \u2013 Karikaturen seiner Beinkleider, seines leicht schiefen R\u00fcckens, seines Gangs auf den Stra\u00dfen Kopenhagens. Er h\u00e4tte schweigen k\u00f6nnen. Der Einserfl\u00fcgel lie\u00df das nicht zu.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten: Regine Olsen und die Kunst der indirekten Mitteilung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w1 zeigt sich in Kierkegaards kompromissloser Ehrlichkeit sich selbst gegen\u00fcber \u2013 und in der literarischen Kunstfertigkeit, mit der er diese Ehrlichkeit f\u00fcr andere zug\u00e4nglich machte. 1840 verlobte er sich mit der siebzehnj\u00e4hrigen Regine Olsen, l\u00f6ste die Verlobung jedoch ein Jahr sp\u00e4ter, \u00fcberzeugt, seine tiefe Melancholie und sein Gef\u00fchl einer religi\u00f6sen Bestimmung seien mit einem gew\u00f6hnlichen Eheleben nicht vereinbar. Diese Entscheidung, die er selbst als eine der schmerzhaftesten seines Lebens beschrieb, wurde zum verborgenen Motiv fast seines gesamten Fr\u00fchwerks.</p>
-          <p class="vb-intro">Statt seine Position direkt zu behaupten, schrieb Kierkegaard unter einer Vielzahl von Pseudonymen \u2013 Johannes de Silentio, Victor Eremita, Johannes Climacus \u2013 und lie\u00df verschiedene "Existenzstadien" (das \u00c4sthetische, das Ethische, das Religi\u00f6se) durch fiktive Stimmen gegeneinander antreten, ohne selbst Partei zu ergreifen. Der Schatten dieser Methode: Ein Mann, der eigentlich zutiefst direkt war, verbarg sich hinter Masken, weil die volle Wahrheit \u00fcber sich selbst zu schmerzhaft war, um sie ohne Umweg zu sagen. Das Flusspferd verteidigte sein Innerstes, indem es sich selten ganz zeigte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Verm\u00e4chtnis: Bis zum letzten Atemzug konsequent</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Oktober 1855, mitten in seiner Kampagne gegen die Staatskirche, brach Kierkegaard auf offener Stra\u00dfe zusammen und wurde ins Frederiks Hospital eingeliefert. Er starb wenige Wochen sp\u00e4ter, im Alter von 42 Jahren \u2013 sein gesamtes ererbtes Verm\u00f6gen hatte er zu diesem Zeitpunkt in die Selbstver\u00f6ffentlichung seiner Werke gesteckt und war nahezu mittellos. Bis zuletzt lehnte er es ab, das Abendmahl von einem offiziellen Geistlichen der Kirche zu empfangen, die er \u00f6ffentlich der Verlogenheit bezichtigt hatte \u2013 ein letzter, radikaler Akt der \u00dcbereinstimmung zwischen \u00dcberzeugung und Handlung.</p>
-          <p class="vb-intro">Das Flusspferd mit Einserfl\u00fcgel hinterlie\u00df damit kein bequemes System, sondern eine Methode des radikal ehrlichen Existierens, die erst Jahrzehnte sp\u00e4ter ihre volle Wirkung entfaltete: Kierkegaard gilt heute als einer der Begr\u00fcnder des Existenzialismus, sein Denken pr\u00e4gte Philosophen wie Heidegger, Sartre und Camus. Ein Mensch, der sein eigenes \u00dcberleben nie vom Applaus der Welt abh\u00e4ngig machte, wurde so \u2013 gegen seinen eigenen, oft verzweifelten Widerstand \u2013 zu einer der einflussreichsten Stimmen der modernen Philosophie.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
-        {route:"beruehmte-franka-potente", label:"Portr\u00e4t: Franka Potente (SE2w1)"},
-        {route:"beruehmte-immanuel-kant", label:"Portr\u00e4t: Immanuel Kant (SO6w5)"},
-        {route:"beruehmte-heraklit", label:"Portr\u00e4t: Heraklit (SO4w5)"},
-        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6) \u2013 lebenslanger Gegner des \u203aSystems\u2039"},
-      ])}
-    </div>
-  `);
-}
-
-
-function gloriaVonThurnUndTaxisPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-gloria-von-thurn-und-taxis-portrait.jpg" alt="Gloria von Thurn und Taxis" class="krim-portrait-img" loading="lazy"
-            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
-          <div style="display:none;width:100%;aspect-ratio:1;background:var(--surface,#f4f0e8);border-radius:50%;align-items:center;justify-content:center;font-size:4rem;">\ud83e\udd9b</div>
-        </div>
-        <p class="krim-portrait-name">Gloria von Thurn und Taxis</p>
-        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">F\u00fcrstin, Unternehmerin &amp; M\u00e4zenin, geb. 1960 &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; und kaum eine Pers\u00f6nlichkeit der deutschen Nachkriegsgeschichte verk\u00f6rpert dieses Tier so vollst\u00e4ndig wie Gloria von Thurn und Taxis. Ein neugeborenes Flusspferd wiegt bereits an die f\u00fcnfzig Kilogramm &ndash; es kommt nicht als zerbrechliches Jungtier zur Welt, sondern von der ersten Minute an mit dem vollen Gewicht seiner Art. Wer es untersch\u00e4tzt, hat nie gesehen, was in ihm steckt, seit es geboren wurde.</p>
-          <p class="vb-intro">Die deutsche Adelige Gloria von Thurn und Taxis war in den 1980er Jahren als &bdquo;Punk-Prinzessin&ldquo; bekannt: Irokesenschnitt, Partys, Exzesse, ein Leben, das die Boulevardpresse mit Begeisterung begleitete. Als ihr Mann Johannes 1990 starb und die Familie mit Schulden in Milliardenh\u00f6he und einer un\u00fcbersichtlichen Unternehmensstruktur zur\u00fccklie\u00df, trat das Flusspferd aus dem Wasser. Was folgte, war keine Metamorphose &ndash; es war eine Enth\u00fcllung. Wer Gloria von Thurn und Taxis wirklich war, zeigte sich erst in dem Moment, als alles auf dem Spiel stand.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: \u00dcberleben als erste Pflicht</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei am unmittelbarsten auf die eigene Existenz und die des engsten Kreises richtet. Naranjo nannte diesen Subtyp <em>Me First</em>: nicht Egozentrik, sondern \u00dcberlebensintelligenz. Die SE2 fragt zuerst: <em>Was brauche ich, um zu bestehen? Was braucht das, was mir geh\u00f6rt, um zu \u00fcberleben?</em> Sie ist die konkreteste, erdn\u00e4chste, am wenigsten romantisierende der drei Zweier-Varianten.</p>
-          <p class="vb-intro">Als Gloria von Thurn und Taxis 1990 mit drei\u00dfig Jahren Witwe wurde, \u00fcbernahm sie eine Aufgabe, die die meisten erfahrenen Manager \u00fcberfordert h\u00e4tte: die Sanierung eines der \u00e4ltesten Adelsverm\u00f6gens Europas. Sie verkaufte Immobilien, Kunstwerke, L\u00e4ndereien &ndash; und behielt das Schloss St. Emmeram in Regensburg, das Kernst\u00fcck der famili\u00e4ren Identit\u00e4t. Keine Sentimentalit\u00e4t, keine Scheu vor harten Entscheidungen, kein Lavieren. Das ist die SE2 in ihrer klarsten Auspr\u00e4gung: Sie wei\u00df, was wesentlich ist &ndash; und sie sch\u00fctzt es mit einer Entschlossenheit, die Au\u00dfenstehende oft verst\u00f6rt.</p>
-          <p class="vb-intro">Bemerkenswert ist dabei, dass Gloria von Thurn und Taxis nie die Sprache der Unternehmensberatung sprach. Sie sprach die Sprache der Verantwortung. F\u00fcr die Kinder, f\u00fcr das Erbe, f\u00fcr die Menschen, die von diesem Erbe abh\u00e4ngen. Das ist der SE2-Blick: \u00dcberleben ist kein egoistisches Projekt &ndash; es ist das Fundament, auf dem alles andere steht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Moral als R\u00fcckgrat</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> bringt der selbsterhaltenden Zwei etwas, das bei schwach ausgepr\u00e4gtem Einserfl\u00fcgel nicht von selbst da ist: ein inneres Regelwerk, das unabh\u00e4ngig von \u00e4u\u00dferer Anerkennung tr\u00e4gt. Die Eins kennt ein Richtig und ein Falsch. Sie duldet keine Halbheiten. Sie urteilt &ndash; und zuerst \u00fcber sich selbst. In Kombination mit der SE2 entsteht jemand, der nicht nur wei\u00df, was er will, sondern auch wei\u00df, wie es zu sein hat.</p>
-          <p class="vb-intro">Bei Gloria von Thurn und Taxis zeigt sich dieser Fl\u00fcgel vor allem in ihrer tief verwurzelten religi\u00f6sen \u00dcberzeugung. Nach dem Tod ihres Mannes wandte sie sich mit einer gro\u00dfen Intensit\u00e4t dem katholischen Glauben zu, die in ihrer Biografie keine blo\u00dfe Zuflucht darstellt &ndash; sondern eine innere Konsequenz. Der Einserfl\u00fcgel braucht einen Bezugspunkt jenseits des pragmatischen \u00dcberlebens. Er sucht Ordnung, Prinzip, etwas, das wahr ist, unabh\u00e4ngig davon, ob es gerade bequem ist.</p>
-          <p class="vb-intro">Dass sie in der \u00d6ffentlichkeit klare &ndash; oft unbequeme &ndash; Positionen zu Ehe, Familie und Lebensfragen vertritt, ist nicht Populismus. Es ist die SE2w1 in ihrer nat\u00fcrlichen Haltung: <em>Ich sage, was ich f\u00fcr richtig halte.</em> Ob das ankommt oder nicht, ist eine zweitrangige Frage. Das Flusspferd weicht nicht zur\u00fcck, wenn es seinen Standpunkt f\u00fcr richtig h\u00e4lt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Leidenschaft: Stolz als sch\u00fctzende H\u00fclle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Zwei hei\u00dft <strong>Stolz</strong> &ndash; und sie ist in ihrer tiefsten Form kein Hochmut, sondern eine Schutzstrategie: der Glaube, durch das eigene Geben, Leisten und Tragen unentbehrlich zu sein. Die Zwei, die stolz ist auf das, was sie f\u00fcr andere tut, muss nie fragen, ob sie auch ohne diese Leistung geliebt w\u00fcrde. Der Stolz der SE2w1 tr\u00e4gt dabei eine besondere Qualit\u00e4t: Er verbindet sich mit dem Bewusstsein von Stand, W\u00fcrde und Pflicht.</p>
-          <p class="vb-intro">Gloria von Thurn und Taxis tr\u00e4gt ihr Erbe nicht als Last, sondern als Auftrag. Die Schlossfestspiele Regensburg, die sie zur kulturellen Institution von Rang gemacht hat; die Kunstsammlung, die sie behutsam pflegte; die \u00f6ffentliche Pr\u00e4senz, die sie nie scheute &ndash; all das ist Ausdruck eines Stolzes, der nicht eitler Selbstdarstellung dient, sondern der \u00dcberzeugung: <em>Dieses Erbe ist der Bewahrung wert, und ich bin diejenige, die es bewahrt.</em></p>
-          <p class="vb-intro">Der Schatten dieses Stolzes liegt &ndash; wie bei jeder Zwei &ndash; in der Frage, die darunter schweigt: <em>Was bin ich, wenn ich nichts mehr habe, was ich geben kann?</em> Die SE2w1 antwortet darauf mit noch mehr Tun, noch mehr Haltung, noch mehr Klarheit. Das Flusspferd baut sein Territorium gr\u00f6\u00dfer &ndash; damit es nie leer dasteht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Die Wandlung: Vom Exzess zur Matriarchin</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die 1980er Jahre von Gloria von Thurn und Taxis sind gut dokumentiert: der Irokesenschnitt, die Kost\u00fcmpartys, die Schlagzeilen. Es w\u00e4re einfach, darin einen Widerspruch zu der Frau zu sehen, die sie heute ist. Aus Enneagramm-Perspektive ist es keiner. Die SE2 lebt in Extremen: Sie ist vollst\u00e4ndig im Moment pr\u00e4sent, vollst\u00e4ndig im Genuss, wenn das m\u00f6glich ist &ndash; und vollst\u00e4ndig im Schutz, vollst\u00e4ndig in der Verantwortung, wenn das gefordert wird. Der Wandel von der &bdquo;Princess TNT&ldquo; zur Matriarchin des Hauses Thurn und Taxis ist kein Bruch. Es ist derselbe Charakter in einer anderen Lebenslage.</p>
-          <p class="vb-intro">Was sich ver\u00e4ndert hat, ist das Wasser, in dem das Flusspferd schwimmt. In den 1980ern war das Wasser die Gesellschaft, die Partys, die Jugend des Augenblicks. Nach 1990 wurde das Wasser das Schloss, das Erbe, die Familie, der Glaube. Das Flusspferd hat sich nicht ver\u00e4ndert. Es hat sein Territorium neu vermessen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Standhaftigkeit als kulturelle Kraft</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Gloria von Thurn und Taxis dem Haus Thurn und Taxis &ndash; und der Stadt Regensburg &ndash; gegeben hat, l\u00e4sst sich beziffern und nicht beziffern zugleich. Bezifferbar ist die Sanierung eines maroden Erbes, der Aufbau einer funktionierenden Unternehmensstruktur, die Etablierung eines Kulturfestivals von internationaler Strahlkraft. Nicht bezifferbar ist das, was dahintersteht: die F\u00e4higkeit, unter extremem Druck nicht zu zerbrechen, sondern zu wachsen.</p>
-          <p class="vb-intro">Das ist das Geschenk der SE2w1: Standhaftigkeit, die nicht auf Kosten anderer geht. Ein Flusspferd, das sein Territorium h\u00e4lt &ndash; und darin Raum schafft f\u00fcr Kultur, f\u00fcr Familie, f\u00fcr das, was \u00fcber eine einzelne Person hinausreicht. Gloria von Thurn und Taxis hat bewiesen, dass Adel kein Schicksal ist, das man erbt &ndash; sondern eine Aufgabe, die man t\u00e4glich neu annimmt oder aufgibt. Sie hat angenommen. Das Flusspferd steht.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-greta-thunberg", label:"Portr\u00e4t: Greta Thunberg (SE2w1)"},
-        {route:"beruehmte-jan-ullrich", label:"Portr\u00e4t: Jan Ullrich (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-
-function leboMPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-lebo-m-portrait.jpg" alt="Lebo M – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lebo M</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">Südafrikanischer Sänger &amp; Komponist, geb. 1964 in Soweto &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, dessen Stimme aus der Tiefe kommt und dessen Kraft im eigenen, angestammten Revier verwurzelt ist. Kaum eine Stimme der Filmgeschichte trägt das so unmittelbar in sich wie der Zulu-Ruf, mit dem Lebo M 1994 den Beginn von <em>Der König der Löwen</em> eröffnete – ein einziger Klageruf, der zur international bekanntesten Filmmusikzeile der 1990er-Jahre wurde.</p>
-          <p class="vb-intro">Lebohang Morake wurde 1964 in Soweto, Johannesburg, geboren, als musikalisches Naturtalent ohne formale Ausbildung. 1979 verließ er im Alter von 16 Jahren, während der Apartheid, sein Heimatland als Exilant und ging in die USA, um dort Musik zu studieren – ein früher Bruch mit der vertrauten Umgebung, der ihn zeitlebens mit der Sehnsucht nach seinen musikalischen Wurzeln verband.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge, die zur akustischen Heimat wird</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> sichert nach Naranjo Nähe und Zugehörigkeit durch das, was er <em>Privileg</em> nannte: Man macht sich unentbehrlich, indem man ganz praktisch und konkret gibt. Bei Lebo M zeigt sich das darin, dass er dem <em>König der Löwen</em>-Franchise über drei Jahrzehnte treu blieb – vom Originalfilm 1994 über das Begleitalbum, die Broadway-Musical-Partitur, die Direct-to-Video-Fortsetzung, Live-Konzerte bis zum fotorealistischen Remake.</p>
-          <p class="vb-intro">Komponist Hans Zimmer holte ihn ursprünglich an Bord, um den Chören und Kompositionen einen authentischen afrikanischen Klang zu geben – eine Rolle, die Lebo M nicht als einmaligen Auftritt verstand, sondern als dauerhafte, fürsorgliche Verantwortung für den Klang einer ganzen musikalischen Welt, die er über Jahrzehnte mitprägte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Sichtbarer Erfolg auf der größten Bühne</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten Basis heraus sichtbaren, öffentlichkeitswirksamen Erfolg zu formen. Lebo M blieb nicht im Hintergrund eines Filmprojekts – seine Zulu-Gesänge wurden zur wiedererkennbaren akustischen Signatur eines der erfolgreichsten Film- und Bühnenfranchises der Geschichte, mit eigenständigen Konzertauftritten weltweit.</p>
-          <p class="vb-intro">2019 kehrte er für das computeranimierte Remake zurück und wurde bei einem Auftritt mit HAVASI in Budapest zum ersten afrikanischen Performer, der dort auftrat – eine weitere sichtbare, öffentliche Bühne, die seine musikalische Herkunft einem neuen Publikum zugänglich machte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer einzigen, tief persönlichen musikalischen Geste – dem Zulu-Ruf zu Beginn von <em>Circle of Life</em> – ein jahrzehntelanges, weltumspannendes Werk aufzubauen, das Millionen Menschen vertraut geworden ist, ohne seine Wurzeln zu verleugnen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für das Gelingen eines Werks unentbehrlich zu sein. Bei der SE2w3 kann sich das mit dem Bedürfnis verbinden, in jeder neuen Fassung des Franchises erneut sichtbar präsent zu sein – eine Konstanz, die einerseits Kontinuität sichert, andererseits die eigene Identität eng an ein einziges, wenn auch monumentales Werk bindet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Von Soweto ins Zentrum eines Welterfolgs</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Vom exilierten Sechzehnjährigen über die Zusammenarbeit mit Hans Zimmer bis zum festen musikalischen Anker eines der größten Entertainment-Franchises der Welt zieht sich ein roter Faden durch Lebo Ms Werk: eine einzige, unverkennbare Stimme, die über Jahrzehnte hinweg treu bei einer Sache blieb.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es vertieft seine Verbindung dazu, Jahr für Jahr. Lebo Ms Weg von Soweto zur weltberühmten Eröffnungszeile von <em>Der König der Löwen</em> bringt diesen Antrieb auf den Punkt: Heimat, die durch die eigene Stimme über Jahrzehnte immer wieder neu behauptet wird.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
-      ])}
-    </div>
-  `);
-}
-function lionelBoycePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-lionel-boyce-portrait.jpg" alt="Lionel Boyce – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Lionel Boyce</p>
-        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
-        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler &amp; Künstler, geb. 1991 in Inglewood, Kalifornien &ndash; Tierentsprechung: Flusspferd</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Flusspferd</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; ein Tier, das sich am wohlsten in einem engen, vertrauten Kreis bewegt und dort seine ganze Kraft entfaltet, bevor es überhaupt in den Vordergrund tritt. Lionel Boyce, in Inglewood, Kalifornien, als Sohn eines Wasserlieferanten und einer Sheriff-Beamtin geboren, fand seinen kreativen Ursprung nicht als Einzelkämpfer, sondern innerhalb der Hip-Hop-Kollektivgruppe Odd Future – einem engen, selbstgewählten Kreis, aus dem heraus er sich langsam als eigenständige Figur entwickelte.</p>
-          <p class="vb-intro">In der Gruppe war er als „L-Boy" bekannt, überwiegend nicht als Musiker, sondern als kreativer Mitläufer im besten Sinne – jemand, der zum Zusammenhalt beitrug, ohne selbst im Zentrum zu stehen. Erst über Jahre wurde aus dieser Rolle im Hintergrund eine eigenständige schauspielerische Karriere.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge im engsten kreativen Kreis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em> &ndash; nicht im egoistischen, sondern im existenziellen Sinn: Nähe entsteht zuerst innerhalb des engsten, verlässlichsten Kreises. Boyces jahrzehntelange kreative Partnerschaft mit Tyler, the Creator ist genau dieses Muster: gemeinsam co-kreierten sie die Serien <em>Loiter Squad</em> (2012–2014) und <em>The Jellies!</em> (2015–2017), 2015 gründeten sie gemeinsam die Produktionsfirma Bald Fade Productions.</p>
-          <p class="vb-intro">Statt seine kreative Energie auf möglichst viele lose Kontakte zu verteilen, investierte Boyce sie über Jahre in dieselbe enge Freundschaft und Zusammenarbeit – eine Fürsorge, die sich nicht in Reichweite misst, sondern in Verlässlichkeit gegenüber den engsten kreativen Weggefährten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Dreierflügel: Vom Hintergrund zur Emmy-Nominierung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Antrieb, aus einer gesicherten, engen Basis heraus doch noch sichtbaren, öffentlichkeitswirksamen Erfolg zu suchen. Boyces Rolle als Marcus, der Patissier in <em>The Bear</em> (seit 2022), brachte ihm eine Emmy-Nominierung als bester Nebendarsteller in einer Comedyserie ein – ein deutlicher Schritt aus dem kollektiven Hintergrund von Odd Future heraus in eine eigenständige, öffentlich gewürdigte Rolle.</p>
-          <p class="vb-intro">Bemerkenswert dabei: Auch als gefeierter Serien-Nebendarsteller blieb Boyce der Zusammenarbeit mit seinem engsten kreativen Kreis treu, statt sich ausschließlich auf die eigene Solokarriere zu konzentrieren – der Dreierflügel sucht sichtbaren Erfolg, ohne die verlässliche Basis der SE2 dafür aufzugeben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Zwei</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 liegt in der Fähigkeit, aus einer jahrzehntelangen, engen kreativen Partnerschaft heraus eine eigenständige, öffentlich sichtbare Karriere zu entwickeln – ohne die ursprüngliche Basis, die Freundschaft mit Tyler, the Creator und dem Odd-Future-Umfeld, zu verlassen.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die Überzeugung, für den Erfolg der eigenen engen Gruppe unentbehrlich zu sein. Bei der SE2w3 kann sich das mit der Frage verbinden, wie viel von der eigenen Identität an eine bestimmte Gruppe oder Zusammenarbeit gebunden bleibt, auch wenn längst genug eigenständiger Erfolg vorhanden wäre, um sich davon zu lösen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Werk: Von Odd Future zum gefeierten Nebendarsteller</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Von der Rolle als „L-Boy" innerhalb von Odd Future über die gemeinsam mit Tyler, the Creator geschaffenen Serien bis zur Emmy-nominierten Rolle in <em>The Bear</em> zieht sich ein roter Faden durch Boyces Werk: kreative Nähe zuerst, sichtbarer Erfolg als Folge, nie als vorrangiges Ziel.</p>
-          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, um zu gefallen – es lässt seinen engsten Kreis wachsen, ohne ihn zu verlassen. Lionel Boyces Weg vom kreativen Hintergrund einer Hip-Hop-Kollektivgruppe zum gefeierten Fernsehschauspieler zeigt dieses Muster in seiner reinsten Ausprägung: Erfolg, der aus Verlässlichkeit gegenüber den engsten Weggefährten entsteht, nicht aus dem Verlassen der eigenen Basis.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
-        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
-        {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
-      ])}
-    </div>
-  `);
-}

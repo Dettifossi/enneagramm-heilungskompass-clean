@@ -48848,6 +48848,345 @@ const LEBENSMUSTERKOMPASS = {
   }
 };
 
+// ---------------------------------------------------------------------------
+// Illness Pattern Compass: analogous to the Life Pattern Compass, but fed
+// exclusively from this Compass's illness portraits. Draws out patterns that
+// recur in the illness course of multiple, independently typed people of the
+// same subtype — no diagnosis, no claim of determinism, see the full
+// disclaimer on the overview page. Updated with each new illness portrait.
+function krankheitsmusterkompassPortraitsForCode(code) {
+  return KRANKHEITS_PORTRAITS
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+const KRANKHEITSMUSTERKOMPASS = {
+  SE1: {
+    tier: "Eagle",
+    kernthema: "The body as the last place where what the will can no longer control shows itself – often after decades of outward discipline.",
+    beispiele: ["Konrad Adenauer", "Anthony Hopkins", "Astrid Lindgren", "Robert De Niro", "Ludwig Wittgenstein"],
+    fingerabdruecke: [
+      {
+        titel: "Loss of control at a point willpower cannot reach",
+        beschreibung: "The self-preservation One maintains a high level of self-discipline throughout life – illness often strikes exactly where that control is objectively impossible: eyesight, cell growth, addiction.",
+        beleg: "Astrid Lindgren, who went nearly completely blind in old age – a gradual loss no discipline could halt; Anthony Hopkins, who only got his alcoholism under control through a radical, never-since-interrupted retreat into total abstinence starting in 1975; Ludwig Wittgenstein, whose prostate cancer with spinal metastases was diagnosed as incurable in 1949, after which he worked on his final philosophical notes until the end."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Goose",
+    kernthema: "Small sample so far – the first discernible line: a very deliberate, often preventive decision in how one handles one's own health.",
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie"],
+    fingerabdruecke: [
+      {
+        titel: "Principled decisions even in the face of one's own illness",
+        beschreibung: "With few cases so far but a strikingly consistent pattern, the social One shows a very deliberate, almost principled stance toward its own health – decisions are not left to chance but made by clear standards of its own.",
+        beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Black Mamba",
+    kernthema: "Suppressed tension that discharges psychologically rather than physically – recurring depression, addiction, and psychological crises strikingly dominate this group.",
+    beispiele: ["Johann Sebastian Bach", "Martin Luther", "Robbie Williams", "Jamie Lee Curtis", "Klaus Kinski"],
+    fingerabdruecke: [
+      {
+        titel: "Inner pressure that discharges psychologically rather than physically",
+        beschreibung: "In four of five SX1 cases portrayed so far, what dominates is not a purely physical illness but a psychological crisis – depression, addiction, or a psychiatric emergency – often as the flip side of an outwardly very controlled, intense way of living.",
+        beleg: "Martin Luther, who suffered recurring severe depression throughout his life, which he himself called \"Anfechtungen\" (spiritual trials); Robbie Williams with decades of depression and addiction; Jamie Lee Curtis, who concealed a 22-year opiate dependency that began after a cosmetic procedure; Klaus Kinski, whose lifelong outbursts of rage culminated in a 1950 psychiatric committal with a provisional diagnosis of schizophrenia."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Hippopotamus",
+    kernthema: "The body visibly carries what was lived through – accidents, violence, and early trauma strikingly often leave lasting physical marks in this group.",
+    beispiele: ["Wolfgang Amadeus Mozart", "Nusrat Fateh Ali Khan", "Frida Kahlo", "Ai Weiwei", "Mr. T", "Oprah Winfrey", "Greta Thunberg", "Yayoi Kusama", "Natascha Kampusch"],
+    fingerabdruecke: [
+      {
+        titel: "Visible marks of violence, accident, or early trauma on the body itself",
+        beschreibung: "The self-preservation Two strikingly often shows a direct physical or traumatic injury – through accident, violence, or early abuse – that becomes a permanent part of the life story rather than staying hidden.",
+        beleg: "Frida Kahlo, who endured roughly 30 operations and eventually a leg amputation after a bus accident; Ai Weiwei, who suffered a brain hemorrhage after a police assault in 2009 and has had chronic headaches ever since; Oprah Winfrey, who has spoken publicly about childhood sexual abuse and a teenage pregnancy at 14; Natascha Kampusch, who suffered a severe psychological breakdown twenty years after her release; Greta Thunberg with severe depression, an eating disorder, and selective mutism in childhood."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Exhaustion in service of the cause – illnesses arising from years of physical self-overreach in the name of a larger role or mission.",
+    beispiele: ["Muhammad Ali", "Napoleon Bonaparte", "Julius Caesar", "Alexander the Great", "Bob Marley", "Ashton Kutcher"],
+    fingerabdruecke: [
+      {
+        titel: "Forgoing treatment or rest in favor of the larger cause",
+        beschreibung: "In the social Two, the illness itself is strikingly often not the center of the story – the refusal to interrupt one's role for others because of it is, up to and including consciously declining necessary treatment.",
+        beleg: "Bob Marley, who declined a medically recommended amputation on religious grounds and died as the cancer spread; Muhammad Ali, whose Parkinson's syndrome was likely partly caused by years of continuing to box despite repeated head trauma; Julius Caesar and Alexander the Great, who never publicly paused despite recurring seizures or a years-long, boundless campaign of conquest, respectively."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Camel",
+    kernthema: "Only one documented case so far – too little for a reliable pattern, but a striking individual case of dependency in the context of intense, exclusive bonds.",
+    beispiele: ["Elvis Presley"],
+    fingerabdruecke: [
+      {
+        titel: "Single case: medication dependency amid close personal control",
+        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case so future SX2 portraits can be placed in context.",
+        beleg: "Elvis Presley, whose cardiac arrhythmia and megacolon were exacerbated by a years-long medication dependency that his closest circle helped sustain."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Raccoon",
+    kernthema: "Collapse after the façade ends – illnesses that strikingly often coincide with the crumbling of a long-maintained outward control.",
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru"],
+    fingerabdruecke: [
+      {
+        titel: "Physical breakdown following the loss of public control",
+        beschreibung: "In the three cases so far, the health crisis lands strikingly close to a break in public façade or authority – as if the body only gave way once the controlled role could no longer be sustained.",
+        beleg: "Bernie Madoff, whose end-stage kidney failure became public only after his conviction and the total collapse of his investment-fraud empire; Osho, whose heart failure after chronic complaints and a still-disputed poisoning claim overshadowed his authority as a guru; Sadhguru, whose chronic subdural hematoma forced emergency surgery in 2024 while he continued to appear publicly."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Cheetah",
+    kernthema: "Illness behind a closed door – in hardly any other group is one's own illness kept so consistently from the public image, often until shortly before death.",
+    beispiele: ["Teresa of Ávila", "Karl Lagerfeld", "Louis XIV", "O.J. Simpson", "Christiaan Barnard", "Sean Connery"],
+    fingerabdruecke: [
+      {
+        titel: "Concealment of one's own illness until shortly before death",
+        beschreibung: "The social Three often keeps its public image immaculate right up to its final months – its own illness is hidden even from close circles and frequently becomes known, or is confirmed, only after death.",
+        beleg: "Sean Connery's dementia, confirmed publicly only after his death; Karl Lagerfeld's cancer, whose exact cause of death was never officially confirmed; Christiaan Barnard, who reconciled rheumatoid arthritis in his hands with his surgical career for decades, until it forced him to end that career in 1983."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Peacock",
+    kernthema: "Small sample so far – a tendency toward fatal escalations that long stayed hidden beneath an immaculate public stage presence.",
+    beispiele: ["Marilyn Monroe", "Richard Ramírez", "Dolly Parton"],
+    fingerabdruecke: [
+      {
+        titel: "A polished stage presence concealing the actual crisis for a long time",
+        beschreibung: "In the three cases so far, a pattern emerges in which the actual health or psychological crisis stays hidden for a long time behind a flawless public presence, before it escalates abruptly.",
+        beleg: "Marilyn Monroe, whose fatal drug combination occurred despite the glamorous public image she maintained to the end; Dolly Parton, who rarely publicly addressed the endometriosis she has had since the early 1980s, while maintaining her radiant stage image."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Dove",
+    kernthema: "Hidden emotional suffering behind a sensitive, often deeply introspective façade – in this group, the illness runs largely unspoken for years, almost without exception.",
+    beispiele: ["Lady Diana", "Vincent van Gogh", "Adele", "Honoré de Balzac", "T. E. Lawrence"],
+    fingerabdruecke: [
+      {
+        titel: "Years of concealed emotional suffering behind one's own sensitivity",
+        beschreibung: "In nearly every case so far, the self-preservation Four shows a years-long concealed emotional suffering – an eating disorder, depression, post-traumatic stress – that only became known late, or posthumously.",
+        beleg: "Lady Diana, whose bulimia was concealed for years and accompanied by self-harm and postnatal depression; Adele, who kept a severe postnatal depression with panic attacks to herself for nearly a decade; T. E. Lawrence, whose thirteen years of ongoing depression after the trauma of Deraa in 1917 discharged into a self-organized ritual of punishment."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Armadillo",
+    kernthema: "A suffering either downplayed publicly or hidden in shame – hypochondria and actual illness often sit close together in this group.",
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider"],
+    fingerabdruecke: [
+      {
+        titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
+        beschreibung: "The social Four shows a tendency either to dramatize its own suffering heavily (hypochondria) or, conversely, to hide it out of shame – both as ways of handling a vulnerability experienced as shameful.",
+        beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Radical concealment of one's own diagnosis even from the closest circle – in this group, illness is often kept secret until the very last possible minute.",
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish"],
+    fingerabdruecke: [
+      {
+        titel: "Concealed until the last minute – illness as a radically private secret",
+        beschreibung: "The sexual Four repeatedly shows an especially consistent, often years-long concealment of its own diagnosis – right up to the limit of what remains publicly tenable.",
+        beleg: "Freddie Mercury, who kept his AIDS diagnosis strictly secret for nearly five years and confirmed it publicly only one day before his death; Billie Eilish, who concealed her Tourette syndrome for years before disclosing it herself."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Owl",
+    kernthema: "Illness as a byproduct of one's own obsessive immersion – in several cases, the affliction arises directly from years of unprotected devotion to one's own work.",
+    beispiele: ["Marie Curie", "Charles Darwin", "Franz Kafka", "Baruch de Spinoza", "Hermann Hesse", "Warren Buffett"],
+    fingerabdruecke: [
+      {
+        titel: "One's own research or craft passion as a direct cause of illness",
+        beschreibung: "The self-preservation Five shows several cases in which the illness is not incidental but a direct consequence of years of unprotected immersion in one's own subject matter – the passion itself becomes a burden on the body.",
+        beleg: "Marie Curie, whose aplastic anemia arose from chronic radiation exposure in her own research; Baruch de Spinoza, whose chronic lung disease traced back to years of inhaling glass dust while lens-grinding – the craft he chose himself for financial independence."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Octopus",
+    kernthema: "Working to the very end – in hardly any other group does continued work despite progressive, often fatal illness run through the cases so consistently.",
+    beispiele: ["Dr. Claudio Naranjo", "Albert Einstein", "Stephen Hawking", "Isaac Newton", "Leonardo da Vinci"],
+    fingerabdruecke: [
+      {
+        titel: "Unabated continued work despite progressive, known illness",
+        beschreibung: "In practically every SO5 case so far, intellectual or creative work continues nearly undiminished despite substantial physical limitation – knowledge and work are carried forward to the physical limit.",
+        beleg: "Stephen Hawking, who worked on open questions in physics for 55 years despite total paralysis; Albert Einstein, who lived with a known, untreated aneurysm threat for six and a half years and worked on equations until his last night; Leonardo da Vinci, who switched to his left hand after a stroke paralyzed his right and kept working on the Mona Lisa."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Hedgehog",
+    kernthema: "Small sample so far – a discernible cluster of neurological and sense-related complaints accompanied by mental breakdown.",
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin"],
+    fingerabdruecke: [
+      {
+        titel: "Neurological complaints affecting perception and mind",
+        beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a combination of physical suffering and mental or sensory impairment.",
+        beleg: "Friedrich Nietzsche with chronic migraines, failing eyesight, and eventual mental collapse; Frédéric Chopin, whose tuberculosis increasingly constrained his later work and physical strength."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Rabbit",
+    kernthema: "Illnesses either concealed or downplayed alongside a simultaneously vigilant, often hypochondriac watch over one's own health.",
+    beispiele: ["Franz Schubert", "Fyodor Dostoevsky", "Woody Allen", "Neil Armstrong"],
+    fingerabdruecke: [
+      {
+        titel: "Between concealment and constant health vigilance",
+        beschreibung: "The self-preservation Six shows a striking contrast: some cases hide a serious illness for a long time, while others turn their own health into a permanent, publicly known concern.",
+        beleg: "Franz Schubert, whose syphilis progressed over six years but was officially declared typhoid; Woody Allen with his lifelong, publicly documented hypochondria (\"alarmism\"); Neil Armstrong, who carried coronary heart disease for over two decades before dying after a bypass operation."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Meerkat",
+    kernthema: "Small sample so far – a discernible pattern of clinging to one's own habits despite recognizable health danger.",
+    beispiele: ["Sigmund Freud", "Immanuel Kant"],
+    fingerabdruecke: [
+      {
+        titel: "Clinging to one's own habit despite recognizable danger",
+        beschreibung: "With only two cases so far, a cautious pattern can be discerned in which a habit experienced as security-giving is not given up even after diagnosis.",
+        beleg: "Sigmund Freud, who barely curtailed his cigar smoking despite his diagnosis of mouth and jaw cancer; Immanuel Kant with chronic hypochondria and shortness of breath that barely changed his strictly regulated daily ritual into old age."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Following an illness or trauma, this group strikingly often withdraws radically from public life or its social environment.",
+    beispiele: ["Friedrich Schiller", "Otto von Bismarck", "Ludwig van Beethoven", "Charles Manson", "Byron Katie", "Michael Schumacher"],
+    fingerabdruecke: [
+      {
+        titel: "Radical withdrawal after illness or trauma rather than gradual adjustment",
+        beschreibung: "The sexual Six repeatedly shows an abrupt, nearly complete withdrawal from familiar social or public life after a severe illness or trauma occurs – not a slow settling-in, but a clean break.",
+        beleg: "Michael Schumacher, who was completely shielded from the media after his severe skiing accident in 2013; Byron Katie, whose ten years of severe depression and agoraphobia abruptly turned into a radical turning point in 1986; Ludwig van Beethoven's progressive deafness, which increasingly drove him out of the social musical life of his time."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Carrying on despite a serious diagnosis – in this group, the actual activity often ends only with death itself, not already with the diagnosis.",
+    beispiele: ["Larry King", "Francis Bacon", "Junko Tabei", "Mariah Carey"],
+    fingerabdruecke: [
+      {
+        titel: "Activity to the literal last moment, regardless of diagnosis",
+        beschreibung: "The self-preservation Seven shows, in several cases, a tendency to continue its accustomed activity until the end of life rather than submit to the illness.",
+        beleg: "Junko Tabei, who kept climbing mountains despite peritoneal cancer, almost until her death; Larry King, who survived an entire chain of heart disease, cancer, and a stroke over decades and kept returning to the studio, before ultimately dying of COVID-19 sepsis."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Beaver",
+    kernthema: "Warning signs are consistently overridden – in this group, the actual illness is repeatedly ignored or misread as long as work can continue.",
+    beispiele: ["Molière", "George Gershwin", "Nikola Tesla", "Jules Verne", "Drew Barrymore", "Elon Musk"],
+    fingerabdruecke: [
+      {
+        titel: "Forward flight instead of pausing at the first warning signs",
+        beschreibung: "In several cases, the social Seven shows a pattern in which early health warning signs are consistently overridden in favor of continued activity and new projects, until an abrupt collapse forces a halt.",
+        beleg: "George Gershwin, who kept working on new film-scoring projects despite months of headaches and olfactory hallucinations, until he collapsed; Molière, who stood on stage with his chronic lung disease during a performance itself; Nikola Tesla, whose progressive obsessive-compulsive disorder was never treated over decades but was instead channeled into ever-new invention projects."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Chimpanzee",
+    kernthema: "Intense activity and passion continue almost unabated even under progressive illness – withdrawal comes late here, if at all.",
+    beispiele: ["Robert Schumann", "Leonard Bernstein", "Franz Liszt", "Morgan Freeman", "Frans de Waal"],
+    fingerabdruecke: [
+      {
+        titel: "Continued intensity despite progressive physical limitation",
+        beschreibung: "In the sexual Seven, creative or professional intensity continues unusually long even under increasing physical strain – illness tends to be integrated into the existing passion rather than triggering withdrawal.",
+        beleg: "Frans de Waal, who kept working despite stomach cancer until a few months before his death; Morgan Freeman, who kept making films despite fibromyalgia with chronic nerve pain in his left arm since 2008; Franz Liszt, who kept performing until the end despite heart failure, dropsy, and progressive blindness."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orangutan",
+    kernthema: "One of the most consistent concealments of one's own illness across this entire Compass – weakness is almost never allowed to be public in this group.",
+    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Radical, often years-long concealment of any recognizable weakness",
+        beschreibung: "The self-preservation Eight shows an unusually consistent concealment of its own illness in almost every case so far – control over its own vulnerability is not relinquished.",
+        beleg: "Golda Meir, who kept her lymphatic cancer secret for seventeen years; Winston Churchill, who hid a stroke in office from the public, alongside a lifelong, also concealed depression (\"the black dog\"); Umberto Eco, who kept his pancreatic cancer almost entirely private for about two years."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Lion",
+    kernthema: "Small to moderate sample so far – a striking cluster of chronic, physically burdensome afflictions that rarely lead to public withdrawal.",
+    beispiele: ["Karl Marx", "John Gotti", "Helmut Kohl", "Fritz Perls"],
+    fingerabdruecke: [
+      {
+        titel: "Chronic physical suffering that rarely leads to relinquishing responsibility",
+        beschreibung: "The social Eight repeatedly shows prolonged, physically burdensome chronic complaints that nevertheless rarely lead to prematurely giving up the respective leadership role or public function.",
+        beleg: "Karl Marx, who for years endured severe boils and carbuncles alongside bronchitis, liver trouble, and rheumatism without giving up his work on \"Capital\"; Fritz Perls with years of heart trouble and chain-smoking until his pancreatic cancer diagnosis."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Crocodile",
+    kernthema: "Continuing to fight without publicly visible loss of power – this group holds its position remarkably long despite serious, sometimes repeated illness.",
+    beispiele: ["Ruth Bader Ginsburg", "Giacomo Puccini", "John Wayne", "Genesis P-Orridge"],
+    fingerabdruecke: [
+      {
+        titel: "Office or position not relinquished despite serious, repeated illness",
+        beschreibung: "The sexual Eight shows, in several cases, a remarkable refusal to vacate its position because of an illness – even when it recurs multiple times.",
+        beleg: "Ruth Bader Ginsburg, who lived through four cancer diagnoses across three very different organs over two decades while remaining continuously on the bench as a US Supreme Court justice; John Wayne, who had lung cancer in 1964 and finally fatal stomach cancer in 1979, continuing to make films between the two diagnoses."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elephant",
+    kernthema: "Slowly progressing, for years barely addressed chronic afflictions – in this group the illness often stays in the background of outward life for a long time.",
+    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher"],
+    fingerabdruecke: [
+      {
+        titel: "Slowly progressing afflictions barely addressed publicly for a long time",
+        beschreibung: "In the self-preservation Nine, the illness frequently progresses very slowly over years and remains remarkably in the background of public life for a long time before it becomes unmistakable.",
+        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father."
+      }
+    ]
+  },
+  SO9: {
+    tier: "Buffalo",
+    kernthema: "A striking concentration of illnesses affecting memory and identity itself – a remarkable echo of the Nine's core theme of self-forgetting.",
+    beispiele: ["Wilma Mankiller", "Ronald Reagan", "Peter Falk", "Julian Assange", "Willy Brandt"],
+    fingerabdruecke: [
+      {
+        titel: "Illnesses that affect memory and identity itself",
+        beschreibung: "The social Nine shows a remarkable clustering of illnesses that directly attack memory or identity – a striking echo of this subtype's core theme, its own tendency to set itself aside in favor of the community.",
+        beleg: "Ronald Reagan and Peter Falk, both of whom developed Alzheimer's – Falk's accompanied by a public custody dispute over his care; Julian Assange, whose seven years of isolation caused documented physical and psychological effects; Willy Brandt with recurring severe depressive episodes."
+      }
+    ]
+  },
+  SX9: {
+    tier: "Sloth",
+    kernthema: "Small sample so far – a tendency toward chronic, never clearly diagnosed suffering, often accompanied by a numbing approach to one's own pain.",
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser"],
+    fingerabdruecke: [
+      {
+        titel: "Chronic, never clearly diagnosed suffering with a numbing approach",
+        beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a years-long, never fully clarified chronic course.",
+        beleg: "Elizabeth Barrett Browning with a decades-long, never clearly diagnosed chronic illness and an accompanying lifelong opium dependency; Friedensreich Hundertwasser with a chronic heart condition that eventually led to fatal heart failure aboard the Queen Elizabeth 2."
+      }
+    ]
+  }
+};
+
 function lebensmusterkompassPage() {
   const subtypes = [
     { code: "SE1", tier: "Eagle" }, { code: "SO1", tier: "Goose" }, { code: "SX1", tier: "Black Mamba" },
@@ -48901,6 +49240,7 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypes: Passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Pattern Radar (wings & instincts across all types)"},
+          {route:"krankheitsmusterkompass", label:"Illness Pattern Compass (patterns in the illness portraits)"},
           {route:"enneagramm-rad", label:"Enneagram Wheel (interactive symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
           {route:"kriminalpsychologie", label:"Criminal psychology"},
@@ -49337,6 +49677,135 @@ function lebensmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass", label:"Back to the Life Pattern Compass"},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: subtype profile`},
           {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Eagle" }, { code: "SO1", tier: "Goose" }, { code: "SX1", tier: "Black Mamba" },
+    { code: "SE2", tier: "Hippopotamus" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Camel" },
+    { code: "SE3", tier: "Raccoon" }, { code: "SO3", tier: "Cheetah" }, { code: "SX3", tier: "Peacock" },
+    { code: "SE4", tier: "Dove" }, { code: "SO4", tier: "Armadillo" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Owl" }, { code: "SO5", tier: "Octopus" }, { code: "SX5", tier: "Hedgehog" },
+    { code: "SE6", tier: "Rabbit" }, { code: "SO6", tier: "Meerkat" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Beaver" }, { code: "SX7", tier: "Chimpanzee" },
+    { code: "SE8", tier: "Orangutan" }, { code: "SO8", tier: "Lion" }, { code: "SX8", tier: "Crocodile" },
+    { code: "SE9", tier: "Elephant" }, { code: "SO9", tier: "Buffalo" }, { code: "SX9", tier: "Sloth" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!KRANKHEITSMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="krankheitsmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in progress"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in progress</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Illness Pattern Compass</p>
+        <h1 class="section-title">Illness Pattern Compass</h1>
+        <p class="psycho-intro">Recurring patterns in the illness course of the 27 subtypes &ndash; drawn from an internal analysis of all illness portraits in this Compass.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>The most important sentence first:</strong> anyone can develop any illness, regardless of Enneagram subtype. This section is not a prediction and not a checklist of what a given type will supposedly fall ill with. It merely records which illness patterns are documented with above-average frequency for which subtype among this Compass's illness portraits so far &ndash; a statistical observation within a still-small, non-representative sample of just over a hundred cases, not a medical or scientific claim.</p>
+          <p class="vb-intro">Why do such clusters appear anyway? Because certain psychological patterns &ndash; for instance, the tendency to override the body's own warning signs, or the tendency to consistently conceal illness &ndash; naturally leave their mark on some illness courses more than others. That is different from an individual falling ill: whether any one person actually develops a particular illness, especially a serious one, depends on very many factors and remains, as a rule, unlikely &ndash; the cases documented here are striking but statistically rare individual cases drawn from a handful to a few dozen portrayed people per subtype, not the expected norm.</p>
+          <p class="vb-intro"><strong>An important reassurance:</strong> the patterns visible in this section (such as overriding warning signs or concealing an illness) generally presuppose that a person is unaware of their own core pattern and therefore lives it out unchecked &ndash; not out of fault, but out of not knowing their own pattern (see also the point "The unconscious fixation as its own factor," addressed in every illness portrait in this Compass). Anyone who is already engaging with the Enneagram and their own subtype has, as a rule, already dissolved much of this blind spot &ndash; and that is the actual point of this section: not to create worry, but to show where more mindful self-awareness pays off.</p>
+          <p class="vb-intro"><strong>Important note on method:</strong> like the Life Pattern Compass, this section is not an externally verified, scientific proof, but a continuously growing internal collection of observations from this Compass's own portrait work &ndash; carrying the same methodological circularity risk. All 27 subtypes are set up; where only one or two illness portraits are documented so far for a subtype, that is explicitly flagged as preliminary rather than forcing a pattern the data is simply too thin to support. This section is updated with every new illness portrait.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Life Pattern Compass (Biographical Fingerprints)"},
+          {route:"krankheitsportraets", label:"All Illness Portraits"},
+          {route:"psychosomatik", label:"Psychosomatics Register"},
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"tierlexikon", label:"Animal lexicon of the 27 subtypes"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = KRANKHEITSMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Not yet available</h1>
+          <p class="psycho-intro">The Illness Pattern Compass for ${code} is still in progress.</p>
+          ${relatedLinks([{route:"krankheitsmusterkompass", label:"Back to the Illness Pattern Compass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = krankheitsmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Pattern ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Evidence from the illness portraits</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Illness Pattern Compass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Illness Patterns</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:-0.6rem 0 1.4rem;">Anyone can develop any illness, regardless of subtype – this page shows statistical clusters within a small, non-representative sample, not a prediction. More on this in the <a href="javascript:void(0)" data-route="krankheitsmusterkompass" style="color:${col};">Illness Pattern Compass overview</a>.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Illness portraits drawn on (automatically compiled from all ${code} entries &ndash; extends itself with every new illness portrait):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${relatedLinks([
+          {route:"krankheitsmusterkompass", label:"Back to the Illness Pattern Compass"},
+          {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Life Pattern Compass: ${code} – ${data.tier}`},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: subtype profile`},
+          {route:"psychosomatik", label:"Psychosomatics Register"},
         ])}
       </div>
     </div>
@@ -49881,7 +50350,7 @@ function krankheitsportraetsPage() {
     <div class="page-container">
       ${pageHeader("krankheitsportraets")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Illness Portraits</h1>
-      <p class="psycho-intro">Biographies of historical figures in whom a documented illness becomes visible as a red thread running through years or decades of life – connected to the person's Enneagram subtype. Read in a holistic sense, illness is often not just fate, but also a corrective: a signpost that announces itself long before it becomes unavoidable. <strong>Deliberately limited to deceased, historically well-documented cases</strong> – out of respect for people with a current, still-uncertain diagnosis. This page does not replace a medical or historical diagnosis, but offers a psychological-biographical layer of interpretation, in which every illness is understood as an individual interplay of many factors – never as the inevitable consequence of a type.</p>
+      <p class="psycho-intro">Biographies of historical figures in whom a documented illness becomes visible as a red thread running through years or decades of life – connected to the person's Enneagram subtype. Read in a holistic sense, illness is often not just fate, but also a corrective: a signpost that announces itself long before it becomes unavoidable. <strong>Deliberately limited to deceased, historically well-documented cases</strong> – out of respect for people with a current, still-uncertain diagnosis. This page does not replace a medical or historical diagnosis, but offers a psychological-biographical layer of interpretation, in which every illness is understood as an individual interplay of many factors – never as the inevitable consequence of a type. Recurring patterns across all portraits of a subtype are collected in the <a href="javascript:void(0)" data-route="krankheitsmusterkompass">Illness Pattern Compass</a>.</p>
       ${filterBar}
       ${registerBox}
       <div id="kh-list" style="max-width:640px;margin-top:1rem;">
@@ -104659,6 +105128,7 @@ function subtypeSchaubilderPage() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "krankheitsmusterkompass": krankheitsmusterkompassPage,
     "musterradar": musterradarPage,
     "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
@@ -105561,6 +106031,8 @@ function subtypeSchaubilderPage() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "krankheitsmusterkompass" && param) {
+      app.innerHTML = krankheitsmusterkompassDetailPage(param);
     } else if (base === "musterradar" && param) {
       app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {

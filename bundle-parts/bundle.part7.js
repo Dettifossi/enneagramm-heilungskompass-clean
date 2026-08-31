@@ -1,3 +1,270 @@
+function kollegahPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Kollegah – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kollegah</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Rapper, K\u00fcnstler &amp; Unternehmer, geb. 1984 &ndash; 2016 zum Islam \u00fcbergetreten &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Raubtier, das nicht aus Bosheit t\u00f6tet, sondern aus Notwendigkeit. Er lebt in Hierarchien, er k\u00e4mpft um seine Position, und er zeigt seine Z\u00e4hne, nicht weil er Freude am Schmerz hat, sondern weil er wei\u00df: Wer sich nicht durchsetzt, wird verdr\u00e4ngt. Der Wolf hat Angst &ndash; und er verwandelt diese Angst in Kraft.</p>
+          <p class="vb-intro">Der deutsche Rapper Kollegah &ndash; b\u00fcrgerlicher Name Felix Antoine Blume, geb. 1984 in Singen &ndash; ist dieser Wolf. Einer der kommerziell erfolgreichsten deutschen Rapper \u00fcberhaupt, bekannt f\u00fcr ein k\u00fcnstlerisches Alter Ego, das nach au\u00dfen hin keine Schw\u00e4che kennt: der Boss, der Zuh\u00e4lter-Bar\u00f3n, die \u00fcberlegene Figur, die jeden Gegner wegfl\u00fcstert. Aber das Alter Ego ist eine R\u00fcstung. Darunter liegt die Frage, die alle Sechser kennen: <em>Bin ich wirklich sicher? Bin ich wirklich stark genug?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit Angriff. <em>Ich bin gef\u00e4hrlich &ndash; also bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Kraft, Dominanz und Intensit\u00e4t, weil sie wei\u00df, was es bedeutet, schwach zu sein &ndash; und weil sie sich geschworen hat, nie wieder dort zu sein.</p>
+          <p class="vb-intro">Kollegahs gesamtes k\u00fcnstlerisches Projekt ist eine Inszenierung dieser Gegenangst. Das Boss-Narrativ, die Muskeln, die Statussymbole, die Sprache der Dominanz &ndash; alles dient dazu, eine Aura der Unverwundbarkeit zu erzeugen. Wer die SX6 kennt, erkennt das Muster sofort: Je mehr jemand seine St\u00e4rke demonstriert, desto mehr sagt er dar\u00fcber, was er zu verbergen versucht. Der Wolf, der seine Rei\u00dfz\u00e4hne zeigt, wei\u00df genau, warum.</p>
+          <p class="vb-intro">Das Rudel der SX6 ist klein und loyal. Kollegah arbeitete jahrelang eng mit Farid Bang zusammen &ndash; enneagrammtypologisch ein ganz anderes Profil: Farid Bang ist selbsterhaltender Typ 7 mit Achterfl\u00fcgel (SE7w8), kein Kontratyp, sondern ein Siebener, der seinen Hunger nach Erleben und Intensit\u00e4t mit der Direktheit des Achters verbindet. Zwei v\u00f6llig verschiedene Charakterstrukturen, die sich im Ergebnis erg\u00e4nzten: der Wolf, der aus Angst angreift, und der Siebener, der aus Lust provoziert. Das Projekt <em>Jung, brutal, gutaussehend</em> (2013) ist das Dokument dieser Allianz: ein Album, das Provokation zum Kunstprinzip erhob.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Der Handwerker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine Pr\u00e4zision, die ihren Stil von blo\u00dfer Provokation unterscheidet. Die SX6w5 k\u00e4mpft nicht nur mit Lautst\u00e4rke &ndash; sie k\u00e4mpft mit Technik. <em>Ich will nicht nur gef\u00e4hrlich wirken. Ich will der Beste sein. Ich will es beweisen k\u00f6nnen.</em></p>
+          <p class="vb-intro">Kollegah ist, bei aller inhaltlichen Kontroversi\u00e4t, handwerklich einer der pr\u00e4zisesten Rapper der deutschsprachigen Szene. Mehrsilbige Reime, komplexe Kadenzen, die f\u00fcr die deutsche Sprache ungew\u00f6hnlich sind, eine Dichte an W\u00f6rtern pro Takt, die wenige erreichen. Er hat das Rappen studiert wie ein Fach &ndash; analysiert, systematisiert, optimiert. Das ist der F\u00fcnferfl\u00fcgel: Wissen als Werkzeug, Handwerk als Schutzschild. <em>Was ich kann, kann mir niemand nehmen.</em></p>
+          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel erkl\u00e4rt auch Kollegahs \u00fcberraschend tiefe Auseinandersetzung mit Religion. Seine Konversion zum Islam 2016 kam nicht aus dem Nichts. Der SX6w5 sucht ein stabiles Fundament f\u00fcr seine Weltsicht &ndash; ein System, dem er vertrauen kann, das ihn tr\u00e4gt. Die F\u00fcnf im Fl\u00fcgel macht ihn zum Forscher: Er liest, analysiert, entwickelt Positionen. Auch das ist eine Form der K\u00e4mpfernatur der Sechs: Ich brauche etwas, das standh\u00e4lt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre F\u00e4higkeit, Intensit\u00e4t in Leistung zu verwandeln. Kollegah hat aus einer Startposition ohne Netzwerk und ohne Plattform heraus eine der erfolgreichsten Karrieren im deutschen Hip-Hop aufgebaut. F\u00fcnf Nummer-eins-Alben in Serie, mehrfacher Echo-Gewinner, eines der meistgeh\u00f6rten Acts der deutschen Musikgeschichte. Das ist nicht Gl\u00fcck. Das ist die SX6w5: gnadenlos diszipliniert, gnadenlos fokussiert, gnadenlos auf Kontrolle bedacht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die Kontrareaktion der SX6 darauf ist Provokation. Wenn Provokation aber zum Selbstzweck wird, verliert sie ihre Grenze. Der Echo-Skandal 2018 &ndash; antisemitische Textzeilen auf dem gemeinsamen Album mit Farid Bang, die zum R\u00fcckgabe-Eklat f\u00fchrten &ndash; ist das d\u00fcsterste Kapitel in Kollegahs \u00f6ffentlichem Leben. Was als \u00c4sthetik der Grenz\u00fcberschreitung begann, wurde zur realen Verletzung. Der Wolf, der nicht mehr wei\u00df, wohin mit seinen Z\u00e4hnen.</p>
+          <p class="vb-intro"><em>Hinweis: Das Portr\u00e4t analysiert die Pers\u00f6nlichkeitsstruktur. Antisemitische Texte sind nicht relativierbar &ndash; sie werden hier nicht verteidigt, sondern eingeordnet: als \u00dcberschreitung eines Musters, das in seinem Ursprung aus Angst und Gegenangst entsteht.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: St\u00e4rke ohne R\u00fcstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich?</em> zur Erkenntnis <em>Ich brauche diesen Schutz nicht.</em> F\u00fcr die SX6w5 bedeutet das, die R\u00fcstung abzulegen &ndash; nicht weil man schwach ist, sondern weil man stark genug ist, ohne sie aufzutreten. Der Boss-Charakter ist eine Antwort auf eine innere Not. Wenn diese Not geh\u00f6rt wird, braucht es den Charakter nicht mehr.</p>
+          <p class="vb-intro">Kollegahs sp\u00e4teres Schaffen zeigt Spuren dieses Weges. Die Konversion, die bewusste Auseinandersetzung mit Grenzen, die \u00f6ffentliche Distanzierung von bestimmten \u00c4sthetiken &ndash; das sind keine Br\u00fcche, sondern Bewegungen. Der Wolf, der beginnt, sein Rudel nicht mehr durch Z\u00e4hnezeigen zu f\u00fchren, sondern durch Ruhe und Richtung. Die St\u00e4rke bleibt. Die Angst dahinter wird kleiner.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function wladimirPutinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Wladimir Putin – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wladimir Putin</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Politiker, Pr\u00e4sident der Russischen F\u00f6deration, geb. 1952 in Leningrad &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er beobachtet lange, bevor er handelt, und wenn er handelt, dann entschlossen. Er kennt Angst &ndash; und genau deshalb l\u00e4sst er sie nicht zu.</p>
+          <p class="vb-intro">Der russische Pr\u00e4sident Wladimir Putin, geboren 1952 in Leningrad, dem heutigen St. Petersburg, in einfachen Verh\u00e4ltnissen und als einziges \u00fcberlebendes Kind seiner Eltern nach zwei im Krieg bzw. an Krankheit verstorbenen Geschwistern, ist dieser Wolf. Sein Weg vom KGB-Offizier \u00fcber den St. Petersburger Verwaltungsapparat bis an die Spitze des russischen Staates ist die Geschichte eines Mannes, der gelernt hat, dass Kontrolle \u00fcber die eigene Umgebung die einzige verl\u00e4ssliche Antwort auf eine unsichere Welt ist.</p>
+          <p class="vb-intro">Passend dazu erz\u00e4hlte Putin in seinen Autobiografien eine pr\u00e4gende Kindheitserinnerung aus einem Hinterhof im damaligen Leningrad: Er hatte eine Ratte mit einem Stock in eine Ecke getrieben &ndash; doch statt sich zu ergeben, sprang das Tier ihm pl\u00f6tzlich ins Gesicht. F\u00fcr ihn wurde daraus die zentrale Lebenslektion: Wer in die Enge getrieben ist, darf sich niemals zur\u00fcckziehen, sondern muss wie die Ratte nach vorne springen. Die Ratte ist ein treffendes Bild f\u00fcr die SX6: Sie greift nicht aus \u00dcberlegenheit an, sondern aus Angst und Enge &ndash; und macht daraus Angriff. Wie tief dieses Muster reicht, zeigt auch der Watergate-Drahtzieher G. Gordon Liddy, ebenfalls eine SX6, der als Kind von einer Rattenphobie gequ\u00e4lt wurde und sich sp\u00e4ter eine Ratte briet und a\u00df, um seine Angst durch reinen Willen zu bezwingen. Ob metaphorisch wie bei Putin oder w\u00f6rtlich wie bei Liddy: Beide versuchen, der eigenen Verwundbarkeit zu entkommen, indem sie selbst zum gef\u00e4hrlichsten Faktor im Raum werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich stark genug bin, wenn ich unberechenbar genug bin, wenn ich zuerst handle &ndash; dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
+          <p class="vb-intro">Putins politischer Stil tr\u00e4gt die Handschrift dieses Musters unverkennbar. Die kalkulierte H\u00e4rte in Krisen, die Inszenierungen von physischer St\u00e4rke &ndash; Judo, Eishockey, Reiten mit nacktem Oberk\u00f6rper &ndash;, das strategische Verunsichern von Gegnern durch bewusste Unberechenbarkeit: All das folgt der Logik des Wolfes, der seine Position nicht durch N\u00e4he, sondern durch demonstrierte Unangreifbarkeit sichert. Die eigene Erfahrung des Zusammenbruchs der Sowjetunion 1991, den Putin sp\u00e4ter als <em>gr\u00f6\u00dfte geopolitische Katastrophe des 20. Jahrhunderts</em> bezeichnete, ist der biografische Kern dieser Haltung: der Moment, in dem das Rudel auseinanderfiel und die Bedrohung von innen kam.</p>
+          <p class="vb-intro">Das Rudel der SX6 ist klein, loyal und hierarchisch geordnet &ndash; ein enger Kreis aus Vertrauten, oft noch aus KGB- und St.-Petersburg-Zeiten, dem bedingungslose Loyalit\u00e4t abverlangt und im Gegenzug Schutz gew\u00e4hrt wird. Wer aus diesem Rudel ausschert oder als Verr\u00e4ter gilt, wird zur Bedrohung erkl\u00e4rt &ndash; ein Muster, das sich durch Putins gesamte politische Laufbahn zieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Kontrolle durch Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische K\u00fchle, die ihre K\u00e4mpfernatur von reiner Impulsivit\u00e4t unterscheidet. Die SX6w5 handelt nicht aus dem Affekt &ndash; sie beobachtet, sammelt Informationen, w\u00e4gt ab, und schl\u00e4gt erst zu, wenn sie die Lage vollst\u00e4ndig durchdrungen hat. <em>Ich will nicht nur stark sein. Ich will wissen, bevor ich handle.</em></p>
+          <p class="vb-intro">Putins gesamte berufliche Pr\u00e4gung ist die Verk\u00f6rperung dieses F\u00fcnferfl\u00fcgels: 16 Jahre im KGB und dessen Nachfolgeorganisationen, ein Beruf, dessen Kern das Sammeln, Analysieren und diskrete Verwerten von Informationen ist. Seine \u00f6ffentlichen Auftritte sind gepr\u00e4gt von einer bewussten Zur\u00fcckhaltung, einer Distanz, die N\u00e4he vermeidet und Kontrolle \u00fcber die eigene Selbstdarstellung wahrt. Der F\u00fcnferfl\u00fcgel erkl\u00e4rt auch die geduldige, oft jahrelange strategische Planung, die vielen seiner politischen Schritte vorausgeht &ndash; das Gegenteil von Impulsivit\u00e4t, auch wenn das Ergebnis nach au\u00dfen hin abrupt erscheinen mag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Aufstieg: Vom KGB-Offizier zum Pr\u00e4sidenten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Putins Aufstieg ist ein Lehrst\u00fcck systematischer Machtsicherung. Nach dem Ende seiner KGB-Laufbahn 1991 wurde er Berater des St. Petersburger B\u00fcrgermeisters Anatoli Sobtschak, wechselte 1996 nach Moskau in die Pr\u00e4sidialverwaltung, wurde 1998 Chef des Inlandsgeheimdienstes FSB und 1999 von Boris Jelzin zum Ministerpr\u00e4sidenten ernannt. Am letzten Tag des Jahres 1999 \u00fcbergab Jelzin ihm \u00fcberraschend das Pr\u00e4sidentenamt. Seither hat er &ndash; mit einer vierj\u00e4hrigen Unterbrechung als Ministerpr\u00e4sident zwischen 2008 und 2012, w\u00e4hrend der er de facto weiter die F\u00e4den zog &ndash; die russische Politik ohne Unterbrechung gepr\u00e4gt.</p>
+          <p class="vb-intro">Diese Kontinuit\u00e4t ist selbst Ausdruck des SX6w5-Musters: die systematische Absicherung der eigenen Position gegen jede Form von Unsicherheit, durch Verfassungs\u00e4nderungen, durch Kontrolle der Medien, durch ein engmaschiges Netz loyaler Vertrauter in Wirtschaft und Verwaltung. Der Wolf, der sein Territorium nicht dem Zufall \u00fcberl\u00e4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, in Krisen Stabilit\u00e4t und Handlungsf\u00e4higkeit zu vermitteln. In den chaotischen Jahren nach dem Zusammenbruch der Sowjetunion versprach Putins ruhige, kontrollierte Art vielen Russen ein Ende der Instabilit\u00e4t &ndash; ein Versprechen, das seine fr\u00fche Popularit\u00e4t erkl\u00e4rt und das bis heute einen Teil seiner innenpolitischen Zustimmung tr\u00e4gt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, wenn die wahrgenommene Bedrohung existenziell wird. Die Annexion der Krim 2014 und der seit 2022 andauernde Angriffskrieg gegen die Ukraine sind die dunkelste Konsequenz dieses Musters: die Umwandlung diffuser Angst &ndash; vor NATO-Erweiterung, vor dem Verlust von Einflusssph\u00e4ren, vor dem imaginierten Zerfall der eigenen Machtbasis &ndash; in massive, f\u00fcr unz\u00e4hlige Menschen t\u00f6dliche Aggression. Die Unterdr\u00fcckung innenpolitischer Opposition, das Vorgehen gegen unabh\u00e4ngigen Journalismus und die Inhaftierung oder der Tod von Kritikern wie Alexei Nawalny zeigen dasselbe Muster nach innen gewendet: Wer als Bedrohung des Rudels gilt, wird eliminiert. Das ist kein Randaspekt der Pers\u00f6nlichkeitsstruktur &ndash; es ist ihre Schattenseite in ihrer radikalsten, folgenschwersten Form.</p>
+          <p class="vb-intro"><em>Hinweis: Dieses Portr\u00e4t analysiert eine Pers\u00f6nlichkeitsstruktur nach dem Enneagramm-Modell. Es erkl\u00e4rt Muster, es rechtfertigt nichts. Der Angriffskrieg gegen die Ukraine und die Unterdr\u00fcckung politischer Freiheit in Russland sind eigenst\u00e4ndig zu verurteilende Handlungen, unabh\u00e4ngig von jeder psychologischen Einordnung.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Sicherheit ohne Kontrolle \u00fcber andere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Herrschaft \u00fcber andere zu verstehen, sondern als innere Festigkeit, die keine \u00e4u\u00dfere Best\u00e4tigung durch Unterwerfung braucht.</p>
+          <p class="vb-intro">Dieser Weg ist bei Wladimir Putin \u00f6ffentlich nicht erkennbar &ndash; im Gegenteil, seine Amtsjahre zeigen eine zunehmende, nicht eine abnehmende Verh\u00e4rtung des Musters. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch die Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zu bek\u00e4mpfen versucht. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das er sein Leben lang zu vermeiden gelernt hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portr\u00e4t: Otto von Bismarck (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Erster Reichskanzler des Deutschen Kaiserreichs, geb. 1815 in Sch\u00f6nhausen, gest. 1898 in Friedrichsruh &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er prescht nicht blind vor, sondern beobachtet, wittert, wartet auf den richtigen Moment &ndash; und wenn er zuschl\u00e4gt, dann entschlossen und ohne halbe Sachen.</p>
+          <p class="vb-intro">Otto von Bismarck, geboren 1815 auf dem Gut Sch\u00f6nhausen in der Altmark, ist dieser Wolf in seiner reinsten politischen Gestalt. Zeitgenossen beschrieben ihn als \u00bbd\u00e4monisch\u00ab, als \u00bbdiabolisch\u00ab &ndash; Formulierungen, die weniger sein Wesen treffen als das, was er bewusst nach au\u00dfen kehrte: eine Bedrohlichkeit, die keinen Zweifel daran lie\u00df, dass es gef\u00e4hrlich war, sich mit ihm anzulegen. Als seine Mutter starb, war er dreizehn Jahre alt; sein Vater, ein biederer Landjunker, hielt den ambitionslosen, unsteten Sohn zeitlebens f\u00fcr eine Entt\u00e4uschung. Aus diesem doppelten Mangel &ndash; fr\u00fch verlorene N\u00e4he, nie erhaltene Anerkennung &ndash; erwuchs kein R\u00fcckzug, sondern das genaue Gegenteil: eine zwanghafte, lebenslange Suche nach Dominanz und Best\u00e4tigung, die sich niemand mehr entziehen konnte.</p>
+          <p class="vb-intro">Sein eigenes Urteil \u00fcber sich selbst best\u00e4tigt, wie viel Kraft es kostete, diese Fassade aufrechtzuerhalten: \u203aIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u2039 Das ist kein Satz eines Mannes ohne Angst. Es ist das Gest\u00e4ndnis eines Wolfes, der seine eigene Nervosit\u00e4t so gr\u00fcndlich hinter Drohgeb\u00e4rden verbarg, dass ganze Generationen von Zeitgenossen und Historikern sie f\u00fcr Kaltbl\u00fctigkeit hielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Einsch\u00fcchterung statt R\u00fcckzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Vorsicht oder Meidung, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich bedrohlicher bin als die Bedrohung selbst, dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
+          <p class="vb-intro">Bismarcks politisches Handwerkszeug bestand aus genau dieser Logik. Sein bekanntestes Machtinstrument gegen\u00fcber Kaiser Wilhelm I. war die wiederholte R\u00fccktrittsdrohung: Wann immer der Kaiser sich seiner Linie widersetzen wollte, drohte Bismarck mit dem eigenen Abgang &ndash; ein Druckmittel, das er so oft und so wirkungsvoll einsetzte, dass der weit \u00e4ltere Monarch ihm in den meisten strittigen Fragen nachgab, aus Angst, den unentbehrlichen Kanzler tats\u00e4chlich zu verlieren. Das ist kein diplomatisches Nachgeben, das ist Einsch\u00fcchterung als Regierungsstil &ndash; die Drohung wird zur Waffe, weil der offene R\u00fcckzug f\u00fcr die SX6 keine Option ist.</p>
+          <p class="vb-intro">Hinzu kam eine ausgepr\u00e4gte Neigung zur Projektion: Bismarck war zutiefst \u00fcberzeugt, von Rivalen und vermeintlichen Verschw\u00f6rern umgeben zu sein &ndash; am Hof, in der Presse, in den Parlamentsfraktionen. Tageb\u00fccher und Korrespondenz belegen ein zwanghaftes Kreisen um m\u00f6glichen Verrat, um vergangene Kr\u00e4nkungen, um imagin\u00e4re Umsturzpl\u00e4ne. Diese Angst wurde nicht introspektiv verarbeitet, sondern nach au\u00dfen projiziert und in Pr\u00e4ventivschl\u00e4ge \u00fcbersetzt: Wer als Gefahr galt, wurde politisch kaltgestellt, bevor er selbst zuschlagen konnte. Sein eigenes Rudel &ndash; ein enger Kreis loyaler Vertrauter wie Albrecht von Roon oder Robert von Keudell &ndash; wurde entsprechend eng gef\u00fchrt und gegen jede Konkurrenz von au\u00dfen verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Warum nicht die Acht? Eine notwendige Abgrenzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Diskussion wird Bismarck immer wieder als <strong>Selbsterhaltungs-Acht mit Neunerfl\u00fcgel (SE8w9)</strong> gehandelt \u2013 schlie\u00dflich passt die Kompromisslosigkeit, mit der er R\u00fccktrittsdrohungen einsetzte und Rivalen kaltstellte, auf den ersten Blick zum Bild eines Achters, der sein Territorium mit roher Machtdemonstration verteidigt. Bei genauerem Hinsehen tr\u00e4gt diese Zuordnung jedoch nicht.</p>
+          <p class="vb-intro">Entscheidend ist Bismarcks eigenes Gest\u00e4ndnis: <em>\u00bbIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u00ab</em> Eine Acht, die ihre Verletzlichkeit typischerweise verdr\u00e4ngt statt sie offen einzugestehen, w\u00fcrde die eigene Nervosit\u00e4t kaum als lebenslanges Kernproblem benennen. Eine Sechs dagegen kennt genau dieses introspektive Ringen mit der eigenen Angst \u2013 bei der SX6 wird es nur nach au\u00dfen in St\u00e4rke verkehrt, nicht verschwiegen.</p>
+          <p class="vb-intro">Auch das wiederkehrende Muster der R\u00fcckz\u00fcge nach Varzin und Friedrichsruh \u2013 wochenlang im Bett, geplagt von Nervenleiden, Schlaflosigkeit, Hypochondrie \u2013 passt nicht zu einer Acht, die Bedrohung eher aktiv sucht als sie liegend zu verarbeiten. Und selbst wenn man am Achter-Modell festhalten wollte: Der st\u00e4ndig misstrauische, drohende, nie zur Ruhe kommende Bismarck \u00e4hnelt eher einem impulsiven Siebenerfl\u00fcgel als dem zur\u00fcckhaltenden, konfliktscheuen Neunerfl\u00fcgel \u2013 die SE8w9-These ist damit schon in sich nicht ganz stimmig.</p>
+          <p class="vb-intro">Am Ende z\u00e4hlt zudem die Quelle: <strong>Claudio Naranjo</strong> selbst, der Begr\u00fcnder der Subtypenlehre, ordnete Bismarck in seinen Seminaren als sexuelle Sechs ein \u2013 nicht als Acht. Die popul\u00e4re Acht-Zuschreibung erkl\u00e4rt sich eher aus Bismarcks \u00e4u\u00dferem Auftreten als Machtpolitiker als aus einer genaueren Analyse seiner inneren Motivation \u2013 dazu tr\u00e4gt auch seine k\u00f6rperliche F\u00fclle im Alter bei, die ihn auf den zahlreichen Gem\u00e4lden und fr\u00fchen Fotografien fast b\u00e4renhaft wirken l\u00e4sst, ebenso wie die Blickqualit\u00e4t in diesen Portr\u00e4ts: ein Blick, der durchaus St\u00e4rke ausstrahlt, aber eher nach au\u00dfen demonstriert als das eher nach innen gerichtete, ruhigere Kraftgef\u00fchl eines selbsterhaltenden Achters mit Neunerfl\u00fcgel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der F\u00fcnferfl\u00fcgel: Hypochondrie und strategische Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische Tiefe und eine Neigung zum R\u00fcckzug in die eigene Innenwelt, die ihre K\u00e4mpfernatur um eine zweite, stillere Seite erg\u00e4nzt. Die SX6w5 handelt nicht impulsiv &ndash; sie beobachtet, w\u00e4gt ab, durchdenkt Konstellationen weit im Voraus, und zieht sich, wenn die Spannung zu gro\u00df wird, in eine br\u00fctende Isolation zur\u00fcck, statt sie im Au\u00dfen abzureagieren.</p>
+          <p class="vb-intro">Bei Bismarck zeigte sich dieser Fl\u00fcgel doppelt: einerseits in einer au\u00dfergew\u00f6hnlichen strategischen Begabung, die europ\u00e4ische M\u00e4chtekonstellationen \u00fcber Jahre hinweg antizipierte und geduldig auf den richtigen Moment hinarbeitete &ndash; nie das Ergebnis blinder Impulsivit\u00e4t, sondern jahrelanger Vorausplanung. Andererseits in einer ausgepr\u00e4gten Hypochondrie und einer Neigung, sich bei Stress tagelang auf seine G\u00fcter zur\u00fcckzuziehen: erst nach Varzin in Hinterpommern, sp\u00e4ter nach Friedrichsruh im Sachsenwald. Dort verbrachte er ganze Phasen im Bett liegend, klagte \u00fcber Nervenleiden, Schlaflosigkeit, Verdauungsbeschwerden &ndash; k\u00f6rperliche Symptome, die eng mit seinem chronischen Misstrauen und seiner Gr\u00fcbelneigung verwoben waren. Der Wolf, der sich in seine H\u00f6hle zur\u00fcckzieht, wenn die Jagd zu viel Kraft gekostet hat, aber von dort aus weiter das ganze Territorium im Blick beh\u00e4lt.</p>
+          <p class="vb-intro">Die gesundheitlichen Folgen dieses Musters &ndash; die Ersch\u00f6pfungskrise der fr\u00fchen 1880er-Jahre und die verweigerte Behandlung einer Gangr\u00e4n in seinen letzten Lebensjahren &ndash; werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-otto-von-bismarck">Krankheitsportr\u00e4t zu Bismarck</a> ausf\u00fchrlich gedeutet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Lebenswerk: Blut und Eisen, Reichsgr\u00fcndung, Sozialstaat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1862 zum preu\u00dfischen Ministerpr\u00e4sidenten berufen, formulierte Bismarck in seiner ber\u00fchmten Rede vor dem Budgetausschuss des Abgeordnetenhauses das Programm seiner Politik: nicht Reden und Mehrheitsbeschl\u00fcsse w\u00fcrden die gro\u00dfen Fragen der Zeit entscheiden, sondern \u00bbEisen und Blut\u00ab. Es folgten drei kalkulierte Kriege &ndash; gegen D\u00e4nemark 1864, gegen \u00d6sterreich 1866, gegen Frankreich 1870/71 &ndash;, mit denen er die deutschen Einzelstaaten unter preu\u00dfischer F\u00fchrung zusammenschmiedete. 1871 wurde im Spiegelsaal von Versailles das Deutsche Kaiserreich ausgerufen, Bismarck sein erster Reichskanzler.</p>
+          <p class="vb-intro">Nach der Reichsgr\u00fcndung wandelte sich sein Kurs: Deutschland sei nun \u00bbsaturiert\u00ab, weitere territoriale Expansion in Europa unn\u00f6tig &ndash; stattdessen baute er ein komplexes B\u00fcndnissystem auf, das den Frieden auf dem Kontinent sichern sollte. Innenpolitisch f\u00fchrte er den Kulturkampf gegen die katholische Kirche und sp\u00e4ter die Sozialistengesetze gegen die erstarkende Sozialdemokratie &ndash; zugleich aber auch, teils aus genau diesem taktischen Kalk\u00fcl, die weltweit ersten Sozialversicherungen: Krankenversicherung 1883, Unfallversicherung 1884, Alters- und Invalidit\u00e4tsversicherung 1889. Eine fr\u00fche Form des Sozialstaats, die zugleich F\u00fcrsorge und ein Instrument war, um der Arbeiterschaft den Boden f\u00fcr revolution\u00e4re Ideen zu entziehen &ndash; typisch f\u00fcr einen Wolf, der auch F\u00fcrsorge strategisch als Mittel zur Sicherung des eigenen Rudels einsetzte.</p>
+          <p class="vb-intro">1890, zwei Jahre nach dem Regierungsantritt des jungen, ungeduldigen Kaisers Wilhelm II., wurde Bismarck entlassen. Eine Karikatur der Zeit fasste den Bruch in vier Worten: \u00bbDer Lotse geht von Bord.\u00ab Der Mann, der drei Jahrzehnte lang durch Drohung und Kalk\u00fcl regiert hatte, konnte den Machtverlust an einen j\u00fcngeren Herrscher nicht durch dieselben Mittel abwenden &ndash; das R\u00fctteln an den F\u00e4den funktionierte nur, solange das Gegen\u00fcber Angst vor dem eigenen Abgang hatte, und Wilhelm II. hatte diese Angst nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, aus Angst heraus au\u00dfergew\u00f6hnliche strategische Weitsicht zu entwickeln und in Krisen Stabilit\u00e4t zu stiften. Bismarcks B\u00fcndnispolitik nach 1871 hielt Europa fast zwei Jahrzehnte lang in einem fragilen, aber funktionierenden Gleichgewicht &ndash; eine Leistung, die viele seiner Nachfolger nicht fortzuf\u00fchren wussten. Auch seine Sozialgesetzgebung, so taktisch sie gemeint war, wirkte weit \u00fcber ihren urspr\u00fcnglichen Zweck hinaus und wurde zum Vorbild moderner Sozialstaaten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, sobald die wahrgenommene Bedrohung existenziell wird. Der Kulturkampf traf die katholische Kirche und ihre Anh\u00e4nger mit Gesetzen, die Priester inhaftierten und Bist\u00fcmer verwaisen lie\u00dfen; die Sozialistengesetze verboten sozialdemokratische Organisationen, Versammlungen und Publikationen \u00fcber ein Jahrzehnt lang. Beides Ausdruck desselben Musters: Wer als Bedrohung des Rudels &ndash; des jungen Kaiserreichs, der eigenen Machtposition &ndash; identifiziert wurde, wurde mit staatlicher H\u00e4rte bek\u00e4mpft, ungeachtet des Preises f\u00fcr die Betroffenen. Diese Politik ist eigenst\u00e4ndig kritisch zu bewerten, unabh\u00e4ngig von der psychologischen Einordnung, die sie erkl\u00e4rt, aber nicht rechtfertigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Heilungsweg: Sicherheit ohne Drohung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Drohkulisse zu verstehen, sondern als innere Festigkeit, die kein Gegen\u00fcber mehr einsch\u00fcchtern muss, um sich sicher zu f\u00fchlen.</p>
+          <p class="vb-intro">Dieser Weg blieb Bismarck bis zuletzt verwehrt. Auch in den acht Jahren seines Ruhestands in Friedrichsruh, bis zu seinem Tod 1898, hielt er an Misstrauen und Kontrolle fest &ndash; er grollte \u00f6ffentlich gegen seinen kaiserlichen Nachfolger, kommentierte die Tagespolitik unaufgefordert und unvers\u00f6hnlich, und pflegte bis zuletzt das Bild des unentbehrlichen Staatsmanns, dem Unrecht geschehen war. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch Drohung und Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zeitlebens zu bek\u00e4mpfen versuchte. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das Bismarck sein Leben lang zu vermeiden gelernt hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-wladimir-putin", label:"Portr\u00e4t: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-friedrich-schiller", label:"Portr\u00e4t: Friedrich Schiller (SX6w5)"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsportr\u00e4t: Otto von Bismarck (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function aliceSchwarzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alice-schwarzer-portrait.jpg" alt="Alice Schwarzer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alice Schwarzer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Journalistin, Feministin &amp; Emma-Gr\u00fcnderin, geb. 1942 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das in den M\u00e4rchen als Bedrohung erscheint, in der Realit\u00e4t aber vor allem eines ist: loyal, territorial und missverstanden. Der Wolf lebt im Rudel, k\u00e4mpft f\u00fcr das Rudel &ndash; und zeigt die Z\u00e4hne, wenn das Rudel bedroht wird. Er duckt sich nicht. Er weicht nicht aus. Und er erinnert sich, wer ihm feindlich gegen\u00fcberstand.</p>
+          <p class="vb-intro">Die deutsche Journalistin Alice Schwarzer ist dieser Wolf. Seit mehr als f\u00fcnf Jahrzehnten k\u00e4mpft sie f\u00fcr Frauenrechte &ndash; mit einer Direktheit, die viele erschreckt, und einer Ausdauer, die wenige aufbringen. Sie hat Debatten angesto\u00dfen, die niemand f\u00fchren wollte. Sie hat Strukturen benannt, die niemand benennen wollte. Und sie hat daf\u00fcr einen Preis gezahlt: Anfeindungen, Verachtung, Missverst\u00e4ndnisse &ndash; und mehr Gegner als die meisten Menschen in einem Leben sammeln. Der Wolf, der nicht aufh\u00f6rt zu heulen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke gegen die Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am st\u00e4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit Angriff. <em>Wenn ich schneller bin als die Bedrohung, wenn ich lauter bin, wenn ich als erste angreife &ndash; dann bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Kraft, weil sie Angst kennt &ndash; und weil sie sich geschworen hat, dieser Angst nie wieder nachzugeben.</p>
+          <p class="vb-intro">Bei Alice Schwarzer zeigt sich das in ihrer Kampfbereitschaft, die seit Jahrzehnten nicht nachl\u00e4sst. 1971 organisierte sie in Deutschland die Aktion <em>Wir haben abgetrieben</em>, zu einer Zeit, als das strafrechtliche Konsequenzen haben konnte. Sie benannte Pornographie \u00f6ffentlich als Gewalt gegen Frauen, als das noch ein gesellschaftliches Tabu war, und lenkte sp\u00e4ter die Debatte um Prostitution in Deutschland in eine Richtung, die viele nicht h\u00f6ren wollten. Das ist die SX6: <em>Ich habe Angst. Also k\u00e4mpfe ich.</em></p>
+          <p class="vb-intro">Ihr Rudel ist Emma &ndash; die Frauenzeitschrift, die sie 1977 gr\u00fcndete und nach wie vor herausgibt. Kein Konzern im R\u00fccken, keine Investoren, kein Kompromiss mit der Werbewirtschaft. Emma ist das Territorium des Wolfes: gesch\u00fctzt, verteidigt, kompromisslos.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Analyse als Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine intellektuelle Sch\u00e4rfe, die ihren Kampf von blo\u00dfem Aktivismus unterscheidet. Die SX6w5 k\u00e4mpft nicht aus dem Bauch heraus &ndash; sie k\u00e4mpft mit Belegen, mit Analysen, mit einem Wissen, das sie sich \u00fcber Jahrzehnte erarbeitet hat. <em>Ich will nicht nur recht haben. Ich will beweisen k\u00f6nnen, dass ich recht habe.</em></p>
+          <p class="vb-intro">Schwarzers Werk ist durchdrungen von diesem F\u00fcnferfl\u00fcgel: <em>Der kleine Unterschied und seine gro\u00dfen Folgen</em> (1975) war kein Pamphlet &ndash; es war eine Feldstudie, basierend auf Interviews mit Frauen \u00fcber ihre Sexualit\u00e4t und ihre Erfahrungen mit M\u00e4nnern. Ihre Interviews mit Simone de Beauvoir, ihre Analyse der Prostitutionsdebatte, ihre Auseinandersetzung mit dem politischen Islam &ndash; stets verbindet sich bei ihr die k\u00e4mpferische Haltung der SX6 mit der analytischen Tiefe des F\u00fcnferfl\u00fcgels. Der Wolf, der seine Beute kennt, bevor er angreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 ist ihre Unnachgiebigkeit im Dienst einer Sache, die sie f\u00fcr gerecht h\u00e4lt &ndash; und ihre Bereitschaft, daf\u00fcr jeden Preis zu zahlen. Schwarzer hat die Situation von Frauen in Deutschland ver\u00e4ndert. Nicht allein, aber ma\u00dfgeblich. Wer heute selbstverst\u00e4ndlich \u00fcber sexuelle Bel\u00e4stigung spricht, \u00fcber strukturelle Ungleichheit, \u00fcber K\u00f6rperautonomie &ndash; steht auf einem Fundament, das Schwarzer mit aufgebaut hat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die SX6 bek\u00e4mpft sie durch Gegenwehr. Aber dieser Mechanismus hat eine Schattenseite: Wenn die Gegenwehr zum Selbstzweck wird, wenn jeder, der anderer Meinung ist, zum Feind erkl\u00e4rt wird, wenn die eigene Position unantastbar werden muss &ndash; dann verliert der Wolf seinen Instinkt f\u00fcr das, was er eigentlich sch\u00fctzen wollte. Schwarzers Positionierungen haben nicht immer Freunde gefunden, auch nicht in feministischen Kreisen.</p>
+          <p class="vb-intro">Ihr bekanntestes Eingest\u00e4ndnis einer eigenen Schw\u00e4che: 2014 r\u00e4umte sie \u00f6ffentlich ein, Geld auf einem Schweizer Konto versteckt zu haben &ndash; und damit Steuern hinterzogen zu haben. Sie entschuldigte sich. Der Wolf, der zugibt, sich selbst nicht immer treu gewesen zu sein. Das kostet Kraft. Und es ist ein Zeichen von St\u00e4rke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: K\u00e4mpfen aus Liebe, nicht aus Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich bin stark genug &ndash; auch ohne den Kampf.</em> F\u00fcr die SX6w5 bedeutet das, die Waffe nicht niederzulegen, aber sie aus einem anderen Ort heraus zu f\u00fchren: nicht aus der Angst, die angreift, bevor sie angegriffen wird &ndash; sondern aus der Liebe zu dem, was man sch\u00fctzen will.</p>
+          <p class="vb-intro">Alice Schwarzer hat f\u00fcnf Jahrzehnte lang f\u00fcr Frauen gek\u00e4mpft, und sie k\u00e4mpft, weil sie wei\u00df, dass das Rudel zuh\u00f6rt. Das ist die SX6w5 auf ihrem Heilungsweg: Wenn die St\u00e4rke nicht mehr aus der Angst kommt, sondern aus dem tiefen Wissen um den Wert dessen, wof\u00fcr man steht.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function ankeEngelkePortraitPage() {
   return shell(`
     <div class="page-container">
@@ -7206,283 +7473,3 @@ function udoJuergensPortraitPage() {
     </div>
   `);
 }
-function mahatmaGandhiPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-mahatma-gandhi-portrait.jpg" alt="Mahatma Gandhi – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Mahatma Gandhi</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\u00fcnferfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Indischer Anwalt und Freiheitsk\u00e4mpfer, 1869&ndash;1948 &ndash; Tierentsprechung: Kaninchen</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Eine der spannendsten Typisierungsfragen des Enneagramms</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mohandas Karamchand Gandhi, genannt Mahatma (&bdquo;gro\u00dfe Seele&ldquo;), wurde 1869 in Porbandar geboren, studierte Jura in London und entwickelte in S\u00fcdafrika und sp\u00e4ter in Indien die Strategie des gewaltlosen Widerstands, mit der er die indische Unabh\u00e4ngigkeitsbewegung entscheidend pr\u00e4gte. 1948 wurde er ermordet, wenige Monate nach der Unabh\u00e4ngigkeit Indiens.</p>
-          <p class="vb-intro">Kaum eine historische Pers\u00f6nlichkeit wird im Enneagramm so kontrovers diskutiert wie Gandhi. Die meisten popul\u00e4ren Zuordnungen sehen in ihm die klassische soziale Eins &ndash; den moralischen Reformer. Eine tiefere psychologische Analyse nach Claudio Naranjo kommt jedoch zu einem anderen Schluss: der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel. Dieses Portr\u00e4t zeichnet beide Sichtweisen nach und begr\u00fcndet, warum wir uns als App f\u00fcr die zweite entscheiden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die popul\u00e4re Sicht: Gandhi als soziale Eins</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Auf Anhieb liefert Gandhi das Bild eines Musterbeispiels der sozialen Eins: der unbeugsame Moralist, der gegen Unrecht und Diskriminierung k\u00e4mpft, mit einer Zivilcourage, die keine Kompromisse duldet. Seine Fixierung auf Selbstoptimierung &ndash; strenge Di\u00e4ten, jahrzehntelange sexuelle Enthaltsamkeit, akribische Selbstpr\u00fcfung in seiner Autobiografie &bdquo;Meine Experimente mit der Wahrheit&ldquo; &ndash; passt beim ersten Hinsehen zur Einser-Signatur von Selbstkontrolle und Perfektionsstreben.</p>
-          <p class="vb-intro">Doch diese Sicht beschreibt vor allem das \u00e4u\u00dfere Verhalten &ndash; das Was, nicht das Warum. Typ 1 handelt aus unterdr\u00fccktem, sublimiertem Zorn (Groll), der sich in st\u00e4ndiger Korrektur von sich selbst und der Welt entl\u00e4dt. Bei Gandhi war der emotionale Kern jedoch ein anderer: kein verdr\u00e4ngter Zorn, sondern ein lebenslanges Ringen mit Angst, Selbstzweifel und dem rastlosen Suchen nach einer absoluten, verl\u00e4sslichen Wahrheit, an der er sich festhalten konnte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Die psychologische Ebene nach Naranjo: die selbsterhaltende Sechs</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo, der Begr\u00fcnder des modernen Subtypen-Systems, ordnete Gandhi der <strong>selbsterhaltenden Sechs (SE6)</strong> zu &ndash; und diese Zuordnung erkl\u00e4rt seine innere Dynamik weit treffender als die Eins. Die selbsterhaltende Sechs bew\u00e4ltigt eine als bedrohlich erlebte Welt nicht durch Kampf, sondern durch radikale Harmlosigkeit: Wenn ich niemandem gef\u00e4hrlich bin, kann mir nichts geschehen. Genau das ist die Reinform von <strong>Ahimsa</strong>, dem Prinzip der Gewaltlosigkeit, das Gandhi zu seiner Lebensphilosophie machte &ndash; keine passive Schw\u00e4che, sondern eine Strategie, radikale Verletzlichkeit in eine kaum angreifbare moralische Kraft zu verwandeln.</p>
-          <p class="vb-intro">Auch sein Konzept des <strong>Satyagraha</strong> (&bdquo;Festhalten an der Wahrheit&ldquo;) tr\u00e4gt die Handschrift der Sechs: Nicht der moralische Zorn der Eins trieb ihn an, sondern die typische Sechser-Suche nach einem unumst\u00f6\u00dflichen Ankerpunkt jenseits des eigenen Zweifels &ndash; Wahrheit, f\u00fcr Gandhi untrennbar mit Gott verbunden, wurde zur Zuflucht, an der sich alle Angst brechen konnte. Seine zahllosen selbst auferlegten Gel\u00fcbde &ndash; Armut, Keuschheit, wiederkehrendes Fasten &ndash; lassen sich als psychologische Schutzstrukturen lesen: \u00e4u\u00dfere, unverr\u00fcckbare Regeln, die dem inneren Zweifel der Sechs eine feste Form entgegensetzten.</p>
-          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel und die Selbsterhaltungsvariante erkl\u00e4ren zus\u00e4tzlich, warum sich diese Angstbew\u00e4ltigung so sehr auf den eigenen K\u00f6rper und die materielle Grundversorgung richtete: Gandhis symbolisches Spinnen der eigenen Kleidung (Khadi), seine \u00f6ffentlichen Fastenaktionen und sein bewusst einfaches, k\u00e4rgliches Leben trafen exakt den Nerv der einfachen, armen Bev\u00f6lkerung Indiens &ndash; eine tiefe, gelebte Solidarit\u00e4t mit den Schwachen und Unterdr\u00fcckten, die f\u00fcr die selbsterhaltende Sechs charakteristisch ist.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Ein weiteres Kriterium: das Enneagramm-Profiling nach David L. Rathmer</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">\u00dcber die psychologische Analyse nach Naranjo hinaus liefert das Enneagramm-Profiling\u00ae nach David L. Rathmer &ndash; ein System der Blick- und Antlitzdiagnose im Enneagramm &ndash; ein weiteres, erg\u00e4nzendes Diagnosekriterium f\u00fcr die Typzuordnung. Nach diesem System weisen bestimmte konstitutionelle und antlitzdiagnostische Merkmale bei Gandhi zus\u00e4tzlich auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel hin.</p>
-          <p class="vb-intro">Konkret verweist das Profiling-System auf die Nasenform und die Blickqualit\u00e4t, die in diesem Ansatz dem Kopftyp (dem mentalen Zentrum) zugeordnet werden, sowie auf die Zuordnung zur m\u00e4nnlichen Seite des Enneagramms anhand der Gesichtsstruktur &ndash; Merkmale, die nach diesem Diagnosesystem auf das prim\u00e4re Verarbeitungszentrum im Kopf- beziehungsweise Angst-Zentrum hindeuten. Als eigenst\u00e4ndige, erg\u00e4nzende Diagnoseebene neben der psychologischen Analyse f\u00fcgt das Enneagramm-Profiling nach David L. Rathmer damit einen weiteren Baustein zum Gesamtbild der selbsterhaltenden Sechs hinzu.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der F\u00fcnferfl\u00fcgel: R\u00fcckzug als Kraftquelle</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> zeigt sich in Gandhis ausgepr\u00e4gtem Bed\u00fcrfnis nach zur\u00fcckgezogenen Phasen der Reflexion &ndash; regelm\u00e4\u00dfige Schweigetage, in denen er weder sprach noch schrieb, waren fester Bestandteil seines Lebens. Diese R\u00fcckz\u00fcge dienten nicht der Flucht, sondern der Sammlung: Bevor er in die n\u00e4chste \u00f6ffentliche Konfrontation ging, brauchte er Phasen des inneren Ordnens, des Studierens religi\u00f6ser und philosophischer Texte, des Nachdenkens.</p>
-          <p class="vb-intro">Auch seine akribische, fast wissenschaftliche Herangehensweise an den gewaltlosen Widerstand &ndash; minuti\u00f6s geplante Kampagnen, detaillierte schriftliche Anleitungen f\u00fcr seine Anh\u00e4nger, jahrelange Beobachtung dessen, was funktionierte und was nicht &ndash; tr\u00e4gt die analytische Handschrift des F\u00fcnferfl\u00fcgels: Die Angst der Sechs wird nicht nur ausgehalten, sondern durch Verstehen und Systematisierung eingehegt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE6w5 ist die F\u00e4higkeit, <strong>tiefe Angst in eine gewaltlose, kaum angreifbare Kraft</strong> zu verwandeln &ndash; Gandhi bewies, dass radikale Verletzlichkeit, bewusst gew\u00e4hlt und diszipliniert durchgehalten, eine der wirkungsvollsten politischen Waffen der Geschichte werden kann. Seine Kampagnen gegen die britische Kolonialherrschaft ver\u00e4nderten nicht nur Indien, sondern inspirierten B\u00fcrgerrechtsbewegungen weltweit, von Martin Luther King bis Nelson Mandela.</p>
-          <p class="vb-intro">Der Schatten zeigte sich in einer mitunter kompromisslosen Strenge gegen\u00fcber der eigenen Familie &ndash; seine S\u00f6hne, insbesondere sein \u00e4ltester Sohn Harilal, litten unter seinen extrem hohen moralischen Anspr\u00fcchen und dem \u00f6ffentlichen Charakter seines Privatlebens. Auch seine sp\u00e4ten, umstrittenen &bdquo;Keuschheitsexperimente&ldquo;, bei denen er im hohen Alter seine sexuelle Selbstbeherrschung testete, werfen bis heute ethische Fragen auf. Die Kehrseite der selbsterhaltenden Sechs: Die Suche nach einem unersch\u00fctterlichen inneren Anker kann sich in Formen von Selbstpr\u00fcfung entladen, die anderen wie auch einem selbst schweren Schaden zuf\u00fcgen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Das Fazit: Verhalten t\u00e4uscht, die Motivation entscheidet</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Verhalten und \u00e4u\u00dfere Erscheinung sprechen f\u00fcr die Eins &ndash; Disziplin, Reformwille, moralische Klarheit. Doch die tiefere psychologische Motivation, wie Naranjo sie herausarbeitete, und das erg\u00e4nzende Diagnosekriterium des Enneagramm-Profilings nach David L. Rathmer weisen \u00fcbereinstimmend auf die selbsterhaltende Sechs mit F\u00fcnferfl\u00fcgel: die Transformation von Angst und Verletzlichkeit in gewaltlose Macht durch radikale Hingabe an die Wahrheit.</p>
-          <p class="vb-intro">Das Kaninchen, das sich in seiner scheinbaren Wehrlosigkeit als unangreifbar erwies und damit ein Weltreich ins Wanken brachte &ndash; das ist das bleibende Bild der selbsterhaltenden Sechs mit F\u00fcnferfl\u00fcgel: Angst, die nicht \u00fcberwunden, sondern in eine der st\u00e4rksten gewaltlosen Kr\u00e4fte der Geschichte verwandelt wurde.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
-        {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
-      ])}
-    </div>
-  `);
-}
-function davidHumePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-david-hume-portrait.jpg" alt="David Hume – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">David Hume</p>
-        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Schottischer Philosoph, 1711&ndash;1776 &ndash; Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant, der an allem zweifelte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 &ndash; geduldig, erdend, von einer Pr\u00e4senz, die nicht durch Lautst\u00e4rke entsteht, sondern durch Gewicht. Er l\u00e4sst sich nicht aus der Ruhe bringen, selbst wenn er die Grundfesten der Welt in Frage stellt. Er tr\u00e4gt seine Erkenntnisse gelassen, ohne sie jemandem aufzudr\u00e4ngen.</p>
-          <p class="vb-intro">Der schottische Philosoph David Hume wurde 1711 in Edinburgh geboren, studierte kurz Jura, brach das Studium ab und widmete sich stattdessen der Philosophie &ndash; gegen den Wunsch seiner Familie. Zeitgenossen beschrieben ihn \u00fcbereinstimmend als heiter, umg\u00e4nglich, ohne jede Bitterkeit, obwohl er zeitlebens gegen erbitterten Widerstand der Kirche und akademischer Institutionen anschrieb. Man nannte ihn &bdquo;le bon David&ldquo; &ndash; den guten David &ndash; selbst in Kreisen, die seine Ideen f\u00fcr gef\u00e4hrlich hielten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als Methode</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> ist nach Naranjo der Subtyp, den er <em>Appetit</em> nannte &ndash; die Neigung, sich in Komfort und innerem Frieden einzurichten und Konflikten durch Gelassenheit zu begegnen, statt sie zu eskalieren. Bei Hume wurde diese Gelassenheit zur philosophischen Methode selbst: Er zweifelte an der Kausalit\u00e4t &ndash; der Annahme, dass ein Ereignis zwangsl\u00e4ufig ein anderes verursacht &ndash; an der Existenz eines stabilen Selbst und an jedem rationalen Gottesbeweis, und blieb dabei erstaunlich unaufgeregt.</p>
-          <p class="vb-intro">Sein Hauptwerk <em>Ein Traktat \u00fcber die menschliche Natur</em> (A Treatise of Human Nature, 1739&ndash;40) erschien zun\u00e4chst fast unbeachtet &ndash; Hume selbst schrieb sp\u00e4ter, es sei &bdquo;tot von der Presse gefallen&ldquo;. Statt zu k\u00e4mpfen, \u00fcberarbeitete er die Ideen jahrzehntelang in zug\u00e4nglicherer Form, etwa in den <em>Moralischen und politischen Essays</em> (Essays, Moral and Political) und der <em>Untersuchung \u00fcber den menschlichen Verstand</em> (An Enquiry Concerning Human Understanding, 1748). Kein Wutausbruch, kein R\u00fcckzug &ndash; nur die geduldige Wiederholung derselben Wahrheit in immer neuer Gestalt, bis sie geh\u00f6rt wurde.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Der Mut zum radikalen Zweifel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man nach au\u00dfen kaum sieht, bis man ihre Konsequenzen begreift: die Bereitschaft, eine Position bis zum radikalen Ende zu denken, ohne vor der Reaktion der Umwelt zur\u00fcckzuschrecken. Eine SE9 mit schwach ausgeprägtem Achterflügel würde vielleicht ausweichen. Die SE9w8 zieht die Konsequenz &ndash; ruhig, aber unbeirrbar.</p>
-          <p class="vb-intro">Hume vertrat einen konsequenten religi\u00f6sen Skeptizismus, der ihm zeitlebens die begehrten Lehrst\u00fchle in Edinburgh und Glasgow verwehrte &ndash; kirchliche Einw\u00e4nde verhinderten beide Berufungen. Sein Werk <em>Dialoge \u00fcber nat\u00fcrliche Religion</em> (Dialogues Concerning Natural Religion), das die klassischen Gottesbeweise systematisch demontiert, lie\u00df er aus Vorsicht erst nach seinem Tod ver\u00f6ffentlichen &ndash; nicht aus Feigheit, sondern aus der k\u00fchlen Berechnung des Achterfl\u00fcgels: Der Kampf lohnt sich nicht, solange man ihn nicht gewinnen kann. Man wartet den richtigen Moment ab.</p>
-          <p class="vb-intro">Diese Mischung aus Nachgiebigkeit und unersch\u00fctterlicher Grundhaltung zeigte sich auch 1766 in seiner Freundschaft mit dem franz\u00f6sischen Philosophen Jean-Jacques Rousseau, den Hume aus Frankreich nach England holte, als dieser politisch verfolgt wurde. Rousseau, zunehmend paranoid, wandte sich gegen Hume und beschuldigte ihn \u00f6ffentlich der Verschw\u00f6rung. Hume reagierte nicht mit Gegenangriff, sondern mit einer sachlichen, in ganz Europa verbreiteten Verteidigungsschrift &ndash; die Neun bleibt ruhig, aber der Achterfl\u00fcgel verteidigt seinen Ruf mit aller gebotenen H\u00e4rte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Schildkr\u00f6tensuppe: Genuss ohne Dogma</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Hume war zeitlebens bekannt f\u00fcr seine Tafelfreuden &ndash; besonders f\u00fcr seine Vorliebe f\u00fcr Schildkr\u00f6tensuppe, ein im 18. Jahrhundert aufwendiges Delikatessengericht, das er regelm\u00e4\u00dfig bei geselligen Diners in Edinburgh servieren lie\u00df. Es ist eine sch\u00f6ne F\u00fcgung, dass ausgerechnet die Schildkr\u00f6te &ndash; in manchen Enneagramm-Traditionen selbst eine m\u00f6gliche Tierentsprechung des Typs 9 &ndash; zu seiner Leibspeise wurde: gem\u00e4chlich, gepanzert, unersch\u00fctterlich in ihrem eigenen Tempo, ganz wie der Elefant, nur kleiner.</p>
-          <p class="vb-intro">Diese Freude am sinnlichen Genuss war kein Widerspruch zu seiner Philosophie, sondern ihre praktische Konsequenz: Wer an letzten Gewissheiten zweifelt, kann sich umso ungezwungener dem Guten im Diesseits zuwenden. Hume lehnte jede Form von Askese ab und lebte, was er dachte &ndash; ein Skeptiker, der trotz aller Zweifel ein zutiefst zufriedener, geselliger Mensch war.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten: Freiheit und ihre Grenzen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE9w8 ist die F\u00e4higkeit, <strong>radikale Freiheit des Denkens mit innerem Frieden</strong> zu verbinden. Hume l\u00f6ste die Fesseln des dogmatischen Denkens seiner Zeit, ohne selbst zum Dogmatiker des Zweifels zu werden &ndash; er blieb neugierig, warmherzig, offen f\u00fcr Widerspruch. Adam Smith, sein enger Freund, beschrieb ihn nach seinem Tod als einen Menschen, der der Weisheit und Tugend so nahe kam, wie es die menschliche Natur wohl erlaubt.</p>
-          <p class="vb-intro">Der Schatten: Humes Schriften enthalten auch rassistische Passagen &ndash; etwa eine vielzitierte Fu\u00dfnote, in der er die geistigen F\u00e4higkeiten au\u00dfereurop\u00e4ischer V\u00f6lker herabsetzte. Diese Haltung, unentschuldbar und im Widerspruch zu seinem eigenen skeptischen Anspruch, zeigt die Kehrseite der SE9w8: die Bequemlichkeit des Appetits kann auch bedeuten, \u00fcberlieferte Vorurteile nie wirklich in Frage zu stellen, obwohl man sich r\u00fchmt, alles andere in Frage gestellt zu haben.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Elefant, der gelassen starb, wie er gelebt hatte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Neun f\u00fchrt von der Selbstvergessenheit zur <strong>wahren inneren Handlung</strong> &ndash; nicht zum Verschwinden im Komfort, sondern zur bewussten Teilnahme am eigenen Leben. Hume lebte diesen Weg bereits vor: Er wich den gro\u00dfen Fragen nie aus, verweigerte sich nur dem Streit um ihrer selbst willen.</p>
-          <p class="vb-intro">Als Hume 1776 im Sterben lag, besuchte ihn der Schriftsteller James Boswell, der von ihm wissen wollte, ob er angesichts des nahen Todes nicht doch an ein Leben nach dem Tod glaube. Hume antwortete ruhig und ohne jede Angst, es gebe keinen Grund zur Sorge &ndash; eine Gelassenheit, die Boswell zutiefst ersch\u00fctterte, weil sie so gar nicht zum erwarteten Bild eines &bdquo;gottlosen&ldquo; Sterbenden passte. Der Elefant aus Edinburgh verlie\u00df die Welt so, wie er sie durchquert hatte: unger\u00fchrt, neugierig, ohne die Bequemlichkeit einer Illusion zu brauchen.</p>
-
-        <p class="vb-intro">Seine chronische, \u00fcber vier Jahre fortschreitende Darmerkrankung und seine bemerkenswerte Gelassenheit im Sterben werden ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-david-hume">Krankheitsportr\u00e4t zu Hume</a> gedeutet.</p>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"krankheitsportraets-david-hume", label:"Krankheitsportr\u00e4t: David Hume (SE9w8)"},
-        {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
-        {route:"beruehmte-adam-smith", label:"Portr\xe4t: Adam Smith (SO1w9) \u2013 sein enger Freund"},
-        {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) \u2013 den er aus dem \u203adogmatischen Schlummer\u2039 riss"},
-        {route:"beruhmte-philosophen", label:"Schaubild: Ber\xfchmte Philosophen im Enneagramm"},
-        {route:"beruehmte-thomas-von-aquin", label:"Portr\xe4t: Thomas von Aquin (SE9w8)"},
-      ])}
-    </div>
-  `);
-}
-
-function thomasVonAquinPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-thomas-von-aquin-portrait.jpg" alt="Thomas von Aquin" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Thomas von Aquin</p>
-        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Italienischer Theologe und Philosoph, ca. 1225–1274 – Tierentsprechung: Elefant</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Elefant, den man den "stummen Ochsen" nannte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des selbsterhaltenden Typs 9 – von massiger, ruhiger Präsenz, die nicht durch Lautstärke wirkt, sondern durch Gewicht. Thomas von Aquin, um 1225 nahe Aquino im Königreich Sizilien geboren, war schon körperlich ein solcher Elefant: groß, schwer, bedächtig in seinen Bewegungen. Seine Kommilitonen an der Universität Paris gaben ihm wegen seines schweigsamen Wesens und seiner massigen Statur den Spitznamen "der stumme Ochse" (bos mutus).</p>
-          <p class="vb-intro">Sein Lehrer Albertus Magnus soll darauf prophetisch geantwortet haben: "Ihr nennt ihn den stummen Ochsen, aber sein Gebrüll in der Lehre wird eines Tages die ganze Welt erfüllen." Der Elefant wirkt bedächtig und unauffällig – bis man erkennt, welches Gewicht hinter seiner Ruhe steht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende Neun: Gelassenheit als tägliche Praxis</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nennt Naranjo <em>Appetit</em>: die Neigung, sich in Komfort, Routine und innerer Ruhe einzurichten, statt sich von äußerer Unruhe aus der Bahn werfen zu lassen. Bei Thomas zeigte sich das in einer schier unfassbaren Arbeitsdisziplin, die dennoch nie gehetzt wirkte: Zeitgenossen berichten, er habe mehreren Schreibern gleichzeitig unterschiedliche Werke diktieren können, während er gemächlich im Raum auf und ab ging – ruhig, methodisch, ohne sichtbare Anstrengung.</p>
-          <p class="vb-intro">Diese Gelassenheit erstreckte sich auch auf sein leibliches Wohl: Thomas war für seine beträchtliche Statur und seine Freude am Essen bekannt – der Legende nach ließ man an seinem Platz am Esstisch eigens eine halbrunde Aussparung in die Tischplatte schneiden, damit er bequem sitzen konnte. Die SE9 sucht Frieden nicht durch Verzicht, sondern durch das behagliche Einrichten im eigenen Leben – bei Thomas verband sich das mit einer der produktivsten Gelehrtenlaufbahnen der Geistesgeschichte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Der Ochse, der nicht wich</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> verleiht der selbsterhaltenden Neun eine Kraft, die man ihrer ruhigen Oberfläche kaum ansieht, bis eine Grenze überschritten wird. Als der junge Thomas gegen den erbitterten Widerstand seiner adligen Familie in den Bettelorden der Dominikaner eintreten wollte, ließen ihn seine eigenen Brüder entführen und über ein Jahr lang in der Familienburg gefangen halten, um ihn umzustimmen.</p>
-          <p class="vb-intro">Der Überlieferung nach schickte man ihm sogar eine Prostituierte in sein Gemach, um ihn zum Bruch seines Keuschheitsgelübdes zu verleiten. Thomas soll sie mit einem brennenden Holzscheit aus dem Kaminfeuer aus dem Zimmer gejagt und anschließend ein Kreuz in die verkohlte Tür seiner Kammer gezeichnet haben. Ein Jahr lang hielt die Familie ihn gefangen – ein Jahr lang blieb der stumme Ochse unbewegt bei seiner Entscheidung, bis man ihn schließlich ziehen ließ. Das ist der Achterflügel der SE9: keine lautstarke Rebellion, sondern ein Widerstand, der sich einfach nicht brechen lässt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Summa Theologica: Ordnung als Lebenswerk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Thomas' Hauptwerk, die "Summa Theologica", ist ein Bauwerk von gewaltigem Ausmaß: In Fragen, Einwänden und Antworten gegliedert, versucht es, das gesamte christliche Glaubenswissen mit der Logik des wiederentdeckten Aristoteles (SE1w9) in ein einziges, widerspruchsfreies System zu übersetzen. Diese Synthese aus antiker Vernunft und christlicher Offenbarung – der sogenannte Thomismus – wurde zur prägenden Denkform der katholischen Theologie für Jahrhunderte.</p>
-          <p class="vb-intro">Dieselbe systematische Wucht floss über ein Jahrhundert später in eines der bedeutendsten Werke der Weltliteratur ein: Dante Alighieri (SX4w5) stützte die theologische Architektur seiner "Göttlichen Komödie" maßgeblich auf thomistisches Gedankengut. Der ruhige, methodische Elefant aus Aquin lieferte damit unwissentlich das gedankliche Fundament für eines der leidenschaftlichsten literarischen Werke des Mittelalters.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE9w8 zeigt sich in der Fähigkeit, unerschütterliche innere Ruhe mit gewaltiger schöpferischer Kraft zu verbinden: Thomas hinterließ ein Lebenswerk von solcher Wucht, dass die katholische Kirche ihn 1323 heiligsprach und ihn Jahrhunderte später, 1567, zum Kirchenlehrer erhob – eine der höchsten Anerkennungen, die die Kirche für theologisches Wirken vergibt.</p>
-          <p class="vb-intro">Der Schatten liegt in der Trägheit, dem Schicksalsmuster der Neun: Wo Ordnung zum Selbstzweck wird, kann sie auch zur Erstarrung führen – der Thomismus wurde in späteren Jahrhunderten teils dogmatisch verengt und gegen genau jene Offenheit für neue Erkenntnis verteidigt, die Thomas selbst durch die Einbeziehung des "heidnischen" Aristoteles gewagt hatte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Vermächtnis: Der Ochse, der verstummte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 6. Dezember 1273, während einer Messe in Neapel, erlebte Thomas eine mystische Erfahrung, nach der er nie wieder ein Wort seiner "Summa Theologica" schrieb. Auf die Frage seines Sekretärs, warum er das gewaltige Werk nicht vollende, antwortete er: "Ich kann nicht mehr. Alles, was ich geschrieben habe, erscheint mir wie Stroh im Vergleich zu dem, was ich gesehen habe und was mir offenbart wurde."</p>
-          <p class="vb-intro">Der Elefant mit Achterflügel, der während seines ganzen Lebens mit unerschütterlicher Beharrlichkeit ein gewaltiges Denkgebäude errichtet hatte, legte im entscheidenden Moment die Feder nieder – nicht aus Erschöpfung, sondern weil er, ganz SE9, erkannte, dass hinter aller Ordnung ein Frieden liegt, den kein System einfangen kann. Thomas starb wenige Monate später, im März 1274, auf dem Weg zum Konzil von Lyon. Der stumme Ochse hatte sein Gebrüll längst in die Welt getragen – und verstummte am Ende freiwillig vor dem, was jenseits aller Worte lag.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
-        {route:"beruehmte-david-hume", label:"Porträt: David Hume (SE9w8)"},
-        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
-        {route:"beruehmte-aristoteles", label:"Porträt: Aristoteles (SE1w9) – dessen Logik er mit der christlichen Theologie verschmolz"},
-        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5) – stützte die Göttliche Komödie auf sein theologisches Denken"},
-        {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},
-      ])}
-    </div>
-  `);
-}
-
-function spinozaPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-spinoza-portrait.jpg" alt="Baruch de Spinoza – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Baruch de Spinoza</p>
-        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Rationalistischer Philosoph, 1632&ndash;1677 &ndash; Tierentsprechung: Eule</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Die Eule, die sich aus der Welt zur\u00fcckzog</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des Typs 5 &ndash; ein Wesen, das in der D\u00e4mmerung am klarsten sieht, das sich zur\u00fcckzieht, um zu beobachten, und dessen Blick durchdringt, was anderen verborgen bleibt. Sie braucht keine Herde, kein Rudel &ndash; ihre St\u00e4rke liegt im Alleinsein, im ungest\u00f6rten Denken.</p>
-          <p class="vb-intro">Der niederl\u00e4ndische Philosoph Baruch (sp\u00e4ter Benedictus) de Spinoza wurde 1632 in Amsterdam als Sohn einer portugiesisch-j\u00fcdischen Kaufmannsfamilie geboren, die vor der Inquisition aus Portugal geflohen war. 1656 wurde er, gerade 23 Jahre alt, von der j\u00fcdischen Gemeinde Amsterdams mit dem <em>Cherem</em> belegt &ndash; dem sch\u00e4rfsten Bann, den die Gemeinde kannte: Kein Kontakt, kein Handel, kein gemeinsames Dach mehr mit ihm. Die genauen Gr\u00fcnde wurden nie schriftlich festgehalten, doch seine bereits damals bekannten Zweifel an der w\u00f6rtlichen Auslegung der Schrift und an einem pers\u00f6nlichen, eingreifenden Gott gelten als Ursache. Spinoza reagierte nicht mit Widerstand oder Verhandlung &ndash; er zog sich zur\u00fcck, \u00e4nderte seinen Namen zu Benedictus und lebte den Rest seines Lebens au\u00dferhalb jeder Gemeinschaft, die ihn h\u00e4tte binden k\u00f6nnen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg des Denkens</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> ist nach Naranjo der Verst\u00e4rkungstyp der F\u00fcnf: Hier lebt die Leidenschaft des <em>Geizes</em> &ndash; das Horten von Energie, Raum und Zeit &ndash; am unverh\u00fclltesten. Naranjo nannte diesen Subtyp <em>Burg</em>: Das eigene Territorium wird zur Festung, hinter deren Mauern die Welt drau\u00dfen bleibt. Spinoza lebte diese Burg w\u00f6rtlich: Nach dem Bann zog er zun\u00e4chst aus Amsterdam fort, wohnte in Rijnsburg, sp\u00e4ter in Voorburg und schlie\u00dflich in Den Haag &ndash; stets zur\u00fcckgezogen, meist allein, in kleinen, kargen Zimmern.</p>
-          <p class="vb-intro">Seinen Lebensunterhalt verdiente er als Schleifer optischer Linsen f\u00fcr Mikroskope und Teleskope &ndash; eine stille, pr\u00e4zise Handarbeit, die kaum Kontakt mit anderen erforderte und die er meisterhaft beherrschte. Er lebte \u00e4u\u00dferst gen\u00fcgsam, lehnte gro\u00dfz\u00fcgige finanzielle Zuwendungen von Bewunderern gr\u00f6\u00dftenteils ab und beschr\u00e4nkte sich auf das N\u00f6tigste. Diese radikale Selbstgen\u00fcgsamkeit war keine Askese um ihrer selbst willen, sondern die Bedingung f\u00fcr das, was er am meisten sch\u00fctzte: die ungest\u00f6rte Zeit zum Denken.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Das System, dem er die Treue hielt</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der selbsterhaltenden F\u00fcnf eine wache Sicherheitsorientierung und eine au\u00dferordentliche Systemtreue &ndash; nicht Loyalit\u00e4t gegen\u00fcber Institutionen, sondern gegen\u00fcber einem selbst durchdachten, in sich geschlossenen Prinzip. Spinozas Hauptwerk, die postum 1677 ver\u00f6ffentlichte <em>Ethica, ordine geometrico demonstrata</em> (Die Ethik, nach geometrischer Methode dargestellt), ist genau das: ein philosophisches System, aufgebaut wie ein euklidischer Lehrsatz &ndash; Definitionen, Axiome, Beweise, Schritt f\u00fcr Schritt, ohne L\u00fccke. Kein anderes philosophisches Hauptwerk der Geschichte ist so kompromisslos systematisch aufgebaut.</p>
-          <p class="vb-intro">Diese Systemtreue zeigte sich auch in seiner bekanntesten Entscheidung: 1673 bot ihm die Universit\u00e4t Heidelberg einen Lehrstuhl f\u00fcr Philosophie an &ndash; mit der Zusicherung v\u00f6lliger Lehrfreiheit, solange er die Staatsreligion nicht st\u00f6re. Spinoza lehnte ab. Er bef\u00fcrchtete, dass selbst diese Einschr\u00e4nkung sein Denken auf Dauer verbiegen w\u00fcrde, und zog die Unsicherheit des Linsenschleifers der Sicherheit eines akademischen Amtes vor &ndash; der Sechserfl\u00fcgel w\u00e4gt das Risiko genau ab, und manchmal f\u00e4llt die Antwort auf Sicherheit hin gerade zugunsten der intellektuellen Unabh\u00e4ngigkeit aus.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Deus sive Natura: Der radikalste Gottesbegriff seiner Zeit</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Zentrum der Ethica steht Spinozas ber\u00fchmteste und folgenreichste Formel: <em>Deus sive Natura</em> &ndash; Gott, oder gleichbedeutend die Natur. F\u00fcr Spinoza gibt es nur eine einzige, unendliche Substanz, die alles umfasst, was existiert &ndash; kein Gott au\u00dferhalb der Welt, der sie erschaffen hat und lenkt, sondern Gott als die Welt selbst, in ihrer vollst\u00e4ndigen, notwendigen Gesetzm\u00e4\u00dfigkeit. Alles, was geschieht, geschieht mit derselben Notwendigkeit, mit der die Winkelsumme eines Dreiecks 180 Grad ergibt.</p>
-          <p class="vb-intro">Diese Position kostete ihn nicht nur den Bann der j\u00fcdischen Gemeinde, sondern machte ihn zeitlebens und noch lange nach seinem Tod zur Zielscheibe des Vorwurfs des Atheismus &ndash; sein bereits 1670 anonym ver\u00f6ffentlichter <em>Tractatus theologico-politicus</em>, der die historisch-kritische Bibelauslegung begr\u00fcndete und Meinungsfreiheit forderte, wurde in mehreren L\u00e4ndern verboten. Spinoza reagierte darauf, wie es der Verst\u00e4rkungstyp der F\u00fcnf tut: Er zog sich weiter zur\u00fcck, ver\u00f6ffentlichte die Ethica gar nicht mehr zu Lebzeiten und beschr\u00e4nkte den Kreis, dem er seine Gedanken anvertraute, auf eine kleine Gruppe vertrauter Korrespondenten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE5w6 ist die F\u00e4higkeit, <strong>radikale intellektuelle Unabh\u00e4ngigkeit mit einem tragf\u00e4higen, in sich stimmigen System</strong> zu verbinden. Spinoza dachte den freien Willen, das Verh\u00e4ltnis von Affekt und Vernunft und die Grenzen der Toleranz so konsequent zu Ende wie kaum ein Philosoph vor ihm &ndash; und legte damit einen der Grundsteine der modernen Aufkl\u00e4rung, lange bevor sie diesen Namen trug.</p>
-          <p class="vb-intro">Der Schatten: Sein R\u00fcckzug aus jeder Gemeinschaft &ndash; j\u00fcdisch wie christlich &ndash; bedeutete auch ein Leben fast ganz ohne N\u00e4he, ohne eigene Familie, ohne festen Ort der Zugeh\u00f6rigkeit. Die Burg der SE5 sch\u00fctzt das Denken, aber sie kostet Verbindung. Spinoza selbst schien diesen Preis bewusst in Kauf genommen zu haben &ndash; ob er ihn auch bedauerte, ist aus seinen erhaltenen Briefen kaum herauszulesen. Genau diese Verschlossenheit macht ihn nach wie vor zu einer der r\u00e4tselhaftesten Gestalten der Philosophiegeschichte.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Die Eule, die an Staublunge starb</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Spinoza starb 1677 in Den Haag im Alter von nur 44 Jahren, vermutlich an einer Lungenerkrankung, die durch das jahrzehntelange Einatmen von Glasstaub beim Linsenschleifen beg\u00fcnstigt wurde &ndash; sein Handwerk, das ihm die Unabh\u00e4ngigkeit zum Denken sicherte, trug wohl auch zu seinem fr\u00fchen Tod bei. Freunde ver\u00f6ffentlichten noch im selben Jahr seine <em>Opera Posthuma</em>, darunter die Ethica &ndash; das Werk, das er selbst nie unter eigenem Namen hatte drucken lassen.</p>
-          <p class="vb-intro">Die Eule verlie\u00df die Welt so zur\u00fcckgezogen, wie sie sie durchquert hatte &ndash; ohne Amt, ohne Familie, ohne Gemeinde. Was blieb, war ein in sich geschlossenes Gedankengeb\u00e4ude, das erst Generationen sp\u00e4ter &ndash; von Leibniz (SO3w4) bis Einstein (SO5w4), der sich ausdr\u00fccklich auf &bdquo;Spinozas Gott&ldquo; berief &ndash; seine volle Tragweite entfalten sollte.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
-        {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8)"},
-        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) \u2013 berief sich auf Spinozas Gottesbegriff"},
-        {route:"beruehmte-rene-descartes", label:"Portr\u00e4t: Ren\u00e9 Descartes (SE5w6) \u2013 dessen Philosophie er in seinem einzigen zu Lebzeiten unter eigenem Namen ver\u00f6ffentlichten Werk kommentierte"},
-        {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
-        {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
-        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6) – tödliche Lungenerkrankung"},
-      ])}
-    </div>
-  `);
-}
-

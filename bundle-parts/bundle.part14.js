@@ -1,3 +1,327 @@
+function auffaelligeMerkmale9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Auff\u00e4llige k\u00f6rperliche Merkmale der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Das Resonanzprinzip \u201eWie innen so au\u00dfen" geht davon aus, dass unsere \u00e4u\u00dfere Realit\u00e4t ein Spiegelbild unserer inneren Zust\u00e4nde ist \u2014 auch \u201eSpiegelgesetz" genannt. Jeder Enneagrammtyp tr\u00e4gt seine innere Natur auf ganz charakteristische Weise nach au\u00dfen: in Gesichtsz\u00fcgen, Blick, Gestik und K\u00f6rperhaltung.</p>
+      <img src="./assets/auffaellige-merkmale-der-9-typen.jpg" alt="Auff\u00e4llige k\u00f6rperliche Merkmale der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Prinzipienorientiert: Der Perfektionist</h3>
+        <p class="vb-intro">Scharfe, klare, strenge und mitunter sehr angespannte Gesichtsz\u00fcge. Stirnrunzeln \u2014 der st\u00e4ndige Fokus auf Details verursacht eine vertikale Zornesfalte zwischen den Augen oder zusammengezogene Augenbrauen. Ein ernster, strenger oder stark konzentrierter Ausdruck (der \u201ezornige Zeigefinger"!), ein starrer, mitunter zorniger Blick, und eine sehr aufrechte, angespannte K\u00f6rperhaltung mit Spannung in Gesicht und Nacken. All das spiegelt die strukturierte und ordentliche, manchmal starre und kalte Natur von Typ 1 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Liebesorientiert: Der Geber/Helfer</h3>
+        <p class="vb-intro">Weiche, warme und sanfte Gesichtsz\u00fcge, offene Arme und Gesten. Freundliches, einladendes und h\u00e4ufiges L\u00e4cheln auf den Lippen, gewogene Mimik. Gro\u00dfe Augen, die oft Mitgef\u00fchl ausdr\u00fccken, und ein sanfter, einladender Blick, nach au\u00dfen gewendet. Diese Merkmale spiegeln die herzliche, f\u00fcrsorgliche, mitunter empathische, offene und warme Natur von Typ 2 wider \u2014 ein Mensch, der sich k\u00f6rperlich dem anderen zuwendet, bevor er auch nur ein Wort gesagt hat.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Erfolgsorientiert: Der Dynamiker</h3>
+        <p class="vb-intro">Selbstbewusster, tatkr\u00e4ftiger und enthusiastischer Ausdruck. Ein gepflegtes, gut gestyltes und dynamisches Erscheinungsbild. Strahlendes, oft kaltes L\u00e4cheln \u2014 sehr pr\u00e4sentabel, energische Bewegungen. Ein durchsetzungsf\u00e4higer, sehr direkter und fokussierter Blick. Diese Merkmale spiegeln die zielstrebige, fokussierte, leistungsorientierte, manchmal etwas berechnende und k\u00fchle Natur von Typ 3 wider. Der Au\u00dfenauftritt ist kein Nebeneffekt \u2014 er ist Teil der Strategie.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Selbstorientiert: Der Individualist</h3>
+        <p class="vb-intro">\u00c4sthetische, ebenm\u00e4\u00dfige und feine, grazi\u00f6se Gesichtsz\u00fcge, die Melancholie oder Tiefgr\u00fcndigkeit ausdr\u00fccken. Eine individuelle, elegante und intensive \u00e4u\u00dfere Erscheinung in Mimik und Auftreten. Geheimnisvoller, trauriger Ausdruck. Ein tief-emotionaler, ausdrucksstarker Blick \u2014 nach innen gewendet, mitunter dramatisch, je nach variabler Stimmung. Diese Merkmale spiegeln die emotionale Tiefe sowie die kreative und \u00e4sthetische Natur von Typ 4 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Wissensorientiert: Der Denker/Forscher</h3>
+        <p class="vb-intro">Unemotionale Gesichtsz\u00fcge mit neutraler, zur\u00fcckhaltender Mimik \u2014 das sogenannte \u201ePokerface" \u2014 und oft gedankenverlorener Ausdruck. Ein nachdenklicher, manchmal distanzierter, forschender Blick. Minimale, aber pr\u00e4zise Gestik. Zur\u00fcckhaltendes L\u00e4cheln. Ein analytischer, beobachtender und emotionskarger Blick nach innen gewendet, zur\u00fcckziehende, introvertierte, gelegentlich geb\u00fcckte K\u00f6rperhaltung. Diese Merkmale spiegeln das tiefgr\u00fcndige Denken und die forschende, objektiv-beobachtende Natur von Typ 5 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Sicherheitsorientiert: Der loyale Skeptiker</h3>
+        <p class="vb-intro">Aufmerksamer, fragender Gesichtsausdruck, freundliches, aber vorsichtiges L\u00e4cheln, abw\u00e4gende Mimik. Angespannte Kiefermuskulatur. Wachsame, vorsichtige, gelegentlich angespannte K\u00f6rperhaltung. Vorsichtiger, wacher oder besorgter Ausdruck, Anspannung um die Augen. Ein \u00e4ngstlicher, unsicherer Blick \u2014 st\u00e4ndig auf der Hut, schnell umherblickend. Diese Merkmale spiegeln die vorsichtige und sicherheitsmotivierte, mitunter skeptische Natur von Typ 6 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spa\u00dforientiert: Der Enthusiast/Optimist</h3>
+        <p class="vb-intro">Strahlendes, mitunter breites und lebhaftes L\u00e4cheln, kindliche, naive Gesichtsz\u00fcge. Ein energiegeladener, offener, fr\u00f6hlicher Gesichtsausdruck mit schnellem Mimikwechsel. Schnelle, weit ausladende Bewegungen. Ein lebhafter, funkelnder Blick. Diese Merkmale spiegeln die optimistische, lustige, lebensbejahende, fr\u00f6hliche, leichte und begeisternde \u2014 mitunter schnell gelangweilte und leidvermeidende \u2014 Natur von Typ 7 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Machtorientiert: Der Herausforderer</h3>
+        <p class="vb-intro">Starke, markante, manchmal auch grobe (rohe) Gesichtsz\u00fcge. Eine durchsetzungsstarke, herausfordernde und pr\u00e4sente, kr\u00e4ftige K\u00f6rperhaltung. Furchtloser, dominanter Ausdruck. Durchdringender, oft intensiver Blick. Stark ausgepr\u00e4gte, energetische Gestik. Diese Merkmale spiegeln die dominante, entschlossene, selbstbewusste, pr\u00e4sente und machtvolle \u2014 manchmal gar einsch\u00fcchternde \u2014 Natur von Typ 8 wider.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Harmonieorientiert: Der Vermittler</h3>
+        <p class="vb-intro">Sanfte, verschwommene und mitunter tr\u00e4ge Gesichtsz\u00fcge. Eine gelassene, selbstvergessene K\u00f6rperhaltung. Entspannter, harmonischer Ausdruck. Ruhiges, oft gelassenes und friedliches L\u00e4cheln. Ein peripherer, selbstvergessener, nichtfokussierter \u2014 mitunter nichtssagender \u2014 Blick. Diese Merkmale spiegeln die ruhige Gelassenheit und die friedliebende, weiche und nachgiebige Natur von Typ 9 wider.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Spiegelgesetz in Bezug auf die 9 Enneagrammprinzipien bzw. -typen kann sich im Rahmen der 27 Subtypen des Enneagramms je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad des Individuums hierbei eine pr\u00e4gende Rolle.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"frisuren-der-9-typen", label:"Frisuren der 9 Typen"},
+        {route:"haendedrucke-der-9-typen", label:"H\u00e4ndedr\u00fccke der 9 Typen"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function haendedruckeDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("H\u00e4ndedr\u00fccke der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Jeder Enneagrammtyp hat aufgrund seiner Enneagramm-Pers\u00f6nlichkeit auch einen gewissen Lebensausdruck, der sich unter anderem auch in der charakteristischen Ausdrucksweise seines H\u00e4ndedrucks zeigen kann.</p>
+      <img src="./assets/haendedrucke-der-9-typen.jpg" alt="Die H\u00e4ndedr\u00fccke der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Fest und pr\u00e4zise</h3>
+        <p class="vb-intro">Typ 1 legt Wert auf Ordnung und Korrektheit, was sich in einem kontrollierten und festen H\u00e4ndedruck zeigt. Der Perfektionist reicht die Hand nicht beil\u00e4ufig \u2014 er tut es bewusst, mit der richtigen Dosierung von Kraft und W\u00fcrde. Zu lasch w\u00e4re unh\u00f6flich, zu fest w\u00e4re \u00fcbergriffig. Der H\u00e4ndedruck des Typs 1 ist eine kleine Visitenkarte seines Charakters: verl\u00e4sslich, klar und ohne Schn\u00f6rkel.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Herzlich und sanft</h3>
+        <p class="vb-intro">Typ 2 ist warmherzig und f\u00fcrsorglich, was durch einen sanften, aber freundlichen H\u00e4ndedruck vermittelt wird. Der Helfer sch\u00fcttelt nicht einfach eine Hand \u2014 er empf\u00e4ngt sie. Manchmal legt er die zweite Hand dazu, h\u00e4lt einen Moment l\u00e4nger, schaut dabei in die Augen. Der H\u00e4ndedruck des Typs 2 ist eine kleine Umarmung: Du bist willkommen, ich bin f\u00fcr dich da.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Selbstbewusst und energisch</h3>
+        <p class="vb-intro">Typ 3 strebt nach Anerkennung und Erfolg, was sich in einem kr\u00e4ftigen und selbstsicheren H\u00e4ndedruck widerspiegelt. Der Dynamiker wei\u00df, dass der erste Eindruck z\u00e4hlt \u2014 und sein H\u00e4ndedruck ist Teil der Inszenierung. Fest, direkt, mit Blickkontakt. Er signalisiert: Hier ist jemand, der wei\u00df, was er will. Der H\u00e4ndedruck des Typs 3 \u00f6ffnet T\u00fcren, bevor ein Wort gesprochen wurde.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Ausdrucksstark und variabel</h3>
+        <p class="vb-intro">Typ 4 ist kreativ und emotional, was sich in einem manchmal wechselhaften, aber stets bewussten H\u00e4ndedruck \u00e4u\u00dfern kann. Der Individualist bringt auch im H\u00e4ndedruck seine Stimmung mit \u2014 mal intensiv und festhaltend, mal zart und zur\u00fcckhaltend, je nachdem, wie er sich in diesem Moment f\u00fchlt. Kein H\u00e4ndedruck des Typs 4 ist wie der andere. Er ist immer echt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Zur\u00fcckhaltend und bedacht</h3>
+        <p class="vb-intro">Typ 5 ist analytisch und zur\u00fcckgezogen, was sich in einem etwas z\u00f6gerlichen oder vorsichtigen H\u00e4ndedruck zeigt. Der Forscher sch\u00fcttelt H\u00e4nde, weil es erwartet wird \u2014 aber er tut es mit einer gewissen inneren Distanz. Der Kontakt ist kurz, korrekt, ohne \u00dcberschwang. Hinter der Zur\u00fcckhaltung steckt kein Desinteresse \u2014 nur der Wunsch, nicht mehr N\u00e4he anzubieten, als er gerade bereit ist zu geben.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Fest und vertrauensw\u00fcrdig</h3>
+        <p class="vb-intro">Typ 6 sucht Sicherheit und Loyalit\u00e4t, was durch einen zuverl\u00e4ssigen und stabilen H\u00e4ndedruck ausgedr\u00fcckt wird. Der Loyale gibt einen H\u00e4ndedruck, dem man trauen kann \u2014 nicht zu hart, nicht zu weich, sondern verl\u00e4sslich. Es ist ein H\u00e4ndedruck, der sagt: Ich bin hier, ich stehe zu meinem Wort. F\u00fcr den Typ 6 ist der H\u00e4ndedruck auch eine Art stilles Versprechen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Lebendig und energisch</h3>
+        <p class="vb-intro">Typ 7 ist abenteuerlustig und optimistisch, was sich in einem lebhaften und dynamischen H\u00e4ndedruck zeigt. Der Enthusiast sch\u00fcttelt H\u00e4nde mit Schwung \u2014 vielleicht sogar mit einem spontanen Schulterklopfen oder einem breiten L\u00e4cheln dazu. Sein H\u00e4ndedruck steckt an: Hier ist jemand, der froh ist, dich zu treffen, und der schon auf das n\u00e4chste Abenteuer gespannt ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Dominant und kr\u00e4ftig</h3>
+        <p class="vb-intro">Typ 8 ist durchsetzungsf\u00e4hig und stark, was sich in einem kraftvollen und manchmal \u00fcberw\u00e4ltigenden H\u00e4ndedruck manifestiert. Der Herausforderer reicht die Hand wie eine Aussage: Ich bin pr\u00e4sent, ich bin stark, ich weiche nicht zur\u00fcck. Sein H\u00e4ndedruck f\u00fcllt den Raum. Kein Z\u00f6gern, keine halben Sachen \u2014 wer Typ 8 die Hand sch\u00fcttelt, sp\u00fcrt es noch einen Moment danach.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanft und beruhigend</h3>
+        <p class="vb-intro">Typ 9 strebt nach Harmonie und Frieden, was durch einen ruhigen und sanften H\u00e4ndedruck verdeutlicht wird. Der Friedliebende reicht die Hand ohne Druck, ohne Dominanz \u2014 einladend, offen, entspannt. Sein H\u00e4ndedruck sagt: Alles ist gut, ich bin nicht bedrohlich, wir k\u00f6nnen in Ruhe miteinander sein. Es ist einer der angenehmsten H\u00e4ndedr\u00fccke \u00fcberhaupt \u2014 weil er nichts beweisen muss.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Handdruckverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Handdruckverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"auffaellige-merkmale-der-9-typen", label:"Auff\u00e4llige Merkmale der 9 Typen"},
+        {route:"suchtverhalten-der-9-typen", label:"Suchtverhalten der 9 Typen"},
+        {route:"niesverhalten-der-9-typen", label:"Niesverhalten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function suchtverhalteDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Suchtverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Jeder Mensch kennt Muster, die sich wiederholen \u2014 Verhaltensweisen, nach denen man greift, wenn der Druck zu gro\u00df wird oder die innere Leere sich meldet. Das Enneagramm zeigt, welche typspezifischen Suchtstrukturen hinter diesen Mustern stecken.</p>
+      <img src="./assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Zwanghafter Perfektionismus</h3>
+        <p class="vb-intro">Typ 1 kann dazu neigen, sich zwanghaft auf Ordnung, Disziplin und Kontrolle zu fixieren. Dies kann sich in einem ungesunden Perfektionismus \u00e4u\u00dfern, der Stress und Burnout zur Folge haben kann. Manchmal greifen Einser auch zu Substanzen, um den Druck ihrer hohen Standards zu bew\u00e4ltigen. Der innere Richter, der nie ruht, wird zur eigentlichen Sucht \u2014 die Suche nach dem Fehlerfreien, nach dem endlich Richtigen, nach dem Moment, in dem man sich endlich gut genug f\u00fchlt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Co-Abh\u00e4ngigkeit und emotionales Essen</h3>
+        <p class="vb-intro">Typ 2 kann eine Tendenz zur Co-Abh\u00e4ngigkeit entwickeln, indem er sich \u00fcberm\u00e4\u00dfig auf die Bed\u00fcrfnisse anderer konzentriert und seine eigenen vernachl\u00e4ssigt. Typ 2 kann auch zu emotionalem Essen oder Substanzmissbrauch neigen, um seine eigenen emotionalen Bed\u00fcrfnisse zu stillen, wenn er sich nicht pers\u00f6nlich wertgesch\u00e4tzt f\u00fchlt. Die Sucht des Helfers ist oft die Sucht nach Best\u00e4tigung \u2014 nach dem Moment, in dem jemand sagt: Ich brauche dich. Ohne diese R\u00fcckmeldung greift er zu Ersatzmitteln.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Workaholismus und Leistungssucht</h3>
+        <p class="vb-intro">Typ 3 kann s\u00fcchtig nach Erfolg, Anerkennung und Status sein. Dreier neigen dazu, sich in Arbeit und Leistung zu verlieren und k\u00f6nnen zu Workaholics werden. In extremen F\u00e4llen greifen sie gar zu leistungssteigernden Substanzen, um ihre Ziele zu erreichen \u2014 das sogenannte \u201eLance Armstrong-Syndrom". Die eigentliche Sucht ist die nach Best\u00e4tigung durch Leistung: Wenn ich genug erreiche, bin ich es wert. Ein Kreislauf, der sich von alleine dreht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Emotionale Intensit\u00e4t und innere Leere</h3>
+        <p class="vb-intro">Typ 4 kann dazu tendieren, sich in seinen Emotionen und seiner Sehnsucht nach Authentizit\u00e4t zu verlieren. Vierer k\u00f6nnen Substanzen oder Verhaltensweisen verwenden, um intensivere emotionale Erfahrungen zu suchen oder sich von ihrer inneren Leere abzulenken. Der \u00c4sthet ist manchmal s\u00fcchtig nach dem Gef\u00fchl selbst \u2014 nach der Tiefe, der Leidenschaft, dem Schmerz, der wenigstens zeigt, dass man lebt. Das Gew\u00f6hnliche f\u00fchlt sich f\u00fcr ihn wie Bet\u00e4ubung an.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Isolation und intellektuelle Flucht</h3>
+        <p class="vb-intro">Typ 5 kann eine Neigung zur Isolation und zum R\u00fcckzug entwickeln, oft in eine Welt von Wissen und Information. F\u00fcnfer k\u00f6nnen auch s\u00fcchtig nach bestimmten intellektuellen Besch\u00e4ftigungen oder digitalen Medien werden, um soziale Interaktionen zu vermeiden. Die Sucht des Denkers ist die Sucht nach dem sicheren Innen: Solange ich denke und beobachte, muss ich mich nicht einbringen. Das Wissen selbst wird zur Festung, hinter der man sich verschanzt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Angstbew\u00e4ltigung und Sicherheitssucht</h3>
+        <p class="vb-intro">Typ 6 kann durch seine Angst und sein Bed\u00fcrfnis nach Sicherheit getrieben werden. Sechser k\u00f6nnen Substanzen oder Verhaltensweisen verwenden, um ihre \u00c4ngste zu bet\u00e4uben oder sich allgemein sicherer zu f\u00fchlen. Dies kann zu einer Abh\u00e4ngigkeit von beruhigenden Mitteln oder von Sicherheitsritualen f\u00fchren. Die tiefste Sucht des Skeptikers ist die Sucht nach Gewissheit \u2014 nach dem endg\u00fcltigen Beweis, dass alles gut wird. Den gibt es nicht, und so dreht sich das Rad weiter.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Exzessiver Konsum und Ablenkung</h3>
+        <p class="vb-intro">Typ 7 kann s\u00fcchtig nach neuen Erfahrungen, Vergn\u00fcgungen und Abenteuern sein. Siebener neigen dazu, exzessiv zu konsumieren \u2014 sei es Essen, Alkohol, Drogen oder Unterhaltung \u2014 um Negatives, Langeweile und innere Leere zu vermeiden. Die Sucht des Enthusiasten ist die Sucht vor der Sucht: Wenn ich mich nur schnell genug bewege, hole ich mich nicht ein. Der n\u00e4chste Kick kommt, bevor der letzte verarbeitet ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kontroll- und Machtsucht</h3>
+        <p class="vb-intro">Typ 8 kann s\u00fcchtig nach Kontrolle, Macht und Intensit\u00e4t sein. Achter neigen dazu, risikoreiche Verhaltensweisen zu suchen, und k\u00f6nnen auch zu Substanzen greifen, die ihnen ein Gef\u00fchl der St\u00e4rke, Dominanz und Unbesiegbarkeit geben. Die eigentliche Sucht des Herausforderers ist die Sucht nach Unverwundbarkeit \u2014 nach dem Gef\u00fchl, nichts und niemanden f\u00fcrchten zu m\u00fcssen. Die Verletzlichkeit, die darunter liegt, bleibt dabei unber\u00fchrt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Komfortsucht und Konfliktflucht</h3>
+        <p class="vb-intro">Typ 9 kann s\u00fcchtig nach Komfort und Vermeidung von Konflikten sein. Neuner tendieren dazu, sich mit Fernsehen, digitalen Medien, Essen oder anderen beruhigenden Aktivit\u00e4ten abzulenken, um sich von unangenehmen Gef\u00fchlen und Spannungen zu distanzieren. Die Sucht des Vermittlers ist die Sucht nach dem Frieden \u2014 auch wenn dieser Frieden erkauft ist durch das Einschlafen des eigenen Willens und der eigenen Lebendigkeit.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Suchtverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto weniger tendiert er zu Suchtverhalten im Rahmen seines jeweiligen Typspektrums. Die gr\u00f6\u00dfte Sucht ist \u2014 allgemein betrachtet \u2014 und bleibt die Sucht des Egos nach Denken, F\u00fchlen und Handeln, entsprechend der 3 Triaden des Enneagramms: Kopf (Typen 5, 6, 7), Herz (Typen 2, 3, 4) und Bauch (Typen 8, 9, 1).</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"haendedrucke-der-9-typen", label:"H\u00e4ndedr\u00fccke der 9 Typen"},
+        {route:"niesverhalten-der-9-typen", label:"Niesverhalten der 9 Typen"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
+      ])}
+    </div>
+  `);
+}
+
+function niesverhalteDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Niesverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Mithilfe des Niesens f\u00fchrt der K\u00f6rper vordergr\u00fcndig eine k\u00f6rperliche, hintergr\u00fcndig eine energetische Selbstreinigung durch. Es werden dadurch k\u00f6rperliche und psychische Blockaden gel\u00f6st und Energie kann insgesamt besser flie\u00dfen. H\u00e4ufiges Niesen bewirkt manchmal auch einen gewissen Neustart. Die unterschiedlichen Enneatypen reagieren sehr unterschiedlich auf den unwillk\u00fcrlichen, unerwarteten Niesreflex, der zum explosionsartigen Aussto\u00df von Luft durch die Nase, oft zugleich auch durch den Mund f\u00fchrt.</p>
+      <img src="./assets/niesverhalten-der-9-typen.jpg" alt="Das Niesverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Pr\u00e4zises Niesen</h3>
+        <p class="vb-intro">Typ 1 l\u00e4sst einen einzelnen, gut kontrollierten Nieser los \u2014 dem danach eine ordentliche Entschuldigung folgt. Kein unkontrolliertes Niesen; immer vorbereitet mit einem Taschentuch. Der Perfektionist niest nicht einfach so: Selbst dieser unwillk\u00fcrliche Reflex wird so weit wie m\u00f6glich geordnet vollzogen. Die Entschuldigung danach ist aufrichtig gemeint \u2014 man will ja niemandem zur Last fallen. Und das Taschentuch? Das lag nat\u00fcrlich l\u00e4ngst bereit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 R\u00fccksichtsvolles Niesen</h3>
+        <p class="vb-intro">Typ 2 niest leise, fast entschuldigend \u2014 blo\u00df niemanden st\u00f6ren. Sofort wird Hilfe angeboten: \u201eKann ich dir ein Taschentuch geben?" Der Helfer dreht den Nieser reflexartig in eine Geste der F\u00fcrsorge um. Kaum ist der eigene Reflex vorbei, gilt die Aufmerksamkeit schon wieder den anderen. Ob jemand mitgeniest hat? Ob jemand ein Taschentuch braucht? Die eigene kleine Unannehmlichkeit wird zur Gelegenheit, pr\u00e4sent und hilfsbereit zu sein.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Eindrucksvolles Niesen</h3>
+        <p class="vb-intro">Typ 3 niest laut und kr\u00e4ftig \u2014 mit Wirkung. Danach folgt ein selbstbewusster Kommentar \u00fcber das eigene Niesen, um das Bild der Kontrolle und Effizienz zu wahren. Der Dynamiker l\u00e4sst auch beim Niesen keine Schw\u00e4che durchscheinen. Was andere als peinlichen Moment erleben w\u00fcrden, wird souver\u00e4n in Szene gesetzt: \u201eEntschuldigung \u2014 aber effizient, oder?" Ein Nieser mit Markenzeichen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Dramatisches Niesen</h3>
+        <p class="vb-intro">Typ 4 begleitet sein Niesen mit einem kreativen Ausdruck der \u00dcberraschung und Dramatik. Danach folgt ein tiefes Nachsinnen \u00fcber die Einzigartigkeit dieses Niesens. Der Individualist erlebt selbst den Niesreflex als etwas Besonderes. War das wirklich nur ein Nieser \u2014 oder steckt da mehr dahinter? Vielleicht ein Zeichen. Vielleicht der K\u00f6rper, der sich ausdr\u00fcckt. Auf jeden Fall: ein Moment, der es wert ist, einen kurzen Augenblick lang gesp\u00fcrt zu werden.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Analytisches Niesen</h3>
+        <p class="vb-intro">Typ 5 niest diskret und leise \u2014 gefolgt von einem gedankenvollen Moment, um \u00fcber die Ursache und die gesundheitlichen Implikationen des Niesens nachzudenken. Der Forscher l\u00e4sst sich auch von einem Niesreflex nicht aus dem Konzept bringen. Stattdessen: kurze innere Analyse. Woher kommt das? Staub? Allergien? Ein Fr\u00fchzeichen einer Erk\u00e4ltung? Der Nieser ist bereits vergessen \u2014 das Nachdenken hat gerade erst begonnen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Vorsichtiges Niesen</h3>
+        <p class="vb-intro">Typ 6 bedeckt sein Niesen stets mit der Hand oder einem Taschentuch \u2014 um sicherzustellen, dass keine Keime verbreitet werden. Danach wird die Umgebung auf m\u00f6gliche Allergene \u00fcberpr\u00fcft. Der Loyale nimmt auch beim Niesen keine Risiken: Hygiene ist Pflicht, Vorsicht ist Tugend. Und wer wei\u00df \u2014 vielleicht steckt da etwas in der Luft? Besser die Situation im Blick behalten, bevor man weitermacht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Spontanes Niesen</h3>
+        <p class="vb-intro">Typ 7 niest fr\u00f6hlich und unerwartet \u2014 oft begleitet von einem Lachen oder einem scherzhaften Kommentar. Es st\u00f6rt nicht die Begeisterung f\u00fcr das n\u00e4chste Abenteuer. Der Enthusiast macht aus dem Nieser spontan einen kleinen Spa\u00df. \u201eGesundheit mir selbst!" \u2014 und weiter geht's. Kein Innehalten, kein Nachgr\u00fcbeln. Der Moment ist schon wieder vorbei, und das n\u00e4chste Erlebnis wartet bereits.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Dominantes Niesen</h3>
+        <p class="vb-intro">Typ 8 niest kr\u00e4ftig und dominant \u2014 nimmt dabei R\u00e4umlichkeit ein und erregt Aufmerksamkeit. Es gibt keine Entschuldigungen: ein selbstbewusster Ausdruck der physischen Pr\u00e4senz. Der Herausforderer niest, wie er alles tut: mit voller Kraft, ohne Z\u00f6gern, ohne R\u00fccksicht auf m\u00f6gliche Blicke. Der K\u00f6rper hat gesprochen \u2014 und das ist vollkommen in Ordnung so. Wer sich davon st\u00f6ren l\u00e4sst, hat ein Problem. Nicht er.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Sanftes Niesen</h3>
+        <p class="vb-intro">Typ 9 niest leise und friedlich \u2014 kaum zu bemerken. Danach folgt ein entschuldigender Blick, um sicherzustellen, dass niemand gest\u00f6rt wurde. Der Friedliebende versucht, selbst beim Niesen so wenig Raum wie m\u00f6glich einzunehmen. Der Reflex kam \u2014 er konnte nichts daf\u00fcr \u2014 aber der entschuldigende Blick danach zeigt: Ich hoffe, das hat niemanden aus dem Gleichgewicht gebracht. Alles soll ruhig bleiben, auch nach einem Nieser.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Niesverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Niesverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"suchtverhalten-der-9-typen", label:"Suchtverhalten der 9 Typen"},
+        {route:"essverhalten-der-9-typen", label:"Essverhalten der 9 Typen"},
+        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function essverhalteDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Essverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Was und wie wir essen, ist selten nur eine Frage des Geschmacks. Es spiegelt unsere innere Struktur, unsere \u00c4ngste, unsere Sehns\u00fcchte \u2014 und unseren Enneagrammtyp. Jeder Typ bringt seine ganz eigene Haltung zum Essen mit an den Tisch.</p>
+      <img src="./assets/essverhalten-der-9-typen.jpg" alt="Das Essverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Diszipliniert und kontrolliert</h3>
+        <p class="vb-intro">Typ 1 tendiert dazu, sehr diszipliniert und kontrolliert zu essen. Er achtet auf gesunde und ausgewogene Ern\u00e4hrung und kann sich selbst strenge Di\u00e4ten auferlegen, um seinen hohen Standards gerecht zu werden. Essen ist f\u00fcr den Perfektionisten kein purer Genuss, sondern auch eine Frage der Tugend: Was ist richtig? Was ist gesund? Was sollte ich mir erlauben? Diese innere Latte kann befreiend sein \u2014 oder zur stillen Last werden, wenn jeder Bissen unter Beobachtung steht.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Emotional und f\u00fcrsorglich</h3>
+        <p class="vb-intro">Typ 2 neigt dazu, emotional zu essen, besonders wenn er sich gestresst oder pers\u00f6nlich nicht gesch\u00e4tzt f\u00fchlt. Er kann dazu neigen, andere mit Essen zu verw\u00f6hnen und sich selbst dabei in den Hintergrund zu stellen. F\u00fcr den Helfer ist die K\u00fcche oft ein Ort der Liebe \u2014 er kocht f\u00fcr andere, deckt den Tisch, sorgt daf\u00fcr, dass alle satt werden. Was er dabei manchmal vergisst: sich selbst zu fragen, was er eigentlich m\u00f6chte.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Bewusst und leistungsorientiert</h3>
+        <p class="vb-intro">Typ 3 achtet auf sein Aussehen und seine Leistungsf\u00e4higkeit, was sich oft in einer bewussten und manchmal restriktiven Ern\u00e4hrungsweise zeigt. Er kann dazu neigen, Nahrung als Mittel zur Leistungssteigerung zu betrachten. Der Leistungsmensch isst strategisch: Was bringt mir Energie? Was schadet meiner Figur? Was passt zum Image? Essen als Optimierungswerkzeug \u2014 und manchmal auch als B\u00fchne, auf der man zeigt, wie diszipliniert man ist.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Individuell und stimmungsabh\u00e4ngig</h3>
+        <p class="vb-intro">Typ 4 hat oft ein sehr individuelles Essverhalten, das stark von seinen emotionalen Zust\u00e4nden beeinflusst wird. Er kann zu extremen Ern\u00e4hrungsweisen neigen, wie z.B. exotischen Di\u00e4ten oder besonderen Ern\u00e4hrungsformen, um seine Einzigartigkeit zu betonen. F\u00fcr den \u00c4stheten ist Essen Ausdruck \u2014 von Stimmung, Identit\u00e4t, Zugeh\u00f6rigkeit zu sich selbst. Ein gew\u00f6hnliches Mittagessen in der Kantine kann sich f\u00fcr den Typ 4 wie eine Absage an das eigene Wesen anf\u00fchlen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Pragmatisch und zweckorientiert</h3>
+        <p class="vb-intro">Typ 5 kann eine eher pragmatische und manchmal nachl\u00e4ssige Haltung gegen\u00fcber dem Essen haben. Er k\u00f6nnte Mahlzeiten \u00fcberspringen oder einfache, leicht zuzubereitende Lebensmittel bevorzugen, um mehr Zeit f\u00fcr seine intellektuellen Interessen zu haben. Essen ist f\u00fcr den Denker vor allem eines: notwendig. Es unterbricht den Gedankenstrom, kostet Zeit und Energie \u2014 und so wird die Mahlzeit gerne so effizient wie m\u00f6glich gestaltet, damit man schnell wieder zum Wesentlichen kommt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Traditionell und vertraut</h3>
+        <p class="vb-intro">Typ 6 hat oft ein eher traditionelles Essverhalten und kann sich an bew\u00e4hrte Ern\u00e4hrungsgewohnheiten halten. Er bevorzugt gewohnte, vertraute Speisen und z\u00f6gert tendenziell, neue oder unbekannte Lebensmittel auszuprobieren. Das Vertraute ist f\u00fcr den Skeptiker nicht Langeweile \u2014 es ist Sicherheit. Ein Gericht, das man kennt, kann nicht entt\u00e4uschen. Und im Kreis der Familie oder Freunde schmeckt das Altbekannte noch einmal so gut.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Vielf\u00e4ltig und genussorientiert</h3>
+        <p class="vb-intro">Typ 7 liebt Vielfalt und Genuss, auch beim Essen. Er kann dazu neigen, exzessiv zu essen, besonders wenn er gestresst oder gelangweilt ist, und liebt es, neue und aufregende Lebensmittel zu probieren. F\u00fcr den Enthusiasten ist das Essen ein Abenteuer \u2014 am liebsten die neue K\u00fcche, das unbekannte Restaurant, das Gericht, das man noch nie probiert hat. Der Teller als Erlebnisraum. Die Herausforderung: auch dann innezuhalten, wenn es nicht mehr um Genuss geht, sondern um Ablenkung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Kraftvoll und genussvoll</h3>
+        <p class="vb-intro">Typ 8 hat oft ein kraftvolles und intensives Essverhalten. Er bevorzugt reichhaltige, herzhafte Mahlzeiten und hat oft eine gro\u00dfe Portionenkontrolle. Er neigt dazu, das Essen mit Genuss und als Ausdruck seiner St\u00e4rke zu betrachten. Der Herausforderer isst, wie er lebt: mit voller Pr\u00e4senz, ohne Z\u00f6gern, ohne halbe Sachen. Ein gutes Essen ist f\u00fcr ihn ein Fest \u2014 und er l\u00e4sst sich nicht von Schuldgef\u00fchlen begleiten, w\u00e4hrend er genie\u00dft.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Tr\u00f6stend und nachl\u00e4ssig</h3>
+        <p class="vb-intro">Typ 9 kann zu einem tr\u00f6stenden und manchmal nachl\u00e4ssigen Essverhalten neigen. Er kann emotional essen, um sich zu beruhigen, und bevorzugt oft vertraute, beruhigende und einfache Lebensmittel. Essen ist f\u00fcr den Vermittler Komfort \u2014 es beruhigt, es verbindet, es schafft Frieden. In stressigen Momenten wird gerne zum Bekannten gegriffen, das verl\u00e4sslich gut tut. Die Herausforderung liegt darin, auch beim Essen bewusst pr\u00e4sent zu bleiben und nicht im Autopilot zu verschwinden.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Essverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto authentischer ist auch der Ausdruck seines Essverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"niesverhalten-der-9-typen", label:"Niesverhalten der 9 Typen"},
+        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
+        {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
+      ])}
+    </div>
+  `);
+}
+
+function arbeitsverhalteDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Arbeitsverhalten der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Wie jemand arbeitet, verr\u00e4t fast alles \u00fcber seinen Enneagrammtyp: Was antreibt ihn, was bremst ihn, wie verh\u00e4lt er sich im Team, wor\u00fcber ger\u00e4t er in Konflikt? Jeder Typ bringt seine ganz eigene Energie an den Arbeitsplatz.</p>
+      <img src="./assets/arbeitsverhalten-der-9-typen.jpg" alt="Das Arbeitsverhalten der 9 Enneagrammtypen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Gewissenhaft und detailorientiert</h3>
+        <p class="vb-intro">Typ 1 arbeitet gewissenhaft, organisiert und detailorientiert. Er strebt nach hohen Standards und ist oft kritisch gegen\u00fcber seiner eigenen und der Arbeit anderer. Er ist zuverl\u00e4ssig und hat einen starken Drang, Dinge richtig zu machen. Der innere Richter des Typs 1 ist auch am Schreibtisch pr\u00e4sent: Gut ist nicht gut genug, wenn es noch besser geht. Das macht ihn zum verl\u00e4sslichsten Kollegen im Team \u2014 aber auch zum h\u00e4rtesten Kritiker, vor allem sich selbst gegen\u00fcber.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Unterst\u00fctzend und hilfsbereit</h3>
+        <p class="vb-intro">Typ 2 ist unterst\u00fctzend und hilfsbereit. Er neigt dazu, die Bed\u00fcrfnisse seiner Kollegen \u00fcber seine eigenen zu stellen und sucht oft Best\u00e4tigung durch Anerkennung und Dankbarkeit. Er ist gut darin, Beziehungen aufzubauen und im Team zu arbeiten. Der Helfer gedeiht in Arbeitsumgebungen, in denen seine F\u00fcrsorge gesehen und gesch\u00e4tzt wird \u2014 ohne diese R\u00fcckmeldung kann er sich ausgebrannt und unsichtbar f\u00fchlen, obwohl er alles f\u00fcr andere gibt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Zielorientiert und effizient</h3>
+        <p class="vb-intro">Typ 3 ist zielorientiert, effizient und ehrgeizig. Er strebt nach Erfolg und Anerkennung und arbeitet oft hart, um seine Ziele zu erreichen. Er ist gut darin, sich selbst und andere zu motivieren und kann in F\u00fchrungspositionen sehr effektiv sein. F\u00fcr den Leistungsmensch ist Arbeit der nat\u00fcrlichste Ausdruck seines Wesens \u2014 er lebt f\u00fcr Ergebnisse, f\u00fcr Meilensteine, f\u00fcr den Moment, in dem das Projekt abgeschlossen ist und alle applaudieren.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Kreativ und bedeutungssuchend</h3>
+        <p class="vb-intro">Typ 4 bringt Kreativit\u00e4t und Originalit\u00e4t in seine Arbeit ein. Er sucht nach tiefer Bedeutung und Authentizit\u00e4t in seinen Aufgaben. Er kann jedoch auch stimmungsabh\u00e4ngig sein und Schwierigkeiten haben, sich anzupassen, wenn die Arbeit seine kreativen Bed\u00fcrfnisse nicht erf\u00fcllt. Der \u00c4sthet braucht das Gef\u00fchl, dass seine Arbeit etwas bedeutet \u2014 ein Routinejob ohne Sinngehalt ist f\u00fcr ihn eine Art innerer Tod. Gibt man ihm Raum zur Entfaltung, liefert er Unvergleichliches.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Analytisch und selbstst\u00e4ndig</h3>
+        <p class="vb-intro">Typ 5 ist analytisch, fokussiert und selbstst\u00e4ndig. Er bevorzugt es, in Ruhe und ohne Unterbrechungen zu arbeiten. Er sammelt und analysiert Informationen gr\u00fcndlich, bevor er Entscheidungen trifft, und ist oft Experte auf seinem Gebiet. Der Denker braucht R\u00fcckzug, um produktiv zu sein \u2014 zu viel Teamdynamik und Smalltalk kostet ihn Energie, die er lieber in tiefes Durchdenken investiert. Hat er seinen Raum, liefert er Analysen von unvergleichlicher Gr\u00fcndlichkeit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Zuverl\u00e4ssig und sicherheitsorientiert</h3>
+        <p class="vb-intro">Typ 6 ist zuverl\u00e4ssig, gewissenhaft und sicherheitsorientiert. Er ist gut darin, Risiken zu bewerten und Voraussicht in seine Arbeit einzubringen. Er sch\u00e4tzt Stabilit\u00e4t und klare Strukturen und arbeitet gut in unterst\u00fctzenden und kooperativen Umgebungen. Der Skeptiker ist der Typ, der die Schwachstellen im Plan findet, bevor sie zum Problem werden \u2014 ein unsch\u00e4tzbarer Wert im Team, wenn er lernt, seiner eigenen Kompetenz zu vertrauen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Vielseitig und ideenreich</h3>
+        <p class="vb-intro">Typ 7 ist vielseitig, ideenreich und energisch. Er liebt Abwechslung sowie neue positive Impulse und bringt oft frische, innovative Ideen ein. Er kann jedoch auch dazu neigen, sich zu verzetteln und Schwierigkeiten haben, Projekte abzuschlie\u00dfen. Der Enthusiast ist der Z\u00fcndfunken jedes Teams \u2014 er begeistert, er inspiriert, er \u00f6ffnet T\u00fcren, die andere noch nicht einmal gesehen haben. Die Herausforderung liegt im Bleiben, wenn die anf\u00e4ngliche Begeisterung nachl\u00e4sst.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Durchsetzungsstark und f\u00fchrungsorientiert</h3>
+        <p class="vb-intro">Typ 8 ist durchsetzungsstark, entschlossen und f\u00fchrungsorientiert. Er \u00fcbernimmt gerne Verantwortung und hat keine Angst vor Konfrontationen. Er arbeitet effizient und direkt, setzt sich f\u00fcr seine \u00dcberzeugungen ein und besch\u00fctzt sein Team. Der Herausforderer f\u00fchrt nicht durch Hierarchie, sondern durch St\u00e4rke und Pr\u00e4senz \u2014 er sieht Probleme als Gegner, die es zu besiegen gilt, und rei\u00dft andere in seiner Entschlossenheit mit.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Kooperativ und ausgleichend</h3>
+        <p class="vb-intro">Typ 9 ist kooperativ, geduldig und anpassungsf\u00e4hig. Er schafft eine harmonische Arbeitsumgebung und ist gut darin, in Konflikten zu vermitteln. Er kann jedoch manchmal Schwierigkeiten haben, die eigenen Bed\u00fcrfnisse und Meinungen durchzusetzen. Der Vermittler ist der Kitt im Team \u2014 er sorgt daf\u00fcr, dass alle geh\u00f6rt werden und niemand auf der Strecke bleibt. Seine Herausforderung: den eigenen Standpunkt genauso klar vertreten wie die Positionen aller anderen.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1rem;padding:1rem 1.2rem;background:var(--surface-2, rgba(0,0,0,0.04));border-radius:8px;">
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0;"><strong>Anmerkung:</strong> Das Arbeitsverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich je nach Subtypenvariante (Normaltyp, Verst\u00e4rkungstyp, Kontratyp) entweder entsprechend, verst\u00e4rkt oder auch genau gegenteilig ausdr\u00fccken. Au\u00dferdem spielt der jeweilige Bewusstseinsgrad dabei eine wichtige Rolle. Je bewusster ein Mensch ist, desto erf\u00fcllender und harmonischer ist auch der Ausdruck seines Arbeitsverhaltens im Rahmen seines jeweiligen Typspektrums.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"essverhalten-der-9-typen", label:"Essverhalten der 9 Typen"},
+        {route:"verhaeltnis-zu-geld-der-9-typen", label:"Verh\u00e4ltnis zu Geld"},
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function verhaeltnisZuGeldDer9TypenPage() {
   return shell(`
     <div class="page-container">

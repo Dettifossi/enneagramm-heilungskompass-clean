@@ -45673,6 +45673,346 @@ const LEBENSMUSTERKOMPASS = {
   }
 };
 
+// ---------------------------------------------------------------------------
+// Krankheitsmusterkompass: analog zum Lebensmusterkompass, aber ausschließlich
+// aus den Krankheitsporträts dieses Kompasses gespeist. Zieht Muster, die bei
+// mehreren, unabhängig voneinander typisierten Personen desselben Subtyps im
+// Krankheitsverlauf ähnlich auftreten – keine Diagnose, keine Determinismus-
+// Aussage, siehe ausführlicher Disclaimer auf der Übersichtsseite. Wird bei
+// jedem neuen Krankheitsporträt ergänzt (siehe CLAUDE.md).
+function krankheitsmusterkompassPortraitsForCode(code) {
+  return KRANKHEITS_PORTRAITS
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+const KRANKHEITSMUSTERKOMPASS = {
+  SE1: {
+    tier: "Adler",
+    kernthema: "Der Körper als letzter Ort, an dem sich zeigt, was der Wille nicht mehr kontrollieren kann – oft nach Jahrzehnten äußerer Disziplin.",
+    beispiele: ["Konrad Adenauer", "Anthony Hopkins", "Astrid Lindgren", "Robert De Niro", "Ludwig Wittgenstein"],
+    fingerabdruecke: [
+      {
+        titel: "Kontrollverlust an einer Stelle, die sich der Willenskraft entzieht",
+        beschreibung: "Die selbsterhaltende Eins hält ihr Leben lang eine hohe Selbstdisziplin aufrecht – Krankheit trifft sie oft dort, wo genau diese Kontrolle objektiv unmöglich wird: Sehkraft, Zellwachstum, Sucht.",
+        beleg: "Astrid Lindgren, die im hohen Alter nahezu vollständig erblindete – ein schleichender Verlust, den keine Disziplin aufhalten konnte; Anthony Hopkins, der seine Alkoholerkrankung erst durch einen radikalen, bis heute nie unterbrochenen Rückzug in völlige Abstinenz seit 1975 in den Griff bekam; Ludwig Wittgenstein, dessen Prostatakrebs mit Wirbelsäulen-Metastasen 1949 als unheilbar diagnostiziert wurde, woraufhin er bis zuletzt an seinen letzten philosophischen Notizen arbeitete."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Gans",
+    kernthema: "Kleine Fallzahl bislang – erste erkennbare Linie: eine sehr bewusste, oft präventive Entscheidung im Umgang mit der eigenen Gesundheit.",
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie"],
+    fingerabdruecke: [
+      {
+        titel: "Prinzipientreue Entscheidungen selbst im Angesicht der eigenen Krankheit",
+        beschreibung: "Bei bislang wenigen, aber auffällig einheitlichen Fällen zeigt sich bei der sozialen Eins eine sehr bewusste, fast grundsätzliche Haltung zur eigenen Gesundheit – Entscheidungen werden nicht dem Zufall überlassen, sondern nach klaren eigenen Maßstäben getroffen.",
+        beleg: "Angelina Jolie, die sich nach dem Nachweis der BRCA1-Genmutation präventiv doppelt mastektomieren sowie Eierstöcke und Eileiter entfernen ließ, bevor überhaupt eine Erkrankung vorlag; David Bowie, der seine Leberkrebsdiagnose bis zuletzt zur Grundlage eines bewusst komponierten letzten Werks (›Blackstar‹) machte, statt sie zu verschweigen oder zu dramatisieren."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Schwarze Mamba",
+    kernthema: "Unterdrückte Spannung, die sich nicht körperlich, sondern seelisch entlädt – wiederkehrende Depressionen, Sucht und psychische Krisen dominieren diese Gruppe auffällig.",
+    beispiele: ["Johann Sebastian Bach", "Martin Luther", "Robbie Williams", "Jamie Lee Curtis", "Klaus Kinski"],
+    fingerabdruecke: [
+      {
+        titel: "Die Anfechtung: innerer Druck, der sich seelisch statt körperlich entlädt",
+        beschreibung: "Bei vier von fünf bislang porträtierten SX1 dominiert nicht eine rein körperliche Erkrankung, sondern eine seelische Krise – Depression, Sucht oder psychiatrische Ausnahmezustände –, oft als Kehrseite einer nach außen sehr kontrollierten, intensiven Lebensführung.",
+        beleg: "Martin Luther, der zeitlebens unter wiederkehrenden schweren Depressionen litt, die er selbst als ›Anfechtungen‹ bezeichnete; Robbie Williams mit jahrzehntelanger Depression und Suchterkrankung; Jamie Lee Curtis, die 22 Jahre lang eine nach einer kosmetischen Operation begonnene Opiatabhängigkeit verbarg; Klaus Kinski, dessen lebenslange Wutausbrüche 1950 in einer psychiatrischen Zwangseinweisung mit vorläufiger Schizophrenie-Diagnose gipfelten."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Flusspferd",
+    kernthema: "Der Körper trägt sichtbar, was durchlebt wurde – Unfälle, Gewalt und frühe Traumata hinterlassen bei dieser Gruppe auffällig oft dauerhafte körperliche Spuren.",
+    beispiele: ["Wolfgang Amadeus Mozart", "Nusrat Fateh Ali Khan", "Frida Kahlo", "Ai Weiwei", "Mr. T", "Oprah Winfrey", "Greta Thunberg", "Yayoi Kusama", "Natascha Kampusch"],
+    fingerabdruecke: [
+      {
+        titel: "Sichtbare Spuren von Gewalt, Unfall oder frühem Trauma am eigenen Körper",
+        beschreibung: "Bei der selbsterhaltenden Zwei zeigt sich auffällig häufig eine direkte körperliche oder traumatische Verletzung – durch Unfall, Gewalt oder frühen Missbrauch –, die zum bleibenden Teil der eigenen Lebensgeschichte wird, statt verborgen zu bleiben.",
+        beleg: "Frida Kahlo, die nach einem Busunglück rund 30 Operationen und schließlich eine Beinamputation durchlebte; Ai Weiwei, der nach einem Polizeiübergriff 2009 eine Hirnblutung erlitt und seither an chronischen Kopfschmerzen leidet; Oprah Winfrey, die sexuellen Missbrauch in der Kindheit und eine Teenagerschwangerschaft mit 14 Jahren öffentlich machte; Natascha Kampusch, bei der zwanzig Jahre nach der Befreiung ein schwerer psychischer Zusammenbruch auftrat; Greta Thunberg mit schwerer Depression, Essstörung und selektivem Mutismus im Kindesalter."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Erschöpfung im Dienst der Sache – Krankheiten, die aus jahrelanger körperlicher Selbstüberschreitung im Namen einer größeren Rolle oder Mission entstehen.",
+    beispiele: ["Muhammad Ali", "Napoleon Bonaparte", "Julius Caesar", "Alexander der Große", "Bob Marley", "Ashton Kutcher"],
+    fingerabdruecke: [
+      {
+        titel: "Verzicht auf Behandlung oder Schonung zugunsten der größeren Sache",
+        beschreibung: "Auffällig oft steht bei der sozialen Zwei nicht die Krankheit selbst im Zentrum, sondern die Weigerung, ihretwegen die eigene Rolle für andere zu unterbrechen – ein Muster, das bis zur bewussten Ablehnung notwendiger Behandlung reichen kann.",
+        beleg: "Bob Marley, der eine ärztlich empfohlene Amputation aus religiösen Gründen ablehnte und an der Ausbreitung des Krebses starb; Muhammad Ali, dessen Parkinson-Syndrom vermutlich durch jahrelanges Weiterboxen trotz wiederholter Kopftreffer mitverursacht wurde; Julius Caesar und Alexander der Große, die trotz wiederkehrender Anfälle beziehungsweise eines jahrelang grenzenlosen Feldzugslebens nie öffentlich innehielten."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Kamel",
+    kernthema: "Bislang nur ein dokumentierter Fall – zu wenig für ein belastbares Muster, aber ein auffälliger Einzelfall von Abhängigkeit im Kontext intensiver, exklusiver Bindungen.",
+    beispiele: ["Elvis Presley"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: Medikamentenabhängigkeit im Umfeld enger persönlicher Kontrolle",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall, damit künftige SX2-Porträts ihn einordnen können.",
+        beleg: "Elvis Presley, dessen Herzrhythmusstörungen und Megakolon durch jahrelange, von seinem engsten Umfeld mitgetragene Medikamentenabhängigkeit begünstigt wurden."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Waschbär",
+    kernthema: "Der Zusammenbruch nach dem Ende der Fassade – Erkrankungen, die auffällig oft mit dem Einsturz einer lange aufrechterhaltenen äußeren Kontrolle zusammenfallen.",
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru"],
+    fingerabdruecke: [
+      {
+        titel: "Körperlicher Einbruch nach dem Verlust der öffentlichen Kontrolle",
+        beschreibung: "Bei bislang drei Fällen fällt auf, dass die gesundheitliche Krise zeitlich nah an einen Bruch der öffentlichen Fassade oder Autorität heranrückt – als hätte der Körper erst dann nachgegeben, als die kontrollierte Rolle nicht mehr zu halten war.",
+        beleg: "Bernie Madoff, dessen Niereninsuffizienz im Endstadium erst nach seiner Verurteilung und dem völligen Zusammenbruch seines Anlagebetrugs-Imperiums öffentlich bekannt wurde; Osho, dessen Herzversagen nach chronischen Beschwerden und einer bis heute umstrittenen Vergiftungsbehauptung seine Autorität als Guru überschattete; Sadhguru, bei dem ein chronisches subdurales Hämatom 2024 eine Notoperation erzwang, während er weiterhin öffentlich auftrat."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Gepard",
+    kernthema: "Krankheit hinter geschlossener Tür – bei kaum einem anderen Subtyp wird die eigene Erkrankung so konsequent vom öffentlichen Bild ferngehalten, oft bis kurz vor dem Tod.",
+    beispiele: ["Teresa von Ávila", "Karl Lagerfeld", "Ludwig XIV.", "O.J. Simpson", "Christiaan Barnard", "Sean Connery"],
+    fingerabdruecke: [
+      {
+        titel: "Geheimhaltung der eigenen Krankheit bis unmittelbar vor dem Tod",
+        beschreibung: "Die soziale Drei hält ihr öffentliches Bild oft bis in die letzten Lebensmonate makellos – die eigene Erkrankung wird selbst vor engem Umfeld verborgen und wird häufig erst nach dem Tod überhaupt bekannt oder bestätigt.",
+        beleg: "Sean Connerys Demenzerkrankung, die erst nach seinem Tod öffentlich bestätigt wurde; Karl Lagerfelds Krebserkrankung, deren genaue Todesursache offiziell nie bestätigt wurde; Christiaan Barnard, der seine rheumatoide Arthritis in den Händen jahrzehntelang mit seiner Chirurgenkarriere vereinbarte, bis sie 1983 unumgänglich zum Karriereende zwang."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Pfau",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zu tödlichen Zuspitzungen, die lange unter der Oberfläche einer makellosen öffentlichen Bühnenpräsenz verborgen blieben.",
+    beispiele: ["Marilyn Monroe", "Richard Ramírez", "Dolly Parton"],
+    fingerabdruecke: [
+      {
+        titel: "Eine gepflegte Bühnenpräsenz, unter der sich die eigentliche Krise lange verbirgt",
+        beschreibung: "Bei bislang drei Fällen zeigt sich ein Muster, in dem die eigentliche gesundheitliche oder psychische Notlage lange hinter einer makellos wirkenden öffentlichen Präsenz verborgen bleibt, bevor sie sich abrupt zuspitzt.",
+        beleg: "Marilyn Monroe, deren tödliche Medikamentenkombination trotz ihres bis zuletzt gepflegten öffentlichen Glamour-Images eintrat; Dolly Parton, die ihre seit den frühen 1980er-Jahren bestehende Endometriose öffentlich kaum thematisierte, während sie ihr strahlendes Bühnenbild aufrechterhielt."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Taube",
+    kernthema: "Verborgenes seelisches Leiden hinter einer sensiblen, oft sehr introspektiven Fassade – bei dieser Gruppe verläuft die Krankheit fast durchgehend über Jahre unausgesprochen.",
+    beispiele: ["Lady Diana", "Vincent van Gogh", "Adele", "Honoré de Balzac", "T. E. Lawrence"],
+    fingerabdruecke: [
+      {
+        titel: "Jahrelang verschwiegenes seelisches Leiden hinter der eigenen Empfindsamkeit",
+        beschreibung: "Bei der selbsterhaltenden Vier zieht sich durch fast alle bisherigen Fälle ein über Jahre verschwiegenes seelisches Leiden – Essstörung, Depression, posttraumatische Belastung –, das erst spät oder postum bekannt wurde.",
+        beleg: "Lady Diana, deren Bulimie über Jahre verschwiegen wurde und mit Selbstverletzung sowie postnataler Depression einherging; Adele, die eine schwere postnatale Depression mit Panikattacken fast ein Jahrzehnt lang für sich behielt; T. E. Lawrence, dessen dreizehn Jahre anhaltende Depression nach dem Trauma von Deraa 1917 sich in einem selbst organisierten Bestrafungsritual entlud."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Gürteltier",
+    kernthema: "Ein Leiden, das nach außen kleingeredet oder verschämt verborgen wird – Hypochondrie und tatsächliche Erkrankung liegen bei dieser Gruppe oft dicht beieinander.",
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider"],
+    fingerabdruecke: [
+      {
+        titel: "Verschämt verborgene oder kleingeredete Leiden trotz spürbarer Beeinträchtigung",
+        beschreibung: "Bei der sozialen Vier fällt eine Tendenz auf, das eigene Leiden entweder stark zu dramatisieren (Hypochondrie) oder umgekehrt aus Scham zu verbergen – beides als Umgang mit einer als beschämend empfundenen eigenen Verletzlichkeit.",
+        beleg: "Michael Jackson, der seine Vitiligo-Erkrankung jahrelang verschwieg, während seine Schmerz- und Schlafmittelabhängigkeit sich unbemerkt vertiefte; Hans Christian Andersen mit lebenslanger Hypochondrie bei gleichzeitig vernachlässigten, tatsächlich bestehenden Zahnproblemen; Romy Schneider, deren eskalierender Alkohol- und Tablettenkonsum nach einer Nierenoperation weitgehend im Verborgenen verlief."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Radikale Geheimhaltung der eigenen Diagnose selbst im engsten Kreis – bei dieser Gruppe wird die Krankheit oft bis zur letzten möglichen Minute verschwiegen.",
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish"],
+    fingerabdruecke: [
+      {
+        titel: "Verschwiegen bis zur letzten Minute – Krankheit als radikal privates Geheimnis",
+        beschreibung: "Die sexuelle Vier zeigt in mehreren Fällen eine besonders konsequente, oft jahrelange Geheimhaltung der eigenen Diagnose – bis zur Grenze des öffentlich noch Vertretbaren.",
+        beleg: "Freddie Mercury, der seine AIDS-Erkrankung fast fünf Jahre lang strikt geheim hielt und sie erst einen Tag vor seinem Tod öffentlich bestätigte; Billie Eilish, die ihr Tourette-Syndrom über Jahre verschwieg, bevor sie es selbst öffentlich machte."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Eule",
+    kernthema: "Erkrankung als Nebenprodukt der eigenen obsessiven Vertiefung – bei mehreren Fällen entsteht das Leiden direkt aus jahrelanger, ungeschützter Hingabe an die eigene Arbeit.",
+    beispiele: ["Marie Curie", "Charles Darwin", "Franz Kafka", "Baruch de Spinoza", "Hermann Hesse", "Warren Buffett"],
+    fingerabdruecke: [
+      {
+        titel: "Die eigene Forschungs- oder Handwerksleidenschaft als direkte Krankheitsursache",
+        beschreibung: "Bei der selbsterhaltenden Fünf finden sich mehrfach Fälle, in denen die Krankheit nicht zufällig, sondern als direkte Folge jahrelanger, ungeschützter Vertiefung in die eigene Materie entsteht – die Leidenschaft selbst wird zur Belastung des eigenen Körpers.",
+        beleg: "Marie Curie, deren aplastische Anämie durch chronische Strahlenbelastung aus der eigenen Forschung entstand; Baruch de Spinoza, dessen chronische Lungenerkrankung auf jahrelanges Einatmen von Glasstaub beim Linsenschleifen zurückgeht – seinem selbst gewählten Handwerk zur finanziellen Unabhängigkeit."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Oktopus",
+    kernthema: "Arbeit bis zuletzt – bei kaum einer anderen Gruppe zieht sich das Weiterarbeiten trotz fortschreitender, oft tödlicher Erkrankung so konsequent durch alle Fälle.",
+    beispiele: ["Dr. Claudio Naranjo", "Albert Einstein", "Stephen Hawking", "Isaac Newton", "Leonardo da Vinci"],
+    fingerabdruecke: [
+      {
+        titel: "Ungebremstes Weiterarbeiten trotz fortschreitender, bekannter Erkrankung",
+        beschreibung: "Bei praktisch allen bisherigen SO5-Fällen setzt sich die geistige oder schöpferische Arbeit trotz erheblicher körperlicher Einschränkung nahezu unvermindert fort – Wissen und Werk werden bis zur physischen Grenze weitergetragen.",
+        beleg: "Stephen Hawking, der trotz vollständiger Lähmung 55 Jahre lang an offenen Fragen der Physik weiterarbeitete; Albert Einstein, der eine bekannte, unbehandelte Aneurysma-Bedrohung sechseinhalb Jahre lang in Kauf nahm und bis in die letzte Nacht an Gleichungen arbeitete; Leonardo da Vinci, der nach einem Schlaganfall mit Lähmung der rechten Hand auf die linke Hand umstellte und weiter an der Mona Lisa arbeitete."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Igel",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Häufung neurologischer und die Sinne betreffender Beschwerden, die mit geistigem Zusammenbruch einhergehen.",
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin"],
+    fingerabdruecke: [
+      {
+        titel: "Neurologische Beschwerden mit Auswirkung auf Wahrnehmung und Geist",
+        beschreibung: "Mit bislang nur zwei Fällen ist noch kein belastbares Muster erkennbar, doch beide zeigen eine Kombination aus körperlichem Leiden und geistiger beziehungsweise sensorischer Beeinträchtigung.",
+        beleg: "Friedrich Nietzsche mit chronischer Migräne, Sehschwäche und schließlich geistigem Zusammenbruch; Frédéric Chopin, dessen Tuberkulose sein gesamtes späteres Schaffen und seine körperliche Kraft zunehmend einschränkte."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Kaninchen",
+    kernthema: "Verschwiegene oder kleingeredete Erkrankungen bei gleichzeitig wachsamem, oft hypochondrischem Blick auf die eigene Gesundheit.",
+    beispiele: ["Franz Schubert", "Fjodor Dostojewski", "Woody Allen", "Neil Armstrong"],
+    fingerabdruecke: [
+      {
+        titel: "Zwischen Verschweigen und ständiger gesundheitlicher Wachsamkeit",
+        beschreibung: "Bei der selbsterhaltenden Sechs zeigt sich ein auffälliger Kontrast: Manche Fälle verbergen eine ernste Krankheit lange, während andere die eigene Gesundheit zu einem dauerhaften, öffentlich bekannten Sorgenthema machen.",
+        beleg: "Franz Schubert, dessen Syphilis-Erkrankung über sechs Jahre verlief, offiziell aber als Typhus deklariert wurde; Woody Allen mit seiner lebenslangen, öffentlich dokumentierten Hypochondrie (›Alarmismus‹); Neil Armstrong, der über zwei Jahrzehnte hinweg eine koronare Herzkrankheit mit sich trug, bevor er nach einer Bypass-Operation starb."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Erdmännchen",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist ein Festhalten an eigenen Gewohnheiten trotz erkennbarer gesundheitlicher Gefahr.",
+    beispiele: ["Sigmund Freud", "Immanuel Kant"],
+    fingerabdruecke: [
+      {
+        titel: "Festhalten an der eigenen Gewohnheit trotz erkennbarer Gefahr",
+        beschreibung: "Mit bislang zwei Fällen lässt sich vorsichtig ein Muster erkennen, in dem eine als sicherheitsstiftend erlebte Gewohnheit auch nach der Diagnose nicht aufgegeben wird.",
+        beleg: "Sigmund Freud, der trotz seiner Diagnose von Mundhöhlen- und Kieferkrebs sein Zigarrenrauchen kaum einschränkte; Immanuel Kant mit einer chronischen Hypochondrie und Atembeklemmung, die sein streng geregeltes Tagesritual bis ins hohe Alter kaum veränderte."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Nach einer Erkrankung oder einem Trauma folgt bei dieser Gruppe auffällig oft ein radikaler Rückzug aus der Öffentlichkeit oder dem sozialen Umfeld.",
+    beispiele: ["Friedrich Schiller", "Otto von Bismarck", "Ludwig van Beethoven", "Charles Manson", "Byron Katie", "Michael Schumacher"],
+    fingerabdruecke: [
+      {
+        titel: "Radikaler Rückzug nach Krankheit oder Trauma statt langsamer Anpassung",
+        beschreibung: "Bei der sexuellen Sechs zeigt sich mehrfach ein abrupter, fast vollständiger Rückzug aus dem gewohnten sozialen oder öffentlichen Leben, nachdem eine schwere Erkrankung oder ein Trauma eintrat – nicht das langsame Sich-Einrichten, sondern der klare Bruch.",
+        beleg: "Michael Schumacher, der nach seinem schweren Skiunfall 2013 vollständig medial abgeschottet wurde; Byron Katie, deren zehn Jahre andauernde schwere Depression und Agoraphobie 1986 abrupt in einen radikalen Wendepunkt mündete; Ludwig van Beethovens fortschreitende Taubheit, die ihn zunehmend aus dem geselligen Musikleben seiner Zeit heraustrieb."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Weitermachen trotz schwerer Diagnose – bei dieser Gruppe endet die eigentliche Aktivität oft erst mit dem Tod selbst, nicht schon mit der Diagnose.",
+    beispiele: ["Larry King", "Francis Bacon", "Junko Tabei", "Mariah Carey"],
+    fingerabdruecke: [
+      {
+        titel: "Aktivität bis zum buchstäblich letzten Moment, ungeachtet der Diagnose",
+        beschreibung: "Die selbsterhaltende Sieben zeigt in mehreren Fällen die Tendenz, die eigene gewohnte Tätigkeit bis zum Lebensende fortzusetzen, statt sich der Krankheit unterzuordnen.",
+        beleg: "Junko Tabei, die trotz Bauchfellkrebs weiterhin Berge bestieg, praktisch bis zu ihrem Tod; Larry King, der über Jahrzehnte eine ganze Kette von Herzerkrankungen, Krebs und einem Schlaganfall überstand und immer wieder ins Studio zurückkehrte, bevor er letztlich an COVID-19-Sepsis starb."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Biber",
+    kernthema: "Warnsignale werden konsequent überspielt – bei dieser Gruppe wird die eigentliche Erkrankung immer wieder ignoriert oder fehlgedeutet, solange noch weitergearbeitet werden kann.",
+    beispiele: ["Molière", "George Gershwin", "Nikola Tesla", "Jules Verne", "Drew Barrymore", "Elon Musk"],
+    fingerabdruecke: [
+      {
+        titel: "Flucht nach vorn statt Innehalten bei den ersten Warnzeichen",
+        beschreibung: "Die soziale Sieben zeigt in mehreren Fällen ein Muster, bei dem frühe gesundheitliche Warnsignale zugunsten weiterer Aktivität und neuer Projekte konsequent überspielt werden, bis ein abrupter Zusammenbruch die Fortsetzung erzwingt.",
+        beleg: "George Gershwin, der trotz monatelanger Kopfschmerzen und Geruchshalluzinationen bis zum Kollaps an neuen Filmmusik-Projekten weiterarbeitete; Molière, der noch während einer Aufführung mit seiner chronischen Lungenerkrankung auf der Bühne stand; Nikola Tesla, dessen fortschreitende Zwangsstörung über Jahrzehnte hinweg nie behandelt, sondern in immer neue Erfindungsprojekte kanalisiert wurde."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Schimpanse",
+    kernthema: "Intensive Aktivität und Leidenschaft setzen sich auch unter fortschreitender Krankheit fast ungebremst fort – der Rückzug kommt hier spät, wenn überhaupt.",
+    beispiele: ["Robert Schumann", "Leonard Bernstein", "Franz Liszt", "Morgan Freeman", "Frans de Waal"],
+    fingerabdruecke: [
+      {
+        titel: "Fortgesetzte Intensität trotz fortschreitender körperlicher Einschränkung",
+        beschreibung: "Bei der sexuellen Sieben hält die schöpferische oder berufliche Intensität auch unter zunehmender körperlicher Belastung ungewöhnlich lange an – die Erkrankung wird eher in die bestehende Leidenschaft integriert als dass sie zum Rückzug führt.",
+        beleg: "Frans de Waal, der trotz Magenkrebs bis wenige Monate vor seinem Tod weiterarbeitete; Morgan Freeman, der trotz seit 2008 bestehender Fibromyalgie mit chronischen Nervenschmerzen im linken Arm weiter Filme drehte; Franz Liszt, der trotz Herzschwäche, Wassersucht und fortschreitender Erblindung bis zuletzt konzertierte."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orang-Utan",
+    kernthema: "Eine der konsequentesten Geheimhaltungen der eigenen Krankheit im gesamten Kompass – Schwäche wird bei dieser Gruppe fast nie öffentlich zugelassen.",
+    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Radikale, oft jahrelange Geheimhaltung jeder erkennbaren Schwäche",
+        beschreibung: "Die selbsterhaltende Acht zeigt bei fast allen bisherigen Fällen eine außergewöhnlich konsequente Geheimhaltung der eigenen Erkrankung – Kontrolle über die eigene Verletzlichkeit wird nicht aus der Hand gegeben.",
+        beleg: "Golda Meir, die ihre Lymphdrüsenkrebs-Erkrankung siebzehn Jahre lang geheim hielt; Winston Churchill, der einen Schlaganfall im Amt vor der Öffentlichkeit verbarg, neben einer lebenslangen, ebenfalls verheimlichten Depression (›the black dog‹); Umberto Eco, der seine Bauchspeicheldrüsenkrebs-Erkrankung rund zwei Jahre nahezu vollständig privat hielt."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Löwe",
+    kernthema: "Kleine bis mittlere Fallzahl bislang – erkennbar ist eine auffällige Häufung chronischer, körperlich belastender Leiden, die trotzdem selten zum öffentlichen Rückzug führen.",
+    beispiele: ["Karl Marx", "John Gotti", "Helmut Kohl", "Fritz Perls"],
+    fingerabdruecke: [
+      {
+        titel: "Chronische körperliche Leiden, die selten zum Rückzug aus der Verantwortung führen",
+        beschreibung: "Bei der sozialen Acht treten mehrfach langwierige, körperlich belastende chronische Beschwerden auf, die jedoch selten dazu führen, dass die jeweilige Führungsrolle oder öffentliche Funktion vorzeitig aufgegeben wird.",
+        beleg: "Karl Marx, der über Jahre chronische, schwere Furunkel und Karbunkel neben Bronchitis, Leberbeschwerden und Rheuma ertrug, ohne seine Arbeit am ›Kapital‹ aufzugeben; Fritz Perls mit jahrelangem Herzleiden und Kettenrauchen bis zur Bauchspeicheldrüsenkrebs-Diagnose."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Krokodil",
+    kernthema: "Weiterkämpfen ohne öffentlich sichtbaren Machtverlust – bei dieser Gruppe wird die eigene Position trotz schwerer, teils mehrfacher Erkrankung bemerkenswert lange gehalten.",
+    beispiele: ["Ruth Bader Ginsburg", "Giacomo Puccini", "John Wayne", "Genesis P-Orridge"],
+    fingerabdruecke: [
+      {
+        titel: "Amt oder Position werden trotz schwerer, wiederholter Erkrankung nicht aufgegeben",
+        beschreibung: "Die sexuelle Acht zeigt bei mehreren Fällen eine bemerkenswerte Weigerung, die eigene Position wegen einer Krankheit – selbst bei mehrfachem Wiederauftreten – vorzeitig zu räumen.",
+        beleg: "Ruth Bader Ginsburg, die über zwei Jahrzehnte hinweg vier Krebserkrankungen an drei unterschiedlichen Organen durchlebte und dabei durchgehend als Richterin am US-Supreme-Court im Amt blieb; John Wayne, der 1964 Lungenkrebs und 1979 schließlich tödlichen Magenkrebs erlitt, zwischen beiden Diagnosen aber weiter Filme drehte."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elefant",
+    kernthema: "Langsam fortschreitende, über Jahre kaum thematisierte chronische Leiden – bei dieser Gruppe bleibt die Erkrankung oft lange im Hintergrund des äußeren Lebens.",
+    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher"],
+    fingerabdruecke: [
+      {
+        titel: "Langsam fortschreitende Leiden, die lange kaum öffentlich thematisiert werden",
+        beschreibung: "Bei der selbsterhaltenden Neun verläuft die Erkrankung häufig sehr langsam über Jahre und bleibt dabei erstaunlich lange im Hintergrund des öffentlichen Lebens, bevor sie unübersehbar wird.",
+        beleg: "James Levine, dessen Parkinson-Erkrankung sich über Jahrzehnte hinweg fortschreitend entwickelte, begleitet von schweren Rückenverletzungen; David Hume mit einer chronischen Darmerkrankung, die stetig über gut vier Jahre fortschritt, ohne dass eine eindeutige Diagnose je gestellt wurde; Johannes Brahms, der an derselben Leberkrebserkrankung starb wie zuvor bereits sein Vater."
+      }
+    ]
+  },
+  SO9: {
+    tier: "Büffel",
+    kernthema: "Ein auffälliger Schwerpunkt auf Erkrankungen, die das eigene Gedächtnis und die eigene Identität betreffen – ein bemerkenswertes Echo des Neuner-Grundthemas der Selbstvergessenheit.",
+    beispiele: ["Wilma Mankiller", "Ronald Reagan", "Peter Falk", "Julian Assange", "Willy Brandt"],
+    fingerabdruecke: [
+      {
+        titel: "Erkrankungen, die Gedächtnis und Identität selbst betreffen",
+        beschreibung: "Bei der sozialen Neun fällt eine bemerkenswerte Häufung von Erkrankungen auf, die direkt Gedächtnis oder Identität angreifen – ein auffälliges Echo des Grundthemas dieses Subtyps, der eigenen Neigung, sich selbst zugunsten der Gemeinschaft zurückzustellen.",
+        beleg: "Ronald Reagan und Peter Falk, die beide an Alzheimer erkrankten – bei Falk begleitet von einem öffentlichen Sorgerechtsstreit um seine Pflege; Julian Assange, bei dem über sieben Jahre Isolation dokumentierte körperliche und psychische Folgen nach sich zogen; Willy Brandt mit wiederkehrenden schweren depressiven Episoden."
+      }
+    ]
+  },
+  SX9: {
+    tier: "Faultier",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zu chronischen, nie eindeutig diagnostizierten Leiden, oft begleitet von einem betäubenden Umgang mit dem eigenen Schmerz.",
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser"],
+    fingerabdruecke: [
+      {
+        titel: "Chronisches, nie eindeutig diagnostiziertes Leiden mit betäubendem Umgang",
+        beschreibung: "Mit bislang zwei Fällen ist noch kein belastbares Muster erkennbar, doch beide zeigen einen langjährigen, nie ganz aufgeklärten chronischen Verlauf.",
+        beleg: "Elizabeth Barrett Browning mit einer jahrzehntelangen, nie eindeutig diagnostizierten chronischen Krankheit und einer begleitenden lebenslangen Opiumabhängigkeit; Friedensreich Hundertwasser mit einem chronischen Herzleiden, das schließlich an Bord der Queen Elizabeth 2 zum tödlichen Herzversagen führte."
+      }
+    ]
+  }
+};
+
 function lebensmusterkompassPage() {
   const subtypes = [
     { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
@@ -45726,6 +46066,7 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"krankheitsmusterkompass", label:"Krankheitsmusterkompass (Muster in den Krankheitsporträts)"},
           {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
@@ -45879,6 +46220,135 @@ function lebensmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass", label:"Zurück zum Lebensmusterkompass"},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
+    { code: "SE2", tier: "Flusspferd" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Kamel" },
+    { code: "SE3", tier: "Waschbär" }, { code: "SO3", tier: "Gepard" }, { code: "SX3", tier: "Pfau" },
+    { code: "SE4", tier: "Taube" }, { code: "SO4", tier: "Gürteltier" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Eule" }, { code: "SO5", tier: "Oktopus" }, { code: "SX5", tier: "Igel" },
+    { code: "SE6", tier: "Kaninchen" }, { code: "SO6", tier: "Erdmännchen" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Biber" }, { code: "SX7", tier: "Schimpanse" },
+    { code: "SE8", tier: "Orang-Utan" }, { code: "SO8", tier: "Löwe" }, { code: "SX8", tier: "Krokodil" },
+    { code: "SE9", tier: "Elefant" }, { code: "SO9", tier: "Büffel" }, { code: "SX9", tier: "Faultier" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!KRANKHEITSMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="krankheitsmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Krankheitsmusterkompass</p>
+        <h1 class="section-title">Krankheitsmusterkompass</h1>
+        <p class="psycho-intro">Wiederkehrende Muster im Krankheitsverlauf der 27 Subtypen &ndash; herausgearbeitet aus der internen Analyse sämtlicher Krankheitsporträts dieses Kompasses.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Der wichtigste Satz zuerst:</strong> Jeder Mensch kann jede Krankheit bekommen &ndash; unabhängig von seinem Enneagramm-Subtyp. Diese Rubrik ist keine Vorhersage und keine Checkliste dessen, woran man als bestimmter Typ angeblich erkranken wird. Sie hält lediglich fest, welche Krankheitsbilder in den bisherigen Krankheitsporträts dieses Kompasses bei welchem Subtyp gehäuft dokumentiert sind &ndash; eine statistische Beobachtung innerhalb einer noch kleinen, nicht repräsentativen Stichprobe von gut hundert Fällen, keine medizinische oder wissenschaftliche Aussage.</p>
+          <p class="vb-intro">Warum gibt es solche Häufungen trotzdem? Weil bestimmte psychische Muster &ndash; etwa die Neigung, Warnsignale des eigenen Körpers zu überspielen, oder die Tendenz, Erkrankungen konsequent zu verbergen &ndash; sich naturgemäß eher in manchen Krankheitsverläufen als in anderen niederschlagen. Das ist ein Unterschied zur individuellen Erkrankung: Ob ein einzelner Mensch eine bestimmte, insbesondere eine schwere Krankheit tatsächlich bekommt, hängt von sehr vielen Faktoren ab und bleibt in aller Regel unwahrscheinlich &ndash; die hier dokumentierten Fälle sind auffällige, aber statistisch seltene Einzelfälle aus jeweils einer Handvoll bis wenigen Dutzend porträtierten Personen pro Subtyp, nicht der zu erwartende Normalfall.</p>
+          <p class="vb-intro"><strong>Eine Entwarnung, die wichtig ist:</strong> Die in dieser Rubrik erkennbaren Muster (etwa das Überspielen von Warnsignalen oder das Verschweigen einer Erkrankung) setzen in aller Regel voraus, dass ein Mensch sich seines eigenen Grundmusters nicht bewusst ist und es dadurch ungebremst auslebt &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster (siehe dazu auch den Punkt &bdquo;Die unbewusste Fixierung als eigener Faktor&ldquo;, der in jedem Krankheitsporträt dieses Kompasses behandelt wird). Wer sich mit dem Enneagramm und dem eigenen Subtyp bereits auseinandersetzt, hat diesen blinden Fleck in aller Regel längst zu einem großen Teil aufgelöst &ndash; und genau das ist der eigentliche Sinn dieser Rubrik: nicht Sorge zu erzeugen, sondern zu zeigen, wo achtsamere Selbstwahrnehmung lohnt.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Auch dieser Kompass ist, wie der Lebensmusterkompass, kein außenstehend verifizierter, wissenschaftlicher Beweis, sondern eine fortlaufend wachsende interne Beobachtungssammlung aus der eigenen Porträtarbeit &ndash; mit demselben methodischen Zirkularitätsrisiko. Alle 27 Subtypen sind angelegt; bei Subtypen mit bislang nur ein oder zwei dokumentierten Krankheitsporträts wird das explizit als vorläufig gekennzeichnet, statt ein Muster zu erzwingen, wo die Datenlage dafür schlicht zu dünn ist. Die Rubrik wird bei jedem neuen Krankheitsporträt aktualisiert.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+          {route:"psychosomatik", label:"Psychosomatik-Register"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = KRANKHEITSMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Noch nicht verfügbar</h1>
+          <p class="psycho-intro">Der Krankheitsmusterkompass für ${code} ist noch in Arbeit.</p>
+          ${relatedLinks([{route:"krankheitsmusterkompass", label:"Zurück zum Krankheitsmusterkompass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = krankheitsmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Muster ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Belege aus den Krankheitsporträts</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Krankheitsmusterkompass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Krankheitsmuster</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:-0.6rem 0 1.4rem;">Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp – diese Seite zeigt statistische Häufungen innerhalb einer kleinen, nicht repräsentativen Stichprobe, keine Vorhersage. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsmusterkompass" style="color:${col};">Krankheitsmusterkompass-Überblick</a>.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Herangezogene Krankheitsporträts (automatisch aus allen ${code}-Einträgen zusammengestellt &ndash; ergänzt sich bei jedem neuen Krankheitsporträt von selbst):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"krankheitsmusterkompass", label:"Zurück zum Krankheitsmusterkompass"},
+          {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Lebensmusterkompass: ${code} – ${data.tier}`},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
+          {route:"psychosomatik", label:"Psychosomatik-Register"},
         ])}
       </div>
     </div>
@@ -77150,7 +77620,7 @@ function krankheitsportraetsPage() {
     <div class="page-container">
       ${pageHeader("krankheitsportraets")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Krankheitsportr\xe4ts</h1>
-      <p class="psycho-intro">Biografien historischer Pers\xf6nlichkeiten, bei denen eine dokumentierte Krankheit \xfcber Jahre oder Jahrzehnte hinweg als roter Faden im Leben sichtbar wird – verkn\xfcpft mit dem Enneagramm-Subtyp der Person. Im ganzheitlichen Sinn gelesen, ist Krankheit oft nicht nur Schicksal, sondern auch ein Korrektiv: ein Wegweiser, der sich ank\xfcndigt, lange bevor er unumg\xe4nglich wird. <strong>Bewusst ausschlie\xdflich verstorbene, historisch gut dokumentierte F\xe4lle</strong> – aus Respekt vor Personen mit einer aktuellen, noch ungewissen Diagnose. Diese Seite ersetzt keine medizinische oder historische Diagnose, sondern bietet eine psychologisch-biografische Deutungsebene, in der jede Krankheit als individuelles Zusammenspiel vieler Faktoren verstanden wird – nie als zwingende Folge eines Typs.</p>
+      <p class="psycho-intro">Biografien historischer Pers\xf6nlichkeiten, bei denen eine dokumentierte Krankheit \xfcber Jahre oder Jahrzehnte hinweg als roter Faden im Leben sichtbar wird – verkn\xfcpft mit dem Enneagramm-Subtyp der Person. Im ganzheitlichen Sinn gelesen, ist Krankheit oft nicht nur Schicksal, sondern auch ein Korrektiv: ein Wegweiser, der sich ank\xfcndigt, lange bevor er unumg\xe4nglich wird. <strong>Bewusst ausschlie\xdflich verstorbene, historisch gut dokumentierte F\xe4lle</strong> – aus Respekt vor Personen mit einer aktuellen, noch ungewissen Diagnose. Diese Seite ersetzt keine medizinische oder historische Diagnose, sondern bietet eine psychologisch-biografische Deutungsebene, in der jede Krankheit als individuelles Zusammenspiel vieler Faktoren verstanden wird – nie als zwingende Folge eines Typs. Wiederkehrende Muster über alle Porträts eines Subtyps hinweg sammelt der <a href="javascript:void(0)" data-route="krankheitsmusterkompass">Krankheitsmusterkompass</a>.</p>
       ${filterBar}
       ${registerBox}
       <div id="kh-list" style="max-width:640px;margin-top:1rem;">
@@ -140544,6 +141014,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "krankheitsmusterkompass": krankheitsmusterkompassPage,
     "musterradar": musterradarPage,
     "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
@@ -141445,6 +141916,8 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "krankheitsmusterkompass" && param) {
+      app.innerHTML = krankheitsmusterkompassDetailPage(param);
     } else if (base === "musterradar" && param) {
       app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {

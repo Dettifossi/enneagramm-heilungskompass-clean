@@ -1,3 +1,332 @@
+function matthiasSchweighoeferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-matthias-schweighoefer-portrait.jpg" alt="Matthias Schweigh\u00f6fer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Matthias Schweigh\u00f6fer</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Regisseur, geb. 1981 &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; und es ist ein Tier, das tr\u00e4gt. Nicht weil es muss. Sondern weil Tragen seine Art ist, Verbindung herzustellen. Das Kamel \u00fcberquert W\u00fcsten, gibt seine Energie in den Dienst des Weges, und verlangt dabei wenig zur\u00fcck. Aber es ist kein Lasttier ohne Eigenleben. Das Kamel hat W\u00fcrde. Es hat W\u00e4rme. Und wer je einem Kamel begegnet ist, wei\u00df: Es schaut einen an &ndash; direkt, neugierig, ohne Scheu.</p>
+          <p class="vb-intro">Matthias Schweigh\u00f6fer tr\u00e4gt. Er tr\u00e4gt Projekte, Ensemble, Publikum. Als Schauspieler bringt er eine unmittelbare W\u00e4rme in jede Rolle, die er spielt &ndash; ob komisch, dramatisch oder verletzlich. Als Regisseur nimmt er seine Crew mit, als w\u00e4re jedes Set eine Gemeinschaft, die er zusammenh\u00e4lt. Das Kamel zieht nicht einfach durch die W\u00fcste. Es sorgt daf\u00fcr, dass alle ankommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Anziehung als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> ist in der Enneagramm-Tradition der Subtyp, der die Energie der Zwei direkt in den Raum zwischen zwei Menschen lenkt. Nicht in die gro\u00dfe Gruppe wie die soziale Zwei, nicht in die eigene Existenzsicherung wie die selbsterhaltende Zwei &ndash; sondern in die direkte, pers\u00f6nliche, manchmal elektrisierende Verbindung. Naranjo nannte diesen Subtyp <em>Aggressivit\u00e4t</em> &ndash; nicht im aggressiven Sinn, sondern als aktives, vorw\u00e4rtsdr\u00e4ngendes Zugehen auf den anderen. Die SX2 wartet nicht. Sie geht auf dich zu.</p>
+          <p class="vb-intro">Bei Matthias Schweigh\u00f6fer zeigt sich das in einer seltenen Qualit\u00e4t: Er macht aus Begegnung ein Erlebnis. Ob in Interviews, auf der B\u00fchne oder im Film &ndash; er schafft sofort N\u00e4he. Nicht durch Strategie, sondern durch echtes Interesse. Die SX2 ist fasziniert vom Gegen\u00fcber. Sie will wissen, wer du bist. Sie will, dass du wei\u00dft, wer sie ist. Aus dieser gegenseitigen Neugier entsteht eine W\u00e4rme, die ansteckt.</p>
+          <p class="vb-intro">Sein k\u00fcnstlerisches Werk tr\u00e4gt dieselbe Energie. Vom romantischen Kom\u00f6dienformat bis zur internationalen Netflix-Produktion <em>Army of Thieves</em> &ndash; Schweigh\u00f6fer erz\u00e4hlt immer von Verbindung. Von zwei Menschen, die sich finden. Von dem, was zwischen ihnen entsteht. Das ist kein Nebenmotiv. Das ist die SX2, die ihre innerste Frage in Kunst verwandelt: <em>Kann ich wirklich gesehen werden? Kann ich wirklich lieben?</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Haltung hinter der Herzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> bringt der sexuellen Zwei eine wichtige innere Achse: das Bewusstsein f\u00fcr Qualit\u00e4t, f\u00fcr das Richtige, f\u00fcr Verantwortung. Eine SX2 mit schwach ausgeprägtem Einserflügel könnte sich in der Intensität des Kontakts verlieren – immer auf der Suche nach dem nächsten Verbindungsmoment, ohne einen stabilen inneren Kompass. Ein stark ausgeprägter Einserflügel gibt ihr Substanz. Er sagt: <em>Es reicht nicht, geliebt zu werden. Es kommt auch darauf an, wie.</em></p>
+          <p class="vb-intro">Bei Matthias Schweigh\u00f6fer zeigt sich der Einserfl\u00fcgel in seinem Anspruch an sich selbst. Er ist nicht nur Darsteller, er ist Regisseur, Produzent, Unternehmer &ndash; und nimmt diese Rollen ernst. Die Qualit\u00e4t seiner Arbeit liegt ihm am Herzen, nicht nur das Ergebnis. Er hat sich mehrfach \u00f6ffentlich \u00fcber Ersch\u00f6pfung und die Grenzen seiner Belastbarkeit ge\u00e4u\u00dfert &ndash; auch das ist Einser-Energie: die Pflicht, gut zu machen, was man tut, auch wenn es kostet.</p>
+          <p class="vb-intro">Der Einserfl\u00fcgel macht aus der SX2 jemanden, der nicht nur verbindet, sondern auch Verantwortung \u00fcbernimmt. Schweigh\u00f6fer ist in der deutschen Filmlandschaft ein Mensch, dem viele vertrauen &ndash; Kollegen, Crew, Publikum. Dieses Vertrauen kommt nicht von ungef\u00e4hr. Es ist der Einserfl\u00fcgel, der daf\u00fcr sorgt, dass auf die Herzlichkeit auch Verl\u00e4sslichkeit folgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2 ist ihre Unmittelbarkeit. Matthias Schweigh\u00f6fer erreicht Menschen direkt &ndash; ohne Umwege, ohne Distanz. Er hat eine F\u00e4higkeit, Filme zu machen, die nicht \u00fcber dem Publikum stehen, sondern mit ihm sprechen. Das ist ein seltenes Geschenk, und es kommt aus dem Kern der sexuellen Zwei: der echten Sehnsucht nach Kontakt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe \u00dcberzeugung, geliebt werden zu m\u00fcssen, und die Schwierigkeit, eigene Bed\u00fcrfnisse zu benennen, solange man gibt. Bei der SX2 \u00e4u\u00dfert sich das besonders intensiv: Die Verbindung zum anderen kann so wichtig werden, dass die eigene Mitte dar\u00fcber verloren geht. Wer f\u00fcr andere da ist, muss irgendwann fragen, wer f\u00fcr ihn da ist.</p>
+          <p class="vb-intro">Schweigh\u00f6fer hat in Interviews \u00fcber Phasen gesprochen, in denen er sich \u00fcberdehnt hat &ndash; zu viel gegeben, zu wenig empfangen. Das ist die Kehrseite des Kamels: Es tr\u00e4gt so lange, bis es nicht mehr kann. Und dann braucht es selbst Wasser.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Geben zum Empfangen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei f\u00fchrt von der Frage <em>Werde ich geliebt?</em> zur Erkenntnis <em>Ich bin liebenswert &ndash; auch ohne zu geben.</em> F\u00fcr die SX2 bedeutet das einen besonders pers\u00f6nlichen Schritt: zuzulassen, dass der andere auch tr\u00e4gt. Sich nicht nur zu verbinden, sondern sich auch zu empfangen. Das Kamel darf auch trinken.</p>
+          <p class="vb-intro">Matthias Schweigh\u00f6fer ist auf diesem Weg &ndash; und die Offenheit, mit der er dar\u00fcber spricht, was ihn kostet und was ihm gibt, ist selbst ein Zeichen davon. Die SX2, die gelernt hat, auch um Hilfe zu bitten, verliert nichts von ihrer W\u00e4rme. Sie gewinnt etwas: das Wissen, dass Verbindung in beide Richtungen flie\u00dfen darf.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-nina-chuba", label:"Portr\u00e4t: Nina Chuba (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function milowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-milow-portrait.jpg" alt="Milow" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Milow</p>
+        <p class="krim-portrait-typ">SX2w1 &middot; Sexueller Typ 2 mit Einserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">S\u00e4nger &amp; Songwriter, geb. 1982 &ndash; Ayo Technology, Little in the Middle &ndash; Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei &ndash; ein Tier, das tr\u00e4gt, ohne sich aufzudr\u00e4ngen. Es \u00fcberquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Kein lautes Tier. Ein Tier, das N\u00e4he herstellt, indem es einfach mitgeht &ndash; Schritt f\u00fcr Schritt, verl\u00e4sslich, mit einem Blick, der direkt und warm zugleich ist.</p>
+          <p class="vb-intro">Milow, geboren 1982 als Jonathan Vandenbroeck in Belgien, wurde 2007 mit einer leisen Akustik-Coverversion von Ayo Technology weltbekannt &ndash; ein Song, dessen Original laut und aggressiv war, den er in eine zerbrechliche, intime Ballade verwandelte. Das ist die Geste des Kamels: Es nimmt etwas Hartes und tr\u00e4gt es sanft weiter, bis es ankommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Verbindung als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die gro\u00dfe Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei &ndash; sondern auf den direkten, pers\u00f6nlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivit\u00e4t/Verf\u00fchrung</em> &ndash; nicht im gew\u00f6hnlichen Sinn, sondern als aktives, vorw\u00e4rtsdr\u00e4ngendes Zugehen auf den anderen. Die SX2 wartet nicht, bis Verbindung entsteht. Sie sucht sie.</p>
+          <p class="vb-intro">Bei Milow zeigt sich das in der Unmittelbarkeit seiner Musik: leise, akustische Songs, die direkt ins Private gehen, ohne Umweg \u00fcber gro\u00dfe Gesten. Seine Texte handeln fast immer von zwischenmenschlicher N\u00e4he &ndash; von Sehnsucht, von Zerbrechlichkeit, von dem Moment, in dem zwei Menschen sich wirklich sehen. Das ist keine Kalkulation f\u00fcr den Markt. Das ist die SX2, die ihre innerste Frage in Klang \u00fcbersetzt: <em>Kann ich wirklich ber\u00fchren? Kann ich wirklich ber\u00fchrt werden?</em></p>
+          <p class="vb-intro">Auch seine B\u00fchnenpr\u00e4senz tr\u00e4gt diese Energie: Milow spielt kleine, intime Konzerte ebenso gern wie gro\u00dfe B\u00fchnen, aber immer mit demselben Ziel &ndash; das Publikum soll sich nicht wie eine Masse f\u00fchlen, sondern wie ein Gegen\u00fcber. Das Kamel geht nicht an der Karawane vorbei. Es bleibt in Kontakt mit jedem einzelnen Schritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\u00fcgel: Sorgfalt als Ausdruck der Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\u00fcgel (w1)</strong> gibt der sexuellen Zwei eine innere Achse, die bei schwach ausgepr\u00e4gtem Einserfl\u00fcgel nicht von selbst da ist: das Bewusstsein f\u00fcr Qualit\u00e4t, f\u00fcr das Richtige, f\u00fcr die Verantwortung gegen\u00fcber dem, was man tut. Eine SX2 mit schw\u00e4cherem Einserfl\u00fcgel k\u00f6nnte sich in der Intensit\u00e4t der Verbindung verlieren. Der Einserfl\u00fcgel sagt: <em>Es reicht nicht, N\u00e4he zu wollen. Es kommt darauf an, wie sorgf\u00e4ltig man mit ihr umgeht.</em></p>
+          <p class="vb-intro">Bei Milow zeigt sich dieser Fl\u00fcgel in seiner musikalischen Pr\u00e4zision: die reduzierten, sorgf\u00e4ltig arrangierten Produktionen, das jahrelange Feilen an Songs, bevor sie ver\u00f6ffentlicht werden, der Anspruch, jede Zeile eines Textes ehrlich zu meinen und nicht blo\u00df gef\u00e4llig klingen zu lassen. Er hat wiederholt betont, dass ihm die Echtheit eines Songs wichtiger ist als sein Erfolgspotenzial &ndash; eine typische Einser-Haltung innerhalb der SX2: lieber wahrhaftig als bequem.</p>
+          <p class="vb-intro">Auch sein zur\u00fcckhaltender, undramatischer Umgang mit Ruhm geh\u00f6rt hierher. Trotz internationalem Erfolg blieb Milow bodenst\u00e4ndig, fast introvertiert im Auftreten &ndash; kein Popstar-Gehabe, sondern die stille Disziplin eines Musikers, der seiner Arbeit treu bleiben will, unabh\u00e4ngig vom Rummel um sie herum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w1 ist ihre F\u00e4higkeit, echte, unverstellte N\u00e4he herzustellen &ndash; in der Musik wie im pers\u00f6nlichen Kontakt. Milows gr\u00f6\u00dfte Songs funktionieren nicht durch Effekt, sondern durch Verletzlichkeit: eine Stimme, eine Gitarre, ein Gef\u00fchl, das ehrlich bleibt. Das ist selten in einer Branche, die oft auf Lautst\u00e4rke setzt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe \u00dcberzeugung, gebraucht und geliebt werden zu m\u00fcssen, verbunden mit der Schwierigkeit, die eigenen Bed\u00fcrfnisse offen zu benennen. Bei der SX2w1 zeigt sich das als die stille Sorge, nicht genug zu geben, gepaart mit dem Anspruch, es perfekt zu machen. Das kann zu einem hohen inneren Druck f\u00fchren: Wer immer feilt, findet selten den Punkt, an dem etwas fertig sein darf.</p>
+          <p class="vb-intro">Milow hat in Interviews \u00fcber die langen Schaffenspausen zwischen seinen Alben gesprochen &ndash; Phasen des Zweifelns, des Verwerfens, des Neuanfangens. Das Kamel tr\u00e4gt geduldig, aber es tr\u00e4gt auch die eigene Unsicherheit mit sich, bis es sicher ist, dass die Last, die es weitergibt, es wert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Coversong zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der internationale Durchbruch mit einer Coverversion h\u00e4tte f\u00fcr viele Musiker eine Falle sein k\u00f6nnen &ndash; auf ewig mit einem fremden Song identifiziert zu werden. Milow begegnete dem nicht mit Widerstand, sondern mit Geduld: Album f\u00fcr Album baute er eine eigene, unverwechselbare Klangwelt auf, ohne den intimen Grundton zu verlassen, der ihn zuerst ber\u00fchmt gemacht hatte.</p>
+          <p class="vb-intro">Diese Best\u00e4ndigkeit ist typische SX2w1-Energie: keine st\u00e4ndige Neuerfindung um der Aufmerksamkeit willen, sondern die Vertiefung einer einmal gefundenen, ehrlichen Verbindung &ndash; zur eigenen Musik und zum Publikum, das ihm \u00fcber die Jahre treu geblieben ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: N\u00e4he ohne L\u00e4rm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Milow der Musik gegeben hat, ist eine leise, aber best\u00e4ndige Gegenrede zur lauten Selbstinszenierung des Pop-Betriebs: N\u00e4he entsteht nicht durch Reichweite, sondern durch Ehrlichkeit. Ein Song muss nicht schreien, um geh\u00f6rt zu werden &ndash; er muss nur wahr sein.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die schnellste, sondern die verl\u00e4sslichste Verbindung sucht. Es tr\u00e4gt seine Last mit Sorgfalt, Schritt f\u00fcr Schritt, und kommt genau dort an, wo es gebraucht wird &ndash; im direkten, ungesch\u00f6nten Kontakt zwischen zwei Menschen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 \u2013 Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function cluesoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-clueso-portrait.jpg" alt="Clueso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clueso</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Songwriter &amp; Maler, geb. 1980 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das trägt, ohne sich aufzudrängen. Es überquert weite Strecken, still, ausdauernd, in stetigem Kontakt mit dem, was es begleitet. Thomas Hübner, besser bekannt als Clueso, wurde 1980 in Erfurt geboren und entdeckte, inspiriert vom Kultfilm ›Beat Street‹, der Ende der 1980er auch in DDR-Kinos lief, früh seine Leidenschaft für HipHop.</p>
+          <p class="vb-intro">Ab 1995 sang er in verschiedenen Erfurter Musikprojekten und verfeinerte sein Können gemeinsam mit DJ Malik und Steer M bei Jam-Sessions im Jenaer Club Kassablanca – eine enge, über Jahre gewachsene Freundschaft, aus der sich sein musikalischer Stil erst richtig entwickelte. Das ist die Geste des Kamels: Es geht nicht allein voran, sondern im engen, verlässlichen Kontakt mit denen, die den Weg mit ihm teilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Nähe als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe wie die soziale Zwei, nicht auf die eigene Existenzsicherung wie die selbsterhaltende Zwei – sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen, statt abzuwarten, bis Verbindung von selbst entsteht.</p>
+          <p class="vb-intro">Bei Clueso zeigt sich das in seinem Ruf als ›Poet der deutschen Musiklandschaft‹: Seine Liebeslieder gehen unmittelbar ins Private, ohne den Umweg über große Gesten. Statt in einem professionellen Studio nahm er seinen Song ›Tanzen‹ in einem selbst gebauten Mini-Studio in der eigenen Speisekammer auf – aus Gründen des Schallschutzes, aber auch, weil ihm die unmittelbare, private Nähe zu seiner Musik wichtiger war als professionelle Distanz. Die SX2, die ihre innerste Frage in Klang übersetzt: <em>Kann ich wirklich berühren? Kann ich wirklich berührt werden?</em></p>
+          <p class="vb-intro">Dieselbe Fähigkeit zur unmittelbaren Verbindung zeigte sich 2011, als <a href="#beruehmte-udo-lindenberg">Udo Lindenberg (SX1w9)</a> ihn zu einer gemeinsamen Version seines Klassikers ›Cello‹ einlud, den Clueso seit seiner Kindheit aus der Plattensammlung seiner Eltern kannte. Das Duett erschien auf Lindenbergs Live-Album ›MTV Unplugged – Live aus dem Hotel Atlantic‹ und wurde zu einem der größten Hits beider Karrieren – zwei Generationen deutscher Popmusik, verbunden über ein einziges, persönlich bedeutsames Lied.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ehrlichkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Zwei eine innere Achse, die bei schwach ausgeprägtem Einserflügel nicht von selbst da ist: das Bewusstsein für Qualität, für das Richtige, für die Verantwortung gegenüber dem, was man tut. Eine SX2 mit schwächerem Einserflügel könnte sich in der reinen Intensität der Verbindung verlieren. Der Einserflügel sagt: <em>Es reicht nicht, Nähe zu wollen. Es kommt darauf an, wie sorgfältig man mit ihr umgeht.</em></p>
+          <p class="vb-intro">Bei Clueso zeigt sich dieser Flügel nicht nur in seinem musikalischen Handwerk, sondern auch in seiner zweiten künstlerischen Disziplin: der Malerei, die er über Jahre parallel zur Musik betreibt und mit derselben Ernsthaftigkeit verfolgt. Auch sein Künstlername – angelehnt an Inspektor Clouseau aus ›Der rosarote Panther‹ – trägt einen selbstironischen, aber genauen Blick auf die eigene Person. Der Anspruch, jede Zeile eines Textes ehrlich zu meinen statt bloß gefällig klingen zu lassen, ist die typische Einser-Haltung innerhalb der SX2: lieber wahrhaftig als bequem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch für die künstlerische Ehrlichkeit, 2016</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für sein siebtes Album ›Neuanfang‹ (2016) zog Clueso radikale Konsequenzen aus fünfzehn Jahren angesammelter Verpflichtungen: Er trennte sich von seiner Band, verließ das von ihm mitgegründete Künstlernetzwerk Zughafen und zog sogar aus seiner Wohngemeinschaft aus. Seine eigene Begründung: ›Ich musste erkennen, dass all die Verpflichtungen und Versprechen gegenüber meinem Umfeld meine künstlerische Freiheit einschränkten.‹</p>
+          <p class="vb-intro">Diese Entscheidung trägt die charakteristische SX2w1-Handschrift: kein leiser Rückzug, sondern ein klarer, prinzipiengeleiteter Schnitt, sobald erkannt war, dass die eigene Ehrlichkeit gegenüber der Kunst durch zu viele Bindungen kompromittiert wurde. Das Album selbst verhandelte offen die Zweifel, Ängste und Abhängigkeiten, die sich seit seinem ersten Album aufgebaut hatten – ein bewusst ungeschönter, teils zum HipHop-Ursprung zurückkehrender Sound als klanggewordene Konsequenz dieses Bruchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w1 ist ihre Fähigkeit, echte, unverstellte Nähe herzustellen – in der Musik wie im persönlichen Kontakt. Cluesos größte Songs funktionieren nicht durch Effekt, sondern durch Verletzlichkeit: eine Stimme, eine ehrliche Zeile, ein Gefühl, das nicht geglättet wird. Das machte ihn zu einer der prägenden Stimmen der deutschen Popmusik, ohne dass er sich dafür dem üblichen Glamour anpassen musste.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, gebraucht und geliebt werden zu müssen, verbunden mit der Schwierigkeit, die eigenen Bedürfnisse offen zu benennen. Bei der SX2w1 zeigt sich das als die stille Sorge, nicht genug zu geben, gepaart mit dem Anspruch, es perfekt zu machen. Cluesos eigene, öffentlich gemachte Offenheit über eine frühere offene Beziehung zeigt, wie sehr er auch unkonventionelle Formen von Nähe ehrlich und ohne Beschönigung ansprechen kann, statt sie zu verschweigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Nähe ohne Kompromiss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Clueso der deutschen Musiklandschaft gegeben hat, ist eine beständige Gegenrede zur oberflächlichen Selbstinszenierung des Pop-Betriebs: Nähe entsteht nicht durch Reichweite, sondern durch Ehrlichkeit – auch wenn das bedeutet, gewachsene Bindungen radikal zu kappen, sobald sie der eigenen künstlerischen Wahrhaftigkeit im Weg stehen.</p>
+          <p class="vb-intro">Das ist das Geschenk der SX2w1: ein Kamel, das nicht die bequemste, sondern die ehrlichste Verbindung sucht. Es trägt seine Last mit Sorgfalt, Schritt für Schritt, und ist bereit, den Weg neu zu wählen, sobald der alte nicht mehr zur eigenen Wahrheit passt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-milow", label:"Porträt: Milow (SX2w1)"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function bellaThornePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Bella Thorne – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bella Thorne</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1997 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde. Was den Gepard auszeichnet, ist nicht Gr\u00f6\u00dfe oder rohe Kraft, sondern die F\u00e4higkeit, sich in k\u00fcrzester Zeit auf volle Geschwindigkeit zu bringen. Kein Z\u00f6gern, kein Umweg, nur der direkte Sprung auf das Ziel. Der Gepard ist ein Tier des \u00f6ffentlichen Raums &ndash; er jagt nicht im Verborgenen, er jagt auf der Savanne, sichtbar f\u00fcr alle.</p>
+          <p class="vb-intro">Die US-amerikanische Schauspielerin Bella Thorne ist mit dreizehn Jahren als Kinderschauspielerin bei Disney bekannt geworden &ndash; und hat seitdem keine Pause gemacht. Schauspielerin, S\u00e4ngerin, Regisseurin, Autorin, Unternehmerin, Social-Media-Star mit Dutzenden Millionen Followern. Das Tempo ist Gepard-Tempo: immer in Bewegung, immer pr\u00e4sent, immer auf dem n\u00e4chsten Sprung. Stillstand ist f\u00fcr die soziale Drei keine Option &ndash; sie braucht den Lauf, um sich lebendig zu f\u00fchlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Sichtbarkeit als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> richtet ihre Energie auf das Feld der \u00f6ffentlichen Anerkennung: auf Status, Ansehen, die Frage, wie sie von anderen wahrgenommen wird. Claudio Naranjo nannte diesen Subtyp den Verst\u00e4rkungstyp &ndash; derjenige, bei dem die Dreier-Themen Eitelkeit und Leistungsdrang am deutlichsten hervortreten. Die SO3 braucht kein stilles Territorium. Sie braucht die B\u00fchne.</p>
+          <p class="vb-intro">Bei Bella Thorne zeigt sich das in einer Konsequenz, die beeindruckt und manchmal \u00fcberfordert: Sie ist \u00fcberall. Nicht passiv pr\u00e4sent, sondern aktiv gestaltend. Sie hat ihren OnlyFans-Account in den ersten 24 Stunden auf \u00fcber eine Million Dollar Umsatz gebracht &ndash; nicht trotz der \u00f6ffentlichen Aufmerksamkeit, sondern wegen ihr. Sie hat die Regeln des Spiels verstanden und nutzt sie. Die SO3 wei\u00df instinktiv: Sichtbarkeit ist Kapital. Wer gesehen wird, existiert.</p>
+          <p class="vb-intro">Charakteristisch f\u00fcr die SO3 ist auch der Mut zur Provokation als Strategie. Bella Thorne hat wiederholt Grenzen verschoben &ndash; in ihrer Darstellung von Sexualit\u00e4t, in ihrer \u00f6ffentlichen Auseinandersetzung mit Hollywood, in ihrer Bereitschaft, das Unbequeme zu sagen. Das ist nicht R\u00fccksichtslosigkeit. Das ist die SO3, die gelernt hat: Wer nicht auff\u00e4llt, wird vergessen. Und vergessen sein ist der tiefste Schrecken der sozialen Drei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Tiefe unter der Oberfl\u00e4che</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> bringt der sozialen Drei etwas Unerwartetes: das Bewusstsein f\u00fcr Schmerz, f\u00fcr das Unvollst\u00e4ndige, f\u00fcr die eigene innere Welt jenseits des Erfolgs. Eine SO3 mit schwach ausgeprägtem Viererflügel könnte glatt wirken – immer im Glanz, immer optimiert, immer das richtige Bild. Ein stark ausgeprägter Viererflügel bricht das auf: Hier ist jemand, der auch das Dunkle kennt &ndash; und bereit ist, es zu zeigen.</p>
+          <p class="vb-intro">Bei Bella Thorne ist der Viererfl\u00fcgel in ihrer ungew\u00f6hnlichen Offenheit sichtbar. Sie hat \u00f6ffentlich \u00fcber ihre Kindheit gesprochen &ndash; \u00fcber den fr\u00fchen Verlust ihres Vaters, \u00fcber sexuellen Missbrauch, \u00fcber Dyslexie und die Herausforderungen ihrer Schulzeit. Diese Offenheit ist kein Kalk\u00fcl allein &ndash; sie ist das Zeichen einer Pers\u00f6nlichkeit, die sich nicht nur als Erfolgsmaschine versteht, sondern als Mensch mit Geschichte. Der Viererfl\u00fcgel will nicht nur strahlen. Er will auch wahr sein.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel erkl\u00e4rt auch Thornes k\u00fcnstlerische Entscheidungen: Sie hat Rollen \u00fcbernommen und Projekte inszeniert, die weit \u00fcber das hinausgehen, was ihrer Marke n\u00fctzen w\u00fcrde. Die SO3w4 sucht nicht nur den sicheren Erfolg &ndash; sie sucht den Ausdruck. Das macht sie komplexer und widerspr\u00fcchlicher als viele ihrer Altersgenossen im Showbusiness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre Energie und Gestaltungskraft. Bella Thorne hat sich in einem Metier behauptet, das Menschen schnell verbraucht &ndash; und sie hat dabei die Kontrolle \u00fcber ihre eigene Geschichte nie vollst\u00e4ndig aus der Hand gegeben. Wer mit dreizehn anf\u00e4ngt und mit Ende zwanzig bereits Regisseurin ist, hat mehr geleistet als die meisten, die doppelt so alt sind. Das ist Gepard-Energie in ihrer kreativsten Form.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / T\u00e4uschung</strong> &ndash; das tiefe Bed\u00fcrfnis, als erfolgreich und wertvoll wahrgenommen zu werden, auch dann, wenn die innere Realit\u00e4t anders klingt. Bei der SO3 \u00e4u\u00dfert sich das als Versuchung, das Bild \u00fcber die Wahrheit zu stellen: die perfekte Inszenierung, das strategisch gesetzte Skand\u00e4lchen, die Emotion, die f\u00fcr das Publikum performt wird. Die Grenze zwischen echtem Ausdruck und kalkulierter Wirkung ist f\u00fcr die SO3w4 eine der schwierigsten Fragen des Lebens.</p>
+          <p class="vb-intro">Der Viererfl\u00fcgel verst\u00e4rkt das Spannungsfeld: Er bringt die Sehnsucht nach Echtheit &ndash; und gleichzeitig das Risiko, auch den Schmerz zu inszenieren. Wer gelernt hat, dass Verletzlichkeit Aufmerksamkeit erzeugt, muss sich fragen: Wann zeige ich mich, und wann zeige ich eine Version von mir?</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Bild zur Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne Publikum.</em> F\u00fcr die SO3w4 bedeutet das einen doppelten Schritt: loszulassen, dass der \u00f6ffentliche Erfolg den eigenen Wert definiert &ndash; und gleichzeitig die innere Tiefe des Viererfl\u00fcgels nicht nur als Quelle interessanter Inhalte zu nutzen, sondern als echten Lebensraum.</p>
+          <p class="vb-intro">Bella Thorne ist jung &ndash; und ihr Heilungsweg liegt noch vor ihr. Aber die Schritte, die sie bereits gegangen ist: die Offenheit \u00fcber Trauma, der Wechsel hinter die Kamera, der Versuch, die eigene Geschichte selbst zu erz\u00e4hlen statt erz\u00e4hlt zu werden &ndash; das sind Zeichen, dass der Gepard bereits wei\u00df: Es gibt ein Leben jenseits des Sprints. Und dieses Leben k\u00f6nnte das tiefste sein, das er je gelebt hat.</p>
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function sahraWagenknechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sahra-wagenknecht-portrait.jpg" alt="Sahra Wagenknecht" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sahra Wagenknecht</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel &middot; Verst\u00e4rkungstyp der Drei</p>
+        <p class="krim-portrait-subtitle">Politikerin, Buchautorin, Parteigr\u00fcnderin, geb. 1969 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Blickqualit\u00e4t</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Blick der sozialen Drei ist selbstbewusst, nach au\u00dfen gerichtet und durchdringend &ndash; er sucht das Publikum, misst die Wirkung, berechnet die Resonanz. Sahra Wagenknechts Blick in Talkshows und Parlamentsdebatten ist legend\u00e4r: ruhig, pr\u00e4zise, leicht \u00fcberblickend. Keine Nervosit\u00e4t, keine Ablenkung. Sie schaut dorthin, wo die Aufmerksamkeit liegt &ndash; und h\u00e4lt sie fest.</p>
+          <p class="vb-intro">Das ist der Gepard im Ansatz. Noch bewegungslos, aber bereits auf das Ziel fokussiert. Der soziale Dreier kennt die B\u00fchne, bevor er sie betritt. Wagenknecht wei\u00df instinktiv, wie ein Satz klingen muss, um im Ged\u00e4chtnis zu bleiben &ndash; und wie ein Schweigen manchmal lauter ist als jede Antwort.</p>
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> verleiht diesem Blick eine zus\u00e4tzliche Qualit\u00e4t: Er wirkt nicht nur selbstsicher, sondern auch einladend. Wagenknecht kann zuh\u00f6ren &ndash; oder den Eindruck erwecken, dass sie es tut. Diese Mischung aus Sch\u00e4rfe und W\u00e4rme ist ihr politisches Markenzeichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg als Identit\u00e4t, Anerkennung als Treibstoff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der soziale Subtyp der Drei, den Claudio Naranjo den <strong>Verst\u00e4rkungstyp</strong> nannte, lebt f\u00fcr Prestige, Status und \u00f6ffentliche Wirkung. Er will nicht nur erfolgreich sein &ndash; er will, dass alle es sehen. Die B\u00fchne ist nicht Mittel, sondern Heimat. Sahra Wagenknecht hat diese Energie auf hohem Niveau ausgebildet: B\u00fccher, die zu Bestsellern werden. Reden, die viral gehen. Eine Partei, die ihren Namen tr\u00e4gt.</p>
+          <p class="vb-intro">Das BSW &ndash; B\u00fcndnis Sahra Wagenknecht, 2024 gegr\u00fcndet &ndash; ist politisch und typologisch ein au\u00dfergew\u00f6hnliches Ph\u00e4nomen: eine Partei, benannt nach einer Person, die auf Anhieb in drei Landtage einzieht. Der soziale Dreier baut Systeme, die ihn sichtbar machen. Wagenknecht hat das mit einer Konsequenz getan, die selbst politische Gegner in Staunen versetzt.</p>
+          <p class="vb-intro">Dabei ist sie keine Populistin im klassischen Sinne &ndash; sie ist eine <em>Analytikerin des Popul\u00e4ren</em>. Sie versteht, was Menschen bewegt, und formuliert es so, dass es trifft. Das ist die Gabe der sozialen Drei: nicht nur zu performen, sondern zu verstehen, <em>warum</em> bestimmte Inhalte funktionieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\u00fcgel: Volksverbundenheit als politisches Kapital</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\u00fcgel (w2)</strong> bringt in die SO3-Grundstruktur eine entscheidende Erg\u00e4nzung: den Wunsch, gemocht zu werden, gebraucht zu werden, f\u00fcr andere da zu sein. Beim Zweierfl\u00fcgel geht es nicht nur um abstrakte Anerkennung &ndash; es geht um pers\u00f6nliche Zuneigung, um das Gef\u00fchl, dass Menschen einem vertrauen und folgen wollen.</p>
+          <p class="vb-intro">Wagenknecht bedient diese Energie meisterhaft. Ihre politischen Botschaften klingen oft wie die eines Menschen, der pers\u00f6nlich betroffen ist &ndash; der f\u00fcr die Schw\u00e4cheren k\u00e4mpft, weil er es selbst erlebt hat. Die Botschaft lautet: <em>Ich bin eine von euch.</em> Und der SO3w2er ist gut darin, genau das zu vermitteln &ndash; weil er es auch f\u00fchlt, zumindest in dem Moment, in dem er es ausspricht.</p>
+          <p class="vb-intro">Die Kehrseite: Der Zweierfl\u00fcgel kann dazu neigen, Zustimmung zu suchen und Widerspruch als pers\u00f6nlichen Angriff zu erleben. Wer Wagenknecht kritisiert, kritisiert nicht nur eine politische Position &ndash; er greift eine Identit\u00e4t an. Das erkl\u00e4rt, warum Auseinandersetzungen mit ihr oft eine Sch\u00e4rfe erreichen, die \u00fcber sachliche Differenzen hinausgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Gesamtwirkung: B\u00fccher, Partei, Medien, Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sahra Wagenknecht ist eine der meistdiskutierten Politikerinnen Deutschlands &ndash; nicht trotz ihrer Widerspr\u00fcche, sondern wegen ihnen. Sie war Kommunistin und ist jetzt Parteif\u00fchrerin einer pragmatisch-konservativen Linken. Sie vertritt soziale Gerechtigkeit und gleichzeitig eine restriktive Migrationspolitik. Sie kritisiert den Kapitalismus und schreibt B\u00fccher, die im Mainstream-Feuilleton besprochen werden.</p>
+          <p class="vb-intro">Der SO3w2er navigiert Widerspr\u00fcche intuitiv &ndash; nicht weil er unehrlich w\u00e4re, sondern weil er sp\u00fcrt, was jeweils gefragt ist. Die F\u00e4higkeit zur Anpassung ist kein Makel, sondern eine Kompetenz: Wer viele verschiedene Milieus ansprechen will, muss viele verschiedene Sprachen sprechen. Wagenknecht beherrscht diese F\u00e4higkeit auf einem Niveau, das in der deutschen Politiklandschaft kaum seinesgleichen hat.</p>
+          <p class="vb-intro">Ihre B\u00fccher &ndash; darunter <em>Die Selbstgerechten</em> (2021) und <em>Frieden</em> (2023) &ndash; sind keine Parteiprogramme, sondern kulturelle Interventionen. Sie schaffen Raum f\u00fcr Debatten, die anderswo nicht stattfinden. Das ist der soziale Dreier auf seiner bewussten Ausdrucksstufe: Er nutzt Erfolg nicht nur f\u00fcr sich, sondern als Plattform f\u00fcr etwas, das gr\u00f6\u00dfer ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Gepard: die energetische Wirkung auf der politischen B\u00fchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gepard ist das schnellste Landtier der Welt &ndash; und er ist pr\u00e4zise. Er rennt nicht einfach, er rennt <em>zielgenau</em>. Kein anderes Tier verk\u00f6rpert die Energie der sozialen Drei so treffend: Geschwindigkeit, Fokus, Effizienz, Eleganz. Sahra Wagenknecht hat diese Energie in der politischen Arena vollst\u00e4ndig entwickelt. Ihre Reden sind schnell, aber nie unkontrolliert. Ihre Argumente sind scharf, aber selten fahrig.</p>
+          <p class="vb-intro">Wer Wagenknecht in einer Talkshow erlebt, bemerkt diese Gepard-Energie: Sie wartet den richtigen Moment ab, greift dann pr\u00e4zise an und l\u00e4sst den Eindruck zur\u00fcck, dass sie noch viel mehr in Reserve hat. Das ist keine Pose &ndash; das ist typologische Substanz. Der SO3w2er k\u00e4mpft nicht mit Lautst\u00e4rke. Er k\u00e4mpft mit Timing und Wirkung.</p>
+          <p class="vb-intro">Gleichzeitig hat der Gepard eine Schwachstelle: Er kann nicht lange laufen. Die Konzentration auf den Sprint bedeutet, dass Ausdauer auf anderen Ebenen leiden kann. Wagenknecht hat mehrfach gesundheitliche Auszeiten gebraucht. Die Energie der SO3 ist hocheffizient &ndash; aber sie hat ihren Preis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: wenn Erfolg nicht mehr beweisen muss, wer man ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei f\u00fchrt von der Frage <em>Was habe ich erreicht?</em> zur Erkenntnis <em>Ich bin &ndash; jenseits aller Leistung.</em> F\u00fcr die SO3w2 bedeutet das: nicht mehr B\u00fccher schreiben, um geh\u00f6rt zu werden, sondern weil man etwas zu sagen hat. Nicht mehr in Talkshows gehen, um Zustimmung zu sammeln, sondern um ehrlich zu sein &ndash; auch wenn es kostet.</p>
+          <p class="vb-intro">Es gibt Momente in Wagenknechts \u00f6ffentlichem Auftreten, in denen diese Transformation sichtbar wird: wenn sie unbequeme Positionen einnimmt, die ihrem Ansehen kurzfristig schaden, weil sie sie f\u00fcr richtig h\u00e4lt. Der Gepard, der nicht mehr nur auf Applaus jagt, sondern auf Wahrheit &ndash; das ist die soziale Drei auf ihrer h\u00f6chsten Ausdrucksstufe.</p>
+          <p class="vb-intro">Ein bewusster SO3w2er kann zur Br\u00fccke werden &ndash; zwischen Lagern, die sich nicht mehr zuh\u00f6ren. Wagenknecht hat dieses Potenzial. Ob sie es vollst\u00e4ndig nutzt, bleibt offen. Aber der Gepard, der inneh\u00e4lt und \u00fcberlegt, bevor er sprintet &ndash; das ist die Energie, die politisch am n\u00f6tigsten gebraucht wird.</p>
+        </blockquote>
+
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+
+      ${relatedLinks([
+        {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-obama", label:"Portr\u00e4t: Barack Obama (SO2w3)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portr\u00e4t: Klemens von Metternich (SO3w2)"}
+      ])}
+    </div>
+  `);
+}
+
 function karlLagerfeldPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -4212,7 +4541,7 @@ function krankheitsportraetsPage() {
     <div class="page-container">
       ${pageHeader("krankheitsportraets")}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;">Krankheitsportr\xe4ts</h1>
-      <p class="psycho-intro">Biografien historischer Pers\xf6nlichkeiten, bei denen eine dokumentierte Krankheit \xfcber Jahre oder Jahrzehnte hinweg als roter Faden im Leben sichtbar wird – verkn\xfcpft mit dem Enneagramm-Subtyp der Person. Im ganzheitlichen Sinn gelesen, ist Krankheit oft nicht nur Schicksal, sondern auch ein Korrektiv: ein Wegweiser, der sich ank\xfcndigt, lange bevor er unumg\xe4nglich wird. <strong>Bewusst ausschlie\xdflich verstorbene, historisch gut dokumentierte F\xe4lle</strong> – aus Respekt vor Personen mit einer aktuellen, noch ungewissen Diagnose. Diese Seite ersetzt keine medizinische oder historische Diagnose, sondern bietet eine psychologisch-biografische Deutungsebene, in der jede Krankheit als individuelles Zusammenspiel vieler Faktoren verstanden wird – nie als zwingende Folge eines Typs.</p>
+      <p class="psycho-intro">Biografien historischer Pers\xf6nlichkeiten, bei denen eine dokumentierte Krankheit \xfcber Jahre oder Jahrzehnte hinweg als roter Faden im Leben sichtbar wird – verkn\xfcpft mit dem Enneagramm-Subtyp der Person. Im ganzheitlichen Sinn gelesen, ist Krankheit oft nicht nur Schicksal, sondern auch ein Korrektiv: ein Wegweiser, der sich ank\xfcndigt, lange bevor er unumg\xe4nglich wird. <strong>Bewusst ausschlie\xdflich verstorbene, historisch gut dokumentierte F\xe4lle</strong> – aus Respekt vor Personen mit einer aktuellen, noch ungewissen Diagnose. Diese Seite ersetzt keine medizinische oder historische Diagnose, sondern bietet eine psychologisch-biografische Deutungsebene, in der jede Krankheit als individuelles Zusammenspiel vieler Faktoren verstanden wird – nie als zwingende Folge eines Typs. Wiederkehrende Muster über alle Porträts eines Subtyps hinweg sammelt der <a href="javascript:void(0)" data-route="krankheitsmusterkompass">Krankheitsmusterkompass</a>.</p>
       ${filterBar}
       ${registerBox}
       <div id="kh-list" style="max-width:640px;margin-top:1rem;">
@@ -9071,577 +9400,6 @@ function nusratFatehAliKhanKrankheitsportraetPage() {
         {route:"krankheitsportraets-frida-kahlo", label:"Krankheitsporträt: Frida Kahlo (SE2w3) – dieselbe Weigerung zurückzuweichen"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se2", label:"Subtyp-Profil SE2"},
-      ])}
-    </div>
-  `);
-}
-
-function karlLagerfeldKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Karl Lagerfeld</p>
-        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1933–2019</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gepard</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Karl Lagerfeld</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-karl-lagerfeld">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort ausgespart bleibt:
-        eine Krebserkrankung, die er nach übereinstimmenden Berichten jahrelang selbst vor
-        engsten Vertrauten geheim hielt, bis er im Februar 2019 im Alter von 85 Jahren starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Lagerfeld</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
-        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – sie ist nicht
-        einfach erfolgreich, sie <em>ist</em> der Erfolg, den sie verkörpert, und das Bild, das
-        sie von sich zeigt, muss lückenlos intakt bleiben. Der Viererflügel bringt ein feines
-        Gespür für Ästhetik und Inszenierung hinzu, aber auch eine tiefe Scham vor allem, was
-        dieses makellose Bild beschädigen könnte – Krankheit und Alter gehören für diese
-        Kombination zu den am schwersten zuzulassenden Themen überhaupt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Das Bild vor der Wahrheit:</strong>
-        Lagerfelds öffentlicher Blick galt zeitlebens der Frage, welches Bild von ihm nach
-        außen sichtbar wurde – diese Priorität änderte sich auch angesichts einer
-        fortschreitenden Erkrankung nicht.</p>
-        <p class="vb-intro"><strong>b) Schwäche als das eine nicht verhandelbare Tabu:</strong>
-        Wo andere Krankheitsporträts dieses Kompasses von Betroffenen erzählen, die ihre
-        Diagnose irgendwann bewusst offenlegten, wählte Lagerfeld den entgegengesetzten Weg:
-        Gerüchte über seinen Gesundheitszustand wurden aus seinem Umfeld aktiv dementiert.</p>
-        <p class="vb-intro"><strong>c) Kontrolle bis zur letzten sichtbaren Geste:</strong>
-        Als er im Januar 2019 erstmals bei einer Chanel-Show fehlte, schickte er eine
-        Videobotschaft an Weggefährten, um Sorgen zu zerstreuen – selbst der Rückzug wurde
-        noch einmal inszeniert, nicht einfach hingenommen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Eine widersprüchliche Diagnose:</strong>
-        Zum Zeitpunkt seines Todes kursierte in den Medien die Angabe
-        Bauchspeicheldrüsenkrebs, offiziell von Chanel oder der Familie jedoch nie bestätigt.
-        Ende 2019 erklärte sein langjähriger persönlicher Assistent Sébastien Jondeau, Lagerfeld
-        habe tatsächlich an Prostatakrebs gelitten, diagnostiziert bereits 2015 – die genaue
-        Krebsart bleibt bis heute nicht zweifelsfrei geklärt.</p>
-        <p class="vb-intro"><strong>b) Fast vier Jahre vollständige Geheimhaltung:</strong>
-        Nach Jondeaus Darstellung wussten selbst engste Familienangehörige nicht von der 2015
-        gestellten Diagnose – eine Geheimhaltung, die weit über das hinausgeht, was in anderen
-        Krankheitsporträts dieses Kompasses dokumentiert ist.</p>
-        <p class="vb-intro"><strong>c) 35 Jahre ohne einen einzigen Fehltermin:</strong>
-        Seit seinem Amtsantritt bei Chanel 1983 hatte Lagerfeld keine einzige Schlussverbeugung
-        einer Show verpasst – bis zum Januar 2019, wenige Wochen vor seinem Tod.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Das erste sichtbare Zeichen von Schwäche:</strong>
-        Bei der Chanel-Haute-Couture-Show am 22. Januar 2019 fehlte Lagerfeld erstmals seit 35
-        Jahren beim Schlussapplaus; offiziell wurde "Erschöpfung" als Grund genannt, Virginie
-        Viard vertrat ihn.</p>
-        <p class="vb-intro"><strong>b) Der radikale Gewichtsverlust als Kontrollakt, nicht als Gesundheitsprojekt:</strong>
-        Ab 2000/2001 verlor Lagerfeld innerhalb von rund 13 Monaten etwa 42 Kilogramm mit
-        einer eigens vermarkteten Diät – nicht aus gesundheitlicher Sorge, sondern weil er in
-        die schmal geschnittenen Anzüge eines jüngeren Designers passen wollte. Ein derart
-        schneller Gewichtsverlust gilt medizinisch grundsätzlich als riskant.</p>
-        <p class="vb-intro"><strong>c) Rigide Selbstkontrolle bis in den Schlaf:</strong>
-        Lagerfeld betonte wiederholt öffentlich, exakt sieben Stunden zu schlafen und ohne
-        Wecker aufzuwachen: "Ich schlafe sieben Stunden. Ich wache nicht vorher auf – das Haus
-        kann zusammenbrechen, aber ich schlafe meine sieben Stunden." Selbst der Schlaf wurde
-        zum disziplinierten, kontrollierten Ritual erklärt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Tod, der die Modewelt unvorbereitet traf:</strong>
-        Weil Gesundheitssorgen aus seinem Umfeld noch wenige Wochen zuvor zurückgewiesen
-        worden waren, kam die Nachricht von Lagerfelds Tod am 19. Februar 2019 für die
-        Öffentlichkeit überraschend, obwohl sein Körper offenbar längst gezeichnet war.</p>
-        <p class="vb-intro"><strong>b) Bis heute keine offizielle Bestätigung der Todesursache:</strong>
-        Weder Chanel noch die Familie haben je eine offizielle Diagnose bestätigt – ein
-        letzter, konsequenter Akt der Bilderhaltung, der über den Tod hinausreicht.</p>
-        <p class="vb-intro"><strong>c) Ein Arbeitspensum ohne erkennbaren Rückzug:</strong>
-        Bis zuletzt betreute Lagerfeld parallel bis zu acht Kollektionen jährlich für Chanel
-        sowie mehrere für Fendi – kein dokumentierter Rückzug vor dem Januar 2019.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Die öffentliche Rolle als Schutzschild:</strong>
-        Solange die Rolle des makellos funktionierenden Modezaren aufrechterhalten werden
-        konnte, schien auch die Energie dafür vorhanden – das Bild trug den Körper, nicht
-        umgekehrt.</p>
-        <p class="vb-intro"><strong>b) Erschöpfung als einzig zugelassene Erklärung:</strong>
-        Selbst als der Rückzug unübersehbar wurde, blieb die offizielle Sprachregelung im
-        Rahmen des Kontrollierbaren – "Erschöpfung" statt Krankheit, ein Begriff, der
-        Schwäche zeitlich begrenzt, nicht bedrohlich erscheinen lässt.</p>
-        <p class="vb-intro"><strong>c) Kein Tempowechsel bis zur letzten Show:</strong>
-        Die Energie der SO3w4 richtete sich bis zuletzt auf denselben Antrieb, der Lagerfelds
-        gesamte Karriere prägte: keine Kollektion, keinen Auftritt, kein Bild zuzulassen, das
-        nicht der eigenen Inszenierung entsprach.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Diagnose 2015, geheim gehalten bis zum Tod:</strong>
-        Laut Aussage seines langjährigen persönlichen Assistenten Sébastien Jondeau erhielt
-        Lagerfeld bereits 2015 eine Krebsdiagnose – vier Jahre, die er offenbar nutzte, um nach
-        außen den Anschein völliger Unversehrtheit aufrechtzuerhalten.</p>
-        <p class="vb-intro"><strong>b) Aktives Dementi statt Offenlegung:</strong>
-        Anders als Ronald Reagan (SO9w8), der seine Diagnose in einem direkten Brief an die
-        Öffentlichkeit richtete, oder David Bowie (SO1w2), der sie in Kunst verschlüsselte,
-        wählte Lagerfeld eine dritte Variante: das schlichte Zurückweisen jeder Andeutung von
-        Krankheit, so lange wie irgend möglich.</p>
-        <p class="vb-intro"><strong>c) Ein einziges sichtbares Zeichen, vier Wochen vor dem Tod:</strong>
-        Erst das Fehlen bei der Chanel-Show im Januar 2019 – nach 35 Jahren lückenloser
-        Präsenz – ließ öffentlich erahnen, was intern längst bekannt gewesen sein muss.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Organ, das im Verborgenen arbeitet?</strong>
-        Sowohl die Bauchspeicheldrüse als auch die Prostata – die beiden konkurrierenden
-        Diagnosen – zählen zu den Organen, die lange Zeit ohne äußerlich sichtbare Symptome
-        erkranken können, oft erst in fortgeschrittenem Stadium bemerkt werden. Für eine
-        soziale Drei mit Viererflügel, deren gesamtes Lebenswerk auf der lückenlosen
-        Aufrechterhaltung eines makellosen äußeren Bildes beruhte, liegt eine Deutung nahe:
-        ausgerechnet ein Organ zu erkranken, das selbst im Verborgenen liegt und keine
-        sichtbaren Warnzeichen sendet, passt zu einem Leben, in dem alles Innere – Zweifel,
-        Schwäche, Alter, Angst – strikt hinter einer makellosen äußeren Fassade verborgen
-        blieb. Der Körper erkrankte an einer Stelle, die so unsichtbar war wie die Wahrheit,
-        die er ein Leben lang verbarg. Diese Deutung wird im Psychosomatik-Register dieses
-        Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Krebserkrankungen
-        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Lagerfelds Fall zeigen lässt, ist ein Muster, das bei dem
-        Bedürfnis, jede Schwäche restlos vor der Öffentlichkeit zu verbergen, in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Lagerfeld kannte sein eigenes Muster nicht – die soziale Drei hält das öffentliche Bild um jeden Preis aufrecht, und genau das ließ ihn eine Krebsdiagnose fast vier Jahre lang selbst vor engsten Vertrauten geheim halten, statt sein Tempo auch nur einmal zu drosseln. Wer das eigene Bedürfnis nach makelloser öffentlicher Erscheinung nicht als Muster erkennt, verbirgt selbst die eigene Sterblichkeit dahinter.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Lagerfelds</strong> soziale Drei mit Viererflügel blieb bis zuletzt auch in der
-        eigenen Erkrankung spürbar: eine Diagnose, die vermutlich fast vier Jahre lang
-        selbst vor der eigenen Familie verborgen blieb, ein öffentliches Bild, das bis auf
-        eine einzige Ausnahme vier Wochen vor dem Tod makellos intakt gehalten wurde, und eine
-        Todesursache, die bis heute nie offiziell bestätigt wurde. Der Gepard, der sein Tempo
-        bis zur letzten sichtbaren Sekunde hielt – und sich erst dann zurückzog, als kein
-        weiterer Sprint mehr möglich war.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4) – Lebenswerk"},
-        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4) – ebenfalls Weiterarbeit trotz schwerer Krankheit"},
-        {route:"krankheitsportraets-sean-connery", label:"Krankheitsporträt: Sean Connery (SO3w4) – gleicher Subtyp"},
-        {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2) – ebenfalls Geheimhaltung, aber künstlerisch verschlüsselt statt dementiert"},
-        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte Offenlegung statt Dementi"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
-      ])}
-    </div>
-  `);
-}
-
-function friedrichSchillerKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Friedrich Schiller</p>
-        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1759–1805</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Wolf</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Friedrich Schiller</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
-        Allgemeinen. Hier steht ein Kapitel im Mittelpunkt, das dort kaum zur Sprache kommt:
-        eine seit der Kindheit anfällige Konstitution, ein vermutlich während des
-        Medizinstudiums erworbener Tuberkulose-Keim und vierzehn Jahre Arbeit gegen einen
-        Körper, der bereits 1791 lebensbedrohlich zusammengebrochen war.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Schiller</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
-        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
-        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke. Der Fünferflügel bringt
-        analytische Tiefe und die Fähigkeit, sich in Arbeit und Struktur zu vertiefen, bis
-        keine Kraft mehr übrig ist – ein Muster, das sich bis in Schillers letzte, von
-        fortschreitender Krankheit gezeichnete Lebensjahre nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Der eigene Körper als weiterer Gegner, dem man sich stellt:</strong>
-        Schillers Blick auf die eigene, fortschreitende Krankheit war derselbe wie auf jede
-        andere Bedrohung seines Lebens – nicht ausweichen, sondern weiterarbeiten, als ließe
-        sich der Verfall durch Willenskraft aufhalten.</p>
-        <p class="vb-intro"><strong>b) Warnzeichen als Hindernis, nicht als Grenze:</strong>
-        Schon an der Karlsschule lag der junge Schiller wiederholt wegen Husten und
-        Lungenkatarrhen im Krankenzimmer – ein früher Hinweis auf eine fragile Konstitution,
-        die er zeitlebens nicht als Grenze, sondern als weiteres Hindernis behandelte.</p>
-        <p class="vb-intro"><strong>c) Nächte, die dem Tag abgerungen wurden:</strong>
-        Goethe bemerkte über Schillers Arbeitsweise bewundernd und zugleich besorgt: „Seine
-        durchwachten Nächte haben unseren Tag erhellt" – eine Beobachtung, die zeigt, wie sehr
-        Schillers Umfeld die Kosten seiner Arbeitsweise bereits ahnte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Ein möglicher Ursprung während des Medizinstudiums:</strong>
-        Während seines erzwungenen Medizinstudiums an der Karlsschule obduzierte Schiller
-        einen Kommilitonen, der an Lungentuberkulose gestorben war. Historiker und Mediziner
-        gehen davon aus, dass er sich in dieser Zeit den Krankheitskeim zuzog, der ihn fortan
-        begleitete.</p>
-        <p class="vb-intro"><strong>b) Raubbau am eigenen Körper als Lebensstil:</strong>
-        Schiller arbeitete oft die ganze Nacht durch, ernährte sich unregelmäßig und
-        schlecht und litt unter chronischen Verdauungsproblemen und wiederkehrenden
-        Infekten – eine Lebensweise, die seine ohnehin fragile Konstitution zusätzlich
-        schwächte.</p>
-        <p class="vb-intro"><strong>c) Der Zusammenbruch von 1791:</strong>
-        Mit 32 Jahren erlitt Schiller die ersten wiederkehrenden, lebensbedrohlichen Anfälle
-        von schwerem Fieber, heftigem Husten mit Blutauswurf und Ohnmachten – vermutlich
-        schwere Schübe der Tuberkulose. Er erholte sich danach nie wieder vollständig.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Vierzehn Jahre Arbeit gegen den eigenen Verfall:</strong>
-        Nach 1791 lebte und arbeitete Schiller weitere vierzehn Jahre unter dem ständigen
-        Druck der fortschreitenden Krankheit – und schrieb ausgerechnet in dieser Zeit sein
-        bedeutendstes Alterswerk: die Wallenstein-Trilogie, Maria Stuart, Die Jungfrau von
-        Orleans und Wilhelm Tell.</p>
-        <p class="vb-intro"><strong>b) Rascher Verfall im Frühjahr 1805:</strong>
-        Nach einem Theaterbesuch am 1. Mai 1805 erlitt Schiller einen schweren Zusammenbruch
-        mit Fieberkrämpfen. Acht Tage später, am 9. Mai 1805, starb er im Alter von nur 45
-        Jahren an einer akuten Lungenentzündung.</p>
-        <p class="vb-intro"><strong>c) Ein Obduktionsbefund, der selbst die behandelnden Ärzte erschütterte:</strong>
-        Die Obduktion am Tag nach seinem Tod ergab einen völlig zerstörten, vernarbten und
-        fest mit dem Herzbeutel verwachsenen rechten Lungenflügel, stark angegriffene, „fast
-        aufgelöste" Nieren und einen altersuntypisch zurückgebildeten Herzmuskel.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Arzturteil, das Fassungslosigkeit ausdrückte:</strong>
-        Der behandelnde Arzt fasste den Zustand des verstorbenen Dichters in dem später oft
-        zitierten Satz zusammen: „Bei diesen Umständen muss man sich wundern, wie der arme
-        Mann so lange hat leben können."</p>
-        <p class="vb-intro"><strong>b) Ein geschwächter Körper, getragen von einer der willensstärksten Konstitutionen des Enneagramms:</strong>
-        Der Obduktionsbefund zeigt, dass Schillers Organismus über Jahre hinweg auf einem
-        Bruchteil seiner eigentlichen Funktionsfähigkeit weiterarbeitete. Medizinisch lässt
-        sich das kaum durch den Körper selbst erklären – wohl aber durch die mentale
-        Willenskraft der sexuellen Sechs, die unter den 27 Subtypen des Enneagramms zu den
-        willensstärksten zählt. Nicht der geschwächte Körper hielt durch, sondern das
-        Prinzip, das ihn trotz allem weiter antrieb – genau das, was den behandelnden Arzt so
-        erstaunte.</p>
-        <p class="vb-intro"><strong>c) Kreativität, die mit dem Verfall parallel zunahm:</strong>
-        Statt nachzulassen, entstanden gerade in den letzten, von Krankheit gezeichneten
-        Lebensjahren einige seiner reifsten und bedeutendsten Werke – ein Befund, der viele
-        Zeitgenossen und spätere Biografen ratlos zurückließ.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Angriff statt Rückzug:</strong>
-        Wie er einst dem Herzog Karl Eugen und der Zensur die Stirn geboten hatte, begegnete
-        Schiller auch der eigenen Krankheit nicht mit Rückzug, sondern mit fortgesetzter,
-        kompromissloser Arbeit.</p>
-        <p class="vb-intro"><strong>b) Energie, die bis zur physiologischen Erschöpfung reichte:</strong>
-        Die durchwachten Nächte, von Goethe bewundernd beschrieben, waren zugleich ein
-        fortlaufender Raubbau – Energie, die dem eigenen Körper buchstäblich entzogen wurde, um
-        das Werk voranzutreiben.</p>
-        <p class="vb-intro"><strong>c) Kein Innehalten bis zum letzten Zusammenbruch:</strong>
-        Noch acht Tage vor seinem Tod besuchte Schiller ein Theater – ein Leben, das bis
-        buchstäblich zum letzten möglichen Moment nach außen gerichtet blieb, statt sich
-        zurückzuziehen.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine fragile Konstitution seit der Kindheit:</strong>
-        Bereits als Kind galt Schiller als zart und anfällig – ein Muster, das sich durch die
-        Jahre an der Karlsschule mit wiederholten Lungenkatarrhen fortsetzte, lange bevor die
-        eigentliche Erkrankung ausbrach.</p>
-        <p class="vb-intro"><strong>b) Vierzehn Jahre zwischen Zusammenbruch und Tod:</strong>
-        Vom ersten lebensbedrohlichen Anfall 1791 bis zu seinem Tod 1805 lebte Schiller
-        anderthalb Jahrzehnte mit einer Krankheit, die er nie öffentlich in den Mittelpunkt
-        stellte, sondern die er durch fortgesetzte Arbeit gewissermaßen überschrieb.</p>
-        <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
-        Anders als Karl Lagerfeld (SO3w4), der seine Krankheit hinter einem makellosen Bild
-        verbarg, oder David Bowie (SO1w2), der sie künstlerisch verschlüsselte, verbarg Schiller seine Krankheit
-        nicht – er ignorierte sie schlicht durch fortgesetzte, unvermindert intensive Arbeit,
-        bis der Körper keine weitere Konfrontation mehr zuließ.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge, das Organ der Stimme?</strong>
-        Der Obduktionsbefund zeigt einen Lungenflügel, der über Jahre hinweg vernarbte und
-        schließlich vollständig funktionsunfähig wurde. Für eine sexuelle Sechs, deren
-        gesamtes Werk aus dem lauten, kompromisslosen Widerspruch gegen Tyrannei und
-        Unterdrückung bestand – deren Stimme selbst zur Waffe wurde –, liegt eine Deutung
-        nahe: ausgerechnet das Organ, das Stimme, Atem und Widerstand physisch trägt, wurde
-        Schauplatz eines jahrzehntelangen, unsichtbaren Kampfes, den er nie durch Rückzug,
-        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte, bis buchstäblich kein
-        Atem mehr blieb. Diese Deutung wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
-        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Schillers Fall zeigen lässt, ist ein
-        Muster, das bei dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch
-        Rückzug, sondern durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer
-        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
-        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Schiller kannte sein eigenes Muster nicht – die sexuelle Sechs begegnet Bedrohung reflexhaft mit Konfrontation statt mit Schonung, und genau das trieb ihn vierzehn Jahre lang gegen den eigenen körperlichen Verfall weiterzuarbeiten, statt der Krankheit auch nur einmal nachzugeben. Wer das eigene Konfrontationsmuster nicht kennt, kämpft weiter, selbst wenn Rückzug die gesündere Antwort wäre.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Schillers</strong> sexuelle Sechs mit
-        Fünferflügel noch einmal ablesen: eine seit der Kindheit fragile Konstitution, ein
-        wahrscheinlich im Medizinstudium erworbener Krankheitskeim und vierzehn Jahre
-        kompromissloser Arbeit gegen einen zunehmend zerstörten Körper, bis am 9. Mai 1805
-        buchstäblich kein Widerstand mehr möglich war. Der Wolf, der der Bedrohung – der
-        Zensur wie der eigenen Sterblichkeit – nie auswich, sondern ihr bis zur letzten
-        Konsequenz die Stirn bot.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – Lebenswerk"},
-        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
-        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsporträt: Otto von Bismarck (SX6w5) – gleicher Subtyp, gegenläufige Ausprägung"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
-      ])}
-    </div>
-  `);
-}
-
-function ottoVonBismarckKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Otto von Bismarck</p>
-        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1815–1898</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Wolf</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Otto von Bismarck</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-otto-von-bismarck">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Wolf als Tiermotiv und
-        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
-        gestreift wird: der Erschöpfungskrise und dem massiven Übergewicht Anfang der 1880er-Jahre,
-        der radikalen Behandlung durch Dr. Ernst Schweninger – und der verweigerten Behandlung
-        einer Gangrän am Fuß, die zu seinen letzten Lebenswochen 1898 führte.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Bismarck</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
-        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
-        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke – auch wenn die Bedrohung der
-        eigene, alternde Körper ist. Der Fünferflügel bringt eine Neigung zu Hypochondrie und
-        Rückzug in die eigene Innenwelt, die bei Bismarck in einer strikten Trennung zwischen dem,
-        was er öffentlich zeigte, und dem, was er körperlich wirklich durchmachte, sichtbar wird.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein Körper, der Jahrzehnte politischer Dauerspannung aufsummierte:</strong>
-        Bereits Ende der 1870er-Jahre war Bismarcks Gewicht auf rund 123 Kilogramm angestiegen –
-        die Summe jahrzehntelanger Bewältigungsstrategien gegen chronischen Stress: reichhaltiges
-        Essen, starkes Rauchen und erheblicher Alkoholkonsum, während er zugleich Reichsgründung,
-        Kulturkampf und Sozialistengesetze im Zaum hielt.</p>
-        <p class="vb-intro"><strong>b) Nur noch zwei Stunden Arbeitsfähigkeit am Tag:</strong>
-        Anfang der 1880er-Jahre schätzte Bismarck selbst ein, nur noch etwa zwei Stunden täglich
-        wirklich arbeitsfähig zu sein – für einen Mann, der drei Jahrzehnte lang Europas
-        Mächtekonstellationen im Kopf jonglierte, ein dramatischer Einbruch, den er lange Zeit
-        nicht öffentlich eingestand.</p>
-        <p class="vb-intro"><strong>c) Ein zeitgenössisch belegter Griff zu starken Mitteln:</strong>
-        Der Tagebucheintrag einer Bekannten aus dem Jahr 1872 erwähnt, dass der Kanzler Morphium
-        nahm – ein früher Hinweis darauf, dass Bismarck gegen Schlaflosigkeit, Nervenleiden und
-        Schmerzen bereits Jahre vor der offenen Erschöpfungskrise zu starken Mitteln griff, statt
-        die zugrunde liegende Überlastung anzugehen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Weg zu Dr. Schweninger über den eigenen Sohn:</strong>
-        Bismarck kam über seinen Sohn Wilhelm, der selbst unter adipositasbedingten Herz- und
-        Gichtproblemen litt, mit dem jungen bayerischen Arzt Ernst Schweninger in Kontakt – 1882
-        brachte Wilhelm ihn auf das Gut Varzin in Hinterpommern, im Frühsommer 1883 übernahm
-        Schweninger die Behandlung des Kanzlers.</p>
-        <p class="vb-intro"><strong>b) Ein einfaches, aber radikal konsequentes Regime:</strong>
-        Schweningers Rezept war schlicht: Bewegung an frischer Luft, einfache, reduzierte
-        Ernährung, deutlich weniger Alkohol und regelmäßiger Schlaf – gegen den erklärten
-        Widerstand der etablierten Hofärzte, die auf klassischere Kuren gesetzt hatten.</p>
-        <p class="vb-intro"><strong>c) Rund 20 Kilogramm in wenigen Jahren:</strong>
-        Von rund 123 Kilogramm im Jahr 1879 sank Bismarcks Gewicht bis 1884 auf etwa 100
-        Kilogramm – ein für die Zeit spektakulärer Erfolg, der Schweninger 1884 die Berufung zum
-        Leiter der Berliner Dermatologie-Klinik und zum außerordentlichen Professor einbrachte,
-        auf Bismarcks eigenes Betreiben hin.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Vertrauen, das nur wenigen Menschen je zuteilwurde:</strong>
-        Dass Bismarck – ein Mann, dessen politischer Stil auf tiefem, chronischem Misstrauen
-        beruhte – sich einem jungen, in Hofkreisen zunächst belächelten Außenseiterarzt derart
-        rückhaltlos anvertraute, ist für die SX6w5 bemerkenswert: Vertrauen wird selten vergeben,
-        aber wenn es vergeben wird, dann kompromisslos.</p>
-        <p class="vb-intro"><strong>b) Deutlich gesteigerte Aktivität nach der Kur:</strong>
-        Nach der erfolgreichen Behandlung wurde Bismarck spürbar aktiver und belastbarer – die
-        radikale Umstellung wirkte, wo Jahrzehnte an Selbstüberforderung den Körper zuvor an den
-        Rand der Handlungsunfähigkeit gebracht hatten.</p>
-        <p class="vb-intro"><strong>c) Ein Muster, das sich nach 1890 wiederholte:</strong>
-        Nach der erzwungenen Entlassung 1890 zog sich Bismarck endgültig nach Friedrichsruh
-        zurück – wieder mit Klagen über Nervenleiden, Schlaflosigkeit und Verdauungsbeschwerden,
-        wieder in der für den Fünferflügel typischen Rückzugshaltung, sobald die politische Bühne
-        ihm entzogen war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Eine zweite, endgültige Verschlechterung ab Mitte 1897:</strong>
-        Bismarcks Ärzte diagnostizierten Mitte 1897 eine sogenannte Altersbrand-Erkrankung –
-        eine chronische Durchblutungsstörung, die zum schmerzhaften Absterben von Gewebe am Fuß
-        führte und im Sommer 1898 zunehmend das gesamte Krankheitsbild bestimmte.</p>
-        <p class="vb-intro"><strong>b) Rollstuhl, Fieber und wachsende Atemnot:</strong>
-        Ab Sommer 1898 verschlechterte sich sein Zustand rasch: Bismarck war zunehmend an den
-        Rollstuhl gebunden, litt unter Fieber und einer hinzukommenden Lungenentzündung mit
-        schwerer Atemnot – ein körperlicher Verfall, der binnen weniger Wochen jede Genesung
-        unmöglich machte.</p>
-        <p class="vb-intro"><strong>c) Ein Tod kurz nach Mitternacht:</strong>
-        Otto von Bismarck starb am 30. Juli 1898 kurz nach Mitternacht in seinem Schlafzimmer in
-        Friedrichsruh, im Alter von 83 Jahren – an den Folgen von Gangrän, Lungenentzündung und
-        schweren Verdauungsstörungen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Offenheit für genau einen Vertrauten:</strong>
-        Dass ausgerechnet Schweninger, ein junger Außenseiter ohne höfischen Rückhalt, zum
-        einzigen Arzt wurde, dem Bismarck wirklich folgte, zeigt die SX6w5 in ihrer seltenen,
-        gesunden Form: Kontrolle abzugeben, wenn das Vertrauen wirklich verdient scheint.</p>
-        <p class="vb-intro"><strong>b) Dieselbe Härte, die zuvor politische Gegner traf, nun gegen den eigenen Körper:</strong>
-        Die Kompromisslosigkeit, mit der Bismarck einst gegen Kulturkampf-Gegner und
-        Sozialdemokraten vorging, richtete sich in den letzten Lebensjahren auch gegen die
-        eigenen Warnsignale – Schmerzen und Funktionsverlust wurden möglichst lange verdrängt,
-        statt ernst genommen zu werden.</p>
-        <p class="vb-intro"><strong>c) Rückzug statt öffentlicher Schwäche:</strong>
-        Wie schon in früheren Erschöpfungsphasen zog sich Bismarck auch in seiner letzten
-        Krankheit weitgehend aus der Öffentlichkeit zurück, statt Schwäche sichtbar werden zu
-        lassen – der Fünferflügel, der die Verletzlichkeit lieber hinter verschlossenen Türen in
-        Friedrichsruh verbarg als vor Publikum.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Friedrich Schiller (SX6w5):</strong>
-        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Friedrich
-        Schiller</a>, ebenfalls SX6w5, zeigt sich bei Bismarck das für diesen Subtyp typische
-        Grundmuster: der Bedrohung – auch der eigenen Sterblichkeit – nicht mit Rückzug, sondern
-        mit Konfrontation zu begegnen. Die Ausprägung ist jedoch gegenläufig: Schiller
-        konfrontierte seine Krankheit, indem er bis zur physischen Erschöpfung weiterarbeitete;
-        Bismarck konfrontierte die eigene Gangrän, indem er ihre Behandlung verweigerte – zwei
-        Varianten derselben SX6-Grundhaltung, der eigenen Verwundbarkeit nie nachzugeben, nur mit
-        entgegengesetztem äußerem Ausdruck: Aktivität bei Schiller, Verweigerung bei Bismarck.</p>
-        <p class="vb-intro"><strong>b) Zwei getrennte Krisen, ein wiederkehrendes Muster:</strong>
-        Zwischen der Erschöpfungskrise der frühen 1880er-Jahre und der tödlichen Gangrän der
-        späten 1890er-Jahre liegen anderthalb Jahrzehnte – doch beide Male reagierte Bismarcks
-        Körper auf jahrelang aufgestaute politische Anspannung, und beide Male stand am Anfang
-        ein Zustand, den er selbst lange heruntergespielt hatte, bevor überhaupt reagiert wurde.</p>
-        <p class="vb-intro"><strong>c) Warum die Behandlung durch Schweninger gelang, während die Gangrän-Behandlung scheiterte:</strong>
-        Der entscheidende Unterschied lässt sich am Vertrauen festmachen: 1883 übergab sich
-        Bismarck fast bedingungslos in die Hände eines einzelnen Arztes, dem er persönlich
-        vertraute. In seinen letzten Lebensjahren, isolierter und misstrauischer als je zuvor
-        gegenüber der offiziellen Ärzteschaft am Hof seines Nachfolgers Wilhelm II., fehlte
-        offenbar genau diese Vertrauensbeziehung, die 1883 den Ausschlag gegeben hatte.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet der Fuß, das Organ des eigenen Standpunkts?</strong>
-        Für eine sexuelle Sechs, deren gesamtes politisches Handwerk darauf beruhte, den eigenen
-        Standpunkt notfalls mit Drohung und Härte zu behaupten, liegt eine Deutung nahe:
-        ausgerechnet das Organ, das im übertragenen Sinn für den eigenen, unerschütterlichen
-        Stand steht, wurde in den letzten Lebensjahren zum Schauplatz eines Verfalls, den
-        Bismarck – anders als jede politische Bedrohung zuvor – nicht durch Kontrolle oder
-        Gegenangriff abwenden konnte. Die Weigerung, sich behandeln zu lassen, liest sich als
-        letzter Versuch, wenigstens die Deutungshoheit über den eigenen, unaufhaltsam
-        verfallenden Körper zu behalten – Kontrolle über die eigene Verletzlichkeit dadurch zu
-        wahren, dass man sie leugnet, statt sie behandeln zu lassen. Diese Deutung ist eine
-        plausible Interpretation, kein belegter historischer Kausalzusammenhang.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Durchblutungsstörungen
-        oder Gangrän führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
-        Subtyp.</strong> Was sich an Bismarcks Fall zeigen lässt, ist ein Muster, das bei dem
-        Bedürfnis, Schwäche – auch die eigene körperliche – nicht einzugestehen, in der Praxis
-        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Bismarck kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
-        Lebzeiten noch nicht. Die Kontrareaktion der sexuellen Sechs, jeder Bedrohung mit Härte
-        statt mit Rückzug zu begegnen, kannte für ihn keinen eingebauten Warnmechanismus, der ihn
-        rechtzeitig zur Behandlung hätte bewegen können; im Gegenteil, das eigene, absterbende
-        Gewebe wurde offenbar in derselben Logik verarbeitet wie jede andere Bedrohung seines
-        Lebens zuvor: als etwas, dem man nicht nachgibt, sondern dem man die Stirn bietet, notfalls
-        auch durch bloßes Ignorieren. Wer das eigene Muster, Schwäche nie zuzugeben, nicht kennt,
-        kann es auch nicht rechtzeitig durchbrechen – bei Bismarck endete das erst mit dem Tod, am
-        30. Juli 1898.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Bismarcks</strong> sexuelle Sechs mit
-        Fünferflügel noch einmal ablesen: eine Erschöpfungskrise der frühen 1880er-Jahre, die er
-        nur durch fast bedingungslose Vertrauensvergabe an einen einzelnen Arzt überwand, und eine
-        Gangrän der späten 1890er-Jahre, deren Behandlung er verweigerte, bis am 30. Juli 1898
-        kein Widerstand mehr möglich war. Der Wolf, der einmal lernte, sich einem Einzelnen
-        anzuvertrauen – und der dieses Vertrauen am Ende seines Lebens niemandem mehr entgegenbringen
-        konnte, nicht einmal der eigenen Verletzlichkeit gegenüber.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5) – Lebenswerk"},
-        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – gleicher Subtyp"},
-        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
   `);

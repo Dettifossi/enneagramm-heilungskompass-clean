@@ -1,3 +1,574 @@
+function karlLagerfeldKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-lagerfeld-portrait.jpg" alt="Karl Lagerfeld" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lagerfeld</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1933–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Karl Lagerfeld</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-karl-lagerfeld">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier geht es ausschließlich um ein Kapitel, das dort ausgespart bleibt:
+        eine Krebserkrankung, die er nach übereinstimmenden Berichten jahrelang selbst vor
+        engsten Vertrauten geheim hielt, bis er im Februar 2019 im Alter von 85 Jahren starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lagerfeld</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
+        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – sie ist nicht
+        einfach erfolgreich, sie <em>ist</em> der Erfolg, den sie verkörpert, und das Bild, das
+        sie von sich zeigt, muss lückenlos intakt bleiben. Der Viererflügel bringt ein feines
+        Gespür für Ästhetik und Inszenierung hinzu, aber auch eine tiefe Scham vor allem, was
+        dieses makellose Bild beschädigen könnte – Krankheit und Alter gehören für diese
+        Kombination zu den am schwersten zuzulassenden Themen überhaupt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Das Bild vor der Wahrheit:</strong>
+        Lagerfelds öffentlicher Blick galt zeitlebens der Frage, welches Bild von ihm nach
+        außen sichtbar wurde – diese Priorität änderte sich auch angesichts einer
+        fortschreitenden Erkrankung nicht.</p>
+        <p class="vb-intro"><strong>b) Schwäche als das eine nicht verhandelbare Tabu:</strong>
+        Wo andere Krankheitsporträts dieses Kompasses von Betroffenen erzählen, die ihre
+        Diagnose irgendwann bewusst offenlegten, wählte Lagerfeld den entgegengesetzten Weg:
+        Gerüchte über seinen Gesundheitszustand wurden aus seinem Umfeld aktiv dementiert.</p>
+        <p class="vb-intro"><strong>c) Kontrolle bis zur letzten sichtbaren Geste:</strong>
+        Als er im Januar 2019 erstmals bei einer Chanel-Show fehlte, schickte er eine
+        Videobotschaft an Weggefährten, um Sorgen zu zerstreuen – selbst der Rückzug wurde
+        noch einmal inszeniert, nicht einfach hingenommen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine widersprüchliche Diagnose:</strong>
+        Zum Zeitpunkt seines Todes kursierte in den Medien die Angabe
+        Bauchspeicheldrüsenkrebs, offiziell von Chanel oder der Familie jedoch nie bestätigt.
+        Ende 2019 erklärte sein langjähriger persönlicher Assistent Sébastien Jondeau, Lagerfeld
+        habe tatsächlich an Prostatakrebs gelitten, diagnostiziert bereits 2015 – die genaue
+        Krebsart bleibt bis heute nicht zweifelsfrei geklärt.</p>
+        <p class="vb-intro"><strong>b) Fast vier Jahre vollständige Geheimhaltung:</strong>
+        Nach Jondeaus Darstellung wussten selbst engste Familienangehörige nicht von der 2015
+        gestellten Diagnose – eine Geheimhaltung, die weit über das hinausgeht, was in anderen
+        Krankheitsporträts dieses Kompasses dokumentiert ist.</p>
+        <p class="vb-intro"><strong>c) 35 Jahre ohne einen einzigen Fehltermin:</strong>
+        Seit seinem Amtsantritt bei Chanel 1983 hatte Lagerfeld keine einzige Schlussverbeugung
+        einer Show verpasst – bis zum Januar 2019, wenige Wochen vor seinem Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Das erste sichtbare Zeichen von Schwäche:</strong>
+        Bei der Chanel-Haute-Couture-Show am 22. Januar 2019 fehlte Lagerfeld erstmals seit 35
+        Jahren beim Schlussapplaus; offiziell wurde "Erschöpfung" als Grund genannt, Virginie
+        Viard vertrat ihn.</p>
+        <p class="vb-intro"><strong>b) Der radikale Gewichtsverlust als Kontrollakt, nicht als Gesundheitsprojekt:</strong>
+        Ab 2000/2001 verlor Lagerfeld innerhalb von rund 13 Monaten etwa 42 Kilogramm mit
+        einer eigens vermarkteten Diät – nicht aus gesundheitlicher Sorge, sondern weil er in
+        die schmal geschnittenen Anzüge eines jüngeren Designers passen wollte. Ein derart
+        schneller Gewichtsverlust gilt medizinisch grundsätzlich als riskant.</p>
+        <p class="vb-intro"><strong>c) Rigide Selbstkontrolle bis in den Schlaf:</strong>
+        Lagerfeld betonte wiederholt öffentlich, exakt sieben Stunden zu schlafen und ohne
+        Wecker aufzuwachen: "Ich schlafe sieben Stunden. Ich wache nicht vorher auf – das Haus
+        kann zusammenbrechen, aber ich schlafe meine sieben Stunden." Selbst der Schlaf wurde
+        zum disziplinierten, kontrollierten Ritual erklärt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der die Modewelt unvorbereitet traf:</strong>
+        Weil Gesundheitssorgen aus seinem Umfeld noch wenige Wochen zuvor zurückgewiesen
+        worden waren, kam die Nachricht von Lagerfelds Tod am 19. Februar 2019 für die
+        Öffentlichkeit überraschend, obwohl sein Körper offenbar längst gezeichnet war.</p>
+        <p class="vb-intro"><strong>b) Bis heute keine offizielle Bestätigung der Todesursache:</strong>
+        Weder Chanel noch die Familie haben je eine offizielle Diagnose bestätigt – ein
+        letzter, konsequenter Akt der Bilderhaltung, der über den Tod hinausreicht.</p>
+        <p class="vb-intro"><strong>c) Ein Arbeitspensum ohne erkennbaren Rückzug:</strong>
+        Bis zuletzt betreute Lagerfeld parallel bis zu acht Kollektionen jährlich für Chanel
+        sowie mehrere für Fendi – kein dokumentierter Rückzug vor dem Januar 2019.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die öffentliche Rolle als Schutzschild:</strong>
+        Solange die Rolle des makellos funktionierenden Modezaren aufrechterhalten werden
+        konnte, schien auch die Energie dafür vorhanden – das Bild trug den Körper, nicht
+        umgekehrt.</p>
+        <p class="vb-intro"><strong>b) Erschöpfung als einzig zugelassene Erklärung:</strong>
+        Selbst als der Rückzug unübersehbar wurde, blieb die offizielle Sprachregelung im
+        Rahmen des Kontrollierbaren – "Erschöpfung" statt Krankheit, ein Begriff, der
+        Schwäche zeitlich begrenzt, nicht bedrohlich erscheinen lässt.</p>
+        <p class="vb-intro"><strong>c) Kein Tempowechsel bis zur letzten Show:</strong>
+        Die Energie der SO3w4 richtete sich bis zuletzt auf denselben Antrieb, der Lagerfelds
+        gesamte Karriere prägte: keine Kollektion, keinen Auftritt, kein Bild zuzulassen, das
+        nicht der eigenen Inszenierung entsprach.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Diagnose 2015, geheim gehalten bis zum Tod:</strong>
+        Laut Aussage seines langjährigen persönlichen Assistenten Sébastien Jondeau erhielt
+        Lagerfeld bereits 2015 eine Krebsdiagnose – vier Jahre, die er offenbar nutzte, um nach
+        außen den Anschein völliger Unversehrtheit aufrechtzuerhalten.</p>
+        <p class="vb-intro"><strong>b) Aktives Dementi statt Offenlegung:</strong>
+        Anders als Ronald Reagan (SO9w8), der seine Diagnose in einem direkten Brief an die
+        Öffentlichkeit richtete, oder David Bowie (SO1w2), der sie in Kunst verschlüsselte,
+        wählte Lagerfeld eine dritte Variante: das schlichte Zurückweisen jeder Andeutung von
+        Krankheit, so lange wie irgend möglich.</p>
+        <p class="vb-intro"><strong>c) Ein einziges sichtbares Zeichen, vier Wochen vor dem Tod:</strong>
+        Erst das Fehlen bei der Chanel-Show im Januar 2019 – nach 35 Jahren lückenloser
+        Präsenz – ließ öffentlich erahnen, was intern längst bekannt gewesen sein muss.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Organ, das im Verborgenen arbeitet?</strong>
+        Sowohl die Bauchspeicheldrüse als auch die Prostata – die beiden konkurrierenden
+        Diagnosen – zählen zu den Organen, die lange Zeit ohne äußerlich sichtbare Symptome
+        erkranken können, oft erst in fortgeschrittenem Stadium bemerkt werden. Für eine
+        soziale Drei mit Viererflügel, deren gesamtes Lebenswerk auf der lückenlosen
+        Aufrechterhaltung eines makellosen äußeren Bildes beruhte, liegt eine Deutung nahe:
+        ausgerechnet ein Organ zu erkranken, das selbst im Verborgenen liegt und keine
+        sichtbaren Warnzeichen sendet, passt zu einem Leben, in dem alles Innere – Zweifel,
+        Schwäche, Alter, Angst – strikt hinter einer makellosen äußeren Fassade verborgen
+        blieb. Der Körper erkrankte an einer Stelle, die so unsichtbar war wie die Wahrheit,
+        die er ein Leben lang verbarg. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Krebserkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Lagerfelds Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, jede Schwäche restlos vor der Öffentlichkeit zu verbergen, in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Lagerfeld kannte sein eigenes Muster nicht – die soziale Drei hält das öffentliche Bild um jeden Preis aufrecht, und genau das ließ ihn eine Krebsdiagnose fast vier Jahre lang selbst vor engsten Vertrauten geheim halten, statt sein Tempo auch nur einmal zu drosseln. Wer das eigene Bedürfnis nach makelloser öffentlicher Erscheinung nicht als Muster erkennt, verbirgt selbst die eigene Sterblichkeit dahinter.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Lagerfelds</strong> soziale Drei mit Viererflügel blieb bis zuletzt auch in der
+        eigenen Erkrankung spürbar: eine Diagnose, die vermutlich fast vier Jahre lang
+        selbst vor der eigenen Familie verborgen blieb, ein öffentliches Bild, das bis auf
+        eine einzige Ausnahme vier Wochen vor dem Tod makellos intakt gehalten wurde, und eine
+        Todesursache, die bis heute nie offiziell bestätigt wurde. Der Gepard, der sein Tempo
+        bis zur letzten sichtbaren Sekunde hielt – und sich erst dann zurückzog, als kein
+        weiterer Sprint mehr möglich war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4) – Lebenswerk"},
+        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4) – ebenfalls Weiterarbeit trotz schwerer Krankheit"},
+        {route:"krankheitsportraets-sean-connery", label:"Krankheitsporträt: Sean Connery (SO3w4) – gleicher Subtyp"},
+        {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2) – ebenfalls Geheimhaltung, aber künstlerisch verschlüsselt statt dementiert"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte Offenlegung statt Dementi"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
+function friedrichSchillerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-friedrich-schiller-portrait.jpg" alt="Friedrich Schiller" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedrich Schiller</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1759–1805</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedrich Schiller</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-friedrich-schiller">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Hier steht ein Kapitel im Mittelpunkt, das dort kaum zur Sprache kommt:
+        eine seit der Kindheit anfällige Konstitution, ein vermutlich während des
+        Medizinstudiums erworbener Tuberkulose-Keim und vierzehn Jahre Arbeit gegen einen
+        Körper, der bereits 1791 lebensbedrohlich zusammengebrochen war.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schiller</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
+        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
+        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke. Der Fünferflügel bringt
+        analytische Tiefe und die Fähigkeit, sich in Arbeit und Struktur zu vertiefen, bis
+        keine Kraft mehr übrig ist – ein Muster, das sich bis in Schillers letzte, von
+        fortschreitender Krankheit gezeichnete Lebensjahre nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Der eigene Körper als weiterer Gegner, dem man sich stellt:</strong>
+        Schillers Blick auf die eigene, fortschreitende Krankheit war derselbe wie auf jede
+        andere Bedrohung seines Lebens – nicht ausweichen, sondern weiterarbeiten, als ließe
+        sich der Verfall durch Willenskraft aufhalten.</p>
+        <p class="vb-intro"><strong>b) Warnzeichen als Hindernis, nicht als Grenze:</strong>
+        Schon an der Karlsschule lag der junge Schiller wiederholt wegen Husten und
+        Lungenkatarrhen im Krankenzimmer – ein früher Hinweis auf eine fragile Konstitution,
+        die er zeitlebens nicht als Grenze, sondern als weiteres Hindernis behandelte.</p>
+        <p class="vb-intro"><strong>c) Nächte, die dem Tag abgerungen wurden:</strong>
+        Goethe bemerkte über Schillers Arbeitsweise bewundernd und zugleich besorgt: „Seine
+        durchwachten Nächte haben unseren Tag erhellt" – eine Beobachtung, die zeigt, wie sehr
+        Schillers Umfeld die Kosten seiner Arbeitsweise bereits ahnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein möglicher Ursprung während des Medizinstudiums:</strong>
+        Während seines erzwungenen Medizinstudiums an der Karlsschule obduzierte Schiller
+        einen Kommilitonen, der an Lungentuberkulose gestorben war. Historiker und Mediziner
+        gehen davon aus, dass er sich in dieser Zeit den Krankheitskeim zuzog, der ihn fortan
+        begleitete.</p>
+        <p class="vb-intro"><strong>b) Raubbau am eigenen Körper als Lebensstil:</strong>
+        Schiller arbeitete oft die ganze Nacht durch, ernährte sich unregelmäßig und
+        schlecht und litt unter chronischen Verdauungsproblemen und wiederkehrenden
+        Infekten – eine Lebensweise, die seine ohnehin fragile Konstitution zusätzlich
+        schwächte.</p>
+        <p class="vb-intro"><strong>c) Der Zusammenbruch von 1791:</strong>
+        Mit 32 Jahren erlitt Schiller die ersten wiederkehrenden, lebensbedrohlichen Anfälle
+        von schwerem Fieber, heftigem Husten mit Blutauswurf und Ohnmachten – vermutlich
+        schwere Schübe der Tuberkulose. Er erholte sich danach nie wieder vollständig.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vierzehn Jahre Arbeit gegen den eigenen Verfall:</strong>
+        Nach 1791 lebte und arbeitete Schiller weitere vierzehn Jahre unter dem ständigen
+        Druck der fortschreitenden Krankheit – und schrieb ausgerechnet in dieser Zeit sein
+        bedeutendstes Alterswerk: die Wallenstein-Trilogie, Maria Stuart, Die Jungfrau von
+        Orleans und Wilhelm Tell.</p>
+        <p class="vb-intro"><strong>b) Rascher Verfall im Frühjahr 1805:</strong>
+        Nach einem Theaterbesuch am 1. Mai 1805 erlitt Schiller einen schweren Zusammenbruch
+        mit Fieberkrämpfen. Acht Tage später, am 9. Mai 1805, starb er im Alter von nur 45
+        Jahren an einer akuten Lungenentzündung.</p>
+        <p class="vb-intro"><strong>c) Ein Obduktionsbefund, der selbst die behandelnden Ärzte erschütterte:</strong>
+        Die Obduktion am Tag nach seinem Tod ergab einen völlig zerstörten, vernarbten und
+        fest mit dem Herzbeutel verwachsenen rechten Lungenflügel, stark angegriffene, „fast
+        aufgelöste" Nieren und einen altersuntypisch zurückgebildeten Herzmuskel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Arzturteil, das Fassungslosigkeit ausdrückte:</strong>
+        Der behandelnde Arzt fasste den Zustand des verstorbenen Dichters in dem später oft
+        zitierten Satz zusammen: „Bei diesen Umständen muss man sich wundern, wie der arme
+        Mann so lange hat leben können."</p>
+        <p class="vb-intro"><strong>b) Ein geschwächter Körper, getragen von einer der willensstärksten Konstitutionen des Enneagramms:</strong>
+        Der Obduktionsbefund zeigt, dass Schillers Organismus über Jahre hinweg auf einem
+        Bruchteil seiner eigentlichen Funktionsfähigkeit weiterarbeitete. Medizinisch lässt
+        sich das kaum durch den Körper selbst erklären – wohl aber durch die mentale
+        Willenskraft der sexuellen Sechs, die unter den 27 Subtypen des Enneagramms zu den
+        willensstärksten zählt. Nicht der geschwächte Körper hielt durch, sondern das
+        Prinzip, das ihn trotz allem weiter antrieb – genau das, was den behandelnden Arzt so
+        erstaunte.</p>
+        <p class="vb-intro"><strong>c) Kreativität, die mit dem Verfall parallel zunahm:</strong>
+        Statt nachzulassen, entstanden gerade in den letzten, von Krankheit gezeichneten
+        Lebensjahren einige seiner reifsten und bedeutendsten Werke – ein Befund, der viele
+        Zeitgenossen und spätere Biografen ratlos zurückließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Angriff statt Rückzug:</strong>
+        Wie er einst dem Herzog Karl Eugen und der Zensur die Stirn geboten hatte, begegnete
+        Schiller auch der eigenen Krankheit nicht mit Rückzug, sondern mit fortgesetzter,
+        kompromissloser Arbeit.</p>
+        <p class="vb-intro"><strong>b) Energie, die bis zur physiologischen Erschöpfung reichte:</strong>
+        Die durchwachten Nächte, von Goethe bewundernd beschrieben, waren zugleich ein
+        fortlaufender Raubbau – Energie, die dem eigenen Körper buchstäblich entzogen wurde, um
+        das Werk voranzutreiben.</p>
+        <p class="vb-intro"><strong>c) Kein Innehalten bis zum letzten Zusammenbruch:</strong>
+        Noch acht Tage vor seinem Tod besuchte Schiller ein Theater – ein Leben, das bis
+        buchstäblich zum letzten möglichen Moment nach außen gerichtet blieb, statt sich
+        zurückzuziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine fragile Konstitution seit der Kindheit:</strong>
+        Bereits als Kind galt Schiller als zart und anfällig – ein Muster, das sich durch die
+        Jahre an der Karlsschule mit wiederholten Lungenkatarrhen fortsetzte, lange bevor die
+        eigentliche Erkrankung ausbrach.</p>
+        <p class="vb-intro"><strong>b) Vierzehn Jahre zwischen Zusammenbruch und Tod:</strong>
+        Vom ersten lebensbedrohlichen Anfall 1791 bis zu seinem Tod 1805 lebte Schiller
+        anderthalb Jahrzehnte mit einer Krankheit, die er nie öffentlich in den Mittelpunkt
+        stellte, sondern die er durch fortgesetzte Arbeit gewissermaßen überschrieb.</p>
+        <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
+        Anders als Karl Lagerfeld (SO3w4), der seine Krankheit hinter einem makellosen Bild
+        verbarg, oder David Bowie (SO1w2), der sie künstlerisch verschlüsselte, verbarg Schiller seine Krankheit
+        nicht – er ignorierte sie schlicht durch fortgesetzte, unvermindert intensive Arbeit,
+        bis der Körper keine weitere Konfrontation mehr zuließ.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Lunge, das Organ der Stimme?</strong>
+        Der Obduktionsbefund zeigt einen Lungenflügel, der über Jahre hinweg vernarbte und
+        schließlich vollständig funktionsunfähig wurde. Für eine sexuelle Sechs, deren
+        gesamtes Werk aus dem lauten, kompromisslosen Widerspruch gegen Tyrannei und
+        Unterdrückung bestand – deren Stimme selbst zur Waffe wurde –, liegt eine Deutung
+        nahe: ausgerechnet das Organ, das Stimme, Atem und Widerstand physisch trägt, wurde
+        Schauplatz eines jahrzehntelangen, unsichtbaren Kampfes, den er nie durch Rückzug,
+        sondern immer nur durch Weiterarbeiten zu gewinnen versuchte, bis buchstäblich kein
+        Atem mehr blieb. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu
+        Lungenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Schillers Fall zeigen lässt, ist ein
+        Muster, das bei dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch
+        Rückzug, sondern durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer
+        wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Schiller kannte sein eigenes Muster nicht – die sexuelle Sechs begegnet Bedrohung reflexhaft mit Konfrontation statt mit Schonung, und genau das trieb ihn vierzehn Jahre lang gegen den eigenen körperlichen Verfall weiterzuarbeiten, statt der Krankheit auch nur einmal nachzugeben. Wer das eigene Konfrontationsmuster nicht kennt, kämpft weiter, selbst wenn Rückzug die gesündere Antwort wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Schillers</strong> sexuelle Sechs mit
+        Fünferflügel noch einmal ablesen: eine seit der Kindheit fragile Konstitution, ein
+        wahrscheinlich im Medizinstudium erworbener Krankheitskeim und vierzehn Jahre
+        kompromissloser Arbeit gegen einen zunehmend zerstörten Körper, bis am 9. Mai 1805
+        buchstäblich kein Widerstand mehr möglich war. Der Wolf, der der Bedrohung – der
+        Zensur wie der eigenen Sterblichkeit – nie auswich, sondern ihr bis zur letzten
+        Konsequenz die Stirn bot.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5) – Lebenswerk"},
+        {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsporträt: Otto von Bismarck (SX6w5) – gleicher Subtyp, gegenläufige Ausprägung"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
+function ottoVonBismarckKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Otto von Bismarck</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1815–1898</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Otto von Bismarck</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-otto-von-bismarck">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, den Wolf als Tiermotiv und
+        seine Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
+        gestreift wird: der Erschöpfungskrise und dem massiven Übergewicht Anfang der 1880er-Jahre,
+        der radikalen Behandlung durch Dr. Ernst Schweninger – und der verweigerten Behandlung
+        einer Gangrän am Fuß, die zu seinen letzten Lebenswochen 1898 führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bismarck</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
+        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
+        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke – auch wenn die Bedrohung der
+        eigene, alternde Körper ist. Der Fünferflügel bringt eine Neigung zu Hypochondrie und
+        Rückzug in die eigene Innenwelt, die bei Bismarck in einer strikten Trennung zwischen dem,
+        was er öffentlich zeigte, und dem, was er körperlich wirklich durchmachte, sichtbar wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der Jahrzehnte politischer Dauerspannung aufsummierte:</strong>
+        Bereits Ende der 1870er-Jahre war Bismarcks Gewicht auf rund 123 Kilogramm angestiegen –
+        die Summe jahrzehntelanger Bewältigungsstrategien gegen chronischen Stress: reichhaltiges
+        Essen, starkes Rauchen und erheblicher Alkoholkonsum, während er zugleich Reichsgründung,
+        Kulturkampf und Sozialistengesetze im Zaum hielt.</p>
+        <p class="vb-intro"><strong>b) Nur noch zwei Stunden Arbeitsfähigkeit am Tag:</strong>
+        Anfang der 1880er-Jahre schätzte Bismarck selbst ein, nur noch etwa zwei Stunden täglich
+        wirklich arbeitsfähig zu sein – für einen Mann, der drei Jahrzehnte lang Europas
+        Mächtekonstellationen im Kopf jonglierte, ein dramatischer Einbruch, den er lange Zeit
+        nicht öffentlich eingestand.</p>
+        <p class="vb-intro"><strong>c) Ein zeitgenössisch belegter Griff zu starken Mitteln:</strong>
+        Der Tagebucheintrag einer Bekannten aus dem Jahr 1872 erwähnt, dass der Kanzler Morphium
+        nahm – ein früher Hinweis darauf, dass Bismarck gegen Schlaflosigkeit, Nervenleiden und
+        Schmerzen bereits Jahre vor der offenen Erschöpfungskrise zu starken Mitteln griff, statt
+        die zugrunde liegende Überlastung anzugehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Weg zu Dr. Schweninger über den eigenen Sohn:</strong>
+        Bismarck kam über seinen Sohn Wilhelm, der selbst unter adipositasbedingten Herz- und
+        Gichtproblemen litt, mit dem jungen bayerischen Arzt Ernst Schweninger in Kontakt – 1882
+        brachte Wilhelm ihn auf das Gut Varzin in Hinterpommern, im Frühsommer 1883 übernahm
+        Schweninger die Behandlung des Kanzlers.</p>
+        <p class="vb-intro"><strong>b) Ein einfaches, aber radikal konsequentes Regime:</strong>
+        Schweningers Rezept war schlicht: Bewegung an frischer Luft, einfache, reduzierte
+        Ernährung, deutlich weniger Alkohol und regelmäßiger Schlaf – gegen den erklärten
+        Widerstand der etablierten Hofärzte, die auf klassischere Kuren gesetzt hatten.</p>
+        <p class="vb-intro"><strong>c) Rund 20 Kilogramm in wenigen Jahren:</strong>
+        Von rund 123 Kilogramm im Jahr 1879 sank Bismarcks Gewicht bis 1884 auf etwa 100
+        Kilogramm – ein für die Zeit spektakulärer Erfolg, der Schweninger 1884 die Berufung zum
+        Leiter der Berliner Dermatologie-Klinik und zum außerordentlichen Professor einbrachte,
+        auf Bismarcks eigenes Betreiben hin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Vertrauen, das nur wenigen Menschen je zuteilwurde:</strong>
+        Dass Bismarck – ein Mann, dessen politischer Stil auf tiefem, chronischem Misstrauen
+        beruhte – sich einem jungen, in Hofkreisen zunächst belächelten Außenseiterarzt derart
+        rückhaltlos anvertraute, ist für die SX6w5 bemerkenswert: Vertrauen wird selten vergeben,
+        aber wenn es vergeben wird, dann kompromisslos.</p>
+        <p class="vb-intro"><strong>b) Deutlich gesteigerte Aktivität nach der Kur:</strong>
+        Nach der erfolgreichen Behandlung wurde Bismarck spürbar aktiver und belastbarer – die
+        radikale Umstellung wirkte, wo Jahrzehnte an Selbstüberforderung den Körper zuvor an den
+        Rand der Handlungsunfähigkeit gebracht hatten.</p>
+        <p class="vb-intro"><strong>c) Ein Muster, das sich nach 1890 wiederholte:</strong>
+        Nach der erzwungenen Entlassung 1890 zog sich Bismarck endgültig nach Friedrichsruh
+        zurück – wieder mit Klagen über Nervenleiden, Schlaflosigkeit und Verdauungsbeschwerden,
+        wieder in der für den Fünferflügel typischen Rückzugshaltung, sobald die politische Bühne
+        ihm entzogen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine zweite, endgültige Verschlechterung ab Mitte 1897:</strong>
+        Bismarcks Ärzte diagnostizierten Mitte 1897 eine sogenannte Altersbrand-Erkrankung –
+        eine chronische Durchblutungsstörung, die zum schmerzhaften Absterben von Gewebe am Fuß
+        führte und im Sommer 1898 zunehmend das gesamte Krankheitsbild bestimmte.</p>
+        <p class="vb-intro"><strong>b) Rollstuhl, Fieber und wachsende Atemnot:</strong>
+        Ab Sommer 1898 verschlechterte sich sein Zustand rasch: Bismarck war zunehmend an den
+        Rollstuhl gebunden, litt unter Fieber und einer hinzukommenden Lungenentzündung mit
+        schwerer Atemnot – ein körperlicher Verfall, der binnen weniger Wochen jede Genesung
+        unmöglich machte.</p>
+        <p class="vb-intro"><strong>c) Ein Tod kurz nach Mitternacht:</strong>
+        Otto von Bismarck starb am 30. Juli 1898 kurz nach Mitternacht in seinem Schlafzimmer in
+        Friedrichsruh, im Alter von 83 Jahren – an den Folgen von Gangrän, Lungenentzündung und
+        schweren Verdauungsstörungen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Offenheit für genau einen Vertrauten:</strong>
+        Dass ausgerechnet Schweninger, ein junger Außenseiter ohne höfischen Rückhalt, zum
+        einzigen Arzt wurde, dem Bismarck wirklich folgte, zeigt die SX6w5 in ihrer seltenen,
+        gesunden Form: Kontrolle abzugeben, wenn das Vertrauen wirklich verdient scheint.</p>
+        <p class="vb-intro"><strong>b) Dieselbe Härte, die zuvor politische Gegner traf, nun gegen den eigenen Körper:</strong>
+        Die Kompromisslosigkeit, mit der Bismarck einst gegen Kulturkampf-Gegner und
+        Sozialdemokraten vorging, richtete sich in den letzten Lebensjahren auch gegen die
+        eigenen Warnsignale – Schmerzen und Funktionsverlust wurden möglichst lange verdrängt,
+        statt ernst genommen zu werden.</p>
+        <p class="vb-intro"><strong>c) Rückzug statt öffentlicher Schwäche:</strong>
+        Wie schon in früheren Erschöpfungsphasen zog sich Bismarck auch in seiner letzten
+        Krankheit weitgehend aus der Öffentlichkeit zurück, statt Schwäche sichtbar werden zu
+        lassen – der Fünferflügel, der die Verletzlichkeit lieber hinter verschlossenen Türen in
+        Friedrichsruh verbarg als vor Publikum.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im selben Subtyp – Friedrich Schiller (SX6w5):</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-friedrich-schiller">Friedrich
+        Schiller</a>, ebenfalls SX6w5, zeigt sich bei Bismarck das für diesen Subtyp typische
+        Grundmuster: der Bedrohung – auch der eigenen Sterblichkeit – nicht mit Rückzug, sondern
+        mit Konfrontation zu begegnen. Die Ausprägung ist jedoch gegenläufig: Schiller
+        konfrontierte seine Krankheit, indem er bis zur physischen Erschöpfung weiterarbeitete;
+        Bismarck konfrontierte die eigene Gangrän, indem er ihre Behandlung verweigerte – zwei
+        Varianten derselben SX6-Grundhaltung, der eigenen Verwundbarkeit nie nachzugeben, nur mit
+        entgegengesetztem äußerem Ausdruck: Aktivität bei Schiller, Verweigerung bei Bismarck.</p>
+        <p class="vb-intro"><strong>b) Zwei getrennte Krisen, ein wiederkehrendes Muster:</strong>
+        Zwischen der Erschöpfungskrise der frühen 1880er-Jahre und der tödlichen Gangrän der
+        späten 1890er-Jahre liegen anderthalb Jahrzehnte – doch beide Male reagierte Bismarcks
+        Körper auf jahrelang aufgestaute politische Anspannung, und beide Male stand am Anfang
+        ein Zustand, den er selbst lange heruntergespielt hatte, bevor überhaupt reagiert wurde.</p>
+        <p class="vb-intro"><strong>c) Warum die Behandlung durch Schweninger gelang, während die Gangrän-Behandlung scheiterte:</strong>
+        Der entscheidende Unterschied lässt sich am Vertrauen festmachen: 1883 übergab sich
+        Bismarck fast bedingungslos in die Hände eines einzelnen Arztes, dem er persönlich
+        vertraute. In seinen letzten Lebensjahren, isolierter und misstrauischer als je zuvor
+        gegenüber der offiziellen Ärzteschaft am Hof seines Nachfolgers Wilhelm II., fehlte
+        offenbar genau diese Vertrauensbeziehung, die 1883 den Ausschlag gegeben hatte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der Fuß, das Organ des eigenen Standpunkts?</strong>
+        Für eine sexuelle Sechs, deren gesamtes politisches Handwerk darauf beruhte, den eigenen
+        Standpunkt notfalls mit Drohung und Härte zu behaupten, liegt eine Deutung nahe:
+        ausgerechnet das Organ, das im übertragenen Sinn für den eigenen, unerschütterlichen
+        Stand steht, wurde in den letzten Lebensjahren zum Schauplatz eines Verfalls, den
+        Bismarck – anders als jede politische Bedrohung zuvor – nicht durch Kontrolle oder
+        Gegenangriff abwenden konnte. Die Weigerung, sich behandeln zu lassen, liest sich als
+        letzter Versuch, wenigstens die Deutungshoheit über den eigenen, unaufhaltsam
+        verfallenden Körper zu behalten – Kontrolle über die eigene Verletzlichkeit dadurch zu
+        wahren, dass man sie leugnet, statt sie behandeln zu lassen. Diese Deutung ist eine
+        plausible Interpretation, kein belegter historischer Kausalzusammenhang.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Durchblutungsstörungen
+        oder Gangrän führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Bismarcks Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, Schwäche – auch die eigene körperliche – nicht einzugestehen, in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bismarck kannte sein eigenes Enneagramm-Muster nicht – das Konzept existierte zu seinen
+        Lebzeiten noch nicht. Die Kontrareaktion der sexuellen Sechs, jeder Bedrohung mit Härte
+        statt mit Rückzug zu begegnen, kannte für ihn keinen eingebauten Warnmechanismus, der ihn
+        rechtzeitig zur Behandlung hätte bewegen können; im Gegenteil, das eigene, absterbende
+        Gewebe wurde offenbar in derselben Logik verarbeitet wie jede andere Bedrohung seines
+        Lebens zuvor: als etwas, dem man nicht nachgibt, sondern dem man die Stirn bietet, notfalls
+        auch durch bloßes Ignorieren. Wer das eigene Muster, Schwäche nie zuzugeben, nicht kennt,
+        kann es auch nicht rechtzeitig durchbrechen – bei Bismarck endete das erst mit dem Tod, am
+        30. Juli 1898.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Bismarcks</strong> sexuelle Sechs mit
+        Fünferflügel noch einmal ablesen: eine Erschöpfungskrise der frühen 1880er-Jahre, die er
+        nur durch fast bedingungslose Vertrauensvergabe an einen einzelnen Arzt überwand, und eine
+        Gangrän der späten 1890er-Jahre, deren Behandlung er verweigerte, bis am 30. Juli 1898
+        kein Widerstand mehr möglich war. Der Wolf, der einmal lernte, sich einem Einzelnen
+        anzuvertrauen – und der dieses Vertrauen am Ende seines Lebens niemandem mehr entgegenbringen
+        konnte, nicht einmal der eigenen Verletzlichkeit gegenüber.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – gleicher Subtyp"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
 function martinLutherKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12458,680 +13029,6 @@ function fransDeWaalKrankheitsportraetPage() {
         {route:"krankheitsportraets-morgan-freeman", label:"Krankheitsporträt: Morgan Freeman (SX7w6)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
-      ])}
-    </div>
-  `);
-}
-
-function jordanPetersonKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Dr. Jordan Peterson" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
-        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel · geb. 1962</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Gans</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Jordan Peterson</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-jordan-peterson">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur knapp angerissen wird: eine schwere
-        Benzodiazepin-Abhängigkeit, die 2019/2020 in einen künstlich herbeigeführten
-        Entzugskoma in Russland gipfelte, nachdem westliche Kliniken ihm nicht mehr
-        helfen konnten.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Peterson</strong> ist dem <strong>sozialen Typ 1 mit Neunerflügel</strong>
-        zugeordnet. Die SO1 trägt ihren Zorn als gesellschaftliches Anliegen, nicht als
-        privaten Groll; der Neunerflügel bringt eine ruhige, geduldige Überzeugungskraft
-        hinzu, die auch schwierige Botschaften ausdauernd wiederholt. Genau diese
-        Kombination – Ordnung predigen, während im eigenen Leben das Chaos tobte –
-        bestimmte den Verlauf seiner eigenen Suchterkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Verordnung von Benzodiazepinen nach familiärer Krise:</strong>
-        Nach eigener Schilderung erhielt Peterson Benzodiazepine ärztlich verordnet, unter
-        anderem im Zusammenhang mit der schweren, seltenen Autoimmunerkrankung seiner
-        Tochter Mikhaila und der damit verbundenen Belastung.</p>
-        <p class="vb-intro"><strong>b) Schleichend zunehmende körperliche Abhängigkeit:</strong>
-        Über die Zeit entwickelte sich eine physische Abhängigkeit, die nach eigener
-        Aussage weit über die ursprünglich beabsichtigte Anwendung hinausging.</p>
-        <p class="vb-intro"><strong>c) Verschärfung durch eine unerwartete Reaktion 2019:</strong>
-        Eine paradoxe, extreme Reaktion auf eine Dosisanpassung im Frühjahr 2019 löste
-        eine akute gesundheitliche Krise mit schweren Entzugssymptomen aus.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Erfolglose Behandlungsversuche in mehreren Ländern:</strong>
-        Nach Angaben seiner Tochter Mikhaila, die den Fall öffentlich dokumentierte,
-        suchten sie Behandlung in mehreren Kliniken in Nordamerika, ohne dass eine
-        wirksame Linderung des Entzugs erreicht werden konnte.</p>
-        <p class="vb-intro"><strong>b) Extreme Entzugssymptome, darunter Akathisie:</strong>
-        Peterson berichtete später öffentlich über quälende Zustände, unter anderem eine
-        als Akathisie beschriebene, kaum erträgliche innere Unruhe.</p>
-        <p class="vb-intro"><strong>c) Reise nach Russland zur letzten Behandlungsoption:</strong>
-        Ende 2019 reiste die Familie nach Russland, wo eine Klinik eine Behandlung
-        anbot, die in westlichen Ländern zu diesem Zeitpunkt nicht verfügbar war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Künstlich herbeigeführtes Koma zur Entzugsbehandlung:</strong>
-        In Moskau wurde Peterson nach Angaben seiner Tochter in ein induziertes Koma
-        versetzt, um den schwersten Teil des körperlichen Entzugs zu überstehen.</p>
-        <p class="vb-intro"><strong>b) Monatelanger, öffentlich weitgehend unsichtbarer Rückzug:</strong>
-        Über weite Strecken dieser Krise verschwand Peterson fast vollständig aus der
-        Öffentlichkeit – ein starker Kontrast zu seiner sonst omnipräsenten medialen
-        Rolle.</p>
-        <p class="vb-intro"><strong>c) Öffentliche Dokumentation durch die eigene Tochter:</strong>
-        Mikhaila Peterson berichtete während und nach der Krise ausführlich in eigenen
-        Videos über den Verlauf – eine ungewöhnlich offene Begleitung einer
-        Suchterkrankung durch ein Familienmitglied.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
-        Petersons Krise wurde international ausführlich berichtet – für viele eine
-        überraschende Wendung im Leben einer Figur, die öffentlich für Selbstdisziplin
-        und Ordnung stand.</p>
-        <p class="vb-intro"><strong>b) Verzögerte, aber vollständige Rückkehr in die Öffentlichkeit:</strong>
-        Nach monatelanger Genesung kehrte Peterson 2020/2021 schrittweise zu Vorträgen,
-        Interviews und Veröffentlichungen zurück.</p>
-        <p class="vb-intro"><strong>c) Offene spätere Verarbeitung in Interviews:</strong>
-        Peterson sprach in den folgenden Jahren wiederholt öffentlich über die Krise,
-        ohne sie zu verharmlosen oder auszublenden.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Ordnung predigen, während das eigene Leben aus den Fugen geriet:</strong>
-        Dieselbe SO1-Überzeugung, dass Chaos gefährlich und Ordnung eine moralische
-        Pflicht ist, stand in scharfem Kontrast zu der Zeit, in der Peterson selbst die
-        Kontrolle über den eigenen Körper verlor.</p>
-        <p class="vb-intro"><strong>b) Der Neunerflügel und das lange Aushalten, bevor Hilfe gesucht wurde:</strong>
-        Die geduldige, auf Dauer angelegte Überzeugungskraft des Neunerflügels zeigte
-        sich auch darin, dass die Familie über Monate verschiedene Behandlungswege
-        ausprobierte, bevor der radikale Schritt nach Russland unternommen wurde.</p>
-        <p class="vb-intro"><strong>c) Offenheit als späte Form der Prinzipientreue:</strong>
-        Dass Peterson die eigene Krise später öffentlich und ungeschönt beschrieb, passt
-        zur SO1-typischen Überzeugung, dass Wahrheit – auch die unbequeme, eigene –
-        ausgesprochen werden muss.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Verstand, der Ordnung predigte, während der Körper sie verlor:</strong>
-        Petersons gesamtes öffentliches Werk beruht auf der Überzeugung, dass Struktur
-        und Selbstdisziplin über das Chaos siegen können – ausgerechnet er geriet in eine
-        körperliche Krise, in der genau diese Kontrolle vollständig verloren ging.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet der Verstand, der klarste zu denken behauptete?</strong>
-        Für einen sozialen Einser mit Neunerflügel, dessen gesamte öffentliche Autorität
-        auf rationaler Klarheit und geordnetem Denken beruhte, liegt eine Deutung nahe:
-        Ausgerechnet jenes Organ, mit dem er Millionen Menschen Ordnung predigte, wurde
-        durch die Medikamentenabhängigkeit selbst zum Ort des Kontrollverlusts. Diese
-        Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
-        Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung
-        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Petersons Fall zeigen
-        lässt, ist ein Muster im Umgang mit einer überwundenen Abhängigkeitskrise, das
-        bei einem ausgeprägten sozialen Einser mit Neunerflügel immer wieder auffällt –
-        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
-        wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Peterson kennt sein eigenes Muster nicht als Enneagramm-Struktur – die soziale
-        Eins mit Neunerflügel hält reflexhaft an der eigenen Ordnungsforderung fest,
-        statt die eigene Verwundbarkeit rechtzeitig einzugestehen, und lebte genau dieses
-        Muster bis zur akuten Krise unverändert aus. Wer die eigene Neigung, Kontrolle
-        um jeden Preis aufrechtzuerhalten, nicht als Muster erkennt, riskiert, dass die
-        Kontrolle erst im vollständigen Zusammenbruch endet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der soziale Typ 1 mit Neunerflügel erklärt bei <strong>Jordan Peterson</strong>
-        vieles am Verlauf seiner eigenen Abhängigkeitskrise: ein Mann, dessen gesamte
-        öffentliche Autorität auf Ordnung und Selbstdisziplin beruhte, musste selbst die
-        Erfahrung des vollständigen Kontrollverlusts durchleben, bevor er wieder Boden
-        unter den Füßen fand – die Gans, die aus der Formation fiel und erst nach einem
-        induzierten Koma zurück in den Schwarm fand.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
-      ])}
-    </div>
-  `);
-}
-
-function hundertwasserKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
-        <p class="krim-portrait-typ">SX9w8 · Sexueller Typ 9 mit Achterflügel · 1928–2000</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Faultier</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Friedensreich Hundertwasser</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-hundertwasser">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur beiläufig erwähnt wird: sein jahrelanges Herzleiden, das
-        er weitgehend verschwieg, das er nicht schulmedizinisch behandeln ließ, und an dem
-        er im Februar 2000 an Bord eines Schiffes starb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Hundertwasser</strong> ist dem <strong>sexuellen Typ 9 mit Achterflügel</strong>
-        zugeordnet. Die SX9 sucht die restlose Verschmelzung mit einem Ideal – bei
-        Hundertwasser: der Natur; der Achterflügel bringt die konfrontative Kraft hinzu, die
-        das eigene Prinzip notfalls gegen jeden Widerstand durchsetzt. Genau diese
-        Kombination – Verschmelzung mit einem naturnahen Ideal, kombiniert mit der
-        Weigerung, sich fremder Autorität wie der Schulmedizin zu unterwerfen – bestimmte
-        den Umgang mit der eigenen Krankheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Ein Herzleiden, das über Jahre bestand:</strong>
-        Nach übereinstimmenden biografischen Quellen litt Hundertwasser in seinen letzten
-        Lebensjahren an einer chronischen Herzschwäche, die sein Umfeld kannte, die er selbst
-        aber kaum öffentlich thematisierte.</p>
-        <p class="vb-intro"><strong>b) Ein Leben zwischen Wien, Neuseeland und dem Ozean:</strong>
-        Hundertwasser verbrachte einen großen Teil seiner letzten Jahre auf Reisen zwischen
-        seinen Wohnorten, häufig auf langen Schiffsüberfahrten statt per Flugzeug – eine
-        bewusste Entscheidung für Langsamkeit statt Eile.</p>
-        <p class="vb-intro"><strong>c) Zurückhaltung gegenüber schulmedizinischer Behandlung:</strong>
-        Wie bei vielen Naturheilkunde-nahen Zeitgenossen seiner Generation dokumentiert,
-        stand Hundertwasser einer aggressiven schulmedizinischen Intervention skeptisch
-        gegenüber und bevorzugte einen Lebensstil in möglichst enger Naturverbundenheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Unvermindertes Arbeitspensum trotz Erkrankung:</strong>
-        Bis zuletzt reiste Hundertwasser für Ausstellungen, Bauprojekte und öffentliche
-        Auftritte um die Welt, ohne das Tempo seines Lebens spürbar zu drosseln.</p>
-        <p class="vb-intro"><strong>b) Die Schiffsreise als bevorzugte Fortbewegungsart:</strong>
-        Er reiste regelmäßig mit dem Ozeandampfer <em>Queen Elizabeth 2</em> zwischen Europa
-        und dem Pazifikraum – eine wochenlange, langsame Reiseform, die zu seinem
-        Naturideal passte, aber im Ernstfall weit von schneller medizinischer Versorgung
-        entfernt war.</p>
-        <p class="vb-intro"><strong>c) Keine öffentliche Krankheitsdebatte:</strong>
-        Anders als manche Zeitgenossen machte Hundertwasser sein Herzleiden nie zu einem
-        öffentlichen Thema – es blieb, im Gegensatz zu seinen lautstarken Manifesten zu
-        Architektur und Ökologie, eine private Angelegenheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tod an Bord der Queen Elizabeth 2:</strong>
-        Am 19. Februar 2000 starb Hundertwasser im Alter von 71 Jahren an Herzversagen an
-        Bord des Schiffs, auf dem Weg zurück nach Neuseeland – mitten auf dem Pazifik, fernab
-        jeder Klinik.</p>
-        <p class="vb-intro"><strong>b) Bestattung nach eigenem, ungewöhnlichem Wunsch:</strong>
-        Seinem testamentarisch festgelegten Wunsch folgend wurde er auf seinem Grundstück in
-        Neuseeland ohne Sarg, in Leinen gehüllt, unter einem Tulpenbaum im „Garten der
-        glücklichen Toten" bestattet – die letzte Konsequenz seines Verschmelzungsideals mit
-        der Natur.</p>
-        <p class="vb-intro"><strong>c) Keine öffentliche Ankündigung eines Rückzugs:</strong>
-        Bis zu seinem Tod hatte Hundertwasser keine Anzeichen einer bevorstehenden
-        Verlangsamung gezeigt – kein angekündigter Ruhestand, kein öffentliches Eingeständnis
-        von Schwäche.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Tod, der zum Werk passte:</strong>
-        Für viele Nachrufe wurde gerade die Umstände seines Todes – auf hoher See, fernab
-        der Zivilisation, nach eigenem Wunsch bestattet – als konsequenter Abschluss eines
-        Lebens gedeutet, das durchgängig gegen Konvention und für Naturverbundenheit
-        gerichtet war.</p>
-        <p class="vb-intro"><strong>b) Postumes Vermächtnis unverändert lebendig:</strong>
-        Seine Bauten – das Hundertwasserhaus in Wien, die Grüne Zitadelle in Magdeburg, das
-        KunstHausWien – blieben nach seinem Tod international besuchte Wahrzeichen und
-        prägen bis heute das öffentliche Bild ökologischer Architektur.</p>
-        <p class="vb-intro"><strong>c) Keine nachträgliche Verklärung der Krankheit:</strong>
-        Anders als bei manchen Künstlern wurde sein Herzleiden nicht Teil der öffentlichen
-        Legende – es blieb ein stiller, fast beiläufiger Teil seiner Biografie, während seine
-        Manifeste und Bauten die öffentliche Erinnerung dominieren.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Verschmelzung mit dem Reisetempo statt Anpassung an die Krankheit:</strong>
-        Die SX9-typische Sehnsucht nach Verschmelzung mit einem größeren Ganzen zeigte sich
-        auch darin, dass Hundertwasser sein Reisetempo – die langsame Schiffsüberfahrt statt
-        des schnellen Fluges – nicht dem gesundheitlichen Risiko unterordnete, sondern seinem
-        Naturideal treu blieb.</p>
-        <p class="vb-intro"><strong>b) Der Achterflügel und die Weigerung, Schwäche einzugestehen:</strong>
-        Dieselbe konfrontative Kraft, mit der Hundertwasser sich bei seinen Nacktreden gegen
-        gesellschaftliche Konventionen stellte, zeigte sich im Umgang mit der eigenen
-        Krankheit als Weigerung, sich der Autorität der Schulmedizin oder der Erwartung
-        eines ruhigeren Lebensstils zu beugen.</p>
-        <p class="vb-intro"><strong>c) Die letzte Verschmelzung: Tod auf See, Bestattung in der Erde:</strong>
-        Dass sein Leben auf dem Ozean endete und seine letzte Ruhestätte ohne Sarg, direkt in
-        der Erde unter einem Baum liegt, lässt sich als äußerste Konsequenz seines
-        lebenslangen Verschmelzungsideals lesen – kein Zufall, sondern die letzte
-        Konsequenz eines durchgehaltenen Prinzips.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Mann, der Naturverbundenheit predigte und sich seiner eigenen Natur nicht entzog:</strong>
-        Hundertwassers gesamtes Werk beruhte auf der Überzeugung, dass der Mensch sich der
-        Natur nicht entgegenstellen, sondern mit ihr verschmelzen soll – auch seinem eigenen
-        Körper und dessen Grenzen begegnete er am Ende genau mit dieser Haltung: kein Kampf,
-        kein Widerstand, sondern ein Leben bis zum letzten Moment im gewohnten Tempo.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet das Herz?</strong>
-        Für eine sexuelle Neun mit Achterflügel, deren gesamtes Werk um das Bild der
-        Verschmelzung – Mensch mit Natur, Redner mit Publikum, Name mit Prinzip – kreiste,
-        liegt eine Deutung nahe: Ausgerechnet jenes Organ, das im Volksmund für Verbindung
-        und Hingabe steht, wurde bei ihm zum Ort des körperlichen Versagens. Diese Deutung
-        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
-        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Herzleiden führt
-        – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom
-        Subtyp.</strong> Was sich an Hundertwassers Fall zeigen lässt, ist ein Muster im
-        Umgang mit einer fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen
-        Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
-        im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Hundertwasser kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
-        sexuelle Neun mit Achterflügel hält reflexhaft an der Verschmelzung mit dem eigenen
-        Ideal fest, statt rechtzeitig innezuhalten, und lebte genau dieses Muster bis zum
-        letzten Tag unverändert aus, ohne das eigene Herzleiden je zum zentralen Thema zu
-        machen. Wer die eigene Neigung, sich einem größeren Prinzip restlos zu unterwerfen,
-        nicht als Muster erkennt, riskiert, dass diese Verschmelzung erst mit dem
-        vollständigen körperlichen Zusammenbruch endet.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Die sexuelle Neun mit Achterflügel erklärt bei <strong>Friedensreich Hundertwasser</strong>
-        viel über den Umgang mit der eigenen Krankheit: ein Mann, dessen gesamtes Lebenswerk
-        der Verschmelzung mit der Natur galt, akzeptierte am Ende auch das eigene
-        Herzversagen als Teil dieses natürlichen Kreislaufs – kein Kampf gegen den Tod,
-        sondern das letzte, konsequenteste Verschmelzen des Faultiers mit dem Element, dem
-        es sein ganzes Leben gewidmet hatte.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
-      ])}
-    </div>
-  `);
-}
-
-function sadhguruKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Sadhguru</p>
-        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · geb. 1957</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Waschbär</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Sadhguru</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur kurz erwähnt wird: eine im März 2024 diagnostizierte
-        chronische Hirnblutung, die trotz wochenlanger Kopfschmerzen bis zur Notoperation
-        unbehandelt blieb.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Sadhguru</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Zweierflügel</strong>
-        zugeordnet. Die SE3 investiert ihre Energie in Wirksamkeit statt in Image – auch dann,
-        wenn der eigene Körper längst Signale sendet; der Zweierflügel bringt den Antrieb hinzu,
-        für andere da zu sein, oft auf Kosten der eigenen Fürsorge für sich selbst. Genau diese
-        Kombination – unbeirrtes Funktionieren trotz körperlicher Warnsignale, verbunden mit
-        einem Terminkalender, der für niemand anderen unterbrochen wird als für die eigene
-        Erkrankung – bestimmte den Verlauf bis zur Diagnose.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Wochenlange Kopfschmerzen vor der Diagnose:</strong>
-        Nach eigener und ärztlicher Schilderung litt Sadhguru über mehrere Wochen unter
-        anhaltenden, sich verschlimmernden Kopfschmerzen, ohne dass er seinen öffentlichen
-        Terminkalender unterbrach.</p>
-        <p class="vb-intro"><strong>b) Kein sofortiger Rückzug aus der Öffentlichkeit:</strong>
-        Trotz zunehmender Beschwerden hielt er weiterhin Vorträge, Reisen und öffentliche
-        Auftritte aufrecht, bis die Symptomatik nicht mehr zu ignorieren war.</p>
-        <p class="vb-intro"><strong>c) Akute Verschlechterung im März 2024:</strong>
-        Erst eine deutliche Zuspitzung der Beschwerden führte schließlich zur ärztlichen
-        Untersuchung und zur bildgebenden Diagnostik.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Diagnose: chronisches subdurales Hämatom:</strong>
-        Eine MRT-Untersuchung ergab eine chronische Blutung unter der harten Hirnhaut von
-        etwa drei bis vier Wochen Dauer, überlagert von einer frischen Nachblutung der
-        vorangegangenen ein bis zwei Tage.</p>
-        <p class="vb-intro"><strong>b) Notfalloperation am 17. März 2024:</strong>
-        Aufgrund der akuten Verschlechterung wurde Sadhguru umgehend operiert, um den
-        Druck auf das Gehirn zu entlasten.</p>
-        <p class="vb-intro"><strong>c) Keine erkennbare äußere Ursache:</strong>
-        Anders als bei vielen subduralen Hämatomen ließ sich kein eindeutiger auslösender
-        Sturz oder Unfall feststellen – die Isha Foundation kommunizierte öffentlich, dass die
-        genaue Ursache unklar blieb.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Rasche postoperative Genesung:</strong>
-        Nach der Operation erholte sich Sadhguru nach öffentlichen Angaben schnell und kehrte
-        binnen weniger Wochen zu einem Teil seiner Aktivitäten zurück.</p>
-        <p class="vb-intro"><strong>b) Öffentliche Kommunikation durch die eigene Organisation:</strong>
-        Die Isha Foundation informierte in mehreren offiziellen Mitteilungen über Diagnose,
-        Operation und Genesungsverlauf – eine für einen spirituellen Lehrer ungewöhnlich
-        transparente medizinische Kommunikation.</p>
-        <p class="vb-intro"><strong>c) Fortsetzung des öffentlichen Wirkens kurz danach:</strong>
-        Bereits kurze Zeit nach dem Eingriff nahm Sadhguru wieder öffentliche Termine wahr,
-        wenn auch zunächst in reduziertem Umfang.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
-        Die Nachricht von der Notoperation eines der bekanntesten spirituellen Lehrer der
-        Gegenwart löste international Berichterstattung und eine Welle öffentlicher
-        Anteilnahme aus.</p>
-        <p class="vb-intro"><strong>b) Fragen nach der Selbstwahrnehmung eines Gesundheitslehrers:</strong>
-        Da Sadhguru selbst regelmäßig über Körperbewusstsein und Selbstfürsorge lehrt, warf
-        der Vorfall bei manchen Beobachtern die Frage auf, warum die eigenen Warnsignale so
-        lange ignoriert wurden.</p>
-        <p class="vb-intro"><strong>c) Keine grundsätzliche Neuausrichtung des Lebensstils:</strong>
-        Trotz der Warnung durch die eigene Erkrankung setzte Sadhguru sein intensives
-        Reise- und Vortragsprogramm nach der Genesung im Wesentlichen fort.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Funktionieren als Standardreaktion auf Schmerz:</strong>
-        Die SE3-typische Ausrichtung auf Wirksamkeit statt Selbstinszenierung zeigte sich
-        auch darin, dass Sadhguru wochenlange Kopfschmerzen nicht zum Anlass für einen
-        Rückzug nahm, sondern seinen Terminkalender unverändert fortführte.</p>
-        <p class="vb-intro"><strong>b) Der Zweierflügel und die offene Kommunikation nach außen:</strong>
-        Dass die Isha Foundation die Diagnose und Behandlung transparent öffentlich machte,
-        passt zur Zweierflügel-typischen Zuwendung: Selbst im eigenen medizinischen
-        Ausnahmezustand blieb der Impuls erhalten, die Millionen Anhänger nicht im
-        Ungewissen zu lassen, sondern einzubeziehen.</p>
-        <p class="vb-intro"><strong>c) Schnelle Rückkehr in die Wirksamkeit:</strong>
-        Die rasche Wiederaufnahme öffentlicher Termine nach der Operation folgt demselben
-        SE3-Muster wie das Ignorieren der Symptome zuvor: Selbstwert über Funktionieren, kaum
-        Raum für eine längere Pause.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Lehrer der Körperwahrnehmung, der die eigenen Warnsignale überging:</strong>
-        Sadhgurus gesamtes Werk kreist um die Idee, den eigenen Körper und Geist bewusst
-        wahrzunehmen und zu kultivieren – ausgerechnet er ignorierte wochenlange
-        Kopfschmerzen, bis eine Notoperation unausweichlich wurde.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet der Kopf, das Zentrum seiner Lehre?</strong>
-        Für einen selbsterhaltenden Typ 3 mit Zweierflügel, dessen gesamte öffentliche
-        Autorität auf innerer Klarheit und bewusster Körperbeherrschung beruhte, liegt eine
-        Deutung nahe: Ausgerechnet jenes Organ, mit dem er Millionen Menschen "inneres
-        Engineering" lehrte, wurde zum Ort einer über Wochen unbemerkt fortschreitenden
-        Blutung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
-        Hirnblutungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Sadhgurus Fall zeigen lässt, ist ein
-        Muster im Umgang mit körperlichen Warnsignalen, das bei einem ausgeprägten
-        selbsterhaltenden Typ 3 immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Sadhguru kennt sein eigenes Muster nicht als Enneagramm-Struktur – der
-        selbsterhaltende Typ 3 hält reflexhaft am eigenen Funktionieren fest, statt
-        körperliche Warnsignale rechtzeitig ernst zu nehmen, und lebt genau dieses Muster bis
-        heute weitgehend unverändert aus. Wer die eigene Neigung, Beschwerden dem
-        Terminkalender unterzuordnen, nicht als Muster erkennt, riskiert, dass der Körper die
-        Pause selbst erzwingt – notfalls durch einen Zusammenbruch.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 3 mit Zweierflügel erklärt bei <strong>Sadhguru</strong> vieles
-        am Verlauf seiner Erkrankung: ein Mann, dessen gesamte öffentliche Autorität auf
-        innerer Klarheit und ungebrochener Wirksamkeit beruhte, musste selbst die Erfahrung
-        machen, dass wochenlanges Funktionieren körperliche Warnsignale nicht zum
-        Verschwinden bringt – der Waschbär, der so lange weitermachte, bis der Körper die
-        Notbremse zog.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
-      ])}
-    </div>
-  `);
-}
-
-function umbertoEcoKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Dr. Umberto Eco" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Dr. Umberto Eco</p>
-        <p class="krim-portrait-typ">SE8w7 · Selbsterhaltender Typ 8 mit Siebenerflügel · 1932–2016</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Orang-Utan</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Umberto Eco</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-umberto-eco">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
-        ein Kapitel, das dort nur beiläufig erwähnt wird: eine rund zwei Jahre lang nahezu
-        vollständig privat gehaltene Bauchspeicheldrüsenkrebs-Erkrankung, während der Eco
-        bis wenige Monate vor seinem Tod im Februar 2016 unvermindert publizierte, lehrte
-        und öffentlich auftrat.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Eco</strong> ist dem <strong>selbsterhaltenden Typ 8 mit Siebenerflügel</strong>
-        zugeordnet. Die SE8 sichert sich Fülle und Unabhängigkeit, statt sich einer fremden
-        Autorität – auch der eigenen Diagnose – zu unterwerfen; der Siebenerflügel bringt
-        die Leichtigkeit, mit der Eco selbst eine tödliche Diagnose nicht zum
-        beherrschenden Thema seines Lebens werden ließ. Genau diese Kombination – Fülle und
-        Genuss bis zuletzt, verbunden mit der Weigerung, sich als kranker Mann zu inszenieren
-        – bestimmte den Umgang mit der eigenen Erkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Diagnose rund zwei Jahre vor seinem Tod:</strong>
-        Nach übereinstimmenden biografischen Quellen wurde bei Eco etwa zwei Jahre vor
-        seinem Tod ein Bauchspeicheldrüsenkarzinom diagnostiziert.</p>
-        <p class="vb-intro"><strong>b) Fast vollständige Geheimhaltung im öffentlichen Leben:</strong>
-        Anders als bei vielen Prominenten blieb die Diagnose außerhalb seines engsten
-        Umfelds weitgehend unbekannt – Eco sprach in Interviews und öffentlichen Auftritten
-        praktisch nicht über seine Erkrankung.</p>
-        <p class="vb-intro"><strong>c) Unvermindertes literarisches Schaffen:</strong>
-        Trotz der Diagnose veröffentlichte Eco 2015 mit „Nullnummer" seinen letzten Roman –
-        ein Werk, das keinerlei Anzeichen einer nachlassenden Schaffenskraft erkennen ließ.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Fortgesetzte öffentliche Auftritte bis kurz vor dem Tod:</strong>
-        Eco hielt Vorträge, gab Interviews und nahm an öffentlichen Diskussionen teil, bis
-        wenige Monate vor seinem Tod – ohne dass Beobachter von seiner schweren Erkrankung
-        wussten.</p>
-        <p class="vb-intro"><strong>b) Keine öffentliche Krankheitsnarrative:</strong>
-        Im Unterschied zu anderen Intellektuellen seiner Generation machte Eco seine
-        Krankheit nie zum Gegenstand eines Essays, einer Kolumne oder eines Interviews –
-        eine bewusste Entscheidung zur Trennung von Werk und privatem Leiden.</p>
-        <p class="vb-intro"><strong>c) Familiäre statt öffentliche Begleitung:</strong>
-        Die letzten Monate verbrachte Eco im Kreis seiner Familie in Mailand, weitgehend
-        abgeschirmt von öffentlicher Aufmerksamkeit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Tod am 19. Februar 2016 in Mailand:</strong>
-        Umberto Eco starb im Alter von 84 Jahren in seiner Wohnung in Mailand, umgeben von
-        seiner Familie.</p>
-        <p class="vb-intro"><strong>b) Weltweite Anteilnahme nach der offiziellen Bekanntgabe:</strong>
-        Erst mit der Todesnachricht wurde die Öffentlichkeit über die Krebserkrankung
-        informiert – für viele Leser und Kollegen eine Überraschung, da Eco bis zuletzt
-        keinerlei Rückzug angedeutet hatte.</p>
-        <p class="vb-intro"><strong>c) Kein Abschiedswerk im engeren Sinne:</strong>
-        Anders als manche Autoren, die im Angesicht des Todes ein explizites Vermächtniswerk
-        verfassen, hinterließ Eco kein Buch, das offen als Abschied von der eigenen
-        Sterblichkeit gelesen werden konnte – „Nullnummer" bleibt ein Roman über
-        Medienmanipulation, kein Krankheitsbuch.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Weltweite Trauer und Würdigung:</strong>
-        Ecos Tod löste international Nachrufe und Würdigungen aus, die vor allem sein
-        enzyklopädisches Werk und seine intellektuelle Neugier bis ins hohe Alter
-        hervorhoben.</p>
-        <p class="vb-intro"><strong>b) Überraschung über das Ausmaß der Geheimhaltung:</strong>
-        Zahlreiche Weggefährten äußerten sich überrascht, wie vollständig Eco seine Krankheit
-        vor der Öffentlichkeit und sogar vor Teilen seines beruflichen Umfelds verborgen
-        hatte.</p>
-        <p class="vb-intro"><strong>c) Ein Bild ungebrochener Vitalität bis zuletzt:</strong>
-        Das öffentliche Bild, das von Eco bis zu seinem Tod bestand, war das eines
-        unermüdlich neugierigen, produktiven Intellektuellen – nicht das eines schwer
-        kranken Mannes.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Fülle statt Rückzug als Antwort auf die Diagnose:</strong>
-        Die SE8-typische Überzeugung, dass Sicherheit aus Fülle entsteht, zeigte sich darin,
-        dass Eco seine Produktivität, seine Lektüren, seine Sammlungen und seine öffentlichen
-        Auftritte trotz der Diagnose nicht reduzierte, sondern bis zuletzt fortführte.</p>
-        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Weigerung, sich als Kranker zu inszenieren:</strong>
-        Dieselbe Leichtigkeit, mit der Eco selbst über Semiotik und Trivialkultur mit
-        derselben Neugier schrieb, zeigte sich im Umgang mit der eigenen Krankheit als
-        bewusste Entscheidung, die eigene Sterblichkeit nicht zum öffentlichen Thema zu
-        machen.</p>
-        <p class="vb-intro"><strong>c) Kontrolle durch Diskretion statt durch Konfrontation:</strong>
-        Anders als eine konfrontativere Acht wählte Eco nicht den offenen Kampf gegen die
-        Krankheit als öffentliche Geste, sondern die vollständige Kontrolle über die
-        Information selbst – Macht durch Schweigen statt durch Auftritt.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Sammler der Fülle, der die eigene Endlichkeit nicht sammeln ließ:</strong>
-        Ecos gesamtes Werk beruhte auf der Überzeugung, dass Wissen, Bücher und Erfahrung
-        sich unbegrenzt anhäufen lassen – ausgerechnet die eine Grenze, die sich nicht
-        aufschieben ließ, blieb aus seinem öffentlichen Werk vollständig ausgespart.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet die Bauchspeicheldrüse, das stille Organ?</strong>
-        Für einen selbsterhaltenden Typ 8 mit Siebenerflügel, dessen gesamtes Lebensprinzip
-        Fülle, Genuss und die enzyklopädische Aneignung der Welt war, liegt eine Deutung
-        nahe: Ausgerechnet ein Organ, das lange symptomlos bleibt und sich jeder frühen
-        Kontrolle entzieht, wurde zum Ort einer Krankheit, die Eco bis zuletzt nicht öffentlich
-        zu kontrollieren versuchte, sondern schlicht verschwieg. Diese Deutung ist eine
-        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
-        Bauchspeicheldrüsenkrebs führt – <strong>jeder Mensch kann jede Erkrankung
-        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Ecos Fall zeigen lässt, ist
-        ein Muster im Umgang mit einer tödlichen Diagnose, das bei einem ausgeprägten
-        selbsterhaltenden Typ 8 immer wieder auffällt – eine von vielen möglichen Deutungen,
-        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Eco kannte sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
-        Typ 8 hält reflexhaft an der eigenen Souveränität über die persönliche Information
-        fest, statt die eigene Verwundbarkeit rechtzeitig mit anderen zu teilen, und lebte
-        genau dieses Muster bis zum letzten Werk unverändert aus. Wer die eigene Neigung, die
-        Kontrolle über das eigene Bild um jeden Preis zu wahren, nicht als Muster erkennt,
-        riskiert, dass die Wahrheit erst mit dem Tod selbst ans Licht kommt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der selbsterhaltende Typ 8 mit Siebenerflügel erklärt bei <strong>Umberto Eco</strong>
-        vieles am Umgang mit der eigenen Krankheit: ein Mann, dessen gesamtes Werk auf der
-        lustvollen Fülle des Wissens beruhte, behandelte auch die eigene tödliche Diagnose als
-        privates Territorium, das niemand betreten durfte – der Orang-Utan, der bis zuletzt in
-        seinem Baum thronte und niemanden sehen ließ, dass der Ast bereits brach.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
     </div>
   `);

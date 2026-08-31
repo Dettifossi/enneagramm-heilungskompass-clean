@@ -4774,6 +4774,7 @@ function render() {
     "tierentsprechungen": tierentsprechungenPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
+    "krankheitsmusterkompass": krankheitsmusterkompassPage,
     "musterradar": musterradarPage,
     "enneagramm-rad": enneagrammRadPage,
     "psychosomatik": psychosomatikPage,
@@ -5675,6 +5676,8 @@ function render() {
       app.innerHTML = tierlexikonDetailPage(param);
     } else if (base === "lebensmusterkompass" && param) {
       app.innerHTML = lebensmusterkompassDetailPage(param);
+    } else if (base === "krankheitsmusterkompass" && param) {
+      app.innerHTML = krankheitsmusterkompassDetailPage(param);
     } else if (base === "musterradar" && param) {
       app.innerHTML = musterradarDetailPage(param);
     } else if (base === "psychosomatik" && param) {

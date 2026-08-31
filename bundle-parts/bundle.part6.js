@@ -2438,6 +2438,346 @@ const LEBENSMUSTERKOMPASS = {
   }
 };
 
+// ---------------------------------------------------------------------------
+// Krankheitsmusterkompass: analog zum Lebensmusterkompass, aber ausschließlich
+// aus den Krankheitsporträts dieses Kompasses gespeist. Zieht Muster, die bei
+// mehreren, unabhängig voneinander typisierten Personen desselben Subtyps im
+// Krankheitsverlauf ähnlich auftreten – keine Diagnose, keine Determinismus-
+// Aussage, siehe ausführlicher Disclaimer auf der Übersichtsseite. Wird bei
+// jedem neuen Krankheitsporträt ergänzt (siehe CLAUDE.md).
+function krankheitsmusterkompassPortraitsForCode(code) {
+  return KRANKHEITS_PORTRAITS
+    .filter(p => (p.subtyp || "").toUpperCase().startsWith(code))
+    .map(p => ({ name: p.name, route: p.route }));
+}
+
+const KRANKHEITSMUSTERKOMPASS = {
+  SE1: {
+    tier: "Adler",
+    kernthema: "Der Körper als letzter Ort, an dem sich zeigt, was der Wille nicht mehr kontrollieren kann – oft nach Jahrzehnten äußerer Disziplin.",
+    beispiele: ["Konrad Adenauer", "Anthony Hopkins", "Astrid Lindgren", "Robert De Niro", "Ludwig Wittgenstein"],
+    fingerabdruecke: [
+      {
+        titel: "Kontrollverlust an einer Stelle, die sich der Willenskraft entzieht",
+        beschreibung: "Die selbsterhaltende Eins hält ihr Leben lang eine hohe Selbstdisziplin aufrecht – Krankheit trifft sie oft dort, wo genau diese Kontrolle objektiv unmöglich wird: Sehkraft, Zellwachstum, Sucht.",
+        beleg: "Astrid Lindgren, die im hohen Alter nahezu vollständig erblindete – ein schleichender Verlust, den keine Disziplin aufhalten konnte; Anthony Hopkins, der seine Alkoholerkrankung erst durch einen radikalen, bis heute nie unterbrochenen Rückzug in völlige Abstinenz seit 1975 in den Griff bekam; Ludwig Wittgenstein, dessen Prostatakrebs mit Wirbelsäulen-Metastasen 1949 als unheilbar diagnostiziert wurde, woraufhin er bis zuletzt an seinen letzten philosophischen Notizen arbeitete."
+      }
+    ]
+  },
+  SO1: {
+    tier: "Gans",
+    kernthema: "Kleine Fallzahl bislang – erste erkennbare Linie: eine sehr bewusste, oft präventive Entscheidung im Umgang mit der eigenen Gesundheit.",
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie"],
+    fingerabdruecke: [
+      {
+        titel: "Prinzipientreue Entscheidungen selbst im Angesicht der eigenen Krankheit",
+        beschreibung: "Bei bislang wenigen, aber auffällig einheitlichen Fällen zeigt sich bei der sozialen Eins eine sehr bewusste, fast grundsätzliche Haltung zur eigenen Gesundheit – Entscheidungen werden nicht dem Zufall überlassen, sondern nach klaren eigenen Maßstäben getroffen.",
+        beleg: "Angelina Jolie, die sich nach dem Nachweis der BRCA1-Genmutation präventiv doppelt mastektomieren sowie Eierstöcke und Eileiter entfernen ließ, bevor überhaupt eine Erkrankung vorlag; David Bowie, der seine Leberkrebsdiagnose bis zuletzt zur Grundlage eines bewusst komponierten letzten Werks (›Blackstar‹) machte, statt sie zu verschweigen oder zu dramatisieren."
+      }
+    ]
+  },
+  SX1: {
+    tier: "Schwarze Mamba",
+    kernthema: "Unterdrückte Spannung, die sich nicht körperlich, sondern seelisch entlädt – wiederkehrende Depressionen, Sucht und psychische Krisen dominieren diese Gruppe auffällig.",
+    beispiele: ["Johann Sebastian Bach", "Martin Luther", "Robbie Williams", "Jamie Lee Curtis", "Klaus Kinski"],
+    fingerabdruecke: [
+      {
+        titel: "Die Anfechtung: innerer Druck, der sich seelisch statt körperlich entlädt",
+        beschreibung: "Bei vier von fünf bislang porträtierten SX1 dominiert nicht eine rein körperliche Erkrankung, sondern eine seelische Krise – Depression, Sucht oder psychiatrische Ausnahmezustände –, oft als Kehrseite einer nach außen sehr kontrollierten, intensiven Lebensführung.",
+        beleg: "Martin Luther, der zeitlebens unter wiederkehrenden schweren Depressionen litt, die er selbst als ›Anfechtungen‹ bezeichnete; Robbie Williams mit jahrzehntelanger Depression und Suchterkrankung; Jamie Lee Curtis, die 22 Jahre lang eine nach einer kosmetischen Operation begonnene Opiatabhängigkeit verbarg; Klaus Kinski, dessen lebenslange Wutausbrüche 1950 in einer psychiatrischen Zwangseinweisung mit vorläufiger Schizophrenie-Diagnose gipfelten."
+      }
+    ]
+  },
+  SE2: {
+    tier: "Flusspferd",
+    kernthema: "Der Körper trägt sichtbar, was durchlebt wurde – Unfälle, Gewalt und frühe Traumata hinterlassen bei dieser Gruppe auffällig oft dauerhafte körperliche Spuren.",
+    beispiele: ["Wolfgang Amadeus Mozart", "Nusrat Fateh Ali Khan", "Frida Kahlo", "Ai Weiwei", "Mr. T", "Oprah Winfrey", "Greta Thunberg", "Yayoi Kusama", "Natascha Kampusch"],
+    fingerabdruecke: [
+      {
+        titel: "Sichtbare Spuren von Gewalt, Unfall oder frühem Trauma am eigenen Körper",
+        beschreibung: "Bei der selbsterhaltenden Zwei zeigt sich auffällig häufig eine direkte körperliche oder traumatische Verletzung – durch Unfall, Gewalt oder frühen Missbrauch –, die zum bleibenden Teil der eigenen Lebensgeschichte wird, statt verborgen zu bleiben.",
+        beleg: "Frida Kahlo, die nach einem Busunglück rund 30 Operationen und schließlich eine Beinamputation durchlebte; Ai Weiwei, der nach einem Polizeiübergriff 2009 eine Hirnblutung erlitt und seither an chronischen Kopfschmerzen leidet; Oprah Winfrey, die sexuellen Missbrauch in der Kindheit und eine Teenagerschwangerschaft mit 14 Jahren öffentlich machte; Natascha Kampusch, bei der zwanzig Jahre nach der Befreiung ein schwerer psychischer Zusammenbruch auftrat; Greta Thunberg mit schwerer Depression, Essstörung und selektivem Mutismus im Kindesalter."
+      }
+    ]
+  },
+  SO2: {
+    tier: "Golden Retriever",
+    kernthema: "Erschöpfung im Dienst der Sache – Krankheiten, die aus jahrelanger körperlicher Selbstüberschreitung im Namen einer größeren Rolle oder Mission entstehen.",
+    beispiele: ["Muhammad Ali", "Napoleon Bonaparte", "Julius Caesar", "Alexander der Große", "Bob Marley", "Ashton Kutcher"],
+    fingerabdruecke: [
+      {
+        titel: "Verzicht auf Behandlung oder Schonung zugunsten der größeren Sache",
+        beschreibung: "Auffällig oft steht bei der sozialen Zwei nicht die Krankheit selbst im Zentrum, sondern die Weigerung, ihretwegen die eigene Rolle für andere zu unterbrechen – ein Muster, das bis zur bewussten Ablehnung notwendiger Behandlung reichen kann.",
+        beleg: "Bob Marley, der eine ärztlich empfohlene Amputation aus religiösen Gründen ablehnte und an der Ausbreitung des Krebses starb; Muhammad Ali, dessen Parkinson-Syndrom vermutlich durch jahrelanges Weiterboxen trotz wiederholter Kopftreffer mitverursacht wurde; Julius Caesar und Alexander der Große, die trotz wiederkehrender Anfälle beziehungsweise eines jahrelang grenzenlosen Feldzugslebens nie öffentlich innehielten."
+      }
+    ]
+  },
+  SX2: {
+    tier: "Kamel",
+    kernthema: "Bislang nur ein dokumentierter Fall – zu wenig für ein belastbares Muster, aber ein auffälliger Einzelfall von Abhängigkeit im Kontext intensiver, exklusiver Bindungen.",
+    beispiele: ["Elvis Presley"],
+    fingerabdruecke: [
+      {
+        titel: "Einzelfall: Medikamentenabhängigkeit im Umfeld enger persönlicher Kontrolle",
+        beschreibung: "Mit bislang nur einem Fall lässt sich noch kein Muster behaupten – festgehalten wird hier lediglich der dokumentierte Einzelfall, damit künftige SX2-Porträts ihn einordnen können.",
+        beleg: "Elvis Presley, dessen Herzrhythmusstörungen und Megakolon durch jahrelange, von seinem engsten Umfeld mitgetragene Medikamentenabhängigkeit begünstigt wurden."
+      }
+    ]
+  },
+  SE3: {
+    tier: "Waschbär",
+    kernthema: "Der Zusammenbruch nach dem Ende der Fassade – Erkrankungen, die auffällig oft mit dem Einsturz einer lange aufrechterhaltenen äußeren Kontrolle zusammenfallen.",
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru"],
+    fingerabdruecke: [
+      {
+        titel: "Körperlicher Einbruch nach dem Verlust der öffentlichen Kontrolle",
+        beschreibung: "Bei bislang drei Fällen fällt auf, dass die gesundheitliche Krise zeitlich nah an einen Bruch der öffentlichen Fassade oder Autorität heranrückt – als hätte der Körper erst dann nachgegeben, als die kontrollierte Rolle nicht mehr zu halten war.",
+        beleg: "Bernie Madoff, dessen Niereninsuffizienz im Endstadium erst nach seiner Verurteilung und dem völligen Zusammenbruch seines Anlagebetrugs-Imperiums öffentlich bekannt wurde; Osho, dessen Herzversagen nach chronischen Beschwerden und einer bis heute umstrittenen Vergiftungsbehauptung seine Autorität als Guru überschattete; Sadhguru, bei dem ein chronisches subdurales Hämatom 2024 eine Notoperation erzwang, während er weiterhin öffentlich auftrat."
+      }
+    ]
+  },
+  SO3: {
+    tier: "Gepard",
+    kernthema: "Krankheit hinter geschlossener Tür – bei kaum einem anderen Subtyp wird die eigene Erkrankung so konsequent vom öffentlichen Bild ferngehalten, oft bis kurz vor dem Tod.",
+    beispiele: ["Teresa von Ávila", "Karl Lagerfeld", "Ludwig XIV.", "O.J. Simpson", "Christiaan Barnard", "Sean Connery"],
+    fingerabdruecke: [
+      {
+        titel: "Geheimhaltung der eigenen Krankheit bis unmittelbar vor dem Tod",
+        beschreibung: "Die soziale Drei hält ihr öffentliches Bild oft bis in die letzten Lebensmonate makellos – die eigene Erkrankung wird selbst vor engem Umfeld verborgen und wird häufig erst nach dem Tod überhaupt bekannt oder bestätigt.",
+        beleg: "Sean Connerys Demenzerkrankung, die erst nach seinem Tod öffentlich bestätigt wurde; Karl Lagerfelds Krebserkrankung, deren genaue Todesursache offiziell nie bestätigt wurde; Christiaan Barnard, der seine rheumatoide Arthritis in den Händen jahrzehntelang mit seiner Chirurgenkarriere vereinbarte, bis sie 1983 unumgänglich zum Karriereende zwang."
+      }
+    ]
+  },
+  SX3: {
+    tier: "Pfau",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zu tödlichen Zuspitzungen, die lange unter der Oberfläche einer makellosen öffentlichen Bühnenpräsenz verborgen blieben.",
+    beispiele: ["Marilyn Monroe", "Richard Ramírez", "Dolly Parton"],
+    fingerabdruecke: [
+      {
+        titel: "Eine gepflegte Bühnenpräsenz, unter der sich die eigentliche Krise lange verbirgt",
+        beschreibung: "Bei bislang drei Fällen zeigt sich ein Muster, in dem die eigentliche gesundheitliche oder psychische Notlage lange hinter einer makellos wirkenden öffentlichen Präsenz verborgen bleibt, bevor sie sich abrupt zuspitzt.",
+        beleg: "Marilyn Monroe, deren tödliche Medikamentenkombination trotz ihres bis zuletzt gepflegten öffentlichen Glamour-Images eintrat; Dolly Parton, die ihre seit den frühen 1980er-Jahren bestehende Endometriose öffentlich kaum thematisierte, während sie ihr strahlendes Bühnenbild aufrechterhielt."
+      }
+    ]
+  },
+  SE4: {
+    tier: "Taube",
+    kernthema: "Verborgenes seelisches Leiden hinter einer sensiblen, oft sehr introspektiven Fassade – bei dieser Gruppe verläuft die Krankheit fast durchgehend über Jahre unausgesprochen.",
+    beispiele: ["Lady Diana", "Vincent van Gogh", "Adele", "Honoré de Balzac", "T. E. Lawrence"],
+    fingerabdruecke: [
+      {
+        titel: "Jahrelang verschwiegenes seelisches Leiden hinter der eigenen Empfindsamkeit",
+        beschreibung: "Bei der selbsterhaltenden Vier zieht sich durch fast alle bisherigen Fälle ein über Jahre verschwiegenes seelisches Leiden – Essstörung, Depression, posttraumatische Belastung –, das erst spät oder postum bekannt wurde.",
+        beleg: "Lady Diana, deren Bulimie über Jahre verschwiegen wurde und mit Selbstverletzung sowie postnataler Depression einherging; Adele, die eine schwere postnatale Depression mit Panikattacken fast ein Jahrzehnt lang für sich behielt; T. E. Lawrence, dessen dreizehn Jahre anhaltende Depression nach dem Trauma von Deraa 1917 sich in einem selbst organisierten Bestrafungsritual entlud."
+      }
+    ]
+  },
+  SO4: {
+    tier: "Gürteltier",
+    kernthema: "Ein Leiden, das nach außen kleingeredet oder verschämt verborgen wird – Hypochondrie und tatsächliche Erkrankung liegen bei dieser Gruppe oft dicht beieinander.",
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider"],
+    fingerabdruecke: [
+      {
+        titel: "Verschämt verborgene oder kleingeredete Leiden trotz spürbarer Beeinträchtigung",
+        beschreibung: "Bei der sozialen Vier fällt eine Tendenz auf, das eigene Leiden entweder stark zu dramatisieren (Hypochondrie) oder umgekehrt aus Scham zu verbergen – beides als Umgang mit einer als beschämend empfundenen eigenen Verletzlichkeit.",
+        beleg: "Michael Jackson, der seine Vitiligo-Erkrankung jahrelang verschwieg, während seine Schmerz- und Schlafmittelabhängigkeit sich unbemerkt vertiefte; Hans Christian Andersen mit lebenslanger Hypochondrie bei gleichzeitig vernachlässigten, tatsächlich bestehenden Zahnproblemen; Romy Schneider, deren eskalierender Alkohol- und Tablettenkonsum nach einer Nierenoperation weitgehend im Verborgenen verlief."
+      }
+    ]
+  },
+  SX4: {
+    tier: "Chihuahua",
+    kernthema: "Radikale Geheimhaltung der eigenen Diagnose selbst im engsten Kreis – bei dieser Gruppe wird die Krankheit oft bis zur letzten möglichen Minute verschwiegen.",
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish"],
+    fingerabdruecke: [
+      {
+        titel: "Verschwiegen bis zur letzten Minute – Krankheit als radikal privates Geheimnis",
+        beschreibung: "Die sexuelle Vier zeigt in mehreren Fällen eine besonders konsequente, oft jahrelange Geheimhaltung der eigenen Diagnose – bis zur Grenze des öffentlich noch Vertretbaren.",
+        beleg: "Freddie Mercury, der seine AIDS-Erkrankung fast fünf Jahre lang strikt geheim hielt und sie erst einen Tag vor seinem Tod öffentlich bestätigte; Billie Eilish, die ihr Tourette-Syndrom über Jahre verschwieg, bevor sie es selbst öffentlich machte."
+      }
+    ]
+  },
+  SE5: {
+    tier: "Eule",
+    kernthema: "Erkrankung als Nebenprodukt der eigenen obsessiven Vertiefung – bei mehreren Fällen entsteht das Leiden direkt aus jahrelanger, ungeschützter Hingabe an die eigene Arbeit.",
+    beispiele: ["Marie Curie", "Charles Darwin", "Franz Kafka", "Baruch de Spinoza", "Hermann Hesse", "Warren Buffett"],
+    fingerabdruecke: [
+      {
+        titel: "Die eigene Forschungs- oder Handwerksleidenschaft als direkte Krankheitsursache",
+        beschreibung: "Bei der selbsterhaltenden Fünf finden sich mehrfach Fälle, in denen die Krankheit nicht zufällig, sondern als direkte Folge jahrelanger, ungeschützter Vertiefung in die eigene Materie entsteht – die Leidenschaft selbst wird zur Belastung des eigenen Körpers.",
+        beleg: "Marie Curie, deren aplastische Anämie durch chronische Strahlenbelastung aus der eigenen Forschung entstand; Baruch de Spinoza, dessen chronische Lungenerkrankung auf jahrelanges Einatmen von Glasstaub beim Linsenschleifen zurückgeht – seinem selbst gewählten Handwerk zur finanziellen Unabhängigkeit."
+      }
+    ]
+  },
+  SO5: {
+    tier: "Oktopus",
+    kernthema: "Arbeit bis zuletzt – bei kaum einer anderen Gruppe zieht sich das Weiterarbeiten trotz fortschreitender, oft tödlicher Erkrankung so konsequent durch alle Fälle.",
+    beispiele: ["Dr. Claudio Naranjo", "Albert Einstein", "Stephen Hawking", "Isaac Newton", "Leonardo da Vinci"],
+    fingerabdruecke: [
+      {
+        titel: "Ungebremstes Weiterarbeiten trotz fortschreitender, bekannter Erkrankung",
+        beschreibung: "Bei praktisch allen bisherigen SO5-Fällen setzt sich die geistige oder schöpferische Arbeit trotz erheblicher körperlicher Einschränkung nahezu unvermindert fort – Wissen und Werk werden bis zur physischen Grenze weitergetragen.",
+        beleg: "Stephen Hawking, der trotz vollständiger Lähmung 55 Jahre lang an offenen Fragen der Physik weiterarbeitete; Albert Einstein, der eine bekannte, unbehandelte Aneurysma-Bedrohung sechseinhalb Jahre lang in Kauf nahm und bis in die letzte Nacht an Gleichungen arbeitete; Leonardo da Vinci, der nach einem Schlaganfall mit Lähmung der rechten Hand auf die linke Hand umstellte und weiter an der Mona Lisa arbeitete."
+      }
+    ]
+  },
+  SX5: {
+    tier: "Igel",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Häufung neurologischer und die Sinne betreffender Beschwerden, die mit geistigem Zusammenbruch einhergehen.",
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin"],
+    fingerabdruecke: [
+      {
+        titel: "Neurologische Beschwerden mit Auswirkung auf Wahrnehmung und Geist",
+        beschreibung: "Mit bislang nur zwei Fällen ist noch kein belastbares Muster erkennbar, doch beide zeigen eine Kombination aus körperlichem Leiden und geistiger beziehungsweise sensorischer Beeinträchtigung.",
+        beleg: "Friedrich Nietzsche mit chronischer Migräne, Sehschwäche und schließlich geistigem Zusammenbruch; Frédéric Chopin, dessen Tuberkulose sein gesamtes späteres Schaffen und seine körperliche Kraft zunehmend einschränkte."
+      }
+    ]
+  },
+  SE6: {
+    tier: "Kaninchen",
+    kernthema: "Verschwiegene oder kleingeredete Erkrankungen bei gleichzeitig wachsamem, oft hypochondrischem Blick auf die eigene Gesundheit.",
+    beispiele: ["Franz Schubert", "Fjodor Dostojewski", "Woody Allen", "Neil Armstrong"],
+    fingerabdruecke: [
+      {
+        titel: "Zwischen Verschweigen und ständiger gesundheitlicher Wachsamkeit",
+        beschreibung: "Bei der selbsterhaltenden Sechs zeigt sich ein auffälliger Kontrast: Manche Fälle verbergen eine ernste Krankheit lange, während andere die eigene Gesundheit zu einem dauerhaften, öffentlich bekannten Sorgenthema machen.",
+        beleg: "Franz Schubert, dessen Syphilis-Erkrankung über sechs Jahre verlief, offiziell aber als Typhus deklariert wurde; Woody Allen mit seiner lebenslangen, öffentlich dokumentierten Hypochondrie (›Alarmismus‹); Neil Armstrong, der über zwei Jahrzehnte hinweg eine koronare Herzkrankheit mit sich trug, bevor er nach einer Bypass-Operation starb."
+      }
+    ]
+  },
+  SO6: {
+    tier: "Erdmännchen",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist ein Festhalten an eigenen Gewohnheiten trotz erkennbarer gesundheitlicher Gefahr.",
+    beispiele: ["Sigmund Freud", "Immanuel Kant"],
+    fingerabdruecke: [
+      {
+        titel: "Festhalten an der eigenen Gewohnheit trotz erkennbarer Gefahr",
+        beschreibung: "Mit bislang zwei Fällen lässt sich vorsichtig ein Muster erkennen, in dem eine als sicherheitsstiftend erlebte Gewohnheit auch nach der Diagnose nicht aufgegeben wird.",
+        beleg: "Sigmund Freud, der trotz seiner Diagnose von Mundhöhlen- und Kieferkrebs sein Zigarrenrauchen kaum einschränkte; Immanuel Kant mit einer chronischen Hypochondrie und Atembeklemmung, die sein streng geregeltes Tagesritual bis ins hohe Alter kaum veränderte."
+      }
+    ]
+  },
+  SX6: {
+    tier: "Wolf",
+    kernthema: "Nach einer Erkrankung oder einem Trauma folgt bei dieser Gruppe auffällig oft ein radikaler Rückzug aus der Öffentlichkeit oder dem sozialen Umfeld.",
+    beispiele: ["Friedrich Schiller", "Otto von Bismarck", "Ludwig van Beethoven", "Charles Manson", "Byron Katie", "Michael Schumacher"],
+    fingerabdruecke: [
+      {
+        titel: "Radikaler Rückzug nach Krankheit oder Trauma statt langsamer Anpassung",
+        beschreibung: "Bei der sexuellen Sechs zeigt sich mehrfach ein abrupter, fast vollständiger Rückzug aus dem gewohnten sozialen oder öffentlichen Leben, nachdem eine schwere Erkrankung oder ein Trauma eintrat – nicht das langsame Sich-Einrichten, sondern der klare Bruch.",
+        beleg: "Michael Schumacher, der nach seinem schweren Skiunfall 2013 vollständig medial abgeschottet wurde; Byron Katie, deren zehn Jahre andauernde schwere Depression und Agoraphobie 1986 abrupt in einen radikalen Wendepunkt mündete; Ludwig van Beethovens fortschreitende Taubheit, die ihn zunehmend aus dem geselligen Musikleben seiner Zeit heraustrieb."
+      }
+    ]
+  },
+  SE7: {
+    tier: "Gorilla",
+    kernthema: "Weitermachen trotz schwerer Diagnose – bei dieser Gruppe endet die eigentliche Aktivität oft erst mit dem Tod selbst, nicht schon mit der Diagnose.",
+    beispiele: ["Larry King", "Francis Bacon", "Junko Tabei", "Mariah Carey"],
+    fingerabdruecke: [
+      {
+        titel: "Aktivität bis zum buchstäblich letzten Moment, ungeachtet der Diagnose",
+        beschreibung: "Die selbsterhaltende Sieben zeigt in mehreren Fällen die Tendenz, die eigene gewohnte Tätigkeit bis zum Lebensende fortzusetzen, statt sich der Krankheit unterzuordnen.",
+        beleg: "Junko Tabei, die trotz Bauchfellkrebs weiterhin Berge bestieg, praktisch bis zu ihrem Tod; Larry King, der über Jahrzehnte eine ganze Kette von Herzerkrankungen, Krebs und einem Schlaganfall überstand und immer wieder ins Studio zurückkehrte, bevor er letztlich an COVID-19-Sepsis starb."
+      }
+    ]
+  },
+  SO7: {
+    tier: "Biber",
+    kernthema: "Warnsignale werden konsequent überspielt – bei dieser Gruppe wird die eigentliche Erkrankung immer wieder ignoriert oder fehlgedeutet, solange noch weitergearbeitet werden kann.",
+    beispiele: ["Molière", "George Gershwin", "Nikola Tesla", "Jules Verne", "Drew Barrymore", "Elon Musk"],
+    fingerabdruecke: [
+      {
+        titel: "Flucht nach vorn statt Innehalten bei den ersten Warnzeichen",
+        beschreibung: "Die soziale Sieben zeigt in mehreren Fällen ein Muster, bei dem frühe gesundheitliche Warnsignale zugunsten weiterer Aktivität und neuer Projekte konsequent überspielt werden, bis ein abrupter Zusammenbruch die Fortsetzung erzwingt.",
+        beleg: "George Gershwin, der trotz monatelanger Kopfschmerzen und Geruchshalluzinationen bis zum Kollaps an neuen Filmmusik-Projekten weiterarbeitete; Molière, der noch während einer Aufführung mit seiner chronischen Lungenerkrankung auf der Bühne stand; Nikola Tesla, dessen fortschreitende Zwangsstörung über Jahrzehnte hinweg nie behandelt, sondern in immer neue Erfindungsprojekte kanalisiert wurde."
+      }
+    ]
+  },
+  SX7: {
+    tier: "Schimpanse",
+    kernthema: "Intensive Aktivität und Leidenschaft setzen sich auch unter fortschreitender Krankheit fast ungebremst fort – der Rückzug kommt hier spät, wenn überhaupt.",
+    beispiele: ["Robert Schumann", "Leonard Bernstein", "Franz Liszt", "Morgan Freeman", "Frans de Waal"],
+    fingerabdruecke: [
+      {
+        titel: "Fortgesetzte Intensität trotz fortschreitender körperlicher Einschränkung",
+        beschreibung: "Bei der sexuellen Sieben hält die schöpferische oder berufliche Intensität auch unter zunehmender körperlicher Belastung ungewöhnlich lange an – die Erkrankung wird eher in die bestehende Leidenschaft integriert als dass sie zum Rückzug führt.",
+        beleg: "Frans de Waal, der trotz Magenkrebs bis wenige Monate vor seinem Tod weiterarbeitete; Morgan Freeman, der trotz seit 2008 bestehender Fibromyalgie mit chronischen Nervenschmerzen im linken Arm weiter Filme drehte; Franz Liszt, der trotz Herzschwäche, Wassersucht und fortschreitender Erblindung bis zuletzt konzertierte."
+      }
+    ]
+  },
+  SE8: {
+    tier: "Orang-Utan",
+    kernthema: "Eine der konsequentesten Geheimhaltungen der eigenen Krankheit im gesamten Kompass – Schwäche wird bei dieser Gruppe fast nie öffentlich zugelassen.",
+    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina"],
+    fingerabdruecke: [
+      {
+        titel: "Radikale, oft jahrelange Geheimhaltung jeder erkennbaren Schwäche",
+        beschreibung: "Die selbsterhaltende Acht zeigt bei fast allen bisherigen Fällen eine außergewöhnlich konsequente Geheimhaltung der eigenen Erkrankung – Kontrolle über die eigene Verletzlichkeit wird nicht aus der Hand gegeben.",
+        beleg: "Golda Meir, die ihre Lymphdrüsenkrebs-Erkrankung siebzehn Jahre lang geheim hielt; Winston Churchill, der einen Schlaganfall im Amt vor der Öffentlichkeit verbarg, neben einer lebenslangen, ebenfalls verheimlichten Depression (›the black dog‹); Umberto Eco, der seine Bauchspeicheldrüsenkrebs-Erkrankung rund zwei Jahre nahezu vollständig privat hielt."
+      }
+    ]
+  },
+  SO8: {
+    tier: "Löwe",
+    kernthema: "Kleine bis mittlere Fallzahl bislang – erkennbar ist eine auffällige Häufung chronischer, körperlich belastender Leiden, die trotzdem selten zum öffentlichen Rückzug führen.",
+    beispiele: ["Karl Marx", "John Gotti", "Helmut Kohl", "Fritz Perls"],
+    fingerabdruecke: [
+      {
+        titel: "Chronische körperliche Leiden, die selten zum Rückzug aus der Verantwortung führen",
+        beschreibung: "Bei der sozialen Acht treten mehrfach langwierige, körperlich belastende chronische Beschwerden auf, die jedoch selten dazu führen, dass die jeweilige Führungsrolle oder öffentliche Funktion vorzeitig aufgegeben wird.",
+        beleg: "Karl Marx, der über Jahre chronische, schwere Furunkel und Karbunkel neben Bronchitis, Leberbeschwerden und Rheuma ertrug, ohne seine Arbeit am ›Kapital‹ aufzugeben; Fritz Perls mit jahrelangem Herzleiden und Kettenrauchen bis zur Bauchspeicheldrüsenkrebs-Diagnose."
+      }
+    ]
+  },
+  SX8: {
+    tier: "Krokodil",
+    kernthema: "Weiterkämpfen ohne öffentlich sichtbaren Machtverlust – bei dieser Gruppe wird die eigene Position trotz schwerer, teils mehrfacher Erkrankung bemerkenswert lange gehalten.",
+    beispiele: ["Ruth Bader Ginsburg", "Giacomo Puccini", "John Wayne", "Genesis P-Orridge"],
+    fingerabdruecke: [
+      {
+        titel: "Amt oder Position werden trotz schwerer, wiederholter Erkrankung nicht aufgegeben",
+        beschreibung: "Die sexuelle Acht zeigt bei mehreren Fällen eine bemerkenswerte Weigerung, die eigene Position wegen einer Krankheit – selbst bei mehrfachem Wiederauftreten – vorzeitig zu räumen.",
+        beleg: "Ruth Bader Ginsburg, die über zwei Jahrzehnte hinweg vier Krebserkrankungen an drei unterschiedlichen Organen durchlebte und dabei durchgehend als Richterin am US-Supreme-Court im Amt blieb; John Wayne, der 1964 Lungenkrebs und 1979 schließlich tödlichen Magenkrebs erlitt, zwischen beiden Diagnosen aber weiter Filme drehte."
+      }
+    ]
+  },
+  SE9: {
+    tier: "Elefant",
+    kernthema: "Langsam fortschreitende, über Jahre kaum thematisierte chronische Leiden – bei dieser Gruppe bleibt die Erkrankung oft lange im Hintergrund des äußeren Lebens.",
+    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher"],
+    fingerabdruecke: [
+      {
+        titel: "Langsam fortschreitende Leiden, die lange kaum öffentlich thematisiert werden",
+        beschreibung: "Bei der selbsterhaltenden Neun verläuft die Erkrankung häufig sehr langsam über Jahre und bleibt dabei erstaunlich lange im Hintergrund des öffentlichen Lebens, bevor sie unübersehbar wird.",
+        beleg: "James Levine, dessen Parkinson-Erkrankung sich über Jahrzehnte hinweg fortschreitend entwickelte, begleitet von schweren Rückenverletzungen; David Hume mit einer chronischen Darmerkrankung, die stetig über gut vier Jahre fortschritt, ohne dass eine eindeutige Diagnose je gestellt wurde; Johannes Brahms, der an derselben Leberkrebserkrankung starb wie zuvor bereits sein Vater."
+      }
+    ]
+  },
+  SO9: {
+    tier: "Büffel",
+    kernthema: "Ein auffälliger Schwerpunkt auf Erkrankungen, die das eigene Gedächtnis und die eigene Identität betreffen – ein bemerkenswertes Echo des Neuner-Grundthemas der Selbstvergessenheit.",
+    beispiele: ["Wilma Mankiller", "Ronald Reagan", "Peter Falk", "Julian Assange", "Willy Brandt"],
+    fingerabdruecke: [
+      {
+        titel: "Erkrankungen, die Gedächtnis und Identität selbst betreffen",
+        beschreibung: "Bei der sozialen Neun fällt eine bemerkenswerte Häufung von Erkrankungen auf, die direkt Gedächtnis oder Identität angreifen – ein auffälliges Echo des Grundthemas dieses Subtyps, der eigenen Neigung, sich selbst zugunsten der Gemeinschaft zurückzustellen.",
+        beleg: "Ronald Reagan und Peter Falk, die beide an Alzheimer erkrankten – bei Falk begleitet von einem öffentlichen Sorgerechtsstreit um seine Pflege; Julian Assange, bei dem über sieben Jahre Isolation dokumentierte körperliche und psychische Folgen nach sich zogen; Willy Brandt mit wiederkehrenden schweren depressiven Episoden."
+      }
+    ]
+  },
+  SX9: {
+    tier: "Faultier",
+    kernthema: "Kleine Fallzahl bislang – erkennbar ist eine Tendenz zu chronischen, nie eindeutig diagnostizierten Leiden, oft begleitet von einem betäubenden Umgang mit dem eigenen Schmerz.",
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser"],
+    fingerabdruecke: [
+      {
+        titel: "Chronisches, nie eindeutig diagnostiziertes Leiden mit betäubendem Umgang",
+        beschreibung: "Mit bislang zwei Fällen ist noch kein belastbares Muster erkennbar, doch beide zeigen einen langjährigen, nie ganz aufgeklärten chronischen Verlauf.",
+        beleg: "Elizabeth Barrett Browning mit einer jahrzehntelangen, nie eindeutig diagnostizierten chronischen Krankheit und einer begleitenden lebenslangen Opiumabhängigkeit; Friedensreich Hundertwasser mit einem chronischen Herzleiden, das schließlich an Bord der Queen Elizabeth 2 zum tödlichen Herzversagen führte."
+      }
+    ]
+  }
+};
+
 function lebensmusterkompassPage() {
   const subtypes = [
     { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
@@ -2491,6 +2831,7 @@ function lebensmusterkompassPage() {
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"musterradar", label:"Musterradar (Flügel & Instinkte im Querschnitt)"},
+          {route:"krankheitsmusterkompass", label:"Krankheitsmusterkompass (Muster in den Krankheitsporträts)"},
           {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"kriminalpsychologie", label:"Kriminalpsychologie"},
@@ -2644,6 +2985,135 @@ function lebensmusterkompassDetailPage(codeRaw) {
           {route:"lebensmusterkompass", label:"Zurück zum Lebensmusterkompass"},
           {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
           {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassPage() {
+  const subtypes = [
+    { code: "SE1", tier: "Adler" }, { code: "SO1", tier: "Gans" }, { code: "SX1", tier: "Schwarze Mamba" },
+    { code: "SE2", tier: "Flusspferd" }, { code: "SO2", tier: "Golden Retriever" }, { code: "SX2", tier: "Kamel" },
+    { code: "SE3", tier: "Waschbär" }, { code: "SO3", tier: "Gepard" }, { code: "SX3", tier: "Pfau" },
+    { code: "SE4", tier: "Taube" }, { code: "SO4", tier: "Gürteltier" }, { code: "SX4", tier: "Chihuahua" },
+    { code: "SE5", tier: "Eule" }, { code: "SO5", tier: "Oktopus" }, { code: "SX5", tier: "Igel" },
+    { code: "SE6", tier: "Kaninchen" }, { code: "SO6", tier: "Erdmännchen" }, { code: "SX6", tier: "Wolf" },
+    { code: "SE7", tier: "Gorilla" }, { code: "SO7", tier: "Biber" }, { code: "SX7", tier: "Schimpanse" },
+    { code: "SE8", tier: "Orang-Utan" }, { code: "SO8", tier: "Löwe" }, { code: "SX8", tier: "Krokodil" },
+    { code: "SE9", tier: "Elefant" }, { code: "SO9", tier: "Büffel" }, { code: "SX9", tier: "Faultier" },
+  ];
+  const buttons = subtypes.map(s => {
+    const hasData = !!KRANKHEITSMUSTERKOMPASS[s.code];
+    const col = typeColorFromCode(s.code);
+    return `
+      <button
+        data-route="krankheitsmusterkompass/${s.code.toLowerCase()}"
+        style="display:flex;flex-direction:column;align-items:center;gap:.35rem;background:${hasData ? `linear-gradient(160deg, ${col}22, ${col}0d)` : "none"};border:2px solid ${hasData ? col : "var(--border)"};border-radius:10px;cursor:${hasData ? "pointer" : "default"};padding:.7rem .4rem;${hasData ? "" : "opacity:.5;"}"
+        ${hasData ? "" : "disabled"}
+        title="${s.tier} (${s.code})${hasData ? "" : " – in Arbeit"}"
+      >
+        <div style="position:relative;width:40px;height:40px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${hasData ? col : "var(--border)"};${hasData ? "" : "filter:grayscale(1);"}">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${s.code.toLowerCase()}.jpg" alt="${s.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(s.code)};left:${tierAvatarLeft(s.code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+        </div>
+        <span style="font-size:.75rem;font-weight:700;color:${col};letter-spacing:.04em;">${s.code}</span>
+        <span style="font-size:.68rem;color:var(--muted);text-align:center;line-height:1.2;">${s.tier}${hasData ? "" : "<br><span style='font-size:.6rem;'>in Arbeit</span>"}</span>
+      </button>
+    `;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Krankheitsmusterkompass</p>
+        <h1 class="section-title">Krankheitsmusterkompass</h1>
+        <p class="psycho-intro">Wiederkehrende Muster im Krankheitsverlauf der 27 Subtypen &ndash; herausgearbeitet aus der internen Analyse sämtlicher Krankheitsporträts dieses Kompasses.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro"><strong>Der wichtigste Satz zuerst:</strong> Jeder Mensch kann jede Krankheit bekommen &ndash; unabhängig von seinem Enneagramm-Subtyp. Diese Rubrik ist keine Vorhersage und keine Checkliste dessen, woran man als bestimmter Typ angeblich erkranken wird. Sie hält lediglich fest, welche Krankheitsbilder in den bisherigen Krankheitsporträts dieses Kompasses bei welchem Subtyp gehäuft dokumentiert sind &ndash; eine statistische Beobachtung innerhalb einer noch kleinen, nicht repräsentativen Stichprobe von gut hundert Fällen, keine medizinische oder wissenschaftliche Aussage.</p>
+          <p class="vb-intro">Warum gibt es solche Häufungen trotzdem? Weil bestimmte psychische Muster &ndash; etwa die Neigung, Warnsignale des eigenen Körpers zu überspielen, oder die Tendenz, Erkrankungen konsequent zu verbergen &ndash; sich naturgemäß eher in manchen Krankheitsverläufen als in anderen niederschlagen. Das ist ein Unterschied zur individuellen Erkrankung: Ob ein einzelner Mensch eine bestimmte, insbesondere eine schwere Krankheit tatsächlich bekommt, hängt von sehr vielen Faktoren ab und bleibt in aller Regel unwahrscheinlich &ndash; die hier dokumentierten Fälle sind auffällige, aber statistisch seltene Einzelfälle aus jeweils einer Handvoll bis wenigen Dutzend porträtierten Personen pro Subtyp, nicht der zu erwartende Normalfall.</p>
+          <p class="vb-intro"><strong>Eine Entwarnung, die wichtig ist:</strong> Die in dieser Rubrik erkennbaren Muster (etwa das Überspielen von Warnsignalen oder das Verschweigen einer Erkrankung) setzen in aller Regel voraus, dass ein Mensch sich seines eigenen Grundmusters nicht bewusst ist und es dadurch ungebremst auslebt &ndash; nicht aus Schuld, sondern aus Unwissenheit über das eigene Muster (siehe dazu auch den Punkt &bdquo;Die unbewusste Fixierung als eigener Faktor&ldquo;, der in jedem Krankheitsporträt dieses Kompasses behandelt wird). Wer sich mit dem Enneagramm und dem eigenen Subtyp bereits auseinandersetzt, hat diesen blinden Fleck in aller Regel längst zu einem großen Teil aufgelöst &ndash; und genau das ist der eigentliche Sinn dieser Rubrik: nicht Sorge zu erzeugen, sondern zu zeigen, wo achtsamere Selbstwahrnehmung lohnt.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis zur Methode:</strong> Auch dieser Kompass ist, wie der Lebensmusterkompass, kein außenstehend verifizierter, wissenschaftlicher Beweis, sondern eine fortlaufend wachsende interne Beobachtungssammlung aus der eigenen Porträtarbeit &ndash; mit demselben methodischen Zirkularitätsrisiko. Alle 27 Subtypen sind angelegt; bei Subtypen mit bislang nur ein oder zwei dokumentierten Krankheitsporträts wird das explizit als vorläufig gekennzeichnet, statt ein Muster zu erzwingen, wo die Datenlage dafür schlicht zu dünn ist. Die Rubrik wird bei jedem neuen Krankheitsporträt aktualisiert.</p>
+        </blockquote>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:0.8rem;margin:2rem 0;">
+          ${buttons}
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"lebensmusterkompass", label:"Lebensmusterkompass (Biografische Fingerabdrücke)"},
+          {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+          {route:"psychosomatik", label:"Psychosomatik-Register"},
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krankheitsmusterkompassDetailPage(codeRaw) {
+  const code = (codeRaw || "").toUpperCase();
+  const data = KRANKHEITSMUSTERKOMPASS[code];
+  if (!data) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wissen")}
+        <div class="page-content">
+          <h1 class="section-title">Noch nicht verfügbar</h1>
+          <p class="psycho-intro">Der Krankheitsmusterkompass für ${code} ist noch in Arbeit.</p>
+          ${relatedLinks([{route:"krankheitsmusterkompass", label:"Zurück zum Krankheitsmusterkompass"}])}
+        </div>
+      </div>
+    `);
+  }
+  const col = typeColorFromCode(code);
+  const portraitsAuto = krankheitsmusterkompassPortraitsForCode(code);
+  const beispieleLinks = portraitsAuto.length
+    ? portraitsAuto.map(p => `<button class="related-link-btn" data-route="${p.route}" style="font-size:0.82rem;color:${col};font-weight:600;">${p.name}</button>`).join("")
+    : `<span style="font-size:0.87rem;color:${col};font-weight:600;">${data.beispiele.join(", ")}</span>`;
+  const cards = data.fingerabdruecke.map((f, i) => `
+    <div class="vb-blockquote" style="margin-bottom:1.2rem;">
+      <div style="display:flex;align-items:center;gap:0.8rem;margin-bottom:0.7rem;">
+        <span style="background:${col};color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 0.65rem;border-radius:6px;letter-spacing:0.06em;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,0.35);">Muster ${i + 1}</span>
+        <strong style="font-size:1.02rem;color:var(--ink);">${f.titel}</strong>
+      </div>
+      <p style="margin:0 0 0.7rem;font-size:0.9rem;line-height:1.6;">${f.beschreibung}</p>
+      <div><span style="font-size:0.72rem;font-weight:700;letter-spacing:0.07em;color:var(--copper);text-transform:uppercase;">Belege aus den Krankheitsporträts</span><p style="margin:0.2rem 0 0;font-size:0.87rem;line-height:1.55;font-style:italic;color:var(--muted);">${highlightBiografieNamen(f.beleg, data.beispiele, col)}</p></div>
+    </div>
+  `).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Krankheitsmusterkompass</p>
+        <h1 class="section-title" style="display:flex;align-items:center;gap:0.7rem;flex-wrap:wrap;">
+          <div style="position:relative;width:44px;height:44px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid ${col};">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/${code.toLowerCase()}.jpg" alt="${data.tier}" loading="lazy" style="position:absolute;top:${tierAvatarTop(code)};left:${tierAvatarLeft(code)};width:140%;height:140%;object-fit:cover;border-radius:0;" onerror="this.parentElement.style.display='none'" />
+          </div>
+          <span style="color:${col};">${code} &middot; ${data.tier}: Krankheitsmuster</span>
+        </h1>
+        <p class="psycho-intro">${data.kernthema}</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:-0.6rem 0 1.4rem;">Jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp – diese Seite zeigt statistische Häufungen innerhalb einer kleinen, nicht repräsentativen Stichprobe, keine Vorhersage. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsmusterkompass" style="color:${col};">Krankheitsmusterkompass-Überblick</a>.</p>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro" style="margin-bottom:0.6rem;">Herangezogene Krankheitsporträts (automatisch aus allen ${code}-Einträgen zusammengestellt &ndash; ergänzt sich bei jedem neuen Krankheitsporträt von selbst):</p>
+          <div style="display:flex;flex-wrap:wrap;gap:0.4rem;">${beispieleLinks}</div>
+        </blockquote>
+
+        ${cards}
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"krankheitsmusterkompass", label:"Zurück zum Krankheitsmusterkompass"},
+          {route:"lebensmusterkompass/" + code.toLowerCase(), label:`Lebensmusterkompass: ${code} – ${data.tier}`},
+          {route:`subtype/${code.toLowerCase()}`, label:`${code} – ${data.tier}: Subtyp-Profil`},
+          {route:"psychosomatik", label:"Psychosomatik-Register"},
         ])}
       </div>
     </div>
@@ -7397,273 +7867,6 @@ function georgWilhelmFriedrichHegelPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1) – lebenslanger Gegner des ›Systems‹"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
-      ])}
-    </div>
-  `);
-}
-
-function kollegahPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-kollegah-portrait.jpg" alt="Kollegah – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Kollegah</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Rapper, K\u00fcnstler &amp; Unternehmer, geb. 1984 &ndash; 2016 zum Islam \u00fcbergetreten &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Raubtier, das nicht aus Bosheit t\u00f6tet, sondern aus Notwendigkeit. Er lebt in Hierarchien, er k\u00e4mpft um seine Position, und er zeigt seine Z\u00e4hne, nicht weil er Freude am Schmerz hat, sondern weil er wei\u00df: Wer sich nicht durchsetzt, wird verdr\u00e4ngt. Der Wolf hat Angst &ndash; und er verwandelt diese Angst in Kraft.</p>
-          <p class="vb-intro">Der deutsche Rapper Kollegah &ndash; b\u00fcrgerlicher Name Felix Antoine Blume, geb. 1984 in Singen &ndash; ist dieser Wolf. Einer der kommerziell erfolgreichsten deutschen Rapper \u00fcberhaupt, bekannt f\u00fcr ein k\u00fcnstlerisches Alter Ego, das nach au\u00dfen hin keine Schw\u00e4che kennt: der Boss, der Zuh\u00e4lter-Bar\u00f3n, die \u00fcberlegene Figur, die jeden Gegner wegfl\u00fcstert. Aber das Alter Ego ist eine R\u00fcstung. Darunter liegt die Frage, die alle Sechser kennen: <em>Bin ich wirklich sicher? Bin ich wirklich stark genug?</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Gegenangst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit Angriff. <em>Ich bin gef\u00e4hrlich &ndash; also bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Kraft, Dominanz und Intensit\u00e4t, weil sie wei\u00df, was es bedeutet, schwach zu sein &ndash; und weil sie sich geschworen hat, nie wieder dort zu sein.</p>
-          <p class="vb-intro">Kollegahs gesamtes k\u00fcnstlerisches Projekt ist eine Inszenierung dieser Gegenangst. Das Boss-Narrativ, die Muskeln, die Statussymbole, die Sprache der Dominanz &ndash; alles dient dazu, eine Aura der Unverwundbarkeit zu erzeugen. Wer die SX6 kennt, erkennt das Muster sofort: Je mehr jemand seine St\u00e4rke demonstriert, desto mehr sagt er dar\u00fcber, was er zu verbergen versucht. Der Wolf, der seine Rei\u00dfz\u00e4hne zeigt, wei\u00df genau, warum.</p>
-          <p class="vb-intro">Das Rudel der SX6 ist klein und loyal. Kollegah arbeitete jahrelang eng mit Farid Bang zusammen &ndash; enneagrammtypologisch ein ganz anderes Profil: Farid Bang ist selbsterhaltender Typ 7 mit Achterfl\u00fcgel (SE7w8), kein Kontratyp, sondern ein Siebener, der seinen Hunger nach Erleben und Intensit\u00e4t mit der Direktheit des Achters verbindet. Zwei v\u00f6llig verschiedene Charakterstrukturen, die sich im Ergebnis erg\u00e4nzten: der Wolf, der aus Angst angreift, und der Siebener, der aus Lust provoziert. Das Projekt <em>Jung, brutal, gutaussehend</em> (2013) ist das Dokument dieser Allianz: ein Album, das Provokation zum Kunstprinzip erhob.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Der Handwerker</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine Pr\u00e4zision, die ihren Stil von blo\u00dfer Provokation unterscheidet. Die SX6w5 k\u00e4mpft nicht nur mit Lautst\u00e4rke &ndash; sie k\u00e4mpft mit Technik. <em>Ich will nicht nur gef\u00e4hrlich wirken. Ich will der Beste sein. Ich will es beweisen k\u00f6nnen.</em></p>
-          <p class="vb-intro">Kollegah ist, bei aller inhaltlichen Kontroversi\u00e4t, handwerklich einer der pr\u00e4zisesten Rapper der deutschsprachigen Szene. Mehrsilbige Reime, komplexe Kadenzen, die f\u00fcr die deutsche Sprache ungew\u00f6hnlich sind, eine Dichte an W\u00f6rtern pro Takt, die wenige erreichen. Er hat das Rappen studiert wie ein Fach &ndash; analysiert, systematisiert, optimiert. Das ist der F\u00fcnferfl\u00fcgel: Wissen als Werkzeug, Handwerk als Schutzschild. <em>Was ich kann, kann mir niemand nehmen.</em></p>
-          <p class="vb-intro">Der F\u00fcnferfl\u00fcgel erkl\u00e4rt auch Kollegahs \u00fcberraschend tiefe Auseinandersetzung mit Religion. Seine Konversion zum Islam 2016 kam nicht aus dem Nichts. Der SX6w5 sucht ein stabiles Fundament f\u00fcr seine Weltsicht &ndash; ein System, dem er vertrauen kann, das ihn tr\u00e4gt. Die F\u00fcnf im Fl\u00fcgel macht ihn zum Forscher: Er liest, analysiert, entwickelt Positionen. Auch das ist eine Form der K\u00e4mpfernatur der Sechs: Ich brauche etwas, das standh\u00e4lt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist ihre F\u00e4higkeit, Intensit\u00e4t in Leistung zu verwandeln. Kollegah hat aus einer Startposition ohne Netzwerk und ohne Plattform heraus eine der erfolgreichsten Karrieren im deutschen Hip-Hop aufgebaut. F\u00fcnf Nummer-eins-Alben in Serie, mehrfacher Echo-Gewinner, eines der meistgeh\u00f6rten Acts der deutschen Musikgeschichte. Das ist nicht Gl\u00fcck. Das ist die SX6w5: gnadenlos diszipliniert, gnadenlos fokussiert, gnadenlos auf Kontrolle bedacht.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die Kontrareaktion der SX6 darauf ist Provokation. Wenn Provokation aber zum Selbstzweck wird, verliert sie ihre Grenze. Der Echo-Skandal 2018 &ndash; antisemitische Textzeilen auf dem gemeinsamen Album mit Farid Bang, die zum R\u00fcckgabe-Eklat f\u00fchrten &ndash; ist das d\u00fcsterste Kapitel in Kollegahs \u00f6ffentlichem Leben. Was als \u00c4sthetik der Grenz\u00fcberschreitung begann, wurde zur realen Verletzung. Der Wolf, der nicht mehr wei\u00df, wohin mit seinen Z\u00e4hnen.</p>
-          <p class="vb-intro"><em>Hinweis: Das Portr\u00e4t analysiert die Pers\u00f6nlichkeitsstruktur. Antisemitische Texte sind nicht relativierbar &ndash; sie werden hier nicht verteidigt, sondern eingeordnet: als \u00dcberschreitung eines Musters, das in seinem Ursprung aus Angst und Gegenangst entsteht.</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: St\u00e4rke ohne R\u00fcstung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich?</em> zur Erkenntnis <em>Ich brauche diesen Schutz nicht.</em> F\u00fcr die SX6w5 bedeutet das, die R\u00fcstung abzulegen &ndash; nicht weil man schwach ist, sondern weil man stark genug ist, ohne sie aufzutreten. Der Boss-Charakter ist eine Antwort auf eine innere Not. Wenn diese Not geh\u00f6rt wird, braucht es den Charakter nicht mehr.</p>
-          <p class="vb-intro">Kollegahs sp\u00e4teres Schaffen zeigt Spuren dieses Weges. Die Konversion, die bewusste Auseinandersetzung mit Grenzen, die \u00f6ffentliche Distanzierung von bestimmten \u00c4sthetiken &ndash; das sind keine Br\u00fcche, sondern Bewegungen. Der Wolf, der beginnt, sein Rudel nicht mehr durch Z\u00e4hnezeigen zu f\u00fchren, sondern durch Ruhe und Richtung. Die St\u00e4rke bleibt. Die Angst dahinter wird kleiner.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function wladimirPutinPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-wladimir-putin-portrait.jpg" alt="Wladimir Putin – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Wladimir Putin</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Politiker, Pr\u00e4sident der Russischen F\u00f6deration, geb. 1952 in Leningrad &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er beobachtet lange, bevor er handelt, und wenn er handelt, dann entschlossen. Er kennt Angst &ndash; und genau deshalb l\u00e4sst er sie nicht zu.</p>
-          <p class="vb-intro">Der russische Pr\u00e4sident Wladimir Putin, geboren 1952 in Leningrad, dem heutigen St. Petersburg, in einfachen Verh\u00e4ltnissen und als einziges \u00fcberlebendes Kind seiner Eltern nach zwei im Krieg bzw. an Krankheit verstorbenen Geschwistern, ist dieser Wolf. Sein Weg vom KGB-Offizier \u00fcber den St. Petersburger Verwaltungsapparat bis an die Spitze des russischen Staates ist die Geschichte eines Mannes, der gelernt hat, dass Kontrolle \u00fcber die eigene Umgebung die einzige verl\u00e4ssliche Antwort auf eine unsichere Welt ist.</p>
-          <p class="vb-intro">Passend dazu erz\u00e4hlte Putin in seinen Autobiografien eine pr\u00e4gende Kindheitserinnerung aus einem Hinterhof im damaligen Leningrad: Er hatte eine Ratte mit einem Stock in eine Ecke getrieben &ndash; doch statt sich zu ergeben, sprang das Tier ihm pl\u00f6tzlich ins Gesicht. F\u00fcr ihn wurde daraus die zentrale Lebenslektion: Wer in die Enge getrieben ist, darf sich niemals zur\u00fcckziehen, sondern muss wie die Ratte nach vorne springen. Die Ratte ist ein treffendes Bild f\u00fcr die SX6: Sie greift nicht aus \u00dcberlegenheit an, sondern aus Angst und Enge &ndash; und macht daraus Angriff. Wie tief dieses Muster reicht, zeigt auch der Watergate-Drahtzieher G. Gordon Liddy, ebenfalls eine SX6, der als Kind von einer Rattenphobie gequ\u00e4lt wurde und sich sp\u00e4ter eine Ratte briet und a\u00df, um seine Angst durch reinen Willen zu bezwingen. Ob metaphorisch wie bei Putin oder w\u00f6rtlich wie bei Liddy: Beide versuchen, der eigenen Verwundbarkeit zu entkommen, indem sie selbst zum gef\u00e4hrlichsten Faktor im Raum werden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke als Gegenangst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich stark genug bin, wenn ich unberechenbar genug bin, wenn ich zuerst handle &ndash; dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
-          <p class="vb-intro">Putins politischer Stil tr\u00e4gt die Handschrift dieses Musters unverkennbar. Die kalkulierte H\u00e4rte in Krisen, die Inszenierungen von physischer St\u00e4rke &ndash; Judo, Eishockey, Reiten mit nacktem Oberk\u00f6rper &ndash;, das strategische Verunsichern von Gegnern durch bewusste Unberechenbarkeit: All das folgt der Logik des Wolfes, der seine Position nicht durch N\u00e4he, sondern durch demonstrierte Unangreifbarkeit sichert. Die eigene Erfahrung des Zusammenbruchs der Sowjetunion 1991, den Putin sp\u00e4ter als <em>gr\u00f6\u00dfte geopolitische Katastrophe des 20. Jahrhunderts</em> bezeichnete, ist der biografische Kern dieser Haltung: der Moment, in dem das Rudel auseinanderfiel und die Bedrohung von innen kam.</p>
-          <p class="vb-intro">Das Rudel der SX6 ist klein, loyal und hierarchisch geordnet &ndash; ein enger Kreis aus Vertrauten, oft noch aus KGB- und St.-Petersburg-Zeiten, dem bedingungslose Loyalit\u00e4t abverlangt und im Gegenzug Schutz gew\u00e4hrt wird. Wer aus diesem Rudel ausschert oder als Verr\u00e4ter gilt, wird zur Bedrohung erkl\u00e4rt &ndash; ein Muster, das sich durch Putins gesamte politische Laufbahn zieht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Kontrolle durch Wissen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische K\u00fchle, die ihre K\u00e4mpfernatur von reiner Impulsivit\u00e4t unterscheidet. Die SX6w5 handelt nicht aus dem Affekt &ndash; sie beobachtet, sammelt Informationen, w\u00e4gt ab, und schl\u00e4gt erst zu, wenn sie die Lage vollst\u00e4ndig durchdrungen hat. <em>Ich will nicht nur stark sein. Ich will wissen, bevor ich handle.</em></p>
-          <p class="vb-intro">Putins gesamte berufliche Pr\u00e4gung ist die Verk\u00f6rperung dieses F\u00fcnferfl\u00fcgels: 16 Jahre im KGB und dessen Nachfolgeorganisationen, ein Beruf, dessen Kern das Sammeln, Analysieren und diskrete Verwerten von Informationen ist. Seine \u00f6ffentlichen Auftritte sind gepr\u00e4gt von einer bewussten Zur\u00fcckhaltung, einer Distanz, die N\u00e4he vermeidet und Kontrolle \u00fcber die eigene Selbstdarstellung wahrt. Der F\u00fcnferfl\u00fcgel erkl\u00e4rt auch die geduldige, oft jahrelange strategische Planung, die vielen seiner politischen Schritte vorausgeht &ndash; das Gegenteil von Impulsivit\u00e4t, auch wenn das Ergebnis nach au\u00dfen hin abrupt erscheinen mag.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Aufstieg: Vom KGB-Offizier zum Pr\u00e4sidenten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Putins Aufstieg ist ein Lehrst\u00fcck systematischer Machtsicherung. Nach dem Ende seiner KGB-Laufbahn 1991 wurde er Berater des St. Petersburger B\u00fcrgermeisters Anatoli Sobtschak, wechselte 1996 nach Moskau in die Pr\u00e4sidialverwaltung, wurde 1998 Chef des Inlandsgeheimdienstes FSB und 1999 von Boris Jelzin zum Ministerpr\u00e4sidenten ernannt. Am letzten Tag des Jahres 1999 \u00fcbergab Jelzin ihm \u00fcberraschend das Pr\u00e4sidentenamt. Seither hat er &ndash; mit einer vierj\u00e4hrigen Unterbrechung als Ministerpr\u00e4sident zwischen 2008 und 2012, w\u00e4hrend der er de facto weiter die F\u00e4den zog &ndash; die russische Politik ohne Unterbrechung gepr\u00e4gt.</p>
-          <p class="vb-intro">Diese Kontinuit\u00e4t ist selbst Ausdruck des SX6w5-Musters: die systematische Absicherung der eigenen Position gegen jede Form von Unsicherheit, durch Verfassungs\u00e4nderungen, durch Kontrolle der Medien, durch ein engmaschiges Netz loyaler Vertrauter in Wirtschaft und Verwaltung. Der Wolf, der sein Territorium nicht dem Zufall \u00fcberl\u00e4sst.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, in Krisen Stabilit\u00e4t und Handlungsf\u00e4higkeit zu vermitteln. In den chaotischen Jahren nach dem Zusammenbruch der Sowjetunion versprach Putins ruhige, kontrollierte Art vielen Russen ein Ende der Instabilit\u00e4t &ndash; ein Versprechen, das seine fr\u00fche Popularit\u00e4t erkl\u00e4rt und das bis heute einen Teil seiner innenpolitischen Zustimmung tr\u00e4gt.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, wenn die wahrgenommene Bedrohung existenziell wird. Die Annexion der Krim 2014 und der seit 2022 andauernde Angriffskrieg gegen die Ukraine sind die dunkelste Konsequenz dieses Musters: die Umwandlung diffuser Angst &ndash; vor NATO-Erweiterung, vor dem Verlust von Einflusssph\u00e4ren, vor dem imaginierten Zerfall der eigenen Machtbasis &ndash; in massive, f\u00fcr unz\u00e4hlige Menschen t\u00f6dliche Aggression. Die Unterdr\u00fcckung innenpolitischer Opposition, das Vorgehen gegen unabh\u00e4ngigen Journalismus und die Inhaftierung oder der Tod von Kritikern wie Alexei Nawalny zeigen dasselbe Muster nach innen gewendet: Wer als Bedrohung des Rudels gilt, wird eliminiert. Das ist kein Randaspekt der Pers\u00f6nlichkeitsstruktur &ndash; es ist ihre Schattenseite in ihrer radikalsten, folgenschwersten Form.</p>
-          <p class="vb-intro"><em>Hinweis: Dieses Portr\u00e4t analysiert eine Pers\u00f6nlichkeitsstruktur nach dem Enneagramm-Modell. Es erkl\u00e4rt Muster, es rechtfertigt nichts. Der Angriffskrieg gegen die Ukraine und die Unterdr\u00fcckung politischer Freiheit in Russland sind eigenst\u00e4ndig zu verurteilende Handlungen, unabh\u00e4ngig von jeder psychologischen Einordnung.</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Der Heilungsweg: Sicherheit ohne Kontrolle \u00fcber andere</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Herrschaft \u00fcber andere zu verstehen, sondern als innere Festigkeit, die keine \u00e4u\u00dfere Best\u00e4tigung durch Unterwerfung braucht.</p>
-          <p class="vb-intro">Dieser Weg ist bei Wladimir Putin \u00f6ffentlich nicht erkennbar &ndash; im Gegenteil, seine Amtsjahre zeigen eine zunehmende, nicht eine abnehmende Verh\u00e4rtung des Musters. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch die Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zu bek\u00e4mpfen versucht. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das er sein Leben lang zu vermeiden gelernt hat.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
-        {route:"beruehmte-otto-von-bismarck", label:"Portr\u00e4t: Otto von Bismarck (SX6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function ottoVonBismarckPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-otto-von-bismarck-portrait.jpg" alt="Otto von Bismarck \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Otto von Bismarck</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Erster Reichskanzler des Deutschen Kaiserreichs, geb. 1815 in Sch\u00f6nhausen, gest. 1898 in Friedrichsruh &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Rudeltier, das seine Position durch St\u00e4rke behauptet und jede Bedrohung des Territoriums mit Z\u00e4hnen beantwortet. Der Wolf vertraut nicht leicht. Er prescht nicht blind vor, sondern beobachtet, wittert, wartet auf den richtigen Moment &ndash; und wenn er zuschl\u00e4gt, dann entschlossen und ohne halbe Sachen.</p>
-          <p class="vb-intro">Otto von Bismarck, geboren 1815 auf dem Gut Sch\u00f6nhausen in der Altmark, ist dieser Wolf in seiner reinsten politischen Gestalt. Zeitgenossen beschrieben ihn als \u00bbd\u00e4monisch\u00ab, als \u00bbdiabolisch\u00ab &ndash; Formulierungen, die weniger sein Wesen treffen als das, was er bewusst nach au\u00dfen kehrte: eine Bedrohlichkeit, die keinen Zweifel daran lie\u00df, dass es gef\u00e4hrlich war, sich mit ihm anzulegen. Als seine Mutter starb, war er dreizehn Jahre alt; sein Vater, ein biederer Landjunker, hielt den ambitionslosen, unsteten Sohn zeitlebens f\u00fcr eine Entt\u00e4uschung. Aus diesem doppelten Mangel &ndash; fr\u00fch verlorene N\u00e4he, nie erhaltene Anerkennung &ndash; erwuchs kein R\u00fcckzug, sondern das genaue Gegenteil: eine zwanghafte, lebenslange Suche nach Dominanz und Best\u00e4tigung, die sich niemand mehr entziehen konnte.</p>
-          <p class="vb-intro">Sein eigenes Urteil \u00fcber sich selbst best\u00e4tigt, wie viel Kraft es kostete, diese Fassade aufrechtzuerhalten: \u203aIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u2039 Das ist kein Satz eines Mannes ohne Angst. Es ist das Gest\u00e4ndnis eines Wolfes, der seine eigene Nervosit\u00e4t so gr\u00fcndlich hinter Drohgeb\u00e4rden verbarg, dass ganze Generationen von Zeitgenossen und Historikern sie f\u00fcr Kaltbl\u00fctigkeit hielten.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: Einsch\u00fcchterung statt R\u00fcckzug</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst und des Zweifels am wenigsten sichtbar ist, weil sie in ihr Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit Vorsicht oder Meidung, sondern mit pr\u00e4ventivem Angriff. <em>Wenn ich bedrohlicher bin als die Bedrohung selbst, dann kann mir nichts geschehen.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Macht, weil sie die Erfahrung von Ohnmacht kennt und sich geschworen hat, ihr nie wieder ausgeliefert zu sein.</p>
-          <p class="vb-intro">Bismarcks politisches Handwerkszeug bestand aus genau dieser Logik. Sein bekanntestes Machtinstrument gegen\u00fcber Kaiser Wilhelm I. war die wiederholte R\u00fccktrittsdrohung: Wann immer der Kaiser sich seiner Linie widersetzen wollte, drohte Bismarck mit dem eigenen Abgang &ndash; ein Druckmittel, das er so oft und so wirkungsvoll einsetzte, dass der weit \u00e4ltere Monarch ihm in den meisten strittigen Fragen nachgab, aus Angst, den unentbehrlichen Kanzler tats\u00e4chlich zu verlieren. Das ist kein diplomatisches Nachgeben, das ist Einsch\u00fcchterung als Regierungsstil &ndash; die Drohung wird zur Waffe, weil der offene R\u00fcckzug f\u00fcr die SX6 keine Option ist.</p>
-          <p class="vb-intro">Hinzu kam eine ausgepr\u00e4gte Neigung zur Projektion: Bismarck war zutiefst \u00fcberzeugt, von Rivalen und vermeintlichen Verschw\u00f6rern umgeben zu sein &ndash; am Hof, in der Presse, in den Parlamentsfraktionen. Tageb\u00fccher und Korrespondenz belegen ein zwanghaftes Kreisen um m\u00f6glichen Verrat, um vergangene Kr\u00e4nkungen, um imagin\u00e4re Umsturzpl\u00e4ne. Diese Angst wurde nicht introspektiv verarbeitet, sondern nach au\u00dfen projiziert und in Pr\u00e4ventivschl\u00e4ge \u00fcbersetzt: Wer als Gefahr galt, wurde politisch kaltgestellt, bevor er selbst zuschlagen konnte. Sein eigenes Rudel &ndash; ein enger Kreis loyaler Vertrauter wie Albrecht von Roon oder Robert von Keudell &ndash; wurde entsprechend eng gef\u00fchrt und gegen jede Konkurrenz von au\u00dfen verteidigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Warum nicht die Acht? Eine notwendige Abgrenzung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">In der Enneagramm-Diskussion wird Bismarck immer wieder als <strong>Selbsterhaltungs-Acht mit Neunerfl\u00fcgel (SE8w9)</strong> gehandelt \u2013 schlie\u00dflich passt die Kompromisslosigkeit, mit der er R\u00fccktrittsdrohungen einsetzte und Rivalen kaltstellte, auf den ersten Blick zum Bild eines Achters, der sein Territorium mit roher Machtdemonstration verteidigt. Bei genauerem Hinsehen tr\u00e4gt diese Zuordnung jedoch nicht.</p>
-          <p class="vb-intro">Entscheidend ist Bismarcks eigenes Gest\u00e4ndnis: <em>\u00bbIch bin ganz Nerven, sodass Selbstbeherrschung stets die gr\u00f6\u00dfte Aufgabe meines Lebens war.\u00ab</em> Eine Acht, die ihre Verletzlichkeit typischerweise verdr\u00e4ngt statt sie offen einzugestehen, w\u00fcrde die eigene Nervosit\u00e4t kaum als lebenslanges Kernproblem benennen. Eine Sechs dagegen kennt genau dieses introspektive Ringen mit der eigenen Angst \u2013 bei der SX6 wird es nur nach au\u00dfen in St\u00e4rke verkehrt, nicht verschwiegen.</p>
-          <p class="vb-intro">Auch das wiederkehrende Muster der R\u00fcckz\u00fcge nach Varzin und Friedrichsruh \u2013 wochenlang im Bett, geplagt von Nervenleiden, Schlaflosigkeit, Hypochondrie \u2013 passt nicht zu einer Acht, die Bedrohung eher aktiv sucht als sie liegend zu verarbeiten. Und selbst wenn man am Achter-Modell festhalten wollte: Der st\u00e4ndig misstrauische, drohende, nie zur Ruhe kommende Bismarck \u00e4hnelt eher einem impulsiven Siebenerfl\u00fcgel als dem zur\u00fcckhaltenden, konfliktscheuen Neunerfl\u00fcgel \u2013 die SE8w9-These ist damit schon in sich nicht ganz stimmig.</p>
-          <p class="vb-intro">Am Ende z\u00e4hlt zudem die Quelle: <strong>Claudio Naranjo</strong> selbst, der Begr\u00fcnder der Subtypenlehre, ordnete Bismarck in seinen Seminaren als sexuelle Sechs ein \u2013 nicht als Acht. Die popul\u00e4re Acht-Zuschreibung erkl\u00e4rt sich eher aus Bismarcks \u00e4u\u00dferem Auftreten als Machtpolitiker als aus einer genaueren Analyse seiner inneren Motivation \u2013 dazu tr\u00e4gt auch seine k\u00f6rperliche F\u00fclle im Alter bei, die ihn auf den zahlreichen Gem\u00e4lden und fr\u00fchen Fotografien fast b\u00e4renhaft wirken l\u00e4sst, ebenso wie die Blickqualit\u00e4t in diesen Portr\u00e4ts: ein Blick, der durchaus St\u00e4rke ausstrahlt, aber eher nach au\u00dfen demonstriert als das eher nach innen gerichtete, ruhigere Kraftgef\u00fchl eines selbsterhaltenden Achters mit Neunerfl\u00fcgel.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Der F\u00fcnferfl\u00fcgel: Hypochondrie und strategische Tiefe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine analytische Tiefe und eine Neigung zum R\u00fcckzug in die eigene Innenwelt, die ihre K\u00e4mpfernatur um eine zweite, stillere Seite erg\u00e4nzt. Die SX6w5 handelt nicht impulsiv &ndash; sie beobachtet, w\u00e4gt ab, durchdenkt Konstellationen weit im Voraus, und zieht sich, wenn die Spannung zu gro\u00df wird, in eine br\u00fctende Isolation zur\u00fcck, statt sie im Au\u00dfen abzureagieren.</p>
-          <p class="vb-intro">Bei Bismarck zeigte sich dieser Fl\u00fcgel doppelt: einerseits in einer au\u00dfergew\u00f6hnlichen strategischen Begabung, die europ\u00e4ische M\u00e4chtekonstellationen \u00fcber Jahre hinweg antizipierte und geduldig auf den richtigen Moment hinarbeitete &ndash; nie das Ergebnis blinder Impulsivit\u00e4t, sondern jahrelanger Vorausplanung. Andererseits in einer ausgepr\u00e4gten Hypochondrie und einer Neigung, sich bei Stress tagelang auf seine G\u00fcter zur\u00fcckzuziehen: erst nach Varzin in Hinterpommern, sp\u00e4ter nach Friedrichsruh im Sachsenwald. Dort verbrachte er ganze Phasen im Bett liegend, klagte \u00fcber Nervenleiden, Schlaflosigkeit, Verdauungsbeschwerden &ndash; k\u00f6rperliche Symptome, die eng mit seinem chronischen Misstrauen und seiner Gr\u00fcbelneigung verwoben waren. Der Wolf, der sich in seine H\u00f6hle zur\u00fcckzieht, wenn die Jagd zu viel Kraft gekostet hat, aber von dort aus weiter das ganze Territorium im Blick beh\u00e4lt.</p>
-          <p class="vb-intro">Die gesundheitlichen Folgen dieses Musters &ndash; die Ersch\u00f6pfungskrise der fr\u00fchen 1880er-Jahre und die verweigerte Behandlung einer Gangr\u00e4n in seinen letzten Lebensjahren &ndash; werden im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-otto-von-bismarck">Krankheitsportr\u00e4t zu Bismarck</a> ausf\u00fchrlich gedeutet.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Das Lebenswerk: Blut und Eisen, Reichsgr\u00fcndung, Sozialstaat</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">1862 zum preu\u00dfischen Ministerpr\u00e4sidenten berufen, formulierte Bismarck in seiner ber\u00fchmten Rede vor dem Budgetausschuss des Abgeordnetenhauses das Programm seiner Politik: nicht Reden und Mehrheitsbeschl\u00fcsse w\u00fcrden die gro\u00dfen Fragen der Zeit entscheiden, sondern \u00bbEisen und Blut\u00ab. Es folgten drei kalkulierte Kriege &ndash; gegen D\u00e4nemark 1864, gegen \u00d6sterreich 1866, gegen Frankreich 1870/71 &ndash;, mit denen er die deutschen Einzelstaaten unter preu\u00dfischer F\u00fchrung zusammenschmiedete. 1871 wurde im Spiegelsaal von Versailles das Deutsche Kaiserreich ausgerufen, Bismarck sein erster Reichskanzler.</p>
-          <p class="vb-intro">Nach der Reichsgr\u00fcndung wandelte sich sein Kurs: Deutschland sei nun \u00bbsaturiert\u00ab, weitere territoriale Expansion in Europa unn\u00f6tig &ndash; stattdessen baute er ein komplexes B\u00fcndnissystem auf, das den Frieden auf dem Kontinent sichern sollte. Innenpolitisch f\u00fchrte er den Kulturkampf gegen die katholische Kirche und sp\u00e4ter die Sozialistengesetze gegen die erstarkende Sozialdemokratie &ndash; zugleich aber auch, teils aus genau diesem taktischen Kalk\u00fcl, die weltweit ersten Sozialversicherungen: Krankenversicherung 1883, Unfallversicherung 1884, Alters- und Invalidit\u00e4tsversicherung 1889. Eine fr\u00fche Form des Sozialstaats, die zugleich F\u00fcrsorge und ein Instrument war, um der Arbeiterschaft den Boden f\u00fcr revolution\u00e4re Ideen zu entziehen &ndash; typisch f\u00fcr einen Wolf, der auch F\u00fcrsorge strategisch als Mittel zur Sicherung des eigenen Rudels einsetzte.</p>
-          <p class="vb-intro">1890, zwei Jahre nach dem Regierungsantritt des jungen, ungeduldigen Kaisers Wilhelm II., wurde Bismarck entlassen. Eine Karikatur der Zeit fasste den Bruch in vier Worten: \u00bbDer Lotse geht von Bord.\u00ab Der Mann, der drei Jahrzehnte lang durch Drohung und Kalk\u00fcl regiert hatte, konnte den Machtverlust an einen j\u00fcngeren Herrscher nicht durch dieselben Mittel abwenden &ndash; das R\u00fctteln an den F\u00e4den funktionierte nur, solange das Gegen\u00fcber Angst vor dem eigenen Abgang hatte, und Wilhelm II. hatte diese Angst nicht.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist die F\u00e4higkeit, aus Angst heraus au\u00dfergew\u00f6hnliche strategische Weitsicht zu entwickeln und in Krisen Stabilit\u00e4t zu stiften. Bismarcks B\u00fcndnispolitik nach 1871 hielt Europa fast zwei Jahrzehnte lang in einem fragilen, aber funktionierenden Gleichgewicht &ndash; eine Leistung, die viele seiner Nachfolger nicht fortzuf\u00fchren wussten. Auch seine Sozialgesetzgebung, so taktisch sie gemeint war, wirkte weit \u00fcber ihren urspr\u00fcnglichen Zweck hinaus und wurde zum Vorbild moderner Sozialstaaten.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; und die Kontrareaktion der SX6 darauf ist eine H\u00e4rte, die keine Grenze mehr kennt, sobald die wahrgenommene Bedrohung existenziell wird. Der Kulturkampf traf die katholische Kirche und ihre Anh\u00e4nger mit Gesetzen, die Priester inhaftierten und Bist\u00fcmer verwaisen lie\u00dfen; die Sozialistengesetze verboten sozialdemokratische Organisationen, Versammlungen und Publikationen \u00fcber ein Jahrzehnt lang. Beides Ausdruck desselben Musters: Wer als Bedrohung des Rudels &ndash; des jungen Kaiserreichs, der eigenen Machtposition &ndash; identifiziert wurde, wurde mit staatlicher H\u00e4rte bek\u00e4mpft, ungeachtet des Preises f\u00fcr die Betroffenen. Diese Politik ist eigenst\u00e4ndig kritisch zu bewerten, unabh\u00e4ngig von der psychologischen Einordnung, die sie erkl\u00e4rt, aber nicht rechtfertigt.</p>
-        </blockquote>
-
-        <h2 class="vb-section">7. Der Heilungsweg: Sicherheit ohne Drohung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich muss die Welt nicht kontrollieren, um sicher zu sein.</em> F\u00fcr die SX6w5 bedeutet das, St\u00e4rke nicht l\u00e4nger als Drohkulisse zu verstehen, sondern als innere Festigkeit, die kein Gegen\u00fcber mehr einsch\u00fcchtern muss, um sich sicher zu f\u00fchlen.</p>
-          <p class="vb-intro">Dieser Weg blieb Bismarck bis zuletzt verwehrt. Auch in den acht Jahren seines Ruhestands in Friedrichsruh, bis zu seinem Tod 1898, hielt er an Misstrauen und Kontrolle fest &ndash; er grollte \u00f6ffentlich gegen seinen kaiserlichen Nachfolger, kommentierte die Tagespolitik unaufgefordert und unvers\u00f6hnlich, und pflegte bis zuletzt das Bild des unentbehrlichen Staatsmanns, dem Unrecht geschehen war. Das Portr\u00e4t endet damit nicht mit einer Auss\u00f6hnung, sondern mit der Feststellung, die f\u00fcr jeden Kontratyp der Sechs gilt: Solange Sicherheit nur durch Drohung und Kontrolle \u00fcber andere gesucht wird, bleibt der Wolf gefangen in genau der Angst, die er zeitlebens zu bek\u00e4mpfen versuchte. Der Weg nach drau\u00dfen f\u00fchrt nicht \u00fcber mehr Macht, sondern \u00fcber das Vertrauen, das Bismarck sein Leben lang zu vermeiden gelernt hatte.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-wladimir-putin", label:"Portr\u00e4t: Wladimir Putin (SX6w5)"},
-        {route:"beruehmte-friedrich-schiller", label:"Portr\u00e4t: Friedrich Schiller (SX6w5)"},
-        {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsportr\u00e4t: Otto von Bismarck (SX6w5)"},
-      ])}
-    </div>
-  `);
-}
-
-function aliceSchwarzerPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-alice-schwarzer-portrait.jpg" alt="Alice Schwarzer – Porträt" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Alice Schwarzer</p>
-        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit F\u00fcnferfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">Journalistin, Feministin &amp; Emma-Gr\u00fcnderin, geb. 1942 &ndash; Tierentsprechung: Wolf</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Wolf</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 &ndash; ein Tier, das in den M\u00e4rchen als Bedrohung erscheint, in der Realit\u00e4t aber vor allem eines ist: loyal, territorial und missverstanden. Der Wolf lebt im Rudel, k\u00e4mpft f\u00fcr das Rudel &ndash; und zeigt die Z\u00e4hne, wenn das Rudel bedroht wird. Er duckt sich nicht. Er weicht nicht aus. Und er erinnert sich, wer ihm feindlich gegen\u00fcberstand.</p>
-          <p class="vb-intro">Die deutsche Journalistin Alice Schwarzer ist dieser Wolf. Seit mehr als f\u00fcnf Jahrzehnten k\u00e4mpft sie f\u00fcr Frauenrechte &ndash; mit einer Direktheit, die viele erschreckt, und einer Ausdauer, die wenige aufbringen. Sie hat Debatten angesto\u00dfen, die niemand f\u00fchren wollte. Sie hat Strukturen benannt, die niemand benennen wollte. Und sie hat daf\u00fcr einen Preis gezahlt: Anfeindungen, Verachtung, Missverst\u00e4ndnisse &ndash; und mehr Gegner als die meisten Menschen in einem Leben sammeln. Der Wolf, der nicht aufh\u00f6rt zu heulen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Sechs: St\u00e4rke gegen die Angst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Feigheit am st\u00e4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\u00fcckzug, sondern mit Angriff. <em>Wenn ich schneller bin als die Bedrohung, wenn ich lauter bin, wenn ich als erste angreife &ndash; dann bin ich sicher.</em> Naranjo nannte diesen Subtyp <em>St\u00e4rke</em>: Die SX6 sucht Kraft, weil sie Angst kennt &ndash; und weil sie sich geschworen hat, dieser Angst nie wieder nachzugeben.</p>
-          <p class="vb-intro">Bei Alice Schwarzer zeigt sich das in ihrer Kampfbereitschaft, die seit Jahrzehnten nicht nachl\u00e4sst. 1971 organisierte sie in Deutschland die Aktion <em>Wir haben abgetrieben</em>, zu einer Zeit, als das strafrechtliche Konsequenzen haben konnte. Sie benannte Pornographie \u00f6ffentlich als Gewalt gegen Frauen, als das noch ein gesellschaftliches Tabu war, und lenkte sp\u00e4ter die Debatte um Prostitution in Deutschland in eine Richtung, die viele nicht h\u00f6ren wollten. Das ist die SX6: <em>Ich habe Angst. Also k\u00e4mpfe ich.</em></p>
-          <p class="vb-intro">Ihr Rudel ist Emma &ndash; die Frauenzeitschrift, die sie 1977 gr\u00fcndete und nach wie vor herausgibt. Kein Konzern im R\u00fccken, keine Investoren, kein Kompromiss mit der Werbewirtschaft. Emma ist das Territorium des Wolfes: gesch\u00fctzt, verteidigt, kompromisslos.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der F\u00fcnferfl\u00fcgel: Analyse als Waffe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>F\u00fcnferfl\u00fcgel (w5)</strong> bringt der sexuellen Sechs eine intellektuelle Sch\u00e4rfe, die ihren Kampf von blo\u00dfem Aktivismus unterscheidet. Die SX6w5 k\u00e4mpft nicht aus dem Bauch heraus &ndash; sie k\u00e4mpft mit Belegen, mit Analysen, mit einem Wissen, das sie sich \u00fcber Jahrzehnte erarbeitet hat. <em>Ich will nicht nur recht haben. Ich will beweisen k\u00f6nnen, dass ich recht habe.</em></p>
-          <p class="vb-intro">Schwarzers Werk ist durchdrungen von diesem F\u00fcnferfl\u00fcgel: <em>Der kleine Unterschied und seine gro\u00dfen Folgen</em> (1975) war kein Pamphlet &ndash; es war eine Feldstudie, basierend auf Interviews mit Frauen \u00fcber ihre Sexualit\u00e4t und ihre Erfahrungen mit M\u00e4nnern. Ihre Interviews mit Simone de Beauvoir, ihre Analyse der Prostitutionsdebatte, ihre Auseinandersetzung mit dem politischen Islam &ndash; stets verbindet sich bei ihr die k\u00e4mpferische Haltung der SX6 mit der analytischen Tiefe des F\u00fcnferfl\u00fcgels. Der Wolf, der seine Beute kennt, bevor er angreift.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Licht und Schatten</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w5 ist ihre Unnachgiebigkeit im Dienst einer Sache, die sie f\u00fcr gerecht h\u00e4lt &ndash; und ihre Bereitschaft, daf\u00fcr jeden Preis zu zahlen. Schwarzer hat die Situation von Frauen in Deutschland ver\u00e4ndert. Nicht allein, aber ma\u00dfgeblich. Wer heute selbstverst\u00e4ndlich \u00fcber sexuelle Bel\u00e4stigung spricht, \u00fcber strukturelle Ungleichheit, \u00fcber K\u00f6rperautonomie &ndash; steht auf einem Fundament, das Schwarzer mit aufgebaut hat.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; und die SX6 bek\u00e4mpft sie durch Gegenwehr. Aber dieser Mechanismus hat eine Schattenseite: Wenn die Gegenwehr zum Selbstzweck wird, wenn jeder, der anderer Meinung ist, zum Feind erkl\u00e4rt wird, wenn die eigene Position unantastbar werden muss &ndash; dann verliert der Wolf seinen Instinkt f\u00fcr das, was er eigentlich sch\u00fctzen wollte. Schwarzers Positionierungen haben nicht immer Freunde gefunden, auch nicht in feministischen Kreisen.</p>
-          <p class="vb-intro">Ihr bekanntestes Eingest\u00e4ndnis einer eigenen Schw\u00e4che: 2014 r\u00e4umte sie \u00f6ffentlich ein, Geld auf einem Schweizer Konto versteckt zu haben &ndash; und damit Steuern hinterzogen zu haben. Sie entschuldigte sich. Der Wolf, der zugibt, sich selbst nicht immer treu gewesen zu sein. Das kostet Kraft. Und es ist ein Zeichen von St\u00e4rke.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Der Heilungsweg: K\u00e4mpfen aus Liebe, nicht aus Angst</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Wie sch\u00fctze ich mich vor der Bedrohung?</em> zur Erkenntnis <em>Ich bin stark genug &ndash; auch ohne den Kampf.</em> F\u00fcr die SX6w5 bedeutet das, die Waffe nicht niederzulegen, aber sie aus einem anderen Ort heraus zu f\u00fchren: nicht aus der Angst, die angreift, bevor sie angegriffen wird &ndash; sondern aus der Liebe zu dem, was man sch\u00fctzen will.</p>
-          <p class="vb-intro">Alice Schwarzer hat f\u00fcnf Jahrzehnte lang f\u00fcr Frauen gek\u00e4mpft, und sie k\u00e4mpft, weil sie wei\u00df, dass das Rudel zuh\u00f6rt. Das ist die SX6w5 auf ihrem Heilungsweg: Wenn die St\u00e4rke nicht mehr aus der Angst kommt, sondern aus dem tiefen Wissen um den Wert dessen, wof\u00fcr man steht.</p>
-        </blockquote>
-
-      </div>
-            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
       ])}
     </div>
   `);

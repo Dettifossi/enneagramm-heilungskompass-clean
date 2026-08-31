@@ -1,3 +1,677 @@
+function jordanPetersonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jordan-peterson-portrait.jpg" alt="Dr. Jordan Peterson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Jordan Peterson</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel · geb. 1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jordan Peterson</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jordan-peterson">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur knapp angerissen wird: eine schwere
+        Benzodiazepin-Abhängigkeit, die 2019/2020 in einen künstlich herbeigeführten
+        Entzugskoma in Russland gipfelte, nachdem westliche Kliniken ihm nicht mehr
+        helfen konnten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Peterson</strong> ist dem <strong>sozialen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SO1 trägt ihren Zorn als gesellschaftliches Anliegen, nicht als
+        privaten Groll; der Neunerflügel bringt eine ruhige, geduldige Überzeugungskraft
+        hinzu, die auch schwierige Botschaften ausdauernd wiederholt. Genau diese
+        Kombination – Ordnung predigen, während im eigenen Leben das Chaos tobte –
+        bestimmte den Verlauf seiner eigenen Suchterkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verordnung von Benzodiazepinen nach familiärer Krise:</strong>
+        Nach eigener Schilderung erhielt Peterson Benzodiazepine ärztlich verordnet, unter
+        anderem im Zusammenhang mit der schweren, seltenen Autoimmunerkrankung seiner
+        Tochter Mikhaila und der damit verbundenen Belastung.</p>
+        <p class="vb-intro"><strong>b) Schleichend zunehmende körperliche Abhängigkeit:</strong>
+        Über die Zeit entwickelte sich eine physische Abhängigkeit, die nach eigener
+        Aussage weit über die ursprünglich beabsichtigte Anwendung hinausging.</p>
+        <p class="vb-intro"><strong>c) Verschärfung durch eine unerwartete Reaktion 2019:</strong>
+        Eine paradoxe, extreme Reaktion auf eine Dosisanpassung im Frühjahr 2019 löste
+        eine akute gesundheitliche Krise mit schweren Entzugssymptomen aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erfolglose Behandlungsversuche in mehreren Ländern:</strong>
+        Nach Angaben seiner Tochter Mikhaila, die den Fall öffentlich dokumentierte,
+        suchten sie Behandlung in mehreren Kliniken in Nordamerika, ohne dass eine
+        wirksame Linderung des Entzugs erreicht werden konnte.</p>
+        <p class="vb-intro"><strong>b) Extreme Entzugssymptome, darunter Akathisie:</strong>
+        Peterson berichtete später öffentlich über quälende Zustände, unter anderem eine
+        als Akathisie beschriebene, kaum erträgliche innere Unruhe.</p>
+        <p class="vb-intro"><strong>c) Reise nach Russland zur letzten Behandlungsoption:</strong>
+        Ende 2019 reiste die Familie nach Russland, wo eine Klinik eine Behandlung
+        anbot, die in westlichen Ländern zu diesem Zeitpunkt nicht verfügbar war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Künstlich herbeigeführtes Koma zur Entzugsbehandlung:</strong>
+        In Moskau wurde Peterson nach Angaben seiner Tochter in ein induziertes Koma
+        versetzt, um den schwersten Teil des körperlichen Entzugs zu überstehen.</p>
+        <p class="vb-intro"><strong>b) Monatelanger, öffentlich weitgehend unsichtbarer Rückzug:</strong>
+        Über weite Strecken dieser Krise verschwand Peterson fast vollständig aus der
+        Öffentlichkeit – ein starker Kontrast zu seiner sonst omnipräsenten medialen
+        Rolle.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Dokumentation durch die eigene Tochter:</strong>
+        Mikhaila Peterson berichtete während und nach der Krise ausführlich in eigenen
+        Videos über den Verlauf – eine ungewöhnlich offene Begleitung einer
+        Suchterkrankung durch ein Familienmitglied.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
+        Petersons Krise wurde international ausführlich berichtet – für viele eine
+        überraschende Wendung im Leben einer Figur, die öffentlich für Selbstdisziplin
+        und Ordnung stand.</p>
+        <p class="vb-intro"><strong>b) Verzögerte, aber vollständige Rückkehr in die Öffentlichkeit:</strong>
+        Nach monatelanger Genesung kehrte Peterson 2020/2021 schrittweise zu Vorträgen,
+        Interviews und Veröffentlichungen zurück.</p>
+        <p class="vb-intro"><strong>c) Offene spätere Verarbeitung in Interviews:</strong>
+        Peterson sprach in den folgenden Jahren wiederholt öffentlich über die Krise,
+        ohne sie zu verharmlosen oder auszublenden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Ordnung predigen, während das eigene Leben aus den Fugen geriet:</strong>
+        Dieselbe SO1-Überzeugung, dass Chaos gefährlich und Ordnung eine moralische
+        Pflicht ist, stand in scharfem Kontrast zu der Zeit, in der Peterson selbst die
+        Kontrolle über den eigenen Körper verlor.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das lange Aushalten, bevor Hilfe gesucht wurde:</strong>
+        Die geduldige, auf Dauer angelegte Überzeugungskraft des Neunerflügels zeigte
+        sich auch darin, dass die Familie über Monate verschiedene Behandlungswege
+        ausprobierte, bevor der radikale Schritt nach Russland unternommen wurde.</p>
+        <p class="vb-intro"><strong>c) Offenheit als späte Form der Prinzipientreue:</strong>
+        Dass Peterson die eigene Krise später öffentlich und ungeschönt beschrieb, passt
+        zur SO1-typischen Überzeugung, dass Wahrheit – auch die unbequeme, eigene –
+        ausgesprochen werden muss.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Verstand, der Ordnung predigte, während der Körper sie verlor:</strong>
+        Petersons gesamtes öffentliches Werk beruht auf der Überzeugung, dass Struktur
+        und Selbstdisziplin über das Chaos siegen können – ausgerechnet er geriet in eine
+        körperliche Krise, in der genau diese Kontrolle vollständig verloren ging.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet der Verstand, der klarste zu denken behauptete?</strong>
+        Für einen sozialen Einser mit Neunerflügel, dessen gesamte öffentliche Autorität
+        auf rationaler Klarheit und geordnetem Denken beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jenes Organ, mit dem er Millionen Menschen Ordnung predigte, wurde
+        durch die Medikamentenabhängigkeit selbst zum Ort des Kontrollverlusts. Diese
+        Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
+        Medikamentenabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Petersons Fall zeigen
+        lässt, ist ein Muster im Umgang mit einer überwundenen Abhängigkeitskrise, das
+        bei einem ausgeprägten sozialen Einser mit Neunerflügel immer wieder auffällt –
+        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Peterson kennt sein eigenes Muster nicht als Enneagramm-Struktur – die soziale
+        Eins mit Neunerflügel hält reflexhaft an der eigenen Ordnungsforderung fest,
+        statt die eigene Verwundbarkeit rechtzeitig einzugestehen, und lebte genau dieses
+        Muster bis zur akuten Krise unverändert aus. Wer die eigene Neigung, Kontrolle
+        um jeden Preis aufrechtzuerhalten, nicht als Muster erkennt, riskiert, dass die
+        Kontrolle erst im vollständigen Zusammenbruch endet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der soziale Typ 1 mit Neunerflügel erklärt bei <strong>Jordan Peterson</strong>
+        vieles am Verlauf seiner eigenen Abhängigkeitskrise: ein Mann, dessen gesamte
+        öffentliche Autorität auf Ordnung und Selbstdisziplin beruhte, musste selbst die
+        Erfahrung des vollständigen Kontrollverlusts durchleben, bevor er wieder Boden
+        unter den Füßen fand – die Gans, die aus der Formation fiel und erst nach einem
+        induzierten Koma zurück in den Schwarm fand.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}
+
+function hundertwasserKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hundertwasser-portrait.jpg" alt="Friedensreich Hundertwasser" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Friedensreich Hundertwasser</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexueller Typ 9 mit Achterflügel · 1928–2000</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Friedensreich Hundertwasser</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hundertwasser">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur beiläufig erwähnt wird: sein jahrelanges Herzleiden, das
+        er weitgehend verschwieg, das er nicht schulmedizinisch behandeln ließ, und an dem
+        er im Februar 2000 an Bord eines Schiffes starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hundertwasser</strong> ist dem <strong>sexuellen Typ 9 mit Achterflügel</strong>
+        zugeordnet. Die SX9 sucht die restlose Verschmelzung mit einem Ideal – bei
+        Hundertwasser: der Natur; der Achterflügel bringt die konfrontative Kraft hinzu, die
+        das eigene Prinzip notfalls gegen jeden Widerstand durchsetzt. Genau diese
+        Kombination – Verschmelzung mit einem naturnahen Ideal, kombiniert mit der
+        Weigerung, sich fremder Autorität wie der Schulmedizin zu unterwerfen – bestimmte
+        den Umgang mit der eigenen Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Herzleiden, das über Jahre bestand:</strong>
+        Nach übereinstimmenden biografischen Quellen litt Hundertwasser in seinen letzten
+        Lebensjahren an einer chronischen Herzschwäche, die sein Umfeld kannte, die er selbst
+        aber kaum öffentlich thematisierte.</p>
+        <p class="vb-intro"><strong>b) Ein Leben zwischen Wien, Neuseeland und dem Ozean:</strong>
+        Hundertwasser verbrachte einen großen Teil seiner letzten Jahre auf Reisen zwischen
+        seinen Wohnorten, häufig auf langen Schiffsüberfahrten statt per Flugzeug – eine
+        bewusste Entscheidung für Langsamkeit statt Eile.</p>
+        <p class="vb-intro"><strong>c) Zurückhaltung gegenüber schulmedizinischer Behandlung:</strong>
+        Wie bei vielen Naturheilkunde-nahen Zeitgenossen seiner Generation dokumentiert,
+        stand Hundertwasser einer aggressiven schulmedizinischen Intervention skeptisch
+        gegenüber und bevorzugte einen Lebensstil in möglichst enger Naturverbundenheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Unvermindertes Arbeitspensum trotz Erkrankung:</strong>
+        Bis zuletzt reiste Hundertwasser für Ausstellungen, Bauprojekte und öffentliche
+        Auftritte um die Welt, ohne das Tempo seines Lebens spürbar zu drosseln.</p>
+        <p class="vb-intro"><strong>b) Die Schiffsreise als bevorzugte Fortbewegungsart:</strong>
+        Er reiste regelmäßig mit dem Ozeandampfer <em>Queen Elizabeth 2</em> zwischen Europa
+        und dem Pazifikraum – eine wochenlange, langsame Reiseform, die zu seinem
+        Naturideal passte, aber im Ernstfall weit von schneller medizinischer Versorgung
+        entfernt war.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Krankheitsdebatte:</strong>
+        Anders als manche Zeitgenossen machte Hundertwasser sein Herzleiden nie zu einem
+        öffentlichen Thema – es blieb, im Gegensatz zu seinen lautstarken Manifesten zu
+        Architektur und Ökologie, eine private Angelegenheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod an Bord der Queen Elizabeth 2:</strong>
+        Am 19. Februar 2000 starb Hundertwasser im Alter von 71 Jahren an Herzversagen an
+        Bord des Schiffs, auf dem Weg zurück nach Neuseeland – mitten auf dem Pazifik, fernab
+        jeder Klinik.</p>
+        <p class="vb-intro"><strong>b) Bestattung nach eigenem, ungewöhnlichem Wunsch:</strong>
+        Seinem testamentarisch festgelegten Wunsch folgend wurde er auf seinem Grundstück in
+        Neuseeland ohne Sarg, in Leinen gehüllt, unter einem Tulpenbaum im „Garten der
+        glücklichen Toten" bestattet – die letzte Konsequenz seines Verschmelzungsideals mit
+        der Natur.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Ankündigung eines Rückzugs:</strong>
+        Bis zu seinem Tod hatte Hundertwasser keine Anzeichen einer bevorstehenden
+        Verlangsamung gezeigt – kein angekündigter Ruhestand, kein öffentliches Eingeständnis
+        von Schwäche.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod, der zum Werk passte:</strong>
+        Für viele Nachrufe wurde gerade die Umstände seines Todes – auf hoher See, fernab
+        der Zivilisation, nach eigenem Wunsch bestattet – als konsequenter Abschluss eines
+        Lebens gedeutet, das durchgängig gegen Konvention und für Naturverbundenheit
+        gerichtet war.</p>
+        <p class="vb-intro"><strong>b) Postumes Vermächtnis unverändert lebendig:</strong>
+        Seine Bauten – das Hundertwasserhaus in Wien, die Grüne Zitadelle in Magdeburg, das
+        KunstHausWien – blieben nach seinem Tod international besuchte Wahrzeichen und
+        prägen bis heute das öffentliche Bild ökologischer Architektur.</p>
+        <p class="vb-intro"><strong>c) Keine nachträgliche Verklärung der Krankheit:</strong>
+        Anders als bei manchen Künstlern wurde sein Herzleiden nicht Teil der öffentlichen
+        Legende – es blieb ein stiller, fast beiläufiger Teil seiner Biografie, während seine
+        Manifeste und Bauten die öffentliche Erinnerung dominieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung mit dem Reisetempo statt Anpassung an die Krankheit:</strong>
+        Die SX9-typische Sehnsucht nach Verschmelzung mit einem größeren Ganzen zeigte sich
+        auch darin, dass Hundertwasser sein Reisetempo – die langsame Schiffsüberfahrt statt
+        des schnellen Fluges – nicht dem gesundheitlichen Risiko unterordnete, sondern seinem
+        Naturideal treu blieb.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel und die Weigerung, Schwäche einzugestehen:</strong>
+        Dieselbe konfrontative Kraft, mit der Hundertwasser sich bei seinen Nacktreden gegen
+        gesellschaftliche Konventionen stellte, zeigte sich im Umgang mit der eigenen
+        Krankheit als Weigerung, sich der Autorität der Schulmedizin oder der Erwartung
+        eines ruhigeren Lebensstils zu beugen.</p>
+        <p class="vb-intro"><strong>c) Die letzte Verschmelzung: Tod auf See, Bestattung in der Erde:</strong>
+        Dass sein Leben auf dem Ozean endete und seine letzte Ruhestätte ohne Sarg, direkt in
+        der Erde unter einem Baum liegt, lässt sich als äußerste Konsequenz seines
+        lebenslangen Verschmelzungsideals lesen – kein Zufall, sondern die letzte
+        Konsequenz eines durchgehaltenen Prinzips.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann, der Naturverbundenheit predigte und sich seiner eigenen Natur nicht entzog:</strong>
+        Hundertwassers gesamtes Werk beruhte auf der Überzeugung, dass der Mensch sich der
+        Natur nicht entgegenstellen, sondern mit ihr verschmelzen soll – auch seinem eigenen
+        Körper und dessen Grenzen begegnete er am Ende genau mit dieser Haltung: kein Kampf,
+        kein Widerstand, sondern ein Leben bis zum letzten Moment im gewohnten Tempo.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet das Herz?</strong>
+        Für eine sexuelle Neun mit Achterflügel, deren gesamtes Werk um das Bild der
+        Verschmelzung – Mensch mit Natur, Redner mit Publikum, Name mit Prinzip – kreiste,
+        liegt eine Deutung nahe: Ausgerechnet jenes Organ, das im Volksmund für Verbindung
+        und Hingabe steht, wurde bei ihm zum Ort des körperlichen Versagens. Diese Deutung
+        ist eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu Herzleiden führt
+        – <strong>jeder Mensch kann jede Erkrankung entwickeln, unabhängig vom
+        Subtyp.</strong> Was sich an Hundertwassers Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer fortschreitenden Erkrankung, das bei einer ausgeprägten sexuellen
+        Neun mit Achterflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
+        im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hundertwasser kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
+        sexuelle Neun mit Achterflügel hält reflexhaft an der Verschmelzung mit dem eigenen
+        Ideal fest, statt rechtzeitig innezuhalten, und lebte genau dieses Muster bis zum
+        letzten Tag unverändert aus, ohne das eigene Herzleiden je zum zentralen Thema zu
+        machen. Wer die eigene Neigung, sich einem größeren Prinzip restlos zu unterwerfen,
+        nicht als Muster erkennt, riskiert, dass diese Verschmelzung erst mit dem
+        vollständigen körperlichen Zusammenbruch endet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Neun mit Achterflügel erklärt bei <strong>Friedensreich Hundertwasser</strong>
+        viel über den Umgang mit der eigenen Krankheit: ein Mann, dessen gesamtes Lebenswerk
+        der Verschmelzung mit der Natur galt, akzeptierte am Ende auch das eigene
+        Herzversagen als Teil dieses natürlichen Kreislaufs – kein Kampf gegen den Tod,
+        sondern das letzte, konsequenteste Verschmelzen des Faultiers mit dem Element, dem
+        es sein ganzes Leben gewidmet hatte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function sadhguruKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sadhguru-portrait.jpg" alt="Sadhguru" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sadhguru</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · geb. 1957</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Sadhguru</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur kurz erwähnt wird: eine im März 2024 diagnostizierte
+        chronische Hirnblutung, die trotz wochenlanger Kopfschmerzen bis zur Notoperation
+        unbehandelt blieb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sadhguru</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Die SE3 investiert ihre Energie in Wirksamkeit statt in Image – auch dann,
+        wenn der eigene Körper längst Signale sendet; der Zweierflügel bringt den Antrieb hinzu,
+        für andere da zu sein, oft auf Kosten der eigenen Fürsorge für sich selbst. Genau diese
+        Kombination – unbeirrtes Funktionieren trotz körperlicher Warnsignale, verbunden mit
+        einem Terminkalender, der für niemand anderen unterbrochen wird als für die eigene
+        Erkrankung – bestimmte den Verlauf bis zur Diagnose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Wochenlange Kopfschmerzen vor der Diagnose:</strong>
+        Nach eigener und ärztlicher Schilderung litt Sadhguru über mehrere Wochen unter
+        anhaltenden, sich verschlimmernden Kopfschmerzen, ohne dass er seinen öffentlichen
+        Terminkalender unterbrach.</p>
+        <p class="vb-intro"><strong>b) Kein sofortiger Rückzug aus der Öffentlichkeit:</strong>
+        Trotz zunehmender Beschwerden hielt er weiterhin Vorträge, Reisen und öffentliche
+        Auftritte aufrecht, bis die Symptomatik nicht mehr zu ignorieren war.</p>
+        <p class="vb-intro"><strong>c) Akute Verschlechterung im März 2024:</strong>
+        Erst eine deutliche Zuspitzung der Beschwerden führte schließlich zur ärztlichen
+        Untersuchung und zur bildgebenden Diagnostik.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Diagnose: chronisches subdurales Hämatom:</strong>
+        Eine MRT-Untersuchung ergab eine chronische Blutung unter der harten Hirnhaut von
+        etwa drei bis vier Wochen Dauer, überlagert von einer frischen Nachblutung der
+        vorangegangenen ein bis zwei Tage.</p>
+        <p class="vb-intro"><strong>b) Notfalloperation am 17. März 2024:</strong>
+        Aufgrund der akuten Verschlechterung wurde Sadhguru umgehend operiert, um den
+        Druck auf das Gehirn zu entlasten.</p>
+        <p class="vb-intro"><strong>c) Keine erkennbare äußere Ursache:</strong>
+        Anders als bei vielen subduralen Hämatomen ließ sich kein eindeutiger auslösender
+        Sturz oder Unfall feststellen – die Isha Foundation kommunizierte öffentlich, dass die
+        genaue Ursache unklar blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rasche postoperative Genesung:</strong>
+        Nach der Operation erholte sich Sadhguru nach öffentlichen Angaben schnell und kehrte
+        binnen weniger Wochen zu einem Teil seiner Aktivitäten zurück.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Kommunikation durch die eigene Organisation:</strong>
+        Die Isha Foundation informierte in mehreren offiziellen Mitteilungen über Diagnose,
+        Operation und Genesungsverlauf – eine für einen spirituellen Lehrer ungewöhnlich
+        transparente medizinische Kommunikation.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung des öffentlichen Wirkens kurz danach:</strong>
+        Bereits kurze Zeit nach dem Eingriff nahm Sadhguru wieder öffentliche Termine wahr,
+        wenn auch zunächst in reduziertem Umfang.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite mediale Aufmerksamkeit:</strong>
+        Die Nachricht von der Notoperation eines der bekanntesten spirituellen Lehrer der
+        Gegenwart löste international Berichterstattung und eine Welle öffentlicher
+        Anteilnahme aus.</p>
+        <p class="vb-intro"><strong>b) Fragen nach der Selbstwahrnehmung eines Gesundheitslehrers:</strong>
+        Da Sadhguru selbst regelmäßig über Körperbewusstsein und Selbstfürsorge lehrt, warf
+        der Vorfall bei manchen Beobachtern die Frage auf, warum die eigenen Warnsignale so
+        lange ignoriert wurden.</p>
+        <p class="vb-intro"><strong>c) Keine grundsätzliche Neuausrichtung des Lebensstils:</strong>
+        Trotz der Warnung durch die eigene Erkrankung setzte Sadhguru sein intensives
+        Reise- und Vortragsprogramm nach der Genesung im Wesentlichen fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren als Standardreaktion auf Schmerz:</strong>
+        Die SE3-typische Ausrichtung auf Wirksamkeit statt Selbstinszenierung zeigte sich
+        auch darin, dass Sadhguru wochenlange Kopfschmerzen nicht zum Anlass für einen
+        Rückzug nahm, sondern seinen Terminkalender unverändert fortführte.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und die offene Kommunikation nach außen:</strong>
+        Dass die Isha Foundation die Diagnose und Behandlung transparent öffentlich machte,
+        passt zur Zweierflügel-typischen Zuwendung: Selbst im eigenen medizinischen
+        Ausnahmezustand blieb der Impuls erhalten, die Millionen Anhänger nicht im
+        Ungewissen zu lassen, sondern einzubeziehen.</p>
+        <p class="vb-intro"><strong>c) Schnelle Rückkehr in die Wirksamkeit:</strong>
+        Die rasche Wiederaufnahme öffentlicher Termine nach der Operation folgt demselben
+        SE3-Muster wie das Ignorieren der Symptome zuvor: Selbstwert über Funktionieren, kaum
+        Raum für eine längere Pause.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Lehrer der Körperwahrnehmung, der die eigenen Warnsignale überging:</strong>
+        Sadhgurus gesamtes Werk kreist um die Idee, den eigenen Körper und Geist bewusst
+        wahrzunehmen und zu kultivieren – ausgerechnet er ignorierte wochenlange
+        Kopfschmerzen, bis eine Notoperation unausweichlich wurde.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet der Kopf, das Zentrum seiner Lehre?</strong>
+        Für einen selbsterhaltenden Typ 3 mit Zweierflügel, dessen gesamte öffentliche
+        Autorität auf innerer Klarheit und bewusster Körperbeherrschung beruhte, liegt eine
+        Deutung nahe: Ausgerechnet jenes Organ, mit dem er Millionen Menschen "inneres
+        Engineering" lehrte, wurde zum Ort einer über Wochen unbemerkt fortschreitenden
+        Blutung. Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        Hirnblutungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Sadhgurus Fall zeigen lässt, ist ein
+        Muster im Umgang mit körperlichen Warnsignalen, das bei einem ausgeprägten
+        selbsterhaltenden Typ 3 immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Sadhguru kennt sein eigenes Muster nicht als Enneagramm-Struktur – der
+        selbsterhaltende Typ 3 hält reflexhaft am eigenen Funktionieren fest, statt
+        körperliche Warnsignale rechtzeitig ernst zu nehmen, und lebt genau dieses Muster bis
+        heute weitgehend unverändert aus. Wer die eigene Neigung, Beschwerden dem
+        Terminkalender unterzuordnen, nicht als Muster erkennt, riskiert, dass der Körper die
+        Pause selbst erzwingt – notfalls durch einen Zusammenbruch.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 3 mit Zweierflügel erklärt bei <strong>Sadhguru</strong> vieles
+        am Verlauf seiner Erkrankung: ein Mann, dessen gesamte öffentliche Autorität auf
+        innerer Klarheit und ungebrochener Wirksamkeit beruhte, musste selbst die Erfahrung
+        machen, dass wochenlanges Funktionieren körperliche Warnsignale nicht zum
+        Verschwinden bringt – der Waschbär, der so lange weitermachte, bis der Körper die
+        Notbremse zog.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function umbertoEcoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-umberto-eco-portrait.jpg" alt="Dr. Umberto Eco" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Umberto Eco</p>
+        <p class="krim-portrait-typ">SE8w7 · Selbsterhaltender Typ 8 mit Siebenerflügel · 1932–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Umberto Eco</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-umberto-eco">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft
+        ein Kapitel, das dort nur beiläufig erwähnt wird: eine rund zwei Jahre lang nahezu
+        vollständig privat gehaltene Bauchspeicheldrüsenkrebs-Erkrankung, während der Eco
+        bis wenige Monate vor seinem Tod im Februar 2016 unvermindert publizierte, lehrte
+        und öffentlich auftrat.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Eco</strong> ist dem <strong>selbsterhaltenden Typ 8 mit Siebenerflügel</strong>
+        zugeordnet. Die SE8 sichert sich Fülle und Unabhängigkeit, statt sich einer fremden
+        Autorität – auch der eigenen Diagnose – zu unterwerfen; der Siebenerflügel bringt
+        die Leichtigkeit, mit der Eco selbst eine tödliche Diagnose nicht zum
+        beherrschenden Thema seines Lebens werden ließ. Genau diese Kombination – Fülle und
+        Genuss bis zuletzt, verbunden mit der Weigerung, sich als kranker Mann zu inszenieren
+        – bestimmte den Umgang mit der eigenen Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose rund zwei Jahre vor seinem Tod:</strong>
+        Nach übereinstimmenden biografischen Quellen wurde bei Eco etwa zwei Jahre vor
+        seinem Tod ein Bauchspeicheldrüsenkarzinom diagnostiziert.</p>
+        <p class="vb-intro"><strong>b) Fast vollständige Geheimhaltung im öffentlichen Leben:</strong>
+        Anders als bei vielen Prominenten blieb die Diagnose außerhalb seines engsten
+        Umfelds weitgehend unbekannt – Eco sprach in Interviews und öffentlichen Auftritten
+        praktisch nicht über seine Erkrankung.</p>
+        <p class="vb-intro"><strong>c) Unvermindertes literarisches Schaffen:</strong>
+        Trotz der Diagnose veröffentlichte Eco 2015 mit „Nullnummer" seinen letzten Roman –
+        ein Werk, das keinerlei Anzeichen einer nachlassenden Schaffenskraft erkennen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fortgesetzte öffentliche Auftritte bis kurz vor dem Tod:</strong>
+        Eco hielt Vorträge, gab Interviews und nahm an öffentlichen Diskussionen teil, bis
+        wenige Monate vor seinem Tod – ohne dass Beobachter von seiner schweren Erkrankung
+        wussten.</p>
+        <p class="vb-intro"><strong>b) Keine öffentliche Krankheitsnarrative:</strong>
+        Im Unterschied zu anderen Intellektuellen seiner Generation machte Eco seine
+        Krankheit nie zum Gegenstand eines Essays, einer Kolumne oder eines Interviews –
+        eine bewusste Entscheidung zur Trennung von Werk und privatem Leiden.</p>
+        <p class="vb-intro"><strong>c) Familiäre statt öffentliche Begleitung:</strong>
+        Die letzten Monate verbrachte Eco im Kreis seiner Familie in Mailand, weitgehend
+        abgeschirmt von öffentlicher Aufmerksamkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tod am 19. Februar 2016 in Mailand:</strong>
+        Umberto Eco starb im Alter von 84 Jahren in seiner Wohnung in Mailand, umgeben von
+        seiner Familie.</p>
+        <p class="vb-intro"><strong>b) Weltweite Anteilnahme nach der offiziellen Bekanntgabe:</strong>
+        Erst mit der Todesnachricht wurde die Öffentlichkeit über die Krebserkrankung
+        informiert – für viele Leser und Kollegen eine Überraschung, da Eco bis zuletzt
+        keinerlei Rückzug angedeutet hatte.</p>
+        <p class="vb-intro"><strong>c) Kein Abschiedswerk im engeren Sinne:</strong>
+        Anders als manche Autoren, die im Angesicht des Todes ein explizites Vermächtniswerk
+        verfassen, hinterließ Eco kein Buch, das offen als Abschied von der eigenen
+        Sterblichkeit gelesen werden konnte – „Nullnummer" bleibt ein Roman über
+        Medienmanipulation, kein Krankheitsbuch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Trauer und Würdigung:</strong>
+        Ecos Tod löste international Nachrufe und Würdigungen aus, die vor allem sein
+        enzyklopädisches Werk und seine intellektuelle Neugier bis ins hohe Alter
+        hervorhoben.</p>
+        <p class="vb-intro"><strong>b) Überraschung über das Ausmaß der Geheimhaltung:</strong>
+        Zahlreiche Weggefährten äußerten sich überrascht, wie vollständig Eco seine Krankheit
+        vor der Öffentlichkeit und sogar vor Teilen seines beruflichen Umfelds verborgen
+        hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Bild ungebrochener Vitalität bis zuletzt:</strong>
+        Das öffentliche Bild, das von Eco bis zu seinem Tod bestand, war das eines
+        unermüdlich neugierigen, produktiven Intellektuellen – nicht das eines schwer
+        kranken Mannes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Fülle statt Rückzug als Antwort auf die Diagnose:</strong>
+        Die SE8-typische Überzeugung, dass Sicherheit aus Fülle entsteht, zeigte sich darin,
+        dass Eco seine Produktivität, seine Lektüren, seine Sammlungen und seine öffentlichen
+        Auftritte trotz der Diagnose nicht reduzierte, sondern bis zuletzt fortführte.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Weigerung, sich als Kranker zu inszenieren:</strong>
+        Dieselbe Leichtigkeit, mit der Eco selbst über Semiotik und Trivialkultur mit
+        derselben Neugier schrieb, zeigte sich im Umgang mit der eigenen Krankheit als
+        bewusste Entscheidung, die eigene Sterblichkeit nicht zum öffentlichen Thema zu
+        machen.</p>
+        <p class="vb-intro"><strong>c) Kontrolle durch Diskretion statt durch Konfrontation:</strong>
+        Anders als eine konfrontativere Acht wählte Eco nicht den offenen Kampf gegen die
+        Krankheit als öffentliche Geste, sondern die vollständige Kontrolle über die
+        Information selbst – Macht durch Schweigen statt durch Auftritt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Sammler der Fülle, der die eigene Endlichkeit nicht sammeln ließ:</strong>
+        Ecos gesamtes Werk beruhte auf der Überzeugung, dass Wissen, Bücher und Erfahrung
+        sich unbegrenzt anhäufen lassen – ausgerechnet die eine Grenze, die sich nicht
+        aufschieben ließ, blieb aus seinem öffentlichen Werk vollständig ausgespart.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet die Bauchspeicheldrüse, das stille Organ?</strong>
+        Für einen selbsterhaltenden Typ 8 mit Siebenerflügel, dessen gesamtes Lebensprinzip
+        Fülle, Genuss und die enzyklopädische Aneignung der Welt war, liegt eine Deutung
+        nahe: Ausgerechnet ein Organ, das lange symptomlos bleibt und sich jeder frühen
+        Kontrolle entzieht, wurde zum Ort einer Krankheit, die Eco bis zuletzt nicht öffentlich
+        zu kontrollieren versuchte, sondern schlicht verschwieg. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu
+        Bauchspeicheldrüsenkrebs führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Ecos Fall zeigen lässt, ist
+        ein Muster im Umgang mit einer tödlichen Diagnose, das bei einem ausgeprägten
+        selbsterhaltenden Typ 8 immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Eco kannte sein eigenes Muster nicht als Enneagramm-Struktur – der selbsterhaltende
+        Typ 8 hält reflexhaft an der eigenen Souveränität über die persönliche Information
+        fest, statt die eigene Verwundbarkeit rechtzeitig mit anderen zu teilen, und lebte
+        genau dieses Muster bis zum letzten Werk unverändert aus. Wer die eigene Neigung, die
+        Kontrolle über das eigene Bild um jeden Preis zu wahren, nicht als Muster erkennt,
+        riskiert, dass die Wahrheit erst mit dem Tod selbst ans Licht kommt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 8 mit Siebenerflügel erklärt bei <strong>Umberto Eco</strong>
+        vieles am Umgang mit der eigenen Krankheit: ein Mann, dessen gesamtes Werk auf der
+        lustvollen Fülle des Wissens beruhte, behandelte auch die eigene tödliche Diagnose als
+        privates Territorium, das niemand betreten durfte – der Orang-Utan, der bis zuletzt in
+        seinem Baum thronte und niemanden sehen ließ, dass der Ast bereits brach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-umberto-eco", label:"Porträt: Umberto Eco (SE8w7)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
 function gretaThunbergKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -10771,624 +11445,6 @@ function johnWayneGacyPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
-      ])}
-    </div>
-  `);
-}
-
-function henriLandruPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Henri D\xe9sir\xe9 Landru – Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/henri-landru-portrait.jpg" alt="Henri D\xe9sir\xe9 Landru – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Henri D\xe9sir\xe9 Landru</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Der &bdquo;Blaubart von Paris&ldquo; &ndash; Tierentsprechung: Waschb\xe4r</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf offener Fl\xe4che jagt, sondern im Verborgenen, mit geschickten H\xe4nden, ohne \xfcberfl\xfcssige Bewegung, ohne Publikum. Henri D\xe9sir\xe9 Landru, 1869 in Paris geboren, verk\xf6rperte genau diese Qualit\xe4t: Ein unscheinbarer, kleiner, kahlk\xf6pfiger Mann mit gepflegtem schwarzem Bart, der w\xe4hrend des Ersten Weltkriegs \xfcber Kontaktanzeigen wohlhabende Witwen in sein Landhaus in Gambais lockte, sie ermordete, ihre Verm\xf6gen einzog und ihre \xdcberreste im eigenen K\xfcchenofen verbrannte.</p>
-        <p class="vb-intro">Zwischen 1914 und 1919 t\xf6tete er mindestens zehn Frauen und den Sohn einer seiner Opfer. Keine \xf6ffentliche Inszenierung, kein Spektakel &ndash; nur die stille, systematische Arbeit eines Mannes, der genau wusste, was er brauchte, und der bereit war, alles Notwendige zu tun, um es sich zu beschaffen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Sicherheit durch Buchf\xfchrung</h3>
-        <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Drei (SE3)</strong> den Subtyp der <em>Sicherheit</em>: keine Drei, die auf der gro\xdfen B\xfchne gl\xe4nzen will, sondern eine, die unerm\xfcdlich und oft unauff\xe4llig am eigenen materiellen Fundament arbeitet. Landru f\xfchrte \xfcber Jahre ein akribisches kleines Notizbuch, in dem er jede Ausgabe, jede Zugfahrkarte, jeden Franc verzeichnete, den er von seinen Opfern einzog &ndash; eine besessene, private Buchhaltung, die keinen Cent unbeachtet lie\xdf.</p>
-        <p class="vb-intro">Genau diese Buchhaltermentalit\xe4t ist der Kern der SE3 in ihrer d\xfcstersten Form: Nicht der Wunsch nach \xf6ffentlichem Ruhm trieb Landru an, sondern die n\xfcchterne, systematische Sicherung der eigenen materiellen Existenz &ndash; mit einer Konsequenz, die vor nichts zur\xfcckschreckte. Der Mord war f\xfcr ihn kein dramatischer Akt, sondern ein notwendiger Schritt in einer Kosten-Nutzen-Rechnung.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Die morbide Ironie</h3>
-        <p class="vb-intro">Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte ihre Taten vermutlich m\xf6glichst emotionslos und farblos durchgezogen. Bei Landru trat stattdessen ein d\xfcsterer, fast k\xfcnstlerischer Humor hervor, der ihn bis zum Schluss begleitete. Vor Gericht, 1921, blieb er zynisch und geistreich zugleich: Auf die Anklage antwortete er h\xf6hnisch mit der Forderung &bdquo;Zeigen Sie mir die Leichen!&ldquo; &ndash; wohl wissend, dass von seinen Opfern nur Asche \xfcbrig war. Sein einziges indirektes Gest\xe4ndnis war eine selbst angefertigte Zeichnung seines K\xfcchenofens.</p>
-        <p class="vb-intro">Diese morbide, selbstbewusste Ironie ist der Viererfl\xfcgel in seiner dunkelsten Auspr\xe4gung: eine Tragik, die zur bewussten Pose wird, ein Gef\xfchl der eigenen Einzigartigkeit, das selbst im Angesicht der Guillotine nicht verschwindet. Das Gerichtssaal-Publikum war fasziniert von diesem kleinen, kahlen Mann, der mit seinem langen schwarzen Bart und seiner unheimlichen Ruhe wie eine Figur aus einer d\xfcsteren M\xe4rchenerz\xe4hlung wirkte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Kontaktanzeigen als System</h3>
-        <p class="vb-intro">Landru nutzte falsche Identit\xe4ten und die &bdquo;Herzensangelegenheiten&ldquo;-Rubriken Pariser Zeitungen, um gezielt einsame, meist verwitwete oder alleinstehende Frauen mit eigenem Verm\xf6gen anzusprechen &ndash; ein System, das er \xfcber Jahre systematisch verfeinerte. Der Krieg lieferte ihm dabei den perfekten Rahmen: W\xe4hrend Millionen M\xe4nner an der Front starben, blieben zahllose Frauen allein zur\xfcck, verwundbar und offen f\xfcr die Aussicht auf eine neue, sichere Verbindung.</p>
-        <p class="vb-intro">Das ist die SE3 in ihrer kalkuliertesten Form: Landru identifizierte eine strukturelle L\xfccke &ndash; einen Markt aus verwundbaren, verm\xf6genden Frauen &ndash; und baute ein wiederholbares Verfahren, das er \xfcber f\xfcnf Jahre routiniert anwendete, mit derselben systematischen Sorgfalt, mit der er auch seine Ausgaben notierte.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verhaftung, Prozess und Hinrichtung</h3>
-        <p class="vb-intro">1919 wurde Landru verhaftet, nachdem Angeh\xf6rige mehrerer vermisster Frauen die Polizei alarmiert hatten. Der Prozess 1921 dauerte drei Wochen und wurde zu einem \xf6ffentlichen Spektakel &ndash; nicht, weil Landru es so wollte, sondern weil seine kalte Pr\xe4zision und sein trockener Humor die \xf6ffentliche Fantasie fesselten. Er wurde in allen elf F\xe4llen f\xfcr schuldig befunden und zum Tode verurteilt.</p>
-        <p class="vb-intro">Drei Monate sp\xe4ter wurde er in Versailles guillotiniert. Bis zuletzt gestand er nichts &ndash; kein einziges Wort der Reue, kein Gest\xe4ndnis, das \xfcber die Zeichnung des Ofens hinausging. Die SE3 h\xe4lt an ihrer Version der Realit\xe4t fest, selbst wenn die Beweislast erdr\xfcckend ist.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) Buchf\xfchrung statt B\xfchne:</strong> Anders als die soziale Drei, die \xf6ffentliches Prestige sucht, agierte Landru maximal privat &ndash; im eigenen Haus, im eigenen Ofen, in einem eigenen Notizbuch. Das ist die SE3 in ihrer reinsten Form: Sicherheit wird im Verborgenen aufgebaut, nicht auf einer Bühne.</p>
-        <p class="vb-intro"><strong>b) Der Viererfl\xfcgel als d\xfcstere Signatur:</strong> Eine SE3 mit schw\xe4cher ausgepr\xe4gtem Viererfl\xfcgel h\xe4tte sich vermutlich unauff\xe4lliger, farbloser verhalten. Landrus zynischer Witz vor Gericht, sein Gef\xfchl f\xfcr die eigene morbide Einzigartigkeit, zeigen einen stark ausgepr\xe4gten Viererfl\xfcgel, der selbst dem eigenen Untergang eine unverwechselbare Note verlieh.</p>
-        <p class="vb-intro"><strong>c) Ein System statt eines Einzelfalls:</strong> Wie bei Belle Gunness, einer weiteren SE3w4 mit fast identischem Muster, zeigt sich bei Landru dieselbe Struktur: Heiratsanzeigen als Werkzeug, ein wiederholbares Verfahren, kein Einzelimpuls, sondern eine methodische, \xfcber Jahre verfeinerte Routine.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Henri D\xe9sir\xe9 Landru</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE3w4 &ndash; Selbsterhaltende Drei mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als kalkulierte, systematische Sicherung der eigenen materiellen Existenz)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Waschb\xe4r</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 12. April 1869 &ndash; 25. Februar 1922</span>
-          <span style="display:block;"><strong>Bekannt f\xfcr:</strong> Mord an mindestens zehn Frauen und einem Jugendlichen \xfcber Kontaktanzeigen (1914&ndash;1919), Verbrennung der Leichen im eigenen K\xfcchenofen, 1921 zum Tode verurteilt und guillotiniert</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie Sicherheit zur kalkulierten Vernichtung wird – und warum der Viererflügel dem Verbrechen eine dunkle Signatur gibt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Selbstt\xe4uschung als Grundmotiv der Drei: Wie das Schutzsystem der Drei entsteht und wie es sich in Heilung aufl\xf6st.", "Wer du wirklich bist (Band 1)")}
-
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Henri D\xe9sir\xe9 Landru wurde 1921 wegen elffachen Mordes verurteilt und 1922 hingerichtet. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-belle-gunness", label:"Kriminalpsychologie: Belle Gunness (SE3w4) – Die Schwarze Witwe von La Porte"},
-          {route:"kriminalpsychologie-bernie-madoff", label:"Kriminalpsychologie: Bernie Madoff (SE3w4)"},
-          {route:"kriminalpsychologie-mary-ann-cotton", label:"Kriminalpsychologie: Mary Ann Cotton (SX1w2)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
-function belleGunnessPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Belle Gunness \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/belle-gunness-portrait.jpg" alt="Belle Gunness \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Belle Gunness</p>
-        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
-        <p class="krim-portrait-sub">Die Schwarze Witwe von La Porte &ndash; Tierentsprechung: Waschb\xe4r</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Waschb\xe4r</h3>
-        <p class="vb-intro">Der <strong>Waschb\xe4r</strong> ist das Tier der selbsterhaltenden Drei &ndash; und kein Tier passt besser zu Belle Gunness. Der Waschb\xe4r ist kein Raubtier im klassischen Sinne: Er greift nicht frontal an, er jagt nicht laut. Er ist geduldig, geschickt, anpassungsf\xe4hig. Er taucht auf, wo Ressourcen sind, sucht nach dem, was er gebrauchen kann, und verschwindet wieder. Vor allem: Er ist t\xe4uschend harmlos. Sein Gesicht &ndash; die Maske, die dunklen Augen hinter dem hellen Fell &ndash; lassen nicht erkennen, was er gerade tut.</p>
-        <p class="vb-intro">Belle Gunness war so eine Figur: eine Farmbesitzerin, eine Witwe, eine Mutter. Sie bat um Hilfe. Sie schrieb liebevolle Briefe. Sie empfing M\xe4nner mit Kaffee und Hausmannskost. Und sie begrub sie in ihrem Schweinestall.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Der Kontratyp</h3>
-        <p class="vb-intro">Der <strong>selbsterhaltende Typ 3 (SE3)</strong> ist unter den Dreier-Subtypen derjenige, der am wenigsten wie eine Drei aussieht. Claudio Naranjo nannte ihn den &bdquo;Kontratyp&ldquo;: Statt Gl\xe4nzen und Pr\xe4sentieren zeigt die SE3 Bescheidenheit, Zur\xfcckhaltung, Bodenst\xe4ndigkeit. Kein Auftreten. Kein Rampenlicht. Aber die Energie darunter ist dieselbe &ndash; nur dass sie nicht auf Ruhm, sondern auf materielle Sicherheit gerichtet ist. Die selbsterhaltende Drei fragt nicht: <em>Wie werde ich bewundert?</em> Sie fragt: <em>Wie sichere ich meinen Besitz, meine Ressourcen, meinen \xdcberlebensspielraum?</em></p>
-        <p class="vb-intro">Im Gleichgewicht ist das eine enorme Kraft: Pragmatismus, Flei\xdf, Verl\xe4sslichkeit, die F\xe4higkeit, eine Familie oder ein Unternehmen durch schwierige Zeiten zu f\xfchren. Im tiefen Ungleichgewicht wird diese Kraft zur reinen Kalkulation: Was brauche ich, was steht mir im Weg, wie r\xe4ume ich das Hindernis beiseite. Die T\xe4uschung ist nicht laut &ndash; sie ist still. Und sie ist gr\xfcndlich.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Viererfl\xfcgel: Isolation, Dunkelheit, kalte Entschlossenheit</h3>
-        <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> verleiht der selbsterhaltenden Drei eine Tiefe, die gef\xe4hrlich wird, wenn sie ins Ungleichgewicht ger\xe4t. Die Vier bringt Einsamkeit mit sich &ndash; ein Gef\xfchl, grundlegend anders zu sein, von der Welt nicht wirklich gesehen oder verstanden zu werden. Sie bringt auch eine F\xe4higkeit zur emotionalen Abkapselung, die die Drei allein nicht h\xe4tte. Belle Gunness lebte isoliert auf ihrer Farm. Sie pflegte keine tiefen Bindungen. Ihre Kinder starben mit einer Regelm\xe4\xdfigkeit, die R\xfcckfragen h\xe4tte ausl\xf6sen m\xfcssen &ndash; und tat es nicht, weil sie au\xdfen hin immer die trauernde, w\xfcrdige Witwe war.</p>
-        <p class="vb-intro">Der Viererfl\u00fcgel erm\xf6glicht auch jene k\xfchle Entschlossenheit, die jenseits von Sadismus liegt. Belle Gunness hat ihre Opfer nicht aus Grausamkeit get\xf6tet. Sie hat sie aus Effizienz get\xf6tet. Sie waren ein Mittel &ndash; und als das Mittel ausgesch\xf6pft war, wurde es entsorgt. Das ist Drei mit Viererfl\xfcgel im tiefsten Schatten: Menschenleben als Ressourcen, gef\xfchllos verbucht.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Biografie: Norwegen, Chicago, La Porte</h3>
-        <p class="vb-intro">Brynhild Paulsdatter St\xf8rseth wurde am 11. November 1859 in Selbu, Tr\xf8ndelag, Norwegen, geboren &ndash; als armes Kind in einer kinderreichen Bauernfamilie. \xdcber ihre Kindheit ist wenig bekannt. 1881 wanderte sie in die USA aus, nach Chicago, wo sie sich fortan <strong>Belle</strong> nannte. Sie arbeitete als Haushaltshilfe, lernte Mads Ditlev Anton Sorenson kennen und heiratete ihn 1884.</p>
-        <p class="vb-intro">Sorensons Tod am 30. Juli 1900 war der erste dokumentierte Verdachtsfall. Er starb an einem Tag, an dem sich seine beiden Lebensversicherungspolicen \xfcberschnitten &ndash; dem einzigen Tag im Jahr, an dem Belle aus beiden h\xe4tte kassieren k\xf6nnen. Ein Arzt diagnostizierte Herzversagen; eine sp\xe4tere Exhumierung wies auf Arsenvergiftung hin. Belle erhielt die Versicherungssumme und zog mit ihren Kindern nach <strong>La Porte, Indiana</strong>, wo sie eine Farm kaufte.</p>
-        <p class="vb-intro">1902 heiratete sie <strong>Peter Gunness</strong>. Er starb acht Monate sp\xe4ter, am 16. Dezember 1902 &ndash; offiziell, weil ihm ein Fleischklopper auf den Kopf fiel. Auch hier: eine Lebensversicherung, ausgezahlt an Belle. Peter Gunness&rsquo; Bruder hegte Verdacht, unternahm aber nichts. Belle blieb Witwe &ndash; und behielt den Namen.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das System: Die Heiratsanzeigen</h3>
-        <p class="vb-intro">Ab etwa 1902 schaltete Belle Gunness regelm\xe4\xdfig Anzeigen in norwegischsprachigen Zeitungen der USA, darunter <em>Skandinaven</em> und \xe4hnlichen Bl\xe4ttern, die unter eingewanderten Skandinaviern weit verbreitet waren. Der Ton dieser Anzeigen war stets derselbe: eine arbeitsame Witwe, Farmbesitzerin, sucht einen verl\xe4sslichen, ehrlichen Mann, der ihr helfen m\xf6chte, die Farm weiterzuf\xfchren. Voraussetzung: Er solle etwas Kapital mitbringen, um in den gemeinsamen Aufbau zu investieren.</p>
-        <p class="vb-intro">Die M\xe4nner, die antworteten, waren fast alle norwegischst\xe4mmige Einwanderer: einsam, in der neuen Heimat ohne Wurzeln, oft \xe4lter, mit kleinen Ersparnissen aus Jahren harter Arbeit. Viele schrieben zuvor mehrere Briefe; Belle antwortete w\xe4rmend, herzlich, versprechend. Wenn ein Mann sich schlie\xdflich entschied zu kommen, bat sie ihn, seine Ersparnisse vor der Anreise in Bargeld umzuwandeln und mitzubringen &ndash; zur Sicherheit, schrieb sie, und damit alles bereit sei.</p>
-        <p class="vb-intro">Kein Mann, der mit diesem Geld ankam, verlie\xdf die Farm je wieder. Die Leichen &ndash; zerst\u00fcckelt, in S\xe4cke gepackt &ndash; wurden im Schweine- und H\u00fchnerhof vergraben. Das Muster war \u00fcber Jahre hinweg dasselbe: Anzeige, Korrespondenz, Ankunft, Tod, Entsorgung. Neue Anzeige.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Tatgeschehen: Die Farm als System</h3>
-        <p class="vb-intro">Die Zahl der Opfer ist nach wie vor nicht abschlie\xdfend gekl\xe4rt. Bei Ausgrabungen auf dem Gel\xe4nde der Gunness-Farm in La Porte im Jahr 1908 wurden mindestens <strong>11 bis 14 m\xe4nnliche Leichen</strong> gefunden, darunter die von John Moe, Ole Budsberg, Andrew Helgelien und anderen. Mehrere Kinder, die Belle bei sich hatte &ndash; teils biologische, teils adoptierte &ndash; starben ebenfalls unter ungekl\xe4rten Umst\xe4nden.</p>
-        <p class="vb-intro">Besonders der Fall <strong>Andrew Helgelien</strong> wurde zum Wendepunkt: Sein Bruder Asle wurde misstrauisch, als Andrews Briefe ausblieben. Er wandte sich an die Beh\xf6rden. Am 28. April 1908 brannte die Gunness-Farm nieder. Im Keller des abgebrannten Hauses wurden die Leichen von drei Kindern und einer kopflosen Frau gefunden. Die Frau wurde als Belle Gunness identifiziert &ndash; doch die K\xf6rpergr\xf6\xdfe stimmte nicht. Belle war gro\xdf und kr\xe4ftig; die Tote war deutlich kleiner.</p>
-        <p class="vb-intro">Belles Landarbeiter und zeitweiliger Geliebter, <strong>Ray Lamphere</strong>, wurde verhaftet. Er wurde wegen Brandstiftung verurteilt, aber vom Mordvorwurf freigesprochen. Kurz vor seinem Tod 1909 soll er einem Mith\xe4ftling gegen\xfcber gestanden haben, dass Belle die Frau, deren Leiche im Keller lag, selbst gew\xfcrgelt hatte &ndash; um ihren eigenen Tod zu inszenieren. Ob Belle Gunness dem Feuer entkam und ein neues Leben begann, wurde nie abschlie\xdfend gekl\xe4rt.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Das R\xe4tsel: Entkommen oder gestorben?</h3>
-        <p class="vb-intro">Das Verschwinden Belle Gunness&rsquo; ist noch heute ungekl\xe4rt. In den Jahren nach dem Brand wurden an verschiedenen Orten in den USA Frauen gemeldet, die ihrer Beschreibung entsprachen. Keine Spur wurde je best\xe4tigt. Eine DNA-Analyse im Jahr 2007 an exhumierten Knochenresten der Toten aus dem Kellerbrand erbrachte kein eindeutiges Ergebnis.</p>
-        <p class="vb-intro">Psychologisch betrachtet w\xe4re die Flucht das konsequenteste SE3w4-Szenario: Als das System unter Druck ger\xe4t, l\xf6scht die selbsterhaltende Drei die bisherige Identit\xe4t und baut eine neue auf. Keine Bindung, keine Nostalgie, keine R\xfcckblicke. Der Waschb\xe4r wechselt das Revier, wenn es gef\xe4hrlich wird &ndash; und findet anderswo eine neue Ressource.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro"><strong>a) T\xe4uschung ohne Geltungsdrang:</strong> Der entscheidende Unterschied zwischen Belle Gunness und einem SO3-Profil liegt im Fehlen jedes \xf6ffentlichen Geltungsdrangs. Belle wollte keinen Ruhm. Sie wollte keine B\u00fchne. Sie wollte Geld und Sicherheit &ndash; und alles, was im Weg stand, wurde entfernt. Das ist reine SE3-Energie: T\xe4uschung als Werkzeug der Selbsterhaltung, nicht als Selbstzweck.</p>
-        <p class="vb-intro"><strong>b) Die bescheidene Fassade als Waffe:</strong> Der Kontratyp pr\xe4sentiert sich als unscheinbar, bodenst\xe4ndig, hilfebed\u00fcrftig &ndash; genau das Gegenteil dessen, was er in Wirklichkeit ist. Belle Gunness war keine gl\xe4nzende Verf\xfchrerin wie eine SX2. Sie war eine m\xfcdige Witwe, die dringend Hilfe brauchte. Diese Rolle war glaubw\xfcrdiger und damit gef\xe4hrlicher als jede Erotik.</p>
-        <p class="vb-intro"><strong>c) Opfer als Ressource:</strong> Die SE3w4 im tiefen Ungleichgewicht behandelt andere Menschen wie Posten in einem Haushaltsbuch: Was bringen sie ein, wann sind sie aufgebraucht, wann m\xfcssen sie ersetzt werden. Es ist kein Hass im Spiel. Es ist etwas K\xe4lteres: v\xf6llige emotionale Neutralit\xe4t gegen\xfcber dem Leid anderer.</p>
-        <p class="vb-intro"><strong>d) Der Viererfl\xfcgel als Deckel:</strong> Der Viererfl\u00fcgel macht die SE3 f\xe4hig zu einer isolierten, nach innen gewendeten Existenz, die keine sozialen Ankerpunkte braucht. Belle hatte keine engen Freundschaften, keine Vertrauten, keine Beziehungen, die ihr h\xe4tten gef\xe4hrlich werden k\xf6nnen &ndash; bis auf Ray Lamphere, der ihr schlie\xdflich doch zu nahe kam.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Fazit: Der Waschb\xe4r wechselt das Revier</h3>
-        <p class="vb-intro">Belle Gunness ist einer der \u00e4ltesten F\xe4lle dieser Sammlung &ndash; und einer der unheimlichsten, weil er so n\xfcchtern ist. Keine Ideologie, keine Wut, keine erkennbare psychische Entgleisung. Eine Frau, die eine Methode entwickelte, die funktionierte, sie \xfcber Jahre hinweg verfeinerte und anwandte &ndash; solange, bis die Umst\xe4nde es nicht mehr erlaubten.</p>
-        <p class="vb-intro">Der Waschb\xe4r schaut mit seinen ruhigen Augen hinter der Maske. Er ist nicht boshaft. Er ist einfach entschlossen. Belle Gunness hat vielleicht diese Farm verlassen und irgendwo neu angefangen &ndash; mit einem neuen Namen, einer neuen Anzeige, einem neuen Kaffeeservice f\xfcr den n\xe4chsten Besucher. Kein Funken Reue. Kein Blick zur\xfcck. Der Waschb\xe4r hat noch Hunger.</p>
-      </div>
-
-      <div class="vb-section">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">10. Einordnung</h3>
-        <p class="vb-intro" style="margin-bottom:1.2rem;">
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Brynhild Paulsdatter St\xf8rseth, bekannt als Belle Gunness</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SE3w4 &ndash; Selbsterhaltender Typ 3 mit Viererfl\xfcgel</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> T\xe4uschung (als stilles, rationales System der Selbsterhaltung)</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Waschb\xe4r</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Lebensdaten:</strong> 11. November 1859, Selbu, Norwegen &ndash; vermutlich 1908 (ungekl\xe4rt)</span>
-          <span style="display:block;"><strong>Opfer:</strong> Mindestens 25&ndash;40 Tote (beide Ehem\xe4nner, mehrere Kinder, mindestens 11&ndash;14 M\xe4nner auf der Farm), La Porte, Indiana, ca. 1900&ndash;1908</span>
-        </p>
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich T\u00e4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\u00fcckt \u2013 und warum der Kontratyp so schwer zu erkennen ist.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "T\u00e4uschung als Grundmotiv der Drei: Das Selbst als Konstruktion \u2013 und was passiert, wenn die Konstruktion zum Werkzeug f\u00fcr Schlimmeres wird.", "Wer du wirklich bist (Band 1)")}
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Belle Gunness gilt als eine der produktivsten Serienm\u00f6rderinnen Amerikas. Ihre genaue Opferzahl ist ungekl\u00e4rt; sie verschwand 1908 und wurde nie vor Gericht gestellt. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-
-        ${relatedLinks([
-          {route:"kriminalpsychologie-karla-homolka", label:"Kriminalpsychologie: Karla Homolka (SE3w4)"},
-          {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4)"},
-          {route:"kriminalpsychologie-pamela-smart", label:"Kriminalpsychologie: Pamela Smart (SX2w3)"},
-        ])}
-      </div>
-    </div>
-  `);
-}
-
-function karlaHomolkaPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Karla Homolka \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/karla-homolka-portrait.jpg" alt="Karla Homolka \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Karla Homolka</p>
-        <p class="krim-portrait-typ">SE3w4 \u00b7 Selbsterhaltender Typ 3 mit Viererfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Ken &amp; Barbie Killers" \u2013 Kanada 1990\u20131993</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Karla Homolka</strong>, geboren 1970 in Port Credit, Ontario,
-        war die Frau an der Seite von Paul Bernardo \u2013 und seine Komplizin bei drei Vergewaltigungen und Morden.
-        Ihre Opfer waren Tammy Homolka (Karlas eigene j\u00fcngere Schwester, 15),
-        Leslie Mahaffy (14) und Kristen French (15).
-        Die \u00d6ffentlichkeit nannte sie und Bernardo \u201eKen und Barbie" \u2013
-        wegen ihres gepflegten \u00c4u\u00dferen, ihrer scheinbaren Normalit\u00e4t, ihrer strahlend wei\u00dfen Hausfassade.
-        Karla Homolka schloss einen Deal mit der Staatsanwaltschaft:
-        Im Austausch gegen ihre Aussage gegen Bernardo erhielt sie eine Verurteilung
-        wegen Totschlags \u2013 zw\u00f6lf Jahre, von denen sie alle absa\u00df.
-        Sie wurde 2005 entlassen und lebt heute unter anderem Namen.
-        Das Enneagramm macht sichtbar, wie das m\u00f6glich war \u2013
-        wie eine Frau, die als liebevoll, angepasst und ehrgeizlos galt,
-        bei der Ermordung ihrer eigenen Schwester half.
-      </p>
-
-      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Karla Homolka</strong> wird dem <strong>Selbsterhaltenden Typ 3 mit Viererfl\u00fcgel</strong> zugeordnet.
-        Die selbsterhaltende Drei organisiert ihr Leben um den Aufbau eines stabilen, attraktiven Selbstbildes \u2013
-        Sicherheit durch Erscheinungsbild, Kontrolle durch Anpassung.
-        Der Viererfl\u00fcgel bringt Tiefe, Selbstbezogenheit und die F\u00e4higkeit zur emotionalen Selbstinszenierung.
-        Im Stress geht die Drei in Richtung <strong>Neun</strong>: Bet\u00e4ubung, Selbstausl\u00f6schung,
-        das Verschwinden hinter dem Willen eines anderen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Waschb\u00e4r</h3>
-        <p class="vb-intro">
-        Der <strong>Waschb\u00e4r</strong> ist die Tierentsprechung der selbsterhaltenden Drei \u2013
-        und er trifft Karla Homolka mit erschreckender Genauigkeit.
-        Der Waschb\u00e4r ist nachtaktiv, \u00e4u\u00dferst anpassungsf\u00e4hig, intelligent und ein Meister der T\u00e4uschung.
-        Er tr\u00e4gt eine nat\u00fcrliche Maske. Er \u201ew\u00e4scht" seine Nahrung \u2013 ein Verhalten,
-        das von au\u00dfen wie Reinheit aussieht, aber einem anderen Zweck dient.
-        Er \u00fcberlebt in fast jeder Umgebung, weil er sich jeder anpassen kann.
-        Und er ist schwer zu fassen: glatt, beweglich, entwischt im letzten Moment.
-        Karla Homolka erschien der \u00d6ffentlichkeit als Opfer, als mitgerissene junge Frau.
-        Dem Gericht erschien sie als kooperative Zeugin. Beiden Bildern entkam sie.
-        Der Waschb\u00e4r \u00fcberlebt. Immer.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Drei: Sicherheit durch Selbstbild</h3>
-        <p class="vb-intro"><strong>a) Das Erscheinungsbild als Schutz:</strong>
-        Die SE3 investiert in ihr Erscheinungsbild als prim\u00e4re \u00dcberlebensstrategie.
-        Sie will attraktiv, erfolgreich, bewundert und stabil wirken \u2013
-        nicht f\u00fcr andere, sondern f\u00fcr sich selbst als Fundament.
-        Homolka war in der Schule beliebt, arbeitete als Tierarzthelferin,
-        galt als verantwortungsbewusst und zuverl\u00e4ssig. Sie pflegte ihr \u00c4u\u00dferes sorgf\u00e4ltig.
-        Als sie Bernardo kennenlernte, wurde er Teil dieses Selbstbildes:
-        der attraktive, charismatische Mann, der ihr Bild von sich selbst best\u00e4tigte.</p>
-        <p class="vb-intro"><strong>b) Der Viererfl\u00fcgel: das Besondere, das Dunkle:</strong>
-        Der Viererfl\u00fcgel der selbsterhaltenden Drei bringt Tiefe und Selbstbezogenheit.
-        Er erm\u00f6glicht, sich als besonders, einzigartig, missverstanden zu erleben.
-        Homolka schrieb nach ihrer Verhaftung Tageb\u00fccher, die Ermittler als k\u00fchl, distanziert,
-        fast literarisch beschrieben. Sie beschrieb sich selbst als Opfer Bernardos \u2013
-        und war sich zugleich pr\u00e4zise bewusst, was sie getan hatte.
-        Diese F\u00e4higkeit, beides gleichzeitig zu sein \u2013 T\u00e4ter und Opfer,
-        kalt und verletzlich \u2013, ist das Viererfl\u00fcgel-Muster der SE3 in der Desintegration.</p>
-        <p class="vb-intro"><strong>c) Der Neuner-Stresspunkt: Ausl\u00f6schung des Selbst:</strong>
-        Die Drei geht im Stress in Richtung Neun \u2013 Bet\u00e4ubung, Passivit\u00e4t,
-        das Verschwinden hinter dem Willen einer anderen Person.
-        Homolka beschrieb ihre Beziehung zu Bernardo als eine,
-        in der sie gelernt hatte, keinen eigenen Willen mehr zu haben.
-        Sie tat, was er wollte \u2013 weil das Selbstbild des perfekten Paares wichtiger war
-        als die Entscheidung zwischen Richtig und Falsch.
-        Das ist der Neuner-Stresspunkt in seiner dunkelsten Form:
-        Selbst-Ausl\u00f6schung als Form der Selbsterhaltung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Was Karla Homolka tat</h3>
-        <p class="vb-intro"><strong>a) Tammy Homolka \u2013 die eigene Schwester:</strong>
-        Im Dezember 1990 verabreichte Karla ihrer 15-j\u00e4hrigen Schwester Tammy
-        heimlich das Narkosemittel Halothane, das sie aus der Tierarztpraxis gestohlen hatte.
-        W\u00e4hrend Tammy bewusstlos war, vergewaltigte Bernardo sie \u2013
-        gefilmt von Karla, die die Szene absicherte.
-        Tammy aspiriierte ihren eigenen Mageninhalt und starb.
-        Der Tod wurde als Unfall eingestuft. Karla nahm an der Beerdigung teil.
-        Das ist die SE3 im Zusammenbruch: Die Schwester war ein Hindernis
-        f\u00fcr das Bild der perfekten Beziehung geworden. Bernardo wollte sie.
-        Karla lieferte sie.</p>
-        <p class="vb-intro"><strong>b) Leslie Mahaffy und Kristen French:</strong>
-        Im Juni 1991 entf\u00fchrten Bernardo und Homolka die 14-j\u00e4hrige Leslie Mahaffy.
-        Sie brachten sie in ihr Haus, hielten sie tagelang gefangen, vergewaltigten sie,
-        t\u00f6teten sie und zerst\u00fcckelten den K\u00f6rper \u2013 einbetoniert in Zementbl\u00f6cken,
-        die im Lake Gibson gefunden wurden.
-        Im April 1992 folgte Kristen French (15), ebenfalls entf\u00fchrt, tagelang festgehalten und get\u00f6tet.
-        Homolka war bei allen Taten aktiv anwesend \u2013 nicht als erzwungene Beobachterin,
-        sondern als Teilnehmerin. Die Videoaufnahmen, die Bernardo angefertigt hatte,
-        dokumentierten ihre Beteiligung unwiderlegbar.</p>
-        <p class="vb-intro"><strong>c) Der Deal mit der Justiz:</strong>
-        Bevor die Videob\u00e4nder entdeckt wurden, schloss Homolkas Anwalt
-        einen Deal mit der Staatsanwaltschaft: zw\u00f6lf Jahre Totschlag,
-        im Austausch gegen ihre vollst\u00e4ndige Aussage gegen Bernardo.
-        Als die B\u00e4nder sp\u00e4ter auftauchten und das Ausma\u00df ihrer aktiven Beteiligung zeigten,
-        war der Deal bereits rechtskr\u00e4ftig.
-        Die Presse sprach vom \u201eDeal mit dem Teufel".
-        Karla Homolka wurde 2005 entlassen \u2013 j\u00fcnger als viele ihrer Opfer,
-        w\u00e4ren sie am Leben geblieben. Heute lebt sie in Quebec unter anderem Namen,
-        hat wieder geheiratet und hat Kinder. Das ist der Waschb\u00e4r:
-        Er entwischt. Er passt sich an. Er \u00fcberlebt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Karla Homolka ist kein Monster im klassischen Sinn. Sie ist die selbsterhaltende Drei
-        in ihrer absoluten Desintegration: ein Mensch, der das \u00dcberleben des eigenen Selbstbildes
-        \u00fcber alles stellte \u2013 \u00fcber die Schwester, \u00fcber die Opfer, \u00fcber das eigene Gewissen.
-        Die SE3 kann nicht zulassen, dass ihr Bild von sich selbst zerbricht.
-        Wenn Bernardo ihr Bild trug \u2013 wenn er die Quelle ihrer Selbstdefinition war \u2013
-        dann wurde alles, was er wollte, zum Teil dieses Bildes.
-        Die T\u00e4uschung, die Homolka betrieb, war nicht nur nach au\u00dfen gerichtet.
-        Sie t\u00e4uschte sich selbst \u2013 \u00fcber ihre Verantwortung, \u00fcber ihren Anteil, \u00fcber wer sie war.
-        Das ist das Erschreckendste an diesem Fall:
-        die F\u00e4higkeit der SE3, sich selbst die \u00fcberzeugendste Geschichte zu erz\u00e4hlen.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
-        <p class="vb-intro">
-        <strong>Subtyp:</strong> SE3w4 \u2013 Selbsterhaltende Drei mit Viererfl\u00fcgel.<br>
-        <strong>Leidenschaft:</strong> T\u00e4uschung (Vanity) \u2013 das Selbstbild \u00fcber die Wirklichkeit stellen.<br>
-        <strong>Stresspunkt:</strong> Neun \u2013 Selbstausl\u00f6schung, Passivit\u00e4t, Verschwinden hinter dem Willen eines anderen.<br>
-        <strong>Tierentsprechung:</strong> Waschb\u00e4r \u2013 nat\u00fcrliche Maske, extreme Anpassungsf\u00e4higkeit, immer ein Entkommen.<br>
-        <strong>Partner:</strong> Paul Bernardo (SX1w2) \u2192
-        <a href="#kriminalpsychologie-paul-bernardo" data-route="kriminalpsychologie-paul-bernardo"
-           style="color:var(--gold-dark);text-decoration:underline;">Zum Portr\u00e4t Paul Bernardo</a>
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Drei im Vergleich: Wie sich T\u00e4uschung bei SE3, SO3 und SX3 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausf\u00fchrlich portr\u00e4tiert \u2013 T\u00e4uschung, Erfolg und der Heilungsweg \u00fcber echte Wahrhaftigkeit.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Karla Homolka wurde 1993 in drei F\u00e4llen des Totschlags verurteilt und 2005 entlassen. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2) \u2013 Partner"},
-        {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4)"},
-        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
-      ])}
-    </div>
-  `);
-}
-
-function busterMurdaughPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Buster Murdaugh \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/buster-murdaugh-portrait.jpg" alt="Buster Murdaugh \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Buster Murdaugh</p>
-        <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Buster Murdaugh</strong> ist der \xfcberlebende Sohn von Alex Murdaugh \u2013
-        dem s\xfcdkarolinischen Anwalt und Patriarchen einer einflussreichen
-        Juristendynastie, der 2023 wegen der Morde an seiner Frau Maggie
-        und seinem Sohn Paul verurteilt wurde. Buster wuchs in einem Milieu
-        auf, in dem der Familienname \xdcber Rechtsnormen stand:
-        Die Murdaughs kontrollierten \xfcber drei Generationen die Staatsanwaltschaft
-        von Hampton County, S\xfcdkarolina \u2013 ein regionales Macht- und Schutzsystem
-        f\xfcr sich. Im Zuge der Ermittlungen gegen seinen Vater r\xfcckte auch
-        Buster in den Fokus: Sein Name tauchte im Zusammenhang mit dem
-        ungekl\xe4rten Tod von Stephen Smith (2015) auf, der in der
-        Nachermittlung 2022 wieder aufgerollt wurde. Buster wurde nie
-        angeklagt. Dennoch ist sein Fall aus Enneagramm-Sicht bedeutsam:
-        Er zeigt, wie das Zweier-Privileg im Familien- und Dynastiekontext
-        \xfcberlebt \u2013 als Glaube, dass die eigene Zugeh\xf6rigkeit
-        zu einer bestimmten Welt einen vor Konsequenzen sch\xfctzt.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Buster Murdaugh</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierfl\xfcgel</strong>
-        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> \u2013
-        das \xdcberzeugtsein, durch Zugeh\xf6rigkeit und Beziehungen
-        besonderen Schutz und besondere Rechte zu verdienen.
-        Die selbsterhaltende Zwei (SE2) \u2013 Naranjos \u201ePrivileg" \u2013
-        stellt die Sicherung der eigenen Ressourcen und der eigenen Stellung
-        in den Vordergrund, getarnt durch den Anschein von Loyalit\xe4t
-        und Familiensinn. Der Dreierfl\xfcgel verleiht ihr die F\xe4higkeit,
-        nach au\xdfen angepasst und sympathisch zu wirken: das Bild
-        des pflichtbewussten Sohnes, der trotz allem standhaft bleibt.
-        In Busters Fall zeigt sich, wie tief das Zweier-Privileg
-        in Familienstrukturen verankert sein kann \u2013
-        und wie es Generationen \xfcberdauert.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
-        <p class="vb-intro"><strong>a) Zur\xfcckhaltend und kontrolliert:</strong>
-        Buster trat in der \xf6ffentlichen Berichterstattung
-        deutlich zur\xfckhaltender auf als sein Vater \u2013
-        seltene Interviews, kein gro\xdfes \xd6ffentlichkeitsauftreten &ndash;
-        der Dreierfl\xfcgel in defensiver Haltung, der Image-Kontrolle
-        durch Abwesenheit betreibt.</p>
-        <p class="vb-intro"><strong>b) Loyal nach au\xdfen, undurchsichtig nach innen:</strong>
-        Buster stand an der Seite seines Vaters bis zu dessen Verurteilung.
-        Diese Loyalit\xe4t war sichtbar, aber schwer einzusch\xe4tzen:
-        Handelte er aus Bindung oder aus strategischem
-        Selbstschutz? Die SE2w3 kann beides gleichzeitig sein.</p>
-        <p class="vb-intro"><strong>c) Sympathisch-defensiv unter Druck:</strong>
-        In den wenigen Interviews wirkte Buster besonnen
-        und verletzt zugleich \u2013 ein Opfer der Umst\xe4nde,
-        nicht ein Akteur. Die typische Zweier-Schutzstrategie:
-        die eigene Verletzlichkeit als Schild einsetzen.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Dynastisches Privileg als zweite Natur:</strong>
-        Die Murdaughs waren keine gew\xf6hnliche Familie \u2013
-        sie waren ein System. Drei Generationen als
-        leitende Staatsanw\xe4lte in Hampton County bedeutete:
-        Regeln galten f\xfcr andere. Buster wuchs in dieser
-        Atmosph\xe4re auf. Das Zweier-Privileg war
-        hier keine individuelle Einbildung, sondern
-        strukturell verankerte Realit\xe4t.</p>
-        <p class="vb-intro"><strong>b) Verbindungen als Schutzwall:</strong>
-        Die SE2 sichert sich ab durch Beziehungen.
-        In der Murdaugh-Welt bedeutete das:
-        Man kannte die Richter, die Staatsanw\xe4lte, die Sheriffs.
-        Buster erbte dieses Netz \u2013 und mit ihm die Erwartung,
-        dass es ihn sch\xfctzen w\xfcrde.</p>
-        <p class="vb-intro"><strong>c) Selbstbild als Opfer der Geschichte:</strong>
-        Nach dem Zusammenbruch der Familie positionierte sich Buster
-        als Hinterbliebener einer Trag\u00f6die \u2013 nicht als Teil des Problems.
-        Reine SE2-Logik: Man gibt, man bleibt, man tr\xe4gt \u2013
-        und bekommt daf\xfcr Straffreiheit.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Familienloyalit\xe4t als Identit\xe4tskern:</strong>
-        Die Zwei definiert sich \xfcber ihre Zugeh\xf6rigkeiten.
-        F\xfcr Buster war die Murdaugh-Familie nicht nur
-        ein Kontext \u2013 sie war sein Selbstbild.
-        Mit ihrem Zusammenbruch verlor er nicht nur
-        ein Netzwerk, sondern eine Identit\xe4t.</p>
-        <p class="vb-intro"><strong>b) Dreierfl\xfcgel: das Image des pflichtbewussten Sohnes:</strong>
-        Buster blieb. Er erschien bei Gericht, er stand seinem Vater bei,
-        er navigierte den \xf6ffentlichen Druck.
-        Der Dreierfl\xfcgel erlaubt der Zwei,
-        eine Rolle zu spielen, die soziale Anerkennung bringt:
-        der aufrechte Sohn, der unter schrecklichen Umst\xe4nden
-        seinen Charakter beweist.</p>
-        <p class="vb-intro"><strong>c) Nicht angeklagt \u2013 aber nicht unber\xfchrt:</strong>
-        Die Wiederer\xf6ffnung des Falls Stephen Smith
-        warf einen langen Schatten auf Buster.
-        Bis heute sind diese Ermittlungen nicht
-        abgeschlossen. Die SE2 kann unangeklagt bleiben \u2013
-        aber das Zweier-Privileg l\xf6scht Zusammenh\xe4nge
-        nicht aus der Geschichte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Zwischen Mitleid und Misstrauen:</strong>
-        Buster l\xf6st in der \xf6ffentlichen Wahrnehmung
-        eine ambivalente Reaktion aus: Mitleid mit dem Sohn
-        eines M\u00f6rders \u2013 und Misstrauen gegen\xfcber dem,
-        was unaufgekl\xe4rt blieb. Diese Spannung ist
-        f\xfcr die SE2w3 charakteristisch:
-        Sie lebt in der L\xfccke zwischen Selbstdarstellung
-        und dem, was andere ahnen.</p>
-        <p class="vb-intro"><strong>b) Neuanfang als Inszenierung:</strong>
-        Nach dem Prozess versuchte Buster, ein neues Leben aufzubauen:
-        Hochzeit, R\xfcckzug aus der \xd6ffentlichkeit, beruflicher Neustart.
-        Der Dreierfl\xfcgel orchestriert das: Ein neues Bild
-        \xfcber das alte legen \u2013 und hoffen, dass das Neue
-        das Alte \xfcberlagert.</p>
-        <p class="vb-intro"><strong>c) Das Erbe des Systems:</strong>
-        Das Eigent\xfcmliche an Busters Fall:
-        Er hat das Privileg nicht erfunden.
-        Er hat es geerbt. Das macht ihn weniger
-        zu einem Architekt als zu einem Produkt \u2013
-        aber das entlastet ihn nicht von der Frage,
-        was er damit gemacht hat.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Ruhig und kontrolliert:</strong>
-        Buster wirkt in \xf6ffentlichen Auftritten nicht charismatisch
-        wie Anna Delvey und nicht w\xe4rmend wie Jonathan Meijer \u2013
-        er wirkt ged\u00e4mpft, zur\xfcckgehalten \u2013 Energie sparen,
-        keinen Angriffspunkt bieten, ganz der Dreierfl\xfcgel
-        in seiner defensivsten Form.</p>
-        <p class="vb-intro"><strong>b) Familienenergie als Schutzh\u00fclle:</strong>
-        Die Murdaugh-Energie, die Buster tr\xe4gt,
-        ist nicht seine eigene \u2013 sie ist geborgt,
-        \xfcbernommen, dynastisch. Das Besondere an diesem Fall:
-        Das Zweier-Privileg war keine individuelle Konstruktion,
-        sondern ein \xfcberliefertes System.</p>
-        <p class="vb-intro"><strong>c) Niedrige emotionale Sichtbarkeit:</strong>
-        Im Vergleich zu anderen Portr\xe4ts dieser Reihe
-        zeigt Buster wenig nach au\xdfen.
-        Das k\xf6nnte echte Introversion sein \u2013
-        oder der Dreierfl\xfcgel, der gelernt hat:
-        Sichtbarkeit kostet in dieser Situation mehr als sie gibt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Flusspferd</h3>
-        <p class="vb-intro"><strong>a) Harmloser Eindruck, unsichtbare Gef\xe4hrlichkeit:</strong>
-        Das Flusspferd wirkt gem\xfctlich und schwer fassbar \u2013
-        und ist dabei eines der gef\xe4hrlichsten Tiere Afrikas.
-        Es greift selten an, aber wenn, dann mit
-        \xfcberw\xe4ltigender Kraft. Buster wirkt zur\xfckhaltend,
-        unscheinbar \u2013 und sitzt dennoch im Zentrum
-        ungekl\xe4rter Ereignisse.</p>
-        <p class="vb-intro"><strong>b) Massiver struktureller Fu\xdfabdruck:</strong>
-        Das Flusspferd ver\xe4ndert Gew\xe4sser durch seine
-        schiere Masse \u2013 nicht durch aktives Zutun,
-        sondern durch Pr\xe4senz. Die Murdaugh-Dynastie
-        hat Hampton County durch strukturelle Pr\xe4senz gepr\xe4gt:
-        keine spektakul\xe4ren Machtgesten \u2013
-        ein eingewachsenes System.</p>
-        <p class="vb-intro"><strong>c) Territorial ohne Transparenz:</strong>
-        Das Flusspferd verteidigt sein Revier,
-        ohne dass von au\xdfen erkennbar ist, wo die Grenzen liegen.
-        Buster bewegt sich im selben Prinzip:
-        Ein Revier aus Schweigen, Zugeh\xf6rigkeit und
-        nicht aufgekl\xe4rten Zusammenh\xe4ngen \u2013
-        territorial durch Unzug\xe4nglichkeit.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Buster Murdaugh</strong> wurde nie verurteilt \u2013 wie Jonathan Meijer
-        geh\xf6rt er in diese Reihe als psychologisch bedeutsamer Fall,
-        nicht als klassischer T\xe4ter. Was seinen Fall besonders macht:
-        Das Zweier-Privileg wurde ihm nicht durch eigenen Stolz
-        zuteil \u2013 es war eine Erbschaft. Und darin liegt
-        die eigentliche Enneagramm-Frage: Wie viel Verantwortung
-        tr\xe4gt jemand f\xfcr ein System, das er nicht erfunden,
-        sondern \xfcbernommen hat? Die SE2 im Stolz kann
-        diese Frage nicht wirklich stellen \u2013
-        weil das Privileg f\xfcr sie keine Frage ist,
-        sondern eine Tatsache.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg als Erbschaft:</strong>
-        Die selbsterhaltende Zwei glaubt, durch ihre besondere
-        Zugeh\xf6rigkeit und ihre F\xfcrsorge besondere Rechte
-        verdient zu haben. Im Fall Buster wurde dieses Privileg
-        nicht erarbeitet, sondern eingesogen:
-        durch Familie, durch Ort, durch Generationen.</p>
-        <p class="vb-intro"><strong>b) Der Dreierfl\xfcgel \u2013 Rolle statt Identit\xe4t:</strong>
-        Der Dreierfl\xfcgel gibt der Zwei eine B\xfchne.
-        Bei Buster ist diese B\xfchne begrenzt \u2013
-        er spielt keine glamour\xf6se Rolle wie Delvey,
-        sondern eine ged\u00e4mpfte: der \xfcberlebende Sohn,
-        der trotz allem weitermacht. Auch das ist Inszenierung.</p>
-        <p class="vb-intro"><strong>c) Vergleich mit Anna Delvey:</strong>
-        Delvey baute das Zweier-Privileg selbst \u2013
-        aus dem Nichts, mit Charme und Kalk\u00fcl.
-        Buster erbte es. Beide sind SE2w3,
-        aber die Quelle des Privilegs ist verschieden.
-        Was sie verbindet: das Gef\xfchl, dass die Regeln
-        f\xfcr jemanden wie sie nicht in gleicher Weise gelten.</p>
-        <p class="vb-intro"><strong>d) Der Entspannungspunkt Vier \u2013 das Ungelebte:</strong>
-        Der Entspannungspunkt der Zwei ist die Vier:
-        echte Selbstreflexion, Zugang zur eigenen Schuld,
-        zur eigenen Trauer \xfcber das, was war.
-        Ob Buster diesen Weg je gegangen ist,
-        ist nicht bekannt \u2013 nach au\xdfen zeigt er
-        kaum Anzeichen davon.</p>
-        <p class="vb-intro"><strong>e) Das System als T\xe4ter:</strong>
-        Ein wichtiger Blickwinkel: Die Murdaugh-Aff\u00e4re zeigt,
-        wie regionale Machtmonopole Schutz f\xfcr Einzelne
-        und Ohnmacht f\xfcr andere erzeugen.
-        Buster ist Kind dieses Systems \u2013
-        aber das System hat Opfer hinterlassen:
-        Paul und Maggie Murdaugh, m\xf6glicherweise Stephen Smith.
-        Das Zweier-Privileg ist nie ohne Kosten f\xfcr andere.</p>
-        <p class="vb-intro"><strong>f) Offene Fragen als bleibendes Merkmal:</strong>
-        Der Fall Buster Murdaugh ist nicht abgeschlossen.
-        Die Ermittlungen zu Stephen Smith laufen noch.
-        Das gibt diesem Portr\u00e4t eine andere Qualit\xe4t
-        als anderen: Es ist kein abgerundetes Bild \u2013
-        es ist eine laufende Frage.
-        Das Enneagramm zeigt den Typ, aber nicht die Antwort.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "SE2 \u2013 das Zweier-Privileg im Vergleich der drei Subtypen.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2: Stolz, F\xfcrsorge und der Heilungsweg.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Buster Murdaugh wurde bislang nicht angeklagt. Das Portrait analysiert psychologische Muster im Kontext der Murdaugh-Familienaff\u00e4re. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
-        {route:"kriminalpsychologie-jonathan-meijer", label:"Kriminalpsychologie: Jonathan Meijer"},
       ])}
     </div>
   `);
