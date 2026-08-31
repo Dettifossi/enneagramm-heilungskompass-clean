@@ -35529,6 +35529,7 @@ function nikolaTeslaPortraitPage() {
         <h2 class="vb-section">6. The beaver whose last construction was a single dove</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Tesla gave the world is literally the backbone of modern civilization. Whether he received the recognition his work deserved is an open question. That he changed the world forever is not.</p>
+          <p class="vb-intro">It is worth noting whom posterity chose as his best-known namesake: the electric car company Tesla Motors, founded in 2003, deliberately carries his name in his honor &ndash; and its present-day public face, <a href="#beruehmte-elon-musk">Elon Musk (SO7w6)</a>, happens to share, probably without meaning it in Enneagram terms, the exact same subtype and wing. Both are driven by the same restless, never-quite-finished building drive in service of a utopian vision, both combine inventive genius with a watchful, controlling note &ndash; except that where Tesla withdrew, Musk seeks the open stage and public dispute. Two beavers, one name, two very different ways of building the same dam.</p>
           <p class="vb-intro">And yet, at the end of this life, one image remains that could hardly stand more vividly for the Social Seven with a Six-wing: a man who wanted to give all of humanity unlimited energy &ndash; and whose own heart, in the end, belonged only to a single white dove, the last and smallest of all his unfinished constructions.</p>
         </blockquote>
 
