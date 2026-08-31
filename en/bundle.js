@@ -101935,6 +101935,48 @@ function _stilleInit() {
   });
 }
 
+const SUBTYPE_SONGS = {
+  SE1: { de: "XHB8xTxJtHY", en: "NWj3sLpqm1s" },
+  SO1: { de: "eOJAkd-QohU", en: "DkkZS4FkZbA" },
+  SX1: { de: "s1AQHS_gOHg", en: "NWj3sLpqm1s" },
+  SE2: { de: "Gxgr9xOtKaQ", en: "OT19G0XQsak" },
+  SO2: { de: "tLMBN_8wH9g", en: "SaMqeT32TmQ" },
+  SX2: { de: "JCoUFccskX0", en: "aTFl_G-AE3E" },
+  SE3: { de: "CADA-IqRQWY", en: "fY4bvwCPQoQ" },
+  SO3: { de: "Rxprww_GTsc", en: "hFPun_FKul8" },
+  SX3: { de: "-ByqceZszZw", en: "vuRc8ToDW6A" },
+  SE4: { de: "Q14Rd2iCgzk", en: "E6xQTADTtAo" },
+  SO4: { de: "r1ni5PfATM8", en: "dubv-FXZwDo" },
+  SX4: { de: "qWQCEAN5TJA", en: "DYC5o5-XQYE" },
+  SE5: { de: "200kCwdgywU", en: "hWvUu9t7t88" },
+  SO5: { de: "3xyba3n5Iro", en: "4GOof3XqAkg" },
+  SX5: { de: "bzOuErO0WF0", en: "VzDs1icqvac" },
+  SE6: { de: "_bnbjIyn3qY", en: "KICVKWtfIKk" },
+  SO6: { de: "KSeQ5r73C7Q", en: "82Qd_SdH1RI" },
+  SX6: { de: "XEAzDNSmVjg", en: "IHDIM7tK4Fs" },
+  SE7: { de: "e67bCJpPGo4", en: "_SOvWRQxacw" },
+  SO7: { de: "mxSaAfvaBKE", en: "-a261mIny40" },
+  SX7: { de: "ubtVaur_QKc", en: "KhvQsODuii8" },
+  SE8: { de: "w-l6Otm34QU", en: "PTwXfWpA5sk" },
+  SO8: { de: "dR6VaEnpWgE", en: "WnZzoQt45FU" },
+  SX8: { de: "THA4awgtiTE", en: "5wCzlEA2cik" },
+  SE9: { de: "X7Vw6jtKNMY", en: "XWwqegFjgXM" },
+  SO9: { de: "_xYqRYaUsEk", en: "0BW4MaBwT_E" },
+  SX9: { de: "Q9p8_1iQhm0", en: "cJN3-HEA-_A" },
+};
+
+const SUBTYP_SONG_TYPEN = [
+  { nr: 1, name: "The Perfectionist" },
+  { nr: 2, name: "The Helper" },
+  { nr: 3, name: "The Performer" },
+  { nr: 4, name: "The Individualist" },
+  { nr: 5, name: "The Observer" },
+  { nr: 6, name: "The Loyalist" },
+  { nr: 7, name: "The Enthusiast" },
+  { nr: 8, name: "The Protector" },
+  { nr: 9, name: "The Peacemaker" },
+];
+
 function musikPage() {
   const TYPEN = [
     { nr: 1, name: "The Perfectionist",  vid: "mumR1QESNzQ" },
@@ -102002,6 +102044,54 @@ function musikPage() {
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.1rem;">
         ${kacheln}
       </div>
+
+      <div style="margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--line);max-width:720px;">
+        <p class="eyebrow">Deepening · 27 Subtypes</p>
+        <h2 class="h1--tip" style="margin-bottom:0.3rem;font-size:1.5rem;">The 27 Subtype Songs</h2>
+        <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 1.1rem;">
+          Using music as a gateway to the principles of the Enneagram is not a new idea, but an old tradition. G. I. Gurdjieff already taught his so-called "Sacred Dances" (Movements) — choreographed sequences set to specially composed music, meant to open an access to inner principles that the intellect alone cannot reach. Claudio Naranjo, my own teacher, repeatedly built a bridge in his seminars from classical composers to the nine types and their subtypes — sitting down at the piano himself to show how, for example, the work of Beethoven (sexual Six) or Chopin (sexual Five) expresses the respective Enneagram character directly in the music itself, not only in the composer's biography.
+        </p>
+        <p style="font-size:0.97rem;line-height:1.75;color:var(--ink);margin:0 0 2rem;">
+          I continue this tradition with the 27 subtype songs: for each of the 27 subtypes — not only the nine main types — there is a specially composed song, in English and German, in which both melody and lyrics are deliberately attuned to that subtype's theme. Those who take the time to listen often find an access that understanding alone cannot open — music as a companion for deepening, not merely an illustration.
+        </p>
+        ${SUBTYP_SONG_TYPEN.map(t => `
+          <div style="margin-bottom:2.2rem;">
+            <h3 style="margin:0 0 0.8rem;font-size:1.05rem;color:${typeColor(t.nr)};">Type ${t.nr} · ${t.name}</h3>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0.9rem;">
+              ${["SE","SO","SX"].map(inst => {
+                const code = `${inst}${t.nr}`;
+                const song = SUBTYPE_SONGS[code];
+                if (!song) return "";
+                return ["en","de"].map(lang => `
+                  <div class="musik-card" data-vid="${song[lang]}" style="background:var(--paper);border-radius:12px;overflow:hidden;cursor:pointer;box-shadow:0 1px 5px rgba(0,0,0,0.07);">
+                    <div class="musik-thumb" style="position:relative;background:#111;aspect-ratio:16/9;">
+                      <img src="https://img.youtube.com/vi/${song[lang]}/mqdefault.jpg"
+                           alt="${code} Song ${lang === 'en' ? 'English' : 'German'}"
+                           style="width:100%;height:100%;object-fit:cover;display:block;opacity:0.85;" loading="lazy"/>
+                      <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+                        <div style="width:38px;height:38px;border-radius:50%;background:rgba(165,96,61,0.88);display:flex;align-items:center;justify-content:center;">
+                          <span style="color:#fff;font-size:1.05rem;margin-left:3px;">▶</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="padding:0.55rem 0.7rem 0.65rem;">
+                      <p style="margin:0;font-size:0.85rem;font-weight:600;">${code} · ${lang === 'en' ? 'EN' : 'DE'}</p>
+                    </div>
+                    <div class="musik-player" style="display:none;">
+                      <div style="position:relative;aspect-ratio:16/9;background:#000;">
+                        <iframe width="100%" height="100%" style="border:none;display:block;"
+                          src="https://www.youtube.com/embed/${song[lang]}?autoplay=1&rel=0"
+                          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                `).join("");
+              }).join("")}
+            </div>
+          </div>
+        `).join("")}
+      </div>
+
       ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual steps for the art of everyday living — the ideal companion to the relaxation and healing music.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
       ${bookTip("nichts-und-alles", "A quiet book on looking inward — consciousness, space and inner freedom.", "Nichts und Alles")}
       ${bookTip("der-raum-hinter-allem", "Beyond all patterns: the silent space that remains when identification loosens — a meditative work on consciousness and freedom.", "Der Raum hinter allem")}

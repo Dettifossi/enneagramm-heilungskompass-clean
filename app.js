@@ -138921,7 +138921,7 @@ function musikPage() {
         </p>
         ${SUBTYP_SONG_TYPEN.map(t => `
           <div style="margin-bottom:2.2rem;">
-            <h3 style="margin:0 0 0.8rem;font-size:1.05rem;color:var(--copper);">Typ ${t.nr} \u00b7 ${t.name}</h3>
+            <h3 style="margin:0 0 0.8rem;font-size:1.05rem;color:${typeColor(t.nr)};">Typ ${t.nr} \u00b7 ${t.name}</h3>
             <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:0.9rem;">
               ${["SE","SO","SX"].map(inst => {
                 const code = `${inst}${t.nr}`;
