@@ -341,6 +341,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-martin-luther", name:"Martin Luther", subtyp:"SX1w2", heading:"Martin Luther – Sexual Type 1", krankheit:"Heart and circulatory ailments and recurring severe depression (Anfechtungen)", teaser:"SX1w2 – Reformer, 1483–1546. The decade 1535–1545 marked by worsening heart and circulatory problems, kidney stones, and dizzy spells, intertwined with severe depressive episodes. Died February 18, 1546 in Eisleben, likely from heart failure or stroke." , land:"Germany", gender:"m", jahre:"1483–1546"},
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexual Type 6", krankheit:"Progressive Deafness and Liver Cirrhosis", teaser:"SX6w5 – composer, 1770–1827. Progressing hearing loss from around 1798, alongside chronic abdominal ailments and suspected lead poisoning. Jaundice from 1821, four painful abdominal punctures against fluid buildup from December 1826. Died in 1827 from liver cirrhosis – the autopsy found a severely scarred liver and damaged kidneys." , land:"Germany", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
+  { route:"krankheitsportraets-hans-christian-andersen", name:"Hans Christian Andersen", subtyp:"SO4w3", heading:"Hans Christian Andersen – Social Type 4", krankheit:"Lifelong hypochondria, neglected dental problems, suspected liver cancer", teaser:"SO4w3 – writer, fairy-tale author, 1805–1875. Meticulously documented worry about minor complaints alongside decades of silently endured toothaches. Progressive decline after a fall in 1872, cared for by the friendly Melchior family. Died in 1875 of a suspected cancer of the liver, with a state funeral attended by the Danish royal family." , land:"Denmark", gender:"m", jahre:"1805–1875"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
@@ -443,6 +444,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fritz Wepper – Self-Preservation Type 1",
     teaser:"SE1w9 · 1941–2024. German actor, 24 years as Harry Klein at the side of Horst Tappert in \"Derrick,\" followed by nearly 20 years as Mayor Wöller in \"Um Himmels Willen.\" Over 45 years of reliable, unassuming presence in German television, never claiming the lead role. Animal correspondence: Eagle.",
     land:"Germany", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
+    heading:"Reinhold Würth – Self-Preservation Type 1",
+    teaser:"SE1w9 · b. 1935. Entrepreneur, took over his deceased father's small screw wholesale business at 19 in 1954 and built it into the Würth Group, one of Europe's largest trading conglomerates. Patron of one of Europe's largest private art collections. Animal correspondence: Bald Eagle.",
+    land:"Germany", tags:["Business"], gender:"m"},
 { route:"beruehmte-astrid-lindgren", name:"Astrid Lindgren", added:"2026-08-14", subtyp:"SE1w9",
     heading:"Astrid Lindgren – Self-Preservation Type 1",
     teaser:"SP1w9 · 1907–2002. Swedish author, Pippi Longstocking, Karlsson on the Roof, The Brothers Lionheart. Discipline as daily ritual, a quiet late-life fight for animal welfare (the 'Lex Lindgren'). Animal correspondence: Eagle.",
@@ -983,6 +988,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eva Mendes – Sexual Six",
     teaser:"SX6w7 · b. 1974. Actress and entrepreneur. From an anxious child of a Cuban immigrant family to an internationally celebrated sex symbol (Calvin Klein campaigns) and versatile entrepreneur with her own fashion, skincare, and home décor lines. Deliberately stepped back from the spotlight to protect family and privacy with husband Ryan Gosling. Animal correspondence: Wolf.",
     land:"USA", tags:["Schauspiel","Business"], gender:"f"},
+{ route:"beruehmte-heather-thomas", name:"Heather Thomas", added:"2026-08-30", subtyp:"SX6w7",
+    heading:"Heather Thomas – Sexual Type 6",
+    teaser:"SX6w7 · b. 1957. Actress and screenwriter, became a nationwide pin-up idol as Jody Banks in \"The Fall Guy.\" Later a screenwriter and one of the first prominent political bloggers at the Huffington Post. Openly discussed a long-hidden eating disorder and health consequences of cosmetic surgery. Animal correspondence: Wolf.",
+    land:"USA", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-andre-agassi", name:"Andre Agassi", added:"2026-08-30", subtyp:"SE3w2",
     heading:"Andre Agassi – Self-Preservation Type 3",
     teaser:"SE3w2 · b. 1970. American tennis player, 8-time Grand Slam champion. Drilled into tennis by his father, he became the rebel face of the \"Image is Everything\" campaign, which he later exposed as a lie in his autobiography \"Open.\" After a slump outside the top 100 and a concealed crystal meth episode, he fought his way back to No. 1. Founder of the Andre Agassi Foundation for Education. Married to Steffi Graf (SO9w1) since 2001. Animal correspondence: Raccoon.",
@@ -1355,6 +1364,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Xu Bing – Self-Preservation Type 5",
     teaser:"SP5w4 · born 1955. Conceptual artist, calligrapher. Four years for four thousand invented characters: 'Book from the Sky'. The owl that turned language itself into a castle.",
     land:"China", tags:["Kunst"] , gender:"m"},
+{ route:"beruehmte-blaise-pascal", name:"Blaise Pascal", added:"2026-08-30", subtyp:"SX5w6",
+    heading:"Blaise Pascal – Sexual Type 5",
+    teaser:"SX5w6 · 1623–1662. Mathematician, physicist, philosopher. Built a mechanical calculator at 19, had a mystical experience in the 1654 \"Night of Fire,\" and formulated one of intellectual history's best-known philosophical arguments with Pascal's Wager.",
+    land:"France", tags:["Wissenschaft","Philosophie"], gender:"m"},
 { route:"beruehmte-franz-kafka", name:"Franz Kafka", added:"2026-08-15", subtyp:"SE5w4",
     heading:"Franz Kafka – Self-Preservation Type 5",
     teaser:"SP5w4 · 1883–1924. Writer. The Trial, The Castle, The Metamorphosis. The owl that wrote its nightmares at night and wanted its work burned. Animal correspondence: Owl.",
@@ -1491,6 +1504,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fr\xe9d\xe9ric Chopin – Sexual Type 5",
     teaser:"SX5w4 \xb7 1810–1849. Composer, pianist. Nocturnes, \xc9tudens, mazurkas, ballads. The hedgehog who almost never performed - and whose music can still be heard in every concert hall two hundred years later.",
     land:"Russia", tags:["Music","Geschichte"], gender:"m"},
+{ route:"beruehmte-jean-jacques-rousseau", name:"Jean-Jacques Rousseau", added:"2026-08-30", subtyp:"SX5w4",
+    heading:"Jean-Jacques Rousseau – Sexual Type 5",
+    teaser:"SX5w4 · 1712–1778. Philosopher, writer. \"The Social Contract,\" \"Confessions\" – the most radical literary self-exposure of the Enlightenment. The hedgehog that opened fully, once, while giving away his own five children to a foundling home.",
+    land:"Switzerland/France", tags:["Philosophie","Literatur"], gender:"m"},
 { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
     heading:"Fjodor Dostojewski – Self-Preservation Type 6",
     teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
@@ -2051,6 +2068,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sophie Marceau – Sexual Type 9",
     teaser:"SX9w1 · born 1966. Actress and director, La Boum, Braveheart, James Bond. Seventeen years merged with Andrzej Zulawski, then a clear ultimatum. The sloth that holds its own branch. Animal correspondence: Sloth.",
     land:"France", tags:["Film","Film/Theater"], gender:"f"},
+{ route:"beruehmte-kris-marshall", name:"Kris Marshall", added:"2026-08-23", subtyp:"SX9w1",
+    heading:"Kris Marshall – Sexual Type 9",
+    teaser:"SX9w1 · born 1973. British actor, DI Humphrey Goodman in Death in Paradise, Nick Harper in My Family for eleven years. Few bonds, held unusually long, ever since an unsettled RAF childhood. Animal correspondence: Sloth.",
+    land:"United Kingdom", tags:["Film/Theater"], gender:"m"},
 { route:"beruehmte-iga-swiatek", name:"Iga Świątek", added:"2026-07-22", subtyp:"SX9w1",
     heading:"Iga Świątek – Sexual Type 9",
     teaser:"SX9w1 · born 2001. Tennis professional. Roland Garros 2020, 2022, 2023, 2024, US Open 2022. The most dominant player of her era - and the sloth who flies in the flow.",
@@ -19364,6 +19385,73 @@ function fredericChopinPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Portrait: Jean-Jacques Rousseau (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanJacquesRousseauPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jean-jacques-rousseau-portrait.jpg" alt="Jean-Jacques Rousseau" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Jacques Rousseau</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, writer, composer, 1712–1778 &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog That Opened Fully to the World in a Single Book</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of sexual Five: shy by nature, quills drawn in against the world &ndash; and yet capable of a radical, almost unbearable openness once it exposes itself to a counterpart, an idea, or, in one unique case in literary history, an entire reading public. Where self-preservation Five entrenches itself and social Five shares its knowledge in a controlled way, sexual Five seeks total, unprotected self-revelation.</p>
+          <p class="vb-intro">Jean-Jacques Rousseau, born 1712 in Geneva as the son of a watchmaker, lost his mother days after birth and grew up in a childhood marked by early loneliness &ndash; abandoned by his father at ten, then passed among relatives and tutors, restlessly wandering his whole life between cities, patrons, and love affairs, never truly settling anywhere. This early experience of being left alone produced not withdrawal but its opposite: an insatiable need to show himself to the entire world, at the end of his life, as unsparingly as no one before him had dared.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Five: Trust as Radical Disclosure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the counter-principle of sexual Five as <em>trust</em> &ndash; the paradoxical capacity of a typically distant type to radically open itself to one counterpart or one cause, while remaining closed to everyone else. For most SX5s, this trust stays confined to a single close relationship. Rousseau extended it into something unprecedented: an entire book, written with the declared aim of exposing himself as completely as "no one has ever dared and no one after me will undertake."</p>
+          <p class="vb-intro">His <em>Confessions</em> (published posthumously in 1782) open with a sentence characteristic of SX5's kinship with Four: "I am not made like any of those I have seen; I dare to believe that I am not made like any of those who exist." The book candidly recounts theft, sexual transgressions, masturbation, exhibitionism, and shame &ndash; a degree of self-exposure that shocked his contemporaries and was published in full only after his death. This is the hedgehog opening fully, once: not in small steps, but in a single, uncompromising gesture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Uniqueness as Program</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four-wing strengthens Five's introspective, emotionally charged side &ndash; unlike the more structured, security-oriented Five with a Six-wing, the Five with a Four-wing seeks not a tested foundation but emotional truth about itself, and the assertion of its own, incomparable individuality.</p>
+          <p class="vb-intro">No Enlightenment thinker placed his own uniqueness so explicitly at the center of his work as Rousseau. While his contemporaries (Voltaire, Diderot, the Encyclopedists) placed reason above feeling, Rousseau reversed this relationship: his own, unmistakable sentiment became the highest source of knowledge. This stance drew him into bitter, often personally wounding feuds with nearly every leading thinker of his time &ndash; with Voltaire, with David Hume, with his once-close friend Diderot. Rousseau increasingly experienced these ruptures as persecution, withdrawing in his final years into growing isolation and suspicion &ndash; a development many biographers interpret as incipient paranoia, but also as the logical culmination of a man defending his radical otherness against an entire intellectual elite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Social Contract and the Child He Did Not Keep</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rousseau's political philosophy &ndash; above all <em>The Social Contract</em> (1762) with its idea of the "general will" &ndash; profoundly shaped the French Revolution and the modern understanding of popular sovereignty. Here too the characteristic Five movement shows itself: withdrawal from immediate social reality into a carefully thought-out, self-contained system of ideas that then reflected back into the world with unprecedented impact.</p>
+          <p class="vb-intro">The darkest contradiction of his life lies in how he treated his own five children with his partner Thérèse Levasseur: he gave all five to a foundling home immediately after birth, never seeing them again &ndash; while at the same time writing <em>Émile, or On Education</em> (1762), one of the most influential works of pedagogy in intellectual history. This gap between publicly proclaimed ideal and privately lived failure is itself part of his <em>Confessions</em> project: he did not conceal it but exposed even this guilt unsparingly &ndash; as if speaking the truth weighed more heavily for him than undoing the act itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of Sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, SX5w4 produced in Rousseau one of the most consequential self-revelations in literary history &ndash; a work that revolutionized autobiography as a literary form by showing that radical emotional honesty can carry weight beyond social convention. His idea that one's own, unfalsified feeling holds a truth of its own became the foundation of Romanticism as a whole.</p>
+          <p class="vb-intro">In the shadow shows the flip side: growing self-isolation, deep suspicion toward once-close friends, a tendency to interpret every criticism as conspiracy. And, most gravely, the willingness to give away his own children while publicly writing about ideal upbringing &ndash; a pattern in which the radical self-focus of sexual Five with a Four-wing becomes mercilessly visible: his own inner truth weighed heavier than concrete responsibility for other human beings.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Lonely Wanderer to Shared Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Five's healing path leads from the question <em>Is what I am even enough to show myself?</em> to the insight <em>My own truth does not shrink when I take responsibility for its consequences.</em> For SX5w4, this means not using radical honesty about oneself as a substitute for lived care, but as its complement &ndash; showing one's own uniqueness without losing the people directly affected by it.</p>
+          <p class="vb-intro">A note without determinism: Rousseau's final years were marked by growing paranoia, physical complaints, and finally a sudden death in 1778, likely from a cerebral hemorrhage &ndash; causes that cannot be traced monocausally to his subtype. What remains notable, however, is how closely his growing fear of persecution was interwoven with his core pattern of radical self-disclosure followed by vulnerability. Rousseau naturally had no conscious knowledge of his own Enneagram pattern; he lived out his passion for unsparing inner truth unchecked, without the language to recognize that the very openness that made his work immortal also increasingly isolated him &ndash; not out of guilt, but out of ignorance of his own pattern.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
       ])}
     </div>
   `);
@@ -24146,7 +24234,7 @@ function reinhardMeyPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
         <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
@@ -31485,6 +31573,73 @@ function fritzWepperPortraitPage() {
         {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2) – Derrick partner"},
         {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
+        {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function reinholdWuerthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-reinhold-wuerth-portrait.jpg" alt="Reinhold Würth" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhold Würth</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, born 1935 &ndash; Animal correspondence: Bald Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle That Built an Empire From a Small Nest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>bald eagle</strong> is the animal of the self-preservation One: over decades it keeps enlarging its nest, piece by piece, until it can weigh tons &ndash; never a spontaneous leap, but persistent, patient growth of what already bears weight. It rarely acts on impulse, defends its territory with the utmost care, and its gaze is fixed on order and control, not on display.</p>
+          <p class="vb-intro">Reinhold Würth, born in 1935 in Öhringen, took over his father's small wholesale screw business &ndash; two employees &ndash; at nineteen in 1954, after his father's sudden death. Over seven decades he built this tiny nest into one of Europe's largest trading groups: the Würth Group, today spanning well over 400 companies in more than 80 countries with more than 85,000 employees. No single spectacular coup, but decades of systematic expansion, one country after another, one sales channel after another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Order as the Foundation of Existence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation One directs its perfectionism not primarily at the big stage but at its own, very concrete foundation: its own existence, its own company, its own family are to be in the best possible order. Its gaze, as the book describes it, is watchful and purposeful &ndash; scanning the immediate surroundings to check whether everything is safe and stable.</p>
+          <p class="vb-intro">This exact principle shapes Würth's entire corporate history. His core business &ndash; screws, dowels, assembly technology &ndash; is literally the industry of precision and of small but indispensable parts, without which nothing holds together. Würth is seen as a champion of classic "Swabian virtues": diligence, thrift, reliability, understatement. He lives comparatively withdrawn for a billionaire, avoids grand media self-promotion, and places the greatest value on the long-term, cross-generational stability of his family business &ndash; in 1987 he had already transferred all shares into a family foundation, to secure exactly this stability beyond his own death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: Persistence Without Loud Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine-wing softens the confrontational edge that a One with a Two-wing tends to show, replacing it with a calmer, more balancing, patiently persistent basic stance. Instead of correcting or preaching loudly, the SP1w9 acts more like a quiet observer who attends to detail and establishes order through steady example rather than confrontation.</p>
+          <p class="vb-intro">Würth's public presence fits this picture exactly: not a loud, polarizing business leader, but a deliberate patriarch, strikingly calm in interviews, whose authority grows out of decades of consistency rather than performance. His well-known smile in photographs reads as relaxed and warm rather than triumphant &ndash; a warmth that can easily be mistaken for a Two-wing but in fact carries the calmer, more conciliatory note of the Nine-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Patron as a Second Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alongside the company, Würth built up one of Europe's largest private art collections over the decades &ndash; today more than 18,500 works &ndash; and built several museums of his own to make this collection publicly accessible, above all the Kunsthalle Würth in Schwäbisch Hall. This, too, expresses the SP1w9's basic stance: not one's own person should shine, but what has been built should endure and benefit others &ndash; order and care, translated into a lasting work rather than fleeting self-display.</p>
+          <p class="vb-intro">His commitment to vocational training &ndash; the Würth Group has trained large numbers of its own apprentices for decades &ndash; follows the same pattern: creating structure that outlasts one's own lifetime, rather than maximizing short-term profit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Würth shows a rare combination of entrepreneurial consistency and quiet frugality &ndash; a billionaire who invested his wealth predominantly in substance, not representation, and who arranged succession early to protect his life's work from decay after his death.</p>
+          <p class="vb-intro">In the shadow lies the flip side typical of the self-preservation One: a high, often unspoken pressure of expectation on one's own surroundings and one's own company, paired with a tendency not to relinquish control even once formal handovers &ndash; such as the early transfer into the family foundation &ndash; have already taken place. The Nine-wing can also mean avoiding necessary conflicts for too long, out of concern for endangering the painstakingly built order.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Controlling to Trusting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the question <em>Is everything really in order, or do I still need to secure more?</em> to the realization <em>What has been solidly built also carries even when I don't personally control every detail.</em> For the SP1w9 this means understanding one's own persistence not as endless safeguarding but as what it already is: a load-bearing foundation that can be trusted even without permanent control.</p>
+          <p class="vb-intro">Würth's own step in this direction was the early transfer of his company into a family foundation &ndash; a gesture that follows exactly this principle: building structure solid enough to endure beyond one's own control. The eagle that built its nest so carefully that it still carries even once it no longer circles above it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9)"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
       ])}
     </div>
   `);
@@ -32011,8 +32166,77 @@ function michaelJacksonPortraitPage() {
           {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
           {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
+          {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function hansChristianAndersenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Writer, fairy-tale author, 1805–1875 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Never Quite Felt It Belonged</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of social Four: it carries its vulnerability visibly on its skin, protected and exposed at once, and moves through the world with the persistent feeling of being armored differently from everyone else. Where self-preservation Four withdraws and sexual Four lives out its intensity in close relationships, social Four seeks the group &ndash; not despite feeling foreign in it, but precisely because of that feeling.</p>
+          <p class="vb-intro">Hans Christian Andersen, born 1805 as the son of a shoemaker and a washerwoman in Odense, was this armadillo from childhood. Poor, called ugly by those around him, with a high voice often mocked, and a sensitivity considered weakness in his impoverished world &ndash; he grew up as someone who never truly belonged anywhere, and precisely because of that, wanted nothing more his whole life than to belong.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: Shame That Seeks Society</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Social Four carries Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. It doesn't withdraw like SE4 and doesn't dramatize like SX4, but compares itself constantly: who belongs, who doesn't, and why am I the one who doesn't quite fit? Naranjo aptly describes this subtype through the element of <em>shame</em> &ndash; a sense of shame that, paradoxically, doesn't lead to withdrawal but to a constant search for validation from exactly the group one feels excluded from.</p>
+          <p class="vb-intro">Andersen's entire life was shaped by this movement. At fourteen, without training or money, he traveled alone to Copenhagen to become an actor, singer, or dancer at the Royal Theatre &ndash; he was rejected at all three attempts, but stayed because benefactors, out of pity and interest in his unusual talent, supported him. This position &ndash; supported, but never quite accepted as an equal; famous, but inwardly always the shoemaker's son among nobility &ndash; remained his basic tension for life. He became the most-traveled poet of his time, mingling with kings and princes across half of Europe &ndash; while feeling almost continuously unsure whether he truly belonged.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Stage as Validation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three-wing transforms Four's introspective sadness into an active striving for visibility. Where a Four with a stronger Five-wing tends to withdraw and process its otherness in quiet observation, the Four with a Three-wing seeks the stage, the performance, the direct feedback of an audience &ndash; as proof that its own uniqueness is actually worth something.</p>
+          <p class="vb-intro">Hardly any trait in Andersen's biography shows this more clearly than his famous habit of publicly reading his own fairy tales &ndash; in salons, before royal courts, on travels across Europe, again and again, with visible pleasure in the audience's immediate reaction. He deliberately cultivated correspondence with celebrities of his era, from Charles Dickens to European royal houses, and meticulously documented every honor, every medal, every invitation he received. This is not mere self-purpose &ndash; it is the Three-wing at work: translating one's own, deeply vulnerable otherness into publicly visible success, so that it is no longer a flaw but a distinction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Ugly Duckling as Self-Portrait</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">No text of Andersen's lays bare his own subtype dynamics as openly as <em>The Ugly Duckling</em> (1843): a creature considered ugly, out of place, and unworthy in its own environment &ndash; only to turn out, in the end, to be a swan admired by exactly the society that had once rejected it. This narrative structure is social Four in its purest form: not withdrawal from the group, but the longed-for moment when the group finally recognizes one's own distinctiveness.</p>
+          <p class="vb-intro">His private life carried the same signature. Andersen repeatedly fell unhappily in love &ndash; with the singer Jenny Lind, with several men in his circle &ndash; without these affections ever being returned. He remained unmarried and childless throughout his life, an outsider in love as well, whose deepest longing for belonging was never fulfilled in a lasting, equal bond &ndash; only, again and again, in the applause of an audience he could never quite make into his own family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, SO4w3 transforms its wound into something that touches an entire society: Andersen's fairy tales speak as directly to children as to adults, because they stem from genuine, never-denied experience of exclusion and longing, not invented sentiment. His ability to translate his own otherness into universal stories made him one of the most translated authors in world literature.</p>
+          <p class="vb-intro">In the shadow shows the flip side: an almost insatiable need for validation that contemporaries described as vain and oversensitive to criticism. Andersen reacted to negative reviews with deep, often days-long distress, collected praise like a shield, and could experience even well-meaning friendships as rejection when they failed to meet his expectations of closeness. This is social Four under pressure: the search for belonging tips into a dependence on outside validation that can never be quite enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Ugly Duckling to Own Swan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Four's healing path leads from the question <em>Will I finally belong once others see who I truly am?</em> to the insight <em>I already belong, regardless of whether the group confirms it in this moment.</em> For SO4w3, this means no longer having to prove one's own uniqueness before an audience, but understanding it as a self-evident part of belonging to the human community &ndash; the duckling doesn't first have to become a swan to have always belonged.</p>
+          <p class="vb-intro">A note without determinism: Andersen's health suffered throughout his life from psychosomatic complaints &ndash; dental problems, digestive disorders, pronounced hypochondria &ndash; that cannot be traced monocausally to his subtype. What remains notable is how closely his constant worry about illness and rejection was interwoven with his core pattern. Andersen naturally had no conscious knowledge of his own Enneagram pattern; he lived out his longing for belonging unchecked and without the language to recognize it as a recurring pattern, instead suffering it again and again as individual fate &ndash; not out of guilt, but out of ignorance of his own pattern.</p>
+        </blockquote>
+
+        <p class="vb-intro">Andersen's lifelong hypochondria, his neglected dental problems, and the suspected liver cancer that killed him in 1875 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-hans-christian-andersen">Illness Portrait of Andersen</a>.</p>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+      ])}
     </div>
   `);
 }
@@ -33258,6 +33482,70 @@ function xuBingPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
         {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function blaisePascalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-blaise-pascal-portrait.jpg" alt="Blaise Pascal" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Blaise Pascal</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Mathematician, physicist, philosopher, 1623&ndash;1662 &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog That Opened Completely, Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of sexual Five: shy, reserved, quills drawn in against the world &ndash; yet capable of an intensity that surpasses all other Five subtypes once it truly opens to a single being or a single idea. Unlike self-preservation Five, who entrenches in a retreat, or social Five, who makes their knowledge available to the public, the hedgehog seeks radical, almost unbearable closeness to the one it trusts.</p>
+          <p class="vb-intro">Blaise Pascal, born 1623 in Clermont-Ferrand, was exactly this hedgehog: a sickly, highly gifted child who withdrew early from ordinary contact with peers, because his father forbade him any physical exertion &ndash; and who instead directed all his energy into a single, all-consuming concentration. At eleven he wrote his own treatise on sound waves, at sixteen an essay on conic sections that astonished even Descartes. What looked like genius from the outside was, up close, a boy who buried himself so deeply in a single subject that the rest of the world faded.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Five: Trust Instead of Avoidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Where self-preservation Five hoards scarce resources and social Five puts their knowledge on display, sexual Five reverses the typical Five movement: instead of protecting themselves from the world, they seek the one counterpart to whom they can fully expose themselves. Naranjo calls this counter-principle <em>trust</em> &ndash; the paradoxical capacity of an otherwise distant type to radically expose themselves in a single relationship or idea, while remaining closed off to everyone else.</p>
+          <p class="vb-intro">In Pascal this showed itself twice: once scientifically, in his almost obsessive devotion to individual problems &ndash; fluid pressure, probability theory, the world's first mechanical calculator, which he built at nineteen to ease his father's laborious tax calculations. And once religiously, in the famous "Night of Fire" of November 23, 1654: a sudden, overwhelming mystical experience he recorded on a slip of paper that he sewed into his coat for the rest of his life &ndash; found only after his death. "Fire. God of Abraham, God of Isaac, God of Jacob, not of the philosophers and scholars. Certainty, certainty, feeling, joy, peace." No cool argument, but the total, uncompromising surrender of the hedgehog who opens fully, once &ndash; and is never the same afterward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: The Search for a Load-Bearing Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six-wing brings Five an element the pure Five alone would not have: the need for a reliable, tested foundation against which every thought can be secured. Where a Five with a stronger Four-wing stays introspective-melancholic, the Five with a Six-wing seeks systematic order, vigilance toward its own doubt, the structured framework in which insight can be secured before it is spoken.</p>
+          <p class="vb-intro">This exact signature runs through Pascal's most famous wager: <em>Pascal's Wager</em>. It is not a religious confession but a cool, almost accountant's risk calculation &ndash; one should believe in God because the possible gain (eternal bliss) far outweighs the possible loss (a finite life of humility), even if God's existence remains uncertain. This is the Six-wing at work: even the deepest existential question is translated into a security calculus in which doubt is not repressed but structurally priced in. His posthumously published <em>Pensées</em> read the same way &ndash; a collection of individual, self-secured fragments of thought that don't overcome doubt but give it structure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Thinking Reed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any sentence captures the Five's position as precisely as Pascal's most famous image: "Man is but a reed, the most feeble thing in nature, but he is a thinking reed." The human is physically insignificant, subject to Five-typical experiences of vulnerability and limited energy &ndash; and yet, precisely through thought, superior to the entire universe that could crush him. That is Five's core compensation: offsetting the body's exhaustibility with the mind's inexhaustibility.</p>
+          <p class="vb-intro">Pascal's health was fragile throughout his life &ndash; chronic headaches, digestive problems, likely a combination of tuberculosis and a neurological illness that increasingly weakened him. He died in 1662 at only 39, having lived increasingly ascetically in his final years: he gave up spices in his food, wore a belt with spikes around his hips that he would tighten further in moments of vanity. This is the shadow side of the hedgehog with a Six-wing under chronic stress &ndash; the search for security tips into self-imposed severity, Five's retreat tendency becomes physical self-mortification.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of Sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, SX5w6 is capable of an intensity of devotion that other Five subtypes lack &ndash; a concentration that doesn't stop at pure observation, but surrenders fully to an object, an idea, or a belief without losing intellectual sharpness. Pascal's work lives from exactly this combination: mathematical precision paired with a religious experience he did not relativize but pursued with the same rigor as his earlier physics experiments.</p>
+          <p class="vb-intro">In the shadow shows the flip side: the narrowness with which the hedgehog clings to the one foundation once the Six-wing takes over. Pascal's growing withdrawal from the scientific world after his religious experience, his break with former companions, his increasing severity toward himself &ndash; all are signs of a Five who no longer seeks security in open thought, but in the ever-narrower defense of a once-found foundation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Reed to Bearing Root</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Five's healing path leads from the question <em>Have I understood enough to be safe?</em> to the insight <em>Understanding does not arise through retreat, but through devotion to what I cannot fully control.</em> For SX5w6, this means not turning the one foundation found into a fortress against every further doubt, but taking it for what it once was for the young Pascal: a starting point for open thought, not its endpoint.</p>
+          <p class="vb-intro">A note without determinism: as with Pascal, no one becomes chronically ill purely because of their Enneagram subtype &ndash; his ailments had their own, independent physical causes. What remains notable is how consistently his approach to illness and mortality fit his pattern of thought: instead of repressing his own frailty, he made it &ndash; utterly Five, utterly hedgehog &ndash; the starting point for one of the best-known philosophical formulas in intellectual history. Pascal naturally had no conscious knowledge of his own Enneagram pattern; he lived out his passion for security through tested knowledge unchecked, until it was literally carved into his body &ndash; not out of guilt, but because he lacked the language to recognize his own pattern as a pattern, rather than accepting it as fate.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
       ])}
     </div>
   `);
@@ -39086,6 +39374,72 @@ function sophieMarceauPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function krisMarshallPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kris Marshall</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1973 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of sexual Nine &ndash; an animal that, wherever it is placed, connects fully with that one branch instead of constantly searching for a better one. It doesn't adapt to its surroundings to stand out &ndash; it merges with them, until there is barely any difference between it and the tree.</p>
+          <p class="vb-intro">British actor Kris Marshall, born April 1, 1973, in Bath, Somerset, had to summon this capacity for total connection again and again, even as a child. His father Glyn Marshall was a navigator with the Royal Air Force, rose to Squadron Leader, and served with the Queen's Flight &ndash; a career that moved the family through changing postings, including Hong Kong and Canada. Until he was ten, Kris spoke with a Canadian accent. When he was twelve, his parents divorced; he then attended Wells Cathedral School as a boarder &ndash; another new place, another new, this time very strictly ordered environment he had to fit into.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Nine: Few Bonds, Held Very Long</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Sexual Nine (SX9)</strong> is, according to Naranjo, the subtype of <em>union</em>: the longing not to participate superficially, but to be fully absorbed in a single bond, a single work. For a child who repeatedly had to get to know new countries, new schools, new caregivers, such a longing for the one reliable anchor point is not an abstract type theory, but a very understandable reaction to an unsettled childhood.</p>
+          <p class="vb-intro">This exact pattern runs through Kris Marshall's entire career: from 2000 to 2011 he played the same character, Nick Harper, in the BBC sitcom <em>My Family</em> for eleven years. At the same time, for over a decade he was the face of the same British advertising campaign, as the trainee "Kevin" for BT/EE. <em>Death in Paradise</em>, too, in which he played detective DI Humphrey Goodman from 2014 to 2017, he stuck with for four seasons before &ndash; by his own, publicly stated account &ndash; leaving the series for family reasons. Where other actors deliberately move between many roles to show their range, Marshall chooses few bonds &ndash; and holds them unusually long.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Quiet Order After Things Fall Apart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a weaker One-wing would likely have lived through childhood's many ruptures &ndash; changing countries, parents' divorce, boarding school &ndash; with pure willingness to adapt: simply drifting along, without inner anchoring. In Marshall, something else emerged early instead, something that still runs through his public presence today: a quiet, unshowy discipline, a need for a clear order of his own, precisely because external circumstances changed so often. The strictly regulated boarding-school life after the divorce did not fall on barren ground with him, but on a personality that needed exactly this structure to hold itself together.</p>
+          <p class="vb-intro">The same trait shows in his public presence: Kris Marshall is considered noticeably reserved within British show business &ndash; barely any home stories, barely any gossip-column presence, barely the usual interview carousel around major roles. This is not avoidance out of fear, but a self-set standard: revealing no more of himself than necessary. And when a limit is reached &ndash; as at the point where filming in the Caribbean collided with his own family &ndash; it is not negotiated at length but drawn clearly, and the consequence carried out calmly. That is the One-wing: no loud principle, but a quiet, unshakeable inner line.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role as Echo: Humphrey Goodman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As is often the case with actors who play a role that suits them particularly well, a resonance with his own underlying stance can be recognized in Kris Marshall's best-known character, DI Humphrey Goodman in <em>Death in Paradise</em> &ndash; not as identity, but as echo. Goodman appears outwardly chaotic, stumbling through the Caribbean heat in a full suit, constantly losing objects. Yet in substance he remains incorruptibly precise: he solves every case to the end, refuses to settle for a convenient, half-finished solution, and insists on justice for suspects and victims alike.</p>
+          <p class="vb-intro">This combination &ndash; outward disorder alongside unshakeable inner thoroughness &ndash; is the role as evidence, not as a substitute for the person: it shows the same pattern that appears more clearly in Marshall's actual career than in any single character &ndash; the ability to behave unobtrusively on the outside while a very precise, very consistent standard governs within.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of SX9w1 is its <strong>ability to build a reliable inner order out of repeated external instability</strong> &ndash; and to sustain that order over decades without it hardening into rigidity. Marshall's eleven years on <em>My Family</em>, his decade as "Kevin," his four seasons as Humphrey Goodman all show the same constant: reliability that rests not on compulsion, but on a self-chosen inner standard.</p>
+          <p class="vb-intro">The shadow shows in the flip side of this early-learned self-discipline: someone who learned as a child to protect themselves through inner order in every new environment may find it hard to relinquish control or engage with real chaos. The reserve that reads as strength in show business can, in private, also mean that closeness is only permitted once it doesn't threaten one's own order.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth That Chooses Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kris Marshall left <em>Death in Paradise</em> in 2017, by his own account, to spend more time with his family &ndash; repeating, as an adult, the same movement that had shaped him as a child: seeking stability where it counts most, rather than being carried away by outward success. Where his own father was often absent due to RAF postings, Marshall consciously chose against the same pattern.</p>
+          <p class="vb-intro">The sloth doesn't hang because it can't move &ndash; it hangs because, once arrived, it commits fully to its surroundings. Kris Marshall's life reads like this image in human form: a child who had to learn to re-root itself again and again, and an adult who turned that experience into a quiet, very steady order &ndash; few bonds, but ones that hold.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+          {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
+          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
         ])}
       </div>
     </div>
@@ -44964,6 +45318,72 @@ function evaMendesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3) – husband"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function heatherThomasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-heather-thomas-portrait.jpg" alt="Heather Thomas" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heather Thomas</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actress, screenwriter, b. 1957 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf That Became an Idol Before Finding Its Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six: watchful, wary, yet capable of turning that vigilance into a bold, courageous presence that radiates both strength and beauty at once. Heather Thomas embodied exactly this image when, in the early 1980s, she became a nationwide pin-up idol as Jody Banks in the action series "The Fall Guy," alongside Lee Majors &ndash; an image of strength and beauty that adorned millions of posters, while behind it stood a far more insecure, watchful person.</p>
+          <p class="vb-intro">Heather Thomas, born in 1957 in Greenwich, Connecticut, came from a family with unsettled circumstances and moved frequently in her youth &ndash; an early experience of instability that gave the Six's underlying watchfulness a real biographical foundation, long before Hollywood turned it into an image of supposedly flawless ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength and Beauty as an Answer to Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the Sexual Six through the pairing <em>Strength and Beauty</em> &ndash; a way of meeting the underlying fear not through caution (as the Self-Preservation Six does) or through group belonging (as the Social Six does), but through a bold, often distinctly attractive presence that turns insecurity into allure. Thomas's career began exactly here: as a physically flawless pin-up whose imagery fused strength and beauty inseparably, long before the person behind it spoke up publicly.</p>
+          <p class="vb-intro">What stands out is how openly Thomas later spoke about the flip side of this role: an eating disorder concealed for years during the filming of "The Fall Guy," triggered by the enormous pressure to maintain a flawless body image. This is the vulnerable inner side of SX6 fear behind the demonstrated outer strength &ndash; the Six who tries to gain safety through her beauty, while the actual insecurity stays hidden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: From Pin-up to Pointed Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven-wing gives the Six mobility, versatility, and a wish not to be pinned to a single role. That is exactly what shows in Thomas's later career: after "The Fall Guy" ended, she turned successfully to writing, penned screenplays for film and television, and became one of the first prominent political bloggers at the Huffington Post &ndash; a clear, energetic reinvention that would be foreign to the pure Six pattern alone.</p>
+          <p class="vb-intro">As a political commentator, Thomas developed a sharp, often confrontational voice that spoke bluntly against authority and political missteps &ndash; a watchful questioning of power that, with the Seven-wing, turned into pointed, articulate commentary instead of remaining stuck in quiet worry.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Life Between Facade and Disclosure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thomas has been married since 1990 to the influential entertainment lawyer Skip Brittenham &ndash; a decades-long, publicly low-key relationship that stands in clear contrast to her former image as an untouchable sex symbol. This reliability within her closest circle fits the need for security that every Six subtype shares at its core, even though the SX6 lives it out differently than the Self-Preservation or Social Six.</p>
+          <p class="vb-intro">Especially notable is Thomas's later openness about the health consequences of the cosmetic procedures she underwent in the 1990s to meet the pressures of showbusiness &ndash; a public admission many of her generation's celebrities avoided. This kind of disclosure is typical of the SX6: the initial facade of flawless strength is eventually questioned and named openly, rather than upheld forever.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Thomas shows the ability to develop an independent, critical voice out of a role that was initially defined purely by appearance &ndash; the path from pin-up to screenwriter and political commentator takes courage to reinvent oneself, carried by the mobile Seven-wing.</p>
+          <p class="vb-intro">In the shadow stand the years-long hidden eating disorder and the later need for cosmetic correction &ndash; a pattern in which the SX6 tries to compensate for her fear of inadequacy through outward perfection, until the price becomes too high and must be spoken openly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Facade to One's Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's healing path leads from the question <em>Am I safe if I appear strong and flawless?</em> to the realization <em>Safety does not come from the perfect facade, but from the honest voice behind it.</em> For the SX6w7 this means leaving behind the initial role as an object of admiration and instead bringing in one's own critical perspective &ndash; exactly the path Thomas walked from pin-up idol to screenwriter and political voice.</p>
+          <p class="vb-intro">Placing this without determinism: Thomas's eating disorder and her later health burdens from cosmetic procedures cannot be traced to her subtype alone &ndash; such experiences are widespread in the entertainment industry, regardless of Enneagram type. What remains striking, though, is how precisely the SX6 pattern &ndash; seeking safety through demonstrated strength and beauty until the facade itself becomes a burden &ndash; can be traced through her biography. Thomas did not consciously know her own Enneagram pattern at the height of her popularity; she lived out the passion of gaining safety through outward perfection without restraint, until her own body set the limit &ndash; not out of fault, but out of not knowing her own pattern, before she later found the courage to speak openly about it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
       ])}
     </div>
@@ -54338,9 +54758,201 @@ function michaelJacksonKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – life's work"},
         {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3) – same concealment strategy"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same concealment strategy"},
         {route:"krankheitsportraets-ludwig-van-beethoven", label:"Illness Portrait: Ludwig van Beethoven (SX6w5) – counter-model: open confrontation"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function hansChristianAndersenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hans-christian-andersen-portrait.jpg" alt="Hans Christian Andersen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hans Christian Andersen</p>
+        <p class="krim-portrait-typ">SO4w3 · Social Type 4 with Three-wing · 1805–1875</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hans Christian Andersen</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-hans-christian-andersen">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work, background, and type structure in
+        general. This page traces a chapter only briefly touched there: the lifelong hypochondria,
+        the tormenting dental problems, and the cancer that killed Andersen in 1875.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Andersen</strong> is assigned to <strong>social Type 4 with a Three-wing</strong>.
+        SO4 carries its shame about its own otherness directly into the group and constantly seeks
+        validation there; the Three-wing intensifies this need into an active striving for public
+        recognition. In Andersen this showed a notable discrepancy: a deeply felt, often exaggerated
+        concern for his own body, which he rarely showed outwardly as long as an audience needed
+        him – and which only surfaced once no stage was in sight.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A lifelong hypochondria, well documented in letters and diaries:</strong>
+        Andersen kept detailed diaries over decades in which the smallest physical complaints – a
+        tugging in the stomach, a slight fever, a cold – were recorded with striking thoroughness
+        and worry. Contemporaries and later biographers agree that this self-observation went far
+        beyond the usual measure.</p>
+        <p class="vb-intro"><strong>b) The famous fear of being buried alive:</strong>
+        Andersen carried a note with him throughout his life asking that his pulse be opened after
+        his presumed death, to make sure he was truly dead &ndash; one of the best-attested details
+        of his hypochondria, which he himself repeatedly mentioned to friends.</p>
+        <p class="vb-intro"><strong>c) Tormenting dental problems from early on:</strong>
+        Already in his middle years, Andersen suffered from severe, recurring toothaches and
+        progressive tooth loss, which he repeatedly described in letters as great torment &ndash; a
+        suffering that accompanied him throughout his life and which, despite his otherwise intense
+        health worry, he left largely untreated for a long time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A consequential fall in 1872:</strong>
+        In spring 1872, Andersen fell out of bed and injured himself severely &ndash; an event
+        biographers consistently describe as the turning point of his final years. He never fully
+        recovered from this fall.</p>
+        <p class="vb-intro"><strong>b) Progressive exhaustion and weight loss:</strong>
+        Over the following three years his health steadily deteriorated &ndash; growing exhaustion,
+        loss of appetite, and a marked physical decline documented by close friends in letters.</p>
+        <p class="vb-intro"><strong>c) The diagnosis:</strong>
+        Andersen's doctors assumed a cancer of the liver &ndash; an assessment based on observed
+        symptoms, without the diagnostic tools available to modern medicine. The exact nature of the
+        illness can no longer be reconstructed with certainty from today's perspective.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Care in the home of a friendly family:</strong>
+        In his final years, Andersen was cared for by the friendly merchant family Melchior, first
+        in Copenhagen, later at their country house Rolighed &ndash; a sign of how much the
+        childless, unmarried Andersen depended, at the end of his life, on belonging to a community
+        that carried him, one he had never managed to create in the form of his own family.</p>
+        <p class="vb-intro"><strong>b) Continued public presence despite weakness:</strong>
+        Even after the 1872 fall, Andersen continued, as long as his strength allowed, to take part
+        in social occasions and maintain his correspondence with celebrities and admirers &ndash; the
+        need for visible belonging could barely be dampened even by progressive illness.</p>
+        <p class="vb-intro"><strong>c) A slow, publicly accompanied death:</strong>
+        Andersen's final months were closely followed by the Danish public; newspapers regularly
+        reported on his health &ndash; for the social Four with a Three-wing, who had sought public
+        sympathy his entire life, a situation in which he finally received exactly what he had longed
+        for all his life, even under the bitterest circumstances.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on August 4, 1875:</strong>
+        Hans Christian Andersen died on August 4, 1875, at age 70, in Rolighed, the Melchior
+        family's country house near Copenhagen, surrounded by the people closest to him in his final
+        years.</p>
+        <p class="vb-intro"><strong>b) A state funeral as final public validation:</strong>
+        Andersen's funeral became an event of national mourning, attended by the Danish king and the
+        royal family &ndash; the late, definitive confirmation of the social belonging that the
+        social Four with a Three-wing had sought his entire life.</p>
+        <p class="vb-intro"><strong>c) A posthumous fame that far outlasted his own insecurity:</strong>
+        Within a few decades of his death, Andersen became the most translated Danish writer of all
+        time &ndash; a degree of worldwide recognition that, in retrospect, makes his lifelong,
+        nagging worry of not truly belonging look like a tragic misjudgment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Hypochondria as redirected belonging anxiety:</strong>
+        Andersen's characteristic worry about his own body can be read as an inward-directed variant
+        of his true underlying fear: of not truly being seen, not truly needed, not truly belonging.
+        Meticulous observation of the smallest physical signals gave this diffuse worry a concrete,
+        controllable object.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as the engine that kept him going despite weakness:</strong>
+        The same Three-wing that drove Andersen throughout his life to remain publicly visible did
+        not let him give up without a fight even after the 1872 fall &ndash; even while weakened, he
+        kept seeking contact with admirers and patrons, as if public attention could halt the
+        progressing illness.</p>
+        <p class="vb-intro"><strong>c) The toothaches as a suppressed, because unglamorous, suffering:</strong>
+        Striking is the contrast between Andersen's extensive worry about more dramatic, narratable
+        complaints and his decades-long acceptance of his toothaches &ndash; a suffering with no
+        public stage, presumably too mundane to fit into his carefully maintained self-presentation
+        as a sensitive, suffering artist.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A parallel within the same subtype – Michael Jackson (SO4w3):</strong>
+        As with <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a>,
+        also SO4w3, Andersen shows the pattern typical of this subtype: the carefully maintained
+        public role &ndash; for Jackson the flawless King of Pop, for Andersen the sensitive,
+        world-celebrated fairy-tale author &ndash; is upheld to the very end, while the actual
+        physical suffering runs in the background. For Jackson it was the decades-long, concealed
+        dependence on pain medication; for Andersen the silently endured toothaches alongside the
+        thoroughly documented but ultimately helpless worry about everything else &ndash; two
+        variants of the same SO4w3 core movement: keep up the image, set aside the inner self.</p>
+        <p class="vb-intro"><strong>b) A worry that grew over decades, not a sudden collapse:</strong>
+        From the earliest documented diary entries about tiny complaints to the actual course of the
+        illness after 1872, a continuous line runs through: Andersen's body was, his whole life, an
+        object of intense, often exaggerated attention &ndash; before the real illness finally caught
+        up with it.</p>
+        <p class="vb-intro"><strong>c) Two ailments, one shared blind spot:</strong>
+        The extensively documented hypochondria and the barely mentioned, genuinely treatment-needing
+        dental problems can be read as two sides of the same imbalance: attention flowed where it
+        was narratable and thus socially usable &ndash; not necessarily where the body needed it most
+        urgently.</p>
+        <p class="vb-intro"><strong>d) Why the liver, of all organs?</strong>
+        For a social Four, whose core theme is the question of whether they truly have a place in the
+        community, an interpretation suggests itself: in many psychosomatic traditions, the liver is
+        considered the organ of processed, often also withheld, emotion &ndash; for a person who felt
+        more throughout his life than he could show in a form acceptable for his time, and who
+        controlled to the last what of his inner self reached the outside, this is a fitting image.
+        This interpretation is a plausible reading, not a documented historical causal link, and is
+        explored further in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik/leberkrebs">Psychosomatics Register
+        entry on liver cancer</a>.</p>
+        <p class="vb-intro"><strong>e) A note without determinism:</strong>
+        This does not mean that the pattern of social Four with a Three-wing inevitably leads to
+        liver disease &ndash; <strong>anyone can develop any illness, regardless of subtype.</strong>
+        What Andersen's case shows is a pattern that repeatedly stands out in practice among those
+        inclined to thoroughly document narratable suffering while overlooking unglamorous suffering
+        &ndash; one of many possible explanations, not a judgment.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Unconscious fixation as its own factor:</strong>
+        Andersen did not know his own Enneagram pattern &ndash; the concept did not yet exist in this
+        form during his lifetime. The longing for belonging that drove him his whole life to remain
+        publicly visible and loved had no built-in warning mechanism that could distinguish between
+        narratable and genuinely urgent suffering; on the contrary, every physical signal was
+        processed with the same logic he used for social signals: as something that either fit his
+        own story or didn't. Whoever doesn't know their own pattern cannot interrupt it in time &ndash;
+        for Andersen this meant a life rich in thoroughly documented worry about minor complaints and
+        poor in actual care for his own, genuinely suffering body, until the illness that ultimately
+        cost him his life left no more escape.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Andersen's</strong> illness history shows social Four with a Three-wing at its most
+        contradictory: a lifelong, meticulously documented worry about his own body &ndash; and a
+        genuine suffering that only revealed itself once no stage could help anymore. The armadillo
+        that longed for belonging his whole life finally received it in the form of a state funeral
+        &ndash; on August 4, 1875, at age 70, from the effects of a suspected cancer of the liver.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3) – life's work"},
+        {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3) – same concealment strategy"},
+        {route:"psychosomatik/leberkrebs", label:"Psychosomatics Register: Liver Cancer"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
     </div>
@@ -102953,6 +103565,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-fritz-wepper": fritzWepperPortraitPage,
+      "beruehmte-reinhold-wuerth": reinholdWuerthPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,
@@ -102972,6 +103585,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marquis-de-sade": marquisDeSadePortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-xu-bing": xuBingPortraitPage,
+      "beruehmte-blaise-pascal": blaisePascalPortraitPage,
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
@@ -103184,6 +103798,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-amelia-earhart": ameliaEarhartPortraitPage,
       "beruehmte-sandra-hueller": sandraHuellerPortraitPage,
       "beruehmte-sophie-marceau": sophieMarceauPortraitPage,
+      "beruehmte-kris-marshall": krisMarshallPortraitPage,
       "beruehmte-boris-becker": borisBeckerPortraitPage,
       "beruehmte-robert-schumann": robertSchumannPortraitPage,
       "beruehmte-franz-liszt": franzLisztPortraitPage,
@@ -103216,6 +103831,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gangaji": gangajiPortraitPage,
       "beruehmte-ryan-gosling": ryanGoslingPortraitPage,
       "beruehmte-eva-mendes": evaMendesPortraitPage,
+      "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
@@ -103250,6 +103866,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
+      "beruehmte-jean-jacques-rousseau": jeanJacquesRousseauPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
       "beruehmte-lebo-m": leboMPortraitPage,
@@ -103426,6 +104043,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ludwig-wittgenstein": ludwigWittgensteinKrankheitsportraetPage,
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
+      "krankheitsportraets-hans-christian-andersen": hansChristianAndersenKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,

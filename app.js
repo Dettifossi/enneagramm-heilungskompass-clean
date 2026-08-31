@@ -47760,7 +47760,7 @@ function reinholdWuerthPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne lautes Aufbegehren</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Neunerflügel dämpft bei der Eins die konfrontative Schärfe, die eine Eins mit Zweierflügel eher zeigt, und ersetzt sie durch eine ruhigere, ausgleichende, geduldig-beharrliche Grundhaltung. Statt lautstark zu korrigieren oder zu missionieren, wirkt die SE1w9 eher wie ein stiller Beobachter, der auf Details achtet und Ordnung eher durch beständiges Vorbild als durch Konfrontation herstellt.</p>
-          <p class="vb-intro">Würths öffentliches Auftreten passt genau in dieses Bild: kein lautstarker, polarisierender Wirtschaftsführer, sondern ein bedächtiger, in Interviews auffallend ruhiger Patriarch, dessen Autorität aus jahrzehntelanger Konsequenz erwächst, nicht aus Inszenierung. Sein bekanntes Lächeln in Fotos wirkt entspannt und zugewandt, nicht auftrumpfend – eine Warmherzigkeit, die, wie die eigene Bewertung dieses Falls im Fallprotokoll zeigt, leicht mit einem Zweierflügel verwechselt werden kann, tatsächlich aber die ruhigere, versöhnlichere Note des Neunerflügels trägt.</p>
+          <p class="vb-intro">Würths öffentliches Auftreten passt genau in dieses Bild: kein lautstarker, polarisierender Wirtschaftsführer, sondern ein bedächtiger, in Interviews auffallend ruhiger Patriarch, dessen Autorität aus jahrzehntelanger Konsequenz erwächst, nicht aus Inszenierung. Sein bekanntes Lächeln in Fotos wirkt entspannt und zugewandt, nicht auftrumpfend – eine Warmherzigkeit, die leicht mit einem Zweierflügel verwechselt werden kann, tatsächlich aber die ruhigere, versöhnlichere Note des Neunerflügels trägt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Mäzen als zweites Lebenswerk</h2>
@@ -59528,7 +59528,7 @@ function krisMarshallPortraitPage() {
           <img src="./assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kris Marshall</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Schauspieler, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">

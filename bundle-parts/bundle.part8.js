@@ -1178,7 +1178,7 @@ function krisMarshallPortraitPage() {
           <img src="./assets/portraits/beruehmte-kris-marshall-portrait.jpg" alt="Kris Marshall – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kris Marshall</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Schauspieler, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
