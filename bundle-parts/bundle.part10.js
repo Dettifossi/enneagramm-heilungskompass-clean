@@ -1,3 +1,71 @@
+function teresaVonAvilaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-teresa-von-avila-portrait.jpg" alt="Teresa von \u00c1vila" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Teresa von \u00c1vila</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">1515&ndash;1582 &ndash; Mystikerin, Ordensreformerin, Kirchenlehrerin &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der ein Ordensreich gr\u00fcndete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut f\u00fcr sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt au\u00dferhalb von Politik und B\u00fchne verk\u00f6rpert dieses Muster so eindr\u00fccklich wie Teresa von \u00c1vila. Mit chronisch schwacher Gesundheit, in einer Zeit, in der Frauen kaum \u00f6ffentlich in Erscheinung treten durften, baute sie binnen zwei Jahrzehnten ein Netzwerk von siebzehn reformierten Kl\u00f6stern quer durch Spanien auf &ndash; eine institutionelle Leistung, die selbst gesunde M\u00e4nner ihrer Zeit kaum vollbracht h\u00e4tten.</p>
+          <p class="vb-intro">Die spanische Mystikerin Teresa von \u00c1vila, geboren 1515 in \u00c1vila als Tochter einer wohlhabenden Kaufmannsfamilie mit j\u00fcdischen Wurzeln, trat mit zwanzig Jahren gegen den Willen ihres Vaters in den Karmelitinnenorden ein. Doch der regul\u00e4re Klosteralltag gen\u00fcgte ihr bald nicht mehr. Sie wollte nicht einfach Nonne sein &ndash; sie wollte den Orden erneuern, sichtbar, sp\u00fcrbar, unwiderlegbar. Der Gepard bleibt nicht im Rudel zur\u00fcck. Er sprintet voraus, w\u00e4hrend andere im gewohnten Tempo weitergehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. SO3: Reform als sichtbares Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt nicht f\u00fcr einzelne, private Erfolge &ndash; sie braucht ein Werk, das \u00f6ffentlich sichtbar wird und Bestand hat. Naranjo beschrieb diesen Subtyp als denjenigen, bei dem Ehrgeiz sich am unverstelltesten mit dem Bed\u00fcrfnis nach Anerkennung durch ein gr\u00f6\u00dferes Ganzes verbindet. Bei Teresa richtete sich dieser Ehrgeiz nicht auf pers\u00f6nlichen Ruhm im weltlichen Sinn, sondern auf ein Ziel, das noch gr\u00f6\u00dfer war: die Reform eines ganzen Ordens, sichtbar in Stein, Regel und Gemeinschaft.</p>
+          <p class="vb-intro">Ihre Reise durch Spanien, oft in einem klapprigen Ochsenkarren, meist krank, immer unter Zeitdruck, um ein weiteres Kloster zu gr\u00fcnden, ist SO3-Energie in Reinform: Sie wartete nicht auf ideale Bedingungen. Sie schuf Institutionen &ndash; das <em>Convento de San Jos\u00e9</em> in \u00c1vila 1562 als erstes, dann Medina del Campo, Malag\u00f3n, Valladolid, Toledo, und so weiter, bis ihr Werk ein sichtbares, un\u00fcbersehbares Netz \u00fcber das ganze Land legte. Jedes neue Kloster war ein Beweis: <em>Die Reform lebt. Sie wirkt. Man kann sie nicht mehr ignorieren.</em></p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Die innerste Burg der Seele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken \u00fcbersteigt &ndash; das Bed\u00fcrfnis, als einzigartige, unverwechselbare innere Welt wahrgenommen zu werden, nicht nur als Reformerin. Genau diese Tiefe zeigt sich in Teresas Schriften: <em>Die innere Burg</em> beschreibt die Seele als einen kristallenen Palast mit sieben ineinanderliegenden Wohnungen, durch die der Mensch zur Vereinigung mit Gott vordringt &ndash; ein Bild von poetischer, fast literarischer Symbolkraft, weit entfernt von trockener Dogmatik.</p>
+          <p class="vb-intro">Ihre mystischen Erfahrungen waren von einer Intensit\u00e4t, die sie selbst kaum in Worte fassen konnte &ndash; allen voran die sogenannte <em>Transverberation</em>: die Vision eines Engels, der ihr Herz mit einem goldenen, feuerspitzen Pfeil durchbohrte, ein Schmerz von solcher S\u00fc\u00dfe, dass sie ihn sich, wie sie schrieb, ewig gew\u00fcnscht h\u00e4tte. Gian Lorenzo Bernini verewigte diesen Moment zwei Generationen sp\u00e4ter in seiner Marmorskulptur <em>Die Verz\u00fcckung der heiligen Teresa</em> &ndash; ein Werk, das noch heute zugleich als eines der bedeutendsten sakralen Kunstwerke Europas gefeiert und wegen seiner unverhohlen sinnlichen Darstellung kontrovers diskutiert wird. Das innerste, pers\u00f6nlichste Erlebnis der Viererfl\u00fcgel-Mystikerin wurde zum \u00f6ffentlichsten Kunstwerk ihrer Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Jahre der L\u00e4hmung: Als der Gepard nicht mehr laufen konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit dreiundzwanzig Jahren erlitt Teresa eine schwere Erkrankung, vermutlich eine Form der Katalepsie, die sie \u00fcber Monate in einen todes\u00e4hnlichen Starrezustand versetzte &ndash; man hielt sie zeitweise f\u00fcr tot und hatte bereits ein Grab vorbereitet. Sie blieb danach \u00fcber drei Jahre teilweise gel\u00e4hmt, unf\u00e4hig, selbstst\u00e4ndig zu gehen. F\u00fcr die soziale Drei, deren Wert sich \u00fcber sichtbares Wirken definiert, ist v\u00f6llige k\u00f6rperliche Ohnmacht eine der tiefsten denkbaren Krisen: Der Gepard, der nicht mehr laufen kann, ist f\u00fcr einen Moment kein Gepard mehr.</p>
+          <p class="vb-intro">Genau in dieser Zeit zeigt sich der typische Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; R\u00fcckzug, Selbstzweifel, ein Verschwinden aus der eigenen Handlungsf\u00e4higkeit. Jahrzehntelang begleiteten Teresa qu\u00e4lende Selbstzweifel, ob ihre mystischen Erfahrungen tats\u00e4chlich von Gott stammten oder, wie sie selbst f\u00fcrchtete, vom Teufel eingegeben sein k\u00f6nnten. Sie unterwarf sich wiederholt der Pr\u00fcfung durch Beichtv\u00e4ter und geriet ins Visier der spanischen Inquisition, die ihre <em>Vida</em>, ihre Autobiografie, jahrelang unter Verschluss hielt und pr\u00fcfte, bevor sie freigegeben wurde.</p>
+          <p class="vb-intro">Sie schrieb diese Autobiografie explizit auf Anweisung ihrer geistlichen Begleiter &ndash; damit diese, und notfalls die Inquisition selbst, \u00fcber ihre Rechtgl\u00e4ubigkeit urteilen konnten. Die soziale Drei, die Anerkennung durch ein gr\u00f6\u00dferes Ganzes braucht, unterstellte sich damit der h\u00e4rtesten verf\u00fcgbaren \u00f6ffentlichen Pr\u00fcfung ihrer Zeit &ndash; und bestand sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Energetische Wirkung: Tempo im Dienst der Erneuerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Teresas Wirkung auf ihre Zeitgenossen war von fast schon unb\u00e4ndigem Tempo gepr\u00e4gt: Sie gr\u00fcndete, verhandelte, schrieb Briefe an K\u00f6nige und Bisch\u00f6fe, reiste weiter, obwohl sie oft fieberkrank und ersch\u00f6pft war. Zeitgenossen beschrieben eine Frau von scharfem Verstand, praktischem Organisationstalent und einem trockenen, oft selbstironischen Humor &ndash; keine entr\u00fcckte Heilige, sondern eine energiegeladene Reformerin, die Widerst\u00e4nde mit derselben Entschlossenheit \u00fcberwand wie \u00e4u\u00dfere Hindernisse.</p>
+          <p class="vb-intro">Und doch: Hinter diesem Tempo lag der lange Schatten der Drei, die Leidenschaft <strong>Eitelkeit</strong> &ndash; nicht im Sinne von Prunksucht, sondern als die Notwendigkeit, das eigene Werk permanent als rechtgl\u00e4ubig, als erfolgreich, als unanfechtbar zu erweisen. Teresa musste während ihres ganzen Lebens beweisen, dass sie keine Betr\u00fcgerin, keine H\u00e4retikerin, keine der zahlreichen <em>alumbradas</em> war, die die Inquisition in jenen Jahrzehnten verfolgte. Die Frage, ob sie ohne diesen st\u00e4ndigen Rechtfertigungsdruck dieselbe Klarheit \u00fcber ihre eigene innere Welt gefunden h\u00e4tte, bleibt offen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Eine Sprache f\u00fcr das Innerste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Teresa von \u00c1vila der Welt hinterlie\u00df, l\u00e4sst sich nicht auf siebzehn Klostergr\u00fcndungen reduzieren. Mit <em>Die innere Burg</em>, <em>Der Weg der Vollkommenheit</em> und ihrer Autobiografie schuf sie eine der eindr\u00fccklichsten Sprachen f\u00fcr mystische Erfahrung in der Geschichte der Weltliteratur &ndash; verfasst von einer Frau, in einer Zeit, in der Frauen theologisches Schreiben fast g\u00e4nzlich verwehrt war. 1970, fast vierhundert Jahre nach ihrem Tod, wurde sie gemeinsam mit Katharina von Siena als erste Frau \u00fcberhaupt zur <em>Kirchenlehrerin</em> erhoben &ndash; jener h\u00f6chsten Anerkennung, die die katholische Kirche f\u00fcr theologisches Wirken vergibt.</p>
+          <p class="vb-intro">So zeigt sich die SO3w4 in ihrer weitesten Wirkung: eine Frau, deren Bed\u00fcrfnis nach sichtbarer, unanfechtbarer Anerkennung sich mit einer Tiefe verband, die Jahrhunderte \u00fcberdauerte. Der Gepard mit dem Viererfl\u00fcgel kann eine ganze geistliche Tradition neu begr\u00fcnden &ndash; wenn er lernt, dass das Innerste, das er zu sch\u00fctzen versucht, gerade dann am st\u00e4rksten wirkt, wenn er es teilt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so3", label:"SO3 &ndash; Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-sean-connery", label:"Portr\u00e4t: Sean Connery (SO3w4)"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
+        {route:"krankheitsportraets-teresa-von-avila", label:"Krankheitsporträt: Teresa von Ávila – Scheintod & Lähmung"},
+      ])}
+    </div>
+  `);
+}
+
 function gottfriedWilhelmLeibnizPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -1490,6 +1558,7 @@ function mataHariPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
       ])}
     </div>
   `);
@@ -9616,196 +9685,6 @@ function ludwigWittgensteinKrankheitsportraetPage() {
         {route:"beruehmte-ludwig-wittgenstein", label:"Porträt: Ludwig Wittgenstein (SE1w9) – Lebenswerk"},
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
-      ])}
-    </div>
-  `);
-}
-
-function ludwigVanBeethovenKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Ludwig van Beethoven" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Ludwig van Beethoven</p>
-        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1770–1827</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Wolf</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Ludwig van Beethoven</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-ludwig-van-beethoven">Porträt unter Berühmte Persönlichkeiten</a>
-        in diesem Kompass vertreten – dort geht es um seine Typstruktur und seinen jahrzehntelangen
-        Kampf gegen die fortschreitende Taubheit. Hier steht ein Kapitel im Mittelpunkt, das dort
-        knapp angerissen wird: eine zweite, parallel verlaufende Erkrankung des übrigen Körpers –
-        chronische Bauchleiden, eine mögliche Bleivergiftung und eine Leberzirrhose, die ihn
-        schließlich mit 56 Jahren das Leben kostete.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Beethoven</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
-        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
-        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke. Der Fünferflügel bringt
-        analytische Tiefe und die Fähigkeit, sich in Struktur und Arbeit zu vertiefen – ein Muster,
-        das sich bis in Beethovens letzte, von zwei parallelen Krankheiten gezeichnete
-        Lebensjahre nachverfolgen lässt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Zwei Krankheiten, ein Muster:</strong>
-        Neben der fortschreitenden Taubheit, die im Porträt unter Berühmte Persönlichkeiten
-        ausführlich gedeutet wird, litt Beethoven Zeit seines Erwachsenenlebens an einer zweiten,
-        weit weniger bekannten Krankheitslinie – chronischen Bauchbeschwerden, die er mit
-        derselben trotzigen Weiterarbeit beantwortete wie den Hörverlust.</p>
-        <p class="vb-intro"><strong>b) Kolikartige Schmerzen schon ab Mitte zwanzig:</strong>
-        Bereits um 1798, im selben Zeitraum, in dem die ersten Anzeichen der Taubheit auftraten,
-        klagte Beethoven in Briefen über schwere Kolikanfälle, Durchfälle und Verdauungsstörungen –
-        ein Leiden, das ihn bis zu seinem Tod begleitete und nie eindeutig diagnostiziert wurde.</p>
-        <p class="vb-intro"><strong>c) Weiterarbeiten statt Schonung:</strong>
-        Freunde und Ärzte drängten wiederholt zu Kuraufenthalten und Diät. Beethoven hielt sich
-        selten lange daran – kaum ließ der akute Schub nach, kehrte er zu Kaffee, Wein und
-        durchgearbeiteten Nächten zurück.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Der Verdacht auf Bleivergiftung:</strong>
-        Haaranalysen und eine 2023 veröffentlichte DNA-Untersuchung erhaltener Haarlocken sowie
-        eines Schädelfragments fanden stark erhöhte Bleiwerte in Beethovens Körper – mögliche
-        Quellen reichen von bleihaltigem Wein über medizinische Behandlungen bis zu
-        Trinkwasserleitungen. Ob die Bleibelastung tatsächlich zur Taubheit oder zu den späteren
-        Leberschäden beitrug, bleibt bis heute wissenschaftlich umstritten.</p>
-        <p class="vb-intro"><strong>b) Ein Leben ohne Schonhaltung:</strong>
-        Beethoven rauchte nicht, aber trank regelmäßig Wein, oft in Mengen, die seine Ärzte als
-        gesundheitsschädlich einstuften – bei einer bereits vorbelasteten Leber ein Muster, das
-        den langsamen Verfall über Jahrzehnte beschleunigte, ohne dass er es je grundlegend
-        änderte.</p>
-        <p class="vb-intro"><strong>c) Gelbsucht und erste Anzeichen der Leberkrankheit:</strong>
-        Ab etwa 1821 traten wiederholt Episoden von Gelbsucht auf – ein deutliches Zeichen
-        fortschreitender Leberschädigung, das Beethoven wie schon die Taubheit zuvor eher
-        verdrängte als in seiner Tragweite ernst nahm.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Der Zusammenbruch im Dezember 1826:</strong>
-        Auf der Rückreise von seinem Bruder Johann geriet Beethoven in einem offenen,
-        ungefederten Wagen in klirrende Kälte. Kurz danach erkrankte er an einer schweren
-        Lungenentzündung, von der er sich nie mehr erholte – der Auftakt zu seinen letzten
-        vier Lebensmonaten.</p>
-        <p class="vb-intro"><strong>b) Vier schmerzhafte Bauchpunktionen:</strong>
-        Die fortschreitende Leberzirrhose führte zu massiven Wassereinlagerungen im Bauchraum
-        (Aszites). Zwischen Dezember 1826 und Februar 1827 musste Beethoven vier Mal unter
-        großen Schmerzen operativ punktiert werden, um die angesammelte Flüssigkeit abzulassen –
-        bei der letzten Punktion floss die Wunde tagelang unkontrolliert weiter.</p>
-        <p class="vb-intro"><strong>c) Der Tod während eines Gewitters:</strong>
-        Beethoven starb am 26. März 1827 in Wien, während draußen ein schweres Frühlingsgewitter
-        tobte. Der Überlieferung nach öffnete er beim Aufflammen eines Blitzes und einem lauten
-        Donnerschlag noch einmal die Augen, ballte die rechte Faust und sank dann zurück – tot.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Ein Obduktionsbefund, der das ganze Ausmaß zeigte:</strong>
-        Die Obduktion am Tag nach seinem Tod ergab eine massiv geschrumpfte, knotig vernarbte
-        Leber (Zirrhose) sowie schwer geschädigte Nieren – ein Befund, der zeigt, dass der
-        Organismus über Jahre auf einem Bruchteil seiner Funktionsfähigkeit weiterarbeitete.</p>
-        <p class="vb-intro"><strong>b) Zwei Erkrankungen, die einander verstärkten:</strong>
-        Die vollständige Taubheit isolierte Beethoven zunehmend von seinem sozialen Umfeld,
-        während die Bauch- und Lebererkrankung seine körperliche Kraft parallel dazu aufzehrte –
-        zwei voneinander unabhängige Bedrohungen, denen er mit derselben Haltung begegnete: nicht
-        ausweichen, sondern weiterarbeiten.</p>
-        <p class="vb-intro"><strong>c) Kompositorische Höchstleistung trotz doppelter Krankheit:</strong>
-        Ausgerechnet in den Jahren, in denen beide Krankheiten am weitesten fortgeschritten waren,
-        entstanden die späten Streichquartette und die Neunte Symphonie – Werke von einer Tiefe,
-        die viele Zeitgenossen zunächst überforderte.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Kampfhaltung auch gegen den eigenen Körper:</strong>
-        Wie er einst Fürst Lichnowsky die Stirn geboten hatte, begegnete Beethoven auch der
-        eigenen, doppelten Erkrankung nicht mit Rückzug oder Schonung, sondern mit fortgesetzter,
-        kompromissloser Arbeit bis zuletzt.</p>
-        <p class="vb-intro"><strong>b) Kraft, die sich gegen den eigenen Zerfall richtete:</strong>
-        Selbst nach den schmerzhaften Bauchpunktionen und zunehmender Schwäche diktierte
-        Beethoven seinem Neffen Karl noch Briefe und beschäftigte sich mit Plänen für eine
-        zehnte Symphonie – Energie, die buchstäblich bis in die letzten Wochen hinein nach außen
-        gerichtet blieb.</p>
-        <p class="vb-intro"><strong>c) Die geballte Faust als letzte Geste:</strong>
-        Ob die Überlieferung vom Blitzschlag im Moment seines Todes historisch exakt ist oder
-        nicht – die geballte Faust, mit der Beethoven angeblich starb, ist zum Sinnbild einer
-        Haltung geworden, die sein ganzes Leben trug: der Bedrohung, jeder Bedrohung, nicht
-        ausweichen, sondern ihr die Stirn bieten.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Zwei Bedrohungen, eine Reaktion:</strong>
-        Ob Gehör oder Leber – Beethoven begegnete keiner der beiden fortschreitenden Erkrankungen
-        mit Rückzug oder Anpassung des Lebensstils, sondern mit derselben trotzigen
-        Weiterarbeit, die schon seinen Umgang mit Adligen und Kritikern prägte.</p>
-        <p class="vb-intro"><strong>b) Fast dreißig Jahre zwischen ersten Symptomen und Tod:</strong>
-        Von den ersten Kolikanfällen um 1798 bis zu seinem Tod 1827 lebte Beethoven fast drei
-        Jahrzehnte mit chronischen Beschwerden, die er nie in den Mittelpunkt seines Lebens
-        stellte, sondern die er – ähnlich wie die Taubheit – durch fortgesetzte schöpferische
-        Arbeit gewissermaßen überschrieb.</p>
-        <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
-        Anders als Karl Lagerfeld (SO3w4), der seine Krankheit hinter einem makellosen Bild
-        verbarg, oder Franz Schubert (SE6w5), der sich zunehmend zurückzog, ignorierte Beethoven
-        – ganz wie sein SX6w5-Schicksalsgenosse Friedrich Schiller – seine Krankheit nicht durch
-        Verheimlichung, sondern durch fortgesetzte, unvermindert intensive Arbeit, bis der Körper
-        keine weitere Konfrontation mehr zuließ.</p>
-        <p class="vb-intro"><strong>d) Warum ausgerechnet Gehör und Leber?</strong>
-        Für eine sexuelle Sechs, deren gesamtes Leben aus dem direkten, oft kompromisslosen
-        Konfrontieren von Bedrohung bestand, liegt eine Deutung nahe: Ausgerechnet zwei zentrale
-        Organe – das Gehör, über das er seine Kunst wahrnahm, und die Leber, die den fortgesetzten
-        Raubbau an seinem Körper über Jahrzehnte trug – wurden Schauplatz eines doppelten,
-        unsichtbaren Kampfes, den er nie durch Rückzug, sondern immer nur durch Weiterarbeiten zu
-        gewinnen versuchte. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Leber- oder
-        Gehörerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
-        vom Subtyp.</strong> Was sich an Beethovens Fall zeigen lässt, ist ein Muster, das bei
-        dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch Rückzug, sondern
-        durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer wieder auffällt –
-        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
-        in diesem Kompass nach und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Beethoven kannte sein eigenes Muster nicht – die sexuelle Sechs begegnet jeder Bedrohung mit Konfrontation statt mit Rückzug, und genau das trieb ihn dazu, sowohl der Taubheit als auch dem eigenen körperlichen Verfall mit fortgesetzter, kompromissloser Arbeit zu begegnen, statt sich zu schonen. Wer das eigene Konfrontationsmuster nicht kennt, verwechselt Durchhalten mit der einzig möglichen Antwort auf Bedrohung.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Beethovens</strong> sexuelle Sechs mit
-        Fünferflügel noch einmal ablesen: zwei parallel fortschreitende, jahrzehntelange
-        Erkrankungen – Taubheit und Leberleiden –, denen er nie mit Rückzug, sondern immer mit
-        fortgesetzter, kompromissloser Arbeit begegnete, bis am 26. März 1827 buchstäblich kein
-        Widerstand mehr möglich war. Der Wolf, der der Bedrohung – ob Fürst, Kritiker, Taubheit
-        oder der eigenen Sterblichkeit – nie auswich, sondern ihr bis zur letzten geballten Faust
-        die Stirn bot.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – Lebenswerk"},
-        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – derselbe Subtyp, dieselbe Konfrontationshaltung"},
-        {route:"krankheitsportraets-franz-schubert", label:"Krankheitsporträt: Franz Schubert (SE6w5) – Gegenmodell: Rückzug statt Konfrontation"},
-        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
   `);

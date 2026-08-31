@@ -912,6 +912,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
     tags:["Science","Medizin"] , gender:"m"},
+{ route:"beruehmte-eva-peron", name:"Eva Perón", added:"2026-08-31", subtyp:"SO2w3",
+    heading:"Eva Perón – Social Type 2",
+    teaser:"SO2w3 · 1919–1952. Argentine First Lady, actress, benefactress of the \"descamisados\". Rise from poverty to \"Evita\" – the Golden Retriever with a Three-wing who fused devotion and self-presentation into a myth that outlasted her early death. Animal correspondence: Golden Retriever.",
+    land:"Argentina", tags:["History","Politics"] , gender:"f"},
 { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar – Social Type 2",
     teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
@@ -30654,6 +30658,72 @@ function napoleonBonapartePortraitPage() {
   `);
 }
 
+function evaPeronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-eva-peron-portrait.jpg" alt="Eva Perón" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eva Perón</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">1919&ndash;1952 &ndash; Argentine First Lady, actress, benefactress &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever from the Provinces</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; devoted, irresistibly driven to be needed, ready to give everything for the pack it feels it belongs to. Few biographies show this as uncompromisingly as that of Eva Duarte, born in 1919 as the illegitimate daughter of a family of modest means in Los Toldos, a provincial Argentine town. At fifteen she moved to Buenos Aires to become an actress &ndash; not out of pure vanity, but out of a deep need to be seen and needed, in a city that barely noticed a penniless young woman at first.</p>
+          <p class="vb-intro">In 1944 she met Colonel Juan Domingo Perón at a charity event for earthquake victims &ndash; a meeting that would prove symbolic of her entire subsequent life: caring for others as the very place where her own fate was decided. The Golden Retriever had found its pack &ndash; and with it a stage on which devotion and self-presentation no longer stood in contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: The Poor as Her Own People</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs the Two's caring not toward individual people but toward the community as a whole. Naranjo called this subtype <em>ambition</em> &ndash; the drive to become indispensable through impact in the larger field. As First Lady, Eva Perón built the <em>Fundación Eva Perón</em>, a vast welfare organization that built hospitals, schools, orphanages, and retirement homes and gave direct aid to millions of the poor &ndash; the <em>descamisados</em>, the "shirtless ones" &ndash; often in personal audiences where she received petitioners for hours on end.</p>
+          <p class="vb-intro">This devotion was never quiet. Eva Perón gave fervent speeches in which she cast herself as a bridge between "the people" and her husband &ndash; "I will come back, and I will be millions," she said in substance in one of her last public speeches. The Golden Retriever does not bark down from the stage; it wades into the crowd &ndash; exactly what she did when she drove through the slums personally handing out gifts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Actress to Myth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two the drive toward visible impact, toward self-presentation, toward proof through public image. In Eva Perón this wing merges with her earlier career as a radio and film actress in a way that is almost impossible to separate: she brought the performer's stage presence directly into politics &ndash; artfully arranged appearances, fine gowns and jewelry as a deliberate message to a people she wanted to show that even a woman from the underclass could rise to the very top, carefully composed speeches, a self-written book (<em>La razón de mi vida</em>) that shaped her own life into a political narrative.</p>
+          <p class="vb-intro">The Three-wing didn't just want to help &ndash; it wanted the help to be visible, unforgettable, mythic. Out of pure SO2 caring grew "Evita": a brand, an icon, a political narrative figure larger than the person behind it. The same energy that made Julius Caesar write his own war commentary in the third person drove Eva Perón to rewrite her own life as a stirring heroine's story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 is a form of care that genuinely reached millions: women's suffrage in Argentina, secured in 1947 substantially through her personal advocacy, concrete material help for people no government had ever bothered to notice before. That is no empty gesture &ndash; it is impact that changed real lives.</p>
+          <p class="vb-intro">The Two's fateful pattern is <strong>pride</strong> &ndash; the deep conviction of being indispensable, combined with difficulty admitting one's own neediness. In Eva Perón this showed up as a growing intolerance of criticism: opposition newspapers were shut down, political opponents pressured, the line between personal care and political control increasingly blurred. Someone who sees herself as the people's indispensable savior finds it hard to recognize dissent as legitimate &ndash; it quickly becomes betrayal of the very people she gives everything for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Death as the Final Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eva Perón fell ill with cervical cancer in the early 1950s, concealing the severity of her condition from the public &ndash; and partly from herself &ndash; for a long time, in order to remain present for her people. At her last public speech in June 1951 she had to lean on Perón for support; a supportive corset was already hidden beneath her coat against her advancing physical decline. She died on 26 July 1952, at only 33 years old.</p>
+          <p class="vb-intro">Even her death became the greatest performance of her life: her body was embalmed so it could be venerated publicly in perpetuity &ndash; millions of people filed past her lying in state for days. The social Two with a Three-wing wanted her devotion to outlast her own mortality &ndash; and it did: the "Evita" myth is more alive today than the historical person Eva Duarte ever was.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Belonging That Outlasts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Eva Perón left behind cannot be reduced to a political program. She changed how a woman from the humblest circumstances could claim public power, and left behind, in Peronism, a political movement that still shapes Argentina today &ndash; far beyond her early death.</p>
+          <p class="vb-intro">That is the gift of the SO2w3 in its most striking form: devotion that is never satisfied with quiet service, but becomes so visible that it outlasts generations. The Golden Retriever that doesn't just return to the pack, but becomes the legend the pack still remembers decades later.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
 function juliusCaesarPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -30718,6 +30788,7 @@ function juliusCaesarPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portrait: Jesus Christ (SO2w1)"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
       ])}
     </div>
   `);
@@ -43929,6 +44000,7 @@ function kamalaHarrisPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
       ])}
     </div>
   `);
@@ -45471,6 +45543,7 @@ function mataHariPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
       ])}
     </div>
   `);
@@ -104331,6 +104404,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jeanne-calment": jeanneCalmentPortraitPage,
       "beruehmte-larry-king": larryKingPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
+      "beruehmte-eva-peron": evaPeronPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,

@@ -6408,6 +6408,73 @@ function kamalaHarrisPortraitPage() {
         {route:"beruehmte-nina-chuba", label:"Portr\u00e4t: Nina Chuba (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
+        {route:"beruehmte-eva-peron", label:"Portr\u00e4t: Eva Per\u00f3n (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function evaPeronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-eva-peron-portrait.jpg" alt="Eva Perón" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eva Perón</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">1919&ndash;1952 &ndash; Argentinische First Lady, Schauspielerin, Wohltäterin &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever aus der Provinz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; zugewandt, unwiderstehlich darauf aus, gebraucht zu werden, und bereit, alles für das Rudel zu geben, dem es sich zugehörig fühlt. Kaum eine Biografie zeigt das so kompromisslos wie die der Eva Duarte, geboren 1919 als uneheliche Tochter in ärmlichen Verhältnissen in Los Toldos, einer argentinischen Provinzstadt. Mit fünfzehn zog sie nach Buenos Aires, um Schauspielerin zu werden &ndash; nicht aus reiner Eitelkeit, sondern aus dem tiefen Bedürfnis, gesehen und gebraucht zu werden, in einer Stadt, die eine mittellose junge Frau zunächst kaum wahrnahm.</p>
+          <p class="vb-intro">1944 lernte sie Oberst Juan Domingo Perón bei einem Wohltätigkeitsereignis für Erdbebenopfer kennen &ndash; ein Treffen, das symbolisch für ihr gesamtes weiteres Leben stehen sollte: Fürsorge für andere als der Ort, an dem sich ihr eigenes Schicksal entschied. Der Golden Retriever hatte sein Rudel gefunden &ndash; und mit ihm eine Bühne, auf der Hingabe und Sichtbarkeit keinen Widerspruch mehr bildeten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Die Armen als eigenes Volk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet die Zuwendung der Zwei nicht auf einzelne Personen, sondern auf die Gemeinschaft als Ganzes. Naranjo nannte diesen Subtyp <em>Ambition</em> &ndash; den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Als First Lady baute Eva Perón die <em>Fundación Eva Perón</em> auf, eine gigantische Wohlfahrtsorganisation, die Krankenhäuser, Schulen, Waisenhäuser und Alten heime errichtete und Millionen von Armen &ndash; den <em>descamisados</em>, den „Hemdlosen" &ndash; direkte Hilfe leistete, oft in persönlichen Audienzen, bei denen sie stundenlang Bittsteller empfing.</p>
+          <p class="vb-intro">Diese Hingabe war nie leise. Eva Perón hielt glühende Reden, in denen sie sich selbst als Brücke zwischen dem „Volk" und ihrem Mann inszenierte &ndash; „Ich werde wiederkommen, und ich werde Millionen sein", sagte sie sinngemäß in einer ihrer letzten Öffentlichen Reden. Der Golden Retriever bellt nicht von der Bühne herab, er geht mitten ins Getümmel &ndash; genau das tat sie, wenn sie durch die Armenviertel fuhr und persönlich Geschenke verteilte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der Schauspielerin zum Mythos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren Wirkung, zur Inszenierung, zum Beweis durch öffentliches Bild. Bei Eva Perón verschmilzt dieser Flügel mit ihrer früheren Karriere als Radio- und Filmschauspielerin auf eine Weise, die kaum zu trennen ist: Sie brachte die Bühnenpräsenz der Darstellerin direkt in die Politik &ndash; kunstvoll arrangierte Auftritte, edle Roben und Schmuck als bewusste Botschaft an ein Volk, dem sie zeigen wollte, dass auch eine Frau aus der Unterschicht ganz oben ankommen kann, sorgfältig komponierte Reden, ein selbst geschriebenes Buch (<em>La razón de mi vida</em>), das ihr eigenes Leben zur politischen Erzählung formte.</p>
+          <p class="vb-intro">Der Dreierflügel wollte nicht nur helfen &ndash; er wollte, dass die Hilfe sichtbar, unvergesslich, mythisch wurde. Aus der reinen SO2-Fürsorge entstand so „Evita": ein Markenname, eine Ikone, eine politische Erzählfigur, die größer war als die Person dahinter. Dieselbe Energie, die Julius Caesar seinen eigenen Feldzugsbericht in der dritten Person schreiben ließ, trieb Eva Perón dazu, ihr eigenes Leben zur ergreifenden Heldinnengeschichte umzuschreiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 ist eine Fürsorge, die tatsächlich Millionen erreichte: Frauenwahlrecht in Argentinien 1947 maßgeblich durch ihren persönlichen Einsatz durchgesetzt, konkrete materielle Hilfe für Menschen, die zuvor von keiner Regierung wahrgenommen wurden. Das ist keine leere Geste &ndash; es ist Wirkung, die sich in Lebensrealitäten änderte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; die tiefe Überzeugung, unentbehrlich zu sein, kombiniert mit der Schwierigkeit, eigene Bedürftigkeit zuzulassen. Bei Eva Perón zeigte sich das in einer wachsenden Unduldsamkeit gegenüber Kritik: Oppositionelle Zeitungen wurden geschlossen, politische Gegner­innen und Gegner unter Druck gesetzt, die Grenze zwischen persönlicher Fürsorge und politischer Kontrolle verschwamm zusehends. Wer sich selbst als unentbehrliche Retterin des Volkes versteht, kann Widerspruch schwer als legitim anerkennen &ndash; er wird schnell zum Verrat an denen, für die man doch alles gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Tod als letzte Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eva Perón erkrankte Anfang der 1950er-Jahre an Gebärmutterhalskrebs, verschwieg lange Zeit den Ernst ihres Zustands vor der Öffentlichkeit und sogar teilweise vor sich selbst, um weiter für ihr Volk präsent zu sein &ndash; bei ihrer letzten öffentlichen Rede im Juni 1951 musste sie sich an Perón stützen, unter einem Mantel verbargen sich bereits Stützkorsette gegen den fortgeschrittenen körperlichen Verfall. Sie starb am 26. Juli 1952 im Alter von nur 33 Jahren.</p>
+          <p class="vb-intro">Selbst ihr Tod wurde zur größten Inszenierung ihres Lebens: Der Körper wurde einbalsamiert, um dauerhaft öffentlich verehrt werden zu können &ndash; Millionen Menschen zogen tagelang an ihrem aufgebahrten Leichnam vorbei. Die soziale Zwei mit Dreierflügel wollte, dass ihre Hingabe die eigene Sterblichkeit überdauert &ndash; und genau das gelang: Der Mythos „Evita" ist bis heute lebendiger als die historische Person Eva Duarte je war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Zugehörigkeit, die überdauert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Eva Perón hinterließ, lässt sich nicht auf ein politisches Programm reduzieren. Sie veränderte, wie eine Frau aus einfachsten Verhältnissen öffentliche Macht beanspruchen konnte, und hinterließ mit dem Peronismus eine politische Bewegung, die Argentinien bis heute prägt &ndash; weit über ihren frühen Tod hinaus.</p>
+          <p class="vb-intro">Das ist das Geschenk der SO2w3 in ihrer eindrücklichsten Form: Hingabe, die sich nicht mit stillem Wirken zufriedengibt, sondern so sichtbar wird, dass sie Generationen überdauert. Der Golden Retriever, der nicht nur ins Rudel zurückkehrt, sondern selbst zur Legende wird, an die sich das Rudel noch Jahrzehnte später erinnert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
       ])}
     </div>
   `);
@@ -6477,6 +6544,7 @@ function juliusCaesarPortraitPage() {
         {route:"subtype/so2", label:"SO2 &ndash; Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"beruehmte-jesus-christus", label:"Portr\u00e4t: Jesus Christus (SO2w1)"},
+        {route:"beruehmte-eva-peron", label:"Portr\u00e4t: Eva Per\u00f3n (SO2w3)"},
       ])}
     </div>
   `);
@@ -7293,74 +7361,6 @@ function karlLagerfeldPortraitPage() {
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
         {route:"bibel-pontius-pilatus", label:"Bibel-Portr\u00e4t: Pontius Pilatus (SO3w4)"}
-      ])}
-    </div>
-  `);
-}
-
-function teresaVonAvilaPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-teresa-von-avila-portrait.jpg" alt="Teresa von \u00c1vila" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Teresa von \u00c1vila</p>
-        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
-        <p class="krim-portrait-subtitle">1515&ndash;1582 &ndash; Mystikerin, Ordensreformerin, Kirchenlehrerin &ndash; Tierentsprechung: Gepard</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Der Gepard, der ein Ordensreich gr\u00fcndete</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut f\u00fcr sichtbaren, unbestreitbaren Erfolg. Kaum eine historische Gestalt au\u00dferhalb von Politik und B\u00fchne verk\u00f6rpert dieses Muster so eindr\u00fccklich wie Teresa von \u00c1vila. Mit chronisch schwacher Gesundheit, in einer Zeit, in der Frauen kaum \u00f6ffentlich in Erscheinung treten durften, baute sie binnen zwei Jahrzehnten ein Netzwerk von siebzehn reformierten Kl\u00f6stern quer durch Spanien auf &ndash; eine institutionelle Leistung, die selbst gesunde M\u00e4nner ihrer Zeit kaum vollbracht h\u00e4tten.</p>
-          <p class="vb-intro">Die spanische Mystikerin Teresa von \u00c1vila, geboren 1515 in \u00c1vila als Tochter einer wohlhabenden Kaufmannsfamilie mit j\u00fcdischen Wurzeln, trat mit zwanzig Jahren gegen den Willen ihres Vaters in den Karmelitinnenorden ein. Doch der regul\u00e4re Klosteralltag gen\u00fcgte ihr bald nicht mehr. Sie wollte nicht einfach Nonne sein &ndash; sie wollte den Orden erneuern, sichtbar, sp\u00fcrbar, unwiderlegbar. Der Gepard bleibt nicht im Rudel zur\u00fcck. Er sprintet voraus, w\u00e4hrend andere im gewohnten Tempo weitergehen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. SO3: Reform als sichtbares Werk</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> lebt nicht f\u00fcr einzelne, private Erfolge &ndash; sie braucht ein Werk, das \u00f6ffentlich sichtbar wird und Bestand hat. Naranjo beschrieb diesen Subtyp als denjenigen, bei dem Ehrgeiz sich am unverstelltesten mit dem Bed\u00fcrfnis nach Anerkennung durch ein gr\u00f6\u00dferes Ganzes verbindet. Bei Teresa richtete sich dieser Ehrgeiz nicht auf pers\u00f6nlichen Ruhm im weltlichen Sinn, sondern auf ein Ziel, das noch gr\u00f6\u00dfer war: die Reform eines ganzen Ordens, sichtbar in Stein, Regel und Gemeinschaft.</p>
-          <p class="vb-intro">Ihre Reise durch Spanien, oft in einem klapprigen Ochsenkarren, meist krank, immer unter Zeitdruck, um ein weiteres Kloster zu gr\u00fcnden, ist SO3-Energie in Reinform: Sie wartete nicht auf ideale Bedingungen. Sie schuf Institutionen &ndash; das <em>Convento de San Jos\u00e9</em> in \u00c1vila 1562 als erstes, dann Medina del Campo, Malag\u00f3n, Valladolid, Toledo, und so weiter, bis ihr Werk ein sichtbares, un\u00fcbersehbares Netz \u00fcber das ganze Land legte. Jedes neue Kloster war ein Beweis: <em>Die Reform lebt. Sie wirkt. Man kann sie nicht mehr ignorieren.</em></p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Die innerste Burg der Seele</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines institutionelles Wirken \u00fcbersteigt &ndash; das Bed\u00fcrfnis, als einzigartige, unverwechselbare innere Welt wahrgenommen zu werden, nicht nur als Reformerin. Genau diese Tiefe zeigt sich in Teresas Schriften: <em>Die innere Burg</em> beschreibt die Seele als einen kristallenen Palast mit sieben ineinanderliegenden Wohnungen, durch die der Mensch zur Vereinigung mit Gott vordringt &ndash; ein Bild von poetischer, fast literarischer Symbolkraft, weit entfernt von trockener Dogmatik.</p>
-          <p class="vb-intro">Ihre mystischen Erfahrungen waren von einer Intensit\u00e4t, die sie selbst kaum in Worte fassen konnte &ndash; allen voran die sogenannte <em>Transverberation</em>: die Vision eines Engels, der ihr Herz mit einem goldenen, feuerspitzen Pfeil durchbohrte, ein Schmerz von solcher S\u00fc\u00dfe, dass sie ihn sich, wie sie schrieb, ewig gew\u00fcnscht h\u00e4tte. Gian Lorenzo Bernini verewigte diesen Moment zwei Generationen sp\u00e4ter in seiner Marmorskulptur <em>Die Verz\u00fcckung der heiligen Teresa</em> &ndash; ein Werk, das noch heute zugleich als eines der bedeutendsten sakralen Kunstwerke Europas gefeiert und wegen seiner unverhohlen sinnlichen Darstellung kontrovers diskutiert wird. Das innerste, pers\u00f6nlichste Erlebnis der Viererfl\u00fcgel-Mystikerin wurde zum \u00f6ffentlichsten Kunstwerk ihrer Zeit.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Die Jahre der L\u00e4hmung: Als der Gepard nicht mehr laufen konnte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mit dreiundzwanzig Jahren erlitt Teresa eine schwere Erkrankung, vermutlich eine Form der Katalepsie, die sie \u00fcber Monate in einen todes\u00e4hnlichen Starrezustand versetzte &ndash; man hielt sie zeitweise f\u00fcr tot und hatte bereits ein Grab vorbereitet. Sie blieb danach \u00fcber drei Jahre teilweise gel\u00e4hmt, unf\u00e4hig, selbstst\u00e4ndig zu gehen. F\u00fcr die soziale Drei, deren Wert sich \u00fcber sichtbares Wirken definiert, ist v\u00f6llige k\u00f6rperliche Ohnmacht eine der tiefsten denkbaren Krisen: Der Gepard, der nicht mehr laufen kann, ist f\u00fcr einen Moment kein Gepard mehr.</p>
-          <p class="vb-intro">Genau in dieser Zeit zeigt sich der typische Stresspunkt der Drei: Unter Druck geht der Typ 3 in seinen <strong>Neuner-Stresspunkt</strong> &ndash; R\u00fcckzug, Selbstzweifel, ein Verschwinden aus der eigenen Handlungsf\u00e4higkeit. Jahrzehntelang begleiteten Teresa qu\u00e4lende Selbstzweifel, ob ihre mystischen Erfahrungen tats\u00e4chlich von Gott stammten oder, wie sie selbst f\u00fcrchtete, vom Teufel eingegeben sein k\u00f6nnten. Sie unterwarf sich wiederholt der Pr\u00fcfung durch Beichtv\u00e4ter und geriet ins Visier der spanischen Inquisition, die ihre <em>Vida</em>, ihre Autobiografie, jahrelang unter Verschluss hielt und pr\u00fcfte, bevor sie freigegeben wurde.</p>
-          <p class="vb-intro">Sie schrieb diese Autobiografie explizit auf Anweisung ihrer geistlichen Begleiter &ndash; damit diese, und notfalls die Inquisition selbst, \u00fcber ihre Rechtgl\u00e4ubigkeit urteilen konnten. Die soziale Drei, die Anerkennung durch ein gr\u00f6\u00dferes Ganzes braucht, unterstellte sich damit der h\u00e4rtesten verf\u00fcgbaren \u00f6ffentlichen Pr\u00fcfung ihrer Zeit &ndash; und bestand sie.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Energetische Wirkung: Tempo im Dienst der Erneuerung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Teresas Wirkung auf ihre Zeitgenossen war von fast schon unb\u00e4ndigem Tempo gepr\u00e4gt: Sie gr\u00fcndete, verhandelte, schrieb Briefe an K\u00f6nige und Bisch\u00f6fe, reiste weiter, obwohl sie oft fieberkrank und ersch\u00f6pft war. Zeitgenossen beschrieben eine Frau von scharfem Verstand, praktischem Organisationstalent und einem trockenen, oft selbstironischen Humor &ndash; keine entr\u00fcckte Heilige, sondern eine energiegeladene Reformerin, die Widerst\u00e4nde mit derselben Entschlossenheit \u00fcberwand wie \u00e4u\u00dfere Hindernisse.</p>
-          <p class="vb-intro">Und doch: Hinter diesem Tempo lag der lange Schatten der Drei, die Leidenschaft <strong>Eitelkeit</strong> &ndash; nicht im Sinne von Prunksucht, sondern als die Notwendigkeit, das eigene Werk permanent als rechtgl\u00e4ubig, als erfolgreich, als unanfechtbar zu erweisen. Teresa musste während ihres ganzen Lebens beweisen, dass sie keine Betr\u00fcgerin, keine H\u00e4retikerin, keine der zahlreichen <em>alumbradas</em> war, die die Inquisition in jenen Jahrzehnten verfolgte. Die Frage, ob sie ohne diesen st\u00e4ndigen Rechtfertigungsdruck dieselbe Klarheit \u00fcber ihre eigene innere Welt gefunden h\u00e4tte, bleibt offen.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Geschenk: Eine Sprache f\u00fcr das Innerste</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Teresa von \u00c1vila der Welt hinterlie\u00df, l\u00e4sst sich nicht auf siebzehn Klostergr\u00fcndungen reduzieren. Mit <em>Die innere Burg</em>, <em>Der Weg der Vollkommenheit</em> und ihrer Autobiografie schuf sie eine der eindr\u00fccklichsten Sprachen f\u00fcr mystische Erfahrung in der Geschichte der Weltliteratur &ndash; verfasst von einer Frau, in einer Zeit, in der Frauen theologisches Schreiben fast g\u00e4nzlich verwehrt war. 1970, fast vierhundert Jahre nach ihrem Tod, wurde sie gemeinsam mit Katharina von Siena als erste Frau \u00fcberhaupt zur <em>Kirchenlehrerin</em> erhoben &ndash; jener h\u00f6chsten Anerkennung, die die katholische Kirche f\u00fcr theologisches Wirken vergibt.</p>
-          <p class="vb-intro">So zeigt sich die SO3w4 in ihrer weitesten Wirkung: eine Frau, deren Bed\u00fcrfnis nach sichtbarer, unanfechtbarer Anerkennung sich mit einer Tiefe verband, die Jahrhunderte \u00fcberdauerte. Der Gepard mit dem Viererfl\u00fcgel kann eine ganze geistliche Tradition neu begr\u00fcnden &ndash; wenn er lernt, dass das Innerste, das er zu sch\u00fctzen versucht, gerade dann am st\u00e4rksten wirkt, wenn er es teilt.</p>
-        </blockquote>
-
-      </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
-        {route:"subtype/so3", label:"SO3 &ndash; Der Gepard: Subtyp-Profil"},
-        {route:"beruehmte-sean-connery", label:"Portr\u00e4t: Sean Connery (SO3w4)"},
-        {route:"beruehmte-karl-lagerfeld", label:"Portr\u00e4t: Karl Lagerfeld (SO3w4)"},
-        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
-        {route:"krankheitsportraets-teresa-von-avila", label:"Krankheitsporträt: Teresa von Ávila – Scheintod & Lähmung"},
       ])}
     </div>
   `);

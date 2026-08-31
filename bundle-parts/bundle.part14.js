@@ -1,3 +1,105 @@
+function superpowerDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Superpower der 9 Typen", "Schaubilder \u00b7 Spirituelle Sicht")}
+      <p class="psycho-intro">Suche nicht mehr im Au\u00dfen nach deinem vermeintlichen Gl\u00fcck \u2014 erkenne dein Verlangen (deine Kernmotivation), im Au\u00dfen nach dir selbst zu suchen. Indem du dir deiner intrinsischen Motivation nach und nach immer bewusster wirst, erkennst du den verzweifelten Versuch deiner Egostruktur und gibst ihn auf: den Holzweg, auf dem Rahmen der \u00e4u\u00dferen Lebensumst\u00e4nde Liebe zu erhalten, dabei aber genau das Gegenteil zu bewirken.</p>
+      <img src="./assets/superpower-der-9-typen.jpg" alt="Superpower der 9 Enneatypen aus spiritueller Sicht \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Superpower: Wahre Perfektion</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Perfektion bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 1 sucht Vollkommenheit im Au\u00dfen: in Regeln, Strukturen, Korrektheit. Die spirituelle Erkenntnis ist, dass diese Vollkommenheit keine Leistung ist, die erarbeitet werden muss, sondern eine Qualit\u00e4t, die bereits da ist \u2014 im Moment, in der Stille, im Sein. Perfektion ist nicht das Ergebnis von Verbesserung, sondern die Natur des Wesens selbst. Wenn der Typ 1 aufh\u00f6rt, die Welt zu korrigieren, und anf\u00e4ngt, sie so zu sehen wie sie ist, entdeckt er in jedem Augenblick eine Ordnung, die er nie h\u00e4tte erschaffen k\u00f6nnen. Das ist seine Superpower: die F\u00e4higkeit, das Vollkommene im Unvollkommenen zu erkennen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Superpower: Wahre Liebe</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Liebe bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 2 sucht Liebe durch Geben, durch Gebrauchtwerden, durch das Spiegeln im Dankblick des anderen. Die spirituelle Erkenntnis ist, dass Liebe nicht verdient werden muss \u2014 sie ist die Substanz, aus der er gemacht ist. Wenn der Typ 2 aufh\u00f6rt, Liebe durch F\u00fcrsorge zu gewinnen, und beginnt, sie als seinen eigentlichen Wesenskern zu erkennen, wird seine F\u00fcrsorge frei: kein Tausch mehr, sondern reines Str\u00f6men. Das ist seine Superpower: Liebe nicht als Mittel, sondern als Ursprung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Superpower: Wahrer Erfolg</h3>
+        <p class="vb-intro">Erkenne, dass der wahre Erfolg bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 3 misst seinen Wert am Ergebnis: an Titeln, Anerkennung, sichtbarem Vorankommen. Die spirituelle Erkenntnis ist, dass der Wert des Menschen nicht erarbeitet werden kann, weil er nicht verloren gegangen ist. Wenn der Typ 3 aufh\u00f6rt, sich durch Leistung zu beweisen, und beginnt, aus seinem Wert heraus zu handeln, wird sein Tun kraftvoller, echter und nachhaltiger. Das ist seine Superpower: Erfolg nicht als Ziel, sondern als nat\u00fcrlicher Ausdruck des inneren Reichtums.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Superpower: Wahre Individualit\u00e4t</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Individualit\u00e4t bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 4 sucht sich selbst in der Tiefe der Gef\u00fchle, in der Einzigartigkeit der Erfahrung, in der Sehnsucht nach dem, was fehlt. Die spirituelle Erkenntnis ist, dass er nicht einzigartig werden muss \u2014 er ist es, unrettbar und unwiderruflich. Keine Arbeit an sich selbst macht ihn mehr zu dem, was er schon ist. Wenn der Typ 4 aufh\u00f6rt, seine Unverwechselbarkeit zu suchen und anf\u00e4ngt, sie einfach zu verk\u00f6rpern, entsteht Kunst, die bewegt. Das ist seine Superpower: Einzigartigkeit als Geschenk, nicht als Aufgabe.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Superpower: Wahres Wissen</h3>
+        <p class="vb-intro">Erkenne, dass das wahre Wissen bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 5 sammelt Wissen als Schutz: Je mehr er versteht, desto sicherer f\u00fchlt er sich in einer Welt, die er als fordernd und ersch\u00f6pfend erlebt. Die spirituelle Erkenntnis ist, dass das tiefste Wissen nicht aus B\u00fcchern kommt, sondern aus der direkten Erfahrung des Bewusstseins selbst. Wenn der Typ 5 aufh\u00f6rt, Wissen zu akkumulieren, und beginnt, sich dem unmittelbaren Erleben zu \u00f6ffnen, entdeckt er eine Intelligenz, die gr\u00f6\u00dfer ist als jedes Konzept. Das ist seine Superpower: Wissen als lebendige Gegenwart, nicht als Archiv.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Superpower: Wahre Sicherheit</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Sicherheit bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 6 sucht Sicherheit in Strukturen, Autorit\u00e4t, Vertr\u00e4gen und treuen Verb\u00fcndeten \u2014 in allem, was verl\u00e4sslich erscheint. Die spirituelle Erkenntnis ist, dass keine \u00e4u\u00dfere Sicherheit je vollst\u00e4ndig sein kann, weil das Leben selbst unvorhersehbar ist. Die einzige Sicherheit, die nicht weggenommen werden kann, ist die des eigenen Grundes \u2014 die stille Gewissheit im Inneren, die bleibt, wenn alles andere sich ver\u00e4ndert. Das ist seine Superpower: Vertrauen nicht als Naivit\u00e4t, sondern als innere Verankerung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Superpower: Wahre Lebensfreude</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Lebensfreude bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 7 sucht Freude im n\u00e4chsten Erlebnis, im n\u00e4chsten Plan, im n\u00e4chsten Horizont \u2014 immer ein Schritt vor der Gegenwart. Die spirituelle Erkenntnis ist, dass Freude kein Ziel ist, das man erreichen kann, sondern die Natur des Bewusstseins selbst im Zustand der Offenheit. Wenn der Typ 7 aufh\u00f6rt zu suchen und beginnt, sich dem jetzigen Moment vollst\u00e4ndig hinzugeben, findet er dort eine Freude, die keine \u00e4u\u00dfere Ursache braucht. Das ist seine Superpower: Lebensfreude als Grundton, nicht als Errungenschaft.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Superpower: Wahre Macht</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Macht bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 8 sucht Macht durch Kontrolle, Einfluss und die F\u00e4higkeit, die Welt zu gestalten \u2014 er will nicht abh\u00e4ngig sein, nicht ausgeliefert. Die spirituelle Erkenntnis ist, dass die gr\u00f6\u00dfte Macht nicht die Kontrolle \u00fcber andere ist, sondern die Herrschaft \u00fcber sich selbst: die F\u00e4higkeit, inmitten von Chaos ruhig zu bleiben, inmitten von Verlockung weise zu entscheiden. Wenn der Typ 8 aufh\u00f6rt, St\u00e4rke zu demonstrieren und beginnt, sie zu sein, entsteht eine Autorit\u00e4t, die keine Lautst\u00e4rke braucht. Das ist seine Superpower: Macht aus dem Inneren heraus, nicht \u00fcber das Au\u00dfen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Superpower: Wahre Harmonie</h3>
+        <p class="vb-intro">Erkenne, dass die wahre Harmonie bereits hier und jetzt in dir liegt \u2014 denn das ist deine wahre innere St\u00e4rke. Der Typ 9 sucht Harmonie durch Anpassung, Konfliktmeidung und das stille Verschmelzen mit dem, was andere brauchen. Die spirituelle Erkenntnis ist, dass Harmonie kein Zustand ist, der durch Nachgeben hergestellt werden muss \u2014 sie ist die Grundschwingung des Seins selbst. Wenn der Typ 9 aufh\u00f6rt, sich selbst aufzul\u00f6sen, um Frieden zu schaffen, und beginnt, aus seinem eigenen Zentrum heraus zu leben, tr\u00e4gt er eine Stille in sich, die andere tats\u00e4chlich befriedet \u2014 nicht durch Anpassung, sondern durch Pr\u00e4senz. Das ist seine Superpower: Harmonie als inneres Sein, das ausstrahlt.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"hochsensibilitaet-der-9-typen", label:"Hochsensibilit\u00e4t der 9 Typen"},
+        {route:"wolkenformationen-der-9-typen", label:"Wolkenformationen der 9 Typen"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
+      ])}
+    </div>
+  `);
+}
+
+function wolkenformationenDer9TypenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Wolkenformationen der 9 Typen", "Schaubilder \u00b7 Archetypen")}
+      <p class="psycho-intro">Die Zuordnung von neun Wolkenformationen zu den neun Enneagrammprinzipien ist eine kreative Methode, um die vielf\u00e4ltigen Aspekte und Charakteristika dieser Wolken und deren Merkmale mit den verschiedenen Pers\u00f6nlichkeitstypen des Enneagramms zu verbinden. Der Himmel spiegelt in seinen unz\u00e4hligen Formen das gesamte Spektrum menschlicher Wesensarten \u2014 von klarer Struktur bis zur stillen Decke aus Gleichmut.</p>
+      <img src="./assets/wolkenformationen-der-9-typen.jpg" alt="Wolkenformationen der 9 Typen \u2013 Schaubild"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:#5f5f5f;">Typ 1 \u2013 Cumuluswolken: Ordnung und moralische Integrit\u00e4t</h3>
+        <p class="vb-intro">Cumuluswolken sind oft symmetrisch und gut definiert, was dem Streben des Perfektionisten nach Ordnung und Klarheit entspricht. Sie symbolisieren die hohe moralische Integrit\u00e4t und die Strebsamkeit von Typ 1. Die Cumuluswolke ist die Bilderbuch-Wolke: klar umrissen, wei\u00df leuchtend, in die H\u00f6he strebend. Sie entsteht durch aufsteigende Warmluft, die sich zu einem klar definierten K\u00f6rper formt \u2014 Chaos, das sich selbst Struktur gibt. Meteorologen nutzen Cumuluswolken als verl\u00e4ssliche Indikatoren: An ihrer Form l\u00e4sst sich das Wetter des Tages ablesen. Sie l\u00fcgen nicht. Die Leidenschaft des Zorns zeigt sich als innere Spannung, wenn der Horizont unordentlich wird und die Konturen verschwimmen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#7a2fa8;">Typ 2 \u2013 Strato-Cumuluswolken: F\u00fcrsorge und Geborgenheit</h3>
+        <p class="vb-intro">Stratocumuluswolken sind oft gro\u00dffl\u00e4chig und geben ein Gef\u00fchl von Schutz und Geborgenheit \u2014 \u00e4hnlich wie der Helfer, der sich um das Wohl anderer k\u00fcmmert und Unterst\u00fctzung bietet. Stratocumuluswolken bedecken den Himmel in weichen, ineinandergreifenden Schichten \u2014 keine Kante, keine Sch\u00e4rfe, alles flie\u00dft ineinander. Sie sind die h\u00e4ufigste Wolkenform der Erde: Millionen Quadratkilometer Himmel werden t\u00e4glich von ihnen bedeckt, ein stilles Dach \u00fcber der Welt. Unter ihnen f\u00fchlt sich der Tag ged\u00e4mpft und geborgen an. Die Leidenschaft des Stolzes zeigt sich als das tiefe Bed\u00fcrfnis, die sch\u00fctzende Schicht zu sein, die andere vor der K\u00e4lte bewahrt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#1fa688;">Typ 3 \u2013 Altocumuluswolken: Effizienz und Anerkennung</h3>
+        <p class="vb-intro">Altocumuluswolken sind in regelm\u00e4\u00dfigen Mustern angeordnet und k\u00f6nnen auf sonnige, klare Tage hindeuten. Sie repr\u00e4sentieren den Erfolgsorientierten, der durch seine Effizienz und Zielstrebigkeit besticht und ein hohes Ma\u00df an Anerkennung anstrebt. Altocumuluswolken bilden in mittlerer H\u00f6he pr\u00e4zise Reihen und Muster \u2014 das sogenannte \u201eSch\u00e4fchenwolken"-Muster, das Meteorologen als Zeichen atmosph\u00e4rischer Stabilit\u00e4t und geordneter Str\u00f6mungen lesen. Sie sind \u00e4sthetisch, geordnet und k\u00fcndigen in ihrer Regelm\u00e4\u00dfigkeit oft gutes Wetter an. Die Leidenschaft der Eitelkeit zeigt sich als Freude daran, ein sch\u00f6nes, geordnetes Bild zu abgeben \u2014 das Muster, das alle bewundern.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#3cbf1f;">Typ 4 \u2013 Lenticulariswolken: Einzigartigkeit und innere Tiefe</h3>
+        <p class="vb-intro">Lenticulariswolken sind selten und besitzen eine ungew\u00f6hnliche, oft linsenf\u00f6rmige Erscheinung. Diese einzigartigen Wolken spiegeln die Besonderheit und Kreativit\u00e4t des Individualisten wider, der sich von der Masse abheben m\u00f6chte. Lenticulariswolken entstehen, wenn Luftstr\u00f6mungen auf Berge oder Gebirgsz\u00fcge treffen und in stehenden Wellen oszillieren \u2014 das Ergebnis sind linsenf\u00f6rmige, glatte, manchmal mehrst\u00f6ckige Gebilde, die so aussehen, als w\u00e4ren sie gemalt. Sie bewegen sich nicht, obwohl der Wind durch sie hindurchbl\u00e4st. Piloten meiden sie wegen extremer Turbulenzen in ihrem Inneren. Die Leidenschaft des Neids zeigt sich als der Wunsch, so unverwechselbar zu sein wie diese Wolke \u2014 gesehen, aber nicht erkl\u00e4rt.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#124fcc;">Typ 5 \u2013 Cirruswolken: Distanz und analytische Klarheit</h3>
+        <p class="vb-intro">Cirruswolken sind hoch am Himmel und oft fein und faserig. Sie symbolisieren den Beobachter, der analytisch ist und seine Gedanken oft in h\u00f6here Sph\u00e4ren lenkt. Cirruswolken existieren in H\u00f6hen von acht bis dreizehn Kilometern \u2014 dort, wo die meisten anderen Wolken nicht mehr existieren k\u00f6nnen. Sie bestehen nicht aus Wassertropfen, sondern aus winzigen Eiskristallen, die das Sonnenlicht in feinen Schleiern brechen. Von dort oben ist der Blick klar und weit. Cirruswolken k\u00fcndigen oft Wetterver\u00e4nderungen an, die erst Tage sp\u00e4ter eintreten \u2014 ein Wissen, das nur aus der Distanz m\u00f6glich ist. Die Leidenschaft des Geizes zeigt sich als Sparsamkeit mit N\u00e4he: sch\u00f6n anzuschauen, aber unerreichbar.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#8a5222;">Typ 6 \u2013 Nimbostratuswolken: Loyalit\u00e4t und Verl\u00e4sslichkeit</h3>
+        <p class="vb-intro">Nimbostratuswolken sind weit verbreitet, oft verbunden mit lang anhaltendem Regen. Sie symbolisieren die Best\u00e4ndigkeit und Verl\u00e4sslichkeit des Loyalisten, der auch in schwierigen Zeiten standh\u00e4lt, auch wenn die Umst\u00e4nde schwierig sind. Nimbostratuswolken bedecken den gesamten Himmel in einem einheitlichen, dichten Grau \u2014 keine L\u00fccken, keine Variation, kein Ende in Sicht. Sie bringen keinen dramatischen Sturzregen, sondern anhaltenden, gleichm\u00e4\u00dfigen Dauerregen \u2014 stundenlang, manchmal tagelang. Man kann sich auf sie verlassen: Wenn Nimbostratus da ist, bleibt er. Die Leidenschaft der Angst zeigt sich als das Gef\u00fchl, den Himmel im Blick behalten zu m\u00fcssen \u2014 was, wenn der Regen nicht aufh\u00f6rt?</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#d4a800;">Typ 7 \u2013 Cumulonimbuswolken: Energie und Abenteuerlust</h3>
+        <p class="vb-intro">Cumulonimbuswolken sind beeindruckend und energetisch, oft verbunden mit heftigen Wetterph\u00e4nomenen. Sie repr\u00e4sentieren den Enthusiasten, der lebendig, abenteuerlustig und auf der Suche nach neuen Erfahrungen ist. Der Cumulonimbus ist die gr\u00f6\u00dfte Wolkenformation der Erde: Er reicht von wenigen Hundert Metern \u00fcber dem Boden bis in die Stratosph\u00e4re \u2014 bis zu 18 Kilometer hoch. In seinem Inneren toben Aufwinde von \u00fcber 200 km/h, es blitzt und donnert, Hagelk\u00f6rner bilden sich und schmelzen und formen sich erneut. Der Cumulonimbus ist das Gegenteil von Stille: Er ist Spektakel, Energie, Verwandlung. Die Leidenschaft der V\u00f6llerei zeigt sich als uners\u00e4ttliche Aufw\u00e4rtsbewegung.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#a00802;">Typ 8 \u2013 Wall Clouds (Mauerwolken): Macht und Durchsetzungsf\u00e4higkeit</h3>
+        <p class="vb-intro">Wall Clouds sind tiefh\u00e4ngende, bedrohlich wirkende Wolken, die oft starke Wetterereignisse ank\u00fcndigen. Sie symbolisieren die Macht und Durchsetzungsf\u00e4higkeit des Herausforderers, der konfrontativ und stark ist. Mauerwolken entstehen an der Basis von Superzellen-Gewittern \u2014 rotierenden Sturmsystemen, die zu den m\u00e4chtigsten Wetterph\u00e4nomenen der Erde geh\u00f6ren. Sie h\u00e4ngen tief und dunkel herab, oft mit sichtbarer Rotation, als w\u00fcrde der Himmel selbst eine Faust ballen. Ihr Erscheinen ist ein unmissverst\u00e4ndliches Signal: Hier kommt etwas, das keiner aufhalten kann. Die Leidenschaft der Gier zeigt sich als Wille, die gesamte atmosph\u00e4rische Energie in sich zu konzentrieren.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:#cc6e00;">Typ 9 \u2013 Stratuswolken: Harmonie und stille Ausgeglichenheit</h3>
+        <p class="vb-intro">Stratuswolken sind gleichm\u00e4\u00dfig und bedecken oft den gesamten Himmel, was ein Gef\u00fchl von Stabilit\u00e4t vermittelt. Sie repr\u00e4sentieren den Friedensstifter, der nach Harmonie und Ausgeglichenheit strebt. Stratuswolken sind die ruhigsten aller Wolken: eine gleichm\u00e4\u00dfige, niedrige Schicht, die den Himmel wie eine weiche Decke bedeckt \u2014 kein Drama, keine Konturen, keine Bewegung. Sie bringen h\u00f6chstens feinen Nieselregen oder Nebel. Unter Stratuswolken wird die Welt leise: kein harter Schatten, kein grelles Licht, alles ist diffus und gleichm\u00e4\u00dfig erhellt. Die Leidenschaft der Tr\u00e4gheit zeigt sich als der tiefe Wunsch, diese Decke zu sein \u2014 alles zu d\u00e4mpfen, alles zu gl\u00e4tten, nichts eskalieren zu lassen.</p>
+
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "\u00dcbersichten, Schaubilder und Typbeschreibungen \u2013 der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist \u2013 Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen \u2013 Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist \u2013 Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das gro\u00dfe Bild \u2013 Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist \u2013 Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"superpower-der-9-typen", label:"Superpower der 9 Typen"},
+        {route:"wolfsarten-der-9-typen", label:"Wolfsarten der 9 Typen"},
+        {route:"eulenarten-der-9-typen", label:"Eulenarten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function wolfsartenDer9TypenPage() {
   return shell(`
     <div class="page-container">

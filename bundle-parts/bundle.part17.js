@@ -5221,6 +5221,7 @@ function render() {
       "beruehmte-winifred-charlesworth": winifredCharlesworthPortraitPage,
       "beruehmte-marisa-abela": marisaAbelaPortraitPage,
       "beruehmte-hannah-emde": hannahEmdePortraitPage,
+      "beruehmte-eva-peron": evaPeronPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,

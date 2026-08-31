@@ -1,3 +1,193 @@
+function ludwigVanBeethovenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ludwig-van-beethoven-portrait.jpg" alt="Ludwig van Beethoven" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ludwig van Beethoven</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel · 1770–1827</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ludwig van Beethoven</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-ludwig-van-beethoven">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Typstruktur und seinen jahrzehntelangen
+        Kampf gegen die fortschreitende Taubheit. Hier steht ein Kapitel im Mittelpunkt, das dort
+        knapp angerissen wird: eine zweite, parallel verlaufende Erkrankung des übrigen Körpers –
+        chronische Bauchleiden, eine mögliche Bleivergiftung und eine Leberzirrhose, die ihn
+        schließlich mit 56 Jahren das Leben kostete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Beethoven</strong> ist der <strong>sexuellen Sechs mit Fünferflügel</strong>
+        zugeordnet. Naranjo beschrieb die SX6 als Kontratyp der Sechs: Statt sich vor Bedrohung
+        zurückzuziehen, begegnet sie ihr mit demonstrativer Stärke. Der Fünferflügel bringt
+        analytische Tiefe und die Fähigkeit, sich in Struktur und Arbeit zu vertiefen – ein Muster,
+        das sich bis in Beethovens letzte, von zwei parallelen Krankheiten gezeichnete
+        Lebensjahre nachverfolgen lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Zwei Krankheiten, ein Muster:</strong>
+        Neben der fortschreitenden Taubheit, die im Porträt unter Berühmte Persönlichkeiten
+        ausführlich gedeutet wird, litt Beethoven Zeit seines Erwachsenenlebens an einer zweiten,
+        weit weniger bekannten Krankheitslinie – chronischen Bauchbeschwerden, die er mit
+        derselben trotzigen Weiterarbeit beantwortete wie den Hörverlust.</p>
+        <p class="vb-intro"><strong>b) Kolikartige Schmerzen schon ab Mitte zwanzig:</strong>
+        Bereits um 1798, im selben Zeitraum, in dem die ersten Anzeichen der Taubheit auftraten,
+        klagte Beethoven in Briefen über schwere Kolikanfälle, Durchfälle und Verdauungsstörungen –
+        ein Leiden, das ihn bis zu seinem Tod begleitete und nie eindeutig diagnostiziert wurde.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten statt Schonung:</strong>
+        Freunde und Ärzte drängten wiederholt zu Kuraufenthalten und Diät. Beethoven hielt sich
+        selten lange daran – kaum ließ der akute Schub nach, kehrte er zu Kaffee, Wein und
+        durchgearbeiteten Nächten zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Verdacht auf Bleivergiftung:</strong>
+        Haaranalysen und eine 2023 veröffentlichte DNA-Untersuchung erhaltener Haarlocken sowie
+        eines Schädelfragments fanden stark erhöhte Bleiwerte in Beethovens Körper – mögliche
+        Quellen reichen von bleihaltigem Wein über medizinische Behandlungen bis zu
+        Trinkwasserleitungen. Ob die Bleibelastung tatsächlich zur Taubheit oder zu den späteren
+        Leberschäden beitrug, bleibt bis heute wissenschaftlich umstritten.</p>
+        <p class="vb-intro"><strong>b) Ein Leben ohne Schonhaltung:</strong>
+        Beethoven rauchte nicht, aber trank regelmäßig Wein, oft in Mengen, die seine Ärzte als
+        gesundheitsschädlich einstuften – bei einer bereits vorbelasteten Leber ein Muster, das
+        den langsamen Verfall über Jahrzehnte beschleunigte, ohne dass er es je grundlegend
+        änderte.</p>
+        <p class="vb-intro"><strong>c) Gelbsucht und erste Anzeichen der Leberkrankheit:</strong>
+        Ab etwa 1821 traten wiederholt Episoden von Gelbsucht auf – ein deutliches Zeichen
+        fortschreitender Leberschädigung, das Beethoven wie schon die Taubheit zuvor eher
+        verdrängte als in seiner Tragweite ernst nahm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Zusammenbruch im Dezember 1826:</strong>
+        Auf der Rückreise von seinem Bruder Johann geriet Beethoven in einem offenen,
+        ungefederten Wagen in klirrende Kälte. Kurz danach erkrankte er an einer schweren
+        Lungenentzündung, von der er sich nie mehr erholte – der Auftakt zu seinen letzten
+        vier Lebensmonaten.</p>
+        <p class="vb-intro"><strong>b) Vier schmerzhafte Bauchpunktionen:</strong>
+        Die fortschreitende Leberzirrhose führte zu massiven Wassereinlagerungen im Bauchraum
+        (Aszites). Zwischen Dezember 1826 und Februar 1827 musste Beethoven vier Mal unter
+        großen Schmerzen operativ punktiert werden, um die angesammelte Flüssigkeit abzulassen –
+        bei der letzten Punktion floss die Wunde tagelang unkontrolliert weiter.</p>
+        <p class="vb-intro"><strong>c) Der Tod während eines Gewitters:</strong>
+        Beethoven starb am 26. März 1827 in Wien, während draußen ein schweres Frühlingsgewitter
+        tobte. Der Überlieferung nach öffnete er beim Aufflammen eines Blitzes und einem lauten
+        Donnerschlag noch einmal die Augen, ballte die rechte Faust und sank dann zurück – tot.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Obduktionsbefund, der das ganze Ausmaß zeigte:</strong>
+        Die Obduktion am Tag nach seinem Tod ergab eine massiv geschrumpfte, knotig vernarbte
+        Leber (Zirrhose) sowie schwer geschädigte Nieren – ein Befund, der zeigt, dass der
+        Organismus über Jahre auf einem Bruchteil seiner Funktionsfähigkeit weiterarbeitete.</p>
+        <p class="vb-intro"><strong>b) Zwei Erkrankungen, die einander verstärkten:</strong>
+        Die vollständige Taubheit isolierte Beethoven zunehmend von seinem sozialen Umfeld,
+        während die Bauch- und Lebererkrankung seine körperliche Kraft parallel dazu aufzehrte –
+        zwei voneinander unabhängige Bedrohungen, denen er mit derselben Haltung begegnete: nicht
+        ausweichen, sondern weiterarbeiten.</p>
+        <p class="vb-intro"><strong>c) Kompositorische Höchstleistung trotz doppelter Krankheit:</strong>
+        Ausgerechnet in den Jahren, in denen beide Krankheiten am weitesten fortgeschritten waren,
+        entstanden die späten Streichquartette und die Neunte Symphonie – Werke von einer Tiefe,
+        die viele Zeitgenossen zunächst überforderte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kampfhaltung auch gegen den eigenen Körper:</strong>
+        Wie er einst Fürst Lichnowsky die Stirn geboten hatte, begegnete Beethoven auch der
+        eigenen, doppelten Erkrankung nicht mit Rückzug oder Schonung, sondern mit fortgesetzter,
+        kompromissloser Arbeit bis zuletzt.</p>
+        <p class="vb-intro"><strong>b) Kraft, die sich gegen den eigenen Zerfall richtete:</strong>
+        Selbst nach den schmerzhaften Bauchpunktionen und zunehmender Schwäche diktierte
+        Beethoven seinem Neffen Karl noch Briefe und beschäftigte sich mit Plänen für eine
+        zehnte Symphonie – Energie, die buchstäblich bis in die letzten Wochen hinein nach außen
+        gerichtet blieb.</p>
+        <p class="vb-intro"><strong>c) Die geballte Faust als letzte Geste:</strong>
+        Ob die Überlieferung vom Blitzschlag im Moment seines Todes historisch exakt ist oder
+        nicht – die geballte Faust, mit der Beethoven angeblich starb, ist zum Sinnbild einer
+        Haltung geworden, die sein ganzes Leben trug: der Bedrohung, jeder Bedrohung, nicht
+        ausweichen, sondern ihr die Stirn bieten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Zwei Bedrohungen, eine Reaktion:</strong>
+        Ob Gehör oder Leber – Beethoven begegnete keiner der beiden fortschreitenden Erkrankungen
+        mit Rückzug oder Anpassung des Lebensstils, sondern mit derselben trotzigen
+        Weiterarbeit, die schon seinen Umgang mit Adligen und Kritikern prägte.</p>
+        <p class="vb-intro"><strong>b) Fast dreißig Jahre zwischen ersten Symptomen und Tod:</strong>
+        Von den ersten Kolikanfällen um 1798 bis zu seinem Tod 1827 lebte Beethoven fast drei
+        Jahrzehnte mit chronischen Beschwerden, die er nie in den Mittelpunkt seines Lebens
+        stellte, sondern die er – ähnlich wie die Taubheit – durch fortgesetzte schöpferische
+        Arbeit gewissermaßen überschrieb.</p>
+        <p class="vb-intro"><strong>c) Konfrontation statt Schonung als durchgehendes Muster:</strong>
+        Anders als Karl Lagerfeld (SO3w4), der seine Krankheit hinter einem makellosen Bild
+        verbarg, oder Franz Schubert (SE6w5), der sich zunehmend zurückzog, ignorierte Beethoven
+        – ganz wie sein SX6w5-Schicksalsgenosse Friedrich Schiller – seine Krankheit nicht durch
+        Verheimlichung, sondern durch fortgesetzte, unvermindert intensive Arbeit, bis der Körper
+        keine weitere Konfrontation mehr zuließ.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Gehör und Leber?</strong>
+        Für eine sexuelle Sechs, deren gesamtes Leben aus dem direkten, oft kompromisslosen
+        Konfrontieren von Bedrohung bestand, liegt eine Deutung nahe: Ausgerechnet zwei zentrale
+        Organe – das Gehör, über das er seine Kunst wahrnahm, und die Leber, die den fortgesetzten
+        Raubbau an seinem Körper über Jahrzehnte trug – wurden Schauplatz eines doppelten,
+        unsichtbaren Kampfes, den er nie durch Rückzug, sondern immer nur durch Weiterarbeiten zu
+        gewinnen versuchte. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Leber- oder
+        Gehörerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Beethovens Fall zeigen lässt, ist ein Muster, das bei
+        dem Bedürfnis, Bedrohung – auch die eigene Sterblichkeit – nicht durch Rückzug, sondern
+        durch fortgesetzte Konfrontation zu bewältigen, in der Praxis immer wieder auffällt –
+        eine von vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Beethoven kannte sein eigenes Muster nicht – die sexuelle Sechs begegnet jeder Bedrohung mit Konfrontation statt mit Rückzug, und genau das trieb ihn dazu, sowohl der Taubheit als auch dem eigenen körperlichen Verfall mit fortgesetzter, kompromissloser Arbeit zu begegnen, statt sich zu schonen. Wer das eigene Konfrontationsmuster nicht kennt, verwechselt Durchhalten mit der einzig möglichen Antwort auf Bedrohung.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch am Krankheitsverlauf lässt sich <strong>Beethovens</strong> sexuelle Sechs mit
+        Fünferflügel noch einmal ablesen: zwei parallel fortschreitende, jahrzehntelange
+        Erkrankungen – Taubheit und Leberleiden –, denen er nie mit Rückzug, sondern immer mit
+        fortgesetzter, kompromissloser Arbeit begegnete, bis am 26. März 1827 buchstäblich kein
+        Widerstand mehr möglich war. Der Wolf, der der Bedrohung – ob Fürst, Kritiker, Taubheit
+        oder der eigenen Sterblichkeit – nie auswich, sondern ihr bis zur letzten geballten Faust
+        die Stirn bot.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – derselbe Subtyp, dieselbe Konfrontationshaltung"},
+        {route:"krankheitsportraets-franz-schubert", label:"Krankheitsporträt: Franz Schubert (SE6w5) – Gegenmodell: Rückzug statt Konfrontation"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+      ])}
+    </div>
+  `);
+}
+
 function michaelJacksonKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -12920,181 +13110,6 @@ function adeleKrankheitsportraetPage() {
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
-      ])}
-    </div>
-  `);
-}
-
-function jamieLeeCurtisKrankheitsportraetPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("krankheitsportraets")}
-      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-jamie-lee-curtis-portrait.jpg" alt="Jamie Lee Curtis" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Jamie Lee Curtis</p>
-        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel · geb. 1958</p>
-        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Schwarze Mamba</span>
-          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          </span>
-        </p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Jamie Lee Curtis</strong> ist bereits als
-        <a href="javascript:void(0)" data-route="beruehmte-jamie-lee-curtis">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nur kurz erwähnt wird: eine 22 Jahre andauernde Opiatabhängigkeit,
-        die 1989 nach einer kosmetischen Operation begann und die sie erst 1999 überwand.
-      </p>
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Curtis</strong> ist dem <strong>sexuellen Typ 1 mit Zweierflügel</strong>
-        zugeordnet. Die SX1 duldet keine Heuchelei, auch nicht gegenüber sich selbst; der
-        Zweierflügel bringt die Fürsorge hinzu, die schließlich den Anstoß zum Ausstieg gab.
-        Genau diese Kombination – jahrelanges heimliches Scheitern an einem selbst
-        gesetzten Anspruch, gefolgt von einer radikal ehrlichen, öffentlichen Aufarbeitung –
-        bestimmte den Verlauf ihrer Suchterkrankung.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
-        <p class="vb-intro"><strong>a) Verordnung von Opiaten nach kosmetischer Operation 1989:</strong>
-        Nach eigener Schilderung erhielt Curtis nach einem kleinen kosmetischen Eingriff an
-        den Augenlidern 1989 Opiate verschrieben, die zunächst regulär eingesetzt wurden.</p>
-        <p class="vb-intro"><strong>b) Schleichender Übergang zur Abhängigkeit:</strong>
-        Aus der ärztlich verordneten Schmerzbehandlung entwickelte sich über Jahre eine
-        körperliche Abhängigkeit, die weit über die ursprünglich beabsichtigte Anwendung
-        hinausging.</p>
-        <p class="vb-intro"><strong>c) Jahrelange, sorgfältig verborgene Fortsetzung:</strong>
-        Curtis beschrieb später, wie sie über zehn Jahre lang eine funktionierende
-        Fassade aufrechterhielt, während sie heimlich Vicodin nahm – auch gegenüber engsten
-        Familienmitgliedern.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Entdeckung durch die eigene Schwester:</strong>
-        Nach eigener Aussage wurde die Abhängigkeit publik, als sie feststellte, dass sie
-        Alkoholika und Medikamente ihrer Schwester genommen hatte – ein Moment, der sie
-        zwang, sich der Realität ihrer Sucht zu stellen.</p>
-        <p class="vb-intro"><strong>b) Sofortiger Entschluss zur Abstinenz 1999:</strong>
-        Curtis beschreibt den 19. Februar 1999 als den Tag, an dem sie zuletzt Opiate oder
-        Alkohol konsumierte – ein Datum, das sie seither konsequent als ihren Nüchternheits-Jahrestag begeht.</p>
-        <p class="vb-intro"><strong>c) Unterstützung durch familiäre und therapeutische Strukturen:</strong>
-        Der Ausstieg gelang nach eigener Schilderung durch eine Kombination aus Therapie,
-        Selbsthilfegruppen und dem offenen Rückhalt ihrer Familie.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
-        <p class="vb-intro"><strong>a) Frühe öffentliche Offenlegung:</strong>
-        Curtis sprach bereits Anfang der 2000er-Jahre öffentlich über ihre Suchterkrankung –
-        zu einem Zeitpunkt, an dem Prominente ihre Abhängigkeiten in der Regel noch
-        verschwiegen.</p>
-        <p class="vb-intro"><strong>b) Engagement für Suchthilfe-Organisationen:</strong>
-        Seither unterstützt sie öffentlich Organisationen, die sich für Suchtprävention und
-        -behandlung einsetzen, und spricht regelmäßig über den Zusammenhang zwischen
-        verschriebenen Schmerzmitteln und Opioidabhängigkeit.</p>
-        <p class="vb-intro"><strong>c) Kritik an der Rolle der Pharmaindustrie:</strong>
-        Curtis äußerte sich wiederholt kritisch zur Verantwortung von Pharmaunternehmen bei
-        der US-amerikanischen Opioidkrise, auch mit Blick auf ihre eigene Erfahrung als
-        Patientin.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
-        <p class="vb-intro"><strong>a) Anerkennung als eine der ersten offenen Stimmen Hollywoods:</strong>
-        Curtis gilt bis heute als eine der ersten großen Hollywood-Schauspielerinnen, die
-        offen und ohne Umschweife über eine eigene Suchterkrankung sprach.</p>
-        <p class="vb-intro"><strong>b) Über zwei Jahrzehnte anhaltende Nüchternheit:</strong>
-        Seit 1999 bezeichnet sich Curtis öffentlich als nüchtern – eine Kontinuität, die sie
-        regelmäßig in Interviews und Reden thematisiert, ohne den Kampf zu verklären.</p>
-        <p class="vb-intro"><strong>c) Kein Karriereeinschnitt durch die Offenlegung:</strong>
-        Anders als befürchtet schadete die öffentliche Offenheit ihrer Karriere nicht –
-        Curtis blieb durchgängig aktiv und erreichte mit dem Oscar 2023 sogar den bislang
-        größten Erfolg ihrer Laufbahn.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der innere Widerspruch zwischen Anspruch und heimlicher Sucht:</strong>
-        Die SX1-typische Unduldsamkeit gegenüber Heuchelei traf bei Curtis auf eine
-        Erkrankung, die sie über Jahre selbst zur Heuchlerin machte – ein Widerspruch, der
-        die spätere, besonders schonungslose Offenheit miterklärt.</p>
-        <p class="vb-intro"><strong>b) Der Zweierflügel und der Impuls zur Fürsorge nach dem Ausstieg:</strong>
-        Sobald Curtis die eigene Abhängigkeit überwunden hatte, richtete sich dieselbe
-        Energie, die zuvor nach innen gerichtet war, nach außen: Sie begann, andere
-        Betroffene zu unterstützen und öffentlich für Suchtprävention einzutreten.</p>
-        <p class="vb-intro"><strong>c) Radikale Offenheit als Ausdruck der Leidenschaft:</strong>
-        Dass Curtis ihre Sucht nicht nur beendete, sondern aktiv öffentlich machte, passt zur
-        SX1-typischen Überzeugung, dass Echtheit mehr zählt als Schein – auch wenn diese
-        Echtheit die eigene Schwäche einschließt.</p>
-      </div>
-
-      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Eine Frau, die Echtheit predigt und über zehn Jahre eine Sucht verbarg:</strong>
-        Curtis' gesamtes späteres öffentliches Wirken beruht auf der Überzeugung, dass das
-        Echte mehr wert ist als der Schein – ausgerechnet sie lebte über zehn Jahre lang
-        genau den Schein, den sie später am schärfsten kritisieren sollte.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
-        Williams (SX1w2)</a>: Auch Williams verbarg eine jahrzehntelange Sucht- und
-        Depressionserkrankung hinter einer öffentlich erfolgreichen Fassade, bevor er sich
-        radikal offen dazu bekannte. Bei beiden SX1w2ern zeigt sich dasselbe Muster: der
-        Anspruch an absolute Echtheit, der die eigene heimliche Sucht umso unerträglicher
-        macht, sobald sie erkannt wird – und der dieselbe Intensität später in eine
-        schonungslos offene Aufarbeitung verwandelt.</p>
-        <p class="vb-intro"><strong>c) Warum ausgerechnet Opiate, die chemische Abschwächung der eigenen Intensität?</strong>
-        Für eine sexuelle Eins mit Zweierflügel, deren gesamtes Wesen auf vollständiger
-        Präsenz und Intensität beruht, liegt eine Deutung nahe: Opiate erzeugen genau jene
-        Dämpfung und Distanz zur eigenen Wachheit, die dem SX1-Muster diametral
-        entgegensteht – eine Substanz, die das eigene Feuer betäubt, statt es zu nähren.
-        Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
-        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
-        ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
-        Opioidabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
-        unabhängig vom Subtyp.</strong> Was sich an Curtis' Fall zeigen lässt, ist ein
-        Muster im Umgang mit einer überwundenen Suchterkrankung, das bei einer ausgeprägten
-        sexuellen Eins mit Zweierflügel immer wieder auffällt – eine von vielen möglichen
-        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
-        und nach im
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
-        ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Curtis kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Eins mit
-        Zweierflügel hält reflexhaft an einem Anspruch absoluter Echtheit fest, was das
-        Eingeständnis eigener Schwäche über Jahre besonders schwer macht, und lebte genau
-        dieses Muster bis zur erzwungenen Konfrontation mit der eigenen Sucht aus. Wer die
-        eigene Neigung, Scheitern länger zu verbergen, je höher der eigene moralische
-        Anspruch ist, nicht als Muster erkennt, riskiert, dass die Sucht sich über Jahre
-        unbemerkt festsetzt.</p>
-      </div>
-
-      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
-        <p class="vb-intro" style="margin-bottom:0;">
-        Der sexuelle Typ 1 mit Zweierflügel erklärt bei <strong>Jamie Lee Curtis</strong>
-        vieles am Verlauf ihrer Suchterkrankung: eine Frau, deren gesamtes späteres Wirken
-        der Echtheit gilt, musste erst selbst über ein Jahrzehnt lang die Erfahrung des
-        eigenen Scheins durchleben, bevor sie ihre Wahrheit aussprechen konnte – die Schwarze
-        Mamba, die sich selbst am längsten getäuscht hat, bevor sie zur schärfsten Stimme
-        gegen genau diese Täuschung wurde.</p>
-      </div>
-
-      ${relatedLinks([
-        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
-        {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
-        {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}
     </div>
   `);

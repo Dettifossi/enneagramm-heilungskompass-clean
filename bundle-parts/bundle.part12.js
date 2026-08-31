@@ -1,3 +1,178 @@
+function jamieLeeCurtisKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jamie-lee-curtis-portrait.jpg" alt="Jamie Lee Curtis" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jamie Lee Curtis</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel · geb. 1958</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jamie Lee Curtis</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jamie-lee-curtis">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nur kurz erwähnt wird: eine 22 Jahre andauernde Opiatabhängigkeit,
+        die 1989 nach einer kosmetischen Operation begann und die sie erst 1999 überwand.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Curtis</strong> ist dem <strong>sexuellen Typ 1 mit Zweierflügel</strong>
+        zugeordnet. Die SX1 duldet keine Heuchelei, auch nicht gegenüber sich selbst; der
+        Zweierflügel bringt die Fürsorge hinzu, die schließlich den Anstoß zum Ausstieg gab.
+        Genau diese Kombination – jahrelanges heimliches Scheitern an einem selbst
+        gesetzten Anspruch, gefolgt von einer radikal ehrlichen, öffentlichen Aufarbeitung –
+        bestimmte den Verlauf ihrer Suchterkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verordnung von Opiaten nach kosmetischer Operation 1989:</strong>
+        Nach eigener Schilderung erhielt Curtis nach einem kleinen kosmetischen Eingriff an
+        den Augenlidern 1989 Opiate verschrieben, die zunächst regulär eingesetzt wurden.</p>
+        <p class="vb-intro"><strong>b) Schleichender Übergang zur Abhängigkeit:</strong>
+        Aus der ärztlich verordneten Schmerzbehandlung entwickelte sich über Jahre eine
+        körperliche Abhängigkeit, die weit über die ursprünglich beabsichtigte Anwendung
+        hinausging.</p>
+        <p class="vb-intro"><strong>c) Jahrelange, sorgfältig verborgene Fortsetzung:</strong>
+        Curtis beschrieb später, wie sie über zehn Jahre lang eine funktionierende
+        Fassade aufrechterhielt, während sie heimlich Vicodin nahm – auch gegenüber engsten
+        Familienmitgliedern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Entdeckung durch die eigene Schwester:</strong>
+        Nach eigener Aussage wurde die Abhängigkeit publik, als sie feststellte, dass sie
+        Alkoholika und Medikamente ihrer Schwester genommen hatte – ein Moment, der sie
+        zwang, sich der Realität ihrer Sucht zu stellen.</p>
+        <p class="vb-intro"><strong>b) Sofortiger Entschluss zur Abstinenz 1999:</strong>
+        Curtis beschreibt den 19. Februar 1999 als den Tag, an dem sie zuletzt Opiate oder
+        Alkohol konsumierte – ein Datum, das sie seither konsequent als ihren Nüchternheits-Jahrestag begeht.</p>
+        <p class="vb-intro"><strong>c) Unterstützung durch familiäre und therapeutische Strukturen:</strong>
+        Der Ausstieg gelang nach eigener Schilderung durch eine Kombination aus Therapie,
+        Selbsthilfegruppen und dem offenen Rückhalt ihrer Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Frühe öffentliche Offenlegung:</strong>
+        Curtis sprach bereits Anfang der 2000er-Jahre öffentlich über ihre Suchterkrankung –
+        zu einem Zeitpunkt, an dem Prominente ihre Abhängigkeiten in der Regel noch
+        verschwiegen.</p>
+        <p class="vb-intro"><strong>b) Engagement für Suchthilfe-Organisationen:</strong>
+        Seither unterstützt sie öffentlich Organisationen, die sich für Suchtprävention und
+        -behandlung einsetzen, und spricht regelmäßig über den Zusammenhang zwischen
+        verschriebenen Schmerzmitteln und Opioidabhängigkeit.</p>
+        <p class="vb-intro"><strong>c) Kritik an der Rolle der Pharmaindustrie:</strong>
+        Curtis äußerte sich wiederholt kritisch zur Verantwortung von Pharmaunternehmen bei
+        der US-amerikanischen Opioidkrise, auch mit Blick auf ihre eigene Erfahrung als
+        Patientin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Anerkennung als eine der ersten offenen Stimmen Hollywoods:</strong>
+        Curtis gilt bis heute als eine der ersten großen Hollywood-Schauspielerinnen, die
+        offen und ohne Umschweife über eine eigene Suchterkrankung sprach.</p>
+        <p class="vb-intro"><strong>b) Über zwei Jahrzehnte anhaltende Nüchternheit:</strong>
+        Seit 1999 bezeichnet sich Curtis öffentlich als nüchtern – eine Kontinuität, die sie
+        regelmäßig in Interviews und Reden thematisiert, ohne den Kampf zu verklären.</p>
+        <p class="vb-intro"><strong>c) Kein Karriereeinschnitt durch die Offenlegung:</strong>
+        Anders als befürchtet schadete die öffentliche Offenheit ihrer Karriere nicht –
+        Curtis blieb durchgängig aktiv und erreichte mit dem Oscar 2023 sogar den bislang
+        größten Erfolg ihrer Laufbahn.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der innere Widerspruch zwischen Anspruch und heimlicher Sucht:</strong>
+        Die SX1-typische Unduldsamkeit gegenüber Heuchelei traf bei Curtis auf eine
+        Erkrankung, die sie über Jahre selbst zur Heuchlerin machte – ein Widerspruch, der
+        die spätere, besonders schonungslose Offenheit miterklärt.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und der Impuls zur Fürsorge nach dem Ausstieg:</strong>
+        Sobald Curtis die eigene Abhängigkeit überwunden hatte, richtete sich dieselbe
+        Energie, die zuvor nach innen gerichtet war, nach außen: Sie begann, andere
+        Betroffene zu unterstützen und öffentlich für Suchtprävention einzutreten.</p>
+        <p class="vb-intro"><strong>c) Radikale Offenheit als Ausdruck der Leidenschaft:</strong>
+        Dass Curtis ihre Sucht nicht nur beendete, sondern aktiv öffentlich machte, passt zur
+        SX1-typischen Überzeugung, dass Echtheit mehr zählt als Schein – auch wenn diese
+        Echtheit die eigene Schwäche einschließt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Frau, die Echtheit predigt und über zehn Jahre eine Sucht verbarg:</strong>
+        Curtis' gesamtes späteres öffentliches Wirken beruht auf der Überzeugung, dass das
+        Echte mehr wert ist als der Schein – ausgerechnet sie lebte über zehn Jahre lang
+        genau den Schein, den sie später am schärfsten kritisieren sollte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-robbie-williams">Robbie
+        Williams (SX1w2)</a>: Auch Williams verbarg eine jahrzehntelange Sucht- und
+        Depressionserkrankung hinter einer öffentlich erfolgreichen Fassade, bevor er sich
+        radikal offen dazu bekannte. Bei beiden SX1w2ern zeigt sich dasselbe Muster: der
+        Anspruch an absolute Echtheit, der die eigene heimliche Sucht umso unerträglicher
+        macht, sobald sie erkannt wird – und der dieselbe Intensität später in eine
+        schonungslos offene Aufarbeitung verwandelt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Opiate, die chemische Abschwächung der eigenen Intensität?</strong>
+        Für eine sexuelle Eins mit Zweierflügel, deren gesamtes Wesen auf vollständiger
+        Präsenz und Intensität beruht, liegt eine Deutung nahe: Opiate erzeugen genau jene
+        Dämpfung und Distanz zur eigenen Wachheit, die dem SX1-Muster diametral
+        entgegensteht – eine Substanz, die das eigene Feuer betäubt, statt es zu nähren.
+        Diese Deutung ist eine plausible Interpretation, kein belegter klinischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins zwangsläufig zu
+        Opioidabhängigkeit führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Curtis' Fall zeigen lässt, ist ein
+        Muster im Umgang mit einer überwundenen Suchterkrankung, das bei einer ausgeprägten
+        sexuellen Eins mit Zweierflügel immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Curtis kennt ihr eigenes Muster nicht als Enneagramm-Struktur – die sexuelle Eins mit
+        Zweierflügel hält reflexhaft an einem Anspruch absoluter Echtheit fest, was das
+        Eingeständnis eigener Schwäche über Jahre besonders schwer macht, und lebte genau
+        dieses Muster bis zur erzwungenen Konfrontation mit der eigenen Sucht aus. Wer die
+        eigene Neigung, Scheitern länger zu verbergen, je höher der eigene moralische
+        Anspruch ist, nicht als Muster erkennt, riskiert, dass die Sucht sich über Jahre
+        unbemerkt festsetzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der sexuelle Typ 1 mit Zweierflügel erklärt bei <strong>Jamie Lee Curtis</strong>
+        vieles am Verlauf ihrer Suchterkrankung: eine Frau, deren gesamtes späteres Wirken
+        der Echtheit gilt, musste erst selbst über ein Jahrzehnt lang die Erfahrung des
+        eigenen Scheins durchleben, bevor sie ihre Wahrheit aussprechen konnte – die Schwarze
+        Mamba, die sich selbst am längsten getäuscht hat, bevor sie zur schärfsten Stimme
+        gegen genau diese Täuschung wurde.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jamie-lee-curtis", label:"Porträt: Jamie Lee Curtis (SX1w2)"},
+        {route:"krankheitsportraets-robbie-williams", label:"Krankheitsporträt: Robbie Williams (SX1w2) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
+
 function genesisPOrridgeKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -10992,232 +11167,6 @@ function jeanneWeberPortraitPage() {
           {route:"kriminalpsychologie-henri-landru", label:"Kriminalpsychologie: Henri D\xe9sir\xe9 Landru (SE3w4)"},
         ])}
       </div>
-    </div>
-  `);
-}
-
-function peterSutcliffePortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Peter Sutcliffe \u2013 Kriminalpsychologie")}
-      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="./assets/portraits/peter-sutcliffe-portrait.jpg" alt="Peter Sutcliffe \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Peter Sutcliffe</p>
-        <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
-        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">\u201eDer Yorkshire Ripper" \u2013 Nordengland 1975\u20131980</p>
-      </div>
-      <p class="psycho-intro">
-        <strong>Peter William Sutcliffe</strong>, auch bekannt unter dem Namen
-        <strong>Peter William Coonan</strong> (den er nach der Heirat seiner Frau annahm),
-        geboren am 2. Juni 1946 in Bingley, Yorkshire,
-        ermordete zwischen Oktober 1975 und November 1980 mindestens
-        <strong>dreizehn Frauen</strong> in Nordengland und griff sieben weitere an,
-        die \u00fcberlebten. Er wurde als \u201eYorkshire Ripper" bekannt \u2013
-        in Anlehnung an Jack the Ripper.
-        Sutcliffe war LKW-Fahrer, verheiratet mit Sonia Sutcliffe,
-        galt als freundlicher, ruhiger Nachbar.
-        Er wurde am 2. Januar 1981 bei einer Routinekontrolle verhaftet.
-        1981 zu 20 Mal lebenslanger Haft verurteilt, starb er am
-        13. November 2020 in Frankland Prison an den Folgen einer COVID-19-Erkrankung.
-        Das Enneagramm macht sichtbar, wie ein Mann, der sich als moralischen R\u00e4cher verstand,
-        zur t\u00f6dlichsten Bedrohung f\u00fcr Frauen im Norden Englands wurde.
-      </p>
-
-      <div class="vb-section" style="background:rgba(80,40,0,0.07);border-left:3px solid #502800;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
-        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Peter Sutcliffe</strong> wird dem <strong>Selbsterhaltenden Typ 2 mit Einserfl\u00fcgel</strong> zugeordnet.
-        Die selbsterhaltende Zwei koppelt ihren Selbstwert an das Bild des Unentbehrlichen,
-        des Besch\u00fctzers, des Menschen, der f\u00fcr andere da ist.
-        Der Einserfl\u00fcgel verleiht ihr moralische Strenge, ein inneres Regelwerk
-        \u00fcber Gut und B\u00f6se \u2013 und eine tiefe Verurteilungsf\u00e4higkeit gegen\u00fcber denen,
-        die diesem Regelwerk nicht entsprechen.
-        Der Stresspunkt liegt bei der <strong>Acht</strong>:
-        Aggression, Kontrollverlust, rohe Gewalt als Ausdruck eines \u00fcberfluteten Systems.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
-        <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Tierentsprechung der selbsterhaltenden Zwei.
-        Es wirkt harmlos \u2013 gro\u00df, tr\u00e4ge, fast gem\u00fctlich.
-        Es ist das Tier, das mehr Menschen in Afrika t\u00f6tet als jedes andere.
-        Es greift nicht aus Hunger, nicht aus Dominanzstreben \u2013
-        es greift, wenn es seine Sph\u00e4re verletzt f\u00fchlt, wenn sein Bereich bedroht wird,
-        wenn etwas in seinem inneren Regelwerk ausgel\u00f6st wird.
-        Sutcliffe war ein Flusspferd mit freundlichem Gesicht.
-        Kollegen mochten ihn. Seine Frau liebte ihn. Nachbarn gr\u00fc\u00dften ihn.
-        Das Flusspferd tauchte unter \u2013 und schlug zu, wenn die innere Grenze \u00fcberschritten war.
-        F\u00fcr Sutcliffe war diese Grenze moralisch definiert:
-        Frauen, die er als \u201eProstituierte" oder \u201esittenlos" beurteilte,
-        \u00fcberschritten sie. Dann war das Flusspferd nicht mehr gem\u00fctlich.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die selbsterhaltende Zwei: F\u00fcrsorge als Selbstschutz</h3>
-        <p class="vb-intro"><strong>a) Das Grundprinzip der selbsterhaltenden Zwei:</strong>
-        Die selbsterhaltende Zwei sichert ihren Platz in der Welt
-        durch Unentbehrlichkeit und durch das Bild des guten, hilfsbereiten Menschen.
-        Sie ist der Typ, der immer da ist, immer hilft, immer einen Witz bereit hat.
-        Sutcliffe war in seinem Umfeld beliebt \u2013 er half Nachbarn,
-        war verl\u00e4sslich bei der Arbeit, sorgte f\u00fcr seine Frau.
-        Dieses Bild war nicht vollst\u00e4ndig gespielt \u2013
-        es war echter Ausdruck des Zweier-Musters.
-        Das Problem: Die selbsterhaltende Zwei tut das alles
-        auch, um nicht gesehen zu werden \u2013 um unter dem Radar zu bleiben,
-        um den eigenen Raum zu sch\u00fctzen.</p>
-        <p class="vb-intro"><strong>b) Der Einserfl\u00fcgel: Das innere Regelwerk des Richters:</strong>
-        Der Einserfl\u00fcgel der selbsterhaltenden Zwei verleiht ihr
-        ein scharfes inneres Regelwerk. Die Eins urteilt: Gut und B\u00f6se,
-        Rein und Unrein, W\u00fcrdig und Unw\u00fcrdig.
-        Sutcliffe entwickelte fr\u00fch eine tiefe Verachtung f\u00fcr Frauen,
-        die er als Prostituierte wahrnahm.
-        Er erz\u00e4hlte nach seiner Verhaftung, er habe eine \u201eMission von Gott" erhalten \u2013
-        eine Stimme auf einem Friedhof habe ihm befohlen, die Stra\u00dfen
-        von Prostituierten zu s\u00e4ubern.
-        Ob er das glaubte oder es als Erkl\u00e4rung nutzte, ist psychologisch zweitrangig.
-        Das Muster ist klar: Der Einserfl\u00fcgel der Zwei schuf
-        ein moralisches Mandat zur Gewalt.</p>
-        <p class="vb-intro"><strong>c) Die Leidenschaft: Stolz als blinder Fleck:</strong>
-        Die Leidenschaft der Zwei ist der <strong>Stolz</strong> \u2013
-        das unbewusste Festhalten an der eigenen \u00dcberlegenheit,
-        das Nicht-Brauchen-Wollen, das Sich-selbst-Gen\u00fcgen.
-        Sutcliffes Stolz zeigte sich in seiner \u00dcberzeugung, besser zu sein \u2013
-        besser als seine Opfer, besser als die Polizei, die ihn jahrelang nicht fasste,
-        besser als die Gesellschaft, die diese Frauen duldete.
-        Dieser Stolz machte ihn unverwundbar f\u00fcr Selbstzweifel
-        und blind f\u00fcr das, was er wirklich war.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: 13 Morde in f\u00fcnf Jahren</h3>
-        <p class="vb-intro"><strong>a) Sutcliffes fr\u00fche Jahre und Pr\u00e4gung:</strong>
-        Sutcliffe wuchs in einem Arbeitermilieu in Bingley auf.
-        Als Jugendlicher arbeitete er kurzzeitig auf einem Friedhof \u2013
-        er beschrieb sp\u00e4ter, wie ihn die N\u00e4he zum Tod damals fasziniert hatte.
-        Er heiratete 1974 Sonia Szurma, eine Lehrerin.
-        Die Ehe war nach au\u00dfen stabil, nach innen angespannt \u2013
-        Sonia hatte psychische Erkrankungen, es gab Fehlgeburten, finanzielle Enge.
-        Sutcliffe begann, Rotlichtviertel in Bradford und Leeds aufzusuchen.
-        1969 wurde er wegen eines Angriffs auf eine Frau kurzzeitig festgenommen \u2013
-        ohne weitere Konsequenzen.</p>
-        <p class="vb-intro"><strong>b) Die Opfer \u2013 13 Morde, 7 \u00dcberlebende:</strong>
-        Sutcliffe verwendete Hammer, Schraubenzieher und Messer.
-        Er schlug seinen Opfern zuerst den Sch\u00e4del ein, stach danach auf sie ein.
-        Entgegen seiner sp\u00e4teren Darstellung waren nicht alle Opfer Prostituierte \u2013
-        mehrere waren vollkommen unbescholtene Frauen, die zuf\u00e4llig abends
-        unterwegs waren. Das ersch\u00fctterte seine Rechtfertigungsnarrative.
-        <strong>Wilma McCann</strong> (28) \u2013 30. Oktober 1975, Leeds.
-        <strong>Emily Jackson</strong> (42) \u2013 20. Januar 1976, Leeds.
-        <strong>Irene Richardson</strong> (28) \u2013 5. Februar 1977, Leeds.
-        <strong>Patricia Atkinson</strong> (32) \u2013 23. April 1977, Bradford.
-        <strong>Jayne MacDonald</strong> (16) \u2013 26. Juni 1977, Leeds \u2013 keine Prostituierte; ihr Tod ersch\u00fctterte die \u00d6ffentlichkeit.
-        <strong>Jean Jordan</strong> (21) \u2013 1. Oktober 1977, Manchester.
-        <strong>Yvonne Pearson</strong> (22) \u2013 21. Januar 1978, Bradford.
-        <strong>Helen Rytka</strong> (18) \u2013 31. Januar 1978, Huddersfield.
-        <strong>Vera Millward</strong> (41) \u2013 16. Mai 1978, Manchester.
-        <strong>Josephine Whitaker</strong> (19) \u2013 4. April 1979, Halifax.
-        <strong>Barbara Leach</strong> (20) \u2013 2. September 1979, Bradford \u2013 Studentin.
-        <strong>Marguerite Walls</strong> (47) \u2013 20. August 1980, Farsley.
-        <strong>Jacqueline Hill</strong> (20) \u2013 17. November 1980, Leeds \u2013 Studentin.</p>
-        <p class="vb-intro"><strong>c) Die Ermittlungen \u2013 f\u00fcnf Jahre Versagen:</strong>
-        Die Ermittlungen unter dem Kommando von Chief Constable George Oldfield
-        gelten als eines der gr\u00f6\u00dften Versagen der britischen Polizeigeschichte.
-        Sutcliffe wurde im Laufe der Ermittlungen insgesamt <strong>neunmal</strong> befragt \u2013
-        und jedes Mal ohne Konsequenzen entlassen.
-        Ein entscheidender Fehler: Die Polizei erhielt Briefe und ein Tonband
-        von jemandem, der sich als \u201eYorkshire Ripper" ausgab \u2013
-        und konzentrierte die Fahndung auf einen Mann aus Sunderland
-        (erkennbar am Dialekt), obwohl Sutcliffe aus Yorkshire stammte.
-        Der Absender dieser Nachrichten stellte sich sp\u00e4ter als
-        ein Trittbrettfahrer heraus: John Humble, der die Ermittler jahrelang in die Irre f\u00fchrte.</p>
-        <p class="vb-intro"><strong>d) Die Verhaftung (2. Januar 1981):</strong>
-        Sutcliffe wurde nicht durch Ermittlungsarbeit gefasst, sondern durch Zufall.
-        Zwei Polizisten kontrollierten ihn in Sheffield in einem Auto
-        mit einer Frau \u2013 mit falschen Nummernschildern.
-        Er bat, kurz urinieren zu gehen. Die Beamten lie\u00dfen ihn.
-        Er legte dabei einen Hammer und ein Messer im Geb\u00fcsch ab.
-        Zur\u00fcck auf der Wache erkannten die Beamten die Bedeutung des Namens \u2013
-        und schickten Kollegen zur Fundstelle zur\u00fcck. Die Waffen wurden gefunden.
-        Im Verh\u00f6r gestand Sutcliffe alle 13 Morde.</p>
-        <p class="vb-intro"><strong>e) Der Prozess und die psychiatrische Frage:</strong>
-        Sutcliffe pl\u00e4dierte auf verminderte Schuldf\u00e4higkeit wegen Paranoid-Schizophrenie \u2013
-        die Stimme Gottes, die Mission.
-        Das Gericht folgte diesem Pl\u00e4doyer nicht vollst\u00e4ndig.
-        Er wurde in allen 13 F\u00e4llen f\u00fcr schuldig befunden und zu 20 Mal
-        lebenslanger Haft verurteilt, mit einer Mindesthaftdauer von 30 Jahren.
-        1984 wurde er in das psychiatrische Hochsicherheitsgef\u00e4ngnis Broadmoor verlegt.
-        2016 kehrte er in ein normales Hochsicherheitsgef\u00e4ngnis zur\u00fcck.
-        Am 13. November 2020 starb er in Frankland Prison
-        an den Folgen einer COVID-19-Erkrankung \u2013 er hatte die Behandlung abgelehnt.</p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Achterstress: Wenn das Flusspferd angreift</h3>
-        <p class="vb-intro">
-        Die Zwei bewegt sich im Stress in Richtung <strong>Acht</strong> \u2013
-        rohe Aggression, Kontrollverlust, die Explosion eines Systems,
-        das zu lange zu viel gehalten hat.
-        Sutcliffes Taten hatten die Pr\u00e4zision und Brutalit\u00e4t der Acht-Energie:
-        Der Hammer, der erste Schlag, die Geschwindigkeit.
-        Es war kein langer Kampf \u2013 es war ein System, das sich entlud.
-        Die Zwei h\u00e4lt viel zur\u00fcck: den Stolz, den Anspruch, die Verurteilung anderer.
-        Wenn das Ventil \u00f6ffnet, \u00f6ffnet es vollst\u00e4ndig.
-        Das Flusspferd ist im Wasser kaum zu sehen \u2013 bis es zubei\u00dft.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
-        <p class="vb-intro">
-        Peter Sutcliffe zeigt, wie der selbsterhaltende Typ 2 mit Einserfl\u00fcgel
-        zur t\u00f6dlichsten Kombination werden kann:
-        F\u00fcrsorge nach au\u00dfen schafft Unsichtbarkeit.
-        Moralisches Regelwerk nach innen schafft Rechtfertigung.
-        Stolz macht blind f\u00fcr die eigene Zerst\u00f6rungskraft.
-        Und der Achter-Stress sorgt f\u00fcr die explosive Umsetzung.
-        Was Sutcliffe von Harvey Weinstein unterscheidet \u2013 ebenfalls SE2w1 \u2013
-        ist der Schritt in physische Vernichtung:
-        Weinstein nutzte Macht als Werkzeug.
-        Sutcliffe nutzte Gewalt.
-        Beide glaubten, ein Recht zu haben.
-        Beide wurden vom Einserfl\u00fcgel darin best\u00e4tigt.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Zusammenfassung</h3>
-        <p class="vb-intro">
-        <strong>Subtyp:</strong> SE2w1 \u2013 Selbsterhaltende Zwei mit Einserfl\u00fcgel.<br>
-        <strong>Leidenschaft:</strong> Stolz \u2013 \u00dcberlegenheitsgef\u00fchl, moralische Selbstgerechtigkeit, Unantastbarkeit des eigenen Urteils.<br>
-        <strong>Stresspunkt:</strong> Acht \u2013 explosive Aggression, rohe Gewalt als Entladung eines \u00fcbervollen Systems.<br>
-        <strong>Tierentsprechung:</strong> Flusspferd \u2013 scheinbar harmlos, gef\u00e4hrlichstes Gro\u00dftier Afrikas, schl\u00e4gt zu wenn die innere Sph\u00e4re verletzt ist.<br>
-        <strong>Opfer:</strong> 13 Morde (1975\u20131980), 7 \u00dcberlebende; haupts\u00e4chlich Frauen in West Yorkshire und Greater Manchester.<br>
-        <strong>Tatwaffen:</strong> Hammer, Schraubenzieher, Messer.<br>
-        <strong>Verurteilt:</strong> 1981, 20-fach lebenslang; Mindesthaftdauer 30 Jahre.<br>
-        <strong>Gestorben:</strong> 13. November 2020, Frankland Prison \u2013 COVID-19, Behandlung abgelehnt.
-        </p>
-      </div>
-
-      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
-        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdr\u00fcckt.", "Die verborgene Dynamik der 27 Subtypen")}
-        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 \u2013 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
-        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausf\u00fchrlich portr\u00e4tiert \u2013 Stolz, verdr\u00e4ngte Bed\u00fcrfnisse und der Heilungsweg \u00fcber echte Demut.", "Wer du wirklich bist \u2013 Band 1")}
-      </div>
-      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
-        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Peter Sutcliffe wurde 1981 in 13 F\u00e4llen des Mordes verurteilt und starb 2020 in Haft. Das Enneagramm erkl\u00e4rt, es rechtfertigt nicht.
-        </p>
-      </div>
-
-      ${relatedLinks([
-        {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein (SE2w1) \u2013 ebenfalls Flusspferd"},
-        {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo (SE1w9) \u2013 \u00e4hnliche T\u00e4terstruktur"},
-        {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9) \u2013 moralische Selbstrechtfertigung"},
-      ])}
     </div>
   `);
 }
