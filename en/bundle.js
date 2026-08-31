@@ -996,6 +996,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andre Agassi – Self-Preservation Type 3",
     teaser:"SE3w2 · b. 1970. American tennis player, 8-time Grand Slam champion. Drilled into tennis by his father, he became the rebel face of the \"Image is Everything\" campaign, which he later exposed as a lie in his autobiography \"Open.\" After a slump outside the top 100 and a concealed crystal meth episode, he fought his way back to No. 1. Founder of the Andre Agassi Foundation for Education. Married to Steffi Graf (SO9w1) since 2001. Animal correspondence: Raccoon.",
     land:"USA", tags:["Sport"], gender:"m"},
+{ route:"beruehmte-tim-maelzer", name:"Tim Mälzer", added:"2026-08-31", subtyp:"SE3w2",
+    heading:"Tim Mälzer – Self-Preservation Type 3",
+    teaser:"SE3w2 · b. 1972. German chef, entrepreneur, and TV host (\"Kitchen Impossible,\" \"Schmeckt nicht, gibt's nicht\"). Classically trained chef, has run the Hamburg restaurant Bullerei since 2009, teaches families to cook on \"Zurück zum Herd.\" Animal correspondence: Raccoon.",
+    land:"Germany", tags:["Kochen"], gender:"m"},
 { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Self-Preservation Type 3",
     teaser:"SP3w2 · b. 1965. American entrepreneur, founded Dell Computer in 1984 from a dorm room with $1,000 in startup capital. Known for operational discipline and direct customer contact rather than self-promotion, pledged over $10 billion to charitable causes together with his wife Susan. Animal correspondence: Raccoon.",
@@ -45260,6 +45264,72 @@ function andreAgassiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – his wife"},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
+      ])}
+    </div>
+  `);
+}
+
+function timMaelzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tim-maelzer-portrait.jpg" alt="Tim Mälzer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Mälzer</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Chef, entrepreneur & TV host, b. 1972 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the Self-Preservation Three – an animal that acquires its skills through patient, mostly unwatched work, long before anyone is paying attention. Tim Mälzer was born in 1972 in Hamburg and completed a classical chef's apprenticeship, then worked his way through professional kitchens for years – including in London – before opening the Off Club in his hometown in 1998. Not a shortcut through a casting show, but a craft built station by station, pot by pot.</p>
+          <p class="vb-intro">Only with that hands-on foundation behind him did he become a nationally known television figure from the early 2000s onward – first with the NDR show "Schmeckt nicht, gibt's nicht," later with "Kitchen Impossible." The raccoon who mastered the craft first and only then took the stage, not the other way around.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Demonstrable Skill Instead of Pure Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SP3)</strong> is the countertype of the Three – the subtype that seeks security not through a polished public image but through verifiable, actually-present competence. Naranjo called this subtype <em>Security</em>: one is not admired for selling oneself well, but for demonstrably delivering what one promises. In Mälzer this shows in a striking contrast to many other TV chefs of his generation: he genuinely cooks on camera, under real time pressure, without a teleprompter recipe and without a pre-cooked backup plate – when a dish fails, it airs rather than getting cut.</p>
+          <p class="vb-intro">His business approach follows the same logic of substance over pure brand-tending: since 2009 he has run his own restaurant in Hamburg, the Bullerei, which stands independent of his television presence and has to hold up on its own kitchen's merits – not a mere name plate over a chain operation, but a house where he still works himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Making Cooking Accessible to Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Self-Preservation Three a genuine impulse to make their own skill accessible to others, rather than using it only for self-promotion. That is exactly the core of the NDR format "Zurück zum Herd" ("Back to the Stove"): Mälzer visits families who have lost the ability to cook for themselves and teaches them basic kitchen skills over several episodes – no Michelin-star ambition, just the plain ability to feed themselves and their family properly again.</p>
+          <p class="vb-intro">His manner on "Kitchen Impossible" carries the same note: despite the competitive format, the underlying tone stays collegial – he himself repeatedly stresses that it matters less to him to beat Steffen Henssler than to share the enjoyment of the craft itself. The Two-wing translates one's own skill into shared joy rather than mere superiority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Direct, But Never Careless</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mälzer's tone in the kitchen is blunt: he swears when something fails, criticizes clearly when a technique is off, and makes no secret of his impatience with sloppiness. At first glance this directness looks confrontational, yet it is aimed almost entirely at the matter at hand – a failed dish, a wrong technique – not at the person behind it.</p>
+          <p class="vb-intro">This exact separation is typical of the SP3w2: sharpness in service of quality, paired with real care for the people standing in front of him. Someone who fails on his shows is rarely humiliated for it – usually the work simply continues until it actually succeeds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 is the ability to <strong>build trust out of genuine craft that a purely invented screen persona could never achieve</strong> – Mälzer's popularity does not rest on a fabricated character, but on decades of kitchen experience that remains visible even under television conditions.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but still noticeable: the need to keep reconfirming one's own worth through demonstrable achievement. The sheer number of parallel projects – his own restaurant, several TV formats, cookbooks – can also be read as a constant proving that one's own competence still holds, rather than simply letting past success be enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon That Shows How It's Done</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tim Mälzer is among the most defining kitchen figures on German television – not because of a flawless on-screen persona, but because behind the loud facade stands a craft he built long before any camera was watching.</p>
+          <p class="vb-intro">From a classically trained chef, through running his own restaurant, to a format that brings cooking back into families' homes: this is the Self-Preservation Three with a Two-wing in its most accessible form – competence that does not want to shine for its own sake, but genuinely helps others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – The Raccoon"},
       ])}
@@ -103910,6 +103980,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
+      "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,

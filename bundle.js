@@ -32981,6 +32981,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Andre Agassi – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1970. US-amerikanischer Tennisspieler, 8-facher Grand-Slam-Sieger. Vom Vater zum Tennisprofi gedrillt, wurde er mit der ›Image is Everything‹-Kampagne zum Rebellen-Image, das er später in seiner Autobiografie ›Open‹ als Lüge entlarvte. Nach einem Absturz außerhalb der Top 100 und einer verheimlichten Crystal-Meth-Episode kämpfte er sich zurück zur Nummer 1. Gründer der Andre Agassi Foundation for Education. Seit 2001 mit Steffi Graf (SO9w1) verheiratet. Tierentsprechung: Waschbär.",
     land:"USA", tags:["Sport"], gender:"m"},
+  { route:"beruehmte-tim-maelzer", name:"Tim Mälzer", added:"2026-08-31", subtyp:"SE3w2",
+    heading:"Tim Mälzer – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1972. Deutscher Koch, Unternehmer und TV-Moderator (›Kitchen Impossible‹, ›Schmeckt nicht, gibt's nicht‹). Klassisch ausgebildeter Koch, betreibt seit 2009 das Hamburger Restaurant Bullerei, bringt Familien im Format ›Zurück zum Herd‹ das Kochen bei. Tierentsprechung: Waschbär.",
+    land:"Deutschland", tags:["Kochen"], gender:"m"},
   { route:"beruehmte-michael-dell", name:"Michael Dell", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Michael Dell – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1965. US-amerikanischer Unternehmer, gründete Dell Computer 1984 im Studentenwohnheim mit 1.000 Dollar Startkapital. Bekannt für operative Disziplin und direkten Kundenkontakt statt Selbstinszenierung, gemeinsam mit seiner Frau Susan über 10 Milliarden Dollar für wohltätige Zwecke zugesagt. Tierentsprechung: Waschbär.",
@@ -74128,6 +74132,72 @@ function andreAgassiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – seine Frau"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
+      ])}
+    </div>
+  `);
+}
+
+function timMaelzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tim-maelzer-portrait.jpg" alt="Tim Mälzer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Mälzer</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Koch, Unternehmer & TV-Moderator, geb. 1972 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das seine Fertigkeiten in geduldiger, meist unbeobachteter Arbeit erwirbt, lange bevor irgendjemand zusieht. Tim Mälzer wurde 1972 in Hamburg geboren und absolvierte eine klassische Kochlehre, arbeitete sich anschließend über Jahre durch professionelle Küchen – unter anderem in London –, bevor er 1998 in seiner Heimatstadt den Off Club eröffnete. Kein Quereinstieg über eine Casting-Show, sondern ein Handwerk, das er sich Station für Station, Topf für Topf erarbeitete.</p>
+          <p class="vb-intro">Erst mit dieser handwerklichen Grundlage im Rücken wurde er ab den frühen 2000er-Jahren zur bundesweit bekannten Fernsehfigur – zunächst mit der NDR-Sendung „Schmeckt nicht, gibt's nicht", später mit „Kitchen Impossible". Der Waschbär, der erst das Handwerk beherrschte und sich die Bühne erst danach nahm, nicht umgekehrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Nachweisbares Können statt reiner Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Sicherheit nicht durch ein poliertes öffentliches Image sucht, sondern durch überprüfbare, tatsächlich vorhandene Kompetenz. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man beweisbar liefert, was man verspricht. Bei Mälzer zeigt sich das in einem auffälligen Kontrast zu vielen anderen TV-Köchen seiner Generation: Er kocht in seinen Sendungen tatsächlich vor laufender Kamera, unter echtem Zeitdruck, ohne Teleprompter-Rezept und ohne vorgekochte Ersatzteller – wenn ein Gericht misslingt, wird das gezeigt, nicht herausgeschnitten.</p>
+          <p class="vb-intro">Auch unternehmerisch setzt er auf Substanz statt auf reine Markenpflege: Mit der Bullerei betreibt er seit 2009 ein eigenes Restaurant in Hamburg, das unabhängig von seiner Fernsehpräsenz besteht und sich am eigenen Küchenbetrieb messen lassen muss – kein bloßes Namensschild über einer Systemgastronomie, sondern ein Haus, in dem er selbst weiterhin mitarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Kochen für andere zugänglich machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der selbsterhaltenden Drei einen echten Impuls, das eigene Können anderen zugänglich zu machen, statt es nur zur eigenen Profilierung zu nutzen. Genau das ist der Kern des NDR-Formats „Zurück zum Herd": Mälzer besucht darin Familien, die verlernt haben, selbst zu kochen, und bringt ihnen über mehrere Folgen hinweg elementare Küchenfertigkeiten bei – kein Sterne-Anspruch, sondern die schlichte Fähigkeit, sich selbst und die eigene Familie wieder gesund zu versorgen.</p>
+          <p class="vb-intro">Auch sein Auftreten bei „Kitchen Impossible" trägt diese Note: Trotz des kompetitiven Formats bleibt der Grundton kollegial – er selbst betont wiederholt, dass es ihm weniger um den Sieg über Steffen Henssler geht als um den gemeinsamen Spaß am Handwerk. Der Zweierflügel übersetzt das eigene Können in geteilte Freude, nicht in bloße Überlegenheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Direkt, aber nie beliebig</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mälzers Ton in der Küche ist unverblümt: Er flucht, wenn etwas misslingt, kritisiert deutlich, wenn ein Handgriff falsch sitzt, und macht aus seiner Ungeduld mit Schlamperei keinen Hehl. Diese Direktheit wirkt auf den ersten Blick konfrontativ, doch sie richtet sich fast ausschließlich gegen die Sache – gegen ein misslungenes Gericht, eine falsche Technik –, nicht gegen die Person dahinter.</p>
+          <p class="vb-intro">Genau diese Trennung ist typisch für die SE3w2: Schärfe im Dienst der Qualität, verbunden mit echter Fürsorge für die Menschen, die vor ihm stehen. Wer in seinen Sendungen scheitert, wird selten bloßgestellt – meist wird so lange weitergemacht, bis es tatsächlich gelingt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>aus echtem Handwerk heraus Vertrauen aufzubauen, das eine reine Bildschirmfigur nie erreichen würde</strong> – Mälzers Popularität beruht nicht auf einer erfundenen Kunstfigur, sondern auf jahrzehntelanger Kücherfahrung, die auch unter Fernsehbedingungen sichtbar bleibt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber dennoch spürbar: das Bedürfnis, den eigenen Wert immer wieder neu durch nachweisbare Leistung zu bestätigen. Die schiere Zahl paralleler Projekte – eigenes Restaurant, mehrere TV-Formate, Kochbücher – lässt sich auch als ein permanentes Beweisen lesen, dass die eigene Kompetenz noch trägt, statt sich einmal erreichten Erfolg einfach genügen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der zeigt, wie es geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tim Mälzer gehört zu den prägendsten Küchenfiguren des deutschen Fernsehens – nicht wegen einer makellosen Bühnenpersönlichkeit, sondern weil hinter der lauten Fassade tatsächlich ein Handwerk steht, das er sich lange vor jeder Kamera erarbeitet hat.</p>
+          <p class="vb-intro">Vom klassisch ausgebildeten Koch über den eigenen Restaurantbetrieb bis zum Format, das Familien das Kochen zurückbringt: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer zugänglichsten Form – Kompetenz, die nicht für sich selbst glänzen will, sondern anderen tatsächlich weiterhilft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
       ])}
@@ -139590,6 +139660,7 @@ function render() {
       "beruehmte-eva-mendes": evaMendesPortraitPage,
       "beruehmte-heather-thomas": heatherThomasPortraitPage,
       "beruehmte-andre-agassi": andreAgassiPortraitPage,
+      "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
