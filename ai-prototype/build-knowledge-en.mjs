@@ -26,6 +26,15 @@ for (const f of files) {
   }
 }
 
+// Sicherheitsdeckel gegen Cloudflare-Workers-Größenlimit, siehe build-knowledge.mjs
+// für die ausführliche Begründung (Vorfall 31.08.2026).
+const CHUNK_CAP = 5000;
+for (const c of chunks) {
+  if (c.text && c.text.length > CHUNK_CAP) {
+    c.text = c.text.slice(0, CHUNK_CAP) + " …";
+  }
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge-en.json");

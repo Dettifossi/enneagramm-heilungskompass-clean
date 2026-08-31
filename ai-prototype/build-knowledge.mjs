@@ -51,6 +51,18 @@ if (fs.existsSync(psychosomatikPath)) {
   chunks.push(...psychosomatikChunks);
 }
 
+// Sicherheitsdeckel gegen Cloudflare-Workers-Größenlimit (Free-Plan: 3 MiB für DE+EN
+// zusammen). Einzelne Quellen wie Psychosomatik oder die 27-Subtyp-Kernprofile liefern
+// teils sehr lange Chunks (>15 KB) für eine RAG-Suche, die pro Treffer ohnehin nur einen
+// begrenzten Ausschnitt braucht. Chunks über CHUNK_CAP werden hart gekappt (siehe Vorfall
+// 31.08.2026 – Worker-Deploy scheiterte an der 3-MiB-Grenze).
+const CHUNK_CAP = 5000;
+for (const c of chunks) {
+  if (c.text && c.text.length > CHUNK_CAP) {
+    c.text = c.text.slice(0, CHUNK_CAP) + " …";
+  }
+}
+
 const outDir = path.join(__dirname, "worker");
 fs.mkdirSync(outDir, { recursive: true });
 const outPath = path.join(outDir, "knowledge.json");

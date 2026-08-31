@@ -1,43 +1,107 @@
-// Extrahiert alle Porträt-Funktionen (berühmte Persönlichkeiten + Kriminalpsychologie-Fälle)
-// direkt aus app.js zu zitierfähigen Wissens-Chunks. Diese Inhalte liegen als eigene
-// JS-Funktionen im Code (nicht in data/*.js), daher ein anderes Extraktionsverfahren
-// als bei den strukturierten Datendateien: Funktionskörper anhand Klammerbalance
-// herausschneiden, HTML-Tags entfernen, Klartext als Chunk speichern.
+// Extrahiert Porträt-Wissen aus app.js für die Wegweiser-Wissensbasis.
+//
+// WICHTIG (31.08.2026 geändert): Für berühmte Persönlichkeiten, Kriminalpsychologie-Fälle,
+// Krankheitsporträts und Bibel-Porträts wird NICHT mehr der volle Funktionskörper
+// (ausformulierter Fließtext, oft 5-15 KB pro Porträt) extrahiert, sondern nur der
+// strukturierte Kurz-Teaser aus den jeweiligen Arrays (BERUEHMT_PORTRAITS,
+// KRIMINAL_PORTRAITS, KRANKHEITS_PORTRAITS, BIBEL_PORTRAITS) — analog zum bereits
+// bestehenden, deutlich schlankeren EN-Verfahren (extract-en-portraits.mjs).
+// Grund: Der Cloudflare-Workers-Free-Plan begrenzt die Worker-Größe auf 3 MiB;
+// die Vollzitat-Variante hatte allein für DE-Porträts ~5 MB erzeugt und damit die
+// Wegweiser-Wissensbasis insgesamt über die Grenze getrieben (siehe Vorfall 31.08.2026,
+// ausgelöst durch Überschreiten bei Hinzufügen neuer Porträts). Die Teaser sind bereits
+// dicht geschriebene Zusammenfassungen (Name, Subtyp, Kernfakten) und für die RAG-Suche
+// des Chatbots ausreichend – nur Astrologie-Porträts (kein eigenes Array, sondern volle
+// Seitenfunktionen) werden weiterhin wie zuvor per Funktionskörper-Extraktion erfasst,
+// da sie ohnehin deutlich kleiner sind als die anderen Kategorien.
 //
 // Aufruf: node ai-prototype/extract-portraits.mjs
 // Erzeugt: ai-prototype/knowledge-portraits.json
 
 import fs from "node:fs";
 import path from "node:path";
+import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const appJs = fs.readFileSync(path.join(rootDir, "app.js"), "utf-8");
 
-// 1. Route -> Funktionsname-Zuordnung einsammeln. Erfasst sowohl die übliche
-//    "...PortraitPage"-Konvention als auch abweichende Namen wie
-//    "astrologieAlbertEinsteinPage", "bellaThornePage" oder "borisBeckerKriminalPage" —
-//    wichtig ist nur, dass die Route mit beruehmte-/astrologie-/kriminalpsychologie-/
-//    krankheitsportraets-/bibel- beginnt.
-const routeMap = new Map(); // funktionsname -> route
-const routeRegex = /"((?:beruehmte|astrologie|kriminalpsychologie|krankheitsportraets|bibel)-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
-let m;
-while ((m = routeRegex.exec(appJs))) {
-  routeMap.set(m[2], m[1]);
+function extractConst(name) {
+  const startMarker = `const ${name} = `;
+  const startIdx = appJs.indexOf(startMarker);
+  if (startIdx === -1) throw new Error(`${name} nicht gefunden`);
+  const bodyStart = startIdx + startMarker.length;
+  let depth = 1;
+  let i = bodyStart + 1;
+  while (depth > 0 && i < appJs.length) {
+    if (appJs[i] === "[") depth++;
+    else if (appJs[i] === "]") depth--;
+    i++;
+  }
+  const literal = appJs.slice(bodyStart, i);
+  const context = { module: { exports: {} } };
+  vm.createContext(context);
+  return vm.runInContext(`(${literal})`, context);
 }
-console.log(`Routen-Zuordnungen gefunden: ${routeMap.size}`);
 
-// 2. Für jede so gefundene Funktion den Körper anhand Klammerbalance extrahieren
-//    (statt eines starren "*PortraitPage"-Namensmusters, das Astrologie-Portraits
-//    und ein paar abweichend benannte Funktionen bisher stillschweigend ausließ).
+const BERUEHMT_PORTRAITS = extractConst("BERUEHMT_PORTRAITS");
+const KRIMINAL_PORTRAITS = extractConst("KRIMINAL_PORTRAITS");
+const KRANKHEITS_PORTRAITS = extractConst("KRANKHEITS_PORTRAITS");
+const BIBEL_PORTRAITS = extractConst("BIBEL_PORTRAITS");
+
 const chunks = [];
-let count = 0;
 
-for (const funcName of routeMap.keys()) {
+for (const p of BERUEHMT_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits",
+    text: `Porträt: ${p.heading || p.name} (Subtyp ${p.subtyp}). ${p.teaser || ""}`,
+  });
+}
+
+for (const p of KRIMINAL_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits",
+    text: `Kriminalpsychologie-Fall: ${p.heading || p.name} (Subtyp ${p.subtyp}). ${p.teaser || ""}`,
+  });
+}
+
+for (const p of KRANKHEITS_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits",
+    text: `Krankheitsporträt: ${p.heading || p.name} (Subtyp ${p.subtyp}) – ${p.krankheit || ""}. ${p.teaser || ""}`,
+  });
+}
+
+for (const p of BIBEL_PORTRAITS) {
+  chunks.push({
+    code: `PORTRAIT-${p.route}`,
+    source: "portraits",
+    text: `Bibel-Porträt: ${p.heading || p.name} (Subtyp ${p.subtyp}). ${p.teaser || ""}`,
+  });
+}
+
+console.log(
+  `Teaser-Porträts: ${BERUEHMT_PORTRAITS.length} berühmte, ${KRIMINAL_PORTRAITS.length} Kriminal, ${KRANKHEITS_PORTRAITS.length} Krankheit, ${BIBEL_PORTRAITS.length} Bibel`
+);
+
+// Astrologie-Porträts liegen als eigene, volle Seitenfunktionen vor (kein Array) —
+// weiterhin per Funktionskörper-Extraktion wie bisher, analog zum EN-Verfahren.
+const astroRouteMap = new Map();
+const astroRouteRegex = /"(astrologie-[a-z0-9-]+)":\s*([a-zA-Z0-9]+),/g;
+let am;
+while ((am = astroRouteRegex.exec(appJs))) {
+  astroRouteMap.set(am[2], am[1]);
+}
+
+let astroCount = 0;
+for (const funcName of astroRouteMap.keys()) {
   const funcStartRegex = new RegExp(`^function ${funcName}\\(\\) \\{`, "m");
   const startMatch = funcStartRegex.exec(appJs);
-  if (!startMatch) continue; // Funktion nicht als eigenständige Definition gefunden
+  if (!startMatch) continue;
   const bodyStart = startMatch.index + startMatch[0].length;
   let depth = 1;
   let i = bodyStart;
@@ -49,11 +113,10 @@ for (const funcName of routeMap.keys()) {
   }
   const body = appJs.slice(bodyStart, i - 1);
 
-  // HTML-Tags entfernen, überflüssigen Whitespace/Template-Syntax grob bereinigen
   let text = body
-    .replace(/return shell\(`/, "") // Funktionsrahmen-Reste raus
-    .replace(/<[^>]+>/g, " ") // HTML-Tags raus
-    .replace(/\$\{[^}]*\}/g, " ") // einfache ${...}-Interpolationen raus (ohne verschachtelte)
+    .replace(/return shell\(`/, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\$\{(?:[^{}]|\{[^{}]*\})*\}/g, " ") // ${...}-Interpolationen inkl. einer Verschachtelungsebene raus
     .replace(/&middot;/g, "·")
     .replace(/&ndash;/g, "–")
     .replace(/&mdash;/g, "—")
@@ -65,23 +128,23 @@ for (const funcName of routeMap.keys()) {
     .replace(/\s+/g, " ")
     .trim();
 
-  if (text.length < 80) continue; // zu kurz / vermutlich kein echter Inhalt
+  if (text.length < 80) continue;
+  if (text.length > 4000) text = text.slice(0, 4000) + " …"; // Sicherheitsdeckel gegen erneutes Aufblähen
 
-  const route = routeMap.get(funcName);
+  const route = astroRouteMap.get(funcName);
   const readableName = funcName
-    .replace(/(?:Portrait)?Page$/, "")
+    .replace(/Page$/, "")
     .replace(/([A-Z])/g, " $1")
     .trim();
 
   chunks.push({
-    code: route ? `PORTRAIT-${route}` : `PORTRAIT-${funcName}`,
+    code: `PORTRAIT-${route}`,
     source: "portraits",
-    text: `Porträt: ${readableName}. ${text}`,
+    text: `Astrologie-Porträt: ${readableName}. ${text}`,
   });
-  count++;
+  astroCount++;
 }
-
-console.log(`Funktionen gefunden: ${count}`);
+console.log(`Astrologie-Porträts (Volltext, gedeckelt): ${astroCount}`);
 
 const outPath = path.join(__dirname, "knowledge-portraits.json");
 fs.writeFileSync(outPath, JSON.stringify(chunks));
