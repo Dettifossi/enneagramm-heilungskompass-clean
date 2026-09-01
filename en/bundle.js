@@ -33587,7 +33587,7 @@ function franciscoDeGoyaPortraitPage() {
 
         <h2 class="vb-section">5. The Legacy: The Chihuahua Who Painted His Own Walls With Terror</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 1819, at age 72, Goya moved into a country house outside Madrid that already bore the name "Quinta del Sordo" (House of the Deaf Man) before he ever moved in &ndash; a coincidence that became the emblem of his final years. There, unasked and never intended for any public, he created the 14 "Black Paintings" directly on the walls of his dining and sitting rooms &ndash; among them the famous "Saturn Devouring His Son": images of unsparing, almost unbearable intensity, painted for no one but himself.</p>
+          <p class="vb-intro">In 1819, at age 72, Goya moved into a country house outside Madrid that already bore the name "Quinta del Sordo" &ndash; literally "Villa of the Deaf Man," named after an earlier, long-deceased owner who had likewise been deaf. A coincidence that became the emblem of Goya's own final years. There, unasked and never intended for any public, he created the 14 "Black Paintings" directly on the walls of his dining and sitting rooms &ndash; among them the famous "Saturn Devouring His Son": images of unsparing, almost unbearable intensity, painted for no one but himself.</p>
           <p class="vb-intro">Goya died in 1828 in exile in Bordeaux, where he had withdrawn after the return of absolutist rule in Spain, at age 82. This Chihuahua had, his whole life long, embellished nothing &ndash; not the crown, not the war, not his own aging darkness. That is exactly what keeps his work so immediate today: it knows no half-measures.</p>
         </blockquote>
 
@@ -66075,7 +66075,7 @@ function franciscoDeGoyaKrankheitsportraetPage() {
         SX4 hurls inner experience outward rather than concealing it; the Three-wing ensures
         this intensity becomes visible and effective. This same combination also determined his
         approach to his own illness: not concealment, but the immediate translation of
-        suffering into image – down to the walls of his own home.</p>
+        suffering into an image – down to the walls of his own home.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -66112,9 +66112,10 @@ function franciscoDeGoyaKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
         <p class="vb-intro"><strong>a) A house that anticipated its own name:</strong>
         In 1819, shortly before his second severe illness, Goya moved into a country house
-        outside Madrid that already bore the name "Quinta del Sordo" (House of the Deaf Man)
-        before he moved in – a coincidence he had not chosen, but one that fittingly described
-        his life in the years that followed.</p>
+        outside Madrid that already bore the name "Quinta del Sordo" &ndash; literally "Villa of
+        the Deaf Man," named after an earlier, long-deceased owner who had likewise been deaf.
+        A coincidence Goya had not chosen, but one that fittingly described his own life in the
+        years that followed.</p>
         <p class="vb-intro"><strong>b) The walls as a final, unasked-for canvas:</strong>
         In this house, the by-then nearly completely deaf Goya painted, without commission and
         without any intention of a public, the 14 "Black Paintings" directly onto the walls of
@@ -66142,7 +66143,7 @@ function franciscoDeGoyaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
-        <p class="vb-intro"><strong>a) No hiding, but immediate translation into image:</strong>
+        <p class="vb-intro"><strong>a) No hiding, but immediate translation into image form:</strong>
         The same ability to turn inner experience unfiltered outward that shaped Goya's entire
         body of work as court painter and critic of his era also determined how he handled his
         own illness: rather than concealing it, he made it the explicit subject of a painting in
@@ -66152,16 +66153,16 @@ function franciscoDeGoyaKrankheitsportraetPage() {
         Three-wing led Goya to turn even his own vulnerability into a work that still moves
         viewers directly today.</p>
         <p class="vb-intro"><strong>c) Withdrawal into his own house, not withdrawal from work:</strong>
-        After becoming deaf, Goya withdrew from social life and from teaching, but not from
-        painting – the "Quinta del Sordo" became the place where his intensity kept discharging
-        unchecked, just without an audience.</p>
+        After becoming deaf, Goya withdrew from social life and from teaching, but not from his
+        artistic creative power – the "Quinta del Sordo" became the place where his intensity
+        kept discharging unchecked, just without an audience.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
         <p class="vb-intro"><strong>a) A body that became the immediate subject of the image:</strong>
         Goya's entire body of work rested on the unsparing translation of what he observed into
-        image – nobility, war, superstition, and finally his own, aging vulnerability were all
+        visual language – nobility, war, superstition, and finally his own, aging vulnerability were all
         captured without embellishment. His illness was no exception to this principle, but its
         most consistent, most personal application.</p>
         <p class="vb-intro"><strong>b) Deafness as a paradoxical intensifier, not a dampener:</strong>

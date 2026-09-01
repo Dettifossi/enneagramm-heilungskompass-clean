@@ -3662,7 +3662,7 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
         zugeordnet. Die SX4 schleudert inneres Erleben nach außen statt es zu verbergen; der
         Dreierflügel sorgt dafür, dass diese Intensität sichtbar und wirksam wird. Genau diese
         Kombination bestimmte auch seinen Umgang mit der eigenen Krankheit: nicht Verschweigen,
-        sondern die unmittelbare Übersetzung von Leiden in Bild – bis in die eigenen vier
+        sondern die unmittelbare Übersetzung von Leiden in ein Bild – bis in die eigenen vier
         Wände hinein.</p>
       </div>
 
@@ -3703,9 +3703,10 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
         <p class="vb-intro"><strong>a) Ein Haus, das seinen Namen vorwegnahm:</strong>
         1819, kurz vor seiner zweiten schweren Erkrankung, zog Goya in ein Landhaus außerhalb
-        Madrids, das bereits vor seinem Einzug "Quinta del Sordo" (Haus des Tauben) hieß – ein
-        Zufall, den er sich nicht ausgesucht hatte, der aber sein Leben in den folgenden Jahren
-        treffend beschrieb.</p>
+        Madrids, das bereits vor seinem Einzug "Quinta del Sordo" hieß – wörtlich "Landhaus des
+        Tauben", also des gehörlosen Mannes, benannt nach einem früheren, längst verstorbenen
+        Besitzer, der ebenfalls taub gewesen war. Ein Zufall, den Goya sich nicht ausgesucht
+        hatte, der aber sein eigenes Leben in den folgenden Jahren treffend beschrieb.</p>
         <p class="vb-intro"><strong>b) Die Wände als letzte, ungefragte Leinwand:</strong>
         In diesem Haus malte der bereits fast vollständig ertaubte Goya, ohne Auftrag und ohne
         Absicht auf eine Öffentlichkeit, die 14 "Schwarzen Gemälde" direkt auf die Wände seines
@@ -3734,7 +3735,7 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Kein Verstecken, sondern unmittelbare Übersetzung in Bild:</strong>
+        <p class="vb-intro"><strong>a) Kein Verstecken, sondern unmittelbare Übersetzung in Bildform:</strong>
         Dieselbe Fähigkeit, inneres Erleben ungefiltert nach außen zu wenden, die Goyas
         gesamtes Werk als Hofmaler und Kritiker seiner Zeit prägte, bestimmte auch seinen
         Umgang mit der eigenen Krankheit: Statt sie zu verbergen, machte er sie im
@@ -3745,15 +3746,15 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
         Betrachter bis heute unmittelbar berührt.</p>
         <p class="vb-intro"><strong>c) Rückzug ins eigene Haus statt Rückzug aus der Arbeit:</strong>
         Nach der Ertaubung zog sich Goya aus dem gesellschaftlichen Leben und der Lehre zurück,
-        nicht aber aus dem Malen – die "Quinta del Sordo" wurde zum Ort, an dem sich seine
-        Intensität ungebremst, nur ohne Publikum, weiter entlud.</p>
+        nicht aber aus seiner künstlerischen Schaffenskraft – die "Quinta del Sordo" wurde zum
+        Ort, an dem sich seine Intensität ungebremst, nur ohne Publikum, weiter entlud.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein Körper, der zum unmittelbaren Bildgegenstand wurde:</strong>
         Goyas gesamtes Werk beruhte auf der schonungslosen Übersetzung von Wahrgenommenem in
-        Bild – Adel, Krieg, Aberglaube, und schließlich auch die eigene, alternde Verletzlichkeit
+        Bildsprache – Adel, Krieg, Aberglaube, und schließlich auch die eigene, alternde Verletzlichkeit
         wurden ohne Beschönigung festgehalten. Seine Krankheit war keine Ausnahme von diesem
         Prinzip, sondern seine konsequenteste, persönlichste Anwendung.</p>
         <p class="vb-intro"><strong>b) Die Taubheit als paradoxe Verstärkung, nicht als Dämpfung:</strong>
