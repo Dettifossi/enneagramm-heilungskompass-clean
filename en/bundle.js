@@ -929,6 +929,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Eva Perón – Social Type 2",
     teaser:"SO2w3 · 1919–1952. Argentine First Lady, actress, benefactress of the \"descamisados\". Rise from poverty to \"Evita\" – the Golden Retriever with a Three-wing who fused devotion and self-presentation into a myth that outlasted her early death. Animal correspondence: Golden Retriever.",
     land:"Argentina", tags:["History","Politics"] , gender:"f"},
+{ route:"beruehmte-benjamin-disraeli", name:"Benjamin Disraeli", added:"2026-09-01", subtyp:"SO2w3",
+    heading:"Benjamin Disraeli – Social Type 2",
+    teaser:"SO2w3 · 1804–1881. British Prime Minister, novelist, Earl of Beaconsfield. A Jewish outsider who made himself indispensable to the crown through eloquence and personal devotion – close friendship with Queen Victoria, sharp-witted rivalry with Gladstone. Animal correspondence: Golden Retriever.",
+    land:"United Kingdom", tags:["History","Politics"] , gender:"m"},
 { route:"beruehmte-julius-caesar", name:"Julius Caesar", added:"2026-08-08", subtyp:"SO2w3",
     heading:"Julius Caesar – Social Type 2",
     teaser:"SO2w3 · 100–44 BC. Roman general, statesman, dictator for life. Generosity as an instrument of power, clemency toward enemies, self-staging in his own campaign account – the Golden Retriever who united an empire and was murdered by a man he had pardoned. Animal correspondence: Golden Retriever.",
@@ -31107,7 +31111,75 @@ function evaPeronPortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
+        {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function benjaminDisraeliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-benjamin-disraeli-portrait.jpg" alt="Benjamin Disraeli" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Benjamin Disraeli</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">1804&ndash;1881 &ndash; British Prime Minister, novelist, Earl of Beaconsfield &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The golden retriever who had to write his own pack into being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the Social Two &ndash; devoted, irresistibly drawn to being needed, and ready to give everything for the pack it feels it belongs to. Benjamin Disraeli was born in 1804 in London to an Italian-Jewish family &ndash; an origin that made him a double outsider in the British establishment of his time, since Jews were formally barred from sitting in the House of Commons until 1858. His father had him baptized as an Anglican Christian at age twelve, which formally opened the door to a political career at all.</p>
+          <p class="vb-intro">Out of this double outsider position, Disraeli developed a lifelong strategy: to make himself indispensable through impact, eloquence, and persistent devotion wherever his birth alone would have kept the door closed. He lost his first parliamentary campaign in 1832 and was booed off &ndash; and ran again and again regardless, until he was finally elected to Parliament in 1837.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: becoming indispensable to the crown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Two (SO2)</strong> directs the Two's devotion not toward individual people, but toward the community as a whole. Naranjo called this subtype <em>Ambition</em> &ndash; the drive to become indispensable through impact on the larger field. In Disraeli, this showed in one of the most remarkable relationships in British history: his friendship with Queen Victoria. Where his rival Gladstone addressed the Queen in a stiff tone, as if she were a public committee, Disraeli wrote her personal, warm-hearted letters and visited her in ways etiquette did not usually allow.</p>
+          <p class="vb-intro">In 1876 he had her officially proclaimed Empress of India &ndash; a title that flattered her enormously &ndash; and once said, in essence, of dealing with royalty: "Everybody likes flattery, and when you come to royalty you should lay it on with a trowel." The golden retriever did not merely lie at the crown's feet; it made itself the crown's most indispensable confidant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the dandy who turned his own life into a novel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Social Two the drive toward visible impact, self-staging, proof through public image. The young Disraeli dressed strikingly extravagantly in his early years &ndash; velvet trousers, ringed gloves, gold chains, even rouge &ndash; to stand out in a society that would otherwise barely have noticed him because of his origins. At the same time, he wrote highly successful society novels such as "Vivian Grey" and "Sybil," which anticipated his own social rise in literary form and gave him public visibility even before his political career began.</p>
+          <p class="vb-intro">Politically, too, Disraeli was a master of staging: his famous, sharp-witted verbal duels with his lifelong rival William Gladstone in the House of Commons became public spectacles he deliberately used for effect &ndash; he is said to have remarked that if Gladstone fell into the Thames, that would be a misfortune, and if anyone pulled him out again, that would be a calamity. The Three-wing wanted not just to have an effect, but to make sure that effect was unforgettable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 showed in Disraeli's genuine political impact: as prime minister, he pushed forward social reforms, including laws to improve housing conditions and worker protection for ordinary people &ndash; a policy he himself called "Tory Democracy," deliberately steering the Conservative Party closer to broader segments of the population rather than treating it purely as the voice of the aristocracy.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; the deep conviction of being indispensable, combined with difficulty admitting one's own neediness. In Disraeli, this showed as a lifelong tendency to hide his own origins and early financial troubles &ndash; in his twenties he fell deeply into debt through failed stock speculation &ndash; behind an impeccable, eloquent facade rather than admitting vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Two terms and a title as crowning achievement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Disraeli became British prime minister for the first time in 1868, only for a few months, then again from 1874 to 1880 &ndash; to date the only British head of government of Jewish descent. In 1876, Queen Victoria elevated him to Earl of Beaconsfield, allowing him to move into the House of Lords. He died in 1881 in London; for his funeral, the Queen personally sent a bunch of primroses, his favorite flower &ndash; still the symbol of the Primrose League, a conservative organization founded in his memory.</p>
+          <p class="vb-intro">Even his death thus became one final confirmation of what had carried his entire life: the personal, warm affection of the crown, which he had earned over decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The legacy: belonging that no one could inherit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Disraeli left behind cannot be reduced to a party or a reform program. He changed how an outsider could rise even within a system that formally excluded him because of his origins &ndash; through impact, eloquence, and personal devotion, not through quiet assimilation, but through demonstrative, often flamboyant visibility.</p>
+          <p class="vb-intro">This is the SO2w3 in one of its most idiosyncratic forms: devotion that is never satisfied with mere belonging, but makes itself so indispensable and visible that, in the end, even a queen personally mourns it. The golden retriever that did not merely seek out its pack, but wrote itself into it, word by word, appearance by appearance.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
       ])}
     </div>
   `);
@@ -49059,7 +49131,7 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Benjamin Disraeli", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
@@ -49069,7 +49141,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
         beschreibung: "Leadership arises not through intimidation or distance, but through deliberately investing in countless individual relationships that, in the end, add up to enormous collective loyalty.",
-        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty' – and whose recurring seizures, attested by ancient sources, he concealed his entire life so as not to endanger his own image of invulnerability; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture."
+        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty' – and whose recurring seizures, attested by ancient sources, he concealed his entire life so as not to endanger his own image of invulnerability; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture; Benjamin Disraeli, who addressed Queen Victoria not in the stiff tone his rival Gladstone used, as if she were a public committee, but courted her with personal, warm-hearted letters and had her proclaimed Empress of India – affection as political capital that secured him more influence over decades than any formal position of power."
       },
       {
         titel: "Behind the warmth lies considerable inner strength that shows when it counts",
@@ -107876,6 +107948,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-truman-capote": trumanCapotePortraitPage,
       "beruehmte-eva-peron": evaPeronPortraitPage,
+      "beruehmte-benjamin-disraeli": benjaminDisraeliPortraitPage,
       "beruehmte-julius-caesar": juliusCaesarPortraitPage,
       "beruehmte-napoleon-bonaparte": napoleonBonapartePortraitPage,
       "beruehmte-alexander-der-grosse": alexanderDerGrossePortraitPage,

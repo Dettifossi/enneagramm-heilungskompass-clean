@@ -1546,3 +1546,70 @@ export function sammyDavisJrPortraitPage() {
     </div>
   `);
 }
+
+export function benjaminDisraeliPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-benjamin-disraeli-portrait.jpg" alt="Benjamin Disraeli" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Benjamin Disraeli</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">1804–1881 – Britischer Premierminister, Schriftsteller, Earl of Beaconsfield – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der sich sein Rudel erst erschreiben musste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, gebraucht zu werden, und bereit, alles für das Rudel zu geben, dem es sich zugehörig fühlt. Benjamin Disraeli wurde 1804 in London als Sohn einer italienisch-jüdischen Familie geboren – eine Herkunft, die ihn im britischen Establishment seiner Zeit zum doppelten Außenseiter machte, da Juden bis 1858 offiziell nicht ins Unterhaus gewählt werden durften. Sein Vater ließ ihn im Alter von zwölf Jahren anglikanisch taufen, was ihm formal den Weg in die Politik überhaupt erst öffnete.</p>
+          <p class="vb-intro">Aus dieser doppelten Außenseiterposition heraus entwickelte Disraeli eine lebenslange Strategie: sich durch Wirkung, Wortgewandtheit und beharrliche Zuwendung dort unentbehrlich zu machen, wo Herkunft allein ihm die Tür verschlossen hätte. Er scheiterte bei seiner ersten Unterhauskandidatur 1832 und wurde ausgebuht – und kandidierte trotzdem beharrlich weiter, bis er 1837 endlich ins Parlament einzog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Unentbehrlich für die Krone werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> richtet die Zuwendung der Zwei nicht auf einzelne Personen, sondern auf die Gemeinschaft als Ganzes. Naranjo nannte diesen Subtyp <em>Ambition</em> – den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Bei Disraeli zeigte sich das in einer der bemerkenswertesten Beziehungen der britischen Geschichte: seiner Freundschaft zu Königin Victoria. Wo sein Rivale Gladstone die Königin in steifem Ton wie ein öffentliches Gremium ansprach, schrieb Disraeli ihr persönliche, warmherzige Briefe und besuchte sie, wo es der Etikette nach nicht üblich war.</p>
+          <p class="vb-intro">Er ließ sie 1876 offiziell zur Kaiserin von Indien ausrufen – ein Titel, der ihr enorm schmeichelte – und sagte einmal sinngemäß über den Umgang mit Königen: „Jeder mag Schmeichelei, und bei der Königsfamilie sollte man sie mit der Kelle auftragen." Der Golden Retriever legte sich nicht nur zu Füßen der Krone, er machte sich zu ihrem unentbehrlichsten Vertrauten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der Dandy, der sein eigenes Leben zum Roman machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren Wirkung, zur Inszenierung, zum Beweis durch öffentliches Bild. Der junge Disraeli kleidete sich in seiner Anfangszeit auffällig extravagant – Samthosen, beringte Handschuhe, goldene Ketten, sogar Rouge –, um in einer Gesellschaft aufzufallen, die ihn seiner Herkunft wegen sonst kaum wahrgenommen hätte. Parallel dazu schrieb er selbst hoch erfolgreiche Gesellschaftsromane wie „Vivian Grey" und „Sybil", die seinen eigenen gesellschaftlichen Aufstieg literarisch vorwegnahmen und ihm schon vor seiner politischen Karriere gesellschaftliche Sichtbarkeit verschafften.</p>
+          <p class="vb-intro">Auch politisch war Disraeli ein Meister der Inszenierung: Seine berühmten, bissig-witzigen Wortgefechte mit seinem Dauerrivalen William Gladstone im Unterhaus wurden zu öffentlichen Schauspielen, die er gezielt für die eigene Wirkung nutzte – über Gladstone soll er gesagt haben, falle dieser in die Themse, sei das ein Unglück, ziehe ihn jemand wieder heraus, sei das eine Katastrophe. Der Dreierflügel wollte nicht nur wirken, sondern dass diese Wirkung unvergesslich blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 zeigte sich bei Disraeli in echter politischer Wirkung: Als Premierminister trieb er soziale Reformen voran, darunter Gesetze zur Verbesserung der Wohnverhältnisse und des Arbeitsschutzes für die einfache Bevölkerung – eine Politik, die er selbst „Tory Democracy" nannte und die die Konservative Partei bewusst näher an breitere Bevölkerungsschichten heranführte, statt sie allein als Interessenvertretung des Adels zu verstehen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, unentbehrlich zu sein, kombiniert mit der Schwierigkeit, eigene Bedürftigkeit zuzulassen. Bei Disraeli zeigte sich das in einer lebenslangen Neigung, die eigene Herkunft und frühe finanzielle Probleme – er geriet in seinen Zwanzigern durch gescheiterte Börsenspekulationen tief in Schulden – hinter einer makellosen, wortgewandten Fassade zu verbergen, statt sich Verletzlichkeit einzugestehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zwei Amtszeiten und ein Titel als Krönung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Disraeli wurde 1868 zum ersten Mal britischer Premierminister, zunächst nur für wenige Monate, dann von 1874 bis 1880 ein zweites Mal – als bislang einziger britischer Regierungschef jüdischer Herkunft. 1876 erhob ihn Königin Victoria zum Earl of Beaconsfield, was ihm den Wechsel ins Oberhaus ermöglichte. Er starb 1881 in London; zu seiner Beerdigung schickte die Königin persönlich einen Strauß Primeln, seine Lieblingsblume – bis heute Symbol der nach ihm benannten Primrose League, einer konservativen Organisation zu seinem Andenken.</p>
+          <p class="vb-intro">Selbst sein Tod wurde damit noch einmal zur Bestätigung dessen, was sein ganzes Leben trug: die persönliche, warme Zuneigung der Krone, die er sich über Jahrzehnte erarbeitet hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Zugehörigkeit, die sich niemand erben konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Disraeli hinterließ, lässt sich nicht auf eine Partei oder ein Reformprogramm reduzieren. Er veränderte, wie ein Außenseiter durch Wirkung, Wortgewandtheit und persönliche Zuwendung selbst in einem System aufsteigen konnte, das ihn seiner Herkunft wegen eigentlich ausschloss – und er tat das nicht durch stille Anpassung, sondern durch demonstrative, oft schillernde Sichtbarkeit.</p>
+          <p class="vb-intro">Das ist die SO2w3 in einer ihrer eigenwilligsten Formen: Zuwendung, die sich niemals mit dem bloßen Dazugehören zufriedengibt, sondern sich so unentbehrlich und sichtbar macht, dass am Ende sogar eine Königin persönlich um sie trauert. Der Golden Retriever, der sich sein Rudel nicht nur suchte, sondern es sich, Wort für Wort und Auftritt für Auftritt, selbst erschrieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+        {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
