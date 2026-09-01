@@ -305,6 +305,7 @@ export function danteAlighieriPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie die Architektur der Göttlichen Komödie stützte"},
         {route:"hoellenkreise-dante", label:"Schaubild: Die 9 Kreise der Hölle nach Dantes Inferno"},

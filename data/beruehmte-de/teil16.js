@@ -1488,6 +1488,71 @@ export function veraBirkenbihlPortraitPage() {
   `);
 }
 
+export function augustinusVonHippoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-augustinus-von-hippo-portrait.jpg" alt="Augustinus von Hippo – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Augustinus von Hippo</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Kirchenlehrer und Philosoph, 354&ndash;430 n. Chr., geboren in Thagaste, römisches Nordafrika &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der nichts halb empfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier &ndash; klein von Statur, aber mit einer Intensität ausgestattet, die in keinem Verhältnis zu seiner Größe steht. Er liebt mit voller Hingabe oder gar nicht, verteidigt sein Revier lautstark gegen jeden vermeintlichen Rivalen und kennt kein gedämpftes Mittelmaß. Was ihm an Fläche fehlt, gleicht er an Feuer aus.</p>
+          <p class="vb-intro">Augustinus wurde 354 n. Chr. in Thagaste im römischen Nordafrika geboren, Sohn eines heidnischen Vaters, Patricius, und einer später heiliggesprochenen Mutter, Monica, die ihn Zeit seines Lebens mit unerbittlicher Sorge begleitete. Schon als junger Rhetoriklehrer in Karthago lebte er nichts halbherzig: In seinen &raquo;Bekenntnissen&laquo;, geschrieben mit etwa 43 Jahren als Rückblick auf die ersten 33 seines Lebens, beschreibt er sich selbst als jemanden, der in seiner Jugend &raquo;nach Karthago kam, wo um mich herum ein Kessel schändlicher Liebschaften brodelte&laquo; &ndash; kein distanzierter Beobachter, sondern jemand, der jede Leidenschaft, jede Beziehung, jede intellektuelle Überzeugung mit der ganzen Wucht seines Wesens durchlebte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität um die eine unerreichbare Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> sucht die eine Beziehung, die eine Idee, die eine Wahrheit, die alles andere überstrahlt &ndash; und lebt in einem ständigen Wechsel zwischen glühender Hingabe und dem quälenden Gefühl, dass gerade diese eine Sache ihr entgleitet. Naranjo nannte diesen Subtyp treffend <em>Rivalität</em> (im englischen Original <em>Competition</em>): einen Kampf, in dem die SX4 mit aller Kraft um das ringt, was sie für unwiderruflich fehlend hält &ndash; und diesen Mangel gerade dadurch zur treibenden Kraft ihres Lebens macht.</p>
+          <p class="vb-intro">Augustinus lebte fast fünfzehn Jahre lang in einer festen, aber nie legitimierten Beziehung mit einer namentlich nicht überlieferten Frau, mit der er einen Sohn, Adeodatus, hatte &ndash; eine Verbindung, die er in den &raquo;Bekenntnissen&laquo; als tiefe, echte Liebe schildert und deren erzwungene Trennung (seine Mutter Monica drängte auf eine standesgemäße Verlobung) ihn nach eigenen Worten &raquo;bluten&laquo; ließ. Parallel dazu durchlief er fast ein Jahrzehnt als Anhänger des Manichäismus, einer dualistischen Lehre von Licht und Finsternis, die er mit derselben Rivalität verfocht, mit der er später gegen sie schrieb, sobald sie seinem wachsenden Verlangen nach einer tieferen, unwiderlegbaren Wahrheit nicht mehr standhielt. Immer ging es um das eine: die Beziehung, die Lehre, den Gott, der ihn vollständig ausfüllen würde &ndash; und um den Schmerz, dass nichts davon je genug schien, bis er es fand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Ringen als Denksystem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier eine zusätzliche Ebene: das Bedürfnis, das eigene glühende Verlangen nicht nur zu durchleben, sondern es zu verstehen, zu ordnen, in ein Gedankengebäude zu übersetzen, das auch andere nachvollziehen können. Wo eine reine SX4 in der Intensität des Gefühls verharren könnte, treibt der Fünferflügel dazu, aus dem persönlichen Ringen ein intellektuelles System zu bauen.</p>
+          <p class="vb-intro">386 n. Chr. erlebte Augustinus in einem Mailänder Garten jene berühmte Bekehrungsszene, die er in den &raquo;Bekenntnissen&laquo; schildert: eine Kinderstimme, die &raquo;Nimm und lies&laquo; rief, ein aufgeschlagener Römerbrief, ein Moment, der sein Leben von Grund auf veränderte. Doch aus diesem einen zutiefst persönlichen, fast unaussprechlichen Erlebnis wurde nicht bloß eine private Erschütterung &ndash; Augustinus systematisierte es. Unter dem Einfluss des Mailänder Bischofs Ambrosius, getauft 387 im Alter von 33 Jahren, verfasste er in den folgenden Jahrzehnten ein gewaltiges theologisches Werk, darunter &raquo;De civitate Dei&laquo; (Vom Gottesstaat), das die gesamte Menschheitsgeschichte in ein logisches Gerüst aus zwei Reichen fasst. Der Fünferflügel verwandelte die rohe Wucht seiner Bekehrung in eine der einflussreichsten philosophisch-theologischen Architekturen der abendländischen Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Bekenntnisse: Rivalität mit dem eigenen früheren Ich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die &raquo;Confessiones&laquo; sind eines der ersten Werke der Weltliteratur, in dem ein Mensch sein eigenes Innenleben schonungslos offenlegt &ndash; nicht als nüchterner Lebenslauf, sondern als eine fortlaufende, oft schmerzhafte Auseinandersetzung mit dem eigenen früheren Selbst. Augustinus rang mit seinem jüngeren Ich, wie eine SX4 mit einem Rivalen ringt: Er verurteilte seine Jugendsünden mit derselben Intensität, mit der er sie einst gelebt hatte, und legendär ist seine Klage über eine als Jugendlicher begangene Birnendiebstahl-Episode &ndash; nicht wegen des geringen materiellen Schadens, sondern weil sie ihm zum Symbol für das Wesen der Sünde selbst wurde: das Verlangen nach dem Verbotenen um seiner selbst willen.</p>
+          <p class="vb-intro">Diese Fähigkeit, das eigene Innenleben mit derselben Intensität zu seziehen, mit der er es einst durchlebte, macht die &raquo;Bekenntnisse&laquo; bis heute lesbar &ndash; ein Mann, der nie zufrieden war mit einer oberflächlichen Erklärung seiner selbst, sondern immer tiefer grub, bis er auf das stieß, was er für die letzte, unwiderlegbare Wahrheit hielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w5 ist ihre Fähigkeit, aus dem eigenen glühenden Ringen ein Gedankengebäude zu schaffen, das Jahrhunderte überdauert. Augustinus übersetzte seine persönlichste Sehnsucht &ndash; nach der einen Beziehung, die nicht enttäuscht &ndash; in eine Theologie, die von der Gnade Gottes als der einzigen Verbindung spricht, die den Menschen wirklich ausfüllen kann. Sein berühmter Satz &raquo;Unruhig ist unser Herz, bis es Ruhe findet in dir&laquo; ist die reinste Formel der sexuellen Vier: das Wissen, dass nichts Endliches je genügt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; die schmerzhafte Überzeugung, dass anderen etwas Wesentliches gegeben ist, das einem selbst fehlt. Bei Augustinus zeigte sich dieses Muster nicht als Eifersucht auf Besitz, sondern als eine fast lebenslange Rivalität mit sich selbst: Als Bischof von Hippo Regius, ein Amt, das er ab 396 bis zu seinem Tod ausübte, führte er unermüdliche, oft erbitterte theologische Streitschriften gegen Donatisten, Manichäer und Pelagianer &ndash; Auseinandersetzungen, in denen er nie das Gefühl loszuwerden schien, dass die eine, vollständige, unangreifbare Wahrheit noch nicht restlos gesichert war, solange ein Widerspruch irgendwo unbeantwortet blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, dessen Bellen ein Jahrtausend überdauerte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Ich bin bereits vollständig verbunden, ohne dass mir etwas fehlt.</em> Für die SX4w5 zeigt sich dieser Weg darin, dass das rastlose Ringen um die eine unerreichbare Verbindung sich in eine tragfähige, geordnete Gewissheit verwandelt &ndash; nicht weniger intensiv, aber nicht mehr getrieben von Mangel.</p>
+          <p class="vb-intro">Augustinus starb am 28. August 430 n. Chr. in Hippo Regius, während die Vandalen die Stadt belagerten &ndash; sein Leben endete inmitten desselben Zusammenbruchs der römischen Ordnung, über den er in &raquo;De civitate Dei&laquo; geschrieben hatte. Seine Schriften wurden zum Fundament der westlichen Theologie und Philosophie für die folgenden anderthalb Jahrtausende, von Thomas von Aquin bis Martin Luther, von Descartes bis in gegenwärtige Debatten über Willensfreiheit und Zeit. Der Chihuahua, der als junger Mann nichts halb empfand, empfand am Ende auch seinen Glauben nicht halb &ndash; und sein Bellen, einst nur das eines rastlosen jungen Rhetorikers in Karthago, hallt bis heute durch die Geschichte des abendländischen Denkens.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function yayoiKusamaPortraitPage() {
   return shell(`
     <div class="page-container">

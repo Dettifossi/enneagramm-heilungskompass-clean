@@ -1397,6 +1397,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dante Alighieri – Sexual Type 4",
     teaser:"SX4w5 · 1265–1321. Italian poet, Divine Comedy. Exile from Florence, unfulfilled love for Beatrice, political enemies immortalized by name in Hell. The Chihuahua with the Five-wing: personal pain transformed into an encyclopedic world tribunal. Animal correspondence: Chihuahua.",
     land:"Italy", tags:["History","Literature"], gender:"m"},
+{ route:"beruehmte-augustinus-von-hippo", name:"Augustine of Hippo", added:"2026-09-01", subtyp:"SX4w5",
+    heading:"Augustine of Hippo – Sexual Type 4",
+    teaser:"SX4w5 · 354–430 AD, born in Thagaste, Roman North Africa. Church father and philosopher, Confessions, City of God. Restless struggle for the one unattainable truth, from his youthful love through Manichaeism to his conversion in Milan. Animal correspondence: Chihuahua.",
+    land:"Roman North Africa", tags:["Philosophy","Theology"], gender:"m"},
 { route:"beruehmte-claude-debussy", name:"Claude Debussy", added:"2026-08-01", subtyp:"SX4w5",
     heading:"Claude Debussy – Sexual Type 4",
     teaser:"SX4w5 · 1862–1918. Composer, founder of musical modernism. Clair de Lune, La Mer, Pelléas et Mélisande. The Chihuahua who rethought European music from its foundations – and never stopped rivaling against convention.",
@@ -26052,6 +26056,7 @@ function claudeDebussyPortraitPage() {
         {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
         {route:"beruehmte-linda-leinweber", label:"Portrait: Linda Leinweber (SX4w5)"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
       ])}
     </div>
   `);
@@ -26117,10 +26122,76 @@ function danteAlighieriPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
         {route:"bibel-judas-thaddaeus", label:"Bible Portrait: Jude Thaddaeus (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function augustinusVonHippoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-augustinus-von-hippo-portrait.jpg" alt="Augustine of Hippo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Augustine of Hippo</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Church father and philosopher, 354&ndash;430 AD, born in Thagaste, Roman North Africa &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua Who Felt Nothing by Halves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size. It loves with total devotion or not at all, defends its territory loudly against every perceived rival, and knows no muted middle ground. What it lacks in size, it makes up in fire.</p>
+          <p class="vb-intro">Augustine was born in 354 AD in Thagaste, Roman North Africa, son of a pagan father, Patricius, and a mother, Monica, later canonized a saint, who accompanied him with relentless concern his whole life. Even as a young rhetoric teacher in Carthage, he lived nothing by halves: in his <em>Confessions</em>, written around age 43 as a look back on his first 33 years, he describes himself as someone who &bdquo;came to Carthage, where a cauldron of shameful loves seethed all around me&ldquo; &ndash; not a detached observer, but someone who lived every passion, every relationship, every intellectual conviction with the full force of his being.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Rivalry for the One Unattainable Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> searches for the one relationship, the one idea, the one truth that outshines everything else &ndash; and lives in a constant swing between glowing devotion and the tormenting sense that this very thing is slipping away. Naranjo aptly called this subtype <em>competition</em>: a struggle in which the SX4 fights with all its strength for what it holds to be irrevocably missing &ndash; and makes precisely that lack the driving force of its life.</p>
+          <p class="vb-intro">Augustine lived for nearly fifteen years in a stable but never legitimized relationship with a woman whose name history never recorded, with whom he had a son, Adeodatus &ndash; a bond he describes in the <em>Confessions</em> as deep, real love, and whose forced end (his mother Monica pressed for a socially advantageous betrothal) left him, in his own words, &bdquo;bleeding.&ldquo; In parallel, he spent nearly a decade as a follower of Manichaeism, a dualistic doctrine of light and darkness, which he defended with the same competitive fire he later turned against it once it could no longer withstand his growing hunger for a deeper, irrefutable truth. It was always about the one thing: the relationship, the doctrine, the God who would fill him completely &ndash; and the pain that nothing ever seemed enough, until he found it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Turning the Struggle Into a System of Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four an additional layer: the need not only to live through its own burning longing, but to understand it, order it, translate it into a structure of thought that others can follow too. Where a pure SX4 might remain in the intensity of feeling, the Five-wing drives it to build an intellectual system out of its personal struggle.</p>
+          <p class="vb-intro">In 386 AD, Augustine experienced in a Milan garden the famous conversion scene he recounts in the <em>Confessions</em>: a child's voice calling &bdquo;Take up and read,&ldquo; an opened Epistle to the Romans, a moment that changed his life at its root. But out of this deeply personal, almost inexpressible experience, he did not leave a mere private shock &ndash; Augustine systematized it. Under the influence of Bishop Ambrose of Milan, baptized in 387 at age 33, he spent the following decades composing a vast theological body of work, including <em>De civitate Dei</em> (The City of God), which frames the entire history of humanity within a logical structure of two realms. The Five-wing turned the raw force of his conversion into one of the most influential philosophical-theological architectures in Western history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Confessions: Rivalry With His Own Earlier Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <em>Confessiones</em> are among the first works in world literature in which a person lays bare his own inner life without mercy &ndash; not as a sober record of events, but as an ongoing, often painful reckoning with his former self. Augustine wrestled with his younger self the way an SX4 wrestles with a rival: he condemned his youthful sins with the same intensity with which he once lived them, and famous is his lament over a pear-theft episode committed as a teenager &ndash; not because of the trivial material loss, but because it became for him a symbol of the very nature of sin: desire for the forbidden purely for its own sake.</p>
+          <p class="vb-intro">This ability to dissect his own inner life with the same intensity with which he once lived it is what keeps the <em>Confessions</em> readable to this day &ndash; a man never satisfied with a superficial account of himself, always digging deeper, until he struck what he took to be the final, irrefutable truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w5 is its ability to turn its own burning struggle into a structure of thought that outlasts centuries. Augustine translated his most personal longing &ndash; for the one relationship that does not disappoint &ndash; into a theology in which the grace of God is the only bond capable of truly filling a human being. His famous line, &bdquo;Our heart is restless until it rests in you,&ldquo; is the purest formula of the sexual Four: the knowledge that nothing finite is ever enough.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the painful conviction that others have been given something essential that one lacks oneself. In Augustine, this pattern did not appear as jealousy over possessions, but as a nearly lifelong rivalry with himself: as Bishop of Hippo Regius, an office he held from 396 until his death, he waged tireless, often bitter theological campaigns against Donatists, Manichaeans, and Pelagians &ndash; disputes in which he never seemed able to shake the feeling that the one, complete, unassailable truth was not yet fully secured as long as a single contradiction remained unanswered anywhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chihuahua Whose Bark Outlasted a Millennium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>I am already fully connected, lacking nothing.</em> For the SX4w5, this path shows itself as the restless struggle for the one unattainable bond transforming into a sustaining, ordered certainty &ndash; no less intense, but no longer driven by lack.</p>
+          <p class="vb-intro">Augustine died on August 28, 430 AD, in Hippo Regius, while the Vandals laid siege to the city &ndash; his life ending amid the same collapse of Roman order he had written about in <em>The City of God</em>. His writings became the foundation of Western theology and philosophy for the following millennium and a half, from Thomas Aquinas to Martin Luther, from Descartes to present-day debates on free will and time. The Chihuahua who, as a young man, felt nothing by halves, felt his faith no less fully at the end &ndash; and his bark, once only that of a restless young rhetorician in Carthage, still echoes through the history of Western thought today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
       ])}
     </div>
   `);
@@ -49115,7 +49186,7 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji", "Augustine of Hippo"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
@@ -49125,7 +49196,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Rejection or exile becomes creative power, rather than leading to revenge or resignation",
         beschreibung: "Injury, rejection, or forced distance does not lead to withdrawal, but becomes the most fertile material for a work or path of one's own.",
-        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections; Paris Hilton, who spent decades concealing distressing experiences in so-called 'troubled teen' facilities behind a perfectly staged public persona, out of which a business empire of her own emerged; Freddie Mercury, who in his final year of life, visibly weakened by an AIDS diagnosis kept secret for years, created some of the most striking recordings of his career instead of withdrawing."
+        beleg: "Voltaire, who turned exile from France into 'the most fertile period of his life'; Dante, who out of his banishment from Florence created 'one of the mightiest literary works in world history': 'He turned banishment not into resignation, but into the material for a work that secured him posthumously exactly the immortality the city denied him in life'; Ana de Armas, who fought her way through Hollywood without a safety net or connections; Paris Hilton, who spent decades concealing distressing experiences in so-called 'troubled teen' facilities behind a perfectly staged public persona, out of which a business empire of her own emerged; Freddie Mercury, who in his final year of life, visibly weakened by an AIDS diagnosis kept secret for years, created some of the most striking recordings of his career instead of withdrawing; Augustine of Hippo, whose forced separation from his longtime companion and whose break with Manichaeism, to which he had belonged for nearly a decade, did not leave him resigned, but flowed into the raw force of the 'Confessions' and into a theological body of work that shaped Western history for a millennium and a half."
       },
       {
         titel: "Uncompromising intensity that submits to no external convention",
@@ -108032,6 +108103,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
+      "beruehmte-augustinus-von-hippo": augustinusVonHippoPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-bill-haast": billHaastPortraitPage,
