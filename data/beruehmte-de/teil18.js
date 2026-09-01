@@ -1592,7 +1592,7 @@ export function benjaminDisraeliPortraitPage() {
           <p class="vb-intro">Selbst sein Tod wurde damit noch einmal zur Bestätigung dessen, was sein ganzes Leben trug: die persönliche, warme Zuneigung der Krone, die er sich über Jahrzehnte erarbeitet hatte.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Vermächtnis: Zugehörigkeit, die sich niemand erben konnte</h2>
+        <h2 class="vb-section">6. Das Vermächtnis: eine Zugehörigkeit, die niemand erben konnte – nur erringen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Disraeli hinterließ, lässt sich nicht auf eine Partei oder ein Reformprogramm reduzieren. Er veränderte, wie ein Außenseiter durch Wirkung, Wortgewandtheit und persönliche Zuwendung selbst in einem System aufsteigen konnte, das ihn seiner Herkunft wegen eigentlich ausschloss – und er tat das nicht durch stille Anpassung, sondern durch demonstrative, oft schillernde Sichtbarkeit.</p>
           <p class="vb-intro">Das ist die SO2w3 in einer ihrer eigenwilligsten Formen: Zuwendung, die sich niemals mit dem bloßen Dazugehören zufriedengibt, sondern sich so unentbehrlich und sichtbar macht, dass am Ende sogar eine Königin persönlich um sie trauert. Der Golden Retriever, der sich sein Rudel nicht nur suchte, sondern es sich, Wort für Wort und Auftritt für Auftritt, selbst erschrieb.</p>
