@@ -1535,6 +1535,7 @@ export function voltairePortraitPage() {
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Portr\u00e4t: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-arthur-rimbaud", label:"Portr\u00e4t: Arthur Rimbaud (SX4w3)"},
+        {route:"beruehmte-francisco-de-goya", label:"Portr\u00e4t: Francisco de Goya (SX4w3)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-voltaire", label:"Krankheitsportr\u00e4t: Voltaire (SX4w3) \u2013 chronische Verdauungs- und Blasenleiden"},
       ])}

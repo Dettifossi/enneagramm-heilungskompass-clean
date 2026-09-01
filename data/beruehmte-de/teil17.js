@@ -1556,3 +1556,63 @@ export function zoeSaldanaPortraitPage() {
     </div>
   `);
 }
+
+export function franciscoDeGoyaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francisco-de-goya-portrait.jpg" alt="Francisco de Goya – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francisco de Goya</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Spanischer Maler und Grafiker, 1746&ndash;1828, geboren in Fuendetodos, Aragonien &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, dessen Blick man leicht mit dem eines Löwen verwechselt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und kennt dieses Verhältnis nicht. Er tritt der weit größeren Bedrohung ungerührt entgegen, bellt lauter, als seine Größe erwarten lässt, und weicht keinen Schritt zurück. Francisco José de Goya y Lucientes wurde 1746 in Fuendetodos, einem armen aragonesischen Dorf, als Sohn eines Vergolders geboren &ndash; ein bescheidener Anfang, aus dem er sich über Jahrzehnte bis zum Ersten Hofmaler der spanischen Krone hocharbeitete.</p>
+          <p class="vb-intro">Schon sein Frühwerk zeigt einen Mann, der sich nicht mit dem zufriedengibt, was von ihm erwartet wird: Er bewarb sich mehrfach erfolglos an der Königlichen Akademie, bevor er über Umwege &ndash; als Karikaturist für königliche Wandteppich-Vorlagen &ndash; endlich Fuß fasste. Wer sein Spätwerk kennt, den Blick auf den Selbstporträts, der oft mit dem einer sexuellen Acht verwechselt wird, ahnt schon hier: Dieser Chihuahua funkelt heller, als seine bescheidene Herkunft vermuten lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Hassenergie, die nach außen schleudert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nicht nach innen, sondern schleudert ihn nach außen &ndash; Naranjo nannte diesen Subtyp <em>Rivalität</em> und lehrte ausdrücklich, dass die SX4 im Ausdruck noch aggressiver werden kann als die sexuelle Acht selbst: Wo die SX8 aus ungebrochener Kraft heraus konfrontiert, entlädt die SX4 eine angestaute, oft jahrzehntelang mitgetragene Wut &ndash; und genau diese Intensität im Blick führt dazu, dass beide Subtypen im ersten Eindruck leicht verwechselt werden.</p>
+          <p class="vb-intro">1793 erlitt Goya eine schwere, bis heute nicht restlos geklärte Krankheit &ndash; Kopfschmerzen, Schwindel, Halluzinationen, Sehstörungen, Ohrensausen &ndash;, die ihn monatelang ans Bett fesselte und am Ende taub zurückließ. Statt sich zurückzuziehen, wandte er die daraus entstandene innere Wucht nach außen: In den 1799 veröffentlichten "Caprichos", 80 Radierungen, die Aberglauben, Klerus und Adel unverblümt der Lächerlichkeit preisgaben, richtete er dieselbe Intensität, die ihn selbst verzehrte, gegen eine ganze Gesellschaft. Der Dreierflügel sorgte dafür, dass diese Wut nicht privat blieb, sondern öffentlich wirksam wurde &ndash; auch wenn sich in den ersten vier Jahren gerade einmal 27 Exemplare verkauften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Hofmaler der Krone, unbestechlicher Chronist ihrer Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier den Willen zur Sichtbarkeit und zur gesellschaftlichen Wirkung &ndash; das Bedürfnis, dass die eigene Wahrheit nicht im Verborgenen bleibt, sondern eine Bühne findet. 1786 wurde Goya Maler am Hof Karls III., 1799 unter Karl IV. schließlich Erster Hofmaler &ndash; eine der höchsten künstlerischen Positionen, die Spanien zu vergeben hatte.</p>
+          <p class="vb-intro">Doch anders als es diese Position nahelegt, schmeichelte er seinen Auftraggebern nicht: Sein berühmtestes Gruppenporträt "Die Familie Karls IV." (1800) zeigt die Königsfamilie mit einer fast schonungslosen Direktheit &ndash; verschwollene Gesichter, eitle Posen, keine Idealisierung. Bis heute streiten Kunsthistoriker, ob das eine subtile Kritik oder schlicht rücksichtslose Ehrlichkeit war. Der Dreierflügel wollte gesehen werden &ndash; aber er wollte nie lügen, um gesehen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich in Goyas Serie "Die Schrecken des Krieges" (Desastres de la Guerra), entstanden zwischen 1810 und 1820 während der napoleonischen Besatzung Spaniens: 82 Radierungen, die Massaker, Vergewaltigungen und Hungersnöte ohne jede Beschönigung zeigen &ndash; eines der frühesten und schonungslosesten Anti-Kriegs-Werke der Kunstgeschichte, das er zu Lebzeiten nie zu veröffentlichen wagte. Sein Gemälde "Der 3. Mai 1808" hält die Erschießung spanischer Aufständischer durch französische Soldaten fest &ndash; nicht als heroisches Historienbild, sondern als anklagender Schrei.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 gewendet in eine ständige Rivalität gegen alles, was ihr Unrecht oder Halbheit vorspiegelt. Bei Goya zeigte sich das auch im Persönlichen: Er führte über Jahrzehnte erbitterte Rivalitäten mit anderen Künstlern und Auftraggebern und ließ sich selbst durch die eigene Taubheit nicht zur Zurückhaltung bewegen &ndash; im Gegenteil, seine Bilder wurden mit fortschreitender Isolation immer düsterer, direkter, kompromissloser.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Vermächtnis: Der Chihuahua, der die Wände seines Hauses mit dem Schrecken bemalte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1819, mit 72 Jahren, zog Goya in ein Landhaus außerhalb Madrids, das schon vor seinem Einzug den Namen "Quinta del Sordo" (Haus des Tauben) trug &ndash; ein Zufall, der zum Sinnbild seiner letzten Lebensjahre wurde. Dort schuf er, ungefragt und nie für eine Öffentlichkeit gedacht, die 14 "Schwarzen Gemälde" direkt auf die Wände seines Ess- und Wohnzimmers &ndash; darunter das berühmte "Saturn verschlingt seinen Sohn": Bilder von schonungsloser, fast unerträglicher Intensität, gemalt für niemanden außer sich selbst.</p>
+          <p class="vb-intro">Goya starb 1828 im Exil in Bordeaux, wohin er sich nach der Rückkehr der absolutistischen Herrschaft in Spanien zurückgezogen hatte, mit 82 Jahren. Der Chihuahua, dessen Blick man so leicht mit dem eines Löwen verwechselt, hatte sein ganzes Leben lang nichts beschönigt &ndash; weder die Krone, noch den Krieg, noch die eigene, alternde Dunkelheit. Genau das macht sein Werk bis heute so unmittelbar: Es kennt keine Halbheiten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-arthur-rimbaud", label:"Porträt: Arthur Rimbaud (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

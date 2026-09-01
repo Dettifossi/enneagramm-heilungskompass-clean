@@ -1373,6 +1373,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Voltaire – Sexual Type 4",
     teaser:"SX4w3 · 1694–1778. French Enlightenment writer and philosopher. Bastille imprisonment, the Calas affair, 'Candide', feud with Rousseau. The chihuahua with the Three-wing: wounded pride as the drive behind a lifelong fight against injustice. Animal correspondence: Chihuahua.",
     land:"France", tags:["History","Philosophy"], gender:"m"},
+{ route:"beruehmte-francisco-de-goya", name:"Francisco de Goya", added:"2026-09-01", subtyp:"SX4w3",
+    heading:"Francisco de Goya – Sexual Type 4",
+    teaser:"SX4w3 · 1746–1828, born in Fuendetodos, Aragon. Spanish court painter, Caprichos, The Disasters of War, Black Paintings. Deafened by a severe illness in 1793, he turned his own intensity uncompromisingly against war, clergy, and nobility. Animal correspondence: Chihuahua.",
+    land:"Spain", tags:["Art","History"], gender:"m"},
 { route:"beruehmte-bill-kaulitz", name:"Bill Kaulitz", added:"2026-08-24", subtyp:"SX4w3",
     heading:"Bill Kaulitz – Sexual Type 4",
     teaser:"SX4w3 · b. 1989. German musician, model, and designer, frontman of Tokio Hotel. Turned a striking voice and a striking look into an international career spanning music, fashion, and queer visibility. Animal correspondence: Chihuahua.",
@@ -33458,7 +33462,68 @@ function voltairePortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3)"},
+        {route:"beruehmte-francisco-de-goya", label:"Portrait: Francisco de Goya (SX4w3)"},
         {route:"krankheitsportraets-voltaire", label:"Illness Portrait: Voltaire (SX4w3) – chronic digestive and bladder ailments"},
+      ])}
+    </div>
+  `);
+}
+
+function franciscoDeGoyaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-francisco-de-goya-portrait.jpg" alt="Francisco de Goya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francisco de Goya</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Spanish painter and printmaker, 1746&ndash;1828, born in Fuendetodos, Aragon &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua Whose Stare Is Easily Mistaken for a Lion's</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and knows nothing of that proportion. It faces a far greater threat unmoved, barks louder than its size would suggest, and does not back down. Francisco José de Goya y Lucientes was born in 1746 in Fuendetodos, a poor Aragonese village, the son of a gilder &ndash; a modest beginning from which he worked his way, over decades, to First Court Painter of the Spanish crown.</p>
+          <p class="vb-intro">Even his early work shows a man unwilling to settle for what was expected of him: he applied unsuccessfully to the Royal Academy several times before finally gaining a foothold by a roundabout route &ndash; as a cartoonist for royal tapestry designs. Anyone who knows his late work, the gaze in his self-portraits often mistaken for that of a sexual Eight, already senses it here: this Chihuahua burns brighter than its modest origins would suggest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Hate Energy Hurled Outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> does not carry the Four's pain inward, but hurls it outward &ndash; Naranjo called this subtype <em>Rivalry</em> and explicitly taught that the SX4 can appear even more aggressive in expression than the sexual Eight itself: where the SX8 confronts from unbroken strength, the SX4 discharges a pent-up rage often carried for decades &ndash; and it is precisely this intensity in the gaze that makes the two subtypes easy to mistake for one another at first impression.</p>
+          <p class="vb-intro">In 1793, Goya suffered a severe, to this day not fully explained illness &ndash; headaches, dizziness, hallucinations, vision problems, ringing in his ears &ndash; that confined him to bed for months and left him deaf by the end. Rather than withdraw, he turned the inner force this left behind outward: in the "Caprichos," 80 etchings published in 1799 that laid bare superstition, clergy, and nobility without disguise, he directed the same intensity that consumed him against an entire society. The Three-wing ensured this rage did not remain private but became publicly effective &ndash; even though only 27 copies sold in the first four years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Court Painter to the Crown, Uncompromising Chronicler of Its Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the sexual Four the will to visibility and social impact &ndash; the need for one's own truth not to remain hidden, but to find a stage. In 1786 Goya became painter to the court of Charles III, and in 1799, under Charles IV, finally First Court Painter &ndash; one of the highest artistic positions Spain had to offer.</p>
+          <p class="vb-intro">Yet unlike what that position might suggest, he did not flatter his patrons: his most famous group portrait, "The Family of Charles IV" (1800), shows the royal family with an almost unsparing directness &ndash; puffy faces, vain poses, no idealization. Art historians still argue to this day whether this was subtle critique or simply reckless honesty. The Three-wing wanted to be seen &ndash; but it never wanted to lie in order to be seen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 shows in Goya's series "The Disasters of War" (Desastres de la Guerra), created between 1810 and 1820 during the Napoleonic occupation of Spain: 82 etchings that show massacres, rape, and famine without any embellishment &ndash; one of the earliest and most unsparing anti-war works in the history of art, which he never dared publish in his lifetime. His painting "The Third of May 1808" captures the execution of Spanish insurgents by French soldiers &ndash; not as a heroic history painting, but as an accusing cry.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 turned into a constant rivalry against anything that presents her with injustice or half-measures. In Goya, this also showed personally: he carried bitter rivalries with other artists and patrons for decades, and did not let his own deafness move him toward restraint &ndash; on the contrary, his paintings grew ever darker, more direct, more uncompromising as his isolation deepened.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Legacy: The Chihuahua Who Painted His Own Walls With Terror</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1819, at age 72, Goya moved into a country house outside Madrid that already bore the name "Quinta del Sordo" (House of the Deaf Man) before he ever moved in &ndash; a coincidence that became the emblem of his final years. There, unasked and never intended for any public, he created the 14 "Black Paintings" directly on the walls of his dining and sitting rooms &ndash; among them the famous "Saturn Devouring His Son": images of unsparing, almost unbearable intensity, painted for no one but himself.</p>
+          <p class="vb-intro">Goya died in 1828 in exile in Bordeaux, where he had withdrawn after the return of absolutist rule in Spain, at age 82. The Chihuahua whose gaze is so easily mistaken for a lion's had, his whole life long, embellished nothing &ndash; not the crown, not the war, not his own aging darkness. That is exactly what keeps his work so immediate today: it knows no half-measures.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3)"},
       ])}
     </div>
   `);
@@ -49186,7 +49251,7 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji", "Augustine of Hippo"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji", "Augustine of Hippo", "Francisco de Goya"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
@@ -49201,7 +49266,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Uncompromising intensity that submits to no external convention",
         beschreibung: "Adapting to expectations, rules, or social norms is experienced as constriction, which is resisted with all one's strength – even when that means open conflict with one's own era.",
-        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for' – and who never met his own nearly nine-year cancer illness with retreat, giving a final concert under cannon fire as late as 1917; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent."
+        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for' – and who never met his own nearly nine-year cancer illness with retreat, giving a final concert under cannon fire as late as 1917; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent; Francisco de Goya, who as First Court Painter to the Spanish crown did not flatter his patrons with idealized likenesses but painted them with almost unsparing directness, and who, after being deafened by illness in 1793, did not grow quieter but laid bare clergy, nobility, and the horrors of war without embellishment in the 'Caprichos' and 'The Disasters of War'."
       },
       {
         titel: "When the same boundless intensity turns against others instead of against conventions (shadow form)",
@@ -107765,6 +107830,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
+      "beruehmte-francisco-de-goya": franciscoDeGoyaPortraitPage,
       "beruehmte-arthur-rimbaud": arthurRimbaudPortraitPage,
       "beruehmte-honore-de-balzac": honoreDeBalzacPortraitPage,
       "beruehmte-june-carter-cash": juneCarterCashPortraitPage,
