@@ -16082,6 +16082,7 @@ const uiText = {
       { route: "leidenschaft-und-wunde", label: "Leidenschaft und Wunde" },
       { route: "verantwortung", label: "Verantwortung" },
       { route: "verwechslungen", label: "Verwechslungen" },
+      { route: "wahre-freiheit", label: "Wahre Freiheit" },
       { route: "wahrnehmungsstile", label: "Wahrnehmungsstile" },
       { route: "wer-wir-sind", label: "Wer wir sind" },
       { route: "wunden", label: "Wunden & Schutzstrategien" },
@@ -32776,6 +32777,7 @@ function enneagrammFilmeTypPage(n) {
 // NEU-Markierungen f\u00fcr Schaubilder: route \u2192 Datum des Eintrags (Badge l\u00e4uft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "wahre-freiheit": "2026-09-01",
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
   "enneagramm-emotionalitaet": "2026-08-08",
   "enneagramm-instinkt": "2026-08-08",
@@ -40765,6 +40767,89 @@ function spirituelleUebungenPage() {
         {route:"bewusstseinsuebungen", label:"Bewusstseins\u00fcbungen"},
         {route:"heilungsweg", label:"Heilungsweg"},
         {route:"frieden-schliessen", label:"Frieden schlie\u00dfen"},
+      ])}
+    </section>
+  `);
+}
+
+function wahreFreiheitPage() {
+  return shell(`
+    ${pageHeader("wahre-freiheit")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder \u00b7 Spirituelle Praxis</p>
+      <h1>Vom bemalten K\u00e4fig zur wahren Freiheit</h1>
+      <p class="lead-small">Was das Enneagramm als psychologisches Werkzeug leisten kann \u2013 und wo der spirituelle Weg erst beginnt, wenn das bewusste Management der eigenen Pers\u00f6nlichkeit an seine Grenze st\u00f6\u00dft.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/wahre-freiheit/kaefig-zur-freiheit.jpg"
+             alt="Vom bemalten K\u00e4fig zur wahren Freiheit"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Es ist faszinierend zu beobachten, wie moderne psychologische Werkzeuge wie das Enneagramm den Weg in die spirituelle Praxis finden. Wenn ein Mensch erkennt, dass er nicht mit seinem Ego-Stil identisch ist, sondern dass dieser lediglich ein Schutzmechanismus beziehungsweise psychologischer Abwehrmechanismus ist, ist damit bereits ein wertvoller Meilenstein erreicht. Doch auf dem langen Lebensweg der inneren Reife stellt sich irgendwann, meistens ab der zweiten Lebensh\u00e4lfte, die entscheidende Frage:</p>
+
+        <p class="vb-anmerkung" style="margin:1.2rem 0;font-style:italic;">Gen\u00fcgt es, den K\u00e4fig wohnlicher einzurichten, oder geht es um etwas, das weit \u00fcber das bewusste Management der eigenen Pers\u00f6nlichkeit hinausgeht?</p>
+
+        <p class="vb-intro">Die Idee, das Ego als eine Art Hausgenossen oder inneren Hund zu betrachten, der seine artgerechte Haltung und sein Futter braucht, hat unbestreitbar ihren Charme. Sich einzugestehen, dass typspezifische Bed\u00fcrfnisse existieren, verhindert, dass diese verdr\u00e4ngt werden und im Untergrund unkontrolliert ihr Unwesen treiben. F\u00fcr eine bestimmte Lebensphase, von der Jugend bis zum Ende der ersten Lebensh\u00e4lfte, ist dieser Ansatz nahezu perfekt. Er bringt Ruhe ins System, reduziert innere Konflikte und erm\u00f6glicht ein friedlicheres Miteinander mit den eigenen Mustern. Das Gef\u00e4ngnis bekommt einen sch\u00f6neren Anstrich, Vorh\u00e4nge werden aufgeh\u00e4ngt, und man richtet es sich gem\u00fctlich ein.</p>
+
+        <p class="vb-intro">Doch je l\u00e4nger dieser Weg \u00fcber die Jahrzehnte fortgesetzt wird, desto deutlicher zeigt sich ein grundlegender Haken daran: Eine sanfte, bewusste Gef\u00e4ngnisstrafe bleibt eine Gefangenschaft. Wer gelernt hat, sein Ego zu managen, verwechselt psychologische Reife oft mit spiritueller Befreiung. Man f\u00fcttert den Ego-Hund kontrolliert, damit er nicht bei\u00dft, und glaubt, damit sei es getan. Das Problem dabei ist, dass die Grundstruktur erhalten bleibt und das Ego ein Fass ohne Boden ist. Es verlangt nach Best\u00e4tigung, nach besonderen Erlebnissen oder Anerkennung, und ein gef\u00fcttertes Ego wird niemals satt.</p>
+
+        <p class="vb-intro">Im Kern ist das Ego nichts anderes als ein B\u00fcndel von Begehrlichkeiten und Anhaftungen. Solange dieser Mechanismus am Werk ist, kann kein dauerhafter innerer Frieden entstehen, denn das Ego ist das genaue Gegenteil von innerem Frieden, auch das noch so optimierte. Jedes Verlangen ist eine subtile Erkl\u00e4rung des gegenw\u00e4rtigen Moments f\u00fcr ungen\u00fcgend. Wahres, tiefes Gl\u00fcck hingegen ist wunschlos.</p>
+
+        <p class="vb-intro">Man kann nur wunschlos gl\u00fccklich sein \u2013 alles andere, jeder auch noch so bescheidene oder gutgemeinte Wunsch, bleibt Verlangen, ist und bleibt egogesteuert. Wahrer innerer Frieden entspringt, wenn die Zeit daf\u00fcr reif geworden ist, nicht eine Sekunde fr\u00fcher oder sp\u00e4ter, der Stille, die jenseits des Verlangens liegt.</p>
+
+        <p class="vb-intro">Es geb\u00fchrt Respekt, wenn Menschen bereits fr\u00fch im Leben erkennen, dass sie nicht ihr Enneagramm-Stil sind. Das ist ein wunderbarer, funktionaler Schritt f\u00fcr ein harmonisches Alltagsleben. Doch wer den Weg \u2013 in aller Regel nach vielen Jahrzehnten der Suche \u2013 zu Ende gehen m\u00f6chte, darf beim bewussten Arrangement nicht stehen bleiben. Wahre Freiheit beginnt dort, wo man aufh\u00f6rt, die eigenen W\u00fcnsche zu verwalten, und stattdessen die Stille jenseits aller W\u00fcnsche entdeckt. Erst wenn das st\u00e4ndige Verlangen leiser wird, bricht jener unersch\u00fctterliche innere Frieden hervor, der nichts braucht, um gl\u00fccklich zu sein. Doch bis dahin geht jeder Mensch durch sein Leben, voller Verlangen auf der unbedingten Suche nach dessen Befriedigung \u2013 ganz im Sinne des Lebens selbst, das sich durch uns erleben m\u00f6chte, und nicht anders sein kann. Erst wenn die Suche selbst abf\u00e4llt, endet f\u00fcr das egoische Streben, was ihm am meisten widerstrebt.</p>
+
+        <p class="vb-intro">Dazu passend und abschlie\u00dfend eines der bekanntesten Gedichte von Hermann Hesse:</p>
+
+        <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.6rem;max-width:100%;margin:1.5rem 0;">
+          <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.9rem;color:#2e5a68;">Gl\u00fcck</h3>
+          <p class="vb-intro" style="font-style:italic;line-height:1.8;margin-bottom:0;">
+            Solang du nach dem Gl\u00fccke jagst,<br>
+            Bist du nicht reif zum Gl\u00fccklichsein,<br>
+            Und w\u00e4re alles Liebste dein.<br>
+            Solang du um Verlornes klagst,<br>
+            Und Ziele hast und rastlos bist,<br>
+            Wei\u00dft du noch nicht, was Friede ist.<br>
+            Erst wenn du jedem Wunsch entsagst,<br>
+            Nicht Ziel mehr noch Begehren kennst,<br>
+            Das Gl\u00fcck nicht mehr mit Namen nennst,<br>
+            Dann reicht dir des Geschehens Flut<br>
+            Nicht mehr ans Herz \u2013 und deine Seele ruht.
+          </p>
+          <p class="vb-anmerkung" style="margin-top:0.9rem;margin-bottom:0;text-align:right;">\u2013 Hermann Hesse, 1907</p>
+        </div>
+
+        <p class="vb-intro">Hesse hat dieses Gedicht 1907 geschrieben, im Alter von etwa drei\u00dfig Jahren. Es ist faszinierend zu sehen, wie diese fundamentale Erkenntnis \u2013 dass das Ende des Begehrens der Anfang des Friedens ist \u2013 bei ihm bereits in jungen Jahren da war und sich wie ein roter Faden durch sein gesamtes Schaffen zieht.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:2rem;">
+        <img src="./assets/schaubilder/wahre-freiheit/buddha-bodhi-baum.jpg"
+             alt="Buddha unter dem Bodhi-Baum"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Es ist wirklich erstaunlich, wie universell diese Erkenntnis durch die Jahrhunderte hallt. Man nehme den Buddha vor rund 2.500 Jahren: Er verbrachte einen gro\u00dfen Teil seines Lebens \u2013 ob in Reichtum, Armut oder radikaler Askese \u2013 damit, krampfhaft nach einem Ausweg aus dem Leid von Samsara zu suchen. Erst als unter dem Bodhi-Baum absolut gar nichts mehr funktionierte, als er alles erzwungene Wollen und K\u00e4mpfen aufgab, kam der Wendepunkt. Er kapitulierte vor dem Moment und sagte sich sinngem\u00e4\u00df: Es ist, wie es ist. Mal sehen, was kommt.</p>
+
+        <p class="vb-intro">In diesem Moment des vollst\u00e4ndigen Loslassens des Verlangens blitzte die gro\u00dfe Einsicht auf:</p>
+
+        <p class="vb-anmerkung" style="margin:1.2rem 0;font-style:italic;text-align:center;font-size:1.1rem;">Kein Verlangen, kein Leid.</p>
+
+        <p class="vb-intro">F\u00fcr den modernen, stets aktiven Verstand ist das oft schwer zu greifen, weil er st\u00e4ndig auf Achse ist, plant, w\u00fcnscht und optimiert. Doch die Richtung z\u00e4hlt. Und das Sch\u00f6ne an dieser Einsicht ist gerade die Entlastung: Es braucht keinen Stress und keine Verkrampfung, wenn das Ego nicht von heute auf morgen vollst\u00e4ndig aufgel\u00f6st werden soll, denn daf\u00fcr bleibt ein ganzes Leben Zeit. Wir sind alle ins Leben geworfen und stolpern so durch unsere Tage \u2013 und wenn man erst am Ende des Lebens bemerkt, dass man sich die ganze Zeit auf diesem Weg befunden hat, ist das v\u00f6llig ausreichend. Man macht einfach das Beste daraus, l\u00e4sst die H\u00e4rte los und geht mit einer entspannten Haltung durch die Welt.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">Der Weg ist bekanntlich das Ziel \u2013 es ist alles gut, so wie es ist.</p>
+      </div>
+
+      ${bookTip("nichts-und-alles", "Stilles Buch \u00fcber das Schauen nach innen \u2013 Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-\u00dcbungen f\u00fcr den Alltag \u2013 der ideale Begleiter zu diesem Schaubild.", "7 Wege zu Dir selbst")}
+      ${relatedLinks([
+        {route:"spirituelle-uebungen", label:"Spirituelle \u00dcbungen"},
+        {route:"bewusstseinsuebungen", label:"Bewusstseins\u00fcbungen"},
+        {route:"heilungsweg", label:"Heilungsweg"},
+        {route:"frieden-schliessen", label:"Frieden schlie\u00dfen"},
+        {route:"rumi-zitate", label:"Rumi-Zitate"},
       ])}
     </section>
   `);
@@ -74402,6 +74487,7 @@ function render() {
     "dynamik-der-typen": dynamikDerTypenPage,
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
+    "wahre-freiheit": wahreFreiheitPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,

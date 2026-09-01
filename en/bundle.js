@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=54";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=55";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3201,6 +3201,7 @@ text.nav = [
     { route: "verbale-signale", label: "Verbal Signals" },
     { route: "verhaeltnis-zu-geld-der-9-typen", label: "Relationship to Money" },
     { route: "vogelarten-der-9-typen", label: "Bird Species of the 9 Types" },
+    { route: "wahre-freiheit", label: "True Freedom" },
     { route: "wahrnehmungsstile", label: "Perception Styles" },
     { route: "walarten-der-9-typen", label: "Whale Species of the 9 Types" },
     { route: "weihnachtsgeschenke", label: "Christmas Gifts of the 9 Types" },
@@ -15685,6 +15686,89 @@ function spirituelleUebungenPage() {
         {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
         {route:"heilungsweg", label:"Path to Healing"},
         {route:"frieden-schliessen", label:"Making Peace"},
+      ])}
+    </section>
+  `);
+}
+
+function wahreFreiheitPage() {
+  return shell(`
+    ${pageHeader("wahre-freiheit")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Spiritual Practice</p>
+      <h1>From the Painted Cage to True Freedom</h1>
+      <p class="lead-small">What the Enneagram can achieve as a psychological tool &mdash; and where the spiritual path only truly begins, once consciously managing one's own personality reaches its limit.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/wahre-freiheit/kaefig-zur-freiheit.jpg"
+             alt="From the Painted Cage to True Freedom"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">It is fascinating to watch how modern psychological tools like the Enneagram find their way into spiritual practice. When someone recognizes that they are not identical with their ego style, but that this style is merely a protective mechanism, a psychological defense, a valuable milestone has already been reached. Yet somewhere along the long path of inner maturation &mdash; usually starting in the second half of life &mdash; the decisive question arises:</p>
+
+        <p class="vb-anmerkung" style="margin:1.2rem 0;font-style:italic;">Is it enough to make the cage more comfortable, or is this about something that reaches far beyond consciously managing one's own personality?</p>
+
+        <p class="vb-intro">The idea of treating the ego as a kind of housemate, an inner dog that needs species-appropriate care and feeding, undeniably has its charm. Admitting that type-specific needs exist prevents them from being repressed and acting out uncontrolled underground. For a particular stretch of life, roughly from youth through the end of the first half of life, this approach is nearly perfect. It brings calm to the system, reduces inner conflict, and allows for a more peaceful coexistence with one's own patterns. The prison gets a nicer coat of paint, curtains go up, and one settles in comfortably.</p>
+
+        <p class="vb-intro">But the longer this path continues across the decades, the more clearly a fundamental catch reveals itself: a gentle, conscious prison sentence is still a captivity. Someone who has learned to manage their ego often mistakes psychological maturity for spiritual liberation. One feeds the ego-dog in a controlled way so it won't bite, and believes that settles the matter. The problem is that the underlying structure remains intact, and the ego is a bottomless barrel. It demands validation, special experiences, or recognition, and a fed ego is never satisfied.</p>
+
+        <p class="vb-intro">At its core, the ego is nothing more than a bundle of cravings and attachments. As long as this mechanism is at work, no lasting inner peace can arise, because the ego is the exact opposite of inner peace, no matter how well optimized. Every craving is a subtle declaration that the present moment is not enough. True, deep happiness, by contrast, is free of wanting.</p>
+
+        <p class="vb-intro">One can only be happy without wanting anything &mdash; everything else, even the most modest or well-intentioned wish, remains craving, remains ego-driven. True inner peace, once the time has become ripe for it, not a second sooner or later, arises from the stillness that lies beyond craving.</p>
+
+        <p class="vb-intro">It deserves respect when people recognize early in life that they are not their Enneagram style. That is a wonderful, functional step toward a more harmonious everyday life. But whoever wants to walk this path to its end &mdash; usually only after many decades of searching &mdash; cannot stop at conscious arrangement. True freedom begins where one stops managing one's own wishes and instead discovers the stillness beyond all wishing. Only once the constant craving grows quiet does that unshakable inner peace break through, the peace that needs nothing in order to be happy. But until then, every person moves through life full of craving, in unconditional pursuit of its satisfaction &mdash; entirely in keeping with life itself, which wants to experience itself through us, and cannot be otherwise. Only once the seeking itself falls away does what the egoic striving resists most come to pass.</p>
+
+        <p class="vb-intro">Fittingly, and to close, one of Hermann Hesse's best-known poems:</p>
+
+        <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.6rem;max-width:100%;margin:1.5rem 0;">
+          <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.9rem;color:#2e5a68;">Happiness</h3>
+          <p class="vb-intro" style="font-style:italic;line-height:1.8;margin-bottom:0;">
+            As long as you chase after happiness,<br>
+            you are not yet ripe for being happy,<br>
+            even if all you love most were yours.<br>
+            As long as you mourn what is lost,<br>
+            and hold to goals, and know no rest,<br>
+            you do not yet know what peace is.<br>
+            Only once you renounce every wish,<br>
+            know neither goal nor craving anymore,<br>
+            no longer call happiness by name,<br>
+            does the tide of events<br>
+            no longer reach your heart – and your soul rests.
+          </p>
+          <p class="vb-anmerkung" style="margin-top:0.9rem;margin-bottom:0;text-align:right;">– Hermann Hesse, 1907 (freely translated)</p>
+        </div>
+
+        <p class="vb-intro">Hesse wrote this poem in 1907, at around thirty years old. It is fascinating to see how this fundamental insight &mdash; that the end of craving is the beginning of peace &mdash; was already present in him at such a young age, running like a thread through his entire body of work.</p>
+      </div>
+
+      <div class="psycho-img-wrap" style="margin-top:2rem;">
+        <img src="../assets/schaubilder/wahre-freiheit/buddha-bodhi-baum.jpg"
+             alt="The Buddha under the Bodhi tree"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">It really is remarkable how universally this insight echoes across the centuries. Take the Buddha, roughly 2,500 years ago: he spent a large part of his life &mdash; whether in wealth, poverty, or radical asceticism &mdash; desperately searching for a way out of the suffering of samsara. Only when, under the Bodhi tree, absolutely nothing worked anymore, when he gave up all forced wanting and struggling, did the turning point come. He surrendered to the moment and said to himself, in essence: It is what it is. Let's see what comes.</p>
+
+        <p class="vb-intro">In that moment of fully letting go of craving, the great insight flashed into view:</p>
+
+        <p class="vb-anmerkung" style="margin:1.2rem 0;font-style:italic;text-align:center;font-size:1.1rem;">No craving, no suffering.</p>
+
+        <p class="vb-intro">For the modern, ever-active mind, this is often hard to grasp, because it is constantly on the move, planning, wishing, and optimizing. But the direction is what counts. And the beautiful thing about this insight is precisely the relief it offers: there is no need for stress or strain if the ego cannot be fully dissolved overnight, because there is an entire lifetime for that. We are all thrown into life and stumble through our days this way &mdash; and if one only notices at the very end of life that one had been on this path all along, that is entirely enough. One simply makes the best of it, lets go of the hardness, and moves through the world with a relaxed attitude.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">The journey is famously the destination &mdash; everything is good, exactly as it is.</p>
+      </div>
+
+      ${bookTip("nichts-und-alles", "A quiet book on looking inward – awareness, space, and inner freedom.", "Nichts und Alles")}
+      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spiritual art-of-living exercises for daily life – the ideal companion to this chart.", "7 Wege zu Dir selbst")}
+      ${relatedLinks([
+        {route:"spirituelle-uebungen", label:"Spiritual Exercises"},
+        {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
+        {route:"heilungsweg", label:"Path to Healing"},
+        {route:"frieden-schliessen", label:"Making Peace"},
+        {route:"rumi-zitate", label:"Rumi Quotes"},
       ])}
     </section>
   `);
@@ -107937,6 +108021,7 @@ function subtypeSchaubilderPage() {
     "dynamik-der-typen": dynamikDerTypenPage,
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
+    "wahre-freiheit": wahreFreiheitPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,
