@@ -15910,6 +15910,7 @@ const uiText = {
       { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
       { route: "enneagramm-akupunktur", label: "Enneagramm meets Akupunktur" },
       { route: "enneagramm-handanalyse", label: "Enneagramm meets Handanalyse" },
+      { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagramm meets Jin Shin Jyutsu" },
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
@@ -32786,6 +32787,7 @@ function enneagrammFilmeTypPage(n) {
 // NEU-Markierungen f\u00fcr Schaubilder: route \u2192 Datum des Eintrags (Badge l\u00e4uft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "enneagramm-meets-jin-shin-jyutsu": "2026-09-01",
   "fluegelbeschreibungen": "2026-09-01",
   "wahre-freiheit": "2026-09-01",
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
@@ -40875,6 +40877,59 @@ function fluegelbeschreibungenPage() {
         {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
         {route:"symmetrie-des-enneagramms", label:"Symmetrie des Enneagramms"},
         {route:"lookalike-typen", label:"Lookalike-Typen"},
+      ])}
+    </section>
+  `);
+}
+
+function enneagrammMeetsJinShinJyutsuPage() {
+  return shell(`
+    ${pageHeader("enneagramm-meets-jin-shin-jyutsu")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Heilung &amp; Naturheilkunde</p>
+      <h1>Enneagramm meets Jin Shin Jyutsu</h1>
+      <p class="lead-small">Eine jahrtausendealte japanische Heilkunst über die Hände – mit Fingerhaltungen, die sich jederzeit unauffällig im Alltag üben lassen, und einer verblüffenden Nähe zu den neun Enneagrammtypen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/jin-shin-jyutsu/jin-shin-jyutsu.jpg"
+             alt="Enneagramm meets Jin Shin Jyutsu"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Woher kommt Jin Shin Jyutsu?</h2>
+        <p class="vb-intro">Jin Shin Jyutsu – oft auch als japanisches Heilströmen oder schlicht als Fingerhalten bekannt – ist eine jahrtausendealte, traditionelle Heilkunst aus Japan. Im 20. Jahrhundert wurde sie von dem Japaner Jirô Murai wiederentdeckt und neu belebt. Murai hatte sich nach schwerer Krankheit in die Berge zurückgezogen, dort verschiedene Hand- und Fingerhaltungen eingenommen – ähnlich denen alter Buddhastatuen – und erfuhr dadurch eine wundersame Selbstheilung. Seine Schülerin Mary Burmeister brachte die Methode später in den Westen, wo sie seither vor allem als sanfte, jederzeit anwendbare Selbsthilfetechnik bekannt ist.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">Wie funktioniert das mit den Fingern?</h2>
+        <p class="vb-intro">Beim Jin Shin Jyutsu geht man davon aus, dass die Finger direkt mit bestimmten Organen, Energiefeldern und vor allem mit Emotionen verbunden sind. Umschließt man einen Finger ganz locker mit der ganzen Hand – oft für ein paar Minuten, bis sich ein sanftes Pulsieren einstellt –, soll das helfen, Blockaden zu lösen und Spannungen abzubauen. Das Schöne daran: Diese Technik lässt sich völlig unauffällig im Alltag anwenden – im Büro, in der Bahn oder beim Einschlafen –, um den Körper wieder in Balance zu bringen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Die fünf Finger im Überblick</h2>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 .5rem;color:#c17f00;">Daumen – Sorgen &amp; Grübeln</h3>
+        <p class="vb-intro">Der Daumen hilft bei Sorgen, Grübeln und Nervosität und steht für Magen und Milz. Im Bild dieses Schaubilds ist er zugleich dem Enneagramm-Typ 9 zugeordnet – dem Typ, der Konflikte am liebsten in sich selbst zur Ruhe bringt, statt sie nach außen zu tragen.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a3a8b;">Zeigefinger – Angst &amp; Unsicherheit</h3>
+        <p class="vb-intro">Der Zeigefinger steht für Ängste, Schreckhaftigkeit und Unsicherheit sowie für Muskelspannungen, Blase und Niere. Er wird hier den Enneagramm-Typen 1 und 6 zugeordnet – beide sind auf ihre je eigene Art besonders wachsam gegenüber Fehlern, Gefahr oder Kontrollverlust.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a5c1a;">Mittelfinger – Wut &amp; Frust</h3>
+        <p class="vb-intro">Der Mittelfinger hilft gegen Wut, Ärger und Frust und steht für Leber und Galle. Zugeordnet sind ihm die Typen 3 und 8 – beide neigen dazu, aufgestaute Energie in Durchsetzungskraft statt in stille Verarbeitung zu verwandeln.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#6b6255;">Ringfinger – Trauer &amp; Entscheidungsschwierigkeiten</h3>
+        <p class="vb-intro">Der Ringfinger begleitet bei Trauer, Verlust, Sorgen und Entscheidungsschwierigkeiten und steht für Lunge und Dickdarm. Er ist den Typen 2 und 4 zugeordnet – beide sind eng mit dem eigenen Gefühlsleben und der Sehnsucht nach echter Verbindung verwoben.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#a00802;">Kleiner Finger – Anstrengung &amp; Selbstwert</h3>
+        <p class="vb-intro">Der kleine Finger steht für Anstrengung, Selbstwertgefühl und das Bedürfnis nach innerem Frieden und Gelassenheit sowie für Herz und Dünndarm. Zugeordnet sind ihm die Typen 5 und 7 – beide suchen auf unterschiedliche Weise nach einem sicheren, erfüllenden inneren Rückzugsort.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.3rem;font-style:italic;">Die Handfläche selbst – Nabel und Zwerchfell – wird dem allgemeinen Vertrauensdefizit zugeordnet, das allen neun Typen auf je eigene Weise zugrunde liegt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"heilungsweg", label:"Heilungsweg des Menschen"},
+        {route:"tcm", label:"TCM & Meridiane"},
+        {route:"healing", label:"Heilmittel-Kompass"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
       ])}
     </section>
   `);
@@ -74640,6 +74695,7 @@ function render() {
     "spirituelle-uebungen": spirituelleUebungenPage,
     "wahre-freiheit": wahreFreiheitPage,
     "fluegelbeschreibungen": fluegelbeschreibungenPage,
+    "enneagramm-meets-jin-shin-jyutsu": enneagrammMeetsJinShinJyutsuPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,

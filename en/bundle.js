@@ -3035,6 +3035,7 @@ text.nav = [
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
     { route: "enneagramm-handanalyse", label: "Enneagram Meets Hand Analysis" },
+    { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagram Meets Jin Shin Jyutsu" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
@@ -15793,6 +15794,59 @@ function fluegelbeschreibungenPage() {
         {route:"subtypen-schaubilder", label:"Subtype Charts (all 27)"},
         {route:"symmetrie-des-enneagramms", label:"Symmetry of the Enneagram"},
         {route:"lookalike-typen", label:"Lookalike Types"},
+      ])}
+    </section>
+  `);
+}
+
+function enneagrammMeetsJinShinJyutsuPage() {
+  return shell(`
+    ${pageHeader("enneagramm-meets-jin-shin-jyutsu")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Healing &amp; Natural Medicine</p>
+      <h1>Enneagram Meets Jin Shin Jyutsu</h1>
+      <p class="lead-small">A thousands-of-years-old Japanese healing art practiced through the hands &mdash; with finger holds that can be done discreetly anytime in daily life, and a striking closeness to the nine Enneagram types.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/jin-shin-jyutsu/jin-shin-jyutsu.jpg"
+             alt="Enneagram Meets Jin Shin Jyutsu"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Where does Jin Shin Jyutsu come from?</h2>
+        <p class="vb-intro">Jin Shin Jyutsu &ndash; often known as Japanese healing flow, or simply as finger-holding &ndash; is a thousands-of-years-old traditional healing art from Japan. In the 20th century it was rediscovered and revived by the Japanese practitioner Jirô Murai. After a serious illness, Murai withdrew into the mountains, where he adopted various hand and finger positions &ndash; similar to those seen on ancient Buddha statues &ndash; and experienced a remarkable self-healing as a result. His student Mary Burmeister later brought the method to the West, where it has since become known above all as a gentle, anytime self-help technique.</p>
+
+        <h2 style="font-size:1.15rem;font-weight:700;margin:1.6rem 0 .6rem;color:var(--ink);">How does the finger-holding work?</h2>
+        <p class="vb-intro">Jin Shin Jyutsu holds that the fingers are directly connected to specific organs, energy fields, and above all emotions. Gently wrapping a finger with the whole hand &ndash; often for a few minutes, until a soft pulsing sensation sets in &ndash; is said to help release blockages and ease tension. The beauty of it: this technique can be practiced completely unnoticed in everyday life &ndash; at the office, on the train, or while falling asleep &ndash; to bring the body back into balance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">The five fingers at a glance</h2>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 .5rem;color:#c17f00;">Thumb &ndash; Worry &amp; Overthinking</h3>
+        <p class="vb-intro">The thumb helps with worry, overthinking, and nervousness, and corresponds to the stomach and spleen. In this chart's imagery, it is also linked to Enneagram Type 9 &ndash; the type most inclined to settle conflict quietly within, rather than carry it outward.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a3a8b;">Index Finger &ndash; Fear &amp; Insecurity</h3>
+        <p class="vb-intro">The index finger corresponds to fear, being easily startled, and insecurity, as well as to muscle tension, bladder, and kidney. Here it is linked to Types 1 and 6 &ndash; both especially vigilant, each in their own way, toward mistakes, danger, or loss of control.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a5c1a;">Middle Finger &ndash; Anger &amp; Frustration</h3>
+        <p class="vb-intro">The middle finger helps with anger and frustration and corresponds to the liver and gallbladder. It is linked to Types 3 and 8 &ndash; both inclined to turn pent-up energy into forceful assertion rather than quiet processing.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#6b6255;">Ring Finger &ndash; Grief &amp; Indecision</h3>
+        <p class="vb-intro">The ring finger accompanies grief, loss, worry, and difficulty making decisions, and corresponds to the lungs and large intestine. It is linked to Types 2 and 4 &ndash; both deeply woven into their own emotional life and the longing for genuine connection.</p>
+
+        <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#a00802;">Little Finger &ndash; Effort &amp; Self-Worth</h3>
+        <p class="vb-intro">The little finger corresponds to effort, self-worth, and the need for inner peace and calm, as well as to the heart and small intestine. It is linked to Types 5 and 7 &ndash; both searching, in their own way, for a safe, fulfilling inner refuge.</p>
+
+        <p class="vb-anmerkung" style="margin-top:1.3rem;font-style:italic;">The palm itself &ndash; navel and diaphragm &ndash; is linked to the general trust deficit that, in its own way, underlies all nine types.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"heilungsweg", label:"Healing Path"},
+        {route:"tcm", label:"TCM & Meridians"},
+        {route:"healing", label:"Healing Compass"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
       ])}
     </section>
   `);
@@ -108306,6 +108360,7 @@ function subtypeSchaubilderPage() {
     "spirituelle-uebungen": spirituelleUebungenPage,
     "wahre-freiheit": wahreFreiheitPage,
     "fluegelbeschreibungen": fluegelbeschreibungenPage,
+    "enneagramm-meets-jin-shin-jyutsu": enneagrammMeetsJinShinJyutsuPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,
