@@ -1534,6 +1534,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"G\xfcnther Jauch – Social Type 5",
     teaser:"SO5w6 \xb7 born 1956, M\xfcnster. Presenter, journalist, producer. Who will be a millionaire?, stern TV, ARD-Sonntagstalk. The octopus that moderated the nation's knowledge for decades - and never really became visible itself.",
     land:"Germany", tags:["Medien","Fernsehen"], gender:"m"},
+{ route:"beruehmte-simone-de-beauvoir", name:"Simone de Beauvoir", added:"2026-09-01", subtyp:"SO5w6",
+    heading:"Simone de Beauvoir – Social Type 5",
+    teaser:"SO5w6 · 1908–1986, born in Paris. Philosopher and writer, The Second Sex, co-founder of Les Temps modernes. Youngest agrégation graduate in history, four-volume autobiography, lifelong open partnership with Jean-Paul Sartre. Animal correspondence: Octopus.",
+    land:"France", tags:["Philosophy","History"], gender:"f"},
 { route:"beruehmte-eckhard-freise", name:"Eckhard Freise", added:"2026-08-27", subtyp:"SO5w6",
     heading:"Eckhard Freise – Social Type 5",
     teaser:"SO5w6 \xb7 b. 1944. Historian, professor of medieval history, expert on the Hersfeld memorial tradition. First-ever millionaire on Wer wird Millionär?, December 2, 2000.",
@@ -20708,6 +20712,74 @@ function guentherJauchPortraitPage() {
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6) – unknowingly wrote a book series about his own animal totem"},
         {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6) – first-ever millionaire on Wer wird Millionär?"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function simoneDeBeauvoirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-simone-de-beauvoir-portrait.jpg" alt="Simone de Beauvoir" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Simone de Beauvoir</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher and writer, 1908&ndash;1986, born in Paris &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Who Passed the Youngest Agrégation in History</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. It camouflages itself without hiding, and holds its territory with a precision rarely visible from outside. Simone de Beauvoir was born in 1908 in Paris and was among the first women ever allowed to complete her studies at the École Normale Supérieure.</p>
+          <p class="vb-intro">In 1929, at age 21, she became the youngest person ever to pass France's highly competitive agrégation examination in philosophy &ndash; ahead of Paul Nizan and Jean Hyppolite, just behind Jean-Paul Sartre, who took first place. The octopus already reached with several arms at once here: not only through extraordinary intelligence, but through the quiet persistence to become a recognized authority in a field dominated by men, without pushing loudly to the front.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: A Structure of Her Own for Shared Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing. The SO5 shares knowledge with the community and thereby becomes an authority herself, often through a structure built specifically for that purpose, rather than through spontaneous, unstructured sharing.</p>
+          <p class="vb-intro">In 1945, Beauvoir was, together with Sartre, Raymond Aron, and Maurice Merleau-Ponty, among the founders of the journal "Les Temps modernes" &ndash; and remained one of its central editors for decades. This is the SO5 in its purest form: rather than scattering individual thoughts uncontrolled, she built herself an institutional structure of her own, within which knowledge was gathered, tested, and made available to the intellectual public in a controlled way. In 1949 she published "The Second Sex," a systematic analytical work of over 1000 pages that dissects social gender roles from the ground up &ndash; handed immediately to public debate, not held back within a protected circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Controlled Self-Disclosure Across Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the social Five a deep need for reliability and structure &ndash; not impulsive revelation, but carefully planned, internally consistent systematics. Between 1958 and 1972, Beauvoir published a four-volume autobiography ("Memoirs of a Dutiful Daughter," "The Prime of Life," "Force of Circumstance," "All Said and Done") that methodically documents her entire intellectual life from the 1930s into the 1970s.</p>
+          <p class="vb-intro">This is the Six-wing in its purest form: not impulsive confession, but a decades-long, volume-by-volume controlled project of self-disclosure &ndash; she herself decided when and how much of her life became public, never more than each volume intended. She also lived her relationship with Sartre by the same principle: a connection stable for more than five decades, clearly structured, within which both sides were openly permitted other relationships &ndash; not chaotic, but according to rules they had agreed on themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Marseille to Dismissal by the Occupiers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Between 1931 and 1941, Beauvoir taught philosophy and literature in Marseille and Rouen &ndash; until the German occupying government dismissed her from teaching in 1941. Rather than withdraw, she redirected her energy into writing: in 1943 her first novel, "She Came to Stay," appeared; in 1954 she received the prestigious Prix Goncourt for "The Mandarins."</p>
+          <p class="vb-intro">The octopus reached with several arms at once: philosopher, novelist, essayist, political activist, and editor all in one person. She identified early on with communism and socialism, before officially breaking from it in 1972 and explicitly declaring herself a feminist &ndash; a controlled, carefully considered repositioning, not a sudden break.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w6 shows in Beauvoir's ability to re-found an entire societal debate from systematically gathered knowledge: "The Second Sex," with its famous line "One is not born, but rather becomes, a woman," changed the self-understanding of millions of women worldwide and remained a foundational feminist text for decades.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong> &ndash; not with money, but with oneself, with what one reveals about oneself. This showed in Beauvoir too: despite the apparent openness of her four-volume autobiography, much remained precisely controlled in what was shown and what was withheld &ndash; diaries and letters, published only posthumously, later revealed a considerably more complex, more vulnerable picture than she herself disclosed during her lifetime.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Octopus Who Left Behind Her Own System of Thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to show myself?</em> to the insight <em>Knowledge does not grow less when I share it.</em> For the SO5w6, this means using the institutional structure she built not as a protective wall, but as a sustaining bridge to the community she feels she belongs to.</p>
+          <p class="vb-intro">Simone de Beauvoir died on April 14, 1986, in Paris, six years after Sartre, and was buried beside him at the Montparnasse Cemetery. The octopus who, as a young woman, passed France's highest philosophical examination left behind more than individual works: an institutional structure of her own, a methodically documented life, and a system of thought that gave generations of women after her the vocabulary to question their own social role.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5) – lifelong companion"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
       ])}
     </div>
   `);
@@ -20847,6 +20919,7 @@ function eckhardFreisePortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6) – host of the same show"},
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6)"},
       ])}
     </div>
   `);
@@ -26273,6 +26346,7 @@ function jeanPaulSartrePortraitPage() {
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6) – lifelong companion"},
       ])}
     </div>
   `);
@@ -34922,6 +34996,7 @@ function georgWilhelmFriedrichHegelPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1) – lifelong adversary of 'the System'"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-pythagoras", label:"Portrait: Pythagoras (SO5w6)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6)"},
       ])}
     </div>
   `);
@@ -49275,12 +49350,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position."
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle."
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",
@@ -49290,7 +49365,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A structure or an order of one's own as a framework for shared but guarded knowledge",
         beschreibung: "Instead of spreading knowledge individually or haphazardly, a dedicated institution, circle, or system often emerges, within which knowledge is passed on and maintained in a controlled way.",
-        beleg: "Pythagoras, who founded a community in Croton that was 'at once a research circle, a religious order, and a political alliance': 'The octopus builds itself a shell, a structure, within which it controls its knowledge'; Hegel's lifelong philosophical system, 'the system as totem'; Claudio Naranjo, whose own Enneagram school served as an ordered system for passing on his life's work."
+        beleg: "Pythagoras, who founded a community in Croton that was 'at once a research circle, a religious order, and a political alliance': 'The octopus builds itself a shell, a structure, within which it controls its knowledge'; Hegel's lifelong philosophical system, 'the system as totem'; Claudio Naranjo, whose own Enneagram school served as an ordered system for passing on his life's work; Simone de Beauvoir, who in 1945 co-founded the journal 'Les Temps modernes' with Sartre, Aron, and Merleau-Ponty and led it as an editor for decades – an institutional structure of her own for controlled, shared knowledge, rather than unstructured individual contributions."
       },
       {
         titel: "When the same pattern becomes an instrument of power instead of service (shadow form)",
@@ -108402,6 +108477,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-birute-galdikas": biruteGaldikasPortraitPage,
       "beruehmte-winston-churchill": winstonChurchillPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
+      "beruehmte-simone-de-beauvoir": simoneDeBeauvoirPortraitPage,
       "beruehmte-dirk-rossmann": dirkRossmannPortraitPage,
       "beruehmte-eckhard-freise": eckhardFreisePortraitPage,
       "beruehmte-iga-swiatek": igaSwiatekPortraitPage,

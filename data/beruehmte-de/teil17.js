@@ -392,6 +392,7 @@ export function eckhardFreisePortraitPage() {
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-guenther-jauch", label:"Portr\xe4t: G\xfcnther Jauch (SO5w6) – Moderator derselben Sendung"},
         {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portr\xe4t: Simone de Beauvoir (SO5w6)"},
       ])}
     </div>
   `);

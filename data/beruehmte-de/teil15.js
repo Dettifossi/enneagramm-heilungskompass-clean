@@ -515,6 +515,7 @@ export function georgWilhelmFriedrichHegelPortraitPage() {
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1) – lebenslanger Gegner des ›Systems‹"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
         {route:"beruehmte-pythagoras", label:"Porträt: Pythagoras (SO5w6)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Porträt: Simone de Beauvoir (SO5w6)"},
       ])}
     </div>
   `);
@@ -1619,6 +1620,7 @@ export function jeanPaulSartrePortraitPage() {
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Porträt: Simone de Beauvoir (SO5w6) – lebenslange Gefährtin"},
       ])}
     </div>
   `);

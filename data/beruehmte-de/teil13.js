@@ -1558,3 +1558,70 @@ export function woodyAllenPortraitPage() {
     </div>
   `);
 }
+
+export function simoneDeBeauvoirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-simone-de-beauvoir-portrait.jpg" alt="Simone de Beauvoir \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Simone de Beauvoir</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Philosophin und Schriftstellerin, 1908&ndash;1986, geboren in Paris &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der die j\u00fcngste Agr\u00e9gation der Geschichte bestand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; hochintelligent, mit acht Armen gleichzeitig greifend, dabei kaum vollst\u00e4ndig zu fassen. Er tarnt sich, ohne sich zu verstecken, und h\u00e4lt sein Revier mit einer Pr\u00e4zision, die man von au\u00dfen kaum erkennt. Simone de Beauvoir wurde 1908 in Paris geboren und war eine der ersten Frauen, die das Studium an der \u00c9cole Normale Sup\u00e9rieure \u00fcberhaupt abschlie\u00dfen durften.</p>
+          <p class="vb-intro">1929, mit 21 Jahren, bestand sie als j\u00fcngste Person \u00fcberhaupt die hochkompetitive Agr\u00e9gation-Pr\u00fcfung in Philosophie &ndash; vor Paul Nizan und Jean Hyppolite, nur knapp hinter Jean-Paul Sartre, der den ersten Platz belegte. Der Oktopus griff schon hier mit mehreren Armen zugleich: nicht nur mit au\u00dfergew\u00f6hnlicher Intelligenz, sondern mit der stillen Beharrlichkeit, in einem von M\u00e4nnern dominierten Feld zur anerkannten Instanz zu werden, ohne sich lautstark in den Vordergrund zu dr\u00e4ngen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Eine eigene Struktur f\u00fcr geteiltes Wissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\u00fcpfung von Wissen mit Zugeh\u00f6rigkeit und Ansehen. Die SO5 teilt Wissen mit der Gemeinschaft und wird dadurch selbst zur Instanz, oft \u00fcber eine eigens daf\u00fcr geschaffene Struktur, statt \u00fcber spontane, unstrukturierte Mitteilung.</p>
+          <p class="vb-intro">1945 geh\u00f6rte Beauvoir, gemeinsam mit Sartre, Raymond Aron und Maurice Merleau-Ponty, zu den Gr\u00fcndern der Zeitschrift "Les Temps modernes" &ndash; \u00fcber Jahrzehnte hinweg blieb sie eine ihrer zentralen Redakteurinnen. Das ist die SO5 in Reinform: Statt einzelne Gedanken unkontrolliert zu streuen, baute sie sich eine eigene institutionelle Struktur, innerhalb derer Wissen gesammelt, gepr\u00fcft und der intellektuellen \u00d6ffentlichkeit kontrolliert zur Verf\u00fcgung gestellt wurde. 1949 ver\u00f6ffentlichte sie mit "Das andere Geschlecht" ein \u00fcber 1000-seitiges systematisches Analysewerk, das gesellschaftliche Geschlechterrollen von Grund auf seziert &ndash; sofort der \u00f6ffentlichen Debatte \u00fcbergeben, nicht in einem gesch\u00fctzten Zirkel zur\u00fcckgehalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\u00fcgel: Kontrollierte Selbstoffenlegung \u00fcber Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\u00fcgel (w6)</strong> bringt der sozialen F\u00fcnf ein tiefes Bed\u00fcrfnis nach Verl\u00e4sslichkeit und Struktur &ndash; nicht impulsive Offenbarung, sondern sorgf\u00e4ltig geplante, in sich stimmige Systematik. Zwischen 1958 und 1972 ver\u00f6ffentlichte Beauvoir eine vierb\u00e4ndige Autobiografie ("Erinnerungen einer Tochter aus gutem Hause", "Die Kraft des Alters", "Der Lauf der Dinge", "Der Lauf der Dinge, hinter dem Strich"), die ihr gesamtes intellektuelles Leben von den 1930er bis in die 1970er Jahre methodisch dokumentiert.</p>
+          <p class="vb-intro">Das ist der Sechserfl\u00fcgel in seiner reinsten Form: kein impulsives Bekenntnis, sondern ein \u00fcber Jahrzehnte fortgef\u00fchrtes, Band f\u00fcr Band kontrolliertes Projekt der Selbstoffenlegung &ndash; sie entschied selbst, wann und wie viel von ihrem Leben \u00f6ffentlich wurde, nie mehr, als der jeweilige Band vorsah. Auch ihre Beziehung zu Sartre lebte sie nach demselben Prinzip: eine \u00fcber f\u00fcnf Jahrzehnte stabile, klar strukturierte Verbindung, innerhalb derer beide Seiten offen andere Beziehungen f\u00fchren durften &ndash; nicht chaotisch, sondern nach eigens vereinbarten Regeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Marseille bis zur Entlassung durch die Besatzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen 1931 und 1941 unterrichtete Beauvoir Philosophie und Literatur in Marseille und Rouen &ndash; bis die deutsche Besatzungsmacht sie 1941 aus dem Schuldienst entlie\u00df. Statt sich zur\u00fcckzuziehen, verlagerte sie ihre Energie in das Schreiben: 1943 erschien ihr erster Roman, "Sie kam und blieb", 1954 erhielt sie f\u00fcr "Die Mandarins von Paris" den renommierten Prix Goncourt.</p>
+          <p class="vb-intro">Der Oktopus griff mit mehreren Armen zugleich: Philosophin, Romanautorin, Essayistin, politische Aktivistin und Redakteurin in einer Person. Sie identifizierte sich fr\u00fch mit dem Kommunismus und Sozialismus, bevor sie sich 1972 offiziell davon l\u00f6ste und sich explizit als Feministin bezeichnete &ndash; eine kontrollierte, wohl\u00fcberlegte Neupositionierung, kein pl\u00f6tzlicher Bruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen F\u00fcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w6 zeigt sich in Beauvoirs F\u00e4higkeit, aus systematisch gesammeltem Wissen eine ganze gesellschaftliche Debatte neu zu begr\u00fcnden: "Das andere Geschlecht" mit seinem ber\u00fchmten Satz "Man wird nicht als Frau geboren, man wird es" ver\u00e4nderte das Selbstverst\u00e4ndnis von Millionen Frauen weltweit und blieb \u00fcber Jahrzehnte hinweg ein Grundlagentext des Feminismus.</p>
+          <p class="vb-intro">Der Schatten der F\u00fcnf ist der <strong>Geiz</strong> &ndash; nicht mit Geld, sondern mit sich selbst, mit dem, was man von sich preisgibt. Auch bei Beauvoir zeigte sich das: Trotz der scheinbaren Offenheit ihrer vierb\u00e4ndigen Autobiografie blieb vieles genau kontrolliert, was gezeigt und was zur\u00fcckgehalten wurde &ndash; Tageb\u00fccher und Briefe, die erst postum ver\u00f6ffentlicht wurden, offenbarten sp\u00e4ter ein deutlich komplexeres, verletzlicheres Bild, als sie selbst zu Lebzeiten preisgab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, der sein eigenes Denksystem hinterlie\u00df</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Frage <em>Habe ich genug, um mich zu zeigen?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile.</em> F\u00fcr die SO5w6 bedeutet das, die selbst gebaute institutionelle Struktur nicht als Schutzwall zu nutzen, sondern als tragf\u00e4hige Br\u00fccke zur Gemeinschaft, der man sich zugeh\u00f6rig f\u00fchlt.</p>
+          <p class="vb-intro">Simone de Beauvoir starb am 14. April 1986 in Paris, sechs Jahre nach Sartre, und wurde neben ihm auf dem Friedhof Montparnasse beigesetzt. Der Oktopus, der als junge Frau die h\u00f6chste philosophische Pr\u00fcfung Frankreichs bestand, hinterlie\u00df mehr als einzelne Werke: eine eigene institutionelle Struktur, ein methodisch dokumentiertes Leben und ein Denksystem, das Generationen von Frauen nach ihr das Vokabular gab, ihre eigene gesellschaftliche Rolle zu hinterfragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portr\u00e4t: Jean-Paul Sartre (SX4w5) \u2013 lebenslanger Gef\u00e4hrte"},
+        {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Portr\u00e4t: Eckhard Freise (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
