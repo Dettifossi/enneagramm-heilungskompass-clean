@@ -41781,7 +41781,7 @@ function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">2. The Totem: Thinking Without a Banister</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo (himself a social Five, but with a dominant Six-wing rather than a Four-wing) called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing. Arendt herself described her own way of thinking as "thinking without a banister": a deliberate refusal to rely on traditional religious, moral, or philosophical supports, choosing instead to think through every problem anew, from the ground up.</p>
+          <p class="vb-intro">Claudio Naranjo (himself a social Five with a Four-wing as well) called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing. Arendt herself described her own way of thinking as "thinking without a banister": a deliberate refusal to rely on traditional religious, moral, or philosophical supports, choosing instead to think through every problem anew, from the ground up.</p>
           <p class="vb-intro">Her major works &ndash; "The Origins of Totalitarianism" (1951), "The Human Condition" (1958), and "Eichmann in Jerusalem" (1963) &ndash; address radically different questions: totalitarianism, active political life, the nature of evil. The octopus reached with several arms at once, without exhausting itself in a single field &ndash; philosopher, political theorist, journalist, and historian in one person.</p>
         </blockquote>
 

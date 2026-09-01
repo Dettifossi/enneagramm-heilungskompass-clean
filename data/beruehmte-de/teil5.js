@@ -1585,7 +1585,7 @@ export function hannahArendtPortraitPage() {
 
         <h2 class="vb-section">2. Das Totem: Denken ohne Gel\u00e4nder</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Claudio Naranjo (selbst ein sozialer F\u00fcnfer, aber mit dominantem Sechserfl\u00fcgel statt Viererfl\u00fcgel) nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\u00fcpfung von Wissen mit Zugeh\u00f6rigkeit und Ansehen. Arendt selbst beschrieb ihre eigene Denkweise als "Denken ohne Gel\u00e4nder": eine bewusste Weigerung, sich auf traditionelle religi\u00f6se, moralische oder philosophische St\u00fctzen zu verlassen, und stattdessen jedes Problem neu, von Grund auf zu durchdenken.</p>
+          <p class="vb-intro">Claudio Naranjo (ebenfalls ein sozialer F\u00fcnfer mit Viererfl\u00fcgel) nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\u00fcpfung von Wissen mit Zugeh\u00f6rigkeit und Ansehen. Arendt selbst beschrieb ihre eigene Denkweise als "Denken ohne Gel\u00e4nder": eine bewusste Weigerung, sich auf traditionelle religi\u00f6se, moralische oder philosophische St\u00fctzen zu verlassen, und stattdessen jedes Problem neu, von Grund auf zu durchdenken.</p>
           <p class="vb-intro">Ihre Hauptwerke &ndash; "Elemente und Urspr\u00fcnge totaler Herrschaft" (1951), "Vita activa" (1958) und "Eichmann in Jerusalem" (1963) &ndash; behandeln radikal unterschiedliche Fragen: Totalitarismus, das aktive politische Leben, die Natur des B\u00f6sen. Der Oktopus griff mit mehreren Armen gleichzeitig, ohne sich in einem einzigen Fachgebiet zu ersch\u00f6pfen &ndash; Philosophin, politische Theoretikerin, Journalistin, Historikerin in einer Person.</p>
         </blockquote>
 
