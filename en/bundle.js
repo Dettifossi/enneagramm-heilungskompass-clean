@@ -985,6 +985,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Giacomo Casanova – Sexual Type 2",
     teaser:"SX2w3 · 1725–1798. Venetian writer and adventurer. Secret agent, librarian, prison escapee, twelve-volume memoirs – restless devotion to countless individual encounters across all of Europe. Animal correspondence: Camel.",
     land:"Italy", tags:["Literatur"] , gender:"m"},
+{ route:"beruehmte-cleopatra", name:"Cleopatra", added:"2026-09-01", subtyp:"SX2w3",
+    heading:"Cleopatra – Sexual Type 2",
+    teaser:"SX2w3 · 69–30 BCE. Last pharaoh of Ptolemaic Egypt. Alliances with Julius Caesar and Mark Antony, self-staging as the goddess Isis/Aphrodite, a deliberately chosen death after the defeat at Actium. Animal correspondence: Camel.",
+    land:"Egypt", tags:["History"] , gender:"f"},
 { route:"beruehmte-isadora-duncan", name:"Isadora Duncan", added:"2026-09-01", subtyp:"SX2w3",
     heading:"Isadora Duncan – Sexual Type 2",
     teaser:"SX2w3 · 1877–1927. Dancer, founder of modern expressive dance. Barefoot dance against the corset of classical ballet, dance schools worldwide, radical openness in love and life. Animal correspondence: Camel.",
@@ -46356,9 +46360,77 @@ function giacomoCasanovaPortraitPage() {
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
+        {route:"beruehmte-cleopatra", label:"Portrait: Cleopatra (SX2w3)"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
         {route:"krankheitsportraets-giacomo-casanova", label:"Illness Portrait: Giacomo Casanova (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function cleopatraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-cleopatra-portrait.jpg" alt="Cleopatra" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cleopatra</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">69&ndash;30 BCE &ndash; Last pharaoh of Ptolemaic Egypt &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel that kept a kingdom alive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Cleopatra VII was born in 69 BCE into a Macedonian-Greek dynasty that had ruled Egypt for roughly 300 years without ever fully merging with the country itself. She deliberately broke this pattern: as one of the few Ptolemaic rulers, she learned Egyptian and presented herself to her own people as the living embodiment of the goddess Isis.</p>
+          <p class="vb-intro">At eighteen, she ascended the throne jointly with her younger brother &ndash; a fragile power arrangement from the start that quickly escalated into open conflict. What followed was not a story of military conquest, but one of personal alliances: Cleopatra secured her throne not through her own armies, but through the closest possible bond with Rome's most powerful men.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: power through the one decisive bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Two (SX2)</strong> directs the Two's energy not toward the large group, but toward the direct, personal space between two people. Naranjo called this subtype <em>Aggression/Seduction</em> &ndash; an active, forward-moving approach toward the other. In 48 BCE, according to tradition, Cleopatra had herself smuggled into Julius Caesar's presence rolled inside a carpet, bypassing her deposed brother to gain direct access to the most powerful man in Rome &ndash; one of history's most famous stagings of personal closeness.</p>
+          <p class="vb-intro">After Caesar's assassination in 44 BCE, she built an equally close, publicly celebrated relationship with Mark Antony &ndash; a partnership that inseparably fused political alliance and personal devotion. Ancient and later sources alike describe Cleopatra not primarily as a classical beauty, but as a woman of extraordinary conversational skill, linguistic talent, and personal charisma, who shaped every encounter so that whoever stood before her felt indispensable to her &ndash; and she to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: self-staging as a goddess</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal devotion into a visible, effective image. Cleopatra's appearances were deliberate stagings: at her first public meeting with Mark Antony in Tarsus, tradition holds that she arrived on a gilded barge with purple sails, dressed as the goddess Aphrodite &ndash; an image meant to overwhelm Antony and the assembled public alike.</p>
+          <p class="vb-intro">She had coins minted bearing her own portrait, presented herself religiously as the embodiment of Isis, and knew how to fuse political power and personal magnetism into a single, irresistible public image. The Three-wing supplied the strategic self-staging; the Sexual Two underneath supplied the actual, personal impact that gave that staging its life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w3 showed in Cleopatra as extraordinary diplomatic and intellectual skill: she is said to have spoken several languages fluently, personally conducted negotiations with Roman envoys, and held her kingdom together for over two decades through skillful alliance management between Rome's rival power blocs &ndash; at a time when most neighboring kingdoms had already become Roman provinces.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; the deep conviction of being indispensable, combined with difficulty admitting one's own vulnerability. In Cleopatra, this showed in the way she tied her entire political existence to a personal bond with a single man &ndash; first Caesar, then Antony &ndash; rather than building independent military or institutional power structures that could have endured without that relationship.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Battle of Actium and the end</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 31 BCE, Cleopatra and Mark Antony lost the decisive naval battle at Actium against Octavian, the future Emperor Augustus. When Octavian's troops reached Alexandria the following year and Antony took his own life, Cleopatra, according to tradition, followed him &ndash; at thirty-nine, reportedly by the bite of a cobra, whose venom was considered comparatively painless and dignified.</p>
+          <p class="vb-intro">Some modern historians doubt this version and suspect a poison instead, but the symbolism remained decisive: in ancient Egypt, the cobra stood for royal, divine power &ndash; if the tradition holds true, Cleopatra chose, even in death, an image that showed her as goddess and queen, not as the defeated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The camel whose final alliance was her own kingdom</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cleopatra's death ended not only her own life but over 3,000 years of independent Egyptian rule &ndash; Egypt became a Roman province. Hardly any other historical figure has since been retold so often, usually reduced to beauty and seduction, while her actual achievement &ndash; two decades of successful diplomacy in a world of Roman dominance &ndash; often fades into the background.</p>
+          <p class="vb-intro">From the carpet episode before Caesar, through the golden self-staging as Aphrodite, to a final, deliberately chosen death: this is the Sexual Two with a Three-wing in one of its most consequential historical forms &ndash; a devotion to individual, powerful men that was, at the same time, statecraft, and a self-staging that still resonates today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+        {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
+        {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
       ])}
     </div>
   `);
@@ -46425,6 +46497,7 @@ function isadoraDuncanPortraitPage() {
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-cleopatra", label:"Portrait: Cleopatra (SX2w3)"},
       ])}
     </div>
   `);
@@ -49182,7 +49255,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova", "Isadora Duncan", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova", "Isadora Duncan", "Cleopatra", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -49192,7 +49265,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness; Giacomo Casanova, whose own memoirs describe well over a hundred and twenty relationships that he himself repeatedly frames not as conquests but as relationships in which he helped, listened, and wanted to make himself indispensable to each woman – devotion to the one companion standing in front of him, rather than cold calculation; Isadora Duncan, who invested most of her fortune in her own dance schools and in the 'Isadorables' she trained herself, rather than setting it aside for herself – devotion to an artistic vision and to individual people that stayed more important than her own financial security."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness; Giacomo Casanova, whose own memoirs describe well over a hundred and twenty relationships that he himself repeatedly frames not as conquests but as relationships in which he helped, listened, and wanted to make himself indispensable to each woman – devotion to the one companion standing in front of him, rather than cold calculation; Isadora Duncan, who invested most of her fortune in her own dance schools and in the 'Isadorables' she trained herself, rather than setting it aside for herself – devotion to an artistic vision and to individual people that stayed more important than her own financial security; Cleopatra, who tied her entire political existence to a personal bond with a single man – first Caesar, then Antony – rather than building independent military power structures that could have endured without that relationship."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -107980,6 +108053,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-sammy-davis-jr": sammyDavisJrPortraitPage,
       "beruehmte-giacomo-casanova": giacomoCasanovaPortraitPage,
+      "beruehmte-cleopatra": cleopatraPortraitPage,
       "beruehmte-isadora-duncan": isadoraDuncanPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,

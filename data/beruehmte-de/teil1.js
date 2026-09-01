@@ -1603,6 +1603,7 @@ export function isadoraDuncanPortraitPage() {
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
         {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+        {route:"beruehmte-cleopatra", label:"Porträt: Cleopatra (SX2w3)"},
       ])}
     </div>
   `);

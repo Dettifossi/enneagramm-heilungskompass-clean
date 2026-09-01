@@ -1552,3 +1552,70 @@ export function warrenBuffettPortraitPage() {
     </div>
   `);
 }
+
+export function cleopatraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-cleopatra-portrait.jpg" alt="Cleopatra" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cleopatra</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">69–30 v. Chr. – Letzte Pharaonin des ptolemäischen Ägyptens – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das ein Königreich am Leben hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das sich einem einzelnen Gegenüber ganz zuwendet. Cleopatra VII. wurde 69 v. Chr. in eine mazedonisch-griechische Dynastie hineingeboren, die seit rund 300 Jahren über Ägypten herrschte, ohne sich je vollständig mit dem eigenen Land zu verschmelzen. Sie selbst durchbrach dieses Muster bewusst: Als eine der wenigen Ptolemäer-Herrscher lernte sie Ägyptisch und präsentierte sich dem eigenen Volk als Verkörperung der Göttin Isis.</p>
+          <p class="vb-intro">Mit achtzehn Jahren bestieg sie gemeinsam mit ihrem jüngeren Bruder den Thron – ein von Beginn an fragiles Machtgefüge, das rasch in offenem Machtkampf eskalierte. Was folgte, war keine Geschichte militärischer Eroberung, sondern eine Geschichte persönlicher Bündnisse: Cleopatra sicherte ihren Thron nicht durch eigene Armeen, sondern durch die engste denkbare Verbindung zu den mächtigsten Männern Roms.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Macht durch die eine entscheidende Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. 48 v. Chr. ließ sich Cleopatra der Überlieferung nach in einen Teppich gerollt zu Julius Caesar bringen, um an ihrem entmachteten Bruder vorbei direkten Zugang zum mächtigsten Mann Roms zu erhalten – eine der berühmtesten Inszenierungen persönlicher Nähe der Geschichte.</p>
+          <p class="vb-intro">Nach Caesars Ermordung 44 v. Chr. baute sie mit Mark Anton eine ebenso enge, öffentlich zelebrierte Beziehung auf – eine Partnerschaft, die politisches Bündnis und persönliche Hingabe untrennbar miteinander verband. Zeitgenössische wie spätere Quellen beschreiben Cleopatra nicht in erster Linie als klassische Schönheit, sondern als eine Frau von außergewöhnlicher Gesprächsgabe, Sprachbegabung und persönlichem Charisma, die jede Begegnung so gestaltete, dass sich ihr Gegenüber unentbehrlich fühlte – und sie selbst für ihn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Selbstinszenierung als Göttin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Hingabe ein sichtbares, wirkungsvolles Bild zu formen. Cleopatras Auftritte waren gezielte Inszenierungen: Bei ihrer ersten öffentlichen Begegnung mit Mark Anton in Tarsos ließ sie sich der Überlieferung zufolge auf einem vergoldeten Boot mit purpurnen Segeln vorfahren, gekleidet als Göttin Aphrodite – ein Bild, das Anton und die versammelte Öffentlichkeit gleichermaßen beeindrucken sollte.</p>
+          <p class="vb-intro">Sie ließ eigene Münzen mit ihrem Porträt prägen, präsentierte sich religiös als Isis-Verkörperung und verstand es, politische Macht und persönliche Anziehungskraft zu einem einzigen, unwiderstehlichen öffentlichen Bild zu verschmelzen. Der Dreierflügel lieferte die strategische Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Wirkung, die dieser Inszenierung erst Leben einhauchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 zeigte sich bei Cleopatra als außergewöhnliche diplomatische und intellektuelle Kompetenz: Sie soll mehrere Sprachen fließend beherrscht haben, führte selbst Verhandlungen mit römischen Gesandten und hielt ihr Königreich über zwei Jahrzehnte hinweg allein durch geschicktes Bündnismanagement zwischen den rivalisierenden Machtblöcken Roms zusammen – in einer Zeit, in der die meisten Nachbarreiche bereits römische Provinzen geworden waren.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, unentbehrlich zu sein, kombiniert mit der Schwierigkeit, die eigene Verletzlichkeit einzugestehen. Bei Cleopatra zeigte sich das darin, dass sie ihre gesamte politische Existenz an die persönliche Bindung zu einem einzigen Mann knüpfte – erst Caesar, dann Anton –, statt eigenständige militärische oder institutionelle Machtstrukturen aufzubauen, die auch ohne diese Beziehung Bestand gehabt hätten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Schlacht bei Actium und das Ende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">31 v. Chr. verloren Cleopatra und Mark Anton die entscheidende Seeschlacht bei Actium gegen Octavian, den späteren Kaiser Augustus. Als Octavians Truppen im folgenden Jahr Alexandria erreichten und Anton sich das Leben nahm, folgte Cleopatra ihm der Überlieferung nach nach – mit neununddreißig Jahren, angeblich durch den Biss einer Kobra, deren Gift als vergleichsweise schmerzlos und würdevoll galt.</p>
+          <p class="vb-intro">Manche moderne Historiker bezweifeln diese Version und vermuten stattdessen ein Gift, doch die Symbolik blieb entscheidend: Die Kobra stand im alten Ägypten für königliche, göttliche Macht – Cleopatra wählte damit, sofern die Überlieferung stimmt, selbst im Tod noch ein Bild, das sie als Göttin und Königin zeigte, nicht als Besiegte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kamel, dessen letztes Bündnis das eigene Königreich war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit Cleopatras Tod endete nicht nur ihr eigenes Leben, sondern über 3.000 Jahre eigenständiger ägyptischer Herrschaft – Ägypten wurde zur römischen Provinz. Kaum eine andere historische Figur wurde seither so oft neu erzählt, meist reduziert auf Schönheit und Verführung, während ihre eigentliche Leistung – zwei Jahrzehnte erfolgreicher Diplomatie in einer Welt römischer Übermacht – häufig in den Hintergrund tritt.</p>
+          <p class="vb-intro">Von der Teppich-Episode bei Caesar über die goldene Selbstinszenierung als Aphrodite bis zum letzten, würdevoll gewählten Tod: Das ist die sexuelle Zwei mit Dreierflügel in einer ihrer folgenreichsten historischen Formen – eine Hingabe an einzelne, mächtige Männer, die zugleich Staatskunst war, und eine Selbstinszenierung, die bis heute nachwirkt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+        {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3)"},
+        {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
