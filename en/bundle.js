@@ -46243,7 +46243,7 @@ function isadoraDuncanPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: turning a vision into a movement</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal devotion into a visible, effective project. Duncan did not stop at her own stage presence: she founded dance schools in Germany, France, the United States, and eventually the Soviet Union to systematically pass on her method to a new generation &ndash; the famous "Isadorables," six adopted daughters she trained herself, performed worldwide in her style.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal devotion into a visible, effective project. Duncan did not stop at her own stage presence: she founded dance schools in Germany, France, the United States, and eventually the Soviet Union to systematically pass on her method to a new generation &ndash; the famous "Isadorables," six students she trained herself, performed worldwide in her style &mdash; in 1920 Duncan even sought to formally adopt them and had them take her surname, though, despite later claims, no legally binding adoption ever took place.</p>
           <p class="vb-intro">Her ambition was not for personal fame alone, but for establishing an entire art form: she wanted free expressive dance to endure as an independent, serious art, far beyond her own career. The Three-wing supplied the strategic foresight and self-staging; the Sexual Two underneath supplied the actual, personal devotion that gave that vision its life.</p>
         </blockquote>
 
