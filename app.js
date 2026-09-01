@@ -40786,6 +40786,28 @@ function spirituelleUebungenPage() {
   `);
 }
 
+function schaubilderUebersichtPage() {
+  const eintrag = uiText.nav.find(n => n.route === "schaubilder");
+  const items = (eintrag && eintrag.dropdown) || [];
+  return shell(`
+    ${pageHeader("schaubilder")}
+    <section class="narrow">
+      <p class="eyebrow">Wissen · Übersicht</p>
+      <h1>Alle Schaubilder</h1>
+      <p class="lead-small">${items.length} interaktive Übersichten zu Enneagramm, Heilung, Bewusstsein und mehr – alphabetisch sortiert.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.6rem;margin-top:1.5rem;">
+        ${items
+          .slice()
+          .sort((a, b) => a.label.localeCompare(b.label, "de"))
+          .map(
+            i => `<button class="secondary" data-route="${i.route}" style="text-align:left;font-size:0.88rem;">${i.label}</button>`
+          )
+          .join("")}
+      </div>
+    </section>
+  `);
+}
+
 function fluegelbeschreibungenPage() {
   return shell(`
     ${pageHeader("fluegelbeschreibungen")}
@@ -73795,6 +73817,7 @@ function render() {
     path: pathPage,
     tools: toolsPage,
     healing: healingPage,
+    schaubilder: schaubilderUebersichtPage,
     oils: oilsPage,
     tcm: tcmPage,
     kindheit: kindheitPage,

@@ -15703,6 +15703,28 @@ function spirituelleUebungenPage() {
   `);
 }
 
+function schaubilderUebersichtPage() {
+  const eintrag = text.nav.find(n => n.route === "schaubilder");
+  const items = (eintrag && eintrag.dropdown) || [];
+  return shell(`
+    ${pageHeader("schaubilder")}
+    <section class="narrow">
+      <p class="eyebrow">Knowledge · Overview</p>
+      <h1>All Diagrams</h1>
+      <p class="lead-small">${items.length} interactive overviews on the Enneagram, healing, consciousness, and more &ndash; sorted alphabetically.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.6rem;margin-top:1.5rem;">
+        ${items
+          .slice()
+          .sort((a, b) => a.label.localeCompare(b.label, "en"))
+          .map(
+            i => `<button class="secondary" data-route="${i.route}" style="text-align:left;font-size:0.88rem;">${i.label}</button>`
+          )
+          .join("")}
+      </div>
+    </section>
+  `);
+}
+
 function fluegelbeschreibungenPage() {
   return shell(`
     ${pageHeader("fluegelbeschreibungen")}
@@ -107460,6 +107482,7 @@ function subtypeSchaubilderPage() {
     path: pathPage,
     tools: toolsPage,
     healing: healingPage,
+    schaubilder: schaubilderUebersichtPage,
     oils: oilsPage,
     tcm: tcmPage,
     kindheit: kindheitPage,

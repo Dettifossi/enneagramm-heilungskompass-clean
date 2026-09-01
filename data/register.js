@@ -1743,7 +1743,6 @@ export const registerEntriesEN = [
   { term: "Burnout", route: "library", description: "Book: Burnout in all 27 subtypes (type-specific profiles)" },
   { term: "Chihuahua", route: "tierlexikon/sx4", description: "Animal archetype of SX4 · Typ 4 · Heart center" },
   { term: "German Federal States", route: "bundeslaender", description: "Diagram: Assignment of the 16 federal states to the 9 Enneagram principles" },
-  { term: "Countries of the World", route: "laender-der-welt", description: "Diagram: About 40 well-known countries and their predominant Enneagram principle" },
   { term: "Diagnostic Test", route: "start", description: "Quick test: 9 profiles, quick start for type determination" },
   { term: "Dialectical Structure", route: "dialektische-struktur", description: "Diagram: inner tension of opposites of each type" },
   { term: "Three Life Forces", route: "drei-lebenskraefte", description: "Diagram: active, balancing, passive – the three basic energies of the 9 types" },
