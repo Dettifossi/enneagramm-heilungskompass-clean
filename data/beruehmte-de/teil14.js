@@ -451,6 +451,7 @@ export function francisBaconPortraitPage() {
         {route:"krankheitsportraets-francis-bacon", label:"Krankheitsportr\u00e4t: Francis Bacon (SE7w8)"},
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
       ])}
     </div>
   `);

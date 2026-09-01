@@ -1042,6 +1042,7 @@ export function mariahCareyPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
           {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
           {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+          {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
           {route:"krankheitsportraets-mariah-carey", label:"Krankheitsportr\u00e4t: Mariah Carey (SE7w8) \u2013 bipolare St\u00f6rung"},
         ])}
       </div>

@@ -1,5 +1,64 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function christophKolumbusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-christoph-kolumbus-portrait.jpg" alt="Christoph Kolumbus – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christoph Kolumbus</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Seefahrer, geb. um 1451 in Genua, gest. 1506 in Valladolid &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der ein Territorium jenseits des Ozeans wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gorilla baut kein kleines Nest &ndash; er baut ein Territorium, das ein ganzes Rudel tr\xe4gt, und er verteidigt es mit einer Kraft, die er selten zeigen muss, solange niemand ihn herausfordert. Christoph Kolumbus, um 1451 als Sohn eines Genueser Wollwebers geboren, war zeitlebens ein Mann konkreter, praktischer Vorsorge: Er studierte Seekarten, Str\xf6mungen und Windsysteme jahrelang mit derselben n\xfcchternen Beharrlichkeit, mit der ein Gorilla sein Revier vermisst, bevor er es beansprucht. Kein tr\xe4umerischer Vision\xe4r also, sondern ein Mann, der ein sehr konkretes, sehr irdisches Ziel verfolgte: einen Weg nach Westen, der Gold, Gewürze und Titel einbringen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die versteckte Acht: Jahrelange Vorsorge statt spontaner Abenteuerlust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich tr\xe4gt, ohne sie standardm\xe4\xdfig offen zur Schau zu stellen. Kolumbus verbrachte fast ein Jahrzehnt damit, portugiesische und schlie\xdflich spanische H\xf6fe zu umwerben, Finanziers zu gewinnen, Verhandlungen neu aufzunehmen, nachdem sie gescheitert waren &ndash; keine spontane Schw\xe4rmerei, sondern eine z\xe4he, jahrelange Absicherung des eigenen Plans. Bevor er 1492 ausseln konnte, hatte er sich im Vertrag von Santa Fe bereits den Titel ※Admiral des Ozeanmeeres‘, das Amt des Vizek\xf6nigs \xfcber alle entdeckten Gebiete sowie zehn Prozent aller künftigen Einnahmen zusichern lassen &ndash; ein Siebener, der sich seine Fülle vertraglich, konkret und dauerhaft absichert, bevor er auch nur ablegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\xfcgel: Wo Widerstand entsteht, sucht er die Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Achterfl\xfcgel gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgepr\xe4gtem Achterfl\xfcgel fehlen w\xfcrde. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation. Als die Mannschaft auf der Überfahrt nach Wochen ohne Landsicht meuterte, setzte sich Kolumbus mit Härte durch, statt nachzugeben oder auszuweichen. Sp\xe4ter, als Statthalter von Hispaniola, ging er mit derselben Kompromisslosigkeit gegen Aufst\xe4ndische unter den eigenen Kolonisten vor &ndash; öffentliche Hinrichtungen eingeschlossen &ndash;, bis Beschwerden über seine Tyrannei ihn 1500 in Ketten zur\xfcck nach Spanien brachten. Der Gorilla, der sich friedlich durch den Wald bewegt, aber zum unerbittlichen Verteidiger wird, sobald sein Revier angetastet wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Entdeckung und Verwüstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 zeigt sich in Kolumbus' aussergew\xf6hnlicher Fähigkeit, aus einer vagen Idee ein finanziertes, logistisch durchdachtes Unternehmen zu machen und es trotz jahrelanger Absagen durchzusetzen. Der Schatten zeigt sich in der schonungslosen Art, mit der er sein neu beanspruchtes Territorium sicherte: Unter seiner Statthalterschaft wurden indigene Bewohner Hispaniolas versklavt, zu Tributzahlungen in Gold gezwungen und bei Widerstand brutal bestraft &ndash; ein System, das binnen weniger Jahrzehnte einen Großteil der einheimischen Bevölkerung ausl\xf6schte. Dieselbe kompromisslose Härte, die als Sicherung des eigenen Reviers begann, wurde hier zum Instrument der Verw\xfcstung fremder Territorien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bis zum letzten Atemzug: Die Fülle, die er sich nicht nehmen ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Selbst nach seiner Entmachtung 1500 und trotz nachlassender Gesundheit unternahm Kolumbus 1502 noch eine vierte Atlantik\xfcberquerung und kämpfte bis zu seinem Tod 1506 unnachgiebig um die Wiederherstellung seiner vertraglich zugesicherten Titel und Einnahmen &ndash; er starb überzeugt, einen Seeweg nach Asien gefunden zu haben, nicht einen neuen Kontinent. Ein Gorilla gibt sein beanspruchtes Revier nicht freiwillig auf, selbst wenn ihm längst ein Großteil davon entzogen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gorilla, der die Weltkarte neu zog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kolumbus' Vermächtnis ist zutiefst zwiespältig &ndash; eine Grenzüberschreitung, die eine ganze Hemisphäre in die europäische Weltordnung zwang, mit allen Konsequenzen, die das für die dort lebenden Menschen hatte. Als Fallbeispiel für die selbsterhaltende Sieben mit Achterfl\xfcgel bleibt er dennoch lehrreich: die jahrelange, z\xe4he Vorsorge vor der Abfahrt, die Härte im Umgang mit Widerstand, und die Unfähigkeit, ein einmal beanspruchtes Revier wieder herzugeben &ndash; im Guten wie im Zerst\xf6rerischen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
+        {route:"beruehmte-mariah-carey", label:"Portr\xe4t: Mariah Carey (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 export function adeleNeuhauserPortraitPage() {
   return shell(`
     <div class="page-container">

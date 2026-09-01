@@ -1760,6 +1760,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
     tags:["Musik"] , gender:"m"},
+{ route:"beruehmte-christoph-kolumbus", name:"Christopher Columbus", added:"2026-09-01", subtyp:"SE7w8",
+    heading:"Christopher Columbus – Self-Preservation Type 7",
+    teaser:"SP7w8 · born c. 1451, died 1506. Navigator, discoverer of the sea route to the Americas. Years of tenacious provision before departure, uncompromising hardness against resistance, a territory he would not give up even in death. The gorilla who redrew the map of the world – with devastating consequences for the people living there.",
+    land:"Italy/Spain", tags:["Geschichte","Seefahrt"], gender:"m"},
 { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
     heading:"Francis Bacon – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1561, died 1626. Philosopher, statesman, founder of modern empiricism, former Lord Chancellor of England. The gorilla that wanted to reorganise all human knowledge – and fell from his own power.",
@@ -26498,6 +26502,7 @@ function mariahCareyPortraitPage() {
           {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
           {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
           {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+          {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8)"},
           {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
         ])}
       </div>
@@ -36120,6 +36125,65 @@ function hansZimmerPortraitPage() {
   `);
 }
 
+function christophKolumbusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christoph-kolumbus-portrait.jpg" alt="Christopher Columbus – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christopher Columbus</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Navigator, born c. 1451 in Genoa, died 1506 in Valladolid &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla Who Wanted a Territory Across the Ocean</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Gorilla does not build a small nest &ndash; it builds a territory that can carry an entire troop, and it defends that territory with a strength it rarely needs to show, as long as no one challenges it. Christopher Columbus, born around 1451 as the son of a Genoese wool weaver, was a man of concrete, practical provision throughout his life: he studied sea charts, currents and wind systems for years with the same sober persistence with which a gorilla surveys its territory before claiming it. No dreamy visionary, then, but a man pursuing a very concrete, very earthly goal: a westward route that would bring gold, spices and titles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Hidden Eight: Years of Provision Instead of Spontaneous Adventure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Based on decades of experience with this subtype, Naranjo called the Self-Preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly by default. Columbus spent nearly a decade courting the Portuguese and finally the Spanish courts, winning financiers, restarting negotiations after they had failed &ndash; no spontaneous enthusiasm, but a tenacious, years-long securing of his own plan. Before he could set sail in 1492, he had already secured for himself, in the Capitulations of Santa Fe, the title of "Admiral of the Ocean Sea," the office of Viceroy over all discovered territories, and ten percent of all future revenues &ndash; a Seven who secures his abundance contractually, concretely and permanently before he so much as casts off.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Where Resistance Arises, He Seeks Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight-wing gives the Self-Preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation. When his crew mutinied after weeks without sight of land, Columbus prevailed with force rather than yielding or evading. Later, as governor of Hispaniola, he moved with the same lack of compromise against insurgents among his own colonists &ndash; public executions included &ndash; until complaints about his tyranny brought him back to Spain in chains in 1500. The Gorilla that moves peacefully through the forest but becomes an unrelenting defender the moment its territory is touched.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: Discovery and Devastation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP7w8 shows in Columbus's extraordinary ability to turn a vague idea into a financed, logistically sound enterprise and to push it through despite years of rejection. The shadow shows in the ruthless manner in which he secured his newly claimed territory: under his governorship, the indigenous inhabitants of Hispaniola were enslaved, forced into gold tribute payments, and brutally punished for resistance &ndash; a system that wiped out much of the native population within a few decades. The same uncompromising hardness that began as securing his own territory became, here, an instrument of devastation for territories that were not his own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. To His Last Breath: The Abundance He Would Not Give Up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Even after his removal from office in 1500 and despite failing health, Columbus undertook a fourth Atlantic crossing in 1502 and fought unrelentingly, until his death in 1506, for the restoration of his contractually secured titles and revenues &ndash; he died convinced he had found a sea route to Asia, not a new continent. A Gorilla does not voluntarily give up its claimed territory, even once most of it has long since been taken from him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Gorilla Who Redrew the Map of the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Columbus's legacy is deeply divided &ndash; a crossing of boundaries that forced an entire hemisphere into the European world order, with all the consequences that had for the people living there. As a case study of the Self-Preservation Seven with Eight-wing, he nonetheless remains instructive: the years of tenacious provision before departure, the hardness in the face of resistance, and the inability to relinquish a territory once claimed &ndash; for better and for worse.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 function francisBaconPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36182,6 +36246,7 @@ function francisBaconPortraitPage() {
         {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SP7w8)"},
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
       ])}
     </div>
   `);
@@ -49966,12 +50031,12 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
         beschreibung: "Instead of rising within existing institutions, a protected microcosm of one's own is built – a studio, a research station, a body of knowledge, a versatile repertoire of roles, sometimes simply a place one stays loyal to for life – in which one's own rules apply.",
-        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions."
+        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions; Christopher Columbus, who secured his territory contractually in the Capitulations of Santa Fe before he ever set sail – the title of Admiral, the office of Viceroy, ten percent of all future revenues."
       },
       {
         titel: "Room-filling calm instead of fighting for attention",
@@ -49986,7 +50051,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Uncompromising toughness when the territory is threatened – even in a corrupted form (especially with the 8-wing)",
         beschreibung: "As long as no one attacks the system that has been built, the underlying stance remains peaceful. If one's own territory or freedom is threatened, this calm can abruptly flip into uncompromising toughness. In its shadow form, the same need to control one's own territory also shows itself as staging artificial dependency, in order to appear indispensable.",
-        beleg: "Dian Fossey after the killing of the gorilla Digit by poachers; Andreas Baader's turn from sociable demeanor to unyielding readiness for violence, the moment his freedom was at stake; Niels Högel's pattern of first putting patients in mortal danger, in order to then stage himself as a rescuer – the same control logic over one's own territory, here in destructive form; Moritz Bleibtreu's unsparing portrayal of Andreas Baader itself illustrates the mechanism from outside: 'The gorilla that moves peacefully through the forest, but becomes a relentless defender the moment its territory is touched' – Naranjo occasionally called SE7 the 'hidden Eight' in this sense: of all three Seven variants, the one that asserts itself most uncompromisingly in a crisis."
+        beleg: "Dian Fossey after the killing of the gorilla Digit by poachers; Andreas Baader's turn from sociable demeanor to unyielding readiness for violence, the moment his freedom was at stake; Niels Högel's pattern of first putting patients in mortal danger, in order to then stage himself as a rescuer – the same control logic over one's own territory, here in destructive form; Moritz Bleibtreu's unsparing portrayal of Andreas Baader itself illustrates the mechanism from outside: 'The gorilla that moves peacefully through the forest, but becomes a relentless defender the moment its territory is touched' – Naranjo occasionally called SE7 the 'hidden Eight' in this sense: of all three Seven variants, the one that asserts itself most uncompromisingly in a crisis; Christopher Columbus, who crushed a mutiny at sea with force and, as governor, moved against insurgent colonists with public executions, until complaints about his tyranny brought him back to Spain in chains in 1500 – an extreme case in which the same territorial defense became an instrument of devastation for territories not his own."
       }
     ]
   },
@@ -108762,6 +108827,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
+      "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
