@@ -40908,10 +40908,10 @@ function enneagrammMeetsJinShinJyutsuPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Die fünf Finger im Überblick</h2>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 .5rem;color:#c17f00;">Daumen – Sorgen &amp; Grübeln</h3>
-        <p class="vb-intro">Der Daumen hilft bei Sorgen, Grübeln und Nervosität und steht für Magen und Milz. Im Bild dieses Schaubilds ist er zugleich dem Enneagramm-Typ 9 zugeordnet – dem Typ, der Konflikte am liebsten in sich selbst zur Ruhe bringt, statt sie nach außen zu tragen.</p>
+        <p class="vb-intro">Der Daumen hilft bei Sorgen, Grübeln und Nervosität und steht für Magen und Milz. Im Bild dieses Schaubilds ist er zugleich dem Enneagrammtyp 9 zugeordnet – dem Typ, der Konflikte am liebsten in sich selbst zur Ruhe bringt, statt sie nach außen zu tragen.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a3a8b;">Zeigefinger – Angst &amp; Unsicherheit</h3>
-        <p class="vb-intro">Der Zeigefinger steht für Ängste, Schreckhaftigkeit und Unsicherheit sowie für Muskelspannungen, Blase und Niere. Er wird hier den Enneagramm-Typen 1 und 6 zugeordnet – beide sind auf ihre je eigene Art besonders wachsam gegenüber Fehlern, Gefahr oder Kontrollverlust.</p>
+        <p class="vb-intro">Der Zeigefinger steht für Ängste, Schreckhaftigkeit und Unsicherheit sowie für Muskelspannungen, Blase und Niere. Er wird hier den Enneagrammtypen 1 und 6 zugeordnet – beide sind auf ihre je eigene Art besonders wachsam gegenüber Fehlern, Gefahr oder Kontrollverlust.</p>
 
         <h3 style="font-size:1.05rem;font-weight:700;margin:1.3rem 0 .5rem;color:#1a5c1a;">Mittelfinger – Wut &amp; Frust</h3>
         <p class="vb-intro">Der Mittelfinger hilft gegen Wut, Ärger und Frust und steht für Leber und Galle. Zugeordnet sind ihm die Typen 3 und 8 – beide neigen dazu, aufgestaute Energie in Durchsetzungskraft statt in stille Verarbeitung zu verwandeln.</p>
