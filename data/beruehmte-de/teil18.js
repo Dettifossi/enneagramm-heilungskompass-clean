@@ -1539,6 +1539,7 @@ export function sammyDavisJrPortraitPage() {
         {route:"krankheitsportraets-sammy-davis-jr", label:"Krankheitsporträt: Sammy Davis Jr. (SX2w3)"},
         {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-pamela-reif", label:"Porträt: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Porträt: Braco (SX2w3)"},
       ])}

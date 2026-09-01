@@ -1541,3 +1541,69 @@ export function voltairePortraitPage() {
     </div>
   `);
 }
+
+export function isadoraDuncanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-isadora-duncan-portrait.jpg" alt="Isadora Duncan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isadora Duncan</p>
+        <p class="krim-portrait-typ">SX2w3 · Sexueller Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Tänzerin, Begründerin des modernen Ausdruckstanzes, 1877–1927 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kamel, das den Tanz von seinem Korsett befreite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kamel</strong> ist das Tier der sexuellen Zwei – ein Tier, das viel tragen kann, ohne es zur Schau zu stellen, und das sich einem einzelnen Gegenüber ganz zuwendet. Isadora Duncan wurde 1877 in San Francisco geboren, in ärmlichen Verhältnissen, aber in einem Elternhaus, das Kunst und freies Denken über bürgerliche Konventionen stellte. Schon als Kind lehnte sie den klassischen Ballettunterricht als unnatürlich und einengend ab.</p>
+          <p class="vb-intro">Aus dieser frühen Ablehnung erwuchs eine vollständig neue Kunstform: den barfüßigen, in fließende griechische Gewänder gekleideten Ausdruckstanz, der sich an der Natur, dem eigenen Atem und der inneren Bewegung orientierte statt an starren Formen. Duncan gilt bis heute als die Begründerin des modernen Tanzes – eine Revolution, die sie nicht aus Theorie, sondern aus dem eigenen, ungebremsten Körpergefühl heraus entwickelte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Hingabe ohne Rücksicht auf Konventionen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Zwei (SX2)</strong> lenkt die Energie der Zwei nicht auf die große Gruppe, sondern auf den direkten, persönlichen Raum zwischen zwei Menschen. Naranjo nannte diesen Subtyp <em>Aggressivität/Verführung</em> – ein aktives, vorwärtsdrängendes Zugehen auf den anderen. Duncan lebte ihre Beziehungen mit einer Offenheit, die für ihre Zeit als Skandal galt: Sie lehnte die Ehe lange als Institution ab, die Frauen zu Besitz mache, bekam Kinder mit zwei verschiedenen, unverheirateten Partnern und sprach öffentlich über Liebe und Sexualität, wo andere schwiegen.</p>
+          <p class="vb-intro">Diese Offenheit war keine kühle Provokation, sondern Ausdruck einer Person, die sich in jeder wichtigen Beziehung tatsächlich und vollständig einließ. Zeitgenossen beschreiben eine Frau, die für den jeweils einen Menschen, der ihr wichtig war, alles zu geben bereit war – bis zur Selbstaufgabe finanzieller und gesellschaftlicher Sicherheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Aus einer Vision eine Bewegung machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Hingabe ein sichtbares, wirkungsvolles Projekt zu formen. Duncan blieb nicht bei der eigenen Bühnenpräsenz stehen: Sie gründete Tanzschulen in Deutschland, Frankreich, den USA und schließlich in der Sowjetunion, um ihre Methode systematisch an eine neue Generation weiterzugeben – die berühmten „Isadorables", sechs von ihr selbst ausgebildete Adoptivtöchter, traten weltweit in ihrem Stil auf.</p>
+          <p class="vb-intro">Ihr Ehrgeiz galt nicht dem persönlichen Ruhm allein, sondern der Etablierung einer ganzen Kunstrichtung: Sie wollte, dass der freie Ausdruckstanz als eigenständige, ernstzunehmende Kunstform überdauert, weit über ihre eigene Karriere hinaus. Der Dreierflügel lieferte die strategische Weitsicht und Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Hingabe, die dieser Vision erst Leben einhauchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verlust und Neuanfang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1913 ertranken Duncans beide Kinder Deirdre und Patrick, als das Auto, in dem sie saßen, in die Seine stürzte – eine Tragödie, von der sie sich nie vollständig erholte. 1922 heiratete sie überraschend den siebzehn Jahre jüngeren russischen Dichter Sergei Jessenin, eine leidenschaftliche, aber von Sprachbarrieren, Jessenins Alkoholexzessen und öffentlichen Skandalen geprägte Ehe, die bereits ein Jahr später endete.</p>
+          <p class="vb-intro">Finanziell geriet Duncan in ihren letzten Lebensjahren zunehmend in Not, da sie einen Großteil ihres Vermögens in ihre Schulen und ihre künstlerische Vision investiert hatte, statt es für sich selbst zurückzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX2w3 ist die Fähigkeit, <strong>aus radikaler persönlicher Hingabe eine Bewegung zu schaffen, die weit über die eigene Lebenszeit hinaus wirkt</strong> – Duncans Ausdruckstanz prägt bis heute Choreografinnen und Choreografen weltweit, und ihre Vorstellung vom Körper als Ausdrucksmittel statt als zu disziplinierendes Instrument veränderte die Kunstform von Grund auf.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – bei der sexuellen Zwei eng verknüpft mit der Frage, ob man für den einen wichtigen Menschen unentbehrlich genug ist. Duncans radikale Weigerung, sich gesellschaftlichen Erwartungen an Ehe, Mutterschaft und weibliche Zurückhaltung zu unterwerfen, brachte ihr zeitlebens öffentliche Anfeindungen ein – und dieselbe Kompromisslosigkeit, mit der sie liebte, ließ sie auch finanzielle und persönliche Sicherheit immer wieder aufs Spiel setzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Kamel, dessen Schal zum Symbol wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Isadora Duncan starb 1927 in Nizza unter tragischen Umständen: Ihr langer Seidenschal verfing sich in einem Rad des Autos, in dem sie mitfuhr, und erdrosselte sie – ein plötzliches, öffentliches Ende, das ebenso dramatisch war wie das Leben, das ihm vorausging.</p>
+          <p class="vb-intro">Vom kindlichen Bruch mit dem klassischen Ballett über die weltweite Verbreitung ihres eigenen Tanzstils bis zum abrupten, symbolisch aufgeladenen Tod: Das ist die sexuelle Zwei mit Dreierflügel in einer ihrer konsequentesten Formen – eine Hingabe an einzelne Menschen und eine künstlerische Vision, die sich nie den Regeln ihrer Zeit unterordnete.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
+        {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
+      ])}
+    </div>
+  `);
+}

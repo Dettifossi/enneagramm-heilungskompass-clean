@@ -981,6 +981,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Giacomo Casanova – Sexual Type 2",
     teaser:"SX2w3 · 1725–1798. Venetian writer and adventurer. Secret agent, librarian, prison escapee, twelve-volume memoirs – restless devotion to countless individual encounters across all of Europe. Animal correspondence: Camel.",
     land:"Italy", tags:["Literatur"] , gender:"m"},
+{ route:"beruehmte-isadora-duncan", name:"Isadora Duncan", added:"2026-09-01", subtyp:"SX2w3",
+    heading:"Isadora Duncan – Sexual Type 2",
+    teaser:"SX2w3 · 1877–1927. Dancer, founder of modern expressive dance. Barefoot dance against the corset of classical ballet, dance schools worldwide, radical openness in love and life. Animal correspondence: Camel.",
+    land:"USA", tags:["Kunst"] , gender:"f"},
 { route:"beruehmte-monika-gruber", name:"Monika Gruber", added:"2026-07-20", subtyp:"SX2w1",
     heading:"Monika Gruber – Sexual Type 2",
     teaser:"SX2w1 · born 1970. Cabaret artist, actress. Bavaria's sharpest seductress to the truth - humor as home, attitude as second nature. The camel that looks at a thousand people at the same time. Animal correspondence: Camel.",
@@ -26864,6 +26868,7 @@ function sammyDavisJrPortraitPage() {
         {route:"krankheitsportraets-sammy-davis-jr", label:"Illness Portrait: Sammy Davis Jr. (SX2w3)"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-pamela-reif", label:"Portrait: Pamela Reif (SX2w3)"},
         {route:"beruehmte-braco", label:"Portrait: Braco (SX2w3)"},
       ])}
@@ -46132,6 +46137,7 @@ function mataHariPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
@@ -46199,9 +46205,76 @@ function giacomoCasanovaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3)"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Portrait: Elvis Presley (SX2w3)"},
         {route:"krankheitsportraets-giacomo-casanova", label:"Illness Portrait: Giacomo Casanova (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function isadoraDuncanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-isadora-duncan-portrait.jpg" alt="Isadora Duncan" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Isadora Duncan</p>
+        <p class="krim-portrait-typ">SX2w3 &middot; Sexual Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Dancer, founder of modern expressive dance, 1877&ndash;1927 &ndash; Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The camel that freed dance from its corset</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>camel</strong> is the animal of the Sexual Two &ndash; an animal that can carry a great deal without putting it on display, and that turns entirely toward one single companion. Isadora Duncan was born in 1877 in San Francisco, into modest circumstances, but into a household that valued art and free thinking over bourgeois convention. Even as a child, she rejected classical ballet training as unnatural and confining.</p>
+          <p class="vb-intro">Out of this early rejection grew an entirely new art form: barefoot dance in flowing Greek-inspired robes, oriented around nature, breath, and inner movement rather than rigid form. Duncan is still considered the founder of modern dance today &ndash; a revolution she developed not from theory, but from her own unrestrained bodily sense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: devotion without regard for convention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Two (SX2)</strong> directs the Two's energy not toward the large group, but toward the direct, personal space between two people. Naranjo called this subtype <em>Aggression/Seduction</em> &ndash; an active, forward-moving approach toward the other. Duncan lived her relationships with an openness that was considered scandalous for her time: she long rejected marriage as an institution that turned women into property, had children with two different unmarried partners, and spoke publicly about love and sexuality where others stayed silent.</p>
+          <p class="vb-intro">This openness was no cold provocation, but the expression of someone who genuinely and fully engaged in every important relationship. Contemporaries describe a woman willing to give everything for the one person who mattered to her at the time &mdash; even at the cost of her own financial and social security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: turning a vision into a movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Sexual Two the drive to shape personal devotion into a visible, effective project. Duncan did not stop at her own stage presence: she founded dance schools in Germany, France, the United States, and eventually the Soviet Union to systematically pass on her method to a new generation &ndash; the famous "Isadorables," six adopted daughters she trained herself, performed worldwide in her style.</p>
+          <p class="vb-intro">Her ambition was not for personal fame alone, but for establishing an entire art form: she wanted free expressive dance to endure as an independent, serious art, far beyond her own career. The Three-wing supplied the strategic foresight and self-staging; the Sexual Two underneath supplied the actual, personal devotion that gave that vision its life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Loss and a new beginning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1913, both of Duncan's children, Deirdre and Patrick, drowned when the car they were riding in plunged into the Seine &ndash; a tragedy she never fully recovered from. In 1922, she surprisingly married the Russian poet Sergei Yesenin, seventeen years her junior, a passionate marriage marked by language barriers, Yesenin's alcoholism, and public scandal, which ended after only a year.</p>
+          <p class="vb-intro">Financially, Duncan grew increasingly strained in her final years, having invested most of her fortune in her schools and her artistic vision rather than setting it aside for herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX2w3 is the ability to <strong>turn radical personal devotion into a movement that outlasts one's own lifetime</strong> &ndash; Duncan's expressive dance still shapes choreographers worldwide today, and her vision of the body as a means of expression rather than an instrument to be disciplined changed the art form at its root.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> &ndash; in the Sexual Two, closely bound up with the question of whether one is indispensable enough to the one person who matters most. Duncan's radical refusal to submit to social expectations around marriage, motherhood, and feminine restraint brought her lifelong public hostility &ndash; and the same uncompromising quality with which she loved also repeatedly led her to gamble away financial and personal security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The camel whose scarf became a symbol</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Isadora Duncan died in 1927 in Nice under tragic circumstances: her long silk scarf caught in the wheel of the car she was riding in and strangled her &ndash; a sudden, public ending as dramatic as the life that preceded it.</p>
+          <p class="vb-intro">From her childhood break with classical ballet, through the worldwide spread of her own dance style, to her abrupt, symbolically charged death: this is the Sexual Two with a Three-wing in one of its most consistent forms &ndash; a devotion to individual people and an artistic vision that never bent to the rules of its time.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
+        {route:"beruehmte-giacomo-casanova", label:"Portrait: Giacomo Casanova (SX2w3)"},
+        {route:"beruehmte-sammy-davis-jr", label:"Portrait: Sammy Davis Jr. (SX2w3)"},
       ])}
     </div>
   `);
@@ -48959,7 +49032,7 @@ const LEBENSMUSTERKOMPASS = {
   SX2: {
     tier: "Camel",
     kernthema: "Turning an entire audience into a single, personal encounter",
-    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
+    beispiele: ["Monika Gruber", "Dr. Bernard Faye", "Matthias Schweighöfer", "Milow", "Clueso", "Pamela Reif", "Anastasiia Metelkina", "Braco", "Elvis Presley", "Sammy Davis Jr.", "Giacomo Casanova", "Isadora Duncan", "Pamela Smart", "Mary Magdalene", "Ryan Gosling"],
     fingerabdruecke: [
       {
         titel: "Intimacy at scale – the many become one",
@@ -48969,7 +49042,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Carries and gives itself fully without pushing forward",
         beschreibung: "Devotion shows itself not as loud courting, but as steady, patient carrying – in service of a connection, a path, a partner, without asking for much in return.",
-        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness; Giacomo Casanova, whose own memoirs describe well over a hundred and twenty relationships that he himself repeatedly frames not as conquests but as relationships in which he helped, listened, and wanted to make himself indispensable to each woman – devotion to the one companion standing in front of him, rather than cold calculation."
+        beleg: "Matthias Schweighöfer, who as a director 'brings his crew along as if every set were a community': 'The camel doesn't just cross the desert. It makes sure everyone arrives'; Milow, who 'gently carried' a harsh song 'until it landed'; Anastasiia Metelkina, whose pair-skating career literally rests on mutual carrying: 'Two bodies must carry each other ... a single breach of trust means the fall'; Mary Magdalene, who remained at the cross when others fled – 'I remain. Even if you go.' – and helped anoint the body, not out of duty, but because for her closeness was never conditional; Clueso, whose musical style only truly took shape through the years-long, close friendship with DJ Malik and Steer M during joint jam sessions in Jena – not a solo rise, but a path that developed in close contact with those who accompanied him; Ryan Gosling, who paused his film career for four years between 2018 and 2022 to spend time with his daughters: 'The camel carries most when no one is watching' – devotion that proves itself not through public gestures, but through steady, patient presence in the background; Sammy Davis Jr., whose loyalty to the Rat Pack carried across decades, even as his interracial marriage to May Britt drew public hostility – Frank Sinatra returned that same loyalty, but giving remained Davis's constant, all the way into his final performances, marked by illness; Giacomo Casanova, whose own memoirs describe well over a hundred and twenty relationships that he himself repeatedly frames not as conquests but as relationships in which he helped, listened, and wanted to make himself indispensable to each woman – devotion to the one companion standing in front of him, rather than cold calculation; Isadora Duncan, who invested most of her fortune in her own dance schools and in the 'Isadorables' she trained herself, rather than setting it aside for herself – devotion to an artistic vision and to individual people that stayed more important than her own financial security."
       },
       {
         titel: "Stores energy, then releases it in a single, complete outburst",
@@ -107756,6 +107829,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-sammy-davis-jr": sammyDavisJrPortraitPage,
       "beruehmte-giacomo-casanova": giacomoCasanovaPortraitPage,
+      "beruehmte-isadora-duncan": isadoraDuncanPortraitPage,
       "beruehmte-romulus-whitaker": romulusWhitakerPortraitPage,
       "beruehmte-thea-litschka-koen": theaLitschkaKoenPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
