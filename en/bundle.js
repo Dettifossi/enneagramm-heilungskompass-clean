@@ -15716,7 +15716,7 @@ function wahreFreiheitPage() {
 
         <p class="vb-intro">At its core, the ego is nothing more than a bundle of cravings and attachments. As long as this mechanism is at work, no lasting inner peace can arise, because the ego is the exact opposite of inner peace, no matter how well optimized. Every craving is a subtle declaration that the present moment is not enough. True, deep happiness, by contrast, is free of wanting.</p>
 
-        <p class="vb-intro">One can only be happy without wanting anything &mdash; everything else, even the most modest or well-intentioned wish, remains craving, remains ego-driven. True inner peace, once the time has become ripe for it, not a second sooner or later, arises from the stillness that lies beyond craving.</p>
+        <p class="vb-intro">One can only be happy without wanting anything &mdash; everything else, even the most modest or well-intentioned wish, remains craving, remains ego-driven. True inner peace arises from the stillness that lies beyond craving &mdash; once the time has become ripe for it, not a second sooner or later.</p>
 
         <p class="vb-intro">It deserves respect when people recognize early in life that they are not their Enneagram style. That is a wonderful, functional step toward a more harmonious everyday life. But whoever wants to walk this path to its end &mdash; usually only after many decades of searching &mdash; cannot stop at conscious arrangement. True freedom begins where one stops managing one's own wishes and instead discovers the stillness beyond all wishing. Only once the constant craving grows quiet does that unshakable inner peace break through, the peace that needs nothing in order to be happy. But until then, every person moves through life full of craving, in unconditional pursuit of its satisfaction &mdash; entirely in keeping with life itself, which wants to experience itself through us, and cannot be otherwise. Only once the seeking itself falls away does what the egoic striving resists most come to pass.</p>
 
@@ -15741,6 +15741,7 @@ function wahreFreiheitPage() {
         </div>
 
         <p class="vb-intro">Hesse wrote this poem in 1907, at around thirty years old. It is fascinating to see how this fundamental insight &mdash; that the end of craving is the beginning of peace &mdash; was already present in him at such a young age, running like a thread through his entire body of work.</p>
+        <p class="vb-intro" style="margin-top:0.8rem;"><a href="javascript:void(0)" data-route="beruehmte-hermann-hesse">More on Hermann Hesse (SP5w6) in the portrait under Famous Personalities</a>.</p>
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:2rem;">
@@ -15761,14 +15762,33 @@ function wahreFreiheitPage() {
         <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">The journey is famously the destination &mdash; everything is good, exactly as it is.</p>
       </div>
 
-      ${bookTip("nichts-und-alles", "A quiet book on looking inward – awareness, space, and inner freedom.", "Nichts und Alles")}
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spiritual art-of-living exercises for daily life – the ideal companion to this chart.", "7 Wege zu Dir selbst")}
+      <div style="max-width:100%;margin-top:1.5rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Spiritual Books by Detlef Rathmer (7)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "The space that remains once identification loosens – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Metaintelligenz (audiobook)")}</div>
+          </div>
+        </details>
+      </div>
       ${relatedLinks([
         {route:"spirituelle-uebungen", label:"Spiritual Exercises"},
         {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
         {route:"heilungsweg", label:"Path to Healing"},
         {route:"frieden-schliessen", label:"Making Peace"},
         {route:"rumi-zitate", label:"Rumi Quotes"},
+        {route:"stille", label:"9 Minutes of Stillness"},
       ])}
     </section>
   `);
@@ -104610,10 +104630,6 @@ function stillePage() {
         <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">Over 25 minutes – a detailed guide by Detlef Rathmer on exhale-based mindfulness.</p>
       </div>
 
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven spiritual art-of-living steps for daily life &ndash; the ideal companion to daily stillness practice.", "7 Wege zu Dir selbst – Lebenskunst für den Alltag")}
-      ${bookTip("nichts-und-alles", "A silent book about looking inward &ndash; consciousness, space, and inner freedom.", "Nichts und Alles")}
-      ${bookTip("der-raum-hinter-allem", "Beyond all patterns: the silent space that remains when identification subsides &ndash; a meditative work on consciousness and freedom.", "Der Raum hinter allem")}
-
       <div style="margin-top:2.5rem;padding:1.2rem 1.4rem;background:var(--paper);border-radius:14px;border-left:3px solid var(--copper);max-width:480px;margin-left:auto;margin-right:auto;">
         <p style="margin:0 0 0.5rem;font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;">Prefer music?</p>
         <p style="margin:0 0 0.9rem;font-size:0.95rem;line-height:1.65;color:var(--ink);">Whoever wants to dive into absolute stillness finds themselves &mdash; in nine minutes of complete stillness, accompanied by a gong.</p>
@@ -104623,8 +104639,29 @@ function stillePage() {
           <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">🎧 The 9 Solfeggio Frequencies →</button>
         </div>
       </div>
+
+      <div style="max-width:480px;margin:2rem auto 0;text-align:left;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Spiritual Books by Detlef Rathmer (7)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "The space that remains once identification loosens – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Metaintelligenz (audiobook)")}</div>
+          </div>
+        </details>
+      </div>
     </section>
-    ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums by Detlef Rathmer"},{route:"musik",label:"Relaxation and Healing Music"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"}])}
+    ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums by Detlef Rathmer"},{route:"musik",label:"Relaxation and Healing Music"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"wahre-freiheit",label:"Chart: True Freedom"}])}
   `);
 }
 

@@ -40797,7 +40797,7 @@ function wahreFreiheitPage() {
 
         <p class="vb-intro">Im Kern ist das Ego nichts anderes als ein B\u00fcndel von Begehrlichkeiten und Anhaftungen. Solange dieser Mechanismus am Werk ist, kann kein dauerhafter innerer Frieden entstehen, denn das Ego ist das genaue Gegenteil von innerem Frieden, auch das noch so optimierte. Jedes Verlangen ist eine subtile Erkl\u00e4rung des gegenw\u00e4rtigen Moments f\u00fcr ungen\u00fcgend. Wahres, tiefes Gl\u00fcck hingegen ist wunschlos.</p>
 
-        <p class="vb-intro">Man kann nur wunschlos gl\u00fccklich sein \u2013 alles andere, jeder auch noch so bescheidene oder gutgemeinte Wunsch, bleibt Verlangen, ist und bleibt egogesteuert. Wahrer innerer Frieden entspringt, wenn die Zeit daf\u00fcr reif geworden ist, nicht eine Sekunde fr\u00fcher oder sp\u00e4ter, der Stille, die jenseits des Verlangens liegt.</p>
+        <p class="vb-intro">Man kann nur wunschlos gl\u00fccklich sein \u2013 alles andere, jeder auch noch so bescheidene oder gutgemeinte Wunsch, bleibt Verlangen, ist und bleibt egogesteuert. Wahrer innerer Frieden entspringt der Stille, die jenseits des Verlangens liegt \u2013 dann, wenn die Zeit daf\u00fcr reif geworden ist, nicht eine Sekunde fr\u00fcher oder sp\u00e4ter.</p>
 
         <p class="vb-intro">Es geb\u00fchrt Respekt, wenn Menschen bereits fr\u00fch im Leben erkennen, dass sie nicht ihr Enneagramm-Stil sind. Das ist ein wunderbarer, funktionaler Schritt f\u00fcr ein harmonisches Alltagsleben. Doch wer den Weg \u2013 in aller Regel nach vielen Jahrzehnten der Suche \u2013 zu Ende gehen m\u00f6chte, darf beim bewussten Arrangement nicht stehen bleiben. Wahre Freiheit beginnt dort, wo man aufh\u00f6rt, die eigenen W\u00fcnsche zu verwalten, und stattdessen die Stille jenseits aller W\u00fcnsche entdeckt. Erst wenn das st\u00e4ndige Verlangen leiser wird, bricht jener unersch\u00fctterliche innere Frieden hervor, der nichts braucht, um gl\u00fccklich zu sein. Doch bis dahin geht jeder Mensch durch sein Leben, voller Verlangen auf der unbedingten Suche nach dessen Befriedigung \u2013 ganz im Sinne des Lebens selbst, das sich durch uns erleben m\u00f6chte, und nicht anders sein kann. Erst wenn die Suche selbst abf\u00e4llt, endet f\u00fcr das egoische Streben, was ihm am meisten widerstrebt.</p>
 
@@ -40822,6 +40822,7 @@ function wahreFreiheitPage() {
         </div>
 
         <p class="vb-intro">Hesse hat dieses Gedicht 1907 geschrieben, im Alter von etwa drei\u00dfig Jahren. Es ist faszinierend zu sehen, wie diese fundamentale Erkenntnis \u2013 dass das Ende des Begehrens der Anfang des Friedens ist \u2013 bei ihm bereits in jungen Jahren da war und sich wie ein roter Faden durch sein gesamtes Schaffen zieht.</p>
+        <p class="vb-intro" style="margin-top:0.8rem;"><a href="javascript:void(0)" data-route="beruehmte-hermann-hesse">Mehr zu Hermann Hesse (SE5w6) im Portr\u00e4t unter Ber\u00fchmte Pers\u00f6nlichkeiten</a>.</p>
       </div>
 
       <div class="psycho-img-wrap" style="margin-top:2rem;">
@@ -40842,14 +40843,33 @@ function wahreFreiheitPage() {
         <p class="vb-anmerkung" style="margin-top:1.5rem;font-style:italic;">Der Weg ist bekanntlich das Ziel \u2013 es ist alles gut, so wie es ist.</p>
       </div>
 
-      ${bookTip("nichts-und-alles", "Stilles Buch \u00fcber das Schauen nach innen \u2013 Bewusstsein, Raum und innere Freiheit.", "Nichts und Alles")}
-      ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "7 spirituelle Lebenskunst-\u00dcbungen f\u00fcr den Alltag \u2013 der ideale Begleiter zu diesem Schaubild.", "7 Wege zu Dir selbst")}
+      <div style="max-width:100%;margin-top:1.5rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Spirituelle B\u00fccher von Detlef Rathmer (7)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("nichts-und-alles", "Ein Buch \u00fcber das Wesen des Bewusstseins \u2013 zwischen Leere und F\u00fclle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch \u00fcber die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse \u2013 ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst n\u00e4herzukommen \u2013 ohne Umwege, ohne Sch\u00f6nrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}</div>
+          </div>
+        </details>
+      </div>
       ${relatedLinks([
         {route:"spirituelle-uebungen", label:"Spirituelle \u00dcbungen"},
         {route:"bewusstseinsuebungen", label:"Bewusstseins\u00fcbungen"},
         {route:"heilungsweg", label:"Heilungsweg"},
         {route:"frieden-schliessen", label:"Frieden schlie\u00dfen"},
         {route:"rumi-zitate", label:"Rumi-Zitate"},
+        {route:"stille", label:"9 Minuten Stille"},
       ])}
     </section>
   `);
@@ -71258,8 +71278,29 @@ function stillePage() {
           <button class="secondary" data-route="solfeggio-frequenzen" style="font-size:0.9rem;">\ud83c\udfa7 Die 9 Solfeggio-Frequenzen \u2192</button>
         </div>
       </div>
+
+      <div style="max-width:480px;margin:2rem auto 0;text-align:left;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Spirituelle B\u00fccher von Detlef Rathmer (7)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("nichts-und-alles", "Ein Buch \u00fcber das Wesen des Bewusstseins \u2013 zwischen Leere und F\u00fclle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachl\u00e4sst \u2013 ein meditatives Werk \u00fcber Bewusstsein und Freiheit.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch \u00fcber die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse \u2013 ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst n\u00e4herzukommen \u2013 ohne Umwege, ohne Sch\u00f6nrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}</div>
+          </div>
+        </details>
+      </div>
     </section>
-    ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"musik",label:"Entspannungs- und Heilungsmusik"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"}])}
+    ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben von Detlef Rathmer"},{route:"musik",label:"Entspannungs- und Heilungsmusik"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spirituelle Songs"},{route:"wahre-freiheit",label:"Schaubild: Wahre Freiheit"}])}
   `);
 }
 
