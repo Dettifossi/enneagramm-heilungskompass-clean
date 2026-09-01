@@ -3681,3 +3681,183 @@ export function brigitteBardotKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function christophKolumbusKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-christoph-kolumbus-portrait.jpg" alt="Christoph Kolumbus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christoph Kolumbus</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel · um 1451–1506</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Christoph Kolumbus</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-christoph-kolumbus">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine jahrelange Vorsorge vor der ersten
+        Atlantiküberquerung und seine Härte als Statthalter. Diesmal richtet sich der Blick auf
+        ein Kapitel, das dort nur am Rande erscheint: eine quälende, nie ganz geklärte
+        Gelenkerkrankung, die ihn in seinen letzten acht Lebensjahren zunehmend fesselte – und
+        die er dennoch nie davon abhielt, eine vierte, letzte Atlantiküberquerung anzutreten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Kolumbus</strong> ist der <strong>selbsterhaltenden Sieben mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte diesen Subtyp die "versteckte Acht": eine Sieben, die ihre
+        praktische Vorsorge mit der Durchsetzungskraft und Härte der Acht verbindet. Genau
+        diese Kombination aus zäher, jahrelanger Absicherung und der Weigerung, vor
+        körperlichen Grenzen zurückzuschrecken, prägte auch seinen Umgang mit der eigenen
+        Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein plötzlicher Anfall im Sommer 1498:</strong>
+        Während seiner dritten Reise wurde Kolumbus, damals einundvierzig, von heftigen
+        Schmerzen in den Beinen befallen, begleitet von hohem Fieber – zeitgenössisch als
+        "Gicht" bezeichnet, obwohl das Beschwerdebild dafür ungewöhnlich verlief.</p>
+        <p class="vb-intro"><strong>b) Blutende, entzündete Augen sechs Wochen später:</strong>
+        Wenige Wochen nach dem ersten Anfall entzündeten sich Kolumbus' Augen und begannen zu
+        bluten, sein Sehvermögen verschlechterte sich merklich – ein Symptomkomplex, den
+        moderne Mediziner rückblickend als mögliches Reiter-Syndrom deuten, eine reaktive
+        Arthritis nach einer bakteriellen Infektion, die er sich auf einer seiner Reisen
+        zugezogen haben könnte.</p>
+        <p class="vb-intro"><strong>c) Erste Bettlägerigkeit inmitten der Kolonialverwaltung:</strong>
+        Ausgerechnet in einer Phase, in der Hispaniola von Aufständen und Verwaltungschaos
+        erschüttert wurde, war Kolumbus zeitweise zu krank, um die Amtsgeschäfte selbst zu
+        führen – ein erster, erzwungener Bruch in seinem sonst ununterbrochenen Tatendrang.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende Schübe statt einmaliger Episode:</strong>
+        Die Gelenkschmerzen kehrten in den folgenden Jahren immer wieder zurück, mit
+        Phasen relativer Besserung, gefolgt von erneuten, oft wochenlangen Anfällen –
+        ein Muster, das sich bis zu seinem Tod fortsetzte.</p>
+        <p class="vb-intro"><strong>b) Kaum dokumentierte Klagen, viel dokumentierte Aktivität:</strong>
+        In Kolumbus' eigenen Briefen an die spanische Krone nimmt die eigene Krankheit
+        auffallend wenig Raum ein, verglichen mit ausführlichen Schilderungen zu Rechten,
+        Ansprüchen und den nächsten geplanten Unternehmungen.</p>
+        <p class="vb-intro"><strong>c) Ein Körper, der zunehmend nicht mehr mithielt:</strong>
+        Zeitgenossen beschrieben Kolumbus in seinen letzten Lebensjahren als gealtert und
+        gezeichnet – ein auffälliger Kontrast zu dem energiegeladenen Seefahrer früherer
+        Jahre.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Rückkehr in Ketten 1500 als zusätzliche Belastung:</strong>
+        Kurz nach den ersten schweren Krankheitsschüben wurde Kolumbus wegen Beschwerden über
+        seine Tyrannei als Statthalter abgesetzt und in Ketten nach Spanien zurückgebracht –
+        eine Demütigung, die auf einen bereits geschwächten Körper traf.</p>
+        <p class="vb-intro"><strong>b) Die vierte Reise trotz fortgeschrittener Krankheit:</strong>
+        Statt sich zu schonen, drängte Kolumbus 1502, mit einundfünfzig Jahren und deutlich
+        beeinträchtigter Beweglichkeit, auf eine vierte Atlantiküberquerung – gegen den Rat
+        derer, die seinen Zustand kannten.</p>
+        <p class="vb-intro"><strong>c) Monatelang ans Bett gefesselt vor der Karibikküste:</strong>
+        Während dieser letzten Reise war Kolumbus zeitweise so schwer von Fieber und
+        Gelenkschmerzen gezeichnet, dass er die Kommandobrücke nicht mehr verlassen konnte und
+        Anweisungen liegend erteilte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Jahr auf Jamaika, gestrandet und krank:</strong>
+        Nach dem Verlust seiner Schiffe strandete Kolumbus 1503/04 für fast ein Jahr auf
+        Jamaika – gezeichnet von Fieberschüben und Gelenkschmerzen, während er gleichzeitig
+        eine Meuterei unter der eigenen Mannschaft niederschlagen musste.</p>
+        <p class="vb-intro"><strong>b) Rückkehr nach Spanien, aber kein Ende des Kampfes:</strong>
+        Nach der Rückkehr im November 1504 war Kolumbus körperlich stark geschwächt – doch
+        statt sich zurückzuziehen, verbrachte er seine letzten anderthalb Lebensjahre damit,
+        unermüdlich um die Wiederherstellung seiner vertraglich zugesicherten Titel und
+        Einnahmen zu kämpfen.</p>
+        <p class="vb-intro"><strong>c) Tod am 20. Mai 1506 in Valladolid:</strong>
+        Kolumbus starb im Alter von etwa fünfundfünfzig Jahren, vermutlich an den
+        Spätfolgen der jahrelangen Gelenkentzündung in Kombination mit Herzversagen –
+        überzeugt bis zuletzt, einen Seeweg nach Asien und nicht einen neuen Kontinent
+        gefunden zu haben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der auch die eigene Schwäche ignorierte:</strong>
+        Dieselbe Durchsetzungskraft, die Kolumbus durch jahrelange Ablehnung an den
+        europäischen Höfen und durch Meutereien auf See trug, ließ ihn auch über die
+        eigenen körperlichen Warnsignale hinweggehen – eine vierte Reise trotz fortgeschrittener
+        Krankheit war für ihn keine Frage, sondern eine Selbstverständlichkeit.</p>
+        <p class="vb-intro"><strong>b) Vorsorge für das Territorium, nicht für den eigenen Körper:</strong>
+        Die selbsterhaltende Sieben sichert sich normalerweise durch praktische Vorsorge ab –
+        bei Kolumbus richtete sich diese Vorsorge fast ausschließlich auf Titel, Verträge und
+        Ansprüche, kaum auf die eigene Gesundheit, die dabei zur Nebensache wurde.</p>
+        <p class="vb-intro"><strong>c) Kampf um Anerkennung als letztes verbliebenes Terrain:</strong>
+        Nach dem Verlust der Statthalterschaft verlagerte sich die ganze Energie der SE7w8
+        auf den Kampf um die Wiederherstellung seiner Rechte – mit einer Unnachgiebigkeit, die
+        auch der eigene, sichtbar verfallende Körper nicht bremsen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit, die nie zum Rückzugsgrund wurde:</strong>
+        Acht Jahre lang begleiteten wiederkehrende Gelenkentzündungen, Fieberschübe und
+        zeitweise Erblindungserscheinungen Kolumbus – ohne dass er daraus je die Konsequenz
+        zog, seine Unternehmungen einzuschränken oder sich Ruhe zu gönnen.</p>
+        <p class="vb-intro"><strong>b) Ein Tod, der zum Sinnbild eines unnachgiebigen Lebens wurde:</strong>
+        Kolumbus starb nicht im Ruhestand, sondern mitten im Kampf um seine Rechte – ein
+        Territorium, das er, wie schon zu Lebzeiten sein geographisches, bis zum letzten
+        Atemzug nicht aufgeben wollte.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Gelenkerkrankung?</strong>
+        Für eine selbsterhaltende Sieben mit Achterflügel, deren Stärke traditionell in
+        körperlicher Robustheit und praktischer Beweglichkeit liegt, trifft eine
+        fortschreitende, bewegungseinschränkende Gelenkerkrankung einen empfindlichen Punkt:
+        Sie greift genau die Fähigkeit an, die diesen Subtyp sonst auszeichnet – tatkräftig
+        und uneingeschränkt handlungsfähig zu bleiben. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
+        derartigen Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Kolumbus' Fall zeigen lässt, ist ein Muster,
+        das bei ungebremster Reviersicherung in der Praxis immer wieder auffällt – eine von
+        vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Kolumbus kannte sein eigenes Muster nicht – die selbsterhaltende Sieben mit
+        Achterflügel verteidigt ihr beanspruchtes Terrain, ob geographisch oder vertraglich,
+        auch dann noch unnachgiebig, wenn der eigene Körper längst Grenzen setzt, und genau
+        das trieb ihn dazu, noch mit fortgeschrittener Krankheit eine vierte Ozeanüberquerung
+        anzutreten und bis zum Tod um seine Titel zu kämpfen, statt kürzerzutreten. Wer den
+        eigenen Drang, das einmal beanspruchte Revier nie herzugeben, nicht als Muster
+        erkennt, unterschätzt, wie sehr er den eigenen Körper dabei aufreibt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Kolumbus'</strong> letzten acht Lebensjahren lässt sich die selbsterhaltende
+        Sieben mit Achterflügel in ihrer unnachgiebigsten Form ablesen: eine fortschreitende,
+        kaum beklagte Gelenkerkrankung, die weder eine vierte Atlantiküberquerung noch den
+        jahrelangen Kampf um die eigenen Rechte je verhinderte. Der Gorilla, der sein Revier
+        bis zum letzten Atemzug verteidigt – auch dann noch, wenn der eigene Körper längst
+        nicht mehr mithält.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-christoph-kolumbus", label:"Porträt: Christoph Kolumbus (SE7w8) – Lebenswerk"},
+        {route:"krankheitsportraets-francis-bacon", label:"Krankheitsporträt: Francis Bacon (SE7w8)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se7", label:"Subtyp-Profil SE7"},
+      ])}
+    </div>
+  `);
+}

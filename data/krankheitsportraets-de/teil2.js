@@ -909,6 +909,7 @@ export function francisBaconKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-francis-bacon", label:"Porträt: Francis Bacon (SE7w8) – Lebenswerk"},
+        {route:"krankheitsportraets-christoph-kolumbus", label:"Krankheitsporträt: Christoph Kolumbus (SE7w8)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se7", label:"Subtyp-Profil SE7"},
       ])}

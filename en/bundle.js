@@ -348,6 +348,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-heinrich-heine", name:"Heinrich Heine", subtyp:"SO4w3", heading:"Heinrich Heine – Social Type 4", krankheit:"Progressive, to this day not reliably diagnosed paralysis (the 'mattress grave'), eight years bedridden", teaser:"SO4w3 – poet, 1797–1856. Paralyzed from May 1848 onward, blind in one eye, dependent on opium and morphine. Wrote and dictated until the end, including the poetry collection 'Romanzero'. Died on February 17, 1856, in Paris, without ever rising from bed again." , land:"Germany/France", gender:"m", jahre:"1797–1856"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
+  { route:"krankheitsportraets-christoph-kolumbus", name:"Christopher Columbus", subtyp:"SE7w8", heading:"Christopher Columbus – Self-Preservation Type 7", krankheit:"Chronic, recurring joint inflammation (likely reactive arthritis/Reiter's syndrome) with fever spells and temporary blindness, ultimately fatal", teaser:"SE7w8 – navigator, c. 1451–1506. Recurring joint pain, fever, and bleeding eyes from 1498 on, yet undertook a fourth Atlantic crossing in 1502 regardless, died in 1506 from the long-term effects, never easing off." , land:"Italy/Spain", gender:"m", jahre:"c. 1451–1506"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
@@ -50336,12 +50337,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Carrying on despite a serious diagnosis – in this group, the actual activity often ends only with death itself, not already with the diagnosis.",
-    beispiele: ["Larry King", "Francis Bacon", "Junko Tabei", "Mariah Carey"],
+    beispiele: ["Larry King", "Francis Bacon", "Junko Tabei", "Mariah Carey", "Christopher Columbus"],
     fingerabdruecke: [
       {
         titel: "Activity to the literal last moment, regardless of diagnosis",
         beschreibung: "The self-preservation Seven shows, in several cases, a tendency to continue its accustomed activity until the end of life rather than submit to the illness.",
-        beleg: "Junko Tabei, who kept climbing mountains despite peritoneal cancer, almost until her death; Larry King, who survived an entire chain of heart disease, cancer, and a stroke over decades and kept returning to the studio, before ultimately dying of COVID-19 sepsis."
+        beleg: "Junko Tabei, who kept climbing mountains despite peritoneal cancer, almost until her death; Larry King, who survived an entire chain of heart disease, cancer, and a stroke over decades and kept returning to the studio, before ultimately dying of COVID-19 sepsis; Christopher Columbus, who despite eight years of progressive joint inflammation still undertook a fourth Atlantic crossing in 1502 and fought relentlessly for his titles until his death."
       }
     ]
   },
@@ -62387,6 +62388,177 @@ function franzLisztKrankheitsportraetPage() {
   `);
 }
 
+function christophKolumbusKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christoph-kolumbus-portrait.jpg" alt="Christopher Columbus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Christopher Columbus</p>
+        <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight-wing · c. 1451–1506</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Christopher Columbus</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-christoph-kolumbus">portrait under Famous Personalities</a>
+        in this Compass – that page covers his years of provision before his first Atlantic
+        crossing and his hardness as governor. This portrait turns to a chapter only touched
+        on there: a tormenting, never fully clarified joint disease that increasingly gripped
+        him in his final eight years – and that never once stopped him from undertaking a
+        fourth, final Atlantic crossing.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Columbus</strong> is classified as the <strong>self-preservation Seven with
+        Eight-wing</strong>. Naranjo called this subtype the "hidden Eight": a Seven that
+        combines practical foresight with the assertiveness and hardness of the Eight. It was
+        exactly this combination of tenacious, years-long provision and a refusal to be
+        deterred by physical limits that shaped his relationship to his own illness as well.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A sudden attack in the summer of 1498:</strong>
+        During his third voyage, Columbus, then forty-one, was struck by severe pains in his
+        legs accompanied by high fever – contemporaries called it "gout," though the pattern
+        of complaints was unusual for that condition.</p>
+        <p class="vb-intro"><strong>b) Bleeding, inflamed eyes six weeks later:</strong>
+        A few weeks after the first attack, Columbus's eyes became inflamed and began to
+        bleed, his eyesight noticeably deteriorating – a symptom complex modern physicians
+        retrospectively interpret as possible Reiter's syndrome, a reactive arthritis
+        following a bacterial infection he may have picked up on one of his voyages.</p>
+        <p class="vb-intro"><strong>c) First confinement to bed amid colonial administration:</strong>
+        At precisely the moment Hispaniola was shaken by uprisings and administrative chaos,
+        Columbus was at times too ill to conduct affairs of state himself – a first, forced
+        break in his otherwise unbroken drive.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Recurring flare-ups rather than a single episode:</strong>
+        The joint pain returned again and again over the following years, with phases of
+        relative improvement followed by renewed, often weeks-long attacks – a pattern that
+        continued until his death.</p>
+        <p class="vb-intro"><strong>b) Few documented complaints, much documented activity:</strong>
+        In Columbus's own letters to the Spanish crown, his own illness takes up strikingly
+        little space compared to extensive accounts of his rights, claims, and the next
+        planned undertakings.</p>
+        <p class="vb-intro"><strong>c) A body that increasingly could not keep up:</strong>
+        Contemporaries described Columbus in his final years as aged and marked – a striking
+        contrast to the energetic navigator of earlier years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The return in chains in 1500 as an additional strain:</strong>
+        Shortly after the first severe flare-ups, Columbus was removed as governor over
+        complaints of tyranny and brought back to Spain in chains – a humiliation that struck
+        an already weakened body.</p>
+        <p class="vb-intro"><strong>b) The fourth voyage despite advanced illness:</strong>
+        Rather than resting, Columbus pressed in 1502, at fifty-one and with markedly impaired
+        mobility, for a fourth Atlantic crossing – against the advice of those who knew his
+        condition.</p>
+        <p class="vb-intro"><strong>c) Bedridden for months off the Caribbean coast:</strong>
+        During this final voyage, Columbus was at times so severely marked by fever and joint
+        pain that he could no longer leave the command deck and issued orders lying down.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A year stranded and ill on Jamaica:</strong>
+        After losing his ships, Columbus was stranded on Jamaica for nearly a year in
+        1503/04 – marked by fever spells and joint pain, while simultaneously having to put
+        down a mutiny among his own crew.</p>
+        <p class="vb-intro"><strong>b) Return to Spain, but no end to the fight:</strong>
+        After returning in November 1504, Columbus was severely weakened physically – yet
+        rather than withdrawing, he spent his last year and a half relentlessly fighting for
+        the restoration of his contractually secured titles and revenues.</p>
+        <p class="vb-intro"><strong>c) Death on May 20, 1506, in Valladolid:</strong>
+        Columbus died at around fifty-five, likely from the long-term effects of years of
+        joint inflammation combined with heart failure – convinced to the last that he had
+        found a sea route to Asia, not a new continent.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that ignored its own weakness too:</strong>
+        The same assertiveness that carried Columbus through years of rejection at European
+        courts and through mutinies at sea also led him to disregard his own physical warning
+        signs – a fourth voyage despite advanced illness was, for him, not a question but a
+        given.</p>
+        <p class="vb-intro"><strong>b) Provision for the territory, not for the body:</strong>
+        The self-preservation Seven normally secures itself through practical foresight – in
+        Columbus, that foresight was directed almost exclusively at titles, contracts, and
+        claims, hardly ever at his own health, which became an afterthought.</p>
+        <p class="vb-intro"><strong>c) The fight for recognition as the last remaining territory:</strong>
+        After losing his governorship, all of the SP7w8's energy shifted to the fight for the
+        restoration of his rights – with an intransigence that not even his own visibly
+        declining body could slow.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that never became a reason to withdraw:</strong>
+        For eight years, recurring joint inflammation, fever spells, and periods of near
+        blindness accompanied Columbus – without his ever drawing the conclusion that he
+        should limit his undertakings or allow himself rest.</p>
+        <p class="vb-intro"><strong>b) A death that became an emblem of an unyielding life:</strong>
+        Columbus died not in retirement but in the midst of fighting for his rights – a
+        territory that, like his geographic one during his lifetime, he did not want to give
+        up to his last breath.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a joint disease?</strong>
+        For a self-preservation Seven with Eight-wing, whose strength traditionally lies in
+        physical robustness and practical mobility, a progressive, mobility-limiting joint
+        disease strikes a sensitive point: it attacks precisely the capacity that otherwise
+        defines this subtype – to remain vigorous and unrestrictedly capable of action. This
+        reading is explored in more depth in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean the self-preservation Seven's pattern inevitably leads to such
+        illnesses – <strong>every person can develop any illness, regardless of subtype.</strong>
+        What Columbus's case can show is a pattern that stands out again and again in
+        practice wherever territorial defense runs without a brake – one possible explanation
+        among many, not a verdict. The corresponding condition will be developed step by step
+        in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
+        Columbus did not know his own pattern – the self-preservation Seven with Eight-wing
+        defends its claimed territory, whether geographic or contractual, unrelentingly even
+        once the body itself has long since set limits, and that is exactly what drove him to
+        undertake a fourth ocean crossing with advanced illness and to fight for his titles
+        until death rather than ease off. Someone who does not recognize their own drive
+        never to relinquish a claimed territory underestimates how much it wears down their
+        own body.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Columbus's</strong> final eight years, the self-preservation Seven with
+        Eight-wing reveals itself in its most unyielding form: a progressive, rarely voiced
+        joint disease that prevented neither a fourth Atlantic crossing nor the years-long
+        fight for his own rights. The gorilla that defends its territory to its final
+        breath – even once its own body can no longer keep up.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8) – life's work"},
+        {route:"krankheitsportraets-francis-bacon", label:"Illness Portrait: Francis Bacon (SP7w8)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}
+
 function francisBaconKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -62547,6 +62719,7 @@ function francisBaconKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8) – life's work"},
+        {route:"krankheitsportraets-christoph-kolumbus", label:"Illness Portrait: Christopher Columbus (SP7w8)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se7", label:"Subtype Profile SE7"},
       ])}
@@ -108828,6 +109001,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
       "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
+      "krankheitsportraets-christoph-kolumbus": christophKolumbusKrankheitsportraetPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,
