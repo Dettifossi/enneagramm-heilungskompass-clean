@@ -26241,7 +26241,7 @@ function jeanPaulSartrePortraitPage() {
 
         <h2 class="vb-section">3. The Five-Wing: The Struggle as a Philosophical System</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical sharpness not merely to live through its own burning struggle, but to translate it into a fully worked-out structure of thought. In 1943 Sartre published "Being and Nothingness," his major philosophical work &ndash; more than 700 pages that frame consciousness as radical freedom and as a constant struggle with its own nothingness, built on Kant, Hegel, Kierkegaard, Husserl, and Heidegger, yet condensed into a distinct system of his own.</p>
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical sharpness not merely to live through its own burning struggle, but to translate it into a fully worked-out structure of thought. In 1943 Sartre published "Being and Nothingness," his major philosophical work &ndash; more than 700 pages that frame consciousness as radical freedom and as a constant struggle with its own nothingness, built on Kant (SO6w5), Hegel (SO5w6), Kierkegaard (SE2w1), Husserl, and Heidegger, yet condensed into a distinct system of his own.</p>
           <p class="vb-intro">The Five-wing also showed in the capacity for withdrawal with which Sartre worked on his oeuvre for decades &ndash; often fueled by amphetamines to sustain the concentration needed for hours-long, solitary writing sessions. What a pure SX4 lives through as raw intensity, the Five-wing turned in Sartre into one of the most influential philosophical systems of the 20th century.</p>
         </blockquote>
 
