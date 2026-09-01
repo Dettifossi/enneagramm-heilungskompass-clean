@@ -1572,10 +1572,10 @@ export function franciscoDeGoyaPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Chihuahua, dessen Blick man leicht mit dem eines Löwen verwechselt</h2>
+        <h2 class="vb-section">1. Der Chihuahua aus dem armen Dorf, der bis zum Hof aufstieg</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und kennt dieses Verhältnis nicht. Er tritt der weit größeren Bedrohung ungerührt entgegen, bellt lauter, als seine Größe erwarten lässt, und weicht keinen Schritt zurück. Francisco José de Goya y Lucientes wurde 1746 in Fuendetodos, einem armen aragonesischen Dorf, als Sohn eines Vergolders geboren &ndash; ein bescheidener Anfang, aus dem er sich über Jahrzehnte bis zum Ersten Hofmaler der spanischen Krone hocharbeitete.</p>
-          <p class="vb-intro">Schon sein Frühwerk zeigt einen Mann, der sich nicht mit dem zufriedengibt, was von ihm erwartet wird: Er bewarb sich mehrfach erfolglos an der Königlichen Akademie, bevor er über Umwege &ndash; als Karikaturist für königliche Wandteppich-Vorlagen &ndash; endlich Fuß fasste. Wer sein Spätwerk kennt, den Blick auf den Selbstporträts, der oft mit dem einer sexuellen Acht verwechselt wird, ahnt schon hier: Dieser Chihuahua funkelt heller, als seine bescheidene Herkunft vermuten lässt.</p>
+          <p class="vb-intro">Schon sein Frühwerk zeigt einen Mann, der sich nicht mit dem zufriedengibt, was von ihm erwartet wird: Er bewarb sich mehrfach erfolglos an der Königlichen Akademie, bevor er über Umwege &ndash; als Karikaturist für königliche Wandteppich-Vorlagen &ndash; endlich Fuß fasste. Dieser Chihuahua funkelt heller, als seine bescheidene Herkunft vermuten lässt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Vier: Hassenergie, die nach außen schleudert</h2>
@@ -1599,7 +1599,7 @@ export function franciscoDeGoyaPortraitPage() {
         <h2 class="vb-section">5. Das Vermächtnis: Der Chihuahua, der die Wände seines Hauses mit dem Schrecken bemalte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1819, mit 72 Jahren, zog Goya in ein Landhaus außerhalb Madrids, das schon vor seinem Einzug den Namen "Quinta del Sordo" (Haus des Tauben) trug &ndash; ein Zufall, der zum Sinnbild seiner letzten Lebensjahre wurde. Dort schuf er, ungefragt und nie für eine Öffentlichkeit gedacht, die 14 "Schwarzen Gemälde" direkt auf die Wände seines Ess- und Wohnzimmers &ndash; darunter das berühmte "Saturn verschlingt seinen Sohn": Bilder von schonungsloser, fast unerträglicher Intensität, gemalt für niemanden außer sich selbst.</p>
-          <p class="vb-intro">Goya starb 1828 im Exil in Bordeaux, wohin er sich nach der Rückkehr der absolutistischen Herrschaft in Spanien zurückgezogen hatte, mit 82 Jahren. Der Chihuahua, dessen Blick man so leicht mit dem eines Löwen verwechselt, hatte sein ganzes Leben lang nichts beschönigt &ndash; weder die Krone, noch den Krieg, noch die eigene, alternde Dunkelheit. Genau das macht sein Werk bis heute so unmittelbar: Es kennt keine Halbheiten.</p>
+          <p class="vb-intro">Goya starb 1828 im Exil in Bordeaux, wohin er sich nach der Rückkehr der absolutistischen Herrschaft in Spanien zurückgezogen hatte, mit 82 Jahren. Dieser Chihuahua hatte sein ganzes Leben lang nichts beschönigt &ndash; weder die Krone, noch den Krieg, noch die eigene, alternde Dunkelheit. Genau das macht sein Werk bis heute so unmittelbar: Es kennt keine Halbheiten.</p>
         </blockquote>
 
       </div>

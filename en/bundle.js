@@ -33487,10 +33487,10 @@ function franciscoDeGoyaPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Chihuahua Whose Stare Is Easily Mistaken for a Lion's</h2>
+        <h2 class="vb-section">1. The Chihuahua From a Poor Village Who Rose to the Royal Court</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Chihuahua</strong> is the smallest dog breed in the world &ndash; and knows nothing of that proportion. It faces a far greater threat unmoved, barks louder than its size would suggest, and does not back down. Francisco José de Goya y Lucientes was born in 1746 in Fuendetodos, a poor Aragonese village, the son of a gilder &ndash; a modest beginning from which he worked his way, over decades, to First Court Painter of the Spanish crown.</p>
-          <p class="vb-intro">Even his early work shows a man unwilling to settle for what was expected of him: he applied unsuccessfully to the Royal Academy several times before finally gaining a foothold by a roundabout route &ndash; as a cartoonist for royal tapestry designs. Anyone who knows his late work, the gaze in his self-portraits often mistaken for that of a sexual Eight, already senses it here: this Chihuahua burns brighter than its modest origins would suggest.</p>
+          <p class="vb-intro">Even his early work shows a man unwilling to settle for what was expected of him: he applied unsuccessfully to the Royal Academy several times before finally gaining a foothold by a roundabout route &ndash; as a cartoonist for royal tapestry designs. This Chihuahua burns brighter than its modest origins would suggest.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Sexual Four: Hate Energy Hurled Outward</h2>
@@ -33514,7 +33514,7 @@ function franciscoDeGoyaPortraitPage() {
         <h2 class="vb-section">5. The Legacy: The Chihuahua Who Painted His Own Walls With Terror</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1819, at age 72, Goya moved into a country house outside Madrid that already bore the name "Quinta del Sordo" (House of the Deaf Man) before he ever moved in &ndash; a coincidence that became the emblem of his final years. There, unasked and never intended for any public, he created the 14 "Black Paintings" directly on the walls of his dining and sitting rooms &ndash; among them the famous "Saturn Devouring His Son": images of unsparing, almost unbearable intensity, painted for no one but himself.</p>
-          <p class="vb-intro">Goya died in 1828 in exile in Bordeaux, where he had withdrawn after the return of absolutist rule in Spain, at age 82. The Chihuahua whose gaze is so easily mistaken for a lion's had, his whole life long, embellished nothing &ndash; not the crown, not the war, not his own aging darkness. That is exactly what keeps his work so immediate today: it knows no half-measures.</p>
+          <p class="vb-intro">Goya died in 1828 in exile in Bordeaux, where he had withdrawn after the return of absolutist rule in Spain, at age 82. This Chihuahua had, his whole life long, embellished nothing &ndash; not the crown, not the war, not his own aging darkness. That is exactly what keeps his work so immediate today: it knows no half-measures.</p>
         </blockquote>
 
       </div>
