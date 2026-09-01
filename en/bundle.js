@@ -61496,8 +61496,8 @@ function hannahArendtKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Hannah Arendt</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-hannah-arendt">famous-personality portrait</a>
-        – that page covers her political thinking and her type structure in general. This
-        page goes deeper into a chapter mentioned there only in passing: a lifelong chain
+        – that page covers her political thinking and her type structure in general. Here, an
+        aspect that page barely touched on moves to the foreground: a lifelong chain
         smoker whose first, nearly fatal heart attack in 1974 did not make her quit – with
         fatal consequences a year and a half later.
       </p>
@@ -66383,8 +66383,8 @@ function franciscoDeGoyaKrankheitsportraetPage() {
         <strong>Francisco de Goya</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-francisco-de-goya">famous-personality portrait</a>
         – that page covers his rise to First Court Painter of the Spanish crown and his
-        uncompromising artistic honesty. This page goes deeper into a chapter mentioned there
-        only in passing: a severe, to this day not fully explained illness in 1793 that left
+        uncompromising artistic honesty. Here, a chapter that page barely touched on takes
+        center stage: a severe, to this day not fully explained illness in 1793 that left
         him deaf, and a second life-threatening crisis in 1819 that he captured directly in one
         of his most striking paintings.
       </p>

@@ -3666,8 +3666,8 @@ export function hannahArendtKrankheitsportraetPage() {
         <strong>Hannah Arendt</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-hannah-arendt">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihr politisches Denken und ihre
-        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
-        gestreift wird: eine lebenslange Kettenraucherin, deren erster, fast tödlicher
+        Typstruktur im Allgemeinen. Hier rückt ein Aspekt in den Vordergrund, der dort kaum
+        Erwähnung findet: eine lebenslange Kettenraucherin, deren erster, fast tödlicher
         Herzinfarkt 1974 sie nicht zum Aufhören brachte – mit fatalen Folgen anderthalb Jahre
         später.
       </p>

@@ -3652,10 +3652,11 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
         <strong>Francisco de Goya</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-francisco-de-goya">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seinen Aufstieg zum Ersten Hofmaler der
-        spanischen Krone und seine kompromisslose künstlerische Wahrheit. Diese Seite vertieft
-        ein Kapitel, das dort nur gestreift wird: eine schwere, bis heute nicht restlos geklärte
-        Erkrankung 1793, die ihn taub zurückließ, und eine zweite lebensbedrohliche Krise 1819,
-        die er in einem seiner eindringlichsten Gemälde direkt festhielt.
+        spanischen Krone und seine kompromisslose künstlerische Wahrheit. Hier steht ein Kapitel
+        im Mittelpunkt, das dort nur eine Randbemerkung blieb: eine schwere, bis heute nicht
+        restlos geklärte Erkrankung 1793, die ihn taub zurückließ, und eine zweite
+        lebensbedrohliche Krise 1819, die er in einem seiner eindringlichsten Gemälde direkt
+        festhielt.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
