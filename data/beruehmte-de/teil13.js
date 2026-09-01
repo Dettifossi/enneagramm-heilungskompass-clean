@@ -1621,6 +1621,7 @@ export function simoneDeBeauvoirPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
         {route:"beruehmte-eckhard-freise", label:"Portr\u00e4t: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portr\u00e4t: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-hannah-arendt", label:"Portr\u00e4t: Hannah Arendt (SO5w4)"},
       ])}
     </div>
   `);

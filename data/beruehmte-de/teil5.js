@@ -1561,3 +1561,70 @@ export function willyBrandtPortraitPage() {
     </div>
   `);
 }
+
+export function hannahArendtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hannah-arendt-portrait.jpg" alt="Hannah Arendt \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Arendt</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Politische Theoretikerin, 1906&ndash;1975, geboren in Hannover &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der aus dem Internierungslager entkam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; hochintelligent, mit acht Armen gleichzeitig greifend, dabei kaum vollst\u00e4ndig zu fassen. Hannah Arendt wurde 1906 in Hannover geboren und ging 1924 an die Universit\u00e4t Marburg, um bei Martin Heidegger zu studieren &ndash; eine Begegnung, die in eine kurze, aber intensive Liebesbeziehung m\u00fcndete und ihr Denken lebenslang pr\u00e4gte.</p>
+          <p class="vb-intro">1933 musste sie, nachdem Hitler die Macht \u00fcbernommen hatte, mit einer List der Polizei entkommen und floh mit ihrer Mutter nach Paris. 1937 wurde ihr die deutsche Staatsb\u00fcrgerschaft entzogen &ndash; fast vierzehn Jahre blieb sie staatenlos. Als die Wehrmacht 1940 Frankreich \u00fcberfiel, wurde sie im Lager Gurs interniert, aus dem ihr w\u00e4hrend des chaotischen Zusammenbruchs der franz\u00f6sischen Verwaltung die Flucht gelang. 1941 erreichten sie und ihr Mann gemeinsam die Vereinigten Staaten. Der Oktopus entkommt nicht durch Kraft, sondern durch die F\u00e4higkeit, jede noch so enge \u00d6ffnung zu finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Denken ohne Gel\u00e4nder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo (selbst ein sozialer F\u00fcnfer, aber mit dominantem Sechserfl\u00fcgel statt Viererfl\u00fcgel) nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\u00fcpfung von Wissen mit Zugeh\u00f6rigkeit und Ansehen. Arendt selbst beschrieb ihre eigene Denkweise als "Denken ohne Gel\u00e4nder": eine bewusste Weigerung, sich auf traditionelle religi\u00f6se, moralische oder philosophische St\u00fctzen zu verlassen, und stattdessen jedes Problem neu, von Grund auf zu durchdenken.</p>
+          <p class="vb-intro">Ihre Hauptwerke &ndash; "Elemente und Urspr\u00fcnge totaler Herrschaft" (1951), "Vita activa" (1958) und "Eichmann in Jerusalem" (1963) &ndash; behandeln radikal unterschiedliche Fragen: Totalitarismus, das aktive politische Leben, die Natur des B\u00f6sen. Der Oktopus griff mit mehreren Armen gleichzeitig, ohne sich in einem einzigen Fachgebiet zu ersch\u00f6pfen &ndash; Philosophin, politische Theoretikerin, Journalistin, Historikerin in einer Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Nur die Liebe zu Freunden, nicht zum Kollektiv</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der sozialen F\u00fcnf eine zus\u00e4tzliche Ebene: das Bed\u00fcrfnis, Erkenntnis nicht abstrakt-distanziert zu formulieren, sondern mit der eigenen, oft unbequemen pers\u00f6nlichen Wahrheit zu verbinden. 1963 l\u00f6ste "Eichmann in Jerusalem" mit der ber\u00fchmten Formel von der "Banalit\u00e4t des B\u00f6sen" einen Sturm der Entr\u00fcstung aus &ndash; auch im engsten j\u00fcdischen Freundeskreis.</p>
+          <p class="vb-intro">Der Historiker Gershom Scholem, jahrelang eng mit ihr befreundet, warf ihr \u00f6ffentlich fehlende "Ahavath Yisrael" (Liebe zum j\u00fcdischen Volk) vor. Arendts Antwort war reiner Viererfl\u00fcgel: "Ich habe niemals in meinem Leben ein Volk oder ein Kollektiv 'geliebt' \u2026 Ich liebe in der Tat 'nur' meine Freunde, und die einzige Art von Liebe, die ich kenne und an die ich glaube, ist die Liebe zu Personen." Das ist keine k\u00fchle F\u00fcnfer-Distanz, sondern eine zutiefst pers\u00f6nliche, identit\u00e4tsbezogene Position, f\u00fcr die sie den Bruch mit einem langj\u00e4hrigen Freund in Kauf nahm, statt sie zur\u00fcckzunehmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Ehe mit Heinrich Bl\u00fccher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1940 heiratete Arendt Heinrich Bl\u00fccher, einen formal ungebildeten Berliner Arbeiter und ehemaligen Spartakisten &ndash; eine Verbindung, die auf den ersten Blick nicht zu einer der angesehensten Intellektuellen ihrer Zeit zu passen schien. Doch gerade das zeigt den Viererfl\u00fcgel: Sie w\u00e4hlte nicht nach gesellschaftlicher Konvention oder intellektueller Statussymmetrie, sondern nach echter pers\u00f6nlicher Verbindung.</p>
+          <p class="vb-intro">Die Beziehung zu Heidegger selbst blieb lebenslang ungel\u00f6st emotional aufgeladen &ndash; nie zu einer rein sachlichen, abgeschlossenen Episode verarbeitet, sondern eine Wunde und Quelle zugleich, die ihr Denken \u00fcber Macht, Verf\u00fchrung und moralisches Versagen bis zuletzt mitpr\u00e4gte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen F\u00fcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 zeigt sich in Arendts Mut, eine unbequeme, pers\u00f6nlich exponierte Wahrheit zu ver\u00f6ffentlichen und trotz heftigster \u00f6ffentlicher Kritik nicht zur\u00fcckzunehmen &ndash; "Eichmann in Jerusalem" bleibt bis heute eine der einflussreichsten und meistdiskutierten Deutungen des Holocaust.</p>
+          <p class="vb-intro">Der Schatten der F\u00fcnf ist der <strong>Geiz</strong> &ndash; bei Arendt zeigte er sich nicht als Zur\u00fcckhalten von Wissen, sondern als bewusste Begrenzung ihrer emotionalen Zugeh\u00f6rigkeit auf einen engen Kreis pers\u00f6nlicher Freunde, w\u00e4hrend sie jede Verpflichtung gegen\u00fcber einem gr\u00f6\u00dferen Kollektiv &ndash; und sei es das eigene Volk &ndash; explizit ablehnte. Das war f\u00fcr viele Zeitgenossen kaum nachvollziehbar und kostete sie Freundschaften, die sie nie zur\u00fcckgewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, dessen letztes Blatt nur eine \u00dcberschrift trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Frage <em>Habe ich genug, um mich zu zeigen?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile.</em> Arendt lebte diesen Weg auf ihre eigene Art: Sie teilte ihr unfertigstes, verletzlichstes Denken \u00f6ffentlich, ohne es vorher zu gl\u00e4tten.</p>
+          <p class="vb-intro">Am 4. Dezember 1975 starb Hannah Arendt in New York an einem Herzinfarkt &ndash; ihrem zweiten innerhalb von neunzehn Monaten &ndash; kurz nachdem sie G\u00e4sten in ihrer Wohnung nach dem Essen Kaffee serviert hatte. Auch Albert Einstein, mit dem sie das Muster der sozialen F\u00fcnf teilt, starb letztlich an einem Versagen des Herz-Kreislauf-Systems, einem gerissenen Bauchaortenaneurysma &ndash; eine Parallele, die keinen urs\u00e4chlichen Zusammenhang mit dem Subtyp belegt, aber auff\u00e4llt. In ihrer Schreibmaschine steckte ein Blatt mit der \u00dcberschrift "Judging" (Urteilen) und zwei Epigraphen &ndash; der dritte, geplante Teil ihres letzten Werks "Vom Leben des Geistes" blieb f\u00fcr immer unvollendet. Der Oktopus, der als junge Frau aus einem Internierungslager entkam, hinterlie\u00df ein Denken, das bis heute ohne Gel\u00e4nder weitergeht &ndash; genau dort, wo sie es hatte stehen lassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-claudio-naranjo", label:"Portr\u00e4t: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portr\u00e4t: Simone de Beauvoir (SO5w6) \u2013 Zeitgenossin mit anderem Fl\u00fcgel"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portr\u00e4t: Jean-Paul Sartre (SX4w5)"},
+        {route:"beruehmte-albert-einstein", label:"Portr\u00e4t: Albert Einstein (SO5w4) \u2013 auffallend \u00e4hnliche Gesichtsz\u00fcge"},
+      ])}
+    </div>
+  `);
+}

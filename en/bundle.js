@@ -1498,6 +1498,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Claudio Naranjo – Social Type 5",
     teaser:"SO5w4 · 1932–2019. Psychiatrist, author, Enneagram and meditation teacher. Founder of the 27-subtype system – the foundation upon which all modern subtype understanding rests. The octopus that mapped the human soul with eight arms. Animal correspondence: Octopus.",
     land:"Germany", tags:["Wissenschaft"] , gender:"m"},
+{ route:"beruehmte-hannah-arendt", name:"Hannah Arendt", added:"2026-09-01", subtyp:"SO5w4",
+    heading:"Hannah Arendt – Social Type 5",
+    teaser:"SO5w4 · 1906–1975, born in Hanover. Political theorist, Eichmann in Jerusalem, The Origins of Totalitarianism. Escaped the Gurs internment camp in 1940, stateless for fourteen years, broke with Gershom Scholem after 'the banality of evil'. Animal correspondence: Octopus.",
+    land:"Germany", tags:["Philosophy","History"], gender:"f"},
 { route:"beruehmte-leonardo-da-vinci", name:"Leonardo da Vinci", added:"2026-08-09", subtyp:"SO5w4",
     heading:"Leonardo da Vinci – Social Type 5",
     teaser:"SO5w4 · 1452–1519. Italian polymath, painter, inventor. Mona Lisa, Vitruvian Man, over 13,000 pages of notebooks. The octopus that explored art, science, and technology simultaneously with eight arms of thought.",
@@ -23268,6 +23272,7 @@ function albertEinsteinPortraitPage() {
         {route:"astrologie-albert-einstein", label:"Astrology Portrait: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – strikingly similar facial features despite different gender"},
       ])}
     </div>
   `);
@@ -41745,7 +41750,75 @@ function claudioNaranjoPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-gertrude-elion", label:"Portrait: Gertrude Belle Elion (SO5w4)"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
         {route:"krankheitsportraets-claudio-naranjo", label:"Illness Portrait: Dr. Claudio Naranjo – Parkinson's"},
+      ])}
+    </div>
+  `);
+}
+
+function hannahArendtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hannah-arendt-portrait.jpg" alt="Hannah Arendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Arendt</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Political theorist, 1906&ndash;1975, born in Hanover &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Who Escaped an Internment Camp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; highly intelligent, grasping with eight arms at once, yet hard to fully pin down. Hannah Arendt was born in 1906 in Hanover and went to the University of Marburg in 1924 to study under Martin Heidegger &ndash; an encounter that led to a brief but intense love affair and shaped her thinking for life.</p>
+          <p class="vb-intro">In 1933, after Hitler seized power, she had to trick the police to escape and fled to Paris with her mother. In 1937 she was stripped of her German citizenship &ndash; she remained stateless for nearly fourteen years. When the Wehrmacht invaded France in 1940, she was interned at the Gurs camp, from which she escaped amid the chaotic collapse of the French administration. In 1941 she and her husband together reached the United States. The octopus does not escape through force, but through the ability to find any opening, however narrow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: Thinking Without a Banister</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo (himself a social Five, but with a dominant Six-wing rather than a Four-wing) called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing. Arendt herself described her own way of thinking as "thinking without a banister": a deliberate refusal to rely on traditional religious, moral, or philosophical supports, choosing instead to think through every problem anew, from the ground up.</p>
+          <p class="vb-intro">Her major works &ndash; "The Origins of Totalitarianism" (1951), "The Human Condition" (1958), and "Eichmann in Jerusalem" (1963) &ndash; address radically different questions: totalitarianism, active political life, the nature of evil. The octopus reached with several arms at once, without exhausting itself in a single field &ndash; philosopher, political theorist, journalist, and historian in one person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Only the Love of Friends, Not of the Collective</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Five an additional layer: the need not to formulate insight abstractly and at a distance, but to connect it to one's own, often uncomfortable personal truth. In 1963, "Eichmann in Jerusalem," with its famous phrase "the banality of evil," set off a storm of outrage &ndash; even within her closest Jewish circle of friends.</p>
+          <p class="vb-intro">The historian Gershom Scholem, a close friend of hers for years, publicly accused her of lacking "Ahavath Yisrael" (love of the Jewish people). Arendt's reply was pure Four-wing: "I have never in my life 'loved' any people or collective ... I indeed love 'only' my friends, and the only kind of love I know of and believe in is the love of persons." This is not cool Five-detachment, but a deeply personal, identity-bound position &ndash; one for which she accepted the break with a longtime friend rather than retract it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Marriage to Heinrich Blücher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1940 Arendt married Heinrich Blücher, a formally uneducated Berlin worker and former Spartacist &ndash; a match that on its face seemed an unlikely fit for one of the most respected intellectuals of her time. But that is exactly what the Four-wing reveals: she chose not by social convention or intellectual status-matching, but by genuine personal connection.</p>
+          <p class="vb-intro">Her relationship with Heidegger himself remained emotionally unresolved for the rest of her life &ndash; never processed into a purely factual, closed episode, but a wound and a source at once, one that continued to shape her thinking about power, seduction, and moral failure to the very end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 shows in Arendt's courage to publish an uncomfortable, personally exposed truth and not retract it despite the fiercest public criticism &ndash; "Eichmann in Jerusalem" remains to this day one of the most influential and most debated interpretations of the Holocaust.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong> &ndash; in Arendt, it showed not as withholding knowledge, but as a deliberate limitation of her emotional belonging to a narrow circle of personal friends, while she explicitly rejected any obligation toward a larger collective &ndash; even her own people. For many contemporaries this was hard to accept, and it cost her friendships she never regained.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Octopus Whose Last Page Bore Only a Heading</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to show myself?</em> to the insight <em>Knowledge does not grow less when I share it.</em> Arendt lived this path in her own way: she shared her most unfinished, most vulnerable thinking publicly, without smoothing it over first.</p>
+          <p class="vb-intro">On December 4, 1975, Hannah Arendt died in New York of a heart attack &ndash; her second within nineteen months &ndash; shortly after serving guests coffee at her apartment following dinner. Albert Einstein, with whom she shares the social-Five pattern, ultimately died of cardiovascular failure too, a ruptured abdominal aortic aneurysm &ndash; a parallel that proves no causal link to the subtype, but stands out nonetheless. In her typewriter was a page bearing the heading "Judging" and two epigraphs &ndash; the third, planned part of her final work, "The Life of the Mind," remained forever unfinished. The octopus who, as a young woman, escaped an internment camp left behind a way of thinking that continues to this day without a banister &ndash; exactly where she had left it standing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6) – contemporary with a different wing"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – strikingly similar facial features"},
       ])}
     </div>
   `);
@@ -49350,12 +49423,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Hannah Arendt", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle."
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle; Hannah Arendt, who did not retract her uncomfortable, personally exposed interpretation in 'Eichmann in Jerusalem' despite fierce criticism from her own circle of friends, but left it to public debate."
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",
@@ -108316,6 +108389,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-isaac-newton": isaacNewtonPortraitPage,
       "beruehmte-georg-wilhelm-friedrich-hegel": georgWilhelmFriedrichHegelPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
+      "beruehmte-hannah-arendt": hannahArendtPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,

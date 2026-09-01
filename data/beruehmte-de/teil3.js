@@ -315,6 +315,7 @@ export function claudioNaranjoPortraitPage() {
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-gertrude-elion", label:"Portr\u00e4t: Gertrude Belle Elion (SO5w4)"},
         {route:"beruehmte-bill-gates", label:"Portr\u00e4t: Bill Gates (SO5w6)"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
         {route:"krankheitsportraets-claudio-naranjo", label:"Krankheitsporträt: Dr. Claudio Naranjo – Parkinson"},
       ])}
     </div>

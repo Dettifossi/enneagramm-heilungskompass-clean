@@ -1621,6 +1621,7 @@ export function jeanPaulSartrePortraitPage() {
         {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
         {route:"beruehmte-simone-de-beauvoir", label:"Porträt: Simone de Beauvoir (SO5w6) – lebenslange Gefährtin"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
       ])}
     </div>
   `);
