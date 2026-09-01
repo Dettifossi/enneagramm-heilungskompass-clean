@@ -16046,6 +16046,7 @@ const uiText = {
       { route: "reptilienarten-der-9-typen", label: "Reptilienarten der 9 Typen" },
       { route: "schildkroetenarten-der-9-typen", label: "Schildkr\u00f6tenarten der 9 Typen" },
       { route: "fischarten-der-9-typen", label: "Fischarten der 9 Typen" },
+      { route: "fluegelbeschreibungen", label: "Flügelbeschreibungen der 9 Typen" },
       { route: "walarten-der-9-typen", label: "Walarten der 9 Typen" },
       { route: "insektenarten-der-9-typen", label: "Insektenarten der 9 Typen" },
       { route: "perspektiven", label: "Perspektiven der Mitmenschen" },
@@ -32777,6 +32778,7 @@ function enneagrammFilmeTypPage(n) {
 // NEU-Markierungen f\u00fcr Schaubilder: route \u2192 Datum des Eintrags (Badge l\u00e4uft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "fluegelbeschreibungen": "2026-09-01",
   "wahre-freiheit": "2026-09-01",
   "architektur-raumgestaltung-der-9-typen": "2026-07-31",
   "enneagramm-emotionalitaet": "2026-08-08",
@@ -40767,6 +40769,104 @@ function spirituelleUebungenPage() {
         {route:"bewusstseinsuebungen", label:"Bewusstseins\u00fcbungen"},
         {route:"heilungsweg", label:"Heilungsweg"},
         {route:"frieden-schliessen", label:"Frieden schlie\u00dfen"},
+      ])}
+    </section>
+  `);
+}
+
+function fluegelbeschreibungenPage() {
+  return shell(`
+    ${pageHeader("fluegelbeschreibungen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Enneagramm-Grundlagen</p>
+      <h1>Flügelbeschreibungen der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Kein Mensch lebt seinen Kerntyp in reiner Form. Jeder der neun Haupttypen wird durch einen der beiden benachbarten Typen im Kreis eingefärbt – den sogenannten Flügel. Dieses Schaubild zeigt für jeden Typ beide möglichen Flügel-Ausprägungen im Überblick.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/fluegelbeschreibungen/fluegelbeschreibungen.jpg"
+             alt="Flügelbeschreibungen der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Der Flügel ist einer der am häufigsten missverstandenen Bausteine des Enneagramms. Er ist kein zweiter, schwächerer Typ, der irgendwie "mitläuft", sondern eine echte Einfärbung des Kerntyps: Der eine der beiden im Kreis direkt benachbarten Typen liefert eine zusätzliche Facette, die sich mit der Grundmotivation des Haupttyps verbindet – nie ersetzt sie diese. Ein Typ 4 mit Dreierflügel bleibt durch und durch ein Vierer, nur mit einer zusätzlichen Portion Dreier-Ehrgeiz und Kontaktfreude; ein Vierer mit Fünferflügel bleibt ebenso ein Vierer, nur introvertierter und stärker beobachtend gefärbt.</p>
+        <p class="vb-intro">In aller Regel ist einer der beiden Flügel deutlich stärker ausgeprägt als der andere – oft, aber nicht immer, eindeutig erkennbar. Manche Menschen zeigen tatsächlich eine recht ausgeglichene Mischung beider Flügel, was die Typisierung zusätzlich erschwert. Wichtig bleibt dabei immer: Der Flügel verändert die Ausdrucksform der Leidenschaft, nicht die Leidenschaft selbst. Die nachfolgenden Kurzbeschreibungen orientieren sich an den etablierten Flügel-Bezeichnungen aus der englischsprachigen Enneagramm-Literatur (Riso &amp; Hudson) und an eigenen, ergänzenden Kurznamen aus der therapeutischen Praxis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 1 – Der Reformer</h2>
+        <p class="vb-intro"><strong>Flügel 9 (w9) – der Idealist ("Weltverbesserer"):</strong> introvertiert und entspannter als der reine Einser, weniger reaktiv, sucht eher die objektive, universelle Wahrheit als die persönliche Durchsetzung eigener Prinzipien. Wirkt gelassener, geduldiger, manchmal auch etwas distanzierter.</p>
+        <p class="vb-intro"><strong>Flügel 2 (w2) – der Rechtsanwalt ("Anwalt"):</strong> extrovertiert und empathischer als der reine Einser, setzt sich aktiv und mit warmem Engagement für andere Menschen und gerechte Anliegen ein. Prinzipientreue verbindet sich hier mit echter Fürsorge und persönlicher Wärme.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 2 – Der Helfer</h2>
+        <p class="vb-intro"><strong>Flügel 1 (w1) – der Diener ("Knecht"):</strong> verantwortungsbewusster und gefestigter als die reine Zwei, hilft aus Pflichtgefühl und moralischem Anspruch, nicht nur aus spontaner Zuneigung. Introvertierter, disziplinierter, mit klarerem inneren Maßstab.</p>
+        <p class="vb-intro"><strong>Flügel 3 (w3) – der Gastgeber ("Gastwirt"):</strong> erfolgreich und zuversichtlich auftretend, geselliger und sichtbarer als die reine Zwei. Fürsorge zeigt sich hier extrovertiert, charismatisch und mit spürbarem Ehrgeiz, wirkungsvoll wahrgenommen zu werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 3 – Der Macher</h2>
+        <p class="vb-intro"><strong>Flügel 2 (w2) – der Charmeur ("Herzensbrecher"):</strong> großzügiger und beziehungsorientierter als die reine Drei, nutzt persönliche Wärme und Charme als festen Bestandteil der eigenen Erfolgsstrategie. Wirkt zugänglicher, umgänglicher, sozial geschickter.</p>
+        <p class="vb-intro"><strong>Flügel 4 (w4) – der Professionelle ("Könner/Profi"):</strong> aufrichtiger und emotional zugänglicher als die reine Drei, verbindet Leistungsstreben mit echtem Tiefgang und einem stilvollen, authentisch wirkenden Selbstausdruck statt reiner Fassade.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 4 – Der Individualist</h2>
+        <p class="vb-intro"><strong>Flügel 3 (w3) – der Adelige ("Edelfrau/Edelmann"):</strong> kontaktfreudiger und konkurrenzfähiger als die reine Vier, präsentiert die eigene Einzigartigkeit mit Stil, sozialem Anspruch und einem gewissen aristokratischen Selbstbewusstsein.</p>
+        <p class="vb-intro"><strong>Flügel 5 (w5) – der Künstler ("Künstlernatur"):</strong> exzentrischer und stärker beobachtend als die reine Vier, lebt die eigene Andersartigkeit zurückgezogener, introvertierter und unkonventioneller aus – die klassische "Bohème"-Ausprägung des Typs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 5 – Der Beobachter</h2>
+        <p class="vb-intro"><strong>Flügel 4 (w4) – der Bilderstürmer ("Visionär"):</strong> kreativer und emotional zugänglicher als der reine Fünfer, bricht bewusst mit Konventionen und eigenen Denkschemata. Die Distanz des Fünfers verbindet sich hier mit der Intensität und Ausdruckskraft der Vier.</p>
+        <p class="vb-intro"><strong>Flügel 6 (w6) – der Problemlöser ("Intellektueller"):</strong> geselliger und vorsichtiger als der reine Fünfer, wird zum verlässlichen, gründlich denkenden Analytiker im Team. Wissenssammeln verbindet sich mit Sechser-Loyalität und einem stärkeren Sicherheitsbedürfnis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 6 – Der Loyale</h2>
+        <p class="vb-intro"><strong>Flügel 5 (w5) – der Verteidiger ("Befürworter"):</strong> analytischer und zurückhaltender als der reine Sechser, verteidigt Überzeugungen mit intellektueller Schärfe und innerer Distanz statt über spürbare Gruppenzugehörigkeit.</p>
+        <p class="vb-intro"><strong>Flügel 7 (w7) – der Kumpel ("Kamerad"):</strong> energischer und optimistischer als der reine Sechser, wird zum unterhaltsamen, geselligen und verlässlichen Freund fürs Leben. Wachsamkeit verbindet sich hier mit spürbarer Leichtigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 7 – Der Enthusiast</h2>
+        <p class="vb-intro"><strong>Flügel 6 (w6) – der Entertainer:</strong> wohlüberlegter und konzentrierter als der reine Siebener, verbindet Begeisterungsfähigkeit mit Sechser-Verantwortungsbewusstsein. Unterhält mit Substanz, nicht nur mit Tempo und Oberfläche.</p>
+        <p class="vb-intro"><strong>Flügel 8 (w8) – der Realist:</strong> geradliniger und kraftvoller als der reine Siebener, setzt Ideen pragmatisch, energisch und durchsetzungsstark um. Tatendrang verbindet sich hier mit Achter-Bodenständigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 8 – Der Herausforderer</h2>
+        <p class="vb-intro"><strong>Flügel 7 (w7) – der Freigeist ("Freigeist/Macher"):</strong> übermütiger und materialistischer als der reine Achter, wird zum unkonventionellen, unternehmerisch denkenden Selfmade-Menschen. Durchsetzungskraft verbindet sich mit Siebener-Vielseitigkeit und Abenteuerlust.</p>
+        <p class="vb-intro"><strong>Flügel 9 (w9) – der Sanftmütige ("Brummbär"):</strong> herzlicher und kooperativer als der reine Achter, wirkt nach außen ruhiger und geduldiger – bleibt innerlich aber ebenso kraftvoll: sanft, solange man ihn nicht unnötig reizt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Typ 9 – Der Friedensstifter</h2>
+        <p class="vb-intro"><strong>Flügel 1 (w1) – der Träumer ("Idealist"):</strong> idealistischer und ordnungsliebender als der reine Neuner, verfolgt eigene Ideale still, aber beharrlich – kann dabei, anders als die reine Neun, auch passiv-aggressive Züge zeigen.</p>
+        <p class="vb-intro"><strong>Flügel 8 (w8) – der Schiedsrichter ("Kampfrichter"):</strong> eigensinniger und entschiedener als der reine Neuner, vermittelt in Konflikten, kann bei Bedarf aber auch klar, bestimmt und durchsetzungsfähig auftreten – die Ausgleichsfähigkeit der Neun trifft hier auf Achter-Stärke.</p>
+      </div>
+
+      <div style="max-width:100%;margin-top:1.8rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Bücher zur Vertiefung (2)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+            <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
+          </div>
+        </details>
+      </div>
+      ${relatedLinks([
+        {route:"tritypen", label:"Tritypen"},
+        {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
+        {route:"symmetrie-des-enneagramms", label:"Symmetrie des Enneagramms"},
+        {route:"lookalike-typen", label:"Lookalike-Typen"},
       ])}
     </section>
   `);
@@ -74529,6 +74629,7 @@ function render() {
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
     "wahre-freiheit": wahreFreiheitPage,
+    "fluegelbeschreibungen": fluegelbeschreibungenPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,

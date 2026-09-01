@@ -3156,6 +3156,7 @@ text.nav = [
     { route: "essverhalten-der-9-typen", label: "Eating Behavior of the 9 Types" },
     { route: "eulenarten-der-9-typen", label: "Owl Species of the 9 Types" },
     { route: "fischarten-der-9-typen", label: "Fish Species of the 9 Types" },
+    { route: "fluegelbeschreibungen", label: "Wing Descriptions of the 9 Types" },
     { route: "flugzeugmodelle-der-9-typen", label: "Airplane Models of the 9 Types" },
     { route: "frisuren-der-9-typen", label: "Hairstyles of the 9 Types" },
     { route: "froscharten-der-9-typen", label: "Frog Species of the 9 Types" },
@@ -15686,6 +15687,104 @@ function spirituelleUebungenPage() {
         {route:"bewusstseinsuebungen", label:"Awareness Exercises"},
         {route:"heilungsweg", label:"Path to Healing"},
         {route:"frieden-schliessen", label:"Making Peace"},
+      ])}
+    </section>
+  `);
+}
+
+function fluegelbeschreibungenPage() {
+  return shell(`
+    ${pageHeader("fluegelbeschreibungen")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Enneagram Fundamentals</p>
+      <h1>Wing Descriptions of the 9 Enneagram Types</h1>
+      <p class="lead-small">No one lives their core type in pure form. Each of the nine main types is colored by one of its two neighboring types on the circle &mdash; known as the wing. This chart gives an overview of both possible wing expressions for every type.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/fluegelbeschreibungen/fluegelbeschreibungen.jpg"
+             alt="Wing Descriptions of the 9 Enneagram Types"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The wing is one of the most commonly misunderstood building blocks of the Enneagram. It is not a second, weaker type somehow "tagging along," but a genuine coloring of the core type: whichever of the two directly neighboring types on the circle is stronger adds an extra facet that blends with the core type's basic motivation &mdash; it never replaces it. A Type 4 with a Three-wing remains a Four through and through, just with an added dose of Three's ambition and sociability; a Four with a Five-wing remains just as much a Four, only more introverted and more strongly colored by observation.</p>
+        <p class="vb-intro">As a rule, one of the two wings is noticeably more pronounced than the other &mdash; often, though not always, clearly identifiable. Some people genuinely show a fairly balanced mix of both wings, which makes typing more difficult. What always remains true: the wing changes the expression of the passion, not the passion itself. The short descriptions below follow the established wing names from the English-language Enneagram literature (Riso &amp; Hudson) alongside additional short names drawn from therapeutic practice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 1 – The Reformer</h2>
+        <p class="vb-intro"><strong>Wing 9 (w9) – The Idealist:</strong> more introverted and relaxed than the pure One, less reactive, seeking the objective, universal truth rather than personally enforcing one's own principles. Comes across as calmer, more patient, sometimes a touch more detached.</p>
+        <p class="vb-intro"><strong>Wing 2 (w2) – The Advocate:</strong> more extroverted and empathetic than the pure One, actively and warmly engaged on behalf of other people and just causes. Principled conviction blends here with real care and personal warmth.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 2 – The Helper</h2>
+        <p class="vb-intro"><strong>Wing 1 (w1) – The Servant:</strong> more responsible and grounded than the pure Two, helps out of duty and moral conviction rather than spontaneous affection alone. More introverted, more disciplined, with a clearer inner standard.</p>
+        <p class="vb-intro"><strong>Wing 3 (w3) – The Host/Hostess:</strong> more successful and self-assured in presentation, more sociable and visible than the pure Two. Caretaking shows up here as extroverted, charismatic, and with a noticeable ambition to be seen making an impact.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 3 – The Achiever</h2>
+        <p class="vb-intro"><strong>Wing 2 (w2) – The Charmer:</strong> more generous and relationship-oriented than the pure Three, uses personal warmth and charm as a core part of its success strategy. Comes across as more approachable, more sociable, more skilled interpersonally.</p>
+        <p class="vb-intro"><strong>Wing 4 (w4) – The Professional:</strong> more sincere and emotionally accessible than the pure Three, combines drive for achievement with real depth and a stylish, authentic-feeling self-expression rather than pure facade.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 4 – The Individualist</h2>
+        <p class="vb-intro"><strong>Wing 3 (w3) – The Aristocrat:</strong> more sociable and competitive than the pure Four, presents its own uniqueness with style, social ambition, and a certain aristocratic self-confidence.</p>
+        <p class="vb-intro"><strong>Wing 5 (w5) – The Bohemian:</strong> more eccentric and more strongly observing than the pure Four, lives out its own otherness in a more withdrawn, introverted, and unconventional way &mdash; the classic "bohemian" expression of the type.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 5 – The Investigator</h2>
+        <p class="vb-intro"><strong>Wing 4 (w4) – The Iconoclast:</strong> more creative and emotionally accessible than the pure Five, deliberately breaks with conventions and with its own thought patterns. The Five's detachment combines here with the Four's intensity and expressiveness.</p>
+        <p class="vb-intro"><strong>Wing 6 (w6) – The Problem Solver:</strong> more sociable and more cautious than the pure Five, becomes a reliable, thorough-thinking analyst within a team. Knowledge-gathering combines with Six's loyalty and a stronger need for security.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 6 – The Loyalist</h2>
+        <p class="vb-intro"><strong>Wing 5 (w5) – The Defender:</strong> more analytical and more reserved than the pure Six, defends convictions through intellectual sharpness and inner distance rather than through visible group belonging.</p>
+        <p class="vb-intro"><strong>Wing 7 (w7) – The Buddy:</strong> more energetic and more optimistic than the pure Six, becomes an entertaining, sociable, and reliable friend for life. Vigilance combines here with a noticeable lightness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 7 – The Enthusiast</h2>
+        <p class="vb-intro"><strong>Wing 6 (w6) – The Entertainer:</strong> more thoughtful and more focused than the pure Seven, combines enthusiasm with Six's sense of responsibility. Entertains with substance, not just speed and surface.</p>
+        <p class="vb-intro"><strong>Wing 8 (w8) – The Realist:</strong> more direct and more forceful than the pure Seven, puts ideas into action pragmatically, energetically, and assertively. Drive combines here with Eight's groundedness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 8 – The Challenger</h2>
+        <p class="vb-intro"><strong>Wing 7 (w7) – The Maverick:</strong> more high-spirited and more materially driven than the pure Eight, becomes an unconventional, entrepreneurially minded self-made person. Assertiveness combines with Seven's versatility and appetite for adventure.</p>
+        <p class="vb-intro"><strong>Wing 9 (w9) – The Bear:</strong> warmer and more cooperative than the pure Eight, comes across as calmer and more patient on the outside &mdash; while remaining just as powerful within: gentle, as long as you don't unnecessarily provoke it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.2rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Type 9 – The Peacemaker</h2>
+        <p class="vb-intro"><strong>Wing 1 (w1) – The Dreamer:</strong> more idealistic and more order-loving than the pure Nine, pursues its own ideals quietly but persistently &mdash; and, unlike the pure Nine, can show passive-aggressive traits.</p>
+        <p class="vb-intro"><strong>Wing 8 (w8) – The Referee:</strong> more headstrong and more decisive than the pure Nine, mediates conflicts but can also step in clearly, firmly, and assertively when needed &mdash; the Nine's gift for balance meets Eight's strength.</p>
+      </div>
+
+      <div style="max-width:100%;margin-top:1.8rem;">
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Books for Further Reading (2)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+            <div style="margin-top:.8rem;">${bookTip("the-hidden-dynamics-of-the-27-subtypes", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}</div>
+          </div>
+        </details>
+      </div>
+      ${relatedLinks([
+        {route:"tritypen", label:"Tritypes"},
+        {route:"subtypen-schaubilder", label:"Subtype Charts (all 27)"},
+        {route:"symmetrie-des-enneagramms", label:"Symmetry of the Enneagram"},
+        {route:"lookalike-typen", label:"Lookalike Types"},
       ])}
     </section>
   `);
@@ -108059,6 +108158,7 @@ function subtypeSchaubilderPage() {
     "wurzeln-des-enneagramms": wurzelnDesEnneagrammsPage,
     "spirituelle-uebungen": spirituelleUebungenPage,
     "wahre-freiheit": wahreFreiheitPage,
+    "fluegelbeschreibungen": fluegelbeschreibungenPage,
     "laster-tugenden-affirmationen": lasterTugendenAffirmationenPage,
     "schutzdefizite": schutzdefizitePage,
     "horney-triaden": horneyTriadenPage,
