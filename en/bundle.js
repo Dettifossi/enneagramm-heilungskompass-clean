@@ -345,6 +345,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-ludwig-van-beethoven", name:"Ludwig van Beethoven", subtyp:"SX6w5", heading:"Ludwig van Beethoven – Sexual Type 6", krankheit:"Progressive Deafness and Liver Cirrhosis", teaser:"SX6w5 – composer, 1770–1827. Progressing hearing loss from around 1798, alongside chronic abdominal ailments and suspected lead poisoning. Jaundice from 1821, four painful abdominal punctures against fluid buildup from December 1826. Died in 1827 from liver cirrhosis – the autopsy found a severely scarred liver and damaged kidneys." , land:"Germany", gender:"m", jahre:"1770–1827"},
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-hans-christian-andersen", name:"Hans Christian Andersen", subtyp:"SO4w3", heading:"Hans Christian Andersen – Social Type 4", krankheit:"Lifelong hypochondria, neglected dental problems, suspected liver cancer", teaser:"SO4w3 – writer, fairy-tale author, 1805–1875. Meticulously documented worry about minor complaints alongside decades of silently endured toothaches. Progressive decline after a fall in 1872, cared for by the friendly Melchior family. Died in 1875 of a suspected cancer of the liver, with a state funeral attended by the Danish royal family." , land:"Denmark", gender:"m", jahre:"1805–1875"},
+  { route:"krankheitsportraets-heinrich-heine", name:"Heinrich Heine", subtyp:"SO4w3", heading:"Heinrich Heine – Social Type 4", krankheit:"Progressive, to this day not reliably diagnosed paralysis (the 'mattress grave'), eight years bedridden", teaser:"SO4w3 – poet, 1797–1856. Paralyzed from May 1848 onward, blind in one eye, dependent on opium and morphine. Wrote and dictated until the end, including the poetry collection 'Romanzero'. Died on February 17, 1856, in Paris, without ever rising from bed again." , land:"Germany/France", gender:"m", jahre:"1797–1856"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-francis-bacon", name:"Francis Bacon", subtyp:"SE7w8", heading:"Francis Bacon – Self-Preservation Type 7", krankheit:"Chronic gout and kidney stones, fatal bronchitis/pneumonia after a self-conducted cold experiment", teaser:"SE7w8 – philosopher, statesman, and founder of modern empiricism, 1561–1626. Suffered decades of gout and kidney stones, died in 1626 of a chill caught while stuffing a chicken with snow in winter to test cold as a preservation method." , land:"United Kingdom", gender:"m", jahre:"1561–1626"},
@@ -33241,6 +33242,7 @@ function heinrichHeinePortraitPage() {
         {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3) – the mattress grave"},
       ])}
     </div>
   `);
@@ -50085,12 +50087,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A suffering either downplayed publicly or hidden in shame – hypochondria and actual illness often sit close together in this group.",
-    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider"],
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine"],
     fingerabdruecke: [
       {
         titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
         beschreibung: "The social Four shows a tendency either to dramatize its own suffering heavily (hypochondria) or, conversely, to hide it out of shame – both as ways of handling a vulnerability experienced as shameful.",
         beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed."
+      },
+      {
+        titel: "So far only one striking counter-case – the suffering is processed publicly in literature instead of hidden",
+        beschreibung: "With only one documented case so far, a second pattern cannot yet be claimed – it stands out precisely because it runs opposite to the concealment otherwise observed in this subtype.",
+        beleg: "Heinrich Heine, who did not conceal his eight years of paralysis in the 'mattress grave,' but made it the direct literary subject of his poetry collection 'Romanzero' and a poem titled 'Morphine,' while continuing to receive visitors until the end rather than withdrawing."
       }
     ]
   },
@@ -58551,7 +58558,179 @@ function hansChristianAndersenKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3) – life's work"},
         {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3) – same concealment strategy"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3)"},
         {route:"psychosomatik/leberkrebs", label:"Psychosomatics Register: Liver Cancer"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function heinrichHeineKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-heinrich-heine-portrait.jpg" alt="Heinrich Heine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinrich Heine</p>
+        <p class="krim-portrait-typ">SO4w3 · Social Type 4 with Three-wing · 1797–1856</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Heinrich Heine</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-heinrich-heine">famous-personality portrait</a>
+        – that page covers his literary work and his type structure in general. This page
+        focuses on the chapter that defined his last eight years of life: a progressive,
+        to this day not reliably diagnosed paralysis he himself called his "mattress grave."
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Heine</strong> is assigned to the <strong>Social Type 4 with Three-wing</strong>.
+        SO4 does not process her own otherness through withdrawal, but through a constant
+        search for confirmation before an audience. The Three-wing turns that search into
+        active visibility. This exact pattern also determined how Heine dealt with an
+        illness that confined him literally to bed without ever silencing his public
+        voice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A sudden collapse in May 1848:</strong>
+        In May 1848, Heine took to his bed in his Paris apartment, from which he would
+        never rise again &ndash; the onset of a progressive paralysis likely caused by
+        degeneration of the spinal cord.</p>
+        <p class="vb-intro"><strong>b) Paralysis from the chest down:</strong>
+        The illness increasingly left him unable to move &ndash; paralyzed from the chest
+        down, he lost control over large parts of his own body.</p>
+        <p class="vb-intro"><strong>c) Blindness in one eye:</strong>
+        One eye went completely blind; the remaining one he could only use if someone
+        &ndash; or he himself with one hand &ndash; raised the eyelid while he wrote with
+        the other hand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A diagnosis disputed to this day:</strong>
+        Heine himself was convinced he suffered from a venereal disease. Later
+        investigations proposed different explanations &ndash; including neurosyphilis,
+        multiple sclerosis, and, following an 1997 hair analysis, chronic lead poisoning.
+        No certain diagnosis exists to this day.</p>
+        <p class="vb-intro"><strong>b) Cramps, headaches, and a wracking cough:</strong>
+        Alongside the paralysis came agonizing cramps, throbbing headaches, and a
+        persistent cough that only opium and morphine could relieve.</p>
+        <p class="vb-intro"><strong>c) Dictating instead of writing:</strong>
+        Once even the laborious act of holding his eyelid open no longer sufficed, Heine
+        switched to dictating his texts &ndash; the writing ended, the poetry did not.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) "Romanzero" (1851), written from bed:</strong>
+        His third major poetry collection was composed entirely during his illness &ndash;
+        full of laments and unsparing reflections on human existence, it is still
+        considered one of his most significant works.</p>
+        <p class="vb-intro"><strong>b) A poem titled "Morphine":</strong>
+        Heine processed his own dependence on painkillers directly in literary form &ndash;
+        the drug that kept him alive itself became the subject of his art.</p>
+        <p class="vb-intro"><strong>c) Receiving visitors until the end:</strong>
+        Despite his condition, Heine continued to receive guests in his "mattress grave"
+        &ndash; among them prominent figures of his time &ndash; and conducted conversations
+        with the same sharp wit he had been known for his whole life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Eight years without rising:</strong>
+        From May 1848 until his death in February 1856, Heine never once left his bed
+        &ndash; one of the longest documented periods of suffering of any major writer of
+        his era.</p>
+        <p class="vb-intro"><strong>b) Death on February 17, 1856:</strong>
+        Heine died at age 58 in Paris. His last recorded remark to his praying wife
+        &ndash; "God will forgive me, that's his job" &ndash; kept his wit intact to the
+        end.</p>
+        <p class="vb-intro"><strong>c) A body of work that outlasted the illness:</strong>
+        The late poems written in the mattress grave are today considered a distinct,
+        often described as his most mature, chapter of his entire body of work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The body becomes invisible, the voice stays visible:</strong>
+        As his body grew increasingly incapacitated, the public presence of his voice
+        paradoxically intensified &ndash; the very SO4w3 dynamic that needs visibility to
+        confirm its own significance found, in dictation, one last channel.</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the refusal to fall silent:</strong>
+        Where withdrawal and silence might have seemed obvious, Heine chose the opposite:
+        receiving visitors, dictating, continuing to show wit &ndash; the stage grew
+        smaller, but was never abandoned.</p>
+        <p class="vb-intro"><strong>c) Suffering turned into literature instead of concealed:</strong>
+        Rather than hiding his agony, Heine made it explicitly the subject of his poems
+        &ndash; his own suffering, like his Jewish-Christian inner conflict before it,
+        became an openly negotiated theme rather than a hidden flaw.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A life that never fully belonged ends in total isolation:</strong>
+        Heine's entire life was shaped by the question of whether he truly belonged
+        &ndash; to the Jewish community, to the Christian majority society, to German
+        culture in French exile. The illness sharpened this core question to a physical
+        extreme: confined to bed, almost completely cut off from the world, only his own
+        voice remained as a bridge to the outside.</p>
+        <p class="vb-intro"><strong>b) Wit as a last means of belonging:</strong>
+        His famous sarcasm right up to his deathbed was not a mere character trait, but
+        the last remaining way to stay connected to the world after his body had closed
+        off nearly every other channel.</p>
+        <p class="vb-intro"><strong>c) Why the nerves and eyes, of all things?</strong>
+        For a social Four with Three-wing, whose entire self-understanding rested on
+        visibility and being perceived, one interpretation suggests itself: precisely
+        the organs most directly tied to perceiving and being perceived &ndash; the eyes
+        that see, and the nervous system that carries the connection to the outside world
+        &ndash; became the site of the illness. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in
+        this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Four inevitably leads to neurological
+        illness &ndash; <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Heine's case shows is a pattern in how a pronounced social
+        Four with Three-wing handles existential isolation &ndash; one possible reading
+        among many, not a verdict. The corresponding illness profile is gradually being
+        developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Heine did not know his own pattern &ndash; the social Four with Three-wing needs
+        an audience to confirm its own significance, and exactly this need he lived out
+        into his final weeks of life, receiving visitors and dictating rather than
+        withdrawing into silence. Whoever does not recognize their own longing for
+        visibility as a pattern easily mistakes it for pure creative drive, even though
+        their own fixation plays a part too.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Four with Three-wing explains much about the course of
+        <strong>Heine's</strong> own illness: a man whose entire self-understanding
+        depended on visibility and belonging lost almost his entire body to the illness
+        &ndash; and defended, to his last breath, the one connection that remained to
+        him: his voice. The armadillo that did not curl up in the mattress grave, but
+        kept speaking outward.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3) – life's work"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
     </div>
@@ -108975,6 +109154,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-ludwig-van-beethoven": ludwigVanBeethovenKrankheitsportraetPage,
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-hans-christian-andersen": hansChristianAndersenKrankheitsportraetPage,
+      "krankheitsportraets-heinrich-heine": heinrichHeineKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,

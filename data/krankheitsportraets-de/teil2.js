@@ -1472,6 +1472,7 @@ export function hansChristianAndersenKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3) – Lebenswerk"},
         {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3)"},
         {route:"psychosomatik/leberkrebs", label:"Psychosomatik-Register: Leberkrebs"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
@@ -3673,6 +3674,179 @@ export function woodyAllenKrankheitsportraetPage() {
         {route:"krankheitsportraets-neil-armstrong", label:"Krankheitsporträt: Neil Armstrong (SE6w5) – gleicher Kerntyp, entgegengesetzter Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
+      ])}
+    </div>
+  `);
+}
+
+export function heinrichHeineKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heinrich-heine-portrait.jpg" alt="Heinrich Heine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinrich Heine</p>
+        <p class="krim-portrait-typ">SO4w3 · Sozialer Typ 4 mit Dreierflügel · 1797–1856</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Heinrich Heine</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-heinrich-heine">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein literarisches Werk und seine
+        Typstruktur im Allgemeinen. Im Zentrum dieser Seite steht das Kapitel, das seine
+        letzten acht Lebensjahre prägte: eine fortschreitende, bis heute nicht sicher
+        diagnostizierte Lähmung, die er selbst seine "Matratzengruft" nannte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Heine</strong> ist dem <strong>sozialen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SO4 verarbeitet das eigene Anderssein nicht durch Rückzug, sondern
+        durch die ständige Suche nach Bestätigung vor einem Publikum. Der Dreierflügel
+        verwandelt diese Suche in aktive Sichtbarkeit. Genau dieses Muster bestimmte auch,
+        wie Heine mit einer Krankheit umging, die ihn buchstäblich ans Bett fesselte, ohne
+        dass sie seine öffentliche Stimme verstummen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein plötzlicher Zusammenbruch im Mai 1848:</strong>
+        Im Mai 1848 legte sich Heine in seiner Pariser Wohnung ins Bett, aus dem er nie
+        wieder aufstehen sollte &ndash; den Beginn einer fortschreitenden Lähmung, die
+        vermutlich durch eine Degeneration des Rückenmarks verursacht wurde.</p>
+        <p class="vb-intro"><strong>b) Lähmung von der Brust abwärts:</strong>
+        Die Krankheit machte ihn zunehmend bewegungsunfähig &ndash; von der Brust abwärts
+        gelähmt, verlor er die Kontrolle über weite Teile seines eigenen Körpers.</p>
+        <p class="vb-intro"><strong>c) Erblindung auf einem Auge:</strong>
+        Ein Auge erblindete vollständig; das verbliebene konnte er nur benutzen, wenn ihm
+        jemand &ndash; oder er selbst mit einer Hand &ndash; das Lid anhob, während er mit der
+        anderen Hand schrieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine bis heute umstrittene Diagnose:</strong>
+        Heine selbst war überzeugt, an einer venerischen Krankheit zu leiden. Spätere
+        Untersuchungen brachten unterschiedliche Erklärungen ins Spiel &ndash; darunter
+        Neurosyphilis, Multiple Sklerose und, nach einer Haaranalyse von 1997, eine
+        chronische Bleivergiftung. Eine sichere Diagnose gibt es bis heute nicht.</p>
+        <p class="vb-intro"><strong>b) Krämpfe, Kopfschmerzen und ein zehrender Husten:</strong>
+        Zu der Lähmung kamen quälende Krämpfe, pochende Kopfschmerzen und ein anhaltender
+        Husten hinzu, die nur durch Opium und Morphium gelindert werden konnten.</p>
+        <p class="vb-intro"><strong>c) Diktieren statt Schreiben:</strong>
+        Als selbst das mühsame Offenhalten des Augenlids nicht mehr ausreichte, ging Heine
+        dazu über, seine Texte zu diktieren &ndash; das Schreiben endete, das Dichten nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) "Romanzero" (1851), geschrieben aus dem Bett:</strong>
+        Sein dritter großer Gedichtband entstand vollständig während der Krankheit &ndash;
+        voller Klagen und schonungsloser Reflexionen über die menschliche Existenz, gilt er
+        bis heute als einer seiner bedeutendsten.</p>
+        <p class="vb-intro"><strong>b) Ein Gedicht mit dem Titel "Morphine":</strong>
+        Heine verarbeitete die eigene Abhängigkeit von Schmerzmitteln direkt literarisch
+        &ndash; die Droge, die ihn am Leben hielt, wurde selbst zum Gegenstand seiner Kunst.</p>
+        <p class="vb-intro"><strong>c) Besucher bis zuletzt empfangen:</strong>
+        Trotz seines Zustands empfing Heine weiterhin Gäste in seiner "Matratzengruft" &ndash;
+        unter ihnen Prominente seiner Zeit &ndash; und führte Gespräche mit demselben scharfen
+        Witz, für den er zeitlebens bekannt war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Acht Jahre ohne Aufstehen:</strong>
+        Von Mai 1848 bis zu seinem Tod im Februar 1856 verließ Heine sein Bett kein einziges
+        Mal &ndash; eine der längsten dokumentierten Leidenszeiten eines bedeutenden
+        Schriftstellers seiner Epoche.</p>
+        <p class="vb-intro"><strong>b) Tod am 17. Februar 1856:</strong>
+        Heine starb im Alter von 58 Jahren in Paris. Sein letzter überlieferter Ausspruch an
+        seine betende Frau &ndash; "Gott wird mir verzeihen, das ist sein Beruf" &ndash; blieb
+        sein Witz bis zum Ende.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das die Krankheit überdauerte:</strong>
+        Die in der Matratzengruft entstandenen späten Gedichte gelten heute als ein
+        eigenständiger, oft als reifster bezeichneter Abschnitt seines Gesamtwerks.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Körper wird unsichtbar, die Stimme bleibt sichtbar:</strong>
+        Während sein Körper zunehmend handlungsunfähig wurde, verstärkte sich paradoxerweise
+        die öffentliche Präsenz seiner Stimme &ndash; genau die SO4w3-Dynamik, die Sichtbarkeit
+        als Bestätigung der eigenen Bedeutung braucht, fand im Diktat einen letzten Kanal.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und die Weigerung zu verstummen:</strong>
+        Wo Rückzug und Schweigen naheliegend gewesen wären, entschied sich Heine für das
+        Gegenteil: Besucher empfangen, diktieren, weiter Witz zeigen &ndash; die Bühne wurde
+        kleiner, aber nie verlassen.</p>
+        <p class="vb-intro"><strong>c) Leiden, das zu Literatur wurde, statt es zu verschweigen:</strong>
+        Statt seine Qualen zu verbergen, machte Heine sie explizit zum Gegenstand seiner
+        Gedichte &ndash; das eigene Leiden wurde, wie schon seine jüdisch-christliche
+        Zerrissenheit zuvor, zu einem offen verhandelten Thema statt einem verborgenen Makel.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben, das nie ganz zugehörig war, endet in völliger Isolation:</strong>
+        Heines gesamtes Leben war von der Frage geprägt, ob er wirklich dazugehörte &ndash;
+        zur jüdischen Gemeinschaft, zur christlichen Mehrheitsgesellschaft, zum deutschen
+        Kulturkreis im französischen Exil. Die Krankheit verschärfte diese Grundfrage bis
+        zur physischen Konsequenz: ans Bett gefesselt, von der Welt fast vollständig
+        abgeschnitten, blieb ihm nur noch die eigene Stimme als Brücke nach draußen.</p>
+        <p class="vb-intro"><strong>b) Witz als letztes Mittel der Zugehörigkeit:</strong>
+        Sein berühmter Sarkasmus bis zum Sterbebett war kein bloßer Charakterzug, sondern
+        die letzte verbliebene Form, mit der Welt in Verbindung zu bleiben, nachdem der
+        Körper fast alle anderen Kanäle verschlossen hatte.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Nerven und Augen?</strong>
+        Für eine soziale Vier mit Dreierflügel, deren gesamtes Selbstverständnis auf
+        Sichtbarkeit und Wahrgenommenwerden beruhte, liegt eine Deutung nahe: Ausgerechnet
+        jene Organe, die unmittelbar mit Wahrnehmen und Wahrgenommenwerden verbunden sind
+        &ndash; die Augen, die sehen, und das Nervensystem, das die Verbindung zur Außenwelt
+        trägt &ndash; wurden zum Ort der Krankheit. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu neurologischen
+        Erkrankungen führt &ndash; <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Heines Fall zeigen lässt, ist ein Muster
+        im Umgang mit existenzieller Isolation, das bei einer ausgeprägten sozialen Vier mit
+        Dreierflügel auffällt &ndash; eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Heine kannte sein eigenes Muster nicht &ndash; die soziale Vier mit Dreierflügel
+        braucht ein Publikum, um die eigene Bedeutung zu bestätigen, und genau dieses
+        Bedürfnis lebte er bis in die letzten Wochen seines Lebens aus, indem er Besucher
+        empfing und diktierte, statt sich in Stille zurückzuziehen. Wer die eigene
+        Sehnsucht nach Sichtbarkeit nicht als Muster erkennt, verwechselt sie leicht mit
+        reiner Schaffenskraft, obwohl auch die eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Vier mit Dreierflügel erklärt bei <strong>Heine</strong> vieles am
+        Verlauf seiner eigenen Erkrankung: ein Mann, dessen gesamtes Selbstverständnis von
+        Sichtbarkeit und Zugehörigkeit abhing, verlor fast seinen ganzen Körper an die
+        Krankheit &ndash; und verteidigte bis zum letzten Atemzug die eine Verbindung, die
+        ihm blieb: seine Stimme. Das Gürteltier, das sich in der Matratzengruft nicht
+        einrollte, sondern weiterhin nach außen sprach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3)"},
+        {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);

@@ -649,6 +649,7 @@ export function heinrichHeinePortraitPage() {
         {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – die Matratzengruft"},
       ])}
     </div>
   `);
