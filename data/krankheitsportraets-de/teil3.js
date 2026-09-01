@@ -3704,7 +3704,8 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Ein Haus, das seinen Namen vorwegnahm:</strong>
         1819, kurz vor seiner zweiten schweren Erkrankung, zog Goya in ein Landhaus außerhalb
         Madrids, das bereits vor seinem Einzug "Quinta del Sordo" hieß – wörtlich "Landhaus des
-        Tauben", also des gehörlosen Mannes, benannt nach einem früheren, längst verstorbenen
+        Gehörlosen" (nicht zu verwechseln mit dem Vogel "Taube": gemeint ist hier "taub" als
+        Substantiv, also der gehörlose Mann), benannt nach einem früheren, längst verstorbenen
         Besitzer, der ebenfalls taub gewesen war. Ein Zufall, den Goya sich nicht ausgesucht
         hatte, der aber sein eigenes Leben in den folgenden Jahren treffend beschrieb.</p>
         <p class="vb-intro"><strong>b) Die Wände als letzte, ungefragte Leinwand:</strong>
