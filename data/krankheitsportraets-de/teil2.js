@@ -3485,6 +3485,7 @@ export function voltaireKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3) – Philosoph der Aufklärung"},
+        {route:"krankheitsportraets-francisco-de-goya", label:"Krankheitsporträt: Francisco de Goya (SX4w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}

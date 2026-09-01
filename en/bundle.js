@@ -391,6 +391,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-hermann-hesse", name:"Hermann Hesse", subtyp:"SE5w6", heading:"Hermann Hesse – Self-Preservation Type 5", krankheit:"Migraine, eye ailments, recurring depressive crises", teaser:"SP5w6 – writer, Nobel laureate, 1877–1962. Lifelong severe migraines, chronic eye ailments, nervous breakdown in 1916, psychoanalysis with a student of C. G. Jung. Died in 1962 in his sleep in Montagnola at age 85." , land:"Germany/Switzerland", gender:"m", jahre:"1877–1962"},
   { route:"krankheitsportraets-warren-buffett", name:"Warren Buffett", subtyp:"SE5w6", heading:"Warren Buffett – Self-Preservation Type 5", krankheit:"Early-Stage Prostate Cancer, Diagnosed 2012", teaser:"SE5w6 – investor and businessman, b. 1930. Diagnosed with Stage I prostate cancer in 2012 at age 81, disclosed in an open shareholder letter. Two-month course of radiation therapy, successfully completed in September 2012, with no interruption to his leadership role at Berkshire Hathaway." , land:"USA", gender:"m", jahre:"b. 1930"},
   { route:"krankheitsportraets-voltaire", name:"Voltaire", subtyp:"SX4w3", heading:"Voltaire – Sexual Type 4", krankheit:"Chronic digestive and bladder ailments", teaser:"SX4w3 – Enlightenment writer and philosopher, 1694–1778. Decades of digestive and bladder complaints, obsessively documented in letters, unrelenting productivity despite constant complaints. Died on May 30, 1778, in Paris, weeks after his triumphant return from exile." , land:"France", gender:"m", jahre:"1694–1778"},
+  { route:"krankheitsportraets-francisco-de-goya", name:"Francisco de Goya", subtyp:"SX4w3", heading:"Francisco de Goya – Sexual Type 4", krankheit:"Severe illness with permanent deafness", teaser:"SX4w3 – Spanish court painter, 1746–1828. Severe, unexplained illness in 1793 with permanent deafness, second life-threatening crisis in 1819 captured in the painting 'Self-Portrait with Dr. Arrieta'. Died on April 16, 1828, in exile in Bordeaux.", land:"Spain", gender:"m", jahre:"1746–1828"},
   { route:"krankheitsportraets-george-gershwin", name:"George Gershwin", subtyp:"SO7w6", heading:"George Gershwin – Social Type 7", krankheit:"Glioblastoma (malignant brain tumor), early symptoms mistaken for exhaustion or nerves for months", teaser:"SO7w6 – American composer, 1898–1937. Months of headaches, olfactory hallucinations (burning rubber), and difficulty concentrating, initially dismissed as overwork. Collapsed at MGM Studios in July 1937, died on 11 July 1937 after emergency surgery, at only 38 years old." , land:"USA", gender:"m", jahre:"1898–1937"},
   { route:"krankheitsportraets-nikola-tesla", name:"Nikola Tesla", subtyp:"SO7w6", heading:"Nikola Tesla – Social Type 7", krankheit:"Progressive obsessive-compulsive disorder, germophobia, complete isolation", teaser:"SO7w6 – inventor and engineer, 1856–1943. Pronounced obsessive-compulsive disorder with counting rituals and germophobia, decades of increasing social isolation, final bond to a single white dove. Died impoverished on January 7, 1943, alone in a New York hotel room." , land:"USA", gender:"m", jahre:"1856–1943"},
   { route:"krankheitsportraets-vincent-van-gogh", name:"Vincent van Gogh", subtyp:"SE4w5", heading:"Vincent van Gogh – Self-Preservation Type 4", krankheit:"Recurring psychotic and suspected epileptic crises, 1888 ear incident, death by likely self-inflicted gunshot wound", teaser:"SP4w5 – Dutch painter, 1853–1890. Repeated severe psychological crises from 1888, voluntary admission to Saint-Rémy asylum, ear incident after the rupture with Gauguin, \"The Starry Night\" painted mid-crisis, died two days after a gunshot wound on July 29, 1890." , land:"Netherlands", gender:"m", jahre:"1853–1890"},
@@ -33527,6 +33528,7 @@ function franciscoDeGoyaPortraitPage() {
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3)"},
+        {route:"krankheitsportraets-francisco-de-goya", label:"Illness Portrait: Francisco de Goya (SX4w3) – deafness and final crisis"},
       ])}
     </div>
   `);
@@ -49799,12 +49801,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Radical concealment of one's own diagnosis even from the closest circle – in this group, illness is often kept secret until the very last possible minute.",
-    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish"],
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish", "Francisco de Goya"],
     fingerabdruecke: [
       {
         titel: "Concealed until the last minute – illness as a radically private secret",
         beschreibung: "The sexual Four repeatedly shows an especially consistent, often years-long concealment of its own diagnosis – right up to the limit of what remains publicly tenable.",
         beleg: "Freddie Mercury, who kept his AIDS diagnosis strictly secret for nearly five years and confirmed it publicly only one day before his death; Billie Eilish, who concealed her Tourette syndrome for years before disclosing it herself."
+      },
+      {
+        titel: "So far only one striking counter-case – illness becomes the direct subject of an image instead of being concealed",
+        beschreibung: "With only one documented case so far, a second pattern cannot yet be claimed – it stands out precisely because it runs opposite to the concealment otherwise observed in this subtype.",
+        beleg: "Francisco de Goya, who did not hide his own life-threatening illness in 1819 but made it the explicit subject of the painting 'Self-Portrait with Dr. Arrieta' – with an open mouth, half-closed eyes, and pain-clenched hands, without any embellishment."
       }
     ]
   },
@@ -65954,6 +65961,179 @@ function voltaireKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3) – Enlightenment philosopher"},
+        {route:"krankheitsportraets-francisco-de-goya", label:"Illness Portrait: Francisco de Goya (SX4w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function franciscoDeGoyaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francisco-de-goya-portrait.jpg" alt="Francisco de Goya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francisco de Goya</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing · 1746–1828</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francisco de Goya</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-francisco-de-goya">famous-personality portrait</a>
+        – that page covers his rise to First Court Painter of the Spanish crown and his
+        uncompromising artistic honesty. This page goes deeper into a chapter mentioned there
+        only in passing: a severe, to this day not fully explained illness in 1793 that left
+        him deaf, and a second life-threatening crisis in 1819 that he captured directly in one
+        of his most striking paintings.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Goya</strong> is assigned to the <strong>Sexual Type 4 with Three-wing</strong>.
+        SX4 hurls inner experience outward rather than concealing it; the Three-wing ensures
+        this intensity becomes visible and effective. This same combination also determined his
+        approach to his own illness: not concealment, but the immediate translation of
+        suffering into image – down to the walls of his own home.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Sudden collapse in 1793:</strong>
+        While traveling in Cádiz, Goya, at age 46, suffered a severe febrile illness that
+        confined him to bed for months and abruptly interrupted his life up to that point.</p>
+        <p class="vb-intro"><strong>b) A broad, confusing set of symptoms:</strong>
+        Headaches, dizziness, hallucinations, vision problems, and persistent ringing in his
+        ears appeared together – a picture doctors still interpret differently today, from lead
+        poisoning to an autoimmune disorder to a severe infection.</p>
+        <p class="vb-intro"><strong>c) Permanent deafness as a lasting result:</strong>
+        Most of the acute symptoms subsided over the following months – the deafness remained
+        and accompanied Goya for the rest of his 35 remaining years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Withdrawal from teaching, not from art:</strong>
+        Goya gave up his leadership role at the Academy of San Fernando because his deafness
+        made teaching impossible – his own painterly output continued undiminished, untouched
+        by this.</p>
+        <p class="vb-intro"><strong>b) A second life-threatening crisis in 1819:</strong>
+        At age 73, Goya fell seriously ill again and was saved by his physician Eugenio García
+        Arrieta – an event he captured that same year in the painting "Self-Portrait with Dr.
+        Arrieta," with an inscription explicitly thanking the doctor for saving his life.</p>
+        <p class="vb-intro"><strong>c) Illness becomes image material directly:</strong>
+        Unlike many other artists of his time, Goya did not hide his own vulnerability behind an
+        idealized facade, but painted himself with an open mouth, half-closed eyes, and
+        pain-clenched hands – an image of acute weakness, without any embellishment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) A house that anticipated its own name:</strong>
+        In 1819, shortly before his second severe illness, Goya moved into a country house
+        outside Madrid that already bore the name "Quinta del Sordo" (House of the Deaf Man)
+        before he moved in – a coincidence he had not chosen, but one that fittingly described
+        his life in the years that followed.</p>
+        <p class="vb-intro"><strong>b) The walls as a final, unasked-for canvas:</strong>
+        In this house, the by-then nearly completely deaf Goya painted, without commission and
+        without any intention of a public, the 14 "Black Paintings" directly onto the walls of
+        his dining and sitting rooms – a body of work apparently intended for himself alone.</p>
+        <p class="vb-intro"><strong>c) Voluntary exile despite advanced age:</strong>
+        In 1824, at age 78, Goya left Spain after the return of absolutist rule and moved to
+        Bordeaux – a decision that further increased his health vulnerability in his final
+        years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Uninterrupted work into his final months:</strong>
+        Even in Bordeaux, physically greatly weakened, Goya continued producing drawings and
+        paintings – including the unusual late work "The Milkmaid of Bordeaux," which art
+        historians already read as anticipating Impressionist technique.</p>
+        <p class="vb-intro"><strong>b) A final, rapid decline:</strong>
+        In his final two weeks of life, Goya likely suffered a series of strokes leading to
+        progressive paralysis, before he died in Bordeaux on April 16, 1828.</p>
+        <p class="vb-intro"><strong>c) Death far from home, at age 82:</strong>
+        He died in self-chosen exile, far from the Spanish court he had once served as First
+        Court Painter – an ending that reflected his lifelong willingness to place his own
+        independence above security and recognition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) No hiding, but immediate translation into image:</strong>
+        The same ability to turn inner experience unfiltered outward that shaped Goya's entire
+        body of work as court painter and critic of his era also determined how he handled his
+        own illness: rather than concealing it, he made it the explicit subject of a painting in
+        "Self-Portrait with Dr. Arrieta."</p>
+        <p class="vb-intro"><strong>b) The Three-wing and the will to be seen – even in weakness:</strong>
+        Where a more introverted Four might have kept its suffering entirely to itself, the
+        Three-wing led Goya to turn even his own vulnerability into a work that still moves
+        viewers directly today.</p>
+        <p class="vb-intro"><strong>c) Withdrawal into his own house, not withdrawal from work:</strong>
+        After becoming deaf, Goya withdrew from social life and from teaching, but not from
+        painting – the "Quinta del Sordo" became the place where his intensity kept discharging
+        unchecked, just without an audience.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body that became the immediate subject of the image:</strong>
+        Goya's entire body of work rested on the unsparing translation of what he observed into
+        image – nobility, war, superstition, and finally his own, aging vulnerability were all
+        captured without embellishment. His illness was no exception to this principle, but its
+        most consistent, most personal application.</p>
+        <p class="vb-intro"><strong>b) Deafness as a paradoxical intensifier, not a dampener:</strong>
+        What might be expected as withdrawal in other artists had the opposite effect in Goya:
+        his paintings grew darker, more direct, more uncompromising after his deafness – as if
+        the loss of hearing had concentrated his visual intensity inward instead of dampening
+        it.</p>
+        <p class="vb-intro"><strong>c) Why hearing, of all things?</strong>
+        For a sexual Four with Three-wing whose entire power rested on the immediate
+        transformation of perception into visible expression, one interpretation suggests
+        itself: precisely the sense most immediately connected to the outer world, and the one
+        most likely to have led to withdrawal, became the starting point for an even more
+        direct, even more immediate visual expression. This interpretation is a plausible
+        reading, not a documented historical causal link, and is developed further in this
+        Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the sexual Four inevitably leads to hearing loss –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Goya's case
+        shows is a pattern in how a pronounced sexual Four with Three-wing handles a
+        life-altering physical loss – one possible reading among many, not a verdict. The
+        corresponding illness profile is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Goya did not know his own pattern – the sexual Four with Three-wing reflexively
+        transforms every experience, even the most painful, into immediate visible expression
+        rather than ever quietly processing it, and he lived out exactly this pattern unchanged
+        into his final months in Bordeaux. Whoever does not recognize their own need to turn
+        every experience outward as a pattern does not stop living it out even in their own
+        falling silent.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Four with Three-wing explains much about the course of <strong>Goya's</strong>
+        own illness: a man whose entire power rested on the immediate transformation of
+        perception into visible expression made even his own suffering the subject of an image
+        – the Chihuahua who, even deafened, did not fall silent, but kept barking on his own
+        walls.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-francisco-de-goya", label:"Portrait: Francisco de Goya (SX4w3) – Court painter and chronicler"},
+        {route:"krankheitsportraets-voltaire", label:"Illness Portrait: Voltaire (SX4w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
@@ -108377,6 +108557,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-spinoza": spinozaKrankheitsportraetPage,
       "krankheitsportraets-hermann-hesse": hermannHesseKrankheitsportraetPage,
       "krankheitsportraets-voltaire": voltaireKrankheitsportraetPage,
+      "krankheitsportraets-francisco-de-goya": franciscoDeGoyaKrankheitsportraetPage,
       "krankheitsportraets-george-gershwin": georgeGershwinKrankheitsportraetPage,
       "krankheitsportraets-nikola-tesla": nikolaTeslaKrankheitsportraetPage,
       "krankheitsportraets-vincent-van-gogh": vincentVanGoghKrankheitsportraetPage,

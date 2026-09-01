@@ -3628,3 +3628,182 @@ export function yayoiKusamaKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function franciscoDeGoyaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-francisco-de-goya-portrait.jpg" alt="Francisco de Goya" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francisco de Goya</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1746–1828</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francisco de Goya</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-francisco-de-goya">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen Aufstieg zum Ersten Hofmaler der
+        spanischen Krone und seine kompromisslose künstlerische Wahrheit. Diese Seite vertieft
+        ein Kapitel, das dort nur gestreift wird: eine schwere, bis heute nicht restlos geklärte
+        Erkrankung 1793, die ihn taub zurückließ, und eine zweite lebensbedrohliche Krise 1819,
+        die er in einem seiner eindringlichsten Gemälde direkt festhielt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Goya</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SX4 schleudert inneres Erleben nach außen statt es zu verbergen; der
+        Dreierflügel sorgt dafür, dass diese Intensität sichtbar und wirksam wird. Genau diese
+        Kombination bestimmte auch seinen Umgang mit der eigenen Krankheit: nicht Verschweigen,
+        sondern die unmittelbare Übersetzung von Leiden in Bild – bis in die eigenen vier
+        Wände hinein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Plötzlicher Zusammenbruch 1793:</strong>
+        Auf einer Reise nach Cádiz erlitt Goya im Alter von 46 Jahren eine schwere fieberhafte
+        Erkrankung, die ihn monatelang ans Bett fesselte und sein bisheriges Leben abrupt
+        unterbrach.</p>
+        <p class="vb-intro"><strong>b) Ein breites, verwirrendes Symptombild:</strong>
+        Kopfschmerzen, Schwindel, Halluzinationen, Sehstörungen und anhaltendes Ohrensausen
+        traten gemeinsam auf – ein Bild, das Ärzte bis heute unterschiedlich deuten, von
+        Bleivergiftung über eine Autoimmunerkrankung bis zu einer schweren Infektion.</p>
+        <p class="vb-intro"><strong>c) Bleibende Taubheit als Folge:</strong>
+        Die meisten akuten Symptome klangen im Lauf der folgenden Monate ab – die Taubheit
+        blieb und begleitete Goya für den Rest seines 35 Jahre langen weiteren Lebens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rückzug aus der Lehrtätigkeit, nicht aus der Kunst:</strong>
+        Goya gab seine Leitungsfunktion an der Akademie San Fernando auf, weil ihm die
+        Taubheit das Unterrichten unmöglich machte – seine eigene malerische Produktion lief
+        davon unberührt in unvermindertem Tempo weiter.</p>
+        <p class="vb-intro"><strong>b) Eine zweite lebensbedrohliche Krise 1819:</strong>
+        Mit 73 Jahren erkrankte Goya erneut schwer und wurde von seinem Arzt Eugenio García
+        Arrieta gerettet – ein Ereignis, das er im selben Jahr in dem Gemälde
+        "Selbstporträt mit Dr. Arrieta" festhielt, mit einer Widmung, die dem Arzt ausdrücklich
+        für die Rettung seines Lebens dankt.</p>
+        <p class="vb-intro"><strong>c) Krankheit wird direkt zu Bildmaterial:</strong>
+        Anders als viele andere Künstler seiner Zeit verbarg Goya seine eigene Verletzlichkeit
+        nicht hinter einer idealisierten Fassade, sondern malte sich selbst mit geöffnetem Mund,
+        halb geschlossenen Augen und schmerzverkrampften Händen – ein Bild akuter Schwäche,
+        ohne jede Beschönigung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Haus, das seinen Namen vorwegnahm:</strong>
+        1819, kurz vor seiner zweiten schweren Erkrankung, zog Goya in ein Landhaus außerhalb
+        Madrids, das bereits vor seinem Einzug "Quinta del Sordo" (Haus des Tauben) hieß – ein
+        Zufall, den er sich nicht ausgesucht hatte, der aber sein Leben in den folgenden Jahren
+        treffend beschrieb.</p>
+        <p class="vb-intro"><strong>b) Die Wände als letzte, ungefragte Leinwand:</strong>
+        In diesem Haus malte der bereits fast vollständig ertaubte Goya, ohne Auftrag und ohne
+        Absicht auf eine Öffentlichkeit, die 14 "Schwarzen Gemälde" direkt auf die Wände seines
+        Ess- und Wohnzimmers – ein Werk, das offenbar nur für ihn selbst bestimmt war.</p>
+        <p class="vb-intro"><strong>c) Freiwilliges Exil trotz fortgeschrittenen Alters:</strong>
+        1824, mit 78 Jahren, verließ Goya Spanien nach der Rückkehr der absolutistischen
+        Herrschaft und zog nach Bordeaux – eine Entscheidung, die seine gesundheitliche
+        Verletzlichkeit in den letzten Lebensjahren zusätzlich erhöhte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ungebrochenes Schaffen bis in die letzten Monate:</strong>
+        Selbst in Bordeaux, körperlich stark geschwächt, fertigte Goya weiterhin Zeichnungen und
+        Gemälde an – darunter das ungewöhnliche Spätwerk "Die Melkerin von Bordeaux", das
+        Kunsthistoriker bereits als Vorwegnahme impressionistischer Maltechnik lesen.</p>
+        <p class="vb-intro"><strong>b) Ein letzter, rascher Verfall:</strong>
+        In seinen letzten beiden Lebenswochen erlitt Goya vermutlich eine Serie von
+        Schlaganfällen, die zu fortschreitender Lähmung führten, bevor er am 16. April 1828 in
+        Bordeaux starb.</p>
+        <p class="vb-intro"><strong>c) Tod fernab der Heimat, mit 82 Jahren:</strong>
+        Er starb im selbstgewählten Exil, weit entfernt vom spanischen Hof, dem er einst als
+        Erster Hofmaler gedient hatte – ein Ende, das seine lebenslange Bereitschaft
+        widerspiegelte, die eigene Unabhängigkeit über Sicherheit und Anerkennung zu stellen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kein Verstecken, sondern unmittelbare Übersetzung in Bild:</strong>
+        Dieselbe Fähigkeit, inneres Erleben ungefiltert nach außen zu wenden, die Goyas
+        gesamtes Werk als Hofmaler und Kritiker seiner Zeit prägte, bestimmte auch seinen
+        Umgang mit der eigenen Krankheit: Statt sie zu verbergen, machte er sie im
+        "Selbstporträt mit Dr. Arrieta" zum ausdrücklichen Bildgegenstand.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel und der Wille, gesehen zu werden – auch in der Schwäche:</strong>
+        Wo eine introvertiertere Vier ihr Leiden vielleicht ganz für sich behalten hätte, ließ
+        der Dreierflügel Goya auch seine eigene Verletzlichkeit zu einem Werk werden, das
+        Betrachter bis heute unmittelbar berührt.</p>
+        <p class="vb-intro"><strong>c) Rückzug ins eigene Haus statt Rückzug aus der Arbeit:</strong>
+        Nach der Ertaubung zog sich Goya aus dem gesellschaftlichen Leben und der Lehre zurück,
+        nicht aber aus dem Malen – die "Quinta del Sordo" wurde zum Ort, an dem sich seine
+        Intensität ungebremst, nur ohne Publikum, weiter entlud.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zum unmittelbaren Bildgegenstand wurde:</strong>
+        Goyas gesamtes Werk beruhte auf der schonungslosen Übersetzung von Wahrgenommenem in
+        Bild – Adel, Krieg, Aberglaube, und schließlich auch die eigene, alternde Verletzlichkeit
+        wurden ohne Beschönigung festgehalten. Seine Krankheit war keine Ausnahme von diesem
+        Prinzip, sondern seine konsequenteste, persönlichste Anwendung.</p>
+        <p class="vb-intro"><strong>b) Die Taubheit als paradoxe Verstärkung, nicht als Dämpfung:</strong>
+        Was man bei anderen Künstlern als Rückzug erwarten könnte, wirkte bei Goya gegenteilig:
+        seine Bilder wurden nach der Ertaubung dunkler, direkter, kompromissloser – als hätte der
+        Verlust des Gehörs die visuelle Intensität nach innen konzentriert, statt sie zu
+        dämpfen.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Gehör?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren gesamte Kraft auf der unmittelbaren
+        Verwandlung von Wahrnehmung in sichtbaren Ausdruck beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jener Sinn, der am unmittelbarsten mit der Außenwelt in Verbindung steht
+        und am ehesten zu Rückzug hätte führen können, wurde zum Ausgangspunkt eines noch
+        direkteren, noch unmittelbareren visuellen Ausdrucks. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zwangsläufig zu Gehörverlust führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was
+        sich an Goyas Fall zeigen lässt, ist ein Muster im Umgang mit einem einschneidenden
+        körperlichen Verlust, das bei einer ausgeprägten sexuellen Vier mit Dreierflügel
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Goya kannte sein eigenes Muster nicht – die sexuelle Vier mit Dreierflügel wandelt
+        reflexhaft jede Erfahrung, auch die schmerzhafteste, in unmittelbaren sichtbaren
+        Ausdruck um, statt sie je still zu verarbeiten, und genau dieses Muster lebte er bis in
+        seine letzten Lebensmonate in Bordeaux unverändert aus. Wer die eigene Notwendigkeit,
+        jede Erfahrung nach außen zu wenden, nicht als Muster erkennt, hört auch im eigenen
+        Verstummen nicht auf, sie auszuleben.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Vier mit Dreierflügel erklärt bei <strong>Goya</strong> vieles am Verlauf
+        seiner eigenen Erkrankung: ein Mann, dessen gesamte Kraft auf der unmittelbaren
+        Verwandlung von Wahrnehmung in sichtbaren Ausdruck beruhte, machte selbst sein eigenes
+        Leiden zum Bildgegenstand – der Chihuahua, der auch ertaubt nicht verstummte, sondern
+        auf den eigenen Wänden weiterbellte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-francisco-de-goya", label:"Porträt: Francisco de Goya (SX4w3) – Hofmaler und Chronist"},
+        {route:"krankheitsportraets-voltaire", label:"Krankheitsporträt: Voltaire (SX4w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
