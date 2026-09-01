@@ -33209,7 +33209,7 @@ function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">3. The Three-Wing: Bans That Became Fame</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three-wing turns the Four's introspective sadness into an active drive toward visibility. In 1827, "Book of Songs" established his international reputation &ndash; many of the poems were set to music by composers like Schubert, Schumann, and Mendelssohn and thereby spread far beyond the literary circle they were originally intended for.</p>
+          <p class="vb-intro">The Three-wing turns the Four's introspective sadness into an active drive toward visibility. In 1827, "Book of Songs" established his international reputation &ndash; many of the poems were set to music by composers like Schubert (SE6w5), Schumann (SX7w8), and Mendelssohn and thereby spread far beyond the literary circle they were originally intended for.</p>
           <p class="vb-intro">When German authorities banned his radical political writings, Heine did not withdraw but used the ban itself as a stage &ndash; the censorship, as contemporaries noted, only added to his growing fame. In Paris, where he spent the last 25 years of his life in exile, he deliberately enjoyed the status of a literary celebrity and became a public symbol of liberal, cosmopolitan values for the international press. The Three-wing knew: visibility is the proof that one's own difference is actually worth something.</p>
         </blockquote>
 

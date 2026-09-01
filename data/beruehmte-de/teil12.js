@@ -617,7 +617,7 @@ export function heinrichHeinePortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Verbote, die zum Ruhm wurden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Dreierflügel verwandelt die introspektive Traurigkeit der Vier in aktives Streben nach Sichtbarkeit. 1827 begründete "Buch der Lieder" seinen internationalen Ruf &ndash; viele der Gedichte wurden von Komponisten wie Schubert, Schumann und Mendelssohn vertont und dadurch massenhaft verbreitet, weit über den literarischen Zirkel hinaus, für den sie ursprünglich gedacht waren.</p>
+          <p class="vb-intro">Der Dreierflügel verwandelt die introspektive Traurigkeit der Vier in aktives Streben nach Sichtbarkeit. 1827 begründete "Buch der Lieder" seinen internationalen Ruf &ndash; viele der Gedichte wurden von Komponisten wie Schubert (SE6w5), Schumann (SX7w8) und Mendelssohn vertont und dadurch massenhaft verbreitet, weit über den literarischen Zirkel hinaus, für den sie ursprünglich gedacht waren.</p>
           <p class="vb-intro">Als deutsche Behörden seine radikalen politischen Schriften verboten, zog sich Heine nicht zurück, sondern nutzte gerade das Verbot als Bühne &ndash; die Zensur trug, wie Zeitgenossen festhielten, nur zu seinem wachsenden Ruhm bei. In Paris, wo er die letzten 25 Jahre seines Lebens im Exil verbrachte, genoss er bewusst den Status einer literarischen Berühmtheit und wurde zur öffentlichen Symbolfigur liberaler, kosmopolitischer Werte der internationalen Presse. Der Dreierflügel wusste: Sichtbarkeit ist der Beweis, dass die eigene Andersartigkeit tatsächlich etwas wert ist.</p>
         </blockquote>
 
