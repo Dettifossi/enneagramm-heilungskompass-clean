@@ -1356,9 +1356,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler – Social Type 4",
     teaser:"SO4w5 · 1860–1911. Austrian composer and conductor, director of the Vienna Court Opera. Symphonies, Kindertotenlieder, Das Lied von der Erde. The armadillo that translated existential loss into monumental, all-encompassing soundscapes.",
     land:"Austria", tags:["Music"], gender:"m"},
-{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SE6w5",
-    heading:"Reinhard Mey – Self-Preservation Type 6",
-    teaser:"SP6w5 · born 1942. German singer-songwriter, on stage for over five decades. Understands himself as a chronicler and observer, precise and warm-hearted lyrics, increasingly socially critical since the 1990s. The rabbit with the Five-wing: watchful observation, consistently protected private life, private pilot with a taste for safety procedure.",
+{ route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w3",
+    heading:"Reinhard Mey – Social Type 4",
+    teaser:"SO4w3 · born 1942. German singer-songwriter, on stage for over five decades, over 1,300 concerts. Melancholy as a recurring theme, a deliberate counterpoint to Schlager music, publicly processed the loss of his son Maximilian in 2014. The armadillo with the Three-wing: belonging through the audience, not through conforming to the mainstream.",
     land:"Germany", tags:["Music"], gender:"m"},
 { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust – Social Type 4",
@@ -24767,45 +24767,45 @@ function reinhardMeyPortraitPage() {
           <img src="../assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
-        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 &ndash; Animal correspondence: Rabbit</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Chronicler with a Guitar</h2>
+        <h2 class="vb-section">1. The Armadillo with a Guitar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of self-preservation Six: friendly, warm, watchful &ndash; a scanning gaze that carefully observes its immediate surroundings to know what is safe and what is not. Few German singer-songwriters embody this precise, warm-hearted observational gift as consistently as Reinhard Mey: on stage for over five decades, alone with a guitar, with lyrics that understand themselves as the work of a chronicler &ndash; someone who watches closely, listens to how people actually talk, and translates what he sees into language.</p>
-          <p class="vb-intro">Reinhard Mey, born in Berlin in 1942, has been one of the most defining figures of the German singer-songwriter scene since the late 1960s. He has repeatedly described himself as more of an observer and reporter of everyday life than a self-promoter &ndash; a stance driven less by emotional self-display than by precise, head-led perception of what happens around him.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of social Four: it carries its vulnerability visibly on its skin and seeks the group precisely because it never quite feels it belongs there. Few German singer-songwriters have turned this stance into art as consistently as Reinhard Mey: on stage for over five decades, alone with a guitar, with lyrics shaped throughout by wistfulness, loss, and his own unmistakable way of seeing the world.</p>
+          <p class="vb-intro">Reinhard Mey, born in Berlin in 1942, has been one of the most defining figures of the German singer-songwriter scene since the late 1960s. Melancholy, as he himself and countless observers of his work have noted, is his great, recurring theme &ndash; not a mere stylistic device, but the underlying tone from which he wrote for decades.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Self-Preservation Six: Security Within One's Own, Manageable Circle</h2>
+        <h2 class="vb-section">2. Social Four: Belonging Through the Audience, Not the Mainstream</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro"><strong>Self-preservation Six (SP6)</strong> seeks security not in a large institution or group &ndash; that would be social Six &ndash; but in the immediate, self-controllable environment: one's own home, one's own family, skills one has mastered oneself. Mey's decades-long protection of his private life, his reluctance toward media hype, and his need to carefully order his own immediate world all fit this pattern precisely.</p>
-          <p class="vb-intro">This shows especially clearly in his long-standing passion as a private pilot: flying demands exact procedural knowledge, checklists, precise control of every detail to create safety yourself rather than relying on others. "Über den Wolken" ("Above the Clouds") is, at its core, a song about exactly this self-earned freedom through mastery &ndash; not recklessness, but the precise, self-won control over a risk.</p>
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> carries the Four's core conviction &ndash; <em>I am different from others</em> &ndash; directly into the group, seeking there, through her own audience, a form of belonging often missing in everyday life. Naranjo describes this subtype through the element of <em>shame</em>: the constant search for confirmation from exactly the community one simultaneously feels different from.</p>
+          <p class="vb-intro">Mey never hid the fact that he found Schlager music alien and deliberately wanted his own music to serve as a counterpoint to it &ndash; a clear, headstrong positioning he maintained for decades despite commercial pressure. Over 1,300 concerts across five countries testify to a career built on exactly this principle: presenting one's own unmistakable voice again and again to a large audience, without ever adapting to it.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Five-Wing: The Observing Head-Type</h2>
+        <h2 class="vb-section">3. The Three-Wing: Over Five Decades on Stage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> strengthens Six's analytical, withdrawn observational gift &ndash; instead of the sociable restlessness of a Seven-wing, SP6w5 seeks precise, considered processing of what it perceives. Mey's self-understanding as a chronicler, his often sober, "only the necessary words" language, his seriousness even in the cheerfully intended early songs &ndash; all of this points to the head-led, observing Five-wing, not a sociable, distracting Seven-wing.</p>
-          <p class="vb-intro">Since the 1990s, Mey has increasingly taken social and political positions &ndash; against war, state arbitrariness, environmental destruction. These themes are Six-typical: concern for safety, distrust of uncontrolled power, a watchful questioning of authority &ndash; not the pure expression of individual uniqueness, but a worried, responsible vigilance toward what could harm the community.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> turns the Four's introspective sadness into an active drive toward visibility. Mey himself has said in interviews that he barely sings at home because he doesn't want to "put on a show" there &ndash; a clear separation between the authentic private self and the stage self typical of the Three-wing: the inner life is not constantly displayed, but deliberately reserved for the stage, where it can have an effect.</p>
+          <p class="vb-intro">"Über den Wolken" (1974) and countless other songs were performed to audiences of millions over decades &ndash; not written in quiet seclusion and kept to himself, but consistently aimed at reach and impact. The Three-wing knows: one's own uniqueness must become visible to count as confirmation.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. A Life Within a Carefully Guarded Frame</h2>
+        <h2 class="vb-section">4. The Loss of a Son and the Song That Carried It</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mey's music remained closely interwoven with his personal life for decades &ndash; from the early, often cheerfully ironic songs about everyday life and family to the later, more serious, more socially critical lyrics. What stayed constant was the warm but never exuberant underlying tone: closeness and attentiveness, without ever tipping into the dramatic &ndash; the friendly warmth of the rabbit, not the intense, often suffering self-display of another subtype.</p>
-          <p class="vb-intro">In 2009, his son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. This deep personal loss, publicly known but never turned into a stage spectacle, shows the core stance of SP6w5: one's own, closest circle is protected even in grief &ndash; not put on display, but carried with due restraint.</p>
+          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Rather than concealing this loss, Mey processed it publicly in songs like "Du bist ein Riese, Max!" ("You're a Giant, Max!") &ndash; encouraging and at once retrospectively melancholic, a father-son chanson that neither commercialized his own pain nor hid it.</p>
+          <p class="vb-intro">Politically too, Mey repeatedly took positions with great personal intensity: "Nein, meine Söhne geb' ich nicht" ("No, I Won't Give Up My Sons," 1986) is a deeply personal refusal of war and state abuse of power &ndash; not an abstract statement, but a protest fed by his own emotional truth, typical of the social Four, who articulates her deepest convictions publicly, but personally.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of SP6w5 shows in Mey's ability to combine precise observation with warm attentiveness &ndash; a chronicler who never comes across as coldly analytical, but always couples his watchful attention with genuine care. His musical consistency, combined with growing social vigilance, made him one of the most reliable voices in the German singer-songwriter tradition.</p>
-          <p class="vb-intro">The shadow shows in the caution the Five-wing brings: whoever mostly observes and controls the world rather than exposing themselves to it unprotected risks that real closeness always keeps a carefully controlled frame &ndash; warm, but rarely truly unguarded.</p>
+          <p class="vb-intro">The light of the SO4w3 shows in Mey's ability to turn deep personal melancholy into songs that have accompanied millions of people across generations &ndash; "Gute Nacht, Freunde" ("Good Night, Friends"), "Annabelle," and many more became a fixed part of the German-language songbook because they carried real emotional truth, not invented sentimentality.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; visible in Mey in his consistent resistance to the mainstream and his concern about being pigeonholed into the clichés of a genre he never felt he belonged to. His tightly guarded private life &ndash; he even had a biographical book legally banned &ndash; shows the shadow side: the fear that his own, carefully curated uniqueness could be damaged by someone else's interpretation.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Legacy: The Rabbit That Watched Closely</h2>
+        <h2 class="vb-section">6. The Legacy: The Armadillo Who Turned Melancholy Into Song</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Over five decades on stage, faithful to his own observational gift, never adapting to musical trends or media self-promotion &ndash; that is the lasting image of self-preservation Six with the Five-wing: visibility owed to precise observation, not to dramatic self-display.</p>
-          <p class="vb-intro">An interesting comparison within the same field of German-language song is <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SP6w5) &ndash; in him too, a withdrawn, domestic way of life combined with an extraordinary ability to capture the finest observations and moods in song form. More in the <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">portrait of Franz Schubert</a>.</p>
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Will I finally belong, if the others see who I really am?</em> to the insight <em>I already belong, regardless of whether the group confirms it.</em> Over five decades on stage, faithful to his own melancholic voice, never adapting to musical trends &ndash; that is the lasting image of the social Four with the Three-wing: visibility owed to one's own emotional truth, not to conforming to expectations.</p>
+          <p class="vb-intro">An interesting comparison within the same field of German-language song is <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SP6w5) &ndash; in him, musical sensitivity arises from an entirely different core pattern: domestic security rather than public visibility. The contrast shows how differently two singer-songwriter temperaments can arrive at comparably timeless music. More in the <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">portrait of Franz Schubert</a>.</p>
         </blockquote>
 
       </div>
@@ -24814,10 +24814,10 @@ function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
         {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SP6w5)"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
-        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
       ])}
     </div>
   `);
@@ -33180,6 +33180,7 @@ function hansChristianAndersenPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -33246,6 +33247,7 @@ function heinrichHeinePortraitPage() {
         {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
         {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3) – the mattress grave"},
       ])}
     </div>
@@ -49652,7 +49654,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
@@ -49662,7 +49664,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
         beschreibung: "Part of the SO4 does not hide introvertedly in its own shell, but consciously carries its own uniqueness outward – as a visible sign that both connects and excludes.",
-        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike; Heinrich Heine, who openly called his own baptism an 'admission ticket to European culture' rather than concealing it, and whose lifelong tension between Jewish origin and Christian conversion became the openly negotiated subject of his entire literary work, rather than something he hid."
+        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike; Heinrich Heine, who openly called his own baptism an 'admission ticket to European culture' rather than concealing it, and whose lifelong tension between Jewish origin and Christian conversion became the openly negotiated subject of his entire literary work, rather than something he hid; Reinhard Mey, who deliberately positioned his music as a counterpoint to Schlager and remained faithful to the same unmistakably melancholic voice across more than 1,300 concerts, rather than adapting to the mainstream."
       },
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",

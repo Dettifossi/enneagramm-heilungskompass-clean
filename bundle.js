@@ -31198,9 +31198,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1860\u20131911. \u00d6sterreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das G\u00fcrteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten \u00fcbersetzte.",
     land:"Österreich", tags:["Musik"], gender:"m"},
-  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SE6w5",
-    heading:"Reinhard Mey – Selbsterhaltender Typ 6",
-    teaser:"SE6w5 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Versteht sich selbst als Chronist und Beobachter, genaue und warmherzige Texte, seit den 1990ern zunehmend gesellschaftskritisch. Das Kaninchen mit Fünferflügel: wachsame Beobachtung, konsequent geschütztes Privatleben, Privatpilot mit Faible für Sicherheitsprozeduren.",
+  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w3",
+    heading:"Reinhard Mey – Sozialer Typ 4",
+    teaser:"SO4w3 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne, über 1300 Konzerte. Melancholie als durchgängiges Thema, bewusster Gegenpol zum Schlager, öffentliche Verarbeitung des Verlusts seines Sohnes Maximilian 2014. Das Gürteltier mit Dreierflügel: Zugehörigkeit über das Publikum, nicht über Anpassung an den Mainstream.",
     land:"Deutschland", tags:["Musik"], gender:"m"},
   { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust \u2013 Sozialer Typ 4",
@@ -43135,7 +43135,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Reinhard Mey", "Zachäus"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
@@ -43145,7 +43145,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
         beschreibung: "Die eigentliche Heimat ist nicht die Öffentlichkeit oder das Rampenlicht, sondern der enge, vertraute Kreis – Freunde, Familie, ein bekannter Ort –, aus dem heraus auch außergewöhnliche Leistung entstehen kann.",
-        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist – und der seine seit den 1950er-Jahren dokumentierte Gesundheitsangst nicht verbarg, sondern über Jahrzehnte in Sprache, Witz und über 35 Jahre Psychoanalyse verwandelte; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit; Reinhard Mey, der trotz über fünf Jahrzehnten Bühnenpräsenz als ausgesprochen privater Mensch gilt, Medienrummel meidet und den tiefen Verlust seines 2014 verstorbenen Sohnes nie zur Bühnen-Inszenierung machte – das Vertraute, nicht die Öffentlichkeit, bleibt sein eigentlicher Rückzugsort; Zachäus, der Zöllner, dessen Baum ›hoch genug war, um den Überblick zu behalten, nah genug, um zu sehen‹ – Sicherheit durch kontrollierte Distanz, bis ein einziger Anruf ihn aus dem sicheren Abstand in echte Nähe holte."
+        beleg: "Franz Schubert, der ›zeitlebens die Öffentlichkeit des Konzertsaals mied und sein wahres Zuhause im privaten Kreis enger Freunde fand‹ – die Schubertiaden; Woody Allen, der ›praktisch sein ganzes Leben in Manhattan verbracht hat‹ und ›am liebsten auf bekannten Wegen, zu bekannten Zeiten‹ unterwegs ist – und der seine seit den 1950er-Jahren dokumentierte Gesundheitsangst nicht verbarg, sondern über Jahrzehnte in Sprache, Witz und über 35 Jahre Psychoanalyse verwandelte; Neil Armstrong, der nach der Mondlandung ›nichts sehnlicher wollte als Normalität‹ und auf seinen Bauernhof in Ohio zurückkehrte; Beatrice Chebet: ›Das Kaninchen rennt nicht weg. Es rennt nach Hause.‹; Klaus J. Behrendt, der trotz jahrzehntelanger Fernsehpräsenz als Tatort-Kommissar Schenk kaum Homestorys zulässt und sein Leben erkennbar auf wenige, aber tragfähige Bindungen und Routinen ausgerichtet hat statt auf zusätzliche Sichtbarkeit; Zachäus, der Zöllner, dessen Baum ›hoch genug war, um den Überblick zu behalten, nah genug, um zu sehen‹ – Sicherheit durch kontrollierte Distanz, bis ein einziger Anruf ihn aus dem sicheren Abstand in echte Nähe holte."
       },
       {
         titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
@@ -43270,7 +43270,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
@@ -43280,7 +43280,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trägt das eigene Anderssein sichtbar zur Schau, statt es zu verbergen",
         beschreibung: "Ein Teil der SO4 verbirgt sich nicht introvertiert im eigenen Panzer, sondern trägt die eigene Einzigartigkeit bewusst nach außen – als sichtbares Zeichen, das zugleich verbindet und ausgrenzt.",
-        beleg: "Johnny Depp: ›Diese Vier versteckt sich nicht im eigenen Panzer, sondern trägt ihn stolz zur Schau – als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können‹; Gustav Mahler, der als Jude und Künstler mit radikal eigenwilliger Sprache ›sein Anderssein nicht verbirgt, sondern sichtbar in die Öffentlichkeit trägt, in eine Gruppe, die es zugleich fasziniert und ausschließt‹; Javier Parisi, der ›sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt – und darin, paradoxerweise, sich selbst findet‹, als John-Lennon-Doppelgänger; Cat Stevens/Yusuf Islam, der seine radikale Identitätssuche nach einem Beinahe-Ertrinken 1976 nicht im Stillen vollzog, sondern öffentlich – bis zur vollständigen Umbenennung und einem fast dreißigjährigen Rückzug aus der Musikindustrie zugunsten einer neuen, ebenso öffentlich gelebten Mission; Heinrich Heine, der seine Taufe selbst offen als ›Entrée-Billet zur europäischen Kultur‹ bezeichnete, statt sie zu verschweigen, und dessen Zerrissenheit zwischen jüdischer Herkunft und christlicher Konversion zum offen verhandelten Thema seines gesamten literarischen Werks wurde, statt sie zu verbergen."
+        beleg: "Johnny Depp: ›Diese Vier versteckt sich nicht im eigenen Panzer, sondern trägt ihn stolz zur Schau – als Beweis der eigenen Einzigartigkeit, auf einer Bühne, die alle sehen können‹; Gustav Mahler, der als Jude und Künstler mit radikal eigenwilliger Sprache ›sein Anderssein nicht verbirgt, sondern sichtbar in die Öffentlichkeit trägt, in eine Gruppe, die es zugleich fasziniert und ausschließt‹; Javier Parisi, der ›sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt – und darin, paradoxerweise, sich selbst findet‹, als John-Lennon-Doppelgänger; Cat Stevens/Yusuf Islam, der seine radikale Identitätssuche nach einem Beinahe-Ertrinken 1976 nicht im Stillen vollzog, sondern öffentlich – bis zur vollständigen Umbenennung und einem fast dreißigjährigen Rückzug aus der Musikindustrie zugunsten einer neuen, ebenso öffentlich gelebten Mission; Reinhard Mey, der seine Musik bewusst als Gegenpol zum Schlager positionierte und über 1300 Konzerte lang derselben, unverwechselbar melancholischen Stimme treu blieb, statt sich dem Mainstream anzupassen; Heinrich Heine, der seine Taufe selbst offen als ›Entrée-Billet zur europäischen Kultur‹ bezeichnete, statt sie zu verschweigen, und dessen Zerrissenheit zwischen jüdischer Herkunft und christlicher Konversion zum offen verhandelten Thema seines gesamten literarischen Werks wurde, statt sie zu verbergen."
       },
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
