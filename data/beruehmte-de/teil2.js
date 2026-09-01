@@ -320,6 +320,7 @@ export function claudeDebussyPortraitPage() {
         {route:"beruehmte-linda-leinweber", label:"Portr\xe4t: Linda Leinweber (SX4w5)"},
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
+        {route:"beruehmte-jean-paul-sartre", label:"Porträt: Jean-Paul Sartre (SX4w5)"},
       ])}
     </div>
   `);

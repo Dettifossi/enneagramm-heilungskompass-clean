@@ -1402,6 +1402,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dante Alighieri – Sexual Type 4",
     teaser:"SX4w5 · 1265–1321. Italian poet, Divine Comedy. Exile from Florence, unfulfilled love for Beatrice, political enemies immortalized by name in Hell. The Chihuahua with the Five-wing: personal pain transformed into an encyclopedic world tribunal. Animal correspondence: Chihuahua.",
     land:"Italy", tags:["History","Literature"], gender:"m"},
+{ route:"beruehmte-jean-paul-sartre", name:"Jean-Paul Sartre", added:"2026-09-01", subtyp:"SX4w5",
+    heading:"Jean-Paul Sartre – Sexual Type 4",
+    teaser:"SX4w5 · 1905–1980, born in Paris. Philosopher and writer, Being and Nothingness, existentialism. First person ever to decline the Nobel Prize in Literature in 1964, open relationship with Simone de Beauvoir, radical rejection of every bourgeois convention. Animal correspondence: Chihuahua.",
+    land:"France", tags:["Philosophy","History"], gender:"m"},
 { route:"beruehmte-augustinus-von-hippo", name:"Augustine of Hippo", added:"2026-09-01", subtyp:"SX4w5",
     heading:"Augustine of Hippo – Sexual Type 4",
     teaser:"SX4w5 · 354–430 AD, born in Thagaste, Roman North Africa. Church father and philosopher, Confessions, City of God. Restless struggle for the one unattainable truth, from his youthful love through Manichaeism to his conversion in Milan. Animal correspondence: Chihuahua.",
@@ -26062,6 +26066,7 @@ function claudeDebussyPortraitPage() {
         {route:"beruehmte-linda-leinweber", label:"Portrait: Linda Leinweber (SX4w5)"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
       ])}
     </div>
   `);
@@ -26128,6 +26133,7 @@ function danteAlighieriPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
         {route:"hoellenkreise-dante", label:"Chart: The 9 Circles of Hell According to Dante's Inferno"},
@@ -26197,9 +26203,76 @@ function augustinusVonHippoPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology was shaped by Augustine"},
         {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – whose theology built on Augustine"},
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanPaulSartrePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jean-paul-sartre-portrait.jpg" alt="Jean-Paul Sartre" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Paul Sartre</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexual Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher and writer, 1905&ndash;1980, born in Paris &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua With the Wandering Gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the sexual Four &ndash; small in stature, but carrying an intensity wildly out of proportion to its size, and a wariness that never quite lets it rest. At age three, Sartre fell severely ill with the flu, which left a scar on the cornea of his right eye and rendered him nearly blind in it &ndash; over the years, the blind eye visibly drifted outward, giving him the distinctive strabismus that later became his unmistakable trademark.</p>
+          <p class="vb-intro">Born in 1905 in Paris, an only child, Sartre lost his father in infancy and grew up in his maternal grandfather's house, surrounded by books and intellectual expectation. Even as a child, he developed the conviction that he was no ordinary child &ndash; a perception his wandering gaze only reinforced. The Chihuahua, whose appearance set him apart from others, early made that difference a source of inner meaning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Four: Rivalry Against Every Bourgeois Convention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> searches for the one connection, the one truth that outshines everything else &ndash; and at the same time rebels against any external form that threatens to constrain that intensity. Naranjo called this subtype <em>Rivalry</em>: a constant, often unconscious struggle against anything that presents itself as a given, foreign order.</p>
+          <p class="vb-intro">In 1929 Sartre met Simone de Beauvoir &ndash; the beginning of a connection lasting more than five decades, which he explicitly refused to understand as a "bourgeois marriage," living it instead as an open partnership built on mutual intellectual rivalry and recognition, in which both sides also pursued other relationships. This radical refusal to submit to a socially prescribed form ran through his entire life: in 1964 he became the first person ever to decline the Nobel Prize in Literature, arguing that a writer must not allow himself to be transformed into an institution. The SX4 does not fight institutions in the abstract &ndash; it fights because any externally imposed form feels like an attack on its own unmistakable truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Struggle as a Philosophical System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the sexual Four the analytical sharpness not merely to live through its own burning struggle, but to translate it into a fully worked-out structure of thought. In 1943 Sartre published "Being and Nothingness," his major philosophical work &ndash; more than 700 pages that frame consciousness as radical freedom and as a constant struggle with its own nothingness, built on Kant, Hegel, Kierkegaard, Husserl, and Heidegger, yet condensed into a distinct system of his own.</p>
+          <p class="vb-intro">The Five-wing also showed in the capacity for withdrawal with which Sartre worked on his oeuvre for decades &ndash; often fueled by amphetamines to sustain the concentration needed for hours-long, solitary writing sessions. What a pure SX4 lives through as raw intensity, the Five-wing turned in Sartre into one of the most influential philosophical systems of the 20th century.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Crabs of Le Havre and the Escape From the POW Camp</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1935 Sartre experimented with mescaline &ndash; a single trip whose aftereffects pursued him for nearly a year: he repeatedly saw himself surrounded by imaginary crabs that accompanied his every step. Rather than repress the episode, he later processed it literarily in his play "The Condemned of Altona" &ndash; the hallucinated threat became raw material for a work, exactly as is typical of the sexual Four.</p>
+          <p class="vb-intro">In 1940 Sartre was taken prisoner of war by the Germans. It was precisely his blind, wandering eye &ndash; which had actually been a hindrance &ndash; that spared him forced labor and, under the pretext of needing ophthalmological treatment, got him a pass out of the camp; he used it to escape and never returned. What had begun as a flaw became a tool of self-liberation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w5 shows in Sartre's ability to build, out of radical personal freedom, an entire philosophy that shaped millions of people in the 20th century &ndash; the conviction that human beings are "condemned to be free" and must reinvent themselves in every moment. Politically too, he refused any comfortable allegiance, positioning himself throughout his life against colonialism and for society's marginalized.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SX4 turned into a permanent rivalry against any authority, any convention that seems to deny her own uniqueness. In Sartre, the shadow showed in decades of excessive alcohol, nicotine, and amphetamine use that significantly damaged his health, as well as in a restlessness that never let him find inner peace &ndash; there was always another fight, another work, another position to be taken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Chihuahua Whom 50,000 People Paid Their Last Respects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>I am already complete, without having to assert myself against others.</em> For the SX4w5, this path shows itself as the restless struggle against every given form transforming into a sustaining, self-derived certainty &ndash; no less intense, but no longer driven by pure defense.</p>
+          <p class="vb-intro">Sartre died on April 15, 1980, in Paris. A few days later, more than 50,000 people lined the streets of Paris to pay their last respects as his coffin made its way to the Montparnasse cemetery &ndash; a spontaneous, unplanned procession of mourning for a man who had rejected every institution throughout his life. The Chihuahua whose wandering gaze had once set him apart from others had, in the end, created a way of seeing the world that millions of people made their own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
       ])}
     </div>
   `);
@@ -49256,7 +49329,7 @@ const LEBENSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Small in stature, immense inner life – intensity that knows no half-measures (Naranjo: Competitiveness)",
-    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji", "Augustine of Hippo", "Francisco de Goya"],
+    beispiele: ["Voltaire", "Freddie Mercury", "Rihanna", "Billie Eilish", "Ana de Armas", "Linda Leinweber", "Dante Alighieri", "Claude Debussy", "Marquis de Sade", "Bonnie Parker", "Adolf Hitler", "Paris Hilton", "Bill Kaulitz", "Jude Thaddaeus", "Gangaji", "Augustine of Hippo", "Francisco de Goya", "Jean-Paul Sartre"],
     fingerabdruecke: [
       {
         titel: "Small in stature or origin, immense inner life – intensity without half-measures",
@@ -49271,7 +49344,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Uncompromising intensity that submits to no external convention",
         beschreibung: "Adapting to expectations, rules, or social norms is experienced as constriction, which is resisted with all one's strength – even when that means open conflict with one's own era.",
-        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for' – and who never met his own nearly nine-year cancer illness with retreat, giving a final concert under cannon fire as late as 1917; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent; Francisco de Goya, who as First Court Painter to the Spanish crown did not flatter his patrons with idealized likenesses but painted them with almost unsparing directness, and who, after being deafened by illness in 1793, did not grow quieter but laid bare clergy, nobility, and the horrors of war without embellishment in the 'Caprichos' and 'The Disasters of War'."
+        beleg: "Claude Debussy, who as a student 'regularly provoked his teachers with chord progressions considered \"wrong\"': 'The Chihuahua who sensed from the start: the rules I'm being taught are not the truth I'm looking for' – and who never met his own nearly nine-year cancer illness with retreat, giving a final concert under cannon fire as late as 1917; Linda Leinweber: 'Depth that isn't ashamed. Insight that doesn't hide'; Voltaire, who after his imprisonment in the Bastille 'bit back sharper' instead of staying silent; Jean-Paul Sartre, who in 1964 became the first person ever to decline the Nobel Prize in Literature because a writer must not let himself be transformed into an institution, and who lived his relationship with Simone de Beauvoir explicitly not as a 'bourgeois marriage' but as an open partnership built on mutual rivalry; Francisco de Goya, who as First Court Painter to the Spanish crown did not flatter his patrons with idealized likenesses but painted them with almost unsparing directness, and who, after being deafened by illness in 1793, did not grow quieter but laid bare clergy, nobility, and the horrors of war without embellishment in the 'Caprichos' and 'The Disasters of War'."
       },
       {
         titel: "When the same boundless intensity turns against others instead of against conventions (shadow form)",
@@ -108352,6 +108425,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
+      "beruehmte-jean-paul-sartre": jeanPaulSartrePortraitPage,
       "beruehmte-augustinus-von-hippo": augustinusVonHippoPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,

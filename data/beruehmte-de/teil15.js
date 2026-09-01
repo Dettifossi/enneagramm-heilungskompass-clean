@@ -1557,3 +1557,69 @@ export function xuBingPortraitPage() {
     </div>
   `);
 }
+
+export function jeanPaulSartrePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jean-paul-sartre-portrait.jpg" alt="Jean-Paul Sartre – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Paul Sartre</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph und Schriftsteller, 1905&ndash;1980, geboren in Paris &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua mit dem abweichenden Blick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier &ndash; klein von Statur, aber mit einer Intensität ausgestattet, die in keinem Verhältnis zu seiner Größe steht, und mit einer Wachsamkeit, die ihn nie ganz zur Ruhe kommen lässt. Sartre erkrankte im Alter von drei Jahren an einer schweren Grippe, die zu einer Hornhautnarbe auf dem rechten Auge führte und ihn auf diesem Auge fast vollständig erblinden ließ &ndash; im Lauf der Jahre driftete das erblindete Auge sichtbar nach außen ab und prägte sein Gesicht mit dem markanten Schielen, das später zu seinem unverwechselbaren Erkennungszeichen wurde.</p>
+          <p class="vb-intro">Geboren 1905 in Paris als einziges Kind, verlor Sartre seinen Vater bereits im Säuglingsalter und wuchs im Haus seines Großvaters mütterlicherseits auf, umgeben von Büchern und intellektuellem Anspruch. Schon als Kind entwickelte er die Überzeugung, kein gewöhnliches Kind zu sein &ndash; eine Wahrnehmung, die sein abweichender Blick nur noch verstärkte. Der Chihuahua, dessen Äußeres ihn von den anderen unterschied, machte aus diesem Unterschied früh eine Quelle innerer Bedeutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität gegen jede bürgerliche Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> sucht die eine Verbindung, die eine Wahrheit, die alles andere überstrahlt &ndash; und lehnt sich zugleich gegen jede äußere Form auf, die diese Intensität einzuschränken droht. Naranjo nannte diesen Subtyp <em>Rivalität</em>: einen ständigen, oft unbewussten Kampf gegen alles, was sich als vorgegebene, fremde Ordnung präsentiert.</p>
+          <p class="vb-intro">1929 lernte Sartre Simone de Beauvoir kennen &ndash; der Beginn einer über fünf Jahrzehnte dauernden Verbindung, die er ausdrücklich nicht als &raquo;bürgerliche Ehe&laquo; verstand, sondern als offene, auf gegenseitiger intellektueller Rivalität und Anerkennung beruhende Partnerschaft, in der beide Seiten auch andere Beziehungen führten. Diese radikale Weigerung, sich einer gesellschaftlich vorgeschriebenen Form zu unterwerfen, zog sich durch sein gesamtes Leben: 1964 lehnte er als erster Literaturnobelpreisträger überhaupt die Auszeichnung ab, mit der Begründung, ein Schriftsteller dürfe sich nicht in eine Institution verwandeln lassen. Die SX4 kämpft nicht abstrakt gegen Institutionen &ndash; sie kämpft, weil jede von außen auferlegte Form sich wie ein Angriff auf die eigene, unverwechselbare Wahrheit anfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Ringen als philosophisches System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier die analytische Schärfe, das eigene glühende Ringen nicht nur zu durchleben, sondern in ein durchdachtes Gedankengebäude zu übersetzen. 1943 veröffentlichte Sartre mit &raquo;Das Sein und das Nichts&laquo; sein philosophisches Hauptwerk &ndash; über 700 Seiten, die das Bewusstsein als radikale Freiheit und als ständiges Ringen mit dem eigenen Nichts fassen, aufgebaut auf Kant, Hegel, Kierkegaard, Husserl und Heidegger, aber zu einem eigenständigen System verdichtet.</p>
+          <p class="vb-intro">Der Fünferflügel zeigte sich auch in der Rückzugsfähigkeit, mit der Sartre über Jahrzehnte an seinem Werk arbeitete &ndash; oft an Amphetamine gebunden, um die nötige Konzentration für stundenlange, einsame Schreibsitzungen aufzubringen. Was die reine SX4 als rohe Intensität durchlebt, verwandelte der Fünferflügel bei Sartre in eines der einflussreichsten philosophischen Systeme des 20. Jahrhunderts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Krabben von Le Havre und die Flucht aus dem Kriegsgefangenenlager</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1935 experimentierte Sartre mit Meskalin &ndash; ein einziger Trip, dessen Nachwirkungen ihn fast ein Jahr lang verfolgten: Er sah sich immer wieder von imaginären Krabben umgeben, die ihn auf Schritt und Tritt begleiteten. Statt die Episode zu verdrängen, verarbeitete er sie später literarisch in seinem Stück &raquo;Les Séquestrés d&#39;Altona&laquo; &ndash; die halluzinierte Bedrohung wurde zum Rohstoff für ein Werk, wie es für die sexuelle Vier typisch ist.</p>
+          <p class="vb-intro">1940 geriet Sartre in deutsche Kriegsgefangenschaft. Ausgerechnet sein blindes, abweichendes Auge, das ihn eigentlich behinderte, bewahrte ihn vor Zwangsarbeit und verschaffte ihm unter dem Vorwand einer augenärztlichen Behandlung einen Passierschein aus dem Lager &ndash; er nutzte ihn zur Flucht und kehrte nie zurück. Was als Makel begonnen hatte, wurde zum Werkzeug der Selbstbefreiung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w5 zeigt sich in Sartres Fähigkeit, aus radikaler persönlicher Freiheit eine ganze Philosophie zu bauen, die Millionen Menschen im 20. Jahrhundert prägte &ndash; die Überzeugung, dass der Mensch &raquo;zur Freiheit verurteilt&laquo; ist und sich in jedem Moment neu erfinden muss. Auch politisch verweigerte er sich jeder bequemen Zugehörigkeit und positionierte sich Zeit seines Lebens gegen Kolonialismus und für gesellschaftliche Randgruppen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 gewendet in eine permanente Rivalität gegen jede Autorität, jede Konvention, die ihr die eigene Einzigartigkeit zu bestreiten scheint. Bei Sartre zeigte sich der Schatten in exzessivem Alkohol-, Nikotin- und Amphetaminkonsum über Jahrzehnte, der seine Gesundheit erheblich schädigte, sowie in einer Rastlosigkeit, die ihn nie zu innerer Ruhe kommen ließ &ndash; immer musste ein weiterer Kampf, ein weiteres Werk, eine weitere Position bezogen werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, dem 50.000 Menschen die letzte Ehre erwiesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Ich bin bereits vollständig, ohne mich gegen andere behaupten zu müssen.</em> Für die SX4w5 zeigt sich dieser Weg darin, dass das rastlose Ringen gegen jede vorgegebene Form sich in eine tragfähige, eigenständige Gewissheit verwandelt &ndash; nicht weniger intensiv, aber nicht mehr getrieben von reiner Abwehr.</p>
+          <p class="vb-intro">Sartre starb am 15. April 1980 in Paris. Mehr als 50.000 Menschen säumten wenige Tage später die Straßen von Paris, um seinem Sarg auf dem Weg zum Friedhof Montparnasse die letzte Ehre zu erweisen &ndash; ein spontaner, ungeplanter Trauerzug für einen Mann, der zeitlebens jede Institution abgelehnt hatte. Der Chihuahua, dessen abweichender Blick ihn einst von anderen unterschied, hatte am Ende einen Blick auf die Welt geschaffen, den Millionen Menschen zu ihrem eigenen machten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Porträt: Augustinus von Hippo (SX4w5)"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+      ])}
+    </div>
+  `);
+}

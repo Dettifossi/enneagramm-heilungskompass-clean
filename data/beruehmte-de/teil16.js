@@ -1548,6 +1548,7 @@ export function augustinusVonHippoPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-jean-paul-sartre", label:"Porträt: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie von Augustinus geprägt wurde"},
         {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – dessen Theologie auf Augustinus aufbaute"},
         {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
