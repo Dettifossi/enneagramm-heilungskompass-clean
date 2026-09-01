@@ -66,7 +66,7 @@ export function albertEinsteinPortraitPage() {
         {route:"astrologie-albert-einstein", label:"Astrologie-Portr\u00e4t: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portr\u00e4t: Stephen Hawking (SO5w6)"},
-        {route:"beruehmte-hannah-arendt", label:"Portr\u00e4t: Hannah Arendt (SO5w4) \u2013 auffallend \u00e4hnliche Gesichtsz\u00fcge trotz unterschiedlichen Geschlechts"},
+        {route:"beruehmte-hannah-arendt", label:"Portr\u00e4t: Hannah Arendt (SO5w4) \u2013 auffallend \u00e4hnliche Blickqualit\u00e4t und Gesichtsz\u00fcge trotz unterschiedlichen Geschlechts"},
       ])}
     </div>
   `);

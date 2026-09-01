@@ -23273,7 +23273,7 @@ function albertEinsteinPortraitPage() {
         {route:"astrologie-albert-einstein", label:"Astrology Portrait: Albert Einstein (SO5w6)"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
-        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – strikingly similar facial features despite different gender"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – strikingly similar gaze quality and facial features despite different gender"},
       ])}
     </div>
   `);
@@ -41819,7 +41819,7 @@ function hannahArendtPortraitPage() {
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6) – contemporary with a different wing"},
         {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
-        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – strikingly similar facial features"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – strikingly similar gaze quality and facial features"},
         {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – smoking and heart attacks"},
       ])}
     </div>
