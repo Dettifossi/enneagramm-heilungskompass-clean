@@ -174,6 +174,7 @@ export function albertEinsteinKrankheitsportraetPage() {
         {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4) – Lebenswerk"},
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
         {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsporträt: Hannah Arendt (SO5w4) – dasselbe Muster: Warnung zur Kenntnis genommen, nicht befolgt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}

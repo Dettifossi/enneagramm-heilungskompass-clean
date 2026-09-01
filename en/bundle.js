@@ -327,6 +327,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-nusrat-fateh-ali-khan", name:"Nusrat Fateh Ali Khan", subtyp:"SE2w3", heading:"Nusrat Fateh Ali Khan – Self-Preservation Type 2", krankheit:"Diabetes with progressive kidney failure and liver damage from contaminated dialysis", teaser:"SE2w3 – Pakistani Qawwali singer, 1948–1997. Years of untreated, progressing diabetes and significant weight gain led to kidney failure and twice-weekly dialysis. Died in 1997 at age 48 from acute cardiac arrest following a hepatitis infection contracted through contaminated dialysis equipment, on the way to a planned kidney transplant." , land:"Pakistan", gender:"m", jahre:"1948–1997"},
   { route:"krankheitsportraets-marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4", heading:"Marilyn Monroe – Sexual Type 3", krankheit:"Fatal combination of barbiturates (Nembutal) and chloral hydrate, officially classified as probable suicide", teaser:"SX3w4 – actress, 1926–1962. Endometriosis hidden for years behind a flawless image, escalating dependency on sleeping pills, a forced psychiatric hospitalization in 1961. Died in 1962 at 36 – the exact circumstances of her death remain disputed to this day." , land:"USA", gender:"f", jahre:"1926–1962"},
   { route:"krankheitsportraets-albert-einstein", name:"Albert Einstein", subtyp:"SO5w4", heading:"Albert Einstein – Social Type 5", krankheit:"Abdominal aortic aneurysm, known for over six and a half years and only palliatively stabilized, fatal rupture in 1955", teaser:"SO5w4 – physicist, Nobel laureate, 1879–1955. Diagnosed in 1948, he lived for years with a known, never curatively treated threat. In 1955 he deliberately declined a further operation and died days later of the ruptured aneurysm – working until the end." , land:"Germany/USA", gender:"m", jahre:"1879–1955"},
+  { route:"krankheitsportraets-hannah-arendt", name:"Hannah Arendt", subtyp:"SO5w4", heading:"Hannah Arendt – Social Type 5", krankheit:"Coronary artery disease from decades of smoking, second heart attack fatal", teaser:"SO5w4 – political theorist, 1906–1975. Lifelong chain smoker, nearly fatal first heart attack in 1974, continued smoking despite medical warning. Died on December 4, 1975, of a second heart attack while serving coffee to guests.", land:"Germany/USA", gender:"f", jahre:"1906–1975"},
   { route:"krankheitsportraets-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3", heading:"Freddie Mercury – Sexual Type 4", krankheit:"AIDS-related bronchopneumonia, kept strictly secret for nearly five years and confirmed publicly only one day before his death", teaser:"SX4w3 – musician, Queen frontman, 1946–1991. Diagnosed, according to Jim Hutton, in the spring of 1987, followed by strict secrecy while continuing to work to the point of physical exhaustion. Confirmed the illness himself only on November 23, 1991, and died the next day." , land:"United Kingdom", gender:"m", jahre:"1946–1991"},
   { route:"krankheitsportraets-claude-debussy", name:"Claude Debussy", subtyp:"SX4w5", heading:"Claude Debussy – Sexual Type 4", krankheit:"Colorectal Cancer", teaser:"SX4w5 – composer, 1862–1918. Diagnosed in 1909, from 1915 several painful radium treatments and a colostomy operation. Gave one of his last concerts in September 1917 under wartime conditions. Died on 25 March 1918 in Paris during the German shelling of the city." , land:"France", gender:"m", jahre:"1862–1918"},
   { route:"krankheitsportraets-lady-diana", name:"Lady Diana", subtyp:"SE4w3", heading:"Lady Diana – Self-Preservation Type 4", krankheit:"Bulimia concealed for years, together with self-harm and postnatal depression", teaser:"SE4w3 – Princess of Wales, 1961–1997. Began, by her own account, the week after her engagement to Prince Charles in 1981; she first made it public herself in the 1995 BBC Panorama interview. Died in 1997 in a car accident in Paris – with no documented link to the earlier illness." , land:"United Kingdom", gender:"f", jahre:"1961–1997"},
@@ -41819,6 +41820,7 @@ function hannahArendtPortraitPage() {
         {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6) – contemporary with a different wing"},
         {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – strikingly similar facial features"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – smoking and heart attacks"},
       ])}
     </div>
   `);
@@ -50051,12 +50053,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Working to the very end – in hardly any other group does continued work despite progressive, often fatal illness run through the cases so consistently.",
-    beispiele: ["Dr. Claudio Naranjo", "Albert Einstein", "Stephen Hawking", "Isaac Newton", "Leonardo da Vinci"],
+    beispiele: ["Dr. Claudio Naranjo", "Albert Einstein", "Stephen Hawking", "Isaac Newton", "Leonardo da Vinci", "Hannah Arendt"],
     fingerabdruecke: [
       {
         titel: "Unabated continued work despite progressive, known illness",
         beschreibung: "In practically every SO5 case so far, intellectual or creative work continues nearly undiminished despite substantial physical limitation – knowledge and work are carried forward to the physical limit.",
         beleg: "Stephen Hawking, who worked on open questions in physics for 55 years despite total paralysis; Albert Einstein, who lived with a known, untreated aneurysm threat for six and a half years and worked on equations until his last night; Leonardo da Vinci, who switched to his left hand after a stroke paralyzed his right and kept working on the Mona Lisa."
+      },
+      {
+        titel: "A known warning is acknowledged but not followed",
+        beschreibung: "The social Five repeatedly shows a pattern in which medical advice or a recognizable health risk is understood intellectually but not translated into consistent behavioral change – knowledge of the risk stays separate from practical implementation.",
+        beleg: "Albert Einstein, who in 1955 deliberately declined a recommended operation for his known aneurysm rather than submit to medical advice; Hannah Arendt, who after her nearly fatal first heart attack in 1974 merely switched to milder cigarettes on her doctor's advice rather than quitting smoking altogether – a year and a half later she succumbed to a second, fatal heart attack."
       }
     ]
   },
@@ -61460,6 +61467,170 @@ function albertEinsteinKrankheitsportraetPage() {
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – life's work"},
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – the same pattern of unrestrained creation"},
         {route:"krankheitsportraets-stephen-hawking", label:"Illness Portrait: Stephen Hawking (SO5w6) – the same pattern of unabated work to the end"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – the same pattern: warning acknowledged, not followed"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype Profile SO5"},
+      ])}
+    </div>
+  `);
+}
+
+function hannahArendtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-hannah-arendt-portrait.jpg" alt="Hannah Arendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Arendt</p>
+        <p class="krim-portrait-typ">SO5w4 · Social Type 5 with Four-wing · 1906–1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hannah Arendt</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-hannah-arendt">famous-personality portrait</a>
+        – that page covers her political thinking and her type structure in general. This
+        page goes deeper into a chapter mentioned there only in passing: a lifelong chain
+        smoker whose first, nearly fatal heart attack in 1974 did not make her quit – with
+        fatal consequences a year and a half later.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Arendt</strong> is assigned to the <strong>Social Type 5 with Four-wing</strong>.
+        SO5 seeks security through knowledge and intellectual authority, not through outward
+        compliance with medical advice. The Four-wing adds an existential, often headstrong
+        depth &ndash; a refusal to bend to external rules, even when they serve one's own
+        health. This exact combination shaped how she dealt with her own mortality.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Decades of heavy smoking:</strong>
+        Arendt was a lifelong chain smoker &ndash; Chesterfields, Lucky Strikes, Camels,
+        occasionally cigars and pipe tobacco as well. Smoking was, for her, inseparable from
+        the act of thinking and writing itself.</p>
+        <p class="vb-intro"><strong>b) A nearly fatal first heart attack in 1974:</strong>
+        In May 1974 she suffered a severe heart attack while lecturing in Scotland, which
+        nearly proved fatal. She recovered, but remained in noticeably poor health
+        afterward.</p>
+        <p class="vb-intro"><strong>c) Coronary artery disease as a result:</strong>
+        In the months following the first heart attack, she developed coronary artery disease
+        &ndash; considered a direct result of decades of smoking.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A doctor's advice to switch to Kools:</strong>
+        After the first heart attack, her doctor advised her, at minimum, to switch to
+        menthol Kools cigarettes &ndash; a compromise that did not seriously pursue full
+        smoking cessation at all.</p>
+        <p class="vb-intro"><strong>b) No behavioral change despite the brush with death:</strong>
+        Arendt continued smoking after the heart attack, albeit with the recommended brand.
+        No fundamental change to her lifestyle took place.</p>
+        <p class="vb-intro"><strong>c) Work continued unabated:</strong>
+        In the year and a half between her first and second heart attacks, she kept writing
+        "The Life of the Mind," her final, three-part planned work &ndash; with no noticeable
+        slowdown in her workload.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) One last sociable evening:</strong>
+        On December 4, 1975, Arendt had invited guests to dinner at her New York apartment
+        &ndash; a normal, sociable evening, with no sign of an impending crisis.</p>
+        <p class="vb-intro"><strong>b) The second, fatal heart attack while serving coffee:</strong>
+        After moving to the living room to serve coffee following dinner, she had a short
+        coughing fit before losing consciousness.</p>
+        <p class="vb-intro"><strong>c) A typewriter bearing only a heading:</strong>
+        In her typewriter was a page with the heading "Judging" and two epigraphs, but no
+        further text &ndash; the planned third part of her final work remained forever
+        unfinished.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Death on December 4, 1975:</strong>
+        Hannah Arendt died at age 69 in her New York apartment &ndash; her second heart
+        attack within nineteen months proved fatal.</p>
+        <p class="vb-intro"><strong>b) Smoking as the likely primary factor:</strong>
+        Her decades-long cigarette use, continued even after the first heart attack, is
+        considered the most likely primary cause of the coronary artery disease that led to
+        her death.</p>
+        <p class="vb-intro"><strong>c) A work others had to finish:</strong>
+        Her friend, the writer Mary McCarthy, posthumously edited and published the
+        unfinished "The Life of the Mind" in two volumes in 1977 and 1978.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Knowledge of the risk, without consequence for behavior:</strong>
+        The SO5-typical separation of intellectual understanding from emotional-practical
+        implementation showed clearly: Arendt knew of the danger, but changed only the bare
+        minimum instead of quitting smoking entirely.</p>
+        <p class="vb-intro"><strong>b) The Four-wing and the refusal to submit to external rules:</strong>
+        As in her intellectual stance toward critics, she did not blindly follow medical
+        advice here either, but made her own, only partially adjusted decision &ndash;
+        autonomy even against her own health.</p>
+        <p class="vb-intro"><strong>c) Retreat into work rather than caution:</strong>
+        Rather than living more cautiously after the first heart attack, she immersed
+        herself further in her most demanding, final philosophical project.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A habit that became a tool of thought:</strong>
+        For Arendt, smoking was not a mere vice, but closely woven into the act of thinking
+        and writing itself &ndash; a ritual that accompanied her for decades and that she did
+        not give up even in the face of concrete mortal danger.</p>
+        <p class="vb-intro"><strong>b) A warning acknowledged, but not acted upon:</strong>
+        From May 1974 to December 1975, she lived with full knowledge of her heart risk
+        &ndash; without repressing it, but also without acting on it consistently. The
+        knowledge remained intellectually processed, not behaviorally effective.</p>
+        <p class="vb-intro"><strong>c) Why the heart, of all organs?</strong>
+        For a social Five with Four-wing, whose security arises from rational distance and
+        intellectual control, one interpretation suggests itself: precisely the organ most
+        immediately associated with emotion and vitality became the site of a threat that
+        eluded pure intellectual control. This interpretation is a plausible reading, not a
+        documented historical causal link, and is developed further in this Compass's
+        psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Five inevitably leads to
+        cardiovascular disease &ndash; <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Arendt's case shows is a pattern in how a pronounced social
+        Five with Four-wing handles a known health risk &ndash; one possible reading among
+        many, not a verdict. The corresponding illness profile is gradually being developed
+        in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Arendt did not know her own pattern &ndash; the social Five with Four-wing prefers to
+        determine her own habits herself rather than submit to external control, and exactly
+        this showed in her only half-hearted switch to milder cigarettes instead of quitting
+        entirely. Whoever does not recognize their own need for autonomy as a pattern easily
+        mistakes it for purely rational risk assessment, even though their own fixation plays
+        a part too.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Five with Four-wing explains much about the course of <strong>Arendt's</strong>
+        own illness: a woman whose security arose from intellectual autonomy knowingly
+        accepted a known mortal danger rather than fully submit to outside advice. The
+        octopus who was still working, thinking, and living while serving coffee to guests
+        &ndash; until her own heart left her no more choice.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – life's work"},
+        {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern: warning acknowledged, not followed"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
@@ -108707,6 +108878,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-wolfgang-amadeus-mozart": wolfgangAmadeusMozartKrankheitsportraetPage,
       "krankheitsportraets-nusrat-fateh-ali-khan": nusratFatehAliKhanKrankheitsportraetPage,
       "krankheitsportraets-albert-einstein": albertEinsteinKrankheitsportraetPage,
+      "krankheitsportraets-hannah-arendt": hannahArendtKrankheitsportraetPage,
       "krankheitsportraets-freddie-mercury": freddieMercuryKrankheitsportraetPage,
       "krankheitsportraets-lady-diana": ladyDianaKrankheitsportraetPage,
       "krankheitsportraets-marilyn-monroe": marilynMonroeKrankheitsportraetPage,

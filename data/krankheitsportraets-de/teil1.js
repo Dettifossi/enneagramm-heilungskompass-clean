@@ -3643,3 +3643,172 @@ export function wolfgangAmadeusMozartKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function hannahArendtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-hannah-arendt-portrait.jpg" alt="Hannah Arendt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hannah Arendt</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1906–1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Hannah Arendt</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-hannah-arendt">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr politisches Denken und ihre
+        Typstruktur im Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur
+        gestreift wird: eine lebenslange Kettenraucherin, deren erster, fast tödlicher
+        Herzinfarkt 1974 sie nicht zum Aufhören brachte – mit fatalen Folgen anderthalb Jahre
+        später.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Arendt</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen und intellektuelle Autorität, nicht
+        über äußere Anpassung an medizinischen Rat. Der Viererflügel bringt eine
+        existenzielle, oft eigensinnige Tiefe hinzu – eine Weigerung, sich fremden
+        Vorgaben zu beugen, auch wenn sie der eigenen Gesundheit dienen. Genau diese
+        Kombination prägte, wie sie mit der eigenen Sterblichkeit umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahrzehntelanges, exzessives Rauchen:</strong>
+        Arendt war zeitlebens Kettenraucherin – Chesterfields, Lucky Strikes, Camels,
+        dazu gelegentlich Zigarren und Pfeifentabak. Das Rauchen war für sie untrennbar
+        mit dem eigenen Denken und Schreiben verbunden.</p>
+        <p class="vb-intro"><strong>b) Ein fast tödlicher erster Infarkt 1974:</strong>
+        Im Mai 1974 erlitt sie während eines Vortrags in Schottland einen schweren
+        Herzinfarkt, der beinahe tödlich verlief. Sie erholte sich, blieb danach aber
+        gesundheitlich deutlich angeschlagen.</p>
+        <p class="vb-intro"><strong>c) Eine koronare Herzkrankheit als Folge:</strong>
+        In den Monaten nach dem ersten Infarkt entwickelte sich eine koronare
+        Herzkrankheit, die als direkte Folge des jahrzehntelangen Rauchens gilt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der ärztliche Rat, auf Kools umzusteigen:</strong>
+        Nach dem ersten Infarkt riet ihr Arzt zumindest zum Wechsel auf mentholhaltige
+        Kools-Zigaretten – ein Kompromissvorschlag, der eine vollständige Raucherentwöhnung
+        gar nicht mehr ernsthaft verfolgte.</p>
+        <p class="vb-intro"><strong>b) Keine Verhaltensänderung trotz Todesnähe:</strong>
+        Arendt setzte das Rauchen nach dem Infarkt fort, wenn auch mit der empfohlenen
+        Sorte. Eine grundlegende Umstellung ihres Lebensstils fand nicht statt.</p>
+        <p class="vb-intro"><strong>c) Unvermindert fortgesetzte Arbeit:</strong>
+        In den anderthalb Jahren zwischen erstem und zweitem Infarkt schrieb sie weiter
+        an "Vom Leben des Geistes", ihrem letzten, dreiteilig geplanten Werk – ohne
+        erkennbare Verlangsamung ihres Arbeitspensums.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein letzter geselliger Abend:</strong>
+        Am 4. Dezember 1975 hatte Arendt Gäste zum Essen in ihrer New Yorker Wohnung
+        eingeladen – ein normaler, geselliger Abend, kein Hinweis auf eine bevorstehende
+        Krise.</p>
+        <p class="vb-intro"><strong>b) Der zweite, tödliche Infarkt beim Kaffeeservieren:</strong>
+        Nachdem sie ins Wohnzimmer gewechselt war, um nach dem Essen Kaffee zu servieren,
+        erlitt sie einen kurzen Hustenanfall, bevor sie das Bewusstsein verlor.</p>
+        <p class="vb-intro"><strong>c) Eine Schreibmaschine mit nur einer Überschrift:</strong>
+        In ihrer Schreibmaschine steckte ein Blatt mit der Überschrift "Judging"
+        (Urteilen) und zwei Epigraphen, aber ohne weiteren Text – der geplante dritte Teil
+        ihres letzten Werks blieb für immer unvollendet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 4. Dezember 1975:</strong>
+        Hannah Arendt starb im Alter von 69 Jahren in ihrer New Yorker Wohnung – ihr
+        zweiter Herzinfarkt innerhalb von neunzehn Monaten verlief tödlich.</p>
+        <p class="vb-intro"><strong>b) Das Rauchen als wahrscheinlicher Hauptfaktor:</strong>
+        Ihr jahrzehntelanger, auch nach dem ersten Infarkt fortgesetzter Zigarettenkonsum
+        gilt als sehr wahrscheinliche Hauptursache für die koronare Herzkrankheit, die zu
+        ihrem Tod führte.</p>
+        <p class="vb-intro"><strong>c) Ein Werk, das andere zu Ende bringen mussten:</strong>
+        Ihre Freundin, die Schriftstellerin Mary McCarthy, gab das unvollendete
+        "Vom Leben des Geistes" postum in zwei Bänden 1977 und 1978 heraus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Wissen um das Risiko, ohne Konsequenz für das Verhalten:</strong>
+        Die SO5-typische Trennung von intellektuellem Verstehen und emotional-praktischer
+        Umsetzung zeigte sich deutlich: Arendt wusste um die Gefahr, änderte aber nur das
+        Nötigste, statt das Rauchen ganz aufzugeben.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel und die Weigerung, sich fremden Regeln zu unterwerfen:</strong>
+        Wie schon in ihrer intellektuellen Haltung gegenüber Kritikern folgte sie auch
+        hier nicht blind ärztlichem Rat, sondern traf eine eigene, nur teilweise
+        angepasste Entscheidung – Autonomie auch gegen die eigene Gesundheit.</p>
+        <p class="vb-intro"><strong>c) Rückzug in die Arbeit statt in die Vorsicht:</strong>
+        Statt ihr Leben nach dem ersten Infarkt vorsichtiger zu gestalten, vertiefte sie
+        sich weiter in ihr anspruchsvollstes, letztes philosophisches Projekt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Gewohnheit, die zum Denkwerkzeug wurde:</strong>
+        Für Arendt war das Rauchen kein bloßes Laster, sondern eng mit dem Akt des
+        Denkens und Schreibens selbst verwoben – ein Ritual, das sie über Jahrzehnte
+        begleitete und das sie auch angesichts konkreter Lebensgefahr nicht aufgab.</p>
+        <p class="vb-intro"><strong>b) Die Warnung, die zur Kenntnis genommen, aber nicht umgesetzt wurde:</strong>
+        Von Mai 1974 bis Dezember 1975 lebte sie mit dem vollen Wissen um ihr
+        Herzrisiko – ohne es zu verdrängen, aber auch ohne konsequent danach zu handeln.
+        Das Wissen blieb intellektuell verarbeitet, nicht verhaltenswirksam.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über rationale Distanz
+        und intellektuelle Kontrolle entsteht, liegt eine Deutung nahe: Ausgerechnet jenes
+        Organ, das am unmittelbarsten mit Emotion und Lebendigkeit verbunden wird, wurde
+        zum Ort einer Bedrohung, die sich der reinen Verstandeskontrolle entzog. Diese
+        Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu
+        Herz-Kreislauf-Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Arendts Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer bekannten Gesundheitsgefahr, das bei einer
+        ausgeprägten sozialen Fünf mit Viererflügel auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Arendt kannte ihr eigenes Muster nicht – die soziale Fünf mit Viererflügel
+        bestimmt lieber selbst über die eigenen Gewohnheiten, als sich fremder Kontrolle zu
+        unterwerfen, und genau das zeigte sich in ihrem nur halbherzigen Wechsel zu
+        milderen Zigaretten statt eines vollständigen Verzichts. Wer die eigene
+        Autonomiebedürftigkeit nicht als Muster erkennt, verwechselt sie leicht mit einer
+        rein rationalen Risikoabwägung, obwohl auch die eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Fünf mit Viererflügel erklärt bei <strong>Arendt</strong> vieles am
+        Verlauf ihrer eigenen Erkrankung: eine Frau, deren Sicherheit über intellektuelle
+        Autonomie entstand, nahm eine bekannte Lebensgefahr wissentlich in Kauf, statt sich
+        fremdem Rat vollständig zu unterwerfen. Der Oktopus, der noch beim Kaffeeservieren
+        für Gäste arbeitete, dachte und lebte – bis das eigene Herz keine Wahl mehr ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster: Warnung zur Kenntnis genommen, nicht befolgt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
