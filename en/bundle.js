@@ -1299,6 +1299,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans Christian Andersen – Social Type 4",
     teaser:"SO4w3 · 1805–1875. Writer, fairy-tale author. From a mocked shoemaker's son to the most-traveled, most-translated writer of his era – and yet the ugly duckling who never fully felt he belonged. Animal correspondence: Armadillo.",
     land:"Denmark", tags:["Literatur"], gender:"m"},
+{ route:"beruehmte-heinrich-heine", name:"Heinrich Heine", added:"2026-09-01", subtyp:"SO4w3",
+    heading:"Heinrich Heine – Social Type 4",
+    teaser:"SO4w3 · 1797–1856, born in Düsseldorf. Poet, Book of Songs, Germany. A Winter's Tale. Never fully belonging between Jewish origin and Christian baptism, literary celebrity in Parisian exile, last eight years of life in the 'mattress grave'. Animal correspondence: Armadillo.",
+    land:"Germany", tags:["Literature","History"], gender:"m"},
 { route:"beruehmte-cat-stevens", name:"Cat Stevens / Yusuf Islam", added:"2026-08-25", subtyp:"SO4w3",
     heading:"Cat Stevens / Yusuf Islam – Social Type 4",
     teaser:"SO4w3 · born 1948. British musician. Converted to Islam after a near-drowning in 1976, withdrew from the music industry for nearly three decades, founded a school and a relief organization. The armadillo who carried out its radical search for identity in public rather than concealing it.",
@@ -33100,6 +33104,7 @@ function michaelJacksonPortraitPage() {
           {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
           {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
           {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
+          {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
         ])}
       </div>
     </div>
@@ -33167,6 +33172,73 @@ function hansChristianAndersenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function heinrichHeinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-heinrich-heine-portrait.jpg" alt="Heinrich Heine" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinrich Heine</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Poet and writer, 1797&ndash;1856, born in Düsseldorf &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo Between Two Worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it carries its vulnerability visibly on its skin, protected and exposed at once, and moves through the world with the persistent feeling of being armored differently than everyone else. Heinrich Heine was born in 1797 in Düsseldorf into a Jewish family &ndash; an origin that, in a society systematically excluding Jews, made him an outsider from childhood.</p>
+          <p class="vb-intro">In 1825 he had himself baptized as a Lutheran to even make his legal career possible &ndash; he openly called the baptismal certificate itself the "admission ticket to European culture." The step, however, brought him no real belonging: to Jews he henceforth counted as a renegade, to Christians he remained the insincere convert or dangerous radical. The armadillo changed its armor &ndash; and still remained a stranger on both sides of the border.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Four: Shame Between Two Belongings</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Four carries the Four's core conviction &ndash; <em>something is wrong with me, I am different from others</em> &ndash; directly into the group. She does not withdraw but constantly compares: who belongs, who doesn't, and why am I precisely the one who doesn't quite fit in? Naranjo describes this subtype through the element of <em>shame</em> &ndash; a feeling that paradoxically does not lead to withdrawal, but to a constant search for confirmation from exactly the group one feels excluded from.</p>
+          <p class="vb-intro">At eighteen, Heine fell unhappily in love with his cousin Amalie, daughter of his wealthy uncle Salomon Heine, and later, just as unsuccessfully, with her younger sister Therese &ndash; a double rejection that became the theme of many of his early poems. The pattern repeated itself: tolerated and financially supported by his own uncle, but never truly accepted as an equal; famous across Europe, yet inwardly always standing between belongings, never quite arriving in either.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Bans That Became Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three-wing turns the Four's introspective sadness into an active drive toward visibility. In 1827, "Book of Songs" established his international reputation &ndash; many of the poems were set to music by composers like Schubert, Schumann, and Mendelssohn and thereby spread far beyond the literary circle they were originally intended for.</p>
+          <p class="vb-intro">When German authorities banned his radical political writings, Heine did not withdraw but used the ban itself as a stage &ndash; the censorship, as contemporaries noted, only added to his growing fame. In Paris, where he spent the last 25 years of his life in exile, he deliberately enjoyed the status of a literary celebrity and became a public symbol of liberal, cosmopolitan values for the international press. The Three-wing knew: visibility is the proof that one's own difference is actually worth something.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Marriage to Mathilde and Sharp Wit as a Weapon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1841 Heine married Mathilde, an uneducated Parisian shop assistant he had already been living with for seven years &ndash; a match that unsettled many of his friends because it fit so poorly with the intellectual salon life he otherwise moved in. Here too the pattern shows: a choice outside expected norms, combined with a deep need for reliable, unconditional closeness.</p>
+          <p class="vb-intro">His biting, often wounding wit was directed at once against literary rivals like August von Platen and former companions like Ludwig Börne, with whom he waged bitter public feuds for years. The sharpness of his satire was at once weapon and shield &ndash; a means of positioning himself unmistakably in the literary public sphere, precisely because his own belonging to that public was never fully secured.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Heine transformed his own experience of exclusion and longing into lyric poetry that remains among the most frequently set-to-music and most translated poems in world literature &ndash; universal language for a deeply personal feeling of not belonging.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; visible in Heine in his lifelong rivalry with other writers and in a bitterness that discharged itself in sharp, sometimes devastating criticism of contemporaries. This sharpness cost him friendships and made him, throughout his life, a polarizing, often attacked figure &ndash; the social Four under pressure: the search for belonging tips into bitterness that one's own difference is never fully acknowledged.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo in the Mattress Grave</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Will I finally belong, if the others see who I really am?</em> to the insight <em>I already belong, regardless of whether the group confirms it.</em> For the SO4w3, this means no longer having to prove one's own uniqueness before an audience.</p>
+          <p class="vb-intro">From 1848 on, Heine was confined to bed by a progressive, likely syphilitic paralysis &ndash; he spent the last eight years of his life in what he himself called his "mattress grave," half blind and marked by agonizing pain. Yet even there, the Three-wing did not fall silent: he continued to receive visitors, dictated poems, and kept his famous wit until the end. When his wife prayed at his deathbed that God might forgive him, he is said to have replied: "God will forgive me &ndash; that's his job." Heine died on February 17, 1856, in Paris. The armadillo who stood between two worlds his whole life found, in the end, its most lasting belonging exactly there: in verses still sung in both worlds today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}
@@ -33358,6 +33430,7 @@ function romySchneiderPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
       ])}
     </div>
   `);
@@ -49506,7 +49579,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
@@ -49516,7 +49589,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
         beschreibung: "Part of the SO4 does not hide introvertedly in its own shell, but consciously carries its own uniqueness outward – as a visible sign that both connects and excludes.",
-        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike."
+        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike; Heinrich Heine, who openly called his own baptism an 'admission ticket to European culture' rather than concealing it, and whose lifelong tension between Jewish origin and Christian conversion became the openly negotiated subject of his entire literary work, rather than something he hid."
       },
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
@@ -108574,6 +108647,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-michael-jackson": michaelJacksonPortraitPage,
       "beruehmte-hans-christian-andersen": hansChristianAndersenPortraitPage,
+      "beruehmte-heinrich-heine": heinrichHeinePortraitPage,
       "beruehmte-cat-stevens": catStevensPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,

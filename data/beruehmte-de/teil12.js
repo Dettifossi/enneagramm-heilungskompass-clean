@@ -582,6 +582,73 @@ export function hansChristianAndersenPortraitPage() {
         {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function heinrichHeinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-heinrich-heine-portrait.jpg" alt="Heinrich Heine – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinrich Heine</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Dichter und Schriftsteller, 1797&ndash;1856, geboren in Düsseldorf &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier zwischen zwei Welten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Verletzlichkeit sichtbar auf der Haut, geschützt und preisgegeben zugleich, und bewegt sich mit dem beständigen Gefühl durch die Welt, anders gepanzert zu sein als alle anderen. Heinrich Heine wurde 1797 in Düsseldorf in eine jüdische Familie hineingeboren &ndash; eine Herkunft, die ihn in einer Gesellschaft, die Juden systematisch ausschloss, von Kindheit an zum Außenseiter machte.</p>
+          <p class="vb-intro">1825 ließ er sich lutherisch taufen, um seine juristische Karriere überhaupt erst zu ermöglichen &ndash; er nannte die Taufurkunde selbst offen das "Entrée-Billet zur europäischen Kultur". Der Schritt brachte ihm jedoch keine wirkliche Zugehörigkeit: Für Juden galt er fortan als Abtrünniger, für Christen blieb er der unaufrichtige Konvertit oder gefährliche Radikale. Das Gürteltier wechselte den Panzer &ndash; und blieb doch auf beiden Seiten der Grenze ein Fremder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham zwischen zwei Zugehörigkeiten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Vier trägt die Vierer-Grundüberzeugung &ndash; <em>mit mir stimmt etwas nicht, ich bin anders als die anderen</em> &ndash; direkt in die Gruppe hinein. Sie zieht sich nicht zurück, sondern vergleicht sich unablässig: Wer gehört dazu, wer nicht, und warum bin ausgerechnet ich derjenige, der nicht ganz hineinpasst? Naranjo beschreibt diesen Subtyp über das Element der <em>Scham</em> &ndash; ein Gefühl, das paradoxerweise nicht zum Rückzug führt, sondern zur ständigen Suche nach Bestätigung durch genau die Gruppe, von der man sich ausgeschlossen fühlt.</p>
+          <p class="vb-intro">Mit achtzehn Jahren verliebte sich Heine unglücklich in seine Cousine Amalie, die Tochter seines wohlhabenden Onkels Salomon Heine, und später, ebenso vergeblich, in deren jüngere Schwester Therese &ndash; eine doppelte Zurückweisung, die zum Thema vieler seiner frühen Gedichte wurde. Das Muster wiederholte sich: geduldet und finanziell unterstützt vom eigenen Onkel, aber nie wirklich als gleichwertig anerkannt; berühmt in ganz Europa, aber innerlich stets zwischen den Zugehörigkeiten stehend, ohne wirklich in einer anzukommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Verbote, die zum Ruhm wurden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Dreierflügel verwandelt die introspektive Traurigkeit der Vier in aktives Streben nach Sichtbarkeit. 1827 begründete "Buch der Lieder" seinen internationalen Ruf &ndash; viele der Gedichte wurden von Komponisten wie Schubert, Schumann und Mendelssohn vertont und dadurch massenhaft verbreitet, weit über den literarischen Zirkel hinaus, für den sie ursprünglich gedacht waren.</p>
+          <p class="vb-intro">Als deutsche Behörden seine radikalen politischen Schriften verboten, zog sich Heine nicht zurück, sondern nutzte gerade das Verbot als Bühne &ndash; die Zensur trug, wie Zeitgenossen festhielten, nur zu seinem wachsenden Ruhm bei. In Paris, wo er die letzten 25 Jahre seines Lebens im Exil verbrachte, genoss er bewusst den Status einer literarischen Berühmtheit und wurde zur öffentlichen Symbolfigur liberaler, kosmopolitischer Werte der internationalen Presse. Der Dreierflügel wusste: Sichtbarkeit ist der Beweis, dass die eigene Andersartigkeit tatsächlich etwas wert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Ehe mit Mathilde und der scharfe Witz als Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1841 heiratete Heine Mathilde, eine ungebildete Pariser Verkäuferin, mit der er bereits sieben Jahre zusammengelebt hatte &ndash; eine Verbindung, die viele seiner Freunde irritierte, weil sie so gar nicht zum intellektuellen Salonleben passte, in dem er sich sonst bewegte. Auch hier zeigt sich das Muster: eine Wahl außerhalb der erwarteten Normen, kombiniert mit dem tiefen Bedürfnis nach einer verlässlichen, unbedingten Nähe.</p>
+          <p class="vb-intro">Sein beißender, oft verletzender Witz richtete sich zugleich gegen literarische Konkurrenten wie August von Platen und ehemalige Weggefährten wie Ludwig Börne, mit denen er über Jahre erbitterte öffentliche Fehden austrug. Die Schärfe seiner Satire war zugleich Waffe und Schutzschild &ndash; ein Mittel, sich in der literarischen Öffentlichkeit unübersehbar zu positionieren, gerade weil die eigene Zugehörigkeit zu dieser Öffentlichkeit nie ganz gesichert war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht verwandelte Heine seine eigene Erfahrung von Ausgrenzung und Sehnsucht in Lyrik, die bis heute zu den meistvertonten und meistübersetzten Gedichten der Weltliteratur zählt &ndash; universelle Sprache für ein zutiefst persönliches Gefühl des Nicht-dazu-Gehörens.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei Heine sichtbar in seiner lebenslangen Rivalität mit anderen Schriftstellern und in einer Verbitterung, die sich in scharfer, teils vernichtender Kritik an Zeitgenossen entlud. Diese Schärfe kostete ihn Freundschaften und machte ihn zeitlebens zu einer polarisierenden, oft angefeindeten Figur &ndash; die soziale Vier unter Druck: die Suche nach Zugehörigkeit kippt in eine Verbitterung darüber, dass die eigene Andersartigkeit nie vollständig anerkannt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gürteltier in der Matratzengruft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Werde ich endlich dazugehören, wenn die anderen sehen, wer ich wirklich bin?</em> zur Erkenntnis <em>Ich gehöre bereits dazu, unabhängig davon, ob die Gruppe es bestätigt.</em> Für die SO4w3 bedeutet das, die eigene Einzigartigkeit nicht länger als Beweis vor einem Publikum führen zu müssen.</p>
+          <p class="vb-intro">Ab 1848 war Heine durch eine fortschreitende, vermutlich syphilitische Lähmung ans Bett gefesselt &ndash; die letzten acht Jahre seines Lebens verbrachte er in dem, was er selbst seine "Matratzengruft" nannte, halb erblindet und von quälenden Schmerzen gezeichnet. Doch selbst dort verstummte der Dreierflügel nicht: Er empfing weiterhin Besucher, diktierte Gedichte und bewahrte seinen berühmten Witz bis zuletzt. Als seine Frau am Sterbebett für ihn betete, Gott möge ihm vergeben, soll er geantwortet haben: "Gott wird mir verzeihen &ndash; das ist sein Beruf." Heine starb am 17. Februar 1856 in Paris. Das Gürteltier, das zeitlebens zwischen zwei Welten stand, fand am Ende genau dort seine bleibendste Zugehörigkeit: in Versen, die noch heute in beiden Welten gesungen werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);

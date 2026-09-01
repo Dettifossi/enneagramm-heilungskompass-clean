@@ -1280,6 +1280,7 @@ export function romySchneiderPortraitPage() {
         {route:"astrologie-romy-schneider", label:"Horoskop-Analyse: Romy Schneider"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"krankheitsportraets-romy-schneider", label:"Krankheitsportr\u00e4t: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portr\u00e4t: Heinrich Heine (SO4w3)"},
       ])}
     </div>
   `);
