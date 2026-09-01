@@ -1448,6 +1448,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Franz Kafka – Self-Preservation Type 5",
     teaser:"SP5w4 · 1883–1924. Writer. The Trial, The Castle, The Metamorphosis. The owl that wrote its nightmares at night and wanted its work burned. Animal correspondence: Owl.",
     land:"Germany", tags:["Literature"] , gender:"m"},
+{ route:"beruehmte-robert-crumb", name:"Robert Crumb", added:"2026-09-01", subtyp:"SE5w4",
+    heading:"Robert Crumb – Self-Preservation Type 5",
+    teaser:"SP5w4 · b. 1943. Cartoonist, founder of the underground comix movement, Zap Comix, Fritz the Cat. Fled a chaotic family into his own castle made of paper, unsparingly honest about his own shadow sides, has lived in withdrawn seclusion in southern France since 1993. Animal correspondence: Owl.",
+    land:"USA/France", tags:["Art"], gender:"m"},
 { route:"beruehmte-ingo-zimmermann", name:"Prof. Dr. Ingo Zimmermann", added:"2026-08-18", subtyp:"SE5w4",
     heading:"Prof. Dr. Ingo Zimmermann – Self-Preservation Type 5",
     teaser:"SE5w4 · Professor of Social Work, psychotherapist, forest mindfulness trainer. Brings his hand-raised tawny owl Hugo into the lecture hall – a man who evidently, unconsciously, recognized his own animal correspondence and has carried it at his side for years. Animal correspondence: Owl.",
@@ -34683,7 +34687,74 @@ function franzKafkaPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
+        {route:"beruehmte-robert-crumb", label:"Portrait: Robert Crumb (SP5w4)"},
         {route:"krankheitsportraets-franz-kafka", label:"Illness Portrait: Franz Kafka (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function robertCrumbPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-robert-crumb-portrait.jpg" alt="Robert Crumb" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Crumb</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Cartoonist, b. 1943 &ndash; founder of the underground comix movement &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl Who Fled the Chaos of a Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the self-preservation Five &ndash; a being that withdraws into its own darkness not to flee, but to be able to see clearly at all. Robert Crumb was born in 1943 in Philadelphia, into a family he himself later described as deeply dysfunctional: his mother, who suffered the aftereffects of her own abuse-marked childhood, took amphetamines and reacted with paranoid mood swings, while his parents' marriage was marked by constant conflict.</p>
+          <p class="vb-intro">In this chaos, the young Crumb found refuge in drawing &ndash; guided and driven by his older brother Charles, who organized the siblings into veritable drawing assembly lines to produce homemade comics. Without Charles, Crumb said later, he would never have become a professional artist. The owl retreated into its own drawn universe even as a child &ndash; not out of boredom, but out of self-defense.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Five: The Castle Made of Paper</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Five (SE5)</strong> the <em>Castle</em>: one's own territory becomes a fortress that limits the world's access as much as possible. In 1968, Crumb self-published "Zap Comix #1," one of the founding works of the underground comix movement &ndash; uncompromising, uncensored, with no regard for a publisher or a mass audience. This was not a market strategy but the most consistent form of the castle: keeping complete control over one's own work rather than surrendering it to an institution.</p>
+          <p class="vb-intro">The passion of the Five is <strong>avarice</strong> &ndash; hoarding energy, time, and control. When his 1968 image "Keep on Truckin'" became one of the most-copied images in pop culture without him profiting from its countless commercial uses, Crumb sued several companies for copyright infringement &ndash; one of the few public battles he ever deliberately sought, because it directly concerned his control over his own work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Fantasies He Despised Himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Five a sense for the deeply unique, often shameful quality of his own inner experience. Crumb repeatedly described himself as a deeply neurotic person, plagued by sexual fantasies that regularly disgusted him afterward &ndash; a conflict he did not repress, but exposed raw and unfiltered in his comics, often to the horror of critics and even fellow artists.</p>
+          <p class="vb-intro">This unsparing self-exposure also showed in his relationship with his second wife, Aline Kominsky-Crumb, whom he married in 1978: together they published autobiographical comics that laid bare the most intimate details of their marriage, their bodies, and their conflicts &ndash; a form of closeness that could only arise from the Four-wing's willingness to display one's own inner life without embellishment, while the Five core simultaneously shielded everything else strictly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Brother Who Perished in His Own Castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Charles Crumb, the brother Robert owed his artistic beginnings to, developed a severe mental illness in adulthood. He rarely left his mother's house, struggled with repressed pedophiliac neuroses, and filled his notebooks with obsessively dense, concentric lines covering every free space &ndash; a castle that, unlike Robert's, never opened again. Charles took his own life at age 49 by overdose.</p>
+          <p class="vb-intro">Robert Crumb has never concealed this loss, addressing it openly in interviews and in the documentary "Crumb" (1994) &ndash; a rare exception to the otherwise strict shielding, one that shows how deeply his family history underlies his entire body of work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w4 shows in Crumb's uncompromising graphic honesty: characters like Fritz the Cat and Mr. Natural exposed the double standards of American society and the hippie generation alike, without exempting himself. Hardly any artist has made social taboos &ndash; sex, drugs, racism &ndash; so unfiltered and visible.</p>
+          <p class="vb-intro">The shadow lies in the price of this honesty: Crumb described himself as plagued by self-disgust, unable to endorse his own fantasies, which he nonetheless could not suppress. In 1993, the family moved from California to a remote village in southern France &ndash; among his stated reasons: "lousy schools, too much crime, suburban sprawl, media overload." The castle was chosen as an entire country, to escape American life for good.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl Who Withdrew to a French Village</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question <em>Do I have enough to show myself?</em> to the insight <em>What is shown does not become less valuable for being imperfect.</em> For the SE5w4, this means no longer hoarding one's own, often shame-laden inner world alone, but &ndash; as in the shared comics with Aline &ndash; understanding it as shared, connecting material.</p>
+          <p class="vb-intro">Robert Crumb still lives today in withdrawn seclusion in southern France, far from the art world he always regarded with suspicion. The owl who, as a child, fled the chaos of his family into his own castle made of paper left behind a body of work that helped millions of readers bear their own shadow sides a little less alone &ndash; precisely because it never tried to hide its own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
+        {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
   `);
@@ -49527,12 +49598,12 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Owl",
     kernthema: "Retreat as a deliberately built fortress – quiet observation instead of flight",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann", "Nicodemus"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauss", "Prof. Dr. Ingo Zimmermann", "Nicodemus", "Robert Crumb"],
     fingerabdruecke: [
       {
         titel: "Retreat as a deliberately built 'fortress' instead of mere flight",
         beschreibung: "The retreat space is not a sign of weakness, but an actively built, protected base from which to observe, think, and work – small, manageable, but entirely under one's own control.",
-        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought'; Carl Friedrich Gauss, who practically never left Göttingen and researched for decades as observatory director within a secure, orderly daily structure; Prof. Dr. Ingo Zimmermann, who lives on a farm and carries his hand-raised tawny owl Hugo at his side as a controlled, carefully measured form of closeness – his own animal correspondence, apparently recognized and lived unconsciously; Dr. Christian Rätsch, who researched not from university chairs but as an independent scientist within his own fortress; Vera F. Birkenbihl, who stayed unmarried, worked on her own account, founded her own publishing house and developed her own methods rather than submitting to an institution."
+        beleg: "Xu Bing: 'The owl who, in a time of the greatest publicity, learned to withdraw into the silence of the character' – 'the fortress of characters'; Peter Lustig, whose camper became a 'fortress'; Warren Buffett, who has lived in the same house in Omaha since 1958: 'the fortress in Omaha'; Hermann Hesse, who spent forty years in his house in Ticino: 'the fortress in Ticino'; Spinoza: 'the fortress of thought'; Carl Friedrich Gauss, who practically never left Göttingen and researched for decades as observatory director within a secure, orderly daily structure; Prof. Dr. Ingo Zimmermann, who lives on a farm and carries his hand-raised tawny owl Hugo at his side as a controlled, carefully measured form of closeness – his own animal correspondence, apparently recognized and lived unconsciously; Dr. Christian Rätsch, who researched not from university chairs but as an independent scientist within his own fortress; Vera F. Birkenbihl, who stayed unmarried, worked on her own account, founded her own publishing house and developed her own methods rather than submitting to an institution; Robert Crumb, who kept complete control over his work in his own hands by self-publishing 'Zap Comix', and who in 1993 moved with his family to a remote village in southern France – the fortress chosen as an entire country, to escape American life for good."
       },
       {
         titel: "Patient waiting until the knowledge or the moment is unassailable",
@@ -108672,6 +108743,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-blaise-pascal": blaisePascalPortraitPage,
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
+      "beruehmte-robert-crumb": robertCrumbPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,

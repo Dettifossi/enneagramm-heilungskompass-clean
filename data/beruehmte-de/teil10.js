@@ -1576,3 +1576,69 @@ export function wladimirPutinPortraitPage() {
     </div>
   `);
 }
+
+export function robertCrumbPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-robert-crumb-portrait.jpg" alt="Robert Crumb \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Robert Crumb</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Comiczeichner, geb. 1943 &ndash; Begr\u00fcnder der Underground-Comix-Bewegung &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die aus dem Chaos einer Familie floh</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Wesen, das sich in die eigene Dunkelheit zur\u00fcckzieht, nicht um zu fliehen, sondern um \u00fcberhaupt klar sehen zu k\u00f6nnen. Robert Crumb wurde 1943 in Philadelphia geboren, in eine Familie, die er selbst sp\u00e4ter als zutiefst dysfunktional beschrieb: Seine Mutter, die unter den Nachwirkungen einer eigenen missbrauchsgepr\u00e4gten Kindheit litt, nahm Amphetamine und reagierte paranoid-launisch, w\u00e4hrend die Ehe seiner Eltern von st\u00e4ndigen Konflikten gepr\u00e4gt war.</p>
+          <p class="vb-intro">In diesem Chaos fand der junge Crumb Zuflucht beim Zeichnen &ndash; angeleitet und angetrieben von seinem \u00e4lteren Bruder Charles, der die Geschwister zu regelrechten Zeichenflie\u00dfb\u00e4ndern organisierte, um selbstgemachte Comics herzustellen. Ohne Charles, sagte Crumb sp\u00e4ter selbst, w\u00e4re er nie professioneller Zeichner geworden. Die Eule zog sich schon als Kind in ihr eigenes, zeichnerisches Universum zur\u00fcck &ndash; nicht aus Langeweile, sondern aus Notwehr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\u00fcnf: Die Burg aus Papier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\u00fcnf (SE5)</strong> nennt Naranjo <em>Burg</em>: Das eigene Territorium wird zur Festung, die den Zugriff der Welt so weit wie m\u00f6glich beschr\u00e4nkt. 1968 ver\u00f6ffentlichte Crumb mit "Zap Comix #1" im Selbstverlag eines der Gr\u00fcndungswerke der Underground-Comix-Bewegung &ndash; kompromisslos, unzensiert, ohne jede R\u00fccksicht auf einen Verlag oder ein Massenpublikum. Das war keine Marktstrategie, sondern die konsequenteste Form der Burg: lieber die vollst\u00e4ndige Kontrolle \u00fcber das eigene Werk behalten, als sie einer Institution zu \u00fcberlassen.</p>
+          <p class="vb-intro">Die Leidenschaft der F\u00fcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Zeit und Kontrolle. Als sein 1968 entstandenes Motiv "Keep on Truckin'" zu einem der meistkopierten Bilder der Popkultur wurde, ohne dass er an den unz\u00e4hligen kommerziellen Verwertungen beteiligt war, verklagte Crumb mehrere Firmen wegen Urheberrechtsverletzung &ndash; eine der wenigen \u00f6ffentlichen Schlachten, die er je bewusst suchte, weil sie seine Kontrolle \u00fcber das eigene Werk direkt betraf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\u00fcgel: Fantasien, die er selbst verabscheute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\u00fcgel (w4)</strong> gibt der selbsterhaltenden F\u00fcnf ein Gesp\u00fcr f\u00fcr das zutiefst Einzigartige, oft Besch\u00e4mende am eigenen inneren Erleben. Crumb beschrieb sich selbst wiederholt als zutiefst neurotischen Menschen, geplagt von sexuellen Fantasien, die ihn im Nachhinein regelm\u00e4\u00dfig anwiderten &ndash; ein Konflikt, den er nicht verdr\u00e4ngte, sondern in seinen Comics roh und ungefiltert offenlegte, oft zum Entsetzen von Kritikern und selbst von Weggef\u00e4hrten.</p>
+          <p class="vb-intro">Diese schonungslose Selbstoffenlegung zeigte sich auch in seiner Beziehung zu seiner zweiten Frau Aline Kominsky-Crumb, die er 1978 heiratete: Gemeinsam ver\u00f6ffentlichten sie autobiografische Comics, die intimste Details ihrer Ehe, ihrer K\u00f6rper und ihrer Konflikte offenlegten &ndash; eine Form der N\u00e4he, die nur aus der viererhaften Bereitschaft entstehen konnte, das eigene Innenleben ungesch\u00f6nt zur Schau zu stellen, w\u00e4hrend der F\u00fcnfer-Kern gleichzeitig alles andere streng abschirmte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruder, der in der eigenen Burg zugrunde ging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Charles Crumb, der Bruder, dem Robert seinen k\u00fcnstlerischen Anfang verdankte, entwickelte im Erwachsenenalter eine schwere psychische Erkrankung. Er verlie\u00df das Haus seiner Mutter kaum noch, k\u00e4mpfte mit verdr\u00e4ngten p\u00e4dophilen Neurosen und f\u00fcllte seine Notizb\u00fccher mit obsessiv dichten, konzentrischen Linien, die jeden freien Raum bedeckten &ndash; eine Burg, die sich, anders als bei Robert, nie wieder \u00f6ffnete. Charles nahm sich mit 49 Jahren durch eine \u00dcberdosis das Leben.</p>
+          <p class="vb-intro">Robert Crumb hat diesen Verlust nie verschwiegen, sondern in Interviews und im Dokumentarfilm "Crumb" (1994) offen thematisiert &ndash; eine seltene Ausnahme von der sonst strikten Abschirmung, die zeigt, wie sehr die Familiengeschichte sein gesamtes Werk unterf\u00fctterte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden F\u00fcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w4 zeigt sich in Crumbs kompromissloser zeichnerischer Ehrlichkeit: Figuren wie Fritz the Cat und Mr. Natural entlarvten die Doppelmoral der amerikanischen Gesellschaft und der Hippie-Generation gleicherma\u00dfen, ohne sich selbst davon auszunehmen. Kaum ein Zeichner hat gesellschaftliche Tabus &ndash; Sex, Drogen, Rassismus &ndash; so ungefiltert sichtbar gemacht.</p>
+          <p class="vb-intro">Der Schatten liegt im Preis dieser Ehrlichkeit: Crumb selbst beschrieb sich als von Selbstekel geplagt, unf\u00e4hig, seine eigenen Fantasien gutzuhei\u00dfen, die er dennoch nicht unterdr\u00fccken konnte. 1993 zog die Familie von Kalifornien in ein abgelegenes Dorf in S\u00fcdfrankreich &ndash; als Grund nannte er unter anderem "schlechte Schulen, zu viel Kriminalit\u00e4t, Vorstadt-Zersiedelung, Medien\u00fcberflutung". Die Burg wurde zu einem ganzen Land gew\u00e4hlt, um dem amerikanischen Leben endg\u00fcltig zu entkommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die sich in ein franz\u00f6sisches Dorf zur\u00fcckzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Frage <em>Habe ich genug, um mich zu zeigen?</em> zur Erkenntnis <em>Das Gezeigte wird nicht weniger wertvoll, wenn es unvollkommen ist.</em> F\u00fcr die SE5w4 bedeutet das, die eigene, oft besch\u00e4mend empfundene Innenwelt nicht l\u00e4nger allein zu horten, sondern sie &ndash; wie in den gemeinsamen Comics mit Aline &ndash; als geteiltes, verbindendes Material zu verstehen.</p>
+          <p class="vb-intro">Robert Crumb lebt bis heute zur\u00fcckgezogen in S\u00fcdfrankreich, fernab des Kunstbetriebs, den er zeitlebens mit Misstrauen betrachtete. Die Eule, die als Kind vor dem Chaos ihrer Familie in die eigene Burg aus Papier floh, hinterlie\u00df ein Werk, das Millionen Leser dazu brachte, die eigenen Schattenseiten weniger allein zu ertragen &ndash; gerade weil sie nie versuchte, ihre eigenen zu verbergen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-franz-kafka", label:"Portr\u00e4t: Franz Kafka (SE5w4)"},
+        {route:"beruehmte-xu-bing", label:"Portr\u00e4t: Xu Bing (SE5w4)"},
+        {route:"beruehmte-christian-raetsch", label:"Portr\u00e4t: Christian R\u00e4tsch (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
