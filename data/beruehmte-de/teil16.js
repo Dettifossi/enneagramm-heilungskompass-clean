@@ -1524,7 +1524,7 @@ export function augustinusVonHippoPortraitPage() {
         <h2 class="vb-section">4. Die Bekenntnisse: Rivalität mit dem eigenen früheren Ich</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die &raquo;Confessiones&laquo; sind eines der ersten Werke der Weltliteratur, in dem ein Mensch sein eigenes Innenleben schonungslos offenlegt &ndash; nicht als nüchterner Lebenslauf, sondern als eine fortlaufende, oft schmerzhafte Auseinandersetzung mit dem eigenen früheren Selbst. Augustinus rang mit seinem jüngeren Ich, wie eine SX4 mit einem Rivalen ringt: Er verurteilte seine Jugendsünden mit derselben Intensität, mit der er sie einst gelebt hatte, und legendär ist seine Klage über eine als Jugendlicher begangene Birnendiebstahl-Episode &ndash; nicht wegen des geringen materiellen Schadens, sondern weil sie ihm zum Symbol für das Wesen der Sünde selbst wurde: das Verlangen nach dem Verbotenen um seiner selbst willen.</p>
-          <p class="vb-intro">Diese Fähigkeit, das eigene Innenleben mit derselben Intensität zu seziehen, mit der er es einst durchlebte, macht die &raquo;Bekenntnisse&laquo; bis heute lesbar &ndash; ein Mann, der nie zufrieden war mit einer oberflächlichen Erklärung seiner selbst, sondern immer tiefer grub, bis er auf das stieß, was er für die letzte, unwiderlegbare Wahrheit hielt.</p>
+          <p class="vb-intro">Diese Fähigkeit, das eigene Innenleben mit derselben Intensität zu sezieren, mit der er es einst durchlebte, macht die &raquo;Bekenntnisse&laquo; bis heute lesbar &ndash; ein Mann, der nie zufrieden war mit einer oberflächlichen Erklärung seiner selbst, sondern immer tiefer grub, bis er auf das stieß, was er für die letzte, unwiderlegbare Wahrheit hielt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
@@ -1536,7 +1536,7 @@ export function augustinusVonHippoPortraitPage() {
         <h2 class="vb-section">6. Der Chihuahua, dessen Bellen ein Jahrtausend überdauerte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Ich bin bereits vollständig verbunden, ohne dass mir etwas fehlt.</em> Für die SX4w5 zeigt sich dieser Weg darin, dass das rastlose Ringen um die eine unerreichbare Verbindung sich in eine tragfähige, geordnete Gewissheit verwandelt &ndash; nicht weniger intensiv, aber nicht mehr getrieben von Mangel.</p>
-          <p class="vb-intro">Augustinus starb am 28. August 430 n. Chr. in Hippo Regius, während die Vandalen die Stadt belagerten &ndash; sein Leben endete inmitten desselben Zusammenbruchs der römischen Ordnung, über den er in &raquo;De civitate Dei&laquo; geschrieben hatte. Seine Schriften wurden zum Fundament der westlichen Theologie und Philosophie für die folgenden anderthalb Jahrtausende, von Thomas von Aquin bis Martin Luther, von Descartes bis in gegenwärtige Debatten über Willensfreiheit und Zeit. Der Chihuahua, der als junger Mann nichts halb empfand, empfand am Ende auch seinen Glauben nicht halb &ndash; und sein Bellen, einst nur das eines rastlosen jungen Rhetorikers in Karthago, hallt bis heute durch die Geschichte des abendländischen Denkens.</p>
+          <p class="vb-intro">Augustinus starb am 28. August 430 n. Chr. in Hippo Regius, während die Vandalen die Stadt belagerten &ndash; sein Leben endete inmitten desselben Zusammenbruchs der römischen Ordnung, über den er in &raquo;De civitate Dei&laquo; geschrieben hatte. Seine Schriften wurden zum Fundament der westlichen Theologie und Philosophie für die folgenden anderthalb Jahrtausende, von Thomas von Aquin (SE9w8) bis Martin Luther (SX1w2), von René Descartes (SE5w6) bis in gegenwärtige Debatten über Willensfreiheit und Zeit. Der Chihuahua, der als junger Mann nichts halb empfand, empfand am Ende auch seinen Glauben nicht halb &ndash; und sein Bellen, einst nur das eines rastlosen jungen Rhetorikers in Karthago, hallt bis heute durch die Geschichte des abendländischen Denkens.</p>
         </blockquote>
 
       </div>
@@ -1548,6 +1548,9 @@ export function augustinusVonHippoPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-dante-alighieri", label:"Porträt: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Porträt: Thomas von Aquin (SE9w8) – dessen Theologie von Augustinus geprägt wurde"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – dessen Theologie auf Augustinus aufbaute"},
+        {route:"beruehmte-rene-descartes", label:"Porträt: René Descartes (SE5w6)"},
       ])}
     </div>
   `);

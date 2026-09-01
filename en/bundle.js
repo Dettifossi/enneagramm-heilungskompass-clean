@@ -26184,7 +26184,7 @@ function augustinusVonHippoPortraitPage() {
         <h2 class="vb-section">6. The Chihuahua Whose Bark Outlasted a Millennium</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>I am already fully connected, lacking nothing.</em> For the SX4w5, this path shows itself as the restless struggle for the one unattainable bond transforming into a sustaining, ordered certainty &ndash; no less intense, but no longer driven by lack.</p>
-          <p class="vb-intro">Augustine died on August 28, 430 AD, in Hippo Regius, while the Vandals laid siege to the city &ndash; his life ending amid the same collapse of Roman order he had written about in <em>The City of God</em>. His writings became the foundation of Western theology and philosophy for the following millennium and a half, from Thomas Aquinas to Martin Luther, from Descartes to present-day debates on free will and time. The Chihuahua who, as a young man, felt nothing by halves, felt his faith no less fully at the end &ndash; and his bark, once only that of a restless young rhetorician in Carthage, still echoes through the history of Western thought today.</p>
+          <p class="vb-intro">Augustine died on August 28, 430 AD, in Hippo Regius, while the Vandals laid siege to the city &ndash; his life ending amid the same collapse of Roman order he had written about in <em>The City of God</em>. His writings became the foundation of Western theology and philosophy for the following millennium and a half, from Thomas Aquinas (SE9w8) to Martin Luther (SX1w2), from René Descartes (SP5w6) to present-day debates on free will and time. The Chihuahua who, as a young man, felt nothing by halves, felt his faith no less fully at the end &ndash; and his bark, once only that of a restless young rhetorician in Carthage, still echoes through the history of Western thought today.</p>
         </blockquote>
 
       </div>
@@ -26196,6 +26196,9 @@ function augustinusVonHippoPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-dante-alighieri", label:"Portrait: Dante Alighieri (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
+        {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology was shaped by Augustine"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – whose theology built on Augustine"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
       ])}
     </div>
   `);
