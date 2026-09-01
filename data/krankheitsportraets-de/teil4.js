@@ -3707,7 +3707,7 @@ export function christophKolumbusKrankheitsportraetPage() {
         Atlantiküberquerung und seine Härte als Statthalter. Diesmal richtet sich der Blick auf
         ein Kapitel, das dort nur am Rande erscheint: eine quälende, nie ganz geklärte
         Gelenkerkrankung, die ihn in seinen letzten acht Lebensjahren zunehmend fesselte – und
-        die er dennoch nie davon abhielt, eine vierte, letzte Atlantiküberquerung anzutreten.
+        die ihn dennoch nie davon abhielt, eine vierte, letzte Atlantiküberquerung anzutreten.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
