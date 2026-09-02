@@ -1644,7 +1644,7 @@ export function takashiMurakamiPortraitPage() {
 
         <h2 class="vb-section">4. Von Kanye West bis zum Museum: Ein Territorium ohne Grenzen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2007 gestaltete Murakami das Albumcover von Kanye Wests \xbbGraduation\xab &ndash; ein weiterer Schritt in eine popkulturelle Sph\xe4re, die klassische Galeriek\xfcnstler traditionell mieden. Sp\xe4ter folgten Kollaborationen mit Pharrell Williams, Virgil Abloh und Billie Eilish. Gleichzeitig blieb Murakami im Hochkultur-Betrieb pr\xe4sent: gro\xdfe Einzelausstellungen im Brooklyn Museum, im Mori Art Museum Tokio und zahlreichen weiteren internationalen H\xe4usern.</p>
+          <p class="vb-intro">2007 gestaltete Murakami das Albumcover von Kanye Wests \xbbGraduation\xab &ndash; ein weiterer Schritt in eine popkulturelle Sph\xe4re, die klassische Galeriek\xfcnstler traditionell meiden. Sp\xe4ter folgten Kollaborationen mit Pharrell Williams, Virgil Abloh und Billie Eilish. Gleichzeitig blieb Murakami im Hochkultur-Betrieb pr\xe4sent: gro\xdfe Einzelausstellungen im Brooklyn Museum, im Mori Art Museum Tokio und zahlreichen weiteren internationalen H\xe4usern.</p>
           <p class="vb-intro">2002 gr\xfcndete er zudem die Kunstmesse GEISAI, um jungen, unbekannten japanischen K\xfcnstlern eine Plattform ohne die \xfcblichen Galerie-Gatekeeper zu bieten &ndash; eine eigene, von ihm kontrollierte Infrastruktur, die zugleich F\xf6rderung und Territorialanspruch ist. Der Gorilla, der nicht nur sein eigenes Revier bef\xfcllt, sondern gleich ein ganzes \xd6kosystem um sich herum aufbaut.</p>
         </blockquote>
 

@@ -36580,7 +36580,7 @@ function takashiMurakamiPortraitPage() {
 
         <h2 class="vb-section">4. From Kanye West to the Museum: A Territory Without Borders</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2007 Murakami designed the cover art for Kanye West's "Graduation" &ndash; another step into a pop-cultural sphere that classical gallery artists traditionally avoided. Collaborations with Pharrell Williams, Virgil Abloh, and Billie Eilish followed later. At the same time, Murakami remained present in the high-culture art world: major solo exhibitions at the Brooklyn Museum, the Mori Art Museum Tokyo, and numerous other international institutions.</p>
+          <p class="vb-intro">In 2007 Murakami designed the cover art for Kanye West's "Graduation" &ndash; another step into a pop-cultural sphere that classical gallery artists traditionally avoid. Collaborations with Pharrell Williams, Virgil Abloh, and Billie Eilish followed later. At the same time, Murakami remained present in the high-culture art world: major solo exhibitions at the Brooklyn Museum, the Mori Art Museum Tokyo, and numerous other international institutions.</p>
           <p class="vb-intro">In 2002 he also founded the GEISAI art fair, to give young, unknown Japanese artists a platform without the usual gallery gatekeepers &ndash; an infrastructure of his own, under his control, that is at once patronage and territorial claim. The gorilla that does not merely fill its own territory, but builds an entire ecosystem around itself.</p>
         </blockquote>
 
