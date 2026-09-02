@@ -42811,7 +42811,7 @@ function blickqualitaetenAtlasPage() {
   const jumpNav = BLICKQUALITAETEN_DATEN.map(t => {
     const col = TYPE_COLORS[t.typ];
     const zahlwort = ["","Eins","Zwei","Drei","Vier","Fünf","Sechs","Sieben","Acht","Neun"][t.typ];
-    return `<a href="#ba-t${t.typ}" style="font-size:.78rem;font-weight:700;padding:.3rem .6rem;border-radius:99px;background:color-mix(in srgb, ${col} 16%, var(--chip,var(--paper)));color:${col};text-decoration:none;">${zahlwort}</a>`;
+    return `<a href="#blickqualitaeten-atlas|ba-t${t.typ}" style="font-size:.78rem;font-weight:700;padding:.3rem .6rem;border-radius:99px;background:color-mix(in srgb, ${col} 16%, var(--chip,var(--paper)));color:${col};text-decoration:none;">${zahlwort}</a>`;
   }).join("");
 
   return shell(`
@@ -42840,9 +42840,14 @@ function blickqualitaetenAtlasPage() {
 
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      <p style="max-width:680px;margin:0.6rem auto 1.2rem;text-align:center;">
-        <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Blickqualitäten live lernen bei David L. Rathmer → enneascholars.de</a>
-      </p>
+      <a class="academy-tip" href="https://www.enneascholars.de" target="_blank" rel="noopener">
+        <span class="academy-tip__icon">👁️</span>
+        <div class="academy-tip__text">
+          <strong>Blickqualitäten live lernen</strong>
+          <span>Bei David L. Rathmer &ndash; EnneaScholars Academy</span>
+        </div>
+        <span class="academy-tip__arrow">→</span>
+      </a>
       ${relatedLinks([
         {route:"wissen", label:"Wissen – Übersicht"},
         {route:"blickqualitaet", label:"Schaubild: Blickqualität"},
