@@ -1605,6 +1605,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jean-Jacques Rousseau – Sexual Type 5",
     teaser:"SX5w4 · 1712–1778. Philosopher, writer. \"The Social Contract,\" \"Confessions\" – the most radical literary self-exposure of the Enlightenment. The hedgehog that opened fully, once, while giving away his own five children to a foundling home.",
     land:"Switzerland/France", tags:["Philosophie","Literatur"], gender:"m"},
+{ route:"beruehmte-huang-yong-ping", name:"Huang Yong Ping", added:"2026-09-02", subtyp:"SE6w5",
+    heading:"Huang Yong Ping – Self-Preservation Type 6",
+    teaser:"SP6w5 · 1954–2019. Chinese-French artist, co-founder of Xiamen Dada. Let the I Ching decide the color and form of his works, left China in 1989 after the Tiananmen massacre, and stayed in exile in Paris. The rabbit that sought its security in an ancient system rather than in adaptation.",
+    land:"China/France", tags:["Kunst"], gender:"m"},
 { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
     heading:"Fjodor Dostojewski – Self-Preservation Type 6",
     teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
@@ -28738,6 +28742,70 @@ function franzSchubertPortraitPage() {
   `);
 }
 
+function huangYongPingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-huang-yong-ping-portrait.jpg" alt="Huang Yong Ping – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Huang Yong Ping</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Chinese-French artist, 1954&ndash;2019 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Handed Control to Chance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, adaptable, searching for a reliable ground to trust when the world itself offers none. Huang Yong Ping, born 1954 in Xiamen (Amoy) on China's southeastern coast, studied at the Zhejiang Academy of Fine Arts in Hangzhou before co-founding the "Xiamen Dada" group in his hometown in 1986 &ndash; one of the most radical currents of the Chinese avant-garde, which publicly burned its own works after an exhibition.</p>
+          <p class="vb-intro">But unlike Western Dadaism, which aimed at destruction and provocation for their own sake, Huang sought in this radical act something that gave him security: a system larger than his own uncertain authorship. The rabbit that does not trust its own strength, but something reliable outside itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Warmth as Trust in an Ancient System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security arises not through control or rules, but through trust in something reliable, something familiar. In Huang's case, this trust showed itself not primarily in human bonds, but in an ancient Chinese system of order: the I Ching, the "Book of Changes." Over decades he let dice, wheels of chance, and other random mechanisms decide, following the principles of the I Ching, what form, color, or arrangement a work should take.</p>
+          <p class="vb-intro">The most famous example of this stance is his work "A History of Chinese Painting and a Concise History of Modern Painting Washed in a Washing Machine for Two Minutes" (1987): he put two canonical art-history books &ndash; one on Chinese, one on Western painting &ndash; together into a washing machine until only a paper pulp remained. No personal statement, no artistic caprice &ndash; but a familiar, external procedure that takes over the decision where his own authority seemed too uncertain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Distance Through System Instead of Closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an intellectual, systematizing coolness that a pure 6w7 rarely shows to this degree. Huang's lifelong engagement with Zen Buddhism, Taoism, and the philosophy of Wittgenstein, as well as his admiration for John Cage's chance compositions, show exactly this Five-like sobriety: the need to let his own uncertain subjectivity disappear behind a traceable, almost scientific procedure.</p>
+          <p class="vb-intro">Where a pure Six with a weaker Five-wing would more likely seek the closeness of a group or a mentor to feel secure, Huang sought security in an intellectually penetrated, distanced system: not people as an anchor, but a millennia-old method that seemed more reliable than any personal bond.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Exile: Loyalty to the Familiar Circle in a Foreign Land</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1989 Huang traveled to Paris to take part in the landmark exhibition "Magiciens de la Terre" at the Centre Pompidou. During his stay, the Tiananmen Square massacre occurred. Instead of returning to China, Huang decided to stay &ndash; a decision that made him an exile for the rest of his life, far from the familiar surroundings from which his SP6 warmth had originally drawn its security.</p>
+          <p class="vb-intro">Telling for the Six is how he responded to this rupture: not by adapting to the new environment at any cost, but by holding on to a small, reliable circle of Chinese artists and thinkers in Parisian exile, and to the same philosophical systems that had already carried him in Xiamen. The rabbit that does not look for its security in new territory, but in what it carried with it from home.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 shows in Huang's ability to turn a deeply personal need for reliability into a work of universal force: installations like "Théâtre du Monde" &ndash; a turtle-shaped cage full of insects and reptiles devouring one another &ndash; translate his own search for a workable system into an image of the entire world order.</p>
+          <p class="vb-intro">The shadow shows in the controversy this very work triggered at the Guggenheim Museum in 2017: after massive protests from animal-rights organizations and death threats against museum staff, the piece was removed from the exhibition. The Six's fateful pattern, <strong>doubt</strong>, is mirrored here: a system the artist trusted unconditionally &ndash; controlled chance as an overarching order &ndash; collided with a public authority that did not share that trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Rabbit That Kept Building the Order to the Last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Huang Yong Ping died suddenly of a brain hemorrhage on October 20, 2019, in Ivry-sur-Seine near Paris &ndash; in the middle of preparing a major retrospective at the Palais de Tokyo, which opened posthumously under the title "Peaux de banane." To the last, he held to the same underlying principle that had carried his entire body of work: the conviction that an external, reliable system holds more truth than his own isolated decision.</p>
+          <p class="vb-intro">Like Fyodor Dostoevsky (SP6w5, see <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">portrait</a>), Huang found his security not in outward adaptation, but in an unshakeable adherence to an inner frame of reference that carried him through displacement, controversy, and exile. The rabbit that found its warmth not in adapting to new terrain, but in loyalty to what had already proven itself over millennia.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function fjodorDostojewskiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -28801,6 +28869,7 @@ function fjodorDostojewskiPortraitPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
         {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
       ])}
@@ -49657,7 +49726,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -49678,6 +49747,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "When years of suppressed fear unexpectedly erupt into violence (shadow form)",
         beschreibung: "In its destructive expression, fear remains outwardly controlled and invisible for years – until a situation arises with no perceived way out, and the pent-up tension discharges abruptly and unpredictably.",
         beleg: "John List: 'The rabbit flees when it can. But cornered – with no way out, no escape route – it lashes out. Hard, sudden, surprising ... For years he kept his ears up, registered every sign of danger, stayed silent, kept his head down, functioned. And then ... he lashed out.' Important: this is the only known case of this kind among the SE6 portraits in this compass, not a typical expression."
+      },
+      {
+        titel: "Trust in an external, time-tested system instead of one's own uncertain judgment (especially with the 5-wing)",
+        beschreibung: "Instead of relying on one's own judgment, control is deliberately handed over to a reliable, usually long-established procedure or system of order – security arises because something proven makes the decision, not the uncertain self.",
+        beleg: "Huang Yong Ping, who for decades let dice and wheels of chance decide, following the principles of the I Ching, the color, form, and arrangement of his works: 'No personal statement, no artistic caprice – but a familiar, external procedure that takes over the decision where his own authority seemed too uncertain.'"
       }
     ]
   },
@@ -109445,6 +109519,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-armin-rohde": arminRohdePortraitPage,
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
+      "beruehmte-huang-yong-ping": huangYongPingPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-franz-schubert": franzSchubertPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,

@@ -1596,3 +1596,67 @@ export function winstonChurchillPortraitPage() {
     </div>
   `);
 }
+
+export function huangYongPingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-huang-yong-ping-portrait.jpg" alt="Huang Yong Ping – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Huang Yong Ping</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Chinesisch-franz\xf6sischer K\xfcnstler, 1954&ndash;2019 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das dem Zufall die Kontrolle \xfcberlie\xdf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Grund, dem es vertrauen kann, wenn die Welt selbst keine Sicherheit bietet. Huang Yong Ping, 1954 in Xiamen (Amoy) an der s\xfcdchinesischen K\xfcste geboren, studierte an der Zhejiang Academy of Fine Arts in Hangzhou, bevor er 1986 in seiner Heimatstadt die Gruppe \xbbXiamen Dada\xab mitbegr\xfcndete &ndash; eine der radikalsten Str\xf6mungen der chinesischen Avantgarde, die nach einer Ausstellung ihre eigenen Werke \xf6ffentlich verbrannte.</p>
+          <p class="vb-intro">Doch anders als der westliche Dadaismus, der auf Zerst\xf6rung und Provokation um ihrer selbst willen zielte, suchte Huang in diesem radikalen Akt etwas, das ihm selbst Sicherheit gab: ein System, das gr\xf6\xdfer war als die eigene, unsichere Autorenschaft. Das Kaninchen, das nicht auf die eigene St\xe4rke vertraut, sondern auf etwas Verl\xe4ssliches au\xdferhalb seiner selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: W\xe4rme als Vertrauen in ein altes System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>W\xe4rme</em> nannte: Sicherheit entsteht nicht durch Kontrolle oder Regeln, sondern durch das Vertrauen in etwas Verl\xe4ssliches, Vertrautes. Bei Huang zeigte sich dieses Vertrauen nicht vorrangig in menschlichen Bindungen, sondern in einem uralten chinesischen Ordnungssystem: dem I Ging (Yijing), dem \xbbBuch der Wandlungen\xab. \xdcber Jahrzehnte lie\xdf er W\xfcrfel, Drehr\xe4der und Zufallsmechanismen nach den Prinzipien des I Ging dar\xfcber entscheiden, welche Form, Farbe oder Anordnung ein Werk annehmen sollte.</p>
+          <p class="vb-intro">Das ber\xfchmteste Beispiel dieser Haltung ist sein Werk \xbbA History of Chinese Painting and a Concise History of Modern Painting Washed in a Washing Machine for Two Minutes\xab (1987): Er legte zwei kanonische Kunstgeschichtsb\xfccher &ndash; eines \xfcber chinesische, eines \xfcber westliche Malerei &ndash; zusammen in eine Waschmaschine, bis nur noch ein papierener Brei \xfcbrig blieb. Keine pers\xf6nliche Setzung, keine k\xfcnstlerische Willk\xfcr &ndash; sondern ein vertrautes, \xe4u\xdferes Verfahren, das die Entscheidung \xfcbernimmt, wo die eigene Autorit\xe4t zu unsicher erscheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Distanz durch System statt durch N\xe4he</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> gibt der selbsterhaltenden Sechs eine intellektuelle, systematisierende K\xfchle, die eine reine 6w7 selten in dieser Konsequenz zeigt. Huangs lebenslange Auseinandersetzung mit Zen-Buddhismus, Taoismus und der Philosophie Wittgensteins sowie seine Bewunderung f\xfcr John Cages Zufallskompositionen zeigen genau diese F\xfcnfer-N\xfcchternheit: das Bed\xfcrfnis, die eigene, unsichere Subjektivit\xe4t hinter einem nachvollziehbaren, beinahe wissenschaftlichen Verfahren verschwinden zu lassen.</p>
+          <p class="vb-intro">Wo eine reine Sechs mit schw\xe4cher ausgepr\xe4gtem F\xfcnferfl\xfcgel eher die N\xe4he einer Gruppe oder eines Mentors suchen w\xfcrde, um sich sicher zu f\xfchlen, suchte Huang die Sicherheit in einem intellektuell durchdrungenen, distanzierten System: nicht Menschen als Anker, sondern eine jahrtausendealte Methode, die verl\xe4sslicher schien als jede pers\xf6nliche Bindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Exil: Loyalit\xe4t zum vertrauten Kreis in der Fremde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1989 reiste Huang nach Paris, um an der wegweisenden Ausstellung \xbbMagiciens de la Terre\xab im Centre Pompidou teilzunehmen. W\xe4hrend seines Aufenthalts ereignete sich das Massaker am Platz des Himmlischen Friedens. Statt nach China zur\xfcckzukehren, entschied sich Huang zu bleiben &ndash; eine Entscheidung, die ihn f\xfcr den Rest seines Lebens zum Exilanten machte, fern der vertrauten Umgebung, aus der seine SE6-W\xe4rme urspr\xfcnglich ihre Sicherheit bezog.</p>
+          <p class="vb-intro">Bezeichnend f\xfcr die SE6 ist, wie er auf diesen Bruch reagierte: nicht mit Anpassung an die neue Umgebung um jeden Preis, sondern mit dem Festhalten an einem kleinen, verl\xe4sslichen Kreis chinesischer K\xfcnstler und Denker im Pariser Exil sowie an denselben philosophischen Systemen, die ihn schon in Xiamen getragen hatten. Das Kaninchen, das seine Sicherheit nicht im neuen Territorium sucht, sondern in dem, was es aus der Heimat mitgenommen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Huangs F\xe4higkeit, aus einem zutiefst pers\xf6nlichen Bed\xfcrfnis nach Verl\xe4sslichkeit ein Werk von universeller Kraft zu schaffen: Installationen wie \xbbTh\xe9\xe2tre du Monde\xab &ndash; ein sch\xfcldkr\xf6tenf\xf6rmiger K\xe4fig voller Insekten und Reptilien, die sich gegenseitig fressen &ndash; \xfcbersetzen die eigene Suche nach einem tragf\xe4higen System in ein Bild der gesamten Weltordnung.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kontroverse, die genau dieses Werk 2017 im Guggenheim Museum ausl\xf6ste: Nach massiven Protesten von Tierschutzorganisationen und Morddrohungen gegen das Museumspersonal wurde die Arbeit aus der Ausstellung entfernt. Das Schicksalsmuster der Sechs, der <strong>Zweifel</strong>, zeigt sich hier gespiegelt: Ein System, dem der K\xfcnstler bedingungslos vertraute &ndash; das kontrollierte Zufallsprinzip als \xfcbergeordnete Ordnung &ndash; geriet in Konflikt mit einer \xf6ffentlichen Autorit\xe4t, die dieses Vertrauen nicht teilte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\xe4chtnis: Das Kaninchen, das bis zuletzt an der Ordnung baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Huang Yong Ping starb am 20. Oktober 2019 pl\xf6tzlich an einer Hirnblutung in Ivry-sur-Seine bei Paris &ndash; mitten in den Vorbereitungen zu einer gro\xdfen Retrospektive im Palais de Tokyo, die posthum unter dem Titel \xbbPeaux de banane\xab er\xf6ffnet wurde. Bis zuletzt hielt er an demselben Grundprinzip fest, das sein gesamtes Werk getragen hatte: der \xdcberzeugung, dass ein \xe4u\xdferes, verl\xe4ssliches System mehr Wahrheit birgt als die eigene, isolierte Entscheidung.</p>
+          <p class="vb-intro">Wie Fjodor Dostojewski (SE6w5, siehe <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">Portr\xe4t</a>) fand auch Huang seine Sicherheit nicht in \xe4u\xdferer Anpassung, sondern im unersch\xfctterlichen Festhalten an einem inneren Bezugssystem, das ihn durch Vertreibung, Kontroverse und Exil trug. Das Kaninchen, das seine W\xe4rme nicht in der Anpassung an neues Terrain fand, sondern in der Treue zu dem, was sich \xfcber Jahrtausende bereits bew\xe4hrt hatte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 &ndash; Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
