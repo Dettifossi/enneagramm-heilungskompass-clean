@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=64";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=65";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1122,6 +1122,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Osho – Self-Preservation Type 3",
     teaser:"SP3w4 · 1931–1990. Mystic, commune founder, author of over 600 books. From the Poona ashram to the utopian city of Rajneeshpuram – the raccoon that builds systems while the Four questions every convention. Animal correspondence: Raccoon.",
     land:"India", tags:["Sonstiges"] , gender:"m"},
+{ route:"beruehmte-william-shakespeare", name:"William Shakespeare", added:"2026-09-02", subtyp:"SE3w4",
+    heading:"William Shakespeare – Self-Preservation Type 3",
+    teaser:"SP3w4 · Playwright and poet, 1564–1616. Roughly 39 plays, 154 sonnets, theater shareholder and property owner. Left so few personal traces that his authorship is still debated today. The raccoon whose very existence is still doubted today.",
+    land:"United Kingdom", tags:["Geschichte","Literatur"], gender:"m"},
 { route:"beruehmte-sterling-north", name:"Sterling North", added:"2026-08-18", subtyp:"SE3w4",
     heading:"Sterling North – Self-Preservation Type 3",
     teaser:"SE3w4 · 1906–1974. Writer and literary editor. Made the raccoon world-famous with his book »Rascal« (1963, Newbery Honor, adapted by Disney) – and stayed connected to the real animal for the rest of his life.",
@@ -18640,6 +18644,74 @@ function adeleNeuhauserPortraitPage() {
           {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function williamShakespearePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-william-shakespeare-portrait.jpg" alt="William Shakespeare – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William Shakespeare</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Playwright and poet, 1564&ndash;1616 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon whose very existence is still doubted today</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; inconspicuous, skillful, persistent behind the scenes, without any need for the spotlight. Hardly anyone in this compass shows this principle as radically as William Shakespeare: roughly 39 plays and 154 sonnets that still shape the English language today &ndash; and behind them a man who left so few personal traces that people still seriously debate whether a glovemaker's son from the provinces, without a university education, could have written this body of work at all.</p>
+          <p class="vb-intro">That very debate is itself the strongest evidence for the type: the person behind the work was so inconspicuous that posterity doubts his existence rather than his authorship. No scandal, no recorded political stance, not a single personal letter &ndash; only the work itself, speaking for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: business sense alongside genius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> is the countertype of the Three: instead of self-promotion, it shows modesty, groundedness, a deliberate avoidance of the spotlight &ndash; while the underlying energy remains the same. Shakespeare was not only a playwright but a shareholder in the Lord Chamberlain's Men (later the King's Men), a part-owner of the Globe Theatre, and acquired substantial property in Stratford, including New Place, the second-largest house in town &ndash; creative output and economic pragmatism ran in parallel for him.</p>
+          <p class="vb-intro">His will is strikingly matter-of-fact: a precise inventory of property, the famous "second-best bed" left to his wife Anne Hathaway &ndash; no poetic gesture, but a businesslike document. That is the typical SP3 stance: substance and real achievement matter more than the public story told about them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: mortality as a recurring theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a depth beyond mere practicality. The sonnets and the great tragedies &ndash; Hamlet, King Lear, Macbeth &ndash; circle continually around mortality, loss, identity, and beauty, not as an occasional device but as a recurring theme across decades.</p>
+          <p class="vb-intro">This depth, typical of the countertype, remained consistently channeled into the work rather than into public self-presentation. Unlike overtly expressive Fours, the melancholy is never put on display but poured into a flawlessly crafted form &ndash; visible to anyone who reads the work, invisible in the person behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 is its ability to <strong>create, through quiet, disciplined work, a body of work with centuries of impact</strong> without the person themselves ever needing to become a brand &ndash; Shakespeare's language has shaped English so deeply that many of his phrases are now everyday speech, without most speakers knowing their origin.</p>
+          <p class="vb-intro">The shadow of the self-preservation Three with a Four-wing shows in how much one's own achievement can vanish behind one's own invisibility: the substance was so complete that it still fuels conspiracy theories to this day, which would rather suspect a more publicly visible, aristocratic author behind the work than accept that an unremarkable man from Stratford could have created it alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The same pattern in other raccoons of this compass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Comparing this with other SP3w4 portraits in this compass makes the pattern tangible: <strong>Sterling North</strong>, a literary editor for decades behind the scenes of major newspapers, is described as "the man at the desk with the typewriter who doesn't look like a public figure, but like a quiet, hardworking craftsman of language" &ndash; almost word for word the image that surrounds Shakespeare: a craftsman of language whose outward appearance bears no relation to the impact of his work.</p>
+          <p class="vb-intro"><strong>Tony Shalhoub</strong> and <strong>Judit Polgár</strong> are described in this compass in almost identical terms as "an animal easily underestimated ... works with skilled hands in hiding" &ndash; that fits too: Shakespeare left no explanatory prefaces, no self-commentary on his own genius, only the finished plays. <strong>Horst Tappert</strong>, who played the same role for 24 years, had "no spectacular meteoric rise, but a late-starting, all the more steadily carried career" &ndash; Shakespeare's own rise likewise unfolded over decades of steady theater work, not a single dazzling breakthrough.</p>
+          <p class="vb-intro">Most striking is the parallel to <strong>Anna Anderson</strong>, whose shadow-form fingerprint in this compass notes that she "built an existence from almost nothing &ndash; except the nothing was a stolen identity." With Shakespeare, there is no actual fraud involved, but the structural similarity is notable: in both cases, the question "who was really behind this?" remains unresolved to this day, because the real person behind the public impact left so few tangible traces. This recurring pattern &ndash; the same structure of quiet substance and public mystery across several completely different life stories &ndash; is itself the real evidence that SP3w4 is not an arbitrary assignment, but a recognizable, reliable life pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The raccoon who helped shape an entire language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Shakespeare left behind is not a monument to his own person, but a body of work that helped shape the English language itself &ndash; turns of phrase, coinages, dramatic structures that entered everyday life far beyond the theater, without their creator ever becoming a public figure in the modern sense.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the raccoon, who created one of the most influential works in world literature through quiet, disciplined work &ndash; and whose inconspicuousness was so complete that posterity still, to this day, more readily believes in a different author than in the simple fact that an unremarkable man from Stratford could achieve exactly that.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"beruehmte-sterling-north", label:"Portrait: Sterling North (SP3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+      ])}
     </div>
   `);
 }
@@ -50877,12 +50949,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks", "William Shakespeare"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100; Rosa Parks, who worked unobtrusively as NAACP secretary for twelve years before her quiet refusal on the bus became a world-famous turning point, and who then continued fifty more years of concrete civil rights work without any claim to fame, rather than accepting the role of icon."
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; William Shakespeare, who left so few personal traces that it is still seriously debated whether a glovemaker's son from the provinces could have written his work at all – the person behind the work was so inconspicuous that posterity doubts his existence rather than his authorship; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100; Rosa Parks, who worked unobtrusively as NAACP secretary for twelve years before her quiet refusal on the bus became a world-famous turning point, and who then continued fifty more years of concrete civil rights work without any claim to fame, rather than accepting the role of icon."
       },
       {
         titel: "Building a working system out of little or from nothing",
@@ -110388,6 +110460,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-bella-thorne": bellaThornePage,
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-sterling-north": sterlingNorthPortraitPage,
+      "beruehmte-william-shakespeare": williamShakespearePortraitPage,
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
       "beruehmte-sean-penn": seanPennPortraitPage,
       "beruehmte-paul-gauguin": paulGauguinPortraitPage,

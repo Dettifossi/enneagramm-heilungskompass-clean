@@ -1629,3 +1629,71 @@ export function hannahArendtPortraitPage() {
     </div>
   `);
 }
+
+export function williamShakespearePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-william-shakespeare-portrait.jpg" alt="William Shakespeare – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William Shakespeare</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Dramatiker und Lyriker, 1564&ndash;1616 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, dessen eigentliche Existenz bis heute bezweifelt wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; unauffällig, geschickt, ausdauernd im Verborgenen tätig, ohne das Bedürfnis nach Rampenlicht. Bei kaum einer Person dieses Kompasses zeigt sich dieses Prinzip so radikal wie bei William Shakespeare: Rund 39 Theaterstücke und 154 Sonette, die die englische Sprache bis heute prägen &ndash; und dahinter ein Mann, der so wenige persönliche Spuren hinterließ, dass bis heute ernsthaft diskutiert wird, ob ein Handschuhmachersohn aus der Provinz, ohne Universitätsbildung, dieses Werk überhaupt geschrieben haben kann.</p>
+          <p class="vb-intro">Genau diese Debatte ist selbst der stärkste Beleg für den Typ: Die Person hinter dem Werk war so unauffällig, dass die Nachwelt an ihrer Existenz zweifelt, statt an ihrer Urheberschaft. Kein Skandal, keine überlieferte politische Positionierung, kein einziger persönlicher Brief &ndash; nur das Werk selbst, das für sich spricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Geschäftssinn neben dem Genie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist laut Naranjo der Kontratyp der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts &ndash; während die Energie darunter dieselbe bleibt. Shakespeare war nicht nur Dramatiker, sondern Teilhaber der Lord Chamberlain's Men (später King's Men), Miteigentümer des Globe Theatre und erwarb in Stratford beträchtlichen Grundbesitz, darunter New Place, das zweitgrößte Haus der Stadt &ndash; kreativer Output und wirtschaftlicher Pragmatismus liefen bei ihm parallel.</p>
+          <p class="vb-intro">Sein Testament ist auffällig nüchtern-geschäftsmäßig: präzise Auflistung von Besitz, das berühmte "zweitbeste Bett" für seine Frau Anne Hathaway &ndash; keine poetische Geste, sondern ein sachliches Dokument. Das ist die typische SE3-Haltung: Substanz und reale Leistung zählen mehr als die öffentliche Inszenierung darüber.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Vergänglichkeit als Grundthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe jenseits reiner Zweckmäßigkeit. Die Sonette und die großen Tragödien &ndash; Hamlet, King Lear, Macbeth &ndash; kreisen durchgehend um Vergänglichkeit, Verlust, Identität und Schönheit, nicht als gelegentliches Stilmittel, sondern als über Jahrzehnte wiederkehrendes Grundthema.</p>
+          <p class="vb-intro">Diese Tiefe blieb, typisch für den Kontratyp, konsequent ins Werk kanalisiert statt ins öffentliche Auftreten. Anders als bei explizit expressiven Vierern wird die Schwermut nicht ausgestellt, sondern in eine handwerklich makellose Form gegossen &ndash; sichtbar für jeden, der das Werk liest, unsichtbar in der Person dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus stiller, disziplinierter Arbeit heraus ein Werk von jahrhundertelanger Wirkung zu schaffen</strong>, ohne dass die eigene Person je zur Marke werden musste &ndash; Shakespeares Sprache prägt das Englische bis heute so tief, dass viele seiner Wendungen längst als Alltagssprache gelten, ohne dass die meisten Sprecher ihren Ursprung kennen.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei mit Viererflügel zeigt sich darin, wie sehr die eigene Leistung hinter der eigenen Unsichtbarkeit verschwinden kann: Die Substanz war so vollständig, dass sie bis heute Anlass für Verschwörungstheorien bietet, die lieber einen adligen, öffentlich sichtbareren Autor hinter dem Werk vermuten, als zu akzeptieren, dass ein unauffälliger Mann aus Stratford es allein geschaffen haben könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Dasselbe Muster bei anderen Waschbären dieses Kompasses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Vergleich mit anderen SE3w4-Porträts dieses Kompasses macht das Muster greifbar: <strong>Sterling North</strong>, jahrzehntelang Literaturredakteur im Hintergrund großer Zeitungen, wird beschrieben als "der Mann am Schreibtisch mit der Schreibmaschine, der nicht wie eine öffentliche Figur wirkt, sondern wie ein stiller, arbeitsamer Handwerker der Sprache" &ndash; fast wortwörtlich das Bild, das sich um Shakespeare rankt: ein Handwerker der Sprache, dessen äußere Erscheinung in keinem Verhältnis zur Wirkung seines Werks steht.</p>
+          <p class="vb-intro"><strong>Tony Shalhoub</strong> und <strong>Judit Polgár</strong> werden im Kompass fast wortgleich als "ein Tier, das man leicht unterschätzt … arbeitet mit feinen, geschickten Händen im Verborgenen" beschrieben &ndash; auch das trifft: Shakespeare hinterließ keine erklärenden Vorworte, keine Selbstkommentierung seines Genies, nur die fertigen Stücke. <strong>Horst Tappert</strong>, der 24 Jahre dieselbe Rolle spielte, "kein spektakulärer Senkrechtstart, sondern eine spät begonnene, dafür umso beständiger getragene Karriere" &ndash; auch Shakespeares Aufstieg vollzog sich über Jahrzehnte stetiger Theaterarbeit, nicht über einen einzelnen glanzvollen Durchbruch.</p>
+          <p class="vb-intro">Am auffälligsten ist die Parallele zu <strong>Anna Anderson</strong>, deren Schattenform-Fingerabdruck im Kompass festhält, sie habe sich "aus fast nichts eine Existenz gebaut – nur dass das Nichts eine fremde Identität war". Bei Shakespeare geht es nicht um eine tatsächliche Fälschung, aber strukturell ist die Ähnlichkeit auffällig: Bei beiden entsteht um die Frage "Wer stand wirklich dahinter?" ein bis heute ungelöstes Rätsel, weil die reale Person hinter der öffentlichen Wirkung so wenig fassbare Spuren hinterließ. Genau dieses wiederkehrende Muster &ndash; über mehrere völlig unterschiedliche Lebensläufe hinweg dieselbe Struktur aus stiller Substanz und öffentlichem Rätsel &ndash; ist der eigentliche Beleg dafür, dass SE3w4 keine zufällige Zuordnung ist, sondern ein wiedererkennbares, verlässliches Lebensmuster.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Waschbär, der eine ganze Sprache mitgestaltete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Shakespeare hinterließ, ist kein Denkmal seiner eigenen Person, sondern ein Werk, das die englische Sprache selbst mitgeformt hat &ndash; Redewendungen, Wortschöpfungen, dramatische Strukturen, die weit über die Theaterwelt hinaus in den Alltag eingegangen sind, ohne dass ihr Urheber je zur öffentlichen Figur im modernen Sinn wurde.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Waschbär ist, der aus stiller, disziplinierter Arbeit heraus eines der einflussreichsten Werke der Weltliteratur schuf &ndash; und dessen Unauffälligkeit so vollständig war, dass die Nachwelt bis heute eher an einen anderen Autor glaubt als an die schlichte Tatsache, dass ein unscheinbarer Mann aus Stratford genau das leisten konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-sterling-north", label:"Porträt: Sterling North (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
