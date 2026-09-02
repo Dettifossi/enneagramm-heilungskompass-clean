@@ -937,7 +937,7 @@ export function konfuziusPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-laozi", label:"Portr\u00e4t: Laotse (Laozi) (SE9w1)"},
-        {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"bibel-ruben-schriftgelehrter", label:"Bibel-Portr\u00e4t: Ruben, der Schriftgelehrte (SO1w2)"},
       ])}
     </div>

@@ -1569,9 +1569,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Nietzsche – Sexual Type 5",
     teaser:"SX5w4 · 1844–1900. Philosopher. Thus Spoke Zarathustra, Beyond Good and Evil, Ecce Homo. The hedgehog who wrote himself a body of work in ten years of near-total solitude that still shakes philosophy today.",
     land:"Russia", tags:["Philosophy"], gender:"m"},
-{ route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SX5w4",
-    heading:"Siddhartha Gautama (Buddha) – Sexual Type 5",
-    teaser:"SX5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – the hedgehog that dissects the world until only truth remains. Animal correspondence: Hedgehog.",
+{ route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SO5w4",
+    heading:"Siddhartha Gautama (Buddha) – Social Type 5",
+    teaser:"SO5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – and a teaching structure he systematically shared with a growing community. Animal correspondence: Octopus.",
     tags:["Religion","Philosophy"], gender:"m"},
 { route:"beruehmte-greta-garbo", name:"Greta Garbo", added:"2026-08-07", subtyp:"SX5w4",
     heading:"Greta Garbo – Sexual Type 5",
@@ -23288,6 +23288,7 @@ function albertEinsteinPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – strikingly similar gaze quality and facial features despite different gender"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
       ])}
     </div>
   `);
@@ -25510,7 +25511,7 @@ function konfuziusPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype profile"},
         {route:"beruehmte-laozi", label:"Portrait: Laozi (Lao Tzu) (SE9w1)"},
-        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"bibel-ruben-schriftgelehrter", label:"Bible Portrait: Reuben the Scribe (SO1w2)"},
       ])}
     </div>
@@ -25575,7 +25576,7 @@ function laoziPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se9", label:"SE9 – The Elephant: Subtype profile"},
-        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SX5w4)"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"beruehmte-konfuzius", label:"Portrait: Confucius (Kong Fuzi) (SO1w2)"},
         {route:"beruehmte-cynthia-moss", label:"Portrait: Dr. Cynthia Moss (SE9w1)"},
         {route:"bibel-jakobus", label:"Bible Portrait: James, Son of Alphaeus (SE9w1)"},
@@ -25723,21 +25724,21 @@ function buddhaPortraitPage() {
           <img src="../assets/portraits/beruehmte-buddha-portrait.jpg" alt="Siddhartha Gautama (Buddha)" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Siddhartha Gautama (Buddha)</p>
-        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
-        <p class="krim-portrait-subtitle">Religious founder, c. 563&ndash;483 BCE &ndash; Founder of Buddhism &ndash; Animal correspondence: Hedgehog</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Religious founder, c. 563&ndash;483 BCE &ndash; Founder of Buddhism &ndash; Animal correspondence: Octopus</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Hedgehog</h2>
+        <h2 class="vb-section">1. The Octopus Who Wanted to Hold a Knowledge for Everyone</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; an animal that presents itself as spiny and unapproachable on the outside, while carrying a warmth inside that reveals itself only to the very few who come close enough. No accidental animal for a man who left his palace, his wife, and his newborn son to dissect a single question with cutting rigor: What is the cause of suffering? No prayer, no offering, no devotion to a creator god &ndash; but a radical, almost clinical analysis of reality as it is.</p>
-          <p class="vb-intro">Siddhartha Gautama, born a prince of a small kingdom in what is now the border region of India and Nepal, turned away from security, status, and family at the age of 29. For six years he passed through the most extreme schools of his time &ndash; first with the greatest meditation masters, then through an asceticism that nearly cost him his life &ndash; before attaining enlightenment under a Bodhi tree in Bodhgaya. Not a path of attachment to people, places, or institutions, but a path of radical penetration &ndash; the hedgehog that curls up in order to reach the core undisturbed.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; a creature that does not linger in solitude but carries its gathered knowledge out into the world with several reaching arms at once, until it becomes a system many can carry. No accidental animal for a man who left his palace, his wife, and his newborn son to dissect a single question with cutting rigor: What is the cause of suffering? No prayer, no offering, no devotion to a creator god &ndash; but a radical, almost clinical analysis of reality as it is.</p>
+          <p class="vb-intro">Siddhartha Gautama, born a prince of a small kingdom in what is now the border region of India and Nepal, turned away from security, status, and family at the age of 29. For six years he passed through the most extreme schools of his time &ndash; first with the greatest meditation masters, then through an asceticism that nearly cost him his life &ndash; before attaining enlightenment under a Bodhi tree in Bodhgaya. But unlike a hermit who keeps his knowledge to himself, his attention turned immediately after enlightenment to the question of how what he had realized could be carried forward &ndash; the octopus that stretches out eight arms to gather a knowledge meant, in the end, to belong to the whole community.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Five: Depth Instead of System</h2>
+        <h2 class="vb-section">2. The Totem: A Teaching, Systematically Ordered for a Growing Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> is the counter-type among the Fives &ndash; the Five that secures its existence not through withdrawal into a system, but through selective, highly intense connection with what is essential. Unlike the social Five, which orders its knowledge into a teaching accessible to many, or the self-preservation Five, which withdraws into a protected retreat, the sexual Five seeks the one, ultimate truth with which it can fully merge. Its goal is not distance but transcendence &ndash; complete immersion in what truly matters.</p>
-          <p class="vb-intro">Gautama's first teaching after his enlightenment was accordingly not a mass address but a deeply personal encounter: he deliberately sought out his five former companions from his ascetic years in Sarnath. And when the grieving Kisa Gotami came to him with her dead child, he gave her no abstract lecture on impermanence &ndash; he sent her to fetch a mustard seed from a house where no one had ever died. She returned empty-handed &ndash; and with an insight no lecture could have conveyed. This is precisely the sexual Five: truth tailored to the individual, person to person, not delivered from a pulpit.</p>
+          <p class="vb-intro">Claudio Naranjo called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing. The SO5 does not hold its knowledge back the way the introverted SE5 does, but orders it into a system a whole community can carry. That is exactly what Gautama did: his first teaching after enlightenment was addressed to his five former companions from his ascetic years in Sarnath &ndash; the opening of a teaching he spent the following 45 years systematically building into an ordered whole: the Four Noble Truths, the Eightfold Path, a precise conceptual framework that could be taught, memorized, and passed on.</p>
+          <p class="vb-intro">Even in his personal encounters, he was never after exclusive closeness with individuals, but wanted the insight to become part of a shared body of knowledge: when the grieving Kisa Gotami came to him with her dead child, he sent her to fetch a mustard seed from a house where no one had ever died &ndash; she returned empty-handed, but with an insight she went on to share with others who carried the same grief. The Totem-knowledge is shared because it wants to be shared, not kept as private property between two people.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-Wing: Existential Pain as Trigger</h2>
@@ -25746,16 +25747,16 @@ function buddhaPortraitPage() {
           <p class="vb-intro">This combination explains why Buddha's teaching never remained pure dry logic, but carries a contemplative, almost poetic quality &ndash; visible for instance in the parables of the Pali Canon, the image of the poisoned arrow, or the raft that is carried across the river but not dragged along afterward. The Five's mind dissects reality; the Four-wing ensures that this dissection never stays cold, but is carried by genuine empathy.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Passion: Avarice as Withdrawal into the Essential</h2>
+        <h2 class="vb-section">4. The Passion: Avarice, Overcome for the Sake of Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> (Avaritia) &ndash; hoarding one's own inner resources out of fear of being overwhelmed by the world's demands. In Siddhartha this passion appears in a radical inversion: he does not hoard possessions, but gives up all material wealth entirely &ndash; and instead withdraws to the one thing he refuses to share until he has fully penetrated it: truth itself. The hedgehog that curls up not to hoard, but to reach the core undisturbed.</p>
-          <p class="vb-intro">Only after his enlightenment does this restraint dissolve: according to tradition, he first considers keeping what he has realized to himself, believing it too subtle to convey to the world. Only an inner call to compassion &ndash; personified in legend as the deity Brahma Sahampati &ndash; moves him to teach after all. The Five, who initially wants to hoard its most precious possession, finds a way to share it generously without losing itself.</p>
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> (Avaritia) &ndash; hoarding one's own inner resources out of fear of being overwhelmed by the world's demands. In Siddhartha this passion appears in a radical inversion: he does not hoard possessions, but gives up all material wealth entirely &ndash; and instead spends six years wrestling for the one knowledge that will, in the end, not remain his private possession but belong to the whole community: truth itself. The octopus that first dives alone into the depths, only to carry back to the surface what it finds there.</p>
+          <p class="vb-intro">According to tradition, immediately after enlightenment he first considers keeping what he has realized to himself, believing it too subtle to convey to the world. Only an inner call to compassion &ndash; personified in legend as the deity Brahma Sahampati &ndash; moves him to teach after all, and not merely a narrow circle, but, as the following 45 years show, a steadily growing community. The Five, who initially wants to hoard its most precious possession, finds a way to share it systematically and accessibly, without losing itself.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Leadership Without Power: The Kosambi Conflict</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">How a Five handles conflict is shown exemplarily in the Kosambi crisis: a dispute between two monks splits the entire community into hostile camps. Buddha urges reconciliation &ndash; but is rebuffed by the disputants, who tell him to stay out of it. Rather than asserting his authority as founder or imposing punishments, he silently packs his bowl and withdraws alone into the Parileyyaka forest for months.</p>
-          <p class="vb-intro">No power struggle, no insistence on his own position at any cost &ndash; but energy conservation when emotional confusion threatens, and trust that cause and effect will bring their own clarification. Only the pressure of lay followers, who withhold alms from the quarreling monks, resolves the conflict. The hedgehog that does not entangle itself in the senseless, but waits until insight ripens on its own.</p>
+          <p class="vb-intro">No power struggle, no insistence on his own position at any cost &ndash; but energy conservation when emotional confusion threatens, and trust that cause and effect will bring their own clarification. Only the pressure of lay followers, who withhold alms from the quarreling monks, resolves the conflict. The octopus that does not entangle itself in the senseless, but withdraws for a time and waits until insight ripens on its own within the community.</p>
         </blockquote>
 
         <h2 class="vb-section">6. No Successor, No Institution for Its Own Sake</h2>
@@ -25764,22 +25765,22 @@ function buddhaPortraitPage() {
           <p class="vb-intro">Even when his own cousin Devadatta tries to take over the Sangha with stricter rules and splits off part of the monks, Buddha does not respond with counter-power, but sends his closest disciples Sariputta and Moggallana to clarify matters for those who were misled, using clear arguments. Persuasion through insight, not through domination &ndash; this too is the signature of the Five.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Light and Shadow of the Sexual Five</h2>
+        <h2 class="vb-section">7. Light and Shadow of the Social Five</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX5w4 is its ability to recognize the cause of suffering with unsparing clarity &ndash; and to convey this insight not as dry theory, but as deeply personal, tailored truth to individuals. The three marks of existence &ndash; impermanence (Anicca), non-self (Anatta), and unsatisfactoriness (Dukkha) &ndash; are not an abstract cosmology, but the result of a Five who dissects reality like a diagnostician until nothing unexamined remains. "Do not believe anything blindly, test it like gold in fire" &ndash; a classic Five stance that only accepts knowledge once it has been fully penetrated.</p>
-          <p class="vb-intro">The shadow shows itself in the permanent temptation of withdrawal: the impulse, after enlightenment, to retreat entirely from the world and keep the insight to oneself. Only the inner call to compassion &ndash; and, from the perspective of subtype theory, the Four-wing with its deep empathy for the suffering of others &ndash; overcomes this pull toward withdrawal. The sexual Five that opens itself without losing itself.</p>
+          <p class="vb-intro">The light of the SO5w4 is its ability to recognize the cause of suffering with unsparing clarity &ndash; and instead of hoarding this insight as exclusive secret knowledge, to shape it into an ordered system accessible to an entire community. The three marks of existence &ndash; impermanence (Anicca), non-self (Anatta), and unsatisfactoriness (Dukkha) &ndash; are not an abstract cosmology, but the result of a Five who dissects reality like a diagnostician until nothing unexamined remains, then orders that analysis so others can take it up. "Do not believe anything blindly, test it like gold in fire" &ndash; a classic Five stance that only accepts knowledge once it has been fully penetrated.</p>
+          <p class="vb-intro">The shadow shows itself in the permanent temptation of withdrawal: the impulse, after enlightenment, to retreat entirely from the world and keep the insight to oneself instead of passing it on systematically. Only the inner call to compassion &ndash; and, from the perspective of subtype theory, the Four-wing with its deep empathy for the suffering of others &ndash; overcomes this pull toward withdrawal. The social Five that opens its Totem-knowledge without losing itself to any one individual.</p>
         </blockquote>
 
         <h2 class="vb-section">8. The Middle Way: Neither Attachment Nor Denial</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">After six years between radical asceticism and the abundance of palace life, Buddha finds the "Middle Way" &ndash; neither extreme materialism nor self-destructive renunciation. Famous is his parable of the poisoned arrow: whoever is struck by an arrow does not first ask the name of the archer or the wood of the arrow &ndash; they pull it out. His entire teaching was less cosmology than practical instruction for liberating the mind, radically pragmatic, free of speculation for its own sake.</p>
-          <p class="vb-intro">Even the principle of dependent origination (Paticcasamuppada) &ndash; "When this exists, that exists; when this arises, that arises" &ndash; is pure causality without divine will: one's own actions (karma) shape one's own reality. No fate, no revelation &ndash; but the investigation of causes as a worldview. The Five that refuses to believe anything it has not penetrated for itself.</p>
+          <p class="vb-intro">Even the principle of dependent origination (Paticcasamuppada) &ndash; "When this exists, that exists; when this arises, that arises" &ndash; is pure causality without divine will: one's own actions (karma) shape one's own reality. No fate, no revelation &ndash; but the investigation of causes as a worldview, cast into a teaching structure that could be passed on. The Five that refuses to believe anything it has not penetrated for itself.</p>
         </blockquote>
 
-        <h2 class="vb-section">9. Legacy: 2,500 Years of Impact from a Withdrawal</h2>
+        <h2 class="vb-section">9. Legacy: 2,500 Years of Impact from a Shared Knowledge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">For 45 years, from his enlightenment at 35 to his death at 80, Buddha wanders through northern India, teaches in countless one-to-one and small-group encounters, and lets a community emerge that still shapes over 500 million people today. Not a mass project from the outset &ndash; but the organic spread of what people sensed in him as depth and truthfulness, and wanted to connect with.</p>
-          <p class="vb-intro">His death, probably from food poisoning, occurs among his closest monks &ndash; no grand ending, but the final consequence of a life that was never oriented toward outward effect, but always toward the one unshakeable truth. The hedgehog that appeared spiny and unapproachable his whole life &ndash; and whose innermost warmth, once opened, has not faded to this day.</p>
+          <p class="vb-intro">For 45 years, from his enlightenment at 35 to his death at 80, Buddha wanders through northern India while systematically building the Sangha &ndash; a monastic community with fixed rules, an ordered structure, and its own ordination ceremony, securing his knowledge institutionally beyond the single teaching moment. Not a mass project from the outset, but built from the beginning for growth and transmission &ndash; today this community still shapes over 500 million people.</p>
+          <p class="vb-intro">His death, probably from food poisoning, occurs among his closest monks &ndash; no grand ending, but the final consequence of a life that was never oriented toward outward effect, but always toward the one unshakeable truth, which he spent his life translating into a system accessible to others. The octopus that kept passing on its gathered knowledge with many arms at once to the very end &ndash; and whose Totem has not faded to this day.</p>
         </blockquote>
 
       </div>
@@ -25788,9 +25789,9 @@ function buddhaPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype profile"},
-        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
-        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype profile"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
       ])}
     </div>
   `);
@@ -41966,6 +41967,7 @@ function claudioNaranjoPortraitPage() {
         {route:"beruehmte-gertrude-elion", label:"Portrait: Gertrude Belle Elion (SO5w4)"},
         {route:"beruehmte-bill-gates", label:"Portrait: Bill Gates (SO5w6)"},
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"krankheitsportraets-claudio-naranjo", label:"Illness Portrait: Dr. Claudio Naranjo – Parkinson's"},
       ])}
     </div>
@@ -49612,7 +49614,7 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Hedgehog",
     kernthema: "Spikes on the outside, softness within – trust as an exclusive, protected space",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Siddhartha Gautama (Buddha)", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "The Man of Gerasa"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "The Man of Gerasa"],
     fingerabdruecke: [
       {
         titel: "Spikes on the outside, extraordinary softness underneath – accessible only to very few",
@@ -49627,7 +49629,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Radical breakthrough to the core instead of attachment to system, status, or possessions",
         beschreibung: "Instead of binding oneself to external securities, social systems, or institutions, the one decisive question is pursued to its utmost – with cutting, often solitary consistency.",
-        beleg: "Siddhartha Gautama, who left palace, wife, and son 'to dissect a single question with cutting consistency': 'No path of attachment to people, places, or institutions, but a path of radical penetration' – 'Depth instead of system'; Friedrich Nietzsche, who 'preferred, from the start, to think alone rather than in company.'"
+        beleg: "Friedrich Nietzsche, who 'preferred, from the start, to think alone rather than in company,' writing his work with cutting, often solitary consistency against every philosophical institution of his time."
       },
       {
         titel: "When the desire for exclusive closeness tips into a claim of ownership over the other (shadow form)",
@@ -49639,12 +49641,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Hannah Arendt", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Hannah Arendt", "Siddhartha Gautama (Buddha)", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle; Hannah Arendt, who did not retract her uncomfortable, personally exposed interpretation in 'Eichmann in Jerusalem' despite fierce criticism from her own circle of friends, but left it to public debate."
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle; Hannah Arendt, who did not retract her uncomfortable, personally exposed interpretation in 'Eichmann in Jerusalem' despite fierce criticism from her own circle of friends, but left it to public debate; Siddhartha Gautama (Buddha), who spent 45 years systematically building his realized insight into an ordered teaching structure and built the Sangha into a growing community that carried it, instead of keeping it to himself as an enlightened man."
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",

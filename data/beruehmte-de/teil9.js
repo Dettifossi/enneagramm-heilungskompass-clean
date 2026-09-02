@@ -67,6 +67,7 @@ export function albertEinsteinPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portr\u00e4t: G\u00fcnther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portr\u00e4t: Stephen Hawking (SO5w6)"},
         {route:"beruehmte-hannah-arendt", label:"Portr\u00e4t: Hannah Arendt (SO5w4) \u2013 auffallend \u00e4hnliche Blickqualit\u00e4t und Gesichtsz\u00fcge trotz unterschiedlichen Geschlechts"},
+        {route:"beruehmte-buddha", label:"Portr\u00e4t: Siddhartha Gautama (Buddha) (SO5w4)"},
       ])}
     </div>
   `);
