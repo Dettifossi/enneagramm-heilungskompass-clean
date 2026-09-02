@@ -454,6 +454,7 @@ export function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portr\u00e4t: Huang Yong Ping (SE6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portr\u00e4t: Alberto Marini (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Krankheitsportr\u00e4t: Fjodor Dostojewski (SE6w5)"},
         {route:"bibel-zachaeus", label:"Bibel-Porträt: Zachäus (SE6w5)"},
       ])}

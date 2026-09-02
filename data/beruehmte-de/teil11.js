@@ -1603,3 +1603,68 @@ export function wolfgangAmadeusMozartPortraitPage() {
     </div>
   `);
 }
+
+export function albertoMariniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alberto-marini-portrait.jpg" alt="Alberto Marini – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alberto Marini</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Italienisch-spanischer Drehbuchautor &amp; Regisseur, geb. 1972 in Turin &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das sich ein neues Zuhause baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, anpassungsf\xe4hig, auf der Suche nach einem verl\xe4sslichen Ort, an dem es Wurzeln schlagen kann. Alberto Marini, 1972 in Turin geboren, zog 1999 nach Barcelona &ndash; und blieb. \xdcber ein Vierteljahrhundert lang wurde die katalanische Stadt zu seinem eigentlichen kreativen Zuhause, dem Ort, von dem aus er sich als Drehbuchautor im spanischen Genrekino etablierte, weit entfernt von seiner italienischen Herkunft.</p>
+          <p class="vb-intro">Kein Zufall, dass ausgerechnet das enge, vertraute Terrain zum zentralen Motiv seiner bekanntesten Arbeiten wurde: ein Wohnhaus unter Quarant\xe4ne, eine Wohnung, in der sich nachts jemand einschleicht, eine Stadt, die zur Bedrohung wird, sobald das Vertraute nicht mehr sicher ist. Das Kaninchen, das genau wei\xdf, wie zerbrechlich Sicherheit sein kann, sobald sie einmal durchbrochen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: W\xe4rme in langj\xe4hrigen Arbeitsb\xfcndnissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>W\xe4rme</em> nannte: Sicherheit entsteht nicht durch Kontrolle von au\xdfen, sondern durch verl\xe4ssliche, \xfcber Jahre gewachsene Bindungen. Bei Marini zeigt sich dieses Muster in seiner jahrzehntelangen Zusammenarbeit mit dem Regisseur Jaume Balaguer\xf3: Zun\xe4chst als Koproduzent an dessen Horrorfilm \xbb[Rec]\xab (2007) beteiligt, entwickelte er sich stetig zum Drehbuchautor weiter und schrieb 2011 das gefeierte Skript zu \xbbMientras duermes\xab (Sleep Tight), wieder unter Balaguer\xf3s Regie.</p>
+          <p class="vb-intro">Keine kurzlebige Zusammenarbeit, sondern ein \xfcber Jahre gewachsenes Vertrauensverh\xe4ltnis, aus dem heraus Marini sich schrittweise gr\xf6\xdfere kreative Verantwortung erarbeitete &ndash; vom Produzenten zum alleinigen Drehbuchautor, bis hin zu seinem eigenen Regiedeb\xfct mit dem Horrorfilm \xbbSummer Camp\xab (2015). Sicherheit durch bew\xe4hrte N\xe4he statt durch den spektakul\xe4ren Alleingang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Pr\xe4zise Konstruktion statt intuitiver Improvisation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> gibt der selbsterhaltenden Sechs eine analytische, konstruktive K\xfchle, die sich bei Marini im rein handwerklichen Aufbau seiner Drehb\xfccher zeigt. Sein preisgekr\xf6ntes Skript zu \xbbMientras duermes\xab (Bester Drehbuch-Preis bei den Gaud\xed Awards 2012) funktioniert nicht \xfcber spontane Schockmomente, sondern \xfcber eine minuti\xf6s konstruierte Spannung: Ein Hausmeister, der das vertraute, sichere Zuhause seiner Bewohnerinnen systematisch, Schritt f\xfcr Schritt, von innen unterwandert.</p>
+          <p class="vb-intro">Auch sein Skript zu \xbbEl Desconocido\xab (Retribution, 2015), das ihm eine Goya-Nominierung f\xfcr das beste Originaldrehbuch einbrachte, folgt demselben Prinzip: eine streng durchkonstruierte, in Echtzeit ablaufende Bedrohung, bei der jede Regel des Spiels von Anfang an feststeht. Die Sechs, die Sicherheit nicht im Chaos, sondern in der pr\xe4zisen, nachvollziehbaren Konstruktion sucht &ndash; und genau diese Konstruktion dann nutzt, um beim Publikum genau die Unsicherheit auszul\xf6sen, die sie selbst zu vermeiden sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wenn das Vertraute zur Bedrohung wird: Das wiederkehrende Motiv</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schon fr\xfch, mit dem Drehbuch zu \xbbRomasanta\xab (2004, nach einer wahren Geschichte um einen spanischen Serienm\xf6rder des 19. Jahrhunderts), etablierte Marini ein Thema, das sich durch sein gesamtes Werk zieht: die Angst, die nicht von au\xdfen kommt, sondern sich bereits im eigenen, sicher geglaubten Umfeld eingenistet hat. Bei \xbb[Rec]\xab ist es das eigene Wohnhaus, das zur Falle wird; bei \xbbMientras duermes\xab ist es der freundliche Hausmeister, dem man vertraut.</p>
+          <p class="vb-intro">Genau das ist die Schattenseite der SE6-Angst, in Genrekino verwandelt: die Sorge, dass ausgerechnet der Ort, an dem man sich am sichersten f\xfchlt, in Wahrheit nie sicher war. Marini schreibt nicht \xfcber ferne, exotische Bedrohungen &ndash; er schreibt \xfcber den Einbruch der Gefahr in das Allervertrauteste, immer wieder, aus wechselnden Blickwinkeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Marinis F\xe4higkeit, aus der eigenen, tief verstandenen Angst vor dem Verlust von Sicherheit pr\xe4zise konstruierte, international erfolgreiche Genrewerke zu schaffen &ndash; Filme, die nicht auf platte Schockeffekte setzen, sondern auf die langsame, unentrinnbare Erosion des Vertrauten.</p>
+          <p class="vb-intro">Der Schatten des Schicksalsmusters der Sechs, der <strong>Zweifel</strong>, zeigt sich in der Wahl seiner Antagonisten: Fast durchweg Figuren, die selbst aus tiefem Misstrauen und dem zwanghaften Bed\xfcrfnis nach Kontrolle handeln &ndash; der Hausmeister in \xbbMientras duermes\xab, der seine eigene, verzerrte Sicherheit erst dadurch herstellt, dass er anderen jede Sicherheit nimmt. Eine Umkehrung, die zeigt, wie nah Sicherheitsstreben und Kontrollzwang beieinanderliegen k\xf6nnen, wenn sie ins Extreme kippen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\xe4chtnis: Das Kaninchen, das seine eigene H\xf6hle grub</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vom Koproduzenten \xfcber den preisgekr\xf6nten Drehbuchautor bis zum Regisseur seines eigenen Films &ndash; Marinis Karriere verlief nicht sprunghaft, sondern als stetiger, gut abgesicherter Aufbau, jeder Schritt auf dem vorherigen aufbauend, jede neue Verantwortung erst \xfcbernommen, nachdem Vertrauen und Erfahrung sie trugen. \xdcber ein Vierteljahrhundert blieb Barcelona dabei sein fester Ausgangspunkt.</p>
+          <p class="vb-intro">Wie Fjodor Dostojewski und Huang Yong Ping (beide SE6w5, siehe <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">Portr\xe4t</a> bzw. <a href="javascript:void(0)" data-route="beruehmte-huang-yong-ping">Portr\xe4t</a>) fand auch Marini seine Sicherheit nicht in st\xe4ndiger Ver\xe4nderung, sondern im beharrlichen Festhalten an bew\xe4hrten Bindungen und einem selbst gew\xe4hlten Zuhause. Das Kaninchen, das sich nicht auf offenem Feld beweist, sondern seine eigene, sichere H\xf6hle gr\xe4bt &ndash; und von dort aus Geschichten \xfcber genau das erz\xe4hlt, was passiert, wenn diese H\xf6hle nicht mehr sicher ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 &ndash; Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portr\xe4t: Huang Yong Ping (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

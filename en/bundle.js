@@ -1609,6 +1609,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Huang Yong Ping – Self-Preservation Type 6",
     teaser:"SP6w5 · 1954–2019. Chinese-French artist, co-founder of Xiamen Dada. Let the I Ching decide the color and form of his works, left China in 1989 after the Tiananmen massacre, and stayed in exile in Paris. The rabbit that sought its security in an ancient system rather than in adaptation.",
     land:"China/France", tags:["Kunst"], gender:"m"},
+{ route:"beruehmte-alberto-marini", name:"Alberto Marini", added:"2026-09-02", subtyp:"SE6w5",
+    heading:"Alberto Marini – Self-Preservation Type 6",
+    teaser:"SP6w5 · born 1972. Italian-Spanish screenwriter and director, [Rec], Mientras duermes (Sleep Tight), El Desconocido (Retribution). In Barcelona since 1999, decades-long collaboration with director Jaume Balagueró. The rabbit that dug its own safe burrow – and tells stories about its breach.",
+    land:"Italy/Spain", tags:["Film"], gender:"m"},
 { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
     heading:"Fjodor Dostojewski – Self-Preservation Type 6",
     teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
@@ -28801,6 +28805,72 @@ function huangYongPingPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function albertoMariniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alberto-marini-portrait.jpg" alt="Alberto Marini – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alberto Marini</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Italian-Spanish screenwriter &amp; director, born 1972 in Turin &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Built Itself a New Home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, adaptable, searching for a reliable place where it can put down roots. Alberto Marini, born 1972 in Turin, moved to Barcelona in 1999 &ndash; and stayed. For over a quarter century, the Catalan city became his true creative home, the base from which he established himself as a screenwriter in Spanish genre cinema, far from his Italian origins.</p>
+          <p class="vb-intro">It is no accident that precisely the close, familiar territory became the central motif of his best-known work: an apartment building under quarantine, a flat someone sneaks into at night, a city that turns threatening the moment the familiar is no longer safe. The rabbit that knows exactly how fragile security can be, once it has been breached.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Warmth in Long-Standing Working Partnerships</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security arises not through outward control, but through reliable bonds built over years. In Marini's case, this pattern shows in his long-standing collaboration with director Jaume Balagueró: initially involved as co-producer on his horror film "[Rec]" (2007), he steadily grew into the role of screenwriter, writing the acclaimed script for "Mientras duermes" (Sleep Tight) in 2011, again under Balagueró's direction.</p>
+          <p class="vb-intro">No short-lived collaboration, but a trust relationship grown over years, out of which Marini gradually earned greater creative responsibility &ndash; from producer to sole screenwriter, up to his own directorial debut with the horror film "Summer Camp" (2015). Security through proven closeness rather than the spectacular solo leap.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Precise Construction Instead of Intuitive Improvisation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an analytical, constructive coolness that, in Marini, shows in the purely craft-based architecture of his screenplays. His award-winning script for "Mientras duermes" (Best Screenplay at the 2012 Gaudí Awards) does not work through spontaneous shocks, but through meticulously constructed tension: a building caretaker who systematically, step by step, undermines the familiar, safe home of his tenants from within.</p>
+          <p class="vb-intro">His script for "El Desconocido" (Retribution, 2015), which earned him a Goya nomination for Best Original Screenplay, follows the same principle: a tightly constructed, real-time threat in which every rule of the game is fixed from the start. The Six that seeks security not in chaos but in precise, traceable construction &ndash; and then uses that very construction to trigger in the audience exactly the uncertainty it itself seeks to avoid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. When the Familiar Becomes the Threat: The Recurring Motif</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Early on, with the screenplay for "Romasanta" (2004, based on the true story of a 19th-century Spanish serial killer), Marini established a theme that runs through his entire body of work: fear that comes not from outside, but has already settled into one's own, supposedly safe surroundings. In "[Rec]" it is one's own apartment building that becomes a trap; in "Mientras duermes" it is the friendly caretaker one trusts.</p>
+          <p class="vb-intro">This is precisely the shadow side of SP6 fear, translated into genre cinema: the worry that the very place where one feels safest was, in truth, never safe. Marini does not write about distant, exotic threats &ndash; he writes about danger breaking into the most familiar of places, again and again, from shifting angles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 shows in Marini's ability to turn his own, deeply understood fear of losing security into precisely constructed, internationally successful genre works &ndash; films that rely not on cheap shocks, but on the slow, inescapable erosion of the familiar.</p>
+          <p class="vb-intro">The shadow of the Six's fateful pattern, <strong>doubt</strong>, shows in his choice of antagonists: almost without exception, figures who themselves act out of deep mistrust and a compulsive need for control &ndash; the caretaker in "Mientras duermes," who establishes his own, distorted security precisely by taking all security from others. A reversal that shows how close the drive for security and the compulsion for control can lie when they tip into the extreme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Rabbit That Dug Its Own Burrow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From co-producer to award-winning screenwriter to director of his own film &ndash; Marini's career unfolded not in leaps, but as a steady, well-secured build-up, each step resting on the last, each new responsibility taken on only once trust and experience carried it. For over a quarter century, Barcelona remained his fixed base throughout.</p>
+          <p class="vb-intro">Like Fyodor Dostoevsky and Huang Yong Ping (both SP6w5, see <a href="javascript:void(0)" data-route="beruehmte-fjodor-dostojewski">portrait</a> and <a href="javascript:void(0)" data-route="beruehmte-huang-yong-ping">portrait</a>), Marini too found his security not in constant change, but in a persistent adherence to proven bonds and a self-chosen home. The rabbit that does not prove itself in the open field, but digs its own, safe burrow &ndash; and tells stories from there about exactly what happens when that burrow is no longer safe.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
       ])}
     </div>
   `);
@@ -28870,6 +28940,7 @@ function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SE6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
         {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
       ])}
@@ -49726,7 +49797,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -49736,7 +49807,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Security in the familiar rather than on the big stage",
         beschreibung: "The true home is not publicity or the spotlight, but the close, familiar circle – friends, family, a known place – from which extraordinary achievement can also arise.",
-        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'; Zacchaeus, the tax collector, whose tree was 'high enough to keep an overview, close enough to see' – security through controlled distance, until a single call drew him from safe distance into real closeness."
+        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'; Zacchaeus, the tax collector, whose tree was 'high enough to keep an overview, close enough to see' – security through controlled distance, until a single call drew him from safe distance into real closeness; Alberto Marini, who has lived in Barcelona since 1999 and collaborated with the same director, Jaume Balagueró, for decades, rather than changing partnerships after his first success."
       },
       {
         titel: "Calm functioning under extreme pressure, because the danger was already calculated",
@@ -109520,6 +109591,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mutter-meera": mutterMeeraPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-huang-yong-ping": huangYongPingPortraitPage,
+      "beruehmte-alberto-marini": albertoMariniPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-franz-schubert": franzSchubertPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
