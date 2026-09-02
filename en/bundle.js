@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=65";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=66";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -686,6 +686,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gloria von Thurn und Taxis – Self-Preservation Type 2",
     teaser:"SE2w1 · born 1960. Princess, entrepreneur, patron. From the punk princess excess of the 1980s to the iron matriarch of one of Europe's largest private fortunes. The hippopotamus knows its territory - and doesn't give it up. Animal correspondence: Hippo.",
     land:"Germany", tags:["Adel","Business"] , gender:"f"},
+{ route:"beruehmte-joachim-llambi", name:"Joachim Llambi", added:"2026-09-02", subtyp:"SE2w1",
+    heading:"Joachim Llambi – Self-Preservation Type 2",
+    teaser:"SP2w1 · Dance judge, entrepreneur and TV juror, b. 1962. Feared judge on \"Let's Dance\" since 2006, internationally licensed adjudicator in competitive ballroom dancing. The hippopotamus whose harshness is an act of love.",
+    land:"Germany", tags:["Unterhaltung"], gender:"m"},
 { route:"beruehmte-jack-black", name:"Jack Black", added:"2026-07-30", subtyp:"SE2w1",
     heading:"Jack Black – Self-Preservation Type 2",
     teaser:"SE2w1 · born 1969. Actor & musician, School of Rock, Tenacious D. Full-body, unrestrained devotion to joy, wrapped in craft and standards. Animal correspondence: Hippo.",
@@ -20784,6 +20788,73 @@ function mariacarlaBosconoPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
         {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SE2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function joachimLlambiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-joachim-llambi-portrait.jpg" alt="Joachim Llambi – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joachim Llambi</p>
+        <p class="krim-portrait-typ">SP2w1 &middot; Self-Preservation Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Dance judge, entrepreneur and TV juror, b. 1962 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The hippopotamus who defends its territory against every sloppiness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two &ndash; outwardly round, warm, sometimes even clumsy, yet the moment its territory feels threatened, it reveals a force no one thought possible. Joachim Llambi, born in 1962, was himself an active competitive ballroom and Latin dancer for years before becoming an internationally licensed adjudicator &ndash; since 2006 he has been known as a judge on "Let's Dance" for his mercilessly direct, often feared comments.</p>
+          <p class="vb-intro">His territory is not fame or attention, but the craft of dance itself: the moment technique looks sloppy, posture careless, or preparation insufficient, the measured commentator turns into an uncompromising critic whose bluntness has few equals in German television.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Two: care that is allowed to hurt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> secures closeness and significance not through demonstrative caretaking, but through quiet indispensability &ndash; Naranjo called this subtype "privilege." In Llambi this shows in a form that at first glance looks like the opposite of care: his sharpest criticism is almost always aimed at the contestants in whom he himself sees the most potential &ndash; those he is indifferent to rarely feel his full harshness.</p>
+          <p class="vb-intro">In numerous interviews he has stressed that the blunt, uncomfortable feedback is itself the real act of care: anyone who genuinely wants to improve needs no flattery, only the honest, sometimes painful truth. That is the Two behind the harshness &ndash; not indifference, but a form of care that refuses to settle for comfortable praise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: the standard that admits no deviation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the self-preservation Two an incorruptible standard of quality against which everything must be measured. Llambi's judgments are never arbitrary or moody &ndash; they follow the traceable, technical criteria of competitive ballroom dancing, a sport he was active in for decades himself and in which he is internationally accredited as an adjudicator.</p>
+          <p class="vb-intro">It is precisely this combination of care and adherence to principle that makes his criticism so hard to dismiss: he does not judge to demonstrate power over the contestants, but because he is convinced there is a correct, learnable way to dance well &ndash; and that it would be unfair to the contestant to deviate from it just to appear likeable in the moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w1 is its ability to <strong>show genuine care even when it is uncomfortable and unpopular</strong> &ndash; Llambi's appreciation for contestants who accept his criticism and visibly improve has been documented across many seasons of "Let's Dance," as has his palpable pride when initial clumsiness turns into real dancing skill.</p>
+          <p class="vb-intro">The shadow of the self-preservation Two with a One-wing shows in how easily the line between principled harshness and hurtful sharpness can blur: Llambi has repeatedly had to publicly justify or apologize for individual comments seen as going too far &ndash; a risk that arises when one's own conviction about the "correct" feedback is taken more seriously than the other person's immediate feelings.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From competitive dancer to entrepreneur to feared judge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the self-preservation Two that Llambi's security never depended solely on his television presence: alongside his dance career, he built his own insurance brokerage over the years &ndash; a practical, economically independent foundation that allowed him to voice his opinion on "Let's Dance" freely and unfiltered, without depending on audience approval.</p>
+          <p class="vb-intro">This material independence is typical for the subtype: the self-preservation Two secures its own footing first, before stepping into a role where conflict and unpopularity are unavoidable &ndash; whoever does not economically depend on applause can afford harsh truths.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The hippopotamus whose harshness is an act of love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Llambi unique in German television is the consistency with which he combines care and principle instead of choosing between being nice and being honest &ndash; his criticism is rarely groundless, almost always technically justifiable, and as a rule directed at contestants whose development he genuinely cares about.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the hippopotamus, whose seemingly relentless harshness, on closer inspection, is not indifference but a form of care that refuses to make things easy with pleasant words &ndash; and that, contrary to first appearances, remains exactly that: a form of devotion.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
+        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SP2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SP2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
       ])}
     </div>
   `);
@@ -51037,7 +51108,7 @@ const LEBENSMUSTERKOMPASS = {
   SE2: {
     tier: "Hippopotamus",
     kernthema: "Indispensability as access to closeness – calm, rooted strength instead of loud self-display",
-    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Uli Hoeneß", "Ai Weiwei", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof", "Martha"],
+    beispiele: ["Dr. Camille Fritsch", "J. J. Liu", "Franka Potente", "Margot Friedländer", "Søren Kierkegaard", "Greta Thunberg", "Gloria von Thurn und Taxis", "Jack Black", "Joachim Llambi", "Uli Hoeneß", "Ai Weiwei", "Mickey Rourke", "Monica Simpson", "Nate Dogg", "Stromae", "Thomas Chaanhing", "Tracie D. Hall", "Tutty Tran", "Lebo M", "Lionel Boyce", "Lisa Antoni", "Loi", "Loni Hui", "Madeline Stuart", "Mariacarla Boscono", "Yayoi Kusama", "Frida Kahlo", "Natascha Kampusch", "Marie Antoinette", "Isabella Briggs", "Wolfgang Amadeus Mozart", "Jan Ullrich", "Oprah Winfrey", "Armin Rohde", "Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof", "Martha"],
     fingerabdruecke: [
       {
         titel: "Indispensability as access to closeness and significance (Naranjo: 'Privilege')",
@@ -51047,7 +51118,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A good-natured, unwieldy facade that turns into unstoppable force when the territory is threatened",
         beschreibung: "From outside, the appearance seems warm, round, approachable, sometimes even clumsy. But once one's own territory – literally or figuratively – is threatened, a force appears that no one thought possible.",
-        beleg: "Jack Black: 'It looks clumsy, loud, awkward – and is at the same time one of Africa's most dangerous animals as soon as its territory seems threatened'; Uli Hoeneß, who 'understood FC Bayern as his territory and marked and defended it with every ounce of his body'; Oprah Winfrey: 'Whoever thinks warmth and power are mutually exclusive hasn't understood the hippo'; Gloria von Thurn und Taxis, in whom 'the hippo stepped out of the water' when the family faced financial collapse; Greta Thunberg, who in August 2018 sat alone in front of the Swedish parliament and blocked an entire riverbed without taking a single step; Wolfgang Amadeus Mozart, who rarely fit the image of the otherworldly floating genius but was a man of enormous directness and physical zest for life; Ángel Reséndez, who literally owned nothing and secured his survival through the violent takeover of other people's spaces the moment his survival territory was touched; Rudolf Pleil, who killed in a no-man's-land region where state order had largely collapsed."
+        beleg: "Jack Black: 'It looks clumsy, loud, awkward – and is at the same time one of Africa's most dangerous animals as soon as its territory seems threatened'; Uli Hoeneß, who 'understood FC Bayern as his territory and marked and defended it with every ounce of his body'; Oprah Winfrey: 'Whoever thinks warmth and power are mutually exclusive hasn't understood the hippo'; Joachim Llambi, whose mercilessly direct criticism as a dance judge looks at first glance like the opposite of care, but on closer inspection is almost always aimed at the contestants in whom he himself sees the most potential – harshness that refuses to settle for comfortable praise because genuine concern lies beneath it; Gloria von Thurn und Taxis, in whom 'the hippo stepped out of the water' when the family faced financial collapse; Greta Thunberg, who in August 2018 sat alone in front of the Swedish parliament and blocked an entire riverbed without taking a single step; Wolfgang Amadeus Mozart, who rarely fit the image of the otherworldly floating genius but was a man of enormous directness and physical zest for life; Ángel Reséndez, who literally owned nothing and secured his survival through the violent takeover of other people's spaces the moment his survival territory was touched; Rudolf Pleil, who killed in a no-man's-land region where state order had largely collapsed."
       },
       {
         titel: "Deep rootedness in one's own terrain instead of flight – staying as strength",
@@ -110550,6 +110621,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jean-jacques-rousseau": jeanJacquesRousseauPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
+      "beruehmte-joachim-llambi": joachimLlambiPortraitPage,
       "beruehmte-lebo-m": leboMPortraitPage,
       "beruehmte-lionel-boyce": lionelBoycePortraitPage,
       "beruehmte-lisa-antoni": lisaAntoniPortraitPage,

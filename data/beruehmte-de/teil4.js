@@ -1637,3 +1637,70 @@ export function willSmithPortraitPage() {
     </div>
   `);
 }
+
+export function joachimLlambiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-joachim-llambi-portrait.jpg" alt="Joachim Llambi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joachim Llambi</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einerflügel</p>
+        <p class="krim-portrait-subtitle">Tanzrichter, Unternehmer und TV-Juror, geb. 1962 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd, das sein Revier gegen jede Schludrigkeit verteidigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei &ndash; von außen wirkt es rund, warm, manchmal sogar plump, doch sobald das eigene Revier bedroht scheint, zeigt sich eine Wucht, die niemand für möglich gehalten hätte. Joachim Llambi, geboren 1962, war selbst jahrelang aktiver Turniertänzer im Standard- und Lateintanz, bevor er zum international lizenzierten Wertungsrichter wurde &ndash; seit 2006 ist er als Juror bei "Let's Dance" bekannt für seine schonungslos direkten, oft gefürchteten Kommentare.</p>
+          <p class="vb-intro">Sein Revier ist dabei nicht Ruhm oder Aufmerksamkeit, sondern die Handwerkskunst des Tanzes selbst: Sobald Technik schludrig, Haltung nachlässig oder Vorbereitung unzureichend wirkt, wird aus dem sachlichen Kommentator ein kompromissloser Kritiker, dessen Härte in der deutschen Fernsehlandschaft ihresgleichen sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge, die wehtun darf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> sichert sich Nähe und Bedeutung nicht durch demonstrative Fürsorge, sondern durch stille Unentbehrlichkeit &ndash; Naranjo nannte diesen Subtyp den des "Privilegs". Bei Llambi zeigt sich das in einer Form, die auf den ersten Blick wie das Gegenteil von Fürsorge wirkt: Seine schärfste Kritik richtet sich fast immer an die Kandidaten, in die er selbst am meisten Potenzial sieht &ndash; wer ihm gleichgültig ist, bekommt selten die volle Härte zu spüren.</p>
+          <p class="vb-intro">In zahlreichen Interviews betonte er, dass gerade die deutliche, unbequeme Rückmeldung der eigentliche Liebesdienst sei: Wer wirklich besser werden solle, brauche keine Schmeichelei, sondern die ehrliche, manchmal schmerzhafte Wahrheit. Das ist die Zwei hinter der Härte &ndash; nicht Gleichgültigkeit, sondern eine Fürsorge, die sich weigert, im Wohlfühl-Lob zu verharren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einerflügel: Der Maßstab, von dem es kein Abweichen gibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einerflügel (w1)</strong> gibt der selbsterhaltenden Zwei einen unbestechlichen Qualitätsmaßstab, an dem sich alles messen lassen muss. Llambis Urteile sind nie beliebig oder launenhaft &ndash; sie folgen den nachvollziehbaren, technischen Kriterien des Turniertanzsports, in dem er selbst jahrzehntelang aktiv war und international als Wertungsrichter akkreditiert ist.</p>
+          <p class="vb-intro">Genau diese Verbindung aus Fürsorge und Prinzipientreue macht seine Kritik so schwer zu ignorieren: Er urteilt nicht, weil er Macht über die Kandidaten demonstrieren will, sondern weil er überzeugt ist, dass es einen richtigen, erlernbaren Weg gibt, gut zu tanzen &ndash; und dass es unfair gegenüber dem Kandidaten wäre, davon abzuweichen, nur um kurzfristig sympathisch zu wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w1 ist die Fähigkeit, <strong>echte Fürsorge auch dann zu zeigen, wenn sie unbequem und unpopulär ist</strong> &ndash; Llambis Wertschätzung für Kandidaten, die seine Kritik annehmen und sich sichtbar verbessern, ist in vielen Staffeln von "Let's Dance" dokumentiert, ebenso wie sein spürbarer Stolz, wenn aus anfänglicher Unbeholfenheit tatsächlich Tanzkönnen wird.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Zwei mit Einerflügel zeigt sich darin, wie leicht die Grenze zwischen prinzipientreuer Härte und verletzender Schärfe verschwimmen kann: Wiederholt musste sich Llambi öffentlich für einzelne, als zu weit empfundene Kommentare rechtfertigen oder entschuldigen &ndash; ein Risiko, das entsteht, wenn die eigene Überzeugung von der "richtigen" Rückmeldung wichtiger genommen wird als das unmittelbare Gefühl des Gegenübers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Turniertänzer zum Unternehmer zum gefürchteten Juror</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die selbsterhaltende Zwei ist, dass Llambis Sicherheit nie allein von seiner Fernsehpräsenz abhing: Neben seiner Tanzkarriere baute er sich über Jahre ein eigenes Versicherungsmaklerunternehmen auf &ndash; eine praktische, wirtschaftlich unabhängige Basis, die ihm erlaubte, seine Meinung bei "Let's Dance" frei und ungefiltert zu äußern, ohne von der Zustimmung des Publikums abhängig zu sein.</p>
+          <p class="vb-intro">Diese materielle Unabhängigkeit ist typisch für den Subtyp: Die selbsterhaltende Zwei sichert sich zuerst die eigene Standfestigkeit, bevor sie sich in eine Rolle begibt, in der Konflikt und Unbeliebtheit unvermeidlich sind &ndash; wer wirtschaftlich nicht auf Applaus angewiesen ist, kann sich harte Wahrheiten leisten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Flusspferd, dessen Härte ein Liebesdienst ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Llambi in der deutschen Fernsehlandschaft einzigartig macht, ist die Konsequenz, mit der er Fürsorge und Prinzipientreue verbindet, statt sich zwischen Nettsein und Ehrlichkeit zu entscheiden &ndash; seine Kritik ist selten grundlos, fast immer technisch begründbar, und in aller Regel an Kandidaten gerichtet, deren Entwicklung ihm tatsächlich am Herzen liegt.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier das Flusspferd ist, dessen scheinbar unerbittliche Härte bei genauerem Hinsehen keine Gleichgültigkeit ist, sondern eine Fürsorge, die sich weigert, es sich mit gefälligen Worten leicht zu machen &ndash; und die genau deshalb, entgegen dem ersten Anschein, eine Form von Zuwendung bleibt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-jack-black", label:"Porträt: Jack Black (SE2w1)"},
+        {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Porträt: Gloria von Thurn und Taxis (SE2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
