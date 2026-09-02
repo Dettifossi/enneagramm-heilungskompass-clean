@@ -1644,7 +1644,7 @@ export function billyBobThorntonPortraitPage() {
         <h2 class="vb-section">2. Die soziale Sieben: einer verstummten Figur eine Stimme leihen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo nennt die <strong>soziale Sieben (SO7)</strong> "Sacrifice": Sie opfert die eigene, unmittelbare Bequemlichkeit für eine größere Sache &ndash; und findet gerade darin ihre tiefste Erfüllung. Für Karl Childers, die von ihm geschaffene und gespielte Hauptfigur aus "Sling Blade", einen entlassenen geistig behinderten Anstaltsinsassen, entwickelte Thornton über Jahre eine eigene, unverwechselbare Sprechweise, Körperhaltung und Mimik &ndash; basierend auf einem Mann, den er als Kind tatsächlich gekannt hatte, dessen Geschichte er mit großer Sorgfalt und Respekt ins Zentrum eines ganzen Films stellte, statt sie zu einer Randnotiz zu machen.</p>
-          <p class="vb-intro">Auch seine Jahre des Broterwerbs vor dem Durchbruch liest sich als dieselbe Grundhaltung: Statt frühzeitig einen sicheren, bequemeren Weg zu wählen, hielt er über Jahre an einem Werk fest, das zunächst niemandem außer ihm selbst diente &ndash; bis daraus, mit "Sling Blade", etwas wurde, das ein ganzes Publikum berührte.</p>
+          <p class="vb-intro">Auch seine Jahre des Broterwerbs vor dem Durchbruch lesen sich als dieselbe Grundhaltung: Statt frühzeitig einen sicheren, bequemeren Weg zu wählen, hielt er über Jahre an einem Werk fest, das zunächst niemandem außer ihm selbst diente &ndash; bis daraus, mit "Sling Blade", etwas wurde, das ein ganzes Publikum berührte.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: eine lebenslange Schreibpartnerschaft und akribische Recherche</h2>
