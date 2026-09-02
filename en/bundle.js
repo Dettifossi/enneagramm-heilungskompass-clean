@@ -19913,7 +19913,7 @@ function alanTuringPortraitPage() {
 
         <h2 class="vb-section">2. The sexual Five: the one bond that outshone everything</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> reserves its entire emotional intensity not for many, but for very few, all the deeper connections &ndash; and lives out those few bonds with a devotion that stands in stark contrast to its usual reserve. As a student at Sherborne School, Turing met Christopher Morcom, a fellow pupil with whom he shared a deep intellectual and emotional closeness. When Morcom died unexpectedly of a tuberculosis infection in 1930, a world collapsed for Turing that he never fully replaced.</p>
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> reserves its entire emotional intensity not for many, but for very few, all the deeper connections &ndash; and lives out those few bonds with a devotion that stands in stark contrast to its usual reserve. As a student at Sherborne School, Turing met Christopher Morcom, a fellow pupil with whom he shared a deep intellectual and emotional closeness. When Morcom died unexpectedly of a tuberculosis infection in 1930, a world collapsed for Turing, a loss he never fully recovered from.</p>
           <p class="vb-intro">In the years that followed, Turing engaged intensely with the question of whether consciousness or spirit could survive the death of the body &ndash; a thought that later resurfaces, transformed, in his work on whether a machine could "think." The one, exclusive connection he lost became the quiet driving force behind an entire life's work.</p>
         </blockquote>
 
