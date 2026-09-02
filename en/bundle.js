@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=62";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=63";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1126,6 +1126,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sterling North – Self-Preservation Type 3",
     teaser:"SE3w4 · 1906–1974. Writer and literary editor. Made the raccoon world-famous with his book »Rascal« (1963, Newbery Honor, adapted by Disney) – and stayed connected to the real animal for the rest of his life.",
     land:"USA", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-rosa-parks", name:"Rosa Parks", added:"2026-09-02", subtyp:"SE3w4",
+    heading:"Rosa Parks – Self-Preservation Type 3",
+    teaser:"SP3w4 · Civil rights activist, 1913–2005. Sparked the Montgomery Bus Boycott in 1955 by refusing to give up her bus seat – after twelve years of quiet NAACP work. The raccoon whose quiet consistency set a movement in motion.",
+    land:"USA", tags:["Geschichte"], gender:"f"},
 { route:"beruehmte-johnny-cash", name:"Johnny Cash", added:"2026-08-29", subtyp:"SE3w4",
     heading:"Johnny Cash – Self-Preservation Type 3",
     teaser:"SE3w4 · 1932–2003. American singer and songwriter, \"Man in Black,\" the 1968 Folsom Prison concert, decades of addiction and a comeback with \"American Recordings.\" Marked by his brother Jack's death, he built one of the most stable careers in country music over five decades. Animal correspondence: Raccoon.",
@@ -19552,6 +19556,73 @@ function dakotaJohnsonPortraitPage() {
           {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function rosaParksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-rosa-parks-portrait.jpg" alt="Rosa Parks – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosa Parks</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Civil rights activist, 1913&ndash;2005 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon who worked unnoticed for twelve years before the world took notice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; inconspicuous, skillful, persistent behind the scenes, without any need for the spotlight. Rosa Parks, born in 1913 in Tuskegee, Alabama, is still often reduced to a single moment: December 1, 1955, when she refused to give up her bus seat to a white passenger, sparking the Montgomery Bus Boycott.</p>
+          <p class="vb-intro">What is almost always overlooked: at that point she had already been secretary of the Montgomery NAACP chapter for twelve years, had recently attended the Highlander Folk School &ndash; a training center for civil rights work &ndash; and had personally investigated cases of racial violence, including the rape of Recy Taylor in 1944. Her refusal was the consequence of years of quiet, disciplined groundwork, not a spontaneous impulse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: competence over glamour, even after world fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> is the countertype of the Three: instead of self-promotion, it shows modesty, groundedness, a deliberate avoidance of the spotlight &ndash; while the underlying energy remains the same as in the other Three subtypes. Rosa Parks avoided the big stage throughout her life, even after becoming a global icon: hardly any sweeping speeches, no self-marketing, instead over twenty years of quiet work in the office of Congressman John Conyers in Detroit.</p>
+          <p class="vb-intro">She herself repeatedly stressed that she had not been physically tired that day, as the popular legend tells it, but "tired of giving in." That is the typical SP3 stance: substance and actual conviction matter more than the public story told about them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: a matter of personal dignity, not strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a depth beyond mere practicality &ndash; a question of one's own, non-negotiable identity. Parks never explained her refusal as strategic calculation, but as personal: it was about her dignity, about staying true to herself instead of continually being humiliated.</p>
+          <p class="vb-intro">At her arrest she remained calm, composed, without drama &ndash; not loud confrontation, but a quiet, unshakeable steadfastness that came from a deeply felt personal conviction, not from a desire for attention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 is its ability to <strong>act with quiet substance at the decisive moment, built on years of unnoticed preparation</strong> &ndash; the 381-day Montgomery Bus Boycott that her refusal triggered is considered one of the turning points of the American civil rights movement.</p>
+          <p class="vb-intro">The shadow of the self-preservation Three with a Four-wing shows in how much one's own achievement can vanish behind the public myth: Parks and her husband lost their jobs after the boycott, received death threats, and had to flee Montgomery for Detroit in 1957 &ndash; while the public narrative increasingly reduced her to the "tired woman on the bus," rather than seeing the decades-long activist behind her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Fifty years of quietly continuing the same work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the self-preservation Three that Parks did not settle into the role of icon after the world-famous event, but simply continued her inconspicuous, disciplined work: decades in civil rights work, in Conyers' office, and in 1987 the founding of the Rosa and Raymond Parks Institute for Self Development, which supported young people &ndash; not a spectacular new beginning, but the same quiet persistence in a new form.</p>
+          <p class="vb-intro">Her deep religious faith as a member of the African Methodist Episcopal Church accompanied her through this entire, decades-long work &ndash; another expression of the quiet, unspectacular substance that needed no outside confirmation to endure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The raccoon whose quiet consistency set a movement in motion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Rosa Parks leaves behind is a counter-model to the common idea of heroism: not a loud rebellion, but a quiet conviction grown over years, discharged in a single, calm "no" &ndash; which she then continued for fifty more years in concrete work, without any claim to fame.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the raccoon, who set a functioning, world-changing system into motion out of apparent nothing &ndash; a single, quiet act of refusal &ndash; without ever claiming the stage for herself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
+      ])}
     </div>
   `);
 }
@@ -50734,12 +50805,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100."
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100; Rosa Parks, who worked unobtrusively as NAACP secretary for twelve years before her quiet refusal on the bus became a world-famous turning point, and who then continued fifty more years of concrete civil rights work without any claim to fame, rather than accepting the role of icon."
       },
       {
         titel: "Building a working system out of little or from nothing",
@@ -110322,6 +110393,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-carl-rogers": carlRogersPortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
       "beruehmte-johnny-cash": johnnyCashPortraitPage,
+      "beruehmte-rosa-parks": rosaParksPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,

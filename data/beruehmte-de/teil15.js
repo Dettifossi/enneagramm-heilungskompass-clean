@@ -1626,3 +1626,70 @@ export function jeanPaulSartrePortraitPage() {
     </div>
   `);
 }
+
+export function rosaParksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-rosa-parks-portrait.jpg" alt="Rosa Parks – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosa Parks</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Bürgerrechtlerin, 1913&ndash;2005 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der zwölf Jahre unbemerkt arbeitete, bevor die Welt hinsah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; unauffällig, geschickt, ausdauernd im Verborgenen tätig, ohne das Bedürfnis nach Rampenlicht. Rosa Parks, geboren 1913 in Tuskegee, Alabama, wird bis heute oft auf einen einzigen Moment reduziert: den 1. Dezember 1955, als sie sich weigerte, ihren Sitzplatz im Bus für einen weißen Fahrgast zu räumen, und damit den Montgomery Bus Boykott auslöste.</p>
+          <p class="vb-intro">Was dabei fast immer übersehen wird: Sie war zu diesem Zeitpunkt bereits seit zwölf Jahren Sekretärin der NAACP-Ortsgruppe von Montgomery, hatte kurz zuvor die Highlander Folk School besucht &ndash; ein Trainingszentrum für Bürgerrechtsarbeit &ndash; und selbst Fälle rassistischer Gewalt untersucht, darunter die Vergewaltigung von Recy Taylor 1944. Ihre Weigerung war die Konsequenz jahrelanger, stiller, disziplinierter Vorarbeit, kein spontaner Einfall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen, auch nach dem Weltruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist laut Naranjo der Kontratyp der Drei: Statt Selbstinszenierung zeigt sich Bescheidenheit, Bodenständigkeit, ein bewusstes Vermeiden des Rampenlichts &ndash; während die Energie darunter dieselbe bleibt wie bei den anderen Dreier-Subtypen. Rosa Parks mied Zeit ihres Lebens die große Bühne, obwohl sie zur globalen Ikone wurde: kaum ausschweifende Reden, keine Selbstvermarktung, stattdessen über zwanzig Jahre stille Mitarbeit im Büro des Kongressabgeordneten John Conyers in Detroit.</p>
+          <p class="vb-intro">Sie selbst betonte wiederholt, sie sei an jenem Tag nicht körperlich müde gewesen, wie es die verbreitete Legende erzählt, sondern "es leid, nachzugeben". Das ist die typische SE3-Haltung: Substanz und tatsächliche Überzeugung zählen mehr als die öffentliche Erzählung darüber.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Eine Frage der persönlichen Würde, nicht der Strategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Tiefe jenseits reiner Zweckmäßigkeit &ndash; eine Frage nach der eigenen, unverhandelbaren Identität. Parks erklärte ihre Weigerung nie strategisch-kalkuliert, sondern persönlich: Es sei um ihre Würde gegangen, um das Gefühl, sich selbst treu zu bleiben, statt fortwährend gedemütigt zu werden.</p>
+          <p class="vb-intro">Bei ihrer Verhaftung blieb sie ruhig, gefasst, ohne Drama &ndash; keine laute Konfrontation, sondern eine stille, unerschütterliche Standhaftigkeit, die aus einer tief empfundenen persönlichen Überzeugung kam, nicht aus dem Bedürfnis nach Aufsehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>aus jahrelanger, unauffälliger Vorbereitung heraus im entscheidenden Moment mit stiller Substanz zu wirken</strong> &ndash; der 381 Tage dauernde Montgomery Bus Boykott, den ihre Weigerung auslöste, gilt als einer der Wendepunkte der amerikanischen Bürgerrechtsbewegung.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei mit Viererflügel zeigt sich darin, wie sehr die eigene Leistung hinter dem öffentlichen Mythos verschwinden kann: Parks und ihr Mann verloren nach dem Boykott ihre Arbeitsstellen, erhielten Morddrohungen und mussten 1957 aus Montgomery nach Detroit fliehen &ndash; während die öffentliche Erzählung sie zunehmend auf die "müde Frau im Bus" reduzierte, statt die jahrzehntelange Aktivistin dahinter zu sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Fünfzig Jahre stille Fortsetzung derselben Arbeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die selbsterhaltende Drei ist, dass Parks nach dem weltberühmten Ereignis nicht in der Rolle der Ikone verharrte, sondern ihre unauffällige, disziplinierte Arbeit einfach fortsetzte: Jahrzehnte in der Bürgerrechtsarbeit, im Büro von Conyers, und 1987 die Gründung des Rosa and Raymond Parks Institute for Self Development, das junge Menschen förderte &ndash; kein spektakulärer Neuanfang, sondern dieselbe stille Beharrlichkeit in neuer Form.</p>
+          <p class="vb-intro">Ihre tiefe Religiosität als Mitglied der African Methodist Episcopal Church begleitete sie durch dieses gesamte, jahrzehntelange Wirken &ndash; ein weiterer Ausdruck der stillen, unspektakulären Substanz, die keine Bestätigung von außen brauchte, um bestehen zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Waschbär, dessen leise Konsequenz eine Bewegung auslöste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Rosa Parks hinterlässt, ist ein Gegenentwurf zur landläufigen Vorstellung von Heldentum: keine laute Rebellion, sondern eine über Jahre gewachsene, stille Überzeugung, die sich in einem einzigen, ruhigen "Nein" entlud &ndash; und die sie danach fünfzig weitere Jahre lang, ohne Anspruch auf Ruhm, in konkreter Arbeit fortsetzte.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier der Waschbär ist, die aus scheinbarem Nichts &ndash; einem einzigen, stillen Akt der Weigerung &ndash; ein funktionierendes, weltveränderndes System in Bewegung setzte, ohne je die Bühne für sich selbst zu beanspruchen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
