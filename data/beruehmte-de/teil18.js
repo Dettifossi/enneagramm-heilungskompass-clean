@@ -1614,3 +1614,69 @@ export function benjaminDisraeliPortraitPage() {
     </div>
   `);
 }
+
+export function aliWongPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ali-wong-portrait.jpg" alt="Ali Wong – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ali Wong</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komikerin, Schauspielerin und Autorin, geb. 1982 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der sich seine Bühne selbst baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für den Moment, sondern für ein System, das andere mitträgt, und ist nie wirklich fertig, sondern erweitert sein Werk beständig. Alexandra Dawn "Ali" Wong, geboren 1982 in San Francisco als Tochter eines chinesisch-amerikanischen Anästhesisten und einer vietnamesisch-amerikanischen Unternehmerin, begann während ihres Studiums an der UCLA mit Stand-up &ndash; und baute von da an, Auftritt für Auftritt, an einer Karriere, die sich nie mit einem einzigen Damm zufriedengab.</p>
+          <p class="vb-intro">Bevor sie mit Stand-up-Specials weltberühmt wurde, schrieb sie als Autorin für die Sitcoms "Fresh Off the Boat" und "American Housewife", trat parallel weiter live auf, schrieb, produzierte und spielte später die Netflix-Komödie "Always Be My Maybe" (2019) mit ihrem langjährigen Freund Randall Park, führte 2024 mit "Quarter Life Crisis" erstmals selbst Regie und gewann 2024 als erste asiatisch-amerikanische Schauspielerin einen Golden Globe für ihre Hauptrolle in der Serie "Beef". Kaum ist ein Bauwerk fertig, beginnt bereits das nächste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Sacrifice als Auftritt sieben Monate schwanger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nennt die <strong>soziale Sieben (SO7)</strong> "Sacrifice": Sie opfert die eigene, unmittelbare Bequemlichkeit für eine größere Sache &ndash; und findet gerade darin ihre tiefste Erfüllung. Wongs bekannteste Entscheidung ist genau das: Sie nahm ihr erstes Netflix-Special "Baby Cobra" (2016) im siebten Monat schwanger auf, das zweite, "Hard Knock Wife" (2018), im achten Monat mit dem zweiten Kind &ndash; körperlich alles andere als bequem, aber ein bewusster Bruch mit der ungeschriebenen Regel, dass eine schwangere oder frisch entbundene Frau von der Bühne verschwindet.</p>
+          <p class="vb-intro">Sie erklärte diesen Schritt wiederholt nicht als persönliche Provokation, sondern als Beitrag zu etwas Größerem: Schwangerschaft, Geburt und Mutterschaft sollten so unverblümt komisch verhandelt werden dürfen wie jedes andere Lebensthema auch &ndash; ein Werk, das über die eigene Karriere hinaus Frauen nach ihr die Bühne offenhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: die Absicherung hinter dem Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer Risikofreude steht: methodische Absicherung, bevor der große Sprung gewagt wird. Wong beschrieb ihre eigene Arbeitsmoral wiederholt als Vermächtnis ihrer Einwandererfamilie &ndash; über hundert Stand-up-Auftritte spielte sie ein, bevor sie "Baby Cobra" überhaupt aufzeichnete, statt sich auf spontane Bühnenpräsenz zu verlassen.</p>
+          <p class="vb-intro">Auch ihre Karrierestruktur folgt dieser Sechser-Note: Die feste Anstellung als Sitcom-Autorin lief parallel zum riskanteren Stand-up-Aufbau weiter, bis Letzteres tragfähig genug war &ndash; nicht das schillernde Alles-auf-eine-Karte-Setzen, sondern eine über Jahre abgesicherte, methodisch aufgebaute Existenzgrundlage, aus der heraus dann das eigentliche Risiko erst eingegangen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>ein privates, oft schambesetztes Thema in einen öffentlichen, befreienden Beitrag</strong> zu verwandeln &ndash; Wongs ungeschönte Bühnenoffenheit über Körper, Sex und Mutterschaft hat unzähligen Frauen das Gefühl gegeben, mit den eigenen, selten ausgesprochenen Erfahrungen nicht allein zu sein.</p>
+          <p class="vb-intro">Der Schatten zeigt sich darin, wie sehr die permanente Selbstoffenlegung auf der Bühne zur eigenen Erwartungshaltung werden kann: Je öffentlicher das Privateste verhandelt wird, desto größer wird der Druck, auch die eigentlich schmerzhaften Kapitel &ndash; wie die 2022 öffentlich gewordene Scheidung von Justin Hakuta &ndash; weiterhin komisch und souverän zu verarbeiten, statt sich der Bühne für eine Weile zu entziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Sitcom-Schreibtisch zum eigenen Damm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die soziale Sieben ist, dass Wongs Wissen nicht bei der eigenen Bühne stehen blieb: Sie erweiterte ihr Werk beständig in neue, verwandte Gebiete &ndash; vom Stand-up über Sitcom-Drehbücher, einen New-York-Times-Bestseller ("Dear Girls", gemeinsam mit ihrer Schwester verfasst) bis zur eigenen Regiearbeit und einer preisgekrönten Dramaserien-Hauptrolle. Jede neue Form wurde nicht als Konkurrenz zur vorherigen behandelt, sondern als zusätzlicher Ast desselben Bauwerks.</p>
+          <p class="vb-intro">Auch ihre langjährige kreative Partnerschaft mit Randall Park, den sie seit Studienzeiten kennt und mit dem sie über Jahrzehnte hinweg gemeinsame Projekte entwickelte, zeigt diese Sechser-Loyalität innerhalb der Siebener-Neugier: Neue Ideen werden bevorzugt mit vertrauten, langjährig erprobten Partnern verwirklicht, statt mit wechselnden Bekanntschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, der ein Tabu zum Bauwerk für andere machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Wong hinterlässt, ist ein Werk, das aus einem einzigen, konsequent verfolgten Prinzip gewachsen ist: das eigene Leben &ndash; Herkunft, Körper, Schwangerschaft, Ehe, Scheidung &ndash; so offen zu verhandeln, dass daraus ein gemeinsamer Raum für alle entsteht, die Ähnliches erleben, aber selten eine Bühne dafür finden.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier der Biber ist, die ihre eigene, oft unbequeme Wirklichkeit unermüdlich zu einem Bauwerk formte, das anderen Schutz und Wiedererkennung bietet &ndash; und dabei, offenbar unbewusst, ihr eigenes tiefstes Muster lebte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-dietland-mueller-schwarze", label:"Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

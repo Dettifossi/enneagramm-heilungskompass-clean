@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=57";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=58";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1837,6 +1837,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Madame Guyon – Social Type 7",
     teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
     tags:["Spiritualität","Geschichte"], gender:"f"},
+{ route:"beruehmte-ali-wong", name:"Ali Wong", added:"2026-09-02", subtyp:"SO7w6",
+    heading:"Ali Wong – Social Type 7",
+    teaser:"SO7w6 · b. 1982. American comedian, actress and writer (\"Baby Cobra,\" \"Beef,\" \"Always Be My Maybe\"). Recorded two Netflix specials heavily pregnant, first Asian American actress to win a Golden Globe for a leading role. The beaver that turned a taboo into a structure for others.",
+    tags:["Unterhaltung"], gender:"f"},
 { route:"beruehmte-frank-rosell", name:"Prof. Dr. Frank Rosell", added:"2026-08-19", subtyp:"SO7w6",
     heading:"Prof. Dr. Frank Rosell – Social Type 7",
     teaser:"SO7w6 · b. 1969. Norwegian biologist, professor at the University of South-Eastern Norway, world-leading authority on beavers, known as \"the beaver pope.\" Leads the Norwegian Beaver Project since 1997, over 130 scientific publications, standard work \"Beavers.\" Animal correspondence: Beaver.",
@@ -38260,6 +38264,72 @@ function douglasSmithPortraitPage() {
   `);
 }
 
+function aliWongPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ali-wong-portrait.jpg" alt="Ali Wong – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ali Wong</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, actress and writer, b. 1982 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver who built her own stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for the moment, but for a system others can rely on, and is never truly finished, constantly expanding its work. Alexandra Dawn "Ali" Wong, born in 1982 in San Francisco to a Chinese-American anesthesiologist and a Vietnamese-American entrepreneur, started doing stand-up while a student at UCLA &ndash; and from there built, set by set, a career that never settled for a single dam.</p>
+          <p class="vb-intro">Before becoming world-famous for her stand-up specials, she worked as a writer on the sitcoms "Fresh Off the Boat" and "American Housewife" while continuing to perform live, later co-wrote, produced and starred in the Netflix comedy "Always Be My Maybe" (2019) with her longtime friend Randall Park, made her directorial debut with "Quarter Life Crisis" in 2024, and in the same year became the first Asian American actress to win a Golden Globe for a leading role, for the series "Beef." One structure is barely finished before the next begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Sacrifice, performed seven months pregnant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>Social Seven (SO7)</strong> "Sacrifice": it sacrifices its own immediate comfort for a larger cause &ndash; and finds its deepest fulfillment precisely there. Wong's best-known decision is exactly that: she recorded her first Netflix special, "Baby Cobra" (2016), seven months pregnant, and her second, "Hard Knock Wife" (2018), eight months pregnant with her second child &ndash; physically anything but comfortable, but a deliberate break with the unwritten rule that a pregnant or newly postpartum woman disappears from the stage.</p>
+          <p class="vb-intro">She repeatedly framed this choice not as personal provocation but as a contribution to something larger: pregnancy, birth and motherhood, she argued, deserved to be discussed as bluntly and comically as any other subject of life &ndash; a body of work that, beyond her own career, kept the stage open for the women who came after her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: the security behind the risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven a quality that stands in contrast to its appetite for risk: methodical preparation before the big leap is taken. Wong has repeatedly described her own work ethic as a legacy of her immigrant family &ndash; she performed over a hundred stand-up sets to prepare "Baby Cobra" before ever recording it, rather than relying on spontaneous stage presence.</p>
+          <p class="vb-intro">Her career structure follows the same Six note: her stable job as a sitcom writer ran in parallel to the riskier build-up of her stand-up career until the latter was sustainable on its own &ndash; not the dazzling all-in bet, but a foundation secured methodically over years, from which the actual risk was then taken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is its ability to turn <strong>a private, often shame-laden subject into a public, liberating contribution</strong> &ndash; Wong's unfiltered stage honesty about the body, sex and motherhood has given countless women the sense that their own, rarely voiced experiences are not theirs alone.</p>
+          <p class="vb-intro">The shadow shows in how much the constant on-stage self-disclosure can turn into its own expectation: the more publicly the most private material is negotiated, the greater the pressure to keep turning even genuinely painful chapters &ndash; such as the divorce from Justin Hakuta that became public in 2022 &ndash; into comedy, rather than stepping away from the stage for a while.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From the sitcom writers' room to her own dam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the Social Seven that Wong's work never stopped at the stage: she kept extending it into new, related fields &ndash; from stand-up to sitcom scripts, a New York Times bestseller ("Dear Girls," co-written with her sister), her own directing work and an award-winning lead role in a drama series. Each new form was treated not as competition with the last, but as another branch of the same structure.</p>
+          <p class="vb-intro">Her long creative partnership with Randall Park, whom she has known since college and with whom she has developed joint projects for decades, shows this Six-style loyalty within Seven-style curiosity: new ideas are preferably realized with familiar, long-tested partners rather than shifting acquaintances.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The beaver who turned a taboo into a structure for others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Wong leaves behind is a body of work grown from a single, consistently pursued principle: to negotiate her own life &ndash; heritage, body, pregnancy, marriage, divorce &ndash; so openly that it becomes a shared space for everyone who has lived something similar but rarely finds a stage for it.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the beaver, who tirelessly shaped her own, often uncomfortable reality into a structure that offers others shelter and recognition &ndash; and, apparently unconsciously, lived her own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-dietland-mueller-schwarze", label:"Portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankRosellPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50142,12 +50212,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Nikola Tesla", "The Samaritan Woman at Jacob's Well"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
         beschreibung: "Instead of enjoying things for oneself, something is continuously built that has an effect beyond one's own person – as soon as one project is finished, the next already begins, with no real pause.",
-        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it'; Prof. Dr. Frank Rosell, who authored over 130 scientific publications and extended his expertise even beyond beavers into dogs' sense of smell – the beaver doesn't build just one dam; Nikola Tesla, who pursued dozens of parallel grand projects throughout his life – the AC system, wireless energy transmission, radar technology, remote-controlled boats – barely had one been sketched before the next began, never in the name of his own fame, but always in the name of free energy for all humanity."
+        beleg: "Elon Musk: 'The beaver doesn't do half measures. It builds and builds – and looks for the next obstacle to dam'; Hazel Brugger: 'The beaver always has a new project'; Drew Barrymore: 'If a dam collapses, the beaver starts over immediately, without dwelling on it'; Prof. Dr. Frank Rosell, who authored over 130 scientific publications and extended his expertise even beyond beavers into dogs' sense of smell – the beaver doesn't build just one dam; Nikola Tesla, who pursued dozens of parallel grand projects throughout his life – the AC system, wireless energy transmission, radar technology, remote-controlled boats – barely had one been sketched before the next began, never in the name of his own fame, but always in the name of free energy for all humanity; Ali Wong, whose body of work kept extending into new, related fields – from stand-up to sitcom scripts, a New York Times bestseller, her own directing work and an award-winning lead role in a drama series – barely had one form been exhausted before the next began."
       },
       {
         titel: "Complete inner planning before the first move is even made",
@@ -109686,6 +109756,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
+      "beruehmte-ali-wong": aliWongPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-alexander-bommes": alexanderBommesPortraitPage,
