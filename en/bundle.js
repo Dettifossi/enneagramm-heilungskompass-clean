@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=58";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=59";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1837,6 +1837,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Madame Guyon – Social Type 7",
     teaser:"SO7w6 · born 1648, died 1717. Mystic, the leading exponent of Quietism. Persecuted as a heretic, imprisoned for years, including in the Bastille. The beaver that devoted itself entirely to surrender to God – and endured persecution with quiet steadfastness.",
     tags:["Spiritualität","Geschichte"], gender:"f"},
+{ route:"beruehmte-billy-bob-thornton", name:"Billy Bob Thornton", added:"2026-09-02", subtyp:"SO7w6",
+    heading:"Billy Bob Thornton – Social Type 7",
+    teaser:"SO7w6 · b. 1955. American actor, director, writer and musician. Won an Academy Award for the screenplay of \"Sling Blade\" (1996), which he also directed and starred in. Frontman of the band The Boxmasters since 2007. The beaver that built a lasting work from a silenced character.",
+    tags:["Unterhaltung"], gender:"m"},
 { route:"beruehmte-ali-wong", name:"Ali Wong", added:"2026-09-02", subtyp:"SO7w6",
     heading:"Ali Wong – Social Type 7",
     teaser:"SO7w6 · b. 1982. American comedian, actress and writer (\"Baby Cobra,\" \"Beef,\" \"Always Be My Maybe\"). Recorded two Netflix specials heavily pregnant, first Asian American actress to win a Golden Globe for a leading role. The beaver that turned a taboo into a structure for others.",
@@ -38330,6 +38334,72 @@ function aliWongPortraitPage() {
   `);
 }
 
+function billyBobThorntonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-billy-bob-thornton-portrait.jpg" alt="Billy Bob Thornton – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Billy Bob Thornton</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Actor, director, writer and musician, b. 1955 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver who built his career from the driver's seat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the Social Seven &ndash; it does not build for the moment, but for a body of work that reaches beyond itself, and is never truly finished, constantly expanding what it builds. Billy Bob Thornton, born in 1955 in rural Hot Springs, Arkansas, into modest circumstances, moved to Los Angeles in 1981 with his childhood friend and later co-writer Tom Epperson to become an actor and screenwriter. In the early years he sometimes slept in his own car, worked as a mover and a waiter &ndash; and kept writing scripts nobody had asked for.</p>
+          <p class="vb-intro">His breakthrough as a writer came in 1992 with "One False Move," co-written with Epperson. But the true structure of his life was "Sling Blade": first a short film in 1994, then expanded into a feature in 1996, which he wrote, directed and starred in himself &ndash; and for whose screenplay he won an Academy Award. He never stopped building after that: as an actor in dozens of films and series, as a director, as a writer, and since 2007 additionally as the frontman of his own band, The Boxmasters. One dam is barely finished before the next begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: lending a silenced character a voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>Social Seven (SO7)</strong> "Sacrifice": it sacrifices its own immediate comfort for a larger cause &ndash; and finds its deepest fulfillment precisely there. For Karl Childers, the character Thornton created and played in "Sling Blade" &ndash; a released, intellectually disabled institutional patient &ndash; he spent years developing a distinctive way of speaking, posture and expression, based on a man he had actually known as a child, whose story he placed at the center of an entire film with great care and respect, rather than reducing it to a footnote.</p>
+          <p class="vb-intro">His years of odd jobs before the breakthrough read as the same underlying stance: rather than choosing an early, more comfortable path, he held on for years to a body of work that served no one but himself at first &ndash; until, with "Sling Blade," it became something that touched an entire audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: a lifelong writing partnership and meticulous research</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Social Seven a quality that stands in contrast to its versatility: loyalty to a few, decades-tested connections, and methodical rigor rather than surface-level improvisation. Thornton's writing partnership with Tom Epperson dates back to their shared childhood in Arkansas and carried his career across decades &ndash; not a revolving cast of co-writers, but one fixed, reliable constant.</p>
+          <p class="vb-intro">The same Six note shows in the meticulous preparation behind his roles: the voice and gestures of Karl Childers did not arise from spontaneous improvisation but from years of careful observation of a real-life model. Also well documented publicly are his numerous, very specific phobias &ndash; among them antique furniture, certain cutlery and the color lavender &ndash; a need for precisely defined, controllable boundaries within an otherwise restlessly expansive life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is its ability to <strong>stay active across very different forms for decades without spreading itself thin</strong> &ndash; Thornton moves between character-actor roles, directing, screenwriting and music with the same seriousness, carried by the same craftsmanship regardless of medium.</p>
+          <p class="vb-intro">The shadow of the Social Seven with a Six-wing shows in how far the search for controllable security can tip into the conspicuous: his publicly documented, highly specific fears and his six marriages &ndash; including the intense media attention around his marriage to Angelina Jolie, complete with vials of each other's blood worn as pendants &ndash; read like an attempt to find fixed, unshakeable anchor points within an otherwise restlessly versatile life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From the screenplay to his own stage with the band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the Social Seven that Thornton's work never stopped at film: since 2007 he has regularly toured with The Boxmasters, a band with which he has released numerous albums &ndash; a second, parallel career pursued with the same persistence as his film work. Each new form was treated not as a distraction from the main work, but as another branch of the same structure.</p>
+          <p class="vb-intro">He kept building as a television actor as well: his role as Lorne Malvo in the first season of "Fargo" (2014) and later as attorney Billy McBride in "Goliath" showed that he did not rest on one established success, but continually took on new, often morally complex characters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The beaver who built a lasting work from a silenced character</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Thornton leaves behind is a body of work grown from years of uncomfortable persistence &ndash; from nights spent in his own car to an Academy Award for a screenplay he owed to no one but himself until it was finished. Again and again he extended his structure into new, related fields, rather than settling for a single success.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the beaver, who built a long-silenced, overlooked character into one of the most striking American films of his generation &ndash; and, apparently unconsciously, lived his own deepest pattern along the way.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
+        {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
+
 function frankRosellPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50212,7 +50282,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -50227,7 +50297,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -109757,6 +109827,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-david-mech": davidMechPortraitPage,
       "beruehmte-douglas-smith": douglasSmithPortraitPage,
       "beruehmte-ali-wong": aliWongPortraitPage,
+      "beruehmte-billy-bob-thornton": billyBobThorntonPortraitPage,
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-alexander-bommes": alexanderBommesPortraitPage,

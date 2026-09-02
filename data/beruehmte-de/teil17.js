@@ -1619,3 +1619,69 @@ export function franciscoDeGoyaPortraitPage() {
     </div>
   `);
 }
+
+export function billyBobThorntonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-billy-bob-thornton-portrait.jpg" alt="Billy Bob Thornton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Billy Bob Thornton</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Regisseur, Autor und Musiker, geb. 1955 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der sich vom Autositz aus seine Karriere baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben &ndash; er baut nicht für den Moment, sondern für ein Werk, das über die eigene Person hinausreicht, und ist nie wirklich fertig, sondern erweitert sein Bauwerk beständig. Billy Bob Thornton, geboren 1955 im ländlichen Hot Springs, Arkansas, in ärmlichen Verhältnissen, zog 1981 mit seinem Kindheitsfreund und späteren Ko-Autor Tom Epperson nach Los Angeles, um Schauspieler und Drehbuchautor zu werden. In den ersten Jahren schlief er zeitweise im eigenen Auto, jobbte als Möbelpacker und Kellner &ndash; und schrieb währenddessen unbeirrt weiter an Drehbüchern, die niemand bestellt hatte.</p>
+          <p class="vb-intro">Der Durchbruch als Autor kam 1992 mit "One False Move", gemeinsam mit Epperson verfasst. Doch das eigentliche Bauwerk seines Lebens war "Sling Blade": zuerst ein Kurzfilm 1994, dann 1996 als Spielfilm ausgebaut, den er selbst schrieb, inszenierte und in der Hauptrolle spielte &ndash; und für dessen Drehbuch er einen Oscar erhielt. Seither baute er ununterbrochen weiter: als Schauspieler in Dutzenden Filmen und Serien, als Regisseur, als Autor, seit 2007 zusätzlich als Frontmann seiner eigenen Band The Boxmasters. Kaum ist ein Damm fertig, beginnt bereits der nächste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: einer verstummten Figur eine Stimme leihen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nennt die <strong>soziale Sieben (SO7)</strong> "Sacrifice": Sie opfert die eigene, unmittelbare Bequemlichkeit für eine größere Sache &ndash; und findet gerade darin ihre tiefste Erfüllung. Für Karl Childers, die von ihm geschaffene und gespielte Hauptfigur aus "Sling Blade", einen entlassenen geistig behinderten Anstaltsinsassen, entwickelte Thornton über Jahre eine eigene, unverwechselbare Sprechweise, Körperhaltung und Mimik &ndash; basierend auf einem Mann, den er als Kind tatsächlich gekannt hatte, dessen Geschichte er mit großer Sorgfalt und Respekt ins Zentrum eines ganzen Films stellte, statt sie zu einer Randnotiz zu machen.</p>
+          <p class="vb-intro">Auch seine Jahre des Broterwerbs vor dem Durchbruch liest sich als dieselbe Grundhaltung: Statt frühzeitig einen sicheren, bequemeren Weg zu wählen, hielt er über Jahre an einem Werk fest, das zunächst niemandem außer ihm selbst diente &ndash; bis daraus, mit "Sling Blade", etwas wurde, das ein ganzes Publikum berührte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: eine lebenslange Schreibpartnerschaft und akribische Recherche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer Vielseitigkeit steht: Loyalität zu wenigen, über Jahrzehnte erprobten Verbindungen, und methodische Gründlichkeit statt oberflächlicher Improvisation. Thorntons Schreibpartnerschaft mit Tom Epperson reicht bis in die gemeinsame Kindheit in Arkansas zurück und trug seine Karriere über Jahrzehnte hinweg &ndash; nicht die wechselnde Ko-Autorenschaft, sondern eine feste, verlässliche Konstante.</p>
+          <p class="vb-intro">Dieselbe Sechser-Note zeigt sich in der akribischen Vorbereitung seiner Rollen: Die Stimme und Gestik von Karl Childers entstand nicht aus spontaner Improvisation, sondern aus jahrelanger, sorgfältiger Beobachtung eines realen Vorbilds. Auch öffentlich bekannt sind seine zahlreichen, sehr spezifischen Phobien &ndash; unter anderem vor antiken Möbeln, bestimmtem Besteck und der Farbe Lavendel &ndash; ein Bedürfnis nach genau definierten, kontrollierbaren Grenzen in einer ansonsten von ständigem Aufbruch geprägten Existenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>über Jahrzehnte hinweg in ganz unterschiedlichen Formen tätig zu bleiben, ohne sich zu verzetteln</strong> &ndash; Thornton bewegt sich mit derselben Ernsthaftigkeit zwischen Charakterdarsteller-Rollen, Regiearbeit, Drehbuch und Musik, stets getragen von derselben handwerklichen Sorgfalt, gleich in welchem Medium.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr die Suche nach kontrollierbarer Sicherheit ins Auffällige kippen kann: Seine öffentlich bekannten, sehr spezifischen Ängste und sechsmaligen Eheschließungen &ndash; darunter die mediale Vielbeachtung seiner Ehe mit Angelina Jolie, inklusive der als Anhänger getragenen Fläschchen mit dem Blut des jeweils anderen &ndash; lesen sich wie der Versuch, in einem rastlos vielseitigen Leben doch noch feste, unverrückbare Ankerpunkte zu finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Drehbuch zur eigenen Bühne mit der Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die soziale Sieben ist, dass Thorntons Werk nicht beim Film stehen blieb: Seit 2007 tourt er regelmäßig mit The Boxmasters, einer Band, mit der er zahlreiche Alben veröffentlicht hat &ndash; eine zweite, parallele Karriere, die er mit derselben Beharrlichkeit betreibt wie seine Filmarbeit. Jede neue Form wurde nicht als Ablenkung vom eigentlichen Werk behandelt, sondern als weiterer Ast desselben Bauwerks.</p>
+          <p class="vb-intro">Auch als Fernsehschauspieler baute er weiter: Seine Rolle als Lorne Malvo in der ersten Staffel von "Fargo" (2014) und später als Anwalt Billy McBride in "Goliath" zeigten, dass er sich nicht auf einen einmal etablierten Erfolg ausruhte, sondern kontinuierlich neue, oft moralisch vielschichtige Figuren erschloss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, der aus einer verstummten Figur ein bleibendes Werk baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Thornton hinterlässt, ist ein Werk, das aus jahrelanger, unbequemer Beharrlichkeit gewachsen ist &ndash; von den Nächten im eigenen Auto bis zu einem Oscar für ein Drehbuch, das er niemandem außer sich selbst schuldete, bis es fertig war. Immer wieder erweiterte er sein Bauwerk in neue, verwandte Gebiete, statt sich mit einem einzigen Erfolg zufriedenzugeben.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Biber ist, der eine lange verstummte, übersehene Figur zu einem der eindrücklichsten amerikanischen Filme seiner Generation baute &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster lebte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
+        {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
