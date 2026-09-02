@@ -1660,7 +1660,7 @@ export function seanPennPortraitPage() {
         <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit statt eines einzigen Reviers</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Acht eine abenteuerlustige, risikofreudige Weite &ndash; Kraft, die sich nicht auf ein einziges Feld beschränkt, sondern immer neue Territorien sucht. Penn ist nicht nur Schauspieler, sondern auch gefeierter Regisseur ("Into the Wild", "The Pledge"), investigativer Journalist und Katastrophenhelfer.</p>
-          <p class="vb-intro">Nach dem Erdbeben 2010 lebte er monatelang persönlich in einem Zeltlager in Haiti, gründete die J/P Haitian Relief Organization (heute CORE) und soll selbst Bulldozer gefahren haben, statt aus der Ferne zu delegieren &ndash; volle körperliche Präsenz statt Fernsteuerung, dieselbe Kombination aus Acht-Intensität und Sieben-Vielseitigkeit, die auch Prof. Grahame Webb oder Pablo Picasso in diesem Kompass auszeichnet.</p>
+          <p class="vb-intro">Nach dem Erdbeben 2010 lebte er monatelang persönlich in einem Zeltlager in Haiti, gründete die J/P Haitian Relief Organization (heute CORE) und soll selbst Bulldozer gefahren haben, statt aus der Ferne zu delegieren &ndash; volle körperliche Präsenz statt Fernsteuerung, dieselbe Kombination aus achter Intensität und siebener Vielfältigkeit, die auch Prof. Grahame Webb oder Pablo Picasso in diesem Kompass auszeichnet.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
