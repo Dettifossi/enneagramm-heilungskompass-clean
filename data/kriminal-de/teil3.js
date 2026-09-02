@@ -4017,7 +4017,8 @@ export function fritzHonkaPortraitPage() {
         und trug ein durch eine Jugendverletzung entstelltes, schiefes Gesicht –
         er war überzeugt, dass keine "normale" Frau ihn je begehren würde.
         Die Tötungen geschahen jeweils in plötzlichen Gewaltausbrüchen, meist ausgelöst,
-        wenn die Frauen ihn verspotteten oder seine Wohnung verlassen wollten.
+        wenn die Frauen ihn verspotteten oder seine Wohnung verlassen wollten – Honka
+        schlug seine Opfer und erdrosselte sie anschließend mit bloßen Händen.
         Die Leichen zerlegte er und verbarg die Teile in seiner eigenen Wohnung –
         hinter einer Zwischenwand, im Dachboden, in Verschlägen – statt sie fortzuschaffen.
         Entdeckt wurde er 1975, als ein Brand im Nachbarhaus die Feuerwehr in sein Treppenhaus
@@ -4130,6 +4131,23 @@ export function fritzHonkaPortraitPage() {
         wirkte er regelrecht erleichtert, dass die jahrelange Geheimhaltung
         endlich beendet war. Das spärliche, geängstigte Verstecken hatte
         selbst zur Last zu tragen aufgehört, tragbar zu sein.</p>
+        <p class="vb-intro"><strong>e) Werkzeug statt Waffe: die Hände als Tatmittel:</strong>
+        Auffällig wurden in der Rückschau auf den Fall <strong>Honkas</strong>
+        ungewöhnlich große, massige Hände – von Zeitzeugen als werkzeugartig,
+        fast schaufelförmig beschrieben, mit denen er seine Opfer schlug
+        und erdrosselte. Als Lagerarbeiter, der jahrzehntelang Kisten und
+        Lasten bewegte, hatte er sich diese kräftigen Hände zwangsläufig
+        angeeignet – doch ihre grobe, geradezu grabende Beschaffenheit
+        erinnert an das Bild des Maulwurfs, der sich mit kräftigen,
+        schaufelartigen Vorderpfoten mühelos durch Widerstand gräbt –
+        interessanterweise ebenfalls ein Tier, das dem Prinzip der Fünf
+        zugeordnet wird. Honka brauchte keine Waffe: Seine Hände selbst
+        verschafften ihm gegenüber den körperlich meist unterlegenen Frauen
+        eine erdrückende Überlegenheit. In der Aufarbeitung des Falls,
+        sowohl in der kriminalhistorischen Literatur als auch in späteren
+        Verfilmungen, wurden diese Hände zu einem wiederkehrenden Symbol –
+        für die rohe, unmittelbare Gewalt und das ausgelieferte Schicksal
+        seiner Opfer aus der Hamburger Kneipenszene.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
