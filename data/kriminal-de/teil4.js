@@ -2217,6 +2217,7 @@ export function joachimKrollPortraitPage() {
       </div>
 
       ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-honka", label:"Kriminalpsychologie: Fritz Honka (SE5w6) \u2013 derselbe Subtyp"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},

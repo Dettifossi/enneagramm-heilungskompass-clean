@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=59";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=60";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -260,6 +260,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-bonnie-parker",        name:"Bonnie Parker",                       subtyp:"SX4w3",  heading:"Bonnie Parker – Sexual Type 4",                                       teaser:"SX4w3 – Half of \"Bonnie and Clyde\", 1910–1934. 21-month crime spree across the American Midwest, self-mythologizing poems, killed in a police ambush. The relationship as a tragic work of art, the Three wing as a public stage. Animal correspondence: Chihuahua." , land:"USA", tags:["Serienmord","Raub"], gender:"f"},
   { route:"kriminalpsychologie-adolf-hitler",        name:"Adolf Hitler",                        subtyp:"SX4w3",  heading:"Adolf Hitler \u2013 Sexual Type 4",                                      teaser:"SX4w3 – Dictator, 1889–1945. Chief responsible for the Holocaust and World War II. The sexual Four with Three-wing in its darkest manifestation: envy as will to annihilation." , land:"Austria/Germany", tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-joachim-kroll",        name:"Joachim Kroll",                       subtyp:"SE5w6",  heading:"Joachim Kroll \u2013 Self-Preservation Type 5",                             teaser:"SP5w6 – Sewage worker and serial killer, 1933–1991. At least 8 victims in the Ruhr area between 1955 and 1976. The ‘Ruhr Cannibal’: radical withdrawal, extreme resource scarcity and the darkest manifestation of the self-preservation Five." , land:"Germany", tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-fritz-honka",          name:"Fritz Honka",                         subtyp:"SE5w6",  heading:"Fritz Honka – Self-Preservation Type 5",                               teaser:"SP5w6 – Serial killer, 1935–1998. At least 4 victims in Hamburg's red-light district 1970–1975 (‘The Golden Glove’). Disfigured face, radical withdrawal into a tiny, sealed-off apartment – body parts hidden inside his own home instead of disposed of." , land:"Germany", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-kaczynski",      name:"Dr. Ted Kaczynski",                        subtyp:"SO5w4",  heading:"Ted Kaczynski \u2013 Social Type 5",                                       teaser:"SO5w4 – ‘Unabomber’, 1942–2023. Bombings 1978–1995, 3 dead, 23 injured – the social Five with Four-wing: knowledge as world judgment, intellectual superiority as mission mandate. Animal correspondence: Octopus." , land:"USA", tags:["Terror"], gender:"m"},
   { route:"kriminalpsychologie-harold-shipman",    name:"Dr. Harold Shipman",                      subtyp:"SO5w6",  heading:"Harold Shipman – Social Type 5",                                      teaser:"SO5w6 – General practitioner and serial killer, 1946–2004. At least 218 victims – the most lethal solo perpetrator in British criminal history. The octopus: knowledge as control, quiet dominance over life and death behind the facade of the trusted doctor." , land:"United Kingdom", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-jeffrey-dahmer",      name:"Jeffrey Dahmer",                      subtyp:"SX5w4",  heading:"Jeffrey Dahmer \u2013 Sexual Type 5",                                    teaser:"SX5w4 – Serial killer, 1960–1994. 17 victims, radical merger fantasies – the sexual Five with Four-wing in its darkest manifestation: greed as absorption." , land:"USA", tags:["Serienmord","Missbrauch"], gender:"m"},
@@ -51891,13 +51892,18 @@ const KRIMINALMUSTERKOMPASS = {
   },
   SE5: {
     tier: "Owl",
-    kernthema: "Only one documented case so far – a pattern of extreme, years-long secrecy and isolation from the outside world.",
-    beispiele: ["Joachim Kroll"],
+    kernthema: "One's own, radically shrunk living space as the last bastion of control – extreme, years-long secrecy and isolation from the outside world.",
+    beispiele: ["Joachim Kroll", "Fritz Honka"],
     fingerabdruecke: [
       {
-        titel: "Single case: extreme, years-long secrecy",
-        beschreibung: "With only one case so far, no pattern can yet be claimed – this simply records the documented individual case.",
-        beleg: "Joachim Kroll lived inconspicuously and withdrawn in the same neighborhood for decades, without those around him ever suspecting anything."
+        titel: "Extreme, years-long secrecy within one's own retreat",
+        beschreibung: "Rather than keeping traces of the crimes at a distance, the perpetrator's own home itself becomes the hiding place – the radically shrunk, fully controlled private space appears safer than any distance from the crimes.",
+        beleg: "Joachim Kroll lived inconspicuously and withdrawn in the same neighborhood for decades, without those around him ever suspecting anything, and kept body parts in his own refrigerator; Fritz Honka concealed the remains of his crimes behind a self-built partition wall and in the attic above his apartment, its windows sealed with newspaper against any view from outside, rather than disposing of them elsewhere – in both men, their own, radically shrunk living space became the last and only bastion of complete control."
+      },
+      {
+        titel: "Two very different emotional temperatures of the same fortress-of-flight logic (Six-wing)",
+        beschreibung: "The Six-wing can express itself in very different ways within this subtype: as near-total emotional emptiness and indifference, or as chronic, palpable fear and tension that eventually discharges violently.",
+        beleg: "Joachim Kroll appeared empty and absent to everyone who spoke with him, without discernible shame or excitement – his crimes emerged from an almost complete absence of empathy; Fritz Honka, by contrast, carried noticeable, chronic fear and despair within him, driven by a face disfigured in a youth injury and the conviction that he would never be desired – his outbursts of violence each discharged suddenly when rejection or mockery made this fear unbearable. Important: both cases are rare, extreme exceptions among the SE5 portraits in this compass, not a typical expression."
       }
     ]
   },
@@ -82682,6 +82688,106 @@ function nielsHoegelPortraitPage() {
   `);
 }
 
+function fritzHonkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Fritz Honka – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/fritz-honka-portrait.jpg" alt="Fritz Honka – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Honka</p>
+        <p class="krim-portrait-typ">SP5w6 · Self-Preservation Type 5 with Six-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">German Serial Killer · Animal correspondence: Owl</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Fritz Honka</strong>, born on July 31, 1935, in Leipzig, died on October 19, 1998, in Bergedorf near Hamburg. Between 1970 and 1975 he murdered at least four women — alcoholics and sex workers he met at the notorious bar "Zum Goldenen Handschuh" ("The Golden Glove") in Hamburg's red-light district and took back to his tiny attic apartment on Zeißstraße. Honka was himself an alcoholic, worked as a warehouse laborer, and carried a face disfigured by a youth injury — he was convinced no "normal" woman would ever want him. The killings each occurred in sudden outbursts of violence, usually triggered when the women mocked him or tried to leave his apartment. He dismembered the bodies and hid the parts inside his own apartment — behind a partition wall, in the attic space, in storage compartments — rather than disposing of them elsewhere. He was discovered in 1975 when a fire in the neighboring building brought firefighters into his stairwell and residents complained about the smell of decay coming from his flat. In 1976 he was convicted of manslaughter in four cases and sentenced to 15 years in prison, released early in 1993, and lived under the name "Peter Jensen" in quiet seclusion in Hamburg until his death in 1998.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong> Fritz Honka is assigned to the <strong>Self-Preservation Type 5 with Six-wing</strong> in the Enneagram — the same subtype as Joachim Kroll, with whom his case shows striking structural parallels. The passion of the Five is avarice — radical hoarding of energy, space, and control. The self-preservation Five withdraws into a minimal, self-sufficient existence and defends its private retreat with great determination. The Six-wing adds a chronic underlying fear — the constant expectation of threat, rejection, or exposure. In Honka, this fear combined with a deep self-loathing intensified by his disfigured face: his tiny apartment, its windows sealed with newspaper, was both a fortress and a trap — a space where he had control he possessed nowhere else in his life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Watchful and heavy, no open contact:</strong> Photographs and witness accounts show a heavy, fixed gaze behind thick glasses — a man who observes without opening up. The Five keeps distance from what it sees; the Six-wing makes this gaze additionally probing, almost suspicious — as if constantly scanning for the next attack, the next humiliation.</p>
+        <p class="vb-intro"><strong>b) The disfigured face as a permanent stressor:</strong> Honka's face was permanently disfigured by an injury sustained in his youth — a fact he himself named as the central trauma of his life. Unlike Kroll, whose gaze appeared mostly empty, Honka's carried a noticeable, persistent tension: the knowledge of being seen and rejected at once, before a single word had even been exchanged.</p>
+        <p class="vb-intro"><strong>c) No facade, but no openness either:</strong> Honka deceived no one about his appearance or his poverty — he deliberately sought out a milieu where outward appearance and social status hardly mattered. This was not a strategy in the classic sense, but the only place where his gaze was ever returned at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Radical shrinking of his own living space:</strong> Honka lived in a tiny, cluttered attic apartment whose windows he had sealed with newspaper — no light coming in, no view from outside, no observation. The SP5 reduces its living space to what it can fully control; in Honka this reduction became a literal sealing-off from the entire outside world.</p>
+        <p class="vb-intro"><strong>b) Isolation despite daily work:</strong> Unlike what one might expect from such a withdrawn man, Honka held a regular job as a warehouse laborer — an orderly, unremarkable routine that concealed his isolation rather than resolving it. Colleagues described him as quiet, reserved, without close ties. The SP5 can function while remaining entirely unconnected.</p>
+        <p class="vb-intro"><strong>c) Alcohol as the only social bond:</strong> Honka's only regular social contact took place at the "Golden Glove" — a bar where alcohol was the precondition for any approach at all. Without intoxication, reports suggest, even this limited contact would not have been accessible to him — a substitute for closeness that simultaneously further weakened his control over his own impulses.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Properties</h3>
+        <p class="vb-intro"><strong>a) Violence as sudden loss of control, not as a plan:</strong> Unlike perpetrators who acted with premeditation, Honka's crimes appear to have discharged in sudden, uncontrolled fits of rage — triggered by mockery, rejection, or the women's attempts to leave his apartment. The SP5 holds impulses back for extremely long periods; when the Six-wing's lid of fear finally bursts, it does not happen through calculation, but explosively.</p>
+        <p class="vb-intro"><strong>b) His own apartment as the hiding place for the crimes — not the outside world:</strong> The most striking feature of Honka's method: he did not dispose of the body parts far from his own living space, as many other perpetrators do, but concealed them within his own four walls — behind a self-built partition wall, in the attic above his apartment. This is the SP5 logic in its darkest form: the private retreat is so completely under control that even the unspeakable seems safer there than outside — a parallel to Kroll, who kept body parts in his own refrigerator instead of disposing of them.</p>
+        <p class="vb-intro"><strong>c) A cooperative, almost relieved confession:</strong> After his arrest, Honka confessed comparatively quickly and in detail. Investigators described him as cooperative; at times he seemed almost relieved that the years-long secrecy had finally ended. The meager, fear-driven hiding had itself become unbearable to carry.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Inconspicuousness through marginality:</strong> Honka remained undetected for five years, not because he deceived skillfully, but because both he and his victims lived at the very margin of society — in a milieu where disappearance barely registered and questions were rarely asked. The SP5 benefits from invisibility; Honka's social environment reinforced that invisibility further.</p>
+        <p class="vb-intro"><strong>b) Neighbors who looked away — and a system that looked away:</strong> Despite repeated complaints about the smell from his apartment, no serious investigation followed for years. Honka's explanations — spoiled meat, a dead rat — were accepted. A man who drew no attention otherwise needed no convincing explanation for strange odors either.</p>
+        <p class="vb-intro"><strong>c) No discernible external motive, but a very visible internal one:</strong> Unlike Kroll, whose crimes emerged from an almost total emotional void, Honka's case allows a clearly identifiable inner motive to be reconstructed: the despair of a man who believed affection could only be bought or forced — and who experienced every rejection as an existential threat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Tense stillness rather than emptiness:</strong> Where Kroll appeared empty and absent to those around him, Honka left more the impression of tense, latently explosive stillness — a man holding a great deal back while visibly under pressure. The Six-wing adds exactly this underlying nervousness to the Five's withdrawal.</p>
+        <p class="vb-intro"><strong>b) Relief after the act, not triumph:</strong> Accounts suggest that the outbursts of violence were not followed by arousal or feelings of power, but by an immediate, practical need to conceal what had happened — a reaction carried more by fear than by pleasure.</p>
+        <p class="vb-intro"><strong>c) Six-wing: controlling the space as the only available security:</strong> The sealed windows, the self-built partition wall, the meticulous concealment — all of it reads as an attempt to fully control at least the immediate physical space, after every other form of security — social acceptance, physical attractiveness, belonging — seemed unreachable.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Owl</h3>
+        <p class="vb-intro"><strong>a) The owl retreats into its nest:</strong> The owl of the SP5 lives withdrawn, defends its territory, and avoids open confrontation. Honka's tiny, darkened apartment was exactly this nest — a place he sealed off from every outside view with newspaper, before turning it into the place where the most terrible things happened.</p>
+        <p class="vb-intro"><strong>b) Nocturnal, hidden in the demimonde:</strong> Honka's entire second life played out at night, in a bar at the margin of society, far from daylight and public attention. Like the owl, he moved where others did not look.</p>
+        <p class="vb-intro"><strong>c) Defending the territory at any cost:</strong> Unlike Kroll, whose owl-like stillness remained almost entirely undisturbed, Honka's nest was repeatedly threatened — by women who wanted to leave, by neighbors who asked questions. His violence discharged exactly where the owl defends its territory: at the threshold of its own retreat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Fritz Honka</strong> shares the same self-preservation Five with Six-wing as Joachim Kroll — and yet shows a markedly different facet of this pattern. Where Kroll was defined by an almost total emotional void, Honka carried noticeable, chronic fear and despair within him — the dark side of the Six-wing when it produces not caution, but explosive reaction to perceived threat. Both men share the same underlying principle: their own, radically shrunk living space as the last bastion of control — and the inability to find genuine, secure connection beyond that bastion. What enables the healthy SP5 toward contentment and quiet inner strength became, for Honka, a trap he believed he could escape only through violence.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Additional Depth Perspectives</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP5 — "Avarice" meets Six-fear:</strong> Claudio Naranjo describes the self-preservation Five as the subtype that seeks security through radical reduction. In Honka, this reduction combined with the Six's underlying fear into a pattern in which even minimal closeness — a woman staying with him for one night — was simultaneously the only longed-for good and the greatest threat.</p>
+        <p class="vb-intro"><strong>b) The disfigured face as a lifelong ground for exclusion:</strong> Forensic and journalistic accounts of the case consistently emphasize how central Honka's own perception of his disfigurement was to his self-image. This wound struck a person whose SP5 core structure was already extremely sensitive to rejection — a wound that never healed, but deepened further over decades.</p>
+        <p class="vb-intro"><strong>c) Parallel to Joachim Kroll: the same logic, a different temperature:</strong> Both men are SP5w6, both concealed their crimes inside their own apartment rather than outside it, and both went undetected for years because they simply did not stand out in their respective environments. The difference lies in emotional temperature: Kroll appeared icily absent, Honka tormented and tense — two very different expressions of the same fortress-of-flight logic.</p>
+        <p class="vb-intro"><strong>d) Confession and a later life under a new name:</strong> Honka's relatively swift confession and his later life under the name "Peter Jensen" after his release show the same logic of withdrawal in a new form: no attempt at public atonement or self-justification, but another quiet retreat into anonymity — until his death in 1998.</p>
+        <p class="vb-intro"><strong>e) The Five's path of growth — the Eight:</strong> The Five's point of growth is the Eight — the capacity to be present and capable of action within genuine relationships, rather than either withdrawing or discharging explosively. This path remained closed to Honka throughout his life: between total withdrawal and sudden, uncontrolled violence, there appears to have been no third option for him.</p>
+        <p class="vb-intro"><strong>f) What this means for understanding the SP5:</strong> Honka's case adds an important facet to the picture of the SP5: not every extreme expression of this subtype leads to emotional emptiness as with Kroll — it can just as easily lead to a chronically fear-driven isolation, shaped by a constant expectation of rejection, that eventually discharges violently.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Five in comparison: how avarice differs across SE5, SO5, and SX5.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 character profiles in comparison.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 5 portrayed in depth – avarice, withdrawal, and the healing path through genuine generosity.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Note: This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Fritz Honka was convicted of manslaughter in four cases in 1976 and sentenced to 15 years in prison; he died in 1998 as a free man. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-joachim-kroll", label:"Criminal Psychology: Joachim Kroll (SP5w6) – same subtype"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Criminal Psychology: Dennis Nilsen (SP1w2)"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
 function joachimKrollPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -82774,6 +82880,7 @@ function joachimKrollPortraitPage() {
       </div>
 
       ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-honka", label:"Criminal Psychology: Fritz Honka (SP5w6) – same subtype"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Criminal Psychology: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
@@ -110381,6 +110488,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-pamela-smart": pamelaSmartPortraitPage,
       "kriminalpsychologie-diane-downs": dianeDownsPortraitPage,
       "kriminalpsychologie-joachim-kroll": joachimKrollPortraitPage,
+      "kriminalpsychologie-fritz-honka": fritzHonkaPortraitPage,
       "kriminalpsychologie-jeffrey-dahmer": jeffreyDahmerPortraitPage,
       "kriminalpsychologie-joel-rifkin": joelRifkinPortraitPage,
       "kriminalpsychologie-charles-manson": charlesMansonPortraitPage,

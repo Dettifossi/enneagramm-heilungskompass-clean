@@ -3993,3 +3993,274 @@ export function victorLustigPortraitPage() {
     </div>
   `);
 }
+
+export function fritzHonkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Fritz Honka – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/fritz-honka-portrait.jpg" alt="Fritz Honka – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fritz Honka</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Deutscher Serienmörder · Tierentsprechung: Eule</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Fritz Honka</strong>, geboren am 31. Juli 1935 in Leipzig, starb am 19. Oktober 1998
+        in Bergedorf bei Hamburg. Zwischen 1970 und 1975 ermordete er mindestens vier Frauen –
+        Alkoholikerinnen und Prostituierte, die er in der verrufenen Kneipe "Zum Goldenen Handschuh"
+        im Hamburger Rotlichtviertel kennenlernte und mit in seine winzige Dachgeschosswohnung
+        in der Zeißstraße nahm. Honka war selbst Alkoholiker, arbeitete als Lagerarbeiter
+        und trug ein durch eine Jugendverletzung entstelltes, schiefes Gesicht –
+        er war überzeugt, dass keine "normale" Frau ihn je begehren würde.
+        Die Tötungen geschahen jeweils in plötzlichen Gewaltausbrüchen, meist ausgelöst,
+        wenn die Frauen ihn verspotteten oder seine Wohnung verlassen wollten.
+        Die Leichen zerlegte er und verbarg die Teile in seiner eigenen Wohnung –
+        hinter einer Zwischenwand, im Dachboden, in Verschlägen – statt sie fortzuschaffen.
+        Entdeckt wurde er 1975, als ein Brand im Nachbarhaus die Feuerwehr in sein Treppenhaus
+        führte und Bewohner über den Verwesungsgeruch aus seiner Wohnung klagten.
+        1976 wurde er wegen Totschlags in vier Fällen zu 15 Jahren Haft verurteilt,
+        1993 vorzeitig entlassen und lebte bis zu seinem Tod 1998 unter dem Namen
+        "Peter Jensen" zurückgezogen in Hamburg.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Fritz Honka</strong> wird der <strong>Selbsterhaltenden Fünf mit Sechserflügel</strong>
+        im Enneagramm zugeordnet – demselben Subtyp wie Joachim Kroll, mit dem sein Fall
+        auffallende strukturelle Parallelen zeigt. Die Leidenschaft der Fünf ist <em>Geiz</em> –
+        radikales Horten von Energie, Raum und Kontrolle. Die selbsterhaltende Fünf zieht
+        sich in eine minimale, selbstgenügsame Existenz zurück und verteidigt ihren
+        privaten Rückzugsraum mit großer Konsequenz. Der Sechserflügel fügt eine
+        chronische Grundangst hinzu – die ständige Erwartung von Bedrohung, Zurückweisung
+        oder Bloßstellung. Bei Honka verband sich diese Angst mit tiefem, durch sein
+        entstelltes Gesicht verstärktem Selbsthass: Seine winzige, mit Zeitungspapier
+        verklebte Wohnung war zugleich Schutzburg und Falle – ein Raum, in dem er
+        Kontrolle hatte, die er im übrigen Leben nirgends besaß.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Wachsam und schwer, kein offener Kontakt:</strong>
+        Fotografien und Zeugenberichte zeigen einen schweren, starren Blick hinter dicken
+        Brillengläsern – ein Mann, der beobachtet, ohne sich zu öffnen. Die Fünf hält
+        Distanz zu dem, was sie sieht; der Sechserflügel macht diesen Blick zusätzlich
+        prüfend, fast argwöhnisch – als suche er ständig nach dem nächsten Angriff,
+        der nächsten Demütigung.</p>
+        <p class="vb-intro"><strong>b) Das entstellte Gesicht als permanenter Stressor:</strong>
+        Honkas Gesicht war durch eine in der Jugend erlittene Verletzung dauerhaft
+        entstellt – ein Umstand, den er selbst als zentrales Trauma seines Lebens
+        benannte. Anders als bei Kroll, dessen Blick vor allem leer wirkte, trug
+        Honkas Blick eine spürbare, dauerhafte Anspannung: das Wissen, angesehen
+        und zugleich abgelehnt zu werden, bevor überhaupt ein Wort gefallen war.</p>
+        <p class="vb-intro"><strong>c) Keine Fassade, aber auch keine Offenheit:</strong>
+        Honka täuschte niemanden über seine äußere Erscheinung oder seine Armut hinweg –
+        er suchte bewusst ein Milieu auf, in dem äußeres Erscheinungsbild und
+        soziale Stellung kaum eine Rolle spielten. Das war keine Strategie im
+        klassischen Sinn, sondern der einzige Ort, an dem sein Blick überhaupt
+        erwidert wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Radikale Verkleinerung des eigenen Lebensraums:</strong>
+        <strong>Honka</strong> lebte in einer winzigen, vollgestopften Dachgeschosswohnung,
+        deren Fenster er mit Zeitungspapier verklebt hatte – kein Lichteinfall,
+        kein Einblick von außen, keine Beobachtung. Die SE5 reduziert ihren
+        Lebensraum auf das, was sie vollständig kontrollieren kann; bei Honka
+        wurde diese Reduktion buchstäblich zur Abdichtung gegen die gesamte
+        Außenwelt.</p>
+        <p class="vb-intro"><strong>b) Isolation trotz täglicher Arbeit:</strong>
+        Anders als man bei einem derart zurückgezogenen Mann vermuten könnte,
+        ging <strong>Honka</strong> regelmäßig einer Arbeit als Lagerarbeiter nach –
+        ein geordneter, unauffälliger Alltag, der seine Isolation eher verdeckte
+        als auflöste. Kollegen beschrieben ihn als still, zurückhaltend, ohne
+        nähere Bindungen. Die SE5 kann funktionieren und gleichzeitig
+        vollständig unverbunden bleiben.</p>
+        <p class="vb-intro"><strong>c) Alkohol als einziges soziales Bindemittel:</strong>
+        Honkas einziger regelmäßiger sozialer Kontakt fand im "Goldenen Handschuh"
+        statt – einer Kneipe, in der Alkohol jede Annäherung erst möglich machte.
+        Ohne den Rausch, so legen es Berichte nahe, wäre selbst dieser
+        eingeschränkte Kontakt für ihn nicht zugänglich gewesen –
+        ein Ersatz für Nähe, der zugleich die Kontrolle über die eigenen
+        Impulse weiter schwächte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gewalt als plötzlicher Kontrollverlust, nicht als Plan:</strong>
+        Anders als bei planvoll vorgehenden Tätern entluden sich <strong>Honkas</strong>
+        Taten offenbar jeweils in Momenten plötzlicher, unkontrollierter Wut –
+        ausgelöst durch Spott, Zurückweisung oder den Versuch der Frauen,
+        seine Wohnung zu verlassen. Die SE5 hält Impulse extrem lange
+        zurück; wenn der Sechserflügel-Angst-Deckel schließlich birst,
+        geschieht das nicht kalkuliert, sondern explosiv.</p>
+        <p class="vb-intro"><strong>b) Die eigene Wohnung als Versteck für die Taten –
+        nicht die Welt draußen:</strong>
+        Das auffälligste Merkmal in Honkas Vorgehen: Er entsorgte die Leichenteile
+        nicht wie viele andere Täter fern seines eigenen Lebensraums,
+        sondern verbarg sie innerhalb der eigenen vier Wände – hinter einer
+        selbst errichteten Zwischenwand, im Dachboden über seiner Wohnung.
+        Das ist die SE5-Logik in ihrer düstersten Form: Der eigene Rückzugsraum
+        ist so vollständig unter Kontrolle, dass selbst das Unaussprechliche
+        dort sicherer erscheint als draußen – eine Parallele zu Kroll, der
+        Leichenteile im eigenen Kühlschrank aufbewahrte, statt sie zu entsorgen.</p>
+        <p class="vb-intro"><strong>c) Kooperatives, fast erleichtertes Geständnis:</strong>
+        Nach seiner Verhaftung gestand <strong>Honka</strong> vergleichsweise rasch
+        und detailliert. Ermittler beschrieben ihn als kooperativ, teils
+        wirkte er regelrecht erleichtert, dass die jahrelange Geheimhaltung
+        endlich beendet war. Das spärliche, geängstigte Verstecken hatte
+        selbst zur Last zu tragen aufgehört, tragbar zu sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Unauffälligkeit durch Randständigkeit:</strong>
+        <strong>Honka</strong> blieb fünf Jahre unentdeckt, nicht weil er geschickt täuschte,
+        sondern weil sowohl er als auch seine Opfer am äußersten Rand der
+        Gesellschaft lebten – in einem Milieu, in dem Verschwinden kaum auffiel
+        und Nachfragen selten gestellt wurden. Die SE5 profitiert von Unsichtbarkeit;
+        Honkas soziales Umfeld verstärkte diese Unsichtbarkeit zusätzlich.</p>
+        <p class="vb-intro"><strong>b) Nachbarn, die wegsahen – und ein System, das wegsah:</strong>
+        Trotz wiederholter Geruchsbeschwerden aus seiner Wohnung wurde über Jahre
+        nicht ernsthaft nachgeforscht. Honkas Erklärungen – verdorbenes Fleisch,
+        eine tote Ratte – wurden hingenommen. Ein Mann, der ohnehin niemandem
+        auffiel, musste auch für merkwürdige Gerüche keine überzeugende
+        Erklärung liefern.</p>
+        <p class="vb-intro"><strong>c) Kein erkennbares äußeres Motiv, aber ein sehr sichtbares
+        inneres:</strong>
+        Anders als bei Kroll, dessen Taten aus einer nahezu vollständigen
+        emotionalen Leere kamen, lässt sich bei Honka ein klar benennbares
+        inneres Motiv rekonstruieren: die Verzweiflung eines Mannes, der glaubte,
+        Zuneigung nur erkaufen oder erzwingen zu können – und der jede
+        Zurückweisung als existenzielle Bedrohung erlebte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Angespannte Stille statt Leere:</strong>
+        Wo Kroll auf sein Umfeld leer und abwesend wirkte, hinterließ <strong>Honka</strong>
+        eher den Eindruck angespannter, latent explosiver Stille – ein Mann,
+        der viel zurückhielt, aber spürbar unter Druck stand. Der Sechserflügel
+        fügt der Fünfer-Zurückgezogenheit genau diese unterschwellige Nervosität hinzu.</p>
+        <p class="vb-intro"><strong>b) Erleichterung nach der Tat, nicht Triumph:</strong>
+        Berichte legen nahe, dass auf die Gewaltausbrüche keine Erregung oder
+        Machtgefühle folgten, sondern eher ein sofortiges, praktisches
+        Bedürfnis, das Geschehene zu verbergen – eine Reaktion, die eher
+        von Angst als von Lust getragen war.</p>
+        <p class="vb-intro"><strong>c) Sechserflügel: Kontrolle des Raumes als
+        einzige verfügbare Sicherheit:</strong>
+        Die zugeklebten Fenster, die selbst gebaute Zwischenwand, das
+        akribische Verstecken – all das liest sich als Versuch, wenigstens
+        den unmittelbaren physischen Raum vollständig zu kontrollieren,
+        nachdem jede andere Form von Sicherheit – soziale Anerkennung,
+        körperliche Attraktivität, Zugehörigkeit – unerreichbar schien.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Die Eule</h3>
+        <p class="vb-intro"><strong>a) Die Eule zieht sich in ihr Nest zurück:</strong>
+        Die Eule der SE5 lebt zurückgezogen, verteidigt ihr Revier und meidet
+        offene Konfrontation. <strong>Honkas</strong> winzige, abgedunkelte Wohnung war
+        genau dieses Nest – ein Ort, den er mit Zeitungspapier gegen jeden
+        Blick von außen abschottete, bevor er ihn zu dem Ort machte,
+        an dem das Schrecklichste geschah.</p>
+        <p class="vb-intro"><strong>b) Nachtaktiv, im Verborgenen der Halbwelt:</strong>
+        Honkas gesamtes zweites Leben spielte sich nachts ab, in einer Kneipe
+        am Rand der Gesellschaft, fernab von Tageslicht und öffentlicher
+        Aufmerksamkeit. Wie die Eule bewegte er sich dort, wo andere
+        nicht hinsahen.</p>
+        <p class="vb-intro"><strong>c) Verteidigung des Reviers um jeden Preis:</strong>
+        Anders als bei Kroll, dessen Eulen-Ruhe fast vollständig ungestört
+        blieb, wurde Honkas Nest wiederholt bedroht – durch Frauen, die
+        gehen wollten, durch Nachbarn, die Fragen stellten. Seine Gewalt
+        entlud sich genau dort, wo die Eule ihr Revier verteidigt: an der
+        Schwelle des eigenen Rückzugsraums.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Fritz Honka</strong> zeigt dieselbe selbsterhaltende Fünf mit Sechserflügel
+        wie Joachim Kroll – und doch eine deutlich andere Facette dieses Musters.
+        Während Kroll durch eine fast vollständige emotionale Leere geprägt war,
+        trug Honka spürbare, chronische Angst und Verzweiflung in sich –
+        die dunkle Seite des Sechserflügels, wenn er nicht Vorsicht,
+        sondern explosive Reaktion auf wahrgenommene Bedrohung erzeugt.
+        Beide Männer verbindet dasselbe Grundprinzip: der eigene, radikal
+        verkleinerte Lebensraum als letzte Bastion der Kontrolle –
+        und die Unfähigkeit, jenseits dieser Bastion echte, sichere
+        Verbindung zu finden. Was die gesunde SE5 zu Genügsamkeit und
+        stiller innerer Stärke befähigt, wurde bei Honka zu einer Falle,
+        aus der er nur durch Gewalt einen Ausweg zu finden glaubte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE5 – „Geiz / Avarice" trifft auf
+        Sechser-Angst:</strong>
+        Claudio Naranjo beschreibt die selbsterhaltende Fünf als jenen Subtyp,
+        der Sicherheit durch radikale Reduktion sucht. Bei <strong>Honka</strong> verband
+        sich diese Reduktion mit der Sechser-Grundangst zu einem Muster,
+        in dem selbst minimale Nähe – eine Frau, die für eine Nacht bei ihm
+        blieb – sowohl das einzig ersehnte Gut als auch die größte
+        Bedrohung zugleich war.</p>
+        <p class="vb-intro"><strong>b) Das entstellte Gesicht als lebenslanger
+        Ausschlussgrund:</strong>
+        Forensische und journalistische Aufarbeitungen des Falls betonen
+        durchgängig, wie zentral Honkas eigene Wahrnehmung seiner
+        Entstellung für sein Selbstbild war. Diese Kränkung traf einen
+        Menschen, dessen SE5-Grundstruktur ohnehin extrem sensibel
+        auf Zurückweisung reagiert – eine Kränkung, die sich niemals
+        heilte, sondern über Jahrzehnte weiter vertiefte.</p>
+        <p class="vb-intro"><strong>c) Parallele zu Joachim Kroll: dieselbe Logik,
+        andere Temperatur:</strong>
+        Beide Männer sind SE5w6, beide verbargen ihre Taten in der eigenen
+        Wohnung statt draußen, beide blieben über Jahre unentdeckt, weil
+        sie in ihrer jeweiligen Umgebung schlicht nicht auffielen. Der
+        Unterschied liegt in der emotionalen Temperatur: Kroll wirkte
+        eisig-abwesend, Honka gequält und angespannt – zwei sehr
+        unterschiedliche Ausdrucksformen derselben Fluchtburg-Logik.</p>
+        <p class="vb-intro"><strong>d) Geständnis und spätes Leben unter neuem Namen:</strong>
+        Honkas relativ rasches Geständnis und sein späteres Leben unter dem
+        Namen "Peter Jensen" nach der Haftentlassung zeigen dieselbe
+        Rückzugslogik in neuer Form: kein Versuch, öffentlich Buße zu tun
+        oder sich zu rechtfertigen, sondern erneuter, stiller Rückzug in
+        die Anonymität – bis zu seinem Tod 1998.</p>
+        <p class="vb-intro"><strong>e) Der Wachstumsweg der Fünf – die Acht:</strong>
+        Der Wachstumspunkt der Fünf ist die Acht – die Fähigkeit, präsent
+        und handlungsfähig in echten Beziehungen zu stehen, statt sich
+        entweder zurückzuziehen oder explosiv zu entladen. Dieser Weg
+        blieb <strong>Honka</strong> zeitlebens verschlossen: Zwischen totalem
+        Rückzug und plötzlicher, unkontrollierter Gewalt gab es für ihn
+        offenbar keinen dritten Weg.</p>
+        <p class="vb-intro"><strong>f) Bedeutung für das Verständnis der SE5:</strong>
+        Honkas Fall ergänzt das Bild der SE5 um eine wichtige Facette:
+        Nicht jede extreme Ausprägung dieses Subtyps führt in emotionale
+        Leere wie bei Kroll – sie kann ebenso gut in eine chronisch
+        angsterfüllte, von Ständiger Zurückweisungserwartung geprägte
+        Isolation führen, die sich irgendwann gewaltsam entlädt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Fünf im Vergleich: Wie sich Geiz bei SE5, SO5 und SX5 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE5, SO5, SX5 – 27 Charakterprofile im Vergleich.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 5 ausführlich porträtiert – Geiz, Rückzug und der Heilungsweg über echte Großzügigkeit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Fritz Honka wurde 1976 wegen Totschlags in vier Fällen zu 15 Jahren Haft verurteilt und starb 1998 als freier Mann. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-joachim-kroll", label:"Kriminalpsychologie: Joachim Kroll (SE5w6) – derselbe Subtyp"},
+        {route:"kriminalpsychologie-dennis-nilsen", label:"Kriminalpsychologie: Dennis Nilsen (SE1w2)"},
+        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
