@@ -42775,7 +42775,7 @@ function blickqualitaetenAtlasPage() {
     const tiles = t.tiles.map(k => {
       const tcol = typeColorFromCode(k.code);
       return `
-        <details class="ba-tile" style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
+        <details class="ba-tile" style="background:color-mix(in srgb, ${tcol} 8%, var(--card,var(--paper)));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
           <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:.5rem;">
             <div style="display:flex;align-items:center;gap:.6rem;min-width:0;">
               <img src="./assets/blickqualitaeten/${k.code.toLowerCase()}.jpg" alt="${k.code}" loading="lazy" style="width:2.6rem;height:2.6rem;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--line,var(--border));" />
@@ -42840,6 +42840,9 @@ function blickqualitaetenAtlasPage() {
 
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      <p style="max-width:680px;margin:0.6rem auto 1.2rem;text-align:center;">
+        <a class="model-credit__link" href="https://www.enneascholars.de" target="_blank" rel="noopener">Blickqualitäten live lernen bei David L. Rathmer → enneascholars.de</a>
+      </p>
       ${relatedLinks([
         {route:"wissen", label:"Wissen – Übersicht"},
         {route:"blickqualitaet", label:"Schaubild: Blickqualität"},
