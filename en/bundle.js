@@ -17769,7 +17769,7 @@ function blickqualitaetenAtlasPage() {
       <section style="margin-top:2.4rem;scroll-margin-top:3.4rem;" id="ba-t${t.typ}">
         <div style="display:flex;align-items:baseline;gap:.6rem;border-bottom:2px solid ${col};padding-bottom:.5rem;margin-bottom:.9rem;">
           <span style="font-family:'EB Garamond',Georgia,serif;font-weight:700;font-size:1.4rem;color:${col};min-width:1.6rem;">${t.typ}</span>
-          <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:1.1rem;margin:0;font-weight:600;">${t.heading}</h2>
+          <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:1.1rem;margin:0;font-weight:600;color:${col};">${t.heading}</h2>
         </div>
         <div style="display:grid;grid-template-columns:1fr;gap:.7rem;" class="ba-tiles-grid">
           ${tiles}
