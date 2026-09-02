@@ -4235,7 +4235,7 @@ export function fritzHonkaPortraitPage() {
         heilte, sondern über Jahrzehnte weiter vertiefte.</p>
         <p class="vb-intro"><strong>c) Parallele zu Joachim Kroll: dieselbe Logik,
         andere Temperatur:</strong>
-        Beide Männer sind SE5w6, beide verbargen ihre Taten in der eigenen
+        Beide Männer sind SE5w6er, beide verbargen ihre Taten in der eigenen
         Wohnung statt draußen, beide blieben über Jahre unentdeckt, weil
         sie in ihrer jeweiligen Umgebung schlicht nicht auffielen. Der
         Unterschied liegt in der emotionalen Temperatur: Kroll wirkte
@@ -4258,7 +4258,7 @@ export function fritzHonkaPortraitPage() {
         Honkas Fall ergänzt das Bild der SE5 um eine wichtige Facette:
         Nicht jede extreme Ausprägung dieses Subtyps führt in emotionale
         Leere wie bei Kroll – sie kann ebenso gut in eine chronisch
-        angsterfüllte, von Ständiger Zurückweisungserwartung geprägte
+        angsterfüllte, von ständiger Zurückweisungserwartung geprägte
         Isolation führen, die sich irgendwann gewaltsam entlädt.</p>
       </div>
 
