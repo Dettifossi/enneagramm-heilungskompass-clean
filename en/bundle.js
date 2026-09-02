@@ -18676,7 +18676,7 @@ function williamShakespearePortraitPage() {
         <h2 class="vb-section">2. The self-preservation Three: business sense alongside genius</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> is the countertype of the Three: instead of self-promotion, it shows modesty, groundedness, a deliberate avoidance of the spotlight &ndash; while the underlying energy remains the same. Shakespeare was not only a playwright but a shareholder in the Lord Chamberlain's Men (later the King's Men), a part-owner of the Globe Theatre, and acquired substantial property in Stratford, including New Place, the second-largest house in town &ndash; creative output and economic pragmatism ran in parallel for him.</p>
-          <p class="vb-intro">His will is strikingly matter-of-fact: a precise inventory of property, the famous "second-best bed" left to his wife Anne Hathaway &ndash; no poetic gesture, but a businesslike document. That is the typical SP3 stance: substance and real achievement matter more than the public story told about them.</p>
+          <p class="vb-intro">His will is strikingly matter-of-fact: a precise inventory of property, the famous "second-best bed" left to his wife Anne Hathaway &ndash; no poetic gesture, but a businesslike document. Real achievement and substance apparently mattered to him more than any public performance of it.</p>
           <p class="vb-intro">Telling, too, is the self-image Shakespeare apparently did <em>not</em> cultivate: that of the world-weary, suffering artist who considers himself above the commercial theater business. As far as can be told, he saw himself as a professional craftsman of the theater &ndash; a businessman and supplier who had to deliver finished plays on time, not a romantic genius in a garret. This "invisible maker" stance goes a step further for the self-preservation Three than mere stage-shyness: it is not only the appearance that is avoided, but the ambition itself that is disguised. The point is not to appear especially driven, but simply to be exceptionally good at what one does &ndash; and that is exactly what shows in Shakespeare's concern for his family and material security in Stratford, far removed from any vain self-display.</p>
         </blockquote>
 
@@ -18690,7 +18690,7 @@ function williamShakespearePortraitPage() {
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SP3w4 is its ability to <strong>create, through quiet, disciplined work, a body of work with centuries of impact</strong> without the person themselves ever needing to become a brand &ndash; Shakespeare's language has shaped English so deeply that many of his phrases are now everyday speech, without most speakers knowing their origin.</p>
-          <p class="vb-intro">The shadow of the self-preservation Three with a Four-wing shows in how much one's own achievement can vanish behind one's own invisibility: the substance was so complete that it still fuels conspiracy theories to this day, which would rather suspect a more publicly visible, aristocratic author behind the work than accept that an unremarkable man from Stratford could have created it alone.</p>
+          <p class="vb-intro">How much one's own achievement can vanish behind one's own invisibility shows with particular clarity in Shakespeare's case: the substance was so complete that it still fuels conspiracy theories to this day, which would rather suspect a more publicly visible, aristocratic author behind the work than accept that an unremarkable man from Stratford could have created it alone.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The same pattern in other raccoons of this compass</h2>
@@ -37022,7 +37022,7 @@ function takashiMurakamiPortraitPage() {
 
         <h2 class="vb-section">3. The Eight-Wing: Uncompromising Control Over One's Own Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight-wing gives the self-preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. Murakami runs Kaikai Kiki with a rigor repeatedly described in interviews and media reports as harsh and demanding &ndash; long hours, high expectations of precision, a studio that operates by its own strict rules. The gorilla that holds its troop together not with gentleness, but with clear, unyielding structure.</p>
+          <p class="vb-intro">That assertiveness is the Eight-wing's gift to the self-preservation Seven &ndash; without it, this same rigor would be missing. Murakami runs Kaikai Kiki with a rigor repeatedly described in interviews and media reports as harsh and demanding &ndash; long hours, high expectations of precision, a studio that operates by its own strict rules. The gorilla that holds its troop together not with gentleness, but with clear, unyielding structure.</p>
           <p class="vb-intro">His public role as an art theorist is likewise confrontational: his "Superflat" manifesto of 2000 attacked the established Western art world directly, exposing its hierarchy between "high" and "low" art as an arbitrary, ultimately colonial construct &ndash; an offensive, not a defensive, positioning. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation, even on the level of art theory itself.</p>
         </blockquote>
 
@@ -37083,12 +37083,12 @@ function suzanLoriParksPortraitPage() {
         <h2 class="vb-section">2. The Hidden Eight: One Year, 365 Plays, a Network of Stages</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The self-preservation Seven secures itself, unlike its social and sexual sibling variants, through concrete, tangible abundance within its own immediate surroundings &ndash; in Parks this took an almost unbelievable form: between November 2002 and November 2003, she wrote a new short play every single day, often in hotel rooms and airport lounges during book tours. The result, "365 Days/365 Plays," was then staged simultaneously in nearly 700 theaters around the globe &ndash; from opulent opera houses to street corners.</p>
-          <p class="vb-intro">Not a single, intense bond as with the sexual Seven, not a shared body of knowledge as with the social Seven, but a pure, disciplined quantity of daily-produced material that condensed into its own, worldwide performance network. The gorilla that fills its territory with stores &ndash; here: 365 individual but interconnected plays.</p>
+          <p class="vb-intro">Not a single, intense bond as with the sexual Seven, not a shared body of knowledge as with the social Seven, but a pure, disciplined quantity of daily-produced material that condensed into its own, worldwide performance network. Like a gorilla securing its territory with stores, she filled hers with 365 individual but interconnected plays.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-Wing: Uncompromising Defense of One's Own Choices</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight-wing gives the self-preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. When Parks made far-reaching changes to the original for a 2011 Broadway revival of "Porgy and Bess," legendary composer Stephen Sondheim criticized her publicly and sharply &ndash; yet Parks defended her artistic choices unrelentingly rather than backing down.</p>
+          <p class="vb-intro">The Eight-wing lends the self-preservation Seven a willingness to assert itself that would be missing with a weaker Eight-wing. When Parks made far-reaching changes to the original for a 2011 Broadway revival of "Porgy and Bess," legendary composer Stephen Sondheim criticized her publicly and sharply &ndash; yet Parks defended her artistic choices unrelentingly rather than backing down.</p>
           <p class="vb-intro">As chair of the dramatic writing program at NYU, too, she is known for a direct, demanding teaching style that leaves little room for half-hearted work. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the clear, unyielding position from which it can actually shape things.</p>
         </blockquote>
 
@@ -38673,7 +38673,7 @@ function billyBobThorntonPortraitPage() {
 
         <h2 class="vb-section">5. From the screenplay to his own stage with the band</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">It is telling for the Social Seven that Thornton's work never stopped at film: since 2007 he has regularly toured with The Boxmasters, a band with which he has released numerous albums &ndash; a second, parallel career pursued with the same persistence as his film work. Each new form was treated not as a distraction from the main work, but as another branch of the same structure.</p>
+          <p class="vb-intro">Thornton's work never stopped at film &ndash; typical of the Social Seven, which rarely settles on a single form: since 2007 he has regularly toured with The Boxmasters, a band with which he has released numerous albums, pursued with the same persistence as his film work. Rather than treating the music as a distraction from the main work, it grew into an equally weighted second foothold.</p>
           <p class="vb-intro">He kept building as a television actor as well: his role as Lorne Malvo in the first season of "Fargo" (2014) and later as attorney Billy McBride in "Goliath" showed that he did not rest on one established success, but continually took on new, often morally complex characters.</p>
         </blockquote>
 

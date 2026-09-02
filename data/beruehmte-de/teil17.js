@@ -1661,7 +1661,7 @@ export function billyBobThorntonPortraitPage() {
 
         <h2 class="vb-section">5. Vom Drehbuch zur eigenen Bühne mit der Band</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bezeichnend für die soziale Sieben ist, dass Thorntons Werk nicht beim Film stehen blieb: Seit 2007 tourt er regelmäßig mit The Boxmasters, einer Band, mit der er zahlreiche Alben veröffentlicht hat &ndash; eine zweite, parallele Karriere, die er mit derselben Beharrlichkeit betreibt wie seine Filmarbeit. Jede neue Form wurde nicht als Ablenkung vom eigentlichen Werk behandelt, sondern als weiterer Ast desselben Bauwerks.</p>
+          <p class="vb-intro">Thorntons Werk blieb nie beim Film stehen &ndash; typisch für die soziale Sieben, die selten bei einer einzigen Form verharrt: Seit 2007 tourt er regelmäßig mit The Boxmasters, einer Band, mit der er zahlreiche Alben veröffentlicht hat, mit derselben Beharrlichkeit betrieben wie seine Filmarbeit. Statt die Musik als Ablenkung vom eigentlichen Werk zu behandeln, wuchs sie zu einem gleichwertigen zweiten Standbein heran.</p>
           <p class="vb-intro">Auch als Fernsehschauspieler baute er weiter: Seine Rolle als Lorne Malvo in der ersten Staffel von "Fargo" (2014) und später als Anwalt Billy McBride in "Goliath" zeigten, dass er sich nicht auf einen einmal etablierten Erfolg ausruhte, sondern kontinuierlich neue, oft moralisch vielschichtige Figuren erschloss.</p>
         </blockquote>
 
