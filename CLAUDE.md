@@ -19,6 +19,7 @@ Nach **jeder** inhaltlichen Änderung an `bundle.js`, `en/bundle.js` oder `data/
 1. In `index.html`: `bundle.js?v=inhalt-vXXXX` hochzählen, `data/changelog.js?v=NNN` hochzählen.
 2. In `en/index.html`: dieselben zwei Versionsnummern (eigener Zähler) hochzählen.
 3. In `sw.js`: `SW_VERSION` und `BUNDLE_VERSION` hochzählen (löst den iOS-Auto-Reload-Mechanismus aus).
+4. **Bei jeder Änderung an `data/register.js`** zusätzlich den Versions-Query im Import-Statement hochzählen: `import { registerEntries, registerEntriesEN } from "./data/register.js?v=NN";` in `bundle.js` **und** die analoge Zeile (`../data/register.js?v=NN`) in `en/bundle.js` — beide Zähler synchron hochzählen. Sonst bleibt `data/register.js` für wiederkehrende Besucher unbemerkt gecacht, obwohl `bundle.js` selbst längst neu geladen wird (der `?v=1`-Query in `bundle.js` blieb so von Projektbeginn an bis 2026-09-02 unverändert stehen — dadurch fehlten neue Registereinträge z. B. bei der Suche nach „Mohammed" trotz vorhandenem Porträt und korrektem Wiring).
 
 Dieser Schritt ist **nicht** Teil des automatisierten Post-Commit-Hooks (der kümmert sich nur um `app.js`-Sync und die Wegweiser-Wissensbasis) — er muss aktiv bei jedem Content-Commit mit erledigt werden.
 
