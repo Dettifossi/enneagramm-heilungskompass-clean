@@ -1578,3 +1578,68 @@ export function wilmaMankillerPortraitPage() {
     </div>
   `);
 }
+
+export function milarepaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-milarepa-portrait.jpg" alt="Milarepa – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Milarepa</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Tibetischer Yogi &amp; Dichter, ca. 1052&ndash;1135 &ndash; Begr\xfcnder der Kagy\xfc-\xdcbertragungslinie &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der aus Schuld ein Lehrgeb\xe4ude formte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 &ndash; ein Wesen, das sein Wissen nicht f\xfcr sich beh\xe4lt, sondern mit vielen tastenden Armen zugleich in die Welt hinaustr\xe4gt, bis daraus ein System entsteht, das eine ganze Gemeinschaft tr\xe4gt. Kein Zufallstier f\xfcr einen Mann, dessen Leben in v\xf6lliger Verw\xfcstung begann und am Ende zu einer der einflussreichsten \xdcbertragungslinien des tibetischen Buddhismus wurde. Milarepa, geboren als Mila Zhepa Dorje in eine wohlhabende Familie in Kya Ngatsa, verlor mit sieben Jahren seinen Vater. Onkel und Tante rissen das Erbe an sich und zwangen Mutter, Schwester und ihn zu Feldarbeit wie Leibeigene.</p>
+          <p class="vb-intro">Aus Verzweiflung und auf Dr\xe4ngen seiner Mutter erlernte Milarepa schwarze Magie und t\xf6tete mit einem heraufbeschworenen Hagelsturm 35 Mitglieder der Familie seines Onkels &ndash; ein Racheakt, der ihn fortan mit einer Schuld belud, die sein gesamtes weiteres Leben pr\xe4gte. Kein Weg zur\xfcck in ein gew\xf6hnliches Leben war danach mehr denkbar &ndash; nur die radikale Suche nach einem Ausweg aus dieser Schuld.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Eine \xdcbertragungslinie, die bis heute tr\xe4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> &ndash; die Verkn\xfcpfung von Wissen mit Zugeh\xf6rigkeit und Weitergabe an eine Gemeinschaft. Nach Jahren der Suche fand Milarepa seinen Lehrer Marpa den \xdcbersetzer, der ihm die tantrischen \xdcbertragungen der Kagy\xfc-Linie weitergab, die dieser selbst aus Indien mitgebracht hatte. Milarepa hielt sein erlangtes Wissen nicht f\xfcr sich zur\xfcck: Er baute eine geordnete Lehrlinie auf, unterrichtete zahlreiche Sch\xfcler direkt und pers\xf6nlich &ndash; allen voran Gampopa und Rechungpa &ndash; und sicherte damit, dass seine Erkenntnisse \xfcber seinen eigenen Tod hinaus Bestand hatten.</p>
+          <p class="vb-intro">Bezeichnend ist dabei seine Lehrmethode: Statt trockener Abhandlungen vermittelte Milarepa seine tiefsten Einsichten in Form spontan gesungener Lieder &ndash; das Totem-Wissen, in eine Form gegossen, die sich merken, weitergeben und von Generation zu Generation tradieren lie\xdf. Die sp\xe4ter gesammelten „Hunderttausend Lieder des Milarepa“ wurden so zu einem der meistgelesenen Texte des tibetischen Buddhismus \xfcberhaupt &ndash; Wissen, das eine ganze Gemeinschaft tr\xe4gt, nicht nur eine einzelne Beziehung zwischen Lehrer und Sch\xfcler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Schuld, in Gesang verwandelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> gibt der k\xfchlen Wissenssystematik der F\xfcnf etwas hinzu, das eine reine 5w6 selten in dieser Tiefe zeigt: eine durchlittene, existenzielle Wunde, aus der heraus geschaffen wird. Bevor Marpa Milarepa \xfcberhaupt in die Lehre einf\xfchrte, lie\xdf er ihn \xfcber Jahre allein, mit blo\xdfen H\xe4nden, steinerne T\xfcrme bauen &ndash; und wieder abrei\xdfen, sobald sie fertig waren, mehrfach hintereinander. Kein sinnloses Ritual, sondern eine gezielte, jahrelange Konfrontation mit genau der Schuld, die Milarepa in sich trug, bis Marpa erkl\xe4rte, die eigentliche Reinigung sei damit vollzogen.</p>
+          <p class="vb-intro">Diese Kombination erkl\xe4rt, warum Milarepas Lehre nie trockene Doktrin blieb, sondern eine zutiefst pers\xf6nliche, poetische Form annahm. Nach Marpas Unterweisung zog er sich in H\xf6hlen im tibetischen Hochland zur\xfcck und lebte jahrelang nahezu ausschlie\xdflich von wilden Brennnesseln, bis seine Haut der \xdcberlieferung nach eine gr\xfcnliche F\xe4rbung annahm. Der F\xfcnfer-Verstand ordnet das Wissen zu einem System; der Vierer-Fl\xfcgel sorgt daf\xfcr, dass dieses System aus echtem, durchlittenem Schmerz gespeist ist, nicht aus abstrakter Theorie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der neunst\xf6ckige Turm: Pr\xfcfung als Weg zur Weitergabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die bekannteste \xdcberlieferung um Milarepa ist der Bau eines neunst\xf6ckigen Turms, den Marpa ihn errichten lie\xdf, angeblich f\xfcr dessen Sohn &ndash; nur um ihn nach Fertigstellung erneut abrei\xdfen zu lassen, wieder und wieder, bis Milarepas R\xfccken von den Steinen blutig aufgerieben war. Erst als Milarepa kurz davor war, die Suche ganz aufzugeben, offenbarte Marpa, dass die gesamte Prozedur eine bewusste Methode zur Reinigung seines schweren Karmas gewesen sei &ndash; und begann, ihn systematisch in die Lehre einzuweisen.</p>
+          <p class="vb-intro">Genau dieser Moment zeigt die soziale F\xfcnf mit Viererfl\xfcgel in Reinform: Das durchlittene Leid wird nicht verdr\xe4ngt oder \xfcbersprungen, sondern zur Voraussetzung f\xfcr ein Wissen gemacht, das anschlie\xdfend systematisch weitergegeben werden kann. Ohne den Turm keine \xdcbertragung, ohne die durchlittene Schuld keine Lieder, die sp\xe4ter Tausende erreichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen F\xfcnf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 zeigt sich darin, wie Milarepa seine denkbar dunkelste Vergangenheit &ndash; 35 Morde durch schwarze Magie &ndash; nicht verschwieg, sondern offen in seine Lieder einflocht, als Beleg daf\xfcr, dass auch die schwerste Schuld einen Weg zur Befreiung finden kann. Genau diese Offenheit machte seine \xdcbertragung f\xfcr Generationen von Sch\xfclern glaubw\xfcrdig und zug\xe4nglich &ndash; kein makelloser Heiliger, sondern ein M\xf6rder, der zum Yogi wurde.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der radikalen Selbstaufopferung, mit der Milarepa seinen K\xf6rper jahrelang der reinen Askese unterwarf &ndash; die gr\xfcnliche Verf\xe4rbung seiner Haut durch die Brennnessel-Di\xe4t ist ebenso Zeichen spiritueller Hingabe wie k\xf6rperlicher Selbstvernachl\xe4ssigung. Das Schicksalsmuster der F\xfcnf, der <strong>Geiz</strong>, zeigt sich hier als radikale Reduktion des eigenen K\xf6rpers auf das absolute Minimum &ndash; um jede Energie ausschlie\xdflich der einen Wahrheit zu widmen, deren Weitergabe erst nach Jahren der Erlangung folgte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\xe4chtnis: Der Oktopus, dessen Lieder bis heute klingen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Milarepa starb der \xdcberlieferung nach um 1135, m\xf6glicherweise vergiftet von einem eifers\xfcchtigen rivalisierenden Lama &ndash; ein Ende, das seine Lehrlinie nicht schw\xe4chte, sondern durch seine Sch\xfcler Gampopa und Rechungpa erst recht institutionell absicherte. Die Kagy\xfc-Schule, die aus dieser \xdcbertragung hervorging, z\xe4hlt bis heute zu den bedeutendsten Traditionen des tibetischen Buddhismus.</p>
+          <p class="vb-intro">Wie Siddhartha Gautama (SO5w4, siehe <a href="javascript:void(0)" data-route="beruehmte-buddha">Portr\xe4t</a>) verwandelte auch Milarepa eine radikale, jahrelange Zur\xfcckgezogenheit nicht in stummen R\xfcckzug, sondern in ein Wissen, das systematisch an eine wachsende Gemeinschaft weitergegeben wurde &ndash; bei Milarepa in Liedern statt in Lehrreden, aber mit demselben Grundmuster: Der Oktopus, der acht Arme ausstreckt, um ein zutiefst pers\xf6nliches Wissen der ganzen Gemeinschaft zu bergen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so5", label:"SO5 &ndash; Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-buddha", label:"Portr\xe4t: Siddhartha Gautama (Buddha) (SO5w4)"},
+        {route:"beruehmte-albert-einstein", label:"Portr\xe4t: Dr. Albert Einstein (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

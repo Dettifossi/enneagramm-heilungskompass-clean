@@ -1569,6 +1569,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Nietzsche – Sexual Type 5",
     teaser:"SX5w4 · 1844–1900. Philosopher. Thus Spoke Zarathustra, Beyond Good and Evil, Ecce Homo. The hedgehog who wrote himself a body of work in ten years of near-total solitude that still shakes philosophy today.",
     land:"Russia", tags:["Philosophy"], gender:"m"},
+{ route:"beruehmte-milarepa", name:"Milarepa", added:"2026-09-02", subtyp:"SO5w4",
+    heading:"Milarepa – Social Type 5",
+    teaser:"SO5w4 · c. 1052–1135. Tibetan yogi and poet, founder of the Kagyu transmission lineage. From mass murderer through black magic to a yogi who turned his guilt into song and built a knowledge that endures to this day. Animal correspondence: Octopus.",
+    tags:["Religion","Philosophy"], gender:"m"},
 { route:"beruehmte-buddha", name:"Siddhartha Gautama (Buddha)", added:"2026-08-07", subtyp:"SO5w4",
     heading:"Siddhartha Gautama (Buddha) – Social Type 5",
     teaser:"SO5w4 · c. 563–483 BCE. Religious founder, founder of Buddhism. From the palace into a radical search for the cause of suffering – and a teaching structure he systematically shared with a growing community. Animal correspondence: Octopus.",
@@ -25714,6 +25718,71 @@ function gretaGarboPortraitPage() {
   `);
 }
 
+function milarepaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-milarepa-portrait.jpg" alt="Milarepa – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Milarepa</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Tibetan yogi &amp; poet, c. 1052&ndash;1135 &ndash; founder of the Kagyu transmission lineage &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Who Shaped Guilt into a Teaching Structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five &ndash; a creature that does not keep its knowledge to itself, but carries it out into the world with many reaching arms at once, until it becomes a system a whole community can carry. No accidental animal for a man whose life began in utter ruin and ended as one of the most influential transmission lineages of Tibetan Buddhism. Milarepa, born Mila Zhepa Dorje into a prosperous family in Kya Ngatsa, lost his father at seven. His uncle and aunt seized the inheritance and forced his mother, sister, and him into field labor like serfs.</p>
+          <p class="vb-intro">Out of desperation and at his mother's urging, Milarepa learned black magic and killed 35 members of his uncle's family with a conjured hailstorm &ndash; an act of revenge that burdened him with a guilt shaping the rest of his life. No path back to an ordinary life remained conceivable afterward &ndash; only a radical search for a way out of that guilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: A Transmission Lineage That Still Carries Today</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and transmission to a community. After years of searching, Milarepa found his teacher Marpa the Translator, who passed on to him the tantric transmissions of the Kagyu lineage Marpa himself had brought back from India. Milarepa did not hold his acquired knowledge back: he built an ordered lineage of teaching, instructed numerous disciples directly and personally &ndash; foremost among them Gampopa and Rechungpa &ndash; and thereby ensured his insights endured beyond his own death.</p>
+          <p class="vb-intro">His teaching method is telling: instead of dry treatises, Milarepa conveyed his deepest insights in spontaneously sung verses &ndash; Totem-knowledge cast into a form that could be memorized, passed on, and handed down from generation to generation. The later-collected "Hundred Thousand Songs of Milarepa" became one of the most widely read texts of Tibetan Buddhism &ndash; knowledge that carries an entire community, not just a single bond between teacher and student.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Guilt, Transformed into Song</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> adds something to the Five's cool systematizing that a pure 5w6 rarely shows at this depth: a lived-through existential wound out of which creation happens. Before Marpa even introduced Milarepa to the teachings, he made him build stone towers with his bare hands over years &ndash; and tear them down again as soon as they were finished, repeatedly. No pointless ritual, but a targeted, years-long confrontation with exactly the guilt Milarepa carried, until Marpa declared the actual purification complete.</p>
+          <p class="vb-intro">This combination explains why Milarepa's teaching never remained dry doctrine but took on a deeply personal, poetic form. After Marpa's instruction, he withdrew into caves in the Tibetan highlands and lived for years almost exclusively on wild nettles, until, according to tradition, his skin took on a greenish tinge. The Five's mind orders knowledge into a system; the Four-wing ensures that system is fed by genuine, lived-through pain, not abstract theory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine-Story Tower: Trial as a Path to Transmission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The best-known story about Milarepa is the building of a nine-story tower that Marpa had him construct, supposedly for his son &ndash; only to have him tear it down again after completion, again and again, until Milarepa's back was raw and bleeding from carrying the stones. Only when Milarepa was on the verge of giving up the search entirely did Marpa reveal that the entire procedure had been a deliberate method for purifying his heavy karma &ndash; and began systematically instructing him in the teachings.</p>
+          <p class="vb-intro">This moment shows the social Five with Four-wing in its purest form: lived-through suffering is not repressed or skipped, but made the precondition for a knowledge that can then be systematically passed on. Without the tower, no transmission; without the endured guilt, no songs that later reached thousands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 shows in how Milarepa did not conceal his darkest past &ndash; 35 murders by black magic &ndash; but openly wove it into his songs, as proof that even the heaviest guilt can find a path to liberation. This very openness made his transmission credible and accessible for generations of students &ndash; not a flawless saint, but a murderer who became a yogi.</p>
+          <p class="vb-intro">The shadow shows in the radical self-sacrifice with which Milarepa subjected his body to pure asceticism for years &ndash; the greenish discoloration of his skin from the nettle diet is as much a sign of spiritual devotion as of physical self-neglect. The Five's fateful pattern, <strong>avarice</strong>, shows here as a radical reduction of his own body to the absolute minimum &ndash; to devote every scrap of energy exclusively to the one truth, whose transmission followed only after years of attainment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Octopus Whose Songs Still Resound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to tradition, Milarepa died around 1135, possibly poisoned by a jealous rival lama &ndash; an end that did not weaken his lineage but, through his disciples Gampopa and Rechungpa, secured it institutionally all the more. The Kagyu school that emerged from this transmission remains among the most significant traditions of Tibetan Buddhism to this day.</p>
+          <p class="vb-intro">Like Siddhartha Gautama (SO5w4, see <a href="javascript:void(0)" data-route="beruehmte-buddha">portrait</a>), Milarepa turned a radical, years-long withdrawal not into silent isolation but into a knowledge systematically passed on to a growing community &ndash; in Milarepa's case through songs rather than sermons, but with the same underlying pattern: the octopus that stretches out eight arms to gather a deeply personal knowledge for the whole community.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype profile"},
+        {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function buddhaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -25792,6 +25861,7 @@ function buddhaPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype profile"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"beruehmte-milarepa", label:"Portrait: Milarepa (SO5w4)"},
       ])}
     </div>
   `);
@@ -49641,12 +49711,12 @@ const LEBENSMUSTERKOMPASS = {
   SO5: {
     tier: "Octopus",
     kernthema: "Multi-armed, parallel knowledge that serves the community (Naranjo: Totem) – or is controlled as an instrument of power",
-    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Hannah Arendt", "Siddhartha Gautama (Buddha)", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
+    beispiele: ["Dr. Albert Einstein", "Gertrude Belle Elion", "Dr. Claudio Naranjo", "Leonardo da Vinci", "Georg Wilhelm Friedrich Hegel", "Isaac Newton", "Pythagoras", "Jennifer Mather", "Bill Gates", "Günther Jauch", "Dirk Rossmann", "Eckhard Freise", "Simone de Beauvoir", "Hannah Arendt", "Siddhartha Gautama (Buddha)", "Milarepa", "Dr. Ted Kaczynski", "Dr. Harold Shipman", "Gamaliel"],
     fingerabdruecke: [
       {
         titel: "Multi-armed, parallel thinking made available to the community",
         beschreibung: "Naranjo called this subtype the one of the 'Totem': gathered knowledge is not kept for oneself, but offered to the group as a contribution. Characteristic is thinking simultaneously in several areas or directions, without exhausting oneself in a single one.",
-        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle; Hannah Arendt, who did not retract her uncomfortable, personally exposed interpretation in 'Eichmann in Jerusalem' despite fierce criticism from her own circle of friends, but left it to public debate; Siddhartha Gautama (Buddha), who spent 45 years systematically building his realized insight into an ordered teaching structure and built the Sangha into a growing community that carried it, instead of keeping it to himself as an enlightened man."
+        beleg: "Leonardo da Vinci: 'A being of extraordinary intelligence, exploring the world with countless arms at once and making his knowledge available to the community instead of hoarding it for himself' – painter, anatomist, engineer, botanist at once; Gertrude Belle Elion, 'who thought simultaneously in several directions' and 'saved millions of lives with her work, without most people today knowing her name'; Jennifer Mather: 'Knowledge as a contribution to the community.'; Dr. Albert Einstein, who did not hold back his groundbreaking papers of the 1905 'miracle year' but immediately gave them to the scientific community for publication and discussion; Günther Jauch, who turned his knowledge literally into the central format of an entire show system, calm and unruffled at its center – the octopus in its element; Eckhard Freise, whose subject-matter knowledge, accumulated over decades in quiet depth, proved fully retrievable in a single, publicly tested moment, without changing his life afterward: 'We stayed exactly as we were before.'; Gamaliel, whose calm authority in the Sanhedrin came not from office or volume, but from a well-considered principle: 'Let us wait, let us test, let us leave room for God' – knowledge that served the whole assembly, not his own position; Simone de Beauvoir, the youngest person ever to pass France's philosophical agrégation examination, who handed her systematic analytical work 'The Second Sex' immediately to public debate rather than holding it back within a protected circle; Hannah Arendt, who did not retract her uncomfortable, personally exposed interpretation in 'Eichmann in Jerusalem' despite fierce criticism from her own circle of friends, but left it to public debate; Siddhartha Gautama (Buddha), who spent 45 years systematically building his realized insight into an ordered teaching structure and built the Sangha into a growing community that carried it, instead of keeping it to himself as an enlightened man; Milarepa, who passed on his deepest insights in spontaneously sung verses, founding a transmission lineage still read today as the 'Hundred Thousand Songs of Milarepa.'"
       },
       {
         titel: "Knowledge is developed in secret for years before being released in a controlled way",
@@ -109114,6 +109184,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-laozi": laoziPortraitPage,
       "beruehmte-cynthia-moss": cynthiaMossPortraitPage,
       "beruehmte-greta-garbo": gretaGarboPortraitPage,
+      "beruehmte-milarepa": milarepaPortraitPage,
       "beruehmte-buddha": buddhaPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,

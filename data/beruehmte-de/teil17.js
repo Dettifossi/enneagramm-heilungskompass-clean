@@ -200,6 +200,7 @@ export function buddhaPortraitPage() {
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-albert-einstein", label:"Portr\u00e4t: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portr\u00e4t: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"beruehmte-milarepa", label:"Portr\u00e4t: Milarepa (SO5w4)"},
       ])}
     </div>
   `);
