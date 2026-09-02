@@ -4097,7 +4097,24 @@ export function fritzHonkaPortraitPage() {
         seine Wohnung zu verlassen. Die SE5 hält Impulse extrem lange
         zurück; wenn der Sechserflügel-Angst-Deckel schließlich birst,
         geschieht das nicht kalkuliert, sondern explosiv.</p>
-        <p class="vb-intro"><strong>b) Die eigene Wohnung als Versteck für die Taten –
+        <p class="vb-intro"><strong>b) Stramonium – das homöopathische Leidenschaftsmittel
+        der Fünf und seine Warnung vor verdeckter Gewalt:</strong>
+        Aufschlussreich ist ein Blick auf <strong>Stramonium</strong> (Stechapfel),
+        das homöopathische Leidenschaftsmittel der selbsterhaltenden Fünf.
+        Sein Arzneimittelbild kennt eine eigene Rubrik – <em>Gewalttätigkeit,
+        versteckt, maskiert</em> –, die genau das beschreibt, was bei Honka
+        sichtbar wurde: Werden über sehr lange Zeiträume Emotionen unterdrückt
+        und nach außen kaum gezeigt, sucht sich diese aufgestaute innere
+        Spannung irgendwann, in größeren Abständen, ein Ventil – nicht
+        kalkuliert, sondern in Form plötzlicher, explosionsartiger
+        Gewaltausbrüche bei einer nach außen bis dahin ruhig, fast unauffällig
+        wirkenden Person. Das betrifft naturgemäß nur eine verschwindend kleine
+        Ausnahme unter den selbsterhaltenden Fünfern – bei Honka traf diese
+        Konstellation jedoch mit einer besonders stark ausgelebten Leidenschaft
+        des Geizes zusammen, was das Muster in seiner düstersten Form zutage
+        treten ließ. Auch bei Kroll lässt sich, betrachtet man die tiefere
+        Motivation, dieselbe Grundstruktur wiederfinden.</p>
+        <p class="vb-intro"><strong>c) Die eigene Wohnung als Versteck für die Taten –
         nicht die Welt draußen:</strong>
         Das auffälligste Merkmal in Honkas Vorgehen: Er entsorgte die Leichenteile
         nicht wie viele andere Täter fern seines eigenen Lebensraums,
@@ -4107,7 +4124,7 @@ export function fritzHonkaPortraitPage() {
         ist so vollständig unter Kontrolle, dass selbst das Unaussprechliche
         dort sicherer erscheint als draußen – eine Parallele zu Kroll, der
         Leichenteile im eigenen Kühlschrank aufbewahrte, statt sie zu entsorgen.</p>
-        <p class="vb-intro"><strong>c) Kooperatives, fast erleichtertes Geständnis:</strong>
+        <p class="vb-intro"><strong>d) Kooperatives, fast erleichtertes Geständnis:</strong>
         Nach seiner Verhaftung gestand <strong>Honka</strong> vergleichsweise rasch
         und detailliert. Ermittler beschrieben ihn als kooperativ, teils
         wirkte er regelrecht erleichtert, dass die jahrelange Geheimhaltung
