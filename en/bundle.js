@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=63";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=64";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -2034,6 +2034,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Paul Gauguin – Sexual Type 8",
     teaser:"SX8w7 · 1848–1903. French painter. Left career, wife, and five children for art at 36, conflict with Van Gogh in Arles 1888, restless departures via Panama, Martinique to Tahiti and the Marquesas, open resistance against colonial administration until his death. Animal correspondence: Crocodile.",
     land:"France", tags:["Art"], gender:"m"},
+{ route:"beruehmte-sean-penn", name:"Sean Penn", added:"2026-09-02", subtyp:"SX8w7",
+    heading:"Sean Penn – Sexual Type 8",
+    teaser:"SX8w7 · Actor, director and activist, b. 1960. Two-time Academy Award winner (\"Mystic River,\" \"Milk\"), secret jungle interview with drug lord El Chapo, months of hands-on disaster relief in Haiti. The crocodile who never stayed in the shade of the riverbank.",
+    land:"USA", tags:["Unterhaltung"], gender:"m"},
 { route:"beruehmte-pablo-picasso", name:"Pablo Picasso", added:"2026-08-16", subtyp:"SX8w7",
     heading:"Pablo Picasso – Sexual Type 8",
     teaser:"SX8w7 · 1881–1973. Spanish painter and sculptor, co-founder of Cubism, ‘Guernica’. The crocodile who surpassed his own father in painting at age 13 – and never stopped conquering afterward. Animal correspondence: Crocodile.",
@@ -39552,6 +39556,73 @@ function karlMarxPortraitPage() {
   `);
 }
 
+function seanPennPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sean-penn-portrait.jpg" alt="Sean Penn – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Penn</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actor, director and activist, b. 1960 &ndash; Animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The crocodile who went into the jungle to strike</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight &ndash; patient waiting, then a complete, irrevocable strike, without warning, without wasted energy. Sean Penn, born in 1960 in California, became known as an actor for roles that made exactly this intensity physically palpable: "Mystic River" and "Milk" earned him two Academy Awards, both for characters who go right to the edge of what is bearable.</p>
+          <p class="vb-intro">In 2015 the same pattern showed itself off-screen: Penn secretly traveled into the Mexican jungle to personally seek out the fugitive drug lord Joaquín "El Chapo" Guzmán for a Rolling Stone interview &ndash; not detached reporting, but direct, life-threatening confrontation with the story itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Eight: complete surrender to intensity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>sexual Eight (SX8)</strong> the subtype of "possession": strength shows itself not in constant activity, but in near-motionless waiting, followed by a single, complete seizing of the right moment. Penn's marriage to Madonna (1985&ndash;1989) was described by both sides as stormy, jealous, and at times violent &ndash; a relationship that knew no half-measures, only complete, consuming intensity.</p>
+          <p class="vb-intro">His decades of repeated, publicly documented physical altercations with paparazzi show the same pattern: no diplomatic restraint, but direct, physical confrontation the moment a line felt crossed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: versatility instead of a single territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the sexual Eight an adventurous, risk-hungry breadth &ndash; strength that doesn't confine itself to a single field, but constantly seeks new territory. Penn is not only an actor but also a celebrated director ("Into the Wild," "The Pledge"), an investigative journalist, and a disaster relief worker.</p>
+          <p class="vb-intro">After the 2010 earthquake, he lived for months in a tent camp in Haiti, founded the J/P Haitian Relief Organization (now CORE), and reportedly drove bulldozers himself rather than delegating from a distance &ndash; full physical presence instead of remote control, the same combination of Eight-intensity and Seven-versatility found elsewhere in this compass in Prof. Grahame Webb or Pablo Picasso.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is its ability to <strong>enter dangerous, uncomfortable realities without a safety net</strong>, where others would report from a safe distance &ndash; whether as an actor living out roles to his own breaking point, or as a relief worker standing in the rubble himself instead of merely donating.</p>
+          <p class="vb-intro">The shadow of the sexual Eight with a Seven-wing shows in how much this same consuming intensity can overwhelm private bonds: alongside the turbulent marriage to Madonna, his later marriage to Robin Wright (1996&ndash;2010) also ended after years of publicly discussed tension, and a brief marriage to Leila George, quickly dissolved in 2020, followed the same pattern of uncompromising but not durably sustainable intensity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Activism as direct confrontation, not lecturing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the sexual Eight that Penn's political engagement never expressed itself as moral reproach from a safe distance, but as immediate, often risky commitment on the ground: trips to Iraq during the US invasion, interviews with Hugo Chávez, the dangerous El Chapo interview &ndash; always direct encounter with the thing itself, never the abstract statement.</p>
+          <p class="vb-intro">In Haiti too, he repeatedly clashed openly with bureaucracy and officials whenever he saw them as obstacles to aid &ndash; uncompromising, direct, without diplomatic restraint once convinced of the rightness of his action.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The crocodile who never stayed in the shade of the riverbank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Sean Penn apart is his refusal to draw a safe line between art, activism, and personal risk &ndash; every role, every trip, every relationship carries the same unmistakable, physical intensity that never settles for half measures.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the crocodile, who never stayed in the protected shade of the riverbank, but again and again waded into the most dangerous, most immediate version of whatever reality he faced &ndash; on screen, in the jungle, in the rubble of Port-au-Prince.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
+        {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-grahame-webb", label:"Portrait: Prof. Grahame Webb (SX8w7)"},
+        {route:"beruehmte-john-wayne", label:"Portrait: John Wayne (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 function pabloPicassoPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50390,7 +50461,7 @@ const LEBENSMUSTERKOMPASS = {
   SX8: {
     tier: "Crocodile",
     kernthema: "Patient waiting, then complete, lightning-fast seizure (Naranjo: Possession)",
-    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saul on the Road to Damascus", "Paul Gauguin"],
+    beispiele: ["Adele Neuhauser", "Pablo Picasso", "Prof. Grahame Webb", "Donald J. Trump", "Diogenes of Sinope", "Giacomo Puccini", "Gerhard Schröder", "Ruth Bader Ginsburg", "Genesis P-Orridge", "Eli Jaxon-Bear", "John McAfee", "Jeffrey Epstein", "John Wayne", "Saul on the Road to Damascus", "Paul Gauguin", "Sean Penn"],
     fingerabdruecke: [
       {
         titel: "Patient waiting, then complete, lightning-fast seizure",
@@ -50405,7 +50476,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Relentless drive that never fades over a whole lifetime",
         beschreibung: "One's own hunger for expression, experience, or impact does not diminish over decades – no retreat, no creative pause, no noticeable drop in intensity with age.",
-        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'; Prof. Grahame Webb, who before specializing in crocodiles had already researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales, and afterward built a research station, crocodile farm, school, and novel on top of that – never a single territory, always a growing empire.; Saul on the Road to Damascus (Bible portrait), whose zeal against the Nazarenes did not soften after his conversion but redirected its full force toward a new target: 'He was like a fire in a dry landscape: fast, unstoppable ... consuming everything' – the drive itself remained, only its direction reversed; Paul Gauguin, who left the stock exchange, his family, Brittany, Panama, Martinique, and Arles one after another as soon as the appeal faded, all the way to the Marquesas, where, gravely ill and in open conflict with the colonial administration, he still published his own satirical broadsheet against the authorities – the same appetite for the next territory, undiminished to his last breath."
+        beleg: "Pablo Picasso, who for 91 years worked 'tirelessly, insatiably, unswayed by any expectation that was not his own' and left behind more than 20,000 works: 'The crocodile eats as long as it's hungry. And Picasso's hunger ... never went out'; Gerhard Schröder, whose 'entire instinctual orientation' was already visible as a young Juso chairman at the Chancellery fence: 'I want to get in there.'; Prof. Grahame Webb, who before specializing in crocodiles had already researched kangaroos, sharks, sea turtles, monkeys, tuna, and whales, and afterward built a research station, crocodile farm, school, and novel on top of that – never a single territory, always a growing empire.; Saul on the Road to Damascus (Bible portrait), whose zeal against the Nazarenes did not soften after his conversion but redirected its full force toward a new target: 'He was like a fire in a dry landscape: fast, unstoppable ... consuming everything' – the drive itself remained, only its direction reversed; Paul Gauguin, who left the stock exchange, his family, Brittany, Panama, Martinique, and Arles one after another as soon as the appeal faded, all the way to the Marquesas, where, gravely ill and in open conflict with the colonial administration, he still published his own satirical broadsheet against the authorities – the same appetite for the next territory, undiminished to his last breath; Sean Penn, who moved between acting, directing, investigative journalism, and months of hands-on disaster relief in Haiti without ever confining himself to a single territory – from an Academy Award-winning film set straight into the Mexican jungle to interview a fugitive drug lord."
       },
       {
         titel: "When possession-taking turns into a network of control over people (shadow form)",
@@ -110317,6 +110388,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-sterling-north": sterlingNorthPortraitPage,
       "beruehmte-pablo-picasso": pabloPicassoPortraitPage,
+      "beruehmte-sean-penn": seanPennPortraitPage,
       "beruehmte-paul-gauguin": paulGauguinPortraitPage,
       "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,

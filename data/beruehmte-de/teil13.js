@@ -1629,3 +1629,70 @@ export function simoneDeBeauvoirPortraitPage() {
     </div>
   `);
 }
+
+export function seanPennPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sean-penn-portrait.jpg" alt="Sean Penn – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Penn</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Regisseur und Aktivist, geb. 1960 &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil, das in den Dschungel ging, um zuzubeißen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht &ndash; geduldiges Warten, dann ein vollständiger, unwiderruflicher Zugriff, ohne Vorwarnung, ohne verschwendete Energie. Sean Penn, geboren 1960 in Kalifornien, wurde als Schauspieler durch Rollen bekannt, die genau diese Intensität körperlich spürbar machten: "Mystic River" und "Milk" brachten ihm zwei Oscars ein, jeweils für Figuren, die bis an die Grenze des Erträglichen gehen.</p>
+          <p class="vb-intro">2015 zeigte sich dasselbe Muster außerhalb der Leinwand: Penn reiste heimlich in den mexikanischen Dschungel, um den flüchtigen Drogenboss Joaquín "El Chapo" Guzmán persönlich für ein Rolling-Stone-Interview aufzusuchen &ndash; kein distanziertes Recherchieren, sondern direkte, lebensgefährliche Konfrontation mit der Sache selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Vollständige Hingabe an die Intensität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nennt die <strong>sexuelle Acht (SX8)</strong> den Subtyp der "Besitzergreifung": Kraft zeigt sich nicht in ständiger Aktivität, sondern in fast reglosem Warten, gefolgt von einem einzigen, vollständigen Zupacken im richtigen Moment. Penns Ehe mit Madonna (1985&ndash;1989) wurde von beiden Seiten als stürmisch, eifersüchtig und phasenweise gewaltvoll geschildert &ndash; eine Beziehung, die keine halben Bindungen kannte, sondern vollständige, konsumierende Intensität.</p>
+          <p class="vb-intro">Auch seine über Jahrzehnte wiederholten, öffentlich dokumentierten körperlichen Auseinandersetzungen mit Paparazzi zeigen dasselbe Muster: keine diplomatische Zurückhaltung, sondern direkte, körperliche Konfrontation, sobald eine Grenze als überschritten empfunden wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit statt eines einzigen Reviers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Acht eine abenteuerlustige, risikofreudige Weite &ndash; Kraft, die sich nicht auf ein einziges Feld beschränkt, sondern immer neue Territorien sucht. Penn ist nicht nur Schauspieler, sondern auch gefeierter Regisseur ("Into the Wild", "The Pledge"), investigativer Journalist und Katastrophenhelfer.</p>
+          <p class="vb-intro">Nach dem Erdbeben 2010 lebte er monatelang persönlich in einem Zeltlager in Haiti, gründete die J/P Haitian Relief Organization (heute CORE) und soll selbst Bulldozer gefahren haben, statt aus der Ferne zu delegieren &ndash; volle körperliche Präsenz statt Fernsteuerung, dieselbe Kombination aus Acht-Intensität und Sieben-Vielseitigkeit, die auch Prof. Grahame Webb oder Pablo Picasso in diesem Kompass auszeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist die Fähigkeit, <strong>sich ohne Rückversicherung in gefährliche, unbequeme Wirklichkeiten hineinzubegeben</strong>, wo andere aus sicherer Distanz berichten würden &ndash; ob als Schauspieler, der Rollen bis an die eigene Belastungsgrenze auslebt, oder als Helfer, der selbst in den Trümmern steht statt nur zu spenden.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Acht mit Siebenerflügel zeigt sich darin, wie sehr dieselbe konsumierende Intensität private Bindungen überfordern kann: Neben der turbulenten Ehe mit Madonna endete auch seine spätere Ehe mit Robin Wright (1996&ndash;2010) nach Jahren öffentlich diskutierter Spannungen, und eine kurze, 2020 rasch wieder aufgelöste Ehe mit Leila George folgte demselben Muster kompromissloser, aber nicht dauerhaft tragfähiger Intensität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Aktivismus als direkte Konfrontation, nicht als Belehrung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die sexuelle Acht ist, dass sich Penns politisches Engagement nie als moralische Zurechtweisung aus sicherer Distanz äußerte, sondern als unmittelbare, oft riskante Selbstverpflichtung vor Ort: Reisen in den Irak während der US-Invasion, Interviews mit Hugo Chávez, das gefährliche El-Chapo-Interview &ndash; stets die direkte Begegnung mit der Sache selbst, nie die abstrakte Stellungnahme.</p>
+          <p class="vb-intro">Auch in Haiti trat er wiederholt in offenen Konflikt mit Bürokratie und Behörden, wenn er sie als Hindernis für die Hilfe empfand &ndash; kompromisslos, direkt, ohne diplomatische Zurückhaltung, wenn er von der Richtigkeit seines Handelns überzeugt war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Krokodil, das nie im Uferschatten blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sean Penn auszeichnet, ist die Weigerung, zwischen Kunst, Aktivismus und persönlichem Risiko eine sichere Grenze zu ziehen &ndash; jede seiner Rollen, jede seiner Reisen, jede seiner Beziehungen trägt dieselbe unverkennbare, körperliche Intensität, die sich nie mit der halben Sache zufriedengibt.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier das Krokodil ist, der niemals im geschützten Uferschatten blieb, sondern sich wieder und wieder mitten in die gefährlichste, unmittelbarste Version der jeweiligen Wirklichkeit hineinbegab &ndash; auf der Leinwand, im Dschungel, in den Trümmern von Port-au-Prince.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
+        {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-grahame-webb", label:"Porträt: Prof. Grahame Webb (SX8w7)"},
+        {route:"beruehmte-john-wayne", label:"Porträt: John Wayne (SX8w7)"},
+      ])}
+    </div>
+  `);
+}
