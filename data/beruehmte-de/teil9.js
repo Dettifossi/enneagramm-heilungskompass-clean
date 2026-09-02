@@ -1638,7 +1638,7 @@ export function huangYongPingPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Huangs F\xe4higkeit, aus einem zutiefst pers\xf6nlichen Bed\xfcrfnis nach Verl\xe4sslichkeit ein Werk von universeller Kraft zu schaffen: Installationen wie \xbbTh\xe9\xe2tre du Monde\xab &ndash; ein sch\xfcldkr\xf6tenf\xf6rmiger K\xe4fig voller Insekten und Reptilien, die sich gegenseitig fressen &ndash; \xfcbersetzen die eigene Suche nach einem tragf\xe4higen System in ein Bild der gesamten Weltordnung.</p>
+          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in Huangs F\xe4higkeit, aus einem zutiefst pers\xf6nlichen Bed\xfcrfnis nach Verl\xe4sslichkeit ein Werk von universeller Kraft zu schaffen: Installationen wie \xbbTh\xe9\xe2tre du Monde\xab &ndash; ein schildkr\xf6tenf\xf6rmiger K\xe4fig voller Insekten und Reptilien, die sich gegenseitig fressen &ndash; \xfcbersetzen die eigene Suche nach einem tragf\xe4higen System in ein Bild der gesamten Weltordnung.</p>
           <p class="vb-intro">Der Schatten zeigt sich in der Kontroverse, die genau dieses Werk 2017 im Guggenheim Museum ausl\xf6ste: Nach massiven Protesten von Tierschutzorganisationen und Morddrohungen gegen das Museumspersonal wurde die Arbeit aus der Ausstellung entfernt. Das Schicksalsmuster der Sechs, der <strong>Zweifel</strong>, zeigt sich hier gespiegelt: Ein System, dem der K\xfcnstler bedingungslos vertraute &ndash; das kontrollierte Zufallsprinzip als \xfcbergeordnete Ordnung &ndash; geriet in Konflikt mit einer \xf6ffentlichen Autorit\xe4t, die dieses Vertrauen nicht teilte.</p>
         </blockquote>
 
