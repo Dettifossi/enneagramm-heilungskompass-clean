@@ -108083,11 +108083,7 @@ function musikPage() {
         <p style="margin:0.35rem 0 0;font-size:0.82rem;color:var(--ink-muted);">approx. 1 hr 20 min · YouTube</p>
       </div>
       <div class="musik-player" style="display:none;">
-        <div style="position:relative;aspect-ratio:16/9;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/${t.vid}?autoplay=1&rel=0"
-            allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;background:#000;"></div>
       </div>
     </div>
   `).join("");
@@ -108153,11 +108149,7 @@ function musikPage() {
                       <p style="margin:0;font-size:0.85rem;font-weight:600;">${code} · ${lang === 'en' ? 'EN' : 'DE'}</p>
                     </div>
                     <div class="musik-player" style="display:none;">
-                      <div style="position:relative;aspect-ratio:16/9;background:#000;">
-                        <iframe width="100%" height="100%" style="border:none;display:block;"
-                          src="https://www.youtube.com/embed/${song[lang]}?autoplay=1&rel=0"
-                          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                      </div>
+                      <div style="position:relative;aspect-ratio:16/9;background:#000;"></div>
                     </div>
                   </div>
                 `).join("");
@@ -108185,16 +108177,27 @@ function musikPage() {
 }
 
 function _musikInit() {
+  // Iframes are created only on click instead of being embedded on page render –
+  // with over 60 videos (9 albums + 27 subtypes × 2 languages) simultaneously loaded,
+  // merely CSS-hidden YouTube iframes caused memory pressure and freezing, especially
+  // on iOS Safari.
   document.querySelectorAll(".musik-card").forEach(card => {
     card.addEventListener("click", () => {
       const player = card.querySelector(".musik-player");
       const thumb  = card.querySelector(".musik-thumb");
-      if (!player) return;
+      const slot   = player ? player.querySelector("div") : null;
+      if (!player || !slot) return;
       const offen = player.style.display !== "none";
-      // Alle anderen schließen
-      document.querySelectorAll(".musik-player").forEach(p => { p.style.display = "none"; });
+      // Close all others and remove their iframe again (free memory)
+      document.querySelectorAll(".musik-player").forEach(p => {
+        p.style.display = "none";
+        const s = p.querySelector("div");
+        if (s) s.innerHTML = "";
+      });
       document.querySelectorAll(".musik-thumb").forEach(t => { t.style.display = ""; });
       if (!offen) {
+        const vid = card.dataset.vid;
+        slot.innerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;" src="https://www.youtube.com/embed/${vid}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
         player.style.display = "";
         if (thumb) thumb.style.display = "none";
       }
