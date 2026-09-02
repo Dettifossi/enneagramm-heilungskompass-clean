@@ -1785,6 +1785,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christopher Columbus – Self-Preservation Type 7",
     teaser:"SP7w8 · born c. 1451, died 1506. Navigator, discoverer of the sea route to the Americas. Years of tenacious provision before departure, uncompromising hardness against resistance, a territory he would not give up even in death. The gorilla who redrew the map of the world – with devastating consequences for the people living there.",
     land:"Italy/Spain", tags:["Geschichte","Seefahrt"], gender:"m"},
+{ route:"beruehmte-takashi-murakami", name:"Takashi Murakami", added:"2026-09-02", subtyp:"SE7w8",
+    heading:"Takashi Murakami – Self-Preservation Type 7",
+    teaser:"SP7w8 · born 1962. Japanese artist and entrepreneur, founder of the Superflat movement, Kaikai Kiki Co., 2003 Louis Vuitton collaboration. A merchandise empire from galleries to keychains. The gorilla that tore down the line between art and merchandise.",
+    land:"Japan", tags:["Kunst"], gender:"m"},
 { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
     heading:"Francis Bacon – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1561, died 1626. Philosopher, statesman, founder of modern empiricism, former Lord Chancellor of England. The gorilla that wanted to reorganise all human knowledge – and fell from his own power.",
@@ -36535,6 +36539,72 @@ function christophKolumbusPortraitPage() {
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
         {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function takashiMurakamiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-takashi-murakami-portrait.jpg" alt="Takashi Murakami – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Takashi Murakami</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Japanese artist &amp; entrepreneur, born 1962 in Tokyo &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla That Built an Entire World of Goods Around Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven &ndash; an animal of enormous strength that lives in a group and whose reach extends over an entire territory. Takashi Murakami, born 1962 in Tokyo, earned a doctorate at the Tokyo University of the Arts in Nihonga, traditional Japanese painting &ndash; a strictly regulated, centuries-old discipline. But instead of remaining within that tradition, he turned to Japan's otaku and anime culture and, from it, founded the art movement "Superflat," which deliberately flattens the boundary between fine art, anime, and consumer goods.</p>
+          <p class="vb-intro">In 2001 he founded the company Kaikai Kiki Co., a veritable art-production studio modeled on Andy Warhol's "Factory," which today employs over a hundred people and manages, alongside Murakami's own art, merchandise, fashion collaborations, and the careers of young Japanese artists. The gorilla that does not leave its territory to chance, but systematically fills it with abundance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Hidden Eight: A Merchandise Empire as Practical Abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Based on decades of experience with this subtype, Naranjo called the self-preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly by default. The self-preservation Seven secures itself through practical enjoyment and concrete abundance &ndash; in Murakami this shows in an empire that reaches far beyond galleries and museums: plush figures, keychains, skateboards, perfumes, and limited sneaker editions all carry his recurring motifs, above all the smiling flower from the "Flower of Life" series.</p>
+          <p class="vb-intro">In 2003 he designed an entire handbag collection with colorful monogram motifs for Louis Vuitton under creative director Marc Jacobs &ndash; one of the most commercially successful collaborations in fashion history, which turned Murakami from an art-world insider into a globally known name. In Murakami, the self-preservation Seven's abundance never stays abstract, but translates into hundreds of concrete, purchasable products.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Uncompromising Control Over One's Own Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight-wing gives the self-preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. Murakami runs Kaikai Kiki with a rigor repeatedly described in interviews and media reports as harsh and demanding &ndash; long hours, high expectations of precision, a studio that operates by its own strict rules. The gorilla that holds its troop together not with gentleness, but with clear, unyielding structure.</p>
+          <p class="vb-intro">His public role as an art theorist is likewise confrontational: his "Superflat" manifesto of 2000 attacked the established Western art world directly, exposing its hierarchy between "high" and "low" art as an arbitrary, ultimately colonial construct &ndash; an offensive, not a defensive, positioning. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation, even on the level of art theory itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Kanye West to the Museum: A Territory Without Borders</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2007 Murakami designed the cover art for Kanye West's "Graduation" &ndash; another step into a pop-cultural sphere that classical gallery artists traditionally avoided. Collaborations with Pharrell Williams, Virgil Abloh, and Billie Eilish followed later. At the same time, Murakami remained present in the high-culture art world: major solo exhibitions at the Brooklyn Museum, the Mori Art Museum Tokyo, and numerous other international institutions.</p>
+          <p class="vb-intro">In 2002 he also founded the GEISAI art fair, to give young, unknown Japanese artists a platform without the usual gallery gatekeepers &ndash; an infrastructure of his own, under his control, that is at once patronage and territorial claim. The gorilla that does not merely fill its own territory, but builds an entire ecosystem around itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP7w8 shows in Murakami's ability to turn his own search for abundance into a sustaining structure that provides for dozens of employees and young artists, while dissolving, visibly and worldwide, the rigid separation between "serious" art and popular culture &ndash; an influence that reaches far beyond his own artistic career.</p>
+          <p class="vb-intro">The shadow shows in repeated reports of harsh working conditions at Kaikai Kiki, as well as in criticism that Murakami has turned his own artistic signature so consistently into a commercial franchise that the line between art and pure brand exploitation at times disappears entirely. The Eight-wing Seven's uncompromising territorial defense shows here not in violence, but in a market control that leaves no field &ndash; from the gallery to the keychain &ndash; untapped.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Gorilla That Tore Down the Line Between Art and Merchandise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Murakami remains active to this day &ndash; as an artist, as an entrepreneur, as a patron of an entire generation of Japanese artists under the roof of his own company. His work has lastingly changed the global art market: the idea that an artist can be both a museum star and a fashion-label partner without losing artistic credibility is, to a large degree, his achievement.</p>
+          <p class="vb-intro">Like Francis Bacon (SP7w8, see <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">portrait</a>), who poured his entire knowledge into a single, vast reform project, Murakami too turned his search for abundance into a territory that reaches far beyond his own person &ndash; except his territory is not a library, but a global universe of goods. The gorilla that filled its territory so thoroughly that it has long since burst the boundaries of the art world itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype profile"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
       ])}
     </div>
   `);
@@ -36604,6 +36674,7 @@ function francisBaconPortraitPage() {
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
       ])}
     </div>
   `);
@@ -50399,12 +50470,12 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un", "Takashi Murakami"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
         beschreibung: "Instead of rising within existing institutions, a protected microcosm of one's own is built – a studio, a research station, a body of knowledge, a versatile repertoire of roles, sometimes simply a place one stays loyal to for life – in which one's own rules apply.",
-        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions; Christopher Columbus, who secured his territory contractually in the Capitulations of Santa Fe before he ever set sail – the title of Admiral, the office of Viceroy, ten percent of all future revenues."
+        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions; Christopher Columbus, who secured his territory contractually in the Capitulations of Santa Fe before he ever set sail – the title of Admiral, the office of Viceroy, ten percent of all future revenues; Takashi Murakami, whose company Kaikai Kiki Co., modeled on Warhol's 'Factory' as its own, tightly controlled art-production studio, now employs over a hundred people and spans an entire territory of galleries, fashion collaborations, and merchandise."
       },
       {
         titel: "Room-filling calm instead of fighting for attention",
@@ -109373,6 +109444,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
       "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
       "krankheitsportraets-christoph-kolumbus": christophKolumbusKrankheitsportraetPage,
+      "beruehmte-takashi-murakami": takashiMurakamiPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,

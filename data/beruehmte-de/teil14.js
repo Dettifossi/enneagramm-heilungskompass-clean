@@ -453,6 +453,7 @@ export function francisBaconPortraitPage() {
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portr\u00e4t: Kim Jong Un (SE7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portr\u00e4t: Takashi Murakami (SE7w8)"},
       ])}
     </div>
   `);

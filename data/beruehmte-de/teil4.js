@@ -55,6 +55,7 @@ export function christophKolumbusPortraitPage() {
         {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
         {route:"beruehmte-mariah-carey", label:"Portr\xe4t: Mariah Carey (SE7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portr\xe4t: Kim Jong Un (SE7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portr\xe4t: Takashi Murakami (SE7w8)"},
       ])}
     </div>
   `);

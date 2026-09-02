@@ -1608,3 +1608,68 @@ export function wilsonGonzalezOchsenknechtPortraitPage() {
     </div>
   `);
 }
+
+export function takashiMurakamiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-takashi-murakami-portrait.jpg" alt="Takashi Murakami – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Takashi Murakami</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Japanischer K\xfcnstler &amp; Unternehmer, geb. 1962 in Tokio &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der eine ganze Warenwelt um sich herum baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Reichweite sich \xfcber ein ganzes Territorium erstreckt. Takashi Murakami, 1962 in Tokio geboren, promovierte an der Tokyo University of the Arts in Nihonga, der traditionellen japanischen Malerei &ndash; einer streng reglementierten, jahrhundertealten Disziplin. Doch statt in dieser Tradition zu verharren, wandte er sich der japanischen Otaku- und Anime-Kultur zu und begr\xfcndete daraus die Kunstrichtung \xbbSuperflat\xab, die die Grenze zwischen hoher Kunst, Anime und Konsumgut bewusst einebnet.</p>
+          <p class="vb-intro">2001 gr\xfcndete er die Firma Kaikai Kiki Co., ein regelrechtes Kunst-Produktionsstudio nach dem Vorbild von Andy Warhols \xbbFactory\xab, das inzwischen \xfcber hundert Mitarbeiter besch\xe4ftigt und neben Murakamis eigener Kunst auch Merchandise, Modekollaborationen und die Karrieren junger japanischer K\xfcnstler betreut. Der Gorilla, der sein Territorium nicht dem Zufall \xfcberl\xe4sst, sondern systematisch mit Fülle bef\xfcllt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die versteckte Acht: Eine Merchandise-Imperium als praktische Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich tr\xe4gt, ohne sie standardm\xe4\xdfig offen zur Schau zu stellen. Die selbsterhaltende Sieben sichert sich \xfcber praktischen Genuss und konkrete F\xfclle ab &ndash; bei Murakami zeigt sich das in einem Imperium, das weit \xfcber Galerien und Museen hinausreicht: Plüschfiguren, Schl\xfcsselanh\xe4nger, Skateboards, Parfums und limitierte Sneaker-Editionen tragen seine wiederkehrenden Motive, allen voran die l\xe4chelnde Blume aus der Werkserie \xbbFlower of Life\xab.</p>
+          <p class="vb-intro">2003 gestaltete er f\xfcr Louis Vuitton unter Kreativdirektor Marc Jacobs eine ganze Handtaschenkollektion mit bunten Monogramm-Motiven &ndash; eine der kommerziell erfolgreichsten Kollaborationen der Modegeschichte, die Murakami vom Kunstwelt-Insider zu einem global bekannten Namen machte. Die Fülle der selbsterhaltenden Sieben bleibt bei Murakami nicht abstrakt, sondern wird in Hunderte konkrete, k\xe4ufliche Produkte übersetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kompromisslose Kontrolle über das eigene Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Achterfl\xfcgel gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgepr\xe4gtem Achterfl\xfcgel fehlen w\xfcrde. Murakami f\xfchrt Kaikai Kiki mit einer Strenge, die in Interviews und Medienberichten wiederholt als hart und fordernd beschrieben wurde &ndash; lange Arbeitszeiten, hohe Erwartungen an Pr\xe4zision, ein Studio, das nach eigenen strikten Regeln funktioniert. Der Gorilla, der sein Rudel nicht mit Sanftheit, sondern mit klaren, unnachgiebigen Strukturen zusammenh\xe4lt.</p>
+          <p class="vb-intro">Auch sein \xf6ffentliches Auftreten als Kunsttheoretiker ist konfrontativ angelegt: Sein \xbbSuperflat\xab-Manifest von 2000 griff die etablierte westliche Kunstwelt direkt an, indem es deren Hierarchie zwischen \xbbhoher\xab und \xbbniedriger\xab Kunst als willk\xfcrliche, letztlich koloniale Setzung entlarvte &ndash; eine offensive, keine defensive Positionierung. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation, auch auf der Ebene der Kunsttheorie selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Von Kanye West bis zum Museum: Ein Territorium ohne Grenzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2007 gestaltete Murakami das Albumcover von Kanye Wests \xbbGraduation\xab &ndash; ein weiterer Schritt in eine popkulturelle Sph\xe4re, die klassische Galeriek\xfcnstler traditionell mieden. Sp\xe4ter folgten Kollaborationen mit Pharrell Williams, Virgil Abloh und Billie Eilish. Gleichzeitig blieb Murakami im Hochkultur-Betrieb pr\xe4sent: gro\xdfe Einzelausstellungen im Brooklyn Museum, im Mori Art Museum Tokio und zahlreichen weiteren internationalen H\xe4usern.</p>
+          <p class="vb-intro">2002 gr\xfcndete er zudem die Kunstmesse GEISAI, um jungen, unbekannten japanischen K\xfcnstlern eine Plattform ohne die \xfcblichen Galerie-Gatekeeper zu bieten &ndash; eine eigene, von ihm kontrollierte Infrastruktur, die zugleich F\xf6rderung und Territorialanspruch ist. Der Gorilla, der nicht nur sein eigenes Revier bef\xfcllt, sondern gleich ein ganzes \xd6kosystem um sich herum aufbaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 zeigt sich in Murakamis F\xe4higkeit, aus der eigenen F\xfclle-Suche eine tragf\xe4hige Struktur zu schaffen, die Dutzenden Mitarbeitern und jungen K\xfcnstlern ein Auskommen bietet und zugleich die starre Trennung zwischen \xbbernster\xab Kunst und Populärkultur weltweit sichtbar aufgel\xf6st hat &ndash; ein Einfluss, der weit \xfcber die eigene K\xfcnstlerkarriere hinausreicht.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in wiederholten Berichten \xfcber die harten Arbeitsbedingungen bei Kaikai Kiki sowie in der Kritik, Murakami habe die eigene künstlerische Handschrift so konsequent in ein kommerzielles Franchise verwandelt, dass die Grenze zwischen Kunst und reiner Markenverwertung streckenweise vollst\xe4ndig verschwindet. Die kompromisslose Reviersicherung der Achterfl\xfcgel-Sieben zeigt sich hier nicht in Gewalt, sondern in einer Marktkontrolle, die keinen Bereich &ndash; von der Galerie bis zum Schl\xfcsselanh\xe4nger &ndash; ungenutzt l\xe4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vermächtnis: Der Gorilla, der die Grenze zwischen Kunst und Ware einriss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Murakami bleibt bis heute aktiv &ndash; als K\xfcnstler, als Unternehmer, als F\xf6rderer einer ganzen Generation japanischer K\xfcnstler unter dem Dach seiner eigenen Firma. Sein Werk hat den globalen Kunstmarkt nachhaltig ver\xe4ndert: Die Vorstellung, dass ein K\xfcnstler gleichzeitig Museumsstar und Modelabel-Partner sein kann, ohne an k\xfcnstlerischer Glaubw\xfcrdigkeit zu verlieren, ist zu einem gro\xdfen Teil sein Verdienst.</p>
+          <p class="vb-intro">Wie Francis Bacon (SE7w8, siehe <a href="javascript:void(0)" data-route="beruehmte-francis-bacon">Portr\xe4t</a>), der sein gesamtes Wissen in ein einziges, gro\xdfes Reformprojekt goss, verwandelte auch Murakami seine Fülle-Suche in ein Territorium, das weit \xfcber die eigene Person hinausreicht &ndash; nur dass sein Territorium keine Bibliothek, sondern ein globales Warenuniversum ist. Der Gorilla, der sein Revier so gr\xfcndlich bef\xfcllte, dass es l\xe4ngst die Grenzen der Kunstwelt selbst gesprengt hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portr\xe4t: Christoph Kolumbus (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
