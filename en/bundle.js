@@ -38370,7 +38370,7 @@ function billyBobThorntonPortraitPage() {
         <h2 class="vb-section">4. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO7w6 is its ability to <strong>stay active across very different forms for decades without spreading itself thin</strong> &ndash; Thornton moves between character-actor roles, directing, screenwriting and music with the same seriousness, carried by the same craftsmanship regardless of medium.</p>
-          <p class="vb-intro">The shadow of the Social Seven with a Six-wing shows in how far the search for controllable security can tip into the conspicuous: his publicly documented, highly specific fears and his six marriages &ndash; including the intense media attention around his marriage to Angelina Jolie, complete with vials of each other's blood worn as pendants &ndash; read like an attempt to find fixed, unshakeable anchor points within an otherwise restlessly versatile life.</p>
+          <p class="vb-intro">The shadow of the Social Seven with a Six-wing shows in how far the search for controllable security can tip into the conspicuous: his publicly documented, highly specific fears and his six marriages &ndash; including the intense media attention around his marriage to Angelina Jolie (SO1w2), complete with vials of each other's blood worn as pendants &ndash; read like an attempt to find fixed, unshakeable anchor points within an otherwise restlessly versatile life.</p>
         </blockquote>
 
         <h2 class="vb-section">5. From the screenplay to his own stage with the band</h2>
@@ -38395,6 +38395,7 @@ function billyBobThorntonPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2) – longtime wife"},
       ])}
     </div>
   `);

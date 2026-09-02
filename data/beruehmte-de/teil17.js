@@ -1656,7 +1656,7 @@ export function billyBobThorntonPortraitPage() {
         <h2 class="vb-section">4. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>über Jahrzehnte hinweg in ganz unterschiedlichen Formen tätig zu bleiben, ohne sich zu verzetteln</strong> &ndash; Thornton bewegt sich mit derselben Ernsthaftigkeit zwischen Charakterdarsteller-Rollen, Regiearbeit, Drehbuch und Musik, stets getragen von derselben handwerklichen Sorgfalt, gleich in welchem Medium.</p>
-          <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr die Suche nach kontrollierbarer Sicherheit ins Auffällige kippen kann: Seine öffentlich bekannten, sehr spezifischen Ängste und sechsmaligen Eheschließungen &ndash; darunter die mediale Vielbeachtung seiner Ehe mit Angelina Jolie, inklusive der als Anhänger getragenen Fläschchen mit dem Blut des jeweils anderen &ndash; lesen sich wie der Versuch, in einem rastlos vielseitigen Leben doch noch feste, unverrückbare Ankerpunkte zu finden.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben mit Sechserflügel zeigt sich darin, wie sehr die Suche nach kontrollierbarer Sicherheit ins Auffällige kippen kann: Seine öffentlich bekannten, sehr spezifischen Ängste und sechsmaligen Eheschließungen &ndash; darunter die mediale Vielbeachtung seiner Ehe mit Angelina Jolie (SO1w2), inklusive der als Anhänger getragenen Fläschchen mit dem Blut des jeweils anderen &ndash; lesen sich wie der Versuch, in einem rastlos vielseitigen Leben doch noch feste, unverrückbare Ankerpunkte zu finden.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Vom Drehbuch zur eigenen Bühne mit der Band</h2>
@@ -1681,6 +1681,7 @@ export function billyBobThorntonPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2) – langjährige Ehefrau"},
       ])}
     </div>
   `);
