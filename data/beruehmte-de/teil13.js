@@ -1678,7 +1678,7 @@ export function seanPennPortraitPage() {
         <h2 class="vb-section">6. Das Krokodil, das nie im Uferschatten blieb</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Sean Penn auszeichnet, ist die Weigerung, zwischen Kunst, Aktivismus und persönlichem Risiko eine sichere Grenze zu ziehen &ndash; jede seiner Rollen, jede seiner Reisen, jede seiner Beziehungen trägt dieselbe unverkennbare, körperliche Intensität, die sich nie mit der halben Sache zufriedengibt.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier das Krokodil ist, der niemals im geschützten Uferschatten blieb, sondern sich wieder und wieder mitten in die gefährlichste, unmittelbarste Version der jeweiligen Wirklichkeit hineinbegab &ndash; auf der Leinwand, im Dschungel, in den Trümmern von Port-au-Prince.</p>
+          <p class="vb-intro">Sein archetypisches Tier, das Krokodil, beschreibt ihn genau: Er blieb nie im geschützten Uferschatten, sondern begab sich wieder und wieder mitten in die gefährlichste, unmittelbarste Version der jeweiligen Wirklichkeit &ndash; auf der Leinwand, im Dschungel, in den Trümmern von Port-au-Prince.</p>
         </blockquote>
 
       </div>

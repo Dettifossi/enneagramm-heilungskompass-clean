@@ -1686,7 +1686,7 @@ export function joachimLlambiPortraitPage() {
         <h2 class="vb-section">6. Das Flusspferd, dessen Härte ein Liebesdienst ist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Llambi in der deutschen Fernsehlandschaft einzigartig macht, ist die Konsequenz, mit der er Fürsorge und Prinzipientreue verbindet, statt sich zwischen Nettsein und Ehrlichkeit zu entscheiden &ndash; seine Kritik ist selten grundlos, fast immer technisch begründbar, und in aller Regel an Kandidaten gerichtet, deren Entwicklung ihm tatsächlich am Herzen liegt.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier das Flusspferd ist, dessen scheinbar unerbittliche Härte bei genauerem Hinsehen keine Gleichgültigkeit ist, sondern eine Fürsorge, die sich weigert, es sich mit gefälligen Worten leicht zu machen &ndash; und die genau deshalb, entgegen dem ersten Anschein, eine Form von Zuwendung bleibt.</p>
+          <p class="vb-intro">Sein archetypisches Tier, das Flusspferd, bringt es auf den Punkt: Seine scheinbar unerbittliche Härte ist bei genauerem Hinsehen keine Gleichgültigkeit, sondern eine Fürsorge, die sich weigert, es sich mit gefälligen Worten leicht zu machen &ndash; und die genau deshalb, entgegen dem ersten Anschein, eine Form von Zuwendung bleibt.</p>
         </blockquote>
 
       </div>

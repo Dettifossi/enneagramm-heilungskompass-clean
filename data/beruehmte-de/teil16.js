@@ -1673,7 +1673,7 @@ export function roaldAmundsenPortraitPage() {
         <h2 class="vb-section">6. Die Gans, die für eine Nation die Formation fand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Amundsen hinterließ, ist mehr als eine Liste geografischer Premieren: Er bewies mit methodischer, unbestechlicher Präzision, dass sorgfältige Vorbereitung und Respekt vor überlegenem Wissen &ndash; auch wenn es von außerhalb der eigenen Kultur stammte &ndash; über nationale Prestigeansprüche und blinden Traditionsglauben siegen.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier die Gans ist, der sein ganzes Leben der wachsamen, unbestechlichen Verantwortung für eine Formation widmete &ndash; erst für seine Mannschaften, dann für eine junge Nation, und zuletzt, im Rettungsflug für einen einstigen Weggefährten, mit dem er zerstritten war, noch einmal für einen einzelnen Menschen in Not.</p>
+          <p class="vb-intro">Treffender, als sein archetypisches Tier, die Gans, es vorgibt, lässt sich sein Leben kaum zusammenfassen: eine wachsame, unbestechliche Verantwortung für eine Formation, der er sich zeitlebens widmete &ndash; erst für seine Mannschaften, dann für eine junge Nation, und zuletzt, im Rettungsflug für einen einstigen Weggefährten, mit dem er zerstritten war, noch einmal für einen einzelnen Menschen in Not.</p>
         </blockquote>
 
       </div>

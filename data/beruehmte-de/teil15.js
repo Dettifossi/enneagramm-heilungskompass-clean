@@ -1676,7 +1676,7 @@ export function rosaParksPortraitPage() {
         <h2 class="vb-section">6. Der Waschbär, dessen leise Konsequenz eine Bewegung auslöste</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Rosa Parks hinterlässt, ist ein Gegenentwurf zur landläufigen Vorstellung von Heldentum: keine laute Rebellion, sondern eine über Jahre gewachsene, stille Überzeugung, die sich in einem einzigen, ruhigen "Nein" entlud &ndash; und die sie danach fünfzig weitere Jahre lang, ohne Anspruch auf Ruhm, in konkreter Arbeit fortsetzte.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier der Waschbär ist, die aus scheinbarem Nichts &ndash; einem einzigen, stillen Akt der Weigerung &ndash; ein funktionierendes, weltveränderndes System in Bewegung setzte, ohne je die Bühne für sich selbst zu beanspruchen.</p>
+          <p class="vb-intro">Ihr archetypisches Tier, der Waschbär, trifft die Sache genau: Aus scheinbarem Nichts &ndash; einem einzigen, stillen Akt der Weigerung &ndash; setzte sie ein funktionierendes, weltveränderndes System in Bewegung, ohne je die Bühne für sich selbst zu beanspruchen.</p>
         </blockquote>
 
       </div>

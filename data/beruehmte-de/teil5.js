@@ -1681,7 +1681,7 @@ export function williamShakespearePortraitPage() {
         <h2 class="vb-section">6. Der Waschbär, der eine ganze Sprache mitgestaltete</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Shakespeare hinterließ, ist kein Denkmal seiner eigenen Person, sondern ein Werk, das die englische Sprache selbst mitgeformt hat &ndash; Redewendungen, Wortschöpfungen, dramatische Strukturen, die weit über die Theaterwelt hinaus in den Alltag eingegangen sind, ohne dass ihr Urheber je zur öffentlichen Figur im modernen Sinn wurde.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Waschbär ist, der aus stiller, disziplinierter Arbeit heraus eines der einflussreichsten Werke der Weltliteratur schuf &ndash; und dessen Unauffälligkeit so vollständig war, dass die Nachwelt bis heute eher an einen anderen Autor glaubt als an die schlichte Tatsache, dass ein unscheinbarer Mann aus Stratford genau das leisten konnte.</p>
+          <p class="vb-intro">Sein archetypisches Tier, der Waschbär, trifft die Sache genau: Aus stiller, disziplinierter Arbeit heraus schuf er eines der einflussreichsten Werke der Weltliteratur &ndash; und seine Unauffälligkeit war so vollständig, dass die Nachwelt bis heute eher an einen anderen Autor glaubt als an die schlichte Tatsache, dass ein unscheinbarer Mann aus Stratford genau das leisten konnte.</p>
         </blockquote>
 
       </div>

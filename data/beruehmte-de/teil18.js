@@ -1663,7 +1663,7 @@ export function aliWongPortraitPage() {
         <h2 class="vb-section">6. Der Biber, der ein Tabu zum Bauwerk für andere machte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Wong hinterlässt, ist ein Werk, das aus einem einzigen, konsequent verfolgten Prinzip gewachsen ist: das eigene Leben &ndash; Herkunft, Körper, Schwangerschaft, Ehe, Scheidung &ndash; so offen zu verhandeln, dass daraus ein gemeinsamer Raum für alle entsteht, die Ähnliches erleben, aber selten eine Bühne dafür finden.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Frau, deren archetypisches Tier der Biber ist, die ihre eigene, oft unbequeme Wirklichkeit unermüdlich zu einem Bauwerk formte, das anderen Schutz und Wiedererkennung bietet &ndash; und dabei, offenbar unbewusst, ihr eigenes tiefstes Muster lebte.</p>
+          <p class="vb-intro">Ihr archetypisches Tier, der Biber, trifft ihr Wirken genau: Unermüdlich formte sie ihre eigene, oft unbequeme Wirklichkeit zu einem Bauwerk, das anderen Schutz und Wiedererkennung bietet &ndash; und lebte dabei, offenbar unbewusst, ihr eigenes tiefstes Muster.</p>
         </blockquote>
 
       </div>

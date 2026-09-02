@@ -1668,7 +1668,7 @@ export function billyBobThorntonPortraitPage() {
         <h2 class="vb-section">6. Der Biber, der aus einer verstummten Figur ein bleibendes Werk baute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Thornton hinterlässt, ist ein Werk, das aus jahrelanger, unbequemer Beharrlichkeit gewachsen ist &ndash; von den Nächten im eigenen Auto bis zu einem Oscar für ein Drehbuch, das er niemandem außer sich selbst schuldete, bis es fertig war. Immer wieder erweiterte er sein Bauwerk in neue, verwandte Gebiete, statt sich mit einem einzigen Erfolg zufriedenzugeben.</p>
-          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier der Biber ist, der eine lange verstummte, übersehene Figur zu einem der eindrücklichsten amerikanischen Filme seiner Generation baute &ndash; und dabei, offenbar unbewusst, sein eigenes tiefstes Muster lebte.</p>
+          <p class="vb-intro">Sein archetypisches Tier, der Biber, fasst zusammen, was sein Werk im Kern ist: Er baute eine lange verstummte, übersehene Figur zu einem der eindrücklichsten amerikanischen Filme seiner Generation aus &ndash; und lebte dabei, offenbar unbewusst, sein eigenes tiefstes Muster.</p>
         </blockquote>
 
       </div>

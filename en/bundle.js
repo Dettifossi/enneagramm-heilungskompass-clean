@@ -18703,7 +18703,7 @@ function williamShakespearePortraitPage() {
         <h2 class="vb-section">6. The raccoon who helped shape an entire language</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Shakespeare left behind is not a monument to his own person, but a body of work that helped shape the English language itself &ndash; turns of phrase, coinages, dramatic structures that entered everyday life far beyond the theater, without their creator ever becoming a public figure in the modern sense.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the raccoon, who created one of the most influential works in world literature through quiet, disciplined work &ndash; and whose inconspicuousness was so complete that posterity still, to this day, more readily believes in a different author than in the simple fact that an unremarkable man from Stratford could achieve exactly that.</p>
+          <p class="vb-intro">His archetypal animal, the raccoon, captures him precisely: through quiet, disciplined work he created one of the most influential works in world literature &ndash; and his inconspicuousness was so complete that posterity still, to this day, more readily believes in a different author than in the simple fact that an unremarkable man from Stratford could achieve exactly that.</p>
         </blockquote>
 
       </div>
@@ -19691,7 +19691,7 @@ function rosaParksPortraitPage() {
         <h2 class="vb-section">6. The raccoon whose quiet consistency set a movement in motion</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Rosa Parks leaves behind is a counter-model to the common idea of heroism: not a loud rebellion, but a quiet conviction grown over years, discharged in a single, calm "no" &ndash; which she then continued for fifty more years in concrete work, without any claim to fame.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the raccoon, who set a functioning, world-changing system into motion out of apparent nothing &ndash; a single, quiet act of refusal &ndash; without ever claiming the stage for herself.</p>
+          <p class="vb-intro">Her archetypal animal, the raccoon, fits the story exactly: out of apparent nothing &ndash; a single, quiet act of refusal &ndash; she set a functioning, world-changing system into motion, without ever claiming the stage for herself.</p>
         </blockquote>
 
       </div>
@@ -20841,7 +20841,7 @@ function joachimLlambiPortraitPage() {
         <h2 class="vb-section">6. The hippopotamus whose harshness is an act of love</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What makes Llambi unique in German television is the consistency with which he combines care and principle instead of choosing between being nice and being honest &ndash; his criticism is rarely groundless, almost always technically justifiable, and as a rule directed at contestants whose development he genuinely cares about.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the hippopotamus, whose seemingly relentless harshness, on closer inspection, is not indifference but a form of care that refuses to make things easy with pleasant words &ndash; and that, contrary to first appearances, remains exactly that: a form of devotion.</p>
+          <p class="vb-intro">His archetypal animal, the hippopotamus, sums it up exactly: his seemingly relentless harshness, on closer inspection, is not indifference but a form of care that refuses to make things easy with pleasant words &ndash; and that, contrary to first appearances, remains exactly that: a form of devotion.</p>
         </blockquote>
 
       </div>
@@ -38614,7 +38614,7 @@ function aliWongPortraitPage() {
         <h2 class="vb-section">6. The beaver who turned a taboo into a structure for others</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Wong leaves behind is a body of work grown from a single, consistently pursued principle: to negotiate her own life &ndash; heritage, body, pregnancy, marriage, divorce &ndash; so openly that it becomes a shared space for everyone who has lived something similar but rarely finds a stage for it.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a woman whose archetypal animal is the beaver, who tirelessly shaped her own, often uncomfortable reality into a structure that offers others shelter and recognition &ndash; and, apparently unconsciously, lived her own deepest pattern along the way.</p>
+          <p class="vb-intro">Her archetypal animal, the beaver, matches her work precisely: tirelessly, she shaped her own, often uncomfortable reality into a structure that offers others shelter and recognition &ndash; and, apparently unconsciously, lived her own deepest pattern along the way.</p>
         </blockquote>
 
       </div>
@@ -38680,7 +38680,7 @@ function billyBobThorntonPortraitPage() {
         <h2 class="vb-section">6. The beaver who built a lasting work from a silenced character</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Thornton leaves behind is a body of work grown from years of uncomfortable persistence &ndash; from nights spent in his own car to an Academy Award for a screenplay he owed to no one but himself until it was finished. Again and again he extended his structure into new, related fields, rather than settling for a single success.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the beaver, who built a long-silenced, overlooked character into one of the most striking American films of his generation &ndash; and, apparently unconsciously, lived his own deepest pattern along the way.</p>
+          <p class="vb-intro">His archetypal animal, the beaver, sums up what his work is at its core: he built a long-silenced, overlooked character into one of the most striking American films of his generation &ndash; and, apparently unconsciously, lived his own deepest pattern along the way.</p>
         </blockquote>
 
       </div>
@@ -39750,7 +39750,7 @@ function seanPennPortraitPage() {
         <h2 class="vb-section">6. The crocodile who never stayed in the shade of the riverbank</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What sets Sean Penn apart is his refusal to draw a safe line between art, activism, and personal risk &ndash; every role, every trip, every relationship carries the same unmistakable, physical intensity that never settles for half measures.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the crocodile, who never stayed in the protected shade of the riverbank, but again and again waded into the most dangerous, most immediate version of whatever reality he faced &ndash; on screen, in the jungle, in the rubble of Port-au-Prince.</p>
+          <p class="vb-intro">His archetypal animal, the crocodile, describes him exactly: he never stayed in the protected shade of the riverbank, but again and again waded into the most dangerous, most immediate version of whatever reality he faced &ndash; on screen, in the jungle, in the rubble of Port-au-Prince.</p>
         </blockquote>
 
       </div>
@@ -43932,7 +43932,7 @@ function roaldAmundsenPortraitPage() {
         <h2 class="vb-section">6. The goose who found the formation for a nation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Amundsen left behind is more than a list of geographic firsts: he proved, with methodical, incorruptible precision, that careful preparation and respect for superior knowledge &ndash; even knowledge from outside one's own culture &ndash; triumph over national prestige claims and blind faith in tradition.</p>
-          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the goose, who devoted his entire life to watchful, incorruptible responsibility for a formation &ndash; first for his crews, then for a young nation, and finally, on a rescue flight for an estranged companion, once more for a single person in danger.</p>
+          <p class="vb-intro">Fittingly, his archetypal animal, the goose, hardly captures the full scope of his life: a watchful, incorruptible responsibility for a formation that he devoted himself to throughout his life &ndash; first for his crews, then for a young nation, and finally, on a rescue flight for an estranged companion, once more for a single person in danger.</p>
         </blockquote>
 
       </div>
