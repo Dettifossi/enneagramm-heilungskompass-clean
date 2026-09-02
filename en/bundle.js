@@ -1789,6 +1789,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Takashi Murakami – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1962. Japanese artist and entrepreneur, founder of the Superflat movement, Kaikai Kiki Co., 2003 Louis Vuitton collaboration. A merchandise empire from galleries to keychains. The gorilla that tore down the line between art and merchandise.",
     land:"Japan", tags:["Kunst"], gender:"m"},
+{ route:"beruehmte-suzan-lori-parks", name:"Suzan-Lori Parks", added:"2026-09-02", subtyp:"SE7w8",
+    heading:"Suzan-Lori Parks – Self-Preservation Type 7",
+    teaser:"SP7w8 · born 1963. American playwright, first African American woman to win the Pulitzer Prize for Drama (Topdog/Underdog, 2002). Wrote a play every day for a year – staged in nearly 700 theaters worldwide. The gorilla that rewrote its territory every day.",
+    land:"USA", tags:["Literatur","Theater"], gender:"w"},
 { route:"beruehmte-francis-bacon", name:"Francis Bacon", added:"2026-08-03", subtyp:"SE7w8",
     heading:"Francis Bacon – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1561, died 1626. Philosopher, statesman, founder of modern empiricism, former Lord Chancellor of England. The gorilla that wanted to reorganise all human knowledge – and fell from his own power.",
@@ -36605,6 +36609,73 @@ function takashiMurakamiPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype profile"},
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
+        {route:"beruehmte-suzan-lori-parks", label:"Portrait: Suzan-Lori Parks (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function suzanLoriParksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-suzan-lori-parks-portrait.jpg" alt="Suzan-Lori Parks – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Suzan-Lori Parks</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">American playwright, born 1963 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla That Wrote Itself a Territory Out of 365 Days</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven &ndash; an animal of enormous strength that lives in a group and whose reach extends over an entire territory. Suzan-Lori Parks, born 1963 in Fort Knox, Kentucky, to an African American Army officer, grew up between constantly changing military postings &ndash; Kentucky, Texas, later West Germany during her high school years &ndash; and had to resettle again and again without ever staying long in one place.</p>
+          <p class="vb-intro">At Mount Holyoke College she studied fiction writing under James Baldwin, who advised her to turn to theater. Out of a childhood with no fixed roots grew an adult who wrote her own security &ndash; literally, in a volume of text almost no other playwright of her generation has matched.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Hidden Eight: One Year, 365 Plays, a Network of Stages</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The self-preservation Seven secures itself, unlike its social and sexual sibling variants, through concrete, tangible abundance within its own immediate surroundings &ndash; in Parks this took an almost unbelievable form: between November 2002 and November 2003, she wrote a new short play every single day, often in hotel rooms and airport lounges during book tours. The result, "365 Days/365 Plays," was then staged simultaneously in nearly 700 theaters around the globe &ndash; from opulent opera houses to street corners.</p>
+          <p class="vb-intro">Not a single, intense bond as with the sexual Seven, not a shared body of knowledge as with the social Seven, but a pure, disciplined quantity of daily-produced material that condensed into its own, worldwide performance network. The gorilla that fills its territory with stores &ndash; here: 365 individual but interconnected plays.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Uncompromising Defense of One's Own Choices</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight-wing gives the self-preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. When Parks made far-reaching changes to the original for a 2011 Broadway revival of "Porgy and Bess," legendary composer Stephen Sondheim criticized her publicly and sharply &ndash; yet Parks defended her artistic choices unrelentingly rather than backing down.</p>
+          <p class="vb-intro">As chair of the dramatic writing program at NYU, too, she is known for a direct, demanding teaching style that leaves little room for half-hearted work. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; and the clear, unyielding position from which it can actually shape things.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Watch Me Work: One's Own Productivity as Shared Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alongside her theater work, Parks has written screenplays (including Spike Lee's "Girl 6"), novels, an entire TV miniseries ("Genius: Aretha," 2021), and plays guitar in her own band. This versatility is no accident but follows the same pattern: not the one great, perfect form, but a continuous, practical abundance of output across many channels.</p>
+          <p class="vb-intro">With her format "Watch Me Work," she invites audiences to watch live as she writes &ndash; and to work alongside her in quiet concentration on their own projects. The gorilla that does not seal off its territory, but invites others to work in the same rhythm, as long as the rules of its own territory are respected.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP7w8 shows in a nearly inexhaustible creative discipline: in 2002, Parks became the first African American woman ever to win the Pulitzer Prize for Drama, for "Topdog/Underdog" &ndash; a milestone born of the same unrelenting work intensity that also carried the 365-day project.</p>
+          <p class="vb-intro">The shadow shows in the sheer impossibility of keeping such a broad, continuously produced body of work at the same peak level throughout &ndash; critics have repeatedly noted a certain unevenness between Parks's strongest and weaker works, a price the sheer volume of production carries with it. The Eight-wing Seven's uncompromising territorial defense shows here not in violence, but in an unconditional adherence to her own high working pace, even when not every single piece reaches the same brilliance as "Topdog/Underdog."</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Gorilla That Rewrote Its Territory Every Day</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Parks remains extraordinarily prolific to this day &ndash; as a playwright, teacher, musician, and organizer of her own creative ecosystem that reaches far beyond the single play. Her work has shown that radical continuity can itself be an artistic form.</p>
+          <p class="vb-intro">Like Takashi Murakami (SP7w8, see <a href="javascript:void(0)" data-route="beruehmte-takashi-murakami">portrait</a>), who filled his territory with an entire universe of goods, Parks too turned her search for abundance into an ecosystem that includes others rather than excluding them. The gorilla that secured its territory not with possessions, but with pages written anew each day &ndash; until it became a network of nearly 700 stages.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype profile"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
+        {route:"beruehmte-suzan-lori-parks", label:"Portrait: Suzan-Lori Parks (SP7w8)"},
       ])}
     </div>
   `);
@@ -36675,6 +36746,7 @@ function francisBaconPortraitPage() {
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
         {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
+        {route:"beruehmte-suzan-lori-parks", label:"Portrait: Suzan-Lori Parks (SP7w8)"},
       ])}
     </div>
   `);
@@ -50470,12 +50542,12 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un", "Takashi Murakami"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un", "Takashi Murakami", "Suzan-Lori Parks"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
         beschreibung: "Instead of rising within existing institutions, a protected microcosm of one's own is built – a studio, a research station, a body of knowledge, a versatile repertoire of roles, sometimes simply a place one stays loyal to for life – in which one's own rules apply.",
-        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions; Christopher Columbus, who secured his territory contractually in the Capitulations of Santa Fe before he ever set sail – the title of Admiral, the office of Viceroy, ten percent of all future revenues; Takashi Murakami, whose company Kaikai Kiki Co., modeled on Warhol's 'Factory' as its own, tightly controlled art-production studio, now employs over a hundred people and spans an entire territory of galleries, fashion collaborations, and merchandise."
+        beleg: "Hans Zimmer's Remote Control Productions in Santa Monica; Dian Fossey's Karisoke research station in the Virunga mountains; Francis Bacon's 'Instauratio Magna,' the 'Great Renewal' of all knowledge as his own territory; Jeanne Calment, who spent practically her entire life in Arles instead of traveling; Moritz Bleibtreu, whose 'dense, unusually versatile body of work – from comedy to psychological thriller' forms his own, self-staked acting territory: 'The SE7 doesn't look for the one big role – it looks for the next experience.' Junko Tabei showed the same principle by founding a women's climbing club, carving out her own territory on the eight-thousanders outside male-dominated institutions; Christopher Columbus, who secured his territory contractually in the Capitulations of Santa Fe before he ever set sail – the title of Admiral, the office of Viceroy, ten percent of all future revenues; Takashi Murakami, whose company Kaikai Kiki Co., modeled on Warhol's 'Factory' as its own, tightly controlled art-production studio, now employs over a hundred people and spans an entire territory of galleries, fashion collaborations, and merchandise; Suzan-Lori Parks, who wrote a new play every day for a year and turned it into her own, worldwide performance network of nearly 700 stages."
       },
       {
         titel: "Room-filling calm instead of fighting for attention",
@@ -109445,6 +109517,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
       "krankheitsportraets-christoph-kolumbus": christophKolumbusKrankheitsportraetPage,
       "beruehmte-takashi-murakami": takashiMurakamiPortraitPage,
+      "beruehmte-suzan-lori-parks": suzanLoriParksPortraitPage,
       "beruehmte-francis-bacon": francisBaconPortraitPage,
       "beruehmte-miley-cyrus": mileyCyrusPortraitPage,
       "beruehmte-ina-mueller": inaMuellerPortraitPage,

@@ -1609,3 +1609,68 @@ export function isadoraDuncanPortraitPage() {
     </div>
   `);
 }
+
+export function suzanLoriParksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-suzan-lori-parks-portrait.jpg" alt="Suzan-Lori Parks – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Suzan-Lori Parks</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Dramatikerin, geb. 1963 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der sich aus 365 Tagen ein Territorium schrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Reichweite sich \xfcber ein ganzes Territorium erstreckt. Suzan-Lori Parks, 1963 in Fort Knox, Kentucky, als Tochter eines afroamerikanischen Armeeoffiziers geboren, wuchs zwischen st\xe4ndig wechselnden Milit\xe4rstandorten auf &ndash; Kentucky, Texas, sp\xe4ter Westdeutschland w\xe4hrend ihrer High-School-Jahre &ndash; und musste sich immer wieder neu einrichten, ohne je lange an einem Ort zu bleiben.</p>
+          <p class="vb-intro">An der Mount Holyoke College studierte sie Prosa bei James Baldwin, der ihr riet, sich dem Theater zuzuwenden. Aus einer Kindheit ohne feste Wurzeln entwickelte sich eine Erwachsene, die sich ihre Sicherheit selbst schrieb &ndash; buchst\xe4blich, in einer F\xfclle von Text, die kaum ein anderer Dramatiker ihrer Generation erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die versteckte Acht: Ein Jahr, 365 Stücke, ein Netz aus Bühnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Sieben sichert sich, anders als ihre sozialen und sexuellen Geschwistervarianten, \xfcber konkrete, greifbare F\xfclle im eigenen unmittelbaren Umfeld ab &ndash; bei Parks nahm das eine schier unglaubliche Form an: Zwischen November 2002 und November 2003 schrieb sie an jedem einzelnen Tag ein neues, kurzes Theaterst\xfcck, oft in Hotelzimmern und Flughafen-Lounges w\xe4hrend Buchtourneen entstanden. Das Ergebnis, \xbb365 Days/365 Plays\xab, wurde anschlie\xdfend in fast 700 Theatern rund um den Globus gleichzeitig aufgef\xfchrt &ndash; von opulenten Opernh\xe4usern bis zu Stra\xdfenecken.</p>
+          <p class="vb-intro">Keine einzelne, intensive Verbindung wie bei der sexuellen Sieben, kein geteiltes Wissenssystem wie bei der sozialen Sieben, sondern eine reine, disziplinierte Menge an t\xe4glich produziertem Material, das sich zu einem eigenen, weltweiten Auff\xfchrungsnetz verdichtete. Der Gorilla, der sein Territorium mit Vorr\xe4ten f\xfcllt &ndash; hier: mit 365 einzelnen, aber untereinander verbundenen St\xfccken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kompromisslose Verteidigung der eigenen Setzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Achterfl\xfcgel gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgepr\xe4gtem Achterfl\xfcgel fehlen w\xfcrde. Als Parks 2011 f\xfcr eine Broadway-Neuinszenierung von \xbbPorgy and Bess\xab tiefgreifende \xc4nderungen am Original vornahm, kritisierte der legend\xe4re Komponist Stephen Sondheim sie \xf6ffentlich und scharf &ndash; Parks verteidigte ihre k\xfcnstlerischen Entscheidungen jedoch unnachgiebig, statt zur\xfcckzurudern.</p>
+          <p class="vb-intro">Auch als Leiterin des Dramatic-Writing-Programms an der NYU ist sie f\xfcr eine direkte, fordernde Lehrhaltung bekannt, die wenig Raum f\xfcr halbherzige Arbeit l\xe4sst. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und die klare, unnachgiebige Position, aus der heraus sie tats\xe4chlich gestalten kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Watch Me Work: Die eigene Produktivität als geteiltes Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neben ihrem Theaterwerk verfasste Parks Drehbücher (u. a. für Spike Lees \xbbGirl 6\xab), Romane, eine ganze TV-Miniserie (\xbbGenius: Aretha\xab, 2021) und spielt selbst Gitarre in ihrer eigenen Band. Diese Vielseitigkeit ist kein Zufall, sondern folgt demselben Muster: nicht die eine gro\xdfe, perfekte Form, sondern eine kontinuierliche, praktische F\xfclle an Output über viele Kanäle hinweg.</p>
+          <p class="vb-intro">Mit ihrem Format \xbbWatch Me Work\xab lädt sie Publikum ein, live dabei zuzusehen, wie sie selbst schreibt &ndash; und gemeinsam mit ihr in stiller Konzentration am eigenen Werk zu arbeiten. Der Gorilla, der sein Revier nicht abschottet, sondern andere einlädt, im selben Rhythmus mitzuarbeiten, solange die Regeln des eigenen Territoriums respektiert werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 zeigt sich in einer schier unerschöpflichen schöpferischen Disziplin: 2002 wurde Parks für \xbbTopdog/Underdog\xab als erste afroamerikanische Frau überhaupt mit dem Pulitzer-Preis für Drama ausgezeichnet &ndash; ein Meilenstein, der aus derselben unnachgiebigen Arbeitsintensität entstand, die auch das 365-Tage-Projekt trug.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der schieren Unm\xf6glichkeit, ein derart breites, kontinuierlich produziertes Werk gleichm\xe4\xdfig auf h\xf6chstem Niveau zu halten &ndash; Kritiker bemängelten wiederholt eine gewisse Unebenheit zwischen Parks' st\xe4rksten und schw\xe4cheren Arbeiten, ein Preis, den die schiere Menge an Produktion mit sich bringt. Die kompromisslose Reviersicherung der Achterfl\xfcgel-Sieben zeigt sich hier nicht in Gewalt, sondern im unbedingten Festhalten am eigenen, hohen Arbeitstempo, selbst wenn nicht jedes einzelne St\xfcck denselben Glanz erreicht wie \xbbTopdog/Underdog\xab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Vermächtnis: Der Gorilla, der sein Territorium täglich neu beschrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Parks bleibt bis heute außerordentlich produktiv &ndash; als Dramatikerin, Lehrende, Musikerin und Organisatorin eines eigenen kreativen Ökosystems, das weit über das einzelne Theaterstück hinausreicht. Ihr Werk hat gezeigt, dass radikale Kontinuität selbst eine künstlerische Form sein kann.</p>
+          <p class="vb-intro">Wie Takashi Murakami (SE7w8, siehe <a href="javascript:void(0)" data-route="beruehmte-takashi-murakami">Portr\xe4t</a>), der sein Territorium mit einem ganzen Warenuniversum füllte, verwandelte auch Parks ihre Suche nach Fülle in ein Ökosystem, das andere einbezieht, statt sie auszuschließen. Der Gorilla, der sein Revier nicht mit Besitz, sondern mit täglich neu geschriebenen Seiten absicherte &ndash; bis daraus ein Netz aus fast 700 Bühnen wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
+        {route:"beruehmte-takashi-murakami", label:"Portr\xe4t: Takashi Murakami (SE7w8)"},
+      ])}
+    </div>
+  `);
+}

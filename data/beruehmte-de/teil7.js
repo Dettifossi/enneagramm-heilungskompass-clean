@@ -1669,6 +1669,7 @@ export function takashiMurakamiPortraitPage() {
         {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portr\xe4t: Christoph Kolumbus (SE7w8)"},
+        {route:"beruehmte-suzan-lori-parks", label:"Portr\xe4t: Suzan-Lori Parks (SE7w8)"},
       ])}
     </div>
   `);
