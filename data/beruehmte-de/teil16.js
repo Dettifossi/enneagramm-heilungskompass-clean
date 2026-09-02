@@ -1624,3 +1624,70 @@ export function yayoiKusamaPortraitPage() {
     </div>
   `);
 }
+
+export function roaldAmundsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-roald-amundsen-portrait.jpg" alt="Roald Amundsen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Roald Amundsen</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Polarforscher, 1872&ndash;1928 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die eine junge Nation zum Südpol trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Ordnung, und stets in Verantwortung für die Formation, nicht für sich allein. Roald Amundsen, geboren 1872 in Norwegen, härtete sich schon als Jugendlicher systematisch ab &ndash; er schlief bei offenem Fenster im norwegischen Winter, trainierte diszipliniert seinen Körper, bereitete sich jahrelang methodisch auf ein Leben in lebensfeindlichem Terrain vor.</p>
+          <p class="vb-intro">1911 erreichte er als erster Mensch den Südpol, 1926 überquerte er mit dem Luftschiff "Norge" als Erster den Nordpol &ndash; als einziger Mensch der Geschichte stand er an beiden geografischen Polen. Doch seine Expeditionen waren nie nur persönlicher Ehrgeiz: Norwegen war erst 1905 unabhängig von Schweden geworden, und Amundsen verstand seine Leistungen ausdrücklich als Beweis, dass die junge Nation in der "Formation" der großen Länder mithalten konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Wachsame Verantwortung für die richtige Ordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt wachsame Verantwortung für die Ordnung eines Kollektivs &ndash; nicht aus Geltungsbedürfnis, sondern aus der unbestechlichen Überzeugung, dass Dinge richtig gemacht werden müssen. Amundsen brach bewusst mit der etablierten britischen Polarforschungs-Etikette seiner Zeit: Statt am "ehrenhaften" Prinzip des Man-Hauling festzuhalten, bei dem Männer die Schlitten selbst zogen, übernahm er pragmatisch die überlegenen Überlebenstechniken der Inuit &ndash; Pelzkleidung statt Wolle, Hundeschlitten statt Menschenkraft.</p>
+          <p class="vb-intro">Öffentlich kritisierte er unverblümt, dass die Methode seines Rivalen Robert Falcon Scott schlicht falsch sei &ndash; nicht als Angriff auf dessen Mut, sondern als Korrektur eines objektiv unzureichenden Vorgehens. Genau das ist die Eins: die Empörung darüber, dass etwas nicht richtig gemacht wird, verbunden mit dem festen Willen, es besser zu zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Methodische Ruhe statt hitziger Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Amundsens Vorgehen war nie hitzig-impulsiv, sondern kalkuliert, geduldig, methodisch: Er hielt sein wahres Expeditionsziel &ndash; den Südpol statt der offiziell angekündigten Arktis &ndash; strategisch geheim, selbst vor der eigenen Mannschaft, bis das Schiff bereits ausgelaufen war.</p>
+          <p class="vb-intro">Diese kontrollierte, undramatische Zurückhaltung zeigte sich auch in der Führung seiner Expeditionen: Er baute stabile, harmonische Mannschaften auf, statt auf chaotische Alleingänge zu setzen &ndash; die Neuner-Note sorgte für Zusammenhalt in der Formation, während die Einser-Note für die unbestechliche Einhaltung des Plans sorgte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, <strong>eine ganze Formation sicher durch existenzielle Gefahr zu führen</strong>, indem die eigene Disziplin zur verlässlichen Struktur für alle wird &ndash; Amundsens Südpolexpedition verlief, anders als Scotts tödlich endende Fahrt, ohne einen einzigen Todesfall, exakt nach Plan und sogar früher als kalkuliert zurück.</p>
+          <p class="vb-intro">Der Schatten der sozialen Eins mit Neunerflügel zeigt sich darin, wie hart die wachsame Ordnungshüter-Haltung reagiert, sobald ein als gerecht empfundenes Prinzip verletzt wird: Als sein Weggefährte Umberto Nobile nach dem gemeinsamen Nordpolflug von 1926 öffentlich mehr Anerkennung für sich beanspruchte, reagierte Amundsen mit einer scharfen, öffentlich ausgetragenen Fehde &ndash; kompromisslos, ohne diplomatische Zurückhaltung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Verantwortung für die Formation statt Einzelkämpfertum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die soziale Eins ist, dass Amundsens Leistungen nie im Zeichen persönlicher Alleingänge standen: Seine Expeditionen waren minutiös vorbereitete Teamunternehmungen, in denen jede Rolle klar zugewiesen war und das Überleben der gesamten Gruppe über allem stand. Als sein früherer Rivale Nobile 1928 mit dem Luftschiff "Italia" abstürzte, flog Amundsen trotz des jahrelangen persönlichen Zerwürfnisses sofort zur Rettung los &ndash; Verantwortung für die Formation wog schwerer als persönliche Kränkung.</p>
+          <p class="vb-intro">Bei diesem Rettungsflug verschwand Amundsen im Juni 1928 über der Barentssee; sein Flugzeug wurde nie gefunden. Er starb, wie er gelebt hatte: im Dienst einer Ordnung, die größer war als er selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die für eine Nation die Formation fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Amundsen hinterließ, ist mehr als eine Liste geografischer Premieren: Er bewies mit methodischer, unbestechlicher Präzision, dass sorgfältige Vorbereitung und Respekt vor überlegenem Wissen &ndash; auch wenn es von außerhalb der eigenen Kultur stammte &ndash; über nationale Prestigeansprüche und blinden Traditionsglauben siegen.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: ein Mann, dessen archetypisches Tier die Gans ist, der sein ganzes Leben der wachsamen, unbestechlichen Verantwortung für eine Formation widmete &ndash; erst für seine Mannschaften, dann für eine junge Nation, und zuletzt, im Rettungsflug für einen zerstrittenen Weggefährten, noch einmal für einen einzelnen Menschen in Not.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-konrad-lorenz", label:"Porträt: Konrad Lorenz (SO1w9)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

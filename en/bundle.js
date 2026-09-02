@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=61";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=62";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -514,6 +514,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Jürgens – Self-Preservation Type 1",
     teaser:"SE1w2 · 1934–2014. Austrian singer and composer. Griechischer Wein, Merci Chérie, over 1,000 compositions across six decades. The eagle that combined perfection with genuine warmth for its audience.",
     land:"Austria", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-roald-amundsen", name:"Roald Amundsen", added:"2026-09-02", subtyp:"SO1w9",
+    heading:"Roald Amundsen – Social Type 1",
+    teaser:"SO1w9 · Polar explorer, 1872–1928. First person at the South Pole (1911), first person to reach both geographic poles. Disappeared in 1928 on a rescue flight for his former rival Umberto Nobile. The goose who carried a young nation to the South Pole.",
+    land:"Norway", tags:["Geschichte","Wissenschaft"], gender:"m"},
 { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Social Type 1",
     teaser:"SO1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
@@ -43591,6 +43595,73 @@ function davidBowiePortraitPage() {
   `);
 }
 
+function roaldAmundsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-roald-amundsen-portrait.jpg" alt="Roald Amundsen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Roald Amundsen</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Polar explorer, 1872&ndash;1928 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose who carried a young nation to the South Pole</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and order, and always responsible for the formation, never just for itself. Roald Amundsen, born in Norway in 1872, systematically hardened himself from a young age &ndash; he slept with his window open through the Norwegian winter, trained his body with discipline, and prepared himself methodically for years for a life in hostile terrain.</p>
+          <p class="vb-intro">In 1911 he became the first person to reach the South Pole; in 1926 he crossed the North Pole by airship, the "Norge," becoming the only person in history to have stood at both geographic poles. Yet his expeditions were never mere personal ambition: Norway had only gained independence from Sweden in 1905, and Amundsen explicitly understood his achievements as proof that the young nation could hold its own in the "formation" of great powers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: watchful responsibility for the right order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> takes watchful responsibility for the order of a collective &ndash; not out of a need for recognition, but from an incorruptible conviction that things must be done correctly. Amundsen deliberately broke with the established British polar-exploration etiquette of his time: instead of adhering to the "honorable" principle of man-hauling, in which men pulled the sledges themselves, he pragmatically adopted the superior survival techniques of the Inuit &ndash; fur clothing instead of wool, dog sledges instead of human muscle.</p>
+          <p class="vb-intro">He publicly and bluntly criticized the method of his rival Robert Falcon Scott as simply wrong &ndash; not as an attack on Scott's courage, but as a correction of an objectively inadequate approach. That is exactly the One: outrage that something is not being done correctly, paired with a firm resolve to show how it should be done.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: methodical calm instead of heated confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but it is rarely carried outward explosively. Amundsen's approach was never hot-headed or impulsive, but calculated, patient, methodical: he kept his true expedition goal &ndash; the South Pole, rather than the Arctic he had officially announced &ndash; strategically secret, even from his own crew, until the ship had already set sail.</p>
+          <p class="vb-intro">This controlled, undramatic restraint also showed in how he led his expeditions: he built stable, harmonious crews rather than relying on chaotic solo efforts &ndash; the Nine note provided cohesion within the formation, while the One note ensured incorruptible adherence to the plan.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is its ability to <strong>lead an entire formation safely through existential danger</strong>, turning its own discipline into a reliable structure for everyone &ndash; unlike Scott's fatal expedition, Amundsen's South Pole journey proceeded without a single death, exactly according to plan, and even returned earlier than calculated.</p>
+          <p class="vb-intro">The shadow of the social One with a Nine-wing shows in how hard its watchful, order-keeping stance reacts once a principle it experiences as just has been violated: when his companion Umberto Nobile publicly claimed greater credit after their joint North Pole flight of 1926, Amundsen responded with a sharp, publicly fought feud &ndash; uncompromising, without diplomatic restraint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Responsibility for the formation instead of solo heroics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the social One that Amundsen's achievements never stood under the sign of personal solo efforts: his expeditions were meticulously prepared team undertakings, in which every role was clearly assigned and the survival of the entire group came before everything else. When his former rival Nobile crashed with the airship "Italia" in 1928, Amundsen immediately flew out to rescue him despite years of personal estrangement &ndash; responsibility for the formation outweighed personal grievance.</p>
+          <p class="vb-intro">On this rescue flight, Amundsen disappeared over the Barents Sea in June 1928; his plane was never found. He died as he had lived: in service to an order greater than himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The goose who found the formation for a nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Amundsen left behind is more than a list of geographic firsts: he proved, with methodical, incorruptible precision, that careful preparation and respect for superior knowledge &ndash; even knowledge from outside one's own culture &ndash; triumph over national prestige claims and blind faith in tradition.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly fit this compass better: a man whose archetypal animal is the goose, who devoted his entire life to watchful, incorruptible responsibility for a formation &ndash; first for his crews, then for a young nation, and finally, on a rescue flight for an estranged companion, once more for a single person in danger.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-konrad-lorenz", label:"Portrait: Konrad Lorenz (SO1w9)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function ursulaVonDerLeyenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -50807,17 +50878,17 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined."
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
         beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
-        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself."
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea."
       },
       {
         titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
@@ -110128,6 +110199,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
+      "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
