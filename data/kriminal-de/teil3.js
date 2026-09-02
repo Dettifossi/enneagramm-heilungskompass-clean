@@ -4140,8 +4140,11 @@ export function fritzHonkaPortraitPage() {
         angeeignet – doch ihre grobe, geradezu grabende Beschaffenheit
         erinnert an das Bild des Maulwurfs, der sich mit kräftigen,
         schaufelartigen Vorderpfoten mühelos durch Widerstand gräbt –
-        interessanterweise ebenfalls ein Tier, das dem Prinzip der Fünf
-        zugeordnet wird. Honka brauchte keine Waffe: Seine Hände selbst
+        interessanterweise ebenfalls ein Tier, das dem Prinzip der
+        selbsterhaltenden Fünf zugeordnet wird – nicht der Fünf allgemein,
+        sondern gerade jener Selbsterhaltungs-Variante, die sich durch
+        körperliche Kraft und grabende Beharrlichkeit gegen eine als
+        bedrohlich erlebte Außenwelt behauptet. Honka brauchte keine Waffe: Seine Hände selbst
         verschafften ihm gegenüber den körperlich meist unterlegenen Frauen
         eine erdrückende Überlegenheit. In der Aufarbeitung des Falls,
         sowohl in der kriminalhistorischen Literatur als auch in späteren
