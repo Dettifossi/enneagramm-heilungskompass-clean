@@ -1613,6 +1613,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alberto Marini – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1972. Italian-Spanish screenwriter and director, [Rec], Mientras duermes (Sleep Tight), El Desconocido (Retribution). In Barcelona since 1999, decades-long collaboration with director Jaume Balagueró. The rabbit that dug its own safe burrow – and tells stories about its breach.",
     land:"Italy/Spain", tags:["Film"], gender:"m"},
+{ route:"beruehmte-karl-lauterbach", name:"Karl Lauterbach", added:"2026-09-02", subtyp:"SE6w5",
+    heading:"Karl Lauterbach – Self-Preservation Type 6",
+    teaser:"SP6w5 · born 1963. German health economist and politician, Federal Minister of Health 2021–2025. 'Team Vorsicht' ('Team Caution') during the COVID-19 pandemic – data-driven vigilance that tipped into public fearmongering. Portrayed as a cautionary case of the Six's shadow pattern, not as a role model.",
+    land:"Germany", tags:["Politik","Medizin"], gender:"m"},
 { route:"beruehmte-fjodor-dostojewski", name:"Fjodor Dostojewski", subtyp:"SE6w5",
     heading:"Fjodor Dostojewski – Self-Preservation Type 6",
     teaser:"SE6w5 · 1821–1881. Russian writer. Crime and Punishment, The Brothers Karamazov, The Idiot. The rabbit who survived a mock execution, Siberia, and gambling addiction – and wrote the deepest novels about fear, guilt, and faith that world literature has ever produced.",
@@ -28806,6 +28810,7 @@ function huangYongPingPortraitPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
         {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
       ])}
     </div>
   `);
@@ -28876,6 +28881,73 @@ function albertoMariniPortraitPage() {
   `);
 }
 
+function karlLauterbachPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-karl-lauterbach-portrait.jpg" alt="Karl Lauterbach – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lauterbach</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">German health economist &amp; politician, born 1963 &ndash; Federal Minister of Health 2021&ndash;2025</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Devoted Its Life to Warding Off Danger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, focused on risk, always striving to recognize danger earlier than others. Karl Lauterbach, born 1963, earned a doctorate in health economics at Harvard University and built a scientific reputation as an epidemiologist and health-policy expert over decades before entering politics. His entire professional life circled around the same basic question: how can danger to public health be recognized and averted as early as possible?</p>
+          <p class="vb-intro">This portrait looks exclusively at the Enneagram-typical behavior pattern &ndash; not at a political assessment of his tenure or his party. The question here is how the Six's passion, <strong>fear</strong>, can behave under extreme, years-long pressure when it is no longer kept in balance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Security Through Constant Risk Assessment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em> &ndash; but its security is often fought for first through constant vigilance toward danger, before real closeness can grow from it. Lauterbach's public presence during the COVID-19 pandemic from 2020 onward showed this pattern at an intensity that went far beyond the usual: hardly a day without a public warning, hardly a talk-show appearance without a reference to a new risk scenario.</p>
+          <p class="vb-intro">As a self-preservation type, this vigilance is not directed at the grand stage but at concrete survival &ndash; his own as well as society's. This is exactly why Lauterbach did not appear as a detached policy expert, but communicated with a personal, often urgent involvement that many citizens found authentic and others found excessive.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Numbers, Models, Statistics as Justification for the Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an intellectual, data-driven coloring. Lauterbach backed his warnings almost consistently with studies, model calculations, and international comparative figures &ndash; a style that earned him a reputation as a competent expert, while also leading, again and again, to figures being presented selectively and often in the worst-possible-case scenario.</p>
+          <p class="vb-intro">His self-chosen label "Team Vorsicht" ("Team Caution") captures this combination precisely: caution as a virtue, grounded in seemingly objective expertise &ndash; a typical legitimation strategy of the SP6w5, in which one's own fear is presented not as a feeling but as data-based precaution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. When Precaution Tips Into Public Fearmongering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">This is exactly where, viewed critically, the shadow side of this pattern shows itself with full clarity. Over the course of months, Lauterbach publicly painted horror scenarios &ndash; from drastic excess-mortality forecasts to statements that broadly linked the unvaccinated with death &ndash; several of which later proved to be significantly exaggerated or simply wrong. Scientists, journalists, and even parts of his own political base repeatedly criticized him for scaling individual risks up into mass panic instead of communicating in a differentiated way.</p>
+          <p class="vb-intro">This is not a neutral footnote but the core of what can happen when an SP6 with a Five-wing loses its balance: the originally protective vigilance itself becomes a burden &ndash; not only for the person carrying it, but for an entire society confronted for years with a permanent state of public alarm in which proportionality was visibly lost from view.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 lies in the ability to recognize danger earlier than others and to derive well-founded, fact-based action from it &ndash; an ability that in the first, uncertain months of the pandemic genuinely offered orientation, when hardly any reliable information was available.</p>
+          <p class="vb-intro">The shadow of the Six's fateful pattern, <strong>doubt</strong> or <strong>fear</strong>, shows here with almost textbook clarity: vigilance that can no longer regulate itself tips into catastrophizing &ndash; the danger is no longer realistically assessed, but conjured up again and again, ever more urgently, because one's own need for security can never be finally satisfied. This portrait therefore deliberately understands Lauterbach's public role during the pandemic as a cautionary example of where the Six's basic pattern can lead when it lacks any counterbalance &ndash; not as a role model.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Legacy: The Rabbit That Could No Longer Rein In Its Own Vigilance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the acute phase of the pandemic ended, Lauterbach had to confront, in hindsight, that numerous of his most urgent warnings had not been confirmed &ndash; a loss of trust that accompanied him until the end of his term as Federal Minister of Health in 2025. Where Dostoevsky, Huang Yong Ping, and Alberto Marini (all SP6w5, see their respective portraits) ultimately turned their vigilance into work that served others, what remained of Lauterbach's public image was shaped more by alarmism than by balanced leadership.</p>
+          <p class="vb-intro">The rabbit that wanted to calculate danger so thoroughly that it became, in the process, the source of a new, collective unrest of its own &ndash; a case study in how narrow the line can be between well-founded caution and self-generated fear, when the Six finds no footing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function fjodorDostojewskiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -28941,6 +29013,7 @@ function fjodorDostojewskiPortraitPage() {
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SE6w5)"},
         {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SE6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
         {route:"bibel-zachaeus", label:"Bible Portrait: Zacchaeus (SE6w5)"},
       ])}
@@ -49797,7 +49870,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -49823,6 +49896,11 @@ const LEBENSMUSTERKOMPASS = {
         titel: "Trust in an external, time-tested system instead of one's own uncertain judgment (especially with the 5-wing)",
         beschreibung: "Instead of relying on one's own judgment, control is deliberately handed over to a reliable, usually long-established procedure or system of order – security arises because something proven makes the decision, not the uncertain self.",
         beleg: "Huang Yong Ping, who for decades let dice and wheels of chance decide, following the principles of the I Ching, the color, form, and arrangement of his works: 'No personal statement, no artistic caprice – but a familiar, external procedure that takes over the decision where his own authority seemed too uncertain.'"
+      },
+      {
+        titel: "When protective vigilance tips into public catastrophizing (shadow form, especially with the 5-wing)",
+        beschreibung: "In its destructive expression, expertly grounded caution can no longer regulate itself and turns into repeated, increasingly urgent alarm messages – danger is no longer realistically weighed but publicly conjured up again and again, because one's own need for security can never be finally satisfied.",
+        beleg: "Karl Lauterbach, whose warnings during the COVID-19 pandemic were backed by studies and model calculations, yet repeatedly proved significantly exaggerated or wrong: 'The originally protective vigilance itself becomes a burden – not only for the person carrying it, but for an entire society.' Important: this is the only known case of this kind among the SE6 portraits in this compass, not a typical expression."
       }
     ]
   },
@@ -109592,6 +109670,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-huang-yong-ping": huangYongPingPortraitPage,
       "beruehmte-alberto-marini": albertoMariniPortraitPage,
+      "beruehmte-karl-lauterbach": karlLauterbachPortraitPage,
       "beruehmte-fjodor-dostojewski": fjodorDostojewskiPortraitPage,
       "beruehmte-franz-schubert": franzSchubertPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,

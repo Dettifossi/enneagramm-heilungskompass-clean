@@ -1657,6 +1657,7 @@ export function huangYongPingPortraitPage() {
         {route:"subtype/se6", label:"SE6 &ndash; Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-alberto-marini", label:"Portr\xe4t: Alberto Marini (SE6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portr\xe4t: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
   `);

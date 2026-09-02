@@ -1603,3 +1603,69 @@ export function winifredCharlesworthPortraitPage() {
     </div>
   `);
 }
+
+export function karlLauterbachPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-karl-lauterbach-portrait.jpg" alt="Karl Lauterbach – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Karl Lauterbach</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Gesundheits\xf6konom &amp; Politiker, geb. 1963 &ndash; Bundesgesundheitsminister 2021&ndash;2025</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das sein Leben der Gefahrenabwehr widmete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam, auf Risiken fokussiert, stets bem\xfcht, Gefahr fr\xfcher zu erkennen als andere. Karl Lauterbach, 1963 geboren, promovierte in Gesundheits\xf6konomie an der Harvard University und baute sich \xfcber Jahrzehnte eine wissenschaftliche Reputation als Epidemiologe und Gesundheitsexperte auf, bevor er in die Politik wechselte. Sein gesamtes berufliches Leben kreiste um dieselbe Grundfrage: Wie l\xe4sst sich Gefahr f\xfcr die Gesundheit m\xf6glichst fr\xfch erkennen und abwenden?</p>
+          <p class="vb-intro">Dieses Portr\xe4t betrachtet ausschlie\xdflich das enneagrammtypische Verhaltensmuster &ndash; keine politische Bewertung seiner Amtsf\xfchrung oder seiner Partei. Es geht um die Frage, wie sich die Leidenschaft der Sechs, die <strong>Angst</strong>, unter extremem, jahrelangem Druck verhalten kann, wenn sie nicht mehr ausbalanciert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch permanente Risikoeinsch\xe4tzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>W\xe4rme</em> nannte &ndash; aber ihre Sicherheit erk\xe4mpft sie sich oft zuerst \xfcber st\xe4ndige Wachsamkeit gegen\xfcber Gefahr, bevor daraus echte N\xe4he entstehen kann. Lauterbachs \xf6ffentliches Auftreten w\xe4hrend der Corona-Pandemie ab 2020 zeigte dieses Muster in einer Intensit\xe4t, die \xfcber das \xfcbliche Ma\xdf weit hinausging: kaum ein Tag ohne \xf6ffentliche Warnung, kaum ein Talkshow-Auftritt ohne den Verweis auf ein neues Risikoszenario.</p>
+          <p class="vb-intro">Als selbsterhaltender Typ richtet sich diese Wachsamkeit nicht auf die gro\xdfe B\xfchne, sondern auf das konkrete \xdcberleben &ndash; das eigene wie das der Gesellschaft. Genau das erkl\xe4rt, warum Lauterbach nicht als distanzierter Fachpolitiker auftrat, sondern mit einer pers\xf6nlichen, oft dringlichen Betroffenheit kommunizierte, die viele B\xfcrger als authentisch, andere als \xfcberzogen empfanden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Zahlen, Modelle, Statistiken als Rechtfertigung der Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> gibt der selbsterhaltenden Sechs eine intellektuelle, datengetriebene F\xe4rbung. Lauterbach untermauerte seine Warnungen fast durchgehend mit Studien, Modellrechnungen und internationalen Vergleichszahlen &ndash; ein Stil, der ihm den Ruf des kompetenten Fachmanns einbrachte, gleichzeitig aber auch dazu f\xfchrte, dass Zahlen selektiv und oft im schlechtestm\xf6glichen Szenario pr\xe4sentiert wurden.</p>
+          <p class="vb-intro">Die selbst gew\xe4hlte Selbstbezeichnung \xbbTeam Vorsicht\xab bringt diese Kombination auf den Punkt: Vorsicht als Tugend, begr\xfcndet durch scheinbar objektive Fachlichkeit &ndash; eine typische Legitimationsstrategie der SE6w5, bei der die eigene Angst nicht als Gef\xfchl, sondern als datenbasierte Vorsorge dargestellt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wenn Vorsorge zur \xf6ffentlichen Angstmache kippt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Genau hier zeigt sich, kritisch betrachtet, die Schattenseite dieses Musters in aller Deutlichkeit. \xdcber Monate hinweg zeichnete Lauterbach \xf6ffentlich Horrorszenarien &ndash; von drastischen \xdcbersterblichkeitsprognosen bis zu Aussagen, die Ungeimpfte pauschal mit dem Tod in Verbindung brachten &ndash;, von denen sich mehrere im Nachhinein als deutlich \xfcbertrieben oder schlicht falsch erwiesen. Wissenschaftler, Journalisten und selbst Teile der eigenen politischen Basis kritisierten wiederholt, dass er Einzelrisiken zu Massenpaniken hochskalierte, statt differenziert zu kommunizieren.</p>
+          <p class="vb-intro">Das ist keine neutrale Randnotiz, sondern der Kern dessen, was bei einer aus dem Gleichgewicht geratenen SE6 mit F\xfcnferfl\xfcgel geschehen kann: Die urspr\xfcnglich sch\xfctzende Wachsamkeit wird selbst zur Belastung &ndash; nicht nur f\xfcr den Menschen, der sie tr\xe4gt, sondern f\xfcr eine ganze Gesellschaft, die \xfcber Jahre mit einem Dauerzustand \xf6ffentlicher Alarmiertheit konfrontiert wurde, bei dem Verh\xe4ltnism\xe4\xdfigkeit erkennbar aus dem Blick geriet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 liegt in der F\xe4higkeit, Gefahr fr\xfcher zu erkennen als andere und daraus fundiertes, faktenbasiertes Handeln abzuleiten &ndash; eine F\xe4higkeit, die in den ersten, ungewissen Monaten der Pandemie tats\xe4chlich Orientierung bot, als kaum verl\xe4ssliche Informationen verf\xfcgbar waren.</p>
+          <p class="vb-intro">Der Schatten des Schicksalsmusters der Sechs, der <strong>Zweifel</strong> bzw. die <strong>Angst</strong>, zeigt sich hier in beinahe lehrbuchhafter Deutlichkeit: Wachsamkeit, die sich nicht mehr regulieren l\xe4sst, kippt in Katastrophisierung um &ndash; die Gefahr wird nicht mehr realistisch eingesch\xe4tzt, sondern immer wieder neu, immer dringlicher beschworen, weil das eigene Sicherheitsbed\xfcrfnis nie endg\xfcltig gestillt werden kann. Dieses Portr\xe4t versteht Lauterbachs \xf6ffentliche Rolle w\xe4hrend der Pandemie deshalb bewusst als warnendes Beispiel daf\xfcr, wohin das Grundmuster der Sechs f\xfchren kann, wenn ihm jede Gegensteuerung fehlt &ndash; nicht als Vorbild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Verm\xe4chtnis: Das Kaninchen, das seine eigene Wachsamkeit nicht mehr z\xfcgeln konnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Ende der akuten Pandemiephase musste sich Lauterbach mit dem R\xfcckblick auseinandersetzen, dass zahlreiche seiner dringlichsten Warnungen sich nicht best\xe4tigt hatten &ndash; ein Vertrauensverlust, der ihn bis zum Ende seiner Amtszeit als Bundesgesundheitsminister 2025 begleitete. Wo Dostojewski, Huang Yong Ping und Alberto Marini (alle SE6w5, siehe entsprechende Portr\xe4ts) ihre Wachsamkeit letztlich in Werke verwandelten, die anderen dienten, blieb bei Lauterbach ein \xf6ffentliches Bild zur\xfcck, das st\xe4rker von Alarmismus als von ausgewogener F\xfchrung gepr\xe4gt war.</p>
+          <p class="vb-intro">Das Kaninchen, das die Gefahr so gr\xfcndlich kalkulieren wollte, dass es dabei selbst zur Quelle einer neuen, kollektiven Unruhe wurde &ndash; ein Fallbeispiel daf\xfcr, wie schmal der Grat zwischen begr\xfcndeter Vorsicht und selbst erzeugter Angst sein kann, wenn die Sechs keinen Halt mehr findet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se6", label:"SE6 &ndash; Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
+        {route:"beruehmte-huang-yong-ping", label:"Portr\xe4t: Huang Yong Ping (SE6w5)"},
+        {route:"beruehmte-alberto-marini", label:"Portr\xe4t: Alberto Marini (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

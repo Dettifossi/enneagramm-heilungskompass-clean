@@ -1664,6 +1664,7 @@ export function albertoMariniPortraitPage() {
         {route:"subtype/se6", label:"SE6 &ndash; Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portr\xe4t: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portr\xe4t: Huang Yong Ping (SE6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portr\xe4t: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
   `);
