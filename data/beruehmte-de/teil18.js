@@ -1645,7 +1645,7 @@ export function aliWongPortraitPage() {
         <h2 class="vb-section">3. Der Sechserflügel: die Absicherung hinter dem Risiko</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben eine Qualität, die im Kontrast zu ihrer Risikofreude steht: methodische Absicherung, bevor der große Sprung gewagt wird. Wong beschrieb ihre eigene Arbeitsmoral wiederholt als Vermächtnis ihrer Einwandererfamilie &ndash; über hundert Stand-up-Auftritte spielte sie ein, bevor sie "Baby Cobra" überhaupt aufzeichnete, statt sich auf spontane Bühnenpräsenz zu verlassen.</p>
-          <p class="vb-intro">Auch ihre Karrierestruktur folgt dieser Sechser-Note: Die feste Anstellung als Sitcom-Autorin lief parallel zum riskanteren Stand-up-Aufbau weiter, bis Letzteres tragfähig genug war &ndash; nicht das schillernde Alles-auf-eine-Karte-Setzen, sondern eine über Jahre abgesicherte, methodisch aufgebaute Existenzgrundlage, aus der heraus dann das eigentliche Risiko erst eingegangen wurde.</p>
+          <p class="vb-intro">Auch ihre Karrierestruktur folgt dieser Sechser-Note: Die feste Anstellung als Sitcom-Autorin lief parallel zum riskanteren Stand-up-Aufbau weiter, bis Letzterer tragfähig genug war &ndash; nicht das schillernde Alles-auf-eine-Karte-Setzen, sondern eine über Jahre abgesicherte, methodisch aufgebaute Existenzgrundlage, aus der heraus dann das eigentliche Risiko erst eingegangen wurde.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
