@@ -1621,3 +1621,70 @@ export function cleopatraPortraitPage() {
     </div>
   `);
 }
+
+export function alanTuringPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-alan-turing-portrait.jpg" alt="Alan Turing – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Turing</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Mathematiker, Logiker und Kryptoanalytiker, 1912&ndash;1954 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der die Welt allein entschlüsselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier der sexuellen Fünf &ndash; nach außen stachelig, unnahbar, ganz auf sich gestellt, und darunter eine Weichheit, die sich nur sehr wenigen zeigt. Alan Mathison Turing, geboren 1912 in London, war genau das: ein Mann, dessen Alltagserscheinung &ndash; zerzauste Kleidung, ein an die Heizung gekettete Teetasse, ein auffälliger Stotterer, lange einsame Läufe &ndash; für die meisten Zeitgenossen schwer einzuordnen war, während sich dahinter einer der originellsten mathematischen Köpfe des 20. Jahrhunderts verbarg.</p>
+          <p class="vb-intro">1936 veröffentlichte Turing, gerade 24 Jahre alt, die Arbeit "On Computable Numbers", in der er das Konzept einer universellen Rechenmaschine entwarf &ndash; die theoretische Grundlage der gesamten modernen Informatik, Jahrzehnte bevor ein Computer im heutigen Sinn existierte. Er löste damit ein Problem, an dem sich die etablierte mathematische Logik seiner Zeit die Zähne ausgebissen hatte, fast beiläufig, allein, ohne ein Team.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Die eine Verbindung, die alles überstrahlte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> reserviert ihre gesamte emotionale Intensität nicht für viele, sondern für sehr wenige, dafür umso tiefere Verbindungen &ndash; und lebt in diesen wenigen Bindungen mit einer Hingabe, die im Kontrast zu ihrer sonstigen Zurückhaltung steht. Als Schüler an der Sherborne School lernte Turing Christopher Morcom kennen, einen Mitschüler, mit dem ihn eine tiefe intellektuelle und emotionale Nähe verband. Als Morcom 1930 unerwartet an einer Tuberkulose-Infektion starb, brach für Turing eine Welt zusammen, die er nie wieder vollständig ersetzte.</p>
+          <p class="vb-intro">In den folgenden Jahren beschäftigte sich Turing intensiv mit der Frage, ob Bewusstsein oder Geist den Tod des Körpers überdauern könnten &ndash; ein Gedanke, der sich später, verwandelt, in seinen Arbeiten zur Frage wiederfindet, ob eine Maschine "denken" könne. Die eine, exklusive Verbindung, die er verlor, wurde zur stillen Triebfeder eines ganzen Lebenswerks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Das Gefühl, grundlegend anders zu sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Fünf eine melancholische, oft tragisch gefärbte Note &ndash; das Gefühl, auf eine grundlegende Weise anders zu sein als die Mehrheit, verbunden mit einer besonderen emotionalen Tiefe. Turings Homosexualität, in England bis 1967 strafbar, war ein Teil dieses Andersseins, aber nicht der einzige: Auch sein Denken selbst folgte selten den ausgetretenen Pfaden seiner Disziplin.</p>
+          <p class="vb-intro">1952 zeigte Turing bei der Polizei einen Einbruch in seiner Wohnung an &ndash; im Zuge der Ermittlungen kam seine Beziehung zu dem jungen Arnold Murray ans Licht. Turing wurde wegen "grober Unsittlichkeit" angeklagt und verurteilt; statt einer Gefängnisstrafe wählte er eine hormonelle Behandlung, die seinerzeit als chemische Kastration bekannt war. Er verlor seine Sicherheitsfreigabe und damit den Zugang zu genau der kryptografischen Arbeit, die er dem Land Jahre zuvor geschenkt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist die Fähigkeit, <strong>eine einzige, radikal durchdachte Idee bis in ihre letzte Konsequenz zu verfolgen</strong>, ohne sich durch Konventionen oder Institutionen aufhalten zu lassen &ndash; im Zweiten Weltkrieg leitete Turing in Bletchley Park die Sektion Hut 8 und war maßgeblich an der Entschlüsselung der deutschen Marine-Enigma beteiligt; Historiker schätzen, dass seine Arbeit den Krieg um mehrere Jahre verkürzte und Millionen Menschenleben rettete.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Fünf mit Viererflügel zeigt sich darin, wie sehr die eine exklusive Verbindung zur Verletzlichkeit werden kann: Genau jene Fähigkeit zu tiefer, einzelner Bindung, die Turing zu Christopher Morcom und später zu Arnold Murray trug, wurde ihm in einer Gesellschaft, die diese Bindung kriminalisierte, zum Verhängnis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Radikaler Durchbruch statt Anpassung an das System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die sexuelle Fünf ist, dass Turing sich nie an ein bestehendes System band, sondern die eine, entscheidende Frage bis zum Äußersten durchdrang &ndash; mit derselben schneidenden, oft einsamen Konsequenz, die sich im Lebensmusterkompass dieses Subtyps auch bei Friedrich Nietzsche findet. 1950 veröffentlichte er "Computing Machinery and Intelligence" und schlug darin den nach ihm benannten Turing-Test vor &ndash; eine Frage, die die etablierte Philosophie und Psychologie seiner Zeit für kaum diskussionswürdig hielt und die bis heute die Debatte über künstliche Intelligenz prägt.</p>
+          <p class="vb-intro">Auch nach dem Krieg arbeitete er weiter an den Grundlagen des maschinellen Rechnens, am National Physical Laboratory und später in Manchester &ndash; stets an der Grenze dessen, was für möglich gehalten wurde, stets ohne Rücksicht auf akademische Konventionen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Igel, dessen Stacheln der Staat gegen ihn richtete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alan Turing starb am 7. Juni 1954, offiziell an einer Zyanidvergiftung, die als Suizid gewertet wurde. Er wurde nur 41 Jahre alt. 2009 entschuldigte sich die britische Regierung offiziell für den Umgang mit ihm, 2013 begnadigte ihn Königin Elizabeth II. posthum, und 2017 wurden unter dem nach ihm benannten "Turing Law" tausende weitere Männer nachträglich rehabilitiert, die unter denselben Gesetzen verurteilt worden waren.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum bewegender sein könnte: ein Mann, dessen archetypisches Tier der Igel ist, der der Welt mit seiner stachelig-unnahbaren Fassade eine der folgenreichsten Ideen der Geschichte schenkte &ndash; und dessen weichster, verletzlichster Teil, die Fähigkeit zu exklusiver, tiefer Bindung, von ebendieser Welt zerstört wurde, kaum dass sie ihn nicht mehr brauchte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx5", label:"Lebensmusterkompass: SX5 – Igel"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-greta-garbo", label:"Porträt: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-hugh-warwick", label:"Porträt: Hugh Warwick (SX5w4)"},
+      ])}
+    </div>
+  `);
+}

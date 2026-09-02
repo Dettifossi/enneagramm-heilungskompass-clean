@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=60";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=61";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1598,6 +1598,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Jodie Foster – Sexual Type 5",
     teaser:"SX5w6 · born 1962. Actress, director. The Silence of the Lambs, Contact, Nell. The hedgehog that shows itself to no one who hasn't earned it – and shows itself fully to the one who has.",
     tags:["Schauspiel"] , gender:"f"},
+{ route:"beruehmte-alan-turing", name:"Alan Turing", added:"2026-09-02", subtyp:"SX5w4",
+    heading:"Alan Turing – Sexual Type 5",
+    teaser:"SX5w4 · Mathematician, logician and cryptanalyst, 1912–1954. Broke the German Enigma with his team during World War II, founded theoretical computer science with the Turing machine. Convicted for homosexuality, chemically castrated, dead at 41. The hedgehog whose own spines the state turned against him.",
+    land:"United Kingdom", tags:["Wissenschaft","Geschichte"], gender:"m"},
 { route:"beruehmte-frederic-chopin", name:"Fr\xe9d\xe9ric Chopin", added:"2026-07-21", subtyp:"SX5w4",
     heading:"Fr\xe9d\xe9ric Chopin – Sexual Type 5",
     teaser:"SX5w4 \xb7 1810–1849. Composer, pianist. Nocturnes, \xc9tudens, mazurkas, ballads. The hedgehog who almost never performed - and whose music can still be heard in every concert hall two hundred years later.",
@@ -19881,6 +19885,73 @@ function friedrichNietzschePortraitPage() {
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whose duty-based ethics he sharply criticized"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function alanTuringPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-alan-turing-portrait.jpg" alt="Alan Turing – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Turing</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Mathematician, logician and cryptanalyst, 1912&ndash;1954 &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The hedgehog who decoded the world alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; spiky and unapproachable on the outside, entirely self-reliant, and underneath a softness that shows itself to only very few. Alan Mathison Turing, born in 1912 in London, was exactly that: a man whose everyday appearance &ndash; rumpled clothes, a mug chained to a radiator, a noticeable stammer, long solitary runs &ndash; was hard for most of his contemporaries to place, while behind it stood one of the most original mathematical minds of the twentieth century.</p>
+          <p class="vb-intro">In 1936, at just 24, Turing published "On Computable Numbers," in which he devised the concept of a universal computing machine &ndash; the theoretical foundation of all modern computer science, decades before a computer in today's sense existed. He solved, almost in passing, alone, without a team, a problem that the established mathematical logic of his day had failed to crack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Five: the one bond that outshone everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> reserves its entire emotional intensity not for many, but for very few, all the deeper connections &ndash; and lives out those few bonds with a devotion that stands in stark contrast to its usual reserve. As a student at Sherborne School, Turing met Christopher Morcom, a fellow pupil with whom he shared a deep intellectual and emotional closeness. When Morcom died unexpectedly of a tuberculosis infection in 1930, a world collapsed for Turing that he never fully replaced.</p>
+          <p class="vb-intro">In the years that followed, Turing engaged intensely with the question of whether consciousness or spirit could survive the death of the body &ndash; a thought that later resurfaces, transformed, in his work on whether a machine could "think." The one, exclusive connection he lost became the quiet driving force behind an entire life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: the feeling of being fundamentally different</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Five a melancholic, often tragically tinged note &ndash; the feeling of being fundamentally different from the majority, paired with a particular emotional depth. Turing's homosexuality, illegal in England until 1967, was part of this sense of being different, but not the only part: his thinking itself rarely followed the well-worn paths of his discipline.</p>
+          <p class="vb-intro">In 1952, Turing reported a burglary at his home to the police &ndash; the investigation that followed brought his relationship with the young Arnold Murray to light. Turing was charged with and convicted of "gross indecency"; instead of a prison sentence, he chose a hormonal treatment that came to be known as chemical castration. He lost his security clearance and, with it, access to the very cryptographic work he had given his country years earlier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is its ability to <strong>pursue a single, radically thought-through idea to its ultimate consequence</strong>, undeterred by convention or institution &ndash; during the Second World War, Turing led Hut 8 at Bletchley Park and was instrumental in breaking the German naval Enigma; historians estimate his work shortened the war by several years and saved millions of lives.</p>
+          <p class="vb-intro">The shadow of the sexual Five with a Four-wing shows in how much that one exclusive connection can become a vulnerability: the very capacity for deep, singular bonding that drew Turing to Christopher Morcom and later to Arnold Murray became his undoing in a society that criminalized that bond.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Radical breakthrough instead of conforming to the system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the sexual Five that Turing never tied himself to an existing system, but instead pursued the one decisive question to its furthest extreme &ndash; with the same cutting, often solitary consequence found elsewhere in this subtype's Life Pattern Compass in Friedrich Nietzsche. In 1950 he published "Computing Machinery and Intelligence" and proposed the test that now bears his name &ndash; a question the established philosophy and psychology of his time considered barely worth discussing, and one that still shapes the debate on artificial intelligence today.</p>
+          <p class="vb-intro">After the war, too, he continued working on the foundations of machine computation, at the National Physical Laboratory and later in Manchester &ndash; always at the edge of what was thought possible, always indifferent to academic convention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The hedgehog whose own spines the state turned against him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alan Turing died on June 7, 1954, officially of cyanide poisoning, ruled a suicide. He was only 41. In 2009 the British government formally apologized for how he had been treated, in 2013 Queen Elizabeth II granted him a posthumous royal pardon, and in 2017 the law named after him, "Turing's Law," posthumously pardoned thousands of other men convicted under the same statutes.</p>
+          <p class="vb-intro">In the end, one image remains that could hardly be more moving for this compass: a man whose archetypal animal is the hedgehog, who gave the world, from behind his spiky, unapproachable exterior, one of the most consequential ideas in history &ndash; and whose softest, most vulnerable part, the capacity for exclusive, deep bonding, was destroyed by that very world the moment it no longer needed him.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-hugh-warwick", label:"Portrait: Hugh Warwick (SX5w4)"},
       ])}
     </div>
   `);
@@ -50402,7 +50473,7 @@ const LEBENSMUSTERKOMPASS = {
   SX5: {
     tier: "Hedgehog",
     kernthema: "Spikes on the outside, softness within – trust as an exclusive, protected space",
-    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "The Man of Gerasa"],
+    beispiele: ["Frédéric Chopin", "Taylor Swift", "Tilda Swinton", "Friedrich Nietzsche", "Greta Garbo", "Mark Zuckerberg", "Edward Snowden", "Jodie Foster", "Jeffrey Dahmer", "Joel Rifkin", "Hugh Warwick", "The Man of Gerasa", "Alan Turing"],
     fingerabdruecke: [
       {
         titel: "Spikes on the outside, extraordinary softness underneath – accessible only to very few",
@@ -50412,12 +50483,12 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Retreat as a deliberate reserving of intimacy for a few exclusive connections",
         beschreibung: "Withdrawal from the public eye doesn't mean indifference to closeness, but exactly the opposite: energy and intimacy are consciously saved for very few, but very deep, relationships.",
-        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace; Hugh Warwick, whose decades of almost loving devotion concentrate exclusively on a single animal instead of spreading across many subjects – 'A Prickly Affair,' as he himself calls his life's work; Frédéric Chopin, who gave scarcely thirty public concerts in his entire life, yet lived a single nine-year connection with George Sand, after which he composed almost nothing more – and whose tuberculosis accelerated dramatically in the very year of that separation, as if his physical strength depended on the same one bond as his creative power; Tilda Swinton, who has worked for decades in tight, recurring circles – with Derek Jarman, with Wes Anderson – rather than constantly changing her surroundings, and who withdrew privately to a remote house in the Scottish Highlands."
+        beleg: "Jodie Foster: 'The retreat happens not out of indifference, but to save one's own intimacy and energy for very few, exclusive connections'; Greta Garbo, who at 36 withdrew from public life for almost fifty years: 'Total immersion in the one intense encounter ... and just as radical a retreat before and after' – 'I want to be let alone,' not alone, but left in peace; Hugh Warwick, whose decades of almost loving devotion concentrate exclusively on a single animal instead of spreading across many subjects – 'A Prickly Affair,' as he himself calls his life's work; Frédéric Chopin, who gave scarcely thirty public concerts in his entire life, yet lived a single nine-year connection with George Sand, after which he composed almost nothing more – and whose tuberculosis accelerated dramatically in the very year of that separation, as if his physical strength depended on the same one bond as his creative power; Tilda Swinton, who has worked for decades in tight, recurring circles – with Derek Jarman, with Wes Anderson – rather than constantly changing her surroundings, and who withdrew privately to a remote house in the Scottish Highlands; Alan Turing, whose early, deep bond with his schoolmate Christopher Morcom was never replaced after Morcom's early death, and whose later, brief relationship with Arnold Murray became the turning point of his entire life – the one exclusive connection for which all emotional intensity remained reserved."
       },
       {
         titel: "Radical breakthrough to the core instead of attachment to system, status, or possessions",
         beschreibung: "Instead of binding oneself to external securities, social systems, or institutions, the one decisive question is pursued to its utmost – with cutting, often solitary consistency.",
-        beleg: "Friedrich Nietzsche, who 'preferred, from the start, to think alone rather than in company,' writing his work with cutting, often solitary consistency against every philosophical institution of his time."
+        beleg: "Friedrich Nietzsche, who 'preferred, from the start, to think alone rather than in company,' writing his work with cutting, often solitary consistency against every philosophical institution of his time; Alan Turing, who at 24 devised the theoretical foundation of all modern computer science and later, with the test that bears his name, posed a question about machine intelligence that the established philosophy and psychology of his time considered barely worth discussing – always at the edge of what was thought possible, always indifferent to academic convention."
       },
       {
         titel: "When the desire for exclusive closeness tips into a claim of ownership over the other (shadow form)",
@@ -110182,6 +110253,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dieter-nuhr": dieterNuhrPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
+      "beruehmte-alan-turing": alanTuringPortraitPage,
       "beruehmte-jean-jacques-rousseau": jeanJacquesRousseauPortraitPage,
       "beruehmte-gloria-von-thurn-und-taxis": gloriaVonThurnUndTaxisPortraitPage,
       "beruehmte-jack-black": jackBlackPortraitPage,
