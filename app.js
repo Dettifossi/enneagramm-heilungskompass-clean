@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=56";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=57";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15903,6 +15903,7 @@ const uiText = {
       { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
+      { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -42719,6 +42720,136 @@ function tierentsprechungenPage() {
   `);
 }
 
+function blickqualitaetenAtlasPage() {
+  const heading1 = ["Der Perfektionist","Der Helfer","Der Leistungsmensch","Der Individualist","Der Forscher","Der loyale Skeptiker","Der Enthusiast","Der Herausforderer","Der Friedensstifter"];
+  const BLICKQUALITAETEN_DATEN = [
+  { typ: 1, heading: "Der Perfektionist — Reptilienaugen, starrer kontrollierter Blick", tiles: [
+    { code: "SE1", animal: "Weißkopfseeadler", blick: "sicher, emotionslos, starr, positiv, warm-freundlich, „Reptilienaugen\", ernst, instinktiv, mitunter düster, kontrollierend, kaltglänzend, „Platin-Augen\", sorgenvoll präsent, nüchtern, (latent) aggressiv, fokussiert, starrer, erstarrter, „Adler-Blick\".", wirkung: "gesammelt, gepflegtes Äußeres, warm, ernst, rund, freundlich, moralisch, präzise, selbstdiszipliniert, fest, sicher, distanziert, mitunter zornig, verbessernd, gezügelt, beherrscht, ausdauernd, beharrlich, aufrechte Haltung; kontrollierte Sorgenfalte, angespannte Kiefermuskulatur; nur gelegentlicher Einsatz des Zeigefingers &ndash; die SE1 zeigt selten offen auf andere, tut es aber vereinzelt, um die eigene Selbstbeherrschung/Ordnung zu unterstreichen." },
+    { code: "SO1", animal: "Rotschnabelpfeifgans", blick: "starr, kühl, arrogant, erwachsen, fokussiert, „Laser\"-Blick, zornig, berechnend, kritisch, rechthaberisch, Reptilienaugen, kalt, aggressiv, gelassen, dominant, sicher, distanziert, emotionslos, durchdringend, freundlich, beherrscht, abgehoben, Platinaugen, arrogant-glänzend, „Gänse-Blick\".", wirkung: "kalt, erwachsen, arrogant, zornig, ernst, fokussiert, distanziert, verbessernd, angespannt, aristokratisch, kühl, präsent, perfektionistisch, „von oben herab\", durchdringend, freundlich-angepasst, korrekt, lehrerhaft, vorbildlich, fair — der „überlegene Aristokrat\"; sehr häufiger Einsatz des Zeigefingers &ndash; wie ein Dirigent, der die Verbesserung der Gesellschaft mit sichtbarer Geste einfordert." },
+    { code: "SX1", animal: "Schwarze Mamba", blick: "starr, kühl, fokussiert, missionarisch, zornig, instinktiv, Reptilienaugen, Platinaugen (kalt-fokussiert, kühl-distanziert, unnahbar), überlegen, ernst, düster, berechnend, ausdrucksstark, präzise, hitzig, impulsiv, verführerisch, mitunter feindselig, „Schwarze-Mamba-Blick\".", wirkung: "hitzig, jugendlich, provokant, arrogant, offen aggressiv, dominant, herrisch, missionarisch, starr, überlegen, präzise — der „Eifer sucht deine Fehler\"; gelegentlicher Einsatz des Zeigefingers, meist dann, wenn in Beziehungen der Zorn hochkommt." },
+  ]},
+  { typ: 2, heading: "Der Helfer — Bambi-/Golden-Retriever-Augen, warm-kümmernd", tiles: [
+    { code: "SE2", animal: "Hippopotamus", blick: "dominant, „betrugwitternd\", voll, rund, emotional-glänzend, stolz, frech, warm, egoistisch, mitunter kümmernd, provokant, kindlich, kratzbürstig, herausfordernd, betrogen, kiebig („Wer hat mir mein Butterbrot geklaut?\"-Blick), gereizt, „Hippo-Blick\", „Rehkitz-Blick\".", wirkung: "kindlich, warm, stolz, weich, emotional, mitunter egozentrisch, ausdrucksstark, dominant, gesammelt, selbstdarstellerisch, skeptisch, gereizt, gekränkt („How dare you?!\"), lieb, mütterlich — „Liebe-mich, es steht mir zu\"-Wirkung." },
+    { code: "SO2", animal: "Golden Retriever", blick: "stolz, ernst, warm, angepasst, lieb, emotional, weich, kümmernd, hochmütig, voll, glänzend, herzlich, distanziert, zurückhaltend, „Golden Retriever-Blick\", „Bambi-Augen\" — Augen vermitteln warmen, zwischenmenschlichen Kontakt.", wirkung: "erwachsen, stolz, emotional, verantwortungsbewusst, ernst, feminin, ausdrucksstark, kühl-beherrscht, kümmernd, freundlich, empathisch, distanziert — „Durch-mich-läuft-alles-wie-geschmiert\"-Wirkung, einladendes Lächeln." },
+    { code: "SX2", animal: "Kamel", blick: "stolz, kümmernd, lieb, freundlich, voll, emotional-glänzend, verführerisch, feurig, ausdrucksstark, attraktiv, „Bambi-Augen\" eines heranwachsenden Rehkitzes, charmant, „Kamel-Blick\".", wirkung: "jugendlich, feminin, stolz, emotional, weich, warm, ausdrucksstark, anziehend, lieb, erlebnisorientiert (ähnlich SX7), attraktiv, selbstdarstellerisch, freundlich, kümmernd, musternd, charmant, mütterlich, hitzig — „mein ist dein ganzes Herz!\"." },
+  ]},
+  { typ: 3, heading: "Der Leistungsmensch — fokussiert, berechnend, selbstdarstellerisch", tiles: [
+    { code: "SE3", animal: "Waschbär", blick: "fokussiert, freundlich-gesammelt, kühl-matt-glänzend, dominant, düster, nach außen gerichtet, professionell, durchdringend, „Strahleaugen\", emotionslos, spinnenartig, wärme-imitierend, berechnender Blick („Wie kann ich dich für mich nutzen?\"), ausgeprägte Augenringe als Zeichen unterdrückter Emotionen, „Waschbär-Blick\", „Bernstein-Augen\".", wirkung: "fokussiert, gesammelt, unnahbar, kühl, charmant, professionell, imageorientiert, selbstdarstellerisch, zukunftsorientiert, egoistisch, warm, freundlich, kindlich, gepflegt, selbstbewusst, besonnen, berechnend — „uneitle Modell-Perfektion\"." },
+    { code: "SO3", animal: "Gepard", blick: "fokussiert, kalt-matt-glänzend, dominant, düster, leer, nach außen gerichtet, professionell, durchdringend, „Strahleaugen\", emotionslos, spinnenartig, berechnend, ausdrucksstark, angeberisch, eitel, posierend, oberflächlich, Tiefe imitierend, kalkulierend, „Gepard-Blick\".", wirkung: "fokussiert, kalt-selbstdarstellerisch, erfolgsorientiert, charmant, kühl, glänzend, arrogant, angeberisch, ruhmsüchtig, applaussüchtig, maskiert, eitel — „Bravo Exzellenz\"." },
+    { code: "SX3", animal: "Pfau", blick: "fokussiert, kühl-glänzend, berechnend, nach außen gerichtet, „Pfauen-Blick\", gewieft, hinterhältig, oberflächlich, angeberisch, selbstdarstellerisch, verführerisch (Verwechslung mit SX2!), durchdringend, „Strahleaugen\", traurig (mit ausgeprägtem 4er-Flügel), herausfordernd, „Super- oder Filmstar-Blick\".", wirkung: "selbstdarstellerisch, imageorientiert, jugendlich, zukunftsgerichtet, liebevoll, selbstbewusst, charmant, charismatisch, ehrgeizig, hinterhältig, opportunistisch, narzisstisch, eitel, gepflegt, temperamentvoll, dominant, hitzig — innerlich schüchtern, „Super Gender\", „Porzellanpuppen-Gesicht\"." },
+  ]},
+  { typ: 4, heading: "Der Individualist — Tauben-/Gürteltier-/Chihuahua-Blick, melancholisch-tief", tiles: [
+    { code: "SE4", animal: "Haustaube", blick: "tiefgründig, emotional, träumerisch, melancholisch, „Hellseher-Augen\", sehnsüchtig, unerschrocken, mitunter düster, Gefühle verbergend, „Tauben-Blick\"; „strohig-wirkende\" Augenbrauen, unschuldiger kindlicher „Engelsblick\".", wirkung: "kindlich, warm, traurig, tief, ausdrucksstark, freundlich, melancholisch, gesammelt, authentisch, unerschrocken, hart, bodenständig, zurückhaltend, nach außen freundlich aber introvertiert — die pragmatischste, angepassteste Vier, „The glad Four\"." },
+    { code: "SO4", animal: "Neunbinden-Gürteltier", blick: "traurig, ausdrucksstark, tief, verträumt, melancholisch, ernst, kalt, sorgenvoll, authentisch, emotional, glänzend, schamerfüllt, sensibel, „Gürteltier-Blick\", „Seehund-Blick\", „Du-verstehst-mich-sowieso-nicht-Blick\", feuchte Augen.", wirkung: "erwachsen, traurig, tief, ausdrucksstark, melancholisch, kritisch, ernst, kalt, pessimistisch, authentisch, verträumt, tief-emotional — das „Tränen-Glück\", „The sad Four\"." },
+    { code: "SX4", animal: "Chihuahua", blick: "tief-träumerisch, provokant-glänzend, nach innen gerichtet, emotional, verführerisch, ausdrucksstark, facettenreich, melancholisch, dramatisch-theatralisch, hasserfüllt, rivalisierend, missgünstig, abschätzend, „Chihuahua-Blick\", feuchte Augen.", wirkung: "jugendlich, selbstdarstellerisch, imageorientiert, verträumt, traurig, provokant, kreativ, tief, sehr individueller Style — „Heulen oder Schrei'n\", „The mad Four\"." },
+  ]},
+  { typ: 5, heading: "Der Forscher — Eulen-/Oktopus-/Igel-Blick, distanziert-beobachtend", tiles: [
+    { code: "SE5", animal: "Schnee-Eule", blick: "matt-glänzend, emotionskarg, gesammelt, schläfrig, wissend, kompetent, unabhängig, distanziert, interessiert, objektiv, nach innen gerichteter Blick (wie ständige Selbstbeobachtung), neugierig, „Eulen-Blick\".", wirkung: "kindlich, rundlich, warm, rational, distanziert, nachdenklich, analytisch, zurückgezogen, aufgeweckt, unemotional, kühl, emotional geizig, „wie ein Eremit in seiner Höhle\" — spärliche Mimik und Gestik." },
+    { code: "SO5", animal: "Oktopus", blick: "interessiert, beobachtend, neugierig, verkopft, matt-glänzend, distanziert, abgehoben, „Oktopus-Blick\", rational, kühl, müde, verinnerlicht, emotionskarg aber nicht emotionslos, freundlich, humorvoll, „Schlafzimmer-Blick\".", wirkung: "erwachsen, belesen, klug, schlau, überlegt, distanziert, mitunter arrogant (Bildungsarroganz, Verwechslung mit Typ 1), interessiert, wissbegierig, abgehoben, macht Eindruck besonderen „Schlüsselwissens\", überlegen." },
+    { code: "SX5", animal: "Igel", blick: "scheu, zurückhaltend, schüchtern, rational, emotional-unsicher, besorgt, provokant (SX-Subtyp), kühl-distanziert, traurig (4er-Flügel), lieb, unnahbar, analytisch, interessiert-beobachtend, vorsichtig, „Igel-Blick\".", wirkung: "jugendlich, zurückhaltend, scheu, lieb, unnahbar, interessiert, sensibel, kühl, emotionslos, verhalten, gepflegt." },
+  ]},
+  { typ: 6, heading: "Der loyale Skeptiker — Kaninchen-/Erdmännchen-/Wolfs-Blick, wachsam-ängstlich", tiles: [
+    { code: "SE6", animal: "Kaninchen", blick: "freundlich-warm, kindlich, nett, angepasst, brav, distanziert, ängstlich, skeptisch, unsicher oder „aufgesetzt\" sicher, „Kaninchen-Blick\", prüfender „Scanner-Blick\", mitunter unruhige Augenbewegungen.", wirkung: "kindlich, warm, skeptisch, phobisch, angepasst, unsicher, harmlos, verbindungssuchend-scheu, vorsichtig, misstrauisch, schutzsuchend — „ängstliches Häschen\", „warmherziger Teddybär\", gestresst." },
+    { code: "SO6", animal: "Erdmännchen", blick: "kühl, kalt, distanziert, achtsam, wachsam, angepasst, skeptisch, ängstlich, verkopft, rational, sorgenvoll, vorsichtig, unsicher, berechnend, flüchtig, „Erdmännchen-Blick\".", wirkung: "erwachsen, kühl, ängstlich, freundlich, angepasst, skeptisch, vernünftig, ernst, rational, vorausschauend, kritisch beäugend, mitunter angeberisch (Stresspunkt Typ 3) — der „preußische Soldat\", angespannt, gestresst." },
+    { code: "SX6", animal: "Wolf", blick: "wolfsähnlich, skeptisch, versteckt ängstlich, einschüchternd, kritisch, kalt, flüchtig, scheu (5er-Flügel), distanziert, dominant, aggressiv, emotionslos, hinterfragend, unsicher, stark, mutig, wild, vorsichtig, provokativ, grimmig, intensiv, misstrauisch, „Wolfs-Blick\".", wirkung: "jugendlich, einschüchternd, scheu, attraktiv, skeptisch, kämpferisch, mutig, männlich, intensiv, hitzig, unsicher, Stärke und/oder Schönheit repräsentierend, loyal, rebellisch, durchsetzungsstark, berechnend — „bellendes Angstversteck\"." },
+  ]},
+  { typ: 7, heading: "Der Enthusiast — Gorilla-/Biber-/Schimpansen-Blick, glänzend-begeistert", tiles: [
+    { code: "SE7", animal: "Gorilla", blick: "voll, egoistisch, glänzend wie Tollkirsche („Belladonna\"-Augen), emotionslos, hedonistisch, auffressend, berechnend, „Knopfaugen\", oberflächlich, gesammelt, mitunter begeistert, lustig, strahlend, fokussiert, „faul\", versteckt dominant, verspielt, „Gorilla-Blick\".", wirkung: "kindlich, warm, locker, spaßig, gesammelt, egoistisch, spaßorientiert, humorvoll, optimistisch, begeistert, besonnen, triebgesteuert, faul, dominant, verspielt, narzisstisch — „versteckter Achter\" bei starkem 8er-Flügel, „Familienbande\"." },
+    { code: "SO7", animal: "Biber", blick: "glänzend, emotionslos, aufgerissen, knopfäugig, begeistert, misstrauisch (w6), nüchtern-ernst (Kontratyp), humorvoll-ernst, angepasst, freundlich, zugewandt, wach, oberflächlich, wachsam, locker, „Biber-Blick\".", wirkung: "erwachsen, distanziert, freundlich, angepasst, emotionslos, begeistert, kühl, optimistisch, humorvoll, umgänglich, nüchtern-begeistert, spaßig, nachgebend, opferbereit — „Kontra-Völlerer\", vitale Mimik." },
+    { code: "SX7", animal: "Schimpanse", blick: "glänzend, spaßig, impulsiv, „Spielzeug-Blick\", emotionslos, „auffressend\"-glänzend, analytisch, freundlich-wohlwollend, aufgerissen, verspielt, Knopfaugen, begeistert, voll, unbesorgt, feurig, jugendlich, optimistisch, ideenreich, dominant (8er-Flügel), „Schimpansen-Blick\", „Katzen-Augen\".", wirkung: "jugendlich-hitzig, erlebnisorientiert, impulsiv, intensiv, spaßig, humorvoll, wohlwollend, „Abenteurer-Ausstrahlung\", flüchtig, verspielt, wie ein kleiner Gauner, spontan, sprunghaft, berechnend — die „rosarote Brille\"." },
+  ]},
+  { typ: 8, heading: "Der Herausforderer — Orang-Utan-/Löwen-/Krokodil-Blick, dominant-durchdringend", tiles: [
+    { code: "SE8", animal: "Orang-Utan", blick: "gierig-glänzend, kalt, dominant, einschüchternd, aggressiv, fest, durchdringend, skrupellos, gesammelt, vereinnahmend, ernst, berechnend, direkt, konfrontativ, selbstsicher, mitunter gnadenlos, „Orang-Utan-Blick\", langer unangenehmer Blickkontakt.", wirkung: "präsent, dominant, einschüchternd, durchsetzungsstark, beherrschend, instinktiv, aggressiv, impulsiv (w7), „Fels in der Brandung\" (w9), kontrollierend, gierig, maskulin, ernst, konfrontativ, unnachgiebig — „gepanzerte Oberhand\"." },
+    { code: "SO8", animal: "Löwe", blick: "kühl-glänzend, gierig, überlegen, stark wie ein Löwe, gesammelt, erwachsen, distanziert, aggressiv, fest, dem Blick standhaltend, unabhängig, „Reptilienaugen\", kalt, dominant, gefestigt, mitunter skrupellos, „Löwen-Blick\", langer Blickkontakt.", wirkung: "präsent, erwachsen, gesammelt, angepasst-freundlich, dominant, männlich, durchsetzungsstark, beherrschend, provokant, gierig, fest, streitbereit, kämpferisch wie ein Wikinger — „loyale Komplizenschaft\"." },
+    { code: "SX8", animal: "Krokodil", blick: "„Reptilienaugen\", gierig, kalt, stark, dominant, einschüchternd, skrupellos, aggressiv, fest, bestimmend, standhafter Blick, kontrollierend, unabhängig, intensiv, instinktiv, besitzergreifend, unnachgiebig, „Krokodils-Blick\", langer Blickkontakt.", wirkung: "präsent, maskulin, grob, dominant, durchsetzungsstark, kalt, skrupellos, verspielt (7er-Flügel), autoritär, gierig, einschüchternd, herrisch, in sich ruhend (9er-Flügel), besitzergreifend, manipulativ, hartherzig — das „Power-Center\"." },
+  ]},
+  { typ: 9, heading: "Der Friedensstifter — matt/peripher/ausdruckslos, kaum fokussiert", tiles: [
+    { code: "SE9", animal: "Afrikanischer Elefant", blick: "matt-glänzend, emotionskarg, harmonisch-gesammelt, schläfrig, wissend, entspannt, kompetent, unabhängig, distanziert, interessiert, objektiv, beobachtend, neugierig, felsenfest, ruhig, warm, „Kuhaugen-Blick\", „Elefanten-Blick\".", wirkung: "kindlich, rundlich, warm, rational, distanziert, nachdenklich, analytisch, zurückgezogen, unemotional, nüchtern, nachgiebig — wie ein Ruhepol, „Haben ohne Sein\", minimale Gesichtsspannung." },
+    { code: "SO9", animal: "Büffel", blick: "matt, müde, ausdruckslos, peripher, benommen, friedfertig, passiv-aggressiv, vermittelnd, sanft, einfühlsam, verständnisvoll, „Reptilienaugen\", freundlich, versteckt zornig, kühl, dennoch harmonisch, peripherer „Schiedsrichter-Blick\", „Büffel-Blick\".", wirkung: "erwachsen-kühl, benommen, friedlich, angepasst, unfokussiert, sanft, peripher, ausdruckslos, distanziert, verschwommen, konturenlos, passiv-aggressiv, konfliktscheu, harmonisierend — der „gute Mensch von nebenan\"." },
+    { code: "SX9", animal: "Faultier", blick: "neutral, matt, schläfrig, ausdruckslos (aber die meiste „Wärme\" der drei 9er-Subtypen), nichtssagend, peripher, müde, verschmelzend, zugeneigt, freundlich-interessiert, „Reptilienaugen\", sanft, beziehungsharmonisch, zufriedener „Faultier-Blick\".", wirkung: "jugendlich-hitzig, angepasst, friedlich, übereinstimmend, konturlos, konfliktscheu, passiv, zurückhaltend, sanft, harmonisch, introvertiert, scheu, selbstvergessen, träge, „tierisch\", leise — „gleichförmig mit euch/dir!\"." },
+  ]},
+  ];
+
+  const typBloecke = BLICKQUALITAETEN_DATEN.map(t => {
+    const col = TYPE_COLORS[t.typ];
+    const tiles = t.tiles.map(k => {
+      const tcol = typeColorFromCode(k.code);
+      return `
+        <details class="ba-tile" style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:.5rem;">
+            <div style="display:flex;align-items:center;gap:.6rem;min-width:0;">
+              <img src="./assets/blickqualitaeten/${k.code.toLowerCase()}.jpg" alt="${k.code}" loading="lazy" style="width:2.6rem;height:2.6rem;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--line,var(--border));" />
+              <div style="display:flex;flex-direction:column;gap:.1rem;min-width:0;">
+                <span style="font-weight:700;font-size:.92rem;color:${tcol};">${k.code}</span>
+                <span style="font-family:'EB Garamond',Georgia,serif;font-style:italic;color:${tcol};font-size:.85rem;">${k.animal}</span>
+              </div>
+            </div>
+            <span style="color:var(--muted);font-size:.8rem;">▸</span>
+          </summary>
+          <div style="margin-top:.7rem;font-size:.85rem;">
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Blickqualität</div>
+            <p style="margin:0 0 .6rem;color:var(--ink);">${k.blick}</p>
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Wirkung</div>
+            <p style="margin:0;color:var(--ink);">${k.wirkung}</p>
+          </div>
+        </details>
+      `;
+    }).join("");
+    return `
+      <section style="margin-top:2.4rem;scroll-margin-top:3.4rem;" id="ba-t${t.typ}">
+        <div style="display:flex;align-items:baseline;gap:.6rem;border-bottom:2px solid ${col};padding-bottom:.5rem;margin-bottom:.9rem;">
+          <span style="font-family:'EB Garamond',Georgia,serif;font-weight:700;font-size:1.4rem;color:${col};min-width:1.6rem;">${t.typ}</span>
+          <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:1.1rem;margin:0;font-weight:600;">${t.heading}</h2>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr;gap:.7rem;" class="ba-tiles-grid">
+          ${tiles}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  const jumpNav = BLICKQUALITAETEN_DATEN.map(t => {
+    const col = TYPE_COLORS[t.typ];
+    const zahlwort = ["","Eins","Zwei","Drei","Vier","Fünf","Sechs","Sieben","Acht","Neun"][t.typ];
+    return `<a href="#ba-t${t.typ}" style="font-size:.78rem;font-weight:700;padding:.3rem .6rem;border-radius:99px;background:color-mix(in srgb, ${col} 16%, var(--chip,var(--paper)));color:${col};text-decoration:none;">${zahlwort}</a>`;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Blickqualitäten-Atlas</p>
+        <h1 class="section-title">Blickqualitäten-Atlas der 27 Subtypen</h1>
+        <p class="psycho-intro">Tierentsprechung, Blickqualität und Gesamtwirkung je Subtyp &ndash; ein Nachschlagewerk, um das Prinzip der Blickqualitäten kennenzulernen und erste Anhaltspunkte zu bekommen.</p>
+
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
+          <p style="margin:0 0 .6rem;color:var(--copper);font-family:'EB Garamond',Georgia,serif;font-style:italic;">„Grau, teurer Freund, ist alle Theorie, und grün des Lebens goldner Baum." &ndash; Goethe, Faust I</p>
+          <p style="margin:0 0 .6rem;color:var(--ink);">Dieser Atlas kann Blickqualitäten beschreiben und einordnen &ndash; er kann sie nicht lehren. Am lebenden Gesicht, in Bewegung, im Gespräch, sicher zu erkennen, welche Qualität gerade vorliegt, ist eine eigene Fertigkeit, die nur im persönlichen Austausch und mit direktem Feedback wächst.</p>
+          <p style="margin:0;color:var(--ink);">Wer tiefer einsteigen möchte: Die theoretische Grundlage steht ausführlich in Detlef Rathmers Buch <strong>„Die verborgene Dynamik der 27 Subtypen"</strong>, das auch die Enneagramm-Profiling-Methode von David Rathmer vorstellt. Erlernen und sicher anwenden lässt sich diese Methode jedoch nur im Live-Unterricht der <strong><a href="https://www.enneascholars.de" target="_blank" rel="noopener">EnneaScholars Academy</a></strong> von David L. Rathmer.</p>
+        </div>
+
+        <nav style="display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 1rem;position:sticky;top:0;background:var(--paper);padding:.6rem 0;z-index:5;">
+          ${jumpNav}
+        </nav>
+
+        ${typBloecke}
+
+        <style>
+          @media (min-width:560px){ .ba-tiles-grid{grid-template-columns:1fr 1fr 1fr !important;} }
+        </style>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"wissen", label:"Wissen – Übersicht"},
+        {route:"blickqualitaet", label:"Schaubild: Blickqualität"},
+        {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        {route:"tierforscher-uebereinstimmung", label:"Tierforscher-Übereinstimmung"},
+      ])}
+    </div>
+  `);
+}
+
 function tierlexikonPage() {
   const subtypes = [
     { code: "SE1", tier: "Adler",             emoji: "\ud83e\udd85" },
@@ -55134,6 +55265,7 @@ function blickqualitaetPage() {
           {route:"enneagramm-profiling", label:"Enneagramm-Profiling"},
           {route:"mikroimpressionen", label:"Mikroimpressionen"},
           {route:"differenzierung", label:"Differenzierung"},
+          {route:"blickqualitaeten-atlas", label:"Blickqualitäten-Atlas der 27 Subtypen"},
         ])}
       </div>
     </div>
@@ -73961,6 +74093,7 @@ function render() {
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
+    "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=56";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=57";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3096,6 +3096,7 @@ text.nav = [
     { route: "kriminalmusterkompass", label: "Crime Pattern Compass (Patterns in the Criminal Psychology Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
+    { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -17685,6 +17686,135 @@ function tierentsprechungenPage() {
         {route:"baumarten", label:"Tree Species of the Types"},
         {route:"tee-enneagramm", label:"Enneagram Teas"},
         {route:"weihnachtsgeschenke", label:"Gifts of the Types"},
+      ])}
+    </div>
+  `);
+}
+
+function blickqualitaetenAtlasPage() {
+  const BLICKQUALITAETEN_DATEN_EN = [
+  { typ: 1, heading: "The Perfectionist — reptile eyes, fixed controlled gaze", tiles: [
+    { code: "SE1", animal: "Eagle", blick: "confident, unemotional, fixed, positive, warm-friendly, \"reptile eyes,\" serious, instinctive, occasionally somber, controlling, coldly gleaming, \"platinum eyes,\" worriedly present, sober, (latently) aggressive, focused, staring, frozen, \"eagle gaze.\"", wirkung: "composed, well-groomed appearance, warm, serious, rounded, friendly, moral, precise, self-disciplined, firm, secure, distant, occasionally angry, improving, restrained, controlled, persistent, tenacious, upright posture; controlled worry line, tensed jaw muscles; only occasional use of the pointing finger &ndash; the SE1 rarely points openly at others, but does so occasionally to underline its own self-control/order." },
+    { code: "SO1", animal: "Goose", blick: "fixed, cool, arrogant, adult, focused, \"laser\" gaze, angry, calculating, critical, self-righteous, reptile eyes, cold, aggressive, composed, dominant, confident, distant, unemotional, penetrating, friendly, controlled, aloof, platinum eyes, arrogantly gleaming, \"goose gaze.\"", wirkung: "cold, adult, arrogant, angry, serious, focused, distant, improving, tense, aristocratic, cool, present, perfectionistic, \"looking down,\" penetrating, friendly-adapted, correct, teacherly, exemplary, fair &ndash; the \"superior aristocrat\"; very frequent use of the pointing finger &ndash; like a conductor demanding the improvement of society with a visible gesture." },
+    { code: "SX1", animal: "Black Mamba", blick: "fixed, cool, focused, missionary, angry, instinctive, reptile eyes, platinum eyes (cold-focused, coolly distant, unapproachable), superior, serious, somber, calculating, expressive, precise, hot-tempered, impulsive, seductive, occasionally hostile, \"black mamba gaze.\"", wirkung: "hot-tempered, youthful, provocative, arrogant, openly aggressive, dominant, domineering, missionary, fixed, superior, precise &ndash; \"zeal seeks out your faults\"; occasional use of the pointing finger, usually when anger rises in relationships." },
+  ]},
+  { typ: 2, heading: "The Helper — Bambi/Golden Retriever eyes, warmly caring", tiles: [
+    { code: "SE2", animal: "Hippopotamus", blick: "dominant, \"betrayal-sensing,\" full, round, emotionally gleaming, proud, cheeky, warm, self-interested, occasionally caring, provocative, childlike, prickly, challenging, wronged, indignant (\"who took my sandwich?\" gaze), irritated, \"hippo gaze,\" \"fawn gaze.\"", wirkung: "childlike, warm, proud, soft, emotional, occasionally self-centered, expressive, dominant, composed, self-presenting, skeptical, irritated, offended (\"how dare you?!\"), loving, maternal &ndash; a \"love me, I deserve it\" effect." },
+    { code: "SO2", animal: "Golden Retriever", blick: "proud, serious, warm, adapted, loving, emotional, soft, caring, haughty, full, gleaming, warm-hearted, distant, reserved, \"golden retriever gaze,\" \"Bambi eyes\" &ndash; the eyes convey warm, interpersonal contact.", wirkung: "adult, proud, emotional, responsible, serious, feminine, expressive, coolly controlled, caring, friendly, empathetic, distant &ndash; a \"everything runs smoothly through me\" effect, inviting smile." },
+    { code: "SX2", animal: "Camel", blick: "proud, caring, loving, friendly, full, emotionally gleaming, seductive, fiery, expressive, attractive, the \"Bambi eyes\" of a growing fawn, charming, \"camel gaze.\"", wirkung: "youthful, feminine, proud, emotional, soft, warm, expressive, attractive, loving, experience-oriented (similar to SX7), attractive, self-presenting, friendly, caring, appraising, charming, maternal, hot-tempered &ndash; \"my whole heart is yours!\"" },
+  ]},
+  { typ: 3, heading: "The Achiever — focused, calculating, self-presenting", tiles: [
+    { code: "SE3", animal: "Raccoon", blick: "focused, friendly-composed, coolly matte-gleaming, dominant, somber, outward-directed, professional, penetrating, \"beaming eyes,\" unemotional, spider-like, warmth-imitating, calculating gaze (\"how can I use you for myself?\"), pronounced eye rings as a sign of suppressed emotion, \"raccoon gaze,\" \"amber eyes.\"", wirkung: "focused, composed, unapproachable, cool, charming, professional, image-oriented, self-presenting, future-oriented, self-interested, warm, friendly, childlike, well-groomed, self-confident, level-headed, calculating &ndash; \"unvain model perfection.\"" },
+    { code: "SO3", animal: "Cheetah", blick: "focused, coldly matte-gleaming, dominant, somber, empty, outward-directed, professional, penetrating, \"beaming eyes,\" unemotional, spider-like, calculating, expressive, boastful, vain, posing, superficial, imitating depth, calculating, \"cheetah gaze.\"", wirkung: "focused, coldly self-presenting, success-oriented, charming, cool, gleaming, arrogant, boastful, glory-hungry, applause-hungry, masked, vain &ndash; \"bravo, excellency.\"" },
+    { code: "SX3", animal: "Peacock", blick: "focused, coolly gleaming, calculating, outward-directed, \"peacock gaze,\" cunning, devious, superficial, boastful, self-presenting, seductive (easily confused with SX2!), penetrating, \"beaming eyes,\" sad (with a pronounced Four-wing), challenging, \"superstar or film-star gaze.\"", wirkung: "self-presenting, image-oriented, youthful, future-directed, loving, self-confident, charming, charismatic, ambitious, devious, opportunistic, narcissistic, vain, well-groomed, temperamental, dominant, hot-tempered &ndash; inwardly shy, \"super gender,\" \"porcelain-doll face.\"" },
+  ]},
+  { typ: 4, heading: "The Individualist — dove/armadillo/chihuahua gaze, melancholic-deep", tiles: [
+    { code: "SE4", animal: "Dove", blick: "deep, emotional, dreamy, melancholic, \"clairvoyant eyes,\" longing, undaunted, occasionally somber, concealing feelings, \"dove gaze\"; \"straw-like\" eyebrows, innocent childlike \"angel gaze.\"", wirkung: "childlike, warm, sad, deep, expressive, friendly, melancholic, composed, authentic, undaunted, tough, down-to-earth, reserved, outwardly friendly but introverted &ndash; the most pragmatic, most adapted Four, \"the glad Four.\"" },
+    { code: "SO4", animal: "Armadillo", blick: "sad, expressive, deep, dreamy, melancholic, serious, cold, worried, authentic, emotional, gleaming, shame-filled, sensitive, \"armadillo gaze,\" \"seal gaze,\" \"you won't understand me anyway\" gaze, moist eyes.", wirkung: "adult, sad, deep, expressive, melancholic, critical, serious, cold, pessimistic, authentic, dreamy, deeply emotional &ndash; the \"tearful happiness,\" \"the sad Four.\"" },
+    { code: "SX4", animal: "Chihuahua", blick: "deeply dreamy, provocatively gleaming, inward-directed, emotional, seductive, expressive, multifaceted, melancholic, dramatic-theatrical, hate-filled, rivalrous, envious, appraising, \"chihuahua gaze,\" moist eyes.", wirkung: "youthful, self-presenting, image-oriented, dreamy, sad, provocative, creative, deep, highly individual style &ndash; \"wailing or screaming,\" \"the mad Four.\"" },
+  ]},
+  { typ: 5, heading: "The Investigator — owl/octopus/hedgehog gaze, distant-observing", tiles: [
+    { code: "SE5", animal: "Snowy Owl", blick: "matte-gleaming, emotionally scant, composed, sleepy, knowing, competent, independent, distant, interested, objective, inward-directed gaze (like constant self-observation), curious, \"owl gaze.\"", wirkung: "childlike, roundish, warm, rational, distant, contemplative, analytical, withdrawn, alert, unemotional, cool, emotionally stingy, \"like a hermit in its den\" &ndash; sparse facial expression and gesture." },
+    { code: "SO5", animal: "Octopus", blick: "interested, observing, curious, cerebral, matte-gleaming, distant, aloof, \"octopus gaze,\" rational, cool, tired, internalized, emotionally scant but not emotionless, friendly, humorous, \"bedroom gaze.\"", wirkung: "adult, well-read, clever, shrewd, deliberate, distant, occasionally arrogant (educational arrogance, easily confused with Type 1), interested, eager to learn, aloof, conveys an impression of special \"key knowledge,\" superior." },
+    { code: "SX5", animal: "Hedgehog", blick: "shy, reserved, timid, rational, emotionally insecure, worried, provocative (SX subtype), coolly distant, sad (Four-wing), loving, unapproachable, analytical, interested-observing, cautious, \"hedgehog gaze.\"", wirkung: "youthful, reserved, shy, loving, unapproachable, interested, sensitive, cool, unemotional, restrained, well-groomed." },
+  ]},
+  { typ: 6, heading: "The Loyalist — rabbit/meerkat/wolf gaze, watchful-anxious", tiles: [
+    { code: "SE6", animal: "Rabbit", blick: "friendly-warm, childlike, nice, adapted, well-behaved, distant, fearful, skeptical, insecure or \"put-on\" confident, \"rabbit gaze,\" a checking \"scanner gaze,\" occasionally restless eye movements.", wirkung: "childlike, warm, skeptical, phobic, adapted, insecure, harmless, connection-seeking-shy, cautious, distrustful, protection-seeking &ndash; the \"frightened little bunny,\" \"warm-hearted teddy bear,\" stressed." },
+    { code: "SO6", animal: "Meerkat", blick: "cool, cold, distant, watchful, alert, adapted, skeptical, fearful, cerebral, rational, worried, cautious, insecure, calculating, fleeting, \"meerkat gaze.\"", wirkung: "adult, cool, fearful, friendly, adapted, skeptical, reasonable, serious, rational, forward-looking, critically eyeing, occasionally boastful (stress point Type 3) &ndash; the \"Prussian soldier,\" tense, stressed." },
+    { code: "SX6", animal: "Wolf", blick: "wolf-like, skeptical, hidden-fearful, intimidating, critical, cold, fleeting, shy (Five-wing), distant, dominant, aggressive, unemotional, questioning, insecure, strong, brave, wild, cautious, provocative, grim, intense, distrustful, \"wolf gaze.\"", wirkung: "youthful, intimidating, shy, attractive, skeptical, combative, brave, masculine, intense, hot-tempered, insecure, representing strength and/or beauty, loyal, rebellious, assertive, calculating &ndash; a \"barking hiding place for fear.\"" },
+  ]},
+  { typ: 7, heading: "The Enthusiast — gorilla/beaver/chimpanzee gaze, gleaming-enthusiastic", tiles: [
+    { code: "SE7", animal: "Gorilla", blick: "full, self-interested, gleaming like belladonna berries (\"deadly nightshade\" eyes), unemotional, hedonistic, devouring, calculating, \"button eyes,\" superficial, composed, occasionally enthusiastic, fun-loving, radiant, focused, \"lazy,\" hiddenly dominant, playful, \"gorilla gaze.\"", wirkung: "childlike, warm, easygoing, fun-loving, composed, self-interested, fun-oriented, humorous, optimistic, enthusiastic, level-headed, drive-governed, lazy, dominant, playful, narcissistic &ndash; a \"hidden Eight\" with a strong Eight-wing, \"family bond.\"" },
+    { code: "SO7", animal: "Beaver", blick: "gleaming, unemotional, wide-open, button-eyed, enthusiastic, distrustful (w6), sober-serious (countertype), humorous-serious, adapted, friendly, engaged, alert, superficial, watchful, easygoing, \"beaver gaze.\"", wirkung: "adult, distant, friendly, adapted, unemotional, enthusiastic, cool, optimistic, humorous, sociable, soberly enthusiastic, fun-loving, yielding, self-sacrificing &ndash; a \"counter-glutton,\" vital facial expression." },
+    { code: "SX7", animal: "Chimpanzee", blick: "gleaming, fun-loving, impulsive, \"toy gaze,\" unemotional, gleaming as if \"devouring,\" analytical, friendly-benevolent, wide-open, playful, button eyes, enthusiastic, full, carefree, fiery, youthful, optimistic, full of ideas, dominant (Eight-wing), \"chimpanzee gaze,\" \"cat eyes.\"", wirkung: "youthful-hot-tempered, experience-oriented, impulsive, intense, fun-loving, humorous, benevolent, an \"adventurer aura,\" fleeting, playful, like a little rascal, spontaneous, erratic, calculating &ndash; the \"rose-tinted glasses.\"" },
+  ]},
+  { typ: 8, heading: "The Challenger — orangutan/lion/crocodile gaze, dominant-penetrating", tiles: [
+    { code: "SE8", animal: "Orangutan", blick: "greedily gleaming, cold, dominant, intimidating, aggressive, firm, penetrating, unscrupulous, composed, encompassing, serious, calculating, direct, confrontational, self-assured, occasionally merciless, \"orangutan gaze,\" long uncomfortable eye contact.", wirkung: "present, dominant, intimidating, assertive, domineering, instinctive, aggressive, impulsive (w7), a \"rock in the surf\" (w9), controlling, greedy, masculine, serious, confrontational, unyielding &ndash; an \"armored upper hand.\"" },
+    { code: "SO8", animal: "Lion", blick: "coolly gleaming, greedy, superior, strong as a lion, composed, adult, distant, aggressive, firm, holding one's gaze, independent, \"reptile eyes,\" cold, dominant, settled, occasionally unscrupulous, \"lion gaze,\" long eye contact.", wirkung: "present, adult, composed, adapted-friendly, dominant, masculine, assertive, domineering, provocative, greedy, firm, ready to fight, combative like a Viking &ndash; a \"loyal complicity.\"" },
+    { code: "SX8", animal: "Crocodile", blick: "\"reptile eyes,\" greedy, cold, strong, dominant, intimidating, unscrupulous, aggressive, firm, determined, unwavering gaze, controlling, independent, intense, instinctive, possessive, unyielding, \"crocodile gaze,\" long eye contact.", wirkung: "present, masculine, coarse, dominant, assertive, cold, unscrupulous, playful (Seven-wing), authoritarian, greedy, intimidating, domineering, at rest in itself (Nine-wing), possessive, manipulative, hard-hearted &ndash; the \"power center.\"" },
+  ]},
+  { typ: 9, heading: "The Peacemaker — matte/peripheral/expressionless, barely focused", tiles: [
+    { code: "SE9", animal: "African Elephant", blick: "matte-gleaming, emotionally scant, harmoniously composed, sleepy, knowing, relaxed, competent, independent, distant, interested, objective, observing, curious, rock-solid, calm, warm, \"cow-eyed gaze,\" \"elephant gaze.\"", wirkung: "childlike, roundish, warm, rational, distant, contemplative, analytical, withdrawn, unemotional, sober, yielding &ndash; like a calm center, \"having without being,\" minimal facial tension." },
+    { code: "SO9", animal: "Buffalo", blick: "matte, tired, expressionless, peripheral, dazed, peaceable, passive-aggressive, mediating, gentle, empathetic, understanding, \"reptile eyes,\" friendly, hidden-angry, cool, yet harmonious, a peripheral \"referee gaze,\" \"buffalo gaze.\"", wirkung: "adult-cool, dazed, peaceful, adapted, unfocused, gentle, peripheral, expressionless, distant, blurred, contourless, passive-aggressive, conflict-avoidant, harmonizing &ndash; the \"good neighbor.\"" },
+    { code: "SX9", animal: "Sloth", blick: "neutral, matte, sleepy, expressionless (yet carrying the most \"warmth\" of the three Nine subtypes), noncommittal, peripheral, tired, merging, affectionate, friendly-interested, \"reptile eyes,\" gentle, relationship-harmonious, a contented \"sloth gaze.\"", wirkung: "youthful-hot-tempered, adapted, peaceful, agreeable, contourless, conflict-avoidant, passive, reserved, gentle, harmonious, introverted, shy, self-forgetting, sluggish, \"animal-like,\" quiet &ndash; \"uniform with you!\"" },
+  ]},
+  ];
+
+  const typBloecke = BLICKQUALITAETEN_DATEN_EN.map(t => {
+    const col = TYPE_COLORS[t.typ];
+    const tiles = t.tiles.map(k => {
+      const tcol = typeColorFromCode(k.code);
+      return `
+        <details class="ba-tile" style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
+          <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:.5rem;">
+            <div style="display:flex;align-items:center;gap:.6rem;min-width:0;">
+              <img src="../assets/blickqualitaeten/${k.code.toLowerCase()}.jpg" alt="${k.code}" loading="lazy" style="width:2.6rem;height:2.6rem;border-radius:9px;object-fit:cover;flex-shrink:0;border:1px solid var(--line,var(--border));" />
+              <div style="display:flex;flex-direction:column;gap:.1rem;min-width:0;">
+                <span style="font-weight:700;font-size:.92rem;color:${tcol};">${k.code}</span>
+                <span style="font-family:'EB Garamond',Georgia,serif;font-style:italic;color:${tcol};font-size:.85rem;">${k.animal}</span>
+              </div>
+            </div>
+            <span style="color:var(--muted);font-size:.8rem;">▸</span>
+          </summary>
+          <div style="margin-top:.7rem;font-size:.85rem;">
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Gaze Quality</div>
+            <p style="margin:0 0 .6rem;color:var(--ink);">${k.blick}</p>
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Effect</div>
+            <p style="margin:0;color:var(--ink);">${k.wirkung}</p>
+          </div>
+        </details>
+      `;
+    }).join("");
+    return `
+      <section style="margin-top:2.4rem;scroll-margin-top:3.4rem;" id="ba-t${t.typ}">
+        <div style="display:flex;align-items:baseline;gap:.6rem;border-bottom:2px solid ${col};padding-bottom:.5rem;margin-bottom:.9rem;">
+          <span style="font-family:'EB Garamond',Georgia,serif;font-weight:700;font-size:1.4rem;color:${col};min-width:1.6rem;">${t.typ}</span>
+          <h2 style="font-family:'EB Garamond',Georgia,serif;font-size:1.1rem;margin:0;font-weight:600;">${t.heading}</h2>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr;gap:.7rem;" class="ba-tiles-grid">
+          ${tiles}
+        </div>
+      </section>
+    `;
+  }).join("");
+
+  const jumpNav = BLICKQUALITAETEN_DATEN_EN.map(t => {
+    const col = TYPE_COLORS[t.typ];
+    const word = ["","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"][t.typ];
+    return `<a href="#ba-t${t.typ}" style="font-size:.78rem;font-weight:700;padding:.3rem .6rem;border-radius:99px;background:color-mix(in srgb, ${col} 16%, var(--chip,var(--paper)));color:${col};text-decoration:none;">${word}</a>`;
+  }).join("");
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Gaze Quality Atlas</p>
+        <h1 class="section-title">Gaze Quality Atlas of the 27 Subtypes</h1>
+        <p class="psycho-intro">Animal correspondence, gaze quality, and overall effect for each subtype &ndash; a reference to get to know the principle of gaze qualities and gain first points of orientation.</p>
+
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
+          <p style="margin:0 0 .6rem;color:var(--copper);font-family:'EB Garamond',Georgia,serif;font-style:italic;">"Grey, dear friend, is all theory, and green the golden tree of life." &ndash; Goethe, Faust I</p>
+          <p style="margin:0 0 .6rem;color:var(--ink);">This atlas can describe and classify gaze qualities &ndash; it cannot teach them. Reliably recognizing, on a living face, in motion, in conversation, which quality is present in the moment is a skill of its own that only grows through personal exchange and direct feedback.</p>
+          <p style="margin:0;color:var(--ink);">For those who want to go deeper: the theoretical foundation is laid out in detail in Detlef Rathmer's book <strong>"Die verborgene Dynamik der 27 Subtypen"</strong> ("The Hidden Dynamics of the 27 Subtypes"), which also introduces David Rathmer's Enneagram Profiling method. Learning and reliably applying this method, however, is only possible in the live classes of the <strong><a href="https://www.enneascholars.de" target="_blank" rel="noopener">EnneaScholars Academy</a></strong> run by David L. Rathmer.</p>
+        </div>
+
+        <nav style="display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 1rem;position:sticky;top:0;background:var(--paper);padding:.6rem 0;z-index:5;">
+          ${jumpNav}
+        </nav>
+
+        ${typBloecke}
+
+        <style>
+          @media (min-width:560px){ .ba-tiles-grid{grid-template-columns:1fr 1fr 1fr !important;} }
+        </style>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"wissen", label:"Knowledge – Overview"},
+        {route:"blickqualitaet", label:"Diagram: Gaze Quality"},
+        {route:"tierlexikon", label:"Animal Lexicon of the 27 Subtypes"},
+        {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence"},
       ])}
     </div>
   `);
@@ -90295,6 +90425,7 @@ function blickqualitaetPage() {
           {route:"enneagramm-profiling", label:"Enneagram Profiling"},
           {route:"mikroimpressionen", label:"Micro-impressions"},
           {route:"differenzierung", label:"Differentiation"},
+          {route:"blickqualitaeten-atlas", label:"Gaze Quality Atlas of the 27 Subtypes"},
         ])}
       </div>
     </div>
@@ -109391,6 +109522,7 @@ function subtypeSchaubilderPage() {
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
+    "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
