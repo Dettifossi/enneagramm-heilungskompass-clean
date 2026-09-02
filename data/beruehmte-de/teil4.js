@@ -54,6 +54,7 @@ export function christophKolumbusPortraitPage() {
         {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
         {route:"beruehmte-mariah-carey", label:"Portr\xe4t: Mariah Carey (SE7w8)"},
+        {route:"beruehmte-kim-jong-un", label:"Portr\xe4t: Kim Jong Un (SE7w8)"},
       ])}
     </div>
   `);

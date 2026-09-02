@@ -1697,6 +1697,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Melanie Kreis – Social Type 6",
     teaser:"SO6w5 \xb7 born 1971 in Bonn. Chief Financial Officer (CFO) of the DHL Group. Physicist, McKinsey consultant, DAX manager. The meerkat that keeps watch - for one of the largest logistics companies in the world.",
     land:"Germany", tags:["Business","F\xfchrung"], gender:"f"},
+{ route:"beruehmte-kim-jong-un", name:"Kim Jong Un", added:"2026-09-02", subtyp:"SE7w8",
+    heading:"Kim Jong Un – Self-Preservation Type 7",
+    teaser:"SP7w8 · born 1984. Ruler of North Korea since 2011. Luxury and abundance exclusive to the innermost circle of power, uncompromising hardness against any threat – execution of his own uncle in 2013, poison attack on his half-brother in 2017. The gorilla that defends its territory with full force while the population suffers scarcity.",
+    land:"North Korea", tags:["Politik"], gender:"m"},
 { route:"beruehmte-wladimir-putin", name:"Vladimir Putin", added:"2026-08-03", subtyp:"SX6w5",
     heading:"Vladimir Putin – Sexual Type 6",
     teaser:"SX6w5 · born 1952 in Leningrad. Politician, President of the Russian Federation, former KGB officer. The Wolf that tries to overcome fear by controlling others.",
@@ -35653,6 +35657,72 @@ function friedrichSchillerPortraitPage() {
   `);
 }
 
+function kimJongUnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-kim-jong-un-portrait.jpg" alt="Kim Jong Un – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kim Jong Un</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Ruler of North Korea, born 1984 &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla That Secured Its Territory With Abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven &ndash; an animal of enormous strength that lives in a group and whose presence fills a room without any effort. Kim Jong Un, born around 1984 as the youngest son of North Korean ruler Kim Jong Il, spent part of his youth under a false name at a Swiss school in Bern &ndash; a stay that familiarized him with Western consumption, NBA basketball, and an abundance that was out of reach for almost everyone in the tightly sealed-off North Korea of his origin.</p>
+          <p class="vb-intro">This portrait analyzes a personality structure according to the Enneagram model. It explains behavioral patterns; it justifies nothing. The systematic oppression of the North Korean population, the political prison camps (kwanliso), extrajudicial executions, and North Korea's nuclear program are facts to be judged on their own terms, independent of any psychological framing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Hidden Eight: Abundance for One's Own, Closest Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Based on decades of experience with this subtype, Naranjo called the self-preservation Seven <em>the hidden Eight</em> &ndash; a Seven that carries the Eight's decisiveness and directness within it, without displaying it openly by default. The self-preservation Seven secures itself through practical enjoyment and concrete abundance &ndash; in Kim Jong Un this shows in a pronounced fondness for imported Swiss cheese, French cognac, luxury yachts, and leisure facilities built specifically for him, while at the same time large parts of the North Korean population have been affected by malnutrition and recurring food crises for decades.</p>
+          <p class="vb-intro">In 2014 he opened an amusement park with water slides and rides in Pyongyang, in 2018 a ski resort in the mountains near Wonsan, and later a large-scale beach resort complex on the same coast &ndash; abundance that consistently stays within his own, closest circle of power rather than reaching the broader population. The gorilla that fills its territory with stores it does not share.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Where Resistance Arises, He Seeks Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight-wing gives the self-preservation Seven an assertiveness a Seven with a weaker Eight wing would lack. Where the Seven evades when resistance arises, the SP7w8 seeks confrontation &ndash; uncompromisingly. In 2013 Kim had his own uncle and longtime mentor Jang Song-thaek, the most powerful man in the state after himself, executed on charges of treason. In 2017 his half-brother Kim Jong-nam was killed with the nerve agent VX at Kuala Lumpur airport &ndash; an attack that, according to international investigations, was ordered by him.</p>
+          <p class="vb-intro">North Korea's nuclear and missile program, which he has pushed massively since taking office, follows the same logic: a demonstration of unassailable strength outward, meant to preemptively deter any perceived threat to his own territory. The gorilla that does not rely on negotiation, but on visible, unmistakable power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Banquets and Famine: Two Territories, One Border</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reports from defectors and international observers describe extensive, opulent banquets within the innermost leadership circle &ndash; at times featuring imported delicacies said to cost billions of won &ndash; while the United Nations repeatedly reported chronic undernourishment among large parts of the North Korean population. The self-preservation Seven's abundance is not shared here, but becomes a sharp border between the protected inner circle and everyone else.</p>
+          <p class="vb-intro">At the same time, the state maintains a system of political prison camps in which, by human rights organizations' estimates, tens of thousands of people are held under life-threatening conditions &ndash; often without trial, at times across several generations of a single family (so-called guilt-by-association). This practice has existed for decades and is continued, not abolished, under Kim Jong Un.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A "light" in the usual sense of this portrait format can hardly be identified here without distorting reality. At most, within the logic of the system itself, one could note that Kim has consolidated his rule over more than a decade and secured the regime's dynastic continuity &ndash; a standard that holds only within the power apparatus itself.</p>
+          <p class="vb-intro">The shadow here is not a marginal aspect but the defining element: the Eight-wing Seven's uncompromising defense of territory, directed against anyone perceived as a threat to his own position &ndash; family members included &ndash;, combined with an abundance systematically reserved for the innermost circle while the provisioning of the rest of the population is treated as secondary. Human rights organizations and a UN commission of inquiry documented systematic, widespread, and grave human rights violations in 2014, which they compared to crimes against humanity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. An Ongoing Pattern With No Visible Turn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike many people in this Compass, this portrait does not end with a look back on a completed life, but on an ongoing rule with no visible change to the patterns described. Kim Jong Un has consolidated his position since 2011 through the same combination of uncompromising territorial defense and exclusive abundance within his own circle of power &ndash; with no sign that this will change.</p>
+          <p class="vb-intro">The gorilla that defends its territory with full force against any perceived threat &ndash; and whose abundance never extends beyond the boundaries of its own, closest troop.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype profile"},
+        {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function wladimirPutinPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -36464,6 +36534,7 @@ function christophKolumbusPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
         {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
+        {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
       ])}
     </div>
   `);
@@ -36532,6 +36603,7 @@ function francisBaconPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SP7w8)"},
+        {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
       ])}
     </div>
   `);
@@ -50327,7 +50399,7 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
@@ -50347,7 +50419,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Uncompromising toughness when the territory is threatened – even in a corrupted form (especially with the 8-wing)",
         beschreibung: "As long as no one attacks the system that has been built, the underlying stance remains peaceful. If one's own territory or freedom is threatened, this calm can abruptly flip into uncompromising toughness. In its shadow form, the same need to control one's own territory also shows itself as staging artificial dependency, in order to appear indispensable.",
-        beleg: "Dian Fossey after the killing of the gorilla Digit by poachers; Andreas Baader's turn from sociable demeanor to unyielding readiness for violence, the moment his freedom was at stake; Niels Högel's pattern of first putting patients in mortal danger, in order to then stage himself as a rescuer – the same control logic over one's own territory, here in destructive form; Moritz Bleibtreu's unsparing portrayal of Andreas Baader itself illustrates the mechanism from outside: 'The gorilla that moves peacefully through the forest, but becomes a relentless defender the moment its territory is touched' – Naranjo occasionally called SE7 the 'hidden Eight' in this sense: of all three Seven variants, the one that asserts itself most uncompromisingly in a crisis; Christopher Columbus, who crushed a mutiny at sea with force and, as governor, moved against insurgent colonists with public executions, until complaints about his tyranny brought him back to Spain in chains in 1500 – an extreme case in which the same territorial defense became an instrument of devastation for territories not his own."
+        beleg: "Dian Fossey after the killing of the gorilla Digit by poachers; Andreas Baader's turn from sociable demeanor to unyielding readiness for violence, the moment his freedom was at stake; Niels Högel's pattern of first putting patients in mortal danger, in order to then stage himself as a rescuer – the same control logic over one's own territory, here in destructive form; Moritz Bleibtreu's unsparing portrayal of Andreas Baader itself illustrates the mechanism from outside: 'The gorilla that moves peacefully through the forest, but becomes a relentless defender the moment its territory is touched' – Naranjo occasionally called SE7 the 'hidden Eight' in this sense: of all three Seven variants, the one that asserts itself most uncompromisingly in a crisis; Christopher Columbus, who crushed a mutiny at sea with force and, as governor, moved against insurgent colonists with public executions, until complaints about his tyranny brought him back to Spain in chains in 1500 – an extreme case in which the same territorial defense became an instrument of devastation for territories not his own; Kim Jong Un, who had his own uncle removed in 2013 and his half-brother killed in 2017 once they were perceived as threats to his own position of power – a further extreme case in which uncompromising territorial defense stops short of nothing, not even the closest family."
       }
     ]
   },
@@ -109283,6 +109355,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-robert-crumb": robertCrumbPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
+      "beruehmte-kim-jong-un": kimJongUnPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,
       "beruehmte-friedrich-schiller": friedrichSchillerPortraitPage,

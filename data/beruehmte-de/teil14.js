@@ -452,6 +452,7 @@ export function francisBaconPortraitPage() {
         {route:"subtype/se7", label:"SE7 \u2013 Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
+        {route:"beruehmte-kim-jong-un", label:"Portr\u00e4t: Kim Jong Un (SE7w8)"},
       ])}
     </div>
   `);
@@ -1600,6 +1601,72 @@ export function giacomoCasanovaPortraitPage() {
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3)"},
         {route:"beruehmte-elvis-presley", label:"Porträt: Elvis Presley (SX2w3)"},
         {route:"krankheitsportraets-giacomo-casanova", label:"Krankheitsporträt: Giacomo Casanova (SX2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function kimJongUnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-kim-jong-un-portrait.jpg" alt="Kim Jong Un – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kim Jong Un</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Machthaber Nordkoreas, geb. 1984 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der sein Territorium mit Fülle absicherte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; ein Tier von enormer Kraft, das im Verband lebt und dessen Pr\xe4senz einen Raum f\xfcllt, ohne dass es sich anstrengen m\xfcsste. Kim Jong Un, um 1984 als j\xfcngster Sohn des nordkoreanischen Machthabers Kim Jong Il geboren, verbrachte einen Teil seiner Jugend unter falschem Namen an einer Schweizer Schule in Bern &ndash; ein Aufenthalt, der ihn mit westlichem Konsum, NBA-Basketball und einer F\xfclle vertraut machte, die im streng abgeschotteten Nordkorea seiner Herkunft f\xfcr die allermeisten Menschen unerreichbar war.</p>
+          <p class="vb-intro">Dieses Portr\xe4t analysiert eine Pers\xf6nlichkeitsstruktur nach dem Enneagramm-Modell. Es erkl\xe4rt Verhaltensmuster, es rechtfertigt nichts. Die systematische Unterdr\xfcckung der nordkoreanischen Bev\xf6lkerung, die politischen Straflager (Kwanliso), au\xdfergerichtliche Hinrichtungen und das nordkoreanische Nuklearprogramm sind eigenst\xe4ndig zu bewertende Tatsachen, unabh\xe4ngig von jeder psychologischen Einordnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die versteckte Acht: Fülle für das eigene, engste Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sieben nach seinen jahrzehntelangen Erfahrungen mit diesem Subtyp <em>die versteckte Acht</em> &ndash; eine Sieben, die die Entschlossenheit und Direktheit der Acht in sich tr\xe4gt, ohne sie standardm\xe4\xdfig offen zur Schau zu stellen. Die selbsterhaltende Sieben sichert sich \xfcber praktischen Genuss und konkrete F\xfclle ab &ndash; bei Kim Jong Un zeigt sich das in einer ausgepr\xe4gten Vorliebe f\xfcr importierten Schweizer K\xe4se, franz\xf6sischen Cognac, Luxusjachten und eigens f\xfcr ihn errichtete Freizeitanlagen, w\xe4hrend gleichzeitig gro\xdfe Teile der nordkoreanischen Bev\xf6lkerung \xfcber Jahrzehnte hinweg von Mangelern\xe4hrung und wiederkehrenden Hungerkrisen betroffen waren.</p>
+          <p class="vb-intro">2014 er\xf6ffnete er in Pjongjang einen Vergn\xfcgungspark mit Wasserrutschen und Fahrgesch\xe4ften, 2018 einen Skiort in den Bergen bei Wonsan, sp\xe4ter einen gro\xdf angelegten Strandresort-Komplex an derselben K\xfcste &ndash; F\xfclle, die konsequent innerhalb des eigenen, engsten Machtzirkels verbleibt, statt der breiten Bev\xf6lkerung zug\xe4nglich zu sein. Der Gorilla, der sein Territorium mit Vorr\xe4ten f\xfcllt, die er nicht teilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wo Widerstand entsteht, sucht er die Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Achterfl\xfcgel gibt der selbsterhaltenden Sieben eine Durchsetzungskraft, die bei schwach ausgepr\xe4gtem Achterfl\xfcgel fehlen w\xfcrde. Wo die Sieben ausweicht, wenn Widerstand entsteht, sucht die SE7w8 die Konfrontation &ndash; und zwar kompromisslos. 2013 lie\xdf Kim seinen eigenen Onkel und langj\xe4hrigen Ziehvater Jang Song-thaek, den m\xe4chtigsten Mann im Staat nach ihm selbst, wegen angeblichen Hochverrats hinrichten. 2017 wurde sein Halbbruder Kim Jong-nam auf dem Flughafen von Kuala Lumpur mit dem Nervenkampfstoff VX get\xf6tet &ndash; ein Anschlag, der internationalen Ermittlungen zufolge auf seine Anordnung zur\xfcckgeht.</p>
+          <p class="vb-intro">Auch das nordkoreanische Nuklear- und Raketenprogramm, das er seit Amtsantritt massiv vorantrieb, folgt derselben Logik: eine Demonstration unangreifbarer St\xe4rke nach au\xdfen, die jede wahrgenommene Bedrohung des eigenen Territoriums pr\xe4ventiv abschrecken soll. Der Gorilla, der sich nicht auf Verhandlung verl\xe4sst, sondern auf sichtbare, unmissverst\xe4ndliche Macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Bankette und Hungersnöte: Zwei Territorien, eine Grenze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berichte \xfcbergelaufener Insider und internationaler Beobachter zeichnen das Bild ausgedehnter, opulenter Bankette im engsten F\xfchrungszirkel &ndash; teils mit importierten Delikatessen, die Milliarden Won kosten sollen &ndash;, w\xe4hrend die Vereinten Nationen wiederholt \xfcber chronische Unterern\xe4hrung gro\xdfer Teile der nordkoreanischen Bev\xf6lkerung berichteten. Die F\xfclle der selbsterhaltenden Sieben wird hier nicht geteilt, sondern zur scharfen Grenze zwischen dem gesch\xfctzten inneren Kreis und allen anderen.</p>
+          <p class="vb-intro">Gleichzeitig unterh\xe4lt der Staat ein System politischer Straflager, in denen nach Sch\xe4tzungen von Menschenrechtsorganisationen zehntausende Menschen unter lebensbedrohlichen Bedingungen inhaftiert sind &ndash; oft ohne Gerichtsverfahren, teils \xfcber mehrere Generationen einer Familie hinweg (sogenannte Sippenhaft). Diese Praxis besteht seit Jahrzehnten und wird von Kim Jong Un fortgef\xfchrt, nicht abgeschafft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein \xbbLicht\xab im \xfcblichen Sinn dieses Portr\xe4t-Formats l\xe4sst sich hier kaum ausweisen, ohne die Realit\xe4t zu verzerren. Allenfalls innerhalb der Logik des Systems selbst lie\xdfe sich anf\xfchren, dass Kim seine Herrschaft \xfcber mehr als ein Jahrzehnt konsolidiert und die dynastische Kontinuit\xe4t des Regimes gesichert hat &ndash; ein Ma\xdfstab, der jedoch ausschlie\xdflich innerhalb des Machtapparats selbst Bestand hat.</p>
+          <p class="vb-intro">Der Schatten ist hier nicht Randaspekt, sondern das bestimmende Element: die kompromisslose Reviersicherung der Achterfl\xfcgel-Sieben, gerichtet gegen jeden, der als Bedrohung der eigenen Position wahrgenommen wird &ndash; Familienmitglieder eingeschlossen &ndash;, kombiniert mit einer F\xfclle, die systematisch dem engsten Zirkel vorbehalten bleibt, w\xe4hrend die Versorgung der \xfcbrigen Bev\xf6lkerung nachrangig behandelt wird. Menschenrechtsorganisationen und ein UN-Untersuchungsausschuss dokumentierten 2014 systematische, weitreichende und schwere Menschenrechtsverletzungen, die sie mit Verbrechen gegen die Menschlichkeit verglichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ein andauerndes Muster ohne erkennbare Kehrtwende</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anders als bei vielen Personen in diesem Kompass endet dieses Portr\xe4t nicht mit einem R\xfcckblick auf ein abgeschlossenes Leben, sondern auf eine andauernde Herrschaft ohne erkennbare \xc4nderung der beschriebenen Muster. Kim Jong Un hat seine Position seit 2011 durch dieselbe Kombination aus kompromissloser Reviersicherung und exklusiver F\xfclle innerhalb des eigenen Machtzirkels gefestigt &ndash; ohne Anzeichen, dass sich daran etwas \xe4ndern wird.</p>
+          <p class="vb-intro">Der Gorilla, dessen Territorium er mit aller Härte gegen jede wahrgenommene Bedrohung verteidigt &ndash; und dessen F\xfclle nie \xfcber die Grenzen des eigenen, engsten Rudels hinausreicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se7", label:"SE7 &ndash; Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portr\xe4t: Christoph Kolumbus (SE7w8)"},
+        {route:"beruehmte-wladimir-putin", label:"Portr\xe4t: Wladimir Putin (SX6w5)"},
       ])}
     </div>
   `);
