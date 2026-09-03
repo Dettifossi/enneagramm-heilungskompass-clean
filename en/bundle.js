@@ -17985,7 +17985,7 @@ function _memoryStyles() {
   return `
     <style>
       .mem-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.7rem; max-width:420px; margin:1.2rem auto; }
-      .mem-card { aspect-ratio:3/4; perspective:900px; cursor:default; }
+      .mem-card { aspect-ratio:1/1; perspective:900px; cursor:default; }
       .mem-card[role="button"] { cursor:pointer; }
       .mem-card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .5s cubic-bezier(.4,.2,.2,1); border-radius:12px; }
       .mem-card--open .mem-card-inner { transform:rotateY(180deg); }

@@ -15905,8 +15905,8 @@ const uiText = {
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
       { route: "enneagramm-memory-1", label: "Enneagramm-Memory I (Anfänger)" },
-      { route: "enneagramm-memory-2", label: "Enneagramm-Memory II (Fortgeschritten)" },
-      { route: "enneagramm-memory-3", label: "Enneagramm-Memory III (Experte)" },
+      { route: "enneagramm-memory-2", label: "Enneagramm-Memory II (Fortgeschrittene)" },
+      { route: "enneagramm-memory-3", label: "Enneagramm-Memory III (Experten)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -42786,7 +42786,7 @@ const MEMORY_TOTAL_ROUNDS = 10;
 const MEMORY_MEMORIZE_MS = 60000;
 const MEMORY_LEVEL_META = {
   1: { label: "Enneagramm-Memory I", sub: "Anfänger · nur der Grundtyp zählt" },
-  2: { label: "Enneagramm-Memory II", sub: "Fortgeschritten · Grundtyp + Flügel" },
+  2: { label: "Enneagramm-Memory II", sub: "Fortgeschrittene · Grundtyp + Flügel" },
   3: { label: "Enneagramm-Memory III", sub: "Experte · vollständiger Subtyp (Instinkt+Typ+Flügel)" },
 };
 
@@ -43013,7 +43013,7 @@ function _memoryStyles() {
   return `
     <style>
       .mem-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.7rem; max-width:420px; margin:1.2rem auto; }
-      .mem-card { aspect-ratio:3/4; perspective:900px; cursor:default; }
+      .mem-card { aspect-ratio:1/1; perspective:900px; cursor:default; }
       .mem-card[role="button"] { cursor:pointer; }
       .mem-card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .5s cubic-bezier(.4,.2,.2,1); border-radius:12px; }
       .mem-card--open .mem-card-inner { transform:rotateY(180deg); }
