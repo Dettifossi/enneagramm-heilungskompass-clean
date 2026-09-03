@@ -1672,7 +1672,7 @@ export function markusLanzPortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne Lautstärke</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Lanz' Stil ist nie lautstark oder konfrontativ im klassischen Sinn: Er hebt selten die Stimme, wird nicht polemisch, sondern wiederholt ruhig und beharrlich dieselbe präzise Frage, bis eine tatsächliche Antwort erfolgt &ndash; eine Zähigkeit, die von Gästen oft als anstrengender empfunden wird als offene Konfrontation.</p>
-          <p class="vb-intro">Diese undramatische Beharrlichkeit zeigt sich auch in seiner zusätzlichen Rolle als Co-Moderator des wöchentlichen Gesprächsformats "Lanz & Precht" mit dem Philosophen Richard David Precht &ndash; ein ruhiges, formatübergreifendes Gesprächsangebot, das Komplexität nicht scheut, ohne auf Zuspitzung um ihrer selbst willen zu setzen.</p>
+          <p class="vb-intro">Diese undramatische Beharrlichkeit zeigt sich auch in seiner zusätzlichen Rolle als Co-Moderator des wöchentlichen Gesprächsformats "Lanz & Precht" mit dem Philosophen Richard David Precht (SO1w9) &ndash; ein ruhiges, formatübergreifendes Gesprächsangebot, das Komplexität nicht scheut, ohne auf Zuspitzung um ihrer selbst willen zu setzen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Licht und Schatten</h2>
@@ -1703,6 +1703,7 @@ export function markusLanzPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9) – Podcast-Partner, derselbe Subtyp"},
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
       ])}
     </div>

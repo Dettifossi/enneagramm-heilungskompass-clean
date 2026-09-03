@@ -1643,3 +1643,70 @@ export function robertCrumbPortraitPage() {
     </div>
   `);
 }
+
+export function richardDavidPrechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-richard-david-precht-portrait.jpg" alt="Richard David Precht – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Richard David Precht</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph und Publizist, geb. 1964 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die der Gesellschaft ihre Fehler erklärt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Ordnung, stets in Verantwortung für die Gemeinschaft, nicht für sich allein. Richard David Precht, geboren 1964 in Solingen, wurde mit "Wer bin ich &ndash; und wenn ja, wie viele?" (2007) zu einem der meistgelesenen Sachbuchautoren deutscher Sprache und seither zu einer der präsentesten öffentlichen Stimmen zu Fragen von Bildung, Digitalisierung, Ethik und Gesellschaft.</p>
+          <p class="vb-intro">Sein Werk umfasst über zwanzig Bücher, eine eigene ZDF-Sendung ("Precht") und seit 2022 den wöchentlichen Podcast "Lanz & Precht" gemeinsam mit dem Fernsehmoderator Markus Lanz &ndash; ein Format, das interessanterweise zwei Vertreter desselben Subtyps zusammenbringt, die jeweils auf ihre eigene Art dieselbe wachsame Verantwortung für den öffentlichen Diskurs verkörpern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Reform als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt wachsame Verantwortung für die Ordnung eines Kollektivs &ndash; nicht aus Geltungsbedürfnis, sondern aus der unbestechlichen Überzeugung, dass Dinge richtig gemacht werden müssen. Precht positioniert sich seit Jahrzehnten als Reformer eines als grundlegend falsch empfundenen Systems: Mit "Anna, die Schule und der liebe Gott" (2013) legte er ein vielbeachtetes Manifest gegen das bestehende deutsche Bildungssystem vor, das er als überholt und der Lebenswirklichkeit von Kindern nicht mehr angemessen kritisierte.</p>
+          <p class="vb-intro">Diese Reformüberzeugung zieht sich durch sein gesamtes Werk: von der Kritik an Massentierhaltung über die Forderung nach einem bedingungslosen Grundeinkommen bis zur Auseinandersetzung mit künstlicher Intelligenz &ndash; stets mit dem Anspruch, nicht nur zu beschreiben, sondern zu korrigieren, was aus seiner Sicht falsch läuft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Überzeugungskraft ohne Lautstärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Prechts öffentlicher Stil ist geprägt von ruhiger, erzählerischer Argumentation statt lautstarker Konfrontation: Er überzeugt durch die geduldige Entfaltung eines Gedankengangs, nicht durch Zuspitzung oder Provokation um ihrer selbst willen.</p>
+          <p class="vb-intro">Dieser Kontrast wird im direkten Vergleich mit seinem Podcast-Partner Markus Lanz (ebenfalls SO1w9) besonders deutlich: Während Lanz seine wachsame Prinzipientreue durch akribische Faktenkonfrontation im Interview auslebt, drückt Precht dieselbe Grundhaltung durch die geduldige, erzählerisch-philosophische Entfaltung einer Reformidee aus &ndash; zwei sehr unterschiedliche Bühnen für dasselbe Grundmuster wachsamer Verantwortung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, <strong>komplexe gesellschaftliche Fragen einem breiten Publikum verständlich und mit klarer Haltung zu vermitteln</strong> &ndash; Prechts Bücher haben Bildungsdebatten, Diskussionen über künstliche Intelligenz und ethische Fragen der Massentierhaltung einem Millionenpublikum zugänglich gemacht, das akademische Fachliteratur allein nie erreicht hätte.</p>
+          <p class="vb-intro">Der Schatten der sozialen Eins mit Neunerflügel zeigt sich darin, wie sehr die Überzeugung von der eigenen Korrektheit zur Überdehnung der eigenen fachlichen Kompetenz verleiten kann: Precht wurde wiederholt von Fachwissenschaftlern kritisiert, komplexe Sachverhalte außerhalb seines eigentlichen Fachgebiets zu vereinfachen oder mit zu großer Gewissheit zu vertreten, etwa in Debatten über Corona-Politik oder den Krieg in der Ukraine &ndash; ein Vorwurf, der ihm über Jahre hinweg mit bemerkenswerter Beharrlichkeit gemacht wurde, ohne dass er seine öffentliche Rolle grundlegend änderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Vom Einzelwerk zur institutionalisierten Plattform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die soziale Eins ist, dass Precht seine Reformüberzeugungen nicht bei einzelnen Büchern beließ, sondern sie über Jahrzehnte in immer neue, größere Formate übersetzte &ndash; vom Sachbuch über die eigene Fernsehsendung bis zum wöchentlichen Podcast, der regelmäßig zu den meistgehörten Deutschlands zählt.</p>
+          <p class="vb-intro">Diese kontinuierliche Erweiterung der eigenen Reichweite, ohne den grundlegenden reformerischen Anspruch je aufzugeben, zeigt dieselbe wachsame Beharrlichkeit, die auch Roald Amundsen oder Ursula von der Leyen in diesem Kompass auszeichnet &ndash; nur auf das Feld des öffentlichen Diskurses statt der Polarforschung oder Politik übertragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die im Duett mit einer zweiten Gans wacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Precht auszeichnet, ist die Konsequenz, mit der er über Jahrzehnte an seiner Rolle als öffentlicher Mahner und Reformdenker festhielt, unabhängig davon, ob dies Beifall oder scharfe fachliche Kritik einbrachte &ndash; die Überzeugung selbst blieb die tragende Konstante.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das gut zu seinem archetypischen Tier passt: die Gans, die im "Lanz & Precht"-Podcast gemeinsam mit einer zweiten Gans wacht &ndash; zwei wachsame, unbestechliche Stimmen, die auf ihre jeweils eigene Weise, die eine faktenprüfend, die andere gedankenerzählend, um dieselbe Ordnung des öffentlichen Gesprächs ringen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9) – Podcast-Partner, derselbe Subtyp"},
+        {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

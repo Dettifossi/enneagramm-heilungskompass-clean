@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=67";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=68";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -518,6 +518,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Roald Amundsen – Social Type 1",
     teaser:"SO1w9 · Polar explorer, 1872–1928. First person at the South Pole (1911), first person to reach both geographic poles. Disappeared in 1928 on a rescue flight for his former rival Umberto Nobile. The goose who carried a young nation to the South Pole.",
     land:"Norway", tags:["Geschichte","Wissenschaft"], gender:"m"},
+{ route:"beruehmte-richard-david-precht", name:"Richard David Precht", added:"2026-09-03", subtyp:"SO1w9",
+    heading:"Richard David Precht – Social Type 1",
+    teaser:"SO1w9 · Philosopher and author, b. 1964. Bestselling author since \"Who Am I, and If So, How Many?\", co-host of the podcast \"Lanz & Precht\" together with Markus Lanz (same subtype). The goose keeping watch in duet with a second goose.",
+    land:"Germany", tags:["Wissen"], gender:"m"},
 { route:"beruehmte-markus-lanz", name:"Markus Lanz", added:"2026-09-03", subtyp:"SO1w9",
     heading:"Markus Lanz – Social Type 1",
     teaser:"SO1w9 · Television host and journalist, b. 1969. Own ZDF talk show since 2008, known for meticulously prepared, fact-based interviews with politicians. The goose who imposes order on discourse.",
@@ -43955,6 +43959,73 @@ function roaldAmundsenPortraitPage() {
   `);
 }
 
+function richardDavidPrechtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-richard-david-precht-portrait.jpg" alt="Richard David Precht – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Richard David Precht</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher and author, b. 1964 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose who explains society's mistakes to itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and order, always responsible for the community, never just for itself. Richard David Precht, born in 1964 in Solingen, became one of the best-selling nonfiction authors in the German language with "Who Am I, and If So, How Many?" (2007), and has since remained one of the most prominent public voices on questions of education, digitalization, ethics, and society.</p>
+          <p class="vb-intro">His body of work spans more than twenty books, his own ZDF show ("Precht"), and, since 2022, the weekly podcast "Lanz & Precht" together with television host Markus Lanz &ndash; a format that, interestingly, brings together two representatives of the same subtype, each embodying, in their own way, the same watchful responsibility for public discourse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: reform as a life's task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> takes watchful responsibility for the order of a collective &ndash; not out of a need for recognition, but from an incorruptible conviction that things must be done correctly. Precht has positioned himself for decades as a reformer of a system he considers fundamentally flawed: with "Anna, the School, and the Dear Lord" (2013), he presented a widely discussed manifesto against the existing German education system, which he criticized as outdated and no longer suited to children's lived reality.</p>
+          <p class="vb-intro">This reformist conviction runs through his entire body of work: from criticism of factory farming to calls for an unconditional basic income to his engagement with artificial intelligence &ndash; always with the claim not merely to describe, but to correct what he sees as wrong.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: persuasiveness without volume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but is rarely carried outward explosively. Precht's public style is marked by calm, narrative argumentation rather than loud confrontation: he persuades through the patient unfolding of a line of thought, not through provocation for its own sake.</p>
+          <p class="vb-intro">This contrast becomes especially clear alongside his podcast partner Markus Lanz (also SO1w9): where Lanz lives out his watchful adherence to principle through meticulous fact-based confrontation in interviews, Precht expresses the same underlying disposition through the patient, narrative-philosophical unfolding of a reform idea &ndash; two very different stages for the same underlying pattern of watchful responsibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is its ability to <strong>convey complex societal questions to a broad audience in an accessible way with a clear stance</strong> &ndash; Precht's books have brought debates about education, artificial intelligence, and the ethics of factory farming to a mass audience that academic literature alone would never have reached.</p>
+          <p class="vb-intro">The shadow of the social One with a Nine-wing shows in how much the conviction of one's own correctness can tempt one to overreach one's actual expertise: Precht has repeatedly been criticized by subject-matter experts for oversimplifying complex issues outside his own field, or asserting them with too much certainty &ndash; for instance in debates over COVID policy or the war in Ukraine &ndash; a criticism leveled at him with remarkable persistence over the years, without him fundamentally changing his public role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. From individual works to an institutionalized platform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the social One that Precht did not leave his reformist convictions confined to individual books, but translated them over decades into ever-larger, new formats &ndash; from nonfiction to his own television show to a weekly podcast that regularly ranks among Germany's most-listened-to.</p>
+          <p class="vb-intro">This continuous expansion of his own reach, without ever abandoning the underlying reformist claim, shows the same watchful persistence that also distinguishes Roald Amundsen or Ursula von der Leyen in this compass &ndash; only applied to the field of public discourse rather than polar exploration or politics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The goose keeping watch in duet with a second goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Precht apart is the consistency with which he has held to his role as public admonisher and reform thinker for decades, regardless of whether it earned him applause or sharp expert criticism &ndash; the conviction itself remained the constant.</p>
+          <p class="vb-intro">In the end, one image remains that fits his archetypal animal well: the goose that keeps watch together with a second goose on the "Lanz & Precht" podcast &ndash; two watchful, incorruptible voices, each in their own way, one fact-checking, the other thought-unfolding, striving toward the same order of public conversation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9) – podcast partner, same subtype"},
+        {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 function markusLanzPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -43985,7 +44056,7 @@ function markusLanzPortraitPage() {
         <h2 class="vb-section">3. The Nine-wing: persistence without volume</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but is rarely carried outward explosively. Lanz's style is never loud or confrontational in the classic sense: he rarely raises his voice, never turns polemical, but calmly and persistently repeats the same precise question until an actual answer follows &ndash; a tenacity that guests often find more exhausting than open confrontation.</p>
-          <p class="vb-intro">This undramatic persistence also shows in his additional role as co-host of the weekly conversation format "Lanz & Precht" with philosopher Richard David Precht &ndash; a calm, cross-format conversational offering that does not shy away from complexity without pursuing provocation for its own sake.</p>
+          <p class="vb-intro">This undramatic persistence also shows in his additional role as co-host of the weekly conversation format "Lanz & Precht" with philosopher Richard David Precht (SO1w9) &ndash; a calm, cross-format conversational offering that does not shy away from complexity without pursuing provocation for its own sake.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Light and shadow</h2>
@@ -44014,6 +44085,7 @@ function markusLanzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9) – podcast partner, same subtype"},
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
@@ -51238,12 +51310,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts."
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts; Richard David Precht, who for decades has presented himself as a reformer of an education system he considers fundamentally flawed and consistently translated his convictions into ever-larger formats, from nonfiction to his own television show to a weekly podcast – an example of how the same watchful reformist conviction can also express itself in calm, narrative form rather than direct confrontation."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
@@ -110559,6 +110631,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
+      "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
