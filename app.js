@@ -42776,7 +42776,7 @@ function tierentsprechungenPage() {
 // ---------------------------------------------------------------------------
 
 const MEMORY_TOTAL_ROUNDS = 10;
-const MEMORY_MEMORIZE_MS = 10000;
+const MEMORY_MEMORIZE_MS = 60000;
 
 let _memoryState = null;
 const _memoryImgCache = {};
