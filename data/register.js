@@ -703,7 +703,9 @@ export const registerEntries = [
 
   // Tierlexikon
   { term: "Blickqualitäten-Atlas",     route: "blickqualitaeten-atlas", description: "Alle 27 Subtypen: Tierentsprechung, Blickqualität und Gesamtwirkung im Überblick" },
-  { term: "Enneagramm-Memory",         route: "enneagramm-memory",      description: "Merkspiel: Porträtfotos aus dem ganzen Kompass, Paare nach Subtyp erkennen" },
+  { term: "Enneagramm-Memory I",       route: "enneagramm-memory-1",    description: "Merkspiel für Anfänger: Porträtfotos aus dem ganzen Kompass, Paare nach Grundtyp erkennen" },
+  { term: "Enneagramm-Memory II",      route: "enneagramm-memory-2",    description: "Merkspiel für Fortgeschrittene: Paare nach Typ + Flügel erkennen" },
+  { term: "Enneagramm-Memory III",     route: "enneagramm-memory-3",    description: "Merkspiel für Experten: Paare nach vollständigem Subtyp erkennen" },
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
   { term: "Lebensmusterkompass",       route: "lebensmusterkompass",    description: "Biografische Fingerabdrücke der 27 Subtypen – wiederkehrende Muster aus 400+ Fallporträts" },
   { term: "Krankheitsmusterkompass",   route: "krankheitsmusterkompass", description: "Wiederkehrende Krankheitsmuster der 27 Subtypen – statistische Häufungen aus den Krankheitsporträts" },
@@ -2346,7 +2348,9 @@ export const registerEntriesEN = [
   { term: "Motivation Quick Test", route: "motivations-schnelltest", description: "Compact 10-question test on your inner why – fast first orientation" },
   { term: "Face Scan", route: "gesichts-scan", description: "Preparation for your personal type consultation: take a photo scan or short video" },
   { term: "Gaze Quality Atlas", route: "blickqualitaeten-atlas", description: "All 27 subtypes: animal correspondence, gaze quality, and overall effect at a glance" },
-  { term: "Enneagram Memory", route: "enneagramm-memory", description: "Matching game: portrait photos from the whole compass, spot pairs by subtype" },
+  { term: "Enneagram Memory I", route: "enneagramm-memory-1", description: "Beginner matching game: portrait photos from the whole compass, spot pairs by base type" },
+  { term: "Enneagram Memory II", route: "enneagramm-memory-2", description: "Intermediate matching game: spot pairs by type + wing" },
+  { term: "Enneagram Memory III", route: "enneagramm-memory-3", description: "Expert matching game: spot pairs by full subtype" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
   { term: "Life Pattern Compass", route: "lebensmusterkompass", description: "Biographical fingerprints of the 27 subtypes – recurring patterns from 400+ case portraits" },
   { term: "Illness Pattern Compass", route: "krankheitsmusterkompass", description: "Recurring illness patterns of the 27 subtypes – statistical clusters from the illness portraits" },
