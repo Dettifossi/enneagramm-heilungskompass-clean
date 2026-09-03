@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=68";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=69";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1094,6 +1094,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Norah Jones – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1979. Singer and songwriter, daughter of Ravi Shankar. \"Come Away with Me\" (2002), over 27 million albums sold, eight Grammys – and a deliberate retreat from the spotlight instead of building on the fame. Performed incognito under the alias \"Maddie\" in the side project El Madmo in 2008. Animal correspondence: Raccoon.",
     land:"USA", tags:["Musik"], gender:"f"},
+{ route:"beruehmte-caren-miosga", name:"Caren Miosga", added:"2026-09-03", subtyp:"SE3w4",
+    heading:"Caren Miosga – Self-Preservation Type 3",
+    teaser:"SP3w4 · Journalist and television host, b. 1969. Anchored \"Tagesthemen\" for over two decades, own political talk show on Das Erste since 2023. Cross-linked with Kathrin Bauerfeind (same subtype). The raccoon who asks the questions, not for the spotlight.",
+    land:"Germany", tags:["Medien"], gender:"f"},
 { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
@@ -47288,6 +47292,72 @@ function ludwigXIVPortraitPage() {
   `);
 }
 
+function carenMiosgaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-caren-miosga-portrait.jpg" alt="Caren Miosga – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Caren Miosga</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Journalist and television host, b. 1969 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon who asks the questions, not for the spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; not a performance for the camera, but quiet, skillful competence that creates its own territory. Caren Miosga, born in 1969 in Ratingen, anchored the "Tagesthemen" news program for over two decades before taking over the prestigious Sunday-evening political talk show slot on Das Erste in 2023, previously held by Anne Will.</p>
+          <p class="vb-intro">What stands out about her rise is the absence of any self-promotion: Miosga built her reputation over years inside the news desk, not through media presence beyond the broadcast itself. The raccoon does not rummage in the spotlight &ndash; it patiently gathers what it needs for the next task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: substance over self-display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is the counter-type of the Three &ndash; the expression of the type that looks least like classic Three vanity. It directs its performance not outward toward admiration, but inward toward competence and security. Miosga's journalistic style embodies this exactly: on her talk show she moderates reservedly, lets guests finish their thoughts, asks precise rather than provocative questions &ndash; the opposite of the loud, confrontational dramaturgy that shapes many competing formats.</p>
+          <p class="vb-intro">This reserve is not weakness but strategic substance: journalists and critics repeatedly credit her with especially thorough preparation and subject-matter knowledge, which lets her press at decisive points without a big gesture. Whoever can do much need not be loud to be heard &ndash; that is SP3 logic in its purest journalistic form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: a personal note behind the matter-of-factness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three an awareness of the distinctive that goes beyond pure functionality. A self-preservation Three with a weak Four-wing could remain in pure matter-of-factness and efficiency; a strong Four-wing brings an additional question: how do I present what I know so that it also carries something of myself?</p>
+          <p class="vb-intro">In Miosga this shows in a recognizably personal way of conducting interviews, distinctly different from her predecessor Anne Will &ndash; calmer in tone, with a personal note in her choice of topics and guests that goes beyond pure topicality. It is not a conspicuous idiosyncrasy, but a quiet stylistic signature that only becomes visible in comparison with other political talk formats.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3 is its reliability: Miosga has built a reputation in political journalism over two decades that does not rest on a single viral moment, but on continuous, verifiable quality &ndash; exactly the kind of long-term trust-building it takes to take over such an exposed broadcast slot.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity</strong> &ndash; in the SP3 it expresses itself more subtly: the emphasized matter-of-factness and reserve can itself become a quiet form of self-display. "I let the facts speak" is also a way of positioning oneself as especially of integrity. The shadow of the self-preservation Three with a Four-wing shows in how easily one's own journalistic achievement can vanish behind the deliberate reserve of one's own person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A role in mostly male-dominated terrain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Miosga's takeover of the Sunday-evening slot joins a small but growing number of women who host political talk shows bearing their own name in the title in Germany &ndash; a genre long dominated by male hosts. It is notable that she reached this position not through a deliberately confrontational or publicity-seeking stance, but through journalistic competence demonstrated over years at the "Tagesthemen" news desk.</p>
+          <p class="vb-intro">Like Kathrin Bauerfeind (SP3w4, see <a href="javascript:void(0)" data-route="beruehmte-kathrin-bauerfeind">portrait</a>), Miosga shows that a successful career in the German media landscape need not be built on self-promotion, but on demonstrable competence &ndash; two journalists of the same subtype living the same underlying pattern on different stages: competence over shine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The raccoon on Das Erste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Miosga from many of her talk-show colleagues is the consistency with which she treats journalistic reserve as a strength in its own right rather than a drawback &ndash; in a format structurally built for escalation and confrontation, she deliberately moderates against that reflex.</p>
+          <p class="vb-intro">In the end, an image remains that fits her archetypal animal: the raccoon who carved out its own territory in German Sunday-evening programming not through volume, but through skill and persistence &ndash; never once removing the mask of reserve.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4) – journalist, same subtype"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 function kathrinBauerfeindPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47345,6 +47415,7 @@ function kathrinBauerfeindPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SP3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4) – journalist, same subtype"},
       ])}
     </div>
   `);
@@ -51165,12 +51236,12 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks", "William Shakespeare"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks", "William Shakespeare", "Caren Miosga"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
         beschreibung: "Unlike the social and sexual Threes, this subtype seeks no stage. Naranjo called it the 'countertype' of the Three: instead of self-staging, it shows modesty, groundedness, a deliberate avoidance of the spotlight – while the same energy runs underneath.",
-        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; William Shakespeare, who left so few personal traces that it is still seriously debated whether a glovemaker's son from the provinces could have written his work at all – the person behind the work was so inconspicuous that posterity doubts his existence rather than his authorship; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100; Rosa Parks, who worked unobtrusively as NAACP secretary for twelve years before her quiet refusal on the bus became a world-famous turning point, and who then continued fifty more years of concrete civil rights work without any claim to fame, rather than accepting the role of icon."
+        beleg: "Kathrin Bauerfeind: 'No loud appearance, no glamour, no stage ... The raccoon doesn't dig in the spotlight – it builds its own territory'; Tony Shalhoub and Judit Polgár are described in almost identical terms: 'An animal easily underestimated ... works with skilled hands in hiding'; Joseph Haydn: 'no child prodigy like Mozart, no raging titan like Beethoven,' but three decades of loyal service. As a warning, Volodymyr Zelenskyy: 'An actor playing a role until he himself no longer knows where the role ends and he begins – that is the trap of the self-preservation Three.' Salome, who at Cana stayed 'quiet, unobtrusive, at the edge' while her gaze took in every detail – until Jesus, without any staging, achieved exactly the effect she herself could never reach without effort: 'Who is this man, who can be effective without performing?' Horst Tappert, who played the same role for 24 years and 281 episodes without ever needing to reinvent himself – no spectacular meteoric rise, but a late-starting, all the more steadily carried career whose substance only fully unfolded across decades; William Shakespeare, who left so few personal traces that it is still seriously debated whether a glovemaker's son from the provinces could have written his work at all – the person behind the work was so inconspicuous that posterity doubts his existence rather than his authorship; Andre Agassi, whose 'Image is Everything' ad campaign of the early 1990s made him the loud, rebellious face of tennis, while he later exposed that very image in his memoir 'Open' as a lie he privately despised – his real substance showed itself only in the sober, verifiable comeback to world No. 1 after falling out of the top 100; Rosa Parks, who worked unobtrusively as NAACP secretary for twelve years before her quiet refusal on the bus became a world-famous turning point, and who then continued fifty more years of concrete civil rights work without any claim to fame, rather than accepting the role of icon; Caren Miosga, who built a reputation over two decades as a news anchor for 'Tagesthemen' before taking over the prestigious Sunday-evening broadcast slot in 2023 without any loud self-promotion – a reserved, matter-of-fact presenting style as a deliberate counter-design to confrontational political-talk dramaturgy."
       },
       {
         titel: "Building a working system out of little or from nothing",
@@ -110670,6 +110741,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sadhguru": sadhguruPortraitPage,
       "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-norah-jones": norahJonesPortraitPage,
+      "beruehmte-caren-miosga": carenMiosgaPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
       "beruehmte-osho": oshoPortraitPage,

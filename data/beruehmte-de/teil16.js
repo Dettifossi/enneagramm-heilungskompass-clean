@@ -821,6 +821,7 @@ export function kathrinBauerfeindPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
+        {route:"beruehmte-caren-miosga", label:"Portr\u00e4t: Caren Miosga (SE3w4) \u2013 Journalistin, derselbe Subtyp"},
       ])}
     </div>
   `);

@@ -1643,3 +1643,69 @@ export function milarepaPortraitPage() {
     </div>
   `);
 }
+
+export function carenMiosgaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-caren-miosga-portrait.jpg" alt="Caren Miosga – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Caren Miosga</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin und Fernsehmoderatorin, geb. 1969 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der die Fragen stellt, nicht die Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; kein Auftritt für die Kamera, sondern stille, geschickte Kompetenz, die sich ihr eigenes Territorium schafft. Caren Miosga, geboren 1969 in Ratingen, moderierte über zwei Jahrzehnte die "Tagesthemen", bevor sie 2023 mit ihrer eigenen politischen Talkshow "Caren Miosga" im Ersten den prestigeträchtigen Sonntagabend-Sendeplatz übernahm, den zuvor Anne Will besetzt hatte.</p>
+          <p class="vb-intro">Was an ihrem Aufstieg auffällt, ist das Fehlen jeder Selbstinszenierung: Miosga baute ihre Reputation über Jahre in der Nachrichtenredaktion auf, nicht über mediale Präsenz jenseits der Sendung. Der Waschbär gräbt nicht im Rampenlicht &ndash; er sammelt beharrlich, was er für die nächste Aufgabe braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Substanz statt Selbstdarstellung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei &ndash; derjenige Ausdruck des Typs, der am wenigsten nach klassischer Dreier-Eitelkeit aussieht. Sie richtet ihre Leistung nicht nach außen auf Bewunderung, sondern nach innen auf Kompetenz und Sicherheit. Miosgas journalistischer Stil verkörpert das exemplarisch: In ihrer Talkshow moderiert sie zurückhaltend, lässt Gäste ausreden, stellt präzise statt provokante Fragen &ndash; das Gegenteil der lauten, konfrontativen Polit-Talk-Dramaturgie, die viele Konkurrenzformate prägt.</p>
+          <p class="vb-intro">Diese Zurückhaltung ist keine Schwäche, sondern strategische Substanz: Journalisten und Kritiker attestieren ihr wiederholt eine besonders gründliche Vorbereitung und Sachkenntnis, die es ihr erlaubt, ohne große Geste an entscheidenden Stellen nachzuhaken. Wer viel kann, muss nicht laut sein, um gehört zu werden &ndash; das ist die SE3-Logik in ihrer reinsten journalistischen Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Persönliche Note hinter der Sachlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei ein Bewusstsein für das Unverwechselbare, das über reine Funktionalität hinausgeht. Eine SE3 mit schwach ausgeprägtem Viererflügel könnte in reiner Sachlichkeit und Effizienz verharren; ein stark ausgeprägter Viererflügel bringt eine zusätzliche Frage mit: Wie stelle ich das, was ich weiß, so dar, dass es auch etwas von mir selbst trägt?</p>
+          <p class="vb-intro">Bei Miosga zeigt sich das in einer erkennbar eigenen Gesprächsführung, die sich deutlich von der ihrer Vorgängerin Anne Will unterscheidet &ndash; ruhiger im Ton, mit einer persönlichen Note in der Auswahl der Themen und Gäste, die über reine Aktualität hinausgeht. Es ist keine auffällige Eigenwilligkeit, sondern eine leise stilistische Handschrift, die sich erst im Vergleich mit anderen Polit-Talkformaten zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Verlässlichkeit: Miosga hat sich über zwei Jahrzehnte hinweg im politischen Journalismus eine Reputation erarbeitet, die nicht auf einem einzelnen viralen Moment beruht, sondern auf kontinuierlicher, überprüfbarer Qualität &ndash; genau die Art von langfristigem Vertrauensaufbau, die es braucht, um einen so exponierten Sendeplatz zu übernehmen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> &ndash; bei der SE3 äußert sie sich subtiler: Die betonte Sachlichkeit und Zurückhaltung selbst kann zur stillen Form der Selbstdarstellung werden. "Ich lasse die Fakten sprechen" ist auch eine Art, sich als besonders integer zu positionieren. Der Schatten der selbsterhaltenden Drei mit Viererflügel zeigt sich darin, wie leicht die eigene journalistische Leistung hinter der bewussten Zurückhaltung der eigenen Person verschwinden kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Eine Rolle in mehrheitlich männlich geprägtem Terrain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Miosgas Übernahme des Sonntagabend-Sendeplatzes reiht sich in eine kleine, aber wachsende Zahl von Frauen ein, die in Deutschland politische Talkshows mit eigenem Namen im Titel moderieren &ndash; ein Genre, das lange von männlichen Moderatoren dominiert wurde. Bemerkenswert ist dabei, dass sie diesen Platz nicht durch eine dezidiert konfrontative oder öffentlichkeitswirksame Positionierung erreichte, sondern durch die über Jahre demonstrierte journalistische Kompetenz in der "Tagesthemen"-Redaktion.</p>
+          <p class="vb-intro">Wie Kathrin Bauerfeind (SE3w4, siehe <a href="javascript:void(0)" data-route="beruehmte-kathrin-bauerfeind">Porträt</a>) zeigt auch Miosga, dass sich in der deutschen Medienlandschaft eine erfolgreiche Karriere nicht zwangsläufig über Selbstinszenierung, sondern über nachweisbares Können aufbauen lässt &ndash; zwei Journalistinnen desselben Subtyps, die auf unterschiedlichen Bühnen dasselbe Grundmuster leben: Kompetenz statt Glanz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Waschbär im Ersten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Miosga von vielen ihrer Talkshow-Kollegen unterscheidet, ist die Konsequenz, mit der sie journalistische Zurückhaltung als eigene Stärke statt als Nachteil behandelt &ndash; in einem Format, das strukturell auf Zuspitzung und Konfrontation angelegt ist, moderiert sie bewusst gegen diesen Reflex an.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das zu ihrem archetypischen Tier passt: der Waschbär, der sich nicht durch Lautstärke, sondern durch Geschicklichkeit und Ausdauer ein eigenes Revier im deutschen Sonntagabendprogramm geschaffen hat &ndash; ohne die Maske der Zurückhaltung je abzulegen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4) – Journalistin, derselbe Subtyp"},
+        {route:"beruehmte-rosa-parks", label:"Porträt: Rosa Parks (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
