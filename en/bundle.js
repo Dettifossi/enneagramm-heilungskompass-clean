@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=73";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=74";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3127,6 +3127,7 @@ text.nav = [
     { route: "differenzierung", label: "Differentiation" },
     { route: "beziehungen", label: "Relationship Compass" },
     { route: "kompatibilitaets-check", label: "Compatibility Check (compare two subtypes)" },
+    { route: "wachstumstagebuch", label: "Growth Journal (daily ritual with streak tracking)" },
     { route: "kommunikationsguide", label: "Communication Guide" },
     { route: "situationskompass", label: "Situation Compass" },
     { route: "krisenkompass", label: "Crisis Compass" },
@@ -17736,6 +17737,155 @@ function kompatibilitaetsCheckPage() {
         <a href="javascript:void(0)" data-route="beziehungen" style="font-size:0.85rem;">&larr; To the full Relationship Compass (all 9 types &amp; 27 subtypes)</a>
       </div>
     </section>
+  `);
+}
+
+// ---------------------------------------------------------------------------
+// Growth Journal: daily check-in with streak tracking, tied to the user's
+// own saved subtype (getProfile()/hasProfile()). Uses the already existing
+// daily.impulse texts and coreSentence per subtype – no new content is
+// authored, but it turns them into a ritual that can be tracked over weeks
+// instead of a one-off daily impulse.
+// ---------------------------------------------------------------------------
+
+const WT_LOG_KEY = "kompass:wachstumstagebuch-log";
+
+function _wtToday() {
+  return new Date().toISOString().slice(0, 10);
+}
+function _wtLoadLog() {
+  try { return JSON.parse(localStorage.getItem(WT_LOG_KEY) || "[]"); } catch (e) { return []; }
+}
+function _wtSaveLog(arr) {
+  try { localStorage.setItem(WT_LOG_KEY, JSON.stringify(arr)); } catch (e) {}
+}
+function _wtNoteKey(date) { return "kompass:wachstumstagebuch-notiz-" + date; }
+function _wtGetNote(date) {
+  try { return localStorage.getItem(_wtNoteKey(date)) || ""; } catch (e) { return ""; }
+}
+
+function _wtStreaks(log) {
+  const days = new Set(log);
+  const today = _wtToday();
+  const oneDay = 86400000;
+  const todayDate = new Date(today + "T00:00:00");
+
+  // Current streak: count backwards from today (or yesterday, if today isn't logged yet).
+  let current = 0;
+  let cursor = new Date(todayDate);
+  if (!days.has(today)) cursor = new Date(todayDate.getTime() - oneDay);
+  while (days.has(cursor.toISOString().slice(0, 10))) {
+    current += 1;
+    cursor = new Date(cursor.getTime() - oneDay);
+  }
+
+  // Longest streak overall.
+  const sorted = [...days].sort();
+  let longest = 0, run = 0, prev = null;
+  for (const d of sorted) {
+    if (prev) {
+      const gap = (new Date(d) - new Date(prev)) / oneDay;
+      run = gap === 1 ? run + 1 : 1;
+    } else {
+      run = 1;
+    }
+    longest = Math.max(longest, run);
+    prev = d;
+  }
+
+  return { current, longest, total: days.size };
+}
+
+window._wtCheckIn = function () {
+  const log = _wtLoadLog();
+  const today = _wtToday();
+  if (!log.includes(today)) {
+    log.push(today);
+    _wtSaveLog(log);
+  }
+  app.innerHTML = wachstumstagebuchPage();
+  bindEvents();
+};
+
+window._wtSaveTodayNote = function (value) {
+  try { localStorage.setItem(_wtNoteKey(_wtToday()), value); } catch (e) {}
+};
+
+function _wtLast30Grid(log) {
+  const days = new Set(log);
+  const cells = [];
+  for (let i = 29; i >= 0; i--) {
+    const d = new Date(Date.now() - i * 86400000);
+    const iso = d.toISOString().slice(0, 10);
+    const active = days.has(iso);
+    cells.push(`<span title="${iso}" style="width:0.85rem;height:0.85rem;border-radius:2px;display:inline-block;background:${active ? "var(--copper,#a5603d)" : "var(--line,var(--border))"};"></span>`);
+  }
+  return `<div style="display:flex;gap:0.25rem;flex-wrap:wrap;max-width:420px;margin:1rem auto;">${cells.join("")}</div>`;
+}
+
+function wachstumstagebuchPage() {
+  if (!hasProfile()) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wachstumstagebuch")}
+        <div class="page-content" style="text-align:center;">
+          <p class="eyebrow">Practice &middot; Growth Journal</p>
+          <h1 class="section-title">Growth Journal</h1>
+          <p style="max-width:420px;margin:0 auto 1.5rem;">The Growth Journal is tailored to your personal subtype. Take a type test first, or manually select your subtype, to get started.</p>
+          <a href="javascript:void(0)" data-route="diagnosetest" class="mem-btn" style="display:inline-block;text-decoration:none;background:var(--copper,#a5603d);color:#fff;padding:0.75rem 2rem;border-radius:24px;font-weight:600;">To the type test &rarr;</a>
+        </div>
+      </div>
+    `);
+  }
+
+  const code = getProfile();
+  const p = loadProfile();
+  const log = _wtLoadLog();
+  const streaks = _wtStreaks(log);
+  const today = _wtToday();
+  const checkedToday = log.includes(today);
+  const impulse = p.daily && p.daily.impulse ? dailyPick(p.daily.impulse) : "";
+  const note = _wtGetNote(today);
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wachstumstagebuch")}
+      <div class="page-content">
+        <p class="eyebrow">Practice &middot; Growth Journal</p>
+        <h1 class="section-title">Growth Journal</h1>
+        <p class="psycho-intro">Your daily ritual to actively work on your own pattern &ndash; instead of living it out unconsciously. One click a day is enough to keep the streak alive.</p>
+
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1.1rem 1.3rem;margin:1.2rem 0;">
+          <div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Your subtype &middot; ${(code||"").toUpperCase()} &middot; ${p.archetype||""} ${p.emoji||""}</div>
+          <p style="margin:0 0 0.7rem;font-size:1rem;color:var(--ink);">${p.coreSentence||""}</p>
+          ${impulse ? `<p style="margin:0;font-size:0.9rem;color:var(--muted);font-style:italic;">Today's impulse: ${impulse}</p>` : ""}
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;text-align:center;max-width:420px;margin:0 auto 1.2rem;">
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--copper);">${streaks.current}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Current Streak</div></div>
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--ink);">${streaks.longest}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Longest Streak</div></div>
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--ink);">${streaks.total}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Total Days</div></div>
+        </div>
+
+        <div style="text-align:center;margin-bottom:0.5rem;">
+          ${checkedToday
+            ? `<span style="display:inline-block;padding:0.75rem 2rem;border-radius:24px;font-weight:600;background:color-mix(in srgb, #3a9552 16%, var(--paper));color:#3a9552;border:2px solid #3a9552;">&#10003; Done for today</span>`
+            : `<button class="mem-btn" style="background:var(--copper,#a5603d);color:#fff;border:none;padding:0.75rem 2rem;border-radius:24px;font-size:0.95rem;font-family:inherit;cursor:pointer;font-weight:600;" onclick="window._wtCheckIn()">Worked on it today &#10003;</button>`}
+        </div>
+
+        ${_wtLast30Grid(log)}
+        <p style="text-align:center;color:var(--muted);font-size:0.78rem;margin-top:-0.4rem;">Last 30 Days</p>
+
+        <div style="max-width:420px;margin:1.5rem auto 0;">
+          <label style="display:block;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);margin-bottom:0.4rem;">Personal note for today (optional)</label>
+          <textarea id="wt-note" oninput="window._wtSaveTodayNote(this.value)" placeholder="What did you notice about your pattern today?" style="width:100%;min-height:5rem;padding:0.7rem 0.9rem;border-radius:10px;border:1.5px solid var(--line,var(--border));font-family:inherit;font-size:0.9rem;background:var(--paper);color:var(--ink);resize:vertical;">${note}</textarea>
+        </div>
+
+        <div style="margin-top:2rem;text-align:center;">
+          <a href="javascript:void(0)" data-route="subtype/${(code||"").toLowerCase()}" style="font-size:0.85rem;">&larr; To the full subtype profile ${(code||"").toUpperCase()}</a>
+        </div>
+      </div>
+    </div>
   `);
 }
 
@@ -111202,6 +111352,7 @@ function subtypeSchaubilderPage() {
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
     "kompatibilitaets-check": kompatibilitaetsCheckPage,
+    "wachstumstagebuch": wachstumstagebuchPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
     "enneagramm-memory-1": enneagrammMemory1Page,

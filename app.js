@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=73";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=74";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15889,6 +15889,7 @@ const uiText = {
       { route: "differenzierung", label: "Differenzierung" },
       { route: "beziehungen", label: "Beziehungskompass" },
       { route: "kompatibilitaets-check", label: "Kompatibilitäts-Check (zwei Subtypen vergleichen)" },
+      { route: "wachstumstagebuch", label: "Wachstumstagebuch (tägliches Ritual mit Serien-Tracking)" },
       { route: "situationskompass", label: "Situationskompass" },
       { route: "krisenkompass", label: "Krisenkompass" },
       { route: "kommunikationsguide", label: "Kommunikationsguide" },
@@ -42766,6 +42767,156 @@ function kompatibilitaetsCheckPage() {
         <a href="javascript:void(0)" data-route="beziehungen" style="font-size:0.85rem;">&larr; Zum vollständigen Beziehungskompass (alle 9 Typen &amp; 27 Subtypen)</a>
       </div>
     </section>
+  `);
+}
+
+// ---------------------------------------------------------------------------
+// Wachstumstagebuch: täglicher Check-in mit Serien-Tracking (Streak), gekoppelt
+// an den eigenen gespeicherten Subtyp (getProfile()/hasProfile()). Nutzt die
+// bereits vorhandenen daily.impulse-Texte und coreSentence je Subtyp – baut
+// nichts inhaltlich Neues, macht daraus aber ein über Wochen verfolgbares
+// Ritual statt eines einmaligen Tages-Impulses.
+// ---------------------------------------------------------------------------
+
+const WT_LOG_KEY = "kompass:wachstumstagebuch-log";
+
+function _wtToday() {
+  const d = new Date();
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+}
+// Reine Kalenderdatum-Arithmetik auf ISO-Strings (immer über Date.UTC verankert),
+// damit lokale Zeitzone/Sommerzeit die Tagesgrenzen nie verschiebt.
+function _wtAddDays(iso, delta) {
+  const [y, m, d] = iso.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  dt.setUTCDate(dt.getUTCDate() + delta);
+  return dt.getUTCFullYear() + "-" + String(dt.getUTCMonth() + 1).padStart(2, "0") + "-" + String(dt.getUTCDate()).padStart(2, "0");
+}
+function _wtLoadLog() {
+  try { return JSON.parse(localStorage.getItem(WT_LOG_KEY) || "[]"); } catch (e) { return []; }
+}
+function _wtSaveLog(arr) {
+  try { localStorage.setItem(WT_LOG_KEY, JSON.stringify(arr)); } catch (e) {}
+}
+function _wtNoteKey(date) { return "kompass:wachstumstagebuch-notiz-" + date; }
+function _wtGetNote(date) {
+  try { return localStorage.getItem(_wtNoteKey(date)) || ""; } catch (e) { return ""; }
+}
+
+function _wtStreaks(log) {
+  const days = new Set(log);
+  const today = _wtToday();
+
+  // Aktuelle Serie: von heute (oder gestern, falls heute noch offen) rückwärts zählen.
+  let current = 0;
+  let cursor = days.has(today) ? today : _wtAddDays(today, -1);
+  while (days.has(cursor)) {
+    current += 1;
+    cursor = _wtAddDays(cursor, -1);
+  }
+
+  // Längste Serie insgesamt.
+  const sorted = [...days].sort();
+  let longest = 0, run = 0, prev = null;
+  for (const d of sorted) {
+    run = (prev && _wtAddDays(prev, 1) === d) ? run + 1 : 1;
+    longest = Math.max(longest, run);
+    prev = d;
+  }
+
+  return { current, longest, total: days.size };
+}
+
+window._wtCheckIn = function () {
+  const log = _wtLoadLog();
+  const today = _wtToday();
+  if (!log.includes(today)) {
+    log.push(today);
+    _wtSaveLog(log);
+  }
+  app.innerHTML = wachstumstagebuchPage();
+  bindEvents();
+};
+
+window._wtSaveTodayNote = function (value) {
+  try { localStorage.setItem(_wtNoteKey(_wtToday()), value); } catch (e) {}
+};
+
+function _wtLast30Grid(log) {
+  const days = new Set(log);
+  const today = _wtToday();
+  const cells = [];
+  for (let i = 29; i >= 0; i--) {
+    const iso = _wtAddDays(today, -i);
+    const active = days.has(iso);
+    cells.push(`<span title="${iso}" style="width:0.85rem;height:0.85rem;border-radius:2px;display:inline-block;background:${active ? "var(--copper,#a5603d)" : "var(--line,var(--border))"};"></span>`);
+  }
+  return `<div style="display:flex;gap:0.25rem;flex-wrap:wrap;max-width:420px;margin:1rem auto;">${cells.join("")}</div>`;
+}
+
+function wachstumstagebuchPage() {
+  if (!hasProfile()) {
+    return shell(`
+      <div class="page-container">
+        ${pageHeader("wachstumstagebuch")}
+        <div class="page-content" style="text-align:center;">
+          <p class="eyebrow">Praxis &middot; Wachstumstagebuch</p>
+          <h1 class="section-title">Wachstumstagebuch</h1>
+          <p style="max-width:420px;margin:0 auto 1.5rem;">Das Wachstumstagebuch ist auf Ihren persönlichen Subtyp zugeschnitten. Machen Sie zuerst einen Typentest oder wählen Sie Ihren Subtyp manuell aus, um zu starten.</p>
+          <a href="javascript:void(0)" data-route="diagnosetest" class="mem-btn" style="display:inline-block;text-decoration:none;background:var(--copper,#a5603d);color:#fff;padding:0.75rem 2rem;border-radius:24px;font-weight:600;">Zum Typentest &rarr;</a>
+        </div>
+      </div>
+    `);
+  }
+
+  const code = getProfile();
+  const p = loadProfile();
+  const log = _wtLoadLog();
+  const streaks = _wtStreaks(log);
+  const today = _wtToday();
+  const checkedToday = log.includes(today);
+  const impulse = p.daily && p.daily.impulse ? dailyPick(p.daily.impulse) : "";
+  const note = _wtGetNote(today);
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wachstumstagebuch")}
+      <div class="page-content">
+        <p class="eyebrow">Praxis &middot; Wachstumstagebuch</p>
+        <h1 class="section-title">Wachstumstagebuch</h1>
+        <p class="psycho-intro">Ihr tägliches Ritual, um aktiv am eigenen Muster zu arbeiten &ndash; statt es unbewusst auszuleben. Ein Klick pro Tag genügt, um die Serie am Leben zu halten.</p>
+
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1.1rem 1.3rem;margin:1.2rem 0;">
+          <div style="font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);font-weight:600;margin-bottom:0.4rem;">Ihr Subtyp &middot; ${(code||"").toUpperCase()} &middot; ${p.archetype||""} ${p.emoji||""}</div>
+          <p style="margin:0 0 0.7rem;font-size:1rem;color:var(--ink);">${p.coreSentence||""}</p>
+          ${impulse ? `<p style="margin:0;font-size:0.9rem;color:var(--muted);font-style:italic;">Heutiger Impuls: ${impulse}</p>` : ""}
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.8rem;text-align:center;max-width:420px;margin:0 auto 1.2rem;">
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--copper);">${streaks.current}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Aktuelle Serie</div></div>
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--ink);">${streaks.longest}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Längste Serie</div></div>
+          <div><div style="font-size:1.6rem;font-weight:700;color:var(--ink);">${streaks.total}</div><div style="font-size:0.72rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);">Tage gesamt</div></div>
+        </div>
+
+        <div style="text-align:center;margin-bottom:0.5rem;">
+          ${checkedToday
+            ? `<span style="display:inline-block;padding:0.75rem 2rem;border-radius:24px;font-weight:600;background:color-mix(in srgb, #3a9552 16%, var(--paper));color:#3a9552;border:2px solid #3a9552;">&#10003; Heute schon erledigt</span>`
+            : `<button class="mem-btn" style="background:var(--copper,#a5603d);color:#fff;border:none;padding:0.75rem 2rem;border-radius:24px;font-size:0.95rem;font-family:inherit;cursor:pointer;font-weight:600;" onclick="window._wtCheckIn()">Heute daran gearbeitet &#10003;</button>`}
+        </div>
+
+        ${_wtLast30Grid(log)}
+        <p style="text-align:center;color:var(--muted);font-size:0.78rem;margin-top:-0.4rem;">Letzte 30 Tage</p>
+
+        <div style="max-width:420px;margin:1.5rem auto 0;">
+          <label style="display:block;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted);margin-bottom:0.4rem;">Persönliche Notiz zu heute (optional)</label>
+          <textarea id="wt-note" oninput="window._wtSaveTodayNote(this.value)" placeholder="Was ist Ihnen heute an Ihrem Muster aufgefallen?" style="width:100%;min-height:5rem;padding:0.7rem 0.9rem;border-radius:10px;border:1.5px solid var(--line,var(--border));font-family:inherit;font-size:0.9rem;background:var(--paper);color:var(--ink);resize:vertical;">${note}</textarea>
+        </div>
+
+        <div style="margin-top:2rem;text-align:center;">
+          <a href="javascript:void(0)" data-route="subtype/${(code||"").toLowerCase()}" style="font-size:0.85rem;">&larr; Zum vollständigen Subtyp-Profil ${(code||"").toUpperCase()}</a>
+        </div>
+      </div>
+    </div>
   `);
 }
 
@@ -74927,6 +75078,7 @@ const ROUTES = {
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
     "kompatibilitaets-check": kompatibilitaetsCheckPage,
+    "wachstumstagebuch": wachstumstagebuchPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
     "enneagramm-memory-1": enneagrammMemory1Page,
