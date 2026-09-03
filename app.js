@@ -30955,7 +30955,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Irland", tags:["Enneagramm","Wissenschaft"] , gender:"m"},
   { route:"beruehmte-caren-miosga", name:"Caren Miosga", added:"2026-09-03", subtyp:"SE3w4",
     heading:"Caren Miosga – Selbsterhaltender Typ 3",
-    teaser:"SE3w4 · Journalistin und Fernsehmoderatorin, geb. 1969. Über zwei Jahrzehnte »Tagesthemen«, seit 2023 eigene politische Talkshow im Ersten am Sonntagabend. Mit Kathrin Bauerfeind (gleicher Subtyp) verlinkt. Der Waschbär, der die Fragen stellt, nicht die Show.",
+    teaser:"SE3w4 · Journalistin und Fernsehmoderatorin, geb. 1969. Über zwei Jahrzehnte »Tagesthemen«, seit 2023 eigene politische Talkshow im Ersten am Sonntagabend. Mit Kathrin Bauerfeind (gleicher Subtyp) verlinkt. Der Waschbär, der die Fragen stellt, statt die Show zu machen.",
     tags:["Medien"], gender:"f"},
   { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind \u2013 Selbsterhaltender Typ 3",

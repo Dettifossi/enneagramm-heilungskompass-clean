@@ -1096,7 +1096,7 @@ const BERUEHMT_PORTRAITS = [
     land:"USA", tags:["Musik"], gender:"f"},
 { route:"beruehmte-caren-miosga", name:"Caren Miosga", added:"2026-09-03", subtyp:"SE3w4",
     heading:"Caren Miosga – Self-Preservation Type 3",
-    teaser:"SP3w4 · Journalist and television host, b. 1969. Anchored \"Tagesthemen\" for over two decades, own political talk show on Das Erste since 2023. Cross-linked with Kathrin Bauerfeind (same subtype). The raccoon who asks the questions, not for the spotlight.",
+    teaser:"SP3w4 · Journalist and television host, b. 1969. Anchored \"Tagesthemen\" for over two decades, own political talk show on Das Erste since 2023. Cross-linked with Kathrin Bauerfeind (same subtype). The raccoon who asks the questions, instead of putting on the show.",
     land:"Germany", tags:["Medien"], gender:"f"},
 { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
@@ -47307,7 +47307,7 @@ function carenMiosgaPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The raccoon who asks the questions, not for the spotlight</h2>
+        <h2 class="vb-section">1. The raccoon who asks the questions, instead of putting on the show</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; not a performance for the camera, but quiet, skillful competence that creates its own territory. Caren Miosga, born in 1969 in Ratingen, anchored the "Tagesthemen" news program for over two decades before taking over the prestigious Sunday-evening political talk show slot on Das Erste in 2023, previously held by Anne Will.</p>
           <p class="vb-intro">What stands out about her rise is the absence of any self-promotion: Miosga built her reputation over years inside the news desk, not through media presence beyond the broadcast itself. The raccoon does not rummage in the spotlight &ndash; it patiently gathers what it needs for the next task.</p>

@@ -1659,7 +1659,7 @@ export function carenMiosgaPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Waschbär, der die Fragen stellt, nicht die Show</h2>
+        <h2 class="vb-section">1. Der Waschbär, der die Fragen stellt, statt die Show zu machen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; kein Auftritt für die Kamera, sondern stille, geschickte Kompetenz, die sich ihr eigenes Territorium schafft. Caren Miosga, geboren 1969 in Ratingen, moderierte über zwei Jahrzehnte die "Tagesthemen", bevor sie 2023 mit ihrer eigenen politischen Talkshow "Caren Miosga" im Ersten den prestigeträchtigen Sonntagabend-Sendeplatz übernahm, den zuvor Anne Will besetzt hatte.</p>
           <p class="vb-intro">Was an ihrem Aufstieg auffällt, ist das Fehlen jeder Selbstinszenierung: Miosga baute ihre Reputation über Jahre in der Nachrichtenredaktion auf, nicht über mediale Präsenz jenseits der Sendung. Der Waschbär gräbt nicht im Rampenlicht &ndash; er sammelt beharrlich, was er für die nächste Aufgabe braucht.</p>
