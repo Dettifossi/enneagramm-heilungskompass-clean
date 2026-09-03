@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=69";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=70";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15904,6 +15904,7 @@ const uiText = {
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
+      { route: "enneagramm-memory", label: "Enneagramm-Memory (Merkspiel)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -42763,6 +42764,324 @@ function tierentsprechungenPage() {
       ])}
     </div>
   `);
+}
+
+// ---------------------------------------------------------------------------
+// Enneagramm-Memory: Merkspiel auf Basis der Porträt-Fotos. Zieht automatisch
+// aus allen Porträt-Registern (musterradarAllPortraits()) – jedes neue
+// Porträt vergrößert damit von selbst den Kartenpool, keine manuelle Pflege
+// nötig. Pro Runde: 9 Karten, davon genau ein Paar mit identischem Subtyp
+// (inkl. Flügel), sieben Distraktoren mit sonst überall unterschiedlichem
+// Subtyp. Getippt wird rein nach Gesicht/Blickqualität, kein Name sichtbar.
+// ---------------------------------------------------------------------------
+
+const MEMORY_TOTAL_ROUNDS = 10;
+const MEMORY_MEMORIZE_MS = 10000;
+
+let _memoryState = null;
+const _memoryImgCache = {};
+
+function _memoryImgFor(route) {
+  if (_memoryImgCache[route] !== undefined) return _memoryImgCache[route];
+  let src = null;
+  try {
+    const fn = ROUTES[route];
+    if (fn) {
+      const html = fn();
+      const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
+      if (m) src = m[1];
+    }
+  } catch (e) {}
+  _memoryImgCache[route] = src;
+  return src;
+}
+
+function _memoryBuildPools() {
+  const all = musterradarAllPortraits().filter(p => p.subtyp && p.route);
+  const bySubtyp = {};
+  all.forEach(p => {
+    const parsed = musterradarParseSubtyp(p.subtyp);
+    if (!parsed) return;
+    const code = parsed.instinct + parsed.typ + (parsed.wing ? "W" + parsed.wing : "");
+    (bySubtyp[code] = bySubtyp[code] || []).push(p);
+  });
+  return bySubtyp;
+}
+
+function _memoryShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function _memoryPickRound() {
+  const pools = _memoryBuildPools();
+  const pairCodes = Object.keys(pools).filter(c => pools[c].length >= 2);
+  if (!pairCodes.length) return null;
+  const pairCode = pairCodes[Math.floor(Math.random() * pairCodes.length)];
+  const pair = _memoryShuffle(pools[pairCode]).slice(0, 2);
+
+  const otherCodes = _memoryShuffle(Object.keys(pools).filter(c => c !== pairCode));
+  const distractors = [];
+  for (const code of otherCodes) {
+    if (distractors.length >= 7) break;
+    const arr = pools[code];
+    distractors.push(arr[Math.floor(Math.random() * arr.length)]);
+  }
+
+  let cards = [...pair, ...distractors].map(p => ({ route: p.route, subtyp: p.subtyp, name: p.name }));
+  cards = cards.map(c => ({ ...c, img: _memoryImgFor(c.route) })).filter(c => c.img);
+
+  // Falls einzelne Bilder nicht auflösbar waren: mit weiteren Distraktoren auffüllen.
+  if (cards.length < 9) {
+    const usedRoutes = new Set(cards.map(c => c.route));
+    for (const code of otherCodes) {
+      if (cards.length >= 9) break;
+      for (const p of pools[code]) {
+        if (cards.length >= 9) break;
+        if (usedRoutes.has(p.route)) continue;
+        const img = _memoryImgFor(p.route);
+        if (!img) continue;
+        cards.push({ route: p.route, subtyp: p.subtyp, name: p.name, img });
+        usedRoutes.add(p.route);
+      }
+    }
+  }
+
+  cards = _memoryShuffle(cards).slice(0, 9);
+  const pairRoutes = new Set(pair.map(p => p.route));
+  return { cards, pairRoutes, pairCode };
+}
+
+function _memoryRerender() {
+  if (location.hash === "#enneagramm-memory") { render(); } else { location.hash = "enneagramm-memory"; }
+}
+
+function _memorySaveBest(score) {
+  try {
+    const prev = parseInt(localStorage.getItem("kompass:memoryBest") || "0", 10);
+    if (score > prev) localStorage.setItem("kompass:memoryBest", String(score));
+  } catch (e) {}
+}
+
+function _memoryGetBest() {
+  try { return parseInt(localStorage.getItem("kompass:memoryBest") || "0", 10); } catch (e) { return 0; }
+}
+
+function _memoryNextRound() {
+  const st = _memoryState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > MEMORY_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _memorySaveBest(st.score);
+    _memoryRerender();
+    return;
+  }
+  const roundData = _memoryPickRound();
+  if (!roundData) { st.phase = "gameOver"; _memoryRerender(); return; }
+  st.cards = roundData.cards;
+  st.pairRoutes = roundData.pairRoutes;
+  st.selected = [];
+  st.resolution = null;
+  st.phase = "memorize";
+  _memoryRerender();
+  if (st._timer) clearTimeout(st._timer);
+  st._timer = setTimeout(() => {
+    if (_memoryState === st && st.phase === "memorize") {
+      st.phase = "guess";
+      _memoryRerender();
+    }
+  }, MEMORY_MEMORIZE_MS);
+}
+
+window._memoryStart = function () {
+  _memoryState = { phase: "loading", round: 0, score: 0, cards: [], pairRoutes: new Set(), selected: [], resolution: null };
+  _memoryNextRound();
+};
+
+window._memoryPick = function (idx) {
+  const st = _memoryState;
+  if (!st || st.phase !== "guess") return;
+  if (st.selected.includes(idx)) {
+    st.selected = st.selected.filter(i => i !== idx);
+    _memoryRerender();
+    return;
+  }
+  if (st.selected.length >= 2) return;
+  st.selected.push(idx);
+  if (st.selected.length === 2) {
+    const [a, b] = st.selected;
+    const correct = st.pairRoutes.has(st.cards[a].route) && st.pairRoutes.has(st.cards[b].route);
+    const correctIdxs = st.cards.map((c, i) => st.pairRoutes.has(c.route) ? i : -1).filter(i => i >= 0);
+    st.resolution = { correct, correctIdxs };
+    if (correct) st.score += 1;
+    st.phase = "roundResult";
+    if (st._timer) clearTimeout(st._timer);
+  }
+  _memoryRerender();
+};
+
+window._memoryNextRound = function () { _memoryNextRound(); };
+window._memoryRestart = function () {
+  _memoryState = { phase: "loading", round: 0, score: 0, cards: [], pairRoutes: new Set(), selected: [], resolution: null };
+  _memoryNextRound();
+};
+
+function _memoryCardHtml(card, i, st) {
+  const isMemorize = st.phase === "memorize";
+  const isSelected = st.selected.includes(i);
+  const isResult = st.phase === "roundResult";
+  const isCorrectCard = isResult && st.resolution.correctIdxs.includes(i);
+  const isWrongPick = isResult && st.selected.includes(i) && !isCorrectCard;
+  const open = isMemorize || isSelected || isCorrectCard;
+  let stateClass = "";
+  if (isResult) {
+    if (isCorrectCard) stateClass = " mem-card--correct";
+    else if (isWrongPick) stateClass = " mem-card--wrong";
+  } else if (isSelected) {
+    stateClass = " mem-card--selected";
+  }
+  const clickable = st.phase === "guess";
+  const onclick = clickable ? ` onclick="window._memoryPick(${i})"` : "";
+  return `
+    <div class="mem-card${open ? " mem-card--open" : ""}${stateClass}"${onclick} role="button" aria-label="Karte ${i + 1}">
+      <div class="mem-card-inner">
+        <div class="mem-card-face mem-card-face--back">
+          <span class="mem-card-mark">✦</span>
+        </div>
+        <div class="mem-card-face mem-card-face--front">
+          <img src="${card.img}" alt="" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function _memoryStyles() {
+  return `
+    <style>
+      .mem-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.7rem; max-width:420px; margin:1.2rem auto; }
+      .mem-card { aspect-ratio:3/4; perspective:900px; cursor:default; }
+      .mem-card[role="button"] { cursor:pointer; }
+      .mem-card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .5s cubic-bezier(.4,.2,.2,1); border-radius:12px; }
+      .mem-card--open .mem-card-inner { transform:rotateY(180deg); }
+      .mem-card-face { position:absolute; inset:0; backface-visibility:hidden; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+      .mem-card-face--back { background:linear-gradient(135deg, var(--copper,#a5603d), #6d3e26); animation:memBackIn .45s ease-out; }
+      .mem-card-mark { color:rgba(255,255,255,0.55); font-size:1.4rem; }
+      .mem-card-face--front { transform:rotateY(180deg); background:var(--card,var(--paper)); border:2px solid var(--line,var(--border)); }
+      .mem-card-face--front img { width:100%; height:100%; object-fit:cover; filter:blur(0); transition:filter .3s; }
+      .mem-card--open .mem-card-face--front img { animation:memPhotoIn .5s ease-out; }
+      @keyframes memBackIn { 0%{ filter:blur(6px); opacity:.3; } 100%{ filter:blur(0); opacity:1; } }
+      @keyframes memPhotoIn { 0%{ filter:blur(10px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
+      .mem-card--selected .mem-card-face--back { box-shadow:0 0 0 3px var(--copper,#a5603d) inset; }
+      .mem-card--correct .mem-card-face--front { border-color:#3a9552; box-shadow:0 0 0 3px #3a9552; }
+      .mem-card--wrong .mem-card-face--front { border-color:#c0392b; box-shadow:0 0 0 3px #c0392b; }
+      .mem-progress-wrap { height:5px; background:var(--line,var(--border)); border-radius:3px; overflow:hidden; max-width:420px; margin:0 auto 0.9rem; }
+      .mem-progress-bar { height:100%; background:var(--copper,#a5603d); width:100%; transform-origin:left; animation:memShrink ${MEMORY_MEMORIZE_MS}ms linear forwards; }
+      @keyframes memShrink { from{ transform:scaleX(1); } to{ transform:scaleX(0); } }
+      .mem-hud { display:flex; justify-content:space-between; align-items:baseline; max-width:420px; margin:0 auto 0.6rem; font-size:0.85rem; color:var(--muted); }
+      .mem-hud strong { color:var(--ink); }
+      .mem-resolution { max-width:420px; margin:1rem auto 0; text-align:center; }
+      .mem-resolution p { margin:0 0 0.9rem; font-size:0.95rem; }
+      .mem-btn { background:var(--copper,#a5603d); color:#fff; border:none; padding:0.75rem 2rem; border-radius:24px; font-size:0.95rem; font-family:inherit; cursor:pointer; font-weight:600; }
+    </style>
+  `;
+}
+
+function _memoryIntroScreen() {
+  const best = _memoryGetBest();
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Memory</p>
+        <h1 class="section-title">Enneagramm-Memory</h1>
+        <p class="psycho-intro">Neun Porträtfotos werden aufgedeckt &ndash; genau zwei davon gehören zum selben Subtyp inklusive Flügel. Merken Sie sich die Gesichter, nicht die Namen: Es geht rein um die Blickqualität. Nach ${MEMORY_MEMORIZE_MS / 1000} Sekunden werden die Karten verdeckt, und Sie müssen aus dem Gedächtnis das richtige Paar anklicken. 10 Runden pro Durchgang.</p>
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
+          Die Karten stammen aus allen über 600 Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
+        </div>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="mem-btn" onclick="window._memoryStart()">Spiel starten &rarr;</button>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
+function _memoryGameScreen() {
+  const st = _memoryState;
+  const cardsHtml = st.cards.map((c, i) => _memoryCardHtml(c, i, st)).join("");
+  const showProgress = st.phase === "memorize";
+  let footer = "";
+  if (st.phase === "memorize") {
+    footer = `<p style="text-align:center;color:var(--muted);font-size:0.85rem;">Merken Sie sich die Gesichter &ndash; gleich werden die Karten verdeckt …</p>`;
+  } else if (st.phase === "guess") {
+    footer = `<p style="text-align:center;color:var(--muted);font-size:0.85rem;">Klicken Sie die zwei Karten, die zum selben Subtyp gehören.</p>`;
+  } else if (st.phase === "roundResult") {
+    const msg = st.resolution.correct
+      ? "Richtig erkannt!"
+      : "Leider daneben &ndash; das eigentliche Paar ist grün markiert.";
+    const isLast = st.round >= MEMORY_TOTAL_ROUNDS;
+    footer = `
+      <div class="mem-resolution">
+        <p><strong>${msg}</strong></p>
+        <button class="mem-btn" onclick="window._memoryNextRound()">${isLast ? "Endergebnis &rarr;" : "Nächste Runde &rarr;"}</button>
+      </div>
+    `;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Memory</p>
+        <h1 class="section-title">Enneagramm-Memory</h1>
+        <div class="mem-hud">
+          <span>Runde <strong>${st.round}</strong> / ${MEMORY_TOTAL_ROUNDS}</span>
+          <span>Punkte: <strong>${st.score}</strong></span>
+        </div>
+        ${showProgress ? `<div class="mem-progress-wrap"><div class="mem-progress-bar"></div></div>` : ""}
+        <div class="mem-grid">${cardsHtml}</div>
+        ${footer}
+      </div>
+      ${_memoryStyles()}
+    </div>
+  `);
+}
+
+function _memoryGameOverScreen() {
+  const st = _memoryState;
+  const best = _memoryGetBest();
+  const pct = Math.round((st.score / MEMORY_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Außergewöhnlich &ndash; ein sehr geschulter Blick für Blickqualitäten!";
+  else if (pct >= 70) msg = "Sehr gut! Die Gesichter der Subtypen prägen sich bei Ihnen schon deutlich ein.";
+  else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
+  else msg = "Ein Anfang &ndash; das Erkennen von Blickqualitäten braucht Übung. Nochmal versuchen?";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Memory</p>
+        <h1 class="section-title">${st.score} von ${MEMORY_TOTAL_ROUNDS} richtig</h1>
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>
+        <button class="mem-btn" onclick="window._memoryRestart()">Neue Runde &rarr;</button>
+      </div>
+      ${_memoryStyles()}
+    </div>
+  `);
+}
+
+function enneagrammMemoryPage() {
+  if (!_memoryState || _memoryState.phase === "loading") return _memoryIntroScreen();
+  if (_memoryState.phase === "gameOver") return _memoryGameOverScreen();
+  return _memoryGameScreen();
 }
 
 function blickqualitaetenAtlasPage() {
@@ -74092,8 +74411,7 @@ function openCropDialog(src, onConfirm) {
   });
 }
 
-function render() {
-  const routes = {
+const ROUTES = {
     start: startPage,
     leseprobe: leseprobePage,
     inhaltsverzeichnis: inhalts\u00fcbersichtPage,
@@ -74152,6 +74470,7 @@ function render() {
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
+    "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
@@ -75072,7 +75391,9 @@ function render() {
     "spassverhalten": () => verhaltensPage("spassverhalten"),
     "machtverhalten": () => verhaltensPage("machtverhalten"),
     "harmonieverhalten": () => verhaltensPage("harmonieverhalten"),
-  };
+};
+function render() {
+  const routes = ROUTES;
   const [base, param] = state.route.split("/");
   window._currentRoute = state.route;
   if (base === "typentest") _saveTestState();

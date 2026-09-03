@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=69";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=70";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3142,6 +3142,7 @@ text.nav = [
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
+    { route: "enneagramm-memory", label: "Enneagram Memory (matching game)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -17734,6 +17735,325 @@ function tierentsprechungenPage() {
       ])}
     </div>
   `);
+}
+
+// ---------------------------------------------------------------------------
+// Enneagram Memory: matching game built from the portrait photos. Pulls
+// automatically from all portrait registers (musterradarAllPortraits()) –
+// every new portrait grows the card pool by itself, no manual upkeep needed.
+// Each round: 9 cards, exactly one pair shares the identical subtype
+// (including wing), seven distractors each with a different subtype
+// otherwise. Typing is purely by face/gaze quality, no name is ever shown.
+// ---------------------------------------------------------------------------
+
+let _appRoutesRef = null;
+const MEMORY_TOTAL_ROUNDS = 10;
+const MEMORY_MEMORIZE_MS = 10000;
+
+let _memoryState = null;
+const _memoryImgCache = {};
+
+function _memoryImgFor(route) {
+  if (_memoryImgCache[route] !== undefined) return _memoryImgCache[route];
+  let src = null;
+  try {
+    const fn = _appRoutesRef && _appRoutesRef[route];
+    if (fn) {
+      const html = fn();
+      const m = html.match(/<img\s+src="([^"]+)"[^>]*class="krim-portrait-img"/);
+      if (m) src = m[1];
+    }
+  } catch (e) {}
+  _memoryImgCache[route] = src;
+  return src;
+}
+
+function _memoryBuildPools() {
+  const all = musterradarAllPortraits().filter(p => p.subtyp && p.route);
+  const bySubtyp = {};
+  all.forEach(p => {
+    const parsed = musterradarParseSubtyp(p.subtyp);
+    if (!parsed) return;
+    const code = parsed.instinct + parsed.typ + (parsed.wing ? "W" + parsed.wing : "");
+    (bySubtyp[code] = bySubtyp[code] || []).push(p);
+  });
+  return bySubtyp;
+}
+
+function _memoryShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function _memoryPickRound() {
+  const pools = _memoryBuildPools();
+  const pairCodes = Object.keys(pools).filter(c => pools[c].length >= 2);
+  if (!pairCodes.length) return null;
+  const pairCode = pairCodes[Math.floor(Math.random() * pairCodes.length)];
+  const pair = _memoryShuffle(pools[pairCode]).slice(0, 2);
+
+  const otherCodes = _memoryShuffle(Object.keys(pools).filter(c => c !== pairCode));
+  const distractors = [];
+  for (const code of otherCodes) {
+    if (distractors.length >= 7) break;
+    const arr = pools[code];
+    distractors.push(arr[Math.floor(Math.random() * arr.length)]);
+  }
+
+  let cards = [...pair, ...distractors].map(p => ({ route: p.route, subtyp: p.subtyp, name: p.name }));
+  cards = cards.map(c => ({ ...c, img: _memoryImgFor(c.route) })).filter(c => c.img);
+
+  // If a photo couldn't be resolved: top up with more distractors.
+  if (cards.length < 9) {
+    const usedRoutes = new Set(cards.map(c => c.route));
+    for (const code of otherCodes) {
+      if (cards.length >= 9) break;
+      for (const p of pools[code]) {
+        if (cards.length >= 9) break;
+        if (usedRoutes.has(p.route)) continue;
+        const img = _memoryImgFor(p.route);
+        if (!img) continue;
+        cards.push({ route: p.route, subtyp: p.subtyp, name: p.name, img });
+        usedRoutes.add(p.route);
+      }
+    }
+  }
+
+  cards = _memoryShuffle(cards).slice(0, 9);
+  const pairRoutes = new Set(pair.map(p => p.route));
+  return { cards, pairRoutes, pairCode };
+}
+
+function _memoryRerender() {
+  if (location.hash === "#enneagramm-memory") { render(); } else { location.hash = "enneagramm-memory"; }
+}
+
+function _memorySaveBest(score) {
+  try {
+    const prev = parseInt(localStorage.getItem("kompass:memoryBest") || "0", 10);
+    if (score > prev) localStorage.setItem("kompass:memoryBest", String(score));
+  } catch (e) {}
+}
+
+function _memoryGetBest() {
+  try { return parseInt(localStorage.getItem("kompass:memoryBest") || "0", 10); } catch (e) { return 0; }
+}
+
+function _memoryNextRound() {
+  const st = _memoryState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > MEMORY_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _memorySaveBest(st.score);
+    _memoryRerender();
+    return;
+  }
+  const roundData = _memoryPickRound();
+  if (!roundData) { st.phase = "gameOver"; _memoryRerender(); return; }
+  st.cards = roundData.cards;
+  st.pairRoutes = roundData.pairRoutes;
+  st.selected = [];
+  st.resolution = null;
+  st.phase = "memorize";
+  _memoryRerender();
+  if (st._timer) clearTimeout(st._timer);
+  st._timer = setTimeout(() => {
+    if (_memoryState === st && st.phase === "memorize") {
+      st.phase = "guess";
+      _memoryRerender();
+    }
+  }, MEMORY_MEMORIZE_MS);
+}
+
+window._memoryStart = function () {
+  _memoryState = { phase: "loading", round: 0, score: 0, cards: [], pairRoutes: new Set(), selected: [], resolution: null };
+  _memoryNextRound();
+};
+
+window._memoryPick = function (idx) {
+  const st = _memoryState;
+  if (!st || st.phase !== "guess") return;
+  if (st.selected.includes(idx)) {
+    st.selected = st.selected.filter(i => i !== idx);
+    _memoryRerender();
+    return;
+  }
+  if (st.selected.length >= 2) return;
+  st.selected.push(idx);
+  if (st.selected.length === 2) {
+    const [a, b] = st.selected;
+    const correct = st.pairRoutes.has(st.cards[a].route) && st.pairRoutes.has(st.cards[b].route);
+    const correctIdxs = st.cards.map((c, i) => st.pairRoutes.has(c.route) ? i : -1).filter(i => i >= 0);
+    st.resolution = { correct, correctIdxs };
+    if (correct) st.score += 1;
+    st.phase = "roundResult";
+    if (st._timer) clearTimeout(st._timer);
+  }
+  _memoryRerender();
+};
+
+window._memoryNextRound = function () { _memoryNextRound(); };
+window._memoryRestart = function () {
+  _memoryState = { phase: "loading", round: 0, score: 0, cards: [], pairRoutes: new Set(), selected: [], resolution: null };
+  _memoryNextRound();
+};
+
+function _memoryCardHtml(card, i, st) {
+  const isMemorize = st.phase === "memorize";
+  const isSelected = st.selected.includes(i);
+  const isResult = st.phase === "roundResult";
+  const isCorrectCard = isResult && st.resolution.correctIdxs.includes(i);
+  const isWrongPick = isResult && st.selected.includes(i) && !isCorrectCard;
+  const open = isMemorize || isSelected || isCorrectCard;
+  let stateClass = "";
+  if (isResult) {
+    if (isCorrectCard) stateClass = " mem-card--correct";
+    else if (isWrongPick) stateClass = " mem-card--wrong";
+  } else if (isSelected) {
+    stateClass = " mem-card--selected";
+  }
+  const clickable = st.phase === "guess";
+  const onclick = clickable ? ` onclick="window._memoryPick(${i})"` : "";
+  return `
+    <div class="mem-card${open ? " mem-card--open" : ""}${stateClass}"${onclick} role="button" aria-label="Card ${i + 1}">
+      <div class="mem-card-inner">
+        <div class="mem-card-face mem-card-face--back">
+          <span class="mem-card-mark">✦</span>
+        </div>
+        <div class="mem-card-face mem-card-face--front">
+          <img src="${card.img}" alt="" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function _memoryStyles() {
+  return `
+    <style>
+      .mem-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:0.7rem; max-width:420px; margin:1.2rem auto; }
+      .mem-card { aspect-ratio:3/4; perspective:900px; cursor:default; }
+      .mem-card[role="button"] { cursor:pointer; }
+      .mem-card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .5s cubic-bezier(.4,.2,.2,1); border-radius:12px; }
+      .mem-card--open .mem-card-inner { transform:rotateY(180deg); }
+      .mem-card-face { position:absolute; inset:0; backface-visibility:hidden; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
+      .mem-card-face--back { background:linear-gradient(135deg, var(--copper,#a5603d), #6d3e26); animation:memBackIn .45s ease-out; }
+      .mem-card-mark { color:rgba(255,255,255,0.55); font-size:1.4rem; }
+      .mem-card-face--front { transform:rotateY(180deg); background:var(--card,var(--paper)); border:2px solid var(--line,var(--border)); }
+      .mem-card-face--front img { width:100%; height:100%; object-fit:cover; filter:blur(0); transition:filter .3s; }
+      .mem-card--open .mem-card-face--front img { animation:memPhotoIn .5s ease-out; }
+      @keyframes memBackIn { 0%{ filter:blur(6px); opacity:.3; } 100%{ filter:blur(0); opacity:1; } }
+      @keyframes memPhotoIn { 0%{ filter:blur(10px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
+      .mem-card--selected .mem-card-face--back { box-shadow:0 0 0 3px var(--copper,#a5603d) inset; }
+      .mem-card--correct .mem-card-face--front { border-color:#3a9552; box-shadow:0 0 0 3px #3a9552; }
+      .mem-card--wrong .mem-card-face--front { border-color:#c0392b; box-shadow:0 0 0 3px #c0392b; }
+      .mem-progress-wrap { height:5px; background:var(--line,var(--border)); border-radius:3px; overflow:hidden; max-width:420px; margin:0 auto 0.9rem; }
+      .mem-progress-bar { height:100%; background:var(--copper,#a5603d); width:100%; transform-origin:left; animation:memShrink ${MEMORY_MEMORIZE_MS}ms linear forwards; }
+      @keyframes memShrink { from{ transform:scaleX(1); } to{ transform:scaleX(0); } }
+      .mem-hud { display:flex; justify-content:space-between; align-items:baseline; max-width:420px; margin:0 auto 0.6rem; font-size:0.85rem; color:var(--muted); }
+      .mem-hud strong { color:var(--ink); }
+      .mem-resolution { max-width:420px; margin:1rem auto 0; text-align:center; }
+      .mem-resolution p { margin:0 0 0.9rem; font-size:0.95rem; }
+      .mem-btn { background:var(--copper,#a5603d); color:#fff; border:none; padding:0.75rem 2rem; border-radius:24px; font-size:0.95rem; font-family:inherit; cursor:pointer; font-weight:600; }
+    </style>
+  `;
+}
+
+function _memoryIntroScreen() {
+  const best = _memoryGetBest();
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram Memory</p>
+        <h1 class="section-title">Enneagram Memory</h1>
+        <p class="psycho-intro">Nine portrait photos are revealed &ndash; exactly two of them belong to the same subtype, including the wing. Memorize the faces, not the names: it's purely about gaze quality. After ${MEMORY_MEMORIZE_MS / 1000} seconds the cards are hidden, and you must click the matching pair from memory. 10 rounds per game.</p>
+        <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
+          The cards are drawn from all 600+ portraits in the compass &ndash; famous personalities, criminal psychology, and illness portraits mixed together. As more portraits are added, the card pool grows automatically.
+        </div>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Your best score: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="mem-btn" onclick="window._memoryStart()">Start game &rarr;</button>
+        </div>
+      </div>
+    </div>
+  `);
+}
+
+function _memoryGameScreen() {
+  const st = _memoryState;
+  const cardsHtml = st.cards.map((c, i) => _memoryCardHtml(c, i, st)).join("");
+  const showProgress = st.phase === "memorize";
+  let footer = "";
+  if (st.phase === "memorize") {
+    footer = `<p style="text-align:center;color:var(--muted);font-size:0.85rem;">Memorize the faces &ndash; the cards are about to be hidden …</p>`;
+  } else if (st.phase === "guess") {
+    footer = `<p style="text-align:center;color:var(--muted);font-size:0.85rem;">Click the two cards that belong to the same subtype.</p>`;
+  } else if (st.phase === "roundResult") {
+    const msg = st.resolution.correct
+      ? "Correctly matched!"
+      : "Not quite &ndash; the real pair is marked in green.";
+    const isLast = st.round >= MEMORY_TOTAL_ROUNDS;
+    footer = `
+      <div class="mem-resolution">
+        <p><strong>${msg}</strong></p>
+        <button class="mem-btn" onclick="window._memoryNextRound()">${isLast ? "Final result &rarr;" : "Next round &rarr;"}</button>
+      </div>
+    `;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram Memory</p>
+        <h1 class="section-title">Enneagram Memory</h1>
+        <div class="mem-hud">
+          <span>Round <strong>${st.round}</strong> / ${MEMORY_TOTAL_ROUNDS}</span>
+          <span>Score: <strong>${st.score}</strong></span>
+        </div>
+        ${showProgress ? `<div class="mem-progress-wrap"><div class="mem-progress-bar"></div></div>` : ""}
+        <div class="mem-grid">${cardsHtml}</div>
+        ${footer}
+      </div>
+      ${_memoryStyles()}
+    </div>
+  `);
+}
+
+function _memoryGameOverScreen() {
+  const st = _memoryState;
+  const best = _memoryGetBest();
+  const pct = Math.round((st.score / MEMORY_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Exceptional &ndash; a very well-trained eye for gaze qualities!";
+  else if (pct >= 70) msg = "Very good! The faces of the subtypes are already leaving a clear impression.";
+  else if (pct >= 40) msg = "Solid round &ndash; with more practice your eye will get even sharper.";
+  else msg = "A start &ndash; recognizing gaze qualities takes practice. Try again?";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Knowledge &middot; Enneagram Memory</p>
+        <h1 class="section-title">${st.score} of ${MEMORY_TOTAL_ROUNDS} correct</h1>
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Best score: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>
+        <button class="mem-btn" onclick="window._memoryRestart()">New round &rarr;</button>
+      </div>
+      ${_memoryStyles()}
+    </div>
+  `);
+}
+
+function enneagrammMemoryPage() {
+  if (!_memoryState || _memoryState.phase === "loading") return _memoryIntroScreen();
+  if (_memoryState.phase === "gameOver") return _memoryGameOverScreen();
+  return _memoryGameScreen();
 }
 
 function blickqualitaetenAtlasPage() {
@@ -110426,6 +110746,7 @@ function subtypeSchaubilderPage() {
     "beziehungen": beziehungenPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
+    "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
@@ -111347,6 +111668,7 @@ function subtypeSchaubilderPage() {
     "machtverhalten": () => verhaltensPage("machtverhalten"),
     "harmonieverhalten": () => verhaltensPage("harmonieverhalten"),
   };
+  if (!_appRoutesRef) _appRoutesRef = routes;
   const [base, param] = state.route.split("/");
   window._currentRoute = state.route;
   if (base === "typentest") _saveTestState();
