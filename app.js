@@ -43030,9 +43030,12 @@ function tierentsprechungenPage() {
 const MEMORY_TOTAL_ROUNDS = 10;
 const MEMORY_MEMORIZE_MS = 60000;
 const MEMORY_LEVEL_META = {
-  1: { label: "Enneagramm-Memory I", sub: "Anfänger · nur der Grundtyp zählt" },
-  2: { label: "Enneagramm-Memory II", sub: "Fortgeschrittene · Grundtyp + Flügel" },
-  3: { label: "Enneagramm-Memory III", sub: "Experte · vollständiger Subtyp (Instinkt+Typ+Flügel)" },
+  1: { label: "Enneagramm-Memory I", sub: "Anfänger · nur der Grundtyp zählt",
+       rule: "Zwei Karten bilden ein Paar, wenn sie zum selben <strong>Grundtyp (1&ndash;9)</strong> gehören &ndash; Instinktvariante und Flügel spielen keine Rolle. Beispiel: <strong>SO3</strong> und <strong>SX3</strong> zählen als Paar, weil beide Typ 3 sind." },
+  2: { label: "Enneagramm-Memory II", sub: "Fortgeschrittene · Grundtyp + Flügel",
+       rule: "Zwei Karten bilden ein Paar, wenn <strong>Grundtyp UND Flügel</strong> übereinstimmen &ndash; die Instinktvariante (SE/SO/SX) spielt keine Rolle. Beispiel: <strong>SE4w3</strong> und <strong>SX4w3</strong> zählen als Paar, weil beide 4w3 sind." },
+  3: { label: "Enneagramm-Memory III", sub: "Experte · vollständiger Subtyp (Instinkt+Typ+Flügel)",
+       rule: "Zwei Karten bilden nur dann ein Paar, wenn der <strong>komplette Subtyp inklusive Instinktvariante und Flügel</strong> exakt übereinstimmt. Beispiel: Nur zwei Porträts mit exakt <strong>SO1w9</strong> bilden ein Paar &ndash; SE1w9 zählt nicht dazu." },
 };
 
 let _memoryState = null;
@@ -43274,6 +43277,16 @@ function _memoryCardHtml(card, i, st) {
   `;
 }
 
+function _memoryLevelSwitcher(currentLevel) {
+  const items = [1,2,3].map(l => {
+    const active = l === currentLevel;
+    return active
+      ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":l===2?"II":"III"}</span>`
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._memoryStart(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
+  }).join("");
+  return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
+}
+
 function _memoryStyles() {
   return `
     <style>
@@ -43311,6 +43324,13 @@ function _memoryStyles() {
       .mem-level-picker { display:flex; flex-direction:column; gap:0.7rem; max-width:420px; margin:0 auto 1.6rem; }
       .mem-level-card { display:block; width:100%; text-align:left; background:var(--card,var(--paper)); border:1px solid var(--line,var(--border)); border-radius:12px; padding:0.9rem 1.1rem; cursor:pointer; font-family:inherit; }
       .mem-level-card:hover { border-color:var(--copper); }
+      .mem-level-switcher { display:flex; align-items:center; justify-content:center; gap:0.4rem; max-width:420px; margin:0 auto 0.8rem; font-size:0.8rem; }
+      .mem-level-switcher-label { color:var(--muted); margin-right:0.2rem; }
+      .mem-level-pill { display:inline-flex; align-items:center; justify-content:center; min-width:1.8rem; padding:0.2rem 0.5rem; border-radius:99px; border:1.5px solid var(--line,var(--border)); color:var(--muted); text-decoration:none; font-weight:600; cursor:pointer; }
+      .mem-level-pill:hover { border-color:var(--copper); color:var(--copper); }
+      .mem-level-pill--active { background:var(--copper,#a5603d); border-color:var(--copper,#a5603d); color:#fff; cursor:default; }
+      .mem-rule-box { background:color-mix(in srgb, var(--copper) 8%, var(--paper)); border:1px solid var(--copper); border-radius:12px; padding:1rem 1.2rem; margin:0 0 1.4rem; font-size:0.9rem; line-height:1.55; }
+      .mem-rule-box-label { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--copper); font-weight:700; margin:0 0 0.4rem; }
       .mem-level-card strong { display:block; font-size:1rem; color:var(--ink); margin-bottom:0.15rem; }
       .mem-level-card span { font-size:0.82rem; color:var(--muted); }
     </style>
@@ -43326,7 +43346,12 @@ function _memoryIntroScreen(level) {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${meta.label}</h1>
-        <p class="psycho-intro">${meta.sub}. Neun Porträtfotos werden aufgedeckt &ndash; genau zwei davon bilden ein Paar. Merken Sie sich die Gesichter, nicht die Namen: Es geht rein um die Blickqualität. Nach ${MEMORY_MEMORIZE_MS / 1000} Sekunden werden die Karten verdeckt, und Sie müssen aus dem Gedächtnis das richtige Paar anklicken. 10 Runden pro Durchgang &ndash; nach jeder Runde dürfen Sie zusätzlich alle neun Karten antippen, um Name und Typ jeder Person zu sehen.</p>
+        ${_memoryLevelSwitcher(level)}
+        <p class="psycho-intro">Neun Porträtfotos werden aufgedeckt &ndash; genau zwei davon bilden ein Paar. Merken Sie sich die Gesichter, nicht die Namen: Es geht rein um die Blickqualität. Nach ${MEMORY_MEMORIZE_MS / 1000} Sekunden werden die Karten verdeckt, und Sie müssen aus dem Gedächtnis das richtige Paar anklicken. 10 Runden pro Durchgang &ndash; nach jeder Runde dürfen Sie zusätzlich alle neun Karten antippen, um Name und Typ jeder Person zu sehen.</p>
+        <div class="mem-rule-box">
+          <p class="mem-rule-box-label">Was zählt in dieser Stufe als Paar?</p>
+          <p style="margin:0;">${meta.rule}</p>
+        </div>
         <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
           Die Karten stammen aus allen über 600 Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
         </div>
@@ -43334,10 +43359,8 @@ function _memoryIntroScreen(level) {
         <div style="text-align:center;">
           <button class="mem-btn" onclick="window._memoryStart(${level})">Spiel starten &rarr;</button>
         </div>
-        <p class="mem-explore-hint">
-          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ")}
-        </p>
       </div>
+      ${_memoryStyles()}
     </div>
   `);
 }
@@ -43379,6 +43402,7 @@ function _memoryGameScreen() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${meta.label}</h1>
+        ${_memoryLevelSwitcher(st.level)}
         <div class="mem-hud">
           <span>Runde <strong>${st.round}</strong> / ${MEMORY_TOTAL_ROUNDS}</span>
           <span>Punkte: <strong>${st.score}</strong></span>
@@ -43402,19 +43426,17 @@ function _memoryGameOverScreen() {
   else if (pct >= 70) msg = "Sehr gut! Die Gesichter der Subtypen prägen sich bei Ihnen schon deutlich ein.";
   else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
   else msg = "Ein Anfang &ndash; das Erkennen von Blickqualitäten braucht Übung. Nochmal versuchen?";
-  const otherLevels = [1,2,3].filter(l => l !== st.level)
-    .map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ");
   return shell(`
     <div class="page-container">
       ${pageHeader("wissen")}
       <div class="page-content" style="text-align:center;">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${st.score} von ${MEMORY_TOTAL_ROUNDS} richtig</h1>
+        ${_memoryLevelSwitcher(st.level)}
         <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
         <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
         <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>
         <button class="mem-btn" onclick="window._memoryRestart()">Neue Runde &rarr;</button>
-        <p class="mem-explore-hint" style="margin-top:1.4rem;">Andere Stufe versuchen: ${otherLevels}</p>
       </div>
       ${_memoryStyles()}
     </div>
@@ -43464,9 +43486,12 @@ function enneagrammMemory3Page() { return _enneagrammMemoryLevelPage(3); }
 
 const FLASH_TOTAL_ROUNDS = 10;
 const FLASH_LEVEL_META = {
-  1: { label: "Enneagramm-Flashcards I", sub: "Anfänger · nur der Grundtyp zählt" },
-  2: { label: "Enneagramm-Flashcards II", sub: "Fortgeschrittene · Grundtyp + Flügel" },
-  3: { label: "Enneagramm-Flashcards III", sub: "Experten · vollständiger Subtyp (Instinkt+Typ+Flügel)" },
+  1: { label: "Enneagramm-Flashcards I", sub: "Anfänger · nur der Grundtyp zählt",
+       rule: "Sie sehen ein Porträtfoto und vier Antwortmöglichkeiten, jede ein <strong>Grundtyp (1&ndash;9)</strong>. Gefragt ist nur der Grundtyp der Person &ndash; Instinktvariante und Flügel spielen keine Rolle." },
+  2: { label: "Enneagramm-Flashcards II", sub: "Fortgeschrittene · Grundtyp + Flügel",
+       rule: "Sie sehen ein Porträtfoto und vier Antwortmöglichkeiten, jede eine Kombination aus <strong>Grundtyp + Flügel</strong> (z. B. 4w3). Gefragt ist Typ und Flügel &ndash; die Instinktvariante (SE/SO/SX) spielt keine Rolle." },
+  3: { label: "Enneagramm-Flashcards III", sub: "Experten · vollständiger Subtyp (Instinkt+Typ+Flügel)",
+       rule: "Sie sehen ein Porträtfoto und vier Antwortmöglichkeiten, jede ein <strong>vollständiger Subtyp</strong> (z. B. SO1w9). Gefragt ist die exakte Kombination aus Instinktvariante, Typ und Flügel." },
 };
 
 let _flashState = null;
@@ -43543,9 +43568,26 @@ window._flashRestart = function () {
   window._flashStart(lvl);
 };
 
+function _flashLevelSwitcher(currentLevel) {
+  const items = [1,2,3].map(l => {
+    const active = l === currentLevel;
+    return active
+      ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":l===2?"II":"III"}</span>`
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._flashStart(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
+  }).join("");
+  return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
+}
+
 function _flashStyles() {
   return `
     <style>
+      .mem-level-switcher { display:flex; align-items:center; justify-content:center; gap:0.4rem; max-width:420px; margin:0 auto 0.8rem; font-size:0.8rem; }
+      .mem-level-switcher-label { color:var(--muted); margin-right:0.2rem; }
+      .mem-level-pill { display:inline-flex; align-items:center; justify-content:center; min-width:1.8rem; padding:0.2rem 0.5rem; border-radius:99px; border:1.5px solid var(--line,var(--border)); color:var(--muted); text-decoration:none; font-weight:600; cursor:pointer; }
+      .mem-level-pill:hover { border-color:var(--copper); color:var(--copper); }
+      .mem-level-pill--active { background:var(--copper,#a5603d); border-color:var(--copper,#a5603d); color:#fff; cursor:default; }
+      .flash-rule-box { background:color-mix(in srgb, var(--copper) 8%, var(--paper)); border:1px solid var(--copper); border-radius:12px; padding:1rem 1.2rem; margin:0 0 1.4rem; font-size:0.9rem; line-height:1.55; }
+      .flash-rule-box-label { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--copper); font-weight:700; margin:0 0 0.4rem; }
       .flash-photo-wrap { max-width:320px; margin:1.2rem auto; border-radius:14px; overflow:hidden; border:1px solid var(--line,var(--border)); aspect-ratio:1/1; }
       .flash-photo-wrap img { width:100%; height:100%; object-fit:cover; display:block; animation:flashPhotoIn .6s ease-out; }
       @keyframes flashPhotoIn { 0%{ filter:blur(13px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
@@ -43575,15 +43617,18 @@ function _flashIntroScreen(level) {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${meta.label}</h1>
-        <p class="psycho-intro">${meta.sub}. Ein Porträtfoto, vier Antwortmöglichkeiten &ndash; welcher Subtyp ist das? Sofortiges Feedback, 10 Fragen pro Runde. Anders als beim Memory geht es hier ums schnelle Wiedererkennen, nicht ums Merken von Positionen.</p>
+        ${_flashLevelSwitcher(level)}
+        <p class="psycho-intro">Ein Porträtfoto, vier Antwortmöglichkeiten &ndash; sofortiges Feedback, 10 Fragen pro Runde. Anders als beim Memory geht es hier ums schnelle Wiedererkennen, nicht ums Merken von Positionen.</p>
+        <div class="flash-rule-box">
+          <p class="flash-rule-box-label">Wonach wird in dieser Stufe gefragt?</p>
+          <p style="margin:0;">${meta.rule}</p>
+        </div>
         ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>` : ""}
         <div style="text-align:center;">
           <button class="flash-btn" onclick="window._flashStart(${level})">Quiz starten &rarr;</button>
         </div>
-        <p class="flash-explore-hint">
-          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ")}
-        </p>
       </div>
+      ${_flashStyles()}
     </div>
   `);
 }
@@ -43638,6 +43683,7 @@ function _flashQuestionScreen() {
       <div class="page-content">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${meta.label}</h1>
+        ${_flashLevelSwitcher(st.level)}
         <div class="flash-hud">
           <span>Frage <strong>${st.round}</strong> / ${FLASH_TOTAL_ROUNDS}</span>
           <span>Punkte: <strong>${st.score}</strong></span>
@@ -43669,19 +43715,17 @@ function _flashGameOverScreen() {
   else if (pct >= 70) msg = "Sehr gut! Die Gesichter der Subtypen prägen sich bei Ihnen schon deutlich ein.";
   else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
   else msg = "Ein Anfang &ndash; das Erkennen von Blickqualitäten braucht Übung. Nochmal versuchen?";
-  const otherLevels = [1,2,3].filter(l => l !== st.level)
-    .map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ");
   return shell(`
     <div class="page-container">
       ${pageHeader("wissen")}
       <div class="page-content" style="text-align:center;">
         <p class="eyebrow">Wissen &middot; ${meta.label}</p>
         <h1 class="section-title">${st.score} von ${FLASH_TOTAL_ROUNDS} richtig</h1>
+        ${_flashLevelSwitcher(st.level)}
         <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
         <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
         <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>
         <button class="flash-btn" onclick="window._flashRestart()">Neue Runde &rarr;</button>
-        <p class="flash-explore-hint" style="margin-top:1.4rem;">Andere Stufe versuchen: ${otherLevels}</p>
       </div>
       ${_flashStyles()}
     </div>
