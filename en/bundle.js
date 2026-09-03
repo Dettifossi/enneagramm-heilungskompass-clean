@@ -17959,6 +17959,9 @@ function _memoryStyles() {
       .mem-hud strong { color:var(--ink); }
       .mem-resolution { max-width:420px; margin:1rem auto 0; text-align:center; }
       .mem-resolution p { margin:0 0 0.9rem; font-size:0.95rem; }
+      .mem-pair-reveal { background:var(--card,var(--paper)); border:1px solid var(--line,var(--border)); border-radius:10px; padding:0.7rem 1rem; margin:0 0 1rem; }
+      .mem-pair-reveal-label { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); font-weight:600; margin:0 0 0.3rem; }
+      .mem-pair-reveal p:last-child { margin:0; font-size:0.95rem; }
       .mem-btn { background:var(--copper,#a5603d); color:#fff; border:none; padding:0.75rem 2rem; border-radius:24px; font-size:0.95rem; font-family:inherit; cursor:pointer; font-weight:600; }
     </style>
   `;
@@ -17999,9 +18002,19 @@ function _memoryGameScreen() {
       ? "Correctly matched!"
       : "Not quite &ndash; the real pair is marked in green.";
     const isLast = st.round >= MEMORY_TOTAL_ROUNDS;
+    const [pairA, pairB] = st.resolution.correctIdxs.map(i => st.cards[i]);
+    const parsedPair = musterradarParseSubtyp(pairA.subtyp);
+    const pairCol = parsedPair ? typeColor(parsedPair.typ) : "var(--copper)";
+    const pairReveal = pairA && pairB ? `
+      <div class="mem-pair-reveal">
+        <p class="mem-pair-reveal-label">The pair &ndash; both ${pairA.subtyp.toUpperCase()}:</p>
+        <p><span style="color:${pairCol};font-weight:700;">${pairA.name}</span> &amp; <span style="color:${pairCol};font-weight:700;">${pairB.name}</span></p>
+      </div>
+    ` : "";
     footer = `
       <div class="mem-resolution">
         <p><strong>${msg}</strong></p>
+        ${pairReveal}
         <button class="mem-btn" onclick="window._memoryNextRound()">${isLast ? "Final result &rarr;" : "Next round &rarr;"}</button>
       </div>
     `;
