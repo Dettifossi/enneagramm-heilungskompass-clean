@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=72";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=73";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3146,6 +3146,7 @@ text.nav = [
     { route: "enneagramm-memory-1", label: "Enneagram Memory I (Beginner)" },
     { route: "enneagramm-memory-2", label: "Enneagram Memory II (Intermediate)" },
     { route: "enneagramm-memory-3", label: "Enneagram Memory III (Expert)" },
+    { route: "enneagramm-flashcards", label: "Enneagram Flashcards (guess the subtype)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -18269,6 +18270,248 @@ function enneagrammMemory1Page() { return _enneagrammMemoryLevelPage(1); }
 function enneagrammMemory2Page() { return _enneagrammMemoryLevelPage(2); }
 function enneagrammMemory3Page() { return _enneagrammMemoryLevelPage(3); }
 
+
+// ---------------------------------------------------------------------------
+// Enneagram Flashcards: multiple-choice trainer, spin-off of Enneagram Memory.
+// A portrait photo is shown, four answer options are offered –
+// only one is correct. Uses the same image-pool/validation infrastructure
+// and the same three granularity levels as Enneagram Memory (base type /
+// base type+wing / full subtype), but as pure recognition training
+// instead of pair-matching. 10 questions per round, best score saved per level.
+// ---------------------------------------------------------------------------
+
+const FLASH_TOTAL_ROUNDS = 10;
+const FLASH_LEVEL_META = {
+  1: { label: "Enneagram Flashcards I", sub: "Beginner · only the base type counts" },
+  2: { label: "Enneagram Flashcards II", sub: "Intermediate · base type + wing" },
+  3: { label: "Enneagram Flashcards III", sub: "Expert · full subtype (instinct+type+wing)" },
+};
+
+let _flashState = null;
+
+function _flashBestKey(level) { return "kompass:flashBest:" + level; }
+function _flashSaveBest(level, score) {
+  try {
+    const prev = parseInt(localStorage.getItem(_flashBestKey(level)) || "0", 10);
+    if (score > prev) localStorage.setItem(_flashBestKey(level), String(score));
+  } catch (e) {}
+}
+function _flashGetBest(level) {
+  try { return parseInt(localStorage.getItem(_flashBestKey(level)) || "0", 10); } catch (e) { return 0; }
+}
+
+function _flashRerender() {
+  if (location.hash === "#enneagramm-flashcards") { render(); } else { location.hash = "enneagramm-flashcards"; }
+}
+
+async function _flashPickQuestion(level) {
+  const pools = _memoryBuildPools(level);
+  const keys = _memoryShuffle(Object.keys(pools));
+  for (const correctKey of keys) {
+    const found = await _memoryFindValidPortrait(_memoryShuffle(pools[correctKey]), new Set());
+    if (!found) continue;
+    const otherKeys = _memoryShuffle(Object.keys(pools).filter(k => k !== correctKey)).slice(0, 3);
+    if (otherKeys.length < 3) continue;
+    const options = _memoryShuffle([correctKey, ...otherKeys]);
+    return { portrait: found, correctKey, options };
+  }
+  return null;
+}
+
+async function _flashNextRound() {
+  const st = _flashState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > FLASH_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _flashSaveBest(st.level, st.score);
+    _flashRerender();
+    return;
+  }
+  st.phase = "loading";
+  _flashRerender();
+  const q = await _flashPickQuestion(st.level);
+  if (_flashState !== st) return;
+  if (!q) { st.phase = "gameOver"; _flashRerender(); return; }
+  st.question = q;
+  st.answered = false;
+  st.selectedKey = null;
+  st.phase = "question";
+  _flashRerender();
+}
+
+window._flashStart = function (level) {
+  const lvl = FLASH_LEVEL_META[level] ? level : 1;
+  _flashState = { level: lvl, phase: "loading", round: 0, score: 0, question: null, answered: false, selectedKey: null };
+  _flashNextRound();
+};
+
+window._flashAnswer = function (key) {
+  const st = _flashState;
+  if (!st || st.phase !== "question" || st.answered) return;
+  st.answered = true;
+  st.selectedKey = key;
+  if (key === st.question.correctKey) st.score += 1;
+  _flashRerender();
+};
+
+window._flashNextRound = function () { _flashNextRound(); };
+window._flashRestart = function () {
+  const lvl = _flashState ? _flashState.level : 1;
+  window._flashStart(lvl);
+};
+
+function _flashStyles() {
+  return `
+    <style>
+      .flash-photo-wrap { max-width:320px; margin:1.2rem auto; border-radius:14px; overflow:hidden; border:1px solid var(--line,var(--border)); aspect-ratio:1/1; }
+      .flash-photo-wrap img { width:100%; height:100%; object-fit:cover; display:block; animation:flashPhotoIn .6s ease-out; }
+      @keyframes flashPhotoIn { 0%{ filter:blur(13px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
+      .flash-options { display:grid; grid-template-columns:1fr 1fr; gap:0.7rem; max-width:420px; margin:1.2rem auto 0; }
+      .flash-opt { padding:0.85rem 0.6rem; border-radius:10px; border:2px solid var(--line,var(--border)); background:var(--card,var(--paper)); font-size:0.95rem; font-weight:600; cursor:pointer; font-family:inherit; color:var(--ink); text-align:center; }
+      .flash-opt:hover { border-color:var(--copper); }
+      .flash-opt--correct { border-color:#3a9552; background:color-mix(in srgb, #3a9552 14%, var(--paper)); color:#3a9552; }
+      .flash-opt--wrong { border-color:#c0392b; background:color-mix(in srgb, #c0392b 14%, var(--paper)); color:#c0392b; }
+      .flash-opt[disabled] { cursor:default; }
+      .flash-hud { display:flex; justify-content:space-between; align-items:baseline; max-width:420px; margin:0 auto 0.6rem; font-size:0.85rem; color:var(--muted); }
+      .flash-hud strong { color:var(--ink); }
+      .flash-feedback { text-align:center; max-width:420px; margin:1.2rem auto 0; }
+      .flash-feedback p { margin:0 0 0.9rem; font-size:0.95rem; }
+      .flash-name-reveal { background:var(--card,var(--paper)); border:1px solid var(--line,var(--border)); border-radius:10px; padding:0.7rem 1rem; margin:0 0 1rem; font-size:0.92rem; }
+      .flash-btn { background:var(--copper,#a5603d); color:#fff; border:none; padding:0.75rem 2rem; border-radius:24px; font-size:0.95rem; font-family:inherit; cursor:pointer; font-weight:600; }
+      .flash-explore-hint { font-size:0.78rem; color:var(--muted); text-align:center; margin:0.6rem 0 0; }
+    </style>
+  `;
+}
+
+function _flashIntroScreen(level) {
+  const meta = FLASH_LEVEL_META[level];
+  const best = _flashGetBest(level);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <p class="psycho-intro">${meta.sub}. One portrait photo, four answer options &ndash; which subtype is this? Instant feedback, 10 questions per round. Unlike Memory, this is about quick recognition, not remembering positions.</p>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Your best score at this level: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="flash-btn" onclick="window._flashStart(${level})">Start quiz &rarr;</button>
+        </div>
+        <p class="flash-explore-hint">
+          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ")}
+        </p>
+      </div>
+    </div>
+  `);
+}
+
+function _flashLoadingScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;padding-top:3rem;padding-bottom:5rem;">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <p style="color:var(--muted);margin-top:1.5rem;">Preparing question …</p>
+      </div>
+    </div>
+  `);
+}
+
+function _flashQuestionScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  const q = st.question;
+  const optionsHtml = q.options.map(key => {
+    const display = _flashKeyLabel(key, st.level);
+    let cls = "flash-opt";
+    let disabled = st.answered ? "disabled" : "";
+    if (st.answered) {
+      if (key === q.correctKey) cls += " flash-opt--correct";
+      else if (key === st.selectedKey) cls += " flash-opt--wrong";
+    }
+    const onclick = st.answered ? "" : ` onclick="window._flashAnswer('${key}')"`;
+    return `<button class="${cls}" ${disabled}${onclick}>${display}</button>`;
+  }).join("");
+
+  let feedback = "";
+  if (st.answered) {
+    const correct = st.selectedKey === q.correctKey;
+    const isLast = st.round >= FLASH_TOTAL_ROUNDS;
+    feedback = `
+      <div class="flash-feedback">
+        <p><strong>${correct ? "Correct!" : "Not quite."}</strong></p>
+        <div class="flash-name-reveal">${q.portrait.name} &ndash; <strong>${(q.portrait.subtyp||"").toUpperCase()}</strong></div>
+        <button class="flash-btn" onclick="window._flashNextRound()">${isLast ? "Final result &rarr;" : "Next question &rarr;"}</button>
+      </div>
+    `;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <div class="flash-hud">
+          <span>Question <strong>${st.round}</strong> / ${FLASH_TOTAL_ROUNDS}</span>
+          <span>Score: <strong>${st.score}</strong></span>
+        </div>
+        <div class="flash-photo-wrap"><img src="${q.portrait.img}" alt="" /></div>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">Which subtype is this?</p>
+        <div class="flash-options">${optionsHtml}</div>
+        ${feedback}
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _flashKeyLabel(key, level) {
+  if (level === 1) return "Type " + key.slice(1);
+  if (level === 2) { const m = key.match(/^T(\d)W(\d)$/); return m ? (m[1] + "w" + m[2]) : key; }
+  const m = key.match(/^(SE|SO|SX)(\d)W?(\d)?$/);
+  return m ? (m[1] + m[2] + (m[3] ? "w" + m[3] : "")) : key;
+}
+
+function _flashGameOverScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  const best = _flashGetBest(st.level);
+  const pct = Math.round((st.score / FLASH_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Exceptional &ndash; a very well-trained eye for gaze qualities!";
+  else if (pct >= 70) msg = "Very good! The faces of the subtypes are already leaving a clear impression.";
+  else if (pct >= 40) msg = "Solid round &ndash; with more practice your eye will get even sharper.";
+  else msg = "A start &ndash; recognizing gaze qualities takes practice. Try again?";
+  const otherLevels = [1,2,3].filter(l => l !== st.level)
+    .map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ");
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${st.score} of ${FLASH_TOTAL_ROUNDS} correct</h1>
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Best score at this level: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>
+        <button class="flash-btn" onclick="window._flashRestart()">New round &rarr;</button>
+        <p class="flash-explore-hint" style="margin-top:1.4rem;">Try another level: ${otherLevels}</p>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function enneagrammFlashcardsPage() {
+  if (!_flashState) return _flashIntroScreen(1);
+  if (_flashState.phase === "loading") return _flashLoadingScreen();
+  if (_flashState.phase === "gameOver") return _flashGameOverScreen();
+  return _flashQuestionScreen();
+}
 
 function blickqualitaetenAtlasPage() {
   const BLICKQUALITAETEN_DATEN_EN = [
@@ -110964,6 +111207,7 @@ function subtypeSchaubilderPage() {
     "enneagramm-memory-1": enneagrammMemory1Page,
     "enneagramm-memory-2": enneagrammMemory2Page,
     "enneagramm-memory-3": enneagrammMemory3Page,
+    "enneagramm-flashcards": enneagrammFlashcardsPage,
     "enneagramm-memory": enneagrammMemory3Page,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,

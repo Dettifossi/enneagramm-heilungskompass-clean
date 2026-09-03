@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=72";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=73";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15908,6 +15908,7 @@ const uiText = {
       { route: "enneagramm-memory-1", label: "Enneagramm-Memory I (Anfänger)" },
       { route: "enneagramm-memory-2", label: "Enneagramm-Memory II (Fortgeschrittene)" },
       { route: "enneagramm-memory-3", label: "Enneagramm-Memory III (Experten)" },
+      { route: "enneagramm-flashcards", label: "Enneagramm-Flashcards (Subtyp erraten)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -43298,6 +43299,248 @@ function enneagrammMemory1Page() { return _enneagrammMemoryLevelPage(1); }
 function enneagrammMemory2Page() { return _enneagrammMemoryLevelPage(2); }
 function enneagrammMemory3Page() { return _enneagrammMemoryLevelPage(3); }
 
+
+// ---------------------------------------------------------------------------
+// Enneagramm-Flashcards: Multiple-Choice-Trainer, Ableger von Enneagramm-Memory.
+// Ein Porträtfoto wird gezeigt, vier Antwortmöglichkeiten stehen zur Wahl –
+// nur eine ist richtig. Nutzt dieselbe Bildpool-/Validierungs-Infrastruktur
+// und dieselben drei Granularitätsstufen wie Enneagramm-Memory (Grundtyp /
+// Grundtyp+Flügel / voller Subtyp), aber als reines Wiedererkennungstraining
+// statt Paare-Finden. 10 Fragen pro Runde, Bestleistung je Stufe gespeichert.
+// ---------------------------------------------------------------------------
+
+const FLASH_TOTAL_ROUNDS = 10;
+const FLASH_LEVEL_META = {
+  1: { label: "Enneagramm-Flashcards I", sub: "Anfänger · nur der Grundtyp zählt" },
+  2: { label: "Enneagramm-Flashcards II", sub: "Fortgeschrittene · Grundtyp + Flügel" },
+  3: { label: "Enneagramm-Flashcards III", sub: "Experten · vollständiger Subtyp (Instinkt+Typ+Flügel)" },
+};
+
+let _flashState = null;
+
+function _flashBestKey(level) { return "kompass:flashBest:" + level; }
+function _flashSaveBest(level, score) {
+  try {
+    const prev = parseInt(localStorage.getItem(_flashBestKey(level)) || "0", 10);
+    if (score > prev) localStorage.setItem(_flashBestKey(level), String(score));
+  } catch (e) {}
+}
+function _flashGetBest(level) {
+  try { return parseInt(localStorage.getItem(_flashBestKey(level)) || "0", 10); } catch (e) { return 0; }
+}
+
+function _flashRerender() {
+  if (location.hash === "#enneagramm-flashcards") { render(); } else { location.hash = "enneagramm-flashcards"; }
+}
+
+async function _flashPickQuestion(level) {
+  const pools = _memoryBuildPools(level);
+  const keys = _memoryShuffle(Object.keys(pools));
+  for (const correctKey of keys) {
+    const found = await _memoryFindValidPortrait(_memoryShuffle(pools[correctKey]), new Set());
+    if (!found) continue;
+    const otherKeys = _memoryShuffle(Object.keys(pools).filter(k => k !== correctKey)).slice(0, 3);
+    if (otherKeys.length < 3) continue;
+    const options = _memoryShuffle([correctKey, ...otherKeys]);
+    return { portrait: found, correctKey, options };
+  }
+  return null;
+}
+
+async function _flashNextRound() {
+  const st = _flashState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > FLASH_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _flashSaveBest(st.level, st.score);
+    _flashRerender();
+    return;
+  }
+  st.phase = "loading";
+  _flashRerender();
+  const q = await _flashPickQuestion(st.level);
+  if (_flashState !== st) return;
+  if (!q) { st.phase = "gameOver"; _flashRerender(); return; }
+  st.question = q;
+  st.answered = false;
+  st.selectedKey = null;
+  st.phase = "question";
+  _flashRerender();
+}
+
+window._flashStart = function (level) {
+  const lvl = FLASH_LEVEL_META[level] ? level : 1;
+  _flashState = { level: lvl, phase: "loading", round: 0, score: 0, question: null, answered: false, selectedKey: null };
+  _flashNextRound();
+};
+
+window._flashAnswer = function (key) {
+  const st = _flashState;
+  if (!st || st.phase !== "question" || st.answered) return;
+  st.answered = true;
+  st.selectedKey = key;
+  if (key === st.question.correctKey) st.score += 1;
+  _flashRerender();
+};
+
+window._flashNextRound = function () { _flashNextRound(); };
+window._flashRestart = function () {
+  const lvl = _flashState ? _flashState.level : 1;
+  window._flashStart(lvl);
+};
+
+function _flashStyles() {
+  return `
+    <style>
+      .flash-photo-wrap { max-width:320px; margin:1.2rem auto; border-radius:14px; overflow:hidden; border:1px solid var(--line,var(--border)); aspect-ratio:1/1; }
+      .flash-photo-wrap img { width:100%; height:100%; object-fit:cover; display:block; animation:flashPhotoIn .6s ease-out; }
+      @keyframes flashPhotoIn { 0%{ filter:blur(13px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
+      .flash-options { display:grid; grid-template-columns:1fr 1fr; gap:0.7rem; max-width:420px; margin:1.2rem auto 0; }
+      .flash-opt { padding:0.85rem 0.6rem; border-radius:10px; border:2px solid var(--line,var(--border)); background:var(--card,var(--paper)); font-size:0.95rem; font-weight:600; cursor:pointer; font-family:inherit; color:var(--ink); text-align:center; }
+      .flash-opt:hover { border-color:var(--copper); }
+      .flash-opt--correct { border-color:#3a9552; background:color-mix(in srgb, #3a9552 14%, var(--paper)); color:#3a9552; }
+      .flash-opt--wrong { border-color:#c0392b; background:color-mix(in srgb, #c0392b 14%, var(--paper)); color:#c0392b; }
+      .flash-opt[disabled] { cursor:default; }
+      .flash-hud { display:flex; justify-content:space-between; align-items:baseline; max-width:420px; margin:0 auto 0.6rem; font-size:0.85rem; color:var(--muted); }
+      .flash-hud strong { color:var(--ink); }
+      .flash-feedback { text-align:center; max-width:420px; margin:1.2rem auto 0; }
+      .flash-feedback p { margin:0 0 0.9rem; font-size:0.95rem; }
+      .flash-name-reveal { background:var(--card,var(--paper)); border:1px solid var(--line,var(--border)); border-radius:10px; padding:0.7rem 1rem; margin:0 0 1rem; font-size:0.92rem; }
+      .flash-btn { background:var(--copper,#a5603d); color:#fff; border:none; padding:0.75rem 2rem; border-radius:24px; font-size:0.95rem; font-family:inherit; cursor:pointer; font-weight:600; }
+      .flash-explore-hint { font-size:0.78rem; color:var(--muted); text-align:center; margin:0.6rem 0 0; }
+    </style>
+  `;
+}
+
+function _flashIntroScreen(level) {
+  const meta = FLASH_LEVEL_META[level];
+  const best = _flashGetBest(level);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <p class="psycho-intro">${meta.sub}. Ein Porträtfoto, vier Antwortmöglichkeiten &ndash; welcher Subtyp ist das? Sofortiges Feedback, 10 Fragen pro Runde. Anders als beim Memory geht es hier ums schnelle Wiedererkennen, nicht ums Merken von Positionen.</p>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="flash-btn" onclick="window._flashStart(${level})">Quiz starten &rarr;</button>
+        </div>
+        <p class="flash-explore-hint">
+          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ")}
+        </p>
+      </div>
+    </div>
+  `);
+}
+
+function _flashLoadingScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;padding-top:3rem;padding-bottom:5rem;">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <p style="color:var(--muted);margin-top:1.5rem;">Frage wird vorbereitet …</p>
+      </div>
+    </div>
+  `);
+}
+
+function _flashQuestionScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  const q = st.question;
+  const optionsHtml = q.options.map(key => {
+    const display = _flashKeyLabel(key, st.level);
+    let cls = "flash-opt";
+    let disabled = st.answered ? "disabled" : "";
+    if (st.answered) {
+      if (key === q.correctKey) cls += " flash-opt--correct";
+      else if (key === st.selectedKey) cls += " flash-opt--wrong";
+    }
+    const onclick = st.answered ? "" : ` onclick="window._flashAnswer('${key}')"`;
+    return `<button class="${cls}" ${disabled}${onclick}>${display}</button>`;
+  }).join("");
+
+  let feedback = "";
+  if (st.answered) {
+    const correct = st.selectedKey === q.correctKey;
+    const isLast = st.round >= FLASH_TOTAL_ROUNDS;
+    feedback = `
+      <div class="flash-feedback">
+        <p><strong>${correct ? "Richtig!" : "Leider falsch."}</strong></p>
+        <div class="flash-name-reveal">${q.portrait.name} &ndash; <strong>${(q.portrait.subtyp||"").toUpperCase()}</strong></div>
+        <button class="flash-btn" onclick="window._flashNextRound()">${isLast ? "Endergebnis &rarr;" : "Nächste Frage &rarr;"}</button>
+      </div>
+    `;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <div class="flash-hud">
+          <span>Frage <strong>${st.round}</strong> / ${FLASH_TOTAL_ROUNDS}</span>
+          <span>Punkte: <strong>${st.score}</strong></span>
+        </div>
+        <div class="flash-photo-wrap"><img src="${q.portrait.img}" alt="" /></div>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">Welcher Subtyp ist das?</p>
+        <div class="flash-options">${optionsHtml}</div>
+        ${feedback}
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _flashKeyLabel(key, level) {
+  if (level === 1) return "Typ " + key.slice(1);
+  if (level === 2) { const m = key.match(/^T(\d)W(\d)$/); return m ? (m[1] + "w" + m[2]) : key; }
+  const m = key.match(/^(SE|SO|SX)(\d)W?(\d)?$/);
+  return m ? (m[1] + m[2] + (m[3] ? "w" + m[3] : "")) : key;
+}
+
+function _flashGameOverScreen() {
+  const st = _flashState;
+  const meta = FLASH_LEVEL_META[st.level];
+  const best = _flashGetBest(st.level);
+  const pct = Math.round((st.score / FLASH_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Außergewöhnlich &ndash; ein sehr geschulter Blick für Blickqualitäten!";
+  else if (pct >= 70) msg = "Sehr gut! Die Gesichter der Subtypen prägen sich bei Ihnen schon deutlich ein.";
+  else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
+  else msg = "Ein Anfang &ndash; das Erkennen von Blickqualitäten braucht Übung. Nochmal versuchen?";
+  const otherLevels = [1,2,3].filter(l => l !== st.level)
+    .map(l => `<a href="javascript:void(0)" onclick="window._flashStart(${l})">${FLASH_LEVEL_META[l].label}</a>`).join(" &middot; ");
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${st.score} von ${FLASH_TOTAL_ROUNDS} richtig</h1>
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${FLASH_TOTAL_ROUNDS}</strong></p>
+        <button class="flash-btn" onclick="window._flashRestart()">Neue Runde &rarr;</button>
+        <p class="flash-explore-hint" style="margin-top:1.4rem;">Andere Stufe versuchen: ${otherLevels}</p>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function enneagrammFlashcardsPage() {
+  if (!_flashState) return _flashIntroScreen(1);
+  if (_flashState.phase === "loading") return _flashLoadingScreen();
+  if (_flashState.phase === "gameOver") return _flashGameOverScreen();
+  return _flashQuestionScreen();
+}
 
 function blickqualitaetenAtlasPage() {
   const heading1 = ["Der Perfektionist","Der Helfer","Der Leistungsmensch","Der Individualist","Der Forscher","Der loyale Skeptiker","Der Enthusiast","Der Herausforderer","Der Friedensstifter"];
@@ -74689,6 +74932,7 @@ const ROUTES = {
     "enneagramm-memory-1": enneagrammMemory1Page,
     "enneagramm-memory-2": enneagrammMemory2Page,
     "enneagramm-memory-3": enneagrammMemory3Page,
+    "enneagramm-flashcards": enneagrammFlashcardsPage,
     "enneagramm-memory": enneagrammMemory3Page,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
