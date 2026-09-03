@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=74";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=75";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15906,10 +15906,8 @@ const uiText = {
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
-      { route: "enneagramm-memory-1", label: "Enneagramm-Memory I (Anfänger)" },
-      { route: "enneagramm-memory-2", label: "Enneagramm-Memory II (Fortgeschrittene)" },
-      { route: "enneagramm-memory-3", label: "Enneagramm-Memory III (Experten)" },
-      { route: "enneagramm-flashcards", label: "Enneagramm-Flashcards (Subtyp erraten)" },
+      { route: "enneagramm-memory", label: "Enneagramm-Memory (Merkspiel, 3 Stufen)" },
+      { route: "enneagramm-flashcards", label: "Enneagramm-Flashcards (Typ & Subtyp erraten)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -43149,8 +43147,7 @@ async function _memoryPickRound(level) {
 }
 
 function _memoryRerender() {
-  const hash = "#enneagramm-memory-" + (_memoryState ? _memoryState.level : 1);
-  if (location.hash === hash) { render(); } else { location.hash = hash.slice(1); }
+  if (location.hash === "#enneagramm-memory") { render(); } else { location.hash = "enneagramm-memory"; }
 }
 
 function _memoryBestKey(level) { return "kompass:memoryBest:" + level; }
@@ -43338,7 +43335,7 @@ function _memoryIntroScreen(level) {
           <button class="mem-btn" onclick="window._memoryStart(${level})">Spiel starten &rarr;</button>
         </div>
         <p class="mem-explore-hint">
-          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" data-route="enneagramm-memory-${l}">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ")}
+          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ")}
         </p>
       </div>
     </div>
@@ -43406,7 +43403,7 @@ function _memoryGameOverScreen() {
   else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
   else msg = "Ein Anfang &ndash; das Erkennen von Blickqualitäten braucht Übung. Nochmal versuchen?";
   const otherLevels = [1,2,3].filter(l => l !== st.level)
-    .map(l => `<a href="javascript:void(0)" data-route="enneagramm-memory-${l}">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ");
+    .map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ");
   return shell(`
     <div class="page-container">
       ${pageHeader("wissen")}
@@ -43429,6 +43426,11 @@ function _enneagrammMemoryLevelPage(level) {
   if (_memoryState.phase === "roundLoading") return _memoryRoundLoadingScreen();
   if (_memoryState.phase === "gameOver") return _memoryGameOverScreen();
   return _memoryGameScreen();
+}
+
+function enneagrammMemoryPage() {
+  const level = _memoryState ? _memoryState.level : 1;
+  return _enneagrammMemoryLevelPage(level);
 }
 
 function _memoryRoundLoadingScreen() {
@@ -43641,7 +43643,7 @@ function _flashQuestionScreen() {
           <span>Punkte: <strong>${st.score}</strong></span>
         </div>
         <div class="flash-photo-wrap"><img src="${q.portrait.img}" alt="" /></div>
-        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">Welcher Subtyp ist das?</p>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">${st.level === 1 ? "Welcher Grundtyp ist das?" : st.level === 2 ? "Welcher Grundtyp + Flügel ist das?" : "Welcher Subtyp ist das?"}</p>
         <div class="flash-options">${optionsHtml}</div>
         ${feedback}
       </div>
@@ -75081,11 +75083,11 @@ const ROUTES = {
     "wachstumstagebuch": wachstumstagebuchPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
-    "enneagramm-memory-1": enneagrammMemory1Page,
-    "enneagramm-memory-2": enneagrammMemory2Page,
-    "enneagramm-memory-3": enneagrammMemory3Page,
+    "enneagramm-memory-1": enneagrammMemoryPage,
+    "enneagramm-memory-2": enneagrammMemoryPage,
+    "enneagramm-memory-3": enneagrammMemoryPage,
     "enneagramm-flashcards": enneagrammFlashcardsPage,
-    "enneagramm-memory": enneagrammMemory3Page,
+    "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,

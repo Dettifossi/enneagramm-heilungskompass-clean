@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=74";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=75";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3144,10 +3144,8 @@ text.nav = [
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
-    { route: "enneagramm-memory-1", label: "Enneagram Memory I (Beginner)" },
-    { route: "enneagramm-memory-2", label: "Enneagram Memory II (Intermediate)" },
-    { route: "enneagramm-memory-3", label: "Enneagram Memory III (Expert)" },
-    { route: "enneagramm-flashcards", label: "Enneagram Flashcards (guess the subtype)" },
+    { route: "enneagramm-memory", label: "Enneagram Memory (matching game, 3 levels)" },
+    { route: "enneagramm-flashcards", label: "Enneagram Flashcards (guess type & subtype)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -18119,8 +18117,7 @@ async function _memoryPickRound(level) {
 }
 
 function _memoryRerender() {
-  const hash = "#enneagramm-memory-" + (_memoryState ? _memoryState.level : 1);
-  if (location.hash === hash) { render(); } else { location.hash = hash.slice(1); }
+  if (location.hash === "#enneagramm-memory") { render(); } else { location.hash = "enneagramm-memory"; }
 }
 
 function _memoryBestKey(level) { return "kompass:memoryBest:" + level; }
@@ -18308,7 +18305,7 @@ function _memoryIntroScreen(level) {
           <button class="mem-btn" onclick="window._memoryStart(${level})">Start game &rarr;</button>
         </div>
         <p class="mem-explore-hint">
-          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" data-route="enneagramm-memory-${l}">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ")}
+          ${[1,2,3].filter(l => l !== level).map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ")}
         </p>
       </div>
     </div>
@@ -18376,7 +18373,7 @@ function _memoryGameOverScreen() {
   else if (pct >= 40) msg = "Solid round &ndash; with more practice your eye will get even sharper.";
   else msg = "A start &ndash; recognizing gaze qualities takes practice. Try again?";
   const otherLevels = [1,2,3].filter(l => l !== st.level)
-    .map(l => `<a href="javascript:void(0)" data-route="enneagramm-memory-${l}">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ");
+    .map(l => `<a href="javascript:void(0)" onclick="window._memoryStart(${l})">${MEMORY_LEVEL_META[l].label}</a>`).join(" &middot; ");
   return shell(`
     <div class="page-container">
       ${pageHeader("wissen")}
@@ -18419,6 +18416,11 @@ function _memoryRoundLoadingScreen() {
 function enneagrammMemory1Page() { return _enneagrammMemoryLevelPage(1); }
 function enneagrammMemory2Page() { return _enneagrammMemoryLevelPage(2); }
 function enneagrammMemory3Page() { return _enneagrammMemoryLevelPage(3); }
+
+function enneagrammMemoryPage() {
+  const level = _memoryState ? _memoryState.level : 1;
+  return _enneagrammMemoryLevelPage(level);
+}
 
 
 // ---------------------------------------------------------------------------
@@ -18611,7 +18613,7 @@ function _flashQuestionScreen() {
           <span>Score: <strong>${st.score}</strong></span>
         </div>
         <div class="flash-photo-wrap"><img src="${q.portrait.img}" alt="" /></div>
-        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">Which subtype is this?</p>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">${st.level === 1 ? "Which base type is this?" : st.level === 2 ? "Which base type + wing is this?" : "Which subtype is this?"}</p>
         <div class="flash-options">${optionsHtml}</div>
         ${feedback}
       </div>
@@ -111355,11 +111357,11 @@ function subtypeSchaubilderPage() {
     "wachstumstagebuch": wachstumstagebuchPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
-    "enneagramm-memory-1": enneagrammMemory1Page,
-    "enneagramm-memory-2": enneagrammMemory2Page,
-    "enneagramm-memory-3": enneagrammMemory3Page,
+    "enneagramm-memory-1": enneagrammMemoryPage,
+    "enneagramm-memory-2": enneagrammMemoryPage,
+    "enneagramm-memory-3": enneagrammMemoryPage,
     "enneagramm-flashcards": enneagrammFlashcardsPage,
-    "enneagramm-memory": enneagrammMemory3Page,
+    "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,
     "krankheitsmusterkompass": krankheitsmusterkompassPage,
