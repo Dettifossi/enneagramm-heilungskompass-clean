@@ -17780,6 +17780,17 @@ function _memoryImgFor(route) {
   return src;
 }
 
+const _memoryImgValidCache = {};
+function _memoryValidateImg(src) {
+  if (_memoryImgValidCache[src] !== undefined) return Promise.resolve(_memoryImgValidCache[src]);
+  return new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => { _memoryImgValidCache[src] = true; resolve(true); };
+    img.onerror = () => { _memoryImgValidCache[src] = false; resolve(false); };
+    img.src = src;
+  });
+}
+
 function _memoryGroupKey(subtyp, level) {
   const p = musterradarParseSubtyp(subtyp);
   if (!p) return null;
@@ -17816,43 +17827,50 @@ function _memoryShuffle(arr) {
   return a;
 }
 
-function _memoryPickRound(level) {
+async function _memoryFindValidPortrait(candidates, usedRoutes) {
+  for (const p of candidates) {
+    if (usedRoutes.has(p.route)) continue;
+    const img = _memoryImgFor(p.route);
+    if (!img) continue;
+    const ok = await _memoryValidateImg(img);
+    if (ok) return { route: p.route, subtyp: p.subtyp, name: p.name, img };
+  }
+  return null;
+}
+
+async function _memoryPickRound(level) {
   const pools = _memoryBuildPools(level);
-  const pairKeys = Object.keys(pools).filter(c => pools[c].length >= 2);
+  const pairKeys = _memoryShuffle(Object.keys(pools).filter(c => pools[c].length >= 2));
   if (!pairKeys.length) return null;
-  const pairKey = pairKeys[Math.floor(Math.random() * pairKeys.length)];
-  const pair = _memoryShuffle(pools[pairKey]).slice(0, 2);
 
-  const otherKeys = _memoryShuffle(Object.keys(pools).filter(c => c !== pairKey));
-  const distractors = [];
-  for (const key of otherKeys) {
-    if (distractors.length >= 7) break;
-    const arr = pools[key];
-    distractors.push(arr[Math.floor(Math.random() * arr.length)]);
-  }
-
-  let cards = [...pair, ...distractors].map(p => ({ route: p.route, subtyp: p.subtyp, name: p.name }));
-  cards = cards.map(c => ({ ...c, img: _memoryImgFor(c.route) })).filter(c => c.img);
-
-  // If a photo couldn't be resolved: top up with more distractors.
-  if (cards.length < 9) {
-    const usedRoutes = new Set(cards.map(c => c.route));
-    for (const key of otherKeys) {
-      if (cards.length >= 9) break;
-      for (const p of pools[key]) {
-        if (cards.length >= 9) break;
-        if (usedRoutes.has(p.route)) continue;
-        const img = _memoryImgFor(p.route);
-        if (!img) continue;
-        cards.push({ route: p.route, subtyp: p.subtyp, name: p.name, img });
-        usedRoutes.add(p.route);
-      }
+  // Every photo is pre-loaded and checked – only confirmed working images
+  // end up on a card. If a pair or enough distractors don't work out with
+  // the chosen key, the next key is tried.
+  for (const pairKey of pairKeys) {
+    const usedRoutes = new Set();
+    const pairShuffled = _memoryShuffle(pools[pairKey]);
+    const validPair = [];
+    for (const p of pairShuffled) {
+      if (validPair.length >= 2) break;
+      const found = await _memoryFindValidPortrait([p], usedRoutes);
+      if (found) { validPair.push(found); usedRoutes.add(found.route); }
     }
-  }
+    if (validPair.length < 2) continue;
 
-  cards = _memoryShuffle(cards).slice(0, 9);
-  const pairRoutes = new Set(pair.map(p => p.route));
-  return { cards, pairRoutes, pairKey };
+    const otherKeys = _memoryShuffle(Object.keys(pools).filter(c => c !== pairKey));
+    const distractors = [];
+    for (const key of otherKeys) {
+      if (distractors.length >= 7) break;
+      const found = await _memoryFindValidPortrait(_memoryShuffle(pools[key]), usedRoutes);
+      if (found) { distractors.push(found); usedRoutes.add(found.route); }
+    }
+    if (distractors.length < 7) continue;
+
+    const cards = _memoryShuffle([...validPair, ...distractors]).slice(0, 9);
+    const pairRoutes = new Set(validPair.map(p => p.route));
+    return { cards, pairRoutes, pairKey };
+  }
+  return null;
 }
 
 function _memoryRerender() {
@@ -17873,7 +17891,7 @@ function _memoryGetBest(level) {
   try { return parseInt(localStorage.getItem(_memoryBestKey(level)) || "0", 10); } catch (e) { return 0; }
 }
 
-function _memoryNextRound() {
+async function _memoryNextRound() {
   const st = _memoryState;
   if (!st) return;
   st.round += 1;
@@ -17883,7 +17901,10 @@ function _memoryNextRound() {
     _memoryRerender();
     return;
   }
-  const roundData = _memoryPickRound(st.level);
+  st.phase = "roundLoading";
+  _memoryRerender();
+  const roundData = await _memoryPickRound(st.level);
+  if (_memoryState !== st) return; // game was restarted/left in the meantime
   if (!roundData) { st.phase = "gameOver"; _memoryRerender(); return; }
   st.cards = roundData.cards;
   st.pairRoutes = roundData.pairRoutes;
@@ -18130,8 +18151,24 @@ function _memoryGameOverScreen() {
 
 function _enneagrammMemoryLevelPage(level) {
   if (!_memoryState || _memoryState.level !== level || _memoryState.phase === "loading") return _memoryIntroScreen(level);
+  if (_memoryState.phase === "roundLoading") return _memoryRoundLoadingScreen();
   if (_memoryState.phase === "gameOver") return _memoryGameOverScreen();
   return _memoryGameScreen();
+}
+
+function _memoryRoundLoadingScreen() {
+  const st = _memoryState;
+  const meta = MEMORY_LEVEL_META[st.level];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;padding-top:3rem;padding-bottom:5rem;">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        <p style="color:var(--muted);margin-top:1.5rem;">Preparing round …</p>
+      </div>
+    </div>
+  `);
 }
 
 function enneagrammMemory1Page() { return _enneagrammMemoryLevelPage(1); }
