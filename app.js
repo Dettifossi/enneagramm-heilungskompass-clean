@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=71";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=72";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15888,6 +15888,7 @@ const uiText = {
       { route: "praxistipps-heilpraktiker", label: "Praxistipps vom Heilpraktiker" },
       { route: "differenzierung", label: "Differenzierung" },
       { route: "beziehungen", label: "Beziehungskompass" },
+      { route: "kompatibilitaets-check", label: "Kompatibilitäts-Check (zwei Subtypen vergleichen)" },
       { route: "situationskompass", label: "Situationskompass" },
       { route: "krisenkompass", label: "Krisenkompass" },
       { route: "kommunikationsguide", label: "Kommunikationsguide" },
@@ -33034,6 +33035,7 @@ window.addEventListener("hashchange", () => {
   const raw = location.hash.replace("#", "") || "start";
   const [newRoute, scrollAnchor] = raw.split("|");
   if (newRoute !== "beziehungen") beziehungSelected = null;
+  if (newRoute !== "kompatibilitaets-check") { kompCheckA = null; kompCheckB = null; }
   if (newRoute !== "suche") _sucheQuery = "";
   if (newRoute !== "differenzierung") diffState = { a: null, b: null };
   if (newRoute !== "situationskompass") situKompState = { situId: null, subtypeCode: null };
@@ -39038,6 +39040,17 @@ function bindEvents() {
     });
   });
 
+  const kompSelA = document.getElementById("komp-select-a");
+  const kompSelB = document.getElementById("komp-select-b");
+  if (kompSelA && kompSelB) {
+    const kompRerender = () => {
+      app.innerHTML = kompatibilitaetsCheckPage();
+      bindEvents();
+    };
+    kompSelA.addEventListener("change", () => { kompCheckA = kompSelA.value || null; kompRerender(); });
+    kompSelB.addEventListener("change", () => { kompCheckB = kompSelB.value || null; kompRerender(); });
+  }
+
   // Kompass-Overlay auf ALLEN Vollseiten-Karten sicherstellen (deckt die Seitenzahl oben).
   // Greift auch fuer Seiten, deren Render-Pfad den Wrap nicht selbst setzt (z. B. Heilmittel-Seite 4).
   document.querySelectorAll(".vollseite-karte").forEach((fig) => {
@@ -42669,6 +42682,88 @@ function beziehungenPage() {
         {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
         {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
       ])}
+    </section>
+  `);
+}
+
+let kompCheckA = null;
+let kompCheckB = null;
+
+function _kompFindPaarung(a, b) {
+  if (!a || !b) return null;
+  return BEZIEHUNGS_PAARUNGEN.find(p => (p.a === a && p.b === b) || (p.a === b && p.b === a)) || null;
+}
+
+function kompatibilitaetsCheckPage() {
+  const codes = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+  const optionsHtml = codes.map(c => `<option value="${c}">${c}</option>`).join("");
+  const paarung = _kompFindPaarung(kompCheckA, kompCheckB);
+  const colA = kompCheckA ? (TYPE_COLORS[parseInt(kompCheckA.slice(-1))] || "var(--copper)") : "var(--copper)";
+  const colB = kompCheckB ? (TYPE_COLORS[parseInt(kompCheckB.slice(-1))] || "var(--copper)") : "var(--copper)";
+
+  const resultHtml = paarung ? `
+    <div style="border-left:4px solid ${colB}; padding:1.1rem 1.3rem; background:color-mix(in srgb, ${colB} 6%, var(--paper)); border-radius:0 0.6rem 0.6rem 0; margin-top:1.5rem;">
+      <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:0.7rem; flex-wrap:wrap;">
+        <strong style="font-size:1.05rem;"><span style="color:${colA};">${kompCheckA}</span><span style="color:var(--muted);font-weight:400;"> &amp; </span><span style="color:${colB};">${kompCheckB}</span></strong>
+        <span style="font-size:0.85rem; color:var(--muted);">${paarung.dynamik}</span>
+      </div>
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:0.6rem; font-size:0.85rem; color:var(--ink); margin-bottom:0.9rem;">
+        <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Gefahr</span><br>${paarung.gefahr}</div>
+        <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Chance</span><br>${paarung.chance}</div>
+        <div><span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted);">Kurztipp</span><br>${paarung.kurztipp}</div>
+      </div>
+      ${paarung.vertiefung ? `
+      <div style="padding-top:0.8rem; border-top:1px solid color-mix(in srgb, ${colB} 20%, var(--line)); font-size:0.92rem; color:var(--ink); line-height:1.6;">
+        ${paarung.vertiefung}
+      </div>
+      <div style="margin-top:0.8rem; display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+        <div style="background:color-mix(in srgb, ${colA} 18%, var(--paper)); border-radius:0.4rem; padding:0.55rem 0.7rem; font-size:0.85rem;">
+          <span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:${colA}; font-weight:700;">Für ${kompCheckA}</span><br>
+          <span style="color:var(--ink);">${paarung.a === kompCheckA ? paarung.tippA : paarung.tippB}</span>
+        </div>
+        <div style="background:color-mix(in srgb, ${colB} 18%, var(--paper)); border-radius:0.4rem; padding:0.55rem 0.7rem; font-size:0.85rem;">
+          <span style="font-size:0.72rem; text-transform:uppercase; letter-spacing:0.05em; color:${colB}; font-weight:700;">Für ${kompCheckB}</span><br>
+          <span style="color:var(--ink);">${paarung.a === kompCheckB ? paarung.tippA : paarung.tippB}</span>
+        </div>
+      </div>` : ""}
+      <div style="margin-top:1rem; display:flex; gap:0.8rem; flex-wrap:wrap; font-size:0.82rem;">
+        <a href="javascript:void(0)" data-route="subtype/${kompCheckA.toLowerCase()}">Subtyp-Profil ${kompCheckA} &rarr;</a>
+        <a href="javascript:void(0)" data-route="subtype/${kompCheckB.toLowerCase()}">Subtyp-Profil ${kompCheckB} &rarr;</a>
+      </div>
+    </div>
+  ` : `<div style="text-align:center; padding:2.2rem 1rem; color:var(--muted); font-size:0.9rem; border:2px dashed var(--line); border-radius:0.6rem; margin-top:1.5rem;">Wählen Sie oben beide Subtypen aus, um die Analyse zu sehen.</div>`;
+
+  return shell(`
+    ${pageHeader("kompatibilitaets-check")}
+    <section class="narrow">
+      <p class="eyebrow">Praxis &middot; Beziehungen</p>
+      <h1>Kompatibilitäts-Check</h1>
+      <p class="lead-small">Welchen Subtyp haben Sie, welchen Ihr Gegenüber? Zwei Klicks &ndash; und Sie sehen Anziehung, typische Reibungspunkte und konkrete Tipps für genau diese Kombination. Basierend auf allen 378 möglichen Subtyp-Paarungen.</p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-top:1.5rem;">
+        <div>
+          <label style="display:block; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-bottom:0.4rem;">Mein Subtyp</label>
+          <select id="komp-select-a" style="width:100%; padding:0.65rem 0.8rem; border-radius:0.5rem; border:1.5px solid ${colA}; font-size:0.95rem; font-weight:600; color:${colA}; background:var(--paper);">
+            <option value="">&ndash; auswählen &ndash;</option>
+            ${codes.map(c => `<option value="${c}" ${kompCheckA === c ? "selected" : ""}>${c}</option>`).join("")}
+          </select>
+        </div>
+        <div>
+          <label style="display:block; font-size:0.78rem; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin-bottom:0.4rem;">Subtyp der anderen Person</label>
+          <select id="komp-select-b" style="width:100%; padding:0.65rem 0.8rem; border-radius:0.5rem; border:1.5px solid ${colB}; font-size:0.95rem; font-weight:600; color:${colB}; background:var(--paper);">
+            <option value="">&ndash; auswählen &ndash;</option>
+            ${codes.map(c => `<option value="${c}" ${kompCheckB === c ? "selected" : ""}>${c}</option>`).join("")}
+          </select>
+        </div>
+      </div>
+
+      ${resultHtml}
+
+      ${bookTip("die-sprache-unserer-beziehungen", "365 Typ- und Subtypen-Kombinationen im Überblick &ndash; das komplette Beziehungslexikon des Enneagramms.", "Die Sprache unserer Beziehungen")}
+
+      <div style="margin-top:2rem; text-align:center;">
+        <a href="javascript:void(0)" data-route="beziehungen" style="font-size:0.85rem;">&larr; Zum vollständigen Beziehungskompass (alle 9 Typen &amp; 27 Subtypen)</a>
+      </div>
     </section>
   `);
 }
@@ -74588,6 +74683,7 @@ const ROUTES = {
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
+    "kompatibilitaets-check": kompatibilitaetsCheckPage,
     "tierentsprechungen": tierentsprechungenPage,
     "blickqualitaeten-atlas": blickqualitaetenAtlasPage,
     "enneagramm-memory-1": enneagrammMemory1Page,
