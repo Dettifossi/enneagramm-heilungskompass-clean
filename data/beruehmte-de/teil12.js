@@ -1641,3 +1641,70 @@ export function wolodymyrSelenskyjPortraitPage() {
     </div>
   `);
 }
+
+export function markusLanzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-markus-lanz-portrait.jpg" alt="Markus Lanz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Markus Lanz</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Fernsehmoderator und Journalist, geb. 1969 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die auf dem Datenblatt beharrt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Ordnung, stets in Verantwortung für die Gemeinschaft, nicht für sich allein. Markus Lanz, geboren 1969 im südtiroler Höfen, arbeitete sich über Jahrzehnte methodisch durch nahezu jede Facette des deutschen Fernsehens: Wettermoderation, Unterhaltungsshow, von 2006 bis 2014 sogar die Nachfolge von Thomas Gottschalk bei "Wetten, dass..?", bevor er sich seit 2008 mit seiner eigenen Talkshow im ZDF endgültig dem ernsten politischen Gespräch zuwandte.</p>
+          <p class="vb-intro">Seine Sendung, mittlerweile viermal wöchentlich ausgestrahlt, ist bekannt für einen Stil, der in der deutschen Talkshow-Landschaft seinesgleichen sucht: Lanz erscheint mit ausgedruckten Statistiken, Originalzitaten und Quellenbelegen und konfrontiert seine Gäste &ndash; vor allem Politiker &ndash; unmittelbar mit deren eigenen, widersprüchlichen Aussagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Wachsame Verantwortung für den öffentlichen Diskurs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt wachsame Verantwortung für die Ordnung eines Kollektivs &ndash; nicht aus Geltungsbedürfnis, sondern aus der unbestechlichen Überzeugung, dass Dinge richtig gemacht werden müssen. Lanz versteht seine Rolle explizit nicht als Unterhaltung, sondern als Dienst an einer informierten Öffentlichkeit: Bevor ein Interview stattfindet, lässt er sich und sein Team wochenlang in die jeweilige Materie einarbeiten, um Ausweichmanöver und vage Antworten sofort erkennen und korrigieren zu können.</p>
+          <p class="vb-intro">Besonders deutlich wurde das in wiederholten Interviews mit Gesundheitsminister Karl Lauterbach, in denen Lanz mit gedruckten Studien und Statistiken auf mögliche Widersprüche zwischen offizieller Darstellung und Datenlage hinwies &ndash; nicht um bloßzustellen, sondern weil er der Überzeugung ist, dass öffentliche Verantwortungsträger sich an überprüfbaren Fakten messen lassen müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Beharrlichkeit ohne Lautstärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note &ndash; die Überzeugung bleibt unerschütterlich, wird aber selten explosiv nach außen getragen. Lanz' Stil ist nie lautstark oder konfrontativ im klassischen Sinn: Er hebt selten die Stimme, wird nicht polemisch, sondern wiederholt ruhig und beharrlich dieselbe präzise Frage, bis eine tatsächliche Antwort erfolgt &ndash; eine Zähigkeit, die von Gästen oft als anstrengender empfunden wird als offene Konfrontation.</p>
+          <p class="vb-intro">Diese undramatische Beharrlichkeit zeigt sich auch in seiner zusätzlichen Rolle als Co-Moderator des wöchentlichen Gesprächsformats "Lanz & Precht" mit dem Philosophen Richard David Precht &ndash; ein ruhiges, formatübergreifendes Gesprächsangebot, das Komplexität nicht scheut, ohne auf Zuspitzung um ihrer selbst willen zu setzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die Fähigkeit, <strong>öffentliche Verantwortungsträger auf eine Weise zur Rechenschaft zu ziehen, die auf überprüfbaren Fakten statt auf Emotionalisierung beruht</strong> &ndash; Lanz' akribische Vorbereitung hat wiederholt dazu geführt, dass Politiker ihre eigenen früheren Aussagen live korrigieren mussten, weil ihnen die dokumentierten Widersprüche vorgehalten wurden.</p>
+          <p class="vb-intro">Der Schatten der sozialen Eins mit Neunerflügel zeigt sich darin, wie sehr die unbestechliche Prinzipientreue als überheblich oder besserwisserisch wahrgenommen werden kann: Lanz wurde wiederholt vorgeworfen, seine eigene Vorbereitung als moralische Überlegenheit gegenüber seinen Gästen einzusetzen, statt als reines Mittel zur Wahrheitsfindung &ndash; ein Vorwurf, den er selbst wiederholt zurückwies, ohne seinen Stil grundlegend zu ändern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Methodischer Aufstieg statt Senkrechtstart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bezeichnend für die soziale Eins ist, dass Lanz' Karriere nie auf einem einzelnen spektakulären Durchbruch beruhte, sondern auf einer über Jahrzehnte konsequent aufgebauten, immer verantwortungsvolleren Rolle im deutschen Fernsehen &ndash; vom Wetterbericht über die leichte Unterhaltung bis zum ernsten politischen Gespräch, jede Station eine bewusste Erweiterung der vorherigen.</p>
+          <p class="vb-intro">Trotz seiner öffentlichen Präsenz hält Lanz sein Privatleben und seine Familie konsequent aus der Berichterstattung heraus &ndash; eine Trennung zwischen öffentlicher Verantwortung und privater Sphäre, die ebenfalls zur wachsamen, geordneten Grundhaltung der sozialen Eins passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die dem Diskurs eine Ordnung auferlegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Lanz im deutschen Journalismus auszeichnet, ist die Konsequenz, mit der er Vorbereitung, Fakten und ruhige Beharrlichkeit über Effekthascherei stellt &ndash; seine Interviews werden regelmäßig zitiert, weil sie Aussagen dokumentieren, die andernorts unwidersprochen geblieben wären.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das gut zu seinem archetypischen Tier passt: die Gans, die wacht, prüft und beharrlich auf Ordnung besteht &ndash; nicht durch lautes Schnattern, sondern durch die stille, unbestechliche Weigerung, sich mit einer ausweichenden Antwort zufriedenzugeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

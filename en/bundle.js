@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=66";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=67";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -518,6 +518,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Roald Amundsen – Social Type 1",
     teaser:"SO1w9 · Polar explorer, 1872–1928. First person at the South Pole (1911), first person to reach both geographic poles. Disappeared in 1928 on a rescue flight for his former rival Umberto Nobile. The goose who carried a young nation to the South Pole.",
     land:"Norway", tags:["Geschichte","Wissenschaft"], gender:"m"},
+{ route:"beruehmte-markus-lanz", name:"Markus Lanz", added:"2026-09-03", subtyp:"SO1w9",
+    heading:"Markus Lanz – Social Type 1",
+    teaser:"SO1w9 · Television host and journalist, b. 1969. Own ZDF talk show since 2008, known for meticulously prepared, fact-based interviews with politicians. The goose who imposes order on discourse.",
+    land:"Germany", tags:["Unterhaltung"], gender:"m"},
 { route:"beruehmte-ursula-von-der-leyen", name:"Ursula von der Leyen", added:"2026-07-29", subtyp:"SO1w9",
     heading:"Ursula von der Leyen – Social Type 1",
     teaser:"SO1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
@@ -43951,6 +43955,73 @@ function roaldAmundsenPortraitPage() {
   `);
 }
 
+function markusLanzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-markus-lanz-portrait.jpg" alt="Markus Lanz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Markus Lanz</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Television host and journalist, b. 1969 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose who insists on the data sheet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, incorruptible in its sense of right and order, always responsible for the community, never just for itself. Markus Lanz, born in 1969 in Höfen, South Tyrol, methodically worked his way through nearly every facet of German television over the decades: weather presenting, entertainment shows, even succeeding Thomas Gottschalk on "Wetten, dass..?" from 2006 to 2014, before turning decisively toward serious political conversation with his own ZDF talk show since 2008.</p>
+          <p class="vb-intro">His show, now broadcast four times a week, is known for a style with few equals in German talk television: Lanz arrives with printed statistics, original quotes, and documented sources, confronting his guests &ndash; especially politicians &ndash; directly with their own contradictory statements.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: watchful responsibility for public discourse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> takes watchful responsibility for the order of a collective &ndash; not out of a need for recognition, but from an incorruptible conviction that things must be done correctly. Lanz explicitly understands his role not as entertainment, but as a service to an informed public: before an interview takes place, he and his team spend weeks immersing themselves in the subject matter, so they can immediately recognize and correct evasive maneuvers and vague answers.</p>
+          <p class="vb-intro">This showed with particular clarity in repeated interviews with Health Minister Karl Lauterbach, in which Lanz pointed to possible contradictions between official statements and the underlying data using printed studies and statistics &ndash; not to embarrass, but because he is convinced that public officials must be measured against verifiable facts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: persistence without volume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a subdued, undramatic note &ndash; the conviction remains unshakeable, but is rarely carried outward explosively. Lanz's style is never loud or confrontational in the classic sense: he rarely raises his voice, never turns polemical, but calmly and persistently repeats the same precise question until an actual answer follows &ndash; a tenacity that guests often find more exhausting than open confrontation.</p>
+          <p class="vb-intro">This undramatic persistence also shows in his additional role as co-host of the weekly conversation format "Lanz & Precht" with philosopher Richard David Precht &ndash; a calm, cross-format conversational offering that does not shy away from complexity without pursuing provocation for its own sake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is its ability to <strong>hold public officials accountable in a way grounded in verifiable facts rather than emotionalization</strong> &ndash; Lanz's meticulous preparation has repeatedly forced politicians to correct their own prior statements on air, once confronted with the documented contradictions.</p>
+          <p class="vb-intro">The shadow of the social One with a Nine-wing shows in how easily incorruptible adherence to principle can be perceived as arrogant or condescending: Lanz has repeatedly been accused of using his own preparation as a demonstration of moral superiority over his guests rather than as a pure tool for establishing truth &ndash; an accusation he has repeatedly rejected without fundamentally changing his style.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Methodical rise instead of a meteoric breakthrough</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It is telling for the social One that Lanz's career never rested on a single spectacular breakthrough, but on a consistently built, increasingly responsible role in German television over decades &ndash; from weather reports through light entertainment to serious political conversation, each stage a deliberate extension of the last.</p>
+          <p class="vb-intro">Despite his public presence, Lanz consistently keeps his private life and family out of the coverage &ndash; a separation between public responsibility and private sphere that likewise fits the watchful, orderly disposition of the social One.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The goose who imposes order on discourse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Lanz apart in German journalism is the consistency with which he places preparation, facts, and calm persistence above sensationalism &ndash; his interviews are regularly cited because they document statements that would otherwise have gone unchallenged.</p>
+          <p class="vb-intro">In the end, one image remains that fits his archetypal animal well: the goose that keeps watch, checks, and persistently insists on order &ndash; not through loud honking, but through a quiet, incorruptible refusal to settle for an evasive answer.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 function ursulaVonDerLeyenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -51167,12 +51238,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud."
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
@@ -110488,6 +110559,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
+      "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
