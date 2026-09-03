@@ -43039,13 +43039,13 @@ function _memoryStyles() {
       .mem-card-inner { position:relative; width:100%; height:100%; transform-style:preserve-3d; transition:transform .5s cubic-bezier(.4,.2,.2,1); border-radius:12px; }
       .mem-card--open .mem-card-inner { transform:rotateY(180deg); }
       .mem-card-face { position:absolute; inset:0; backface-visibility:hidden; border-radius:12px; overflow:hidden; display:flex; align-items:center; justify-content:center; }
-      .mem-card-face--back { background:linear-gradient(135deg, var(--copper,#a5603d), #6d3e26); animation:memBackIn .45s ease-out; }
+      .mem-card-face--back { background:linear-gradient(135deg, var(--copper,#a5603d), #6d3e26); animation:memBackIn 1.1s ease-out; }
       .mem-card-mark { color:rgba(255,255,255,0.55); font-size:1.4rem; }
       .mem-card-face--front { transform:rotateY(180deg); background:var(--card,var(--paper)); border:2px solid var(--line,var(--border)); }
       .mem-card-face--front img { width:100%; height:100%; object-fit:cover; filter:blur(0); transition:filter .3s; }
-      .mem-card--open .mem-card-face--front img { animation:memPhotoIn .5s ease-out; }
-      @keyframes memBackIn { 0%{ filter:blur(6px); opacity:.3; } 100%{ filter:blur(0); opacity:1; } }
-      @keyframes memPhotoIn { 0%{ filter:blur(10px); opacity:.2; } 100%{ filter:blur(0); opacity:1; } }
+      .mem-card--open .mem-card-face--front img { animation:memPhotoIn 1.3s ease-out; }
+      @keyframes memBackIn { 0%{ filter:blur(16px); opacity:.25; } 45%{ filter:blur(9px); opacity:.7; } 100%{ filter:blur(0); opacity:1; } }
+      @keyframes memPhotoIn { 0%{ filter:blur(22px); opacity:.15; } 45%{ filter:blur(12px); opacity:.6; } 100%{ filter:blur(0); opacity:1; } }
       .mem-card--selected .mem-card-face--back { box-shadow:0 0 0 3px var(--copper,#a5603d) inset; }
       .mem-card--correct .mem-card-face--front { border-color:#3a9552; box-shadow:0 0 0 3px #3a9552; }
       .mem-card--wrong .mem-card-face--front { border-color:#c0392b; box-shadow:0 0 0 3px #c0392b; }
