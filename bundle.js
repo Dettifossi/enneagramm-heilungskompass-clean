@@ -43039,6 +43039,7 @@ const MEMORY_LEVEL_META = {
 };
 
 let _memoryState = null;
+let _memoryLastLevel = 1;
 const _memoryImgCache = {};
 
 function _memoryImgFor(route) {
@@ -43199,8 +43200,16 @@ async function _memoryNextRound() {
 
 window._memoryStart = function (level) {
   const lvl = MEMORY_LEVEL_META[level] ? level : 1;
+  _memoryLastLevel = lvl;
   _memoryState = { level: lvl, phase: "loading", round: 0, score: 0, cards: [], pairRoutes: new Set(), selected: [], revealed: [], resolution: null };
   _memoryNextRound();
+};
+
+window._memorySwitchLevel = function (level) {
+  const lvl = MEMORY_LEVEL_META[level] ? level : 1;
+  _memoryLastLevel = lvl;
+  _memoryState = null;
+  _memoryRerender();
 };
 
 window._memoryPick = function (idx) {
@@ -43282,7 +43291,7 @@ function _memoryLevelSwitcher(currentLevel) {
     const active = l === currentLevel;
     return active
       ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":l===2?"II":"III"}</span>`
-      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._memoryStart(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._memorySwitchLevel(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
   }).join("");
   return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
 }
@@ -43451,7 +43460,7 @@ function _enneagrammMemoryLevelPage(level) {
 }
 
 function enneagrammMemoryPage() {
-  const level = _memoryState ? _memoryState.level : 1;
+  const level = _memoryState ? _memoryState.level : _memoryLastLevel;
   return _enneagrammMemoryLevelPage(level);
 }
 
@@ -43495,6 +43504,7 @@ const FLASH_LEVEL_META = {
 };
 
 let _flashState = null;
+let _flashLastLevel = 1;
 
 function _flashBestKey(level) { return "kompass:flashBest:" + level; }
 function _flashSaveBest(level, score) {
@@ -43549,8 +43559,16 @@ async function _flashNextRound() {
 
 window._flashStart = function (level) {
   const lvl = FLASH_LEVEL_META[level] ? level : 1;
+  _flashLastLevel = lvl;
   _flashState = { level: lvl, phase: "loading", round: 0, score: 0, question: null, answered: false, selectedKey: null };
   _flashNextRound();
+};
+
+window._flashSwitchLevel = function (level) {
+  const lvl = FLASH_LEVEL_META[level] ? level : 1;
+  _flashLastLevel = lvl;
+  _flashState = null;
+  _flashRerender();
 };
 
 window._flashAnswer = function (key) {
@@ -43573,7 +43591,7 @@ function _flashLevelSwitcher(currentLevel) {
     const active = l === currentLevel;
     return active
       ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":l===2?"II":"III"}</span>`
-      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._flashStart(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._flashSwitchLevel(${l})">${l===1?"I":l===2?"II":"III"}</a>`;
   }).join("");
   return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
 }
@@ -43733,7 +43751,7 @@ function _flashGameOverScreen() {
 }
 
 function enneagrammFlashcardsPage() {
-  if (!_flashState) return _flashIntroScreen(1);
+  if (!_flashState) return _flashIntroScreen(_flashLastLevel);
   if (_flashState.phase === "loading") return _flashLoadingScreen();
   if (_flashState.phase === "gameOver") return _flashGameOverScreen();
   return _flashQuestionScreen();
