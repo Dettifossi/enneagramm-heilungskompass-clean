@@ -37272,10 +37272,10 @@ function skylarGreyPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Wolf Who Sent Herself Into the Wilderness</h2>
+        <h2 class="vb-section">1. The Wolf Who Chose the Wilderness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Wolf</strong> is the animal of Sexual Type 6 &ndash; an animal that does not manage its fear by retreating, but by facing the threat and growing from it. When Holly Brook Hafermann, still performing as "Holly Brook" in her teens, lost her first record deal &ndash; without management, without a lawyer, practically broke &ndash; she reached a point where she later said she might well have lost her mind, or even her life, had she stayed in Los Angeles. Her response was not therapy, not a break in familiar surroundings &ndash; but a cabin in the woods of Oregon, without heat, for a full year, chopping her own firewood and living off the land.</p>
-          <p class="vb-intro">Out of that woman who deliberately exposed herself to hardship to find out if she could withstand it came "Skylar Grey" &ndash; a new name for a new, tested version of herself. That is the wolf's nature exactly: not avoiding fear, but seeking it out, to prove one's own strength against it.</p>
+          <p class="vb-intro">Out of that woman who deliberately exposed herself to hardship to find out if she could withstand it came "Skylar Grey" &ndash; a stage name she has explained herself: "Grey" stands for the unknown in life, something most people fear, whereas she considers herself "the complete opposite" &ndash; a deliberate turning toward uncertainty rather than fear of it. That is the wolf's nature exactly: not avoiding fear, but seeking it out, to prove one's own strength against it.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>

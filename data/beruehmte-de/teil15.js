@@ -1710,10 +1710,10 @@ export function skylarGreyPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Wolf, der sich in die Wildnis schickte</h2>
+        <h2 class="vb-section">1. Der Wolf, der freiwillig in die Wildnis ging</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das seine Angst nicht durch Rückzug bewältigt, sondern indem es sich der Bedrohung stellt und daran wächst. Als Holly Brook Hafermann als Teenager unter dem Namen „Holly Brook" ihren ersten Plattenvertrag verlor, ohne Management, ohne Anwalt, praktisch mittellos, stand sie an einem Punkt, an dem sie später selbst sagte, sie hätte in Los Angeles vermutlich den Verstand oder gar ihr Leben verloren. Ihre Antwort darauf war keine Therapie, keine Auszeit im gewohnten Umfeld – sondern eine Blockhütte in den Wäldern Oregons, ohne Heizung, ein Jahr lang, Holz hackend und sich selbst versorgend.</p>
-          <p class="vb-intro">Aus dieser Frau, die sich freiwillig der Härte aussetzte, um herauszufinden, ob sie ihr gewachsen war, wurde „Skylar Grey" – ein neuer Name für eine neue, geprüfte Version ihrer selbst. Genau darin liegt die Wolfsnatur: nicht die Angst vermeiden, sondern sie aufsuchen, um an ihr die eigene Stärke zu beweisen.</p>
+          <p class="vb-intro">Aus dieser Frau, die sich freiwillig der Härte aussetzte, um herauszufinden, ob sie ihr gewachsen war, wurde „Skylar Grey" – ein Künstlername, den sie selbst erklärt hat: „Grey" (grau) stehe für das Unbekannte im Leben, vor dem die meisten Menschen Angst hätten, während sie selbst „das genaue Gegenteil" empfinde – eine bewusste Zuwendung zum Ungewissen statt Furcht davor. Genau darin liegt die Wolfsnatur: nicht die Angst vermeiden, sondern sie aufsuchen, um an ihr die eigene Stärke zu beweisen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
