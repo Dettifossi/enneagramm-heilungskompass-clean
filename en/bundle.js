@@ -88069,7 +88069,7 @@ function dieterZlofPortraitPage() {
         <h2 class="vb-section">2. The Social One with Nine-Wing: Correctness as a Cover, Grievance as the Engine</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Social One (SO1)</strong> projects their inner standards outward: they do not just want to act correctly themselves — they want the world to function according to their sense of right and wrong. In Zlof's case this showed up not as political activism, as with other SO1 cases, but as a very concrete, very personal ledger of justice: who owed him what, who had wronged him, where the balance between wealth and merit had come undone.</p>
-          <p class="vb-intro">The <strong>Nine-wing</strong> supplied the camouflage: not a loud moralist, but a calm, unremarkable tradesman going about his work. This very calm allowed him to stay undetected for decades — first as one suspect among many, then as a convicted man who, until the very end, never let slip a word that could have brought the facade down.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> supplied the camouflage: not a loud moralist, but a calm, unremarkable tradesman going about his work. This very calm carried him through the circumstantial trial and the imprisonment that followed, without ever letting slip a word that could have brought the facade down — first as a suspect, then as a convicted man who held to the same claim, unmoved, for over fifteen years.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Crime: Construction Rather Than Confrontation</h2>
