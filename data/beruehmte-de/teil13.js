@@ -1700,3 +1700,67 @@ export function seanPennPortraitPage() {
     </div>
   `);
 }
+
+export function carolinKebekusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-carolin-kebekus-portrait.jpg" alt="Carolin Kebekus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carolin Kebekus</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komikerin, Schauspielerin &amp; Fernsehmoderatorin, geb. 1980 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der die Bühne für viele baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich selbst baut, sondern Strukturen schafft, die einer ganzen Gemeinschaft zugutekommen. Carolin Kebekus, 1980 in Bergisch Gladbach geboren und in Köln aufgewachsen, begann als Praktikantin bei „Freitag Nacht News" und wurde über eigene Bühnenprogramme wie „PussyTerror" und „AlphaPussy" sowie als festes Mitglied der „heute-show" zu einer der bekanntesten Stimmen der deutschen Comedy-Szene.</p>
+          <p class="vb-intro">Mit der „Carolin Kebekus Show" in der ARD erreichte sie 2021, was zuvor selbst Anke Engelke nur Spott einbrachte: als Frau dauerhaft eine eigene Late-Night-Show zu moderieren. Sie baute damit nicht nur ihre eigene Karriere, sondern eine Bühne, auf der seither andere Comedians – vor allem Frauen – sichtbarer wurden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Leichtigkeit als Zugang zu schwerer Kost</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> sucht nach Naranjo Erfüllung durch den Beitrag zu einer größeren Gemeinschaft – bei Kebekus zeigt sich das in der Wahl ihrer Themen: Feminismus, Sexismus, Rechtspopulismus und die AfD gehören zu ihren bevorzugten Sujets, obwohl sie selbst betont, es gehe ihr nicht darum, „möglichst provokative Dinge anzusprechen", sondern „komplizierte Sachverhalte einfach zu machen und runterzubrechen". Genau das ist die SO7-Gabe: schwere gesellschaftliche Themen so aufzubereiten, dass sie ein breites Publikum überhaupt erreichen.</p>
+          <p class="vb-intro">2019 wurde ihr Engagement mit dem Juliane-Bartel-Preis für Geschlechtergerechtigkeit gewürdigt, 2017 vertrat sie Bündnis 90/Die Grünen in der Bundesversammlung – eine Verbindung von Unterhaltung und politischem Engagement, die typisch ist für die soziale Sieben: Sie dient nicht abseits der Bühne, sondern nutzt genau die Reichweite, die ihr die Bühne verschafft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit im lauten Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verleiht der sozialen Sieben eine zusätzliche Ernsthaftigkeit und ein Bedürfnis nach klarer Haltung, gerade dort, wo andere Comedians sich lieber unangreifbar halten. Kebekus positioniert sich in gesellschaftlich umstrittenen Fragen wiederholt eindeutig, statt alle Seiten gleichermaßen zu bedienen – eine Konsequenz, die über reines Unterhaltungsbedürfnis hinausgeht und eher der Sechser-Loyalität zu einer als richtig erkannten Sache entspricht.</p>
+          <p class="vb-intro">Auch ihr jahrelanger, verlässlicher Verbleib in etablierten Formaten – von der „heute-show" bis zur eigenen ARD-Show – zeigt diese Sechser-Komponente: Kontinuität und ein festes institutionelles Zuhause statt eines ständigen Wechsels der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Fäkalhumor zur gesellschaftlichen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kebekus' eigene künstlerische Entwicklung – vom expliziten, teils derben Frühwerk hin zu pointiert politischer Comedy – liest sich wie ein klassisches SO7-Muster: nie an einem Punkt stehen bleiben, das eigene Werk immer wieder erweitern, ohne dabei den ursprünglichen Kern (Provokation, Direktheit, körperlicher Humor) ganz aufzugeben. 2023 startete sie gemeinsam mit ihrem Bruder David die Geschwister-Show „Wir gegen die!" auf ProSieben – wieder ein neues Format, wieder eine neue Bühne, kaum war die vorherige etabliert.</p>
+          <p class="vb-intro">Dass sie dabei als „erfolgreichste Komikerin Deutschlands" gilt, ist für die soziale Sieben kein Selbstzweck, sondern Beleg dafür, dass der eigene Beitrag tatsächlich bei der Gemeinschaft ankommt, der er gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich bei Kebekus darin, dass sie Comedy konsequent in den Dienst gesellschaftlicher Sichtbarkeit stellt – für Frauen auf der Bühne, für feministische Anliegen, für eine klare Haltung gegen Rechtspopulismus, ohne dabei den Humor zu verlieren, der ihr Publikum überhaupt erst erreicht.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt in der Gefahr, sich durch zu viele parallele Projekte zu verzetteln oder die eigene Botschaft hinter der Unterhaltung zu verlieren. Der Sechserflügel wirkt hier als Korrektiv: Er verhindert, dass die politische Substanz zugunsten reiner Provokation verwässert wird, und hält die klare inhaltliche Linie aufrecht, für die Kebekus mittlerweile ebenso bekannt ist wie für ihre Pointen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Bühne, die größer wurde als die eigene Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carolin Kebekus hat aus einem Praktikum bei einer Comedy-Show eine der einflussreichsten Plattformen der deutschen Unterhaltungslandschaft gemacht – und dabei nie aufgehört, neue Formate zu bauen, statt sich auf einem erreichten Erfolg auszuruhen. Der Biber mit Sechserflügel baut nicht nur für sich selbst: Er baut eine Bühne, auf der andere nach ihm leichter Platz finden.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+          {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6) – ebenfalls Comedy mit gesellschaftlicher Haltung"},
+          {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

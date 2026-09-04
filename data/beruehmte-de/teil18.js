@@ -1680,6 +1680,7 @@ export function aliWongPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-dietland-mueller-schwarze", label:"Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
+        {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6) – ebenfalls Comedy mit gesellschaftlicher Haltung"},
       ])}
     </div>
   `);

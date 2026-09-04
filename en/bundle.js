@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=91";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=92";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1937,6 +1937,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Alexander Bommes – Social Type 7",
     teaser:"SO7w6 · b. 1976 in Kiel. German TV host, ARD Sportschau, Gefragt – Gejagt. Former top-league handball player, switched to journalism after his first state law exam. Versatility on stable, familiar ground. Animal correspondence: Beaver.",
     land:"Germany", tags:["Medien","Sport"], gender:"m"},
+{ route:"beruehmte-carolin-kebekus", name:"Carolin Kebekus", added:"2026-09-04", subtyp:"SO7w6",
+    heading:"Carolin Kebekus – Social Type 7",
+    teaser:"SO7w6 · born 1980. Comedian, actress, TV host. First woman with a lasting own late-night show on German television, feminism and social critique wrapped in humor.",
+    land:"Germany", tags:["Comedy","Medien"], gender:"f"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -40129,6 +40133,70 @@ function douglasSmithPortraitPage() {
   `);
 }
 
+function carolinKebekusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-carolin-kebekus-portrait.jpg" alt="Carolin Kebekus – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carolin Kebekus</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, actress &amp; TV host, born 1980 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Built a Stage for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of Social Type 7 &ndash; an animal that does not build for itself alone, but creates structures that benefit an entire community. Carolin Kebekus, born in 1980 in Bergisch Gladbach and raised in Cologne, started as an intern on "Freitag Nacht News" and became one of the best-known voices in German comedy through her own stage shows like "PussyTerror" and "AlphaPussy," as well as a fixture on the satirical news show "heute-show."</p>
+          <p class="vb-intro">With "Die Carolin Kebekus Show" on ARD, she achieved in 2021 what once earned even Anke Engelke only mockery: hosting her own long-running late-night show as a woman. In doing so, she built not just her own career, but a stage on which other comedians &ndash; women in particular &ndash; have become more visible ever since.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Lightness as a Way Into Heavy Topics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the <strong>Social Seven (SO7)</strong> as finding fulfillment through contributing to a larger community &ndash; in Kebekus this shows in her choice of subject matter: feminism, sexism, right-wing populism, and the AfD are among her preferred topics, though she herself emphasizes that her goal isn't "to bring up the most provocative things possible," but "to take complicated issues and break them down simply." That is exactly the SO7 gift: preparing heavy societal topics in a way that lets a broad audience actually engage with them.</p>
+          <p class="vb-intro">In 2019 her activism was recognized with the Juliane Bartel Prize for gender equity; in 2017 she represented the Green Party (Bündnis 90/Die Grünen) in Germany's Federal Convention &ndash; a fusion of entertainment and political engagement typical of the social Seven: she doesn't serve away from the stage, but uses exactly the reach the stage gives her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: Steadiness Behind the Loud Act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven an additional seriousness and a need for a clear stance, precisely where other comedians prefer to stay unassailable. Kebekus repeatedly takes an unambiguous position on socially contested questions instead of playing to all sides equally &ndash; a consistency that goes beyond a mere entertainment drive and fits more the Six's loyalty to a cause recognized as right.</p>
+          <p class="vb-intro">Her years-long, reliable presence in established formats &ndash; from "heute-show" to her own ARD show &ndash; also shows this Six component: continuity and a fixed institutional home rather than constant stage-hopping.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Crude Humor to a Social Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kebekus's own artistic development &ndash; from explicit, sometimes crude early work toward pointedly political comedy &ndash; reads like a classic SO7 pattern: never staying still, continually expanding her body of work without fully abandoning its original core (provocation, directness, physical humor). In 2023 she launched the sibling show "Wir gegen die!" on ProSieben together with her brother David &ndash; another new format, another new stage, barely had the previous one been established.</p>
+          <p class="vb-intro">Being widely regarded as "Germany's most successful female comedian" is, for the social Seven, not an end in itself, but proof that her contribution actually reaches the community it was meant for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in Kebekus in that she consistently puts comedy in the service of social visibility &ndash; for women on stage, for feminist causes, for a clear stance against right-wing populism &ndash; without losing the humor that lets her reach an audience in the first place.</p>
+          <p class="vb-intro">The shadow of the Seven lies in the risk of scattering across too many parallel projects, or losing the message behind the entertainment. The Six-wing acts here as a corrective: it prevents the political substance from being diluted into mere provocation and upholds the clear underlying line that Kebekus has by now become as known for as for her punchlines.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Stage That Grew Bigger Than Her Own Career</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carolin Kebekus turned an internship at a comedy show into one of the most influential platforms in German entertainment &ndash; and never stopped building new formats instead of resting on an achieved success. The beaver with the Six-wing doesn't just build for itself: it builds a stage on which others find it easier to find their place afterward.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+          {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6) – also comedy with social conscience"},
+          {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function aliWongPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -40190,6 +40258,7 @@ function aliWongPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-dietland-mueller-schwarze", label:"Portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
+        {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also comedy with social conscience"},
       ])}
     </div>
   `);
@@ -40635,6 +40704,7 @@ function alexanderBommesPortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},
       ])}
     </div>
   `);
@@ -52900,7 +52970,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -52915,7 +52985,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction; Carolin Kebekus, who kept building new formats – from an internship at a comedy show through her own stage shows, the 'heute-show,' and the first lasting late-night show hosted by a woman on German television, to the sibling show she now co-hosts with her brother David – barely had one been established before the next began."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -113034,6 +113104,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-frank-rosell": frankRosellPortraitPage,
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-alexander-bommes": alexanderBommesPortraitPage,
+      "beruehmte-carolin-kebekus": carolinKebekusPortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,
