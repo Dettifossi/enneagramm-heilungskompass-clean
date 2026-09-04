@@ -1674,3 +1674,68 @@ export function suzanLoriParksPortraitPage() {
     </div>
   `);
 }
+
+export function miraMuratiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/mira-murati-portrait.jpg" alt="Mira Murati – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mira Murati</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Albanisch-amerikanische Technologiemanagerin, geb. 1988 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der zum unverzichtbaren Kopf wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – loyal, kompetent, jederzeit bereit, sich in den Dienst einer wichtigen Sache zu stellen, und dabei ohne lautes Auftreten genau dort unverzichtbar zu werden, wo es z\xe4hlt. Mira Murati, 1988 in Vlor\xeb (Albanien) geboren, kam \xfcber Stipendien nach Kanada und in die USA – Pearson College UWC, Colby College, Dartmouth. Von dort f\xfchrte ihr Weg \xfcber Goldman Sachs, Zodiac Aerospace und Tesla (als Senior Product Managerin f\xfcr das Model X) zu Leap Motion und schlie\xdflich 2018 zu OpenAI.</p>
+          <p class="vb-intro">Bei OpenAI stieg sie in wenigen Jahren vom „VP of Applied AI" \xfcber „SVP of Research, Product and Partnerships" bis zur Chief Technology Officer (2022) auf – eine Karriere, die nicht durch \xf6ffentliche Selbstinszenierung, sondern durch stetig wachsende Unentbehrlichkeit f\xfcr immer bedeutendere Institutionen gepr\xe4gt war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Einfluss durch Unentbehrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht nicht die Zuneigung Einzelner, sondern Einfluss und Bedeutung innerhalb einer gr\xf6\xdferen Sache – Naranjo nannte diesen Subtyp den der „Ambition": Macht wird nicht offen beansprucht, sondern durch stetig wachsende Unentbehrlichkeit f\xfcr eine wichtige Institution erworben. Murati verk\xf6rpert dieses Muster fast lehrbuchhaft: Sie wurde nie durch spektakul\xe4re \xf6ffentliche Auftritte bekannt, sondern dadurch, dass sie an jeder Station ihrer Karriere zur Person wurde, ohne die die jeweilige Organisation nicht mehr auskam.</p>
+          <p class="vb-intro">Der H\xf6hepunkt dieses Musters: Im November 2023, als der OpenAI-Vorstand \xfcberraschend CEO Sam Altman entlie\xdf, wurde ausgerechnet Murati f\xfcr drei Tage zur Interimschefin ernannt – nicht weil sie danach gestrebt hatte, sondern weil die Organisation in der Krise genau auf sie als tragende S\xe4ule zur\xfcckgriff. Bezeichnend f\xfcr die soziale Zwei: Ihre erste Amtshandlung als Interims-CEO war nicht, die eigene Macht zu festigen, sondern sich f\xfcr Altmans R\xfcckkehr einzusetzen – sie mobilisierte Mitarbeitende und Investoren mit dem Argument, seine R\xfcckkehr sei f\xfcr das \xdcberleben des Unternehmens unerl\xe4sslich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\xfcgel: Kompetenz als W\xe4hrung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\xfcgel (w3)</strong> verleiht der Zwei einen ausgepr\xe4gten Fokus auf sichtbare Leistung und Effizienz – Beziehungen werden nicht nur gepflegt, sondern \xfcber nachweisbare Kompetenz und Ergebnisse gefestigt. Muratis Aufstieg durch mehrere Spitzenunternehmen in wenigen Jahren, immer mit gr\xf6\xdferer Verantwortung, zeigt genau diese Verbindung: Zugeh\xf6rigkeit wird durch Leistung erarbeitet, nicht durch reine pers\xf6nliche N\xe4he.</p>
+          <p class="vb-intro">Nach ihrem Weggang von OpenAI im September 2024 gr\xfcndete sie bereits f\xfcnf Monate sp\xe4ter, im Februar 2025, ihr eigenes Unternehmen: Thinking Machines Lab. Diese schnelle, zielgerichtete Übersetzung der eigenen Kompetenz in eine neue F\xfchrungsrolle – statt einer Verschnaufpause nach einer intensiven Karrierephase – ist eine typische Dreierfl\xfcgel-Signatur: Der Wert der eigenen Person bemisst sich an dem, was als N\xe4chstes geschaffen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Sichtbar unsichtbar: Einfluss ohne Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Trotz ihrer zentralen Rolle bei der Entwicklung von ChatGPT und DALL-E blieb Murati auff\xe4llig zur\xfcckhaltend, was ihr Privatleben angeht, und war als CTO selten das \xf6ffentliche Gesicht von OpenAI – diese Rolle \xfcbernahm meist Sam Altman. Als CEO ihres eigenen Unternehmens blieb sie noch schwerer greifbar. Das ist kein Widerspruch zur sozialen Zwei, sondern deren Kern: Bedeutung entsteht nicht durch Sichtbarkeit an sich, sondern durch die Position im Zentrum einer wichtigen Sache – ob man dabei selbst im Rampenlicht steht, ist zweitrangig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 ist die F\xe4higkeit, <strong>durch konsequent aufgebaute Kompetenz zur tragenden S\xe4ule einer bedeutenden Sache zu werden</strong>, ohne dabei auf Selbstinszenierung angewiesen zu sein – Muratis Rolle bei der Gestaltung einer der einflussreichsten Technologien der Gegenwart beruht auf genau dieser stillen Unentbehrlichkeit.</p>
+          <p class="vb-intro">Der Schatten der SO2 zeigt sich dort, wo Zugeh\xf6rigkeit und Einfluss so eng an eine Institution gekn\xfcpft sind, dass die eigene Identit\xe4t kaum mehr losgel\xf6st von ihr erkennbar wird – ihre au\xdfergew\xf6hnliche Zur\xfcckhaltung im Privaten l\xe4sst offen, wie viel von der Person Mira Murati au\xdferhalb ihrer beruflichen Rollen sichtbar wird, und wie viel bewusst hinter der Sache zur\xfcckgehalten wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Golden Retriever, der zur tragenden S\xe4ule wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von einem Stipendium aus Albanien \xfcber Goldman Sachs, Tesla und OpenAI bis zur eigenen KI-Firma: Mira Muratis Karriere ist eine fortlaufende Kette von Momenten, in denen sie sich f\xfcr immer bedeutendere Institutionen unverzichtbar machte – bis zum H\xf6hepunkt, als ihr in einer akuten F\xfchrungskrise buchst\xe4blich die Zukunft eines der einflussreichsten Technologieunternehmen der Welt anvertraut wurde.</p>
+          <p class="vb-intro">Der Golden Retriever, der nicht nach dem Rampenlicht griff, sondern zur unverzichtbaren S\xe4ule wurde, auf die sich eine ganze Organisation im Ernstfall verlassen konnte – das ist das bleibende Bild dieser sozialen Zwei mit Dreierfl\xfcgel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-kamala-harris", label:"Portr\xe4t: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-benjamin-disraeli", label:"Portr\xe4t: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-eva-peron", label:"Portr\xe4t: Eva Per\xf3n (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

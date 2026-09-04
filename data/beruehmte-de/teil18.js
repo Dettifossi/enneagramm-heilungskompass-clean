@@ -1610,6 +1610,7 @@ export function benjaminDisraeliPortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Porträt: Mira Murati (SO2w3)"},
       ])}
     </div>
   `);

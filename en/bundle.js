@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=81";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=82";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -864,6 +864,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kamala Harris – Social Type 2",
     teaser:"SO2w3 · born 1964. Politician, former US Vice President. Prosecutor, Senator, Vice President – service as political calling, several historic firsts. Animal correspondence: Golden Retriever.",
     land:"USA", tags:["Politik"] , gender:"f"},
+{ route:"beruehmte-mira-murati", name:"Mira Murati", added:"2026-09-04", subtyp:"SO2w3",
+    heading:"Mira Murati – Social Type 2",
+    teaser:"SO2w3 · born 1988. Albanian-American technology executive, former CTO of OpenAI, founder of Thinking Machines Lab. Three days as interim CEO during the 2023 Altman crisis – indispensability without the spotlight. Animal correspondence: Golden Retriever.",
+    land:"Albania/USA", tags:["Business","Wissenschaft"], gender:"f"},
 { route:"beruehmte-indila", name:"Indila", added:"2026-08-29", subtyp:"SO2w3",
     heading:"Indila – Social Type 2",
     teaser:"SO2w3 · b. 1984. French singer, \"Dernière Danse\" – the first French-language song to surpass one billion YouTube views. Sang for other artists for years before her own breakthrough, then deliberately withdrew from public life after global success. Animal correspondence: Golden Retriever.",
@@ -33368,6 +33372,7 @@ function evaPeronPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Portrait: Mata Hari (SX2w3)"},
       ])}
     </div>
@@ -33436,6 +33441,7 @@ function benjaminDisraeliPortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
       ])}
     </div>
   `);
@@ -47802,6 +47808,72 @@ function zoeSaldanaPortraitPage() {
   `);
 }
 
+function miraMuratiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/mira-murati-portrait.jpg" alt="Mira Murati – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mira Murati</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Albanian-American technology executive, born 1988 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Became the Indispensable Mind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two — loyal, competent, always ready to place itself in service of an important cause, and, without loud posturing, becoming indispensable exactly where it matters. Mira Murati, born in 1988 in Vlorë, Albania, reached Canada and the US via scholarships — Pearson College UWC, Colby College, Dartmouth's Thayer School of Engineering. From there her path led through Goldman Sachs, Zodiac Aerospace, and Tesla (as senior product manager for the Model X program) to Leap Motion and finally, in 2018, to OpenAI.</p>
+          <p class="vb-intro">At OpenAI she rose within a few years from VP of Applied AI through SVP of Research, Product and Partnerships to Chief Technology Officer (2022) — a career marked not by public self-promotion, but by steadily growing indispensability to ever more significant institutions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Influence Through Indispensability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks not the affection of individuals, but influence and significance within a larger cause — Naranjo called this subtype "Ambition": power is not claimed openly, but earned through steadily growing indispensability to an important institution. Murati embodies this pattern almost textbook-perfectly: she never became known through spectacular public appearances, but through becoming, at every stage of her career, the person the organization could no longer do without.</p>
+          <p class="vb-intro">The high point of this pattern: in November 2023, when OpenAI's board unexpectedly fired CEO Sam Altman, it was Murati who was named interim CEO for three days — not because she had sought it, but because the organization, in crisis, turned to her as its load-bearing pillar. Telling for the social Two: her first act as interim CEO was not to consolidate her own power, but to advocate for Altman's return — she mobilized employees and investors around the argument that his return was essential for the company's survival.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Competence as Currency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Two a pronounced focus on visible achievement and efficiency — relationships are not only nurtured, but cemented through demonstrable competence and results. Murati's rise through several top-tier companies within a few years, always with growing responsibility, shows exactly this combination: belonging is earned through performance, not through personal closeness alone.</p>
+          <p class="vb-intro">After leaving OpenAI in September 2024, she founded her own company just five months later, in February 2025: Thinking Machines Lab. This rapid, purposeful translation of her own competence into a new leadership role — rather than a pause after an intense career phase — is a typical Three-wing signature: the value of the self is measured by what gets built next.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Visibly Invisible: Influence Without the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Despite her central role in developing ChatGPT and DALL-E, Murati remained notably private about her personal life and was rarely the public face of OpenAI as CTO — that role usually fell to Sam Altman. As CEO of her own company, she has been even harder to find. This is no contradiction of the social Two, but its core: significance does not arise from visibility itself, but from a position at the center of an important cause — whether one stands in the spotlight while doing so is secondary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 is the ability to <strong>become the load-bearing pillar of a significant cause through consistently built competence</strong>, without needing to rely on self-promotion — Murati's role in shaping one of the most influential technologies of our time rests on exactly this quiet indispensability.</p>
+          <p class="vb-intro">The shadow of the SO2 shows itself where belonging and influence become so tightly bound to an institution that the self becomes hard to recognize apart from it — her extraordinary private reticence leaves open how much of Mira Murati is visible outside her professional roles, and how much is deliberately held back behind the cause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Golden Retriever Who Became the Load-Bearing Pillar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From a scholarship out of Albania through Goldman Sachs, Tesla, and OpenAI to her own AI company: Mira Murati's career is an ongoing chain of moments in which she made herself indispensable to ever more significant institutions — culminating in the moment an acute leadership crisis literally placed the future of one of the world's most influential technology companies in her hands.</p>
+          <p class="vb-intro">The golden retriever who did not reach for the spotlight, but became the indispensable pillar an entire organization could rely on in an emergency — that is the lasting image of this particular social Two with a Three-wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function kamalaHarrisPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47866,6 +47938,7 @@ function kamalaHarrisPortraitPage() {
         {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
       ])}
     </div>
@@ -52610,7 +52683,7 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Benjamin Disraeli", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Benjamin Disraeli", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden", "Mira Murati"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
@@ -52620,7 +52693,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
         beschreibung: "Leadership arises not through intimidation or distance, but through deliberately investing in countless individual relationships that, in the end, add up to enormous collective loyalty.",
-        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty' – and whose recurring seizures, attested by ancient sources, he concealed his entire life so as not to endanger his own image of invulnerability; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture; Benjamin Disraeli, who addressed Queen Victoria not in the stiff tone his rival Gladstone used, as if she were a public committee, but courted her with personal, warm-hearted letters and had her proclaimed Empress of India – affection as political capital that secured him more influence over decades than any formal position of power."
+        beleg: "Julius Caesar: 'Where a thrifty strategist would have built reserves, the social Two invested in relationship. The capital he built up wasn't money – it was affection, loyalty' – and whose recurring seizures, attested by ancient sources, he concealed his entire life so as not to endanger his own image of invulnerability; Napoleon, who 'knew his soldiers' names, addressed them directly'; Alexander the Great, who 'personally visited the wounded' – 'connection beats force'; Barack Obama: 'He walks into a room and makes it bigger.'; Abd al-Fattah as-Sisi, who staged his takeover of power not as coercion but as a shared national effort – from personally attending a Coptic Christmas Eve service to co-financing the new capital through government bonds sold to his own population: 'I am not building the country alone – we are all building it together, under my leadership.'; Bob Marley, who in 1978 at the One Love Peace Concert called two bitter political rivals onto the stage mid-song and held their hands together above his head – not a display of power, but an attempt to unite a torn country through a single shared gesture; Benjamin Disraeli, who addressed Queen Victoria not in the stiff tone his rival Gladstone used, as if she were a public committee, but courted her with personal, warm-hearted letters and had her proclaimed Empress of India – affection as political capital that secured him more influence over decades than any formal position of power; Mira Murati, whose first act as OpenAI's interim CEO in 2023 was not to consolidate her own power but to mobilize employees and investors for the return of the ousted Sam Altman – years of built-up relational capital, deployed in the crisis for the institution rather than for herself."
       },
       {
         titel: "Behind the warmth lies considerable inner strength that shows when it counts",
@@ -112325,6 +112398,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-nina-chuba": ninaChubaPortraitPage,
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
+      "beruehmte-mira-murati": miraMuratiPortraitPage,
       "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
       "beruehmte-indila": indilaPortraitPage,

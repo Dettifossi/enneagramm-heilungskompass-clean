@@ -433,6 +433,7 @@ export function evaPeronPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Porträt: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Porträt: Mira Murati (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
       ])}
     </div>
@@ -836,6 +837,7 @@ export function kamalaHarrisPortraitPage() {
         {route:"beruehmte-barack-obama", label:"Portr\u00e4t: Barack Obama (SO2w1)"},
         {route:"beruehmte-eva-peron", label:"Portr\u00e4t: Eva Per\u00f3n (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portr\u00e4t: Truman Capote (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Portr\u00e4t: Mira Murati (SO2w3)"},
       ])}
     </div>
   `);
