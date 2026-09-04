@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=85";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=86";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -548,6 +548,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Emmanuel Macron – Social Type 1",
     teaser:"SO1w9 · born 1977. French President since 2017, youngest president of the Fifth Republic. A patient listener in person, a 'Jupiterian' who governs through under political pressure. Animal correspondence: Goose.",
     land:"France", tags:["Politics"], gender:"m"},
+{ route:"beruehmte-brigitte-macron", name:"Brigitte Macron", added:"2026-09-04", subtyp:"SX3w2",
+    heading:"Brigitte Macron – Sexual Type 3",
+    teaser:"SX3w2 · born 1953. First Lady of France, former literature teacher. Met her future husband in 1992 as his theater teacher, held to this one bond for decades. Animal correspondence: Peacock.",
+    land:"France", tags:["Politics"], gender:"f"},
 { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -27622,6 +27626,72 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+function brigitteMacronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/brigitte-macron-portrait.jpg" alt="Brigitte Macron – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Macron</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">First Lady of France, born 1953 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock Who Ran the Theater Workshop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three — radiance that serves not a broad audience, but the intensification of a single, significant bond. Brigitte Trogneux, born in 1953 in Amiens, the youngest of six children in a wealthy family that ran a well-known chocolate business, became a teacher of literature and Latin. In the 1990s she ran a theater workshop at the Lycée la Providence in Amiens — and there, in 1992, met fifteen-year-old Emmanuel Macron (SO1w9), a student in her own daughter's class.</p>
+          <p class="vb-intro">They worked together on a school play — a collaboration out of which, despite the considerable age gap of nearly 25 years and Macron's status as a minor, a deep bond developed that was publicly and heatedly debated then and continues to be so today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: One Single, All-Eclipsing Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> seeks affirmation not through a wide audience, but through the intensity of a single, significant relationship — attraction as personal, not public, capital. Brigitte held to this one bond against social convention, against considerable public criticism, and despite the necessity of dissolving her first marriage to banker André-Louis Auzière, with whom she had three children.</p>
+          <p class="vb-intro">After marrying Macron in 2007, she stood noticeably present at his side during his 2017 campaign, organizing networking meetings and dinners to advance his political career — the relationship itself became the political and personal center of her public life, rather than a general public career pursued for its own sake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: The Teacher Who Cared for Individuals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the Three a caring, attentive quality — attraction and affirmation arise not only from success or presentation, but from genuine personal interest in the other person. Her entire professional life before politics was that of a dedicated educator: teaching literature in Strasbourg in the 1980s, French and Latin at Lycée la Providence, from 2007 at the prestigious Lycée Saint-Louis de Gonzague in Paris — until she gave up teaching in 2015 to support Macron's political career.</p>
+          <p class="vb-intro">As First Lady, she made fighting bullying in schools and online her personal cause — a direct continuation of her pedagogical care, transferred into a public role, but still oriented toward concrete individuals affected, rather than abstract political programs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Public Image, a Reserved Presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brigitte Macron graced nearly a dozen magazine covers and stood visibly at Macron's side at packed campaign rallies while public fascination with their unusual romance persisted. Since taking office as First Lady in 2017, however, she has kept a noticeably low profile — a contrast typical of the SX3w2: intensity belongs to the one central relationship and the concrete causes that move her personally, not to the pursuit of the widest possible public presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 is the ability to <strong>combine deep personal attachment with genuine care for individuals</strong> — Brigitte Macron's decades-long commitment as a teacher and her later advocacy against bullying show a consistency that goes beyond mere public image.</p>
+          <p class="vb-intro">The shadow shows itself in the persistent public controversy surrounding the early years of the relationship — a teacher-student bond with a considerable age gap and a minor involved, still debated controversially today, and a sign of how the SX3's typical willingness to set aside social convention for a bond felt to be significant can also raise substantial ethical questions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A Bond That Became a Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From theater teacher in provincial northern France to First Lady of one of Europe's most significant nations: Brigitte Macron's public life is inseparably woven into the one relationship that reshaped the whole of her subsequent life.</p>
+          <p class="vb-intro">The peacock who never dedicated its radiance to a broad audience, but to a single bond carried across decades, and who translated its pedagogical care beyond the classroom wall into a public role — that is the story of this sexual Three with a Two-wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9) – her husband"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function brigitteBardotPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -27685,6 +27755,7 @@ function brigitteBardotPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
+        {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Illness Portrait: Brigitte Bardot (SX3w2)"},
       ])}
     </div>
@@ -44837,6 +44908,7 @@ function bradPittPortraitPage() {
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7) – former wife"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2) – longtime partner, six children together"},
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
       ])}
     </div>
   `);
@@ -45175,7 +45247,7 @@ function emmanuelMacronPortraitPage() {
 
         <h2 class="vb-section">1. The Goose Who Courted Patiently for Years</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an early, firmly rooted sense of how things ought to be, and ready to pursue that conviction with sustained consistency. Emmanuel Macron, born in 1977 in Amiens, the eldest of three children of a physician couple, showed this consistency as early as fifteen: he fell in love with his then-39-year-old teacher, Brigitte Trogneux, and at seventeen told her, calmly and immovably: "Whatever you do, I will marry you."</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an early, firmly rooted sense of how things ought to be, and ready to pursue that conviction with sustained consistency. Emmanuel Macron, born in 1977 in Amiens, the eldest of three children of a physician couple, showed this consistency as early as fifteen: he fell in love with his then-39-year-old teacher, Brigitte Trogneux (SX3w2), and at seventeen told her, calmly and immovably: "Whatever you do, I will marry you."</p>
           <p class="vb-intro">When his parents sent him to a different school in Paris to end the connection, the two kept in touch by letter for years — no dramatic conquest, but patient, unruffled persistence, until Trogneux eventually divorced and moved to Paris to be with him. They married in 2007.</p>
         </blockquote>
 
@@ -45218,6 +45290,7 @@ function emmanuelMacronPortraitPage() {
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2) – his wife"},
       ])}
     </div>
   `);
@@ -52818,12 +52891,12 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
         beschreibung: "The effect arises not through planned strategy, but through a presence that escapes analysis – one can hardly resist it without being able to say exactly how it comes about.",
-        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'; Judas Iscariot, who 'had stood out early – not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear.'"
+        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'; Judas Iscariot, who 'had stood out early – not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear.'; Brigitte Macron, whose attraction was never dedicated to a broad audience, but from the very beginning to a single bond that carried across decades – no calculated staging, but an intensity that sustained exactly one relationship, against considerable social convention."
       },
       {
         titel: "Radiates without deliberately deploying it",
@@ -53000,7 +53073,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
         beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
-        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation; Giorgia Meloni, who transformed from 'populist outsider' into a recognized European negotiating partner by proceeding noticeably cautiously on major, uncomfortable structural reforms for the sake of coalition peace – stability through willingness to compromise rather than open confrontation with her own partners; Emmanuel Macron, who walks the entire length of the presidential plane at every takeoff to speak with every single member of the delegation – including the service staff – and who courted his future wife Brigitte Trogneux patiently and unwaveringly for years starting at age seventeen, rather than forcing the connection."
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation; Giorgia Meloni, who transformed from 'populist outsider' into a recognized European negotiating partner by proceeding noticeably cautiously on major, uncomfortable structural reforms for the sake of coalition peace – stability through willingness to compromise rather than open confrontation with her own partners; Emmanuel Macron, who walks the entire length of the presidential plane at every takeoff to speak with every single member of the delegation – including the service staff – and who courted his future wife Brigitte Trogneux (SX3w2) patiently and unwaveringly for years starting at age seventeen, rather than forcing the connection."
       },
       {
         titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
@@ -112602,6 +112675,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kurt-georg-kiesinger": kurtGeorgKiesingerPortraitPage,
       "beruehmte-giorgia-meloni": giorgiaMeloniPortraitPage,
       "beruehmte-emmanuel-macron": emmanuelMacronPortraitPage,
+      "beruehmte-brigitte-macron": brigitteMacronPortraitPage,
       "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,

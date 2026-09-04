@@ -1688,3 +1688,68 @@ export function alanTuringPortraitPage() {
     </div>
   `);
 }
+
+export function brigitteMacronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/brigitte-macron-portrait.jpg" alt="Brigitte Macron – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Macron</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">First Lady von Frankreich, geb. 1953 – Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der die Theaterb\xfchne leitete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – Ausstrahlung, die nicht einem breiten Publikum, sondern der Intensivierung einer einzigen, bedeutsamen Verbindung dient. Brigitte Trogneux, 1953 in Amiens als j\xfcngstes von sechs Kindern einer wohlhabenden Familie geboren, die eine bekannte Chocolaterie betrieb, wurde Lehrerin f\xfcr Literatur und Latein. In den 1990er Jahren leitete sie am Lyc\xe9e la Providence in Amiens einen Theaterworkshop – und traf dort 1992 den f\xfcnfzehnj\xe4hrigen Emmanuel Macron (SO1w9), einen Sch\xfcler in der Klasse ihrer eigenen Tochter.</p>
+          <p class="vb-intro">Gemeinsam arbeiteten sie an einem Theaterst\xfcck – eine Zusammenarbeit, aus der sich, trotz des erheblichen Altersunterschieds von fast 25 Jahren und Macrons Minderj\xe4hrigkeit, eine tiefe Verbindung entwickelte, die \xf6ffentlich hitzig diskutiert wurde und bis heute wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Eine einzige, alles \xfcberstrahlende Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht Best\xe4tigung nicht \xfcber ein breites Publikum, sondern \xfcber die Intensit\xe4t einer einzigen, bedeutsamen Beziehung – Anziehungskraft als pers\xf6nliches, nicht als \xf6ffentliches Kapital. Brigitte hielt an dieser einen Verbindung fest, gegen gesellschaftliche Konvention, gegen erhebliche \xf6ffentliche Kritik und trotz der Notwendigkeit, ihre erste Ehe mit dem Bankier Andr\xe9-Louis Auzi\xe8re aufzul\xf6sen, mit dem sie drei Kinder hatte.</p>
+          <p class="vb-intro">Nach der Heirat mit Macron 2007 stand sie bei dessen Wahlkampf 2017 auffallend pr\xe4sent an seiner Seite, organisierte Vernetzungstreffen und Abendessen, um seine politische Karriere zu f\xf6rdern – die Beziehung selbst wurde zum politischen und pers\xf6nlichen Zentrum ihres \xf6ffentlichen Lebens, nicht eine allgemeine \xf6ffentliche Karriere um ihrer selbst willen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierfl\xfcgel: Die Lehrerin, die sich um Einzelne k\xfcmmerte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierfl\xfcgel (w2)</strong> verleiht der Drei eine f\xfcrsorgliche, aufmerksame Qualit\xe4t – Anziehungskraft und Best\xe4tigung entstehen nicht nur durch Erfolg oder Auftreten, sondern durch echtes pers\xf6nliches Interesse am Gegen\xfcber. Ihr gesamtes Berufsleben vor der Politik war das einer engagierten P\xe4dagogin: Literaturunterricht in Stra\xdfburg in den 1980er Jahren, Franz\xf6sisch und Latein am Lyc\xe9e la Providence, ab 2007 am renommierten Lyc\xe9e Saint-Louis de Gonzague in Paris – bis sie 2015 ihren Lehrberuf aufgab, um Macrons politische Laufbahn zu unterst\xfctzen.</p>
+          <p class="vb-intro">Als First Lady machte sie sich das Engagement gegen Mobbing an Schulen und im Internet zu ihrem pers\xf6nlichen Anliegen – eine direkte Fortsetzung ihrer p\xe4dagogischen F\xfcrsorge, \xfcbertragen auf eine \xf6ffentliche Rolle, aber weiterhin auf konkrete, einzelne Betroffene statt auf abstrakte politische Programme ausgerichtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Öffentliches Bild, zur\xfcckgenommenes Auftreten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brigitte Macron zierte fast ein Dutzend Magazincover und stand bei vollbesetzten Wahlkampfveranstaltungen sichtbar an Macrons Seite, w\xe4hrend die \xf6ffentliche Faszination f\xfcr die ungew\xf6hnliche Romanze anhielt. Seit ihrem Amtsantritt als First Lady 2017 h\xe4lt sie sich jedoch auffallend zur\xfcck – ein Kontrast, der f\xfcr die SX3w2 typisch ist: Die Intensit\xe4t geh\xf6rt der einen zentralen Beziehung und den konkreten Anliegen, die sie pers\xf6nlich bewegen, nicht dem Streben nach m\xf6glichst breiter \xf6ffentlicher Pr\xe4senz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 ist die F\xe4higkeit, <strong>tiefe pers\xf6nliche Bindung mit echter F\xfcrsorge f\xfcr Einzelne zu verbinden</strong> – Brigitte Macrons jahrzehntelanges Engagement als Lehrerin und ihr sp\xe4teres Eintreten gegen Mobbing zeigen eine Konstanz, die \xfcber blo\xdfes \xf6ffentliches Image hinausgeht.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der anhaltenden \xf6ffentlichen Kontroverse um die Anfangsjahre der Beziehung – ein Lehrer-Sch\xfcler-Verh\xe4ltnis mit erheblichem Altersunterschied und einem minderj\xe4hrigen Beteiligten, das bis heute kontrovers diskutiert wird und zeigt, wie die SX3-typische Bereitschaft, gesellschaftliche Konventionen f\xfcr eine als bedeutsam empfundene Verbindung zur\xfcckzustellen, auch erhebliche ethische Fragen aufwerfen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Eine Verbindung, die zum Lebenswerk wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von der Theaterlehrerin in der nordfranz\xf6sischen Provinz zur First Lady einer der bedeutendsten Nationen Europas: Brigitte Macrons \xf6ffentliches Leben ist untrennbar mit der einen Beziehung verwoben, die ihr gesamtes weiteres Leben umgestaltete.</p>
+          <p class="vb-intro">Der Pfau, der seine Anziehungskraft nie einem breiten Publikum, sondern einer einzigen, jahrzehntelang tragenden Verbindung widmete, und der seine p\xe4dagogische F\xfcrsorge \xfcber die Klassenzimmerwand hinaus in eine \xf6ffentliche Rolle \xfcbersetzte – das ist die Geschichte dieser sexuellen Drei mit Zweierfl\xfcgel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-emmanuel-macron", label:"Portr\xe4t: Emmanuel Macron (SO1w9) – ihr Ehemann"},
+        {route:"beruehmte-brigitte-bardot", label:"Portr\xe4t: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-brad-pitt", label:"Portr\xe4t: Brad Pitt (SX3w2)"},
+      ])}
+    </div>
+  `);
+}

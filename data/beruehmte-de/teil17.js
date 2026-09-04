@@ -1704,7 +1704,7 @@ export function emmanuelMacronPortraitPage() {
 
         <h2 class="vb-section">1. Die Gans, die geduldig Jahre lang warb</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem fr\xfch gefestigten Gesp\xfcr daf\xfcr, wie etwas richtig zu sein hat, und bereit, sich mit ausdauernder Konsequenz daf\xfcr einzusetzen. Emmanuel Macron, 1977 in Amiens als \xe4ltestes von drei Kindern eines \xc4rzteehepaars geboren, zeigte diese Konsequenz bereits mit f\xfcnfzehn: Er verliebte sich in seine damals 39-j\xe4hrige Lehrerin Brigitte Trogneux und erkl\xe4rte ihr mit siebzehn ruhig und unerschütterlich: „Egal was du tust, ich werde dich heiraten."</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem fr\xfch gefestigten Gesp\xfcr daf\xfcr, wie etwas richtig zu sein hat, und bereit, sich mit ausdauernder Konsequenz daf\xfcr einzusetzen. Emmanuel Macron, 1977 in Amiens als \xe4ltestes von drei Kindern eines \xc4rzteehepaars geboren, zeigte diese Konsequenz bereits mit f\xfcnfzehn: Er verliebte sich in seine damals 39-j\xe4hrige Lehrerin Brigitte Trogneux (SX3w2) und erkl\xe4rte ihr mit siebzehn ruhig und unerschütterlich: „Egal was du tust, ich werde dich heiraten."</p>
           <p class="vb-intro">Als seine Eltern ihn daraufhin nach Paris auf eine andere Schule schickten, um die Verbindung zu unterbinden, hielten die beiden \xfcber Jahre brieflichen Kontakt – keine dramatische Eroberung, sondern geduldige, unaufgeregte Beharrlichkeit, bis Trogneux sich schlie\xdflich scheiden lie\xdf und zu ihm nach Paris zog. Sie heirateten 2007.</p>
         </blockquote>
 
@@ -1747,6 +1747,7 @@ export function emmanuelMacronPortraitPage() {
         {route:"beruehmte-giorgia-meloni", label:"Portr\xe4t: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-brigitte-macron", label:"Portr\xe4t: Brigitte Macron (SX3w2) – seine Frau"},
       ])}
     </div>
   `);

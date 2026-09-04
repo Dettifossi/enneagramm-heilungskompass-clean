@@ -182,6 +182,7 @@ export function brigitteBardotPortraitPage() {
         {route:"subtype/sx3", label:"SX3 \u2013 Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
         {route:"beruehmte-lena-meyer-landrut", label:"Portr\u00e4t: Lena Meyer-Landrut (SX3w2)"},
+        {route:"beruehmte-brigitte-macron", label:"Portr\u00e4t: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Krankheitsportr\u00e4t: Brigitte Bardot (SX3w2)"},
       ])}
     </div>
