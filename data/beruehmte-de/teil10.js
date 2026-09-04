@@ -1723,7 +1723,7 @@ export function arminMuellerStahlPortraitPage() {
         </div>
         <p class="krim-portrait-name">Armin Mueller-Stahl</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, Maler, Musiker &amp; Schriftsteller, 1930&ndash;2025 &ndash; Tierentsprechung: Adler</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Maler, Musiker &amp; Schriftsteller, geb. 1930 &ndash; Tierentsprechung: Adler</p>
       </div>
       <div class="page-content">
 

@@ -463,7 +463,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Germany", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-armin-mueller-stahl", name:"Armin Mueller-Stahl", added:"2026-09-04", subtyp:"SE1w9",
     heading:"Armin Mueller-Stahl – Self-Preservation Type 1",
-    teaser:"SE1w9 · 1930–2025. Actor, painter, musician, and writer. Banned from working in 1976 over the Biermann Resolution, emigrated to West Germany in 1980. Four artistic crafts at the highest level, never becoming a loud figure. Animal correspondence: Eagle.",
+    teaser:"SE1w9 · born 1930. Actor, painter, musician, and writer. Banned from working in 1976 over the Biermann Resolution, emigrated to West Germany in 1980. Four artistic crafts at the highest level, never becoming a loud figure. Animal correspondence: Eagle.",
     land:"Germany", tags:["Schauspiel","Kunst"], gender:"m"},
 { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
     heading:"Reinhold Würth – Self-Preservation Type 1",
@@ -33976,7 +33976,7 @@ function arminMuellerStahlPortraitPage() {
         </div>
         <p class="krim-portrait-name">Armin Mueller-Stahl</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
-        <p class="krim-portrait-subtitle">Actor, painter, musician &amp; writer, 1930&ndash;2025 &ndash; Animal correspondence: Eagle</p>
+        <p class="krim-portrait-subtitle">Actor, painter, musician &amp; writer, born 1930 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 

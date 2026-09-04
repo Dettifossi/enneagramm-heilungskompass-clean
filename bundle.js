@@ -30954,7 +30954,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-armin-mueller-stahl", name:"Armin Mueller-Stahl", added:"2026-09-04", subtyp:"SE1w9",
     heading:"Armin Mueller-Stahl – Selbsterhaltender Typ 1",
-    teaser:"SE1w9 · 1930–2025. Schauspieler, Maler, Musiker und Schriftsteller. Wegen der Biermann-Resolution 1976 mit Berufsverbot belegt, 1980 Ausreise in den Westen. Vier künstlerische Handwerke auf höchstem Niveau, nie zur lauten Figur werdend. Tierentsprechung: Adler.",
+    teaser:"SE1w9 · geb. 1930. Schauspieler, Maler, Musiker und Schriftsteller. Wegen der Biermann-Resolution 1976 mit Berufsverbot belegt, 1980 Ausreise in den Westen. Vier künstlerische Handwerke auf höchstem Niveau, nie zur lauten Figur werdend. Tierentsprechung: Adler.",
     land:"Deutschland", tags:["Schauspiel","Kunst"], gender:"m"},
   { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
     heading:"Reinhold Würth – Selbsterhaltender Typ 1",
