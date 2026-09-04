@@ -1689,6 +1689,7 @@ export function roaldAmundsenPortraitPage() {
         {route:"beruehmte-konrad-lorenz", label:"Porträt: Konrad Lorenz (SO1w9)"},
         {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9) – Standhaftigkeit ohne Dramatik"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Porträt: Kurt Georg Kiesinger (SO1w9)"},
       ])}
     </div>
   `);

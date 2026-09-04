@@ -1731,6 +1731,7 @@ export function helmutSchmidtPortraitPage() {
         {route:"beruehmte-roald-amundsen", label:"Portr\xe4t: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portr\xe4t: Markus Lanz (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portr\xe4t: Kurt Georg Kiesinger (SO1w9) – Vorgänger im Kanzleramt, derselbe Subtyp"},
       ])}
     </div>
   `);

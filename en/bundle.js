@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=79";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=80";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -535,6 +535,10 @@ const BERUEHMT_PORTRAITS = [
 { route:"beruehmte-helmut-schmidt", name:"Helmut Schmidt", added:"2026-09-04", subtyp:"SO1w9",
     heading:"Helmut Schmidt – Social Type 1",
     teaser:"SO1w9 · 1918–2015. German Federal Chancellor 1974–1982. Crisis manager of the 1962 Hamburg storm surge and the 1977 German Autumn – firmness without drama. 'Whoever has visions should go see a doctor.' Animal correspondence: Goose.",
+    land:"Germany", tags:["Politics"], gender:"m"},
+{ route:"beruehmte-kurt-georg-kiesinger", name:"Kurt Georg Kiesinger", added:"2026-09-04", subtyp:"SO1w9",
+    heading:"Kurt Georg Kiesinger – Social Type 1",
+    teaser:"SO1w9 · 1904–1988. German Federal Chancellor 1966–1969, first Grand Coalition. 'King Silvertongue,' the 'walking mediation committee' – and the target of Beate Klarsfeld's famous 1968 slap over his Nazi party past. Animal correspondence: Goose.",
     land:"Germany", tags:["Politics"], gender:"m"},
 { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
@@ -44994,6 +44998,73 @@ function davidBowiePortraitPage() {
   `);
 }
 
+function kurtGeorgKiesingerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/kurt-georg-kiesinger-portrait.jpg" alt="Kurt Georg Kiesinger – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kurt Georg Kiesinger</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German Federal Chancellor, 1904&ndash;1988 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Mediated Between Two Camps</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with a fine sense for how a community ought to function, and ready, in conflict, to seek balance over escalation as long as the overall order is preserved. Kurt Georg Kiesinger, born in 1904 in the Swabian town of Ebingen, grew up in a household of two different faiths — a background he later described himself as the source of his pronounced talent for mediation.</p>
+          <p class="vb-intro">From 1966 to 1969 he served as Chancellor of the first Grand Coalition of CDU/CSU and SPD — a constellation that required a head of government able to hold together two politically far-apart camps. Kiesinger filled exactly that role, until he became almost entirely identified with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Order Through Balance, Not Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> projects its inner standards of right and wrong outward and cares about the functioning of the whole — not just its own correct conduct. In Kiesinger this showed not as confrontational self-righteousness, but as concern for the stability of the young Federal Republic itself: under his leadership, the Grand Coalition pushed through a major criminal-law reform, introduced continued wage payment during illness, and passed the fiercely contested Emergency Acts — a body of law that mattered to him in particular because, in his view, it was meant to legally secure the order of the state even in times of crisis.</p>
+          <p class="vb-intro">This concern for reliable order, not personal profile, is the core of the One's motivation: the state must function, the rules must hold, regardless of who happens to be governing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: "King Silvertongue"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> turns the One's fidelity to principle into diplomacy rather than confrontation. Kiesinger earned the nickname "König Silberzunge" (King Silvertongue) for his rhetorical smoothness — and was described within the Grand Coalition as a "walking mediation committee": where others might have pushed CDU/CSU and SPD into confrontation, he persistently searched for the formulation both sides could support.</p>
+          <p class="vb-intro">This ability was no tactical veneer, but matched his deepest self-understanding: order arises not from forcing one's own position through, but from patiently bringing conflicting interests together into a jointly workable result — a stance a One with a weaker Nine-wing could hardly have sustained.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Slap and the Nazi Past</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kiesinger had joined the NSDAP on March 1, 1933, and from 1940 worked in the broadcasting department of the Foreign Office, from 1942/43 as deputy department head for broadcast propaganda — a position that made him one of the most influential functionaries of Nazi radio propaganda, informed about the persecution of the Jewish population. Until 1968, this past was rarely addressed in public debate.</p>
+          <p class="vb-intro">On November 7, 1968, "Nazi hunter" Beate Klarsfeld slapped him at the CDU party convention in Berlin, shouting "Nazi, step down!" — a moment that became a symbol of the 1968 generation's confrontation with the Nazi past of their elders. Kiesinger reacted publicly composed, without escalation — the same Nine-wing steadiness with which he moderated political conflicts became, in this moment, a personal test. But it is exactly here that the flip side shows: the diplomatic calm that was his greatest strength as a politician struck many, in the face of such a morally grave accusation, not as dignity but as evasion rather than genuine reckoning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is the ability to <strong>hold deeply divided camps together through patient, unruffled mediation</strong> — the Grand Coalition of 1966 to 1969 still stands as proof that democratic stability can be organized across party lines even in times of crisis, substantially carried by Kiesinger's talent for mediation.</p>
+          <p class="vb-intro">The shadow showed itself precisely where that talent reached its limit: his own, morally grave past could not be smoothed over through mediation. The Nine-wing's tendency to soften conflict rather than confront it openly became his undoing here — his public reticence about his own Nazi past struck an entire generation not as dignity, but as a refusal of genuine accountability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Goose That Stood Between the Camps</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kurt Georg Kiesinger died in 1988 in Tübingen. His chancellorship remains inseparable from two images: the skillful mediator who held together a historically unprecedented coalition, and the man who had to accept a young journalist's slap on an open stage, because an entire generation was no longer willing to accept his quiet way of dealing with his own past.</p>
+          <p class="vb-intro">The goose that stood between the camps and built bridges where others saw only trenches, and that failed precisely where a bridge could not be built but a past had to be acknowledged — that is the lasting, ambivalent image of the social One with a Nine-wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – successor as Chancellor, same subtype"},
+        {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function helmutSchmidtPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45124,6 +45195,7 @@ function roaldAmundsenPortraitPage() {
         {route:"beruehmte-konrad-lorenz", label:"Portrait: Konrad Lorenz (SO1w9)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – firmness without drama"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
       ])}
     </div>
   `);
@@ -45259,6 +45331,7 @@ function markusLanzPortraitPage() {
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
@@ -52549,7 +52622,7 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
@@ -52559,7 +52632,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
         beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
-        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea."
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation."
       },
       {
         titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
@@ -112157,6 +112230,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-helmut-schmidt": helmutSchmidtPortraitPage,
+      "beruehmte-kurt-georg-kiesinger": kurtGeorgKiesingerPortraitPage,
       "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,

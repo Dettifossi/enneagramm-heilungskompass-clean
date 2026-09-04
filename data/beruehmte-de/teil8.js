@@ -1670,3 +1670,69 @@ export function karlLauterbachPortraitPage() {
     </div>
   `);
 }
+
+export function kurtGeorgKiesingerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/kurt-georg-kiesinger-portrait.jpg" alt="Kurt Georg Kiesinger – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kurt Georg Kiesinger</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, 1904–1988 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die zwischen zwei Lagern vermittelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem feinen Gesp\xfcr daf\xfcr, wie eine Gemeinschaft funktionieren sollte, und bereit, im Streitfall auf Ausgleich statt Eskalation zu setzen, solange die Ordnung insgesamt gewahrt bleibt. Kurt Georg Kiesinger, 1904 im schw\xe4bischen Ebingen geboren, wuchs in einem Elternhaus zweier unterschiedlicher Konfessionen auf – eine Herkunft, die er sp\xe4ter selbst als Quelle seiner ausgepr\xe4gten Vermittlungsf\xe4higkeit beschrieb.</p>
+          <p class="vb-intro">Von 1966 bis 1969 war er Bundeskanzler der ersten Gro\xdfen Koalition aus CDU/CSU und SPD – eine Konstellation, die einen Regierungschef verlangte, der zwei politisch weit auseinanderliegende Lager zusammenhalten konnte. Genau diese Rolle f\xfcllte Kiesinger aus, bis er ihr fast vollst\xe4ndig gleichgesetzt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung durch Ausgleich statt durch Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> tr\xe4gt ihre inneren Ma\xdfst\xe4be von Richtig und Falsch nach au\xdfen und sorgt sich um das Funktionieren des Ganzen – nicht nur um das eigene korrekte Verhalten. Bei Kiesinger zeigte sich das nicht als konfrontative Rechthaberei, sondern als Sorge um die Stabilit\xe4t der jungen Bundesrepublik selbst: Die Gro\xdfe Koalition setzte unter seiner F\xfchrung eine gro\xdfe Strafrechtsreform durch, f\xfchrte die Lohnfortzahlung im Krankheitsfall ein und verabschiedete die hei\xdf umstrittenen Notstandsgesetze – ein Regelwerk, das ihm besonders wichtig war, weil es aus seiner Sicht die Ordnung des Staates auch in Krisenzeiten rechtlich absichern sollte.</p>
+          <p class="vb-intro">Diese Sorge um verl\xe4ssliche Ordnung, nicht um pers\xf6nliche Profilierung, ist der Kern der Einser-Motivation: Der Staat muss funktionieren, die Regeln m\xfcssen halten, unabh\xe4ngig davon, wer gerade regiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: „K\xf6nig Silberzunge"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> verwandelt die Einser-Prinzipientreue in Diplomatie statt Konfrontation. Kiesinger erhielt den Beinamen „K\xf6nig Silberzunge" f\xfcr seine rhetorische Geschmeidigkeit – und wurde innerhalb der Gro\xdfen Koalition als „wandelnder Vermittlungsausschuss" beschrieben: Wo andere auf Konfrontation zwischen CDU/CSU und SPD gesetzt h\xe4tten, suchte er beharrlich nach der Formulierung, die beide Seiten mittragen konnten.</p>
+          <p class="vb-intro">Diese F\xe4higkeit war kein taktisches Blendwerk, sondern entsprach seinem tiefsten Selbstverst\xe4ndnis: Ordnung entsteht nicht durch das Erzwingen der eigenen Position, sondern durch das geduldige Zusammenf\xfchren widerstreitender Interessen zu einem gemeinsam tragf\xe4higen Ergebnis – eine Haltung, die eine Eins mit schw\xe4cher ausgepr\xe4gtem Neunerfl\xfcgel kaum durchgehalten h\xe4tte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Ohrfeige und die NSDAP-Vergangenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kiesinger war am 1. M\xe4rz 1933 der NSDAP beigetreten und arbeitete ab 1940 im Rundfunkreferat des Ausw\xe4rtigen Amts, ab 1942/43 als stellvertretender Abteilungsleiter f\xfcr Rundfunkpropaganda – eine Position, in der er zu den einflussreichsten Funktion\xe4ren der NS-Rundfunkpropaganda z\xe4hlte und \xfcber die Verfolgung der j\xfcdischen Bev\xf6lkerung informiert war. Bis 1968 wurde diese Vergangenheit in der \xf6ffentlichen Debatte kaum thematisiert.</p>
+          <p class="vb-intro">Am 7. November 1968 ohrfeigte ihn die „Nazi-J\xe4gerin" Beate Klarsfeld auf dem CDU-Parteitag in Berlin mit dem Ruf „Nazi, tritt zur\xfcck!" – ein Moment, der zum Symbol der 68er-Konfrontation mit der NS-Vergangenheit der \xe4lteren Generation wurde. Kiesinger reagierte \xf6ffentlich gefasst, ohne Eskalation – dieselbe Neunerfl\xfcgel-typische Unerschütterlichkeit, mit der er auch politische Konflikte moderierte, wurde hier zur pers\xf6nlichen Bew\xe4hrungsprobe. Genau in diesem Moment zeigt sich aber auch die Kehrseite: Die diplomatische Ruhe, die als Politiker seine gr\xf6\xdfte St\xe4rke war, wirkte gegen\xfcber einer moralisch derart schwerwiegenden Anklage auf viele wie Ausweichen statt echter Auseinandersetzung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die F\xe4higkeit, <strong>tief zerstrittene Lager durch geduldige, unaufgeregte Vermittlung zusammenzuhalten</strong> – die Gro\xdfe Koalition von 1966 bis 1969 gilt bis heute als Beleg daf\xfcr, dass demokratische Stabilit\xe4t auch in Krisenzeiten \xfcber Parteigrenzen hinweg organisierbar ist, ma\xdfgeblich getragen von Kiesingers Vermittlungstalent.</p>
+          <p class="vb-intro">Der Schatten zeigte sich genau dort, wo Vermittlungsf\xe4higkeit an ihre Grenze stie\xdf: Die eigene, moralisch schwer belastete Vergangenheit lie\xdf sich nicht wegmoderieren. Die Neunerfl\xfcgel-Neigung, Konflikte zu gl\xe4tten statt sie offen auszutragen, wurde ihm hier zum Verh\xe4ngnis – seine \xf6ffentliche Zur\xfcckhaltung zur eigenen NS-Vergangenheit wirkte auf eine ganze Generation nicht als W\xfcrde, sondern als Verweigerung echter Rechenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die zwischen den Lagern stand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kurt Georg Kiesinger starb 1988 in T\xfcbingen. Seine Kanzlerschaft bleibt untrennbar mit zwei Bildern verbunden: dem geschickten Vermittler, der eine historisch beispiellose Koalition zusammenhielt, und dem Mann, der die Ohrfeige einer jungen Journalistin auf offener B\xfchne hinnehmen musste, weil eine ganze Generation seine leise Art, mit der eigenen Vergangenheit umzugehen, nicht l\xe4nger hinnehmen wollte.</p>
+          <p class="vb-intro">Die Gans, die zwischen den Lagern stand und Br\xfccken baute, wo andere nur Gr\xe4ben sahen, und die genau daran scheiterte, wo eine Br\xfccke nicht gebaut, sondern eine Vergangenheit anerkannt werden musste – das ist das bleibende, zwiesp\xe4ltige Bild der sozialen Eins mit Neunerfl\xfcgel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9) – Nachfolger im Kanzleramt, derselbe Subtyp"},
+        {route:"beruehmte-roald-amundsen", label:"Portr\xe4t: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portr\xe4t: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
