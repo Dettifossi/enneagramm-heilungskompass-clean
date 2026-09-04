@@ -3919,11 +3919,15 @@ export function edvardMunchKrankheitsportraetPage() {
         klinischer Neugier – er begann, die eigenen Sehstörungen systematisch zu dokumentieren,
         als würde er sich selbst wie ein Forschungsobjekt betrachten. Das ist die typische
         Fünferflügel-Antwort auf Bedrohung: Distanz durch Beobachtung statt durch Gefühl.</p>
-        <p class="vb-intro"><strong>b) Verschiebung Richtung Einser-Genauigkeit unter Dauerstress:</strong>
-        Unter chronischem Druck bewegt sich die Vier auf ihren Stresspunkt, die Eins, zu –
-        erkennbar an der fast wissenschaftlichen Systematik, mit der Munch seine
-        „entoptischen" Wahrnehmungen zeichnete: präzise, wiederholt, fast dokumentarisch
-        genau, statt impulsiv-emotional wie sonst für die Vier charakteristisch.</p>
+        <p class="vb-intro"><strong>b) Der „kritische Kommentator" in seiner verkopften Spielart:</strong>
+        Die soziale Vier wird in ihrer negativen Fixierung auch als „kritischer Kommentator"
+        beschrieben – wer die eigene Andersartigkeit stark auslebt, sieht leicht überall das
+        Unzulängliche und wird nörgelnd-unzufrieden. Bei Munch verband sich das mit dem
+        Fünferflügel zu einer auffällig verkopften, emotional zurückgehaltenen Variante dieses
+        Musters: Statt sich in Klage zu ergehen, hielt er die eigene Unzulänglichkeit – die
+        drohende Erblindung – in der fast wissenschaftlichen Systematik seiner „entoptischen"
+        Zeichnungen fest: präzise, wiederholt, dokumentarisch genau, statt impulsiv-emotional
+        wie sonst für die Vier charakteristisch.</p>
         <p class="vb-intro"><strong>c) Öffentliche Kunst statt privates Leiden:</strong>
         Jede seiner Krisen – die Handverletzung, die Grippe, die Augenkrankheit – wurde zum
         Gegenstand öffentlich ausgestellter Selbstporträts, nie zu einem verschwiegenen

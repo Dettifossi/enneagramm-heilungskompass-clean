@@ -61942,10 +61942,14 @@ function edvardMunchKrankheitsportraetPage() {
         disturbances, as if treating himself as a research subject. That is the typical
         Five-wing response to threat: distance through observation rather than through
         feeling.</p>
-        <p class="vb-intro"><strong>b) A shift toward One-like precision under sustained stress:</strong>
-        Under chronic pressure, the Four moves toward its stress point, the One — visible in
-        the almost scientific systematics with which Munch drew his "entoptic" perceptions:
-        precise, repeated, almost documentary in its accuracy, rather than impulsively
+        <p class="vb-intro"><strong>b) The "critical commentator" in its cerebral variant:</strong>
+        In its negative fixation, the social Four is also described as the "critical
+        commentator" — someone who lives out their own otherness intensely tends to see
+        inadequacy everywhere and grows querulous and dissatisfied. In Munch this combined
+        with the Five-wing into a strikingly cerebral, emotionally restrained variant of that
+        pattern: instead of dwelling in complaint, he captured his own perceived inadequacy —
+        the looming blindness — in the almost scientific systematics of his "entoptic"
+        drawings: precise, repeated, documentary in its accuracy, rather than impulsively
         emotional as is otherwise characteristic of the Four.</p>
         <p class="vb-intro"><strong>c) Public art instead of private suffering:</strong>
         Each of his crises — the hand injury, the flu, the eye disease — became the subject
