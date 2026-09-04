@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=92";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=93";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1941,6 +1941,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carolin Kebekus – Social Type 7",
     teaser:"SO7w6 · born 1980. Comedian, actress, TV host. First woman with a lasting own late-night show on German television, feminism and social critique wrapped in humor.",
     land:"Germany", tags:["Comedy","Medien"], gender:"f"},
+{ route:"beruehmte-gregor-gysi", name:"Dr. Gregor Gysi", added:"2026-09-04", subtyp:"SO7w6",
+    heading:"Dr. Gregor Gysi – Social Type 7",
+    teaser:"SO7w6 · born 1948. Lawyer and politician (Die Linke). Defended civil rights activists in East Germany as a lawyer, decisively shaped the SED's transformation into the PDS and Left Party after reunification. Known for sharp wit and rhetorical brilliance.",
+    land:"Germany", tags:["Politik","Recht"], gender:"m"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -40133,6 +40137,70 @@ function douglasSmithPortraitPage() {
   `);
 }
 
+function gregorGysiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-gregor-gysi-portrait.jpg" alt="Gregor Gysi – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Gregor Gysi</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Lawyer &amp; politician, born 1948 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Carried a Party Through Upheaval</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of Social Type 7 &ndash; an animal that builds for the community and becomes indispensable especially in times of upheaval. Gregor Gysi, born in 1948 as the son of later East German culture minister Klaus Gysi, worked as a lawyer in East Germany defending regime critics such as Robert Havemann, Rudolf Bahro, and Bärbel Bohley &ndash; a risky role within a system he himself belonged to as an SED party member.</p>
+          <p class="vb-intro">After German reunification, it was Gysi who decisively shaped the transformation of the SED via the PDS into today's Left Party (Die Linke), leading the Left Party's parliamentary group in the Bundestag from 2005 to 2015. No beaver survives the collapse of the old dam unchanged &ndash; but a beaver builds something new out of the wreckage that holds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Rhetoric as a Tool for the Larger Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo's <strong>Social Seven (SO7)</strong> seeks fulfillment in service to a community &ndash; for Gysi, that tool is language itself. He calls rhetoric "the essential human instrument in politics" and is known for his sharp wit and calculated quick-wittedness in Bundestag exchanges. This ability is never an end in itself for him: it consistently serves to make his own political cause &ndash; first the East German civil rights activists, later the Left in reunified Germany &ndash; heard at all.</p>
+          <p class="vb-intro">That is exactly the SO7 gift: preparing complicated, often unpopular political positions in a way that reaches a broad audience without losing their substance &ndash; humor and pointed argument as doors opening onto serious content.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: Loyalty Across Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven an additional reliability and a firm bond, held over decades, to a cause recognized as right. Unlike many of his fellow travelers from the East German civil rights movement, Gysi remained loyal to his political home on the left of the spectrum for over half a century &ndash; from SED lawyer through building up the PDS to leading the Left Party's parliamentary group.</p>
+          <p class="vb-intro">This continuity, combined with a willingness to take a stand under the greatest public pressure &ndash; for instance in debates about his own East German past and alleged Stasi contacts &ndash; rather than withdraw, shows Six loyalty in its steadfast form: not retreat under attack, but persistent defense of one's own position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Lawyer of the Uncomfortable</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That Gysi, as an SED member, defended precisely the sharpest critics of his own system is a pattern that runs through his entire life: the ability to operate within an established system while simultaneously representing uncomfortable, marginalized positions. This dual role &ndash; system actor and lawyer for the uncomfortable at once &ndash; required exactly the rhetorical balance he remains known for today.</p>
+          <p class="vb-intro">Even after stepping down from parliamentary group leadership, he remained present as a Bundestag member and public voice &ndash; not an abrupt end to his career, but a continuous extension of the same underlying theme in new roles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in Gysi in that he consistently put his extraordinary rhetorical gift in the service of a political conviction, rather than using it for short-term personal gain &ndash; even when that conviction was unpopular or carried personal risk, as with his defense work in East Germany.</p>
+          <p class="vb-intro">The shadow of the Seven shows in the risk that eloquence becomes evasion &ndash; critics have accused Gysi of occasionally using his rhetorical brilliance to elegantly sidestep uncomfortable questions about his own East German past rather than answering them directly. The Six-wing is ambivalent here: it lends steadfastness on substance, but can also turn into stubborn defense of a once-taken position, even when facts speak against it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Voice That Carried Through Upheaval</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gregor Gysi's path &ndash; from lawyer for East German civil rights activists to a defining figure of the German Left after reunification &ndash; shows the social Seven with a Six-wing in its most politically effective form: a voice that carries through decades of upheaval because it keeps recommitting to the same underlying conviction. The beaver doesn't just build one dam &ndash; it rebuilds when the old one breaks, without losing direction.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+          {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also sharp wit with political conviction"},
+          {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function carolinKebekusPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -40191,6 +40259,7 @@ function carolinKebekusPortraitPage() {
           {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
           {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6) – also comedy with social conscience"},
           {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+          {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6) – also sharp wit with political conviction"},
         ])}
       </div>
     </div>
@@ -40705,6 +40774,7 @@ function alexanderBommesPortraitPage() {
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},
+        {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
       ])}
     </div>
   `);
@@ -52970,7 +53040,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus", "Dr. Gregor Gysi"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -52985,7 +53055,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction; Carolin Kebekus, who kept building new formats – from an internship at a comedy show through her own stage shows, the 'heute-show,' and the first lasting late-night show hosted by a woman on German television, to the sibling show she now co-hosts with her brother David – barely had one been established before the next began."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction; Carolin Kebekus, who kept building new formats – from an internship at a comedy show through her own stage shows, the 'heute-show,' and the first lasting late-night show hosted by a woman on German television, to the sibling show she now co-hosts with her brother David – barely had one been established before the next began; Dr. Gregor Gysi, who as an SED party member defended the sharpest critics of his own system in East Germany – Robert Havemann, Rudolf Bahro, Bärbel Bohley – and who after reunification spent decades helping shape the SED's transformation via the PDS into the Left Party, always in service of the same underlying political conviction, never in service of his career alone."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -113105,6 +113175,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dietland-mueller-schwarze": dietlandMuellerSchwarzePortraitPage,
       "beruehmte-alexander-bommes": alexanderBommesPortraitPage,
       "beruehmte-carolin-kebekus": carolinKebekusPortraitPage,
+      "beruehmte-gregor-gysi": gregorGysiPortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,

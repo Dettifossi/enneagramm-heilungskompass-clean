@@ -1709,3 +1709,67 @@ export function carenMiosgaPortraitPage() {
     </div>
   `);
 }
+
+export function gregorGysiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-gregor-gysi-portrait.jpg" alt="Gregor Gysi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Gregor Gysi</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Jurist &amp; Politiker, geb. 1948 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der eine Partei durch den Umbruch trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders in Umbruchzeiten unentbehrlich wird. Gregor Gysi, 1948 geboren als Sohn des späteren DDR-Kulturministers Klaus Gysi, verteidigte als Rechtsanwalt in der DDR Regimekritiker wie Robert Havemann, Rudolf Bahro und Bärbel Bohley – eine riskante Rolle innerhalb eines Systems, dem er selbst als SED-Mitglied angehörte.</p>
+          <p class="vb-intro">Nach der Wende war es Gysi, der maßgeblich die Transformation der SED über die PDS zur heutigen Linkspartei gestaltete und von 2005 bis 2015 die Linksfraktion im Bundestag anführte. Kein Biber überlebt den Zusammenbruch des alten Damms unverändert – aber ein Biber baut aus den Trümmern etwas Neues, das trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Rhetorik als Werkzeug für die größere Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> sucht nach Naranjo Erfüllung im Dienst an einer Gemeinschaft – bei Gysi ist dieses Werkzeug die Sprache selbst. Er bezeichnet Rhetorik als „das wesentliche Instrument des Menschen in der Politik" und ist bekannt für seinen scharfen Witz und seine kalkulierte Schlagfertigkeit bei Zwischenfragen im Bundestag. Diese Fähigkeit ist bei ihm nie reiner Selbstzweck: Sie dient konsequent dazu, die eigene politische Sache – zunächst die Bürgerrechtler in der DDR, später die Linke im wiedervereinigten Deutschland – überhaupt hörbar zu machen.</p>
+          <p class="vb-intro">Genau darin liegt die SO7-Gabe: Komplizierte, oft unpopuläre politische Positionen so aufzubereiten, dass sie ein breites Publikum erreichen, ohne die inhaltliche Substanz zu verlieren – Humor und Zuspitzung als Türöffner für ernsthafte Inhalte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität über Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verleiht der sozialen Sieben eine zusätzliche Verlässlichkeit und eine feste, über Jahrzehnte gehaltene Bindung an eine als richtig erkannte Sache. Gysi blieb, anders als viele seiner Weggefährten aus der DDR-Bürgerrechtsbewegung, seiner politischen Heimat auf der linken Seite des Spektrums über ein halbes Jahrhundert hinweg treu – vom SED-Anwalt über den PDS-Aufbau bis zur Linksfraktion im Bundestag.</p>
+          <p class="vb-intro">Diese Kontinuität, kombiniert mit der Bereitschaft, auch unter größtem öffentlichen Druck – etwa bei den Debatten um seine eigene DDR-Vergangenheit und mögliche Stasi-Kontakte – Stellung zu beziehen, statt sich zurückzuziehen, zeigt die Sechser-Loyalität in ihrer standhaften Form: nicht Rückzug bei Anfeindung, sondern beharrliches Verteidigen der eigenen Position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Anwalt der Unbequemen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Gysi als SED-Mitglied ausgerechnet die schärfsten Kritiker des eigenen Systems verteidigte, ist ein Muster, das sich durch sein gesamtes Leben zieht: die Fähigkeit, innerhalb eines etablierten Systems zu agieren und gleichzeitig unbequeme, marginalisierte Positionen zu vertreten. Diese Doppelrolle – Systemakteur und Anwalt der Unbequemen zugleich – erforderte genau jene rhetorische Balance, für die er bis heute bekannt ist.</p>
+          <p class="vb-intro">Auch nach seinem Ausscheiden aus der Fraktionsführung blieb er als Bundestagsabgeordneter und öffentliche Stimme präsent – kein abruptes Karriereende, sondern eine kontinuierliche Fortsetzung des immer gleichen Grundthemas in neuen Rollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich bei Gysi darin, dass er seine außergewöhnliche rhetorische Begabung durchgehend in den Dienst einer politischen Überzeugung stellte, statt sie für kurzfristige persönliche Vorteile zu nutzen – auch dann, wenn diese Überzeugung unpopulär oder mit persönlichem Risiko verbunden war, wie bei seiner Verteidigertätigkeit in der DDR.</p>
+          <p class="vb-intro">Der Schatten der Sieben zeigt sich in der Gefahr, dass Wortgewandtheit zur Ausflucht wird – Kritiker werfen Gysi vor, seine rhetorische Brillanz gelegentlich genutzt zu haben, um unbequemen Fragen zur eigenen DDR-Vergangenheit eloquent auszuweichen, statt sie direkt zu beantworten. Der Sechserflügel wirkt hier ambivalent: Er verleiht Standhaftigkeit in der Sache, kann aber auch zur hartnäckigen Verteidigung einer einmal eingenommenen Position werden, selbst wenn Fakten dagegensprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Stimme, die durch den Umbruch trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gregor Gysis Lebensweg – vom Anwalt der DDR-Bürgerrechtler zum prägenden Kopf der deutschen Linken nach der Wiedervereinigung – zeigt die soziale Sieben mit Sechserflügel in ihrer politisch wirksamsten Form: eine Stimme, die durch Jahrzehnte des Umbruchs trägt, weil sie sich immer wieder neu für dieselbe zugrunde liegende Überzeugung einsetzt. Der Biber baut nicht nur einen Damm – er baut ihn neu, wenn der alte bricht, ohne die Richtung zu verlieren.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+          {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
+          {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

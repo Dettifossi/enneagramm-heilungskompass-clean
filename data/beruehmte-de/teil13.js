@@ -1759,6 +1759,7 @@ export function carolinKebekusPortraitPage() {
           {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
           {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6) – ebenfalls Comedy mit gesellschaftlicher Haltung"},
           {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+          {route:"beruehmte-gregor-gysi", label:"Porträt: Dr. Gregor Gysi (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
         ])}
       </div>
     </div>

@@ -55,6 +55,7 @@ export function alexanderBommesPortraitPage() {
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},
+        {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
       ])}
     </div>
   `);
