@@ -1212,6 +1212,7 @@ export function peterFalkPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
         {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk – Alzheimer-Erkrankung"},
@@ -1669,6 +1670,72 @@ export function kimJongUnPortraitPage() {
         {route:"beruehmte-francis-bacon", label:"Portr\xe4t: Francis Bacon (SE7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portr\xe4t: Christoph Kolumbus (SE7w8)"},
         {route:"beruehmte-wladimir-putin", label:"Portr\xe4t: Wladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function tomHanksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/tom-hanks-portrait.jpg" alt="Tom Hanks – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Hanks</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler, geb. 1956 – Tierentsprechung: B\xfcffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der B\xfcffel, der sich jeder Herde anpasste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>B\xfcffel</strong> ist das Tier der sozialen Neun – ein Herdentier, das sein eigenes Profil zugunsten der Gruppe zur\xfcckstellt und darin Sicherheit findet, gebraucht und eingebunden zu sein. Tom Hanks, 1956 in Concord, Kalifornien geboren, wuchs nach der Scheidung seiner Eltern in einer, wie er selbst es nannte, „zerr\xfctteten" Familie auf: „Drei M\xfctter, vier V\xe4ter, f\xfcnf Schulen, zehn H\xe4user" – bis zu seinem zehnten Lebensjahr hatte er bereits in zehn verschiedenen H\xe4usern gelebt.</p>
+          <p class="vb-intro">Diese st\xe4ndige Notwendigkeit, sich immer wieder neuen Umgebungen, neuen „Stiefeltern" und neuen Klassenkameraden anzupassen, ist der fruchtbare Boden, auf dem ein SO9-Muster w\xe4chst: das eigene Ich wird flexibel, formbar, dienend – nicht aus Schw\xe4che, sondern als \xdcberlebensstrategie in einer instabilen Umgebung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Aufl\xf6sung in die Gemeinschaft als Zuhause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> sucht Zugeh\xf6rigkeit, indem sie die eigenen Bed\xfcrfnisse hinter die der Gruppe zur\xfccktreten l\xe4sst – Naranjo nannte diesen Subtyp „soziale Anpassung": das Selbst l\xf6st sich in Dienst, Harmonie und Zugeh\xf6rigkeit auf. Hanks gilt seit Jahrzehnten als „netter Kerl von Hollywood" – ein Ruf, der nicht auf PR-Inszenierung beruht, sondern auf durchg\xe4ngig dokumentiertem Verhalten: Er lernt die Namen aller Crewmitglieder am Set, unabh\xe4ngig von deren Position, behandelt jeden mit derselben Aufmerksamkeit, hilft unaufgefordert Fremden im Alltag.</p>
+          <p class="vb-intro">Dieses fast reflexhafte Sich-Einf\xfcgen in jede soziale Situation, ohne eigene Bed\xfcrftigkeit in den Vordergrund zu stellen, ist die Signatur der SO9: Die eigene Identit\xe4t wird nicht durch Abgrenzung definiert, sondern durch das reibungslose Aufgehen im gemeinsamen Miteinander.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserfl\xfcgel: Professionalit\xe4t als stille Verpflichtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserfl\xfcgel (w1)</strong> verleiht der Neun eine innere Verpflichtung, die Dinge „richtig" zu machen – nicht als lautes Rechthaben, sondern als stille Gewissenhaftigkeit. Hanks' Ruf f\xfcr Professionalit\xe4t am Set ist legend\xe4r: p\xfcnktlich, vorbereitet, respektvoll gegen\xfcber allen Beteiligten, unabh\xe4ngig von deren Rang.</p>
+          <p class="vb-intro">Besonders sichtbar wird der Einserfl\xfcgel in seinem jahrzehntelangen Engagement f\xfcr die Geschichte des Zweiten Weltkriegs – als Miterschaffer und Produzent von „Band of Brothers" und „Saving Private Ryan" trieb ihn ein fast moralischer Anspruch an historische Genauigkeit und W\xfcrdigung der Zeitzeugen. Als ihm ein Veteran der Serie mangelnde Authentizit\xe4t vorhielt, antwortete er sinngem\xe4\xdf, man werde schon froh sein k\xf6nnen, wenn Hollywood „zw\xf6lf Prozent" der Wahrheit treffe – eine Mischung aus Demut und dem festen Anspruch, es trotzdem so richtig wie irgend m\xf6glich zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der everyman: Rollen als Spiegel der eigenen Anpassungsf\xe4higkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hanks' bekannteste Rollen – Forrest Gump, Woody in „Toy Story", der Fluglotse in „Sully", der Kapit\xe4n in „Captain Phillips" – haben eines gemeinsam: Es sind durchweg Figuren, die sich selbst zur\xfccknehmen, dem Ganzen dienen und in Extremsituationen ruhig, verl\xe4sslich und uneitel bleiben. Diese durchg\xe4ngige Rollenwahl ist kein Zufall, sondern spiegelt die SO9-Grundhaltung: lieber der stille Halt f\xfcr andere sein als selbst im Mittelpunkt zu stehen.</p>
+          <p class="vb-intro">Selbst sein Zitat „Ich f\xfchre ein bescheidenes Leben. Nun ja, ein wertvolles, aber bescheidenes" zeigt dieselbe Haltung: trotz zweifachem Oscar und jahrzehntelangem Weltruhm besteht er auf Normalit\xe4t statt Starallüren – eine bewusste Entscheidung, sich nicht \xfcber die Gemeinschaft zu erheben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist die F\xe4higkeit, <strong>durch echte, uneitle Zugewandtheit Vertrauen und W\xe4rme zu schaffen</strong>, ohne dabei an Integrit\xe4t oder Sorgfalt einzub\xfc\xdfen – Hanks' Ruf als „America's Dad" beruht auf jahrzehntelang konsistentem Verhalten, nicht auf einem einzelnen inszenierten Moment.</p>
+          <p class="vb-intro">Der Schatten der SO9 zeigt sich dort, wo die eigene Bed\xfcrftigkeit hinter der Sorge um andere v\xf6llig verschwindet. Sein Sohn Chet Hanks sprach \xf6ffentlich davon, sich trotz des ber\xfchmten Vaters „komplett wertlos" gef\xfchlt zu haben und mit eigenen Suchtproblemen zu k\xe4mpfen – ein Hinweis darauf, dass die famili\xe4re N\xe4he, die eine SO9 nach au\xdfen verk\xf6rpert, im Inneren nicht automatisch dieselbe emotionale Pr\xe4senz f\xfcr die eigenen Kinder bedeutet, wenn die Aufmerksamkeit prim\xe4r nach au\xdfen, auf die grö\xdfere Gemeinschaft, gerichtet ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der B\xfcffel, der zur ganzen Herde wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Hanks pr\xe4gt seit \xfcber vier Jahrzehnten das amerikanische Kino – nicht durch spektakul\xe4re Selbstinszenierung, sondern durch die stille Konsequenz, mit der er Rolle um Rolle, Set um Set, Begegnung um Begegnung dieselbe zugewandte, uneitle Haltung durchh\xe4lt.</p>
+          <p class="vb-intro">Der B\xfcffel, der sich aus einer zerr\xfctteten Kindheit heraus in eine ganze Nation als Familie hineinlebte, und der auch auf dem H\xf6hepunkt des Weltruhms nie aufh\xf6rte, jeden Namen am Set zu lernen – das ist das bleibende Bild dieser sozialen Neun mit Einserfl\xfcgel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der B\xfcffel: Subtyp-Profil"},
+        {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Portr\xe4t: Peter Falk (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Portr\xe4t: Sandra H\xfcller (SO9w1)"},
       ])}
     </div>
   `);

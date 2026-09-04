@@ -1416,6 +1416,7 @@ export function sandraHuellerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
           {route:"beruehmte-peter-falk", label:"Portr\xe4t: Peter Falk (SO9w1)"},
+          {route:"beruehmte-tom-hanks", label:"Portr\xe4t: Tom Hanks (SO9w1)"},
         ])}
       </div>
     </div>

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=80";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=81";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -2208,6 +2208,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Peter Falk – Social Type 9",
     teaser:"SO9w1 · 1927–2011. Actor, world-famous as TV detective 'Columbo' (1968–2003). Rumpled trench coat, never a weapon, four Emmys. The buffalo with the One-wing: equal attentiveness for everyone in the room, relentless quiet justice. Animal correspondence: Buffalo.",
     tags:["Film","Television"], gender:"m"},
+{ route:"beruehmte-tom-hanks", name:"Tom Hanks", added:"2026-09-04", subtyp:"SO9w1",
+    heading:"Tom Hanks – Social Type 9",
+    teaser:"SO9w1 · born 1956. American actor, Hollywood's 'nicest guy.' Two Oscars, decades-long commitment to World War II history. The buffalo who, out of a fractured childhood, lived his way into an entire nation as family. Animal correspondence: Buffalo.",
+    land:"USA", tags:["Film"], gender:"m"},
 { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan – Social Type 9",
     teaser:"SO9w8 · 1911–2004. 40th President of the USA 1981–1989. The Great Communicator: Morning in America, Evil Empire, Gorbachev. The buffalo that smiles - and that the herd follows.",
@@ -23908,6 +23912,7 @@ function kevinCostnerPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
           {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         ])}
@@ -24036,11 +24041,79 @@ function sandraHuellerPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
           {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+          {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
         ])}
       </div>
     </div>
   `);
 }
+
+function tomHanksPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/tom-hanks-portrait.jpg" alt="Tom Hanks – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tom Hanks</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American actor, born 1956 &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo That Adapted to Every Herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine — a herd animal that sets its own profile aside for the sake of the group, and finds security precisely in being needed and included. Tom Hanks, born in 1956 in Concord, California, grew up after his parents' divorce in what he himself called a "fractured" family: "three mothers, four fathers, five schools, ten houses" — by age ten, he had already lived in ten different houses.</p>
+          <p class="vb-intro">This constant need to adapt again and again to new environments, new stepparents, and new classmates is the fertile ground on which an SO9 pattern grows: the self becomes flexible, moldable, serving — not out of weakness, but as a survival strategy in an unstable environment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Dissolving Into the Community as Home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Nine (SO9)</strong> seeks belonging by letting its own needs recede behind those of the group — Naranjo called this subtype "social adaptation": the self dissolves into service, harmony, and belonging. Hanks has been called Hollywood's "nicest guy" for decades — a reputation that rests not on PR staging, but on consistently documented behavior: he learns the names of every crew member on set, regardless of their position, treats everyone with the same attentiveness, and helps strangers unasked in everyday life.</p>
+          <p class="vb-intro">This almost reflexive fitting into every social situation, without putting his own neediness in the foreground, is the signature of the SO9: identity is defined not through boundary-setting, but through frictionless dissolving into shared togetherness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Professionalism as a Quiet Obligation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> lends the Nine an inner obligation to do things "right" — not as loud self-righteousness, but as quiet conscientiousness. Hanks's reputation for professionalism on set is legendary: punctual, prepared, respectful toward everyone involved, regardless of rank.</p>
+          <p class="vb-intro">The One-wing is especially visible in his decades-long commitment to World War II history — as co-creator and producer of "Band of Brothers" and "Saving Private Ryan," he was driven by an almost moral insistence on historical accuracy and honoring the veterans. When a veteran told him the series lacked authenticity, he reportedly replied that they'd be lucky if Hollywood got "twelve percent" of the truth right — a mixture of humility and the firm insistence on getting it as right as humanly possible anyway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Everyman: Roles as a Mirror of His Own Adaptability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hanks's best-known roles — Forrest Gump, Woody in "Toy Story," the air traffic controller in "Sully," the captain in "Captain Phillips" — share one thing: they are consistently characters who set themselves aside, serve the whole, and remain calm, reliable, and unvain in extreme situations. This consistent choice of roles is no accident, but mirrors the SO9's basic stance: better to be the quiet anchor for others than to stand in the spotlight oneself.</p>
+          <p class="vb-intro">Even his own quote, "I lead a modest life. Well, valuable, but modest," shows the same attitude: despite two Oscars and decades of global fame, he insists on normalcy over star behavior — a deliberate choice not to place himself above the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 is the ability to <strong>create trust and warmth through genuine, unvain attentiveness</strong> without sacrificing integrity or care — Hanks's reputation as "America's Dad" rests on decades of consistent behavior, not a single staged moment.</p>
+          <p class="vb-intro">The shadow of the SO9 shows itself where one's own neediness disappears entirely behind concern for others. His son Chet Hanks has spoken publicly about feeling "completely worthless" despite his famous father, and about struggling with his own addiction issues — a sign that the closeness an SO9 embodies outwardly does not automatically translate into the same emotional presence for their own children when attention is primarily directed outward, toward the larger community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo That Became the Whole Herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tom Hanks has defined American cinema for over four decades — not through spectacular self-promotion, but through the quiet consistency with which he sustains the same attentive, unvain stance role after role, set after set, encounter after encounter.</p>
+          <p class="vb-intro">The buffalo who, out of a fractured childhood, lived his way into an entire nation as family, and who, even at the height of world fame, never stopped learning every name on set — that is the lasting image of this particular social Nine with a One-wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function peterFalkPortraitPage() {
   return shell(`
@@ -24101,6 +24174,7 @@ function peterFalkPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk – Alzheimer's disease"},
         {route:"bibel-barabbas", label:"Bible Portrait: Barabbas (SO9w1)"},
@@ -52003,12 +52077,12 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Buffalo",
     kernthema: "Identity through belonging to a community, not through the individual person (Naranjo: Participation)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas", "Tom Hanks"],
     fingerabdruecke: [
       {
         titel: "Identity through belonging to a cause or community, not through the individual person",
         beschreibung: "Naranjo called this subtype the one of 'Participation': the self does not appear as an individual, but merges with a group, an idea, or a larger cause – its thinking and feeling becomes one's own.",
-        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself; Dr. Alan McElligott, who studied not the single animal but the web of relationships across the entire buffalo herd – and whose own research style favors teams and collaboration over going it alone.; Barabbas (Bible portrait), who as a young man dissolved completely into a rebellious crowd: 'He wanted to remain connected, with the people, with the cause, with the movement,' and who, even once freed, was perceived not as an individual but only as whatever the crowd had taken him to be."
+        beleg: "Julian Assange: 'An animal that defines itself not through going it alone, but through being bound to a larger cause ... He doesn't fight for himself – he fights for something bigger than his own survival'; Kevin Costner: 'He is part of something bigger, and he knows it'; Amelia Earhart, whose 'real project was never personal thrill, but the proof that women can fly like men.'; Sandra Hüller, who in interviews rarely talks about herself as a star, almost always about the ensemble, the team, the direction – and stayed loyal to her theater in Leipzig despite international fame; Wilma Mankiller, who carried a Cherokee honorific title that literally means 'protector of the people,' and laid her first major project's water line together with residents – not as an outside administrator, but as part of the cause itself; Dr. Alan McElligott, who studied not the single animal but the web of relationships across the entire buffalo herd – and whose own research style favors teams and collaboration over going it alone.; Barabbas (Bible portrait), who as a young man dissolved completely into a rebellious crowd: 'He wanted to remain connected, with the people, with the cause, with the movement,' and who, even once freed, was perceived not as an individual but only as whatever the crowd had taken him to be; Tom Hanks, whose legendary habit of learning the names of every crew member on set, regardless of position, shows the same underlying stance as Hüller's – significance arises not from star status, but from frictionless dissolving into the shared whole."
       },
       {
         titel: "Calm, unhurried presence that the herd nonetheless follows",
@@ -112348,6 +112422,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-bryn-kenney": brynKenneyPortraitPage,
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
+      "beruehmte-tom-hanks": tomHanksPortraitPage,
       "beruehmte-dietmar-baer": dietmarBaerPortraitPage,
       "beruehmte-klaus-j-behrendt": klausJBehrendtPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,

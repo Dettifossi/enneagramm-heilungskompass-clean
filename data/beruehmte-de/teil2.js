@@ -902,6 +902,7 @@ export function kevinCostnerPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+          {route:"beruehmte-tom-hanks", label:"Portr\xe4t: Tom Hanks (SO9w1)"},
           {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
           {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
         ])}
