@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=86";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=87";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -349,6 +349,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-michael-jackson", name:"Michael Jackson", subtyp:"SO4w3", heading:"Michael Jackson – Social Type 4", krankheit:"Decades-long dependence on pain and sleep medication, concealed vitiligo", teaser:"SO4w3 – singer, dancer, and composer, 1958–2009. Opioid treatment after a severe scalp burn in 1984, followed from the 1990s by increasingly severe, treatment-resistant insomnia. Latterly received propofol as an at-home sleep aid – a use far outside any medical norm. Died in 2009 of acute cardiac arrest from a propofol overdose, weeks before his planned comeback tour." , land:"USA", gender:"m", jahre:"1958–2009"},
   { route:"krankheitsportraets-hans-christian-andersen", name:"Hans Christian Andersen", subtyp:"SO4w3", heading:"Hans Christian Andersen – Social Type 4", krankheit:"Lifelong hypochondria, neglected dental problems, suspected liver cancer", teaser:"SO4w3 – writer, fairy-tale author, 1805–1875. Meticulously documented worry about minor complaints alongside decades of silently endured toothaches. Progressive decline after a fall in 1872, cared for by the friendly Melchior family. Died in 1875 of a suspected cancer of the liver, with a state funeral attended by the Danish royal family." , land:"Denmark", gender:"m", jahre:"1805–1875"},
   { route:"krankheitsportraets-heinrich-heine", name:"Heinrich Heine", subtyp:"SO4w3", heading:"Heinrich Heine – Social Type 4", krankheit:"Progressive, to this day not reliably diagnosed paralysis (the 'mattress grave'), eight years bedridden", teaser:"SO4w3 – poet, 1797–1856. Paralyzed from May 1848 onward, blind in one eye, dependent on opium and morphine. Wrote and dictated until the end, including the poetry collection 'Romanzero'. Died on February 17, 1856, in Paris, without ever rising from bed again." , land:"Germany/France", gender:"m", jahre:"1797–1856"},
+  { route:"krankheitsportraets-edvard-munch", name:"Edvard Munch", subtyp:"SO4w5", heading:"Edvard Munch – Social Type 4", krankheit:"1908 nervous breakdown, life-threatening Spanish flu in 1918/19, near-blinding eye disease in 1930", teaser:"SO4w5 – painter, 1863–1944. From childhood trauma through a nervous breakdown to threatened blindness in old age – every crisis became the subject of public self-portraits rather than a hidden chapter." , land:"Norway", gender:"m", jahre:"1863–1944"},
   { route:"krankheitsportraets-karl-lagerfeld", name:"Karl Lagerfeld", subtyp:"SO3w4", heading:"Karl Lagerfeld – Social Type 3", krankheit:"Cancer (cause of death never officially confirmed; assistant reported prostate cancer, diagnosed 2015)", teaser:"SO3w4 – fashion designer and Chanel creative director, 1933–2019. According to consistent reports, kept a cancer diagnosis secret for nearly four years even from those closest to him, and missed a Chanel show for the first time in 35 years only four weeks before his death." , land:"Germany/France", gender:"m", jahre:"1933–2019"},
   { route:"krankheitsportraets-robert-schumann", name:"Robert Schumann", subtyp:"SX7w8", heading:"Robert Schumann – Sexual Type 7", krankheit:"Mental illness (retrospectively discussed: bipolar disorder, schizoaffective illness, or a late neurological effect of a syphilis infection)", teaser:"SX7w8 – composer and music critic, 1810–1856. Jumped into the Rhine in 1854 in a fit of utter despair, then himself asked to be admitted to an asylum near Bonn, where he died in 1856, largely isolated from his wife Clara until shortly before his death." , land:"Germany", gender:"m", jahre:"1810–1856"},
   { route:"krankheitsportraets-christoph-kolumbus", name:"Christopher Columbus", subtyp:"SE7w8", heading:"Christopher Columbus – Self-Preservation Type 7", krankheit:"Chronic, recurring joint inflammation (likely reactive arthritis/Reiter's syndrome) with fever spells and temporary blindness, ultimately fatal", teaser:"SE7w8 – navigator, c. 1451–1506. Recurring joint pain, fever, and bleeding eyes from 1498 on, yet undertook a fourth Atlantic crossing in 1502 regardless, died in 1506 from the long-term effects, never easing off." , land:"Italy/Spain", gender:"m", jahre:"c. 1451–1506"},
@@ -53344,7 +53345,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A suffering either downplayed publicly or hidden in shame – hypochondria and actual illness often sit close together in this group.",
-    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine"],
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine", "Edvard Munch"],
     fingerabdruecke: [
       {
         titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
@@ -53352,9 +53353,9 @@ const KRANKHEITSMUSTERKOMPASS = {
         beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed."
       },
       {
-        titel: "So far only one striking counter-case – the suffering is processed publicly in literature instead of hidden",
-        beschreibung: "With only one documented case so far, a second pattern cannot yet be claimed – it stands out precisely because it runs opposite to the concealment otherwise observed in this subtype.",
-        beleg: "Heinrich Heine, who did not conceal his eight years of paralysis in the 'mattress grave,' but made it the direct literary subject of his poetry collection 'Romanzero' and a poem titled 'Morphine,' while continuing to receive visitors until the end rather than withdrawing."
+        titel: "The counter-case: the suffering is made a public artistic subject instead of being hidden",
+        beschreibung: "Some cases run directly opposite to the concealment described above – here the own illness is made public deliberately and repeatedly instead of being kept quiet.",
+        beleg: "Heinrich Heine, who did not conceal his eight years of paralysis in the 'mattress grave,' but made it the direct literary subject of his poetry collection 'Romanzero' and a poem titled 'Morphine,' while continuing to receive visitors until the end rather than withdrawing; Edvard Munch, who captured his nervous breakdown, flu illness and a near-blinding eye disease alike in self-portraits, among them 'Self-Portrait with the Spanish Flu' and drawings of his own 'entoptic' visual disturbances."
       }
     ]
   },
@@ -61833,6 +61834,182 @@ function hansChristianAndersenKrankheitsportraetPage() {
   `);
 }
 
+function edvardMunchKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/edvard-munch-portrait.jpg" alt="Edvard Munch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edvard Munch</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-wing · 1863–1944</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Edvard Munch</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-edvard-munch">famous-personality portrait</a>
+        – that page covers his painterly work and his type structure in general. This page
+        focuses on the chain of health crises that accompanied his life from childhood into
+        old age: chronic fear of death, a severe nervous breakdown, a life-threatening bout
+        of influenza, and an eye disease in his last decade that nearly left him blind.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Munch</strong> is assigned to the <strong>Social Type 4 with Five-wing</strong>.
+        SO4 makes its own otherness a public subject rather than hiding it; the Five-wing
+        gives that public exposure an analytical, almost clinical distance from the suffering
+        itself. This exact pattern determined how Munch dealt with each of his illnesses:
+        never as a private secret, but again and again as material for systematic artistic
+        self-observation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A childhood overshadowed by death and illness:</strong>
+        Munch's mother died of tuberculosis when he was five; his older sister Sophie followed
+        ten years later, at fifteen, from the same disease. Munch himself was a sickly child,
+        confronted with his own mortality from an early age.</p>
+        <p class="vb-intro"><strong>b) A family burden he could never shake off:</strong>
+        Both his grandfather and his father suffered from severe melancholy; his sister Laura
+        spent much of her life in psychiatric clinics due to psychosis. Munch grew up with the
+        feeling that this vulnerability might strike him too.</p>
+        <p class="vb-intro"><strong>c) An injury to his left hand that became a trauma:</strong>
+        In 1902, during an argument with his fiancée Tulla Larsen, a revolver shot cost him
+        part of a finger — an event he processed artistically in several self-portraits,
+        including a "Marat" motif.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The 1908 nervous breakdown:</strong>
+        After years of excessive drinking and mounting inner exhaustion, Munch suffered a
+        severe physical and psychological breakdown in Copenhagen — with auditory
+        hallucinations and paralysis on his left side.</p>
+        <p class="vb-intro"><strong>b) Eight months at Dr. Daniel Jacobson's nerve clinic:</strong>
+        Munch suffered from agoraphobia, depression with persecutory delusions, and suicidal
+        thoughts; he was alcohol-dependent and abused sedatives and stimulants. He was treated
+        with diets, baths, fresh-air cures, psychotherapy, and non-convulsive electrotherapy
+        using weak currents.</p>
+        <p class="vb-intro"><strong>c) Complete abstinence as a turning point:</strong>
+        After his discharge in 1909, Munch lived in strict sobriety — a consequence that
+        contributed to a marked, lasting improvement in his condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) The Spanish flu of 1918/19:</strong>
+        Munch, who feared influenza his entire life, fell dangerously ill in the winter of
+        1918/19. Rather than concealing the illness, he painted himself — emaciated,
+        exhausted, at times feverish and delirious — in several self-portraits, including
+        "Self-Portrait with the Spanish Flu" and "Self-Portrait After the Spanish Flu."</p>
+        <p class="vb-intro"><strong>b) An eye disease in 1930:</strong>
+        In the autumn of 1930, the retina of his right eye tore and blood entered the
+        vitreous humor — with his left eye already having lost significant vision after a
+        brawl in 1904, he now faced the possibility of total blindness.</p>
+        <p class="vb-intro"><strong>c) Scientific self-observation instead of despair:</strong>
+        Rather than withdrawing, Munch began drawing his own visual disturbances — the
+        "entoptic" phenomena within his own eye, including misty, fibrillar shadows that at
+        times took the form of a bird's head with wings. Out of this observation came, among
+        other works, the watercolor "Retina Optical Illusion."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Four separate crises across seven decades:</strong>
+        From childhood trauma through the 1908 breakdown and the 1918/19 Spanish flu to the
+        1930 eye disease, health threats run through Munch's entire life like a red thread.</p>
+        <p class="vb-intro"><strong>b) A long life despite it all:</strong>
+        Munch died in 1944 at the age of 80 — an unusually long life given the repeated,
+        sometimes life-threatening crises he faced.</p>
+        <p class="vb-intro"><strong>c) Illness as a recurring visual motif:</strong>
+        From "The Sick Child" (dedicated to his dying sister Sophie) to the late works on his
+        own eye disease, the artistic processing of illness runs through his entire body of
+        work as a subject in its own right.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Five-wing under maximum strain — suffering becomes research:</strong>
+        When blindness threatened in 1930, Munch responded not with withdrawal but with
+        almost clinical curiosity — he began systematically documenting his own visual
+        disturbances, as if treating himself as a research subject. That is the typical
+        Five-wing response to threat: distance through observation rather than through
+        feeling.</p>
+        <p class="vb-intro"><strong>b) A shift toward One-like precision under sustained stress:</strong>
+        Under chronic pressure, the Four moves toward its stress point, the One — visible in
+        the almost scientific systematics with which Munch drew his "entoptic" perceptions:
+        precise, repeated, almost documentary in its accuracy, rather than impulsively
+        emotional as is otherwise characteristic of the Four.</p>
+        <p class="vb-intro"><strong>c) Public art instead of private suffering:</strong>
+        Each of his crises — the hand injury, the flu, the eye disease — became the subject
+        of publicly exhibited self-portraits, never a concealed private chapter.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A parallel within the same subtype — Heinrich Heine (SO4w3):</strong>
+        Munch's way of handling illness finds a striking parallel in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-heinrich-heine">Illness Portrait of Heinrich Heine</a>
+        — also a social Four, there with a Three-wing. Where Heine did not conceal his
+        eight-year paralysis but made it the direct subject of poems like "Morphine" and
+        received visitors until the end, Munch did the same with the brush: flu, eye disease,
+        the injured hand — every crisis became an exhibition piece rather than a hidden flaw.
+        Two different wings of the same social Four, the same underlying pattern: visibility
+        as a coping strategy.</p>
+        <p class="vb-intro"><strong>b) Why the nerves and eyes, of all things?</strong>
+        For a social Four whose entire self-understanding rests on public visibility, one
+        interpretation suggests itself: precisely the organs most directly tied to perceiving
+        and being perceived — the eyes that see, and the nervous system that regulates inner
+        arousal — repeatedly became, in Munch's case, the site of illness. This interpretation
+        is a plausible reading, not a documented historical causal link, and is developed
+        further in this Compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>c) Placing this without determinism:</strong>
+        This does not mean the pattern of the social Four inevitably leads to nerve or eye
+        disease — <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Munch's case shows is a pattern in how a pronounced social Four with Five-wing handles
+        repeated health threats — one possible reading among many, not a verdict. The
+        corresponding illness profile is gradually being developed in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
+        Munch did not know his own Enneagram pattern — the social Four with Five-wing
+        processes existential threat through analytical observation and public depiction
+        rather than through quiet withdrawal. He lived out exactly this pattern unconsciously
+        and without restraint: every new crisis became new artistic material, instead of his
+        ever learning to withdraw fully and rest in time. Whoever does not recognize their own
+        longing for analytical distance as a pattern easily mistakes it for pure artistic
+        curiosity, even though their own fixation plays a part too.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Four with Five-wing explains much about the course of
+        <strong>Munch's</strong> repeated illnesses: a man surrounded by illness and death his
+        entire life turned every new crisis into an object of analytical artistic observation,
+        rather than hiding it. The armadillo that never hid its shell of fear and illness, but
+        made it the most visible feature of its entire body of work.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5) – life's work"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3) – the same coping strategy, a different wing"},
+        {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – lifelong asthma"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+
 function heinrichHeineKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -61972,13 +62149,20 @@ function heinrichHeineKrankheitsportraetPage() {
         among many, not a verdict. The corresponding illness profile is gradually being
         developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        <p class="vb-intro"><strong>e) The unconscious fixation as its own factor:</strong>
         Heine did not know his own pattern &ndash; the social Four with Three-wing needs
         an audience to confirm its own significance, and exactly this need he lived out
         into his final weeks of life, receiving visitors and dictating rather than
         withdrawing into silence. Whoever does not recognize their own longing for
         visibility as a pattern easily mistakes it for pure creative drive, even though
         their own fixation plays a part too.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) A parallel within the same subtype – Edvard Munch (SO4w5):</strong>
+        A striking parallel appears in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-edvard-munch">Illness Portrait of Edvard Munch</a>
+        — also a social Four, there with a Five-wing. Where Heine processed his paralysis in
+        poems, Munch painted every one of his crises — flu, eye disease, hand injury — in
+        self-portraits. Two different wings of the same social Four, the same underlying
+        pattern: visibility as a coping strategy rather than concealment.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -61997,6 +62181,7 @@ function heinrichHeineKrankheitsportraetPage() {
         {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3) – life's work"},
         {route:"krankheitsportraets-hans-christian-andersen", label:"Illness Portrait: Hans Christian Andersen (SO4w3)"},
         {route:"krankheitsportraets-romy-schneider", label:"Illness Portrait: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5) – the same coping strategy, a different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -67414,6 +67599,7 @@ function marcelProustKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – life's work"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5) – the same race against time"},
+        {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -113012,6 +113198,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-michael-jackson": michaelJacksonKrankheitsportraetPage,
       "krankheitsportraets-hans-christian-andersen": hansChristianAndersenKrankheitsportraetPage,
       "krankheitsportraets-heinrich-heine": heinrichHeineKrankheitsportraetPage,
+      "krankheitsportraets-edvard-munch": edvardMunchKrankheitsportraetPage,
       "krankheitsportraets-romy-schneider": romySchneiderKrankheitsportraetPage,
       "krankheitsportraets-karl-lagerfeld": karlLagerfeldKrankheitsportraetPage,
       "krankheitsportraets-robert-schumann": robertSchumannKrankheitsportraetPage,

@@ -3809,3 +3809,185 @@ export function giacomoCasanovaKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function edvardMunchKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/edvard-munch-portrait.jpg" alt="Edvard Munch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edvard Munch</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1863–1944</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Edvard Munch</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-edvard-munch">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein malerisches Werk und seine
+        Typstruktur im Allgemeinen. Im Zentrum dieser Seite steht die Kette gesundheitlicher
+        Krisen, die sein Leben von der Kindheit bis ins hohe Alter begleitete: chronische
+        Todesangst, ein schwerer Nervenzusammenbruch, eine lebensbedrohliche Grippeerkrankung
+        und eine fast erblindende Augenkrankheit im letzten Lebensjahrzehnt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Munch</strong> ist dem <strong>sozialen Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SO4 macht das eigene Anderssein öffentlich zum Thema, statt es zu
+        verbergen; der Fünferflügel verleiht dieser Öffentlichkeit eine analytische, fast
+        klinische Distanz zum eigenen Leiden. Genau dieses Muster bestimmte, wie Munch mit
+        jeder seiner Erkrankungen umging: nie als privates Geheimnis, sondern immer wieder
+        als Gegenstand systematischer künstlerischer Selbstbeobachtung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine von Tod und Krankheit überschattete Kindheit:</strong>
+        Munchs Mutter starb an Tuberkulose, als er fünf war; seine ältere Schwester Sophie
+        folgte zehn Jahre später, mit fünfzehn, an derselben Krankheit. Munch selbst war ein
+        kränkliches Kind, das von früh an mit der eigenen Sterblichkeit konfrontiert war.</p>
+        <p class="vb-intro"><strong>b) Eine familiäre Vorbelastung, die er nie abschütteln konnte:</strong>
+        Sowohl Großvater als auch Vater litten unter schweren Melancholien; seine Schwester
+        Laura verbrachte große Teile ihres Lebens wegen einer Psychose in psychiatrischen
+        Kliniken. Munch wuchs mit dem Gefühl auf, diese Anfälligkeit könne auch ihn treffen.</p>
+        <p class="vb-intro"><strong>c) Eine Verletzung in der linken Hand, die zum Trauma wurde:</strong>
+        1902 verlor er bei einem Streit mit seiner Verlobten Tulla Larsen durch einen
+        Revolverschuss ein Fingerglied – ein Ereignis, das er in mehreren Selbstporträts,
+        unter anderem als „Marat"-Motiv, künstlerisch verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Nervenzusammenbruch von 1908:</strong>
+        Nach Jahren exzessiven Alkoholkonsums und wachsender innerer Erschöpfung erlitt Munch
+        in Kopenhagen einen schweren körperlichen und psychischen Zusammenbruch – mit
+        akustischen Halluzinationen und einer Lähmung der linken Körperseite.</p>
+        <p class="vb-intro"><strong>b) Acht Monate in der Nervenklinik von Dr. Daniel Jacobson:</strong>
+        Munch litt unter Platzangst, Depression mit Verfolgungswahn und Suizidgedanken, war
+        alkoholabhängig und missbrauchte Schlaf- und Aufputschmittel. Behandelt wurde er mit
+        Diäten, Bädern, Frischluftkuren, Psychotherapie und einer nicht-krampfauslösenden
+        Elektrotherapie mit schwachen Strömen.</p>
+        <p class="vb-intro"><strong>c) Vollständige Abstinenz als Wendepunkt:</strong>
+        Nach seiner Entlassung 1909 lebte Munch strikt alkoholabstinent – eine Konsequenz,
+        die zur spürbaren, dauerhaften Besserung seines Zustands beitrug.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Spanische Grippe 1918/19:</strong>
+        Munch, der sich zeitlebens vor Influenza fürchtete, erkrankte im Winter 1918/19
+        lebensbedrohlich. Statt die Krankheit zu verbergen, malte er sich selbst –
+        abgemagert, erschöpft, teils im Fieberdelirium – in mehreren Selbstporträts, darunter
+        „Selbstbildnis mit Spanischer Grippe" und „Selbstbildnis nach Influenza".</p>
+        <p class="vb-intro"><strong>b) Eine Augenkrankheit im Jahr 1930:</strong>
+        Im Herbst 1930 riss die Netzhaut seines rechten Auges ein, Blut trat in den
+        Glaskörper – nachdem das linke Auge bereits 1904 durch eine Schlägerei erheblich an
+        Sehkraft verloren hatte, drohte ihm nun die vollständige Erblindung.</p>
+        <p class="vb-intro"><strong>c) Wissenschaftliche Selbstbeobachtung statt Verzweiflung:</strong>
+        Statt sich zurückzuziehen, begann Munch, die eigenen Sehstörungen zu zeichnen – die
+        „entoptischen" Phänomene innerhalb des eigenen Auges, darunter nebelhafte, faserartige
+        Schatten, die zeitweise die Form eines Vogelkopfes mit Flügeln annahmen. Aus dieser
+        Beobachtung entstand unter anderem das Aquarell „Netzhaut-Sinnestäuschung".</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Vier verschiedene Krisen über sieben Jahrzehnte:</strong>
+        Von der Kindheitstraumatisierung über den Nervenzusammenbruch 1908 und die
+        Spanische Grippe 1918/19 bis zur Augenkrankheit 1930 zieht sich gesundheitliche
+        Bedrohung wie ein roter Faden durch Munchs gesamtes Leben.</p>
+        <p class="vb-intro"><strong>b) Ein hohes Lebensalter trotz allem:</strong>
+        Munch starb 1944 im Alter von 80 Jahren – ein Leben, das trotz wiederholter,
+        teils lebensbedrohlicher Krisen ungewöhnlich lang währte.</p>
+        <p class="vb-intro"><strong>c) Krankheit als durchgehendes Bildmotiv:</strong>
+        Von „Das kranke Kind" (seiner sterbenden Schwester Sophie gewidmet) bis zu den
+        Spätwerken zur eigenen Augenkrankheit zieht sich die künstlerische Verarbeitung
+        von Krankheit als eigenständiges Thema durch sein gesamtes Œuvre.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Fünferflügel unter Höchstbelastung – aus Leiden wird Forschung:</strong>
+        Als 1930 die Erblindung drohte, reagierte Munch nicht mit Rückzug, sondern mit fast
+        klinischer Neugier – er begann, die eigenen Sehstörungen systematisch zu dokumentieren,
+        als würde er sich selbst wie ein Forschungsobjekt betrachten. Das ist die typische
+        Fünferflügel-Antwort auf Bedrohung: Distanz durch Beobachtung statt durch Gefühl.</p>
+        <p class="vb-intro"><strong>b) Verschiebung Richtung Einser-Genauigkeit unter Dauerstress:</strong>
+        Unter chronischem Druck bewegt sich die Vier auf ihren Stresspunkt, die Eins, zu –
+        erkennbar an der fast wissenschaftlichen Systematik, mit der Munch seine
+        „entoptischen" Wahrnehmungen zeichnete: präzise, wiederholt, fast dokumentarisch
+        genau, statt impulsiv-emotional wie sonst für die Vier charakteristisch.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Kunst statt privates Leiden:</strong>
+        Jede seiner Krisen – die Handverletzung, die Grippe, die Augenkrankheit – wurde zum
+        Gegenstand öffentlich ausgestellter Selbstporträts, nie zu einem verschwiegenen
+        privaten Kapitel.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Parallele im gleichen Subtyp – Heinrich Heine (SO4w3):</strong>
+        Munchs Umgang mit Krankheit findet eine auffällige Parallele im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-heinrich-heine">Krankheitsporträt Heinrich Heines</a>
+        – ebenfalls eine soziale Vier, dort mit Dreierflügel. Wo Heine seine acht Jahre
+        währende Lähmung nicht verschwieg, sondern in Gedichten wie „Morphine" direkt zum
+        literarischen Thema machte und bis zuletzt Besucher empfing, tat Munch dasselbe mit
+        dem Pinsel: Grippe, Augenkrankheit, die verletzte Hand – jede Krise wurde zum
+        Ausstellungsstück statt zum verborgenen Makel. Zwei verschiedene Flügel derselben
+        sozialen Vier, dasselbe Grundmuster: Sichtbarkeit als Bewältigungsstrategie.</p>
+        <p class="vb-intro"><strong>b) Warum ausgerechnet Nerven und Augen?</strong>
+        Für eine soziale Vier, deren gesamtes Selbstverständnis auf öffentlicher Sichtbarkeit
+        beruht, liegt eine Deutung nahe: Ausgerechnet die Organe, die unmittelbar mit
+        Wahrnehmen und Wahrgenommenwerden verbunden sind – die Augen, die sehen, und das
+        Nervensystem, das die innere Erregung reguliert – wurden bei Munch wiederholt zum Ort
+        der Krankheit. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Nerven- oder
+        Augenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Munchs Fall zeigen lässt, ist ein Muster
+        im Umgang mit wiederholter gesundheitlicher Bedrohung, das bei einer ausgeprägten
+        sozialen Vier mit Fünferflügel auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Munch kannte sein eigenes Enneagramm-Muster nicht – die soziale Vier mit
+        Fünferflügel verarbeitet existenzielle Bedrohung durch analytische Beobachtung und
+        öffentliche Darstellung, statt durch stille Zurückgezogenheit. Genau dieses Muster
+        lebte er unbewusst und ungebremst aus: Jede neue Krise wurde zu neuem künstlerischem
+        Material, statt dass er rechtzeitig lernte, sich auch einmal ganz zurückzuziehen und
+        auszuruhen. Wer die eigene Sehnsucht nach analytischer Distanz nicht als Muster
+        erkennt, verwechselt sie leicht mit reiner künstlerischer Neugier, obwohl auch die
+        eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Vier mit Fünferflügel erklärt bei <strong>Munch</strong> vieles am
+        Verlauf seiner wiederholten Erkrankungen: ein Mann, der sein ganzes Leben lang von
+        Krankheit und Tod umgeben war, verwandelte jede neue Krise in ein Objekt
+        analytischer künstlerischer Beobachtung, statt sie zu verbergen. Das Gürteltier, das
+        seinen Panzer aus Angst und Krankheit nie versteckte, sondern zum sichtbarsten
+        Merkmal seines gesamten Werks machte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-edvard-munch", label:"Porträt: Edvard Munch (SO4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – dieselbe Bewältigungsstrategie, anderer Flügel"},
+        {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – lebenslanges Asthma"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}

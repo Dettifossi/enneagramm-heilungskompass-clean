@@ -2375,6 +2375,7 @@ export function marcelProustKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5) – Lebenswerk"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5) – derselbe Wettlauf gegen die Zeit"},
+        {route:"krankheitsportraets-edvard-munch", label:"Krankheitsporträt: Edvard Munch (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
@@ -3821,13 +3822,20 @@ export function heinrichHeineKrankheitsportraetPage() {
         entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Heine kannte sein eigenes Muster nicht &ndash; die soziale Vier mit Dreierflügel
         braucht ein Publikum, um die eigene Bedeutung zu bestätigen, und genau dieses
         Bedürfnis lebte er bis in die letzten Wochen seines Lebens aus, indem er Besucher
         empfing und diktierte, statt sich in Stille zurückzuziehen. Wer die eigene
         Sehnsucht nach Sichtbarkeit nicht als Muster erkennt, verwechselt sie leicht mit
         reiner Schaffenskraft, obwohl auch die eigene Fixierung mitentscheidet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Parallele im gleichen Subtyp – Edvard Munch (SO4w5):</strong>
+        Eine auffällige Parallele findet sich im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-edvard-munch">Krankheitsporträt Edvard Munchs</a>
+        – ebenfalls eine soziale Vier, dort mit Fünferflügel. Wo Heine seine Lähmung in
+        Gedichten verarbeitete, malte Munch jede seiner Krisen &ndash; Grippe, Augenkrankheit,
+        Handverletzung &ndash; in Selbstporträts. Zwei verschiedene Flügel derselben sozialen
+        Vier, dasselbe Grundmuster: Sichtbarkeit als Bewältigungsstrategie statt Verbergen.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -3846,6 +3854,7 @@ export function heinrichHeineKrankheitsportraetPage() {
         {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3) – Lebenswerk"},
         {route:"krankheitsportraets-hans-christian-andersen", label:"Krankheitsporträt: Hans Christian Andersen (SO4w3)"},
         {route:"krankheitsportraets-romy-schneider", label:"Krankheitsporträt: Romy Schneider (SO4w3)"},
+        {route:"krankheitsportraets-edvard-munch", label:"Krankheitsporträt: Edvard Munch (SO4w5) – dieselbe Bewältigungsstrategie, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
