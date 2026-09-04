@@ -1712,9 +1712,9 @@ export function johnIoannidisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-john-ioannidis-portrait.jpg" alt="John Ioannidis – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="./assets/portraits/beruehmte-john-ioannidis-portrait.jpg" alt="Prof. Dr. John Ioannidis – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">John Ioannidis</p>
+        <p class="krim-portrait-name">Prof. Dr. John Ioannidis</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Arzt, Epidemiologe &amp; Wissenschaftsmethodiker, geb. 1965 &ndash; Tierentsprechung: Biber</p>
       </div>
@@ -1722,7 +1722,7 @@ export function johnIoannidisPortraitPage() {
 
         <h2 class="vb-section">1. Der Biber, der das System selbst reparierte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich allein baut, sondern ganze Ökosysteme umgestaltet, von denen viele andere profitieren. John Ioannidis, geboren 1965 in New York, aufgewachsen in Athen, schloss sein Medizinstudium an der Universität Athen 1990 als Jahrgangsbester ab. Statt sich mit einer glänzenden klinischen Karriere zu begnügen, wandte er sich einer Frage zu, die kaum jemand vor ihm ernsthaft gestellt hatte: Wie zuverlässig ist eigentlich die Wissenschaft selbst?</p>
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich allein baut, sondern ganze Ökosysteme umgestaltet, von denen viele andere profitieren. Prof. Dr. John Ioannidis, geboren 1965 in New York, aufgewachsen in Athen, schloss sein Medizinstudium an der Universität Athen 1990 als Jahrgangsbester ab. Statt sich mit einer glänzenden klinischen Karriere zu begnügen, wandte er sich einer Frage zu, die kaum jemand vor ihm ernsthaft gestellt hatte: Wie zuverlässig ist eigentlich die Wissenschaft selbst?</p>
           <p class="vb-intro">Seine Antwort, der 2005 veröffentlichte Aufsatz „Why Most Published Research Findings Are False", wurde zum meistgelesenen Artikel in der Geschichte der Fachzeitschrift PLOS – über drei Millionen Aufrufe. Kein Biber baut einen einzelnen Damm für sich selbst. Ioannidis baute ein ganzes System zur Selbstkorrektur der Wissenschaft.</p>
         </blockquote>
 

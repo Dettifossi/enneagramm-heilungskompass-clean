@@ -1297,8 +1297,8 @@ const BERUEHMT_PORTRAITS = [
     heading:"Nikola Tesla – Social Type 7",
     teaser:"SO7w6 · 1856–1943. Inventor, engineer. Alternating current, Wardenclyffe Tower, War of the Currents with Edison. The beaver that wanted to give free energy to all humanity and, in the end, loved only a single white dove. Animal correspondence: Beaver.",
     land:"Serbia/USA", tags:["Wissenschaft","Geschichte"], gender:"m"},
-{ route:"beruehmte-john-ioannidis", name:"John Ioannidis", added:"2026-09-04", subtyp:"SO7w6",
-    heading:"John Ioannidis – Social Type 7",
+{ route:"beruehmte-john-ioannidis", name:"Prof. Dr. John Ioannidis", added:"2026-09-04", subtyp:"SO7w6",
+    heading:"Prof. Dr. John Ioannidis – Social Type 7",
     teaser:"SO7w6 · born 1965. Physician, epidemiologist, research methodologist. Founded METRICS at Stanford University to improve the reliability of science itself – and defended his data against considerable public pressure during the Covid-19 pandemic.",
     land:"Greece/USA", tags:["Wissenschaft","Medizin"], gender:"m"},
 { route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
@@ -39057,9 +39057,9 @@ function johnIoannidisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="../assets/portraits/beruehmte-john-ioannidis-portrait.jpg" alt="John Ioannidis – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/beruehmte-john-ioannidis-portrait.jpg" alt="Prof. Dr. John Ioannidis – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">John Ioannidis</p>
+        <p class="krim-portrait-name">Prof. Dr. John Ioannidis</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
         <p class="krim-portrait-subtitle">Physician, epidemiologist &amp; research methodologist, born 1965 &ndash; Animal correspondence: Beaver</p>
       </div>
@@ -39067,7 +39067,7 @@ function johnIoannidisPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Repaired the System Itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Beaver</strong> is the animal of Social Type 7 &ndash; an animal that does not build for itself alone, but reshapes entire ecosystems that many others come to depend on. John Ioannidis, born in 1965 in New York and raised in Athens, graduated top of his class from the University of Athens medical school in 1990. Rather than settling for a distinguished clinical career, he turned to a question almost no one before him had seriously asked: how reliable is science itself, really?</p>
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of Social Type 7 &ndash; an animal that does not build for itself alone, but reshapes entire ecosystems that many others come to depend on. Prof. Dr. John Ioannidis, born in 1965 in New York and raised in Athens, graduated top of his class from the University of Athens medical school in 1990. Rather than settling for a distinguished clinical career, he turned to a question almost no one before him had seriously asked: how reliable is science itself, really?</p>
           <p class="vb-intro">His answer, the 2005 essay "Why Most Published Research Findings Are False," became the most-read article in the history of the journal PLOS &ndash; over three million views. No beaver builds a single dam for itself alone. Ioannidis built an entire system for science's self-correction.</p>
         </blockquote>
 
@@ -39098,7 +39098,7 @@ function johnIoannidisPortraitPage() {
 
         <h2 class="vb-section">6. The Man Who Measured Science Against Itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">John Ioannidis did not settle for doing good research himself &ndash; he took on the more uncomfortable, more important question of whether research itself still delivers on its promises. For that he repeatedly accepted criticism, hostility, and political pushback, without deviating from his methodological line. The beaver with the Six-wing does not build the most spectacular structure &ndash; it builds the one that lasts longest, because it stands on verifiable ground.</p>
+          <p class="vb-intro">Prof. Dr. John Ioannidis did not settle for doing good research himself &ndash; he took on the more uncomfortable, more important question of whether research itself still delivers on its promises. For that he repeatedly accepted criticism, hostility, and political pushback, without deviating from his methodological line. The beaver with the Six-wing does not build the most spectacular structure &ndash; it builds the one that lasts longest, because it stands on verifiable ground.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -39182,7 +39182,7 @@ function nikolaTeslaPortraitPage() {
         {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – obsessive-compulsive disorder and isolation"},
-        {route:"beruehmte-john-ioannidis", label:"Portrait: John Ioannidis (SO7w6)"},
+        {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
       ])}
     </div>
   `);
@@ -40248,7 +40248,7 @@ function frankRosellPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
         {route:"beruehmte-dietland-mueller-schwarze", label:"Portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
-        {route:"beruehmte-john-ioannidis", label:"Portrait: John Ioannidis (SO7w6)"},
+        {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
     </div>
@@ -52828,7 +52828,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "John Ioannidis"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -52843,7 +52843,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",

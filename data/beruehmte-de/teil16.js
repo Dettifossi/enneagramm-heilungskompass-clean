@@ -433,7 +433,7 @@ export function frankRosellPortraitPage() {
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
         {route:"beruehmte-dietland-mueller-schwarze", label:"Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
-        {route:"beruehmte-john-ioannidis", label:"Porträt: John Ioannidis (SO7w6)"},
+        {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
     </div>
