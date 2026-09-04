@@ -88096,7 +88096,7 @@ function dieterZlofPortraitPage() {
 
         <h2 class="vb-section">6. Classification</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Zlof displays a variant of the Social One rarely documented so clearly: the construction of a crime as a correct, justified project — accompanied by decades of unshaken self-righteousness. Neither the loot nor power over the victim stood at the center of his self-image, but rather the conviction of fundamentally being in the right — a conviction he never truly abandoned, only postponed to a more convenient moment.</p>
+          <p class="vb-intro">Dieter Zlof displays a variant of the Social One rarely documented so clearly: the construction of a crime as a correct, justified project — accompanied by decades of unshaken self-righteousness. Neither the loot nor power over the victim stood at the center of his self-image, but rather the conviction of fundamentally being in the right. Only the denial of the act itself did he give up, in 1997, once the moment was convenient — safely beyond the reach of prosecution. The underlying conviction that he had been in the right, he never gave up — it stands, unmistakably, in the confession itself.</p>
         </blockquote>
 
         <div class="krim-portrait-footer">

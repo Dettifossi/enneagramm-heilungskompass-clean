@@ -4270,7 +4270,7 @@ export function dieterZlofPortraitPage() {
 
         <h2 class="vb-section">6. Einordnung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Zlof zeigt eine Spielart der sozialen Eins, die selten so klar dokumentiert ist: die Konstruktion einer Tat als korrektes, gerechtfertigtes Projekt – begleitet von jahrzehntelanger, unerschütterlicher Selbstgerechtigkeit. Weder die Beute noch die Macht \xfcber das Opfer standen im Zentrum seines Selbstbilds, sondern die \xdcberzeugung, im Grunde im Recht zu sein – eine \xdcberzeugung, die er bis zum freiwilligen Gest\xe4ndnis nie aufgab, sondern lediglich zu einem g\xfcnstigeren Zeitpunkt verschob.</p>
+          <p class="vb-intro">Dieter Zlof zeigt eine Spielart der sozialen Eins, die selten so klar dokumentiert ist: die Konstruktion einer Tat als korrektes, gerechtfertigtes Projekt – begleitet von jahrzehntelanger, unerschütterlicher Selbstgerechtigkeit. Weder die Beute noch die Macht \xfcber das Opfer standen im Zentrum seines Selbstbilds, sondern die \xdcberzeugung, im Grunde im Recht zu sein. Nur das Leugnen der Tat gab er 1997 auf, als der richtige – f\xfcr ihn folgenlose – Zeitpunkt gekommen war. Die dahinterliegende \xdcberzeugung, im Recht gewesen zu sein, gab er nie auf – sie steht sogar im Gest\xe4ndnis selbst noch da.</p>
         </blockquote>
 
         <div class="krim-portrait-footer">
