@@ -1662,3 +1662,69 @@ export function huangYongPingPortraitPage() {
     </div>
   `);
 }
+
+export function edvardMunchPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/edvard-munch-portrait.jpg" alt="Edvard Munch – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edvard Munch</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit F\xfcnferfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Norwegischer Maler und Grafiker, 1863–1944 – Tierentsprechung: G\xfcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\xfcrteltier, das seine Wunden ausstellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\xfcrteltier</strong> ist das Tier der sozialen Vier – es zieht sich nicht aus der Welt zur\xfcck, sondern tr\xe4gt sein empfindsames Inneres bewusst in die \xd6ffentlichkeit, selbst wenn es sich dabei einen harten Panzer zulegt. Edvard Munch, 1863 in L\xf8ten geboren, verlor mit f\xfcnf Jahren seine Mutter und mit vierzehn seine \xe4ltere Schwester Sophie – beide an Tuberkulose. Sein Vater, ein streng religi\xf6ser Milit\xe4rarzt, deutete das Ungl\xfcck als g\xf6ttliche Strafe und verfiel danach in schwere Depressionen. Der junge Munch gab sich selbst die Schuld an den Krankheiten.</p>
+          <p class="vb-intro">Statt dieses Leid zu verbergen, machte er es zeitlebens zum erkl\xe4rten Gegenstand seiner \xf6ffentlichen Kunst. Er nannte sich selbst den „Anatom der Seele“ – eine Rolle, die er nicht im Verborgenen, sondern auf der \xf6ffentlichen B\xfchne der europ\xe4ischen Kunstszene ausf\xfcllte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Das eigene Leid als \xf6ffentliches Bekenntnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> stellt ihre Andersartigkeit nicht heimlich zur Schau, sondern macht sie zum Gegenstand einer bewussten Auseinandersetzung mit der Gemeinschaft, der sie zugleich zugewandt bleibt. Munchs Lebenswerk, der „Lebensfries“ – eine \xfcber Jahrzehnte gewachsene Bilderfolge zu Liebe, Angst, Eifersucht und Tod – war explizit als \xf6ffentliches Gesamtbekenntnis konzipiert, nicht als private Verarbeitung. „Der Schrei“, „Das kranke Kind“, „Eifersucht“ – all das waren keine verborgenen Skizzen, sondern Ausstellungsst\xfccke, mit denen er sein Publikum bewusst konfrontierte.</p>
+          <p class="vb-intro">Am 5. November 1892 er\xf6ffnete der Verein Berliner K\xfcnstler Munch eine Einzelausstellung – und schloss sie nach wenigen Tagen wieder, weil das Publikum die Bilder als grotesk und skandal\xf6s empfand. Der „Fall Munch“ wurde zum Stadtgespr\xe4ch, Munch selbst amtierte den Skandal mit sichtlichem Vergn\xfcgen und blieb, mit Unterbrechungen, bis 1908 in Berlin – mitten im Zentrum genau jener Kunstszene, die ihn zugleich abgelehnt hatte. Genau das ist die soziale Vier: nicht die Distanz zur Gemeinschaft, sondern die bewusste Reibung an ihr, bei fortbestehender Zugeh\xf6rigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der F\xfcnferfl\xfcgel: Die eigene Angst als Gegenstand der Analyse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>F\xfcnferfl\xfcgel (w5)</strong> verleiht der Vier eine analytische Distanz zum eigenen Gef\xfchl – das Leid wird nicht nur durchlebt, sondern systematisch seziert und in immer neuen Fassungen untersucht. Munch malte zentrale Motive wie „Der Schrei“ oder „Die kranke“ – sein Bild der sterbenden Schwester Sophie – \xfcber Jahrzehnte hinweg in zahlreichen Varianten neu, als w\xfcrde er ein und dasselbe seelische Ph\xe4nomen aus immer wieder anderen Blickwinkeln vermessen.</p>
+          <p class="vb-intro">Sein eigenes Zitat bringt diese Haltung auf den Punkt: „Wie viel verdanke ich doch in meiner Kunst dem Leiden … Ohne Lebensangst und Krankheit w\xe4re ich ein Schiff ohne Ruder gewesen.“ Das ist keine bloße Klage, sondern eine fast klinische Feststellung – die Fünferflügel-typische Beobachtung des eigenen Leids als notwendiges Material, nicht nur als Schmerz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zusammenbruch, R\xfcckzug – und die Gemeinschaft, der er zugewandt blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1902 verlor Munch bei einem Streit mit seiner damaligen Verlobten Tulla Larsen durch einen Revolverschuss ein Fingerglied der linken Hand. 1908 folgte, nach jahrelangem Alkoholmissbrauch und wachsender innerer Erschöpfung, ein schwerer Nervenzusammenbruch – Munch begab sich freiwillig in eine Kopenhagener Nervenklinik. Danach lebte er strikt abstinent und mit einem fast asketischen Gesundheitsregime, das er bis zu seinem Tod durchhielt.</p>
+          <p class="vb-intro">Ab 1916 zog er sich auf sein Gut Ekely bei Oslo zur\xfcck – \xe4hnlich wie Marcel Proust (SO4w5) sich in sein korkverkleidetes Zimmer zur\xfcckzog, blieb aber, anders als es der Begriff „R\xfcckzug“ vermuten l\xe4sst, weiterhin international ausstellend und mit der europ\xe4ischen Kunstwelt verbunden. Seine Bilder betrachtete er als eine Art eigene „Kinder“ – er trennte sich nur ungern von ihnen und h\xe4ufte auf Ekely eine gewaltige private Sammlung an. Als er 1944 starb, fand man auf dem Anwesen, in Nebengeb\xe4uden und teils im Freien, rund 1.000 Gem\xe4lde, 15.400 Druckgrafiken und 4.500 Aquarelle und Zeichnungen – sein gesamtes Lebenswerk, das er der Stadt Oslo vermachte. Kinderlos und weitgehend allein lebend, verm\xe4chtnisierte er sein Leben nicht an eine Familie, sondern an genau jene Gemeinschaft, der er sich zeitlebens sowohl entzogen als auch zugewandt gef\xfchlt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 ist die F\xe4higkeit, <strong>pers\xf6nliches Leid in ein universelles, \xf6ffentlich wirksames Bildvokabular zu \xfcbersetzen</strong> – „Der Schrei“ gilt bis heute als eines der bekanntesten Sinnbilder existenzieller Angst weltweit, weil Munch etwas zutiefst Pers\xf6nliches in eine Form goss, in der sich Millionen Menschen wiedererkennen konnten.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der famili\xe4ren Vorbelastung, der er sich nie ganz entziehen konnte: Sowohl Gro\xdfvater als auch Vater litten unter Melancholie, seine Schwester Laura verbrachte gro\xdfe Teile ihres Lebens wegen einer Psychose in psychiatrischen Kliniken. Munchs eigene Todesangst, sein Hang zu Alkohol und der Zusammenbruch von 1908 zeigen die Kehrseite der sozialen Vier mit F\xfcnferfl\xfcgel: Die Distanz, die die k\xfcnstlerische Analyse des eigenen Leids erm\xf6glicht, kann irgendwann selbst zur Erschöpfung werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das G\xfcrteltier, das der Nachwelt seine Wunden hinterlie\xdf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edvard Munch starb 1944 im Alter von 80 Jahren auf Ekely. Was als famili\xe4res Trauma und pers\xf6nliche Todesangst begann, wurde zu einem der einflussreichsten Werke der modernen Kunstgeschichte – ein Werk, das er der \xd6ffentlichkeit nie vorenthielt, sondern bewusst zur Schau stellte, um genau darin verstanden zu werden.</p>
+          <p class="vb-intro">Das G\xfcrteltier, das seinen Panzer aus Angst und Krankheit nicht verbarg, sondern zum sichtbarsten Merkmal seines gesamten Werks machte, und das am Ende sein ganzes Leben der Gemeinschaft \xfcberließ, der es zeitlebens sowohl fern als auch zugewandt geblieben war – das ist das bleibende Bild der sozialen Vier mit F\xfcnferfl\xfcgel.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das G\xfcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-marcel-proust", label:"Portr\xe4t: Marcel Proust (SO4w5) – dieselbe R\xfcckzugslogik bei fortbestehender Zugeh\xf6rigkeit"},
+        {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-leonard-cohen", label:"Portr\xe4t: Leonard Cohen (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

@@ -1003,6 +1003,7 @@ export function marcelProustPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portr\xe4t: Edvard Munch (SO4w5) \u2013 dieselbe R\xfcckzugslogik bei fortbestehender Zugeh\xf6rigkeit"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5) \u2013 Parallele zu Prousts Wettlauf gegen die Zeit"},
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsportr\u00e4t: Marcel Proust (SO4w5) \u2013 lebenslanges Asthma"},
       ])}

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=77";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=78";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1396,6 +1396,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marcel Proust – Social Type 4",
     teaser:"SO4w5 · 1871–1922. French writer. In Search of Lost Time. The armadillo that withdrew from society in order to understand it all the more precisely, turning its own fleeting memory into an imperishable literary edifice.",
     land:"France", tags:["Literature"], gender:"m"},
+{ route:"beruehmte-edvard-munch", name:"Edvard Munch", added:"2026-09-04", subtyp:"SO4w5",
+    heading:"Edvard Munch – Social Type 4",
+    teaser:"SO4w5 · 1863–1944. Norwegian painter, 'The Scream'. The armadillo that did not hide its suffering, but made it a public confession – and in the end bequeathed its entire life's work to the City of Oslo.",
+    land:"Norway", tags:["Art"], gender:"m"},
 { route:"beruehmte-mariella-superina", name:"Dr. Mariella Superina", added:"2026-08-18", subtyp:"SO4w5",
     heading:"Dr. Mariella Superina – Social Type 4",
     teaser:"SO4w5 · Swiss veterinarian and scientist, for over 20 years the world's leading armadillo researcher, chair of the IUCN Armadillo Specialist Group. A globally recognized authority on her own archetypal animal. Animal correspondence: Armadillo.",
@@ -26261,6 +26265,7 @@ function gustavMahlerPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5) – personal suffering as a public confession"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
       ])}
     </div>
@@ -26333,6 +26338,73 @@ function reinhardMeyPortraitPage() {
     </div>
   `);
 }
+
+function edvardMunchPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/edvard-munch-portrait.jpg" alt="Edvard Munch – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edvard Munch</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Norwegian painter and printmaker, 1863&ndash;1944 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Put Its Wounds on Display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four — it does not withdraw from the world, but carries its sensitive interior deliberately into public view, even while growing a hard shell to do so. Edvard Munch, born in 1863 in Løten, lost his mother at age five and his older sister Sophie at fourteen — both to tuberculosis. His father, a strictly religious military doctor, interpreted the misfortune as divine punishment and fell into severe depression afterward. The young Munch blamed himself for the illnesses.</p>
+          <p class="vb-intro">Rather than hiding this pain, he made it the explicit subject of his public art for the rest of his life. He called himself the "anatomist of the soul" — a role he filled not in private, but on the public stage of the European art world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: One's Own Suffering as a Public Confession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> does not display its difference in secret, but makes it the subject of a deliberate confrontation with the community it nonetheless remains attached to. Munch's life's work, the "Frieze of Life" — a picture cycle grown over decades, addressing love, anxiety, jealousy, and death — was explicitly conceived as a public confession, not a private act of processing. "The Scream," "The Sick Child," "Jealousy" — none of these were hidden sketches, but exhibition pieces with which he deliberately confronted his public.</p>
+          <p class="vb-intro">On November 5, 1892, the Verein Berliner Künstler (Association of Berlin Artists) opened a solo exhibition of Munch's work — and closed it again after just a few days, because the public found the paintings grotesque and scandalous. The "Munch Affair" became the talk of the city; Munch himself visibly enjoyed the scandal and remained, with interruptions, in Berlin until 1908 — at the very center of the art scene that had just rejected him. This is precisely the social Four: not distance from the community, but deliberate friction with it, while remaining a part of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: One's Own Fear as an Object of Analysis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> lends the Four an analytical distance from its own feeling — suffering is not just lived through, but systematically dissected and examined in ever new versions. Munch reworked central motifs like "The Scream" or "The Sick Child" — his painting of his dying sister Sophie — in numerous variants over decades, as if measuring one and the same psychological phenomenon from ever new angles.</p>
+          <p class="vb-intro">His own words capture this stance precisely: "How much do I owe to my art for suffering... Without anxiety and illness, I would have been a ship without a rudder." This is no mere lament, but an almost clinical observation — the Five-wing's characteristic habit of studying one's own suffering as necessary material, not only as pain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Breakdown, Withdrawal — and the Community He Remained Attached To</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1902, during an argument with his then-fiancée Tulla Larsen, a shot from a revolver tore off part of a finger on Munch's left hand. In 1908, after years of heavy drinking and mounting inner exhaustion, came a severe nervous breakdown — Munch voluntarily entered a nerve clinic in Copenhagen. Afterward he lived in strict sobriety and under an almost ascetic health regime that he maintained until his death.</p>
+          <p class="vb-intro">From 1916 he withdrew to his estate at Ekely near Oslo — much like Marcel Proust (SO4w5) withdrew into his cork-lined room — yet, contrary to what the word "withdrawal" suggests, he continued to exhibit internationally and stayed connected to the European art world. He regarded his paintings as a kind of his own "children" — he rarely parted with them willingly, and amassed a vast private collection at Ekely. When he died in 1944, roughly 1,000 paintings, 15,400 prints, and 4,500 watercolors and drawings were found on the property, in outbuildings and in some cases outdoors — his entire life's work, which he bequeathed to the City of Oslo. Childless and living largely alone, he willed his life not to a family, but to precisely the community from which he had, throughout his life, felt both estranged and attached.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 is the ability to translate <strong>personal suffering into a universal, publicly resonant visual vocabulary</strong> — "The Scream" remains one of the most recognized images of existential anxiety worldwide, because Munch cast something deeply personal into a form in which millions of people could recognize themselves.</p>
+          <p class="vb-intro">The shadow showed itself in the family burden he could never fully escape: both his grandfather and his father suffered from melancholy, and his sister Laura spent much of her life in psychiatric clinics due to psychosis. Munch's own fear of death, his tendency toward alcohol, and the 1908 breakdown show the flip side of the social Four with a Five-wing: the distance that enables the artistic analysis of one's own suffering can eventually become exhaustion itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Armadillo That Left Its Wounds to Posterity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edvard Munch died in 1944 at the age of 80 at Ekely. What began as family trauma and personal fear of death became one of the most influential bodies of work in modern art history — a body of work he never withheld from the public, but deliberately put on display, in order to be understood through it.</p>
+          <p class="vb-intro">The armadillo that did not hide its shell of fear and illness, but made it the most visible feature of its entire body of work, and that in the end left its whole life to the community it had remained both distant from and attached to throughout its life — that is the lasting image of the social Four with a Five-wing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – the same logic of withdrawal-while-belonging"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function marcelProustPortraitPage() {
   return shell(`
@@ -34543,6 +34615,7 @@ function leonardCohenPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
         {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
       ])}
     </div>
@@ -52176,7 +52249,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey", "Edvard Munch"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
@@ -52191,7 +52264,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
         beschreibung: "One's own significance arises not through adaptation, but through deliberate contrast to the community – one turns away without ever fully leaving it, because it remains the resonance chamber that sharpens one's own thinking or feeling.",
-        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed; Dr. Mariella Superina, who deliberately specialized within the conservation community in a single, little-noticed niche – armadillos, rather than the more prominent large mammals – and precisely through that became the irreplaceable, globally recognized voice for it; Prof. Lauren Gardner, whose transportation-engineering background was initially an outsider position within the epidemiology community – 'which role is still missing that only I, with my expertise, can fill?' – before her dashboard became the central reference point for the entire field."
+        beleg: "Heraclitus, who turned away from public life, 'which he considered superficial,' but remained 'devoted to Ephesus'; Hippocrates, who distanced himself from his family's religious healing arts: 'The armadillo remains part of the community of healers – but contradicts it at its core'; Fiona Apple, whose years of withdrawal from the spotlight made her 'nonetheless, or precisely because of that, one of the most unsparing observers'; Edgar Allan Poe and Marcel Proust, who withdrew physically in order to write about what they observed; Dr. Mariella Superina, who deliberately specialized within the conservation community in a single, little-noticed niche – armadillos, rather than the more prominent large mammals – and precisely through that became the irreplaceable, globally recognized voice for it; Prof. Lauren Gardner, whose transportation-engineering background was initially an outsider position within the epidemiology community – 'which role is still missing that only I, with my expertise, can fill?' – before her dashboard became the central reference point for the entire field; Edvard Munch, who withdrew to his Ekely estate from 1916 on, yet stayed connected through international exhibitions to the very European art world that had first received him in 1892 with a scandal exhibition shut down in Berlin – and who, in the end, bequeathed his entire life's work to exactly that community, in the form of his gift to the City of Oslo."
       },
       {
         titel: "When the longing for belonging fails completely (shadow form)",
@@ -111963,6 +112036,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gustav-mahler": gustavMahlerPortraitPage,
       "beruehmte-reinhard-mey": reinhardMeyPortraitPage,
       "beruehmte-marcel-proust": marcelProustPortraitPage,
+      "beruehmte-edvard-munch": edvardMunchPortraitPage,
       "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
       "beruehmte-udo-juergens": udoJuergensPortraitPage,
       "beruehmte-mahatma-gandhi": mahatmaGandhiPortraitPage,

@@ -588,6 +588,7 @@ export function gustavMahlerPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-edgar-allan-poe", label:"Portr\xe4t: Edgar Allan Poe (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portr\xe4t: Edvard Munch (SO4w5) \u2013 pers\xf6nliches Leid als \xf6ffentliches Bekenntnis"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5)"},
       ])}
     </div>
