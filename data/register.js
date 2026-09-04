@@ -1257,6 +1257,7 @@ export const registerEntries = [
   { term: "Sebastian Greenwood",       route: "kriminalpsychologie-sebastian-greenwood",  description: "Kriminalpsychologisches Porträt: SE2w3 – OneCoin-Mitgründer, Betrug im Milliardenmaßstab, Ruja Ignatovas Komplize" },
   { term: "Tommy Lynn Sells",          route: "kriminalpsychologie-tommy-lynn-sells",     description: "Kriminalpsychologisches Porträt: SE2w1 – US-amerikanischer Serienmörder, mind. 22 Morde, wandernder Gelegenheitstäter" },
   { term: "Wade Wilson",               route: "kriminalpsychologie-wade-wilson",          description: "Kriminalpsychologisches Porträt: SO3w4 – US-amerikanischer Doppelmörder 2019, inszenierte Unschuld und Zuschauerperformance vor Gericht" },
+  { term: "Werner Gladow",             route: "kriminalpsychologie-werner-gladow",        description: "Kriminalpsychologisches Porträt: SO3w4 – Bandenchef, mit 17 gegründet, mit 19 hingerichtet, „Der Al Capone von Berlin“" },
   { term: "Wolfgang Beltracchi",       route: "kriminalpsychologie-wolfgang-beltracchi",  description: "Kriminalpsychologisches Porträt: SX9w1 – deutscher Kunstfälscher, 300+ gefälschte Gemälde, Meisterfälscher der Kunstgeschichte" },
 
   // Tierlexikon – alle 27 Subtypen
@@ -2429,6 +2430,7 @@ export const registerEntriesEN = [
   { term: "Sebastian Greenwood", route: "kriminalpsychologie-sebastian-greenwood", description: "Criminal psychological portrait: SE2w3 – OneCoin co-founder, fraud on a billion-dollar scale, Ruja Ignatova's accomplice" },
   { term: "Tommy Lynn Sells", route: "kriminalpsychologie-tommy-lynn-sells", description: "Criminal psychological portrait: SE2w1 – US serial killer, at least 22 murders, transient opportunistic offender" },
   { term: "Wade Wilson", route: "kriminalpsychologie-wade-wilson", description: "Criminal psychological portrait: SO3w4 – US double murderer 2019, staged innocence and spectator performance in court" },
+  { term: "Werner Gladow", route: "kriminalpsychologie-werner-gladow", description: "Criminal psychological portrait: SO3w4 – gang leader, founded gang at 17, executed at 19, \"The Al Capone of Berlin\"" },
   { term: "Wolfgang Beltracchi", route: "kriminalpsychologie-wolfgang-beltracchi", description: "Criminal psychological portrait: SX9w1 – German art forger, 300+ forged paintings, master forger of art history" },
   { term: "Animal Lexicon: Eagle (SE1)", route: "tierlexikon/se1", description: "Animal Lexicon Entry: Eagle – animal archetype of SE1 · Self-preservation Type 1 · Typ 1 · Belly center" },
   { term: "Animal Lexicon: Goose (SO1)", route: "tierlexikon/so1", description: "Animal Lexicon Entry: Goose – animal archetype of SO1 · Social Type 1 · Typ 1 · Belly center" },

@@ -4027,3 +4027,167 @@ export function wolfgangBeltracchiPortraitPage() {
     </div>
   `);
 }
+
+export function wernerGladowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Werner Gladow – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/werner-gladow-portrait.jpg" alt="Werner Gladow – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Werner Gladow</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"Der Al Capone von Berlin" · Berlin, 1948–1950 · Tierentsprechung: Gepard</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Werner Gladow</strong> (1931–1950) war siebzehn Jahre alt, als er in Berlin-Friedrichshain
+        die nach ihm benannte <strong>Gladow-Bande</strong> gründete. Als Sohn eines Fleischers stieg er
+        bereits mit sechzehn in den Nachkriegs-Schwarzmarkt ein; nach einer Jugendhaft mit einem Komplizen
+        bewaffnet, nutzte er die frisch gezogene Sektorengrenze zwischen Ost- und Westberlin systematisch aus –
+        Überfälle im einen Sektor, Flucht in den anderen, wo die jeweils andere Polizei keine Zuständigkeit hatte.
+        Die Bande wuchs von zwei auf bis zu 27 Mitglieder. Am 8. April 1950 wurde Gladow gemeinsam mit zwei
+        Komplizen zum Tode verurteilt, am 10. November 1950 in Frankfurt (Oder) mit dem Fallbeil hingerichtet –
+        neunzehn Jahre alt, einer der ersten Hingerichteten der jungen DDR. Sein erklärtes Vorbild: Al Capone.
+        Sein erklärtes Ziel, in eigenen Worten überliefert: nicht in erster Linie reich zu werden, sondern
+        <strong>„reich und gefürchtet bei seinen Gegnern"</strong> zu sein. Das Enneagramm macht sichtbar,
+        warum ausgerechnet dieses Ziel – gefürchtet, nicht nur reich – der Schlüssel zu seinem Muster ist.
+      </p>
+
+      <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Werner Gladow</strong> wird dem <strong>Sozialen Typ 3 mit Viererflügel</strong> zugeordnet.
+        Die soziale Drei sucht Erfolg als öffentlich sichtbare, gesellschaftlich anerkannte Größe – Ansehen
+        innerhalb einer Gruppe oder Hierarchie, nicht stille private Bereicherung. Der Viererflügel bringt
+        eine dramatische, stilisierte Note hinzu: das Bedürfnis, nicht nur erfolgreich, sondern unverwechselbar
+        und intensiv wahrgenommen zu werden. Der Stresspunkt liegt bei der <strong>Neun</strong>: ein Abgleiten
+        in mechanisches Funktionieren, in eine Rolle, die weitergespielt wird, auch wenn die Realität dahinter
+        längst zusammengebrochen ist – bei Gladow sichtbar im nahezu unbeteiligt wirkenden Auftreten vor Gericht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro">
+        Der <strong>Gepard</strong> ist die Tierentsprechung der sozialen Drei – kein Tier, das im Verborgenen
+        jagt, sondern eines, das für den entscheidenden Moment gebaut ist: den einen Sprint, der gesehen wird,
+        der über Erfolg oder Misserfolg entscheidet, während die ganze Savanne zuschaut. Gladow, gerade
+        sechzehn, begann nicht irgendwo im kriminellen Milieu, sondern mit einem fertigen Drehbuch im Kopf:
+        Al Capone, Chicago, der glänzende Gangsterboss aus Kino und Kriminalroman. Der Gepard jagt nicht,
+        um zu überleben – er jagt, um der schnellste, sichtbarste Jäger der Ebene zu sein. Gladow wählte sein
+        Verbrechen nicht aus Not, sondern als Bühne für eine Rolle, die er sich lange vorher ausgesucht hatte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Drei: Furcht als Währung</h3>
+        <p class="vb-intro"><strong>a) Das Grundprinzip:</strong>
+        Die soziale Drei koppelt ihr Selbstwertgefühl an die Wirkung, die sie innerhalb einer Gruppe oder
+        Gesellschaft erzielt – nicht an privaten Wohlstand, sondern an öffentliches Ansehen. Gladows eigene
+        Formulierung ist dabei bemerkenswert präzise: Er wollte „reich und gefürchtet" sein – zwei getrennte
+        Ziele, von denen das zweite das eigentlich Enthüllende ist. Reichtum lässt sich verbergen. Furcht
+        braucht ein Publikum. Wer gefürchtet werden will, braucht zwingend eine Öffentlichkeit, die von ihm weiß.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel: Stil als Signatur:</strong>
+        Der Viererflügel der sozialen Drei bringt eine ästhetische, dramatische Note in das reine
+        Erfolgsstreben: den Wunsch, nicht nur erfolgreich, sondern unverwechselbar zu sein. Gladow näherte sich
+        seinem Idol Al Capone über Maßanzüge, Maßschuhe und weiße Krawatten an – letztere wurden zum
+        Erkennungszeichen der gesamten Bande. Das ist kein zufälliger Kleidungsgeschmack, sondern bewusste
+        Markenbildung: eine Uniform, an der man die Bande erkennt, ein Stil, der zur Signatur wird. Noch
+        deutlicher zeigt sich der Viererflügel in den <strong>Visitenkarten, die er am Tatort hinterließ</strong> –
+        eine fast künstlerische Geste der Selbstinszenierung, die einem gerissenen Kriminellen eigentlich
+        widerspricht: Wer unerkannt bleiben will, signiert seine Tat nicht.</p>
+        <p class="vb-intro"><strong>c) Die Leidenschaft: Eitelkeit als fabrizierte Identität:</strong>
+        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> – die Täuschung, dass das Image die
+        Person sei. Gladow trug diese Täuschung buchstäblich als Namen: Er behauptete, Medizin studiert zu
+        haben, und erhielt dafür den Spitznamen <strong>„Doktorchen"</strong>. Eine erfundene akademische
+        Fassade, die niemandem etwas nützte außer dem Ansehen selbst – ein reiner Statusanstrich ohne jeden
+        praktischen Nutzen, genau die Art von Selbsttäuschung, die Naranjo als Kern der Drei beschreibt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Eine Bande als Bühne</h3>
+        <p class="vb-intro"><strong>a) Gründung und Wachstum, 1948–1949:</strong>
+        Nach einer Jugendhaft lernte Gladow einen späteren Komplizen kennen; gemeinsam entwaffneten sie
+        wiederholt Polizisten an den Berliner Sektorengrenzen – in 21 dokumentierten Fällen. Mit den erbeuteten
+        Waffen und weiteren angeworbenen Jugendlichen wuchs die Bande rasch von zwei auf bis zu 27 Mitglieder.
+        Die Nachkriegssituation Berlins begünstigte das Vorgehen: Zwei getrennte Polizeibehörden ohne
+        Zuständigkeit im jeweils anderen Sektor, dazu Stromausfälle während der Berlin-Blockade, die
+        nächtliche Überfälle erleichterten.</p>
+        <p class="vb-intro"><strong>b) Die Masche über die Sektorengrenze:</strong>
+        Das eigentliche kriminelle Kalkül war strategisch klug: Überfälle in einem Sektor, sofortige Flucht
+        über die Grenze in den anderen – ein juristisches Niemandsland, das die junge Bande über Monate
+        praktisch unangreifbar machte. Raubüberfälle, Diebstähle, schließlich auch Gewaltverbrechen mit
+        Todesfolge kennzeichneten die Eskalation.</p>
+        <p class="vb-intro"><strong>c) Verhaftung und spektakulärer Prozess:</strong>
+        Die Ermittlungen führten 1950 zur Verhaftung der Bandenführung. Der Prozess wurde in der jungen DDR
+        zu einem propagandistisch aufgeladenen Schauprozess – und Gladow nutzte, was von der Bühne übrig
+        blieb. Ein überliefertes Zitat aus dem Gerichtssaal zeigt die Haltung bis zuletzt: Zur dreifachen
+        Verhängung der Todesstrafe soll er sinngemäß bemerkt haben, die erste lasse er sich ja noch gefallen,
+        „die Birne abhauen", aber die beiden weiteren Male sei das dann „Leichenschändung" – Galgenhumor mit
+        präzisem Timing, in dem denkbar intensivsten Moment seines Lebens.</p>
+        <p class="vb-intro"><strong>d) Urteil und Hinrichtung:</strong>
+        Am 8. April 1950 wurde Gladow gemeinsam mit zwei Mittätern wegen Mordes, Mordversuchs und Raubes zum
+        Tode verurteilt. Am 10. November 1950 wurde er in Frankfurt (Oder) mit dem Fallbeil hingerichtet –
+        mit neunzehn Jahren einer der ersten in der DDR vollstreckten Todesurteile.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Neunerstress: Die Rolle, die weiterläuft</h3>
+        <p class="vb-intro">
+        Die Drei bewegt sich im Stress in Richtung <strong>Neun</strong> – ein Abgleiten in mechanisches
+        Funktionieren, in emotionale Abwesenheit, in das bloße Fortsetzen einer Rolle, ohne die dahinterliegende
+        Realität noch wirklich zu verarbeiten. Bei Gladow zeigt sich dieses Muster genau in dem Moment, in dem
+        das eigene Todesurteil verkündet wird: Statt Zusammenbruch oder Angst liefert er eine coole, fast
+        distanzierte Pointe – als würde er weiterhin eine Rolle im eigenen Gangsterfilm spielen, selbst dann,
+        als die Handlung längst zur eigenen Hinrichtung geworden war. Das ist keine Tapferkeit im klassischen
+        Sinne, sondern das, was die Drei unter extremer Belastung am ehesten kann: die Fassade halten, weil
+        das Image das Einzige ist, das noch bleibt, wenn alles andere verloren ist.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Werner Gladow ist ein extremes Fallbeispiel dafür, wie früh sich das Muster der sozialen Drei mit
+        Viererflügel bereits ausbilden kann – mit siebzehn Jahren bereits eine vollständig durchinszenierte
+        kriminelle Identität samt Uniform, Erkennungszeichen und Medienkalkül. Sein eigenes Ziel, „reich und
+        gefürchtet" zu sein, benennt den Kern der sozialen Drei fast lehrbuchhaft: Erfolg, der nur zählt, wenn
+        er von außen bezeugt wird. Der Viererflügel liefert die Instrumente dafür – Stil, Signatur, dramatisches
+        Timing – und macht aus einem gewöhnlichen Bandenchef eine Figur, die bis heute, über 70 Jahre später,
+        noch immer erzählt wird. Genau das war vermutlich sein eigentliches, unbewusstes Ziel.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SO3w4 – Soziale Drei mit Viererflügel.<br>
+        <strong>Leidenschaft:</strong> Eitelkeit – die Verwechslung des eigenen Images mit der eigenen Person.<br>
+        <strong>Stresspunkt:</strong> Neun – Rückzug ins mechanische Funktionieren, Weiterspielen der Rolle ohne emotionale Verarbeitung.<br>
+        <strong>Tierentsprechung:</strong> Gepard – gebaut für den einen sichtbaren, entscheidenden Moment vor Publikum.<br>
+        <strong>Besonderheit:</strong> Eines der jüngsten dokumentierten Fallbeispiele im Kompass – die Bandenidentität war bereits mit 17 Jahren vollständig ausgeformt.<br>
+        <strong>Gestorben:</strong> 10. November 1950, hingerichtet in Frankfurt (Oder), 19 Jahre alt.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Erfolgszwang und der Heilungsweg über echte Selbstwahrnehmung.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Werner Gladow wurde 1950 wegen Mordes, Mordversuchs und Raubes zum Tode verurteilt und noch im selben Jahr hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4) – der Gerichtssaal als Bühne, ähnliches Muster"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4) – Prestige als Lebensinhalt"},
+        {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
+        {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
+      ])}
+    </div>
+  `);
+}

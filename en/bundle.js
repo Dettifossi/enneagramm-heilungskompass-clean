@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=75";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=76";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -252,6 +252,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-oj-simpson",          name:"O.J. Simpson",                        subtyp:"SO3w4",  heading:"O.J. Simpson – Social Type 3",                                         teaser:"SO3w4 – NFL legend and protagonist of the ‘Trial of the Century’, 1947–2024. Acquitted in the criminal trial 1995, found civilly liable 1997. The cheetah: the public self-image as the only reality, performance until the last moment. Animal correspondence: Cheetah." , land:"USA", tags:["Nahbereich"], gender:"m"},
   { route:"kriminalpsychologie-vincenzo-peruggia",     name:"Vincenzo Peruggia",                    subtyp:"SO3w4",  heading:"Vincenzo Peruggia \u2013 Social Type 3",                      teaser:"SO3w4 – The thief of the Mona Lisa, 1881–1925. Stole the Mona Lisa from the Louvre on August 21, 1911 and hid it for two years in his Parisian attic apartment. Arrested 1913. The cheetah: a single precise strike, patriotic staging, aesthetic bond to the object. Animal correspondence: Cheetah.", land:"Italy", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-wade-wilson",         name:"Wade Wilson",                         subtyp:"SO3w4",  heading:"Wade Wilson \u2013 Social Type 3",                                         teaser:"SO3w4 – Double murderer, born 1996. Two murders in one night (October 2019, Florida). Death sentence 2024. The courtroom as stage: how the social Three with Four-wing makes attention the only currency. Animal correspondence: Cheetah." , land:"USA", tags:["Nahbereich","Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-werner-gladow",       name:"Werner Gladow",                       subtyp:"SO3w4",  heading:"Werner Gladow – Social Type 3",                                       teaser:"SO3w4 – \"The Al Capone of Berlin,\" 1931–1950. Founded the Gladow Gang at 17, executed at 19 for murder. Tailored suit, white tie as trademark, calling cards at crime scenes – the cheetah who wanted to be \"rich and feared.\" Animal correspondence: Cheetah." , land:"Germany", tags:["Raub","Mafia"], gender:"m"},
   { route:"kriminalpsychologie-diane-downs",          name:"Diane Downs",                         subtyp:"SX3w4",  heading:"Diane Downs \u2013 Sexual Type 3",                                       teaser:"SX3w4 – Child killer, born 1955. In 1983 she shot her three children in Oregon to be the perfect, unattached ideal for a man. The sexual Three with Four-wing: children as disruptive props, blocked heart energy as murder motive, calculation instead of feeling. Animal correspondence: Peacock." , land:"USA", tags:["Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-luka-magnotta",       name:"Luka Magnotta",                       subtyp:"SX3w4",  heading:"Luka Magnotta \u2013 Sexual Type 3",                                     teaser:"SX3w4 – Murderer and digital self-stager, 2012. 70+ aliases, murder as content, arrested while reading his own headlines – the sexual Three in its darkest manifestation." , land:"Canada", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-richard-ramirez",     name:"Richard Ramírez",                     subtyp:"SX3w4",  heading:"Richard Ramírez – Sexual Type 3",                                     teaser:"SX3w4 – 'The Night Stalker', born 1960, died 2013. 13 murders, rapes, burglaries in Southern California 1984–1985. Satanic iconography, staging of evil, groupies in the courtroom – the sexual Three with Four-wing: self-mythologization as lethal weapon. Animal correspondence: Peacock." , land:"USA", tags:["Sonstiges"], gender:"m"},
@@ -53497,12 +53498,12 @@ const KRIMINALMUSTERKOMPASS = {
   SO3: {
     tier: "Cheetah",
     kernthema: "A desire for status, visibility, or public recognition played a recognizable role, as motive or stage, in several of the portrayed cases.",
-    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson"],
+    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson", "Werner Gladow"],
     fingerabdruecke: [
       {
         titel: "Status, visibility, or a public stage as a recognizable motive",
         beschreibung: "The social Three shows, in several cases, a connection to fame, status, or public attention – either as a direct motive or as the stage on which the crime unfolded.",
-        beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization."
+        beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization; Werner Gladow, founder of his own gang at seventeen, stated his own goal as wanting to be \"rich and feared\" – fear as a publicly witnessed currency, not a private gain."
       }
     ]
   },
@@ -83416,6 +83417,168 @@ function ojSimpsonPortraitPage() {
   `);
 }
 
+function wernerGladowPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Werner Gladow – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/werner-gladow-portrait.jpg" alt="Werner Gladow – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Werner Gladow</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">"The Al Capone of Berlin" · Berlin, 1948–1950 · Animal correspondence: Cheetah</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Werner Gladow</strong> (1931–1950) was seventeen years old when he founded the gang later
+        named after him, the <strong>Gladow Gang</strong>, in Berlin-Friedrichshain. The son of a butcher,
+        he had already entered the postwar black market at sixteen; after a stint in youth detention where
+        he met an accomplice, the two armed themselves by disarming police officers and systematically
+        exploited the freshly drawn sector border between East and West Berlin – robberies in one sector,
+        immediate flight into the other, where the respective police force had no jurisdiction. The gang grew
+        from two members to as many as 27. On April 8, 1950, Gladow was sentenced to death together with two
+        accomplices; on November 10, 1950, he was executed by guillotine in Frankfurt (Oder) – nineteen years
+        old, one of the first people executed in the young GDR. His declared role model: Al Capone. His
+        declared goal, handed down in his own words: not primarily to become rich, but to be
+        <strong>"rich and feared by his enemies."</strong> The Enneagram makes visible why this exact goal –
+        feared, not merely rich – is the key to his pattern.
+      </p>
+
+      <div class="vb-section" style="background:rgba(60,80,40,0.07);border-left:3px solid #3c5028;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Werner Gladow</strong> is assigned to the <strong>Social Type 3 with Four-wing</strong>. The
+        social Three seeks success as a publicly visible, socially recognized standing – prestige within a
+        group or hierarchy, not quiet private enrichment. The Four-wing adds a dramatic, stylized note: the
+        need to be perceived not merely as successful, but as distinctive and intense. The stress point lies
+        at <strong>Nine</strong>: a slide into mechanical functioning, into a role that keeps being played even
+        after the reality behind it has already collapsed – visible in Gladow's almost detached demeanor in
+        court.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: The Cheetah</h3>
+        <p class="vb-intro">
+        The <strong>cheetah</strong> is the animal correspondence of the social Three – not an animal that
+        hunts in hiding, but one built for the decisive moment: the one sprint that gets seen, that decides
+        success or failure while the whole savanna watches. Gladow, barely sixteen, didn't stumble into the
+        criminal underworld by chance – he arrived with a finished script already in his head: Al Capone,
+        Chicago, the glamorous gangster boss from film and crime novels. The cheetah doesn't hunt to survive –
+        it hunts to be the fastest, most visible hunter on the plain. Gladow chose his crime not out of
+        necessity, but as a stage for a role he had already picked out long before.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The social Three: fear as currency</h3>
+        <p class="vb-intro"><strong>a) The core principle:</strong>
+        The social Three ties its self-worth to the impact it has within a group or society – not to private
+        wealth, but to public standing. Gladow's own phrasing is remarkably precise: he wanted to be "rich and
+        feared" – two separate goals, of which the second is the truly revealing one. Wealth can be hidden.
+        Fear requires an audience. Whoever wants to be feared necessarily needs a public that knows about him.</p>
+        <p class="vb-intro"><strong>b) The Four-wing: style as signature:</strong>
+        The Four-wing of the social Three adds an aesthetic, dramatic note to pure achievement-striving: the
+        desire to be not just successful, but unmistakable. Gladow approached his idol Al Capone through
+        tailored suits, custom shoes, and white ties – the latter becoming the gang's recognizable trademark.
+        This is no accidental taste in clothing but deliberate brand-building: a uniform by which the gang
+        could be recognized, a style that became a signature. The Four-wing shows even more clearly in the
+        <strong>calling cards he left at crime scenes</strong> – an almost artistic gesture of
+        self-dramatization that actually contradicts a shrewd criminal's interest: whoever wants to remain
+        unrecognized does not sign his crime.</p>
+        <p class="vb-intro"><strong>c) The passion: vanity as a fabricated identity:</strong>
+        The passion of the Three is <strong>vanity</strong> – the deception that the image is the person.
+        Gladow wore this deception literally as a name: he claimed to have studied medicine, earning him the
+        nickname <strong>"Doktorchen"</strong> ("little doctor"). A fabricated academic facade that benefited
+        no one but his own standing – a pure status veneer with no practical use whatsoever, exactly the kind
+        of self-deception Naranjo describes as the core of the Three.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The crimes: a gang as a stage</h3>
+        <p class="vb-intro"><strong>a) Founding and growth, 1948–1949:</strong>
+        After a stint in youth detention, Gladow met a later accomplice; together they repeatedly disarmed
+        police officers at Berlin's sector borders – in 21 documented cases. With the seized weapons and
+        further recruited youths, the gang quickly grew from two members to as many as 27. Berlin's postwar
+        situation favored the scheme: two separate police forces with no jurisdiction in the other's sector,
+        plus power outages during the Berlin Blockade that made nighttime robberies easier.</p>
+        <p class="vb-intro"><strong>b) The sector-border scheme:</strong>
+        The actual criminal calculation was strategically clever: robberies in one sector, immediate flight
+        across the border into the other – a legal no-man's-land that made the young gang practically
+        untouchable for months. Robberies and thefts escalated eventually into violent crimes with fatal
+        outcomes.</p>
+        <p class="vb-intro"><strong>c) Arrest and the sensational trial:</strong>
+        Investigations led to the arrest of the gang's leadership in 1950. In the young GDR, the trial became
+        a propaganda-charged show trial – and Gladow made use of whatever stage remained. A quote handed down
+        from the courtroom shows the attitude holding to the very end: on being handed the death sentence
+        three times over, he reportedly remarked that he'd put up with the first one, "off with the head," but
+        the other two times would then amount to "desecration of a corpse" – gallows humor with precise
+        timing, delivered in what was arguably the most intense moment of his life.</p>
+        <p class="vb-intro"><strong>d) Verdict and execution:</strong>
+        On April 8, 1950, Gladow was sentenced to death together with two accomplices for murder, attempted
+        murder, and robbery. On November 10, 1950, he was executed by guillotine in Frankfurt (Oder) – at
+        nineteen, one of the first death sentences carried out in the GDR.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Nine-stress: the role that keeps running</h3>
+        <p class="vb-intro">
+        Under stress, the Three moves toward <strong>Nine</strong> – a slide into mechanical functioning, into
+        emotional absence, into simply continuing a role without actually processing the reality behind it.
+        In Gladow this pattern shows precisely at the moment his own death sentence is announced: instead of
+        breaking down or showing fear, he delivers a cool, almost detached punchline – as if still playing a
+        part in his own gangster film, even as the plot had already become his own execution. This is not
+        courage in the classical sense, but rather what the Three can do best under extreme pressure: hold the
+        facade, because the image is the only thing left once everything else is lost.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram reveals</h3>
+        <p class="vb-intro">
+        Werner Gladow is an extreme case study of how early the pattern of the social Three with Four-wing can
+        already form – by seventeen, he had already fully staged a criminal identity complete with uniform,
+        trademark, and media calculation. His own stated goal, to be "rich and feared," names the core of the
+        social Three almost like a textbook example: success that only counts once it is witnessed from the
+        outside. The Four-wing supplies the tools for it – style, signature, dramatic timing – turning an
+        ordinary gang leader into a figure still being told about more than 70 years later. That, most likely,
+        was his actual, unconscious goal all along.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Summary</h3>
+        <p class="vb-intro">
+        <strong>Subtype:</strong> SO3w4 – Social Three with Four-wing.<br>
+        <strong>Passion:</strong> Vanity – mistaking one's own image for one's own person.<br>
+        <strong>Stress point:</strong> Nine – withdrawal into mechanical functioning, continuing the role without emotional processing.<br>
+        <strong>Animal correspondence:</strong> Cheetah – built for the one visible, decisive moment in front of an audience.<br>
+        <strong>Notable:</strong> One of the youngest documented case studies in the Compass – the gang identity was already fully formed by age 17.<br>
+        <strong>Died:</strong> November 10, 1950, executed in Frankfurt (Oder), age 19.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Three compared: how vanity expresses itself differently in SE3, SO3, and SX3.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 3 portrayed in depth – vanity, the compulsion to achieve, and the healing path through genuine self-perception.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical judgment. Werner Gladow was sentenced to death in 1950 for murder, attempted murder, and robbery, and executed the same year. The Enneagram explains — it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-wade-wilson", label:"Criminal Psychology: Wade Wilson (SO3w4) – the courtroom as a stage, similar pattern"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Criminal Psychology: Andrew Cunanan (SO3w4) – prestige as life's purpose"},
+        {route:"kriminalpsychologie-oj-simpson", label:"Criminal Psychology: O.J. Simpson (SO3w4)"},
+        {route:"kriminalmusterkompass/so3", label:"Criminal Pattern Compass: SO3 – Cheetah"},
+      ])}
+    </div>
+  `);
+}
+
 function wadeWilsonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -83521,6 +83684,7 @@ function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta (SX3)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-werner-gladow", label:"Criminal Psychology: Werner Gladow (SO3w4) – same subtype, courtroom as stage"},
       ])}
     </div>
   `);
@@ -112158,6 +112322,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-oj-simpson": ojSimpsonPortraitPage,
       "kriminalpsychologie-vincenzo-peruggia": vincenzoPeruggiaPortraitPage,
       "kriminalpsychologie-wade-wilson": wadeWilsonPortraitPage,
+      "kriminalpsychologie-werner-gladow": wernerGladowPortraitPage,
             "kriminalpsychologie-elliot-rodger": elliotRodgerPortraitPage,
       "kriminalpsychologie-adolf-hitler": adolfHitlerPortraitPage,
       "kriminalpsychologie-bonnie-parker": bonnieParkerPortraitPage,

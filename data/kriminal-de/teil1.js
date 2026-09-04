@@ -4315,6 +4315,7 @@ export function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-werner-gladow", label:"Kriminalpsychologie: Werner Gladow (SO3w4) – derselbe Subtyp, Gerichtssaal als Bühne"},
       ])}
     </div>
   `);
