@@ -1486,6 +1486,7 @@ export function ursulaVonDerLeyenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Friedrich Merz \u2013 SO1w9 im Vergleich"},
+        {route:"beruehmte-helmut-schmidt", label:"Portr\u00e4t: Helmut Schmidt (SO1w9)"},
       ])}
     </div>
   `);

@@ -1704,6 +1704,7 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9) – Podcast-Partner, derselbe Subtyp"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
       ])}
     </div>

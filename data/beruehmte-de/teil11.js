@@ -1669,3 +1669,69 @@ export function albertoMariniPortraitPage() {
     </div>
   `);
 }
+
+export function helmutSchmidtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/helmut-schmidt-portrait.jpg" alt="Helmut Schmidt – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Schmidt</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, 1918–2015 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die im Sturm die Formation hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem untr\xfcglichen Gesp\xfcr daf\xfcr, wie etwas richtig gemacht wird, und bereit, in der eigenen Formation Verantwortung zu \xfcbernehmen, sobald es darauf ankommt. Helmut Schmidt, 1918 in Hamburg geboren, wurde genau in solchen Momenten zur pr\xe4genden Figur der bundesdeutschen Nachkriegsgeschichte: als Hamburger Innensenator w\xe4hrend der Sturmflut vom Februar 1962, als er binnen weniger Stunden rund 40.000 Helfer mobilisierte und koordinierte – und dabei, wie er sp\xe4ter selbst einr\xe4umte, „wissentlich und willentlich" gegen das Grundgesetz versto\xdf, indem er ohne rechtliche Grundlage sogar Bundeswehreinheiten anforderte, weil die Lage keinen Aufschub duldete.</p>
+          <p class="vb-intro">Von 1974 bis 1982 war er Bundeskanzler der Bundesrepublik Deutschland – eine Amtszeit, die von wirtschaftlichen Krisen, dem RAF-Terror und sicherheitspolitischen Weichenstellungen gepr\xe4gt war, und in der er sich den Ruf des unerschrockenen Krisenmanagers endg\xfcltig erarbeitete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Verstand statt Visionen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> tr\xe4gt ihre inneren Ma\xdfst\xe4be von Richtig und Falsch nach au\xdfen und verlangt von der Welt, dass sie nach Vernunft und Ordnung funktioniert. Schmidt verk\xf6rperte das in Reinform: k\xfchle Sachlichkeit, ein ausgepr\xe4gter Widerwille gegen alles Sch\xf6ngeistige oder Visionäre, eine fast schon sprichwörtliche Direktheit. Sein bekanntester – und von ihm selbst später als „pampige Antwort auf eine dusselige Frage" bezeichneter – Ausspruch bringt diese Haltung auf den Punkt: „Wer Visionen hat, sollte zum Arzt gehen."</p>
+          <p class="vb-intro">Dahinter steckt der Kern der Einser-Moral: nicht das Gro\xdfe, Schw\xe4rmerische z\xe4hlt, sondern das korrekt Durchdachte, das nachpr\xfcfbar Richtige. Schmidt, Wirtschaftsexperte und Mitbegr\xfcnder des Europ\xe4ischen W\xe4hrungssystems sowie der Weltwirtschaftsgipfel ab 1975, war stolz darauf, Probleme mit dem Verstand statt mit dem Bauchgef\xfchl zu l\xf6sen – eine Haltung, die ihm international den Ruf des „Weltökonomen" einbrachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Unerschütterlichkeit im Sturm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> verleiht der Eins eine bemerkenswerte \xe4u\xdfere Ruhe – der moralische Ernst bleibt, doch er \xe4u\xdfert sich nicht in lautem Rechthaben, sondern in unaufgeregter, fast phlegmatischer Standhaftigkeit unter Druck. Genau diese Kombination beschrieb Schmidt selbst, als er r\xfcckblickend von zwei politischen Situationen sprach, die „extreme Situationen, schnelle Entscheidungen" verlangten, ohne dass ihm „ein Gesetz oder andere Richtlinien" Halt geben konnten – die Sturmflut 1962 und der Deutsche Herbst 1977.</p>
+          <p class="vb-intro">Im Herbst 1977, nach der Entf\xfchrung des Arbeitgeberpr\xe4sidenten Hanns Martin Schleyer durch die RAF, blieb Schmidt hart: Er lehnte den Austausch inhaftierter RAF-F\xfchrungsmitglieder ab und erkl\xe4rte, der Staat m\xfcsse „mit der gebotenen Härte" reagieren. Als RAF-Sympathisanten wenig sp\xe4ter die Lufthansa-Maschine „Landshut" nach Mogadischu entf\xfchrten, um denselben Austausch zu erzwingen, ordnete Schmidt die St\xfcrmung durch die GSG 9 an – erfolgreich, mit allen 86 Geiseln gerettet. Schleyer selbst wurde von seinen Entf\xfchrern ermordet. Diese Entscheidung, gegen enormen emotionalen Druck an der eigenen Linie festzuhalten, ohne dabei laut oder theatralisch zu werden, ist die Neunerfl\xfcgel-Signatur der SO1 in ihrer reinsten Form: Festigkeit ohne Dramatik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Raucher-Kanzler: Direktheit als Markenzeichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schmidts \xf6ffentliches Bild war untrennbar mit seinem beinahe permanenten Zigarettenkonsum verbunden – Mentholzigaretten, auch w\xe4hrend Fernsehinterviews und Bundestagsdebatten. Ein Zitat, das seine unerschütterliche Priorit\xe4tensetzung zusammenfasst, lautet sinngem\xe4\xdf: „Willen braucht man und Zigaretten." Diese \xf6ffentlich zur Schau gestellte Konsequenz gegen\xfcber der eigenen Gewohnheit, unbeeindruckt von \xe4rztlichem Rat oder \xf6ffentlicher Kritik, passt zur Einser-typischen Überzeugung, selbst am besten zu wissen, was richtig ist.</p>
+          <p class="vb-intro">Auch au\xdferhalb des Kanzleramts blieb er dieser Rolle treu: Als Mitherausgeber der Wochenzeitung „Die Zeit" und gefragter Elder Statesman kommentierte er bis ins hohe Alter Weltpolitik und Wirtschaft mit derselben k\xfchlen, oft schroffen Direktheit, die schon seine Kanzlerschaft gepr\xe4gt hatte – eine Rolle, die ihm gesellschaftliche Autorit\xe4t weit \xfcber sein Amt hinaus sicherte, ganz im Sinne der sozialen Ausrichtung der Eins: Bedeutung durch anerkannte moralisch-intellektuelle Instanz, nicht durch Rückzug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die F\xe4higkeit, <strong>in extremen Krisen ruhig, konsequent und ohne Selbstinszenierung zu handeln</strong> – Schmidts Umgang mit der Sturmflut und dem Deutschen Herbst gilt bis heute parteiübergreifend als Musterbeispiel besonnener Staatsf\xfchrung unter Druck, gerade weil er dabei nie ins Dramatische oder Selbstdarstellerische abglitt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in einer gewissen Unnachgiebigkeit und einem ausgepr\xe4gten Widerwillen gegen alles, was ihm als schwärmerisch oder unrealistisch erschien – der Visionen-Ausspruch, den er selbst später bereute, zeigt, wie schnell die Einser-Korrektheit in eine reflexhafte, manchmal ungerechte Schroffheit gegen\xfcber anderen Denkweisen kippen kann. Auch der NATO-Doppelbeschluss von 1979, den er ma\xdfgeblich mit vorantrieb, spaltete die eigene Partei und sein Land tief – Konsequenz und Rechthaberei liegen bei der ungesunden Eins nah beieinander.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die die Formation nie verlie\xdf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helmut Schmidt starb 2015 im Alter von 96 Jahren in Hamburg. Was als Krisenbew\xe4hrung in der Sturmflut begann, wurde zu einer der pr\xe4gendsten Kanzlerschaften der bundesdeutschen Geschichte – getragen von der \xdcberzeugung, dass Vernunft, Disziplin und n\xfcchterne Pflichterf\xfcllung mehr wert sind als gro\xdfe Visionen.</p>
+          <p class="vb-intro">Die Gans, die in den schwersten Stunden die Formation hielt, ohne selbst ins Wanken zu geraten, und die bis ins hohe Alter als moralische Instanz gefragt blieb – das ist das bleibende Bild der sozialen Eins mit Neunerfl\xfcgel: Festigkeit, die nie laut werden musste, um wirksam zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-roald-amundsen", label:"Portr\xe4t: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portr\xe4t: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

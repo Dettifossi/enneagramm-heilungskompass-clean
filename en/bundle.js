@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=78";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=79";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -532,6 +532,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ursula von der Leyen – Social Type 1",
     teaser:"SO1w9 · born 1958. President of the European Commission. A crisis manager with a hard determination behind a diplomatic facade – and at the center of the controversial \"Pfizergate\" affair over withheld transparency in the vaccine contracts. Animal correspondence: Goose.",
     land:"Germany", tags:["Politics"] , gender:"f"},
+{ route:"beruehmte-helmut-schmidt", name:"Helmut Schmidt", added:"2026-09-04", subtyp:"SO1w9",
+    heading:"Helmut Schmidt – Social Type 1",
+    teaser:"SO1w9 · 1918–2015. German Federal Chancellor 1974–1982. Crisis manager of the 1962 Hamburg storm surge and the 1977 German Autumn – firmness without drama. 'Whoever has visions should go see a doctor.' Animal correspondence: Goose.",
+    land:"Germany", tags:["Politics"], gender:"m"},
 { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -44990,6 +44994,73 @@ function davidBowiePortraitPage() {
   `);
 }
 
+function helmutSchmidtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/helmut-schmidt-portrait.jpg" alt="Helmut Schmidt – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Schmidt</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German Federal Chancellor, 1918&ndash;2015 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Held Formation in the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an unerring sense of how something ought to be done correctly, and ready to take responsibility within its own formation the moment it matters. Helmut Schmidt, born in 1918 in Hamburg, became a defining figure of postwar West German history in exactly such moments: as Hamburg's Interior Senator during the storm surge of February 1962, when he mobilized and coordinated roughly 40,000 helpers within a few hours — and, as he later admitted himself, "knowingly and willingly" violated the Basic Law by requesting Bundeswehr units without any legal basis, because the situation allowed no delay.</p>
+          <p class="vb-intro">From 1974 to 1982 he served as Chancellor of the Federal Republic of Germany — a term marked by economic crises, RAF terrorism, and pivotal security-policy decisions, during which he definitively earned his reputation as the unflappable crisis manager.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Reason Over Vision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> projects its inner standards of right and wrong outward and demands that the world function according to reason and order. Schmidt embodied this in its purest form: cool objectivity, a pronounced aversion to anything he considered flowery or visionary, an almost proverbial directness. His most famous remark — one he later called a "pampig answer to a dusselig question" — sums up this stance precisely: "Whoever has visions should go see a doctor."</p>
+          <p class="vb-intro">Behind it lies the core of One's morality: what matters is not the grand and rhapsodic, but the correctly reasoned, the verifiably right. Schmidt, an economics expert and co-founder of the European Monetary System as well as the world economic summits from 1975 onward, took pride in solving problems with reason rather than gut feeling — a stance that earned him the international reputation of the "world economist."</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Unshakeable Calm in the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> lends the One a remarkable outer calm — the moral seriousness remains, but it expresses itself not as loud self-righteousness, but as unruffled, almost phlegmatic steadiness under pressure. Schmidt described exactly this combination himself, recalling two political situations that demanded "extreme situations, quick decisions" with no "law or other guidelines" to fall back on — the 1962 storm surge and the German Autumn of 1977.</p>
+          <p class="vb-intro">In the fall of 1977, after RAF terrorists kidnapped employer-association president Hanns Martin Schleyer, Schmidt held firm: he refused to exchange imprisoned RAF leaders and declared that the state had to respond "with the necessary toughness." When RAF sympathizers soon after hijacked the Lufthansa jet "Landshut" to Mogadishu to force the same exchange, Schmidt ordered the GSG 9 to storm the plane — successfully, rescuing all 86 hostages. Schleyer himself was murdered by his kidnappers. This decision — to hold his line under enormous emotional pressure without ever becoming loud or theatrical — is the Nine-wing signature of the SO1 in its purest form: firmness without drama.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Chain-Smoking Chancellor: Bluntness as a Trademark</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schmidt's public image was inseparable from his near-constant cigarette habit — menthol cigarettes, even during television interviews and Bundestag debates. A quote that sums up his unshaken sense of priorities goes, roughly: "You need willpower — and cigarettes." This publicly displayed consistency toward his own habit, unmoved by medical advice or public criticism, fits the One's typical conviction of knowing best, oneself, what is right.</p>
+          <p class="vb-intro">Outside the Chancellery, too, he remained true to this role: as co-publisher of the weekly newspaper "Die Zeit" and a sought-after elder statesman, he commented on world politics and economics well into old age with the same cool, often blunt directness that had already defined his chancellorship — a role that secured him social authority far beyond his former office, entirely in keeping with the One's social orientation: significance through recognized moral-intellectual authority, not through withdrawal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is the ability to <strong>act calmly, consistently, and without self-dramatization in extreme crises</strong> — Schmidt's handling of the storm surge and the German Autumn is still regarded across party lines as a model of composed leadership under pressure, precisely because he never slipped into theatrics or self-display.</p>
+          <p class="vb-intro">The shadow showed itself in a certain inflexibility and a pronounced aversion to anything he considered starry-eyed or unrealistic — the visions remark, which he himself later regretted, shows how quickly the One's correctness can tip into reflexive, sometimes unfair harshness toward other ways of thinking. The 1979 NATO Double-Track Decision, which he pushed through decisively, deeply divided his own party and his country — in the unhealthy One, consistency and self-righteousness sit close together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Goose That Never Broke Formation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helmut Schmidt died in 2015 at the age of 96 in Hamburg. What began as crisis leadership during a storm surge became one of the most defining chancellorships in postwar German history — carried by the conviction that reason, discipline, and sober duty are worth more than grand visions.</p>
+          <p class="vb-intro">The goose that held formation in its hardest hours without ever faltering itself, and that remained a sought-after moral authority well into old age — that is the lasting image of the social One with a Nine-wing: firmness that never needed to raise its voice to be effective.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function roaldAmundsenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45052,6 +45123,7 @@ function roaldAmundsenPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-konrad-lorenz", label:"Portrait: Konrad Lorenz (SO1w9)"},
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – firmness without drama"},
       ])}
     </div>
   `);
@@ -45186,6 +45258,7 @@ function markusLanzPortraitPage() {
         {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9) – podcast partner, same subtype"},
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
@@ -45249,6 +45322,7 @@ function ursulaVonDerLeyenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SO1w9 compared"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
       ])}
     </div>
   `);
@@ -52475,12 +52549,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts; Richard David Precht, who for decades has presented himself as a reformer of an education system he considers fundamentally flawed and consistently translated his convictions into ever-larger formats, from nonfiction to his own television show to a weekly podcast – an example of how the same watchful reformist conviction can also express itself in calm, narrative form rather than direct confrontation."
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts; Richard David Precht, who for decades has presented himself as a reformer of an education system he considers fundamentally flawed and consistently translated his convictions into ever-larger formats, from nonfiction to his own television show to a weekly podcast – an example of how the same watchful reformist conviction can also express itself in calm, narrative form rather than direct confrontation; Helmut Schmidt, who during the German Autumn of 1977 refused to exchange imprisoned RAF leaders for the kidnapped Hanns Martin Schleyer and declared the state had to respond 'with the necessary toughness' – a toughness that, typical of the Nine-wing, never expressed itself as loudness, but as unmoved consistency."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
@@ -112082,6 +112156,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jordan-peterson": jordanPetersonPortraitPage,
       "beruehmte-david-bowie": davidBowiePortraitPage,
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
+      "beruehmte-helmut-schmidt": helmutSchmidtPortraitPage,
       "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
