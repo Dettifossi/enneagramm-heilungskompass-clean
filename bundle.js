@@ -33731,6 +33731,34 @@ function leseprobePage() {
       </div>
       <p style="font-size:0.8rem;color:var(--copper);text-align:center;margin:0 0 1.8rem;font-style:italic;">Alles subtypgenau &ndash; nicht f\xfcr den Typ, sondern f\xfcr Ihren pers\xf6nlichen Subtyp.</p>
 
+      <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
+
+      <!-- 4: Interaktive Lernspiele -->
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Interaktiv lernen – nicht nur lesen</h2>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Vier Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen über 600 Porträts des Kompasses.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
+        <div data-route="enneagramm-memory" style="cursor:pointer;background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#129504;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Enneagramm-Memory</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Paare nach Subtyp finden, 3 Schwierigkeitsstufen</div>
+        </div>
+        <div data-route="enneagramm-flashcards" style="cursor:pointer;background:linear-gradient(135deg,#e8f0f5,#c8dcea);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127183;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Enneagramm-Flashcards</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Typ oder Subtyp am Porträtfoto erkennen</div>
+        </div>
+        <div data-route="kompatibilitaets-check" style="cursor:pointer;background:linear-gradient(135deg,#f0ece4,#e0d5c0);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128149;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Kompatibilitäts-Check</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Zwei Subtypen direkt vergleichen</div>
+        </div>
+        <div data-route="wachstumstagebuch" style="cursor:pointer;background:linear-gradient(135deg,#eef5ee,#c8e0c8);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127793;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Wachstumstagebuch</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Täglicher Check-in mit Serien-Tracking</div>
+        </div>
+      </div>
+
       <!-- Philosophische Tiefe -->
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Philosophische Tiefe</h2>
@@ -71528,8 +71556,10 @@ function freischaltPage() {
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">Alle 27 Subtyp-Portraits</strong> \u2013 tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
+          <li><strong style="color:var(--ink);">\u00dcber 600 Portr\u00e4ts</strong> \u2013 ber\u00fchmte Pers\u00f6nlichkeiten, Kriminalf\u00e4lle & Krankheitsbilder</li>
           <li><strong style="color:var(--ink);">Hunderte Schaubilder</strong> \u2013 Enneagramm, Spiritualit\u00e4t, Philosophie, Musik & mehr</li>
           <li><strong style="color:var(--ink);">Alle 3 Typen-Tests</strong> \u2013 Diagnose-, Struktur- & Motivationstest mit pers\u00f6nlicher Auswertung</li>
+          <li><strong style="color:var(--ink);">Interaktive Lernspiele</strong> \u2013 Enneagramm-Memory, Flashcards, Kompatibilit\u00e4ts-Check & Wachstumstagebuch</li>
           <li><strong style="color:var(--ink);">Einmalig kaufen</strong> \u2013 lebenslanger Zugang, w\u00e4chst st\u00e4ndig weiter</li>
         </ul>
 

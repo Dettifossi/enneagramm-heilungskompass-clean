@@ -4324,6 +4324,34 @@ function leseprobePage() {
       </div>
       <p style="font-size:0.8rem;color:var(--copper);text-align:center;margin:0 0 1.8rem;font-style:italic;">All subtype-specific &ndash; not for the type, but for your personal subtype.</p>
 
+      <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
+
+      <!-- 4: Interactive Learning Games -->
+      <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Learn interactively – not just read</h2>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Four tools to deepen your knowledge playfully – drawing on all 600+ portraits in the Compass.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
+        <div data-route="enneagramm-memory" style="cursor:pointer;background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#129504;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Enneagram Memory</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Match pairs by subtype, 3 difficulty levels</div>
+        </div>
+        <div data-route="enneagramm-flashcards" style="cursor:pointer;background:linear-gradient(135deg,#e8f0f5,#c8dcea);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127183;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Enneagram Flashcards</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Recognize type or subtype from the portrait photo</div>
+        </div>
+        <div data-route="kompatibilitaets-check" style="cursor:pointer;background:linear-gradient(135deg,#f0ece4,#e0d5c0);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128149;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Compatibility Check</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Compare two subtypes directly</div>
+        </div>
+        <div data-route="wachstumstagebuch" style="cursor:pointer;background:linear-gradient(135deg,#eef5ee,#c8e0c8);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127793;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Growth Journal</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Daily check-in with streak tracking</div>
+        </div>
+      </div>
+
       <!-- Philosophical Depth -->
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Philosophische Tiefe</h2>
@@ -107676,8 +107704,10 @@ function freischaltPage() {
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
+          <li><strong style="color:var(--ink);">600+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
           <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
           <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
+          <li><strong style="color:var(--ink);">Interactive learning games</strong> – Enneagram Memory, Flashcards, Compatibility Check & Growth Journal</li>
           <li><strong style="color:var(--ink);">One-time purchase</strong> – lifetime access, constantly growing</li>
         </ul>
 
