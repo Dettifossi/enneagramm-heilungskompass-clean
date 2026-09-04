@@ -1151,6 +1151,7 @@ export function nikolaTeslaPortraitPage() {
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – Zwangsstörung und Isolation"},
         {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
       ])}
     </div>
   `);

@@ -1700,3 +1700,68 @@ export function williamShakespearePortraitPage() {
     </div>
   `);
 }
+
+export function christianDrostenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-christian-drosten-portrait.jpg" alt="Prof. Dr. Christian Drosten – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Christian Drosten</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Virologe, geb. 1972 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber im Strom statt gegen ihn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das für die Gemeinschaft baut und dabei besonders wirksam ist, wenn viele andere mitziehen. Christian Drosten, Virologe an der Charité Berlin, wurde mit seinem NDR-Podcast „Das Coronavirus-Update" 2020 innerhalb weniger Wochen zur bekanntesten wissenschaftlichen Stimme Deutschlands – laut Umfragen der meistgehörte unter den damals populären Podcasts, mit einem Sechstel aller Hörer, die je einmal reinhörten. Er beriet die Bundesregierung um Angela Merkel während der gesamten Pandemie.</p>
+          <p class="vb-intro">Dieses Porträt zeigt bewusst eine andere Seite der SO7w6 als das Ioannidis-Porträt dieses Kompasses: Wo Ioannidis als Kontratyp gegen den Strom schwamm, auch um den Preis erheblicher Reputationsschäden, zeigt Drosten das Muster der sozialen Sieben in ihrer anpassungsfreudigeren Ausprägung – die enge Bindung an den wissenschaftlich-politischen Konsens der Gruppe, mit allen Stärken und Schwächen, die das mit sich bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Zugehörigkeit als Kompass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> orientiert sich stark an der Gruppe, der sie dient, und sucht Harmonie mit dem Kollektiv eher als den einsamen Gegenpol. Diese Grundausrichtung erklärt einen wiederkehrenden Kritikpunkt an Drostens öffentlicher Rolle: Nach freigegebenen internen RKI-Protokollen wich die Einschätzung innerhalb des Robert Koch-Instituts teilweise von dem ab, was auf Pressekonferenzen – und von Drosten selbst – öffentlich kommuniziert wurde. Statt als einsamer Mahner gegen den offiziellen Kurs aufzutreten, blieb Drosten durchgehend nah an der Linie der politischen Entscheidungsträger, denen er beratend zur Seite stand.</p>
+          <p class="vb-intro">2020 veröffentlichte sein Team eine vielbeachtete Studie zur Viruslast bei Kindern, die als Grundlage für Warnungen vor unbeschränkten Schul- und Kita-Öffnungen diente. Mehrere Statistiker, angeführt vom Zürcher Biostatistiker Leonhard Held, wiesen gravierende methodische Mängel in der statistischen Auswertung nach. Drosten räumte im eigenen Podcast ein, sein Team habe bewusst „grobe statistische Methoden" verwendet, bestand aber darauf, die Kritikpunkte änderten nichts an der medizinischen Kernaussage. Die Studie wurde später methodisch überarbeitet.</p>
+          <p class="vb-intro">2023, in einem gemeinsam mit dem Journalisten Georg Mascolo verfassten Buch, revidierte Drosten seine frühere Haltung deutlich: Die Schulschließungen seien im Rückblick „vermutlich ein entscheidender Fehler der deutschen Pandemiepolitik" gewesen – eine Position, die seiner eigenen Studie und öffentlichen Empfehlung von 2020 diametral entgegenstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit durch die Autorität der Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verstärkt bei der sozialen Sieben die Suche nach Verlässlichkeit und Absicherung durch eine anerkannte Autorität oder ein etabliertes System. Bei Drosten zeigt sich das darin, dass er sich konsequent innerhalb des institutionellen Rahmens – RKI, Bundesregierung, etablierte Fachgesellschaften – bewegte, statt eine unabhängige Gegenposition wie Ioannidis' Santa-Clara-Studie öffentlich zu vertreten. Diese Nähe zur Autorität verschaffte ihm enorme mediale Reichweite und politischen Einfluss, machte ihn aber auch angreifbar, sobald sich die offizielle Linie später als korrekturbedürftig erwies.</p>
+          <p class="vb-intro">Kritiker warfen ihm vor, seine hohe Popularität beruhe weniger auf der fachlichen Tiefe seiner Position als auf der massiven medialen Präsenz, die ihm der NDR-Podcast von Beginn an verschaffte – ein Vorwurf, der zur SO7-Dynamik passt: Die Sieben wirkt oft sympathisch, zugänglich, sendungsbewusst, was ihr Gehör verschafft, unabhängig davon, wie belastbar die jeweilige fachliche Position gerade ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwischen Symbolfigur und Sündenbock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Drosten wurde in der öffentlichen Wahrnehmung zur Symbolfigur einer bestimmten Corona-Politik – für die einen Vertrauensanker, für die anderen Feindbild. Diese Polarisierung ist selbst Teil des SO7-Musters: Wer sich so eng mit dem Mainstream-Konsens einer Krisenzeit verbindet, wird zwangsläufig mit dessen Erfolgen wie mit dessen Fehlern identifiziert. Anders als bei Ioannidis, dessen Position von unabhängiger Distanz zu jeder Seite geprägt war, verschmolz Drostens öffentliches Bild zunehmend mit der offiziellen Pandemiepolitik selbst.</p>
+          <p class="vb-intro">Charakteristisch für diesen Subtyp ist auch, dass wiederholte Kurskorrekturen – etwa bei den Schulschließungen – nicht zu einem grundsätzlichen Vertrauensverlust in der breiten Öffentlichkeit führten. Die soziale Sieben wird für ihre Zugänglichkeit und ihren sympathischen Auftritt goutiert, oft unabhängig davon, ob sich einzelne fachliche Einschätzungen im Nachhinein als tragfähig erweisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich bei Drosten in der Fähigkeit, komplexe Wissenschaft für ein breites Publikum verständlich und zugänglich zu machen – der Podcast erreichte Millionen Menschen mit fundiertem virologischem Wissen zu einer Zeit großer Verunsicherung, und sein 2023 öffentlich eingeräumtes Eingeständnis zu den Schulschließungen zeugt von der Bereitschaft, eigene Fehleinschätzungen später zu korrigieren.</p>
+          <p class="vb-intro">Der Schatten dieses Subtyps liegt in der engen Verwobenheit mit der jeweils herrschenden Autorität: Wo die soziale Sieben mit Sechserflügel Sicherheit in der Nähe zur etablierten Linie sucht, fehlt ihr mitunter die kritische Distanz, die eine unabhängigere Position – wie sie Ioannidis während derselben Krise einnahm – ermöglicht hätte. Die methodischen Schwächen der Kinderstudie und die spätere Kehrtwende bei den Schulschließungen zeigen, wie teuer diese Nähe zur Autorität werden kann, wenn sich deren Kurs im Nachhinein als fehlerhaft erweist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Biber, der mit dem Strom baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christian Drostens Rolle in der Corona-Pandemie zeigt die soziale Sieben mit Sechserflügel in einem Licht, das sich deutlich von der Ioannidis-Variante unterscheidet: nicht der einsame Kontratyp, der gegen die herrschende Meinung anschwimmt, sondern der Biber, der mit dem Strom baut – populär, zugänglich, eng verbunden mit den Institutionen, denen er diente, und bereit, spätere Fehler öffentlich einzuräumen, aber erst, nachdem der Schaden bereits entstanden war.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+          {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6) – der Gegenpol in derselben Krise"},
+          {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

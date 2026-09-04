@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=90";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=91";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1301,6 +1301,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prof. Dr. John Ioannidis – Social Type 7",
     teaser:"SO7w6 · born 1965. Physician, epidemiologist, research methodologist. Founded METRICS at Stanford University to improve the reliability of science itself – and defended his data against considerable public pressure during the Covid-19 pandemic.",
     land:"Greece/USA", tags:["Wissenschaft","Medizin"], gender:"m"},
+{ route:"beruehmte-christian-drosten", name:"Prof. Dr. Christian Drosten", added:"2026-09-04", subtyp:"SO7w6",
+    heading:"Prof. Dr. Christian Drosten – Social Type 7",
+    teaser:"SO7w6 · born 1972. Virologist, Charité Berlin. Became Germany's best-known scientific voice of the Covid-19 pandemic through his NDR podcast in 2020 – closely bound to the official line, a methodologically contested children's study, later reversal on school closures.",
+    land:"Germany", tags:["Wissenschaft","Medizin"], gender:"m"},
 { route:"beruehmte-charlotte-wells", name:"Charlotte Wells", added:"2026-08-29", subtyp:"SE4w5",
     heading:"Charlotte Wells – Self-Preservation Type 4",
     teaser:"SE4w5 · b. 1987. Scottish director, feature debut \"Aftersun\" (2022), loosely based on the loss of her father in her youth. Studied Classics, MFA and MBA at NYU's Tisch School, noticeably guarded with the press about the film's autobiographical connections. Animal correspondence: Dove.",
@@ -39109,6 +39113,72 @@ function johnIoannidisPortraitPage() {
           {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
           {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
           {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+          {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6) – the counterpoint in the same crisis"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function christianDrostenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-christian-drosten-portrait.jpg" alt="Prof. Dr. Christian Drosten – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Christian Drosten</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Virologist, born 1972 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Building With the Current, Not Against It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of Social Type 7 &ndash; an animal that builds for the community and is especially effective when many others follow along. Christian Drosten, a virologist at Charité Berlin, became Germany's best-known scientific voice within weeks in 2020 through his NDR podcast "Das Coronavirus-Update" &ndash; according to surveys the most-heard among the popular podcasts of the time, with roughly one in six podcast listeners having tuned in at least once. He advised the federal government under Angela Merkel throughout the pandemic.</p>
+          <p class="vb-intro">This portrait deliberately shows a different side of the SO7w6 than this Compass's Ioannidis portrait: where Ioannidis, as the countertype, swam against the current, even at the cost of considerable reputational damage, Drosten shows the pattern of the social Seven in its more accommodating expression &ndash; a close bond with the scientific-political consensus of the group, with all the strengths and weaknesses that entails.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Belonging as a Compass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Seven (SO7)</strong> orients strongly toward the group it serves, seeking harmony with the collective rather than the lone counter-position. This underlying orientation explains a recurring criticism of Drosten's public role: according to released internal RKI (Robert Koch Institute) records, the institute's internal assessment sometimes diverged from what was communicated publicly at press conferences &ndash; and from what Drosten himself presented. Rather than appearing as a lone voice of caution against the official course, Drosten stayed consistently close to the line of the political decision-makers he advised.</p>
+          <p class="vb-intro">In 2020, his team published a widely noted study on viral load in children that served as a basis for warnings against unrestricted reopening of schools and daycare centers. Several statisticians, led by Zurich biostatistician Leonhard Held, identified serious methodological flaws in the statistical analysis. Drosten acknowledged on his own podcast that his team had deliberately used "crude statistical methods," but insisted the criticism did not change the medical conclusion. The study was later methodologically revised.</p>
+          <p class="vb-intro">In 2023, in a book co-written with journalist Georg Mascolo, Drosten notably reversed his earlier position: school closures had, in hindsight, "probably been a decisive mistake of German pandemic policy" &ndash; a position diametrically opposed to his own 2020 study and public recommendation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: Security Through the Group's Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> strengthens, in the Social Seven, the search for reliability and security through a recognized authority or established system. In Drosten this shows in that he consistently moved within the institutional frame &ndash; the RKI, the federal government, established professional bodies &ndash; rather than publicly holding an independent counter-position the way Ioannidis did with the Santa Clara study. This closeness to authority gave him enormous media reach and political influence, but also made him vulnerable once the official line later turned out to need correction.</p>
+          <p class="vb-intro">Critics argued that his high popularity owed less to the depth of his expertise than to the massive media presence the NDR podcast gave him from the outset &ndash; a criticism that fits the SO7 dynamic: the Seven often comes across as likable, accessible, and eager to communicate, which earns her a hearing regardless of how well-supported her current position actually is.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Between Symbolic Figure and Scapegoat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In public perception, Drosten became the symbolic figure of a particular Covid policy &ndash; a trusted anchor for some, a target for others. This polarization is itself part of the SO7 pattern: whoever binds themselves this closely to the mainstream consensus of a crisis inevitably gets identified with its successes as much as its mistakes. Unlike Ioannidis, whose position was marked by independent distance from any side, Drosten's public image increasingly merged with the official pandemic policy itself.</p>
+          <p class="vb-intro">Also characteristic of this subtype: repeated course corrections &ndash; such as on school closures &ndash; did not lead to a fundamental loss of trust among the broader public. The social Seven is rewarded for her accessibility and likable presence, often regardless of whether individual professional judgments later prove to hold up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in Drosten in his ability to make complex science understandable and accessible to a broad audience &ndash; the podcast reached millions of people with sound virological knowledge during a time of great uncertainty, and his publicly stated 2023 admission about school closures shows a willingness to correct his own earlier misjudgments later.</p>
+          <p class="vb-intro">The shadow of this subtype lies in the close entanglement with whichever authority currently holds sway: where the social Seven with a Six-wing seeks security in closeness to the established line, she sometimes lacks the critical distance that a more independent position &ndash; the one Ioannidis took during the same crisis &ndash; would have allowed. The methodological weaknesses of the children's study and the later reversal on school closures show how costly this closeness to authority can become once its course later proves flawed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Beaver That Built With the Current</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Christian Drosten's role in the Covid-19 pandemic shows the social Seven with a Six-wing in a light clearly distinct from the Ioannidis variant: not the lone countertype swimming against prevailing opinion, but the beaver that builds with the current &ndash; popular, accessible, closely bound to the institutions it served, and willing to publicly acknowledge later mistakes, but only after the damage had already been done.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+          {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6) – the counterpoint in the same crisis"},
+          {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         ])}
       </div>
     </div>
@@ -39183,6 +39253,7 @@ function nikolaTeslaPortraitPage() {
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Illness Portrait: Nikola Tesla (SO7w6) – obsessive-compulsive disorder and isolation"},
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
       ])}
     </div>
   `);
@@ -40249,6 +40320,7 @@ function frankRosellPortraitPage() {
         {route:"beruehmte-dietland-mueller-schwarze", label:"Portrait: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6)"},
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
     </div>
@@ -52828,7 +52900,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -52843,7 +52915,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -112936,6 +113008,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-elon-musk": elonMuskPortraitPage,
       "beruehmte-nikola-tesla": nikolaTeslaPortraitPage,
       "beruehmte-john-ioannidis": johnIoannidisPortraitPage,
+      "beruehmte-christian-drosten": christianDrostenPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-sally-rooney": sallyRooneyPortraitPage,
       "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
