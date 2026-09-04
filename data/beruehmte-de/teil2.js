@@ -1154,7 +1154,7 @@ export function molierePortraitPage() {
         waches Misstrauen gegenüber Autoritäten und menschlichen Masken hinzu – er
         greift Heuchelei nie direkt an, sondern versteckt die Kritik hinter einer Figur, die
         er notfalls als &bdquo;nur Theater&ldquo; verteidigen konnte. Das ist keine Einser-Moral,
-        sondern siebener-typische Flucht nach vorn, kombiniert mit sechser-typischer Vorsicht:
+        sondern siebenertypische Flucht nach vorn, kombiniert mit sechsertypischer Vorsicht:
         Intensität und Erfahrung suchen (7), aber die Gefahr dabei genau kalkulieren (6).</p>
       </div>
 
@@ -1242,8 +1242,8 @@ export function molierePortraitPage() {
         ungedeckt.</p>
         <p class="vb-intro"><strong>b) Ausdauer durch Vielfalt statt Sturheit:</strong>
         Trotz Zensur und wiederholter Aufführungsverbote gab er nie auf – aber er wich aus,
-        überarbeitete, fand neue Wege um das Verbot herum. Das ist die siebener-typische
-        Beweglichkeit, kein einser-typisches, stures Beharren auf dem einen richtigen Weg.</p>
+        überarbeitete, fand neue Wege um das Verbot herum. Das ist die siebenertypische
+        Beweglichkeit, kein einsertypisches, stures Beharren auf dem einen richtigen Weg.</p>
         <p class="vb-intro"><strong>c) Die Maske als Ich-Schutz:</strong>
         Immer wieder spielte er selbst die zentralen Rollen seiner Stücke – auch die des
         Argan, des eingebildeten Kranken. Die Rolle war ein sicherer Ort, um Dinge zu zeigen

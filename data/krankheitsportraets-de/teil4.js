@@ -1320,7 +1320,7 @@ export function helmutKohlKrankheitsportraetPage() {
         zugeordnet. Die SO8 investiert ihre Kraft in den Schutz und Aufbau einer größeren
         Gemeinschaft; der Neunerflügel bringt Geduld und die Fähigkeit hinzu, Kontrolle über
         lange Zeiträume ohne sichtbare Anstrengung zu halten. Genau diese Kombination –
-        Führungswille, gepaart mit der Neuner-typischen Neigung, die eigene Verwundbarkeit
+        Führungswille, gepaart mit der neunertypischen Neigung, die eigene Verwundbarkeit
         möglichst aus dem öffentlichen Blick zu halten – bestimmte auch, wie das Umfeld
         seine letzten Lebensjahre gestaltete.</p>
       </div>

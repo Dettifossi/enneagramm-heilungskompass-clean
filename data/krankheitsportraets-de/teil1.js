@@ -763,7 +763,7 @@ export function fjodorDostojewskiKrankheitsportraetPage() {
         In dieser Aura empfand Dostojewski nach eigener Schilderung ein überwältigendes Gefühl
         von Harmonie und Gewissheit – gefolgt von völligem Kontrollverlust im Anfall selbst.
         Genau diese Spannung zwischen absoluter Sicherheit und ihrem plötzlichen Zusammenbruch
-        ist der Kern der sechser-typischen Angst.</p>
+        ist der Kern der sechsertypischen Angst.</p>
         <p class="vb-intro"><strong>c) Öffentlich verarbeitet, nicht verschwiegen:</strong>
         Dostojewski verbarg seine Krankheit nicht, sondern übertrug sie direkt auf seine
         Romanfiguren – eine für seine Zeit ungewöhnliche Offenheit gegenüber einer damals stark
@@ -1312,7 +1312,7 @@ export function gustavMahlerKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Öffentlich sichtbar, auch im Leid:</strong>
         Anders als Molière (SO7w6), der seine Krankheit verbarg, verarbeitete Mahler seine
         Diagnose unmittelbar und öffentlich – in seinem Werk, vor einem Publikum, das seine
-        Musik oft genug verstörte. Das ist SO4-typische Sichtbarkeit, kein einser-typisches
+        Musik oft genug verstörte. Das ist SO4-typische Sichtbarkeit, kein einsertypisches
         Verschweigen.</p>
       </div>
 

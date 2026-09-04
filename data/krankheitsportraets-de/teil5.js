@@ -1650,7 +1650,7 @@ export function julesVerneKrankheitsportraetPage() {
         zugeordnet. Die SO7 opfert den eigenen unmittelbaren Genuss zugunsten einer größeren
         Idee; der Sechserflügel bringt Vorsicht und Loyalität gegenüber Autoritäten hinzu.
         Genau diese Kombination – der Wille, trotz Rückschlag weiterzubauen, gepaart mit der
-        Sechser-typischen Neigung, Schwäche eher zu verbergen als offen zuzugeben –
+        sechsertypischen Neigung, Schwäche eher zu verbergen als offen zuzugeben –
         bestimmte auch, wie Verne mit der dauerhaften Verletzung und ihren Folgen umging.</p>
       </div>
 
@@ -1729,7 +1729,7 @@ export function julesVerneKrankheitsportraetPage() {
         die Angelegenheit weitgehend privat – dieselbe Loyalität und Zurückhaltung
         gegenüber der eigenen Familie, die sich schon in seiner jahrzehntelangen
         Unterordnung unter seinen Verleger Hetzel gezeigt hatte.</p>
-        <p class="vb-intro"><strong>c) Die wachsende Skepsis als Sechser-typische Schattenseite:</strong>
+        <p class="vb-intro"><strong>c) Die wachsende Skepsis als sechsertypische Schattenseite:</strong>
         Der zunehmend düstere Ton seines Spätwerks lässt sich als Sechser-Reaktion lesen:
         Die anfängliche, fast naive Technikbegeisterung der SO7 wich einem wachsenden
         Bewusstsein für die Gefahren des eigenen Bauwerks, ausgelöst durch die eigene
@@ -1748,7 +1748,7 @@ export function julesVerneKrankheitsportraetPage() {
         (ebenfalls SO7w6) verschwieg jahrelang sein eigenes Lungenleiden, bevor er auf
         offener Bühne zusammenbrach; Verne verschwieg auf ähnliche Weise das familiäre
         Drama hinter seiner Verletzung und ihre langfristigen Folgen. Beide Fälle zeigen
-        dasselbe SO7w6-Muster: Die Sechser-typische Vorsicht sorgt dafür, dass persönliches
+        dasselbe SO7w6-Muster: Die sechsertypische Vorsicht sorgt dafür, dass persönliches
         Leid eher hinter der Fassade der Weiterarbeit verschwindet, als offen ausgesprochen
         zu werden. Mehr dazu im
         <a href="javascript:void(0)" data-route="krankheitsportraets-moliere">Krankheitsporträt zu Molière</a>.</p>

@@ -914,7 +914,7 @@ export function freudKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Wachsam gegenüber Verrat und Abweichung:</strong>
         Freud registrierte genau, wer der Bewegung treu blieb und wer sich entfernte – Jungs
         und Adlers Abspaltungen erlebte er nicht als intellektuelle Differenz, sondern als
-        Bruch eines Bundes. Typisch sechser-typische Wachsamkeit gegenüber der eigenen
+        Bruch eines Bundes. Typisch sechsertypische Wachsamkeit gegenüber der eigenen
         Gruppe.</p>
         <p class="vb-intro"><strong>c) Unnahbar, um Klarheit zu wahren:</strong>
         Schweigen, Abstinenz, die Couch statt Augenkontakt – Freuds analytisches Setting
