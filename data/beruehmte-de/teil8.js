@@ -1719,7 +1719,7 @@ export function kurtGeorgKiesingerPortraitPage() {
         <h2 class="vb-section">6. Die Gans, die zwischen den Lagern stand</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kurt Georg Kiesinger starb 1988 in T\xfcbingen. Seine Kanzlerschaft bleibt untrennbar mit zwei Bildern verbunden: dem geschickten Vermittler, der eine historisch beispiellose Koalition zusammenhielt, und dem Mann, der die Ohrfeige einer jungen Journalistin auf offener B\xfchne hinnehmen musste, weil eine ganze Generation seine leise Art, mit der eigenen Vergangenheit umzugehen, nicht l\xe4nger hinnehmen wollte.</p>
-          <p class="vb-intro">Die Gans, die zwischen den Lagern stand und Br\xfccken baute, wo andere nur Gr\xe4ben sahen, und die genau daran scheiterte, wo eine Br\xfccke nicht gebaut, sondern eine Vergangenheit anerkannt werden musste – das ist das bleibende, zwiesp\xe4ltige Bild der sozialen Eins mit Neunerfl\xfcgel.</p>
+          <p class="vb-intro">Die Gans, die zwischen den Lagern stand und Br\xfccken baute, wo andere nur Gr\xe4ben sahen, und die genau daran scheiterte, wo eine Br\xfccke nicht gebaut, sondern eine Vergangenheit anerkannt werden musste – das ist das bleibende, zwiesp\xe4ltige Bild dieser sozialen Eins mit Neunerfl\xfcgel.</p>
         </blockquote>
 
       </div>

@@ -45046,7 +45046,7 @@ function kurtGeorgKiesingerPortraitPage() {
         <h2 class="vb-section">6. The Goose That Stood Between the Camps</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kurt Georg Kiesinger died in 1988 in Tübingen. His chancellorship remains inseparable from two images: the skillful mediator who held together a historically unprecedented coalition, and the man who had to accept a young journalist's slap on an open stage, because an entire generation was no longer willing to accept his quiet way of dealing with his own past.</p>
-          <p class="vb-intro">The goose that stood between the camps and built bridges where others saw only trenches, and that failed precisely where a bridge could not be built but a past had to be acknowledged — that is the lasting, ambivalent image of the social One with a Nine-wing.</p>
+          <p class="vb-intro">The goose that stood between the camps and built bridges where others saw only trenches, and that failed precisely where a bridge could not be built but a past had to be acknowledged — that is the lasting, ambivalent image of this particular social One with a Nine-wing.</p>
         </blockquote>
 
       </div>
