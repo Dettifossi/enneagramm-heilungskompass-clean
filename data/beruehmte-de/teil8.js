@@ -1733,6 +1733,7 @@ export function kurtGeorgKiesingerPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9) – Nachfolger im Kanzleramt, derselbe Subtyp"},
         {route:"beruehmte-roald-amundsen", label:"Portr\xe4t: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portr\xe4t: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portr\xe4t: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=83";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=84";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -540,6 +540,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kurt Georg Kiesinger – Social Type 1",
     teaser:"SO1w9 · 1904–1988. German Federal Chancellor 1966–1969, first Grand Coalition. 'King Silvertongue,' the 'walking mediation committee' – and the target of Beate Klarsfeld's famous 1968 slap over his Nazi party past. Animal correspondence: Goose.",
     land:"Germany", tags:["Politics"], gender:"m"},
+{ route:"beruehmte-giorgia-meloni", name:"Giorgia Meloni", added:"2026-09-04", subtyp:"SO1w9",
+    heading:"Giorgia Meloni – Social Type 1",
+    teaser:"SO1w9 · born 1977. Italian Prime Minister since 2022, first woman in the office. From 'populist outsider' to European leadership figure – budget discipline and record tenure instead of loud confrontation. Animal correspondence: Goose.",
+    land:"Italy", tags:["Politics"], gender:"f"},
 { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -45150,6 +45154,72 @@ function davidBowiePortraitPage() {
   `);
 }
 
+function giorgiaMeloniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/giorgia-meloni-portrait.jpg" alt="Giorgia Meloni – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giorgia Meloni</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Italian Prime Minister, born 1977 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Rose Out of Garbatella</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an early, firmly rooted sense of how the world ought to function correctly, and ready to commit to that order with consistency. Giorgia Meloni, born in 1977 in Rome, grew up with her older sister in the working-class neighborhood of Garbatella. Her father left the family early — for him, she has said, she feels to this day "only indifference." Her mother, by contrast, who wrote around 140 romance novels under a pseudonym to support the family, is the one to whom she says she owes "everything."</p>
+          <p class="vb-intro">At fifteen she joined the youth wing of a neo-fascist party — an early, clear ideological commitment that barely shifted over the following three decades, even as her political style changed considerably.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Order as a Political Mandate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> projects its inner standards of right and wrong outward and cares about the correct functioning of the community. Since October 22, 2022, Meloni has been Prime Minister of Italy — the first woman to hold the office — leading, with Fratelli d'Italia, the most right-wing government the country has seen since Mussolini. Yet her governance shows itself less as ideological crusade than as budget discipline: figures and facts suggest her cabinet has kept state finances consistently under control.</p>
+          <p class="vb-intro">Her famous "Io sono Giorgia" speech — "I am Giorgia, I am a woman, I am a mother, I am Italian, I am Christian" — is pure One rhetoric: an unambiguous self-definition along clear, morally charged categories that leaves no room for interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: From Outsider to Reliable Stateswoman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> mutes the One's fidelity to principle into unruffled pragmatism rather than loud confrontation. This is exactly the transformation Meloni underwent in office: from "populist outsider" to "European leadership figure" — foreign policy firmly transatlantic, positioned as a reliable partner even in supporting Ukraine, domestic policy favoring budget discipline over radical upheaval.</p>
+          <p class="vb-intro">With more than 1,400 uninterrupted days in office, she set a 2026 record that even Silvio Berlusconi never reached — a stability born of patient, conflict-averse willingness to compromise, not confrontational displays of power. The price for this shows up in major structural reform: to smooth tensions with coalition partners, her government proceeds noticeably cautiously here — the Nine-wing's typical avoidance of open confrontation, even when urgently needed reforms are left unaddressed as a result.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Two Parental Images, an Unreconciled Split</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What stands out in Meloni's family background is the political division between her parents: the mother a follower of a neo-fascist movement, the father, in Meloni's own words, an "avowed communist." That she aligned herself so early and so unambiguously with the present mother and her convictions, while the absent father evoked only indifference, shows the One's typical need for clear moral assignment: there is the right side (the mother, who stayed and provided) and the wrong/irrelevant side (the father, who left).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is the ability to <strong>combine clear conviction with patient, low-conflict stability</strong> — Meloni's record tenure and her transformation into a recognized European negotiating partner show that firm inner standards need not lead to political instability.</p>
+          <p class="vb-intro">The shadow shows itself where the Nine-wing's conflict avoidance permanently postpones necessary but uncomfortable reforms in order to preserve a fragile coalition peace — stability at the cost of unresolved structural problems in administration, healthcare, and education.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. From the Loud Speech of Identity to the Quiet Administration of Power</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Giorgia Meloni remains in office to this day — her political biography runs from youthful membership in a fringe movement, through the fiery identity speech "Io sono Giorgia," to an outwardly calm, budget-disciplined style of governing that made her the longest-serving prime minister in postwar Italian history.</p>
+          <p class="vb-intro">Anyone wanting to see how burning moral certainty can translate into patient, years-long administrative work without ever raising its voice will find, in Meloni's case, an almost textbook example of that transition.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function kurtGeorgKiesingerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45278,6 +45348,7 @@ function helmutSchmidtPortraitPage() {
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -45348,6 +45419,7 @@ function roaldAmundsenPortraitPage() {
         {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – firmness without drama"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -45484,6 +45556,7 @@ function markusLanzPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
@@ -45548,6 +45621,7 @@ function ursulaVonDerLeyenPortraitPage() {
         {route:"subtype/so1", label:"SO1 – Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SO1w9 compared"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -52841,7 +52915,7 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
@@ -52851,7 +52925,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
         beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
-        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation."
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation; Giorgia Meloni, who transformed from 'populist outsider' into a recognized European negotiating partner by proceeding noticeably cautiously on major, uncomfortable structural reforms for the sake of coalition peace – stability through willingness to compromise rather than open confrontation with her own partners."
       },
       {
         titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
@@ -112451,6 +112525,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ursula-von-der-leyen": ursulaVonDerLeyenPortraitPage,
       "beruehmte-helmut-schmidt": helmutSchmidtPortraitPage,
       "beruehmte-kurt-georg-kiesinger": kurtGeorgKiesingerPortraitPage,
+      "beruehmte-giorgia-meloni": giorgiaMeloniPortraitPage,
       "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,

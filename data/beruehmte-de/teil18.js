@@ -1681,3 +1681,68 @@ export function aliWongPortraitPage() {
     </div>
   `);
 }
+
+export function giorgiaMeloniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/giorgia-meloni-portrait.jpg" alt="Giorgia Meloni – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Giorgia Meloni</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Italienische Ministerpr\xe4sidentin, geb. 1977 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die aus Garbatella aufstieg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem fr\xfch gefestigten Gesp\xfcr daf\xfcr, wie die Welt richtig zu funktionieren hat, und bereit, sich f\xfcr diese Ordnung mit Konsequenz einzusetzen. Giorgia Meloni, 1977 in Rom geboren, wuchs mit ihrer \xe4lteren Schwester im Arbeiterviertel Garbatella auf. Ihr Vater verlie\xdf die Familie fr\xfch – f\xfcr ihn empfinde sie bis heute „nur Gleichg\xfcltigkeit", erkl\xe4rte sie 2020. Ihre Mutter dagegen, die rund 140 Liebesromane unter Pseudonym schrieb, um die Familie zu ern\xe4hren, sei diejenige, der sie „alles zu verdanken" habe.</p>
+          <p class="vb-intro">Mit f\xfcnfzehn Jahren trat sie der Jugendorganisation einer neofaschistischen Partei bei – eine fr\xfche, klare ideologische Festlegung, die sich in den folgenden drei Jahrzehnten kaum verschob, auch wenn sich ihr politischer Stil dabei erheblich wandelte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung als politischer Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> tr\xe4gt ihre inneren Ma\xdfst\xe4be von Richtig und Falsch nach au\xdfen und sorgt sich um das korrekte Funktionieren der Gemeinschaft. Seit dem 22. Oktober 2022 ist Meloni Ministerpr\xe4sidentin Italiens – die erste Frau in diesem Amt – und f\xfchrt mit Fratelli d'Italia die rechteste Regierung des Landes seit Mussolini. Ihre Regierungsf\xfchrung zeigt sich dabei weniger als ideologischer Feldzug denn als Haushaltsdisziplin: Zahlen und Fakten deuten darauf hin, dass ihr Kabinett die Staatsfinanzen konsequent unter Kontrolle h\xe4lt.</p>
+          <p class="vb-intro">Ihre ber\xfchmte Rede „Io sono Giorgia" – „Ich bin Giorgia, ich bin eine Frau, ich bin eine Mutter, ich bin Italienerin, ich bin Christin" – ist reinste Einser-Rhetorik: eine unmissverst\xe4ndliche Selbstverortung entlang klarer, moralisch aufgeladener Kategorien, die keinen Interpretationsspielraum l\xe4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Von der Au\xdfenseiterin zur verl\xe4sslichen Staatsfrau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> d\xe4mpft die Einser-Prinzipientreue zu unaufgeregtem Pragmatismus statt lautstarker Konfrontation. Genau diese Wandlung vollzog Meloni im Amt: von der „populistischen Au\xdfenseiterin" zur „europ\xe4ischen F\xfchrungsfigur" – au\xdfenpolitisch klar transatlantisch ausgerichtet, als verl\xe4ssliche Partnerin auch in der Unterst\xfctzung f\xfcr die Ukraine positioniert, innenpolitisch auf Haushaltsdisziplin statt radikaler Umw\xe4lzung setzend.</p>
+          <p class="vb-intro">Mit \xfcber 1.400 ununterbrochenen Amtstagen stellte sie 2026 einen Rekord auf, den selbst Silvio Berlusconi nicht erreicht hatte – eine Stabilit\xe4t, die aus geduldiger, konfliktvermeidender Kompromissbereitschaft entsteht, nicht aus konfrontativer Machtdemonstration. Den Preis daf\xfcr zahlt sie bei gro\xdfen Strukturreformen: Um Spannungen mit den Koalitionspartnern zu gl\xe4tten, agiert ihre Regierung hier auffallend vorsichtig – die Neunerfl\xfcgel-typische Vermeidung offener Konfrontation, selbst wenn dringend notwendige Reformen darunter liegen bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwei Elternbilder, eine unversöhnte Spaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bemerkenswert an Melonis famili\xe4rem Hintergrund ist die politische Zerrissenheit der Eltern: Die Mutter Anh\xe4ngerin einer neofaschistischen Bewegung, der Vater nach Melonis eigenen Worten „bekennender Kommunist". Dass sie sich so fr\xfch und so eindeutig auf die Seite der pr\xe4senten Mutter und deren \xdcberzeugungen stellte, w\xe4hrend der abwesende Vater nur Gleichg\xfcltigkeit hervorrief, zeigt die Einser-typische Notwendigkeit klarer moralischer Zuordnung: Es gibt die richtige Seite (die Mutter, die blieb und sorgte) und die falsche/irrelevante Seite (der Vater, der ging).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die F\xe4higkeit, <strong>klare Überzeugung mit geduldiger, konfliktarmer Stabilit\xe4t zu verbinden</strong> – Melonis Rekord-Amtszeit und ihr Wandel zur anerkannten europ\xe4ischen Verhandlungspartnerin zeigen, dass feste innere Ma\xdfst\xe4be nicht zwangsl\xe4ufig zu politischer Instabilit\xe4t f\xfchren m\xfcssen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich dort, wo die Neunerfl\xfcgel-Konfliktvermeidung notwendige, aber unbequeme Reformen dauerhaft aufschiebt, um den br\xfcchigen Koalitionsfrieden zu wahren – Stabilit\xe4t um den Preis liegen gebliebener struktureller Probleme in Verwaltung, Gesundheitswesen und Bildung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Von der lauten Identit\xe4tsrede zur leisen Verwaltung der Macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Giorgia Meloni bleibt bis heute im Amt – ihre politische Biografie f\xfchrt von der jugendlichen Mitgliedschaft in einer Randbewegung \xfcber die feurige Identit\xe4tsrede „Io sono Giorgia" bis zur nach au\xdfen ruhigen, haushaltsdisziplinierten Regierungsf\xfchrung, die sie zur am l\xe4ngsten amtierenden Ministerpr\xe4sidentin der italienischen Nachkriegsgeschichte machte.</p>
+          <p class="vb-intro">Wer wissen will, wie sich glühende moralische Gewissheit in geduldige, jahrelange Verwaltungsarbeit \xfcbersetzen l\xe4sst, ohne dabei laut zu werden – bei Meloni l\xe4sst sich dieser Übergang fast lehrbuchhaft nachvollziehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portr\xe4t: Kurt Georg Kiesinger (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
