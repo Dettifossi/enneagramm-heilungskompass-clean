@@ -448,6 +448,7 @@ export function editaGruberovaPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SE3w2) – ebenfalls Sängerin"},
       ])}
     </div>
   `);

@@ -1713,3 +1713,67 @@ export function markusLanzPortraitPage() {
     </div>
   `);
 }
+
+export function heleneFischerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-helene-fischer-portrait.jpg" alt="Helene Fischer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helene Fischer</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, geb. 1984 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich sein Revier hart erarbeitete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier des selbsterhaltenden Typs 3 – ein Tier, das seinen Erfolg nicht durch Statussymbole demonstriert, sondern durch stille, kompetente Eigenleistung sichert. Helene Fischer, 1984 in Krasnojarsk geboren und mit ihrer Familie als Kind nach Deutschland übergesiedelt, arbeitete sich über Jahre unermüdlicher Auftritte, Proben und Tourneen zur erfolgreichsten deutschen Schlagersängerin der Gegenwart hoch.</p>
+          <p class="vb-intro">Trotz Weltruhm hält sie ihr Privatleben streng abgeschottet – kaum Home-Storys, kaum Social-Media-Selbstinszenierung, dafür ein bewusster Rückzug in die Ruhe fernab von Rampenlicht und Paparazzi. Genau das ist die SE3-Sicherheit: Wert entsteht nicht durch sichtbare Bestätigung von außen, sondern durch die eigene, nachweisbare Leistungsfähigkeit – und die wird lieber im Verborgenen erarbeitet als öffentlich zur Schau gestellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Erfolg durch Selbstgenügsamkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht nach Naranjo Sicherheit durch kompetente Eigenständigkeit statt durch soziale Anerkennung oder persönliche Anziehung. Fischer bezeichnet sich selbst als „Kontrolletti", die sich mit ihrem eigenen Perfektionismus manchmal selbst im Weg steht, und gesteht offen: „Ich bin wahnsinnig schlecht im Abgeben." Statt Aufgaben zu delegieren, trainiert sie ihre aufwendigen Bühnenshows lieber selbst durch – auch nach einer Kopfverletzung beim Trapezakt in Hannover oder einer gebrochenen Rippe während einer Tourprobe.</p>
+          <p class="vb-intro">Diese Bereitschaft, körperliche Risiken für die eigene, selbst kontrollierte Leistung in Kauf zu nehmen, statt sich zu schonen oder Schwäche zuzugeben, ist reinste SE3-Handschrift: Sicherheit entsteht aus dem Wissen, es selbst geschafft zu haben, nicht aus fremder Fürsorge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hingabe an das Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der selbsterhaltenden Drei eine warme, beziehungsstiftende Note, die über reine Leistungsdemonstration hinausgeht. Fischers Konzerte sind explizit auf emotionale Nähe zum Publikum angelegt: Liedtexte über Liebe und das Kostbare des Moments, das wiederkehrende „diesen Abend gemeinsam feiern", Paare, die sich in den Armen liegen. Die taz beschrieb dieses Muster treffend mit „Alles für euch, meine Lieben" – eine Formulierung, die genau die Zweier-Grundhaltung trifft: sich selbst über die Hingabe an andere zu definieren.</p>
+          <p class="vb-intro">Dieselbe Fürsorge zeigt sich in ihrem Familienleben – ihre Eltern sitzen fast immer im Publikum, ein Lied ist ihnen gewidmet ("Du hast mich stark gemacht") – und seit ihrer eigenen Mutterschaft wandte sie sich verstärkt Kinderbuch-Projekten zu, die bewusst Wärme, Fantasie und geteilte Momente vermitteln sollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Perfektionismus, der die eigene Leichtigkeit kostet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fischer selbst hat offen eingeräumt, dass ihr Perfektionismus sie manchmal „selbst nervt" und ihr die innere Ruhe nimmt. Diese Ehrlichkeit gegenüber der eigenen Getriebenheit ist selten bei öffentlichen Figuren, die primär über Leistung wahrgenommen werden – und passt zur SE3, die ihre Anstrengung nicht als Last, sondern als selbstverständliche Voraussetzung für Sicherheit empfindet, selbst wenn sie darunter leidet.</p>
+          <p class="vb-intro">Ihre Töchter hätten sie „sensibler" gemacht, sagt sie, und gleichzeitig „gelassener" – eine Entwicklung, die zeigt, wie der Zweierflügel mit der Zeit stärker zum Tragen kommt: die eigene emotionale Zugänglichkeit wächst, ohne dass die SE3-Grundstruktur der eigenständigen Leistungssicherheit verschwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich bei Fischer in der Fähigkeit, enorme eigene Leistung mit echter Hingabe an ihr Publikum zu verbinden – die Bühnenshow ist nicht bloß Selbstinszenierung, sondern ein Geschenk an die Menschen, die sich einen Abend voller Nähe und Emotion wünschen.</p>
+          <p class="vb-intro">Der Schatten der Drei liegt in der Unfähigkeit, Kontrolle abzugeben, und in der Bereitschaft, die eigene körperliche Sicherheit dem Perfektionsanspruch unterzuordnen. Der Zweierflügel mildert diese Härte gegen sich selbst zwar durch emotionale Offenheit gegenüber Fans und Familie, verhindert aber nicht, dass sie sich selbst am härtesten von allen behandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Sängerin, die alles selbst durchtrainierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helene Fischers Karriere zeigt die selbsterhaltende Drei mit Zweierflügel in einer besonders intensiven Form: kompromissloser Perfektionismus, der körperliche Risiken in Kauf nimmt, gepaart mit einer echten, warmen Hingabe an ein Publikum, dem sie unvergessliche Abende schenken will. Der Waschbär arbeitet allein und verlässlich – aber er teilt, was er sich erarbeitet hat, mit denen, die ihm wichtig sind.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+          {route:"beruehmte-edita-gruberova", label:"Porträt: Edita Gruberová (SE3w2) – ebenfalls Sängerin"},
+          {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

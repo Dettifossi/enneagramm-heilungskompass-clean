@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=94";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=95";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1105,6 +1105,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edita Gruberová – Self-Preservation Type 3",
     teaser:"SP3w2 · 1946–2021. Slovak coloratura soprano, the \"Queen of Coloratura,\" over 45 years at the Vienna State Opera. Fled Czechoslovakia for Vienna in 1971, still sang the most demanding roles at 72 – an exceptional career length for her voice type. Animal correspondence: Raccoon.",
     land:"Slovakia/Austria", tags:["Music"], gender:"f"},
+{ route:"beruehmte-helene-fischer", name:"Helene Fischer", added:"2026-09-05", subtyp:"SE3w2",
+    heading:"Helene Fischer – Self-Preservation Type 3",
+    teaser:"SE3w2 · born 1984. German Schlager singer. The most successful contemporary Schlager artist, uncompromising perfectionism paired with a strictly guarded private life. Warm, personal stage presence that seeks closeness with the audience.",
+    land:"Germany", tags:["Music"], gender:"f"},
 { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Self-Preservation Type 3",
     teaser:"SP3w2 · 1923–2008. German actor, 24 years and 281 episodes as Chief Inspector Derrick, the best-selling German TV series of all time. Over two decades of close collaboration with Fritz Wepper. Concealed his Waffen-SS membership throughout his life, which only became known posthumously in 2013. Animal correspondence: Raccoon.",
@@ -51018,6 +51022,70 @@ function michaelDellPortraitPage() {
   `);
 }
 
+function heleneFischerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-helene-fischer-portrait.jpg" alt="Helene Fischer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helene Fischer</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Singer, born 1984 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Earned Her Territory the Hard Way</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of Self-Preservation Type 3 &ndash; an animal that secures its success not through status symbols, but through quiet, competent achievement. Helene Fischer, born in 1984 in Krasnoyarsk and relocated with her family to Germany as a child, worked her way through years of relentless performances, rehearsals, and tours to become the most successful German Schlager singer of her generation.</p>
+          <p class="vb-intro">Despite global fame, she keeps her private life strictly guarded &ndash; hardly any home stories, hardly any self-staging on social media, but a deliberate retreat into quiet, away from the spotlight and the paparazzi. That is exactly SE3 security: worth doesn't come from visible outside validation, but from one's own, demonstrable capability &ndash; and that capability is preferably earned in private rather than put on public display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Three: Success Through Self-Sufficiency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo's <strong>Self-Preservation Three (SE3)</strong> seeks security through competent self-sufficiency rather than social recognition or personal magnetism. Fischer describes herself as a "control freak" who sometimes gets in her own way with her own perfectionism, and openly admits: "I'm terribly bad at delegating." Instead of handing off tasks, she prefers to personally train through her elaborate stage shows &ndash; even after a head injury during a trapeze act in Hanover or a broken rib during a tour rehearsal.</p>
+          <p class="vb-intro">This willingness to accept physical risk for her own, self-controlled performance rather than sparing herself or admitting weakness is pure SE3 signature: security comes from knowing she achieved it herself, not from being cared for by others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Devotion to the Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the Self-Preservation Three a warm, relationship-building quality that goes beyond a pure demonstration of achievement. Fischer's concerts are explicitly designed for emotional closeness with her audience: lyrics about love and the preciousness of the moment, the recurring phrase "celebrate this evening together," couples embracing in each other's arms. The German newspaper taz aptly described this pattern as "everything for you, my dears" &ndash; a phrasing that captures exactly the Two's underlying stance: defining oneself through devotion to others.</p>
+          <p class="vb-intro">The same care shows in her family life &ndash; her parents almost always sit in the audience, one song is dedicated to them ("You Made Me Strong") &ndash; and since becoming a mother herself, she has increasingly turned to children's book projects meant to deliberately convey warmth, imagination, and shared moments.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Perfectionism That Costs Her Own Lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fischer has openly admitted that her perfectionism sometimes "annoys even herself" and robs her of inner calm. This honesty about her own drivenness is rare among public figures who are perceived primarily through achievement &ndash; and it fits the SE3, who experiences effort not as a burden but as the natural precondition for security, even when it comes at a cost.</p>
+          <p class="vb-intro">Her daughters have made her "more sensitive," she says, and at the same time "calmer" &ndash; a development that shows how the Two-wing comes through more strongly over time: her own emotional accessibility grows, without the underlying SE3 structure of self-sufficient achievement security disappearing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 shows in Fischer in her ability to combine enormous personal achievement with genuine devotion to her audience &ndash; the stage show is not mere self-promotion, but a gift to people who want an evening full of closeness and emotion.</p>
+          <p class="vb-intro">The shadow of the Three lies in the inability to relinquish control, and in the willingness to subordinate her own physical safety to the demand for perfection. The Two-wing softens this harshness toward herself somewhat through emotional openness toward fans and family, but it doesn't stop her from treating herself the hardest of all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Singer Who Trained Everything Herself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helene Fischer's career shows the Self-Preservation Three with a Two-wing in a particularly intense form: uncompromising perfectionism that accepts physical risk, paired with genuine, warm devotion to an audience she wants to give unforgettable evenings. The raccoon works alone and reliably &ndash; but shares what it has earned with those who matter to it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+          {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SE3w2) – also a singer"},
+          {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function editaGruberovaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -51079,6 +51147,7 @@ function editaGruberovaPortraitPage() {
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SP3w2) – also a singer"},
       ])}
     </div>
   `);
@@ -51276,6 +51345,7 @@ function langLangPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SE3w2)"},
       ])}
     </div>
   `);
@@ -53417,7 +53487,7 @@ const LEBENSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Competence over glamour – the natural mask that builds a functioning system out of little (Naranjo: the countertype of the Three)",
-    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks", "William Shakespeare", "Caren Miosga"],
+    beispiele: ["Volodymyr Zelenskyy", "Sadhguru", "Joseph Haydn", "Lang Lang", "Penélope Cruz", "David L. Rathmer", "Kathrin Bauerfeind", "Tony Shalhoub", "Anna Anderson", "Judit Polgár", "Madame Tussaud", "Osho", "Sterling North", "Dr. Annika von Mutius", "Changpeng Zhao", "Cheyenne Ochsenknecht", "Johnny Cash", "Bastian Pastewka", "Horst Tappert", "Edita Gruberová", "Michael Dell", "Serdar Somuncu", "Andre Agassi", "Michael Franzese", "Pablo Escobar", "Tom Keating", "Samuel Bankman-Fried", "Ruja Ignatova", "Henri Désiré Landru", "Belle Gunness", "Karla Homolka", "Bernie Madoff", "Salome", "Rosa Parks", "William Shakespeare", "Caren Miosga", "Helene Fischer"],
     fingerabdruecke: [
       {
         titel: "Unassuming facade instead of the spotlight – competence over glamour (Naranjo: countertype)",
@@ -53432,7 +53502,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Years of disciplined practice in hiding before mastery becomes visible",
         beschreibung: "Skills that later seem effortless almost never arise overnight, but through years of quiet, often painfully consistent repetition, long before the public knows anything about it.",
-        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline; Serdar Somuncu, who completed over ten years of classical music and acting training and directed more than a hundred stage plays before his actual public breakthrough with the 'Mein Kampf' readings – years of invisible groundwork as the foundation for a body of work sustained across decades."
+        beleg: "Lang Lang: 'The raccoon learned early: skill doesn't come through talent alone, but through endless, often painful repetition'; Judit Polgár, whose mastery was the result of 'thousands of hours of training at the board, long before the public knew about her'; Tom Keating, who over two decades created more than 2,000 paintings in the style of about 100 masters – craft mastery deliberately aimed against the art market; Penélope Cruz, who trained in classical ballet and dramatic art before ever stepping in front of a camera – years of training as a foundation, not a footnote; David L. Rathmer, who was introduced to the Enneagram at age eight and turned that into over fifteen years of empirical research, long before it became a standalone, internationally used method; Bryn Kenney, who began playing poker online at sixteen, 'long before anyone knew his name,' and whose years of skill-building, developed out of sight, only became visible in 2019 with the largest single cash in poker history; Bastian Pastewka, regarded as a meticulous perfectionist who thoroughly prepares every role, every punchline, and every piece of timing rather than relying on spontaneous creativity – a standard visible both in his own, years-in-the-making sitcom and in his internationally respected voice-acting work; Edita Gruberová, who at fifteen began six years of vocal training at the Bratislava Conservatory and kept up the same relentless vocal maintenance into old age – she still sang the most demanding coloratura roles at seventy-two, an exceptional career length for her voice type and the direct result of decades of technical discipline; Serdar Somuncu, who completed over ten years of classical music and acting training and directed more than a hundred stage plays before his actual public breakthrough with the 'Mein Kampf' readings – years of invisible groundwork as the foundation for a body of work sustained across decades; Helene Fischer, who prefers to personally train through her elaborate stage shows rather than delegate – 'terribly bad at delegating,' as she puts it herself – and accepted physical setbacks such as a head injury during a trapeze act or a broken rib during a tour rehearsal rather than hand over control of her own performance."
       },
       {
         titel: "Trading achieved visibility for substance, on purpose",
@@ -113471,6 +113541,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-tim-maelzer": timMaelzerPortraitPage,
       "beruehmte-michael-dell": michaelDellPortraitPage,
       "beruehmte-edita-gruberova": editaGruberovaPortraitPage,
+      "beruehmte-helene-fischer": heleneFischerPortraitPage,
       "beruehmte-horst-tappert": horstTappertPortraitPage,
       "beruehmte-bastian-pastewka": bastianPastewkaPortraitPage,
       "beruehmte-lang-lang": langLangPortraitPage,

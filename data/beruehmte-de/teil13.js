@@ -907,6 +907,7 @@ export function langLangPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SE3w2)"},
       ])}
     </div>
   `);
