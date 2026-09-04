@@ -1729,3 +1729,67 @@ export function edvardMunchPortraitPage() {
     </div>
   `);
 }
+
+export function irisBerbenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-iris-berben-portrait.jpg" alt="Iris Berben – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Iris Berben</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1950 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der sich nie auf ein Federkleid beschränkte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, dessen Erfolg untrennbar mit persönlicher Anziehungskraft und Wirkung verbunden ist. Iris Berben, 1950 in Detmold als Tochter eines Gastronomen-Ehepaars geboren, verbrachte eine unruhige Kindheit zwischen Hamburg, Essen und mehreren Internaten, bevor sie mit siebzehn ihre Schauspielkarriere in einem Experimentalfilm begann.</p>
+          <p class="vb-intro">Seit über fünfzig Jahren ist sie eine feste Größe des deutschen Film- und Fernsehgeschäfts – von komödiantischen Anfängen über die charakterstarke Kriminalreihe „Rosa Roth" (1994–2013) bis zur „Grande Dame des deutschen Films". Kein Pfau bleibt in einem einzigen Federkleid: Berben hat sich über Jahrzehnte immer wieder neu erfunden, ohne je die Grundfarbe ihrer öffentlichen Wirkung zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als eigenes Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht nach Naranjo Erfolg über die eigene Anziehungskraft, über die Fähigkeit, im Gegenüber Wirkung zu erzielen. Berben wurde über Jahrzehnte mit Superlativen wie „schönste Frau Deutschlands" oder „erotischste Schauspielerin" belegt – eine öffentliche Zuschreibung, die sie selbst bewusst umdeutete: Den Begriff „sexy" mag sie nicht, weil er von außen an sie herangetragen wird; „sinnlich" trifft es für sie besser, weil es sich auf Gefühl bezieht statt auf fremde Zuschreibung.</p>
+          <p class="vb-intro">Ihr eigener Satz „Erotik hört nie auf, sie wird nur anders besetzt" zeigt die SX3-Reife in Reinform: Anziehungskraft wird mit dem Alter nicht abgelegt, sondern neu definiert – über Klugheit, Ironie und Selbstsicherheit statt über rein äußere Attribute. Das ist keine Verteidigung der Jugend, sondern die aktive Neuformulierung dessen, worüber die eigene Wirkung entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wirkung im Dienst einer Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sexuellen Drei eine zusätzliche Fürsorglichkeit, die die eigene Anziehungskraft in den Dienst eines größeren Anliegens stellt, statt sie ausschließlich für sich selbst zu nutzen. Eine Reise nach Israel 1967 wurde für Berben zum prägenden Wendepunkt – seither engagiert sie sich konsequent gegen Antisemitismus und für Demokratie, wofür sie 2002 den Leo-Baeck-Preis des Zentralrats der Juden in Deutschland erhielt.</p>
+          <p class="vb-intro">Genau diese Verbindung – öffentliche Präsenz, die sich selbst nicht genügt, sondern in gesellschaftliches Engagement übersetzt wird – ist die Handschrift des Zweierflügels: Die eigene Strahlkraft wird geteilt und für andere eingesetzt, nicht nur zur eigenen Bestätigung verwendet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Stil als bewusste Reduktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berben beschreibt ihren eigenen Stil als „mühelose Eleganz" mit bewusster Reduktion bei Kaufentscheidungen – kein Übermaß an Selbstinszenierung, sondern eine kuratierte, kontrollierte Form von Wirkung. Über ihre Vorstellung von Männlichkeit sagt sie: „Männlichkeit ist nicht unbedingt der Sixpack, aber ich mag Männer, die wie ein Mann aussehen und wie ein Mann reagieren" – eine klare, selbstbewusste Präferenz statt vager Anpassung an gängige Erwartungen.</p>
+          <p class="vb-intro">Diese Klarheit über die eigene Wirkung, gepaart mit über hundert Filmrollen in fünf Jahrzehnten, zeigt eine SX3, die ihre Anziehungskraft nicht dem Zufall überlässt, sondern als eigenständiges, gepflegtes Handwerk begreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Berben darin, dass sie ihre öffentliche Wirkung konsequent mit echtem gesellschaftlichem Engagement verband, statt sie ausschließlich zur eigenen Bestätigung zu nutzen – der Leo-Baeck-Preis steht dafür ebenso wie ihr jahrzehntelanges Eintreten gegen Antisemitismus.</p>
+          <p class="vb-intro">Der Schatten der Drei liegt in der Gefahr, den eigenen Wert vollständig an die von außen wahrgenommene Wirkung zu knüpfen – eine Falle, der Berben durch ihre bewusste Neudefinition von Erotik und Anziehungskraft im Alter aktiv entgegenwirkte, statt sich dagegen zu wehren oder sie zu verleugnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Schauspielerin, die Wirkung neu erfand statt sie zu verteidigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Iris Berbens Karriere zeigt die sexuelle Drei mit Zweierflügel über fünfzig Jahre hinweg in ihrer reifsten Form: Anziehungskraft, die sich mit dem Leben verändert statt zu erstarren, und öffentliche Präsenz, die sich immer wieder für eine Sache jenseits der eigenen Person einsetzte. Der Pfau zeigt nicht immer dasselbe Rad – aber er hört nie auf, es mit Absicht zu zeigen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+          {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
+          {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

@@ -1750,6 +1750,7 @@ export function brigitteMacronPortraitPage() {
         {route:"beruehmte-emmanuel-macron", label:"Portr\xe4t: Emmanuel Macron (SO1w9) – ihr Ehemann"},
         {route:"beruehmte-brigitte-bardot", label:"Portr\xe4t: Brigitte Bardot (SX3w2)"},
         {route:"beruehmte-brad-pitt", label:"Portr\xe4t: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
       ])}
     </div>
   `);

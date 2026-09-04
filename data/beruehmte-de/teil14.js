@@ -184,6 +184,7 @@ export function brigitteBardotPortraitPage() {
         {route:"beruehmte-lena-meyer-landrut", label:"Portr\u00e4t: Lena Meyer-Landrut (SX3w2)"},
         {route:"beruehmte-brigitte-macron", label:"Portr\u00e4t: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Krankheitsportr\u00e4t: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portr\u00e4t: Iris Berben (SX3w2) – ebenfalls Schauspielerin"},
       ])}
     </div>
   `);

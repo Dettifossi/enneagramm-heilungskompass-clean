@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=95";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=96";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1277,6 +1277,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Brigitte Bardot – Sexual Type 3",
     teaser:"SX3w2 · 1934–2025. Film icon of the 1950s/60s, animal rights activist since 1973. From the embodiment of sensual allure to founder of her own foundation – the peacock that eventually puts its plumage to work for another cause. Animal correspondence: Peacock.",
     land:"France", tags:["Schauspiel"] , gender:"f"},
+{ route:"beruehmte-iris-berben", name:"Iris Berben", added:"2026-09-05", subtyp:"SX3w2",
+    heading:"Iris Berben – Sexual Type 3",
+    teaser:"SX3w2 · born 1950. German actress, \"grande dame of German film.\" Over five decades of public magnetism she actively redefined with age rather than defending it. Long-standing engagement against antisemitism, Leo Baeck Medal 2002.",
+    land:"Germany", tags:["Schauspiel","Gesellschaft"] , gender:"f"},
 { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexual Type 3",
     teaser:"SX3w4 · born 1961. Actress, director. Hollywood's favorite person of the 1990s - the peacock who wanted more than his role. Animal correspondence: Peacock.",
@@ -27659,6 +27663,70 @@ function jesusChristusPortraitPage() {
   `);
 }
 
+function irisBerbenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-iris-berben-portrait.jpg" alt="Iris Berben – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Iris Berben</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1950 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock That Never Settled for One Plumage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of Sexual Type 3 &ndash; an animal whose success is inseparably tied to personal magnetism and effect. Iris Berben, born in 1950 in Detmold to a restaurant-owning couple, spent an unsettled childhood between Hamburg, Essen, and several boarding schools before beginning her acting career at seventeen in an experimental film.</p>
+          <p class="vb-intro">For over fifty years she has been a fixture of German film and television &ndash; from comedic beginnings, through the character-driven crime series "Rosa Roth" (1994&ndash;2013), to becoming the "grande dame of German film." No peacock stays in a single plumage: Berben has repeatedly reinvented herself over the decades, without ever losing the underlying color of her public effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Attraction as Its Own Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo's <strong>Sexual Three (SX3)</strong> seeks success through her own magnetism, through the ability to create an effect in the other person. For decades Berben was labeled with superlatives like "most beautiful woman in Germany" or "most erotic actress" &ndash; a public attribution she deliberately reframed herself: she dislikes the word "sexy" because it's imposed on her from outside; "sensual" fits better for her, because it relates to feeling rather than an outside label.</p>
+          <p class="vb-intro">Her own line, "Eroticism never stops, it just gets cast differently," shows SX3 maturity in pure form: attraction isn't shed with age but redefined &ndash; through cleverness, irony, and self-assurance rather than purely external attributes. That is not a defense of youth, but the active reformulation of what her own effect is built on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Effect in Service of a Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the Sexual Three an additional caring quality that puts her own magnetism in service of a larger cause, rather than using it exclusively for herself. A trip to Israel in 1967 became a defining turning point for Berben &ndash; ever since, she has consistently campaigned against antisemitism and for democracy, for which she received the Leo Baeck Medal from the Central Council of Jews in Germany in 2002.</p>
+          <p class="vb-intro">Exactly this connection &ndash; public presence that isn't self-sufficient but translates into social engagement &ndash; is the Two-wing's signature: her own radiance is shared and put to use for others, not merely for her own affirmation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Style as Deliberate Reduction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berben describes her own style as "effortless elegance" with deliberate reduction in her purchasing decisions &ndash; not excessive self-staging, but a curated, controlled form of effect. On her idea of masculinity, she says: "Masculinity isn't necessarily the six-pack, but I like men who look like a man and react like a man" &ndash; a clear, self-assured preference rather than vague accommodation of common expectations.</p>
+          <p class="vb-intro">This clarity about her own effect, paired with over a hundred film roles across five decades, shows an SX3 who doesn't leave her attraction to chance, but treats it as an independent, well-tended craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 shows in Berben in that she consistently linked her public effect with genuine social engagement, rather than using it exclusively for her own affirmation &ndash; the Leo Baeck Medal stands for that as much as her decades-long stand against antisemitism.</p>
+          <p class="vb-intro">The shadow of the Three lies in the risk of tying one's entire worth to externally perceived effect &ndash; a trap Berben actively countered through her deliberate redefinition of eroticism and attraction in old age, rather than fighting or denying it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Actress Who Reinvented Her Effect Instead of Defending It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Iris Berben's career shows the Sexual Three with a Two-wing across more than fifty years in its most mature form: magnetism that changes with life instead of freezing in place, and public presence that repeatedly put itself in service of a cause beyond herself. The peacock doesn't always display the same feathers &ndash; but it never stops displaying them with intent.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
+          {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function brigitteMacronPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -27720,6 +27788,7 @@ function brigitteMacronPortraitPage() {
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9) – her husband"},
         {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
         {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
       ])}
     </div>
   `);
@@ -27791,6 +27860,7 @@ function brigitteBardotPortraitPage() {
         {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
         {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Illness Portrait: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2) – also an actress"},
       ])}
     </div>
   `);
@@ -53460,12 +53530,12 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
         beschreibung: "The effect arises not through planned strategy, but through a presence that escapes analysis – one can hardly resist it without being able to say exactly how it comes about.",
-        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'; Judas Iscariot, who 'had stood out early – not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear.'; Brigitte Macron, whose attraction was never dedicated to a broad audience, but from the very beginning to a single bond that carried across decades – no calculated staging, but an intensity that sustained exactly one relationship, against considerable social convention."
+        beleg: "Brad Pitt: 'The peacock, whose effect doesn't come from calculation, but from pure, immediate presence. He has nothing to prove, he only needs to be there'; Brigitte Bardot: 'An animal that doesn't unfold its feathers to calculate an effect, but because splendor is its nature'; Marilyn Monroe: 'Her presence wasn't technique, but a presence no one could escape.'; Judas Iscariot, who 'had stood out early – not through volume, not through miracles, but through magnetism. When he spoke, people listened, not because he pushed, but because he struck the tone others wanted to hear.'; Brigitte Macron, whose attraction was never dedicated to a broad audience, but from the very beginning to a single bond that carried across decades – no calculated staging, but an intensity that sustained exactly one relationship, against considerable social convention; Iris Berben, who rejects the word 'sexy' because it's imposed on her from outside, preferring 'sensual' instead – a deliberate redefinition of her own effect across decades, rather than letting herself be pinned to an image others attributed to her."
       },
       {
         titel: "Radiates without deliberately deploying it",
@@ -113616,6 +113686,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-aristoteles": aristotelesPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
+      "beruehmte-iris-berben": irisBerbenPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-dante-alighieri": danteAlighieriPortraitPage,
