@@ -1488,6 +1488,7 @@ export function ursulaVonDerLeyenPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Friedrich Merz \u2013 SO1w9 im Vergleich"},
         {route:"beruehmte-helmut-schmidt", label:"Portr\u00e4t: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portr\u00e4t: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portr\u00e4t: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);

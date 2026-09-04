@@ -1736,6 +1736,7 @@ export function helmutSchmidtPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portr\xe4t: Kurt Georg Kiesinger (SO1w9) – Vorgänger im Kanzleramt, derselbe Subtyp"},
         {route:"beruehmte-giorgia-meloni", label:"Portr\xe4t: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portr\xe4t: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);

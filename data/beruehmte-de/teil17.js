@@ -1686,3 +1686,68 @@ export function billyBobThorntonPortraitPage() {
     </div>
   `);
 }
+
+export function emmanuelMacronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/emmanuel-macron-portrait.jpg" alt="Emmanuel Macron – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Emmanuel Macron</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Franz\xf6sischer Staatspr\xe4sident, geb. 1977 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die geduldig Jahre lang warb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – geordnet, diszipliniert, mit einem fr\xfch gefestigten Gesp\xfcr daf\xfcr, wie etwas richtig zu sein hat, und bereit, sich mit ausdauernder Konsequenz daf\xfcr einzusetzen. Emmanuel Macron, 1977 in Amiens als \xe4ltestes von drei Kindern eines \xc4rzteehepaars geboren, zeigte diese Konsequenz bereits mit f\xfcnfzehn: Er verliebte sich in seine damals 39-j\xe4hrige Lehrerin Brigitte Trogneux und erkl\xe4rte ihr mit siebzehn ruhig und unerschütterlich: „Egal was du tust, ich werde dich heiraten."</p>
+          <p class="vb-intro">Als seine Eltern ihn daraufhin nach Paris auf eine andere Schule schickten, um die Verbindung zu unterbinden, hielten die beiden \xfcber Jahre brieflichen Kontakt – keine dramatische Eroberung, sondern geduldige, unaufgeregte Beharrlichkeit, bis Trogneux sich schlie\xdflich scheiden lie\xdf und zu ihm nach Paris zog. Sie heirateten 2007.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Der j\xfcngste Pr\xe4sident der F\xfcnften Republik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> tr\xe4gt ihre inneren Ma\xdfst\xe4be von Richtig und Falsch nach au\xdfen und sorgt sich um das korrekte Funktionieren der gesamten Gesellschaft. Nach Stationen an der Elitehochschule ENA, im Finanzministerium und als Investmentbanker bei Rothschild gr\xfcndete Macron 2016 seine eigene Bewegung „En Marche" und wurde 2017 mit nur neununddrei\xdfig Jahren zum j\xfcngsten Staatschef der F\xfcnften Republik gew\xe4hlt – ein Schritt, den er selbst als Frage von „Mut und Entschlossenheit" beschrieb.</p>
+          <p class="vb-intro">Diese Entschlossenheit setzte sich in seiner Regierungsf\xfchrung fort: Arbeitsmarktreform und Rentenreform trieb er mit gro\xdfer Konsequenz durch, teils unter Umgehung des reg\xe4ren parlamentarischen Verfahrens – die \xdcberzeugung, im Grunde im Recht zu sein, gepaart mit der Einser-typischen Bereitschaft, diese \xdcberzeugung notfalls gegen erheblichen Widerstand durchzusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerfl\xfcgel: Der Zuh\xf6rer im Flugzeuggang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel (w9)</strong> zeigt sich bei Macron nicht in der Regierungsf\xfchrung, sondern im pers\xf6nlichen Umgang: Bei jedem Start der Pr\xe4sidentenmaschine geht er die gesamte L\xe4nge des Flugzeugs ab und pl\xe4uscht mit jedem einzelnen Delegationsmitglied – einschlie\xdflich des Servicepersonals. Weggef\xe4hrten beschreiben ihn als „very kind", mit au\xdfergew\xf6hnlichen Zuh\xf6rf\xe4higkeiten. Genau diese ruhige, unaufgeregte Geduld zeigte sich schon in der jahrelangen brieflichen Werbung um Brigitte Trogneux – keine \xfcberst\xfcrzte Eroberung, sondern stille Standhaftigkeit \xfcber Distanz und Zeit hinweg.</p>
+          <p class="vb-intro">Bezeichnend ist der Kontrast: Wo die pers\xf6nliche Begegnung geduldig und zugewandt bleibt, wird die politische F\xfchrung unter Druck – etwa durch die Gelbwesten-Proteste gegen seine Reformen – zunehmend „jupiterianisch" genannt: zentralisierend, von oben herab, kaum noch vermittelnd. Das ist die Kehrseite eines Neunerfl\xfcgels, der im Normalzustand d\xe4mpft, unter anhaltendem Widerstand aber der Einser-\xdcberzeugung weicht, die dann ungebremst durchregiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Charmeur, der kaum Freunde hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein enger Begleiter beschrieb Macron einmal so: „He is very kind" – aber „he hardly has any friends". Diese Diskrepanz zwischen weitreichender, geschickt eingesetzter Freundlichkeit gegen\xfcber vielen und der Abwesenheit echter N\xe4he im engeren Kreis ist typisch f\xfcr die soziale Eins: Zuwendung wird systematisch, fast diszipliniert eingesetzt, um die gr\xf6\xdfere Sache – hier: die politische Mission – zu bef\xf6rdern, nicht in erster Linie, um pers\xf6nliche Bindungen zu vertiefen. Macron r\xe4umte selbst ein, dass ein Teil seines Auftretens „wohlkalkulierte Inszenierung" sei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 ist die F\xe4higkeit, <strong>klare \xdcberzeugung mit geduldigem Zuh\xf6ren und echtem Interesse an jedem Einzelnen zu verbinden</strong> – Macrons F\xe4higkeit, mit Servicepersonal ebenso aufmerksam umzugehen wie mit Staatschefs, zeigt eine Form von Egalit\xe4t, die selten so konsequent gelebt wird.</p>
+          <p class="vb-intro">Der Schatten zeigt sich dort, wo anhaltender Widerstand die d\xe4mpfende Wirkung des Neunerfl\xfcgels \xfcberfordert: Zustimmungswerte dauerhaft unter vierzig Prozent, der Vorwurf, Autorit\xe4t mit Autorit\xe4rem zu verwechseln, und eine famili\xe4r-freundschaftliche Isolation trotz \xf6ffentlicher N\xe4he zu vielen – die Kehrseite einer Eins, die ihre Überzeugung notfalls auch ohne Vermittlung durchsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwischen Zuh\xf6ren und Durchregieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Emmanuel Macrons politische Biografie f\xfchrt vom geduldigen Werben um eine Liebe, an der er mit siebzehn ruhig und unerschütterlich festhielt, bis zum j\xfcngsten Pr\xe4sidenten der F\xfcnften Republik, der Reformen notfalls gegen erhebliche \xf6ffentliche Widerst\xe4nde durchsetzte.</p>
+          <p class="vb-intro">Wer sehen will, wie derselbe Mensch im Flugzeuggang jedem Einzelnen zuh\xf6ren und im Élysée-Palast gegen eine ganze Nation durchregieren kann, findet in Macron einen der deutlichsten Belege daf\xfcr, wie unterschiedlich sich derselbe Subtyp je nach Kontext und Druck zeigen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-giorgia-meloni", label:"Portr\xe4t: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

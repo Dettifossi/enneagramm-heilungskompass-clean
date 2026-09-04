@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=84";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=85";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -544,6 +544,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Giorgia Meloni – Social Type 1",
     teaser:"SO1w9 · born 1977. Italian Prime Minister since 2022, first woman in the office. From 'populist outsider' to European leadership figure – budget discipline and record tenure instead of loud confrontation. Animal correspondence: Goose.",
     land:"Italy", tags:["Politics"], gender:"f"},
+{ route:"beruehmte-emmanuel-macron", name:"Emmanuel Macron", added:"2026-09-04", subtyp:"SO1w9",
+    heading:"Emmanuel Macron – Social Type 1",
+    teaser:"SO1w9 · born 1977. French President since 2017, youngest president of the Fifth Republic. A patient listener in person, a 'Jupiterian' who governs through under political pressure. Animal correspondence: Goose.",
+    land:"France", tags:["Politics"], gender:"m"},
 { route:"beruehmte-friedrich-merz", name:"Friedrich Merz", subtyp:"SO1w9",
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
@@ -45154,6 +45158,72 @@ function davidBowiePortraitPage() {
   `);
 }
 
+function emmanuelMacronPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/emmanuel-macron-portrait.jpg" alt="Emmanuel Macron – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Emmanuel Macron</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">French President, born 1977 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Courted Patiently for Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One — orderly, disciplined, with an early, firmly rooted sense of how things ought to be, and ready to pursue that conviction with sustained consistency. Emmanuel Macron, born in 1977 in Amiens, the eldest of three children of a physician couple, showed this consistency as early as fifteen: he fell in love with his then-39-year-old teacher, Brigitte Trogneux, and at seventeen told her, calmly and immovably: "Whatever you do, I will marry you."</p>
+          <p class="vb-intro">When his parents sent him to a different school in Paris to end the connection, the two kept in touch by letter for years — no dramatic conquest, but patient, unruffled persistence, until Trogneux eventually divorced and moved to Paris to be with him. They married in 2007.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: The Youngest President of the Fifth Republic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> projects its inner standards of right and wrong outward and cares about the correct functioning of society as a whole. After stints at the elite school ENA, at the finance ministry, and as an investment banker at Rothschild, Macron founded his own movement, "En Marche," in 2016 and was elected, at just thirty-nine, the youngest head of state of the Fifth Republic in 2017 — a step he himself described as a matter of "courage and determination."</p>
+          <p class="vb-intro">That determination carried into his governance: he pushed through labor-market and pension reforms with great consistency, at times bypassing the regular parliamentary process — the conviction of fundamentally being right, paired with the One's typical willingness to enforce that conviction against considerable resistance if necessary.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Listener in the Aisle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows itself with Macron not in his governance, but in his personal manner: every time the presidential plane takes off, he walks the entire length of the aircraft chatting with every single member of the delegation — including the service staff. Companions describe him as "very kind," with unusually good listening skills. This same calm, unhurried patience was already visible in his years-long written courtship of Brigitte Trogneux — no rushed conquest, but quiet steadiness across distance and time.</p>
+          <p class="vb-intro">The contrast is telling: where personal encounters stay patient and attentive, political leadership under pressure — such as the "yellow vest" protests against his reforms — has increasingly been called "Jupiterian": centralizing, top-down, barely mediating anymore. That is the flip side of a Nine-wing that, in a normal state, mutes the One, but under sustained resistance gives way to the One's conviction, which then governs unchecked.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Charmer Who Has Hardly Any Friends</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A close companion once described Macron this way: "He is very kind" — but "he hardly has any friends." This discrepancy between wide-ranging, skillfully deployed kindness toward many and the absence of real closeness in the inner circle is typical of the social One: attention is used systematically, almost disciplined, to advance the larger cause — here, the political mission — rather than primarily to deepen personal bonds. Macron himself has admitted that part of his public manner is "well-calculated staging."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 is the ability to <strong>combine clear conviction with patient listening and genuine interest in every individual</strong> — Macron's habit of engaging service staff with the same attentiveness as heads of state shows a form of egalitarianism rarely practiced so consistently.</p>
+          <p class="vb-intro">The shadow shows itself where sustained resistance overwhelms the Nine-wing's muting effect: approval ratings persistently below forty percent, the accusation of confusing authority with authoritarianism, and a private, friendship-level isolation despite public closeness to many — the flip side of a One who, when necessary, enforces conviction without mediation at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Between Listening and Ruling Through</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Emmanuel Macron's political biography runs from the patient courtship of a love he held to, calmly and immovably, at seventeen, to the youngest president of the Fifth Republic, who pushed through reforms against considerable public resistance when necessary.</p>
+          <p class="vb-intro">Anyone wanting to see how the same person can listen to every individual in the aisle of an airplane and govern through against an entire nation in the Élysée Palace finds, in Macron, one of the clearest illustrations of how differently the same subtype can present itself depending on context and pressure.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function giorgiaMeloniPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -45214,6 +45284,7 @@ function giorgiaMeloniPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);
@@ -45349,6 +45420,7 @@ function helmutSchmidtPortraitPage() {
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);
@@ -45420,6 +45492,7 @@ function roaldAmundsenPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – firmness without drama"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);
@@ -45557,6 +45630,7 @@ function markusLanzPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
@@ -45622,6 +45696,7 @@ function ursulaVonDerLeyenPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Friedrich Merz – SO1w9 compared"},
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
       ])}
     </div>
   `);
@@ -52915,7 +52990,7 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
@@ -52925,7 +53000,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
         beschreibung: "One's own achievement is consistently placed in the service of a group, a team, or a society. Here, leadership means holding the formation together and opening spaces for others, not one's own advancement.",
-        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation; Giorgia Meloni, who transformed from 'populist outsider' into a recognized European negotiating partner by proceeding noticeably cautiously on major, uncomfortable structural reforms for the sake of coalition peace – stability through willingness to compromise rather than open confrontation with her own partners."
+        beleg: "Jürgen Klopp: 'The goose doesn't fly alone. It flies in V-formation ... When one goose tires, another takes the lead'; David Bowie, whose transformations 'opened a space no one had entered before, and which many were allowed to enter afterward' – 'the goose doesn't fly for itself alone. It calls so the others can find the formation'; Konrad Lorenz, who 'passed his knowledge on to the group instead of managing it alone.'; Angelina Jolie, who as UN Special Envoy, director of films about genocide, and mother of six children from three continents placed her life in service of a conviction rather than seeking attention for herself; Roald Amundsen, whose polar expeditions were meticulously prepared team undertakings in which the survival of the entire group came before everything else, and who in 1928 immediately flew out to rescue the crashed Umberto Nobile despite years of personal estrangement – on that rescue flight he himself disappeared over the Barents Sea; Kurt Georg Kiesinger, described within the government of the first Grand Coalition as a 'walking mediation committee,' who patiently searched for the formulation that both CDU/CSU and SPD could support, rather than pushing for confrontation; Giorgia Meloni, who transformed from 'populist outsider' into a recognized European negotiating partner by proceeding noticeably cautiously on major, uncomfortable structural reforms for the sake of coalition peace – stability through willingness to compromise rather than open confrontation with her own partners; Emmanuel Macron, who walks the entire length of the presidential plane at every takeoff to speak with every single member of the delegation – including the service staff – and who courted his future wife Brigitte Trogneux patiently and unwaveringly for years starting at age seventeen, rather than forcing the connection."
       },
       {
         titel: "Breaking with an established system out of moral conviction – founding a system of one's own",
@@ -112526,6 +112601,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-helmut-schmidt": helmutSchmidtPortraitPage,
       "beruehmte-kurt-georg-kiesinger": kurtGeorgKiesingerPortraitPage,
       "beruehmte-giorgia-meloni": giorgiaMeloniPortraitPage,
+      "beruehmte-emmanuel-macron": emmanuelMacronPortraitPage,
       "beruehmte-richard-david-precht": richardDavidPrechtPortraitPage,
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
