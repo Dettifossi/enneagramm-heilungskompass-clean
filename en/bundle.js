@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=88";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=89";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1797,6 +1797,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kollegah – Sexual Type 6",
     teaser:"SX6w5 · born 1984. Rapper, artist & entrepreneur, converted to Islam in 2016. The wolf that builds its pack from words – and transforms fear into dominance, until it no longer knows what to do with it.",
     added:"2026-07-15", land:"Germany", tags:["Musik","Gesellschaft"] , gender:"m"},
+{ route:"beruehmte-skylar-grey", name:"Skylar Grey", added:"2026-09-04", subtyp:"SX6w5",
+    heading:"Skylar Grey – Sexual Type 6",
+    teaser:"SX6w5 · born 1986. Singer, songwriter, and producer (co-writer of 'Love the Way You Lie'). Lost her first record deal, withdrew alone to a cabin in Oregon for a year – and returned stronger.",
+    land:"USA", tags:["Musik"] , gender:"f"},
 { route:"beruehmte-anke-engelke", name:"Anke Engelke", subtyp:"SX6w7",
     heading:"Anke Engelke – Sexual Type 6",
     teaser:"SX6w7 · born 1965. Comedian, actress, entertainer, singer, voice actress, presenter. Courage through showing up: the SX6 that transforms fear into energy and humor. Animal correspondence: Wolf.",
@@ -37253,6 +37257,71 @@ function georgWilhelmFriedrichHegelPortraitPage() {
   `);
 }
 
+function skylarGreyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-skylar-grey-portrait.jpg" alt="Skylar Grey – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Skylar Grey</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter &amp; producer, born 1986 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Sent Herself Into the Wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Wolf</strong> is the animal of Sexual Type 6 &ndash; an animal that does not manage its fear by retreating, but by facing the threat and growing from it. When Holly Brook Hafermann, still performing as "Holly Brook" in her teens, lost her first record deal &ndash; without management, without a lawyer, practically broke &ndash; she reached a point where she later said she might well have lost her mind, or even her life, had she stayed in Los Angeles. Her response was not therapy, not a break in familiar surroundings &ndash; but a cabin in the woods of Oregon, without heat, for a full year, chopping her own firewood and living off the land.</p>
+          <p class="vb-intro">Out of that woman who deliberately exposed herself to hardship to find out if she could withstand it came "Skylar Grey" &ndash; a new name for a new, tested version of herself. That is the wolf's nature exactly: not avoiding fear, but seeking it out, to prove one's own strength against it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength as Counter-Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong>, per Naranjo, is the <strong>countertype</strong> of the Six: instead of protecting herself from her own fear, she actively seeks it out to prove herself against it. Naranjo called this subtype <em>Strength</em>. Skylar Grey's withdrawal to Oregon was exactly this move &ndash; not an escape, but a self-chosen trial: no money, no heat, no distraction, no people pushing their opinions on her. Only the question of whether she could find herself again.</p>
+          <p class="vb-intro">She did &ndash; and with her came the line millions know without knowing who wrote it: the chorus of Eminem and Rihanna's "Love the Way You Lie" (2010), written shortly after her return from isolation. The SX6's counter-fear shows here not as aggression, but as a hard-won, hard-earned self-assurance that could only emerge after passing through the fear itself.</p>
+          <p class="vb-intro">The same readiness to confront also shows in how Skylar Grey entered a shark tank of the music industry alongside figures like Eminem, Dr. Dre, and Diddy that has worn down bigger egos &ndash; and held her ground there not as a peripheral figure, but as an in-demand, independent voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Withdrawal as a Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the Sexual Six an additional pull toward withdrawal, distance, and work done in private &ndash; not out of weakness, but as a strategy: observe first, process, then act. In Skylar Grey this shows twofold: in the year of voluntary isolation itself, and in her preferred way of working as a songwriter. She has spoken openly about going utterly "blank" in collaborative writing sessions with others in the room &ndash; the pressure of having to be creative under observation blocked her so severely that she largely gave up that way of working.</p>
+          <p class="vb-intro">Instead she prefers to write alone, and for years appeared behind the scenes for other artists rather than stand in the spotlight herself. The Five-wing gives the Six's fearlessness an analytical, introverted form: not the loud fight, but the quiet withdrawal out of which the actual strength arises.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Invisible Voice Behind the Hits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For years Skylar Grey wrote songs that made others famous without standing in the foreground herself &ndash; a pattern that fits the wolf's counter-fear: visibility carries vulnerability, and someone working in the background stays harder to attack for their own fear. Only as her confidence grew did she increasingly step forward as a singer herself &ndash; a process that took years and was repeatedly accompanied by the very fear that had once driven her into the Oregon woods.</p>
+          <p class="vb-intro">She also describes her own voice with striking caution: she worries about damaging it by singing too loudly &ndash; a physical expression of the same underlying stance that shapes her life: strength, yes, but with a watchful respect for her own vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in that Skylar Grey did not avoid her biggest crisis, but walked straight through it &ndash; and out of it shaped one of the most influential songwriting careers of the past fifteen years. The wolf's nature proved itself here not through a display of strength, but through the quiet passing of a self-chosen trial.</p>
+          <p class="vb-intro">The shadow of the Six is the constant testing of one's own safety, which never fully settles &ndash; visible in her lasting caution around stage presence and collaborative songwriting. Even after the greatest success, the question stays in the background: am I really safe? The Five-wing helps answer that question not loudly, but through quiet, concentrated work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. From Holly Brook to Skylar Grey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The name change from Holly Brook to Skylar Grey is more than a marketing relaunch &ndash; it marks the point at which fear was no longer avoided, but lived through. Someone who holds their own alone in the woods for a year does not return as the same person. The wolf with the Five-wing shows its strength not in the pack, but in the self-chosen solitude out of which it emerges stronger.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+          {route:"beruehmte-kollegah", label:"Portrait: Kollegah (SX6w5) – also music"},
+          {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function kollegahPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -37309,6 +37378,7 @@ function kollegahPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-skylar-grey", label:"Portrait: Skylar Grey (SX6w5) – also music"},
       ])}
     </div>
   `);
@@ -37455,6 +37525,7 @@ function friedrichSchillerPortraitPage() {
         {route:"subtype/sx6", label:"SX6 \u2013 The Wolf: Subtype Profile"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Portrait: Johann Wolfgang von Goethe (SO7w6) \u2013 close friend and correspondent"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) \u2013 set Schiller\u2019s \u2018Ode to Joy\u2019 to music"},
+        {route:"beruehmte-skylar-grey", label:"Portrait: Skylar Grey (SX6w5)"},
       ])}
     </div>
   `);
@@ -52713,12 +52784,12 @@ const LEBENSMUSTERKOMPASS = {
   SX6: {
     tier: "Wolf",
     kernthema: "Fear is not avoided but confronted head-on – strength as counter-fear (Naranjo: countertype of the Six)",
-    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Peter"],
+    beispiele: ["Vladimir Putin", "Plato", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Peter", "Skylar Grey"],
     fingerabdruecke: [
       {
         titel: "Fear is not avoided, but confronted head-on",
         beschreibung: "Unlike the other Six subtypes, this expression seeks security not through adaptation or retreat, but through directly confronting one's own fear – strength becomes the counter-reaction to a deep-seated insecurity.",
-        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death; Otto von Bismarck, who repeatedly threatened Kaiser Wilhelm I with his own resignation rather than bow to political defeats, and whose own admission, 'I am all nerves, so that self-control has always been the greatest task of my life,' shows how much strength it took to conceal his own fear behind displays of menace; Peter, who jumped out of the boat to walk on water to Jesus, and drew the sword in the garden to defend him – 'he needed Jesus's closeness like air to breathe,' and this exact force of bonding made him deny him three times, out of fear of losing it, before it made him the rock."
+        beleg: "Beethoven: 'Whoever learns as a child that vulnerability is punished, learns to preempt it with toughness'; Michael Schumacher: 'The wolf doesn't cower before the threat. It turns around and runs toward it. That's the sexual Six at its deepest: fear not as paralysis, but as fuel'; Kollegah: 'The wolf has fear – and turns that fear into strength'; Putin's childhood memory of a cornered rat that leapt at his face: 'Whoever is cornered must never retreat'; Dr. Douglas W. Smith, who pushed through the reintroduction of wolves to Yellowstone against considerable political resistance from ranchers and hunters, rather than avoiding the conflict; Scarlett Johansson, whose roles – the cool Black Widow, the controlled AI voice in 'Her' – repeatedly perform strength while something vulnerable, searching lies beneath; Moses, who resisted the calling at the burning bush four times, yet then repeatedly and without visible hesitation confronted the most powerful ruler of the known world; Friedrich Schiller, who as a cadet secretly wrote 'The Robbers' against his duke's censorship and eventually fled Württemberg penniless rather than submit to arbitrary rule – and who later, with the same toughness he once brought to confronting the duke, worked for fourteen years against his own fatally advancing illness; Beethoven, who met two parallel, progressing illnesses – deafness and liver cirrhosis – never with retreat but with continued work, right up to the clenched fist at the moment of his death; Otto von Bismarck, who repeatedly threatened Kaiser Wilhelm I with his own resignation rather than bow to political defeats, and whose own admission, 'I am all nerves, so that self-control has always been the greatest task of my life,' shows how much strength it took to conceal his own fear behind displays of menace; Peter, who jumped out of the boat to walk on water to Jesus, and drew the sword in the garden to defend him – 'he needed Jesus's closeness like air to breathe,' and this exact force of bonding made him deny him three times, out of fear of losing it, before it made him the rock; Skylar Grey, who after losing her first record deal did not stay in Los Angeles but withdrew alone to a cabin in Oregon for a year, without heat, chopping her own firewood – and returned from that self-chosen hardship stronger, shortly afterward writing the chorus of Eminem and Rihanna's 'Love the Way You Lie.'"
       },
       {
         titel: "Direct eye contact and plain speech instead of retreat or diplomacy",
@@ -112764,6 +112835,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-franz-kafka": franzKafkaPortraitPage,
       "beruehmte-robert-crumb": robertCrumbPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
+      "beruehmte-skylar-grey": skylarGreyPortraitPage,
       "beruehmte-kim-jong-un": kimJongUnPortraitPage,
       "beruehmte-wladimir-putin": wladimirPutinPortraitPage,
       "beruehmte-otto-von-bismarck": ottoVonBismarckPortraitPage,

@@ -1694,3 +1694,68 @@ export function rosaParksPortraitPage() {
     </div>
   `);
 }
+
+export function skylarGreyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-skylar-grey-portrait.jpg" alt="Skylar Grey – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Skylar Grey</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, Songwriterin &amp; Produzentin, geb. 1986 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der sich in die Wildnis schickte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das seine Angst nicht durch Rückzug bewältigt, sondern indem es sich der Bedrohung stellt und daran wächst. Als Holly Brook Hafermann als Teenager unter dem Namen „Holly Brook" ihren ersten Plattenvertrag verlor, ohne Management, ohne Anwalt, praktisch mittellos, stand sie an einem Punkt, an dem sie später selbst sagte, sie hätte in Los Angeles vermutlich den Verstand oder gar ihr Leben verloren. Ihre Antwort darauf war keine Therapie, keine Auszeit im gewohnten Umfeld – sondern eine Blockhütte in den Wäldern Oregons, ohne Heizung, ein Jahr lang, Holz hackend und sich selbst versorgend.</p>
+          <p class="vb-intro">Aus dieser Frau, die sich freiwillig der Härte aussetzte, um herauszufinden, ob sie ihr gewachsen war, wurde „Skylar Grey" – ein neuer Name für eine neue, geprüfte Version ihrer selbst. Genau darin liegt die Wolfsnatur: nicht die Angst vermeiden, sondern sie aufsuchen, um an ihr die eigene Stärke zu beweisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs: Statt sich vor der eigenen Angst zu schützen, sucht sie sie aktiv auf, um sich an ihr zu beweisen. Naranjo nannte diesen Subtyp <em>Stärke</em>. Skylar Greys Rückzug nach Oregon war exakt diese Bewegung – kein Fluchtmanöver, sondern eine selbstgewählte Prüfung: kein Geld, keine Heizung, keine Ablenkung, keine Menschen, die ihre Meinung aufdrängten. Nur die Frage, ob sie sich selbst wieder finden konnte.</p>
+          <p class="vb-intro">Sie fand sich – und mit ihr die Zeile, die Millionen kennen, ohne zu wissen, wer sie geschrieben hat: den Refrain von Eminems und Rihannas „Love the Way You Lie" (2010), verfasst kurz nach ihrer Rückkehr aus der Isolation. Die Gegenangst der SX6 zeigt sich hier nicht als Aggression, sondern als eine erkämpfte, hart erarbeitete Selbstsicherheit, die erst nach dem Durchqueren der Angst entstehen konnte.</p>
+          <p class="vb-intro">Dieselbe Konfrontationsbereitschaft zeigt sich auch darin, dass Skylar Grey sich mit Größen wie Eminem, Dr. Dre und Diddy in ein Haifischbecken der Musikindustrie begab, das schon größere Egos zermürbt hat – und dort nicht als Randfigur, sondern als gefragte, eigenständige Stimme bestand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug als Werkzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der sexuellen Sechs eine zusätzliche Neigung zum Rückzug, zur Distanz, zur Arbeit im Verborgenen – nicht aus Schwäche, sondern als Strategie: erst beobachten, verarbeiten, dann handeln. Bei Skylar Grey zeigt sich das doppelt: zum einen im Jahr der freiwilligen Isolation selbst, zum anderen in ihrer bevorzugten Arbeitsweise als Songwriterin. Sie hat offen berichtet, dass sie in gemeinsamen Schreibsessions mit anderen im Raum regelrecht „leer" wurde – der Druck, unter Beobachtung kreativ sein zu müssen, blockierte sie so sehr, dass sie diese Art des Arbeitens weitgehend aufgab.</p>
+          <p class="vb-intro">Stattdessen schreibt sie am liebsten allein, tritt jahrelang lieber hinter den Kulissen für andere Künstler in Erscheinung, statt selbst im Rampenlicht zu stehen. Der Fünferflügel gibt der Sechser-Furchtlosigkeit damit eine analytische, introvertierte Form: nicht der lautstarke Kampf, sondern der stille Rückzug, aus dem heraus die eigentliche Stärke erst entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die unsichtbare Stimme hinter den Hits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über Jahre schrieb Skylar Grey Songs, die andere berühmt machten, ohne selbst im Vordergrund zu stehen – ein Muster, das zur wolfstypischen Gegenangst passt: Sichtbarkeit birgt Verwundbarkeit, und wer im Hintergrund arbeitet, bleibt für die eigene Angst schwerer angreifbar. Erst mit wachsendem Selbstvertrauen trat sie zunehmend selbst als Sängerin hervor – ein Prozess, der Jahre dauerte und immer wieder von genau jener Angst begleitet war, die sie einst in die Wälder Oregons trieb.</p>
+          <p class="vb-intro">Auch ihre eigene Stimme beschreibt sie mit auffälliger Vorsicht: Sie sorgt sich, ihre Stimme durch zu lautes Singen zu beschädigen – eine körperliche Ausprägung derselben Grundhaltung, die auch ihr Leben prägt: Kraft ja, aber mit wachsamem Respekt vor der eigenen Verletzlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich darin, dass Skylar Grey ihre größte Krise nicht vermied, sondern direkt durchquerte – und daraus eine der einflussreichsten Songwriting-Karrieren der letzten fünfzehn Jahre formte. Die Wolfsnatur bewies sich hier nicht durch Zurschaustellung von Stärke, sondern durch das stille Bestehen einer selbstgewählten Prüfung.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist das ständige Prüfen der eigenen Sicherheit, das sich nie ganz beruhigt – sichtbar in ihrer anhaltenden Vorsicht gegenüber Bühnenpräsenz und gemeinsamem Songwriting. Auch nach dem größten Erfolg bleibt die Frage im Hintergrund: Bin ich wirklich sicher? Der Fünferflügel hilft, diese Frage nicht laut, sondern in stiller, konzentrierter Arbeit zu beantworten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Von Holly Brook zu Skylar Grey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Namenswechsel von Holly Brook zu Skylar Grey ist mehr als ein Marketing-Neustart – er markiert den Punkt, an dem die Angst nicht mehr vermieden, sondern durchlebt wurde. Wer sich ein Jahr lang allein im Wald behauptet, kehrt nicht als dieselbe Person zurück. Der Wolf mit Fünferflügel zeigt seine Stärke nicht im Rudel, sondern in der selbstgewählten Einsamkeit, aus der er gestärkt hervorgeht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+          {route:"beruehmte-kollegah", label:"Porträt: Kollegah (SX6w5) – ebenfalls Musik"},
+          {route:"beruehmte-friedrich-schiller", label:"Porträt: Friedrich Schiller (SX6w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

@@ -878,6 +878,7 @@ export function kollegahPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-skylar-grey", label:"Portr\u00e4t: Skylar Grey (SX6w5) – ebenfalls Musik"},
       ])}
     </div>
   `);

@@ -530,6 +530,7 @@ export function friedrichSchillerPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5) – vertonte Schillers ›Ode an die Freude‹"},
+        {route:"beruehmte-skylar-grey", label:"Porträt: Skylar Grey (SX6w5)"},
       ])}
     </div>
   `);
