@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=96";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=97";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1281,6 +1281,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Iris Berben – Sexual Type 3",
     teaser:"SX3w2 · born 1950. German actress, \"grande dame of German film.\" Over five decades of public magnetism she actively redefined with age rather than defending it. Long-standing engagement against antisemitism, Leo Baeck Medal 2002.",
     land:"Germany", tags:["Schauspiel","Gesellschaft"] , gender:"f"},
+{ route:"beruehmte-linda-evans", name:"Linda Evans", added:"2026-09-05", subtyp:"SX3w2",
+    heading:"Linda Evans – Sexual Type 3",
+    teaser:"SX3w2 · born 1942. American actress, Krystle Carrington on \"Dynasty.\" From a shy child to the most recognized TV beauty of the 1980s, proving attractiveness beyond forty. Deliberate exit from Hollywood in favor of self-discovery.",
+    land:"USA", tags:["Schauspiel"] , gender:"f"},
 { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexual Type 3",
     teaser:"SX3w4 · born 1961. Actress, director. Hollywood's favorite person of the 1990s - the peacock who wanted more than his role. Animal correspondence: Peacock.",
@@ -27721,6 +27725,7 @@ function irisBerbenPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
           {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
           {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
+          {route:"beruehmte-linda-evans", label:"Portrait: Linda Evans (SX3w2)"},
         ])}
       </div>
     </div>
@@ -27795,6 +27800,70 @@ function brigitteMacronPortraitPage() {
 }
 
 
+function lindaEvansPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-linda-evans-portrait.jpg" alt="Linda Evans – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Evans</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1942 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock That Built Its Plumage Out of Shyness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of Sexual Type 3 &ndash; an animal whose success is inseparably tied to personal magnetism and effect. Linda Evans, born Linda Evenstad in 1942 in Hartford, Connecticut, was an extremely shy child. At Hollywood High School, the principal recommended she take acting classes for exactly that reason &ndash; as a way to build any self-confidence at all.</p>
+          <p class="vb-intro">Out of that shyness grew one of American television's most recognizable presences: first as Audra Barkley on "The Big Valley" (1965&ndash;1969), then as Krystle Carrington on "Dynasty" (1981&ndash;1989) &ndash; a role that earned her five consecutive Golden Globe nominations. No peacock is born with a full plumage &ndash; it builds one, often exactly where the least of it existed to begin with.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Effect as a Deliberately Built Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo's <strong>Sexual Three (SX3)</strong> seeks success through her own magnetism &ndash; not as a natural given, but as an actively shaped image. Evans's Krystle Carrington, with her iconic blonde mane and elaborate Bob Mackie gowns, proved to an entire television audience that a woman past forty could be considered desirable &ndash; at a time when television equated female attractiveness almost exclusively with youth.</p>
+          <p class="vb-intro">This deliberate redefinition of attraction beyond a fixed age is pure SX3 maturity: effect isn't left to chance, but understood as something that evolves along with the person, rather than staying bound to a fixed image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Warmth Behind the Glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the Sexual Three an additional warmth and care that goes beyond pure effect. In 2011, Evans published her memoir "Recipes for Life" &ndash; a book that deliberately blended memories from her career with recipes tied to meaningful moments in her life. Rather than a distant Hollywood biography, she chose a form built explicitly around shared, domestic experience.</p>
+          <p class="vb-intro">Contemporaries consistently described her with terms like elegance, warmth, and quiet strength &ndash; a combination that fits the Two note: her own magnetism doesn't come across as cool and distant, but as accessible and human, even in a role like Krystle Carrington that could easily have been reduced to pure glamour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Deliberate Exit From Hollywood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After "Dynasty" ended, Evans deliberately chose not to hold on to the Hollywood life and moved to the Pacific Northwest, where she devoted herself to a phase of self-discovery. This turning away from her own iconic role, right when she was at her most recognizable, shows a willingness not to let her public effect become the sole content of her life.</p>
+          <p class="vb-intro">In 2009, she surprised audiences again by competing, at 67, on the British version of "Hell's Kitchen" &ndash; and winning the season under chef Marco Pierre White. A late, unexpected proof that effect and ability can reveal themselves anew even beyond one's most famous role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 shows in Evans in that she used her magnetism to break open an aging narrative on television, rather than letting it confine her &ndash; and that she was willing to leave her own glamour status behind in favor of genuine personal growth.</p>
+          <p class="vb-intro">The shadow of the Three lies in the risk of tying one's entire worth to a single, publicly perceived role &ndash; a trap Evans actively avoided through her deliberate withdrawal from Hollywood and her later turn toward self-discovery and more everyday pleasures like cooking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Krystle Actress Who Wanted to Be More Than Krystle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Linda Evans's path from a shy teenager to the most recognized television beauty of the 1980s and on to a deliberately chosen life outside the spotlight shows the Sexual Three with a Two-wing in its most mature form: magnetism as a consciously shaped tool, never a prison. The peacock displays its feathers &ndash; but it also knows when to fold them back in, to live its own life.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
+          {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function brigitteBardotPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -27861,6 +27930,7 @@ function brigitteBardotPortraitPage() {
         {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Illness Portrait: Brigitte Bardot (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2) – also an actress"},
+        {route:"beruehmte-linda-evans", label:"Portrait: Linda Evans (SX3w2)"},
       ])}
     </div>
   `);
@@ -53530,7 +53600,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
@@ -53545,7 +53615,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "The deliberate, complete performance as an art form for others",
         beschreibung: "At the other end of the same spectrum stands the fully conscious, completely played-out self-presentation – not a private pleasure, but a deliberate performance that knows exactly what effect it wants to achieve.",
-        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed."
+        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed; Linda Evans, an extremely shy child who, on her school principal's advice, took acting classes just to build any self-confidence at all – and out of that shyness shaped, with her iconic blonde mane and elaborate Bob Mackie gowns as Krystle Carrington on 'Dynasty,' one of American television's most deliberately constructed glamour figures."
       },
       {
         titel: "When the perfect ideal or the perfect performance becomes a murderous fixation (shadow form)",
@@ -113687,6 +113757,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
       "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-iris-berben": irisBerbenPortraitPage,
+      "beruehmte-linda-evans": lindaEvansPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-dante-alighieri": danteAlighieriPortraitPage,

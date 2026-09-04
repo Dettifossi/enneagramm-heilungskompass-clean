@@ -185,6 +185,7 @@ export function brigitteBardotPortraitPage() {
         {route:"beruehmte-brigitte-macron", label:"Portr\u00e4t: Brigitte Macron (SX3w2)"},
         {route:"krankheitsportraets-brigitte-bardot", label:"Krankheitsportr\u00e4t: Brigitte Bardot (SX3w2)"},
         {route:"beruehmte-iris-berben", label:"Portr\u00e4t: Iris Berben (SX3w2) – ebenfalls Schauspielerin"},
+        {route:"beruehmte-linda-evans", label:"Portr\u00e4t: Linda Evans (SX3w2)"},
       ])}
     </div>
   `);

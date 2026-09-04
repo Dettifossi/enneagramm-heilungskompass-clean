@@ -1788,6 +1788,7 @@ export function irisBerbenPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
           {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
           {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
+          {route:"beruehmte-linda-evans", label:"Porträt: Linda Evans (SX3w2)"},
         ])}
       </div>
     </div>

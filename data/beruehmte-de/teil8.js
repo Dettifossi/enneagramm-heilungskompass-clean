@@ -1738,3 +1738,67 @@ export function kurtGeorgKiesingerPortraitPage() {
     </div>
   `);
 }
+
+export function lindaEvansPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-linda-evans-portrait.jpg" alt="Linda Evans – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Linda Evans</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1942 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der aus Schüchternheit ein Federkleid baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, dessen Erfolg untrennbar mit persönlicher Anziehungskraft und Wirkung verbunden ist. Linda Evans, 1942 als Linda Evenstad in Hartford, Connecticut, geboren, war als Kind extrem schüchtern. An der Hollywood High School riet ihr die Schulleitung ausgerechnet deshalb zu Schauspielunterricht – als Mittel, um überhaupt Selbstvertrauen aufzubauen.</p>
+          <p class="vb-intro">Aus dieser Schüchternheit heraus formte sich eine der bekanntesten Erscheinungen des amerikanischen Fernsehens: erst als Audra Barkley in „The Big Valley" (1965–1969), dann als Krystle Carrington in „Dynasty" (1981–1989) – eine Rolle, die sie fünfmal in Folge für den Golden Globe nominierte. Kein Pfau wird mit vollem Federkleid geboren – er baut es sich, oft gerade dort, wo am wenigsten davon vorhanden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Wirkung als bewusst erarbeitetes Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht nach Naranjo Erfolg über die eigene Anziehungskraft – nicht als natürliche Gegebenheit, sondern als aktiv gestaltetes Bild. Evans' Krystle Carrington, mit ikonischer blonder Mähne und aufwendigen Roben von Bob Mackie, bewies einem ganzen Fernsehpublikum, dass eine Frau jenseits der vierzig als begehrenswert gelten konnte – zu einer Zeit, in der das Fernsehen weibliche Attraktivität fast ausschließlich mit Jugend gleichsetzte.</p>
+          <p class="vb-intro">Diese bewusste Neudefinition von Anziehungskraft jenseits eines festgelegten Alters ist reine SX3-Reife: Wirkung wird nicht dem Zufall überlassen, sondern als etwas verstanden, das sich mit der eigenen Person weiterentwickelt, statt an ein festes Bild gebunden zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme hinter dem Glamour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sexuellen Drei eine zusätzliche Wärme und Fürsorglichkeit, die über reine Wirkung hinausgeht. 2011 veröffentlichte Evans ihre Memoiren „Recipes for Life" – ein Buch, das bewusst Erinnerungen aus ihrer Karriere mit Rezepten verband, die an bedeutsame Lebensmomente geknüpft waren. Statt einer distanzierten Hollywood-Biografie wählte sie eine Form, die explizit auf geteiltes, häusliches Erleben setzte.</p>
+          <p class="vb-intro">Zeitgenossen beschrieben sie durchgehend mit Begriffen wie Eleganz, Wärme und stiller Stärke – eine Kombination, die zur Zweier-Note passt: Die eigene Anziehungskraft wirkt nicht kühl-distanziert, sondern zugänglich und menschlich, selbst in einer Rolle wie Krystle Carrington, die auf reinen Glamour hätte reduziert werden können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der bewusste Ausstieg aus Hollywood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Ende von „Dynasty" entschied sich Evans bewusst gegen ein Festhalten am Hollywood-Leben und zog in den pazifischen Nordwesten der USA, wo sie sich einer Phase der Selbstfindung widmete. Diese Abkehr von der eigenen ikonischen Rolle, gerade als sie am bekanntesten war, zeigt eine Bereitschaft, die eigene öffentliche Wirkung nicht zum einzigen Lebensinhalt werden zu lassen.</p>
+          <p class="vb-intro">2009 überraschte sie erneut, als sie mit 67 Jahren an der britischen Version von „Hell's Kitchen" teilnahm und die Staffel unter Koch Marco Pierre White gewann – ein später, unerwarteter Beweis dafür, dass sich Wirkung und Können auch jenseits der eigenen bekanntesten Rolle neu zeigen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Evans darin, dass sie ihre Anziehungskraft nutzte, um ein Altersbild im Fernsehen aufzubrechen, statt sich davon einschränken zu lassen – und dass sie bereit war, den eigenen Glamour-Status zugunsten einer echten persönlichen Weiterentwicklung hinter sich zu lassen.</p>
+          <p class="vb-intro">Der Schatten der Drei liegt in der Gefahr, den eigenen Wert vollständig an eine einzelne, öffentlich wahrgenommene Rolle zu binden – eine Falle, der Evans durch ihren bewussten Rückzug aus Hollywood und ihre spätere Hinwendung zu Selbstfindung und alltäglicheren Freuden wie dem Kochen aktiv entging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Krystle-Darstellerin, die mehr sein wollte als Krystle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Linda Evans' Weg von der schüchternen Jugendlichen zur international bekanntesten Fernsehschönheit der 1980er Jahre und weiter zu einem bewusst gewählten Leben abseits des Rampenlichts zeigt die sexuelle Drei mit Zweierflügel in ihrer reifsten Form: Anziehungskraft als bewusst gestaltetes Werkzeug, nie als Gefängnis. Der Pfau zeigt sein Rad – aber er weiß auch, wann er es einklappt, um sein eigenes Leben zu leben.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+          {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
+          {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
