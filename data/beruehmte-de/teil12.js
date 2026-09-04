@@ -1759,7 +1759,7 @@ export function heleneFischerPortraitPage() {
           <p class="vb-intro">Der Schatten der Drei liegt in der Unfähigkeit, Kontrolle abzugeben, und in der Bereitschaft, die eigene körperliche Sicherheit dem Perfektionsanspruch unterzuordnen. Der Zweierflügel mildert diese Härte gegen sich selbst zwar durch emotionale Offenheit gegenüber Fans und Familie, verhindert aber nicht, dass sie sich selbst am härtesten von allen behandelt.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Die Sängerin, die alles selbst durchtrainierte</h2>
+        <h2 class="vb-section">6. Die Sängerin, die sich alles selbst erarbeitete</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Helene Fischers Karriere zeigt die selbsterhaltende Drei mit Zweierflügel in einer besonders intensiven Form: kompromissloser Perfektionismus, der körperliche Risiken in Kauf nimmt, gepaart mit einer echten, warmen Hingabe an ein Publikum, dem sie unvergessliche Abende schenken will. Der Waschbär arbeitet allein und verlässlich – aber er teilt, was er sich erarbeitet hat, mit denen, die ihm wichtig sind.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
