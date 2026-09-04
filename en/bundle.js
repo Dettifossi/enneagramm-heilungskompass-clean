@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=76";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=77";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -213,6 +213,7 @@ const KRIMINAL_PORTRAITS = [
   { route:"kriminalpsychologie-arno-funke",         name:"Arno Funke (\u201eDagobert\u201c)", subtyp:"SE1w9",  heading:"Arno Funke (\u201eDagobert\u201c) \u2013 Self-Preservation Type 1",        teaser:"Extortionist, born 1951. Six years, never harming anyone – the self-preservation One with Nine-wing: quiet resentment, meticulous method, absolute non-violence." , land:"Germany", tags:["Betrug"], gender:"m"},
   { route:"kriminalpsychologie-paul-ogorzow",         name:"Paul Ogorzow",                        subtyp:"SE1w9",  heading:"Paul Ogorzow \u2013 Self-Preservation Type 1",                              teaser:"SP1w9 – The ‘S-Bahn Murderer’, 1912–1946. Eight murders in Berlin 1939–41. Broad camouflage through petty-bourgeois correctness, ice-cold double life, moral guilt always shifted outward." , land:"Germany", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-ted-bundy",           name:"Ted Bundy",                           subtyp:"SO1w9",  heading:"Ted Bundy \u2013 Social Type 1",                                           teaser:"SO1w9 – Serial killer, 1946–1989. Bourgeois facade, repressed rage, resentment. The social One with Nine-wing: self-righteousness as delusion, anger as cold driving force. Animal correspondence: Goose." , land:"USA", tags:["Serienmord"], gender:"m"},
+  { route:"kriminalpsychologie-dieter-zlof",         name:"Dieter Zlof",                         subtyp:"SO1w9",  heading:"Dieter Zlof – Social Type 1",                                          teaser:"SO1w9 – Kidnapper and extortionist, b. 1942. Kidnapped Richard Oetker in 1976, extorted 21 million DM. Fifteen years of iron denial, confessed only in 1997 – always in the self-image of the wronged, never the perpetrator. Animal correspondence: Goose." , land:"Germany", tags:["Raub"], gender:"m"},
   { route:"kriminalpsychologie-heinrich-pommerenke",  name:"Heinrich Pommerenke",                 subtyp:"SO1w9",  heading:"Heinrich Pommerenke \u2013 Social Type 1",                                teaser:"SO1w9 – Serial killer, 1937–2008. At least 10 victims in southern Germany 1959–60. The ‘Monster of the Black Forest’: delusional divine mandate for punishment, emotional dissociation and a life under the sign of compulsive atonement." , land:"Germany", tags:["Serienmord"], gender:"m"},
   { route:"kriminalpsychologie-mary-ann-cotton",      name:"Mary Ann Cotton",                     subtyp:"SX1w2",  heading:"Mary Ann Cotton – Sexual Type 1",                                     teaser:"SX1w2 – Britain's first known serial killer, 1832–1873. Nurse, four-time widow, likely up to 21 poisoning victims with arsenic – husbands, children, relatives. Two wing as caretaking facade, the One as unrelenting judge over her own relationship. Animal correspondence: Black Mamba." , land:"United Kingdom", tags:["Serienmord","Nahbereich"], gender:"f"},
   { route:"kriminalpsychologie-otto-muehl",           name:"Otto Mühl",                          subtyp:"SX1w2",  heading:"Otto Mühl – Sexual Type 1",                                          teaser:"SX1w2 – Viennese action artist and commune founder, 1925–2013. Founder of the Friedrichshof commune (AAO), sentenced in 1991 to 7 years for sexually abusing minors. Moral reformer with a double standard: rules for everyone, self-exemption for himself. Animal correspondence: Black Mamba." , land:"Austria", tags:["Missbrauch","Nahbereich"], gender:"m"},
@@ -53425,13 +53426,18 @@ const KRIMINALMUSTERKOMPASS = {
   },
   SO1: {
     tier: "Goose",
-    kernthema: "Small sample so far – a discernible pattern of an outwardly flawless, morally upright façade concealing the actual crime.",
-    beispiele: ["Ted Bundy", "Heinrich Pommerenke"],
+    kernthema: "Small sample so far – a discernible pattern of an outwardly flawless, morally upright façade concealing the actual crime, along with a pronounced tendency to portray oneself as wronged rather than show remorse.",
+    beispiele: ["Ted Bundy", "Heinrich Pommerenke", "Dieter Zlof"],
     fingerabdruecke: [
       {
         titel: "A morally upright public façade as a cover",
-        beschreibung: "With only two cases so far, a cautious pattern emerges: both were, for a long time, seen by those around them as unusually respectable or even trustworthy, which significantly delayed the discovery of their crimes.",
-        beleg: "Ted Bundy came across to those around him as charming, educated, and trustworthy – a reputation he deliberately used to approach victims."
+        beschreibung: "With the cases documented so far, a cautious pattern emerges: all were, for a long time, seen by those around them as unusually respectable or even trustworthy, which significantly delayed the discovery of their crimes.",
+        beleg: "Ted Bundy came across to those around him as charming, educated, and trustworthy – a reputation he deliberately used to approach victims. Dieter Zlof, too, an outwardly unremarkable car-repair shop owner, remained unsuspected for years before a circumstantial-evidence trial caught up with him."
+      },
+      {
+        titel: "Self-righteousness instead of remorse once exposed",
+        beschreibung: "Once the crime comes to light, this subtype notably often shows no genuine remorse, but rather a moral self-justification – the act is retrospectively reframed as a narrative of justice or of having been wronged.",
+        beleg: "Dieter Zlof portrayed himself in his late confessional book as a \"victim of society,\" betrayed by the justice system, the authorities, and those around him, and stated that he did not regret taking money from \"an immensely wealthy person.\""
       }
     ]
   },
@@ -88039,6 +88045,88 @@ function paulBernardoPortraitPage() {
   `);
 }
 
+function dieterZlofPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Dieter Zlof – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/dieter-zlof-portrait.jpg" alt="Dieter Zlof – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Zlof</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Kidnapper and extortionist, Germany 1976 – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the Social One: orderly, disciplined, outwardly unremarkable and respectable — and, within its own territory, capable of striking with surprising precision the moment it feels justified. Dieter Zlof, a trained business manager and owner of a car repair shop in Munich-Pasing, fit this image exactly: a tradesman, a neighbor, someone who fixed cars and wrote invoices. Not a man anyone would have suspected of a 21-million-mark extortion.</p>
+          <p class="vb-intro">Yet behind this facade worked a mind that, with the same meticulousness a goose defends its territory, engineered a plan down to the last technical detail — and that, once the plan unraveled, entrenched itself for fifteen years behind an unshakeable claim of innocence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One with Nine-Wing: Correctness as a Cover, Grievance as the Engine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> projects their inner standards outward: they do not just want to act correctly themselves — they want the world to function according to their sense of right and wrong. In Zlof's case this showed up not as political activism, as with other SO1 cases, but as a very concrete, very personal ledger of justice: who owed him what, who had wronged him, where the balance between wealth and merit had come undone.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> supplied the camouflage: not a loud moralist, but a calm, unremarkable tradesman going about his work. This very calm allowed him to stay undetected for decades — first as one suspect among many, then as a convicted man who, until the very end, never let slip a word that could have brought the facade down.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Crime: Construction Rather Than Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) The kidnapping:</strong> On the evening of December 14, 1976, at around 6:45 p.m., Zlof kidnapped the nearly 26-year-old student Richard Oetker from the parking lot of Weihenstephan University. At gunpoint he forced him into a self-built, coffin-like wooden crate — 1.45 meters long, 70 centimeters wide — in the cargo area of a VW van, and made him handcuff himself. From the father, industrialist Rudolf-August Oetker, he demanded 21 million Deutsche Mark in ransom.</p>
+          <p class="vb-intro"><strong>b) The trap:</strong> Once the van was parked in a garage, Zlof had wired the crate to an electrical circuit. In the early hours of December 15, a noise triggered the mechanism — an electric shock that broke both of Oetker's thighs and two ribs. Two days later the ransom was paid and Oetker, severely injured, was released. This cold, purely technical solution to the problem of "how do I keep my victim quiet" is pure One-style engineering logic: no rage, no emotion in the act itself — only a system meant to function, whatever the cost.</p>
+          <p class="vb-intro"><strong>c) The circumstantial trial:</strong> Only in June 1980 was Zlof convicted in a sensational circumstantial-evidence trial — sentenced to 15 years. There was no confession, no admission, no crack in his composure. "I am innocent!" was the sentence with which he defended himself throughout the entire proceedings and his entire imprisonment — with the same calm, unmoved consistency with which he had planned the crime.</p>
+          <p class="vb-intro"><strong>d) The late confession:</strong> Only in 1997, three years after his release and twenty years after the crime, did Zlof confess to Munich journalist Nicole Amelung, in plain, almost matter-of-fact words: "I was it after all. I kidnapped Richard Oetker!" The confession appeared in 1997 as a book — at a point when criminal prosecution had long since lapsed under the statute of limitations, and a retraction would have cost him nothing.</p>
+          <p class="vb-intro"><strong>e) The self-justification in the book:</strong> What stands out is how Zlof frames the deed in hindsight: remorse is nearly absent from the book. Toward the end he states, in essence, that he does not regret taking money from "an immensely wealthy person" — a moral justification, not the pleasure of a hedonistic haul. At the same time he casts himself as a "victim of society": betrayed by the justice system, the police, prosecutors, the authorities, his own father, and business partners. Reviewers aptly describe his underlying stance as the feeling of "having been treated unjustly" — not as the perpetrator, but as someone the world still owes something to.</p>
+          <p class="vb-intro"><strong>f) Pride in the execution:</strong> At the same time, the book shows undisguised arrogance about the "near-perfect" execution of the plan — and visible resentment that his "triumph" was ultimately spoiled by the conviction. Not the haul itself, but the flawlessness of his own construction was the real yardstick by which he measured himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four-Stress: When Correctness Tips Into Self-Pity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Under stress, the One moves toward the Four — and exactly this pattern shows up in Zlof's later self-portrayal. Instead of the outwardly controlled, self-righteous hardness of the healthy One, the book reveals a self-pitying tone fixated on his own singular fate: the feeling of having been misunderstood, betrayed, and cheated of the recognition he deserved. This shift explains why his confession does not read as a release, but as one more episode of the same recurring story: I was the one who suffered unjustly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. What the Enneagram Makes Visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) Precision instead of dominance:</strong> Unlike an impulsive show of power, the entire crime is an engineering project — the crate, the measurements, the electrical circuit, the exact sum. This is One-style perfectionism, channeled into a criminal path.</p>
+          <p class="vb-intro"><strong>b) Morality instead of the thrill of the loot:</strong> The justification never runs through the money itself, but through a moral category — "immensely wealthy" as a rationale, not as a target. This is typical of the One's social orientation: one's own actions must fit into a societal justice narrative, or they become unbearable.</p>
+          <p class="vb-intro"><strong>c) The Nine-wing as an invisibility cloak:</strong> Fifteen years of calm, unshaken denial — without outbursts, without visible nerves — are hard to imagine without the muting effect of the Nine-wing. A One with a weaker Nine-wing would likely have lost composure under this pressure much sooner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Classification</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Zlof displays a variant of the Social One rarely documented so clearly: the construction of a crime as a correct, justified project — accompanied by decades of unshaken self-righteousness. Neither the loot nor power over the victim stood at the center of his self-image, but rather the conviction of fundamentally being in the right — a conviction he never truly abandoned, only postponed to a more convenient moment.</p>
+        </blockquote>
+
+        <div class="krim-portrait-footer">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Dieter Zlof, born December 4, 1942, Cilli (today Celje, Slovenia)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO1w9 – Social One with Nine-wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Anger (disguised as moral justice)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Goose</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Known for:</strong> Kidnapping and extortion of Richard Oetker in 1976, 21 million DM ransom, convicted 1980, confessed 1997</span>
+        </div>
+
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in Comparison: How Rigidity Expresses Itself Differently in SP1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO1w9 in Profile: Control, Self-Righteousness, and the Hidden Rage Behind the Correct Facade.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 Portrayed in Detail – Anger, Perfectionism, and the Path to Healing Through True Acceptance.", "Wer du wirklich bist, Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Note: This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Dieter Zlof was sentenced to 15 years in prison in 1980 for the kidnapping of Richard Oetker and confessed to the crime in 1997 after his release. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy (SO1w9) – the same self-righteousness, a different path"},
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
+        {route:"kriminalpsychologie-werner-gladow", label:"Criminal Psychology: Werner Gladow (SO3w4) – another case decided by the sector border"},
+      ])}
+    </div>
+  `);
+}
+
+
 function tedBundyPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -88137,6 +88225,7 @@ function tedBundyPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
+          {route:"kriminalpsychologie-dieter-zlof", label:"Criminal Psychology: Dieter Zlof (SO1w9) – the same self-righteousness, a different path"},
           {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Criminal Psychology: Armin Meiwes (SX6w5)"},
         ])}
@@ -112339,6 +112428,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-gary-ridgway": garyRidgwayPortraitPage,
       "kriminalpsychologie-mary-ann-cotton": maryAnnCottonPortraitPage,
       "kriminalpsychologie-ted-bundy": tedBundyPortraitPage,
+      "kriminalpsychologie-dieter-zlof": dieterZlofPortraitPage,
       "kriminalpsychologie-pablo-escobar": pabloEscobarPortraitPage,
       "kriminalpsychologie-tom-keating": tomKeatingPortraitPage,
       "kriminalpsychologie-harvey-weinstein": harveyWeinsteinPortraitPage,

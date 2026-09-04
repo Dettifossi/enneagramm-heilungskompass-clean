@@ -3718,6 +3718,7 @@ export function tedBundyPortraitPage() {
 
         ${relatedLinks([
           {route:"kriminalpsychologie-heinrich-pommerenke", label:"Kriminalpsychologie: Heinrich Pommerenke (SO1w9)"},
+          {route:"kriminalpsychologie-dieter-zlof", label:"Kriminalpsychologie: Dieter Zlof (SO1w9) – dieselbe Selbstgerechtigkeit, andere Bahn"},
           {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
           {route:"kriminalpsychologie-armin-meiwes", label:"Kriminalpsychologie: Armin Meiwes (SX6w5)"},
         ])}
@@ -4213,6 +4214,87 @@ export function wernerGladowPortraitPage() {
         {route:"kriminalpsychologie-andrew-cunanan", label:"Kriminalpsychologie: Andrew Cunanan (SO3w4) – Prestige als Lebensinhalt"},
         {route:"kriminalpsychologie-oj-simpson", label:"Kriminalpsychologie: O.J. Simpson (SO3w4)"},
         {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
+      ])}
+    </div>
+  `);
+}
+
+export function dieterZlofPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Dieter Zlof – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/dieter-zlof-portrait.jpg" alt="Dieter Zlof – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Zlof</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Entf\xfchrer und Erpresser, Deutschland 1976 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins: geordnet, diszipliniert, nach au\xdfen unauff\xe4llig b\xfcrgerlich – und im eigenen Revier bereit, mit \xfcberraschender Pr\xe4zision zuzuschlagen, sobald sie sich im Recht f\xfchlt. Dieter Zlof, gelernter Betriebswirt und Besitzer einer Kfz-Werkstatt in M\xfcnchen-Pasing, war genau dieses Bild: ein Handwerker, ein Nachbar, jemand, der Autos reparierte und Rechnungen schrieb. Kein Mann, dem man eine 21-Millionen-Erpressung zugetraut h\xe4tte.</p>
+          <p class="vb-intro">Doch hinter dieser Fassade arbeitete ein Kopf, der mit derselben Akribie, mit der eine Gans ihr Revier verteidigt, einen Plan bis ins letzte technische Detail durchkonstruierte – und der sich, als der Plan aufflog, fünfzehn Jahre lang stur und unerschütterlich hinter der Behauptung der eigenen Unschuld verschanzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins mit Neunerfl\xfcgel: Korrektheit als Deckmantel, Groll als Motor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> tr\xe4gt ihre inneren Ma\xdfst\xe4be nach au\xdfen: Sie will nicht nur selbst richtig handeln, sie will, dass die Welt nach ihren Grunds\xe4tzen von Recht und Unrecht funktioniert. Bei Zlof zeigte sich das nicht in politischem Engagement wie bei anderen SO1-F\xe4llen, sondern in einer sehr konkreten, sehr pers\xf6nlichen Buchhaltung \xfcber Gerechtigkeit: Wer ihm was schuldete. Wer ihn benachteiligt hatte. Wo das Verh\xe4ltnis zwischen Verm\xf6gen und Verdienst aus dem Gleichgewicht geraten war.</p>
+          <p class="vb-intro">Der <strong>Neunerfl\xfcgel</strong> lieferte die Tarnung: Kein Rechthaber, kein lauter Moralist, sondern ein ruhiger, unauff\xe4lliger Handwerker, der seine Arbeit machte. Genau diese Ruhe erm\xf6glichte es ihm, \xfcber Jahrzehnte hinweg unentdeckt zu bleiben – erst als Verd\xe4chtiger unter vielen, dann als Verurteilter, der bis zuletzt kein Wort verlor, das seine Fassade h\xe4tte einrei\xdfen k\xf6nnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Das Tatgeschehen: Konstruktion statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) Die Entf\xfchrung:</strong> Am Abend des 14. Dezember 1976, gegen 18:45 Uhr, entf\xfchrte Zlof den fast 26-j\xe4hrigen Studenten Richard Oetker vom Parkplatz der Universit\xe4t Weihenstephan. Er zwang ihn mit vorgehaltener Pistole in eine selbst gebaute, sargartige Holzkiste – 1,45 Meter lang, 70 Zentimeter breit – im Laderaum eines VW-Busses und lie\xdf ihn sich selbst Handschellen anlegen. Vom Vater, dem Industriellen Rudolf-August Oetker, forderte er 21 Millionen D-Mark Lösegeld.</p>
+          <p class="vb-intro"><strong>b) Die Falle:</strong> Als der Bus in einer Garage abgestellt war, hatte Zlof die Kiste an einen Stromkreis angeschlossen. In der Nacht auf den 15. Dezember l\xf6ste ein Ger\xe4usch den Mechanismus aus – ein Stromschlag, der Oetker beide Oberschenkel und zwei Rippen brach. Zwei Tage sp\xe4ter wurde das L\xf6segeld gezahlt, Oetker schwer verletzt freigelassen. Diese kaltbl\xfctige, rein technische L\xf6sung f\xfcr das Problem „Wie halte ich mein Opfer ruhig" ist reine Einser-Konstruktionslogik: kein W\xfcten, keine Emotion in der Tat selbst – nur ein System, das funktionieren soll, koste es, was es wolle.</p>
+          <p class="vb-intro"><strong>c) Der Indizienprozess:</strong> Erst im Juni 1980 wurde Zlof in einem aufsehenerregenden Indizienprozess verurteilt – zu 15 Jahren Haft. Es gab kein Gest\xe4ndnis, kein Best\xe4tigen, keine Erschütterung. „Ich bin unschuldig!" war der Satz, mit dem er sich w\xe4hrend des gesamten Verfahrens und der gesamten Haftzeit verteidigte – mit derselben ruhigen, unbewegten Konsequenz, mit der er die Tat geplant hatte.</p>
+          <p class="vb-intro"><strong>d) Das sp\xe4te Gest\xe4ndnis:</strong> Erst 1997, drei Jahre nach seiner Entlassung und zwanzig Jahre nach der Tat, gestand Zlof dem M\xfcnchner Journalisten Nicole Amelung in schlichten, fast sachlichen Worten: „Ich war es doch. Ich habe Richard Oetker entf\xfchrt!" Das Gest\xe4ndnis erschien 1997 als Buch – zu einem Zeitpunkt, als die strafrechtliche Verfolgung l\xe4ngst verj\xe4hrt war und ein Widerruf ihn nichts mehr kosten konnte.</p>
+          <p class="vb-intro"><strong>e) Die Selbstrechtfertigung im Buch:</strong> Bemerkenswert ist, wie Zlof seine Tat im Nachhinein einordnet: Reue findet sich in seinem Buch kaum. Am Ende steht sinngem\xe4\xdf die Aussage, es tue ihm nicht leid, „einem enorm reichen Menschen" Geld weggenommen zu haben – eine moralische Rechtfertigung, keine hedonistische Beute-Freude. Gleichzeitig inszeniert er sich als „Opfer der Gesellschaft": betrogen von Justiz, Polizei, Staatsanwaltschaft, Beh\xf6rden, dem eigenen Vater und Gesch\xe4ftspartnern. Rezensenten beschreiben seine Grundhaltung treffend als das Gef\xfchl, „sich ungerecht behandelt zu f\xfchlen" – nicht als T\xe4ter, sondern als jemand, dem die Welt etwas schuldig geblieben ist.</p>
+          <p class="vb-intro"><strong>f) Stolz auf die Ausf\xfchrung:</strong> Zugleich zeigt Zlof im Buch unverhohlene Arroganz \xfcber die „fast perfekte" Durchf\xfchrung des Plans – und erkennbaren Groll dar\xfcber, dass sein „Triumph" am Ende doch durch die Verurteilung verdorben wurde. Nicht die Beute selbst, sondern die Makellosigkeit der eigenen Konstruktion war der eigentliche Ma\xdfstab, an dem er sich ma\xdf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Vierer-Stress: Wenn Korrektheit in Selbstmitleid kippt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter Stress bewegt sich die Eins auf die Vier zu – und genau dieses Muster zeigt sich in Zlofs sp\xe4terer Selbstdarstellung. Statt der nach au\xdfen kontrollierten, rechthaberischen H\xe4rte des gesunden Einser-Anteils tritt im Buch ein selbstmitleidiger, auf das eigene Sonderschicksal fixierter Ton hervor: das Gef\xfchl, missverstanden, verraten und um die eigene Anerkennung betrogen worden zu sein. Diese Verschiebung erkl\xe4rt, warum sein Gest\xe4ndnis nicht wie eine Entlastung wirkt, sondern wie eine weitere Episode der immer gleichen Erz\xe4hlung: Ich war es, der zu Unrecht gelitten hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Was das Enneagramm sichtbar macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>a) Pr\xe4zision statt Dominanz:</strong> Anders als eine impulsive Machtdemonstration ist die gesamte Tat ein Konstruktionsprojekt – die Kiste, die Ma\xdfe, der Stromkreis, die exakte Summe. Das ist Einser-Perfektionismus, in eine kriminelle Bahn gelenkt.</p>
+          <p class="vb-intro"><strong>b) Moral statt Beute-Freude:</strong> Die Rechtfertigung erfolgt nie \xfcber das Geld selbst, sondern \xfcber eine moralische Kategorie – „enorm reich" als Begr\xfcndung, nicht als Zielscheibe. Das ist typisch f\xfcr die soziale Ausrichtung der Eins: Das eigene Handeln muss sich in ein gesellschaftliches Gerechtigkeitsnarrativ einf\xfcgen lassen, sonst ist es nicht zu ertragen.</p>
+          <p class="vb-intro"><strong>c) Der Neunerfl\xfcgel als Tarnkappe:</strong> Die fünfzehn Jahre ruhigen, unaufgeregten Leugnens – ohne Ausbr\xfcche, ohne erkennbare Nervosit\xe4t – sind ohne den dämpfenden Neunerflügel kaum vorstellbar. Eine Eins mit schwach ausgepr\xe4gtem Neunerfl\xfcgel h\xe4tte unter diesem Druck vermutlich fr\xfcher die Beherrschung verloren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Einordnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieter Zlof zeigt eine Spielart der sozialen Eins, die selten so klar dokumentiert ist: die Konstruktion einer Tat als korrektes, gerechtfertigtes Projekt – begleitet von jahrzehntelanger, unerschütterlicher Selbstgerechtigkeit. Weder die Beute noch die Macht \xfcber das Opfer standen im Zentrum seines Selbstbilds, sondern die \xdcberzeugung, im Grunde im Recht zu sein – eine \xdcberzeugung, die er bis zum freiwilligen Gest\xe4ndnis nie aufgab, sondern lediglich zu einem g\xfcnstigeren Zeitpunkt verschob.</p>
+        </blockquote>
+
+        <div class="krim-portrait-footer">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Dieter Zlof, geb. 4. Dezember 1942, Cilli (heute Celje, Slowenien)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO1w9 – Soziale Eins mit Neunerfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Zorn (verkleidet als moralische Gerechtigkeit)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Gans</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Entf\xfchrung und Erpressung von Richard Oetker 1976, 21 Mio. DM L\xf6segeld, Verurteilung 1980, Gest\xe4ndnis 1997</span>
+        </div>
+
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Rigidit\xe4t bei SE1, SO1 und SX1 unterschiedlich ausdr\xfcckt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SO1w9 im Profil: Kontrolle, Selbstgerechtigkeit und die verborgene Wut hinter der korrekten Fassade.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausf\xfchrlich portr\xe4tiert – Zorn, Perfektionismus und der Heilungsweg \xfcber echte Akzeptanz.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Dieter Zlof wurde 1980 wegen der Entf\xfchrung Richard Oetkers zu 15 Jahren Haft verurteilt und gestand die Tat 1997 nach seiner Entlassung. Das Enneagramm erkl\xe4rt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9) – dieselbe Selbstgerechtigkeit, andere Bahn"},
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Kriminalpsychologie: Heinrich Pommerenke (SO1w9)"},
+        {route:"kriminalpsychologie-werner-gladow", label:"Kriminalpsychologie: Werner Gladow (SO3w4) – auch ein Fall der Sektorengrenze"},
       ])}
     </div>
   `);
