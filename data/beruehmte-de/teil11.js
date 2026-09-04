@@ -248,6 +248,7 @@ export function catStevensPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3) – ebenfalls eine radikale spirituelle Neuerfindung"},
       ])}
     </div>
   `);

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=82";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=83";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -1352,6 +1352,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cat Stevens / Yusuf Islam – Social Type 4",
     teaser:"SO4w3 · born 1948. British musician. Converted to Islam after a near-drowning in 1976, withdrew from the music industry for nearly three decades, founded a school and a relief organization. The armadillo who carried out its radical search for identity in public rather than concealing it.",
     land:"United Kingdom", tags:["Music"], gender:"m"},
+{ route:"beruehmte-alan-watts", name:"Alan Watts", added:"2026-09-04", subtyp:"SO4w3",
+    heading:"Alan Watts – Social Type 4",
+    teaser:"SO4w3 · 1915–1973. British-American philosopher and spiritual teacher. From Anglican priest to 'philosophical entertainer' who popularized Zen and Tao in the West via radio and television. Animal correspondence: Armadillo.",
+    land:"United Kingdom/USA", tags:["Philosophy"], gender:"m"},
 { route:"beruehmte-taddl", name:"Taddl (Daniel Tjarks)", subtyp:"SO4w3",
     heading:"Taddl – Social Type 4",
     teaser:"SO4w3 · born 1996. YouTuber, artist & musician. The armadillo that hid for years behind a mask of humor – and eventually began to show the real self.",
@@ -35121,6 +35125,7 @@ function hansChristianAndersenPortraitPage() {
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
         {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
+        {route:"beruehmte-alan-watts", label:"Portrait: Alan Watts (SO4w3)"},
       ])}
     </div>
   `);
@@ -35188,11 +35193,78 @@ function heinrichHeinePortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
+        {route:"beruehmte-alan-watts", label:"Portrait: Alan Watts (SO4w3)"},
         {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3) – the mattress grave"},
       ])}
     </div>
   `);
 }
+
+function alanWattsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/alan-watts-portrait.jpg" alt="Alan Watts – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Watts</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">British-American philosopher and spiritual teacher, 1915&ndash;1973 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Changed Its Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four — it seeks society, an audience, a stage, in order to sharpen its own difference against it, while carrying its sensitive interior visibly outward. Alan Watts, born in 1915 in Chislehurst, England, discovered his fascination with China at age eleven through Fu Manchu novels, joined the Buddhist Lodge in London at fifteen, and by seventeen was already editor of its journal, "The Middle Way."</p>
+          <p class="vb-intro">Yet rather than staying on a straight path with Buddhism, he studied theology and became an Anglican priest in 1945 — a role he left again in 1950 to move to California and devote himself to interpreting Eastern philosophy for the West. This early chain of public role changes — Buddhist, priest, then Zen popularizer — is already the blueprint for his entire life: a constant search for the role in which his own difference could show itself most effectively.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Difference as a Public Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> needs the group in order to rub against it and make its own particularity visible — Watts did exactly that by moving throughout his life between worlds: neither fully East nor fully West, neither academic scholar nor churchman, neither guru nor mere entertainer, but something in between that had not existed before. He carved out a niche of his own making and became, within it, an unmistakable voice for an entire generation.</p>
+          <p class="vb-intro">His home from the mid-1960s on — alternating between a houseboat in Sausalito and a cabin near Mount Tamalpais — became a gathering place for an entire counterculture scene: legendary parties with Timothy Leary, Allen Ginsberg, and Gary Snyder took place there. The Four does not seek distance from community, but its closeness, as long as that closeness confirms its own uniqueness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The "Philosophical Entertainer"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four a pronounced sense for impact, audience, and marketability — inner experience is not just expressed, but deliberately shaped into an appealing, saleable form. Watts openly called himself a "philosophical entertainer" — not a scholar keeping distance from his audience, but someone who made complex Eastern philosophy radio-friendly and mass-accessible through wit, imagery, and paradox.</p>
+          <p class="vb-intro">His decades-long media presence — the radio series "The Great Books of Asia," later the television series "Eastern Wisdom and Modern Life" — shows exactly this Three-wing signature: public visibility as a deliberately cultivated instrument, not a side effect. Critics even accused him of "spiritual marketing" — an accusation that only arises against someone keenly aware of their image and its commercial potential.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Between Public Polish and Private Chaos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">While Watts appeared publicly as the composed interpreter of Eastern wisdom, his private life was, as one observer put it, "turbulent, maybe closer to messy": two failed marriages, a third marriage caught in a spiral of alcoholism, and heavy alimony payments that forced him into overwork and touring in his final years. This contrast between a flawless public role and unresolved private turmoil is typical of the SO4w3: the outwardly cultivated image can drift far from the actual inner state without the public performance immediately revealing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w3 is the ability to <strong>translate deeply personal, existential searching into a broadly accessible, effective form</strong> — Watts made complex Eastern concepts accessible to an entire generation without flattening them, and decisively shaped how the West still talks about Zen, Tao, and meditation today.</p>
+          <p class="vb-intro">The shadow showed itself in exactly that gap between public image and private state: a man who helped others find calm wrestled his entire life with alcohol, failed relationships, and financial pressure. The Three-wing danger of the SO4 lies exactly here — the perfected public role can absorb so much energy that the private reality behind it remains unaddressed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Performance That Outlasted the Life Behind It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alan Watts died in 1973 at age 58 in Marin County, California. His radio talks are streamed by the millions to this day, his books are still widely read — his public voice has, in a sense, outlived his actual life.</p>
+          <p class="vb-intro">Anyone wanting to see how a social Four with a Three-wing turns its own inner conflict into a stage on which millions learn something about themselves finds, in Watts's life story, both the blueprint for doing so — and the warning that a perfectly staged role does not automatically resolve the restlessness behind it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3) – another radical spiritual reinvention"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function catStevensPortraitPage() {
   return shell(`
@@ -52543,7 +52615,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A hard shell on the outside, an extraordinarily sensitive inside underneath (Naranjo: Shame)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey", "Edvard Munch"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Javier Parisi", "Fiona Apple", "Edgar Allan Poe", "Heraclitus", "Hippocrates of Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Reinhard Mey", "Edvard Munch", "Alan Watts"],
     fingerabdruecke: [
       {
         titel: "A hard shell on the outside, an extraordinarily sensitive inside underneath",
@@ -52553,7 +52625,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Wears one's own otherness visibly, instead of hiding it",
         beschreibung: "Part of the SO4 does not hide introvertedly in its own shell, but consciously carries its own uniqueness outward – as a visible sign that both connects and excludes.",
-        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike; Heinrich Heine, who openly called his own baptism an 'admission ticket to European culture' rather than concealing it, and whose lifelong tension between Jewish origin and Christian conversion became the openly negotiated subject of his entire literary work, rather than something he hid; Reinhard Mey, who deliberately positioned his music as a counterpoint to Schlager and remained faithful to the same unmistakably melancholic voice across more than 1,300 concerts, rather than adapting to the mainstream."
+        beleg: "Johnny Depp: 'This Four doesn't hide in its own shell, but wears it proudly – as proof of its own uniqueness, on a stage everyone can see'; Gustav Mahler, who as a Jew and artist with a radically idiosyncratic voice 'doesn't hide his otherness, but carries it visibly into the public, into a group that both fascinates and excludes him'; Javier Parisi, who 'isn't content with his own shell, but puts on a second, foreign one – and in that, paradoxically, finds himself,' as a John Lennon look-alike; Heinrich Heine, who openly called his own baptism an 'admission ticket to European culture' rather than concealing it, and whose lifelong tension between Jewish origin and Christian conversion became the openly negotiated subject of his entire literary work, rather than something he hid; Reinhard Mey, who deliberately positioned his music as a counterpoint to Schlager and remained faithful to the same unmistakably melancholic voice across more than 1,300 concerts, rather than adapting to the mainstream; Alan Watts, who openly called himself a 'philosophical entertainer' and carried out his transformation from Anglican priest to Zen popularizer not quietly, but for decades on an open stage – radio, television, books."
       },
       {
         titel: "Meaning through deliberate distance from a community one remains devoted to nonetheless",
@@ -112370,6 +112442,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hans-christian-andersen": hansChristianAndersenPortraitPage,
       "beruehmte-heinrich-heine": heinrichHeinePortraitPage,
       "beruehmte-cat-stevens": catStevensPortraitPage,
+      "beruehmte-alan-watts": alanWattsPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-konrad-lorenz": konradLorenzPortraitPage,

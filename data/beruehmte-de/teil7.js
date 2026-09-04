@@ -1675,3 +1675,68 @@ export function takashiMurakamiPortraitPage() {
     </div>
   `);
 }
+
+export function alanWattsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/alan-watts-portrait.jpg" alt="Alan Watts – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Watts</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Britisch-amerikanischer Philosoph und spiritueller Lehrer, 1915–1973 – Tierentsprechung: G\xfcrteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das G\xfcrteltier, das seine Fassade wechselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>G\xfcrteltier</strong> ist das Tier der sozialen Vier – es sucht die Gesellschaft, das Publikum, die B\xfchne, um daran das eigene Anderssein zu sch\xe4rfen, tr\xe4gt sein empfindsames Inneres dabei aber sichtbar nach au\xdfen. Alan Watts, 1915 im englischen Chislehurst geboren, entdeckte bereits mit elf Jahren \xfcber Fu-Manchu-Romane sein Interesse an China, trat mit f\xfcnfzehn der Buddhist Lodge in London bei und wurde mit siebzehn bereits Herausgeber von deren Zeitschrift „The Middle Way".</p>
+          <p class="vb-intro">Doch statt geradlinig beim Buddhismus zu bleiben, studierte er Theologie und wurde 1945 anglikanischer Priester – eine Rolle, die er 1950 wieder verlie\xdf, um nach Kalifornien zu ziehen und sich der Vermittlung östlicher Philosophie zu widmen. Diese fr\xfche Kette an \xf6ffentlichen Rollenwechseln – Buddhist, Priester, dann Zen-Popularisierer – ist bereits die Blaupause f\xfcr sein gesamtes Leben: die stete Suche nach der Rolle, in der sich das eigene Anderssein am wirkungsvollsten zeigen l\xe4sst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Andersartigkeit als \xf6ffentliche B\xfchne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> braucht die Gruppe, um sich an ihr zu reiben und die eigene Besonderheit sichtbar zu machen – Watts tat genau das, indem er sich zeitlebens zwischen den Welten bewegte: weder ganz Ost noch ganz West, weder akademischer Gelehrter noch Kirchenmann, weder Guru noch bloßer Entertainer, sondern etwas dazwischen, das es vorher so nicht gab. Er besetzte eine Nische, die er sich selbst schuf, und wurde darin zur unverwechselbaren Stimme f\xfcr eine ganze Generation.</p>
+          <p class="vb-intro">Sein Wohnort ab Mitte der 1960er – abwechselnd ein Hausboot in Sausalito und eine H\xfctte am Mount Tamalpais – wurde zum Treffpunkt einer ganzen Gegenkultur-Szene: legend\xe4re Partys mit Timothy Leary, Allen Ginsberg und Gary Snyder fanden dort statt. Die Vier sucht nicht die Distanz zur Gemeinschaft, sondern deren N\xe4he, solange sie darin die eigene Einzigartigkeit best\xe4tigt findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\xfcgel: Der „philosophische Entertainer"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\xfcgel (w3)</strong> verleiht der Vier ein ausgepr\xe4gtes Gesp\xfcr f\xfcr Wirkung, Publikum und Vermarktung – das eigene innere Erleben wird nicht nur ausgedr\xfcckt, sondern bewusst in eine ansprechende, verk\xe4ufliche Form gebracht. Watts nannte sich selbst offen einen „philosophical entertainer" – kein Gelehrter, der Distanz zum Publikum h\xe4lt, sondern jemand, der komplexe \xf6stliche Philosophie durch Witz, Bilder und Paradoxien radiotauglich und massenkompatibel machte.</p>
+          <p class="vb-intro">Seine jahrzehntelange Medienpr\xe4senz – die Radioreihe „The Great Books of Asia", sp\xe4ter die Fernsehserie „Eastern Wisdom and Modern Life" – zeigt genau diese Dreierfl\xfcgel-Signatur: \xf6ffentliche Sichtbarkeit als bewusst gepflegtes Instrument, nicht als Nebeneffekt. Kritiker warfen ihm sogar „spirituelles Marketing" vor – ein Vorwurf, der nur bei jemandem entsteht, der sein Image und dessen kommerzielles Potenzial genau im Blick hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zwischen \xf6ffentlichem Glanz und privatem Chaos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">W\xe4hrend Watts \xf6ffentlich als gelassener Vermittler \xf6stlicher Weisheit auftrat, war sein Privatleben, wie es ein Beobachter formulierte, „turbulent, vielleicht eher chaotisch": zwei gescheiterte Ehen, eine dritte Ehe im Sog von Alkoholismus, hohe Unterhaltszahlungen, die ihn in seinen letzten Lebensjahren zu \xfcbermäßiger Arbeit und Tourneen zwangen. Dieser Kontrast zwischen makelloser \xf6ffentlicher Rolle und ungel\xf6ster privater Unruhe ist typisch f\xfcr die SO4w3: Das nach au\xdfen kultivierte Bild kann sich vom tats\xe4chlichen inneren Zustand weit entfernen, ohne dass dies dem \xf6ffentlichen Auftreten sofort anzusehen w\xe4re.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 ist die F\xe4higkeit, <strong>zutiefst pers\xf6nliches, existenzielles Suchen in eine breit zug\xe4ngliche, wirkungsvolle Form zu \xfcbersetzen</strong> – Watts machte komplexe \xf6stliche Konzepte einer ganzen Generation zug\xe4nglich, ohne sie zu verflachen, und pr\xe4gte damit ma\xdfgeblich, wie der Westen bis heute \xfcber Zen, Tao und Meditation spricht.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in genau jener Kluft zwischen \xf6ffentlichem Image und privatem Zustand: Ein Mann, der anderen half, Gelassenheit zu finden, rang selbst zeitlebens mit Alkohol, gescheiterten Beziehungen und finanziellem Druck. Die Dreierfl\xfcgel-Gefahr der SO4 liegt genau hier – die perfektionierte \xf6ffentliche Rolle kann so viel Energie binden, dass die private Wirklichkeit dahinter unbearbeitet bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Auftritt, der l\xe4nger nachhallte als das Leben dahinter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alan Watts starb 1973 im Alter von 58 Jahren in Marin County, Kalifornien. Seine Radiovortr\xe4ge werden bis heute millionenfach gestreamt, seine B\xfccher weiterhin gelesen – seine \xf6ffentliche Stimme hat sein tats\xe4chliches Leben in gewisser Weise \xfcberdauert.</p>
+          <p class="vb-intro">Wer wissen will, wie eine soziale Vier mit Dreierfl\xfcgel ihre eigene Zerrissenheit in eine Bühne verwandelt, auf der Millionen Menschen etwas über sich selbst lernen – findet in Watts’ Lebenslauf die Blaupause dafür, und zugleich die Warnung, dass die perfekt inszenierte Rolle die eigene Unruhe dahinter nicht automatisch auflöst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das G\xfcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-cat-stevens", label:"Portr\xe4t: Cat Stevens / Yusuf Islam (SO4w3) – ebenfalls eine radikale spirituelle Neuerfindung"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portr\xe4t: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portr\xe4t: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
