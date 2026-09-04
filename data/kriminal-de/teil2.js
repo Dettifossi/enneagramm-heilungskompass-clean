@@ -4270,7 +4270,7 @@ export function dieterZlofPortraitPage() {
 
         <h2 class="vb-section">6. Einordnung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dieter Zlof zeigt eine Spielart der sozialen Eins, die selten so klar dokumentiert ist: die Konstruktion einer Tat als korrektes, gerechtfertigtes Projekt – begleitet von jahrzehntelanger, unerschütterlicher Selbstgerechtigkeit. Weder die Beute noch die Macht \xfcber das Opfer standen im Zentrum seines Selbstbilds, sondern die \xdcberzeugung, im Grunde im Recht zu sein. Nur das Leugnen der Tat gab er 1997 auf, als der richtige – f\xfcr ihn folgenlose – Zeitpunkt gekommen war. Die dahinterliegende \xdcberzeugung, im Recht gewesen zu sein, gab er nie auf – sie steht sogar im Gest\xe4ndnis selbst noch da.</p>
+          <p class="vb-intro">Dieter Zlof zeigt eine Spielart der sozialen Eins, die selten so klar dokumentiert ist: die Konstruktion einer Tat als korrektes, gerechtfertigtes Projekt – begleitet von jahrzehntelanger, unerschütterlicher Selbstgerechtigkeit. Weder die Beute noch die Macht \xfcber das Opfer standen im Zentrum seines Selbstbilds, sondern die \xdcberzeugung, im Grunde im Recht zu sein. Nur das Leugnen der Tat gab er 1997 auf, als der richtige – f\xfcr ihn folgenlose – Zeitpunkt gekommen war: „Ich war es doch. Ich habe Richard Oetker entf\xfchrt!", gestand er der Journalistin Nicole Amelung wörtlich. Die dahinterliegende \xdcberzeugung, im Recht gewesen zu sein, gab er nie auf – sie steht sinngem\xe4\xdf sogar im Gest\xe4ndnis selbst noch da: Er habe es, so wird sein Buch wiedergegeben, keineswegs bereut, „einem unermesslich reichen Menschen viel Geld abgenommen zu haben".</p>
         </blockquote>
 
         <div class="krim-portrait-footer">
