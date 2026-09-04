@@ -4120,13 +4120,39 @@ export function wernerGladowPortraitPage() {
         praktisch unangreifbar machte. Raubüberfälle, Diebstähle, schließlich auch Gewaltverbrechen mit
         Todesfolge kennzeichneten die Eskalation.</p>
         <p class="vb-intro"><strong>c) Verhaftung und spektakulärer Prozess:</strong>
-        Die Ermittlungen führten 1950 zur Verhaftung der Bandenführung. Der Prozess wurde in der jungen DDR
-        zu einem propagandistisch aufgeladenen Schauprozess – und Gladow nutzte, was von der Bühne übrig
-        blieb. Ein überliefertes Zitat aus dem Gerichtssaal zeigt die Haltung bis zuletzt: Zur dreifachen
-        Verhängung der Todesstrafe soll er sinngemäß bemerkt haben, die erste lasse er sich ja noch gefallen,
-        „die Birne abhauen", aber die beiden weiteren Male sei das dann „Leichenschändung" – Galgenhumor mit
-        präzisem Timing, in dem denkbar intensivsten Moment seines Lebens.</p>
-        <p class="vb-intro"><strong>d) Urteil und Hinrichtung:</strong>
+        Die Wiederaufnahme der Zusammenarbeit zwischen Ost- und West-Polizei nach dem Ende der Berlin-Blockade
+        1949 – plötzlich wurden wieder Indizien ausgetauscht und Spuren verglichen – führte 1950 zur
+        Verhaftung der Bandenführung. Am 21. März 1950 begann in Ost-Berlin der Prozess gegen Gladow und
+        elf Mitangeklagte, darunter auch seine eigene Mutter. Die Anklage umfasste zwanzig Punkte und
+        dokumentierte über 127 größere Straftaten. Der Prozesstermin fiel bewusst mit dem FDJ-Deutschlandtreffen
+        zusammen – ein propagandistisch aufgeladener Rahmen, auch wenn ein Anwalt eines Mitangeklagten später
+        betonte, es habe sich formal um ein ordentliches, wenn auch hart geführtes Verfahren gehandelt, keinen
+        Schauprozess im engeren Sinne. Gladow selbst nutzte, was von der Bühne übrig blieb: Ein überliefertes
+        Zitat aus dem Gerichtssaal zeigt die Haltung bis zuletzt: Zur dreifachen Verhängung der Todesstrafe soll
+        er sinngemäß bemerkt haben, die erste lasse er sich ja noch gefallen, „die Birne abhauen", aber die
+        beiden weiteren Male sei das dann „Leichenschändung" – Galgenhumor mit präzisem Timing, in dem
+        denkbar intensivsten Moment seines Lebens.</p>
+        <p class="vb-intro"><strong>d) Die Illusion des Jugendschutzes:</strong>
+        Gladow trat im Gerichtssaal auffällig selbstsicher, fast heiter auf – und das nicht ohne Grund: Er ging
+        offenbar tatsächlich davon aus, dass ihn sein jugendliches Alter schützen würde, und rechnete allenfalls
+        mit einer Jugendstrafe von höchstens zehn Jahren. Diese Zuversicht erwies sich als fataler Irrtum. Zur
+        Anwendung kam nicht das reguläre Jugendstrafrecht, sondern ein Nazi-Relikt: §20 des
+        Reichsjugendgerichtsgesetzes von 1943 erlaubte es, besonders „frühreife" Jugendliche wie Erwachsene zu
+        verurteilen, wenn es das „gesunde Volksempfinden" verlange. Ein Gutachter bescheinigte Gladow
+        ausdrücklich fehlende sittliche und geistige Reife – das Gericht, unter der persönlichen Aufsicht von
+        DDR-Justizminister Max Fechner und Generalstaatsanwalt Max Berger, setzte sich über diesen Einwand
+        hinweg. Der Gepard, der sich selbst immer als der Klügste im Raum inszeniert hatte, hatte in diesem
+        einen entscheidenden Moment die eigene Lage komplett falsch eingeschätzt.</p>
+        <p class="vb-intro"><strong>e) Der Zufall der Sektorengrenze – dieselbe Grenze, die ihn schützte, tötete ihn:</strong>
+        Die eigentliche Tragik liegt in einer bitteren Ironie, die genau die Sektorengrenze betrifft, die
+        Gladow jahrelang für seine Überfälle ausnutzte. Mit Inkrafttreten des Grundgesetzes 1949 war die
+        Todesstrafe in der jungen Bundesrepublik durch Artikel 102 abgeschafft – in der DDR blieb sie
+        bestehen und wurde angewendet. Wäre Gladow in einem West-Berliner oder westdeutschen Gerichtsverfahren
+        gelandet, hätte ihm realistisch keine Hinrichtung gedroht. Doch die entscheidenden Taten und seine
+        Ergreifung fielen in den sowjetisch besetzten Sektor – dieselbe künstliche Grenze, die ihm jahrelang
+        als Fluchtweg diente, wurde am Ende zur Grenze zwischen Überleben und Tod. Ein Umstand, den weder er
+        noch seine Mitangeklagten für möglich gehalten hatten.</p>
+        <p class="vb-intro"><strong>f) Urteil und Hinrichtung:</strong>
         Am 8. April 1950 wurde Gladow gemeinsam mit zwei Mittätern wegen Mordes, Mordversuchs und Raubes zum
         Tode verurteilt. Am 10. November 1950 wurde er in Frankfurt (Oder) mit dem Fallbeil hingerichtet –
         mit neunzehn Jahren einer der ersten in der DDR vollstreckten Todesurteile.</p>

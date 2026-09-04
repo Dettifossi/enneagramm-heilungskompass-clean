@@ -83508,13 +83508,38 @@ function wernerGladowPortraitPage() {
         untouchable for months. Robberies and thefts escalated eventually into violent crimes with fatal
         outcomes.</p>
         <p class="vb-intro"><strong>c) Arrest and the sensational trial:</strong>
-        Investigations led to the arrest of the gang's leadership in 1950. In the young GDR, the trial became
-        a propaganda-charged show trial – and Gladow made use of whatever stage remained. A quote handed down
-        from the courtroom shows the attitude holding to the very end: on being handed the death sentence
+        The resumption of cooperation between East and West Berlin police after the Berlin Blockade ended in
+        1949 – suddenly evidence was exchanged again and leads compared – led to the arrest of the gang's
+        leadership in 1950. On March 21, 1950, the trial against Gladow and eleven co-defendants, including
+        his own mother, began in East Berlin. The indictment ran to twenty counts and documented over 127
+        major crimes. The trial date was deliberately timed to coincide with the FDJ national youth rally
+        (Free German Youth) – a propaganda-charged setting, even though a lawyer for one of the co-defendants
+        later stressed that formally it had been a proper, if harshly conducted, trial rather than a show
+        trial in the strict sense. Gladow himself made use of whatever stage remained: a quote handed down
+        from the courtroom shows the attitude holding to the very end. On being handed the death sentence
         three times over, he reportedly remarked that he'd put up with the first one, "off with the head," but
         the other two times would then amount to "desecration of a corpse" – gallows humor with precise
         timing, delivered in what was arguably the most intense moment of his life.</p>
-        <p class="vb-intro"><strong>d) Verdict and execution:</strong>
+        <p class="vb-intro"><strong>d) The illusion of juvenile protection:</strong>
+        In court, Gladow carried himself with striking confidence, almost cheerfulness – and not without
+        reason: he apparently genuinely believed his young age would protect him, expecting at most a juvenile
+        sentence of ten years. This confidence turned out to be a fatal miscalculation. What was applied was
+        not regular juvenile law but a Nazi-era relic: Section 20 of the 1943 Reich Youth Court Act allowed
+        particularly "precocious" juveniles to be sentenced as adults if "sound public sentiment" demanded it.
+        An expert witness explicitly found Gladow to lack moral and mental maturity – the court, under the
+        personal oversight of GDR Justice Minister Max Fechner and Attorney General Max Berger, disregarded
+        this finding. The cheetah, who had always staged himself as the smartest person in the room, had in
+        this one decisive moment completely misjudged his own situation.</p>
+        <p class="vb-intro"><strong>e) The accident of the sector border – the same line that shielded him killed him:</strong>
+        The real tragedy lies in a bitter irony involving the exact sector border Gladow had exploited for
+        years for his robberies. With the Basic Law taking effect in 1949, the death penalty had been
+        abolished in the young Federal Republic under Article 102 – in the GDR it remained in force and was
+        applied. Had Gladow ended up in a West Berlin or West German court proceeding, realistically no
+        execution would have awaited him. But the decisive crimes and his capture fell within the
+        Soviet-occupied sector – the same artificial border that had served him for years as an escape route
+        became, in the end, the line between survival and death. A circumstance neither he nor his
+        co-defendants had ever considered possible.</p>
+        <p class="vb-intro"><strong>f) Verdict and execution:</strong>
         On April 8, 1950, Gladow was sentenced to death together with two accomplices for murder, attempted
         murder, and robbery. On November 10, 1950, he was executed by guillotine in Frankfurt (Oder) – at
         nineteen, one of the first death sentences carried out in the GDR.</p>
