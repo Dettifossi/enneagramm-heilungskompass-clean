@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=93";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=94";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -461,6 +461,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fritz Wepper – Self-Preservation Type 1",
     teaser:"SE1w9 · 1941–2024. German actor, 24 years as Harry Klein at the side of Horst Tappert in \"Derrick,\" followed by nearly 20 years as Mayor Wöller in \"Um Himmels Willen.\" Over 45 years of reliable, unassuming presence in German television, never claiming the lead role. Animal correspondence: Eagle.",
     land:"Germany", tags:["Schauspiel"], gender:"m"},
+{ route:"beruehmte-armin-mueller-stahl", name:"Armin Mueller-Stahl", added:"2026-09-04", subtyp:"SE1w9",
+    heading:"Armin Mueller-Stahl – Self-Preservation Type 1",
+    teaser:"SE1w9 · 1930–2025. Actor, painter, musician, and writer. Banned from working in 1976 over the Biermann Resolution, emigrated to West Germany in 1980. Four artistic crafts at the highest level, never becoming a loud figure. Animal correspondence: Eagle.",
+    land:"Germany", tags:["Schauspiel","Kunst"], gender:"m"},
 { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
     heading:"Reinhold Würth – Self-Preservation Type 1",
     teaser:"SE1w9 · b. 1935. Entrepreneur, took over his deceased father's small screw wholesale business at 19 in 1954 and built it into the Würth Group, one of Europe's largest trading conglomerates. Patron of one of Europe's largest private art collections. Animal correspondence: Bald Eagle.",
@@ -33957,6 +33961,70 @@ function stingPortraitPage() {
   `);
 }
 
+function arminMuellerStahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-armin-mueller-stahl-portrait.jpg" alt="Armin Mueller-Stahl – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Armin Mueller-Stahl</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor, painter, musician &amp; writer, 1930&ndash;2025 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Ran Four Crafts at Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of Self-Preservation Type 1 &ndash; an animal that works with calm precision and applies its abilities with discipline, without scattering its focus. Armin Mueller-Stahl, born in 1930 in what was then Tilsit, first studied violin and musicology at the conservatory in West Berlin before finding his way to acting at the Theater am Schiffbauerdamm in 1953. "For me, painting, writing, making music and acting simply belong together" &ndash; a life motto that united four different crafts under a single, disciplined self-understanding.</p>
+          <p class="vb-intro">That is exactly the eagle's nature: not haphazardly sampling many talents, but consistently cultivating each craft by one's own high standards &ndash; over decades, until he was taken as seriously as a painter, graphic artist, sculptor, and writer as he was as one of the most significant German actors of his generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation One: Fidelity to Principle as a Matter of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Self-Preservation One (SE1)</strong> seeks security through her own correctness and a high, often invisibly lived sense of duty toward herself. In Mueller-Stahl this showed in 1976, when he was among the signatories of the Biermann Resolution &ndash; a manifesto critical of the East German government's expatriation of the singer-songwriter Wolf Biermann. The consequence was a professional ban in East Germany, before he was permitted to emigrate to West Germany in 1980.</p>
+          <p class="vb-intro">This step was not a spontaneous protest but the consistent continuation of an inner stance: principles were not staged for public effect, but simply followed because they were right &ndash; even at the cost of his own career in a country where he was already an established actor. That is exactly SE1 security: it lies not in outward success, but in the knowledge of having acted correctly by one's own standards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: Quiet Persistence Instead of Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation One an additional calm and an aversion to loud confrontation. Mueller-Stahl was never a political megaphone &ndash; his protest consisted of a signature, not public speeches or demonstrations. Even after emigrating, he acted with restraint: rather than staging himself as a dissident icon, he quietly and persistently worked his way into a new career in West Germany under Rainer Werner Fassbinder, one that eventually took him all the way to Hollywood.</p>
+          <p class="vb-intro">This combination of unshakeable inner principles (One) and an outwardly calm, non-confrontational presence (Nine-wing) also shaped his choice of roles: he frequently embodied restrained, morally upright characters whose strength showed not in loud assertion, but in quiet consistency.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Four Crafts, One Standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1997, Mueller-Stahl published his autobiography "Unterwegs nach Hause" ("On the Way Home") &ndash; yet another craft to which he devoted the same care as acting. His paintings and sculptures were shown in their own exhibitions, not as a byproduct of his film career, but as an independent body of artistic work with its own standard.</p>
+          <p class="vb-intro">This ability to pursue several demanding disciplines in parallel at a high level, without neglecting any of them, is typical for SE1: the inner standard applies equally to every craft &ndash; there are no areas where sloppiness is tolerated just because they aren't in the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 shows in Mueller-Stahl in the resilience with which he defended his principles against considerable personal loss, and in the quiet discipline with which he cultivated four different artistic crafts at the highest level for decades &ndash; without ever becoming a loud, self-promoting figure.</p>
+          <p class="vb-intro">The shadow of the One lies in the risk of one's own high standards turning into an unforgiving inner authority that leaves little room for self-leniency. The Nine-wing acts here as a corrective: it prevented fidelity to principle from turning into self-righteousness, and kept Mueller-Stahl in a reserved, conciliatory basic stance, even toward the system that had temporarily denied him his career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Never Built Only One Nest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Armin Mueller-Stahl's life's work shows the Self-Preservation One with a Nine-wing in its most productive form: fidelity to principle that does not break under pressure, paired with the quiet persistence to master several artistic crafts in parallel rather than confining himself to one. The eagle doesn't just build one nest &ndash; it commands several skies at once, each with the same precision.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+          {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – also a German actor"},
+          {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function robertDeNiroPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -34021,6 +34089,7 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
       ])}
     </div>
   `);
@@ -34564,6 +34633,7 @@ function fritzWepperPortraitPage() {
         {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SP1w9)"},
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
         {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SP1w9)"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SP1w9) – also a German actor"},
       ])}
     </div>
   `);
@@ -53519,7 +53589,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -53534,7 +53604,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life; Armin Mueller-Stahl, who after the professional ban following the Biermann Resolution and his emigration in 1980 started over in the West and, across decades, worked in parallel as an actor, painter, musician, and writer, applying the same uncompromising standard to himself in every craft."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -113092,6 +113162,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-gianna-nannini": giannaNanniniPortraitPage,
       "beruehmte-astrid-lindgren": astridLindgrenPortraitPage,
       "beruehmte-fritz-wepper": fritzWepperPortraitPage,
+      "beruehmte-armin-mueller-stahl": arminMuellerStahlPortraitPage,
       "beruehmte-reinhold-wuerth": reinholdWuerthPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,

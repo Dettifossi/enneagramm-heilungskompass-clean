@@ -499,6 +499,7 @@ export function fritzWepperPortraitPage() {
         {route:"beruehmte-ken-follett", label:"Porträt: Ken Follett (SE1w9)"},
         {route:"beruehmte-astrid-lindgren", label:"Porträt: Astrid Lindgren (SE1w9)"},
         {route:"beruehmte-reinhold-wuerth", label:"Porträt: Reinhold Würth (SE1w9)"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Porträt: Armin Mueller-Stahl (SE1w9) – ebenfalls deutscher Schauspieler"},
       ])}
     </div>
   `);

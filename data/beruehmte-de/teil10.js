@@ -1711,3 +1711,67 @@ export function richardDavidPrechtPortraitPage() {
     </div>
   `);
 }
+
+export function arminMuellerStahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-armin-mueller-stahl-portrait.jpg" alt="Armin Mueller-Stahl – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Armin Mueller-Stahl</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Maler, Musiker &amp; Schriftsteller, 1930&ndash;2025 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der vier Handwerke gleichzeitig führte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier des selbsterhaltenden Typs 1 – ein Tier, das mit ruhiger Präzision arbeitet und seine Fähigkeiten diszipliniert einsetzt, ohne sich zu verzetteln. Armin Mueller-Stahl, 1930 im damaligen Tilsit geboren, studierte zunächst Violine und Musikwissenschaft am Konservatorium West-Berlin, bevor er 1953 am Theater am Schiffbauerdamm zur Schauspielerei fand. „Für mich gehören Malen, Schreiben, Musizieren und Schauspielern einfach zusammen" – ein Lebensmotto, das vier verschiedene Handwerke unter einem einzigen, disziplinierten Selbstverständnis vereinte.</p>
+          <p class="vb-intro">Genau darin zeigt sich die Adlernatur: nicht das wahllose Ausprobieren vieler Talente, sondern die konsequente Pflege jedes einzelnen Handwerks nach den eigenen, hohen Maßstäben – über Jahrzehnte hinweg, bis er als Maler, Grafiker, Bildhauer und Schriftsteller ebenso ernst genommen wurde wie als einer der bedeutendsten deutschen Schauspieler seiner Generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Prinzipientreue als Überlebensfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> sucht nach Naranjo Sicherheit durch die eigene Korrektheit und ein hohes, oft unsichtbar gelebtes Pflichtgefühl gegenüber sich selbst. Bei Mueller-Stahl zeigte sich das 1976, als er zu den Unterzeichnern der Biermann-Resolution gehörte – eines Manifests, das die Ausbürgerung des Liedermachers Wolf Biermann kritisierte. Die Konsequenz war ein Berufsverbot in der DDR, bevor er 1980 in den Westen ausreisen durfte.</p>
+          <p class="vb-intro">Dieser Schritt war kein spontaner Protest, sondern die konsequente Fortsetzung einer inneren Haltung: Prinzipien wurden nicht öffentlichkeitswirksam inszeniert, sondern schlicht befolgt, weil sie richtig waren – selbst um den Preis der eigenen Karriere in einem Land, in dem er als Schauspieler bereits etabliert war. Genau das ist die SE1-Sicherheit: Sie liegt nicht im äußeren Erfolg, sondern im Wissen, nach den eigenen Maßstäben korrekt gehandelt zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Stille Beharrlichkeit statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der selbsterhaltenden Eins eine zusätzliche Ruhe und einen Widerwillen gegen lautstarke Konfrontation. Mueller-Stahl war nie ein politischer Lautsprecher – sein Protest bestand aus einer Unterschrift, nicht aus öffentlichen Reden oder Demonstrationen. Auch nach seiner Ausreise agierte er zurückhaltend: Statt sich als Dissidenten-Ikone zu inszenieren, arbeitete er sich in der Bundesrepublik unter Rainer Werner Fassbinder still und beharrlich in eine neue Karriere hinein, die ihn schließlich bis nach Hollywood führte.</p>
+          <p class="vb-intro">Diese Kombination aus unumstößlichen inneren Prinzipien (Eins) und äußerlich ruhiger, nicht-konfrontativer Präsenz (Neunerflügel) prägte auch seine Rollenwahl: Häufig verkörperte er zurückhaltende, moralisch integre Figuren, deren Stärke sich nicht im lauten Auftreten, sondern in stiller Konsequenz zeigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vier Handwerke, ein Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1997 veröffentlichte Mueller-Stahl seine Autobiografie „Unterwegs nach Hause" – ein weiteres Handwerk, dem er sich mit derselben Sorgfalt widmete wie der Schauspielerei. Seine Gemälde und Skulpturen wurden in eigenständigen Ausstellungen gezeigt, nicht als Nebenprodukt seiner Filmkarriere, sondern als eigenständiges künstlerisches Werk mit eigenem Anspruch.</p>
+          <p class="vb-intro">Diese Fähigkeit, mehrere anspruchsvolle Disziplinen parallel auf hohem Niveau zu betreiben, ohne eine davon zu vernachlässigen, ist typisch für die SE1: Der innere Maßstab gilt für jedes Handwerk gleichermaßen – es gibt keine Bereiche, in denen Nachlässigkeit toleriert wird, nur weil sie nicht im Rampenlicht stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich bei Mueller-Stahl in der Widerstandskraft, mit der er seine Prinzipien gegen erheblichen persönlichen Verlust verteidigte, und in der stillen Disziplin, mit der er über Jahrzehnte vier verschiedene künstlerische Handwerke auf höchstem Niveau pflegte – ohne dabei je zur lauten, selbstinszenierenden Figur zu werden.</p>
+          <p class="vb-intro">Der Schatten der Eins liegt in der Gefahr, die eigenen hohen Maßstäbe zur unerbittlichen inneren Instanz werden zu lassen, die wenig Raum für Nachsicht mit sich selbst lässt. Der Neunerflügel wirkt hier als Korrektiv: Er verhinderte, dass aus Prinzipientreue Rechthaberei wurde, und hielt Mueller-Stahl in einer zurückhaltenden, versöhnlichen Grundhaltung, selbst gegenüber dem System, das ihm die Karriere zeitweise verwehrt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der nie nur ein Nest baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Armin Mueller-Stahls Lebenswerk zeigt die selbsterhaltende Eins mit Neunerflügel in ihrer produktivsten Form: Prinzipientreue, die auch unter Druck nicht bricht, gepaart mit der stillen Beharrlichkeit, mehrere künstlerische Handwerke parallel zu meistern, statt sich auf eines zu beschränken. Der Adler baut nicht nur ein Nest – er beherrscht mehrere Lüfte gleichzeitig, jede mit derselben Präzision.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+          {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – ebenfalls deutscher Schauspieler"},
+          {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
