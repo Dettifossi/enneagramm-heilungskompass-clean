@@ -1344,6 +1344,7 @@ export function sophieMarceauPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
+          {route:"beruehmte-ed-sheeran", label:"Portr\xe4t: Ed Sheeran (SX9w1)"},
         ])}
       </div>
     </div>
@@ -1691,6 +1692,72 @@ export function roaldAmundsenPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9) – Standhaftigkeit ohne Dramatik"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Porträt: Kurt Georg Kiesinger (SO1w9)"},
       ])}
+    </div>
+  `);
+}
+
+export function edSheeranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-ed-sheeran-portrait.jpg" alt="Ed Sheeran – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ed Sheeran</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1991 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Faultierblick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Ed Sheeran in die Augen sieht, trifft auf nichts Fokussiertes. Der Blick liegt peripher, wie durch einen leichten Schleier, ohne sich auf einen einzelnen Punkt zu heften – ein Blick, der eher neben einem vorbeigeht als einen anzuvisieren. In der Enneagramm-Praxis heißt das der <strong>Faultierblick</strong>: entspannt, friedlich, ohne die geringste Anspannung in den Augenwinkeln. Kein Kämpfen, kein Prüfen, kein Sich-Behaupten im Blick – nur eine Ruhe, die sich nicht stören lässt.</p>
+          <p class="vb-intro">Sheeran selbst beschreibt sich als „jemanden, der wie der ältere Kumpel eines Freundes aussieht, der aus der Pizzeria kommt, wo er arbeitet" – bewusst unauffällig, bewusst gewöhnlich, obwohl er einer der meistverkauften Musiker der Welt ist. Genau dieses Understatement kennt man auch von Keanu Reeves (ebenfalls SX9w1): der Wunsch, sich nicht abzuheben, sondern einfach da zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht Zugehörigkeit zu einer Gruppe wie die soziale Neun, sondern das vollständige Verschmelzen – mit einem Menschen, einem Werk, einem Moment. Bei Sheeran zeigt sich das live auf der Bühne: Vor einem Fünfzigtausender-Stadion wärmt er sich praktisch nicht auf, wechselt nur ein etwas schärferes Hemd – und dann steht dort ein einzelner Mann mit Loop-Pedal und Akustikgitarre, der einen ganzen Konzertsaal allein trägt. Er verschmilzt nicht mit einer Band, sondern direkt mit dem Publikum, ohne Zwischenschicht.</p>
+          <p class="vb-intro">Dieselbe Qualität zeigt sich in seiner Ehe mit Cherry Seaborn, seiner Jugendfreundin, die er erst Jahre später in New York wiedertraf. Die Hochzeit fand in kleinstem Kreis statt, das Paar hält sein Privatleben bewusst aus der Öffentlichkeit heraus, und für die gemeinsame Zeit legte Sheeran 2019 sogar eine komplette Tourpause ein. Die eine zentrale Bindung wiegt schwerer als das Rampenlicht – ein Muster, das sich auch bei Craig Foster und seinem Oktopus oder bei Jane Goodall und Schimpanse David Greybeard im Lebensmusterkompass dieses Subtyps findet, nur hier auf einen Menschen statt ein Tier gerichtet.</p>
+          <p class="vb-intro">Auch sozial zieht er sich zurück: Sheeran spricht offen über soziale Ängstlichkeit und meidet Ausgehen und Rummel, sobald der Auftritt vorbei ist. Die Neun schläft nicht – aber sie flüstert, wo andere schreien, und verschwindet lieber ganz aus dem Blickfeld, als sich zu inszenieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin statt Perfektionismus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sexuellen Neun eine innere Struktur, die über bloßes Treibenlassen hinausgeht – ein Bedürfnis nach Richtigkeit, nach einer Ordnung, der man sich verpflichtet fühlt. Bei Sheeran zeigt sich das nicht als Perfektionismus im klassischen Sinn, sondern als fast asketische Arbeitsroutine: Sein eigener Leitsatz lautet „dare to suck" – lieber täglich zwei, drei Songs schreiben, von denen die meisten nichts taugen, als auf den einen perfekten Einfall zu warten. Struktur statt Anspruch, Wiederholung statt Inspiration.</p>
+          <p class="vb-intro">Dieselbe Disziplin trug ihn schon vor dem Ruhm: Mit siebzehn zog er nach London, schlief auf fremden Sofas und bestritt über Jahre hinweg Hunderte Auftritte, oft mehrmals am Tag, bis hin zum Straßenmusizieren an Bahnhöfen. Kein plötzlicher Durchbruch, sondern ein selbstauferlegtes, fast rituelles Pensum – der Einserflügel liefert der neunertypischen Trägheit die Form, in der sie sich entfalten kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Selbstvergessenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – gemeint ist damit keine Faulheit, sondern eine Schwerkraft nach innen: die Neigung, das eigene Wollen nicht in den Vordergrund zu stellen, sondern sich selbst zu vergessen. Das erklärt auch, warum Sheeran sich zwischen Alben und Touren immer wieder für Monate komplett zurückzieht, kaum öffentlich in Erscheinung tritt – um danach wieder mit voller Wirksamkeit aufzutreten. Das spricht nicht gegen die Trägheit, sondern bestätigt sie: Rückzug ist bei der Neun kein Leistungsabfall, sondern Regeneration durch Selbstvergessenheit, aus der heraus sie sich wieder ganz einbringen kann.</p>
+          <p class="vb-intro">Genau diese Abwechslung – wochenlange Unsichtbarkeit, dann ein Stadion voller Menschen, die jede Zeile mitsingen – ist die SX9-Trägheit in Reinform: kein Dauerlauf, sondern ein Pulsieren zwischen völligem Verschwinden und völliger Hingabe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Sheeran darin, dass die Verschmelzung nie zur Selbstauflösung wird: Er bleibt trotz der Bühnenverschmelzung mit dem Publikum als Privatperson klar abgegrenzt, mit einer stabilen Ehe und einem bewusst gehüteten Innenleben. Der Einserflügel hält die Verschmelzung diszipliniert – aus ihr wird kein orientierungsloses Verschwinden, sondern ein produktives Werk.</p>
+          <p class="vb-intro">Der Schatten der Neun ist die Gefahr, das eigene Anliegen so weit zurückzustellen, dass es ganz aus dem Blick gerät. Sheerans anhaltende soziale Ängstlichkeit und sein Bedürfnis nach monatelangem Rückzug lassen erahnen, wie viel Energie das beständige Verschmelzen mit dem Publikum tatsächlich kostet – und wie zerbrechlich das Gleichgewicht zwischen Bühne und Stille bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ein Loop-Pedal statt einer Bühnenshow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo andere Popstars mit Feuerwerk, Tänzern und Kostümwechseln auftreten, genügt Ed Sheeran eine Akustikgitarre und ein Loop-Pedal, um ein Stadion zu füllen – nicht aus Mangel an Möglichkeiten, sondern weil genau das seiner Natur entspricht: so wenig wie nötig zeigen, so viel wie nötig wirken lassen. Der Faultierblick, den man ihm ansieht, ist kein Zeichen von Distanz, sondern von einem Menschen, der lieber verschwindet, als sich in den Vordergrund zu drängen – und der gerade dadurch Millionen erreicht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1) – dasselbe Understatement"},
+          {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+          {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1) – dieselbe ruhige Ausstrahlung"},
+        ])}
+      </div>
     </div>
   `);
 }

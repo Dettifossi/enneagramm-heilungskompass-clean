@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=87";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=88";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -2253,6 +2253,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Keanu Reeves – Sexual Type 9",
     teaser:"SX9w1 · born 1964. Actor (The Matrix, John Wick). The quiet man who dissolves into every role – and in real life is even more humble than on screen. Animal correspondence: Sloth.",
     land:"Canada", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-ed-sheeran", name:"Ed Sheeran", added:"2026-09-04", subtyp:"SX9w1",
+    heading:"Ed Sheeran – Sexual Type 9",
+    teaser:"SX9w1 · born 1991. Musician. A man with an acoustic guitar and a loop pedal who fills stadiums alone while trying to seem as unremarkable as possible – the sloth's gaze behind the global fame. Animal correspondence: Sloth.",
+    land:"United Kingdom", tags:["Musik"] , gender:"m"},
 { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
     heading:"Diego Velázquez – Sexual Type 9",
     teaser:"SX9w1 · 1599–1660. Painter. Las Meninas, court painter to Philip IV, the fight for the Order of Santiago. The sloth with a One-wing: fusion of painter, subject, and viewer, paired with unyielding social ambition. Animal correspondence: Sloth.",
@@ -43027,6 +43031,72 @@ function anaSalcedaPortraitPage() {
   `);
 }
 
+function edSheeranPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-ed-sheeran-portrait.jpg" alt="Ed Sheeran – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ed Sheeran</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Musician, born 1991 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth's Gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Look Ed Sheeran in the eyes and you find nothing focused. The gaze sits peripheral, as if behind a faint veil, never fixing on a single point &ndash; a look that drifts past you rather than aims at you. In Enneagram practice this is called the <strong>sloth's gaze</strong>: relaxed, peaceful, without the slightest tension around the eyes. No fighting, no assessing, no asserting oneself in the look &ndash; just a calm that refuses to be disturbed.</p>
+          <p class="vb-intro">Sheeran describes himself as looking "like someone's older brother's mate who came back from college and works in a pizza shop" &ndash; deliberately unremarkable, deliberately ordinary, despite being one of the best-selling musicians in the world. The same understatement is familiar from Keanu Reeves (also SX9w1): the wish not to stand out, but simply to be there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging with the Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong>, per Naranjo, does not seek belonging to a group the way the Social Nine does, but complete merger &ndash; with a person, a work, a moment. In Sheeran this shows itself live on stage: before a fifty-thousand-seat stadium he barely warms up, changes into a slightly sharper shirt &ndash; and then a single man stands there with a loop pedal and an acoustic guitar, carrying an entire arena alone. He does not merge with a band, but directly with the audience, with no layer in between.</p>
+          <p class="vb-intro">The same quality shows in his marriage to Cherry Seaborn, his childhood friend, whom he only reunited with years later in New York. The wedding was small and private, the couple deliberately keeps their private life out of the public eye, and in 2019 Sheeran even took a full break from touring for their time together. The one central bond weighs heavier than the spotlight &ndash; a pattern also found with Craig Foster and his octopus, or Jane Goodall and the chimpanzee David Greybeard, in this subtype's life-pattern compass, only here directed at a person instead of an animal.</p>
+          <p class="vb-intro">He also withdraws socially: Sheeran speaks openly about social anxiety and avoids going out and the surrounding buzz once a show is over. The Nine does not sleep &ndash; but she whispers where others shout, and would rather vanish from view entirely than stage herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: Discipline Instead of Perfectionism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Sexual Nine an inner structure that goes beyond mere drifting &ndash; a need for rightness, for an order one feels bound to. In Sheeran this shows not as perfectionism in the classic sense, but as an almost ascetic work routine: his own motto is "dare to suck" &ndash; better to write two or three songs a day, most of them worthless, than to wait for the one perfect idea. Structure instead of standards, repetition instead of inspiration.</p>
+          <p class="vb-intro">The same discipline carried him even before fame: at seventeen he moved to London, slept on other people's sofas, and played hundreds of shows over the years, often several times a day, down to busking at train stations. No sudden breakthrough, but a self-imposed, almost ritual workload &ndash; the One-wing gives the Nine's typical inertia the form it can unfold in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Inertia as Self-Forgetting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is called <strong>Inertia</strong> &ndash; not laziness, but a gravity directed inward: the tendency not to put one's own will in the foreground, but to forget oneself. That also explains why Sheeran repeatedly withdraws completely for months between albums and tours, barely appearing in public &ndash; only to return afterward at full effect. This does not contradict the inertia, it confirms it: withdrawal for the Nine is not a drop in performance, but regeneration through self-forgetting, out of which she can fully engage again.</p>
+          <p class="vb-intro">This very alternation &ndash; weeks of invisibility, then a stadium full of people singing every line &ndash; is SX9 inertia in its purest form: not a steady run, but a pulse between complete disappearance and complete devotion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in Sheeran in that the merging never becomes self-dissolution: despite merging with the audience on stage, he remains clearly bounded as a private person, with a stable marriage and a deliberately guarded inner life. The One-wing keeps the merging disciplined &ndash; it does not become directionless disappearance, but a productive body of work.</p>
+          <p class="vb-intro">The shadow of the Nine is the risk of setting one's own concerns aside so far that they vanish from view entirely. Sheeran's lasting social anxiety and his need for months-long withdrawal hint at how much energy the constant merging with the audience actually costs &ndash; and how fragile the balance between stage and silence remains.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A Loop Pedal Instead of a Stage Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Where other pop stars perform with fireworks, dancers, and costume changes, Ed Sheeran needs only an acoustic guitar and a loop pedal to fill a stadium &ndash; not for lack of options, but because that is exactly what fits his nature: show as little as necessary, let it land as fully as necessary. The sloth's gaze you see in him is not a sign of distance, but of someone who would rather disappear than push himself to the front &ndash; and who reaches millions precisely because of it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1) – the same understatement"},
+          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+          {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1) – the same quiet presence"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function keanuReevesPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -43083,6 +43153,7 @@ function keanuReevesPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same understatement"},
       ])}
     </div>
   `);
@@ -43145,6 +43216,7 @@ function sophieMarceauPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
+          {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
         ])}
       </div>
     </div>
@@ -43211,6 +43283,7 @@ function krisMarshallPortraitPage() {
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
           {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+          {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same quiet presence"},
         ])}
       </div>
     </div>
@@ -53119,17 +53192,17 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein", "Mother Mary"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein", "Mother Mary", "Ed Sheeran"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
         beschreibung: "Life repeatedly centers not around a network, an institution, or an audience, but around a single, often non-human or very private relationship, or a single work or role. This one merging becomes the pivot of the entire further biography – up to a dissolving of the boundary between self and other.",
-        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them; Elizabeth Barrett Browning, whose twenty years of isolation in her father's house dissolved, within twenty months of correspondence, into the one central bond of the rest of her life – 'the SX9 invests her entire energy in the one relationship that counts, letting everything else – even her own safety – fall away.'; Mother Mary (Bible portrait), whose entire life centered on the one bond with her son, beneath the cross, at the empty tomb, and beyond: 'I am here, because you are' – no role, no network, but the one bond that was never let go."
+        beleg: "Foster and his nameless octopus, Goodall and the chimpanzee David Greybeard, Salceda and the sloth Velcro; Velázquez in 'Las Meninas,' where 'the boundary between viewer and viewed blurs'; Beltracchi, whose art forgeries are described as 'merging with the spirit of dead masters'; Carl Rogers' unconditionally accepting therapeutic presence for the person before him; Mario Barth, who since his stage debut in 2001 'merged from then on with a stage persona that spoke to a mass audience' – the Berlin working-class guy character; Keanu Reeves' merging with individual iconic roles (Neo, John Wick), without ever living out the star facade that comes with them; Elizabeth Barrett Browning, whose twenty years of isolation in her father's house dissolved, within twenty months of correspondence, into the one central bond of the rest of her life – 'the SX9 invests her entire energy in the one relationship that counts, letting everything else – even her own safety – fall away.'; Kris Marshall, who played the same character in 'My Family' for eleven years and embodied the same advertising character for over a decade, before leaving 'Death in Paradise,' by his own account, 'to spend more time with his family' – few bonds, but very long-held ones instead of many short ones; Mother Mary (Bible portrait), whose entire life centered on the one bond with her son, beneath the cross, at the empty tomb, and beyond: 'I am here, because you are' – no role, no network, but the one bond that was never let go; Ed Sheeran, who deliberately keeps his marriage to childhood friend Cherry Seaborn out of the public eye and even paused touring entirely in 2019 to protect that one relationship."
       },
       {
         titel: "Apparent sluggishness that turns, when needed, into full, precise intensity",
         beschreibung: "From outside, the underlying stance seems reserved, effortless, almost uninvolved. But as soon as the right moment or a boundary violation occurs, a surprisingly complete, highly precise reaction appears – no gradual escalation, but a flip from zero to a hundred.",
-        beleg: "'The sloth hangs still until it moves. When it moves, it gives everything' (Makatsch); Dakota Johnson's 'claws you only see once you get too close'; Iga Świątek, who seems 'effortless,' but 'when she snaps, with a precision that astonishes'; Keanu Reeves' sloths are 'not lazy – they're extremely energy-efficient, they do exactly what's needed, with a minimum of effort and a maximum of effect,' visible in the contrast between the calm private person and the physically fully exhausting John Wick role; Lucy Cooke, whose humorous, forthright vividness contrasts her animal's sluggish reputation with sparkling intellectual enthusiasm – a sloth that seems anything but sluggish the moment it starts talking."
+        beleg: "'The sloth hangs still until it moves. When it moves, it gives everything' (Makatsch); Dakota Johnson's 'claws you only see once you get too close'; Iga Świątek, who seems 'effortless,' but 'when she snaps, with a precision that astonishes'; Keanu Reeves' sloths are 'not lazy – they're extremely energy-efficient, they do exactly what's needed, with a minimum of effort and a maximum of effect,' visible in the contrast between the calm private person and the physically fully exhausting John Wick role; Lucy Cooke, whose humorous, forthright vividness contrasts her animal's sluggish reputation with sparkling intellectual enthusiasm – a sloth that seems anything but sluggish the moment it starts talking; Ed Sheeran, who barely warms up before a fifty-thousand-seat stadium show and then carries the entire arena alone with a loop pedal and an acoustic guitar."
       },
       {
         titel: "Slow, unforced expansion over decades instead of planned career strategy",
@@ -112784,6 +112857,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-craig-foster": craigFosterPortraitPage,
       "beruehmte-ana-salceda": anaSalcedaPortraitPage,
       "beruehmte-keanu-reeves": keanuReevesPortraitPage,
+      "beruehmte-ed-sheeran": edSheeranPortraitPage,
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-mario-barth": marioBarthPortraitPage,
       "beruehmte-lucy-cooke": lucyCookePortraitPage,

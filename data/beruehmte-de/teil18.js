@@ -809,6 +809,7 @@ export function keanuReevesPortraitPage() {
         {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portr\xe4t: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Portr\xe4t: Ed Sheeran (SX9w1) – dasselbe Understatement"},
       ])}
     </div>
   `);
