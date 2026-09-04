@@ -1150,6 +1150,7 @@ export function nikolaTeslaPortraitPage() {
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"krankheitsportraets-nikola-tesla", label:"Krankheitsporträt: Nikola Tesla (SO7w6) – Zwangsstörung und Isolation"},
+        {route:"beruehmte-john-ioannidis", label:"Porträt: John Ioannidis (SO7w6)"},
       ])}
     </div>
   `);

@@ -1704,3 +1704,68 @@ export function joachimLlambiPortraitPage() {
     </div>
   `);
 }
+
+export function johnIoannidisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-john-ioannidis-portrait.jpg" alt="John Ioannidis – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Ioannidis</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Arzt, Epidemiologe &amp; Wissenschaftsmethodiker, geb. 1965 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der das System selbst reparierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – ein Tier, das nicht für sich allein baut, sondern ganze Ökosysteme umgestaltet, von denen viele andere profitieren. John Ioannidis, geboren 1965 in New York, aufgewachsen in Athen, schloss sein Medizinstudium an der Universität Athen 1990 als Jahrgangsbester ab. Statt sich mit einer glänzenden klinischen Karriere zu begnügen, wandte er sich einer Frage zu, die kaum jemand vor ihm ernsthaft gestellt hatte: Wie zuverlässig ist eigentlich die Wissenschaft selbst?</p>
+          <p class="vb-intro">Seine Antwort, der 2005 veröffentlichte Aufsatz „Why Most Published Research Findings Are False", wurde zum meistgelesenen Artikel in der Geschichte der Fachzeitschrift PLOS – über drei Millionen Aufrufe. Kein Biber baut einen einzelnen Damm für sich selbst. Ioannidis baute ein ganzes System zur Selbstkorrektur der Wissenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Aufopferung für die größere Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> nannte Naranjo <em>Sacrifice</em> – Aufopferung: Anders als die selbsterhaltende Sieben, die ihr eigenes Netzwerk und ihre Absicherung im Blick behält, stellt die SO7 ein größeres, idealistisches Anliegen über die eigene Bequemlichkeit und sogar über die eigene Sicherheit. 2014 gründete Ioannidis gemeinsam mit Steven Goodman das Meta-Research Innovation Center (METRICS) an der Stanford University – kein persönliches Prestigeprojekt, sondern eine Institution, die weltweit Netzwerke von Meta-Forschern aufbaut, Politik-Arbeitsgruppen organisiert und ähnliche Zentren in anderen Ländern repliziert, darunter METRIC-Berlin.</p>
+          <p class="vb-intro">Am deutlichsten zeigte sich diese Aufopferungsbereitschaft während der Corona-Pandemie. Als Ioannidis schon im März 2020 öffentlich argumentierte, die tatsächliche Sterblichkeitsrate von Covid-19 könnte deutlich niedriger liegen als die damaligen Schätzungen und manche Lockdown-Maßnahmen überzogen sein, schlug ihm heftiger Gegenwind entgegen – von Kollegen, von Medien, von der Politik. Er hätte schweigen können, um seine tadellose wissenschaftliche Reputation zu schützen. Stattdessen stand er zu seinen Zahlen, verteidigte seine Methodik in öffentlichen Debatten und ließ sich von der politischen Aufladung des Themas nicht beirren. Spätere Metaanalysen bestätigten, dass seine Schätzungen nicht aus der Reihe fielen, sondern im Bereich anderer unabhängiger Studien lagen. Genau das ist die SO7 in ihrer integersten Form: die eigene Position der wissenschaftlichen Sache wegen offen vertreten, auch wenn es persönlich teuer wird.</p>
+          <p class="vb-intro">Diese Haltung – der Wissenschaft verpflichtet, nicht der öffentlichen Meinung oder der eigenen Karriere – ist der Kern dessen, was Ioannidis in dieser Zeit zu einer moralisch integren Stimme machte: Er berief sich konsequent auf Daten und Methodik, nicht auf politische Lager, in einer Zeit, in der viele andere genau das taten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Akribie statt Bauchgefühl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verleiht der sozialen Sieben eine zusätzliche Genauigkeit, ein waches Misstrauen gegenüber vorschnellen Behauptungen und eine Loyalität gegenüber überprüfbaren Fakten statt gegenüber Autoritäten. Ioannidis ist mit über tausend veröffentlichten Fachartikeln und mehr als hunderttausend Zitationen einer der meistzitierten lebenden Wissenschaftler überhaupt – eine schiere Menge an akribischer, methodisch geprüfter Arbeit, die für einen reinen Siebener ohne diesen Flügel kaum vorstellbar wäre.</p>
+          <p class="vb-intro">Der Sechserflügel zeigt sich auch in seiner Grundhaltung: Er misstraut nicht der Wissenschaft an sich, sondern der unkritischen Übernahme einzelner Studienergebnisse – genau die Wachsamkeit, die einen Sechser auszeichnet, hier aber nicht in Furcht, sondern in konstruktive Methodenkritik verwandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Wissenschaft als gemeinsames Bauwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ioannidis von vielen anderen prominenten Wissenschaftlern unterscheidet, ist die Ausrichtung seines gesamten Werks auf das Kollektiv: Er verbessert nicht nur die eigene Forschung, sondern die Regeln, nach denen alle Forschung weltweit funktioniert. METRICS bildet Studierende aus, vernetzt Wissenschaftler über Ländergrenzen hinweg und stellt Werkzeuge bereit, die jeder Forscher nutzen kann. Der Biber baut nicht für sich selbst – er verändert die Landschaft so, dass ein ganzes Ökosystem davon profitiert.</p>
+          <p class="vb-intro">Auch seine frühen Warnungen vor methodischen Schwächen in der Ernährungs-, Genetik- und Neurowissenschaft folgten demselben Muster: nicht Skandalisierung einzelner Studien um der Aufmerksamkeit willen, sondern der beharrliche Versuch, das System als Ganzes verlässlicher zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich bei Ioannidis in seltener Reinform: Er stellte seine wissenschaftliche Integrität konsequent über Beliebtheit, über politische Zustimmung und über die eigene öffentliche Reputation. In einer Zeit, in der viele Wissenschaftler dem gesellschaftlichen Druck nachgaben, hielt er an dem fest, was die Daten tatsächlich zeigten – auch wenn das unbequem war.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt in der Gefahr, sich durch die Fülle an Themen und Projekten zu verzetteln – bei über tausend Publikationen eine reale Versuchung. Doch der Sechserflügel wirkt hier als Korrektiv: Er verhindert das oberflächliche Springen von Thema zu Thema und hält die methodische Sorgfalt aufrecht, die Ioannidis' Lebenswerk erst glaubwürdig macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Mann, der die Wissenschaft an sich selbst maß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">John Ioannidis hat sich nicht damit begnügt, gute Forschung zu betreiben – er hat sich der unbequemeren, wichtigeren Frage gewidmet, ob die Forschung selbst noch das hält, was sie verspricht. Dafür nahm er wiederholt Kritik, Anfeindungen und politischen Gegenwind in Kauf, ohne von seiner methodischen Linie abzuweichen. Der Biber mit Sechserflügel baut nicht das spektakulärste Bauwerk – er baut das, das am längsten hält, weil es auf überprüfbarem Grund steht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+          {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+          {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
