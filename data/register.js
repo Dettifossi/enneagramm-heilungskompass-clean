@@ -882,7 +882,7 @@ export const registerEntries = [
   { term: "Boris Becker",                  route: "beruehmte-boris-becker",                description: "Portrait: SX7w8 · Sexueller Typ 7 · Tennislegende, 6 Grand-Slam-Titel" },
   { term: "Brigitte Bardot",               route: "beruehmte-brigitte-bardot",             description: "Portrait: SX3w2 · Sexueller Typ 3 · Filmikone, Tierrechtsaktivistin" },
   { term: "Iris Berben",                   route: "beruehmte-iris-berben",                 description: "Portrait: SX3w2 · Sexueller Typ 3 · Schauspielerin, Engagement gegen Antisemitismus" },
-  { term: "Linda Evans",                   route: "beruehmte-linda-evans",                 description: "Portrait: SX3w2 · Sexueller Typ 3 · Schauspielerin, Krystle Carrington in Dynasty" },
+  { term: "Linda Evans",                   route: "beruehmte-linda-evans",                 description: "Portrait: SX3w2 · Sexueller Typ 3 · Schauspielerin, Krystle Carrington im Denver-Clan" },
   { term: "Brigitte Bardot Krankheitsporträt", route: "krankheitsportraets-brigitte-bardot", description: "Portrait: SX3w2 · Sexueller Typ 3 · Nie öffentlich benannte Krebserkrankung, chronische Rückenschmerzen" },
   { term: "Anastasiia Metelkina",           route: "beruehmte-anastasiia-metelkina",        description: "Portrait: SX2w3 · Sexueller Typ 2 · Eiskunstläuferin, olympische Medaillengewinnerin für Georgien" },
   { term: "Braco",                         route: "beruehmte-braco",                       description: "Portrait: SX2w3 · Sexueller Typ 2 · stiller Heiler aus Kroatien" },

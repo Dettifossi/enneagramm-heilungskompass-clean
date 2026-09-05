@@ -1757,7 +1757,7 @@ export function lindaEvansPortraitPage() {
         <h2 class="vb-section">1. Der Pfau, der aus Schüchternheit ein Federkleid baute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, dessen Erfolg untrennbar mit persönlicher Anziehungskraft und Wirkung verbunden ist. Linda Evans, 1942 als Linda Evenstad in Hartford, Connecticut, geboren, war als Kind extrem schüchtern. An der Hollywood High School riet ihr die Schulleitung ausgerechnet deshalb zu Schauspielunterricht – als Mittel, um überhaupt Selbstvertrauen aufzubauen.</p>
-          <p class="vb-intro">Aus dieser Schüchternheit heraus formte sich eine der bekanntesten Erscheinungen des amerikanischen Fernsehens: erst als Audra Barkley in „The Big Valley" (1965–1969), dann als Krystle Carrington in „Dynasty" (1981–1989) – eine Rolle, die sie fünfmal in Folge für den Golden Globe nominierte. Kein Pfau wird mit vollem Federkleid geboren – er baut es sich, oft gerade dort, wo am wenigsten davon vorhanden war.</p>
+          <p class="vb-intro">Aus dieser Schüchternheit heraus formte sich eine der bekanntesten Erscheinungen des amerikanischen Fernsehens: erst als Audra Barkley in „The Big Valley" (1965–1969), dann als Krystle Carrington im „Denver-Clan" (im amerikanischen Original „Dynasty", 1981–1989) – eine Rolle, die sie fünfmal in Folge für den Golden Globe nominierte. Kein Pfau wird mit vollem Federkleid geboren – er baut es sich, oft gerade dort, wo am wenigsten davon vorhanden war.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Drei: Wirkung als bewusst erarbeitetes Bild</h2>
@@ -1774,7 +1774,7 @@ export function lindaEvansPortraitPage() {
 
         <h2 class="vb-section">4. Der bewusste Ausstieg aus Hollywood</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Nach dem Ende von „Dynasty" entschied sich Evans bewusst gegen ein Festhalten am Hollywood-Leben und zog in den pazifischen Nordwesten der USA, wo sie sich einer Phase der Selbstfindung widmete. Diese Abkehr von der eigenen ikonischen Rolle, gerade als sie am bekanntesten war, zeigt eine Bereitschaft, die eigene öffentliche Wirkung nicht zum einzigen Lebensinhalt werden zu lassen.</p>
+          <p class="vb-intro">Nach dem Ende vom „Denver-Clan" entschied sich Evans bewusst gegen ein Festhalten am Hollywood-Leben und zog in den pazifischen Nordwesten der USA, wo sie sich einer Phase der Selbstfindung widmete. Diese Abkehr von der eigenen ikonischen Rolle, gerade als sie am bekanntesten war, zeigt eine Bereitschaft, die eigene öffentliche Wirkung nicht zum einzigen Lebensinhalt werden zu lassen.</p>
           <p class="vb-intro">2009 überraschte sie erneut, als sie mit 67 Jahren an der britischen Version von „Hell's Kitchen" teilnahm und die Staffel unter Koch Marco Pierre White gewann – ein später, unerwarteter Beweis dafür, dass sich Wirkung und Können auch jenseits der eigenen bekanntesten Rolle neu zeigen können.</p>
         </blockquote>
 
@@ -1786,7 +1786,7 @@ export function lindaEvansPortraitPage() {
 
         <h2 class="vb-section">6. Die Krystle-Darstellerin, die mehr sein wollte als Krystle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Linda Evans' Weg von der schüchternen Jugendlichen zur international bekanntesten Fernsehschönheit der 1980er Jahre und weiter zu einem bewusst gewählten Leben abseits des Rampenlichts zeigt die sexuelle Drei mit Zweierflügel in ihrer reifsten Form: Anziehungskraft als bewusst gestaltetes Werkzeug, nie als Gefängnis. Der Pfau zeigt sein Rad – aber er weiß auch, wann er es einklappt, um sein eigenes Leben zu leben.</p>
+          <p class="vb-intro">Linda Evans' Weg von der schüchternen Jugendlichen zur international bekanntesten Fernsehschönheit der 1980er Jahre und weiter zu einem bewusst gewählten Leben abseits des Rampenlichts zeigt die sexuelle Drei mit Zweierflügel in ihrer reifsten Form: Anziehungskraft als bewusst gestaltetes Werkzeug, nie als Gefängnis. Der Pfau zeigt sein Rad – aber er weiß auch, wann er es einzieht, um sein eigenes Leben zu leben.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
