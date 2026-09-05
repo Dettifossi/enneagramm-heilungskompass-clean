@@ -1781,7 +1781,7 @@ export function cecilyBrownPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Vollständiges inneres Durchdringen vor dem sichtbaren Werk</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der selbsterhaltenden Vier eine zusätzliche Note intellektueller Durchdringung, bevor überhaupt der erste Pinselstrich sichtbar wird. Browns Werk ist erkennbar von einem tiefen, selbst erarbeiteten Wissen um die Kunstgeschichte durchzogen – von Rubens und Poussin bis de Kooning und den Abstrakten Expressionisten –, das sie in ihre eigene, unverwechselbare Bildsprache übersetzt, statt bloß zu zitieren.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der selbsterhaltenden Vier eine zusätzliche Note intellektueller Durchdringung, bevor überhaupt der erste Pinselstrich sichtbar wird. Browns Werk ist erkennbar von einem tiefen, selbst erarbeiteten Wissen um die Kunstgeschichte durchzogen – von Rubens und Poussin bis de Kooning und den abstrakten Expressionisten –, das sie in ihre eigene, unverwechselbare Bildsprache übersetzt, statt bloß zu zitieren.</p>
           <p class="vb-intro">Diese Verbindung aus emotionaler Tiefe und intellektueller Systematik teilt sie mit Vincent van Gogh (ebenfalls SE4w5), der Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System, dem auch Browns dichte, vielschichtige Bildkompositionen entsprechen.</p>
         </blockquote>
 
