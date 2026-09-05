@@ -1116,6 +1116,7 @@ export function magnusCarlsenPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4) – schlug ihn im Schach"},
       ])}
     </div>

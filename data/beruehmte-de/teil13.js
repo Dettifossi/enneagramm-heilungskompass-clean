@@ -1767,3 +1767,71 @@ export function carolinKebekusPortraitPage() {
     </div>
   `);
 }
+
+export function hermanVanVeenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herman-van-veen-portrait.jpg" alt="Herman van Veen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herman van Veen</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Liedermacher, Kabarettist &amp; Geiger, geb. 1945 in Utrecht &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> steht für die selbsterhaltende Eins &ndash; ein Tier, das nicht laut auftritt, sondern durch Genauigkeit besteht. Er zieht seine Kreise in aller Ruhe, beobachtet lange, bevor er sich zeigt, und verlässt sich mehr auf sein geschultes Auge als auf Imponiergehabe.</p>
+          <p class="vb-intro">Beim niederländischen Liedermacher und Kabarettisten Herman van Veen zeigt sich dieses Bild in einem über sechzig Jahre lang durchgehaltenen Berufsethos: kein Selbstdarsteller, der die große Geste sucht, sondern ein Handwerker der leisen Zwischentöne, der lieber genau bleibt, als effektvoll zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als eigener Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht in erster Linie auf die Korrektur der Welt, sondern nach innen: auf die eigene Vorbereitung, das eigene Handwerk, die eigene Integrität. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; eine ständige, leise Sorge, dem eigenen Maßstab nicht zu genügen.</p>
+          <p class="vb-intro">Van Veens Ausbildung war alles andere als beiläufig: Geigen- und Gesangsunterricht schon als Kind, ein vollständiges Konservatoriumsstudium in Geige, Gesang und Musikpädagogik. Aus dieser Disziplin entstand ein Werk von mehr als 140 Alben und Programmen, in dem Text, Melodie und Vortrag bis ins letzte Detail durchgearbeitet sind &ndash; kein Ergebnis spontaner Eingebung, sondern jahrzehntelanger handwerklicher Sorgfalt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Milde hinter dem Ernst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert die strenge Einser-Energie: Er bringt eine versöhnliche, in sich ruhende Grundhaltung mit, die eher vermittelt als konfrontiert, eher erzählt als anklagt. Die Bühnenfigur des Clowns oder Poeten, wie van Veen sie über Jahrzehnte verkörperte, ist genau diese Mischung &ndash; Ernst, der sich hinter Sanftheit verbirgt, statt sich lautstark durchzusetzen.</p>
+          <p class="vb-intro">Sein jahrzehntelanges Engagement für Kinderrechte, unter anderem als langjähriger UNICEF-Botschafter, trägt denselben Ton: nicht das fordernde Zugehen auf Menschen, das der Zweierflügel mitbringen würde, sondern eine geduldige, gleichmütige Beharrlichkeit, die einfach immer weitermacht, ohne sich selbst in den Vordergrund zu stellen. Auch seine politischen Lieder gegen atomares Wettrüsten und für die Überwindung der deutschen Teilung wirken nie wie Kampfansagen, sondern wie leise, aber unbeirrbare Erinnerungen an das Richtige.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Der Poet zwischen den Sprachen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Van Veen wurde vor allem im deutschsprachigen Raum zu einer festen Größe des Chansons und Kabaretts, mit Programmen, die zwischen Niederländisch, Deutsch und Englisch wechselten, ohne an Genauigkeit zu verlieren. Seine Lieder verbinden Situationskomik mit unvermittelter Melancholie &ndash; oft im selben Stück, manchmal im selben Satz.</p>
+          <p class="vb-intro">Auch als Sprecher der Zeichentrickfigur Alfred J. Kwak, einer Ente, die gegen Diktatur und Ungerechtigkeit aufbegehrt, blieb er sich treu: eine kindgerechte Form für einen im Kern moralischen Ernst, verpackt in Wärme statt in Belehrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 liegt in der Verbindung von hohem handwerklichem Anspruch mit einer Sanftheit, die niemanden bedrängt. Van Veens jahrzehntelange Konstanz &ndash; ein Werk, das über ein halbes Jahrhundert trägt, ohne sich selbst zu wiederholen &ndash; zeigt diese Seite deutlich.</p>
+          <p class="vb-intro">Der Schatten der Eins ist der nach innen gewendete <strong>Zorn</strong>, der sich bei der SE1 als chronische Unzufriedenheit mit der eigenen Arbeit äußert, und der Rückzug, den der Neunerflügel begünstigt, wenn aus Gleichmut Konfliktvermeidung wird. Ein Künstler, der lieber vermittelt als anklagt, läuft Gefahr, dort zu schweigen, wo klare Kante nötig wäre &ndash; die eigene Sanftheit kann so zur Ausrede werden, sich selbst nicht zu exponieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Richter zur Gelassenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom inneren Richter zur Gelassenheit &ndash; von der Frage <em>Ist es makellos?</em> zur Erkenntnis <em>Es ist gut genug, wie es ist.</em> Für die SE1w9 bedeutet das, die eigene Milde nicht als Ausweichen zu nutzen, sondern als das zu leben, was sie im Kern ist: die Fähigkeit, hohe Ansprüche ohne Härte zu vertreten.</p>
+          <p class="vb-intro">Van Veens Lebenswerk liest sich als genau dieser Weg: sechs Jahrzehnte lang unbeirrbar am eigenen Anspruch festhalten, ohne dabei laut oder hart zu werden. Der Adler muss nicht schreien, um gehört zu werden &ndash; er muss nur seine Kreise weiterziehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Porträt: Armin Mueller-Stahl (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

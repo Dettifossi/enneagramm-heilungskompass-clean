@@ -1414,6 +1414,7 @@ export function stingPortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portr\u00e4t: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portr\u00e4t: Magnus Carlsen (SE1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portr\u00e4t: Ludwig Wittgenstein (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portr\u00e4t: Herman van Veen (SE1w9)"},
       ])}
     </div>
   `);

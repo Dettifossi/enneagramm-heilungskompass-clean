@@ -456,6 +456,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robert De Niro – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1943 in New York City. Actor and producer, two Oscars ('The Godfather Part II', 'Raging Bull'), longtime collaborator of Martin Scorsese. Truth as craft, stillness as second nature. Animal correspondence: Eagle.",
     land:"USA", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-herman-van-veen", name:"Herman van Veen", added:"2026-09-06", subtyp:"SE1w9",
+    heading:"Herman van Veen – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1945 in Utrecht. Singer-songwriter, cabaret artist and violinist, over 140 albums, longtime UNICEF ambassador for children's rights. Craftsmanlike precision behind a gentle, conciliatory stage persona. Animal correspondence: Eagle.",
+    land:"Netherlands", tags:["Music","Cabaret"] , gender:"m"},
 { route:"beruehmte-sting", name:"Sting", subtyp:"SE1w9",
     heading:"Sting – Self-Preservation Type 1",
     teaser:"SP1w9 · “The Eagle”, born 1951. Singer, bassist, composer. The Police and an unparalleled solo career – from jazz to lute, from Shakespeare to the Rainforest Foundation. Craft as conscience, stillness as second nature. Animal correspondence: Eagle.",
@@ -34540,6 +34544,7 @@ function stingPortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
       ])}
     </div>
   `);
@@ -34603,6 +34608,7 @@ function arminMuellerStahlPortraitPage() {
           {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
           {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – also a German actor"},
           {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+          {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         ])}
       </div>
     </div>
@@ -34674,6 +34680,74 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function hermanVanVeenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herman-van-veen-portrait.jpg" alt="Herman van Veen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herman van Veen</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Singer-songwriter, cabaret artist &amp; violinist, born 1945 in Utrecht &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> represents the self-preservation One &ndash; an animal that does not appear loudly but holds its ground through precision. It circles calmly, observes for a long time before showing itself, and relies more on its trained eye than on display.</p>
+          <p class="vb-intro">In the Dutch singer-songwriter and cabaret artist Herman van Veen, this image shows in a professional ethos sustained for more than sixty years: no self-promoter chasing the grand gesture, but a craftsman of quiet nuance who would rather stay accurate than be effective.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Perfection as a Standard for Oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its striving for perfection not primarily at correcting the world, but inward: at its own preparation, its own craft, its own integrity. Naranjo called this subtype <em>Worry</em> &ndash; a constant, quiet concern about failing to meet one's own standard.</p>
+          <p class="vb-intro">Van Veen's training was anything but casual: violin and voice lessons as a child, a complete conservatory education in violin, voice, and music pedagogy. From this discipline grew a body of work of more than 140 albums and programs in which text, melody, and delivery are worked through down to the last detail &ndash; not the result of spontaneous inspiration, but of decades of craftsmanlike care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Gentleness Behind the Seriousness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the strict One energy: it brings a conciliatory, self-contained disposition that mediates rather than confronts, that narrates rather than accuses. The stage persona of the clown or poet that van Veen embodied for decades is exactly this mixture &ndash; seriousness hidden behind gentleness, rather than asserted loudly.</p>
+          <p class="vb-intro">His decades-long commitment to children's rights, including many years as a UNICEF ambassador, carries the same tone: not the demanding, direct approach a Two-wing would bring, but a patient, even-tempered persistence that simply keeps going without pushing itself into the foreground. His political songs against the nuclear arms race and for overcoming the German division likewise never read as calls to battle, but as quiet, unwavering reminders of what is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: The Poet Between Languages</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Van Veen became a fixture of chanson and cabaret especially in German-speaking countries, with programs that moved between Dutch, German, and English without losing precision. His songs combine situational comedy with unmediated melancholy &ndash; often in the same piece, sometimes in the same sentence.</p>
+          <p class="vb-intro">Even as the voice of the animated character Alfred J. Kwak, a duck who rebels against dictatorship and injustice, he stayed true to himself: a child-friendly form for a moral seriousness at its core, wrapped in warmth rather than instruction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 lies in combining high craftsmanlike standards with a gentleness that pressures no one. Van Veen's decades of consistency &ndash; a body of work spanning over half a century without repeating itself &ndash; shows this side clearly.</p>
+          <p class="vb-intro">The shadow of the One is <strong>anger</strong> turned inward, which in the SP1 shows as chronic dissatisfaction with one's own work, and the withdrawal the Nine-wing favors when even-temperedness turns into conflict avoidance. An artist who prefers to mediate rather than accuse risks staying silent exactly where a clear stance would be needed &ndash; one's own gentleness can become an excuse not to expose oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path of Healing: From the Judge to Serenity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from the inner judge to serenity &ndash; from the question <em>Is it flawless?</em> to the recognition <em>It is good enough as it is.</em> For the SP1w9 this means no longer using one's own gentleness as a way to avoid, but living it as what it is at its core: the ability to hold high standards without harshness.</p>
+          <p class="vb-intro">Van Veen's life's work reads as exactly this path: six decades of unwavering fidelity to his own standard, without ever becoming loud or hard. The Eagle does not need to scream to be heard &ndash; it only needs to keep circling.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+        {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SP1w9)"},
       ])}
     </div>
   `);
@@ -34933,6 +35007,7 @@ function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – co-star in 'The Silence of the Lambs'"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9) – alcoholism and sobriety since 1975"},
       ])}
@@ -35001,6 +35076,7 @@ function magnusCarlsenPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SP1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – defeated him in chess"},
       ])}
     </div>
@@ -56093,7 +56169,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -56108,7 +56184,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life; Armin Mueller-Stahl, who after the professional ban following the Biermann Resolution and his emigration in 1980 started over in the West and, across decades, worked in parallel as an actor, painter, musician, and writer, applying the same uncompromising standard to himself in every craft."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life; Armin Mueller-Stahl, who after the professional ban following the Biermann Resolution and his emigration in 1980 started over in the West and, across decades, worked in parallel as an actor, painter, musician, and writer, applying the same uncompromising standard to himself in every craft.; Herman van Veen, whose body of work spans more than sixty years and over 140 albums, built on no single breakthrough but on steady, unremarkable consistency – the same care in program number 140 as in the first."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -115679,6 +115755,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
       "beruehmte-anthony-hopkins": anthonyHopkinsPortraitPage,

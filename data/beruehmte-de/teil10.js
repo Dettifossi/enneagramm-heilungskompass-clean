@@ -130,6 +130,7 @@ export function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Hauptdarstellerin in ›Das Schweigen der Lämmer‹"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Krankheitsporträt: Anthony Hopkins (SE1w9) – Alkoholerkrankung und Nüchternheit seit 1975"},
       ])}
@@ -1770,6 +1771,7 @@ export function arminMuellerStahlPortraitPage() {
           {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
           {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – ebenfalls deutscher Schauspieler"},
           {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+          {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         ])}
       </div>
     </div>
