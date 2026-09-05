@@ -1317,6 +1317,7 @@ export function rangaYogeshwarPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1) – ebenfalls SO2w1"},
       ])}
     </div>
   `);

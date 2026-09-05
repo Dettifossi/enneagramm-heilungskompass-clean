@@ -1755,7 +1755,7 @@ export function alexanderGerstPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-gerst-portrait.jpg" alt="Alexander Gerst – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alexander Gerst</p>
-        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Astronaut, geb. 1976 &ndash; Tierentsprechung: Golden Retriever</p>
       </div>
       <div class="page-content">
@@ -1772,10 +1772,10 @@ export function alexanderGerstPortraitPage() {
           <p class="vb-intro">Seine zahlreichen Schulprojekte und Videobotschaften an Kinder aus dem All – etwa Antworten auf eingesendete Fragen direkt aus der Raumstation – zeigen dieselbe Grundhaltung, die der Lebensmusterkompass bei Ranga Yogeshwar beschreibt: nie an eine einzelne Zielgruppe gedacht, sondern an ein möglichst breites Publikum, dem komplexes Wissen verständlich gemacht werden soll.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Dreierflügel: Leistung und öffentliche Wirkung als Vehikel der Verbindung</h2>
+        <h2 class="vb-section">3. Der Einserflügel: Wissenschaftliche Genauigkeit und moralischer Ernst</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel</strong> verleiht der sozialen Zwei eine zusätzliche Note von Ehrgeiz, Zielstrebigkeit und dem geschickten Gespür dafür, wie eine Botschaft am wirkungsvollsten ankommt. Gersts jahrelanger, hochkompetitiver Auswahlprozess zum ESA-Astronauten, sein Doktortitel in Geophysik und sein strategisch kluger Umgang mit Medien und Öffentlichkeitsarbeit zeigen diesen Leistungsanteil deutlich.</p>
-          <p class="vb-intro">Das teilt er mit Mira Murati (ebenfalls SO2w3), deren erste Amtshandlung als OpenAI-Interims-CEO die Mobilisierung eines ganzen Netzwerks für eine gemeinsame Sache war, nicht die Sicherung der eigenen Position: Bei beiden dient der Dreier-Ehrgeiz nicht der Selbstinszenierung um ihrer selbst willen, sondern macht die Botschaft an die Gemeinschaft erst wirkungsvoll.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine innere Achse aus Sorgfalt und dem Bedürfnis, nur fundiert Belegbares weiterzugeben. Bei Gerst zeigt sich das in seinem promovierten geophysikalischen Hintergrund und in der Genauigkeit, mit der er komplexe wissenschaftliche Experimente an Bord der ISS – etwa zu Materialforschung oder Erdbeobachtung – der Öffentlichkeit korrekt und ohne populistische Vereinfachung erklärte.</p>
+          <p class="vb-intro">Das teilt er mit Ranga Yogeshwar (ebenfalls SO2w1): Bei beiden reicht es nicht, komplizierte Sachverhalte nur verständlich zu machen – sie werden zugleich moralisch eingeordnet, etwa wenn Gerst den „Overview-Effekt" nutzt, um auf die Verletzlichkeit des Planeten und die gemeinsame Verantwortung aller Menschen hinzuweisen. Wissenschaftskommunikation wird so zur ethischen Aufgabe, nicht nur zur didaktischen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Blick von oben als Botschaft an die ganze Menschheit</h2>
@@ -1786,13 +1786,13 @@ export function alexanderGerstPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in Gersts Fähigkeit, ein technisch komplexes, oft distanziert wahrgenommenes Feld wie die Raumfahrt einem breiten Publikum emotional zugänglich zu machen, ohne dabei an fachlicher Substanz zu verlieren.</p>
+          <p class="vb-intro">Das Licht der SO2w1 zeigt sich in Gersts Fähigkeit, ein technisch komplexes, oft distanziert wahrgenommenes Feld wie die Raumfahrt einem breiten Publikum emotional zugänglich zu machen, ohne dabei an fachlicher Substanz zu verlieren.</p>
           <p class="vb-intro">Der Schatten der sozialen Zwei zeigt sich dort, wo die eigene Bedeutung stark an die Reichweite der eigenen Botschaft gekoppelt bleibt – der Drang, im Namen einer großen Sache sichtbar zu sein, kann leicht in eine Erschöpfung münden, wenn die öffentliche Rolle nie pausiert, ein Risiko, das lange Raumflüge mit ständiger medialer Begleitung zusätzlich verschärfen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Astronaut, der die Erde nie aus den Augen verlor</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Alexander Gersts Karriere zeigt die soziale Zwei mit Dreierflügel in einer ihrer seltensten Formen: technische Exzellenz, gepaart mit dem beharrlichen Wunsch, niemanden bei der eigenen Erfahrung außen vor zu lassen. Der Golden Retriever kreist nicht für sich allein um die Erde – er will, dass alle mitschauen.</p>
+          <p class="vb-intro">Alexander Gersts Karriere zeigt die soziale Zwei mit Einserflügel in einer ihrer seltensten Formen: technische und wissenschaftliche Exzellenz, gepaart mit dem beharrlichen Wunsch, niemanden bei der eigenen Erfahrung außen vor zu lassen. Der Golden Retriever kreist nicht für sich allein um die Erde – er will, dass alle mitschauen.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -1801,8 +1801,8 @@ export function alexanderGerstPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
-          {route:"beruehmte-mira-murati", label:"Porträt: Mira Murati (SO2w3) – ebenfalls SO2w3"},
-          {route:"beruehmte-benjamin-disraeli", label:"Porträt: Benjamin Disraeli (SO2w3)"},
+          {route:"beruehmte-ranga-yogeshwar", label:"Porträt: Ranga Yogeshwar (SO2w1) – ebenfalls SO2w1"},
+          {route:"beruehmte-muhammad-ali", label:"Porträt: Muhammad Ali (SO2w1)"},
         ])}
       </div>
     </div>

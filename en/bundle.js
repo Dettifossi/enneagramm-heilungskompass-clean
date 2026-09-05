@@ -889,9 +889,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mira Murati – Social Type 2",
     teaser:"SO2w3 · born 1988. Albanian-American technology executive, former CTO of OpenAI, founder of Thinking Machines Lab. Three days as interim CEO during the 2023 Altman crisis – indispensability without the spotlight. Animal correspondence: Golden Retriever.",
     land:"Albania/USA", tags:["Business","Wissenschaft"], gender:"f"},
-{ route:"beruehmte-alexander-gerst", name:"Alexander Gerst", added:"2026-09-05", subtyp:"SO2w3",
+{ route:"beruehmte-alexander-gerst", name:"Alexander Gerst", added:"2026-09-05", subtyp:"SO2w1",
     heading:"Alexander Gerst – Social Type 2",
-    teaser:"SO2w3 · born 1976. German geophysicist and ESA astronaut, first German ISS commander in 2018. Over 360 days in space, spaceflight as a shared experience for a millions-strong audience rather than expert knowledge. Animal correspondence: Golden Retriever.",
+    teaser:"SO2w1 · born 1976. German geophysicist and ESA astronaut, first German ISS commander in 2018. Over 360 days in space, spaceflight as a shared experience for a millions-strong audience rather than expert knowledge. Animal correspondence: Golden Retriever.",
     land:"Germany", tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-indila", name:"Indila", added:"2026-08-29", subtyp:"SO2w3",
     heading:"Indila – Social Type 2",
@@ -33789,7 +33789,7 @@ function alexanderGerstPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-gerst-portrait.jpg" alt="Alexander Gerst – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Alexander Gerst</p>
-        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with a One-Wing</p>
         <p class="krim-portrait-subtitle">Astronaut, b. 1976 &ndash; Animal correspondence: Golden Retriever</p>
       </div>
       <div class="page-content">
@@ -33806,10 +33806,10 @@ function alexanderGerstPortraitPage() {
           <p class="vb-intro">His numerous school projects and video messages to children from space – answering submitted questions directly from the station – show the same basic stance the life-pattern compass describes for Ranga Yogeshwar: never thinking of a single target group, but of as broad a public as possible, to whom complex knowledge should be made understandable.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Three-wing: achievement and public impact as vehicles of connection</h2>
+        <h2 class="vb-section">3. The One-wing: scientific rigor and moral seriousness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing</strong> gives the social Two an additional note of ambition, drive, and a skillful sense of how a message lands most effectively. Gerst's years-long, highly competitive selection process to become an ESA astronaut, his doctorate in geophysics, and his strategically savvy handling of media and public relations show this achievement-oriented component clearly.</p>
-          <p class="vb-intro">He shares this with Mira Murati (also SO2w3), whose first act as OpenAI's interim CEO was mobilizing an entire network for a shared cause, not securing her own position: in both, the Three's ambition doesn't serve self-promotion for its own sake, but makes the message to the community effective in the first place.</p>
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an inner axis of diligence and a need to pass on only what is well substantiated. In Gerst this shows in his doctorate in geophysics and in the precision with which he explained complex scientific experiments aboard the ISS – on materials research or Earth observation, for instance – to the public correctly and without populist simplification.</p>
+          <p class="vb-intro">He shares this with Ranga Yogeshwar (also SO2w1): for both, it is not enough to merely make complicated matters understandable – they are placed in a moral context at the same time, for instance when Gerst uses the "overview effect" to point to the planet's vulnerability and the shared responsibility of all people. Science communication thereby becomes an ethical task, not merely a didactic one.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The view from above as a message to all of humanity</h2>
@@ -33820,13 +33820,13 @@ function alexanderGerstPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO2w3 shows in Gerst's ability to make a technically complex, often distantly perceived field like spaceflight emotionally accessible to a broad public without losing technical substance.</p>
+          <p class="vb-intro">The light of the SO2w1 shows in Gerst's ability to make a technically complex, often distantly perceived field like spaceflight emotionally accessible to a broad public without losing technical substance.</p>
           <p class="vb-intro">The shadow of the social Two shows where one's own significance remains strongly tied to the reach of one's own message – the urge to be visible in the name of a great cause can easily lead to exhaustion when the public role never pauses, a risk that long spaceflights with constant media accompaniment intensify further.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The astronaut who never lost sight of Earth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Alexander Gerst's career shows the social Two with a Three-wing in one of its rarest forms: technical excellence paired with the persistent wish to leave no one out of his own experience. The Golden Retriever doesn't orbit Earth alone for its own sake – it wants everyone watching along.</p>
+          <p class="vb-intro">Alexander Gerst's career shows the social Two with a One-wing in one of its rarest forms: technical and scientific excellence paired with the persistent wish to leave no one out of his own experience. The Golden Retriever doesn't orbit Earth alone for its own sake – it wants everyone watching along.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
@@ -33835,8 +33835,8 @@ function alexanderGerstPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-          {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3) – also SO2w3"},
-          {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
+          {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1) – also SO2w1"},
+          {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
         ])}
       </div>
     </div>
@@ -33907,7 +33907,6 @@ function benjaminDisraeliPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
-        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w3)"},
       ])}
     </div>
   `);
@@ -47480,6 +47479,7 @@ function muhammadAliPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
         {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
@@ -47778,6 +47778,7 @@ function rangaYogeshwarPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-douglas-rushkoff", label:"Portrait: Douglas Rushkoff (SO2w1)"},
         {route:"beruehmte-katharina-tempel", label:"Portrait: Dr. Katharina Tempel (SO2w1)"},
+        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1) – also SO2w1"},
       ])}
     </div>
   `);
@@ -49015,7 +49016,6 @@ function miraMuratiPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
-        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w3)"},
       ])}
     </div>
   `);
