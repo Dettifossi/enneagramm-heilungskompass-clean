@@ -1751,3 +1751,67 @@ export function giorgiaMeloniPortraitPage() {
     </div>
   `);
 }
+
+export function cecilyBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cecily-brown-portrait.jpg" alt="Cecily Brown – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cecily Brown</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Malerin, geb. 1969 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die still trägt, was sie sieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typs 4 – ein tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still und beharrlich getragen wird. Cecily Brown, britische Malerin und Tochter der Kunstkritikerin Shena Mackay, gilt als eine der bedeutendsten figurativen Malerinnen ihrer Generation, deren Werke in Museen wie dem MoMA und der Tate vertreten sind.</p>
+          <p class="vb-intro">Anders als viele ihrer Zeitgenossen sucht Brown selten das öffentliche Rampenlicht – Interviews sind rar, ihr Privatleben bleibt bewusst im Hintergrund. Ihre Bilder selbst, oft dicht verwobene, halb erkennbare Körperlandschaften zwischen Figuration und Abstraktion, tragen die eigentliche emotionale Wucht, nicht ihre öffentliche Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe ohne Zurschaustellung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> verarbeitet inneren Schmerz und innere Tiefe in stiller, oft jahrzehntelanger Beharrlichkeit, ohne Applaus für das eigene Ringen zu suchen. Bei Brown zeigt sich das darin, dass sie seit den 1990er-Jahren kontinuierlich malt, ohne ihre Karriere über mediale Selbstinszenierung, sondern einzig über die Dichte und Qualität des Werks selbst voranzutreiben.</p>
+          <p class="vb-intro">Das teilt sie mit Sally Rooney (ebenfalls SE4w5), die ihre Romane auf einem durchdachten theoretischen Gerüst aufbaut, statt auf öffentliche Selbstdarstellung zu setzen: Beide lassen das Werk sprechen, nicht die eigene Bühnenpräsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Vollständiges inneres Durchdringen vor dem sichtbaren Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der selbsterhaltenden Vier eine zusätzliche Note intellektueller Durchdringung, bevor überhaupt der erste Pinselstrich sichtbar wird. Browns Werk ist erkennbar von einem tiefen, selbst erarbeiteten Wissen um die Kunstgeschichte durchzogen – von Rubens und Poussin bis de Kooning und den Abstrakten Expressionisten –, das sie in ihre eigene, unverwechselbare Bildsprache übersetzt, statt bloß zu zitieren.</p>
+          <p class="vb-intro">Diese Verbindung aus emotionaler Tiefe und intellektueller Systematik teilt sie mit Vincent van Gogh (ebenfalls SE4w5), der Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System, dem auch Browns dichte, vielschichtige Bildkompositionen entsprechen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Zähigkeit trotz Verletzlichkeit im eigenen Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown arbeitet an einzelnen Großformaten häufig über Monate, überarbeitet, übermalt, verwirft – ein zäher, oft mühsamer Prozess, der von außen kaum sichtbar ist, bis das fertige Werk in der Galerie hängt. Diese beharrliche, wenig glamouröse Arbeitsweise steht im deutlichen Kontrast zur oft chaotisch-ekstatisch wirkenden Bildoberfläche ihrer Gemälde.</p>
+          <p class="vb-intro">Genau dieser Kontrast – äußerlich kontrolliert und zurückhaltend, im Werk selbst ungezügelt und intensiv – ist die Signatur der SE4: die zarte, empfindsame Erscheinung täuscht über eine erhebliche innere Ausdauer hinweg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Browns Fähigkeit, große kunsthistorische Traditionen vollständig zu durchdringen und daraus etwas völlig Eigenständiges zu formen, ohne dass der intellektuelle Unterbau die emotionale Kraft der Bilder schmälert.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Vier zeigt sich in der Zurückhaltung selbst: Wer die eigene Tiefe nie öffentlich verhandelt, riskiert, dass das Werk missverstanden oder auf seine oberflächlich wahrgenommene erotische Aufladung reduziert wird, statt in seiner eigentlichen kunsthistorischen und emotionalen Komplexität gesehen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Malerin, die das Werk für sich sprechen lässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cecily Browns Laufbahn zeigt die selbsterhaltende Vier mit Fünferflügel in einer ihrer konzentriertesten Formen: jahrzehntelange, unspektakulär öffentlich gelebte, aber intellektuell und emotional außerordentlich dichte Arbeit an einem eigenständigen malerischen Werk. Die Taube trägt ihre Last leise – und lässt am Ende nur das Bild sprechen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – ebenfalls Maler, derselbe Subtyp"},
+          {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

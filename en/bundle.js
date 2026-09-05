@@ -1345,6 +1345,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Virginia Woolf – Self-Preservation Type 4",
     teaser:"SE4w5 · 1882–1941. British writer, co-founder of the Bloomsbury Group, invented the stream-of-consciousness technique as a literary form of her own. Self-taught, marked throughout her life by severe depressive episodes, founded the Hogarth Press with her husband Leonard. Animal correspondence: Dove.",
     land:"United Kingdom", tags:["Literature"], gender:"f"},
+{ route:"beruehmte-cecily-brown", name:"Cecily Brown", added:"2026-09-05", subtyp:"SE4w5",
+    heading:"Cecily Brown – Self-Preservation Type 4",
+    teaser:"SE4w5 · born 1969. British painter, works held at MoMA and the Tate. Dense, half-recognizable landscapes of bodies between figuration and abstraction, deeply rooted in art history. Media-shy, consistently lets the work speak rather than her own persona. Animal correspondence: Dove.",
+    land:"United Kingdom", tags:["Kunst"], gender:"f"},
 { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Self-Preservation Type 4",
     teaser:"SE4w5 · 1864–1936. Spanish philosopher and writer, rector of the University of Salamanca. Lifelong struggle with his own mortality in \"Tragic Sense of Life,\" inventor of the \"nivola.\" Famous confrontation with General Millán-Astray in 1936, removal from office and house arrest until his death. Animal correspondence: Dove.",
@@ -26164,6 +26168,71 @@ function ludwigGoeranssonPortraitPage() {
   `);
 }
 
+function cecilyBrownPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cecily-brown-portrait.jpg" alt="Cecily Brown – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cecily Brown</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Painter, b. 1969 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove that quietly carries what it sees</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Type 4 – a deep inner life that isn't put on public display, but carried quietly and persistently. Cecily Brown, a British painter and daughter of art critic Shena Mackay, is regarded as one of the most significant figurative painters of her generation, with works held in museums such as MoMA and the Tate.</p>
+          <p class="vb-intro">Unlike many of her contemporaries, Brown rarely seeks the public spotlight – interviews are rare, and her private life stays deliberately in the background. Her paintings themselves, often densely interwoven, half-recognizable landscapes of bodies between figuration and abstraction, carry the actual emotional weight, not her public persona.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: depth without display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> processes inner pain and inner depth in quiet, often decades-long persistence, without seeking applause for its own struggle. In Brown this shows in the fact that she has been painting continuously since the 1990s, advancing her career not through media self-promotion but solely through the density and quality of the work itself.</p>
+          <p class="vb-intro">She shares this with Sally Rooney (also SP4w5), who builds her novels on a carefully considered theoretical framework rather than relying on public self-presentation: both let the work speak, not their own stage presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: complete inner penetration before the visible work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the self-preservation Four an additional note of intellectual penetration before the first visible brushstroke even appears. Brown's work is visibly threaded through with a deep, self-acquired knowledge of art history – from Rubens and Poussin to de Kooning and the Abstract Expressionists – which she translates into her own, unmistakable visual language rather than merely quoting it.</p>
+          <p class="vb-intro">She shares this combination of emotional depth and intellectual system with Vincent van Gogh (also SP4w5), who studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years, which Brown's dense, multilayered compositions likewise embody.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Tenacity despite vulnerability in one's own craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brown often works on individual large-format paintings for months, reworking, overpainting, discarding – a tenacious, often laborious process that is barely visible from the outside until the finished work hangs in the gallery. This persistent, far from glamorous way of working stands in clear contrast to the often chaotic, ecstatic-seeming surface of her paintings.</p>
+          <p class="vb-intro">This exact contrast – outwardly controlled and reserved, unrestrained and intense within the work itself – is the signature of the SP4: the delicate, sensitive appearance conceals considerable inner endurance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in Brown's ability to fully absorb great art-historical traditions and shape something entirely her own from them, without the intellectual foundation diminishing the emotional force of the paintings.</p>
+          <p class="vb-intro">The shadow of the self-preservation Four shows in the reticence itself: someone who never publicly negotiates her own depth risks having the work misunderstood or reduced to its superficially perceived erotic charge, rather than being seen in its actual art-historical and emotional complexity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The painter who lets the work speak for itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cecily Brown's career shows the self-preservation Four with a Five-wing in one of its most concentrated forms: decades of unspectacularly public, yet intellectually and emotionally extraordinarily dense work on an independent body of painting. The dove carries its burden quietly – and in the end lets only the picture speak.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+          {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – also a painter, same subtype"},
+          {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function sallyRooneyPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26225,6 +26294,7 @@ function sallyRooneyPortraitPage() {
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SP4w5)"},
+        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w5)"},
       ])}
     </div>
   `);
@@ -26423,6 +26493,7 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
+        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w5) – also a painter, same subtype"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
       ])}
     </div>
@@ -53857,7 +53928,7 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney", "Cecily Brown"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
@@ -53872,7 +53943,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Complete inner processing before stepping outward",
         beschreibung: "Before anything becomes visible – a work, a stance, a decision – it is first fully lived through, observed, and processed inwardly. No spontaneous action, but a conscious landing only once the inner process is complete.",
-        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer; Peter Gabriel, whose self-designed stage figures – from the fox's head to the Slipperman – were always worked out entirely alone before appearing on stage without warning, and who regularly let four to ten years pass between solo albums because individual tracks were discarded and rebuilt again and again until they fully matched his inner image; Sally Rooney, who trained a sharp analytical thought system as a competitive debater, builds her novels on a deliberate theoretical scaffold, and turns specifically to philosophical works when stuck, seeking a way to finish a novel rather than simply writing on."
+        beleg: "Karoline Herfurth: 'This dove doesn't land right away. It circles first. It observes, takes in, carries inwardly what it has seen – and then lands exactly where it's needed'; Leo Tolstoy's lifelong diary ritual of 'unsparing self-observation,' which became 'the foundation of his entire literary work'; Vincent van Gogh, who as a self-taught artist copied hundreds of Millet's works, built himself a wooden perspective frame, and studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years; Cecily Brown, whose dense, multilayered compositions are visibly threaded through with self-acquired knowledge of Rubens, Poussin, and the Abstract Expressionists, translated into a visual language entirely her own rather than mere quotation; Miguel de Unamuno, who largely taught himself German, Danish, and other languages in order to read Kierkegaard and Hegel in the original, and who never answered his lifelong question about his own mortality too quickly, but kept rethinking it in dozens of books, without ever claiming a final answer; Peter Gabriel, whose self-designed stage figures – from the fox's head to the Slipperman – were always worked out entirely alone before appearing on stage without warning, and who regularly let four to ten years pass between solo albums because individual tracks were discarded and rebuilt again and again until they fully matched his inner image; Sally Rooney, who trained a sharp analytical thought system as a competitive debater, builds her novels on a deliberate theoretical scaffold, and turns specifically to philosophical works when stuck, seeking a way to finish a novel rather than simply writing on."
       },
       {
         titel: "When the inner burden overwhelms – from radical self-assertion to self-dissolution (shadow form)",
@@ -113717,6 +113788,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
       "beruehmte-sally-rooney": sallyRooneyPortraitPage,
       "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
+      "beruehmte-cecily-brown": cecilyBrownPortraitPage,
       "beruehmte-miguel-de-unamuno": miguelDeUnamunoPortraitPage,
       "beruehmte-ludwig-goeransson": ludwigGoeranssonPortraitPage,
       "beruehmte-charlotte-wells": charlotteWellsPortraitPage,
