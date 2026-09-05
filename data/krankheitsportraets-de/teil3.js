@@ -4881,3 +4881,161 @@ export function paulGauguinKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function trumanCapoteKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-truman-capote-portrait.jpg" alt="Truman Capote – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Truman Capote</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel · 1924–1984</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Tierentsprechung: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Truman Capote</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-truman-capote">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Schriftsteller. Im Vordergrund dieser
+        Seite steht sein gesundheitlicher Verfall in den letzten rund zehn Lebensjahren: chronischer Alkohol-
+        und Medikamentenmissbrauch, der sich nach der Veröffentlichung eines Kapitels aus seinem unvollendeten
+        Roman ›Erhörte Gebete‹ 1975/76 dramatisch verschärfte. Capote starb 1984 im Alter von 59 Jahren an den
+        Folgen einer Leberkrankheit, mitverursacht durch eine Kombination mehrerer Medikamente und Alkohol.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Capote</strong> ist dem <strong>sozialen Typ 2 mit Dreierflügel</strong> zugeordnet. Die soziale
+        Zwei sucht Zugehörigkeit und Bedeutung durch enge Bindung an eine Gemeinschaft – bei Capote der
+        exklusive Kreis wohlhabender New Yorker Society-Frauen, die er selbst seine ›Schwäne‹ nannte. Der
+        Dreierflügel bringt Ehrgeiz und ein Gespür für öffentliche Wirkung hinzu. Genau dieser Kreis wurde ihm
+        zum Verhängnis, als er ihn literarisch verriet – und der Verlust dieser Zugehörigkeit fiel zeitlich fast
+        exakt mit dem Beginn seines massiven körperlichen Verfalls zusammen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Alkoholkonsum bereits in den 1960er-Jahren:</strong>
+        Schon während der jahrelangen Recherche zu ›Kaltblütig‹ (1959–1965) trank Capote nach eigenen und
+        fremden Berichten regelmäßig erheblich, um mit der emotionalen Belastung der Recherche umzugehen.</p>
+        <p class="vb-intro"><strong>b) Zunehmender Tablettenkonsum:</strong>
+        In den frühen 1970er-Jahren kamen verschreibungspflichtige Beruhigungs- und Schlafmittel hinzu, die er
+        zunehmend mit Alkohol kombinierte.</p>
+        <p class="vb-intro"><strong>c) Erste sichtbare Ausfälle in der Öffentlichkeit:</strong>
+        Bereits Mitte der 1970er-Jahre häuften sich öffentliche Auftritte, bei denen Capote sichtbar
+        alkoholisiert oder unter Medikamenteneinfluss wirkte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Bruch mit den ›Schwänen‹ 1975/76:</strong>
+        Als Esquire ein Kapitel aus ›Erhörte Gebete‹ veröffentlichte, das kaum verschlüsselte, intime
+        Details aus dem Leben seiner engsten Society-Freundinnen preisgab, wandten sich fast alle von ihnen
+        vollständig von ihm ab.</p>
+        <p class="vb-intro"><strong>b) Dramatische Verschärfung von Sucht und Isolation:</strong>
+        Nach diesem sozialen Bruch verschärften sich sein Alkohol- und Medikamentenkonsum sowie seine soziale
+        Isolation erheblich – der Roman selbst blieb unvollendet.</p>
+        <p class="vb-intro"><strong>c) Mehrere Klinikaufenthalte:</strong>
+        In den späten 1970er- und frühen 1980er-Jahren durchlief Capote mehrere Entzugsbehandlungen, die jedoch
+        keine dauerhafte Besserung brachten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Öffentliche Selbstinszenierung trotz sichtbarem Verfall:</strong>
+        Auch in seinen letzten Lebensjahren suchte Capote weiterhin Talkshow-Auftritte und öffentliche
+        Aufmerksamkeit, selbst als sein körperlicher und geistiger Zustand offensichtlich beeinträchtigt war.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte, erfolglose Versuche, ›Erhörte Gebete‹ zu vollenden:</strong>
+        Trotz des sozialen Verrats, den die bereits veröffentlichten Kapitel bedeuteten, arbeitete Capote bis
+        zu seinem Tod immer wieder an dem Roman, ohne ihn abzuschließen.</p>
+        <p class="vb-intro"><strong>c) Suche nach neuer Zugehörigkeit statt Rückzug:</strong>
+        Statt sich nach dem Bruch mit den ›Schwänen‹ zurückzuziehen, suchte Capote fieberhaft neue soziale
+        Anschlüsse und Bühnen, oft mit wachsendem Erfolgsdruck und wachsender Verzweiflung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod im August 1984:</strong>
+        Capote starb am 25. August 1984 im Haus von Joanne Carson in Los Angeles an einer Leberkrankheit,
+        mitverursacht durch die Kombination mehrerer Medikamente mit Alkohol – offiziell als ›Phlebothrombose,
+        kompliziert durch multiple Drogenintoxikation‹ dokumentiert.</p>
+        <p class="vb-intro"><strong>b) ›Erhörte Gebete‹ blieb unvollendet:</strong>
+        Der Roman, der seinen sozialen Untergang eingeleitet hatte, wurde postum 1986 in fragmentarischer Form
+        veröffentlicht.</p>
+        <p class="vb-intro"><strong>c) Ein Ruf, der sich nie mehr erholte:</strong>
+        Capotes literarischer Ruf erholte sich zu Lebzeiten nie mehr vollständig von dem 1975/76 ausgelösten
+        sozialen Bruch, trotz seines bereits gesicherten Platzes in der amerikanischen Literaturgeschichte durch
+        ›Kaltblütig‹ und ›Frühstück bei Tiffany‹.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verlust der Gemeinschaft als existenzielle Erschütterung:</strong>
+        Für die soziale Zwei ist Zugehörigkeit zu einer Gemeinschaft zentral für die eigene Bedeutung – der
+        Bruch mit den ›Schwänen‹ traf Capote nicht nur sozial, sondern in seinem tiefsten Selbstverständnis.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als verzweifelter Kampf um neue Bühnen:</strong>
+        Statt sich zurückzuziehen, suchte Capote weiterhin öffentliche Auftritte – der Ehrgeiz des
+        Dreierflügels ließ ihn auch im Verfall nicht von der Bühne abtreten.</p>
+        <p class="vb-intro"><strong>c) Sucht als Reaktion auf den Verlust von Zugehörigkeit:</strong>
+        Der zeitliche Zusammenhang zwischen dem sozialen Bruch 1975/76 und der dramatischen Verschärfung seiner
+        Sucht legt nahe, dass die Substanzen zunehmend den Verlust der eigenen Gemeinschaft kompensieren
+        sollten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein knapp zehnjähriger Verfall nach einem klar datierbaren Auslöser:</strong>
+        Anders als bei vielen anderen Fällen dieses Kompasses lässt sich Capotes gesundheitlicher Niedergang
+        auf einen präzise datierbaren sozialen Bruch zurückführen – die Veröffentlichung von 1975/76.</p>
+        <p class="vb-intro"><strong>b) Sucht als Ersatz für verlorene Zugehörigkeit:</strong>
+        Für eine soziale Zwei, deren Sicherheit im Eingebundensein in eine Gemeinschaft liegt, kann der abrupte
+        Verlust dieser Gemeinschaft eine existenzielle Leere hinterlassen, die durch Substanzen kompensiert
+        wird.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der eigene Verrat an der eigenen Gemeinschaft?</strong>
+        Für eine soziale Zwei mit Dreierflügel, deren Ehrgeiz Anerkennung durch ein möglichst großes Publikum
+        sucht, lässt sich die literarische Preisgabe der ›Schwäne‹ als Konflikt zweier eigener Bedürfnisse
+        lesen: die Zugehörigkeit zur exklusiven Gemeinschaft versus die Ambition, das eigene Meisterwerk um
+        jeden Preis zu vollenden. Der körperliche Verfall danach lässt sich als Reaktion auf diesen
+        selbstverursachten, unauflösbaren Konflikt lesen. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Zwei mit Dreierflügel zwangsläufig zu Suchterkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Capotes Fall zeigen lässt, ist ein Muster im Umgang mit dem Verlust zentraler Zugehörigkeit, das bei
+        einer ausgeprägten sozialen Zwei mit Dreierflügel immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Capote kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er
+        seinen Ehrgeiz und sein Bedürfnis nach Zugehörigkeit ungebremst gegeneinander aus, statt den Konflikt
+        zwischen beiden rechtzeitig zu erkennen und bewusst zu steuern – ein Zug, der ihm literarischen Ruhm
+        einbrachte, ihn aber zugleich in eine Sucht trieb, aus der er sich nicht mehr befreite. Wer das eigene
+        Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, sucht in der Substanz, was die verlorene
+        Gemeinschaft nicht mehr geben kann.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Zwei mit Dreierflügel bestätigt sich bei <strong>Truman Capote</strong> in der Wucht, mit
+        der der Verlust seiner engsten Gemeinschaft seinen körperlichen und geistigen Verfall beschleunigte –
+        und in seiner fortgesetzten, verzweifelten Suche nach neuer öffentlicher Bühne statt Rückzug. Der Golden
+        Retriever, der ohne sein Rudel nicht sein kann, fand nach dem Bruch mit den ›Schwänen‹ keinen Weg mehr
+        zurück in eine tragfähige Zugehörigkeit.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so2", label:"Subtyp-Profil SO2"},
+      ])}
+    </div>
+  `);
+}

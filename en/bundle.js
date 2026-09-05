@@ -382,6 +382,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-t-e-lawrence", name:"T. E. Lawrence", subtyp:"SE4w3", heading:"T. E. Lawrence – Self-Preservation Type 4", krankheit:"Thirteen years of sustained depression and suspected post-traumatic stress disorder after Deraa 1917, self-arranged punishment ritual", teaser:"SE4w3 – British officer, archaeologist, 1888–1935. Chronic depression and self-hatred from 1922 until his death, voluntary retreat under two false names into the lowest military ranks, self-arranged flogging ritual from 1923, died May 19, 1935 after a motorcycle accident." , land:"United Kingdom", gender:"m", jahre:"1888–1935"},
   { route:"krankheitsportraets-arthur-rimbaud", name:"Arthur Rimbaud", subtyp:"SX4w3", heading:"Arthur Rimbaud – Sexual Type 4", krankheit:"Bone tumor (likely synovial sarcoma) in the right knee, leg amputation, death months later", teaser:"SX4w3 – French poet and trader, 1854–1891. Diagnosed in 1891 in Marseille, right leg amputated, unsparingly open letters to family about his suffering. Died in November 1891 at age 37." , land:"France", gender:"m", jahre:"1854–1891"},
   { route:"krankheitsportraets-paul-gauguin", name:"Paul Gauguin", subtyp:"SX8w7", heading:"Paul Gauguin – Sexual Type 8", krankheit:"Syphilis with progressive symptoms, suicide attempt by arsenic, fatal heart failure", teaser:"SX8w7 – French painter, 1848–1903. Syphilis infection after 1891, suicide attempt by arsenic in 1897/98, open leg wounds. Died in 1903 on the Marquesas Islands, likely of a heart attack resulting from the illness." , land:"France", gender:"m", jahre:"1848–1903"},
+  { route:"krankheitsportraets-truman-capote", name:"Truman Capote", subtyp:"SO2w3", heading:"Truman Capote – Social Type 2", krankheit:"Chronic alcohol and drug abuse after a 1975/76 social rupture, fatal liver disease", teaser:"SO2w3 – American writer, 1924–1984. Dramatic worsening of addiction and isolation after publishing intimate details about his closest society friends in 1975/76. Died in 1984 of liver disease, contributed to by medication and alcohol." , land:"USA", gender:"m", jahre:"1924–1984"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -37160,6 +37161,160 @@ function paulGauguinKrankheitsportraetPage() {
   `);
 }
 
+function trumanCapoteKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-truman-capote-portrait.jpg" alt="Truman Capote – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Truman Capote</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing · 1924–1984</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Truman Capote</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-truman-capote">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a writer. This page focuses on his physical
+        decline in roughly the last ten years of his life: chronic alcohol and drug abuse that dramatically
+        worsened after the 1975/76 publication of a chapter from his unfinished novel "Answered Prayers."
+        Capote died in 1984 at age 59 from the effects of liver disease, contributed to by a combination of
+        multiple drugs and alcohol.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Capote</strong> is assigned to the <strong>social Type 2 with a Three-wing</strong>. The
+        social Two seeks belonging and significance through close ties to a community – for Capote, the
+        exclusive circle of wealthy New York society women he himself called his "Swans." The Three-wing adds
+        ambition and a sense of public impact. It was precisely this circle that became his undoing when he
+        betrayed it in print – and the loss of this belonging coincided almost exactly with the onset of his
+        massive physical decline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Drinking already in the 1960s:</strong>
+        Even during the years of research for "In Cold Blood" (1959–1965), Capote drank significantly and
+        regularly, by his own and others' accounts, to cope with the emotional toll of the research.</p>
+        <p class="vb-intro"><strong>b) Growing use of pills:</strong>
+        In the early 1970s, prescription sedatives and sleeping pills were added, which he increasingly
+        combined with alcohol.</p>
+        <p class="vb-intro"><strong>c) First visible public lapses:</strong>
+        By the mid-1970s, public appearances multiplied at which Capote visibly appeared intoxicated or under
+        the influence of medication.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The break with the "Swans" in 1975/76:</strong>
+        When Esquire published a chapter of "Answered Prayers" that revealed barely disguised, intimate details
+        from the lives of his closest society friends, nearly all of them turned away from him completely.</p>
+        <p class="vb-intro"><strong>b) Dramatic intensification of addiction and isolation:</strong>
+        After this social rupture, his alcohol and drug use as well as his social isolation intensified
+        considerably – the novel itself remained unfinished.</p>
+        <p class="vb-intro"><strong>c) Multiple hospital stays:</strong>
+        In the late 1970s and early 1980s, Capote went through several rehabilitation treatments, none of
+        which brought lasting improvement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Public self-presentation despite visible decline:</strong>
+        Even in his final years, Capote kept seeking talk-show appearances and public attention, even as his
+        physical and mental state was clearly impaired.</p>
+        <p class="vb-intro"><strong>b) Continued, unsuccessful attempts to finish "Answered Prayers":</strong>
+        Despite the social betrayal the already-published chapters represented, Capote kept working on the
+        novel until his death, without ever completing it.</p>
+        <p class="vb-intro"><strong>c) Seeking new belonging instead of withdrawing:</strong>
+        Rather than withdrawing after the break with the "Swans," Capote feverishly sought new social
+        connections and stages, often under growing pressure to succeed and growing desperation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in August 1984:</strong>
+        Capote died on August 25, 1984, at Joanne Carson's house in Los Angeles from liver disease, contributed
+        to by the combination of multiple medications with alcohol – officially documented as "phlebothrombosis
+        complicated by multiple drug intoxication."</p>
+        <p class="vb-intro"><strong>b) "Answered Prayers" remained unfinished:</strong>
+        The novel that had triggered his social downfall was published posthumously in fragmentary form in
+        1986.</p>
+        <p class="vb-intro"><strong>c) A reputation that never fully recovered:</strong>
+        Capote's literary reputation never fully recovered in his lifetime from the social rupture triggered in
+        1975/76, despite his already secured place in American literary history through "In Cold Blood" and
+        "Breakfast at Tiffany's."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Loss of community as an existential shock:</strong>
+        For the social Two, belonging to a community is central to its own significance – the break with the
+        "Swans" struck Capote not only socially but at the core of his self-understanding.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as a desperate fight for new stages:</strong>
+        Rather than withdrawing, Capote kept seeking public appearances – the ambition of the Three-wing would
+        not let him step off the stage even in decline.</p>
+        <p class="vb-intro"><strong>c) Addiction as a response to lost belonging:</strong>
+        The timing between the 1975/76 social rupture and the dramatic worsening of his addiction suggests the
+        substances increasingly served to compensate for the loss of his own community.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Nearly a decade of decline after a precisely datable trigger:</strong>
+        Unlike many other cases in this compass, Capote's health decline can be traced to a precisely datable
+        social rupture – the 1975/76 publication.</p>
+        <p class="vb-intro"><strong>b) Addiction as a substitute for lost belonging:</strong>
+        For a social Two, whose security lies in being embedded in a community, the abrupt loss of that
+        community can leave an existential void that gets compensated for with substances.</p>
+        <p class="vb-intro"><strong>c) Why betraying one's own community specifically?</strong>
+        For a social Two with a Three-wing, whose ambition seeks recognition from as broad an audience as
+        possible, the literary exposure of the "Swans" can be read as a conflict between two of his own needs:
+        belonging to the exclusive community versus the ambition to finish his masterwork at any cost. The
+        physical decline that followed can be read as a response to this self-inflicted, irresolvable conflict.
+        This interpretation is developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the social Two with a Three-wing inevitably leads to addiction –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Capote's case shows is a
+        pattern in how the loss of central belonging is handled that recurs in a pronounced social Two with a
+        Three-wing – one of many possible interpretations, not a verdict. The corresponding illness pattern is
+        being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Capote, like most people of his time, had no Enneagram model. Without this knowledge he lived out his
+        ambition and his need for belonging against each other without restraint, rather than recognizing the
+        conflict between them in time and consciously managing it – a trait that brought him literary fame but
+        also drove him into an addiction he never escaped. Someone who recognizes their own pattern can
+        consciously counteract it; someone who does not seeks in substance what the lost community can no
+        longer give.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Two with a Three-wing is confirmed in <strong>Truman Capote</strong> by the force with which
+        the loss of his closest community accelerated his physical and mental decline – and by his continued,
+        desperate search for a new public stage instead of withdrawal. The golden retriever, unable to exist
+        without its pack, found no way back to a sustaining sense of belonging after the break with the
+        "Swans."</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so2", label:"Subtype Profile SO2"},
+      ])}
+    </div>
+  `);
+}
+
 function alanTuringKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -55437,12 +55592,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Exhaustion in service of the cause – illnesses arising from years of physical self-overreach in the name of a larger role or mission.",
-    beispiele: ["Muhammad Ali", "Napoleon Bonaparte", "Julius Caesar", "Alexander the Great", "Bob Marley", "Ashton Kutcher"],
+    beispiele: ["Muhammad Ali", "Napoleon Bonaparte", "Julius Caesar", "Alexander the Great", "Bob Marley", "Ashton Kutcher", "Truman Capote"],
     fingerabdruecke: [
       {
         titel: "Forgoing treatment or rest in favor of the larger cause",
         beschreibung: "In the social Two, the illness itself is strikingly often not the center of the story – the refusal to interrupt one's role for others because of it is, up to and including consciously declining necessary treatment.",
         beleg: "Bob Marley, who declined a medically recommended amputation on religious grounds and died as the cancer spread; Muhammad Ali, whose Parkinson's syndrome was likely partly caused by years of continuing to box despite repeated head trauma; Julius Caesar and Alexander the Great, who never publicly paused despite recurring seizures or a years-long, boundless campaign of conquest, respectively."
+      },
+      {
+        titel: "Addiction as a response to the loss of central belonging",
+        beschreibung: "A second pattern emerges when the social Two loses the community that carries its own significance – physical decline then sets in not through self-sacrifice for others, but as a response to an abrupt rupture of its own belonging.",
+        beleg: "Truman Capote, whose chronic alcohol and drug abuse dramatically worsened after he lost his closest society friends in 1975/76 through the literary exposure of intimate details – losing the community that formed a central part of his identity."
       }
     ]
   },
@@ -115442,6 +115602,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-t-e-lawrence": tELawrenceKrankheitsportraetPage,
       "krankheitsportraets-arthur-rimbaud": arthurRimbaudKrankheitsportraetPage,
       "krankheitsportraets-paul-gauguin": paulGauguinKrankheitsportraetPage,
+      "krankheitsportraets-truman-capote": trumanCapoteKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
