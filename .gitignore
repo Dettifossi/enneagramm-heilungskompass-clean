@@ -9,3 +9,11 @@ ai-prototype/worker/.wrangler/
 # öffentliche Repo. Extrahierter Text, Chunks und Embeddings bleiben lokal
 # und werden nur direkt per wrangler zu Cloudflare Vectorize hochgeladen.
 ai-prototype/enzyklopaedie-private/
+
+# Porträtbilder: seit der R2-Migration (Schritt 10, 2026-09-05) werden neue
+# Porträts nur noch zu Cloudflare R2 hochgeladen, nicht mehr zusätzlich hier
+# committet, um das GitHub-Repo nicht weiter wachsen zu lassen. Die 596
+# bereits getrackten Bestandsbilder bleiben als Fallback unberührt – dieser
+# Eintrag verhindert nur, dass künftige neue Dateien versehentlich
+# hinzugefügt werden.
+assets/portraits/*-portrait.jpg
