@@ -4718,6 +4718,7 @@ export function arthurRimbaudKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-arthur-rimbaud", label:"Porträt: Arthur Rimbaud (SX4w3) – Lebenswerk"},
+        {route:"krankheitsportraets-jean-paul-sartre", label:"Krankheitsporträt: Jean-Paul Sartre (SX4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
@@ -5196,6 +5197,163 @@ export function edgarAllanPoeKrankheitsportraetPage() {
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
+
+export function jeanPaulSartreKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-paul-sartre-portrait.jpg" alt="Jean-Paul Sartre – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Paul Sartre</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel · 1905–1980</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jean-Paul Sartre</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jean-paul-sartre">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Philosoph und Schriftsteller. Im
+        Vordergrund dieser Seite steht sein jahrzehntelanger Amphetamin-Missbrauch (Corydrane, ein damals
+        rezeptfrei erhältliches Aufputschmittel), mit dem er seine enorme Schreibleistung befeuerte, sowie seine
+        fortschreitende Erblindung in den letzten Lebensjahren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sartre</strong> ist dem <strong>sexuellen Typ 4 mit Fünferflügel</strong> zugeordnet. Die
+        sexuelle Vier kennt keine Halbheiten – ihre Intensität wird vollständig gelebt. Der Fünferflügel bringt
+        intellektuelle Systematik hinzu: Sartre nutzte die Substanz gezielt, um sein monumentales philosophisches
+        Werk mit maximaler geistiger Schärfe voranzutreiben, nicht zur Zerstreuung. Genau diese Kombination aus
+        kompromissloser Intensität und intellektueller Zielstrebigkeit prägte seinen Umgang mit der eigenen
+        Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn des Corydrane-Konsums in den 1950er-Jahren:</strong>
+        Sartre begann in den 1950er-Jahren, das amphetaminhaltige Mittel Corydrane einzunehmen, um seine
+        Konzentrationsfähigkeit beim Schreiben zu steigern.</p>
+        <p class="vb-intro"><strong>b) Extreme Dosierungen bei der Arbeit an der ›Kritik der dialektischen
+        Vernunft‹:</strong> Nach eigenen Angaben nahm Sartre bei der Arbeit an diesem monumentalen Werk in den
+        frühen 1960er-Jahren teils bis zu zwanzig Tabletten am Tag – ein Vielfaches der empfohlenen Dosis.</p>
+        <p class="vb-intro"><strong>c) Erste Anzeichen von Sehschwäche:</strong>
+        Parallel dazu entwickelte sich bei Sartre eine fortschreitende Verschlechterung seines Augenlichts,
+        teilweise mit dem Substanzmissbrauch, teilweise mit eigenständigen altersbedingten Ursachen in
+        Verbindung gebracht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Offener Umgang mit dem eigenen Substanzkonsum:</strong>
+        Anders als viele andere Fälle sprach Sartre in Interviews und Gesprächen mit Simone de Beauvoir
+        vergleichsweise offen über seinen Corydrane-Konsum und dessen Rolle in seinem Schaffensprozess.</p>
+        <p class="vb-intro"><strong>b) Fast vollständige Erblindung in den 1970er-Jahren:</strong>
+        Ab Mitte der 1970er-Jahre verlor Sartre nahezu vollständig sein Augenlicht, was ihn zwang, seine
+        schriftstellerische Arbeitsweise grundlegend zu verändern.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung der intellektuellen Arbeit trotz Blindheit:</strong>
+        Trotz der Erblindung setzte Sartre seine philosophische und politische Arbeit fort, unter anderem durch
+        diktierte Gespräche und Interviews.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Substanz als Werkzeug für maximale Intensität, nicht als Flucht:</strong>
+        Für Sartre diente Corydrane nicht der Zerstreuung, sondern der Steigerung der eigenen geistigen
+        Schärfe – eine kompromisslose Ausrichtung auf die eigene intellektuelle Leistung.</p>
+        <p class="vb-intro"><strong>b) Keine Verheimlichung, aber auch keine Änderung des Verhaltens:</strong>
+        Obwohl er offen über die Risiken sprach, änderte Sartre seinen Konsum über Jahre kaum, selbst als
+        gesundheitliche Folgen bereits sichtbar wurden.</p>
+        <p class="vb-intro"><strong>c) Anpassung der Arbeitsweise statt Rückzug nach der Erblindung:</strong>
+        Statt sich nach dem Verlust seines Augenlichts aus dem öffentlichen intellektuellen Leben
+        zurückzuziehen, fand Sartre neue Wege, weiterhin am politischen und philosophischen Diskurs
+        teilzunehmen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod 1980 in Paris:</strong>
+        Sartre starb am 15. April 1980 in Paris an einem Lungenödem, nach Jahrzehnten intensiver körperlicher
+        Selbstausbeutung durch Substanzmissbrauch, Alkohol und Nikotin.</p>
+        <p class="vb-intro"><strong>b) Eines der umfangreichsten philosophischen Werke des 20. Jahrhunderts:</strong>
+        Trotz – oder gerade wegen – seines exzessiven Arbeitsstils hinterließ Sartre ein außergewöhnlich
+        umfangreiches philosophisches, literarisches und politisches Werk.</p>
+        <p class="vb-intro"><strong>c) Eine der größten Beerdigungen der französischen Geschichte:</strong>
+        An Sartres Beerdigung nahmen schätzungsweise 50.000 Menschen teil – ein Ausdruck seiner enormen
+        kulturellen und intellektuellen Bedeutung für Frankreich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Keine Halbheiten, auch nicht im Substanzkonsum:</strong>
+        Für die sexuelle Vier gibt es kein gemäßigtes Maß – Sartres extreme Corydrane-Dosierungen zeigen
+        dieselbe kompromisslose Intensität, die auch sein philosophisches Denken prägte.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel als Rechtfertigung durch intellektuelle Leistung:</strong>
+        Anders als bei rein hedonistischem Substanzmissbrauch diente die Droge bei Sartre einem klar
+        definierten intellektuellen Ziel – der Fünferflügel rahmte den Konsum als Werkzeug der geistigen
+        Durchdringung, nicht als Genuss.</p>
+        <p class="vb-intro"><strong>c) Offenheit ohne Verhaltensänderung:</strong>
+        Sartres Bereitschaft, offen über seinen Substanzkonsum zu sprechen, ohne ihn deshalb zu ändern, zeigt
+        eine für die sexuelle Vier typische radikale Ehrlichkeit gegenüber sich selbst, die jedoch nicht
+        automatisch in Verhaltensänderung mündet.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Jahrzehnte kompromissloser körperlicher Selbstausbeutung:</strong>
+        Von den 1950er-Jahren bis zu seinem Tod 1980 lebte Sartre in einem Muster extremer körperlicher
+        Selbstausbeutung im Dienst seiner intellektuellen Produktion.</p>
+        <p class="vb-intro"><strong>b) Die Substanz als Verlängerung der eigenen Intensität, nicht als Flucht
+        vor ihr:</strong> Für eine sexuelle Vier mit Fünferflügel, deren Identität auf vollständiger,
+        unverstellter Intensität und intellektueller Durchdringung beruht, diente die Droge der Verstärkung
+        dieser beiden Grundzüge, nicht ihrer Betäubung.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Offenheit ohne Konsequenz?</strong>
+        Für eine sexuelle Vier mit Fünferflügel, deren Ehrlichkeit sich selbst gegenüber Priorität vor der
+        eigenen Schonung hat, lässt sich Sartres Verhalten als konsequente Fortsetzung des eigenen
+        Lebensmusters lesen: Die eigene Wahrheit auszusprechen war wichtiger, als aus ihr praktische
+        Konsequenzen für die eigene Gesundheit zu ziehen. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier mit Fünferflügel zwangsläufig zu Substanzmissbrauch
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Sartres Fall zeigen lässt, ist ein Muster im Umgang mit selbstgewählter körperlicher Belastung im
+        Dienst einer intellektuellen Mission, das bei einer ausgeprägten sexuellen Vier mit Fünferflügel immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Sartre kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er
+        seine kompromisslose intellektuelle Intensität ungebremst aus, statt den eigenen Substanzkonsum
+        rechtzeitig zu begrenzen – ein Zug, der ihm eines der umfangreichsten philosophischen Werke des
+        Jahrhunderts ermöglichte, ihn selbst aber Augenlicht und Gesundheit kostete. Wer das eigene Muster
+        erkennt, kann bewusst gegensteuern; wer es nicht kennt, verlängert die eigene Intensität so lange, bis
+        der Körper die Grenze setzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Vier mit Fünferflügel bestätigt sich bei <strong>Jean-Paul Sartre</strong> in der
+        kompromisslosen Intensität, mit der er Substanzen zur Steigerung seiner intellektuellen Leistung
+        einsetzte, und in der radikalen Offenheit, mit der er darüber sprach, ohne sein Verhalten deshalb zu
+        ändern. Der Chihuahua kennt keine Halbheiten – auch nicht im Dienst des eigenen Denkens.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jean-paul-sartre", label:"Porträt: Jean-Paul Sartre (SX4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-arthur-rimbaud", label:"Krankheitsporträt: Arthur Rimbaud (SX4w3)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
       ])}
     </div>
   `);

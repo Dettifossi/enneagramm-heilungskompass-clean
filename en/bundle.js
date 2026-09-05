@@ -384,6 +384,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-paul-gauguin", name:"Paul Gauguin", subtyp:"SX8w7", heading:"Paul Gauguin – Sexual Type 8", krankheit:"Syphilis with progressive symptoms, suicide attempt by arsenic, fatal heart failure", teaser:"SX8w7 – French painter, 1848–1903. Syphilis infection after 1891, suicide attempt by arsenic in 1897/98, open leg wounds. Died in 1903 on the Marquesas Islands, likely of a heart attack resulting from the illness." , land:"France", gender:"m", jahre:"1848–1903"},
   { route:"krankheitsportraets-truman-capote", name:"Truman Capote", subtyp:"SO2w3", heading:"Truman Capote – Social Type 2", krankheit:"Chronic alcohol and drug abuse after a 1975/76 social rupture, fatal liver disease", teaser:"SO2w3 – American writer, 1924–1984. Dramatic worsening of addiction and isolation after publishing intimate details about his closest society friends in 1975/76. Died in 1984 of liver disease, contributed to by medication and alcohol." , land:"USA", gender:"m", jahre:"1924–1984"},
   { route:"krankheitsportraets-edgar-allan-poe", name:"Edgar Allan Poe", subtyp:"SO4w5", heading:"Edgar Allan Poe – Social Type 4", krankheit:"Chronic alcoholism, mysterious physical and mental decline in his final days, unresolved cause of death", teaser:"SO4w5 – American writer, 1809–1849. Found confused and delirious on October 3, 1849, in Baltimore, died four days later. Cause of death still unresolved – theories range from alcohol poisoning to rabies." , land:"USA", gender:"m", jahre:"1809–1849"},
+  { route:"krankheitsportraets-jean-paul-sartre", name:"Jean-Paul Sartre", subtyp:"SX4w5", heading:"Jean-Paul Sartre – Sexual Type 4", krankheit:"Decades of amphetamine abuse (Corydrane), progressive blindness", teaser:"SX4w5 – French philosopher, 1905–1980. Extreme Corydrane dosages while writing the ›Critique of Dialectical Reason‹, spoke openly about his use without changing it, near-total blindness from the mid-1970s. Died in 1980 of pulmonary edema." , land:"France", gender:"m", jahre:"1905–1980"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -37003,6 +37004,7 @@ function arthurRimbaudKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3) – life's work"},
+        {route:"krankheitsportraets-jean-paul-sartre", label:"Illness Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
@@ -37467,6 +37469,154 @@ function edgarAllanPoeKrankheitsportraetPage() {
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanPaulSartreKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-paul-sartre-portrait.jpg" alt="Jean-Paul Sartre – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Paul Sartre</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexual Type 4 with Five-wing · 1905–1980</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jean-Paul Sartre</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-jean-paul-sartre">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a philosopher and writer. This page focuses on his
+        decades of amphetamine abuse (Corydrane, an over-the-counter stimulant at the time), which he used to
+        fuel his enormous writing output, and his progressive blindness in his final years.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Sartre</strong> is assigned to the <strong>sexual Type 4 with a Five-wing</strong>. The sexual
+        Four knows no half-measures – its intensity is lived completely. The Five-wing adds intellectual
+        systematization: Sartre used the substance deliberately to drive his monumental philosophical work with
+        maximum mental sharpness, not for escape. This exact combination of uncompromising intensity and
+        intellectual drive shaped how he handled his own health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Corydrane use begins in the 1950s:</strong>
+        Sartre began taking the amphetamine-based drug Corydrane in the 1950s to boost his concentration while
+        writing.</p>
+        <p class="vb-intro"><strong>b) Extreme dosages while writing the "Critique of Dialectical Reason":</strong>
+        By his own account, Sartre took as many as twenty tablets a day while working on this monumental work
+        in the early 1960s – many times the recommended dose.</p>
+        <p class="vb-intro"><strong>c) First signs of failing eyesight:</strong>
+        In parallel, Sartre developed a progressive deterioration of his eyesight, attributed partly to the
+        substance abuse and partly to independent, age-related causes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Open handling of his own substance use:</strong>
+        Unlike many other cases, Sartre spoke relatively openly in interviews and in conversations with Simone
+        de Beauvoir about his Corydrane use and its role in his creative process.</p>
+        <p class="vb-intro"><strong>b) Near-total blindness in the 1970s:</strong>
+        From the mid-1970s on, Sartre lost nearly all his eyesight, forcing him to fundamentally change how he
+        worked as a writer.</p>
+        <p class="vb-intro"><strong>c) Continued intellectual work despite blindness:</strong>
+        Despite his blindness, Sartre continued his philosophical and political work, among other things
+        through dictated conversations and interviews.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The substance as a tool for maximum intensity, not escape:</strong>
+        For Sartre, Corydrane served not distraction but the intensification of his own mental sharpness – an
+        uncompromising focus on his own intellectual output.</p>
+        <p class="vb-intro"><strong>b) No concealment, but also no change in behavior:</strong>
+        Although he spoke openly about the risks, Sartre barely changed his use over the years, even once
+        health effects had become visible.</p>
+        <p class="vb-intro"><strong>c) Adapting his working method instead of withdrawing after blindness:</strong>
+        Rather than withdrawing from public intellectual life after losing his eyesight, Sartre found new ways
+        to keep participating in political and philosophical discourse.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in 1980 in Paris:</strong>
+        Sartre died on April 15, 1980, in Paris of pulmonary edema, after decades of intense physical
+        self-exploitation through substance abuse, alcohol, and nicotine.</p>
+        <p class="vb-intro"><strong>b) One of the most extensive philosophical bodies of work of the 20th
+        century:</strong> Despite – or precisely because of – his excessive working style, Sartre left behind
+        an extraordinarily extensive philosophical, literary, and political body of work.</p>
+        <p class="vb-intro"><strong>c) One of the largest funerals in French history:</strong>
+        An estimated 50,000 people attended Sartre's funeral – an expression of his enormous cultural and
+        intellectual significance for France.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) No half-measures, not even in substance use:</strong>
+        For the sexual Four there is no moderate amount – Sartre's extreme Corydrane dosages show the same
+        uncompromising intensity that also marked his philosophical thinking.</p>
+        <p class="vb-intro"><strong>b) The Five-wing as justification through intellectual output:</strong>
+        Unlike purely hedonistic substance abuse, the drug served Sartre a clearly defined intellectual goal –
+        the Five-wing framed the use as a tool of mental penetration, not enjoyment.</p>
+        <p class="vb-intro"><strong>c) Openness without behavioral change:</strong>
+        Sartre's willingness to speak openly about his substance use without changing it shows a radical
+        honesty toward himself typical of the sexual Four, which does not automatically translate into changed
+        behavior.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Decades of uncompromising physical self-exploitation:</strong>
+        From the 1950s until his death in 1980, Sartre lived in a pattern of extreme physical self-exploitation
+        in service of his intellectual production.</p>
+        <p class="vb-intro"><strong>b) The substance as an extension of his own intensity, not an escape from
+        it:</strong> For a sexual Four with a Five-wing, whose identity rests on complete, unfiltered intensity
+        and intellectual penetration, the drug served to amplify both of these core traits, not to numb them.</p>
+        <p class="vb-intro"><strong>c) Why openness without consequence specifically?</strong>
+        For a sexual Four with a Five-wing, whose honesty toward itself takes priority over self-care, Sartre's
+        behavior can be read as a consistent continuation of his own life pattern: speaking his own truth
+        mattered more than drawing practical consequences from it for his own health. This interpretation is
+        developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the sexual Four with a Five-wing inevitably leads to substance abuse –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Sartre's case shows is a
+        pattern in how self-chosen physical strain in service of an intellectual mission is handled that
+        recurs in a pronounced sexual Four with a Five-wing – one of many possible interpretations, not a
+        verdict. The corresponding illness pattern is being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Sartre, like most people of his time, had no Enneagram model. Without this knowledge he lived out his
+        uncompromising intellectual intensity without restraint, rather than limiting his own substance use in
+        time – a trait that made possible one of the century's most extensive philosophical works, but cost him
+        his eyesight and health. Someone who recognizes their own pattern can consciously counteract it;
+        someone who does not extends their own intensity until the body sets the limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Four with a Five-wing is confirmed in <strong>Jean-Paul Sartre</strong> by the uncompromising
+        intensity with which he used substances to boost his intellectual output, and by the radical openness
+        with which he spoke about it without changing his behavior. The chihuahua knows no half-measures – not
+        even in service of its own thinking.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5) – life's work"},
+        {route:"krankheitsportraets-arthur-rimbaud", label:"Illness Portrait: Arthur Rimbaud (SX4w3)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
     </div>
   `);
@@ -55853,7 +56003,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Radical concealment of one's own diagnosis even from the closest circle – in this group, illness is often kept secret until the very last possible minute.",
-    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish", "Francisco de Goya", "Arthur Rimbaud"],
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish", "Francisco de Goya", "Arthur Rimbaud", "Jean-Paul Sartre"],
     fingerabdruecke: [
       {
         titel: "Concealed until the last minute – illness as a radically private secret",
@@ -55863,7 +56013,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "No concealment, but unsparing openness about one's own suffering",
         beschreibung: "A second, opposite pattern shows not concealment but a radical, unvarnished openness about one's own illness – the sexual Four's uncompromising quality here turns not toward hiding but toward unsparing disclosure.",
-        beleg: "Francisco de Goya, who did not hide his own life-threatening illness in 1819 but made it the explicit subject of the painting 'Self-Portrait with Dr. Arrieta' – with an open mouth, half-closed eyes, and pain-clenched hands, without any embellishment; Arthur Rimbaud, who in his final months wrote his family unsparingly direct letters about his suffering after his leg amputation, rather than softening or concealing it."
+        beleg: "Francisco de Goya, who did not hide his own life-threatening illness in 1819 but made it the explicit subject of the painting 'Self-Portrait with Dr. Arrieta' – with an open mouth, half-closed eyes, and pain-clenched hands, without any embellishment; Arthur Rimbaud, who in his final months wrote his family unsparingly direct letters about his suffering after his leg amputation, rather than softening or concealing it; Jean-Paul Sartre, who spoke relatively openly about his decades of extreme amphetamine abuse without changing his behavior because of it – radical honesty toward himself, without practical consequence for his own health."
       }
     ]
   },
@@ -115762,6 +115912,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-paul-gauguin": paulGauguinKrankheitsportraetPage,
       "krankheitsportraets-truman-capote": trumanCapoteKrankheitsportraetPage,
       "krankheitsportraets-edgar-allan-poe": edgarAllanPoeKrankheitsportraetPage,
+      "krankheitsportraets-jean-paul-sartre": jeanPaulSartreKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
