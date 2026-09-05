@@ -5195,6 +5195,7 @@ export function edgarAllanPoeKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-edgar-allan-poe", label:"Porträt: Edgar Allan Poe (SO4w5) – Lebenswerk"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5)"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Krankheitsporträt: Leonard Cohen (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
@@ -5354,6 +5355,166 @@ export function jeanPaulSartreKrankheitsportraetPage() {
         {route:"krankheitsportraets-arthur-rimbaud", label:"Krankheitsporträt: Arthur Rimbaud (SX4w3)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}
+
+export function leonardCohenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Cohen</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1934–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonard Cohen</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-leonard-cohen">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Musiker und Dichter. Im Vordergrund
+        dieser Seite stehen zwei Kapitel seiner Gesundheitsgeschichte: seine lebenslange, öffentlich immer
+        wieder thematisierte Depression, die ihn unter anderem zu einem fünfjährigen Aufenthalt in einem
+        Zen-Kloster bewog, sowie Wirbelkompressionsfrakturen in seinen letzten Lebensjahren, die ihn zwangen,
+        sein letztes Album ›You Want It Darker‹ sitzend und unter erheblichen Schmerzen aufzunehmen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Cohen</strong> ist dem <strong>sozialen Typ 4 mit Fünferflügel</strong> zugeordnet – demselben
+        Subtyp wie Gustav Mahler und Edgar Allan Poe in diesem Kompass. Die soziale Vier trägt das eigene
+        Anderssein sichtbar in eine Gemeinschaft, die sie zugleich fasziniert und ausschließt. Der Fünferflügel
+        bringt eine kontemplative, oft spirituell-intellektuelle Suche nach Struktur hinzu – Cohens
+        jahrzehntelange Zen-Praxis und seine sprachlich extrem verdichtete, disziplinierte Lyrik zeigen genau
+        diese Kombination. Beide Gesundheitskapitel spiegeln diese Grundhaltung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Depression bereits in jungen Jahren:</strong>
+        Cohen beschrieb in zahlreichen Interviews, dass depressive Episoden ihn bereits seit seiner Jugend
+        begleiteten, oft als eine Art dauerhafter, gedämpfter Grundzustand.</p>
+        <p class="vb-intro"><strong>b) Rückzug ins Zen-Kloster in den 1990er-Jahren:</strong>
+        1994 zog sich Cohen für fünf Jahre in das Mount-Baldy-Zen-Zentrum zurück, wo er 1996 als Mönch ordiniert
+        wurde – ein direkter Versuch, seiner lebenslangen Depression mit spiritueller Disziplin zu begegnen.</p>
+        <p class="vb-intro"><strong>c) Erste körperliche Alterserscheinungen ab den 2010er-Jahren:</strong>
+        In seinen letzten Lebensjahren entwickelten sich zunehmende Rückenprobleme, die sich später als
+        Wirbelkompressionsfrakturen herausstellten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Finanzieller Betrug durch die eigene Managerin 2004:</strong>
+        Nach seiner Rückkehr aus dem Kloster entdeckte Cohen, dass seine langjährige Managerin einen Großteil
+        seines Vermögens veruntreut hatte – ein Schock, der ihn im Alter von 73 Jahren zu einer der
+        umfangreichsten Welttourneen seiner Karriere zwang.</p>
+        <p class="vb-intro"><strong>b) Wirbelkompressionsfrakturen in den letzten Lebensjahren:</strong>
+        In seinen letzten beiden Lebensjahren erlitt Cohen mehrere Wirbelkompressionsfrakturen, die ihm das
+        Stehen und Gehen erheblich erschwerten.</p>
+        <p class="vb-intro"><strong>c) Aufnahme des letzten Albums unter Schmerzen:</strong>
+        Sein letztes Studioalbum ›You Want It Darker‹ (2016) nahm Cohen weitgehend im Sitzen auf, da ihm
+        längeres Stehen aufgrund seiner Rückenschmerzen kaum mehr möglich war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Offener Umgang mit der eigenen Depression in Interviews:</strong>
+        Anders als viele andere Künstler seiner Generation sprach Cohen wiederholt und mit bemerkenswerter
+        Klarheit über seine Depression, ohne sie zu dramatisieren oder zu verharmlosen.</p>
+        <p class="vb-intro"><strong>b) Spirituelle Disziplin statt medikamentöser Behandlung:</strong>
+        Cohen suchte primär über Meditation und klösterliche Disziplin einen Umgang mit seiner Depression, nicht
+        primär über pharmakologische Behandlung.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung der künstlerischen Arbeit trotz körperlichem Verfall:</strong>
+        Trotz seiner Wirbelfrakturen und starker Schmerzen vollendete Cohen sein letztes Album vollständig und
+        veröffentlichte es nur wenige Wochen vor seinem Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod im November 2016:</strong>
+        Cohen starb am 7. November 2016 in Los Angeles im Schlaf, infolge eines Sturzes in Kombination mit
+        Leukämie, die er der Öffentlichkeit nie mitgeteilt hatte.</p>
+        <p class="vb-intro"><strong>b) Ein Album als bewusster Abschied:</strong>
+        ›You Want It Darker‹, dessen Titelsong explizit Themen von Tod und Hingabe verarbeitet, erschien nur
+        17 Tage vor Cohens Tod – von vielen Kritikern rückblickend als bewusster künstlerischer Abschied
+        gedeutet.</p>
+        <p class="vb-intro"><strong>c) Späte kommerzielle und kritische Anerkennung:</strong>
+        Die durch den finanziellen Betrug erzwungene Welttournee ab 2008 brachte Cohen im hohen Alter größere
+        kommerzielle Erfolge und Anerkennung als weite Teile seiner früheren Karriere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sichtbares Anderssein durch offene Sprache über innere Schwere:</strong>
+        Für die soziale Vier zeigt sich das eigene Anderssein oft sichtbar nach außen – bei Cohen durch seine
+        ungewöhnlich klare, öffentliche Sprache über seine Depression, die ihn von vielen Zeitgenossen
+        unterschied.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel als Suche nach Struktur und Disziplin:</strong>
+        Der Rückzug ins Zen-Kloster zeigt den Fünferflügel in seiner reinsten Form – eine strukturierte,
+        beinahe wissenschaftlich-disziplinierte Herangehensweise an ein zutiefst emotionales Problem.</p>
+        <p class="vb-intro"><strong>c) Vollendung des Werks trotz körperlichem Verfall:</strong>
+        Die Fertigstellung von ›You Want It Darker‹ trotz starker Schmerzen zeigt dieselbe Konsequenz, mit der
+        Cohen sein ganzes Leben lang an seiner künstlerischen Aufgabe festhielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein lebenslanges, offen thematisiertes Leiden neben einem spät
+        auftretenden körperlichen Verfall:</strong> Cohens Depression begleitete ihn über sein gesamtes
+        Erwachsenenleben, während die Wirbelfrakturen erst in den letzten beiden Lebensjahren hinzukamen –
+        zwei getrennte, aber ineinandergreifende Kapitel seiner Gesundheitsgeschichte.</p>
+        <p class="vb-intro"><strong>b) Spirituelle Verarbeitung statt reiner Behandlung:</strong>
+        Für eine soziale Vier mit Fünferflügel, deren Bedeutung aus der sichtbaren Verarbeitung des eigenen
+        Andersseins entsteht, wurde die Depression nicht nur behandelt, sondern zum zentralen Thema seines
+        spirituellen und künstlerischen Weges.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ein letztes Album über Tod und Hingabe?</strong>
+        Für eine soziale Vier mit Fünferflügel, deren Identität eng mit der kontrollierten künstlerischen
+        Verarbeitung des eigenen Erlebens verbunden ist, lässt sich die bewusste Fertigstellung von ›You Want
+        It Darker‹ als konsequenter Abschluss des eigenen Lebensmusters lesen: Das eigene Sterben wurde,
+        anders als bei Edgar Allan Poe, nicht zum ungeklärten Rätsel, sondern zum letzten, bewusst gestalteten
+        künstlerischen Werk. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher
+        entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier mit Fünferflügel zwangsläufig zu Depression oder
+        Wirbelfrakturen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Cohens Fall zeigen lässt, ist ein Muster im Umgang mit lebenslangem psychischem Leiden und
+        spätem körperlichem Verfall, das bei einer ausgeprägten sozialen Vier mit Fünferflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Cohen kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen suchte er
+        über Jahrzehnte spirituelle statt strukturierter medizinischer Wege im Umgang mit seiner Depression,
+        was ihm tiefe künstlerische Einsichten ermöglichte, ihm aber auch keinen vollständigen Ausweg aus dem
+        eigenen Leiden bot. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt,
+        verarbeitet die eigene Schwere ein Leben lang künstlerisch, statt sie vollständig aufzulösen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Vier mit Fünferflügel bestätigt sich bei <strong>Leonard Cohen</strong> in der Klarheit, mit
+        der er sein lebenslanges psychisches Leiden öffentlich sprachlich verarbeitete, und in der Konsequenz,
+        mit der er sein letztes Werk trotz schwerem körperlichem Verfall bewusst zu einem Abschied gestaltete.
+        Das Gürteltier trug seine Rüstung aus Worten bis zuletzt – und nutzte sie, um genau das sichtbar zu
+        machen, was andere verbergen würden.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5)"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Krankheitsporträt: Edgar Allan Poe (SO4w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}
     </div>
   `);

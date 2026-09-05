@@ -385,6 +385,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-truman-capote", name:"Truman Capote", subtyp:"SO2w3", heading:"Truman Capote – Social Type 2", krankheit:"Chronic alcohol and drug abuse after a 1975/76 social rupture, fatal liver disease", teaser:"SO2w3 – American writer, 1924–1984. Dramatic worsening of addiction and isolation after publishing intimate details about his closest society friends in 1975/76. Died in 1984 of liver disease, contributed to by medication and alcohol." , land:"USA", gender:"m", jahre:"1924–1984"},
   { route:"krankheitsportraets-edgar-allan-poe", name:"Edgar Allan Poe", subtyp:"SO4w5", heading:"Edgar Allan Poe – Social Type 4", krankheit:"Chronic alcoholism, mysterious physical and mental decline in his final days, unresolved cause of death", teaser:"SO4w5 – American writer, 1809–1849. Found confused and delirious on October 3, 1849, in Baltimore, died four days later. Cause of death still unresolved – theories range from alcohol poisoning to rabies." , land:"USA", gender:"m", jahre:"1809–1849"},
   { route:"krankheitsportraets-jean-paul-sartre", name:"Jean-Paul Sartre", subtyp:"SX4w5", heading:"Jean-Paul Sartre – Sexual Type 4", krankheit:"Decades of amphetamine abuse (Corydrane), progressive blindness", teaser:"SX4w5 – French philosopher, 1905–1980. Extreme Corydrane dosages while writing the ›Critique of Dialectical Reason‹, spoke openly about his use without changing it, near-total blindness from the mid-1970s. Died in 1980 of pulmonary edema." , land:"France", gender:"m", jahre:"1905–1980"},
+  { route:"krankheitsportraets-leonard-cohen", name:"Leonard Cohen", subtyp:"SO4w5", heading:"Leonard Cohen – Social Type 4", krankheit:"Lifelong depression, vertebral compression fractures in his final years", teaser:"SO4w5 – Canadian musician and poet, 1934–2016. Five years as a Zen monk to handle lifelong depression, vertebral fractures forced him to record his last album sitting down. Died in 2016, 17 days after releasing ›You Want It Darker‹." , land:"Canada", gender:"m", jahre:"1934–2016"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -37467,6 +37468,7 @@ function edgarAllanPoeKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5) – life's work"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Illness Portrait: Leonard Cohen (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -37617,6 +37619,164 @@ function jeanPaulSartreKrankheitsportraetPage() {
         {route:"krankheitsportraets-arthur-rimbaud", label:"Illness Portrait: Arthur Rimbaud (SX4w3)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
+function leonardCohenKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leonard-cohen-portrait.jpg" alt="Leonard Cohen – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leonard Cohen</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-wing · 1934–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Leonard Cohen</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-leonard-cohen">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a musician and poet. This page focuses on two
+        chapters of his health history: his lifelong, repeatedly and publicly discussed depression, which
+        among other things led him to a five-year stay at a Zen monastery, and vertebral compression fractures
+        in his final years, which forced him to record his last album, "You Want It Darker," sitting down and
+        in considerable pain.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Cohen</strong> is assigned to the <strong>social Type 4 with a Five-wing</strong> – the same
+        subtype as Gustav Mahler and Edgar Allan Poe in this compass. The social Four carries its own sense of
+        being different visibly into a community that both fascinates and excludes it. The Five-wing adds a
+        contemplative, often spiritually-intellectual search for structure – Cohen's decades of Zen practice
+        and his extremely dense, disciplined poetry show exactly this combination. Both chapters of his health
+        history reflect this basic stance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Depression from a young age:</strong>
+        In numerous interviews, Cohen described depressive episodes accompanying him since his youth, often as
+        a kind of persistent, muted baseline state.</p>
+        <p class="vb-intro"><strong>b) Retreat to a Zen monastery in the 1990s:</strong>
+        In 1994, Cohen withdrew for five years to the Mount Baldy Zen Center, where he was ordained a monk in
+        1996 – a direct attempt to meet his lifelong depression with spiritual discipline.</p>
+        <p class="vb-intro"><strong>c) First physical signs of aging from the 2010s on:</strong>
+        In his final years, Cohen developed growing back problems that later turned out to be vertebral
+        compression fractures.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Financial fraud by his own manager in 2004:</strong>
+        After returning from the monastery, Cohen discovered that his longtime manager had embezzled most of
+        his fortune – a shock that forced him, at age 73, into one of the most extensive world tours of his
+        career.</p>
+        <p class="vb-intro"><strong>b) Vertebral compression fractures in his final years:</strong>
+        In his last two years, Cohen suffered several vertebral compression fractures that made standing and
+        walking considerably difficult.</p>
+        <p class="vb-intro"><strong>c) Recording his last album in pain:</strong>
+        Cohen recorded most of his final studio album, "You Want It Darker" (2016), sitting down, as standing
+        for long periods was barely possible due to his back pain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Open handling of his own depression in interviews:</strong>
+        Unlike many other artists of his generation, Cohen repeatedly spoke with remarkable clarity about his
+        depression, without dramatizing or downplaying it.</p>
+        <p class="vb-intro"><strong>b) Spiritual discipline instead of medication:</strong>
+        Cohen primarily sought to handle his depression through meditation and monastic discipline rather than
+        primarily through pharmacological treatment.</p>
+        <p class="vb-intro"><strong>c) Continued artistic work despite physical decline:</strong>
+        Despite his vertebral fractures and severe pain, Cohen completed his final album in full and released
+        it only weeks before his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in November 2016:</strong>
+        Cohen died on November 7, 2016, in Los Angeles in his sleep, following a fall combined with leukemia he
+        had never disclosed to the public.</p>
+        <p class="vb-intro"><strong>b) An album as a deliberate farewell:</strong>
+        "You Want It Darker," whose title track explicitly engages themes of death and surrender, was released
+        only 17 days before Cohen's death – interpreted in retrospect by many critics as a deliberate artistic
+        farewell.</p>
+        <p class="vb-intro"><strong>c) Late commercial and critical recognition:</strong>
+        The world tour forced by the financial fraud, beginning in 2008, brought Cohen greater commercial
+        success and recognition in old age than much of his earlier career.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Visible difference through open language about inner heaviness:</strong>
+        For the social Four, one's own difference often shows visibly to the outside world – in Cohen's case,
+        through his unusually clear, public language about his depression, which set him apart from many
+        contemporaries.</p>
+        <p class="vb-intro"><strong>b) The Five-wing as a search for structure and discipline:</strong>
+        The retreat to the Zen monastery shows the Five-wing in its purest form – a structured, almost
+        scientifically disciplined approach to a deeply emotional problem.</p>
+        <p class="vb-intro"><strong>c) Completing the work despite physical decline:</strong>
+        Finishing "You Want It Darker" despite severe pain shows the same consistency with which Cohen held to
+        his artistic task throughout his life.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A lifelong, openly discussed suffering alongside a late-onset physical
+        decline:</strong> Cohen's depression accompanied him throughout his adult life, while the vertebral
+        fractures only appeared in his final two years – two separate but interlocking chapters of his health
+        history.</p>
+        <p class="vb-intro"><strong>b) Spiritual processing instead of pure treatment:</strong>
+        For a social Four with a Five-wing, whose significance arises from the visible processing of one's own
+        difference, the depression was not merely treated but became a central theme of his spiritual and
+        artistic path.</p>
+        <p class="vb-intro"><strong>c) Why a final album about death and surrender specifically?</strong>
+        For a social Four with a Five-wing, whose identity is closely tied to the controlled artistic
+        processing of one's own experience, the deliberate completion of "You Want It Darker" can be read as a
+        consistent closing of his own life pattern: unlike Edgar Allan Poe, his own dying did not become an
+        unresolved mystery but his last, deliberately shaped artistic work. This interpretation is developed
+        further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the social Four with a Five-wing inevitably leads to depression or
+        vertebral fractures – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Cohen's case shows is a pattern in how lifelong psychological suffering and late physical decline are
+        handled that recurs in a pronounced social Four with a Five-wing – one of many possible
+        interpretations, not a verdict. The corresponding illness pattern is being developed gradually in this
+        compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Cohen, like most people of his time, had no Enneagram model. Without this knowledge he sought spiritual
+        rather than structured medical paths for decades in handling his depression, which gave him profound
+        artistic insight but offered no complete way out of his own suffering. Someone who recognizes their own
+        pattern can consciously counteract it; someone who does not processes their own heaviness artistically
+        for a lifetime instead of fully resolving it.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Four with a Five-wing is confirmed in <strong>Leonard Cohen</strong> by the clarity with
+        which he publicly processed his lifelong psychological suffering in language, and by the consistency
+        with which he deliberately shaped his final work into a farewell despite severe physical decline. The
+        armadillo carried its armor of words to the very end – and used it to make visible exactly what others
+        would have hidden.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5) – life's work"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Illness Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
     </div>
   `);
@@ -55986,7 +56146,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A suffering either downplayed publicly or hidden in shame – hypochondria and actual illness often sit close together in this group.",
-    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine", "Edvard Munch", "Edgar Allan Poe"],
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine", "Edvard Munch", "Edgar Allan Poe", "Leonard Cohen"],
     fingerabdruecke: [
       {
         titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
@@ -55996,7 +56156,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "The counter-case: the suffering is made a public artistic subject instead of being hidden",
         beschreibung: "Some cases run directly opposite to the concealment described above – here the own illness is made public deliberately and repeatedly instead of being kept quiet.",
-        beleg: "Heinrich Heine, who did not conceal his eight years of paralysis in the 'mattress grave,' but made it the direct literary subject of his poetry collection 'Romanzero' and a poem titled 'Morphine,' while continuing to receive visitors until the end rather than withdrawing; Edvard Munch, who captured his nervous breakdown, flu illness and a near-blinding eye disease alike in self-portraits, among them 'Self-Portrait with the Spanish Flu' and drawings of his own 'entoptic' visual disturbances."
+        beleg: "Heinrich Heine, who did not conceal his eight years of paralysis in the 'mattress grave,' but made it the direct literary subject of his poetry collection 'Romanzero' and a poem titled 'Morphine,' while continuing to receive visitors until the end rather than withdrawing; Edvard Munch, who captured his nervous breakdown, flu illness and a near-blinding eye disease alike in self-portraits, among them 'Self-Portrait with the Spanish Flu' and drawings of his own 'entoptic' visual disturbances; Leonard Cohen, who spoke openly and with remarkable clarity about his lifelong depression for decades and deliberately shaped his final album, 'You Want It Darker,' into an artistic farewell despite severe vertebral fractures, rather than hiding his suffering."
       }
     ]
   },
@@ -59527,6 +59687,7 @@ function gustavMahlerKrankheitsportraetPage() {
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5) – life's work"},
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – the same race against time"},
         {route:"krankheitsportraets-edgar-allan-poe", label:"Illness Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Illness Portrait: Leonard Cohen (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -115913,6 +116074,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-truman-capote": trumanCapoteKrankheitsportraetPage,
       "krankheitsportraets-edgar-allan-poe": edgarAllanPoeKrankheitsportraetPage,
       "krankheitsportraets-jean-paul-sartre": jeanPaulSartreKrankheitsportraetPage,
+      "krankheitsportraets-leonard-cohen": leonardCohenKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
