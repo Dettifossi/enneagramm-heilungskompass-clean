@@ -298,6 +298,7 @@ export function derekGoodwinPortraitPage() {
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-loris-assadian", label:"Porträt: Loris Assadian (SE4w5) – ebenfalls stiller Bezug zu Tieren"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
     </div>

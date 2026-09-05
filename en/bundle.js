@@ -1357,6 +1357,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vincent van Gogh – Self-Preservation Type 4",
     teaser:"SE4w5 · 1853–1890. Dutch painter. Around 2,100 works in just over ten years, sold only one painting in his lifetime, almost entirely dependent financially on his brother Theo. Systematic self-taught study of color theory and Japanese woodblock prints, the 1888 ear incident, \"The Starry Night\" painted from the asylum. Animal correspondence: Dove.",
     land:"Netherlands", tags:["Art"], gender:"m"},
+{ route:"beruehmte-loris-assadian", name:"Loris Assadian", added:"2026-09-05", subtyp:"SE4w5",
+    heading:"Loris Assadian – Self-Preservation Type 4",
+    teaser:"SE4w5 · born 1996. French musician (\"Plumes\"), sings melancholic love songs for individual animals worldwide. Deliberate withdrawal from his own image despite hundreds of thousands of followers – the camera belongs to the animal, not to him. Animal correspondence: Dove.",
+    land:"France", tags:["Musik"], gender:"m"},
 { route:"beruehmte-derek-goodwin", name:"Derek Goodwin", added:"2026-08-18", subtyp:"SE4w5",
     heading:"Derek Goodwin – Self-Preservation Type 4",
     teaser:"SE4w5 · 1920–2008. British ornithologist at the Natural History Museum London, definitive works on doves, crows and estrildid finches. A life spent in the background, devoted to its own archetypal animal. Animal correspondence: Dove.",
@@ -26432,6 +26436,71 @@ function miguelDeUnamunoPortraitPage() {
   `);
 }
 
+function lorisAssadianPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-loris-assadian-portrait.jpg" alt="Loris Assadian – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loris Assadian ("Plumes")</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Musician, b. 1996 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove that performs for no one</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Type 4 – a deep inner life that isn't put on public display, but carried quietly and persistently. The French musician Loris Assadian, known by the stage name "Plumes," began a few years ago at his grandmother's place in the countryside, playing Beatles songs for cows – out of pure curiosity whether music moves animals.</p>
+          <p class="vb-intro">The videos spread without him seeking it, and the quiet experiment turned into a world tour of zoos, sanctuaries, and equestrian centers. To this day he remains noticeably reserved about it: hardly any interviews, hardly any staged photos of himself – the focus is always the encounter with the individual animal, never himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: depth that doesn't put itself on display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> processes inner feeling in quiet, persistent form, without seeking applause for its own struggle. Assadian deliberately plays melancholic, minor-key love songs – by his own account, because he is convinced that animals can sense exactly this emotional depth. It isn't about entertainment for him, but about "professing his love," as he puts it himself.</p>
+          <p class="vb-intro">Despite now having hundreds of thousands of followers, the actual practice remains unchanged and intimate: one animal, one song, one genuine emotional encounter – not a performance for an audience, even if a video results from it in the end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: withdrawal instead of the spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the self-preservation Four an additional note of withdrawal – the self would rather disappear behind the cause than put itself in the foreground. In Assadian this shows in how little is publicly known about his private life, how rare iconic portrait photos of him are, and how in the viral videos he almost always stays in the background or off to the side – the camera belongs to the animal, not to him.</p>
+          <p class="vb-intro">This deliberate withdrawal from his own image, even though his popularity would easily offer a large stage, is the signature of the Five-wing: security comes from distance to one's own visibility, not from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Being understood by animals rather than seen by people</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Assadian's actual concern isn't directed at a human audience, but at the individual animal in front of him – cow, lion, penguin, horse. He describes his music as an attempt to communicate with beings he considers exceptionally intuitive and emotionally receptive, regardless of whether a human ever watches the video.</p>
+          <p class="vb-intro">This need to be understood primarily by a non-human counterpart rather than seen by a human audience clearly distinguishes his pattern from publicity-seeking artist personas – the actual reward lies in the animal's quiet response, not in the applause that follows.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in Assadian's ability to reliably share genuine emotional depth without any self-promotion – a rare quality in a public sphere shaped by viral videos that usually favor show over substance.</p>
+          <p class="vb-intro">The shadow of the self-preservation Four shows in the risk that his own withdrawal makes the person behind the mission almost entirely invisible – a risk that can become a real strain under sustained global attention, once withdrawal is no longer fully possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The musician who would rather be felt than seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loris Assadian's path shows the self-preservation Four with a Five-wing in one of its purest forms: genuine, unstaged emotional depth that deliberately withdraws from its own visibility, even as the whole world watches. The dove doesn't sing for applause – it sings so that a single being feels understood, if only for a moment.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+          {route:"beruehmte-derek-goodwin", label:"Portrait: Derek Goodwin (SP4w5) – also a quiet connection to animals"},
+          {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function vincentVanGoghPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -26493,6 +26562,7 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
+        {route:"beruehmte-loris-assadian", label:"Portrait: Loris Assadian (SP4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
       ])}
     </div>
@@ -39889,6 +39959,7 @@ function derekGoodwinPortraitPage() {
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoi (SE4w5)"},
+        {route:"beruehmte-loris-assadian", label:"Portrait: Loris Assadian (SE4w5) – also a quiet connection to animals"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-derek-goodwin")}
     </div>
@@ -53928,12 +53999,12 @@ const LEBENSMUSTERKOMPASS = {
   SE4: {
     tier: "Dove",
     kernthema: "A deep emotional life that is not put on display, but carried quietly and persistently",
-    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney", "Cecily Brown"],
+    beispiele: ["Sam Altman", "Lady Diana", "Tim Bendzko", "Adele", "Nicolas Cage", "Karoline Herfurth", "Clemens G. Arvay", "Paul McCartney", "Leo Tolstoy", "David Berkowitz", "Derek Goodwin", "Honoré de Balzac", "Andrew", "T. E. Lawrence", "Vincent van Gogh", "Miguel de Unamuno", "Ludwig Göransson", "Charlotte Wells", "June Carter Cash", "Peter Gabriel", "Virginia Woolf", "Sally Rooney", "Cecily Brown", "Loris Assadian"],
     fingerabdruecke: [
       {
         titel: "Deep emotional life that is not publicly displayed, but processed quietly",
         beschreibung: "Unlike the louder Four subtypes, inner pain or depth shows itself hardly at all outwardly. Processing happens in quiet, often decades-long persistence – without seeking applause for one's own inner struggle.",
-        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Charlotte Wells, who did not process the early loss of her father publicly for nearly two decades and to this day has not confirmed how much of her acclaimed film 'Aftersun' is actually autobiographical; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
+        beleg: "Sam Altman and Leo Tolstoy are described in almost identical terms: 'It doesn't put its deep emotional life on display, but processes it in quiet, often decades-long persistence. It seeks no applause for its inner struggle'; Paul McCartney, about whose 'deepest inner self surprisingly little is known,' despite over sixty years in public life; Clemens G. Arvay, whose work carried 'no drama, no self-staging, but a message that carries and remains'; Derek Goodwin, whose definitive works on doves, crows and estrildid finches shaped generations of ornithologists while he himself stayed so invisible as the 'quiet expert in the background' that hardly any photograph of him can be found; Loris Assadian, who despite hundreds of thousands of followers stays almost always in the background of his own viral videos, because the camera is meant to belong to the animal, not to him; Ludwig Göransson, whose scores for 'Black Panther' and 'Oppenheimer' earned two Oscars and global cultural impact while his own name remains unknown to most viewers – significance without visibility; Adele, described in everyday life as humorous and down-to-earth, while the pain behind her biggest songs is processed privately before it reaches the stage – 'you don't complain in public, you write an album'; Lady Diana, who kept her years-long bulimia so completely hidden behind a flawless public facade that even her closest circle long knew few details, and who first spoke about it publicly herself only in 1995; Charlotte Wells, who did not process the early loss of her father publicly for nearly two decades and to this day has not confirmed how much of her acclaimed film 'Aftersun' is actually autobiographical; Andrew, the first-called of the disciples, who was 'always present among the Twelve, but rarely at the center' and never highlighted his greatest moment: 'I was the first to recognize him. And that is enough.'"
       },
       {
         titel: "Toughness despite vulnerability – keeps carrying on, returns where others would give up",
@@ -113786,6 +113857,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-john-ioannidis": johnIoannidisPortraitPage,
       "beruehmte-christian-drosten": christianDrostenPortraitPage,
       "beruehmte-vincent-van-gogh": vincentVanGoghPortraitPage,
+      "beruehmte-loris-assadian": lorisAssadianPortraitPage,
       "beruehmte-sally-rooney": sallyRooneyPortraitPage,
       "beruehmte-virginia-woolf": virginiaWoolfPortraitPage,
       "beruehmte-cecily-brown": cecilyBrownPortraitPage,

@@ -1494,6 +1494,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
+        {route:"beruehmte-loris-assadian", label:"Porträt: Loris Assadian (SE4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – der Konflikt in Arles"},
       ])}
     </div>
@@ -1749,6 +1750,70 @@ export function emmanuelMacronPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-brigitte-macron", label:"Portr\xe4t: Brigitte Macron (SX3w2) – seine Frau"},
       ])}
+    </div>
+  `);
+}
+
+export function lorisAssadianPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-loris-assadian-portrait.jpg" alt="Loris Assadian – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Loris Assadian („Plumes")</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1996 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die niemandem etwas vorspielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typs 4 – ein tiefes Gefühlsleben, das nicht öffentlich zur Schau gestellt, sondern still und beharrlich getragen wird. Der französische Musiker Loris Assadian, unter dem Künstlernamen „Plumes" bekannt, begann vor einigen Jahren bei seiner Großmutter auf dem Land, Kühen Beatles-Lieder vorzuspielen – aus reiner Neugier, ob Musik Tiere berührt.</p>
+          <p class="vb-intro">Die Videos verbreiteten sich, ohne dass er das gesucht hätte, und aus dem stillen Experiment wurde eine Welttournee zu Zoos, Gnadenhöfen und Reiterhöfen. Bis heute bleibt er dabei auffällig zurückhaltend: kaum Interviews, kaum inszenierte Fotos von sich selbst – im Zentrum steht immer die Begegnung mit dem einzelnen Tier, nie er selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe, die sich nicht zur Schau stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> verarbeitet inneres Gefühl in stiller, beharrlicher Form, ohne Applaus für das eigene Ringen zu suchen. Assadian spielt bewusst melancholische, in Moll gehaltene Liebeslieder – seiner eigenen Aussage nach, weil er überzeugt ist, dass Tiere gerade diese emotionale Tiefe wahrnehmen können. Es geht ihm nicht um Unterhaltung, sondern darum, „seine Liebe zu erklären", wie er es selbst formuliert.</p>
+          <p class="vb-intro">Trotz mittlerweile Hunderttausender Follower bleibt die eigentliche Praxis unverändert intim: ein Tier, ein Lied, eine echte emotionale Begegnung – kein Bühnenauftritt vor Publikum, auch wenn am Ende ein Video daraus wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug statt Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der selbsterhaltenden Vier eine zusätzliche Note von Zurückgezogenheit – lieber verschwindet die eigene Person hinter der Sache, als sich selbst in den Vordergrund zu stellen. Bei Assadian zeigt sich das darin, dass öffentlich kaum etwas über sein Privatleben bekannt ist, ikonische Porträtfotos von ihm selbst rar sind und er in den viralen Videos fast immer im Hintergrund oder seitlich im Bild bleibt – die Kamera gehört dem Tier, nicht ihm.</p>
+          <p class="vb-intro">Dieser bewusste Rückzug aus dem eigenen Bild, obwohl die Popularität längst eine große Bühne böte, ist die Signatur des Fünferflügels: Sicherheit entsteht durch Distanz zur eigenen Sichtbarkeit, nicht durch sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verstanden werden von den Tieren statt gesehen werden von Menschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Assadians eigentliches Anliegen richtet sich nicht an ein menschliches Publikum, sondern an das einzelne Tier vor ihm – Kuh, Löwe, Pinguin, Pferd. Er beschreibt seine Musik als einen Versuch, mit Wesen zu kommunizieren, die er für außergewöhnlich intuitiv und emotional empfänglich hält, unabhängig davon, ob je ein Mensch das Video sieht.</p>
+          <p class="vb-intro">Dieses Bedürfnis, primär von einem nicht-menschlichen Gegenüber verstanden statt von einem menschlichen Publikum gesehen zu werden, unterscheidet sein Muster deutlich von öffentlichkeitssuchenden Künstlerpersönlichkeiten – die eigentliche Belohnung liegt in der stillen Reaktion des Tieres, nicht im Applaus danach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Assadians Fähigkeit, echte emotionale Tiefe verlässlich und ohne jede Selbstinszenierung zu teilen – ein seltenes Gut in einer von viralen Videos geprägten Öffentlichkeit, die meist auf Show statt auf Substanz setzt.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Vier zeigt sich in der Gefahr, dass die eigene Zurückgezogenheit die Person hinter der Mission fast vollständig unsichtbar macht – ein Risiko, das bei anhaltender globaler Aufmerksamkeit zur Zerreißprobe werden kann, wenn Rückzug irgendwann nicht mehr möglich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Musiker, der lieber gefühlt als gesehen werden will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Loris Assadians Weg zeigt die selbsterhaltende Vier mit Fünferflügel in einer ihrer reinsten Formen: echte, unverstellte emotionale Tiefe, die sich absichtlich der eigenen Sichtbarkeit entzieht, obwohl die ganze Welt zusieht. Die Taube singt nicht für den Applaus – sie singt, damit ein einzelnes Wesen sich für einen Moment verstanden fühlt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-derek-goodwin", label:"Porträt: Derek Goodwin (SE4w5) – ebenfalls stiller Bezug zu Tieren"},
+          {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        ])}
+      </div>
     </div>
   `);
 }
