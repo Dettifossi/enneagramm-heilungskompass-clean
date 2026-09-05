@@ -1742,3 +1742,66 @@ export function alanWattsPortraitPage() {
     </div>
   `);
 }
+
+export function bastianSchweinsteigerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bastian-schweinsteiger-portrait.jpg" alt="Bastian Schweinsteiger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bastian Schweinsteiger</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Fußballer, geb. 1984 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der nie allein lief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 – ein Tier, das nicht als Einzeltier auftritt, sondern seine Kraft aus der Herde bezieht, mit der es verschmilzt. Bastian Schweinsteiger wurde über zwei Jahrzehnte zum Inbegriff dieses Musters: Mittelfeldspieler des FC Bayern München, Kapitän der deutschen Nationalmannschaft, Weltmeister 2014 – und dabei über die gesamte Karriere hinweg jemand, der auffällig selten über sich selbst sprach, fast immer über die Mannschaft.</p>
+          <p class="vb-intro">Das Bild, das von ihm bleibt, ist kein Solo-Moment. Es ist das eines blutüberströmten Gesichts im WM-Finale 2014 gegen Argentinien – verletzt, weitergespielt, bis der Pokal in der Hand der ganzen Mannschaft lag, nicht in seiner allein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit, nicht durch die einzelne Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte diesen Subtyp den der <strong>›Teilhabe‹</strong>: Das eigene Selbst tritt nicht als Einzelperson auf, sondern verschmilzt mit einer Gruppe, einer Idee, einer größeren Sache. Bei Schweinsteiger zeigte sich das in einer über die gesamte Karriere bemerkenswert konstanten Bescheidenheit gegenüber dem eigenen Star-Status – trotz Weltklasse-Niveau, trotz Kapitänsbinde, trotz eines Champions-League-Titels 2013, sprach er in Interviews fast durchgängig von „wir", selten von „ich".</p>
+          <p class="vb-intro">Diese Grundhaltung teilt er mit Tom Hanks (ebenfalls SO9w1), dessen legendäre Angewohnheit, die Namen aller Crewmitglieder am Set zu lernen, exakt dasselbe Prinzip zeigt: Die eigene Bedeutung entsteht nicht aus dem Star-Status, sondern aus dem reibungslosen Aufgehen im gemeinsamen Ganzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin und Prinzipientreue statt bloßer Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> verleiht der sozialen Neun eine zusätzliche Note von Disziplin, Ordnungssinn und einem inneren Anspruch an das eigene Spiel, die über bloßes Mitschwimmen hinausgeht. Schweinsteigers akribische Trainingsdisziplin, sein taktisches Verständnis im Mittelfeld und sein Ruf als „Musterprofi" – trotz jahrelanger Verletzungsprobleme, die er konsequent durchtrainierte, statt aufzugeben – zeigen diesen Einser-Anteil deutlich.</p>
+          <p class="vb-intro">Ohne den Flügel bliebe die Neun eher ein reines Aufgehen in der Gruppe. Mit dem Einserflügel kommt ein zusätzlicher, innerer Maßstab hinzu: nicht nur dazugehören, sondern es auch richtig machen – ein Motiv, das sich durch seine gesamte, ungewöhnlich lange Karriere auf höchstem Niveau zieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Ruhige Führung, der die Mannschaft folgte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Kapitän führte Schweinsteiger nie durch Lautstärke oder demonstrative Ansagen. Weggefährten und Trainer beschrieben ihn wiederholt als ruhenden Pol in der Kabine – jemand, der durch Präsenz und Verlässlichkeit wirkte, nicht durch Dominanz. Genau dieses Muster beschreibt der Lebensmusterkompass bei Ronald Reagan: „Der Büffel führt nicht durch Befehl, sondern durch Bewegung: Wenn er läuft, läuft die Herde mit."</p>
+          <p class="vb-intro">Auch die 2010 begonnene Wandlung vom offensiven Flügelspieler zum zentralen Mittelfeldregisseur unter Louis van Gaal vollzog sich ohne öffentliches Drama – eine stille Anpassung an die Bedürfnisse der Mannschaft, die seine Karriere erst auf ihren Höhepunkt brachte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 zeigt sich in Schweinsteigers Fähigkeit, eine ganze Mannschaft über Jahre zusammenzuhalten, ohne sich selbst in den Mittelpunkt zu stellen – eine seltene Konstante in einem Sport, der Einzelkönner oft über das Kollektiv stellt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich darin, wie lange er körperliche Warnsignale schweigend ertrug: Über Jahre spielte er mit chronischen Knie- und Sprunggelenksproblemen weiter, bis der Körper 2015/16 zunehmend Tribut forderte – ein geduldiges Tragen der Last, wie es der Kompass bei Nick Leeson und Willy Brandt beschreibt, nur hier in sportlicher statt politischer Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Büffel, der die Herde nie verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bastian Schweinsteigers Karriere zeigt die soziale Neun mit Einserflügel in ihrer erfolgreichsten Form: ein Spieler von Weltklasse, dessen größte Stärke nie die eigene Bühne war, sondern das Ganze, dem er diente. Der Büffel brüllt nicht – er trägt die Herde, bis sie gemeinsam ankommt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+          {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – ebenfalls SO9w1"},
+        ])}
+      </div>
+    </div>
+  `);
+}

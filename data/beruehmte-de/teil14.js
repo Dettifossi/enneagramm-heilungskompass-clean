@@ -1739,6 +1739,7 @@ export function tomHanksPortraitPage() {
         {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
         {route:"beruehmte-peter-falk", label:"Portr\xe4t: Peter Falk (SO9w1)"},
         {route:"beruehmte-sandra-hueller", label:"Portr\xe4t: Sandra H\xfcller (SO9w1)"},
+        {route:"beruehmte-bastian-schweinsteiger", label:"Portr\xe4t: Bastian Schweinsteiger (SO9w1)"},
       ])}
     </div>
   `);

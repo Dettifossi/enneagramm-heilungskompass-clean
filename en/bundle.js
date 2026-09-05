@@ -2273,6 +2273,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tom Hanks – Social Type 9",
     teaser:"SO9w1 · born 1956. American actor, Hollywood's 'nicest guy.' Two Oscars, decades-long commitment to World War II history. The buffalo who, out of a fractured childhood, lived his way into an entire nation as family. Animal correspondence: Buffalo.",
     land:"USA", tags:["Film"], gender:"m"},
+{ route:"beruehmte-bastian-schweinsteiger", name:"Bastian Schweinsteiger", added:"2026-09-05", subtyp:"SO9w1",
+    heading:"Bastian Schweinsteiger – Social Type 9",
+    teaser:"SO9w1 · born 1984. German footballer, 2014 World Cup winner, captain of Bayern Munich and the national team. The buffalo that never left the herd – identity through the team, not through his own spotlight.",
+    land:"Germany", tags:["Sport"], gender:"m"},
 { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan – Social Type 9",
     teaser:"SO9w8 · 1911–2004. 40th President of the USA 1981–1989. The Great Communicator: Morning in America, Evil Empire, Gorbachev. The buffalo that smiles - and that the herd follows.",
@@ -24113,6 +24117,70 @@ function sandraHuellerPortraitPage() {
   `);
 }
 
+function bastianSchweinsteigerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bastian-schweinsteiger-portrait.jpg" alt="Bastian Schweinsteiger – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bastian Schweinsteiger</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Footballer, b. 1984 &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The buffalo that never ran alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Type 9 – an animal that doesn't appear as a lone individual, but draws its strength from the herd it merges with. Over two decades, Bastian Schweinsteiger became the embodiment of this pattern: midfielder for FC Bayern Munich, captain of the German national team, 2014 World Cup winner – and throughout his entire career, someone who noticeably rarely spoke about himself, almost always about the team.</p>
+          <p class="vb-intro">The image that remains of him is not a solo moment. It is a blood-streaked face in the 2014 World Cup final against Argentina – injured, playing on, until the trophy rested in the hands of the whole team, not his alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: identity through belonging, not through the individual person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called this subtype <strong>"participation"</strong>: the self does not appear as an individual, but merges with a group, an idea, a larger cause. In Schweinsteiger this showed as a remarkably consistent modesty toward his own star status across his entire career – despite world-class ability, despite the captain's armband, despite a 2013 Champions League title, he almost always spoke of "we" in interviews, rarely of "I."</p>
+          <p class="vb-intro">He shares this basic stance with Tom Hanks (also SO9w1), whose legendary habit of learning the names of every crew member on set shows exactly the same principle: his own significance comes not from star status, but from dissolving frictionlessly into the shared whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: discipline and principle instead of mere adaptation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine an additional note of discipline, orderliness, and an inner standard for one's own play that goes beyond simply going along with the group. Schweinsteiger's meticulous training discipline, his tactical understanding in midfield, and his reputation as a "model professional" – despite years of injury problems that he consistently trained through rather than giving up – show this One-component clearly.</p>
+          <p class="vb-intro">Without the wing, the Nine tends to remain purely dissolved in the group. With the One-wing, an additional inner standard is added: not just belonging, but also doing it right – a motif that runs through his entire, unusually long career at the highest level.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Calm leadership the team followed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As captain, Schweinsteiger never led through loudness or demonstrative statements. Teammates and coaches repeatedly described him as a calm anchor in the locker room – someone who worked through presence and reliability, not dominance. That is exactly the pattern the life-pattern compass describes for Ronald Reagan: "The buffalo does not lead by command, but by movement: when it moves, the herd moves with it."</p>
+          <p class="vb-intro">His transformation, begun in 2010 under Louis van Gaal, from an offensive winger into a central midfield playmaker also happened without public drama – a quiet adaptation to the team's needs that brought his career to its true peak.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 shows in Schweinsteiger's ability to hold an entire team together for years without putting himself at the center – a rare constant in a sport that often places individual brilliance above the collective.</p>
+          <p class="vb-intro">The shadow shows in how long he silently endured physical warning signs: for years he played on with chronic knee and ankle problems, until his body increasingly demanded its toll in 2015/16 – a patient carrying of the load, as the compass describes for Nick Leeson and Willy Brandt, only here in athletic rather than political form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The buffalo that never left the herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bastian Schweinsteiger's career shows the social Nine with a One-wing in its most successful form: a world-class player whose greatest strength was never his own spotlight, but the whole he served. The buffalo doesn't roar – it carries the herd until they arrive together.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+          {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – also SO9w1"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function tomHanksPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24174,6 +24242,7 @@ function tomHanksPortraitPage() {
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
         {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+        {route:"beruehmte-bastian-schweinsteiger", label:"Portrait: Bastian Schweinsteiger (SO9w1)"},
       ])}
     </div>
   `);
@@ -53224,7 +53293,7 @@ const LEBENSMUSTERKOMPASS = {
   SO9: {
     tier: "Buffalo",
     kernthema: "Identity through belonging to a community, not through the individual person (Naranjo: Participation)",
-    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas", "Tom Hanks"],
+    beispiele: ["Amelia Earhart", "Sandra Hüller", "Kevin Costner", "Peter Falk", "Steffi Graf", "Julian Assange", "Ronald Reagan", "Wilma Mankiller", "Willy Brandt", "Nick Leeson", "Leslie Van Houten", "Dr. Alan McElligott", "Barabbas", "Tom Hanks", "Bastian Schweinsteiger"],
     fingerabdruecke: [
       {
         titel: "Identity through belonging to a cause or community, not through the individual person",
@@ -53234,7 +53303,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Calm, unhurried presence that the herd nonetheless follows",
         beschreibung: "Leadership or impact arises not through command, volume, or dominance, but through a mere, trust-inspiring presence that others join of their own accord.",
-        beleg: "Ronald Reagan: 'The buffalo doesn't lead by command, but by movement: when it walks, the herd walks with it'; Peter Falk as Columbo: 'An investigator who never shouts, never threatens ... The buffalo looks as if you could push it aside. You're wrong every time'; Steffi Graf: 'She makes no drama. She needs no audience to know she is there ... The buffalo proves nothing. It's simply there – and it wins.'"
+        beleg: "Ronald Reagan: 'The buffalo doesn't lead by command, but by movement: when it walks, the herd walks with it'; Peter Falk as Columbo: 'An investigator who never shouts, never threatens ... The buffalo looks as if you could push it aside. You're wrong every time'; Steffi Graf: 'She makes no drama. She needs no audience to know she is there ... The buffalo proves nothing. It's simply there – and it wins.'; Bastian Schweinsteiger, whose teammates and coaches repeatedly described him as a calm anchor in the locker room – leadership through presence and reliability rather than demonstrative statements, as captain of the German national team."
       },
       {
         titel: "Patiently carrying the burden until a point is reached where something breaks through",
@@ -113773,6 +113842,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-anna-anderson": annaAndersonPortraitPage,
       "beruehmte-peter-falk": peterFalkPortraitPage,
       "beruehmte-tom-hanks": tomHanksPortraitPage,
+      "beruehmte-bastian-schweinsteiger": bastianSchweinsteigerPortraitPage,
       "beruehmte-dietmar-baer": dietmarBaerPortraitPage,
       "beruehmte-klaus-j-behrendt": klausJBehrendtPortraitPage,
       "beruehmte-shakira": shakiraPortraitPage,
