@@ -1770,7 +1770,7 @@ export function rupertSpiraPortraitPage() {
         <h2 class="vb-section">2. Die soziale Sieben: Dienst an etwas Größerem als sich selbst</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> baut nicht für den eigenen Ruhm, sondern im Dienst einer Idee oder Gemeinschaft, die größer ist als die eigene Person. Bei Spira zeigt sich das im vollständigen Bruch mit einer bereits erfolgreichen Keramikkarriere zugunsten einer Lehrtätigkeit, die keinerlei Garantie auf ähnlichen Erfolg bot – eine Entscheidung, die einzig der Weitergabe eines als wesentlich erkannten Verständnisses diente.</p>
-          <p class="vb-intro">Das teilt er mit Jeanne-Marie Guyon, die der Lebensmusterkompass als jemanden beschreibt, der ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹. Spiras jahrzehntelange, unermüdliche Lehrtätigkeit in aller Welt zeigt dasselbe Muster: kontinuierliches Bauen an einem geistigen Werk, das über die eigene Biografie hinausreicht.</p>
+          <p class="vb-intro">Das teilt er mit Jeanne-Marie Guyon (SO7w6), die der Lebensmusterkompass als jemanden beschreibt, der ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹. Spiras jahrzehntelange, unermüdliche Lehrtätigkeit in aller Welt zeigt dasselbe Muster: kontinuierliches Bauen an einem geistigen Werk, das über die eigene Biografie hinausreicht.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Sechserflügel: Verwurzelung in einer geprüften Tradition</h2>

@@ -39512,7 +39512,7 @@ function rupertSpiraPortraitPage() {
         <h2 class="vb-section">2. The social Seven: service to something greater than oneself</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>social Seven (SO7)</strong> doesn't build for its own glory, but in service of an idea or community greater than itself. In Spira this shows in the complete break with an already successful ceramics career in favor of a teaching path that offered no guarantee of comparable success – a decision made solely to pass on an understanding he had recognized as essential.</p>
-          <p class="vb-intro">He shares this with Jeanne-Marie Guyon, whom the life-pattern compass describes as someone who "devoted her entire life to a single structure" – "no territory, no power, no personal fame, but service to a spiritual idea." Spira's decades of tireless teaching around the world shows the same pattern: continuous building on a spiritual work that reaches beyond his own biography.</p>
+          <p class="vb-intro">He shares this with Jeanne-Marie Guyon (SO7w6), whom the life-pattern compass describes as someone who "devoted her entire life to a single structure" – "no territory, no power, no personal fame, but service to a spiritual idea." Spira's decades of tireless teaching around the world shows the same pattern: continuous building on a spiritual work that reaches beyond his own biography.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Six-wing: rootedness in a tested tradition</h2>
