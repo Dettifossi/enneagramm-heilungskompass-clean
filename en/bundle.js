@@ -380,6 +380,11 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
   { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Self-Preservation Type 4", krankheit:"Decades of exploiting his body through compulsive overwork and caffeine excess, heart failure with fatal gangrene", teaser:"SE4w3 – French writer, 1799–1850. Decades of all-night writing marathons and excessive coffee consumption, progressive heart failure, gangrene following repeated trocar procedures for leg edema, died August 18, 1850, five months after his wedding to Ewelina Hańska." , land:"France", gender:"m", jahre:"1799–1850"},
   { route:"krankheitsportraets-t-e-lawrence", name:"T. E. Lawrence", subtyp:"SE4w3", heading:"T. E. Lawrence – Self-Preservation Type 4", krankheit:"Thirteen years of sustained depression and suspected post-traumatic stress disorder after Deraa 1917, self-arranged punishment ritual", teaser:"SE4w3 – British officer, archaeologist, 1888–1935. Chronic depression and self-hatred from 1922 until his death, voluntary retreat under two false names into the lowest military ranks, self-arranged flogging ritual from 1923, died May 19, 1935 after a motorcycle accident." , land:"United Kingdom", gender:"m", jahre:"1888–1935"},
+  { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
+  { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
+  { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
+  { route:"krankheitsportraets-klara-von-assisi", name:"Clare of Assisi", subtyp:"SE3w2", heading:"Clare of Assisi – Self-Preservation Type 3", krankheit:"Chronic, never conclusively diagnosed illness with roughly 27 to 29 years largely confined to bed", teaser:"SE3w2 – founder of a religious order, 1194–1253. Largely bedridden from about 1224 until her death in 1253, yet led the order of the ›Poor Ladies‹ until the very end. Died two days after papal confirmation of her order's rule." , land:"Italy", gender:"f", jahre:"1194–1253"},
+  { route:"krankheitsportraets-jean-jacques-rousseau", name:"Jean-Jacques Rousseau", subtyp:"SX5w4", heading:"Jean-Jacques Rousseau – Sexual Type 5", krankheit:"Chronic urinary condition over decades, growing persecution complex in his final years", teaser:"SX5w4 – philosopher, 1712–1778. Lifelong painful urinary complaints, growing persecution complex toward former companions after the 1762 condemnation of ›Émile‹. Processed both radically openly in the ›Confessions‹. Died in 1778 in Ermenonville." , land:"Geneva/France", gender:"m", jahre:"1712–1778"},
   { route:"krankheitsportraets-jamie-lee-curtis", name:"Jamie Lee Curtis", subtyp:"SX1w2", heading:"Jamie Lee Curtis – Sexual Type 1", krankheit:"22-year opioid dependency after cosmetic surgery", teaser:"SX1w2 – actress and activist, b. 1958. Opioid dependency beginning in 1989 after a cosmetic procedure, kept secret for over ten years, sober since 19 February 1999." , land:"USA", gender:"f", jahre:"b. 1958"},
   { route:"krankheitsportraets-genesis-p-orridge", name:"Genesis P-Orridge", subtyp:"SX8w9", heading:"Genesis P-Orridge – Sexual Type 8", krankheit:"Leukemia, progressing over years, died 2020", teaser:"SX8w9 – musician, performance artist, and occultist, 1950–2020. Leukemia spanning several years, artistically active until shortly before death, died on 14 March 2020 in New York." , land:"United Kingdom", gender:"nonbinary", jahre:"1950–2020"},
   { route:"krankheitsportraets-billie-eilish", name:"Billie Eilish", subtyp:"SX4w3", heading:"Billie Eilish – Sexual Type 4", krankheit:"Tourette syndrome, kept secret for years; severe depressive period with self-harm as a teenager", teaser:"SX4w3 – singer and songwriter, b. 2001. Tourette syndrome since childhood, publicly confirmed only in 2018; also severe depression with self-harm from around age twelve, documented in 2021." , land:"USA", gender:"f", jahre:"b. 2001"},
@@ -36854,6 +36859,736 @@ function honoreDeBalzacKrankheitsportraetPage() {
   `);
 }
 
+function alanTuringKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alan-turing-portrait.jpg" alt="Alan Turing – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Turing</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing · 1912–1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alan Turing</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-alan-turing">portrait under Famous Personalities</a>
+        in this compass – that page covers his pioneering work as a mathematician and cryptanalyst. This page
+        focuses on a different chapter: in 1952 Turing was convicted for homosexual acts, which were criminal
+        in the UK at the time. Instead of prison he chose a court-ordered hormone treatment (estrogen
+        injections, colloquially "chemical castration") lasting over a year, with significant physical and
+        psychological effects. He died in 1954 of cyanide poisoning, officially ruled a suicide.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Turing</strong> is assigned to the <strong>sexual Type 5 with a Four-wing</strong>. The sexual
+        Five seeks trust and complete devotion to a single idea or person, rather than withdrawing into
+        distance like the other Five subtypes. The Four-wing adds emotional depth and a sense of being
+        different – Turing's complete devotion to his mathematical thinking was inseparable from the feeling of
+        living in a society that criminalized his nature.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A report after a burglary:</strong>
+        In 1952 Turing reported a burglary at his home – the investigation revealed his relationship with a
+        young man, leading to a charge of "gross indecency."</p>
+        <p class="vb-intro"><strong>b) The choice between prison and treatment:</strong>
+        Given the choice between imprisonment and a year of hormone treatment, Turing chose the latter so he
+        could continue his scientific work.</p>
+        <p class="vb-intro"><strong>c) Start of the estrogen treatment:</strong>
+        The synthetic estrogen treatment, intended to suppress his libido, began in 1952 and led within months
+        to gynecomastia (breast growth) and weight gain.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Loss of security clearance:</strong>
+        As a result of the conviction, Turing lost his security clearance for work with the intelligence
+        agency GCHQ – work that had previously formed a central part of his identity as a scientist.</p>
+        <p class="vb-intro"><strong>b) Continued scientific work regardless:</strong>
+        Despite the treatment and social ostracism, Turing continued his research into mathematical biology
+        (morphogenesis) – a retreat into a purely intellectual field relatively independent of people.</p>
+        <p class="vb-intro"><strong>c) Growing social isolation:</strong>
+        The public knowledge of the conviction within his immediate circle reinforced an already existing
+        tendency to withdraw from social contact.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) No public complaint:</strong>
+        Turing hardly spoke publicly about the treatment he endured or its effects – a pattern typical of the
+        sexual Five, processing inner experience internally rather than putting it on display.</p>
+        <p class="vb-intro"><strong>b) Retreat into symbolic, private rituals:</strong>
+        Friends reported increasingly introverted, withdrawn behavior in his final months.</p>
+        <p class="vb-intro"><strong>c) The poisoned apple as a final symbol:</strong>
+        A partially eaten apple laced with cyanide was found by his bed – an image still strongly tied to his
+        memory, whose exact significance has never been fully established.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A loss for science at only 41:</strong>
+        Turing's death ended a career that had already laid the foundations of modern computing and made a
+        decisive contribution to breaking the German Enigma cipher in World War II.</p>
+        <p class="vb-intro"><strong>b) An official apology only decades later:</strong>
+        The British government apologized officially only in 2009, followed by a royal pardon in 2013 – Turing
+        himself lived to see neither.</p>
+        <p class="vb-intro"><strong>c) A symbol of state-sanctioned persecution:</strong>
+        His case became one of the best-known examples of the criminal prosecution of homosexuals in the 20th
+        century and continues to shape debates about posthumous justice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Retreat into the intellectual as a protective space:</strong>
+        For the sexual Five with a Four-wing, one's own thinking becomes the last untouchable refuge when the
+        outer world turns threatening – Turing immersed himself even more deeply in abstract mathematical
+        questions during his crisis.</p>
+        <p class="vb-intro"><strong>b) No search for public solidarity:</strong>
+        Rather than fighting publicly for his rights, Turing processed the experience almost entirely in
+        private – typical of the introverted Five, wrestling with itself.</p>
+        <p class="vb-intro"><strong>c) The Four-wing's note of quiet despair:</strong>
+        The Four-wing shows in the deeply felt sense of being different, which state persecution confirmed in
+        the most crushing possible way.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) An imposed, not a self-chosen illness history:</strong>
+        Unlike most other cases in this compass, Turing's "treatment" was not an illness in the usual sense but
+        a legally enforced medical measure with harmful effects.</p>
+        <p class="vb-intro"><strong>b) Withdrawal as the only remaining course of action:</strong>
+        For a sexual Five, whose security lies in trusting a select few people and ideas, public exposure meant
+        a fundamental attack on this protective strategy.</p>
+        <p class="vb-intro"><strong>c) Why withdrawal into silence specifically?</strong>
+        For a sexual Five with a Four-wing, who grants trust only very selectively, the near-total silence about
+        the treatment he endured can be read as the last remaining form of self-determination – when the body
+        and legal standing are already controlled by others, the inner world remains the only space still under
+        one's own control. This interpretation is developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the sexual Five with a Four-wing inevitably leads to such an ending –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> Turing's case is above all the
+        result of state persecution, not primarily explainable psychosomatically. What his case shows is a
+        pattern in how imposed suffering is handled that recurs in a pronounced sexual Five with a Four-wing –
+        one of many possible interpretations, not a verdict. The corresponding illness pattern is being
+        developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Turing, like most people, did not consciously know his Enneagram pattern. Without this knowledge he
+        processed the forced treatment almost entirely through withdrawal, rather than seeking outside support –
+        a trait that helped him in his scientific work but further isolated him in his personal crisis. Someone
+        who recognizes their own pattern can consciously counteract it; someone who does not repeats it until no
+        other option remains.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Five with a Four-wing is confirmed in <strong>Alan Turing</strong> by how he responded to the
+        forced treatment: with quiet withdrawal into his own world of thought rather than public resistance.
+        The hedgehog that curls up when the world turns threatening found no way back to openness in the end –
+        but his scientific work outlasted the persecution that he himself did not survive.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – life's work"},
+        {route:"krankheitsportraets-jean-jacques-rousseau", label:"Illness Portrait: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
+function franzVonAssisiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-von-assisi-portrait.jpg" alt="Francis of Assisi – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Francis of Assisi</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing · 1181/82–1226</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Francis of Assisi</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as founder of a religious order. This page focuses on
+        his health decline in his final years: progressive blindness (likely trachoma, worsened by fasting and
+        travel in the Middle East), the wounds (stigmata) that appeared in 1224 according to his own account and
+        that of his companions, and chronic digestive and stomach ailments that increasingly weakened him. He
+        died in 1226 at only 44 years of age.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Francis of Assisi</strong> is assigned to the <strong>social Type 7 with a Six-wing</strong>.
+        Naranjo called the social Seven the counter-type of the Seven: restless building in service of the
+        community, not in service of one's own enjoyment. The Six-wing adds loyalty to a cause or community –
+        Francis founded the Franciscan Order, an institution meant to endure far beyond his own death, and
+        remained devoted to it even as his blindness progressed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) First eye trouble after a journey to the Middle East:</strong>
+        After his journey to Egypt and the Holy Land during the Fifth Crusade (1219), his eyesight increasingly
+        deteriorated – likely due to a trachoma infection contracted there.</p>
+        <p class="vb-intro"><strong>b) Worsened by radical asceticism:</strong>
+        His strict, self-imposed fasting practice and renunciation of any comfort further weakened his body.</p>
+        <p class="vb-intro"><strong>c) Growing sensitivity to light:</strong>
+        Contemporary accounts describe a growing inability to tolerate daylight, years before his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The stigmata of La Verna in 1224:</strong>
+        Two years before his death, Francis and his companions reported wounds on his hands, feet, and side
+        resembling the wounds of the crucifixion – an event that further strained his health.</p>
+        <p class="vb-intro"><strong>b) Near-total blindness:</strong>
+        In his last two years, Francis was, according to consistent sources, practically blind.</p>
+        <p class="vb-intro"><strong>c) Chronic stomach and digestive complaints:</strong>
+        Contemporary biographers attributed his persistent stomach problems to decades of extreme asceticism.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The Canticle of the Sun despite near-total blindness:</strong>
+        In precisely this phase of physical decline, Francis composed his famous "Canticle of the Sun" in
+        1224/25 – one of his best-known works, created not despite but in the midst of his illness.</p>
+        <p class="vb-intro"><strong>b) Continued travel despite weakness:</strong>
+        Even after the first signs of blindness, Francis continued to travel to visit and encourage his order.</p>
+        <p class="vb-intro"><strong>c) Refusal of available treatment:</strong>
+        Only late, and at the urging of his companions, did Francis accept rudimentary medical treatment – his
+        own attitude placed service to the community above his own health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death at only 44:</strong>
+        Francis died on October 3, 1226, at the Portiuncula chapel near Assisi, weakened by years of progressive
+        blindness and physical decline.</p>
+        <p class="vb-intro"><strong>b) Canonized just two years later:</strong>
+        Francis was canonized as early as 1228 – his illness became part of the narrative of his devotion to
+        the very end.</p>
+        <p class="vb-intro"><strong>c) An order that outlasted him:</strong>
+        The Franciscan Order he founded still exists today, with hundreds of thousands of members worldwide
+        across its various branches.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Creative activity despite physical decline:</strong>
+        For the social Seven, standstill is nearly unbearable – nearly blind and weakened, Francis still
+        created one of his most significant works with the Canticle of the Sun.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as loyalty to one's own community:</strong>
+        His continued visits to his fellow friars despite blindness show the loyalty of the Six-wing – the bond
+        to the community outweighed self-care.</p>
+        <p class="vb-intro"><strong>c) Warning signs overridden in favor of the mission:</strong>
+        As with other social Sevens in this compass, early physical warning signs were long overridden in favor
+        of continued travel and founding activity.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A chain of worsening ailments over more than a decade:</strong>
+        From the first eye trouble after 1219 to his death in 1226, Francis's health followed a steadily
+        progressing decline that he never used as a reason to withdraw from his mission.</p>
+        <p class="vb-intro"><strong>b) Service to the community to the point of complete exhaustion:</strong>
+        For the social Seven with a Six-wing, the cause – here the order and its message – stands above one's
+        own physical integrity.</p>
+        <p class="vb-intro"><strong>c) Why blindness and exhaustion rather than withdrawal specifically?</strong>
+        For a social Seven with a Six-wing, whose security lies in persistently building something greater than
+        oneself, ignoring one's own physical limits can be read as an intensification of one's own life
+        pattern: the mission was not allowed to end while any strength remained for it. This interpretation is
+        developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the social Seven with a Six-wing inevitably leads to blindness –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> Francis's blindness is also
+        closely tied to a probable infection and radical asceticism, not purely explainable psychosomatically.
+        What his case shows is a pattern in how progressive illness is handled that recurs in a pronounced
+        social Seven with a Six-wing – one of many possible interpretations, not a verdict. The corresponding
+        illness pattern is being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Francis of Assisi, like nearly everyone of his time, had no Enneagram model. Without this knowledge he
+        lived out his devotion to his mission without restraint, rather than accounting for his progressive
+        blindness in time – a trait that made his spiritual work immortal, but consumed him well before his
+        time. Someone who recognizes their own pattern can consciously counteract it; someone who does not
+        repeats it until the body sets the limit the person did not set themselves.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Seven with a Six-wing is confirmed in <strong>Francis of Assisi</strong> by the persistence
+        with which he continued his mission despite progressive blindness and physical decline – down to one of
+        his most significant works, created in near-total darkness. The beaver kept building its work to the
+        very end, even once his own eyes had long since denied him the sight of it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6) – life's work"},
+        {route:"krankheitsportraets-epikur", label:"Illness Portrait: Epicurus (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function epikurKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-epikur-portrait.jpg" alt="Epicurus – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Epicurus</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six-wing · 341–270 BCE</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Beaver</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Animal correspondence: Beaver" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Epicurus</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-epikur">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as founder of Epicureanism. This page focuses on his
+        final phase of life: according to ancient sources (transmitted notably by Diogenes Laertius), Epicurus
+        suffered from painful kidney stones and urinary retention, from which he died after weeks of suffering
+        at age 71 – accompanied by a surviving farewell letter addressed to his friend Idomeneus.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Epicurus</strong> is assigned to the <strong>social Type 7 with a Six-wing</strong>. The social
+        Seven builds restlessly on something that reaches beyond itself – for Epicurus, the philosophical
+        school "The Garden" and an entire teaching tradition. The Six-wing adds loyalty to friends and a shared
+        community – his final letter was devoted not to his own complaint, but to the memory of philosophical
+        conversations shared together.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Painful kidney stones in old age:</strong>
+        According to ancient tradition, Epicurus developed increasingly painful kidney stones in his final
+        years.</p>
+        <p class="vb-intro"><strong>b) Continued teaching despite pain:</strong>
+        Despite the onset of these ailments, he continued his work at "The Garden," his philosophical school
+        in Athens.</p>
+        <p class="vb-intro"><strong>c) Growing urinary retention:</strong>
+        In the final phase of his illness, sources add a painful urinary retention that marked his last two
+        weeks of life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A warm bath as the only relief:</strong>
+        Diogenes Laertius reports that Epicurus sat in a bath of warm water to find some relief, shortly before
+        drinking undiluted wine and asking his friends to remember his teachings.</p>
+        <p class="vb-intro"><strong>b) No loss of philosophical clarity:</strong>
+        Even in extreme physical distress, Epicurus reportedly retained his mental clarity to the end.</p>
+        <p class="vb-intro"><strong>c) The farewell letter to Idomeneus:</strong>
+        In his last surviving letter, Epicurus describes his pain as "unbearable," yet balanced by "the joy of
+        the soul in remembering our conversations."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) His own philosophy as a coping tool:</strong>
+        In his own dying, Epicurus applied exactly the principles he taught – pain is not suppressed, but
+        relativized through the memory of friendship and joy.</p>
+        <p class="vb-intro"><strong>b) No withdrawal from community:</strong>
+        Contact with his students and friends at "The Garden" remained central to him until the very end.</p>
+        <p class="vb-intro"><strong>c) A final testament for the school:</strong>
+        In his will, Epicurus arranged for his school's continuation beyond his death – a legacy devoted to the
+        community, not merely to his own memory.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in 270 BCE:</strong>
+        Epicurus died at age 71 – a comparatively advanced age for antiquity.</p>
+        <p class="vb-intro"><strong>b) The school's survival for centuries:</strong>
+        "The Garden" continued to exist for centuries after his death and influenced, among others, the Roman
+        poet Lucretius.</p>
+        <p class="vb-intro"><strong>c) The account of his death as part of the teaching itself:</strong>
+        The manner of his dying was passed down by followers themselves as a practical demonstration of his own
+        philosophy.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Continuing to teach as long as at all possible:</strong>
+        For the social Seven, one's own mission remains central even in the face of physical decline –
+        Epicurus taught for as long as his strength allowed.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as loyalty to community in dying:</strong>
+        His final letter was devoted not to his own complaint but to the memory of shared conversations – an
+        expression of the loyal bond to friends that the Six-wing adds.</p>
+        <p class="vb-intro"><strong>c) Meaning-making instead of despair in the face of pain:</strong>
+        Rather than surrendering to pain without resistance, Epicurus turned his own dying into a final, lived
+        lesson.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A short but well-documented final illness:</strong>
+        The final weeks of Epicurus's life are among the most detailed surviving accounts of death in ancient
+        philosophy.</p>
+        <p class="vb-intro"><strong>b) Community as comfort to the last breath:</strong>
+        For a social Seven with a Six-wing, the bond to one's own community remains the central anchor even in
+        dying.</p>
+        <p class="vb-intro"><strong>c) Why the memory of conversation rather than of his own pain specifically?</strong>
+        For a social Seven with a Six-wing, whose security lies in service to a community, this final gesture
+        can be read as a consistent continuation of his own life pattern: even in his own dying, attention
+        remained directed at others, not at himself. This interpretation is developed further in this
+        compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the social Seven with a Six-wing inevitably leads to kidney stones –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Epicurus's case shows is a
+        pattern in how pain and approaching death are handled that recurs in a pronounced social Seven with a
+        Six-wing – one of many possible interpretations, not a verdict. The corresponding illness pattern is
+        being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Epicurus naturally had no Enneagram model. Without this knowledge he lived out his pattern – meaning-
+        making and communal bonding even in his own suffering – consistently to his last breath, without
+        recognizing it as a pattern, but understanding it as a philosophical stance. Someone who recognizes
+        their own pattern can consciously counteract it; Epicurus did not know his, yet lived it in a form still
+        considered exemplary today.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Seven with a Six-wing is confirmed in <strong>Epicurus</strong> by the consistency with which
+        he lived his own philosophy even in his own dying – not his own complaint, but the memory of shared
+        conversation stood at the forefront of his final letter. The beaver kept building its work to the very
+        last moment, by turning even his own dying into its confirmation.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-epikur", label:"Portrait: Epicurus (SO7w6) – life's work"},
+        {route:"krankheitsportraets-franz-von-assisi", label:"Illness Portrait: Francis of Assisi (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so7", label:"Subtype Profile SO7"},
+      ])}
+    </div>
+  `);
+}
+
+function klaraVonAssisiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Clare of Assisi – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clare of Assisi</p>
+        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with Two-wing · 1194–1253</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Clare of Assisi</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-klara-von-assisi">portrait under Famous Personalities</a>
+        in this compass – that page covers her life's work as founder of the Order of Poor Ladies. This page
+        focuses on a chronic illness that, according to consistent sources, confined her to bed for roughly the
+        last 27 to 29 years of her life – the exact diagnosis is not historically established, with theories
+        ranging from a chronic autoimmune condition to the effects of decades of extreme asceticism.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Clare of Assisi</strong> is assigned to the <strong>self-preservation Type 3 with a Two-wing</strong>.
+        Naranjo called the self-preservation Three the counter-type of the Three: competence over shine,
+        modesty over self-promotion – with the same inner drive and functionality maintained underneath. The
+        Two-wing adds care for others – Clare led her order for decades despite being chronically ill and
+        bedridden, and visibly worried more about her fellow sisters than about herself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Onset after years of strict asceticism:</strong>
+        After more than a decade of radical renunciation – barely any food, sleeping on the bare ground, going
+        barefoot – Clare's health began to noticeably decline.</p>
+        <p class="vb-intro"><strong>b) Growing physical weakness:</strong>
+        Contemporary sources describe a progressive general weakness that increasingly limited her mobility.</p>
+        <p class="vb-intro"><strong>c) Continuing her duties despite first symptoms:</strong>
+        Despite early warning signs, Clare initially continued leading her order undiminished.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Nearly three decades of confinement to bed:</strong>
+        From roughly 1224 until her death in 1253, Clare was, according to prevailing sources, largely
+        bedridden – nearly three decades of her 59-year life.</p>
+        <p class="vb-intro"><strong>b) Continued leadership of the order from her sickbed:</strong>
+        Despite being bedridden, she continued leading the order of the "Poor Ladies" (later the Poor Clares)
+        until her death.</p>
+        <p class="vb-intro"><strong>c) A final fight for the order's rule:</strong>
+        On her deathbed in 1253, she achieved papal confirmation of her own especially strict rule for the order
+        – two days before her death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Continued function despite chronic illness:</strong>
+        Unlike a publicly staged illness, Clare remained fully effective organizationally and spiritually
+        despite being bedridden – the illness never became a reason to withdraw from responsibility.</p>
+        <p class="vb-intro"><strong>b) Concern for the community rather than herself:</strong>
+        Accounts repeatedly emphasize that Clare, even on her deathbed, worried more about the wellbeing of her
+        fellow sisters than about her own pain.</p>
+        <p class="vb-intro"><strong>c) No public complaint about her own illness:</strong>
+        Her illness was never put forward by her as a narrative of suffering, but largely borne in silence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in 1253, two days after papal confirmation:</strong>
+        Clare died on August 11, 1253, just days after Pope Innocent IV officially confirmed her rule for the
+        order – a goal she had pursued for nearly thirty years despite illness.</p>
+        <p class="vb-intro"><strong>b) Canonized just two years later:</strong>
+        Clare was canonized as early as 1255.</p>
+        <p class="vb-intro"><strong>c) An order still in existence today:</strong>
+        The Order of Poor Clares still exists worldwide today with thousands of members.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Functioning instead of collapsing:</strong>
+        For the self-preservation Three, illness is no reason to abandon one's task – Clare maintained her
+        leadership role through nearly three decades of chronic illness.</p>
+        <p class="vb-intro"><strong>b) The Two-wing as care for others amid one's own suffering:</strong>
+        The repeatedly recorded concern for her fellow sisters rather than herself shows the caring note of the
+        Two-wing, even under extreme personal strain.</p>
+        <p class="vb-intro"><strong>c) No need for visible sympathy:</strong>
+        Unlike subtypes that put illness on public display, Clare, according to the sources, hardly sought
+        attention for her own suffering.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Nearly three uninterrupted decades of chronic illness:</strong>
+        Hardly any other case in this compass shows such a long, continuous phase of illness combined with a
+        continued leadership role.</p>
+        <p class="vb-intro"><strong>b) Function and responsibility despite total physical limitation:</strong>
+        For a self-preservation Three, whose identity is closely tied to one's own functioning, the leadership
+        role remained central even while bedridden.</p>
+        <p class="vb-intro"><strong>c) Why holding on to responsibility despite being bedridden specifically?</strong>
+        For a self-preservation Three with a Two-wing, whose security lies in reliable functioning and care for
+        others, holding onto the order's leadership despite near-total physical limitation can be read as an
+        intensification of her own life pattern: even the body was not allowed to fully override function. This
+        interpretation is developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the self-preservation Three with a Two-wing inevitably leads to
+        chronic bedriddenness – <strong>anyone can develop any illness, regardless of subtype.</strong> Clare's
+        illness is also linked to decades of extreme asceticism, not purely explainable psychosomatically. What
+        her case shows is a pattern in how chronic illness is handled that recurs in a pronounced
+        self-preservation Three with a Two-wing – one of many possible interpretations, not a verdict. The
+        corresponding illness pattern is being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Clare, like nearly everyone of her time, had no Enneagram model. Without this knowledge she lived out
+        her pattern – functioning and caring even under extreme physical strain – without restraint, rather than
+        granting herself rest in time. Someone who recognizes their own pattern can consciously counteract it;
+        someone who does not keeps functioning until the body leaves no other choice.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Three with a Two-wing is confirmed in <strong>Clare of Assisi</strong> by the
+        persistence with which she maintained her leadership role for nearly three decades despite chronic,
+        bed-confining illness – down to her final achievement, confirmation of her order's rule, two days before
+        her death. The raccoon kept working quietly, even once her own body had long stopped cooperating.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SE3"},
+      ])}
+    </div>
+  `);
+}
+
+function jeanJacquesRousseauKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-jacques-rousseau-portrait.jpg" alt="Jean-Jacques Rousseau – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Jacques Rousseau</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing · 1712–1778</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal correspondence: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jean-Jacques Rousseau</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-jean-jacques-rousseau">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a philosopher. This page focuses on two
+        intertwined threads of illness: a chronic urinary condition documented over decades (likely a congenital
+        malformation of the urinary tract) with recurring painful episodes, and a growing persecution complex in
+        his final years, which he himself processed in his "Confessions" and "Reveries of a Solitary Walker."
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Rousseau</strong> is assigned to the <strong>sexual Type 5 with a Four-wing</strong> – the same
+        subtype as Friedrich Nietzsche and Alan Turing in this compass. The sexual Five seeks complete,
+        near-merging devotion to a chosen idea or a few people. The Four-wing adds emotional intensity and a
+        deep sense of being different – Rousseau's radical introspection in the "Confessions," one of the first
+        truly intimate self-portraits in European literature, shows exactly this combination.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Chronic urinary complaints from youth on:</strong>
+        Rousseau reported recurring, painful urination problems that accompanied him throughout his life,
+        beginning at a young age.</p>
+        <p class="vb-intro"><strong>b) First signs of distrust toward former companions:</strong>
+        From the 1750s on, a growing distrust developed toward former friends and patrons, including Diderot
+        and other Enlightenment figures.</p>
+        <p class="vb-intro"><strong>c) Intensification after the publication of "Émile" in 1762:</strong>
+        After the condemnation and burning of his work "Émile" and the subsequent flight across Europe, both
+        the physical suffering and the distrust intensified considerably.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Pronounced persecution complex in his final years:</strong>
+        Rousseau became convinced he was the victim of a far-reaching conspiracy of former friends,
+        philosophers, and governments – a conviction that runs through his entire late work.</p>
+        <p class="vb-intro"><strong>b) Persistent chronic urinary condition:</strong>
+        The physical complaints continued in parallel with the psychological suffering until his death.</p>
+        <p class="vb-intro"><strong>c) Radical withdrawal from public life:</strong>
+        In his final years, Rousseau increasingly withdrew from Paris's literary and social life, taking solitary
+        botanical walks.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Literary processing instead of suppression:</strong>
+        Rather than concealing his distrust and fears, Rousseau made them explicitly the subject of his
+        "Confessions" and "Reveries of a Solitary Walker" – radical openness about his own inner state.</p>
+        <p class="vb-intro"><strong>b) Retreat into nature as refuge:</strong>
+        Botany and solitary walks became his most important refuge from a society he experienced as hostile.</p>
+        <p class="vb-intro"><strong>c) Continued writing despite persecution complex:</strong>
+        Even amid deep distrust toward almost everyone in his circle, Rousseau continued his literary work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in 1778 in Ermenonville:</strong>
+        Rousseau died in 1778 on a patron's estate, shortly after completing the "Reveries" – by today's
+        assessment likely from a stroke or heart failure.</p>
+        <p class="vb-intro"><strong>b) A legacy of radical self-revelation:</strong>
+        The "Confessions" is still regarded today as one of the most influential autobiographical works in
+        European literary history.</p>
+        <p class="vb-intro"><strong>c) Posthumous rehabilitation:</strong>
+        In 1794, sixteen years after his death, his remains were transferred to the Panthéon in Paris – a
+        posthumous recognition he never experienced in life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Withdrawal as a protective reaction:</strong>
+        For the sexual Five, withdrawal from a world experienced as threatening is the most natural protective
+        strategy – Rousseau's growing isolation in his final years shows this pattern in extreme form.</p>
+        <p class="vb-intro"><strong>b) The Four-wing as radical emotional disclosure:</strong>
+        Rather than concealing his inner experience, Rousseau made it the central literary subject of the
+        "Confessions" – a willingness, typical of the Four-wing, to lay bare one's emotional truth without
+        mercy.</p>
+        <p class="vb-intro"><strong>c) Physical suffering as an amplifier of distrust:</strong>
+        The persistent, painful urinary condition likely further intensified an already-present tendency toward
+        distrust and withdrawal.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Two parallel threads of suffering over decades:</strong>
+        The chronic urinary condition and the growing persecution complex ran parallel for decades in Rousseau's
+        life and likely reinforced each other.</p>
+        <p class="vb-intro"><strong>b) Withdrawal as a persistent constant:</strong>
+        For a sexual Five, whose security lies in selectively trusting a few people, the progressive loss of
+        trust in almost everyone around him became an existential threat.</p>
+        <p class="vb-intro"><strong>c) Why persecution complex and withdrawal specifically?</strong>
+        For a sexual Five with a Four-wing, whose protective strategy lies in withdrawal and whose emotional
+        depth lies in the sense of being different, the growing persecution complex can be read as an
+        intensification of his own life pattern: where trust becomes the only form of closeness, losing that
+        trust becomes existentially threatening. This interpretation is developed further in this compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the sexual Five with a Four-wing inevitably leads to a persecution
+        complex – <strong>anyone can develop any illness, regardless of subtype.</strong> Rousseau's persecution
+        complex is also partly grounded in real conflicts (book burnings, expulsions, public hostility), not
+        purely explainable psychosomatically. What his case shows is a pattern in how chronic suffering and
+        growing distrust are handled that recurs in a pronounced sexual Five with a Four-wing – one of many
+        possible interpretations, not a verdict. The corresponding illness pattern is being developed gradually
+        in this compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Rousseau, like everyone of his time, had no Enneagram model. Without this knowledge he lived out his
+        pattern of withdrawal and deep distrust without restraint, rather than recognizing it as recurring
+        behavior of his own and consciously counteracting it – a trait that enabled unprecedented literary
+        openness but increasingly isolated him personally. Someone who recognizes their own pattern can
+        consciously counteract it; someone who does not repeats it until hardly anyone is left to be trusted.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Five with a Four-wing is confirmed in <strong>Jean-Jacques Rousseau</strong> by the
+        consistency with which he radically disclosed both his physical suffering and his growing distrust in
+        writing, rather than concealing them. The hedgehog that curls up when the world turns threatening found
+        in literary self-revelation a way to make its inner world visible after all.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Portrait: Jean-Jacques Rousseau (SX5w4) – life's work"},
+        {route:"krankheitsportraets-alan-turing", label:"Illness Portrait: Alan Turing (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}
+
 function tELawrenceKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -54430,12 +55165,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE3: {
     tier: "Raccoon",
     kernthema: "Collapse after the façade ends – illnesses that strikingly often coincide with the crumbling of a long-maintained outward control.",
-    beispiele: ["Osho", "Bernie Madoff", "Sadhguru", "Joseph Haydn"],
+    beispiele: ["Osho", "Bernie Madoff", "Sadhguru", "Joseph Haydn", "Clare of Assisi"],
     fingerabdruecke: [
       {
         titel: "Physical breakdown following the loss of public control",
-        beschreibung: "In the three cases so far, the health crisis lands strikingly close to a break in public façade or authority – as if the body only gave way once the controlled role could no longer be sustained.",
+        beschreibung: "In several cases, the health crisis lands strikingly close to a break in public façade or authority – as if the body only gave way once the controlled role could no longer be sustained.",
         beleg: "Bernie Madoff, whose end-stage kidney failure became public only after his conviction and the total collapse of his investment-fraud empire; Osho, whose heart failure after chronic complaints and a still-disputed poisoning claim overshadowed his authority as a guru; Sadhguru, whose chronic subdural hematoma forced emergency surgery in 2024 while he continued to appear publicly."
+      },
+      {
+        titel: "Function and responsibility remain fully intact despite chronic illness",
+        beschreibung: "A second pattern shows the opposite of a broken façade: the leadership function is maintained without visible interruption despite years of serious chronic illness.",
+        beleg: "Clare of Assisi, who led her order until two days before her death despite roughly 27 to 29 years of being largely bedridden, without ever putting her own illness at the center of public attention."
       }
     ]
   },
@@ -54540,13 +55280,13 @@ const KRANKHEITSMUSTERKOMPASS = {
   },
   SX5: {
     tier: "Hedgehog",
-    kernthema: "Small sample so far – a discernible cluster of neurological and sense-related complaints accompanied by mental breakdown.",
-    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin", "Blaise Pascal"],
+    kernthema: "A discernible cluster of neurological and sense-related complaints, often paired with withdrawal and, in more pronounced cases, mental breakdown or a persecution complex.",
+    beispiele: ["Friedrich Nietzsche", "Frédéric Chopin", "Blaise Pascal", "Alan Turing", "Jean-Jacques Rousseau"],
     fingerabdruecke: [
       {
-        titel: "Neurological complaints affecting perception and mind",
-        beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a combination of physical suffering and mental or sensory impairment.",
-        beleg: "Friedrich Nietzsche with chronic migraines, failing eyesight, and eventual mental collapse; Frédéric Chopin, whose tuberculosis increasingly constrained his later work and physical strength."
+        titel: "Neurological or psychological complaints affecting perception and mind",
+        beschreibung: "Several cases show a combination of physical or externally imposed suffering and mental or sensory impairment, often accompanied by intensified withdrawal.",
+        beleg: "Friedrich Nietzsche with chronic migraines, failing eyesight, and eventual mental collapse; Frédéric Chopin, whose tuberculosis increasingly constrained his later work and physical strength; Alan Turing, whose forced hormone treatment after his 1952 conviction marked him physically and mentally, after which he withdrew into near-total silence; Jean-Jacques Rousseau, whose chronic urinary condition over decades was accompanied by a growing persecution complex that he disclosed radically in the ›Confessions‹ rather than concealing it."
       }
     ]
   },
@@ -54601,12 +55341,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Warning signs are consistently overridden – in this group, the actual illness is repeatedly ignored or misread as long as work can continue.",
-    beispiele: ["Molière", "George Gershwin", "Nikola Tesla", "Jules Verne", "Drew Barrymore", "Elon Musk"],
+    beispiele: ["Molière", "George Gershwin", "Nikola Tesla", "Jules Verne", "Drew Barrymore", "Elon Musk", "Francis of Assisi", "Epicurus"],
     fingerabdruecke: [
       {
         titel: "Forward flight instead of pausing at the first warning signs",
         beschreibung: "In several cases, the social Seven shows a pattern in which early health warning signs are consistently overridden in favor of continued activity and new projects, until an abrupt collapse forces a halt.",
         beleg: "George Gershwin, who kept working on new film-scoring projects despite months of headaches and olfactory hallucinations, until he collapsed; Molière, who stood on stage with his chronic lung disease during a performance itself; Nikola Tesla, whose progressive obsessive-compulsive disorder was never treated over decades but was instead channeled into ever-new invention projects."
+      },
+      {
+        titel: "Continuing one's mission or communal bond to the last breath",
+        beschreibung: "A second group shows not an abrupt overriding of warning signs, but a conscious, often creative continuation of work for a cause or community until the body allows no other choice.",
+        beleg: "Francis of Assisi, who composed his ›Canticle of the Sun‹ despite progressive blindness and kept visiting his order until the end; Epicurus, who in a farewell letter to his friend Idomeneus, despite severe pain from kidney stones, placed not his own complaint but the memory of shared conversations at the forefront."
       }
     ]
   },
@@ -114389,6 +115134,11 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
       "krankheitsportraets-t-e-lawrence": tELawrenceKrankheitsportraetPage,
+      "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
+      "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
+      "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
+      "krankheitsportraets-klara-von-assisi": klaraVonAssisiKrankheitsportraetPage,
+      "krankheitsportraets-jean-jacques-rousseau": jeanJacquesRousseauKrankheitsportraetPage,
       "krankheitsportraets-jamie-lee-curtis": jamieLeeCurtisKrankheitsportraetPage,
       "krankheitsportraets-genesis-p-orridge": genesisPOrridgeKrankheitsportraetPage,
       "krankheitsportraets-billie-eilish": billieEilishKrankheitsportraetPage,

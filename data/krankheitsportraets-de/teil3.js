@@ -3811,3 +3811,764 @@ export function franciscoDeGoyaKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function alanTuringKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alan-turing-portrait.jpg" alt="Alan Turing – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alan Turing</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1912–1954</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alan Turing</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Pionierarbeit als Mathematiker und Kryptoanalytiker.
+        Im Vordergrund dieser Seite steht ein anderes Kapitel: 1952 wurde Turing wegen homosexueller Handlungen
+        verurteilt, die im Vereinigten Königreich zu dieser Zeit strafbar waren. Statt Gefängnis wählte er eine
+        gerichtlich verordnete Hormonbehandlung (Östrogen-Injektionen, umgangssprachlich „chemische Kastration"),
+        die über ein Jahr andauerte und erhebliche körperliche und psychische Folgen hatte. Er starb 1954 an einer
+        Zyanidvergiftung, offiziell als Suizid eingestuft.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Turing</strong> ist dem <strong>sexuellen Typ 5 mit Viererflügel</strong> zugeordnet. Die
+        sexuelle Fünf sucht nach Naranjo Vertrauen und vollständige Hingabe an eine einzige Idee oder Person,
+        statt sich in Distanz zurückzuziehen wie die anderen Fünfer-Subtypen. Der Viererflügel bringt emotionale
+        Tiefe und ein Gefühl des Andersseins hinzu – Turings vollständige Hingabe an sein mathematisches Denken war
+        untrennbar mit dem Gefühl verbunden, in einer Gesellschaft zu leben, die ihn für sein Wesen kriminalisierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Anzeige nach einem Einbruch:</strong>
+        1952 erstattete Turing Anzeige wegen eines Einbruchs in seine Wohnung – im Zuge der Ermittlungen kam seine
+        Beziehung zu einem jungen Mann ans Licht, was zur Anklage wegen „grober Unsittlichkeit" führte.</p>
+        <p class="vb-intro"><strong>b) Die Wahl zwischen Gefängnis und Behandlung:</strong>
+        Vor die Wahl zwischen Haftstrafe und einer einjährigen Hormonbehandlung gestellt, entschied sich Turing für
+        Letztere, um seine wissenschaftliche Arbeit fortsetzen zu können.</p>
+        <p class="vb-intro"><strong>c) Beginn der Östrogen-Behandlung:</strong>
+        Die synthetische Östrogen-Behandlung, die seine Libido unterdrücken sollte, begann 1952 und führte bereits
+        in den ersten Monaten zu Gynäkomastie (Brustwachstum) und Gewichtszunahme.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Verlust der Sicherheitsfreigabe:</strong>
+        Als Folge der Verurteilung wurde Turing seine Sicherheitsfreigabe für die Arbeit mit dem
+        Geheimdienst GCHQ entzogen – eine Arbeit, die zuvor einen zentralen Teil seiner Identität als
+        Wissenschaftler ausgemacht hatte.</p>
+        <p class="vb-intro"><strong>b) Fortsetzung der wissenschaftlichen Arbeit trotz allem:</strong>
+        Trotz der Behandlung und der gesellschaftlichen Ächtung setzte Turing seine Forschung zu mathematischer
+        Biologie (Morphogenese) fort – ein Rückzug in ein rein intellektuelles, von Menschen relativ unabhängiges
+        Feld.</p>
+        <p class="vb-intro"><strong>c) Zunehmende gesellschaftliche Isolation:</strong>
+        Die öffentliche Bekanntheit der Verurteilung in seinem unmittelbaren Umfeld verstärkte eine bereits
+        vorhandene Tendenz zum Rückzug aus sozialen Kontakten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Kein öffentliches Klagen:</strong>
+        Turing sprach nach außen kaum über die erlittene Behandlung oder ihre Folgen – ein für die sexuelle Fünf
+        typisches Muster, innere Erfahrungen nicht auszustellen, sondern in sich zu verarbeiten.</p>
+        <p class="vb-intro"><strong>b) Rückzug in symbolische, private Rituale:</strong>
+        Freunde berichteten von einem zunehmend introvertierten, in sich gekehrten Verhalten in seinen letzten
+        Lebensmonaten.</p>
+        <p class="vb-intro"><strong>c) Der vergiftete Apfel als letztes Symbol:</strong>
+        Neben seinem Bett fand sich ein teilweise gegessener, mit Zyanid präparierter Apfel – ein Bild, das bis
+        heute stark mit seinem Andenken verknüpft ist, dessen genaue Bedeutung jedoch nie restlos geklärt wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Verlust für die Wissenschaft mit nur 41 Jahren:</strong>
+        Turings Tod beendete eine Karriere, die bereits die Grundlagen der modernen Informatik gelegt und einen
+        entscheidenden Beitrag zur Entschlüsselung der deutschen Enigma-Verschlüsselung im Zweiten Weltkrieg
+        geleistet hatte.</p>
+        <p class="vb-intro"><strong>b) Offizielle Entschuldigung erst Jahrzehnte später:</strong>
+        Die britische Regierung entschuldigte sich erst 2009 offiziell, 2013 erfolgte eine königliche Begnadigung
+        – Turing selbst erlebte weder das eine noch das andere.</p>
+        <p class="vb-intro"><strong>c) Symbol für staatlich sanktionierte Verfolgung:</strong>
+        Sein Fall wurde zu einem der bekanntesten Beispiele für die strafrechtliche Verfolgung Homosexueller im
+        20. Jahrhundert und prägt bis heute Debatten über nachträgliche Gerechtigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug ins rein Intellektuelle als Schutzraum:</strong>
+        Für die sexuelle Fünf mit Viererflügel wird das eigene Denken zum letzten unantastbaren Rückzugsort, wenn
+        die äußere Welt bedrohlich wird – Turing vertiefte sich in seiner Krise noch stärker in abstrakte
+        mathematische Fragen.</p>
+        <p class="vb-intro"><strong>b) Keine Suche nach öffentlicher Solidarität:</strong>
+        Statt öffentlich für seine Rechte zu kämpfen, verarbeitete Turing die Erfahrung fast ausschließlich
+        privat – typisch für die introvertierte, mit sich selbst ringende Fünf.</p>
+        <p class="vb-intro"><strong>c) Die Viererflügel-Note der stillen Verzweiflung:</strong>
+        Der Viererflügel zeigt sich im tief empfundenen Gefühl des Andersseins, das durch die staatliche
+        Verfolgung eine erdrückende äußere Bestätigung erhielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine von außen auferlegte, keine selbstgewählte Krankheitsgeschichte:</strong>
+        Anders als bei den meisten anderen Fällen dieses Kompasses war Turings „Behandlung" keine Erkrankung im
+        eigentlichen Sinn, sondern eine strafrechtlich erzwungene medizinische Maßnahme mit krankmachender Wirkung.</p>
+        <p class="vb-intro"><strong>b) Rückzug als einzige verbliebene Handlungsmöglichkeit:</strong>
+        Für eine sexuelle Fünf, deren Sicherheit im Vertrauen zu wenigen, ausgewählten Menschen und Ideen liegt,
+        bedeutete die öffentliche Bloßstellung einen fundamentalen Angriff auf die eigene Schutzstrategie.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet der Rückzug ins Schweigen?</strong>
+        Für eine sexuelle Fünf mit Viererflügel, die Vertrauen nur sehr selektiv vergibt, lässt sich das nahezu
+        vollständige Schweigen über die erlittene Behandlung als letzte verbliebene Form der Selbstbestimmung
+        lesen – wenn der Körper und die rechtliche Stellung bereits fremdbestimmt sind, bleibt die innere Welt der
+        einzige noch kontrollierbare Raum. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf mit Viererflügel zwangsläufig zu einem solchen Ende
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Turings Fall ist
+        vor allem das Ergebnis staatlicher Verfolgung, nicht primär psychosomatisch zu erklären. Was sich an seinem
+        Fall zeigen lässt, ist ein Muster im Umgang mit erzwungenem Leiden, das bei einer ausgeprägten sexuellen
+        Fünf mit Viererflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Turing kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen verarbeitete
+        er die erzwungene Behandlung fast ausschließlich im Rückzug, statt sich Unterstützung von außen zu holen –
+        ein Zug, der ihm in seiner wissenschaftlichen Arbeit half, ihn in der persönlichen Krise aber zusätzlich
+        isolierte. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis
+        keine andere Möglichkeit mehr bleibt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Fünf mit Viererflügel bestätigt sich bei <strong>Alan Turing</strong> in der Art, wie er auf
+        die erzwungene Behandlung reagierte: mit stillem Rückzug in die eigene Gedankenwelt statt mit öffentlichem
+        Widerstand. Der Igel, der sich einrollt, wenn die Welt zur Bedrohung wird, fand am Ende keinen Weg mehr
+        zurück in die Offenheit – aber sein wissenschaftliches Werk überdauerte die Verfolgung, die ihn selbst
+        nicht überleben ließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-alan-turing", label:"Porträt: Alan Turing (SX5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-jean-jacques-rousseau", label:"Krankheitsporträt: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
+
+export function franzVonAssisiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-von-assisi-portrait.jpg" alt="Franz von Assisi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz von Assisi</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 1181/82–1226</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Franz von Assisi</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Ordensgründer. Im Vordergrund dieser
+        Seite steht seine gesundheitliche Zuspitzung in den letzten Lebensjahren: eine fortschreitende Erblindung
+        (vermutlich durch Trachom, verstärkt durch Fastenpraxis und Reisen im Nahen Osten), die 1224 nach eigenem
+        Bericht und dem seiner Gefährten aufgetretenen Wundmale (Stigmata) sowie chronische Verdauungs- und
+        Magenbeschwerden, die ihn zunehmend schwächten. Er starb 1226 im Alter von nur 44 Jahren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Franz von Assisi</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong> zugeordnet.
+        Naranjo nannte die soziale Sieben den Kontratyp der Sieben: rastloses Bauen im Dienst der Gemeinschaft,
+        nicht im Dienst des eigenen Genusses. Der Sechserflügel bringt Loyalität zu einer Sache oder Gemeinschaft
+        hinzu – Franz gründete mit dem Franziskanerorden eine Institution, die weit über seinen eigenen Tod
+        hinaus Bestand haben sollte, und blieb ihr auch mit fortschreitender Erblindung treu ergeben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Augenprobleme nach einer Reise in den Nahen Osten:</strong>
+        Nach seiner Reise nach Ägypten und ins Heilige Land während des Fünften Kreuzzugs (1219) verschlechterte
+        sich sein Augenlicht zunehmend – vermutlich durch eine dort erworbene Trachom-Infektion.</p>
+        <p class="vb-intro"><strong>b) Verstärkung durch radikale Askese:</strong>
+        Seine strenge, selbst auferlegte Fastenpraxis und der Verzicht auf jeglichen Komfort verschlimmerten die
+        körperliche Schwächung zusätzlich.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Lichtempfindlichkeit:</strong>
+        Zeitgenössische Berichte beschreiben eine wachsende Unfähigkeit, Tageslicht zu ertragen, Jahre vor
+        seinem Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Stigmata von La Verna 1224:</strong>
+        Zwei Jahre vor seinem Tod berichteten Franz und seine Gefährten von Wundmalen an Händen, Füßen und
+        Seite, die den Kreuzigungswunden Christi ähnelten – ein Ereignis, das seinen Gesundheitszustand
+        zusätzlich belastete.</p>
+        <p class="vb-intro"><strong>b) Nahezu vollständige Erblindung:</strong>
+        In seinen letzten beiden Lebensjahren war Franz nach übereinstimmenden Quellen praktisch blind.</p>
+        <p class="vb-intro"><strong>c) Chronische Magen- und Verdauungsbeschwerden:</strong>
+        Hinzu kamen anhaltende Magenprobleme, die zeitgenössische Biografen auf die jahrzehntelange, extreme
+        Askese zurückführten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Sonnengesang trotz nahezu vollständiger Blindheit:</strong>
+        In genau dieser Phase körperlichen Verfalls verfasste Franz 1224/25 seinen berühmten „Sonnengesang" –
+        eines seiner bekanntesten Werke, entstanden nicht trotz, sondern mitten in der eigenen Krankheit.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Reisetätigkeit trotz Schwäche:</strong>
+        Auch nach den ersten Anzeichen der Erblindung unternahm Franz weiterhin Reisen, um seinen Orden zu
+        besuchen und zu ermutigen.</p>
+        <p class="vb-intro"><strong>c) Verzicht auf verfügbare Behandlung:</strong>
+        Erst spät und auf Drängen seiner Gefährten ließ sich Franz notdürftig medizinisch behandeln – seine
+        eigene Haltung stellte den Dienst an der Gemeinschaft über die eigene Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod mit nur 44 Jahren:</strong>
+        Franz starb am 3. Oktober 1226 in der Portiuncula-Kapelle bei Assisi, geschwächt von Jahren
+        fortschreitender Erblindung und körperlichen Verfalls.</p>
+        <p class="vb-intro"><strong>b) Heiligsprechung bereits zwei Jahre später:</strong>
+        Bereits 1228 wurde Franz heiliggesprochen – seine Krankheitsgeschichte wurde Teil der Erzählung von
+        seiner Hingabe bis zum letzten Atemzug.</p>
+        <p class="vb-intro"><strong>c) Ein Orden, der ihn überdauerte:</strong>
+        Der von ihm gegründete Franziskanerorden besteht bis heute mit weltweit Hunderttausenden Mitgliedern in
+        verschiedenen Zweigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Schöpferische Aktivität trotz körperlichem Verfall:</strong>
+        Für die soziale Sieben ist Stillstand kaum erträglich – selbst nahezu erblindet und geschwächt, schuf
+        Franz mit dem Sonnengesang eines seiner bedeutendsten Werke.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Treue zur eigenen Gemeinschaft:</strong>
+        Die fortgesetzten Besuche bei seinen Ordensbrüdern trotz Erblindung zeigen die Loyalität des
+        Sechserflügels – die Bindung an die Gemeinschaft wog schwerer als die eigene Schonung.</p>
+        <p class="vb-intro"><strong>c) Warnsignale zugunsten der Mission übergangen:</strong>
+        Wie bei anderen Fällen der sozialen Sieben in diesem Kompass wurden frühe körperliche Warnsignale lange
+        zugunsten der fortgesetzten Reise- und Gründungstätigkeit übergangen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Kette sich verstärkender Leiden über gut ein Jahrzehnt:</strong>
+        Von den ersten Augenproblemen nach 1219 bis zum Tod 1226 verlief Franz' Gesundheit in einer stetig
+        fortschreitenden Verschlechterung, die er nie zum Anlass für Rückzug aus seiner Mission nahm.</p>
+        <p class="vb-intro"><strong>b) Dienst an der Gemeinschaft bis zur völligen Erschöpfung:</strong>
+        Für die soziale Sieben mit Sechserflügel steht die Sache – hier der Orden und seine Botschaft – über der
+        eigenen körperlichen Unversehrtheit.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Erblindung und Erschöpfung, nicht Rückzug?</strong>
+        Für eine soziale Sieben mit Sechserflügel, deren Sicherheit im beharrlichen Bauen an etwas Größerem
+        liegt, lässt sich das Ignorieren der eigenen körperlichen Grenzen als Zuspitzung des eigenen
+        Lebensmusters lesen: Die Mission durfte nicht enden, solange noch Kraft für sie vorhanden war. Diese
+        Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben mit Sechserflügel zwangsläufig zu Erblindung führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Franz' Erblindung ist
+        zudem eng mit einer wahrscheinlichen Infektionskrankheit und radikaler Askese verbunden, nicht rein
+        psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im Umgang mit
+        fortschreitender Krankheit, das bei einer ausgeprägten sozialen Sieben mit Sechserflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Franz von Assisi kannte, wie fast alle Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen
+        lebte er seine Hingabe an die eigene Mission ungebremst aus, statt der fortschreitenden Erblindung
+        rechtzeitig Rechnung zu tragen – ein Zug, der sein geistliches Werk unsterblich machte, ihn selbst aber
+        weit vor seiner Zeit verzehrte. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht
+        kennt, wiederholt es, bis der Körper die Grenze setzt, die der Mensch selbst nicht zog.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Sieben mit Sechserflügel bestätigt sich bei <strong>Franz von Assisi</strong> in der
+        Beharrlichkeit, mit der er seine Mission trotz fortschreitender Erblindung und körperlichen Verfalls
+        fortsetzte – bis hin zu einem seiner bedeutendsten Werke, entstanden im nahezu vollständigen Dunkel. Der
+        Biber baute bis zuletzt an seinem Werk, auch als die eigenen Augen ihm längst den Blick darauf
+        verweigerten.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-epikur", label:"Krankheitsporträt: Epikur (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
+export function epikurKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-epikur-portrait.jpg" alt="Epikur – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Epikur</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel · 341–270 v. Chr.</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Biber</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so7.jpg" alt="Tierentsprechung: Biber" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO7")};left:${tierAvatarLeft("SO7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Epikur</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-epikur">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Begründer des Epikureismus. Im
+        Vordergrund dieser Seite steht seine letzte Lebensphase: Nach antiken Quellen (überliefert u. a. bei
+        Diogenes Laertios) litt Epikur an schmerzhaften Nierensteinen und Harnverhalt, an denen er nach
+        wochenlangem Leiden im Alter von 71 Jahren starb – begleitet von einem erhaltenen, an seinen Freund
+        Idomeneus gerichteten Abschiedsbrief.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Epikur</strong> ist dem <strong>sozialen Typ 7 mit Sechserflügel</strong> zugeordnet. Die soziale
+        Sieben baut rastlos an etwas, das über die eigene Person hinausreicht – bei Epikur die Philosophenschule
+        „Der Garten" und eine ganze Lehrtradition. Der Sechserflügel bringt Loyalität zu Freunden und einer
+        gemeinsamen Gemeinschaft hinzu – sein letzter Brief galt nicht der eigenen Klage, sondern der Erinnerung
+        an gemeinsam geführte philosophische Gespräche.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Schmerzhafte Nierensteine im Alter:</strong>
+        Nach antiker Überlieferung entwickelte Epikur in seinen letzten Lebensjahren zunehmend schmerzhafte
+        Nierensteine.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Lehrtätigkeit trotz Schmerzen:</strong>
+        Trotz der beginnenden Beschwerden setzte er seine Arbeit im „Garten", seiner Philosophenschule in Athen,
+        fort.</p>
+        <p class="vb-intro"><strong>c) Zunehmender Harnverhalt:</strong>
+        In der letzten Krankheitsphase kam nach den Quellen ein schmerzhafter Harnverhalt hinzu, der seine
+        letzten zwei Lebenswochen prägte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein warmes Bad als einzige Linderung:</strong>
+        Diogenes Laertios berichtet, Epikur habe sich in ein Bad mit warmem Wasser gesetzt, um etwas Erleichterung
+        zu finden, kurz bevor er ungemischten Wein trank und um seine Freunde bat, sich an seine Lehren zu
+        erinnern.</p>
+        <p class="vb-intro"><strong>b) Kein Verzicht auf philosophische Klarheit:</strong>
+        Auch in äußerster körperlicher Not soll Epikur seine geistige Klarheit bis zuletzt bewahrt haben.</p>
+        <p class="vb-intro"><strong>c) Der Abschiedsbrief an Idomeneus:</strong>
+        In seinem letzten, überlieferten Brief beschreibt Epikur seine Schmerzen als „unerträglich", zugleich
+        aber ausgeglichen durch „die Freude der Seele bei der Erinnerung an unsere Gespräche".</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die eigene Philosophie als Bewältigungsinstrument:</strong>
+        Epikur wandte im eigenen Sterben genau die Prinzipien an, die er lehrte – Schmerz wird nicht verdrängt,
+        aber durch Erinnerung an Freundschaft und Freude relativiert.</p>
+        <p class="vb-intro"><strong>b) Kein Rückzug von der Gemeinschaft:</strong>
+        Bis zuletzt blieb der Kontakt zu seinen Schülern und Freunden im „Garten" zentral für ihn.</p>
+        <p class="vb-intro"><strong>c) Ein letztes Testament für die Schule:</strong>
+        In seinem Testament regelte Epikur die Fortführung seiner Schule über seinen Tod hinaus – ein
+        Vermächtnis, das der Gemeinschaft galt, nicht nur der eigenen Erinnerung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod im Jahr 270 v. Chr.:</strong>
+        Epikur starb im Alter von 71 Jahren – für die Antike ein vergleichsweise hohes Alter.</p>
+        <p class="vb-intro"><strong>b) Fortbestand der Schule über Jahrhunderte:</strong>
+        Der „Garten" bestand nach seinem Tod noch Jahrhunderte fort und beeinflusste unter anderem den
+        römischen Dichter Lukrez.</p>
+        <p class="vb-intro"><strong>c) Der Sterbebericht als Teil der Lehre selbst:</strong>
+        Die Art seines Sterbens wurde von Anhängern selbst als praktische Demonstration seiner eigenen
+        Philosophie überliefert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Weiterlehren, solange irgend möglich:</strong>
+        Für die soziale Sieben bleibt die eigene Mission auch im Angesicht des körperlichen Verfalls zentral –
+        Epikur unterrichtete, solange es die Kräfte zuließen.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Treue zur Gemeinschaft im Sterben:</strong>
+        Sein letzter Brief galt nicht der eigenen Klage, sondern der Erinnerung an gemeinsame Gespräche – ein
+        Ausdruck der loyalen Bindung an Freunde, die der Sechserflügel hinzufügt.</p>
+        <p class="vb-intro"><strong>c) Sinnstiftung statt Verzweiflung im Angesicht des Schmerzes:</strong>
+        Statt sich dem Schmerz kampflos zu ergeben, verwandelte Epikur sein eigenes Sterben in eine letzte,
+        gelebte Lehre.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein kurzer, aber gut überlieferter letzter Krankheitsverlauf:</strong>
+        Die letzten Wochen von Epikurs Leben gehören zu den am detailliertesten überlieferten Sterbeberichten der
+        antiken Philosophie.</p>
+        <p class="vb-intro"><strong>b) Gemeinschaft als Trost bis zum letzten Atemzug:</strong>
+        Für eine soziale Sieben mit Sechserflügel bleibt die Bindung an die eigene Gemeinschaft auch im Sterben
+        der zentrale Halt.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Erinnerung an Gespräche statt an den eigenen Schmerz?</strong>
+        Für eine soziale Sieben mit Sechserflügel, deren Sicherheit im Dienst an einer Gemeinschaft liegt, lässt
+        sich diese letzte Geste als konsequente Fortsetzung des eigenen Lebensmusters lesen: Auch im eigenen
+        Sterben blieb die Aufmerksamkeit auf die anderen gerichtet, nicht auf sich selbst. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Sieben mit Sechserflügel zwangsläufig zu Nierensteinen führt
+        – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Epikurs
+        Fall zeigen lässt, ist ein Muster im Umgang mit Schmerz und nahendem Tod, das bei einer ausgeprägten
+        sozialen Sieben mit Sechserflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Epikur kannte naturgemäß kein Enneagramm-Modell. Ohne dieses Wissen lebte er sein Muster – Sinnstiftung
+        und Gemeinschaftsbindung selbst im eigenen Leiden – bis zum letzten Atemzug konsequent aus, ohne es als
+        Muster zu erkennen, sondern als philosophische Haltung zu verstehen. Wer das eigene Muster erkennt, kann
+        bewusst gegensteuern; Epikur kannte es nicht, lebte es aber in einer Form, die bis heute als vorbildlich
+        gilt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Sieben mit Sechserflügel bestätigt sich bei <strong>Epikur</strong> in der Konsequenz, mit der
+        er die eigene Philosophie noch im eigenen Sterben lebte – nicht die eigene Klage, sondern die Erinnerung
+        an gemeinsame Gespräche stand im letzten Brief im Vordergrund. Der Biber baute bis zum letzten Moment an
+        seinem Werk, indem er selbst sein eigenes Sterben zu dessen Bestätigung machte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-franz-von-assisi", label:"Krankheitsporträt: Franz von Assisi (SO7w6)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so7", label:"Subtyp-Profil SO7"},
+      ])}
+    </div>
+  `);
+}
+
+export function klaraVonAssisiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-klara-von-assisi-portrait.jpg" alt="Klara von Assisi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Klara von Assisi</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · 1194–1253</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Klara von Assisi</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-klara-von-assisi">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihr Lebenswerk als Gründerin des Klarissenordens. Im
+        Vordergrund dieser Seite steht eine chronische Krankheit, die sie nach übereinstimmenden Quellen die
+        letzten rund 27 bis 29 Jahre ihres Lebens weitgehend an ihr Bett fesselte – die genaue Diagnose ist
+        historisch nicht gesichert, Vermutungen reichen von einer chronischen Autoimmunerkrankung bis zu den
+        Folgen jahrzehntelanger extremer Askese.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Klara von Assisi</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Drei den Kontratyp der Drei: Können statt Glänzen,
+        Bescheidenheit statt Selbstinszenierung – bei gleichbleibender innerer Energie und Funktionsfähigkeit.
+        Der Zweierflügel bringt Fürsorge für andere hinzu – Klara leitete ihren Orden über Jahrzehnte weiter,
+        obwohl sie selbst chronisch krank und bettlägerig war, und sorgte sich dabei sichtbar mehr um ihre
+        Mitschwestern als um sich selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginn nach Jahren strenger Askese:</strong>
+        Nach über einem Jahrzehnt radikalen Verzichts – kaum Nahrung, Schlaf auf dem bloßen Boden, Barfußgehen –
+        begann sich Klaras Gesundheit spürbar zu verschlechtern.</p>
+        <p class="vb-intro"><strong>b) Zunehmende körperliche Schwäche:</strong>
+        Zeitgenössische Quellen beschreiben eine fortschreitende allgemeine Schwäche, die ihre Beweglichkeit
+        zunehmend einschränkte.</p>
+        <p class="vb-intro"><strong>c) Weiterführung ihrer Aufgaben trotz erster Symptome:</strong>
+        Trotz erster gesundheitlicher Warnzeichen leitete Klara ihren Orden zunächst unvermindert weiter.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Nahezu drei Jahrzehnte Bettlägerigkeit:</strong>
+        Von etwa 1224 bis zu ihrem Tod 1253 war Klara nach überwiegender Quellenlage weitgehend bettlägerig –
+        knapp drei Jahrzehnte ihres 59-jährigen Lebens.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Leitung des Ordens vom Krankenbett aus:</strong>
+        Trotz ihrer Bettlägerigkeit leitete sie den von ihr gegründeten Orden der „Armen Damen" (später
+        Klarissen) weiter bis zu ihrem Tod.</p>
+        <p class="vb-intro"><strong>c) Ein letzter Kampf um die Ordensregel:</strong>
+        Auf dem Sterbebett erreichte sie 1253 die päpstliche Bestätigung ihrer eigenen, besonders strengen
+        Ordensregel – zwei Tage vor ihrem Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Funktionsfähigkeit trotz chronischer Krankheit:</strong>
+        Anders als bei einer öffentlich inszenierten Erkrankung blieb Klara trotz ihrer Bettlägerigkeit
+        organisatorisch und geistlich voll wirksam – die Krankheit wurde nie zum Rückzug aus der Verantwortung.</p>
+        <p class="vb-intro"><strong>b) Sorge um die Gemeinschaft statt um sich selbst:</strong>
+        Überlieferungen betonen wiederholt, dass Klara sich noch auf dem Sterbebett stärker um das Wohlergehen
+        ihrer Mitschwestern sorgte als um die eigenen Schmerzen.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Klagen über die eigene Krankheit:</strong>
+        Ihre Krankheit wurde von ihr selbst nie als Leidensgeschichte in den Vordergrund gestellt, sondern
+        weitgehend still ertragen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod 1253, zwei Tage nach der päpstlichen Bestätigung:</strong>
+        Klara starb am 11. August 1253, wenige Tage nachdem Papst Innozenz IV. ihre Ordensregel offiziell
+        bestätigt hatte – ein Ziel, das sie fast dreißig Jahre lang trotz Krankheit verfolgt hatte.</p>
+        <p class="vb-intro"><strong>b) Heiligsprechung bereits zwei Jahre später:</strong>
+        Bereits 1255 wurde Klara heiliggesprochen.</p>
+        <p class="vb-intro"><strong>c) Ein bis heute bestehender Orden:</strong>
+        Der Klarissenorden besteht bis heute weltweit mit tausenden Mitgliedern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren statt Zusammenbrechen:</strong>
+        Für die selbsterhaltende Drei bedeutet Krankheit keinen Grund, die eigene Aufgabe aufzugeben – Klara
+        hielt ihre Leitungsfunktion über nahezu drei Jahrzehnte chronischer Krankheit aufrecht.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel als Sorge um andere im eigenen Leiden:</strong>
+        Die wiederholt überlieferte Sorge um ihre Mitschwestern statt um sich selbst zeigt die fürsorgliche Note
+        des Zweierflügels, selbst unter extremer eigener Belastung.</p>
+        <p class="vb-intro"><strong>c) Kein Bedürfnis nach sichtbarem Mitleid:</strong>
+        Anders als Subtypen, die Krankheit öffentlich zur Schau stellen, verlangte Klara nach den Quellen kaum
+        nach Aufmerksamkeit für das eigene Leiden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Fast drei Jahrzehnte ununterbrochener chronischer Krankheit:</strong>
+        Kaum ein anderer Fall in diesem Kompass zeigt eine derart lange, kontinuierliche Krankheitsphase bei
+        gleichzeitig fortgeführter Führungsrolle.</p>
+        <p class="vb-intro"><strong>b) Funktion und Verantwortung trotz völliger körperlicher Einschränkung:</strong>
+        Für eine selbsterhaltende Drei, deren Identität eng mit dem eigenen Funktionieren verknüpft ist, blieb
+        die Leitungsrolle auch im bettlägerigen Zustand zentral.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Festhalten an der Verantwortung trotz Bettlägerigkeit?</strong>
+        Für eine selbsterhaltende Drei mit Zweierflügel, deren Sicherheit im eigenen, verlässlichen Funktionieren
+        und in der Fürsorge für andere liegt, lässt sich das Festhalten an der Ordensleitung trotz fast völliger
+        körperlicher Einschränkung als Zuspitzung des eigenen Lebensmusters lesen: Selbst der Körper durfte die
+        Funktion nicht vollständig außer Kraft setzen. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei mit Zweierflügel zwangsläufig zu chronischer
+        Bettlägerigkeit führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Klaras Erkrankung steht zudem im Zusammenhang mit jahrzehntelanger extremer Askese, nicht rein
+        psychosomatisch zu erklären. Was sich an ihrem Fall zeigen lässt, ist ein Muster im Umgang mit
+        chronischer Krankheit, das bei einer ausgeprägten selbsterhaltenden Drei mit Zweierflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Klara kannte, wie fast alle Menschen ihrer Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte sie ihr
+        Muster – Funktionieren und Fürsorge selbst unter extremer körperlicher Belastung – ungebremst aus, statt
+        sich selbst frühzeitig Schonung zuzugestehen. Wer das eigene Muster erkennt, kann bewusst gegensteuern;
+        wer es nicht kennt, funktioniert weiter, bis der Körper keine andere Wahl mehr lässt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Drei mit Zweierflügel bestätigt sich bei <strong>Klara von Assisi</strong> in der
+        Beharrlichkeit, mit der sie ihre Führungsrolle fast drei Jahrzehnte lang trotz chronischer,
+        bettlägerig machender Krankheit aufrechterhielt – bis zum letzten Erfolg, der Bestätigung ihrer
+        Ordensregel, zwei Tage vor ihrem Tod. Der Waschbär arbeitete leise weiter, auch als der eigene Körper
+        längst nicht mehr mitspielte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
+
+export function jeanJacquesRousseauKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jean-jacques-rousseau-portrait.jpg" alt="Jean-Jacques Rousseau – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jean-Jacques Rousseau</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1712–1778</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jean-Jacques Rousseau</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-jean-jacques-rousseau">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Philosoph. Im Vordergrund dieser Seite
+        stehen zwei ineinandergreifende Krankheitslinien: ein über Jahrzehnte dokumentiertes chronisches
+        Harnleiden (vermutlich eine angeborene Fehlbildung der Harnwege) mit wiederkehrenden schmerzhaften
+        Episoden, sowie ein zunehmender, in seinen letzten Lebensjahren stark ausgeprägter Verfolgungswahn, den
+        er selbst in seinen „Bekenntnissen" und den „Träumereien eines einsamen Spaziergängers" verarbeitete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rousseau</strong> ist dem <strong>sexuellen Typ 5 mit Viererflügel</strong> zugeordnet – demselben
+        Subtyp wie Friedrich Nietzsche und Alan Turing in diesem Kompass. Die sexuelle Fünf sucht vollständige,
+        fast verschmelzende Hingabe an eine ausgewählte Idee oder wenige Menschen. Der Viererflügel bringt
+        emotionale Intensität und ein tiefes Gefühl des Andersseins hinzu – Rousseaus radikale Introspektion in
+        den „Bekenntnissen", eines der ersten wirklich intimen Selbstporträts der europäischen Literatur, zeigt
+        genau diese Kombination.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Chronische Harnbeschwerden von Jugend an:</strong>
+        Rousseau berichtete zeitlebens von wiederkehrenden, schmerzhaften Problemen beim Wasserlassen, die ihn
+        bereits in jungen Jahren begleiteten.</p>
+        <p class="vb-intro"><strong>b) Erste Anzeichen von Misstrauen gegenüber früheren Weggefährten:</strong>
+        Ab den 1750er-Jahren entwickelte sich ein zunehmendes Misstrauen gegenüber ehemaligen Freunden und
+        Förderern, darunter Diderot und andere Aufklärer.</p>
+        <p class="vb-intro"><strong>c) Verschärfung nach der Veröffentlichung von ›Émile‹ 1762:</strong>
+        Nach der Verurteilung und Verbrennung seines Werks „Émile" und der folgenden Flucht durch Europa
+        verstärkte sich sowohl das körperliche Leiden als auch das Misstrauen erheblich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ausgeprägter Verfolgungswahn in den letzten Lebensjahren:</strong>
+        Rousseau war überzeugt, Opfer einer weitreichenden Verschwörung ehemaliger Freunde, Philosophen und
+        Regierungen zu sein – eine Überzeugung, die sein gesamtes Spätwerk durchzieht.</p>
+        <p class="vb-intro"><strong>b) Anhaltendes chronisches Harnleiden:</strong>
+        Die körperlichen Beschwerden bestanden parallel zum psychischen Leiden bis zu seinem Tod fort.</p>
+        <p class="vb-intro"><strong>c) Radikaler Rückzug aus dem gesellschaftlichen Leben:</strong>
+        In seinen letzten Lebensjahren zog sich Rousseau zunehmend aus dem literarischen und gesellschaftlichen
+        Leben von Paris zurück, unternahm einsame botanische Spaziergänge.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Literarische Verarbeitung statt Verdrängung:</strong>
+        Statt sein Misstrauen und seine Ängste zu verbergen, machte Rousseau sie explizit zum Gegenstand seiner
+        „Bekenntnisse" und der „Träumereien eines einsamen Spaziergängers" – radikale Offenheit über die eigene
+        innere Verfassung.</p>
+        <p class="vb-intro"><strong>b) Rückzug in die Natur als Zuflucht:</strong>
+        Botanik und einsame Wanderungen wurden für ihn zum wichtigsten Rückzugsort vor einer als feindlich
+        erlebten Gesellschaft.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes Schreiben trotz Verfolgungswahn:</strong>
+        Auch in tiefstem Misstrauen gegenüber nahezu jedem in seinem Umfeld setzte Rousseau seine
+        schriftstellerische Arbeit fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod 1778 in Ermenonville:</strong>
+        Rousseau starb 1778 auf dem Landsitz eines Gönners, kurz nach Fertigstellung der „Träumereien" – nach
+        heutiger Einschätzung wahrscheinlich an einem Schlaganfall oder Herzversagen.</p>
+        <p class="vb-intro"><strong>b) Ein hinterlassenes Werk radikaler Selbstoffenbarung:</strong>
+        Die „Bekenntnisse" gelten bis heute als eines der einflussreichsten autobiografischen Werke der
+        europäischen Literaturgeschichte.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche Rehabilitierung:</strong>
+        1794, sechzehn Jahre nach seinem Tod, wurden seine sterblichen Überreste in das Panthéon in Paris
+        überführt – eine posthume Anerkennung, die er zu Lebzeiten nie erfuhr.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug als Schutzreaktion:</strong>
+        Für die sexuelle Fünf ist der Rückzug aus einer als bedrohlich erlebten Welt die naheliegendste
+        Schutzstrategie – Rousseaus zunehmende Isolation in den letzten Lebensjahren zeigt dieses Muster in
+        extremer Form.</p>
+        <p class="vb-intro"><strong>b) Der Viererflügel als radikale emotionale Offenlegung:</strong>
+        Statt sein inneres Erleben zu verbergen, machte Rousseau es in den „Bekenntnissen" zum literarischen
+        Hauptgegenstand – eine für den Viererflügel typische Bereitschaft, die eigene emotionale Wahrheit
+        schonungslos offenzulegen.</p>
+        <p class="vb-intro"><strong>c) Körperliches Leiden als Verstärker des Misstrauens:</strong>
+        Das anhaltende, schmerzhafte Harnleiden dürfte die ohnehin vorhandene Neigung zu Misstrauen und
+        Rückzug zusätzlich verstärkt haben.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Zwei parallele Leidenslinien über Jahrzehnte:</strong>
+        Das chronische Harnleiden und der zunehmende Verfolgungswahn verliefen bei Rousseau über Jahrzehnte
+        parallel und verstärkten sich vermutlich gegenseitig.</p>
+        <p class="vb-intro"><strong>b) Rückzug als durchgängige Konstante:</strong>
+        Für eine sexuelle Fünf, deren Sicherheit im selektiven Vertrauen zu wenigen Menschen liegt, wurde der
+        fortschreitende Vertrauensverlust zu nahezu jedem im eigenen Umfeld zu einer existenziellen Bedrohung.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Verfolgungswahn und Rückzug?</strong>
+        Für eine sexuelle Fünf mit Viererflügel, deren Schutzstrategie im Rückzug und deren emotionale Tiefe im
+        Gefühl des Andersseins liegt, lässt sich der zunehmende Verfolgungswahn als Zuspitzung des eigenen
+        Lebensmusters lesen: Wo Vertrauen zur einzigen Form von Nähe wird, wird der Verlust dieses Vertrauens
+        existenziell bedrohlich. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf mit Viererflügel zwangsläufig zu Verfolgungswahn
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Rousseaus
+        Verfolgungswahn ist zudem teilweise durch reale Konflikte (Bücherverbrennung, Ausweisungen, öffentliche
+        Anfeindungen) mitbegründet, nicht rein psychosomatisch zu erklären. Was sich an seinem Fall zeigen
+        lässt, ist ein Muster im Umgang mit chronischem Leiden und wachsendem Misstrauen, das bei einer
+        ausgeprägten sexuellen Fünf mit Viererflügel immer wieder auffällt – eine von vielen möglichen
+        Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Rousseau kannte, wie alle Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er sein
+        Muster aus Rückzug und tiefem Misstrauen ungebremst aus, statt es als wiederkehrendes eigenes Verhalten
+        zu erkennen und ihm bewusst gegenzusteuern – ein Zug, der ihm literarisch beispiellose Offenheit
+        ermöglichte, ihn persönlich aber zunehmend isolierte. Wer das eigene Muster erkennt, kann bewusst
+        gegensteuern; wer es nicht kennt, wiederholt es, bis kaum noch jemand übrig bleibt, dem vertraut wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Fünf mit Viererflügel bestätigt sich bei <strong>Jean-Jacques Rousseau</strong> in der
+        Konsequenz, mit der er sowohl sein körperliches Leiden als auch sein wachsendes Misstrauen literarisch
+        radikal offenlegte, statt es zu verbergen. Der Igel, der sich einrollt, wenn die Welt zur Bedrohung wird,
+        fand in der schriftstellerischen Selbstoffenbarung einen Weg, das eigene Innere trotz allem sichtbar zu
+        machen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-alan-turing", label:"Krankheitsporträt: Alan Turing (SX5w4)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
