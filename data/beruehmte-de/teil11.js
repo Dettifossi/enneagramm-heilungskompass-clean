@@ -1745,3 +1745,68 @@ export function helmutSchmidtPortraitPage() {
     </div>
   `);
 }
+
+export function rupertSpiraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rupert-spira-portrait.jpg" alt="Rupert Spira – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rupert Spira</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Keramikkünstler &amp; spiritueller Lehrer, geb. 1960 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der nie aufhörte zu bauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier des sozialen Typs 7 – der Kontratyp der Sieben nach Naranjo: rastloses Bauen im Dienst der Gemeinschaft, nie wirklich fertig, nie im Namen des eigenen Genusses. Rupert Spira begann seine Laufbahn als gefeierter Keramikkünstler, dessen Werke in bedeutenden Sammlungen wie dem Victoria and Albert Museum in London vertreten sind – bevor er sich vollständig der Vermittlung nicht-dualer Weisheit (Advaita Vedanta) widmete.</p>
+          <p class="vb-intro">Seit Jahrzehnten hält er Retreats, schreibt Bücher, führt Dialoge und veröffentlicht Videos – ein Werk, das nie als abgeschlossen gilt, sondern sich beständig in neue Formate und Formulierungen fortsetzt, kaum ist eine Fragestellung erschöpfend behandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Dienst an etwas Größerem als sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> baut nicht für den eigenen Ruhm, sondern im Dienst einer Idee oder Gemeinschaft, die größer ist als die eigene Person. Bei Spira zeigt sich das im vollständigen Bruch mit einer bereits erfolgreichen Keramikkarriere zugunsten einer Lehrtätigkeit, die keinerlei Garantie auf ähnlichen Erfolg bot – eine Entscheidung, die einzig der Weitergabe eines als wesentlich erkannten Verständnisses diente.</p>
+          <p class="vb-intro">Das teilt er mit Jeanne-Marie Guyon, die der Lebensmusterkompass als jemanden beschreibt, der ›ihr gesamtes Leben einem einzigen Bauwerk‹ widmete – ›kein Territorium, keine Macht, kein persönlicher Ruhm, sondern der Dienst an einer geistigen Idee‹. Spiras jahrzehntelange, unermüdliche Lehrtätigkeit in aller Welt zeigt dasselbe Muster: kontinuierliches Bauen an einem geistigen Werk, das über die eigene Biografie hinausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verwurzelung in einer geprüften Tradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verleiht der sozialen Sieben eine zusätzliche Note von Loyalität und dem Bedürfnis, das eigene Werk in einer verlässlichen, geprüften Linie zu verankern, statt frei improvisierend zu wirken. Bei Spira zeigt sich das in seiner jahrelangen Ausbildung bei dem Advaita-Lehrer Francis Lucille und in seiner ausdrücklichen Verortung innerhalb der Kaschmir-Shaivismus- und Advaita-Vedanta-Tradition, statt eine völlig eigenständige, traditionslose Lehre zu erfinden.</p>
+          <p class="vb-intro">Diese Treue zu einer Linie, kombiniert mit rastlosem eigenem Weiterbauen, zeigt den Sechserflügel in seiner konstruktivsten Form: Sicherheit durch Verwurzelung, nicht durch Stillstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vollständige innere Klarheit, bevor sie weitergegeben wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spiras Lehrmethode ist geprägt von einer außergewöhnlich präzisen, schrittweisen Begriffsarbeit – bevor ein Konzept an Zuhörer weitergegeben wird, hat er es erkennbar bereits vollständig innerlich durchdrungen. Diese Vorgehensweise deckt sich mit dem Muster, das der Kompass bei Dieter Nuhr beschreibt: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹</p>
+          <p class="vb-intro">Seine öffentlichen Dialoge, in denen er geduldig auf Fragen aus dem Publikum eingeht, ohne je ungeduldig oder ausweichend zu werden, zeigen dieselbe Sorgfalt: kein improvisiertes Blenden, sondern ein bereits durchdachtes Verständnis, das sich in jeder Antwort neu, aber konsistent entfaltet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich in Spiras Fähigkeit, ein komplexes philosophisches Feld über Jahrzehnte hinweg konsequent und ohne erkennbare Ermüdung weiterzuentwickeln – ein Werk, das mit jedem neuen Buch, jedem neuen Retreat um eine weitere Facette wächst, ohne sich zu wiederholen.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben zeigt sich dort, wo das rastlose Weiterbauen selbst zum Zwang wird – wo ein Innehalten, ein bewusstes Nichtstun, schwerer fällt als das nächste Projekt zu beginnen, obwohl gerade die von Spira gelehrte Botschaft im Kern genau dieses Innehalten betont.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Handwerker, der vom Ton zum Bewusstsein wechselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rupert Spiras Weg zeigt die soziale Sieben mit Sechserflügel in einer ihrer stillsten, aber beharrlichsten Formen: kein lauter Auftritt, sondern jahrzehntelanges, sorgfältiges Bauen an einem geistigen Werk, das einer geprüften Tradition treu bleibt und doch nie aufhört, sich weiterzuentwickeln. Der Biber tauscht das Baumaterial – vom Ton zum Wort –, aber nicht das Bauen selbst.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+          {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
+          {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
+          {route:"beruehmte-gregor-gysi", label:"Porträt: Dr. Gregor Gysi (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

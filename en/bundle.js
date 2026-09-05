@@ -1969,6 +1969,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Gregor Gysi – Social Type 7",
     teaser:"SO7w6 · born 1948. Lawyer and politician (Die Linke). Defended civil rights activists in East Germany as a lawyer, decisively shaped the SED's transformation into the PDS and Left Party after reunification. Known for sharp wit and rhetorical brilliance.",
     land:"Germany", tags:["Politik","Recht"], gender:"m"},
+{ route:"beruehmte-rupert-spira", name:"Rupert Spira", added:"2026-09-05", subtyp:"SO7w6",
+    heading:"Rupert Spira – Social Type 7",
+    teaser:"SO7w6 · born 1960. British ceramic artist and spiritual teacher (Advaita Vedanta). Left a celebrated ceramics career for decades of teaching non-dual consciousness. The beaver that changed its building material, but never the building itself.",
+    land:"United Kingdom", tags:["Spiritualität","Kunst"], gender:"m"},
 { route:"beruehmte-hazel-brugger", name:"Hazel Brugger", subtyp:"SO7w8",
     heading:"Hazel Brugger – Social Type 7",
     teaser:"SO7w8 · born 1993. Comedian, cabaret artist, presenter, blogger, author, slam poet. Swiss-American. The beaver that builds, amuses and attacks – with speed, depth and a laugh that misses nothing. Animal correspondence: Beaver.",
@@ -39484,6 +39488,72 @@ function elonMuskPortraitPage() {
   `);
 }
 
+function rupertSpiraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rupert-spira-portrait.jpg" alt="Rupert Spira – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rupert Spira</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Ceramic artist &amp; spiritual teacher, b. 1960 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The beaver that never stopped building</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Type 7 – Naranjo's counter-type of the Seven: restless building in service of the community, never truly finished, never in the name of one's own enjoyment. Rupert Spira began his career as a celebrated ceramic artist, with works held in major collections such as London's Victoria and Albert Museum – before devoting himself entirely to teaching non-dual wisdom (Advaita Vedanta).</p>
+          <p class="vb-intro">For decades he has held retreats, written books, led dialogues, and released videos – a body of work never considered finished, but constantly continuing into new formats and formulations, hardly has one question been exhaustively addressed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: service to something greater than oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> doesn't build for its own glory, but in service of an idea or community greater than itself. In Spira this shows in the complete break with an already successful ceramics career in favor of a teaching path that offered no guarantee of comparable success – a decision made solely to pass on an understanding he had recognized as essential.</p>
+          <p class="vb-intro">He shares this with Jeanne-Marie Guyon, whom the life-pattern compass describes as someone who "devoted her entire life to a single structure" – "no territory, no power, no personal fame, but service to a spiritual idea." Spira's decades of tireless teaching around the world shows the same pattern: continuous building on a spiritual work that reaches beyond his own biography.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: rootedness in a tested tradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the social Seven an additional note of loyalty and a need to anchor one's own work in a reliable, tested lineage rather than improvising freely. In Spira this shows in his years of training under the Advaita teacher Francis Lucille and in his explicit placement within the Kashmir Shaivism and Advaita Vedanta traditions, rather than inventing an entirely independent, traditionless teaching.</p>
+          <p class="vb-intro">This loyalty to a lineage, combined with restless ongoing building of his own, shows the Six-wing at its most constructive: security through rootedness, not through standstill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Complete inner clarity before it is passed on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spira's teaching method is marked by an unusually precise, step-by-step working through of concepts – before an idea is passed on to listeners, he has visibly already worked through it completely within himself. This approach matches the pattern the compass describes for Dieter Nuhr: "The beaver that examines every stone closely before placing it."</p>
+          <p class="vb-intro">His public dialogues, in which he patiently addresses audience questions without ever becoming impatient or evasive, show the same care: no improvised dazzle, but an already thought-through understanding that unfolds anew, but consistently, in every answer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in Spira's ability to keep developing a complex philosophical field consistently and without apparent fatigue across decades – a body of work that grows another facet with every new book, every new retreat, without repeating itself.</p>
+          <p class="vb-intro">The shadow of the social Seven shows where the restless ongoing building itself becomes a compulsion – where pausing, deliberate stillness, becomes harder than starting the next project, even though the very message Spira teaches emphasizes exactly this pausing at its core.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The craftsman who moved from clay to consciousness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rupert Spira's path shows the social Seven with a Six-wing in one of its quietest, yet most persistent forms: no loud appearance, but decades of careful building on a spiritual body of work that stays loyal to a tested tradition and yet never stops developing further. The beaver changes its building material – from clay to word – but never the building itself.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+          {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
+          {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+          {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function johnIoannidisPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -39544,6 +39614,7 @@ function johnIoannidisPortraitPage() {
           {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
           {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
           {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6) – the counterpoint in the same crisis"},
+          {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -39609,6 +39680,7 @@ function christianDrostenPortraitPage() {
           {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
           {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6) – the counterpoint in the same crisis"},
           {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+          {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -40617,6 +40689,7 @@ function gregorGysiPortraitPage() {
           {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
           {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also sharp wit with political conviction"},
           {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+          {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -53531,7 +53604,7 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Beaver",
     kernthema: "Restless building in service of the community – never really finished (Naranjo: countertype of the Seven)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus", "Dr. Gregor Gysi"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "The Samaritan Woman at Jacob's Well", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus", "Dr. Gregor Gysi", "Rupert Spira"],
     fingerabdruecke: [
       {
         titel: "Restless, never-finished building in service of a larger system",
@@ -53546,7 +53619,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Service to something bigger than oneself, instead of personal fame",
         beschreibung: "One's own work is understood not as self-promotion, but as a contribution to a community, an idea, or a system that is bigger than one's own person.",
-        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction; Carolin Kebekus, who kept building new formats – from an internship at a comedy show through her own stage shows, the 'heute-show,' and the first lasting late-night show hosted by a woman on German television, to the sibling show she now co-hosts with her brother David – barely had one been established before the next began; Dr. Gregor Gysi, who as an SED party member defended the sharpest critics of his own system in East Germany – Robert Havemann, Rudolf Bahro, Bärbel Bohley – and who after reunification spent decades helping shape the SED's transformation via the PDS into the Left Party, always in service of the same underlying political conviction, never in service of his career alone."
+        beleg: "Jeanne-Marie Guyon, who 'devoted her entire life to a single structure' – 'no territory, no power, no personal fame, but service to a spiritual idea'; Rupert Spira, who gave up an already celebrated ceramics career for decades of teaching non-dual consciousness that offered no guarantee of comparable success – service to an understanding he had recognized as essential rather than to his own artistic renown; Jules Verne, whose literary universe 'spanned the entire then-known world and far beyond'; Rowan Atkinson: 'His lodge is not a hideout, but a work – a complex construction that serves the protection of all.'; Goethe, who in 1775, at the height of his literary fame, committed himself for almost fifty years to administrative work for Duke Carl August that often ran diametrically counter to his own artistic nature – service to the Weimar community rather than to his own artistic renown; Alexander Bommes, who ended his handball career in 2007 and, instead of pursuing a legal career after his first state law exam, began a journalism traineeship – a break from the obvious, secure path in favor of a new role in service of the public; Molière, who did not let his years-long, concealed and progressing lung disease become a reason to withdraw, but kept performing through the fourth staging of 'The Imaginary Invalid,' of all plays, in the role of a hypochondriac – service to his own theater troupe and his audience, until his body literally collapsed on stage; the Samaritan Woman at Jacob's Well, who left her jar behind and ran into the city to call out: 'Come and see!' – her own long-hidden story became the bridge over which an entire town found faith; Billy Bob Thornton, who spent years developing a distinctive voice and expression for Karl Childers, the character he created for 'Sling Blade,' based on a real-life model whose story he placed at the center of an entire film with great care, rather than reducing it to a footnote; Prof. Dr. John Ioannidis, who founded the Meta-Research Innovation Center (METRICS) in 2014 – not a personal institution, but a worldwide network meant to improve the reliability of science as a whole – and who publicly defended his methodologically sound but inconvenient numbers during the Covid-19 pandemic, even as it cost him his reputation; Prof. Dr. Christian Drosten, whose NDR podcast became the most-heard scientific voice of the Covid-19 pandemic in Germany within weeks – this shows the other side of the same pattern: instead of building against the current like Ioannidis, Drosten built closely interwoven with the institutions he served, which gave him enormous reach but also made him more vulnerable once parts of his early assessments – on school closures, for instance – later turned out to need correction; Carolin Kebekus, who kept building new formats – from an internship at a comedy show through her own stage shows, the 'heute-show,' and the first lasting late-night show hosted by a woman on German television, to the sibling show she now co-hosts with her brother David – barely had one been established before the next began; Dr. Gregor Gysi, who as an SED party member defended the sharpest critics of his own system in East Germany – Robert Havemann, Rudolf Bahro, Bärbel Bohley – and who after reunification spent decades helping shape the SED's transformation via the PDS into the Left Party, always in service of the same underlying political conviction, never in service of his career alone."
       },
       {
         titel: "When a perfect, dutiful facade conceals an excessive, destructive reality (shadow form)",
@@ -113668,6 +113741,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-alexander-bommes": alexanderBommesPortraitPage,
       "beruehmte-carolin-kebekus": carolinKebekusPortraitPage,
       "beruehmte-gregor-gysi": gregorGysiPortraitPage,
+      "beruehmte-rupert-spira": rupertSpiraPortraitPage,
       "beruehmte-frans-de-waal": fransDeWaalPortraitPage,
       "beruehmte-christophe-boesch": christopheBoeschPortraitPage,
       "beruehmte-jill-pruetz": jillPruetzPortraitPage,

@@ -1765,6 +1765,7 @@ export function johnIoannidisPortraitPage() {
           {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
           {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
           {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6) – der Gegenpol in derselben Krise"},
+          {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>

@@ -1761,6 +1761,7 @@ export function christianDrostenPortraitPage() {
           {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
           {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6) – der Gegenpol in derselben Krise"},
           {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+          {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>

@@ -1769,6 +1769,7 @@ export function gregorGysiPortraitPage() {
           {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
           {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
           {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+          {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
