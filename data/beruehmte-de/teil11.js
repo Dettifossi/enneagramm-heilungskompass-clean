@@ -1781,7 +1781,7 @@ export function rupertSpiraPortraitPage() {
 
         <h2 class="vb-section">4. Vollständige innere Klarheit, bevor sie weitergegeben wird</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Spiras Lehrmethode ist geprägt von einer außergewöhnlich präzisen, schrittweisen Begriffsarbeit – bevor ein Konzept an Zuhörer weitergegeben wird, hat er es erkennbar bereits vollständig innerlich durchdrungen. Diese Vorgehensweise deckt sich mit dem Muster, das der Kompass bei Dieter Nuhr beschreibt: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹</p>
+          <p class="vb-intro">Spiras Lehrmethode ist geprägt von einer außergewöhnlich präzisen, schrittweisen Begriffsarbeit – bevor ein Konzept an Zuhörer weitergegeben wird, hat er es erkennbar bereits vollständig innerlich durchdrungen. Diese Vorgehensweise deckt sich mit dem Muster, das der Kompass bei Dieter Nuhr (SO7w8) beschreibt: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹</p>
           <p class="vb-intro">Seine öffentlichen Dialoge, in denen er geduldig auf Fragen aus dem Publikum eingeht, ohne je ungeduldig oder ausweichend zu werden, zeigen dieselbe Sorgfalt: kein improvisiertes Blenden, sondern ein bereits durchdachtes Verständnis, das sich in jeder Antwort neu, aber konsistent entfaltet.</p>
         </blockquote>
 

@@ -39523,7 +39523,7 @@ function rupertSpiraPortraitPage() {
 
         <h2 class="vb-section">4. Complete inner clarity before it is passed on</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Spira's teaching method is marked by an unusually precise, step-by-step working through of concepts – before an idea is passed on to listeners, he has visibly already worked through it completely within himself. This approach matches the pattern the compass describes for Dieter Nuhr: "The beaver that examines every stone closely before placing it."</p>
+          <p class="vb-intro">Spira's teaching method is marked by an unusually precise, step-by-step working through of concepts – before an idea is passed on to listeners, he has visibly already worked through it completely within himself. This approach matches the pattern the compass describes for Dieter Nuhr (SO7w8): "The beaver that examines every stone closely before placing it."</p>
           <p class="vb-intro">His public dialogues, in which he patiently addresses audience questions without ever becoming impatient or evasive, show the same care: no improvised dazzle, but an already thought-through understanding that unfolds anew, but consistently, in every answer.</p>
         </blockquote>
 
