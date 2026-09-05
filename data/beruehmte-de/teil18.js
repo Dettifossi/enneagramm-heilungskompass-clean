@@ -1762,7 +1762,7 @@ export function cecilyBrownPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cecily-brown-portrait.jpg" alt="Cecily Brown – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cecily Brown</p>
-        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
         <p class="krim-portrait-subtitle">Malerin, geb. 1969 &ndash; Tierentsprechung: Taube</p>
       </div>
       <div class="page-content">
@@ -1776,13 +1776,13 @@ export function cecilyBrownPortraitPage() {
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Tiefe ohne Zurschaustellung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> verarbeitet inneren Schmerz und innere Tiefe in stiller, oft jahrzehntelanger Beharrlichkeit, ohne Applaus für das eigene Ringen zu suchen. Bei Brown zeigt sich das darin, dass sie seit den 1990er-Jahren kontinuierlich malt, ohne ihre Karriere über mediale Selbstinszenierung, sondern einzig über die Dichte und Qualität des Werks selbst voranzutreiben.</p>
-          <p class="vb-intro">Das teilt sie mit Sally Rooney (ebenfalls SE4w5), die ihre Romane auf einem durchdachten theoretischen Gerüst aufbaut, statt auf öffentliche Selbstdarstellung zu setzen: Beide lassen das Werk sprechen, nicht die eigene Bühnenpräsenz.</p>
+          <p class="vb-intro">Das teilt sie mit Peter Gabriel (ebenfalls SE4w3), der komplexe innere Bildwelten nicht verbirgt, sondern in ein selbst gestaltetes, unverwechselbares äußeres Bild übersetzt: Beide lassen eine hochgradig eigenständige visuelle Sprache sprechen, nicht die eigene öffentliche Person.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Fünferflügel: Vollständiges inneres Durchdringen vor dem sichtbaren Werk</h2>
+        <h2 class="vb-section">3. Der Dreierflügel: Die eigene Bildsprache als unverwechselbares Erkennungszeichen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der selbsterhaltenden Vier eine zusätzliche Note intellektueller Durchdringung, bevor überhaupt der erste Pinselstrich sichtbar wird. Browns Werk ist erkennbar von einem tiefen, selbst erarbeiteten Wissen um die Kunstgeschichte durchzogen – von Rubens und Poussin bis de Kooning und den abstrakten Expressionisten –, das sie in ihre eigene, unverwechselbare Bildsprache übersetzt, statt bloß zu zitieren.</p>
-          <p class="vb-intro">Diese Verbindung aus emotionaler Tiefe und intellektueller Systematik teilt sie mit Vincent van Gogh (ebenfalls SE4w5), der Delacroix' Farbtheorie so gründlich studierte, dass er eigene Farbkreise in seinen Briefen skizzierte – kein spontaner Gefühlsausbruch, sondern ein über Jahre erarbeitetes, in sich stimmiges malerisches System, dem auch Browns dichte, vielschichtige Bildkompositionen entsprechen.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier ein ausgeprägtes Gespür dafür, wie eine innere Bildwelt zu einem sofort wiedererkennbaren äußeren Erscheinungsbild wird – nicht als Selbstinszenierung im Rampenlicht, sondern als visuelle Signatur, die für sich selbst wirkt. Browns dichte, halb figurative, halb abstrakte Bildoberfläche ist auf den ersten Blick erkennbar als ihre eigene, unverwechselbare Handschrift – geformt aus einem tiefen, selbst erarbeiteten Wissen um die Kunstgeschichte, von Rubens und Poussin bis de Kooning und den abstrakten Expressionisten, aber nie bloßes Zitat.</p>
+          <p class="vb-intro">Diese Praxis, eine komplexe innere Bildwelt in ein selbst gestaltetes, öffentlich sofort identifizierbares Werk zu übersetzen, teilt sie mit Peter Gabriel, der bei Genesis eine ganze Galerie selbst entworfener Bühnenfiguren erfand, um innere Songinhalte sichtbar zu machen. Bei Brown übernimmt die Leinwand selbst diese Funktion: Sie braucht keine öffentliche Bühnenfigur, weil das Bild bereits die unverwechselbare, sofort erkennbare Erscheinung ist.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Zähigkeit trotz Verletzlichkeit im eigenen Handwerk</h2>
@@ -1793,13 +1793,13 @@ export function cecilyBrownPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Browns Fähigkeit, große kunsthistorische Traditionen vollständig zu durchdringen und daraus etwas völlig Eigenständiges zu formen, ohne dass der intellektuelle Unterbau die emotionale Kraft der Bilder schmälert.</p>
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich in Browns Fähigkeit, große kunsthistorische Traditionen vollständig zu durchdringen und daraus etwas völlig Eigenständiges zu formen, ohne dass der intellektuelle Unterbau die emotionale Kraft der Bilder schmälert.</p>
           <p class="vb-intro">Der Schatten der selbsterhaltenden Vier zeigt sich in der Zurückhaltung selbst: Wer die eigene Tiefe nie öffentlich verhandelt, riskiert, dass das Werk missverstanden oder auf seine oberflächlich wahrgenommene erotische Aufladung reduziert wird, statt in seiner eigentlichen kunsthistorischen und emotionalen Komplexität gesehen zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Die Malerin, die das Werk für sich sprechen lässt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Cecily Browns Laufbahn zeigt die selbsterhaltende Vier mit Fünferflügel in einer ihrer konzentriertesten Formen: jahrzehntelange, unspektakulär öffentlich gelebte, aber intellektuell und emotional außerordentlich dichte Arbeit an einem eigenständigen malerischen Werk. Die Taube trägt ihre Last leise – und lässt am Ende nur das Bild sprechen.</p>
+          <p class="vb-intro">Cecily Browns Laufbahn zeigt die selbsterhaltende Vier mit Dreierflügel in einer ihrer konzentriertesten Formen: jahrzehntelange, unspektakulär öffentlich gelebte, aber intellektuell und emotional außerordentlich dichte Arbeit an einem eigenständigen malerischen Werk. Die Taube trägt ihre Last leise – und lässt am Ende nur das Bild sprechen.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -1808,8 +1808,8 @@ export function cecilyBrownPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
-          {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – ebenfalls Maler, derselbe Subtyp"},
-          {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
+          {route:"beruehmte-peter-gabriel", label:"Porträt: Peter Gabriel (SE4w3) – ebenfalls SE4w3"},
+          {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3)"},
         ])}
       </div>
     </div>

@@ -1227,6 +1227,7 @@ export function peterGabrielPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},
         {route:"beruehmte-enya", label:"Porträt: Enya (SE4w3)"},
+        {route:"beruehmte-cecily-brown", label:"Porträt: Cecily Brown (SE4w3) – ebenfalls SE4w3"},
       ])}
     </div>
   `);

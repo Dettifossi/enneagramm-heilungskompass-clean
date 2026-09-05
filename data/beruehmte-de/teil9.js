@@ -676,6 +676,7 @@ export function honoreDeBalzacPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-cecily-brown", label:"Porträt: Cecily Brown (SE4w3)"},
         {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – Herzinsuffizienz"},
       ])}
     </div>

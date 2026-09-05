@@ -1377,7 +1377,6 @@ export function sallyRooneyPortraitPage() {
         {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-miguel-de-unamuno", label:"Porträt: Miguel de Unamuno (SE4w5)"},
-        {route:"beruehmte-cecily-brown", label:"Porträt: Cecily Brown (SE4w5)"},
       ])}
     </div>
   `);

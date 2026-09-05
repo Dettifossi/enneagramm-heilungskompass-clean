@@ -1345,9 +1345,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Virginia Woolf – Self-Preservation Type 4",
     teaser:"SE4w5 · 1882–1941. British writer, co-founder of the Bloomsbury Group, invented the stream-of-consciousness technique as a literary form of her own. Self-taught, marked throughout her life by severe depressive episodes, founded the Hogarth Press with her husband Leonard. Animal correspondence: Dove.",
     land:"United Kingdom", tags:["Literature"], gender:"f"},
-{ route:"beruehmte-cecily-brown", name:"Cecily Brown", added:"2026-09-05", subtyp:"SE4w5",
+{ route:"beruehmte-cecily-brown", name:"Cecily Brown", added:"2026-09-05", subtyp:"SE4w3",
     heading:"Cecily Brown – Self-Preservation Type 4",
-    teaser:"SE4w5 · born 1969. British painter, works held at MoMA and the Tate. Dense, half-recognizable landscapes of bodies between figuration and abstraction, deeply rooted in art history. Media-shy, consistently lets the work speak rather than her own persona. Animal correspondence: Dove.",
+    teaser:"SE4w3 · born 1969. British painter, works held at MoMA and the Tate. Dense, half-recognizable landscapes of bodies between figuration and abstraction, deeply rooted in art history. Media-shy, consistently lets the work speak rather than her own persona. Animal correspondence: Dove.",
     land:"United Kingdom", tags:["Kunst"], gender:"f"},
 { route:"beruehmte-miguel-de-unamuno", name:"Miguel de Unamuno", added:"2026-08-28", subtyp:"SE4w5",
     heading:"Miguel de Unamuno – Self-Preservation Type 4",
@@ -25965,6 +25965,7 @@ function peterGabrielPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
         {route:"beruehmte-enya", label:"Portrait: Enya (SP4w3)"},
+        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w3) – also SP4w3"},
       ])}
     </div>
   `);
@@ -26178,7 +26179,7 @@ function cecilyBrownPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cecily-brown-portrait.jpg" alt="Cecily Brown – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Cecily Brown</p>
-        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with a Five-Wing</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
         <p class="krim-portrait-subtitle">Painter, b. 1969 &ndash; Animal correspondence: Dove</p>
       </div>
       <div class="page-content">
@@ -26192,13 +26193,13 @@ function cecilyBrownPortraitPage() {
         <h2 class="vb-section">2. The self-preservation Four: depth without display</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> processes inner pain and inner depth in quiet, often decades-long persistence, without seeking applause for its own struggle. In Brown this shows in the fact that she has been painting continuously since the 1990s, advancing her career not through media self-promotion but solely through the density and quality of the work itself.</p>
-          <p class="vb-intro">She shares this with Sally Rooney (also SP4w5), who builds her novels on a carefully considered theoretical framework rather than relying on public self-presentation: both let the work speak, not their own stage presence.</p>
+          <p class="vb-intro">She shares this with Peter Gabriel (also SP4w3), who doesn't hide complex inner imagery but translates it into a self-designed, unmistakable outer image: both let a highly distinctive visual language speak, not their own public persona.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Five-wing: complete inner penetration before the visible work</h2>
+        <h2 class="vb-section">3. The Three-wing: a visual signature as unmistakable calling card</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing</strong> gives the self-preservation Four an additional note of intellectual penetration before the first visible brushstroke even appears. Brown's work is visibly threaded through with a deep, self-acquired knowledge of art history – from Rubens and Poussin to de Kooning and the Abstract Expressionists – which she translates into her own, unmistakable visual language rather than merely quoting it.</p>
-          <p class="vb-intro">She shares this combination of emotional depth and intellectual system with Vincent van Gogh (also SP4w5), who studied Delacroix's color theory so thoroughly that he sketched his own color wheels in his letters – not a spontaneous outburst of feeling, but a coherent painterly system built up over years, which Brown's dense, multilayered compositions likewise embody.</p>
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Four a pronounced sense for how an inner world of images becomes an instantly recognizable outer appearance – not as self-promotion in the spotlight, but as a visual signature that speaks for itself. Brown's dense, half-figurative, half-abstract painted surface is recognizable at a glance as her own, unmistakable handwriting – shaped by a deep, self-acquired knowledge of art history, from Rubens and Poussin to de Kooning and the Abstract Expressionists, but never mere quotation.</p>
+          <p class="vb-intro">This practice of translating a complex inner imagery into a self-designed, instantly identifiable public work she shares with Peter Gabriel, who invented an entire gallery of self-designed stage figures at Genesis to make inner song content visible. In Brown, the canvas itself takes on this function: she needs no public stage persona, because the painting already is the unmistakable, instantly recognizable appearance.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Tenacity despite vulnerability in one's own craft</h2>
@@ -26209,13 +26210,13 @@ function cecilyBrownPortraitPage() {
 
         <h2 class="vb-section">5. Light and shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SP4w5 shows in Brown's ability to fully absorb great art-historical traditions and shape something entirely her own from them, without the intellectual foundation diminishing the emotional force of the paintings.</p>
+          <p class="vb-intro">The light of the SP4w3 shows in Brown's ability to fully absorb great art-historical traditions and shape something entirely her own from them, without the intellectual foundation diminishing the emotional force of the paintings.</p>
           <p class="vb-intro">The shadow of the self-preservation Four shows in the reticence itself: someone who never publicly negotiates her own depth risks having the work misunderstood or reduced to its superficially perceived erotic charge, rather than being seen in its actual art-historical and emotional complexity.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The painter who lets the work speak for itself</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Cecily Brown's career shows the self-preservation Four with a Five-wing in one of its most concentrated forms: decades of unspectacularly public, yet intellectually and emotionally extraordinarily dense work on an independent body of painting. The dove carries its burden quietly – and in the end lets only the picture speak.</p>
+          <p class="vb-intro">Cecily Brown's career shows the self-preservation Four with a Three-wing in one of its most concentrated forms: decades of unspectacularly public, yet intellectually and emotionally extraordinarily dense work on an independent body of painting. The dove carries its burden quietly – and in the end lets only the picture speak.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
@@ -26224,8 +26225,8 @@ function cecilyBrownPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
-          {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – also a painter, same subtype"},
-          {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
+          {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3) – also SP4w3"},
+          {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
         ])}
       </div>
     </div>
@@ -26294,7 +26295,6 @@ function sallyRooneyPortraitPage() {
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SP4w5)"},
-        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w5)"},
       ])}
     </div>
   `);
@@ -26493,7 +26493,6 @@ function vincentVanGoghPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
-        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w5) – also a painter, same subtype"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
       ])}
     </div>
@@ -36515,6 +36514,7 @@ function honoreDeBalzacPortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-cecily-brown", label:"Portrait: Cecily Brown (SP4w3)"},
         {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SP4w3) – heart failure"},
       ])}
     </div>
