@@ -4724,3 +4724,160 @@ export function arthurRimbaudKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function paulGauguinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-gauguin-portrait.jpg" alt="Paul Gauguin – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Gauguin</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel · 1848–1903</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Krokodil</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Tierentsprechung: Krokodil" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Paul Gauguin</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-paul-gauguin">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Maler des Postimpressionismus. Im
+        Vordergrund dieser Seite steht sein gesundheitlicher Verfall in den letzten Lebensjahren auf Tahiti und
+        den Marquesas-Inseln: eine Syphilis-Infektion mit fortschreitenden Symptomen, ein Suizidversuch mit
+        Arsen 1897/98, offene, schlecht heilende Beinwunden sowie eine schwere Herzschwäche, an der er 1903 im
+        Alter von 54 Jahren starb.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gauguin</strong> ist dem <strong>sexuellen Typ 8 mit Siebenerflügel</strong> zugeordnet. Die
+        sexuelle Acht sucht Intensität in kompromisslosem, unmittelbarem Handeln, nicht in Zurückhaltung. Der
+        Siebenerflügel bringt Rastlosigkeit und den Wunsch nach immer neuen Erfahrungsräumen hinzu – Gauguins
+        radikaler Bruch mit seinem bürgerlichen Leben in Frankreich und sein wiederholter Aufbruch in immer
+        entlegenere Teile der Südsee zeigen genau diese Kombination. Genau diese Rastlosigkeit setzte sich auch
+        im selbstzerstörerischen Umgang mit der eigenen Gesundheit fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Infektion nach der Ankunft in Tahiti:</strong>
+        Wenige Jahre nach seiner Ankunft in Tahiti 1891 zeigte Gauguin erste Anzeichen einer
+        Syphilis-Infektion, deren genauer Zeitpunkt der Ansteckung nicht sicher belegt ist.</p>
+        <p class="vb-intro"><strong>b) Zunehmende Herzprobleme:</strong>
+        Parallel dazu entwickelte sich eine fortschreitende Herzschwäche, die seine körperliche Belastbarkeit
+        zunehmend einschränkte.</p>
+        <p class="vb-intro"><strong>c) Offene Wunden an den Beinen:</strong>
+        Chronische, schlecht heilende Geschwüre an den Beinen, vermutlich eine Folge der Syphilis, machten ihm
+        das Gehen zunehmend schwer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Suizidversuch mit Arsen 1897/98:</strong>
+        Nach dem Tod seiner Tochter Aline und in finanzieller sowie körperlicher Notlage unternahm Gauguin
+        einen Suizidversuch mit Arsen, den er überlebte.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Arbeit trotz körperlichem Verfall:</strong>
+        Trotz der Schmerzen und der zunehmenden Immobilität malte Gauguin weiter, unter anderem sein
+        großformatiges Hauptwerk ›Woher kommen wir? Was sind wir? Wohin gehen wir?‹, das er kurz nach dem
+        Suizidversuch vollendete.</p>
+        <p class="vb-intro"><strong>c) Umzug auf die abgelegeneren Marquesas-Inseln:</strong>
+        1901 zog Gauguin trotz seines schlechten Gesundheitszustands noch weiter von der Zivilisation weg, auf
+        die noch entlegeneren Marquesas-Inseln.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Konfliktbereitschaft bis zuletzt:</strong>
+        Auch krank und geschwächt legte sich Gauguin auf den Marquesas-Inseln mit der katholischen Kirche und
+        den französischen Kolonialbehörden an, unter anderem wegen seiner Unterstützung der einheimischen
+        Bevölkerung gegen koloniale Willkür.</p>
+        <p class="vb-intro"><strong>b) Selbstmedikation statt ärztlicher Behandlung:</strong>
+        Gauguin behandelte seine Schmerzen weitgehend in Eigenregie, unter anderem mit Morphium und Alkohol,
+        statt sich in regelmäßige ärztliche Behandlung zu begeben.</p>
+        <p class="vb-intro"><strong>c) Keine Rückkehr nach Europa trotz Krankheit:</strong>
+        Trotz wiederholter gesundheitlicher Krisen entschied sich Gauguin bewusst gegen eine Rückkehr nach
+        Frankreich, wo eine bessere medizinische Versorgung verfügbar gewesen wäre.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod 1903 auf den Marquesas-Inseln:</strong>
+        Gauguin starb am 8. Mai 1903 auf Hiva Oa, vermutlich an einem Herzinfarkt als Folge seiner
+        fortgeschrittenen Syphilis-Erkrankung – weit entfernt von Familie und europäischer Kunstwelt.</p>
+        <p class="vb-intro"><strong>b) Postumer Ruhm als Wegbereiter der Moderne:</strong>
+        Erst nach seinem Tod wurde Gauguins Werk als eine der zentralen Wegbereitungen für den Expressionismus
+        und die moderne Malerei umfassend anerkannt.</p>
+        <p class="vb-intro"><strong>c) Ein bis heute umstrittenes Erbe:</strong>
+        Sein Umgang mit jungen einheimischen Frauen auf Tahiti und den Marquesas-Inseln, teils minderjährig,
+        wird in der heutigen Forschung kritisch und unumwunden als Missbrauch eingeordnet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kompromissloses Handeln auch gegen den eigenen Körper:</strong>
+        Für die sexuelle Acht ist Zurückhaltung fremd – Gauguins Weigerung, sich zu schonen oder medizinische
+        Hilfe zu suchen, zeigt dieselbe kompromisslose Direktheit, die auch seine Konflikte mit Kirche und
+        Kolonialverwaltung prägte.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel als Flucht nach vorn, immer weiter weg:</strong>
+        Der Umzug auf die noch entlegeneren Marquesas-Inseln trotz sich verschlechternder Gesundheit zeigt die
+        Rastlosigkeit des Siebenerflügels – nicht Rückzug zur Genesung, sondern weiterer Aufbruch.</p>
+        <p class="vb-intro"><strong>c) Schöpferische Kraft bis zum Äußersten:</strong>
+        Kurz nach seinem Suizidversuch vollendete Gauguin eines seiner bedeutendsten Werke – die schöpferische
+        Intensität ließ sich selbst durch die eigene Verzweiflung nicht stoppen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein über ein Jahrzehnt anhaltender körperlicher Verfall:</strong>
+        Von den ersten Symptomen nach 1891 bis zu seinem Tod 1903 verlief Gauguins Gesundheit in einer stetigen
+        Verschlechterung, die er nie zum Anlass für eine geordnete medizinische Behandlung nahm.</p>
+        <p class="vb-intro"><strong>b) Selbstzerstörung statt Selbstschonung:</strong>
+        Für eine sexuelle Acht mit Siebenerflügel, deren Sicherheit im unmittelbaren, kompromisslosen Handeln
+        liegt, wurde die eigene Krankheit nicht zum Anlass für Vorsicht, sondern für eine weitere Flucht nach
+        vorn.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Flucht in noch größere Abgeschiedenheit?</strong>
+        Für eine sexuelle Acht mit Siebenerflügel, deren Identität auf kompromissloser Autonomie und
+        ständig neuen Erfahrungsräumen beruht, lässt sich der Umzug auf die noch entlegeneren Marquesas-Inseln
+        trotz Krankheit als Zuspitzung des eigenen Lebensmusters lesen: Rückzug zur Schonung wäre einem
+        Eingeständnis von Schwäche gleichgekommen, das dieser Subtyp kaum zulässt. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Acht mit Siebenerflügel zwangsläufig zu Syphilis oder
+        Herzversagen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Gauguins Erkrankung steht zudem in engem Zusammenhang mit einer nachweisbaren Infektion, nicht rein
+        psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im Umgang mit
+        fortschreitender Krankheit, das bei einer ausgeprägten sexuellen Acht mit Siebenerflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Gauguin kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte
+        er seine kompromisslose Autonomie und seinen Rastlosigkeitsdrang ungebremst aus, statt sich rechtzeitig
+        medizinische Hilfe oder Ruhe zu gönnen – ein Zug, der seinem Werk eine einzigartige Radikalität verlieh,
+        ihn selbst aber weit vor seiner Zeit verzehrte. Wer das eigene Muster erkennt, kann bewusst
+        gegensteuern; wer es nicht kennt, flieht weiter, bis der Körper keine Flucht mehr zulässt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Acht mit Siebenerflügel bestätigt sich bei <strong>Paul Gauguin</strong> in der
+        kompromisslosen Weigerung, sich der eigenen Krankheit durch Rückzug oder ärztliche Fürsorge zu beugen –
+        stattdessen floh er immer weiter in die Abgeschiedenheit, bis der Körper keine weitere Flucht mehr
+        zuließ. Das Krokodil kennt keinen geordneten Rückzug – nur das Weiterschwimmen, bis die Kraft
+        endgültig versiegt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx8", label:"Subtyp-Profil SX8"},
+      ])}
+    </div>
+  `);
+}

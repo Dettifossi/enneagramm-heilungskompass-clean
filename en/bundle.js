@@ -381,6 +381,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Self-Preservation Type 4", krankheit:"Decades of exploiting his body through compulsive overwork and caffeine excess, heart failure with fatal gangrene", teaser:"SE4w3 – French writer, 1799–1850. Decades of all-night writing marathons and excessive coffee consumption, progressive heart failure, gangrene following repeated trocar procedures for leg edema, died August 18, 1850, five months after his wedding to Ewelina Hańska." , land:"France", gender:"m", jahre:"1799–1850"},
   { route:"krankheitsportraets-t-e-lawrence", name:"T. E. Lawrence", subtyp:"SE4w3", heading:"T. E. Lawrence – Self-Preservation Type 4", krankheit:"Thirteen years of sustained depression and suspected post-traumatic stress disorder after Deraa 1917, self-arranged punishment ritual", teaser:"SE4w3 – British officer, archaeologist, 1888–1935. Chronic depression and self-hatred from 1922 until his death, voluntary retreat under two false names into the lowest military ranks, self-arranged flogging ritual from 1923, died May 19, 1935 after a motorcycle accident." , land:"United Kingdom", gender:"m", jahre:"1888–1935"},
   { route:"krankheitsportraets-arthur-rimbaud", name:"Arthur Rimbaud", subtyp:"SX4w3", heading:"Arthur Rimbaud – Sexual Type 4", krankheit:"Bone tumor (likely synovial sarcoma) in the right knee, leg amputation, death months later", teaser:"SX4w3 – French poet and trader, 1854–1891. Diagnosed in 1891 in Marseille, right leg amputated, unsparingly open letters to family about his suffering. Died in November 1891 at age 37." , land:"France", gender:"m", jahre:"1854–1891"},
+  { route:"krankheitsportraets-paul-gauguin", name:"Paul Gauguin", subtyp:"SX8w7", heading:"Paul Gauguin – Sexual Type 8", krankheit:"Syphilis with progressive symptoms, suicide attempt by arsenic, fatal heart failure", teaser:"SX8w7 – French painter, 1848–1903. Syphilis infection after 1891, suicide attempt by arsenic in 1897/98, open leg wounds. Died in 1903 on the Marquesas Islands, likely of a heart attack resulting from the illness." , land:"France", gender:"m", jahre:"1848–1903"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -37007,6 +37008,158 @@ function arthurRimbaudKrankheitsportraetPage() {
   `);
 }
 
+function paulGauguinKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-gauguin-portrait.jpg" alt="Paul Gauguin – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Gauguin</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexual Type 8 with Seven-wing · 1848–1903</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Crocodile</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx8.jpg" alt="Animal correspondence: Crocodile" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX8")};left:${tierAvatarLeft("SX8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Paul Gauguin</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-paul-gauguin">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a Post-Impressionist painter. This page focuses
+        on his physical decline in his final years in Tahiti and the Marquesas Islands: a syphilis infection
+        with progressive symptoms, a suicide attempt by arsenic in 1897/98, open, poorly healing leg wounds,
+        and severe heart failure, from which he died in 1903 at age 54.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Gauguin</strong> is assigned to the <strong>sexual Type 8 with a Seven-wing</strong>. The
+        sexual Eight seeks intensity through uncompromising, immediate action rather than restraint. The
+        Seven-wing adds restlessness and a hunger for ever-new experience – Gauguin's radical break from his
+        bourgeois life in France and his repeated departures into increasingly remote parts of the South Seas
+        show exactly this combination. This same restlessness continued in his self-destructive handling of
+        his own health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An infection after arriving in Tahiti:</strong>
+        A few years after his arrival in Tahiti in 1891, Gauguin showed the first signs of a syphilis
+        infection, the exact timing of which is not reliably documented.</p>
+        <p class="vb-intro"><strong>b) Growing heart problems:</strong>
+        In parallel, a progressive heart weakness developed, increasingly limiting his physical stamina.</p>
+        <p class="vb-intro"><strong>c) Open wounds on his legs:</strong>
+        Chronic, poorly healing ulcers on his legs, likely a consequence of the syphilis, made walking
+        increasingly difficult.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A suicide attempt by arsenic in 1897/98:</strong>
+        After the death of his daughter Aline and amid financial and physical hardship, Gauguin attempted
+        suicide with arsenic, which he survived.</p>
+        <p class="vb-intro"><strong>b) Continued work despite physical decline:</strong>
+        Despite the pain and growing immobility, Gauguin kept painting, completing among other works his
+        large-scale masterpiece "Where Do We Come From? What Are We? Where Are We Going?" shortly after the
+        suicide attempt.</p>
+        <p class="vb-intro"><strong>c) A move to the even more remote Marquesas Islands:</strong>
+        In 1901, despite his poor health, Gauguin moved even further from civilization, to the still more
+        remote Marquesas Islands.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Readiness for conflict to the end:</strong>
+        Even sick and weakened, Gauguin clashed on the Marquesas Islands with the Catholic Church and the
+        French colonial authorities, among other things over his support for the local population against
+        colonial arbitrariness.</p>
+        <p class="vb-intro"><strong>b) Self-medication instead of medical treatment:</strong>
+        Gauguin largely treated his pain on his own terms, including with morphine and alcohol, rather than
+        seeking regular medical care.</p>
+        <p class="vb-intro"><strong>c) No return to Europe despite illness:</strong>
+        Despite repeated health crises, Gauguin deliberately chose not to return to France, where better
+        medical care would have been available.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in 1903 on the Marquesas Islands:</strong>
+        Gauguin died on May 8, 1903, on Hiva Oa, likely of a heart attack resulting from his advanced syphilis
+        – far from family and the European art world.</p>
+        <p class="vb-intro"><strong>b) Posthumous fame as a pioneer of modernism:</strong>
+        Only after his death was Gauguin's work fully recognized as one of the central influences paving the
+        way for Expressionism and modern painting.</p>
+        <p class="vb-intro"><strong>c) A legacy still contested today:</strong>
+        His conduct with young local women in Tahiti and the Marquesas Islands, some of them minors, is
+        critically and unambiguously classified as abuse in current scholarship.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Uncompromising action even against his own body:</strong>
+        Restraint is foreign to the sexual Eight – Gauguin's refusal to spare himself or seek medical help
+        shows the same uncompromising directness that also marked his conflicts with church and colonial
+        administration.</p>
+        <p class="vb-intro"><strong>b) The Seven-wing as forward flight, ever further away:</strong>
+        The move to the even more remote Marquesas Islands despite worsening health shows the restlessness of
+        the Seven-wing – not retreat to recover, but further departure.</p>
+        <p class="vb-intro"><strong>c) Creative force to the utmost:</strong>
+        Shortly after his suicide attempt, Gauguin completed one of his most significant works – his creative
+        intensity could not be stopped even by his own despair.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) More than a decade of ongoing physical decline:</strong>
+        From the first symptoms after 1891 to his death in 1903, Gauguin's health followed a steady decline
+        that he never took as an occasion for orderly medical treatment.</p>
+        <p class="vb-intro"><strong>b) Self-destruction instead of self-care:</strong>
+        For a sexual Eight with a Seven-wing, whose security lies in immediate, uncompromising action, one's
+        own illness became not an occasion for caution but for a further flight forward.</p>
+        <p class="vb-intro"><strong>c) Why flight into even greater remoteness specifically?</strong>
+        For a sexual Eight with a Seven-wing, whose identity rests on uncompromising autonomy and ever-new
+        experience, moving to the even more remote Marquesas Islands despite illness can be read as an
+        intensification of his own life pattern: retreating to recover would have amounted to an admission of
+        weakness this subtype rarely allows. This interpretation is developed further in this compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the sexual Eight with a Seven-wing inevitably leads to syphilis or
+        heart failure – <strong>anyone can develop any illness, regardless of subtype.</strong> Gauguin's
+        illness is also closely linked to a documented infection, not purely explainable psychosomatically.
+        What his case shows is a pattern in how progressive illness is handled that recurs in a pronounced
+        sexual Eight with a Seven-wing – one of many possible interpretations, not a verdict. The corresponding
+        illness pattern is being developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Gauguin, like most people of his time, had no Enneagram model. Without this knowledge he lived out his
+        uncompromising autonomy and restless drive without restraint, rather than granting himself timely
+        medical help or rest – a trait that gave his work a unique radicalism, but consumed him well before his
+        time. Someone who recognizes their own pattern can consciously counteract it; someone who does not
+        keeps fleeing until the body allows no further flight.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Eight with a Seven-wing is confirmed in <strong>Paul Gauguin</strong> by his uncompromising
+        refusal to submit to his own illness through retreat or medical care – instead he fled ever further
+        into remoteness, until his body allowed no further flight. The crocodile knows no orderly retreat –
+        only swimming on, until its strength finally runs out.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx8", label:"Subtype Profile SX8"},
+      ])}
+    </div>
+  `);
+}
+
 function alanTuringKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -55542,12 +55695,17 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX8: {
     tier: "Crocodile",
     kernthema: "Continuing to fight without publicly visible loss of power – this group holds its position remarkably long despite serious, sometimes repeated illness.",
-    beispiele: ["Ruth Bader Ginsburg", "Giacomo Puccini", "John Wayne", "Genesis P-Orridge"],
+    beispiele: ["Ruth Bader Ginsburg", "Giacomo Puccini", "John Wayne", "Genesis P-Orridge", "Paul Gauguin"],
     fingerabdruecke: [
       {
         titel: "Office or position not relinquished despite serious, repeated illness",
         beschreibung: "The sexual Eight shows, in several cases, a remarkable refusal to vacate its position because of an illness – even when it recurs multiple times.",
         beleg: "Ruth Bader Ginsburg, who lived through four cancer diagnoses across three very different organs over two decades while remaining continuously on the bench as a US Supreme Court justice; John Wayne, who had lung cancer in 1964 and finally fatal stomach cancer in 1979, continuing to make films between the two diagnoses."
+      },
+      {
+        titel: "Self-destructive flight forward instead of self-care",
+        beschreibung: "A second pattern shows not a refusal to give up an office, but a fundamental refusal to submit to one's own illness through retreat or medical care – autonomy is instead defended through ever-further flight forward.",
+        beleg: "Paul Gauguin, who despite progressive syphilis and open leg wounds moved to the even more remote Marquesas Islands rather than seeking medical treatment in Europe, and completed one of his most significant works shortly after a suicide attempt."
       }
     ]
   },
@@ -115283,6 +115441,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
       "krankheitsportraets-t-e-lawrence": tELawrenceKrankheitsportraetPage,
       "krankheitsportraets-arthur-rimbaud": arthurRimbaudKrankheitsportraetPage,
+      "krankheitsportraets-paul-gauguin": paulGauguinKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
