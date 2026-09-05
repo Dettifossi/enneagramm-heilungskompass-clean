@@ -1760,3 +1760,67 @@ export function skylarGreyPortraitPage() {
     </div>
   `);
 }
+
+export function matthewMcConaugheyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matthew-mcconaughey-portrait.jpg" alt="Matthew McConaughey – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Matthew McConaughey</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1969 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der sein eigenes Bild komplett neu entfaltete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – unmittelbare, magnetische Präsenz, die sich der Berechnung entzieht. Matthew McConaughey wurde in den 1990er- und 2000er-Jahren zum Inbegriff des charmanten romantischen Komödien-Stars, bevor er sich ab etwa 2011 mit ernsten, körperlich radikalen Rollen – unter anderem einem Gewichtsverlust von über zwanzig Kilogramm für ›Dallas Buyers Club‹ – komplett neu erfand.</p>
+          <p class="vb-intro">Dieser als ›McConaissance‹ bezeichnete Wandel brachte ihm 2014 den Oscar als bester Hauptdarsteller ein und zeigt exemplarisch, wie vollständig sich dieser Subtyp neu präsentieren kann, ohne die eigene Präsenz dabei zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Wirkung durch unmittelbare Präsenz statt Kalkül</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> entfaltet ihre Wirkung nicht durch berechnete Selbstinszenierung, sondern durch eine Präsenz, der sich kaum jemand entziehen kann. McConaugheys charakteristische, langsame Sprechweise, sein unverwechselbares Lachen und seine unmittelbare Bühnenpräsenz in Interviews und Reden – etwa seiner viel zitierten Oscar-Dankesrede 2014 – zeigen genau diese Wirkung ohne erkennbare Anstrengung.</p>
+          <p class="vb-intro">Das teilt er mit Frank Schätzing (ebenfalls SX3w4), dessen öffentliche Präsenz der Lebensmusterkompass als nie einstudiert, sondern wie einen Naturzustand beschreibt: Auch bei McConaughey wirkt die eigene Ausstrahlung nie aufgesetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Existenzielle Suche unter der lässigen Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel</strong> verleiht der sexuellen Drei eine zusätzliche Note existenzieller Tiefe und einer beständigen Suche nach dem eigenen, authentischen Wesenskern. McConaugheys 2020 erschienene Memoiren ›Greenlights‹ verarbeiten genau dieses Thema: eine oft unkonventionelle, philosophisch-spirituelle Selbstbefragung, die weit über das übliche Hollywood-Promi-Buch hinausgeht.</p>
+          <p class="vb-intro">Auch seine Rolle als Detective Rust Cohle in ›True Detective‹ (2014), ein von existenziellem Nihilismus durchdrungener Ermittler, zeigt diese Kombination aus lässiger Präsenz und abgründiger philosophischer Tiefe – ein Rollentyp, der seinen lässigen Südstaaten-Charme mit echter existenzieller Schwere verband.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vollständige körperliche Verwandlung für die eigene Kunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Für seine Rolle als HIV-positiver Elektriker in ›Dallas Buyers Club‹ nahm McConaughey innerhalb weniger Monate über zwanzig Kilogramm ab – ein Ausmaß körperlicher Hingabe an eine Rolle, das an die kompromisslose Vollständigkeit erinnert, mit der die sexuelle Drei jede Bühne bespielt, sobald sie sich für sie entschieden hat.</p>
+          <p class="vb-intro">Diese radikale Verwandlung stand am Beginn einer Phase, in der er systematisch nur noch Rollen annahm, die seinem neuen künstlerischen Anspruch entsprachen – eine bewusste, vollständige Neuausrichtung statt eines allmählichen Imagewandels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 zeigt sich in McConaugheys Fähigkeit, sein öffentliches Bild vollständig neu zu erfinden, ohne dabei unglaubwürdig zu wirken – eine seltene Kombination aus Mut zur radikalen Veränderung und der Beibehaltung der eigenen, unverwechselbaren Präsenz.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Drei zeigt sich darin, dass ein Großteil der öffentlichen Wahrnehmung weiterhin an sein früheres, oberflächlicheres Image aus den romantischen Komödien gebunden bleibt – ein Bild, gegen das er sich bewusst und mit erheblichem persönlichem Einsatz neu positionieren musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Schauspieler, der sich selbst neu erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Matthew McConaugheys Karriere zeigt die sexuelle Drei mit Viererflügel in einer ihrer eindrücklichsten Formen: eine glanzvolle öffentliche Präsenz, die sich nicht scheut, für eine tiefere künstlerische Wahrheit vollständig neu zu erscheinen. Der Pfau wechselt sein Gefieder, wenn die alte Farbe nicht mehr das zeigt, was wirklich in ihm steckt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+          {route:"beruehmte-frank-schaetzing", label:"Porträt: Frank Schätzing (SX3w4) – ebenfalls SX3w4"},
+          {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

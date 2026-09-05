@@ -1292,6 +1292,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Frank Schätzing – Sexual Type 3",
     teaser:"SX3w4 · born 1957. German writer, ›The Swarm‹ (2004) sold several million copies. Copywriter, musician, then bestselling author – full presence on every stage, genuine concern for the oceans at the core of his work. Animal correspondence: Peacock.",
     land:"Germany", tags:["Literatur"], gender:"m"},
+{ route:"beruehmte-matthew-mcconaughey", name:"Matthew McConaughey", added:"2026-09-05", subtyp:"SX3w4",
+    heading:"Matthew McConaughey – Sexual Type 3",
+    teaser:"SX3w4 · born 1969. American actor, Oscar for ›Dallas Buyers Club‹ 2014. Complete reinvention from rom-com star to serious character actor (›McConaissance‹), lost over forty pounds for a role. Animal correspondence: Peacock.",
+    land:"USA", tags:["Film"], gender:"m"},
 { route:"beruehmte-lena-meyer-landrut", name:"Lena Meyer-Landrut", added:"2026-07-20", subtyp:"SX3w2",
     heading:"Lena Meyer-Landrut – Sexual Type 3",
     teaser:"SX3w2 · born 1991. Singer, ESC winner 2010. The peacock who doesn't know how beautiful he is - and that's precisely why he captivates everyone. Animal correspondence: Peacock.",
@@ -47445,6 +47449,70 @@ function ladyDianaPortraitPage() {
 }
 
 
+function matthewMcConaugheyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matthew-mcconaughey-portrait.jpg" alt="Matthew McConaughey – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Matthew McConaughey</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1969 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock that completely re-unfolded its own image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Type 3 – immediate, magnetic presence that resists calculation. In the 1990s and 2000s, Matthew McConaughey became the epitome of the charming romantic-comedy star, before completely reinventing himself from around 2011 with serious, physically radical roles – including losing over forty pounds for "Dallas Buyers Club."</p>
+          <p class="vb-intro">This transformation, dubbed the "McConaissance," earned him the 2014 Best Actor Oscar and shows exemplarily how completely this subtype can re-present itself without losing its own presence in the process.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: impact through immediate presence, not calculation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> creates its effect not through calculated self-staging but through a presence that almost no one can resist. McConaughey's characteristic slow way of speaking, his unmistakable laugh, and his immediate stage presence in interviews and speeches – such as his widely quoted 2014 Oscar acceptance speech – show exactly this effect without visible effort.</p>
+          <p class="vb-intro">He shares this with Frank Schätzing (also SX3w4), whose public presence the life-pattern compass describes as never rehearsed but like a natural state: with McConaughey too, his own radiance never feels put on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: existential searching beneath the laid-back surface</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing</strong> gives the sexual Three an additional note of existential depth and a persistent search for one's own, authentic core. McConaughey's 2020 memoir "Greenlights" processes exactly this theme: an often unconventional, philosophically-spiritual self-examination that goes far beyond the usual Hollywood celebrity book.</p>
+          <p class="vb-intro">His role as Detective Rust Cohle in "True Detective" (2014), an investigator steeped in existential nihilism, also shows this combination of laid-back presence and abyssal philosophical depth – a role type that combined his relaxed Southern charm with genuine existential weight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Complete physical transformation for his own art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For his role as an HIV-positive electrician in "Dallas Buyers Club," McConaughey lost over forty pounds within a few months – a degree of physical devotion to a role reminiscent of the uncompromising completeness with which the sexual Three inhabits any stage it has committed to.</p>
+          <p class="vb-intro">This radical transformation marked the beginning of a phase in which he systematically accepted only roles matching his new artistic standard – a deliberate, complete realignment rather than a gradual image change.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 shows in McConaughey's ability to completely reinvent his public image without appearing implausible in the process – a rare combination of courage for radical change and retaining his own, unmistakable presence.</p>
+          <p class="vb-intro">The shadow of the sexual Three shows in the fact that much of public perception remains tied to his earlier, more superficial image from the romantic comedies – an image against which he had to deliberately reposition himself with considerable personal effort.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The actor who reinvented himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Matthew McConaughey's career shows the sexual Three with a Four-wing in one of its most striking forms: a brilliant public presence unafraid to completely re-appear in service of a deeper artistic truth. The peacock changes its plumage when the old colors no longer show what truly lies within it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
+          {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function frankSchaetzingPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47503,6 +47571,7 @@ function frankSchaetzingPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
           {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4) – also SX3w4"},
           {route:"beruehmte-marlene-zuk", label:"Portrait: Prof. Dr. Marlene Zuk (SX3w4)"},
+          {route:"beruehmte-matthew-mcconaughey", label:"Portrait: Matthew McConaughey (SX3w4)"},
         ])}
       </div>
     </div>
@@ -47567,6 +47636,7 @@ function dieterBohlenPortraitPage() {
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
         {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
         {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
+        {route:"beruehmte-matthew-mcconaughey", label:"Portrait: Matthew McConaughey (SX3w4)"},
       ])}
     </div>
   `);
@@ -55754,7 +55824,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing", "Matthew McConaughey"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
@@ -55769,7 +55839,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "The deliberate, complete performance as an art form for others",
         beschreibung: "At the other end of the same spectrum stands the fully conscious, completely played-out self-presentation – not a private pleasure, but a deliberate performance that knows exactly what effect it wants to achieve.",
-        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed; Linda Evans, an extremely shy child who, on her school principal's advice, took acting classes just to build any self-confidence at all – and out of that shyness shaped, with her iconic blonde mane and elaborate Bob Mackie gowns as Krystle Carrington on 'Dynasty,' one of American television's most deliberately constructed glamour figures; Frank Schätzing, whose path from copywriter through musician to internationally translated bestselling author ran across several completely different stages, each inhabited with full intensity before the next began."
+        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed; Linda Evans, an extremely shy child who, on her school principal's advice, took acting classes just to build any self-confidence at all – and out of that shyness shaped, with her iconic blonde mane and elaborate Bob Mackie gowns as Krystle Carrington on 'Dynasty,' one of American television's most deliberately constructed glamour figures; Frank Schätzing, whose path from copywriter through musician to internationally translated bestselling author ran across several completely different stages, each inhabited with full intensity before the next began; Matthew McConaughey, who from 2011 completely reinvented himself from rom-com star to serious character actor by losing over forty pounds for 'Dallas Buyers Club,' without losing his unmistakable presence in the process."
       },
       {
         titel: "When the perfect ideal or the perfect performance becomes a murderous fixation (shadow form)",
@@ -115558,6 +115628,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
       "beruehmte-frank-schaetzing": frankSchaetzingPortraitPage,
+      "beruehmte-matthew-mcconaughey": matthewMcConaugheyPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-francisco-de-goya": franciscoDeGoyaPortraitPage,

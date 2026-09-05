@@ -1814,6 +1814,7 @@ export function frankSchaetzingPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
           {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4) – ebenfalls SX3w4"},
           {route:"beruehmte-marlene-zuk", label:"Porträt: Prof. Dr. Marlene Zuk (SX3w4)"},
+          {route:"beruehmte-matthew-mcconaughey", label:"Porträt: Matthew McConaughey (SX3w4)"},
         ])}
       </div>
     </div>
