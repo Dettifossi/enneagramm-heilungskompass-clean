@@ -601,6 +601,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonardo DiCaprio – Sexual Type 1",
     teaser:"SX1w2 · born 1974. Actor, climate activist. Five Oscar nominations, six attempts – and in the moment of triumph he spoke about climate change, not himself. The Black Mamba does not burn for applause. Animal correspondence: Black Mamba.",
     land:"USA", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-faye-dunaway", name:"Faye Dunaway", subtyp:"SX1w2",
+    heading:"Faye Dunaway – Sexual Type 1",
+    teaser:"SX1w2 · born 1941. American actress (Bonnie and Clyde, Chinatown, Network). Uncompromising, obsessive attention to detail – labeled ›difficult‹ for a lifetime, for traits male colleagues were celebrated as geniuses for.",
+    land:"USA", tags:["Schauspiel"] , gender:"f"},
 { route:"beruehmte-bill-haast", name:"Bill Haast", added:"2026-08-17", subtyp:"SX1w9",
     heading:"Bill Haast \u2013 Sexual Type 1",
     teaser:"SX1w9 \u00b7 1910\u20132011. Herpetologist, founder of the Miami Serpentarium. Survived 172 venomous snakebites, decades of weekly self-injections with snake venom, helped develop the first coral snake antivenom. Animal correspondence: Black Mamba.",
@@ -24376,6 +24380,70 @@ function klausJBehrendtPortraitPage() {
   `);
 }
 
+function fayeDunawayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-faye-dunaway-portrait.jpg" alt="Faye Dunaway – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Faye Dunaway</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1941 &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The mamba that knew no half-measures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Black Mamba</strong> is the animal of the sexual Type 1 – an animal whose effect rests not on courting sympathy, but on a penetrating, nearly unavoidable presence. Faye Dunaway became one of the defining actresses of her generation through roles like Bonnie Parker in "Bonnie and Clyde," Evelyn Mulwray in "Chinatown," and Diana Christensen in "Network" – for which she won the Oscar – across a career spanning more than fifty years.</p>
+          <p class="vb-intro">Her reputation as "difficult" followed her through her entire career. By her own admission, she was demanding, perfectionistic, and near-obsessive in her pursuit of precision as an actor – traits that male colleagues were celebrated for, while she was branded with the "diva" label.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: intransigence instead of a reform mission</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> does not seek to reform the whole world the way the social One does, but instead lives out its intransigence wherever it acts directly – in its own craft, its own role, its own relationship to work. In Dunaway this showed up as a near-proverbial obsession with detail: she reportedly had her lips re-moisturized between takes, because even that small detail could not be left to chance – a habit that slowed productions but was, for her, simply necessary.</p>
+          <p class="vb-intro">For "Mommie Dearest" she immersed herself in the role of Joan Crawford with method-actor completeness – no half-measures, at a noticeable personal cost, just as she had recently become a mother herself. That is exactly the SX1 intensity: not graduated commitment, but total engagement that admits no compromise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: intensity discharged into relationships</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the sexual One an additional note that shows up directly in interpersonal relationships, rather than hiding first behind a withdrawn facade. Unlike Klaus Kinski (SX1w9), for instance, whose Nine-wing can be described as an "inconspicuous, withdrawn facade that abruptly flips into harshness," Dunaway was never withdrawn – her intensity aimed directly at directors, co-stars, and production teams she worked with closely, demandingly, and often in conflict.</p>
+          <p class="vb-intro">She shares this direct, relationship-oriented form of intensity with Leonardo DiCaprio (also SX1w2), whose "no half-measures" role preparation is described in this subtype's life-pattern compass: the mamba's bite doesn't land in a vacuum – it lands directly in the counterpart, a collaboration, a shared project.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The "difficult" reputation as a double standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The 2024 HBO documentary "Faye" illuminated exactly this double standard: the same traits – high standards, uncompromising attention to detail, no willingness to accept sloppy compromises – were celebrated as signs of greatness in male directors and actors, but devalued in Dunaway as "difficult" or "diva-like."</p>
+          <p class="vb-intro">She herself has publicly acknowledged bipolar disorder, which contributed to some of the "erratic" episodes attributed to her – a separate health factor that should be considered apart from the Enneagram typing, but which further contextualizes the harshness with which her behavior was publicly judged.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1w2 shows in Dunaway as a devotion to her craft that never let up across five decades – every role was treated with the same uncompromising care, whether it was an Oscar-winning performance or a smaller production.</p>
+          <p class="vb-intro">The shadow of the One shows in the difficulty of extending the same high standards to others with any leniency – her conflicts with directors like Roman Polanski and her dismissal from the play "Tea at Five" suggest how costly uncompromising precision can become when it meets an environment with different priorities.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The actress whose standards never gave a discount</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Faye Dunaway's career shows the sexual One with a Two-wing in its most publicly harshly judged form: a woman who allowed herself the same uncompromising standards that were read as genius in male colleagues, and was labeled "difficult" for decades because of it. The mamba doesn't bite out of malice – it simply knows no half-measures.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+          {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2) – also an actor, same subtype"},
+          {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9) – contrast in the wing"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function klausKinskiPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -24439,6 +24507,7 @@ function klausKinskiPortraitPage() {
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"krankheitsportraets-klaus-kinski", label:"Illness Portrait: Klaus Kinski (SX1w9)"},
         {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
+        {route:"beruehmte-faye-dunaway", label:"Portrait: Faye Dunaway (SX1w2) – contrast in the wing"},
       ])}
     </div>
   `);
@@ -46535,6 +46604,7 @@ function leonardoDiCaprioPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-faye-dunaway", label:"Portrait: Faye Dunaway (SX1w2) – also an actress, same subtype"},
       ])}
     </div>
   `);
@@ -53745,12 +53815,12 @@ const LEBENSMUSTERKOMPASS = {
   SX1: {
     tier: "Black Mamba",
     kernthema: "Uncompromising intensity in the closest circle instead of reforming the whole world",
-    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "John the Baptist"],
+    beispiele: ["Klaus Kinski", "Marie-Agnes Strack-Zimmermann", "Grigori Rasputin", "Robbie Williams", "Jamie Lee Curtis", "Udo Lindenberg", "Johann Sebastian Bach", "Leonardo DiCaprio", "Faye Dunaway", "Thea Litschka-Koen", "Bill Haast", "Romulus Whitaker", "Mary Ann Cotton", "Otto Mühl", "Alex Murdaugh", "Gary Ridgway", "Paul Bernardo", "Gennadi Mikhasevich", "Fritz Haarmann", "Josef Fritzl", "Martin Luther", "Eminem", "John the Baptist"],
     fingerabdruecke: [
       {
         titel: "Penetrating, inescapable presence instead of flattering charisma",
         beschreibung: "The effect arises not through courting sympathy, but through an intensity one can hardly escape at close range – a gaze, a stage presence, a focus that forces the other person into complete wakefulness.",
-        beleg: "'To be near her means to be fully awake' (Klaus Kinski); Rasputin's gaze, under which St. Petersburg society ladies felt 'fully seen, stripped bare to the core' – 'not a charisma that flatters, but one that penetrates'; Leonardo DiCaprio's role preparation 'without half-measures' – 'the mamba's bite: complete, precise.'; Thea Litschka-Koen, Bill Haast, and Romulus Whitaker, whose decades of relentlessly precise practical engagement with highly venomous snakes differs in its precision from an academic research career in no way – entirely focused on a single law that admits no exception; John the Baptist, whose voice by the Jordan 'left no one indifferent' – people feared him or followed him, a crier one could hardly escape in his presence."
+        beleg: "'To be near her means to be fully awake' (Klaus Kinski); Rasputin's gaze, under which St. Petersburg society ladies felt 'fully seen, stripped bare to the core' – 'not a charisma that flatters, but one that penetrates'; Leonardo DiCaprio's role preparation 'without half-measures' – 'the mamba's bite: complete, precise.'; Faye Dunaway, who reportedly had her lips re-moisturized between film takes because even that detail could not be left to chance – an obsession with detail that slowed productions but was, for her, simply necessary; Thea Litschka-Koen, Bill Haast, and Romulus Whitaker, whose decades of relentlessly precise practical engagement with highly venomous snakes differs in its precision from an academic research career in no way – entirely focused on a single law that admits no exception; John the Baptist, whose voice by the Jordan 'left no one indifferent' – people feared him or followed him, a crier one could hardly escape in his presence."
       },
       {
         titel: "Unassuming, withdrawn facade that turns abruptly into uncompromising hardness when integrity is wounded",
@@ -113586,6 +113656,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
+      "beruehmte-faye-dunaway": fayeDunawayPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,
       "beruehmte-camille-fritsch": camilleFritschPortraitPage,
       "beruehmte-jj-liu": jjLiuPortraitPage,

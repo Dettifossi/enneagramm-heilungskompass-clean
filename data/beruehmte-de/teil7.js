@@ -939,6 +939,7 @@ export function leonardoDiCaprioPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-faye-dunaway", label:"Portr\u00e4t: Faye Dunaway (SX1w2) \u2013 ebenfalls Schauspielerin, derselbe Subtyp"},
       ])}
     </div>
   `);

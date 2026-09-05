@@ -1740,3 +1740,67 @@ export function miraMuratiPortraitPage() {
     </div>
   `);
 }
+
+export function fayeDunawayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-faye-dunaway-portrait.jpg" alt="Faye Dunaway – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Faye Dunaway</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1941 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Mamba, die keine Halbheiten kannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier des sexuellen Typs 1 – ein Tier, dessen Wirkung nicht auf Sympathiewerben beruht, sondern auf einer durchdringenden, kaum zu umgehenden Präsenz. Faye Dunaway wurde mit Rollen wie Bonnie Parker in „Bonnie and Clyde", Evelyn Mulwray in „Chinatown" und Diana Christensen in „Network" – dafür erhielt sie den Oscar – zu einer der prägendsten Schauspielerinnen ihrer Generation, über eine Karriere von mehr als fünfzig Jahren.</p>
+          <p class="vb-intro">Ihr Ruf als „schwierig" begleitete sie durch die gesamte Karriere. Nach eigenem Eingeständnis war sie fordernd, perfektionistisch und geradezu obsessiv in ihrem Streben nach schauspielerischer Präzision – Eigenschaften, für die männliche Kollegen gefeiert wurden, während sie ihr als „Diva"-Etikett angehängt wurden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Kompromisslosigkeit statt Reformanspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> sucht nach Naranjo nicht die Reform der ganzen Welt wie die soziale Eins, sondern lebt ihre Kompromisslosigkeit dort aus, wo sie unmittelbar wirkt – im eigenen Handwerk, in der eigenen Rolle, in der eigenen Beziehung zur Arbeit. Bei Dunaway zeigte sich das in einer geradezu sprichwörtlichen Detailbesessenheit: Sie ließ sich zwischen Einstellungen wiederholt die Lippen eincremen, weil selbst dieses kleine Detail nicht dem Zufall überlassen werden durfte – ein Verhalten, das Produktionen verlangsamte, aber für sie schlicht notwendig war.</p>
+          <p class="vb-intro">Für „Mommie Dearest" tauchte sie mit method-artiger Vollständigkeit in die Rolle der Joan Crawford ein – ohne Halbheiten, mit spürbarem persönlichem Preis, gerade als sie selbst frisch Mutter geworden war. Genau das ist die SX1-Intensität: keine abgestufte Hingabe, sondern vollständiges Engagement, das keine Kompromisse kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Intensität, die sich in Beziehungen entlädt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sexuellen Eins eine zusätzliche Note, die sich direkt in zwischenmenschlichen Beziehungen zeigt, statt sich erst hinter einer zurückhaltenden Fassade zu verbergen. Anders als etwa Klaus Kinski (SX1w9), dessen Neunerflügel sich als „unscheinbare, zurückgezogene Fassade, die abrupt in Härte umschlägt" beschreiben lässt, war Dunaway nie zurückgezogen – ihre Intensität richtete sich unmittelbar an Regisseure, Co-Stars und Produktionsteams, mit denen sie eng, fordernd und oft konfliktreich zusammenarbeitete.</p>
+          <p class="vb-intro">Diese direkte, beziehungsorientierte Form der Intensität teilt sie mit Leonardo DiCaprio (ebenfalls SX1w2), dessen Rollenvorbereitung „ohne Halbheiten" im Lebensmusterkompass dieses Subtyps beschrieben wird: Der Biss der Mamba trifft nicht ins Leere, sondern direkt ins Gegenüber – in eine Zusammenarbeit, eine Beziehung, ein gemeinsames Projekt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der „schwierige" Ruf als Doppelstandard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die 2024 erschienene HBO-Dokumentation „Faye" beleuchtete genau diesen Doppelstandard: Dieselben Eigenschaften – hohe Ansprüche, kompromisslose Detailgenauigkeit, keine Bereitschaft zu faulen Kompromissen – wurden bei männlichen Regisseuren und Schauspielern als Zeichen von Größe gefeiert, bei Dunaway dagegen als „schwierig" oder „divenhaft" abgewertet.</p>
+          <p class="vb-intro">Sie selbst hat öffentlich eine bipolare Störung eingeräumt, die zu manchen der ihr zugeschriebenen „erratischen" Phasen beitrug – ein eigenständiger gesundheitlicher Faktor, der von der enneagrammatischen Typisierung getrennt zu betrachten ist, aber die Härte, mit der ihr Verhalten öffentlich beurteilt wurde, zusätzlich einordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1w2 zeigt sich bei Dunaway in einer Hingabe an ihr Handwerk, die über fünf Jahrzehnte nie nachließ – jede Rolle wurde mit derselben kompromisslosen Sorgfalt behandelt, unabhängig davon, ob es sich um einen Oscar-prämierten Auftritt oder eine kleinere Produktion handelte.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der Schwierigkeit, die eigenen hohen Maßstäbe anderen gegenüber nachsichtig zu handhaben – ihre Konflikte mit Regisseuren wie Roman Polanski und ihre Entlassung aus dem Theaterstück „Tea at Five" deuten darauf hin, wie kostspielig kompromisslose Präzision werden kann, wenn sie auf ein Umfeld trifft, das andere Prioritäten setzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Schauspielerin, deren Anspruch keinen Rabatt kannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Faye Dunaways Karriere zeigt die sexuelle Eins mit Zweierflügel in ihrer öffentlich am härtesten beurteilten Form: eine Frau, die sich denselben kompromisslosen Anspruch erlaubte, den man männlichen Kollegen als Genie auslegte, und dafür über Jahrzehnte mit dem Etikett „schwierig" belegt wurde. Die Mamba beißt nicht aus Bosheit – sie kennt einfach keine halben Sachen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+          {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2) – ebenfalls Schauspieler, derselbe Subtyp"},
+          {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9) – Kontrast im Flügel"},
+        ])}
+      </div>
+    </div>
+  `);
+}

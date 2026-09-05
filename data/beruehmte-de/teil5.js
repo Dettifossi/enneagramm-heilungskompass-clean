@@ -907,6 +907,7 @@ export function klausKinskiPortraitPage() {
         {route:"beruehmte-jamie-lee-curtis", label:"Portr\u00e4t: Jamie Lee Curtis (SX1w2)"},
         {route:"krankheitsportraets-klaus-kinski", label:"Krankheitsporträt: Klaus Kinski (SX1w9)"},
         {route:"bibel-johannes-der-taeufer", label:"Bibel-Porträt: Johannes der Täufer (SX1w9)"},
+        {route:"beruehmte-faye-dunaway", label:"Porträt: Faye Dunaway (SX1w2) – Kontrast im Flügel"},
       ])}
     </div>
   `);
