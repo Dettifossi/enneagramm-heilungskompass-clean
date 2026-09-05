@@ -4174,7 +4174,7 @@ export function epikurKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Ein warmes Bad als einzige Linderung:</strong>
         Diogenes Laertios berichtet, Epikur habe sich in ein Bad mit warmem Wasser gesetzt, um etwas Erleichterung
-        zu finden, kurz bevor er ungemischten Wein trank und um seine Freunde bat, sich an seine Lehren zu
+        zu finden, kurz bevor er ungemischten Wein trank und seine Freunde bat, sich an seine Lehren zu
         erinnern.</p>
         <p class="vb-intro"><strong>b) Kein Verzicht auf philosophische Klarheit:</strong>
         Auch in äußerster körperlicher Not soll Epikur seine geistige Klarheit bis zuletzt bewahrt haben.</p>
