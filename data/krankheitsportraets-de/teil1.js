@@ -1466,6 +1466,7 @@ export function gustavMahlerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5) – Lebenswerk"},
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – derselbe Wettlauf gegen die Zeit"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Krankheitsporträt: Edgar Allan Poe (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}

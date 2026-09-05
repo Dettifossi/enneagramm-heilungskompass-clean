@@ -383,6 +383,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-arthur-rimbaud", name:"Arthur Rimbaud", subtyp:"SX4w3", heading:"Arthur Rimbaud – Sexual Type 4", krankheit:"Bone tumor (likely synovial sarcoma) in the right knee, leg amputation, death months later", teaser:"SX4w3 – French poet and trader, 1854–1891. Diagnosed in 1891 in Marseille, right leg amputated, unsparingly open letters to family about his suffering. Died in November 1891 at age 37." , land:"France", gender:"m", jahre:"1854–1891"},
   { route:"krankheitsportraets-paul-gauguin", name:"Paul Gauguin", subtyp:"SX8w7", heading:"Paul Gauguin – Sexual Type 8", krankheit:"Syphilis with progressive symptoms, suicide attempt by arsenic, fatal heart failure", teaser:"SX8w7 – French painter, 1848–1903. Syphilis infection after 1891, suicide attempt by arsenic in 1897/98, open leg wounds. Died in 1903 on the Marquesas Islands, likely of a heart attack resulting from the illness." , land:"France", gender:"m", jahre:"1848–1903"},
   { route:"krankheitsportraets-truman-capote", name:"Truman Capote", subtyp:"SO2w3", heading:"Truman Capote – Social Type 2", krankheit:"Chronic alcohol and drug abuse after a 1975/76 social rupture, fatal liver disease", teaser:"SO2w3 – American writer, 1924–1984. Dramatic worsening of addiction and isolation after publishing intimate details about his closest society friends in 1975/76. Died in 1984 of liver disease, contributed to by medication and alcohol." , land:"USA", gender:"m", jahre:"1924–1984"},
+  { route:"krankheitsportraets-edgar-allan-poe", name:"Edgar Allan Poe", subtyp:"SO4w5", heading:"Edgar Allan Poe – Social Type 4", krankheit:"Chronic alcoholism, mysterious physical and mental decline in his final days, unresolved cause of death", teaser:"SO4w5 – American writer, 1809–1849. Found confused and delirious on October 3, 1849, in Baltimore, died four days later. Cause of death still unresolved – theories range from alcohol poisoning to rabies." , land:"USA", gender:"m", jahre:"1809–1849"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -37315,6 +37316,162 @@ function trumanCapoteKrankheitsportraetPage() {
   `);
 }
 
+function edgarAllanPoeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Edgar Allan Poe – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edgar Allan Poe</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-wing · 1809–1849</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Edgar Allan Poe</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-edgar-allan-poe">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a writer. This page focuses on his physical and
+        mental decline in his final weeks: Poe was found on October 3, 1849, in Baltimore, confused and
+        delirious and wearing clothes not his own. He died four days later, on October 7, 1849, in a hospital,
+        without the exact cause of death ever being conclusively established – theories range from alcohol
+        poisoning to rabies to carbon monoxide poisoning.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Poe</strong> is assigned to the <strong>social Type 4 with a Five-wing</strong> – the same
+        subtype as Gustav Mahler in this compass. The social Four carries its own sense of being different
+        visibly into a community that both fascinates and excludes it. The Five-wing adds intellectual
+        systematization – Poe's literary-theoretical essays on the construction and effect of narrative show
+        the same analytical penetration that also structured his dark subject matter. This same combination of
+        visible difference and intellectual control also shaped how he handled his own health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Alcohol problems from a young age:</strong>
+        Poe already struggled with alcohol problems during his military service and his brief studies at the
+        University of Virginia, repeatedly landing him in financial and professional trouble.</p>
+        <p class="vb-intro"><strong>b) The death of his wife Virginia in 1847:</strong>
+        The death of his wife Virginia from tuberculosis in 1847 plunged Poe into a deep depression from which
+        he never fully recovered.</p>
+        <p class="vb-intro"><strong>c) Increasingly erratic behavior:</strong>
+        In the two years after Virginia's death, acquaintances reported increasingly unpredictable behavior and
+        repeated bouts of heavy drinking.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Found in a confused state:</strong>
+        On October 3, 1849, Poe was found outside a polling-place tavern in Baltimore, wearing ill-fitting
+        clothes not his own and mentally confused.</p>
+        <p class="vb-intro"><strong>b) Unable to explain himself:</strong>
+        In the hospital, Poe could barely speak coherently and could give no account of what had happened to him
+        in the preceding days – to this day one of the great unresolved gaps in his biography.</p>
+        <p class="vb-intro"><strong>c) Rapid decline over four days:</strong>
+        His condition deteriorated dramatically within days, accompanied by fever and hallucinations, until his
+        death on October 7, 1849.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Literary processing of death and decay as a lifelong theme:</strong>
+        Decades before his own mysterious death, Poe's work had already been obsessively preoccupied with
+        themes such as premature burial, decay, and the disintegration of the mind – as in "The Fall of the
+        House of Usher" or "The Tell-Tale Heart."</p>
+        <p class="vb-intro"><strong>b) Continued literary work despite chaos:</strong>
+        Despite his increasingly unstable life in his final two years, Poe kept publishing poems and essays,
+        including "Annabel Lee" shortly before his death.</p>
+        <p class="vb-intro"><strong>c) Concealment rather than treatment of his own drinking problem:</strong>
+        Poe made occasional attempts at sobriety but rarely spoke openly in public about the extent of his
+        alcohol dependence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death at only 40:</strong>
+        Poe died on October 7, 1849, at Washington College Hospital in Baltimore, without the exact cause of
+        death ever being conclusively established.</p>
+        <p class="vb-intro"><strong>b) One of the most famous unresolved deaths in literary history:</strong>
+        To this day, historians and physicians debate theories ranging from alcohol poisoning to rabies,
+        epilepsy, and carbon monoxide poisoning to so-called "cooping" (forced intoxication for voter fraud).</p>
+        <p class="vb-intro"><strong>c) Posthumous literary influence:</strong>
+        Only after his death was Poe's work fully recognized as foundational to the modern short story and
+        detective fiction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) Visible difference, invisible suffering:</strong>
+        For the social Four, one's own difference often shows visibly to the outside world – in Poe's case, in
+        his literary work – while the actual personal suffering, his alcohol dependence, remained largely
+        hidden.</p>
+        <p class="vb-intro"><strong>b) The Five-wing as intellectual distancing from one's own pain:</strong>
+        Poe's literary-theoretical writings, which analyzed a story's emotional effect almost mathematically,
+        show the Five-wing as an attempt to intellectually order his own, often overwhelming emotional life.</p>
+        <p class="vb-intro"><strong>c) A mysterious final retreat instead of public complaint:</strong>
+        The days before his death remain a mystery to this day – an unusual disappearance from his own
+        narrative for a social Four, precisely because his work was otherwise so marked by control over his own
+        self-presentation.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Decades of latent suffering escalating in the final weeks:</strong>
+        Poe's alcohol problem accompanied him throughout his adult life before coming to a fatal crisis in his
+        final days.</p>
+        <p class="vb-intro"><strong>b) Visible literary work, hidden personal suffering:</strong>
+        For a social Four, whose significance often arises from visibly displaying one's own difference, the
+        actual personal suffering – the addiction – remained, paradoxically, largely invisible.</p>
+        <p class="vb-intro"><strong>c) Why an unresolved disappearance specifically?</strong>
+        For a social Four with a Five-wing, whose significance is closely tied to one's own, controlled
+        narrative, the mysterious disappearance of his final days can be read as a break with his own life
+        pattern: precisely the man who controlled death and decay down to the last literary detail completely
+        lost control over his own final story. This interpretation is developed further in this compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the social Four with a Five-wing inevitably leads to alcoholism or an
+        unresolved death – <strong>anyone can develop any illness, regardless of subtype.</strong> Poe's alcohol
+        dependence is also a distinct illness with its own dynamics, not purely explainable psychosomatically.
+        What his case shows is a pattern in how hidden personal suffering coexists with visible artistic
+        engagement with the same themes that recurs in a pronounced social Four with a Five-wing – one of many
+        possible interpretations, not a verdict. The corresponding illness pattern is being developed gradually
+        in this compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Poe, like most people of his time, had no Enneagram model. Without this knowledge he processed death and
+        decay to the point of literary mastery, while never addressing or treating his own actual suffering
+        with the same clarity – a trait that gave his work a unique, still-resonating force, but opened no path
+        out of his own addiction. Someone who recognizes their own pattern can consciously counteract it;
+        someone who does not processes their own distress in the work instead of treating it in their own life.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Four with a Five-wing is confirmed in <strong>Edgar Allan Poe</strong> by the striking
+        contrast between a body of work that controlled death and decay down to the smallest literary detail,
+        and an actual personal suffering that remained largely hidden even in his final, still-mysterious days.
+        The armadillo displayed its literary armor masterfully – what lay beneath remained, to the end, his own
+        unsolved secret.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5) – life's work"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}
+
 function alanTuringKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -55679,12 +55836,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SO4: {
     tier: "Armadillo",
     kernthema: "A suffering either downplayed publicly or hidden in shame – hypochondria and actual illness often sit close together in this group.",
-    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine", "Edvard Munch"],
+    beispiele: ["Gustav Mahler", "Michael Jackson", "Hans Christian Andersen", "Marcel Proust", "Romy Schneider", "Heinrich Heine", "Edvard Munch", "Edgar Allan Poe"],
     fingerabdruecke: [
       {
         titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
         beschreibung: "The social Four shows a tendency either to dramatize its own suffering heavily (hypochondria) or, conversely, to hide it out of shame – both as ways of handling a vulnerability experienced as shameful.",
-        beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed."
+        beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed; Edgar Allan Poe, whose alcoholism was rarely addressed openly in public despite a body of work obsessively engaged with death and decay, and whose final days remain unresolved to this day."
       },
       {
         titel: "The counter-case: the suffering is made a public artistic subject instead of being hidden",
@@ -59219,6 +59376,7 @@ function gustavMahlerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5) – life's work"},
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – the same race against time"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Illness Portrait: Edgar Allan Poe (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -115603,6 +115761,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-arthur-rimbaud": arthurRimbaudKrankheitsportraetPage,
       "krankheitsportraets-paul-gauguin": paulGauguinKrankheitsportraetPage,
       "krankheitsportraets-truman-capote": trumanCapoteKrankheitsportraetPage,
+      "krankheitsportraets-edgar-allan-poe": edgarAllanPoeKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,

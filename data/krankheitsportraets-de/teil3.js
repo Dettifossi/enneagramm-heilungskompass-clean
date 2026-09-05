@@ -5039,3 +5039,164 @@ export function trumanCapoteKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function edgarAllanPoeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edgar-allan-poe-portrait.jpg" alt="Edgar Allan Poe – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edgar Allan Poe</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1809–1849</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Edgar Allan Poe</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-edgar-allan-poe">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Schriftsteller. Im Vordergrund dieser
+        Seite steht sein körperlicher und geistiger Verfall in den letzten Lebenswochen: Poe wurde am 3. Oktober
+        1849 in Baltimore in verwirrtem, delirierendem Zustand und fremder Kleidung aufgefunden. Er starb vier
+        Tage später, am 7. Oktober 1849, im Krankenhaus, ohne dass die genaue Todesursache je zweifelsfrei
+        geklärt wurde – Theorien reichen von Alkoholvergiftung über Tollwut bis zu Kohlenmonoxidvergiftung.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Poe</strong> ist dem <strong>sozialen Typ 4 mit Fünferflügel</strong> zugeordnet – demselben
+        Subtyp wie Gustav Mahler in diesem Kompass. Die soziale Vier trägt das eigene Anderssein sichtbar in
+        eine Gemeinschaft, die sie zugleich fasziniert und ausschließt. Der Fünferflügel bringt intellektuelle
+        Systematik hinzu – Poes literaturtheoretische Essays über Konstruktion und Wirkung von Erzählungen
+        zeigen dieselbe analytische Durchdringung, die auch seine düsteren Themen strukturierte. Genau diese
+        Kombination aus sichtbarem Anderssein und intellektueller Kontrolle prägte auch seinen Umgang mit der
+        eigenen Gesundheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Alkoholprobleme bereits in jungen Jahren:</strong>
+        Poe kämpfte bereits während seiner Militärzeit und seines kurzen Studiums an der University of Virginia
+        mit Alkoholproblemen, die ihn wiederholt in finanzielle und berufliche Schwierigkeiten brachten.</p>
+        <p class="vb-intro"><strong>b) Der Tod seiner Frau Virginia 1847:</strong>
+        Der Tod seiner Frau Virginia an Tuberkulose 1847 stürzte Poe in eine tiefe Depression, aus der er sich
+        nie wieder vollständig erholte.</p>
+        <p class="vb-intro"><strong>c) Zunehmend erratisches Verhalten:</strong>
+        In den beiden Jahren nach Virginias Tod berichteten Bekannte von zunehmend unberechenbarem Verhalten
+        und wiederholten Alkoholexzessen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Auffinden in verwirrtem Zustand:</strong>
+        Am 3. Oktober 1849 wurde Poe vor einer Wahllokal-Kneipe in Baltimore in fremder, schlecht sitzender
+        Kleidung und geistig verwirrtem Zustand gefunden.</p>
+        <p class="vb-intro"><strong>b) Unfähigkeit, sich verständlich zu machen:</strong>
+        Im Krankenhaus konnte Poe kaum kohärent sprechen und keine Auskunft darüber geben, was in den Tagen
+        zuvor mit ihm geschehen war – bis heute eine der großen ungeklärten Lücken seiner Biografie.</p>
+        <p class="vb-intro"><strong>c) Rascher Verfall über vier Tage:</strong>
+        Sein Zustand verschlechterte sich innerhalb weniger Tage dramatisch, begleitet von Fieber und
+        Halluzinationen, bis zu seinem Tod am 7. Oktober 1849.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Literarische Verarbeitung von Tod und Verfall als Lebensthema:</strong>
+        Schon Jahrzehnte vor seinem eigenen mysteriösen Tod hatte Poes Werk sich obsessiv mit Themen wie
+        vorzeitiger Beerdigung, Verfall und dem Zerfall des Geistes beschäftigt – etwa in ›Der Untergang des
+        Hauses Usher‹ oder ›Das verräterische Herz‹.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte schriftstellerische Arbeit trotz Chaos:</strong>
+        Trotz seines zunehmend instabilen Lebens in den letzten beiden Jahren veröffentlichte Poe weiterhin
+        Gedichte und Essays, darunter kurz vor seinem Tod ›Annabel Lee‹.</p>
+        <p class="vb-intro"><strong>c) Verheimlichung statt Behandlung des eigenen Alkoholproblems:</strong>
+        Poe unternahm zwar zeitweise Versuche zur Abstinenz, sprach aber öffentlich kaum offen über das Ausmaß
+        seiner Alkoholabhängigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod mit nur 40 Jahren:</strong>
+        Poe starb am 7. Oktober 1849 im Washington College Hospital in Baltimore, ohne dass die genaue
+        Todesursache je zweifelsfrei festgestellt wurde.</p>
+        <p class="vb-intro"><strong>b) Einer der bekanntesten ungeklärten Todesfälle der Literaturgeschichte:</strong>
+        Bis heute diskutieren Historiker und Mediziner Theorien von Alkoholvergiftung über Tollwut, Epilepsie
+        und Kohlenmonoxidvergiftung bis zu einem sogenannten ›Cooping‹ (Wahlbetrug durch Zwangsalkoholisierung).</p>
+        <p class="vb-intro"><strong>c) Postumer literarischer Einfluss:</strong>
+        Poes Werk wurde erst nach seinem Tod umfassend als Begründung der modernen Kurzgeschichte und der
+        Detektivliteratur anerkannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sichtbares Anderssein, unsichtbares Leiden:</strong>
+        Für die soziale Vier zeigt sich das eigene Anderssein oft sichtbar nach außen – bei Poe in seinem
+        literarischen Werk –, während das tatsächliche persönliche Leiden, die Alkoholabhängigkeit, weitgehend
+        im Verborgenen blieb.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel als intellektuelle Distanzierung vom eigenen Schmerz:</strong>
+        Poes literaturtheoretische Schriften, die den emotionalen Effekt einer Geschichte fast mathematisch
+        analysierten, zeigen den Fünferflügel als Versuch, das eigene, oft überwältigende Gefühlsleben
+        intellektuell zu ordnen.</p>
+        <p class="vb-intro"><strong>c) Rätselhafter letzter Rückzug statt öffentlicher Klage:</strong>
+        Die letzten Tage vor seinem Tod bleiben bis heute ein Rätsel – ein für die soziale Vier ungewöhnliches
+        Verschwinden aus der eigenen Erzählung, gerade weil sein Werk sonst so sehr von Kontrolle über die
+        eigene Darstellung geprägt war.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein über Jahrzehnte latentes, in den letzten Wochen eskalierendes Leiden:</strong>
+        Poes Alkoholproblem begleitete ihn über sein gesamtes Erwachsenenleben, bevor es sich in den letzten
+        Tagen zu einer tödlichen Krise zuspitzte.</p>
+        <p class="vb-intro"><strong>b) Sichtbares literarisches Werk, verborgenes persönliches Leiden:</strong>
+        Für eine soziale Vier, deren Bedeutung oft aus dem sichtbaren Zurschaustellen des eigenen Andersseins
+        entsteht, blieb das tatsächliche persönliche Leiden – die Sucht – paradoxerweise weitgehend unsichtbar.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ein bis heute ungeklärtes Verschwinden?</strong>
+        Für eine soziale Vier mit Fünferflügel, deren Bedeutung stark an die eigene, kontrollierte Erzählung
+        gebunden ist, lässt sich das rätselhafte Verschwinden seiner letzten Tage als Bruch mit dem eigenen
+        Lebensmuster lesen: Gerade der Mann, der Tod und Verfall literarisch bis ins Detail kontrollierte,
+        verlor die Kontrolle über die eigene letzte Geschichte vollständig. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier mit Fünferflügel zwangsläufig zu Alkoholismus oder
+        einem ungeklärten Tod führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Poes Alkoholabhängigkeit ist zudem eine eigenständige Erkrankung mit eigener
+        Krankheitsdynamik, nicht rein psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein
+        Muster im Umgang mit verborgenem persönlichen Leiden bei gleichzeitig sichtbarer künstlerischer
+        Beschäftigung mit denselben Themen, das bei einer ausgeprägten sozialen Vier mit Fünferflügel immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Poe kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen verarbeitete
+        er Tod und Verfall literarisch bis zur Meisterschaft, während er sein eigenes, tatsächliches Leiden nie
+        in derselben Klarheit ansprach oder behandeln ließ – ein Zug, der seinem Werk eine einzigartige, bis
+        heute nachwirkende Kraft verlieh, ihm selbst aber keinen Weg aus der eigenen Sucht öffnete. Wer das
+        eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, verarbeitet die eigene Not im
+        Werk, statt sie im eigenen Leben zu behandeln.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Vier mit Fünferflügel bestätigt sich bei <strong>Edgar Allan Poe</strong> im auffälligen
+        Kontrast zwischen einem Werk, das Tod und Verfall bis ins kleinste Detail literarisch kontrollierte, und
+        einem tatsächlichen persönlichen Leiden, das bis in seine letzten, bis heute rätselhaften Tage
+        weitgehend verborgen blieb. Das Gürteltier trug seine literarische Rüstung meisterhaft zur Schau – was
+        darunter lag, blieb bis zum Ende sein eigenes, ungelöstes Geheimnis.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-edgar-allan-poe", label:"Porträt: Edgar Allan Poe (SO4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}
