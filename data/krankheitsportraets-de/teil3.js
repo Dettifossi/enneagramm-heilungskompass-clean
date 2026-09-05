@@ -4572,3 +4572,155 @@ export function jeanJacquesRousseauKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function arthurRimbaudKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arthur-rimbaud-portrait.jpg" alt="Arthur Rimbaud – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arthur Rimbaud</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1854–1891</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Arthur Rimbaud</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-arthur-rimbaud">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Dichter und späterer Kaufmann in
+        Afrika. Im Vordergrund dieser Seite steht seine letzte Krankheitsphase: 1891 wurde bei Rimbaud ein
+        Knochentumor (vermutlich ein Synovialsarkom) im rechten Knie diagnostiziert, der zur Amputation des
+        Beins in Marseille führte. Er starb nur wenige Monate später, im November 1891, im Alter von 37 Jahren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rimbaud</strong> ist dem <strong>sexuellen Typ 4 mit Dreierflügel</strong> zugeordnet. Die
+        sexuelle Vier kennt keine Halbheiten – ihre Intensität wird vollständig gelebt, ohne Kompromiss. Der
+        Dreierflügel bringt Ehrgeiz und die Fähigkeit hinzu, sich radikal neu zu erfinden – nach seinem Rückzug
+        aus der Dichtung mit nur 21 Jahren baute sich Rimbaud in Afrika ein komplett neues Leben als Kaufmann
+        auf. Genau diese kompromisslose Konsequenz zeigte sich auch im Umgang mit seiner tödlichen Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Schmerzen im rechten Knie in Äthiopien:</strong>
+        Ende 1890/Anfang 1891 klagte Rimbaud, der zu dieser Zeit als Kaufmann in Harar (Äthiopien) lebte, über
+        zunehmende Schmerzen und eine Schwellung im rechten Knie.</p>
+        <p class="vb-intro"><strong>b) Fortgesetzte Arbeit trotz Schmerzen:</strong>
+        Trotz der Schmerzen setzte er seine Handelsgeschäfte zunächst fort, in der Hoffnung, es handle sich um
+        eine vorübergehende Beschwerde.</p>
+        <p class="vb-intro"><strong>c) Eine schmerzhafte Reise zur Küste:</strong>
+        Als die Schmerzen unerträglich wurden, ließ sich Rimbaud über zwölf Tage auf einer improvisierten
+        Trage 300 Kilometer zur Küste nach Zeila transportieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Diagnose und Amputation in Marseille:</strong>
+        Nach seiner Ankunft in Marseille im Mai 1891 wurde ihm das rechte Bein oberhalb des Knies amputiert –
+        die Ärzte diagnostizierten einen bösartigen Knochentumor.</p>
+        <p class="vb-intro"><strong>b) Kurzer Aufenthalt bei der Familie:</strong>
+        Nach der Operation reiste Rimbaud zu seiner Familie nach Roche, kehrte aber schon wenige Wochen später
+        aufgrund anhaltender Schmerzen und weiterer Komplikationen nach Marseille zurück.</p>
+        <p class="vb-intro"><strong>c) Rasche Ausbreitung der Erkrankung:</strong>
+        Der Krebs breitete sich in den folgenden Monaten weiter aus, vermutlich mit Metastasen, die zunehmende
+        Lähmungserscheinungen verursachten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ungeschönte Briefe an die Familie:</strong>
+        In seinen letzten Lebensmonaten schrieb Rimbaud an seine Schwester Isabelle und seine Mutter
+        bemerkenswert direkte, schonungslose Briefe über sein Leiden, ohne es zu beschönigen.</p>
+        <p class="vb-intro"><strong>b) Pläne für die Rückkehr nach Afrika bis zuletzt:</strong>
+        Selbst im fortgeschrittenen Krankheitsstadium plante Rimbaud noch eine Rückkehr in seine Handelsgeschäfte
+        in Afrika – ein Zeichen seiner kompromisslosen Weigerung, sich der Krankheit zu ergeben.</p>
+        <p class="vb-intro"><strong>c) Kein Rückgriff auf sein dichterisches Frühwerk:</strong>
+        Trotz seiner Berühmtheit als Dichter sprach Rimbaud in seinen letzten Monaten so gut wie nie über seine
+        literarische Vergangenheit – seine Aufmerksamkeit galt bis zuletzt seinem neuen Leben als Kaufmann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod im November 1891:</strong>
+        Rimbaud starb am 10. November 1891 im Krankenhaus von Marseille, betreut von seiner Schwester Isabelle,
+        im Alter von nur 37 Jahren.</p>
+        <p class="vb-intro"><strong>b) Postumer literarischer Ruhm:</strong>
+        Erst nach seinem Tod wuchs sein Ruhm als einer der einflussreichsten Dichter der Moderne stetig weiter,
+        weit über das hinaus, was er zu Lebzeiten erlebte.</p>
+        <p class="vb-intro"><strong>c) Ein bis heute rätselhafter Bruch:</strong>
+        Der radikale Bruch zwischen seiner kurzen, intensiven Dichterkarriere und seinem späteren Leben als
+        Händler bleibt bis heute Gegenstand literaturwissenschaftlicher Deutung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Keine Halbheiten, auch nicht im Leiden:</strong>
+        Für die sexuelle Vier gibt es kein gemäßigtes Ertragen – Rimbauds ungeschönte, direkte Briefe über sein
+        Leiden zeigen dieselbe Kompromisslosigkeit, die schon seine Dichtung und später seinen Lebensbruch nach
+        Afrika prägte.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Weigerung aufzugeben:</strong>
+        Die fortgesetzten Pläne für eine Rückkehr nach Afrika trotz fortgeschrittener Krankheit zeigen den
+        zielstrebigen, nie aufgebenden Ehrgeiz des Dreierflügels – selbst im Angesicht des Todes wurde nicht
+        resigniert.</p>
+        <p class="vb-intro"><strong>c) Radikale Offenheit statt Beschönigung:</strong>
+        Wie bei Francisco de Goya, der seine Krankheit ungeschminkt ins Bild setzte, zeigt sich bei Rimbaud eine
+        seltene Offenheit im Umgang mit dem eigenen Leiden – kein Verschweigen, sondern eine schonungslose
+        Beschreibung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein extrem kurzer, aber radikaler Krankheitsverlauf:</strong>
+        Von den ersten Schmerzen bis zum Tod vergingen weniger als ein Jahr – eine kurze, aber durch die
+        Amputation und die schonungslose eigene Beschreibung besonders eindringliche letzte Lebensphase.</p>
+        <p class="vb-intro"><strong>b) Konsequenz bis zum Schluss:</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren Leben bereits von radikalen Brüchen und kompromissloser
+        Konsequenz geprägt war, fügt sich der Umgang mit der eigenen tödlichen Erkrankung nahtlos in dieses
+        Muster ein.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ungeschönte Offenheit statt Verdrängung?</strong>
+        Für eine sexuelle Vier mit Dreierflügel, deren Identität auf vollständiger, unverstellter Intensität
+        beruht, lässt sich die schonungslose Offenheit in den letzten Briefen als konsequente Fortsetzung des
+        eigenen Lebensmusters lesen: Auch das eigene Sterben durfte nicht beschönigt werden. Diese Deutung wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier mit Dreierflügel zwangsläufig zu Knochenkrebs führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Rimbauds
+        Fall zeigen lässt, ist ein Muster im Umgang mit einer tödlichen Diagnose, das bei einer ausgeprägten
+        sexuellen Vier mit Dreierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Rimbaud kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er
+        seine Kompromisslosigkeit auch im eigenen Sterben ungebremst aus, statt sich selbst Schonung oder Trost
+        in Beschönigung zuzugestehen – ein Zug, der seiner Dichtung und seinem späteren Leben dieselbe radikale
+        Wucht verlieh, ihm aber auch in seiner letzten Lebensphase keine mildernde Distanz erlaubte. Wer das
+        eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, lebt es bis zum letzten Brief
+        unverändert weiter.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Vier mit Dreierflügel bestätigt sich bei <strong>Arthur Rimbaud</strong> in der
+        kompromisslosen Offenheit, mit der er selbst in den letzten Monaten seines Lebens über sein Leiden
+        schrieb, und in der zielstrebigen Weigerung, seine Pläne für die Zukunft trotz tödlicher Diagnose
+        aufzugeben. Der Chihuahua kennt keine Halbheiten – auch nicht im eigenen Sterben.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-arthur-rimbaud", label:"Porträt: Arthur Rimbaud (SX4w3) – Lebenswerk"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx4", label:"Subtyp-Profil SX4"},
+      ])}
+    </div>
+  `);
+}

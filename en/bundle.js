@@ -380,6 +380,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-adele", name:"Adele", subtyp:"SE4w3", heading:"Adele – Self-Preservation Type 4", krankheit:"Severe postnatal depression with panic attacks, kept private for almost a decade", teaser:"SE4w3 – singer and songwriter, b. 1988. Postnatal depression after the birth of her son in 2012, accompanying panic attacks before performances, publicly disclosed only in 2021." , land:"United Kingdom", gender:"f", jahre:"b. 1988"},
   { route:"krankheitsportraets-honore-de-balzac", name:"Honoré de Balzac", subtyp:"SE4w3", heading:"Honoré de Balzac – Self-Preservation Type 4", krankheit:"Decades of exploiting his body through compulsive overwork and caffeine excess, heart failure with fatal gangrene", teaser:"SE4w3 – French writer, 1799–1850. Decades of all-night writing marathons and excessive coffee consumption, progressive heart failure, gangrene following repeated trocar procedures for leg edema, died August 18, 1850, five months after his wedding to Ewelina Hańska." , land:"France", gender:"m", jahre:"1799–1850"},
   { route:"krankheitsportraets-t-e-lawrence", name:"T. E. Lawrence", subtyp:"SE4w3", heading:"T. E. Lawrence – Self-Preservation Type 4", krankheit:"Thirteen years of sustained depression and suspected post-traumatic stress disorder after Deraa 1917, self-arranged punishment ritual", teaser:"SE4w3 – British officer, archaeologist, 1888–1935. Chronic depression and self-hatred from 1922 until his death, voluntary retreat under two false names into the lowest military ranks, self-arranged flogging ritual from 1923, died May 19, 1935 after a motorcycle accident." , land:"United Kingdom", gender:"m", jahre:"1888–1935"},
+  { route:"krankheitsportraets-arthur-rimbaud", name:"Arthur Rimbaud", subtyp:"SX4w3", heading:"Arthur Rimbaud – Sexual Type 4", krankheit:"Bone tumor (likely synovial sarcoma) in the right knee, leg amputation, death months later", teaser:"SX4w3 – French poet and trader, 1854–1891. Diagnosed in 1891 in Marseille, right leg amputated, unsparingly open letters to family about his suffering. Died in November 1891 at age 37." , land:"France", gender:"m", jahre:"1854–1891"},
   { route:"krankheitsportraets-alan-turing", name:"Alan Turing", subtyp:"SX5w4", heading:"Alan Turing – Sexual Type 5", krankheit:"Forced hormone treatment (\"chemical castration\") after 1952 conviction, death by cyanide poisoning 1954", teaser:"SX5w4 – British mathematician and cryptanalyst, 1912–1954. Convicted for homosexuality in 1952, chose a year of estrogen treatment over prison, lost his security clearance. Died in 1954 of cyanide poisoning, officially ruled a suicide." , land:"United Kingdom", gender:"m", jahre:"1912–1954"},
   { route:"krankheitsportraets-franz-von-assisi", name:"Francis of Assisi", subtyp:"SO7w6", heading:"Francis of Assisi – Social Type 7", krankheit:"Progressive blindness (likely trachoma), stigmata in 1224, chronic digestive complaints", teaser:"SO7w6 – founder of a religious order, 1181/82–1226. Increasing blindness after a journey to the Middle East in 1219, wounds (stigmata) appearing in 1224, composed the ›Canticle of the Sun‹ while nearly blind. Died in 1226 at only 44 years of age." , land:"Italy", gender:"m", jahre:"1181/82–1226"},
   { route:"krankheitsportraets-epikur", name:"Epicurus", subtyp:"SO7w6", heading:"Epicurus – Social Type 7", krankheit:"Painful kidney stones and urinary retention, died after weeks of suffering", teaser:"SO7w6 – Greek philosopher, 341–270 BCE. Kidney stones and urinary retention in his final weeks, documented in a farewell letter to his friend Idomeneus. Died at age 71, mentally clear to the end." , land:"Greece", gender:"m", jahre:"341–270 BCE"},
@@ -36859,6 +36860,153 @@ function honoreDeBalzacKrankheitsportraetPage() {
   `);
 }
 
+function arthurRimbaudKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arthur-rimbaud-portrait.jpg" alt="Arthur Rimbaud – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arthur Rimbaud</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing · 1854–1891</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Arthur Rimbaud</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-arthur-rimbaud">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work as a poet and later trader in Africa. This page
+        focuses on his final illness: in 1891 Rimbaud was diagnosed with a bone tumor (likely a synovial
+        sarcoma) in his right knee, leading to the amputation of his leg in Marseille. He died only months
+        later, in November 1891, at age 37.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Rimbaud</strong> is assigned to the <strong>sexual Type 4 with a Three-wing</strong>. The
+        sexual Four knows no half-measures – its intensity is lived completely, without compromise. The
+        Three-wing adds ambition and the ability to radically reinvent oneself – after abandoning poetry at only
+        21, Rimbaud built an entirely new life for himself in Africa as a trader. This same uncompromising
+        consistency showed in how he handled his fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Pain in his right knee in Ethiopia:</strong>
+        In late 1890/early 1891, Rimbaud, then living as a trader in Harar (Ethiopia), complained of increasing
+        pain and swelling in his right knee.</p>
+        <p class="vb-intro"><strong>b) Continued work despite the pain:</strong>
+        Despite the pain, he initially continued his trading business, hoping it was a temporary ailment.</p>
+        <p class="vb-intro"><strong>c) A painful journey to the coast:</strong>
+        When the pain became unbearable, Rimbaud had himself carried on an improvised stretcher over twelve
+        days across 300 kilometers to the coast at Zeila.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Diagnosis and amputation in Marseille:</strong>
+        After arriving in Marseille in May 1891, his right leg was amputated above the knee – doctors diagnosed
+        a malignant bone tumor.</p>
+        <p class="vb-intro"><strong>b) A brief stay with family:</strong>
+        After the operation, Rimbaud traveled to his family in Roche, but returned to Marseille only weeks
+        later due to persistent pain and further complications.</p>
+        <p class="vb-intro"><strong>c) Rapid progression of the illness:</strong>
+        The cancer continued to spread over the following months, likely with metastases causing increasing
+        paralysis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Unvarnished letters to family:</strong>
+        In his final months, Rimbaud wrote remarkably direct, unsparing letters to his sister Isabelle and his
+        mother about his suffering, without softening it.</p>
+        <p class="vb-intro"><strong>b) Plans to return to Africa to the very end:</strong>
+        Even in his advanced illness, Rimbaud still planned a return to his trading business in Africa – a sign
+        of his uncompromising refusal to surrender to the illness.</p>
+        <p class="vb-intro"><strong>c) No return to his early poetic work:</strong>
+        Despite his fame as a poet, Rimbaud barely spoke of his literary past in his final months – his
+        attention remained on his new life as a trader until the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in November 1891:</strong>
+        Rimbaud died on November 10, 1891, in a Marseille hospital, cared for by his sister Isabelle, at only
+        37 years of age.</p>
+        <p class="vb-intro"><strong>b) Posthumous literary fame:</strong>
+        Only after his death did his reputation as one of the most influential modern poets steadily grow, far
+        beyond anything he experienced in his lifetime.</p>
+        <p class="vb-intro"><strong>c) A break still puzzled over today:</strong>
+        The radical break between his short, intense poetic career and his later life as a trader remains a
+        subject of literary interpretation to this day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Pattern</h3>
+        <p class="vb-intro"><strong>a) No half-measures, not even in suffering:</strong>
+        For the sexual Four there is no moderate way to endure – Rimbaud's unvarnished, direct letters about
+        his suffering show the same uncompromising quality that had already marked his poetry and later his
+        break toward Africa.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as refusal to give up:</strong>
+        His continued plans to return to Africa despite advanced illness show the goal-driven, never-quitting
+        ambition of the Three-wing – even facing death, there was no resignation.</p>
+        <p class="vb-intro"><strong>c) Radical openness instead of softening:</strong>
+        Like Francisco de Goya, who painted his own illness without flattery, Rimbaud shows a rare openness in
+        handling his own suffering – no concealment, but an unsparing account.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) An extremely short but radical illness course:</strong>
+        Less than a year passed between the first pain and death – a short but, through the amputation and his
+        own unsparing account, especially striking final phase of life.</p>
+        <p class="vb-intro"><strong>b) Consistency to the very end:</strong>
+        For a sexual Four with a Three-wing, whose life was already marked by radical breaks and uncompromising
+        consistency, handling his own fatal illness fits seamlessly into this pattern.</p>
+        <p class="vb-intro"><strong>c) Why unsparing openness rather than denial specifically?</strong>
+        For a sexual Four with a Three-wing, whose identity rests on complete, unfiltered intensity, the
+        unsparing openness of his final letters can be read as a consistent continuation of his own life
+        pattern: even his own dying was not to be softened. This interpretation is developed further in this
+        compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean the pattern of the sexual Four with a Three-wing inevitably leads to bone cancer –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What Rimbaud's case shows is a
+        pattern in how a fatal diagnosis is handled that recurs in a pronounced sexual Four with a Three-wing –
+        one of many possible interpretations, not a verdict. The corresponding illness pattern is being
+        developed gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Rimbaud, like most people of his time, had no Enneagram model. Without this knowledge he lived out his
+        uncompromising nature even in his own dying, without restraint, rather than granting himself relief or
+        comfort through softening – a trait that gave his poetry and later life the same radical force, but
+        allowed him no mitigating distance in his final phase either. Someone who recognizes their own pattern
+        can consciously counteract it; someone who does not lives it unchanged to the last letter.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Four with a Three-wing is confirmed in <strong>Arthur Rimbaud</strong> by the uncompromising
+        openness with which he wrote about his suffering even in his final months, and by the determined refusal
+        to abandon his plans for the future despite a fatal diagnosis. The chihuahua knows no half-measures –
+        not even in its own dying.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3) – life's work"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx4", label:"Subtype Profile SX4"},
+      ])}
+    </div>
+  `);
+}
+
 function alanTuringKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -55235,7 +55383,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX4: {
     tier: "Chihuahua",
     kernthema: "Radical concealment of one's own diagnosis even from the closest circle – in this group, illness is often kept secret until the very last possible minute.",
-    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish", "Francisco de Goya"],
+    beispiele: ["Freddie Mercury", "Claude Debussy", "Voltaire", "Billie Eilish", "Francisco de Goya", "Arthur Rimbaud"],
     fingerabdruecke: [
       {
         titel: "Concealed until the last minute – illness as a radically private secret",
@@ -55243,9 +55391,9 @@ const KRANKHEITSMUSTERKOMPASS = {
         beleg: "Freddie Mercury, who kept his AIDS diagnosis strictly secret for nearly five years and confirmed it publicly only one day before his death; Billie Eilish, who concealed her Tourette syndrome for years before disclosing it herself."
       },
       {
-        titel: "So far only one striking counter-case – illness becomes the direct subject of an image instead of being concealed",
-        beschreibung: "With only one documented case so far, a second pattern cannot yet be claimed – it stands out precisely because it runs opposite to the concealment otherwise observed in this subtype.",
-        beleg: "Francisco de Goya, who did not hide his own life-threatening illness in 1819 but made it the explicit subject of the painting 'Self-Portrait with Dr. Arrieta' – with an open mouth, half-closed eyes, and pain-clenched hands, without any embellishment."
+        titel: "No concealment, but unsparing openness about one's own suffering",
+        beschreibung: "A second, opposite pattern shows not concealment but a radical, unvarnished openness about one's own illness – the sexual Four's uncompromising quality here turns not toward hiding but toward unsparing disclosure.",
+        beleg: "Francisco de Goya, who did not hide his own life-threatening illness in 1819 but made it the explicit subject of the painting 'Self-Portrait with Dr. Arrieta' – with an open mouth, half-closed eyes, and pain-clenched hands, without any embellishment; Arthur Rimbaud, who in his final months wrote his family unsparingly direct letters about his suffering after his leg amputation, rather than softening or concealing it."
       }
     ]
   },
@@ -115134,6 +115282,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-adele": adeleKrankheitsportraetPage,
       "krankheitsportraets-honore-de-balzac": honoreDeBalzacKrankheitsportraetPage,
       "krankheitsportraets-t-e-lawrence": tELawrenceKrankheitsportraetPage,
+      "krankheitsportraets-arthur-rimbaud": arthurRimbaudKrankheitsportraetPage,
       "krankheitsportraets-alan-turing": alanTuringKrankheitsportraetPage,
       "krankheitsportraets-franz-von-assisi": franzVonAssisiKrankheitsportraetPage,
       "krankheitsportraets-epikur": epikurKrankheitsportraetPage,
