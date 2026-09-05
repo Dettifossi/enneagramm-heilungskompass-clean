@@ -532,6 +532,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Udo Jürgens – Self-Preservation Type 1",
     teaser:"SE1w2 · 1934–2014. Austrian singer and composer. Griechischer Wein, Merci Chérie, over 1,000 compositions across six decades. The eagle that combined perfection with genuine warmth for its audience.",
     land:"Austria", tags:["Musik"], gender:"m"},
+{ route:"beruehmte-robert-oppenheimer", name:"J. Robert Oppenheimer", added:"2026-09-06", subtyp:"SE1w2",
+    heading:"J. Robert Oppenheimer – Self-Preservation Type 1",
+    teaser:"SE1w2 · 1904–1967. American physicist, scientific director of the Manhattan Project. Years of public advocacy against the hydrogen bomb after Hiroshima, security clearance revoked in 1954 during the McCarthy era, officially vindicated only in 2022. Animal correspondence: Eagle.",
+    land:"USA", tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-roald-amundsen", name:"Roald Amundsen", added:"2026-09-02", subtyp:"SO1w9",
     heading:"Roald Amundsen – Social Type 1",
     teaser:"SO1w9 · Polar explorer, 1872–1928. First person at the South Pole (1911), first person to reach both geographic poles. Disappeared in 1928 on a rescue flight for his former rival Umberto Nobile. The goose who carried a young nation to the South Pole.",
@@ -27132,6 +27136,70 @@ function leonardoDaVinciPortraitPage() {
   `);
 }
 
+function robertOppenheimerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-oppenheimer-portrait.jpg" alt="J. Robert Oppenheimer – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">J. Robert Oppenheimer</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Physicist, 1904&ndash;1967 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle that never lost sight of its own creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation Type 1 – a perfectionism directed not at the world but at one's own preparation and integrity. J. Robert Oppenheimer served as scientific director of the Manhattan Project at Los Alamos from 1943 to 1945 and is still regarded today as the "father of the atomic bomb."</p>
+          <p class="vb-intro">After the first successful test on July 16, 1945, he later recalled a verse from the Bhagavad Gita: "Now I am become Death, the destroyer of worlds." This moment marks the beginning of a second, decades-long phase of his life that shaped everything he did afterward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: perfectionism directed inward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its standards not at correcting others but at its own integrity and preparation. Oppenheimer's scientific career was marked by an almost unattainable standard for himself – as a young physicist he went through a severe personal crisis at Cambridge, which he only overcame by throwing himself radically into his own theoretical work.</p>
+          <p class="vb-intro">After the war, this standard of integrity turned inward: Oppenheimer publicly and visibly wrestled with the moral responsibility for his creation, never denying it or shifting it onto others – an unsparing self-examination he never directed outward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: care that grows out of upheaval</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> opens the strict One-energy outward: genuine warmth, genuine interest in others, the wish to advocate for people worse off than oneself. As director of Los Alamos, Oppenheimer was known for extraordinary personal care toward his team – he knew many of the thousands of staff personally and drew even young scientists closely into his own thinking rather than keeping them at a distance.</p>
+          <p class="vb-intro">After Hiroshima and Nagasaki, this care turned into years of public advocacy against the hydrogen bomb and for international arms control – as chairman of the Atomic Energy Commission's General Advisory Committee, he repeatedly warned against an uncontrolled nuclear arms race. Just as with Pierce Brosnan (also SP1w2), whose personal loss turned into persistent advocacy for others, Oppenheimer's personal upheaval did not lead to withdrawal but to active engagement for others' safety.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The 1954 security clearance revocation as public humiliation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1954, during the McCarthy era, Oppenheimer's security clearance was revoked in an internationally watched hearing – officially over past contacts with communist circles, but in reality primarily because of his open opposition to the hydrogen bomb. Despite this public humiliation, he never recanted his critical stance.</p>
+          <p class="vb-intro">Only in 2022, 55 years after his death, did the US Department of Energy officially vacate the 1954 decision, confirming that the proceedings had been biased and unfair.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w2 shows in Oppenheimer's willingness to publicly bear the moral responsibility for his own work and to use his enormous scientific standing for a cause that personally harmed him – warning against nuclear armament.</p>
+          <p class="vb-intro">The shadow of the self-preservation One shows in a lifelong, never fully resolved inner conflict between scientific pride in his own achievement and deep moral doubt about its consequences – a contradiction he never fully resolved before his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The scientist who never let go of his own creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">J. Robert Oppenheimer's life shows the self-preservation One with a Two-wing in one of its most consequential forms: uncompromising standards for his own scientific integrity, combined with genuine, often self-damaging concern for others' safety. The eagle that once struck with unerring aim spent the rest of his life warning against that very power.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+          {route:"beruehmte-pierce-brosnan", label:"Portrait: Pierce Brosnan (SP1w2) – also SP1w2"},
+          {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SP1w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function udoJuergensPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -27192,6 +27260,7 @@ function udoJuergensPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
         {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Portrait: J. Robert Oppenheimer (SP1w2)"},
       ])}
     </div>
   `);
@@ -34730,6 +34799,7 @@ function pierceBrosnanPortraitPage() {
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Portrait: J. Robert Oppenheimer (SP1w2)"},
       ])}
     </div>
   `);
@@ -56023,12 +56093,12 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
         beschreibung: "Naranjo called this subtype 'Worry': a constant, mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this perfectionism is not aimed at correcting others, but inward, at one's own craft, one's own preparation, one's own integrity.",
-        beleg: "Robert De Niro: 'No interview in which he explains himself' – the perfectionism shows itself only in the work itself; Christoph Waltz, who asks himself whether he 'lives up to his own standard of truthfulness'; Magnus Carlsen, who constantly asks himself 'whether this position has truly been optimally exploited'; Marie Kondo, whose unease is about 'whether her own environment truly feels right'; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristotle, and Adenauer show the same inward-directed, incorruptible self-examination – never as reproach toward others, always as a demand on themselves; Sting, who to this day patiently insists that his best-known song be understood correctly – the One insists things be accurate, even against the public reading; Ludwig Wittgenstein, who discarded and rewrote entire passages of his Philosophical Investigations again and again until they satisfied his own, almost unattainable demand for clarity."
+        beleg: "Robert De Niro: 'No interview in which he explains himself' – the perfectionism shows itself only in the work itself; Christoph Waltz, who asks himself whether he 'lives up to his own standard of truthfulness'; Magnus Carlsen, who constantly asks himself 'whether this position has truly been optimally exploited'; Marie Kondo, whose unease is about 'whether her own environment truly feels right'; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristotle, and Adenauer show the same inward-directed, incorruptible self-examination – never as reproach toward others, always as a demand on themselves; Sting, who to this day patiently insists that his best-known song be understood correctly – the One insists things be accurate, even against the public reading; Ludwig Wittgenstein, who discarded and rewrote entire passages of his Philosophical Investigations again and again until they satisfied his own, almost unattainable demand for clarity; J. Robert Oppenheimer, who after Hiroshima wrestled publicly and visibly with the moral responsibility for his scientific creation, never denying it or shifting it onto others – an unsparing self-examination he never directed outward."
       },
       {
         titel: "Quiet precision without a show – the dive after a long circling",
@@ -115783,6 +115853,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-edvard-munch": edvardMunchPortraitPage,
       "beruehmte-leonardo-da-vinci": leonardoDaVinciPortraitPage,
       "beruehmte-udo-juergens": udoJuergensPortraitPage,
+      "beruehmte-robert-oppenheimer": robertOppenheimerPortraitPage,
       "beruehmte-mahatma-gandhi": mahatmaGandhiPortraitPage,
       "beruehmte-moses": mosesPortraitPage,
       "beruehmte-konfuzius": konfuziusPortraitPage,

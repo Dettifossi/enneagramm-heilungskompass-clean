@@ -1281,6 +1281,7 @@ export function pierceBrosnanPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Porträt: J. Robert Oppenheimer (SE1w2)"},
       ])}
     </div>
   `);

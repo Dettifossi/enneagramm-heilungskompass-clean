@@ -1762,3 +1762,67 @@ export function edSheeranPortraitPage() {
     </div>
   `);
 }
+
+export function robertOppenheimerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-oppenheimer-portrait.jpg" alt="J. Robert Oppenheimer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">J. Robert Oppenheimer</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Physiker, 1904&ndash;1967 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der die eigene Schöpfung nie mehr aus den Augen ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier des selbsterhaltenden Typs 1 – ein Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet. J. Robert Oppenheimer leitete von 1943 bis 1945 als wissenschaftlicher Direktor das Manhattan-Projekt in Los Alamos und gilt bis heute als ›Vater der Atombombe‹.</p>
+          <p class="vb-intro">Nach dem ersten erfolgreichen Test am 16. Juli 1945 zitierte er später einen Vers aus der Bhagavad Gita: ›Nun bin ich der Tod geworden, der Zerstörer der Welten.‹ Dieser Moment markiert den Beginn eines zweiten, jahrzehntelangen Lebensabschnitts, der sein gesamtes späteres Wirken prägte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektionismus, der sich nach innen richtet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Anspruch nicht auf die Korrektur anderer, sondern auf die eigene Integrität und Vorbereitung. Oppenheimers wissenschaftliche Laufbahn war geprägt von einem fast unerreichbaren Anspruch an sich selbst – als junger Physiker durchlief er eine schwere persönliche Krise in Cambridge, die er erst überwand, als er sich radikal in die eigene theoretische Arbeit vertiefte.</p>
+          <p class="vb-intro">Nach dem Krieg richtete sich dieser Anspruch an Integrität nach innen: Oppenheimer rang öffentlich sichtbar mit der moralischen Verantwortung für seine Schöpfung, ohne sie je zu leugnen oder sich selbst reinzuwaschen – eine schonungslose, nie nach außen abgewälzte Selbstprüfung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge, die aus Erschütterung wächst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> öffnet die strenge Einser-Energie nach außen: echte Wärme, echtes Interesse an anderen, der Wunsch, sich für Menschen einzusetzen, denen es schlechter geht. Als Direktor von Los Alamos war Oppenheimer bekannt für eine außergewöhnliche persönliche Fürsorge gegenüber seinem Team – er kannte viele der tausenden Mitarbeiter persönlich und band selbst junge Wissenschaftler eng in seine eigene Denkarbeit ein, statt sie auf Distanz zu halten.</p>
+          <p class="vb-intro">Nach Hiroshima und Nagasaki wandelte sich diese Fürsorge in ein jahrelanges öffentliches Engagement gegen die Wasserstoffbombe und für internationale Rüstungskontrolle – als Vorsitzender des General Advisory Committee der Atomenergiekommission warnte er wiederholt vor einem unkontrollierten atomaren Wettrüsten. Genau wie bei Pierce Brosnan (ebenfalls SE1w2), dessen persönlicher Verlust sich in beharrliches Engagement für andere verwandelte, wurde auch bei Oppenheimer aus persönlicher Erschütterung kein Rückzug, sondern aktiver Einsatz für die Sicherheit anderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Sicherheitsentzug 1954 als öffentliche Demütigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1954 wurde Oppenheimer im Zuge der McCarthy-Ära in einem international beachteten Anhörungsverfahren die Sicherheitsfreigabe entzogen – offiziell wegen früherer Kontakte zu kommunistischen Kreisen, tatsächlich vor allem wegen seines offenen Widerstands gegen die Wasserstoffbombe. Trotz dieser öffentlichen Demütigung widerrief er seine kritische Haltung nie.</p>
+          <p class="vb-intro">Erst 2022, 55 Jahre nach seinem Tod, hob das US-Energieministerium die Entscheidung von 1954 offiziell auf und bestätigte, dass das Verfahren voreingenommen und unfair geführt worden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 zeigt sich in Oppenheimers Bereitschaft, die moralische Verantwortung für die eigene Arbeit öffentlich zu tragen und sein enormes wissenschaftliches Ansehen für eine Sache einzusetzen, die ihm persönlich schadete – die Warnung vor der nuklearen Aufrüstung.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Eins zeigt sich in einem lebenslangen, nie ganz aufgelösten inneren Konflikt zwischen wissenschaftlichem Stolz auf die eigene Leistung und tiefem moralischem Zweifel an ihren Folgen – ein Widerspruch, den er bis zu seinem Tod nie vollständig auflöste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Wissenschaftler, der seine eigene Schöpfung nicht losließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">J. Robert Oppenheimers Leben zeigt die selbsterhaltende Eins mit Zweierflügel in einer ihrer folgenreichsten Formen: kompromissloser Anspruch an die eigene wissenschaftliche Integrität, verbunden mit echter, oft selbstschädigender Sorge um die Sicherheit anderer. Der Adler, der einst zielsicher zuschlug, verbrachte den Rest seines Lebens damit, vor genau dieser Kraft zu warnen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+          {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2) – ebenfalls SE1w2"},
+          {route:"beruehmte-udo-juergens", label:"Porträt: Udo Jürgens (SE1w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

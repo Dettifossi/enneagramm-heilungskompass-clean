@@ -1521,6 +1521,7 @@ export function udoJuergensPortraitPage() {
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-dan-brown", label:"Portr\xe4t: Dan Brown (SE1w2)"},
         {route:"beruehmte-marie-kondo", label:"Portr\xe4t: Marie Kondo (SE1w2)"},
+        {route:"beruehmte-robert-oppenheimer", label:"Portr\xe4t: J. Robert Oppenheimer (SE1w2)"},
       ])}
     </div>
   `);
