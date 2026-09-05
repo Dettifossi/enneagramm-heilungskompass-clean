@@ -24417,6 +24417,7 @@ function fayeDunawayPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The 2024 HBO documentary "Faye" illuminated exactly this double standard: the same traits – high standards, uncompromising attention to detail, no willingness to accept sloppy compromises – were celebrated as signs of greatness in male directors and actors, but devalued in Dunaway as "difficult" or "diva-like."</p>
           <p class="vb-intro">She herself has publicly acknowledged bipolar disorder, which contributed to some of the "erratic" episodes attributed to her – a separate health factor that should be considered apart from the Enneagram typing, but which further contextualizes the harshness with which her behavior was publicly judged.</p>
+          <p class="vb-intro">This can also be framed through the One's stress point: under chronic pressure, the One moves along its stress line toward the Four – taking on more of its shadow traits there: mood swings, a feeling of being misunderstood, an intensity that tips into the dramatic. In Dunaway, some of the "moody" outbursts attributed to her may thus not only be symptoms of the bipolar disorder itself, but additionally this stress-driven shift – without reducing the illness to an Enneagram pattern: being human and being ill remain two sides of the same coin, not a causal chain.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow</h2>
