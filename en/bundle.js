@@ -1288,6 +1288,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Marlene Zuk – Sexual Type 3",
     teaser:"SX3w4 · born 1956. Evolutionary biologist, professor. Hamilton-Zuk hypothesis: ornaments like the peacock's tail as honest signals of health and parasite resistance. The peacock that researches instead of merely shining. Animal correspondence: Peacock.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-frank-schaetzing", name:"Frank Schätzing", added:"2026-09-05", subtyp:"SX3w4",
+    heading:"Frank Schätzing – Sexual Type 3",
+    teaser:"SX3w4 · born 1957. German writer, ›The Swarm‹ (2004) sold several million copies. Copywriter, musician, then bestselling author – full presence on every stage, genuine concern for the oceans at the core of his work. Animal correspondence: Peacock.",
+    land:"Germany", tags:["Literatur"], gender:"m"},
 { route:"beruehmte-lena-meyer-landrut", name:"Lena Meyer-Landrut", added:"2026-07-20", subtyp:"SX3w2",
     heading:"Lena Meyer-Landrut – Sexual Type 3",
     teaser:"SX3w2 · born 1991. Singer, ESC winner 2010. The peacock who doesn't know how beautiful he is - and that's precisely why he captivates everyone. Animal correspondence: Peacock.",
@@ -47441,6 +47445,70 @@ function ladyDianaPortraitPage() {
 }
 
 
+function frankSchaetzingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-frank-schaetzing-portrait.jpg" alt="Frank Schätzing – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frank Schätzing</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">Writer, b. 1957 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock that claims an entire stage for itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Type 3 – immediate, magnetic presence that needs no calculation to have its effect. Frank Schätzing became one of the most successful German-language authors of his generation with his 2004 eco-thriller "The Swarm," selling several million copies worldwide.</p>
+          <p class="vb-intro">Even before his literary breakthrough he worked as a copywriter, musician, and composer – a career path that reads less like planning and more like a sequence of stages on each of which he was fully present.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: impact through immediate presence, not calculation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> creates its effect not through calculated self-staging but through a presence that resists analysis. Schätzing's public appearances – at readings, on talk shows, in lectures on climate change and marine research – are marked by an immediately palpable energy and rhetorical force that made him one of Germany's most sought-after speakers on science topics.</p>
+          <p class="vb-intro">He shares this with Dieter Bohlen (also SX3w4), whose impact the life-pattern compass describes as the ability to "know exactly what he is – and not hide it": with Schätzing too, his own stage presence never feels rehearsed, but like a natural state.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: depth and melancholy beneath the shimmering surface</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing</strong> gives the sexual Three an additional note of emotional depth and a sensitivity to the darker, melancholic undertones of a subject. In Schätzing this shows at the very core of his work: "The Swarm," despite its thriller format, is deeply infused with concern over the destruction of the oceans and a looming ecological catastrophe – not a pure entertainment product, but a work of genuine existential seriousness.</p>
+          <p class="vb-intro">This combination of radiant public presence and underlying ecological alarm shows the Four-wing in its characteristic form: brilliance on the outside, real concern and depth at the core of the work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From copywriter to the most translated German author</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schätzing's path from copywriter and musician to internationally translated bestselling author did not run in a straight line, but across several completely different creative stages. Each of these stations was inhabited with the same full intensity before the next one began – no hesitation, no half-hearted experimentation.</p>
+          <p class="vb-intro">His later commitment to ocean conservation and climate communication, including lending his name to his own research prize, shows the same complete devotion to a cause that has once captured him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 shows in Schätzing's ability to turn highly complex scientific subjects – deep-sea research, climate change, geology – into gripping, globally successful narratives without losing substantive seriousness.</p>
+          <p class="vb-intro">The shadow of the sexual Three shows where one's own brilliant public presence generates expectations that must be met anew with every new, often years-in-the-making work – a pressure that easily becomes, for this subtype, a permanent need to reconfirm one's own radiance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The author who turns science into experience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Frank Schätzing's career shows the sexual Three with a Four-wing in one of its most effective forms: shimmering public presence in service of a cause he genuinely cares about. The peacock does not spread its tail for its own sake – it wants people to look, so they understand what is at stake.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4) – also SX3w4"},
+          {route:"beruehmte-marlene-zuk", label:"Portrait: Prof. Dr. Marlene Zuk (SX3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function dieterBohlenPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -47498,6 +47566,7 @@ function dieterBohlenPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
         {route:"bibel-judas-iskariot", label:"Bible Portrait: Judas Iscariot (SX3w4)"},
+        {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
       ])}
     </div>
   `);
@@ -47562,6 +47631,7 @@ function marleneZukPortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
+        {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marlene-zuk")}
     </div>
@@ -55684,7 +55754,7 @@ const LEBENSMUSTERKOMPASS = {
   SX3: {
     tier: "Peacock",
     kernthema: "Immediate presence and magnetism – without calculation, yet with full effect",
-    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans"],
+    beispiele: ["Brad Pitt", "Kai Pflaume", "Lena Meyer-Landrut", "Brigitte Bardot", "Meg Ryan", "Marilyn Monroe", "Dieter Bohlen", "Prof. Dr. Marlene Zuk", "Diane Downs", "Luka Magnotta", "Richard Ramírez", "Judas Iscariot", "Brigitte Macron", "Iris Berben", "Linda Evans", "Frank Schätzing"],
     fingerabdruecke: [
       {
         titel: "Immediate, magnetic presence instead of calculated staging",
@@ -55699,7 +55769,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "The deliberate, complete performance as an art form for others",
         beschreibung: "At the other end of the same spectrum stands the fully conscious, completely played-out self-presentation – not a private pleasure, but a deliberate performance that knows exactly what effect it wants to achieve.",
-        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed; Linda Evans, an extremely shy child who, on her school principal's advice, took acting classes just to build any self-confidence at all – and out of that shyness shaped, with her iconic blonde mane and elaborate Bob Mackie gowns as Krystle Carrington on 'Dynasty,' one of American television's most deliberately constructed glamour figures."
+        beleg: "Dieter Bohlen: 'The peacock is the only animal that unfolds its finest moment entirely for others. The peacock's tail is not a private pleasure. It's a performance ... The peacock knows exactly what it is – and doesn't hide it.'; Prof. Dr. Marlene Zuk, who deliberately renders complex biological findings crystal-clear and accessible to a broad audience – science that wants not only to be understood, but to be visibly performed; Linda Evans, an extremely shy child who, on her school principal's advice, took acting classes just to build any self-confidence at all – and out of that shyness shaped, with her iconic blonde mane and elaborate Bob Mackie gowns as Krystle Carrington on 'Dynasty,' one of American television's most deliberately constructed glamour figures; Frank Schätzing, whose path from copywriter through musician to internationally translated bestselling author ran across several completely different stages, each inhabited with full intensity before the next began."
       },
       {
         titel: "When the perfect ideal or the perfect performance becomes a murderous fixation (shadow form)",
@@ -115487,6 +115557,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-marlene-zuk": marleneZukPortraitPage,
+      "beruehmte-frank-schaetzing": frankSchaetzingPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-voltaire": voltairePortraitPage,
       "beruehmte-francisco-de-goya": franciscoDeGoyaPortraitPage,

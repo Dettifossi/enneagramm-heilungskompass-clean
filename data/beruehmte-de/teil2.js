@@ -1105,6 +1105,7 @@ export function marleneZukPortraitPage() {
         {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-dolly-parton", label:"Porträt: Dolly Parton (SX3w4)"},
+        {route:"beruehmte-frank-schaetzing", label:"Porträt: Frank Schätzing (SX3w4)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marlene-zuk")}
     </div>

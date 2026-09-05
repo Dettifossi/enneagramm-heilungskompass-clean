@@ -437,6 +437,7 @@ export function dieterBohlenPortraitPage() {
         {route:"beruehmte-dolly-parton", label:"Portr\u00e4t: Dolly Parton (SX3w4)"},
         {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
         {route:"bibel-judas-iskariot", label:"Bibel-Portr\u00e4t: Judas Iskariot (SX3w4)"},
+        {route:"beruehmte-frank-schaetzing", label:"Portr\u00e4t: Frank Sch\u00e4tzing (SX3w4) \u2013 ebenfalls SX3w4"},
       ])}
     </div>
   `);

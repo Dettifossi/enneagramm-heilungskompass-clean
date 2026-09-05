@@ -1755,3 +1755,67 @@ export function brigitteMacronPortraitPage() {
     </div>
   `);
 }
+
+export function frankSchaetzingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-frank-schaetzing-portrait.jpg" alt="Frank Schätzing – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frank Schätzing</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, geb. 1957 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der eine ganze Bühne für sich beansprucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – unmittelbare, magnetische Präsenz, die keine Berechnung braucht, um zu wirken. Frank Schätzing wurde mit seinem 2004 erschienenen Ökothriller ›Der Schwarm‹ zu einem der erfolgreichsten deutschsprachigen Autoren seiner Generation, mit weltweit mehreren Millionen verkauften Exemplaren.</p>
+          <p class="vb-intro">Schon vor seinem literarischen Durchbruch war er als Werbetexter, Musiker und Komponist aktiv – ein Lebenslauf, der sich weniger als Karriereplanung, sondern als eine Aneinanderreihung von Bühnen liest, auf denen er jeweils vollständig präsent war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Wirkung durch unmittelbare Präsenz statt Berechnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> entfaltet ihre Wirkung nicht durch kalkulierte Selbstinszenierung, sondern durch eine Präsenz, die sich der Analyse entzieht. Schätzings öffentliche Auftritte – bei Lesungen, in Talkshows, bei Vorträgen zu Klimawandel und Meeresforschung – sind geprägt von einer sofort spürbaren Energie und rhetorischen Wucht, die ihn zu einem der gefragtesten deutschen Redner zu Wissenschaftsthemen machte.</p>
+          <p class="vb-intro">Das teilt er mit Dieter Bohlen (ebenfalls SX3w4), dessen Wirkung der Lebensmusterkompass als Fähigkeit beschreibt, ›genau zu wissen, was er ist – und es nicht zu verstecken‹: Auch bei Schätzing wirkt die eigene Bühnenpräsenz nie einstudiert, sondern wie ein Naturzustand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe und Melancholie unter der schillernden Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel</strong> verleiht der sexuellen Drei eine zusätzliche Note emotionaler Tiefe und eines Gespürs für die dunkleren, melancholischen Untertöne eines Themas. Bei Schätzing zeigt sich das im Kern seines Werks selbst: ›Der Schwarm‹ ist trotz seines Thriller-Formats zutiefst von der Sorge um die Zerstörung der Meere und eine drohende ökologische Katastrophe durchdrungen – kein reines Unterhaltungsprodukt, sondern ein Werk mit echtem existenziellem Ernst.</p>
+          <p class="vb-intro">Diese Kombination aus strahlender öffentlicher Präsenz und darunterliegendem ökologischem Alarmismus zeigt den Viererflügel in seiner charakteristischen Form: Glanz nach außen, echte Sorge und Tiefe im Kern des Werks.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Werbetexter zum meistübersetzten deutschen Autor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schätzings Weg vom Werbetexter und Musiker zum international übersetzten Bestsellerautor verlief nicht geradlinig, sondern über mehrere vollständig unterschiedliche kreative Bühnen. Jede dieser Stationen wurde mit derselben vollen Intensität bespielt, bevor die nächste begann – kein Zögern, kein halbherziges Ausprobieren.</p>
+          <p class="vb-intro">Auch sein späteres Engagement für Meeresschutz und Klimakommunikation, unter anderem als Namensgeber eines eigenen Forschungspreises, zeigt dieselbe vollständige Hingabe an ein Thema, das ihn einmal gepackt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 zeigt sich in Schätzings Fähigkeit, hochkomplexe wissenschaftliche Themen – Tiefseeforschung, Klimawandel, Geologie – in mitreißende, weltweit erfolgreiche Erzählungen zu verwandeln, ohne dabei an inhaltlicher Seriosität zu verlieren.</p>
+          <p class="vb-intro">Der Schatten der sexuellen Drei zeigt sich dort, wo die eigene glanzvolle öffentliche Präsenz Erwartungen erzeugt, die mit jedem neuen, oft jahrelang recherchierten Werk aufs Neue eingelöst werden müssen – ein Druck, der bei diesem Subtyp leicht zur permanenten Notwendigkeit wird, die eigene Strahlkraft zu bestätigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Autor, der Wissenschaft zum Erlebnis macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Frank Schätzings Karriere zeigt die sexuelle Drei mit Viererflügel in einer ihrer wirkungsvollsten Formen: schillernde öffentliche Präsenz im Dienst eines Themas, das ihm ernsthaft am Herzen liegt. Der Pfau entfaltet sein Rad nicht um seiner selbst willen – er will, dass die Menschen hinsehen, damit sie verstehen, was auf dem Spiel steht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+          {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4) – ebenfalls SX3w4"},
+          {route:"beruehmte-marlene-zuk", label:"Porträt: Prof. Dr. Marlene Zuk (SX3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
