@@ -47667,7 +47667,7 @@ function bellaThornePage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Bella Thorne – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bella-thorne-portrait.jpg" alt="Bella Thorne – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bella Thorne</p>
         <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererfl\u00fcgel</p>
@@ -49413,7 +49413,7 @@ function josefVonArimathaeaPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Josef von Arimathäa – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-josef-von-arimathaea-portrait.jpg" alt="Josef von Arimathäa – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Josef von Arimathäa</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
@@ -49488,7 +49488,7 @@ function rubenSchriftgelehrterPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Ruben, der Schriftgelehrte – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-ruben-schriftgelehrter-portrait.jpg" alt="Ruben, der Schriftgelehrte – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ruben, der Schriftgelehrte</p>
         <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
@@ -49569,7 +49569,7 @@ function johannesDerTaeuferPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="Johannes der Täufer – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-johannes-der-taeufer-portrait.jpg" alt="Johannes der Täufer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Johannes der Täufer</p>
         <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
@@ -49650,7 +49650,7 @@ function martaPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-marta-portrait.jpg" alt="Marta – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-marta-portrait.jpg" alt="Marta – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Marta</p>
         <p class="krim-portrait-typ">SE2w1 · Selbsterhaltender Typ 2 mit Einserflügel</p>
@@ -49731,7 +49731,7 @@ function jesusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-jesus-portrait.jpg" alt="Jesus – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-jesus-portrait.jpg" alt="Jesus – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jesus</p>
         <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
@@ -49812,7 +49812,7 @@ function mariaMagdalenaPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Maria Magdalena – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-maria-magdalena-portrait.jpg" alt="Maria Magdalena – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Maria Magdalena</p>
         <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
@@ -49893,7 +49893,7 @@ function salomePage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-salome-portrait.jpg" alt="Salome – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-salome-portrait.jpg" alt="Salome – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Salome</p>
         <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
@@ -49974,7 +49974,7 @@ function pontiusPilatusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-pontius-pilatus-portrait.jpg" alt="Pontius Pilatus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-pontius-pilatus-portrait.jpg" alt="Pontius Pilatus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Pontius Pilatus</p>
         <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
@@ -50055,7 +50055,7 @@ function judasIskariotPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-judas-iskariot-portrait.jpg" alt="Judas Iskariot – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-judas-iskariot-portrait.jpg" alt="Judas Iskariot – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Judas Iskariot</p>
         <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
@@ -50140,7 +50140,7 @@ function andreasPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-andreas-portrait.jpg" alt="Andreas – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-andreas-portrait.jpg" alt="Andreas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andreas</p>
         <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
@@ -50221,7 +50221,7 @@ function thomasPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-thomas-portrait.jpg" alt="Thomas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Thomas</p>
         <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
@@ -50302,7 +50302,7 @@ function judasThaddaeusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Judas Thaddäus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-judas-thaddaeus-portrait.jpg" alt="Judas Thaddäus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Judas Thaddäus</p>
         <p class="krim-portrait-typ">SX4w5 · Sexueller Typ 4 mit Fünferflügel</p>
@@ -50383,7 +50383,7 @@ function nikodemusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nikodemus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-nikodemus-portrait.jpg" alt="Nikodemus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nikodemus</p>
         <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
@@ -50464,7 +50464,7 @@ function gamalielPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-gamaliel-portrait.jpg" alt="Gamaliel – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-gamaliel-portrait.jpg" alt="Gamaliel – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gamaliel</p>
         <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
@@ -50545,7 +50545,7 @@ function derMannVonGerasaPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="Der Mann von Gerasa – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-der-mann-von-gerasa-portrait.jpg" alt="Der Mann von Gerasa – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Der Mann von Gerasa</p>
         <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel</p>
@@ -50630,7 +50630,7 @@ function zachaeusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-zachaeus-portrait.jpg" alt="Zachäus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-zachaeus-portrait.jpg" alt="Zachäus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Zachäus</p>
         <p class="krim-portrait-typ">SE6w5 · Selbsterhaltender Typ 6 mit Fünferflügel</p>
@@ -50711,7 +50711,7 @@ function philippusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-philippus-portrait.jpg" alt="Philippus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-philippus-portrait.jpg" alt="Philippus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Philippus</p>
         <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel</p>
@@ -50792,7 +50792,7 @@ function petrusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-petrus-portrait.jpg" alt="Petrus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-petrus-portrait.jpg" alt="Petrus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Petrus</p>
         <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
@@ -50873,7 +50873,7 @@ function lazarusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-lazarus-portrait.jpg" alt="Lazarus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lazarus</p>
         <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
@@ -50953,7 +50953,7 @@ function samariterinAmJakobsbrunnenPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="Die Samariterin am Jakobsbrunnen – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-samariterin-am-jakobsbrunnen-portrait.jpg" alt="Die Samariterin am Jakobsbrunnen – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Die Samariterin am Jakobsbrunnen</p>
         <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
@@ -51032,7 +51032,7 @@ function johannesDerGeliebtePage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="Johannes, der geliebte Jünger – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-johannes-der-geliebte-portrait.jpg" alt="Johannes, der geliebte Jünger – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Johannes, der geliebte Jünger</p>
         <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel</p>
@@ -51111,7 +51111,7 @@ function derHauptmannUnterDemKreuzPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-der-hauptmann-unter-dem-kreuz-portrait.jpg" alt="Der Hauptmann unter dem Kreuz – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-der-hauptmann-unter-dem-kreuz-portrait.jpg" alt="Der Hauptmann unter dem Kreuz – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Der Hauptmann unter dem Kreuz</p>
         <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel</p>
@@ -51191,7 +51191,7 @@ function kaiphasPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-kaiphas-portrait.jpg" alt="Der Hohepriester Kaiphas – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-kaiphas-portrait.jpg" alt="Der Hohepriester Kaiphas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Der Hohepriester Kaiphas</p>
         <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel</p>
@@ -51272,7 +51272,7 @@ function saulusAufDemWegNachDamaskusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-saulus-auf-dem-weg-nach-damaskus-portrait.jpg" alt="Saulus auf dem Weg nach Damaskus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-saulus-auf-dem-weg-nach-damaskus-portrait.jpg" alt="Saulus auf dem Weg nach Damaskus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Saulus auf dem Weg nach Damaskus</p>
         <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
@@ -51353,7 +51353,7 @@ function jakobusPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-jakobus-portrait.jpg" alt="Jakobus – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-jakobus-portrait.jpg" alt="Jakobus – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jakobus, der Sohn des Alphäus</p>
         <p class="krim-portrait-typ">SE9w1 · Selbsterhaltende Typ 9 mit Einserflügel</p>
@@ -51434,7 +51434,7 @@ function barabbasPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-barabbas-portrait.jpg" alt="Barabbas – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-barabbas-portrait.jpg" alt="Barabbas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Barabbas</p>
         <p class="krim-portrait-typ">SO9w1 · Soziale Typ 9 mit Einserflügel</p>
@@ -51509,7 +51509,7 @@ function mutterMariaPage() {
       <div id="js-back-target" data-route="enneagramm-bibel" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/bibel-mutter-maria-portrait.jpg" alt="Mutter Maria – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bibel-mutter-maria-portrait.jpg" alt="Mutter Maria – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mutter Maria</p>
         <p class="krim-portrait-typ">SX9w1 · Sexuelle Typ 9 mit Einserflügel</p>

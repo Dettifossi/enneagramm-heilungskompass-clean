@@ -7,7 +7,7 @@ export function aileenWuornosPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/aileen-wuornos-portrait.jpg" alt="Aileen Wuornos \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/aileen-wuornos-portrait.jpg" alt="Aileen Wuornos \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Aileen Wuornos</p>
         <p class="krim-portrait-typ">SX7w8 \u00b7 Sexueller Typ 7 mit Achterfl\u00fcgel</p>
@@ -204,7 +204,7 @@ export function andreasBaaderPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/andreas-baader-portrait.jpg" alt="Andreas Baader – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/andreas-baader-portrait.jpg" alt="Andreas Baader – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Andreas Baader</p>
         <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterfl\xfcgel</p>
@@ -285,7 +285,7 @@ export function annaDelveyPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/anna-delvey-portrait.jpg" alt="Anna Delvey \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Anna Delvey</p>
         <p class="krim-portrait-typ">SE2w3 \u00b7 Selbsterhaltender Typ 2 mit Dreierfl\u00fcgel</p>
@@ -528,7 +528,7 @@ export function bernieMadoffPortraitPage() {
       ${pageHeader("Bernie Madoff \u2013 Kriminalpsychologie")}
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame"><img class="krim-portrait-img" loading="lazy" src="./assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
+        <div class="krim-portrait-frame"><img class="krim-portrait-img" loading="lazy" src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bernie-madoff-portrait.jpg" alt="Bernie Madoff" /></div>
         <p class="krim-portrait-name">Bernie Madoff</p>
         <p class="krim-portrait-typ">SE3w4 \xb7 Selbsterhaltender Typ 3 mit Viererfl\xfcgel</p>
         <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">Gr\xf6\xdftes Ponzi-System der Geschichte \xb7 65 Mrd. Dollar \xb7 Tierentsprechung: Waschb\xe4r</p>
@@ -649,7 +649,7 @@ export function charlesMansonPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/charles-manson-portrait.jpg" alt="Charles Manson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/charles-manson-portrait.jpg" alt="Charles Manson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Charles Manson</p>
         <p class="krim-portrait-typ">SX6w7 \u00b7 Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
@@ -744,7 +744,7 @@ export function dennisNilsenPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/dennis-nilsen-portrait.jpg" alt="Dennis Nilsen \xe2\x80\x93 Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dennis Nilsen</p>
         <p class="krim-portrait-typ">SE1w2 \u00b7 Selbsterhaltender Typ 1 mit Zweierfl\u00fcgel</p>
@@ -944,7 +944,7 @@ export function edGeinPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/kriminalpsychologie-ed-gein-portrait.jpg" alt="Ed Gein – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-ed-gein-portrait.jpg" alt="Ed Gein – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ed Gein</p>
         <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
@@ -1164,7 +1164,7 @@ export function garyRidgwayPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/gary-ridgway-portrait.jpg" alt="Gary Ridgway \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/gary-ridgway-portrait.jpg" alt="Gary Ridgway \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gary Ridgway</p>
         <p class="krim-portrait-typ">SX1w2 \u00b7 Sexueller Typ 1 mit Zweierfl\u00fcgel</p>
@@ -1367,7 +1367,7 @@ export function haroldShipmanPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/harold-shipman-portrait.jpg" alt="Harold Shipman \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Harold Shipman</p>
         <p class="krim-portrait-typ">SO5w6 \u00b7 Sozialer Typ 5 mit Sechserfl\u00fcgel</p>
@@ -1553,7 +1553,7 @@ export function jackUnterweegerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jack-unterweger-portrait.jpg" alt="Jack Unterweger \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/jack-unterweger-portrait.jpg" alt="Jack Unterweger \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jack Unterweger</p>
         <p class="krim-portrait-typ">SO2w1 \u00b7 Sozialer Typ 2 mit Einserfl\u00fcgel</p>
@@ -1761,7 +1761,7 @@ export function jimJonesPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jim-jones-portrait.jpg" alt="Jim Jones \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/jim-jones-portrait.jpg" alt="Jim Jones \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jim Jones</p>
         <p class="krim-portrait-typ">SO2w3 \u00b7 Sozialer Typ 2 mit Dreierfl\u00fcgel</p>
@@ -1960,7 +1960,7 @@ export function johnHinckleyJrPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-john-hinckley-jr-portrait.jpg" alt="John Hinckley Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Hinckley Jr.</p>
         <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel</p>
@@ -2152,7 +2152,7 @@ export function jonathanMeijerPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/jonathan-meijer-portrait.jpg" alt="Jonathan Meijer \u2013 Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jonathan Meijer</p>
         <p class="krim-portrait-typ">SE2w1 \u00b7 Selbsterhaltender Typ 2 mit Einserfl\u00fcgel</p>
@@ -2422,7 +2422,7 @@ export function lukaMagnottaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/luka-magnotta-portrait.jpg" alt="Luka Magnotta \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/luka-magnotta-portrait.jpg" alt="Luka Magnotta \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Luka Magnotta</p>
         <p class="krim-portrait-typ">SX3w4 \u00b7 Sexueller Typ 3 mit Viererfl\u00fcgel</p>
@@ -2637,7 +2637,7 @@ export function nickLeesonPortraitPage() {
       ${pageHeader("Nick Leeson \u2013 Kriminalpsychologie")}
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/nick-leeson-portrait.jpg" alt="Nick Leeson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/nick-leeson-portrait.jpg" alt="Nick Leeson \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nick Leeson</p>
         <p class="krim-portrait-typ">SO9w8 \u00b7 Sozialer Typ 9 mit Achterfl\u00fcgel</p>
@@ -2743,7 +2743,7 @@ export function ottoMuehlPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/kriminalpsychologie-otto-muehl-portrait.jpg" alt="Otto Mühl – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-otto-muehl-portrait.jpg" alt="Otto Mühl – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Otto Mühl</p>
         <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
@@ -2978,7 +2978,7 @@ export function paulOgorzowPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/paul-ogorzow-portrait.jpg" alt="Paul Ogorzow \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Paul Ogorzow</p>
         <p class="krim-portrait-typ">SE1w9 \u00b7 Selbsterhaltender Typ 1 mit Neunerfl\u00fcgel</p>
@@ -3383,7 +3383,7 @@ export function richardRamirezPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/richard-ramirez-portrait.jpg" alt="Richard Ram\u00edrez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/richard-ramirez-portrait.jpg" alt="Richard Ram\u00edrez \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Richard Ram\u00edrez</p>
         <p class="krim-portrait-typ">SX3w4 \u00b7 Sexueller Typ 3 mit Viererfl\u00fcgel</p>
@@ -3582,7 +3582,7 @@ export function salvatoreRiinaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/salvatore-riina-portrait.jpg" alt="Salvatore Riina \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Salvatore Riina</p>
         <p class="krim-portrait-typ">SE8w9 \u00b7 Selbsterhaltender Typ 8 mit Neunerfl\u00fcgel</p>
@@ -3819,7 +3819,7 @@ export function tedKaczynskiPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/ted-kaczynski-portrait.jpg" alt="Ted Kaczynski \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dr. Ted Kaczynski</p>
         <p class="krim-portrait-typ">SO5w4 \u00b7 Sozialer Typ 5 mit Viererfl\xfcgel</p>
@@ -3920,7 +3920,7 @@ export function victorLustigPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/victor-lustig-portrait.jpg" alt="Victor Lustig – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/victor-lustig-portrait.jpg" alt="Victor Lustig – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Victor Lustig</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\xfcgel</p>
@@ -4001,7 +4001,7 @@ export function fritzHonkaPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/fritz-honka-portrait.jpg" alt="Fritz Honka – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/fritz-honka-portrait.jpg" alt="Fritz Honka – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Fritz Honka</p>
         <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel</p>
