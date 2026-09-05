@@ -889,6 +889,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mira Murati – Social Type 2",
     teaser:"SO2w3 · born 1988. Albanian-American technology executive, former CTO of OpenAI, founder of Thinking Machines Lab. Three days as interim CEO during the 2023 Altman crisis – indispensability without the spotlight. Animal correspondence: Golden Retriever.",
     land:"Albania/USA", tags:["Business","Wissenschaft"], gender:"f"},
+{ route:"beruehmte-alexander-gerst", name:"Alexander Gerst", added:"2026-09-05", subtyp:"SO2w3",
+    heading:"Alexander Gerst – Social Type 2",
+    teaser:"SO2w3 · born 1976. German geophysicist and ESA astronaut, first German ISS commander in 2018. Over 360 days in space, spaceflight as a shared experience for a millions-strong audience rather than expert knowledge. Animal correspondence: Golden Retriever.",
+    land:"Germany", tags:["Wissenschaft"], gender:"m"},
 { route:"beruehmte-indila", name:"Indila", added:"2026-08-29", subtyp:"SO2w3",
     heading:"Indila – Social Type 2",
     teaser:"SO2w3 · b. 1984. French singer, \"Dernière Danse\" – the first French-language song to surpass one billion YouTube views. Sang for other artists for years before her own breakthrough, then deliberately withdrew from public life after global success. Animal correspondence: Golden Retriever.",
@@ -33775,6 +33779,71 @@ function evaPeronPortraitPage() {
   `);
 }
 
+function alexanderGerstPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-gerst-portrait.jpg" alt="Alexander Gerst – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alexander Gerst</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Astronaut, b. 1976 &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever in space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Type 2 – warm, immediately oriented toward connection, but not with a single person, rather with as many people as possible at once. Alexander Gerst, a German geophysicist and ESA astronaut, spent more than 360 days in space in total, including a stint in 2018 as the first German commander of the International Space Station (ISS).</p>
+          <p class="vb-intro">He became better known, however, for something else: from orbit, he built a direct, personal connection to a millions-strong audience through social media, blog posts, and photo series – spaceflight not as a closed-off expert project, but as a shared experience for anyone who wanted to watch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Two: care directed at the whole community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> directs its care not at the one relationship, but at a collective – an audience, a nation, everyone within reach. In Gerst this showed as his role as one of the first astronauts to actively, understandably, and with palpable warmth pass on the experience of weightlessness, the view of Earth, and daily life aboard the ISS to a broad public, rather than treating it as specialist knowledge.</p>
+          <p class="vb-intro">His numerous school projects and video messages to children from space – answering submitted questions directly from the station – show the same basic stance the life-pattern compass describes for Ranga Yogeshwar: never thinking of a single target group, but of as broad a public as possible, to whom complex knowledge should be made understandable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: achievement and public impact as vehicles of connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the social Two an additional note of ambition, drive, and a skillful sense of how a message lands most effectively. Gerst's years-long, highly competitive selection process to become an ESA astronaut, his doctorate in geophysics, and his strategically savvy handling of media and public relations show this achievement-oriented component clearly.</p>
+          <p class="vb-intro">He shares this with Mira Murati (also SO2w3), whose first act as OpenAI's interim CEO was mobilizing an entire network for a shared cause, not securing her own position: in both, the Three's ambition doesn't serve self-promotion for its own sake, but makes the message to the community effective in the first place.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The view from above as a message to all of humanity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerst repeatedly described how the view of Earth from space – the so-called "overview effect" – changed his own understanding of togetherness: no national borders, no dividing lines, just one vulnerable blue planet. Rather than keeping this experience to himself, he repeatedly made it central to his public communication, for instance in talks on climate change and global responsibility.</p>
+          <p class="vb-intro">His 2014 video recorded in space, accompanied by a loop-pedal guitar – an improvised serenade for the German national team during the World Cup – shows the same basic stance: a private enthusiasm deliberately shared to let an entire nation take part in a special moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 shows in Gerst's ability to make a technically complex, often distantly perceived field like spaceflight emotionally accessible to a broad public without losing technical substance.</p>
+          <p class="vb-intro">The shadow of the social Two shows where one's own significance remains strongly tied to the reach of one's own message – the urge to be visible in the name of a great cause can easily lead to exhaustion when the public role never pauses, a risk that long spaceflights with constant media accompaniment intensify further.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The astronaut who never lost sight of Earth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alexander Gerst's career shows the social Two with a Three-wing in one of its rarest forms: technical excellence paired with the persistent wish to leave no one out of his own experience. The Golden Retriever doesn't orbit Earth alone for its own sake – it wants everyone watching along.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+          {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3) – also SO2w3"},
+          {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+
 function benjaminDisraeliPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -33838,6 +33907,7 @@ function benjaminDisraeliPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
+        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w3)"},
       ])}
     </div>
   `);
@@ -48945,6 +49015,7 @@ function miraMuratiPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w3)"},
       ])}
     </div>
   `);
@@ -53826,12 +53897,12 @@ const LEBENSMUSTERKOMPASS = {
   SO2: {
     tier: "Golden Retriever",
     kernthema: "Devotion that belongs not to the individual, but to the whole community",
-    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Benjamin Disraeli", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden", "Mira Murati"],
+    beispiele: ["Jesus Christ", "Mother Meera", "Prof. Dr. Sucharit Bhakdi", "Barack Obama", "Bob Marley", "Douglas Rushkoff", "Micky Beisenherz", "Dr. Katharina Tempel", "Muhammad Ali", "Ranga Yogeshwar", "Anastasia Barner", "David Lurey", "Joe Navarro", "Jonathan Groff", "Abd al-Fattah as-Sisi", "Dr. Albert Schweitzer", "Mrs. Winifred Charlesworth", "Marisa Abela", "Julius Caesar", "Napoleon Bonaparte", "Alexander the Great", "Will Smith", "Usher", "Alicia Keys", "Ashton Kutcher", "Ayo Edebiri", "Bruno Mars", "Carl Weathers", "Omar Sy", "Nina Chuba", "Zoe Saldaña", "Kamala Harris", "Indila", "Jenna Ortega", "Benjamin Disraeli", "Jack Unterweger", "Jim Jones", "Cedric Maake", "Osama bin Laden", "Mira Murati", "Alexander Gerst"],
     fingerabdruecke: [
       {
         titel: "Devotion that isn't limited to individuals, but belongs to the whole community",
         beschreibung: "Unlike the other Two subtypes, care is directed not at the one relationship or one's own family, but at a collective – a congregation, an audience, a nation, everyone currently within reach.",
-        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song 'Dernière Danse' became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries; Jenna Ortega, who in 2025 went public with her own obsessive-compulsive disorder, describing concrete rituals and exhausting nightly compulsions – a deliberately used vulnerability that sparked a wide public conversation about mental health, extending its impact far beyond her own person."
+        beleg: "Jesus Christ: 'Where the sexual Two seduces the one person and the self-preservation Two provides for their own family, the social Two turns to the community as a whole'; Mother Meera, who 'received hundreds of strangers every day, for decades'; Zoe Saldaña: 'An animal whose warmth isn't limited to one person, but belongs to everyone in the pack'; Nina Chuba, whose closeness to her audience feels 'real,' 'because warmth is its nature.'; Mrs. Winifred Charlesworth, who wrote the first official breed standard for the Golden Retriever – a document serving an entire breeding community, not a single dog; Will Smith, who needed his audience not merely as spectators but as the recipient of his energy – the social Two doesn't live for itself, it lives for others; Bob Marley, whose songs never spoke to a single person but to the oppressed as a whole – 'a message that reached every continent from Trenchtown, without ever denying its roots.'; Douglas Rushkoff, whose more than 25 books on media and technology were never aimed at a single audience, but at giving an entire society the tools to understand its own digital environment; Micky Beisenherz, whose daily podcast reliably guides an audience of millions through world events – 'not detached news reading, but daily context-setting with a recognizable point of view'; Dr. Katharina Tempel, whose dissertation with more than 1,500 study participants became the methodological foundation of a mission that now reaches several hundred thousand people every month; Muhammad Ali, whose resistance to military induction in 1967 was never about his own safety, but about the injustice done to an entire population; Ranga Yogeshwar, who with ›Quarks & Co‹ never thought of a single target audience across decades, but of the broadest possible public that complex science should be made accessible to; Alexander Gerst, who as an ISS astronaut actively shared the experience of weightlessness and the view of Earth with a millions-strong audience instead of treating it as pure specialist knowledge – down to video messages produced specifically for children directly from space; Anastasia Barner, who created with FeMentor a format that explicitly organizes knowledge exchange between entire generations, rather than acting only within her own age group; David Lurey, who reaches an audience far beyond those physically present in his circles through nearly three hundred online classes and international festivals; Joe Navarro, whose body-language competence, learned out of necessity as a speechless refugee child, became a bestseller that made his knowledge accessible to millions of people in 27 languages; Jonathan Groff, who publicly came out in 2009 in the middle of the National Equality March – a deliberately public, collective setting rather than a purely private disclosure; Usher, whose album ›Confessions‹ made his own infidelity and guilt its central subject, not as a private confession but as a bridge to as broad an audience as possible; Alicia Keys, whose musical success was tied from the start to founding Keep a Child Alive for families affected by HIV – fame as a platform for an often overlooked group of people; Ashton Kutcher, who over more than a decade turned a single TV segment on child trafficking into a technology-driven organization now used by police departments worldwide; Ayo Edebiri, who spent years writing for entire show ensembles behind the scenes before stepping in front of the camera herself – success as a shared project, not a solo act; Bruno Mars, who wrote hits for other performers first, before his own fame came, and who deliberately built Silk Sonic as a shared, equal stage with Anderson .Paak; Carl Weathers, who was never the lead across four Rocky films and still carried the entire series – his energy consistently served to make the story around him bigger, rather than pulling it toward himself; Omar Sy, whose career began as a duo with Fred Testot and whose international breakthrough is inseparable from his co-star François Cluzet – visibility arising from togetherness, not going it alone; Indila, whose song 'Dernière Danse' became the first French-language song with over a billion YouTube views – a success that only came after years as a backing vocalist for other artists, lending her voice to other people's projects before she herself reached an audience of millions across language and cultural boundaries; Jenna Ortega, who in 2025 went public with her own obsessive-compulsive disorder, describing concrete rituals and exhausting nightly compulsions – a deliberately used vulnerability that sparked a wide public conversation about mental health, extending its impact far beyond her own person."
       },
       {
         titel: "Personal closeness as an instrument of leadership – connection instead of distance to secure power",
@@ -113743,6 +113814,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-zoe-saldana": zoeSaldanaPortraitPage,
       "beruehmte-kamala-harris": kamalaHarrisPortraitPage,
       "beruehmte-mira-murati": miraMuratiPortraitPage,
+      "beruehmte-alexander-gerst": alexanderGerstPortraitPage,
       "beruehmte-dr-dre": drDrePortraitPage,
       "beruehmte-usher": usherPortraitPage,
       "beruehmte-indila": indilaPortraitPage,
