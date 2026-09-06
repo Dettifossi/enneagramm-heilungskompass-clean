@@ -3814,3 +3814,177 @@ export function hannahArendtKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function margaretRutherfordKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-margaret-rutherford-portrait.jpg" alt="Margaret Rutherford" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Rutherford</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1892–1972</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Margaret Rutherford</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihre komödiantische Bühnenkarriere und
+        die verborgene Substanz hinter der behäbigen Fassade. Hier geht es ausschließlich um
+        ein Kapitel, das dort nur gestreift wird: eine lebenslange schwere Depression, gefolgt
+        von einer fortschreitenden Demenz in ihren letzten Lebensjahren – zwei Erkrankungen,
+        die sie mit derselben stillen Beharrlichkeit ertrug, mit der sie ihr ganzes Leben in
+        vertraute Routinen flüchtete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rutherford</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: Sicherheit durch
+        Gewohnheit und Komfort als Puffer gegen eine tiefer liegende innere Leere. Der
+        Achterflügel gibt dieser Neun eine verborgene physische und mentale Substanz, die im
+        Ruhezustand kaum sichtbar ist. Genau diese Kombination aus Verdrängung durch Routine
+        und stiller innerer Stärke prägte, wie Rutherford sowohl ihre Depression als auch ihre
+        spätere Demenzerkrankung verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine durch Katastrophen gezeichnete Kindheit:</strong>
+        Rutherfords Vater erschlug ihren Großvater und wurde in eine Anstalt eingewiesen; ihre
+        Mutter nahm sich später das Leben, als Rutherford noch ein Kind war – ein Fundament, auf
+        dem sich depressive Episoden schon früh anlegten.</p>
+        <p class="vb-intro"><strong>b) Erste dokumentierte depressive Episoden im Erwachsenenalter:</strong>
+        Bereits in jungen Jahren als Schauspielerin kämpfte Rutherford mit Phasen tiefer
+        Niedergeschlagenheit, die sie weitgehend vor Kollegen und Öffentlichkeit verbarg.</p>
+        <p class="vb-intro"><strong>c) Elektrokrampftherapie als wiederkehrende Behandlung:</strong>
+        Über Jahre hinweg unterzog sie sich mehrfach Elektrokrampftherapie – eine damals
+        gängige, aber einschneidende Behandlung schwerer Depressionen, die sie stets diskret
+        und ohne öffentliches Aufsehen durchführen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine Erkrankung, die fast vollständig hinter der Bühnenfigur verschwand:</strong>
+        Zeitgenossen und Biografen beschreiben übereinstimmend, wie radikal Rutherfords private
+        Leiden von ihrer öffentlichen Persona getrennt blieb – kaum jemand außerhalb ihres
+        engsten Kreises ahnte das Ausmaß ihrer Depression.</p>
+        <p class="vb-intro"><strong>b) Zwei getrennte Krankheitsphasen über Jahrzehnte:</strong>
+        Die depressive Erkrankung begleitete sie über weite Strecken ihres Erwachsenenlebens,
+        während die Demenz erst in ihrem letzten Lebensjahrzehnt hinzutrat – zwei
+        unterschiedliche, zeitlich klar getrennte Belastungen desselben langen Lebens.</p>
+        <p class="vb-intro"><strong>c) Ein Rückzug ins Vertraute statt aktiver Krisenbewältigung:</strong>
+        Statt ihre Depression öffentlich zu thematisieren oder aktiv zu bekämpfen, vertiefte sich
+        Rutherford in dieselben Rollen, dasselbe Ensemble, dieselbe Ehe – Routine als Zuflucht,
+        nicht als Heilmittel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Stringer Davis als stabilisierender Anker:</strong>
+        Ihr Ehemann, der Schauspieler Stringer Davis, den sie 1945 im Alter von 53 Jahren
+        heiratete, begleitete sie oft in kleinen Nebenrollen in ihren eigenen Filmen – eine
+        Nähe, die ihr durch die schwersten Phasen half, ohne dass die Erkrankung je öffentlich
+        benannt wurde.</p>
+        <p class="vb-intro"><strong>b) Fürsorge für Gordon Langley Hall trotz eigener Not:</strong>
+        Obwohl sie selbst mit schwerer Depression rang, nahm sie den jungen Gordon Langley Hall
+        bei sich auf und förderte ihn wie ein eigenes Kind – Fürsorge für andere, während die
+        eigene Last verborgen blieb.</p>
+        <p class="vb-intro"><strong>c) Erste Anzeichen kognitiven Abbaus in den späten 1960er-Jahren:</strong>
+        In ihren letzten Lebensjahren bemerkten Wegbegleiter zunehmende Vergesslichkeit und
+        Verwirrtheit, die sich schließlich zu einer fortschreitenden Demenz verdichteten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein letztes Jahrzehnt zwischen Auftritten und Rückzug:</strong>
+        Auch mit fortschreitender kognitiver Beeinträchtigung nahm Rutherford noch gelegentlich
+        Rollen an, bevor sie sich zunehmend aus dem öffentlichen Leben zurückzog.</p>
+        <p class="vb-intro"><strong>b) Pflege durch den engsten Kreis statt öffentlicher Bekanntmachung:</strong>
+        Wie schon ihre Depression wurde auch die Demenz weitgehend privat gehalten – Davis und
+        wenige enge Vertraute übernahmen die Fürsorge, ohne dass die Öffentlichkeit das ganze
+        Ausmaß erfuhr.</p>
+        <p class="vb-intro"><strong>c) Tod am 22. Mai 1972 in Chalfont St Peter:</strong>
+        Margaret Rutherford starb im Alter von 80 Jahren – ihr Ehemann Stringer Davis folgte ihr
+        nur zwei Jahre später, nachdem er sie bis zuletzt gepflegt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der die Fassade jahrzehntelang aufrechterhielt:</strong>
+        Dieselbe verborgene Substanz, die Rutherfords komödiantische Bühnenpräsenz trug, hielt
+        auch die Trennung zwischen öffentlicher Fröhlichkeit und privatem Leiden über
+        Jahrzehnte stabil – eine Leistung, die enorme innere Kraft erforderte.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich in Routine statt in Konfrontation flüchtete:</strong>
+        Die selbsterhaltende Neun sucht Frieden im Vertrauten – bei Rutherford wurde diese
+        Zuflucht doppelt genutzt: erst gegen die Depression, später unbewusst auch gegen die
+        beginnende Verwirrtheit der Demenz.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Kampf, sondern stilles Weitertragen:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses findet sich bei
+        Rutherford kein dokumentierter Moment der öffentlichen Auseinandersetzung mit der
+        eigenen Krankheit – nur das stille, jahrzehntelange Weitertragen einer doppelten Last.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Zwei Krankheiten, ein Muster:</strong>
+        Sowohl die Depression als auch die spätere Demenz trafen bei Rutherford auf dieselbe
+        Grundstrategie: sich der eigenen Not nicht aktiv zu stellen, sondern sie hinter
+        Gewohnheit, Routine und komödiantischer Fassade verschwinden zu lassen.</p>
+        <p class="vb-intro"><strong>b) Die Parallele zu Margaret Rutherfords eigenem Lebensmusterkompass-Fingerabdruck:</strong>
+        Genau dieses Muster – Trägheit als Selbstvergessenheit statt als aktives Ankämpfen –
+        findet sich bereits in ihrem Porträt unter Berühmte Persönlichkeiten beschrieben: ein
+        Einschlafen gegenüber der eigenen Not, das sich hier über zwei verschiedene Krankheiten
+        hinweg fortsetzte.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet Depression und Demenz?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis darin besteht,
+        im Vertrauten Frieden zu finden und die eigene innere Wahrnehmung zu dämpfen, liegt eine
+        Deutung nahe: Ausgerechnet die beiden Erkrankungen, die das Bewusstsein für die eigene
+        innere Realität am stärksten trüben können, trafen bei Rutherford zusammen. Diese
+        Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu Depression
+        oder Demenz führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Rutherfords Fall zeigen lässt, ist ein Muster, das bei
+        tiefer, gewohnheitsbasierter Verdrängung in der Praxis immer wieder auffällt – eine von
+        vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Rutherford kannte ihr eigenes Enneagramm-Muster nicht – und lebte ihre Neuner-Trägheit
+        gerade deshalb so ungebremst aus: Statt rechtzeitig gegenzusteuern, vertiefte sie sich
+        immer weiter in dieselben Rollen, dieselbe Routine, dasselbe Schweigen. Nicht aus
+        Schuld, sondern aus Unwissenheit über das eigene Muster – und genau das erklärt, warum
+        sich bei ihr zwei verschiedene, das Bewusstsein trübende Erkrankungen über ein ganzes
+        Leben hinweg unbehelligt entfalten konnten, statt rechtzeitig erkannt und behandelt zu
+        werden.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Margaret Rutherfords</strong> doppelter Krankheitsgeschichte lässt sich die
+        selbsterhaltende Neun mit Achterflügel in ihrer verletzlichsten Form ablesen: eine
+        lebenslange Depression, gefolgt von einer fortschreitenden Demenz, beide fast
+        vollständig hinter einer warmherzigen, komödiantischen Fassade verborgen. Der Elefant,
+        der seine Last bis zuletzt trug, ohne sie je öffentlich abzusetzen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}

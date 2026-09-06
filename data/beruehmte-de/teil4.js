@@ -1832,6 +1832,7 @@ export function margaretRutherfordPortraitPage() {
         {route:"beruehmte-abida-parveen", label:"Porträt: Abida Parveen (SE9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Krankheitsporträt: Margaret Rutherford (SE9w8) – Depression und Demenz"},
       ])}
     </div>
   `);

@@ -357,6 +357,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-karl-marx", name:"Karl Marx", subtyp:"SO8w9", heading:"Karl Marx – Social Type 8", krankheit:"Chronic, severe boils and carbuncles (likely hidradenitis suppurativa), accompanied by bronchitis, liver complaints, and rheumatism", teaser:"SO8w9 – philosopher, economist, founder of Marxism, 1818–1883. Suffered for over four decades from painful carbuncles that at times kept him from sitting and repeatedly delayed work on 'Capital.' Died in 1883 from the effects of chronic bronchitis." , land:"Germany/United Kingdom", gender:"m", jahre:"1818–1883"},
   { route:"krankheitsportraets-james-levine", name:"James Levine", subtyp:"SE9w1", heading:"James Levine – Self-Preservation Type 9", krankheit:"Decades-long progressive Parkinson's disease with severe accompanying back injuries", teaser:"SE9w1 – conductor and pianist, 1943–2021. First tremor symptoms as early as the 1990s, kept private for years, a severe fall in 2011 with spinal injury, increasing reliance on a wheelchair. Died in 2021 from complications of his long-standing illness." , land:"USA", gender:"m", jahre:"1943–2021"},
   { route:"krankheitsportraets-david-hume", name:"David Hume", subtyp:"SE9w8", heading:"David Hume – Self-Preservation Type 9", krankheit:"Chronic bowel disease (likely colorectal cancer or a severe chronic inflammatory condition), steadily progressing over just over four years", teaser:"SE9w8 – Scottish philosopher, 1711–1776. First digestive complaints from 1772 on, steady weight loss, wrote the composed autobiography 'My Own Life' shortly before his death. Died in 1776 in Edinburgh with remarkable philosophical calm." , land:"Scotland", gender:"m", jahre:"1711–1776"},
+  { route:"krankheitsportraets-margaret-rutherford", name:"Margaret Rutherford", subtyp:"SE9w8", heading:"Margaret Rutherford – Self-Preservation Type 9", krankheit:"Lifelong severe depression with electroconvulsive therapy, followed by progressive dementia in her final decade", teaser:"SE9w8 – British actress, 1892–1972. Severe depression hidden behind a warm comedic stage presence, later progressive dementia. Died in 1972 in Chalfont St Peter." , land:"United Kingdom", gender:"f", jahre:"1892–1972"},
   { route:"krankheitsportraets-elizabeth-barrett-browning", name:"Elizabeth Barrett Browning", subtyp:"SX9w8", heading:"Elizabeth Barrett Browning – Sexual Type 9", krankheit:"Decades-long, never definitively diagnosed chronic illness (likely a spinal condition and/or early lung disease) with accompanying lifelong opium dependency", teaser:"SX9w8 – English poet, 1806–1861. Chronic complaints from her teens, early prescription of laudanum leading to decades of dependency, more than twenty years of near-total isolation in her father's house. Health improved only after her secret flight to Italy in 1846." , land:"United Kingdom", gender:"f", jahre:"1806–1861"},
   { route:"krankheitsportraets-peter-falk", name:"Peter Falk", subtyp:"SO9w1", heading:"Peter Falk – Social Type 9", krankheit:"Alzheimer's disease, accompanied by a public custody dispute over his care", teaser:"SO9w1 – actor, world-famous as TV detective Columbo, 1927–2011. Diagnosed with Alzheimer's in 2007, placed under court conservatorship by his wife in 2008, followed by a public dispute with his daughter Catherine over visitation rights. Died in 2011 at age 83 from complications of the disease." , land:"USA", gender:"m", jahre:"1927–2011"},
   { route:"krankheitsportraets-leonard-bernstein", name:"Leonard Bernstein", subtyp:"SX7w6", heading:"Leonard Bernstein – Sexual Type 7", krankheit:"Advanced emphysema from decades of chain-smoking, fatal heart failure", teaser:"SX7w6 – conductor, composer, pianist, 1918–1990. Up to four packs of cigarettes a day for decades; conducted his final concert on 19 August 1990 against medical advice and had to stop due to a coughing fit. Retired from conducting on 9 October 1990, died just five days later." , land:"USA", gender:"m", jahre:"1918–1990"},
@@ -20162,6 +20163,7 @@ function margaretRutherfordPortraitPage() {
         {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Illness Portrait: Margaret Rutherford (SE9w8) – depression and dementia"},
       ])}
     </div>
   `);
@@ -56760,12 +56762,12 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Slowly progressing, for years barely addressed chronic afflictions – in this group the illness often stays in the background of outward life for a long time.",
-    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher"],
+    beispiele: ["James Levine", "David Hume", "Johannes Brahms", "Hans-Dietrich Genscher", "Margaret Rutherford"],
     fingerabdruecke: [
       {
         titel: "Slowly progressing afflictions barely addressed publicly for a long time",
         beschreibung: "In the self-preservation Nine, the illness frequently progresses very slowly over years and remains remarkably in the background of public life for a long time before it becomes unmistakable.",
-        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father."
+        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father; Margaret Rutherford, whose lifelong severe depression stayed almost entirely hidden behind her warm stage persona before a progressive dementia set in during her final decade."
       }
     ]
   },
@@ -69766,6 +69768,174 @@ function davidHumeKrankheitsportraetPage() {
         {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – the same elephant-like calm"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
         {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se9", label:"Subtype Profile SE9"},
+      ])}
+    </div>
+  `);
+}
+
+function margaretRutherfordKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-margaret-rutherford-portrait.jpg" alt="Margaret Rutherford" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Rutherford</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with Eight-wing · 1892–1972</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Margaret Rutherford</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">portrait under Famous Personalities</a>
+        in this Compass – that page covers her comedic stage career and the hidden substance
+        behind her easygoing façade. This portrait is devoted to a chapter only referenced in
+        passing there: a lifelong severe depression, followed by a progressive dementia in her
+        final years – two illnesses she endured with the same quiet persistence with which she
+        had fled into familiar routines her entire life.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Rutherford</strong> is classified as the <strong>self-preservation Nine with
+        Eight-wing</strong>. Naranjo called the self-preservation Nine <em>Appetite</em>:
+        security through habit and comfort as a buffer against a deeper inner emptiness. The
+        Eight-wing gives this Nine a hidden physical and mental substance barely visible at
+        rest. It was exactly this combination of denial through routine and quiet inner
+        strength that shaped how Rutherford processed both her depression and her later
+        dementia.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A childhood marked by catastrophe:</strong>
+        Rutherford's father killed her grandfather and was committed to an asylum; her mother
+        later took her own life while Rutherford was still a child – a foundation on which
+        depressive episodes took hold early.</p>
+        <p class="vb-intro"><strong>b) First documented depressive episodes in adulthood:</strong>
+        Already as a young actress, Rutherford struggled with phases of deep low mood, which
+        she largely hid from colleagues and the public.</p>
+        <p class="vb-intro"><strong>c) Electroconvulsive therapy as a recurring treatment:</strong>
+        Over the years she underwent electroconvulsive therapy multiple times – then a common
+        but drastic treatment for severe depression, which she always had carried out
+        discreetly and without public attention.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) An illness that all but vanished behind the stage persona:</strong>
+        Contemporaries and biographers consistently describe how radically Rutherford's
+        private suffering stayed separated from her public persona – hardly anyone outside her
+        closest circle suspected the extent of her depression.</p>
+        <p class="vb-intro"><strong>b) Two separate illness phases across decades:</strong>
+        The depressive illness accompanied her for much of her adult life, while dementia only
+        set in during her final decade – two distinct burdens, clearly separated in time,
+        within the same long life.</p>
+        <p class="vb-intro"><strong>c) A retreat into the familiar rather than active crisis management:</strong>
+        Instead of addressing her depression publicly or actively fighting it, Rutherford
+        immersed herself further into the same roles, the same ensemble, the same marriage –
+        routine as refuge, not as cure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Stringer Davis as a stabilizing anchor:</strong>
+        Her husband, actor Stringer Davis, whom she married in 1945 at age 53, often
+        accompanied her in small supporting roles in her own films – a closeness that helped
+        her through the hardest phases without the illness ever being named publicly.</p>
+        <p class="vb-intro"><strong>b) Caring for Gordon Langley Hall despite her own struggles:</strong>
+        Even while wrestling with severe depression herself, she took in young Gordon Langley
+        Hall and raised him as her own – caring for others while her own burden stayed hidden.</p>
+        <p class="vb-intro"><strong>c) First signs of cognitive decline in the late 1960s:</strong>
+        In her final years, those close to her noticed increasing forgetfulness and confusion,
+        which eventually consolidated into a progressive dementia.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A final decade between performances and withdrawal:</strong>
+        Even as her cognitive impairment progressed, Rutherford still occasionally took on
+        roles before gradually withdrawing from public life.</p>
+        <p class="vb-intro"><strong>b) Care from her closest circle rather than public disclosure:</strong>
+        As with her depression, her dementia was kept largely private – Davis and a few close
+        confidants took on her care without the public ever learning the full extent.</p>
+        <p class="vb-intro"><strong>c) Death on 22 May 1972 in Chalfont St Peter:</strong>
+        Margaret Rutherford died at age 80 – her husband Stringer Davis followed her only two
+        years later, having cared for her until the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that sustained the façade for decades:</strong>
+        The same hidden substance that carried Rutherford's comedic stage presence also kept
+        the separation between public cheerfulness and private suffering stable for decades –
+        an achievement that required enormous inner strength.</p>
+        <p class="vb-intro"><strong>b) Appetite that fled into routine rather than confrontation:</strong>
+        The self-preservation Nine seeks peace in the familiar – for Rutherford, this refuge
+        was used twice over: first against the depression, later unconsciously against the
+        onset of dementia's confusion as well.</p>
+        <p class="vb-intro"><strong>c) No public fight, only quiet endurance:</strong>
+        Unlike some other illness portraits in this Compass, no documented moment of public
+        confrontation with her own illness exists for Rutherford – only the quiet, decades-long
+        carrying of a double burden.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Two illnesses, one pattern:</strong>
+        Both the depression and the later dementia met the same underlying strategy in
+        Rutherford: not confronting her own distress actively, but letting it disappear behind
+        habit, routine, and a comedic façade.</p>
+        <p class="vb-intro"><strong>b) The parallel to Margaret Rutherford's own Life Pattern Compass fingerprint:</strong>
+        This exact pattern – inertia as self-forgetting rather than active struggle – already
+        appears in her portrait under Famous Personalities: a falling-asleep toward her own
+        distress that here continued across two different illnesses.</p>
+        <p class="vb-intro"><strong>c) Why depression and dementia, of all things?</strong>
+        For a self-preservation Nine with Eight-wing, whose deepest need is to find peace in the
+        familiar and to dampen her own inner perception, one interpretation suggests itself:
+        of all possible illnesses, it was the two that can most strongly cloud awareness of
+        one's own inner reality that converged in Rutherford. This interpretation is developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A classification without determinism:</strong>
+        This does not mean that the self-preservation Nine's pattern inevitably leads to
+        depression or dementia – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Rutherford's case illustrates is a pattern that keeps recurring
+        in practice alongside deep, habit-based denial – one of many possible explanations, not
+        a verdict. The corresponding illness pattern is gradually being developed in this
+        Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Rutherford did not know her own Enneagram pattern – and precisely because of that,
+        lived out her Nine's inertia so unchecked: instead of course-correcting in time, she
+        immersed herself ever further into the same roles, the same routine, the same silence.
+        Not out of guilt, but out of not knowing her own pattern – and that is exactly what
+        explains why two different, awareness-clouding illnesses could unfold unhindered across
+        an entire life, instead of being recognized and treated in time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Margaret Rutherford's</strong> double illness history reveals the
+        self-preservation Nine with Eight-wing in its most vulnerable form: a lifelong
+        depression, followed by a progressive dementia, both almost entirely hidden behind a
+        warm, comedic façade. The elephant that carried its burden to the end, without ever
+        setting it down in public.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8) – life's work"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – same subtype"},
+        {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
@@ -116466,6 +116636,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-karl-marx": karlMarxKrankheitsportraetPage,
       "krankheitsportraets-james-levine": jamesLevineKrankheitsportraetPage,
       "krankheitsportraets-david-hume": davidHumeKrankheitsportraetPage,
+      "krankheitsportraets-margaret-rutherford": margaretRutherfordKrankheitsportraetPage,
       "krankheitsportraets-elizabeth-barrett-browning": elizabethBarrettBrowningKrankheitsportraetPage,
       "krankheitsportraets-peter-falk": peterFalkKrankheitsportraetPage,
       "krankheitsportraets-leonard-bernstein": leonardBernsteinKrankheitsportraetPage,
