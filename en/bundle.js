@@ -8205,17 +8205,22 @@ function _bqaPortraitsForCode(code) {
     .concat(typeof BERUEHMT_PORTRAITS !== "undefined" ? BERUEHMT_PORTRAITS : [])
     .concat(typeof KRANKHEITS_PORTRAITS !== "undefined" ? KRANKHEITS_PORTRAITS : [])
     .concat(typeof KRIMINAL_PORTRAITS !== "undefined" ? KRIMINAL_PORTRAITS : []);
-  const seen = new Set();
-  const out = [];
+  const seenRoutes = new Set();
+  const byName = new Map();
+  const order = [];
   for (const p of all) {
     if (!p.subtyp || !p.subtyp.startsWith(code)) continue;
-    const key = p.route;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    out.push({ name: p.name, route: p.route, subtyp: p.subtyp,
+    if (seenRoutes.has(p.route)) continue;
+    seenRoutes.add(p.route);
+    if (!byName.has(p.name)) { byName.set(p.name, []); order.push(p.name); }
+    byName.get(p.name).push({ route: p.route, subtyp: p.subtyp,
       img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/" + p.route + "-portrait.jpg" });
   }
-  return out;
+  return order.map(name => {
+    const entries = byName.get(name);
+    return { name, subtyp: entries[0].subtyp, route: entries[0].route,
+      img: entries[0].img, extraRoutes: entries.slice(1) };
+  });
 }
 window._bqaToggleWing = function(btn, wing) {
   const bar = btn.closest(".bqa-wing-bar");
@@ -19056,6 +19061,7 @@ function blickqualitaetenAtlasPage() {
       const people = _bqaPortraitsForCode(k.code);
       const peopleTiles = people.map(p => `<div data-route="${p.route}" data-bqa-wing="${(p.subtyp.match(/w(\d)$/) || [,""])[1]}" style="cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.15);background:${tcol};">
           <img src="${p.img}" alt="${p.name}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" onerror="this.remove()" />
+          ${p.extraRoutes.length ? `<span data-route="${p.extraRoutes[0].route}" onclick="event.stopPropagation()" title="Another portrait of this person" style="position:absolute;top:.25rem;right:.25rem;z-index:2;width:1.1rem;height:1.1rem;border-radius:50%;background:rgba(0,0,0,.65);color:#fff;font-size:.6rem;line-height:1.1rem;text-align:center;">+</span>` : ""}
           <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.6);color:#fff;font-size:.62rem;padding:.4rem .3rem .25rem;">${p.name}</div>
         </div>`).join("");
       return `
