@@ -2248,6 +2248,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Hans-Dietrich Genscher – Self-Preservation Type 9",
     teaser:"SP9w8 · 1927–2016. Foreign Minister and Vice Chancellor of West Germany (1974–1992). 23 years of formative foreign policy, architect of German reunification, bridge-builder between East and West. The elephant that never forgets – and never stops negotiating. Animal correspondence: Elephant.",
     land:"Germany", tags:["Politik"] , gender:"m"},
+{ route:"beruehmte-kevin-james", name:"Kevin James", added:"2026-09-06", subtyp:"SE9w8",
+    heading:"Kevin James – Self-Preservation Type 9",
+    teaser:"SP9w8 · born 1965 in New York. Actor and comedian ('The King of Queens,' 'Paul Blart: Mall Cop'), black belt in martial arts, performs a large share of his own stunts despite his build. Comfort on the outside, real strength underneath. Animal correspondence: Elephant.",
+    land:"USA", tags:["Schauspiel","Komik"] , gender:"m"},
 { route:"beruehmte-abida-parveen", name:"Abida Parveen", added:"2026-08-04", subtyp:"SE9w8",
     heading:"Abida Parveen – Self-Preservation Type 9",
     teaser:"SP9w8 · born 1954 in Larkana, Pakistan. Singer, “Queen of Sufi Music”, foremost living interpreter of Kalam and Qawwali. The elephant that sinks into trance and sweeps entire concert halls along with her – stillness turning into ecstasy.",
@@ -44989,7 +44993,68 @@ function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – heart condition"},
+      ])}
+    </div>
+  `);
+}
+
+function kevinJamesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-james-portrait.jpg" alt="Kevin James – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kevin James</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; comedian, born 1965 in New York &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; comfortable in appearance, immense in actual strength. It doesn't trample through everyday life but moves ponderously, soothingly, almost sleepily &ndash; until the moment comes that reveals what is actually inside it.</p>
+          <p class="vb-intro">Kevin James has built an entire career on exactly this image: the good-natured, overweight guy next door, the lovable everyman to lean on &ndash; and at the same time a man who holds an actual black belt in martial arts and performs a striking number of his own stunts in his films. The elephant looks laid-back. Until it moves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Nine: Appetite as Comfort Zone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Self-Preservation Nine (SP9)</strong> <em>Appetite</em>: security through habit, through settling comfortably into what already exists, through physical comfort as a buffer against a deeper inner unrest. James's comedic characters &ndash; postman Doug Heffernan in "The King of Queens," the overcautious mall security guard in "Paul Blart: Mall Cop" &ndash; are almost without exception men who have settled into a small, familiar world and defend their peace there rather than striving for something greater.</p>
+          <p class="vb-intro">He played the same character in the same apartment with the same neighbors for nine seasons &ndash; a consistency that comes not from a lack of imagination but from genuine comfort in repetition and familiarity. His more than two-decade collaboration with the same circle of friends around Adam Sandler shows the same pattern: rather work with the same people on familiar material than constantly seek out new, uncertain territory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Strength Beneath the Soft Surface</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine a hidden physical assertiveness barely visible at rest. The <strong>SP9w8</strong> appears laid-back, sluggish, unremarkable &ndash; but possesses a real physical substance that surfaces exactly when it's needed.</p>
+          <p class="vb-intro">In James this shows very concretely: he trained in martial arts to black-belt level from his youth, and for action comedies like "Paul Blart" and "Here Comes the Boom" &ndash; in which he actually competes as an amateur wrestler &ndash; he performed a substantial share of his own stunts, despite his build. The physical comedy lives exactly off this contrast: a man one wouldn't at first credit with agility, who nevertheless has it &ndash; the Eight slumbers beneath the Nine's typical heaviness until the stunt calls for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Inertia as Conflict Avoidance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is called <strong>Inertia</strong> &ndash; avoiding friction, settling into the comfortable rather than seeking out conflict or the spotlight. James keeps his private life strikingly unspectacular: a relationship dating back to the 2000s, hardly any scandals, hardly any public disputes with colleagues &ndash; a star who would rather stay within his familiar circle than seek the big stage of the tabloids.</p>
+          <p class="vb-intro">The flip side shows in a certain predictability to his comedic repertoire: critics have repeatedly noted that his films resemble each other strongly in craft and theme &ndash; the same good-natured underdog, the same warm situational comedy. The Nine would rather stay with what has proven itself than expose itself to the risk of an entirely new genre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: The Gentle Giant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Kevin James gives his audience is a rare combination: the reassuring, warm presence of a man who threatens no one, paired with a real physical substance that surfaces at exactly the right moment. His characters often fail, get into absurd situations &ndash; and almost always keep their good nature rather than turning bitter or cynical.</p>
+          <p class="vb-intro">The gift of the SP9w8 is exactly this gentle giant: someone who radiates calm without being weak, who carries weight without crushing anyone. The elephant doesn't trample &ndash; it simply doesn't knock over as easily as it looks like it might.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-gina-rinehart", label:"Portrait: Gina Rinehart (SP9w8)"},
       ])}
     </div>
   `);
@@ -55551,12 +55616,12 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Calm, weighty presence instead of volume – once in motion, nothing stops it (Naranjo: Appetite)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "James, Son of Alphaeus"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "James, Son of Alphaeus", "Kevin James"],
     fingerabdruecke: [
       {
         titel: "Calm, weighty presence instead of volume",
         beschreibung: "Impact arises not from talking or performing, but from mere, weighty presence – the room changes without a single word being necessary.",
-        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous; Dr. Cynthia Moss, who followed the same elephant families for over fifty years without ever standing out through spectacular individual actions – impact through quiet, patient continuity rather than performance.; James, Son of Alphaeus (Bible portrait), who barely stood out among the Twelve and whose loyalty never showed itself in words: 'He had learned that even in passivity there is strength, when it is not flight but waiting for the right moment.'"
+        beleg: "James Levine: 'He needs no action to have an effect. It's enough that he's there'; Angela Merkel: 'A presence that arises not from volume, but from weight ... She rarely spoke loudly. She made no grand gestures'; Thomas Aquinas, nicknamed 'the dumb ox,' about whom his teacher said: 'His bellowing in teaching will one day fill the whole world.'; Bärbel Bas, who as President of the Bundestag stands out through reliability and persistent efforts toward order rather than grand gestures; David Hume, who questioned the foundations of the world while remaining remarkably unruffled – 'le bon David' even among those who considered his ideas dangerous; Dr. Cynthia Moss, who followed the same elephant families for over fifty years without ever standing out through spectacular individual actions – impact through quiet, patient continuity rather than performance.; James, Son of Alphaeus (Bible portrait), who barely stood out among the Twelve and whose loyalty never showed itself in words: 'He had learned that even in passivity there is strength, when it is not flight but waiting for the right moment.'; Kevin James, whose comedic on-screen characters are almost without exception laid-back, unremarkable men, while he himself holds a black belt in martial arts and performs a large share of his own film stunts despite his build: a physical substance that stays hidden beneath the easygoing surface until it's needed."
       },
       {
         titel: "Once in motion, nothing stops it anymore",
@@ -115885,6 +115950,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-spinoza": spinozaPortraitPage,
       "beruehmte-xanthippe": xanthippePortraitPage,
       "beruehmte-hans-dietrich-genscher": hansDietrichGenscherPortraitPage,
+      "beruehmte-kevin-james": kevinJamesPortraitPage,
       "beruehmte-abida-parveen": abidaParveenPortraitPage,
       "beruehmte-steffi-graf": steffiGrafPortraitPage,
       "beruehmte-julian-assange": julianAssangePortraitPage,

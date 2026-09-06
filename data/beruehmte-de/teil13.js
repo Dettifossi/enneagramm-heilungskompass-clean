@@ -576,6 +576,7 @@ export function hansDietrichGenscherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
+        {route:"beruehmte-kevin-james", label:"Portr\u00e4t: Kevin James (SE9w8)"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsportr\u00e4t: Hans-Dietrich Genscher (SE9w8) \u2013 Herzleiden"},
       ])}
     </div>

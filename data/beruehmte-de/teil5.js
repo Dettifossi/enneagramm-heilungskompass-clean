@@ -1767,3 +1767,63 @@ export function christianDrostenPortraitPage() {
     </div>
   `);
 }
+
+export function kevinJamesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-james-portrait.jpg" alt="Kevin James – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kevin James</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Komiker, geb. 1965 in New York &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; gemütlich in der Erscheinung, gewaltig in der eigentlichen Kraft. Er trampelt nicht durch den Alltag, sondern bewegt sich behäbig, beruhigend, fast schläfrig &ndash; bis der Moment kommt, in dem sich zeigt, was tatsächlich in ihm steckt.</p>
+          <p class="vb-intro">Kevin James hat aus genau diesem Bild eine ganze Karriere gemacht: der gutmütige, übergewichtige Nachbar von nebenan, der Sympathieträger zum Anlehnen &ndash; und gleichzeitig ein Mann, der einen echten Schwarzgurt im Kampfsport trägt und in seinen Filmen erstaunlich viele eigene Stunts selbst ausführt. Der Elefant wirkt gemütlich. Bis er sich bewegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit als Komfortzone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Sicherheit durch Gewohnheit, durch das behagliche Einrichten im Bestehenden, durch körperlichen Komfort als Puffer gegen eine tiefer liegende innere Unruhe. James' komödiantische Figuren &ndash; der Postbote Doug Heffernan in ›King of Queens‹, der übervorsichtige Sicherheitsmann in ›Paul Blart: Mall Cop‹ &ndash; sind fast durchweg Männer, die sich in einer kleinen, vertrauten Welt eingerichtet haben und dort ihre Ruhe verteidigen, ohne nach Höherem zu streben.</p>
+          <p class="vb-intro">Neun Staffeln lang spielte er denselben Charakter in derselben Wohnung mit denselben Nachbarn &ndash; eine Konstanz, die sich nicht aus Einfallslosigkeit speist, sondern aus echtem Wohlgefühl an Wiederholung und Vertrautheit. Auch seine über zwei Jahrzehnte andauernde Zusammenarbeit mit demselben Freundeskreis um Adam Sandler zeigt dasselbe Muster: lieber mit denselben Menschen an denselben vertrauten Stoffen arbeiten, als ständig neue, unsichere Terrains zu suchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Kraft unter der weichen Oberfläche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine verborgene körperliche Durchsetzungskraft, die im Ruhezustand kaum sichtbar ist. Die <strong>SE9w8</strong> wirkt gemütlich, träge, unauffällig &ndash; besitzt aber eine echte physische Substanz, die zum Vorschein kommt, sobald es darauf ankommt.</p>
+          <p class="vb-intro">Bei James zeigt sich das ganz konkret: Er trainierte seit seiner Jugend Kampfsport bis zum Schwarzgurt und übernahm für Actionkomödien wie ›Paul Blart‹ und ›Here Comes the Boom‹ &ndash; in dem er tatsächlich als Amateur-Ringkämpfer antritt &ndash; einen erheblichen Teil seiner Stunts selbst, trotz seiner Statur. Die körperliche Komik lebt genau von diesem Kontrast: ein Mann, dem man auf den ersten Blick keine Beweglichkeit zutraut, der sie aber tatsächlich besitzt &ndash; die Acht schlummert unter der neunertypischen Behäbigkeit, bis der Stunt sie fordert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Konfliktvermeidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; das Vermeiden von Reibung, das Sich-Einrichten im Bequemen statt das Aufsuchen von Konflikt oder Rampenlicht. James hält sein Privatleben auffallend unspektakulär: eine seit den 2000er-Jahren bestehende Beziehung, kaum Skandale, kaum öffentliche Auseinandersetzungen mit Kollegen &ndash; ein Star, der lieber im vertrauten Kreis bleibt, als die große Bühne der Boulevardpresse zu suchen.</p>
+          <p class="vb-intro">Die Kehrseite zeigt sich in einer gewissen Vorhersehbarkeit seines komödiantischen Repertoires: Kritiker bemängelten wiederholt, dass sich seine Filme handwerklich und thematisch stark ähneln &ndash; derselbe gutmütige Underdog, dieselbe warme Situationskomik. Die Neun bleibt lieber im Bewährten, als sich dem Risiko eines völlig neuen Genres auszusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Der sanfte Riese</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Kevin James seinem Publikum gibt, ist eine seltene Kombination: die beruhigende, warme Präsenz eines Mannes, der niemanden bedroht, gepaart mit einer echten körperlichen Substanz, die im richtigen Moment zum Vorschein kommt. Seine Figuren scheitern oft, geraten in absurde Situationen &ndash; und bewahren dabei fast immer ihre Gutmütigkeit, statt bitter oder zynisch zu werden.</p>
+          <p class="vb-intro">Das Geschenk der SE9w8 ist genau dieser sanfte Riese: jemand, der Ruhe ausstrahlt, ohne schwach zu sein, der Gewicht hat, ohne zu erdrücken. Der Elefant trampelt nicht &ndash; er lässt sich einfach nicht so leicht umwerfen, wie er aussieht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-gina-rinehart", label:"Porträt: Gina Rinehart (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
