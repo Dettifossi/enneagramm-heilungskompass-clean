@@ -59,6 +59,7 @@ export function abidaParveenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portr\u00e4t: Margaret Rutherford (SE9w8)"},
       ])}
     </div>
   `);

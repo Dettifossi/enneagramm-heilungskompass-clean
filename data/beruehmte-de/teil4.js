@@ -184,6 +184,7 @@ export function angelaMerkelPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
           {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+          {route:"beruehmte-margaret-rutherford", label:"Portr\xe4t: Margaret Rutherford (SE9w8)"},
         ])}
       </div>
     </div>
@@ -1771,6 +1772,67 @@ export function johnIoannidisPortraitPage() {
           {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+export function margaretRutherfordPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-margaret-rutherford-portrait.jpg" alt="Margaret Rutherford – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Rutherford</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, 1892&ndash;1972 &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Elefant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Elefant</strong> ist das Tier des Typs 9 &ndash; gewichtig, unaufgeregt, mit einem Gedächtnis, das nichts vergisst, und einer Ruhe, die selbst unter Druck nicht bricht. Margaret Rutherford war genau dieser Elefant: eine physisch raumgreifende, „formidable" genannte Bühnenpräsenz, die jede Szene allein durch bloßes Dasein dominierte, ohne je laut oder aggressiv zu wirken.</p>
+          <p class="vb-intro">Als Miss Marple in vier Verfilmungen (1961&ndash;1964) und als Madame Arcati in ›Blithe Spirit‹ verkörperte sie Figuren, die nicht durch Tempo oder Schärfe wirken, sondern durch behäbige, beruhigende Beständigkeit &ndash; mit einem plötzlichen Schuss Entschlossenheit, sobald es darauf ankommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit als Zuflucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Neun (SE9)</strong> nannte Naranjo <em>Appetit</em>: Sicherheit durch Gewohnheit, durch das behagliche Einrichten im Vertrauten, durch Routine als Puffer gegen eine tiefer liegende innere Leere. Rutherfords Kindheit war von Katastrophen gezeichnet, die kaum zu ertragen scheinen: Ihr Vater erschlug ihren Großvater und wurde in eine Anstalt eingewiesen, ihre Mutter nahm sich später das Leben, als sie noch ein Kind war. Sie wuchs bei einer Tante auf.</p>
+          <p class="vb-intro">Zeit ihres Lebens litt sie unter schweren Depressionen, unterzog sich Elektrokrampftherapie &ndash; und verbarg all das fast vollständig hinter einer öffentlichen Persona voller Warmherzigkeit und komödiantischer Energie. Die Ehe mit dem Schauspieler Stringer Davis, die sie erst mit 53 Jahren einging und die bis zu ihrem Tod hielt, war genau diese Art von verlässlicher, unspektakulärer Routine, die der SE9 Halt gibt, wo die Welt selbst keinen bietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Kraft hinter der Behäbigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine verborgene Durchsetzungskraft, die im Ruhezustand kaum sichtbar ist. Die <strong>SE9w8</strong> wirkt gemütlich und unaufgeregt &ndash; besitzt aber eine echte Substanz, die zum Vorschein kommt, sobald es gebraucht wird.</p>
+          <p class="vb-intro">Bei Rutherford zeigte sich das in ihrer schauspielerischen Sorgfalt und Prinzipientreue: Sie zögerte zunächst, die Rolle der Miss Marple anzunehmen, aus Respekt vor Agatha Christies eigener Vorstellung der Figur &ndash; und sagte erst nach persönlicher Rücksprache mit der Autorin zu. Keine Anpassung um jeden Preis, sondern eine klare, selbstbewusste Haltung gegenüber dem eigenen Handwerk. Dieselbe stille Entschlossenheit zeigte sich, als sie den jungen Gordon Langley Hall bei sich aufnahm und wie ein eigenes Kind förderte &ndash; eine Verantwortung, die sie ohne großes Aufheben, aber mit voller Konsequenz trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Selbstvergessen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; nicht im Sinne von Faulheit, sondern als ein Sich-selbst-Vergessen zugunsten des Vertrauten und Bequemen. Bei Rutherford nahm das eine besonders eindrückliche Form an: Statt ihre Depression aktiv zu bekämpfen oder öffentlich zu verarbeiten, verschwand sie eher darin, verdrängte sie durch immer dieselben Rollen, dasselbe Ensemble, dieselbe Ehe &ndash; ein Einschlafen gegenüber der eigenen Not, nicht ein Ankämpfen dagegen.</p>
+          <p class="vb-intro">Die Kehrseite zeigt sich darin, wie vollständig diese Trägheit die eigentliche Krankheit verdeckte: Zeitgenossen erinnern sich fast ausschließlich an die komödiantische Lebensfreude, kaum an die Frau dahinter. Die Neun kann sich selbst so gut vergessen, dass auch andere sie vergessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die tragende Präsenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Margaret Rutherford ihrem Publikum gab, war eine seltene Kombination: die beruhigende Wucht einer Frau, die niemanden bedrohte, gepaart mit einer komödiantischen Präzision, die jede Szene trug, ohne sie zu erdrücken. Ihre Figuren scheiterten oft an der Welt um sie herum &ndash; und blieben dabei fast immer gutmütig, nie verbittert.</p>
+          <p class="vb-intro">Das Geschenk der SE9w8 ist genau diese tragende Präsenz: jemand, der Gewicht hat, ohne zu erdrücken, der Ruhe ausstrahlt, obwohl im Inneren längst ein ganz anderer Kampf tobt. Der Elefant trägt seine Last, ohne sie zu zeigen &ndash; und genau darin liegt seine stillste, größte Kraft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-abida-parveen", label:"Porträt: Abida Parveen (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
+      ])}
     </div>
   `);
 }

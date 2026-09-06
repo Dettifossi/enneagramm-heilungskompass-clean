@@ -1823,6 +1823,7 @@ export function kevinJamesPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
         {route:"beruehmte-gina-rinehart", label:"Porträt: Gina Rinehart (SE9w8)"},
+        {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8)"},
       ])}
     </div>
   `);

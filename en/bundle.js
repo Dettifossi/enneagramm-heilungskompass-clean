@@ -2268,6 +2268,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Angela Merkel – Self-Preservation Type 9",
     teaser:"SE9w8 · born 1954. Federal Chancellor 2005–2021. Sixteen years of sitting out, deciding, insisting – and a legacy full of contradictions. The elephant that moves to its own rhythm. Sometimes wisdom. Sometimes standstill.",
     land:"Germany", tags:["Politics"], gender:"f"},
+{ route:"beruehmte-margaret-rutherford", name:"Margaret Rutherford", added:"2026-09-06", subtyp:"SE9w8",
+    heading:"Margaret Rutherford – Self-Preservation Type 9",
+    teaser:"SE9w8 · 1892–1972. British actress, world-famous as Miss Marple, Academy Award for 'The V.I.P.s' (1963). Severe depression hidden behind a warm comedic stage presence. The elephant that carries its burden without showing it.",
+    land:"United Kingdom", tags:["Schauspiel"], gender:"f"},
 { route:"beruehmte-carmen-goglin", name:"Carmen Goglin", added:"2026-08-16", subtyp:"SE9w8",
     heading:"Carmen Goglin – Self-Preservation Type 9",
     teaser:"SE9w8 · Laughter-yoga trainer, coach, and author, founder of the Reutlingen Laughter School. From human resources to viral laughter-yoga phenomenon after the Finch parody in 2020/21. The elephant that can trumpet. Animal correspondence: Elephant.",
@@ -20095,8 +20099,70 @@ function angelaMerkelPortraitPage() {
           {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
           {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
           {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+          {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function margaretRutherfordPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-margaret-rutherford-portrait.jpg" alt="Margaret Rutherford – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Rutherford</p>
+        <p class="krim-portrait-typ">SP9w8 &middot; Self-Preservation Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actress, 1892&ndash;1972 &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Elephant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Elephant</strong> is the animal of Type 9 &ndash; weighty, unhurried, with a memory that forgets nothing and a calm that doesn't break even under pressure. Margaret Rutherford was exactly this elephant: a physically commanding, "formidable" stage presence who dominated every scene by mere being, without ever seeming loud or aggressive.</p>
+          <p class="vb-intro">As Miss Marple in four film adaptations (1961&ndash;1964) and as Madame Arcati in "Blithe Spirit," she embodied characters who don't work through speed or sharpness, but through unhurried, reassuring steadiness &ndash; with a sudden burst of resolve the moment it's needed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Nine: Appetite as Refuge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Self-Preservation Nine (SP9)</strong> <em>Appetite</em>: security through habit, through settling comfortably into the familiar, through routine as a buffer against a deeper inner emptiness. Rutherford's childhood was marked by catastrophes that seem almost unbearable: her father killed her grandfather and was committed to an asylum; her mother later took her own life while Rutherford was still a child. She was raised by an aunt.</p>
+          <p class="vb-intro">Throughout her life she suffered from severe depression, underwent electroconvulsive therapy &ndash; and hid nearly all of it behind a public persona full of warmth and comedic energy. Her marriage to actor Stringer Davis, which she entered only at age 53 and which held until her death, was exactly this kind of reliable, unspectacular routine that gives the SP9 stability where the world itself offers none.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Strength Behind the Steadiness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Nine a hidden assertiveness barely visible at rest. The <strong>SP9w8</strong> appears comfortable and unhurried &ndash; but possesses a real substance that surfaces exactly when it's needed.</p>
+          <p class="vb-intro">In Rutherford this showed in her professional care and firmness of principle: she initially hesitated to take the role of Miss Marple out of respect for Agatha Christie's own vision of the character &ndash; and agreed only after personally consulting the author. Not adaptation at any cost, but a clear, self-assured stance toward her own craft. The same quiet resolve showed when she took in young Gordon Langley Hall and raised him as her own &ndash; a responsibility she carried without fuss, but with full commitment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Inertia as Self-Forgetting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is called <strong>Inertia</strong> &ndash; not in the sense of laziness, but as a self-forgetting in favor of the familiar and comfortable. In Rutherford this took a particularly striking form: instead of actively fighting her depression or processing it publicly, she rather disappeared into it, submerged it under the same roles, the same ensemble, the same marriage &ndash; a falling-asleep toward her own distress, not a fight against it.</p>
+          <p class="vb-intro">The flip side shows in how completely this inertia concealed the actual illness: contemporaries remember almost exclusively the comedic joy, hardly the woman behind it. The Nine can forget herself so thoroughly that others forget her too.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: The Carrying Presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Margaret Rutherford gave her audience was a rare combination: the reassuring weight of a woman who threatened no one, paired with a comedic precision that carried every scene without overwhelming it. Her characters often failed against the world around them &ndash; and almost always remained good-natured, never bitter.</p>
+          <p class="vb-intro">The gift of the SP9w8 is exactly this carrying presence: someone who has weight without crushing, who radiates calm even while an entirely different battle rages within. The elephant carries its burden without showing it &ndash; and exactly there lies its quietest, greatest strength.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
+      ])}
     </div>
   `);
 }
@@ -44994,6 +45060,7 @@ function hansDietrichGenscherPortraitPage() {
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SE9w8) – heart condition"},
       ])}
     </div>
@@ -45055,6 +45122,7 @@ function kevinJamesPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
         {route:"beruehmte-gina-rinehart", label:"Portrait: Gina Rinehart (SP9w8)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
       ])}
     </div>
   `);
@@ -45119,6 +45187,7 @@ function abidaParveenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
       ])}
     </div>
   `);
@@ -55616,7 +55685,7 @@ const LEBENSMUSTERKOMPASS = {
   SE9: {
     tier: "Elephant",
     kernthema: "Calm, weighty presence instead of volume – once in motion, nothing stops it (Naranjo: Appetite)",
-    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "James, Son of Alphaeus", "Kevin James"],
+    beispiele: ["James Levine", "Bärbel Bas", "Ludwig Erhard", "Laozi (Lao Tzu)", "Angela Merkel", "Carmen Goglin", "Gina Rinehart", "Thomas Aquinas", "David Hume", "Hans-Dietrich Genscher", "Abida Parveen", "Johannes Brahms", "Alfons Schuhbeck", "Dr. Cynthia Moss", "James, Son of Alphaeus", "Kevin James", "Margaret Rutherford"],
     fingerabdruecke: [
       {
         titel: "Calm, weighty presence instead of volume",
@@ -55631,7 +55700,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Appetite and enjoyment as an expression of the joy of life that soothes an inner emptiness",
         beschreibung: "Naranjo called this subtype the one of 'Appetite': physical pleasure, habit, and comfort serve to soothe a deeper inner emptiness – not as weakness, but as a deeply rooted life principle.",
-        beleg: "Alfons Schuhbeck: 'The self-preservation subtype of the Nine is called \"Appetite\": the inner emptiness every Nine carries is soothed through physical pleasure, food, habit, and comfort'; Johannes Brahms, who 'remained frugal even after fame had long made him one of the richest composers in Europe'; Abida Parveen: 'Appetite for merging,' whose calm, unhurried singing sends entire concert halls into a trance; Carmen Goglin, who turned laughter yoga into a profession and gives others exactly what the SE9 seeks for itself – physical relaxation, ease, the feeling that nothing is urgent right now."
+        beleg: "Alfons Schuhbeck: 'The self-preservation subtype of the Nine is called \"Appetite\": the inner emptiness every Nine carries is soothed through physical pleasure, food, habit, and comfort'; Johannes Brahms, who 'remained frugal even after fame had long made him one of the richest composers in Europe'; Abida Parveen: 'Appetite for merging,' whose calm, unhurried singing sends entire concert halls into a trance; Carmen Goglin, who turned laughter yoga into a profession and gives others exactly what the SE9 seeks for itself – physical relaxation, ease, the feeling that nothing is urgent right now.; Margaret Rutherford, for whom it wasn't food or wealth but the unchanging routine of marriage, ensemble, and recurring role types that made the underlying abyss of lifelong, severe depression bearable – a falling-asleep toward her own distress rather than a fight against it."
       },
       {
         titel: "When the quiet appetite turns into quiet self-service without guilt (shadow form)",
@@ -116104,6 +116173,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-paul-gauguin": paulGauguinPortraitPage,
       "beruehmte-grahame-webb": grahameWebbPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
+      "beruehmte-margaret-rutherford": margaretRutherfordPortraitPage,
       "beruehmte-carmen-goglin": carmenGoglinPortraitPage,
       "beruehmte-gina-rinehart": ginaRinehartPortraitPage,
       "beruehmte-amelia-earhart": ameliaEarhartPortraitPage,
