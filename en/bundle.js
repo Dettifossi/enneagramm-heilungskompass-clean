@@ -485,6 +485,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Armin Mueller-Stahl – Self-Preservation Type 1",
     teaser:"SE1w9 · born 1930. Actor, painter, musician, and writer. Banned from working in 1976 over the Biermann Resolution, emigrated to West Germany in 1980. Four artistic crafts at the highest level, never becoming a loud figure. Animal correspondence: Eagle.",
     land:"Germany", tags:["Schauspiel","Kunst"], gender:"m"},
+{ route:"beruehmte-reinhold-messner", name:"Reinhold Messner", added:"2026-09-06", subtyp:"SE1w9",
+    heading:"Reinhold Messner – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1944. First person to climb all 14 eight-thousanders without supplemental oxygen, author of over 80 books, founder of the Messner Mountain Museum. Meticulous preparation as a survival strategy in the death zone. Animal correspondence: Bald Eagle.",
+    land:"Italy", tags:["Sport","Abenteuer"], gender:"m"},
 { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
     heading:"Reinhold Würth – Self-Preservation Type 1",
     teaser:"SE1w9 · b. 1935. Entrepreneur, took over his deceased father's small screw wholesale business at 19 in 1954 and built it into the Würth Group, one of Europe's largest trading conglomerates. Patron of one of Europe's largest private art collections. Animal correspondence: Bald Eagle.",
@@ -34900,6 +34904,7 @@ function dieterLangePortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9) – similar gaze quality"},
       ])}
     </div>
   `);
@@ -35515,6 +35520,67 @@ function fritzWepperPortraitPage() {
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SP1w9)"},
         {route:"beruehmte-reinhold-wuerth", label:"Portrait: Reinhold Würth (SP1w9)"},
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SP1w9) – also a German actor"},
+      ])}
+    </div>
+  `);
+}
+
+function reinholdMessnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhold-messner-portrait.jpg" alt="Reinhold Messner – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhold Messner</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Extreme mountaineer, author &amp; museum founder, born 1944 &ndash; Animal correspondence: Bald Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Bald Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Bald Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through shows of force, but through the precision with which it reaches heights most others cannot survive. Reinhold Messner, born in 1944 in South Tyrol, began climbing at age five and has since undertaken well over a hundred expeditions to mountains and deserts.</p>
+          <p class="vb-intro">As the first person, he climbed all 14 eight-thousanders on Earth, summited Mount Everest in 1978 together with Peter Habeler as the first to do so without bottled oxygen, and in 1980 even solo. None of these feats came from recklessness &ndash; each was the result of years of meticulous preparation, in a place where a single mistake would have meant death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation One: Perfection as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its striving for perfection inward: at its own preparation, its own discipline, its own freedom from error. Naranjo called this subtype <em>Worry</em> &ndash; a constant, productive concern about truly living up to one's own standard. In an extreme mountaineer working in death zones beyond 8,000 meters, this trait is not a character flaw but literally lifesaving.</p>
+          <p class="vb-intro">This seriousness was tragically tested in 1970: during the joint first ascent of Nanga Parbat's Rupal Face with his brother Günther, Günther died during the descent via the Diamir Face. Reinhold lost seven toes to severe frostbite. Rather than withdrawing, he processed the tragedy over decades through meticulous reappraisal, including in his book "The Naked Mountain" (2002) &ndash; only in 2005 were Günther's remains found, finally confirming Reinhold's own, long-doubted account of events.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Silence of the Mountains</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> channels the strict One energy into the vast, undisturbed silence of nature rather than loud competitiveness. Messner's preferred style of mountaineering was always the solo climb or the small, independent rope team without supplemental oxygen and without the logistics of large expeditions &ndash; a deliberate reduction to the essential that seeks inner calm rather than external spectacle.</p>
+          <p class="vb-intro">His later life's work shows the same integrating, settled quality: with the six locations of the Messner Mountain Museum in South Tyrol, he created not a monument to self-promotion, but a museum that tells the story of humanity's relationship to the mountain across cultures and centuries &ndash; synthesis instead of competition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Summit-Chaser to Chronicler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1986 Messner became the first person to complete all 14 eight-thousanders, all without supplemental oxygen. Alongside this, he produced a body of written work of more than 80 books that never tells his expeditions as pure hero stories, but repeatedly exposes doubt, fear, and failure as well.</p>
+          <p class="vb-intro">After the end of his active climbing career, he continued his life at Juval Castle in South Tyrol as a farmer and museum founder, served for a time as a member of the European Parliament on environmental issues, and stayed true to his core theme: the exact, incorruptible engagement with the limits of what is humanly possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Light of the Self-Preservation One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 shows in Messner in the combination of extreme physical discipline with an inner composure that did not break even under extreme strain. His achievements did not arise from a hunger for recognition, but from the incorruptible personal standard of truly doing a thing right &ndash; up to the physiological limit of what a human being can accomplish without supplemental oxygen at great altitude.</p>
+          <p class="vb-intro">The shadow lies in the harshness with which the One judges mistakes &ndash; including its own: for decades, Messner had to face public doubt about his account of Günther's death, until the discovery of the remains in 2005 vindicated him. The bald eagle who preferred to defend his own accuracy against persistent doubt rather than submit to the more comfortable, but inaccurate, version.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"astrologie-reinhold-messner", label:"Enneagram meets Astrology: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9) – similar gaze quality"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
       ])}
     </div>
   `);
@@ -55640,7 +55706,8 @@ function astrologieReinholdMessnerPage() {
   return _astrologiePage(
     { slug:"reinhold-messner", name:"Reinhold Messner", subtyp:"SE1w9",
       subtypLabel:"Selbsterhaltender Typ 1 mit Neunerflügel",
-      subtitle:"Extrembergsteiger, geb. 1944 – Erster Mensch auf allen 14 Achttausendern ohne Sauerstoffmaske" },
+      subtitle:"Extrembergsteiger, geb. 1944 – Erster Mensch auf allen 14 Achttausendern ohne Sauerstoffmaske",
+      beruehmteRoute:"beruehmte-reinhold-messner", gender:"m" },
     `<h2 class="vb-section">SE1w9 – The Ascetic Perfectionist</h2>
     <blockquote class="vb-blockquote">
       <p class="vb-intro">Reinhold Messner embodies the classic profile of the <strong>self-preservation One with Nine wing (SP1w9)</strong> – the ascetic perfectionist. His existence revolves around absolute self-mastery, error-free preparation, and the relentless pursuit of doing what is right. The Nine wing channels this energy into the vast, undisturbed silence of nature.</p>
@@ -56584,7 +56651,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth", "Dieter Lange"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth", "Dieter Lange", "Reinhold Messner"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -56594,7 +56661,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Quiet precision without a show – the dive after a long circling",
         beschreibung: "The effect arises not through volume or self-display, but through long, patient observation, followed by a single, highly precise action that needs no repetition.",
-        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'; Joseph Aoun campaigned in no public forum whatsoever ahead of his presidential election and made the rounds of no faction – forty years of quiet military service, then lifted into the nation's highest office by a single, cross-factional vote of confidence; Joseph of Arimathea, a man of quiet steps, who once listened to Jesus but never advocated for him publicly – and after his death went alone to Pilate without hesitation, performing with a single, irreversible act what no one else dared to do."
+        beleg: "'The eagle watches for a long time before acting ... and when it finally strikes, it does so with an accuracy that needs no repetition' (De Niro); Anthony Hopkins won an Oscar for just about sixteen minutes of screen time as Hannibal Lecter – 'the eagle doesn't need to scream to be feared'; Magnus Carlsen's opponents describe games against him as 'slow suffocation'; Christoph Waltz waited fifty years for his role with Tarantino: 'The eagle had circled patiently. Then it struck.'; Joseph Aoun campaigned in no public forum whatsoever ahead of his presidential election and made the rounds of no faction – forty years of quiet military service, then lifted into the nation's highest office by a single, cross-factional vote of confidence; Joseph of Arimathea, a man of quiet steps, who once listened to Jesus but never advocated for him publicly – and after his death went alone to Pilate without hesitation, performing with a single, irreversible act what no one else dared to do.; Reinhold Messner, who approached every eight-thousander climb only after years of meticulous preparation and always chose the most reduced, least spectacular form – the solo climb without supplemental oxygen – rather than relying on large, publicity-driven expedition logistics."
       },
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
@@ -116351,6 +116418,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-fritz-wepper": fritzWepperPortraitPage,
       "beruehmte-armin-mueller-stahl": arminMuellerStahlPortraitPage,
       "beruehmte-reinhold-wuerth": reinholdWuerthPortraitPage,
+      "beruehmte-reinhold-messner": reinholdMessnerPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,

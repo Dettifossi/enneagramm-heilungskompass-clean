@@ -1797,3 +1797,64 @@ export function irisBerbenPortraitPage() {
     </div>
   `);
 }
+
+export function reinholdMessnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhold-messner-portrait.jpg" alt="Reinhold Messner – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Reinhold Messner</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Extrembergsteiger, Autor &amp; Museumsgründer, geb. 1944 &ndash; Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Weißkopfseeadler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Kraftdemonstration beeindruckt, sondern durch die Präzision, mit der es Höhen erreicht, in denen die meisten anderen nicht überleben. Reinhold Messner, geboren 1944 in Südtirol, begann bereits mit fünf Jahren zu klettern und unternahm seither weit über hundert Expeditionen in Gebirge und Wüsten.</p>
+          <p class="vb-intro">Als erster Mensch bestieg er alle 14 Achttausender der Erde, den Mount Everest 1978 gemeinsam mit Peter Habeler als Erster ohne Flaschensauerstoff und 1980 sogar im Alleingang. Keine dieser Leistungen entstand aus Draufgängertum &ndash; jede war das Ergebnis jahrelanger, akribischer Vorbereitung, bei der ein einziger Fehler den Tod bedeutet hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als Überlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nach innen: auf die eigene Vorbereitung, die eigene Disziplin, die eigene Fehlerlosigkeit. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; eine ständige, produktive Sorge, ob man dem eigenen Anspruch wirklich genügt. Bei einem Extrembergsteiger in Todeszonen jenseits von 8.000 Metern ist diese Eigenschaft keine Charakterschwäche, sondern buchstäblich lebensrettend.</p>
+          <p class="vb-intro">Diese Ernsthaftigkeit wurde 1970 auf tragische Weise geprüft: Bei der gemeinsamen Erstbesteigung der Rupalwand des Nanga Parbat mit seinem Bruder Günther starb dieser beim Abstieg über die Diamirwand. Reinhold verlor durch schwere Erfrierungen sieben Zehen. Statt sich zurückzuziehen, verarbeitete er die Tragödie über Jahrzehnte in akribischer Aufarbeitung, unter anderem in seinem Buch „Der nackte Berg" (2002) &ndash; erst 2005 wurden Günthers sterbliche Überreste gefunden, was seine eigene, oft angezweifelte Darstellung der Ereignisse endlich bestätigte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Stille der Berge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> lenkt die strenge Einser-Energie in die weite, ungestörte Stille der Natur statt in lautes Konkurrenzdenken. Messners bevorzugte Form des Bergsteigens war stets der Alleingang oder die kleine, unabhängige Seilschaft ohne Sauerstoffgeräte und ohne die Logistik großer Expeditionen &ndash; eine bewusste Reduktion auf das Wesentliche, die eher nach innerer Ruhe sucht als nach äußerem Spektakel.</p>
+          <p class="vb-intro">Auch sein späteres Lebenswerk zeigt diese integrierende, in sich ruhende Note: Mit den sechs Standorten des Messner Mountain Museum in Südtirol schuf er keinen Ort der Selbstinszenierung, sondern ein Museum, das die Beziehung des Menschen zum Berg über Kulturen und Jahrhunderte hinweg erzählt &ndash; Synthese statt Wettbewerb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Gipfelstürmer zum Chronisten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1986 vollendete Messner als erster Mensch die Besteigung aller 14 Achttausender, alle ohne zusätzlichen Sauerstoff. Parallel dazu entstand ein schriftstellerisches Werk von mehr als 80 Büchern, das seine Expeditionen nicht als reine Heldengeschichten erzählt, sondern immer wieder auch Zweifel, Angst und Scheitern offenlegt.</p>
+          <p class="vb-intro">Nach dem Ende seiner aktiven Bergsteigerkarriere führte er sein Leben auf Schloss Juval in Südtirol als Landwirt und Museumsgründer weiter, engagierte sich zeitweise als Europaabgeordneter für Umweltthemen und blieb seinem Grundthema treu: die genaue, unbestechliche Auseinandersetzung mit den Grenzen des menschlich Machbaren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich bei Messner in der Verbindung von äußerster körperlicher Disziplin mit einer inneren Gelassenheit, die auch unter Extrembelastung nicht kippte. Seine Leistungen entstanden nicht aus Geltungssucht, sondern aus dem unbestechlichen eigenen Anspruch, eine Sache wirklich richtig zu machen &ndash; bis an die physiologische Grenze dessen, was ein Mensch ohne zusätzlichen Sauerstoff in großer Höhe leisten kann.</p>
+          <p class="vb-intro">Der Schatten liegt in der Härte, mit der die Eins Fehler bewertet &ndash; auch die eigenen: Jahrzehntelang musste sich Messner öffentlichen Zweifeln an seiner Darstellung von Günthers Tod stellen, bevor der Fund der sterblichen Überreste 2005 ihn bestätigte. Der Weißkopfseeadler, der lieber die eigene Genauigkeit gegen anhaltenden Zweifel verteidigte, als sich der bequemeren, aber ungenauen Version zu fügen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"astrologie-reinhold-messner", label:"Enneagramm meets Astrologie: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9) – ähnliche Blickqualität"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -1835,6 +1835,7 @@ export function dieterLangePortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9) – ähnliche Blickqualität"},
       ])}
     </div>
   `);
