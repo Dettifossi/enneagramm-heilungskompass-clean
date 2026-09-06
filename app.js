@@ -44088,9 +44088,9 @@ function blickqualitaetenAtlasPage() {
       const isKontra = BQA_KONTRATYPEN.includes(k.code);
       const wings = BQA_WING_MAP[digit] || [];
       const people = _bqaPortraitsForCode(k.code);
-      const peopleTiles = people.map(p => `<div data-route="${p.route}" data-bqa-wing="${(p.subtyp.match(/w(\d)$/) || [,""])[1]}" style="cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.15);">
-          <img src="${p.img}" alt="${p.name}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
-          <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-size:.62rem;padding:.4rem .3rem .25rem;">${p.name}</div>
+      const peopleTiles = people.map(p => `<div data-route="${p.route}" data-bqa-wing="${(p.subtyp.match(/w(\d)$/) || [,""])[1]}" style="cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.15);background:${tcol};">
+          <img src="${p.img}" alt="${p.name}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" onerror="this.remove()" />
+          <div style="position:absolute;bottom:0;left:0;right:0;background:rgba(0,0,0,.6);color:#fff;font-size:.62rem;padding:.4rem .3rem .25rem;">${p.name}</div>
         </div>`).join("");
       return `
         <details class="ba-tile" style="background:color-mix(in srgb, ${tcol} 8%, var(--card,var(--paper)));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
