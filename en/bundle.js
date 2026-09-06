@@ -589,6 +589,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Friedrich Merz – Social Type 1",
     teaser:"SO1w9 · “The Goose”, born 1955. Federal Chancellor, CDU chairman, lawyer. Principle over pragmatism, order as a moral question – and the patience to wait years for the right moment. Animal correspondence: Goose.",
     land:"Germany", tags:["Politik"] , gender:"m"},
+{ route:"beruehmte-marcel-reich-ranicki", name:"Marcel Reich-Ranicki", added:"2026-09-06", subtyp:"SO1w9",
+    heading:"Marcel Reich-Ranicki – Social Type 1",
+    teaser:"SO1w9 · 1920–2013. Literary critic, 'Pope of Literature,' host of 'Das Literarische Quartett.' Public, unyielding verdicts on contemporary German literature, shaped the literary canon for decades. Animal correspondence: Goose.",
+    land:"Germany", tags:["Literatur"] , gender:"m"},
 { route:"beruehmte-samuel-hahnemann", name:"Dr. Samuel Hahnemann", subtyp:"SO1w9",
     heading:"Dr. Samuel Hahnemann – Social Type 1",
     teaser:"SO1w9 · 1755–1843. German physician, founder of homeopathy. From the cinchona bark self-experiment to a globally practiced healing system. The goose that rebelled against the \u201cheroic medicine\u201d of its time – and still accompanies millions today.",
@@ -48650,7 +48654,68 @@ function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
         {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – benzodiazepine dependency"},
+      ])}
+    </div>
+  `);
+}
+
+function marcelReichRanickiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marcel-reich-ranicki-portrait.jpg" alt="Marcel Reich-Ranicki – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Reich-Ranicki</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Literary critic, 1920&ndash;2013 &ndash; "Pope of Literature," Das Literarische Quartett &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of Social Type 1 &ndash; an animal that gets loud when something is wrong, that knows its formation and defends it forcefully. Marcel Reich-Ranicki, born in 1920 in the Polish town of Włocławek, became known as a self-appointed guardian of German literature &ndash; a man who publicly and with unrestrained vehemence named what, in his view, failed to meet literary quality.</p>
+          <p class="vb-intro">As host of "Das Literarische Quartett" (ZDF, 1988&ndash;2001), he tore apart new releases live in front of a mass audience &ndash; in 1995 he demonstratively ripped up a copy of Günter Grass's "Ein weites Feld" on the cover of "Der Spiegel." Not a private quirk, but the public staging of a verdict he considered to apply to the entire reading culture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Social Type 1: The Standard for an Entire Field</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> carries its striving for perfection not as a private quirk, but as a societal concern. Naranjo called this subtype <em>Non-Adaptability</em>: the SO1 cannot accept mediocrity, because it holds a clear inner image of how something should be &ndash; and that image claims validity for everyone, not only for itself.</p>
+          <p class="vb-intro">Reich-Ranicki embodied this in pure form: as the "Pope of Literature," he claimed nothing less than to set the standard for all of contemporary German-language literature. His "Frankfurter Anthologie," curated for decades in the FAZ, and his canon of the most important German novels were not mere recommendation lists, but an attempt to bring binding order to a literary field he saw as directionless.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Calm Behind the Sharpness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Social One a quality that lends its judgment additional weight: a certain relaxed, almost genial baseline demeanor that stands in sharp contrast to the harshness of the content. Reich-Ranicki rarely needed to shout to have an effect &ndash; his often calm, deliberate, sometimes even warm way of narrating outside of criticism made his devastating verdicts on books only more effective.</p>
+          <p class="vb-intro">This combination of a childlike, round, almost good-natured facial expression and unsparing substantive harshness is typical of the SP1w9: the Nine-wing does not soften the verdict itself, but the manner in which it is delivered &ndash; which many contemporaries found even more disarming than open aggression.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Survivor to Pope of Literature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reich-Ranicki survived the Warsaw Ghetto together with his wife Teofila before moving to West Germany in 1958. As literary editor of "Die Zeit" and later, from 1973 to 1988, of the "Frankfurter Allgemeine Zeitung," he shaped for decades which authors and works were considered significant. His 1999 autobiography "Mein Leben" became a bestseller and was later adapted for film.</p>
+          <p class="vb-intro">In 2008 he declined the German Television Award live on air &ndash; a public, unannounced gesture of protest against what he saw as the declining quality of German television. This exact willingness to uphold his own verdict, if necessary against the entire assembled industry, live and irrevocably, is pure SO1 signature.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 shows in Reich-Ranicki in the ability to convey complex literary judgments clearly, comprehensibly, and effectively to the public &ndash; he made literary criticism accessible to a mass audience that had previously had little contact with demanding contemporary literature. His canon shaped generations of readers and German teachers.</p>
+          <p class="vb-intro">The shadow of the SO1 lies in the rigidity of its own standard: critics accused him of using his interpretive power to damage careers and narrow literary diversity in favor of his own taste. The fate pattern of the One, <strong>anger</strong>, showed in him not as an impulsive outburst, but as a calculated, publicly staged condemnation &ndash; the goose that knows exactly when and how loudly it must honk to be heard.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SP1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SP1w9)"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SP1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SP1w9)"},
       ])}
     </div>
   `);
@@ -48984,6 +49049,7 @@ function helmutSchmidtPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
       ])}
     </div>
   `);
@@ -49321,6 +49387,7 @@ function friedrichMerzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
       ])}
     </div>
   `);
@@ -56624,12 +56691,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Goose",
     kernthema: "Watchful responsibility for the order of the community rather than for oneself alone",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Confucius", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Reuben the Scribe", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki"],
     fingerabdruecke: [
       {
         titel: "Watchful, incorruptible guardianship of order that reacts abruptly and harshly when violated",
         beschreibung: "Outwardly, the demeanor seems disciplined, civic, unobtrusively controlled. But as soon as one's own order or a principle felt to be just is violated, a decisive, often surprisingly harsh reaction follows – without drama, but without compromise.",
-        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts; Richard David Precht, who for decades has presented himself as a reformer of an education system he considers fundamentally flawed and consistently translated his convictions into ever-larger formats, from nonfiction to his own television show to a weekly podcast – an example of how the same watchful reformist conviction can also express itself in calm, narrative form rather than direct confrontation; Helmut Schmidt, who during the German Autumn of 1977 refused to exchange imprisoned RAF leaders for the kidnapped Hanns Martin Schleyer and declared the state had to respond 'with the necessary toughness' – a toughness that, typical of the Nine-wing, never expressed itself as loudness, but as unmoved consistency."
+        beleg: "'The goose is deeply territorial. It doesn't hesitate. It attacks decisively when it feels its order has been violated' (Ted Bundy); Friedrich Merz: 'He says what he thinks ... The goose doesn't back away when convinced it's doing the right thing'; Xanthippe and Adam Smith are described in almost identical terms as 'watchful, principled, incorruptible in their sense of right and wrong'; Ursula von der Leyen 'stands guard, loudly announces every disturbance, defends its territory if need be with bites'; Reuben the Scribe, who publicly confronted Jesus in the middle of the temple courts because, as a guardian of order, he believed any public speech had to be examined; Roald Amundsen, who publicly and bluntly criticized his rival Robert Falcon Scott's method as simply wrong, and who responded to his companion Umberto Nobile's public claims of greater credit after their joint 1926 North Pole flight with a sharp, uncompromising feud; Markus Lanz, who repeatedly confronted politicians on his talk show with printed studies and statistics to expose documented contradictions between official statements and the underlying data – not for sensation, but from the conviction that public officials must be measured against verifiable facts; Richard David Precht, who for decades has presented himself as a reformer of an education system he considers fundamentally flawed and consistently translated his convictions into ever-larger formats, from nonfiction to his own television show to a weekly podcast – an example of how the same watchful reformist conviction can also express itself in calm, narrative form rather than direct confrontation; Helmut Schmidt, who during the German Autumn of 1977 refused to exchange imprisoned RAF leaders for the kidnapped Hanns Martin Schleyer and declared the state had to respond 'with the necessary toughness' – a toughness that, typical of the Nine-wing, never expressed itself as loudness, but as unmoved consistency.; Marcel Reich-Ranicki, who in 1995 demonstratively ripped up a copy of Günter Grass's 'Ein weites Feld' on the cover of 'Der Spiegel' and in 2008 declined the German Television Award live on air to protest what he saw as declining quality – calculated, publicly staged verdicts rather than spontaneous outbursts of anger."
       },
       {
         titel: "Responsibility for the collective instead of going it alone – formation instead of solo",
@@ -116640,6 +116707,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-markus-lanz": markusLanzPortraitPage,
       "beruehmte-roald-amundsen": roaldAmundsenPortraitPage,
       "beruehmte-friedrich-merz": friedrichMerzPortraitPage,
+      "beruehmte-marcel-reich-ranicki": marcelReichRanickiPortraitPage,
       "beruehmte-leonardo-dicaprio": leonardoDiCaprioPortraitPage,
       "beruehmte-faye-dunaway": fayeDunawayPortraitPage,
       "beruehmte-greta-thunberg": gretaThunbergPortraitPage,

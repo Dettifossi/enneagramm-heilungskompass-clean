@@ -748,6 +748,7 @@ export function jordanPetersonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-friedrich-merz", label:"Portr\u00e4t: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portr\u00e4t: Marcel Reich-Ranicki (SO1w9)"},
         {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsportr\u00e4t: Dr. Jordan Peterson (SO1w9) \u2013 Benzodiazepin-Abh\u00e4ngigkeit"},
       ])}
     </div>

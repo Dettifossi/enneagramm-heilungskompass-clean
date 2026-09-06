@@ -1803,3 +1803,63 @@ export function lindaEvansPortraitPage() {
     </div>
   `);
 }
+
+export function marcelReichRanickiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marcel-reich-ranicki-portrait.jpg" alt="Marcel Reich-Ranicki – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Marcel Reich-Ranicki</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Literaturkritiker, 1920&ndash;2013 &ndash; „Literaturpapst", Das Literarische Quartett &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 &ndash; ein Tier, das laut wird, wenn etwas nicht stimmt, das seine Formation kennt und sie mit Nachdruck verteidigt. Marcel Reich-Ranicki, geboren 1920 im polnischen Włocławek, wurde als selbsternannter Hüter der deutschen Literatur bekannt &ndash; ein Mann, der öffentlich und mit unverstellter Vehemenz benannte, was seiner Meinung nach der literarischen Qualität nicht genügte.</p>
+          <p class="vb-intro">Als Moderator des „Literarischen Quartetts" (ZDF, 1988&ndash;2001) zerlegte er Neuerscheinungen live vor Millionenpublikum &ndash; 1995 zerriss er demonstrativ ein Exemplar von Günter Grass' „Ein weites Feld" auf dem „Spiegel"-Titelbild. Keine private Marotte, sondern die öffentliche Inszenierung eines Urteils, das seiner Ansicht nach der gesamten Lesekultur galt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Typ 1: Der Maßstab für ein ganzes Feld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seinen Vollkommenheitsanspruch nicht als private Marotte, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann sich nicht mit dem Mittelmaß abfinden, weil sie ein klares inneres Bild davon hat, wie eine Sache sein sollte &ndash; und dieses Bild beansprucht Gültigkeit für alle, nicht nur für sie selbst.</p>
+          <p class="vb-intro">Reich-Ranicki verkörperte das in Reinform: Als „Literaturpapst" beanspruchte er nicht weniger, als den Maßstab für die gesamte deutschsprachige Gegenwartsliteratur zu setzen. Seine über Jahrzehnte kuratierte „Frankfurter Anthologie" in der FAZ und sein Kanon der wichtigsten deutschen Romane waren keine bloßen Empfehlungslisten, sondern der Versuch, verbindliche Ordnung in ein aus seiner Sicht orientierungsloses literarisches Feld zu bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Ruhe hinter der Schärfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine Qualität, die ihrem Urteil zusätzliches Gewicht verleiht: eine gewisse gelassene, fast gemütliche Grundhaltung, die im scharfen Kontrast zur Härte des Inhalts steht. Reich-Ranicki musste selten schreien, um zu wirken &ndash; seine oft ruhige, bedächtige, manchmal sogar warme Erzählweise abseits der Kritik machte seine vernichtenden Urteile über Bücher nur umso wirkungsvoller.</p>
+          <p class="vb-intro">Diese Kombination aus kindlich-rundem, fast gutmütigem Gesichtsausdruck und schonungsloser inhaltlicher Härte ist typisch für die SO1w9: Der Neunerflügel mildert nicht das Urteil selbst, sondern die Art, wie es vorgetragen wird &ndash; was viele Zeitgenossen als noch entwaffnender empfanden als offene Aggression.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Überlebenden zum Literaturpapst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reich-Ranicki überlebte mit seiner Frau Teofila das Warschauer Ghetto, bevor er 1958 in die Bundesrepublik übersiedelte. Als Literaturchef der „Zeit" und später, von 1973 bis 1988, der „Frankfurter Allgemeinen Zeitung" prägte er über Jahrzehnte, welche Autoren und Werke als bedeutend galten. Seine 1999 erschienene Autobiografie „Mein Leben" wurde zum Bestseller und später verfilmt.</p>
+          <p class="vb-intro">2008 lehnte er live im Fernsehen den ihm verliehenen Deutschen Fernsehpreis ab &ndash; eine öffentliche, unangekündigte Geste des Protests gegen das aus seiner Sicht sinkende Niveau des deutschen Fernsehens. Genau diese Bereitschaft, das eigene Urteil notfalls gegen die gesamte versammelte Branche live und unwiderruflich zu vertreten, ist reinste SO1-Handschrift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich bei Reich-Ranicki in der Fähigkeit, komplexe literarische Urteile klar, verständlich und öffentlichkeitswirksam zu vermitteln &ndash; er machte Literaturkritik einem Millionenpublikum zugänglich, das vorher kaum Berührung mit anspruchsvoller Gegenwartsliteratur hatte. Sein Kanon prägte Generationen von Lesern und Deutschlehrern.</p>
+          <p class="vb-intro">Der Schatten der SO1 liegt in der Rigidität des eigenen Maßstabs: Kritiker warfen ihm vor, mit seiner Deutungsmacht auch Karrieren beschädigt und literarische Vielfalt zugunsten des eigenen Geschmacksurteils verengt zu haben. Das Schicksalsmuster der Eins, der <strong>Zorn</strong>, zeigte sich bei ihm nicht als impulsiver Ausbruch, sondern als kalkulierte, öffentlich zelebrierte Verurteilung &ndash; die Gans, die genau weiß, wann und wie laut sie schnattern muss, um gehört zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
