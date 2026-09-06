@@ -44130,9 +44130,9 @@ function blickqualitaetenAtlasPage() {
             </div>` : ""}
             ${people.length ? `
             <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin:.6rem 0 .4rem;">Porträts dieses Subtyps</div>
-            <div class="bqa-wing-bar" style="display:flex;gap:.35rem;margin-bottom:.6rem;flex-wrap:wrap;">
-              <button type="button" class="bqa-wing-btn active" data-color="${tcol}" onclick="_bqaToggleWing(this,'')" style="padding:.25rem .7rem;border-radius:14px;border:1px solid var(--line,var(--border));background:${tcol};color:#fff;font-size:.72rem;cursor:pointer;">Beide</button>
-              ${wings.map(w => `<button type="button" class="bqa-wing-btn" data-color="${tcol}" onclick="_bqaToggleWing(this,'${w}')" style="padding:.25rem .7rem;border-radius:14px;border:1px solid var(--line,var(--border));background:var(--paper);color:var(--ink);font-size:.72rem;cursor:pointer;">${digit}w${w}</button>`).join("")}
+            <div class="bqa-wing-bar" style="display:flex;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap;">
+              <button type="button" class="bqa-wing-btn active" data-color="${tcol}" onclick="_bqaToggleWing(this,'')" style="padding:.5rem 1rem;min-height:2.2rem;border-radius:16px;border:1px solid var(--line,var(--border));background:${tcol};color:#fff;font-size:.8rem;font-weight:600;cursor:pointer;">Beide</button>
+              ${wings.map(w => `<button type="button" class="bqa-wing-btn" data-color="${tcol}" onclick="_bqaToggleWing(this,'${w}')" style="padding:.5rem 1rem;min-height:2.2rem;border-radius:16px;border:1px solid var(--line,var(--border));background:var(--paper);color:var(--ink);font-size:.8rem;font-weight:600;cursor:pointer;">${digit}w${w}</button>`).join("")}
             </div>
             <div class="bqa-people-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:.4rem;">
               ${peopleTiles}
