@@ -2405,6 +2405,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Carl Rogers – Sexual Type 9",
     teaser:"SX9w1 · 1902–1987. Psychologist, founder of client-centered therapy. The sloth who created the judgment-free space in which people could find themselves again – unconditional positive regard as a therapeutic principle.",
     land:"USA", tags:["Psychology","Science"], gender:"m"},
+{ route:"beruehmte-eckhart-tolle", name:"Eckhart Tolle", added:"2026-09-06", subtyp:"SX9w1",
+    heading:"Eckhart Tolle – Sexual Type 9",
+    teaser:"SX9w1 · born 1948. Spiritual teacher, author of 'The Power of Now.' A sudden, complete awakening experience at age 29 after years of severe depression – regularly ranked as the most influential spiritual teacher alive. Animal correspondence: Sloth.",
+    land:"Germany/Canada", tags:["Spiritualität"], gender:"m"},
 { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
     heading:"Dakota Johnson – Sexual Type 9",
     teaser:"SX9w8 · born 1989. Actress. Fifty Shades, Suspiria, The Prodigal Daughter. Granddaughter of Tippi Hedren, daughter of Melanie Griffith. The sloth that bites – when challenged.",
@@ -20830,8 +20834,70 @@ function carlRogersPortraitPage() {
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
           {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
+          {route:"beruehmte-eckhart-tolle", label:"Portrait: Eckhart Tolle (SX9w1)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+function eckhartTollePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eckhart-tolle-portrait.jpg" alt="Eckhart Tolle – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eckhart Tolle</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher &amp; author, born 1948 &ndash; "The Power of Now" &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of Sexual Type 9 &ndash; an animal that doesn't fight, doesn't hunt, doesn't push, but simply hangs there, fully present, letting things come to it. Eckhart Tolle, born in 1948 in Lünen, Germany, embodies this image almost literally: his entire demeanor &ndash; the slow speech, the long pauses, the absence of urgency &ndash; is the lived enactment of what he teaches.</p>
+          <p class="vb-intro">To this day he regularly ranks on relevant lists as the most influential spiritual teacher alive &ndash; his book "The Power of Now" (1997) has sold millions of copies worldwide. What's remarkable is how quietly this enormous influence came about: no charisma in the classic sense, no stage presence, just pure, still presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Sexual Nine: Merging with Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Sexual Nine (SX9)</strong> <em>Merging</em>: peace through complete immersion in something larger than the self, without inserting one's own position. Tolle suffered from severe depression and suicidal crises into his late twenties. On the decisive night, shortly before his 29th birthday, he thought the sentence: "I cannot live with myself any longer." And in the same moment came the question that changed everything: if I cannot live with myself, there must be two of me &ndash; the "I" and the "self" that this I cannot live with. Perhaps, he realized in that instant, only one of them is real.</p>
+          <p class="vb-intro">This question abruptly dissolved his habitual sense of self. He later described being pulled into a vortex of fear until an inner voice said, "Resist nothing" &ndash; and how he then fell into a deep, dreamless sleep. When he woke the next morning, the world was completely new to him: everything seemed fresh, as if he were seeing it for the first time, accompanied by a state of deep inner peace that never fully left him again.</p>
+          <p class="vb-intro">He spent the following roughly two years largely without a fixed address, often sitting on park benches, in a state he himself described as "uninterrupted deep peace and bliss," with no concrete plans for the future. Not a gradual insight, but a single, overwhelming merging with the present moment &ndash; exactly the pattern that distinguishes the SX9 from the other Nine subtypes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Precision in Reduction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Sexual Nine a quality that goes beyond pure merging: an almost ascetic discipline in expression. Tolle's language is strikingly reduced, every word seems examined, without rhetorical flourish or emotional exaggeration &ndash; a precision more reminiscent of a philosopher than a charismatic preacher.</p>
+          <p class="vb-intro">This combination of a merging experience and disciplined precision of formulation also shows in his central teaching method: he consistently avoids any complicated belief system or ritual embellishment, returning in every sentence to the same, precisely formulated core statement &ndash; directing attention to the present moment rather than the carousel of thought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Park Bench to World Bestseller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After years of withdrawal, Tolle began teaching small groups of people in Vancouver who were drawn to his presence &ndash; not through advertising, but through word of mouth. His first book, "The Power of Now," initially received little attention until Oprah Winfrey recommended it to her millions of viewers years later. His second book, "A New Earth" (2005), addresses humanity as a whole explicitly and describes a possible collective shift in consciousness.</p>
+          <p class="vb-intro">This shift from a personal awakening experience to the question of collective change shows a mature form of the SX9: the originally very personal, almost accidental merging experience becomes a concern that reaches far beyond his own biography, without losing its quiet, unassuming baseline demeanor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in Tolle in the ability to develop, out of an existential crisis, a teaching that has helped millions of people find more inner peace &ndash; without dogmatic claims, without institutional structure, without being co-opted by any particular religion.</p>
+          <p class="vb-intro">The shadow lies in the danger that pure presence is mistaken for passivity: critics occasionally accuse his teaching of relativizing concrete social or personal problems by elevating everything to the level of the "now." The SX9, which dissolves completely into merging with the present moment, can thereby lose sight of the need for concrete action &ndash; a price that Tolle's approach, too, pays in certain borderline cases.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-carl-rogers", label:"Portrait: Dr. Carl Rogers (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
+      ])}
     </div>
   `);
 }
@@ -56745,7 +56811,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein", "Mother Mary", "Ed Sheeran"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Ed Gein", "Mother Mary", "Ed Sheeran", "Eckhart Tolle"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
@@ -56765,7 +56831,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "A biographical turning point often precedes the actual devotion",
         beschreibung: "In some of the cases (not all), the beginning is not a planned path, but a crisis, a rupture, or a coincidence – out of which the later, often lifelong, merging experience first develops.",
-        beleg: "Craig Foster's burnout before encountering the octopus; Ana Salceda's accidental, unplanned foster motherhood for an orphaned young animal. Counter-examples like Świątek, Marceau, or Barth (a planned switch from telecommunications technician to stage persona) show: this pattern is common, but not a necessary criterion."
+        beleg: "Craig Foster's burnout before encountering the octopus; Ana Salceda's accidental, unplanned foster motherhood for an orphaned young animal. Counter-examples like Świątek, Marceau, or Barth (a planned switch from telecommunications technician to stage persona) show: this pattern is common, but not a necessary criterion.; Eckhart Tolle, whose entire later teaching arose from a single night of deepest despair at age 29 – a sudden, complete dissolution of his sense of self after the thought 'I cannot live with myself any longer,' followed by roughly two years without a fixed address, in a state of deep inner peace."
       },
       {
         titel: "When merging turns into the delusional appropriation of another being (shadow form)",
@@ -116836,6 +116902,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-cynthia-lummis": cynthiaLummisPortraitPage,
       "beruehmte-laurence-frank": laurenceFrankPortraitPage,
       "beruehmte-carl-rogers": carlRogersPortraitPage,
+      "beruehmte-eckhart-tolle": eckhartTollePortraitPage,
       "beruehmte-dakota-johnson": dakotaJohnsonPortraitPage,
       "beruehmte-johnny-cash": johnnyCashPortraitPage,
       "beruehmte-rosa-parks": rosaParksPortraitPage,

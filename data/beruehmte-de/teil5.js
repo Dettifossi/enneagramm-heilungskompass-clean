@@ -252,6 +252,7 @@ export function carlRogersPortraitPage() {
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-dakota-johnson", label:"Portr\xe4t: Dakota Johnson (SX9w8)"},
           {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
+          {route:"beruehmte-eckhart-tolle", label:"Porträt: Eckhart Tolle (SX9w1)"},
         ])}
       </div>
     </div>
@@ -1824,6 +1825,67 @@ export function kevinJamesPortraitPage() {
         {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
         {route:"beruehmte-gina-rinehart", label:"Porträt: Gina Rinehart (SE9w8)"},
         {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
+
+export function eckhartTollePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eckhart-tolle-portrait.jpg" alt="Eckhart Tolle – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eckhart Tolle</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer &amp; Autor, geb. 1948 &ndash; ›Jetzt! Die Kraft der Gegenwart‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 &ndash; ein Tier, das nicht kämpft, nicht jagt, nicht drängt, sondern einfach da hängt, vollkommen präsent, und die Dinge zu sich kommen lässt. Eckhart Tolle, 1948 in Lünen geboren, verkörpert dieses Bild fast wörtlich: Sein gesamtes Auftreten &ndash; das langsame Sprechen, die langen Pausen, die fehlende Dringlichkeit &ndash; ist die gelebte Umsetzung dessen, was er lehrt.</p>
+          <p class="vb-intro">Bis heute gilt er auf einschlägigen Ranglisten regelmäßig als der einflussreichste spirituelle Lehrer der Gegenwart &ndash; sein Buch „Jetzt! Die Kraft der Gegenwart" (1997) verkaufte sich weltweit millionenfach. Bemerkenswert ist, wie leise dieser enorme Einfluss zustande kam: kein Charisma im klassischen Sinn, keine Bühnenpräsenz, sondern reine, stille Gegenwärtigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Verschmelzung</em>: Frieden durch vollständiges Eintauchen in etwas Größeres als das eigene Ich, ohne die eigene Position dazwischenzuschieben. Tolle litt bis in seine späten Zwanziger unter schwerer Depression und suizidalen Krisen. In der entscheidenden Nacht, kurz vor seinem 29. Geburtstag, dachte er den Satz: „Ich kann nicht mehr mit mir selbst leben." Und im selben Moment folgte die Frage, die alles veränderte: Wenn ich nicht mehr mit mir selbst leben kann, muss es zwei von mir geben &ndash; das „Ich" und das „Selbst", mit dem dieses Ich nicht mehr leben kann. Vielleicht, so erkannte er in diesem Augenblick, ist nur eines von beiden wirklich real.</p>
+          <p class="vb-intro">Diese Frage löste sein gewohntes Ich-Gefühl schlagartig auf. Er beschrieb später, wie er in einen Sog aus Angst gezogen wurde, bis eine innere Stimme sagte: „Widerstehe dem nicht" &ndash; und wie er danach in einen tiefen, traumlosen Schlaf fiel. Als er am nächsten Morgen erwachte, war die Welt für ihn vollkommen neu: Alles wirkte frisch, als sähe er es zum ersten Mal, begleitet von einem Zustand tiefen inneren Friedens, der ihn nie mehr ganz verließ.</p>
+          <p class="vb-intro">Die folgenden rund zwei Jahre verbrachte er größtenteils ohne festen Wohnsitz, oft auf Parkbänken sitzend, in einem Zustand, den er selbst als „ununterbrochenen tiefen Frieden und Glück" beschrieb, ohne konkrete Zukunftspläne. Keine schrittweise Erkenntnis, sondern eine einzige, überwältigende Verschmelzung mit dem gegenwärtigen Moment &ndash; genau das Muster, das die SX9 von den anderen Neuner-Subtypen unterscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Präzision in der Reduktion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sexuellen Neun eine Qualität, die über reines Verschmelzen hinausgeht: eine fast asketische Disziplin im Ausdruck. Tolles Sprache ist auffallend reduziert, jedes Wort scheint geprüft, ohne rhetorische Effekthascherei oder emotionale Übertreibung &ndash; eine Genauigkeit, die eher an einen Philosophen als an einen charismatischen Prediger erinnert.</p>
+          <p class="vb-intro">Diese Kombination aus Verschmelzungserfahrung und disziplinierter Formulierungsgenauigkeit zeigt sich auch in seiner zentralen Lehrmethode: Er vermeidet konsequent jedes komplizierte Glaubenssystem oder jede rituelle Ausschmückung und kehrt in jedem Satz zur selben, präzise formulierten Kernaussage zurück &ndash; die Aufmerksamkeit auf den gegenwärtigen Moment statt auf das Gedankenkarussell zu lenken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Parkbank-Dasein zum Weltbestseller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach Jahren des Rückzugs begann Tolle, kleine Gruppen von Menschen in Vancouver zu unterrichten, die von seiner Präsenz angezogen wurden &ndash; nicht durch Werbung, sondern durch Mundpropaganda. Sein erstes Buch „Jetzt! Die Kraft der Gegenwart" wurde zunächst kaum beachtet, bis Oprah Winfrey es Jahre später ihrem Millionenpublikum empfahl. Sein zweites Buch, „Eine neue Erde" (2005), richtet sich explizit an die Menschheit als Ganzes und beschreibt einen möglichen kollektiven Bewusstseinswandel.</p>
+          <p class="vb-intro">Diese Verschiebung vom persönlichen Erwachungserlebnis zur Frage nach einem kollektiven Wandel zeigt eine reife Form der SX9: Die ursprünglich sehr persönliche, fast zufällige Verschmelzungserfahrung wird zu einem Anliegen, das weit über die eigene Biografie hinausweist, ohne dabei ihre stille, unaufdringliche Grundhaltung zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Tolle in der Fähigkeit, aus einer existenziellen Krise heraus eine Lehre zu entwickeln, die Millionen Menschen zu mehr innerer Ruhe verholfen hat &ndash; ohne dogmatischen Anspruch, ohne institutionelle Struktur, ohne die Vereinnahmung durch eine bestimmte Religion.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass reine Gegenwärtigkeit mit Passivität verwechselt wird: Kritiker werfen seiner Lehre gelegentlich vor, konkrete gesellschaftliche oder persönliche Probleme zu relativieren, indem alles auf die Ebene des „Jetzt" gehoben wird. Die SX9, die sich vollständig in die Verschmelzung mit dem gegenwärtigen Moment auflöst, kann dabei den Blick für notwendiges, konkretes Handeln verlieren &ndash; ein Preis, den auch Tolles Ansatz in bestimmten Grenzfällen zahlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-carl-rogers", label:"Porträt: Dr. Carl Rogers (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
+        {route:"bibel-mutter-maria", label:"Bibel-Porträt: Mutter Maria (SX9w1)"},
       ])}
     </div>
   `);
