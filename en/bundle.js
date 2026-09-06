@@ -1921,6 +1921,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Moritz Bleibtreu – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1971 in Munich. Actor and director, ‘Run Lola Run’, ‘The Experiment’, ‘The Baader Meinhof Complex’. The gorilla who moves between comedy and the heaviest confrontation without losing credibility. Animal correspondence: Gorilla.",
     land:"Germany", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-oliver-hardy", name:"Oliver Hardy", added:"2026-09-06", subtyp:"SE7w8",
+    heading:"Oliver Hardy – Self-Preservation Type 7",
+    teaser:"SP7w8 · 1892–1957. American actor and comedian, the 'fat one' of Laurel & Hardy. Bloated stage persona, an easygoing man who loved good living in private – golf, cards, good food. Animal correspondence: Gorilla.",
+    land:"USA", tags:["Schauspiel","Komik"] , gender:"m"},
 { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
@@ -40829,7 +40833,68 @@ function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1) – co-star in ‘Run Lola Run’"},
         {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – portrayed by Bleibtreu"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SP7w8)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function oliverHardyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-hardy-portrait.jpg" alt="Oliver Hardy – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Hardy</p>
+        <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Actor &amp; comedian, 1892&ndash;1957 &ndash; half of Laurel &amp; Hardy &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Gorilla</strong> is the animal of Self-Preservation Type 7 &ndash; powerful, calm, surprisingly geared toward enjoyment rather than aggression. Oliver Hardy, known as "Ollie" or simply as "the fat one" internationally, was on screen the pompous, dignified blowhard who greeted every new catastrophe caused by his partner Stan Laurel with a theatrical sigh and his famous tie-twiddle: "Here's another nice mess you've gotten me into."</p>
+          <p class="vb-intro">In private life Hardy was almost the opposite of this bloated stage persona: an easygoing, modest man who preferred playing golf and cards to putting himself in the spotlight. This exact contrast between stage pose and true nature is the key to his subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Seven: Enjoyment as Security</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Seven (SP7)</strong> seeks its joy not in grand spectacle or constant new departures, but in the pleasant, reliable comforts of everyday life. Naranjo called this subtype <em>Family</em>: a comfortable nest of one's own, where enjoyment and security come together.</p>
+          <p class="vb-intro">Hardy lived this pattern almost literally: golf was far more than a hobby for him &ndash; he played nearly every day, kept close ties with a fixed circle of golfing partners, and even invested in his own golf course. Card games, good food, sociable evenings among familiar company &ndash; his everyday life was built around pleasant repetition rather than constant new experience, unlike many other Sevens in this Compass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: The Force Behind the Lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Self-Preservation Seven a robust, room-filling physical presence that doesn't back down easily. Hardy's comedic art lived exactly off this: despite his build, he was a remarkably agile, precisely timed slapstick performer, playing physical falls and mishaps with a force and matter-of-factness that much slimmer colleagues could never have sustained.</p>
+          <p class="vb-intro">His handling of his own reputation shows the same side: rather than letting himself be diminished by his iconic image as the bumbling fat man, he stood by it with self-assurance, negotiated his salary confidently with studios, and never let setbacks &ndash; failed marriages or health crises &ndash; get him down in public. The gorilla stays calm until it's needed &ndash; then it carries the weight of the scene with playful ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony as Capacity for Enjoyment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>Gluttony</strong> &ndash; in the Self-Preservation Seven, this hunger aims not at constantly new experiences but at fully savoring the familiar. Hardy's legendary fondness for good food was so pronounced that his weight fluctuated throughout his life and became a recurring running gag in his own films &ndash; a trait he never tried to hide.</p>
+          <p class="vb-intro">His career choices followed the same pattern: he stayed loyal to the film business, and above all to his partnership with Laurel, for decades, rather than constantly seeking new projects or partners &ndash; abundance through repetition of the proven, not through constant departure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: Carrying Lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Oliver Hardy gave slapstick cinema was the art of playing dignity and catastrophe at the same time &ndash; a man who took himself seriously even as the world around him constantly fell into chaos, and who became funny exactly through that. Together with Stan Laurel (SP6w5) he formed one of the longest-lasting and most influential comedy duos in film history, spanning over 30 years.</p>
+          <p class="vb-intro">This is the gift of the SP7w8: a capacity for enjoyment that never turns cynical, paired with a physical and emotional sturdiness that carries even setbacks. The gorilla who never leaves its troop &ndash; and who meets every new catastrophe with a sigh, but without real bitterness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
       ])}
     </div>
   `);
@@ -56437,7 +56502,7 @@ const LEBENSMUSTERKOMPASS = {
   SE7: {
     tier: "Gorilla",
     kernthema: "Building a protected, family-like system instead of going it alone",
-    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un", "Takashi Murakami", "Suzan-Lori Parks"],
+    beispiele: ["Hans Zimmer", "Dian Fossey", "Francis Bacon", "Larry King", "Andreas Baader", "Mariah Carey", "Moritz Bleibtreu", "Niels Högel", "Jasmine Paolini", "Jeanne Calment", "Junko Tabei", "Wallace Shawn", "Lazarus", "Christopher Columbus", "Kim Jong Un", "Takashi Murakami", "Suzan-Lori Parks", "Oliver Hardy"],
     fingerabdruecke: [
       {
         titel: "A self-created territory instead of a foreign career ladder",
@@ -56452,7 +56517,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Enjoyment and abundance as a lived principle instead of asceticism",
         beschreibung: "Even under pressure, in old age, or despite professional hardship, a pronounced joy in sensual pleasure – food, drink, physical well-being, savoring every single moment – remains a consistent biographical element, not as weakness but as an affirmation of life.",
-        beleg: "Mariah Carey: 'loves food – not as a weakness, but as an expression of life, joy, abundance'; Jeanne Calment, who smoked until 117, ate almost a kilogram of chocolate a week, and still fenced at 85; Wallace Shawn, who describes food as 'sensual pleasure, a social act, proof that life can be good'; Jasmine Paolini's hunger to 'reach every ball,' even after two lost Grand Slam finals within a few weeks – 'not destructive, but inexhaustible.'"
+        beleg: "Mariah Carey: 'loves food – not as a weakness, but as an expression of life, joy, abundance'; Jeanne Calment, who smoked until 117, ate almost a kilogram of chocolate a week, and still fenced at 85; Wallace Shawn, who describes food as 'sensual pleasure, a social act, proof that life can be good'; Jasmine Paolini's hunger to 'reach every ball,' even after two lost Grand Slam finals within a few weeks – 'not destructive, but inexhaustible.'; Oliver Hardy, whose near-daily golf, card games, and notorious fondness for good food made his weight fluctuate throughout his life – an enjoyment he never hid, but turned into a recurring running gag in his own films."
       },
       {
         titel: "Uncompromising toughness when the territory is threatened – even in a corrupted form (especially with the 8-wing)",
@@ -116188,6 +116253,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jasmin-paolini": jasminPaoliniPortraitPage,
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
+      "beruehmte-oliver-hardy": oliverHardyPortraitPage,
       "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
       "krankheitsportraets-christoph-kolumbus": christophKolumbusKrankheitsportraetPage,
       "beruehmte-takashi-murakami": takashiMurakamiPortraitPage,

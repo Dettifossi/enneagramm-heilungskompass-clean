@@ -1186,6 +1186,7 @@ export function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1) – Partnerin in ›Lola rennt‹"},
         {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8) – von Bleibtreu verkörpert"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-oliver-hardy", label:"Porträt: Oliver Hardy (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
       ])}
     </div>
@@ -1837,6 +1838,66 @@ export function stringerDavisPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function oliverHardyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-hardy-portrait.jpg" alt="Oliver Hardy – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Hardy</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler &amp; Komiker, 1892&ndash;1957 &ndash; die Hälfte von »Dick und Doof« (Laurel &amp; Hardy) &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier des selbsterhaltenden Typs 7 &ndash; mächtig, ruhig, überraschend genussfreudig statt aggressiv. Oliver Hardy, als „Ollie" oder international schlicht als „der Dicke" bekannt, war auf der Leinwand der aufgeblasene, würdevolle Blowhard, der mit theatralischem Seufzer und der berühmten Krawatten-Nestelgeste jede neue Katastrophe seines Partners Stan Laurel quittierte: „Here's another nice mess you've gotten me into."</p>
+          <p class="vb-intro">Privat war Hardy fast das Gegenteil dieser aufgeblasenen Bühnenfigur: ein umgänglicher, bescheidener Mann, der lieber Golf spielte und Karten klopfte, als sich in Szene zu setzen. Genau dieser Kontrast zwischen Bühnenpose und echtem Wesen ist der Schlüssel zu seinem Subtyp.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Genuss als Sicherheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sucht ihre Freude nicht im großen Spektakel oder im ständigen Aufbruch, sondern in den angenehmen, verlässlichen Freuden des eigenen Alltags. Naranjo nannte diesen Subtyp <em>Familie</em>: ein eigenes, komfortables Nest, in dem Genuss und Geborgenheit zusammenkommen.</p>
+          <p class="vb-intro">Hardy lebte dieses Muster fast wörtlich: Golf war für ihn weit mehr als ein Hobby &ndash; er spielte fast täglich, hielt engen Kontakt zu einem festen Kreis von Golfpartnern und investierte sogar in einen eigenen Golfplatz. Kartenspiele, gutes Essen, gesellige Abende im vertrauten Kreis &ndash; sein Alltag war auf angenehme Wiederholung statt auf ständige neue Erfahrungen ausgerichtet, anders als bei vielen anderen Siebenern dieses Kompasses.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die Wucht hinter der Leichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Sieben eine robuste, raumfüllende physische Präsenz, die sich nicht so leicht unterkriegen lässt. Hardys komödiantische Kunst lebte genau davon: Trotz seiner Statur war er ein bemerkenswert beweglicher, präzise timender Slapstick-Darsteller, der körperliche Stürze und Missgeschicke mit einer Wucht und Selbstverständlichkeit spielte, die viel schlankere Kollegen nicht hätten durchhalten können.</p>
+          <p class="vb-intro">Auch sein Umgang mit dem eigenen Ruf zeigt diese Seite: Statt sich von seiner Kultfigur des tollpatschigen Dicken kleinreden zu lassen, stand er souverän zu ihr, verhandelte selbstbewusst mit Studios um seine Gage und ließ sich von Rückschlägen &ndash; etwa gescheiterten Ehen oder gesundheitlichen Krisen &ndash; nie öffentlich unterkriegen. Der Gorilla bleibt gelassen, bis er gebraucht wird &ndash; dann trägt er das Gewicht der Szene mit spielerischer Leichtigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Genussfähigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> &ndash; bei der selbsterhaltenden Sieben richtet sich dieser Hunger nicht auf ständig neue Erfahrungen, sondern auf die volle Auskostung des Vertrauten. Hardys legendäre Vorliebe für gutes Essen war so ausgeprägt, dass sein Körpergewicht zeitlebens schwankte und zum wiederkehrenden Running Gag seiner eigenen Filme wurde &ndash; eine Eigenschaft, die er nie zu verstecken versuchte.</p>
+          <p class="vb-intro">Auch seine Karriereentscheidungen folgten diesem Muster: Er blieb dem Filmgeschäft und vor allem der Partnerschaft mit Laurel über Jahrzehnte treu, statt ständig neue Projekte oder Partner zu suchen &ndash; Fülle durch Wiederholung des Bewährten, nicht durch ständigen Aufbruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Die tragende Leichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Oliver Hardy dem Slapstick-Kino gab, war die Kunst, Würde und Katastrophe gleichzeitig zu spielen &ndash; ein Mann, der sich selbst ernst nahm, obwohl die Welt um ihn herum ständig in Chaos zerfiel, und der genau darin komisch wurde. Zusammen mit Stan Laurel (SE6w5) bildete er eines der langlebigsten und einflussreichsten Komikerduos der Filmgeschichte, über 30 Jahre hinweg.</p>
+          <p class="vb-intro">Das ist das Geschenk der SE7w8: Genussfähigkeit, die niemals zynisch wird, gepaart mit einer physischen und emotionalen Robustheit, die auch Rückschläge trägt. Der Gorilla, der sein Rudel nie verlässt &ndash; und der jede neue Katastrophe mit einem Seufzer, aber ohne echte Verbitterung hinnimmt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
+        {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
       ])}
     </div>
   `);
