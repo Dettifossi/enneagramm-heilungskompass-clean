@@ -56120,7 +56120,7 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -56130,7 +56130,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Security in the familiar rather than on the big stage",
         beschreibung: "The true home is not publicity or the spotlight, but the close, familiar circle – friends, family, a known place – from which extraordinary achievement can also arise.",
-        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'; Zacchaeus, the tax collector, whose tree was 'high enough to keep an overview, close enough to see' – security through controlled distance, until a single call drew him from safe distance into real closeness; Alberto Marini, who has lived in Barcelona since 1999 and collaborated with the same director, Jaume Balagueró, for decades, rather than changing partnerships after his first success."
+        beleg: "Franz Schubert, who 'avoided the publicity of the concert hall his whole life and found his true home in the private circle of close friends' – the Schubertiads; Woody Allen, who has 'spent practically his entire life in Manhattan' and prefers 'familiar routes, at familiar times'; Neil Armstrong, who after the moon landing 'wanted nothing more than normalcy' and returned to his farm in Ohio; Beatrice Chebet: 'The rabbit doesn't run away. It runs home.'; Zacchaeus, the tax collector, whose tree was 'high enough to keep an overview, close enough to see' – security through controlled distance, until a single call drew him from safe distance into real closeness; Alberto Marini, who has lived in Barcelona since 1999 and collaborated with the same director, Jaume Balagueró, for decades, rather than changing partnerships after his first success.; Stan Laurel, who never replaced his more than 30-year creative partnership with Oliver Hardy and never made another film after Hardy's death, though he lived eight more years – security through the one proven bond, not through a fresh start."
       },
       {
         titel: "Calm functioning under extreme pressure, because the danger was already calculated",
