@@ -1805,7 +1805,7 @@ export function margaretRutherfordPortraitPage() {
 
         <h2 class="vb-section">3. Der Achterflügel: Die Kraft hinter der Behäbigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine verborgene Durchsetzungskraft, die im Ruhezustand kaum sichtbar ist. Die <strong>SE9w8</strong> wirkt gemütlich und unaufgeregt &ndash; besitzt aber eine echte Substanz, die zum Vorschein kommt, sobald es gebraucht wird.</p>
+          <p class="vb-intro">Der <strong>Achterflügel</strong> verleiht der selbsterhaltenden Neun eine verborgene Durchsetzungskraft, die im Ruhezustand kaum sichtbar ist. Die <strong>SE9w8</strong> wirkt gemütlich und unaufgeregt &ndash; besitzt aber eine echte Substanz, die zum Vorschein kommt, sobald sie gebraucht wird.</p>
           <p class="vb-intro">Bei Rutherford zeigte sich das in ihrer schauspielerischen Sorgfalt und Prinzipientreue: Sie zögerte zunächst, die Rolle der Miss Marple anzunehmen, aus Respekt vor Agatha Christies eigener Vorstellung der Figur &ndash; und sagte erst nach persönlicher Rücksprache mit der Autorin zu. Keine Anpassung um jeden Preis, sondern eine klare, selbstbewusste Haltung gegenüber dem eigenen Handwerk. Dieselbe stille Entschlossenheit zeigte sich, als sie den jungen Gordon Langley Hall bei sich aufnahm und wie ein eigenes Kind förderte &ndash; eine Verantwortung, die sie ohne großes Aufheben, aber mit voller Konsequenz trug.</p>
         </blockquote>
 
