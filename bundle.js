@@ -30992,6 +30992,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Armin Mueller-Stahl – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1930. Schauspieler, Maler, Musiker und Schriftsteller. Wegen der Biermann-Resolution 1976 mit Berufsverbot belegt, 1980 Ausreise in den Westen. Vier künstlerische Handwerke auf höchstem Niveau, nie zur lauten Figur werdend. Tierentsprechung: Adler.",
     land:"Deutschland", tags:["Schauspiel","Kunst"], gender:"m"},
+  { route:"beruehmte-reinhold-messner", name:"Reinhold Messner", added:"2026-09-06", subtyp:"SE1w9",
+    heading:"Reinhold Messner – Selbsterhaltender Typ 1",
+    teaser:"SE1w9 · geb. 1944. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg, Autor über 80 Bücher, Gründer des Messner Mountain Museum. Akribische Vorbereitung als Überlebensstrategie in der Todeszone. Tierentsprechung: Weißkopfseeadler.",
+    land:"Italien", tags:["Sport","Abenteuer"], gender:"m"},
   { route:"beruehmte-reinhold-wuerth", name:"Reinhold Würth", added:"2026-08-30", subtyp:"SE1w9",
     heading:"Reinhold Würth – Selbsterhaltender Typ 1",
     teaser:"SE1w9 · geb. 1935. Unternehmer, übernahm 1954 mit 19 Jahren den kleinen Schraubenhandel seines verstorbenen Vaters und baute daraus die Würth-Gruppe, einen der größten Handelskonzerne Europas. Mäzen einer der größten privaten Kunstsammlungen Europas. Tierentsprechung: Weißkopfseeadler.",
@@ -32307,10 +32311,6 @@ BERUEHMT_PORTRAITS.sort(function(a, b) {
 
 const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner \u2013 Selbsterhaltender Typ 1",  teaser:"SE1w9 \u00b7 geb. 1944. Bergsteiger, Abenteurer, Autor. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg. Sonne Jungfrau im 9. Haus, Mond Jungfrau, AC Krebs, MC Widder \u2013 Perfektionismus als \u00dcberlebensstrategie." },
-  { route:"beruehmte-reinhold-messner", name:"Reinhold Messner", added:"2026-09-06", subtyp:"SE1w9",
-    heading:"Reinhold Messner \u2013 Selbsterhaltender Typ 1",
-    teaser:"SE1w9 \u00b7 geb. 1944. Erster Mensch, der alle 14 Achttausender ohne Sauerstoffmaske bestieg, Autor \u00fcber 80 B\u00fccher, Gr\u00fcnder des Messner Mountain Museum. Akribische Vorbereitung als \u00dcberlebensstrategie in der Todeszone. Tierentsprechung: Wei\u00dfkopfseeadler.",
-    land:"Italien", tags:["Sport","Abenteuer"], gender:"m"},
   { route:"astrologie-marilyn-monroe",    name:"Marilyn Monroe",    subtyp:"SX3w4",  heading:"Marilyn Monroe \u2013 Sexueller Typ 3",             teaser:"SX3w4 \u00b7 1926\u20131962. Schauspielerin, Ikone. Sonne Zwillinge, Mond Wassermann im 7. Haus, AC L\u00f6we, MC Stier \u2013 Glamour und Tragik als zwei Seiten einer Seele." },
   { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider \u2013 Soziale Typ 4",               teaser:"SO4w3 \u00b7 1938\u20131982. Schauspielerin. Sonne und Mond Waage im 4. Haus, AC Zwillinge, MC Wassermann, Venus Skorpion im 5. Haus \u2013 die zerrissene Kaiserin der Leinwand.", beruehmteRoute:"beruehmte-romy-schneider" , gender:"f"},
   { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon \u2013 Sozialer Typ 4",                 teaser:"SO4w5 \u00b7 1940\u20131980. Musiker, Friedensaktivist. Sonne Waage im 7. Haus, Mond Wassermann im 11. Haus, AC Fische, MC Sch\u00fctze \u2013 der suchende Poet einer besseren Welt.", beruehmteRoute:"beruehmte-john-lennon" , gender:"m"},
