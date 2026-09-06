@@ -1856,6 +1856,7 @@ export function marcelReichRanickiPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-thomas-mann", label:"Porträt: Thomas Mann (SO1w9) – ebenfalls literarische Autorität, derselbe Subtyp"},
         {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
         {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},

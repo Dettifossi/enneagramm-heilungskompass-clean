@@ -1806,3 +1806,63 @@ export function fayeDunawayPortraitPage() {
     </div>
   `);
 }
+
+export function thomasMannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-mann-portrait.jpg" alt="Thomas Mann – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Thomas Mann</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller, 1875&ndash;1955 &ndash; Literaturnobelpreis 1929, „Buddenbrooks", „Der Zauberberg" &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 &ndash; wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, was sich für die Gemeinschaft gehört und was nicht. Thomas Mann, geboren 1875 in Lübeck als Sohn eines Senators und Kaufmanns, trug diese Formation zeitlebens wie ein zweites Rückgrat: aufrecht, kontrolliert, öffentlich makellos &ndash; ein Mann, der sich selbst zum „repräsentativen" deutschen Schriftsteller stilisierte und genau wusste, wie diese Rolle auszufüllen war.</p>
+          <p class="vb-intro">Seine Zeitgenossen nannten ihn respektvoll-distanziert den „Zauberer" &ndash; ein Spitzname, der genau die Mischung aus Bewunderung und Unnahbarkeit einfängt, die Mann Zeit seines Lebens ausstrahlte. Hinter der makellosen Fassade des öffentlichen Repräsentanten verbarg sich, wie seine erst postum vollständig zugänglichen Tagebücher zeigten, ein weitaus unruhigeres Innenleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Typ 1: Repräsentant einer Kultur, nicht nur eines Werks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze &ndash; die Gesellschaft, die Kultur, „wie es sein sollte". Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann Mittelmaß und Verfall nicht stillschweigend hinnehmen, weil sie sich selbst zur Instanz für das Richtige macht.</p>
+          <p class="vb-intro">Mann verkörperte das in seiner gesamten Biografie: Von den nationalkonservativen „Betrachtungen eines Unpolitischen" (1918) bis zum entschiedenen Demokratie-Verteidiger im amerikanischen Exil vollzog er einen Wandel, der immer denselben Kern behielt &ndash; die Überzeugung, als Schriftsteller eine moralische Verantwortung für den Zustand der deutschen Kultur zu tragen. Seine Radioansprachen „Deutsche Hörer!" (BBC, 1940&ndash;1945) waren keine private Meinungsäußerung, sondern der Versuch, von außen eine korrigierende Stimme für ein ganzes Land zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Kontrolle statt Ausbruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine zusätzliche Kühle und Zurückhaltung &ndash; das Urteil wird nicht laut herausgeschrien, sondern in gepflegter, distanzierter Form vorgetragen, was es oft nur noch unangreifbarer macht. Mann war kein Polemiker vom Schlage seines Bruders Heinrich, mit dem er sich während des Ersten Weltkriegs monatelang öffentlich befehdete &ndash; er wirkte durch die schiere Autorität seiner kontrollierten, druckreif wirkenden Selbstdarstellung.</p>
+          <p class="vb-intro">Diese Kontrolle war kein Zufall, sondern Programm: Mann arbeitete jahrzehntelang nach einem nahezu unverrückbaren Tagesritual &ndash; feste Stunden am Schreibtisch, feste Spaziergänge, feste Ruhezeiten. Der Neunerflügel zeigt sich hier als Rückzug in eine selbst geschaffene, geordnete Routine, die dem Chaos des eigenen Innenlebens eine feste Form entgegensetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die verdrängte Leidenschaft hinter der Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Manns Tagebücher, die er testamentarisch erst zwanzig Jahre nach seinem Tod freigeben ließ, offenbarten eine tief empfundene homoerotische Sehnsucht, die er zeitlebens nie auslebte &ndash; intensive, nie eingestandene Verliebtheiten etwa in den jungen Klaus Heuser oder Jahrzehnte zuvor in Paul Ehrenberg. Statt diese Leidenschaft direkt zu verfolgen, wie es ein sexueller Subtyp eher täte, kanalisierte Mann sie vollständig in kontrollierte literarische Form &ndash; am deutlichsten in der Novelle „Der Tod in Venedig" (1912), in der genau diese verbotene, nie berührte Sehnsucht zur zentralen Handlung wird.</p>
+          <p class="vb-intro">Das ist die SO1-Handschrift in Reinform: Nicht die Verfolgung des privaten Verlangens steht im Zentrum, sondern die Wahrung der öffentlichen Form &ndash; die Leidenschaft wird nicht unterdrückt, weil sie nicht da wäre, sondern weil die soziale Korrektheit als höherer Wert gilt. Genau diese Spannung zwischen kontrollierter Fassade und ungelebter Intensität durchzieht sein gesamtes Werk, von „Buddenbrooks" (1901) über „Der Zauberberg" (1924) bis zu „Doktor Faustus" (1947).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich bei Mann in einer über fünfzig Jahre nie nachlassenden Formstrenge, die Weltliteratur von bleibendem Rang hervorbrachte &ndash; der Literaturnobelpreis 1929 würdigte explizit „Buddenbrooks" als Meilenstein der modernen Erzählkunst. Seine Fähigkeit, komplexe moralische und politische Fragen in makellos komponierter Prosa zu verhandeln, machte ihn zur unbestrittenen Autorität der deutschsprachigen Literatur seiner Zeit.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der Distanz, die diese permanente Selbstkontrolle gegenüber der eigenen Familie erzeugte &ndash; mehrere seiner sechs Kinder, darunter Klaus und Erika Mann, beklagten zeitlebens die emotionale Unnahbarkeit des Vaters hinter der öffentlichen Fassade. Das Schicksalsmuster der Eins, der <strong>Zorn</strong>, zeigte sich bei Mann nicht als Ausbruch, sondern als lebenslang aufrechterhaltene, nach innen gerichtete Spannung zwischen dem, was er war, und dem, was er nach außen sein musste &ndash; die Gans, die ihre Formation hält, koste es, was es wolle.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Porträt: Marcel Reich-Ranicki (SO1w9) – ebenfalls literarische Autorität, derselbe Subtyp"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
