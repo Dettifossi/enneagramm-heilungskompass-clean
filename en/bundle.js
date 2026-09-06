@@ -1777,6 +1777,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Anne McBride – Self-Preservation Type 6",
     teaser:"SE6w5 · British behavioural scientist, Senior Lecturer in Southampton, chair of the International Society for Anthrozoology. Earned her doctorate on the social and parental behaviour of the European wild rabbit, and has since translated animals' fear and safety needs into clear behavioural guidelines. Animal correspondence: Rabbit.",
     tags:["Wissenschaft"], gender:"f"},
+{ route:"beruehmte-stringer-davis", name:"Stringer Davis", added:"2026-09-06", subtyp:"SE6w5",
+    heading:"Stringer Davis – Self-Preservation Type 6",
+    teaser:"SE6w5 · 1897–1973. British actor, husband of Margaret Rutherford, decades in small supporting roles at her side. Loyalty and quiet care until her death rather than his own big stage. Animal correspondence: Rabbit.",
+    land:"United Kingdom", tags:["Schauspiel"], gender:"m"},
 { route:"beruehmte-klaus-j-behrendt", name:"Klaus J. Behrendt", added:"2026-08-25", subtyp:"SE6w5",
     heading:"Klaus J. Behrendt – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1953. Actor, since 1997 \"Detective Schenk\" in the Cologne Tatort. The rabbit with the Five-wing: watchful, thoughtful, openly discussing his own self-doubt – the steadying, weighing counterpart to his Tatort partner Ballauf.",
@@ -20164,6 +20168,7 @@ function margaretRutherfordPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-kevin-james", label:"Portrait: Kevin James (SP9w8)"},
         {route:"krankheitsportraets-margaret-rutherford", label:"Illness Portrait: Margaret Rutherford (SE9w8) – depression and dementia"},
+        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5) – her husband"},
       ])}
     </div>
   `);
@@ -24558,6 +24563,73 @@ function klausJBehrendtPortraitPage() {
         {route:"beruehmte-dietmar-baer", label:"Portrait: Dietmar Bär (SP9w8) – his Tatort partner Ballauf"},
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
+        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function stringerDavisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stringer-davis-portrait.jpg" alt="Stringer Davis – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stringer Davis</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1897&ndash;1973 &ndash; husband of Margaret Rutherford &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, cautious, never the first to expose itself. Stringer Davis embodied this image almost literally: for decades he accompanied his wife <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SP9w8) in small, often only minutes-long supporting roles in her own films &ndash; never at the center, but always present, always reliably within reach.</p>
+          <p class="vb-intro">The watchful, slightly tense gaze that stands out in photographs of him fits a man who spent his entire professional life in the second row without ever becoming invisible &ndash; the rabbit checks the situation carefully before showing itself, and withdraws again once attention grows too large.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Six: Security in the Familiar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> seeks security not in a strong group or in intense, shifting bonds, but in reliable, manageable structures of everyday life. Davis found this structure in a single, decades-long relationship: he married Rutherford in 1945, when he was 47 and she was 53, and remained unwaveringly faithful to her until her death in 1972 &ndash; no shifting roles, no shifting bonds, but a single, deeply reliable center.</p>
+          <p class="vb-intro">His acting career itself followed this same pattern: small, recurring roles at the side of the same partner, rather than an attempt at an independent, larger career with an uncertain outcome. For him, security arose from closeness to a proven, familiar center &ndash; not from the risk of his own big stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Withdrawn Observer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an additional distance from public life. Remarkably little is documented about Davis himself &ndash; no scandal, no extensive interviews, hardly any independent public appearances outside his film roles alongside Rutherford. This nearly complete reticence, despite decades of marriage to one of Britain's best-known actresses, is typical of the Five-wing: part of one's inner world stays deliberately inaccessible, even where public interest exists.</p>
+          <p class="vb-intro">This combination of caution (Six) and distance (Five-wing) explains why Davis is known today mostly as "Rutherford's husband," hardly as a figure in his own right &ndash; not because he lacked talent, but because he consistently kept himself out of the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role: The Companion in Small Parts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In several of Rutherford's best-known films, including adaptations featuring her Miss Marple character, Davis took on small supporting roles &ndash; often as a shy, reticent character standing beside her more self-assured, commanding one. The casting mirrored the private constellation exactly: Rutherford at the center of attention, Davis as a loyal, unassuming companion in the background.</p>
+          <p class="vb-intro">A married couple standing together in front of the camera for decades, without this ever turning into competition for visibility, is rare &ndash; and fits the SP6 logic exactly: trust and security arise not from stepping forward oneself, but from reliable closeness to a proven center.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Person Behind the Supporting Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes Davis's biography distinctive is the consistency with which he lived this role to the end: when Rutherford developed progressive dementia in her final years, he took over her care &ndash; without public complaint, without carrying the extent of her illness into the public eye. He died only two years after her, in 1973, having accompanied her to the end.</p>
+          <p class="vb-intro">This quiet, decades-long reliability, extending into the hardest phases, is the most mature form of the SP6w5: seeking security not for oneself, but providing it for another person, without needing recognition for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Rabbit That Stayed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stringer Davis left behind no independent body of acting work that would have written his name large into film history &ndash; his legacy is something else: the rare, nearly three-decade fidelity to a single relationship, in a profession notorious for the opposite.</p>
+          <p class="vb-intro">Enneagram-wise, he shares his wife <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford's</a> (SP9w8) same self-preservation orientation, only with the sign reversed: she found security in the comedic routine of the stage, he found it in quiet, lifelong closeness to her. The rabbit didn't need to step onto the big stage &ndash; it was enough to stay within reach.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8) – his wife"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
       ])}
     </div>
@@ -116147,6 +116219,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-ingo-zimmermann": ingoZimmermannPortraitPage,
       "beruehmte-hugh-warwick": hughWarwickPortraitPage,
       "beruehmte-anne-mcbride": anneMcBridePortraitPage,
+      "beruehmte-stringer-davis": stringerDavisPortraitPage,
       "beruehmte-john-wayne": johnWaynePortraitPage,
       "beruehmte-marta-manser": martaManserPortraitPage,
       "beruehmte-tim-clutton-brock": timCluttonBrockPortraitPage,

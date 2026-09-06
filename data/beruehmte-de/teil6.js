@@ -1775,3 +1775,69 @@ export function gregorGysiPortraitPage() {
     </div>
   `);
 }
+
+export function stringerDavisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stringer-davis-portrait.jpg" alt="Stringer Davis – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stringer Davis</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1897&ndash;1973 &ndash; Ehemann von Margaret Rutherford &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; wachsam, vorsichtig, nie das erste, das sich exponiert. Stringer Davis verkörperte dieses Bild fast wörtlich: Über Jahrzehnte begleitete er seine Ehefrau <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SE9w8) in kleinen, oft nur wenige Minuten langen Nebenrollen in ihren eigenen Filmen &ndash; nie im Zentrum, aber immer präsent, immer verlässlich in Reichweite.</p>
+          <p class="vb-intro">Der wache, leicht angespannte Blick, der auf Fotos von ihm auffällt, passt zu einem Mann, der sein ganzes Berufsleben in der zweiten Reihe verbrachte, ohne dabei unsichtbar zu sein &ndash; das Kaninchen prüft die Lage genau, bevor es sich zeigt, und zieht sich zurück, sobald die Aufmerksamkeit zu groß wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im Vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in einer starken Gruppe oder in intensiven, wechselnden Bindungen, sondern in verlässlichen, überschaubaren Strukturen des eigenen Alltags. Davis fand diese Struktur in einer einzigen, jahrzehntelangen Beziehung: Er heiratete Rutherford 1945, als er 47 und sie 53 Jahre alt war, und blieb ihr bis zu ihrem Tod 1972 unverbrüchlich treu &ndash; keine wechselnden Rollen, keine wechselnden Bindungen, sondern ein einziges, tief verlässliches Zentrum.</p>
+          <p class="vb-intro">Auch seine Schauspielkarriere selbst folgte diesem Muster: kleine, wiederkehrende Rollen an der Seite derselben Partnerin, statt der Versuch einer eigenständigen, größeren Karriere mit ungewissem Ausgang. Sicherheit entstand für ihn durch Nähe zu einem bewährten, vertrauten Zentrum &ndash; nicht durch das Risiko der eigenen großen Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der zurückgezogene Beobachter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine zusätzliche Distanz zur Öffentlichkeit. Über Davis selbst ist erstaunlich wenig dokumentiert &ndash; kein Skandal, keine ausführlichen Interviews, kaum eigenständige öffentliche Auftritte außerhalb seiner Filmrollen neben Rutherford. Diese fast vollständige Zurückhaltung, obwohl er jahrzehntelang mit einer der bekanntesten Schauspielerinnen Großbritanniens verheiratet war, ist typisch für den Fünferflügel: ein Teil der eigenen Innenwelt bleibt bewusst unzugänglich, selbst dort, wo öffentliches Interesse bestünde.</p>
+          <p class="vb-intro">Diese Kombination aus Vorsicht (Sechs) und Distanz (Fünferflügel) erklärt, warum Davis heute vor allem als „Rutherfords Ehemann" bekannt ist, kaum als eigenständige Figur &ndash; nicht, weil er talentlos gewesen wäre, sondern weil er sich selbst konsequent aus dem Rampenlicht heraushielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Der Begleiter in kleinen Parts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In mehreren von Rutherfords bekanntesten Filmen, darunter Verfilmungen mit ihrer Miss-Marple-Figur, übernahm Davis kleine Nebenrollen &ndash; oft als schüchterner, zurückhaltender Charakter, der ihrer selbstbewussteren, raumgreifenderen Figur zur Seite stand. Die Rollenverteilung im Film spiegelte damit exakt die private Konstellation: Rutherford im Zentrum der Aufmerksamkeit, Davis als loyaler, unaufdringlicher Begleiter im Hintergrund.</p>
+          <p class="vb-intro">Dass ein Ehepaar über Jahrzehnte hinweg gemeinsam vor der Kamera stand, ohne dass daraus je eine Konkurrenz um Sichtbarkeit entstand, ist selten &ndash; und passt genau zur SE6-Logik: Vertrauen und Sicherheit entstehen nicht durch das eigene Hervortreten, sondern durch die verlässliche Nähe zu einem bewährten Zentrum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter der Nebenrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Davis' Biografie besonders macht, ist die Konsequenz, mit der er diese Rolle bis zuletzt lebte: Als Rutherford in ihren letzten Lebensjahren an einer fortschreitenden Demenz erkrankte, übernahm er ihre Pflege &ndash; ohne öffentliche Klage, ohne das Ausmaß ihrer Krankheit an die Öffentlichkeit zu tragen. Er starb nur zwei Jahre nach ihr, 1973, nachdem er sie bis zum Ende begleitet hatte.</p>
+          <p class="vb-intro">Diese stille, jahrzehntelange Verlässlichkeit bis in die schwersten Phasen hinein ist die reifste Form der SE6w5: Sicherheit nicht für sich selbst zu suchen, sondern sie für einen anderen Menschen bereitzustellen, ohne dafür Anerkennung zu brauchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stringer Davis hinterließ kein eigenständiges schauspielerisches Werk, das seinen Namen groß in die Filmgeschichte eingeschrieben hätte &ndash; sein Vermächtnis ist ein anderes: die seltene, fast drei Jahrzehnte währende Treue zu einer einzigen Beziehung, in einem Berufsfeld, das notorisch für das Gegenteil bekannt ist.</p>
+          <p class="vb-intro">Enneagrammatisch verbindet ihn mit seiner Frau <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SE9w8) dieselbe Selbsterhaltungs-Ausrichtung, nur mit umgekehrtem Vorzeichen: Sie fand Sicherheit in der komödiantischen Routine der Bühne, er fand sie in der stillen, lebenslangen Nähe zu ihr. Das Kaninchen musste die große Bühne nicht betreten &ndash; es genügte ihm, in Reichweite zu bleiben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8) – seine Ehefrau"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5)"},
+        {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

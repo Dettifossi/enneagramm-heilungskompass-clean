@@ -985,6 +985,7 @@ export function klausJBehrendtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+        {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5)"},
       ])}
     </div>
   `);
@@ -1833,6 +1834,7 @@ export function margaretRutherfordPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
         {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
         {route:"krankheitsportraets-margaret-rutherford", label:"Krankheitsporträt: Margaret Rutherford (SE9w8) – Depression und Demenz"},
+        {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5) – ihr Ehemann"},
       ])}
     </div>
   `);
