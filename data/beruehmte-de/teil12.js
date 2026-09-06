@@ -1778,3 +1778,63 @@ export function heleneFischerPortraitPage() {
     </div>
   `);
 }
+
+export function dieterLangePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dieter-lange-portrait.jpg" alt="Dieter Lange – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Lange</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Top-Trainer, Coach &amp; Autor, geb. 1951 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins &ndash; ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks. Er kreist lange, bevor er sich festlegt, und wenn er handelt, dann aus einer inneren Klarheit heraus, die er sich über Jahre erarbeitet hat.</p>
+          <p class="vb-intro">Dieter Lange, geboren 1951, verkörpert diesen Adlerblick in einem ungewöhnlichen Berufsweg: Nach einem Studium der Psychologie und Betriebswirtschaftslehre, unter anderem in Harvard, verbrachte er mehrere Jahre damit, bei Naturvölkern, in Wüstenregionen und in ostasiatischen Klöstern zu leben &ndash; eine Selbstprüfung, die weit über das hinausgeht, was die meisten Trainer seines Fachs je unternommen haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Der eigene Anspruch als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht primär auf die Korrektur der Welt, sondern nach innen: auf die eigene Vorbereitung, das eigene Verständnis, die eigene Integrität. Naranjo nannte diesen Subtyp <em>Worry</em> &ndash; die ständige, produktive Sorge, dem eigenen Anspruch an Wahrhaftigkeit wirklich zu genügen.</p>
+          <p class="vb-intro">Bei Lange zeigt sich das in der Konsequenz, mit der er sein eigenes Verständnis von Veränderung erst an sich selbst erprobte, bevor er es anderen vermittelte: Sein zentraler Satz &ndash; „Wir scheitern nicht an der Realität, sondern an unseren subjektiven Wahrnehmungen, starren Vorurteilen und überzogenen Erwartungen" &ndash; ist keine bloße Trainerformel, sondern das Ergebnis jahrelanger eigener Auseinandersetzung mit genau diesen Fragen, quer durch verschiedenste Kulturen und Weisheitstraditionen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die integrierende Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins die Fähigkeit, verschiedene Perspektiven ruhig zusammenzuführen, statt sie gegeneinander auszuspielen. Genau diese Gabe beschreiben Weggefährten bei Lange immer wieder: seine Stärke liege darin, östliche Weisheit mit westlicher Wissenschaft zu verbinden, statt eine gegen die andere auszuspielen &ndash; ein integrierendes, in sich ruhendes Denken statt eines konfrontativen.</p>
+          <p class="vb-intro">Sein daraus entwickeltes Bewusstseinstrainings-Konzept, die TETA-Seminarreihe (Selbstführung, Lebensziele, Kommunikation und Führungskultur) sowie die „Nordstern Lebensschule", zeigt dieselbe neunertypische Fähigkeit zur Synthese: Persönlichkeitsentwicklung wird nicht als Bruch mit dem Bisherigen inszeniert, sondern als geordnete, in sich stimmige Weiterentwicklung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Drei Jahrzehnte Veränderungsarbeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seit über 30 Jahren begleitet Lange Führungskräfte internationaler Konzerne &ndash; darunter Bayer, Bertelsmann, Gruner + Jahr, Siemens, Novartis, Unilever und Lindt & Sprüngli &ndash; in Europa, Asien und den USA. Medien wie „Stern", „Spiegel" und „Focus" zählten ihn zu den wichtigsten Erfolgsstrategen Deutschlands, sein Buch „Sieger erkennt man bereits am Start" bündelt seinen zentralen Ansatz: Haltung und Perspektive entscheiden über Erfolg oder Scheitern, lange bevor die eigentliche Herausforderung beginnt.</p>
+          <p class="vb-intro">Bezeichnend für die SE1w9 ist dabei, dass Lange trotz seiner charismatischen, bildreichen Rhetorik als jemand beschrieben wird, der Konflikte nicht scheut, wo echte Veränderung sie erfordert &ndash; die innere Ruhe des Neunerflügels macht ihn nicht konfliktscheu, sondern gibt ihm die Gelassenheit, unbequeme Wahrheiten auszusprechen, ohne selbst aus der Fassung zu geraten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich bei Lange in einer seltenen Kombination: die Bereitschaft, den eigenen Anspruch an Wahrhaftigkeit zunächst an sich selbst zu erproben &ndash; jahrelang, unter Verzicht auf Komfort, in fremden Kulturen und Klöstern &ndash; bevor er daraus etwas für andere ableitete. Das unterscheidet ihn von Trainern, die Methoden vor allem vermarkten, ohne sie selbst durchlebt zu haben.</p>
+          <p class="vb-intro">Die Synthesefähigkeit des Neunerflügels sorgt dafür, dass aus dieser strengen Selbstprüfung kein enges Dogma wurde, sondern ein offenes, integrierendes System, das östliche Gelassenheit und westliche Analyseschärfe gleichermaßen ernst nimmt. Der Adler, der weit gereist ist, um am Ende mit klarerem Blick zurückzukehren &ndash; und diesen Blick seit drei Jahrzehnten an andere weitergibt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

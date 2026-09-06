@@ -457,6 +457,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Robert De Niro – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1943 in New York City. Actor and producer, two Oscars ('The Godfather Part II', 'Raging Bull'), longtime collaborator of Martin Scorsese. Truth as craft, stillness as second nature. Animal correspondence: Eagle.",
     land:"USA", tags:["Schauspiel"] , gender:"m"},
+{ route:"beruehmte-dieter-lange", name:"Dieter Lange", added:"2026-09-06", subtyp:"SE1w9",
+    heading:"Dieter Lange – Self-Preservation Type 1",
+    teaser:"SP1w9 · born 1951. Top trainer, coach and author ('Winners Are Recognizable from the Start'), over 30 years of executive coaching for Bayer, Siemens, Unilever, and others. Combines Eastern wisdom with Western science after years among indigenous peoples and in monasteries. Animal correspondence: Eagle.",
+    land:"Germany", tags:["Coaching"], gender:"m"},
 { route:"beruehmte-herman-van-veen", name:"Herman van Veen", added:"2026-09-06", subtyp:"SE1w9",
     heading:"Herman van Veen – Self-Preservation Type 1",
     teaser:"SP1w9 · born 1945 in Utrecht. Singer-songwriter, cabaret artist and violinist, over 140 albums, longtime UNICEF ambassador for children's rights. Craftsmanlike precision behind a gentle, conciliatory stage persona. Animal correspondence: Eagle.",
@@ -34834,6 +34838,67 @@ function robertDeNiroPortraitPage() {
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+function dieterLangePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dieter-lange-portrait.jpg" alt="Dieter Lange – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dieter Lange</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Top trainer, coach &amp; author, born 1951 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> is the animal of the self-preservation One &ndash; an animal that impresses not through volume but through the precision of its gaze. It circles for a long time before committing, and when it acts, it does so out of an inner clarity earned over years.</p>
+          <p class="vb-intro">Dieter Lange, born in 1951, embodies this eagle's gaze through an unusual career path: after studying psychology and business administration, including at Harvard, he spent several years living among indigenous peoples, in desert regions, and in East Asian monasteries &ndash; a self-examination that goes far beyond what most trainers in his field have ever undertaken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation One: One's Own Standard as Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its striving for perfection not primarily at correcting the world, but inward: at its own preparation, its own understanding, its own integrity. Naranjo called this subtype <em>Worry</em> &ndash; the constant, productive concern about truly living up to one's own standard of truthfulness.</p>
+          <p class="vb-intro">In Lange this shows in the consistency with which he tested his own understanding of change on himself first, before teaching it to others: his central sentence &ndash; "We fail not at reality, but at our subjective perceptions, rigid prejudices, and inflated expectations" &ndash; is not a mere trainer's slogan, but the result of years of his own engagement with exactly these questions, across the most varied cultures and wisdom traditions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Integrating Calm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the self-preservation One the ability to calmly bring different perspectives together instead of playing them off against each other. Colleagues repeatedly describe exactly this gift in Lange: his strength lies in combining Eastern wisdom with Western science rather than pitting one against the other &ndash; an integrating, settled kind of thinking rather than a confrontational one.</p>
+          <p class="vb-intro">The consciousness-training concept he developed from this, the TETA seminar series (self-leadership, life goals, communication and leadership culture) as well as the "North Star Life School," shows the same Nine-typical capacity for synthesis: personal development is not staged as a break with what came before, but as an ordered, internally coherent continuation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Three Decades of Change Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For over 30 years, Lange has accompanied executives at international corporations &ndash; including Bayer, Bertelsmann, Gruner + Jahr, Siemens, Novartis, Unilever, and Lindt & Sprüngli &ndash; across Europe, Asia, and the USA. Media outlets such as "Stern," "Spiegel," and "Focus" counted him among Germany's most important success strategists; his book "Winners Are Recognizable from the Start" bundles his central approach: attitude and perspective decide success or failure long before the actual challenge begins.</p>
+          <p class="vb-intro">Characteristic of the SP1w9 is that, despite his charismatic, image-rich rhetoric, Lange is described as someone who does not shy away from conflict where genuine change requires it &ndash; the Nine-wing's inner calm does not make him conflict-averse, but gives him the composure to speak uncomfortable truths without losing his own footing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Light of the Self-Preservation One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 shows in Lange in a rare combination: the willingness to first test his own standard of truthfulness on himself &ndash; for years, forgoing comfort, in foreign cultures and monasteries &ndash; before deriving anything from it for others. This distinguishes him from trainers who mainly market methods without having lived through them themselves.</p>
+          <p class="vb-intro">The Nine-wing's capacity for synthesis ensured that this rigorous self-examination did not become a narrow dogma, but an open, integrating system that takes Eastern equanimity and Western analytical sharpness equally seriously. The eagle who traveled far in order to return with a clearer gaze &ndash; and who has been passing that gaze on to others for three decades.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
       ])}
     </div>
   `);
@@ -56518,7 +56583,7 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Eagle",
     kernthema: "Perfectionism directed not at the world, but at one's own preparation and integrity",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristotle", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Mikhail Popkov", "Dennis Rader", "Andrei Chikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Joseph of Arimathea", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth", "Dieter Lange"],
     fingerabdruecke: [
       {
         titel: "Worry directed inward, instead of correcting the world",
@@ -56533,7 +56598,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Decades of persistence despite setbacks, before the breakthrough comes",
         beschreibung: "Success often doesn't come early or suddenly, but only after many years of quiet, often unnoticed practice and repeated failure – carried by a discipline that isn't discouraged by setbacks.",
-        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life; Armin Mueller-Stahl, who after the professional ban following the Biermann Resolution and his emigration in 1980 started over in the West and, across decades, worked in parallel as an actor, painter, musician, and writer, applying the same uncompromising standard to himself in every craft.; Herman van Veen, whose body of work spans more than sixty years and over 140 albums, built on no single breakthrough but on steady, unremarkable consistency – the same care in program number 140 as in the first.; Reinhold Würth, who at 19 took over his late father's small screw-trading business in 1954 and built it over decades of persistence into one of the largest trading groups in Europe."
+        beleg: "Udo Jürgens 'took part in talent competitions for over ten years' before his breakthrough came, winning the Eurovision Song Contest only after several failed attempts; Ken Follett kept up the same literary consistency 'for over sixty years,' even in old age; Konrad Adenauer began his 'true historical role' only at age 73; Christoph Waltz's fifty-year wait for the right role; Queen Elizabeth II, who renewed her quiet yes to the throne every single day for seventy years; Dr. Peter Sharpe, who for nearly thirty years has led the reintroduction of the bald eagle – the very bird species this compass uses as the SE1's animal correspondence; Gianna Nannini, whose career has continued with unbroken discipline for over fifty years since her first, commercially unremarkable album in 1976, from her international breakthrough with 'America' in 1979 to her current live performances – not a single success, but steady, decades-long continuation; Fritz Wepper, who over nearly 45 years filled only two load-bearing roles in German television – 24 years as Harry Klein in 'Derrick,' nearly 20 more years as Mayor Wöller in 'Um Himmels Willen' – not constant reinvention, but steady reliability across an entire professional life; Armin Mueller-Stahl, who after the professional ban following the Biermann Resolution and his emigration in 1980 started over in the West and, across decades, worked in parallel as an actor, painter, musician, and writer, applying the same uncompromising standard to himself in every craft.; Herman van Veen, whose body of work spans more than sixty years and over 140 albums, built on no single breakthrough but on steady, unremarkable consistency – the same care in program number 140 as in the first.; Reinhold Würth, who at 19 took over his late father's small screw-trading business in 1954 and built it over decades of persistence into one of the largest trading groups in Europe.; Dieter Lange, who coached executives at international corporations for over 30 years, after first testing his own understanding of change on himself for years among indigenous peoples, in desert regions, and in East Asian monasteries, rather than merely marketing it."
       },
       {
         titel: "An impeccable civic facade concealing – in its shadow form – the darkest act",
@@ -116272,6 +116337,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
+      "beruehmte-dieter-lange": dieterLangePortraitPage,
       "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,

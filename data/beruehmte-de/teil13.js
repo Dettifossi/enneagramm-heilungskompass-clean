@@ -1295,6 +1295,7 @@ export function robertDeNiroPortraitPage() {
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9)"},
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – Prostatakrebs"},
         {route:"beruehmte-armin-mueller-stahl", label:"Porträt: Armin Mueller-Stahl (SE1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9)"},
       ])}
     </div>
   `);
