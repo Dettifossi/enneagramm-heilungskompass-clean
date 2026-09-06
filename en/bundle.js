@@ -8217,6 +8217,18 @@ function _bqaPortraitsForCode(code) {
   }
   return out;
 }
+window._bqaToggleWing = function(btn, wing) {
+  const bar = btn.closest(".bqa-wing-bar");
+  bar.querySelectorAll(".bqa-wing-btn").forEach(function(b){ b.classList.remove("active"); b.style.background = "var(--paper)"; b.style.color = "var(--ink)"; });
+  btn.classList.add("active");
+  btn.style.background = btn.getAttribute("data-color") || "var(--copper)";
+  btn.style.color = "#fff";
+  const grid = bar.nextElementSibling;
+  if (!grid || !grid.classList.contains("bqa-people-grid")) return;
+  grid.querySelectorAll("[data-bqa-wing]").forEach(function(tile){
+    tile.style.display = (!wing || tile.getAttribute("data-bqa-wing") === wing) ? "" : "none";
+  });
+};
 const _TQ_EMOJI = {
   SP1:"🦅",SO1:"🪷",SX1:"🐍",
   SP2:"🦛",SO2:"🐕",SX2:"🐪",
@@ -19131,20 +19143,6 @@ function blickqualitaetenAtlasPage() {
         <style>
           @media (min-width:560px){ .ba-tiles-grid{grid-template-columns:1fr 1fr 1fr !important;} }
         </style>
-        <script>
-          window._bqaToggleWing = function(btn, wing) {
-            const bar = btn.closest(".bqa-wing-bar");
-            bar.querySelectorAll(".bqa-wing-btn").forEach(function(b){ b.classList.remove("active"); b.style.background = "var(--paper)"; b.style.color = "var(--ink)"; });
-            btn.classList.add("active");
-            btn.style.background = btn.getAttribute("data-color") || "var(--copper)";
-            btn.style.color = "#fff";
-            const grid = bar.nextElementSibling;
-            if (!grid || !grid.classList.contains("bqa-people-grid")) return;
-            grid.querySelectorAll("[data-bqa-wing]").forEach(function(tile){
-              tile.style.display = (!wing || tile.getAttribute("data-bqa-wing") === wing) ? "" : "none";
-            });
-          };
-        </script>
 
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
