@@ -35585,6 +35585,96 @@ function ichIllusionPage() {
   `);
 }
 
+function turiyaEnneagrammPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der Beobachter hinter dem Muster – Enneagramm und der Turiya-Zustand nach Ramana Maharshi</h1>
+      <p class="lead-small">Ein vertiefender Praxistipp darüber, wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte ins Außen zu flüchten – und wie man diesen Weg wieder zurückfindet.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg"
+             alt="Symbolische Darstellung des Enneagramm-Kreises mit einer meditierenden Figur im Zentrum, umgeben von reinem Bewusstsein"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Der indische Weise Ramana Maharshi lehrte, dass es jenseits von Wachen, Träumen und Tiefschlaf einen vierten Zustand gibt: Turiya, das reine, formlose Hintergrundbewusstsein, das allen drei anderen Zuständen zugrunde liegt und sie überdauert. Es ist kein weiterer Zustand neben den anderen, sondern der stille Raum, in dem alle Zustände überhaupt erst auftauchen und wieder vergehen – vergleichbar mit der Leinwand, auf die ein Film projiziert wird, ohne selbst je von den Bildern berührt zu werden.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Verbindet man diesen non-dualen Ansatz mit dem Enneagramm, ergibt sich eine ungewöhnlich klare Landkarte: Die neun Typen lassen sich als neun unterschiedliche, tief eingeübte Strategien lesen, mit denen der Geist von dieser stillen Mitte weg und in ein ständiges Tun, Bewerten, Sichern oder Vermeiden getrieben wird – neun verschiedene Weisen, dasselbe ursprüngliche Gefühl der Trennung zu kompensieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die Fixierung als Fluchtbewegung aus der Stille</h2>
+        <p class="vb-intro">Jede der neun Fixierungen trägt einen ganz eigenen, unbewussten Glaubenssatz in sich: Wenn ich nur perfekt bin, wenn ich mich unentbehrlich mache, wenn ich Erfolg vorweise, wenn ich meine Einzigartigkeit beweise, wenn ich genug weiß, wenn ich abgesichert bin, wenn ich genug erlebt habe, wenn ich die Kontrolle behalte, wenn ich bloß keinen Ärger mache – dann bin ich sicher, dann darf ich sein. Aus Sicht der Selbstergründung ist genau dieser Glaubenssatz die eigentliche Fessel: Er verspricht Erlösung im Außen für etwas, das nur im Innen, als bereits vorhandene Stille, gefunden werden kann. Je überzeugter man diesem inneren Antrieb folgt, desto weiter entfernt man sich von der Turiya-Erfahrung – und desto mehr Leid entsteht, sobald die Wirklichkeit dem eigenen Wunschbild widerspricht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Neun Typen, neun Umwege – ein kurzer Überblick</h2>
+        <p class="vb-intro">Bei der Eins verwechselt der Geist die Vollkommenheit des Seins mit einer fehlerfrei korrigierten Außenwelt. Bei der Zwei sucht er die im Sein bereits vorhandene Verbundenheit über das Unentbehrlich-Werden für andere. Bei der Drei wird die reine, wertfreie Präsenz mit Leistung und Applaus verwechselt. Die Vier sucht die verlorene Einheit im dramatisch vertieften Gefühl der eigenen Einzigartigkeit. Die Fünf hofft, sich über angesammeltes Wissen und sicheren Abstand jene Sicherheit zu erarbeiten, die im Sein längst gegeben ist. Die Sechs sucht ein äußeres Fundament, das nur die stille Zeugenschaft selbst bieten kann. Die Sieben verwechselt die grenzenlose innere Fülle mit einer nie endenden Kette äußerer Erlebnisse. Die Acht übersetzt die unerschütterliche Kraft des Seins in Kontrolle über das eigene Territorium. Und die Neun, die dem inneren Frieden von allen neun Typen am nächsten steht, verwechselt genau diese Nähe am ehesten mit Trägheit und dem Vermeiden jeder Reibung, statt wach in ihr zu ruhen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Der Zeuge erwacht: Atma Vichara als Werkzeug</h2>
+        <p class="vb-intro">Ramana Maharshis zentrale Methode, die Selbstergründung (Atma Vichara), setzt genau an diesem Punkt an. Statt der eigenen Fixierung weiter zu folgen, wird die Frage nach innen gerichtet: Wer ist es eigentlich, der hier gerade Sicherheit, Anerkennung oder Kontrolle braucht? Diese Frage lässt sich nicht abschließend beantworten – und genau das ist ihre Wirkung. Sie unterbricht für einen Moment die automatische Weiterleitung des Impulses ins Handeln und öffnet einen winzigen Raum, in dem sich der Beobachter (der Zeuge, Sakshi) vom Beobachteten (dem typischen Reflex) löst.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Wichtig dabei: Das Ziel ist nicht, den eigenen Typ abzuschaffen oder zu bekämpfen. Ein Enneagramm-Muster verschwindet nicht durch Willenskraft, und der Versuch, es zu unterdrücken, ist selbst wieder nur eine weitere Form des ausagierenden Handelns. Es reicht, den Mechanismus in dem Moment zu bemerken, in dem er anspringt – bemerken statt bekämpfen, das ist der ganze Unterschied.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Der Weg zurück in die Mitte</h2>
+        <p class="vb-intro"><strong>Den Auslöser bemerken:</strong> Springt der typenspezifische Reflex an – die Eins beginnt zu korrigieren, die Zwei beginnt sich aufzuopfern, die Acht beginnt zu dominieren –, genügt zunächst ein einziger bewusster Atemzug als Pause zwischen Reiz und Reaktion.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Die Frage stellen, nicht beantworten:</strong> „Wer ist es, der das gerade braucht?" ist keine Aufforderung zum Grübeln, sondern eine Einladung, die Aufmerksamkeit für einen Moment vom Inhalt des Gedankens weg und auf den Raum zu lenken, in dem der Gedanke überhaupt erst auftaucht.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Die Ent-Täuschung zulassen:</strong> Erkennt man, wie lange man sich von der Stimme der eigenen Fixierung hat leiten lassen, fällt in aller Regel keine Enttäuschung, sondern eine spürbare Erleichterung – im wörtlichen Sinn das Ende einer Täuschung.</p>
+        <p class="vb-intro" style="margin-top:.8rem;">Aus dieser kleinen, wiederkehrenden Übung heraus verändert sich mit der Zeit die Qualität des eigenen Handelns: Es bleibt möglich, ebenso engagiert, klar und wirksam zu handeln wie zuvor – nur eben nicht mehr aus dem inneren Zwang heraus, sich damit erst die eigene Daseinsberechtigung erkaufen zu müssen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Eine Beobachtung aus über dreißig Jahren therapeutischer Praxis</h2>
+        <p class="vb-intro">In der homöopathischen Praxis begegnen mir seit Jahrzehnten Menschen, deren Enneagramm-Fixierung so tief und so unbewusst gelebt wird, dass sich daraus über die Zeit chronische Beschwerdebilder entwickeln – nicht weil Bewusstheit vor Krankheit schützen würde (das tut sie nachweislich nicht, auch sehr gereifte Menschen erkranken schwer), sondern weil der ständige innere Zwang, den eigenen Wert erst beweisen zu müssen, den Organismus auf Dauer auszehrt.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Was sich dagegen fast gesetzmäßig zeigt: Sobald ein Mensch beginnt, sich für die eigene innere Psychologie zu interessieren, statt sich ausschließlich im Außen zu verlieren, verbessert sich in aller Regel auch die Heilungsprognose. Genau deshalb behandle ich in der homöopathischen Konstitutionstherapie nie nur die Leidenschaftsebene für sich, sondern immer auch die dahinterliegende Wunde – und ermutige jeden, der dazu bereit ist, den in diesem Praxistipp beschriebenen stillen Beobachter probeweise einzuladen. Nicht als Ersatz für die homöopathische Behandlung, sondern als ihre stille, kostenlose Begleiterin im Alltag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer (14)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+            <div style="margin-top:.8rem;">${bookTip("du-bist-nicht-dein-zweifel", "Kernüberzeugungen erkennen und loslassen – ein Wegweiser zu innerer Freiheit für alle 9 Typen.", "Du bist nicht dein Zweifel")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Der Raum, der bleibt, wenn Identifikation nachlässt – ein meditatives Werk über Bewusstsein und Freiheit.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "Die Grundlage der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl zusammenhängen, auch für Laien gut verständlich.", "Enneagramm-Homöopathie – Band 1")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Vertiefung und Erweiterung: Die 27 Subtypen und ihre individuellen homöopathischen Heilmittel.", "Enneagramm-Homöopathie – Band 2")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Wer lenkt hier eigentlich wen? – Der sanfte Ausweg aus der Ich-Illusion"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
+      ])}
+    </section>
+  `);
+}
+
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
@@ -35599,6 +35689,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"bewusstes-innehalten", titel:"Die Praxis des bewussten Innehaltens: \u203aLet it be\u2039 im Alltag", teaser:"Kein K\u00f6rperritual, sondern reine Wahrnehmung \u2013 kurze, bewusste Stopps mitten im Alltag als Weg zur\u00fcck zur eigenen Essenz.", img:"./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
     { slug:"zungenstreck-uebung", titel:"Die Zungenstreck-\u00dcbung zur Stressregulation: Von Einstein, Vagusnerv und tierischen Instinkten", teaser:"Das ber\u00fchmte Einstein-Foto als Vorbild \u2013 wie das bewusste Strecken der Zunge \u00fcber den Vagusnerv akute Anspannung l\u00f6st.", img:"./assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
     { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg" },
+    { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35637,6 +35728,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "ich-illusion") {
     return ichIllusionPage();
+  }
+  if (param === "turiya-enneagramm") {
+    return turiyaEnneagrammPage();
   }
 
   return shell(`

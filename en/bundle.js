@@ -6642,6 +6642,96 @@ function ichIllusionPage() {
   `);
 }
 
+function turiyaEnneagrammPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practice Tips</button>
+      <p class="eyebrow">Tools · Practice Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi</h1>
+      <p class="lead-small">An in-depth practice tip on how the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center into the outer world – and how to find the way back.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg"
+             alt="Symbolic depiction of the Enneagram circle with a meditating figure at its center, surrounded by pure awareness"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The Indian sage Ramana Maharshi taught that beyond waking, dreaming, and dreamless sleep there is a fourth state: Turiya, the pure, formless background awareness that underlies all three other states and outlasts them. It is not another state alongside the others, but the silent space in which all states arise and pass away in the first place – comparable to the screen onto which a film is projected without ever being touched by the images itself.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Combining this non-dual approach with the Enneagram yields an unusually clear map: the nine types can be read as nine different, deeply ingrained strategies by which the mind is driven away from this still center and into constant doing, judging, securing, or avoiding – nine different ways of compensating for the same original sense of separation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. The Fixation as a Flight Movement Away from Stillness</h2>
+        <p class="vb-intro">Each of the nine fixations carries its own unconscious core belief: if only I'm perfect, if only I make myself indispensable, if only I demonstrate success, if only I prove my uniqueness, if only I know enough, if only I'm secured, if only I've experienced enough, if only I stay in control, if only I avoid causing trouble – then I'm safe, then I'm allowed to be. From the standpoint of self-inquiry, this exact belief is the real chain: it promises salvation in the outer world for something that can only be found within, as a stillness that is already present. The more faithfully one follows this inner drive, the further one moves from the experience of Turiya – and the more suffering arises whenever reality contradicts the wished-for image.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Nine Types, Nine Detours – A Brief Overview</h2>
+        <p class="vb-intro">In the One, the mind confuses the perfection of being with a flawlessly corrected outer world. In the Two, it seeks the connectedness already present in being through becoming indispensable to others. In the Three, pure, worth-free presence gets confused with achievement and applause. The Four seeks the lost unity in a dramatically deepened sense of its own uniqueness. The Five hopes to earn, through accumulated knowledge and safe distance, the very security that being already grants. The Six seeks an outer foundation that only silent witnessing itself can offer. The Seven confuses boundless inner fullness with an endless chain of outer experiences. The Eight translates the unshakeable power of being into control over its own territory. And the Nine, who of all nine types stands closest to inner peace, is the one most likely to mistake that very closeness for inertia and conflict-avoidance rather than resting awake within it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. The Witness Awakens: Atma Vichara as a Tool</h2>
+        <p class="vb-intro">Ramana Maharshi's central method, self-inquiry (Atma Vichara), addresses exactly this point. Instead of continuing to follow one's own fixation, the question is turned inward: who is it that actually needs security, recognition, or control right now? This question cannot be conclusively answered – and that is precisely its effect. It interrupts, for a moment, the automatic forwarding of the impulse into action and opens a tiny space in which the observer (the witness, Sakshi) separates from the observed (the typical reflex).</p>
+        <p class="vb-intro" style="margin-top:1rem;">Importantly, the goal is not to abolish or fight one's own type. An Enneagram pattern does not disappear through willpower, and trying to suppress it is itself just another form of acting out. It is enough to notice the mechanism in the moment it kicks in – noticing instead of fighting, that is the whole difference.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. The Way Back to the Center</h2>
+        <p class="vb-intro"><strong>Noticing the trigger:</strong> When the type-specific reflex kicks in – the One begins correcting, the Two begins sacrificing itself, the Eight begins dominating – a single conscious breath as a pause between stimulus and reaction is enough to start.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Asking the question, not answering it:</strong> "Who is it that needs this right now?" is not an invitation to ruminate, but an invitation to shift attention, for a moment, away from the content of the thought and toward the space in which the thought arises in the first place.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Allowing the dis-illusionment:</strong> Recognizing how long one has let oneself be guided by the voice of one's own fixation as a rule brings not disappointment but a noticeable relief – literally, the end of an illusion.</p>
+        <p class="vb-intro" style="margin-top:.8rem;">Out of this small, recurring practice, the quality of one's own actions gradually changes: it remains possible to act just as engaged, clear, and effective as before – only no longer out of the inner compulsion to first earn one's own right to exist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. An Observation from Over Thirty Years of Therapeutic Practice</h2>
+        <p class="vb-intro">In my homeopathic practice, I have encountered for decades people whose Enneagram fixation is lived so deeply and so unconsciously that chronic conditions develop from it over time – not because awareness protects against illness (it demonstrably does not; even very mature people fall seriously ill), but because the constant inner compulsion to first prove one's own worth wears the organism down over time.</p>
+        <p class="vb-intro" style="margin-top:1rem;">What does show up almost as a rule, however: as soon as a person begins to take an interest in their own inner psychology instead of losing themselves entirely in the outer world, the prognosis for healing tends to improve. That is exactly why, in homeopathic constitutional therapy, I never treat the passion level on its own, but always the underlying wound as well – and why I encourage anyone who is ready to try inviting the quiet observer described in this practice tip. Not as a replacement for homeopathic treatment, but as its silent, cost-free companion in everyday life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">In-Depth Reading by Detlef Rathmer (14)</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete healing paths for all 9 types.", "Hinter der Leidenschaft")}
+            <div style="margin-top:.8rem;">${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and releasing core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "The space that remains when identification loosens – a meditative work on consciousness and freedom.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we actually are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
+            <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
+            <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the way back to yourself.", "Wenn die Stille brennt – Burnout")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-intelligence as an audiobook – ideal for on the go or meditative listening.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 types, 9 primal wounds, 9 soul scents – essential oils as an access point to the depth level of character.", "Die Enneagramm-Aromatherapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, linked to the biochemical mineral salts according to Dr. Schüßler – easy to follow even for laypeople.", "Enneagramm-Biochemie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types linked to the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram homeopathy – how personality type and remedy selection are connected, easy to follow even for laypeople.", "Enneagramm-Homöopathie – Band 1")}</div>
+            <div style="margin-top:.8rem;">${bookTip("enneagramm-homoeopathie-band-2", "Deepening and expansion: The 27 Subtypes and their individual homeopathic remedies.", "Enneagramm-Homöopathie – Band 2")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and more of Detlef Rathmer's spiritual writing can also be found on the Verlagshaus Rathmer website under "Personal Development".</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practice Tips"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self"},
+        {route:"stille", label:"9 Minutes of Sitting in Silence"},
+      ])}
+    </section>
+  `);
+}
+
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
     { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
@@ -6656,6 +6746,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
     { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg" },
+    { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -6691,6 +6782,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "ich-illusion") {
     return ichIllusionPage();
+  }
+  if (param === "turiya-enneagramm") {
+    return turiyaEnneagrammPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();

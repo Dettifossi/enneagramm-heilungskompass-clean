@@ -55,6 +55,7 @@ export const registerEntries = [
   { term: "Die Praxis des bewussten Innehaltens", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ im Alltag: reine Wahrnehmung als Übung zurück zur eigenen Essenz" },
   { term: "Die Zungenstreck-Übung zur Stressregulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Von Einstein, Vagusnerv und tierischen Instinkten: Zungenstrecken zur akuten Stressregulation" },
   { term: "Wer lenkt hier eigentlich wen?", route: "praxistipps-heilpraktiker/ich-illusion", description: "Der sanfte Ausweg aus der Ich-Illusion: Konditionierung, Enneagramm-Fixierung und innerer Frieden" },
+  { term: "Der Beobachter hinter dem Muster", route: "praxistipps-heilpraktiker/turiya-enneagramm", description: "Enneagramm und der Turiya-Zustand nach Ramana Maharshi: die neun Typen als neun Wege aus der Stille" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagrammtyp" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
@@ -2642,6 +2643,7 @@ export const registerEntriesEN = [
   { term: "The Practice of Conscious Pausing", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ in everyday life: pure awareness as a path back to one's own essence" },
   { term: "The Tongue-Stretch Exercise for Stress Regulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Einstein, the vagus nerve, and animal instincts: tongue stretching for acute stress regulation" },
   { term: "Who's Really Steering Here?", route: "praxistipps-heilpraktiker/ich-illusion", description: "The gentle way out of the illusion of self: conditioning, Enneagram fixation, and inner peace" },
+  { term: "The Observer Behind the Pattern", route: "praxistipps-heilpraktiker/turiya-enneagramm", description: "The Enneagram and the Turiya state according to Ramana Maharshi: the nine types as nine ways out of stillness" },
   { term: "Silence", route: "stille", description: "Meditation & silence: an exercise for every Enneagram type" },
   { term: "Tritypes", route: "tritypen", description: "Chart: the 27 tritypes – combination of one type per triad" }
 ];
