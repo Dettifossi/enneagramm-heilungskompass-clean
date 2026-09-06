@@ -37149,9 +37149,15 @@ window._bqaToggleWing = function(btn, wing) {
   btn.style.color = "#fff";
   const grid = bar.nextElementSibling;
   if (!grid || !grid.classList.contains("bqa-people-grid")) return;
+  let shown = 0;
   grid.querySelectorAll("[data-bqa-wing]").forEach(function(tile){
-    tile.style.display = (!wing || tile.getAttribute("data-bqa-wing") === wing) ? "" : "none";
+    const match = !wing || tile.getAttribute("data-bqa-wing") === wing;
+    tile.style.display = match ? "" : "none";
+    if (match) shown++;
   });
+  const countEl = bar.previousElementSibling && bar.previousElementSibling.querySelector(".bqa-wing-count");
+  if (countEl) countEl.textContent = shown + " gezeigt";
+  bar.scrollIntoView({ block: "nearest" });
 };
 
 const _TQ_EMOJI = {
@@ -44129,7 +44135,10 @@ function blickqualitaetenAtlasPage() {
               ${extras.map(a => `<span style="background:var(--paper);border:1px solid var(--line,var(--border));border-radius:10px;padding:.1rem .5rem;font-size:.7rem;color:var(--ink);">${a}</span>`).join("")}
             </div>` : ""}
             ${people.length ? `
-            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin:.6rem 0 .4rem;">Porträts dieses Subtyps</div>
+            <div style="display:flex;align-items:baseline;justify-content:space-between;gap:.5rem;margin:.6rem 0 .4rem;">
+              <span style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;">Porträts dieses Subtyps</span>
+              <span class="bqa-wing-count" style="font-size:.72rem;color:var(--muted);white-space:nowrap;">${people.length} gezeigt</span>
+            </div>
             <div class="bqa-wing-bar" style="display:flex;gap:.5rem;margin-bottom:.6rem;flex-wrap:wrap;">
               <button type="button" class="bqa-wing-btn active" data-color="${tcol}" onclick="_bqaToggleWing(this,'')" style="padding:.5rem 1rem;min-height:2.2rem;border-radius:16px;border:1px solid var(--line,var(--border));background:${tcol};color:#fff;font-size:.8rem;font-weight:600;cursor:pointer;">Beide</button>
               ${wings.map(w => `<button type="button" class="bqa-wing-btn" data-color="${tcol}" onclick="_bqaToggleWing(this,'${w}')" style="padding:.5rem 1rem;min-height:2.2rem;border-radius:16px;border:1px solid var(--line,var(--border));background:var(--paper);color:var(--ink);font-size:.8rem;font-weight:600;cursor:pointer;">${digit}w${w}</button>`).join("")}
