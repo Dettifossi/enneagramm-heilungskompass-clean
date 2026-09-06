@@ -33904,6 +33904,11 @@ function leseprobePage() {
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Interaktiv lernen – nicht nur lesen</h2>
       <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Vier Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen über 600 Porträts des Kompasses.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
+        <div data-route="blickqualitaeten-atlas" style="cursor:pointer;background:linear-gradient(135deg,#f0e4d0,#dfc49a);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128065;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Blickqualitäten-Atlas</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Alle 27 Subtypen: Tier, Blick, Flügel & Porträts</div>
+        </div>
         <div data-route="enneagramm-memory" style="cursor:pointer;background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#129504;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Enneagramm-Memory</div>
@@ -37072,6 +37077,66 @@ const _TQ_TIERE = {
   SE8:"Orang-Utan",SO8:"L\xf6we",SX8:"Krokodil",
   SE9:"Elefant",SO9:"B\xfcffel",SX9:"Faultier"
 };
+
+// ───── Blickqualitäten-Atlas ─────────────────────────────────────────────
+const BQA_TIERE_ZUSATZ = {
+  SE1: ["Biene"],
+  SO1: ["Storch", "Flamingo", "Agame", "Terrier"],
+  SX1: ["Hornisse", "Honigdachs", "Eisbär", "Muräne"],
+  SE2: ["Walross", "Schwein", "Henne", "Känguru", "Pelikan", "Lama"],
+  SO2: ["Esel", "Hirsch", "Hahn"],
+  SX2: ["Wildpferd"],
+  SE3: ["Katze", "Panther", "Chamäleon", "Marderhund"],
+  SO3: ["Aal", "Spinne", "Schlange", "Falke"],
+  SX3: ["Pudel", "Elster"],
+  SE4: ["Schwarzes Pferd", "Rabe"],
+  SO4: ["Murmeltier", "Hausziege", "Giraffe", "Gazelle", "Trauerschwan", "Reh", "Lamm", "Frosch", "Zebra", "Seehund"],
+  SX4: ["Bienenkönigin", "Hyäne"],
+  SE5: ["Weinbergschnecke", "Koala", "Mistkäfer", "Elch", "Einsiedlerkrebs", "Maulwurf", "Dachs", "Eichhörnchen", "Hamster"],
+  SO5: ["Strauß"],
+  SX5: ["Muschel", "Tintenfisch", "Fuchs"],
+  SE6: ["Hase", "Schaf", "Opossum", "Hund", "Maus"],
+  SO6: ["Pinguin", "Ratte", "Schäferhund"],
+  SX6: ["Bulldogge", "Hai"],
+  SE7: ["Labrador", "Panda", "Made"],
+  SO7: ["Ente", "Meerschweinchen"],
+  SX7: ["Schmetterling", "Delfin"],
+  SE8: ["Nashorn", "Wildschwein", "Seeteufel"],
+  SO8: ["Stier"],
+  SX8: ["Königstiger", "Orca", "Skorpion"],
+  SE9: ["Riesenschildkröte", "Braunbär", "Blauwal", "Alligator", "Kugelfisch"],
+  SO9: ["Ameise", "Fisch", "Rentier", "Echse", "Kuh", "Husky"],
+  SX9: ["Frettchen", "Goldfisch", "Kaulquappe"],
+};
+const BQA_KONTRATYPEN = ["SX1", "SE2", "SE3", "SE4", "SX5", "SX6", "SO7", "SO8", "SO9"];
+const BQA_WING_MAP = { "1": ["9", "2"], "2": ["1", "3"], "3": ["2", "4"], "4": ["3", "5"], "5": ["4", "6"], "6": ["5", "7"], "7": ["6", "8"], "8": ["7", "9"], "9": ["8", "1"] };
+const BQA_ALL_CODES = ["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"];
+
+function _bqaSeite(typDigit) {
+  if (typDigit === "9") return "Neutral";
+  return ["1","2","3","4"].includes(typDigit) ? "Weiblich" : "Männlich";
+}
+function _bqaInstinktName(pfx) {
+  return pfx === "SE" ? "Selbsterhaltend" : pfx === "SO" ? "Sozial" : "Sexuell";
+}
+function _bqaPortraitsForCode(code) {
+  const all = []
+    .concat(typeof BERUEHMT_PORTRAITS !== "undefined" ? BERUEHMT_PORTRAITS : [])
+    .concat(typeof KRANKHEITS_PORTRAITS !== "undefined" ? KRANKHEITS_PORTRAITS : [])
+    .concat(typeof KRIMINAL_PORTRAITS !== "undefined" ? KRIMINAL_PORTRAITS : []);
+  const seen = new Set();
+  const out = [];
+  for (const p of all) {
+    if (!p.subtyp || !p.subtyp.startsWith(code)) continue;
+    const key = p.route;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push({ name: p.name, route: p.route, subtyp: p.subtyp,
+      img: "https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/" + p.route + "-portrait.jpg" });
+  }
+  return out;
+}
+
 const _TQ_EMOJI = {
   SE1:"\ud83e\udd85",SO1:"\ud83e\udeb7",SX1:"\ud83d\udc0d",
   SE2:"\ud83e\udd9b",SO2:"\ud83d\udc15",SX2:"\ud83d\udc2a",
@@ -44006,6 +44071,15 @@ function blickqualitaetenAtlasPage() {
     const col = TYPE_COLORS[t.typ];
     const tiles = t.tiles.map(k => {
       const tcol = typeColorFromCode(k.code);
+      const pfx = k.code.slice(0, 2), digit = k.code.slice(2);
+      const extras = BQA_TIERE_ZUSATZ[k.code] || [];
+      const isKontra = BQA_KONTRATYPEN.includes(k.code);
+      const wings = BQA_WING_MAP[digit] || [];
+      const people = _bqaPortraitsForCode(k.code);
+      const peopleTiles = people.map(p => `<div data-route="${p.route}" data-bqa-wing="${(p.subtyp.match(/w(\d)$/) || [,""])[1]}" style="cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.15);">
+          <img src="${p.img}" alt="${p.name}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-size:.62rem;padding:.4rem .3rem .25rem;">${p.name}</div>
+        </div>`).join("");
       return `
         <details class="ba-tile" style="background:color-mix(in srgb, ${tcol} 8%, var(--card,var(--paper)));border:1px solid var(--line,var(--border));border-left:4px solid ${tcol};border-radius:12px;padding:.85rem 1rem;">
           <summary style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:.5rem;">
@@ -44016,13 +44090,35 @@ function blickqualitaetenAtlasPage() {
                 <span style="font-family:'EB Garamond',Georgia,serif;font-style:italic;color:${tcol};font-size:.85rem;">${k.animal}</span>
               </div>
             </div>
-            <span style="color:var(--muted);font-size:.8rem;">▸</span>
+            <span style="display:flex;align-items:center;gap:.4rem;">
+              <span style="font-size:.65rem;padding:.15rem .5rem;border-radius:10px;background:${isKontra ? "#c9a24a" : "var(--line,var(--border))"};color:${isKontra ? "#fff" : "var(--ink)"};">${isKontra ? "Kontratyp" : "Normaltyp"}</span>
+              <span style="color:var(--muted);font-size:.8rem;">▸</span>
+            </span>
           </summary>
           <div style="margin-top:.7rem;font-size:.85rem;">
+            <div style="display:flex;flex-wrap:wrap;gap:1.2rem;margin-bottom:.7rem;font-size:.78rem;color:var(--muted);">
+              <span><strong style="color:${tcol};">Seite:</strong> ${_bqaSeite(digit)}</span>
+              <span><strong style="color:${tcol};">Instinkt:</strong> ${_bqaInstinktName(pfx)}</span>
+              <span><strong style="color:${tcol};">Porträts:</strong> ${people.length}</span>
+            </div>
             <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Blickqualität</div>
             <p style="margin:0 0 .6rem;color:var(--ink);">${k.blick}</p>
             <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.2rem;">Wirkung</div>
-            <p style="margin:0;color:var(--ink);">${k.wirkung}</p>
+            <p style="margin:0 0 .6rem;color:var(--ink);">${k.wirkung}</p>
+            ${extras.length ? `
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin-bottom:.3rem;">Weitere Tierentsprechungen</div>
+            <div style="display:flex;flex-wrap:wrap;gap:.3rem;margin-bottom:.8rem;">
+              ${extras.map(a => `<span style="background:var(--paper);border:1px solid var(--line,var(--border));border-radius:10px;padding:.1rem .5rem;font-size:.7rem;color:var(--ink);">${a}</span>`).join("")}
+            </div>` : ""}
+            ${people.length ? `
+            <div style="font-size:.66rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600;margin:.6rem 0 .4rem;">Porträts dieses Subtyps</div>
+            <div class="bqa-wing-bar" style="display:flex;gap:.35rem;margin-bottom:.6rem;flex-wrap:wrap;">
+              <button type="button" class="bqa-wing-btn active" data-color="${tcol}" onclick="_bqaToggleWing(this,'')" style="padding:.25rem .7rem;border-radius:14px;border:1px solid var(--line,var(--border));background:${tcol};color:#fff;font-size:.72rem;cursor:pointer;">Beide</button>
+              ${wings.map(w => `<button type="button" class="bqa-wing-btn" data-color="${tcol}" onclick="_bqaToggleWing(this,'${w}')" style="padding:.25rem .7rem;border-radius:14px;border:1px solid var(--line,var(--border));background:var(--paper);color:var(--ink);font-size:.72rem;cursor:pointer;">${digit}w${w}</button>`).join("")}
+            </div>
+            <div class="bqa-people-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:.4rem;">
+              ${peopleTiles}
+            </div>` : `<p style="color:var(--muted);font-size:.78rem;margin:.6rem 0 0;">Noch keine Porträts zu diesem Subtyp im Kompass.</p>`}
           </div>
         </details>
       `;
@@ -44069,6 +44165,20 @@ function blickqualitaetenAtlasPage() {
         <style>
           @media (min-width:560px){ .ba-tiles-grid{grid-template-columns:1fr 1fr 1fr !important;} }
         </style>
+        <script>
+          window._bqaToggleWing = function(btn, wing) {
+            const bar = btn.closest(".bqa-wing-bar");
+            bar.querySelectorAll(".bqa-wing-btn").forEach(function(b){ b.classList.remove("active"); b.style.background = "var(--paper)"; b.style.color = "var(--ink)"; });
+            btn.classList.add("active");
+            btn.style.background = btn.getAttribute("data-color") || "var(--copper)";
+            btn.style.color = "#fff";
+            const grid = bar.nextElementSibling;
+            if (!grid || !grid.classList.contains("bqa-people-grid")) return;
+            grid.querySelectorAll("[data-bqa-wing]").forEach(function(tile){
+              tile.style.display = (!wing || tile.getAttribute("data-bqa-wing") === wing) ? "" : "none";
+            });
+          };
+        </script>
 
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
