@@ -986,6 +986,7 @@ export function klausJBehrendtPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
         {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5)"},
+        {route:"beruehmte-stan-laurel", label:"Porträt: Stan Laurel (SE6w5)"},
       ])}
     </div>
   `);

@@ -1925,6 +1925,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Oliver Hardy – Self-Preservation Type 7",
     teaser:"SP7w8 · 1892–1957. American actor and comedian, the 'fat one' of Laurel & Hardy. Bloated stage persona, an easygoing man who loved good living in private – golf, cards, good food. Animal correspondence: Gorilla.",
     land:"USA", tags:["Schauspiel","Komik"] , gender:"m"},
+{ route:"beruehmte-stan-laurel", name:"Stan Laurel", added:"2026-09-06", subtyp:"SE6w5",
+    heading:"Stan Laurel – Self-Preservation Type 6",
+    teaser:"SP6w5 · 1890–1965. British-American actor, writer and director, the 'dumb one' of Laurel & Hardy. Naive stage persona, in reality the meticulous creative mind behind every sketch. Animal correspondence: Rabbit.",
+    land:"United Kingdom/USA", tags:["Schauspiel","Komik"] , gender:"m"},
 { route:"beruehmte-hans-zimmer", name:"Hans Zimmer", subtyp:"SE7w8",
     heading:"Hans Zimmer – Self-Preservation Type 7",
     teaser:"SP7w8 · born 1957. Film composer, arranger, music producer. The Lion King, Gladiator, Inception, Interstellar. The gorilla that turns sound into emotion – and has gathered an entire family of composers around itself. Animal correspondence: Gorilla.",
@@ -24569,6 +24573,7 @@ function klausJBehrendtPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
         {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5)"},
+        {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
       ])}
     </div>
   `);
@@ -24635,6 +24640,7 @@ function stringerDavisPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
+        {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
       ])}
     </div>
   `);
@@ -40894,7 +40900,75 @@ function oliverHardyPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
+        {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5) – his film partner"},
         {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
+
+function stanLaurelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stan-laurel-portrait.jpg" alt="Stan Laurel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stan Laurel</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Actor, writer &amp; director, 1890&ndash;1965 &ndash; half of Laurel &amp; Hardy &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Rabbit</strong> is the animal of the self-preservation Six &ndash; watchful, cautious, never the first to expose itself. Stan Laurel, known as "Stanley" or simply "the dumb one" internationally, played on screen the naive, bumbling counterpart to Oliver Hardy's bloated "fat one" &ndash; confused, childlike, seemingly helpless in the face of even the simplest situation.</p>
+          <p class="vb-intro">In real life Laurel was nearly the exact opposite of this stage persona: the actual creative mind of the duo, who wrote, revised, and directed most of their sketches himself, often deep into the night, with an unusually meticulous eye for the timing of every single gesture. The rabbit checks the situation carefully before showing itself &ndash; and Laurel checked every gag over and over until it truly landed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Six: Security Through Control in the Familiar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SP6)</strong> seeks security not in a strong group or in shifting bonds, but in reliable, manageable structures of everyday life. Laurel found this structure in his more than 30-year creative partnership with Hardy &ndash; a constant he never replaced after Hardy's death in 1957: Laurel never made another film afterward, though he lived eight more years.</p>
+          <p class="vb-intro">His meticulous, repeated test screenings before real audiences, where he refined already well-received gags even further, show the same underlying disposition: security arises not from spontaneous inspiration but from repeated, controlled checking until no doubt remains.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: The Meticulous Craftsman Behind the Scenes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Six an additional analytical distance and a preference for quiet, technical detail work over sociable exchange. Laurel wrote, edited, and planned his sketches largely alone at his desk, often through the night, before bringing the results into the studio &ndash; an introverted, almost scientific devotion to the craft of comedy that stood in stark contrast to the public perception of his bumbling screen character.</p>
+          <p class="vb-intro">This combination of caution (Six) and distance (Five-wing) also explains his striking self-deprecation: in later interviews and conversations with visitors, Laurel repeatedly insisted that Hardy had been "the real star," and that he himself was "just the idea man in the background" &ndash; a reflexive understatement of his own role, typical of the Six, who rarely feels fully certain of their own competence even when it is objectively indispensable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Role: The Naive One as a Constructed Persona</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The bumbling, childishly naive Stan character was a deliberately constructed persona that showed exactly the opposite of Laurel's actual working method &ndash; a clever device that hid a highly controlled personality behind an apparently helpless figure. This exact shift is typical of the Six with a Five-wing: competence and control take place out of sight, while the public figure deliberately stays harmless.</p>
+          <p class="vb-intro">That such a meticulously working writer and director played precisely the role of the naive fool is not irony, but consistency: one's own control is not put on display, but preferably exercised invisibly in the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Person Behind the Persona</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laurel's private life was more turbulent than his professional relationship with Hardy: multiple marriages, some quickly dissolved, a contrast to the decades-long reliability of his creative partnership. After retiring, he personally answered every single fan letter and received young comedians such as Dick Van Dyke or Jerry Lewis, who sought his advice &ndash; a form of dutiful, reliable accessibility to many, rather than exclusive focus on a single bond.</p>
+          <p class="vb-intro">This broad but always controlled openness toward younger colleagues is the most mature SP6w5 signature: trust is not given away spontaneously, but built through reliable, repeated gestures &ndash; even once his own big stage career was long over.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Rabbit That Controlled Everything</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stan Laurel left behind a comedic body of work whose precision is still admired by film historians today &ndash; not despite, but because of his meticulous, often anxiously exact control of every single detail. Together with Oliver Hardy (SP7w8) he formed one of the longest-lasting and most influential comedy duos in film history.</p>
+          <p class="vb-intro">Enneagram-wise, he complements Hardy in an interesting way: where Hardy found security through the enjoyable repetition of the pleasant, Laurel sought it through the controlled, repeated checking of his own craft. The rabbit didn't need to dominate the stage &ndash; it was enough to have every detail under control before the curtain rose.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SP7w8) – his film partner"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5)"},
+        {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
+        {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
       ])}
     </div>
   `);
@@ -42473,6 +42547,7 @@ function anneMcBridePortraitPage() {
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
         {route:"beruehmte-mahatma-gandhi", label:"Portrait: Mahatma Gandhi (SE6w5)"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SE6w5)"},
+        {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SE6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-anne-mcbride")}
     </div>
@@ -116254,6 +116329,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-hans-zimmer": hansZimmerPortraitPage,
       "beruehmte-moritz-bleibtreu": moritzBleibtreuPortraitPage,
       "beruehmte-oliver-hardy": oliverHardyPortraitPage,
+      "beruehmte-stan-laurel": stanLaurelPortraitPage,
       "beruehmte-christoph-kolumbus": christophKolumbusPortraitPage,
       "krankheitsportraets-christoph-kolumbus": christophKolumbusKrankheitsportraetPage,
       "beruehmte-takashi-murakami": takashiMurakamiPortraitPage,

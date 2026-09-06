@@ -1838,6 +1838,7 @@ export function stringerDavisPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+        {route:"beruehmte-stan-laurel", label:"Porträt: Stan Laurel (SE6w5)"},
       ])}
     </div>
   `);
@@ -1897,6 +1898,7 @@ export function oliverHardyPortraitPage() {
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-stan-laurel", label:"Porträt: Stan Laurel (SE6w5) – sein Filmpartner"},
         {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
       ])}
     </div>

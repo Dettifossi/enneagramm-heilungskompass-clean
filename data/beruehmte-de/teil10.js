@@ -1777,3 +1777,70 @@ export function arminMuellerStahlPortraitPage() {
     </div>
   `);
 }
+
+export function stanLaurelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stan-laurel-portrait.jpg" alt="Stan Laurel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Stan Laurel</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Autor &amp; Regisseur, 1890&ndash;1965 &ndash; die Hälfte von »Dick und Doof« (Laurel &amp; Hardy) &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; wachsam, vorsichtig, nie das erste, das sich exponiert. Stan Laurel, als „Stanley" oder international als „der Doofe" bekannt, spielte auf der Leinwand den naiven, tollpatschigen Gegenpol zu Oliver Hardys aufgeblasenem „Dicken" &ndash; verwirrt, kindlich, scheinbar hilflos gegenüber jeder noch so simplen Situation.</p>
+          <p class="vb-intro">Real war Laurel fast das genaue Gegenteil dieser Bühnenfigur: der eigentliche kreative Kopf des Duos, der einen Großteil ihrer Sketche selbst schrieb, überarbeitete und inszenierte, oft bis tief in die Nacht, mit einem für Slapstick ungewöhnlich akribischen Blick fürs Timing jeder einzelnen Geste. Das Kaninchen prüft die Lage genau, bevor es sich zeigt &ndash; und Laurel prüfte jeden Gag so lange, bis er wirklich saß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Kontrolle im Vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> sucht Sicherheit nicht in einer starken Gruppe oder in wechselnden Bindungen, sondern in verlässlichen, überschaubaren Strukturen des eigenen Alltags. Laurel fand diese Struktur in der über 30-jährigen kreativen Partnerschaft mit Hardy &ndash; eine Konstante, die er nach dessen Tod 1957 nie wieder ersetzte: Laurel drehte danach keinen einzigen Film mehr, obwohl er noch acht Jahre lebte.</p>
+          <p class="vb-intro">Seine akribischen, wiederholten Testvorführungen vor echtem Publikum, bei denen er selbst bereits gut angekommene Gags noch weiter verfeinerte, zeigen dieselbe Grundhaltung: Sicherheit entsteht nicht durch spontane Eingebung, sondern durch wiederholte, kontrollierte Prüfung, bis kein Zweifel mehr bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der akribische Handwerker im Hintergrund</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Sechs eine zusätzliche analytische Distanz und eine Vorliebe für stille, technische Detailarbeit statt geselligen Austausch. Laurel schrieb, redigierte und plante seine Sketche größtenteils allein am Schreibtisch, oft nächtelang, bevor er die Ergebnisse ins Studio brachte &ndash; eine introvertierte, fast wissenschaftliche Hingabe an das Handwerk der Komik, die im deutlichen Kontrast zur öffentlichen Wahrnehmung seiner tollpatschigen Filmfigur stand.</p>
+          <p class="vb-intro">Diese Kombination aus Vorsicht (Sechs) und Distanz (Fünferflügel) erklärt auch seine auffällige Selbstabwertung: In späteren Interviews und Gesprächen mit Besuchern betonte Laurel immer wieder, Hardy sei „der eigentliche Star" gewesen, er selbst „nur der Ideenlieferant im Hintergrund" &ndash; eine reflexhafte Untertreibung der eigenen Rolle, typisch für die Sechs, die sich mit der eigenen Kompetenz selten ganz sicher fühlt, selbst wenn sie objektiv unentbehrlich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Rolle: Der Naive als Kunstfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Figur des tollpatschigen, kindlich-naiven Stan war eine bewusst konstruierte Kunstfigur, die exakt das Gegenteil von Laurels tatsächlicher Arbeitsweise zeigte &ndash; ein cleverer Kunstgriff, der die eigene, sehr kontrollierte Persönlichkeit hinter einer scheinbar hilflosen Figur verbarg. Genau diese Verschiebung ist typisch für die Sechs mit Fünferflügel: Kompetenz und Kontrolle finden im Verborgenen statt, während die öffentliche Figur bewusst harmlos bleibt.</p>
+          <p class="vb-intro">Dass ein so akribisch arbeitender Autor und Regisseur ausgerechnet die Rolle des naiven Trottels spielte, ist keine Ironie, sondern folgerichtig: Die eigene Kontrolle wird nicht zur Schau gestellt, sondern lieber unsichtbar im Hintergrund ausgeübt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Mensch hinter der Figur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Laurels Privatleben war turbulenter als seine Berufsbeziehung zu Hardy: mehrere Ehen, teils schnell wieder aufgelöst, ein Kontrast zu der jahrzehntelangen Verlässlichkeit seiner kreativen Partnerschaft. Nach seiner Pensionierung beantwortete er jeden einzelnen Fanbrief persönlich und empfing junge Comedians wie Dick Van Dyke oder Jerry Lewis, die bei ihm Rat suchten &ndash; eine Form von pflichtbewusster, verlässlicher Zugänglichkeit für viele, statt der exklusiven Konzentration auf eine einzelne Bindung.</p>
+          <p class="vb-intro">Diese breite, aber immer kontrollierte Offenheit gegenüber jüngeren Kollegen ist reifste SE6w5-Handschrift: Vertrauen wird nicht spontan verschenkt, sondern über verlässliche, wiederholte Gesten aufgebaut &ndash; auch dann noch, wenn die eigene große Bühnenkarriere längst vorbei ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Kaninchen, das alles kontrollierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stan Laurel hinterließ ein komödiantisches Werk, dessen Präzision bis heute von Filmhistorikern bewundert wird &ndash; nicht trotz, sondern wegen seiner akribischen, oft ängstlich-genauen Kontrolle jedes einzelnen Details. Zusammen mit Oliver Hardy (SE7w8) bildete er eines der langlebigsten und einflussreichsten Komikerduos der Filmgeschichte.</p>
+          <p class="vb-intro">Enneagrammatisch verbindet ihn mit Hardy eine interessante Ergänzung: Wo Hardy Sicherheit durch genussvolle Wiederholung des Angenehmen fand, suchte Laurel sie durch kontrollierte, wiederholte Prüfung des eigenen Handwerks. Das Kaninchen musste die Bühne nicht dominieren &ndash; es genügte ihm, jedes Detail im Griff zu haben, bevor der Vorhang aufging.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-oliver-hardy", label:"Porträt: Oliver Hardy (SE7w8) – sein Filmpartner"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5)"},
+        {route:"beruehmte-klaus-j-behrendt", label:"Porträt: Klaus J. Behrendt (SE6w5)"},
+        {route:"beruehmte-anne-mcbride", label:"Porträt: Dr. Anne McBride (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
