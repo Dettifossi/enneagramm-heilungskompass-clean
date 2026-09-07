@@ -63233,7 +63233,7 @@ function juergenDrewsKrankheitsportraetPage() {
         is being developed step by step in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
-        Drews did not know his own Enneagram pattern – the sexual Nine with
+        Drews most likely does not know his own Enneagram pattern – there is naturally no way to know this for certain. The sexual Nine with
         Eight-wing merges almost reflexively with audience and work and, in doing
         so, easily overrides her own bodily warning signs instead of pausing in
         time. He lived exactly that out unchecked for decades: a full stage

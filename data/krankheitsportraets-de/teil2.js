@@ -4018,7 +4018,7 @@ export function juergenDrewsKrankheitsportraetPage() {
         im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Drews kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Neun mit
+        Drews kennt sein eigenes Enneagramm-Muster mit großer Wahrscheinlichkeit nicht – Genaues lässt sich darüber naturgemäß nicht wissen. Die sexuelle Neun mit
         Achterflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
         dabei leicht die eigenen körperlichen Warnsignale, statt rechtzeitig
         innezuhalten. Genau das lebte er über Jahrzehnte ungebremst aus: ein volles
