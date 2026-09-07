@@ -35,7 +35,7 @@ export function helgeSchneiderPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Vom Radio-Kind zum Kult-Musiker</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Den kommerziellen Durchbruch schaffte Schneider 1992 mit dem Album ›Guten Tach‹, 1994 wurde er einem breiten Fernsehpublikum bekannt &ndash; ›Katzeklo‹ stieg in die deutschen Charts ein. Bis heute lässt er sich weder als reiner Musiker noch als klassischer Komiker einordnen; seine Spezialität liegt in der Gleichzeitigkeit von Ernsthaftigkeit und Spiel. Er provoziert und überrascht mit einem absurden Humor, den sich sonst kaum jemand zutrauen würde.</p>
+          <p class="vb-intro">Den kommerziellen Durchbruch schaffte Schneider 1992 mit dem Album ›Guten Tach‹, 1994 wurde er einem breiten Fernsehpublikum bekannt &ndash; ›Katzeklo‹ stieg in die deutschen Charts ein. Bis heute lässt er sich weder als reiner Musiker noch als klassischer Komiker einordnen; seine Spezialität liegt in der Gleichzeitigkeit von Ernsthaftigkeit und Spiel. Er provoziert und überrascht mit einem absurden Humor, den sich sonst wohl niemand trauen würde.</p>
           <p class="vb-intro">Sein heterogenes Publikum teilt sich einen Raum, ohne dass Einigkeit verlangt würde &ndash; sein Werk verbindet, ohne zu vereinen. Auch das Lachen selbst wird bei ihm verzögert und wahlweise, nie ein reiner Reflex. Genau darin zeigt sich die SX9-Fähigkeit, einen gemeinsamen Raum zu schaffen, in dem Verschiedenes nebeneinander bestehen kann, ohne dass jemand zu einer Position gezwungen würde.</p>
         </blockquote>
 
