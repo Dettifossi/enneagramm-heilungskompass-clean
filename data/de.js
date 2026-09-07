@@ -3973,7 +3973,7 @@ export const subtypeProfiles = {
         "Ich lerne: Echter Frieden entsteht aus Präsenz - nicht aus Vermeidung.",
         "Mein Trägheitsinstinkt ist nicht mein Schicksal. Heute handle ich bewusst.",
         "Was wäre, wenn ein einziger klarer Schritt heute genug ist?",
-        "Ich merke, wenn Selbstvergessenheit einlaedigt. Ich nehme mich ernst.",
+        "Ich merke, wenn Selbstvergessenheit sich einschleicht. Ich nehme mich ernst.",
         "Mein Heilmittel: Ruhige Handlungskraft statt Trägheit. Heute mache ich sie sichtbar.",
         "Was wäre, wenn innere Präsenz heute leichter ist als Betäubung?",
         "Ich lerne: Wer bei sich ist, ist auch für andere echter da.",

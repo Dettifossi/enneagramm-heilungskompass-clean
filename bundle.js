@@ -14712,7 +14712,7 @@ const subtypeProfiles = {
         "Ich lerne: Echter Frieden entsteht aus Pr\u00e4senz - nicht aus Vermeidung.",
         "Mein Tr\u00e4gheitsinstinkt ist nicht mein Schicksal. Heute handle ich bewusst.",
         "Was w\u00e4re, wenn ein einziger klarer Schritt heute genug ist?",
-        "Ich merke, wenn Selbstvergessenheit einlaedigt. Ich nehme mich ernst.",
+        "Ich merke, wenn Selbstvergessenheit sich einschleicht. Ich nehme mich ernst.",
         "Mein Heilmittel: Ruhige Handlungskraft statt Tr\u00e4gheit. Heute mache ich sie sichtbar.",
         "Was w\u00e4re, wenn innere Pr\u00e4senz heute leichter ist als Bet\u00e4ubung?",
         "Ich lerne: Wer bei sich ist, ist auch f\u00fcr andere echter da.",
