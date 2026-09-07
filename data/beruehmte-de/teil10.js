@@ -520,6 +520,7 @@ export function fritzPerlsPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7) – ebenfalls Lehrer/Mentor mit Kraft im Dienst anderer"},
         {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7)"},
         {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
         {route:"krankheitsportraets-fritz-perls", label:"Krankheitsporträt: Fritz Perls (SO8w7) – Herzleiden und Krebs bis zuletzt in Bewegung"},

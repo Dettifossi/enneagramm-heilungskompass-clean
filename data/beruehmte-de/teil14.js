@@ -1808,3 +1808,67 @@ export function alexanderGerstPortraitPage() {
     </div>
   `);
 }
+
+export function jonHammPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jon-hamm-portrait.jpg" alt="Jon Hamm – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jon Hamm</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1971 &ndash; Don Draper in ›Mad Men‹ &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der erst für andere stand, bevor er selbst gesehen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School, unter anderem der späteren Schauspielerin Ellie Kemper.</p>
+          <p class="vb-intro">Kemper beschrieb ihn Jahre später als „großzügigen, selbstlosen Menschen" – als sie in Los Angeles ihr eigenes Comedy-Solo-Programm aufführte, kam der inzwischen durch ›Mad Men‹ weltberühmte Hamm einfach vorbei, um sie zu unterstützen. Genau das ist die SO8-Grundhaltung: Kraft wird nicht gehortet, sondern denen zur Verfügung gestellt, die zur eigenen Gemeinschaft gehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Präsenz statt Dauerbrüllen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt Stärke nach Naranjo nicht für die eigene Selbstbehauptung ein, sondern im Dienst von Freundschaft und Zusammenhalt – Autorität entsteht nicht durch permanente Machtdemonstration, sondern durch eine körperliche und mentale Präsenz, die spürbar wird, sobald sie einen Raum betritt. Hamm ließ sich selbst eine klare Frist: Bis dreißig wollte er vom Schauspiel leben können. Es dauerte noch sechs weitere Jahre, bis ihm mit ›Mad Men‹ im Alter von 36 der Durchbruch gelang – eine geduldige, unnachgiebige Beharrlichkeit statt lauter Selbstinszenierung.</p>
+          <p class="vb-intro">Genau diese Rolle des Don Draper – ein Mann, dessen kontrollierte äußere Autorität eine tiefe innere Verwundung überdeckt – traf bei Hamm auf eigene, sehr reale Erfahrung: Erinnerungen an seinen Vater flossen nach eigener Aussage direkt in die Figur ein. Die SO8 zeigt selten die eigene Verletzlichkeit nach außen; sie verwandelt sie stattdessen in Präsenz, in Tragfähigkeit für andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit statt einer einzigen Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> öffnet die soziale Acht für Leichtigkeit, Humor und Vielseitigkeit, die über die reine Ernsthaftigkeit der Rolle hinausgehen. Neben der düsteren Don-Draper-Figur zeigte sich Hamm ebenso in ausgelassenen Comedy-Auftritten bei ›Saturday Night Live‹, in ›30 Rock‹, in ›Brautalarm‹ und als Sprechrolle in ›Toy Story 4‹ – eine Bandbreite, die sich nicht auf ein einziges Image festlegen lässt.</p>
+          <p class="vb-intro">Diese Kombination aus tragender, beschützender Präsenz und spielerischer Wandlungsfähigkeit ist typisch SO8w7: Der Löwe bleibt Löwe, auch wenn er gerade albernen Unsinn macht – die zugrunde liegende Stärke und Verlässlichkeit verschwinden dabei nie ganz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verwundung und Wiederaufbau: Die eigene Krise offen benennen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Tod seines Vaters 1991 verfiel Hamm über Jahre in eine schwere Depression – er brach sein Studium ab, zog ins Kellergeschoss des Hauses seiner Halbschwester und schlief bis in den späten Nachmittag hinein. Seine Schwester war es, die ihm schließlich klarmachte, dass er professionelle Hilfe brauchte; er begann eine Therapie und erhielt Antidepressiva. 2015 absolvierte er zusätzlich eine 30-tägige Entzugsbehandlung wegen Alkoholabhängigkeit.</p>
+          <p class="vb-intro">Dass Hamm diese Phasen öffentlich benannte, statt sie hinter der glatten Fassade des Erfolgs zu verstecken, passt zur reifen SO8: Stärke bedeutet hier nicht, keine Schwäche zu haben, sondern die eigene Verwundbarkeit anzuerkennen, ohne daran zu zerbrechen – und am Ende wieder für andere tragfähig zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Acht mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO8w7 zeigt sich bei Hamm in der Fähigkeit, gleichzeitig tragende Präsenz und Leichtigkeit zu verkörpern – als Lehrer, der einer späteren Schauspielerin die Bühne öffnete, als Kollege, der Jahre später einfach zu ihrer Aufführung kam, als Schauspieler, dessen Bandbreite von tiefster Ernsthaftigkeit bis zu ausgelassenem Klamauk reicht.</p>
+          <p class="vb-intro">Der Schatten der Acht zeigte sich in den Jahren nach dem Tod seines Vaters, als die eigene Kraft nicht mehr ausreichte und sich stattdessen in Rückzug, Depression und schließlich Alkohol entlud – bis die Einsicht wuchs, dass Stärke auch bedeuten kann, sich helfen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Löwe, der zurückkam, um zu applaudieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jon Hamms Weg zeigt die soziale Acht mit Siebenerflügel in einer versöhnlichen Form: Kraft, die früh für andere eingesetzt wurde, bevor sie selbst öffentlich sichtbar wurde, eine tiefe persönliche Krise, die offen benannt statt verdrängt wurde, und eine Vielseitigkeit, die nie vergisst, woher die eigene Tragfähigkeit kommt. Der Löwe brüllt nicht ständig – aber wenn eine ehemalige Schülerin auf der Bühne steht, ist er da.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+          {route:"beruehmte-fritz-perls", label:"Porträt: Fritz Perls (SO8w7) – ebenfalls Lehrer/Mentor mit Kraft im Dienst anderer"},
+          {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
