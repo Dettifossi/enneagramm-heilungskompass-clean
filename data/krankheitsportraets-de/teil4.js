@@ -3861,3 +3861,180 @@ export function christophKolumbusKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function michaelBerrymanKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-berryman-portrait.jpg" alt="Michael Berryman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Berryman</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexueller Typ 9 mit Achterflügel · geb. 1948</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Berryman</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-michael-berryman">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Schauspielkarriere als
+        Horror-Ikone. Dieses Porträt vertieft ein Kapitel, das dort nur gestreift wird:
+        das Leben mit der angeborenen hypohidrotischen ektodermalen Dysplasie und den
+        Umgang mit Mobbing, Neugier und Anstarren, der daraus über Jahrzehnte wurde.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Berryman</strong> ist dem <strong>sexuellen Typ 9 mit Achterflügel</strong>
+        zugeordnet. Die SX9 sucht Erfüllung über völlige Verschmelzung mit einer
+        einzelnen intensiven Beziehung oder Aufgabe. Der Achterflügel bringt eine
+        untypische Konfrontationsbereitschaft hinzu, die unbequeme Wahrheiten offen
+        ausspricht, statt sie zu verschweigen – wichtig zu betonen: Seine Erkrankung
+        selbst ist eine rein genetische, angeborene Fehlbildung ohne jeden Bezug zum
+        Enneagramm-Muster; analysiert wird hier ausschließlich der Umgang damit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Diagnose von Geburt an:</strong>
+        Anders als bei den meisten anderen Krankheitsporträts dieses Kompasses gab es
+        bei Berryman keine schleichende Entwicklung – die hypohidrotische ektodermale
+        Dysplasie war von Geburt an sichtbar: fehlende Schweißdrüsen, fehlendes
+        Kopfhaar, fehlende Fingernägel, ein charakteristisch geformtes Gesicht.</p>
+        <p class="vb-intro"><strong>b) Frühe Konfrontation mit fremden Blicken:</strong>
+        Schon als Kind war er permanent Blicken, Fragen und Getuschel ausgesetzt –
+        eine Situation, der er sich, anders als viele Betroffene, nie durch Rückzug
+        entzog.</p>
+        <p class="vb-intro"><strong>c) Die Highschool als Wendepunkt:</strong>
+        Nach eigener Aussage lernte er erst in der Highschool „was Ignoranz, Vorurteil
+        und Grausamkeit wirklich bedeuten" – eine Zeit intensiven Mobbings, die bei
+        vielen zu dauerhaftem sozialem Rückzug geführt hätte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose ektodermale Dysplasie:</strong>
+        Eine seltene, vererbte, unheilbare genetische Störung der Entwicklung von Haut,
+        Haaren, Zähnen, Nägeln und Schweißdrüsen – im Fall von Berryman verantwortlich
+        für sein unverwechselbares, in der Filmwelt später sehr gefragtes Aussehen.</p>
+        <p class="vb-intro"><strong>b) Keine Behandlung, die das Grundbild ändert:</strong>
+        Die Erkrankung ließ und lässt sich nicht heilen oder grundlegend verändern –
+        Berryman lebte sein gesamtes Leben mit genau dem Gesicht, das ihm gegeben war,
+        ohne die Option, es kosmetisch grundlegend zu verändern.</p>
+        <p class="vb-intro"><strong>c) Von der Belastung zum Kapital:</strong>
+        Statt das Aussehen als reines Handicap zu behandeln, machte er es aktiv zum
+        Zentrum seiner beruflichen Identität – ein Weg, den nur eine Minderheit der
+        Betroffenen mit sichtbaren genetischen Besonderheiten überhaupt einschlägt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Blumenladen von Venice Beach:</strong>
+        Statt eine Tätigkeit im Hintergrund zu suchen, arbeitete der junge Berryman an
+        einem offenen Verkaufstresen, für jeden Kunden sichtbar – dort entdeckte ihn
+        1975 Filmproduzent George Pal.</p>
+        <p class="vb-intro"><strong>b) Die zitierte Erwiderung auf Mobbing:</strong>
+        „Du bist ein Feigling, und wenn wir die Körper tauschen könnten, hättest du die
+        Chance, eine Seele wachsen zu lassen und der ‚Menschheit' beizutreten. Ich
+        bemitleide dein kleinherziges Leben." – eine direkte, konfrontative Antwort
+        statt eines stillen Erduldens.</p>
+        <p class="vb-intro"><strong>c) Bewusste Berufswahl im Horrorgenre:</strong>
+        Statt Rollen zu suchen, die sein Aussehen kaschieren, wählte er ausgerechnet
+        ein Genre, in dem genau dieses Aussehen zum zentralen Element der Rolle wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine jahrzehntelange Karriere statt einer einzigen Rolle:</strong>
+        Von ›Einer flog über das Kuckucksnest‹ (1975) über ›The Hills Have Eyes‹ (1977)
+        bis zu Auftritten in ›Star Trek‹ und ›The X-Files‹ – ein durchgehendes
+        Filmschaffen, das nie versuchte, die genetische Besonderheit zu verstecken.</p>
+        <p class="vb-intro"><strong>b) Die Convention-Bühne als zweites Zuhause:</strong>
+        Bis heute ist er fester Bestandteil der Horror- und Fan-Convention-Szene, wo er
+        Fans persönlich begegnet, statt sich hinter Distanz zu schützen.</p>
+        <p class="vb-intro"><strong>c) Engagement über die eigene Person hinaus:</strong>
+        Berryman engagiert sich öffentlich für Menschen mit Behinderungen und für
+        Umweltschutz – eine Ausweitung seiner eigenen Erfahrung auf ein breiteres
+        gesellschaftliches Anliegen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung mit dem eigenen, ungewöhnlichen Bild:</strong>
+        Statt eine Kluft zwischen dem eigenen Ich und dem öffentlichen Bild zu
+        empfinden, verschmolz Berryman beide vollständig – die für die sexuelle Neun
+        typische Auflösung der Grenze zwischen Selbst und Rolle.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel als Schutzschild statt als Waffe gegen andere:</strong>
+        Seine direkte, konfrontative Art richtete sich fast ausschließlich gegen
+        konkrete Angriffe – nicht als generelle Aggression, sondern als punktgenaue
+        Selbstbehauptung im Moment der Kränkung.</p>
+        <p class="vb-intro"><strong>c) Gelassenheit als Grundzustand zwischen den Konfrontationen:</strong>
+        Zwischen den wenigen dokumentierten scharfen Erwiderungen liegt eine über
+        Jahrzehnte beobachtete, durchgehende Ruhe im persönlichen Kontakt – typisch
+        neunertypisch, mit dem Achterflügel als punktueller Ausnahme.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Ausgangslage, die es so bei keinem anderen Porträt dieses Kompasses gibt:</strong>
+        Während die meisten Krankheitsporträts hier einen Verlauf über Lebensjahre oder
+        -jahrzehnte zeigen, war Berrymans körperliche Besonderheit von der ersten
+        Minute an da – kein Ereignis, sondern eine Ausgangsbedingung des gesamten
+        Lebens.</p>
+        <p class="vb-intro"><strong>b) Die Reaktion darauf als das eigentliche Muster:</strong>
+        Nicht die Erkrankung selbst, sondern der lebenslange Umgang mit ihr zeigt die
+        sexuelle Neun mit Achterflügel: das Verschmelzen mit dem eigenen Bild bis zur
+        Untrennbarkeit, unterbrochen von punktuellen, scharfen Konfrontationen bei
+        konkreten Angriffen.</p>
+        <p class="vb-intro"><strong>c) Wichtiger Unterschied zu anderen Krankheitsporträts:</strong>
+        Bei praktisch allen übrigen Krankheitsporträts dieses Kompasses lässt sich
+        fragen, ob ein bestimmtes Lebensmuster den Krankheitsverlauf mitgeprägt haben
+        könnte. Bei einer angeborenen genetischen Fehlbildung wie der ektodermalen
+        Dysplasie stellt sich diese Frage nicht – die Erkrankung selbst hat keinerlei
+        Bezug zum Enneagramm-Muster. Was das Enneagramm hier sichtbar macht, ist
+        ausschließlich, wie unterschiedlich Menschen desselben Ausgangsbefunds darauf
+        reagieren können – und warum ausgerechnet dieses Muster aus Verschmelzung und
+        gelegentlicher Konfrontation zu einer öffentlichen, erfüllten Karriere führte,
+        wo andere sich zurückgezogen hätten.</p>
+        <p class="vb-intro"><strong>d) Eine Parallele zu François Damiens, ebenfalls SX9w8 in diesem Kompass:</strong>
+        Wie bei <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">François Damiens</a>,
+        der sein Privatleben radikal abschirmt, aber beruflich in jede Rolle
+        verschmilzt, zeigt sich auch bei Berryman dieselbe Kombination: völlige
+        berufliche Sichtbarkeit des ungewöhnlichen Äußeren bei gleichzeitig klaren,
+        selbstbestimmten Grenzen gegenüber Angriffen.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Einordnung ohne Determinismus:</strong>
+        Diese Einordnung ist noch entschiedener zu betonen als bei anderen
+        Krankheitsporträts dieses Kompasses: <strong>Die genetische Grundlage von
+        Berrymans Aussehen hat nichts mit seinem Enneagramm-Subtyp zu tun</strong> – jeder
+        Mensch jedes Subtyps kann mit jeder genetischen Besonderheit geboren werden.
+        Was das Enneagramm hier beschreibt, ist ausschließlich das bemerkenswerte
+        Bewältigungsmuster, mit dem Berryman aus einer nicht selbst gewählten
+        Ausgangslage eine erfüllte, öffentlichkeitswirksame Existenz formte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Michael Berrymans</strong> Umgang mit seiner angeborenen ektodermalen
+        Dysplasie lässt sich die sexuelle Neun mit Achterflügel in einer besonders
+        ermutigenden Form studieren: keine Krankengeschichte im klassischen Sinn,
+        sondern die Geschichte einer vollständigen Verschmelzung mit dem eigenen,
+        ungewöhnlichen Bild – getragen von einer Direktheit, die sich niemals klein
+        machen ließ. Das Faultier zeigt sein Gesicht der Welt, unverändert, und
+        antwortet nur dann scharf, wenn die Welt es dafür verhöhnt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-michael-berryman", label:"Porträt: Michael Berryman (SX9w8) – Lebenswerk"},
+        {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}

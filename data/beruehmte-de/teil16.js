@@ -1887,6 +1887,7 @@ export function michaelBerrymanPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
+          {route:"krankheitsportraets-michael-berryman", label:"Krankheitsporträt: Michael Berryman (SX9w8) – Leben mit der ektodermalen Dysplasie"},
         ])}
       </div>
     </div>

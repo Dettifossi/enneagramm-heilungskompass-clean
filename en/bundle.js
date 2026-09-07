@@ -375,6 +375,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-john-gotti", name:"John Gotti", subtyp:"SO8w7", heading:"John Gotti – Social Type 8", krankheit:"Laryngeal cancer", teaser:"SO8w7 – boss of the Gambino family, 1940–2002. Diagnosed with laryngeal cancer in isolation in 1998, no public admission of weakness, extreme isolation in his final years of imprisonment. Died on June 10, 2002, at the federal medical prison in Springfield, Missouri, at age 61." , land:"USA", gender:"m", jahre:"1940–2002"},
   { route:"krankheitsportraets-jordan-peterson", name:"Dr. Jordan Peterson", subtyp:"SO1w9", heading:"Dr. Jordan Peterson – Social Type 1", krankheit:"Severe benzodiazepine dependency, induced coma in 2019/2020", teaser:"SO1w9 – psychologist and author, b. 1962. Severe benzodiazepine dependency, unsuccessful treatment attempts in North America, medically induced coma in Russia at the end of 2019 for withdrawal treatment." , land:"Canada", gender:"m", jahre:"b. 1962"},
   { route:"krankheitsportraets-hundertwasser", name:"Friedensreich Hundertwasser", subtyp:"SX9w8", heading:"Friedensreich Hundertwasser – Sexual Type 9", krankheit:"Chronic heart disease, died of heart failure aboard the Queen Elizabeth 2", teaser:"SX9w8 – painter and architect, 1928–2000. Years-long, largely undisclosed heart condition, no conventional medical treatment, died on 19 February 2000 aboard the ocean liner Queen Elizabeth 2 on the Pacific." , land:"Austria", gender:"m", jahre:"1928–2000"},
+  { route:"krankheitsportraets-michael-berryman", name:"Michael Berryman", subtyp:"SX9w8", heading:"Michael Berryman – Sexual Type 9", krankheit:"Hypohidrotic ectodermal dysplasia (congenital genetic malformation)", teaser:"SX9w8 – actor, born 1948. Congenital ectodermal dysplasia, intensely bullied in high school – later turned his unusual appearance into his career on his own terms, rather than concealing it." , land:"USA", gender:"m", jahre:"1948–"},
   { route:"krankheitsportraets-sadhguru", name:"Sadhguru", subtyp:"SE3w2", heading:"Sadhguru – Self-Preservation Type 3", krankheit:"Chronic subdural hematoma, emergency surgery in March 2024", teaser:"SE3w2 – yogi, guru, and bestselling author, b. 1957. Weeks of headaches, chronic brain bleed, emergency surgery on 17 March 2024." , land:"India", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-umberto-eco", name:"Dr. Umberto Eco", subtyp:"SE8w7", heading:"Dr. Umberto Eco – Self-Preservation Type 8", krankheit:"Pancreatic cancer, kept almost entirely private for about two years", teaser:"SE8w7 – writer, semiotician, and philosopher, 1932–2016. Pancreatic cancer diagnosis about two years before his death, undiminished literary output until shortly before the end, died on 19 February 2016 in Milan." , land:"Italy", gender:"m", jahre:"1932–2016"},
   { route:"krankheitsportraets-greta-thunberg", name:"Greta Thunberg", subtyp:"SE2w1", heading:"Greta Thunberg – Self-Preservation Type 2", krankheit:"Severe depression, eating disorder, and selective mutism in childhood", teaser:"SE2w1 – climate activist, b. 2003. Severe depressive episode with an eating disorder and selective mutism at around age eleven, followed by diagnoses of Asperger's syndrome and OCD." , land:"Sweden", gender:"f", jahre:"b. 2003"},
@@ -25571,6 +25572,7 @@ function michaelBerrymanPortraitPage() {
           {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
           {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
           {route:"beruehmte-francois-damiens", label:"Portrait: Fran\u00e7ois Damiens (SX9w8) \u2013 also turned an unusual appearance into a career"},
+          {route:"krankheitsportraets-michael-berryman", label:"Illness Portrait: Michael Berryman (SX9w8) \u2013 living with ectodermal dysplasia"},
         ])}
       </div>
     </div>
@@ -58120,7 +58122,7 @@ const KRANKHEITSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Small sample so far – two tendencies stand out: chronic, never clearly diagnosed suffering with a numbing approach, and a calm carrying-on despite physical warning signs, up to the point of exhaustion.",
-    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez", "Jürgen Drews"],
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez", "Jürgen Drews", "Michael Berryman"],
     fingerabdruecke: [
       {
         titel: "Chronic, never clearly diagnosed suffering with a numbing approach",
@@ -58131,6 +58133,11 @@ const KRANKHEITSMUSTERKOMPASS = {
         titel: "Boundless availability despite physical warning signs",
         beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a low tendency to take a timely pause once the body starts signaling limits.",
         beleg: "Diego Velázquez, who even past sixty showed no signs of slowing down and died of a sudden fever within a week of complete exhaustion; Jürgen Drews, who, despite a 2022 public diagnosis of the nerve disease polyneuropathy, still released a new album in 2025 and kept giving interviews – \"tired, but not finished,\" rather than a dramatic withdrawal."
+      },
+      {
+        titel: "Merging with a congenital physical difference instead of hiding it",
+        beschreibung: "Only one documented case so far, so no reliable pattern yet – but it shows a coping style clearly separate from the genetic starting point: a physical difference visible from birth is not concealed, but made the center of one's own public identity.",
+        beleg: "Michael Berryman, born with hypohidrotic ectodermal dysplasia, worked at an open sales counter as a young man rather than hiding, was discovered there for his first film role, and then deliberately made his unmistakable appearance the center of a decades-long acting career in the horror genre instead of masking it."
       }
     ]
   }
@@ -79340,6 +79347,180 @@ function hundertwasserKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
         {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function michaelBerrymanKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-berryman-portrait.jpg" alt="Michael Berryman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Berryman</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexual Type 9 with Eight-wing · born 1948</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Michael Berryman</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-michael-berryman">portrait under Famous Personalities</a>
+        in this Compass – that page covers his acting career as a horror icon. This
+        page deepens a chapter only fleetingly touched on there: living with congenital
+        hypohidrotic ectodermal dysplasia, and the decades-long way he handled bullying,
+        curiosity, and staring that grew out of it.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Berryman</strong> is classified as the <strong>Sexual Nine with
+        Eight-wing</strong>. The SX9 seeks fulfillment through total fusion with a
+        single intense relationship or task. The Eight-wing adds an unusual readiness
+        to confront, voicing uncomfortable truths openly rather than staying silent –
+        important to stress: his condition itself is a purely genetic, congenital
+        malformation with no connection whatsoever to the Enneagram pattern; only how
+        he handled it is analyzed here.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A diagnosis from birth:</strong>
+        Unlike most other illness portraits in this Compass, there was no gradual
+        development for Berryman – hypohidrotic ectodermal dysplasia was visible from
+        birth: absent sweat glands, absent scalp hair, absent fingernails, a
+        distinctively shaped face.</p>
+        <p class="vb-intro"><strong>b) Early confrontation with other people's stares:</strong>
+        Even as a child he was constantly exposed to looks, questions, and whispers –
+        a situation he, unlike many affected people, never escaped through withdrawal.</p>
+        <p class="vb-intro"><strong>c) High school as a turning point:</strong>
+        By his own account, it was only in high school that he learned "what
+        ignorance, prejudice, and cruelty really mean" – a period of intense bullying
+        that would have driven many into permanent social withdrawal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The diagnosis of ectodermal dysplasia:</strong>
+        A rare, inherited, incurable genetic disorder affecting the development of
+        skin, hair, teeth, nails, and sweat glands – in Berryman's case responsible
+        for the unmistakable appearance later much sought after in the film world.</p>
+        <p class="vb-intro"><strong>b) No treatment that changes the underlying picture:</strong>
+        The condition could not and cannot be cured or fundamentally altered –
+        Berryman lived his entire life with exactly the face he was given, with no
+        option to change it cosmetically in any fundamental way.</p>
+        <p class="vb-intro"><strong>c) From burden to asset:</strong>
+        Rather than treating his appearance as a pure handicap, he actively made it
+        the center of his professional identity – a path only a minority of people
+        with visible genetic differences ever choose to take.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The Venice Beach flower shop:</strong>
+        Instead of seeking work out of sight, young Berryman worked at an open sales
+        counter, visible to every customer – it was there that film producer George
+        Pal discovered him in 1975.</p>
+        <p class="vb-intro"><strong>b) The quoted response to bullying:</strong>
+        "You are a coward, and if we could switch bodies, you would have the chance to
+        grow a soul and join 'Humanity.' I pity your small-hearted life." – a direct,
+        confrontational reply instead of quiet endurance.</p>
+        <p class="vb-intro"><strong>c) A deliberate career choice in the horror genre:</strong>
+        Rather than seeking roles that concealed his appearance, he chose, of all
+        genres, one in which that very appearance became the central element of the
+        role.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A decades-long career instead of a single role:</strong>
+        From 'One Flew Over the Cuckoo's Nest' (1975) through 'The Hills Have Eyes'
+        (1977) to appearances in 'Star Trek' and 'The X-Files' – a continuous body of
+        film work that never tried to hide the genetic difference.</p>
+        <p class="vb-intro"><strong>b) The convention stage as a second home:</strong>
+        To this day he remains a fixture of the horror and fan convention scene, where
+        he meets fans personally rather than protecting himself behind distance.</p>
+        <p class="vb-intro"><strong>c) Advocacy beyond his own person:</strong>
+        Berryman is publicly engaged in advocacy for people with disabilities and for
+        environmental protection – an extension of his own experience into a broader
+        social cause.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Merging with his own unusual image:</strong>
+        Rather than feeling a gap between his own self and his public image, Berryman
+        merged the two completely – the dissolving of the boundary between self and
+        role typical of the sexual Nine.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing as a shield rather than a weapon against others:</strong>
+        His direct, confrontational manner was aimed almost exclusively at concrete
+        attacks – not general aggression, but pinpoint self-assertion in the moment of
+        being wronged.</p>
+        <p class="vb-intro"><strong>c) Serenity as the baseline state between confrontations:</strong>
+        Between the few documented sharp replies lies a decades-long, consistently
+        observed calm in personal contact – typically Nine-like, with the Eight-wing
+        as a pointed exception.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A starting point unlike any other portrait in this Compass:</strong>
+        While most illness portraits here show a course unfolding over years or
+        decades, Berryman's physical difference was there from the first minute – not
+        an event, but a starting condition of his entire life.</p>
+        <p class="vb-intro"><strong>b) The response to it as the actual pattern:</strong>
+        Not the condition itself, but the lifelong way of handling it shows the sexual
+        Nine with Eight-wing: merging with his own image to the point of
+        inseparability, punctuated by pointed, sharp confrontations in response to
+        concrete attacks.</p>
+        <p class="vb-intro"><strong>c) An important difference from other illness portraits:</strong>
+        With practically every other illness portrait in this Compass, one can ask
+        whether a particular life pattern may have shaped the course of the illness.
+        With a congenital genetic malformation like ectodermal dysplasia, that question
+        does not arise – the condition itself has no connection whatsoever to the
+        Enneagram pattern. What the Enneagram makes visible here is exclusively how
+        differently people with the same starting condition can respond to it – and
+        why this particular pattern of merging and occasional confrontation led to a
+        public, fulfilling career, where others would have withdrawn.</p>
+        <p class="vb-intro"><strong>d) A parallel to François Damiens, also SX9w8 in this Compass:</strong>
+        Like <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">François Damiens</a>,
+        who shields his private life radically but merges completely into every role
+        professionally, Berryman shows the same combination: full professional
+        visibility of his unusual appearance, paired with clear, self-determined
+        boundaries against attacks.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) A framing without determinism:</strong>
+        This framing needs to be stressed even more firmly than with other illness
+        portraits in this Compass: <strong>the genetic basis of Berryman's appearance
+        has nothing to do with his Enneagram subtype</strong> – any person of any
+        subtype can be born with any genetic difference. What the Enneagram describes
+        here is exclusively the remarkable coping pattern with which Berryman shaped a
+        fulfilling, publicly visible existence out of a starting condition he never
+        chose.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Michael Berryman's</strong> way of living with his congenital ectodermal
+        dysplasia offers one of the most encouraging studies of the sexual Nine with
+        Eight-wing: not an illness story in the classic sense, but the story of a
+        complete merging with his own unusual image – carried by a directness that
+        never let itself be diminished. The sloth shows its face to the world,
+        unchanged, and only strikes back sharply when the world mocks it for that
+        face.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) – life's work"},
+        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8) – also turned an unusual appearance into a career"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}
@@ -118419,6 +118600,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
       "krankheitsportraets-jordan-peterson": jordanPetersonKrankheitsportraetPage,
       "krankheitsportraets-hundertwasser": hundertwasserKrankheitsportraetPage,
+      "krankheitsportraets-michael-berryman": michaelBerrymanKrankheitsportraetPage,
       "krankheitsportraets-sadhguru": sadhguruKrankheitsportraetPage,
       "krankheitsportraets-umberto-eco": umbertoEcoKrankheitsportraetPage,
       "krankheitsportraets-greta-thunberg": gretaThunbergKrankheitsportraetPage,
