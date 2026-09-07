@@ -1877,6 +1877,7 @@ export function davidGuettaPortraitPage() {
           {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
           {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+          {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w1) – ebenfalls jahrzehntelange Bindung an Publikum und Partnerin"},
         ])}
       </div>
     </div>

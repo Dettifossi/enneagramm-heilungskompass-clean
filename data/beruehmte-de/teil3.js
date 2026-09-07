@@ -1821,3 +1821,68 @@ export function frankSchaetzingPortraitPage() {
     </div>
   `);
 }
+
+export function juergenDrewsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Drews</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schlagersänger, geb. 1945 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das ein Medizinstudium für die Bühne aufgab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> wechselt nur selten den Ast – aber wenn es sich einmal niedergelassen hat, bleibt es dort, geschützt vor der Hektik ringsum. Jürgen Drews, 1945 in Nauen geboren, begann nach dem Abitur ein Medizinstudium wie sein Vater, gab es aber nach einigen Semestern zugunsten der Musik auf. 1991 lernte er Ramona Middendorf kennen, 1994 heirateten die beiden – über drei Jahrzehnte später stehen sie noch immer gemeinsam auf der Bühne und bei Auftritten.</p>
+          <p class="vb-intro">Diese Beständigkeit zieht sich durch sein ganzes Leben: Statt sich in wechselnden Beziehungen oder ständig neuen künstlerischen Aufbrüchen zu verlieren, blieb er bei einer Frau, einem Genre und – seit den 1990er-Jahren – bei einem Ort, der zu seinem zweiten Zuhause wurde: Mallorca.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Ballermann-Menge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die Distanz der Bühne, sondern das vollständige Aufgehen im gemeinsamen Moment mit dem Publikum. Bei Drews zeigt sich das in seinem Titel „König von Mallorca", den ihm Thomas Gottschalk 1999 bei ›Wetten, dass..?‹ verlieh, und der 2000 mit dem gleichnamigen Hit bestätigt wurde: kein distanzierter Star, sondern jemand, der buchstäblich mit der feiernden Menge auf der Insel verschmolz, Sommer für Sommer, Jahrzehnt für Jahrzehnt.</p>
+          <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit gilt seiner Ehe: Ramona begleitet ihn seit über 30 Jahren zu Konzerten, TV-Auftritten und Terminen – kein loses Ehepaar-Arrangement, sondern eine Partnerin, die untrennbar zu seinem öffentlichen wie privaten Leben gehört, bis hin zur gemeinsamen gesungenen Tochter Joelina.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Weiterarbeiten trotz Krankheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> zeigt sich bei Drews in einer stillen, pflichtbewussten Beharrlichkeit, die auch dann nicht nachlässt, wenn der Körper nicht mehr mitspielt. 2022 kündigte er wegen der Nervenkrankheit Polyneuropathie seinen Bühnenabschied an – und veröffentlichte trotzdem 2025, mit 80 Jahren, ein neues Album und gab weiterhin Interviews. „Ich bin müde, aber nicht fertig", sagte er dazu im ZDF-Sommerinterview.</p>
+          <p class="vb-intro">Diese Formulierung fasst die Kombination aus neunertypischer Gelassenheit und einserhafter Pflichttreue präzise zusammen: kein dramatischer Kampf gegen die Krankheit, aber auch kein vorzeitiges Aufgeben – ein ruhiges Weitermachen, solange es eben geht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von den Les Humphries Singers zum Solo-Dauerbrenner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anfang der 1970er-Jahre sang Drews bei den Les Humphries Singers, bevor er 1976 mit ›Ein Bett im Kornfeld‹ seinen bis heute größten Solo-Erfolg landete und zum Dauergast der ZDF-Hitparade wurde. Ein Versuch, in den USA Fuß zu fassen, blieb 1980/81 überschaubar – Platz 79 der Billboard Hot 100 mit ›Don't Want Nobody‹.</p>
+          <p class="vb-intro">Anfang der 1990er-Jahre gelang ihm das Comeback auf dem deutschen Markt, diesmal auch als Musikproduzent – eine zweite, disziplinierte Karriereschiene neben dem eigenen Gesang, die zeigt, wie sehr er sein Handwerk auch strukturell durchdrang, statt sich allein auf den einen früheren Hit zu verlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Drews in einer Verlässlichkeit, die über Jahrzehnte trägt: dieselbe Ehefrau, dasselbe Urlaubsziel, dasselbe Publikum, das ihn Sommer für Sommer erwartet. Der Einserflügel sorgt dafür, dass aus dieser Beständigkeit ein aktives, weiterhin produktives Schaffen wird, statt bloßer Routine.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in der langen öffentlichen Zurückhaltung gegenüber der eigenen Krankheit und dem daraus entstehenden Nährboden für Gerüchte über seinen Gesundheitszustand – ein Muster, das für die Neun typisch ist: das eigene Leiden möglichst wenig zur Bühne machen, selbst wenn Schweigen Raum für Spekulation lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der König, der auf seiner Insel bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jürgen Drews' Weg zeigt die sexuelle Neun mit Einserflügel in einer bodenständigen, jahrzehntelang gehaltenen Form: eine Ehe, ein Publikum, ein Ort, denen er treu blieb, während sich um ihn herum die Schlagerbranche mehrfach neu erfand. Das Faultier verlässt seinen Baum nicht, wenn es einmal den richtigen gefunden hat – und hält an ihm fest, auch wenn die Äste zu wackeln beginnen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
+          {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls jahrzehntelange Bindungstreue"},
+          {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
