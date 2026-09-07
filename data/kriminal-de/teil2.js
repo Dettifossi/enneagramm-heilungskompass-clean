@@ -4333,7 +4333,7 @@ export function susanWrightPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Drei: Das Bild, das überlebt</h3>
         <p class="vb-intro"><strong>a) Die Rolle nach der Tat:</strong>
-        Was Susan Wright vom reinen Kalkül unterscheidet und zugleich reinste SX3-Handschrift ist, geschah nicht in der Tatnacht, sondern am Tag danach: Sie übermalte das Schlafzimmer und erstattete Anzeige gegen ihren toten Mann – eine aktive, vorausschauende Neuinszenierung der eigenen Rolle vom Tag eins an, nicht ein spontanes Vertuschen.</p>
+        Was Susan Wright vom reinen Kalkül unterscheidet und überaus typisch für die SX3 ist, geschah nicht in der Tatnacht, sondern am Tag danach: Sie übermalte das Schlafzimmer und erstattete Anzeige gegen ihren toten Mann – eine aktive, vorausschauende Neuinszenierung der eigenen Rolle vom Tag eins an, nicht ein spontanes Vertuschen.</p>
         <p class="vb-intro"><strong>b) Blockierte Herzenergie:</strong>
         Die Drei liegt im Zentrum des Herzzentrums, blockiert diese Energie aber, um zu funktionieren und Rollen zu spielen. Nach dem Schuldspruch zeigte Wright auffällig wenig Reaktion – kein Zusammenbruch, keine sichtbare Erschütterung. Dieselbe Kälte, die schon Diane Downs am Krankenbett ihrer sterbenden Kinder zeigte, taucht hier in anderer Form auf: nicht Gefühllosigkeit, sondern eine Herzenergie, die auf das Aufrechterhalten des Bildes ausgerichtet ist, selbst wenn das Bild gerade zusammenbricht.</p>
         <p class="vb-intro"><strong>c) Eitelkeit als Leidenschaft:</strong>

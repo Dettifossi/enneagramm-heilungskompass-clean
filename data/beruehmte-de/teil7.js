@@ -29,7 +29,7 @@ export function helgeSchneiderPortraitPage() {
 
         <h2 class="vb-section">3. Der Einserflügel: Disziplin hinter dem scheinbaren Chaos</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sexuellen Neun eine verborgene, aber unverkennbare Strenge. Was auf der Bühne wie reiner Zufall wirkt, ist in Wirklichkeit das Ergebnis jahrzehntelanger musikalischer Übung &ndash; sein Timing, seine Struktur, seine Improvisation sind kein Zufallsprodukt, sondern Resultat harter Arbeit. Diese Kombination aus scheinbarer Beliebigkeit und tatsächlicher, nie zur Schau gestellter Präzision ist reinste SX9w1-Handschrift.</p>
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sexuellen Neun eine verborgene, aber unverkennbare Strenge. Was auf der Bühne wie reiner Zufall wirkt, ist in Wirklichkeit das Ergebnis jahrzehntelanger musikalischer Übung &ndash; sein Timing, seine Struktur, seine Improvisation sind kein Zufallsprodukt, sondern Resultat harter Arbeit. Genau diese Kombination aus scheinbarer Beliebigkeit und tatsächlicher, nie zur Schau gestellter Präzision macht die SX9w1 aus.</p>
           <p class="vb-intro">Auch sein Verhältnis zum Ruhrgebiet, in dem er aufwuchs, spiegelt diesen Flügel: Können wird dort nicht ausgestellt, sondern genutzt. Statt seinen Erfolg zu inszenieren, wurde Schneider gerade durch Zurückhaltung sichtbar &ndash; eine stille, aber unnachgiebige Haltung, die sich auch daran zeigte, dass er während der Pandemie schlicht nicht auftrat, wenn die äußeren Bedingungen seinen Anspruch an Nähe und Unmittelbarkeit nicht erfüllten. Haltung zeigt sich im Handeln, nicht im Statement.</p>
         </blockquote>
 

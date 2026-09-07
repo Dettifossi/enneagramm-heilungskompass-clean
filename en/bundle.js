@@ -46985,7 +46985,7 @@ function helgeSchneiderPortraitPage() {
 
         <h2 class="vb-section">3. The One-Wing: Discipline Behind the Apparent Chaos</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing</strong> gives the Sexual Nine a hidden but unmistakable rigor. What looks like pure chance on stage is in fact the result of decades of musical practice — his timing, his structure, his improvisation are not accidents, but the result of hard work. This combination of apparent randomness and real, never-flaunted precision is pure SX9w1 signature.</p>
+          <p class="vb-intro">The <strong>One-wing</strong> gives the Sexual Nine a hidden but unmistakable rigor. What looks like pure chance on stage is in fact the result of decades of musical practice — his timing, his structure, his improvisation are not accidents, but the result of hard work. This very combination of apparent randomness and real, never-flaunted precision is what makes an SX9w1.</p>
           <p class="vb-intro">His relationship to the Ruhr region where he grew up mirrors this wing as well: skill isn't put on display there, it's used. Rather than staging his success, Schneider became visible precisely through restraint — a quiet but unyielding stance that also showed when he simply didn't perform during the pandemic if the outer conditions didn't meet his requirement for closeness and immediacy. Attitude is shown in action, not in a statement.</p>
         </blockquote>
 
@@ -54674,7 +54674,7 @@ function heleneFischerPortraitPage() {
         <h2 class="vb-section">2. Sexual Three: The Complete Performance as an Art Form</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Naranjo's <strong>Sexual Three (SX3)</strong> seeks, not primarily social prestige or quiet self-sufficiency, but immediate, magnetic impact in the direct moment of encounter &ndash; a complete, deliberately shaped self-presentation that knows exactly what impression it wants to make. Fischer describes herself as a "control freak" who sometimes gets in her own way with her own perfectionism, and openly admits: "I'm terribly bad at delegating." Instead of handing off tasks, she prefers to personally train through her elaborate trapeze and flying elements &ndash; even after a head injury during a trapeze act in Hanover or a broken rib during a tour rehearsal.</p>
-          <p class="vb-intro">This willingness to take on considerable physical risk so the evening's show achieves exactly the overwhelming effect she has envisioned is pure SX3 signature: it is not quiet security-building in the background that drives her, but the demand to make the one performance complete and unforgettable.</p>
+          <p class="vb-intro">This willingness to take on considerable physical risk so the evening's show achieves exactly the overwhelming effect she has envisioned shows the sexual Three in its purest form: it is not quiet security-building in the background that drives her, but the demand to make the one performance complete and unforgettable.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: Devotion to the Audience</h2>
@@ -91176,7 +91176,7 @@ function susanWrightPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual Three: The Image That Survives</h3>
         <p class="vb-intro"><strong>a) The role after the act:</strong>
-        What sets Susan Wright apart from pure calculation, and is at the same time pure SX3 signature, didn't happen on the night of the crime, but the day after: she painted over the bedroom and filed a report against her dead husband — an active, forward-looking re-staging of her own role from day one, not a spontaneous cover-up.</p>
+        What sets Susan Wright apart from pure calculation, and is thoroughly typical of the SX3, didn't happen on the night of the crime, but the day after: she painted over the bedroom and filed a report against her dead husband — an active, forward-looking re-staging of her own role from day one, not a spontaneous cover-up.</p>
         <p class="vb-intro"><strong>b) Blocked heart energy:</strong>
         The Three sits at the center of the heart center, yet blocks that energy in order to function and play roles. After the guilty verdict, Wright showed conspicuously little reaction — no breakdown, no visible shock. The same coldness Diane Downs already showed at her dying children's hospital bedside resurfaces here in a different form: not a lack of feeling, but a heart energy oriented toward maintaining the image, even as the image is collapsing.</p>
         <p class="vb-intro"><strong>c) Vanity as passion:</strong>
