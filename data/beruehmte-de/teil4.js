@@ -1840,3 +1840,68 @@ export function margaretRutherfordPortraitPage() {
     </div>
   `);
 }
+
+export function sergioBambarenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sergio-bambaren-portrait.jpg" alt="Sergio Bambarén – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sergio Bambarén</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schriftsteller und Surfer, geb. 1960 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der die Herde des Ozeans wählte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> findet sein Selbst nicht als Einzelgänger, sondern in der Verbundenheit mit etwas Größerem, dem er zugehört. Sergio Bambarén, 1960 in Lima geboren, bekam mit sieben Jahren sein erstes Surfbrett von seinem Vater – am nächsten Tag ritt er seine erste Welle, ein Moment, den er selbst als „mehr als magisch" beschreibt. Nach einem Chemieingenieur-Studium an der Texas A&M University stieg er in eine internationale Konzernkarriere ein und wurde Geschäftsführer eines britischen Unternehmens in Australien.</p>
+          <p class="vb-intro">Mit 34 Jahren gab er diese gesicherte Position vollständig auf, um „den wahren Sinn seines Lebens zu finden" – kein schrittweiser Ausstieg, sondern ein klarer Schnitt. Auf einer Auszeit in Portugal, am Strand von Guincho, begegnete er einem einsamen Delfin, der ihn zu seinem ersten Roman inspirierte: ›The Dolphin – Story of a Dreamer‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Botschafter einer gemeinsamen Sehnsucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo durch das Aufgehen in einer Sache, die größer ist als die eigene Person. Bei Bambarén zeigt sich das in seinem gesamten Werk: Seine Bücher sprechen nicht von individuellem Ehrgeiz, sondern von der Weisheit des Ozeans, der Kraft der Gemeinschaft und dem gemeinsamen menschlichen Wunsch nach einem sinnerfüllten Leben – Themen, die auf ein geteiltes „Wir" zielen, nicht auf persönlichen Ruhm.</p>
+          <p class="vb-intro">Als Redner beschreibt er sich selbst als jemanden, der „direkt vom Herzen zum Herzen" spricht, mit Botschaften über „bewusste Führung, Wirkung und die Stärke der Gemeinschaft" – nicht das eigene Ich steht im Zentrum, sondern die Verbindung zwischen Rednern und Publikum, zwischen Mensch und Natur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der radikale Bruch mit der sicheren Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sozialen Neun eine Entschlossenheit, die selten zaghaft bleibt, wenn eine Entscheidung erst einmal fällt. Statt seine Unzufriedenheit mit der Konzernwelt schleichend zu verarbeiten oder auf einen bequemeren Absprung zu warten, kündigte Bambarén mit 34 Jahren seine Position als Geschäftsführer vollständig – ohne Netz, ohne konkreten Plan B, nur mit der Gewissheit, dass er etwas anderes suchen musste.</p>
+          <p class="vb-intro">Diese Kompromisslosigkeit trägt sich bis heute fort: Sein Debütroman wurde zunächst in Eigenregie veröffentlicht, bevor er sich zum internationalen Bestseller mit über zehn Millionen verkauften Exemplaren in vierzig Sprachen entwickelte – ein Wagnis, das nur einging, wer bereit war, das eigene Werk notfalls allein zu tragen, statt auf die Zustimmung eines Verlags zu warten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Bestseller zur Kinoleinwand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">›The Dolphin – Story of a Dreamer‹ wurde 2009 von 20th Century Fox verfilmt und für den Oscar in Betracht gezogen. Seither hat Bambarén über 25 weitere Bücher veröffentlicht, die in zahlreichen Sprachen und Ländern erschienen sind – poetische, oft parabelhafte Werke über die Schönheit der Natur und die Suche nach persönlichem Glück.</p>
+          <p class="vb-intro">Heute tritt er weltweit als Vortragsredner auf und verbindet dabei seine persönliche Lebensgeschichte mit der zeitlosen Weisheit des Meeres – derselbe Ozean, der ihm einst den Mut zum Neuanfang gab, wird zum wiederkehrenden Symbol seiner gesamten öffentlichen Botschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 zeigt sich bei Bambarén in der seltenen Fähigkeit, eine radikale, existenzielle Entscheidung zu treffen und sie dann in eine Botschaft zu verwandeln, die Millionen Menschen als eigene Sehnsucht wiedererkennen – individuelle Kühnheit im Dienst eines geteilten Gefühls.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich darin, dass sein eigenes, sehr persönliches Wagnis in der öffentlichen Rezeption fast vollständig hinter der allgemeingültigen, für jeden nachfühlbaren Botschaft verschwindet – der Mensch Bambarén tritt bewusst hinter das universelle „Du kannst deinen Traum finden" zurück, das er predigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Träumer, der den Sprung ins Wasser wagte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sergio Bambaréns Weg zeigt die soziale Neun mit Achterflügel in ihrer mutigsten Form: eine radikale, kompromisslose Abkehr von der gesicherten Karriere, gefolgt von einem Lebenswerk, das ausschließlich der Verbindung zwischen Mensch, Gemeinschaft und Natur gewidmet ist. Der Büffel verlässt die sichere Weide nicht leichtfertig – aber wenn er es tut, dann ganz.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-carlo-ancelotti", label:"Porträt: Carlo Ancelotti (SO9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

@@ -1263,6 +1263,7 @@ export const registerEntries = [
   { term: "Willy Brandt",                  route: "beruehmte-willy-brandt",                description: "Portrait: SO9w8 · Sozialer Typ 9 · Kanzler, Kniefall in Warschau, Versöhnung" },
   { term: "Jürgen von der Lippe",           route: "beruehmte-juergen-von-der-lippe",       description: "Portrait: SO9w8 · Sozialer Typ 9 · Entertainer, vier Jahrzehnte im öffentlich-rechtlichen TV" },
   { term: "Carlo Ancelotti",                route: "beruehmte-carlo-ancelotti",             description: "Portrait: SO9w8 · Sozialer Typ 9 · Fußballtrainer, fünf Champions-League-Titel" },
+  { term: "Sergio Bambarén",                route: "beruehmte-sergio-bambaren",             description: "Portrait: SO9w8 · Sozialer Typ 9 · Schriftsteller, ›The Dolphin‹, ehemaliger Konzern-CEO" },
   { term: "Wolodymyr Selenskyj",           route: "beruehmte-wolodymyr-selenskyj",         description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Präsident der Ukraine, Kriegsleader" },
 
   // Kriminalpsychologie – fehlende Porträts
@@ -1897,6 +1898,7 @@ export const registerEntriesEN = [
   { term: "Willy Brandt", route: "beruehmte-willy-brandt", description: "Portrait: SO9w8 · Social Type 9 · Chancellor, Kniefall in Warsaw, reconciliation" },
   { term: "Jürgen von der Lippe", route: "beruehmte-juergen-von-der-lippe", description: "Portrait: SO9w8 · Social Type 9 · Entertainer, four decades on German public TV" },
   { term: "Carlo Ancelotti", route: "beruehmte-carlo-ancelotti", description: "Portrait: SO9w8 · Social Type 9 · Football manager, five Champions League titles" },
+  { term: "Sergio Bambarén", route: "beruehmte-sergio-bambaren", description: "Portrait: SO9w8 · Social Type 9 · Author of 'The Dolphin', former corporate CEO" },
   { term: "Wolodymyr Selenskyj", route: "beruehmte-wolodymyr-selenskyj", description: "Portrait: SE3w2 · Self-Preservation Type 3 · President of Ukraine, Wartime leader" },
 
 
