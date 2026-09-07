@@ -1824,3 +1824,67 @@ export function matthewMcConaugheyPortraitPage() {
     </div>
   `);
 }
+
+export function francoisDamiensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-francois-damiens-portrait.jpg" alt="François Damiens – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">François Damiens</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Komiker, geb. 1973 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das sich unter fremden Blicken versteckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> zeigt sich selten offen – es verschmilzt mit seiner Umgebung, bis man es kaum noch von ihr unterscheiden kann. François Damiens, 1973 im belgischen Uccle geboren, begann seine Karriere nicht vor, sondern hinter der Kamera: Zwischen 1999 und 2005 inszenierte er über 400 versteckte Kamerastreiche für das belgische Fernsehen, meist selbst unerkannt in einer Verkleidung oder Rolle, die niemand mit seinem echten Ich verwechseln konnte.</p>
+          <p class="vb-intro">Bis heute gilt er als extrem zurückhaltend, was sein Privatleben angeht – seine langjährige Beziehung zu seiner Partnerin Gaëlle bleibt bewusst im Hintergrund, ebenso Details zu seinen beiden Söhnen Jack und Jimmy. Ein Mann, der im Beruf ständig in fremde Identitäten schlüpft, aber die eigene so gut wie möglich abschirmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Rolle statt mit dem Ruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die eigene Bühnenwirkung, sondern das vollständige Aufgehen in einer Figur oder einem Moment. Bei Damiens zeigt sich das in seiner Fähigkeit, in jeder Rolle vollständig zu verschwinden – von der grotesken Kunstfigur „François l'Embrouille" bis zum gebrochenen, gehörlosen Vater in ›La Famille Bélier‹ (2014), einer Rolle, die ihm internationale Anerkennung einbrachte, aber nie den Wunsch weckte, sich selbst als Star zu inszenieren.</p>
+          <p class="vb-intro">Auch privat bindet er sich eng an sein familiäres Umfeld, statt sich im öffentlichen Rampenlicht zu bewegen: Seine Söhne Jack und Jimmy ließ er sogar in ›Le Prince Oublié‹ mitspielen – nicht um sie bekannt zu machen, sondern weil die Grenze zwischen seinem echten Leben und seiner Arbeit für ihn ohnehin durchlässig ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Konfrontation als Handwerkszeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Neun eine Konfrontationsbereitschaft, die bei Damiens zum eigentlichen Markenzeichen wurde. Seine Kunstfigur für die versteckte Kamera war ausdrücklich als „vulgär, grantig, widerwärtig und unsympathisch" angelegt – ein Charakter, der ahnungslose Passanten und Prominente bewusst provozierte, bis die Situation kippte. Kein zurückhaltender Humor, sondern eine direkte, oft unangenehme Konfrontation als komisches Prinzip.</p>
+          <p class="vb-intro">Genau diese Bereitschaft, unangenehme Situationen bewusst herbeizuführen, statt ihnen auszuweichen, ist untypisch für die eigentlich konfliktscheue Neun – aber typisch für den Achterflügel. Er verschafft der Verschmelzungssehnsucht der SX9 eine Waffe: Wo eine schwächer ausgeprägte Neun sich zurückzieht, sucht Damiens beruflich aktiv die Reibung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der versteckten Kamera zum Charakterdarsteller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seinen Jahren als verdeckter Kamera-Provokateur wechselte Damiens 2006 mit ›OSS 117: Le Caire, nid d'espions‹ und dem belgischen Film ›Dikkenek‹ ins Kino. 2013 folgte mit ›Suzanne‹ von Katell Quillévéré ein erster ernster Rollenwechsel, in dem er den Vater von Sara Forestier und Adèle Haenel spielte – seither ist er einer der gefragtesten Charakterdarsteller des französischsprachigen Kinos, mit über 50 Filmen seit 2000.</p>
+          <p class="vb-intro">Diese Wandlungsfähigkeit vom grotesken Provokateur zum stillen, verletzlichen Vaterdarsteller zeigt beide Seiten der SX9w8: die Fähigkeit zur vollständigen Verschmelzung mit einer Figur und die Bereitschaft, dabei auch unbequeme, konfrontative Bereiche nicht zu scheuen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 zeigt sich bei Damiens in der seltenen Kombination aus schauspielerischer Selbstauflösung und beruflichem Mut zur Provokation – er scheut weder die groteske Komik noch die verletzliche Dramatik, solange beide echt wirken.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in der fast vollständigen Abschottung seines Privatlebens: Wo andere Prominente ihre Beziehungen und ihre Familie öffentlich zur Schau stellen, bleibt bei Damiens fast alles unausgesprochen – eine Form der Selbstvergessenheit, die sich hier nicht in Passivität, sondern in beruflicher Auflösung entlädt, während das Private nahezu unsichtbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Mann, der sich in jeder Rolle auflöst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">François Damiens' Weg zeigt die sexuelle Neun mit Achterflügel in einer besonders wandlungsfähigen Form: vollständige Verschmelzung mit der jeweiligen Rolle, gepaart mit einer Bereitschaft zur Konfrontation, die selbst vor unangenehmen komischen Extremen nicht zurückschreckt – während das eigene Leben so gut es geht im Verborgenen bleibt. Das Faultier zeigt sich der Welt nur als das, was es gerade spielt, nie als das, was es wirklich ist.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8) – ebenfalls Provokation als Waffe des Achterflügels"},
+          {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

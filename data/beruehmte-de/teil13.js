@@ -646,6 +646,7 @@ export function hundertwasserPortraitPage() {
         {route:"beruehmte-iga-swiatek", label:"Portr\u00e4t: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"beruehmte-diego-velazquez", label:"Portr\u00e4t: Diego Vel\u00e1zquez (SX9w1)"},
         {route:"krankheitsportraets-hundertwasser", label:"Krankheitsportr\u00e4t: Friedensreich Hundertwasser (SX9w8) \u2013 chronisches Herzleiden"},
+        {route:"beruehmte-francois-damiens", label:"Portr\u00e4t: Fran\u00e7ois Damiens (SX9w8) \u2013 ebenfalls Provokation als Waffe des Achterfl\u00fcgels"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Schaubild: Architektur & Raumgestaltung der 9 Typen"},
       ])}
     </div>
