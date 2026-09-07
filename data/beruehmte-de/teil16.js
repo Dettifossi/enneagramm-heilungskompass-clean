@@ -1758,6 +1758,7 @@ export function edSheeranPortraitPage() {
           {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1) – dasselbe Understatement"},
           {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
           {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1) – dieselbe ruhige Ausstrahlung"},
+          {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – dieselbe jahrzehntelange Bindungstreue"},
         ])}
       </div>
     </div>

@@ -1811,3 +1811,68 @@ export function rupertSpiraPortraitPage() {
     </div>
   `);
 }
+
+export function jonBonJoviPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jon-bon-jovi-portrait.jpg" alt="Jon Bon Jovi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jon Bon Jovi</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1962 &ndash; Sänger und Gründer von Bon Jovi &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das bei einer Bindung blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – ein Tier, das sich nicht auf viele Kontakte verteilt, sondern vollständig mit einer einzigen, tragenden Bindung verschmilzt. John Francis Bongiovi Jr., 1962 in Perth Amboy, New Jersey, geboren, lernte seine spätere Frau Dorothea Hurley 1980 als Schüler an der Sayreville War Memorial High School kennen. Nach Jahren wechselhafter Beziehung heirateten die beiden 1989 heimlich in einer Hochzeitskapelle in Las Vegas – und sind bis heute, über 35 Jahre später, verheiratet.</p>
+          <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit zeigt sich in seiner Band: Bon Jovi wurde 1983 gegründet und besteht in ihrem Kern bis heute – eine der seltenen Rockbands, die über vier Jahrzehnte im Wesentlichen zusammenblieb, statt sich in wechselnden Besetzungen aufzulösen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Alle gehören dazu</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo Erfüllung durch vollständige Verschmelzung – mit einem Menschen, aber auch mit einer Gemeinschaft, in der niemand ausgeschlossen bleibt. Seit 2006 betreibt Bon Jovi über die Jon Bon Jovi Soul Foundation gemeinnützige „Soul Kitchen"-Restaurants in New Jersey, die nach dem Prinzip „Pay It Forward" arbeiten: Wer zahlen kann, zahlt einen freien Betrag oder hilft mit; wer nicht zahlen kann, isst trotzdem – ohne dass am Tisch ein Unterschied gemacht wird, wer zu welcher Gruppe gehört.</p>
+          <p class="vb-intro">Genau das ist die SX9-Logik in ihrer wohltätigsten Form: Es gibt keine Trennung zwischen „denen, die dazugehören" und „denen, die es nicht tun" – alle sitzen am selben Tisch. Über 275.000 Mahlzeiten wurden auf diese Weise inzwischen serviert, dazu Unterstützung für fast 1.000 Wohneinheiten für obdachlose und bedürftige Menschen in zwölf US-Bundesstaaten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin, wenn die Stimme versagt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sexuellen Neun eine verborgene Strenge, die sich besonders in Krisenmomenten zeigt. Nach enttäuschenden, spürbar schiefen Auftritten auf der US-Tournee 2022 diagnostizierten Ärzte eine fortschreitende Atrophie eines Stimmbands – ein potenziell karriereberendes Problem für einen Sänger. Statt aufzugeben, unterzog sich Bon Jovi einer aufwendigen, noch relativ neuen Operation (medialisierende Thyroplastik), bei der ein Implantat das geschwächte Stimmband von außen stützt.</p>
+          <p class="vb-intro">Die eigene Beschreibung dieser Zeit als „herzzerreißend" zeigt, wie ernst ihn der drohende Verlust seiner Stimme traf – doch statt sich zurückzuziehen, arbeitete er diszipliniert auf ein Comeback hin: 2026 kündigte er mit der Band die internationale ›The Forever Tour‹ an. Diese Kombination aus stiller Verschmelzung mit der eigenen Band und dem Publikum und der zähen, unauffälligen Disziplin, die nötig ist, um zurückzukommen, ist typisch SX9w1.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom New-Jersey-Jungen zur Stadion-Institution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Schon als Teenager stand Bon Jovi mit einer zehnköpfigen Coverband namens Atlantic City Expressway auf der Bühne und spielte Songs von New-Jersey-Kollegen wie Bruce Springsteen. Mit dem 1986 erschienenen Album ›Slippery When Wet‹ gelang der endgültige Durchbruch – über 28 Millionen verkaufte Exemplare allein davon, insgesamt mehr als 130 Millionen verkaufte Alben über die gesamte Karriere.</p>
+          <p class="vb-intro">Was in all den Jahrzehnten blieb, war weniger die einzelne Hit-Single als die Verlässlichkeit der Verbindung: dieselbe Band, dieselbe Ehefrau, dasselbe New Jersey, aus dem er nie wirklich fortging – auch nicht, als er längst auf den größten Bühnen der Welt stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Bon Jovi in der Fähigkeit, jahrzehntelange Bindungen – zur Ehefrau, zur Band, zu seiner Herkunftsregion – ohne den Anschein von Zwang oder Krampf aufrechtzuerhalten, während gleichzeitig eine tiefe soziale Verantwortung wächst, die niemanden ausschließt.</p>
+          <p class="vb-intro">Der Schatten der Neun liegt in der Gefahr, die eigenen Bedürfnisse hinter der Bindung an andere zu vergessen – erkennbar auch daran, wie lange Bon Jovi öffentlich schwieg oder zögerte, bevor er sich der eigenen, stimmlichen Verwundbarkeit stellte und wirklich handelte. Der Einserflügel half am Ende, aus dem stillen Aushalten eine konkrete, diszipliniert verfolgte Lösung zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Sänger, der am selben Tisch sitzen bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jon Bon Jovis Weg zeigt die sexuelle Neun mit Einserflügel in einer besonders langlebigen Form: eine Ehe, eine Band und eine Wohltätigkeitsarbeit, die alle auf demselben Prinzip beruhen – Verschmelzung statt Trennung, Zugehörigkeit statt Ausschluss. Das Faultier bewegt sich nicht viel, aber wenn seine Stimme in Gefahr gerät, kämpft es diszipliniert darum, sie zu behalten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1) – ebenfalls Musiker, dieselbe konzentrierte Bühnenverschmelzung"},
+          {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+          {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
