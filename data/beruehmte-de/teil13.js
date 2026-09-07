@@ -1839,3 +1839,68 @@ export function hermanVanVeenPortraitPage() {
     </div>
   `);
 }
+
+export function juergenVonDerLippePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-von-der-lippe-portrait.jpg" alt="Jürgen von der Lippe – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen von der Lippe</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Entertainer, geb. 1948 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der im selben Sender-Rudel alt wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> lebt nicht als Einzeltier, sondern als Teil einer Herde, die sich gemeinsam bewegt. Jürgen von der Lippe, eigentlich Hans-Jürgen Dohrenkamp, geboren 1948 in Bad Salzuflen, fand seinen Durchbruch 1980 mit dem ›WWF-Club‹ im WDR – und blieb dem öffentlich-rechtlichen Fernsehen und seinem Publikum danach über vier Jahrzehnte treu, von ›Geld oder Liebe‹ (1989–2001) bis zu zahllosen weiteren Formaten bis ins hohe Alter.</p>
+          <p class="vb-intro">Auch privat lebt er seit über 40 Jahren mit seiner Frau Anne Dohrenkamp zusammen – allerdings in getrennten Wohnungen, wie er selbst offen erzählt. Eine Bindung, die sich nicht an äußeren Konventionen misst, sondern daran, dass sie einfach hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Zugehörigkeit zum Sender statt Solo-Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo nicht als herausgehobene Einzelperson, sondern durch das Aufgehen in einer Sache oder Institution, der sie sich zugehörig fühlt. Bei von der Lippe zeigt sich das in seiner jahrzehntelangen Verbundenheit mit dem öffentlich-rechtlichen Fernsehen: Er wechselte nie zu einem großen Privatsender-Deal, sondern blieb dem vertrauten Programmumfeld treu, in dem er groß wurde – Show für Show, Jahrzehnt für Jahrzehnt, ohne den Anspruch, sich als Solo-Marke über das Medium zu erheben.</p>
+          <p class="vb-intro">Dieselbe unaufgeregte Verlässlichkeit zieht sich durch sein Bühnenleben: Auch mit über 75 Jahren tourt er weiter, ohne Abschiedsgesten oder große Inszenierung des eigenen Rückzugs – einfach, weil die Bühne und das Publikum zu seinem Leben gehören, nicht weil er es nötig hätte, sich zu beweisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Der freche Spruch, der nicht ausbleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sozialen Neun eine Direktheit, die selten diplomatisch verpackt wird. Von der Lippe ist bekannt dafür, „immer einen frechen Spruch parat" zu haben – sein Humor gilt seit Jahrzehnten als „mitunter derb", nie als angepasst-brav. Statt sich dem gefälligen Mainstream-Fernsehen anzupassen, wird er im Alter eher schärfer: „Große Fernsehshows, also Mainstream, ist nicht mehr mein Ding, das will auch kein Sender, da braucht es schwiegermutterkompatible junge Menschen" – ein Seitenhieb, der nichts beschönigt.</p>
+          <p class="vb-intro">Noch deutlicher wird die Achter-Direktheit in seiner offenen Fernsehkritik: „Es ist immer weniger Geld fürs Programm da, dafür gibt es immer mehr Menschen, die mitreden wollen, dabei aber hauptsächlich Bedenken tragen." Keine vage Unzufriedenheit, sondern eine klare, unverblümte Benennung dessen, was ihn stört – bei einem Mann, der sich ansonsten nie als lautstarker Kämpfer inszeniert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Fernmeldeoffizier zum Entertainer-Urgestein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach einer Offiziersausbildung bei der Bundeswehr und einem abgebrochenen Lehramtsstudium gründete von der Lippe 1976 mit Hans Werner Olm die Kabarettgruppe „Gebrüder Blattschuss". Es folgten Plattenhits wie ›Kreuzberger Nächte‹ und ›Guten Morgen, liebe Sorgen‹ sowie zahlreiche eigene Kunstfiguren, die er über Jahrzehnte auf der Bühne selbst verkörperte.</p>
+          <p class="vb-intro">Shows wie ›Geld oder Liebe‹, ›Donnerlippchen‹ oder ›Lippes Leselust‹ machten ihn zu einer der konstantesten Figuren des deutschen Fernsehens – nicht durch einen einzelnen großen Karrieresprung, sondern durch beständige Präsenz über Generationen von Zuschauern hinweg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 zeigt sich bei von der Lippe in einer seltenen Kombination: jahrzehntelange, unaufgeregte Verlässlichkeit gegenüber seinem Publikum und seinem Sender, gepaart mit dem Mut, unbequeme Wahrheiten über die eigene Branche unumwunden auszusprechen, statt sich anzubiedern.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich darin, dass sein eigenes Profil hinter der Institution Fernsehen lange kaum als eigenständige Marke sichtbar wurde – erst die schärferen, späteren Äußerungen ließen erkennen, wie viel kritische Beobachtung sich hinter der freundlichen Entertainer-Fassade all die Jahre angesammelt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Entertainer, der nie den Sender wechselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jürgen von der Lippes Weg zeigt die soziale Neun mit Achterflügel in einer bodenständigen, jahrzehntelang gehaltenen Form: derselbe Sender, dasselbe Publikum, dieselbe Partnerin – bei gleichzeitiger Bereitschaft, im Alter deutlicher zu werden, statt leiser. Der Büffel bleibt in seiner Herde, auch wenn er ihr gelegentlich unverblümt die Meinung sagt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
+          {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
