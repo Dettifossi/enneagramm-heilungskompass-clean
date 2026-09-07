@@ -1826,7 +1826,7 @@ export function jonHammPortraitPage() {
 
         <h2 class="vb-section">1. Der Löwe, der erst für andere stand, bevor er selbst gesehen wurde</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School, unter anderem der späteren Schauspielerin Ellie Kemper.</p>
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – Kraft, die nicht zur Selbstbehauptung, sondern zum Schutz und Zusammenhalt einer Gemeinschaft eingesetzt wird. Jon Hamm, geboren 1971 in St. Louis, verlor seine Mutter mit zehn Jahren an Krebs und mit zwanzig seinen Vater – bevor er selbst zum gefeierten Schauspieler wurde, arbeitete er als Drama-Lehrer an seiner alten High School und unterrichtete dort unter anderem die spätere Schauspielerin Ellie Kemper.</p>
           <p class="vb-intro">Kemper beschrieb ihn Jahre später als „großzügigen, selbstlosen Menschen" – als sie in Los Angeles ihr eigenes Comedy-Solo-Programm aufführte, kam der inzwischen durch ›Mad Men‹ weltberühmte Hamm einfach vorbei, um sie zu unterstützen. Genau das ist die SO8-Grundhaltung: Kraft wird nicht gehortet, sondern denen zur Verfügung gestellt, die zur eigenen Gemeinschaft gehören.</p>
         </blockquote>
 
@@ -1856,7 +1856,7 @@ export function jonHammPortraitPage() {
 
         <h2 class="vb-section">6. Der Löwe, der zurückkam, um zu applaudieren</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jon Hamms Weg zeigt die soziale Acht mit Siebenerflügel in einer versöhnlichen Form: Kraft, die früh für andere eingesetzt wurde, bevor sie selbst öffentlich sichtbar wurde, eine tiefe persönliche Krise, die offen benannt statt verdrängt wurde, und eine Vielseitigkeit, die nie vergisst, woher die eigene Tragfähigkeit kommt. Der Löwe brüllt nicht ständig – aber wenn eine ehemalige Schülerin auf der Bühne steht, ist er da.</p>
+          <p class="vb-intro">Jon Hamms Weg zeigt die soziale Acht mit Siebenerflügel in einer versöhnlichen Form: Kraft, die lange für andere im Einsatz war, bevor sie selbst ins Rampenlicht trat, eine tiefe persönliche Krise, offen benannt statt verdrängt, und eine Vielseitigkeit, die nie vergisst, woher die eigene Tragfähigkeit kommt. Der Löwe brüllt nicht ständig – aber wenn eine ehemalige Schülerin auf der Bühne steht, ist er da.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
