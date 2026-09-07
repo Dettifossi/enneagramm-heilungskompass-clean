@@ -1871,6 +1871,7 @@ export function jonBonJoviPortraitPage() {
           {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1) – ebenfalls Musiker, dieselbe konzentrierte Bühnenverschmelzung"},
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
           {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+          {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
         ])}
       </div>
     </div>

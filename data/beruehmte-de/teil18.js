@@ -1817,3 +1817,68 @@ export function cecilyBrownPortraitPage() {
     </div>
   `);
 }
+
+export function davidGuettaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-guetta-portrait.jpg" alt="David Guetta – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Guetta</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">DJ und Musikproduzent, geb. 1967 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der DJ, der sich hinter dem Pult zurücknimmt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt reglos am Ast, während um es herum das Dickicht lebt – nicht abwesend, sondern vollständig eins mit seiner Umgebung. David Guetta, 1967 in Paris geboren, begann mit dreizehn Jahren seine ersten Platten aufzulegen und stand mit siebzehn schon regelmäßig hinter dem Pult im Le Broad Club. Seit den 1980er-Jahren hat er kaum je selbst gesungen – fast jeder seiner Welthits trägt die Stimme eines anderen: Chris Willis, Kelly Rowland, Sia, Anne-Marie, Bebe Rexha.</p>
+          <p class="vb-intro">Genau darin liegt das Faultierhafte an ihm: Der Name David Guetta steht über dem Song, doch die Person selbst tritt zurück und lässt die eigentliche Stimme wirken. Kein Frontmann, der die Bühne für sich beansprucht, sondern jemand, der sich mit dem musikalischen Moment verschmilzt, statt sich vor ihn zu stellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die eigene Bühnenwirkung, sondern das vollständige Aufgehen in einer Sache oder einem Gegenüber. Bei Guetta zeigt sich das in seiner fast durchgängigen Praxis, mit einer Gastsängerin oder einem Gastsänger zusammenzuarbeiten, statt selbst zu singen: „Ich habe mein Leben lang dafür gearbeitet, dass DJs so respektiert werden wie Künstler", sagte er einmal über seinen Anspruch – nicht als Solokünstler zu glänzen, sondern das Handwerk des DJs selbst aufzuwerten, indem er es mit anderen Stimmen verschmilzt.</p>
+          <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit trägt seine Ibiza-Partyreihe „F*** Me I'm Famous!", die er 2002 gründete und seither über zwei Jahrzehnte fortführt – vom Pacha über die Hï Ibiza bis zur Ushuaïa, immer mit wechselnden Gast-DJs, aber unter demselben Namen und derselben Handschrift. Nicht der einzelne Abend zählt, sondern die eine, all die Jahre tragende Institution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Systematik im Sound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> zeigt sich bei Guetta weniger in strenger Moral als in einer methodischen Herangehensweise an Sound und Genre. Immer wieder erkannte er früh, welche musikalischen Strömungen sich verbinden ließen – Electro-House mit Pop, später Future House mit Mainstream-Radio-Sound –, und baute daraus systematisch wiederholbare Produktionsformeln, die er über Jahre konsequent verfeinerte, statt einem einzelnen Zufallshit hinterherzulaufen.</p>
+          <p class="vb-intro">Auch sein 2009er Durchbruch mit den Black Eyed Peas und Kelly Rowland war kein Einzelfall, sondern der erste Baustein eines geordneten, jahrzehntelang fortgesetzten Systems aus Features, Remixen und Charterfolgen – ein Ordnungsprinzip hinter der scheinbaren Beiläufigkeit des Partymachens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Pariser Club zum Grammy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1994 wurde Guetta Manager des Pariser Clubs Le Palace, 2001 gründete er mit Joachim Garraud die Produktionsfirma Gum Productions. Der erste große Hit „Just a Little More Love" verkaufte sich über 300.000-mal, das Debütalbum 2002 rund 250.000-mal. Mit „When Love Takes Over" (2009, feat. Kelly Rowland) gelang der internationale Durchbruch, gekrönt von einem Grammy für den besten Remix.</p>
+          <p class="vb-intro">Seither zählt er zu den meistgestreamten und meistgebuchten DJs der Welt, mit Hits wie „Titanium" (feat. Sia) oder „I'm Good (Blue)" – jedes Mal mit einer anderen Stimme im Zentrum, jedes Mal mit Guetta selbst im Hintergrund am Regler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Guetta in der Fähigkeit, über Jahrzehnte hinweg immer wieder neue Verschmelzungen einzugehen – mit Sängerinnen, Sängern, Genres, Publikum –, ohne dabei die eigene Handschrift zu verlieren. Der Einserflügel gibt dieser Beweglichkeit eine erkennbare, wiederholbare Struktur.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigte sich 2014, als seine 22 Jahre währende Ehe mit Cathy Guetta geschieden wurde – ein Bruch, der zeigt, dass auch die scheinbar mühelose Verschmelzung der Neun an Grenzen stoßen kann, wenn zwei Menschen sich über die Jahre auseinanderentwickeln. Seit 2015 ist er mit Jessica Ledon zusammen, mit der er zwei weitere Kinder hat – eine neue, wiederum langjährig gehaltene Bindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Mann am Mischpult, der die Bühne den anderen überlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">David Guettas Weg zeigt die sexuelle Neun mit Einserflügel in ihrer öffentlichsten und zugleich unauffälligsten Form: einer der bekanntesten Namen der Popmusik, der sich konsequent hinter fremde Stimmen zurücknimmt und lieber das große Ganze trägt, als selbst im Rampenlicht zu stehen. Das Faultier hängt am Ast im Zentrum des Sturms – und lässt trotzdem den Sturm um sich herum die Show bestreiten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
+          {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
+          {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
