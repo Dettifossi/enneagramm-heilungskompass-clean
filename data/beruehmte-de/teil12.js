@@ -1756,7 +1756,7 @@ export function heleneFischerPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Fischer in der Fähigkeit, überwältigende Bühnenwirkung mit echter Hingabe an ihr Publikum zu verbinden – die Show ist nicht bloß Blendung, sondern ein Geschenk an die Menschen, die sich einen Abend voller Nähe und Emotion wünschen.</p>
+          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Fischer in der Fähigkeit, überwältigende Bühnenwirkung mit echter Hingabe an ihr Publikum zu verbinden – die Show ist nicht bloß Blendwerk, sondern ein Geschenk an die Menschen, die sich einen Abend voller Nähe und Emotion wünschen.</p>
           <p class="vb-intro">Der Schatten der Drei liegt in der Unfähigkeit, Kontrolle abzugeben, und in der Bereitschaft, die eigene körperliche Sicherheit dem Anspruch an die perfekte Darbietung unterzuordnen. Der Zweierflügel mildert diese Härte gegen sich selbst zwar durch emotionale Offenheit gegenüber Fans und Familie, verhindert aber nicht, dass sie sich selbst am härtesten von allen behandelt.</p>
         </blockquote>
 
