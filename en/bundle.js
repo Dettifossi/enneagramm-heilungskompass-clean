@@ -446,7 +446,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Self-Preservation Type 2", krankheit:"Post-traumatic stress disorder, severe psychological breakdown twenty years after liberation", teaser:"SP2w1 – author and activist, born 1988. Post-traumatic stress disorder following eight years of captivity (1998–2006), severe psychological breakdown made public by her family in 2026. Connected to Greta Thunberg (also SP2w1, also retreat into a world of her own under extreme pressure)." , land:"Austria", gender:"f", jahre:"born 1988"},
   { route:"krankheitsportraets-blaise-pascal", name:"Blaise Pascal", subtyp:"SX5w6", heading:"Blaise Pascal – Sexual Type 5", krankheit:"Lifelong, never conclusively diagnosed chronic illness (headaches, digestive suffering), radical self-mortification in his final years", teaser:"SX5w6 – French mathematician, physicist, and philosopher, 1623–1662. Practically no pain-free day documented since age 18. Withdrew radically from science and possessions in his final years, at times wore a nail belt for self-mortification, died at only 39 after a violent seizure." , land:"France", gender:"m", jahre:"1623–1662"},
   { route:"krankheitsportraets-diego-velazquez", name:"Diego Velázquez", subtyp:"SX9w1", heading:"Diego Velázquez – Sexual Type 9", krankheit:"Sudden, fatal fever after complete physical exhaustion", teaser:"SX9w1 – Spanish court painter, creator of Las Meninas, 1599–1660. Exhaustively organized the entire court ceremony for the wedding of the Infanta María Teresa to Louis XIV in 1660 on the Isle of Pheasants. Fell ill with a high fever days after returning and died within a week." , land:"Spain", gender:"m", jahre:"1599–1660"},
-  { route:"krankheitsportraets-juergen-drews", name:"Jürgen Drews", subtyp:"SX9w1", heading:"Jürgen Drews – Sexual Type 9", krankheit:"Polyneuropathy (chronic nerve disease)", teaser:"SX9w1 – German schlager singer, 'King of Mallorca,' born 1945. Publicly announced his diagnosis of the nerve disease polyneuropathy in 2022, announced retirement from the stage – still released a new album in 2025. \"I am tired, but not finished.\"", land:"Germany", gender:"m", jahre:"1945–"},
+  { route:"krankheitsportraets-juergen-drews", name:"Jürgen Drews", subtyp:"SX9w8", heading:"Jürgen Drews – Sexual Type 9", krankheit:"Polyneuropathy (chronic nerve disease)", teaser:"SX9w8 – German schlager singer, 'King of Mallorca,' born 1945. Publicly announced his diagnosis of the nerve disease polyneuropathy in 2022, announced retirement from the stage – still released a new album in 2025. \"I am tired, but not finished.\"", land:"Germany", gender:"m", jahre:"1945–"},
   { route:"krankheitsportraets-adam-smith", name:"Adam Smith", subtyp:"SO1w9", heading:"Adam Smith – Social Type 1", krankheit:"Decades of chronic digestive suffering, presumed bowel obstruction as cause of death", teaser:"SO1w9 – Scottish moral philosopher and economist, founder of modern economics, 1723–1790. Decades of digestive complaints, described by contemporaries as hypochondria but genuinely physical. Had almost all his unpublished manuscripts burned shortly before his death, fearing they would not meet his own high standard." , land:"Scotland", gender:"m", jahre:"1723–1790"},
   { route:"krankheitsportraets-joseph-haydn", name:"Joseph Haydn", subtyp:"SE3w2", heading:"Joseph Haydn – Self-Preservation Type 3", krankheit:"Progressive dropsy (edema) and general physical decline in his final years", teaser:"SE3w2 – Austrian composer, the “father of the symphony,” 1732–1809. Increasingly unable to work from about 1803 due to dropsy and exhaustion. In May 1809, while Napoleon's troops shelled Vienna, the dying Haydn played his own imperial anthem on the piano three times to calm his household staff – died a few days later." , land:"Austria", gender:"m", jahre:"1732–1809"},
 ];
@@ -2400,9 +2400,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Adam Sandler – Sexual Type 9",
     teaser:"SX9w1 · born 1966. Actor and comedian. Has made almost every film since the 1980s with the same close circle of friends: \"I don't need to meet new people. I've got the best people in my life already.\" Animal correspondence: Sloth.",
     land:"USA", tags:["Film"] , gender:"m"},
-{ route:"beruehmte-juergen-drews", name:"Jürgen Drews", added:"2026-09-07", subtyp:"SX9w1",
+{ route:"beruehmte-juergen-drews", name:"Jürgen Drews", added:"2026-09-07", subtyp:"SX9w8",
     heading:"Jürgen Drews – Sexual Type 9",
-    teaser:"SX9w1 · born 1945. German schlager singer, 'King of Mallorca.' Married to Ramona since 1994, the same audience on Mallorca for decades – still released a new album in 2025 despite polyneuropathy: \"I am tired, but not finished.\" Animal correspondence: Sloth.",
+    teaser:"SX9w8 · born 1945. German schlager singer, 'King of Mallorca.' Married to Ramona since 1994, the same audience on Mallorca for decades, yet bluntly open: \"I have never liked the Ballermann.\" Animal correspondence: Sloth.",
     land:"Germany", tags:["Musik"] , gender:"m"},
 { route:"beruehmte-diego-velazquez", name:"Diego Velázquez", added:"2026-08-15", subtyp:"SX9w1",
     heading:"Diego Velázquez – Sexual Type 9",
@@ -46902,7 +46902,7 @@ function davidGuettaPortraitPage() {
           {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – also a musician with a long-running institution of his own"},
           {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
           {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-          {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w1) – also decades-long loyalty to audience and partner"},
+          {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8) – also decades-long loyalty to audience and partner"},
         ])}
       </div>
     </div>
@@ -46984,7 +46984,7 @@ function juergenDrewsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen Drews</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Schlager singer, born 1945 &ndash; Animal correspondence: Sloth</p>
       </div>
       <div class="page-content">
@@ -47001,10 +47001,10 @@ function juergenDrewsPortraitPage() {
           <p class="vb-intro">The same capacity for merging applies to his marriage: Ramona has accompanied him to concerts, TV appearances, and appointments for over 30 years &ndash; not a loose married-couple arrangement, but a partner inseparable from both his public and private life, down to their daughter Joelina, also a singer.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The One-wing: Working On Despite Illness</h2>
+        <h2 class="vb-section">3. The Eight-wing: An Open Reckoning With His Own Success Formula</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing</strong> shows in Drews as a quiet, dutiful persistence that doesn't let up even when the body no longer cooperates. In 2022 he announced his retirement from the stage due to the nerve disease polyneuropathy &ndash; and still released a new album in 2025, at age 80, continuing to give interviews. "I am tired, but not finished," he said in a ZDF summer interview.</p>
-          <p class="vb-intro">This phrase precisely captures the combination of Nine-typical calm and One-wing sense of duty: no dramatic fight against the illness, but no premature giving up either &ndash; a quiet carrying on, for as long as it's possible.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Nine a readiness to confront that is unusual for this normally conflict-averse core type. Of all people, the man who became the symbolic figure of the Ballermann as "King of Mallorca" once stated plainly and bluntly: "I have never liked the Ballermann" &ndash; and explained it without hedging as a dislike of "the rowdiness and boozing." No diplomatic softening, but a direct, public reckoning with exactly the scene he owed his biggest commercial success to.</p>
+          <p class="vb-intro">The same blunt directness showed in 2022, when he announced his retirement from the stage due to the nerve disease polyneuropathy: instead of glossing over the illness, he stated openly that long performances and hours of standing had begun to wear him down &ndash; and still released a new album in 2025, at age 80. "I am tired, but not finished," he said in a ZDF summer interview: not an evasion, but a clear, almost confrontational statement.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From the Les Humphries Singers to Solo Mainstay</h2>
@@ -47013,15 +47013,15 @@ function juergenDrewsPortraitPage() {
           <p class="vb-intro">In the early 1990s he achieved a comeback on the German market, this time also as a music producer &ndash; a second, disciplined career track alongside his own singing, showing how thoroughly he approached his craft structurally rather than relying solely on his one earlier hit.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with One-wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w1 shows in Drews in a reliability that has carried across decades: the same wife, the same holiday destination, the same audience awaiting him summer after summer. The One-wing ensures this constancy becomes an active, still-productive body of work rather than mere routine.</p>
+          <p class="vb-intro">The light of the SX9w8 shows in Drews in a reliability that has carried across decades: the same wife, the same holiday destination, the same audience awaiting him summer after summer. The Eight-wing ensures this constancy doesn't freeze into quiet accommodation but, when needed, speaks up openly, uncomfortably, and without polish.</p>
           <p class="vb-intro">The shadow of the Nine shows in his long public reticence about his own illness and the resulting breeding ground for rumors about his health &ndash; a pattern typical of the Nine: making one's own suffering as little of a stage as possible, even when silence leaves room for speculation.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The King Who Stays on His Island</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jürgen Drews' path shows the sexual Nine with One-wing in a down-to-earth, decades-held form: a marriage, an audience, a place he stayed loyal to while the schlager industry around him reinvented itself again and again. The sloth doesn't leave its tree once it has found the right one &ndash; and holds on even as the branches begin to sway.</p>
+          <p class="vb-intro">Jürgen Drews' path shows the sexual Nine with Eight-wing in a down-to-earth, decades-held form: a marriage, an audience, a place he stayed loyal to while the schlager industry around him reinvented itself again and again &ndash; and a man who never held back his tongue about his own success scene, either. The sloth doesn't leave its tree once it has found the right one &ndash; but says plainly when something about that tree bothers it.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -63070,7 +63070,7 @@ function diegoVelazquezKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1) – life's work"},
         {route:"krankheitsportraets-hundertwasser", label:"Illness Portrait: Friedensreich Hundertwasser (SX9w8) – related subtype"},
-        {route:"krankheitsportraets-juergen-drews", label:"Illness Portrait: Jürgen Drews (SX9w1) – the same boundless availability, a different course"},
+        {route:"krankheitsportraets-juergen-drews", label:"Illness Portrait: Jürgen Drews (SX9w8) – the same boundless availability, a different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}
@@ -63088,7 +63088,7 @@ function juergenDrewsKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen Drews</p>
-        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing · born 1945</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexual Type 9 with Eight-wing · born 1945</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Sloth</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -63106,11 +63106,11 @@ function juergenDrewsKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Drews</strong> is classified as the <strong>Sexual Nine with
-        One-wing</strong>. The SX9 seeks fulfillment through total fusion with a
+        Eight-wing</strong>. The SX9 seeks fulfillment through total fusion with a
         single intense relationship or task, but in doing so easily loses sight
-        of her own needs and her body's own warning signs. The One-wing adds a
-        quiet sense of duty that keeps carrying on even once the body has long
-        been signaling limits.</p>
+        of her own needs and her body's own warning signs. The Eight-wing adds an
+        unusual readiness to confront and openly voice uncomfortable truths
+        instead of glossing over them.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -63183,11 +63183,10 @@ function juergenDrewsKrankheitsportraetPage() {
         The Sexual Nine's typical strategy of merging with a task or an audience
         showed in Drews in that even a progressive nerve disease did not fully
         sever his bond to stage and fans.</p>
-        <p class="vb-intro"><strong>b) The One-wing as a quiet sense of duty:</strong>
-        Continuing to work despite the diagnosis carries the signature of the
-        One-wing: not out of denial, but out of a quiet feeling of still owing
-        something to his audience and his work, for as long as it remains
-        possible.</p>
+        <p class="vb-intro"><strong>b) The Eight-wing as blunt openness:</strong>
+        That Drews neither glossed over his illness nor spared his own success
+        scene carries the signature of the Eight-wing: not denial, but a clear,
+        sometimes uncomfortable directness, even toward himself.</p>
         <p class="vb-intro"><strong>c) Low tendency to make his own suffering a stage:</strong>
         Typical of the Nine is a reluctance to loudly voice her own distress –
         Drews' sparse, sober statements about his illness fit exactly into this
@@ -63204,15 +63203,18 @@ function juergenDrewsKrankheitsportraetPage() {
         Unlike a dramatic break, the polyneuropathy fits seamlessly into this
         pattern: even with it, Drews essentially carries on as before, only at an
         adjusted pace instead of a complete withdrawal.</p>
-        <p class="vb-intro"><strong>c) A parallel to Diego Velázquez, another SX9w1 in this Compass:</strong>
+        <p class="vb-intro"><strong>c) A parallel to Diego Velázquez, also SX9 in this Compass, a different wing:</strong>
         Like <a href="javascript:void(0)" data-route="krankheitsportraets-diego-velazquez">Diego Velázquez</a>,
         who even past sixty showed no signs of slowing down and stayed in service
         until complete exhaustion, Drews too shows a low tendency to take a
-        timely pause. The key difference: where Velázquez's body reported in
-        abruptly, within a single week, Drews' illness runs a slow, diagnosed
-        course – yet the underlying pattern of staying loyal to one's audience
-        and one's task, even once the body has long signaled its limits,
-        connects both cases.</p>
+        timely pause. The key difference lies not only in the course – where
+        Velázquez's body reported in abruptly, within a single week, Drews'
+        illness runs a slow, diagnosed course – but also in the wing: where
+        Velázquez's One-wing concealed his exhaustion in quiet dutifulness,
+        Drews' Eight-wing voices even his own weakness openly and directly. The
+        underlying pattern of staying loyal to one's audience and one's task,
+        even once the body has long signaled its limits, still connects both
+        cases.</p>
         <p class="vb-intro"><strong>d) Why a nerve disease of all things?</strong>
         For a Sexual Nine whose self-perception is already structurally
         subordinate to her perception of others, one reading suggests itself:
@@ -63231,7 +63233,7 @@ function juergenDrewsKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
         Drews did not know his own Enneagram pattern – the sexual Nine with
-        One-wing merges almost reflexively with audience and work and, in doing
+        Eight-wing merges almost reflexively with audience and work and, in doing
         so, easily overrides her own bodily warning signs instead of pausing in
         time. He lived exactly that out unchecked for decades: a full stage
         schedule with no visible breaks, until the body itself set the limit.
@@ -63244,17 +63246,18 @@ function juergenDrewsKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         <strong>Jürgen Drews'</strong> way of handling his polyneuropathy offers
-        one of the quietest studies of the sexual Nine with a One-wing: no
-        dramatic illness narrative, but a quiet, almost offhand carrying on –
-        the same wife, the same audience, the same genre, now just with numbness
-        in the nerves instead of full strength. The sloth stays on its branch,
-        even once the branch itself stops being felt.</p>
+        one of the most outspoken studies of the sexual Nine with an Eight-wing:
+        no glossed-over illness narrative, but a blunt carrying on – the same
+        wife, the same audience, the same genre, now just with numbness in the
+        nerves instead of full strength, stated openly rather than kept quiet.
+        The sloth stays on its branch, even once the branch itself stops being
+        felt – and says so out loud.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w1) – life's work"},
-        {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1) – the same boundless availability, a different course"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8) – life's work"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1) – the same boundless availability, a different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}

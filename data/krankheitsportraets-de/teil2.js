@@ -3872,7 +3872,7 @@ export function juergenDrewsKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen Drews</p>
-        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel · geb. 1945</p>
+        <p class="krim-portrait-typ">SX9w8 · Sexueller Typ 9 mit Achterflügel · geb. 1945</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Faultier</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
@@ -3889,12 +3889,12 @@ export function juergenDrewsKrankheitsportraetPage() {
         Nervenkrankheit Polyneuropathie und den stillen, unspektakulären Umgang damit.</p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Drews</strong> ist dem <strong>sexuellen Typ 9 mit Einserflügel</strong>
+        <strong>Drews</strong> ist dem <strong>sexuellen Typ 9 mit Achterflügel</strong>
         zugeordnet. Die SX9 sucht Erfüllung über völlige Verschmelzung mit einer einzelnen
         intensiven Beziehung oder Aufgabe, verliert dabei aber leicht die eigenen
-        Bedürfnisse und Warnsignale des eigenen Körpers aus dem Blick. Der Einserflügel
-        bringt eine stille Pflichttreue hinzu, die auch dann weiterträgt, wenn der Körper
-        längst Grenzen anmeldet.</p>
+        Bedürfnisse und Warnsignale des eigenen Körpers aus dem Blick. Der Achterflügel
+        bringt eine untypische Konfrontationsbereitschaft hinzu, die auch unbequeme
+        Wahrheiten offen ausspricht, statt sie zu beschönigen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -3968,10 +3968,10 @@ export function juergenDrewsKrankheitsportraetPage() {
         Publikum zu verschmelzen, zeigte sich bei Drews darin, dass selbst eine
         fortschreitende Nervenkrankheit die Bindung an Bühne und Fans nicht vollständig
         durchtrennte.</p>
-        <p class="vb-intro"><strong>b) Der Einserflügel als leiser Pflichtsinn:</strong>
-        Die Weiterarbeit trotz Diagnose trägt die Handschrift des Einserflügels: nicht
-        aus Verdrängung, sondern aus einem stillen Gefühl, dem eigenen Publikum und
-        Werk noch etwas schuldig zu sein, solange es irgend geht.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel als unverblümte Offenheit:</strong>
+        Dass Drews weder seine Krankheit beschönigte noch sein eigenes Erfolgsmilieu
+        schonte, trägt die Handschrift des Achterflügels: nicht Verdrängung, sondern
+        eine klare, manchmal unbequeme Direktheit, auch gegenüber sich selbst.</p>
         <p class="vb-intro"><strong>c) Geringe Neigung, das eigene Leiden zur Bühne zu machen:</strong>
         Typisch für die Neun ist die Zurückhaltung, die eigene Not laut zu artikulieren
         – Drews' spärliche, nüchterne Aussagen zu seiner Krankheit passen genau in
@@ -3988,15 +3988,18 @@ export function juergenDrewsKrankheitsportraetPage() {
         Anders als ein dramatischer Einschnitt fügt sich die Polyneuropathie nahtlos in
         dieses Muster ein: Auch mit ihr macht Drews im Grunde weiter wie zuvor, nur mit
         angepasstem Tempo statt mit vollständigem Rückzug.</p>
-        <p class="vb-intro"><strong>c) Eine Parallele zu Diego Velázquez, anderem SX9w1 dieses Kompasses:</strong>
+        <p class="vb-intro"><strong>c) Eine Parallele zu Diego Velázquez, ebenfalls SX9 in diesem Kompass, anderer Flügel:</strong>
         Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-diego-velazquez">Diego Velázquez</a>,
         der noch mit über sechzig Jahren keine Anzeichen zeigte, kürzerzutreten, und
         bis zur völligen Erschöpfung im Dienst blieb, zeigt sich auch bei Drews eine
         geringe Neigung, rechtzeitig eine Pause einzulegen. Der entscheidende
-        Unterschied: Wo Velázquez' Körper sich erst schlagartig, binnen einer Woche,
-        meldete, verläuft Drews' Erkrankung langsam und diagnostiziert – doch das
-        Grundmuster, dem eigenen Publikum und der eigenen Aufgabe treu zu bleiben, auch
-        wenn der Körper längst Grenzen anmeldet, verbindet beide Fälle.</p>
+        Unterschied liegt nicht nur im Verlauf – wo Velázquez' Körper sich erst
+        schlagartig, binnen einer Woche, meldete, verläuft Drews' Erkrankung langsam
+        und diagnostiziert –, sondern auch im Flügel: Wo der Einserflügel Velázquez'
+        Erschöpfung in stiller Pflichterfüllung verbarg, äußert sich Drews' Achterflügel
+        offen und direkt, auch über die eigene Schwäche. Das Grundmuster, dem eigenen
+        Publikum und der eigenen Aufgabe treu zu bleiben, auch wenn der Körper längst
+        Grenzen anmeldet, verbindet beide Fälle dennoch.</p>
         <p class="vb-intro"><strong>d) Warum ausgerechnet eine Nervenkrankheit?</strong>
         Für eine sexuelle Neun, deren Selbstwahrnehmung ohnehin strukturell hinter der
         Wahrnehmung anderer zurücktritt, liegt eine Deutung nahe: Ausgerechnet ein
@@ -4016,7 +4019,7 @@ export function juergenDrewsKrankheitsportraetPage() {
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Drews kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Neun mit
-        Einserflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
+        Achterflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
         dabei leicht die eigenen körperlichen Warnsignale, statt rechtzeitig
         innezuhalten. Genau das lebte er über Jahrzehnte ungebremst aus: ein volles
         Bühnenprogramm ohne erkennbare Pausen, bis der Körper selbst die Grenze setzte.
@@ -4029,17 +4032,18 @@ export function juergenDrewsKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
         An <strong>Jürgen Drews'</strong> Umgang mit seiner Polyneuropathie lässt sich
-        die sexuelle Neun mit Einserflügel in einer ihrer stillsten Formen studieren:
-        keine dramatische Krankheitserzählung, sondern ein leises, nahezu beiläufiges
-        Weitermachen – dieselbe Frau, dasselbe Publikum, dasselbe Genre, jetzt eben mit
-        Taubheit in den Nerven statt mit voller Kraft. Das Faultier bleibt auf seinem
-        Ast, auch wenn der Ast selbst zu spüren aufhört.</p>
+        die sexuelle Neun mit Achterflügel in einer ihrer offensten Formen studieren:
+        keine beschönigte Krankheitserzählung, sondern ein unverblümtes Weitermachen –
+        dieselbe Frau, dasselbe Publikum, dasselbe Genre, jetzt eben mit Taubheit in den
+        Nerven statt mit voller Kraft, offen benannt statt verschwiegen. Das Faultier
+        bleibt auf seinem Ast, auch wenn der Ast selbst zu spüren aufhört – und sagt es
+        auch laut.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w1) – Lebenswerk"},
-        {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1) – dieselbe grenzenlose Verfügbarkeit, anderer Verlauf"},
+        {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1) – dieselbe grenzenlose Verfügbarkeit, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
       ])}

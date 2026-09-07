@@ -1832,7 +1832,7 @@ export function juergenDrewsPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen Drews</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
         <p class="krim-portrait-subtitle">Schlagersänger, geb. 1945 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
@@ -1849,10 +1849,10 @@ export function juergenDrewsPortraitPage() {
           <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit gilt seiner Ehe: Ramona begleitet ihn seit über 30 Jahren zu Konzerten, TV-Auftritten und Terminen – kein loses Ehepaar-Arrangement, sondern eine Partnerin, die untrennbar zu seinem öffentlichen wie privaten Leben gehört, bis hin zur gemeinsamen Tochter Joelina, die selbst als Sängerin erfolgreich ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Einserflügel: Weiterarbeiten trotz Krankheit</h2>
+        <h2 class="vb-section">3. Der Achterflügel: Offene Abrechnung mit dem eigenen Erfolgsrezept</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel</strong> zeigt sich bei Drews in einer stillen, pflichtbewussten Beharrlichkeit, die auch dann nicht nachlässt, wenn der Körper nicht mehr mitspielt. 2022 kündigte er wegen der Nervenkrankheit Polyneuropathie seinen Bühnenabschied an – und veröffentlichte trotzdem 2025, mit 80 Jahren, ein neues Album und gab weiterhin Interviews. „Ich bin müde, aber nicht fertig", sagte er dazu im ZDF-Sommerinterview.</p>
-          <p class="vb-intro">Diese Formulierung fasst die Kombination aus neunertypischer Gelassenheit und einserhafter Pflichttreue präzise zusammen: kein dramatischer Kampf gegen die Krankheit, aber auch kein vorzeitiges Aufgeben – ein ruhiges Weitermachen, solange es eben geht.</p>
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Neun eine Konfrontationsbereitschaft, die untypisch für den eigentlich konfliktscheuen Grundtyp ist. Ausgerechnet der Mann, der als „König von Mallorca" zur Symbolfigur des Ballermanns wurde, erklärte offen und unverblümt: „Ich habe den Ballermann nie gemocht" – und begründete das unumwunden mit seiner Abneigung gegen „das Rüpelhafte und Versoffene". Keine diplomatische Umschreibung, sondern eine direkte, öffentliche Abrechnung mit genau dem Milieu, dem er seinen größten kommerziellen Erfolg verdankte.</p>
+          <p class="vb-intro">Dieselbe unverblümte Direktheit zeigte sich 2022, als er wegen der Nervenkrankheit Polyneuropathie seinen Bühnenabschied ankündigte: Statt die Erkrankung zu beschönigen, benannte er offen, dass ihm lange Auftritte und stundenlanges Stehen zusetzten – und veröffentlichte trotzdem 2025, mit 80 Jahren, ein neues Album. „Ich bin müde, aber nicht fertig", sagte er dazu im ZDF-Sommerinterview: keine Ausflucht, sondern eine klare, fast konfrontative Ansage.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von den Les Humphries Singers zum Solo-Dauerbrenner</h2>
@@ -1861,15 +1861,15 @@ export function juergenDrewsPortraitPage() {
           <p class="vb-intro">Anfang der 1990er-Jahre gelang ihm das Comeback auf dem deutschen Markt, diesmal auch als Musikproduzent – eine zweite, disziplinierte Karriereschiene neben dem eigenen Gesang, die zeigt, wie sehr er sein Handwerk auch strukturell durchdrang, statt sich allein auf den einen früheren Hit zu verlassen.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Drews in einer Verlässlichkeit, die über Jahrzehnte trägt: dieselbe Ehefrau, dasselbe Urlaubsziel, dasselbe Publikum, das ihn Sommer für Sommer erwartet. Der Einserflügel sorgt dafür, dass aus dieser Beständigkeit ein aktives, weiterhin produktives Schaffen wird, statt bloßer Routine.</p>
+          <p class="vb-intro">Das Licht der SX9w8 zeigt sich bei Drews in einer Verlässlichkeit, die über Jahrzehnte trägt: dieselbe Ehefrau, dasselbe Urlaubsziel, dasselbe Publikum, das ihn Sommer für Sommer erwartet. Der Achterflügel sorgt dafür, dass diese Beständigkeit nicht in stiller Anpassung erstarrt, sondern sich bei Bedarf auch offen, unbequem und ungeschönt äußert.</p>
           <p class="vb-intro">Der Schatten der Neun zeigt sich in der langen öffentlichen Zurückhaltung gegenüber der eigenen Krankheit und dem daraus entstehenden Nährboden für Gerüchte über seinen Gesundheitszustand – ein Muster, das für die Neun typisch ist: das eigene Leiden möglichst wenig zur Bühne machen, selbst wenn Schweigen Raum für Spekulation lässt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der König, der auf seiner Insel bleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jürgen Drews' Weg zeigt die sexuelle Neun mit Einserflügel in einer bodenständigen, jahrzehntelang gehaltenen Form: eine Ehe, ein Publikum, ein Ort, denen er treu blieb, während sich um ihn herum die Schlagerbranche mehrfach neu erfand. Das Faultier verlässt seinen Baum nicht, wenn es einmal den richtigen gefunden hat – und hält an ihm fest, auch wenn die Äste zu wackeln beginnen.</p>
+          <p class="vb-intro">Jürgen Drews' Weg zeigt die sexuelle Neun mit Achterflügel in einer bodenständigen, jahrzehntelang gehaltenen Form: eine Ehe, ein Publikum, ein Ort, denen er treu blieb, während sich um ihn herum die Schlagerbranche mehrfach neu erfand – und ein Mann, der selbst über sein eigenes Erfolgsmilieu kein Blatt vor den Mund nahm. Das Faultier verlässt seinen Baum nicht, wenn es einmal den richtigen gefunden hat – sagt aber auch unumwunden, wenn ihm an diesem Baum etwas missfällt.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}

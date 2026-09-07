@@ -3758,7 +3758,7 @@ export function diegoVelazquezKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-diego-velazquez", label:"Porträt: Diego Velázquez (SX9w1) – Lebenswerk"},
         {route:"krankheitsportraets-hundertwasser", label:"Krankheitsporträt: Friedensreich Hundertwasser (SX9w8) – verwandter Subtyp"},
-        {route:"krankheitsportraets-juergen-drews", label:"Krankheitsporträt: Jürgen Drews (SX9w1) – dieselbe grenzenlose Verfügbarkeit, anderer Verlauf"},
+        {route:"krankheitsportraets-juergen-drews", label:"Krankheitsporträt: Jürgen Drews (SX9w8) – dieselbe grenzenlose Verfügbarkeit, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
       ])}
