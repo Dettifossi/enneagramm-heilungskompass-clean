@@ -47033,6 +47033,7 @@ function juergenDrewsPortraitPage() {
           {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1) – also a musician with a long-running institution of his own"},
           {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – also decades-long bond loyalty"},
           {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+          {route:"krankheitsportraets-juergen-drews", label:"Illness Portrait: Jürgen Drews (SX9w8) – living with polyneuropathy"},
         ])}
       </div>
     </div>

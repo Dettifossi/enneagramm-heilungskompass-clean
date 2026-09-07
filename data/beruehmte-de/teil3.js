@@ -1881,6 +1881,7 @@ export function juergenDrewsPortraitPage() {
           {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
           {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls jahrzehntelange Bindungstreue"},
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
+          {route:"krankheitsportraets-juergen-drews", label:"Krankheitsporträt: Jürgen Drews (SX9w8) – Umgang mit der Polyneuropathie"},
         ])}
       </div>
     </div>
