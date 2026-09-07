@@ -1840,3 +1840,68 @@ export function dieterLangePortraitPage() {
     </div>
   `);
 }
+
+export function carloAncelottiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carlo-ancelotti-portrait.jpg" alt="Carlo Ancelotti – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carlo Ancelotti</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Fußballtrainer, geb. 1959 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der nie das Rudel verlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> bewegt sich nicht als Einzeltier, sondern als Teil einer Herde, die ihm folgt, weil sie ihm vertraut, nicht weil sie ihn fürchtet. Carlo Ancelotti, 1959 als Bauernsohn in der Emilia-Romagna geboren, gilt als der einzige Trainer der Geschichte mit fünf Champions-League-Titeln und 2022 als Erster, der alle fünf großen europäischen Meisterschaften gewann – bei Milan, Chelsea, Paris Saint-Germain, Bayern München und Real Madrid.</p>
+          <p class="vb-intro">Trotz dieser beispiellosen Bilanz tritt er nie als Alleinherrscher auf. Sein eigener Satz „I giocatori sono miei amici" (Die Spieler sind meine Freunde) fasst zusammen, worum es ihm geht: nicht Distanz und Befehl, sondern Zugehörigkeit zu einer Mannschaft, die er als Teil von sich selbst behandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Führung durch Zugehörigkeit statt durch Befehl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo durch das Aufgehen in einer Gemeinschaft, nicht durch die eigene, herausgehobene Rolle darin. Bei Ancelotti zeigt sich das in seinem berühmt gewordenen „ruhigen Führungsstil": Selbst schwierige Persönlichkeiten wie Cristiano Ronaldo oder Zlatan Ibrahimović sprechen im Nachhinein anerkennend über ihn – nicht, weil er sich ihnen unterordnete, sondern weil er sie als Teil eines gemeinsamen Ganzen behandelte, statt sie zu kontrollieren.</p>
+          <p class="vb-intro">Kaká beschrieb ihn als den Trainer, der ihm am meisten beibrachte, gerade weil seine „auffälligste Eigenschaft die Fähigkeit ist, mit Menschen umzugehen" – nicht Taktikgenie allein, sondern das Talent, aus vielen einzelnen Stars wieder eine Herde zu machen, die sich als Einheit bewegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Die verzögerte, dann schonungslose Abrechnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> zeigt sich bei Ancelotti nicht im Alltag, sondern in den seltenen Momenten, in denen die sonst unerschütterliche Gelassenheit einer klaren, harten Aussage weicht. Nach seiner Entlassung beim FC Bayern München 2017 blieb er öffentlich zunächst gefasst – erst Jahre später, in seiner 2025 erschienenen Biografie, nannte er den Rauswurf unumwunden „die rücksichtsloseste Entlassung meiner gesamten Karriere". Kein diplomatisches Schweigen mehr, sondern ein klares Urteil, ausgesprochen zu seinem eigenen Zeitpunkt.</p>
+          <p class="vb-intro">Dieselbe Direktheit zeigte sich, als Gerüchte über einen Zerwürfnis mit Real Madrids Kabine und Präsident Florentino Pérez aufkamen: Statt auszuweichen, stellte er unmissverständlich klar: „Wer darüber redet, ich hätte Streit mit dem Klub, dem Präsidenten, der sagt nicht die Wahrheit." Eine direkte Zurechtweisung, kein Lavieren – typisch für den Achterflügel, der der neunertypischen Harmoniesuche im Ernstfall eine klare Kante gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Bauernsohn zum meistdekorierten Trainer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Spieler gewann Ancelotti mit AS Rom und AC Milan unter anderem zwei Europapokale der Landesmeister, bevor er 1995 seine Trainerkarriere in Reggiana begann. Über Parma, Juventus und Milan (Champions-League-Titel 2003) führte sein Weg schließlich zu internationalen Stationen bei Chelsea, PSG, Bayern München und Real Madrid – mit insgesamt 36 gewonnenen Titeln eine der dekoriertesten Trainerlaufbahnen der Fußballgeschichte.</p>
+          <p class="vb-intro">Bemerkenswert dabei: Trotz mehrfacher Entlassungen bei renommierten Klubs blieb er stets gefragt – ein Muster, das zeigt, wie sehr Vereine und Spieler seine Fähigkeit schätzten, aus einer Ansammlung von Einzelkönnern wieder eine funktionierende Gemeinschaft zu formen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 zeigt sich bei Ancelotti in seiner fast einzigartigen Fähigkeit, extrem unterschiedliche Star-Persönlichkeiten in einer Mannschaft zu bündeln, ohne sich selbst über sie zu erheben – Erfolg entsteht bei ihm aus Zugehörigkeit, nicht aus Dominanz.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in der langen Verzögerung, mit der berechtigte Kritik überhaupt ausgesprochen wird – erst Jahre nach der Bayern-Entlassung fand er die deutlichen Worte dafür. Diese Zurückhaltung schützt kurzfristig die Harmonie, verhindert aber, dass echte Konflikte zeitnah benannt und bearbeitet werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Trainer, der die Herde nie verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carlo Ancelottis Weg zeigt die soziale Neun mit Achterflügel in ihrer erfolgreichsten Form: eine ruhige, zugehörigkeitsorientierte Führung, die selbst schwierigste Star-Egos einbindet, statt sie zu unterwerfen – und eine seltene, aber dann schonungslose Direktheit, wenn nach Jahren des Schweigens endlich das klare Wort fällt. Der Büffel führt nicht durch Befehl, sondern dadurch, dass die Herde ihm ohnehin folgt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8) – ebenfalls verzögerte, dann klare Direktheit"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SO9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

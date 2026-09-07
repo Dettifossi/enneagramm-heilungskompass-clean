@@ -1561,6 +1561,7 @@ export function willyBrandtPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-willy-brandt", label:"Krankheitsportr\u00e4t: Willy Brandt (SO9w8) \u2013 wiederkehrende Depression, Darmkrebs"},
         {route:"beruehmte-juergen-von-der-lippe", label:"Portr\u00e4t: J\u00fcrgen von der Lippe (SO9w8)"},
+        {route:"beruehmte-carlo-ancelotti", label:"Portr\u00e4t: Carlo Ancelotti (SO9w8) \u2013 ebenfalls verz\u00f6gerte, dann klare Direktheit"},
       ])}
     </div>
   `);

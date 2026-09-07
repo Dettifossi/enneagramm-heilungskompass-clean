@@ -1262,6 +1262,7 @@ export const registerEntries = [
     { term: "Ronald Reagan", route: "beruehmte-ronald-reagan", description: "Portrait: SO9w8 · Sozialer Typ 9 · 40. US-Präsident, Großer Kommunikator, Morning in America, Büffel" },
   { term: "Willy Brandt",                  route: "beruehmte-willy-brandt",                description: "Portrait: SO9w8 · Sozialer Typ 9 · Kanzler, Kniefall in Warschau, Versöhnung" },
   { term: "Jürgen von der Lippe",           route: "beruehmte-juergen-von-der-lippe",       description: "Portrait: SO9w8 · Sozialer Typ 9 · Entertainer, vier Jahrzehnte im öffentlich-rechtlichen TV" },
+  { term: "Carlo Ancelotti",                route: "beruehmte-carlo-ancelotti",             description: "Portrait: SO9w8 · Sozialer Typ 9 · Fußballtrainer, fünf Champions-League-Titel" },
   { term: "Wolodymyr Selenskyj",           route: "beruehmte-wolodymyr-selenskyj",         description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Präsident der Ukraine, Kriegsleader" },
 
   // Kriminalpsychologie – fehlende Porträts
@@ -1895,6 +1896,7 @@ export const registerEntriesEN = [
   { term: "Ronald Reagan", route: "beruehmte-ronald-reagan", description: "Portrait: SO9w8 · Social Type 9 · 40th US President, Great Communicator, Morning in America, Buffalo" },
   { term: "Willy Brandt", route: "beruehmte-willy-brandt", description: "Portrait: SO9w8 · Social Type 9 · Chancellor, Kniefall in Warsaw, reconciliation" },
   { term: "Jürgen von der Lippe", route: "beruehmte-juergen-von-der-lippe", description: "Portrait: SO9w8 · Social Type 9 · Entertainer, four decades on German public TV" },
+  { term: "Carlo Ancelotti", route: "beruehmte-carlo-ancelotti", description: "Portrait: SO9w8 · Social Type 9 · Football manager, five Champions League titles" },
   { term: "Wolodymyr Selenskyj", route: "beruehmte-wolodymyr-selenskyj", description: "Portrait: SE3w2 · Self-Preservation Type 3 · President of Ukraine, Wartime leader" },
 
 
