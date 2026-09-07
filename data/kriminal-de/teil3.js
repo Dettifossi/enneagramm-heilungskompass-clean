@@ -4346,7 +4346,7 @@ export function elizabethBathoryPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Dreierflügel: Status, Fassade und die Blutgräfin-Legende</h3>
         <p class="vb-intro">
-        Der Dreierflügel gibt der sexuellen Vier ein waches Gespür für Wirkung, Status und Außendarstellung. Báthory bewegte sich standesbewusst in den höchsten Kreisen des ungarischen Adels, korrespondierte mit dem Königshof und pflegte nach außen das Bild einer gebildeten, einflussreichen Gräfin. Genau diese Statusbewusstheit lieferte später den Nährboden für die Blutbade-Legende: Keine der unter Folter erpressten Zeugenaussagen der Dienstmädchen erwähnte je ein Bad in Blut zur Verjüngung – die Vorstellung entstand erst nachträglich bei Chronisten, die eine adlige Frau mit dieser Statuskomponente ausstatten wollten. Die reale Grausamkeit brauchte diese Erzählung nicht; sie war Ausdruck der ungebremsten Vier, nicht kalkulierter Eitelkeit.
+        Der Dreierflügel gibt der sexuellen Vier ein waches Gespür für Wirkung, Status und Außendarstellung. Báthory bewegte sich standesbewusst in den höchsten Kreisen des ungarischen Adels, korrespondierte mit dem Königshof und pflegte nach außen das Bild einer gebildeten, einflussreichen Gräfin. Genau diese Statusbewusstheit lieferte später den Nährboden für die Blutbadlegende: Keine der unter Folter erpressten Zeugenaussagen der Dienstmädchen erwähnte je ein Bad in Blut zur Verjüngung – die Vorstellung entstand erst nachträglich bei Chronisten, die eine adlige Frau mit dieser Statuskomponente ausstatten wollten. Die reale Grausamkeit brauchte diese Erzählung nicht; sie war Ausdruck der ungebremsten Vier, nicht kalkulierter Eitelkeit.
         </p>
       </div>
 
@@ -4393,7 +4393,7 @@ export function elizabethBathoryPortraitPage() {
       </div>
       <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
         <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
-        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Elizabeth Báthory wurde nie offiziell angeklagt oder verurteilt; die Beweislage aus dem frühen 17. Jahrhundert ist historisch umstritten, teils politisch motiviert und beruht überwiegend auf unter Folter erzwungenen Zeugenaussagen. Die bekannte Blutbade-Legende gilt heute als nachträgliche Ausschmückung ohne zeitgenössischen Beleg. Das Enneagramm erklärt, es rechtfertigt nicht.
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Elizabeth Báthory wurde nie offiziell angeklagt oder verurteilt; die Beweislage aus dem frühen 17. Jahrhundert ist historisch umstritten, teils politisch motiviert und beruht überwiegend auf unter Folter erzwungenen Zeugenaussagen. Die bekannte Blutbadlegende gilt heute als nachträgliche Ausschmückung ohne zeitgenössischen Beleg. Das Enneagramm erklärt, es rechtfertigt nicht.
         </p>
       </div>
 
