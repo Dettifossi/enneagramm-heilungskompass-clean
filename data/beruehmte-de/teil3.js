@@ -1846,7 +1846,7 @@ export function juergenDrewsPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Ballermann-Menge</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die Distanz der Bühne, sondern das vollständige Aufgehen im gemeinsamen Moment mit dem Publikum. Bei Drews zeigt sich das in seinem Titel „König von Mallorca", den ihm Thomas Gottschalk 1999 bei ›Wetten, dass..?‹ verlieh, und der 2000 mit dem gleichnamigen Hit bestätigt wurde: kein distanzierter Star, sondern jemand, der buchstäblich mit der feiernden Menge auf der Insel verschmolz, Sommer für Sommer, Jahrzehnt für Jahrzehnt.</p>
-          <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit gilt seiner Ehe: Ramona begleitet ihn seit über 30 Jahren zu Konzerten, TV-Auftritten und Terminen – kein loses Ehepaar-Arrangement, sondern eine Partnerin, die untrennbar zu seinem öffentlichen wie privaten Leben gehört, bis hin zur gemeinsamen gesungenen Tochter Joelina.</p>
+          <p class="vb-intro">Dieselbe Verschmelzungsfähigkeit gilt seiner Ehe: Ramona begleitet ihn seit über 30 Jahren zu Konzerten, TV-Auftritten und Terminen – kein loses Ehepaar-Arrangement, sondern eine Partnerin, die untrennbar zu seinem öffentlichen wie privaten Leben gehört, bis hin zur gemeinsamen Tochter Joelina, die selbst als Sängerin erfolgreich ist.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Weiterarbeiten trotz Krankheit</h2>
