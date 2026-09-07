@@ -1612,6 +1612,7 @@ export function franciscoDeGoyaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"kriminalpsychologie-elizabeth-bathory", label:"Kriminalpsychologie: Elizabeth Báthory (SX4w3) – dieselbe schonungslose Konfrontation mit dem Dunklen, hier ausagiert statt künstlerisch verarbeitet"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-arthur-rimbaud", label:"Porträt: Arthur Rimbaud (SX4w3)"},

@@ -4302,3 +4302,106 @@ export function fritzHonkaPortraitPage() {
     </div>
   `);
 }
+
+export function elizabethBathoryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Elizabeth Báthory – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/elizabeth-bathory-portrait.jpg" alt="Elizabeth Báthory – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elizabeth Báthory</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Ungarische Gräfin · Tierentsprechung: Chihuahua</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elizabeth Báthory</strong>, geboren 1560 in eine der mächtigsten Adelsfamilien Ungarns, wird beschuldigt, zwischen den 1590er-Jahren und ihrer Verhaftung 1610 zahlreiche Dienstmädchen und junge Adlige auf Schloss Čachtice gefoltert und getötet zu haben. Die berühmte Legende, sie habe in Menschenblut gebadet, um jung zu bleiben, gilt heute als spätere Ausschmückung – zeitgenössische Quellen beschreiben sie stattdessen als eine Frau, die ihre Macht missbrauchte, um an schutzlosen Untergebenen sadistische Grausamkeit auszuleben. Wegen ihres Adelsstands nie offiziell angeklagt, verbrachte sie ihre letzten vier Lebensjahre eingemauert in ihrem eigenen Schloss.
+      </p>
+
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Elizabeth Báthory</strong> wird dem <strong>Sexuellen Typ 4 mit Dreierflügel</strong> im Enneagramm zugeordnet.
+        Die sexuelle Vier lehnt sich gegen jede äußere Begrenzung auf und lebt Intensität kompromisslos, ohne Halbheiten – im Schatten kann sich diese Intensität statt gegen Konventionen auch gegen andere Menschen richten. Der Dreierflügel bindet dieses Muster an Status, Bild und öffentliche Wirkung. Im Stress geht die Vier in Richtung <strong>Zwei</strong>: übergriffige, besitzergreifende Nähe zu ausgewählten Vertrauten – bei Báthory dokumentiert in der besonderen, fast familiären Bindung an ihre Gehilfin Darvulia.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Chihuahua</h3>
+        <p class="vb-intro">
+        Der <strong>Chihuahua</strong> ist die Tierentsprechung der sexuellen Vier – klein von Statur, aber mit einer Intensität, die in keinem Verhältnis zu seiner Größe steht. Báthory war körperlich eine zierliche, als schön beschriebene Frau, die aus einer der einflussreichsten Familien Osteuropas stammte – Verwandte saßen auf dem polnischen Königsthron und dem Fürstenstuhl Siebenbürgens. Diese Diskrepanz zwischen zierlicher äußerer Erscheinung und einem Innenleben, das keine Grenze zu kennen schien, ist reinstes Chihuahua-Muster: Was gefühlt wird, wird vollständig gefühlt, ohne gemäßigtes Auftreten.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Vier: Wenn die eigene Wunde nach außen schlägt</h3>
+        <p class="vb-intro"><strong>a) Konkurrenzneid als Ursprung:</strong>
+        Naranjo nannte die Leidenschaft der Vier den <strong>Konkurrenzneid</strong> – ein tiefes, oft unbewusstes Gefühl, dass einem selbst etwas Grundlegendes fehlt, das andere besitzen. In der gesunden Form wird daraus schöpferische, kompromisslose Intensität. In der zutiefst deintegrierten Form – wie im Kompass bereits am Beispiel des Marquis de Sade dokumentiert, dessen radikale Ablehnung jeder Ordnung sich in nachweisbaren Gewalttaten gegen andere entlud – kann sich dieselbe Wunde umkehren: Statt das eigene Leiden zu kultivieren, wird es an anderen ausagiert. Naranjo selbst brachte dieses Umkippen der SX4 auf eine knappe Formel: <em>„Verletzte Menschen verletzen Menschen"</em> – der nie bewältigte eigene Schmerz wird zur Quelle des Schmerzes, den man anderen zufügt.</p>
+        <p class="vb-intro"><strong>b) Die Familiengeschichte als Nährboden:</strong>
+        Zeitgenössische Berichte beschreiben Báthorys Familie als instabil – eine Tante, der sexuelle Zügellosigkeit nachgesagt wurde, ein Bruder, der als Alkoholiker und Wüstling galt, sowie bei Elizabeth selbst wiederkehrende, möglicherweise epileptische Anfälle. Diese über Generationen dokumentierte Dysregulation passt zum Bild einer Vier, deren emotionale Grundausstattung von Beginn an instabil war, bevor absolute Macht ohne jedes äußere Korrektiv hinzukam.</p>
+        <p class="vb-intro"><strong>c) Die Entgrenzung nach dem Tod des Ehemanns:</strong>
+        Graf Ferenc Nádasdy, mit dem Báthory seit ihrem fünfzehnten Lebensjahr verheiratet war, führte über Jahre Krieg gegen die Osmanen und war meist abwesend – manche Quellen vermuten sogar, er habe ihr selbst Foltermethoden beigebracht. Nach seinem Tod 1604 erhielt Báthory die uneingeschränkte Verfügungsgewalt über das gesamte Anwesen. Die dokumentierten Übergriffe eskalierten genau ab diesem Zeitpunkt – kein äußerer Rahmen hielt die Intensität mehr in Schach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Dreierflügel: Status, Fassade und die Blutgräfin-Legende</h3>
+        <p class="vb-intro">
+        Der Dreierflügel gibt der sexuellen Vier ein waches Gespür für Wirkung, Status und Außendarstellung. Báthory bewegte sich standesbewusst in den höchsten Kreisen des ungarischen Adels, korrespondierte mit dem Königshof und pflegte nach außen das Bild einer gebildeten, einflussreichen Gräfin. Genau diese Statusbewusstheit lieferte später den Nährboden für die Blutbade-Legende: Keine der unter Folter erpressten Zeugenaussagen der Dienstmädchen erwähnte je ein Bad in Blut zur Verjüngung – die Vorstellung entstand erst nachträglich bei Chronisten, die eine adlige Frau mit dieser Statuskomponente ausstatten wollten. Die reale Grausamkeit brauchte diese Erzählung nicht; sie war Ausdruck der ungebremsten Vier, nicht kalkulierter Eitelkeit.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: Schloss Čachtice</h3>
+        <p class="vb-intro"><strong>a) Die Opfer:</strong>
+        Betroffen waren vor allem junge Dienstmädchen aus der Umgebung sowie Töchter niederer Adelsfamilien, die zu Báthory geschickt wurden, um höfisches Benehmen zu erlernen – Mädchen also, die vollständig von ihrer Gunst abhängig und ihr schutzlos ausgeliefert waren. Nach Zeugenaussagen von vier später verhafteten Gehilfen wurden sie geschlagen, mit Nadeln und Scheren verletzt, mit heißen Eisen gebrandmarkt, nackt im Winter im Freien mit Wasser übergossen oder mit Bienen und Ameisen traktiert.</p>
+        <p class="vb-intro"><strong>b) Die Entdeckung:</strong>
+        Am 29. Dezember 1610 stürmte der königliche Palatin Graf György Thurzó, ein Verwandter, mit einer Truppe Schloss Čachtice – nach Berichten fand er Báthory dabei, wie sie gerade ein Opfer quälte. Vier ihrer engsten Gehilfen wurden verhaftet, unter Folter verhört und kurz darauf hingerichtet.</p>
+        <p class="vb-intro"><strong>c) Die Beweislage:</strong>
+        Von 289 gesammelten Zeugenaussagen waren mehr als 250 reines Hörensagen ohne eigene Beobachtung. Báthory selbst wurde nie vor Gericht gestellt oder förmlich verurteilt – ihr Adelsstand schützte sie vor einem regulären Verfahren. Familienangehörige, die Zugriff auf ihr Vermögen wollten, sowie der Habsburger Hof, dem sie hohe Summen geliehen hatte, hatten ein handfestes Eigeninteresse an ihrer Entmachtung. Vollständige Unschuld gilt unter Historikern dennoch als unwahrscheinlich – bereits 1602 dokumentierte ein Priesterbrief außergewöhnliche Grausamkeit gegenüber ihrem Personal, lange bevor irgendein politisches Motiv für eine Anklage bestand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Die letzten Jahre: Eingemauert im eigenen Schloss</h3>
+        <p class="vb-intro">
+        Da eine öffentliche Hinrichtung einer Gräfin aus dem Hochadel als undenkbar galt, wurde Báthory ohne Prozess zu lebenslanger Isolation in Schloss Čachtice verurteilt – der Überlieferung nach wurden Fenster und Türen ihrer Gemächer bis auf einen schmalen Schlitz für Essen zugemauert. Sie starb dort am 21. August 1614 im Alter von 54 Jahren, vollständig von der Außenwelt abgeschnitten. Dieselbe Isolation, die sie zuvor anderen aufgezwungen hatte – Gefangenschaft, Kälte, Ausgeliefertsein an eine fremde Macht –, wurde am Ende zu ihrem eigenen Schicksal.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Elizabeth Báthory zeigt, wie sich der Konkurrenzneid der sexuellen Vier in ihrer dunkelsten, gegen andere statt gegen Konventionen gerichteten Form entladen kann – ein Muster, das der Kompass bereits am Marquis de Sade dokumentiert. Anders als eine sexuelle Acht, deren Motiv die kühle, geplante Besitzergreifung von Territorium oder Menschen ist (etwa Jeffrey Epstein, dessen Macht über ein System aus Verführung und stiller Einbindung funktionierte), ist die Grausamkeit der Vier unmittelbar, körperlich und persönlich – kein organisiertes Netzwerk, sondern das direkte Austragen einer nie bewältigten inneren Wunde am Körper anderer. Der Dreierflügel sorgte dafür, dass diese Entladung hinter der Fassade einer makellosen, hochstehenden Gräfin verborgen blieb – bis absolute, unkontrollierte Macht keine Fassade mehr brauchte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Einordnung</h3>
+        <div style="font-size:0.88rem;line-height:1.8;">
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Elizabeth Báthory, 1560–1614</p>
+          <p style="margin:0 0 0.3rem;"><strong>Subtyp:</strong> SX4w3 – Sexuelle Vier mit Dreierflügel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Konkurrenzneid – in der Schattenform gegen andere statt gegen Konventionen gerichtet</p>
+          <p style="margin:0 0 0.3rem;"><strong>Stresspunkt:</strong> Zwei – übergriffige, besitzergreifende Nähe zu ausgewählten Vertrauten</p>
+          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Chihuahua – klein von Statur, riesig im Innenleben, unfähig zu Halbheiten</p>
+          <p style="margin:0;"><strong>Lehrwert:</strong> Báthory zeigt, dass sich der Konkurrenzneid der Vier – anders als das Klischee des leidend-melancholischen, nach innen gerichteten Vierer-Musters – unter absoluter, unkontrollierter Macht auch nach außen entladen kann, mit derselben Kompromisslosigkeit, mit der eine gesunde Vier sonst ein Kunstwerk oder eine Beziehung lebt.</p>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Vier im Vergleich: Wie sich Konkurrenzneid bei SE4, SO4 und SX4 unterschiedlich ausdrückt – und warum er sich in Extremfällen gegen andere statt gegen Konventionen richten kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausführlich porträtiert – Konkurrenzneid, Intensität und der Heilungsweg zur eigenen Vollständigkeit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Elizabeth Báthory wurde nie offiziell angeklagt oder verurteilt; die Beweislage aus dem frühen 17. Jahrhundert ist historisch umstritten, teils politisch motiviert und beruht überwiegend auf unter Folter erzwungenen Zeugenaussagen. Die bekannte Blutbade-Legende gilt heute als nachträgliche Ausschmückung ohne zeitgenössischen Beleg. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-francisco-de-goya", label:"Porträt: Francisco de Goya (SX4w3) – schonungslose Konfrontation mit Grausamkeit in seinem Spätwerk"},
+        {route:"beruehmte-paris-hilton", label:"Porträt: Paris Hilton (SX4w3) – dieselbe Status-/Bild-Note des Dreierflügels"},
+        {route:"kriminalpsychologie-bonnie-parker", label:"Kriminalpsychologie: Bonnie Parker (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

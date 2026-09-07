@@ -1238,6 +1238,7 @@ export function parisHiltonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"kriminalpsychologie-elizabeth-bathory", label:"Kriminalpsychologie: Elizabeth Báthory (SX4w3) – dieselbe Status-/Bild-Note des Dreierflügels"},
         {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
         {route:"beruehmte-rihanna", label:"Porträt: Rihanna (SX4w3)"},
       ])}
