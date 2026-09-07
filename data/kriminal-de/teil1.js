@@ -1042,6 +1042,7 @@ export function dianeDownsPortraitPage() {
       </div>
 
       ${relatedLinks([
+        {route:"kriminalpsychologie-susan-wright", label:"Kriminalpsychologie: Susan Wright (SX3w2) \u2013 ebenfalls sexuelle Drei, anderer Fl\u00fcgel"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-richard-ramirez", label:"Kriminalpsychologie: Richard Ram\u00edrez (SX3w4)"},

@@ -4299,3 +4299,106 @@ export function dieterZlofPortraitPage() {
     </div>
   `);
 }
+
+export function susanWrightPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Susan Wright – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/susan-wright-portrait.jpg" alt="Susan Wright – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Susan Wright</p>
+        <p class="krim-portrait-typ">SX3w2 · Sexueller Typ 3 mit Zweierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">US-amerikanische Mörderin · Tierentsprechung: Pfau</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Susan Wright</strong>, geboren 1976 in Houston, fesselte am 13. Januar 2003 ihren Ehemann Jeff Wright ans gemeinsame Bett und erstach ihn mit zwei verschiedenen Messern 193-mal. Anschließend vergrub sie die Leiche im Garten des Hauses, übermalte das blutverschmierte Schlafzimmer und stellte am folgenden Tag eine Anzeige gegen den bereits toten Jeff wegen häuslicher Gewalt. Vor Gericht berief sie sich auf jahrelangen Missbrauch und Notwehr – die Staatsanwältin nannte sie eine „card-carrying, confirmed, documented liar", deren Tränen im Zeugenstand kalkuliert gewirkt hätten. 2019 wurde sie nach 16 Jahren Haft entlassen.
+      </p>
+
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Susan Wright</strong> wird dem <strong>Sexuellen Typ 3 mit Zweierflügel</strong> im Enneagramm zugeordnet.
+        Die sexuelle Drei überzeugt nicht durch Fakten, sondern durch eine vollständig ausgespielte Darbietung, die genau weiß, welche Wirkung sie beim Gegenüber erzielen will. Der Zweierflügel bindet diese Darbietung an eine Beziehungserzählung – nicht kühle Selbstinszenierung, sondern die Rolle der liebevollen, letztlich schutzbedürftigen Frau. Im Stress geht die Drei in Richtung <strong>Neun</strong>: emotionale Betäubung, auffällig fehlende Reaktion, ein Einfrieren des Innenlebens, das nach außen ruhig und unbeteiligt wirkt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Pfau</h3>
+        <p class="vb-intro">
+        Der <strong>Pfau</strong> ist die Tierentsprechung der sexuellen Drei. Sein Rad ist keine private Regung, sondern eine vollständige, auf Wirkung berechnete Vorstellung für ein Publikum. Susan Wright zeigte dieses Muster in doppelter Form: Nach außen die junge Mutter, die früh heiratete und ein Familienbild pflegte – und im Gerichtssaal die weinende, verletzliche Frau, deren Auftritt selbst von der Anklage als durchkalkulierte Vorstellung gelesen wurde. Der Pfau ändert nicht sich selbst – er ändert, was er zeigt, je nachdem, welches Publikum gerade vor ihm sitzt.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Drei: Das Bild, das überlebt</h3>
+        <p class="vb-intro"><strong>a) Die Rolle nach der Tat:</strong>
+        Was Susan Wright vom reinen Kalkül unterscheidet und zugleich reinste SX3-Handschrift ist, geschah nicht in der Tatnacht, sondern am Tag danach: Sie übermalte das Schlafzimmer und erstattete Anzeige gegen ihren toten Mann – eine aktive, vorausschauende Neuinszenierung der eigenen Rolle vom Tag eins an, nicht ein spontanes Vertuschen.</p>
+        <p class="vb-intro"><strong>b) Blockierte Herzenergie:</strong>
+        Die Drei liegt im Zentrum des Herzzentrums, blockiert diese Energie aber, um zu funktionieren und Rollen zu spielen. Nach dem Schuldspruch zeigte Wright auffällig wenig Reaktion – kein Zusammenbruch, keine sichtbare Erschütterung. Dieselbe Kälte, die schon Diane Downs am Krankenbett ihrer sterbenden Kinder zeigte, taucht hier in anderer Form auf: nicht Gefühllosigkeit, sondern eine Herzenergie, die auf das Aufrechterhalten des Bildes ausgerichtet ist, selbst wenn das Bild gerade zusammenbricht.</p>
+        <p class="vb-intro"><strong>c) Eitelkeit als Leidenschaft:</strong>
+        Die Leidenschaft der Drei ist die <strong>Eitelkeit</strong> – das Bild, das man nach außen entwirft, hat Vorrang vor jeder inneren Wahrheit. Die von der Anklage vermutete Lebensversicherung über 200.000 Dollar wäre in diesem Licht kein eigenständiges Motiv, sondern Teil eines größeren Sicherheits- und Selbstbild-Projekts: die Vorstellung von der eigenen Zukunft als versorgte, unabhängige Frau.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Zweierflügel: Die Opfer-Erzählung als Schutzschild</h3>
+        <p class="vb-intro">
+        Der Zweierflügel der Drei bringt im gesunden Zustand echte Fürsorge und Beziehungswärme – im ungesunden Zustand jedoch eine Erzählung, die eigenes Handeln durch die Rolle der Liebenden oder Schutzbedürftigen rechtfertigt. Wrights Verteidigung stützte sich vollständig auf diese Erzählung: jahrelanger Missbrauch, eine Aussage, die 2008 durch eine weitere Zeugin – die frühere Verlobte ihres Mannes – teilweise gestützt wurde. Der Zweierflügel macht diese Geschichte nicht zwangsläufig falsch, aber er zeigt, wie eine Drei mit dieser Flügel-Note instinktiv genau die Erzählung wählt, die am wirkungsvollsten für sie selbst ist: nicht „Ich war stark", sondern „Ich musste mich und meine Kinder schützen" – eine Rolle, die Sympathie statt Distanz erzeugt.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Tatgeschehen: 193 Stiche</h3>
+        <p class="vb-intro"><strong>a) Die Tat:</strong>
+        Am Abend des 13. Januar 2003 fesselte Wright ihren Ehemann ans Bett und erstach ihn mit zwei Messern 193-mal, darunter 41 Stiche ins Gesicht, 46 in die Brust und sieben im Genitalbereich. Vor Gericht beschrieb sie den Moment selbst als Kontrollverlust: „Ich konnte nicht aufhören zu stechen … ich wusste, sobald ich aufhöre, holt er sich das Messer zurück und bringt mich um." Diese schiere Übersteigerung – weit über das für eine Tötung nötige Maß hinaus – steht im auffälligen Kontrast zum kühl geplanten Verhalten davor und danach.</p>
+        <p class="vb-intro"><strong>b) Die Inszenierung danach:</strong>
+        Wright übermalte das Schlafzimmer, vergrub die Leiche im eigenen Garten und stellte am Folgetag eine Anzeige wegen häuslicher Gewalt gegen ihren bereits toten Mann. Keine Flucht, keine Panik-Reaktion – sondern der sofortige Beginn einer neuen, öffentlich wirksamen Erzählung.</p>
+        <p class="vb-intro"><strong>c) Der Prozess:</strong>
+        Die Staatsanwaltschaft rekonstruierte den Tathergang anhand der Beweislage als kalkuliert; Wrights Verteidigung bestand auf Notwehr nach Jahren der Misshandlung. Beide Lesarten schließen sich nicht zwangsläufig aus – eine SX3 kann echten Schmerz erlebt und ihn zugleich unmittelbar in eine wirkungsvolle Rolle übersetzt haben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Der Prozess und das Leben danach</h3>
+        <p class="vb-intro">
+        Susan Wright wurde 2004 zu 25 Jahren Haft verurteilt, das Strafmaß später auf 20 Jahre reduziert. 2019 kam sie nach 16 Jahren frei. Der Fall blieb in den USA umstritten: Für die einen ist sie eine berechnende Täterin, die für Geld und ein neues Leben tötete; für die anderen eine über Jahre misshandelte Frau, deren Notwehr-Erzählung erst spät durch eine weitere Zeugin gestützt wurde. Diese Uneindeutigkeit selbst ist enneagrammatisch aufschlussreich: Eine SX3w2 lebt genau in diesem Zwischenraum, in dem echtes Leid und wirkungsvoll eingesetzte Erzählung kaum noch zu trennen sind.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Susan Wright zeigt, wie sich blockierte Herzenergie bei der sexuellen Drei mit Zweierflügel äußert: nicht als kalte Berechnung von Anfang bis Ende, sondern als eine Persönlichkeit, die selbst im Ausnahmezustand – 193 Stiche, offenkundiger Kontrollverlust – sofort danach wieder in der Lage ist, eine neue, wirkungsvolle Rolle zu übernehmen. Die Zweier-Note macht diese Rolle nicht kalt-glamourös wie bei einer SX3w4, sondern warm und beziehungsorientiert – die verletzliche, liebende Frau, die sich und ihre Kinder schützen musste. Das Enneagramm rechtfertigt hier nichts, es macht aber sichtbar, warum dieser Fall bis heute so schwer eindeutig zu lesen ist: weil echtes Leid und eine instinktiv gewählte, wirkungsvolle Erzählung bei diesem Subtyp nicht zwei getrennte Dinge sein müssen.
+        </p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Einordnung</h3>
+        <div style="font-size:0.88rem;line-height:1.8;">
+          <p style="margin:0 0 0.3rem;"><strong>Name:</strong> Susan Wright, geb. 1976</p>
+          <p style="margin:0 0 0.3rem;"><strong>Subtyp:</strong> SX3w2 – Sexuelle Drei mit Zweierflügel</p>
+          <p style="margin:0 0 0.3rem;"><strong>Leidenschaft:</strong> Eitelkeit – das wirkungsvolle Bild hat Vorrang vor der ungeschminkten inneren Wahrheit</p>
+          <p style="margin:0 0 0.3rem;"><strong>Stresspunkt:</strong> Neun – Dissoziation, emotionale Betäubung, auffällig fehlende Reaktion nach der Tat</p>
+          <p style="margin:0 0 0.3rem;"><strong>Tierentsprechung:</strong> Pfau – ändert nicht sich selbst, sondern was er dem jeweiligen Publikum zeigt</p>
+          <p style="margin:0;"><strong>Lehrwert:</strong> Wright zeigt, dass sich bei der SX3w2 echtes Leid und eine instinktiv gewählte, wirkungsvolle Selbstdarstellung so eng verschränken können, dass sie sich juristisch wie menschlich kaum noch sauber trennen lassen.</p>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Drei im Vergleich: Wie sich Eitelkeit bei SE3, SO3 und SX3 unterschiedlich ausdrückt – und warum blockierte Herzenergie so gefährlich werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Eitelkeit, Erfolg und der Heilungsweg über echte Herzverbindung.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Susan Wright wurde 2004 wegen Mordes zu 25 Jahren Haft verurteilt (später auf 20 Jahre reduziert) und 2019 entlassen. Ihre Behauptung jahrelangen häuslichen Missbrauchs wurde von einer weiteren Zeugin teilweise gestützt, aber nie abschließend gerichtlich festgestellt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-diane-downs", label:"Kriminalpsychologie: Diane Downs (SX3w4) – ebenfalls sexuelle Drei, anderer Flügel"},
+        {route:"kriminalpsychologie-luka-magnotta", label:"Kriminalpsychologie: Luka Magnotta (SX3w4)"},
+        {route:"kriminalpsychologie-richard-ramirez", label:"Kriminalpsychologie: Richard Ramírez (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
