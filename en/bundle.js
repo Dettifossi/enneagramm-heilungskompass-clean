@@ -1149,9 +1149,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edita Gruberová – Self-Preservation Type 3",
     teaser:"SP3w2 · 1946–2021. Slovak coloratura soprano, the \"Queen of Coloratura,\" over 45 years at the Vienna State Opera. Fled Czechoslovakia for Vienna in 1971, still sang the most demanding roles at 72 – an exceptional career length for her voice type. Animal correspondence: Raccoon.",
     land:"Slovakia/Austria", tags:["Music"], gender:"f"},
-{ route:"beruehmte-helene-fischer", name:"Helene Fischer", added:"2026-09-05", subtyp:"SE3w2",
-    heading:"Helene Fischer – Self-Preservation Type 3",
-    teaser:"SE3w2 · born 1984. German Schlager singer. The most successful contemporary Schlager artist, uncompromising perfectionism paired with a strictly guarded private life. Warm, personal stage presence that seeks closeness with the audience.",
+{ route:"beruehmte-helene-fischer", name:"Helene Fischer", added:"2026-09-05", subtyp:"SX3w2",
+    heading:"Helene Fischer – Sexual Type 3",
+    teaser:"SX3w2 · born 1984. German Schlager singer. The most successful contemporary Schlager artist, elaborate acrobatic stage shows with uncompromising perfectionism paired with a strictly guarded private life. Warm, personal stage presence that seeks closeness with the audience.",
     land:"Germany", tags:["Music"], gender:"f"},
 { route:"beruehmte-horst-tappert", name:"Horst Tappert", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Horst Tappert – Self-Preservation Type 3",
@@ -54448,45 +54448,45 @@ function heleneFischerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helene-fischer-portrait.jpg" alt="Helene Fischer – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Helene Fischer</p>
-        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
-        <p class="krim-portrait-subtitle">Singer, born 1984 &ndash; Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Singer, born 1984 &ndash; Animal correspondence: Peacock</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Raccoon Who Earned Her Territory the Hard Way</h2>
+        <h2 class="vb-section">1. The Peacock Who Fully Unfurls Its Tail for Others</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of Self-Preservation Type 3 &ndash; an animal that secures its success not through status symbols, but through quiet, competent achievement. Helene Fischer, born in 1984 in Krasnoyarsk and relocated with her family to Germany as a child, worked her way through years of relentless performances, rehearsals, and tours to become the most successful German Schlager singer of her generation.</p>
-          <p class="vb-intro">Despite global fame, she keeps her private life strictly guarded &ndash; hardly any home stories, hardly any self-staging on social media, but a deliberate retreat into quiet, away from the spotlight and the paparazzi. That is exactly SE3 security: worth doesn't come from visible outside validation, but from one's own, demonstrable capability &ndash; and that capability is preferably earned in private rather than put on public display.</p>
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of Sexual Type 3 &ndash; an animal whose finest moment is no private pleasure, but a performance fully staged for an audience. Helene Fischer, born in 1984 in Krasnoyarsk and relocated with her family to Germany as a child, worked her way through years of relentless performances, rehearsals, and tours to become the most successful German Schlager singer of her generation &ndash; with stage shows whose scale and acrobatics resemble a Cirque du Soleil production more than a classic Schlager concert.</p>
+          <p class="vb-intro">Despite global fame, she keeps her private life strictly guarded &ndash; hardly any home stories, hardly any everyday self-staging on social media. That is no contradiction for the SX3, but her focus: instead of scattering her magnetic effect across constant presence, she concentrates all of it fully into the one moment the curtain rises.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Self-Preservation Three: Success Through Self-Sufficiency</h2>
+        <h2 class="vb-section">2. Sexual Three: The Complete Performance as an Art Form</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo's <strong>Self-Preservation Three (SE3)</strong> seeks security through competent self-sufficiency rather than social recognition or personal magnetism. Fischer describes herself as a "control freak" who sometimes gets in her own way with her own perfectionism, and openly admits: "I'm terribly bad at delegating." Instead of handing off tasks, she prefers to personally train through her elaborate stage shows &ndash; even after a head injury during a trapeze act in Hanover or a broken rib during a tour rehearsal.</p>
-          <p class="vb-intro">This willingness to accept physical risk for her own, self-controlled performance rather than sparing herself or admitting weakness is pure SE3 signature: security comes from knowing she achieved it herself, not from being cared for by others.</p>
+          <p class="vb-intro">Naranjo's <strong>Sexual Three (SX3)</strong> seeks, not primarily social prestige or quiet self-sufficiency, but immediate, magnetic impact in the direct moment of encounter &ndash; a complete, deliberately shaped self-presentation that knows exactly what impression it wants to make. Fischer describes herself as a "control freak" who sometimes gets in her own way with her own perfectionism, and openly admits: "I'm terribly bad at delegating." Instead of handing off tasks, she prefers to personally train through her elaborate trapeze and flying elements &ndash; even after a head injury during a trapeze act in Hanover or a broken rib during a tour rehearsal.</p>
+          <p class="vb-intro">This willingness to take on considerable physical risk so the evening's show achieves exactly the overwhelming effect she has envisioned is pure SX3 signature: it is not quiet security-building in the background that drives her, but the demand to make the one performance complete and unforgettable.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-wing: Devotion to the Audience</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing</strong> gives the Self-Preservation Three a warm, relationship-building quality that goes beyond a pure demonstration of achievement. Fischer's concerts are explicitly designed for emotional closeness with her audience: lyrics about love and the preciousness of the moment, the recurring phrase "celebrate this evening together," couples embracing in each other's arms. The German newspaper taz aptly described this pattern as "everything for you, my dears" &ndash; a phrasing that captures exactly the Two's underlying stance: defining oneself through devotion to others.</p>
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the Sexual Three a warm, relationship-building quality that goes beyond mere dazzle. Fischer's concerts are explicitly designed for emotional closeness with her audience: lyrics about love and the preciousness of the moment, the recurring phrase "celebrate this evening together," couples embracing in each other's arms. The German newspaper taz aptly described this pattern as "everything for you, my dears" &ndash; a phrasing that captures exactly the Two's underlying stance: defining oneself through devotion to others, rather than merely putting one's own radiance on display.</p>
           <p class="vb-intro">The same care shows in her family life &ndash; her parents almost always sit in the audience, one song is dedicated to them ("You Made Me Strong") &ndash; and since becoming a mother herself, she has increasingly turned to children's book projects meant to deliberately convey warmth, imagination, and shared moments.</p>
         </blockquote>
 
         <h2 class="vb-section">4. A Perfectionism That Costs Her Own Lightness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Fischer has openly admitted that her perfectionism sometimes "annoys even herself" and robs her of inner calm. This honesty about her own drivenness is rare among public figures who are perceived primarily through achievement &ndash; and it fits the SE3, who experiences effort not as a burden but as the natural precondition for security, even when it comes at a cost.</p>
-          <p class="vb-intro">This is precisely where the decisive difference from the Social Three (SO3) lies &ndash; a subtype Fischer is easily confused with because of her record-breaking shows and public status. For the SO3, success is the goal itself: social prestige, embodying society's ideal image of achievement. When that prestige arrives, the SO3 genuinely refuels, even if only temporarily. The SE3, by contrast, remains inwardly restless no matter how large the external success grows &ndash; because the security being sought never really comes from outside, but from an inner examining authority that no record can permanently silence. That Fischer's drivenness continues unabated despite sold-out stadiums and historic sales figures is exactly this SE3 pattern: success doesn't feed the security, no matter how large it grows. Her consistent withdrawal from public private life fits the SE3 better than the SO3, too &ndash; a Social Three would tend to actively cultivate and display her image and social standing rather than shutting it away the moment the curtain falls.</p>
-          <p class="vb-intro">Her daughters have made her "more sensitive," she says, and at the same time "calmer" &ndash; a development that shows how the Two-wing comes through more strongly over time: her own emotional accessibility grows, without the underlying SE3 structure of self-sufficient achievement security disappearing.</p>
+          <p class="vb-intro">Fischer has openly admitted that her perfectionism sometimes "annoys even herself" and robs her of inner calm. This honesty about her own drivenness is rare among public figures who are perceived primarily through their stage presence &ndash; and it fits the SX3, who experiences effort not as a burden but as the natural precondition for the perfect performance, even when it comes at a cost.</p>
+          <p class="vb-intro">This is precisely where the decisive difference from the Social Three (SO3) lies &ndash; a subtype Fischer is easily confused with because of her record-breaking shows and public status. For the SO3, social prestige is the actual goal: embodying society's ideal image of achievement, staying permanently in the public conversation. For the SX3, by contrast, all the energy concentrates on the immediate, overwhelming impact of the single moment of encounter &ndash; on stage, in direct contact with the audience in front of her &ndash; not on the lasting public image in between. That Fischer shields her private life so consistently fits exactly this pattern: the intensity isn't spread across constant public presence, but saved up entirely for the one evening, the one show &ndash; a Social Three, by contrast, would tend to actively cultivate and display her image off-stage as well.</p>
+          <p class="vb-intro">Her daughters have made her "more sensitive," she says, and at the same time "calmer" &ndash; a development that shows how the Two-wing comes through more strongly over time: her own emotional accessibility grows, without the underlying SX3 structure of complete, magnetic stage impact disappearing.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE3w2 shows in Fischer in her ability to combine enormous personal achievement with genuine devotion to her audience &ndash; the stage show is not mere self-promotion, but a gift to people who want an evening full of closeness and emotion.</p>
-          <p class="vb-intro">The shadow of the Three lies in the inability to relinquish control, and in the willingness to subordinate her own physical safety to the demand for perfection. The Two-wing softens this harshness toward herself somewhat through emotional openness toward fans and family, but it doesn't stop her from treating herself the hardest of all.</p>
+          <p class="vb-intro">The light of the SX3w2 shows in Fischer in her ability to combine overwhelming stage impact with genuine devotion to her audience &ndash; the show is not mere dazzle, but a gift to people who want an evening full of closeness and emotion.</p>
+          <p class="vb-intro">The shadow of the Three lies in the inability to relinquish control, and in the willingness to subordinate her own physical safety to the demand for the perfect performance. The Two-wing softens this harshness toward herself somewhat through emotional openness toward fans and family, but it doesn't stop her from treating herself the hardest of all.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Singer Who Trained Everything Herself</h2>
+        <h2 class="vb-section">6. The Singer Who Unfurls Her Tail Fully or Not at All</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Helene Fischer's career shows the Self-Preservation Three with a Two-wing in a particularly intense form: uncompromising perfectionism that accepts physical risk, paired with genuine, warm devotion to an audience she wants to give unforgettable evenings. The raccoon works alone and reliably &ndash; but shares what it has earned with those who matter to it.</p>
+          <p class="vb-intro">Helene Fischer's career shows the Sexual Three with a Two-wing in a particularly intense form: uncompromising perfectionism that accepts physical risk, paired with genuine, warm devotion to an audience she wants to give unforgettable evenings. The peacock doesn't spare itself once the tail opens &ndash; but it unfurls it for those who matter to it, not out of mere calculation.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -54494,9 +54494,9 @@ function heleneFischerPortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
-          {route:"beruehmte-edita-gruberova", label:"Portrait: Edita Gruberová (SE3w2) – also a singer"},
-          {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2) – also a singer, same subtype"},
+          {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
         ])}
       </div>
     </div>
