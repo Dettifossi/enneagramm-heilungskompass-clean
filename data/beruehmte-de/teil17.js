@@ -1818,3 +1818,68 @@ export function lorisAssadianPortraitPage() {
     </div>
   `);
 }
+
+export function adamSandlerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-adam-sandler-portrait.jpg" alt="Adam Sandler – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adam Sandler</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Komiker, geb. 1966 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das immer mit denselben im Baum hängt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> hängt nicht allein im Geäst – es teilt seinen Baum mit vertrauten Artgenossen, ohne dass es dafür viel Aufhebens braucht. Adam Sandler, 1966 in New York geboren, in Manchester, New Hampshire aufgewachsen, drehte seit den späten 1980er-Jahren praktisch jeden seiner Filme mit demselben engen Kreis: Rob Schneider, Kevin James, David Spade, Allen Covert. Auf die Frage, warum er nie neue Bekanntschaften in Hollywood suche, antwortete er einmal trocken: „Ich muss keine neuen Leute kennenlernen. Ich habe schon die besten Leute in meinem Leben."</p>
+          <p class="vb-intro">Über 15 gemeinsame Filme mit Rob Schneider allein, dazu seine eigene Frau Jackie und beide Töchter regelmäßig vor der Kamera seiner Produktionsfirma Happy Madison – kein Zufall, sondern die zentrale Bewegung der sexuellen Neun: lieber tief mit den immer gleichen Menschen verschmelzen, als sich in ständig neuen Bekanntschaften zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Der eine Kreis, der genügt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die Vielzahl loser Kontakte, sondern das vollständige Aufgehen in einer eng begrenzten, vertrauten Welt. Bei Sandler zeigt sich das nicht nur beruflich, sondern privat: Seit seiner Hochzeit mit Jackie Titone 2003 gilt er als bemerkenswert unauffälliger, familienorientierter Hollywood-Star, der öffentliche Auftritte und Society-Events meidet, wo es nur geht, und stattdessen zu Hause mit Frau und Töchtern Zeit verbringt.</p>
+          <p class="vb-intro">Diese Bindung an den engen Kreis prägt sogar seine Arbeitsweise am Set: Wer einmal Teil der „Sandler-Familie" ist, bleibt es meist über Jahrzehnte – eine Verschmelzung mit Menschen, nicht mit Rollen oder Projekten, die sich immer wieder neu bestätigt, statt sich zu erschöpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Präzision hinter der Lässigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> zeigt sich bei Sandler nicht als äußerlich sichtbare Strenge, sondern als verborgene Sorgfalt hinter der scheinbar mühelosen, oft betont albernen Komik. Seine Produktionsfirma Happy Madison liefert seit den 1990er-Jahren mit bemerkenswerter Verlässlichkeit dieselbe Erfolgsformel – ähnliches Team, ähnlicher Ton, ähnliche Drehorte –, ein diszipliniertes, über Jahrzehnte durchgehaltenes System hinter der leichtfüßigen Fassade.</p>
+          <p class="vb-intro">Noch deutlicher wird diese verborgene Präzision in seinen dramatischen Rollen: Für Paul Thomas Andersons ›Punch-Drunk Love‹ (2002) und besonders für ›Uncut Gems‹ (2019), wo er den nervösen, ständig am Limit agierenden Juwelenhändler Howard Ratner spielte, arbeitete Sandler mit einer Intensität, die weit über sein Komiker-Image hinausging – Kritiker sprachen von der besten Leistung seiner Karriere. Genau diese Kombination aus beiläufiger Lässigkeit und plötzlicher, hochkonzentrierter Ernsthaftigkeit ist typisch SX9w1.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von ›Saturday Night Live‹ zum eigenen Studio</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sandler kam 1990 zu ›Saturday Night Live‹ und wurde dort schnell zur festen Größe, bevor er sich mit Filmen wie ›Billy Madison‹, ›Happy Gilmore‹ und ›The Waterboy‹ als eigenständiger Kassenmagnet etablierte. Mit Happy Madison Productions baute er sich anschließend eine Struktur, in der er nicht mehr nur Schauspieler, sondern Produzent und Arbeitgeber seines eigenen Freundeskreises wurde.</p>
+          <p class="vb-intro">Der Wechsel zu Netflix ab 2014 mit einem mehrjährigen Exklusivvertrag setzte dieses Prinzip fort: nicht die Suche nach neuen Studios oder neuen Partnern, sondern die Vertiefung einer bereits bestehenden, verlässlichen Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Sandler in einer seltenen Konstanz: Freundschaften, Ehe und berufliche Partnerschaften, die über Jahrzehnte tragen, statt sich zu verschleißen – eine Loyalität, die in einer schnelllebigen Branche auffällt. Der Einserflügel sorgt dafür, dass aus dieser Verbundenheit ein funktionierendes, diszipliniertes System wird und keine bloße Bequemlichkeit.</p>
+          <p class="vb-intro">Der Schatten der Neun liegt in der Gefahr, sich zu sehr auf das immer schon Vertraute zu verlassen – Kritiker werfen ihm seit Jahren vor, sich in vorhersehbaren Komödien mit demselben Ensemble zu wiederholen, statt künstlerisches Risiko zu suchen. Dass er dieses Risiko dennoch gelegentlich eingeht, wie ›Uncut Gems‹ zeigt, deutet auf eine Neun, die sich nicht vollständig im Vertrauten verliert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Star, der lieber zu Hause bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adam Sandlers Weg zeigt die sexuelle Neun mit Einserflügel in einer besonders beständigen Form: derselbe Freundeskreis vor und hinter der Kamera, dieselbe Ehe seit über zwei Jahrzehnten, dasselbe Studio-Modell, fortgeführt statt neu erfunden. Das Faultier hängt lieber dort, wo es sich auskennt – und zeigt gerade dort, wenn es darauf ankommt, eine Präzision, die niemand ihm zugetraut hätte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1)"},
+          {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls jahrzehntelange Bindungstreue"},
+          {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1) – dieselbe Präzision hinter scheinbarer Beiläufigkeit"},
+        ])}
+      </div>
+    </div>
+  `);
+}

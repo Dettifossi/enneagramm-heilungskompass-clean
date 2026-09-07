@@ -58,6 +58,7 @@ export function helgeSchneiderPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – ebenfalls Verschmelzung mit fremden künstlerischen Vorbildern, hier als Kunstfälschung"},
           {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+          {route:"beruehmte-adam-sandler", label:"Porträt: Adam Sandler (SX9w1) – dieselbe Präzision hinter scheinbarer Beiläufigkeit"},
         ])}
       </div>
     </div>
