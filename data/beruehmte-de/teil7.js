@@ -1,5 +1,69 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function helgeSchneiderPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helge-schneider-portrait.jpg" alt="Helge Schneider – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helge Schneider</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Komiker und Regisseur, geb. 1955 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; ein Tier, das sich nicht abgrenzt, sondern verschmilzt: mit der Stimmung, mit dem Moment, mit dem Publikum. Helge Schneider, geboren 1955 in Mülheim an der Ruhr, betritt die Bühne ohne festes Programm und ohne Manifest &ndash; was geschieht, entsteht im Moment selbst, aus einer Verschmelzung mit der jeweiligen Stimmung des Abends, nicht aus einem vorher festgelegten Plan.</p>
+          <p class="vb-intro">Er selbst versteht sich in erster Linie als Jazzmusiker, nicht als Komiker &ndash; als Kind hörte er Louis Armstrong im Radio, später verliebte er sich in die Musik Thelonious Monks, nachdem ihn allein schon das Plattencover tief beeindruckt hatte. Diese frühe, fast wortlose Verschmelzung mit seinen musikalischen Vorbildern trägt sein gesamtes Werk bis heute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung statt Standpunkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo Erfüllung durch vollständige Verschmelzung &ndash; mit einer Person, einer Stimmung, einem Moment &ndash; statt durch einen klar behaupteten eigenen Standpunkt. Schneider verweigert sich konsequent jeder Erklärung seines Schaffens: keine großen Programme, keine Manifest-Texte. Wer etwas verstehen will, muss hinschauen &ndash; nicht lesen. Dieses Schweigen ist keine Ausweichung, sondern Schutz der eigenen künstlerischen Freiheit vor jeder Vereinnahmung durch fremde Deutungen.</p>
+          <p class="vb-intro">Auf der Bühne schafft er Situationen, in denen das Publikum selbst entscheiden muss, ob es sich auf das Geschehen einlässt oder nicht &ndash; musikalische Passagen illustrieren nichts, sie tragen; Pausen dürfen bewusst länger dauern, als es dramaturgische Konventionen erlauben würden. Genau das ist die SX9-Logik: Es wird kein Weg vorgegeben, sondern ein Raum geöffnet, in den das Publikum sich hineinbegeben kann &ndash; oder eben nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin hinter dem scheinbaren Chaos</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sexuellen Neun eine verborgene, aber unverkennbare Strenge. Was auf der Bühne wie reiner Zufall wirkt, ist in Wirklichkeit das Ergebnis jahrzehntelanger musikalischer Übung &ndash; sein Timing, seine Struktur, seine Improvisation sind kein Zufallsprodukt, sondern Resultat harter Arbeit. Diese Kombination aus scheinbarer Beliebigkeit und tatsächlicher, nie zur Schau gestellter Präzision ist reinste SX9w1-Handschrift.</p>
+          <p class="vb-intro">Auch sein Verhältnis zum Ruhrgebiet, in dem er aufwuchs, spiegelt diesen Flügel: Können wird dort nicht ausgestellt, sondern genutzt. Statt seinen Erfolg zu inszenieren, wurde Schneider gerade durch Zurückhaltung sichtbar &ndash; eine stille, aber unnachgiebige Haltung, die sich auch daran zeigte, dass er während der Pandemie schlicht nicht auftrat, wenn die äußeren Bedingungen seinen Anspruch an Nähe und Unmittelbarkeit nicht erfüllten. Haltung zeigt sich im Handeln, nicht im Statement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Radio-Kind zum Kult-Musiker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Den kommerziellen Durchbruch schaffte Schneider 1992 mit dem Album ›Guten Tach‹, 1994 wurde er einem breiten Fernsehpublikum bekannt &ndash; ›Katzeklo‹ stieg in die deutschen Charts ein. Bis heute lässt er sich weder als reiner Musiker noch als klassischer Komiker einordnen; seine Spezialität liegt in der Gleichzeitigkeit von Ernsthaftigkeit und Spiel. Er provoziert und überrascht mit einem absurden Humor, den sich sonst kaum jemand zutrauen würde.</p>
+          <p class="vb-intro">Sein heterogenes Publikum teilt sich einen Raum, ohne dass Einigkeit verlangt würde &ndash; sein Werk verbindet, ohne zu vereinen. Auch das Lachen selbst wird bei ihm verzögert und wahlweise, nie ein reiner Reflex. Genau darin zeigt sich die SX9-Fähigkeit, einen gemeinsamen Raum zu schaffen, in dem Verschiedenes nebeneinander bestehen kann, ohne dass jemand zu einer Position gezwungen würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich bei Schneider in der Fähigkeit, aus reiner Verschmelzung mit dem Moment etwas zu schaffen, das kein festgelegtes Konzept je erreichen könnte &ndash; eine Kunst, die lebendig bleibt, weil sie sich nie selbst erklärt und nie zur Formel erstarrt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Neun ist die <strong>Selbstvergessenheit</strong> &ndash; bei der SX9 gewendet in eine Auflösung der eigenen Konturen zugunsten der Verschmelzung mit dem Publikum, der Musik, dem Moment. Der Einserflügel bewahrt Schneider davor, in reiner Beliebigkeit zu verschwinden, indem er der Verschmelzung eine unsichtbare, aber spürbare Struktur unterlegt &ndash; ohne diese Struktur würde aus der Verschmelzung bloßes Chaos, keine Kunst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das genau weiß, wann es sich Zeit lässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Helge Schneiders Karriere zeigt die sexuelle Neun mit Einserflügel in einer besonders eigenwilligen Form: eine Kunst, die sich jeder Erklärung verweigert und gerade dadurch ihre Freiheit bewahrt, getragen von einer Disziplin, die sich nie in den Vordergrund drängt. Das Faultier hetzt nicht &ndash; aber wenn es sich bewegt, dann mit einer Präzision, die jahrzehntelange Übung verrät.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – ebenfalls Verschmelzung mit fremden künstlerischen Vorbildern, hier als Kunstfälschung"},
+          {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 export function ajeetKaurPortraitPage() {
   return shell(`
     <div class="page-container">

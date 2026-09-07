@@ -1343,6 +1343,7 @@ export function sophieMarceauPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
+          {route:"beruehmte-helge-schneider", label:"Portr\xe4t: Helge Schneider (SX9w1) \u2013 ebenfalls SX9w1"},
           {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
           {route:"beruehmte-ed-sheeran", label:"Portr\xe4t: Ed Sheeran (SX9w1)"},
