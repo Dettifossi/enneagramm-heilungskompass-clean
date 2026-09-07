@@ -3974,8 +3974,8 @@ export function michaelBerrymanKrankheitsportraetPage() {
         Selbstbehauptung im Moment der Kränkung.</p>
         <p class="vb-intro"><strong>c) Gelassenheit als Grundzustand zwischen den Konfrontationen:</strong>
         Zwischen den wenigen dokumentierten scharfen Erwiderungen liegt eine über
-        Jahrzehnte beobachtete, durchgehende Ruhe im persönlichen Kontakt – typisch
-        neunertypisch, mit dem Achterflügel als punktueller Ausnahme.</p>
+        Jahrzehnte beobachtete, durchgehende Ruhe im persönlichen Kontakt – neunertypisch,
+        mit dem Achterflügel als punktueller Ausnahme.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
