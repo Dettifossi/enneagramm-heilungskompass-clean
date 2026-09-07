@@ -3861,3 +3861,188 @@ export function heinrichHeineKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function juergenDrewsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Drews</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel · geb. 1945</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Faultier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Tierentsprechung: Faultier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jürgen Drews</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-juergen-drews">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Karriere als Schlagersänger
+        und um seine jahrzehntelange Ehe mit Ramona. Dieses Porträt vertieft ein Kapitel,
+        das dort nur gestreift wird: seine 2022 öffentlich gemachte Diagnose der
+        Nervenkrankheit Polyneuropathie und den stillen, unspektakulären Umgang damit.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Drews</strong> ist dem <strong>sexuellen Typ 9 mit Einserflügel</strong>
+        zugeordnet. Die SX9 sucht Erfüllung über völlige Verschmelzung mit einer einzelnen
+        intensiven Beziehung oder Aufgabe, verliert dabei aber leicht die eigenen
+        Bedürfnisse und Warnsignale des eigenen Körpers aus dem Blick. Der Einserflügel
+        bringt eine stille Pflichttreue hinzu, die auch dann weiterträgt, wenn der Körper
+        längst Grenzen anmeldet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Taubheitsgefühle über Jahre kaum thematisiert:</strong>
+        Polyneuropathie beginnt typischerweise schleichend, mit Kribbeln, Taubheit und
+        nachlassender Kraft in Händen und Füßen – Symptome, die sich über Jahre hinweg
+        langsam verstärken, bevor sie unübersehbar werden.</p>
+        <p class="vb-intro"><strong>b) Ein Terminkalender, der keine Pause kannte:</strong>
+        Auch als die ersten Beschwerden längst spürbar gewesen sein dürften, blieb Drews
+        über Jahre im vollen Bühnen- und Tourbetrieb – Auftritte, Interviews, das
+        sommerliche Mallorca-Programm, ohne erkennbare Verlangsamung.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Vorwarnung:</strong>
+        Anders als bei manch anderem Krankheitsporträt dieses Kompasses gab es keine
+        Phase öffentlich sichtbaren Rückzugs im Vorfeld – die Diagnose wurde erst
+        bekannt, als der Bühnenabschied bereits beschlossen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Diagnose Polyneuropathie:</strong>
+        2022 gab Drews öffentlich bekannt, an der unheilbaren Nervenkrankheit
+        Polyneuropathie zu leiden, die Taubheit, Schmerzen und Muskelschwund verursacht,
+        und kündigte in diesem Zusammenhang seinen Bühnenabschied an.</p>
+        <p class="vb-intro"><strong>b) Ein vergleichsweise milder, kontrollierter Verlauf:</strong>
+        Nach eigenen Angaben verläuft die Erkrankung bei ihm vergleichsweise mild und
+        lässt sich medizinisch einigermaßen kontrollieren – kein dramatischer
+        Zusammenbruch, sondern ein Leiden, mit dem er lernte umzugehen.</p>
+        <p class="vb-intro"><strong>c) Trotzdem: Weiterarbeit statt Rückzug:</strong>
+        Trotz der Diagnose und des angekündigten Bühnenabschieds veröffentlichte Drews
+        2025, mit 80 Jahren, ein neues Album und gab weiterhin Interviews – der
+        angekündigte Rückzug wurde nie zu einem vollständigen Verstummen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) „Ich bin müde, aber nicht fertig":</strong>
+        Im ZDF-Sommerinterview 2025 fasste Drews seinen Zustand in diesem einen Satz
+        zusammen – eine nüchterne, fast beiläufige Formulierung ohne jede Dramatik,
+        typisch für den Umgang der Neun mit dem eigenen Leiden.</p>
+        <p class="vb-intro"><strong>b) Gerüchte statt Klarheit:</strong>
+        Die öffentliche Zurückhaltung schuf über Jahre einen Nährboden für wiederholte
+        Todesgerüchte im Internet – Drews selbst reagierte darauf nie mit großer
+        Empörung, sondern mit stiller Gelassenheit.</p>
+        <p class="vb-intro"><strong>c) Keine Inszenierung als Kampf:</strong>
+        Anders als in vielen öffentlichen Krankheitsgeschichten prominenter Menschen
+        stilisierte Drews seine Erkrankung nie zu einem Kampf, den es zu gewinnen gilt –
+        sie blieb ein Umstand, mit dem weitergelebt wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Bühnenabschied, der keiner wurde:</strong>
+        Der 2022 angekündigte Rückzug von der Bühne blieb ein gleitender Übergang statt
+        eines endgültigen Schlusspunkts – Interviews, ein neues Album, gelegentliche
+        Auftritte blieben Teil seines Lebens.</p>
+        <p class="vb-intro"><strong>b) Die Familie als tragende Konstante:</strong>
+        Ehefrau Ramona und Tochter Joelina blieben durch die gesamte Zeit an seiner
+        Seite – dieselbe enge Bindung, die schon sein berufliches Leben über Jahrzehnte
+        prägte, trug ihn auch durch die gesundheitliche Phase.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Anteilnahme trotz Zurückhaltung:</strong>
+        Obwohl Drews selbst kaum Dramatik in seine Krankengeschichte legte, löste jede
+        seiner spärlichen öffentlichen Äußerungen dazu großes mediales Echo aus – ein
+        Fanpublikum, das seit Jahrzehnten emotional an ihm hängt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Verschmelzung mit der Rolle bis zuletzt:</strong>
+        Die für die sexuelle Neun typische Strategie, sich mit einer Aufgabe oder einem
+        Publikum zu verschmelzen, zeigte sich bei Drews darin, dass selbst eine
+        fortschreitende Nervenkrankheit die Bindung an Bühne und Fans nicht vollständig
+        durchtrennte.</p>
+        <p class="vb-intro"><strong>b) Der Einserflügel als leiser Pflichtsinn:</strong>
+        Die Weiterarbeit trotz Diagnose trägt die Handschrift des Einserflügels: nicht
+        aus Verdrängung, sondern aus einem stillen Gefühl, dem eigenen Publikum und
+        Werk noch etwas schuldig zu sein, solange es irgend geht.</p>
+        <p class="vb-intro"><strong>c) Geringe Neigung, das eigene Leiden zur Bühne zu machen:</strong>
+        Typisch für die Neun ist die Zurückhaltung, die eigene Not laut zu artikulieren
+        – Drews' spärliche, nüchterne Aussagen zu seiner Krankheit passen genau in
+        dieses Muster.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben, das schon vor der Diagnose auf Beständigkeit baute:</strong>
+        Dieselbe Ehe seit 1994, dasselbe Mallorca-Publikum seit den 1990er-Jahren,
+        dasselbe Genre seit Jahrzehnten – Drews' Lebensmuster war lange vor der
+        Erkrankung von Konstanz geprägt, nicht von ständigem Neuanfang.</p>
+        <p class="vb-intro"><strong>b) Die Krankheit als Fortsetzung, nicht als Bruch:</strong>
+        Anders als ein dramatischer Einschnitt fügt sich die Polyneuropathie nahtlos in
+        dieses Muster ein: Auch mit ihr macht Drews im Grunde weiter wie zuvor, nur mit
+        angepasstem Tempo statt mit vollständigem Rückzug.</p>
+        <p class="vb-intro"><strong>c) Eine Parallele zu Diego Velázquez, anderem SX9w1 dieses Kompasses:</strong>
+        Wie bei <a href="javascript:void(0)" data-route="krankheitsportraets-diego-velazquez">Diego Velázquez</a>,
+        der noch mit über sechzig Jahren keine Anzeichen zeigte, kürzerzutreten, und
+        bis zur völligen Erschöpfung im Dienst blieb, zeigt sich auch bei Drews eine
+        geringe Neigung, rechtzeitig eine Pause einzulegen. Der entscheidende
+        Unterschied: Wo Velázquez' Körper sich erst schlagartig, binnen einer Woche,
+        meldete, verläuft Drews' Erkrankung langsam und diagnostiziert – doch das
+        Grundmuster, dem eigenen Publikum und der eigenen Aufgabe treu zu bleiben, auch
+        wenn der Körper längst Grenzen anmeldet, verbindet beide Fälle.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Nervenkrankheit?</strong>
+        Für eine sexuelle Neun, deren Selbstwahrnehmung ohnehin strukturell hinter der
+        Wahrnehmung anderer zurücktritt, liegt eine Deutung nahe: Ausgerechnet ein
+        Leiden, das die körperliche Wahrnehmung selbst betrifft – Taubheit statt
+        Schmerz, ein Nachlassen des Spürens –, passt zu einem Menschen, der die eigenen
+        Signale ohnehin gewohnt ist zu überhören. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Neun zwangsläufig zu
+        Nervenerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Drews' Fall zeigen lässt, ist ein
+        Muster, das beim ruhigen Weitermachen trotz körperlicher Warnsignale in der
+        Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein
+        Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach
+        im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Drews kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Neun mit
+        Einserflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
+        dabei leicht die eigenen körperlichen Warnsignale, statt rechtzeitig
+        innezuhalten. Genau das lebte er über Jahrzehnte ungebremst aus: ein volles
+        Bühnenprogramm ohne erkennbare Pausen, bis der Körper selbst die Grenze setzte.
+        Wer die eigene Neigung zur grenzenlosen Verschmelzung nicht als Muster erkennt,
+        verwechselt sie leicht mit reiner Liebe zum Beruf, selbst wenn der eigene Körper
+        längst Warnsignale sendet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Jürgen Drews'</strong> Umgang mit seiner Polyneuropathie lässt sich
+        die sexuelle Neun mit Einserflügel in einer ihrer stillsten Formen studieren:
+        keine dramatische Krankheitserzählung, sondern ein leises, nahezu beiläufiges
+        Weitermachen – dieselbe Frau, dasselbe Publikum, dasselbe Genre, jetzt eben mit
+        Taubheit in den Nerven statt mit voller Kraft. Das Faultier bleibt auf seinem
+        Ast, auch wenn der Ast selbst zu spüren aufhört.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w1) – Lebenswerk"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1) – dieselbe grenzenlose Verfügbarkeit, anderer Verlauf"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}

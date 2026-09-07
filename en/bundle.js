@@ -446,6 +446,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-natascha-kampusch", name:"Natascha Kampusch", subtyp:"SE2w1", heading:"Natascha Kampusch – Self-Preservation Type 2", krankheit:"Post-traumatic stress disorder, severe psychological breakdown twenty years after liberation", teaser:"SP2w1 – author and activist, born 1988. Post-traumatic stress disorder following eight years of captivity (1998–2006), severe psychological breakdown made public by her family in 2026. Connected to Greta Thunberg (also SP2w1, also retreat into a world of her own under extreme pressure)." , land:"Austria", gender:"f", jahre:"born 1988"},
   { route:"krankheitsportraets-blaise-pascal", name:"Blaise Pascal", subtyp:"SX5w6", heading:"Blaise Pascal – Sexual Type 5", krankheit:"Lifelong, never conclusively diagnosed chronic illness (headaches, digestive suffering), radical self-mortification in his final years", teaser:"SX5w6 – French mathematician, physicist, and philosopher, 1623–1662. Practically no pain-free day documented since age 18. Withdrew radically from science and possessions in his final years, at times wore a nail belt for self-mortification, died at only 39 after a violent seizure." , land:"France", gender:"m", jahre:"1623–1662"},
   { route:"krankheitsportraets-diego-velazquez", name:"Diego Velázquez", subtyp:"SX9w1", heading:"Diego Velázquez – Sexual Type 9", krankheit:"Sudden, fatal fever after complete physical exhaustion", teaser:"SX9w1 – Spanish court painter, creator of Las Meninas, 1599–1660. Exhaustively organized the entire court ceremony for the wedding of the Infanta María Teresa to Louis XIV in 1660 on the Isle of Pheasants. Fell ill with a high fever days after returning and died within a week." , land:"Spain", gender:"m", jahre:"1599–1660"},
+  { route:"krankheitsportraets-juergen-drews", name:"Jürgen Drews", subtyp:"SX9w1", heading:"Jürgen Drews – Sexual Type 9", krankheit:"Polyneuropathy (chronic nerve disease)", teaser:"SX9w1 – German schlager singer, 'King of Mallorca,' born 1945. Publicly announced his diagnosis of the nerve disease polyneuropathy in 2022, announced retirement from the stage – still released a new album in 2025. \"I am tired, but not finished.\"", land:"Germany", gender:"m", jahre:"1945–"},
   { route:"krankheitsportraets-adam-smith", name:"Adam Smith", subtyp:"SO1w9", heading:"Adam Smith – Social Type 1", krankheit:"Decades of chronic digestive suffering, presumed bowel obstruction as cause of death", teaser:"SO1w9 – Scottish moral philosopher and economist, founder of modern economics, 1723–1790. Decades of digestive complaints, described by contemporaries as hypochondria but genuinely physical. Had almost all his unpublished manuscripts burned shortly before his death, fearing they would not meet his own high standard." , land:"Scotland", gender:"m", jahre:"1723–1790"},
   { route:"krankheitsportraets-joseph-haydn", name:"Joseph Haydn", subtyp:"SE3w2", heading:"Joseph Haydn – Self-Preservation Type 3", krankheit:"Progressive dropsy (edema) and general physical decline in his final years", teaser:"SE3w2 – Austrian composer, the “father of the symphony,” 1732–1809. Increasingly unable to work from about 1803 due to dropsy and exhaustion. In May 1809, while Napoleon's troops shelled Vienna, the dying Haydn played his own imperial anthem on the piano three times to calm his household staff – died a few days later." , land:"Austria", gender:"m", jahre:"1732–1809"},
 ];
@@ -57978,13 +57979,18 @@ const KRANKHEITSMUSTERKOMPASS = {
   },
   SX9: {
     tier: "Sloth",
-    kernthema: "Small sample so far – a tendency toward chronic, never clearly diagnosed suffering, often accompanied by a numbing approach to one's own pain.",
-    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez"],
+    kernthema: "Small sample so far – two tendencies stand out: chronic, never clearly diagnosed suffering with a numbing approach, and a calm carrying-on despite physical warning signs, up to the point of exhaustion.",
+    beispiele: ["Elizabeth Barrett Browning", "Friedensreich Hundertwasser", "Diego Velázquez", "Jürgen Drews"],
     fingerabdruecke: [
       {
         titel: "Chronic, never clearly diagnosed suffering with a numbing approach",
         beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a years-long, never fully clarified chronic course.",
         beleg: "Elizabeth Barrett Browning with a decades-long, never clearly diagnosed chronic illness and an accompanying lifelong opium dependency; Friedensreich Hundertwasser with a chronic heart condition that eventually led to fatal heart failure aboard the Queen Elizabeth 2."
+      },
+      {
+        titel: "Boundless availability despite physical warning signs",
+        beschreibung: "With only two cases so far, no reliable pattern is discernible, yet both show a low tendency to take a timely pause once the body starts signaling limits.",
+        beleg: "Diego Velázquez, who even past sixty showed no signs of slowing down and died of a sudden fever within a week of complete exhaustion; Jürgen Drews, who, despite a 2022 public diagnosis of the nerve disease polyneuropathy, still released a new album in 2025 and kept giving interviews – \"tired, but not finished,\" rather than a dramatic withdrawal."
       }
     ]
   }
@@ -63064,6 +63070,191 @@ function diegoVelazquezKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1) – life's work"},
         {route:"krankheitsportraets-hundertwasser", label:"Illness Portrait: Friedensreich Hundertwasser (SX9w8) – related subtype"},
+        {route:"krankheitsportraets-juergen-drews", label:"Illness Portrait: Jürgen Drews (SX9w1) – the same boundless availability, a different course"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+function juergenDrewsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-drews-portrait.jpg" alt="Jürgen Drews" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Drews</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing · born 1945</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Sloth</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx9.jpg" alt="Animal correspondence: Sloth" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX9")};left:${tierAvatarLeft("SX9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Jürgen Drews</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-juergen-drews">portrait under Famous Personalities</a>
+        in this Compass – that page covers his career as a schlager singer and his
+        decades-long marriage to Ramona. This page deepens a chapter only
+        fleetingly touched on there: his 2022 public diagnosis of the nerve
+        disease polyneuropathy and his quiet, unspectacular way of handling it.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Drews</strong> is classified as the <strong>Sexual Nine with
+        One-wing</strong>. The SX9 seeks fulfillment through total fusion with a
+        single intense relationship or task, but in doing so easily loses sight
+        of her own needs and her body's own warning signs. The One-wing adds a
+        quiet sense of duty that keeps carrying on even once the body has long
+        been signaling limits.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Numbness barely addressed for years:</strong>
+        Polyneuropathy typically begins gradually, with tingling, numbness, and
+        weakening strength in the hands and feet – symptoms that slowly intensify
+        over years before becoming impossible to ignore.</p>
+        <p class="vb-intro"><strong>b) A schedule that knew no pause:</strong>
+        Even once the first symptoms had likely long been noticeable, Drews
+        remained for years in full touring and stage operation – performances,
+        interviews, the summer Mallorca program, with no visible slowdown.</p>
+        <p class="vb-intro"><strong>c) No public warning beforehand:</strong>
+        Unlike some other illness portraits in this Compass, there was no visible
+        phase of public withdrawal beforehand – the diagnosis only became known
+        once the retirement from the stage had already been decided.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The diagnosis of polyneuropathy:</strong>
+        In 2022 Drews publicly announced that he suffered from the incurable
+        nerve disease polyneuropathy, which causes numbness, pain, and muscle
+        wasting, and in that context announced his retirement from the stage.</p>
+        <p class="vb-intro"><strong>b) A comparatively mild, controlled course:</strong>
+        By his own account, the disease runs a comparatively mild and medically
+        somewhat controllable course in his case – no dramatic collapse, but an
+        affliction he learned to live with.</p>
+        <p class="vb-intro"><strong>c) Still: continuing to work instead of withdrawing:</strong>
+        Despite the diagnosis and the announced retirement from the stage, Drews
+        released a new album in 2025, at age 80, and continued giving interviews
+        – the announced withdrawal never became a complete silence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) "I am tired, but not finished":</strong>
+        In a 2025 ZDF summer interview Drews summed up his condition in this one
+        sentence – a sober, almost offhand phrasing without any drama, typical of
+        how the Nine handles her own suffering.</p>
+        <p class="vb-intro"><strong>b) Rumors instead of clarity:</strong>
+        His public reticence created a breeding ground over the years for
+        repeated death rumors online – Drews himself never reacted with great
+        outrage, but with quiet composure.</p>
+        <p class="vb-intro"><strong>c) No staging as a fight:</strong>
+        Unlike many public illness narratives of prominent people, Drews never
+        stylized his illness into a battle to be won – it remained a
+        circumstance to keep living with.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A stage retirement that never fully happened:</strong>
+        The 2022-announced withdrawal from the stage remained a gradual
+        transition rather than a definitive endpoint – interviews, a new album,
+        occasional appearances stayed part of his life.</p>
+        <p class="vb-intro"><strong>b) Family as the carrying constant:</strong>
+        His wife Ramona and daughter Joelina stayed at his side throughout –
+        the same close bond that had already shaped his professional life for
+        decades carried him through the health phase as well.</p>
+        <p class="vb-intro"><strong>c) Public sympathy despite his reticence:</strong>
+        Although Drews himself put little drama into his illness narrative,
+        each of his sparse public statements about it triggered great media
+        response – a fan base that has hung on him emotionally for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Merging with the role to the end:</strong>
+        The Sexual Nine's typical strategy of merging with a task or an audience
+        showed in Drews in that even a progressive nerve disease did not fully
+        sever his bond to stage and fans.</p>
+        <p class="vb-intro"><strong>b) The One-wing as a quiet sense of duty:</strong>
+        Continuing to work despite the diagnosis carries the signature of the
+        One-wing: not out of denial, but out of a quiet feeling of still owing
+        something to his audience and his work, for as long as it remains
+        possible.</p>
+        <p class="vb-intro"><strong>c) Low tendency to make his own suffering a stage:</strong>
+        Typical of the Nine is a reluctance to loudly voice her own distress –
+        Drews' sparse, sober statements about his illness fit exactly into this
+        pattern.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A life built on constancy long before the diagnosis:</strong>
+        The same marriage since 1994, the same Mallorca audience since the 1990s,
+        the same genre for decades – Drews' life pattern was shaped by constancy
+        long before the illness, not by constant new beginnings.</p>
+        <p class="vb-intro"><strong>b) The illness as continuation, not rupture:</strong>
+        Unlike a dramatic break, the polyneuropathy fits seamlessly into this
+        pattern: even with it, Drews essentially carries on as before, only at an
+        adjusted pace instead of a complete withdrawal.</p>
+        <p class="vb-intro"><strong>c) A parallel to Diego Velázquez, another SX9w1 in this Compass:</strong>
+        Like <a href="javascript:void(0)" data-route="krankheitsportraets-diego-velazquez">Diego Velázquez</a>,
+        who even past sixty showed no signs of slowing down and stayed in service
+        until complete exhaustion, Drews too shows a low tendency to take a
+        timely pause. The key difference: where Velázquez's body reported in
+        abruptly, within a single week, Drews' illness runs a slow, diagnosed
+        course – yet the underlying pattern of staying loyal to one's audience
+        and one's task, even once the body has long signaled its limits,
+        connects both cases.</p>
+        <p class="vb-intro"><strong>d) Why a nerve disease of all things?</strong>
+        For a Sexual Nine whose self-perception is already structurally
+        subordinate to her perception of others, one reading suggests itself:
+        an illness that affects bodily perception itself – numbness rather than
+        pain, a fading of sensation – fits someone who is already accustomed to
+        overhearing her own signals. This reading is a plausible interpretation,
+        not a documented historical causal link, and will be developed further
+        in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A framing without determinism:</strong>
+        This does not mean the sexual Nine's pattern inevitably leads to nerve
+        disease – <strong>anyone can get any illness, regardless of subtype.</strong>
+        What Drews' case can show is a pattern that keeps showing up in practice
+        around calmly carrying on despite physical warning signs – one of many
+        possible explanations, not a verdict. The corresponding illness picture
+        is being developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Drews did not know his own Enneagram pattern – the sexual Nine with
+        One-wing merges almost reflexively with audience and work and, in doing
+        so, easily overrides her own bodily warning signs instead of pausing in
+        time. He lived exactly that out unchecked for decades: a full stage
+        schedule with no visible breaks, until the body itself set the limit.
+        Anyone who doesn't recognize their own tendency toward boundless merging
+        as a pattern easily mistakes it for simple love of one's profession, even
+        once the body has long been sending warning signs.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Jürgen Drews'</strong> way of handling his polyneuropathy offers
+        one of the quietest studies of the sexual Nine with a One-wing: no
+        dramatic illness narrative, but a quiet, almost offhand carrying on –
+        the same wife, the same audience, the same genre, now just with numbness
+        in the nerves instead of full strength. The sloth stays on its branch,
+        even once the branch itself stops being felt.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w1) – life's work"},
+        {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1) – the same boundless availability, a different course"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
       ])}
@@ -118077,6 +118268,7 @@ function subtypeSchaubilderPage() {
       "krankheitsportraets-natascha-kampusch": nataschaKampuschKrankheitsportraetPage,
       "krankheitsportraets-blaise-pascal": blaisePascalKrankheitsportraetPage,
       "krankheitsportraets-diego-velazquez": diegoVelazquezKrankheitsportraetPage,
+      "krankheitsportraets-juergen-drews": juergenDrewsKrankheitsportraetPage,
       "krankheitsportraets-adam-smith": adamSmithKrankheitsportraetPage,
       "krankheitsportraets-joseph-haydn": josephHaydnKrankheitsportraetPage,
       "krankheitsportraets-john-gotti": johnGottiKrankheitsportraetPage,
