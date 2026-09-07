@@ -1828,3 +1828,67 @@ export function robertOppenheimerPortraitPage() {
     </div>
   `);
 }
+
+export function michaelBerrymanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-berryman-portrait.jpg" alt="Michael Berryman – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Berryman</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1948 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das sein Gesicht nie versteckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> zieht sich nicht zurück, wenn die Welt es anders ansieht als andere – es bleibt einfach, wo es ist. Michael Berryman, 1948 geboren, kam mit hypohidrotischer ektodermaler Dysplasie zur Welt, einer seltenen, unheilbaren genetischen Erkrankung ohne Schweißdrüsen, Haare und Fingernägel. In der Highschool erfuhr er, wie er selbst sagte, „was Ignoranz, Vorurteil und Grausamkeit wirklich bedeuten" – gehänselt und gemobbt für ein Gesicht, das er sich nicht ausgesucht hatte.</p>
+          <p class="vb-intro">Statt sich zu verstecken, arbeitete er als junger Mann in einem Blumenladen in Venice Beach, sichtbar für jeden, der hereinkam. Genau dort entdeckte ihn 1975 der Filmproduzent George Pal für ›Doc Savage: The Man of Bronze‹ – der Beginn einer Schauspielkarriere, die nur möglich wurde, weil Berryman sich der Öffentlichkeit nie entzog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Publikum auf Augenhöhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die Distanz zur Rolle oder zum Publikum, sondern das unmittelbare, persönliche Aufgehen im Moment der Begegnung. Bei Berryman zeigt sich das bis heute auf Horror- und Fan-Conventions in aller Welt: Fans und Kollegen beschreiben ihn als einen der freundlichsten, gelassensten Menschen Hollywoods – jemand, der sich für jede einzelne Begegnung wirklich Zeit nimmt, statt sie routiniert abzuarbeiten.</p>
+          <p class="vb-intro">Dieser scheinbare Widerspruch – ein Mann, dessen Gesicht Generationen von Kinogängern das Fürchten lehrte, und der zugleich als einer der zugänglichsten Stars gilt – ist reinste SX9-Logik: Die Verschmelzung mit dem Gegenüber zählt mehr als das äußere Bild, das andere von ihm haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Direkte Konfrontation statt stiller Duldung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> zeigt sich bei Berryman nicht als Aggression, sondern als unerschütterliche, direkte Selbstbehauptung gegenüber Grausamkeit. Auf einen besonders verletzenden Mobbing-Vorfall antwortete er nicht mit Rückzug, sondern mit einem Satz, der bis heute zitiert wird: „Du bist ein Feigling, und wenn wir die Körper tauschen könnten, hättest du die Chance, eine Seele wachsen zu lassen und der ‚Menschheit' beizutreten. Ich bemitleide dein kleinherziges Leben." Keine Bitte um Nachsicht, sondern eine klare, konfrontative Umkehrung der Machtverhältnisse.</p>
+          <p class="vb-intro">Dieselbe Direktheit trägt seine bis heute anhaltende Interessenvertretung für Menschen mit Behinderungen und für Umweltschutz: Berryman meidet diplomatische Zurückhaltung, wenn es um Themen geht, die ihm wichtig sind – untypisch für die eigentlich konfliktscheue Neun, aber typisch für den Achterflügel, der der Verschmelzungssehnsucht eine klare Stimme verleiht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Nebendarsteller zur Horror-Ikone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach seinem Debüt bei George Pal folgten 1975 eine Nebenrolle in Miloš Formans ›Einer flog über das Kuckucksnest‹ und 1977 die Rolle des „Pluto" in Wes Cravens ›The Hills Have Eyes‹ – die Rolle, die ihn endgültig zur Horror-Ikone machte. Statt sein ungewöhnliches Äußeres zu kaschieren, machte er es bewusst zum Zentrum seiner Karriere und trat in zahllosen Kult-, Horror- und B-Filmen auf, dazu in Serien wie ›Star Trek‹, ›The X-Files‹ und als Satan in ›Highway to Heaven‹.</p>
+          <p class="vb-intro">Diese Entscheidung, das eigene, oft als „anders" wahrgenommene Gesicht offensiv zum Beruf zu machen, statt es zu verbergen, verbindet die Verschmelzungssehnsucht der Neun mit dem Mut zur Konfrontation des Achterflügels: Berryman zeigte sich der Kamera – und damit Millionen von Zuschauern – genau so, wie er ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 zeigt sich bei Berryman in der seltenen Kombination aus echter Gelassenheit im persönlichen Kontakt und unerschütterlicher Standhaftigkeit gegenüber Anfeindungen – niemals aggressiv, aber auch niemals unterwürfig.</p>
+          <p class="vb-intro">Der Schatten der Neun liegt in der Gefahr, die eigene Verletzlichkeit hinter beruflicher Sichtbarkeit zu verstecken: Ein Leben lang im Rampenlicht als „der mit dem besonderen Gesicht" zu stehen, kann auch bedeuten, dass die eigene Person hinter der öffentlichen Rolle kaum noch getrennt wahrgenommen wird – eine Auflösung der Grenze zwischen Mensch und Image, die typisch ist für die sexuelle Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Gesicht, das nie ein Versteck brauchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Berrymans Weg zeigt die sexuelle Neun mit Achterflügel in einer besonders eindrücklichen Form: ein Äußeres, das andere zum Anlass für Grausamkeit nahmen, wurde zur Bühne für echte menschliche Nähe – getragen von einer Direktheit, die sich niemals klein machen ließ. Das Faultier versteckt sich nicht im Geäst, wenn es angestarrt wird – es sieht zurück, ruhig und ohne Scham.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
+          {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
+        ])}
+      </div>
+    </div>
+  `);
+}
