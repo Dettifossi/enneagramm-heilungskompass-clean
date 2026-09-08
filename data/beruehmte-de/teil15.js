@@ -1889,3 +1889,67 @@ export function francoisDamiensPortraitPage() {
     </div>
   `);
 }
+
+export function maraWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mara-wilson-portrait.jpg" alt="Mara Wilson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mara Wilson</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltungs-Vier mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Autorin, geb. 1987 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die während des größten Verlusts weiterdrehte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt ihren tiefsten Schmerz oft genau dort, wo niemand ihn sieht – mitten im laufenden Alltag. Mara Wilson, 1987 in Los Angeles geboren, spielte mit neun Jahren die Titelrolle in „Matilda", während ihre Mutter im Hintergrund an Krebs starb. Die Diagnose kam während der Dreharbeiten, der Tod ihrer Mutter folgte nur wenige Monate nach Kinostart – mitten in der öffentlichsten Phase ihrer Kindheit.</p>
+          <p class="vb-intro">Über diese Zeit sagte sie später: „Ich fühlte mich völlig verloren, völlig ohne Anker … Es gab die, die ich davor war, und die, die ich danach war." Und ergänzte nüchtern: „Meine Mutter starb, als ich jung war, und ich drehte die ganze Zeit. Ich war überall. Das Schauspielern war die einzige Konstante." Kein öffentliches Zusammenbrechen, sondern das stille Weiterarbeiten mitten im größten Bruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Der bewusste Rückzug statt der fortgesetzten Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Statt das eigene Leid zur Schau zu stellen oder in der Aufmerksamkeit zu verharren, wird eine praktische, oft unspektakuläre Konsequenz gezogen. Wilson beendete ihre Schauspielkarriere 2000 im Alter von dreizehn Jahren – nur vier Jahre nach „Matilda" – und entschied sich bewusst gegen ein Leben als Kinderstar, weil der Ruhm zu überwältigend geworden war, um ihn in diesem Alter zu genießen.</p>
+          <p class="vb-intro">Ihr eigener Satz dazu bleibt zurückhaltend statt anklagend: Sie habe sich einfach gewünscht, „ein normales Kind zu sein". Kein spektakulärer Bruch, sondern ein stiller, endgültiger Schritt aus der Öffentlichkeit heraus, in ein Studium und ein neues, weniger sichtbares Leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Die eigene Geschichte als literarisches Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine analytische, strukturierende Note – das eigene Erleben wird nicht nur gefühlt, sondern systematisch durchdacht und literarisch verarbeitet. Wilson studierte an der New York University und veröffentlichte 2016 mit „Where Am I Now?" eine Sammlung persönlicher Essays über ihre Kindheit in Hollywood und den Ausstieg daraus – 2023 folgte mit „Good Girls Don't" ein weiteres, noch direkteres Erinnerungsbuch.</p>
+          <p class="vb-intro">Über kindliche Prominenz sagte sie rückblickend nüchtern-analytisch statt larmoyant: „Ich glaube nicht, dass man ein Kinderstar sein kann, ohne dass irgendeine Form von bleibendem Schaden entsteht." Diese distanzierte, fast untersuchende Haltung zur eigenen Vergangenheit – Erfahrung wird zum Material für präzise Beobachtung, nicht zur bloßen Klage – ist die klassische Fünferflügel-Ergänzung zur Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Matilda zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vor ihrem dreizehnten Lebensjahr hatte Wilson bereits Hauptrollen in „Mrs. Doubtfire", „Miracle on 34th Street" und „Matilda" gespielt – drei der prägendsten Familienfilme der Neunzigerjahre. Nach dem bewussten Ausstieg aus dem Schauspiel baute sie sich über Jahre eine zweite, leisere Karriere als Autorin und Essayistin auf, die ihre frühere Prominenz nicht verleugnet, sondern reflektiert einordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich bei Wilson in der Fähigkeit, einen frühen, öffentlich erlittenen Verlust nicht zu verdrängen, sondern über Jahre in eine eigenständige, klar reflektierte literarische Stimme zu verwandeln – Distanz als Weg zur Wahrheit, nicht als Flucht davor.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich in der Tendenz, sich ganz aus dem öffentlichen Raum zurückzuziehen, sobald dieser zu überwältigend wird, statt eine mittlere, tragfähige Position zu finden. Der Fünferflügel kann diesen Rückzug verstärken, wenn das genaue Beobachten der eigenen Geschichte zur einzigen Form wird, ihr zu begegnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die die Bühne gegen das eigene Wort tauschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mara Wilsons Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders klaren Form: ein Verlust, der mitten in der größten öffentlichen Sichtbarkeit erlitten wurde, gefolgt vom bewussten Rückzug in eine leisere, selbstbestimmte zweite Karriere. Die Taube verlässt die große Bühne nicht aus Schwäche, sondern weil sie ihre eigene Stimme genauer hören will.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5) – ebenfalls früher Verlust, still literarisch verarbeitet"},
+          {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
+          {route:"beruehmte-connie-chiu", label:"Porträt: Connie Chiu (SE4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

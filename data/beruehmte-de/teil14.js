@@ -253,6 +253,7 @@ export function charlotteWellsPortraitPage() {
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
         {route:"beruehmte-ludwig-goeransson", label:"Porträt: Ludwig Göransson (SE4w5)"},
         {route:"beruehmte-barney-fishwick", label:"Porträt: Barney Fishwick (SE4w5) – ebenfalls stille Detailarbeit im Film- und Radiobereich"},
+        {route:"beruehmte-mara-wilson", label:"Porträt: Mara Wilson (SE4w5) – ebenfalls früher Verlust, still literarisch verarbeitet"},
       ])}
     </div>
   `);
