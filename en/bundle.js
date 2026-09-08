@@ -35147,6 +35147,7 @@ function wolodymyrSelenskyjPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal case: Pablo Escobar (SE3w4)"},
+        {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7) – his wife"},
       ])}
     </div>
   `);
@@ -55293,6 +55294,7 @@ function olenaZelenskaPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/sx6", label:"SX6 &ndash; The Wolf: Subtype Profile"},
+          {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2) – her husband"},
           {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
           {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
           {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},

@@ -1928,6 +1928,7 @@ export function olenaZelenskaPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+          {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2) – ihr Ehemann"},
           {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
           {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
           {route:"beruehmte-scarlett-johansson", label:"Porträt: Scarlett Johansson (SX6w7)"},
