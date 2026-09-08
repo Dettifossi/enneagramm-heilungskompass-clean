@@ -1884,3 +1884,67 @@ export function davidGuettaPortraitPage() {
     </div>
   `);
 }
+
+export function connieChiuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-connie-chiu-portrait.jpg" alt="Connie Chiu – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Connie Chiu</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltungs-Vier mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Model und Jazzsängerin, geb. 1969 &ndash; erstes bekanntes Model mit Albinismus &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die vor der Sonne floh, um zu bleiben, wer sie war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt ihre Andersartigkeit nicht als Wunde vor sich her, sondern verlagert sich still dorthin, wo sie sich schützen kann. Connie Chiu, 1969 in Hongkong geboren, war als einziges von vier Kindern ihrer chinesischen Familie mit Albinismus zur Welt gekommen. Mit sieben Jahren zog die Familie nach Schweden – eine bewusste, unspektakuläre Entscheidung, um sie vor der intensiven Sonne Hongkongs zu schützen, nicht ein dramatischer Fluchtakt.</p>
+          <p class="vb-intro">In Schweden studierte sie zunächst Kunst und Radiojournalismus – ein solides, praktisches Fundament, bevor sie mit 24 Jahren ihre Modelkarriere beim französischen Designer Jean Paul Gaultier begann und als erstes bekanntes Model mit Albinismus in die Modebranche einzog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Herunterspielen statt Dramatisieren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Statt das eigene Anderssein zur Schau zu stellen, wird es beharrlich heruntergespielt und praktisch bewältigt. Chiu formuliert das selbst bezeichnend nüchtern: „Ich wurde in der Schule nicht gemobbt, aber hin und wieder versuchen Leute, mich zu provozieren oder aufzuregen" – eine Aussage, die eher relativiert als klagt, obwohl sie unter anderem nach einem Horrorfilm-Charakter „Weißhaarige Teufelsfrau" gerufen wurde.</p>
+          <p class="vb-intro">Auf die Frage, was sie einem Kind mit Albinismus raten würde, antwortete sie schlicht: „Glaub an dich selbst." Über ihr eigenes Verhältnis zur eigenen Andersartigkeit sagte sie: „Ich glaube, ich wusste immer, dass ich anders bin, aber ich fühle mich genau wie jeder andere." Kein Drama, kein Anspruch auf besonderes Mitleid – nur die stille Feststellung, dazuzugehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Zwei durchdachte Karrieren statt einer lauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine strukturierte, beobachtende Note – die eigene Position wird nicht impulsiv erobert, sondern über Jahre systematisch aufgebaut. Chiu verband ihre Modelkarriere nie mit reiner Selbstinszenierung, sondern baute parallel eine zweite, handwerklich ebenso anspruchsvolle Laufbahn als Jazzsängerin auf, mit Auftritten bei großen Veranstaltungen und in Jazzclubs.</p>
+          <p class="vb-intro">Ihre Reflexion über Vorurteile bleibt dabei auffallend analytisch statt emotional aufgeladen: „Es liegt in der menschlichen Natur, Vorurteile zu haben. Und jeder Ort, der abgeschottet ist – nur griechisch, nur schwarz oder nur schwedisch – reagiert stark auf das, was heraussticht. Ich habe es immer bevorzugt, dort zu sein, wo sich viele verschiedene Menschen mischen." Eine beobachtende, fast soziologische Distanz zum eigenen Erleben – typisch für den Fünferflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Laufsteg zur Bühne des Jazz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von den ersten Schritten auf Gaultiers Laufsteg über eine internationale Modelkarriere bis zur parallelen Etablierung als Jazzsängerin zieht sich eine durchgehende Linie beharrlicher Neuerfindung: Chiu ließ sich nie auf die Rolle „das erste Albino-Model" reduzieren, sondern erweiterte ihr eigenes Feld immer wieder um eine zusätzliche, ernsthaft erarbeitete Kunstform.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich bei Chiu in der Fähigkeit, eine tief persönliche körperliche Besonderheit weder zu verstecken noch zur alleinigen Identität zu machen, sondern sie in eine eigenständige, international sichtbare Karriere zu verwandeln – ruhig, beharrlich, ohne große Geste.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich in der beständigen Notwendigkeit, Provokationen zu relativieren, statt sie offen zu benennen – das Herunterspielen kann auch zur Schutzstrategie werden, die eigene Verletzlichkeit nach außen unsichtbar hält. Der Fünferflügel verstärkt diese Tendenz durch eine analytische Distanz, die echte Nähe manchmal erschwert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im hellsten Licht am ruhigsten blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Connie Chius Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders stillen Form: eine körperliche Besonderheit, die andere zum Anstarren brachte, wurde nie zur lauten Anklage, sondern zur ruhigen Grundlage zweier eigenständiger, künstlerischer Karrieren. Die Taube braucht kein grelles Licht, um gesehen zu werden – sie findet ihren eigenen Ton, auch im Schatten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5) – ebenfalls eine körperliche Besonderheit in eigenständiges Werk verwandelt"},
+          {route:"beruehmte-barney-fishwick", label:"Porträt: Barney Fishwick (SE4w5)"},
+          {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

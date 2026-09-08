@@ -1940,6 +1940,7 @@ export function neilHarbissonPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
           {route:"beruehmte-barney-fishwick", label:"Porträt: Barney Fishwick (SE4w5) – ebenfalls stille, jahrelange Detailarbeit"},
+          {route:"beruehmte-connie-chiu", label:"Porträt: Connie Chiu (SE4w5) – ebenfalls eine körperliche Besonderheit in eigenständiges Werk verwandelt"},
           {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
           {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
         ])}
