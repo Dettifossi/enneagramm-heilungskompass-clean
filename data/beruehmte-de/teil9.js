@@ -1858,3 +1858,68 @@ export function reinholdMessnerPortraitPage() {
     </div>
   `);
 }
+
+export function zoeKravitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-zoe-kravitz-portrait.jpg" alt="Zoë Kravitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Zoë Kravitz</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Musikerin, geb. 1988 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der auf jedem Terrain Anerkennung suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> jagt nicht wahllos – er wählt genau das Terrain, auf dem seine Geschwindigkeit am sichtbarsten zur Geltung kommt. Zoë Kravitz, 1988 in Venice, Kalifornien geboren als einziges Kind von Lisa Bonet und Lenny Kravitz, baute sich über die Jahre nicht nur eine Schauspielkarriere auf, sondern eroberte nacheinander mehrere anerkannte Terrains: Musik mit den Bands Elevator Fight und Lolawolf, dann 2024 mit ›Blink Twice‹ auch die Regie – ein Debüt, das Kritiker als „kühn und einprägsam" beschrieben und das sie „ins Terrain der Regisseure, die man im Auge behalten sollte" katapultierte.</p>
+          <p class="vb-intro">Diese Vielseitigkeit ist kein Zufall, sondern ein Muster: Erfolg soll nicht nur in einem Bereich, sondern über mehrere anerkannte Felder hinweg sichtbar werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Anerkennung im Vergleich, nicht im Alleingang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Ansehen und Erfolg innerhalb einer Gruppe oder eines Vergleichsmaßstabs – Eitelkeit im Sinne eines ständigen Sich-Messens an einem geteilten Ideal, nicht die unmittelbare Wirkung im einzelnen Moment. Bei Kravitz zeigt sich die Schattenseite dieses Musters bereits mit dreizehn Jahren: Sie entwickelte eine Ess-Störung, weil sie sich fortlaufend mit Models und Frauen aus Zeitschriften verglich – ein sozial vermitteltes Schönheitsideal, an dem sie sich maß, nicht ein spontaner, unmittelbarer Impuls.</p>
+          <p class="vb-intro">Später machte sie diese Erfahrung öffentlich: „Man konnte meinen Brustkorb sehen." Statt das Thema zu verschweigen, sprach sie wiederholt offen über Körperbild und Essstörungen in der Unterhaltungsindustrie – eine Umwandlung der eigenen sozialen Vergleichswunde in ein Anliegen, das anderen Frauen helfen soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als Antrieb hinter dem Ehrgeiz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sozialen Drei eine zugewandte, unterstützende Note, die sich bei Kravitz in ihrem Engagement für Körperpositivität, psychische Gesundheit und Vielfalt in Hollywood zeigt. Sie beschränkt sich nicht darauf, selbst erfolgreich zu sein, sondern setzt sich sichtbar dafür ein, dass andere – vor allem junge Frauen mit ähnlichen Erfahrungen – sich weniger allein fühlen.</p>
+          <p class="vb-intro">Auch privat trägt diese Wärme: Nach der Scheidung ihrer Eltern 1993 blieb sie mit beiden eng verbunden, wuchs zwischen Miami und New York zwischen Mutter und Vater auf – und heute pflegt die gesamte, mehrfach zusammengesetzte Patchwork-Familie um Lisa Bonet, Jason Momoa und Lenny Kravitz einen auffällig herzlichen Umgang miteinander, den Zoë selbst aktiv mitträgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Nebenrolle zur eigenen Regie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach ersten Rollen in ›X-Men: First Class‹ und der ›Divergent‹-Reihe etablierte sich Kravitz mit ›Mad Max: Fury Road‹, ›Big Little Lies‹ und ›High Fidelity‹ (für das sie einen Black Reel Award erhielt) als vielseitige, ernstzunehmende Schauspielerin, bevor sie 2022 als Catwoman in ›The Batman‹ eine ihrer bislang größten Rollen übernahm.</p>
+          <p class="vb-intro">Mit ›Blink Twice‹ erweiterte sie ihr Terrain 2024 endgültig um die Regie – ein Schritt, der zeigt, wie konsequent sie ihren Status nicht auf ein einzelnes Feld begrenzen wollte, sondern in mehreren, jeweils hoch angesehenen Disziplinen gleichzeitig Anerkennung suchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich bei Kravitz in der Fähigkeit, aus dem eigenen, sehr persönlichen Kampf mit gesellschaftlichen Schönheitsidealen eine öffentliche, warmherzige Botschaft zu machen, die anderen tatsächlich hilft, statt die eigene Verletzlichkeit zu verstecken.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der frühen, fast zwanghaften Selbstvergleichs-Spirale, die zur Essstörung führte – ein Muster, das entsteht, wenn der eigene Wert zu stark an ein von außen gesetztes, geteiltes Ideal gekoppelt wird, statt an ein inneres Maß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Schauspielerin, die sich mehrfach neu bewies</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zoë Kravitz' Weg zeigt die soziale Drei mit Zweierflügel in einer besonders vielseitigen Form: Anerkennung wurde nie in nur einem Bereich gesucht, sondern über Schauspiel, Musik und Regie hinweg – begleitet von einer echten Fürsorge für andere, die aus der eigenen, öffentlich gemachten Verletzlichkeit erwuchs. Der Gepard wechselt das Terrain, aber er hört nie auf zu laufen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+          {route:"beruehmte-lenny-kravitz", label:"Porträt: Lenny Kravitz (SX3w2) – ihr Vater"},
+          {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+          {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

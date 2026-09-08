@@ -1906,6 +1906,7 @@ export function lennyKravitzPortraitPage() {
           {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
           {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
           {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+          {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2) – seine Tochter"},
         ])}
       </div>
     </div>
