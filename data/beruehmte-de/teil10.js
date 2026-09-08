@@ -457,6 +457,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
         {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
+        {route:"beruehmte-olena-zelenska", label:"Porträt: Olena Zelenska (SX6w7)"},
       ])}
     </div>
   `);

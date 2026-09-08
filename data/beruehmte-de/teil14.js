@@ -1872,3 +1872,67 @@ export function jonHammPortraitPage() {
     </div>
   `);
 }
+
+export function olenaZelenskaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-olena-zelenska-portrait.jpg" alt="Olena Zelenska – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Olena Zelenska</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">First Lady der Ukraine, Drehbuchautorin, geb. 1978 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der acht Jahre im Verborgenen wartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist intensiv loyal – aber er prüft zuerst, ob er wirklich vertrauen kann, bevor er sich zeigt. Olena Zelenska, geboren 1978 in Krywyj Rih als Olena Wolodymyriwna Kyjaschko, lernte ihren späteren Ehemann während des Architekturstudiums kennen. Acht Jahre lang waren die beiden ein Paar, bevor sie 2003 heirateten – eine lange, bewusst im Privaten gehaltene Bindung, bevor irgendetwas davon öffentlich wurde.</p>
+          <p class="vb-intro">Obwohl sie ein Architekturdiplom besitzt, arbeitete sie nie als Architektin, sondern wurde Drehbuchautorin beim Studio Kwartal 95 – genau jenem Unternehmen, das ihren Mann mit der Serie „Diener des Volkes" zum Präsidentschaftskandidaten machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Wenn die Angst zur direkten Konfrontation wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Angst nach Naranjo nicht durch Rückzug, sondern durch Stärke und direkte Zuwendung – die counterphobische Variante des Typs, die dem Bedrohlichen entgegentritt statt vor ihm zu fliehen. Als Russland im Februar 2022 die Ukraine überfiel, blieb Zelenska mit den gemeinsamen Kindern im Land, obwohl Präsident Selenskyj öffentlich erklärte, seine Familie sei „Ziel Nummer zwei" der russischen Angreifer. Direkt nach dem Einmarsch schrieb sie auf Instagram: „Ich werde keine Panik und keine Tränen haben."</p>
+          <p class="vb-intro">Später räumte sie ein, in den ersten Kriegstagen „akute Angst" empfunden zu haben – doch dieses Eingeständnis kam nicht als Rückzug, sondern als aktiver öffentlicher Auftritt: Sie wurde zur Stimme für psychische Gesundheit im Krieg, initiierte das landesweite Programm „Wie geht es dir?" und erklärte: „90 Prozent unserer Menschen fühlen ständig Angst und bleiben in einem Zustand dauerhaften Stresses." Die Angst wird nicht verdrängt, sondern zum Gegenstand direkter, öffentlicher Auseinandersetzung gemacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Hoffnung als Strategie gegen die Lähmung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sexuellen Sechs eine nach vorn gerichtete, hoffnungsvolle Note – Angst wird nicht nur konfrontiert, sondern aktiv in Handlung und Perspektive umgewandelt. Zelenska betonte wiederholt, dass Gefühle von „Traurigkeit, Verzweiflung und Angst fast jeden Tag" nicht bedeuten müssten, dass sie „uns lähmen oder aufgeben lassen" – und machte den Satz „Es ist okay, nicht okay zu sein" zu einem zentralen Leitsatz ihres Mentalprogramms.</p>
+          <p class="vb-intro">Auch ihr 2022 mit Fotografin Annie Leibovitz entstandenes „Vogue"-Porträt unter dem Titel „Portrait of Bravery" zeigt diese Doppelbewegung: Über sich selbst sagte sie: „Mein Mann steht immer im Vordergrund, während ich mich im Schatten wohler fühle. Ich bin nicht die Seele der Party, ich erzähle nicht gern Witze" – und nutzte die öffentliche Bühne trotzdem bewusst, weil sie darin die Chance sah, Aufmerksamkeit auf wichtige gesellschaftliche Themen zu lenken. Der Siebenerflügel sucht den Ausweg nach vorn, selbst wenn die eigene Natur eher zurückhaltend ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Drehbuchautorin zur globalen Stimme für psychische Gesundheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von ihrer Arbeit als Drehbuchautorin für „Diener des Volkes" über die Rolle als First Lady seit 2019 bis zur internationalen Gesundheitsdiplomatie zieht sich eine durchgehende Linie: Zelenska konzentrierte ihr Amt zunächst auf Schulverpflegung und kulturelle Diplomatie, bevor der Krieg sie zur Initiatorin des Mentalgesundheitsprogramms „Wie geht es dir?" machte, das sie 2023 beim Kyiv Economic Forum als „Fundament der Resilienz" bezeichnete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich bei Zelenska in der Fähigkeit, persönliche Angst nicht zu verstecken, sondern in kollektive Handlung zu verwandeln – ein Programm, das Millionen Ukrainern hilft, über ihre eigene psychische Belastung zu sprechen, entstand direkt aus ihrer eigenen, offen benannten Furcht.</p>
+          <p class="vb-intro">Der Schatten der Sechs zeigt sich in der dauerhaften Wachsamkeit, die ein Leben unter ständiger Bedrohung erzwingt – die Familie blieb monatelang getrennt, während Zelenska mit den Kindern an einem sicheren Ort untertauchte. Der Siebenerflügel mildert diese Last durch aktive Zukunftsorientierung, kann aber auch dazu verleiten, die eigene Erschöpfung hinter beständiger öffentlicher Handlungsfähigkeit zu verbergen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die stille Loyalität, die zur lautesten Stimme wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Olena Zelenskas Weg zeigt die sexuelle Sechs mit Siebenerflügel in einer besonders eindrücklichen Form: eine Frau, die acht Jahre lang im Verborgenen loyal blieb, bevor sie unter existenzieller Bedrohung zur international gehörten Stimme für psychische Gesundheit wurde. Der Wolf zeigt seine Stärke erst, wenn er weiß, wofür er kämpft.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+          {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
+          {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
+          {route:"beruehmte-scarlett-johansson", label:"Porträt: Scarlett Johansson (SX6w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
