@@ -247,6 +247,7 @@ export function christiaanBarnardPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
         {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – Rheumatoide Arthritis in den Händen"},
+        {route:"beruehmte-will-yun-lee", label:"Porträt: Will Yun Lee (SO3w2)"},
       ])}
     </div>
   `);

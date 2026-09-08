@@ -1866,3 +1866,67 @@ export function thomasMannPortraitPage() {
     </div>
   `);
 }
+
+export function willYunLeePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-will-yun-lee-portrait.jpg" alt="Will Yun Lee – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Will Yun Lee</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1971 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der über den Umweg des Kampfsports die Bühne fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> jagt entschlossen, sobald sich die Gelegenheit zeigt – auch wenn der Weg dorthin nicht geradlinig verlief. Will Yun Lee, 1971 in Arlington, Virginia geboren, wuchs nach der Scheidung seiner Eltern zeitweise bei Verwandten auf, bevor er zu seinem Vater nach Hawaii zog, der dort ein Taekwondo-Studio betrieb. Mit Vollstipendium studierte er an der UC Berkeley Politikwissenschaft und Ethnic Studies und gewann gleichzeitig Bundesstaats- und nationale College-Titel im Taekwondo.</p>
+          <p class="vb-intro">Erst ein zufälliges Gespräch mit einem Drehbuchautor, der in seinem Studio trainierte, brachte ihn zur Schauspielerei – die American Conservatory Theater in San Francisco folgte, dann der schnelle Durchbruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Vom Bond-Bösewicht zur festen Fernsehgröße</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Ansehen innerhalb eines Feldes, dessen Maßstäbe öffentlich sichtbar sind – Erfolg, der sich messen und zeigen lässt. Bei Lee zeigt sich das in einer bemerkenswert konsequenten Karrierekurve: 2002 wurde er von „People" zu einem der „50 Most Beautiful People" gekürt, was ihm hochkarätige Rollen in „Stirb an einem anderen Tag", „Torque" und „Elektra" einbrachte. Es folgten prägnante Gegenspieler-Rollen in Marvel-Verfilmungen wie „The Wolverine" (2013) sowie durchgehende Präsenz in etablierten Serien: „Witchblade", „Bionic Woman", „Hawaii Five-0", „Altered Carbon" und schließlich sechs Staffeln lang Dr. Alex Park in „The Good Doctor" (2018–2024).</p>
+          <p class="vb-intro">Nie ein Rückzug ins Nischenpublikum, immer die sichtbare, breit anerkannte Bühne – ob Kinofranchise oder Network-Serie mit Millionenpublikum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die eigene Familiengeschichte wird zur Rolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sozialen Drei eine warme, fürsorgliche Note, die über reines Statusdenken hinausgeht. Bei Lee zeigt sich das nicht abstrakt, sondern in einer der bewegendsten Wendungen seiner Karriere: Als sein Sohn Cash im Alter von drei Jahren die ersten Schlaganfälle erlitt und schließlich mit der seltenen Moyamoya-Krankheit diagnostiziert wurde – nach einem Jahr fehlgeleiteter Chemotherapie –, brachte Lee genau diese Geschichte 2023 als Vorlage für eine Folge von „The Good Doctor" ein.</p>
+          <p class="vb-intro">Er beschrieb die Episode als eine, die „die Essenz" dessen einfange, was seine Familie durchlebt hatte – eine Person, die ihren öffentlichsten Erfolg nutzte, um eine private, verletzliche Erfahrung sichtbar zu machen, statt sie zu verbergen. Genau das ist der Zweierflügel: Fürsorge, die nicht im Verborgenen bleibt, sondern zum eigenen Ausdrucksmittel wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Bösewicht zum Publikumsliebling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von seinem TV-Durchbruch in „Witchblade" über den Bond-Antagonisten in „Stirb an einem anderen Tag", die Marvel-Rollen in „Elektra" und „The Wolverine" bis zur festen Serienrolle als Dr. Alex Park zieht sich eine durchgehende Linie: Lee war stets präsent in Produktionen, die ein breites Publikum erreichten. Als koreanisch-amerikanischer Schauspieler erlebte er zugleich den Wandel der asiatisch-amerikanischen Repräsentation in Hollywood mit – von auf Nebenrollen reduzierten „Nerd"- oder Arztfiguren hin zu tragenden Hauptrollen, eine Entwicklung, die er in Interviews explizit als bemerkenswert einordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich bei Lee in einer Karriere, die trotz wechselnder Rollen und Formate nie an Sichtbarkeit verlor – vom Kampfsport-Stipendium bis zur festen Serienrolle stets die konsequente Umsetzung von Chancen in öffentlich anerkannten Erfolg. Sein eigener Satz dazu: „Der größte Teil meiner Fähigkeit zu arbeiten war, nicht aufzugeben, im Spiel zu bleiben, an meinem Handwerk zu arbeiten und das Beste aus jeder Rolle zu machen, die ich bekam."</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der beständigen Notwendigkeit, Erfolg öffentlich sichtbar zu machen, selbst dort, wo es auch stille Verarbeitung geben könnte. Beim Zweierflügel kann diese Fürsorge zudem an die eigenen Grenzen stoßen, wenn sie sich ganz auf das Wohl anderer richtet, bevor die eigenen Bedürfnisse überhaupt bewusst werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Kämpfer, der seine verletzlichste Geschichte zur Bühne machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Will Yun Lees Weg zeigt die soziale Drei mit Zweierflügel in einer besonders eindrücklichen Form: konsequent sichtbarer, breit anerkannter Erfolg, getragen von einer Fürsorge, die selbst die private Krankheitsgeschichte des eigenen Sohnes nicht versteckt, sondern zu einem Beitrag für andere Familien in ähnlicher Lage macht. Der Gepard jagt nicht nur für sich selbst – er teilt die Beute mit dem Rudel.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+          {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
+          {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+          {route:"beruehmte-sonoya-mizuno", label:"Porträt: Sonoya Mizuno (SO3w4) – ebenfalls Schauspielerin, benachbarter Flügel"},
+        ])}
+      </div>
+    </div>
+  `);
+}
