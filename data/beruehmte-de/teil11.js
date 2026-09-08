@@ -1924,7 +1924,7 @@ export function barneyFishwickPortraitPage() {
 
         <h2 class="vb-section">6. Die Taube, die im Hintergrund am genauesten arbeitet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Barney Fishwicks Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders stimmigen Form: eine zwanzigjährige kreative Partnerschaft, ein Werk, das über Radio, Bühne und Leinwand verteilt wächst, und eine Vorliebe für die unscheinbare, genau gearbeitete Rolle statt der lauten Hauptfigur. Die Taube braucht kein Rampenlicht, um ihre Treue zu beweisen.</p>
+          <p class="vb-intro">Barney Fishwicks Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders stimmigen Form: eine zwanzigjährige kreative Partnerschaft, ein Werk, das über Radio, Bühne und Leinwand verteilt wächst, und eine Vorliebe für die unscheinbare, genau ausgearbeitete Rolle statt der lauten Hauptfigur. Die Taube braucht kein Rampenlicht, um ihre Treue zu beweisen.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
