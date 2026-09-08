@@ -1877,3 +1877,67 @@ export function jonBonJoviPortraitPage() {
     </div>
   `);
 }
+
+export function barneyFishwickPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-barney-fishwick-portrait.jpg" alt="Barney Fishwick – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Barney Fishwick</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltungs-Vier mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Schauspieler, Autor und Comedian &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die seit zwanzig Jahren neben demselben Menschen arbeitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> braucht keine große Bühne, um treu zu bleiben – sie findet einen verlässlichen Weggefährten und hält daran fest, über Jahrzehnte. Barney Fishwick kennt seinen kreativen Partner Will Hislop seit über zwanzig Jahren; gemeinsam bilden sie das Sketch-Duo GIANTS, das mit drei restlos ausverkauften Edinburgh-Fringe-Programmen und einer Writer's-Guild-Award-Nominierung für den Kurzfilm „A Hard Brexit" auf sich aufmerksam machte.</p>
+          <p class="vb-intro">Statt sich auf eine einzelne Bühne oder ein einzelnes Format festzulegen, verteilte Fishwick seine Arbeit über Jahre still auf Radio, Fernsehen und Kino – ein Werk, das mehr durch stetige Kontinuität als durch spektakuläre Einzelmomente wächst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Die unauffällige Rolle statt der großen Geste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Gegentyp der Vier: Das eigene Innenleben wird nicht zur Schau gestellt, sondern in beharrlicher, oft unspektakulärer Arbeit verarbeitet. Bei Fishwick zeigt sich das in der Auswahl seiner bekanntesten Filmrolle: Statt einer dramatischen Hauptfigur spielt er in „Living" an der Seite von Bill Nighy den bewusst unscheinbaren, kühl-distanzierten Sohn Michael – eine Rolle, die durch Zurückhaltung wirkt, nicht durch Auftrumpfen.</p>
+          <p class="vb-intro">Auch seine Karriere insgesamt folgt diesem Muster: kein einzelner, lauter Durchbruch, sondern eine über Jahre verteilte Reihe kleinerer, sorgfältig gewählter Auftritte – „Showtrial", „House of the Dragon", „Big Boys", „The Buccaneers" –, die sich erst in der Summe zu einem sichtbaren Profil verdichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Handwerk hinter der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine intellektuelle, forschende Note – die Verarbeitung findet nicht nur im Fühlen, sondern im genauen, strukturierten Erarbeiten eines Stoffs statt. Fishwick studierte in Oxford und arbeitet neben der Schauspielerei durchgehend als Autor: für BBC-Radioformate wie „The Now Show" und „Newsjack", für die eigens geschriebenen Hörspiele „BBC Radio Fjörd" und „Godsquad" – Letzteres nominiert für einen BBC Audio Drama Award.</p>
+          <p class="vb-intro">Das Schreiben für Radio und Hörspiel verlangt gerade jene stille, präzise Detailarbeit im Verborgenen, die der Fünferflügel bevorzugt – ein Handwerk, das lange vor jedem öffentlichen Auftritt allein am Schreibtisch entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Zwischen Bühne, Radio und Leinwand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von den Edinburgh-Fringe-Erfolgen mit GIANTS über die BBC-Radiocomedys bis zu Filmrollen neben Bill Nighy und in Serien wie „House of the Dragon" zieht sich eine durchgehende Linie: Fishwick bewegt sich zwischen Schreiben und Spielen, zwischen Comedy und Drama, ohne sich auf ein einzelnes Format zu beschränken – stets mit derselben unaufgeregten Sorgfalt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich bei Fishwick in der Fähigkeit, aus jahrelanger, stiller Detailarbeit ein vielseitiges, aber kohärentes Werk zu formen – als Autor ebenso ernst genommen wie als Darsteller, ohne dass eine Seite die andere überstrahlt.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich in der Tendenz, das eigene Profil hinter der Vielzahl kleinerer Projekte zu verstecken, statt es bewusst sichtbar zu machen. Der Fünferflügel kann diese Zurückhaltung verstärken, wenn das genaue Ausarbeiten eines Stoffs zum Rückzug von der eigentlichen Bühne wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die im Hintergrund am genauesten arbeitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barney Fishwicks Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders stimmigen Form: eine zwanzigjährige kreative Partnerschaft, ein Werk, das über Radio, Bühne und Leinwand verteilt wächst, und eine Vorliebe für die unscheinbare, genau gearbeitete Rolle statt der lauten Hauptfigur. Die Taube braucht kein Rampenlicht, um ihre Treue zu beweisen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5) – ebenfalls stille Filmarbeit, derselbe Subtyp"},
+          {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
+          {route:"beruehmte-michael-david-rosenberg", label:"Porträt: Michael David Rosenberg / Passenger (SE4w3)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
