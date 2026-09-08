@@ -1864,3 +1864,68 @@ export function marcelReichRanickiPortraitPage() {
     </div>
   `);
 }
+
+export function sonoyaMizunoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sonoya-mizuno-portrait.jpg" alt="Sonoya Mizuno – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sonoya Mizuno</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Balletttänzerin, geb. 1986 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der ein Jahrzehnt im härtesten Rudel trainierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> jagt dort, wo die Konkurrenz am härtesten ist – nicht aus Zufall, sondern weil nur dort echte Bestätigung zu holen ist. Sonoya Mizuno, 1986 in Tokio geboren als Tochter eines japanischen Vaters und einer englisch-argentinischen Mutter, begann mit neun Jahren Ballett und wurde an die Royal Ballet School in London aufgenommen – eine der angesehensten Ballettausbildungen der Welt. Zehn Jahre lang durchlief sie dort das klassische Training, bevor sie bei Kompanien wie der Semperoper Dresden, dem Scottish Ballet und dem English National Ballet professionell tanzte.</p>
+          <p class="vb-intro">Auch der Wechsel ins Modelfach führte sie nicht zu irgendeiner Agentur, sondern direkt zu den bekanntesten Häusern der Branche: Saint Laurent, Chanel, Alexander McQueen, Louis Vuitton.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Anerkennung nur in den anspruchsvollsten Kreisen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Ansehen innerhalb einer Gruppe, die selbst als Maßstab für Erfolg gilt – nicht irgendein Publikum, sondern das Urteil der Besten im jeweiligen Feld. Bei Mizuno zeigt sich das durchgängig: Statt sich nach der Ballettkarriere in einer x-beliebigen Schauspielrolle zu versuchen, arbeitete sie wiederholt mit dem gefeierten Regisseur Alex Garland zusammen – ›Ex Machina‹ (2014), ›Devs‹ (2020) –, ergänzt durch Rollen in ›Crazy Rich Asians‹ und der Prestige-Serie ›House of the Dragon‹, wo sie als Mysaria zur „Meisterin des Flüsterns" aufstieg.</p>
+          <p class="vb-intro">Jeder Karriereschritt bewegt sich innerhalb anerkannter, hoch angesehener Institutionen – nie ein Umweg über weniger prestigeträchtige Bereiche, immer der direkte Weg zu den Kreisen, deren Anerkennung tatsächlich zählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Suche nach der fehlenden Hälfte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel</strong> gibt der sozialen Drei eine Tiefe, die über reines Prestigedenken hinausgeht – eine echte Auseinandersetzung mit der eigenen, oft schmerzhaften Andersartigkeit. Als einziges gemischtrassiges Mädchen ihrer Grundschule im englischen Somerset erlebte Mizuno Rassismus und rassistische Spitznamen: „Ich war definitiv eine Außenseiterin", sagte sie später über ihre Kindheit – und: „Es fällt mir naturgemäß schwer, den Teil von mir nicht zu ärgern, der mir bestimmte Chancen verwehrt."</p>
+          <p class="vb-intro">Diese Wunde verarbeitet sie nicht durch Verdrängung, sondern durch die Kunst selbst: Schauspiel beschreibt sie als „eine glückliche Übung in Identitätsbildung – eine Art, diese fehlende Hälfte wiederherzustellen." Jede Rolle wird so zu einer Gelegenheit, sich selbst neu zu erschaffen – die für den Viererflügel typische Suche nach der eigenen, unverwechselbaren Wahrheit, eingebettet in die SO3-typische Bühne des öffentlichen Erfolgs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Kyoko zur Meisterin des Flüsterns</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre erste größere Filmrolle als Kyoko in ›Ex Machina‹ entstand ohne Agentur – Alex Garland sah ihr Vorsprechen für eine andere Rolle und erkannte sofort, dass sie perfekt für diese Figur war. Es folgten Auftritte in Netflix' ›Maniac‹ (2018), der Kinoerfolg ›Crazy Rich Asians‹ (2018) und schließlich die Rolle der Mysaria in ›House of the Dragon‹ (seit 2022) – eine ehemalige Tänzerin, die zur mächtigsten Informationsbeschafferin des Königreichs aufsteigt.</p>
+          <p class="vb-intro">Eine bemerkenswerte Parallele zu ihrer eigenen Biografie: Auch Mysaria beginnt als Tänzerin am Rand der Gesellschaft und erkämpft sich durch Klugheit und Beharrlichkeit eine Machtposition in den angesehensten Kreisen des Königreichs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w4 zeigt sich bei Mizuno in der Fähigkeit, aus einer frühen Verletzung echte künstlerische Tiefe zu gewinnen – ihre Rollen wirken nie wie reine Statussymbole, sondern wie ernsthafte Auseinandersetzungen mit Identität und Zugehörigkeit.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der beständigen Notwendigkeit, sich in den jeweils anspruchsvollsten Kreisen zu beweisen – als würde die frühe Erfahrung des Ausgeschlossenseins nur durch immer neue, immer prestigeträchtigere Aufnahme in exklusive Zirkel vorübergehend gelindert, nie endgültig aufgelöst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Tänzerin, die sich in jeder Rolle neu zusammensetzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sonoya Mizunos Weg zeigt die soziale Drei mit Viererflügel in einer besonders eindrücklichen Form: makellose Anerkennung in den anspruchsvollsten Kreisen der Kunst, getragen von einer echten, nie kaschierten Auseinandersetzung mit der eigenen Andersartigkeit. Der Gepard jagt nicht, um zu gewinnen – er jagt, um endlich ganz zu werden.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+          {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
+          {route:"beruehmte-sean-connery", label:"Porträt: Sean Connery (SO3w4)"},
+          {route:"beruehmte-bella-thorne", label:"Porträt: Bella Thorne (SO3w4)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
