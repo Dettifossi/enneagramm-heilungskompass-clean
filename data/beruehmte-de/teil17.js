@@ -1158,6 +1158,7 @@ export function nicolasCagePortraitPage() {
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-adele", label:"Portr\xe4t: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Portr\xe4t: Lady Diana (SE4w3)"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3) – ebenfalls Schauspieler, derselbe Subtyp"},
       ])}
     </div>
   `);

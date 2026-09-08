@@ -974,6 +974,7 @@ export function lenaUrzendowskyPortraitPage() {
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
         {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3) – ihr älterer Bruder"},
       ])}
     </div>
   `);
@@ -1883,6 +1884,70 @@ export function juergenDrewsPortraitPage() {
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
           {route:"krankheitsportraets-juergen-drews", label:"Krankheitsporträt: Jürgen Drews (SX9w8) – Umgang mit der Polyneuropathie"},
           {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+export function sebastianUrzendowskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sebastian-urzendowsky-portrait.jpg" alt="Sebastian Urzendowsky – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sebastian Urzendowsky</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltungs-Vier mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1985 in Berlin &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die durch fünf Schulsysteme wanderte, ohne laut zu klagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt Unruhe in ihrer Kindheit still, ohne sie nach außen zu dramatisieren. Sebastian Urzendowsky, 1985 in Ost-Berlin geboren, war sechs Jahre alt, als sich seine Eltern scheiden ließen. Mit fünfzehn zog er mit seiner Mutter und deren neuem Partner nach Lichterfelde, besuchte danach ein Schuljahr lang eine Schule in Frankreich und verbrachte ein halbes Jahr auf einem englischen Internat – als Neuling, der sich in jedem neuen Umfeld erst wieder in die ungeschriebenen Regeln und Gruppendynamiken einfinden musste.</p>
+          <p class="vb-intro">Nach dem Abitur lebte er zeitweise in Spanien und der Schweiz, bevor er sich 2006 an der Universität der Künste Berlin für ein Schauspielstudium entschied – eine bewegte, oft wechselnde Jugend, die er in Interviews nie als Drama, sondern nüchtern als Teil seines Werdegangs beschreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Leise Rollen statt lauter Auftritte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Statt die eigene emotionale Tiefe zur Schau zu stellen, wird sie in beharrliche, zurückhaltende Arbeit verwandelt. Urzendowsky wurde für genau diese stillen, eindringlichen Rollen bekannt – in „Der Turm", „Die Fälscher", „Mitten in Deutschland: NSU" und „Babylon Berlin" spielt er Figuren, deren innere Zerrissenheit sich selten in großen Gesten, sondern meist in gedämpfter Intensität zeigt.</p>
+          <p class="vb-intro">Über sich selbst sagt er, ein „Familienmensch" mit enger Bindung an seine Angehörigen zu sein – trotz der unsteten Kindheit. Zur Trennung der eigenen Eltern äußert er sich nüchtern statt anklagend: Scheidung sei heute viel selbstverständlicher geworden, Paare blieben nicht mehr nur des Anscheins wegen zusammen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Zwei Grimme-Preise für dieselbe stille Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> verleiht der Selbsterhaltungs-Vier einen zielgerichteten Ehrgeiz, der die eigene Zurückhaltung dennoch in messbaren Erfolg überführt. Urzendowsky wurde für seine Darstellungen zweimal mit dem Grimme-Preis ausgezeichnet – 2013 für „Der Turm", 2017 für „Die Täter – Heute ist nicht alle Tage" – zwei Auszeichnungen für genau jene leisen, unaufgeregten Rollen, die er konsequent über spektakulärere Angebote stellte.</p>
+          <p class="vb-intro">Sein Ansatz bei historischen Figuren beschreibt er selbst als methodisch statt intuitiv: Recherche sei entscheidend, wobei ein Film nie eine reale Person eins zu eins abbilde, sondern sich bewusst auf einen Aspekt eines Lebens konzentriere – eine Entscheidung, die Autor, Regie und Schauspieler gemeinsam treffen. Diese analytische Vorbereitung ist eine klassische Dreierflügel-Ergänzung zur Vier: Erfolg wird nicht dem Zufall überlassen, sondern strukturiert erarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Kindheitsentdeckung zur Fernsehsäule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bereits als Kind entdeckt, gelang Urzendowsky der Kino-Durchbruch mit Rollen in „Lichter", „Pingpong" und dem oscarprämierten Drama „Die Fälscher". Über die Jahre baute er sich eine durchgehende Präsenz in den anspruchsvollsten deutschen Produktionen auf – ein Werk, das eher in der Wiederholung ernsthafter, unaufgeregter Rollen wächst als in einzelnen, lauten Durchbrüchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich bei Urzendowsky in der Fähigkeit, eine unstete, mehrfach unterbrochene Kindheit nicht zu verdrängen, sondern in eine bemerkenswert konstante, mit zwei Grimme-Preisen belohnte Karriere zu verwandeln – Kontinuität als Antwort auf frühen Wechsel.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich in der Tendenz, familiäre Brüche eher zu relativieren als offen zu benennen. Sein eigener Satz, „man braucht viel Mut, um Probleme offen anzugehen", liest sich fast wie eine Selbstauskunft über diese Herausforderung – eine Einsicht, die er formuliert, ohne sie unbedingt durchgehend selbst zu leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die den Umzug zur Rolle machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sebastian Urzendowskys Weg zeigt die Selbsterhaltungs-Vier mit Dreierflügel in einer besonders konstanten Form: eine von Umzügen und Trennungen geprägte Jugend, verarbeitet nicht in Klage, sondern in zwei Jahrzehnten leiser, mehrfach ausgezeichneter Schauspielarbeit. Die Taube findet ihren Kurs auch dann, wenn sich die Landschaft unter ihr ständig ändert.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-lena-urzendowsky", label:"Porträt: Lena Urzendowsky (SE2w1) – seine Schwester"},
+          {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3) – ebenfalls Schauspieler, derselbe Subtyp"},
+          {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
         ])}
       </div>
     </div>
