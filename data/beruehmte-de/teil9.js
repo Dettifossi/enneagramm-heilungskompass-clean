@@ -937,7 +937,7 @@ export function konradAdenauerPortraitPage() {
         {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsportr\u00e4t: Konrad Adenauer (SE1w9)"},
         {route:"subtype/se1", label:"SE1 \u2013 Der Adler: Subtyp-Profil"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portr\xe4t: Queen Elizabeth II. (SE1w9)"},
-        {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SO8w9) \u2013 Bundeskanzler"},
+        {route:"beruehmte-helmut-kohl", label:"Portr\xe4t: Helmut Kohl (SE8w9) \u2013 Bundeskanzler"},
       ])}
     </div>
   `);
@@ -1594,6 +1594,7 @@ export function winstonChurchillPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-golda-meir", label:"Portr\u00e4t: Golda Meir (SE8w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portr\u00e4t: Helmut Kohl (SE8w9) \u2013 ebenfalls Staatsmann, derselbe Subtyp"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}

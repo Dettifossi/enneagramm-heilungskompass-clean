@@ -422,7 +422,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Social Type 6", krankheit:"Chronic hypochondria, breathing distress, later cognitive decline", teaser:"SO6w5 – philosopher, 1724–1804. Lifelong, extremely well-documented hypochondria with chronic breathing distress, philosophical processing of his own illness in his late work, cognitive decline in his final years. Died on February 12, 1804, in Königsberg at age 79." , land:"Germany", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Social Type 5", krankheit:"Stroke with paralysis of the right hand", teaser:"SO5w4 – polymath and artist, 1452–1519. Stroke around 1517 with paralysis of the right hand, switch to the left hand, continued work on the Mona Lisa until the end. Died on May 2, 1519, in Amboise, France, at age 67." , land:"Italy/France", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Social Type 7", krankheit:"Gunshot wound with lifelong lameness, later diabetes", teaser:"SO7w6 – French writer, 1828–1905. Shot by his mentally disturbed nephew in 1886, bullet permanently lodged in his leg, left with a limp, later also developed diabetes. Died on March 24, 1905, in Amiens at age 77." , land:"France", gender:"m", jahre:"1828–1905"},
-  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Social Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SO8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
+  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SE8w9", heading:"Helmut Kohl – Self-Preservation Type 8", krankheit:"Severe fall with head injury, permanent wheelchair use and loss of speech", teaser:"SE8w9 – German Chancellor, 1930–2017. Severe fall in February 2008 with head injury, followed by nine years largely dependent on care, wheelchair-bound and severely limited in speech. Died on June 16, 2017, in Ludwigshafen-Oggersheim at age 87." , land:"Germany", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Self-Preservation Type 2", krankheit:"Police violence with cerebral hemorrhage in 2009, chronic headaches since", teaser:"SE2w3 – Chinese artist and activist, b. 1957. Beaten by police in Chengdu in August 2009, suffered a cerebral hemorrhage as a result, emergency surgery in Munich in September 2009. Chronic headaches ever since." , land:"China/Germany", gender:"m", jahre:"b. 1957"},
   { route:"krankheitsportraets-woody-allen", name:"Woody Allen", subtyp:"SE6w7", heading:"Woody Allen – Self-Preservation Type 6", krankheit:"Lifelong, publicly documented hypochondria ('alarmism')", teaser:"SE6w7 – American director, screenwriter, and comedian, b. 1935. Documented health anxiety since the 1950s, over 35 years of psychoanalysis, described in detail in his own New York Times essay of January 12, 2013." , land:"USA", gender:"m", jahre:"b. 1935"},
   { route:"krankheitsportraets-fritz-perls", name:"Fritz Perls", subtyp:"SO8w7", heading:"Fritz Perls – Social Type 8", krankheit:"Years-long heart condition, chain smoking, pancreatic cancer", teaser:"SO8w7 – psychiatrist, co-founder of Gestalt therapy, 1893–1970. Years-long heart condition following an anesthesia-related injury, lifelong chain smoking, pancreatic cancer surgery. Died on March 14, 1970, in Chicago from acute heart failure." , land:"Germany/USA", gender:"m", jahre:"1893–1970"},
@@ -2249,9 +2249,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Muhammad ibn Abdullah – Social Type 8",
     teaser:"SO8w9 · c. 570–632 CE. Religious founder, founder of Islam. From orphan to prophet, statesman and military leader who united the tribes of Arabia into one community. The lion who fought for justice and protection of the weak. Out of respect for the religious prohibition on depicting him, shown without a face – symbolic correspondence: calligraphy of his name.",
     tags:["Religion","History"], gender:"m"},
-{ route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SO8w9",
-    heading:"Helmut Kohl – Social Type 8",
-    teaser:"SO8w9 · 1930–2017. German Chancellor (1982–1998), the \"Chancellor of Unity\". German reunification, the Maastricht Treaty, the introduction of the euro. The lion who waited patiently for decades - and made history the moment it mattered.",
+{ route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SE8w9",
+    heading:"Helmut Kohl – Self-Preservation Type 8",
+    teaser:"SE8w9 · 1930–2017. German Chancellor (1982–1998), the \"Chancellor of Unity\". German reunification, the Maastricht Treaty, the introduction of the euro. The orangutan who waited patiently on its branch for decades - and put its full weight on the scale the moment it mattered.",
     land:"Germany", tags:["Politics","History"], gender:"m"},
 { route:"beruehmte-paul-gauguin", name:"Paul Gauguin", added:"2026-08-29", subtyp:"SX8w7",
     heading:"Paul Gauguin – Sexual Type 8",
@@ -22877,6 +22877,7 @@ function winstonChurchillPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – also a statesman, same subtype"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
         {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bible Portrait: The Centurion at the Cross (SE8w9)"},
@@ -26107,7 +26108,7 @@ function konradAdenauerPortraitPage() {
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9)"},
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – Chancellor"},
       ])}
     </div>
   `);
@@ -28402,45 +28403,45 @@ function helmutKohlPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Helmut Kohl</p>
-        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
-        <p class="krim-portrait-subtitle">German Chancellor, 1930&ndash;2017 &ndash; Animal correspondence: Lion</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">German Chancellor, 1930&ndash;2017 &ndash; Animal correspondence: Orangutan</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Lion from the Palatinate</h2>
+        <h2 class="vb-section">1. The Orangutan from the Palatinate</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight &ndash; not the lone hunter, but the head of the pride, defending territory and cohesion at once. It doesn't roar constantly; its power lies in sheer physical and mental presence, felt by everyone the moment it enters the room.</p>
+          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight &ndash; massive, patient, hardly ever rattled. It needs no audience to prove its strength; it simply sits where it sits, and whoever wants to displace it must first move it. Its body is built to stay &ndash; not to flee.</p>
           <p class="vb-intro">The German politician Helmut Kohl was born in 1930 in Ludwigshafen am Rhein and experienced the end of the Second World War as a teenager &ndash; an experience that shaped his entire political life: never again should Germany be isolated, never again should Europe be divided. He joined the CDU at just 16, became Minister-President of Rhineland-Palatinate at 39, and Chancellor at 52 &ndash; a rise built from the start on sheer stamina, physical stature, and an unerring instinct for power. Kohl was physically imposing, often underestimated by opponents because of his measured Palatinate dialect &ndash; and that was precisely his strength: he never let himself be pushed into a pace that wasn't his own.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Eight: Power in the Service of the Group</h2>
+        <h2 class="vb-section">2. Self-Preservation Eight: Securing One's Own Territory</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Eight (SO8)</strong> differs from the other two Eight subtypes in that it invests its strength not in personal advantage but in protecting and building a larger community &ndash; it wants to take responsibility for the whole, even against resistance. Kohl's entire career bore this pattern: 16 years as Federal Chancellor (1982&ndash;1998), the longest term of office in postwar German history, during which he saw himself as the one who had to hold the threads together &ndash; his own party, the Franco-German axis, European integration.</p>
-          <p class="vb-intro">His most famous instrument of power was the informal network he built and cultivated over decades &ndash; the so-called "Kohl clan" within the CDU, personal loyalties he nurtured himself, which for a long time secured him against any internal party rivalry. This is the typical power strategy of the social Eight: not the spectacular solo move, but the patient construction of a power base one can rely on in a crisis.</p>
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> expresses the Eight's passion &ndash; <em>lust</em>, the hunger for unrestricted intensity &ndash; through self-assertion and the unconditional securing of its own territory. Naranjo called this subtype <em>Satisfacción</em>: it defends what belongs to it uncompromisingly &ndash; not as service to an abstract community, but as protection of its own power base and closest circle. Kohl's entire career bore this pattern: 16 years as Federal Chancellor (1982&ndash;1998), the longest term of office in postwar German history, during which he effectively turned the CDU into his personal territory and defended it by every means available.</p>
+          <p class="vb-intro">His most famous instrument of power was the informal network he built and cultivated over decades &ndash; the so-called "Kohl clan" within the CDU, personal loyalties he nurtured himself, which for a long time secured him against any internal party rivalry. This is the typical power strategy of the self-preservation Eight: not carrying the banner of a cause, but securing one's own closest circle so firmly that it holds through any crisis.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Nine-Wing: Patience Instead of Confrontation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong>, where strongly developed, softens the confrontational drive of the Eight into a more patient, more conciliatory stance &ndash; power is not constantly displayed but rather held in the background until the right moment arrives. Kohl was famous &ndash; and notorious &ndash; for his ability to simply sit out conflicts: he rarely acted rashly, let opponents wear themselves down, and then appeared, seemingly calm, with the decisive initiative. This mix of assertiveness and stoic patience was his political signature.</p>
-          <p class="vb-intro">Nowhere was this clearer than in German reunification in 1989/1990. When the Berlin Wall fell, Kohl seized the historic opportunity with his Ten-Point Plan, negotiated in parallel with the four Allied powers, with Gorbachev, with Mitterrand &ndash; and achieved reunification within less than a year, even though many international observers had expected years of negotiations. This was the lion-Eight in its purest form: dictate the tempo when the hour arrives &ndash; and until then, prepare patiently, unobtrusively, with a long breath.</p>
+          <p class="vb-intro">Nowhere was this clearer than in German reunification in 1989/1990. When the Berlin Wall fell, Kohl seized the historic opportunity with his Ten-Point Plan, negotiated in parallel with the four Allied powers, with Gorbachev, with Mitterrand &ndash; and achieved reunification within less than a year, even though many international observers had expected years of negotiations. This was the orangutan-Eight in its purest form: patient, unobtrusive, sitting on its branch with a long breath &ndash; and then, at exactly the right moment, acting with its full weight.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Europe as a Life's Task</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Kohl's deepest motivation, which he himself often emphasized, was the experience of war: he wanted a Germany so firmly anchored in Europe that a new war on the continent would become impossible. Together with French President François Mitterrand &ndash; with whom he shared a deep personal friendship &ndash; he decisively advanced European unification: the Maastricht Treaty of 1992, the foundation of the European Union, and the introduction of the euro, whose political groundwork is largely attributed to him.</p>
-          <p class="vb-intro">The image of the two statesmen spontaneously joining hands in 1984 at Verdun, the symbolic site of the First World War, became an icon of Franco-German reconciliation. This is typical of the social Eight: its own abundance of power is deployed to create a lasting, viable order for the community &ndash; not out of sentimentality, but from the firm conviction that only a united Europe can guarantee lasting peace.</p>
+          <p class="vb-intro">The image of the two statesmen spontaneously joining hands in 1984 at Verdun, the symbolic site of the First World War, became an icon of Franco-German reconciliation. This is typical of the self-preservation Eight: its own abundance of power is deployed to permanently secure its own territory &ndash; Germany &ndash; against the existential threat of a new war, not out of sentimentality, but from the firm conviction that only a united Europe can permanently guarantee its own survival.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO8w9 is the ability to combine <strong>leadership strength with strategic patience</strong> &ndash; power deployed not impulsively but purposefully and persistently, to create something lasting for the community. Kohl's legacy &ndash; a reunified Germany within a united Europe &ndash; is exactly that: a work that reaches beyond his own term in office.</p>
-          <p class="vb-intro">The shadow showed itself in the CDU donations scandal uncovered in 1999/2000: Kohl admitted to concealing illegal party donations for years through secret slush funds, but stubbornly refused to name the donors &ndash; even under the pressure of loss of honor and legal consequences. This is the flip side of the social Eight with its informal power network: loyalty inward is placed above transparency outward, and the system of personal ties cultivated over decades can become a trap once its hidden rules come to light. The scandal severely damaged his reputation and plunged the party he himself had shaped into a deep crisis.</p>
+          <p class="vb-intro">The light of the SE8w9 is the ability to combine <strong>leadership strength with strategic patience</strong> &ndash; power deployed not impulsively but purposefully and persistently, to permanently secure its own territory. Kohl's legacy &ndash; a reunified Germany within a united Europe &ndash; is exactly that: a work that reaches beyond his own term in office.</p>
+          <p class="vb-intro">The shadow showed itself in the CDU donations scandal uncovered in 1999/2000: Kohl admitted to concealing illegal party donations for years through secret slush funds, but stubbornly refused to name the donors &ndash; even under the pressure of loss of honor and legal consequences. This is the flip side of the self-preservation Eight: its own closest circle is protected uncompromisingly, even against transparency and the public &ndash; and the system of personal ties cultivated over decades can become a trap once its hidden rules come to light. The scandal severely damaged his reputation and plunged the party he himself had shaped into a deep crisis.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Lion Who Held a Continent Together</h2>
+        <h2 class="vb-section">6. The Orangutan Who Held a Continent Together</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Helmut Kohl died in 2017 in Ludwigshafen, at the age of 87. His final years were overshadowed by health setbacks, family estrangement, and a bitter dispute over his political legacy &ndash; another price the Eight often pays when control over its own story eventually slips from its hands.</p>
-          <p class="vb-intro">And yet this remains: no postwar German chancellor reshaped the map of Europe so lastingly. As the "Chancellor of Unity," Kohl stands for the rare case in which the toughness and stamina of the social Eight, paired with the patience of the Nine-wing, seized a historical window that would never open again &ndash; the lion that roared at exactly the moment all of Europe was listening, after decades of waiting and saving up the strength for it.</p>
+          <p class="vb-intro">And yet this remains: no postwar German chancellor reshaped the map of Europe so lastingly. As the "Chancellor of Unity," Kohl stands for the rare case in which the toughness and stamina of the self-preservation Eight, paired with the patience of the Nine-wing, seized a historical window that would never open again &ndash; the orangutan that sat motionless on its branch for decades, and that, at exactly the moment all of Europe was watching, put its full weight on the scale.</p>
         </blockquote>
 
       </div>
@@ -28449,10 +28450,10 @@ function helmutKohlPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
-        {route:"beruehmte-mohammed", label:"Portrait: Muhammad ibn Abdullah (SO8w9)"},
-        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SO8w9) – fall, wheelchair, and loss of speech"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
       ])}
     </div>
   `);
@@ -58158,7 +58159,7 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Lion",
     kernthema: "Strength used not for oneself, but for the pride (Naranjo: Friendship and Brotherhood)",
-    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm"],
+    beispiele: ["Socrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Muhammad ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "High Priest Caiaphas", "Jon Hamm"],
     fingerabdruecke: [
       {
         titel: "Strength used not for oneself, but for the pride",
@@ -58168,7 +58169,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Mere presence is enough – no constant roaring needed",
         beschreibung: "Authority and impact arise not through the permanent demonstration of power, but through a physical and mental presence felt as soon as it enters a room.",
-        beleg: "Bud Spencer: 'The lion doesn't need to roar to have an effect. Its presence alone is enough ... When the pride is in danger, it rises. Until then, it's simply there'; Helmut Kohl: 'He doesn't roar constantly; his power lies in the sheer physical and mental presence others feel as soon as he enters a room.'"
+        beleg: "Bud Spencer: 'The lion doesn't need to roar to have an effect. Its presence alone is enough ... When the pride is in danger, it rises. Until then, it's simply there'."
       },
       {
         titel: "Precise, chosen intervention instead of indiscriminate confrontation",
@@ -58185,7 +58186,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina", "The Centurion at the Cross"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "The Centurion at the Cross"],
     fingerabdruecke: [
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
@@ -58200,7 +58201,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unshakable steadfastness under extreme pressure",
         beschreibung: "When the situation becomes most difficult, a physical and psychological immovability appears that does not yield even under the greatest external pressure – not through loud resistance, but through sheer, unshakable staying.",
-        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister; the centurion at the cross, who said nothing during the crucifixion, not at the mockery, not at the final cry, 'every fiber receiving, but outwardly very calm' – until a single sentence, spoken quietly, carried everything: 'Truly this man was the Son of God.'"
+        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister; the centurion at the cross, who said nothing during the crucifixion, not at the mockery, not at the final cry, 'every fiber receiving, but outwardly very calm' – until a single sentence, spoken quietly, carried everything: 'Truly this man was the Son of God.'; Helmut Kohl, who after a severe fall in 2008 spent nine years largely dependent on care and almost entirely absent from public life – while his control over his immediate circle, organized only from the background, remained intact until the very end."
       },
       {
         titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
@@ -59133,19 +59134,19 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "One of the most consistent concealments of one's own illness across this entire Compass – weakness is almost never allowed to be public in this group.",
-    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina"],
+    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina", "Helmut Kohl"],
     fingerabdruecke: [
       {
         titel: "Radical, often years-long concealment of any recognizable weakness",
         beschreibung: "The self-preservation Eight shows an unusually consistent concealment of its own illness in almost every case so far – control over its own vulnerability is not relinquished.",
-        beleg: "Golda Meir, who kept her lymphatic cancer secret for seventeen years; Winston Churchill, who hid a stroke in office from the public, alongside a lifelong, also concealed depression (\"the black dog\"); Umberto Eco, who kept his pancreatic cancer almost entirely private for about two years."
+        beleg: "Golda Meir, who kept her lymphatic cancer secret for seventeen years; Winston Churchill, who hid a stroke in office from the public, alongside a lifelong, also concealed depression (\"the black dog\"); Umberto Eco, who kept his pancreatic cancer almost entirely private for about two years; Helmut Kohl, who after a severe fall in 2008 disappeared almost entirely from public life, organizing his nine years of dependent care behind the closed doors of his house in Oggersheim rather than letting it become publicly visible."
       }
     ]
   },
   SO8: {
     tier: "Lion",
     kernthema: "Small to moderate sample so far – a striking cluster of chronic, physically burdensome afflictions that rarely lead to public withdrawal.",
-    beispiele: ["Karl Marx", "John Gotti", "Helmut Kohl", "Fritz Perls"],
+    beispiele: ["Karl Marx", "John Gotti", "Fritz Perls"],
     fingerabdruecke: [
       {
         titel: "Chronic physical suffering that rarely leads to relinquishing responsibility",
@@ -62170,6 +62171,7 @@ function winstonChurchillKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – life's work"},
         {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9) – same concealment strategy"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – the same pattern of hidden vulnerability"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}
@@ -72058,7 +72060,6 @@ function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9) – life's work"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SO8w9) – the same pattern of unbroken control"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so8", label:"Subtype Profile SO8"},
       ])}
@@ -77698,11 +77699,11 @@ function helmutKohlKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Helmut Kohl</p>
-        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing &middot; 1930–2017</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing &middot; 1930–2017</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Animal correspondence: Lion</span>
+          <span>Animal correspondence: Orangutan</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Animal correspondence: Lion" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -77716,8 +77717,8 @@ function helmutKohlKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Kohl</strong> is assigned to the <strong>Social Type 8 with Nine-wing</strong>.
-        The SO8 invests its strength in protecting and building a larger community; the
+        <strong>Kohl</strong> is assigned to the <strong>Self-Preservation Type 8 with a Nine Wing</strong>.
+        The SE8 invests its strength in the uncompromising securing of its own territory and closest circle; the
         Nine-wing adds patience and the ability to hold control over long periods without
         visible effort. This exact combination – the will to lead, paired with the Nine's
         typical tendency to keep one's own vulnerability out of public view as much as
@@ -77804,24 +77805,24 @@ function helmutKohlKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
-        <p class="vb-intro"><strong>a) A lion whose pride was no longer allowed to see him:</strong>
+        <p class="vb-intro"><strong>a) An orangutan whose territory was no longer allowed to see him:</strong>
         Kohl's entire political existence rested on visibility, presence, and personal
         control over his network – the fall in 2008 threatened precisely that visibility,
         while control over his immediate surroundings, paradoxically, remained intact,
         only now held by another hand.</p>
         <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Karl Marx</a>
-        (also SO8w9) kept working undeterred on his life's work for over four decades
-        despite severe, painful carbuncles, never letting his suffering derail him; Kohl
+        <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Winston Churchill</a>
+        (also SE8w9) concealed a severe stroke in office for weeks from the public and much
+        of his own cabinet in 1953, rather than exposing his own vulnerability; Kohl
         responded to his own, far more dramatic physical limitation with a structurally
         similar stance – not through public complaint, but through the quiet continuation
         of control over his own surroundings, as far as circumstances still allowed. Both
-        cases show the same SO8w9 pattern: the Eight with a Nine-wing does not readily
-        relinquish control over its own life's work and surroundings, even in the face of
+        cases show the same SE8w9 pattern: the Eight with a Nine-wing does not readily
+        relinquish control over its own territory and surroundings, even in the face of
         massive physical limitation. More in the
-        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Illness Portrait of Karl Marx</a>.</p>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Illness Portrait of Winston Churchill</a>.</p>
         <p class="vb-intro"><strong>c) Why movement and speech, of all things?</strong>
-        For a Social Eight with a Nine-wing, whose entire power rested on physical presence
+        For a Self-Preservation Eight with a Nine-wing, whose entire power rested on physical presence
         and the ability to fill rooms with deliberate but forceful rhetoric, one
         interpretation suggests itself: precisely those two abilities – to move and to
         speak – that had carried his decades-long political impact became the site of the
@@ -77829,15 +77830,15 @@ function helmutKohlKrankheitsportraetPage() {
         causal link, and will be developed further in this Compass's Psychosomatics
         Register.</p>
         <p class="vb-intro"><strong>d) Placing it without determinism:</strong>
-        This does not mean that the Social Eight's pattern inevitably leads to a fall with
+        This does not mean that the Self-Preservation Eight's pattern inevitably leads to a fall with
         permanent paralysis – <strong>anyone can suffer any illness or injury, regardless
         of subtype.</strong> What Kohl's case illustrates is a pattern in how a pronounced
-        Social Eight with a Nine-wing tends to handle sudden, massive loss of control – one
+        Self-Preservation Eight with a Nine-wing tends to handle sudden, massive loss of control – one
         of many possible interpretations, not a verdict. The corresponding illness picture
         is gradually being developed in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Kohl did not know his own pattern – the Social Eight with a Nine-wing reflexively
+        Kohl did not know his own pattern – the Self-Preservation Eight with a Nine-wing reflexively
         holds on to control over its own surroundings instead of ever openly allowing its
         own vulnerability, and exactly this pattern determined how his final decade of life
         was organized. Someone who does not recognize their own need to keep the reins in
@@ -77848,20 +77849,20 @@ function helmutKohlKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        The Social Eight with a Nine-wing explains much about the course of
+        The Self-Preservation Eight with a Nine-wing explains much about the course of
         <strong>Helmut Kohl's</strong> final years: a man whose entire power rested on
         presence and control lost both almost entirely – and yet, patiently and invisibly
         organized in the background, exactly the control over his immediate surroundings
-        that had shaped his whole life remained intact. The lion that could no longer roar,
-        but never truly left its territory until the end.</p>
+        that had shaped his whole life remained intact. The orangutan that could no longer
+        make its presence known, but never truly left its territory until the end.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SO8w9) – Chancellor of Unity"},
-        {route:"krankheitsportraets-karl-marx", label:"Illness Portrait: Karl Marx (SO8w9) – the same pattern of unbroken control"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – Chancellor of Unity"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9) – the same pattern of hidden vulnerability"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/so8", label:"Subtype Profile SO8"},
+        {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}
     </div>
   `);
@@ -103662,7 +103663,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Wing nuance: SO8w7 and SO8w9",
       w1: { code: "SO8w7", route: "beruehmte-michelle-obama", name: "Michelle Obama", text: `leadership strength takes on a more energetic, more inspiring note – authority is also expressed through enthusiasm and versatility, not only through seriousness. Responds well to lively, forward-driving collaboration, less well to rigid, bureaucratic structures.` },
-      w2: { code: "SO8w9", route: "beruehmte-helmut-kohl", name: "Helmut Kohl", text: `leadership strength becomes calmer, tied to a leaning toward long-term, patient steadfastness – authority shows up as quiet constancy rather than quick action. Responds well to reliable, patient collaboration, poorly to hectic pressure.` },
+      w2: { code: "SO8w9", route: "beruehmte-karl-marx", name: "Karl Marx", text: `leadership strength becomes calmer, tied to a leaning toward long-term, patient steadfastness – authority shows up as quiet constancy rather than quick action. Responds well to reliable, patient collaboration, poorly to hectic pressure.` },
     },
     stressWachstum: {
       stress: `Under stress the SO8 moves toward <strong>Type 5</strong>: present leadership suddenly turns into withdrawal and isolation, a closing off from anything that demands closeness. If you recognize this pattern, it's a signal of rising inner pressure – not a good moment for more demands, a good moment for protected space without expectations.`,

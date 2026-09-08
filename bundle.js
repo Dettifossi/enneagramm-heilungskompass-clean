@@ -30235,7 +30235,7 @@ const KRANKHEITS_PORTRAITS = [
   { route:"krankheitsportraets-immanuel-kant", name:"Immanuel Kant", subtyp:"SO6w5", heading:"Immanuel Kant – Sozialer Typ 6", krankheit:"Chronische Hypochondrie, Atembeklemmung, später geistiger Verfall", teaser:"SO6w5 – Philosoph, 1724–1804. Lebenslange, extrem dokumentierte Hypochondrie mit chronischer Atembeklemmung, philosophische Verarbeitung der eigenen Krankheit im Spätwerk, geistiger Verfall in den letzten Lebensjahren. Starb am 12. Februar 1804 in Königsberg im Alter von 79 Jahren." , land:"Deutschland", gender:"m", jahre:"1724–1804"},
   { route:"krankheitsportraets-leonardo-da-vinci", name:"Leonardo da Vinci", subtyp:"SO5w4", heading:"Leonardo da Vinci – Sozialer Typ 5", krankheit:"Schlaganfall mit Lähmung der rechten Hand", teaser:"SO5w4 – Universalgelehrter und Künstler, 1452–1519. Schlaganfall um 1517 mit Lähmung der rechten Hand, Umstellung auf die linke Hand, fortgesetzte Arbeit an der Mona Lisa bis zuletzt. Starb am 2. Mai 1519 in Amboise, Frankreich, im Alter von 67 Jahren." , land:"Italien/Frankreich", gender:"m", jahre:"1452–1519"},
   { route:"krankheitsportraets-jules-verne", name:"Jules Verne", subtyp:"SO7w6", heading:"Jules Verne – Sozialer Typ 7", krankheit:"Schussverletzung mit lebenslanger Lähmung, später Diabetes", teaser:"SO7w6 – französischer Schriftsteller, 1828–1905. 1886 durch seinen geistig verwirrten Neffen niedergeschossen, Kugel dauerhaft im Bein, fortan hinkend, später zusätzlich Diabetes. Starb am 24. März 1905 in Amiens im Alter von 77 Jahren." , land:"Frankreich", gender:"m", jahre:"1828–1905"},
-  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SO8w9", heading:"Helmut Kohl – Sozialer Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SO8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
+  { route:"krankheitsportraets-helmut-kohl", name:"Helmut Kohl", subtyp:"SE8w9", heading:"Helmut Kohl – Selbsterhaltender Typ 8", krankheit:"Schwerer Sturz mit Kopfverletzung, dauerhafte Rollstuhlpflichtigkeit und Sprachverlust", teaser:"SE8w9 – deutscher Bundeskanzler, 1930–2017. Schwerer Sturz im Februar 2008 mit Kopfverletzung, danach neun Jahre weitgehend pflegebedürftig, rollstuhlgebunden und in der Sprache stark eingeschränkt. Starb am 16. Juni 2017 in Ludwigshafen-Oggersheim im Alter von 87 Jahren." , land:"Deutschland", gender:"m", jahre:"1930–2017"},
   { route:"krankheitsportraets-ai-weiwei", name:"Ai Weiwei", subtyp:"SE2w3", heading:"Ai Weiwei – Selbsterhaltender Typ 2", krankheit:"Polizeigewalt mit Hirnblutung 2009, seither chronische Kopfschmerzen", teaser:"SE2w3 – chinesischer Künstler und Aktivist, geb. 1957. Im August 2009 von der Polizei in Chengdu geschlagen, dadurch Hirnblutung erlitten, im September 2009 Notoperation in München. Seither chronische Kopfschmerzen." , land:"China/Deutschland", gender:"m", jahre:"geb. 1957"},
   { route:"krankheitsportraets-mr-t", name:"Mr. T", subtyp:"SE2w3", heading:"Mr. T – Selbsterhaltender Typ 2", krankheit:"T-Zell-Lymphom (Krebs) mit Bestrahlung und Chemotherapie 1995", teaser:"SE2w3 – US-amerikanischer Schauspieler und Wrestler, geb. 1952. Im September 1995 Diagnose eines seltenen T-Zell-Lymphoms, Behandlung mit Bestrahlung und Chemotherapie, mehrjähriger Rückzug aus der Öffentlichkeit. Seither Krebsüberlebender und Fürsprecher für kranke Kinder." , land:"USA", gender:"m", jahre:"geb. 1952"},
   { route:"krankheitsportraets-oprah-winfrey", name:"Oprah Winfrey", subtyp:"SE2w3", heading:"Oprah Winfrey – Selbsterhaltender Typ 2", krankheit:"Sexueller Missbrauch in der Kindheit, Teenagerschwangerschaft mit 14 Jahren", teaser:"SE2w3 – US-amerikanische Moderatorin, Unternehmerin, Philanthropin, geb. 1954. Ab etwa ihrem neunten Lebensjahr über mehrere Jahre von Familienmitgliedern und Bekannten sexuell missbraucht, mit 14 schwanger, Verlust des Sohnes wenige Wochen nach der Geburt. Machte die Geschichte 1986 erstmals öffentlich und setzte sich 1991 vor dem US-Senat für den nach ihr benannten National Child Protection Act ein." , land:"USA", gender:"f", jahre:"geb. 1954"},
@@ -32092,9 +32092,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mohammed ibn Abdullah \u2013 Sozialer Typ 8",
     teaser:"SO8w9 \u00b7 ca. 570\u2013632 n. Chr. Religionsstifter, Begr\u00fcnder des Islam. Vom Waisenkind zum Propheten, Feldherrn und Staatsmann, der die St\u00e4mme Arabiens zu einer Gemeinschaft einte. Der L\u00f6we, der Recht und Schutz f\u00fcr die Schwachen erk\u00e4mpfte. Aus Respekt vor dem religi\u00f6sen Bilderverbot ohne Gesichtsdarstellung \u2013 Symbolentsprechung: Kalligrafie seines Namens.",
     tags:["Religion","Geschichte"], gender:"m"},
-  { route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SO8w9",
-    heading:"Helmut Kohl \u2013 Sozialer Typ 8",
-    teaser:"SO8w9 \u00b7 1930\u20132017. Deutscher Bundeskanzler (1982\u20131998), \u00bbKanzler der Einheit\u00ab. Wiedervereinigung, Vertrag von Maastricht, Euro-Einf\u00fchrung. Der L\u00f6we, der jahrzehntelang geduldig wartete \u2013 und im entscheidenden Moment Geschichte schrieb.",
+  { route:"beruehmte-helmut-kohl", name:"Helmut Kohl", added:"2026-08-09", subtyp:"SE8w9",
+    heading:"Helmut Kohl \u2013 Selbsterhaltender Typ 8",
+    teaser:"SE8w9 \u00b7 1930\u20132017. Deutscher Bundeskanzler (1982\u20131998), \u00bbKanzler der Einheit\u00ab. Wiedervereinigung, Vertrag von Maastricht, Euro-Einf\u00fchrung. Der Orang-Utan, der jahrzehntelang geduldig auf seinem Ast wartete \u2013 und im entscheidenden Moment sein ganzes Gewicht in die Waagschale warf.",
     land:"Deutschland", tags:["Politik","Geschichte"], gender:"m"},
   { route:"beruehmte-adele-neuhauser", name:"Adele Neuhauser", added:"2026-07-22", subtyp:"SX8w7",
     heading:"Adele Neuhauser \u2013 Sexueller Typ 8",
@@ -44803,7 +44803,7 @@ const LEBENSMUSTERKOMPASS = {
   SO8: {
     tier: "Löwe",
     kernthema: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird (Naranjo: Freundschaft und Bruderschaft)",
-    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "Helmut Kohl", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm"],
+    beispiele: ["Sokrates", "Fritz Perls", "Michelle Obama", "Carsten Stahl", "Cynthia Lummis", "Bud Spencer", "Karl Marx", "Jamaica Kincaid", "Mohammed ibn Abdullah", "John Gotti", "Dr. Laurence Frank", "Natascha Ochsenknecht", "Der Hohepriester Kaiphas", "Jon Hamm"],
     fingerabdruecke: [
       {
         titel: "Kraft, die nicht für sich selbst, sondern für das Rudel eingesetzt wird",
@@ -44813,7 +44813,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bloße Präsenz genügt – kein ständiges Brüllen nötig",
         beschreibung: "Autorität und Wirkung entstehen nicht durch permanente Demonstration von Macht, sondern durch eine körperliche und mentale Präsenz, die man spürt, sobald sie einen Raum betritt.",
-        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹; Helmut Kohl: ›Er brüllt nicht ständig; seine Macht liegt in der schieren physischen und mentalen Präsenz, die andere spüren, sobald er den Raum betritt.‹ – dieselbe Präsenz, die nach seinem schweren Sturz 2008 körperlich fast vollständig verstummte, während die Kontrolle über sein unmittelbares Umfeld bis zuletzt erhalten blieb, nur eben aus dem Hintergrund organisiert."
+        beleg: "Bud Spencer: ›Der Löwe muss nicht brüllen, um zu wirken. Seine Präsenz allein ist genug … Wenn das Rudel in Gefahr ist, steht er auf. Bis dahin ist er einfach da‹."
       },
       {
         titel: "Präzises, gewähltes Eingreifen statt wahlloser Konfrontation",
@@ -44830,7 +44830,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orang-Utan",
     kernthema: "Solitäres, stilles Territorium ohne Publikumsbedürfnis (Naranjo: Satisfaktion)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Griselda Blanco", "Salvatore Riina", "Der Hauptmann unter dem Kreuz"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Der Hauptmann unter dem Kreuz"],
     fingerabdruecke: [
       {
         titel: "Solitäres, stilles Territorium ohne Bedürfnis nach Publikum oder Bestätigung",
@@ -44845,7 +44845,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unerschütterliche Standfestigkeit unter extremem Druck",
         beschreibung: "Wenn die Lage am schwierigsten wird, zeigt sich eine körperliche und psychische Unbeweglichkeit, die selbst unter größtem äußeren Druck nicht weicht – nicht durch lauten Widerstand, sondern durch bloßes, unerschütterliches Bleiben.",
-        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ; Salvatore Riina, dessen Verteidigung noch nach seinem Schlaganfall 2017 im komaähnlichen Zustand um seine Freilassung kämpfte, während die Gerichte seine fortbestehende Gefährlichkeit selbst im Sterben bestätigten; der Hauptmann unter dem Kreuz, der bei der Kreuzigung nichts sagte, nicht beim Spott, nicht beim letzten Aufschrei, ›jede Faser auf Empfang, aber äußerlich sehr ruhig‹ – bis ein einziger Satz, leise gesprochen, alles trug: ›Wahrlich, dieser Mensch war Gottes Sohn.‹"
+        beleg: "Winston Churchill, der 1940 ›auf dem Ast blieb, während der Sturm tobte‹: ›Sein Körper ist gebaut, um zu bleiben – nicht um zu fliehen‹ – und der einen schweren Schlaganfall 1953 wochenlang vor der Öffentlichkeit verbarg, statt sein Amt aufzugeben; Golda Meir: ›Das ist nicht die Geschichte einer Karriere. Es ist die Geschichte eines Überlebens – und eines Willens, der nicht zu brechen war‹ – ein Wille, der sie auch eine siebzehn Jahre lang verschwiegene Krebserkrankung durch ihre gesamte Amtszeit als Premierministerin tragen ließ; Salvatore Riina, dessen Verteidigung noch nach seinem Schlaganfall 2017 im komaähnlichen Zustand um seine Freilassung kämpfte, während die Gerichte seine fortbestehende Gefährlichkeit selbst im Sterben bestätigten; der Hauptmann unter dem Kreuz, der bei der Kreuzigung nichts sagte, nicht beim Spott, nicht beim letzten Aufschrei, ›jede Faser auf Empfang, aber äußerlich sehr ruhig‹ – bis ein einziger Satz, leise gesprochen, alles trug: ›Wahrlich, dieser Mensch war Gottes Sohn.‹; Helmut Kohl, der nach einem schweren Sturz 2008 neun Jahre lang weitgehend pflegebedürftig und öffentlich fast unsichtbar wurde – und dessen Kontrolle über sein unmittelbares Umfeld, nur eben aus dem Hintergrund organisiert, dabei bis zuletzt erhalten blieb."
       },
       {
         titel: "Wenn dieselbe stille Territorialkontrolle rücksichtslos und tödlich wird (Schattenform)",
@@ -45784,19 +45784,19 @@ const KRANKHEITSMUSTERKOMPASS = {
   SE8: {
     tier: "Orang-Utan",
     kernthema: "Eine der konsequentesten Geheimhaltungen der eigenen Krankheit im gesamten Kompass – Schwäche wird bei dieser Gruppe fast nie öffentlich zugelassen.",
-    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina"],
+    beispiele: ["Winston Churchill", "Golda Meir", "Dr. Umberto Eco", "Salvatore Riina", "Helmut Kohl"],
     fingerabdruecke: [
       {
         titel: "Radikale, oft jahrelange Geheimhaltung jeder erkennbaren Schwäche",
         beschreibung: "Die selbsterhaltende Acht zeigt bei fast allen bisherigen Fällen eine außergewöhnlich konsequente Geheimhaltung der eigenen Erkrankung – Kontrolle über die eigene Verletzlichkeit wird nicht aus der Hand gegeben.",
-        beleg: "Golda Meir, die ihre Lymphdrüsenkrebs-Erkrankung siebzehn Jahre lang geheim hielt; Winston Churchill, der einen Schlaganfall im Amt vor der Öffentlichkeit verbarg, neben einer lebenslangen, ebenfalls verheimlichten Depression (›the black dog‹); Umberto Eco, der seine Bauchspeicheldrüsenkrebs-Erkrankung rund zwei Jahre nahezu vollständig privat hielt."
+        beleg: "Golda Meir, die ihre Lymphdrüsenkrebs-Erkrankung siebzehn Jahre lang geheim hielt; Winston Churchill, der einen Schlaganfall im Amt vor der Öffentlichkeit verbarg, neben einer lebenslangen, ebenfalls verheimlichten Depression (›the black dog‹); Umberto Eco, der seine Bauchspeicheldrüsenkrebs-Erkrankung rund zwei Jahre nahezu vollständig privat hielt; Helmut Kohl, der nach seinem schweren Sturz 2008 fast vollständig aus der Öffentlichkeit verschwand und seine neunjährige Pflegebedürftigkeit hinter den Türen seines Hauses in Oggersheim organisieren ließ, statt sie öffentlich sichtbar werden zu lassen."
       }
     ]
   },
   SO8: {
     tier: "Löwe",
     kernthema: "Kleine bis mittlere Fallzahl bislang – erkennbar ist eine auffällige Häufung chronischer, körperlich belastender Leiden, die trotzdem selten zum öffentlichen Rückzug führen.",
-    beispiele: ["Karl Marx", "John Gotti", "Helmut Kohl", "Fritz Perls"],
+    beispiele: ["Karl Marx", "John Gotti", "Fritz Perls"],
     fingerabdruecke: [
       {
         titel: "Chronische körperliche Leiden, die selten zum Rückzug aus der Verantwortung führen",
@@ -60418,7 +60418,7 @@ const KOMMUNIKATIONSGUIDE = {
     fluegel: {
       titel: "Flügel-Nuance: SO8w7 und SO8w9",
       w1: { code: "SO8w7", route: "beruehmte-michelle-obama", name: "Michelle Obama", text: `die Führungskraft bekommt eine energiegeladenere, inspirierendere Note – Autorität wird auch über Begeisterung und Vielseitigkeit ausgedrückt, nicht nur über Ernst. Reagiert gut auf lebendige, vorwärtsgerichtete Zusammenarbeit, weniger gut auf starre, bürokratische Strukturen.` },
-      w2: { code: "SO8w9", route: "beruehmte-helmut-kohl", name: "Helmut Kohl", text: `die Führungskraft wird gelassener, mit einem Hang zu langfristiger, geduldiger Standhaftigkeit verbunden – Autorität zeigt sich in ruhiger Beständigkeit statt schnellem Zupacken. Reagiert gut auf verlässliche, geduldige Zusammenarbeit, schlecht auf hektischen Druck.` },
+      w2: { code: "SO8w9", route: "beruehmte-karl-marx", name: "Karl Marx", text: `die Führungskraft wird gelassener, mit einem Hang zu langfristiger, geduldiger Standhaftigkeit verbunden – Autorität zeigt sich in ruhiger Beständigkeit statt schnellem Zupacken. Reagiert gut auf verlässliche, geduldige Zusammenarbeit, schlecht auf hektischen Druck.` },
     },
     stressWachstum: {
       stress: `Unter Stress bewegt sich die SO8 Richtung <strong>Typ 5</strong>: Aus präsenter Führung wird plötzlich Rückzug und Isolation, ein Verschließen gegenüber allem, was Nähe verlangt. Erkennst du dieses Muster, ist das ein Signal für erhöhten inneren Druck – kein guter Moment für weitere Forderungen, ein guter Moment für geschützten Raum ohne Erwartungen.`,

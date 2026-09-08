@@ -1297,11 +1297,11 @@ export function helmutKohlKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Helmut Kohl</p>
-        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1930–2017</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel · 1930–2017</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Löwe</span>
+          <span>Tierentsprechung: Orang-Utan</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so8.jpg" alt="Tierentsprechung: Löwe" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO8")};left:${tierAvatarLeft("SO8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -1316,9 +1316,9 @@ export function helmutKohlKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Kohl</strong> ist dem <strong>sozialen Typ 8 mit Neunerflügel</strong>
-        zugeordnet. Die SO8 investiert ihre Kraft in den Schutz und Aufbau einer größeren
-        Gemeinschaft; der Neunerflügel bringt Geduld und die Fähigkeit hinzu, Kontrolle über
+        <strong>Kohl</strong> ist dem <strong>selbsterhaltenden Typ 8 mit Neunerflügel</strong>
+        zugeordnet. Die SE8 investiert ihre Kraft in die kompromisslose Sicherung des eigenen
+        Terrains und engsten Umfelds; der Neunerflügel bringt Geduld und die Fähigkeit hinzu, Kontrolle über
         lange Zeiträume ohne sichtbare Anstrengung zu halten. Genau diese Kombination –
         Führungswille, gepaart mit der neunertypischen Neigung, die eigene Verwundbarkeit
         möglichst aus dem öffentlichen Blick zu halten – bestimmte auch, wie das Umfeld
@@ -1408,25 +1408,25 @@ export function helmutKohlKrankheitsportraetPage() {
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
-        <p class="vb-intro"><strong>a) Ein Löwe, dessen Rudel ihn nicht mehr sehen durfte:</strong>
+        <p class="vb-intro"><strong>a) Ein Orang-Utan, dessen Revier ihn nicht mehr sehen durfte:</strong>
         Kohls gesamte politische Existenz beruhte auf Sichtbarkeit, Präsenz und persönlicher
         Kontrolle über sein Netzwerk – der Sturz 2008 bedrohte ausgerechnet diese Sichtbarkeit,
         während die Kontrolle über sein unmittelbares Umfeld paradoxerweise erhalten blieb,
         nur eben in anderer Hand.</p>
         <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Karl Marx</a>
-        (ebenfalls SO8w9) arbeitete über vier Jahrzehnte trotz schwerster, schmerzhafter
-        Karbunkel unbeirrt an seinem Lebenswerk weiter, ohne sich von seinem Leiden aus der
-        Bahn werfen zu lassen; Kohl reagierte auf seine eigene, weit dramatischere
+        <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Winston Churchill</a>
+        (ebenfalls SE8w9) verbarg 1953 im Amt einen schweren Schlaganfall wochenlang vor
+        Öffentlichkeit und weiten Teilen des eigenen Kabinetts, statt die eigene Verwundbarkeit
+        offenzulegen; Kohl reagierte auf seine eigene, weit dramatischere
         körperliche Einschränkung mit einer strukturell ähnlichen Haltung – nicht durch
         öffentliches Klagen, sondern durch stille Fortsetzung der Kontrolle über das eigene
         Umfeld, so weit es die Umstände noch zuließen. Beide Fälle zeigen dasselbe
-        SO8w9-Muster: Die Acht mit Neunerflügel gibt die Kontrolle über das eigene
-        Lebenswerk und Umfeld selbst angesichts massiver körperlicher Einschränkung nicht
+        SE8w9-Muster: Die Acht mit Neunerflügel gibt die Kontrolle über das eigene
+        Terrain und Umfeld selbst angesichts massiver körperlicher Einschränkung nicht
         leichtfertig auf. Mehr dazu im
-        <a href="javascript:void(0)" data-route="krankheitsportraets-karl-marx">Krankheitsporträt zu Karl Marx</a>.</p>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Krankheitsporträt zu Winston Churchill</a>.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet Bewegung und Sprache?</strong>
-        Für einen sozialen Achter mit Neunerflügel, dessen gesamte Macht auf physischer
+        Für einen selbsterhaltenden Achter mit Neunerflügel, dessen gesamte Macht auf physischer
         Präsenz und der Fähigkeit beruhte, mit bedächtiger, aber wirkungsvoller Rhetorik
         Räume zu füllen, liegt eine Deutung nahe: Ausgerechnet jene beiden Fähigkeiten –
         sich zu bewegen und zu sprechen –, die seine jahrzehntelange politische Wirkung
@@ -1434,17 +1434,17 @@ export function helmutKohlKrankheitsportraetPage() {
         Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
         Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
         <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sozialen Acht zwangsläufig zu einem Sturz mit
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu einem Sturz mit
         dauerhafter Lähmung führt – <strong>jeder Mensch kann jede Krankheit oder
         Verletzung erleiden, unabhängig vom Subtyp.</strong> Was sich an Kohls Fall zeigen
         lässt, ist ein Muster im Umgang mit plötzlichem, massivem Kontrollverlust, das bei
-        einer ausgeprägten sozialen Acht mit Neunerflügel immer wieder auffällt – eine von
+        einer ausgeprägten selbsterhaltenden Acht mit Neunerflügel immer wieder auffällt – eine von
         vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
         diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Kohl kannte sein eigenes Muster nicht – die soziale Acht mit Neunerflügel hält
+        Kohl kannte sein eigenes Muster nicht – die selbsterhaltende Acht mit Neunerflügel hält
         reflexhaft an der Kontrolle über das eigene Umfeld fest, statt die eigene
         Verletzlichkeit je offen zuzulassen, und genau dieses Muster bestimmte, wie sein
         letztes Lebensjahrzehnt organisiert wurde. Wer die eigene Notwendigkeit, die Fäden
@@ -1456,20 +1456,20 @@ export function helmutKohlKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Die soziale Acht mit Neunerflügel erklärt bei <strong>Helmut Kohl</strong> vieles am
+        Die selbsterhaltende Acht mit Neunerflügel erklärt bei <strong>Helmut Kohl</strong> vieles am
         Verlauf seiner letzten Lebensjahre: ein Mann, dessen gesamte Macht auf Präsenz und
         Kontrolle beruhte, verlor beides fast vollständig – und doch blieb, geduldig und
         unsichtbar im Hintergrund organisiert, genau jene Kontrolle über sein unmittelbares
-        Umfeld erhalten, die sein ganzes Leben geprägt hatte. Der Löwe, der nicht mehr
-        brüllen konnte, aber sein Revier bis zuletzt nicht wirklich verließ.</p>
+        Umfeld erhalten, die sein ganzes Leben geprägt hatte. Der Orang-Utan, der nicht mehr
+        auftreten konnte, aber sein Revier bis zuletzt nicht wirklich verließ.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SO8w9) – Kanzler der Einheit"},
-        {route:"krankheitsportraets-karl-marx", label:"Krankheitsporträt: Karl Marx (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
+        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – Kanzler der Einheit"},
+        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9) – dasselbe Muster verborgener Verwundbarkeit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/so8", label:"Subtyp-Profil SO8"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
     </div>
   `);
@@ -1976,7 +1976,6 @@ export function karlMarxKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9) – Lebenswerk"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9)"},
-        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SO8w9) – dasselbe Muster ungebrochener Kontrolle"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so8", label:"Subtyp-Profil SO8"},
       ])}

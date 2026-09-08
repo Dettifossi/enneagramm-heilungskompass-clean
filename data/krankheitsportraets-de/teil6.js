@@ -3384,6 +3384,7 @@ export function winstonChurchillKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – Lebenswerk"},
         {route:"krankheitsportraets-golda-meir", label:"Krankheitsporträt: Golda Meir (SE8w9) – dieselbe Verbergungsstrategie"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SE8w9) – dasselbe Muster verborgener Verwundbarkeit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
