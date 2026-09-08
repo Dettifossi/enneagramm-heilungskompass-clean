@@ -1936,6 +1936,7 @@ export function barneyFishwickPortraitPage() {
           {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5) – ebenfalls stille Filmarbeit, derselbe Subtyp"},
           {route:"beruehmte-sally-rooney", label:"Porträt: Sally Rooney (SE4w5)"},
           {route:"beruehmte-michael-david-rosenberg", label:"Porträt: Michael David Rosenberg / Passenger (SE4w3)"},
+          {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5) – ebenfalls jahrelange technische Präzisionsarbeit, derselbe Subtyp"},
         ])}
       </div>
     </div>

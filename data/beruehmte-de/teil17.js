@@ -1883,3 +1883,67 @@ export function adamSandlerPortraitPage() {
     </div>
   `);
 }
+
+export function neilHarbissonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-neil-harbisson-portrait.jpg" alt="Neil Harbisson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Neil Harbisson</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltungs-Vier mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Künstler, geb. 1982 &ndash; erster offiziell anerkannter Cyborg der Welt &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihre Farbenblindheit in ein Organ verwandelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> trägt ihre Einschränkung nicht als Klage vor sich her – sie arbeitet still daran, bis daraus etwas Eigenes entsteht. Neil Harbisson, 1982 geboren, kam mit vollständiger Achromatopsie zur Welt: einer angeborenen Farbenblindheit, die ihn die Welt ausschließlich in Grautönen sehen ließ. Als Kind erhielt er einmal von Mitschülern absichtlich einen roten statt eines blauen Stifts – er schrieb einen ganzen Aufsatz in der vermeintlich falschen Farbe, ohne es zu bemerken.</p>
+          <p class="vb-intro">Statt sich mit dieser Grenze abzufinden, ließ er sich 2003 gemeinsam mit dem Informatiker Adam Montandon eine Antenne implantieren, die Lichtwellenlängen – auch Infrarot und Ultraviolett – in Vibrationen am Schädelknochen übersetzt, die er als Klang wahrnimmt. Seither hört Harbisson Farben, statt sie zu sehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Kein Mitleid, sondern eine eigene Lösung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Statt das eigene Leiden öffentlich zu inszenieren, wird eine praktische, oft jahrelange Lösung dafür erarbeitet. Harbisson zeigt dieses Muster in reinster Form: Statt über seine Farbenblindheit zu klagen, wollte er sie schon als Kind aktiv überwinden – er begann, Farben mit vertrauten Menschen zu verknüpfen, um sie sich vorstellen zu können, bevor er Jahre später die technische Lösung dafür fand.</p>
+          <p class="vb-intro">Seinen eigenen Blick auf Hautfarben beschrieb er später nüchtern-sachlich statt dramatisierend: „Ich dachte immer, Menschen seien schwarz-weiß. Seit ich Farben höre, habe ich festgestellt, dass das völlig falsch ist. Es gibt keine schwarze Haut. Menschen, die sagen, sie seien schwarz, sind eigentlich sehr, sehr dunkelorange." Eine typische SE4-Bewegung: die eigene Wahrnehmungsgrenze nicht zu beklagen, sondern in eine neue, eigenständige Erkenntnis zu verwandeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Jahrelange technische Präzisionsarbeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine forschende, technisch-präzise Note – die Lösung wird nicht gefühlt, sondern systematisch konstruiert. Der erste Prototyp seines „Eyeborg" bestand aus einer Webcam, einem fünf Kilogramm schweren Computer und Kopfhörern, die jede Farbe in 360 verschiedene Klangwellen übersetzten. Gemeinsam mit Montandon und später dem Ingenieur Peter Kese verfeinerte Harbisson über Jahre ein leichtes Kopfgerät, das Lichtfrequenzen in exakt zugeordnete Tonfrequenzen zwischen 384 und 718 Hertz übersetzt.</p>
+          <p class="vb-intro">2010 gründete er zusätzlich die Cyborg Foundation, die sich systematisch für die Rechte von Menschen mit Körpererweiterungen einsetzt – wieder keine spontane Geste, sondern der Aufbau einer dauerhaften Institution.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Reisepass-Streit zum anerkannten Cyborg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als die britische Passbehörde sich weigerte, die Antenne auf seinem Passfoto zuzulassen, argumentierte Harbisson beharrlich, sie sei kein Accessoire, sondern Teil seines Körpers – und setzte sich durch: Er gilt seither offiziell als weltweit erster anerkannter Cyborg. Aus seiner ursprünglichen Notlösung wurde ein eigenständiges Kunstwerk: Er malt Musik, übersetzt Gesichter in Klangporträts und verwandelt Reden in Farbmuster.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich bei Harbisson in der Fähigkeit, eine tiefe, persönliche Einschränkung nicht zu verdrängen, sondern über Jahre in eine völlig neue Wahrnehmungsform und ein eigenständiges Kunstwerk zu verwandeln – ohne dabei je den eigenen Schmerz zur Schau zu stellen.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich darin, wie sehr die eigene Identität an eine einzelne, hart erarbeitete Lösung geknüpft wird – die Antenne ist für Harbisson nicht länger Werkzeug, sondern erklärter Teil seines Körpers. Der Fünferflügel kann diese Fixierung verstärken, wenn das genaue technische System zum einzigen verlässlichen Halt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die aus der Stille eine neue Sprache baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Neil Harbissons Weg zeigt die Selbsterhaltungs-Vier mit Fünferflügel in einer besonders radikalen Form: eine angeborene Wahrnehmungsgrenze, jahrelang still und technisch präzise bearbeitet, bis daraus ein neues Sinnesorgan und eine eigene Kunstform wurden. Die Taube sieht keine Farben – aber sie hört sie inzwischen genauer, als die meisten Menschen sie je sehen werden.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-barney-fishwick", label:"Porträt: Barney Fishwick (SE4w5) – ebenfalls stille, jahrelange Detailarbeit"},
+          {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
+          {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
