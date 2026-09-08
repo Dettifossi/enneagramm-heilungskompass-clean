@@ -35759,20 +35759,25 @@ function turiyaEnneagrammPage() {
 
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
-    { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
-    { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
-    { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg" },
-    { slug:"energiefeld-haende", titel:"Das Energiefeld zwischen den H\u00e4nden", teaser:"Eine einfache Grund\u00fcbung f\u00fcr mehr K\u00f6rperwahrnehmung und Tiefe \u2013 der energetische Kraftball zwischen den Handfl\u00e4chen.", img:"./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
-    { slug:"bewegung-wasser", titel:"Bewegung im Element Wasser: Achtsame Langsamkeit f\u00fcr den Alltag", teaser:"Der imagin\u00e4re Widerstand des Wassers als Bild f\u00fcr flie\u00dfende, achtsame Bewegung \u2013 inspiriert von Tai Chi.", img:"./assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
-    { slug:"unsichtbarer-magnet", titel:"Der unsichtbare Magnet: Die Erdungs-\u00dcbung", teaser:"Magnete an den Fu\u00dfsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.", img:"./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
-    { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
-    { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
-    { slug:"vitruv-enneagramm", titel:"Die Vitruv-Enneagramm-Bewusstseins\u00fcbung: Der Kreis der Neun", teaser:"Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen K\u00f6rper aktivieren.", img:"./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
-    { slug:"bewusstes-innehalten", titel:"Die Praxis des bewussten Innehaltens: \u203aLet it be\u2039 im Alltag", teaser:"Kein K\u00f6rperritual, sondern reine Wahrnehmung \u2013 kurze, bewusste Stopps mitten im Alltag als Weg zur\u00fcck zur eigenen Essenz.", img:"./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
-    { slug:"zungenstreck-uebung", titel:"Die Zungenstreck-\u00dcbung zur Stressregulation: Von Einstein, Vagusnerv und tierischen Instinkten", teaser:"Das ber\u00fchmte Einstein-Foto als Vorbild \u2013 wie das bewusste Strecken der Zunge \u00fcber den Vagusnerv akute Anspannung l\u00f6st.", img:"./assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
-    { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg" },
-    { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
-    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg" },
+    { slug:"faszienuebungen-rumpfgesundheit", titel:"Faszien\u00fcbungen f\u00fcr die Rumpfgesundheit", teaser:"Vier einfache \u00dcbungen gegen die Folgen des vielen Sitzens \u2013 Dead Bug, Bird-Dog, Katze-Kuh und Kobra.", img:"./assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg", kategorie:"koerper" },
+    { slug:"fussreflexzonen-aktivierung", titel:"Fu\u00dfreflexzonen-Aktivierung: Der Energie-Kick f\u00fcr zwischendurch", teaser:"Mit Igelball, Kork- oder Holzroller in 1\u20132 Minuten pro Fu\u00df Durchblutung und vegetatives Nervensystem anregen.", img:"./assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg", kategorie:"koerper" },
+    { slug:"schwung-routine", titel:"3-teilige Schwung-Routine: Ganzheitliches Faszien- & K\u00f6rpertraining im Stehen", teaser:"Drei einfache Schwung\u00fcbungen im Stehen \u2013 f\u00fcr Beweglichkeit, Faszien und den ganzen K\u00f6rper, \u00fcberall und ohne Ger\u00e4te machbar.", img:"./assets/schaubilder/schwung-routine/schwung-routine.jpg", kategorie:"koerper" },
+    { slug:"bewegung-wasser", titel:"Bewegung im Element Wasser: Achtsame Langsamkeit f\u00fcr den Alltag", teaser:"Der imagin\u00e4re Widerstand des Wassers als Bild f\u00fcr flie\u00dfende, achtsame Bewegung \u2013 inspiriert von Tai Chi.", img:"./assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg", kategorie:"koerper" },
+    { slug:"zungenstreck-uebung", titel:"Die Zungenstreck-\u00dcbung zur Stressregulation: Von Einstein, Vagusnerv und tierischen Instinkten", teaser:"Das ber\u00fchmte Einstein-Foto als Vorbild \u2013 wie das bewusste Strecken der Zunge \u00fcber den Vagusnerv akute Anspannung l\u00f6st.", img:"./assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg", kategorie:"koerper" },
+    { slug:"energiefeld-haende", titel:"Das Energiefeld zwischen den H\u00e4nden", teaser:"Eine einfache Grund\u00fcbung f\u00fcr mehr K\u00f6rperwahrnehmung und Tiefe \u2013 der energetische Kraftball zwischen den Handfl\u00e4chen.", img:"./assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg", kategorie:"atem" },
+    { slug:"unsichtbarer-magnet", titel:"Der unsichtbare Magnet: Die Erdungs-\u00dcbung", teaser:"Magnete an den Fu\u00dfsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.", img:"./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg", kategorie:"atem" },
+    { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
+    { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
+    { slug:"vitruv-enneagramm", titel:"Die Vitruv-Enneagramm-Bewusstseins\u00fcbung: Der Kreis der Neun", teaser:"Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen K\u00f6rper aktivieren.", img:"./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
+    { slug:"bewusstes-innehalten", titel:"Die Praxis des bewussten Innehaltens: \u203aLet it be\u2039 im Alltag", teaser:"Kein K\u00f6rperritual, sondern reine Wahrnehmung \u2013 kurze, bewusste Stopps mitten im Alltag als Weg zur\u00fcck zur eigenen Essenz.", img:"./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
+    { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
+    { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
+    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg", kategorie:"geist" },
+  ];
+  const TIPP_KATEGORIEN = [
+    { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
+    { id:"atem", label:"Atem & Energie", icon:"\ud83c\udf2c\ufe0f" },
+    { id:"geist", label:"Geist & Bewusstsein", icon:"\ud83e\udde0" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35838,16 +35843,27 @@ function praxistippsHeilpraktikerPage() {
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Nutzen Sie diese Praxistipps gerne als wertvolle Begleiter im Alltag \u2013 und wenden Sie sich bei chronischen oder komplexen Themen vertrauensvoll an einen versierten Therapeuten/Hom\u00f6opathen zwecks fundierter hom\u00f6opathischer Konstitutionsbehandlung.</p>
       </div>
 
-      <div class="tool-grid" style="margin-top:1.5rem;">
-        ${TIPPS.map(t => `
-          <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
-            <span>Praxistipp</span>
-            <h2>${t.titel}</h2>
-            <p>${t.teaser}</p>
-            <span class="tool-card__arrow">Ansehen \u2192</span>
-          </button>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.5rem;">
+        ${TIPP_KATEGORIEN.map(k => `
+          <button class="chip-nav-btn" onclick="document.getElementById('pt-${k.id}').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.45rem 1rem;border-radius:20px;background:color-mix(in srgb, var(--copper) 10%, var(--paper));color:var(--copper);font-size:0.85rem;font-weight:600;border:1px solid var(--line);font-family:inherit;">${k.icon} ${k.label} <span style="opacity:.65;font-weight:400;">(${TIPPS.filter(t => t.kategorie === k.id).length})</span></button>
         `).join("")}
       </div>
+
+      ${TIPP_KATEGORIEN.map(k => `
+        <div id="pt-${k.id}" style="margin-top:2.2rem;scroll-margin-top:5.5rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .9rem;color:var(--ink);">${k.icon} ${k.label}</h2>
+          <div class="tool-grid">
+            ${TIPPS.filter(t => t.kategorie === k.id).map(t => `
+              <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
+                <span>Praxistipp</span>
+                <h2>${t.titel}</h2>
+                <p>${t.teaser}</p>
+                <span class="tool-card__arrow">Ansehen \u2192</span>
+              </button>
+            `).join("")}
+          </div>
+        </div>
+      `).join("")}
     </section>
   `);
 }

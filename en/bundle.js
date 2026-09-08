@@ -6816,20 +6816,25 @@ function turiyaEnneagrammPage() {
 
 function praxistippsHeilpraktikerPage() {
   const TIPPS = [
-    { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg" },
-    { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg" },
-    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg" },
-    { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg" },
-    { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg" },
-    { slug:"unsichtbarer-magnet", titel:"The Invisible Magnet: The Grounding Exercise", teaser:"Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.", img:"../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg" },
-    { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg" },
-    { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg" },
-    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg" },
-    { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg" },
-    { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
-    { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg" },
-    { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
-    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg" },
+    { slug:"faszienuebungen-rumpfgesundheit", titel:"Fascia Exercises for Core Health", teaser:"Four simple exercises to counteract the effects of prolonged sitting – Dead Bug, Bird-Dog, Cat-Cow, and Cobra.", img:"../assets/schaubilder/faszienuebungen-rumpfgesundheit/faszienuebungen-rumpfgesundheit.jpg", kategorie:"koerper" },
+    { slug:"fussreflexzonen-aktivierung", titel:"Foot Reflex Zone Activation: The Energy Boost for In Between", teaser:"With a hedgehog ball, cork ball, or wooden roller, boost circulation and the autonomic nervous system in 1–2 minutes per foot.", img:"../assets/schaubilder/fussreflexzonen-aktivierung/igelball.jpg", kategorie:"koerper" },
+    { slug:"schwung-routine", titel:"3-Part Swing Routine: Full-Body Fascia & Movement Training While Standing", teaser:"Three simple standing swing exercises for mobility, fascia, and the whole body – no equipment, doable anywhere.", img:"../assets/schaubilder/schwung-routine/schwung-routine.jpg", kategorie:"koerper" },
+    { slug:"bewegung-wasser", titel:"Movement in the Element of Water: Mindful Slowness for Everyday Life", teaser:"The imagined resistance of water as an image for flowing, mindful movement – inspired by Tai Chi.", img:"../assets/schaubilder/bewegung-wasser/bewegung-wasser.jpg", kategorie:"koerper" },
+    { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg", kategorie:"koerper" },
+    { slug:"energiefeld-haende", titel:"The Energy Field Between the Hands", teaser:"A simple basic exercise for greater body awareness and depth – the energetic power ball between the palms.", img:"../assets/schaubilder/energiefeld-haende/energiefeld-haende.jpg", kategorie:"atem" },
+    { slug:"unsichtbarer-magnet", titel:"The Invisible Magnet: The Grounding Exercise", teaser:"Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.", img:"../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg", kategorie:"atem" },
+    { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
+    { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
+    { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
+    { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
+    { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
+    { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
+    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg", kategorie:"geist" },
+  ];
+  const TIPP_KATEGORIEN = [
+    { id:"koerper", label:"Body & Movement", icon:"🧭" },
+    { id:"atem", label:"Breath & Energy", icon:"🌬️" },
+    { id:"geist", label:"Mind & Awareness", icon:"🧠" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -6895,16 +6900,27 @@ function praxistippsHeilpraktikerPage() {
         <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;">Feel free to use these practical tips as valuable companions in everyday life – and for chronic or complex issues, turn with confidence to a skilled therapist/homeopath for a well-founded homeopathic constitutional treatment.</p>
       </div>
 
-      <div class="tool-grid" style="margin-top:1.5rem;">
-        ${TIPPS.map(t => `
-          <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
-            <span>Practical Tip</span>
-            <h2>${t.titel}</h2>
-            <p>${t.teaser}</p>
-            <span class="tool-card__arrow">View →</span>
-          </button>
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:1.5rem;">
+        ${TIPP_KATEGORIEN.map(k => `
+          <button class="chip-nav-btn" onclick="document.getElementById('pt-${k.id}').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.45rem 1rem;border-radius:20px;background:color-mix(in srgb, var(--copper) 10%, var(--paper));color:var(--copper);font-size:0.85rem;font-weight:600;border:1px solid var(--line);font-family:inherit;">${k.icon} ${k.label} <span style="opacity:.65;font-weight:400;">(${TIPPS.filter(t => t.kategorie === k.id).length})</span></button>
         `).join("")}
       </div>
+
+      ${TIPP_KATEGORIEN.map(k => `
+        <div id="pt-${k.id}" style="margin-top:2.2rem;scroll-margin-top:5.5rem;">
+          <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .9rem;color:var(--ink);">${k.icon} ${k.label}</h2>
+          <div class="tool-grid">
+            ${TIPPS.filter(t => t.kategorie === k.id).map(t => `
+              <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
+                <span>Practical Tip</span>
+                <h2>${t.titel}</h2>
+                <p>${t.teaser}</p>
+                <span class="tool-card__arrow">View →</span>
+              </button>
+            `).join("")}
+          </div>
+        </div>
+      `).join("")}
     </section>
   `);
 }
