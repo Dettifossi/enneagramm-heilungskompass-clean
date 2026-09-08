@@ -364,6 +364,7 @@ export function cristianoRonaldoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so3", label:"SO3 \u2013 Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-kai-pflaume", label:"Portr\u00e4t: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-virgil-van-dijk", label:"Portr\u00e4t: Virgil van Dijk (SO3w2) \u2013 ebenfalls Weltklasse-Fu\u00dfballer, derselbe Subtyp"},
       ])}
     </div>
   `);
@@ -1866,6 +1867,70 @@ export function bastianSchweinsteigerPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
           {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – ebenfalls SO9w1"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+export function virgilVanDijkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-virgil-van-dijk-portrait.jpg" alt="Virgil van Dijk – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Virgil van Dijk</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Fußballprofi, Kapitän von Liverpool FC und der niederländischen Nationalmannschaft, geb. 1991 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der fast nicht mehr aufwachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> beweist seine Stärke erst, wenn die Bedrohung real war. Virgil van Dijk, 1991 in Breda geboren, wurde als junger Spieler von mehreren niederländischen Vereinen wegen körperlicher Zweifel abgelehnt, bevor er über die Jugendakademien von Willem II und FC Groningen den Weg ins Profigeschäft fand. Mit 20 Jahren, noch bei Groningen, erkrankte er nach einem Ligaspiel an einer zunächst verkannten Blinddarmentzündung, die sich zu einer lebensbedrohlichen Bauchfellentzündung mit Nierenversagen auswuchs – er verlor über zwölf Kilogramm, verbrachte fast zwei Wochen im Krankenhaus und unterschrieb während der Behandlung ein Testament.</p>
+          <p class="vb-intro">Sein damaliger Jugendtrainer Dick Lukkien sieht in dieser Erfahrung bis heute den Auslöser für die Mentalität, die van Dijk später zum Champions-League-Sieger und Ballon-d'Or-Kandidaten machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Der teuerste Verteidiger der Welt als Kapitän zweier Nationen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht nach Naranjo Ansehen dort, wo Erfolg öffentlich messbar ist – und kaum ein Bereich im Fußball macht Wert so unmittelbar sichtbar wie ein Transferrekord. 2018 wechselte van Dijk für rund 84,5 Millionen Euro zum FC Liverpool – zu diesem Zeitpunkt die höchste je für einen Verteidiger gezahlte Ablösesumme. Statt sich mit der reinen Ablösesumme zu begnügen, übernahm er 2023 die Kapitänsbinde bei Liverpool und führte die Mannschaft 2024/25 zur 20. englischen Meisterschaft; bereits 2018 war er zum Kapitän der niederländischen Nationalmannschaft ernannt worden, die er 2024 bis ins EM-Halbfinale führte.</p>
+          <p class="vb-intro">Sichtbare Führung ist bei van Dijk kein Nebeneffekt, sondern erklärtes Prinzip: Er beschreibt Körpersprache selbst als „eine der ersten Botschaften, die ein Kapitän auf dem Platz sendet" – Ruhe wird bewusst als Führungsinstrument eingesetzt, nicht zufällig gelebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die Frau, die schon vor dem Ruhm da war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der sozialen Drei eine persönliche, beziehungsorientierte Note – Status wird nicht isoliert verfolgt, sondern eingebettet in enge, verlässliche Bindungen. Van Dijks Ehefrau Rike Nooitgedagt, seine Partnerin bereits aus Jugendtagen in Breda, gab ihre eigene Karriere als Fashion-Sales-Managerin auf, um mit ihm nach Glasgow zu ziehen, als er zu Celtic wechselte – lange bevor Ruhm oder Geld absehbar waren.</p>
+          <p class="vb-intro">Van Dijk selbst beschreibt seine Familie – Rike und die vier gemeinsamen Kinder – als das, was ihm „Balance und Perspektive" gebe, weil „das Leben viel größer ist als Fußball." Auf dem Platz zeigt sich derselbe Zug in seiner ununterbrochenen Kommunikation mit Mitspielern: ständige Anweisungen, Ermutigung, das bewusste Zusammenhalten der Formation – Führung, die sich um andere kümmert, statt nur die eigene Position zu sichern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Beinahe-Ausscheiden zur Weltklasse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von Groningen über Celtic Glasgow bis zum Rekordwechsel zu Liverpool zieht sich eine durchgehende Aufwärtslinie: Champions-League-Sieg 2019, Premier-League-Meisterschaft mit Vereinsrekord von 99 Punkten 2019/20, die Kapitänsbinde bei Klub und Nationalmannschaft. Van Dijk selbst fasst seinen Weg so zusammen: „Meine Mentalität kommt aus dem, was ich über die Jahre erlebt habe. Ich habe für jeden Schritt hart gearbeitet. Ich hatte nie einen leichten Weg dorthin."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 zeigt sich bei van Dijk in einer Führungsqualität, die Status und Fürsorge nicht gegeneinander ausspielt: Der sichtbarste Verteidiger seiner Generation ist zugleich derjenige, der seine Mitspieler durch ständige verbale Unterstützung durch das Spiel trägt. Kritiker wie Ruud Gullit und Marco van Basten warfen ihm zeitweise vor, zu „arrogant" oder „zu entspannt" zu wirken – worauf van Dijk öffentlich reagierte, ohne seine Ruhe zu verlieren.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der Notwendigkeit, Erfolg dauerhaft messbar zu halten – Transferrekord, Trophäensammlung, Kapitänsbinde bei zwei Mannschaften gleichzeitig. Der Zweierflügel mildert das, indem er Erfolg nie losgelöst von den Menschen sucht, die ihn tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Gepard, der die Herde nie aus den Augen verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Virgil van Dijks Weg zeigt die soziale Drei mit Zweierflügel in einer besonders eindrücklichen Form: sichtbarer, messbarer Erfolg auf der größten Bühne des Weltfußballs, getragen von einer Frau, die vor dem Ruhm da war, und einer Führung, die sich nie nur um die eigene Position kümmert. Der Gepard jagt am schnellsten, wenn er weiß, dass das Rudel hinter ihm steht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+          {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2) – ebenfalls Weltklasse-Fußballer, derselbe Subtyp"},
+          {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
+          {route:"beruehmte-will-yun-lee", label:"Porträt: Will Yun Lee (SO3w2)"},
         ])}
       </div>
     </div>
