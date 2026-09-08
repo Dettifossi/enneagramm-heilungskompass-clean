@@ -1846,3 +1846,68 @@ export function stanLaurelPortraitPage() {
     </div>
   `);
 }
+
+export function lennyKravitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lenny-kravitz-portrait.jpg" alt="Lenny Kravitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lenny Kravitz</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1964 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der sein Image von Grund auf entwarf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> tritt nicht zufällig auf – jede Feder sitzt bewusst, jede Farbe ist Ausdruck einer sorgfältig komponierten Wirkung. Lenny Kravitz, 1964 in New York geboren als Sohn des Fernsehproduzenten Sy Kravitz und der Schauspielerin Roxie Roker, erfand sich direkt nach der Highschool als Kunstfigur „Romeo Blue" neu, bevor er sie noch vor seinem Debütalbum ›Let Love Rule‹ (1989) wieder verwarf. Ein bewusstes Formen und Verwerfen der eigenen Bühnenidentität, lange bevor die Musik selbst den endgültigen Erfolg brachte.</p>
+          <p class="vb-intro">Bis heute gilt sein Stil – eklektisch, offbeat, sofort wiedererkennbar – als eigenständiges Statement, das mindestens so viel Aufmerksamkeit erhält wie seine Musik selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus im direkten Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht nach Naranjo nicht abstraktes gesellschaftliches Ansehen, sondern unmittelbare, magnetische Wirkung im direkten Moment der Begegnung. Bei Kravitz zeigt sich das in einer viral gegangenen Trainingsszene: Er hebt Gewichte in Lederhose, durchsichtigem Hemd, Stiefeln und Sonnenbrille – ein Bild, das um die Welt ging. Auf die Frage, warum er so trainiere, antwortete er, er mache das nicht „für den Effekt", sondern komme einfach „von der Straße rein" – ein Satz, der die für die SX3 typische Verschmelzung von Selbstbild und Auftritt offenlegt: Die Grenze zwischen echtem Ich und inszeniertem Image ist für ihn selbst kaum noch zu ziehen.</p>
+          <p class="vb-intro">Auch sein Sound – die Verschmelzung von Rock, Funk, Soul und Psychedelia zu einem unmittelbar wiedererkennbaren Klangbild – funktioniert nach demselben Prinzip: Wirkung im Augenblick, nicht Kategorisierung durch ein Genre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, die über die Trennung hinaus trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sexuellen Drei eine zugewandte, fürsorgliche Note, die über die reine Selbstdarstellung hinausgeht. Nach der Scheidung von Lisa Bonet blieb Kravitz mit ihr eng befreundet – bis heute pflegt er ein herzliches Verhältnis zu ihr und ihrem heutigen Ehemann Jason Momoa sowie zu deren gemeinsamen Kindern. Keine Rivalität, keine Distanzierung, sondern eine fortgesetzte, warme Verbundenheit über die romantische Beziehung hinaus.</p>
+          <p class="vb-intro">Seine Tochter Zoë Kravitz beschrieb ihn mit den Worten: „Ich habe gesehen, wie du für die Menschen da bist, die du liebst. Ich habe deine unglaubliche Hingabe an deine Kunst gesehen." Genau diese Kombination – hingebungsvolle Fürsorge für nahestehende Menschen und gleichzeitig kompromisslose Hingabe an die eigene künstlerische Selbstdarstellung – ist die charakteristische Mischung aus SX3-Wirkungswillen und Zweierflügel-Wärme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Alter Ego zum Grammy-Serientäter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1999 bis 2002 gewann Kravitz vier Grammys in Folge für die beste männliche Rock-Gesangsleistung – eine damals beispiellose Serie. Hits wie ›Are You Gonna Go My Way‹ (1993), ›Fly Away‹ (1998) und sein Cover von ›American Woman‹ (1999) machten ihn zu einem der prägendsten Rockmusiker seiner Generation, der sich nie auf ein einzelnes Genre festlegen ließ.</p>
+          <p class="vb-intro">Parallel baute er mit Kravitz Design Inc. ein zweites Standbein auf – Hotelprojekte, Privatresidenzen und Kooperationen mit Marken wie Rolex, Leica und Dom Pérignon –, ein Beleg dafür, wie konsequent er sein ästhetisches Gespür über die Musik hinaus zur eigenen Marke ausbaute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 zeigt sich bei Kravitz in einer seltenen Verbindung: Selbstinszenierung, die nie kalt oder berechnend wirkt, weil sie mit echter, über Jahrzehnte bewiesener Zuwendung zu den Menschen verbunden ist, die ihm wichtig sind.</p>
+          <p class="vb-intro">Der Schatten der Drei liegt in der Verwischung der Grenze zwischen authentischem Selbst und bewusst gepflegtem Image – selbst im privaten Fitnessstudio bleibt die Rockstar-Ästhetik bestehen, und die Beteuerung, das geschehe nicht „für den Effekt", lässt gerade offen, wie sehr Bild und Person längst miteinander verschmolzen sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Musiker, der sich selbst zum Kunstwerk machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lenny Kravitz' Weg zeigt die sexuelle Drei mit Zweierflügel in einer besonders stilprägenden Form: ein Leben lang bewusst gestaltetes Image, das sich nie von echter Wärme gegenüber geliebten Menschen trennen ließ. Der Pfau zeigt sein Gefieder nicht aus Eitelkeit allein – er zeigt es, weil Auftritt und Zuneigung für ihn zwei Seiten derselben Bewegung sind.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+          {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+          {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+          {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

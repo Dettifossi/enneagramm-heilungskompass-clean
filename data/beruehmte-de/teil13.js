@@ -190,6 +190,7 @@ export function bradPittPortraitPage() {
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2) – langjährige Partnerin, sechs gemeinsame Kinder"},
         {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
         {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
+        {route:"beruehmte-lenny-kravitz", label:"Porträt: Lenny Kravitz (SX3w2)"},
       ])}
     </div>
   `);
