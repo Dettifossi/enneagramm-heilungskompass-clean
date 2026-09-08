@@ -27070,7 +27070,7 @@ function neilHarbissonPortraitPage() {
 
         <h2 class="vb-section">3. The Five Wing: Years of Technical Precision Work</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five Wing</strong> gives the Self-Preservation Four an exploratory, technically precise note – the solution is not felt, but systematically engineered. The first prototype of his "eyeborg" consisted of a webcam, a five-kilogram computer, and headphones that translated each color into 360 different sound waves. Together with Montandon and later engineer Peter Kese, Harbisson spent years refining a lightweight head-mounted device that translates light frequencies into precisely assigned tone frequencies between 384 and 718 hertz.</p>
+          <p class="vb-intro">The <strong>Five Wing</strong> gives the Self-Preservation Four an exploratory, technically precise note – the solution is not felt, but systematically engineered. The first prototype of his "eyeborg" consisted of a webcam, a five-kilogram computer, and headphones that translated each color into 360 different sound waves. Together with Montandon and later engineer Peter Kese, Harbisson spent years refining that very heavy computer into a lightweight head-mounted device that translates light frequencies into precisely assigned tone frequencies between 384 and 718 hertz.</p>
           <p class="vb-intro">In 2010 he also co-founded the Cyborg Foundation, which systematically advocates for the rights of people with body extensions – again no spontaneous gesture, but the building of a lasting institution.</p>
         </blockquote>
 

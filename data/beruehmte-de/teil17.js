@@ -1913,7 +1913,7 @@ export function neilHarbissonPortraitPage() {
 
         <h2 class="vb-section">3. Der Fünferflügel: Jahrelange technische Präzisionsarbeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine forschende, technisch-präzise Note – die Lösung wird nicht gefühlt, sondern systematisch konstruiert. Der erste Prototyp seines „Eyeborg" bestand aus einer Webcam, einem fünf Kilogramm schweren Computer und Kopfhörern, die jede Farbe in 360 verschiedene Klangwellen übersetzten. Gemeinsam mit Montandon und später dem Ingenieur Peter Kese verfeinerte Harbisson über Jahre ein leichtes Kopfgerät, das Lichtfrequenzen in exakt zugeordnete Tonfrequenzen zwischen 384 und 718 Hertz übersetzt.</p>
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> verleiht der Selbsterhaltungs-Vier eine forschende, technisch-präzise Note – die Lösung wird nicht gefühlt, sondern systematisch konstruiert. Der erste Prototyp seines „Eyeborg" bestand aus einer Webcam, einem fünf Kilogramm schweren Computer und Kopfhörern, die jede Farbe in 360 verschiedene Klangwellen übersetzten. Gemeinsam mit Montandon und später dem Ingenieur Peter Kese verfeinerte Harbisson über Jahre genau diesen schweren Computer zu einem leichten Kopfgerät, das Lichtfrequenzen in exakt zugeordnete Tonfrequenzen zwischen 384 und 718 Hertz übersetzt.</p>
           <p class="vb-intro">2010 gründete er zusätzlich die Cyborg Foundation, die sich systematisch für die Rechte von Menschen mit Körpererweiterungen einsetzt – wieder keine spontane Geste, sondern der Aufbau einer dauerhaften Institution.</p>
         </blockquote>
 
