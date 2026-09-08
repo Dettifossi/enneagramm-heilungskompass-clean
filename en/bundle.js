@@ -6698,8 +6698,8 @@ function ichIllusionPage() {
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical steps toward getting closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
             <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt – Burnout")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}</div>
             <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 types, 9 core wounds, 9 soul scents – essential oils as an entry point to the depths of character.", "Die Enneagramm-Aromatherapie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, connected with the biochemical mineral salts according to Dr. Schüßler – accessible for lay readers as well.", "Enneagramm-Biochemie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types connected with the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}</div>
@@ -6793,8 +6793,8 @@ function turiyaEnneagrammPage() {
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we actually are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
             <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the way back to yourself.", "Wenn die Stille brennt – Burnout")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-intelligence as an audiobook – ideal for on the go or meditative listening.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-intelligence as an audiobook – ideal for on the go or meditative listening.", "Meta-Intelligenz (Hörbuch)")}</div>
             <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 types, 9 primal wounds, 9 soul scents – essential oils as an access point to the depth level of character.", "Die Enneagramm-Aromatherapie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "The nine regulation patterns of the Enneagram, linked to the biochemical mineral salts according to Dr. Schüßler – easy to follow even for laypeople.", "Enneagramm-Biochemie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "The nine Enneagram types linked to the Bach flowers according to Dr. Edward Bach – passion and wound flowers from therapeutic practice.", "Enneagramm-Bachblüten-Therapie")}</div>
@@ -16635,8 +16635,8 @@ function wahreFreiheitPage() {
             <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Metaintelligenz (audiobook)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Meta-Intelligenz (audiobook)")}</div>
           </div>
         </details>
       </div>
@@ -17059,8 +17059,8 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("heilung-als-erinnerung", "Healing as remembrance of what we fundamentally are – beyond symptom and diagnosis.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "The passions of the nine types and their healing – a core work of the Rathmer Enneagram.", "Leidenschaft und Heilung")}
-      ${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagram Albums"},{route:"stille",label:"9 Minutes of Silence"},{route:"musik",label:"Relaxation and Healing Music"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
@@ -99934,7 +99934,7 @@ function davidRathmerFuehrungMitFundamentPage() {
 
       ${bookTip("fuehrung-mit-fundament", "632 pages of depth psychology for leaders: the nine leadership types, their blind spots, and the path to mature, effective leadership.", "Führung mit Fundament")}
       ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
         <p style="margin:0;font-size:0.92rem;color:var(--ink);"><strong>David L. Rathmer</strong> has made the Enneagram for leaders and organizations his life's focus &ndash; as co-author of this book and as the developer of Enneagram Profiling. More on this, including interviews with companies like Digistore24, on his site <a href="https://www.enneascholars.de" target="_blank" rel="noopener">enneascholars.de</a>.</p>
@@ -103669,7 +103669,7 @@ function kommunikationsguidePage() {
         ${bookTip("das-seminar-wenn-masken-fallen", "When the type-specific masks fall – a path to genuine self-encounter.", "Das Seminar – Wenn Masken fallen")}
         ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram &ndash; burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt &ndash; Burnout")}
         ${bookTip("meta-intelligenz", "How to learn to observe one's own thoughts – gaining a new degree of inner freedom and clarity.", "Meta-Intelligenz")}
-        ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for on the go or for meditative listening.", "Metaintelligenz (Hörbuch)")}
+        ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening.", "Meta-Intelligenz (Hörbuch)")}
       </div>
 
       ${relatedLinks([
@@ -115993,8 +115993,8 @@ function stillePage() {
             <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book on the deepest stillness within us and the experience of transcendence beyond all concepts.", "Sei still und wisse – ich bin Gott!")}</div>
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we truly are – a profound look at health and wholeness.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Seven practical paths that help you come closer to yourself – no detours, no sugarcoating, direct and clear.", "7 Wege zu Dir selbst")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Metaintelligenz (audiobook)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for listening on the go or for meditative listening.", "Meta-Intelligenz (audiobook)")}</div>
           </div>
         </details>
       </div>

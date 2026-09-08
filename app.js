@@ -35641,8 +35641,8 @@ function ichIllusionPage() {
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
             <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz (Hörbuch)")}</div>
             <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
@@ -35736,8 +35736,8 @@ function turiyaEnneagrammPage() {
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
             <div style="margin-top:.8rem;">${bookTip("wenn-die-stille-brennt", "Wenn innere Erschöpfung auf das Enneagramm trifft – Burnout, Grenzverlust und der Weg zurück zu sich selbst.", "Wenn die Stille brennt – Burnout")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Metaintelligenz (Hörbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören.", "Meta-Intelligenz (Hörbuch)")}</div>
             <div style="margin-top:.8rem;">${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-biochemie", "Die neun Regulationsmuster des Enneagramms, verbunden mit den biochemischen Mineralsalzen nach Dr. Schüßler – auch für Laien gut verständlich.", "Enneagramm-Biochemie")}</div>
             <div style="margin-top:.8rem;">${bookTip("enneagramm-bachblueten-therapie", "Die neun Enneagrammtypen verbunden mit den Bachblüten nach Dr. Edward Bach – Leidenschafts- und Wunden-Blüten aus der therapeutischen Praxis.", "Enneagramm-Bachblüten-Therapie")}</div>
@@ -35772,7 +35772,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"zungenstreck-uebung", titel:"Die Zungenstreck-\u00dcbung zur Stressregulation: Von Einstein, Vagusnerv und tierischen Instinkten", teaser:"Das ber\u00fchmte Einstein-Foto als Vorbild \u2013 wie das bewusste Strecken der Zunge \u00fcber den Vagusnerv akute Anspannung l\u00f6st.", img:"./assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
     { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg" },
     { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
-    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Metaintelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg" },
+    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -36563,7 +36563,7 @@ function metaintelligenzAchtsamkeitPage() {
     <section class="narrow">
       <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
       <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
-      <h1 class="h1--tip">Metaintelligenz: Achtsamkeit im Moment</h1>
+      <h1 class="h1--tip">Meta-Intelligenz: Achtsamkeit im Moment</h1>
       <p class="lead-small">Die wichtigste Fähigkeit des menschlichen Geistes in vier einfachen Schritten – den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1rem;">
@@ -36573,7 +36573,7 @@ function metaintelligenzAchtsamkeitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <p class="vb-intro">Die Fähigkeit, den eigenen Geist zu beobachten, kann das Leben deutlich verändern. Ich nenne diese Fähigkeit Metaintelligenz – die Intelligenz, die über allen anderen Intelligenzen steht, weil sie erst erkennt, was im eigenen Bewusstsein überhaupt geschieht, bevor man reflexhaft darauf reagiert. Sie lässt sich in vier einfachen Schritten üben, und genau diese vier Schritte stehen im Zentrum dieses Praxistipps.</p>
+        <p class="vb-intro">Die Fähigkeit, den eigenen Geist zu beobachten, kann das Leben deutlich verändern. Ich nenne diese Fähigkeit Meta-Intelligenz – die Intelligenz, die über allen anderen Intelligenzen steht, weil sie erst erkennt, was im eigenen Bewusstsein überhaupt geschieht, bevor man reflexhaft darauf reagiert. Sie lässt sich in vier einfachen Schritten üben, und genau diese vier Schritte stehen im Zentrum dieses Praxistipps.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
@@ -36603,7 +36603,7 @@ function metaintelligenzAchtsamkeitPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Warum diese Fähigkeit die wichtigste des menschlichen Geistes ist</h2>
         <p class="vb-intro">Viele bekannte Lehrer der Gegenwart sprechen über Präsenz, Gewahrsein und das Beobachten der eigenen Gedanken – auch Namen wie Eckhart Tolle oder Rupert Spira. Was sie über ihre eigenen Erweckungserlebnisse berichten, ist dabei fachlich meist völlig zutreffend beschrieben. Was in diesen Lehren jedoch häufig offenbleibt, ist die konkrete, schrittweise Anleitung: Wie genau beobachtet man den eigenen Geist eigentlich, Schritt für Schritt, ganz praktisch, sodass es jeder sofort nachvollziehen und anwenden kann? Genau diese Lücke schließt die hier beschriebene Vier-Schritte-Übung.</p>
         <p class="vb-intro" style="margin-top:1rem;">Diese Lücke kenne ich auch aus eigener Erfahrung als Heilpraktiker, der sich selbst über Jahrzehnte intensiv mit dieser Materie beschäftigt hat: Ein inspirierender Vortrag oder ein bewegendes Video fühlen sich in dem Moment, in dem man sie hört, oft wunderbar erhellend an – doch kurz danach ist der Alltag wieder da, und die Frage bleibt offen, wie sich das Gehörte konkret in den eigenen Tagesablauf integrieren lässt. Genau wie das Gitarrespielen lässt sich auch diese Fähigkeit üben und erlernen – nur ist der eigentliche Vollzug des Bemerkens dabei völlig mühelos. Diese Mühelosigkeit darf jedoch nicht mit Bequemlichkeit verwechselt werden: Geübt und regelmäßig wiederholt werden muss es trotzdem, denn es verlangt eine bewusste Investition von Aufmerksamkeit. Konkret bedeutet das: eine gewisse Qualität des Im-Moment-Seins, um im ewigen Jetzt den eigenen Gedanken überhaupt erst wahrzunehmen – ohne diese Aufmerksamkeit lässt sich der Gedanke schlicht nicht bemerken, und die Wirkung entfaltet sich nicht von selbst.</p>
-        <p class="vb-intro" style="margin-top:1rem;">Ich nenne diese Beobachtungsfähigkeit deshalb Metaintelligenz, weil sie über allen anderen Formen von Intelligenz steht: Sie entscheidet nicht über die richtige Lösung eines Problems, sondern darüber, ob man überhaupt bemerkt, in welchem Gedanken, welcher Emotion, welchem inneren Automatismus man gerade gefangen ist – bevor man reflexhaft daraus heraus handelt. Wer diese Fähigkeit trainiert, gewinnt einen winzigen, aber entscheidenden Raum der Freiheit zwischen dem aufsteigenden Gedanken und der automatischen Reaktion darauf.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Ich nenne diese Beobachtungsfähigkeit deshalb Meta-Intelligenz, weil sie über allen anderen Formen von Intelligenz steht: Sie entscheidet nicht über die richtige Lösung eines Problems, sondern darüber, ob man überhaupt bemerkt, in welchem Gedanken, welcher Emotion, welchem inneren Automatismus man gerade gefangen ist – bevor man reflexhaft daraus heraus handelt. Wer diese Fähigkeit trainiert, gewinnt einen winzigen, aber entscheidenden Raum der Freiheit zwischen dem aufsteigenden Gedanken und der automatischen Reaktion darauf.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
@@ -36613,13 +36613,13 @@ function metaintelligenzAchtsamkeitPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Eine Beobachtung aus über dreißig Jahren therapeutischer Praxis</h2>
         <p class="vb-intro">Als Heilpraktiker mit über dreißig Jahren Erfahrung mit Klienten und Patienten habe ich diese Fähigkeit zur Selbstbeobachtung immer wieder als den entscheidenden Wendepunkt erlebt: Sobald ein Mensch beginnt, den eigenen Gedankenstrom auch nur wenige Minuten am Tag bewusst zu beobachten, verändert sich meist auch der Umgang mit der eigenen Enneagramm-Fixierung und den daraus entstehenden emotionalen und körperlichen Mustern. Das Bemerken selbst wirkt bereits regulierend, lange bevor irgendeine bewusste Veränderung angestrebt wird.</p>
-        <p class="vb-intro" style="margin-top:1rem;">Ausführlicher beschrieben und um weitere Übungen und Hintergründe ergänzt findet sich dieses Prinzip in meinem Buch „Metaintelligenz" sowie im gleichnamigen Hörbuch.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Ausführlicher beschrieben und um weitere Übungen und Hintergründe ergänzt findet sich dieses Prinzip in meinem Buch „Meta-Intelligenz" sowie im gleichnamigen Hörbuch.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
-        ${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}
-        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören, mit der hier beschriebenen Übung ausführlich vertieft.", "Metaintelligenz (Hörbuch)")}</div>
+        ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
+        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören, mit der hier beschriebenen Übung ausführlich vertieft.", "Meta-Intelligenz (Hörbuch)")}</div>
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
@@ -41721,8 +41721,8 @@ function wahreFreiheitPage() {
             <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch \u00fcber die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse \u2013 ich bin Gott!")}</div>
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst n\u00e4herzukommen \u2013 ohne Umwege, ohne Sch\u00f6nrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Meta-Intelligenz (H\u00f6rbuch)")}</div>
           </div>
         </details>
       </div>
@@ -42145,8 +42145,8 @@ const SPIRITUELL_TRACKS = {
       ${bookTip("heilung-als-erinnerung", "Heilung als Erinnerung an das, was wir im Grunde sind \u2013 jenseits von Symptom und Diagnose.", "Heilung als Erinnerung")}
       ${bookTip("hinter-der-leidenschaft", "Hinter der Leidenschaft die tieferen Wunden \u2013 der Weg zur Verwandlung des Enneagrammtyps.", "Hinter der Leidenschaft \u2013 die neun Wunden")}
       ${bookTip("leidenschaft-und-heilung", "Die Leidenschaften der neun Typen und ihre Heilung \u2013 ein Kernwerk des Rathmer-Enneagramms.", "Leidenschaft und Heilung")}
-      ${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}
-      ${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}
+      ${bookTip("meta-intelligenz", "Meta-Intelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Meta-Intelligenz")}
+      ${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Meta-Intelligenz (H\u00f6rbuch)")}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz-Alben"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagramm-Alben"},{route:"stille",label:"9 Minuten Stille"},{route:"musik",label:"Entspannungs- und Heilungsmusik"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
 
@@ -73386,8 +73386,8 @@ function stillePage() {
             <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch \u00fcber die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse \u2013 ich bin Gott!")}</div>
             <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind \u2013 ein tiefgr\u00fcndiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
             <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst n\u00e4herzukommen \u2013 ohne Umwege, ohne Sch\u00f6nrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Metaintelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Metaintelligenz")}</div>
-            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Metaintelligenz (H\u00f6rbuch)")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Meta-Intelligenz \u2013 die Intelligenz, die alle anderen Intelligenzen verb\u00fcndet und das volle Potenzial des Bewusstseins erschlie\u00dft.", "Meta-Intelligenz")}</div>
+            <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als H\u00f6rbuch \u2013 ideal f\u00fcr unterwegs oder zum meditativen Zuh\u00f6ren.", "Meta-Intelligenz (H\u00f6rbuch)")}</div>
           </div>
         </details>
       </div>

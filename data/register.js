@@ -53,7 +53,7 @@ export const registerEntries = [
   { term: "Der Atem-Wasserfall", route: "praxistipps-heilpraktiker/atem-wasserfall", description: "Energetische Reinigungsübung mit Atem und Bewegung für den Feierabend" },
   { term: "Die Vitruv-Enneagramm-Bewusstseinsübung", route: "praxistipps-heilpraktiker/vitruv-enneagramm", description: "Der Kreis der Neun: Vitruvianischer Mensch und die 9 Punkte des Enneagramms im Körper" },
   { term: "Die Praxis des bewussten Innehaltens", route: "praxistipps-heilpraktiker/bewusstes-innehalten", description: "›Let it be‹ im Alltag: reine Wahrnehmung als Übung zurück zur eigenen Essenz" },
-  { term: "Metaintelligenz: Achtsamkeit im Moment", route: "praxistipps-heilpraktiker/metaintelligenz-achtsamkeit-im-moment", description: "Vier-Schritte-Übung: jeden Gedanken beobachten, ohne ihn zu analysieren, widersprechen oder beurteilen" },
+  { term: "Meta-Intelligenz: Achtsamkeit im Moment", route: "praxistipps-heilpraktiker/metaintelligenz-achtsamkeit-im-moment", description: "Vier-Schritte-Übung: jeden Gedanken beobachten, ohne ihn zu analysieren, widersprechen oder beurteilen" },
   { term: "Die Zungenstreck-Übung zur Stressregulation", route: "praxistipps-heilpraktiker/zungenstreck-uebung", description: "Von Einstein, Vagusnerv und tierischen Instinkten: Zungenstrecken zur akuten Stressregulation" },
   { term: "Wer lenkt hier eigentlich wen?", route: "praxistipps-heilpraktiker/ich-illusion", description: "Der sanfte Ausweg aus der Ich-Illusion: Konditionierung, Enneagramm-Fixierung und innerer Frieden" },
   { term: "Der Beobachter hinter dem Muster", route: "praxistipps-heilpraktiker/turiya-enneagramm", description: "Enneagramm und der Turiya-Zustand nach Ramana Maharshi: die neun Typen als neun Wege aus der Stille" },
