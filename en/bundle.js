@@ -2261,6 +2261,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Boris Grundl – Self-Preservation Type 8",
     teaser:"SE8w9 · b. 1962. Entrepreneur, speaker, bestselling author (\"Consequent\"). Paralyzed from the neck down after a diving accident in 1984, built a second career as a leadership coach from it. The orangutan who lost its branch – and built a new foothold from its own strength.",
     land:"Germany", tags:["Business","Coaching"], gender:"m"},
+{ route:"beruehmte-ellen-moons", name:"Ellen Moons", added:"2026-09-08", subtyp:"SE8w9",
+    heading:"Ellen Moons – Self-Preservation Type 8",
+    teaser:"SE8w9 · b. 1966. Belgian-Swedish physicist, since 2026 the first woman to serve as Secretary General of the Royal Swedish Academy of Sciences. Without a fixed career plan, moved via Israel, Switzerland, the Netherlands and the UK to Sweden – and stayed there for a quarter century.",
+    land:"Belgium/Sweden", tags:["Science","Physics"], gender:"f"},
 { route:"beruehmte-paul-gauguin", name:"Paul Gauguin", added:"2026-08-29", subtyp:"SX8w7",
     heading:"Paul Gauguin – Sexual Type 8",
     teaser:"SX8w7 · 1848–1903. French painter. Left career, wife, and five children for art at 36, conflict with Van Gogh in Arles 1888, restless departures via Panama, Martinique to Tahiti and the Marquesas, open resistance against colonial administration until his death. Animal correspondence: Crocodile.",
@@ -28462,6 +28466,70 @@ function helmutKohlPortraitPage() {
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
+      ])}
+    </div>
+  `);
+}
+
+function ellenMoonsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ellen-moons-portrait.jpg" alt="Ellen Moons – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Ellen Moons</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">Physicist, Secretary General of the Royal Swedish Academy of Sciences, b. 1966 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan Who Found Her Own Territory Without a Plan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> does not plan its route through the forest in advance &ndash; it follows what currently holds its weight and stays where it finds firm footing. Ellen Moons, born in Flanders in 1966, herself emphasizes that she never followed a strictly planned career path. A scholarship she discovered by chance took her to the Weizmann Institute in Israel in 1990, originally planned for a few months &ndash; it became a five-year doctorate on thin-film photovoltaics, years she herself describes as not always easy.</p>
+          <p class="vb-intro">This readiness to settle wherever real substance appeared, rather than following a predetermined plan, ran through her entire career: from Lausanne through Delft and Cambridge to Karlstad, where she arrived in 2000 &ndash; and stayed, for a quarter century.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Uncompromising Commitment to Her Own Research Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in an abstract stage but in the consistent securing of its own, closest sphere of influence. In Moons this shows in the decades-long, persistent leadership of her own research group, SOLA, at Karlstad University, where she has been a full professor of materials physics since 2011, pursuing molecular self-assembly in thin films &ndash; a highly specialized, self-built territory she developed unwaveringly over many years.</p>
+          <p class="vb-intro">The same territorial consistency shows in her current role as Secretary General of the Royal Swedish Academy of Sciences, which she has held since 2026 as the first woman in the institution's nearly three-hundred-year history: a central concern for her there is what she herself calls an "uncompromising" commitment to academic freedom and research freedom worldwide &ndash; the defense of a territory that reaches far beyond her own lab, but is defended with the same unwavering consistency.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Curiosity Instead of a Need for Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> softens the territorial ambition of the Eight in Moons into a remarkably calm, curiosity-driven disposition. Rather than strategically planning stations and successes, she let herself, by her own account, be guided by curiosity and adapted to new environments instead of forcing them: from Belgian physics through the Weizmann Institute, several European postdoc stations, all the way to the Swedish university landscape.</p>
+          <p class="vb-intro">Her time chairing the Nobel Committee for Physics in 2024 and her current 80/20 split between leading the Academy in Stockholm and her own research in Karlstad show the same sobriety: no loud self-promotion, but the quiet assumption of responsibility once it presents itself as the logical next step.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Thin-Film Research to the Top of the Academy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Moons' scientific core lies in organic and hybrid electronics: she studies how molecules self-assemble in thin films for polymer solar cells and light-emitting diodes, and how &ndash; using highly precise microscopy and infrared methods &ndash; the stability of these long short-lived materials can be improved. In 2011 she received the Göran Gustafsson Prize, and in 2018 she was elected to the Royal Swedish Academy of Sciences as the first representative of Karlstad University ever.</p>
+          <p class="vb-intro">From the Nobel Committee for Physics (from 2022) to the office of Secretary General (from 2026), her path within the Academy did not run as a sudden leap but as a consistent, step-by-step-built foundation of trust &ndash; the same patient territorial work that had already shaped her scientific career before.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this combination shows in Moons' rare ability to combine uncompromising steadfastness &ndash; for instance in her commitment to research freedom &ndash; with genuine adaptability and curiosity, rather than playing the two against each other.</p>
+          <p class="vb-intro">The shadow of the combination lies in the fact that the readiness to "grind through" five hard years of doctoral work, rather than seeking another path early on, can also become a trap: the territorial steadfastness of the Eight can sit out self-doubt rather than address it openly &ndash; a strength that, in excess, becomes quiet self-overexertion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Branch She Stayed On Until It Held</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ellen Moons' path shows the self-preservation Eight with a Nine-wing in its most constructive form: no predetermined career, but a sequence of deliberate decisions to stay wherever real substance was to be found &ndash; until, a quarter century later, this became the first woman at the top of one of the world's oldest scientific academies. The orangutan chose its branch not by plan, but by load-bearing capacity &ndash; and left it only once a sturdier one was within reach.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype"},
+        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SE8w9) – also the same subtype"},
       ])}
     </div>
   `);
@@ -58322,7 +58390,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Ryke Geerd Hamer", "Boris Grundl", "The Centurion at the Cross"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Ryke Geerd Hamer", "Boris Grundl", "Ellen Moons", "The Centurion at the Cross"],
     fingerabdruecke: [
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
@@ -58332,7 +58400,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Patient, systematic building of one's own territory over decades",
         beschreibung: "Position or influence do not arise from a single spectacular step, but through persistent, often unassuming construction, level by level, over a very long period.",
-        beleg: "Indra Nooyi, who arrived in the US with 'little more than 500 dollars in her pocket' and 28 years later led one of the world's largest food corporations: 'The systematic, patient building of a territory, level by level, until no one doubted anymore who sat on top'; Dr. Biruté Galdikas, whose decades of fieldwork made her the world's leading orangutan expert – the same principle mirrored in her own research work; Dr. Umberto Eco, who amassed over 30,000 books as a thinking instrument – not a single step, but a personal territory of knowledge grown over decades."
+        beleg: "Indra Nooyi, who arrived in the US with 'little more than 500 dollars in her pocket' and 28 years later led one of the world's largest food corporations: 'The systematic, patient building of a territory, level by level, until no one doubted anymore who sat on top'; Dr. Biruté Galdikas, whose decades of fieldwork made her the world's leading orangutan expert – the same principle mirrored in her own research work; Dr. Umberto Eco, who amassed over 30,000 books as a thinking instrument – not a single step, but a personal territory of knowledge grown over decades; Ellen Moons, who moved through several countries and research stations without a fixed career plan, settled in Karlstad in 2000 and stayed there for a quarter century, until it made her the first woman at the top of the Royal Swedish Academy of Sciences."
       },
       {
         titel: "Unshakable steadfastness under extreme pressure",
@@ -119446,6 +119514,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-ryke-geerd-hamer": rykeGeerdHamerPortraitPage,
       "beruehmte-boris-grundl": borisGrundlPortraitPage,
+      "beruehmte-ellen-moons": ellenMoonsPortraitPage,
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,

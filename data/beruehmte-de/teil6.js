@@ -1904,3 +1904,67 @@ export function oliverHardyPortraitPage() {
     </div>
   `);
 }
+
+export function ellenMoonsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ellen-moons-portrait.jpg" alt="Ellen Moons – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Ellen Moons</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Physikerin, Generalsekretärin der Königlich Schwedischen Akademie der Wissenschaften, geb. 1966 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan, der ohne Karriereplan sein eigenes Terrain fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> plant seinen Weg durch den Wald nicht im Voraus – er folgt dem, was gerade trägt, und bleibt dort, wo er festen Halt findet. Ellen Moons, 1966 in Flandern geboren, betont selbst, nie einen streng durchgeplanten Karriereweg verfolgt zu haben. Ein zufällig entdecktes Stipendium führte sie 1990 ans Weizmann-Institut in Israel, eigentlich für wenige Monate geplant – daraus wurden fünf Jahre Promotion über Dünnschicht-Photovoltaik, Jahre, die sie selbst als nicht immer leicht beschreibt.</p>
+          <p class="vb-intro">Diese Bereitschaft, sich dort niederzulassen, wo sich echte Substanz zeigte, statt einem vorgefertigten Plan zu folgen, zog sich durch ihre gesamte Laufbahn: von Lausanne über Delft und Cambridge bis nach Karlstad, wo sie 2000 ankam – und blieb, ein Vierteljahrhundert lang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Acht: Kompromissloser Einsatz für das eigene Forschungsterrain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> investiert ihre Kraft nach Naranjo nicht in eine abstrakte Bühne, sondern in die konsequente Sicherung des eigenen, engsten Wirkungsbereichs. Bei Moons zeigt sich das in der jahrzehntelangen, beharrlichen Führung ihrer eigenen Forschungsgruppe SOLA an der Universität Karlstad, wo sie seit 2011 als ordentliche Professorin für Materialphysik der molekularen Selbstorganisation in Dünnfilmen nachgeht – ein hochspezialisiertes, selbst aufgebautes Terrain, das sie über viele Jahre unbeirrt weiterentwickelte.</p>
+          <p class="vb-intro">Dieselbe territoriale Konsequenz zeigt sich in ihrem heutigen Amt als Generalsekretärin der Königlich Schwedischen Akademie der Wissenschaften, das sie seit 2026 als erste Frau in der fast dreihundertjährigen Geschichte der Institution innehat: Ein zentrales Anliegen ist ihr dort der, wie sie es selbst nennt, „kompromisslose" Einsatz für akademische Freiheit und weltweite Forschungsfreiheit – die Verteidigung eines Terrains, das über das eigene Labor hinausreicht, aber mit derselben unbeirrten Konsequenz verteidigt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Neugier statt Kontrollzwang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> mildert bei Moons den territorialen Ehrgeiz der Acht zu einer bemerkenswert gelassenen, neugiergetriebenen Grundhaltung. Statt Stationen und Erfolge strategisch zu planen, ließ sie sich – nach eigener Aussage – von ihrer Neugier leiten und passte sich neuen Umgebungen an, statt sie zu erzwingen: von der belgischen Physik über das Weizmann-Institut, mehrere europäische Postdoc-Stationen bis zur schwedischen Universitätslandschaft.</p>
+          <p class="vb-intro">Auch ihre Zeit als Vorsitzende des Nobelkomitees für Physik 2024 und ihre heutige 80/20-Aufteilung zwischen Akademieleitung in Stockholm und eigener Forschung in Karlstad zeigen dieselbe Nüchternheit: keine lautstarke Selbstinszenierung, sondern die stille Übernahme von Verantwortung, sobald sie sich als folgerichtiger nächster Schritt zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Dünnschichtforschung zur Spitze der Akademie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Moons' wissenschaftlicher Kern liegt in der organischen und hybriden Elektronik: Sie erforscht, wie sich Moleküle in Dünnfilmen für Polymer-Solarzellen und Leuchtdioden selbst organisieren, und wie sich – mit hochpräzisen Mikroskopie- und Infrarotmethoden – die Stabilität dieser lange als kurzlebig geltenden Materialien verbessern lässt. 2011 wurde sie mit dem Göran-Gustafsson-Preis ausgezeichnet, 2018 als erste Vertreterin der Universität Karlstad in die Königlich Schwedische Akademie der Wissenschaften gewählt.</p>
+          <p class="vb-intro">Vom Nobelkomitee für Physik (ab 2022) bis zum Amt der Generalsekretärin (ab 2026) verlief ihr Weg innerhalb der Akademie nicht als sprunghafter Aufstieg, sondern als konsequente, Schritt für Schritt errichtete Vertrauensbasis – dieselbe geduldige Territorialarbeit, die zuvor schon ihre wissenschaftliche Laufbahn geprägt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Kombination zeigt sich bei Moons in der seltenen Fähigkeit, kompromisslose Standhaftigkeit – etwa im Einsatz für Forschungsfreiheit – mit echter Anpassungsfähigkeit und Neugier zu verbinden, statt beides gegeneinander auszuspielen.</p>
+          <p class="vb-intro">Der Schatten der Kombination liegt darin, dass die Bereitschaft, sich fünf harte Promotionsjahre lang „durchzubeißen", statt frühzeitig einen anderen Weg zu suchen, auch zur Falle werden kann: Die territoriale Standfestigkeit der Acht kann Selbstzweifel eher aussitzen als offen ansprechen – eine Stärke, die im Übermaß zur stillen Selbstüberforderung wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Ast, auf dem sie blieb, bis er trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ellen Moons' Weg zeigt die selbsterhaltende Acht mit Neunerflügel in ihrer konstruktivsten Form: keine vorgezeichnete Laufbahn, sondern eine Abfolge bewusster Entscheidungen, dort zu bleiben, wo echte Substanz zu finden war – bis daraus, ein Vierteljahrhundert später, die erste Frau an der Spitze einer der ältesten Wissenschaftsakademien der Welt wurde. Der Orang-Utan wählte seinen Ast nicht nach Plan, sondern nach Tragfähigkeit – und verließ ihn erst, wenn ein tragfähigerer in Reichweite war.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp"},
+          {route:"beruehmte-boris-grundl", label:"Porträt: Boris Grundl (SE8w9) – ebenfalls derselbe Subtyp"},
+        ])}
+      </div>
+    </div>
+  `);
+}
