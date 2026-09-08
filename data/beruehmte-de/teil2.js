@@ -1874,3 +1874,67 @@ export function wallaceShawnPortraitPage() {
     </div>
   `);
 }
+
+export function michaelDavidRosenbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-david-rosenberg-portrait.jpg" alt="Michael David Rosenberg (Passenger) \u2013 Portr\u00e4t" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael David Rosenberg (Passenger)</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltungs-Vier mit Dreierfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Musiker und Songwriter, geb. 1984 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die sechs Jahre lang auf der Stra\u00dfe sang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> tr\u00e4gt ihr Leiden nach innen und arbeitet trotzdem weiter, still, ausdauernd, ohne viel Aufhebens. Michael David Rosenberg, 1984 in Brighton geboren, verlie\u00df mit 16 Jahren die Schule, um Musik zu machen. Als sich seine erste Band 2009 aufl\u00f6ste, stand er ohne Bandkollegen, ohne Wohnung und ohne klaren Plan da \u2013 und begann, auf den Stra\u00dfen Englands und Australiens zu busken.</p>
+          <p class="vb-intro">Was folgte, waren Jahre voller kleiner, oft leerer Pub-Konzerte und endloser Stra\u00dfenauftritte, bevor der Durchbruch kam: \u201eLet Her Go", 2012 in nur 45 Minuten in einer Garderobe in Australien geschrieben, wurde in 16 L\u00e4ndern zur Nummer eins und erreichte \u00fcber vier Milliarden Aufrufe auf YouTube.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Das stille Ausharren statt des lauten Dramas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Gegentyp der Vier: Statt das eigene Leiden sichtbar zu inszenieren, wird es stoisch ertragen \u2013 Ausdauer statt Drama, Arbeit statt Klage. Rosenberg beschrieb die sechs Jahre bis zum \u201e\u00dcberraschungserfolg" selbst n\u00fcchtern als einen langen, m\u00fchsamen Weg aus hunderten Kneipenkonzerten und unz\u00e4hligen Stunden auf der Stra\u00dfe, nicht als romantische Geschichte vom pl\u00f6tzlichen Gl\u00fcck.</p>
+          <p class="vb-intro">Bezeichnend ist sein eigener Satz \u00fcber diese Zeit: \u201eIch dachte immer, wenn ich das h\u00e4tte, was ich jetzt habe, w\u00fcrde ich nie wieder klagen." Kein Selbstmitleid, sondern die n\u00fcchterne Bilanz eines Menschen, der lange durchhielt, ohne die eigene Not zur Schau zu stellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Vom Stra\u00dfenmusiker zum Weltstar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierfl\u00fcgel</strong> verleiht der Selbsterhaltungs-Vier einen zielgerichteten Ehrgeiz, der \u00fcber reines Durchhalten hinausgeht. Rosenbergs jahrelange Beharrlichkeit war nie blo\u00dfes Aushalten \u2013 sie war zugleich zielstrebige Arbeit an der eigenen Karriere: hunderte Auftritte, st\u00e4ndiges Songwriting, das bewusste Ausprobieren verschiedener L\u00e4nder und B\u00fchnen, bis der richtige Moment kam.</p>
+          <p class="vb-intro">Als der Erfolg schlie\u00dflich eintrat, verwandelte er ihn konsequent in eine internationale Karriere mit Chartplatzierungen in aller Welt \u2013 die Dreier-F\u00e4higkeit, eine Gelegenheit zu erkennen und sie zu nutzen, verbunden mit der Vier-typischen Tiefe seiner Songtexte \u00fcber Verlust, Einsamkeit und Sehnsucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von leeren Pubs zu vier Milliarden Klicks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Durchbruch mit \u201eAll the Little Lights" (2012) blieb Rosenberg ungew\u00f6hnlich produktiv \u2013 zahlreiche Alben folgten, darunter \u201eSongs for the Drunk and Broken Hearted" (2020), dessen Erl\u00f6se er bewusst mit Organisationen zur Bek\u00e4mpfung von Obdachlosigkeit teilte. Seine eigene Stra\u00dfenmusiker-Vergangenheit machte ihn hellh\u00f6rig f\u00fcr das Schicksal von Obdachlosen, denen er beim Busken regelm\u00e4\u00dfig begegnet war \u2013 \u201eBusking hat mir die Augen f\u00fcr die Art von Leben ge\u00f6ffnet, die sie f\u00fchren", sagte er dazu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Dreierfl\u00fcgel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich bei Rosenberg in der F\u00e4higkeit, aus jahrelangem, unspektakul\u00e4rem Ausharren echten k\u00fcnstlerischen und kommerziellen Erfolg zu formen \u2013 ohne dabei die eigene Empfindsamkeit oder den Bezug zu Menschen am Rand der Gesellschaft zu verlieren.</p>
+          <p class="vb-intro">Der Schatten der Vier zeigt sich in der Neigung, das eigene Leiden \u00fcber Jahre stillschweigend zu ertragen, statt fr\u00fchzeitig Unterst\u00fctzung zu suchen \u2013 bezeichnend, dass er selbst r\u00fcckblickend erst mit Abstand offen \u00fcber die harten Jahre sprach. Der Dreierfl\u00fcgel kann diese Tendenz versch\u00e4rfen, wenn Erfolg zum einzigen Ma\u00dfstab wird, an dem das eigene Durchhalten gemessen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Taube, die weitersang, auch als niemand zuh\u00f6rte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael David Rosenbergs Weg zeigt die Selbsterhaltungs-Vier mit Dreierfl\u00fcgel in einer besonders eindr\u00fccklichen Form: sechs Jahre stilles, zielstrebiges Durchhalten auf der Stra\u00dfe, bevor die Welt zuh\u00f6rte \u2013 und die Weigerung, das eigene Leiden dabei je zur B\u00fchne zu machen. Die Taube tr\u00e4gt ihre Last, bis sie am Ziel ist, und singt dabei leise weiter.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+          {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+          {route:"beruehmte-tim-bendzko", label:"Portr\u00e4t: Tim Bendzko (SE4w3) \u2013 ebenfalls Musiker, derselbe Subtyp"},
+          {route:"beruehmte-adele", label:"Portr\u00e4t: Adele (SE4w3)"},
+          {route:"beruehmte-nicolas-cage", label:"Portr\u00e4t: Nicolas Cage (SE4w3)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

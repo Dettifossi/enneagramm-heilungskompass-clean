@@ -1411,6 +1411,7 @@ export function timBendzkoPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
         {route:"beruehmte-lady-diana", label:"Portr\u00e4t: Lady Diana (SE4w3)"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portr\u00e4t: Michael David Rosenberg / Passenger (SE4w3) \u2013 ebenfalls Musiker, derselbe Subtyp"},
       ])}
     </div>
   `);
