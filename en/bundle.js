@@ -6200,6 +6200,7 @@ function oilsPage() {
           ${aetherischeOele.map(oilCard).join("")}
         </div>
         <p class="remedy-note">Apply mindfully and diluted (e.g. as a room scent, in a carrier oil or via inhalation). Not a substitute for medical or therapeutic support.</p>
+        <p class="remedy-note" style="margin-top:.6rem;">Looking for the practical application: <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/atemritual-aetherische-oele" style="color:var(--copper);text-decoration:underline;">The Breathing Ritual with Essential Oils</a> – a concrete exercise for using each of these nine scents deliberately for self-regulation.</p>
         ${bookTip("die-enneagramm-aromatherapie", "9 types, 9 core wounds, 9 soul scents &ndash; essential oils as an entry point to the depths of character.", "Die Enneagramm-Aromatherapie")}
       </article>
     </section>
@@ -6861,6 +6862,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"unsichtbarer-magnet", titel:"The Invisible Magnet: The Grounding Exercise", teaser:"Imagined magnets at the soles of the feet to establish grounding and mental calm within seconds.", img:"../assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg", kategorie:"atem" },
     { slug:"herz-tor-oeffnen", titel:"Opening the Heart Gate: Sensing Openness and Connection", teaser:"A breath-and-movement exercise that opens the chest and creates a sense of inner spaciousness.", img:"../assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
     { slug:"atem-wasserfall", titel:"The Breath Waterfall: Energetic Cleansing and Clarity", teaser:"A gentle energetic shower of breath and movement, perfect for the evening.", img:"../assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
+    { slug:"atemritual-aetherische-oele", titel:"The Breathing Ritual with Essential Oils", teaser:"Why a conscious breath with the right scent works almost instantly – and which of the nine Enneagram scents matches your own type.", img:"../assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg", kategorie:"atem" },
     { slug:"vitruv-enneagramm", titel:"The Vitruvian-Enneagram Awareness Exercise: The Circle of Nine", teaser:"Activate the geometric harmony of the Vitruvian Man and the Enneagram's 9 points in your own body.", img:"../assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
     { slug:"bewusstes-innehalten", titel:"The Practice of Conscious Pausing: ›Let It Be‹ in Everyday Life", teaser:"No physical ritual, but pure awareness – short, conscious pauses in the middle of everyday life as a path back to one's own essence.", img:"../assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
@@ -6897,6 +6899,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "atem-wasserfall") {
     return atemWasserfallPage();
+  }
+  if (param === "atemritual-aetherische-oele") {
+    return atemritualAetherischeOelePage();
   }
   if (param === "vitruv-enneagramm") {
     return vitruvEnneagrammPage();
@@ -7231,6 +7236,7 @@ function energiefeldHaendePage() {
         {route:"knowledge", label:"Knowledge Base: Two-Point Method per Subtype"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-Part Swing Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Fascia Exercises for Core Health"},
+        {route:"praxistipps-heilpraktiker/atemritual-aetherische-oele", label:"The Breathing Ritual with Essential Oils"},
         {route:"situationskompass", label:"Situation Compass"},
         {route:"practice", label:"Tools"},
       ])}
@@ -7741,6 +7747,63 @@ function metaintelligenzAchtsamkeitPage() {
   `);
 }
 
+function atemritualAetherischeOelePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Breathing Ritual with Essential Oils</h1>
+      <p class="lead-small">Why a single conscious breath with the right scent works faster than almost any other form of calming – and how to find the matching scent for each of the nine Enneagram types.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg"
+             alt="A person sits cross-legged with closed eyes, breathing in a scent from cupped hands, with a bottle of essential oil and a bundle of lavender in front of them"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Of all the senses, smell is the only one that reaches the limbic system directly, without a detour through the thalamus – the part of the brain responsible for emotion, memory, and immediate stress regulation. An image or a sound is processed before it is emotionally evaluated; a scent already has an effect while the olfactory brain doesn't yet "know" what it is dealing with. This immediacy is exactly what makes essential oils one of the fastest self-regulation tools available.</p>
+        <p class="vb-intro" style="margin-top:1rem;">The breathing ritual described here uses precisely this short path – and combines it with a second, equally powerful reflex: the conscious, slowed exhale, which activates the parasympathetic nervous system via the vagus nerve.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Exercise in Four Steps</h2>
+        <p class="vb-intro"><strong>Step one – choose your scent:</strong> Put one or two drops of the essential oil matching your Enneagram type (overview below) onto a tissue, a scent stone, or directly into your cupped hands.</p>
+        <p class="vb-intro"><strong>Step two – the first breath:</strong> Hold your hands or the tissue loosely in front of your nose and mouth, close your eyes, and inhale deeply through the nose – slowly, until the scent is noticeable throughout the whole head.</p>
+        <p class="vb-intro"><strong>Step three – the extended exhale:</strong> Exhale through the slightly opened mouth for twice as long as you inhaled (e.g. 4 seconds in, 8 seconds out). Consciously notice what the scent triggers in the body, without answering that question in thought.</p>
+        <p class="vb-intro"><strong>Step four – repeat three times:</strong> Repeat the entire cycle three to five times. Then open your eyes and take a moment to notice how you feel before continuing with your day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practical Tip:</strong> The exercise needs no special setting – it works at a desk, in the car before setting off, or on the edge of the bed before sleep. What matters is not the duration but the repetition: over time, the scent alone will start to bring the body into a calmer state on its own – a classic, quickly learned form of conditioning.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">The Nine Scents at a Glance</h2>
+        <p class="vb-intro">Every Enneagram type carries its own core wound – and each of the oils suggested here was deliberately chosen as a counterpoint to that very wound. If you know your own type, simply pick the matching scent; if you're unsure, feel free to try whichever scent appeals to you most in the moment. All nine scents are described in more depth on the <a href="javascript:void(0)" data-route="oils" style="color:var(--copper);text-decoration:underline;">Essential Oils</a> page, which is also the source of the overview below.</p>
+      </div>
+
+      <div class="oil-grid" style="margin-top:1rem;">
+        ${aetherischeOele.map(oilCard).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendation</h2>
+        ${bookTip("die-enneagramm-aromatherapie", "9 types, 9 core wounds, 9 soul scents &ndash; essential oils as an entry point to the depths of character.", "Die Enneagramm-Aromatherapie")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"oils", label:"Essential Oils: All Nine Scents in Detail"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"praxistipps-heilpraktiker/zungenstreck-uebung", label:"The Tongue-Stretch Exercise for Stress Regulation"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
 function zungenstreckUebungPage() {
   return shell(`
     ${pageHeader("praxistipps-heilpraktiker")}
@@ -7854,6 +7917,7 @@ function zungenstreckUebungPage() {
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet: The Grounding Exercise"},
         {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Opening the Heart Gate"},
+        {route:"praxistipps-heilpraktiker/atemritual-aetherische-oele", label:"The Breathing Ritual with Essential Oils"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
         {route:"practice", label:"Tools"},
       ])}

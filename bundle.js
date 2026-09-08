@@ -35362,6 +35362,7 @@ function oilsPage() {
           ${aetherischeOele.map(oilCard).join("")}
         </div>
         <p class="remedy-note">${copy.note}</p>
+        <p class="remedy-note" style="margin-top:.6rem;">Wer die praktische Anwendung sucht: <a href="javascript:void(0)" data-route="praxistipps-heilpraktiker/atemritual-aetherische-oele" style="color:var(--copper);text-decoration:underline;">Das Atemritual mit \u00e4therischen \u00d6len</a> \u2013 eine konkrete \u00dcbung, um jeden dieser neun D\u00fcfte gezielt f\u00fcr die eigene Regulation zu nutzen.</p>
         ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelend\u00fcfte \u2013 \u00e4therische \u00d6le als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}
       </article>
     </section>
@@ -35804,6 +35805,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"unsichtbarer-magnet", titel:"Der unsichtbare Magnet: Die Erdungs-\u00dcbung", teaser:"Magnete an den Fu\u00dfsohlen als Bild, um in Sekunden Erdung und mentale Ruhe herzustellen.", img:"./assets/schaubilder/unsichtbarer-magnet/unsichtbarer-magnet.jpg", kategorie:"atem" },
     { slug:"herz-tor-oeffnen", titel:"Das Herz-Tor \u00f6ffnen: Weite und Verbindung sp\u00fcren", teaser:"Eine Atem-Bewegungs-\u00dcbung, die den Brustraum \u00f6ffnet und f\u00fcr innere Weite sorgt.", img:"./assets/schaubilder/herz-tor-oeffnen/herz-tor-oeffnen.jpg", kategorie:"atem" },
     { slug:"atem-wasserfall", titel:"Der Atem-Wasserfall: Energetische Reinigung und Klarheit", teaser:"Eine sanfte, energetische Dusche aus Atem und Bewegung f\u00fcr den Feierabend.", img:"./assets/schaubilder/atem-wasserfall/atem-wasserfall.jpg", kategorie:"atem" },
+    { slug:"atemritual-aetherische-oele", titel:"Das Atemritual mit \u00e4therischen \u00d6len", teaser:"Warum ein bewusster Atemzug mit dem richtigen Duft blitzschnell wirkt \u2013 und welcher der neun Enneagrammd\u00fcfte zum eigenen Typ passt.", img:"./assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg", kategorie:"atem" },
     { slug:"vitruv-enneagramm", titel:"Die Vitruv-Enneagramm-Bewusstseins\u00fcbung: Der Kreis der Neun", teaser:"Geometrische Harmonie des Vitruvianischen Menschen und die 9 Punkte des Enneagramms im eigenen K\u00f6rper aktivieren.", img:"./assets/schaubilder/vitruv-enneagramm/kreis-der-neun.jpg", kategorie:"geist" },
     { slug:"bewusstes-innehalten", titel:"Die Praxis des bewussten Innehaltens: \u203aLet it be\u2039 im Alltag", teaser:"Kein K\u00f6rperritual, sondern reine Wahrnehmung \u2013 kurze, bewusste Stopps mitten im Alltag als Weg zur\u00fcck zur eigenen Essenz.", img:"./assets/schaubilder/bewusstes-innehalten/bewusstes-innehalten.jpg", kategorie:"geist" },
     { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
@@ -35840,6 +35842,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "atem-wasserfall") {
     return atemWasserfallPage();
+  }
+  if (param === "atemritual-aetherische-oele") {
+    return atemritualAetherischeOelePage();
   }
   if (param === "vitruv-enneagramm") {
     return vitruvEnneagrammPage();
@@ -36174,6 +36179,7 @@ function energiefeldHaendePage() {
         {route:"knowledge", label:"Wissensbasis: Zwei-Punkt-Methode je Subtyp"},
         {route:"praxistipps-heilpraktiker/schwung-routine", label:"3-teilige Schwung-Routine"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
+        {route:"praxistipps-heilpraktiker/atemritual-aetherische-oele", label:"Das Atemritual mit ätherischen Ölen"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
@@ -36686,6 +36692,63 @@ function metaintelligenzAchtsamkeitPage() {
   `);
 }
 
+function atemritualAetherischeOelePage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Das Atemritual mit ätherischen Ölen</h1>
+      <p class="lead-small">Warum ein einziger bewusster Atemzug mit dem richtigen Duft schneller wirkt als jede andere Form der Beruhigung – und wie sich für jeden der neun Enneagrammtypen der passende Duft findet.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/atemritual-aetherische-oele/atemritual-aetherische-oele.jpg"
+             alt="Eine Person sitzt im Schneidersitz und atmet mit geschlossenen Augen den Duft aus den zur Schale geformten Händen ein, davor ein Fläschchen ätherisches Öl und ein Lavendelbund"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Von allen Sinnen ist der Geruchssinn der einzige, der ohne Umweg über den Thalamus direkt ins limbische System gelangt – jenen Teil des Gehirns, der für Emotion, Erinnerung und die unmittelbare Stressregulation zuständig ist. Ein Bild oder ein Geräusch wird erst verarbeitet, bevor es emotional bewertet wird; ein Duft wirkt bereits, während das Riechhirn noch gar nicht weiß, worum es sich handelt. Genau diese Unmittelbarkeit macht ätherische Öle zu einem der schnellsten Werkzeuge der Selbstregulation, die es gibt.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Das Atemritual, das hier beschrieben wird, nutzt genau diesen kurzen Weg – und verbindet ihn mit einem zweiten, ebenso wirksamen Reflex: der bewussten, verlangsamten Ausatmung, die über den Vagusnerv den Parasympathikus aktiviert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die Übung in vier Schritten</h2>
+        <p class="vb-intro"><strong>Schritt eins – den eigenen Duft wählen:</strong> Ein bis zwei Tropfen des ätherischen Öls, das zum eigenen Enneagrammtyp passt (Übersicht unten), auf ein Taschentuch, einen Duftstein oder direkt in die Handflächen geben.</p>
+        <p class="vb-intro"><strong>Schritt zwei – der erste Atemzug:</strong> Die Handflächen oder das Tuch locker vor Mund und Nase halten, die Augen schließen, durch die Nase tief einatmen – langsam, bis der Duft im ganzen Kopf spürbar ist.</p>
+        <p class="vb-intro"><strong>Schritt drei – die verlängerte Ausatmung:</strong> Durch den leicht geöffneten Mund doppelt so lange ausatmen wie eingeatmet wurde (z. B. 4 Sekunden ein, 8 Sekunden aus). Dabei bewusst der Frage nachspüren, was der Duft im Körper auslöst, ohne sie gedanklich zu beantworten.</p>
+        <p class="vb-intro"><strong>Schritt vier – dreimal wiederholen:</strong> Den ganzen Zyklus drei- bis fünfmal wiederholen. Danach die Augen öffnen und einen Moment nachspüren, bevor der Alltag weitergeht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Die Übung braucht keine besondere Umgebung – sie funktioniert am Schreibtisch, im Auto vor der Weiterfahrt oder auf der Bettkante vor dem Einschlafen. Entscheidend ist nicht die Dauer, sondern dass der Duft immer wieder mit genau dieser einen Übung verknüpft wird: Mit der Zeit reicht dann schon der Duft allein, um den Körper in den ruhigeren Zustand zu versetzen – eine klassische, sehr schnell erlernte Konditionierung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Die neun Düfte im Überblick</h2>
+        <p class="vb-intro">Jeder Enneagrammtyp trägt eine eigene Urwunde in sich – und jedes hier vorgeschlagene Öl wurde gezielt danach ausgewählt, genau dieser Wunde einen Gegenpol zu bieten. Wer den eigenen Typ kennt, wählt direkt den passenden Duft; wer unsicher ist, darf auch einfach ausprobieren, welcher Duft im Moment am meisten anspricht. Ausführlicher beschrieben sind alle neun Düfte auf der Seite <a href="javascript:void(0)" data-route="oils" style="color:var(--copper);text-decoration:underline;">Ätherische Öle</a>, aus der die folgende Übersicht stammt.</p>
+      </div>
+
+      <div class="oil-grid" style="margin-top:1rem;">
+        ${aetherischeOele.map(oilCard).join("")}
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipp</h2>
+        ${bookTip("die-enneagramm-aromatherapie", "9 Typen, 9 Urwunden, 9 Seelendüfte – ätherische Öle als Zugang zur Tiefenebene des Charakters.", "Die Enneagramm-Aromatherapie")}
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"oils", label:"Ätherische Öle: Alle neun Düfte im Detail"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"praxistipps-heilpraktiker/zungenstreck-uebung", label:"Die Zungenstreck-Übung zur Stressregulation"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
 function zungenstreckUebungPage() {
   return shell(`
     ${pageHeader("praxistipps-heilpraktiker")}
@@ -36799,6 +36862,7 @@ function zungenstreckUebungPage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet: Die Erdungs-Übung"},
         {route:"praxistipps-heilpraktiker/herz-tor-oeffnen", label:"Das Herz-Tor öffnen"},
+        {route:"praxistipps-heilpraktiker/atemritual-aetherische-oele", label:"Das Atemritual mit ätherischen Ölen"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
         {route:"practice", label:"Werkzeuge"},
       ])}
