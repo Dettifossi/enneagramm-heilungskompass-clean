@@ -35772,6 +35772,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"zungenstreck-uebung", titel:"Die Zungenstreck-\u00dcbung zur Stressregulation: Von Einstein, Vagusnerv und tierischen Instinkten", teaser:"Das ber\u00fchmte Einstein-Foto als Vorbild \u2013 wie das bewusste Strecken der Zunge \u00fcber den Vagusnerv akute Anspannung l\u00f6st.", img:"./assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
     { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg" },
     { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
+    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Metaintelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -35813,6 +35814,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "turiya-enneagramm") {
     return turiyaEnneagrammPage();
+  }
+  if (param === "metaintelligenz-achtsamkeit-im-moment") {
+    return metaintelligenzAchtsamkeitPage();
   }
 
   return shell(`
@@ -36546,6 +36550,82 @@ function bewusstesInnehaltenPage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Die Vitruv-Enneagramm-Bewusstseinsübung"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function metaintelligenzAchtsamkeitPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Metaintelligenz: Achtsamkeit im Moment</h1>
+      <p class="lead-small">Die wichtigste Fähigkeit des menschlichen Geistes in vier einfachen Schritten – den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg"
+             alt="Vierstufiges Schaubild zur Achtsamkeit im Moment: Sitzen mit offenen Augen, auf den nächsten Alltagsgedanken warten, den Gedanken bemerken und er hört auf, fertig wenn man es nur bemerkt"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Die Fähigkeit, den eigenen Geist zu beobachten, kann das Leben deutlich verändern. Ich nenne diese Fähigkeit Metaintelligenz – die Intelligenz, die über allen anderen Intelligenzen steht, weil sie erst erkennt, was im eigenen Bewusstsein überhaupt geschieht, bevor man reflexhaft darauf reagiert. Sie lässt sich in vier einfachen Schritten üben, und genau diese vier Schritte stehen im Zentrum dieses Praxistipps.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die vier Schritte der Grundübung</h2>
+        <p class="vb-intro"><strong>Schritt eins:</strong> Mit offenen Augen sitzen, aufrecht und entspannt, der Blick ruht weich auf einem Punkt vor sich.</p>
+        <p class="vb-intro"><strong>Schritt zwei:</strong> Auf den nächsten ganz gewöhnlichen Alltagsgedanken warten – ohne ihn herbeizuzwingen, ohne ihn zu erwarten. Er kommt von selbst, wie er es ohnehin ständig tut.</p>
+        <p class="vb-intro"><strong>Schritt drei:</strong> Den Gedanken in dem Moment bemerken, in dem er auftaucht. Genau dieses Bemerken lässt ihn bereits verstummen – der Gedanke hört auf, sobald er gesehen wird.</p>
+        <p class="vb-intro"><strong>Schritt vier:</strong> Fertig. Mehr ist nicht zu tun. Allein das Bemerken ist die vollständige Übung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Jeder Gedanke zählt – nicht nur die schweren</h2>
+        <p class="vb-intro">Ein weit verbreitetes Missverständnis: Achtsamkeit wird oft nur auf belastende oder schwierige Gedanken bezogen – auf Sorgen, Ängste, Grübeleien. Doch in dieser Übung gilt das Prinzip uneingeschränkt für jeden einzigen Gedanken, der im Bewusstsein auftaucht. Auch der beiläufigste, banalste Gedanke gehört genauso beobachtet: <em>„Ich glaub, ich muss gleich noch die Wäsche rausholen"</em> oder <em>„Ich koch mir jetzt mal einen Kaffee"</em>. Alles, wirklich alles, was im Bewusstsein aufsteigt, wird bemerkt – ohne Auswahl, ohne Wertung, ohne Sortierung in wichtig und unwichtig.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Gerade diese Konsequenz macht die Übung so wirksam: Sie trainiert nicht das Bewältigen bestimmter belastender Inhalte, sondern die Fähigkeit selbst – das reine Beobachten von Denken als solchem, unabhängig davon, worum es gerade geht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Die drei Fallen: Was diese Übung ausdrücklich nicht ist</h2>
+        <p class="vb-intro">Sobald ein Gedanke bemerkt wird, will der Verstand fast automatisch weitermachen – und genau hier liegen die drei häufigsten Fallen, die die Übung unbewusst zunichtemachen:</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Den Gedanken analysieren:</strong> Nicht der Frage nachgehen, warum dieser Gedanke gerade jetzt kommt, was er bedeutet oder woher er stammt. Jede Analyse ist bereits ein neuer Gedanke, kein Beobachten mehr.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Dem Gedanken widersprechen:</strong> Nicht innerlich dagegenhalten, ihn korrigieren oder eine positivere Version an seine Stelle setzen wollen. Auch der Widerspruch bleibt Denken, nicht Beobachten.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Den Gedanken beurteilen:</strong> Nicht bewerten, ob er gut oder schlecht, sinnvoll oder überflüssig ist. Jede Bewertung zieht bereits die nächste Gedankenkette nach sich.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Reines Bemerken bedeutet: sehen, dass da ein Gedanke ist – und ihn genau dadurch, ohne jedes weitere Zutun, verschwinden lassen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Warum diese Fähigkeit die wichtigste des menschlichen Geistes ist</h2>
+        <p class="vb-intro">Viele bekannte Lehrer der Gegenwart sprechen über Präsenz, Gewahrsein und das Beobachten der eigenen Gedanken – auch Namen wie Eckhart Tolle oder Rupert Spira. Was in diesen Lehren jedoch häufig offenbleibt, ist die konkrete, schrittweise Anleitung: Wie genau geht das eigentlich, Schritt für Schritt, ganz praktisch, sodass es jeder sofort nachvollziehen und anwenden kann? Genau diese Lücke schließt die hier beschriebene Vier-Schritte-Übung.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Ich nenne diese Beobachtungsfähigkeit deshalb Metaintelligenz, weil sie über allen anderen Formen von Intelligenz steht: Sie entscheidet nicht über die richtige Lösung eines Problems, sondern darüber, ob man überhaupt bemerkt, in welchem Gedanken, welcher Emotion, welchem inneren Automatismus man gerade gefangen ist – bevor man reflexhaft daraus heraus handelt. Wer diese Fähigkeit trainiert, gewinnt einen winzigen, aber entscheidenden Raum der Freiheit zwischen dem aufsteigenden Gedanken und der automatischen Reaktion darauf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Die Übung lässt sich jederzeit im Alltag einstreuen – auf einem Stuhl, in der Bahn, im Wartezimmer. Wichtig ist nicht die Dauer, sondern die Wiederholung: Lieber mehrmals täglich für wenige Minuten üben als selten und lange. Mit der Zeit wird das Bemerken selbst zur Gewohnheit und beginnt, auch außerhalb der bewusst eingeplanten Übungsmomente von selbst einzusetzen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Eine Beobachtung aus über dreißig Jahren therapeutischer Praxis</h2>
+        <p class="vb-intro">Als Heilpraktiker mit über dreißig Jahren Erfahrung mit Klienten und Patienten habe ich diese Fähigkeit zur Selbstbeobachtung immer wieder als den entscheidenden Wendepunkt erlebt: Sobald ein Mensch beginnt, den eigenen Gedankenstrom auch nur wenige Minuten am Tag bewusst zu beobachten, verändert sich meist auch der Umgang mit der eigenen Enneagramm-Fixierung und den daraus entstehenden emotionalen und körperlichen Mustern. Das Bemerken selbst wirkt bereits regulierend, lange bevor irgendeine bewusste Veränderung angestrebt wird.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Ausführlicher beschrieben und um weitere Übungen und Hintergründe ergänzt findet sich dieses Prinzip in meinem Buch „Metaintelligenz" sowie im gleichnamigen Hörbuch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
+        ${bookTip("meta-intelligenz", "Metaintelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Metaintelligenz")}
+        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Metaintelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören, mit der hier beschriebenen Übung ausführlich vertieft.", "Metaintelligenz (Hörbuch)")}</div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"Die Praxis des bewussten Innehaltens"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Der sanfte Ausweg aus der Ich-Illusion"},
         {route:"stille", label:"9 Minuten Stille sitzen"},
         {route:"practice", label:"Werkzeuge"},
       ])}

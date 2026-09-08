@@ -6829,6 +6829,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"zungenstreck-uebung", titel:"The Tongue-Stretch Exercise for Stress Regulation: Einstein, the Vagus Nerve, and Animal Instincts", teaser:"The famous Einstein photo as a model – how consciously stretching the tongue releases acute tension via the vagus nerve.", img:"../assets/schaubilder/zungenstreck-uebung/zungenstreck-uebung.jpg" },
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg" },
     { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg" },
+    { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg" },
   ];
 
   const param = state.route.split("/")[1] || null;
@@ -6867,6 +6868,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "turiya-enneagramm") {
     return turiyaEnneagrammPage();
+  }
+  if (param === "metaintelligenz-achtsamkeit-im-moment") {
+    return metaintelligenzAchtsamkeitPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();
@@ -7601,6 +7605,82 @@ function bewusstesInnehaltenPage() {
         {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"The Vitruvian-Enneagram Awareness Exercise"},
+        {route:"stille", label:"9 Minutes of Silence"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function metaintelligenzAchtsamkeitPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">Meta-Intelligence: Mindfulness in the Moment</h1>
+      <p class="lead-small">The most important ability of the human mind in four simple steps – observing the thought that just arose, instead of merging with it.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg"
+             alt="Four-step diagram on mindfulness in the moment: sit with your eyes open, wait for the next everyday thought, notice the thought and it stops, done once you simply notice"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The ability to observe one's own mind can change life significantly. I call this ability meta-intelligence – the intelligence that stands above all other intelligences, because it is what first recognizes what is actually happening in one's own consciousness, before one reacts to it reflexively. It can be practiced in four simple steps, and those four steps are the center of this practical tip.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. The Four Steps of the Basic Exercise</h2>
+        <p class="vb-intro"><strong>Step one:</strong> Sit with the eyes open, upright and relaxed, the gaze resting softly on a point ahead.</p>
+        <p class="vb-intro"><strong>Step two:</strong> Wait for the next perfectly ordinary everyday thought – without forcing it, without expecting it. It arrives on its own, as it constantly does anyway.</p>
+        <p class="vb-intro"><strong>Step three:</strong> Notice the thought the moment it arises. That noticing alone already brings it to silence – the thought stops the instant it is seen.</p>
+        <p class="vb-intro"><strong>Step four:</strong> Done. There is nothing more to do. Noticing alone is the complete exercise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Every Thought Counts – Not Just the Heavy Ones</h2>
+        <p class="vb-intro">A widespread misunderstanding: mindfulness is often applied only to burdensome or difficult thoughts – worries, fears, rumination. But in this exercise, the principle applies without exception to every single thought that arises in consciousness. Even the most casual, mundane thought is to be observed in exactly the same way: <em>"I think I need to bring the laundry in soon"</em> or <em>"I think I'll make myself a coffee now."</em> Everything, truly everything that rises in consciousness gets noticed – without selection, without judgment, without sorting into important and unimportant.</p>
+        <p class="vb-intro" style="margin-top:1rem;">This very consistency is what makes the exercise so effective: it does not train coping with specific burdensome content, but the ability itself – the pure observation of thinking as such, regardless of what it happens to be about.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. The Three Traps: What This Exercise Explicitly Is Not</h2>
+        <p class="vb-intro">The moment a thought is noticed, the mind almost automatically wants to keep going – and this is exactly where the three most common traps quietly undo the exercise:</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Analyzing the thought:</strong> Do not pursue the question of why this thought is arising right now, what it means, or where it comes from. Any analysis is already a new thought, no longer observing.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Talking back to the thought:</strong> Do not argue with it internally, correct it, or try to replace it with a more positive version. Contradiction, too, remains thinking, not observing.</p>
+        <p class="vb-intro" style="margin-top:.6rem;"><strong>Judging the thought:</strong> Do not evaluate whether it is good or bad, useful or pointless. Any judgment already pulls the next chain of thought along with it.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Pure noticing means: seeing that there is a thought – and, through exactly that and nothing more, letting it disappear.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Why This Ability Is the Most Important One the Human Mind Has</h2>
+        <p class="vb-intro">Many well-known contemporary teachers speak about presence, awareness, and observing one's own thoughts – names like Eckhart Tolle or Rupert Spira among them. What often remains open in these teachings, however, is the concrete, step-by-step instruction: how exactly does this work, step by step, in practice, so that anyone can immediately understand and apply it? That is precisely the gap the four-step exercise described here closes.</p>
+        <p class="vb-intro" style="margin-top:1rem;">I call this observing ability meta-intelligence because it stands above every other form of intelligence: it does not decide the correct solution to a problem, but whether one notices at all which thought, which emotion, which inner automatism one is currently caught in – before reflexively acting out of it. Whoever trains this ability gains a tiny but decisive space of freedom between the rising thought and the automatic reaction to it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practical Tip:</strong> The exercise can be woven into everyday life at any moment – on a chair, on the train, in a waiting room. What matters is not the duration but the repetition: better to practice several times a day for a few minutes than rarely and for long stretches. Over time, noticing itself becomes a habit and begins to arise on its own, even outside the moments consciously set aside for practice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. An Observation from Over Thirty Years of Therapeutic Practice</h2>
+        <p class="vb-intro">As a naturopath with over thirty years of experience with clients and patients, I have repeatedly seen this ability for self-observation become the decisive turning point: the moment a person begins to consciously observe their own stream of thought for even a few minutes a day, their relationship to their own Enneagram fixation and the emotional and physical patterns arising from it usually begins to change as well. The noticing itself already has a regulating effect, long before any conscious change is even attempted.</p>
+        <p class="vb-intro" style="margin-top:1rem;">This principle is described in more depth, with further exercises and background, in my book "Meta-Intelligence" and in the audiobook of the same name.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+        ${bookTip("meta-intelligenz", "Meta-Intelligence – the intelligence that unites all other intelligences and unlocks the full potential of consciousness.", "Meta-Intelligence")}
+        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligence as an audiobook – ideal for on the go or for meditative listening, exploring the exercise described here in more depth.", "Meta-Intelligence (Audiobook)")}</div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and further spiritual literature by Detlef Rathmer can also be found on the Verlagshaus Rathmer homepage under "Personal Development."</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"The Practice of Conscious Pausing"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"The Gentle Way Out of the Illusion of Self"},
         {route:"stille", label:"9 Minutes of Silence"},
         {route:"practice", label:"Tools"},
       ])}
