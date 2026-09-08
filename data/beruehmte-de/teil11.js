@@ -1901,7 +1901,7 @@ export function barneyFishwickPortraitPage() {
 
         <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Die unauffällige Rolle statt der großen Geste</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Gegentyp der Vier: Das eigene Innenleben wird nicht zur Schau gestellt, sondern in beharrlicher, oft unspektakulärer Arbeit verarbeitet. Bei Fishwick zeigt sich das in der Auswahl seiner bekanntesten Filmrolle: Statt einer dramatischen Hauptfigur spielt er in „Living" an der Seite von Bill Nighy den bewusst unscheinbaren, kühl-distanzierten Sohn Michael – eine Rolle, die durch Zurückhaltung wirkt, nicht durch Auftrumpfen.</p>
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Das eigene Innenleben wird nicht zur Schau gestellt, sondern in beharrlicher, oft unspektakulärer Arbeit verarbeitet. Bei Fishwick zeigt sich das in der Auswahl seiner bekanntesten Filmrolle: Statt einer dramatischen Hauptfigur spielt er in „Living" an der Seite von Bill Nighy den bewusst unscheinbaren, kühl-distanzierten Sohn Michael – eine Rolle, die durch Zurückhaltung wirkt, nicht durch Auftrumpfen.</p>
           <p class="vb-intro">Auch seine Karriere insgesamt folgt diesem Muster: kein einzelner, lauter Durchbruch, sondern eine über Jahre verteilte Reihe kleinerer, sorgfältig gewählter Auftritte – „Showtrial", „House of the Dragon", „Big Boys", „The Buccaneers" –, die sich erst in der Summe zu einem sichtbaren Profil verdichten.</p>
         </blockquote>
 

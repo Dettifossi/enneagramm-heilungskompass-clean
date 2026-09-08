@@ -1898,7 +1898,7 @@ export function michaelDavidRosenbergPortraitPage() {
 
         <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Das stille Ausharren statt des lauten Dramas</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Gegentyp der Vier: Statt das eigene Leiden sichtbar zu inszenieren, wird es stoisch ertragen \u2013 Ausdauer statt Drama, Arbeit statt Klage. Rosenberg beschrieb die sechs Jahre bis zum \u201e\u00dcberraschungserfolg" selbst n\u00fcchtern als einen langen, m\u00fchsamen Weg aus hunderten Kneipenkonzerten und unz\u00e4hligen Stunden auf der Stra\u00dfe, nicht als romantische Geschichte vom pl\u00f6tzlichen Gl\u00fcck.</p>
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> ist nach Naranjo der Kontratyp der Vier: Statt das eigene Leiden sichtbar zu inszenieren, wird es stoisch ertragen \u2013 Ausdauer statt Drama, Arbeit statt Klage. Rosenberg beschrieb die sechs Jahre bis zum \u201e\u00dcberraschungserfolg" selbst n\u00fcchtern als einen langen, m\u00fchsamen Weg aus hunderten Kneipenkonzerten und unz\u00e4hligen Stunden auf der Stra\u00dfe, nicht als romantische Geschichte vom pl\u00f6tzlichen Gl\u00fcck.</p>
           <p class="vb-intro">Bezeichnend ist sein eigener Satz \u00fcber diese Zeit: \u201eIch dachte immer, wenn ich das h\u00e4tte, was ich jetzt habe, w\u00fcrde ich nie wieder klagen." Kein Selbstmitleid, sondern die n\u00fcchterne Bilanz eines Menschen, der lange durchhielt, ohne die eigene Not zur Schau zu stellen.</p>
         </blockquote>
 
