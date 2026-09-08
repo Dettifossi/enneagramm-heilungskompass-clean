@@ -2253,6 +2253,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Helmut Kohl – Self-Preservation Type 8",
     teaser:"SE8w9 · 1930–2017. German Chancellor (1982–1998), the \"Chancellor of Unity\". German reunification, the Maastricht Treaty, the introduction of the euro. The orangutan who waited patiently on its branch for decades - and put its full weight on the scale the moment it mattered.",
     land:"Germany", tags:["Politics","History"], gender:"m"},
+{ route:"beruehmte-ryke-geerd-hamer", name:"Ryke Geerd Hamer", added:"2026-09-08", subtyp:"SE8w9",
+    heading:"Ryke Geerd Hamer – Self-Preservation Type 8",
+    teaser:"SE8w9 · 1935–2017. Physician, founder of the scientifically discredited \"German New Medicine\". Loss of medical license, fraud conviction, several deaths among followers. The orangutan who never let go of its branch, even once it was clear the tree was burning.",
+    land:"Germany", tags:["Medicine","Controversial"], gender:"m"},
 { route:"beruehmte-paul-gauguin", name:"Paul Gauguin", added:"2026-08-29", subtyp:"SX8w7",
     heading:"Paul Gauguin – Sexual Type 8",
     teaser:"SX8w7 · 1848–1903. French painter. Left career, wife, and five children for art at 36, conflict with Van Gogh in Arles 1888, restless departures via Panama, Martinique to Tahiti and the Marquesas, open resistance against colonial administration until his death. Animal correspondence: Crocodile.",
@@ -28454,6 +28458,70 @@ function helmutKohlPortraitPage() {
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
+      ])}
+    </div>
+  `);
+}
+
+function rykeGeerdHamerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ryke-geerd-hamer-portrait.jpg" alt="Ryke Geerd Hamer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ryke Geerd Hamer</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">Physician, founder of "German New Medicine", 1935&ndash;2017 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan Whose Own Body Became the Proof</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> does not leave its branch when it is contradicted &ndash; it sits it out, patiently, heavily, hardly to be moved. In 1978, Ryke Geerd Hamer's son Dirk was accidentally shot and died months later from his injuries. Shortly afterward, Hamer himself was diagnosed with testicular cancer. From this double shock &ndash; his own loss and his own diagnosis &ndash; he derived a theory that would define the rest of his life: cancer, he claimed, never arises by chance, but is always the bodily consequence of a sudden, unexpected "conflict-shock experience". He himself was the first proof of his own doctrine.</p>
+          <p class="vb-intro">What began as one man's personal way of processing an unbearable loss did not settle into one hypothesis among many for Hamer &ndash; it hardened into an unshakeable certainty he called the "Iron Rule of Cancer", with which he declared the entire established field of oncology obsolete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: One's Own Experience as Untouchable Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in a wide social mission but in the uncompromising defense of its own, closest territory &ndash; for Hamer, that territory was nothing less than his own body, his own son, his own explanation for both. That is exactly why he defended his "German New Medicine" not as one possible perspective among several, but as his personal, inviolable property &ndash; against medical associations, against courts, against the revocation of his medical license in 1986, and later against an international arrest warrant.</p>
+          <p class="vb-intro">Every objection from outside was treated by Hamer not as factual criticism but as an attack on his innermost territory &ndash; on an explanatory system born from his own pain, which he therefore defended with a tenacity that went far beyond ordinary scientific conviction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Unshakeable Calm to the Last Day</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> shows up in Hamer not as warmth or a readiness to mediate, but as an almost motionless, barely rattled persistence. Over the decades he lost his medical license, was convicted of fraud in France, fled prosecution through Austria and Spain all the way to Norway &ndash; and still held unwaveringly to his doctrine until his death in 2017, still gave seminars, still gave interviews, never moved an inch from his original thesis.</p>
+          <p class="vb-intro">This combination of Eight and Nine produced no loud insistence on being right, but something quieter and, for that very reason, harder to shake: a calm that nothing &ndash; neither legal consequences nor public outrage &ndash; could unsettle. And that calm was exactly where the danger lay.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work and Its Shadow: People Who Trusted His Teaching</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Important note:</strong> "German New Medicine" is regarded by science as a discredited pseudo-medical theory with no sound empirical basis. Hamer's core claim &ndash; that cancer is fundamentally the result of a psychological conflict shock and can be healed by "resolving" that conflict rather than through oncological treatment &ndash; lacks any valid evidence. Several people who, following his teaching, decided against conventional cancer treatment have demonstrably died of their disease, including children. In 2004, Hamer was sentenced to prison in France for fraud; an international arrest warrant was issued.</p>
+          <p class="vb-intro">This is exactly where the dark underside of the SE8w9 pattern shows itself: the very same unshakeable steadfastness that, on a small scale, can look like impressive resilience against hostility became, in Hamer, a lethal stubbornness that cost human lives &ndash; not out of malice, but because defending his own territory, born from personal pain, remained more important to him than any correction in the face of the consequences.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this combination lies in the unusual ability not to repress an existential personal loss but to transform it into a comprehensive, internally coherent explanatory system &ndash; a form of processing that, in other people with the same pattern, can indeed work constructively.</p>
+          <p class="vb-intro">The shadow lies in the fact that this very unshakeability, combined with the territorial logic of the self-preservation Eight, made any self-correction impossible. Where a healthy Eight eventually acknowledges when the evidence turns against its own position, Hamer defended his "territory" to the very end &ndash; even once the cost of that defense had to be counted in human lives.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Branch That Was Never Let Go</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ryke Geerd Hamer's life shows the self-preservation Eight with a Nine-wing in perhaps its most troubling form: a conviction born of genuine pain that hardened into an immovable fortress &ndash; equally resistant to the revocation of his license, to court verdicts, and to the tragedy of real human deaths. The orangutan defended its branch to its final breath, even once it was long since clear that the tree was burning.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype, unshakeable steadfastness in a political setting"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also the same subtype"},
       ])}
     </div>
   `);
@@ -58186,7 +58254,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "The Centurion at the Cross"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Ryke Geerd Hamer", "The Centurion at the Cross"],
     fingerabdruecke: [
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
@@ -58206,7 +58274,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
         beschreibung: "In its destructive expression, the characteristic quiet, unassuming securing of power becomes not legitimate building, but ruthless, often lethal control over a criminal territory – led from hiding, without a public face.",
-        beleg: "Griselda Blanco: 'She ruled the cocaine trade in Miami not through charisma or political influence, but through quiet, ruthless control ... And whoever crossed her, disappeared'; Salvatore Riina, who remained undetected for 23 years while, as a mafia boss, he was responsible for hundreds of murders. Important: these two cases are rare, extreme exceptions among the SE8 portraits in this compass, not a typical expression."
+        beleg: "Griselda Blanco: 'She ruled the cocaine trade in Miami not through charisma or political influence, but through quiet, ruthless control ... And whoever crossed her, disappeared'; Salvatore Riina, who remained undetected for 23 years while, as a mafia boss, he was responsible for hundreds of murders; Ryke Geerd Hamer, who defended a medical doctrine born of his own pain against license revocation, court verdicts, and the tragedy of real deaths, unwavering to the end – not out of malice, but because defending his own territory remained more important to him than any correction in the face of the consequences. Important: these cases are rare, extreme exceptions among the SE8 portraits in this compass, not a typical expression."
       }
     ]
   },
@@ -119308,6 +119376,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-samuel-hahnemann": samuelHahnemannPortraitPage,
       "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-helmut-kohl": helmutKohlPortraitPage,
+      "beruehmte-ryke-geerd-hamer": rykeGeerdHamerPortraitPage,
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,

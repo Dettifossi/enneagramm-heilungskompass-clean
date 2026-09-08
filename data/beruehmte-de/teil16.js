@@ -1830,6 +1830,70 @@ export function robertOppenheimerPortraitPage() {
   `);
 }
 
+export function rykeGeerdHamerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ryke-geerd-hamer-portrait.jpg" alt="Ryke Geerd Hamer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ryke Geerd Hamer</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Arzt, Begründer der „Germanischen Neuen Medizin", 1935&ndash;2017 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan, dessen eigener Körper zum Beweis wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> verlässt seinen Ast nicht, wenn ihm widersprochen wird – er sitzt aus, geduldig, schwer, kaum zu bewegen. 1978 wurde Ryke Geerd Hamers Sohn Dirk versehentlich erschossen und starb Monate später an den Folgen. Kurz darauf erkrankte Hamer selbst an Hodenkrebs. Aus dieser doppelten Erschütterung – dem eigenen Verlust und der eigenen Diagnose – leitete er eine Theorie ab, die sein gesamtes weiteres Leben bestimmen sollte: Krebs entstehe nicht zufällig, sondern immer als körperliche Folge eines plötzlichen, unerwarteten „Konfliktschock-Erlebnisses". Er selbst war der erste Beleg seiner eigenen Lehre.</p>
+          <p class="vb-intro">Was als persönliche Verarbeitung eines unfassbaren Verlusts begann, verfestigte sich bei Hamer nicht zu einer Hypothese unter vielen, sondern zu einer unumstößlichen Gewissheit, die er „Eiserne Regel des Krebs" nannte und mit der er die gesamte etablierte Onkologie für obsolet erklärte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Acht: Die eigene Erfahrung als unantastbares Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> investiert ihre Kraft nach Naranjo nicht in eine weite gesellschaftliche Mission, sondern in die kompromisslose Verteidigung des eigenen, engsten Terrains – bei Hamer war dieses Terrain nichts Geringeres als der eigene Körper, der eigene Sohn, die eigene Erklärung für beides. Genau darum verteidigte er seine „Germanische Neue Medizin" nicht als eine von mehreren möglichen Sichtweisen, sondern als sein persönliches, unangreifbares Eigentum – gegen Fachgesellschaften, Gerichte, den Entzug seiner Approbation 1986 und später gegen ein internationales Haftbefehlsverfahren.</p>
+          <p class="vb-intro">Jeder Widerspruch von außen wurde von Hamer nicht als sachliche Kritik behandelt, sondern als Angriff auf ureigenstes Territorium – auf ein Erklärungssystem, das aus seinem eigenen Schmerz geboren war und das er deshalb mit einer Verbissenheit verteidigte, die weit über normale wissenschaftliche Überzeugung hinausging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Unerschütterliche Ruhe bis zum letzten Tag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> zeigt sich bei Hamer nicht als Wärme oder Vermittlungsbereitschaft, sondern als eine fast reglose, kaum zu erschütternde Beharrlichkeit. Über Jahrzehnte hinweg verlor er seine ärztliche Zulassung, wurde in Frankreich wegen Betrugs verurteilt, floh vor der Strafverfolgung über Österreich und Spanien bis nach Norwegen – und hielt trotzdem bis zu seinem Tod 2017 unbeirrt an seiner Lehre fest, hielt weiter Seminare, gab weiter Interviews, wich keinen Millimeter von seiner ursprünglichen These ab.</p>
+          <p class="vb-intro">Diese Kombination aus Acht und Neun erzeugte kein lautes Rechthaben, sondern etwas Stilleres und dadurch schwerer zu Erschütterndes: eine Ruhe, die sich durch nichts – weder juristische Konsequenzen noch öffentliche Empörung – aus der Fassung bringen ließ. Genau darin lag auch die Gefahr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk und sein Schatten: Menschen, die seiner Lehre vertrauten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Wichtiger Hinweis:</strong> Die „Germanische Neue Medizin" gilt in der Wissenschaft als widerlegte Pseudomedizin ohne belastbare empirische Grundlage. Hamers Kernbehauptung, Krebs sei grundsätzlich Folge eines seelischen Konfliktschocks und lasse sich durch dessen „Lösung" statt durch onkologische Behandlung heilen, entbehrt jeder validen Evidenz. Mehrere Menschen, die sich – seiner Lehre folgend – gegen eine schulmedizinische Krebsbehandlung entschieden, sind nachweislich an ihrer Erkrankung gestorben, darunter auch Kinder. 2004 wurde Hamer in Frankreich wegen Betrugs zu einer Haftstrafe verurteilt; ein internationaler Haftbefehl wurde erlassen.</p>
+          <p class="vb-intro">Genau hier zeigt sich die dunkle Kehrseite der SE8w9-Prägung: Dieselbe unerschütterliche Standfestigkeit, die im Kleinen als beeindruckende Widerstandskraft gegen Anfeindungen erscheinen kann, wurde bei Hamer zu einer tödlichen Sturheit, die Menschenleben kostete – nicht aus Bosheit, sondern weil die Verteidigung des eigenen, aus persönlichem Schmerz geborenen Territoriums für ihn wichtiger blieb als jede Korrektur angesichts der Konsequenzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Kombination liegt in der ungewöhnlichen Fähigkeit, einen existenziellen persönlichen Verlust nicht zu verdrängen, sondern in ein umfassendes, in sich schlüssiges Erklärungssystem zu verwandeln – eine Form von Verarbeitung, die bei anderen Menschen mit derselben Prägung durchaus konstruktiv wirken kann.</p>
+          <p class="vb-intro">Der Schatten liegt darin, dass genau diese Unerschütterlichkeit, kombiniert mit der territorialen Logik der Selbsterhaltungs-Acht, jede Selbstkorrektur unmöglich machte. Wo eine gesunde Acht irgendwann anerkennt, wenn die Faktenlage sich gegen die eigene Position wendet, verteidigte Hamer sein „Territorium" bis zuletzt – auch als die Kosten dieser Verteidigung in Menschenleben zu zählen waren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Ast, der nicht losgelassen wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ryke Geerd Hamers Leben zeigt die selbsterhaltende Acht mit Neunerflügel in ihrer wohl bedrückendsten Form: eine aus echtem Schmerz geborene Überzeugung, die zur unbeweglichen Festung wurde – gegen Approbationsentzug, Gerichtsurteile und die Tragödien realer Todesfälle gleichermaßen resistent. Der Orang-Utan verteidigte seinen Ast bis zum letzten Atemzug, auch als längst klar war, dass der Baum brannte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp, unerschütterliche Standfestigkeit im politischen Rahmen"},
+          {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – ebenfalls derselbe Subtyp"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 export function michaelBerrymanPortraitPage() {
   return shell(`
     <div class="page-container">
