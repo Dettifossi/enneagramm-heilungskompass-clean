@@ -2257,6 +2257,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Ryke Geerd Hamer – Self-Preservation Type 8",
     teaser:"SE8w9 · 1935–2017. Physician, founder of the scientifically discredited \"German New Medicine\". Loss of medical license, fraud conviction, several deaths among followers. The orangutan who never let go of its branch, even once it was clear the tree was burning.",
     land:"Germany", tags:["Medicine","Controversial"], gender:"m"},
+{ route:"beruehmte-boris-grundl", name:"Boris Grundl", added:"2026-09-08", subtyp:"SE8w9",
+    heading:"Boris Grundl – Self-Preservation Type 8",
+    teaser:"SE8w9 · b. 1962. Entrepreneur, speaker, bestselling author (\"Consequent\"). Paralyzed from the neck down after a diving accident in 1984, built a second career as a leadership coach from it. The orangutan who lost its branch – and built a new foothold from its own strength.",
+    land:"Germany", tags:["Business","Coaching"], gender:"m"},
 { route:"beruehmte-paul-gauguin", name:"Paul Gauguin", added:"2026-08-29", subtyp:"SX8w7",
     heading:"Paul Gauguin – Sexual Type 8",
     teaser:"SX8w7 · 1848–1903. French painter. Left career, wife, and five children for art at 36, conflict with Van Gogh in Arles 1888, restless departures via Panama, Martinique to Tahiti and the Marquesas, open resistance against colonial administration until his death. Animal correspondence: Crocodile.",
@@ -28458,6 +28462,70 @@ function helmutKohlPortraitPage() {
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
+      ])}
+    </div>
+  `);
+}
+
+function borisGrundlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-boris-grundl-portrait.jpg" alt="Boris Grundl – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Grundl</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, speaker, author, b. 1962 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan Who Would Not Let Go of the Branch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> does not let a broken branch throw it out of the tree &ndash; it finds a hold wherever a hold remains, and stays. In 1984, at age 22, Boris Grundl broke his cervical spine diving headfirst into shallow water and has been largely paralyzed from the neck down ever since. Before the accident he had been an ambitious competitive athlete with clear goals; overnight, his own body had become an insurmountable opponent.</p>
+          <p class="vb-intro">Rather than settle into the role of victim, Grundl began running what remained of his life with the same rigor he had once brought to training &ndash; and built from it, over the following decades, a second career as an entrepreneur, keynote speaker, and bestselling author.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: One's Own Life as Non-Negotiable Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> secures, according to Naranjo, not a social cause but its own closest territory &ndash; for Grundl, that territory is total control over his own stance toward his own fate. His central life motto, which he made the core of his entire teaching, is "consequence": it is not circumstances that determine the outcome, but the decision how to deal with them. He has defended this position uncompromisingly for more than three decades &ndash; against every expectation that he present himself as a victim, against every temptation to use pity as currency.</p>
+          <p class="vb-intro">Out of this radical self-responsibility he founded the Grundl Leadership Academy and built his own training and consulting company &ndash; his own, self-controlled territory, operating exclusively by his own, hard-won principles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Calm Instead of Combative Rhetoric</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> shows up in Grundl not as loud confrontation, but as a remarkably calm, almost casual way of delivering his tough messages. On stage and in interviews he rarely comes across as combative &ndash; his philosophy of consequence arrives composed, matter-of-fact, almost gentle, even though its content leaves little room for excuses. This combination of unshakeable inner rigor and outward calm is exactly what makes his message acceptable to so many.</p>
+          <p class="vb-intro">The same calm shows in how he handles his own disability: Grundl speaks openly about his quadriplegia, without dramatizing or hiding it &ndash; a rock that simply is, without constantly needing to explain itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Accident Victim to Sought-After Leadership Coach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the accident, Grundl systematically built a second existence: he wrote several bestsellers, including "Consequent" and "If Not You, Who Then?", delivers keynote speeches to the boards of international corporations, and trains executives at his academy in what he calls "cause logic" &ndash; a philosophy of responsibility that locates cause and effect strictly within the individual rather than in external circumstances.</p>
+          <p class="vb-intro">He applies this same rigor toward himself unchanged to his clients: where other coaches console, Grundl confronts people with their own responsibility &ndash; a severity that only rings credible because he applied it first, and hardest, to himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this combination shows in Grundl's extraordinary ability to build, out of an existential loss of control over his own body, a new and unshakeable form of self-determination &ndash; not despite his own limits, but by means of them.</p>
+          <p class="vb-intro">The shadow lies in the danger of turning one's own, hard-won consequence into a universal yardstick for others: those without the same willpower or the same starting conditions can quickly feel overwhelmed rather than encouraged by the severity of this philosophy &ndash; a typical SE8 trap, declaring one's own territorial defense the general norm without being asked.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Branch That Became His Own Foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Boris Grundl's life shows the self-preservation Eight with a Nine-wing in its most constructive form: a force directed not against others, but first and foremost against his own temptation to give up. The orangutan lost its original branch &ndash; and built itself, without an audience, without self-pity, a new foothold, raised by its own strength, from which it now carries others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – same subtype"},
+        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Dr. Ryke Geerd Hamer (SE8w9) – also the same subtype, here with a destructive shadow side"},
       ])}
     </div>
   `);
@@ -58254,7 +58322,7 @@ const LEBENSMUSTERKOMPASS = {
   SE8: {
     tier: "Orangutan",
     kernthema: "Solitary, quiet territory with no need for an audience (Naranjo: Satisfaction)",
-    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Ryke Geerd Hamer", "The Centurion at the Cross"],
+    beispiele: ["Dr. Umberto Eco", "Jacqueline Mars", "Indra Nooyi", "Toni Morrison", "Dhapanbal Yunupingu", "Golda Meir", "Dr. Biruté Galdikas", "Winston Churchill", "Helmut Kohl", "Griselda Blanco", "Salvatore Riina", "Ryke Geerd Hamer", "Boris Grundl", "The Centurion at the Cross"],
     fingerabdruecke: [
       {
         titel: "Solitary, quiet territory with no need for an audience or validation",
@@ -58269,7 +58337,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Unshakable steadfastness under extreme pressure",
         beschreibung: "When the situation becomes most difficult, a physical and psychological immovability appears that does not yield even under the greatest external pressure – not through loud resistance, but through sheer, unshakable staying.",
-        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister; the centurion at the cross, who said nothing during the crucifixion, not at the mockery, not at the final cry, 'every fiber receiving, but outwardly very calm' – until a single sentence, spoken quietly, carried everything: 'Truly this man was the Son of God.'; Helmut Kohl, who after a severe fall in 2008 spent nine years largely dependent on care and almost entirely absent from public life – while his control over his immediate circle, organized only from the background, remained intact until the very end."
+        beleg: "Winston Churchill, who in 1940 'stayed on the branch while the storm raged': 'His body is built to stay – not to flee' – and who concealed a severe stroke in 1953 from the public for weeks rather than give up his office; Golda Meir: 'This is not the story of a career. It's the story of a survival – and a will that would not break' – a will that also carried her through a cancer diagnosis kept secret for seventeen years, throughout her entire term as Prime Minister; the centurion at the cross, who said nothing during the crucifixion, not at the mockery, not at the final cry, 'every fiber receiving, but outwardly very calm' – until a single sentence, spoken quietly, carried everything: 'Truly this man was the Son of God.'; Helmut Kohl, who after a severe fall in 2008 spent nine years largely dependent on care and almost entirely absent from public life – while his control over his immediate circle, organized only from the background, remained intact until the very end; Boris Grundl, paralyzed from the neck down after a diving accident in 1984, who turned that not into a victim's stance but into a radical philosophy of consequence and a second career as a sought-after leadership coach."
       },
       {
         titel: "When the same quiet territorial control becomes ruthless and lethal (shadow form)",
@@ -119377,6 +119445,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mohammed": mohammedPortraitPage,
       "beruehmte-helmut-kohl": helmutKohlPortraitPage,
       "beruehmte-ryke-geerd-hamer": rykeGeerdHamerPortraitPage,
+      "beruehmte-boris-grundl": borisGrundlPortraitPage,
       "beruehmte-gerhard-schroeder": gerhardSchroederPortraitPage,
       "beruehmte-konrad-adenauer": konradAdenauerPortraitPage,
       "beruehmte-edgar-allan-poe": edgarAllanPoePortraitPage,

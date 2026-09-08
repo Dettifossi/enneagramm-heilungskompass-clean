@@ -1894,3 +1894,67 @@ export function eckhartTollePortraitPage() {
     </div>
   `);
 }
+
+export function borisGrundlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-boris-grundl-portrait.jpg" alt="Boris Grundl – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Boris Grundl</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, Redner, Autor, geb. 1962 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan, der seinen Ast nicht aufgab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> lässt sich von einem gebrochenen Ast nicht aus dem Baum werfen – er sucht Halt, wo Halt noch ist, und bleibt. 1984, mit 22 Jahren, brach sich Boris Grundl bei einem Kopfsprung ins flache Wasser die Halswirbelsäule und ist seither vom Hals abwärts weitgehend gelähmt. Zuvor war er ambitionierter Leistungssportler mit klaren Zielen; von einem Tag auf den anderen war der eigene Körper zum unüberwindbaren Gegner geworden.</p>
+          <p class="vb-intro">Statt sich mit der Rolle des Opfers zu arrangieren, begann Grundl, sein verbliebenes Leben mit derselben Härte zu führen, mit der er zuvor trainiert hatte – und baute daraus über die folgenden Jahrzehnte eine zweite Karriere als Unternehmer, Keynote-Speaker und Bestsellerautor auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Acht: Das eigene Leben als nicht verhandelbares Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> sichert nach Naranjo nicht ein gesellschaftliches Anliegen ab, sondern das eigene, engste Terrain – bei Grundl ist dieses Terrain die vollständige Kontrolle über die eigene Haltung zum eigenen Schicksal. Sein zentrales Lebensmotto, das er zum Kern seiner gesamten Lehre machte, lautet „Konsequenz": Nicht die Umstände bestimmen das Ergebnis, sondern die Entscheidung, wie mit ihnen umgegangen wird. Diese Position verteidigt er seit über drei Jahrzehnten kompromisslos – gegen jede Erwartung, er möge sich als Betroffener präsentieren, gegen jede Verlockung, Mitleid als Währung zu nutzen.</p>
+          <p class="vb-intro">Aus dieser radikalen Eigenverantwortung heraus gründete er die Grundl Leadership Akademie und baute ein eigenes Trainings- und Beratungsunternehmen auf – sein eigenes, selbst kontrolliertes Territorium, das ausschließlich nach seinen eigenen, hart erarbeiteten Prinzipien funktioniert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit statt Kampfrhetorik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> zeigt sich bei Grundl nicht in lauter Konfrontation, sondern in einer bemerkenswert ruhigen, fast beiläufigen Art, seine harten Botschaften zu vermitteln. Auf Bühnen und in Interviews wirkt er selten kämpferisch – seine Konsequenz-Philosophie kommt gefasst, sachlich, fast schon gütig daher, obwohl der Inhalt selbst wenig Raum für Ausreden lässt. Diese Kombination aus unerschütterlicher innerer Härte und äußerer Gelassenheit macht seine Botschaft für viele erst annehmbar.</p>
+          <p class="vb-intro">Auch im Umgang mit seiner eigenen Behinderung zeigt sich dieselbe Ruhe: Grundl spricht offen über seine Querschnittlähmung, ohne sie zu dramatisieren oder zu verstecken – ein Fels, der einfach da ist, ohne sich ständig erklären zu müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Unfallopfer zum gefragten Führungskräfte-Coach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Grundl baute nach dem Unfall systematisch eine zweite Existenz auf: Er schrieb mehrere Bestseller, darunter „Konsequent" und „Wenn nicht du, wer dann?", hält Keynote-Vorträge vor Vorständen internationaler Konzerne und bildet mit seiner Akademie Führungskräfte in seiner „Cause-Logik" genannten Verantwortungsphilosophie aus, die Ursache und Wirkung strikt beim Einzelnen verortet statt bei äußeren Umständen.</p>
+          <p class="vb-intro">Diese Konsequenz gegenüber sich selbst überträgt er unverändert auf seine Klienten: Wo andere Coaches trösten, konfrontiert Grundl mit der eigenen Verantwortung – eine Strenge, die nur deshalb glaubwürdig wirkt, weil er sie zuerst und am härtesten gegen sich selbst angewendet hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Kombination zeigt sich bei Grundl in einer außergewöhnlichen Fähigkeit, aus einem existenziellen Verlust der Kontrolle über den eigenen Körper heraus eine neue, unerschütterliche Form von Selbstbestimmung zu errichten – nicht trotz, sondern mithilfe der eigenen Grenzen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, die eigene, hart erkämpfte Konsequenz zum universellen Maßstab für andere zu machen: Wer nicht über dieselbe Willenskraft oder dieselben Voraussetzungen verfügt, kann sich von der Härte dieser Philosophie schnell überfordert statt ermutigt fühlen – eine typische SE8-Falle, die eigene Territorialverteidigung ungefragt zur allgemeinen Norm zu erklären.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Ast, der zum eigenen Fundament wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Boris Grundls Leben zeigt die selbsterhaltende Acht mit Neunerflügel in ihrer konstruktivsten Form: eine Kraft, die sich nicht gegen andere richtet, sondern zuerst und vor allem gegen die eigene Versuchung, aufzugeben. Der Orang-Utan verlor seinen ursprünglichen Ast – und baute sich, ohne Publikum, ohne Selbstmitleid, einen neuen, aus eigener Kraft errichteten Standort, von dem aus er heute andere trägt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp"},
+          {route:"beruehmte-ryke-geerd-hamer", label:"Porträt: Dr. Ryke Geerd Hamer (SE8w9) – ebenfalls derselbe Subtyp, hier jedoch mit destruktiver Schattenseite"},
+        ])}
+      </div>
+    </div>
+  `);
+}
