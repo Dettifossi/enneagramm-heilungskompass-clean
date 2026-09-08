@@ -1912,7 +1912,7 @@ export function borisGrundlPortraitPage() {
 
         <h2 class="vb-section">1. Der Orang-Utan, der seinen Ast nicht aufgab</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Orang-Utan</strong> lässt sich von einem gebrochenen Ast nicht aus dem Baum werfen – er sucht Halt, wo Halt noch ist, und bleibt. 1984, mit 22 Jahren, brach sich Boris Grundl bei einem Kopfsprung ins flache Wasser die Halswirbelsäule und ist seither vom Hals abwärts weitgehend gelähmt. Zuvor war er ambitionierter Leistungssportler mit klaren Zielen; von einem Tag auf den anderen war der eigene Körper zum unüberwindbaren Gegner geworden.</p>
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> lässt sich von einem gebrochenen Ast nicht aus dem Baum werfen – er sucht Halt, wo noch Halt ist, und bleibt. 1984, mit 22 Jahren, brach sich Boris Grundl bei einem Kopfsprung ins flache Wasser die Halswirbelsäule und ist seither vom Hals abwärts weitgehend gelähmt. Zuvor war er ambitionierter Leistungssportler mit klaren Zielen; von einem Tag auf den anderen war der eigene Körper zum unüberwindbaren Gegner geworden.</p>
           <p class="vb-intro">Statt sich mit der Rolle des Opfers zu arrangieren, begann Grundl, sein verbliebenes Leben mit derselben Härte zu führen, mit der er zuvor trainiert hatte – und baute daraus über die folgenden Jahrzehnte eine zweite Karriere als Unternehmer, Keynote-Speaker und Bestsellerautor auf.</p>
         </blockquote>
 
