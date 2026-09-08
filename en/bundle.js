@@ -27076,7 +27076,7 @@ function neilHarbissonPortraitPage() {
 
         <h2 class="vb-section">4. The Work: From a Passport Dispute to Recognized Cyborg Status</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">When the UK Passport Authority refused to allow the antenna in his passport photo, Harbisson argued persistently that it was not an accessory but part of his body – and prevailed: he has since been officially recognized as the world's first cyborg. What began as a makeshift solution became an independent art form: he paints music, translates faces into sound portraits, and turns speeches into patterns of color.</p>
+          <p class="vb-intro">When the UK Passport Authority refused to allow the antenna in his passport photo, Harbisson argued persistently that it was not an accessory but part of his body – and prevailed: he has since been officially recognized as the world's first cyborg (a person whose body is permanently fused with a machine). What began as a makeshift solution became an independent art form: he paints music, translates faces into sound portraits, and turns speeches into patterns of color.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with a Five Wing</h2>

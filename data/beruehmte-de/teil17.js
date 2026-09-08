@@ -1919,7 +1919,7 @@ export function neilHarbissonPortraitPage() {
 
         <h2 class="vb-section">4. Das Werk: Vom Reisepass-Streit zum anerkannten Cyborg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Als die britische Passbehörde sich weigerte, die Antenne auf seinem Passfoto zuzulassen, argumentierte Harbisson beharrlich, sie sei kein Accessoire, sondern Teil seines Körpers – und setzte sich durch: Er gilt seither offiziell als weltweit erster anerkannter Cyborg. Aus seiner ursprünglichen Notlösung wurde ein eigenständiges Kunstwerk: Er malt Musik, übersetzt Gesichter in Klangporträts und verwandelt Reden in Farbmuster.</p>
+          <p class="vb-intro">Als die britische Passbehörde sich weigerte, die Antenne auf seinem Passfoto zuzulassen, argumentierte Harbisson beharrlich, sie sei kein Accessoire, sondern Teil seines Körpers – und setzte sich durch: Er gilt seither offiziell als weltweit erster anerkannter Cyborg (ein Mensch, dessen Körper dauerhaft mit einer Maschine verschmolzen ist). Aus seiner ursprünglichen Notlösung wurde ein eigenständiges Kunstwerk: Er malt Musik, übersetzt Gesichter in Klangporträts und verwandelt Reden in Farbmuster.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier mit Fünferflügel</h2>
